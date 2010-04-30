@@ -1,0 +1,318 @@
+# translation of validatorsplugin.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: validatorsplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-12 23:08+0000\n"
+"PO-Revision-Date: 2010-02-13 20:22+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:01+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: plugin_validators.cpp:60
+msgid "Validate Web Page"
+msgstr "वेब पृष्ठ प्रमाणित गर्नुहोस्"
+
+#: plugin_validators.cpp:131
+msgid "&Validate Web Page"
+msgstr "वेब पृष्ठ प्रमाणित गर्नुहोस्"
+
+#: plugin_validators.cpp:137
+msgid "Validate HTML (by URI)"
+msgstr ""
+
+#: plugin_validators.cpp:141
+msgid "Validate HTML (by Upload)"
+msgstr ""
+
+#: plugin_validators.cpp:145
+msgid "Validate CSS (by URI)"
+msgstr ""
+
+#: plugin_validators.cpp:149
+msgid "Validate CSS (by Upload)"
+msgstr ""
+
+#: plugin_validators.cpp:154
+msgid "Validate &Links"
+msgstr "लिङ्क प्रमाणित गर्नुहोस्"
+
+#: plugin_validators.cpp:160
+msgid "Validate Page"
+msgstr ""
+
+#: plugin_validators.cpp:164
+msgid "View Validator Report"
+msgstr ""
+
+#: plugin_validators.cpp:172
+msgid "C&onfigure Validator..."
+msgstr "वैधताकर्ता कन्फिगर गर्नुहोस्..."
+
+#: plugin_validators.cpp:318 validatorsdialog.cpp:49
+msgid "Remote Validation"
+msgstr ""
+
+#: plugin_validators.cpp:325
+msgid "Local Validation"
+msgstr ""
+
+#: plugin_validators.cpp:364 plugin_validators.cpp:385
+#: plugin_validators.cpp:391 plugin_validators.cpp:402
+#: plugin_validators.cpp:410
+#, kde-format
+msgid "1 error"
+msgid_plural "%1 errors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin_validators.cpp:365 plugin_validators.cpp:386
+#: plugin_validators.cpp:392 plugin_validators.cpp:403
+#: plugin_validators.cpp:411
+#, kde-format
+msgid "1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin_validators.cpp:366 plugin_validators.cpp:387
+#: plugin_validators.cpp:404
+#, kde-format
+msgid "1 accessibility warning"
+msgid_plural "%1 accessibility warnings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin_validators.cpp:368
+#, kde-format
+msgctxt "%1 is the error count string, %2 the warning count string"
+msgid "%1, %2"
+msgstr ""
+
+#: plugin_validators.cpp:370
+msgid "HTML tidy results:"
+msgstr ""
+
+#: plugin_validators.cpp:384
+#, kde-format
+msgctxt ""
+"%1 is the error count string, %2 the warning count string, %3 the "
+"accessibility warning string"
+msgid "Page: %1, %2, %3"
+msgstr ""
+
+#: plugin_validators.cpp:390
+#, kde-format
+msgctxt "%1 is the error count string, %2 the warning count string"
+msgid "Page: %1, %2"
+msgstr ""
+
+#: plugin_validators.cpp:400
+#, kde-format
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string, %4 the accessibility warning string"
+msgid "Frame '%1': %2, %3, %4"
+msgstr ""
+
+#: plugin_validators.cpp:408
+#, kde-format
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string"
+msgid "Frame '%1': %2, %3"
+msgstr ""
+
+#: plugin_validators.cpp:461
+#, kde-format
+msgid ""
+"<qt>The selected URL cannot be verified because it contains a password. "
+"Sending this URL to <b>%1</b> would put the security of <b>%2</b> at "
+"risk.</qt>"
+msgstr ""
+"<qt>चयन गरिएको यूआरएल रूजू गर्न सकिँदैन किनभने यसले पासवर्ड समाविष्ट गर्दछ । "
+"यो यूआरएल<b>%1</b> पठाउँनाले जोखिममा <b>%2</b> को सुरक्षा राख्नेछ ।</qt>"
+
+#: plugin_validators.cpp:534
+msgid "Cannot Validate Source"
+msgstr "स्रोत प्रमाणीत गर्न सकिँदैन"
+
+#: plugin_validators.cpp:535
+msgid "You cannot validate anything except web pages with this plugin."
+msgstr ""
+"तपाईँले यो वेब प्लगइनद्वारा वेब पृष्ठहरू बाहेक केही पनि प्रमाणित गर्न "
+"सक्नुहुन्न ।"
+
+#: plugin_validators.cpp:546
+msgid "Malformed URL"
+msgstr "विकृत यूआरएल"
+
+#: plugin_validators.cpp:547
+msgid "The URL you entered is not valid, please correct it and try again."
+msgstr ""
+"तपाईँले प्रविष्ट गर्नुभएको यूआरएल अवैध छ, कृपया यसलाई सुधार गर्नुहोस् र फेरि "
+"प्रयास गर्नुहोस् ।"
+
+#: plugin_validators.cpp:573
+msgid "Validation"
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:18
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Accessibility validation level:"
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:26
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: rc.cpp:6
+msgid "0 (No check)"
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:31
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: rc.cpp:9
+msgid "1"
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:36
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: rc.cpp:12
+msgid "2"
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:41
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: rc.cpp:15
+msgid "3"
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:49
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, runAfterLoading)
+#: rc.cpp:18
+msgid ""
+"If this option is enabled, the internal HTML validator is executed after a "
+"webpage has been loaded."
+msgstr ""
+
+#. i18n: file: internalvalidator.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, runAfterLoading)
+#: rc.cpp:21
+msgid "Run after loading"
+msgstr ""
+
+#. i18n: file: plugin_validators.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:24
+msgid "&Tools"
+msgstr "उपकरण"
+
+#. i18n: file: plugin_validators.rc:8
+#. i18n: ectx: ToolBar (extraToolBar)
+#: rc.cpp:27
+msgid "Extra Toolbar"
+msgstr "अतिरिक्त उपकरणपट्टी"
+
+#. i18n: file: remotevalidators.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:30
+msgid "HTML/XML Validator"
+msgstr "एचटीएमएल/एक्सएमएल वैधताकर्ता"
+
+#. i18n: file: remotevalidators.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: remotevalidators.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: remotevalidators.ui:120
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:33 rc.cpp:42 rc.cpp:51
+msgid "URL:"
+msgstr "यूआरएल:"
+
+#. i18n: file: remotevalidators.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: remotevalidators.ui:91
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:36 rc.cpp:45
+msgid "Upload:"
+msgstr "अपलोड गर्नुहोस्:"
+
+#. i18n: file: remotevalidators.ui:65
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:39
+msgid "CSS Validator"
+msgstr "सीएसएस वैधताकर्ता"
+
+#. i18n: file: remotevalidators.ui:114
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:48
+msgid "Link Validator"
+msgstr "लिङ्क वैधताकर्ता"
+
+#. i18n: file: reportwidget.ui:34
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: rc.cpp:54
+msgid "Frame"
+msgstr ""
+
+#. i18n: file: reportwidget.ui:39
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: rc.cpp:57
+msgid "Row"
+msgstr ""
+
+#. i18n: file: reportwidget.ui:44
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: rc.cpp:60
+msgid "Column"
+msgstr ""
+
+#. i18n: file: reportwidget.ui:49
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: rc.cpp:63
+msgid "Message"
+msgstr ""
+
+#: rc.cpp:64
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Arne Goetje,Nabin Gautam"
+
+#: rc.cpp:65
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com,,,arne.goetje@canonical.com,"
+
+#: reportdialog.cpp:63
+msgid "Validation Report"
+msgstr ""
+
+#: reportdialog.cpp:77
+msgctxt "Validation status"
+msgid "Error"
+msgstr ""
+
+#: reportdialog.cpp:85
+msgctxt "Validation status"
+msgid "Warning"
+msgstr ""
+
+#: reportdialog.cpp:93
+msgctxt "Validation status"
+msgid "Accessibility warning"
+msgstr ""
+
+#: validatorsdialog.cpp:35
+msgid "Configure Validator Plugin"
+msgstr ""
+
+#: validatorsdialog.cpp:42
+msgid "Internal Validation"
+msgstr ""

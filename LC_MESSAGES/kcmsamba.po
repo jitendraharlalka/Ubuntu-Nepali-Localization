@@ -1,0 +1,357 @@
+# translation of kcmsamba.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsamba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:59+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 03:01+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kcmsambaimports.cpp:44 ksmbstatus.cpp:51
+msgid "Type"
+msgstr "प्रकार"
+
+#: kcmsambaimports.cpp:45
+msgid "Resource"
+msgstr "संसाधन"
+
+#: kcmsambaimports.cpp:46
+msgid "Mounted Under"
+msgstr "तल माउन्ट गरिएको"
+
+#: kcmsambaimports.cpp:48
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+"यो सूचीले तपाईँको प्रणालीमा अन्य होस्टले माउन्ट गरेका साम्बा र NFS सेयर "
+"गरिएका संसाधन देखाउछ । \"प्रकार\" स्तम्भले माउन्ट गरिएका संसाधन साम्बा वा "
+"NFS प्रकारको संसाधन भएको बताउछ । \"संसाधन\" स्तम्भले सेयर गरिएका संसाधनका "
+"वर्णनात्मक नाम देखाउछ । अन्त्यमा, तेस्रो स्तम्भ, \"माउन्ट गरिएको तल\" "
+"तपाईँको प्रणालीमा सेयर गरिएका संसाधन माउन्ट गरिएका ठाउँमा लेबुल गरिएको स्थान "
+"देखाउछ ।"
+
+#: kcmsambalog.cpp:38
+msgid "Samba log file: "
+msgstr "साम्बा लग फाइल: "
+
+#: kcmsambalog.cpp:38
+msgid "Show opened connections"
+msgstr "खुलेका जडान देखाउनुहोस्"
+
+#: kcmsambalog.cpp:38
+msgid "Show closed connections"
+msgstr "बन्द जडान देखाउनुहोस्"
+
+#: kcmsambalog.cpp:39
+msgid "Show opened files"
+msgstr "खुलेका फाइल देखाउनुहोस्"
+
+#: kcmsambalog.cpp:39
+msgid "Show closed files"
+msgstr "बन्द गरिएका फाइल देखाउनुहोस्"
+
+#: kcmsambalog.cpp:39
+msgid "&Update"
+msgstr "अद्यावधिक"
+
+#: kcmsambalog.cpp:57
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+"यो पृष्ठले तपाईँका लग फाइलका सामाग्री मिल्दो सजावटमा प्रस्तुत गर्छ । तपाईँको "
+"कम्प्युटरका लागि यहाँ सूचीकृत लग फाइल जाँच गर्नुहोस् । यदि तपाईँलाई आवश्यक "
+"भएमा, लग फाइलको नाम वा स्थान सुधार गर्नुहोस् र त्यसपछि \"अद्यावधिक\" बटनमा "
+"क्लिक गर्नुहोस् ।"
+
+#: kcmsambalog.cpp:62
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr ""
+"तपाईँको कम्प्युटरका जडान खुल्दा विवरण हेर्न चाहनुहुन्छ भने यो विकल्प चिनो "
+"गर्नुहोस् ।"
+
+#: kcmsambalog.cpp:65
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr ""
+"तपाईँको कम्प्युटरका जडान बन्द हुदाका घटना हेर्न चाहनुहुन्छ भने यो विकल्प "
+"चिनो गर्नुहोस् ।"
+
+#: kcmsambalog.cpp:68
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+"यदि तपाईँको कम्प्युटरमा टाढाका प्रयोगकर्ताले खोलेका फाइल हेर्न चाहनुहुन्छ "
+"भने यो विकल्प चिनो लगाउनुहोस् । साम्बा लग स्तर कम्तिमा २ मा सेट नहुदा लग "
+"नभएका फाइल खोल्ने बन्द गर्ने घटना याद गर्नुहोस् (तपाईँले यो मोड्युल प्रयोग "
+"गरेर लग स्तर सेट गर्न सक्नुहुदैँन) ।"
+
+#: kcmsambalog.cpp:74
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+"यदि तपाईँ टाढाका प्रयोगकर्ताले बन्द भएका फाइल खोल्दा हुने घटना हेर्न "
+"चाहनुहुन्छ भने यो विकल्प चिनो लगाउनुहोस् । साम्बा लग स्तर कम्तिमा २ मा सेट "
+"नहुदा लग नभएका फाइल सुरु/बन्द गर्ने घटना याद गर्नुहोस् (तपाईँले यो मोड्युल "
+"प्रयोग गरेर लग स्तर सेट गर्न सक्नुहुदैँन) ।"
+
+#: kcmsambalog.cpp:80
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+"यो पृष्ठका सूचना ताजा पार्न यहाँ क्लिक गर्नुहोस् । लग फाइलले (माथि देखाइएको) "
+"साम्बाद्वारा लग गरिएका घटना प्राप्त गर्न पढ्नेछ ।"
+
+#: kcmsambalog.cpp:88
+msgid "Date & Time"
+msgstr "मिति र समय"
+
+#: kcmsambalog.cpp:89 kcmsambastatistics.cpp:65
+msgid "Event"
+msgstr "घटना"
+
+#: kcmsambalog.cpp:90 kcmsambastatistics.cpp:66
+msgid "Service/File"
+msgstr "सेवा/फाइल"
+
+#: kcmsambalog.cpp:91 kcmsambastatistics.cpp:67
+msgid "Host/User"
+msgstr "होस्ट/प्रयोगकर्ता"
+
+#: kcmsambalog.cpp:93
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+"<p>यो सूचीले साम्बाद्वारा लग गरिएका घटनाको विवरण देखाउछ । तपाईँसँग साम्बा २ "
+"वा भन्दा ठूला साम्बाका लागि कन्फिगर गरेका लग स्तर भएता पनि फाइल स्तर लग "
+"नगरिएका घटना याद गर्नुहोस् ।</p><p> तपाईँले केडीई का अन्य धेरै सूची जस्तै, "
+"त्यो स्तम्भमा क्रमबद्ध गर्न स्तम्भ हेडिङमा क्लिक गर्न सक्नुहुन्छ । "
+"क्रमबद्धता दिशा बढ्दोबाट घट्दो क्रममा वा विपरित तरिकाले गर्न पुन: क्लिक "
+"गर्नुहोस् ।</p><p> यदि सूची खाली भएमा, \"अद्यवधिक\" बटन क्लिक गर्ने प्रयास "
+"गर्नुहोस् । साम्बा लग फाइल पढिने छ र सूची ताजा पारिने छ ।</p>"
+
+#: kcmsambalog.cpp:204 kcmsambastatistics.cpp:150 kcmsambastatistics.cpp:198
+msgid "CONNECTION OPENED"
+msgstr "जडान खुल्ला गरियो"
+
+#: kcmsambalog.cpp:208
+msgid "CONNECTION CLOSED"
+msgstr "जडान बन्द गरियो"
+
+#: kcmsambalog.cpp:213
+msgid "            FILE OPENED"
+msgstr "            फाइल खुल्यो"
+
+#: kcmsambalog.cpp:219
+msgid "            FILE CLOSED"
+msgstr "            फाइल बन्द भयो"
+
+#: kcmsambalog.cpp:227
+#, kde-format
+msgid "Could not open file %1"
+msgstr "%1 फाइल खोल्न सकेन"
+
+#: kcmsambastatistics.cpp:44
+msgid "Connections: 0"
+msgstr "जडान: ०"
+
+#: kcmsambastatistics.cpp:45
+msgid "File accesses: 0"
+msgstr "फाइल पहुँच: ०"
+
+#: kcmsambastatistics.cpp:47
+msgid "Event: "
+msgstr "घटना: "
+
+#: kcmsambastatistics.cpp:50
+msgid "Service/File:"
+msgstr "सेवा/फाइल:"
+
+#: kcmsambastatistics.cpp:53
+msgid "Host/User:"
+msgstr "होस्ट/प्रयोगकर्ता:"
+
+#: kcmsambastatistics.cpp:55
+msgid "&Search"
+msgstr "खोज्नुहोस्"
+
+#: kcmsambastatistics.cpp:56
+msgid "Clear Results"
+msgstr "नतिजा खाली गर्नुहोस्"
+
+#: kcmsambastatistics.cpp:57
+msgid "Show expanded service info"
+msgstr "विस्तार गरिएको सेवा सूचना देखाउनुहोस्"
+
+#: kcmsambastatistics.cpp:58
+msgid "Show expanded host info"
+msgstr "विस्तार गरिएको होस्ट सूचना देखाउनुहोस्"
+
+#: kcmsambastatistics.cpp:64
+msgid "Nr"
+msgstr "Nr"
+
+#: kcmsambastatistics.cpp:68
+msgid "Hits"
+msgstr "हिट"
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:139
+msgid "Connection"
+msgstr "जडान"
+
+#: kcmsambastatistics.cpp:73
+msgid "File Access"
+msgstr "फाइल पहुँच"
+
+#: kcmsambastatistics.cpp:129
+#, kde-format
+msgid "Connections: %1"
+msgstr "जडान: %1"
+
+#: kcmsambastatistics.cpp:130
+#, kde-format
+msgid "File accesses: %1"
+msgstr "फाइल पहुँच: %1"
+
+#: kcmsambastatistics.cpp:163 kcmsambastatistics.cpp:201
+msgid "FILE OPENED"
+msgstr "फाइल खुल्यो"
+
+#: ksmbstatus.cpp:52
+msgid "Service"
+msgstr "सेवा"
+
+#: ksmbstatus.cpp:53
+msgid "Accessed From"
+msgstr "यसबाट पहुँच प्राप्त"
+
+#: ksmbstatus.cpp:54
+msgid "UID"
+msgstr "UID"
+
+#: ksmbstatus.cpp:55
+msgid "GID"
+msgstr "GID"
+
+#: ksmbstatus.cpp:56
+msgid "PID"
+msgstr "PID"
+
+#: ksmbstatus.cpp:57
+msgid "Open Files"
+msgstr "फाइल खोल्नुहोस्"
+
+#: ksmbstatus.cpp:158
+msgid "Error: Unable to run smbstatus"
+msgstr "त्रुटि: smbstatus चलाउन अक्षम"
+
+#: ksmbstatus.cpp:160
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr "त्रुटि: कन्फिगरेसन फाइल \"smb.conf\" खोल्न अक्षम"
+
+#: main.cpp:61
+msgid "&Exports"
+msgstr "निर्यात"
+
+#: main.cpp:62
+msgid "&Imports"
+msgstr "आयात"
+
+#: main.cpp:63
+msgid "&Log"
+msgstr "लग"
+
+#: main.cpp:64
+msgid "&Statistics"
+msgstr "तथ्याङ्क"
+
+#: main.cpp:68
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+
+#: main.cpp:76
+msgid "kcmsamba"
+msgstr "kcmsamba"
+
+#: main.cpp:77
+msgid "KDE Panel System Information Control Module"
+msgstr "केडीई प्यानल प्रणाली सूचना नियन्त्रण मोड्युल"
+
+#: main.cpp:79
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr "(सी) २००२ केडीई सूचना नियन्त्रण मोड्युल साम्बा समूह"
+
+#: main.cpp:80
+msgid "Michael Glauche"
+msgstr "माइकल ग्लाउच"
+
+#: main.cpp:81
+msgid "Matthias Hoelzer"
+msgstr "माथियस होल्जर"
+
+#: main.cpp:82
+msgid "David Faure"
+msgstr "डेभिड फाउरे"
+
+#: main.cpp:83
+msgid "Harald Koschinski"
+msgstr "हाराल्ड कोसिन्की"
+
+#: main.cpp:84
+msgid "Wilco Greven"
+msgstr "विल्को ग्रिभेन"
+
+#: main.cpp:85
+msgid "Alexander Neundorf"
+msgstr "अलेक्जेन्डर नेउनडोर्फ"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np shyamkrishna_bal@yahoo.com,,,"

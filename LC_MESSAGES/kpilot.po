@@ -1,0 +1,5333 @@
+# translation of kpilot.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kpilot\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-12-18 21:00+0000\n"
+"PO-Revision-Date: 2009-07-16 09:48+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:37+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: tests/testdatebook.cc:47 conduits/keyringconduit/keyringeditor/main.cc:54
+msgid "Test Date Book"
+msgstr "परीक्षण मिति पुस्तिका"
+
+#: tests/testdatebook.cc:51 tests/testaddress.cc:51 tests/exportdatebook.cc:57
+#: tests/importaddresses.cc:53 tests/importdatebook.cc:54
+#: tests/testcategories.cc:158 tests/testdatabase.cc:253
+msgid "Verbose output"
+msgstr "भर्बोस निर्गत"
+
+#: tests/testdatebook.cc:52 tests/testaddress.cc:52 tests/exportdatebook.cc:58
+#: tests/importaddresses.cc:54 tests/importdatebook.cc:55
+#: tests/testcategories.cc:159
+msgid "Set data directory"
+msgstr "डेटा डाइरेक्टरी सेट गर्नुहोस्"
+
+#: tests/testaddress.cc:47
+msgid "Test Addresses"
+msgstr "परीक्षण ठेगाना"
+
+#: tests/mergecalendars.cc:43
+msgid "Merge libkcal Calendars"
+msgstr "libkcal क्यालेन्डर गाभ्नुहोस्"
+
+#: tests/mergecalendars.cc:47
+msgid "KOrganizer master file"
+msgstr "केडीई आयोजक मास्टर फाइल"
+
+#: tests/mergecalendars.cc:48
+msgid "Calendar file to merge into korganizer"
+msgstr "केडीई आयोजकमा गाभिने क्यालेन्डर फाइल"
+
+#: tests/mergecalendars.cc:49
+msgid "Verbose debugging"
+msgstr "भर्बोस त्रुटिमोचन"
+
+#: tests/testactions.cc:88
+msgid "Test Actions"
+msgstr ""
+
+#: tests/exportdatebook.cc:53
+msgid "Export Date Book"
+msgstr ""
+
+#: tests/exportdatebook.cc:59 tests/importdatebook.cc:56
+msgid "Set vcal file"
+msgstr "vcal फाइल सेट गर्नुहोस्"
+
+#: tests/importaddresses.cc:49
+msgid "Import Address Book"
+msgstr "ठेगाना पुस्तिका आयात गर्नुहोस्"
+
+#: tests/importaddresses.cc:55
+msgid "Set address book file"
+msgstr ""
+
+#: tests/importdatebook.cc:50
+msgid "Import Date Book"
+msgstr "मिति पुस्तिका आयात गर्नुहोस्"
+
+#: tests/testcategories.cc:154
+msgid "Test Categories"
+msgstr "कोटी परीक्षण गर्नुहोस्"
+
+#: tests/testdatabase.cc:249
+msgid "Test Databases"
+msgstr "परीक्षण डाटाबेस"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com,,,"
+
+#. i18n: file: kpilot/config_page_device.ui:18
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1)
+#. i18n: file: kpilot/config_page_device.ui:34
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, fPilotDevice)
+#: rc.cpp:5 rc.cpp:11
+msgid ""
+"<qt>Enter the device the Pilot is attached to (for instance a serial or USB "
+"port) here. You can also use <i>/dev/pilot</i>, and make that a symlink to "
+"the correct device. You need write permission to successfully synchronize "
+"with the handheld.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:21
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:8
+msgid "Pilot &device:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:44
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel4)
+#. i18n: file: kpilot/config_page_device.ui:143
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fPilotSpeed)
+#: rc.cpp:14 rc.cpp:44
+msgid ""
+"<qt>Select the speed of the serial connection to your handheld here. This "
+"has no meaning for USB devices. For an older model, choose 9600. Newer "
+"models may be able to handle speeds up to the maximum listed, 115200. You "
+"can experiment with the connection speed: the manual suggests starting at a "
+"speed of 19200 and trying faster speeds to see if they work.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:47
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: rc.cpp:17
+msgid "&Speed:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:60
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2)
+#. i18n: file: kpilot/config_page_device.ui:181
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fWorkaround)
+#: rc.cpp:20 rc.cpp:62
+msgid ""
+"<qt>Workarounds enable special handling for specific devices. Most devices "
+"do not need special handling. However, the Zire 31, Zire 72 and Tungsten T5 "
+"<i>do</i> have special needs, so if you are connecting such a device, please "
+"select the workaround for them.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:63
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:23
+msgid "&Workarounds:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:76
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. i18n: file: kpilot/config_page_device.ui:204
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fPilotEncoding)
+#: rc.cpp:26 rc.cpp:71
+msgid ""
+"<qt>PalmOS devices are available in many different languages. If your device "
+"uses a different encoding than ISO-latin1 (ISO8859-1), select the correct "
+"encoding here, in order to display special characters correctly.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:79
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:29
+msgid "En&coding:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:92
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel2)
+#. i18n: file: kpilot/config_page_device.ui:214
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, fUserName)
+#: rc.cpp:32 rc.cpp:74
+msgid ""
+"<qt>Enter your name here, as it appears in the Pilot's \"Owner\" "
+"setting.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:95
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:35
+msgid "Pilot &user:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:111
+#. i18n: ectx: property (whatsThis), widget (QPushButton, fDeviceAutodetect)
+#: rc.cpp:38
+msgid ""
+"<qt>Click here to try to automatically detect your device, username and "
+"connection speed. KPilot will scan for attached devices.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:114
+#. i18n: ectx: property (text), widget (QPushButton, fDeviceAutodetect)
+#: rc.cpp:41
+msgid "Autodetect"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:147
+#. i18n: ectx: property (text), item, widget (KComboBox, fPilotSpeed)
+#: rc.cpp:47
+msgid "9600"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:152
+#. i18n: ectx: property (text), item, widget (KComboBox, fPilotSpeed)
+#: rc.cpp:50
+msgid "19200"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:157
+#. i18n: ectx: property (text), item, widget (KComboBox, fPilotSpeed)
+#: rc.cpp:53
+msgid "38400"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:162
+#. i18n: ectx: property (text), item, widget (KComboBox, fPilotSpeed)
+#: rc.cpp:56
+msgid "57600"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:167
+#. i18n: ectx: property (text), item, widget (KComboBox, fPilotSpeed)
+#: rc.cpp:59
+msgid "115200"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:185
+#. i18n: ectx: property (text), item, widget (KComboBox, fWorkaround)
+#: rc.cpp:65
+msgctxt "No workarounds are used."
+msgid "None"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_device.ui:190
+#. i18n: ectx: property (text), item, widget (KComboBox, fWorkaround)
+#: rc.cpp:68
+msgid "Zire 31, 72, Tungsten T5"
+msgstr ""
+
+#. i18n: file: kpilot/file_install_widget.ui:19
+#. i18n: ectx: property (whatsThis), widget (QPushButton, fAddButton)
+#: rc.cpp:77
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Choose a file to add to "
+"the list of files to install.</p></body></html>"
+msgstr ""
+
+#. i18n: file: kpilot/file_install_widget.ui:22
+#. i18n: ectx: property (text), widget (QPushButton, fAddButton)
+#: rc.cpp:83
+msgid "&Add File..."
+msgstr ""
+
+#. i18n: file: kpilot/file_install_widget.ui:32
+#. i18n: ectx: property (whatsThis), widget (QPushButton, fClearButton)
+#: rc.cpp:86
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Clear the list of files to "
+"install. No files will be installed.</p></body></html>"
+msgstr ""
+
+#. i18n: file: kpilot/file_install_widget.ui:35
+#. i18n: ectx: property (text), widget (QPushButton, fClearButton)
+#: rc.cpp:92
+msgid "&Clear List"
+msgstr ""
+
+#. i18n: file: kpilot/kpilot.kcfg:11
+#. i18n: ectx: label, entry (Debug), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:16
+#. i18n: ectx: label, entry (ConfigVersion), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:21
+#. i18n: ectx: label, entry (LastSyncTime), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:27
+#. i18n: ectx: label, entry (PilotDevice), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:32
+#. i18n: ectx: label, entry (PilotSpeed), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:37
+#. i18n: ectx: label, entry (Encoding), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:42
+#. i18n: ectx: label, entry (UserName), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:56
+#. i18n: ectx: label, entry (LogFileName), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:61
+#. i18n: ectx: label, entry (StartDaemonAtLogin), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:66
+#. i18n: ectx: label, entry (KillDaemonAtExit), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:71
+#. i18n: ectx: label, entry (DockDaemon), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:76
+#. i18n: ectx: label, entry (QuitAfterSync), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:83
+#. i18n: ectx: label, entry (SyncType), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:88
+#. i18n: ectx: label, entry (FullSyncOnPCChange), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:93
+#. i18n: ectx: label, entry (ConflictResolution), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:101
+#. i18n: ectx: label, entry (ShowSecrets), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:110
+#. i18n: ectx: label, entry (SkipRestoreDB), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:123
+#. i18n: ectx: label, entry (DeviceDBs), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:128
+#. i18n: ectx: label, entry (AddedDBs), group (General)
+#. i18n: file: kpilot/kpilot.kcfg:146
+#. i18n: ectx: label, entry (InstalledConduits), group (Conduit Names)
+#. i18n: file: kpilot/kpilot.kcfg:154
+#. i18n: ectx: label, entry (AddressDisplayMode), group (Address Widget)
+#. i18n: file: kpilot/kpilot.kcfg:159
+#. i18n: ectx: label, entry (UseKeyField), group (Address Widget)
+#: rc.cpp:95 rc.cpp:99 rc.cpp:103 rc.cpp:107 rc.cpp:111 rc.cpp:115 rc.cpp:119
+#: rc.cpp:124 rc.cpp:128 rc.cpp:132 rc.cpp:136 rc.cpp:140 rc.cpp:144
+#: rc.cpp:148 rc.cpp:152 rc.cpp:156 rc.cpp:163 rc.cpp:169 rc.cpp:173
+#: rc.cpp:188 rc.cpp:192 rc.cpp:196
+msgid ""
+"\n"
+"        "
+msgstr ""
+"\n"
+"        "
+
+#. i18n: file: kpilot/kpilot.kcfg:105
+#. i18n: ectx: label, entry (SkipBackupDB), group (General)
+#: rc.cpp:160
+msgid "Which databases not to backup."
+msgstr ""
+
+#. i18n: file: kpilot/kpilot.kcfg:132
+#. i18n: ectx: label, entry (ScreenlockSecure), group (General)
+#: rc.cpp:177
+msgid "Prevent HotSync when screen locked"
+msgstr ""
+
+#. i18n: file: kpilot/kpilot.kcfg:138
+#. i18n: ectx: whatsthis, entry (ScreenlockSecure), group (General)
+#: rc.cpp:180
+msgid ""
+"Turning this option on prevents syncing\n"
+"\twhen the screen is locked. This is a security measure\n"
+"\tto prevent people from stealing your data through physical\n"
+"\taccess to a Pilot device link to your machine.\n"
+"\tIt does not work with screensavers other than KDE, though,\n"
+"\tso you will need to turn it off for other environments."
+msgstr ""
+
+#. i18n: file: kpilot/kpilotui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:225
+#. i18n: ectx: property (title), widget (QMenu, menu_File)
+#: rc.cpp:200 rc.cpp:1029
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kpilot/kpilotui.rc:17
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:203
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kpilot/kpilotui.rc:36
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:206
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: kpilot/config_dialog_dbselection_base.ui:17
+#. i18n: ectx: property (whatsThis), widget (KListWidget, fDatabaseList)
+#: rc.cpp:209
+msgid ""
+"This list shows the databases that have been detected on the handheld. "
+"Databases that are checked will be used for the operation that caused this "
+"dialog to appear."
+msgstr ""
+
+#. i18n: file: kpilot/config_dialog_dbselection_base.ui:24
+#. i18n: ectx: property (whatsThis), widget (KPushButton, fRemoveButton)
+#: rc.cpp:212
+msgid ""
+"Click here to remove a database entirely from the list. Usually it is better "
+"to just uncheck the database."
+msgstr ""
+
+#. i18n: file: kpilot/config_dialog_dbselection_base.ui:27
+#. i18n: ectx: property (text), widget (KPushButton, fRemoveButton)
+#: rc.cpp:215
+msgid "&Remove"
+msgstr ""
+
+#. i18n: file: kpilot/config_dialog_dbselection_base.ui:34
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, fNameEdit)
+#: rc.cpp:218
+msgid ""
+"To add a database to the list (for instance, because the database was not "
+"detected automatically), enter its name here and then click on the Add "
+"button."
+msgstr ""
+
+#. i18n: file: kpilot/config_dialog_dbselection_base.ui:41
+#. i18n: ectx: property (whatsThis), widget (KPushButton, fAddButton)
+#: rc.cpp:221
+msgid "Click here to add a database to the list."
+msgstr ""
+
+#. i18n: file: kpilot/config_dialog_dbselection_base.ui:44
+#. i18n: ectx: property (text), widget (KPushButton, fAddButton)
+#: rc.cpp:224
+msgid "&Add"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:16
+#. i18n: ectx: property (windowTitle), widget (QWidget, StartExitConfigWidget)
+#. i18n: file: kpilot/config_page_sync.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, SyncConfigWidget)
+#. i18n: file: kpilot/config_page_backup.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, BackupConfigWidget)
+#: rc.cpp:227 rc.cpp:260 rc.cpp:317
+msgid "KPilot Options"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:230
+msgid "Startup Options"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:28
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fStartDaemonAtLogin)
+#: rc.cpp:233
+msgid ""
+"<qt>Check this box to start up the KPilot daemon every time you log in to "
+"KDE.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:31
+#. i18n: ectx: property (text), widget (QCheckBox, fStartDaemonAtLogin)
+#: rc.cpp:236
+msgid "&Start KPilot at login"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:38
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fDockDaemon)
+#: rc.cpp:239
+msgid ""
+"<qt>Check this box to place a Kpilot icon in the system tray, which shows "
+"the daemon's status, and allows you to select the next sync type and to "
+"configure KPilot.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:41
+#. i18n: ectx: property (text), widget (QCheckBox, fDockDaemon)
+#: rc.cpp:242
+msgid "S&how KPilot in system tray"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:51
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:245
+msgid "Exit Options"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:57
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fQuitAfterSync)
+#: rc.cpp:248
+msgid ""
+"<qt>Check this box to stop both KPilot and the KPilot daemon after the "
+"HotSync finishes. This may be useful for systems where KPilot is started by "
+"the USB daemon.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, fQuitAfterSync)
+#: rc.cpp:251
+msgid "Quit &after HotSync"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:67
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fKillDaemonOnExit)
+#: rc.cpp:254
+msgid ""
+"<qt>Check this box to stop the KPilot daemon when you quit KPilot (only if "
+"KPilot started the daemon itself).</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_startup.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, fKillDaemonOnExit)
+#: rc.cpp:257
+msgid "S&top KPilot's system tray application on exit"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:23
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:263
+msgid "&Default sync:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:57
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fSpecialSync)
+#: rc.cpp:266
+msgid ""
+"<qt>Select in this list the synchronization type that KPilot will use as "
+"default. Possible values are:<br>\"HotSync\", to run all selected conduits, "
+"and sync the databases with a modified flag set, updating the modified "
+"records only;<br>\"FullSync\" to run all selected conduits, and sync all "
+"databases, reading all records, and performing a full backup;<br>\"Copy PC "
+"to handheld\" to run all conduits and sync all databases, but instead of "
+"merging the information from both sources, copy the PC data to the "
+"handheld;<br>\"Copy handheld to PC\" to run all conduits and sync all "
+"databases, but instead of merging the information from both sources, copy "
+"the handheld data to the PC.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:61
+#. i18n: ectx: property (text), item, widget (KComboBox, fSpecialSync)
+#: rc.cpp:269
+msgid "HotSync (sync all changes)"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:66
+#. i18n: ectx: property (text), item, widget (KComboBox, fSpecialSync)
+#: rc.cpp:272
+msgid "FullSync (sync also unchanged records)"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:71
+#. i18n: ectx: property (text), item, widget (KComboBox, fSpecialSync)
+#: rc.cpp:275 lib/syncAction.cc:237 kpilot/kpilot.cc:308
+msgid "Copy PC to Handheld"
+msgstr "PC लाई ह्यान्डहेल्डमा प्रतिलिपि गर्नुहोस्"
+
+#. i18n: file: kpilot/config_page_sync.ui:76
+#. i18n: ectx: property (text), item, widget (KComboBox, fSpecialSync)
+#: rc.cpp:278 lib/syncAction.cc:238 kpilot/kpilot.cc:317
+msgid "Copy Handheld to PC"
+msgstr "ह्यान्डहेल्डलाई PC मा प्रतिलिपि गर्नुहोस्"
+
+#. i18n: file: kpilot/config_page_sync.ui:92
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fScreenlockSecure)
+#: rc.cpp:281
+msgid ""
+"<qt>Check this box to prevent KPilot from syncing your handheld while the "
+"screensaver is active: this is a security measure to prevent others from "
+"syncing <i>their</i> handhelds with your data.  This option must be disabled "
+"when you use a different desktop, since KPilot is not aware of screensavers "
+"other than KDE's.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, fScreenlockSecure)
+#: rc.cpp:284
+msgid "Do not sync when screensaver is active"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:111
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fFullSyncCheck)
+#: rc.cpp:287
+msgid ""
+"<qt>Check this box to perform a full sync when your last sync was performed "
+"with another PC or system, to guarantee the completeness of your data.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, fFullSyncCheck)
+#: rc.cpp:290
+msgid "Do full sync when chan&ging PCs"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:145
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:59
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#. i18n: file: conduits/contacts/settingswidget.ui:59
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: rc.cpp:293 rc.cpp:395 rc.cpp:724
+msgid "Conflict &resolution:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:164
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fConflictResolution)
+#: rc.cpp:296
+msgid ""
+"<qt>Select in this list how conflicting entries (entries which were edited "
+"both on your handheld and on the PC) are resolved. Possibly values are  "
+"\"Ask User\" to let you decide case by case, \"Do Nothing\" to allow the "
+"entries to be different, \"PC overrides\", \"Handheld overrides\", \"Use "
+"values from last sync\" and \"Use both entries\" to create a new entry on "
+"both the PC and handheld. Note that the conflict resolution option selected "
+"here can be overridden by conduits that have their own conflict resolution "
+"configuration.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:168
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:78
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:81
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:299 rc.cpp:404 rc.cpp:733
+msgid "Ask User"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:173
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:98
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:101
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:302 rc.cpp:416 rc.cpp:745
+msgid "Do Nothing"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:178
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:305
+msgid "Handheld Overrides"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:183
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:308
+msgid "PC Overrides"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:188
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:311
+msgid "Values From Last Sync (Not Supported)"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_sync.ui:193
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:314
+msgid "Use Both Entries (Not Supported)"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:21
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:320
+msgid "Backup Frequency"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:41
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5_2)
+#: rc.cpp:323
+msgid "Do &backup:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:69
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fBackupFrequency)
+#: rc.cpp:326
+msgid ""
+"<qt>\n"
+"<p>Select in this list how frequently backups are done. Possible values "
+"are:</p>\n"
+"<ul>\n"
+"<li>\"On Every HotSync\" - A backup of your handheld will be done every time "
+"you HotSync</li>\n"
+"<li>\"On Request Only\" - A backup of your handheld will be done only when "
+"you choose your next sync to be of type \"Backup\"</li>\n"
+"</ul>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:73
+#. i18n: ectx: property (text), item, widget (KComboBox, fBackupFrequency)
+#: rc.cpp:335
+msgid "On Every HotSync"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:78
+#. i18n: ectx: property (text), item, widget (KComboBox, fBackupFrequency)
+#: rc.cpp:338
+msgid "On Request Only"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:341
+msgid "Databases"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:105
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
+#. i18n: file: kpilot/config_page_backup.ui:124
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, fBackupOnly)
+#: rc.cpp:344 rc.cpp:350
+msgid ""
+"<qt><p>Enter the databases types you wish to exclude from the backup "
+"operation here. Use this setting if backing up some databases crashes the "
+"handheld, or if you do not want a backup of some databases (like AvantGo "
+"pages).</p><p>Entries with square brackets [] are <i>creator codes</i> like "
+"<tt>[lnch]</tt> and can exclude a whole range of databases. Entries without "
+"the brackets list database names, and may include shell-style wildcards, "
+"like <tt>*_a68k</tt>.</p></qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:108
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:347
+msgid "&No backup:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:134
+#. i18n: ectx: property (whatsThis), widget (QPushButton, fBackupOnlyChooser)
+#: rc.cpp:353
+msgid ""
+"<qt>Click here to open the database selection dialog. This dialog allows you "
+"to check the databases you want to exclude from the backup from a list.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:137
+#. i18n: ectx: property (text), widget (QPushButton, fBackupOnlyChooser)
+#. i18n: file: kpilot/config_page_backup.ui:186
+#. i18n: ectx: property (text), widget (QPushButton, fSkipDBChooser)
+#: rc.cpp:356 rc.cpp:371
+msgid "..."
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:154
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel6)
+#. i18n: file: kpilot/config_page_backup.ui:173
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, fSkipDB)
+#: rc.cpp:359 rc.cpp:365
+msgid ""
+"<qt><p>Enter the databases types you wish to exclude from the restore "
+"operation here (like AvantGo databases). They will be skipped even if they "
+"exist in the set of backup databases on the handheld. If you still want to "
+"install an ignored database to the handheld, you can always manually install "
+"it to the handheld.</p><p>Entries with square brackets [] are <i>creator "
+"codes</i> like <tt>[lnch]</tt> and can exclude a whole range of databases. "
+"Entries without the brackets list database names, and may include shell-"
+"style wildcards, like <tt>*_a68k</tt>.</p></qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:157
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:362
+msgid "Not &restored:"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:183
+#. i18n: ectx: property (whatsThis), widget (QPushButton, fSkipDBChooser)
+#: rc.cpp:368
+msgid ""
+"<qt>Click here to open the database selection dialog. This dialog allows you "
+"to select the databases you want to exclude from the restore operation from "
+"a list.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:198
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fRunConduitsWithBackup)
+#: rc.cpp:374
+msgid ""
+"<qt>Check this box to run the selected conduits before every backup. This "
+"makes sure the backup is up to date with the last changes from your PC.</qt>"
+msgstr ""
+
+#. i18n: file: kpilot/config_page_backup.ui:201
+#. i18n: ectx: property (text), widget (QCheckBox, fRunConduitsWithBackup)
+#: rc.cpp:377
+msgid "Run conduits durin&g a backup sync"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:20
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: rc.cpp:380
+msgid "&Akonadi Settings"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:25
+#. i18n: ectx: attribute (title), widget (QWidget, tab_6)
+#: rc.cpp:383
+msgid "&Conflicts"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: conduits/contacts/settingswidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:343
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, fConflictResolution)
+#: rc.cpp:386 rc.cpp:715 rc.cpp:1291 conduits/docconduit/doc-conduit.cc:601
+msgid "Conflict Resolution"
+msgstr "द्वन्द्ध समाधान"
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:37
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
+#. i18n: file: conduits/contacts/settingswidget.ui:37
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
+#: rc.cpp:389 rc.cpp:718
+msgid ""
+"<p>Select the default action if an event was modified on both sides here. "
+"</p>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:56
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2_3)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:69
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:56
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2_3)
+#. i18n: file: conduits/contacts/settingswidget.ui:72
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fConflictResolution)
+#: rc.cpp:392 rc.cpp:398 rc.cpp:721 rc.cpp:727
+msgid ""
+"<qt>Select in this list how conflicting entries (entries which were edited "
+"both on your handheld and on the PC) are resolved. Possibly values are \"Use "
+"KPilot's Global Setting\" to use the settings defined in KPilot HotSync "
+"configuration, \"Ask User\" to let you decide case by case, \"Do Nothing\" "
+"to allow the entries to be different, \"PC overrides\", \"Handheld "
+"overrides\", \"Use values from last sync\" and \"Use both entries\" to "
+"create a new entry on both the PC and handheld.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:73
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:76
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:401 rc.cpp:730
+msgid "Use KPilot's Global Settings"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:83
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:86
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:407 rc.cpp:736
+msgid "Let The Handheld Override"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:88
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:91
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:410 rc.cpp:739
+msgid "Let The PC Override"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:93
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#. i18n: file: conduits/contacts/settingswidget.ui:96
+#. i18n: ectx: property (text), item, widget (KComboBox, fConflictResolution)
+#: rc.cpp:413 rc.cpp:742
+msgid "Use Both Entries"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:123
+#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
+#: rc.cpp:419
+msgid "&Fields"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:129
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel2_2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:151
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:132
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel2_2)
+#. i18n: file: conduits/contacts/settingswidget.ui:154
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fOtherPhone)
+#: rc.cpp:422 rc.cpp:428 rc.cpp:751 rc.cpp:757
+msgid ""
+"<qt>Select which KAddressBook field should be used to store the Pilot's "
+"\"Other\" phone here.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:132
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#. i18n: file: conduits/contacts/settingswidget.ui:135
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: rc.cpp:425 rc.cpp:754
+msgid "Handheld other phone:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:155
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:158
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#: rc.cpp:431 rc.cpp:760
+msgid "Other Phone"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:160
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:163
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#: rc.cpp:434 rc.cpp:763
+msgid "Assistant"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:165
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:268
+#. i18n: ectx: property (text), item, widget (KComboBox, fFax)
+#. i18n: file: conduits/contacts/settingswidget.ui:168
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:271
+#. i18n: ectx: property (text), item, widget (KComboBox, fFax)
+#: rc.cpp:437 rc.cpp:482 rc.cpp:766 rc.cpp:811
+msgid "Business Fax"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:170
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:173
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#: rc.cpp:440 rc.cpp:769
+msgid "Car Phone"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:175
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:178
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#: rc.cpp:443 rc.cpp:772
+msgid "Second Email Address"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:180
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:263
+#. i18n: ectx: property (text), item, widget (KComboBox, fFax)
+#. i18n: file: conduits/contacts/settingswidget.ui:183
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:266
+#. i18n: ectx: property (text), item, widget (KComboBox, fFax)
+#: rc.cpp:446 rc.cpp:479 rc.cpp:775 rc.cpp:808
+msgid "Home Fax"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:185
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:188
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#: rc.cpp:449 rc.cpp:778
+msgid "Telex"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:190
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#. i18n: file: conduits/contacts/settingswidget.ui:193
+#. i18n: ectx: property (text), item, widget (KComboBox, fOtherPhone)
+#: rc.cpp:452 rc.cpp:781
+msgid "TTY/TTD Phone"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:198
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel4_2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:220
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fAddress)
+#. i18n: file: conduits/contacts/settingswidget.ui:201
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel4_2)
+#. i18n: file: conduits/contacts/settingswidget.ui:223
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fAddress)
+#: rc.cpp:455 rc.cpp:461 rc.cpp:784 rc.cpp:790
+msgid ""
+"<qt>Select which KAddressBook field should be used to store the Pilot's "
+"Street Address here.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:201
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#. i18n: file: conduits/contacts/settingswidget.ui:204
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#: rc.cpp:458 rc.cpp:787
+msgid "Handheld street address:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:224
+#. i18n: ectx: property (text), item, widget (KComboBox, fAddress)
+#. i18n: file: conduits/contacts/settingswidget.ui:227
+#. i18n: ectx: property (text), item, widget (KComboBox, fAddress)
+#: rc.cpp:464 rc.cpp:793
+msgid "Preferred, then Home Address"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:229
+#. i18n: ectx: property (text), item, widget (KComboBox, fAddress)
+#. i18n: file: conduits/contacts/settingswidget.ui:232
+#. i18n: ectx: property (text), item, widget (KComboBox, fAddress)
+#: rc.cpp:467 rc.cpp:796
+msgid "Preferred, then Business Address"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:237
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:259
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fFax)
+#. i18n: file: conduits/contacts/settingswidget.ui:240
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
+#. i18n: file: conduits/contacts/settingswidget.ui:262
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fFax)
+#: rc.cpp:470 rc.cpp:476 rc.cpp:799 rc.cpp:805
+msgid ""
+"<qt>Select which KAddressBook field should be used to store the Fax number "
+"from the Pilot here.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:240
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#. i18n: file: conduits/contacts/settingswidget.ui:243
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:473 rc.cpp:802
+msgid "Handheld fax:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:290
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:485
+msgid "C&ustom Fields"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:302
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:324
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom0)
+#. i18n: file: conduits/contacts/settingswidget.ui:305
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. i18n: file: conduits/contacts/settingswidget.ui:327
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom0)
+#: rc.cpp:488 rc.cpp:494 rc.cpp:817 rc.cpp:823
+msgid ""
+"<qt>Select the field from this list that represents best the meaning given "
+"by your use of the first custom field on your handheld.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:305
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: conduits/contacts/settingswidget.ui:308
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:491 rc.cpp:820
+msgid "Handheld custom field 1:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:328
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:377
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:426
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:475
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#. i18n: file: conduits/contacts/settingswidget.ui:331
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: conduits/contacts/settingswidget.ui:380
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: conduits/contacts/settingswidget.ui:429
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: conduits/contacts/settingswidget.ui:478
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#: rc.cpp:497 rc.cpp:518 rc.cpp:539 rc.cpp:560 rc.cpp:826 rc.cpp:847
+#: rc.cpp:868 rc.cpp:889
+msgid "Store as Custom Field"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:333
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:382
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:431
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:480
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#. i18n: file: conduits/contacts/settingswidget.ui:336
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: conduits/contacts/settingswidget.ui:385
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: conduits/contacts/settingswidget.ui:434
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: conduits/contacts/settingswidget.ui:483
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#: rc.cpp:500 rc.cpp:521 rc.cpp:542 rc.cpp:563 rc.cpp:829 rc.cpp:850
+#: rc.cpp:871 rc.cpp:892
+msgid "Birthday"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:338
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:387
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:436
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:485
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#. i18n: file: conduits/contacts/settingswidget.ui:341
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: conduits/contacts/settingswidget.ui:390
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: conduits/contacts/settingswidget.ui:439
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: conduits/contacts/settingswidget.ui:488
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#: rc.cpp:503 rc.cpp:524 rc.cpp:545 rc.cpp:566 rc.cpp:832 rc.cpp:853
+#: rc.cpp:874 rc.cpp:895
+msgid "URL"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:343
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:392
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:441
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:490
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#. i18n: file: conduits/contacts/settingswidget.ui:346
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom0)
+#. i18n: file: conduits/contacts/settingswidget.ui:395
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom1)
+#. i18n: file: conduits/contacts/settingswidget.ui:444
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom2)
+#. i18n: file: conduits/contacts/settingswidget.ui:493
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustom3)
+#: rc.cpp:506 rc.cpp:527 rc.cpp:548 rc.cpp:569 rc.cpp:835 rc.cpp:856
+#: rc.cpp:877 rc.cpp:898
+msgid "IM Address (ICQ, MSN, ...)"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:351
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:373
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom1)
+#. i18n: file: conduits/contacts/settingswidget.ui:354
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2)
+#. i18n: file: conduits/contacts/settingswidget.ui:376
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom1)
+#: rc.cpp:509 rc.cpp:515 rc.cpp:838 rc.cpp:844
+msgid ""
+"<qt>Select the field from this list that represents best the meaning given "
+"by your use of the second custom field on your handheld.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:354
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: conduits/contacts/settingswidget.ui:357
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:512 rc.cpp:841
+msgid "Handheld custom field 2:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:400
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_3)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:422
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom2)
+#. i18n: file: conduits/contacts/settingswidget.ui:403
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_3)
+#. i18n: file: conduits/contacts/settingswidget.ui:425
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom2)
+#: rc.cpp:530 rc.cpp:536 rc.cpp:859 rc.cpp:865
+msgid ""
+"<qt>Select the field from this list that represents best the meaning given "
+"by your use of the third custom field on your handheld.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:403
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: conduits/contacts/settingswidget.ui:406
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:533 rc.cpp:862
+msgid "Handheld custom field 3:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:449
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_4)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:471
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom3)
+#. i18n: file: conduits/contacts/settingswidget.ui:452
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_4)
+#. i18n: file: conduits/contacts/settingswidget.ui:474
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustom3)
+#: rc.cpp:551 rc.cpp:557 rc.cpp:880 rc.cpp:886
+msgid ""
+"<qt>Select the field from this list that represents best the meaning given "
+"by your use of the fourth custom field on your handheld.</qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:452
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: conduits/contacts/settingswidget.ui:455
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: rc.cpp:554 rc.cpp:883
+msgid "Handheld custom field 4:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:508
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_5)
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:530
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:511
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_5)
+#. i18n: file: conduits/contacts/settingswidget.ui:533
+#. i18n: ectx: property (whatsThis), widget (KComboBox, fCustomDate)
+#: rc.cpp:573 rc.cpp:580 rc.cpp:902 rc.cpp:909
+#, no-c-format
+msgid ""
+"<qt>Select the birthdate format here, if you selected \"birthdate\" for any "
+"of the custom fields above. Possible placeholders are:<br> %d for the day, "
+"%m for the month, %y for the two-digit year, %Y for the four-digit year. For "
+" example, %d.%m.%Y would generate a date like 27.3.1952, while %m/%d/%y "
+"would write the same date as 03/27/52. </qt>"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:511
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#. i18n: file: conduits/contacts/settingswidget.ui:514
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#: rc.cpp:576 rc.cpp:905
+msgid "Date &format:"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:537
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:540
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:583 rc.cpp:912
+msgid "Locale Settings"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:542
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:545
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:587 rc.cpp:916
+#, no-c-format
+msgid "%d.%m.%Y"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:547
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:550
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:591 rc.cpp:920
+#, no-c-format
+msgid "%d.%m.%y"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:552
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:555
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:595 rc.cpp:924
+#, no-c-format
+msgid "%d/%m/%Y"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:557
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:560
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:599 rc.cpp:928
+#, no-c-format
+msgid "%d/%m/%y"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:562
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:565
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:603 rc.cpp:932
+#, no-c-format
+msgid "%m/%d/%Y"
+msgstr ""
+
+#. i18n: file: Documentation/base-conduit-template/contacts-settings.ui:567
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#. i18n: file: conduits/contacts/settingswidget.ui:570
+#. i18n: ectx: property (text), item, widget (KComboBox, fCustomDate)
+#: rc.cpp:607 rc.cpp:936
+#, no-c-format
+msgid "%m/%d/%y"
+msgstr ""
+
+#. i18n: file: conduits/todo/settingswidget.ui:17
+#. i18n: ectx: attribute (title), widget (QWidget, fAkonadiTab)
+#. i18n: file: conduits/contacts/settingswidget.ui:20
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#. i18n: file: conduits/calendar/settingswidget.ui:17
+#. i18n: ectx: attribute (title), widget (QWidget, fAkonadiTab)
+#: rc.cpp:610 rc.cpp:709 rc.cpp:1149
+msgid "Akonadi Settings"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:23
+#. i18n: ectx: label, entry (DebugInformation), group (General)
+#: rc.cpp:613
+msgid "Debug information (for KPilot developers)"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:27
+#. i18n: ectx: label, entry (HardwareInfo), group (General)
+#: rc.cpp:616
+msgid "Hardware information"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:31
+#. i18n: ectx: label, entry (DatabaseList), group (General)
+#: rc.cpp:619
+msgid "List of databases on handheld (takes a long time.)"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:35
+#. i18n: ectx: label, entry (MemoryInfo), group (General)
+#: rc.cpp:622
+msgid "Memory information"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:39
+#. i18n: ectx: label, entry (RecordNumbers), group (General)
+#: rc.cpp:625
+msgid "Number of addresses, todos, events and memos"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:43
+#. i18n: ectx: label, entry (PalmOSVersion), group (General)
+#: rc.cpp:628
+msgid "PalmOS version"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:47
+#. i18n: ectx: label, entry (StorageInfo), group (General)
+#: rc.cpp:631
+msgid "Storage info (SD card, memory stick, ...)"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:51
+#. i18n: ectx: label, entry (SyncInfo), group (General)
+#: rc.cpp:634
+msgid "Synchronization information"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:55
+#. i18n: ectx: label, entry (UserInfo), group (General)
+#: rc.cpp:637
+msgid "User information"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfoconduit.kcfg:59
+#. i18n: ectx: label, entry (KDEVersion), group (General)
+#: rc.cpp:640
+msgid "Version of KPilot, pilot-link and KDE"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:35
+#. i18n: ectx: attribute (title), widget (QWidget)
+#. i18n: file: conduits/notepadconduit/notepad-setup.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:32
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:38
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:643 rc.cpp:1104 rc.cpp:1176 rc.cpp:1330 rc.cpp:1441
+msgid "General"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:63
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester)
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:77
+#. i18n: ectx: property (whatsThis), widget (QLabel)
+#: rc.cpp:646 rc.cpp:652
+msgid ""
+"<qt>Enter here, or select by clicking the file picker button, the location "
+"and file name of the output file used to store the handheld's system "
+"information.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:71
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:649
+msgid "Output &file:"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:85
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:655
+msgid "Type of Output"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:96
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:658
+msgid "&HTML"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:102
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:661
+msgid ""
+"<qt>Select this option to output the system information data as a HTML "
+"document.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:110
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:664
+msgid "Te&xt file"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:113
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:667
+msgid ""
+"<qt>Select this option to output the system information data as a text "
+"document.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:124
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester)
+#: rc.cpp:670
+msgid ""
+"<qt>Enter here, or select by clicking on the file picker button, the "
+"location of the template to be used if you select the Custom template "
+"option.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:132
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:673
+msgid "&Custom template:"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:135
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:676
+msgid ""
+"<qt>Select this option to output the system information data as defined by a "
+"custom template. Enter the location of the template in the edit box, or "
+"select it clicking on the file picker button.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:679
+msgid "Parts Included"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:173
+#. i18n: ectx: property (text), widget (QListView)
+#: rc.cpp:682
+msgid "Output Type"
+msgstr ""
+
+#. i18n: file: conduits/sysinfoconduit/sysinfo-setup_dialog.ui:189
+#. i18n: ectx: property (whatsThis), widget (QListView)
+#: rc.cpp:685
+msgid ""
+"<qt>Check on this list the types of information about your system and "
+"handheld you want to display in the output file.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/setup_base.ui:28
+#. i18n: ectx: property (windowTitle), widget (QWidget, MemofileWidget)
+#. i18n: file: conduits/memofile/settingswidget.ui:28
+#. i18n: ectx: property (windowTitle), widget (QWidget, MemofileWidget)
+#: rc.cpp:688 rc.cpp:1134
+msgid "Memofile Conduit Options"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/setup_base.ui:35
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: conduits/memofile/settingswidget.ui:35
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:691 rc.cpp:1137
+msgctxt "General settings for memofile conduit."
+msgid "General"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/setup_base.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: conduits/memofile/settingswidget.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:694 rc.cpp:1140
+msgid "Memos directory:"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/setup_base.ui:54
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, fDirectory)
+#. i18n: file: conduits/memofile/settingswidget.ui:54
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, fDirectory)
+#: rc.cpp:697 rc.cpp:1143
+msgid "Select the directory you want to store your PDA's memos in"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/setup_base.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: conduits/memofile/settingswidget.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:700 rc.cpp:1146
+msgid "Sync private records:"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/memofileconduit.kcfg:6
+#. i18n: ectx: label, entry (Directory), group (memofile-conduit)
+#. i18n: file: conduits/memofile/memofilesettings.kcfg:6
+#. i18n: ectx: label, entry (Directory), group (memofile-conduit)
+#: rc.cpp:703 rc.cpp:1128
+msgid "What directory do you want to sync your PDA's memos with?"
+msgstr ""
+
+#. i18n: file: conduits/memofileconduit/memofileconduit.kcfg:10
+#. i18n: ectx: label, entry (SyncPrivate), group (memofile-conduit)
+#. i18n: file: conduits/memofile/memofilesettings.kcfg:10
+#. i18n: ectx: label, entry (SyncPrivate), group (memofile-conduit)
+#: rc.cpp:706 rc.cpp:1131
+msgid "Do you want to sync your private records to the filesystem?"
+msgstr ""
+
+#. i18n: file: conduits/contacts/settingswidget.ui:25
+#. i18n: ectx: attribute (title), widget (QWidget, tab_6)
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:337
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:712 rc.cpp:1288
+msgid "Conflicts"
+msgstr ""
+
+#. i18n: file: conduits/contacts/settingswidget.ui:126
+#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
+#: rc.cpp:748
+msgid "Fields"
+msgstr ""
+
+#. i18n: file: conduits/contacts/settingswidget.ui:293
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:814
+msgid "Custom Fields"
+msgstr ""
+
+#. i18n: file: conduits/popmail/popmail.kcfg:9
+#. i18n: ectx: label, entry (SyncOutgoing), group (General)
+#: rc.cpp:939
+msgid "Selects the way in which mail is sent: none (0), kmail (1)."
+msgstr ""
+
+#. i18n: file: conduits/popmail/popmail.kcfg:13
+#. i18n: ectx: label, entry (EmailAddress), group (General)
+#: rc.cpp:942
+msgid "The email address entered in the To: field of outgoing messages."
+msgstr ""
+
+#. i18n: file: conduits/popmail/popmail.kcfg:17
+#. i18n: ectx: label, entry (Signature), group (General)
+#: rc.cpp:945
+msgid "The pathname of your .signature file."
+msgstr ""
+
+#. i18n: file: conduits/popmail/popmail.kcfg:21
+#. i18n: ectx: label, entry (OutboxFolder), group (General)
+#: rc.cpp:948
+msgid "The name of KMail's outbox - use with caution."
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:17
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:951
+msgid "Send Mail"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:23
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2)
+#. i18n: file: conduits/popmail/setup-dialog.ui:39
+#. i18n: ectx: property (whatsThis), widget (QComboBox, fSendMode)
+#: rc.cpp:954 rc.cpp:960
+msgid ""
+"<qt>Select the method KPilot will use to send the mail from your Handheld to "
+"the recipients here. Depending on the method you choose, the other fields in "
+"the dialog may be enabled or disabled. Currently, the only <i>working</i> "
+"method is through KMail.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:26
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:957
+msgid "Send method:"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:43
+#. i18n: ectx: property (text), item, widget (QComboBox, fSendMode)
+#: rc.cpp:963
+msgid "Do Not Send Mail"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:48
+#. i18n: ectx: property (text), item, widget (QComboBox, fSendMode)
+#: rc.cpp:966
+msgid "Use KMail"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:56
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. i18n: file: conduits/popmail/setup-dialog.ui:69
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, fEmailFrom)
+#: rc.cpp:969 rc.cpp:975
+msgid "<qt>Enter the email address you want to send messages as here.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:59
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:972
+msgid "Email address:"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:72
+#. i18n: ectx: property (text), widget (KLineEdit, fEmailFrom)
+#: rc.cpp:978
+msgid "$USER"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:79
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. i18n: file: conduits/popmail/setup-dialog.ui:92
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, fSignature)
+#: rc.cpp:981 rc.cpp:987
+msgid ""
+"<qt>If you want to add a signature file, enter the location of your "
+"signature file (usually, <i>.signature</i>, located in your home folder) "
+"here, or select it clicking the file picker button. The signature file "
+"contains the text that is added to the end of your outgoing mail "
+"messages.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/popmail/setup-dialog.ui:82
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:984
+msgid "Signature file:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:13
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: rc.cpp:990
+msgid "Keyring Editor"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:57
+#. i18n: ectx: property (text), widget (QPushButton, fDeleteButton)
+#: rc.cpp:993
+msgid "Delete Record"
+msgstr "रेकर्ड मेट्नुहोस्"
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:64
+#. i18n: ectx: property (text), widget (QPushButton, fNewButton)
+#: rc.cpp:996
+msgid "New Record"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:91
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:999
+msgid "Name:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:101
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:1002
+msgid "Account:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:111
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: conduits/keyringconduit/keyringeditor/passworddialog.ui:21
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:1005 rc.cpp:1047
+msgid "Password:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:121
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:1008
+msgid "Category"
+msgstr "कोटी"
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:1011
+msgid "Last changed:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:169
+#. i18n: ectx: property (toolTip), widget (QCheckBox, fPasswordBox)
+#: rc.cpp:1014
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Show or hide "
+"password.</p></body></html>"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:175
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fPasswordBox)
+#: rc.cpp:1020
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Show or hide "
+"password</p></body></html>"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:203
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:1026
+msgid "Notes:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:236
+#. i18n: ectx: property (text), widget (QMenu, menu_File)
+#: rc.cpp:1032
+msgid "&New"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:241
+#. i18n: ectx: property (text), widget (QMenu, menu_File)
+#: rc.cpp:1035
+msgid "&Open"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:246
+#. i18n: ectx: property (text), widget (QMenu, menu_File)
+#: rc.cpp:1038
+msgid "&Exit"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/viewer.ui:249
+#. i18n: ectx: property (toolTip), widget (QMenu, menu_File)
+#: rc.cpp:1041
+msgid "Saves the current open database and closes the application."
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/passworddialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, PasswordDialog)
+#: rc.cpp:1044
+msgid "Dialog"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/passworddialog.ui:28
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:1050
+msgid "Retype password:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringeditor/passworddialog.ui:71
+#. i18n: ectx: property (text), widget (QLabel, equalLabel)
+#: rc.cpp:1053
+msgid "Passwords do not match."
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:34
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:1056
+msgid "Keyring Settings"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:43
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, fLocalDatabaseUrl)
+#: rc.cpp:1059
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Select the file that you "
+"want to sync your PDA's keyring items with.</p></body></html>"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:49
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, fLocalDatabaseUrl)
+#: rc.cpp:1065
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Select the keyring file on "
+"the computer which you wish to sync with the keyring database on the "
+"handheld.</p></body></html>"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:1071
+msgid "Local keyring file:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:75
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:1074
+msgid "Password Settings"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:89
+#. i18n: ectx: property (text), widget (QRadioButton, fSavePassButton)
+#: rc.cpp:1077
+msgid "Save password in wallet:"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:105
+#. i18n: ectx: property (text), widget (QRadioButton, fAskPassButton)
+#: rc.cpp:1080
+msgid "Ask for password at each sync"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:117
+#. i18n: ectx: property (text), widget (QLabel, fWalletErrorIcon)
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:181
+#. i18n: ectx: property (text), widget (QLabel, fQCAErrorIcon)
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:83
+#. i18n: ectx: property (text), widget (QLabel, fInfoIcon)
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:49
+#. i18n: ectx: property (text), widget (QLabel, fWarnIcon1)
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:94
+#. i18n: ectx: property (text), widget (QLabel, fWarnIcon2)
+#: rc.cpp:1083 rc.cpp:1089 rc.cpp:1170 rc.cpp:1421 rc.cpp:1427
+msgid "ICON"
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:145
+#. i18n: ectx: property (text), widget (QLabel, fWalletErrorMessage)
+#: rc.cpp:1086
+msgid ""
+"Unable to access the KDE system wallet. Unable to load or save your password."
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringwidget.ui:200
+#. i18n: ectx: property (text), widget (QLabel, fQCAErrorMessage)
+#: rc.cpp:1092
+msgid "Error: Unable to load triple DES QCA2 support."
+msgstr ""
+
+#. i18n: file: conduits/keyringconduit/keyringconduit.kcfg:7
+#. i18n: ectx: label, entry (DatabaseUrl), group (keyring-conduit)
+#: rc.cpp:1095
+msgid "Which local file do you want to use to sync the palm database with?"
+msgstr ""
+
+#. i18n: file: conduits/notepadconduit/notepadconduit.kcfg:9
+#. i18n: ectx: label, entry (outputDirectory), group (Notepad-conduit)
+#: rc.cpp:1098
+msgid "The export directory for the notepad drawings"
+msgstr ""
+
+#. i18n: file: conduits/notepadconduit/notepad-setup.ui:14
+#. i18n: ectx: property (whatsThis), widget (QWidget, NotepadWidget)
+#: rc.cpp:1101
+msgid "Path to the directory to which the pictures should be exported."
+msgstr ""
+
+#. i18n: file: conduits/notepadconduit/notepad-setup.ui:27
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:1107
+msgid "Output:"
+msgstr ""
+
+#. i18n: file: conduits/null/setup_base.ui:28
+#. i18n: ectx: property (windowTitle), widget (QWidget, NullWidget)
+#: rc.cpp:1110
+msgid "Null-Conduit Options"
+msgstr ""
+
+#. i18n: file: conduits/null/setup_base.ui:31
+#. i18n: ectx: property (whatsThis), widget (QWidget, NullWidget)
+#: rc.cpp:1113
+msgid ""
+"&lt;qt>Enter the message to add to the Sync Log on your Pilot here.&lt;/qt>"
+msgstr ""
+
+#. i18n: file: conduits/null/setup_base.ui:38
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:1116
+msgctxt "General settings for the null conduit."
+msgid "General"
+msgstr ""
+
+#. i18n: file: conduits/null/setup_base.ui:44
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:1119
+msgid "&Log message:"
+msgstr ""
+
+#. i18n: file: conduits/null/setup_base.ui:63
+#. i18n: ectx: property (text), widget (KLineEdit, fLogMessage)
+#: rc.cpp:1122
+msgid "KPilot was here."
+msgstr ""
+
+#. i18n: file: conduits/null/nullconduit.kcfg:9
+#. i18n: ectx: label, entry (LogMessage), group (Null-conduit)
+#: rc.cpp:1125
+msgid "The error message if the null conduit is supposed to fail"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:18
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:1152
+msgctxt "General settings for time conduit."
+msgid "General"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:24
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, directionGroup)
+#: rc.cpp:1155
+msgid "Direction"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:36
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton1)
+#: rc.cpp:1158
+msgid ""
+"<qt>Select this option to synchronize the handheld time with the PC time, by "
+"using the PC time on both.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:39
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#: rc.cpp:1161
+msgid "Set the &handheld time from the time on the PC"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:52
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton1_2)
+#: rc.cpp:1164
+msgid ""
+"<qt>Select this option to synchronize the handheld time with the PC time, by "
+"using the handheld time on both.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:55
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_2)
+#: rc.cpp:1167
+msgid "Set the &PC time from the time on the handheld"
+msgstr ""
+
+#. i18n: file: conduits/timeconduit/time-setup_dialog.ui:102
+#. i18n: ectx: property (text), widget (QLabel, fInfoLabel)
+#: rc.cpp:1173
+msgid ""
+"PalmOS Version 3.25 and 3.3 do not support setting the system time, so this "
+"conduit will be skipped for handhelds that run either of these operating "
+"systems."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:38
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:1179
+msgid "&Text files:"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:44
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1)
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:67
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, fTXTDir)
+#: rc.cpp:1182 rc.cpp:1191
+msgid ""
+"<qt>Enter here, or select clicking the file picker button, the name and "
+"location of the folder used to find and synchronize text files. All files "
+"with extension .txt located in this folder will be synced to Palm DOC "
+"databases in your handheld.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, fkeepPDBLocally)
+#: rc.cpp:1185
+msgid "Local co&py:"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:60
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fkeepPDBLocally)
+#: rc.cpp:1188
+msgid ""
+"<qt>Check this box if you want to save a copy of the Palm DOC databases "
+"(.pdb files) on your PC.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:74
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, fSyncDirection)
+#: rc.cpp:1194
+msgid "Synchronization Mode"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:86
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton3)
+#: rc.cpp:1197
+msgid "Sync only P&C to PDA"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:92
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton3)
+#: rc.cpp:1200
+msgid ""
+"<qt>Select this option to synchronize texts changed in your PC to Palm DOC "
+"databases in your handheld. Palm DOC databases modified in the handheld will "
+"not be converted to text files, but texts changed in the PC will be "
+"converted to the Palm DOC databases.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:99
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: rc.cpp:1203
+msgid "Sync only P&DA to PC"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:102
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton2)
+#: rc.cpp:1206
+msgid ""
+"<qt>Select this option to synchronize the changes made to Palm DOC databases "
+"in your handheld to the PC text files. Palm DOC databases modified in the "
+"handheld will be converted to text files, but texts changed in the PC will "
+"not be converted to the Palm DOC databases.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:109
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#: rc.cpp:1209
+msgid "Sync &all"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:118
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton1)
+#: rc.cpp:1212
+msgid ""
+"<qt>Select this option to synchronize the file texts in your PC to Palm DOC "
+"databases in your handheld. Palm DOC databases modified in the handheld will "
+"be converted to text files, and texts changed in the PC will be converted to "
+"the Palm DOC databases, keeping both versions in sync.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:144
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, fPDBDir)
+#: rc.cpp:1215
+msgid ""
+"<qt>Enter here, or select clicking the file picker button, the name and "
+"location of the folder where copies of the handheld databases are kept (.pdb "
+"files). Local copies are only made if the box is checked as well.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:152
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:168
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:1218 rc.cpp:1363
+msgid "PC -> Handheld"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:158
+#. i18n: ectx: property (text), widget (QCheckBox, fCompress)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:255
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1221 rc.cpp:1378
+msgid "&Compress"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:164
+#. i18n: ectx: property (toolTip), widget (QCheckBox, fCompress)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:261
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:1224 rc.cpp:1381
+msgid ""
+"Check this box, if the text should be compressed on the handheld to save "
+"memory. Most doc reader on the handheld support compressed texts."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:167
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fCompress)
+#: rc.cpp:1228
+#, no-c-format
+msgid ""
+"<qt>The Palm DOC format supports compressing the text to save memory. Check "
+"this box to enable text compression, so the resulting Palm DOC database will "
+"consume about 50% less memory than in uncompressed state. Almost all DOC "
+"readers on the Palm support compressed texts.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:174
+#. i18n: ectx: property (text), widget (QCheckBox, fConvertBookmarks)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:272
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1231 rc.cpp:1388
+msgid "Convert &bookmarks"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:180
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fConvertBookmarks)
+#: rc.cpp:1234
+msgid ""
+"<qt>Check this box to enable bookmark creation when converting text files to "
+"Palm DOC databases. Most doc readers support bookmarks. In order to create a "
+"bookmark, it is necessary to provide the location in the text where the "
+"bookmark should be set and the bookmark title, in at least one of the "
+"formats listed below.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:203
+#. i18n: ectx: property (text), widget (QCheckBox, fBookmarksInline)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:230
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1237 rc.cpp:1366
+msgid "&Inline tags in text"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:209
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fBookmarksInline)
+#: rc.cpp:1240
+msgid ""
+"Check this box to create bookmarks from inline tags in the text. The inline "
+"tag consist of tags in the form <* bookmarktext *>. The bookmark location is "
+"set using the location of the inline tag in the text, and  the name is the "
+"text between the <* and the *>. The inline tag (<*...*>) will be removed "
+"from the text."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:216
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:155
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1243 rc.cpp:1360
+msgid "&Encoding:"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:229
+#. i18n: ectx: property (text), widget (QCheckBox, fBookmarksEndtags)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:244
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1246 rc.cpp:1372
+msgid "&Tags at end of text"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:232
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fBookmarksEndtags)
+#: rc.cpp:1249
+msgid ""
+"Check this box to convert tags of the form <bookmarkname> at the end of the "
+"text to bookmarks. The text inside the tag (\"bookmarkname\") will be "
+"searched in the text, and whenever found, a bookmark will be set there. The "
+"endtags <...> will then be removed from the end of the text."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:239
+#. i18n: ectx: property (text), widget (QCheckBox, fBookmarksBmk)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:286
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1252 rc.cpp:1394
+msgid "Regular &expressions in .bmk file"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:242
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fBookmarksBmk)
+#: rc.cpp:1255
+msgid ""
+"<qt>Check this box to use regular expressions in a file to search the text "
+"for bookmarks. The file should have the same name as the text file, but "
+"should end in .bmk instead of .txt (for instance, the regular expression "
+"file for textname.txt should be textname.bmk). See the documentation for a "
+"description of the format of the bmk file.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:253
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:316
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:1258 rc.cpp:1400
+msgid "Handheld -> PC"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, fNoConversionOfBmksOnly)
+#: rc.cpp:1261
+msgid "Do not convert, if text unchanged (only bookmarks)"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:278
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fNoConversionOfBmksOnly)
+#: rc.cpp:1264
+msgid ""
+"<qt>Check this box to avoid syncing the text on the handheld to the PC if "
+"you only changed the bookmarks on the handheld (but not the text).</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:285
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, fPCBookmarks)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:344
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:1267 rc.cpp:1403
+msgid "Convert Bookmarks"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:291
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton8)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:372
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1270 rc.cpp:1409
+msgid "Do &not convert bookmarks"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:297
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton8)
+#: rc.cpp:1273
+msgid ""
+"<qt>Check this box to avoid converting Palm DOC bookmarks to inline tags or "
+"to a bookmark file.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:304
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton11)
+#: rc.cpp:1276
+msgid "Convert into .bm &file"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:313
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton11)
+#: rc.cpp:1279
+msgid ""
+"<qt>Check this box to convert the Palm DOC database bookmarks to a separate "
+"file, in the bmk format (see more about this format in the documentation). "
+"The resulting bookmark file shares the same filename as the resulting .txt "
+"file, but ends in .bmk instead. This approach creates a clean text file and "
+"a bookmark file.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:320
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton9)
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:358
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1282 rc.cpp:1406
+msgid "Convert as &inline tags"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:326
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton9)
+#: rc.cpp:1285
+msgid ""
+"<qt>Check this box to convert the Palm DOC database bookmarks to inline "
+"tags, in the form &lt;* BookmarkName *&gt;. These tags are inserted in the "
+"text in the position marked by the bookmark, and the text inside the tag "
+"corresponds to the bookmark name. Inline tags are easy to create, delete, "
+"move and edit.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:346
+#. i18n: ectx: property (toolTip), widget (Q3ButtonGroup, fConflictResolution)
+#: rc.cpp:1294
+msgid ""
+"If the same text was changed on the PC and the handheld, which of the two "
+"versions should be used as the new version?"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:349
+#. i18n: ectx: property (whatsThis), widget (Q3ButtonGroup, fConflictResolution)
+#: rc.cpp:1297
+msgid ""
+"<qt>The Palm DOC conduit does not feature merging the modifications when a "
+"text is changed both in the handheld and in the computer. Therefore, the "
+"choice is between working with the files out of sync, or discarding the "
+"changes in one of them.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:355
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton12)
+#: rc.cpp:1300
+msgid "&No resolution"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:361
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton12)
+#: rc.cpp:1303
+msgid ""
+"<qt>The Palm DOC conduit does not feature merging the modifications when a "
+"text is changed both in the handheld and in the computer. Therefore, when "
+"conflicts appear, the choice is between working with the files out of sync, "
+"or discarding the changes in one of them. Select this option to prevent "
+"KPilot from overwriting your modifications.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:368
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton5)
+#: rc.cpp:1306
+msgid "P&DA overrides"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:374
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton5)
+#: rc.cpp:1309
+msgid ""
+"<qt>The Palm DOC conduit does not feature merging the modifications when a "
+"text is changed both in the handheld and in the computer. Therefore, when "
+"conflicts appear, the choice is between working with the files out of sync, "
+"or discarding the changes in one of them. Select this option to make the PDA "
+"version overwrite the PC version in case of conflict.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:381
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton4)
+#: rc.cpp:1312
+msgid "P&C overrides"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:387
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton4)
+#: rc.cpp:1315
+msgid ""
+"<qt>The Palm DOC conduit does not feature merging the modifications when a "
+"text is changed both in the handheld and in the computer. Therefore, when "
+"conflicts appear, the choice is between working with the files out of sync, "
+"or discarding the changes in one of them. Select this option to make the PC "
+"version overwrite the PDA version in case of conflict.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:394
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton7)
+#: rc.cpp:1318
+msgid "&Ask the user"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:403
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, RadioButton7)
+#: rc.cpp:1321
+msgid ""
+"<qt>The Palm DOC conduit does not feature merging the modifications when a "
+"text is changed both in the handheld and in the computer. Therefore, when "
+"conflicts appear, the choice is between working with the files out of sync, "
+"or discarding the changes in one of them. Select this option to show the "
+"resolution dialog to let the user decide on a case by case basis.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:413
+#. i18n: ectx: property (text), widget (QCheckBox, fAlwaysUseResolution)
+#: rc.cpp:1324
+msgid "&Always show the resolution dialog"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/doc-setupdialog.ui:416
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fAlwaysUseResolution)
+#: rc.cpp:1327
+msgid ""
+"<qt>Check this box to force the resolution dialog to appear even when there "
+"are no conflicts.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:47
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1333
+msgid "&PalmDOC file:"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:66
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1336 conduits/docconduit/kpalmdoc_dlg.cc:442
+msgid "&Text file:"
+msgstr "पाठ फाइल:"
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:77
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1339
+msgid "Convert whole &folders"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:85
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester)
+#: rc.cpp:1342
+msgid ""
+"Folder where copies of the handheld databases are kept. You can install them "
+"to any PalmOS handheld, and distribute these copies to other people (but "
+"beware of copyright infringement)."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:93
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1345
+msgid "&Ask before overwriting files"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:101
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1348
+msgid "&Verbose messages"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:109
+#. i18n: ectx: property (text), widget (KPushButton)
+#: rc.cpp:1351
+msgid "Convert Text to PalmDOC"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:117
+#. i18n: ectx: property (text), widget (KPushButton)
+#: rc.cpp:1354
+msgid "Convert PalmDOC to Text"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:142
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester)
+#: rc.cpp:1357
+msgid ""
+"Enter the name of the folder where the text files reside on the PC. All "
+"files with extension .txt will be synced to the handheld."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:236
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:1369
+msgid ""
+"When a <* bookmarktext *> appears somewhere in the text, a bookmark will be "
+"set at this position, and the text between the <* and the *> will be used as "
+"bookmark name. The <*...*> will be removed from the text."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:247
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:1375
+msgid ""
+"Tags of the form <bookmarkname> at the end of the text will be used to "
+"search the text for the pattern between the < and >. Whenever "
+"\"bookmarkname\" appears in the text, a bookmark will be set there. The "
+"endtags <...> will then be removed from the end of the text."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:264
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:1385
+#, no-c-format
+msgid ""
+"The Palm doc format supports compressing the text to save memory. If you "
+"check this box, the text will consume about 50% less memory than in "
+"uncompressed state. Almost all DOC readers on the Palm support compressed "
+"texts."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:278
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:1391
+msgid ""
+"Do you want to convert bookmarks? Most doc readers support bookmarks. You "
+"have to provide some information about where the bookmarks should be set and "
+"their titles. Check at least one of the bookmark types below."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:289
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:1397
+msgid ""
+"Use regular expressions in a file textname.bmk (textname.txt is the filename "
+"of the text) to search the text for bookmarks.See the documentation for a "
+"description of the format of the bmk file."
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:386
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1412
+msgid "Convert as &end tags"
+msgstr ""
+
+#. i18n: file: conduits/docconduit/kpalmdoc_dlgbase.ui:394
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1415
+msgid "Convert into .bmk &file"
+msgstr ""
+
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:19
+#. i18n: ectx: property (text), widget (QLabel, fCollectionsLabel)
+#: rc.cpp:1418
+msgid "Select Collection:"
+msgstr ""
+
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:65
+#. i18n: ectx: property (text), widget (QLabel, fSelectionWarnLabel)
+#: rc.cpp:1424
+msgid ""
+"No collection selected yet. Make sure you select a collection before "
+"synchronizing. If you do not see any collections in the combobox, make sure "
+"that Akonadi started and that there is a valid resource for this data type."
+msgstr ""
+
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:110
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:1430
+msgid ""
+"Do not change the collection once you have synced your device with one of "
+"the Akonadi Collections. There are currently no advanced checks in the code "
+"so prepare for the worst when you decide to do it anyway. We are working on "
+"this. Please contact us in #kpilot on irc.freenode.org if you have problems."
+msgstr ""
+
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:153
+#. i18n: ectx: property (text), widget (QLabel, fErrorIcon)
+#: rc.cpp:1433
+msgid ""
+"ERROR\n"
+"ICON"
+msgstr ""
+
+#. i18n: file: conduits/akonadibase/akonadi-setup-widget.ui:170
+#. i18n: ectx: property (text), widget (QLabel, fNonExistingCollection)
+#: rc.cpp:1437
+msgid ""
+"The previous configured Akonadi collection is invalid. You must select a "
+"valid Akonadi collection above and click apply before you can use this "
+"conduit.\n"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:49
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:1444
+msgid "Sync"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:52
+#. i18n: ectx: property (whatsThis), widget (QButtonGroup)
+#: rc.cpp:1447
+msgid "Select how often AvantGo should be synchronized"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:72
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1450
+msgid "&Every sync"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:78
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1453
+msgid ""
+"<qt>Select this option to synchronize with the MAL server on every HotSync. "
+"To perform a successful synchronization, you need to have access to the MAL "
+"server during the HotSync.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:86
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1456
+msgid "Once per &hour"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:92
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1460
+msgid ""
+"<qt>Select this option to synchronize with the MAL server on every HotSync "
+"that is at least one hour after the previous MAL sync. To perform a "
+"successful synchronization, you need to have access to the MAL server during "
+"the HotSync.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:100
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1463
+msgid "Once a &day"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:103
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1466
+msgid ""
+"<qt>Select this option to synchronize with the MAL server on every HotSync "
+"that is at least one day after the previous MAL sync. To perform a "
+"successful synchronization, you need to have access to the MAL server during "
+"the HotSync.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:111
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1469
+msgid "Once a &week"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:114
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1472
+msgid ""
+"<qt>Select this option to synchronize with the MAL server on every HotSync "
+"that is at least one week after the previous MAL sync. To perform a "
+"successful synchronization, you need to have access to the MAL server during "
+"the HotSync.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:122
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1475
+msgid "Once a &month"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:125
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1478
+msgid ""
+"<qt>Select this option to synchronize with the MAL server on every HotSync "
+"that is at least one month after the previous MAL sync. To perform a "
+"successful synchronization, you need to have access to the MAL server during "
+"the HotSync.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:154
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:1481
+msgid "Proxy"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:168
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:1484
+msgid "Proxy Type"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:185
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1487
+msgid "&No proxy"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:191
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1490
+msgid ""
+"<qt>Select this option if you do not want KPilot to use a proxy server. Use "
+"this option if you connect to the internet directly.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:199
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1493
+msgid "&HTTP proxy"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:202
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1496
+msgid "<qt>Select this option if you want KPilot to use a HTTP proxy.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:210
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:1499
+msgid "&SOCKS proxy"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:213
+#. i18n: ectx: property (whatsThis), widget (QRadioButton)
+#: rc.cpp:1502
+msgid "<qt>Select this option if you want KPilot to use a SOCKS proxy.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:226
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:1505
+msgid "Server Information"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:260
+#. i18n: ectx: property (text), widget (QCheckBox)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:453
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:1508 rc.cpp:1559
+msgid "Custom &port:"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:263
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:1511
+msgid "Check this box to use a non-standard proxy port."
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:271
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1514
+msgid "Ser&ver name:"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:277
+#. i18n: ectx: property (whatsThis), widget (QLabel)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:285
+#. i18n: ectx: property (whatsThis), widget (KHistoryComboBox)
+#: rc.cpp:1517 rc.cpp:1520
+msgid ""
+"<qt>If you selected HTTP or SOCKS proxy, type the address of the proxy "
+"server to use here, in the form <i>foo.bar.com</i> (not "
+"<i>http://foo.bar.com</i> or <i>http://foo.bar.com:8080</i>).</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:296
+#. i18n: ectx: property (whatsThis), widget (KLineEdit)
+#: rc.cpp:1523
+msgid ""
+"<qt>Enter the port you want KPilot to use when connecting to your proxy "
+"server here.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:307
+#. i18n: ectx: property (whatsThis), widget (KLineEdit)
+#: rc.cpp:1526
+msgid ""
+"<qt>If your proxy requires authentication, enter your password here.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:315
+#. i18n: ectx: property (whatsThis), widget (QLineEdit)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:340
+#. i18n: ectx: property (whatsThis), widget (QLabel)
+#: rc.cpp:1529 rc.cpp:1538
+msgid ""
+"<qt>If your proxy requires authentication, enter your username here.</qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:323
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:496
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1532 rc.cpp:1562
+msgid "&Password:"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:334
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:507
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1535 rc.cpp:1565
+msgid "&User name:"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:362
+#. i18n: ectx: property (whatsThis), widget (QLineEdit)
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:376
+#. i18n: ectx: property (whatsThis), widget (QLabel)
+#: rc.cpp:1541 rc.cpp:1547
+msgid ""
+"<qt>Enter a list of MAL servers that do not need the use of a proxy here, "
+"separated with commas, e.g: <br><i>localhost,127.0.0.1,.lan</i><qt>"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:370
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1544
+msgid "N&o proxy for:"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:405
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:1550
+msgid "MAL Server"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:425
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:1553
+msgid "MAL Server Information"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:442
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1556
+msgid "&MAL server name:"
+msgstr ""
+
+#. i18n: file: conduits/malconduit/mal-setup_dialog.ui:556
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:1568
+msgid ""
+"<qt>There is currently <b>no way to set server parameters on the "
+"desktop</b>; you need to use the <i>MobileLink</i> or <i>AGConnect</i> "
+"application on the handheld device. </qt>"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:241
+#, kde-format
+msgid "Could not open device: %1 (will retry)"
+msgstr "यन्त्र खोल्न सकेन: %1 (पुन: प्रयास गरिन्छ)"
+
+#: lib/kpilotdevicelink.cc:279
+#, kde-format
+msgid "Trying to open device %1..."
+msgstr "यन्त्र %1 खोल्न प्रयास..."
+
+#: lib/kpilotdevicelink.cc:323
+msgid "Already listening on that device"
+msgstr "त्यस यन्त्रमा पहिले नै सुनिएको"
+
+#: lib/kpilotdevicelink.cc:343
+#, kde-format
+msgid "Cannot create socket for communicating with the Pilot (%1)"
+msgstr "पाइलट (%1) सँग सञ्चारका लागि सकेट सिर्जना गर्न सकिँदैन"
+
+#: lib/kpilotdevicelink.cc:370
+#, kde-format
+msgid "Cannot open Pilot port: [%1]."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:451
+#, kde-format
+msgid "Cannot listen on Pilot socket (%1)"
+msgstr "पाइलट सकेट (%1) मा सुन्न सकिँदैन"
+
+#: lib/kpilotdevicelink.cc:471 lib/kpilotdevicelink.cc:486
+#, kde-format
+msgid "Cannot accept Pilot (%1)"
+msgstr "पाइलट (%1) स्वीकार गर्न सकिँदैन"
+
+#: lib/kpilotdevicelink.cc:486
+msgid "already connected"
+msgstr "पहिले नै जडान भएको"
+
+#: lib/kpilotdevicelink.cc:502
+msgid "Unable to read system information from Pilot"
+msgstr "पाइलटबाट प्रणाली सूचना पढ्न असक्षम"
+
+#: lib/kpilotdevicelink.cc:539
+msgid "Checking last PC..."
+msgstr "अन्तिम PC का लागि जाँच गर्दैछ..."
+
+#: lib/kpilotdevicelink.cc:548
+msgid ""
+"Could not read user information from the Pilot. Perhaps you have a password "
+"set on the device?"
+msgstr ""
+"पाइलटबाट प्रयोगकर्ता सूचना पढ्न सकेन । तपाईँसँग यन्त्रमा पासवर्ड सेट भएको छ ?"
+
+#: lib/kpilotdevicelink.cc:708
+msgid "The Pilot device is not configured yet."
+msgstr "पाइलट यन्त्र हालसम्म कन्फिगर भएको छैन ।"
+
+#: lib/kpilotdevicelink.cc:756
+#, kde-format
+msgid "Pilot device %1 is not read-write."
+msgstr "पाइलट यन्त्र %1 पढ्न-लेख्न सकिने होइन"
+
+#: lib/kpilotdevicelink.cc:764
+#, kde-format
+msgid ""
+"Pilot device %1 does not exist. Probably it is a USB device and will appear "
+"during a HotSync."
+msgstr ""
+"पाइलट यन्त्र %1 अवस्थित छैन । सम्भवत यो USB यन्त्र हो र HotSync गर्ने अवधिमा "
+"देखा पर्छ ।"
+
+#: lib/kpilotdevicelink.cc:811 lib/kpilotdevicelink.cc:819
+#, kde-format
+msgid "<qt>Cannot install the file &quot;%1&quot;.</qt>"
+msgstr "<qt>फाइल &quot;%1&quot; स्थापना गर्न सकिँदैन ।</qt>"
+
+#: lib/kpilotdevicelink.cc:890
+msgid "End of HotSync\n"
+msgstr "HotSync को अन्त्यमा\n"
+
+#: lib/pilotDateEntry.cc:179
+#, kde-format
+msgid "Start date: %1"
+msgstr "सुरु मिति: %1"
+
+#: lib/pilotDateEntry.cc:185
+msgid "Whole-day event"
+msgstr "पूरा-दिनको घटना"
+
+#: lib/pilotDateEntry.cc:193
+#, kde-format
+msgid "End date: %1"
+msgstr "अन्त्य मिति: %1"
+
+#: lib/pilotDateEntry.cc:203
+msgctxt "Number of minutes"
+msgid "minutes"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:204
+msgctxt "Number of hours"
+msgid "hours"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:205
+msgctxt "Number of days"
+msgid "days"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:208
+#, kde-format
+msgctxt "%1 is the duration, %2 is the time unit"
+msgid "Alarm: %1 %2 before event starts"
+msgstr "सचेतक: %1 %2 घटना हुनु अगाडि"
+
+#: lib/pilotDateEntry.cc:219
+msgctxt "The weekday(s) on which the repeat occurs"
+msgid "day(s)"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:220
+msgctxt "The week(s) in which the repeat occurs"
+msgid "week(s)"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:222
+msgctxt "The month(s) in which the repeat occurs"
+msgid "month(s)"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:223
+msgctxt "The year(s) in which the repeat occurs"
+msgid "year(s)"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:226
+#, kde-format
+msgid "Recurrence: every %1 %2"
+msgstr "पुनरावृत्ति: प्रत्येक %1 %2"
+
+#: lib/pilotDateEntry.cc:233
+msgid "Repeats indefinitely"
+msgstr "असिमित पुनरावृत्ति गर्दछ"
+
+#: lib/pilotDateEntry.cc:238
+#, kde-format
+msgid "Until %1"
+msgstr "सम्म %1"
+
+#: lib/pilotDateEntry.cc:242
+msgid "Repeating on the i-th day of week j"
+msgstr "हप्ता j को i-th दिनमा पुनरावृत्ति"
+
+#: lib/pilotDateEntry.cc:243
+msgid "Repeating on the n-th day of the month"
+msgstr "महिनाको n-th दिनमा पुनरावृत्ति"
+
+#: lib/pilotDateEntry.cc:261
+msgid "Exceptions:"
+msgstr "अपवाद:"
+
+#: lib/pilotDateEntry.cc:275 lib/pilotTodoEntry.cc:157
+msgid "<b><em>Note:</em></b><br/>"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:275 lib/pilotTodoEntry.cc:157
+msgid "Note:\n"
+msgstr "टिपोट:\n"
+
+#: lib/actionQueue.cc:122
+msgid ""
+"The connection to the handheld was lost. Synchronization cannot continue."
+msgstr "ह्यान्डहेल्ड जडान विच्छेदन भयो । अब समक्रमण जारी राख्न सकिँदैन ।"
+
+#: lib/plugin.cc:72
+msgid "Unnamed"
+msgstr "बेनामी"
+
+#: lib/plugin.cc:97
+#, kde-format
+msgid ""
+"<qt>The <i>%1</i> conduit's settings have been changed. Do you want to save "
+"the changes before continuing?</qt>"
+msgstr ""
+"<qt> यस <i>%1</i> कन्ड्युटको सेटिङ परिवर्तन गरिएको छैन । पुन: निरन्तरता दिनु "
+"अगाडि तपाईँले परिवर्तन बचत गर्न चाहनुहुन्छ ?</qt>"
+
+#: lib/plugin.cc:109
+#, kde-format
+msgid "%1 Conduit"
+msgstr "%1 कन्ड्युट"
+
+#: lib/plugin.cc:150
+msgid "Send questions and comments to kdepim-users@kde.org"
+msgstr "kdepim-users@kde.org मा प्रश्न र टिप्पणी पठाउनुहोस्"
+
+#: lib/plugin.cc:188
+#, kde-format
+msgid "Send questions and comments to <a href=\"mailto:%1\">%2</a>."
+msgstr "<a href=\"mailto:%1\">%2</a> मा प्रश्न र टिप्पणी पठाउनुहोस् ।"
+
+#: lib/plugin.cc:190
+#, kde-format
+msgid "Send bug reports to <a href=\"mailto:%1\">%2</a>."
+msgstr "बग प्रतिवेदनलाई <a href=\"mailto:%1\">%2</a> मा पठाउनुहोस् ।"
+
+#: lib/plugin.cc:192
+msgid ""
+"For trademark information, see the <a "
+"href=\"help:/kpilot/trademarks.html\">KPilot User's Guide</a>."
+msgstr ""
+"ब्यापारिक चिन्ह सूचनाका लागि, <a href=\"help:/kpilot/trademarks.html\">केडीई "
+"पाइलट प्रयोगकर्ताको मार्गदर्शक </a> हेर्नुहोस् ।"
+
+#: lib/plugin.cc:203
+msgid "<b>Authors:</b> "
+msgstr "<b>लेखक:</b> "
+
+#: lib/plugin.cc:223
+msgid "<b>Credits:</b> "
+msgstr "<b>श्रेय:</b> "
+
+#: lib/plugin.cc:261 kpilot/config_dialog.cc:287
+msgid "About"
+msgstr "बारेमा"
+
+#: lib/plugin.cc:457
+#, kde-format
+msgid "Could not find conduit %1."
+msgstr "कन्ड्युट %1 फेला पार्न सकेन ।"
+
+#: lib/plugin.cc:468
+#, kde-format
+msgid "Could not load conduit %1."
+msgstr "कन्ड्युट %1 लोड गर्न सकेन ।"
+
+#: lib/plugin.cc:475
+#, kde-format
+msgid "Conduit %1 has wrong version (%2)."
+msgstr "कन्ड्युट %1 सँग गलत संस्करण (%2) छ ।"
+
+#: lib/plugin.cc:484
+#, kde-format
+msgid "Could not initialize conduit %1."
+msgstr "कन्ड्युट %1 सुरुआत गर्न सकेन ।"
+
+#: lib/plugin.cc:500 lib/plugin.cc:509
+#, kde-format
+msgid "Could not create conduit %1."
+msgstr "कन्ड्युट %1 सिर्जना गर्न सकेन ।"
+
+#: lib/plugin.cc:513
+#, kde-format
+msgid "[Conduit %1]\n"
+msgstr ""
+
+#: lib/syncAction.cc:102
+#, kde-format
+msgid "The conduit %1 could not be executed."
+msgstr "कन्ड्युट %1 कार्यान्वयन गर्न सक्दैन ।"
+
+#: lib/syncAction.cc:235 kpilot/config_dialog.cc:298
+#: kpilot/config_pages.cc:217 kpilot/kpilot.cc:255 kpilot/kpilot.cc:279
+msgid "HotSync"
+msgstr "HotSync"
+
+#: lib/syncAction.cc:236
+msgid "Full Synchronization"
+msgstr "पूर्ण समक्रमण"
+
+#: lib/syncAction.cc:239 kpilot/config_dialog.cc:300
+#: kpilot/config_pages.cc:303
+msgid "Backup"
+msgstr "जगेडा"
+
+#: lib/syncAction.cc:240
+msgid "Restore From Backup"
+msgstr "जगेडाबाट पूर्वावस्थामा ल्याउनुहोस्"
+
+#: lib/syncAction.cc:251
+msgid "Test Sync"
+msgstr "समक्रमण परीक्षण गर्नुहोस्"
+
+#: lib/syncAction.cc:255
+msgid "Local Sync"
+msgstr "स्थानीय समक्रमण"
+
+#: lib/syncAction.cc:347 lib/syncAction.cc:418
+msgid "Question"
+msgstr "प्रश्न"
+
+#: lib/syncAction.cc:369 lib/syncAction.cc:440
+msgid "&Do not ask again"
+msgstr "फेरि नसोध्नुहोस्"
+
+#: lib/kpilotdevicelinkPrivate.h:284
+msgid " The port does not exist."
+msgstr " पोर्ट अवस्थित छैन ।"
+
+#: lib/kpilotdevicelinkPrivate.h:287
+msgid " There is no such device."
+msgstr " त्यहाँ त्यस्तो यन्त्र छैन ।"
+
+#: lib/kpilotdevicelinkPrivate.h:290
+msgid " You do not have permission to open the Pilot device."
+msgstr " तपाईँलाई पाइलट यन्त्र खोल्ने अनुमति छैन ।"
+
+#: lib/kpilotdevicelinkPrivate.h:294
+msgid " Check Pilot path and permissions."
+msgstr " पाइलट मार्ग र अनुमति जाँच गर्नुहोस् ।"
+
+#: lib/actions.cc:51
+#, kde-format
+msgid "KPilot %1 HotSync starting...\n"
+msgstr "केडीई पाइलट %1 HotSync सुरु हुँदैछ...\n"
+
+#: lib/actions.cc:53
+#, kde-format
+msgid "Using encoding %1 on the handheld."
+msgstr "ह्यान्डहेल्डमा सङ्केतन %1 को प्रयोग ।"
+
+#: lib/actions.cc:63
+msgid "KPilot is busy and cannot process the HotSync right now."
+msgstr "केडीई पाइलट व्यस्त छ र अहिले HotSync प्रक्रिया गर्न सकिँदैन ।"
+
+#: lib/actions.cc:109
+msgid "Testing.\n"
+msgstr "परीक्षण ।\n"
+
+#: lib/actions.cc:123
+#, kde-format
+msgid "Syncing database %1..."
+msgstr "डाटाबेस %1 समक्रमण गर्दैछ..."
+
+#: lib/actions.cc:126 kpilot/logFile.cc:98
+msgid "HotSync finished."
+msgstr "HotSync समाप्त भयो ।"
+
+#: lib/pilotTodoEntry.cc:129
+msgctxt "This todo entry is completed."
+msgid "Completed"
+msgstr ""
+
+#: lib/pilotTodoEntry.cc:133
+msgid "Not completed"
+msgstr "पूरा भएन"
+
+#: lib/pilotTodoEntry.cc:142
+#, kde-format
+msgid "Due date: %1"
+msgstr "देय मिति: %1"
+
+#: lib/pilotTodoEntry.cc:150
+#, kde-format
+msgid "Priority: %1"
+msgstr "प्राथमिकता: %1"
+
+#: lib/pilotMemo.cc:72
+#, kde-format
+msgid ""
+"<i>Title:</i> %1<br/>\n"
+"<i>MemoText:</i><br/>%2"
+msgstr ""
+
+#: lib/pilotMemo.cc:76
+#, kde-format
+msgid ""
+"Title: %1\n"
+"MemoText:\n"
+"%2"
+msgstr ""
+"शीर्षक: %1\n"
+"मेमो पाठ:\n"
+"%2"
+
+#: lib/pilotMemo.cc:133
+msgctxt "No sensible title known for this memo."
+msgid "[unknown]"
+msgstr ""
+
+#: kpilot/pilotdaemontray.cc:198
+msgid "Start &KPilot"
+msgstr "केडीई पाइलट सुरु गर्नुहोस्"
+
+#: kpilot/pilotdaemontray.cc:202
+msgid "&Configure KPilot..."
+msgstr "केडीई पाइलट कन्फिगर गर्नुहोस्..."
+
+#: kpilot/pilotdaemontray.cc:212
+#, kde-format
+msgctxt "Default sync action"
+msgid "Default (%1)"
+msgstr ""
+
+#: kpilot/pilotdaemontray.cc:220
+msgid "Next &Sync"
+msgstr "पछिल्लो समक्रमण"
+
+#: kpilot/pilotdaemontray.cc:226
+msgctxt ""
+"Appended to names of sync types to indicate the sync will happen just one "
+"time"
+msgid " (once)"
+msgstr " (एक पटक)"
+
+#: kpilot/fileInstaller.cc:110
+#, kde-format
+msgid "Cannot install %1"
+msgstr "%1 स्थापना गर्न सकिँदैन"
+
+#: kpilot/fileInstaller.cc:111
+msgid ""
+"Only PalmOS database files (like *.pdb and *.prc) can be installed by the "
+"file installer."
+msgstr ""
+"फाइल स्थापकद्वारा केबल PalmOS डाटाबेस फाइल (जस्तै *.pdb र *.prc) स्थापना "
+"गर्न सकिन्छ ।"
+
+#: kpilot/fileInstallWidget.cc:205
+msgid "*.pdb *.prc|PalmOS Databases (*.pdb *.prc)"
+msgstr "*.pdb *.prc|PalmOS डाटाबेस (*.pdb *.prc)"
+
+#: kpilot/fileInstallWidget.cc:262
+msgctxt "Delete a single file item"
+msgid "Delete"
+msgstr ""
+
+#: kpilot/fileInstallWidget.cc:267
+msgid "Delete selected files"
+msgstr ""
+
+#: kpilot/config_dialog.cc:146
+msgid ""
+"This list box contains both general configuration items such as the device "
+"used for HotSync and the databases to be backed up as well as a list of "
+"conduits that KPilot may run during a HotSync. Click on an item to configure "
+"it. Conduits which are checked in this list will run during a HotSync."
+msgstr ""
+
+#: kpilot/config_dialog.cc:170
+msgid "<qt>This conduit appears to be broken and cannot be configured.</qt>"
+msgstr "<qt>यो कन्ड्युट बिग्रने र कन्फिगर गर्न नसकिने देखिन्छ ।</qt>"
+
+#: kpilot/config_dialog.cc:177
+msgid ""
+"<qt><p><i>Conduits</i> are external (possibly third-party) programs that "
+"perform synchronization actions. They may have individual configurations. "
+"Select a conduit to configure it, and enable it by clicking on its checkbox. "
+"</p></qt>"
+msgstr ""
+"<qt><p><i>कन्ड्युट</i> बाह्य कार्यक्रम हुन् (सम्भवत तेस्रो पक्ष) जसले "
+"समक्रमण कार्य गर्दछ । तिनीहरूमा छुट्टा छुट्टै कन्फिगरेसन हुन्छ । यसलाई "
+"कन्फिगर गर्न  कन्ड्युट चयन गर्नुहोस्, र यसको जाँच बाकसमा क्लिक गरेर यसलाई "
+"सक्षम पार्नुहोस् ।</qt>"
+
+#: kpilot/config_dialog.cc:184
+msgid ""
+"<qt><p>The <i>general</i> portion of KPilot's setup contains settings for "
+"your hardware and the way KPilot should display your data. For the basic "
+"setup, which should fulfill the need of most users, just use the setup "
+"wizard below.</p><p>If you need some special settings, this dialog provides "
+"all the options for fine-tuning KPilot. But be warned: The HotSync settings "
+"are various esoteric things.</p><p>You can enable an action or conduit by "
+"clicking on its checkbox. Checked conduits will be run during a HotSync. "
+"Select a conduit to configure it.</p></qt>"
+msgstr ""
+
+#: kpilot/config_dialog.cc:271
+msgid "General Setup"
+msgstr "साधारण सेटअप"
+
+#: kpilot/config_dialog.cc:274
+msgid "General setup of KPilot (User name, port, general sync settings)"
+msgstr ""
+"केडीई पाइलटका लागि साधारण सेटअप (प्रयोगकर्ता नाम, पोर्ट, साधारण समक्रमण "
+"सेटिङ)"
+
+#: kpilot/config_dialog.cc:279
+msgid "Conduits"
+msgstr "कन्ड्युट"
+
+#: kpilot/config_dialog.cc:282
+msgid "Actions for HotSync with individual configuration."
+msgstr "छुट्टा छुट्टै कन्फिगरेसनसँग HotSync का लागि कार्य ।"
+
+#: kpilot/config_dialog.cc:288
+msgid "About KPilot. Credits."
+msgstr "केडीई पाइलटका बारेमा, श्रेय ।"
+
+#: kpilot/config_dialog.cc:296 kpilot/config_pages.cc:80
+msgid "Device"
+msgstr "यन्त्र"
+
+#: kpilot/config_dialog.cc:297
+msgid "Hardware settings and startup and exit options."
+msgstr "हार्डवेयर सेटिङ तथा सुरुआत र अन्त्य विकल्प ।"
+
+#: kpilot/config_dialog.cc:299
+msgid "Special behavior during HotSync."
+msgstr "HotSync चलाउदाको विशेष व्यवहार ।"
+
+#: kpilot/config_dialog.cc:301
+msgid "Special settings for backup."
+msgstr "जगेडाका लागि विशेष सेटिङ ।"
+
+#: kpilot/config_dialog.cc:302 kpilot/config_pages.cc:405
+msgid "Startup and Exit"
+msgstr "सुरुआत र अन्त्य"
+
+#: kpilot/config_dialog.cc:303
+msgid "Behavior at startup and exit."
+msgstr "सुरुआत र अन्त्य हुँदाको व्यवहार ।"
+
+#: kpilot/config_dialog.cc:309
+msgid "Install Files"
+msgstr "फाइल स्थापना गर्नुहोस्"
+
+#: kpilot/config_dialog.cc:310
+msgid "Install files that are dragged to KPilot onto the handheld."
+msgstr "ह्यान्डहेल्डको केडीई पाइलटमा तानिने फाइल स्थापना गर्नुहोस् ।"
+
+#: kpilot/config_dialog.cc:411
+#, kde-format
+msgid ""
+"<qt>This is an internal action which has no configuration options. The "
+"action's description is: <i>%1</i> </qt>"
+msgstr ""
+"<qt>यो कन्फिगरेसन विकल्प नभएको आन्तरिक कार्य हो । कार्यको वर्णन यस्तो छ: "
+"<i>%1</i> </qt>"
+
+#: kpilot/config_dialog.cc:561
+#, kde-format
+msgid ""
+"<qt>No library could be found for the conduit %1. This means that the "
+"conduit was not installed properly.</qt>"
+msgstr ""
+"<qt>कन्ड्युट %1 का लागि लाइब्रेरी फेला पार्न सकेन । यसको अर्थ कन्ड्युट "
+"राम्रोसँग स्थापना नभएको हुन सक्छ ।</qt>"
+
+#: kpilot/config_dialog.cc:567 kpilot/config_dialog.cc:581
+msgid "Conduit Error"
+msgstr "कन्ड्युट त्रुटि"
+
+#: kpilot/config_dialog.cc:574
+#, kde-format
+msgid ""
+"<qt>There was a problem loading the library for the conduit %1. This means "
+"that the conduit was not installed properly.</qt>"
+msgstr ""
+"<qt>कन्ड्युट %1 का लागि लाइब्रेरी लोड गर्दा त्यहाँ समस्या थियो । यसको अर्थ "
+"कन्ड्युट राम्रोसँग स्थापना नभएको हुन सक्छ ।</qt>"
+
+#: kpilot/config_dialog_dbselection.cc:132
+msgid ""
+"This is a database that exists on the device. It was not added manually, so "
+"it can not removed from the list."
+msgstr ""
+"यो यन्त्रमा रहेको डाटाबेस हो । यसलाई म्यानुअल तरिकाले थप गरिएको छैन, त्यसैले "
+"यसलाई सूचीबाट हटाउन सकिँदैन ।"
+
+#: kpilot/config_dialog_dbselection.cc:132
+msgid "Database on Device"
+msgstr "यन्त्रमा डाटाबेस"
+
+#: kpilot/config_dialog_dbselection.cc:143
+msgid "You need to select a database to delete in the list."
+msgstr "तपाईँले सूचीमा मेट्नका लागि डाटाबेस चयन गर्न आवश्यक हुन्छ ।"
+
+#: kpilot/config_dialog_dbselection.cc:143
+msgid "No Database Selected"
+msgstr "डाटाबेस चयन गरिएको छैन"
+
+#: kpilot/main-test.cc:287
+msgid "KPilotTest"
+msgstr "केडीई पाइलट परीक्षण"
+
+#: kpilot/main-test.cc:289
+msgid "KPilot Tester"
+msgstr ""
+
+#: kpilot/main-test.cc:290
+msgid "(C) 2001-2004, Adriaan de Groot"
+msgstr ""
+
+#: kpilot/main-test.cc:298
+msgid "Path to Pilot device node"
+msgstr "प्याचबाट पाइलट यन्त्र मोड"
+
+#: kpilot/main-test.cc:300
+msgid "List DBs"
+msgstr ""
+
+#: kpilot/main-test.cc:303
+msgid "Backup Pilot to &lt;dest dir&gt;"
+msgstr ""
+
+#: kpilot/main-test.cc:305
+msgid "Restore Pilot from backup"
+msgstr "जगेडाबाट पाइलट पूर्वावस्थामा ल्याउनुहोस्"
+
+#: kpilot/main-test.cc:308
+msgid "Run conduit from desktop file &lt;filename&gt;"
+msgstr ""
+
+#: kpilot/main-test.cc:311
+msgid "Run a specific check (with the device)"
+msgstr "निर्दिष्ट जाँच (यन्त्रसँग) चलाउनुहोस्"
+
+#: kpilot/main-test.cc:314
+msgid "Show KPilot configuration information"
+msgstr "केडीई पाइलट कन्फिगरेसन सूचना देखाउनुहोस्"
+
+#: kpilot/main-test.cc:316
+msgid "Set the debug level"
+msgstr "त्रुचिमोचन स्तर सेट गर्नुहोस्"
+
+#: kpilot/main-test.cc:318
+msgctxt "Genral options"
+msgid "General"
+msgstr ""
+
+#: kpilot/main-test.cc:322
+msgid "*Really* run the conduit, not in test mode."
+msgstr "*Really* कन्ड्युट चलाउनुहोस्, परीक्षण मोडमा होइन ।"
+
+#: kpilot/main-test.cc:324
+msgid "Run the conduit in file-test mode."
+msgstr "फाइल-परीक्षण मोडमा कन्ड्युट चलाउनुहोस् ।"
+
+#: kpilot/main-test.cc:325
+msgid "Copy Pilot to Desktop."
+msgstr "पाइलटलाई डेस्कटपमा प्रतिलिपि गर्नुहोस् ।"
+
+#: kpilot/main-test.cc:326
+msgid "Copy Desktop to Pilot."
+msgstr "डेस्कटपलाई पाइलटमा प्रतिलिपि गर्नुहोस् ।"
+
+#: kpilot/main-test.cc:327
+msgid "Repeated perform action - only useful for --list"
+msgstr "केबल सूचीका लागि उपयोगि हुने दोहर्याएर गरिने कार्य"
+
+#: kpilot/main-test.cc:329
+msgid "Conduit Actions"
+msgstr "कन्ड्युट कार्य"
+
+#: kpilot/config_dialog_probe.cc:100
+msgid "Autodetecting Your Handheld"
+msgstr "तपाईँको ह्यान्डहेल्ड स्वत: पत्ता लगाउने"
+
+#: kpilot/config_dialog_probe.cc:101
+msgid "Restart Detection"
+msgstr "पत्ता लगाउने पुन: सुरु गर्नुहोस्"
+
+#: kpilot/config_dialog_probe.cc:110
+msgid ""
+"KPilot is now trying to automatically detect the device of your handheld. "
+"Please press the hotsync button if you have not done so already."
+msgstr ""
+"केडीई पाइलटले तपाईँको ह्यान्डहेल्डको यन्त्र स्वचालित रूपमा पत्ता लगाउन "
+"प्रयास गर्दैछ । कृपया यदि तपाईँले पहिल्यै हटसिन्क बटन थिच्नु भएको छैन भने "
+"थिच्नुहोस् ।"
+
+#: kpilot/config_dialog_probe.cc:114
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: kpilot/config_dialog_probe.cc:118
+msgid "Autodetection not yet started..."
+msgstr "स्वत: पत्ता लगाउने अझै सुरु गरिएको छैन..."
+
+#: kpilot/config_dialog_probe.cc:127
+msgid "Detected Values"
+msgstr "पत्ता लागेको मान"
+
+#: kpilot/config_dialog_probe.cc:132
+msgid "Handheld user:"
+msgstr "ह्यान्डहेल्ड प्रयोगकर्ता:"
+
+#: kpilot/config_dialog_probe.cc:135
+msgid "Device:"
+msgstr "यन्त्र:"
+
+#: kpilot/config_dialog_probe.cc:138 kpilot/config_dialog_probe.cc:142
+msgid "[Not yet known]"
+msgstr "[अझै थाहा छैन]"
+
+#: kpilot/config_dialog_probe.cc:208
+msgid "Starting detection..."
+msgstr "पत्ता लगाउन सुरु गर्दैछ..."
+
+#: kpilot/config_dialog_probe.cc:235
+msgid "Waiting for handheld to connect..."
+msgstr "जडान गर्नका लागि ह्यान्डहेल्डलाई प्रतिक्षा गर्दैछ..."
+
+#: kpilot/config_dialog_probe.cc:269
+msgid "Timeout reached, could not detect a handheld."
+msgstr "समय समाप्त भयो, ह्यान्डहेल्ड पत्ता लगाउन सकेन ।"
+
+#: kpilot/config_dialog_probe.cc:271
+msgid ""
+"<qt><p>A handheld could not be detected. Possible check the following "
+"things:</p><ul><li>Have you pressed the hotsync button on the "
+"handheld?</li><li>Make sure the device sits in the cradle "
+"correctly.</li><li>Make sure the cradle is correctly plugged in to the "
+"computer.</li><li>Have you checked that your device is actually supported by "
+"kpilot (see http://www.kpilot.org).</li></ul></qt>"
+msgstr ""
+
+#: kpilot/config_dialog_probe.cc:281
+msgid "Automatic Detection Failed"
+msgstr "स्वत: पत्ता लगाउन असफल"
+
+#: kpilot/config_dialog_probe.cc:299
+#, kde-format
+msgid "Found a connected device on %1"
+msgstr "%1 मा जडान भएको यन्त्र फेला पर्यो"
+
+#: kpilot/config_dialog_probe.cc:354
+msgid "Disconnected from all devices"
+msgstr "सबै यन्त्रबाट विच्छेदित"
+
+#: kpilot/hotSync.cc:327
+#, kde-format
+msgid "Backup directory: %1."
+msgstr "जगेडा डाइरेक्टरी: %1"
+
+#: kpilot/hotSync.cc:338
+msgid "Full backup started."
+msgstr "पूरा जगेडा सुरु भयो ।"
+
+#: kpilot/hotSync.cc:343
+msgid "Fast backup started"
+msgstr "छिटो जगेडा सुरु भयो"
+
+#: kpilot/hotSync.cc:372
+msgid "Exiting on cancel."
+msgstr "रद्द गर्दा निस्कदैछ ।"
+
+#: kpilot/hotSync.cc:384
+msgid "Full backup complete."
+msgstr "पूरा जगेडा सम्पन्न भयो"
+
+#: kpilot/hotSync.cc:388
+msgid "Fast backup complete."
+msgstr "छिटो जगेडा सम्पन्न भयो"
+
+#: kpilot/hotSync.cc:404
+#, kde-format
+msgid "Backing up: %1"
+msgstr "जगेडा बनाउदैछ: %1"
+
+#: kpilot/hotSync.cc:432
+#, kde-format
+msgid "Skipping %1"
+msgstr "%1 छोड्दैछ"
+
+#: kpilot/hotSync.cc:466
+#, kde-format
+msgid "Backup of %1 failed.\n"
+msgstr "%1 को जगेडा बनाउन असफल\n"
+
+#: kpilot/hotSync.cc:525
+msgid "... OK.\n"
+msgstr ""
+
+#: kpilot/hotSync.cc:536
+msgid "Backup failed."
+msgstr ""
+
+#: kpilot/hotSync.cc:596
+msgid "[File Installer]"
+msgstr "[फाइल स्थापक]"
+
+#: kpilot/hotSync.cc:601
+msgid "No Files to install"
+msgstr "स्थापना गर्नलाई फाइल छैन"
+
+#: kpilot/hotSync.cc:612
+#, kde-format
+msgid "Installing one file"
+msgid_plural "Installing %1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kpilot/hotSync.cc:634
+msgid "Done Installing Files"
+msgstr "फाइल स्थापना भयो"
+
+#: kpilot/hotSync.cc:646
+#, kde-format
+msgid "Installing %1"
+msgstr "स्थापना गर्दैछ %1"
+
+#: kpilot/hotSync.cc:665
+#, kde-format
+msgid "Cannot install file &quot;%1&quot;."
+msgstr "&quot;%1&quot; फाइल स्थापना गर्न सकिँदैन"
+
+#: kpilot/hotSync.cc:691 kpilot/hotSync.cc:700
+#, kde-format
+msgid "Unable to open file &quot;%1&quot;."
+msgstr "&quot;%1&quot; फाइल खोल्न असक्षम"
+
+#: kpilot/hotSync.cc:708
+#, kde-format
+msgid "Unable to read file &quot;%1&quot;."
+msgstr "&quot;%1&quot; फाइल पढ्न असक्षम"
+
+#: kpilot/hotSync.cc:723
+#, kde-format
+msgid ""
+"The database in &quot;%1&quot; has a resource name that is longer than 31 "
+"characters. This suggests a bug in the tool used to create the database. "
+"KPilot cannot install this database."
+msgstr ""
+"&quot;%1&quot; डाटाबेसमा भएको संसाधन नाम ३१ क्यारेक्टर भन्दा लामो छ । यसले "
+"डाटाबेस सिर्जना गर्न प्रयोग गर्ने उपकरणमा वग सुझाव गर्दछ । केडीई पाइलटले यो "
+"डाटाबेस स्थापना गर्न सक्दैन ।"
+
+#: kpilot/hotSync.cc:781
+msgctxt "A common name"
+msgid "John Doe"
+msgstr "जोन डेय"
+
+#: kpilot/hotSync.cc:783
+#, kde-format
+msgid ""
+"<qt>Neither KPilot nor the handheld have a username set. They <i>should</i> "
+"be set. Should KPilot set them to a default value (<i>%1</i>)?</qt>"
+msgstr ""
+"<qt>केडीई पाइलट र ह्यान्डहेल्डमा प्रयोगकर्ता नाम सेट गरेको छैन । तिनीहरू सेट "
+"गरिनु <i>पर्दछ</i> । केडीई पाइलटलाई तिनीहरूको पूर्वनिर्धारित मान (<i>%1</i>) "
+"मा सेट गर्नुहुन्छ ?</qt>"
+
+#: kpilot/hotSync.cc:789 kpilot/hotSync.cc:805 kpilot/hotSync.cc:829
+msgid "User Unknown"
+msgstr "प्रयोगकर्ता अज्ञात छ"
+
+#: kpilot/hotSync.cc:801
+#, kde-format
+msgid ""
+"<qt>The handheld has a username set (<i>%1</i>) but KPilot does not. Should "
+"KPilot use this username in future?</qt>"
+msgstr ""
+
+#: kpilot/hotSync.cc:818
+#, kde-format
+msgid ""
+"KPilot has a username set (<i>%1</i>) but the handheld does not. Should "
+"KPilot's username be set in the handheld as well?"
+msgstr ""
+
+#: kpilot/hotSync.cc:822
+msgid ""
+"<br/>(<i>Note:</i> If your handheld has been reset to factory defaults, you "
+"should use <i>Restore</i> instead of a regular HotSync. Click on Cancel to "
+"stop this sync.)"
+msgstr ""
+
+#: kpilot/hotSync.cc:850
+#, kde-format
+msgid ""
+"<qt>The handheld thinks that the username is %1; however, KPilot says you "
+"are %2.Which of these is the correct name?\n"
+"If you click on Cancel, the sync will proceed, but the usernames will not be "
+"changed.</qt>"
+msgstr ""
+
+#: kpilot/hotSync.cc:858
+msgid "User Mismatch"
+msgstr "प्रयोगकर्ता मिलेन"
+
+#: kpilot/hotSync.cc:861
+msgid "Use KPilot Name"
+msgstr "केडीई पाइलट नाम प्रयोग गर्नुहोस्"
+
+#: kpilot/hotSync.cc:862
+msgid "Use Handheld Name"
+msgstr "ह्यान्डहेल्ड नाम प्रयोग गर्नुहोस्"
+
+#: kpilot/hotSync.cc:963
+msgid "Restore directory does not exist."
+msgstr "पूर्वावस्थामा ल्याउने डाइरेक्टरी अवस्थित छैन ।"
+
+#: kpilot/hotSync.cc:964 kpilot/hotSync.cc:978
+msgid "Restore not performed."
+msgstr "पूर्वावस्थामा ल्याउने हुन सक्दैन"
+
+#: kpilot/hotSync.cc:969
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to completely restore your Pilot from the backup "
+"directory (<i>%1</i>)? This will erase any information you currently have on "
+"your Pilot.</qt>"
+msgstr ""
+"<qt>तपाईँले जगेडा डाइरेक्टरी (<i>%1</i>) बाट तपाईँको पाइलट सम्पूर्ण रूपमा "
+"पूरावस्थामा ल्याउन चाहनुहुन्छ ? यसले हालै तपाईँको पाइलटमा भएको जानकारी "
+"मेट्दछ ।</qt>"
+
+#: kpilot/hotSync.cc:973
+msgid "Restore Pilot"
+msgstr "पाइलट पूर्वावस्थामा ल्याउनुहोस्"
+
+#: kpilot/hotSync.cc:975
+msgid "Restore <i>not</i> performed."
+msgstr "पूर्वावस्थामा ल्याउने कार्य <i>हुन</i> सक्दैन"
+
+#: kpilot/hotSync.cc:977
+msgid "Canceled by user."
+msgstr "प्रयोगकर्ताद्वारा रद्द गरियो"
+
+#: kpilot/hotSync.cc:989 kpilot/hotSync.cc:1059
+#, kde-format
+msgid "Restoring %1..."
+msgstr "पूर्वावस्थामा ल्याउदैछ %1..."
+
+#: kpilot/hotSync.cc:1008
+#, kde-format
+msgid "File '%1' cannot be read."
+msgstr "फाइल '%1' पढ्न सकिँदैन ।"
+
+#: kpilot/hotSync.cc:1036
+msgid "OK."
+msgstr "ठीक छ"
+
+#: kpilot/hotSync.cc:1050
+msgid "Restore incomplete."
+msgstr "पूर्वावस्थामा ल्याउने अपूर्ण भयो"
+
+#: kpilot/hotSync.cc:1067
+#, kde-format
+msgid "Cannot restore file `%1'."
+msgstr "`%1' फाइल पूर्वावस्थामा ल्याउन सकिँदैन ।"
+
+#: kpilot/kpilotConfig.cc:127
+msgid "The configuration file is outdated."
+msgstr "कन्फिगरेसनको म्याद समाप्त भएको छ ।"
+
+#: kpilot/kpilotConfig.cc:129
+#, kde-format
+msgid "The configuration file has version %1, while KPilot needs version %2."
+msgstr ""
+"कन्फिगरेसन %1 संस्करणको हो, जबकी केडीई पाइलटलाई %2 संस्करण आवश्यक पर्दछ ।"
+
+#: kpilot/kpilotConfig.cc:134
+msgid ""
+"Please run KPilot and check the configuration carefully to update the file."
+msgstr ""
+"कृपया फाइल अद्यावधिक गर्न केडीई पाइलट चलाउनुहोस् र सावधानीपूर्वक कन्फिगरेसन "
+"जाँच गर्नुहोस् ।"
+
+#: kpilot/kpilotConfig.cc:138
+msgid "Important changes to watch for are:"
+msgstr "हेर्नका लागि महत्वपूर्ण परिवर्तन निम्न छन्:"
+
+#: kpilot/kpilotConfig.cc:142
+msgid ""
+"Renamed conduits, Kroupware and file installer have been made conduits as "
+"well."
+msgstr ""
+"पुन: नामकरण गरिएको कन्ड्युट, Kroupware र फाइल स्थापकले कन्ड्युट पनि बनाएको छ "
+"।"
+
+#: kpilot/kpilotConfig.cc:145
+msgid "Conflict resolution is now a global setting."
+msgstr "द्वन्द्ध समाधान अहिले विश्वव्यापी सेटिङ हो ।"
+
+#: kpilot/kpilotConfig.cc:150
+msgid "Changed format of no-backup databases."
+msgstr "जगेडा नगरेको डाटाबेसको परिवर्तित ढाँचा ।"
+
+#: kpilot/kpilotConfig.cc:155
+msgid ""
+"Calendar, ToDo, and Contacts conduits are now using KDE4's Akonadi server "
+"and require valid Akonadi resources to sync."
+msgstr ""
+
+#: kpilot/kpilotConfig.cc:170
+msgid ""
+"The configuration file for KPilot is out-of date. Please run KPilot to "
+"update it."
+msgstr ""
+"केडीई पाइलटका लागि कन्फिगरेसन फाइलको म्याद समाप्त भएको छ । यसलाई अद्यावधिक "
+"गर्न कृपया केडीई पाइलट चलाउनुहोस् ।"
+
+#: kpilot/kpilotConfig.cc:173 kpilot/kpilotConfig.cc:201
+msgid "Configuration File Out-of Date"
+msgstr "कन्फिगरेसन फाइलको म्याद समाप्त भएको छ"
+
+#: kpilot/kpilotConfig.cc:197
+msgid ""
+"The configuration file for KPilot is out-of date. KPilot can update some "
+"parts of the configuration automatically. Do you wish to continue?"
+msgstr ""
+"केडीई पाइलटका लागि कन्फिगरेसन फाइलको म्याद समाप्त भएको छ । केडीई पाइलटले "
+"कन्फिगरेसनको केही भाग स्वचालित रूपमा अद्यावधिक गर्न सक्छ । तपाईँले जारी "
+"राख्न चाहनुहुन्छ ?"
+
+#: kpilot/config_pages.cc:48
+#, kde-format
+msgid ""
+"<qt>The settings for configuration page <i>%1</i> have been changed. Do you "
+"want to save the changes before continuing?</qt>"
+msgstr ""
+"<qt>कन्फिगरेसन पृष्ठ <i>%1</i> का लागि सेटिङ परिवर्तन गर्न सकिँदैन । जारी "
+"राख्नु अगाडि तपाईँले परिवर्तनहरू बचत गर्न चाहनुहुन्छ ?</qt>"
+
+#: kpilot/logWidget.cc:71
+msgid ""
+"<qt>This lists all the messages received during the current HotSync</qt>"
+msgstr "<qt>हालको HotSync चलाउदा प्राप्त सबै सन्देश सूचीकृत गर्दछ</qt>"
+
+#: kpilot/logWidget.cc:98
+msgid "<qt><b>HotSync Log</b></qt>"
+msgstr "<qt><b>HotSync लग</b></qt>"
+
+#: kpilot/logWidget.cc:107
+msgctxt "Clear the text of HotSync messages"
+msgid "Clear Log"
+msgstr "लग खाली गर्नुहोस्"
+
+#: kpilot/logWidget.cc:109
+msgid "<qt>Clears the list of messages from the current HotSync.</qt>"
+msgstr "<qt>हालको HotSync बाट सबै सन्देशको सूची सफा गर्दछ ।</qt>"
+
+#: kpilot/logWidget.cc:113
+msgid "Save Log..."
+msgstr "लग बचत गर्नुहोस्..."
+
+#: kpilot/logWidget.cc:114
+msgid ""
+"<qt>You can save the list of messages received during this HotSync to a file "
+"(for example for use in a bug report) by clicking here.</qt>"
+msgstr ""
+"<qt>तपाईँले यहाँ क्लिक गरेर यो HotSync चलाउदा प्राप्त सन्देशको सूची फाइल "
+"(उदाहरणका लागि, बग प्रतिवेदनमा प्रयोग गर्न) मा बचत गर्न सक्नुहुन्छ ।</qt>"
+
+#: kpilot/logWidget.cc:123
+msgid "Sync progress:"
+msgstr "समक्रमण प्रगति:"
+
+#: kpilot/logWidget.cc:126
+msgid "<qt>The (estimated) percentage completed in the current HotSync.</qt>"
+msgstr "<qt> हालको HotSync मा सम्पन्न (अनुमानित) प्रतिशत ।</qt>"
+
+#: kpilot/logWidget.cc:187
+msgid "<b>HotSync Finished.</b>"
+msgstr "<b>HotSync समाप्त भयो ।</b>"
+
+#: kpilot/logWidget.cc:235
+msgid "Save Log"
+msgstr "लग बचत गर्नुहोस्"
+
+#: kpilot/logWidget.cc:245
+msgid "The file exists. Do you want to overwrite it?"
+msgstr "फाइल अवस्थित छ । तपाईँले यसलाई अधिलेखन गर्न चाहनुहुन्छ ?"
+
+#: kpilot/logWidget.cc:247
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: kpilot/logWidget.cc:247 conduits/docconduit/kpalmdoc_dlg.cc:459
+#: conduits/docconduit/kpalmdoc_dlg.cc:504
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: kpilot/logWidget.cc:247
+msgid "Do Not Overwrite"
+msgstr "अधिलेखन नगर्नुहोस्"
+
+#: kpilot/logWidget.cc:273
+#, kde-format
+msgid "<qt>Cannot open the file &quot;%1&quot; for writing; try again?</qt>"
+msgstr ""
+"<qt>लेख्नका लागि फाइल &quot;%1&quot; खोल्न सकिँदैन, पुन: प्रयास गर्नुहुन्छ "
+"?</qt>"
+
+#: kpilot/logWidget.cc:275
+msgid "Cannot Save"
+msgstr "बचत गर्न सकिँदैन"
+
+#: kpilot/logWidget.cc:275
+msgid "Try Again"
+msgstr "पुन: प्रयास गर्नुहोस्"
+
+#: kpilot/logWidget.cc:275
+msgid "Do Not Try"
+msgstr "प्रयास नगर्नुहोस्"
+
+#: kpilot/kpilotConfig.h:124 conduits/todo/todoconfig.cc:54
+#: conduits/contacts/contactsconfig.cc:54 conduits/popmail/setupDialog.cc:71
+#: conduits/notepadconduit/notepad-factory.cc:91
+#: conduits/null/null-factory.cc:77 conduits/calendar/calendarconfig.cc:54
+#: conduits/docconduit/kpalmdoc.cpp:47
+msgid "Adriaan de Groot"
+msgstr "एड्रियान डे ग्रूट"
+
+#: kpilot/kpilotConfig.h:125 conduits/todo/todoconfig.cc:54
+#: conduits/todo/todoconfig.cc:55 conduits/contacts/contactsconfig.cc:54
+#: conduits/contacts/contactsconfig.cc:55 conduits/popmail/setupDialog.cc:72
+#: conduits/calendar/calendarconfig.cc:54
+#: conduits/calendar/calendarconfig.cc:55 conduits/docconduit/doc-setup.cc:65
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: kpilot/kpilotConfig.h:127 conduits/memofileconduit/memofile-factory.cc:75
+#: conduits/memofile/memofilefactory.cc:75
+msgid "Jason 'vanRijn' Kasper"
+msgstr "जासोन 'vanRijn' कास्पर"
+
+#: kpilot/kpilotConfig.h:128
+msgid "Core and conduits Developer, Maintainer"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:130
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:79
+#: conduits/todo/todoconfig.cc:55 conduits/sysinfoconduit/sysinfo-setup.cc:100
+#: conduits/contacts/contactsconfig.cc:55
+#: conduits/calendar/calendarconfig.cc:55
+#: conduits/timeconduit/time-setup.cc:51 conduits/docconduit/kpalmdoc.cpp:45
+#: conduits/docconduit/doc-setup.cc:64 conduits/malconduit/mal-setup.cc:69
+msgid "Reinhold Kainhofer"
+msgstr "रेनहोल्ड केनहोफर"
+
+#: kpilot/kpilotConfig.h:131
+msgid "Developer"
+msgstr "विकासकर्ता"
+
+#: kpilot/kpilotConfig.h:133 conduits/todo/todoconfig.cc:51
+#: conduits/contacts/contactsconfig.cc:51 conduits/popmail/setupDialog.cc:75
+#: conduits/calendar/calendarconfig.cc:51
+msgid "Dan Pilone"
+msgstr "डन पिलोन"
+
+#: kpilot/kpilotConfig.h:134
+msgid "Former Project Leader"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:136 conduits/todo/todoconfig.cc:52
+#: conduits/contacts/contactsconfig.cc:52
+#: conduits/calendar/calendarconfig.cc:52
+msgid "Preston Brown"
+msgstr "प्रेस्टन ब्राउन"
+
+#: kpilot/kpilotConfig.h:136
+msgid "VCal conduit"
+msgstr "VCal कन्ड्युट"
+
+#: kpilot/kpilotConfig.h:137
+msgid "Greg Stern"
+msgstr "ग्रेग स्टर्न"
+
+#: kpilot/kpilotConfig.h:137
+msgid "Abbrowser conduit"
+msgstr "एबब्राउजर कन्ड्युट"
+
+#: kpilot/kpilotConfig.h:138
+msgid "Chris Molnar"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:138
+msgid "Expenses conduit"
+msgstr "क्षय कन्ड्युट"
+
+#: kpilot/kpilotConfig.h:139
+msgid "Jörn Ahrens"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:139
+msgid "Notepad conduit, Bugfixer"
+msgstr "नोटप्याड कन्ड्युट, त्रुटिमोचक"
+
+#: kpilot/kpilotConfig.h:140
+msgid "Heiko Purnhagen"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:140 kpilot/kpilotConfig.h:141
+msgid "Bugfixer"
+msgstr "त्रुटि मोचक"
+
+#: kpilot/kpilotConfig.h:141
+msgid "Jörg Habenicht"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:142
+msgid "Martin Junius"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:143
+msgid "XML GUI"
+msgstr "XML GUI"
+
+#: kpilot/kpilotConfig.h:145
+msgid "David Bishop"
+msgstr "डेभिड बिसोप"
+
+#: kpilot/kpilotConfig.h:146
+msgid ".ui files"
+msgstr ".ui फाइल"
+
+#: kpilot/kpilotConfig.h:147
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:148
+msgid "Bugfixer, coolness"
+msgstr "त्रुटिमोचक, राम्रो"
+
+#: kpilot/kpilotConfig.h:149
+#: Documentation/base-conduit-template/contacts-setup.cc:51
+#: conduits/todo/todoconfig.cc:45 conduits/contacts/contactsconfig.cc:45
+#: conduits/keyringconduit/keyringsetup.cc:54
+#: conduits/calendar/calendarconfig.cc:45
+msgid "Bertjan Broeksema"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:150
+msgid "VCalconduit state machine, CMake, Base Conduit rewrite"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:151
+msgid "Montel Laurent"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:152
+msgid "KDE4 port"
+msgstr ""
+
+#: kpilot/kpilotConfig.h:156
+msgid ""
+"(c) 1998-2000,2001, Dan Pilone\n"
+"(c) 2000-2007, Adriaan de Groot\n"
+"(c) 2005-2007, Jason 'vanRijn' Kasper"
+msgstr ""
+
+#: kpilot/pilotDaemon.cc:484
+#, kde-format
+msgid "Next HotSync will be: %1. "
+msgstr "पछिल्लो HotSync यो हुन्छ: %1 "
+
+#: kpilot/pilotDaemon.cc:485 kpilot/kpilot.cc:386 kpilot/kpilot.cc:394
+#: kpilot/kpilot.cc:402 kpilot/kpilot.cc:410 kpilot/kpilot.cc:418
+#: kpilot/kpilot.cc:426
+msgid "Please press the HotSync button."
+msgstr "कृपया HotSync बटन थिच्नुहोस् ।"
+
+#: kpilot/pilotDaemon.cc:550 kpilot/kpilot.cc:258
+msgid "File Installer"
+msgstr "फाइल स्थापनाकर्ता"
+
+#: kpilot/pilotDaemon.cc:715
+msgid "HotSync is disabled while the screen is locked."
+msgstr "पर्दामा ताल्चा लगाउदा HotSync अक्षम हुन्छ ।"
+
+#: kpilot/pilotDaemon.cc:720
+msgid ""
+"HotSync is disabled because KPilot could not determine the state of the "
+"screen saver. You can disable this security feature by unchecking the 'do "
+"not sync when screensaver is active' box in the HotSync page of the "
+"configuration dialog."
+msgstr ""
+"केडीई पाइलटले स्क्रिनसेभर निर्धारण गर्न नसकेकाले हटसिन्क अक्षम पारिएको छ । "
+"तपाईँले कन्फिगरेसन संवादको HotSync पृष्ठमा ' स्क्रिनसेभर सक्रिय हुँदा "
+"समक्रमण नगर्नुहोस्' लाई चिनो हटाएर यो सुरक्षा सुविधा अक्षम पार्न सक्नुहुन्छ ।"
+
+#: kpilot/pilotDaemon.cc:1004 kpilot/pilotDaemon.cc:1010
+msgid "HotSync Completed.<br/>"
+msgstr ""
+
+#: kpilot/pilotDaemon.cc:1059
+#, kde-format
+msgid "Next sync is %1."
+msgstr "पछिल्लो समक्रमण %1 हो ।"
+
+#: kpilot/pilotDaemon.cc:1136
+msgid "KPilot Daemon"
+msgstr "केडीई पाइलट डेइमोन"
+
+#: kpilot/pilotDaemon.cc:1138 kpilot/kpilot.cc:739
+msgid "KPilot - HotSync software for KDE"
+msgstr ""
+
+#: kpilot/pilotDaemon.cc:1153 kpilot/kpilot.cc:753
+msgid "Set debugging level"
+msgstr "डिबग स्तर सेट गर्नुहोस्"
+
+#: kpilot/pilotDaemon.cc:1155
+msgid "Device to try first"
+msgstr "पहिलो प्रयास गर्ने यन्त्र"
+
+#: kpilot/pilotDaemon.cc:1156
+msgid "Exit instead of complaining about bad configuration files"
+msgstr "गलत कन्फिगरेसन फाइलको बारेमा कम्प्लेन गर्नुको साटोमा बाहिरिनुहोस्"
+
+#: kpilot/pilotDaemon.cc:1157
+msgid "kpilotconfig"
+msgstr "kpilotconfig"
+
+#: kpilot/kpilot.cc:180
+msgid "Starting the KPilot daemon ..."
+msgstr "केडीई पाइलट डेइमन सुरु गर्दैछ ..."
+
+#: kpilot/kpilot.cc:190
+#, kde-format
+msgid ""
+"Could not start the KPilot daemon. The system error message was: "
+"&quot;%1&quot;"
+msgstr ""
+"केडीई पाइलट डेइमन सुरु गर्ने सकेन । प्रणाली त्रुटि यस्तो थियो: &quot;%1&quot;"
+
+#: kpilot/kpilot.cc:198
+msgid "Daemon started."
+msgstr ""
+
+#: kpilot/kpilot.cc:220
+msgid "not running"
+msgstr "चलिरहेको छैन"
+
+#: kpilot/kpilot.cc:220
+#, kde-format
+msgid "Daemon status is `%1'"
+msgstr "डेइमनको वस्तुस्थिति यस्तो छ  `%1'"
+
+#: kpilot/kpilot.cc:233
+#, kde-format
+msgid "Using character set %1 on the handheld."
+msgstr "ह्यान्डहेल्डमा  %1 क्यारेक्टर सेट प्रयोग गर्दैछ"
+
+#: kpilot/kpilot.cc:284
+msgid "Select the kind of HotSync to perform next."
+msgstr "पछि गर्ने हटसिन्कको प्रकार चयन गर्नुहोस् ।"
+
+#: kpilot/kpilot.cc:285
+msgid ""
+"Select the kind of HotSync to perform next. This applies only to the next "
+"HotSync; to change the default, use the configuration dialog."
+msgstr ""
+"पछि गर्ने हटसिन्कको प्रकार चयन गर्नुहोस् । यो केबल पछिल्लो हटसिन्कमा लागू "
+"गरिन्छ; पूर्वनिर्धारितलाई परिवर्तन गर्न, कन्फिगरेसन संवाद प्रयोग गर्नुहोस् ।"
+
+#: kpilot/kpilot.cc:293
+msgid "&HotSync"
+msgstr "हटसिन्क"
+
+#: kpilot/kpilot.cc:295
+msgid "Next HotSync will be normal HotSync."
+msgstr "पछिल्लो हटसिन्क सामान्य हटसिन्क हुनेछ ।"
+
+#: kpilot/kpilot.cc:296
+msgid "Tell the daemon that the next HotSync should be a normal HotSync."
+msgstr "पछिल्लो हटसिन्क सामान्य हटसिन्क हुनु पर्दछ भनेर डेइमनलाई भन्नुहोस् ।"
+
+#: kpilot/kpilot.cc:300
+msgid "Full&Sync"
+msgstr "पूरा समक्रमण"
+
+#: kpilot/kpilot.cc:302
+msgid "Next HotSync will be a FullSync."
+msgstr "पछिल्लो हटसिन्क पूरा समक्रमण हुनेछ ।"
+
+#: kpilot/kpilot.cc:303
+msgid ""
+"Tell the daemon that the next HotSync should be a FullSync (check data on "
+"both sides)."
+msgstr ""
+"पछिल्लो हटसिन्क पूरा समक्रमण हुनेछ भनेर डेइमनलाई भन्नुहोस् (दुबै तिर डेटा "
+"जाँच गर्नुहोस् ) ।"
+
+#: kpilot/kpilot.cc:310
+msgid "Next HotSync will copy PC to Handheld."
+msgstr ""
+
+#: kpilot/kpilot.cc:311
+msgid ""
+"Tell the daemon that the next HotSync should copy all data from the PC to "
+"the Handheld, overwriting entries on the Handheld."
+msgstr ""
+
+#: kpilot/kpilot.cc:319
+msgid "Next HotSync will copy Handheld to PC."
+msgstr ""
+
+#: kpilot/kpilot.cc:320
+msgid ""
+"Tell the daemon that the next HotSync should copy all data from the Handheld "
+"to the PC, overwriting entries on the PC."
+msgstr ""
+"पछिल्लो हटसिन्कले ह्यान्डहेल्डबाट सबै डेटा PC मा प्रतिलिपि गर्नु पर्दछ भनेर "
+"डेइमनलाई भन्नुहोस्, PC मा प्रविष्टिहरू अधिलेखन गर्दैछ ।"
+
+#: kpilot/kpilot.cc:326
+msgid "&Backup"
+msgstr "जगेडा"
+
+#: kpilot/kpilot.cc:328
+msgid "Next HotSync will be backup."
+msgstr "पछिल्लो हटसिन्क जगेडा हुनेछ ।"
+
+#: kpilot/kpilot.cc:329
+msgid ""
+"Tell the daemon that the next HotSync should back up the Handheld to the PC."
+msgstr ""
+"पछिल्लो हटसिन्कले ह्यान्डहेल्डलाई PC मा जगेडा गर्नेछ भनेर डेइमनलाई भन्नुहोस् "
+"।"
+
+#: kpilot/kpilot.cc:334
+msgid "&Restore"
+msgstr "पूर्वावस्थामा ल्याउनुहोस्"
+
+#: kpilot/kpilot.cc:336
+msgid "Next HotSync will be restore."
+msgstr "पछिल्लो हटसिन्क पूर्वावस्थामा ल्याइने छ ।"
+
+#: kpilot/kpilot.cc:337
+msgid ""
+"Tell the daemon that the next HotSync should restore the Handheld from data "
+"on the PC."
+msgstr ""
+"पछिल्लो हटसिन्कले डेटाबाट ह्यान्डहेल्डलाई PC मा पूर्वावस्थामा ल्याउनु पर्छ "
+"भनेर डेइमनलाई भन्नुहोस् ।"
+
+#: kpilot/kpilot.cc:342
+msgid "Rese&t Link"
+msgstr "लिङ्क रिसेट गर्नुहोस्"
+
+#: kpilot/kpilot.cc:344
+msgid "Reset the device connection."
+msgstr "यन्त्र जडान रिसेट गर्नुहोस् ।"
+
+#: kpilot/kpilot.cc:345
+msgid "Try to reset the daemon and its connection to the Handheld."
+msgstr "डेइमन र यसको जडान ह्यान्डहेल्डमा रिसेट गर्न प्रयास गर्नुहोस् ।"
+
+#: kpilot/kpilot.cc:350
+msgid "Quit KPilot, (and stop the daemon if configured that way)."
+msgstr ""
+"केडीई पाइलट अन्त्य गर्नुहोस्, (र कन्फिगरेसन भैरहेको छ भने रोक्नुहोस्) ।"
+
+#: kpilot/kpilot.cc:385
+msgid "Next sync will be a backup. "
+msgstr "पछिल्लो समक्रमणलाई जगेडा गरिने छ । "
+
+#: kpilot/kpilot.cc:393
+msgid "Next sync will restore the Pilot from backup. "
+msgstr "पछिल्लो समक्रमणले जगेडाबाट पाइलट पूर्वावस्थामा ल्याउने छ । "
+
+#: kpilot/kpilot.cc:401
+msgid "Next sync will be a regular HotSync. "
+msgstr "पछिल्लो समक्रमण नियमित हटसिन्क हुनेछ । "
+
+#: kpilot/kpilot.cc:409
+msgid "Next sync will be a Full Sync. "
+msgstr "पछिल्लो समक्रमण पूरा समक्रमण हुनेछ । "
+
+#: kpilot/kpilot.cc:417
+msgid "Next sync will copy Handheld data to PC. "
+msgstr "पछिल्लो समक्रमणले ह्यान्डहेल्ड डेटालाई PC मा प्रतिलिपि गर्नेछ । "
+
+#: kpilot/kpilot.cc:425
+msgid "Next sync will copy PC data to Handheld. "
+msgstr "पछिल्लो समक्रमणले PC डेटालाई ह्यान्डहेल्डमा प्रतिलिपि गर्नेछ । "
+
+#: kpilot/kpilot.cc:451
+msgid "The daemon has exited."
+msgstr ""
+
+#: kpilot/kpilot.cc:452
+msgid "No further HotSyncs are possible."
+msgstr ""
+
+#: kpilot/kpilot.cc:453
+msgid "Restart the daemon to HotSync again."
+msgstr ""
+
+#: kpilot/kpilot.cc:550
+msgid "Resetting device connection ..."
+msgstr ""
+
+#: kpilot/kpilot.cc:571
+msgid "Configuration"
+msgstr ""
+
+#: kpilot/kpilot.cc:695
+msgid "Cannot configure KPilot right now (KPilot's UI is already busy)."
+msgstr ""
+"केडीई पाइलट अहिले कन्फिगर गर्न सकिँदैन (केडीई पाइलटको UI पहिले नै व्यस्त छ) ।"
+
+#: kpilot/kpilot.cc:737
+msgid "KPilot"
+msgstr "केडीई पाइलट"
+
+#: kpilot/kpilot.cc:751
+msgid "Setup the Pilot device, conduits and other parameters"
+msgstr "पाइलट यन्त्र, कन्ड्युट र अन्य परिमितिहरू सेटअप गर्नुहोस्"
+
+#: kpilot/kpilot.cc:755
+msgid "kpilot"
+msgstr ""
+
+#: Documentation/base-conduit-template/contacts-setup.cc:44
+#: conduits/contacts/contactsconfig.cc:38
+msgid "Contacts Conduit for KPilot"
+msgstr ""
+
+#: Documentation/base-conduit-template/contacts-setup.cc:46
+#: conduits/contacts/contactsconfig.cc:40
+msgid "Configures the Contacts Conduit for KPilot"
+msgstr ""
+
+#: Documentation/base-conduit-template/contacts-setup.cc:48
+#: conduits/todo/todoconfig.cc:42 conduits/contacts/contactsconfig.cc:42
+#: conduits/calendar/calendarconfig.cc:42
+msgid "(C) 2008, Bertjan Broeksema"
+msgstr ""
+
+#: Documentation/base-conduit-template/contacts-setup.cc:52
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:80
+#: conduits/sysinfoconduit/sysinfo-setup.cc:101
+#: conduits/memofileconduit/memofile-factory.cc:76
+#: conduits/keyringconduit/keyringsetup.cc:55
+#: conduits/notepadconduit/notepad-factory.cc:88
+#: conduits/null/null-factory.cc:78 conduits/memofile/memofilefactory.cc:76
+#: conduits/timeconduit/time-setup.cc:52 conduits/malconduit/mal-setup.cc:70
+msgid "Primary Author"
+msgstr "प्राथमिक लेखक"
+
+#: Documentation/base-conduit-template/contacts-setup.cc:68
+#: conduits/contacts/contactsconfig.cc:64
+msgid "Contacts"
+msgstr ""
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:74
+#: conduits/malconduit/mal-setup.cc:64
+msgid "MAL Synchronization Conduit for KPilot"
+msgstr "केडीई पाइलटमा MAL समक्रमण कन्ड्युट"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:76
+#: conduits/malconduit/mal-setup.cc:66
+msgid ""
+"Synchronizes the content from MAL Servers like AvantGo to the Handheld"
+msgstr "AvantGo बाट ह्यान्डहेल्डमा जस्तै MAL सर्भरबाट सामग्री समक्रमण गर्दछ"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:78
+#: conduits/timeconduit/time-setup.cc:50 conduits/docconduit/doc-setup.cc:62
+#: conduits/malconduit/mal-setup.cc:68
+msgid "(C) 2002, Reinhold Kainhofer"
+msgstr "(प्रतिलिपि अधिकार) २००२, रेनहोल्ड केनहोफर"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:81
+#: conduits/malconduit/mal-setup.cc:71
+msgid "Jason Day"
+msgstr "जासोन दिन"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:82
+#: conduits/malconduit/mal-setup.cc:72
+msgid "Author of libmal and the JPilot AvantGo conduit"
+msgstr "libmal र JPilot AvantGo कन्ड्युटको लेखक"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:83
+#: conduits/malconduit/mal-setup.cc:73
+msgid "Tom Whittaker"
+msgstr "टम ह्विटट्याकर"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:84
+#: conduits/malconduit/mal-setup.cc:74
+msgid "Author of syncmal"
+msgstr "syncmal को लेखक"
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:85
+#: conduits/malconduit/mal-setup.cc:75
+msgid "AvantGo, Inc."
+msgstr "AvantGo, Inc."
+
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:86
+#: conduits/malconduit/mal-setup.cc:76
+msgid "Authors of the malsync library (c) 1997-1999"
+msgstr "malsync लाइब्रेरी (प्रतिलिपि अधिकार) १९९७-१९९९ को लेखक"
+
+#: conduits/todo/todoconduit.cc:129 conduits/contacts/contactsconduit.cc:224
+#: conduits/memofile/memofileconduit.cc:119
+#: conduits/calendar/calendarconduit.cc:83
+msgid "Error: Handheld database is not loaded."
+msgstr ""
+
+#: conduits/todo/todoconduit.cc:135 conduits/contacts/contactsconduit.cc:230
+#: conduits/calendar/calendarconduit.cc:89
+msgid "Error: No valid akonadi collection configured."
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:38
+msgid "To-do Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि 'गर्नु पर्ने' कन्ड्युट"
+
+#: conduits/todo/todoconfig.cc:40
+msgid "Configures the To-do Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि 'गर्नु पर्ने' कन्ड्युट कन्फिगर गर्दछ"
+
+#: conduits/todo/todoconfig.cc:46 conduits/contacts/contactsconfig.cc:46
+#: conduits/calendar/calendarconfig.cc:46
+msgid "Rewrite and port to Akonadi and Base libraries"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:51 conduits/todo/todoconfig.cc:52
+#: conduits/todo/todoconfig.cc:53 conduits/contacts/contactsconfig.cc:51
+#: conduits/contacts/contactsconfig.cc:52
+#: conduits/contacts/contactsconfig.cc:53
+#: conduits/calendar/calendarconfig.cc:51
+#: conduits/calendar/calendarconfig.cc:52
+#: conduits/calendar/calendarconfig.cc:53
+msgid "Original author of the old conduit"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:53 conduits/contacts/contactsconfig.cc:53
+#: conduits/calendar/calendarconfig.cc:53
+msgid "Herwin-Jan Steenhouwer"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:64
+msgid "To-do"
+msgstr "'गर्नु पर्ने'"
+
+#: conduits/todo/todoconfig.cc:74
+msgid "Select ToDo Collection: "
+msgstr ""
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:151
+#: conduits/sysinfoconduit/sysinfo-setup.cc:112
+msgid "System Information"
+msgstr "प्रणाली जानकारी"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:195
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:391
+msgctxt "Value of the item is unknown"
+msgid "unknown"
+msgstr ""
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:242
+msgid "Password set"
+msgstr "पासवर्ड सेट"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:246
+msgid "No password set"
+msgstr "पासवर्ड सेट छैन"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:296
+msgid "No Cards available via pilot-link"
+msgstr "पाइलट-लिङ्कबाट कार्ड उपलब्ध छैन"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:453
+msgid "No debug data"
+msgstr "डिबग डेटा छैन"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:580
+#, kde-format
+msgid "Unable to open output file, using %1 instead."
+msgstr "निर्गत फाइल खोल्न असक्षम, सट्टामा %1 प्रयोग गर्दैछ ।"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:585
+#: conduits/notepadconduit/notepad-conduit.cc:77
+#, kde-format
+msgid "Unable to open %1"
+msgstr "%1 खोल्न असक्षम"
+
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:596
+#, kde-format
+msgid "Handheld system information written to the file %1"
+msgstr "%1 फाइलमा ह्यान्डहेल्ड प्रणाली सूचना लेखियो"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:52
+msgid "HardwareInfo"
+msgstr "हार्डवेयर सूचना"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:53
+msgid "UserInfo"
+msgstr "प्रयोगकर्ता सूचना"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:54
+msgid "MemoryInfo"
+msgstr "स्मृति सूचना"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:55
+msgid "StorageInfo"
+msgstr "भण्डारण सूचना"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:56
+msgid "DatabaseList"
+msgstr "डाटाबेस सूची"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:57
+msgid "RecordNumbers"
+msgstr "रेकर्ड नम्बर"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:58
+msgid "SyncInfo"
+msgstr "समक्रमण सूचना"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:59
+msgid "KDEVersion"
+msgstr "केडीई संस्करण"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:60
+msgid "PalmOSVersion"
+msgstr "PalmOSVersion"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:61
+msgid "DebugInformation"
+msgstr "डिबग सूचना"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:95
+msgid "KPilot System Information conduit"
+msgstr "केडीई पाइलट प्रणाली कन्ड्युट"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:97
+msgid ""
+"Retrieves System, Hardware, and User Info from the Handheld and stores them "
+"to a file."
+msgstr ""
+"ह्यान्डहेल्डबाट प्रणाली, हार्डवेयर र प्रयोगकर्ता सूचना पुन: प्राप्त गर्दछ र "
+"तिनलाई फाइलमा भण्डारण गर्दछ ।"
+
+#: conduits/sysinfoconduit/sysinfo-setup.cc:99
+msgid "(C) 2003, Reinhold Kainhofer"
+msgstr "(प्रतिलिपि अधिकार) २००३, रेनहोल्ड केनहोफर"
+
+#: conduits/memofileconduit/memofile-factory.cc:67
+#: conduits/memofileconduit/memofile-conduit.cc:64
+#: conduits/memofile/memofilefactory.cc:67
+msgid "Memofile"
+msgstr "मेमो फाइल"
+
+#: conduits/memofileconduit/memofile-factory.cc:70
+#: conduits/memofile/memofilefactory.cc:70
+msgid "Memofile Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि मेमोफाइल कन्ड्युट"
+
+#: conduits/memofileconduit/memofile-factory.cc:72
+#: conduits/memofile/memofilefactory.cc:72
+msgid "Configures the Memofile Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि मेमोफाइल कन्ड्युट कन्फिगर गर्दछ"
+
+#: conduits/memofileconduit/memofile-factory.cc:74
+#: conduits/memofile/memofilefactory.cc:74
+msgid "(C) 2004, Jason 'vanRijn' Kasper"
+msgstr "(प्रतिलिपि अधिकार) २००४, जासोन 'vanRijn' कास्पर"
+
+#: conduits/memofileconduit/memofile-conduit.cc:83
+msgid "Unable to open the memo databases on the handheld."
+msgstr "ह्यान्डहेल्डमा मेमो डाटाबेस खोल्न असक्षम ।"
+
+#: conduits/memofileconduit/memofile-conduit.cc:91
+msgid "Cannot initialize from pilot."
+msgstr "पाइलटबाट सुरुआत गर्न सकिँदैन ।"
+
+#: conduits/memofileconduit/memofile-conduit.cc:98
+msgid "Cannot initialize the memo files from disk."
+msgstr "डिस्कबाट मेमोफाइल सुरुआत गर्न सकिँदैन ।"
+
+#: conduits/memofileconduit/memofile-conduit.cc:105
+#, kde-format
+msgid " Syncing with %1."
+msgstr " %1 सँग समक्रमण गर्दैछ ।"
+
+#: conduits/memofileconduit/memofile-conduit.cc:108
+msgid " Copying Pilot to PC..."
+msgstr " पाइलटबाट PC मा प्रतिलिपि गर्दैछ..."
+
+#: conduits/memofileconduit/memofile-conduit.cc:113
+msgid " Copying PC to Pilot..."
+msgstr " PC बाट पाइलटमा प्रतिलिपि गर्दैछ..."
+
+#: conduits/memofileconduit/memofile-conduit.cc:117
+msgid " Doing regular sync..."
+msgstr " नियमित समक्रमण गर्दैछ..."
+
+#: conduits/contacts/contactsconfig.cc:74
+msgid "Select Address Book: "
+msgstr ""
+
+#: conduits/base/cudcounter.cc:78
+#, kde-format
+msgid "Start: %1. End: %2. "
+msgstr "सुरु: %1. अन्त्य: %2. "
+
+#: conduits/base/cudcounter.cc:80
+#, kde-format
+msgctxt "Created record count"
+msgid "1 new record. "
+msgid_plural "%1 new records. "
+msgstr[0] ""
+msgstr[1] ""
+
+#: conduits/base/cudcounter.cc:81
+#, kde-format
+msgctxt "Updated record count"
+msgid "1 changed record. "
+msgid_plural "%1 changed records. "
+msgstr[0] ""
+msgstr[1] ""
+
+#: conduits/base/cudcounter.cc:82
+#, kde-format
+msgctxt "Deleted record count"
+msgid "1 deleted record. "
+msgid_plural "%1 deleted records. "
+msgstr[0] ""
+msgstr[1] ""
+
+#: conduits/base/cudcounter.cc:84
+msgid "No changes made. "
+msgstr "परिवर्तन गरिएको छैन । "
+
+#: conduits/base/recordconduit.cc:94
+msgid "One of the data proxies could not be initialized."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:106
+msgid "Invalid record mapping. Doing first sync."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:170
+msgid "Could not open or create PC data store."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:186
+msgid "Could not open or create Palm data store."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:194
+msgid ""
+"Failed to open the PC database and the handheld database, no data to sync."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:215
+msgid "Data mapping invalid after sync. Sync failed."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:224
+msgid "Ending counts do not match after sync. Sync failed."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:233
+msgid "Changes are too volatile. Sync failed."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:242
+msgid "Commiting changes to the handheld"
+msgstr ""
+
+#: conduits/base/recordconduit.cc:248
+msgid "Could not save Palm changes. Sync failed."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:256
+msgid "Commiting changes to the PC datastore"
+msgstr ""
+
+#: conduits/base/recordconduit.cc:264
+msgid "Could not save PC changes. Sync failed."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:325
+msgid "Large Changes Detected"
+msgstr "ठूला परिवर्तन पत्ता लगायो"
+
+#: conduits/base/recordconduit.cc:327
+#, kde-format
+msgid ""
+"The %1 conduit has made a large number of changes to your %2.  Do you want "
+"to allow this change?\n"
+"Details:\n"
+"\t%3"
+msgstr ""
+"कन्ड्युट %1 ले तपाईँको %2 मा धेरै ठूलो परिवर्तन गरेकोछ ।  तपाईँ यस "
+"परिवर्तनलाई अनुमति दिन चाहनुहुन्छ ?\n"
+"विस्तृत विवरण:\n"
+"\t%3"
+
+#: conduits/base/recordconduit.cc:338
+msgid "handheld"
+msgstr "ह्यान्डहेल्ड"
+
+#: conduits/base/recordconduit.cc:351 conduits/base/recordconduit.cc:1121
+msgid "PC"
+msgstr "PC"
+
+#: conduits/base/recordconduit.cc:523
+msgid "Doing first sync. This may take a while."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:529
+msgid "Syncing handheld records to pc."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:589
+msgid "Syncing PC records to handheld."
+msgstr ""
+
+#: conduits/base/recordconduit.cc:1094
+msgid ""
+"The following item was modified both on the Handheld and on your PC:\n"
+"PC entry:\n"
+"\t"
+msgstr ""
+"निम्न वस्तुहरू तपाईँको PC वा ह्यान्डहेल्डमा परिमार्जन गरिएको छ:\n"
+"PC प्रविष्टि:\n"
+"\t"
+
+#: conduits/base/recordconduit.cc:1102
+msgctxt "The pc record is deleted."
+msgid "deleted"
+msgstr ""
+
+#: conduits/base/recordconduit.cc:1104
+msgid ""
+"\n"
+"Handheld entry:\n"
+"\t"
+msgstr ""
+"\n"
+"ह्यान्डहेल्ड प्रविष्टि:\n"
+"\t"
+
+#: conduits/base/recordconduit.cc:1111
+msgctxt "The pilot record is deleted."
+msgid "deleted"
+msgstr ""
+
+#: conduits/base/recordconduit.cc:1113
+msgid ""
+"\n"
+"\n"
+"Which entry do you want to keep? It will overwrite the other entry."
+msgstr ""
+"\n"
+"\n"
+"तपाईँ कुन प्रविष्टि राख्न चाहनुहुन्छ ? यसले अन्य प्रविष्टि अधिलेखन गर्दछ ।"
+
+#: conduits/base/recordconduit.cc:1118
+msgid "Conflicting Entries"
+msgstr "समस्या भएको प्रविष्टि"
+
+#: conduits/base/recordconduit.cc:1121
+msgid "Handheld"
+msgstr "ह्यान्डहेल्ड"
+
+#: conduits/popmail/popmail-conduit.cc:78 conduits/popmail/setupDialog.cc:64
+msgid "KMail"
+msgstr "केडीई मेल"
+
+#: conduits/popmail/popmail-conduit.cc:106
+#, kde-format
+msgid "Sent one message"
+msgid_plural "Sent %1 messages"
+msgstr[0] "एउटा सन्देश पठाइयो"
+msgstr[1] "%1 सन्देश पठाइयो"
+
+#: conduits/popmail/popmail-conduit.cc:127
+msgid "No mail was sent."
+msgstr "मेल पठाएको छैन ।"
+
+#: conduits/popmail/popmail-conduit.cc:133
+msgid "No mail could be sent."
+msgstr "मेल पठाउन सक्दैन ।"
+
+#: conduits/popmail/popmail-conduit.cc:184
+msgid "Could not connect to DCOP server for the KMail connection."
+msgstr "केडीई मेल जडानका लागि DCOP सर्भरमा जडान गर्न सकेन ।"
+
+#: conduits/popmail/popmail-conduit.cc:186
+#: conduits/popmail/popmail-conduit.cc:214
+#: conduits/popmail/popmail-conduit.cc:226
+#: conduits/popmail/popmail-conduit.cc:254
+msgid "Error Sending Mail"
+msgstr "मेल पठाउदा त्रुटि"
+
+#: conduits/popmail/popmail-conduit.cc:212
+#: conduits/popmail/popmail-conduit.cc:224
+msgid "Cannot open temporary file to store mail from Pilot in."
+msgstr "पाइलटबाट मेल भण्डार गर्न अस्थायी फाइल खोल्न सकिँदैन ।"
+
+#: conduits/popmail/popmail-conduit.cc:253
+msgid "DCOP connection with KMail failed."
+msgstr "केडीई मेलसँग DCOP जडान असफल भयो ।"
+
+#: conduits/popmail/popmail-conduit.cc:375
+msgid "Cannot perform backup of mail database"
+msgstr "मेल डाटाबेसको जगेडा गर्न सकिँदैन"
+
+#: conduits/popmail/popmail-conduit.cc:383
+msgid "Unable to open mail database on handheld"
+msgstr "ह्यान्डहेल्डमा मेल डाटाबेस खोल्न असक्षम"
+
+#: conduits/popmail/setupDialog.cc:66
+msgid "Mail Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि मेल कन्ड्युट"
+
+#: conduits/popmail/setupDialog.cc:68
+msgid "Configures the Mail Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि मेल कन्ड्युट कन्फिगर गर्दछ"
+
+#: conduits/popmail/setupDialog.cc:70
+msgid "(C) 2001, Dan Pilone, Michael Kropfberger, Adriaan de Groot"
+msgstr ""
+"(प्रतिलिपि अधिकार) २००१, डन पिलोन, माइकल क्रोफबर्गर, एड्रियान डे ग्रूट"
+
+#: conduits/popmail/setupDialog.cc:76
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: conduits/popmail/setupDialog.cc:77
+msgid "Michael Kropfberger"
+msgstr "माइकल क्रोफबर्गर"
+
+#: conduits/popmail/setupDialog.cc:78
+msgid "POP3 code"
+msgstr "POP3 सङ्केत"
+
+#: conduits/popmail/setupDialog.cc:79
+msgid "Marko Gr&ouml;nroos"
+msgstr "Marko Gr&ouml;nroos"
+
+#: conduits/popmail/setupDialog.cc:80
+msgid "SMTP support and redesign"
+msgstr "SMTP समर्थन र रिडिजाइन"
+
+#: conduits/keyringconduit/keyringhhdataproxy.cc:217
+msgid "KPilot cares"
+msgstr ""
+
+#: conduits/keyringconduit/keyringhhdataproxy.cc:218
+msgid "Thanks for using KPilot!"
+msgstr ""
+
+#: conduits/keyringconduit/keyringsetup.cc:47
+msgid "Keyring Conduit for KPilot"
+msgstr ""
+
+#: conduits/keyringconduit/keyringsetup.cc:49
+msgid "Configures the Keyring Conduit for KPilot"
+msgstr ""
+
+#: conduits/keyringconduit/keyringsetup.cc:51
+msgid "(C) 2007, Bertjan Broeksema"
+msgstr ""
+
+#: conduits/keyringconduit/keyringsetup.cc:83
+msgid "Keyring Conduit"
+msgstr ""
+
+#: conduits/keyringconduit/keyringconduit.cc:73
+msgid "Error: Triple DES not supported. Unable to continue."
+msgstr ""
+
+#: conduits/keyringconduit/keyringconduit.cc:101
+msgid "Password invalid."
+msgstr ""
+
+#: conduits/keyringconduit/keyringconduit.cc:114
+msgid "Error: Could not open wallet."
+msgstr ""
+
+#: conduits/keyringconduit/keyringconduit.cc:128
+msgid "Password invalid. Update your password in the settings dialog."
+msgstr ""
+
+#: conduits/keyringconduit/keyringconduit.cc:185
+msgid "Enter your Keyring password"
+msgstr ""
+
+#: conduits/notepadconduit/notepad-conduit.cc:57
+#: conduits/notepadconduit/notepad-factory.cc:104
+msgid "Notepad"
+msgstr "नोटप्याड"
+
+#: conduits/notepadconduit/notepad-conduit.cc:103
+#, kde-format
+msgid "1 notepad could not be saved"
+msgid_plural "%1 notepads could not be saved"
+msgstr[0] "1 नोटप्याड बचत गर्न सक्दैन"
+msgstr[1] "%1 नोटप्याड बचत गर्न सक्दैन"
+
+#: conduits/notepadconduit/notepad-conduit.cc:104
+#, kde-format
+msgid "1 notepad saved"
+msgid_plural "%1 notepads saved"
+msgstr[0] "1 नोटप्याड बचत भयो"
+msgstr[1] "%1 नोटप्याड बचत भयो"
+
+#: conduits/notepadconduit/notepad-factory.cc:82
+msgid "Saves notepads to png files"
+msgstr "नोटप्याड png फाइलमा बचत गर्दछ"
+
+#: conduits/notepadconduit/notepad-factory.cc:84
+msgid "Configures the Notepad Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि नोटप्याड कन्ड्युट कन्फिगर गर्दछ"
+
+#: conduits/notepadconduit/notepad-factory.cc:86
+msgid "(C) 2004, Joern Ahrens"
+msgstr "(प्रतिलिपि अधिकार) २००४, जोएर्न हेरेन्स"
+
+#: conduits/notepadconduit/notepad-factory.cc:87
+msgid "Joern Ahrens"
+msgstr "जोएर्न हेरेन्स"
+
+#: conduits/notepadconduit/notepad-factory.cc:92
+msgid "Angus Ainslies"
+msgstr "एङ्गुस एनस्लाइस"
+
+#: conduits/notepadconduit/notepad-factory.cc:93
+msgid "Notepad conduit is based on Angus' read-notepad, part of pilot-link"
+msgstr ""
+"नोटप्याड कन्ड्युट पाइलट-लिङ्कको, एन्गुस रिड-नोटप्याड भागमा आधारित हुन्छ"
+
+#: conduits/null/null-factory.cc:69 conduits/null/null-conduit.cc:60
+msgctxt "This is the Null conduit, used for testing"
+msgid "Null"
+msgstr ""
+
+#: conduits/null/null-factory.cc:72
+msgid "Null Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि शून्य कन्ड्युट"
+
+#: conduits/null/null-factory.cc:74
+msgid "Configures the Null Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि शून्य कन्ड्युट कन्फिगर गर्दछ"
+
+#: conduits/null/null-factory.cc:76
+msgid "(C) 2001, 2007, Adriaan de Groot"
+msgstr "(प्रतिलिपि अधिकार) २००१, २००७, एड्रियान डे ग्रूट"
+
+#: conduits/null/null-conduit.cc:78
+msgid "NULL conduit is programmed to fail."
+msgstr "शून्य कन्ड्युटलाई असफल कार्यक्रममा मिलाइएको छ ।"
+
+#: conduits/calendar/calendarconfig.cc:38
+msgid "Calendar Conduit for KPilot"
+msgstr ""
+
+#: conduits/calendar/calendarconfig.cc:40
+msgid "Configures the Calendar Conduit for KPilot"
+msgstr ""
+
+#: conduits/calendar/calendarconfig.cc:64
+msgid "Calendar"
+msgstr "क्यालेन्डर"
+
+#: conduits/calendar/calendarconfig.cc:74
+msgid "Select Calendar: "
+msgstr ""
+
+#: conduits/timeconduit/time-setup.cc:46
+msgid "Time Synchronization Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि समय समक्रमण कन्ड्युट"
+
+#: conduits/timeconduit/time-setup.cc:48
+msgid "Synchronizes the Time on the Handheld and the PC"
+msgstr "ह्यान्डहेल्ड र PC मा समय समक्रमण गर्दछ"
+
+#: conduits/timeconduit/time-setup.cc:66
+#: conduits/timeconduit/time-conduit.cc:52
+msgid "Time"
+msgstr "समय"
+
+#: conduits/timeconduit/time-conduit.cc:82
+msgid "Setting the clock on the handheld"
+msgstr "ह्यान्डहेल्डमा घडी सेटिङ"
+
+#: conduits/timeconduit/time-conduit.cc:99
+msgid ""
+"PalmOS 3.25 and 3.3 do not support setting the system time. Skipping the "
+"time conduit..."
+msgstr ""
+"PalmOS 3.25 र 3.3 ले प्रणाली समयमा सेटिङ समर्थन गर्दैन । समय कन्ड्युट "
+"फड्कदैछ..."
+
+#: conduits/docconduit/kpalmdoc.cpp:42
+msgid "KPalmDOC"
+msgstr "KPalmDOC"
+
+#: conduits/docconduit/kpalmdoc.cpp:43
+msgid ""
+"KPalmDOC - KDE Converter for PalmDOC texts.\n"
+"\n"
+msgstr ""
+"KPalmDOC - PalmDOC पाठका लागि केडीई रूपान्तरणकर्ता ।\n"
+"\n"
+
+#: conduits/docconduit/kpalmdoc.cpp:44
+msgid "(c) 2003, Reinhold Kainhofer"
+msgstr "(प्रतिलिपि अधिकार) २००३, रेनहोल्ड केनहोफर"
+
+#: conduits/docconduit/kpalmdoc.cpp:45
+msgid "Main Developer"
+msgstr "मुख्य विकासकर्ता"
+
+#: conduits/docconduit/kpalmdoc.cpp:47
+msgid "Maintainer of KPilot"
+msgstr "केडीई पाइलटको मर्मतकर्ता"
+
+#: conduits/docconduit/kpalmdoc.cpp:54
+msgid "PalmDOC Converter"
+msgstr "PalmDOC रूपान्तरणकर्ता"
+
+#: conduits/docconduit/doc-conflictdialog.cc:64
+msgid ""
+"Here is a list of all text files and DOC databases the conduit found. The "
+"conduit tried to determine the correct sync direction, but for databases in "
+"bold red letters a conflict occurred (i.e. the text was changed both on the "
+"desktop and on the handheld). For these databases please specify which "
+"version is the current one."
+msgstr ""
+"यहाँ कन्ड्युटले फेला पारेका DOC डाटाबेस र सबै पाठ फाइलको सूची छ । कन्ड्युटले "
+"सही समक्रमण दिशा निर्धारण गर्ने प्रयास गर्यो, तर बाक्लो रातो अक्षरको "
+"डाटाबेसमा समस्या भयो (जस्तै ह्यान्डहेल्ड र डेस्कटप दुबैमा पाठ परिवर्तन भएको "
+"छ) । ति डाटाबेसका लागि कृपया हालको संस्करण निर्दिष्ट गर्नुहोस् ।"
+
+#: conduits/docconduit/doc-conflictdialog.cc:68
+msgid ""
+"You can also change the sync direction for databases without a conflict."
+msgstr ""
+"तपाईँले कुनै समस्या बिना डाटाबेसका लागि समक्रमण दिशा परिवर्तन गर्न "
+"सक्नुहुन्छ ।"
+
+#: conduits/docconduit/doc-conflictdialog.cc:72
+msgid "DOC Databases"
+msgstr "DOC डाटाबेस"
+
+#: conduits/docconduit/doc-conflictdialog.cc:117
+msgid "No Sync"
+msgstr "समक्रमण छैन"
+
+#: conduits/docconduit/doc-conflictdialog.cc:118
+msgid "Sync Handheld to PC"
+msgstr "PC मा ह्यान्डहेल्ड समक्रमण गर्नुहोस्"
+
+#: conduits/docconduit/doc-conflictdialog.cc:119
+msgid "Sync PC to Handheld"
+msgstr "ह्यान्डहेल्डमा PC समक्रमण गर्नुहोस्"
+
+#: conduits/docconduit/doc-conflictdialog.cc:120
+msgid "Delete Both Databases"
+msgstr "दुबै डाटाबेस मेट्नुहोस्"
+
+#: conduits/docconduit/doc-conflictdialog.cc:124
+msgid "More Info..."
+msgstr "बढी जानकारी..."
+
+#: conduits/docconduit/doc-conflictdialog.cc:166
+msgctxt "No changes made"
+msgid "unchanged"
+msgstr ""
+
+#: conduits/docconduit/doc-conflictdialog.cc:167
+msgctxt "New item added"
+msgid "new"
+msgstr ""
+
+#: conduits/docconduit/doc-conflictdialog.cc:168
+msgctxt "Item has changed"
+msgid "changed"
+msgstr ""
+
+#: conduits/docconduit/doc-conflictdialog.cc:169
+msgid "only bookmarks changed"
+msgstr "पुस्तकचिनो मात्र परिवर्तन गरियो"
+
+#: conduits/docconduit/doc-conflictdialog.cc:170
+msgctxt "Item was deleted"
+msgid "deleted"
+msgstr ""
+
+#: conduits/docconduit/doc-conflictdialog.cc:171
+msgid "does not exist"
+msgstr "अवस्थित छैन"
+
+#: conduits/docconduit/doc-conflictdialog.cc:172
+msgctxt "Status is unknown"
+msgid "unknown"
+msgstr ""
+
+#: conduits/docconduit/doc-conflictdialog.cc:182
+#, kde-format
+msgid ""
+"Status of the database %1:\n"
+"\n"
+msgstr ""
+"डाटाबेस %1 को वस्तुस्थिति:\n"
+"\n"
+
+#: conduits/docconduit/doc-conflictdialog.cc:183
+#, kde-format
+msgid "Handheld: %1\n"
+msgstr "ह्यान्डहेल्ड: %1\n"
+
+#: conduits/docconduit/doc-conflictdialog.cc:184
+#, kde-format
+msgid "Desktop: %1\n"
+msgstr "डेस्कटप: %1\n"
+
+#: conduits/docconduit/doc-conflictdialog.cc:186
+msgid "Database information"
+msgstr "डाटाबेस जानकारी"
+
+#: conduits/docconduit/doc-setup.cc:60
+msgid "Palm DOC Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि पाम DOC कन्ड्युट"
+
+#: conduits/docconduit/doc-setup.cc:61
+msgid "Configures the DOC Conduit for KPilot"
+msgstr "केडीई पाइलटका लागि DOC कन्ड्युट कन्फिगर गर्दछ"
+
+#: conduits/docconduit/doc-setup.cc:72
+msgid "Palm DOC"
+msgstr "पाम DOC"
+
+#: conduits/docconduit/doc-conduit.cc:76
+msgid "DOC"
+msgstr "DOC"
+
+#: conduits/docconduit/doc-conduit.cc:248
+msgid "Searching for texts and databases to synchronize"
+msgstr "समक्रमण गरिने डाटाबेस र पाठका लागि खोजी गर्दैछ"
+
+#: conduits/docconduit/doc-conduit.cc:308
+msgid "Database created."
+msgstr "डाटाबेस सिर्जना गरियो ।"
+
+#: conduits/docconduit/doc-conduit.cc:356
+#, kde-format
+msgid "Unable to install the locally created PalmDOC %1 to the handheld."
+msgstr ""
+"ह्यान्डहेल्डमा स्थानीय रूपमा सिर्जना गरिएको PalmDOC %1 स्थापना गर्न असक्षम ।"
+
+#: conduits/docconduit/doc-conduit.cc:359
+#, kde-format
+msgid "Conversion of PalmDOC \"%1\" failed."
+msgstr "PalmDOC \"%1\" को रूपान्तरण असफल भयो ।"
+
+#: conduits/docconduit/doc-conduit.cc:367
+#, kde-format
+msgid "Unable to open or create the database %1."
+msgstr "डाटाबेस %1 सिर्जना गर्न वा खोल्न असक्षम ।"
+
+#: conduits/docconduit/doc-conduit.cc:606
+msgid "Sync aborted by user."
+msgstr "प्रयोगकर्ताद्वारा समक्रमण परित्याग गर्यो ।"
+
+#: conduits/docconduit/doc-conduit.cc:640
+#, kde-format
+msgid "Synchronizing text \"%1\""
+msgstr "पाठ \"%1\" समक्रमण"
+
+#: conduits/docconduit/DOC-converter.cc:211
+#, kde-format
+msgid "Unable to open text file %1 for reading."
+msgstr "पढ्नका लागि पाठ फाइल %1 खोल्न असक्षम ।"
+
+#: conduits/docconduit/DOC-converter.cc:400
+msgid "Unable to open Database for writing"
+msgstr "लेख्नका लागि डाटाबेस खोल्न असक्षम"
+
+#: conduits/docconduit/DOC-converter.cc:457
+#, kde-format
+msgid "Unable to open palm doc database %1"
+msgstr "पाम डक डाटाबेस %1 खोल्न असक्षम"
+
+#: conduits/docconduit/DOC-converter.cc:527
+msgid "No filename set for the conversion"
+msgstr "रूपान्तरणका लागि फाइल नाम सेट छैन"
+
+#: conduits/docconduit/DOC-converter.cc:532
+msgid "Unable to open Database for reading"
+msgstr "पढ्नका लागि डाटाबेस खोल्न असक्षम"
+
+#: conduits/docconduit/DOC-converter.cc:540
+#, kde-format
+msgid "Unable to read database header for database %1."
+msgstr "डाटाबेस %1 का लागि डाटाबेस हेडर पढ्न असक्षम ।"
+
+#: conduits/docconduit/DOC-converter.cc:552
+#, kde-format
+msgid "Unable to open output file %1."
+msgstr "निर्गत फाइल %1 खोल्न असक्षम ।"
+
+#: conduits/docconduit/DOC-converter.cc:567
+#, kde-format
+msgid "Could not read text record #%1 from Database %2"
+msgstr "डाटाबेस %2 बाट पाठ रेकर्ड #%1 पढ्न सकेन"
+
+#: conduits/docconduit/DOC-converter.cc:586
+#, kde-format
+msgid "Could not read bookmark record #%1 from Database %2"
+msgstr "डाटाबेस %2 बाट पुस्तकचिनो रेकर्ड #%1 पढ्न सकेन"
+
+#: conduits/docconduit/DOC-converter.cc:604
+#, kde-format
+msgid "Unable to open file %1 for the bookmarks of %2."
+msgstr "%2 को पुस्तकचिनोका लागि फाइल %1 खोल्न असक्षम ।"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:63
+msgid "&About"
+msgstr "बारेमा"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:181
+#: conduits/docconduit/kpalmdoc_dlg.cc:217
+#: conduits/docconduit/kpalmdoc_dlg.cc:330
+#: conduits/docconduit/kpalmdoc_dlg.cc:355
+#, kde-format
+msgid ""
+"<qt>You selected to sync folders, but gave a filename instead "
+"(<em>%1</em>).<br />Use folder <em>%2</em> instead?</qt>"
+msgstr ""
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:184
+#: conduits/docconduit/kpalmdoc_dlg.cc:220
+#: conduits/docconduit/kpalmdoc_dlg.cc:333
+#: conduits/docconduit/kpalmdoc_dlg.cc:359
+msgid "Use Folder"
+msgstr "फोल्डर प्रयोग गर्नुहोस्"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:197
+#, kde-format
+msgid ""
+"<qt>The folder <em>%1</em> for the handheld database files is not a valid "
+"folder.</qt>"
+msgstr ""
+"<qt>ह्यान्डहेल्ड डाटाबेस फाइलका लागि <em>%1</em> फोल्डर एउटा वैध फोल्डर होइन "
+"।</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:206
+#, kde-format
+msgid ""
+"<qt>The folder <em>%1</em> for the handheld database files is not a valid "
+"directory.</qt>"
+msgstr ""
+"<qt>ह्यान्डहेल्ड डाटाबेस फाइलका लागि <em>%1</em> फोल्डर एउटा वैध डाइरेक्टरी "
+"होइन ।</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:234
+#, kde-format
+msgid ""
+"<qt>The folder <em>%1</em> for the text files could not be created.</qt>"
+msgstr "<qt>पाठ फाइलका लागि <em>%1</em> फोल्डर सिर्जना गर्न सकिँदैन ।</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:257
+#: conduits/docconduit/kpalmdoc_dlg.cc:395
+msgid "The following texts were successfully converted:"
+msgstr "निम्न पाठ सफलतापूर्वक रूपान्तरण गरिए:"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:258
+#: conduits/docconduit/kpalmdoc_dlg.cc:396
+msgid "Conversion Successful"
+msgstr "रूपान्तरण सफल"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:262
+#: conduits/docconduit/kpalmdoc_dlg.cc:400
+msgid "No text files were converted correctly"
+msgstr "पाठ फाइल राम्रोसँग रूपान्तरण गरिएन"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:272
+#: conduits/docconduit/kpalmdoc_dlg.cc:408
+#, kde-format
+msgid "<qt>The file <em>%1</em> does not exist.</qt>"
+msgstr "<qt>फाइल <em>%1</em> अवस्थित छैन ।</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:288
+#: conduits/docconduit/kpalmdoc_dlg.cc:416
+#, kde-format
+msgid "Conversion of file %1 successful."
+msgstr "फाइलको %1 रूपान्तरण सफल भयो ।"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:345
+#, kde-format
+msgid ""
+"<qt>The folder <em>%1</em> for the text files is not a valid folder.</qt>"
+msgstr "<qt>पाठ फाइलका लागि <em>%1</em> फोल्डर एउटा वैध फोल्डर होइन ।</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:372
+#, kde-format
+msgid ""
+"<qt>The folder <em>%1</em> for the PalmDOC files could not be created.</qt>"
+msgstr ""
+"<qt> PalmDOC फाइलका लागि <em>%1</em> फोल्डर सिर्जना गर्न सक्दैन ।</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:437
+msgid "&Text folder:"
+msgstr "पाठ फोल्डर:"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:438
+msgid "&PalmDOC folder:"
+msgstr "PalmDOC फोल्डर:"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:443
+msgid "&DOC file:"
+msgstr "DOC फाइल:"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:458
+#, kde-format
+msgid "<qt>The database file <em>%1</em> already exists. Overwrite it?</qt>"
+msgstr ""
+"<qt>डाटाबेस फाइल <em>%1</em> पहिले नै अवस्थित छ । यसलाई अधिलेखन गर्नुहुन्छ "
+"?</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:484
+#: conduits/docconduit/kpalmdoc_dlg.cc:520
+#, kde-format
+msgid "<qt>Error while converting the text %1.</qt>"
+msgstr "<qt>पाठ %1 रूपान्तरण गर्दा त्रुटि</qt>"
+
+#: conduits/docconduit/kpalmdoc_dlg.cc:503
+#, kde-format
+msgid "<qt>The text file <em>%1</em> already exists. Overwrite it?</qt>"
+msgstr ""
+"<qt>पाठ फाइल <em>%1</em> पहिले नै अवस्थित छ । यसलाई अधिलेखन गर्नुहुन्छ ?</qt>"
+
+#: conduits/docconduit/doc-conflictdialog.h:64
+msgid "Resolution Dialog"
+msgstr "रिजोल्युसन संवाद"
+
+#: conduits/malconduit/mal-setup.cc:62 conduits/malconduit/mal-conduit.cc:120
+msgid "MAL"
+msgstr "MAL"
+
+#: conduits/malconduit/mal-conduit.cc:192
+msgid ""
+"Skipping MAL sync, because last synchronization was not long enough ago."
+msgstr "MAL समक्रमण फड्काउदैछ, किनभने अन्तिम समक्रमण पर्याप्त लामो थिएन ।"
+
+#: conduits/malconduit/mal-conduit.cc:201
+msgid "MAL synchronization failed (no SyncInfo)."
+msgstr "MAL समक्रमण असफल (समक्रमण सूचना छैन)"
+
+#: conduits/malconduit/mal-conduit.cc:216
+msgid "No proxy server is set."
+msgstr "प्रोक्सी सर्भर सेट छैन"
+
+#: conduits/malconduit/mal-conduit.cc:219
+#, kde-format
+msgid "Using proxy server: %1"
+msgstr "प्रोक्सी सर्भरको प्रयोग: %1"
+
+#: conduits/malconduit/mal-conduit.cc:251
+msgid "No SOCKS proxy is set."
+msgstr "SOCKS प्रोक्सी सेट छैन"
+
+#: conduits/malconduit/mal-conduit.cc:254
+#, kde-format
+msgid "Using SOCKS proxy: %1"
+msgstr "SOCKS प्रोक्सीको प्रयोग: %1"

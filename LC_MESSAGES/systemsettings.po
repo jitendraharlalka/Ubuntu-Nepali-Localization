@@ -1,0 +1,223 @@
+# translation of systemsettings.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: systemsettings\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2010-04-11 18:07+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:16+0000\n"
+
+#: core/ModuleView.cpp:82
+msgid "Reset all current changes to previous values"
+msgstr ""
+
+#: core/ModuleView.cpp:254
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+
+#: core/ModuleView.cpp:256
+msgid "Apply Settings"
+msgstr ""
+
+#: core/ExternalAppModule.cpp:31
+#, kde-format
+msgid "%1 is an external application and has been automatically launched"
+msgstr ""
+
+#: core/ExternalAppModule.cpp:32
+#, kde-format
+msgid "Relaunch %1"
+msgstr ""
+
+#: app/main.cpp:35 classic/CategoryList.cpp:38
+msgid "System Settings"
+msgstr "प्रणाली सेटिङ"
+
+#: app/main.cpp:35
+msgid "Central configuration center for KDE."
+msgstr ""
+
+#: app/main.cpp:36 classic/ClassicMode.cpp:69 icons/IconMode.cpp:66
+msgid "(c) 2009, Ben Cooksley"
+msgstr ""
+
+#: app/main.cpp:37 classic/ClassicMode.cpp:70 icons/IconMode.cpp:67
+msgid "Ben Cooksley"
+msgstr ""
+
+#: app/main.cpp:37
+msgid "Maintainer"
+msgstr "सम्भारकर्ता"
+
+#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:68
+msgid "Mathias Soeken"
+msgstr ""
+
+#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:68
+msgid "Developer"
+msgstr "विकासकर्ता"
+
+#: app/main.cpp:39
+msgid "Will Stephenson"
+msgstr ""
+
+#: app/main.cpp:39
+msgid "Internal module representation, internal module model"
+msgstr ""
+
+#: app/ToolTips/tooltipmanager.cpp:209
+#, kde-format
+msgid "<i>Contains 1 item</i>"
+msgid_plural "<i>Contains %1 items</i>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/SettingsBase.cpp:57
+msgctxt "Search through a list of control modules"
+msgid "Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: app/SettingsBase.cpp:119
+msgid "Configure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#: app/SettingsBase.cpp:145
+msgid "Help"
+msgstr "सहयोग"
+
+#: app/SettingsBase.cpp:150 app/SettingsBase.cpp:324
+msgid "About Active Module"
+msgstr "सक्रिय मोड्युलका बारे"
+
+#: app/SettingsBase.cpp:164
+msgctxt "General config for System Settings"
+msgid "General"
+msgstr "साधारण"
+
+#: app/SettingsBase.cpp:235
+msgid ""
+"System Settings was unable to find any views, and hence nothing is available "
+"to configure."
+msgstr ""
+
+#: app/SettingsBase.cpp:235 app/SettingsBase.cpp:275
+msgid "No views found"
+msgstr ""
+
+#: app/SettingsBase.cpp:275
+msgid ""
+"System Settings was unable to find any views, and hence has nothing to "
+"display."
+msgstr ""
+
+#: app/SettingsBase.cpp:306
+msgid "About Active View"
+msgstr ""
+
+#: app/SettingsBase.cpp:359
+#, kde-format
+msgid "About %1"
+msgstr "%1 बारेमा"
+
+#: classic/ClassicMode.cpp:67 classic/ClassicMode.cpp:237
+msgid "Tree View"
+msgstr ""
+
+#: classic/ClassicMode.cpp:68
+msgid "Provides a classic tree-based view of control modules."
+msgstr ""
+
+#: classic/ClassicMode.cpp:70 icons/IconMode.cpp:67
+msgid "Author"
+msgstr "लेखक"
+
+#: classic/CategoryList.cpp:39
+msgid "Configure your system"
+msgstr "आफ्नो प्रणाली कन्फिगर गर्नुहोस्"
+
+#: classic/CategoryList.cpp:40
+msgid ""
+"Welcome to \"System Settings\", a central place to configure your computer "
+"system."
+msgstr ""
+
+#: icons/IconMode.cpp:64
+msgid "Icon View"
+msgstr ""
+
+#: icons/IconMode.cpp:65
+msgid "Provides a categorized icons view of control modules."
+msgstr ""
+
+#: icons/IconMode.cpp:73
+#, kde-format
+msgid "Keyboard Shortcut: %1"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Jitendra Harlalka, Nabin Gautam, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jitendra@otrc.gov.np, nabin@mpp.org.np,,,"
+
+#. i18n: file: core/externalModule.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: rc.cpp:5
+msgid "Dialog"
+msgstr ""
+
+#. i18n: file: app/systemsettingsui.rc:16
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:8
+msgid "About System Settings"
+msgstr "प्रणाली सेटिङका बारेमा"
+
+#. i18n: file: app/systemsettings.kcfg:9
+#. i18n: ectx: label, entry (ShowToolTips), group (Main)
+#: rc.cpp:11
+msgid "Determines whether detailed tooltips should be used"
+msgstr ""
+
+#. i18n: file: app/systemsettings.kcfg:13
+#. i18n: ectx: label, entry (ActiveView), group (Main)
+#: rc.cpp:14
+msgid "Internal name for the view used"
+msgstr ""
+
+#. i18n: file: app/configDialog.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, GbViewStyle)
+#: rc.cpp:17
+msgid "View Style"
+msgstr ""
+
+#. i18n: file: app/configDialog.ui:24
+#. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
+#: rc.cpp:20
+msgid "Show detailed tooltips"
+msgstr ""
+
+#. i18n: file: classic/configClassic.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
+#: rc.cpp:23
+msgid "Expand the first level automatically"
+msgstr ""

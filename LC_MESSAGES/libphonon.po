@@ -1,0 +1,92 @@
+# translation of libphonon.po to Nepali
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: libphonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-22 12:08+0000\n"
+"PO-Revision-Date: 2010-04-11 11:52+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:02+0000\n"
+
+#: phononnamespace.cpp:55
+msgctxt "Phonon::"
+msgid "Notifications"
+msgstr ""
+
+#: phononnamespace.cpp:57
+msgctxt "Phonon::"
+msgid "Music"
+msgstr "सङ्गीत"
+
+#: phononnamespace.cpp:59
+msgctxt "Phonon::"
+msgid "Video"
+msgstr "भिडियो"
+
+#: phononnamespace.cpp:61
+msgctxt "Phonon::"
+msgid "Communication"
+msgstr "सञ्चार"
+
+#: phononnamespace.cpp:63
+msgctxt "Phonon::"
+msgid "Games"
+msgstr "खेलहरु"
+
+#: phononnamespace.cpp:65
+msgctxt "Phonon::"
+msgid "Accessibility"
+msgstr ""
+
+#: volumeslider.cpp:42 volumeslider.cpp:60 volumeslider.cpp:189
+#: volumeslider.cpp:204
+#, qt-format
+msgid "Volume: %1%"
+msgstr "भोल्युम: %1%"
+
+#: volumeslider.cpp:45 volumeslider.cpp:63 volumeslider.cpp:117
+#, qt-format
+msgid ""
+"Use this slider to adjust the volume. The leftmost position is 0%, the "
+"rightmost is %1%"
+msgstr ""
+"भोल्युम मिलाउन यो स्लाइडर प्रयोग गर्नुहोस् । बायाँपट्टिको स्थिति 0% हो, "
+"दायाँपट्टिको स्थिति %1%"
+
+#: volumeslider.cpp:184
+msgid "Muted"
+msgstr "मौन गरियो"
+
+#: audiooutput.cpp:375
+#, qt-format
+msgid ""
+"<html>The audio playback device <b>%1</b> does not work.<br/>Falling back to "
+"<b>%2</b>.</html>"
+msgstr ""
+"<html>अडियो प्लेब्याक यन्त्र <b>%1</b> ले काम गर्दैन ।<br/> <b>%2</b> मा "
+"झर्दै ।</html>"
+
+#: audiooutput.cpp:388
+#, qt-format
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which just became "
+"available and has higher preference.</html>"
+msgstr ""
+"<html>अडियो प्लेब्याक यन्त्रमा स्विच गर्दै <b>%1</b><br/>जुन भर्खरै उपलब्ध "
+"भएको छ र उच्च प्राथमिकता छ ।</html>"
+
+#: audiooutput.cpp:391
+#, qt-format
+msgid "Revert back to device '%1'"
+msgstr "यन्त्र '%1' मा उल्टाउनुहोस्"

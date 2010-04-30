@@ -1,0 +1,397 @@
+# translation of konquest.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: konquest\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2010-04-25 15:17+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:31+0000\n"
+
+#: Konquest.cc:32
+msgid "Galactic Strategy KDE Game"
+msgstr "गाल्याक्टिक रणनिति केडीई खेल"
+
+#: Konquest.cc:38
+msgid "Konquest"
+msgstr "कनक्वेष्ट"
+
+#: Konquest.cc:40
+msgid "Copyright (c) 1999-2006, Developers"
+msgstr "Copyright (c) 1999-2006, विकासकर्ता"
+
+#: Konquest.cc:42
+msgid "Russ Steffen"
+msgstr "रुस स्टेफेन"
+
+#: Konquest.cc:43
+msgid "Stephan Zehetner"
+msgstr "स्टेफन जेहेट्नर"
+
+#: Konquest.cc:43
+msgid "Computer/AI Player"
+msgstr "कम्प्युटर/ AI खेलाडी"
+
+#: Konquest.cc:44
+msgid "Dimitry Suzalev"
+msgstr "डिमिट्रि सुजालेभ"
+
+#: Konquest.cc:44
+msgid "Port to KDE4"
+msgstr "केडीई४ मा पोर्ट"
+
+#: Konquest.cc:45
+msgid "Inge Wallin"
+msgstr "इङ्गे वालिन"
+
+#: Konquest.cc:45 Konquest.cc:46
+msgid "Cleaning and bugfixing"
+msgstr "सफा गर्ने र त्रुटि समाधान गर्ने"
+
+#: Konquest.cc:46
+msgid "Pierre Ducroquet"
+msgstr "पिएर्स डुक्रोक्वेष्ट"
+
+#: fleetdlg.cc:44
+msgid "Fleet Overview"
+msgstr "फिल्ट समिक्षा"
+
+#: fleetdlg.cc:50
+msgid "Fleet No."
+msgstr "फिल्ट नम्बर"
+
+#: fleetdlg.cc:50
+msgid "Destination"
+msgstr "गन्तव्य"
+
+#: fleetdlg.cc:50
+msgid "Ships"
+msgstr "जहाज"
+
+#: fleetdlg.cc:51
+msgid "Kill Percentage"
+msgstr "नष्ट प्रतिशत"
+
+#: fleetdlg.cc:51
+msgid "Arrival Turn"
+msgstr "मोड आयो"
+
+#: gamelogic.cc:167
+#, kde-format
+msgid "The once mighty empire of %1 has fallen in ruins."
+msgstr "एकपटक %1 शक्तिशाली अधिपत्यको पतन भयो ।"
+
+#: gamelogic.cc:174
+#, kde-format
+msgid "The fallen empire of %1 has staggered back to life."
+msgstr "%1 को पतन अधिपत्य पुन: जीवनमा फर्कन सन्देह गर्यो ।"
+
+#: gamelogic.cc:195
+#, kde-format
+msgid "Reinforcements (1 ship) have arrived for planet %2."
+msgid_plural "Reinforcements (%1 ships) have arrived for planet %2."
+msgstr[0] "%2 ग्रहका लागि थप शक्ति (1 जहाज) आईपुगेको छ ।"
+msgstr[1] "%2 ग्रहका लागि थप शक्ति (%1 जहाज) आईपुगेको छ ।"
+
+#: gamelogic.cc:240
+#, kde-format
+msgid "Planet %2 has held against an attack from %1."
+msgstr "%2 ग्रहले %1 बाट भएको आक्रमण रक्षा गरेको छ ।"
+
+#: gamelogic.cc:248
+#, kde-format
+msgid "Planet %2 has fallen to %1."
+msgstr "%2 ग्रह %1 मा खसेको छ ।"
+
+#: gameview.cc:110
+msgid "End Turn"
+msgstr "अन्तिम मोड"
+
+#: gameview.cc:280
+msgid "Select source planet..."
+msgstr "स्रोत ग्रह चयन गर्नुहोस्..."
+
+#: gameview.cc:300
+msgid "Select destination planet..."
+msgstr "गन्तव्य ग्रह चयन गर्नुहोस्..."
+
+#: gameview.cc:323
+msgid ": How many ships?"
+msgstr ": कति जहाज छन्?"
+
+#: gameview.cc:347
+msgid "Ruler: Select starting planet."
+msgstr "रुलर: सुरुको ग्रह चयन गर्नुहोस् ।"
+
+#: gameview.cc:361
+#, kde-format
+msgid ""
+"The distance from Planet %1 to Planet %2 is %3 light years.\n"
+"A ship leaving this turn will arrive on turn %4"
+msgstr ""
+"%1 ग्रह देखि %2 ग्रहको दुरी %3 प्रकाश वर्ष छ ।\n"
+"यो मोडबाट छोडेको जहाज %4 मोडमा पुग्दछ ।"
+
+#: gameview.cc:367
+msgid "Distance"
+msgstr "दुरी"
+
+#: gameview.cc:372
+msgid "Ruler: Select ending planet."
+msgstr "रुलर: अन्तिम ग्रह चयन गर्नुहोस् ।"
+
+#: gameview.cc:410
+#, kde-format
+msgid "Messages for %1"
+msgstr "%1 का लागि सन्दे"
+
+#: gameview.cc:425
+#, kde-format
+msgid "The mighty %1 has conquered the galaxy!"
+msgstr "शक्तिशाली %1 ले आकाशगङ्गा माथि विजय प्राप्त गरेको छ!"
+
+#: gameview.cc:426
+msgid "Game Over"
+msgstr "खेल समाप्त"
+
+#: gameview.cc:473
+#, kde-format
+msgid "Turn %1:"
+msgstr "मोड %1:"
+
+#: gameview.cc:561
+msgid "Do you wish to retire this game?"
+msgstr "तपाईँ यो खेलबाट निस्कन चाहनुहुन्छ?"
+
+#: gameview.cc:562
+msgid "End Game"
+msgstr "खेल अन्त्य"
+
+#: gameview.cc:575
+msgid "Final Standings"
+msgstr "अन्तिम अस्तित्व"
+
+#: gameview.cc:745
+msgid "Not enough ships to send."
+msgstr "पठाउनका लागि पर्याप्त जहाज छैन ।"
+
+#: gameview.cc:771
+msgid "Current Standings"
+msgstr "हालको अस्तित्व"
+
+#: mainwin.cc:49 mainwin.cc:56
+msgid "Galactic Conquest"
+msgstr "गाल्याक्टिक कन्क्वेष्ट"
+
+#: mainwin.cc:80
+msgid "&Measure Distance"
+msgstr "दुरी मापन गर्नुहोस्"
+
+#: mainwin.cc:88
+msgid "&Show Standings"
+msgstr "अस्तित्व देखाउनुहोस्"
+
+#: mainwin.cc:96
+msgid "&Fleet Overview"
+msgstr "द्रुत समिक्षा"
+
+#: mainwin.cc:135
+#, kde-format
+msgid "Turn # %1"
+msgstr "मोड # %1"
+
+#: mapitems.cc:228
+#, kde-format
+msgid "Planet name: %1"
+msgstr "ग्रहको नाम: %1"
+
+#: mapitems.cc:230
+#, kde-format
+msgid "Owner: %1"
+msgstr "मालिक: %1"
+
+#: mapitems.cc:232
+#, kde-format
+msgid "Ships: %1"
+msgstr "जहाज: %1"
+
+#: mapitems.cc:234
+#, kde-format
+msgid "Production: %1"
+msgstr "उत्पादन: %1"
+
+#: mapitems.cc:236
+#, kde-format
+msgid "Kill percent: %1"
+msgstr "नष्ट प्रतिशत: %1"
+
+#: newgamedlg.cc:96 newgamedlg.cc:134 newgamedlg.cc:221 newgamedlg.cc:399
+msgctxt "A human player"
+msgid "Human"
+msgstr "मानव"
+
+#: newgamedlg.cc:97 newgamedlg.cc:135 newgamedlg.cc:222
+msgid "Computer Weak"
+msgstr "कम्प्युटर कमजोर"
+
+#: newgamedlg.cc:98 newgamedlg.cc:136 newgamedlg.cc:223
+msgid "Computer Normal"
+msgstr "कम्प्युटर सामान्य"
+
+#: newgamedlg.cc:99 newgamedlg.cc:137 newgamedlg.cc:224
+msgid "Computer Hard"
+msgstr "कम्प्युटर कठिन"
+
+#: newgamedlg.cc:111
+msgctxt "The player name"
+msgid "Name"
+msgstr "नाम"
+
+#: newgamedlg.cc:112
+msgid "Type"
+msgstr "प्रकार"
+
+#: newgamedlg.cc:156
+#, kde-format
+msgctxt "Default player name is \"player \" + player number"
+msgid "Player %1"
+msgstr "खेलाडी %1"
+
+#: newgamedlg.cc:255
+msgid "Start New Game"
+msgstr "नयाँ खेल सुरु गर्नुहोस्"
+
+#: newgamedlg.cc:346
+msgid "The game is much more fun when you add a human player!"
+msgstr "तपाईँले मानिस खेलाडी थपे पछि यो खेल बढी रमाइलो हुन्छ!"
+
+#: scoredlg.cc:43
+msgctxt "The player name"
+msgid "Player"
+msgstr "खेलाडी"
+
+#: scoredlg.cc:43
+msgid ""
+"Ships\n"
+"Built"
+msgstr ""
+"जहाज\n"
+"निर्माण"
+
+#: scoredlg.cc:44
+msgid ""
+"Planets\n"
+"Conquered"
+msgstr ""
+"ग्रह\n"
+"कन्क्वेर्ड"
+
+#: scoredlg.cc:44
+msgid ""
+"Fleets\n"
+"Launched"
+msgstr ""
+"फिल्ट\n"
+"सुरुआत"
+
+#: scoredlg.cc:45
+msgid ""
+"Fleets\n"
+"Destroyed"
+msgstr ""
+"फिल्ट\n"
+"नष्ट"
+
+#: scoredlg.cc:45
+msgid ""
+"Ships\n"
+"Destroyed"
+msgstr ""
+"जहाज\n"
+"नष्ट"
+
+#. i18n: file: konquestui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:3
+msgid "&Game"
+msgstr "खेल"
+
+#. i18n: file: konquestui.rc:17
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:6
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: newGameDialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, newGameDialog)
+#: rc.cpp:9
+msgid "Dialog"
+msgstr "संवाद"
+
+#. i18n: file: newGameDialog.ui:41
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:12
+msgid "Players"
+msgstr "खेलाडी"
+
+#. i18n: file: newGameDialog.ui:74
+#. i18n: ectx: property (text), widget (QPushButton, addPlayerButton)
+#: rc.cpp:15
+msgid "&Add"
+msgstr "थप्नुहोस्"
+
+#. i18n: file: newGameDialog.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, removePlayerButton)
+#: rc.cpp:18
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#. i18n: file: newGameDialog.ui:101
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:21
+msgid "Map"
+msgstr "नक्सा"
+
+#. i18n: file: newGameDialog.ui:152
+#. i18n: ectx: property (text), widget (QPushButton, rejectMap)
+#: rc.cpp:24
+msgid "&Reject"
+msgstr "अस्वीकार"
+
+#. i18n: file: newGameDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:27
+msgid "&Neutral planets:"
+msgstr "तटस्थ ग्रह:"
+
+#. i18n: file: newGameDialog.ui:181
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:30
+msgid "&Width:"
+msgstr "चौडाइ:"
+
+#. i18n: file: newGameDialog.ui:191
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:33
+msgid "&Height:"
+msgstr "उचाइ:"
+
+#: rc.cpp:34
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, Jitendra Harlalka, Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:35
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, jitendra@otrc.gov.np,,"

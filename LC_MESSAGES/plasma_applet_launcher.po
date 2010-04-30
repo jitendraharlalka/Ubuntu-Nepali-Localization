@@ -1,0 +1,368 @@
+# English translations for l package.
+# Copyright (C) 2007 This_file_is_part_of_KDE
+# This file is distributed under the same license as the l package.
+# Automatically generated, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n-kde4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2008-10-22 06:13+0000\n"
+"Last-Translator: Jeroen T. Vermeulen <Unknown>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:54+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ui/searchbar.cpp:68
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr ""
+
+#: ui/flipscrollview.cpp:138 core/applicationmodel.cpp:422
+msgid "All Applications"
+msgstr ""
+
+#: ui/launcher.cpp:119 ui/launcher.cpp:178 core/favoritesmodel.cpp:48
+#: core/favoritesmodel.cpp:302 simpleapplet/simpleapplet.cpp:191
+msgid "Favorites"
+msgstr "Favorites"
+
+#: ui/launcher.cpp:121 ui/launcher.cpp:208 core/systemmodel.cpp:83
+#: core/recentlyusedmodel.cpp:120 simpleapplet/simpleapplet.cpp:193
+msgid "Applications"
+msgstr "Applications"
+
+#: ui/launcher.cpp:121 ui/launcher.cpp:242 core/systemmodel.cpp:352
+#: simpleapplet/simpleapplet.cpp:194
+msgid "Computer"
+msgstr ""
+
+#: ui/launcher.cpp:122 ui/launcher.cpp:221 core/recentlyusedmodel.cpp:186
+#: simpleapplet/simpleapplet.cpp:195
+msgid "Recently Used"
+msgstr "Recently Used"
+
+#: ui/launcher.cpp:166 core/leavemodel.cpp:105
+#: simpleapplet/simpleapplet.cpp:209
+msgid "Leave"
+msgstr "Leave"
+
+#: ui/launcher.cpp:181
+msgid "Sort Alphabetically (A to Z)"
+msgstr ""
+
+#: ui/launcher.cpp:184
+msgid "Sort Alphabetically (Z to A)"
+msgstr ""
+
+#: ui/launcher.cpp:223
+msgid "Clear Recent Applications"
+msgstr "Clear Recent Applications"
+
+#: ui/launcher.cpp:224
+msgid "Clear Recent Documents"
+msgstr "Clear Recent Documents"
+
+#: ui/launcher.cpp:538
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: ui/launcher.cpp:540
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr ""
+
+#: ui/contextmenufactory.cpp:81
+msgid "Advanced"
+msgstr "Advanced"
+
+#: ui/contextmenufactory.cpp:153
+msgid "Remove From Favorites"
+msgstr ""
+
+#: ui/contextmenufactory.cpp:158
+msgid "Add to Favorites"
+msgstr "Add to Favorites"
+
+#: ui/contextmenufactory.cpp:190
+msgid "Add to Desktop"
+msgstr "Add to Desktop"
+
+#: ui/contextmenufactory.cpp:197
+msgid "Add to Panel"
+msgstr "Add to Panel"
+
+#: ui/contextmenufactory.cpp:222
+msgid "Eject"
+msgstr ""
+
+#: ui/contextmenufactory.cpp:224
+msgid "Safely Remove"
+msgstr ""
+
+#: core/leavemodel.cpp:48 simpleapplet/simpleapplet.cpp:208
+msgid "Logout"
+msgstr "Logout"
+
+#: core/leavemodel.cpp:50
+msgid "End session"
+msgstr "End session"
+
+#: core/leavemodel.cpp:52
+msgid "Lock"
+msgstr "Lock"
+
+#: core/leavemodel.cpp:54 simpleapplet/simpleapplet.cpp:202
+msgid "Lock Screen"
+msgstr ""
+
+#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:200
+msgid "Switch User"
+msgstr "Switch User"
+
+#: core/leavemodel.cpp:58
+msgid "Start a parallel session as a different user"
+msgstr ""
+
+#: core/leavemodel.cpp:60 simpleapplet/simpleapplet.cpp:207
+msgid "Shutdown"
+msgstr "Shutdown"
+
+#: core/leavemodel.cpp:62
+msgid "Turn off computer"
+msgstr ""
+
+#: core/leavemodel.cpp:64
+msgctxt "Restart computer"
+msgid "Restart"
+msgstr ""
+
+#: core/leavemodel.cpp:66
+msgid "Restart Computer"
+msgstr ""
+
+#: core/leavemodel.cpp:68 simpleapplet/simpleapplet.cpp:201
+msgid "Save Session"
+msgstr ""
+
+#: core/leavemodel.cpp:70
+msgid "Save current session for next login"
+msgstr ""
+
+#: core/leavemodel.cpp:72 simpleapplet/simpleapplet.cpp:203
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr ""
+
+#: core/leavemodel.cpp:74
+msgid "Pause without logging out"
+msgstr ""
+
+#: core/leavemodel.cpp:76 simpleapplet/simpleapplet.cpp:204
+msgid "Hibernate"
+msgstr "Hibernate"
+
+#: core/leavemodel.cpp:78
+msgid "Suspend to disk"
+msgstr ""
+
+#: core/leavemodel.cpp:80 simpleapplet/simpleapplet.cpp:205
+msgid "Sleep"
+msgstr "Sleep"
+
+#: core/leavemodel.cpp:82
+msgid "Suspend to RAM"
+msgstr ""
+
+#: core/leavemodel.cpp:117
+msgid "Session"
+msgstr "Session"
+
+#: core/leavemodel.cpp:139
+msgid "System"
+msgstr "System"
+
+#: core/systemmodel.cpp:84
+msgid "Places"
+msgstr "Places"
+
+#: core/systemmodel.cpp:85
+msgid "Removable Storage"
+msgstr "Removable Storage"
+
+#: core/systemmodel.cpp:86
+msgid "Storage"
+msgstr "Storage"
+
+#: core/systemmodel.cpp:240 simpleapplet/simpleapplet.cpp:199
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:244
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/applicationmodel.cpp:332
+msgid "Games"
+msgstr ""
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Home Folder"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Network Folders"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Documents"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:197
+msgid "Recently Used Documents"
+msgstr ""
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:196
+msgid "Recently Used Applications"
+msgstr ""
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "Kickoff"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "Application Launcher"
+
+#: applet/applet.cpp:83
+msgid "Kickoff Application Launcher"
+msgstr ""
+
+#: applet/applet.cpp:84
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr ""
+
+#: applet/applet.cpp:110 simpleapplet/simpleapplet.cpp:354
+msgid "Menu Editor"
+msgstr ""
+
+#: applet/applet.cpp:116
+msgid "Switch to Classic Menu Style"
+msgstr ""
+
+#: applet/applet.cpp:153
+msgctxt "General configuration page"
+msgid "General"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:192
+msgid "Bookmarks"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:198
+msgid "System Settings"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:206
+msgctxt "Restart Computer"
+msgid "Restart"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:265
+msgid "Application Launcher Menu"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:360
+msgid "Switch to Kickoff Menu Style"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:456
+msgid "View"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:463
+msgid "Icon:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:470
+msgctxt "@label:listbox How to present applications in a KMenu-like menu"
+msgid "Format:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:474
+msgctxt "@item:inlistbox Format:"
+msgid "Name Only"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:475
+msgctxt "@item:inlistbox Format:"
+msgid "Description Only"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:476
+msgctxt "@item:inlistbox Format:"
+msgid "Name Description"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:477
+msgctxt "@item:inlistbox Format:"
+msgid "Description (Name)"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:478
+msgctxt "@item:inlistbox Format:"
+msgid "Name - Description"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:483
+msgid "Recently used applications:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:493
+msgid "Show menu titles:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:500
+msgid "Options"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:623
+msgid "Actions"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Your names, ,Launchpad Contributions:,Jeroen T. Vermeulen"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Your emails,,,"
+
+#. i18n: file: applet/kickoffConfig.ui:27
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:5
+msgid "Show applications by &name:"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:73
+#. i18n: ectx: property (text), widget (QLabel, iconLabel)
+#: rc.cpp:8
+msgid "&Icon:"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:86
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:11
+msgid "Switch &tabs on hover:"
+msgstr ""

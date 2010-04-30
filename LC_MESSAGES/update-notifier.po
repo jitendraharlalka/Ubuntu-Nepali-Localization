@@ -1,0 +1,367 @@
+# Nepali translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-19 07:18+0000\n"
+"PO-Revision-Date: 2007-12-04 05:33+0000\n"
+"Last-Translator: Rabi Poudyal <ubuntu@rabipoudel.com.np>\n"
+"Language-Team: Nepali <ne@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:03+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr ""
+
+#: ../data/apt_check.py:62
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../data/apt_check.py:67
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../data/apt_check.py:93
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr ""
+
+#: ../data/apt_check.py:107
+msgid "Error: BrokenCount > 0"
+msgstr ""
+
+#: ../data/apt_check.py:114
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr ""
+
+#: ../data/apt_check.py:178
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr ""
+
+#: ../data/apt_check.py:183
+msgid "Show human readable output on stdout"
+msgstr ""
+
+#: ../data/apt_check.py:187
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr ""
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr ""
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+
+#: ../src/gdu.c:50
+msgid "Software Packages Volume Detected"
+msgstr ""
+
+#: ../src/gdu.c:51
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+
+#: ../src/gdu.c:59
+msgid "Start Package Manager"
+msgstr ""
+
+#: ../src/gdu.c:65
+msgid "Upgrade volume detected"
+msgstr ""
+
+#: ../src/gdu.c:66
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+
+#: ../src/gdu.c:73 ../src/gdu.c:89 ../src/gdu.c:107 ../src/update.c:36
+msgid "Start package manager"
+msgstr "प्याकेज व्यवस्थापक शुरु गर्नुहोस्"
+
+#: ../src/gdu.c:75
+msgid "Run upgrade"
+msgstr ""
+
+#: ../src/gdu.c:81
+msgid "Addon volume detected"
+msgstr ""
+
+#: ../src/gdu.c:82
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+
+#: ../src/gdu.c:91
+msgid "Start addon installer"
+msgstr ""
+
+#: ../src/gdu.c:98
+msgid "APTonCD volume detected"
+msgstr ""
+
+#: ../src/gdu.c:99
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "सूचना प्राप्य छ"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr ""
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr ""
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr ""
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr ""
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr ""
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr ""
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr ""
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/update.c:160
+msgid "Show notifications"
+msgstr ""
+
+#. and update the tooltip
+#: ../src/update.c:215
+msgid "A package manager is working"
+msgstr ""
+
+#: ../src/update.c:253
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/update.c:264
+msgid "Software updates available"
+msgstr ""
+
+#: ../src/update.c:306
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+
+#: ../src/update.c:572
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+
+#: ../src/update.c:579
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+
+#: ../src/update.c:583
+msgid ""
+"This usually means that your installed packages have unmet dependencies"
+msgstr ""
+
+#: ../src/update.c:596
+msgid "A problem occurred when checking for the updates."
+msgstr ""
+
+#: ../src/update-notifier.c:329
+msgid "Internal error"
+msgstr ""
+
+#: ../src/update-notifier.c:493
+msgid "- inform about updates"
+msgstr ""
+
+#: ../src/update-notifier.c:495
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr ""
+
+#: ../src/update-notifier.c:496
+msgid "unknown error"
+msgstr ""
+
+#: ../src/update-notifier.c:513
+msgid "update-notifier"
+msgstr ""
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr ""
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr ""
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr ""
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr ""
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr ""

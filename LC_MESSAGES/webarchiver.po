@@ -1,0 +1,158 @@
+# translation of webarchiver.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: webarchiver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-12 23:08+0000\n"
+"PO-Revision-Date: 2010-02-13 20:22+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:02+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. i18n: file: archiveviewbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ArchiveViewBase)
+#: archivedialog.cpp:151 rc.cpp:3
+msgid "Web Archiver"
+msgstr "वेब सङ्ग्रहकर्ता"
+
+#: archivedialog.cpp:161
+msgid "Status"
+msgstr ""
+
+#: archivedialog.cpp:162
+msgid "Url"
+msgstr ""
+
+#: archivedialog.cpp:230
+msgid "Unable to Open Web-Archive"
+msgstr "वेब सङ्ग्रह खोल्न असक्षम भयो"
+
+#: archivedialog.cpp:231
+#, kde-format
+msgid ""
+"Unable to open \n"
+" %1 \n"
+" for writing."
+msgstr ""
+"लेख्नका लागि \n"
+" %1 \n"
+"खोल्न असक्षम भयो ।"
+
+#: archivedialog.cpp:362
+msgid "Downloading"
+msgstr "डाउनलोड हुँदैछ"
+
+#: archivedialog.cpp:383
+msgid "Error"
+msgstr "त्रुटि"
+
+#: archivedialog.cpp:383
+msgid "Ok"
+msgstr "ठीक छ"
+
+#: archivedialog.cpp:411
+#, kde-format
+msgid "I/O error occurred while writing to web archive file %1."
+msgstr ""
+
+#: plugin_webarchiver.cpp:58
+msgid "Archive &Web Page..."
+msgstr "सङ्ग्रह वेब पृष्ठ..."
+
+#: plugin_webarchiver.cpp:77
+msgid "Untitled"
+msgstr "असिमित"
+
+#: plugin_webarchiver.cpp:94
+msgid "*.war *.tgz|Web Archives"
+msgstr "*.war *.tgz|वेब सङ्ग्रह"
+
+#: plugin_webarchiver.cpp:95
+msgid "Save Page as Web-Archive"
+msgstr "वेब सङ्ग्रहको रूपमा पृष्ठ बचत गर्नुहोस्"
+
+#: plugin_webarchiver.cpp:100
+msgid "Invalid URL"
+msgstr "अवैध यूआरएल"
+
+#: plugin_webarchiver.cpp:101
+#, kde-format
+msgid ""
+"The URL\n"
+"%1\n"
+"is not valid."
+msgstr ""
+"यूआरएल\n"
+"%1\n"
+"अवैध छ ।"
+
+#: plugin_webarchiver.cpp:115
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: plugin_webarchiver.cpp:116
+#, kde-format
+msgid ""
+"Do you really want to overwrite:\n"
+"%1?"
+msgstr ""
+"तपाईँ साँच्चिकै अधिलेखन गर्न चाहनुहुन्छ :\n"
+"%1?"
+
+#: plugin_webarchiver.cpp:117
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#. i18n: file: archiveviewbase.ui:39
+#. i18n: ectx: property (text), widget (QLabel, targetLabel)
+#: rc.cpp:6
+msgid "Local File"
+msgstr "स्थानीय फाइल"
+
+#. i18n: file: archiveviewbase.ui:55
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:9
+msgid "To:"
+msgstr "लाई:"
+
+#. i18n: file: archiveviewbase.ui:65
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:12
+msgid "Archiving:"
+msgstr "सङ्ग्रह गर्दै:"
+
+#. i18n: file: archiveviewbase.ui:81
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: rc.cpp:15
+msgid "Original URL"
+msgstr "मौलिक यूआरएल"
+
+#. i18n: file: archiveviewbase.ui:109
+#. i18n: ectx: property (text), widget (QTreeWidget, progressView)
+#: rc.cpp:18
+msgid "1"
+msgstr ""
+
+#. i18n: file: archiveviewbase.ui:114
+#. i18n: ectx: property (text), widget (QTreeWidget, progressView)
+#: rc.cpp:21
+msgid "2"
+msgstr ""
+
+#. i18n: file: plugin_webarchiver.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:24
+msgid "&Tools"
+msgstr "उपकरण"
+
+#. i18n: file: plugin_webarchiver.rc:8
+#. i18n: ectx: ToolBar (extraToolBar)
+#: rc.cpp:27
+msgid "Extra Toolbar"
+msgstr "अतिरिक्त उपकरणपट्टी"

@@ -1,0 +1,180 @@
+# translation of kmail_text_calendar_plugin.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail_text_calendar_plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2008-10-09 06:28+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: text_calendar.cpp:269
+#, kde-format
+msgid "No attachment named \"%1\" found in the invitation."
+msgstr ""
+
+#: text_calendar.cpp:277
+#, kde-format
+msgid ""
+"The invitation attachment \"%1\" is a web link that is inaccessible from "
+"this computer. Please ask the event organizer to resend the invitation with "
+"this attachment stored inline instead of a link."
+msgstr ""
+
+#: text_calendar.cpp:333
+msgid "Incidence with no summary"
+msgstr "सारांश नभएको घटना"
+
+#: text_calendar.cpp:337
+#, kde-format
+msgid "Answer: %1"
+msgstr "उत्तर: %1"
+
+#: text_calendar.cpp:340
+#, kde-format
+msgid "Delegated: %1"
+msgstr "प्रत्यायोजित: %1"
+
+#: text_calendar.cpp:343
+#, kde-format
+msgid "Forwarded: %1"
+msgstr "फरवार्ड गरिएको: %1"
+
+#: text_calendar.cpp:346
+#, kde-format
+msgid "Declined Counter Proposal: %1"
+msgstr ""
+
+#: text_calendar.cpp:396
+msgid "Could not save file to KOrganizer"
+msgstr "केडीई आयोजकमा फाइल बचत गर्न सकेन"
+
+#: text_calendar.cpp:426
+msgid "Reaction to Invitation"
+msgstr ""
+
+#: text_calendar.cpp:427 text_calendar.cpp:648
+msgid "Comment:"
+msgstr ""
+
+#: text_calendar.cpp:461
+msgid "Delegation to organizer is not possible."
+msgstr "आयोजकलाई प्रत्यायोजन गर्न सम्भव छैन ।"
+
+#: text_calendar.cpp:583
+msgid "Save Invitation Attachment"
+msgstr ""
+
+#: text_calendar.cpp:590
+#, kde-format
+msgctxt "@info"
+msgid "File <filename>%1</filename> exists.<nl/> Do you want to replace it?"
+msgstr ""
+
+#: text_calendar.cpp:647
+msgid "Decline Counter Proposal"
+msgstr ""
+
+#: text_calendar.cpp:697
+msgid "No writable calendar found."
+msgstr ""
+
+#: text_calendar.cpp:783
+msgid "Open Attachment"
+msgstr ""
+
+#: text_calendar.cpp:785
+msgid "Save Attachment As..."
+msgstr ""
+
+#: text_calendar.cpp:801
+msgid "Accept invitation"
+msgstr ""
+
+#: text_calendar.cpp:803
+msgid "Accept invitation conditionally"
+msgstr ""
+
+#: text_calendar.cpp:805
+msgid "Accept counter proposal"
+msgstr ""
+
+#: text_calendar.cpp:807
+msgid "Create a counter proposal..."
+msgstr ""
+
+#: text_calendar.cpp:809
+msgid "Throw mail away"
+msgstr "मेल टाढा फ्याक्नुहोस्"
+
+#: text_calendar.cpp:811
+msgid "Decline invitation"
+msgstr ""
+
+#: text_calendar.cpp:813
+msgid "Decline counter proposal"
+msgstr ""
+
+#: text_calendar.cpp:815
+msgid "Check my calendar..."
+msgstr "मेरो क्यालेन्डर जाँच गर्नुहोस्..."
+
+#: text_calendar.cpp:817
+msgid "Record response into my calendar"
+msgstr ""
+
+#: text_calendar.cpp:819
+msgid "Delegate invitation"
+msgstr ""
+
+#: text_calendar.cpp:821
+msgid "Forward invitation"
+msgstr ""
+
+#: text_calendar.cpp:823
+msgid "Remove invitation from my calendar"
+msgstr ""
+
+#: text_calendar.cpp:826
+#, kde-format
+msgid "Open attachment \"%1\""
+msgstr ""
+
+#: attendeeselector.cpp:31
+msgid "Select Attendees"
+msgstr ""
+
+#: attendeeselector.cpp:41
+msgid "Click to add a new attendee"
+msgstr ""
+
+#: delegateselector.cpp:34
+msgid "Select delegate"
+msgstr ""
+
+#: delegateselector.cpp:41
+msgid "Delegate:"
+msgstr ""
+
+#: delegateselector.cpp:44
+msgid "Keep me informed about status changes of this incidence."
+msgstr ""
+
+#. i18n: file: ui_attendeeselector.ui:20
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: rc.cpp:3
+msgid "Add"
+msgstr "थप्नुहोस्"
+
+#. i18n: file: ui_attendeeselector.ui:30
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:6
+msgid "Remove"
+msgstr "हटाउनुहोस्"

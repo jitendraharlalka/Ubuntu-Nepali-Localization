@@ -1,0 +1,944 @@
+# translation of kcontrol.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcontrol\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:54+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:41+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: base/info_aix.cpp:54
+msgid "Name"
+msgstr ""
+
+#: base/info_aix.cpp:55
+msgid "Status"
+msgstr ""
+
+#: base/info_aix.cpp:56
+msgid "Location"
+msgstr ""
+
+#: base/info_aix.cpp:57 base/info_fbsd.cpp:305
+msgid "Description"
+msgstr ""
+
+#: base/info_aix.cpp:177 base/info_hpux.cpp:163 base/info_hpux.cpp:438
+#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
+#: base/os_base.h:203
+msgid "Information"
+msgstr ""
+
+#: base/info_aix.cpp:178 base/info_hpux.cpp:164 base/info_hpux.cpp:439
+#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
+#: base/info_solaris.cpp:697 base/os_base.h:203
+msgid "Value"
+msgstr ""
+
+#: base/info_aix.cpp:307
+msgctxt "Mebibyte"
+msgid "MiB "
+msgstr ""
+
+#: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
+#: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
+#: base/info_netbsd.cpp:273 base/info_openbsd.cpp:172
+#: base/info_openbsd.cpp:267 base/info_solaris.cpp:174
+msgid "Device"
+msgstr ""
+
+#: base/info_aix.cpp:313 base/info_fbsd.cpp:277 base/info_hpux.cpp:362
+#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "Mount Point"
+msgstr ""
+
+#: base/info_aix.cpp:314 base/info_fbsd.cpp:277 base/info_hpux.cpp:363
+#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "FS Type"
+msgstr ""
+
+#: base/info_aix.cpp:315 base/info_hpux.cpp:364 base/info_linux.cpp:476
+#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
+msgid "Total Size"
+msgstr ""
+
+#: base/info_aix.cpp:316 base/info_hpux.cpp:365 base/info_linux.cpp:476
+#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
+msgid "Free Size"
+msgstr ""
+
+#: base/info_aix.cpp:334 base/info_aix.cpp:340 base/info_hpux.cpp:383
+#: base/info_hpux.cpp:389
+msgid "n/a"
+msgstr ""
+
+#: base/info_fbsd.cpp:81
+#, kde-format
+msgid "CPU %1: %2, %3 MHz"
+msgstr ""
+
+#: base/info_fbsd.cpp:83
+#, kde-format
+msgid "CPU %1: %2, unknown speed"
+msgstr ""
+
+#: base/info_fbsd.cpp:145
+msgid ""
+"Your sound system could not be queried.  /dev/sndstat does not exist or is "
+"not readable."
+msgstr ""
+
+#: base/info_fbsd.cpp:173
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgstr ""
+
+#: base/info_fbsd.cpp:178
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgstr ""
+
+#: base/info_fbsd.cpp:226
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+
+#: base/info_fbsd.cpp:243
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr ""
+
+#: base/info_fbsd.cpp:255
+msgid ""
+"The PCI subsystem could not be queried, this may need root privileges."
+msgstr ""
+
+#: base/info_fbsd.cpp:270
+msgid "Could not check file system info: "
+msgstr ""
+
+#: base/info_fbsd.cpp:277 base/info_linux.cpp:476 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "Mount Options"
+msgstr ""
+
+#: base/info_hpux.cpp:129
+msgid "PA-RISC Processor"
+msgstr ""
+
+#: base/info_hpux.cpp:131
+msgid "PA-RISC Revision"
+msgstr ""
+
+#: base/info_hpux.cpp:168
+msgid "Machine"
+msgstr ""
+
+#: base/info_hpux.cpp:175
+msgid "Model"
+msgstr ""
+
+#: base/info_hpux.cpp:182
+msgid "Machine Identification Number"
+msgstr ""
+
+#: base/info_hpux.cpp:183 base/info_solaris.cpp:619
+msgid "(none)"
+msgstr ""
+
+#: base/info_hpux.cpp:188
+msgid "Number of Active Processors"
+msgstr ""
+
+#: base/info_hpux.cpp:192
+msgid "CPU Clock"
+msgstr ""
+
+#: base/info_hpux.cpp:193 base/info_solaris.cpp:69
+msgid "MHz"
+msgstr ""
+
+#: base/info_hpux.cpp:226
+msgid "(unknown)"
+msgstr ""
+
+#: base/info_hpux.cpp:230
+msgid "CPU Architecture"
+msgstr ""
+
+#: base/info_hpux.cpp:236
+msgid "enabled"
+msgstr ""
+
+#: base/info_hpux.cpp:236
+msgid "disabled"
+msgstr ""
+
+#: base/info_hpux.cpp:238
+msgid "Numerical Coprocessor (FPU)"
+msgstr ""
+
+#: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
+msgctxt "Mebibyte"
+msgid "MiB"
+msgstr ""
+
+#: base/info_hpux.cpp:243
+msgid "Total Physical Memory"
+msgstr ""
+
+#: base/info_hpux.cpp:245
+msgid " Bytes"
+msgstr ""
+
+#: base/info_hpux.cpp:246
+msgid "Size of One Page"
+msgstr ""
+
+#: base/info_hpux.cpp:356
+msgid "MB"
+msgstr ""
+
+#: base/info_hpux.cpp:441
+msgid "Audio Name"
+msgstr ""
+
+#: base/info_hpux.cpp:442
+msgid "Vendor"
+msgstr ""
+
+#: base/info_hpux.cpp:443
+msgid "Alib Version"
+msgstr ""
+
+#: base/info_hpux.cpp:447
+msgid "Protocol Revision"
+msgstr ""
+
+#: base/info_hpux.cpp:451
+msgid "Vendor Number"
+msgstr ""
+
+#: base/info_hpux.cpp:454
+msgid "Release"
+msgstr ""
+
+#: base/info_hpux.cpp:457
+msgid "Byte Order"
+msgstr ""
+
+#: base/info_hpux.cpp:458
+msgid "ALSBFirst (LSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:459
+msgid "AMSBFirst (MSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:460
+msgid "Invalid Byteorder."
+msgstr ""
+
+#: base/info_hpux.cpp:462
+msgid "Bit Order"
+msgstr ""
+
+#: base/info_hpux.cpp:464
+msgid "ALeastSignificant (LSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:466
+msgid "AMostSignificant (MSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:466
+msgid "Invalid Bitorder."
+msgstr ""
+
+#: base/info_hpux.cpp:468
+msgid "Data Formats"
+msgstr ""
+
+#: base/info_hpux.cpp:475
+msgid "Sampling Rates"
+msgstr ""
+
+#: base/info_hpux.cpp:481
+msgid "Input Sources"
+msgstr ""
+
+#: base/info_hpux.cpp:483
+msgid "Mono-Microphone"
+msgstr ""
+
+#: base/info_hpux.cpp:485
+msgid "Mono-Auxiliary"
+msgstr ""
+
+#: base/info_hpux.cpp:487
+msgid "Left-Microphone"
+msgstr ""
+
+#: base/info_hpux.cpp:489
+msgid "Right-Microphone"
+msgstr ""
+
+#: base/info_hpux.cpp:491
+msgid "Left-Auxiliary"
+msgstr ""
+
+#: base/info_hpux.cpp:493
+msgid "Right-Auxiliary"
+msgstr ""
+
+#: base/info_hpux.cpp:496
+msgid "Input Channels"
+msgstr ""
+
+#: base/info_hpux.cpp:498 base/info_hpux.cpp:522
+msgid "Mono-Channel"
+msgstr ""
+
+#: base/info_hpux.cpp:500 base/info_hpux.cpp:524
+msgid "Left-Channel"
+msgstr ""
+
+#: base/info_hpux.cpp:502 base/info_hpux.cpp:526
+msgid "Right-Channel"
+msgstr ""
+
+#: base/info_hpux.cpp:505
+msgid "Output Destinations"
+msgstr ""
+
+#: base/info_hpux.cpp:507
+msgid "Mono-InternalSpeaker"
+msgstr ""
+
+#: base/info_hpux.cpp:509
+msgid "Mono-Jack"
+msgstr ""
+
+#: base/info_hpux.cpp:511
+msgid "Left-InternalSpeaker"
+msgstr ""
+
+#: base/info_hpux.cpp:513
+msgid "Right-InternalSpeaker"
+msgstr ""
+
+#: base/info_hpux.cpp:515
+msgid "Left-Jack"
+msgstr ""
+
+#: base/info_hpux.cpp:517
+msgid "Right-Jack"
+msgstr ""
+
+#: base/info_hpux.cpp:520
+msgid "Output Channels"
+msgstr ""
+
+#: base/info_hpux.cpp:529
+msgid "Gain"
+msgstr ""
+
+#: base/info_hpux.cpp:530
+msgid "Input Gain Limits"
+msgstr ""
+
+#: base/info_hpux.cpp:532
+msgid "Output Gain Limits"
+msgstr ""
+
+#: base/info_hpux.cpp:535
+msgid "Monitor Gain Limits"
+msgstr ""
+
+#: base/info_hpux.cpp:538
+msgid "Gain Restricted"
+msgstr ""
+
+#: base/info_hpux.cpp:542
+msgid "Lock"
+msgstr ""
+
+#: base/info_hpux.cpp:544
+msgid "Queue Length"
+msgstr ""
+
+#: base/info_hpux.cpp:546
+msgid "Block Size"
+msgstr ""
+
+#: base/info_hpux.cpp:548
+msgid "Stream Port (decimal)"
+msgstr ""
+
+#: base/info_linux.cpp:130
+msgid "DMA-Channel"
+msgstr ""
+
+#: base/info_linux.cpp:130 base/info_linux.cpp:181
+msgid "Used By"
+msgstr ""
+
+#: base/info_linux.cpp:181
+msgid "I/O-Range"
+msgstr ""
+
+#: base/info_linux.cpp:206
+msgid "Devices"
+msgstr ""
+
+#: base/info_linux.cpp:206
+msgid "Major Number"
+msgstr ""
+
+#: base/info_linux.cpp:206
+msgid "Minor Number"
+msgstr ""
+
+#: base/info_linux.cpp:220
+msgid "Character Devices"
+msgstr ""
+
+#: base/info_linux.cpp:227
+msgid "Block Devices"
+msgstr ""
+
+#: base/info_linux.cpp:262
+msgid "Miscellaneous Devices"
+msgstr ""
+
+#: base/info_netbsd.cpp:161 base/info_openbsd.cpp:172
+msgid "IRQ"
+msgstr ""
+
+#: base/info_netbsd.cpp:179 base/info_openbsd.cpp:185
+msgid "No PCI devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:188 base/info_openbsd.cpp:194
+msgid "No I/O port devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:199 base/info_openbsd.cpp:203
+msgid "No audio devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:237 base/info_openbsd.cpp:247
+msgid "No SCSI devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:273
+msgid "Total Nodes"
+msgstr ""
+
+#: base/info_netbsd.cpp:273
+msgid "Free Nodes"
+msgstr ""
+
+#: base/info_netbsd.cpp:273
+msgid "Flags"
+msgstr ""
+
+#: base/info_openbsd.cpp:261
+msgid "Unable to run /sbin/mount."
+msgstr ""
+
+#: base/info_osx.cpp:121
+msgid "Device Name"
+msgstr ""
+
+#: base/info_osx.cpp:131
+msgid "Manufacturer"
+msgstr ""
+
+#: base/info_solaris.cpp:69
+msgid "Instance"
+msgstr ""
+
+#: base/info_solaris.cpp:69
+msgid "CPU Type"
+msgstr ""
+
+#: base/info_solaris.cpp:69
+msgid "FPU Type"
+msgstr ""
+
+#: base/info_solaris.cpp:69
+msgid "State"
+msgstr ""
+
+#: base/info_solaris.cpp:174
+msgid "Mount Time"
+msgstr ""
+
+#: base/info_solaris.cpp:444
+msgid "character special"
+msgstr ""
+
+#: base/info_solaris.cpp:446
+msgid "block special"
+msgstr ""
+
+#: base/info_solaris.cpp:449
+msgctxt "Can be either character special or block special"
+msgid "Special type:"
+msgstr ""
+
+#: base/info_solaris.cpp:462
+msgid "Nodetype:"
+msgstr ""
+
+#: base/info_solaris.cpp:469
+msgid "Major/Minor:"
+msgstr ""
+
+#: base/info_solaris.cpp:540
+msgid "(no value)"
+msgstr ""
+
+#: base/info_solaris.cpp:605
+msgid "Driver Name:"
+msgstr ""
+
+#: base/info_solaris.cpp:607
+msgid "(driver not attached)"
+msgstr ""
+
+#: base/info_solaris.cpp:614
+msgid "Binding Name:"
+msgstr ""
+
+#: base/info_solaris.cpp:629
+msgid "Compatible Names:"
+msgstr ""
+
+#: base/info_solaris.cpp:633
+msgid "Physical Path:"
+msgstr ""
+
+#: base/info_solaris.cpp:643
+msgid "Properties"
+msgstr ""
+
+#: base/info_solaris.cpp:657
+msgid "Type:"
+msgstr ""
+
+#: base/info_solaris.cpp:661
+msgid "Value:"
+msgstr ""
+
+#: base/info_solaris.cpp:672
+msgid "Minor Nodes"
+msgstr ""
+
+#: base/info_solaris.cpp:697
+msgid "Device Information"
+msgstr ""
+
+#: base/os_base.h:36
+msgid "LSBFirst"
+msgstr ""
+
+#: base/os_base.h:38
+msgid "MSBFirst"
+msgstr ""
+
+#: base/os_base.h:40
+#, kde-format
+msgid "Unknown Order %1"
+msgstr ""
+
+#: base/os_base.h:44
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: base/os_base.h:50
+msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
+msgid "1 Byte"
+msgstr ""
+
+#: base/os_base.h:52
+#, kde-format
+msgctxt "plural form: '%1 Bytes'"
+msgid "%1 Bytes"
+msgstr ""
+
+#: base/os_base.h:90
+#, kde-format
+msgid "Screen # %1"
+msgstr ""
+
+#: base/os_base.h:92
+msgid "(Default Screen)"
+msgstr ""
+
+#: base/os_base.h:101
+msgid "Dimensions"
+msgstr ""
+
+#: base/os_base.h:101
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr ""
+
+#: base/os_base.h:105
+msgid "Resolution"
+msgstr ""
+
+#: base/os_base.h:105
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr ""
+
+#: base/os_base.h:122
+#, kde-format
+msgid "Depths (%1)"
+msgstr ""
+
+#: base/os_base.h:128
+msgid "Root Window ID"
+msgstr ""
+
+#: base/os_base.h:132
+msgid "Depth of Root Window"
+msgstr ""
+
+#: base/os_base.h:132
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: base/os_base.h:136
+msgid "Number of Colormaps"
+msgstr ""
+
+#: base/os_base.h:136
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr ""
+
+#: base/os_base.h:140
+msgid "Default Colormap"
+msgstr ""
+
+#: base/os_base.h:144
+msgid "Default Number of Colormap Cells"
+msgstr ""
+
+#: base/os_base.h:148
+msgid "Preallocated Pixels"
+msgstr ""
+
+#: base/os_base.h:148
+#, kde-format
+msgid "Black %1, White %2"
+msgstr ""
+
+#: base/os_base.h:151
+msgid "Yes"
+msgstr ""
+
+#: base/os_base.h:152
+msgid "No"
+msgstr ""
+
+#: base/os_base.h:155
+msgid "Options"
+msgstr ""
+
+#: base/os_base.h:155
+msgid "When mapped"
+msgstr ""
+
+#: base/os_base.h:155
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr ""
+
+#: base/os_base.h:161
+msgid "Largest Cursor"
+msgstr ""
+
+#: base/os_base.h:163
+msgid "unlimited"
+msgstr ""
+
+#: base/os_base.h:169
+msgid "Current Input Event Mask"
+msgstr ""
+
+#: base/os_base.h:175
+#, kde-format
+msgid "Event = %1"
+msgstr ""
+
+#: base/os_base.h:208
+msgid "Server Information"
+msgstr ""
+
+#: base/os_base.h:214
+msgid "Name of the Display"
+msgstr ""
+
+#: base/os_base.h:218
+msgid "Vendor String"
+msgstr ""
+
+#: base/os_base.h:222
+msgid "Vendor Release Number"
+msgstr ""
+
+#: base/os_base.h:226
+msgid "Version Number"
+msgstr ""
+
+#: base/os_base.h:230
+msgid "Available Screens"
+msgstr ""
+
+#: base/os_base.h:240
+msgid "Supported Extensions"
+msgstr ""
+
+#: base/os_base.h:255
+msgid "Supported Pixmap Formats"
+msgstr ""
+
+#: base/os_base.h:262
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr ""
+
+#: base/os_base.h:262
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr ""
+
+#: base/os_base.h:274
+msgid "Maximum Request Size"
+msgstr ""
+
+#: base/os_base.h:278
+msgid "Motion Buffer Size"
+msgstr ""
+
+#: base/os_base.h:282
+msgid "Bitmap"
+msgstr ""
+
+#: base/os_base.h:286
+msgid "Unit"
+msgstr ""
+
+#: base/os_base.h:290
+msgid "Order"
+msgstr ""
+
+#: base/os_base.h:294
+msgid "Padding"
+msgstr ""
+
+#: base/os_base.h:298
+msgid "Image Byte Order"
+msgstr ""
+
+#: base/os_current.h:49 base/os_current.h:64 base/os_current.h:95
+#: base/os_current.h:109 base/os_current.h:123 base/os_current.h:137
+#: base/os_current.h:152 base/os_current.h:166 base/os_current.h:180
+msgid "This system may not be completely supported yet."
+msgstr ""
+
+#: aboutwidget.cpp:38 main.cpp:91
+msgid "KDE Info Center"
+msgstr "केडीई सूचना केन्द्र"
+
+#: aboutwidget.cpp:40
+msgid "Get system and desktop environment information"
+msgstr "प्रणाली र डेस्कटप परिवेश सूचना प्राप्त गर्नुहोस्"
+
+#: aboutwidget.cpp:42
+msgid ""
+"Welcome to the \"KDE Info Center\", a central place to find information "
+"about your computer system."
+msgstr ""
+"\"केडीई सूचना केन्द्र\" मा स्वागत छ, तपाईँको कम्प्युटर प्रणाली बारे सूचना "
+"फेला पार्ने केन्द्रिय स्थान ।"
+
+#: aboutwidget.cpp:46
+msgid ""
+"Click on the \"Help\" tab on the left to view help for the active control "
+"module. Use the \"Search\" tab if you are unsure where to look for a "
+"particular configuration option."
+msgstr ""
+"सक्रिय नियन्त्रण मोड्युलका लागि मद्दत हेर्न बायाँपट्टि \"मद्दत\" ट्याब क्लिक "
+"गर्नुहोस् । यदि तपाईँ निश्चित कन्फिगरेसन विकल्प कहाँ हेर्ने भन्ने अनिश्चित "
+"हुनुहुन्छ भने \"खोजी गर्नुहोस्\" ट्याब प्रयोग गर्नुहोस् ।"
+
+#: aboutwidget.cpp:52
+msgid "KDE version:"
+msgstr "केडीई संस्करण:"
+
+#: aboutwidget.cpp:53
+msgid "User:"
+msgstr "प्रयोगकर्ता:"
+
+#: aboutwidget.cpp:54
+msgid "Hostname:"
+msgstr "होस्टनाम:"
+
+#: aboutwidget.cpp:55
+msgid "System:"
+msgstr "प्रणाली:"
+
+#: aboutwidget.cpp:56
+msgid "Release:"
+msgstr "निस्काशन:"
+
+#: aboutwidget.cpp:57
+msgid "Machine:"
+msgstr "मेशिन:"
+
+#: dockcontainer.cpp:69
+#, kde-format
+msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
+msgstr ""
+
+#: dockcontainer.cpp:74
+msgid ""
+"<h1>KDE Info Center</h1>There is no quick help available for the active info "
+"module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</a> to "
+"read the general Info Center manual."
+msgstr ""
+"<h1>केडीई सूचना केन्द्र</h1>त्यहाँ सक्रिय सूचना मोड्युलका लागि द्रुत मद्दत "
+"उपलब्ध छैन ।<br><br />साधारण सूचना केन्द्र म्यानुअल पढ्न <a href = "
+"\"kinfocenter/index.html\">यहाँ</a> क्लिक गर्नुहोस् ।"
+
+#: dockcontainer.cpp:91
+msgid "<big><b>Loading...</b></big>"
+msgstr "<big><b> लोड गर्दैछ...</b></big>"
+
+#: dockcontainer.cpp:147
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module or discard "
+"the changes?"
+msgstr ""
+"त्यहाँ सक्रिय मोड्युलमा बचत नगरिएका परिवर्तन छन् ।\n"
+"तपाईँ नयाँ मोड्युल चलाउनु अघि परिवर्तन लागू गर्न चाहनुहुन्छ वा परिवर्तन "
+"छोड्न चाहनुहुन्छ ?"
+
+#: dockcontainer.cpp:149
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before exiting the System Settings or "
+"discard the changes?"
+msgstr ""
+
+#: dockcontainer.cpp:151
+msgid "Unsaved Changes"
+msgstr "बचत नगरिएका परिवर्तन"
+
+#: indexwidget.cpp:45
+msgid "Filter:"
+msgstr ""
+
+#: main.cpp:92
+msgid "The KDE Info Center"
+msgstr "केडीई सूचना केन्द्र"
+
+#: main.cpp:93
+msgid "(c) 1998-2004, The KDE Control Center Developers"
+msgstr "(सी) १९९८-२००४, केडीई नियन्त्रण केन्द्र विकासकर्ता"
+
+#: main.cpp:98
+msgid "Nicolas Ternisien"
+msgstr ""
+
+#: main.cpp:98
+msgid "Current Maintainer"
+msgstr "हालको मर्मतकर्ता"
+
+#: main.cpp:99
+msgid "Helge Deller"
+msgstr "हेल्ज डेलर"
+
+#: main.cpp:99
+msgid "Previous Maintainer"
+msgstr ""
+
+#: main.cpp:100
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "माथियस होल्जर‍ क्ल्युपफेल"
+
+#: main.cpp:101
+msgid "Matthias Elter"
+msgstr "माथियस इल्टर"
+
+#: main.cpp:102
+msgid "Matthias Ettrich"
+msgstr "माथियस इट्रिच"
+
+#: main.cpp:103
+msgid "Waldo Bastian"
+msgstr "वाल्डो बास्टियन"
+
+#: moduletreeview.cpp:43 toplevel.cpp:221
+msgid "General Information"
+msgstr ""
+
+#: proxywidget.cpp:51
+msgid "The currently loaded configuration module."
+msgstr "हालै लोड गरिएको कन्फिगरेसन मोड्युल"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, Shyam krishna bal<shyam@mpp.org.np>,,,"
+
+#: toplevel.cpp:119 toplevel.cpp:150 toplevel.cpp:217
+msgid "About Current Module"
+msgstr "हालको मोड्युलको बारेमा"
+
+#: toplevel.cpp:126 toplevel.cpp:158 toplevel.cpp:223
+msgid "&Report Bug..."
+msgstr "प्रतिवेदन त्रुटि..."
+
+#: toplevel.cpp:146
+#, kde-format
+msgctxt "Help menu->about <modulename>"
+msgid "About %1"
+msgstr "%1 को बारेमा"
+
+#: toplevel.cpp:160
+#, kde-format
+msgid "Report Bug on Module %1..."
+msgstr "मोड्युल %1 मा प्रतिवेदन त्रुटि..."

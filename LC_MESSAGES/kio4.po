@@ -1,0 +1,6101 @@
+# translation of kio4.po to Nepali
+# Pawan Chitrakar  <pchitrakar@gmail.com>, 2006.
+# Nabin Gautam <nabingautam2001@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@hotmail.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 12:38+0000\n"
+"PO-Revision-Date: 2010-04-23 16:13+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:52+0000\n"
+
+#: kssl/ksslcertificate.cpp:204
+msgid "Signature Algorithm: "
+msgstr "हस्ताक्षर अल्गोरिदम: "
+
+#: kssl/ksslcertificate.cpp:205
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: kssl/ksslcertificate.cpp:208
+msgid "Signature Contents:"
+msgstr "हस्ताक्षर सामाग्रीहरू:"
+
+#: kssl/ksslcertificate.cpp:348
+msgctxt "Unknown"
+msgid "Unknown key algorithm"
+msgstr "अज्ञात कुञ्जी अल्गोरिदम"
+
+#: kssl/ksslcertificate.cpp:352
+#, kde-format
+msgid "Key type: RSA (%1 bit)"
+msgstr "कुञ्जी प्रकार: RSA (%1 बिट)"
+
+#: kssl/ksslcertificate.cpp:354
+msgid "Modulus: "
+msgstr "मोड्युल: "
+
+#: kssl/ksslcertificate.cpp:368
+msgid "Exponent: 0x"
+msgstr "घाताङ्क: 0x"
+
+#: kssl/ksslcertificate.cpp:377
+#, kde-format
+msgid "Key type: DSA (%1 bit)"
+msgstr "कुञ्जी प्रकार: DSA (%1 बिट)"
+
+#: kssl/ksslcertificate.cpp:379
+msgid "Prime: "
+msgstr "प्राथमिक: "
+
+#: kssl/ksslcertificate.cpp:393
+msgid "160 bit prime factor: "
+msgstr "१६० बिट प्राथमिक तत्व: "
+
+#: kssl/ksslcertificate.cpp:421
+msgid "Public key: "
+msgstr "सार्वजनिक कुञ्जी: "
+
+#: kssl/ksslcertificate.cpp:1051
+msgid "The certificate is valid."
+msgstr "प्रमाणपत्र वैद्य छ ।"
+
+#: kssl/ksslcertificate.cpp:1053
+msgid ""
+"Retrieval of the issuer certificate failed. This means the CA's (Certificate "
+"Authority) certificate can not be found."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1055
+msgid ""
+"Retrieval of the CRL (Certificate Revocation List) failed. This means the "
+"CA's (Certificate Authority) CRL can not be found."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1057
+msgid ""
+"The decryption of the certificate's signature failed. This means it could "
+"not even be calculated as opposed to just not matching the expected result."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1059
+msgid ""
+"The decryption of the CRL's (Certificate Revocation List) signature failed. "
+"This means it could not even be calculated as opposed to just not matching "
+"the expected result."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1061
+msgid ""
+"The decoding of the public key of the issuer failed. This means that the "
+"CA's (Certificate Authority) certificate can not be used to verify the "
+"certificate you wanted to use."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1063
+msgid ""
+"The certificate's signature is invalid. This means that the certificate can "
+"not be verified."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1065
+msgid ""
+"The CRL's (Certificate Revocation List) signature is invalid. This means "
+"that the CRL can not be verified."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1067
+msgid "The certificate is not valid, yet."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1069
+msgid "The certificate is not valid, any more."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1071 kssl/ksslcertificate.cpp:1073
+msgid "The CRL (Certificate Revocation List) is not valid, yet."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1075
+msgid "The time format of the certificate's 'notBefore' field is invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1077
+msgid "The time format of the certificate's 'notAfter' field is invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1079
+msgid ""
+"The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
+"field is invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1081
+msgid ""
+"The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
+"field is invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1083
+msgid "The OpenSSL process ran out of memory."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1085
+msgid ""
+"The certificate is self-signed and not in the list of trusted certificates. "
+"If you want to accept this certificate, import it into the list of trusted "
+"certificates."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1088
+msgid ""
+"The certificate is self-signed. While the trust chain could be built up, the "
+"root CA's (Certificate Authority) certificate can not be found."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1090
+msgid ""
+"The CA's (Certificate Authority) certificate can not be found. Most likely, "
+"your trust chain is broken."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1092
+msgid ""
+"The certificate can not be verified as it is the only certificate in the "
+"trust chain and not self-signed. If you self-sign the certificate, make sure "
+"to import it into the list of trusted certificates."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1094
+msgid "The certificate chain is longer than the maximum depth specified."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1097
+msgid "The certificate has been revoked."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1099
+msgid "The certificate's CA (Certificate Authority) is invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1101
+msgid ""
+"The length of the trust chain exceeded one of the CA's (Certificate "
+"Authority) 'pathlength' parameters, making all subsequent signatures invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1103
+msgid ""
+"The certificate has not been signed for the purpose you tried to use it for. "
+"This means the CA (Certificate Authority) does not allow this usage."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1106
+msgid ""
+"The root CA (Certificate Authority) is not trusted for the purpose you tried "
+"to use this certificate for."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1109
+msgid ""
+"The root CA (Certificate Authority) has been marked to be rejected for the "
+"purpose you tried to use it for."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1111
+msgid ""
+"The certificate's CA (Certificate Authority) does not match the CA name of "
+"the certificate."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1113
+msgid ""
+"The CA (Certificate Authority) certificate's key ID does not match the key "
+"ID in the 'Issuer' section of the certificate you are trying to use."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1115
+msgid ""
+"The CA (Certificate Authority) certificate's key ID and name do not match "
+"the key ID and name in the 'Issuer' section of the certificate you are "
+"trying to use."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1117
+msgid ""
+"The certificate's CA (Certificate Authority) is not allowed to sign "
+"certificates."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1119
+msgid "OpenSSL could not be verified."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1124
+msgid ""
+"The signature test for this certificate failed. This could mean that the "
+"signature of this certificate or any in its trust path are invalid, could "
+"not be decoded or that the CRL (Certificate Revocation List) could not be "
+"verified. If you see this message, please let the author of the software you "
+"are using know that he or she should use the new, more specific error "
+"messages."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1126
+msgid ""
+"This certificate, any in its trust path or its CA's (Certificate Authority) "
+"CRL (Certificate Revocation List) is not valid. Any of them could not be "
+"valid yet or not valid any more. If you see this message, please let the "
+"author of the software you are using know that he or she should use the new, "
+"more specific error messages."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:1132
+msgid ""
+"Certificate signing authority root files could not be found so the "
+"certificate is not verified."
+msgstr ""
+"प्रमाणपत्र हस्ताक्षर अधिकार रुट फाइलहरू फेला पार्न सकेन त्यसैले प्रमाणपत्र "
+"रुजूगरिएको छैन ।"
+
+#: kssl/ksslcertificate.cpp:1134
+msgid "SSL support was not found."
+msgstr "एसएसएल समर्थन फेला परेको थिएन ।"
+
+#: kssl/ksslcertificate.cpp:1136
+msgid "Private key test failed."
+msgstr "निजी कुञ्जी परीक्षण असफल भयो ।"
+
+#: kssl/ksslcertificate.cpp:1138
+msgid "The certificate has not been issued for this host."
+msgstr "यो होस्टका लागि प्रमाणपत्र निस्काशन गरिएको छैन ।"
+
+#: kssl/ksslcertificate.cpp:1140
+msgid "This certificate is not relevant."
+msgstr "यो प्रमाणपत्र सान्दर्भिक छैन ।"
+
+#: kssl/ksslcertificate.cpp:1145
+msgid "The certificate is invalid."
+msgstr "यो प्रमाणपत्र अवैद्य छ ।"
+
+#: kssl/ksslinfodialog.cpp:73 kssl/ksslkeygen.cpp:125
+msgid "KDE SSL Information"
+msgstr "केडीई एसएसएल सूचना"
+
+#: kssl/ksslinfodialog.cpp:81
+msgctxt "The receiver of the SSL certificate"
+msgid "Subject"
+msgstr "विषय"
+
+#: kssl/ksslinfodialog.cpp:82
+msgctxt "The authority that issued the SSL certificate"
+msgid "Issuer"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:92 kssl/ksslinfodialog.cpp:137
+msgid "Current connection is secured with SSL."
+msgstr "एसएसएलसँग हालको जडान सुरक्षित छ ।"
+
+#: kssl/ksslinfodialog.cpp:95 kssl/ksslinfodialog.cpp:150
+msgid "Current connection is not secured with SSL."
+msgstr "एसएसएलसँग हालको जडान सुरक्षित छैन ।"
+
+#: kssl/ksslinfodialog.cpp:99
+msgid "SSL support is not available in this build of KDE."
+msgstr "यो केडीई बनावटमा एसएसएल समर्थन उपलब्ध छैन ।"
+
+#: kssl/ksslinfodialog.cpp:140
+msgid ""
+"The main part of this document is secured with SSL, but some parts are not."
+msgstr "यो कागजातको मुख्य भाग एसएसएलसँग सुरक्षित छ, तर केही भागहरू छैनन् ।"
+
+#: kssl/ksslinfodialog.cpp:146
+msgid "Some of this document is secured with SSL, but the main part is not."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:193
+#, kde-format
+msgid "%1, using %2 bits of a %3 bit key"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:212
+msgctxt "The certificate is not trusted"
+msgid "NO, there were errors:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:219
+msgctxt "The certificate is trusted"
+msgid "Yes"
+msgstr "हो"
+
+#: kssl/ksslinfodialog.cpp:223
+#, kde-format
+msgctxt "%1 is the effective date of the certificate, %2 is the expiry date"
+msgid "%1 to %2"
+msgstr "%1 देखि %2 सम्म"
+
+#: kssl/ksslutils.cpp:78
+msgid "GMT"
+msgstr "GMT"
+
+#: kssl/ksslpemcallback.cpp:37
+msgid "Certificate password"
+msgstr "प्रमाणपत्र पासवर्ड"
+
+#: kssl/sslui.cpp:52
+msgid ""
+"The remote host did not send any SSL certificates.\n"
+"Aborting because the identity of the host cannot be established."
+msgstr ""
+
+#: kssl/sslui.cpp:71 kio/tcpslavebase.cpp:759
+#, kde-format
+msgid ""
+"The server failed the authenticity check (%1).\n"
+"\n"
+msgstr ""
+
+#: kssl/sslui.cpp:80 kssl/sslui.cpp:119 kio/tcpslavebase.cpp:769
+#: kio/tcpslavebase.cpp:786 kio/tcpslavebase.cpp:888 kio/tcpslavebase.cpp:900
+msgid "Server Authentication"
+msgstr "सर्भर प्रमाणीकरण"
+
+#: kssl/sslui.cpp:81 kio/tcpslavebase.cpp:770
+msgid "&Details"
+msgstr "विवरण"
+
+#: kssl/sslui.cpp:82 kio/tcpslavebase.cpp:770
+msgid "Co&ntinue"
+msgstr "जारी राख्नुहोस्"
+
+#: kssl/sslui.cpp:116 kio/tcpslavebase.cpp:783
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+"प्रयत्न बिना नै तपाईँ यो प्रमाणपत्र सधैका लागि स्वीकार गर्न चाहनुहुन्छ?"
+
+#: kssl/sslui.cpp:120 kio/tcpslavebase.cpp:787
+msgid "&Forever"
+msgstr "सदाको लागि"
+
+#: kssl/sslui.cpp:121 kio/tcpslavebase.cpp:788
+msgid "&Current Session only"
+msgstr "वर्तमान सत्र मात्रै"
+
+#: kssl/ksslkeygen.cpp:83
+msgid "KDE Certificate Request"
+msgstr "केडीई प्रमाणपत्र अनुरोध"
+
+#: kssl/ksslkeygen.cpp:90
+msgid "KDE Certificate Request - Password"
+msgstr "केडीई प्रमाणपत्र अनुरोध - पासवर्ड"
+
+#: kssl/ksslkeygen.cpp:125
+msgid "Unsupported key size."
+msgstr "असमर्थित कुञ्जी साइज ।"
+
+#: kssl/ksslkeygen.cpp:131
+msgid "KDE"
+msgstr "केडीई"
+
+#: kssl/ksslkeygen.cpp:132
+msgid "Please wait while the encryption keys are generated..."
+msgstr "कृपया गुप्तिकरण कुञ्जी उत्पन्न हुँदा प्रतिक्षा गर्नुहोस्..."
+
+#: kssl/ksslkeygen.cpp:145
+msgid "Do you wish to store the passphrase in your wallet file?"
+msgstr "के तपाईँ वालेट फाइलमा पासफ्रेज भण्डारण गर्न चाहनुहुन्छ?"
+
+#: kssl/ksslkeygen.cpp:145
+msgid "Store"
+msgstr "भण्डारण गर्नुहोस्"
+
+#: kssl/ksslkeygen.cpp:145
+msgid "Do Not Store"
+msgstr "भण्डारण नगर्नुहोस्"
+
+#: kssl/ksslkeygen.cpp:261
+msgid "2048 (High Grade)"
+msgstr "२०४८ (उच्च स्तर)"
+
+#: kssl/ksslkeygen.cpp:262
+msgid "1024 (Medium Grade)"
+msgstr "१०२४ (मध्यम स्तर)"
+
+#: kssl/ksslkeygen.cpp:263
+msgid "768  (Low Grade)"
+msgstr "७६८  (न्यून स्तर)"
+
+#: kssl/ksslkeygen.cpp:264
+msgid "512  (Low Grade)"
+msgstr "५१२  (न्यून स्तर)"
+
+#: kssl/ksslkeygen.cpp:266
+msgid "No SSL support."
+msgstr "एसएसएल समर्थन छैन ।"
+
+#: kssl/ksslcertdialog.cpp:61
+msgid "Certificate"
+msgstr "प्रमाणपत्र"
+
+#: kssl/ksslcertdialog.cpp:69
+msgid "Save selection for this host."
+msgstr "यो होस्टका लागि चयन बचत गर्नुहोस् ।"
+
+#: kssl/ksslcertdialog.cpp:78
+msgid "Send certificate"
+msgstr "प्रमाणपत्र पठाउनुहोस्"
+
+#: kssl/ksslcertdialog.cpp:82
+msgid "Do not send a certificate"
+msgstr "प्रमाणपत्र नपठाउनुहोस्"
+
+#: kssl/ksslcertdialog.cpp:87
+msgid "KDE SSL Certificate Dialog"
+msgstr "KDE SSL प्रमाणपत्र संवाद"
+
+#: kssl/ksslcertdialog.cpp:142
+#, kde-format
+msgid ""
+"The server <b>%1</b> requests a certificate.<br /><br />Select a certificate "
+"to use from the list below:"
+msgstr ""
+
+#: kio/global.cpp:89
+#, kde-format
+msgid "1 day %2"
+msgid_plural "%1 days %2"
+msgstr[0] "१ दिन %2"
+msgstr[1] "%1 दिन %2"
+
+#: kio/global.cpp:120 kio/global.cpp:137
+#, kde-format
+msgid "%1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "%1 वस्तु"
+msgstr[1] "%1 वस्तु"
+
+#: kio/global.cpp:124
+#, kde-format
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/global.cpp:125
+#, kde-format
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/global.cpp:128
+#, kde-format
+msgctxt "folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr ""
+
+#: kio/global.cpp:129
+#, kde-format
+msgctxt "folders, files"
+msgid "%1, %2"
+msgstr ""
+
+#: kio/global.cpp:131
+#, kde-format
+msgctxt "files (size)"
+msgid "%1 (%2)"
+msgstr ""
+
+#: kio/global.cpp:138
+#, kde-format
+msgctxt "items: folders, files (size)"
+msgid "%1: %2"
+msgstr ""
+
+#: kio/global.cpp:169
+#, kde-format
+msgid "Could not read %1."
+msgstr "%1 मा पढ्न सकेन ।"
+
+#: kio/global.cpp:172
+#, kde-format
+msgid "Could not write to %1."
+msgstr "%1 मा लेख्न सकेन ।"
+
+#: kio/global.cpp:175
+#, kde-format
+msgid "Could not start process %1."
+msgstr "%1 प्रक्रिया सुरु गर्न सकेन ।"
+
+#: kio/global.cpp:178
+#, kde-format
+msgid ""
+"Internal Error\n"
+"Please send a full bug report at http://bugs.kde.org\n"
+"%1"
+msgstr ""
+"आन्तरिक त्रुटि \n"
+"कृपया पूरा बग प्रतिवेदन http://bugs.kde.org मा पठाउनुहोस् \n"
+"%1"
+
+#: kio/global.cpp:181
+#, kde-format
+msgid "Malformed URL %1."
+msgstr "विकृत URL %1 ।"
+
+#: kio/global.cpp:184
+#, kde-format
+msgid "The protocol %1 is not supported."
+msgstr "%1 प्रोटोकल असमर्थित छ ।"
+
+#: kio/global.cpp:187
+#, kde-format
+msgid "The protocol %1 is only a filter protocol."
+msgstr "%1 प्रोटोकल मात्र एउटा फिल्टर प्रोटोकल हो ।"
+
+#: kio/global.cpp:194
+#, kde-format
+msgid "%1 is a folder, but a file was expected."
+msgstr "%1 फोल्डर हो, तर फाइल अपेक्षित थियो ।"
+
+#: kio/global.cpp:197
+#, kde-format
+msgid "%1 is a file, but a folder was expected."
+msgstr "%1 फाइल हो, तर फोल्डर अपेक्षित थियो ।"
+
+#: kio/global.cpp:200
+#, kde-format
+msgid "The file or folder %1 does not exist."
+msgstr "%1 फाइल वा फोल्डर अवस्थित छैन ।"
+
+#: kio/global.cpp:203
+#, kde-format
+msgid "A file named %1 already exists."
+msgstr "%1 नाम गरिएको फाइल पहिल्यै अवस्थित छ ।"
+
+#: kio/global.cpp:206
+#, kde-format
+msgid "A folder named %1 already exists."
+msgstr "%1 नाम गरिएको फोल्डर पहिलानै अवस्थित छ ।"
+
+#: kio/global.cpp:209
+msgid "No hostname specified."
+msgstr "होस्ट नाम निर्दिष्ट गरिएको छैन ।"
+
+#: kio/global.cpp:209
+#, kde-format
+msgid "Unknown host %1"
+msgstr "अज्ञात होस्ट %1"
+
+#: kio/global.cpp:212
+#, kde-format
+msgid "Access denied to %1."
+msgstr "%1 मा पहुँच अस्वीकृत ।"
+
+#: kio/global.cpp:215
+#, kde-format
+msgid ""
+"Access denied.\n"
+"Could not write to %1."
+msgstr ""
+"पहुँच अस्वीकृत ।\n"
+"%1 लेख्न सकेन ।"
+
+#: kio/global.cpp:218
+#, kde-format
+msgid "Could not enter folder %1."
+msgstr "%1 फोल्डरमा प्रविष्ट गर्न सकेन ।"
+
+#: kio/global.cpp:221
+#, kde-format
+msgid "The protocol %1 does not implement a folder service."
+msgstr "%1 प्रोटोकलले फोल्डर सेवा कार्यान्वयन गर्दैन ।"
+
+#: kio/global.cpp:224
+#, kde-format
+msgid "Found a cyclic link in %1."
+msgstr "%1 मा चक्रिय लिङ्क भेटियो ।"
+
+#: kio/global.cpp:230
+#, kde-format
+msgid "Found a cyclic link while copying %1."
+msgstr "%1 प्रतिलिपि गर्ने क्रममा चक्रिय लिङ्क भेटियो ।"
+
+#: kio/global.cpp:233
+#, kde-format
+msgid "Could not create socket for accessing %1."
+msgstr "%1 पहुँचका लागि सकेट सिर्जना गर्न सकेन ।"
+
+#: kio/global.cpp:236
+#, kde-format
+msgid "Could not connect to host %1."
+msgstr "%1 होस्टमा जडान गर्न सकेन ।"
+
+#: kio/global.cpp:239
+#, kde-format
+msgid "Connection to host %1 is broken."
+msgstr "%1 होस्टमा जडान विच्छेद गरिएको छ ।"
+
+#: kio/global.cpp:242
+#, kde-format
+msgid "The protocol %1 is not a filter protocol."
+msgstr "%1 प्रोटोकल फिल्टर प्रोटोकल होइन ।"
+
+#: kio/global.cpp:245
+#, kde-format
+msgid ""
+"Could not mount device.\n"
+"The reported error was:\n"
+"%1"
+msgstr ""
+"यन्त्र माउन्ट गर्न सकेन । \n"
+"प्रतिवेदन गरिएको त्रुटि निम्न थियो:\n"
+"%1"
+
+#: kio/global.cpp:248
+#, kde-format
+msgid ""
+"Could not unmount device.\n"
+"The reported error was:\n"
+"%1"
+msgstr ""
+"यन्त्र अनमाउन्ट गर्न सकेन । \n"
+"प्रतिवेदन गरिएको त्रुटि निम्न थियो:\n"
+"%1"
+
+#: kio/global.cpp:251
+#, kde-format
+msgid "Could not read file %1."
+msgstr "%1 फाइल पढ्न सकेन ।"
+
+#: kio/global.cpp:254
+#, kde-format
+msgid "Could not write to file %1."
+msgstr "%1 फाइलमा लेख्न सकेन ।"
+
+#: kio/global.cpp:257
+#, kde-format
+msgid "Could not bind %1."
+msgstr "%1 बाइन्ड गर्न सकेन ।"
+
+#: kio/global.cpp:260
+#, kde-format
+msgid "Could not listen %1."
+msgstr "%1 सुन्न सकेन ।"
+
+#: kio/global.cpp:263
+#, kde-format
+msgid "Could not accept %1."
+msgstr "%1 स्वीकार गर्न सकेन ।"
+
+#: kio/global.cpp:269
+#, kde-format
+msgid "Could not access %1."
+msgstr "%1 पहुँच गर्न सकेन ।"
+
+#: kio/global.cpp:272
+#, kde-format
+msgid "Could not terminate listing %1."
+msgstr "%1 सूचीकरण समाप्त गर्न सकेन ।"
+
+#: kio/global.cpp:275
+#, kde-format
+msgid "Could not make folder %1."
+msgstr "%1 फोल्डर बनाउन सकेन ।"
+
+#: kio/global.cpp:278
+#, kde-format
+msgid "Could not remove folder %1."
+msgstr "%1 फोल्डर हटाउन सकेन ।"
+
+#: kio/global.cpp:281
+#, kde-format
+msgid "Could not resume file %1."
+msgstr "%1 फाइल पुन: निरन्तरता दिन सकेन ।"
+
+#: kio/global.cpp:284
+#, kde-format
+msgid "Could not rename file %1."
+msgstr "%1 फाइल पुन: नामकरण गर्न सकेन ।"
+
+#: kio/global.cpp:287
+#, kde-format
+msgid "Could not change permissions for %1."
+msgstr "%1 का लागि अनुमतिहरू परिवर्तन गर्न सकेन ।"
+
+#: kio/global.cpp:290
+#, kde-format
+msgid "Could not change ownership for %1."
+msgstr ""
+
+#: kio/global.cpp:293
+#, kde-format
+msgid "Could not delete file %1."
+msgstr "%1 फाइल मेट्न सकेन ।"
+
+#: kio/global.cpp:296
+#, kde-format
+msgid "The process for the %1 protocol died unexpectedly."
+msgstr "%1 प्रोटोकलका लागि प्रक्रिया अनपेक्षित रूपले नष्ट भयो ।"
+
+#: kio/global.cpp:299
+#, kde-format
+msgid ""
+"Error. Out of memory.\n"
+"%1"
+msgstr ""
+"त्रुटि । स्मृति बाहिर ।\n"
+"%1"
+
+#: kio/global.cpp:302
+#, kde-format
+msgid ""
+"Unknown proxy host\n"
+"%1"
+msgstr ""
+"अज्ञात प्रोक्सी होस्ट\n"
+"%1"
+
+#: kio/global.cpp:305
+#, kde-format
+msgid "Authorization failed, %1 authentication not supported"
+msgstr "अधिकार प्रदान गर्न असफल भयो, %1 प्रमाणीकरण असमर्थित"
+
+#: kio/global.cpp:308
+#, kde-format
+msgid ""
+"User canceled action\n"
+"%1"
+msgstr ""
+"प्रयोगकर्ताले कार्य गर्यौ\n"
+"%1"
+
+#: kio/global.cpp:311
+#, kde-format
+msgid ""
+"Internal error in server\n"
+"%1"
+msgstr ""
+"सर्भरमा आन्तरिक त्रुटि \n"
+"%1"
+
+#: kio/global.cpp:314
+#, kde-format
+msgid ""
+"Timeout on server\n"
+"%1"
+msgstr ""
+"सर्भरमा समय समाप्ति \n"
+"%1"
+
+#: kio/global.cpp:317
+#, kde-format
+msgid ""
+"Unknown error\n"
+"%1"
+msgstr ""
+"अज्ञात त्रुटि \n"
+"%1"
+
+#: kio/global.cpp:320
+#, kde-format
+msgid ""
+"Unknown interrupt\n"
+"%1"
+msgstr ""
+"अज्ञात रोकावट \n"
+"%1"
+
+#: kio/global.cpp:331
+#, kde-format
+msgid ""
+"Could not delete original file %1.\n"
+"Please check permissions."
+msgstr ""
+"%1 मौलिक फाइल मेट्न सकेन \n"
+"कृपया अनुमतिहरू जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:334
+#, kde-format
+msgid ""
+"Could not delete partial file %1.\n"
+"Please check permissions."
+msgstr ""
+"%1 आंशिक फाइल मेट्न सकेन ।\n"
+"कृपया अनुमतिहरू जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:337
+#, kde-format
+msgid ""
+"Could not rename original file %1.\n"
+"Please check permissions."
+msgstr ""
+"%1 मौलिक फाइल नाम फेर्न सकेन \n"
+"कृपया अनुमतिहरू जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:340
+#, kde-format
+msgid ""
+"Could not rename partial file %1.\n"
+"Please check permissions."
+msgstr ""
+"%1 आंशिक फाइल नाम फेर्न सकेन ।\n"
+"कृपया अनुमति जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:343
+#, kde-format
+msgid ""
+"Could not create symlink %1.\n"
+"Please check permissions."
+msgstr ""
+"%1 सिमलिङ्क सिर्जना गर्न सकेन ।\n"
+"कृपया अनुमति जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:349
+#, kde-format
+msgid ""
+"Could not write file %1.\n"
+"Disk full."
+msgstr ""
+"%1 फाइल लेख्न सकेन ।\n"
+"डिस्क भरी छ ।"
+
+#: kio/global.cpp:352
+#, kde-format
+msgid ""
+"The source and destination are the same file.\n"
+"%1"
+msgstr ""
+"स्रोत र गन्तव्य एउटै फाइल हुन् ।\n"
+"%1"
+
+#: kio/global.cpp:358
+#, kde-format
+msgid "%1 is required by the server, but is not available."
+msgstr "%1 सर्भरलाई आवश्यक छ, तर उपलब्ध छैन ।"
+
+#: kio/global.cpp:361
+msgid "Access to restricted port in POST denied."
+msgstr "POST भित्र निशेधित पोर्टमा पहुँच अस्वीकृत ।"
+
+#: kio/global.cpp:364
+#, kde-format
+msgid ""
+"Unknown error code %1\n"
+"%2\n"
+"Please send a full bug report at http://bugs.kde.org."
+msgstr ""
+"अज्ञात त्रुटि सङ्केत %1\n"
+"%2\n"
+"कृपया पूरा बग प्रतिवेदन http://bugs.kde.org. मा पठाउनुहोस् ।"
+
+#: kio/global.cpp:374
+#, kde-format
+msgid "Opening connections is not supported with the protocol %1."
+msgstr "%1 प्रोटोकलसँग सुरुआत जडानहरू समर्थन गर्दैन ।"
+
+#: kio/global.cpp:376
+#, kde-format
+msgid "Closing connections is not supported with the protocol %1."
+msgstr "%1 प्रोटोकलसँग अन्त्य जडानहरू समर्थन गर्दैन ।"
+
+#: kio/global.cpp:378
+#, kde-format
+msgid "Accessing files is not supported with the protocol %1."
+msgstr "%1 प्रोटोकलसँग पहुँच फाइलहरू समर्थन गर्दैन ।"
+
+#: kio/global.cpp:380
+#, kde-format
+msgid "Writing to %1 is not supported."
+msgstr "%1 मा लेखाई समर्थन गर्दैन ।"
+
+#: kio/global.cpp:382
+#, kde-format
+msgid "There are no special actions available for protocol %1."
+msgstr "%1 प्रोटोकलका लागि त्यँहा कुनै पनि विशेष कार्यहरू उपलब्ध छैन ।"
+
+#: kio/global.cpp:384
+#, kde-format
+msgid "Listing folders is not supported for protocol %1."
+msgstr "%1 प्रोटोकलका लागि सूचित फोल्डरहरू समर्थन गर्दैन ।"
+
+#: kio/global.cpp:386
+#, kde-format
+msgid "Retrieving data from %1 is not supported."
+msgstr "%1 बाट डेटा पुन: प्राप्त गरिरहेको समर्थित छैन ।"
+
+#: kio/global.cpp:388
+#, kde-format
+msgid "Retrieving mime type information from %1 is not supported."
+msgstr "%1 बाट माइम प्रकार सूचना पुन: प्राप्त गरिरहेको समर्थित छैन ।"
+
+#: kio/global.cpp:390
+#, kde-format
+msgid "Renaming or moving files within %1 is not supported."
+msgstr "%1 भित्र फाइलको पुन: नामकरण र सराइ समर्थित छैन ।"
+
+#: kio/global.cpp:392
+#, kde-format
+msgid "Creating symlinks is not supported with protocol %1."
+msgstr "सिर्जना भइरहेको सिम्लिङ्क प्रोटोकल %1 सँग समर्थित छैन ।"
+
+#: kio/global.cpp:394
+#, kde-format
+msgid "Copying files within %1 is not supported."
+msgstr "%1 भित्र फाइल प्रतिलिपि समर्थित छैन ।"
+
+#: kio/global.cpp:396
+#, kde-format
+msgid "Deleting files from %1 is not supported."
+msgstr "%1 बाट फाइल मेटाइ समर्थित छैन ।"
+
+#: kio/global.cpp:398
+#, kde-format
+msgid "Creating folders is not supported with protocol %1."
+msgstr "%1 प्रोटोकलसँग फोल्डरको सिर्जना समर्थित छैन ।"
+
+#: kio/global.cpp:400
+#, kde-format
+msgid "Changing the attributes of files is not supported with protocol %1."
+msgstr "फाइलको विशेषता परिवर्तन प्रोटोकल %1 सँग समर्थित छैन ।"
+
+#: kio/global.cpp:402
+#, kde-format
+msgid "Changing the ownership of files is not supported with protocol %1."
+msgstr ""
+
+#: kio/global.cpp:404
+#, kde-format
+msgid "Using sub-URLs with %1 is not supported."
+msgstr "%1 सँगको sub-URLs को प्रयोग समर्थित छैन ।"
+
+#: kio/global.cpp:406
+#, kde-format
+msgid "Multiple get is not supported with protocol %1."
+msgstr "%1 प्रोटोकलसँग बहुविध प्राप्ति समर्थित छैन ।"
+
+#: kio/global.cpp:408
+#, kde-format
+msgid "Opening files is not supported with protocol %1."
+msgstr "खुलिरहेको फाइल %1 प्रोटोकलसँग समर्थित छैन ।"
+
+#: kio/global.cpp:410
+#, kde-format
+msgid "Protocol %1 does not support action %2."
+msgstr "प्रोटोकल %1 ले %2 कार्य समर्थन गर्दैन ।"
+
+#: kio/global.cpp:430
+msgctxt "@info url"
+msgid "(unknown)"
+msgstr ""
+
+#: kio/global.cpp:438
+#, kde-format
+msgctxt "@info %1 error name, %2 description"
+msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
+msgstr ""
+
+#: kio/global.cpp:442
+msgid "<b>Technical reason</b>: "
+msgstr "<b>प्राविधिक कारण</b>: "
+
+#: kio/global.cpp:444
+msgid "<b>Details of the request</b>:"
+msgstr ""
+
+#: kio/global.cpp:445
+#, kde-format
+msgid "<li>URL: %1</li>"
+msgstr ""
+
+#: kio/global.cpp:447
+#, kde-format
+msgid "<li>Protocol: %1</li>"
+msgstr "<li>प्रोटोकल: %1</li>"
+
+#: kio/global.cpp:449
+#, kde-format
+msgid "<li>Date and time: %1</li>"
+msgstr "<li>मिति र समय: %1</li>"
+
+#: kio/global.cpp:450
+#, kde-format
+msgid "<li>Additional information: %1</li>"
+msgstr ""
+
+#: kio/global.cpp:453
+msgid "<b>Possible causes</b>:"
+msgstr ""
+
+#: kio/global.cpp:458
+msgid "<b>Possible solutions</b>:"
+msgstr ""
+
+#: kio/global.cpp:491
+msgctxt "@info protocol"
+msgid "(unknown)"
+msgstr ""
+
+#: kio/global.cpp:501
+msgid ""
+"Contact your appropriate computer support system, whether the system "
+"administrator, or technical support group for further assistance."
+msgstr ""
+"तपाईँले आफ्नो उपयुक्त कम्प्युटर समर्थन प्रणालीसँग सम्पर्क गर्नुहोस्, चाहे "
+"प्रणाली प्रशासक, वा प्राविधिकले अगाडि सहयोगका लागि समूह समर्थन गरोस् या "
+"नगरोस् ।"
+
+#: kio/global.cpp:504
+msgid "Contact the administrator of the server for further assistance."
+msgstr "अगाडि सहयोगका लागि सर्भरकको प्रशासकसँग सम्पर्क गर्नुहोस् ।"
+
+#: kio/global.cpp:507
+msgid "Check your access permissions on this resource."
+msgstr "यो संसाधनमा तपाईँको पहुँच अनुमतिहरू जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:508
+msgid ""
+"Your access permissions may be inadequate to perform the requested operation "
+"on this resource."
+msgstr ""
+"यो संसाधनमा अनुरोध गरिएको सञ्चालन सम्पादन गर्न तपाईँको पहुँच अनुमति प्रयाप्त "
+"नहुन सक्छ ।"
+
+#: kio/global.cpp:510
+msgid ""
+"The file may be in use (and thus locked) by another user or application."
+msgstr ""
+"अन्य प्रयोगकर्ता वा अनुप्रयोग द्वारा फाइल प्रयोग गरिरहेको (र त्यसैले ताल्चा "
+"लगाएको) हुन सक्छ ।"
+
+#: kio/global.cpp:512
+msgid ""
+"Check to make sure that no other application or user is using the file or "
+"has locked the file."
+msgstr ""
+"अन्य कुनै प्रयोगकर्ता वा अनुप्रयोग अनुरुप फाइल प्रयोग गरिरहेको वा ताल्चा "
+"लगाएको छ, निश्चिन्त हुन जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:514
+msgid "Although unlikely, a hardware error may have occurred."
+msgstr "मन नपरेता पनि, हार्डवेयरमा त्रुटि आएको हुन सक्छ ।"
+
+#: kio/global.cpp:516
+msgid "You may have encountered a bug in the program."
+msgstr "कार्यक्रममा तपाईँले बगको सामना गर्नु भएको हुन सक्छ ।"
+
+#: kio/global.cpp:517
+msgid ""
+"This is most likely to be caused by a bug in the program. Please consider "
+"submitting a full bug report as detailed below."
+msgstr ""
+"कार्यक्रममा बगका कारणले यो हुन सक्छ । कृपया तल वर्णन गरिएको रूपमा सबै बग "
+"प्रतिवेदन पेश गर्न सम्झनुहोस् ।"
+
+#: kio/global.cpp:519
+msgid ""
+"Update your software to the latest version. Your distribution should provide "
+"tools to update your software."
+msgstr ""
+"पछिल्लो संस्करणमा तपाईँको सफ्टवेयर अद्यावधिक गर्नुहोस् । तपाईँको वितरणले "
+"सफ्टवेयर अद्यावधिक गर्न उपकरणहरू उपलब्ध गर्नेछ ।"
+
+#: kio/global.cpp:521
+msgid ""
+"When all else fails, please consider helping the KDE team or the third party "
+"maintainer of this software by submitting a high quality bug report. If the "
+"software is provided by a third party, please contact them directly. "
+"Otherwise, first look to see if the same bug has been submitted by someone "
+"else by searching at the <a href=\"http://bugs.kde.org/\">KDE bug reporting "
+"website</a>. If not, take note of the details given above, and include them "
+"in your bug report, along with as many other details as you think might help."
+msgstr ""
+"अन्य सबै असफल भएमा, कृपया उच्च गुणस्तर बग प्रतिवेदन पेश गरे अनुरुप यो "
+"सफ्टवेयरको तेस्रो पक्ष सम्भारकर्ता वा KDE टोलीमा मद्दत गर्ने विचार गर्नुहोस् "
+"। यदि सफ्टवेयर तेस्रो पक्षद्वारा उपलब्ध गराएको भएमा, तिनीहरूलाई प्रत्यक्ष "
+"सम्पर्क गर्नुहोस् । अन्यथा, यदि उस्तै बग अरु कोहिले पेश गरेको जान्नका लागि "
+"<a href=\"http://bugs.kde.org/\">KDE बग प्रतिवेदन वेभ साइट</a>मा पहिला खोजी "
+"गर्नुहोस् । यदि नभएमा, माथि दिएको विवरणहरूको टिपोट लिनुहोस्, र बग "
+"प्रतिबेदनमा तीनिहरू, साथै तपाईँलाई मद्दत गर्न सक्ने जस्ता लागेका अरू "
+"विवरणहरू समावेश गर्नुहोस् ।"
+
+#: kio/global.cpp:529
+msgid "There may have been a problem with your network connection."
+msgstr "त्यहाँ तपाईँको सञ्जाल जडानमा समस्या हुन सक्छ ।"
+
+#: kio/global.cpp:532
+msgid ""
+"There may have been a problem with your network configuration. If you have "
+"been accessing the Internet with no problems recently, this is unlikely."
+msgstr ""
+"तपाईँको सञ्जाल कन्फिगरेसनमा समस्या हुन सक्दछ । तपाईँसँग इन्टरनेट पहुँच छ भने "
+"तत्काल समस्याहरू छैन, यो असम्भव छ ।"
+
+#: kio/global.cpp:535
+msgid ""
+"There may have been a problem at some point along the network path between "
+"the server and this computer."
+msgstr ""
+"यो कम्प्युटर र सर्भर बीचमा सञ्जाल बाटोसँग कुनै बिन्दुमा त्यहाँ समस्या भएको "
+"हुन सक्छ ।"
+
+#: kio/global.cpp:537
+msgid "Try again, either now or at a later time."
+msgstr "अहिले वा पछाडिको समयमा, फेरि प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:538
+msgid "A protocol error or incompatibility may have occurred."
+msgstr "प्रोटोकल त्रुटि वा अमिल्दो भएको हुन सक्दछ ।"
+
+#: kio/global.cpp:539
+msgid "Ensure that the resource exists, and try again."
+msgstr "संसाधन अवस्थित निश्चित गर्नुहोस् , र फेरि प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:540
+msgid "The specified resource may not exist."
+msgstr "निर्दिष्ट गरिएको संसाधन अवस्थित हुन सक्दैन ।"
+
+#: kio/global.cpp:541
+msgid "You may have incorrectly typed the location."
+msgstr "तपाईँले गलत तरिकाले स्थान टाइप गर्नु भएको हुन सक्छ ।"
+
+#: kio/global.cpp:542
+msgid ""
+"Double-check that you have entered the correct location and try again."
+msgstr ""
+"तपाईँले प्रविष्टि गर्नुभएको ठीक स्थान दुई पटक जाँच गर्नुहोस् र फेरि प्रयास "
+"गर्नुहोस् ।"
+
+#: kio/global.cpp:544
+msgid "Check your network connection status."
+msgstr "तपाईँको सञ्जाल जडान स्थिति जाँच गर्नुहोस् ।"
+
+#: kio/global.cpp:548
+msgid "Cannot Open Resource For Reading"
+msgstr "पढ्नका लागि संसाधन खोल्न सकिदैन ।"
+
+#: kio/global.cpp:549
+#, kde-format
+msgid ""
+"This means that the contents of the requested file or folder "
+"<strong>%1</strong> could not be retrieved, as read access could not be "
+"obtained."
+msgstr ""
+"पढ्ने पहुँच प्राप्त हुन नसके जस्तै अनुरोध गरिएको फाइल वा फोल्डर "
+"<strong>%1</strong> पुन: प्राप्त गर्न सकेन ।"
+
+#: kio/global.cpp:552
+msgid "You may not have permissions to read the file or open the folder."
+msgstr "तपाईँलाई फाइल पढ्न वा फोल्डर खोल्न अनुमति नहुन सक्दछ ।"
+
+#: kio/global.cpp:558
+msgid "Cannot Open Resource For Writing"
+msgstr "लेख्नका लागि संसाधन खोल्न सकिदैन ।"
+
+#: kio/global.cpp:559
+#, kde-format
+msgid ""
+"This means that the file, <strong>%1</strong>, could not be written to as "
+"requested, because access with permission to write could not be obtained."
+msgstr ""
+"यसको अर्थ त्यो हो की फाइल, <strong>%1</strong>, अनुरोध गरिए जस्तै लेख्न "
+"सकिने, किनभने लेख्न अनुमतिसँग पहुँच प्राप्त गर्न सकेन ।"
+
+#: kio/global.cpp:567
+#, kde-format
+msgid "Cannot Initiate the %1 Protocol"
+msgstr "%1 प्रोटोकल सुरुआत गर्न सकिदैन ।"
+
+#: kio/global.cpp:568
+msgid "Unable to Launch Process"
+msgstr "प्रक्रिया सुरुआत गर्न अक्षम"
+
+#: kio/global.cpp:569
+#, kde-format
+msgid ""
+"The program on your computer which provides access to the "
+"<strong>%1</strong> protocol could not be started. This is usually due to "
+"technical reasons."
+msgstr ""
+"तपाईँको कम्प्युटरको <strong>%1</strong> प्रोटोकलमा पहुँच प्रदान गर्ने "
+"कार्यक्रम सुरु गर्न सकेन । यो साधारण तथा प्राविधिक कारणहरूले गर्दा हुन्छ ।"
+
+#: kio/global.cpp:572
+msgid ""
+"The program which provides compatibility with this protocol may not have "
+"been updated with your last update of KDE. This can cause the program to be "
+"incompatible with the current version and thus not start."
+msgstr ""
+"तपाईँले केडीईको अन्त्यमा गरेको अद्यावधिकसँग यो प्रोटोकल कार्यक्रम जसले "
+"मिल्दोपन उपलब्ध गराउछ अद्यावधिक नभएको हुन सक्छ । यसका कारणले कार्यक्रमको "
+"हालको संस्करणमा नमिलेको हुन सक्छ त्यसैले सुरु नगर्नुहोस् ।"
+
+#: kio/global.cpp:580
+msgid "Internal Error"
+msgstr "आन्तरिक त्रुटि"
+
+#: kio/global.cpp:581
+#, kde-format
+msgid ""
+"The program on your computer which provides access to the "
+"<strong>%1</strong> protocol has reported an internal error."
+msgstr ""
+"तपाईँको कम्प्युटरको <strong>%1</strong> प्रोटोकलमा पहुँच प्रदान गर्ने "
+"कार्यक्रमले आन्तरिक त्रुटि प्रतिवेदन गरेको छ ।"
+
+#: kio/global.cpp:589
+msgid "Improperly Formatted URL"
+msgstr "अनियमित तरिकाले ढाँचाबद्ध गरिएको यूआरएल"
+
+#: kio/global.cpp:590
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource "
+"<strong>L</strong>ocator (URL) that you entered was not properly formatted. "
+"The format of a URL is generally as "
+"follows:<blockquote><strong>protocol://user:password@www.example.org:port/fol"
+"der/filename.extension?query=value</strong></blockquote>"
+msgstr ""
+"तपाईँले प्रविष्टि गरेको <strong>स</strong>मान <strong>सं</strong>साधन "
+"<strong>रा</strong>ख्ने (URL) उचित तरिकाले ढाँचा गरिएको थिएन । साधारणतया URL "
+"को ढाँचा तलको जस्तै छ "
+":<blockquote><strong>protocol://user:password@www.example.org:port/folder/fil"
+"ename.extension?query=value</strong></blockquote>"
+
+#: kio/global.cpp:599
+#, kde-format
+msgid "Unsupported Protocol %1"
+msgstr "असमर्थित प्रोटोकल %1"
+
+#: kio/global.cpp:600
+#, kde-format
+msgid ""
+"The protocol <strong>%1</strong> is not supported by the KDE programs "
+"currently installed on this computer."
+msgstr ""
+"यो कम्प्युटरमा हालै स्थापना गरिएको प्रोटोकल <strong>%1</strong> केडीई "
+"कार्यक्रमहरूद्वारा समर्थन गरेको छैन ।"
+
+#: kio/global.cpp:603
+msgid "The requested protocol may not be supported."
+msgstr "अनुरोध गरिएको प्रोटोकल समर्थन हुने छैन ।"
+
+#: kio/global.cpp:604
+#, kde-format
+msgid ""
+"The versions of the %1 protocol supported by this computer and the server "
+"may be incompatible."
+msgstr ""
+"यो कम्प्युटर र सर्भरद्वारा समर्थन गरेको %1 प्रोटोकल संस्करणहरू अयोग्य हुन "
+"सक्छ ।"
+
+#: kio/global.cpp:606
+msgid ""
+"You may perform a search on the Internet for a KDE program (called a "
+"kioslave or ioslave) which supports this protocol. Places to search include "
+"<a href=\"http://kde-apps.org/\">http://kde-apps.org/</a> and <a "
+"href=\"http://freshmeat.net/\">http://freshmeat.net/</a>."
+msgstr ""
+"केडीईका लागि यो प्रोटोकल समर्थन गर्ने (किओस्लेभ वा इओसस्लेभ भनिने) कार्यक्रम "
+"इन्टरनेटमा खोजी गर्नुपर्ने हुन सक्छ । खोजी समेट्ने स्थानहरू<a "
+"href=\"http://kde-apps.org/\">http://kde-apps.org/</a> and <a "
+"href=\"http://freshmeat.net/\">http://freshmeat.net/</a>"
+
+#: kio/global.cpp:615
+msgid "URL Does Not Refer to a Resource."
+msgstr "यूआरएलले संसाधानमा सन्दर्भ गर्दैन ।"
+
+#: kio/global.cpp:616
+msgid "Protocol is a Filter Protocol"
+msgstr "प्रोटोकल एउटा फिल्टर प्रोटोकल हो ।"
+
+#: kio/global.cpp:617
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource "
+"<strong>L</strong>ocator (URL) that you entered did not refer to a specific "
+"resource."
+msgstr ""
+"तपाईँले प्रविष्टि गरेको<strong>स</strong>मान <strong>सं</strong>साधन "
+"<strong>रा</strong>ख्ने (URL) निर्दिष्ट संसाधनमा सन्दर्भ गरेन ।"
+
+#: kio/global.cpp:620
+msgid ""
+"KDE is able to communicate through a protocol within a protocol; the "
+"protocol specified is only for use in such situations, however this is not "
+"one of these situations. This is a rare event, and is likely to indicate a "
+"programming error."
+msgstr ""
+"केडीई प्रोटोकलबाट प्रोटोकलसँग सञ्चार गर्न सक्षम छ; प्रोटोकल त्यस्तो "
+"परिस्थितिहरूमा प्रयोग गर्न निर्दिष्ट गरिन्छ, तापनि यो ती परिस्थितिहरू "
+"मध्येको होइन । यो दुर्लभ घटना हो, र कार्यक्रम त्रुटि जस्तो देखिन्छ ।"
+
+#: kio/global.cpp:628
+#, kde-format
+msgid "Unsupported Action: %1"
+msgstr "असमर्थित कार्य: %1"
+
+#: kio/global.cpp:629
+#, kde-format
+msgid ""
+"The requested action is not supported by the KDE program which is "
+"implementing the <strong>%1</strong> protocol."
+msgstr ""
+"अनुरोध गरिएको कार्य केडीई कार्यक्रम द्वारा समर्थन गरेको छैन जुन प्रोटोकल "
+"<strong>%1</strong> कार्यान्वयन हुदैछ ।"
+
+#: kio/global.cpp:632
+msgid ""
+"This error is very much dependent on the KDE program. The additional "
+"information should give you more information than is available to the KDE "
+"input/output architecture."
+msgstr ""
+"यो त्रुटि धेरै जसो केडीई कार्यक्रममा निर्भर छ । तपाईँलाई अहिले उपलब्ध भन्दा "
+"थप जानकारी केडीई आगत निर्गत बनावटले दिनेछ ।"
+
+#: kio/global.cpp:635
+msgid "Attempt to find another way to accomplish the same outcome."
+msgstr "उस्तै निर्गत सम्पादन गर्न अर्को बाटो फेला पार्ने प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:640
+msgid "File Expected"
+msgstr "अपेक्षित फाइल"
+
+#: kio/global.cpp:641
+#, kde-format
+msgid ""
+"The request expected a file, however the folder <strong>%1</strong> was "
+"found instead."
+msgstr ""
+"अपेक्षित अनुरोध फाइल, भएता पनि सट्टामा<strong>%1</strong> फेला परेको थियो ।"
+
+#: kio/global.cpp:643
+msgid "This may be an error on the server side."
+msgstr "यो सर्भर किनारामा त्रुटि हुन सक्छ ।"
+
+#: kio/global.cpp:648
+msgid "Folder Expected"
+msgstr "अपेक्षित फोल्डर"
+
+#: kio/global.cpp:649
+#, kde-format
+msgid ""
+"The request expected a folder, however the file <strong>%1</strong> was "
+"found instead."
+msgstr ""
+"अनुरोधले फोल्डर अपेक्षा गर्यो, जे भए पनि सट्टामा फाइल <strong>%1</strong> "
+"फेला परको थियो ।"
+
+#: kio/global.cpp:656
+msgid "File or Folder Does Not Exist"
+msgstr "फाइल वा फोल्डर अवस्थित छैन"
+
+#: kio/global.cpp:657
+#, kde-format
+msgid "The specified file or folder <strong>%1</strong> does not exist."
+msgstr "निर्दिष्ट गरिएको फाइल वा फोल्डर <strong>%1</strong> अवस्थित छैन ।"
+
+#: kio/global.cpp:664 kio/copyjob.cpp:1248 kio/copyjob.cpp:1801
+#: kio/job.cpp:2049 kio/paste.cpp:64
+msgid "File Already Exists"
+msgstr "फाइल पहिल्यै अवस्थित छ"
+
+#: kio/global.cpp:665
+msgid ""
+"The requested file could not be created because a file with the same name "
+"already exists."
+msgstr ""
+"अनुरोध गरिइको फाइल सिर्जना गर्न सकिएन किनकि उही नाम गरिएको फाइल पहिले नै "
+"अवस्थित छ ।"
+
+#: kio/global.cpp:667
+msgid "Try moving the current file out of the way first, and then try again."
+msgstr ""
+"पहिला हालको फाइल बाटो बाहिर सार्ने प्रयास गर्नुहोस्, र त्यसपछि पुन: प्रयास "
+"गर्नुहोस् ।"
+
+#: kio/global.cpp:669
+msgid "Delete the current file and try again."
+msgstr "हालको फाइल मेट्नुहोस् र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:670
+msgid "Choose an alternate filename for the new file."
+msgstr "नयाँ फाइलका लागि एउटा वैकल्पिक फाइलनाम रोज्नुहोस् ।"
+
+#: kio/global.cpp:674 kio/copyjob.cpp:954
+msgid "Folder Already Exists"
+msgstr "फोल्डर पहिल्यै अवस्थित छ"
+
+#: kio/global.cpp:675
+msgid ""
+"The requested folder could not be created because a folder with the same "
+"name already exists."
+msgstr ""
+"अनुरोध गरिइको फोल्डर सिर्जना गर्न सकिएन किनकि उही नाम गरिएको फोल्डर पहिले नै "
+"अवस्थित छ ।"
+
+#: kio/global.cpp:677
+msgid ""
+"Try moving the current folder out of the way first, and then try again."
+msgstr ""
+"पहिला हालको फोल्डर बाटो बाहिर सार्ने प्रयास गर्नुहोस्, र त्यसपछि पुन: प्रयास "
+"गर्नुहोस् ।"
+
+#: kio/global.cpp:679
+msgid "Delete the current folder and try again."
+msgstr "हालको फोल्डर मेट्नुहोस् र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:680
+msgid "Choose an alternate name for the new folder."
+msgstr "नयाँ फोल्डरका लागि एउटा विकल्प नाम रोज्नुहोस् ।"
+
+#: kio/global.cpp:684
+msgid "Unknown Host"
+msgstr "अज्ञात होस्ट"
+
+#: kio/global.cpp:685
+#, kde-format
+msgid ""
+"An unknown host error indicates that the server with the requested name, "
+"<strong>%1</strong>, could not be located on the Internet."
+msgstr ""
+"एउटा अज्ञात होस्ट त्रुटिले अनुरोध गरिएको नाम, <strong>%1</strong>, सँग "
+"इन्टरनेटमा राख्न सक्दैन भन्ने इङ्गित गर्दछ ।"
+
+#: kio/global.cpp:688
+#, kde-format
+msgid ""
+"The name that you typed, %1, may not exist: it may be incorrectly typed."
+msgstr ""
+"तपाईँले टाइप गरेको नाम, %1, अवस्थित नहुन सक्छ: यो गलत तरिकाले टाइप भएको हुन "
+"सक्छ ।"
+
+#: kio/global.cpp:695
+msgid "Access Denied"
+msgstr "पहुँच अस्वीकृत भयो"
+
+#: kio/global.cpp:696
+#, kde-format
+msgid "Access was denied to the specified resource, <strong>%1</strong>."
+msgstr ""
+"निर्दिष्ट गरिएको संसाधन <strong>%1</strong> मा पहुँच अस्वीकृत गरियो ।"
+
+#: kio/global.cpp:698 kio/global.cpp:914
+msgid ""
+"You may have supplied incorrect authentication details or none at all."
+msgstr ""
+"तपाईँले गलत प्रमाणीकरण विवरणहरू वितरण गर्नुभएको छ वा सबै वितरण गर्नुभएको छैन "
+"।"
+
+#: kio/global.cpp:700 kio/global.cpp:916
+msgid ""
+"Your account may not have permission to access the specified resource."
+msgstr ""
+"निर्दिष्ट गरिएको संसाधनमा पहुँच प्राप्त गर्न तपाईँलाई अनुमति नहुन सक्छ ।"
+
+#: kio/global.cpp:702 kio/global.cpp:918 kio/global.cpp:930
+msgid ""
+"Retry the request and ensure your authentication details are entered "
+"correctly."
+msgstr ""
+"अनुरोध पुन: प्रयास गर्नुहोस् र तपाईँको प्रमाणीकरण विवरणहरू ठीक रूपमा "
+"प्रविष्टि भएको निश्चित गर्नुहोस् ।"
+
+#: kio/global.cpp:708
+msgid "Write Access Denied"
+msgstr "लेख्ने पहुँच अस्वीकृत भयो"
+
+#: kio/global.cpp:709
+#, kde-format
+msgid ""
+"This means that an attempt to write to the file <strong>%1</strong> was "
+"rejected."
+msgstr ""
+"यसको अर्थ फाइलमा लेख्ने प्रयास <strong>%1</strong> बहिस्कार गरिएको थियो ।"
+
+#: kio/global.cpp:716
+msgid "Unable to Enter Folder"
+msgstr "फोल्डर प्रविष्ट गर्न अक्षम"
+
+#: kio/global.cpp:717
+#, kde-format
+msgid ""
+"This means that an attempt to enter (in other words, to open) the requested "
+"folder <strong>%1</strong> was rejected."
+msgstr ""
+"यसको अर्थ अनुरोध गरिएको फोल्डरमा प्रविष्टि (अन्य अर्थमा, खोल्न) फोल्डर "
+"<strong>%1</strong> अस्वीकार गरिएको थियो ।"
+
+#: kio/global.cpp:725
+msgid "Folder Listing Unavailable"
+msgstr "फोल्डर सूची उपलब्ध छैन"
+
+#: kio/global.cpp:726
+#, kde-format
+msgid "Protocol %1 is not a Filesystem"
+msgstr "%1 प्रोटोकल फाइल प्रणाली होइन"
+
+#: kio/global.cpp:727
+msgid ""
+"This means that a request was made which requires determining the contents "
+"of the folder, and the KDE program supporting this protocol is unable to do "
+"so."
+msgstr ""
+"यसको अर्थ फोल्डरको सामाग्रीहरू निर्धारण गर्दा आवश्यक हुने अनुरोध गरिएको "
+"थियो, र यो प्रोटोकल समर्थन गर्ने KDE कार्यक्रम त्यो कार्य गर्न अक्षम छ ।"
+
+#: kio/global.cpp:735
+msgid "Cyclic Link Detected"
+msgstr "चक्रिय लिङ्क पत्ता लाग्यो"
+
+#: kio/global.cpp:736
+msgid ""
+"UNIX environments are commonly able to link a file or folder to a separate "
+"name and/or location. KDE detected a link or series of links that results in "
+"an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to "
+"itself."
+msgstr ""
+"युनिक्स वातावरण सामान्यत विभजित नाम र/वा स्थानमा फाइल वा फोल्डर लिङ्क गर्न "
+"सक्षम छन् । KDE ले अनन्त लुपमा लिङ्क वा लिङ्कहरूको श्रृङ्खला पत्ता लगाउँछ - "
+"जस्तै: फाइल (सहायद बाटोमा) आफै लिङ्क भएको थियो ।"
+
+#: kio/global.cpp:740 kio/global.cpp:762
+msgid ""
+"Delete one part of the loop in order that it does not cause an infinite "
+"loop, and try again."
+msgstr ""
+"यो अनन्त लुप नभएको कारणले लुपको एक भाग मेट्नुहोस्, र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:749
+msgid "Request Aborted By User"
+msgstr "प्रयोगकर्ताद्वारा  अनुरोध परित्याग गरियो"
+
+#: kio/global.cpp:750 kio/global.cpp:1051
+msgid "The request was not completed because it was aborted."
+msgstr "अनुरोध समाप्त भएको थिएन किनकि यो परित्याग गरिएको थियो ।"
+
+#: kio/global.cpp:752 kio/global.cpp:946 kio/global.cpp:1053
+msgid "Retry the request."
+msgstr "अनुरोध पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:756
+msgid "Cyclic Link Detected During Copy"
+msgstr "प्रतिलिपि गर्दा चक्रिय लिङ्क पत्ता लाग्यो"
+
+#: kio/global.cpp:757
+msgid ""
+"UNIX environments are commonly able to link a file or folder to a separate "
+"name and/or location. During the requested copy operation, KDE detected a "
+"link or series of links that results in an infinite loop - i.e. the file was "
+"(perhaps in a roundabout way) linked to itself."
+msgstr ""
+"युनिक्स वातावरण सामान्यत विभाजित नाम र/वा स्थानमा फाइल वा फोल्डर लिङ्क गर्न "
+"सक्षम छन् । अनुरोध गरिएको प्रतिलिपि सञ्चालन गर्दा, KDE ले लिङ्क वा "
+"लिङ्कहरूको श्रृङ्खला परिणाम अनन्त लुपमा पत्ता लगायो - जस्तै : फाइल आफैमा "
+"(सहायद बाटोमा) लिङ्क भएको थियो ।"
+
+#: kio/global.cpp:767
+msgid "Could Not Create Network Connection"
+msgstr "सञ्जाल जडान सिर्जना गर्न सकेन"
+
+#: kio/global.cpp:768
+msgid "Could Not Create Socket"
+msgstr "सकेट सिर्जना गर्न सकेन"
+
+#: kio/global.cpp:769
+msgid ""
+"This is a fairly technical error in which a required device for network "
+"communications (a socket) could not be created."
+msgstr ""
+"यो पर्याप्त प्राविधिक त्रुटि हो जसमा सञ्जाल सञ्चारका लागि आवश्यक यन्त्र "
+"(सकेट) सिर्जना हुन सकेन ।"
+
+#: kio/global.cpp:771 kio/global.cpp:884 kio/global.cpp:895 kio/global.cpp:904
+msgid ""
+"The network connection may be incorrectly configured, or the network "
+"interface may not be enabled."
+msgstr ""
+"सञ्जाल जडान गलत तरिकाले कन्फिगर भएको हुन सक्छ वा सञ्जाल इन्टरफेस सक्षम नहुन "
+"सक्छ ।"
+
+#: kio/global.cpp:777
+msgid "Connection to Server Refused"
+msgstr "सर्भरमा जडान अस्वीकृत भयो"
+
+#: kio/global.cpp:778
+#, kde-format
+msgid ""
+"The server <strong>%1</strong> refused to allow this computer to make a "
+"connection."
+msgstr ""
+"सर्भरल <strong>%1</strong> ले यो कम्प्युटर जडान गर्ने अनुमति दिन अस्वीकार "
+"गर्यो ।"
+
+#: kio/global.cpp:780
+msgid ""
+"The server, while currently connected to the Internet, may not be configured "
+"to allow requests."
+msgstr ""
+"सर्भरले इन्टरनेटमा जडान गर्दा, अनुरोध कन्फिगर गर्न अनुमति नदिन सक्छ ।"
+
+#: kio/global.cpp:782
+#, kde-format
+msgid ""
+"The server, while currently connected to the Internet, may not be running "
+"the requested service (%1)."
+msgstr ""
+"सर्भरले इन्टरनेटमा जडान गर्दा, अनुरोध गरिएको सेवा (%1) नचलेको हुन सक्छ ।"
+
+#: kio/global.cpp:784
+msgid ""
+"A network firewall (a device which restricts Internet requests), either "
+"protecting your network or the network of the server, may have intervened, "
+"preventing this request."
+msgstr ""
+"एउटा फायरवाल सञ्जाल (यन्त्र जसले इन्टरनेट अनुरोधहरू रोक्दछ), या तपाईँको "
+"सञ्जालको सुरक्षा गर्दा सञ्जाल वा सर्भरको सञ्जाल, यो अनुरोध रोक्ने क्रममा "
+"हस्तक्षेप गरेको हुन सक्छ ।"
+
+#: kio/global.cpp:791
+msgid "Connection to Server Closed Unexpectedly"
+msgstr "अनपेक्षित रूपमा सर्भरमा जडान बन्द भयो"
+
+#: kio/global.cpp:792
+#, kde-format
+msgid ""
+"Although a connection was established to <strong>%1</strong>, the connection "
+"was closed at an unexpected point in the communication."
+msgstr ""
+"<strong>%1</strong> मा जडान स्थापित गरिएता पनि, सञ्चारको अनपेक्षित बिन्दुमा "
+"सम्पर्क बन्द भयो ।"
+
+#: kio/global.cpp:795
+msgid ""
+"A protocol error may have occurred, causing the server to close the "
+"connection as a response to the error."
+msgstr ""
+"प्रोटोकल त्रुटि आएको हुन सक्छ, त्यसै कारणले सर्भरले जडान बन्द गर्दा त्रुटिको "
+"रूपमा जवाफ दिन्छ ।"
+
+#: kio/global.cpp:801
+msgid "URL Resource Invalid"
+msgstr "URL संसाधन अवैद्य छ"
+
+#: kio/global.cpp:802
+#, kde-format
+msgid "Protocol %1 is not a Filter Protocol"
+msgstr "प्रोटोकल %1 फिल्टर प्रोटोकल होइन"
+
+#: kio/global.cpp:803
+#, kde-format
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource "
+"<strong>L</strong>ocator (URL) that you entered did not refer to a valid "
+"mechanism of accessing the specific resource, <strong>%1%2</strong>."
+msgstr ""
+"<strong>स</strong>मान<strong>सं</strong>साधन<strong>रा</strong>ख्ने (URL) "
+"तपाईँले प्रविष्ट गर्नु भएको निर्दिष्ट संसाधनले पहुँचको वैद्य सम्यन्त्र "
+"सम्बोधन गरेन <strong>%1%2</strong>"
+
+#: kio/global.cpp:808
+msgid ""
+"KDE is able to communicate through a protocol within a protocol. This "
+"request specified a protocol be used as such, however this protocol is not "
+"capable of such an action. This is a rare event, and is likely to indicate a "
+"programming error."
+msgstr ""
+"KDE प्रोटोकलबाट प्रोटोकलसँग सञ्चार गर्न सक्षम छ । यो अनुरोधले प्रोटोकल त्यस "
+"अनुरुप प्रयोग हुने निर्दिष्ट गर्छ, ता पनि यो प्रोटोकल त्यस्तो कार्य गर्न "
+"सक्षम छैन । यो दुर्लभ घटना हो, र कार्यक्रमिक त्रुटि जस्तो देखिन्छ ।"
+
+#: kio/global.cpp:816
+msgid "Unable to Initialize Input/Output Device"
+msgstr "आगत/निर्गत यन्त्र थालनी गर्न अक्षम"
+
+#: kio/global.cpp:817
+msgid "Could Not Mount Device"
+msgstr "यन्त्र माउन्ट गर्न सकेन"
+
+#: kio/global.cpp:818
+#, kde-format
+msgid ""
+"The requested device could not be initialized (\"mounted\"). The reported "
+"error was: <strong>%1</strong>"
+msgstr ""
+"अनुरोध गरिएको यन्त्र थालनी हुन सकेन (\"माउन्ट गरिएको\") । प्रतिवेदित त्रुटि "
+"थियो: <strong>%1</strong>"
+
+#: kio/global.cpp:821
+msgid ""
+"The device may not be ready, for example there may be no media in a "
+"removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
+"peripheral/portable device, the device may not be correctly connected."
+msgstr ""
+"यन्त्र तयार नहुन सक्छ, उदाहरणका लागि हटाउन सकिने मिडिया यन्त्र त्यहाँ नहुन "
+"सक्छ, (जस्तै: CD ड्राइभमा CD-ROM छैन), वा परिधिय/स्थानान्तरण योग्य यन्त्रको "
+"अवस्थामा, यन्त्र ठीक तरिकाले जडान गरिएको नहुन सक्छ ।"
+
+#: kio/global.cpp:825
+msgid ""
+"You may not have permissions to initialize (\"mount\") the device. On UNIX "
+"systems, often system administrator privileges are required to initialize a "
+"device."
+msgstr ""
+"तपाईँलाई यन्त्र सुरुआत (\"माउन्ट\") गर्न अनुमति नहुन सक्छ । युनिक्स "
+"प्रणालीमा, कहिलेकाँही यन्त्र थालनी गर्न प्रणाली प्रशासक विशेषाधिकार आवश्यक "
+"हुन्छ ।"
+
+#: kio/global.cpp:829
+msgid ""
+"Check that the device is ready; removable drives must contain media, and "
+"portable devices must be connected and powered on.; and try again."
+msgstr ""
+"यन्त्र तयार भएको जाँच गर्नुहोस्; हटाउन योग्य ड्राइभहरूमा मिडिया समावेश "
+"हुनुपर्छ, र स्थानान्तरण योग्य यन्त्रहरू जडान गरिएको हुनुपर्छ र पावर खोल्नु "
+"पर्छ; र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:835
+msgid "Unable to Uninitialize Input/Output Device"
+msgstr "आगत/निर्गत यन्त्र थालनी बन्द गर्न अक्षम"
+
+#: kio/global.cpp:836
+msgid "Could Not Unmount Device"
+msgstr "यन्त्र अनमाउन्ट गर्न सकेन"
+
+#: kio/global.cpp:837
+#, kde-format
+msgid ""
+"The requested device could not be uninitialized (\"unmounted\"). The "
+"reported error was: <strong>%1</strong>"
+msgstr ""
+"अनुरोध गरिएको यन्त्र थालनी बन्द गर्न सकेन (\"अनमाउन्ट\"). प्रतिवेदित त्रुटि: "
+"<strong>%1</strong> थियो"
+
+#: kio/global.cpp:840
+msgid ""
+"The device may be busy, that is, still in use by another application or "
+"user. Even such things as having an open browser window on a location on "
+"this device may cause the device to remain in use."
+msgstr ""
+"यन्त्र व्यस्त हुन सक्छ, त्यो अन्य अनुप्रयोग वा प्रयोगकर्ताद्वरा अहिले सम्म "
+"प्रयोगमा छ । तापनि त्यस्ता वस्तुहरूसँग खुला ब्राउजर भएको यन्त्रको सञ्झ्याल "
+"यन्त्र स्थान प्रयोग हुनमा यो यन्त्र कारण हुन सक्छ ।"
+
+#: kio/global.cpp:844
+msgid ""
+"You may not have permissions to uninitialize (\"unmount\") the device. On "
+"UNIX systems, system administrator privileges are often required to "
+"uninitialize a device."
+msgstr ""
+"तपाईँलाई यन्त्र थालनी बन्द गर्न अनुमति नहुन सक्छ (\"अनमाउन्ट\") । कहिलेकाँही "
+"युनिक्स प्रणालीमा यन्त्र थालनी बन्द गर्न प्रणाली प्रशाषक बिशेसाधिकार आवश्यक "
+"हुन्छ ।"
+
+#: kio/global.cpp:848
+msgid "Check that no applications are accessing the device, and try again."
+msgstr ""
+"अनुप्रयोगहरूको यन्त्रमा पहुँच जाँच गर्नुहोस्, र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:853
+msgid "Cannot Read From Resource"
+msgstr "संसाधनबाट पढ्न सकिँदैन"
+
+#: kio/global.cpp:854
+#, kde-format
+msgid ""
+"This means that although the resource, <strong>%1</strong>, was able to be "
+"opened, an error occurred while reading the contents of the resource."
+msgstr ""
+"यसको अर्थ संसाधन <strong>%1</strong> भएता पनि, खोल्न सक्षम हुने थियो, "
+"संसाधनको सामाग्रीहरू पढ्दा एउटा त्रुटि आएको थियो ।"
+
+#: kio/global.cpp:857
+msgid "You may not have permissions to read from the resource."
+msgstr "तपाईँलाई संसाधनबाट पढ्न अनुमति नहुन सक्छ ।"
+
+#: kio/global.cpp:866
+msgid "Cannot Write to Resource"
+msgstr "संसाधनमा लेख्न सकिँदैन"
+
+#: kio/global.cpp:867
+#, kde-format
+msgid ""
+"This means that although the resource, <strong>%1</strong>, was able to be "
+"opened, an error occurred while writing to the resource."
+msgstr ""
+"यसको अर्थ संसाधन <strong>%1</strong>, खुल्न सक्षम भएता पनि, संसाधनमा लेख्दा "
+"एउटा त्रुटि आएको थियो ।"
+
+#: kio/global.cpp:870
+msgid "You may not have permissions to write to the resource."
+msgstr "तपाईँलाई संसाधनमा लेख्न अनुमति नहुन सक्छ ।"
+
+#: kio/global.cpp:879 kio/global.cpp:890
+msgid "Could Not Listen for Network Connections"
+msgstr "सञ्जाल जडानहरूका लागि ध्यान दिन सकेन"
+
+#: kio/global.cpp:880
+msgid "Could Not Bind"
+msgstr "बाइन्ड गर्न सकेन"
+
+#: kio/global.cpp:881 kio/global.cpp:892
+msgid ""
+"This is a fairly technical error in which a required device for network "
+"communications (a socket) could not be established to listen for incoming "
+"network connections."
+msgstr ""
+"यो पर्याप्त प्राविधिक त्रुटि हो जसमा सञ्चार सञ्जालका लागि आवश्यक यन्त्र "
+"(सकेट) आगत सञ्जाल जडानहरूका लागि ध्यान दिन स्थापित हुन सकेन ।"
+
+#: kio/global.cpp:891
+msgid "Could Not Listen"
+msgstr "सुन्न सकेन"
+
+#: kio/global.cpp:901
+msgid "Could Not Accept Network Connection"
+msgstr "सञ्जाल जडान स्वीकार गर्न सकेन"
+
+#: kio/global.cpp:902
+msgid ""
+"This is a fairly technical error in which an error occurred while attempting "
+"to accept an incoming network connection."
+msgstr ""
+"यो निष्पक्ष रूपमा प्राविधिक त्रुटि हो जसमा एउटा आगमन सञ्जालल जडान स्वीकार "
+"गर्ने प्रयास गर्दा एउटा त्रुटि देखापर्यो ।"
+
+#: kio/global.cpp:906
+msgid "You may not have permissions to accept the connection."
+msgstr "तपाईँलाई जडान स्वीकार गर्ने अनुमति नहुन सक्छ ।"
+
+#: kio/global.cpp:911
+#, kde-format
+msgid "Could Not Login: %1"
+msgstr "लग इन हुन सकेन: %1"
+
+#: kio/global.cpp:912
+msgid ""
+"An attempt to login to perform the requested operation was unsuccessful."
+msgstr "अनुरोध गरियको सञ्चालन सम्पादन गर्न लगइन गर्ने प्रयास असफल भयो ।"
+
+#: kio/global.cpp:923
+msgid "Could Not Determine Resource Status"
+msgstr "संसाधन वस्तुस्थिति निर्धारण गर्न सकेन"
+
+#: kio/global.cpp:924
+msgid "Could Not Stat Resource"
+msgstr "संसाधन तोक्न सकेन"
+
+#: kio/global.cpp:925
+#, kde-format
+msgid ""
+"An attempt to determine information about the status of the resource "
+"<strong>%1</strong>, such as the resource name, type, size, etc., was "
+"unsuccessful."
+msgstr ""
+"संसाधनको स्थितिको बारेम सूचना निर्धारण गर्ने प्रयास <strong>%1</strong>, "
+"जस्तै: संसाधन नाम, प्रकार, साइज, आदि., असफल भए ।"
+
+#: kio/global.cpp:928
+msgid "The specified resource may not have existed or may not be accessible."
+msgstr "निर्दिष्ट गरिएको संसाधन अवस्थित नहुन सक्छ वा पहुँच योग्य नहुन सक्छ ।"
+
+#: kio/global.cpp:936
+msgid "Could Not Cancel Listing"
+msgstr "सूची रद्द गर्न सकेन"
+
+#: kio/global.cpp:937
+msgid "FIXME: Document this"
+msgstr "FIXME: यसलाई कागजात गर्नुहोस्"
+
+#: kio/global.cpp:941
+msgid "Could Not Create Folder"
+msgstr "फोल्डर सिर्जना गर्न सकेन"
+
+#: kio/global.cpp:942
+msgid "An attempt to create the requested folder failed."
+msgstr "अनुरोध गरिएको फोल्डर सिर्जना गर्ने प्रयास असफल भयो ।"
+
+#: kio/global.cpp:943
+msgid "The location where the folder was to be created may not exist."
+msgstr "फोल्डर सिर्जना हुने स्थानमा अवस्थित नहुन सक्छ ।"
+
+#: kio/global.cpp:950
+msgid "Could Not Remove Folder"
+msgstr "फोल्डर हटाउन सकेन"
+
+#: kio/global.cpp:951
+#, kde-format
+msgid ""
+"An attempt to remove the specified folder, <strong>%1</strong>, failed."
+msgstr ""
+"निर्दिष्ट गरिएको फोल्डर हटाउन गरिएको प्रयास , <strong>%1</strong>, असफल भयो ।"
+
+#: kio/global.cpp:953
+msgid "The specified folder may not exist."
+msgstr "निर्दिष्ट गरिएको फोल्डर अवस्थित नहुन सक्छ ।"
+
+#: kio/global.cpp:954
+msgid "The specified folder may not be empty."
+msgstr "निर्दिष्ट गरिएको फोल्डर खाली नहुन सक्छ ।"
+
+#: kio/global.cpp:957
+msgid "Ensure that the folder exists and is empty, and try again."
+msgstr ""
+"फोल्डर अवस्थित र खाली भएको निश्चित गर्नुहोस्, र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:962
+msgid "Could Not Resume File Transfer"
+msgstr "फाइल स्थानान्तरण पुन: निरन्तरता दिन सकेन"
+
+#: kio/global.cpp:963
+#, kde-format
+msgid ""
+"The specified request asked that the transfer of file <strong>%1</strong> be "
+"resumed at a certain point of the transfer. This was not possible."
+msgstr ""
+"निर्दिष्ट गरिएको फाइलको स्थानान्तरण <strong>%1</strong> निश्चित बिन्दुमा "
+"पुन: निरन्तरताका लागि स्थानान्तरण अनुरोधले प्रश्न गर्छ । यो सम्भव थिएन ।"
+
+#: kio/global.cpp:966
+msgid "The protocol, or the server, may not support file resuming."
+msgstr "फाइल पुन: स्थानान्तरण गर्दा प्रोटोकल, वा सर्भरले समर्थन नगर्न सक्छ ।"
+
+#: kio/global.cpp:968
+msgid "Retry the request without attempting to resume transfer."
+msgstr ""
+"कुनै पनि अनुरोध प्रयास बिना पुन: निरन्तरता हस्तान्तरण गर्न पुन: प्रयास "
+"गर्नुहोस् ।"
+
+#: kio/global.cpp:973
+msgid "Could Not Rename Resource"
+msgstr "संसाधन नाम फेर्न सकेन"
+
+#: kio/global.cpp:974
+#, kde-format
+msgid ""
+"An attempt to rename the specified resource <strong>%1</strong> failed."
+msgstr ""
+"निर्दिष्ट गरिएको संसाधन <strong>%1</strong> को नाम फेर्न गरिएको प्रयास असफल "
+"भयो ।"
+
+#: kio/global.cpp:982
+msgid "Could Not Alter Permissions of Resource"
+msgstr "संसाधनको अनुमतिहरू परिवर्तन गर्न सकेन"
+
+#: kio/global.cpp:983
+#, kde-format
+msgid ""
+"An attempt to alter the permissions on the specified resource "
+"<strong>%1</strong> failed."
+msgstr ""
+"निर्दिष्ट गरिएको संसाधन <strong>%1</strong> को अनुमतिहरू परिवर्तन गर्न "
+"गरिएको प्रयास असफल भयो ।"
+
+#: kio/global.cpp:990
+msgid "Could Not Change Ownership of Resource"
+msgstr ""
+
+#: kio/global.cpp:991
+#, kde-format
+msgid ""
+"An attempt to change the ownership of the specified resource "
+"<strong>%1</strong> failed."
+msgstr ""
+
+#: kio/global.cpp:998
+msgid "Could Not Delete Resource"
+msgstr "संसाधन मेट्न सकेन"
+
+#: kio/global.cpp:999
+#, kde-format
+msgid ""
+"An attempt to delete the specified resource <strong>%1</strong> failed."
+msgstr ""
+"निर्दिष्ट गरिएको संसाधन <strong>%1</strong> मेट्न गरिएको प्रयास असफल भयो ।"
+
+#: kio/global.cpp:1006
+msgid "Unexpected Program Termination"
+msgstr "अनपेक्षित कार्यक्रम समाप्त भयो"
+
+#: kio/global.cpp:1007
+#, kde-format
+msgid ""
+"The program on your computer which provides access to the "
+"<strong>%1</strong> protocol has unexpectedly terminated."
+msgstr ""
+"तपाईँको कम्प्युटरको <strong>%1</strong> प्रोटोकलमा पहुँच उपलब्ध गराउने "
+"कार्यक्रम अनपेक्षित रुपले समाप्त भयो ।"
+
+#: kio/global.cpp:1015
+msgid "Out of Memory"
+msgstr "स्मृति बाहिर"
+
+#: kio/global.cpp:1016
+#, kde-format
+msgid ""
+"The program on your computer which provides access to the "
+"<strong>%1</strong> protocol could not obtain the memory required to "
+"continue."
+msgstr ""
+"तपाईँको कम्प्युटरको <strong>%1</strong> प्रोटोकलमा पहुँच उपलब्ध गराउने "
+"कार्यक्रम जारी राख्ने आवश्यक स्मृति प्राप्त गर्न सकेन ।"
+
+#: kio/global.cpp:1024
+msgid "Unknown Proxy Host"
+msgstr "अज्ञात प्रोक्सी होस्ट"
+
+#: kio/global.cpp:1025
+#, kde-format
+msgid ""
+"While retrieving information about the specified proxy host, "
+"<strong>%1</strong>, an Unknown Host error was encountered. An unknown host "
+"error indicates that the requested name could not be located on the Internet."
+msgstr ""
+"निर्दिष्ट गरिएको प्रोक्सी होस्टको बारेमा सूचना पुन: प्राप्त गर्ने क्रममा, "
+"<strong>%1</strong>, एक अज्ञात होस्ट त्रुटि अचानक देखा परेको थियो । अज्ञात "
+"होस्ट त्रुटिले इन्टरनेटमा अनुरोध गरिएको नाम तोक्न नसक्ने सङ्केत गर्छ ।"
+
+#: kio/global.cpp:1029
+msgid ""
+"There may have been a problem with your network configuration, specifically "
+"your proxy's hostname. If you have been accessing the Internet with no "
+"problems recently, this is unlikely."
+msgstr ""
+"तपाईँको सञ्जाल कन्फिगरेसन विशेष गरी प्रोक्सी होस्ट नाममा समस्या आएको हुन "
+"सक्छ । यदि तपाईँसँग इन्टरनेट पहुँच भएमा हालै कुनै समस्या छैन, यो असम्भाव्य छ "
+"।"
+
+#: kio/global.cpp:1033
+msgid "Double-check your proxy settings and try again."
+msgstr "प्रोक्सी सेटिङहरू डबल-जाँच गर्नुहोस् र पुन: प्रयास गर्नुहोस् ।"
+
+#: kio/global.cpp:1038
+#, kde-format
+msgid "Authentication Failed: Method %1 Not Supported"
+msgstr "प्रमाणीकरण असफल भयो: विधि %1 समर्थित छैन"
+
+#: kio/global.cpp:1040
+#, kde-format
+msgid ""
+"Although you may have supplied the correct authentication details, the "
+"authentication failed because the method that the server is using is not "
+"supported by the KDE program implementing the protocol %1."
+msgstr ""
+"तपाईँलाई ठीक प्रमाणीकरण विवरणहरू वितरण गरिएको भएता पनि, प्रमाणीकरण असफल भयो "
+"किनभने सर्भरले प्रयोग गरिरहेको विधि प्रोटोकल %1 कार्यान्वयन गर्दा केडीई "
+"कार्यक्रमद्वारा समर्थन गरिएको छैन ।"
+
+#: kio/global.cpp:1044
+msgid ""
+"Please file a bug at <a "
+"href=\"http://bugs.kde.org/\">http://bugs.kde.org/</a> to inform the KDE "
+"team of the unsupported authentication method."
+msgstr ""
+"कृपया समर्थन नगरिएको प्रमाणीकरण विधि KDE टोलीलाई जानकारी गराउन <a "
+"href=\"http://bugs.kde.org/\">http://bugs.kde.org/</a> मा फाइल बग गर्नुहोस् ।"
+
+#: kio/global.cpp:1050
+msgid "Request Aborted"
+msgstr "अनुरोध परित्याग गरियो"
+
+#: kio/global.cpp:1057
+msgid "Internal Error in Server"
+msgstr "सर्भरमा आन्तरिक त्रुटि"
+
+#: kio/global.cpp:1058
+#, kde-format
+msgid ""
+"The program on the server which provides access to the <strong>%1</strong> "
+"protocol has reported an internal error: %2."
+msgstr ""
+"<strong>%1</strong> प्रोटोकलमा पहुँच उपलब्ध गराउने सर्भरको कार्यक्रमले "
+"आन्तरिक त्रुटि प्रतिबेदन गरेको छ: %2."
+
+#: kio/global.cpp:1061
+msgid ""
+"This is most likely to be caused by a bug in the server program. Please "
+"consider submitting a full bug report as detailed below."
+msgstr ""
+"सर्भर कार्यक्रममा बगका कारणले यो अत्यन्त सान्दर्भिक हुन्छ । कृपया तल वर्णन "
+"गरिए अनुरुप पूरा बग प्रतिवेदन पेश गर्दा बिचार पुर्याउनुहोस ।"
+
+#: kio/global.cpp:1064
+msgid ""
+"Contact the administrator of the server to advise them of the problem."
+msgstr ""
+"तिनीहरूलाई समस्याको सुझाव गर्न सर्भरको प्रशासकलाई सम्पर्क गर्नुहोस् ।"
+
+#: kio/global.cpp:1066
+msgid ""
+"If you know who the authors of the server software are, submit the bug "
+"report directly to them."
+msgstr ""
+"यदि तपाईँलाई सर्भर सफ्टवेयरका लेखकहरू को हुन् थाहा भएमा, तिनीहरूलाई बग "
+"प्रतिवेदन प्रत्यक्ष पेश गर्नुहोस् ।"
+
+#: kio/global.cpp:1071
+msgid "Timeout Error"
+msgstr "समयसमाप्ति त्रुटि"
+
+#: kio/global.cpp:1072
+#, kde-format
+msgid ""
+"Although contact was made with the server, a response was not received "
+"within the amount of time allocated for the request as "
+"follows:<ul><li>Timeout for establishing a connection: %1 "
+"seconds</li><li>Timeout for receiving a response: %2 seconds</li><li>Timeout "
+"for accessing proxy servers: %3 seconds</li></ul>Please note that you can "
+"alter these timeout settings in the KDE System Settings, by selecting "
+"Network Settings -> Connection Preferences."
+msgstr ""
+
+#: kio/global.cpp:1083
+msgid "The server was too busy responding to other requests to respond."
+msgstr "अन्य अनुरोधहरू जवाफ दिने क्रममा जवाफ दिन सर्भर ज्यादै व्यस्त थियो ।"
+
+#: kio/global.cpp:1089 kio/slavebase.cpp:1289
+msgid "Unknown Error"
+msgstr "अज्ञात त्रुटि"
+
+#: kio/global.cpp:1090
+#, kde-format
+msgid ""
+"The program on your computer which provides access to the "
+"<strong>%1</strong> protocol has reported an unknown error: %2."
+msgstr ""
+"तपाईँको कम्प्युटरको <strong>%1</strong> प्रोटोकलमा पहुँच उपलब्ध गराउने "
+"कार्यक्रमले अज्ञात त्रुटि: %2 प्रतिवेदन गरेको छ ।"
+
+#: kio/global.cpp:1098
+msgid "Unknown Interruption"
+msgstr "अज्ञात अवरोध"
+
+#: kio/global.cpp:1099
+#, kde-format
+msgid ""
+"The program on your computer which provides access to the "
+"<strong>%1</strong> protocol has reported an interruption of an unknown "
+"type: %2."
+msgstr ""
+"तपाईँको कम्प्युटरको <strong>%1</strong> प्रोटोकलमा पहुँच उपलब्ध गराउने "
+"कार्यक्रमले अज्ञात अवरोध प्रकारको: %2 प्रतिवेदन गरेको छ ।"
+
+#: kio/global.cpp:1107
+msgid "Could Not Delete Original File"
+msgstr "मौलिक फाइल मेट्न सकेन"
+
+#: kio/global.cpp:1108
+#, kde-format
+msgid ""
+"The requested operation required the deleting of the original file, most "
+"likely at the end of a file move operation. The original file "
+"<strong>%1</strong> could not be deleted."
+msgstr ""
+"अनुरोध गरिएको सञ्चलनका लागि मौलिक फाइल मेटिएको हुनुपर्छ, जुन चल्ने सञ्चालन "
+"फाइलको अन्त्यमा सान्दर्भिक छ । मौलिक फाइल <strong>%1</strong> मेट्न सकेन ।"
+
+#: kio/global.cpp:1117
+msgid "Could Not Delete Temporary File"
+msgstr "अस्थायी फाइल मेट्न सकेन"
+
+#: kio/global.cpp:1118
+#, kde-format
+msgid ""
+"The requested operation required the creation of a temporary file in which "
+"to save the new file while being downloaded. This temporary file "
+"<strong>%1</strong> could not be deleted."
+msgstr ""
+"अनुरोध गरिएको सञ्चलनका लागि डाउनलोड गरिएको बेलामा नयाँ फाइल बचत गर्न अस्थायी "
+"फाइलको सिर्जना भएको हुनुपर्छ । यो अस्थायी फाइल<strong>%1</strong> मेट्न "
+"सकिने छैन ।"
+
+#: kio/global.cpp:1127
+msgid "Could Not Rename Original File"
+msgstr "मौलिक फाइल नाम फेर्न सकेन"
+
+#: kio/global.cpp:1128
+#, kde-format
+msgid ""
+"The requested operation required the renaming of the original file "
+"<strong>%1</strong>, however it could not be renamed."
+msgstr ""
+"अनुरोध गरिएको सञ्चालनका लागि मौलिक फाइलको नाम फेर्नु आवश्यक "
+"हुन्छ<strong>%1</strong>, यद्यपि यसको नाम फेर्न सकिने छैन ।"
+
+#: kio/global.cpp:1136
+msgid "Could Not Rename Temporary File"
+msgstr "अस्थायी फाइल नाम फेर्न सकेन"
+
+#: kio/global.cpp:1137
+#, kde-format
+msgid ""
+"The requested operation required the creation of a temporary file "
+"<strong>%1</strong>, however it could not be created."
+msgstr ""
+"अनुरोध गरिएको सञ्चालनका लागि अस्थायी फाइलको सिर्जना गर्न आवश्यक "
+"हुन्छ<strong>%1</strong>, यद्यपि यसलाई सिर्जना गर्न सकिने छैन ।"
+
+#: kio/global.cpp:1145
+msgid "Could Not Create Link"
+msgstr "लिङ्क सिर्जना गर्न सकेन"
+
+#: kio/global.cpp:1146
+msgid "Could Not Create Symbolic Link"
+msgstr "साङ्केतिक लिङ्क सिर्जना गर्न सकेन"
+
+#: kio/global.cpp:1147
+#, kde-format
+msgid "The requested symbolic link %1 could not be created."
+msgstr "अनुरोध गरिएको साङ्केतिक लिङ्क %1 सिर्जना गर्न सकिने छैन ।"
+
+#: kio/global.cpp:1154
+msgid "No Content"
+msgstr "सामाग्री छैन"
+
+#: kio/global.cpp:1159
+msgid "Disk Full"
+msgstr "डिस्क पूरा छ"
+
+#: kio/global.cpp:1160
+#, kde-format
+msgid ""
+"The requested file <strong>%1</strong> could not be written to as there is "
+"inadequate disk space."
+msgstr ""
+"पर्याप्त डिस्क खाली ठाउँको अभावले अनुरोध गरिएको फाइल <strong>%1</strong> "
+"अनुरुप लेख्न सकिने छैन ।"
+
+#: kio/global.cpp:1162
+msgid ""
+"Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
+"archiving files to removable media storage such as CD-Recordable discs; or "
+"3) obtain more storage capacity."
+msgstr ""
+"१) नचाहिएको र अस्थायी फाइलहरू मेटेर; २) हटाउन योग्य मिडिया फाइलहरू सङ्ग्रह "
+"गरेर जस्तै: रिकर्ड गर्न योग्य -CD डिस्क; वा ३) बढी भण्डारण क्षमता प्राप्त "
+"गरेर पर्याप्त डिस्क खाली ठाउँ प्राप्त गर्नुहोस् ।"
+
+#: kio/global.cpp:1169
+msgid "Source and Destination Files Identical"
+msgstr "उस्तै स्रोत र गन्तब्य फाइलहरू"
+
+#: kio/global.cpp:1170
+msgid ""
+"The operation could not be completed because the source and destination "
+"files are the same file."
+msgstr "सञ्चालन समाप्त हुन सकेन किनभने स्रोत र गन्तब्य फाइलहरू उस्तै छन् ।"
+
+#: kio/global.cpp:1172
+msgid "Choose a different filename for the destination file."
+msgstr "गन्तब्य फाइलका लागि फरक फाइलनाम रोज्नुहोस् ।"
+
+#: kio/global.cpp:1183
+msgid "Undocumented Error"
+msgstr "कागजात नगरिएको त्रुटि"
+
+#: kio/slaveinterface.cpp:460
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr ""
+
+#: kio/slaveinterface.cpp:462 kio/tcpslavebase.cpp:715
+msgid "SSL"
+msgstr "SSL"
+
+#: kio/copyjob.cpp:1248 kio/copyjob.cpp:1801
+msgid "Already Exists as Folder"
+msgstr "फोल्डरको रूपमा पहिल्यै अवस्थित छ"
+
+#: kio/job.cpp:127
+msgctxt "@title job"
+msgid "Moving"
+msgstr ""
+
+#: kio/job.cpp:128 kio/job.cpp:135 kio/job.cpp:160 kio/fileundomanager.cpp:120
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr ""
+
+#: kio/job.cpp:129 kio/job.cpp:136 kio/fileundomanager.cpp:121
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr ""
+
+#: kio/job.cpp:134
+msgctxt "@title job"
+msgid "Copying"
+msgstr ""
+
+#: kio/job.cpp:141
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr ""
+
+#: kio/job.cpp:142 kio/fileundomanager.cpp:117
+msgid "Directory"
+msgstr "डाइरेक्टरी"
+
+#: kio/job.cpp:147
+msgctxt "@title job"
+msgid "Deleting"
+msgstr ""
+
+#: kio/job.cpp:148 kio/job.cpp:154 kio/fileundomanager.cpp:124
+msgid "File"
+msgstr "फाइल"
+
+#: kio/job.cpp:153
+msgctxt "@title job"
+msgid "Examining"
+msgstr ""
+
+#: kio/job.cpp:159
+msgctxt "@title job"
+msgid "Transferring"
+msgstr ""
+
+#: kio/job.cpp:165
+msgctxt "@title job"
+msgid "Mounting"
+msgstr ""
+
+#: kio/job.cpp:166
+msgid "Device"
+msgstr "यन्त्र"
+
+#: kio/job.cpp:167 kio/job.cpp:173
+msgid "Mountpoint"
+msgstr "माउन्ट बिन्दु"
+
+#: kio/job.cpp:172
+msgctxt "@title job"
+msgid "Unmounting"
+msgstr ""
+
+#: kio/kdirlister.cpp:329 kio/krun.cpp:1093 kio/renamedialog.cpp:404
+#: kio/paste.cpp:228
+#, kde-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+"विकृत URL\n"
+"%1"
+
+#: kio/kdirlister.cpp:339
+#, kde-format
+msgid ""
+"URL cannot be listed\n"
+"%1"
+msgstr ""
+"यूआरएल सूचीबद्ध हुन सक्दैन\n"
+"%1"
+
+#: kio/skipdialog.cpp:40
+msgid "Information"
+msgstr "जानकारी"
+
+#: kio/skipdialog.cpp:47
+msgid "Skip"
+msgstr "फड्काउनुहोस्"
+
+#: kio/skipdialog.cpp:50
+msgid "AutoSkip"
+msgstr "स्वत: फड्काउनुहोस्"
+
+#: kio/accessmanagerreply_p.cpp:70
+msgid "Blocked request."
+msgstr ""
+
+#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:841
+#, kde-format
+msgid "Do you really want to delete this item?"
+msgid_plural "Do you really want to delete these %1 items?"
+msgstr[0] "के तपाईँ यो वस्तु साँच्चिकै मेट्न चाहनुहुन्छ?"
+msgstr[1] "के तपाईँ यी %1 वस्तुहरू साँच्चिकै मेट्न चाहनुहुन्छ?"
+
+#: kio/jobuidelegate.cpp:134 ../kfile/kdiroperator.cpp:843
+msgid "Delete Files"
+msgstr "फाइलहरू मेट्नुहोस्"
+
+#: kio/jobuidelegate.cpp:144
+#, kde-format
+msgid "Do you really want to move this item to the trash?"
+msgid_plural "Do you really want to move these %1 items to the trash?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/jobuidelegate.cpp:146 ../kfile/kdiroperator.cpp:1883
+msgid "Move to Trash"
+msgstr "रद्दी टोकरीमा सार्नुहोस्"
+
+#: kio/jobuidelegate.cpp:147
+msgctxt "Verb"
+msgid "&Trash"
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:60
+#, kde-format
+msgid "The desktop entry file %1 has no Type=... entry."
+msgstr "प्रविष्टि फाइल %1 सँग डेस्कटप Type=... प्रविष्टि छैन ।"
+
+#: kio/kdesktopfileactions.cpp:76
+#, kde-format
+msgid ""
+"The desktop entry of type\n"
+"%1\n"
+"is unknown."
+msgstr ""
+"डेस्कटप प्रविष्टिको \n"
+"%1\n"
+"प्रकार अज्ञात छ ।"
+
+#: kio/kdesktopfileactions.cpp:90 kio/kdesktopfileactions.cpp:166
+#: kio/kdesktopfileactions.cpp:296
+#, kde-format
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is of type FSDevice but has no Dev=... entry."
+msgstr ""
+"डेस्कटप प्रविष्टि फाइल \n"
+"%1\n"
+"FS यन्त्रको प्रकार हो तर Dev=... प्रविष्ट छैन ।"
+
+#: kio/kdesktopfileactions.cpp:134
+#, kde-format
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is of type Link but has no URL=... entry."
+msgstr ""
+"डेस्कटप प्रविष्टि फाइल \n"
+"%1\n"
+"लिङ्क प्रकार हो तर URL=... प्रविष्टि छैन ।"
+
+#: kio/kdesktopfileactions.cpp:201
+msgid "Mount"
+msgstr "माउन्ट गर्नुहोस्"
+
+#: kio/kdesktopfileactions.cpp:212
+msgid "Eject"
+msgstr "निकाल्नुहोस्"
+
+#: kio/kdesktopfileactions.cpp:214
+msgid "Unmount"
+msgstr "अनमाउन्ट गर्नुहोस्"
+
+#: kio/kfileitemactions.cpp:401
+msgctxt "@title:menu"
+msgid "&Actions"
+msgstr ""
+
+#: kio/kfileitemactions.cpp:511
+msgctxt "@title:menu"
+msgid "&Open With"
+msgstr ""
+
+#: kio/kfileitemactions.cpp:528
+msgctxt "@action:inmenu Open With"
+msgid "&Other..."
+msgstr ""
+
+#: kio/kfileitemactions.cpp:530 kio/kfileitemactions.cpp:542
+msgctxt "@title:menu"
+msgid "&Open With..."
+msgstr ""
+
+#: kio/kfileitemactions.cpp:570
+#, kde-format
+msgid "Open &with %1"
+msgstr ""
+
+#: kio/kfileitemactions.cpp:572
+#, kde-format
+msgctxt "@item:inmenu Open With, %1 is application name"
+msgid "%1"
+msgstr ""
+
+#: kio/kmimetypechooser.cpp:84
+msgid "Mime Type"
+msgstr "माइम प्रकार"
+
+#: kio/kmimetypechooser.cpp:88
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: kio/kmimetypechooser.cpp:92
+msgid "Patterns"
+msgstr "बाँन्की"
+
+#: kio/kmimetypechooser.cpp:105
+msgid "&Edit..."
+msgstr "सम्पादन..."
+
+#: kio/kmimetypechooser.cpp:115
+msgid "Click this button to display the familiar KDE mime type editor."
+msgstr "परिचित केडीई माइम प्रकार प्रदर्शन गर्न यो बटन क्लिक गर्नुहोस् ।"
+
+#: kio/kstatusbarofflineindicator.cpp:52
+msgid "The desktop is offline"
+msgstr "डेस्कटप अफलाइन छ"
+
+#: kio/chmodjob.cpp:215
+#, kde-format
+msgid ""
+"<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
+"access to the file to perform the change.</qt>"
+msgstr ""
+"<qt>फाइल <b>%1</b>को स्वामित्व परिमार्जन गर्न सकिदैन । परिवर्तन सम्पादन गर्न "
+"तपाईँसँग फाइलमा पर्याप्त पँहुच छैन ।</qt>"
+
+#: kio/chmodjob.cpp:215
+msgid "&Skip File"
+msgstr "फाइल फड्काउनुहोस्"
+
+#: kio/pastedialog.cpp:56
+msgid "Data format:"
+msgstr "डेटा ढाँचा:"
+
+#: kio/kbuildsycocaprogressdialog.cpp:45
+msgid "Updating System Configuration"
+msgstr "प्रणाली कन्फिगरेसन अद्यावधिक गर्दैछ"
+
+#: kio/kbuildsycocaprogressdialog.cpp:46
+msgid "Updating system configuration."
+msgstr "प्रणाली कन्फिगरेसन अद्यावधिक गर्दै ।"
+
+#: kio/krun.cpp:126
+#, kde-format
+msgid ""
+"<qt>Unable to enter <b>%1</b>.\n"
+"You do not have access rights to this location.</qt>"
+msgstr ""
+"<qt>प्रविष्ट गर्न अक्षम <b>%1</b>भयो ।\n"
+"तपाईँलाई यो स्थान तोक्नका लागि पहुँच अधिकार छैन ।</qt>"
+
+#: kio/krun.cpp:160
+#, kde-format
+msgid ""
+"<qt>The file <b>%1</b> is an executable program. For safety it will not be "
+"started.</qt>"
+msgstr ""
+"<qt>फाइल <b>%1</b> कार्यान्वयन योग्य कार्यक्रम हो । सुरक्षाका लागि यो सुरु "
+"नहुन सक्छ ।</qt>"
+
+#: kio/krun.cpp:166
+#, kde-format
+msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
+msgstr "<qt>तपाईँलाई <b>%1</b> चलाउन अनुमति नहुन सक्छ ।</qt>"
+
+#: kio/krun.cpp:190
+msgid "You are not authorized to select an application to open this file."
+msgstr "तपाईँ यो फाइल खोल्न एउटा अनुप्रयोग चयन गर्न अधिकारिक हुनुहुन्न ।"
+
+#: kio/krun.cpp:201
+msgid "Open with:"
+msgstr "यससँग खोल्नुहोस्:"
+
+#: kio/krun.cpp:530
+msgid "You are not authorized to execute this file."
+msgstr "तपाईँ यो फाइल कार्यान्वयन गर्न आधिकारिक हुनुहुन्न ।"
+
+#: kio/krun.cpp:553
+#, kde-format
+msgid "Launching %1"
+msgstr "%1 सुरु गर्दै"
+
+#: kio/krun.cpp:659
+#, kde-format
+msgid "Error processing Exec field in %1"
+msgstr ""
+
+#: kio/krun.cpp:853
+msgid "You are not authorized to execute this service."
+msgstr "तपाईँ यो सेवा कार्यान्वयन गर्न आधिकारिक हुनुहुन्न ।"
+
+#: kio/krun.cpp:865
+msgctxt "Warning about executing unknown .desktop file"
+msgid "Warning"
+msgstr ""
+
+#: kio/krun.cpp:879
+msgctxt "program name follows in a line edit below"
+msgid "This will start the program:"
+msgstr ""
+
+#: kio/krun.cpp:893
+msgid "If you do not trust this program, click Cancel"
+msgstr ""
+
+#: kio/krun.cpp:926
+#, kde-format
+msgid "Unable to make the service %1 executable, aborting execution"
+msgstr ""
+
+#: kio/krun.cpp:1126
+#, kde-format
+msgid ""
+"<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
+"not exist.</qt>"
+msgstr ""
+"<qt>निर्दिष्ट गरिएको आदेश चलाउन असक्षम भयो । फाइल वा फोल्डर <b>%1</b> "
+"अवस्थित छैन ।</qt>"
+
+#: kio/krun.cpp:1701
+#, kde-format
+msgid "Could not find the program '%1'"
+msgstr "'%1' कार्यक्रम फेला पार्न सकेन"
+
+#: kio/kfileitem.cpp:1018
+#, kde-format
+msgid "(Symbolic Link to %1)"
+msgstr "(%1 मा साङ्केतिक लिङ्क)"
+
+#: kio/kfileitem.cpp:1020
+#, kde-format
+msgid "(%1, Link to %2)"
+msgstr "(%1, %2 मा लिङ्क)"
+
+#: kio/kfileitem.cpp:1024
+#, kde-format
+msgid " (Points to %1)"
+msgstr ""
+
+#: kio/kfileitem.cpp:1052 ../kioslave/http/kcookiejar/kcookiewin.cpp:205
+msgid "Name:"
+msgstr "नाम:"
+
+#: kio/kfileitem.cpp:1053 kfile/kpropertiesdialog.cpp:955
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: kio/kfileitem.cpp:1057
+#, kde-format
+msgid "Link to %1 (%2)"
+msgstr "%1 (%2) मा लिङ्क गर्नुहोस्"
+
+#: kio/kfileitem.cpp:1062 kfile/kpropertiesdialog.cpp:1006
+msgid "Size:"
+msgstr "साइज:"
+
+#: kio/kfileitem.cpp:1066 kfile/kpropertiesdialog.cpp:1066
+msgid "Modified:"
+msgstr "परिमार्जित:"
+
+#: kio/kfileitem.cpp:1069
+msgid "Owner:"
+msgstr "मालिक:"
+
+#: kio/kfileitem.cpp:1070
+msgid "Permissions:"
+msgstr "अनुमति:"
+
+#: kio/netaccess.cpp:105
+#, kde-format
+msgid "File '%1' is not readable"
+msgstr "'%1' फाइल पढ्नयोग्य छैन"
+
+#: kio/netaccess.cpp:446
+#, kde-format
+msgid "ERROR: Unknown protocol '%1'"
+msgstr "त्रुटि: अज्ञात प्रोटोकल '%1'"
+
+#: kio/connection.cpp:211
+#, kde-format
+msgid "Unable to create io-slave: %1"
+msgstr "io-slave सिर्जना गर्न अक्षम: %1"
+
+#: kio/kdbusservicestarter.cpp:76
+#, kde-format
+msgid "No service implementing %1"
+msgstr "%1 सेवा कार्यान्वयन छैन"
+
+#: kio/tcpslavebase.cpp:310
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+"तपाईँले सुरक्षित मोड छोड्दै हुनुहुन्छ । प्रसारण लामो समय सम्म साङ्केतिक "
+"रूपमा रहनेछैन् ।\n"
+"यसको मतलव तेस्रो पक्षले बाटोमा तपाईँको डेटा हेर्न सक्छ ।"
+
+#: kio/tcpslavebase.cpp:316 kio/tcpslavebase.cpp:548
+msgid "Security Information"
+msgstr "सुरक्षा सूचना"
+
+#: kio/tcpslavebase.cpp:317
+msgid "C&ontinue Loading"
+msgstr "लोडिङ जारी राख्नुहोस्"
+
+#: kio/tcpslavebase.cpp:382
+#, kde-format
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:542
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+"तपाईँले सुरक्षित मोडमा प्रवेश गर्दै हुनुहुन्छ । टिपोट नगरेमा  सबै प्रसारणहरू "
+"साङ्केतिक रूपमा हुनेछन् ।\n"
+"यसको मतलव तेस्रो पक्षले बाटोमा तपाईँको डेटा सजिलैसँग अवलोकन गर्न सक्दैन ।"
+
+#: kio/tcpslavebase.cpp:549
+msgid "Display SSL &Information"
+msgstr "SSL सूचना प्रदर्शन गर्नुहोस्"
+
+#: kio/tcpslavebase.cpp:550
+msgid "C&onnect"
+msgstr "जडान गर्नुहोस्"
+
+#: kio/tcpslavebase.cpp:686
+msgid "Enter the certificate password:"
+msgstr "प्रमाणपत्र पासवर्ड प्रविष्ट गर्नुहोस्:"
+
+#: kio/tcpslavebase.cpp:687
+msgid "SSL Certificate Password"
+msgstr "SSL प्रमाणपत्र पासवर्ड"
+
+#: kio/tcpslavebase.cpp:700
+msgid "Unable to open the certificate. Try a new password?"
+msgstr "प्रमाणपत्र खोल्न अक्षम । नयाँ पासवर्ड प्रयास गर्नुहुन्छ?"
+
+#: kio/tcpslavebase.cpp:713
+msgid "The procedure to set the client certificate for the session failed."
+msgstr "सत्रका लागि क्लाइन्ट प्रमाणपत्र सेटको कार्यबिधी असफल भयो ।"
+
+#: kio/tcpslavebase.cpp:887
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+"तपाईँले यो प्रमाणपत्र स्वीकार गर्ने इङ्गित गर्नुभएको छ तर यसलाई "
+"प्रस्तुतकर्ता सर्भरमा जारी गरिएको छैन । तपाईँले लोडिङ क्रम जारी राख्न "
+"चाहनुहुन्छ ?"
+
+#: kio/tcpslavebase.cpp:899
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE System Settings."
+msgstr ""
+
+#: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
+#: kio/kemailsettings.cpp:261
+msgid "Default"
+msgstr "पूर्वनिर्धारित"
+
+#: kio/renamedialog.cpp:102
+msgid "&Rename"
+msgstr "पुन: नामकरण गर्नुहोस्"
+
+#: kio/renamedialog.cpp:104
+msgid "Suggest New &Name"
+msgstr "नयाँ नाम सुझाव गर्नुहोस्"
+
+#: kio/renamedialog.cpp:110
+msgid "&Skip"
+msgstr "फड्काउनुहोस्"
+
+#: kio/renamedialog.cpp:111
+msgid "Do not copy or move this folder, skip to the next item instead"
+msgstr ""
+
+#: kio/renamedialog.cpp:112
+msgid "Do not copy or move this file, skip to the next item instead"
+msgstr ""
+
+#: kio/renamedialog.cpp:115
+msgid "&Auto Skip"
+msgstr "स्वत: फड्काउनुहोस्"
+
+#: kio/renamedialog.cpp:116
+msgid ""
+"Do not copy or move any folder that already exists in the destination "
+"folder.\n"
+"You will be prompted again in case of a conflict with an existing file "
+"though."
+msgstr ""
+
+#: kio/renamedialog.cpp:117
+msgid ""
+"Do not copy or move any file that already exists in the destination folder.\n"
+"You will be prompted again in case of a conflict with an existing directory "
+"though."
+msgstr ""
+
+#: kio/renamedialog.cpp:122
+msgctxt "Write files into an existing folder"
+msgid "&Write Into"
+msgstr ""
+
+#: kio/renamedialog.cpp:122
+msgid "&Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: kio/renamedialog.cpp:124
+msgid ""
+"Files and folders will be copied into the existing directory, alongside its "
+"existing contents.\n"
+"You will be prompted again in case of a conflict with an existing file in "
+"the directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:128
+msgctxt "Write files into any existing directory"
+msgid "&Write Into All"
+msgstr ""
+
+#: kio/renamedialog.cpp:128
+msgid "&Overwrite All"
+msgstr ""
+
+#: kio/renamedialog.cpp:130
+msgid ""
+"Files and folders will be copied into any existing directory, alongside its "
+"existing contents.\n"
+"You will be prompted again in case of a conflict with an existing file in a "
+"directory, but not in case of another existing directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:136
+msgid "&Resume"
+msgstr "पुन: निरन्तरता दिनुहोस्"
+
+#: kio/renamedialog.cpp:141
+msgid "R&esume All"
+msgstr "सबै पुन: निरन्तरता दिनुहोस्"
+
+#: kio/renamedialog.cpp:151
+#, kde-format
+msgid ""
+"This action would overwrite '%1' with itself.\n"
+"Please enter a new file name:"
+msgstr ""
+"'%1' सँग आफैमा यो कार्य अधिलेखन हुनेछ । \n"
+"कृपया नयाँ फाइल नाम प्रविष्ट गर्नुहोस्:"
+
+#: kio/renamedialog.cpp:153
+msgid "C&ontinue"
+msgstr "जारी राख्नुहोस्"
+
+#: kio/renamedialog.cpp:198 kio/renamedialog.cpp:280
+#, kde-format
+msgid "An older item named '%1' already exists."
+msgstr "'%1' नाम भएको एउटा पुरानो वस्तु पहिले नै अवस्थित छ ।"
+
+#: kio/renamedialog.cpp:200 kio/renamedialog.cpp:282
+#, kde-format
+msgid "A similar file named '%1' already exists."
+msgstr "'%1' नाम भएको एउटा दुरुस्त फाइल पहिले नै अवस्थित छ ।"
+
+#: kio/renamedialog.cpp:202 kio/renamedialog.cpp:284
+#, kde-format
+msgid "A newer item named '%1' already exists."
+msgstr "'%1' नाम भएको एउटा नयाँ वस्तु पहिले नै अवस्थित छ ।"
+
+#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252
+#, kde-format
+msgid "size %1 (%2)"
+msgstr ""
+
+#: kio/renamedialog.cpp:224 kio/renamedialog.cpp:260
+#, kde-format
+msgid "created on %1"
+msgstr "%1 मा सिर्जना गरिएको"
+
+#: kio/renamedialog.cpp:231 kio/renamedialog.cpp:267
+#, kde-format
+msgid "modified on %1"
+msgstr "%1 मा परिमार्जित गरिएको"
+
+#: kio/renamedialog.cpp:240
+#, kde-format
+msgid "The source file is '%1'"
+msgstr "'%1' स्रोत फाइल हो"
+
+#: kio/kimageio.cpp:43
+msgid "All Pictures"
+msgstr "सबै तस्वीर"
+
+#: kio/slave.cpp:411
+#, kde-format
+msgid "Unknown protocol '%1'."
+msgstr "अज्ञात प्रोटोकल '%1' ।"
+
+#: kio/slave.cpp:419
+#, kde-format
+msgid "Can not find io-slave for protocol '%1'."
+msgstr "'%1' प्रोटोकलका लागि io-slave फेला पार्न सकिदैन ।"
+
+#: kio/slave.cpp:438
+#, kde-format
+msgid "Cannot talk to klauncher: %1"
+msgstr "केडीई सुरुआतकर्तासँग कुरा गर्न सकिदैन: %1"
+
+#: kio/slave.cpp:446
+#, kde-format
+msgid ""
+"Unable to create io-slave:\n"
+"klauncher said: %1"
+msgstr ""
+"io-slave सिर्जना गर्न अक्षम:\n"
+"केडीई सुरुआतकर्ताले भन्यो: %1"
+
+#: kio/slavebase.h:266 kio/slavebase.h:286
+msgid "&Yes"
+msgstr ""
+
+#: kio/slavebase.h:267 kio/slavebase.h:287
+msgid "&No"
+msgstr ""
+
+#: kio/kscan.cpp:50
+msgid "Acquire Image"
+msgstr "प्राप्त छवि"
+
+#: kio/kscan.cpp:99
+msgid "OCR Image"
+msgstr "ओसीआर छवि"
+
+#: kio/fileundomanager.cpp:116
+msgid "Creating directory"
+msgstr ""
+
+#: kio/fileundomanager.cpp:119
+msgid "Moving"
+msgstr ""
+
+#: kio/fileundomanager.cpp:123
+msgid "Deleting"
+msgstr ""
+
+#: kio/fileundomanager.cpp:284
+msgid "Und&o"
+msgstr ""
+
+#: kio/fileundomanager.cpp:288
+msgid "Und&o: Copy"
+msgstr ""
+
+#: kio/fileundomanager.cpp:290
+msgid "Und&o: Link"
+msgstr ""
+
+#: kio/fileundomanager.cpp:292
+msgid "Und&o: Move"
+msgstr ""
+
+#: kio/fileundomanager.cpp:294
+msgid "Und&o: Rename"
+msgstr ""
+
+#: kio/fileundomanager.cpp:296
+msgid "Und&o: Trash"
+msgstr ""
+
+#: kio/fileundomanager.cpp:298
+msgid "Und&o: Create Folder"
+msgstr ""
+
+#: kio/fileundomanager.cpp:764
+#, kde-format
+msgid ""
+"The file %1 was copied from %2, but since then it has apparently been "
+"modified at %3.\n"
+"Undoing the copy will delete the file, and all modifications will be lost.\n"
+"Are you sure you want to delete %4?"
+msgstr ""
+
+#: kio/fileundomanager.cpp:767
+msgid "Undo File Copy Confirmation"
+msgstr ""
+
+#: kio/paste.cpp:48 kio/paste.cpp:130
+msgid "Filename for clipboard content:"
+msgstr "क्लिपबोर्ड सामाग्रीका लागि फाइल नाम:"
+
+#: kio/paste.cpp:123
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kio/paste.cpp:139
+msgid ""
+"The clipboard has changed since you used 'paste': the chosen data format is "
+"no longer applicable. Please copy again what you wanted to paste."
+msgstr ""
+"तपाईँले 'टाँस्नुहोस्' प्रयोग गरे देखि क्लिपबोर्डमा परिवर्तन भएको छ: छनोट "
+"गरिएको डेटा ढाँचा लामो समय सम्म प्रयोग योग्य हुने छैन । कृपया तपाईँले टास्न "
+"चाहनु भएको पुन: प्रतिलिपि गर्नुहोस् ।"
+
+#: kio/paste.cpp:210 kio/paste.cpp:277
+msgid "The clipboard is empty"
+msgstr "क्लिपबोर्ड खाली छ"
+
+#: kio/paste.cpp:324
+#, kde-format
+msgid "&Paste File"
+msgid_plural "&Paste %1 Files"
+msgstr[0] "फाइल टाँस्नुहोस्"
+msgstr[1] "%1 फाइलहरू टाँस्नुहोस्"
+
+#: kio/paste.cpp:326
+#, kde-format
+msgid "&Paste URL"
+msgid_plural "&Paste %1 URLs"
+msgstr[0] "URL टाँस्नुहोस्"
+msgstr[1] "%1 URLs टाँस्नुहोस्"
+
+#: kio/paste.cpp:328
+msgid "&Paste Clipboard Contents"
+msgstr "क्लिपबोर्ड सामाग्रीहरू टाँस्नुहोस्"
+
+#: kio/kdirmodel.cpp:955
+msgctxt "@title:column"
+msgid "Name"
+msgstr ""
+
+#: kio/kdirmodel.cpp:957
+msgctxt "@title:column"
+msgid "Size"
+msgstr ""
+
+#: kio/kdirmodel.cpp:959
+msgctxt "@title:column"
+msgid "Date"
+msgstr ""
+
+#: kio/kdirmodel.cpp:961
+msgctxt "@title:column"
+msgid "Permissions"
+msgstr ""
+
+#: kio/kdirmodel.cpp:963
+msgctxt "@title:column"
+msgid "Owner"
+msgstr ""
+
+#: kio/kdirmodel.cpp:965
+msgctxt "@title:column"
+msgid "Group"
+msgstr ""
+
+#: kio/kdirmodel.cpp:967
+msgctxt "@title:column"
+msgid "Type"
+msgstr ""
+
+#: kio/kfileitemdelegate.cpp:230
+#, kde-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "1 वस्तु"
+msgstr[1] "%1 वस्तुहरू"
+
+#: kio/kfileitemdelegate.cpp:286 kio/kfileitemdelegate.cpp:290
+msgctxt "@info mimetype"
+msgid "Unknown"
+msgstr ""
+
+#: kio/passworddialog.cpp:62
+msgid "Authorization Dialog"
+msgstr "प्रमाणीकरण संवाद"
+
+#: kfile/kfilemetainfowidget.cpp:163
+msgid "<Error>"
+msgstr "<Error>"
+
+#: kfile/kmetaprops.cpp:99
+msgid "&Meta Info"
+msgstr "मेटा सूचना"
+
+#: kfile/kicondialog.cpp:332 kfile/kicondialog.cpp:344
+msgid "Select Icon"
+msgstr "प्रतिमा चयन गर्नुहोस्"
+
+#: kfile/kicondialog.cpp:365
+msgid "Icon Source"
+msgstr "प्रतिमा स्रोत"
+
+#: kfile/kicondialog.cpp:374
+msgid "S&ystem icons:"
+msgstr "प्रणाली प्रतिमा:"
+
+#: kfile/kicondialog.cpp:381
+msgid "O&ther icons:"
+msgstr "अन्य प्रतिमा:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:384 rc.cpp:228
+msgid "&Browse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#: kfile/kicondialog.cpp:395
+msgid "&Search:"
+msgstr "खोज्नुहोस्:"
+
+#: kfile/kicondialog.cpp:402
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr "प्रतिमा नामहरू अनुरुप पारस्परिक रुपले खोज्नुहोस् (जस्तै: फोल्डर) ।"
+
+#: kfile/kicondialog.cpp:433
+msgid "Actions"
+msgstr "कार्य"
+
+#: kfile/kicondialog.cpp:434
+msgid "Animations"
+msgstr "एनिमेसन"
+
+#: kfile/kicondialog.cpp:435
+msgid "Applications"
+msgstr "अनुप्रयोग"
+
+#: kfile/kicondialog.cpp:436
+msgid "Categories"
+msgstr "कोटि"
+
+#: kfile/kicondialog.cpp:437
+msgid "Devices"
+msgstr "यन्त्र"
+
+#: kfile/kicondialog.cpp:438
+msgid "Emblems"
+msgstr "चिन्ह लगाउँछ"
+
+#: kfile/kicondialog.cpp:439
+msgid "Emotes"
+msgstr "व्यक्त गर्दछ"
+
+#: kfile/kicondialog.cpp:440
+msgid "Filesystems"
+msgstr "फाइल प्रणाली"
+
+#: kfile/kicondialog.cpp:441
+msgid "International"
+msgstr "अन्तराष्ट्रिय"
+
+#: kfile/kicondialog.cpp:442
+msgid "Mimetypes"
+msgstr "माइम प्रकार"
+
+#: kfile/kicondialog.cpp:443
+msgid "Places"
+msgstr "राख्दछ"
+
+#: kfile/kicondialog.cpp:444
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: kfile/kicondialog.cpp:687
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr "*.png *.xpm *.svg *.svgz|प्रतिमा फाइल (*.png *.xpm *.svg *.svgz)"
+
+#: kfile/kicondialog.cpp:689 kfile/kfiledialog.cpp:483
+#: kfile/kfiledialog.cpp:493 kfile/kfiledialog.cpp:514
+#: kfile/kfiledialog.cpp:538 kfile/kfiledialog.cpp:548
+#: kfile/kfiledialog.cpp:574 kfile/kfiledialog.cpp:606
+#: kfile/kfiledialog.cpp:661 kfile/kencodingfiledialog.cpp:107
+#: kfile/kencodingfiledialog.cpp:125 kfile/kencodingfiledialog.cpp:140
+#: kfile/kencodingfiledialog.cpp:158 kfile/kurlrequesterdialog.cpp:130
+msgid "Open"
+msgstr "खोल्नुहोस्"
+
+#: kfile/kurlrequester.cpp:242
+msgid "Open file dialog"
+msgstr "संवाद फाइल खोल्नुहोस्"
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:455
+msgid "Owner"
+msgstr "मालिक"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:460
+msgid "Owning Group"
+msgstr "समूह स्वीकार गर्दै"
+
+#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:465
+#: kfile/kpropertiesdialog.cpp:1996
+msgid "Others"
+msgstr "अन्य"
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:470
+msgid "Mask"
+msgstr "मास्क"
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr "नामकरण गरिएको प्रयोगकर्ता"
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr "नामकरण गरिएको समूह"
+
+#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:566
+#: ../kfile/kfileplacesview.cpp:587 ../kfile/kfileplacesview.cpp:594
+msgid "Add Entry..."
+msgstr "प्रविष्ट थप्नुहोस्..."
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr "प्रविष्ट सम्पादन गर्नुहोस्..."
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr "प्रविष्ट मेट्नुहोस्"
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr " (पूर्वनिर्धारित)"
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr "ACL प्रविष्टि सम्पादन गर्नुहोस्"
+
+#: kfile/kacleditwidget.cpp:440
+msgid "Entry Type"
+msgstr "प्रविष्टि प्रकार"
+
+#: kfile/kacleditwidget.cpp:446
+msgid "Default for new files in this folder"
+msgstr "यो फोल्डरमा नयाँ फाइलहरूका लागि पूर्वनिर्धारित"
+
+#: kfile/kacleditwidget.cpp:475
+msgid "Named user"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:480
+msgid "Named group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:500
+msgid "User: "
+msgstr "प्रयोगकर्ता: "
+
+#: kfile/kacleditwidget.cpp:506
+msgid "Group: "
+msgstr "समूह: "
+
+#: kfile/kacleditwidget.cpp:626
+msgid "Type"
+msgstr "प्रकार"
+
+#: kfile/kacleditwidget.cpp:627
+msgid "Name"
+msgstr "नाम"
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "read permission"
+msgid "r"
+msgstr "r"
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "write permission"
+msgid "w"
+msgstr "w"
+
+#: kfile/kacleditwidget.cpp:630
+msgctxt "execute permission"
+msgid "x"
+msgstr "x"
+
+#: kfile/kacleditwidget.cpp:631
+msgid "Effective"
+msgstr "प्रभावकारी"
+
+#: kfile/kopenwithdialog.cpp:269
+msgid "Known Applications"
+msgstr "ज्ञात अनुप्रयोग"
+
+#: kfile/kopenwithdialog.cpp:482
+msgid "Open With"
+msgstr "यससँग खोल्नुहोस्"
+
+#: kfile/kopenwithdialog.cpp:487
+#, kde-format
+msgid ""
+"<qt>Select the program that should be used to open <b>%1</b>. If the program "
+"is not listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt>कार्यक्रम चयन गर्नुहोस् जुन <b>%1</b> खोल्न प्रयोग हुन सक्छ । यदि "
+"कार्यक्रम सूचित नगरेमा, नाम प्रविष्ट गर्नुहोस् वा ब्राउज बटन क्लिक गर्नुहोस् "
+"।</qt>"
+
+#: kfile/kopenwithdialog.cpp:493
+msgid "Choose the name of the program with which to open the selected files."
+msgstr "चयन गरिएका फाइलहरू खोल्नका लागि कार्यक्रमको नाम रोज्नुहोस् ।"
+
+#: kfile/kopenwithdialog.cpp:520
+#, kde-format
+msgid "Choose Application for %1"
+msgstr "%1 का लागि अनुप्रयोग रोज्नुहोस्"
+
+#: kfile/kopenwithdialog.cpp:521
+#, kde-format
+msgid ""
+"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
+"listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt>फाइल प्रकार: <b>%1</b> का लागि कार्यक्रम रोज्नुहोस् । यदि कार्यक्रम "
+"सूचिकृत गरेको छैन भने, नाम प्रविष्ट गर्नुहोस् वा ब्राउज बटन क्लिक गर्नुहोस् "
+"।</qt>"
+
+#: kfile/kopenwithdialog.cpp:536
+msgid "Choose Application"
+msgstr "अनुप्रयोग रोज्नुहोस्"
+
+#: kfile/kopenwithdialog.cpp:537
+msgid ""
+"<qt>Select a program. If the program is not listed, enter the name or click "
+"the browse button.</qt>"
+msgstr ""
+"<qt>कार्यक्रम रोज्नुहोस् । यदि कार्यक्रम सूचीकृत गरिएको छैन भने नाम प्रविष्ट "
+"गर्नुहोस् वा ब्राउज बटन क्लिक गर्नुहोस् ।</qt>"
+
+#: kfile/kopenwithdialog.cpp:601
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the comment"
+msgstr ""
+"आदेशहरू पालना गर्दा, तपाईसँग वास्तविक कार्यक्रम चलेको बेलामा वास्तविक "
+"मानहरूमा प्रतिस्थापन भएका धेरै स्थान होल्डरहरू हुन सक्छन्:\n"
+"%f - एकल फाइल नाम\n"
+"%F - फाइलहरूको सूची; एक समयमा धेरै स्थानीय फाइलहरू खोल्न सक्ने अनुप्रयोहरू "
+"प्रयोग गर्नुहोस्\n"
+"%u - एकल यूआरएल\n"
+"%U - यूआरएल हरूको एक सूची\n"
+"%d - खोल्नका लागि फाइलका डाइरेक्टरी\n"
+"%D - डाइरेक्टरीहरूको एक सूची\n"
+"%i - प्रतिमा\n"
+"%m - सानो-प्रतिमा\n"
+"%c -टिप्पणी"
+
+#: kfile/kopenwithdialog.cpp:635
+msgid "Run in &terminal"
+msgstr "टर्मिनलमा चलाउनुहोस्"
+
+#: kfile/kopenwithdialog.cpp:652
+msgid "&Do not close when command exits"
+msgstr "आदेशहरू अवस्थित हुँदा बन्द नगर्नुहोस्"
+
+#: kfile/kopenwithdialog.cpp:669
+msgid "&Remember application association for this type of file"
+msgstr "यो प्रकारको फाइलका लागि सम्बन्धित अनुप्रयोग स्मरण गर्नुहोस्"
+
+#: kfile/kopenwithdialog.cpp:807
+#, kde-format
+msgid ""
+"Could not extract executable name from '%1', please type a valid program "
+"name."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:853
+#, kde-format
+msgid "'%1' not found, please type a valid program name."
+msgstr ""
+
+#: kfile/kfiledialog.cpp:129
+msgid "*|All files"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:360 ../kfile/kfilefiltercombo.cpp:180
+msgid "All Supported Files"
+msgstr "सबै समर्थित फाइलहरू"
+
+#: kfile/kfiledialog.cpp:741 kfile/kfiledialog.cpp:760
+#: kfile/kfiledialog.cpp:797 kfile/kfiledialog.cpp:839
+#: kfile/kencodingfiledialog.cpp:178 kfile/kencodingfiledialog.cpp:199
+msgid "Save As"
+msgstr "यस रूपमा बचत गर्नुहोस्"
+
+#: kfile/kencodingfiledialog.cpp:50
+msgid "Encoding:"
+msgstr ""
+
+#: kfile/kdevicelistmodel.cpp:115
+msgid "Device name"
+msgstr "यन्त्र नाम"
+
+#: kfile/kpreviewprops.cpp:50
+msgid "P&review"
+msgstr "पूर्वावलोकन"
+
+#: kfile/kpropertiesdialog.cpp:215 kfile/kpropertiesdialog.cpp:230
+#: kfile/kpropertiesdialog.cpp:242 kfile/kpropertiesdialog.cpp:257
+#: kfile/kpropertiesdialog.cpp:273
+#, kde-format
+msgid "Properties for %1"
+msgstr "%1 का गुणहरू"
+
+#: kfile/kpropertiesdialog.cpp:240
+#, kde-format
+msgid "Properties for 1 item"
+msgid_plural "Properties for %1 Selected Items"
+msgstr[0] "१ वस्तुका लागि गुण"
+msgstr[1] "चयन गरिएका वस्तु %1 का गुणहरू"
+
+#: kfile/kpropertiesdialog.cpp:770
+msgctxt "@title:tab File properties"
+msgid "&General"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:969
+msgid "Create new file type"
+msgstr "नयाँ फाइल प्रकार सिर्जना गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:971
+msgid "Edit file type"
+msgstr "फाइल प्रकार सम्पादन गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:983
+msgid "Contents:"
+msgstr "सामाग्रीहरू:"
+
+#: kfile/kpropertiesdialog.cpp:992 kfile/kurlrequesterdialog.cpp:59
+msgid "Location:"
+msgstr "स्थान:"
+
+#: kfile/kpropertiesdialog.cpp:1025
+msgid "Calculate"
+msgstr "गणना गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1026
+msgid "Stop"
+msgstr "रोक्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1036 kfile/kpropertiesdialog.cpp:1228
+msgid "Refresh"
+msgstr "ताजा पार्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1044
+msgid "Points to:"
+msgstr "बिन्दुहरू:"
+
+#: kfile/kpropertiesdialog.cpp:1056
+msgid "Created:"
+msgstr "सिर्जना गरिएको:"
+
+#: kfile/kpropertiesdialog.cpp:1076
+msgid "Accessed:"
+msgstr "पहुँच प्राप्त भयो:"
+
+#: kfile/kpropertiesdialog.cpp:1097
+msgid "Mounted on:"
+msgstr "यसमा माउन्ट गरिएको:"
+
+#: kfile/kpropertiesdialog.cpp:1105 kfile/kpropertiesdialog.cpp:2780
+msgid "Device usage:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1190
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 free of %2 (%3% used)"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1207 kfile/kpropertiesdialog.cpp:1223
+#, kde-format
+msgid "1 file"
+msgid_plural "%1 files"
+msgstr[0] "1 फाइल"
+msgstr[1] "%1 फाइलहरू"
+
+#: kfile/kpropertiesdialog.cpp:1208 kfile/kpropertiesdialog.cpp:1224
+#, kde-format
+msgid "1 sub-folder"
+msgid_plural "%1 sub-folders"
+msgstr[0] "१ सहायक-फोल्डर"
+msgstr[1] "%1 सहायक-फोल्डरहरू"
+
+#: kfile/kpropertiesdialog.cpp:1204
+#, kde-format
+msgid ""
+"Calculating... %1 (%2)\n"
+"%3, %4"
+msgstr ""
+"गणना गर्दै... %1 (%2)\n"
+"%3, %4"
+
+#: kfile/kpropertiesdialog.cpp:1237
+msgid "Calculating..."
+msgstr "गणना गर्दै..."
+
+#: kfile/kpropertiesdialog.cpp:1270
+#, kde-format
+msgid "At least %1"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1307
+msgid "The new file name is empty."
+msgstr "नयाँ फाइल नाम खाली छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1485 kfile/kpropertiesdialog.cpp:2658
+#: kfile/kpropertiesdialog.cpp:2966 kfile/kpropertiesdialog.cpp:3218
+#, kde-format
+msgid ""
+"<qt>Could not save properties. You do not have sufficient access to write to "
+"<b>%1</b>.</qt>"
+msgstr ""
+"<qt>गुणहरू बचत गर्न सकेन । तपाईँलाई<b>%1</b>मा लेख्न पर्याप्त पहुँच छैन "
+"।</qt>"
+
+#: kfile/kpropertiesdialog.cpp:1560 kfile/kpropertiesdialog.cpp:1564
+#: kfile/kpropertiesdialog.cpp:1569
+msgid "Forbidden"
+msgstr "निषेध गरिएको"
+
+#: kfile/kpropertiesdialog.cpp:1561
+msgid "Can Read"
+msgstr "पढ्न सक्नुहुन्छ"
+
+#: kfile/kpropertiesdialog.cpp:1562
+msgid "Can Read & Write"
+msgstr "पढ्न र लेख्न सक्नुहुन्छ"
+
+#: kfile/kpropertiesdialog.cpp:1565
+msgid "Can View Content"
+msgstr "सामाग्री हेर्न सक्नुहुन्छ"
+
+#: kfile/kpropertiesdialog.cpp:1566
+msgid "Can View & Modify Content"
+msgstr "सामाग्री हेर्न र परिमार्जन गर्न सक्नुहुन्छ"
+
+#: kfile/kpropertiesdialog.cpp:1570
+msgid "Can View Content & Read"
+msgstr "सामाग्री हेर्न र पढ्न सक्नुहुन्छ"
+
+#: kfile/kpropertiesdialog.cpp:1571
+msgid "Can View/Read & Modify/Write"
+msgstr "हेर्न/पढ्न र परिमार्जन/लेख्न सक्नुहुन्छ"
+
+#: kfile/kpropertiesdialog.cpp:1667
+msgid "&Permissions"
+msgstr "अनुमति"
+
+#: kfile/kpropertiesdialog.cpp:1679 kfile/kpropertiesdialog.cpp:1921
+msgid "Access Permissions"
+msgstr "पहुँच अनुमति"
+
+#: kfile/kpropertiesdialog.cpp:1687
+msgid "This file is a link and does not have permissions."
+msgid_plural "All files are links and do not have permissions."
+msgstr[0] "यो फाइल लिङ्क हो  र अनुमति विहिन छ"
+msgstr[1] "सबै फाइलहरू लिङ्क हुन् र अनुमति विहिन छन् ।"
+
+#: kfile/kpropertiesdialog.cpp:1691
+msgid "Only the owner can change permissions."
+msgstr "मालिकले मात्र अनुमति परिवर्तन गर्न सक्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1694
+msgid "O&wner:"
+msgstr "मालिक:"
+
+#: kfile/kpropertiesdialog.cpp:1700
+msgid "Specifies the actions that the owner is allowed to do."
+msgstr "मालिकले गर्न दिएका कार्य निर्दिष्ट गर्दछ ।"
+
+#: kfile/kpropertiesdialog.cpp:1702
+msgid "Gro&up:"
+msgstr "समूह:"
+
+#: kfile/kpropertiesdialog.cpp:1708
+msgid ""
+"Specifies the actions that the members of the group are allowed to do."
+msgstr "समूहका सदस्यले गर्न दिएका कार्य निर्दिष्ट गर्दछ ।"
+
+#: kfile/kpropertiesdialog.cpp:1710
+msgid "O&thers:"
+msgstr "अन्य:"
+
+#: kfile/kpropertiesdialog.cpp:1716
+msgid ""
+"Specifies the actions that all users, who are neither owner nor in the "
+"group, are allowed to do."
+msgstr ""
+"सबै प्रयोगकर्ताका कार्यहरू निर्दिष्ट गर्छ, जो न मालिक हुन् न समूहमा छन्, "
+"तिनीहरूलाई त्यसो गर्न स्वीकृत छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1721
+msgid "Only own&er can rename and delete folder content"
+msgstr "मालिकले मात्र फोल्डर सामाग्री नाम फेर्न र मेट्न सक्छ"
+
+#: kfile/kpropertiesdialog.cpp:1722
+msgid "Is &executable"
+msgstr "कार्यान्वयन योग्य छ"
+
+#: kfile/kpropertiesdialog.cpp:1726
+msgid ""
+"Enable this option to allow only the folder's owner to delete or rename the "
+"contained files and folders. Other users can only add new files, which "
+"requires the 'Modify Content' permission."
+msgstr ""
+"फाइल र फोल्डरहरू समावेश भएका मेट्न नाम फेर्न फोल्डर मालिकलाई अनुमति दिन यो "
+"विकल्प सक्षम पार्नुहोस् । अन्य प्रयोगकर्ताले नयाँ फाइलहरू थप्न मात्र सक्छन्, "
+"जसका लागि 'परिमार्जन सामाग्री' अनुमति आवश्यक हुन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1730
+msgid ""
+"Enable this option to mark the file as executable. This only makes sense for "
+"programs and scripts. It is required when you want to execute them."
+msgstr ""
+"कार्यान्वयनयोग्य फाइलको रूपमा चिनो लगाउन यो विकल्प सक्षम पार्नुहोस् । यसले "
+"मात्र कार्यक्रमहरू र स्क्रिप्टहरूका लागि अर्थ दिन्छ । तपाईँले तिनीहरूलाई "
+"कार्यान्वयन गर्न चाहेमा यो आवश्यक हुन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1737
+msgid "A&dvanced Permissions"
+msgstr "उन्नत अनुमति"
+
+#: kfile/kpropertiesdialog.cpp:1746
+msgid "Ownership"
+msgstr "स्वामित्व"
+
+#: kfile/kpropertiesdialog.cpp:1753
+msgid "User:"
+msgstr "प्रयोगकर्ता:"
+
+#: kfile/kpropertiesdialog.cpp:1828
+msgid "Group:"
+msgstr "समूह:"
+
+#: kfile/kpropertiesdialog.cpp:1871
+msgid "Apply changes to all subfolders and their contents"
+msgstr "सबै फोल्डरमा र तिनीहरूको समाग्रीमा परिवर्तनहरू लागू गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1911
+msgid "Advanced Permissions"
+msgstr "उन्नत अनुमति"
+
+#: kfile/kpropertiesdialog.cpp:1929
+msgid "Class"
+msgstr "वर्ग"
+
+#: kfile/kpropertiesdialog.cpp:1934
+msgid ""
+"Show\n"
+"Entries"
+msgstr ""
+"प्रविष्टिहरू\n"
+"देखाउनुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1936
+msgid "Read"
+msgstr "पढ्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1941
+msgid "This flag allows viewing the content of the folder."
+msgstr "यो झण्डाले फोल्डरको समाग्री देखाउने अनुमति दिन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1943
+msgid "The Read flag allows viewing the content of the file."
+msgstr "पढ्ने झण्डाले फोल्डरको समाग्री देखाउने अनुमति दिन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1947
+msgid ""
+"Write\n"
+"Entries"
+msgstr ""
+"प्रविष्टिहरू\n"
+"लेख्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1949
+msgid "Write"
+msgstr "लेख्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1954
+msgid ""
+"This flag allows adding, renaming and deleting of files. Note that deleting "
+"and renaming can be limited using the Sticky flag."
+msgstr ""
+"यस झण्डाले फाइलहरूमा थप्न, नाम फेर्न, र मेट्न अनुमति दिन्छ । याद गर्नुहोस् "
+"कि टाँसिने झण्डा प्रयोग गरेर मेट्ने र नाम फेर्ने सीमित हुन सक्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1957
+msgid "The Write flag allows modifying the content of the file."
+msgstr "लेखिएको झण्डाले फाइलको सामाग्री परिमार्जन गर्न अनुमति दिन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1962
+msgctxt "Enter folder"
+msgid "Enter"
+msgstr "प्रविष्ट गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:1963
+msgid "Enable this flag to allow entering the folder."
+msgstr "फोल्डरमा प्रविष्टि गर्दा अनुमति दिन यो झण्डा सक्षम पार्नुहोस् ।"
+
+#: kfile/kpropertiesdialog.cpp:1966
+msgid "Exec"
+msgstr "Exec"
+
+#: kfile/kpropertiesdialog.cpp:1967
+msgid "Enable this flag to allow executing the file as a program."
+msgstr ""
+"कार्यक्रमको रूपमा फाइल कार्यान्वयन गर्दा अनुमति दिन यो सक्षम पार्नुहोस् ।"
+
+#: kfile/kpropertiesdialog.cpp:1977
+msgid "Special"
+msgstr "विशेष"
+
+#: kfile/kpropertiesdialog.cpp:1981
+msgid ""
+"Special flag. Valid for the whole folder, the exact meaning of the flag can "
+"be seen in the right hand column."
+msgstr ""
+"विशेष झण्डा । सबै फोल्डरका लागि वैद्य हुन्छ, झण्डाको दुरुस्त अर्थ दायाँ "
+"स्तम्भमा देख्न सकिन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1984
+msgid ""
+"Special flag. The exact meaning of the flag can be seen in the right hand "
+"column."
+msgstr "विशेष झण्डा । झण्डाको दुरुस्त अर्थ दायाँ स्तम्भमा देख्न सकिन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:1988
+msgid "User"
+msgstr "प्रयोगकर्ता"
+
+#: kfile/kpropertiesdialog.cpp:1992
+msgid "Group"
+msgstr "समूह"
+
+#: kfile/kpropertiesdialog.cpp:2000
+msgid "Set UID"
+msgstr "UID सेट गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:2004
+msgid ""
+"If this flag is set, the owner of this folder will be the owner of all new "
+"files."
+msgstr "यदि झण्डा सेट भएमा, यो फोल्डरको मालिक सबै नयाँ फाइलको मालिक हुनेछ ।"
+
+#: kfile/kpropertiesdialog.cpp:2007
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the owner."
+msgstr ""
+"यदि यो फाइल कार्यान्वयन योग्य छ र झण्डा सेट भएमा, यो मालिकको अनुमतिसँग "
+"कार्यान्वयन हुनेछ ।"
+
+#: kfile/kpropertiesdialog.cpp:2011
+msgid "Set GID"
+msgstr "GID सेट गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:2015
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
+msgstr ""
+"यदि यो झण्डा सेट भएमा, यो फोल्डरको समूह सबै नयाँ फाइलहरूका लागि सेट हुनेछ ।"
+
+#: kfile/kpropertiesdialog.cpp:2018
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the group."
+msgstr ""
+"यदि यो फाइल कार्यान्वयन योग्य छ र झण्डा सेट भएमा, यो समूहको अनुमतिसँग "
+"कार्यान्वयन हुनेछ ।"
+
+#: kfile/kpropertiesdialog.cpp:2022
+msgctxt "File permission"
+msgid "Sticky"
+msgstr "टाँसिने"
+
+#: kfile/kpropertiesdialog.cpp:2026
+msgid ""
+"If the Sticky flag is set on a folder, only the owner and root can delete or "
+"rename files. Otherwise everybody with write permissions can do this."
+msgstr ""
+"यदि टाँसिने झण्डा फोल्डरमा सेट भएमा, मालिक रुट मात्र मेट्न सकिन्छ वा फाइलहरू "
+"नाम फेर्न सकिन्छ । अन्यथा लेख्ने अनुमति हुने सबैजना यो गर्न सक्छन् ।"
+
+#: kfile/kpropertiesdialog.cpp:2030
+msgid ""
+"The Sticky flag on a file is ignored on Linux, but may be used on some "
+"systems"
+msgstr ""
+"लिनक्समा फाइलको टाँसिने झण्डा उपेक्षा गरिन्छ, तर केही प्रणालीहरूमा प्रयोग "
+"हुन सक्छ"
+
+#: kfile/kpropertiesdialog.cpp:2207
+msgid "Link"
+msgstr "लिङ्क गर्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:2224
+msgid "Varying (No Change)"
+msgstr "भिन्न गराउँदै (परिवर्तन छैन)"
+
+#: kfile/kpropertiesdialog.cpp:2323
+msgid "This file uses advanced permissions"
+msgid_plural "These files use advanced permissions."
+msgstr[0] "यो फाइलले उन्नत अनुमतिहरू प्रयोग गर्छ"
+msgstr[1] "यी फाइलहरूले उन्नत अनुमति प्रयोग गर्छन् ।"
+
+#: kfile/kpropertiesdialog.cpp:2344
+msgid "This folder uses advanced permissions."
+msgid_plural "These folders use advanced permissions."
+msgstr[0] "यो फोल्डरले उन्नत अनुमतिहरू प्रयोग गर्छ"
+msgstr[1] "यी फोल्डरहरूले उन्नत अनुमति प्रयोग गर्छन् ।"
+
+#: kfile/kpropertiesdialog.cpp:2360
+msgid "These files use advanced permissions."
+msgstr "यी फाइलहरूले उन्नत अनुमति प्रयोग गर्छन् ।"
+
+#: kfile/kpropertiesdialog.cpp:2578
+msgid "U&RL"
+msgstr "यूआरएल"
+
+#: kfile/kpropertiesdialog.cpp:2585
+msgid "URL:"
+msgstr "यूआरएल:"
+
+#: kfile/kpropertiesdialog.cpp:2713
+msgid "De&vice"
+msgstr "यन्त्र"
+
+#: kfile/kpropertiesdialog.cpp:2744
+msgid "Device (/dev/fd0):"
+msgstr "यन्त्र (/dev/fd0):"
+
+#: kfile/kpropertiesdialog.cpp:2745
+msgid "Device:"
+msgstr "यन्त्र:"
+
+#: kfile/kpropertiesdialog.cpp:2758
+msgid "Read only"
+msgstr "पढ्ने मात्र"
+
+#: kfile/kpropertiesdialog.cpp:2762
+msgid "File system:"
+msgstr "फाइल प्रणाली:"
+
+#: kfile/kpropertiesdialog.cpp:2770
+msgid "Mount point (/mnt/floppy):"
+msgstr "माउन्ट बिन्दु (/mnt/फ्लपी):"
+
+#: kfile/kpropertiesdialog.cpp:2771
+msgid "Mount point:"
+msgstr "माउन्ट बिन्दु:"
+
+#: kfile/kpropertiesdialog.cpp:2804
+msgid "Unmounted Icon"
+msgstr "माउन्ट नगरिएको प्रतिमा"
+
+#: kfile/kpropertiesdialog.cpp:2926
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 out of %2 (%3% used)"
+msgstr "%2 मध्ये %1 (%3% प्रयोग गरियो)"
+
+#: kfile/kpropertiesdialog.cpp:3025
+msgid "&Application"
+msgstr "अनुप्रयोग"
+
+#: kfile/kpropertiesdialog.cpp:3149
+#, kde-format
+msgid "Add File Type for %1"
+msgstr "%1 का लागि फाइल प्रकार थप्नुहोस्"
+
+#: kfile/kpropertiesdialog.cpp:3150
+msgid "Select one or more file types to add:"
+msgstr "थप्नका लागि एक वा धेरै फाइल प्रकारहरू चयन गर्नुहोस्:"
+
+#: kfile/kpropertiesdialog.cpp:3292
+msgid "Only executables on local file systems are supported."
+msgstr "स्थानीय फाइल प्रणालीमा कार्यान्वयन योग्य मात्र समर्थन गरिन्छ ।"
+
+#: kfile/kpropertiesdialog.cpp:3306
+#, kde-format
+msgid "Advanced Options for %1"
+msgstr "%1 का लागि उन्नत विकल्प"
+
+#: kfile/kfilesharedialog.cpp:59
+msgid "&Share"
+msgstr "बाँड्नुहोस्"
+
+#: kfile/kfilesharedialog.cpp:133
+msgid "Only folders in your home folder can be shared."
+msgstr "तपाईँका गृह फोल्डरका फोल्डरहरू मात्र बाँड्न सकिन्छ ।"
+
+#: kfile/kfilesharedialog.cpp:140
+msgid "Not shared"
+msgstr "बाँडिएको छैन"
+
+#: kfile/kfilesharedialog.cpp:145
+msgid "Shared"
+msgstr "बाँडिएको"
+
+#: kfile/kfilesharedialog.cpp:157
+msgid ""
+"Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
+"(Samba)."
+msgstr ""
+"यो फोल्डर बाँड्दा लिनक्स/यूनिक्स (NFS) र सञ्झ्यालहरू (साम्बा) मा उपलब्ध "
+"हुन्छन् ।"
+
+#: kfile/kfilesharedialog.cpp:164
+msgid "You can also reconfigure file sharing authorization."
+msgstr ""
+"तपाईँले फाइल बाँडफाँड अधिकार प्रदान कार्य पुन: कन्फिगर गर्न पनि सक्नुहुन्छ ।"
+
+#: kfile/kfilesharedialog.cpp:168 kfile/kfilesharedialog.cpp:192
+msgid "Configure File Sharing..."
+msgstr "फाइल बाँडफाँड कन्फिगर गर्नुहोस्..."
+
+#: kfile/kfilesharedialog.cpp:177
+msgid ""
+"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+msgstr ""
+"'फाइल बाँडफाँड सूची' चलाउदा त्रुटि । स्थापीत भएको र $बाटोमा वा /usr/sbin मा "
+"भएको जाँच गर्नुहोस् ।"
+
+#: kfile/kfilesharedialog.cpp:184
+msgid "You need to be authorized to share folders."
+msgstr "फोल्डरहरू बाँडफाँड गर्न तपाईँ आधिकारीक हुनु आवश्यक छ ।"
+
+#: kfile/kfilesharedialog.cpp:187
+msgid "File sharing is disabled."
+msgstr "फाइल बाँडफाँड अक्षम पारिएको छ ।"
+
+#: kfile/kfilesharedialog.cpp:254
+#, kde-format
+msgid "Sharing folder '%1' failed."
+msgstr "'%1' फोल्डरको बाँडफाँड असफल भयो ।"
+
+#: kfile/kfilesharedialog.cpp:255
+#, kde-format
+msgid ""
+"An error occurred while trying to share folder '%1'. Make sure that the Perl "
+"script 'fileshareset' is set suid root."
+msgstr ""
+"'%1' फोल्डरमा बाँडफाँड गर्ने प्रयास गर्दा त्रुटि देखापरेको छ । पर्ल "
+"स्क्रिप्ट 'फाइल बाँडफाँड सेट' सुइड रुट सेट भएको निश्चित गर्नुहोस् ।"
+
+#: kfile/kfilesharedialog.cpp:260
+#, kde-format
+msgid "Unsharing folder '%1' failed."
+msgstr "'%1' फोल्डर बाँडफाँड असफल भयो ।"
+
+#: kfile/kfilesharedialog.cpp:261
+#, kde-format
+msgid ""
+"An error occurred while trying to unshare folder '%1'. Make sure that the "
+"Perl script 'fileshareset' is set suid root."
+msgstr ""
+"'%1' फोल्डर बाँडफाँड गर्ने प्रयास गर्दा त्रुटि देखा परेको छ । पर्ल स्क्रिप्ट "
+"'फाइल बाँडफाँड सेट' सुइड रुट सेट भएको निश्चित गर्नुहोस् ।"
+
+#: httpfilter/httpfilter.cc:179
+msgid "Receiving corrupt data."
+msgstr "बिग्रेको डेटा प्राप्त गर्दै ।"
+
+#: misc/kmailservice.cpp:30
+msgid "KMailService"
+msgstr "केडीई पत्र सेवा"
+
+#: misc/kmailservice.cpp:30
+msgid "Mail service"
+msgstr "पत्र सेवा"
+
+#: misc/ksendbugmail/main.cpp:43
+msgid "Error connecting to server."
+msgstr "सर्भरमा जडान गर्दा त्रुटि ।"
+
+#: misc/ksendbugmail/main.cpp:46
+msgid "Not connected."
+msgstr "जडान भएको छैन ।"
+
+#: misc/ksendbugmail/main.cpp:49
+msgid "Connection timed out."
+msgstr "जडान समय समाप्त ।"
+
+#: misc/ksendbugmail/main.cpp:52
+msgid "Time out waiting for server interaction."
+msgstr "सर्भर अन्तरक्रियाका लागि प्रतिक्षा समाप्त ।"
+
+#: misc/ksendbugmail/main.cpp:56
+#, kde-format
+msgid "Server said: \"%1\""
+msgstr "सर्भरले उच्चारण गर्यो: \"%1\""
+
+#: misc/ksendbugmail/main.cpp:73
+msgid "KSendBugMail"
+msgstr "केडीईले बग पत्र पठायो"
+
+#: misc/ksendbugmail/main.cpp:74
+msgid "Sends a bug report by email"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:75
+msgid "(c) 2000 Stephan Kulow"
+msgstr "(c) 2000 स्टेफन कुलो"
+
+#: misc/ksendbugmail/main.cpp:76
+msgid "Stephan Kulow"
+msgstr "स्टेफन कुलो"
+
+#: misc/ksendbugmail/main.cpp:76
+msgid "Author"
+msgstr "लेखक"
+
+#: misc/ksendbugmail/main.cpp:79
+msgid "Subject line"
+msgstr "विषय रेखा"
+
+#: misc/ksendbugmail/main.cpp:80
+msgid "Recipient"
+msgstr "प्रापक"
+
+#: misc/ktelnetservice.cpp:39
+msgid "telnet service"
+msgstr "टेल्नेट सेवा"
+
+#: misc/ktelnetservice.cpp:40
+msgid "telnet protocol handler"
+msgstr "टेल्नेट प्रोटोकल ह्यान्डलर"
+
+#: misc/ktelnetservice.cpp:74
+#, kde-format
+msgid "You do not have permission to access the %1 protocol."
+msgstr "तपाईँलाई %1 प्रोटोकलमा पहुँच अनुमति नहुन सक्छ ।"
+
+#: misc/kpac/downloader.cpp:81
+#, kde-format
+msgid ""
+"Could not download the proxy configuration script:\n"
+"%1"
+msgstr ""
+"प्रोक्सी कन्फिगरेसन स्क्रिप्ट डाउनलोड गर्न सकेन:\n"
+"%1"
+
+#: misc/kpac/downloader.cpp:83
+msgid "Could not download the proxy configuration script"
+msgstr "प्रोक्सी कन्फिगरेसन स्क्रिप्ट डाउनलोड गर्न सकेन"
+
+#: misc/kpac/discovery.cpp:121
+msgid "Could not find a usable proxy configuration script"
+msgstr "प्रयोगयोग्य प्रोक्सी कन्फिगरेसन स्क्रिप्ट फेला पार्न सकेन"
+
+#: misc/kpac/proxyscout.cpp:131
+#, kde-format
+msgid ""
+"The proxy configuration script is invalid:\n"
+"%1"
+msgstr ""
+"प्रोक्सी कन्फिगरेसन स्क्रिप्ट अवैद्य छ:\n"
+"%1"
+
+#: misc/kpac/proxyscout.cpp:195
+#, kde-format
+msgid ""
+"The proxy configuration script returned an error:\n"
+"%1"
+msgstr ""
+"प्रोक्सी कन्फिगरेसन स्क्रिप्टले एक त्रुटि फिर्ता गर्यो:\n"
+"%1"
+
+#: bookmarks/kbookmarkmenu.cc:267
+msgid "Add Bookmark Here"
+msgstr "यहाँ पुस्तकचिनो थप्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:272
+msgid "Open Folder in Bookmark Editor"
+msgstr "पुस्तकचिनो सम्पादकमा फोल्डर खोल्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:275
+msgid "Delete Folder"
+msgstr "फोल्डर मेट्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1983
+msgid "Properties"
+msgstr "गुण"
+
+#: bookmarks/kbookmarkmenu.cc:286
+msgid "Copy Link Address"
+msgstr "लिङ्क ठेगाना प्रतिलिपि गर्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:289
+msgid "Delete Bookmark"
+msgstr "पुस्तकचिनो मेट्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:295 bookmarks/kbookmarkmenu.cc:454
+msgid "Open Folder in Tabs"
+msgstr "ट्याबमा फोल्डर खोल्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:320
+msgid "Cannot add bookmark with empty URL."
+msgstr "खाली यूआरएलमा पुस्तचिनो थप्न सकिदैन ।"
+
+#: bookmarks/kbookmarkmenu.cc:352
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"के तपाईँ पुस्तकचिनो फोल्डर हटाउन निश्चित हुनुहुन्छ \n"
+"\"%1\"?"
+
+#: bookmarks/kbookmarkmenu.cc:353
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"के तपाईँ पुस्तकचिनो हटाउन निश्चित हुनुहुन्छ\n"
+"\"%1\"?"
+
+#: bookmarks/kbookmarkmenu.cc:354
+msgid "Bookmark Folder Deletion"
+msgstr "पुस्तकचिनो फोल्डर मेटाइ"
+
+#: bookmarks/kbookmarkmenu.cc:355
+msgid "Bookmark Deletion"
+msgstr "पुस्तकचिनो मेटाइ"
+
+#: bookmarks/kbookmarkmenu.cc:458
+msgid "Open all bookmarks in this folder as a new tab."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:471
+msgid "Bookmark Tabs as Folder..."
+msgstr "फोल्डरको रूपमा पुस्तकचिनो ट्याबहरू..."
+
+#: bookmarks/kbookmarkmenu.cc:475
+msgid "Add a folder of bookmarks for all open tabs."
+msgstr "सबै खुला ट्याबहरूका लागि पुस्तकचिनोहरूको फोल्डर थप्नुहोस् ।"
+
+#: bookmarks/kbookmarkmenu.cc:508
+msgid "Edit your bookmark collection in a separate window"
+msgstr "अलगै सञ्झ्यालमा तपाईँको पुस्तकचिनो समूह सम्पादन गर्नुहोस्"
+
+#: bookmarks/kbookmarkmenu.cc:517
+msgid "New Bookmark Folder..."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:519
+msgid "Create a new bookmark folder in this menu"
+msgstr "यो मेनुमा नयाँ पुस्तकचिनो फोल्डर सिर्जना गर्नुहोस्"
+
+#: bookmarks/kbookmarkimporter_ns.cc:115 bookmarks/kbookmarkimporter_ns.cc:119
+msgid "*.html|HTML Files (*.html)"
+msgstr "*.html|HTML फाइल (*.html)"
+
+#: bookmarks/kbookmarkimporter_ns.cc:162
+msgid "<!-- This file was generated by Konqueror -->"
+msgstr "<!-- यो फाइल कन्क्वेररद्वारा सिर्जना गरिएको थियो -->"
+
+#: bookmarks/kbookmarkimporter_ns.cc:165 bookmarks/kbookmarkimporter_ns.cc:166
+#: bookmarks/kbookmarkdialog.cc:345 ../kfile/kfilewidget.cpp:2475
+msgid "Bookmarks"
+msgstr "पुस्तकचिनो"
+
+#: bookmarks/kbookmarkimporter_opera.cc:121
+#: bookmarks/kbookmarkimporter_opera.cc:125
+msgid "*.adr|Opera Bookmark Files (*.adr)"
+msgstr "*.adr|अपेरा पुस्तकचिनो फाइलहरू (*.adr)"
+
+#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
+msgid "Hide in toolbar"
+msgstr ""
+
+#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
+msgid "Show in toolbar"
+msgstr ""
+
+#: bookmarks/konqbookmarkmenu.cc:71
+msgid "Open in New Window"
+msgstr "नयाँ सञ्झ्यालमा खोल्नुहोस्"
+
+#: bookmarks/konqbookmarkmenu.cc:72
+msgid "Open in New Tab"
+msgstr "नयाँ ट्याबमा खोल्नुहोस्"
+
+#: bookmarks/kbookmark.cc:321
+msgid "--- separator ---"
+msgstr "--- विभाजक ---"
+
+#: bookmarks/kbookmarkdialog.cc:41
+msgctxt "@action:button"
+msgid "Update"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:42
+msgctxt "@title:window"
+msgid "Bookmark Properties"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:67 bookmarks/kbookmarkdialog.cc:96
+msgctxt "@action:button"
+msgid "Add"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:68
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:69 bookmarks/kbookmarkdialog.cc:98
+#: bookmarks/kbookmarkdialog.cc:122
+msgctxt "@action:button"
+msgid "&New Folder..."
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:97
+msgctxt "@title:window"
+msgid "Add Bookmarks"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:123 ../kfile/kdirselectdialog.cpp:278
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:148 ../kfile/kdirselectdialog.cpp:132
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:273
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:278
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:309
+msgctxt "@title:window"
+msgid "Create New Bookmark Folder"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:310
+#, kde-format
+msgctxt "@title:window"
+msgid "Create New Bookmark Folder in %1"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:313
+msgctxt "@label:textbox"
+msgid "New folder:"
+msgstr ""
+
+#: bookmarks/kbookmarkmanager.cc:444
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+"%1 मा पुस्तकचिनोहरू बचत गर्न अक्षम । प्रतिवेदित त्रुटि: %2 थियो । यो त्रुटि "
+"सन्देश एक पटक मात्र देखिनेछ । सम्भव भए सम्म चाँडो त्रुटिको कारण स्थिर हुन "
+"आवश्यक हुन्छ, जुन पूरै हार्डड्राइभ जस्तो छ ।"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabingautam2001@yahoo.com shyamkrishna_bal@yahoo.com,,,"
+
+#. i18n: file: kssl/keygenwizard.ui:35
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:5
+msgid ""
+"You have indicated that you wish to obtain or purchase a secure certificate. "
+"This wizard is intended to guide you through the procedure. You may cancel "
+"at any time, and this will abort the transaction."
+msgstr ""
+"तपाईँले सुरक्षित प्रमाणपत्र खरीद गर्न वा प्राप्त गर्न सूचित गर्नुभयो । "
+"तपाईँलाई कार्य विधिबाट मार्गदर्शन गर्न यो विजार्ड चाहिन्छ । तपाईँले कुनै पनि "
+"बेलामा रद्द गर्न सक्नुहुन्छ, र यसले प्रकार्य परित्याग गर्नेछ ।"
+
+#. i18n: file: kssl/keygenwizard2.ui:35
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: rc.cpp:8
+msgid ""
+"You must now provide a password for the certificate request. Please choose a "
+"very secure password as this will be used to encrypt your private key."
+msgstr ""
+"तपाईँले प्रमाणपत्र अनुरोधका लागि अहिले पासवर्ड उपलब्ध गराउनु पर्छ । कृपया "
+"अत्यन्तै सुरक्षित पासवर्ड रोज्नुहोस् यो तपाईँको निजी कुञ्जीमा गुप्त रूपमा "
+"प्रयोग हुनेछ ।"
+
+#. i18n: file: kssl/keygenwizard2.ui:48
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:11
+msgid "&Repeat password:"
+msgstr "पासवर्ड दोहोर्याउनुहोस्:"
+
+#. i18n: file: kssl/keygenwizard2.ui:58
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:14
+msgid "&Choose password:"
+msgstr "पासवर्ड रोज्नुहोस्:"
+
+#. i18n: file: kssl/sslinfo.ui:16
+#. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
+#: rc.cpp:17
+msgid "[padlock]"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:30
+#. i18n: ectx: property (text), widget (QLabel, addressTag)
+#: rc.cpp:21
+msgctxt "Web page address"
+msgid "Address:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:47
+#. i18n: ectx: property (text), widget (QLabel, ipTag)
+#: rc.cpp:25
+msgid "IP address:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:64
+#. i18n: ectx: property (text), widget (QLabel, encryptionTag)
+#: rc.cpp:29
+msgid "Encryption:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:81
+#. i18n: ectx: property (text), widget (QLabel, detailsTag)
+#: rc.cpp:33
+msgid "Details:"
+msgstr "विवरण:"
+
+#. i18n: file: kssl/sslinfo.ui:98
+#. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
+#: rc.cpp:37
+msgid "SSL version:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:115
+#. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
+#: rc.cpp:41
+msgid "Certificate chain:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:144
+#. i18n: ectx: property (text), widget (QLabel, trustedTag)
+#: rc.cpp:44
+msgid "Trusted:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:161
+#. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
+#: rc.cpp:48
+msgid "Validity period:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:178
+#. i18n: ectx: property (text), widget (QLabel, serialTag)
+#: rc.cpp:52
+msgid "Serial number:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:195
+#. i18n: ectx: property (text), widget (QLabel, digestTag)
+#: rc.cpp:56
+msgid "MD5 digest:"
+msgstr ""
+
+#. i18n: file: kssl/sslinfo.ui:211
+#. i18n: ectx: property (text), widget (QLabel, sha1DigestTag)
+#: rc.cpp:59
+msgid "SHA1 digest:"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:27
+#. i18n: ectx: property (text), widget (QLabel, commonNameTag)
+#: rc.cpp:63
+msgid "Common name:"
+msgstr "साझा नाम:"
+
+#. i18n: file: kssl/certificateparty.ui:37
+#. i18n: ectx: property (text), widget (QLabel, commonName)
+#: rc.cpp:66
+msgid "Acme Co."
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:44
+#. i18n: ectx: property (text), widget (QLabel, organizationTag)
+#: rc.cpp:69
+msgid "Organization:"
+msgstr "सङ्गठन:"
+
+#. i18n: file: kssl/certificateparty.ui:54
+#. i18n: ectx: property (text), widget (QLabel, organization)
+#: rc.cpp:72
+msgid "Acme Sundry Products Company"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:61
+#. i18n: ectx: property (text), widget (QLabel, organizationalUnitTag)
+#: rc.cpp:75
+msgid "Organizational unit:"
+msgstr "सङ्गठनात्मक एकाइ:"
+
+#. i18n: file: kssl/certificateparty.ui:71
+#. i18n: ectx: property (text), widget (QLabel, organizationalUnit)
+#: rc.cpp:78
+msgid "Fraud Department"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:78
+#. i18n: ectx: property (text), widget (QLabel, countryTag)
+#: rc.cpp:81
+msgid "Country:"
+msgstr "देश:"
+
+#. i18n: file: kssl/certificateparty.ui:88
+#. i18n: ectx: property (text), widget (QLabel, country)
+#: rc.cpp:84
+msgid "Canada"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:95
+#. i18n: ectx: property (text), widget (QLabel, stateTag)
+#: rc.cpp:87
+msgid "State:"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:105
+#. i18n: ectx: property (text), widget (QLabel, state)
+#: rc.cpp:90
+msgid "Quebec"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:112
+#. i18n: ectx: property (text), widget (QLabel, cityTag)
+#: rc.cpp:93
+msgid "City:"
+msgstr ""
+
+#. i18n: file: kssl/certificateparty.ui:122
+#. i18n: ectx: property (text), widget (QLabel, city)
+#: rc.cpp:96
+msgid "Lakeridge Meadows"
+msgstr ""
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:11
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
+#: rc.cpp:99
+msgctxt ""
+"@title:group Title of a group that lets the user choose options about the "
+"terminal when launching a program"
+msgid "Terminal"
+msgstr ""
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:33
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCheck)
+#: rc.cpp:102
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application or if you want the information that is provided by the terminal "
+"emulator window."
+msgstr ""
+"यदि तपाईँले चलाउन चाहनुभएको अनुप्रयोग पाठ मोड अनुप्रयोग हो वा यदि तपाईँ "
+"टर्मिनल इमुलेटर सञ्झ्यालले उपलब्ध गराएको सूचना चाहनुहुन्छ भने यो विकल्प जाँच "
+"गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
+#: rc.cpp:105
+msgid "&Run in terminal"
+msgstr "टर्मिनलमा चलाउनुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:43
+#. i18n: ectx: property (text), widget (QLabel, terminalEditLabel)
+#: rc.cpp:108
+msgid "&Terminal options:"
+msgstr "टर्मिनल विकल्प:"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:53
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
+#: rc.cpp:111
+msgid ""
+"Check this option if the text mode application offers relevant information "
+"on exit. Keeping the terminal emulator open allows you to retrieve this "
+"information."
+msgstr ""
+"यदि पाठ मोड अनुप्रयोगले अन्त्य गर्दा सान्दर्भिक सूचना प्रस्ताव गर्दछ भने यो "
+"विकल्प जाँच गर्नुहोस् । टर्मिनल इमुलेटर खुल्ला राख्नले यो सूचना पुन: प्राप्त "
+"गर्न अनुमति दिन्छ ।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
+#: rc.cpp:114
+msgid "Do not &close when command exits"
+msgstr "आदेश अवस्थित हुँदा बन्द नगर्नुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2_2)
+#: rc.cpp:117
+msgctxt ""
+"@title:group Title of a group that lets the user choose which user to use "
+"when launching a program"
+msgid "User"
+msgstr ""
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:75
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, suidCheck)
+#: rc.cpp:120
+msgid ""
+"Check this option if you want to run this application with a different user "
+"id. Every process has a different user id associated with it. This id code "
+"determines file access and other permissions. The password of the user is "
+"required to use this option."
+msgstr ""
+"फरक प्रयोगकर्ता आईडीसँग यदि तपाईँ यो अनुप्रयोग चलाउन चाहनुहुन्छ भने यो "
+"विकल्प जाँच गर्नुहोस् । प्रत्येक प्रक्रिया यससँग सम्बन्धित फरक प्रयोगकर्ता "
+"आईडीसँग हुन्छ । यो आईडी सङ्केतले फाइल पहुँच र अन्य अनुमतिहरू निर्धारण गर्छ । "
+"यो विकल्प प्रयोग गर्न प्रयोगकर्ताको पासवर्ड आवश्यक हुन्छ ।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:78
+#. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
+#: rc.cpp:123
+msgid "Ru&n as a different user"
+msgstr "फरक प्रयोगकर्ताको रूपमा चलाउनुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:101
+#. i18n: ectx: property (whatsThis), widget (QLabel, suidEditLabel)
+#: rc.cpp:126
+msgid "Enter the user name you want to run the application as."
+msgstr ""
+"तपाईँले यसरूपमा अनुप्रयोग चलाउन चाहनुभएको प्रयोगकर्ता नाम प्रविष्ट गर्नुहोस् "
+"।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:104
+#. i18n: ectx: property (text), widget (QLabel, suidEditLabel)
+#: rc.cpp:129
+msgid "&Username:"
+msgstr "प्रयोगकर्ता नाम:"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:114
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, suidEdit)
+#: rc.cpp:132
+msgid "Enter the user name you want to run the application as here."
+msgstr ""
+"तपाईँले यहाँ जस्तै अनुप्रयोग चलाउन चाहनुभएको प्रयोगकर्ताको नाम प्रविष्ट "
+"गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:124
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
+#: rc.cpp:135
+msgctxt ""
+"@title:group Title of a group that lets the user choose options regargin "
+"program startup"
+msgid "Startup"
+msgstr ""
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:130
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, startupInfoCheck)
+#: rc.cpp:138
+msgid ""
+"Check this option if you want to make clear that your application has "
+"started. This visual feedback may appear as a busy cursor or in the taskbar."
+msgstr ""
+"यदि तपाईँ सुरु भएको अनुप्रयोग खाली गर्न चाहनुहुन्छ भने यो विकल्प जाँच "
+"गर्नुहोस् । यो पृष्ठपोषण दृश्य व्यस्त कर्सरको रूपमा वा उपकरणपट्टीमा देखिन "
+"सक्छ ।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:133
+#. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
+#: rc.cpp:141
+msgid "Enable &launch feedback"
+msgstr "पृष्ठपोषण सुरुआत सक्षम पार्नुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:140
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, systrayCheck)
+#: rc.cpp:144
+msgid ""
+"Check this option if you want to have a system tray handle for your "
+"application."
+msgstr ""
+"यदि तपाईँ प्रणाली ट्रे अनुप्रयोगका लागि ह्यान्डल गर्न चाहनुहुन्छ भने यो "
+"विकल्प जाँच गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
+#: rc.cpp:147
+msgid "&Place in system tray"
+msgstr "प्रणाली ट्रे मा राख्नुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:150
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: rc.cpp:150
+msgid "&D-Bus registration:"
+msgstr ""
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:161
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: rc.cpp:153
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:166
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: rc.cpp:156
+msgid "Multiple Instances"
+msgstr "बहुविद दृष्टान्तहरू"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:171
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: rc.cpp:159
+msgid "Single Instance"
+msgstr "एकल दृष्टान्त"
+
+#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:176
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: rc.cpp:162
+msgid "Run Until Finished"
+msgstr "अन्त्यसम्म चलाउनुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:14
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:27
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameEdit)
+#: rc.cpp:165 rc.cpp:171
+msgid ""
+"Type the name you want to give to this application here. This application "
+"will appear under this name in the applications menu and in the panel."
+msgstr ""
+"यहाँ तपाईँले यो अनुप्रयोगमा दिन चाहनुभएको नाम टाइप गर्नुहोस् । यो अनुप्रयोग "
+"प्यानल र अनुप्रयोग मेनुमा तलको नाममा देखापर्नेछ ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:17
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: rc.cpp:168 ../kfile/kfilewidget.cpp:532
+msgid "&Name:"
+msgstr "नाम:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:34
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:47
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, genNameEdit)
+#: rc.cpp:174 rc.cpp:180
+msgid ""
+"Type the description of this application, based on its use, here. Examples: "
+"a dial up application (KPPP) would be \"Dial up tool\"."
+msgstr ""
+"यहाँ यसको प्रयोग हुने आधारमा यो अनुप्रयोगको प्रकार वर्णन गर्नुहोस् । "
+"उदाहरणहरू: डायल गरिएको अनुप्रयोग (KPPP) \"डायल गरिएको उपकरण\" हुनेछ ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:37
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:177
+msgid "&Description:"
+msgstr "वर्णन:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:54
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:67
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, commentEdit)
+#: rc.cpp:183 rc.cpp:189
+msgid "Type any comment you think is useful here."
+msgstr "तपाईँलाई यहाँ काम लाग्ने कुनै पनि टिप्पणी टाइप गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:57
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:186
+msgid "Comm&ent:"
+msgstr "टिप्पणी:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:85
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:111
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, commandEdit)
+#: rc.cpp:193 rc.cpp:211
+#, no-c-format
+msgid ""
+"Type the command to start this application here.\n"
+"\n"
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the caption"
+msgstr ""
+"यहाँ यो अनुप्रयोग सुरु गर्न आदेश टाइप गर्नुहोस् ।\n"
+"\n"
+"आदेश पालना गर्दा, तपाईँसँग धेरै स्थान होल्डरहरू हुन सक्छन् जुन वास्तवीक "
+"कार्यक्रम चलेको बेलामा वास्तवीक मानहरूबाट प्रतिस्थपित हुने छन्:\n"
+"%f - एकल फाइलनाम\n"
+"%F - फाइलहरूको सूची; एक पटकमा धेरै स्थानीय फाइलहरू खोल्न सक्ने "
+"अनुप्रयोगहरूका लागि प्रयोग गर्नुहोस् ।\n"
+"%u -एकल यूआरएल\n"
+"%U - यूआरएलहरूको एउटा सूची\n"
+"%d - खोल्न फाइलको डाइरेक्टरी\n"
+"%D - डाइरेक्टरीहरूको एउटा सूची\n"
+"%i - प्रतिमा\n"
+"%m - सानो-प्रतिमा\n"
+"%c - क्याप्सन"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:88
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:207
+msgid "Co&mmand:"
+msgstr "आदेश:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:118
+#. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
+#: rc.cpp:225
+msgid ""
+"Click here to browse your file system in order to find the desired "
+"executable."
+msgstr ""
+"तपाईँले चाहेका कार्यान्वयनयोग्य फेला पार्ने फाइल प्रणालीमा ब्राउज गर्न यहाँ "
+"क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:130
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:143
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathEdit)
+#: rc.cpp:231 rc.cpp:237
+msgid "Sets the working directory for your application."
+msgstr "तपाईँको अनुप्रयोगका लागि कार्य निर्देशिका सेट गर्छ ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:133
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:234
+msgid "&Work path:"
+msgstr "कार्य बाटो:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:157
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:178
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, filetypeList)
+#: rc.cpp:240 rc.cpp:248
+msgid ""
+"<qt><p>This list should show the types of file that your application can "
+"handle. This list is organized by <u>mimetypes</u>.</p>\n"
+"<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for "
+"identifying the type of data based on filename extensions and correspondent "
+"<u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in "
+"flower.bmp indicates that it is a specific kind of image, <u>image/x-"
+"bmp</u>. To know which application should open each type of file, the system "
+"should be informed about the abilities of each application to handle these "
+"extensions and mimetypes.</p>\n"
+"<p>If you want to associate this application with one or more mimetypes that "
+"are not in this list, click on the button <b>Add</b> below. If there are one "
+"or more filetypes that this application cannot handle, you may want to "
+"remove them from the list clicking on the button <b>Remove</b> "
+"below.</p></qt>"
+msgstr ""
+"<qt><p>तपाईँको अनुप्रयोग ह्यान्डल गर्न सक्ने फाइलको प्रकारहरू यो सूचीले "
+"देखाउनै पर्छ । यो सूची <u>माइम प्रकारहरू</u> द्वारा सङ्गठीत हुन्छ ।</p>\n"
+"<p>माइम, बहुद्देश्य इन्टरनेट (इ)मेल विस्तार, फाइलनाम विस्तारहरू र सुसङ्गत "
+"<u>माइम प्रकार </u> मा आधारित डेटा प्रकार पहिचान गर्नका लागि मानक प्रोटोकल "
+"हो । उदाहरणका लागिe: \"bmp\" भाग फ्लावरको बिन्दु पछाडि आउछ । .bmp ले यो "
+"निर्दिष्ट छवि प्रकार भएको सङ्केत गर्छ <u>छवि/x-bmp</u> ।प्रत्येक फाइल "
+"प्रकारको कुन अनुप्रयोग खोल्नु पर्छ जान्न, विस्तारहरू र माइम प्रकारहरू "
+"ह्यान्डल गर्न प्रत्येक अनुप्रयोगको क्षमताहरूको बारेमा प्रणाली सूचीत हुनै "
+"पर्छ ।</p>\n"
+"<p> यदि तपाईँ यो सूचीमा नभएका एक वा बढी माइम प्रकारसँग यो अनुप्रयोग सङ्गलग्न "
+"गर्न चाहेमा, तलको <b>थप्नुहोस्</b> बटनमा क्लिक गर्नुहोस् । यदि त्यहाँ एक वा "
+"बढी फाइल प्रकारहरू भएमा यो अनुप्रयोगले ह्यान्डल गर्न सकिँदैन, तपाईँ "
+"तिनीहरूलाई <b>हटाउनुहोस्</b> बटन तल क्लिक गरेर सूचीबाट हटाउन चाहनु भएको हुन "
+"सक्छ ।</p></qt>"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: rc.cpp:245
+msgid "&Supported file types:"
+msgstr "समर्थन गरिएका फाइल प्रकार:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:191
+#. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
+#: rc.cpp:253
+msgid "Mimetype"
+msgstr "माइम प्रकार"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:196
+#. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
+#: rc.cpp:256
+msgid "Description"
+msgstr "वर्णन"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:206
+#. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
+#: rc.cpp:259
+msgid ""
+"Click on this button if you want to add a type of file (mimetype) that your "
+"application can handle."
+msgstr ""
+"तपाईँको अनुप्रयोगले ह्यान्डल गर्न सक्ने फाइलको प्रकार (माइम प्रकार) थप्न "
+"चाहेमा यो बटन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:209
+#. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
+#: rc.cpp:262
+msgid "Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:216
+#. i18n: ectx: property (whatsThis), widget (QPushButton, delFiletypeButton)
+#: rc.cpp:265
+msgid ""
+"If you want to remove a type of file (mimetype) that your application cannot "
+"handle, select the mimetype in the list above and click on this button."
+msgstr ""
+"तपाईँको अनुप्रयोग ह्यान्डल गर्न नसक्ने फाइलको प्रकार (माइम प्रकार) हटाउन "
+"चाहेमा, माथिको सूचीको माइमप्रकार चयन गर्नुहोस् र यो बटनमा क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:219
+#. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
+#: rc.cpp:268
+msgid "Remove"
+msgstr "हटाउनुहोस्"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:242
+#. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
+#: rc.cpp:271
+msgid ""
+"Click here to modify the way this application will run, launch feedback, D-"
+"Bus options or to run it as a different user."
+msgstr ""
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:245
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: rc.cpp:274
+msgid "Ad&vanced Options"
+msgstr "उन्नत विकल्प"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
+msgid "Cookie Alert"
+msgstr "कुकी सावधानी"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
+#, kde-format
+msgid "You received a cookie from"
+msgid_plural "You received %1 cookies from"
+msgstr[0] "तपाईँले यसबाट कुकी प्राप्त गर्नुभयो"
+msgstr[1] "तपाईँले यसबाट %1 कुकी प्राप्त गर्नुभयो"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
+msgid " <b>[Cross Domain]</b>"
+msgstr " <b>[क्रस डोमेन]</b>"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
+msgid "Do you want to accept or reject?"
+msgstr "तपाईँ स्वीकार वा अस्वीकार के गर्न चाहनुहुन्छ?"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
+msgid "Apply Choice To"
+msgstr "यसमा छनौट लागू गर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only this cookie"
+msgstr "यो कुकी मात्र"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only these cookies"
+msgstr "यी कुकी मात्र"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
+msgid ""
+"Select this option to accept/reject only this cookie. You will be prompted "
+"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
+"Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
+msgid "All cookies from this do&main"
+msgstr "यो डोमेनबाट सबै कुकीहरू"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
+msgid ""
+"Select this option to accept/reject all cookies from this site. Choosing "
+"this option will add a new policy for the site this cookie originated from. "
+"This policy will be permanent until you manually change it from the System "
+"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
+msgid "All &cookies"
+msgstr "सबै कुकीहरू"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
+msgid ""
+"Select this option to accept/reject all cookies from anywhere. Choosing this "
+"option will change the global cookie policy set in the System Settings for "
+"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
+msgid "&Accept"
+msgstr "स्वीकार गर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
+msgid "&Reject"
+msgstr "अस्वीकार गर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
+msgid "See or modify the cookie information"
+msgstr "कुकी सूचना परिमार्जन गर्नुहोस् वा हेर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
+msgid "Cookie Details"
+msgstr "कुकी विवरणहरू"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
+msgid "Value:"
+msgstr "मान:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
+msgid "Expires:"
+msgstr "म्याद समाप्त हुन्छ:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
+msgid "Path:"
+msgstr "मार्ग:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
+msgid "Domain:"
+msgstr "डोमेन:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
+msgid "Exposure:"
+msgstr "प्रदर्शन:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
+msgctxt "Next cookie"
+msgid "&Next >>"
+msgstr "पछिल्लो >>"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
+msgid "Show details of the next cookie"
+msgstr "पछिल्लो कुकीका विवरण देखाउनुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
+msgid "Not specified"
+msgstr "निर्दिष्ट गरिएको छैन"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
+msgid "End of Session"
+msgstr "सत्रको अन्त्य"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
+msgid "Secure servers only"
+msgstr "सर्भरहरू मात्र प्राप्त गर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
+msgid "Secure servers, page scripts"
+msgstr "सुरक्षित सर्भरहरू, पृष्ठ स्क्रिप्टहरू प्राप्त गर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
+msgid "Servers"
+msgstr "सर्भरहरू"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
+msgid "Servers, page scripts"
+msgstr "सर्भरहरू, पृष्ठ स्क्रिप्टहरू"
+
+#: ../kioslave/http/kcookiejar/main.cpp:33
+msgid "HTTP Cookie Daemon"
+msgstr "एचटीटीपी कुकी डेइमन"
+
+#: ../kioslave/http/kcookiejar/main.cpp:37
+msgid "HTTP cookie daemon"
+msgstr "HTTP कुकी डेइमन"
+
+#: ../kioslave/http/kcookiejar/main.cpp:40
+msgid "Shut down cookie jar"
+msgstr "कुकी जार बन्द गर्नुहोस्"
+
+#: ../kioslave/http/kcookiejar/main.cpp:41
+msgid "Remove cookies for domain"
+msgstr "डोमेनका लागि कुकीहरू हटाउनुहोस्"
+
+#: ../kioslave/http/kcookiejar/main.cpp:42
+msgid "Remove all cookies"
+msgstr "सबै कुकीहरू हटाउनुहोस्"
+
+#: ../kioslave/http/kcookiejar/main.cpp:43
+msgid "Reload configuration file"
+msgstr "कन्फिगरेसन फाइल पुन: लोड गर्नुहोस्"
+
+#: ../kioslave/http/http.cpp:554
+msgid "No host specified."
+msgstr "होस्ट निर्दिष्ट गरिएको छैन ।"
+
+#: ../kioslave/http/http.cpp:1387
+msgid "The resource cannot be deleted."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1508
+msgid "Otherwise, the request would have succeeded."
+msgstr "अन्यथा, अनुरोध सफल भएको हुनेछ ।"
+
+#: ../kioslave/http/http.cpp:1512
+msgctxt "request type"
+msgid "retrieve property values"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1515
+msgctxt "request type"
+msgid "set property values"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1518
+msgctxt "request type"
+msgid "create the requested folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1521
+msgctxt "request type"
+msgid "copy the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1524
+msgctxt "request type"
+msgid "move the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1527
+msgctxt "request type"
+msgid "search in the specified folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1530
+msgctxt "request type"
+msgid "lock the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1533
+msgctxt "request type"
+msgid "unlock the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1536
+msgctxt "request type"
+msgid "delete the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1539
+msgctxt "request type"
+msgid "query the server's capabilities"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1542
+msgctxt "request type"
+msgid "retrieve the contents of the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1545
+msgctxt "request type"
+msgid "run a report in the specified folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1557
+#, kde-format
+msgctxt "%1: code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1565
+msgid "The server does not support the WebDAV protocol."
+msgstr "सर्भरले वेभड्याभ प्रोटोकल समर्थन गर्दैन ।"
+
+#: ../kioslave/http/http.cpp:1607
+#, kde-format
+msgctxt "%1: request type, %2: url"
+msgid ""
+"An error occurred while attempting to %1, %2. A summary of the reasons is "
+"below."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1621 ../kioslave/http/http.cpp:1726
+#, kde-format
+msgctxt "%1: request type"
+msgid "Access was denied while attempting to %1."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1628
+msgid "The specified folder already exists."
+msgstr "निर्दिष्ट गरिएको फोल्डर पहिले नै अवस्थित छ ।"
+
+#: ../kioslave/http/http.cpp:1634 ../kioslave/http/http.cpp:1731
+msgid ""
+"A resource cannot be created at the destination until one or more "
+"intermediate collections (folders) have been created."
+msgstr ""
+"एक वा धरै आपसी सङ्ग्रहहरू (फोल्डरहरू) सिर्जना नभएसम्म संसाधन सिर्जना गर्न "
+"सकिँदैन ।"
+
+#: ../kioslave/http/http.cpp:1643
+#, kde-format
+msgid ""
+"The server was unable to maintain the liveness of the properties listed in "
+"the propertybehavior XML element or you attempted to overwrite a file while "
+"requesting that files are not overwritten. %1"
+msgstr ""
+"विशेषता व्यवहार XML तत्वमा सूचिकृत गरिएका गुणहरूको अस्तित्व सम्भार गर्न वा "
+"तपाईँले अनुरोध गर्दा फाइलहरू अधिलेखन नभएको बेलामा अधिलेखन गर्ने प्रयास गर्दा "
+"सर्भर अक्षम भयो । %1"
+
+#: ../kioslave/http/http.cpp:1653
+#, kde-format
+msgid "The requested lock could not be granted. %1"
+msgstr "अनुरोध गरिएको ताल्चा निकासा गर्न सकेन । %1"
+
+#: ../kioslave/http/http.cpp:1659
+msgid "The server does not support the request type of the body."
+msgstr "सर्भरले अनुरोध गरिएको प्रकारको मुख्य भाग समर्थन गर्दैन ।"
+
+#: ../kioslave/http/http.cpp:1664 ../kioslave/http/http.cpp:1738
+#, kde-format
+msgctxt "%1: request type"
+msgid "Unable to %1 because the resource is locked."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1668
+msgid "This action was prevented by another error."
+msgstr "अन्य त्रुटिद्वारा यो कार्य निषेध गरिएको थियो ।"
+
+#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1743
+#, kde-format
+msgctxt "%1: request type"
+msgid ""
+"Unable to %1 because the destination server refuses to accept the file or "
+"folder."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1682 ../kioslave/http/http.cpp:1749
+msgid ""
+"The destination resource does not have sufficient space to record the state "
+"of the resource after the execution of this method."
+msgstr ""
+"यो विधिको कार्यान्वयन पछि संसाधनको स्थिति रेकर्ड गर्न गन्तव्य संसाधनमा "
+"प्रयाप्त खाली ठाउँ छैन ।"
+
+#: ../kioslave/http/http.cpp:1704
+#, kde-format
+msgctxt "request type"
+msgid "upload %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1715
+#, kde-format
+msgctxt "%1: response code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:2464
+#, kde-format
+msgid "%1 contacted. Waiting for reply..."
+msgstr "%1 जडान भयो । जवाफका लागि प्रतिक्षा गर्दै..."
+
+#: ../kioslave/http/http.cpp:2829
+msgid "Server processing request, please wait..."
+msgstr "अनुरोध सर्भरमा प्रक्रिया हुदैछ, कृपया प्रतिक्षा गर्नुहोस्..."
+
+#: ../kioslave/http/http.cpp:3189
+msgid "Unknown Authorization method."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3218
+msgid "Authentication Failed."
+msgstr "प्रमाणीकरण असफल भयो ।"
+
+#: ../kioslave/http/http.cpp:3219 ../kioslave/http/http.cpp:4978
+msgid "Proxy Authentication Failed."
+msgstr "प्रोक्सी प्रमाणीकरण असफल भयो ।"
+
+#: ../kioslave/http/http.cpp:3251
+msgid "Authorization failed."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3729
+msgid "Requesting data to send"
+msgstr "पठाउँनका लागि अनुरोध गरिएको डेटा"
+
+#: ../kioslave/http/http.cpp:3761
+#, kde-format
+msgid "Sending data to %1"
+msgstr "%1 मा डेटा पठाउँदै"
+
+#: ../kioslave/http/http.cpp:4180
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr "%2 बाट %1 पुन: प्राप्त गरिँदैछ..."
+
+#: ../kioslave/http/http.cpp:4186
+#, kde-format
+msgid "Retrieving from %1..."
+msgstr "%1 बाट पुन: प्राप्त गरिँदैछ..."
+
+#: ../kioslave/http/http.cpp:4903 ../kioslave/ftp/ftp.cpp:477
+msgid "You need to supply a username and a password to access this site."
+msgstr ""
+"तपाईँले यो साइट पहुँच गर्न प्रयोगकर्ता नाम र पासवर्ड प्रविष्टि गर्न आवश्यक "
+"हुन्छ ।"
+
+#: ../kioslave/http/http.cpp:4910 ../kioslave/ftp/ftp.cpp:479
+msgid "Site:"
+msgstr "साइट:"
+
+#: ../kioslave/http/http.cpp:4911 ../kioslave/http/http.cpp:4927
+#: ../kioslave/http/http.cpp:4977
+#, kde-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr "<b>%1</b> मा <b>%2</b>"
+
+#: ../kioslave/http/http.cpp:4918 ../kioslave/http/http.cpp:4972
+msgid ""
+"You need to supply a username and a password for the proxy server listed "
+"below before you are allowed to access any sites."
+msgstr ""
+"तपाईँलाई कुनै पनि साइटहरूमा पहुँच अनुमति हुनका लागि तल सूचित गरिएका प्रोक्सी "
+"सर्भरका अगाडि प्रयोगकर्ता नाम र पासवर्ड वितरण गर्नु आवश्यक हुन्छ ।"
+
+#: ../kioslave/http/http.cpp:4926 ../kioslave/http/http.cpp:4976
+msgid "Proxy:"
+msgstr "प्रोक्सी:"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:431
+#: ../kioslave/http/http_cache_cleaner.cpp:432
+msgid "KDE HTTP cache maintenance tool"
+msgstr "KDE HTTP क्यास सम्भार उपकरण"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:435
+msgid "Empty the cache"
+msgstr "क्यास खाली गर्नुहोस्"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:436
+msgid "Display information about cache file"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:326
+#, kde-format
+msgid "Opening connection to host %1"
+msgstr "होस्ट %1 मा जडान खुल्दैछ"
+
+#: ../kioslave/ftp/ftp.cpp:341
+#, kde-format
+msgid "Connected to host %1"
+msgstr "%1 होस्टमा जडान भयो"
+
+#: ../kioslave/ftp/ftp.cpp:387
+#, kde-format
+msgid ""
+"%1.\n"
+"\n"
+"Reason: %2"
+msgstr ""
+"%1.\n"
+"\n"
+"कारण: %2"
+
+#: ../kioslave/ftp/ftp.cpp:416
+msgid "Sending login information"
+msgstr "लगइन सूचना पठाउँदै"
+
+#: ../kioslave/ftp/ftp.cpp:469
+#, kde-format
+msgid ""
+"Message sent:\n"
+"Login using username=%1 and password=[hidden]\n"
+"\n"
+"Server replied:\n"
+"%2\n"
+"\n"
+msgstr ""
+"सन्देश पठायो:\n"
+"प्रयोगकर्ता नाम प्रयोग गरेर लगइन गर्नुहोस्=%1 र पासवर्ड =[hidden]\n"
+"\n"
+"सर्भरले जवाफ दियो:\n"
+"%2\n"
+"\n"
+
+#: ../kioslave/ftp/ftp.cpp:480
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: ../kioslave/ftp/ftp.cpp:563
+msgid "Login OK"
+msgstr "लगइन ठीक छ"
+
+#: ../kioslave/ftp/ftp.cpp:592
+#, kde-format
+msgid "Could not login to %1."
+msgstr "%1 मा लगइन गर्न सकेन ।"
+
+#: ../kioslave/file/file.cpp:218
+#, kde-format
+msgid "Setting ACL for %1"
+msgstr "%1 का लागि एसीएल सेट गर्दै"
+
+#: ../kioslave/file/file.cpp:735 ../kioslave/file/file_unix.cpp:290
+#, kde-format
+msgid ""
+"Could not change permissions for\n"
+"%1"
+msgstr ""
+"यसका लागि अनुमतिहरू परिवर्तन गर्न सकेन\n"
+"%1"
+
+#: ../kioslave/file/file.cpp:920
+msgid "No Media inserted or Media not recognized."
+msgstr "मिडिया घुसाइएको छैन वा परिचित छैन ।"
+
+#: ../kioslave/file/file.cpp:930 ../kioslave/file/file.cpp:1132
+msgid "\"vold\" is not running."
+msgstr "\"भोल्ड\" चलेको छैन ।"
+
+#: ../kioslave/file/file.cpp:965
+msgid "Could not find program \"mount\""
+msgstr "\"माउन्ट\" कार्यक्रम फेला पार्न सकेन"
+
+#: ../kioslave/file/file.cpp:1145
+msgid "Could not find program \"umount\""
+msgstr "\"अनमाउन्ट\" कार्यक्रम फेला पार्न सकेन"
+
+#: ../kioslave/file/file.cpp:1233
+#, kde-format
+msgid "Could not read %1"
+msgstr "%1 पढ्न सकेन"
+
+#: ../kioslave/file/file_unix.cpp:221
+#, kde-format
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr "%1 बाट %2 मा फाइल प्रतिलिपि गर्न सकिँदैन । (Errno: %3)"
+
+#: ../kioslave/file/file_unix.cpp:334
+#, kde-format
+msgid "No media in device for %1"
+msgstr "%1 का लागि यन्त्रमा मिडिया छैन"
+
+#: ../kioslave/file/file_unix.cpp:603
+#, kde-format
+msgid "Could not get user id for given user name %1"
+msgstr ""
+
+#: ../kioslave/file/file_unix.cpp:616
+#, kde-format
+msgid "Could not get group id for given group name %1"
+msgstr ""
+
+#: ../kioslave/metainfo/metainfo.cpp:39
+msgid "kio_metainfo"
+msgstr "कियो मेटा जानकारी"
+
+#: ../kioslave/metainfo/metainfo.cpp:98
+#, kde-format
+msgid "No metainfo for %1"
+msgstr "%1 का लागि बहुसूचना छैन"
+
+#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1789
+msgid "*|All Files"
+msgstr "*|सबै फाइल"
+
+#: ../kfile/kdirselectdialog.cpp:128
+msgctxt "folder name"
+msgid "New Folder"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:133
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:794
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "%1 नाम गरिएको फाइल वा फोल्डर पहिले नै अवस्थित छ ।"
+
+#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:797
+msgid "You do not have permission to create that folder."
+msgstr "तपाईँलाई त्यो फोल्डर सिर्जना गर्ने अनुमति छैन ।"
+
+#: ../kfile/kdirselectdialog.cpp:280
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:321
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:328
+msgctxt "@action:inmenu"
+msgid "Move to trash"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:335
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:344
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:351
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr ""
+
+#: ../kfile/kfiletreeview.cpp:187
+msgid "Show Hidden Folders"
+msgstr ""
+
+#: ../kfile/kurlbutton.cpp:90
+msgid "Copy"
+msgstr "प्रतिलिपि बनाउनुहोस्"
+
+#: ../kfile/kurlbutton.cpp:94
+msgid "Paste"
+msgstr "टाँस्नुहोस्"
+
+#: ../kfile/kurlbutton.cpp:101
+msgid "Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: ../kfile/kurlbutton.cpp:104
+msgid "Navigate"
+msgstr "नेभिगेट गर्नुहोस्"
+
+#: ../kfile/kurlbutton.cpp:119
+msgid "Show Full Path"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:285
+msgid ""
+"<qt>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> "
+"menu.</qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:363
+#, kde-format
+msgid "Drive: %1"
+msgstr "ड्राइभ: %1"
+
+#: ../kfile/kfilewidget.cpp:417
+#, kde-format
+msgid ""
+"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
+"if the current location is file:/home/%1 clicking this button will take you "
+"to file:/home.</qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:421
+msgid "Click this button to move backwards one step in the browsing history."
+msgstr ""
+"ब्राउज गर्ने इतिहासमा एक चरण पछाडि सर्नका लागि यो बटन क्लिक गर्नुहोस् ।"
+
+#: ../kfile/kfilewidget.cpp:422
+msgid "Click this button to move forward one step in the browsing history."
+msgstr ""
+"ब्राउज गर्ने इतिहासमा एक चरण अगाडि सर्नका लागि यो बटन क्लिक गर्नुहोस् ।"
+
+#: ../kfile/kfilewidget.cpp:424
+msgid "Click this button to reload the contents of the current location."
+msgstr "हालको स्थानको सामाग्रीहरू पुन: लोड गर्न यो बटन क्लिक गर्नुहोस् ।"
+
+#: ../kfile/kfilewidget.cpp:426
+msgid "Click this button to create a new folder."
+msgstr "नयाँ फोल्डर सिर्जना गर्न यो बटन क्लिक गर्नुहोस् ।"
+
+#: ../kfile/kfilewidget.cpp:432
+msgid "Show Places Navigation Panel"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:439
+msgid "Show Bookmarks"
+msgstr "पुस्तकचिनोहरू देखाउनुहोस्"
+
+#: ../kfile/kfilewidget.cpp:444
+msgid "Options"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:446
+msgid ""
+"<qt>This is the preferences menu for the file dialog. Various options can be "
+"accessed from this menu including: <ul><li>how files are sorted in the "
+"list</li><li>types of view, including icon and list</li><li>showing of "
+"hidden files</li><li>the Places navigation panel</li><li>file "
+"previews</li><li>separating folders from files</li></ul></qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:489
+msgid "Zoom out"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:491
+msgid "Zoom in"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:555
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:561
+msgid "&Filter:"
+msgstr "फिल्टर:"
+
+#: ../kfile/kfilewidget.cpp:781
+msgid "You can only select one file"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:782
+msgid "More than one file provided"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:946
+msgid "You can only select local files"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:947
+msgid "Remote files not accepted"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:965
+msgid ""
+"More than one folder has been selected and this dialog does not accept "
+"folders, so it is not possible to decide which one to enter. Please select "
+"only one folder to list it."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:965
+msgid "More than one folder provided"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:973
+msgid ""
+"At least one folder and one file has been selected. Selected files will be "
+"ignored and the selected folder will be listed"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:973
+msgid "Files and folders selected"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:988
+#, kde-format
+msgid "The file \"%1\" could not be found"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:988
+msgid "Cannot open file"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1257
+msgid "This is the name to save the file as."
+msgstr "यस रूपमा बचत गरिने फाइलको नाम यो हो ।"
+
+#: ../kfile/kfilewidget.cpp:1262
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+"यो खोलिने फाइलहरूको सूची हो । विभिन्न फाइलहरू सूची अनुरुप, खाली ठाउँद्वारा "
+"विभाजित एक भन्दा बढी फाइल निर्दिष्ट गर्न सकिनेछ ।"
+
+#: ../kfile/kfilewidget.cpp:1269
+msgid "This is the name of the file to open."
+msgstr "यो खोलिने फाइलको नाम हो ।"
+
+#: ../kfile/kfilewidget.cpp:1283
+msgctxt "@title:window"
+msgid "Places"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1466
+#, kde-format
+msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1467
+msgid "Overwrite File?"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1598
+msgid ""
+"The chosen filenames do not\n"
+"appear to be valid."
+msgstr ""
+"रोजिएका फाइलनामहरू\n"
+"वैद्य जस्तो देखिँदैन ।"
+
+#: ../kfile/kfilewidget.cpp:1600
+msgid "Invalid Filenames"
+msgstr "अवैद्य फाइलनाम"
+
+#: ../kfile/kfilewidget.cpp:1680
+msgid "You can only select local files."
+msgstr "तपाईँ स्थानीय फाइलहरू मात्र चयन गर्न सक्नुहुन्छ ।"
+
+#: ../kfile/kfilewidget.cpp:1681
+msgid "Remote Files Not Accepted"
+msgstr "टाढाको फाइल स्वीकार गरिएन"
+
+#: ../kfile/kfilewidget.cpp:1786
+msgid "*|All Folders"
+msgstr "*|सबै फोल्डर"
+
+#: ../kfile/kfilewidget.cpp:1953
+msgid "&Open"
+msgstr "खोल्नुहोस्"
+
+#: ../kfile/kfilewidget.cpp:2036
+#, kde-format
+msgid "Icon size: %1 pixels (standard size)"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:2039
+#, kde-format
+msgid "Icon size: %1 pixels"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:2167
+#, kde-format
+msgid "Automatically select filename e&xtension (%1)"
+msgstr "(%1) फाइलनाम विस्तार स्वचालित रूपमा चयन गर्नुहोस्"
+
+#: ../kfile/kfilewidget.cpp:2168
+#, kde-format
+msgid "the extension <b>%1</b>"
+msgstr "विस्तार <b>%1</b>"
+
+#: ../kfile/kfilewidget.cpp:2176
+msgid "Automatically select filename e&xtension"
+msgstr "फाइलनाम विस्तार स्वचालित तरिकाले चयन गर्नुहोस्"
+
+#: ../kfile/kfilewidget.cpp:2177
+msgid "a suitable extension"
+msgstr "उचित विस्तार"
+
+#: ../kfile/kfilewidget.cpp:2187
+#, kde-format
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br /><br "
+"/></li><li>If no extension is specified in the <b>%2</b> text area when you "
+"click <b>Save</b>, %3 will be added to the end of the filename (if the "
+"filename does not already exist). This extension is based on the file type "
+"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
+"an extension for the filename, you can either turn this option off or you "
+"can suppress it by adding a period (.) to the end of the filename (the "
+"period will be automatically removed).</li></ol>If unsure, keep this option "
+"enabled as it makes your files more manageable."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:2479
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
+"otherwise operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:588
+msgid "Custom Path"
+msgstr "अनुकूल मार्ग"
+
+#: ../kfile/kfileplacesmodel.cpp:111
+msgctxt "KFile System Bookmarks"
+msgid "Home"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:114
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:119 ../kfile/kfileplacesmodel.cpp:123
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:127
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:710
+#, kde-format
+msgid "&Release '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:712
+#, kde-format
+msgid "&Safely Remove '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:715
+#, kde-format
+msgid "&Unmount '%1'"
+msgstr "'%1' अनमाउन्ट गर्नुहोस्"
+
+#: ../kfile/kfileplacesmodel.cpp:736
+#, kde-format
+msgid "&Eject '%1'"
+msgstr "'%1' निकाल्नुहोस्"
+
+#: ../kfile/kfileplacesmodel.cpp:770
+#, kde-format
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:806
+#, kde-format
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:810
+#, kde-format
+msgid "An error occurred while accessing '%1'"
+msgstr "'%1' पहुँच गर्दा एउटा त्रुटि देखापर्यो"
+
+#: ../kfile/kprotocolcombo.cpp:162
+msgctxt "@item:inmenu"
+msgid "Devices"
+msgstr ""
+
+#: ../kfile/kprotocolcombo.cpp:166
+msgctxt "@item:inmenu"
+msgid "Subversion"
+msgstr ""
+
+#: ../kfile/kprotocolcombo.cpp:170
+msgctxt "@item:inmenu"
+msgid "Other"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:85
+msgid "Edit Places Entry"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:97
+msgid ""
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:103
+msgid "L&abel:"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:105
+msgid "Enter descriptive label here"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
+#, kde-format
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<br /><br />%1<br />http://www.kde.org<br "
+"/>ftp://ftp.kde.org/pub/kde/stable<br /><br />By clicking on the button next "
+"to the text edit box you can browse to an appropriate URL.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:115
+msgid "&Location:"
+msgstr "स्थान:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:119
+msgid ""
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:122
+msgid "Choose an &icon:"
+msgstr "एउटा प्रतिमा चयन गर्नुहोस्:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:139
+#, kde-format
+msgid "&Only show when using this application (%1)"
+msgstr "यो अनुप्रयोग (%1) प्रयोग गर्दा मात्र देखाउनुहोस्"
+
+#: ../kfile/kfileplaceeditdialog.cpp:141
+#, kde-format
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<br /><br />If this setting is not selected, the "
+"entry will be available in all applications.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:561
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:568
+#, kde-format
+msgid "&Edit Entry '%1'..."
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:590
+#, kde-format
+msgid "&Hide Entry '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:599
+msgid "&Show All Entries"
+msgstr "सबै प्रविष्टिहरू देखाउनुहोस्"
+
+#: ../kfile/kfileplacesview.cpp:610
+#, kde-format
+msgid "&Remove Entry '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:620
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:624
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr ""
+
+#: ../kfile/kurltogglebutton.cpp:91
+msgid "Click for Location Navigation"
+msgstr "स्थान नेभिगेसनका लागि क्लिक गर्नुहोस्"
+
+#: ../kfile/kurltogglebutton.cpp:93
+msgid "Click to Edit Location"
+msgstr "स्थान सम्पादन गर्न क्लिक गर्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:735
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:737
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:740
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:741
+msgid "Create hidden directory?"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:751 ../kfile/kdiroperator.cpp:758
+msgid "New Folder"
+msgstr "नयाँ फोल्डर"
+
+#: ../kfile/kdiroperator.cpp:759
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"यसमा नयाँ फोल्डर सिर्जना गर्नुहोस्:\n"
+"%1"
+
+#: ../kfile/kdiroperator.cpp:812
+msgid "You did not select a file to delete."
+msgstr "तपाईँले मेट्नका लागि फाइल चयन गर्नु भएन ।"
+
+#: ../kfile/kdiroperator.cpp:813
+msgid "Nothing to Delete"
+msgstr "मेट्नका लागि केही छैन"
+
+#: ../kfile/kdiroperator.cpp:834
+#, kde-format
+msgid ""
+"<qt>Do you really want to delete\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>के तपाईँ वास्तवमा मेट्न चाहनुहुन्छ\n"
+" <b>'%1'</b>?</qt>"
+
+#: ../kfile/kdiroperator.cpp:836
+msgid "Delete File"
+msgstr "फाइल मेट्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:874
+msgid "You did not select a file to trash."
+msgstr "तपाईँले रद्दी टोकरीमा सार्न फाइल च्चयन गर्नुभएन ।"
+
+#: ../kfile/kdiroperator.cpp:875
+msgid "Nothing to Trash"
+msgstr "रद्दी टोकरीमा सार्न कुनै पनि वस्तु छैन"
+
+#: ../kfile/kdiroperator.cpp:892
+#, kde-format
+msgid ""
+"<qt>Do you really want to trash\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>के तपाईँ साँच्चिकै रद्दी टोकरीमा सार्न चाहनुहुन्छ\n"
+" <b>'%1'</b>?</qt>"
+
+#: ../kfile/kdiroperator.cpp:894
+msgid "Trash File"
+msgstr "फाइल रद्दी टोकरीमा सार्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:895 ../kfile/kdiroperator.cpp:902
+msgctxt "to trash"
+msgid "&Trash"
+msgstr "रद्दी टोकरीमा सार्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:899
+#, kde-format
+msgid "translators: not called for n == 1"
+msgid_plural "Do you really want to trash these %1 items?"
+msgstr[0] "अनुवादक: n == 1 कल नगरिएको"
+msgstr[1] "तपाईँले निश्चित रूपमा %1 वस्तुहरू रद्दिटोकरीमा सार्न चाहनुहुन्छ ?"
+
+#: ../kfile/kdiroperator.cpp:901
+msgid "Trash Files"
+msgstr "फाइलहरू रद्दी टोकरीमा सार्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:1093 ../kfile/kdiroperator.cpp:1219
+msgid "The specified folder does not exist or was not readable."
+msgstr "निर्दिष्ट गरिएको फोल्डर अवस्थित छैन वा पढ्नयोग्य छैन ।"
+
+#: ../kfile/kdiroperator.cpp:1861
+msgid "Menu"
+msgstr "मेनु"
+
+#: ../kfile/kdiroperator.cpp:1865
+msgid "Parent Folder"
+msgstr "प्रमूल फोल्डर"
+
+#: ../kfile/kdiroperator.cpp:1872
+msgid "Home Folder"
+msgstr "गृह फोल्डर"
+
+#: ../kfile/kdiroperator.cpp:1875
+msgid "Reload"
+msgstr "रिलोड गर्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:1878
+msgid "New Folder..."
+msgstr "नयाँ फोल्डर..."
+
+#: ../kfile/kdiroperator.cpp:1889
+msgid "Delete"
+msgstr "मेट्नुहोस्"
+
+#: ../kfile/kdiroperator.cpp:1896
+msgid "Sorting"
+msgstr "क्रमबद्ध गर्दै"
+
+#: ../kfile/kdiroperator.cpp:1899
+msgid "By Name"
+msgstr "नाम द्वारा"
+
+#: ../kfile/kdiroperator.cpp:1903
+msgid "By Size"
+msgstr "साइज अनुरुप"
+
+#: ../kfile/kdiroperator.cpp:1907
+msgid "By Date"
+msgstr "मिति अनुरूप"
+
+#: ../kfile/kdiroperator.cpp:1911
+msgid "By Type"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1915
+msgid "Descending"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1925
+msgid "Icon Position"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1928
+msgid "Next to File Name"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1932
+msgid "Above File Name"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1943
+msgid "Short View"
+msgstr "छोटो दृश्य"
+
+#: ../kfile/kdiroperator.cpp:1948
+msgid "Detailed View"
+msgstr "विस्तृत दृश्य"
+
+#: ../kfile/kdiroperator.cpp:1953
+msgid "Tree View"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1958
+msgid "Detailed Tree View"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1969
+msgid "Show Hidden Files"
+msgstr "लुकेका फाइलहरू देखाउनुहोस्"
+
+#: ../kfile/kdiroperator.cpp:1973
+msgid "Show Aside Preview"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1979
+msgid "Show Preview"
+msgstr "पूर्वावलोकन देखाउनुहोस्"
+
+#: ../kfile/kdiroperator.cpp:1990
+msgid "&View"
+msgstr "दृश्य"

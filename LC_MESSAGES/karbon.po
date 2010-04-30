@@ -1,0 +1,1809 @@
+# translation of karbon.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: karbon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 08:47+0000\n"
+"PO-Revision-Date: 2009-07-07 18:49+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:02+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:9
+msgid "P&urge"
+msgstr "निर्मल पार्नुहोस्"
+
+#: rc.cpp:15
+msgid "&Object"
+msgstr "वस्तु"
+
+#: rc.cpp:18 rc.cpp:51
+msgid "&Order"
+msgstr "क्रम"
+
+#: rc.cpp:21 rc.cpp:54
+msgid "&Align"
+msgstr "पङ्क्तिबद्व"
+
+#: rc.cpp:24
+msgid "&Distribute"
+msgstr "वितरण"
+
+#: rc.cpp:27
+msgid "Effe&cts"
+msgstr "प्रभाव"
+
+#: rc.cpp:39
+msgid "Object"
+msgstr "वस्तु"
+
+#: rc.cpp:42
+msgid "Toolbox"
+msgstr "उपकरणबाकस"
+
+#: rc.cpp:48 tools/vtexttool.cc:377
+msgid "Effects"
+msgstr "प्रभाव"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com,,,"
+
+#: karbon_part.cc:291
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr "अवैध ओएसिस कागजात । कुनै अफिस: मुख्य ट्याग फेला परेन ।"
+
+#: karbon_part.cc:299
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr "अवैध ओएसिस कागजात । कुनै अफिस: रेखाचित्र ट्याग फेला परेन ।"
+
+#: karbon_part.cc:307
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr "अवैध ओएसिस कागजात । कुनै चित्र: पृष्ठ ट्याग फेला परेन ।"
+
+#: karbon_view.cc:390
+msgid "Insert Clipart"
+msgstr "क्लिआर्ट घुसाउनुहोस्"
+
+#: karbon_view.cc:513
+msgid "Paste Object"
+msgstr "वस्तु टाँस्नुहोस्"
+
+#: karbon_view.cc:514
+msgid "Paste Objects"
+msgstr "वस्तु टाँस्नुहोस्"
+
+#: karbon_view.cc:564
+msgid "This action cannot be undone later. Do you really want to continue?"
+msgstr ""
+"यो कार्यलाई पछि नगर्न मिल्दैन । के तपाईं साँच्चिकै जारी राख्न चाहनुहुन्छ ?"
+
+#: karbon_view.cc:565
+msgid "Purge History"
+msgstr "इतिहास निर्मल पार्नुहोस्"
+
+#: commands/vtransformcmd.cc:46 commands/vtransformcmd.cc:64
+#: karbon_view.cc:693
+msgid "Duplicate Object"
+msgstr "नक्कली वस्तु"
+
+#: commands/vtransformcmd.cc:48 commands/vtransformcmd.cc:66
+#: karbon_view.cc:694
+msgid "Duplicate Objects"
+msgstr "नक्कली वस्तु"
+
+#: karbon_view.cc:813 karbon_view.cc:972
+msgid "Zoom Width"
+msgstr "जूम चौडाइ"
+
+#: karbon_view.cc:819 karbon_view.cc:971
+msgid "Whole Page"
+msgstr "सम्पूर्ण पृष्ठ"
+
+#: karbon_view.cc:943
+msgid "View &Mode"
+msgstr "दृश्य मोड"
+
+#: karbon_view.cc:951
+msgid "Normal"
+msgstr "सामान्यरण"
+
+#: karbon_view.cc:951
+msgid "Wireframe"
+msgstr "तारफ्रेम"
+
+#: karbon_view.cc:958
+#, no-c-format
+msgid "25%"
+msgstr "२५%"
+
+#: karbon_view.cc:960
+#, no-c-format
+msgid "50%"
+msgstr "५०%"
+
+#: karbon_view.cc:962
+#, no-c-format
+msgid "100%"
+msgstr "१००%"
+
+#: karbon_view.cc:964
+#, no-c-format
+msgid "200%"
+msgstr "२००%"
+
+#: karbon_view.cc:966
+#, no-c-format
+msgid "300%"
+msgstr "३००%"
+
+#: karbon_view.cc:968
+#, no-c-format
+msgid "400%"
+msgstr "४००%"
+
+#: karbon_view.cc:970
+#, no-c-format
+msgid "800%"
+msgstr "८००%"
+
+#: karbon_view.cc:981
+msgid "Show Page Margins"
+msgstr "पृष्ठ सीमान्तहरू देखाउनुहोस्"
+
+#: karbon_view.cc:984
+msgid "Hide Page Margins"
+msgstr "पृष्ठ सीमान्तहरू लुकाउनुहोस्"
+
+#: karbon_view.cc:1002
+msgid "&Import Graphic..."
+msgstr "ग्राफिक्स आयात गर्नुहोस्..."
+
+#: karbon_view.cc:1005
+msgid "D&elete"
+msgstr "मेट्नुहोस्"
+
+#: karbon_view.cc:1008
+msgid "&History"
+msgstr "इतिहास"
+
+#: karbon_view.cc:1014 widgets/vtranslate.cc:62
+msgid "&Duplicate"
+msgstr "नक्कली"
+
+#: karbon_view.cc:1017
+msgid "Bring to &Front"
+msgstr "अगाडि ल्याउनुहोस्"
+
+#: karbon_view.cc:1020
+msgid "&Raise"
+msgstr "बढाउनुहोस्"
+
+#: karbon_view.cc:1023
+msgid "&Lower"
+msgstr "तल्लो"
+
+#: karbon_view.cc:1026
+msgid "Send to &Back"
+msgstr "पछाडि पठाउनुहोस्"
+
+#: karbon_view.cc:1030
+msgid "Align Left"
+msgstr "बायाँ पङ्क्तिबद्व गर्नुहोस्"
+
+#: karbon_view.cc:1034
+msgid "Align Center (Horizontal)"
+msgstr "केन्द्रमा (तेर्सो) पङ्क्तिबद्व गर्नुहोस्"
+
+#: karbon_view.cc:1038
+msgid "Align Right"
+msgstr "दायाँ पङ्क्तिबद्व गर्नुहोस्"
+
+#: karbon_view.cc:1042
+msgid "Align Top"
+msgstr "माथी पङ्क्तिबद्व गर्नुहोस्"
+
+#: karbon_view.cc:1046
+msgid "Align Middle (Vertical)"
+msgstr "बीचमा (ठाडो) पङ्क्तिबद्व गर्नुहोस्"
+
+#: karbon_view.cc:1050
+msgid "Align Bottom"
+msgstr "तल पङ्क्तिबद्व गर्नुहोस्"
+
+#: karbon_view.cc:1055
+msgid "Distribute Center (Horizontal)"
+msgstr "केन्द्रमा (तेर्सो) वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1059
+msgid "Distribute Gaps (Horizontal)"
+msgstr "(तेर्सो रूपमा) अन्तराल वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1063
+msgid "Distribute Left Borders"
+msgstr "बायाँ किनारा वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1067
+msgid "Distribute Right Borders"
+msgstr "दायाँ किनाराहरू वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1071
+msgid "Distribute Center (Vertical)"
+msgstr "केन्द्र (ठाडो) वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1075
+msgid "Distribute Gaps (Vertical)"
+msgstr "(ठाडो) अन्तराल वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1079
+msgid "Distribute Bottom Borders"
+msgstr "तल्लो किनारा वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1083
+msgid "Distribute Top Borders"
+msgstr "माथिल्लो किनाराहरू वितरण गर्नुहोस्"
+
+#: karbon_view.cc:1087
+msgid "Show Rulers"
+msgstr "रूलरहरू देखाउनुहोस्"
+
+#: karbon_view.cc:1089
+msgid "Hide Rulers"
+msgstr "रूलरहरू लुकाउनुहोस्"
+
+#: karbon_view.cc:1091
+msgid "Shows or hides rulers."
+msgstr "रूलरहरू देखाउँदछ वा लुकाउँदछ ।"
+
+#: karbon_view.cc:1093
+msgid "Show Grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: karbon_view.cc:1095
+msgid "Hide Grid"
+msgstr "ग्रिड लुकाउनुहोस्"
+
+#: karbon_view.cc:1097
+msgid "Shows or hides grid."
+msgstr "ग्रिड देखाउँदछ वा लुकाउँदछ ।"
+
+#: karbon_view.cc:1099
+msgid "Snap to Grid"
+msgstr "ग्रिडमा स्न्याप गर्नुहोस्"
+
+#: karbon_view.cc:1100
+msgid "Snaps to grid."
+msgstr "ग्रिडमा स्न्याप गर्नुहोस् ।"
+
+#: karbon_view.cc:1103
+msgid "&Group Objects"
+msgstr "वस्तु समूह गर्नुहोस्"
+
+#: karbon_view.cc:1106
+msgid "&Ungroup Objects"
+msgstr "वस्तु समूहबाट हटाउनुहोस्"
+
+#: karbon_view.cc:1109
+msgid "&Close Path"
+msgstr "मार्ग बन्द गर्नुहोस्"
+
+#: karbon_view.cc:1114
+msgid "Line Style"
+msgstr "रेखा शैली"
+
+#: karbon_view.cc:1118
+msgid "Set Line Width"
+msgstr "रेखा चौडाइ सेट गर्नुहोस्"
+
+#: karbon_view.cc:1132
+msgid "Configure Karbon..."
+msgstr "कार्बन कन्फिगर गर्नुहोस्..."
+
+#: karbon_view.cc:1135
+msgid "Page &Layout..."
+msgstr "पृष्ठ सजावट"
+
+#: dialogs/vconfiguredlg.cc:73 karbon_view.cc:1471
+msgid "Document"
+msgstr "कागजात"
+
+#: karbon_view.cc:1479
+msgid "Layers"
+msgstr "स्तरहरू"
+
+#: karbon_view.cc:1486
+msgid "History"
+msgstr "इतिहास"
+
+#: dockers/vstrokedocker.cc:45 karbon_view.cc:1493
+msgid "Stroke Properties"
+msgstr "प्रभाव गुणहरू"
+
+#: dockers/vtransformdocker.cc:43 karbon_view.cc:1511
+msgid "Transform"
+msgstr "रूपान्तर"
+
+#: dockers/vstyledocker.cc:78 karbon_view.cc:1521
+msgid "Resources"
+msgstr "संसाधनहरू"
+
+#: main.cc:33
+msgid "File to open"
+msgstr "खोल्नका लागि फाइल"
+
+#: commands/valigncmd.cc:31
+msgid "Align Objects"
+msgstr "वस्तु पङ्क्तिबद्व गर्नुहोस्"
+
+#: commands/vbooleancmd.cc:34
+msgid "Boolean Operation"
+msgstr "बूलियन सञ्चालन"
+
+#: commands/vcleanupcmd.cc:27
+msgid "Clean Up"
+msgstr "हटाउनुहोस्"
+
+#: commands/vclosepathcmd.cc:26
+msgid "Close Path"
+msgstr "मार्ग बन्द गर्नुहोस्"
+
+#: commands/vcommand.cc:347
+msgid "&Undo: "
+msgstr "पूर्वास्थितिमा फर्काउनुहोस्: "
+
+#: commands/vcommand.cc:361
+msgid "&Redo: "
+msgstr "रिडु गर्नुहोस् "
+
+#: commands/vdeletecmd.cc:27
+msgid "Delete Objects"
+msgstr "वस्तु मेट्नहोस्"
+
+#: commands/vdeletecmd.cc:32 commands/vdeletecmd.cc:36
+msgid "Delete Object"
+msgstr "वस्तु मेट्नुहोस्"
+
+#: commands/vdeletenodescmd.cc:31
+msgid "Delete Node"
+msgstr "नोड मेट्नुहोस्"
+
+#: commands/vdistributecmd.cc:29
+msgid "Distribute Objects"
+msgstr "वस्तु वितरण गर्नुहोस्"
+
+#: commands/vfillcmd.cc:32
+msgid "Fill Objects"
+msgstr "वस्तु भर्नुहोस्"
+
+#: commands/vfillcmd.cc:37
+msgid "Fill Object"
+msgstr "वस्तु भर्नुहोस्"
+
+#: commands/vflattencmd.cc:55
+msgid "Flatten Curves"
+msgstr "समतलिय वक्र"
+
+#: commands/vgroupcmd.cc:30
+msgid "Group Objects"
+msgstr "समूह वस्तु"
+
+#: commands/vstrokecmd.cc:30 commands/vstrokecmd.cc:40
+#: commands/vstrokecmd.cc:51
+msgid "Stroke Objects"
+msgstr "स्ट्रोक वस्तु"
+
+#: commands/vstrokecmd.cc:36 commands/vstrokecmd.cc:47
+#: commands/vstrokecmd.cc:58
+msgid "Stroke Object"
+msgstr "स्ट्रोक वस्तु"
+
+#: commands/vstrokecmd.cc:62
+msgid "Stroke Width"
+msgstr "स्ट्रोक चौडाइ"
+
+#: commands/vstrokecmd.cc:70
+msgid "Stroke Color"
+msgstr "स्ट्रोक रङ"
+
+#: commands/vstrokecmd.cc:78
+msgid "Dash Pattern"
+msgstr "ड्यास बाँन्की"
+
+#: commands/vtextcmd.cc:30 tools/vtexttool.cc:697 tools/vtexttool.cc:759
+#: tools/vtexttool.cc:848 tools/vtexttool.cc:1124
+msgid "Insert Text"
+msgstr "पाठ घुसाउनुहोस्"
+
+#: commands/vtransformcmd.cc:37
+msgid "Transform Objects"
+msgstr "वस्तु रूपान्तर गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:51
+msgid "Transform Object"
+msgstr "वस्तु रूपान्तर गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:235
+msgid "Translate Objects"
+msgstr "वस्तु अनुवाद गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:238
+msgid "Translate Object"
+msgstr "वस्तु अनुवाद गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:245
+msgid "Scale Objects"
+msgstr "वस्तु मापन गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:248
+msgid "Scale Object"
+msgstr "वस्तु मापन गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:257
+msgid "Shear Objects"
+msgstr "अपूर्ण वस्तु"
+
+#: commands/vtransformcmd.cc:260
+msgid "Shear Object"
+msgstr "अपूर्ण वस्तु"
+
+#: commands/vtransformcmd.cc:268
+msgid "Rotate Objects"
+msgstr "वस्तु घुमाउनुहोस्"
+
+#: commands/vtransformcmd.cc:271
+msgid "Rotate Object"
+msgstr "वस्तु घुमाउनुहोस्"
+
+#: commands/vtransformcmd.cc:279
+msgid "Translate Bezier"
+msgstr "बेजियर अनुवाद गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:401
+msgid "Translate Points"
+msgstr "बिन्दुहरू अनुवाद गर्नुहोस्"
+
+#: commands/vtransformcmd.cc:414
+msgid "Translate Point"
+msgstr "बिन्दु अनुवाद गर्नुहोस्"
+
+#: commands/vungroupcmd.cc:30
+msgid "Ungroup Objects"
+msgstr "वस्तु समूहबाट हटाउनुहोस्"
+
+#: commands/vzordercmd.cc:28 commands/vzordercmd.cc:34
+msgid "Order Selection"
+msgstr "क्रमबद्व चयन"
+
+#: dialogs/vcolordlg.cc:28
+msgid "Uniform Color"
+msgstr "पोशाक रङ"
+
+#: dialogs/vcolortab.cc:59
+msgid "Reference"
+msgstr "सन्दर्भ"
+
+#: dialogs/vcolortab.cc:60
+msgid "Old:"
+msgstr "पुरानो:"
+
+#: dialogs/vcolortab.cc:61
+msgid "New:"
+msgstr "नयाँ:"
+
+#: dialogs/vcolortab.cc:71
+msgid "Components"
+msgstr "अवयव"
+
+#: dialogs/vcolortab.cc:74 dockers/vtransformdocker.cc:77
+msgid "R:"
+msgstr "R:"
+
+#: dialogs/vcolortab.cc:75
+msgid "G:"
+msgstr "G:"
+
+#: dialogs/vcolortab.cc:76
+msgid "B:"
+msgstr "B:"
+
+#: dialogs/vcolortab.cc:85
+msgid ""
+"_: Hue:\n"
+"H:"
+msgstr "H:"
+
+#: dialogs/vcolortab.cc:86
+msgid ""
+"_: Saturation:\n"
+"S:"
+msgstr "S:"
+
+#: dialogs/vcolortab.cc:87
+msgid ""
+"_: Value:\n"
+"V:"
+msgstr "V:"
+
+#: dialogs/vcolortab.cc:97
+msgid "Opacity"
+msgstr "अस्पष्टता"
+
+#: dialogs/vcolortab.cc:108 dockers/vcolordocker.cc:83
+msgid "RGB"
+msgstr "आरजीबी"
+
+#: dialogs/vconfiguredlg.cc:53 dialogs/vconfiguredlg.cc:118
+msgid "Interface"
+msgstr "इन्टरफेस"
+
+#: dialogs/vconfiguredlg.cc:59 dialogs/vconfiguredlg.cc:220
+msgid "Misc"
+msgstr "विविध"
+
+#: dialogs/vconfiguredlg.cc:65
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: dialogs/vconfiguredlg.cc:73 dialogs/vconfiguredlg.cc:388
+msgid "Document Settings"
+msgstr "कागजात सेटिङ"
+
+#: dialogs/vconfiguredlg.cc:138
+msgid "Show status bar"
+msgstr "स्थिति पट्टी देखाउनुहोस्"
+
+#: dialogs/vconfiguredlg.cc:143
+msgid "Number of recent files:"
+msgstr "भर्खरका फाइलहरूको सङ्ख्या:"
+
+#: dialogs/vconfiguredlg.cc:147
+msgid "Copy offset:"
+msgstr "प्रतिलिपि अफसेट:"
+
+#: dialogs/vconfiguredlg.cc:151
+msgid "Palette font size:"
+msgstr "रङसाज फन्ट साइज:"
+
+#: dialogs/vconfiguredlg.cc:240
+msgid "Undo/redo limit:"
+msgstr "सीमा पूर्वास्थितिमा फर्काउनुहोस्/रिडु गर्नुहोस्:"
+
+#: dialogs/vconfiguredlg.cc:245
+msgid "Units:"
+msgstr "एकाई:"
+
+#: dialogs/vconfiguredlg.cc:298
+msgid "Show &grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: dialogs/vconfiguredlg.cc:300
+msgid "Snap to g&rid"
+msgstr "ग्रिडमा स्न्याप गर्नुहोस"
+
+#: dialogs/vconfiguredlg.cc:302
+msgid "Grid &color:"
+msgstr "ग्रिड रङ:"
+
+#: dialogs/vconfiguredlg.cc:306
+msgid "&Horizontal:"
+msgstr "तेर्सो:"
+
+#: dialogs/vconfiguredlg.cc:309
+msgid "&Vertical:"
+msgstr "ठाडो:"
+
+#: dialogs/vconfiguredlg.cc:312
+msgid "Snap Distance"
+msgstr "दूरी स्न्याप गर्नुहोस्"
+
+#: dialogs/vconfiguredlg.cc:313
+msgid "H&orizontal:"
+msgstr "तेर्सो:"
+
+#: dialogs/vconfiguredlg.cc:316
+msgid "V&ertical:"
+msgstr "ठाडो:"
+
+#: dialogs/vconfiguredlg.cc:408
+msgid "Auto save (min):"
+msgstr "(न्यूनतम) स्वत: बचत गर्नुहोस्:"
+
+#: dialogs/vconfiguredlg.cc:409
+msgid "No auto save"
+msgstr "स्वत: बचत छैन"
+
+#: dialogs/vconfiguredlg.cc:410
+msgid "min"
+msgstr "न्यूनतम"
+
+#: dialogs/vconfiguredlg.cc:412
+msgid "Create backup file"
+msgstr "जगेडा फाइल सिर्जना गर्नुहोस्"
+
+#: dialogs/vconfiguredlg.cc:415
+msgid "Save as path"
+msgstr "मार्गको रूपमा बचत गर्नुहोस्"
+
+#: dialogs/vstrokedlg.cc:43 dialogs/vstrokedlg.cc:68 dialogs/vstrokedlg.cc:123
+#: widgets/vgradienttabwidget.cc:202
+msgid "Stroke"
+msgstr "स्ट्रोक"
+
+#: dialogs/vstrokedlg.cc:51 dockers/vstrokedocker.cc:51
+msgid ""
+"_: stroke width\n"
+"Width:"
+msgstr "चौडाइ:"
+
+#: dialogs/vstrokedlg.cc:57
+msgid "Style:"
+msgstr "शैली:"
+
+#: dialogs/vstrokedlg.cc:66 widgets/vgradienttabwidget.cc:198
+#: widgets/vtypebuttonbox.cc:231
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: dialogs/vstrokedlg.cc:70 tools/vgradienttool.cc:66
+#: tools/vgradienttool.cc:480 widgets/vtypebuttonbox.cc:247
+msgid "Gradient"
+msgstr "ग्रेडियन्ट"
+
+#: dialogs/vstrokedlg.cc:72
+msgid "Type"
+msgstr "प्रकार"
+
+#: dialogs/vstrokedlg.cc:87
+msgid "Cap"
+msgstr "क्याप्सन"
+
+#: dialogs/vstrokedlg.cc:101
+msgid "Join"
+msgstr "जोड्नुहोस्"
+
+#: dockers/vcolordocker.cc:58
+msgid "Color Chooser"
+msgstr "रङ छनोटकर्ता"
+
+#: dockers/vcolordocker.cc:74
+msgid "HSV"
+msgstr "एचएसभी"
+
+#: dockers/vcolordocker.cc:92 plugins/shadoweffect/shadoweffectplugin.cc:73
+msgid "Opacity:"
+msgstr "अस्पष्टता:"
+
+#: dockers/vcolordocker.cc:95
+msgid "Alpha (opacity)"
+msgstr "अल्फा (अस्पष्टता)"
+
+#: dockers/vdocumentdocker.cc:231
+msgid ""
+"_: document width\n"
+"Width:"
+msgstr "चौडाइ:"
+
+#: dockers/vdocumentdocker.cc:232 tools/vellipsetool.cc:52
+#: tools/vrectangletool.cc:41 tools/vsinustool.cc:43
+#: widgets/vselecttoolbar.cc:56
+msgid "Height:"
+msgstr "उचाइ:"
+
+#: dockers/vdocumentdocker.cc:235
+msgid "Layers:"
+msgstr "स्तर:"
+
+#: dockers/vdocumentdocker.cc:236
+msgid "Format:"
+msgstr "ढाँचा:"
+
+#: dockers/vdocumentdocker.cc:463
+msgid "New"
+msgstr "नयाँ"
+
+#: dockers/vdocumentdocker.cc:467
+msgid "Raise"
+msgstr "बढाउनुहोस्"
+
+#: dockers/vdocumentdocker.cc:471
+msgid "Lower"
+msgstr "तल्लो"
+
+#: dockers/vdocumentdocker.cc:482
+msgid "Item"
+msgstr "वस्तु"
+
+#: dockers/vdocumentdocker.cc:483
+msgid "L"
+msgstr "L"
+
+#: dockers/vdocumentdocker.cc:484
+msgid "V"
+msgstr "V"
+
+#: dockers/vdocumentdocker.cc:762
+msgid "Current Object"
+msgstr "हालको वस्तु"
+
+#: dockers/vdocumentdocker.cc:762
+msgid "Change the name of the object:"
+msgstr "वस्तुको नाम परिवर्तन गर्नुहोस्:"
+
+#: dockers/vdocumentdocker.cc:772
+msgid "Rename Layer"
+msgstr "तह पुन: नामाकरण गर्नुहोस्"
+
+#: dockers/vdocumentdocker.cc:772
+msgid "Change the name of the current layer:"
+msgstr "हालको तहको नाम परिवर्तन गर्नुहोस्:"
+
+#: dockers/vdocumentdocker.cc:787
+msgid "New Layer"
+msgstr "नयाँ तह"
+
+#: dockers/vdocumentdocker.cc:787
+msgid "Enter the name of the new layer:"
+msgstr "नयाँ तहको नाम प्रविष्ट गर्नुहोस्:"
+
+#: dockers/vdocumentdocker.cc:788
+msgid "New layer"
+msgstr "नयाँ तह"
+
+#: dockers/vdocumentdocker.cc:793
+msgid "Add Layer"
+msgstr "तह थप्नुहोस्"
+
+#: dockers/vdocumentdocker.cc:824
+msgid "Raise Layer"
+msgstr "तह बढाउनुहोस्"
+
+#: dockers/vdocumentdocker.cc:858
+msgid "Lower Layer"
+msgstr "तल्लो तह"
+
+#: dockers/vdocumentdocker.cc:893
+msgid "Delete Layer"
+msgstr "तह मेट्नुहोस्"
+
+#: dockers/vdocumentdocker.cc:1212
+msgid "Commands"
+msgstr "आदेश"
+
+#: dockers/vdocumentdocker.cc:1215
+msgid "Group commands"
+msgstr "समूह आदेशहरू"
+
+#: dockers/vstrokedocker.cc:56
+msgid "Set line width of actual selection"
+msgstr "खास चयनको रेखा चौडाइ सेट गर्नुहोस्"
+
+#: dockers/vstrokedocker.cc:60
+msgid "Cap:"
+msgstr "क्याप:"
+
+#: dockers/vstrokedocker.cc:69
+msgid "Butt cap"
+msgstr "बट्ट क्याप"
+
+#: dockers/vstrokedocker.cc:74
+msgid "Round cap"
+msgstr "गोलो क्याप"
+
+#: dockers/vstrokedocker.cc:79
+msgid "Square cap"
+msgstr "वर्गाकार क्याप"
+
+#: dockers/vstrokedocker.cc:84
+msgid "Join:"
+msgstr "जोड्नुहोस्:"
+
+#: dockers/vstrokedocker.cc:94
+msgid "Miter join"
+msgstr "मिटर जोडाइ"
+
+#: dockers/vstrokedocker.cc:99
+msgid "Round join"
+msgstr "गोलो जोडाइ"
+
+#: dockers/vstrokedocker.cc:104
+msgid "Bevel join"
+msgstr "प्रवणकोण जोडाइ"
+
+#: dockers/vstyledocker.cc:84 dockers/vstyledocker.cc:89
+msgid "Patterns"
+msgstr "बाँन्कीहरू"
+
+#: dockers/vstyledocker.cc:93
+msgid "Clipart"
+msgstr "क्लिपआर्ट"
+
+#: dockers/vtransformdocker.cc:48 widgets/vselecttoolbar.cc:39
+#: widgets/vtranslate.cc:42
+msgid "X:"
+msgstr "X:"
+
+#: dockers/vtransformdocker.cc:52
+msgid "Set x-position of actual selection"
+msgstr "खास चयनको एक्स-स्थिति सेट गर्नुहोस्"
+
+#: dockers/vtransformdocker.cc:55 widgets/vselecttoolbar.cc:44
+#: widgets/vtranslate.cc:44
+msgid "Y:"
+msgstr "Y:"
+
+#: dockers/vtransformdocker.cc:59
+msgid "Set y-position of actual selection"
+msgstr "खास चयनको वाइ-स्थिति सेट गर्नुहोस्"
+
+#: dockers/vtransformdocker.cc:62
+msgid "W:"
+msgstr "W:"
+
+#: dockers/vtransformdocker.cc:66
+msgid "Set width of actual selection"
+msgstr "खास चयनको चौडाइ सेट गर्नुहोस्"
+
+#: dockers/vtransformdocker.cc:69
+msgid "H:"
+msgstr "H:"
+
+#: dockers/vtransformdocker.cc:73
+msgid "Set height of actual selection"
+msgstr "खास चयनको उचाई सेट गर्नुहोस्"
+
+#: dockers/vtransformdocker.cc:81
+msgid "Rotate actual selection"
+msgstr "खास चयन घुमाउनुहोस्"
+
+#: dockers/vtransformdocker.cc:84
+msgid "SX:"
+msgstr "SX:"
+
+#: dockers/vtransformdocker.cc:88
+msgid "Shear actual selection in x-direction"
+msgstr "एक्स-दिशामा खास चयन अपूर्ण गर्नुहोस्"
+
+#: dockers/vtransformdocker.cc:91
+msgid "SY:"
+msgstr "SY:"
+
+#: dockers/vtransformdocker.cc:95
+msgid "Shear actual selection in y-direction"
+msgstr "वाइ-दिशामा खास चयन अपूर्ण गर्नुहोस्"
+
+#: shapes/vellipse.cc:112 tools/vellipsetool.cc:272
+msgid "Ellipse"
+msgstr "दीर्घवृत्त"
+
+#: shapes/vpolygon.cc:83 tools/vpolygontool.cc:160 tools/vstartool.cc:43
+msgid "Polygon"
+msgstr "बहुभुज"
+
+#: shapes/vpolyline.cc:79 tools/vpolylinetool.cc:128
+#: tools/vpolylinetool.cc:492
+msgid "Polyline"
+msgstr "बहुरेखा"
+
+#: shapes/vrectangle.cc:100 tools/vrectangletool.cc:138
+msgid "Rectangle"
+msgstr "आयत"
+
+#: shapes/vsinus.cc:137 tools/vsinustool.cc:157
+msgid "Sinus"
+msgstr "मोड"
+
+#: shapes/vspiral.cc:108 tools/vspiraltool.cc:208
+msgid "Spiral"
+msgstr "घुमाउरो"
+
+#: shapes/vstar.cc:268 tools/vstartool.cc:45
+msgid "Star"
+msgstr "तारा"
+
+#: tools/vellipsetool.cc:38
+msgid "Insert Ellipse"
+msgstr "दीर्घवृत्त घुमाउनुहोस्"
+
+#: tools/vellipsetool.cc:41 tools/vspiraltool.cc:39 tools/vstartool.cc:38
+#: widgets/vgradienttabwidget.cc:190
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: tools/vellipsetool.cc:43
+msgid "Full"
+msgstr "पूरा"
+
+#: tools/vellipsetool.cc:44
+msgid "Section"
+msgstr "सेक्सन"
+
+#: tools/vellipsetool.cc:45
+msgid "Pie"
+msgstr "वृतांश"
+
+#: tools/vellipsetool.cc:46
+msgid "Arc"
+msgstr "चाप"
+
+#: tools/vellipsetool.cc:50 tools/vrectangletool.cc:38
+#: tools/vroundrecttool.cc:38 tools/vsinustool.cc:41
+msgid ""
+"_: object width\n"
+"Width:"
+msgstr "चौडाइ:"
+
+#: tools/vellipsetool.cc:55
+msgid "Start angle:"
+msgstr "कोण सुरु गर्नुहोस्:"
+
+#: tools/vellipsetool.cc:60
+msgid "End angle:"
+msgstr "कोण अन्त्य गर्नुहोस्:"
+
+#: tools/vellipsetool.cc:271 tools/vellipsetool.h:71
+msgid "Ellipse Tool"
+msgstr "दीर्घवृत्त उपकरण"
+
+#: tools/vgradienttool.cc:41 widgets/vgradienttabwidget.cc:184
+msgid "Edit Gradient"
+msgstr "ग्रेडियन्ट सम्पादन गर्नुहोस्"
+
+#: tools/vgradienttool.cc:107 tools/vgradienttool.cc:479
+#: tools/vgradienttool.h:43
+msgid "Gradient Tool"
+msgstr "ग्रेडियन्ट उपकरण"
+
+#: tools/vgradienttool.cc:113
+msgid "<qt><b>Gradient tool:</b><br>"
+msgstr "<qt><b>ग्रेडियन्ट उपकरण:</b><br>"
+
+#: tools/vgradienttool.cc:114
+msgid "<i>Click and drag</i> to choose the gradient vector.<br>"
+msgstr ""
+"<i>ग्रेडियन्ट भेक्टर छनोट गर्नका लागि</i> क्लिक गरेर तान्नुहोस् ।<br>"
+
+#: tools/vgradienttool.cc:115
+msgid ""
+"<i>Click and drag</i> a gradient vector handle to change the gradient "
+"vector.<br>"
+msgstr ""
+"<i>ग्रेडियन्ट भेक्टर</i> परिवर्तन गर्न ग्रेडियन्ट भेक्टर ह्यान्डल क्लिक गरेर "
+"तान्नुहोस् ।<br>"
+
+#: tools/vgradienttool.cc:116
+msgid ""
+"<i>Shift click and drag</i> to move the radial gradient focal point.<br>"
+msgstr ""
+"<i>अर्धव्यास ग्रेडियन्ट केन्द्रिय बिन्दु सार्नका लागि</i>शिफ्ट क्लिक गरेर "
+"तान्नुहोस् ।<br>"
+
+#: tools/vgradienttool.cc:117 tools/vpatterntool.cc:186
+msgid ""
+"<i>Press i or Shift+i</i> to decrease or increase the handle size.<br>"
+msgstr ""
+"<i>ह्यान्डलको साइज घटाउन वा बढाउन </i> 'आई' वा शिफ्ट+'आई' थिच्नुहोस् ।<br>"
+
+#: tools/vgradienttool.cc:118
+msgid "<br><b>Gradient editing:</b><br>"
+msgstr "<br><b>ग्रेडियन्ट सम्पादन:</b><br>"
+
+#: tools/vgradienttool.cc:119
+msgid "<i>Click and drag</i> to move points.<br>"
+msgstr "<i>बिन्दुहरू सार्नका लागि</i> क्लिक गरेर तान्नुहोस् ।<br>"
+
+#: tools/vgradienttool.cc:120
+msgid "<i>Double click</i> on a color point to edit it.<br>"
+msgstr "<i>रङ बिन्दु सम्पादन गर्न</i> डबल क्लिक गर्नुहोस् ।<br>"
+
+#: tools/vgradienttool.cc:121
+msgid "<i>Right click</i> on a color point to remove it.</qt>"
+msgstr "<i>रङ बिन्दु हटाउनका लागि</i> दायाँ क्लिक गर्नुहोस् ।</qt>"
+
+#: tools/vpatterntool.cc:49
+msgid "Choose Pattern"
+msgstr "बाँन्की छनोट गर्नुहोस्"
+
+#: tools/vpatterntool.cc:93
+msgid "Choose Pattern to Add"
+msgstr "थप्नका लागि बाँन्की छनोट गर्नुहोस्"
+
+#: tools/vpatterntool.cc:142 tools/vpatterntool.cc:463
+#: widgets/vtypebuttonbox.cc:255
+msgid "Pattern"
+msgstr "बाँन्की"
+
+#: tools/vpatterntool.cc:183
+msgid "<qt><b>Pattern tool:</b><br>"
+msgstr "<qt><b>बाँन्की उपकरण:</b><br>"
+
+#: tools/vpatterntool.cc:184
+msgid "<i>Click</i> on the pattern you want in the chooser.<br>"
+msgstr "<i>तपाईँले छनौटकर्तामा चाहनुभएको</i> बाँन्कीमा क्लिक गर्नुहोस् ।<br>"
+
+#: tools/vpatterntool.cc:185
+msgid "<i>Click and drag</i> to choose the pattern vector.</qt>"
+msgstr "<i>बाँन्की भेक्टर छनोट गर्न</i> क्लिक गरेर तान्नुहोस् ।</qt>"
+
+#: tools/vpatterntool.cc:336 tools/vpatterntool.cc:399
+msgid "Please select a pattern."
+msgstr "कृपया बाँन्की चयन गर्नुहोस् ।"
+
+#: tools/vpatterntool.cc:462 tools/vpatterntool.h:72
+msgid "Pattern Tool"
+msgstr "बाँन्की उपकरण"
+
+#: tools/vpenciltool.cc:55
+msgid "Pencil Settings"
+msgstr "पेन्सिल सेटिङ"
+
+#: tools/vpenciltool.cc:61
+msgid "Raw"
+msgstr "कच्चा पदार्थ"
+
+#: tools/vpenciltool.cc:62
+msgid "Curve"
+msgstr "बक्र"
+
+#: tools/vpenciltool.cc:63
+msgid "Straight"
+msgstr "सीधा"
+
+#: tools/vpenciltool.cc:69 tools/vpenciltool.cc:79
+msgid "Optimize"
+msgstr "बृद्धि गर्नु"
+
+#: tools/vpenciltool.cc:81
+msgid "Exactness:"
+msgstr "शुद्वता:"
+
+#: tools/vpenciltool.cc:91
+msgid "Combine angle:"
+msgstr "कोण मिलाउनुहोस्:"
+
+#: tools/vpenciltool.cc:161
+msgid "<qt><b>Pencil tool:</b><br>"
+msgstr "<qt><b>पेन्सिल उपकरण:</b><br>"
+
+#: tools/vpenciltool.cc:162
+msgid "- <i>Click</i> to begin drawing, release when you have finished."
+msgstr ""
+"- <i>रेखाचित्र सुरु गर्न</i> क्लिक गर्नुहोस्, तपाईंले सकेको बेलामा निकालिन्छ "
+"।"
+
+#: tools/vpenciltool.cc:163 tools/vpolylinetool.cc:64
+msgid "- Press <i>Enter</i> or <i>double click</i> to end the polyline.</qt>"
+msgstr ""
+"- पोलीलाइन अन्त्य गर्नका लागि <i>प्रविष्टि</i> वा <i>डबल क्लिक गर्नुहोस्</i> "
+"थिच्नुहोस् ।</qt>"
+
+#: tools/vpenciltool.cc:172 tools/vpenciltool.cc:405 tools/vpenciltool.h:91
+msgid "Pencil Tool"
+msgstr "पेन्सिल उपकरण"
+
+#: tools/vpenciltool.cc:264 tools/vpenciltool.cc:406
+msgid "Pencil"
+msgstr "पेन्सिल"
+
+#: tools/vpolygontool.cc:34
+msgid "Insert Polygon"
+msgstr "बहुभुज घुसाउनुहोस्"
+
+#: plugins/whirlpinch/whirlpinchplugin.cc:71 tools/vpolygontool.cc:38
+#: tools/vspiraltool.cc:44
+msgid "Radius:"
+msgstr "अर्धव्यास:"
+
+#: tools/vpolygontool.cc:41 tools/vstartool.cc:59
+msgid "Edges:"
+msgstr "किनारा:"
+
+#: tools/vpolygontool.cc:159 tools/vpolygontool.h:39
+msgid "Polygon Tool"
+msgstr "बहुभुज उपकरण"
+
+#: tools/vpolylinetool.cc:58
+msgid "<qt><b>Polyline tool:</b><br>"
+msgstr "<qt><b>पोलीलाइन उपकरण:</b><br>"
+
+#: tools/vpolylinetool.cc:59
+msgid ""
+"- <i>Click</i> to add a node and <i>drag</i> to set its bezier vector.<br>"
+msgstr ""
+"- <i>नोड थप्नका लागि </i> क्लिक गर्नुहोस् र <i>यसको बेजियर भेक्टर सेट "
+"गर्न</i> तान्नुहोस् ।<br>"
+
+#: tools/vpolylinetool.cc:60
+msgid ""
+"- Press <i>Ctrl</i> while dragging to edit the previous bezier vector.<br>"
+msgstr ""
+"- अघिल्लो बेजियर भेक्टर सम्पादन गर्नका लागि <i>तान्दा</i> Ctrl थिच्नुहोस् "
+"।<br>"
+
+#: tools/vpolylinetool.cc:61
+msgid ""
+"- Press <i>Shift</i> while dragging to change the curve in a straight "
+"line.<br>"
+msgstr ""
+"- सीधा रेखामा बक्र परिवर्तन गर्नका लागि <i>तान्दा</i> शिफ्ट थिच्नुहोस् ।<br>"
+
+#: tools/vpolylinetool.cc:62
+msgid "- Press <i>Backspace</i> to cancel the last curve.<br>"
+msgstr "- अन्तिम बक्र रद्द गर्नका लागि <i>ब्याकस्पेस</i> थिच्नुहोस् ।<br>"
+
+#: tools/vpolylinetool.cc:63
+msgid "- Press <i>Esc</i> to cancel the whole polyline.<br>"
+msgstr "- सम्पूर्ण पोलीलाइन रद्द गर्नका लागि <i>इस्केप </i> थिच्नुहोस् ।<br>"
+
+#: tools/vpolylinetool.cc:73 tools/vpolylinetool.cc:491
+#: tools/vpolylinetool.h:61
+msgid "Polyline Tool"
+msgstr "पोलीलाइन उपकरण"
+
+#: tools/vrectangletool.cc:34
+msgid "Insert Rectangle"
+msgstr "आयत घुसाउनुहोस्"
+
+#: tools/vrectangletool.cc:137 tools/vrectangletool.h:41
+msgid "Rectangle Tool"
+msgstr "आयत उपकरण"
+
+#: tools/vrotatetool.cc:62 tools/vrotatetool.cc:170
+msgid "Rotate"
+msgstr "घुमाउनुहोस्"
+
+#: tools/vrotatetool.cc:169 tools/vrotatetool.h:36
+msgid "Rotate Tool"
+msgstr "उपकरण घुमाउनुहोस्"
+
+#: tools/vroundrecttool.cc:35
+msgid "Insert Round Rect"
+msgstr "गोलो आयत घुसाउनुहोस्"
+
+#: tools/vroundrecttool.cc:43
+msgid "Height (%1):"
+msgstr "उचाइ (%1):"
+
+#: tools/vroundrecttool.cc:46
+msgid "Edge radius X:"
+msgstr "किनारा अर्धव्यास एक्स:"
+
+#: tools/vroundrecttool.cc:49
+msgid "Edge radius Y:"
+msgstr "किनारा अर्धव्यास वाइ:"
+
+#: tools/vroundrecttool.cc:173 tools/vroundrecttool.h:44
+msgid "Round Rectangle Tool"
+msgstr "गोलो आयत उपकरण"
+
+#: tools/vroundrecttool.cc:174
+msgid "Round Rectangle"
+msgstr "गोलो आयत"
+
+#: tools/vselectnodestool.cc:75
+msgid "Editing Nodes"
+msgstr "नोडहरू सम्पादन गर्दै"
+
+#: tools/vselectnodestool.cc:431 tools/vselectnodestool.h:34
+msgid "Select Nodes Tool"
+msgstr "नोड उपकरण चयन गर्नुहोस्"
+
+#: tools/vselectnodestool.cc:432
+msgid "Select Nodes"
+msgstr "नोडहरू चयन गर्नुहोस्"
+
+#: tools/vselecttool.cc:44
+msgid "Selection"
+msgstr "चयन"
+
+#: tools/vselecttool.cc:46
+msgid "Selection Mode"
+msgstr "चयन मोड"
+
+#: tools/vselecttool.cc:48
+msgid "Select in current layer"
+msgstr "हालको तहमा चयन गर्नुहोस्"
+
+#: tools/vselecttool.cc:49
+msgid "Select in visible layers"
+msgstr "दृश्यात्मक तहहरूमा चयन गर्नुहोस्"
+
+#: tools/vselecttool.cc:50
+msgid "Select in selected layers"
+msgstr "चयन गरिएका तहहरू चयन गर्नुहोस्"
+
+#: tools/vselecttool.cc:101 tools/vselecttool.cc:607
+msgid "Select"
+msgstr "चयन गर्नुहोस्"
+
+#: tools/vselecttool.cc:106
+msgid "<qt><b>Selection tool:</b><br>"
+msgstr "<qt><b>चयन उपकरण:</b><br>"
+
+#: tools/vselecttool.cc:107
+msgid ""
+"<i>Select in current layer:</i><br>The selection is made in the layer "
+"selected in the layers docker.<br><br>"
+msgstr ""
+"<i>हालको तहमा चयन गर्नुहोस्:</i><br>तहहरूको डकरमा चयन गरिएको तहमा चयन गरिन्छ "
+"।<br><br>"
+
+#: tools/vselecttool.cc:108
+msgid ""
+"<i>Select in visible layers:</i><br>The selection is made in the visible "
+"layers (eye in the layers docker).<br><br>"
+msgstr ""
+"<i>दृश्यात्मक तहहरूमा चयन गर्नुहोस्:</i><br>दृश्यात्मक तहहरूमा चयन गरिन्छ  "
+"(स्तर डकरमा आँखा)।<br><br>"
+
+#: tools/vselecttool.cc:109
+msgid ""
+"<i>Select in selected layers:</i><br>The selection is made in the checked "
+"layers in the layers docker.<br><br>"
+msgstr ""
+"<i>चयन गरिएको तहहरूमा चयन गर्नुहोस्:</i><br>चयन तह डकरहरूको जाँच गरिएको "
+"तहहरूमा गरिन्छ ।<br><br>"
+
+#: tools/vselecttool.cc:110
+msgid ""
+"<i>Position using arrow keys</i><br>The selection can be positioned up, "
+"down, left and right using the corresponding arrow keys."
+msgstr ""
+"<i>बाँण कुञ्जी प्रयोग गरिरहेको स्थिति</i><br>अनुकुल बाँण कुञ्जीहरू प्रयोग "
+"गरेर चयनलाई माथि, तल, बायाँ र दायाँ अवस्थित गर्न सकिन्छ ।"
+
+#: tools/vselecttool.cc:427
+msgid ""
+"_: [(left,bottom), (right,top)] (actual unit)\n"
+"Selection [(%1, %2), (%3, %4)] (%5)"
+msgstr "चयन [(%1, %2), (%3, %4)] (%5)"
+
+#: tools/vselecttool.cc:436
+msgid "No selection"
+msgstr "चयन छैन"
+
+#: tools/vselecttool.cc:606 tools/vselecttool.h:54
+msgid "Select Tool"
+msgstr "उपकरण चयन गर्नुहोस्"
+
+#: tools/vshapetool.cc:54
+msgid "<qt><b>Shape tool</b><br>"
+msgstr "<qt><b>आकार उपकरण</b><br>"
+
+#: tools/vshapetool.cc:55
+msgid "<i>Click and drag</i> to place your own shape.<br>"
+msgstr "<i>तपाईंको आफ्नै आकार राख्नका लागि</i> क्लिक गरेर तान्नुहोस् ।<br"
+
+#: tools/vshapetool.cc:56
+msgid "<i>Click</i> to place a shape using the tool properties values.</qt>"
+msgstr ""
+"<i>उपकरण गुण मानहरू प्रयोग गरेर आकार राख्नका लागि </i>क्लिक गर्नुहोस् ।</qt>"
+
+#: tools/vsheartool.cc:59 tools/vsheartool.cc:214
+msgid "Shear"
+msgstr "अपूर्ण"
+
+#: tools/vsheartool.cc:213 tools/vsheartool.h:34
+msgid "Shear Tool"
+msgstr "अपूर्ण उपकरण"
+
+#: tools/vsinustool.cc:36
+msgid "Insert Sinus"
+msgstr "साइनस घुसाउनुहोस्"
+
+#: tools/vsinustool.cc:48
+msgid "Periods:"
+msgstr "अवधि:"
+
+#: tools/vsinustool.cc:156 tools/vsinustool.h:39
+msgid "Sinus Tool"
+msgstr "साइनस उपकरण"
+
+#: tools/vspiraltool.cc:35
+msgid "Insert Spiral"
+msgstr "स्पाइरल घुसाउनुहोस्"
+
+#: tools/vspiraltool.cc:41
+msgid "Round"
+msgstr "गोलो"
+
+#: tools/vspiraltool.cc:42
+msgid "Rectangular"
+msgstr "आयतकार"
+
+#: tools/vspiraltool.cc:47
+msgid "Segments:"
+msgstr "खण्ड:"
+
+#: tools/vspiraltool.cc:50
+msgid "Fade:"
+msgstr "फेड:"
+
+#: tools/vspiraltool.cc:54
+msgid "Orientation:"
+msgstr "अभिमुखिकरण:"
+
+#: tools/vspiraltool.cc:56
+msgid "Clockwise"
+msgstr "दक्षिणावर्त्त"
+
+#: tools/vspiraltool.cc:57
+msgid "Counter Clockwise"
+msgstr "काउन्टर दक्षिणावर्त्त"
+
+#: tools/vspiraltool.cc:207 tools/vspiraltool.h:42
+msgid "Spiral Tool"
+msgstr "स्पाइरल उपकरण"
+
+#: tools/vstartool.cc:35
+msgid "Insert Star"
+msgstr "तारा घुसाउनुहोस्"
+
+#: tools/vstartool.cc:40
+msgid "Star Outline"
+msgstr "तारा रूपरेखा"
+
+#: tools/vstartool.cc:41
+msgid "Spoke"
+msgstr "तार"
+
+#: tools/vstartool.cc:42
+msgid "Wheel"
+msgstr "पाङ्ग्रा"
+
+#: tools/vstartool.cc:44
+msgid "Framed Star"
+msgstr "फ्रेम गरिएको तारा"
+
+#: tools/vstartool.cc:46
+msgid "Gear"
+msgstr "गियर"
+
+#: tools/vstartool.cc:50
+msgid "Outer radius:"
+msgstr "बाहिरी अर्धव्यास:"
+
+#: tools/vstartool.cc:54
+msgid "Inner radius:"
+msgstr "भित्री अर्धव्यास:"
+
+#: tools/vstartool.cc:64
+msgid "Inner angle:"
+msgstr "भित्री कोण:"
+
+#: tools/vstartool.cc:69
+msgid "Roundness:"
+msgstr "घुमाउरोपना:"
+
+#: tools/vstartool.cc:242 tools/vstartool.h:75
+msgid "Star Tool"
+msgstr "तारा उपकरण"
+
+#: tools/vstartool.cc:243
+msgid "Draw a star"
+msgstr "तारा कोर्नुहोस्"
+
+#: tools/vtexttool.cc:207 tools/vtexttool.cc:222
+msgid "Shadow"
+msgstr "छाँया"
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:69
+#: plugins/whirlpinch/whirlpinchplugin.cc:67 tools/vtexttool.cc:218
+msgid "Angle:"
+msgstr "कोण:"
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:65 tools/vtexttool.cc:220
+msgid "Distance:"
+msgstr "दूरी:"
+
+#: tools/vtexttool.cc:223
+msgid "Draw translucent shadow"
+msgstr "निर्मल छाँया कोर्नुहोस्"
+
+#: tools/vtexttool.cc:318 tools/vtexttool.cc:345
+msgid "Text"
+msgstr "पाठ"
+
+#: tools/vtexttool.cc:341
+msgid "Bold"
+msgstr "बाक्लो"
+
+#: tools/vtexttool.cc:352
+msgid "Alignment:"
+msgstr "पङ्क्तिबद्वता:"
+
+#: tools/vtexttool.cc:354
+msgid "Position:"
+msgstr "स्थान:"
+
+#: tools/vtexttool.cc:356
+msgid "Offset:"
+msgstr "अफसेट:"
+
+#: tools/vtexttool.cc:361
+msgid "Position"
+msgstr "स्थान"
+
+#: tools/vtexttool.cc:374
+msgid "Edit Base Path"
+msgstr "आधार बाटो सम्पादन गर्नुहोस्"
+
+#: tools/vtexttool.cc:375
+msgid "Convert to Shapes"
+msgstr "आकारहरूमा रूपान्तर गर्नुहोस्"
+
+#: tools/vtexttool.cc:385
+msgid "New text"
+msgstr "नयाँ पाठ"
+
+#: tools/vtexttool.cc:390
+msgid ""
+"_: Horizontal alignment\n"
+"Left"
+msgstr "बायाँ"
+
+#: tools/vtexttool.cc:391
+msgid ""
+"_: Horizontal alignment\n"
+"Center"
+msgstr "केन्द्र"
+
+#: tools/vtexttool.cc:392
+msgid ""
+"_: Horizontal alignment\n"
+"Right"
+msgstr "दायाँ"
+
+#: tools/vtexttool.cc:394
+msgid ""
+"_: Vertical alignment\n"
+"Above"
+msgstr "माथि"
+
+#: tools/vtexttool.cc:395
+msgid ""
+"_: Vertical alignment\n"
+"On"
+msgstr "मा"
+
+#: tools/vtexttool.cc:396
+msgid ""
+"_: Vertical alignment\n"
+"Under"
+msgstr "तल"
+
+#: tools/vtexttool.cc:605
+msgid "<qt><b>Text Tool</b><br>"
+msgstr "<qt><b>पाठ उपकरण</b><br>"
+
+#: tools/vtexttool.cc:606
+msgid "<i>Click</i> on document to place horizontal text.<br>"
+msgstr "<i>तेर्सो पाठ राख्नका लागि कागजातमा</i> क्लिक गर्नुहोस् ।<br>"
+
+#: tools/vtexttool.cc:607
+msgid "<i>Click and drag</i> in document to place directional text.<br>"
+msgstr ""
+"<i>दिशात्मक पाठ राख्नका लागि कागजातमा</i> क्लिक गरेर तान्नुहोस् ।<br>"
+
+#: tools/vtexttool.cc:608
+msgid ""
+"<i>Click</i> on a selected path object to place text along its outline.<br>"
+msgstr ""
+"<i>यसको रूपरेखा सहित पाठ राख्नका लागि</i> चयन गरिएको मार्ग वस्तुमा क्लिक "
+"गर्नुहोस् ।<br>"
+
+#: tools/vtexttool.cc:609
+msgid "<i>Click</i> on a selected text object to change it.<br></qt>"
+msgstr ""
+"<i>यसलाई परिवर्तन गर्नका लागि</i> चयन पाठ वस्तुमा क्लिक गर्नुहोस् ।<br></qt>"
+
+#: tools/vtexttool.cc:618 tools/vtexttool.cc:1151 tools/vtexttool.cc:1152
+#: tools/vtexttool.h:158
+msgid "Text Tool"
+msgstr "पाठ उपकरण"
+
+#: tools/vtexttool.cc:695 tools/vtexttool.cc:827 tools/vtexttool.cc:1122
+msgid "Change Text"
+msgstr "पाठ परिवर्तन गर्नुहोस्"
+
+#: tools/vtexttool.cc:895
+msgid "Text Conversion"
+msgstr "पाठ रूपानान्तरण"
+
+#: visitors/vselectiondesc.cc:35
+#, c-format
+msgid ""
+"_n: One object\n"
+"%n objects"
+msgstr ""
+"एउटा वस्तु\n"
+"%n वस्तु"
+
+#: visitors/vselectiondesc.cc:41
+msgid "path"
+msgstr "बाटो"
+
+#: visitors/vselectiondesc.cc:47
+#, c-format
+msgid ""
+"_n: One group, containing one object\n"
+"One group, containing %n objects"
+msgstr ""
+"एउटा वस्तु समाविष्ट गरेको, एउटा समूह\n"
+"%n वस्तुहरू समाविष्ट गरेको, एउटा समूह"
+
+#: visitors/vselectiondesc.cc:48
+msgid "group"
+msgstr "समूह"
+
+#: visitors/vselectiondesc.cc:54
+msgid "text"
+msgstr "पाठ"
+
+#: visitors/vselectiondesc.cc:60
+msgid "image"
+msgstr "छवि"
+
+#: widgets/vgradienttabwidget.cc:191
+msgid "Repeat:"
+msgstr "दोहोर्याउनुहोस्:"
+
+#: widgets/vgradienttabwidget.cc:192
+msgid "Target:"
+msgstr "लक्ष्य:"
+
+#: widgets/vgradienttabwidget.cc:194
+msgid "Linear"
+msgstr "रेखिय"
+
+#: widgets/vgradienttabwidget.cc:195
+msgid "Radial"
+msgstr "अर्धव्यास"
+
+#: widgets/vgradienttabwidget.cc:196
+msgid "Conical"
+msgstr "शांकवीय"
+
+#: widgets/vgradienttabwidget.cc:199
+msgid "Reflect"
+msgstr "प्रतिबिम्बित गर्नुहोस्"
+
+#: widgets/vgradienttabwidget.cc:200
+msgid "Repeat"
+msgstr "दोहोर्याउनुहोस्"
+
+#: widgets/vgradienttabwidget.cc:203
+msgid "Fill"
+msgstr "भर्नुहोस्"
+
+#: widgets/vgradienttabwidget.cc:204
+msgid "&Add to Predefined Gradients"
+msgstr "पूर्वपरिभाषित ग्रेडियन्टहरूमा थप्नुहोस्"
+
+#: widgets/vgradienttabwidget.cc:206
+msgid "Overall opacity:"
+msgstr "समग्र अस्पष्टता:"
+
+#: widgets/vgradienttabwidget.cc:213
+msgid "Predefined Gradients"
+msgstr "पूर्वपरिभाषित ग्रेडियन्टहरू"
+
+#: widgets/vgradienttabwidget.cc:220
+msgid "&Import"
+msgstr "आयात गर्नुहोस्"
+
+#: widgets/vgradienttabwidget.cc:222
+msgid "Predefined"
+msgstr "पूर्वपरिभाषित"
+
+#: widgets/vselecttoolbar.cc:38
+msgid "Object Properties"
+msgstr "वस्तु गुणहरू"
+
+#: widgets/vselecttoolbar.cc:51
+msgid ""
+"_: selection width\n"
+"Width:"
+msgstr "चौडाइ:"
+
+#: widgets/vsmallpreview.cc:47 widgets/vsmallpreview.cc:253
+msgid "Stroke: None"
+msgstr "स्ट्रोक: कुनै पनि होइन"
+
+#: widgets/vsmallpreview.cc:53 widgets/vsmallpreview.cc:159
+msgid "Fill: None"
+msgstr "भर्नुहोस्: कुनै पनि होइन"
+
+#: widgets/vsmallpreview.cc:115
+msgid "Fill: RGB"
+msgstr "भर्नुहोस्: RGB"
+
+#: widgets/vsmallpreview.cc:117
+msgid "Fill: CMYK"
+msgstr "भर्नुहोस्: CMYK"
+
+#: widgets/vsmallpreview.cc:119
+msgid "Fill: HSB"
+msgstr "भर्नुहोस्: HSB"
+
+#: widgets/vsmallpreview.cc:121
+msgid "Fill: Grayscale"
+msgstr "भर्नुहोस्: ग्रेस्केल"
+
+#: widgets/vsmallpreview.cc:123
+msgid "Fill: Color"
+msgstr "भर्नुहोस्: रङ"
+
+#: widgets/vsmallpreview.cc:132
+msgid "Fill: Gradient"
+msgstr "भर्नुहोस्: ग्रेडियन्ट"
+
+#: widgets/vsmallpreview.cc:154
+msgid "Fill: Pattern"
+msgstr "भर्नुहोस्: बाँन्की"
+
+#: widgets/vsmallpreview.cc:210
+msgid "Stroke: RGB"
+msgstr "स्ट्रोक: RGB"
+
+#: widgets/vsmallpreview.cc:212
+msgid "Stroke: CMYK"
+msgstr "स्ट्रोक: CMYK"
+
+#: widgets/vsmallpreview.cc:214
+msgid "Stroke: HSB"
+msgstr "स्ट्रोक: HSB"
+
+#: widgets/vsmallpreview.cc:216
+msgid "Stroke: Grayscale"
+msgstr "स्ट्रोक: ग्रेस्केल"
+
+#: widgets/vsmallpreview.cc:218
+msgid "Stroke: Color"
+msgstr "स्ट्रोक: रङ"
+
+#: widgets/vsmallpreview.cc:227
+msgid "Stroke: Gradient"
+msgstr "स्ट्रोक: ग्रेडियन्ट"
+
+#: widgets/vsmallpreview.cc:248
+msgid "Stroke: Pattern"
+msgstr "स्ट्रोक: बाँन्की"
+
+#: widgets/vtranslate.cc:35
+msgid "Translate"
+msgstr "अनुवाद गर्नुहोस्"
+
+#: widgets/vtranslate.cc:59
+msgid "Relative &position"
+msgstr "सापेक्षिक स्थिति"
+
+#: widgets/vtypebuttonbox.cc:239
+msgid "Solid"
+msgstr "ठोस"
+
+#: plugins/flattenpath/flattenpathplugin.cc:40
+msgid "&Flatten Path..."
+msgstr "समतल मार्ग..."
+
+#: plugins/flattenpath/flattenpathplugin.cc:56
+msgid "Flatten Path"
+msgstr "समतल मार्ग"
+
+#: plugins/flattenpath/flattenpathplugin.cc:60
+msgid "Flatness:"
+msgstr "समतल:"
+
+#: plugins/imagetool/vimagetool.cc:47
+msgid "<qt><b>Image tool:</b><br>"
+msgstr "<qt><b>छवि उपकरण:</b><br>"
+
+#: plugins/imagetool/vimagetool.cc:61 plugins/imagetool/vimagetool.cc:126
+msgid "Image Tool"
+msgstr "छवि उपकरण"
+
+#: plugins/imagetool/vimagetool.cc:72
+msgid "Choose Image to Add"
+msgstr "थप्नका लागि छवि छनोट गर्नुहोस्"
+
+#: plugins/imagetool/vimagetool.cc:76
+msgid "Insert Image"
+msgstr "छवि घुसाउनुहोस्"
+
+#: plugins/imagetool/vimagetool.cc:127
+msgid "Image"
+msgstr "छवि"
+
+#: plugins/insertknots/insertknotsplugin.cc:39
+msgid "&Insert Knots..."
+msgstr "नटहरू रू घुसाउनुहोस्..."
+
+#: plugins/insertknots/insertknotsplugin.cc:54
+#: plugins/insertknots/insertknotsplugin.cc:86
+msgid "Insert Knots"
+msgstr "नटहरू घुसाउनुहोस्"
+
+#: plugins/insertknots/insertknotsplugin.cc:59
+msgid "Knots:"
+msgstr "नटहरू:"
+
+#: plugins/roundcorners/roundcornersplugin.cc:38
+msgid "&Round Corners..."
+msgstr "गोलो कुना..."
+
+#: plugins/roundcorners/roundcornersplugin.cc:59
+msgid "Polygonize"
+msgstr "पोलीगोनाइज"
+
+#: plugins/roundcorners/roundcornersplugin.cc:64
+msgid "Round corners:"
+msgstr "गोलो कुना..."
+
+#: plugins/roundcorners/roundcornersplugin.cc:91
+msgid "Round Corners"
+msgstr "गोलो कुना"
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:44
+msgid "&Shadow Effect..."
+msgstr "छाँया प्रभाव..."
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:61
+msgid "Create Shadow Effect"
+msgstr "छाँया प्रभाव सिर्जना गर्नुहोस्"
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:78
+#, c-format
+msgid "%"
+msgstr "%"
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:124
+msgid "Create Shadow"
+msgstr "छाँया सिर्जना गर्नुहोस्"
+
+#: plugins/whirlpinch/whirlpinchplugin.cc:44
+msgid "&Whirl/Pinch..."
+msgstr "चक्र/दवाब..."
+
+#: plugins/whirlpinch/whirlpinchplugin.cc:62
+#: plugins/whirlpinch/whirlpinchplugin.cc:121
+msgid "Whirl Pinch"
+msgstr "चक्र दवाब"
+
+#: plugins/whirlpinch/whirlpinchplugin.cc:69
+msgid "Pinch:"
+msgstr "दवाब:"
+
+#: plugins/zoomtool/vzoomtool.cc:50
+msgid "<qt><b>Zoom tool:</b><br>"
+msgstr "<qt><b>जूम उपकरण:</b><br>"
+
+#: plugins/zoomtool/vzoomtool.cc:51
+msgid "<i>Click and drag</i> to zoom into a rectangular area.<br>"
+msgstr "<i>आयातकार क्षेत्रमा जूम गर्नका लागि</i>क्लिक गरेर तान्नुहोस् ।<br>"
+
+#: plugins/zoomtool/vzoomtool.cc:52
+msgid "<i>Right click</i> to zoom out of canvas.<br>"
+msgstr "<i>क्यानभासबाट जूम आउट गर्नका लागि</i> दायाँ क्लिक गर्नुहोस् ।<br>"
+
+#: plugins/zoomtool/vzoomtool.cc:53
+msgid "<i>Pressing +/- keys</i><br>to zoom into/out of canvas."
+msgstr "<i>क्यानभासको जूम बढाउनु/घटाउनु</i><br> +/- कुञ्जीहरू थिच्दै ।"
+
+#: plugins/zoomtool/vzoomtool.cc:67 plugins/zoomtool/vzoomtool.cc:164
+msgid "Zoom Tool"
+msgstr "जूम उपकरण"

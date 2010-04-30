@@ -1,0 +1,366 @@
+# translation of kdf.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdf\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 23:08+0000\n"
+"PO-Revision-Date: 2010-04-22 11:24+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:28+0000\n"
+
+#: disklist.cpp:342
+#, kde-format
+msgid "could not execute [%1]"
+msgstr ""
+
+#: disks.cpp:278
+#, kde-format
+msgid ""
+"Called: %1\n"
+"\n"
+msgstr ""
+"आह्वान गरिएको: %1\n"
+"\n"
+
+#: disks.cpp:299
+#, kde-format
+msgid "could not execute %1"
+msgstr "%1 कार्यान्वयन गर्न सकेन"
+
+#: kcmdf.cpp:56
+msgid ""
+"A right mouse button click opens a context menu to mount/unmount a device or "
+"to open it in the file manager."
+msgstr ""
+
+#: kconftest.cpp:43
+msgid "A test application"
+msgstr "परीक्षण अनुप्रयोग"
+
+#: kdf.cpp:38
+msgid "KDE free disk space utility"
+msgstr "केडीई खाली डिस्क स्थान उपयोगिता"
+
+#: kdf.cpp:50
+msgctxt "Update action"
+msgid "&Update"
+msgstr "अद्यावधिक गर्नुहोस्"
+
+#: kdf.cpp:74
+msgid "KDiskFree"
+msgstr "केडीई खाली डिस्क"
+
+#: kdf.cpp:76
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr "(c) 1998-2001, माइकल क्रोप्फ्बर्गर"
+
+#: kdf.cpp:78 kwikdisk.cpp:322
+msgid "Michael Kropfberger"
+msgstr "माइकल क्रोप्फ्बर्गर"
+
+#: kdfconfig.cpp:56
+msgctxt "TODO"
+msgid "Icon"
+msgstr "आइकन"
+
+#: kdfconfig.cpp:57 kdfwidget.cpp:72
+msgctxt "Device of the storage"
+msgid "Device"
+msgstr "यन्त्र"
+
+#: kdfconfig.cpp:58 kdfwidget.cpp:73
+msgctxt "Filesystem on storage"
+msgid "Type"
+msgstr "प्रकार"
+
+#: kdfconfig.cpp:59 kdfwidget.cpp:74
+msgctxt "Total size of the storage"
+msgid "Size"
+msgstr "साइज"
+
+#: kdfconfig.cpp:60
+msgctxt "Mount point of the storage"
+msgid "Mount Point"
+msgstr "माउन्ट बिन्दु"
+
+#: kdfconfig.cpp:61 kdfwidget.cpp:76
+msgctxt "Free space in storage"
+msgid "Free"
+msgstr "खाली"
+
+#: kdfconfig.cpp:62 kdfwidget.cpp:77
+msgctxt "Used storage space in %"
+msgid "Full %"
+msgstr ""
+
+#: kdfconfig.cpp:63 kdfwidget.cpp:78
+msgctxt "Usage graphical bar"
+msgid "Usage"
+msgstr "उपयोग"
+
+#: kdfconfig.cpp:88 kdfconfig.cpp:191
+msgctxt "Visible items on device information columns (enable|disable)"
+msgid "visible"
+msgstr ""
+
+#: kdfconfig.cpp:171
+msgctxt "Are items on device information columns visible?"
+msgid "visible"
+msgstr ""
+
+#: kdfconfig.cpp:172
+msgctxt "Are items on device information columns hidden?"
+msgid "hidden"
+msgstr "लुकेको"
+
+#: kdfconfig.cpp:208
+msgctxt "Device information item is hidden"
+msgid "hidden"
+msgstr "लुकेको"
+
+#: kdfconfig.cpp:209
+msgctxt "Device information item is visible"
+msgid "visible"
+msgstr ""
+
+#: kdfwidget.cpp:75
+msgctxt "Mount point of storage"
+msgid "Mount Point"
+msgstr "माउन्ट बिन्दु"
+
+#: kdfwidget.cpp:285 kdfwidget.cpp:286
+msgid "N/A"
+msgstr "N/A"
+
+#: kdfwidget.cpp:342 kwikdisk.cpp:281
+#, kde-format
+msgid "Device [%1] on [%2] is critically full."
+msgstr "[%2] मा यन्त्र[%1] संकटपूर्ण रूपमा भरिएको छ ।"
+
+#: kdfwidget.cpp:344
+msgctxt "Warning device getting critically full"
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: kdfwidget.cpp:392
+msgid "Mount Device"
+msgstr "यन्त्र माउन्ट गर्नुहोस्"
+
+#: kdfwidget.cpp:393
+msgid "Unmount Device"
+msgstr "यन्त्र अनमाउन्ट गर्नुहोस्"
+
+#: kdfwidget.cpp:395
+msgid "Open in File Manager"
+msgstr "फाइल प्रबन्धकमा खोल्नुहोस्"
+
+#: kdfwidget.cpp:412 kdfwidget.cpp:415
+msgid "MOUNTING"
+msgstr "माउन्ट गर्दै"
+
+#: kwikdisk.cpp:55
+msgid "KDE Free disk space utility"
+msgstr "केडीई स्वतन्त्र डिस्क स्थान उपयोगिता"
+
+#: kwikdisk.cpp:70 kwikdisk.cpp:318
+msgid "KwikDisk"
+msgstr "क्विक डिस्क"
+
+#: kwikdisk.cpp:88
+msgid "&Start KDiskFree"
+msgstr "केडीई डिस्क खाली सुरु गर्नुहोस्"
+
+#: kwikdisk.cpp:92
+msgid "&Configure KwikDisk..."
+msgstr "क्विक डिस्क कन्फिगर गर्नुहोस्..."
+
+#: kwikdisk.cpp:196
+msgctxt "Unmount the storage device"
+msgid "Unmount"
+msgstr "अनमाउन्ट गर्नुहोस्"
+
+#: kwikdisk.cpp:196
+msgctxt "Mount the storage device"
+msgid "Mount"
+msgstr "माउन्ट गर्नुहोस्"
+
+#: kwikdisk.cpp:218
+msgid "You must login as root to mount this disk"
+msgstr "यो डिस्क माउन्ट गर्न तपाईँले मूलको रूपमा लगइन हुनुपर्दछ"
+
+#: kwikdisk.cpp:283
+msgctxt "Device is getting critically full"
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: kwikdisk.cpp:319
+msgid "(C) 2004 Stanislav Karchebny"
+msgstr "(C) 2004 स्तानिस्लभ कार्चेब्नि"
+
+#: kwikdisk.cpp:322
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: kwikdisk.cpp:324
+msgid "Espen Sand"
+msgstr "एस्पेन सान्ड"
+
+#: kwikdisk.cpp:324
+msgid "KDE 2 changes"
+msgstr "केडीई 2 परिवर्तन"
+
+#: kwikdisk.cpp:325
+msgid "Stanislav Karchebny"
+msgstr "स्तानिस्लभ कार्चेब्नि"
+
+#: kwikdisk.cpp:325
+msgid "KDE 3 changes"
+msgstr "केडीई 3 परिवर्तन"
+
+#: mntconfig.cpp:70 mntconfig.cpp:75
+msgid "Device"
+msgstr "यन्त्र"
+
+#: mntconfig.cpp:71 mntconfig.cpp:77
+msgid "Mount Point"
+msgstr "माउन्ट बिन्दु"
+
+#: mntconfig.cpp:71
+msgid "Mount Command"
+msgstr "आदेश माउन्ट गर्नुहोस्"
+
+#: mntconfig.cpp:71
+msgid "Unmount Command"
+msgstr "आदेश अमाउन्ट गर्नुहोस्"
+
+#: mntconfig.cpp:76
+msgctxt "No device is selected"
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: mntconfig.cpp:78
+msgctxt "No mount point is selected"
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: mntconfig.cpp:262
+msgid "Only local files supported."
+msgstr "स्थानीय फाइल मात्र समर्थन गरियो ।"
+
+#: mntconfig.cpp:278
+msgid "Only local files are currently supported."
+msgstr "स्थानीय फाइल मात्र हाल समर्थित छन् ।"
+
+#: optiondialog.cpp:31
+msgid "Configure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#: optiondialog.cpp:39
+msgid "General Settings"
+msgstr "साधारण सेटिङ"
+
+#: optiondialog.cpp:43
+msgid "Mount Commands"
+msgstr "आदेश माउन्ट गर्नुहोस्"
+
+#. i18n: file: kdfconfig.ui:27
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listWidget)
+#: rc.cpp:3
+msgid "1"
+msgstr "१"
+
+#. i18n: file: kdfconfig.ui:35
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: rc.cpp:6
+msgid "Update frequency:"
+msgstr ""
+
+#. i18n: file: kdfconfig.ui:42
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#: rc.cpp:9
+msgid " sec"
+msgstr "  सेकेन्ड"
+
+#. i18n: file: kdfconfig.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#: rc.cpp:12
+msgid "Open file manager automatically on mount"
+msgstr "माउन्टमा फाइल प्रबन्धक स्वचालित तरिकाले खोल्नुहोस्"
+
+#. i18n: file: kdfconfig.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#: rc.cpp:15
+msgid "Pop up a window when a disk gets critically full"
+msgstr "डिस्क संकटपूर्ण रूपमा पुरा हुँदा सञ्झ्याल पपअप गर्नुहोस्"
+
+#. i18n: file: kdfconfig.ui:69
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#: rc.cpp:19
+#, no-c-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "फाइल प्रबन्धक (उदाहरण. konsole -e mc %m):"
+
+#. i18n: file: kdfui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:22
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: mntconfig.ui:20
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#: rc.cpp:25
+msgid "Icon name:"
+msgstr "आइकन नाम:"
+
+#. i18n: file: mntconfig.ui:30
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#: rc.cpp:28
+msgid "Mount Command:"
+msgstr "माउन्ट कमान्ड:"
+
+#. i18n: file: mntconfig.ui:40
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#: rc.cpp:31
+msgid "Unmount Command:"
+msgstr "अमाउन्ट कमान्ड:"
+
+#. i18n: file: mntconfig.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#: rc.cpp:34
+msgid "Default Icon"
+msgstr "पूर्वनिर्धारित आइकन"
+
+#. i18n: file: mntconfig.ui:57
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: file: mntconfig.ui:64
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#: rc.cpp:37 rc.cpp:40
+msgid "Get Command..."
+msgstr ""
+
+#: rc.cpp:41
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"जितेन्द्र हरलालका, Kapil Timilsina, श्यामकृष्ण बल, नारायण कुमार मगर, "
+",Launchpad Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:42
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"<jitendra@otrc.gov.np>, lipak21@gmail.com, shyamkrishna_bal@yahoo.com, "
+"narayan@mpp.org.np,,,"

@@ -1,0 +1,693 @@
+# translation of kpackage.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kpackage\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-12-25 01:23+0000\n"
+"PO-Revision-Date: 2009-07-16 09:37+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: debInterface.cpp:63 rpmInterface.cpp:53
+msgid "Download only"
+msgstr "डाउनलोड मात्र"
+
+#: debInterface.cpp:295
+msgid "&Apt-File Update"
+msgstr "Apt फाइल अद्यावधिक गर्नुहोस्"
+
+#: debInterface.cpp:317
+#, kde-format
+msgid "The %1 program needs to be installed"
+msgstr "%1 कार्यक्रम स्थापना गर्नुपर्छ"
+
+#: findf.cpp:53
+msgid "Find File"
+msgstr "फाइल फेला पार्नुहोस्"
+
+#: findf.cpp:56 search.cpp:46
+msgid "&Find"
+msgstr "फेला पार्नुहोस्"
+
+#: findf.cpp:67 search.cpp:43 search.cpp:54
+msgid "Find Package"
+msgstr "प्याकेज फेला पार्नुहोस्"
+
+#: findf.cpp:81
+msgid "Find:"
+msgstr "फेला पार्नुहोस्:"
+
+#: findf.cpp:88
+msgid "Installed"
+msgstr "स्थापित"
+
+#: findf.cpp:90 kplview.cpp:58
+msgid "Package"
+msgstr "प्याकेज"
+
+#: findf.cpp:91
+msgid "File Name"
+msgstr "फाइल नाम"
+
+#: findf.cpp:96
+msgid "Also search uninstalled packages"
+msgstr "स्थापनाबाट हटाइएका प्याकेज पनि खोज्नुहोस्"
+
+#: findf.cpp:99
+msgid "Also search uninstalled packages (apt-file needs to be installed)"
+msgstr ""
+"स्थापनाबाट हटाइएका प्याकेज पनि खोज्नुहोस् (apt फाइल स्थापना गरिएको हुनुपर्छ)"
+
+#: findf.cpp:181
+msgid "--Nothing found--"
+msgstr "--केही फेला परेन--"
+
+#: findf.cpp:231
+msgid "Incorrect URL type"
+msgstr "गलत यूआरएल प्रकार"
+
+#: kpConfig.cpp:16
+msgid "Command"
+msgstr ""
+
+#: kpConfig.cpp:16
+msgid "Privilege Command"
+msgstr ""
+
+#: kpConfig.cpp:21
+msgid "Misc"
+msgstr ""
+
+#: kpPty.cpp:157
+msgid ""
+"The action you requested uses ssh. Please enter the password or pass "
+"phrase.\n"
+msgstr ""
+"तपाईँले अनुरोध गरिएको कार्यले ssh. प्रयोग गर्छ । कृपया पासवर्ड वा पासफ्रेज "
+"प्रविष्ट गर्नुहोस् ।\n"
+
+#: kpPty.cpp:160
+msgid ""
+"The action you requested needs root privileges. Please enter root's "
+"password.\n"
+msgstr ""
+"तपाईँले अनुरोध गरिएको कार्यलाई मूल विशेषाधिकार आवश्यक पर्छ । कृपया रूटको "
+"पासवर्ड प्रविष्ट गर्नुहोस् ।\n"
+
+#: kpPty.cpp:163
+msgid ""
+"The action you requested needs root privileges. Please enter your password.\n"
+msgstr ""
+
+#: kpPty.cpp:181
+msgid "Login Problem: Please login manually"
+msgstr "लगइन समस्या: कृपया म्यानुअली लगइन गर्नुहोस्"
+
+#: kpackage.cpp:118
+msgid "Management Mode"
+msgstr "प्रबन्ध मोड"
+
+#: kpackage.cpp:157
+msgid "Select Package"
+msgstr "प्याकेज चयन गर्नुहोस्"
+
+#: kpackage.cpp:253
+#, kde-format
+msgid "Malformed URL: %1"
+msgstr "विकृत यूआरएल: %1"
+
+#: kpackage.cpp:299
+msgid "Open location:"
+msgstr "खुला स्थान:"
+
+#: kpkg.cpp:105
+msgid "remote &Host..."
+msgstr ""
+
+#: kpkg.cpp:110
+msgid "Recent Remote Hosts"
+msgstr ""
+
+#: kpkg.cpp:123
+msgid "Find &Package..."
+msgstr "प्याकेज फेला पार्नुहोस्..."
+
+#: kpkg.cpp:129
+msgid "Find &File..."
+msgstr "फाइल फेला पार्नुहोस्..."
+
+#: kpkg.cpp:134
+msgid "&Reload"
+msgstr "रिलोड गर्नुहोस्"
+
+#: kpkg.cpp:152
+msgid "&Expand Tree"
+msgstr "ट्री विस्तार गर्नुहोस्"
+
+#: kpkg.cpp:158
+msgid "&Collapse Tree"
+msgstr "ट्री संक्षिप्त गर्नुहोस्"
+
+#: kpkg.cpp:163
+msgid "Clear &Marked"
+msgstr "चिनो खाली गर्नुहोस्"
+
+#: kpkg.cpp:167
+msgid "Mark &All"
+msgstr "सबैमा चिन्ह लगाउनुहोस्"
+
+#: kpkg.cpp:171
+msgid "&Install"
+msgstr "स्थापना गर्नुहोस्"
+
+#: kpkg.cpp:179
+msgid "&Uninstall"
+msgstr "स्थापना हटाउनुहोस्"
+
+#: kpkg.cpp:187
+msgid "&Install Marked"
+msgstr "चिनो स्थापना गर्नुहोस्"
+
+#: kpkg.cpp:192
+msgid "&Uninstall Marked"
+msgstr "चिनो स्थापनाबाट हटाउनुहोस्"
+
+#: kpkg.cpp:206
+msgid "Configure &KPackage..."
+msgstr "प्याकेज कन्फिगर गर्नुहोस्..."
+
+#: kpkg.cpp:277
+msgid "Name of Remote Host:"
+msgstr ""
+
+#: kplview.cpp:60
+msgid "Mark"
+msgstr "चिनो लगाउनुहोस्"
+
+#: kplview.cpp:62
+msgid "Summary"
+msgstr "सारांश"
+
+#: kplview.cpp:64
+msgid "Size"
+msgstr "साइज"
+
+#: kplview.cpp:66
+msgid "Version"
+msgstr "संस्करण"
+
+#: kplview.cpp:68
+msgid "Old Version"
+msgstr "पुरानो संस्करण"
+
+#: main.cpp:50
+msgid "KDE Package installer"
+msgstr "केडीई प्याकेज स्थापक"
+
+#: main.cpp:65
+msgid "KPackage"
+msgstr "केडीई प्याकेज"
+
+#: main.cpp:68
+msgid "(c) 1999-2001, Toivo Pedaste"
+msgstr "(c) १९९९-२००१, तोइभो पेडेस्ट"
+
+#: main.cpp:70
+msgid "Toivo Pedaste"
+msgstr "तोइभो पेडेस्ट"
+
+#: main.cpp:73
+msgid "Remote host for Debian APT, via SSH"
+msgstr "डेबियन APT, साथसाथै SSH का लागि टाढाको होस्ट"
+
+#: main.cpp:75
+msgid "Package to install"
+msgstr "प्याकेज स्थापना गर्न"
+
+#: managementWidget.cpp:87
+msgid "Installed Packages"
+msgstr "स्थापित प्याकेज"
+
+#: managementWidget.cpp:88
+msgid "New Packages"
+msgstr "नयाँ प्याकेज"
+
+#: managementWidget.cpp:89
+msgid "Updated Packages"
+msgstr "अद्यावधिक प्याकेज"
+
+#: managementWidget.cpp:90
+msgid "Available Packages"
+msgstr "उपलब्ध प्याकेज"
+
+#: managementWidget.cpp:91
+msgid "All Packages"
+msgstr "सबै प्याकेज"
+
+#: managementWidget.cpp:130
+msgid "Search: "
+msgstr "खोज्नुहोस्: "
+
+#: managementWidget.cpp:160
+msgid "Uninstall Marked"
+msgstr "चिनो स्थापनाबाट हटाउनुहोस्"
+
+#: managementWidget.cpp:164
+msgid "Install Marked"
+msgstr "चिनो स्थापना गर्नुहोस्"
+
+#: managementWidget.cpp:189 pkgOptions.cpp:404 pkgOptions.cpp:407
+msgid "Uninstall"
+msgstr "स्थापनाबाट हटाउनुहोस्"
+
+#: managementWidget.cpp:193 managementWidget.cpp:261 pkgOptions.cpp:388
+#: pkgOptions.cpp:391
+msgid "Install"
+msgstr "स्थापना गर्नुहोस्"
+
+#: managementWidget.cpp:342
+msgid "Building package tree"
+msgstr "प्याकेज ट्री निर्माण"
+
+#: packageDisplay.cpp:96
+msgid "Properties"
+msgstr "गुण"
+
+#: packageDisplay.cpp:97
+msgid "Dependencies List"
+msgstr ""
+
+#: packageDisplay.cpp:98
+msgid "File List"
+msgstr "फाइल सूची"
+
+#: packageDisplay.cpp:99
+msgid "Change Log"
+msgstr "लग परिवर्तन गर्नुहोस्"
+
+#: packageDisplay.cpp:294
+msgid " - No change log -"
+msgstr " - लग परिवर्तन नगर्नुहोस् -"
+
+#: packageDisplay.cpp:309 packageDisplay.cpp:327
+msgid "Updating File List"
+msgstr "अद्यावधिक फाइल सूची"
+
+#: packageDisplay.cpp:334
+msgid " Files"
+msgstr " फाइल"
+
+#: packageDisplay.cpp:389
+msgid "&Open With..."
+msgstr "यससँग खोल्नुहोस्..."
+
+#: packageInfo.cpp:128
+msgid "OTHER"
+msgstr "अन्य"
+
+#: packageProperties.cpp:65
+msgid "name"
+msgstr "नाम"
+
+#: packageProperties.cpp:67
+msgid "summary"
+msgstr "सारांश"
+
+#: packageProperties.cpp:68
+msgid "version"
+msgstr "संस्करण"
+
+#: packageProperties.cpp:69
+msgid "old-version"
+msgstr "पूरानो संस्करण"
+
+#: packageProperties.cpp:70
+msgid "status"
+msgstr "स्थिति"
+
+#: packageProperties.cpp:71
+msgid "group"
+msgstr "समूह"
+
+#: packageProperties.cpp:72
+msgid "size"
+msgstr "साइज"
+
+#: packageProperties.cpp:73
+msgid "file-size"
+msgstr "फाइल साइज"
+
+#: packageProperties.cpp:74
+msgid "description"
+msgstr "वर्णन"
+
+#: packageProperties.cpp:75
+msgid "url"
+msgstr "यूआरएल"
+
+#: packageProperties.cpp:76
+msgid "architecture"
+msgstr "संरचना"
+
+#: packageProperties.cpp:78
+msgid "unsatisfied dependencies"
+msgstr "असन्तुष्ट निर्भरता"
+
+#: packageProperties.cpp:79
+msgid "pre-depends"
+msgstr "पूर्व निर्भर"
+
+#: packageProperties.cpp:80
+msgid "dependencies"
+msgstr "निर्भरता"
+
+#: packageProperties.cpp:81
+msgid "depends"
+msgstr "निर्भर"
+
+#: packageProperties.cpp:82
+msgid "conflicts"
+msgstr "द्वन्द्व"
+
+#: packageProperties.cpp:83
+msgid "provides"
+msgstr "उपलब्ध"
+
+#: packageProperties.cpp:84
+msgid "recommends"
+msgstr "सिफारिस"
+
+#: packageProperties.cpp:85
+msgid "replaces"
+msgstr "प्रतिस्थापन"
+
+#: packageProperties.cpp:86
+msgid "suggests"
+msgstr "सुझाव"
+
+#: packageProperties.cpp:87
+msgid "priority"
+msgstr "प्राथमिकता"
+
+#: packageProperties.cpp:89
+msgid "essential"
+msgstr "आवश्यक"
+
+#: packageProperties.cpp:90
+msgid "install time"
+msgstr "समय स्थापना गर्नुहोस्"
+
+#: packageProperties.cpp:91
+msgid "config-version"
+msgstr "कन्फिग-संस्करण"
+
+#: packageProperties.cpp:92
+msgid "distribution"
+msgstr "वितरण"
+
+#: packageProperties.cpp:93
+msgid "vendor"
+msgstr "बिक्रेता"
+
+#: packageProperties.cpp:94
+msgid "maintainer"
+msgstr "मर्मतकर्ता"
+
+#: packageProperties.cpp:95
+msgid "packager"
+msgstr "प्याकेजर"
+
+#: packageProperties.cpp:96
+msgid "source"
+msgstr "स्रोत"
+
+#: packageProperties.cpp:97
+msgid "build-time"
+msgstr "निर्माण समय"
+
+#: packageProperties.cpp:98
+msgid "build-host"
+msgstr "निर्माण होस्ट"
+
+#: packageProperties.cpp:99
+msgid "base"
+msgstr "आधार"
+
+#: packageProperties.cpp:100
+msgid "filename"
+msgstr "फाइलनाम"
+
+#: packageProperties.cpp:101
+msgid "serial"
+msgstr "क्रमिक"
+
+#: packageProperties.cpp:102
+msgid "flags"
+msgstr "झण्डा"
+
+#: packageProperties.cpp:103
+msgid "channels"
+msgstr "च्यानल"
+
+#: packageProperties.cpp:104
+msgid "reference urls"
+msgstr "सन्दर्भ urls"
+
+#: packageProperties.cpp:106
+msgid "also in"
+msgstr "यसमा पनि"
+
+#: packageProperties.cpp:107
+msgid "run depends"
+msgstr "चाल निर्भर हुन्छ"
+
+#: packageProperties.cpp:108
+msgid "build depends"
+msgstr "निर्माण निर्भर हुन्छ"
+
+#: packageProperties.cpp:109
+msgid "available as"
+msgstr "यस रूपमा उपलब्ध"
+
+#: packageProperties.cpp:183
+msgid "none"
+msgstr "कुनै होइन"
+
+#: pkgInterface.cpp:80
+msgid ""
+"Kpackage requires the SMART Package Manager to be installed in order to "
+"function"
+msgstr ""
+"केडीई प्याकेजले कार्य गर्नका लागि यसलाई SMART प्याकेज प्रबन्धक स्थापना "
+"गर्नुपर्दछ"
+
+#: pkgInterface.cpp:84
+msgid "'Delete this window to continue'"
+msgstr "'जारी राख्न यो सञ्झ्याल मेट्नुहोस्'"
+
+#: pkgInterface.cpp:97
+msgid "Querying SMART package list: "
+msgstr "SMART प्याकेज सूची क्वेरी गर्दैछ: "
+
+#: pkgInterface.cpp:98
+msgid "KPackage: Waiting on SMART"
+msgstr "केडीई प्याकेज: SMART मा प्रतिक्षा गर्दैछ"
+
+#: pkgInterface.cpp:119
+msgid "&Update"
+msgstr "अद्यावधिक गर्नुहोस्"
+
+#: pkgInterface.cpp:124
+msgid "U&pgrade"
+msgstr "स्तरबृद्धि गर्नुहोस्"
+
+#: pkgInterface.cpp:129
+msgid "&Fixup"
+msgstr "फिक्सअप"
+
+#: pkgInterface.cpp:445
+msgid "Querying package state"
+msgstr "प्याकेज स्थिति क्वेरी गर्दैछ"
+
+#: pkgInterface.cpp:495
+msgid "Querying package dependencies"
+msgstr ""
+
+#: pkgInterface.cpp:554
+msgid "Querying installed package list"
+msgstr "स्थापित प्याकेज सूची क्वेरी गर्दैछ"
+
+#: pkgInterface.cpp:565
+msgid "'smart' package manager is required"
+msgstr ""
+
+#: pkgInterface.cpp:574
+msgid "Press 'Update' to display available packages "
+msgstr ""
+
+#: pkgInterface.cpp:602
+msgid "Generating package information"
+msgstr "प्याकेज सूचना उत्पन्न गर्दैछ"
+
+#: pkgInterface.cpp:609
+msgid "Processing package information"
+msgstr "प्याकेज सूचना प्रक्रिया गर्दैछ"
+
+#: pkgInterface.cpp:649
+#, kde-format
+msgid "Querying SMART package list: %1"
+msgstr "SMART प्याकेज सूची क्वेरी गर्दैछ: %1"
+
+#: pkgInterface.cpp:661
+#, kde-format
+msgid "Processing SMART package list: %1"
+msgstr "SMART प्याकेज सूची प्रक्रिया गर्दैछ: %1"
+
+#: pkgInterface.cpp:668
+msgid "SMART"
+msgstr "SMART"
+
+#: pkgInterface.cpp:771
+msgid "Verifying"
+msgstr "रूजु गर्दैछ"
+
+#: pkgOptions.cpp:102
+msgid "Keep this window"
+msgstr "यो सञ्झ्याल राख्नुहोस्"
+
+#: pkgOptions.cpp:239
+#, kde-format
+msgctxt ""
+"Used when listing how many packages are to be installed, and how many are to "
+"be uninstalled.  The argument on the left is a translation of Install or "
+"Uninstall respectively."
+msgid "%2: 1 Package"
+msgid_plural "%2: %1 Packages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pkgOptions.cpp:315
+msgid "Done"
+msgstr "पूरा भयो"
+
+#: procbuf.cpp:120
+msgid "Kprocess Failure"
+msgstr "केडीई प्रक्रिया असफलता"
+
+#: procbuf.cpp:138
+#, kde-format
+msgid "Timeout: %1"
+msgstr "समय समाप्त: %1"
+
+#: procbuf.cpp:144
+#, kde-format
+msgid "Kprocess error:%1"
+msgstr "केडीई प्रक्रिया त्रुटि:%1"
+
+#. i18n: file: Command.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:3
+msgid "How to Execute Privileged Commands"
+msgstr ""
+
+#. i18n: file: Command.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:6
+msgid "Command to use"
+msgstr ""
+
+#. i18n: file: Command.ui:43
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrivCommand)
+#: rc.cpp:9
+msgid "sudo"
+msgstr ""
+
+#. i18n: file: Command.ui:48
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrivCommand)
+#: rc.cpp:12
+msgid "su"
+msgstr ""
+
+#. i18n: file: Command.ui:53
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrivCommand)
+#: rc.cpp:15
+msgid "ssh"
+msgstr ""
+
+#. i18n: file: Misc.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Verify)
+#: rc.cpp:18
+msgid "Verify List of Files"
+msgstr ""
+
+#. i18n: file: kpackageSettings.kcfg:8
+#. i18n: ectx: label, entry, group (kpackage)
+#: rc.cpp:21
+msgid "The way to execute priviliged commands."
+msgstr ""
+
+#. i18n: file: kpackageSettings.kcfg:18
+#. i18n: ectx: label, entry, group (kpackage)
+#: rc.cpp:24
+msgid "Verify file list."
+msgstr ""
+
+#. i18n: file: kpackageui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:27
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: kpackageui.rc:17
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:30
+msgid "&Edit"
+msgstr ""
+
+#. i18n: file: kpackageui.rc:25
+#. i18n: ectx: Menu (packages)
+#: rc.cpp:33
+msgid "&Packages"
+msgstr "प्याकेज"
+
+#. i18n: file: kpackageui.rc:42
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:36
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#: rc.cpp:37
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:38
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#: search.cpp:68
+msgid "Sub string"
+msgstr "सब स्ट्रिङ"
+
+#: search.cpp:74
+msgid "Wrap search"
+msgstr "आवरण खोजी"
+
+#: search.cpp:110
+msgid "Note"
+msgstr "टिपोट"
+
+#: search.cpp:111
+#, kde-format
+msgid "%1 was not found."
+msgstr "%1 फेला परेन ।"

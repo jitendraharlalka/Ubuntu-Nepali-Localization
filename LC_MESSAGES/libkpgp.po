@@ -1,0 +1,746 @@
+# translation of libkpgp.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkpgp\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2010-04-22 14:01+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:17+0000\n"
+
+#: kpgp.cpp:191
+msgid ""
+"Could not find PGP executable.\n"
+"Please check your PATH is set correctly."
+msgstr ""
+"कार्यान्वयन योग्य पीजीपी फेला पार्न सकेन ।\n"
+"कृपया तपाईँको PATH सेट ठीक भएको जाँच गर्नुहोस् ।"
+
+#: kpgp.cpp:210
+msgid "OpenPGP Security Check"
+msgstr "ओपन पीजीपी सुरक्षा जाँच"
+
+#: kpgp.cpp:217
+msgid "Passphrase is too long, it must contain fewer than 1024 characters."
+msgstr ""
+"पासफ्रेज धेरै लामो छ, यसमा १०२४ भन्दा कम क्यारेक्टर समावेश गर्नुपर्दछ ।"
+
+#: kpgp.cpp:219
+msgid "Out of memory."
+msgstr "स्मृति बाहिर ।"
+
+#: kpgp.cpp:290
+msgid ""
+"You just entered an invalid passphrase.\n"
+"Do you want to try again, or cancel and view the message undecrypted?"
+msgstr ""
+"तपाईँले भर्खरै अवैध पासफ्रेज प्रविष्ट गर्नुभएको छ ।\n"
+"तपाईँले फेरि प्रयास गर्न वा रद्द गर्न वा गुप्तिकरण उल्टाएर सन्देश हेर्न "
+"चाहनुहुन्छ ?"
+
+#: kpgp.cpp:293 kpgp.cpp:352 kpgp.cpp:381 kpgp.cpp:400 kpgp.cpp:426
+#: kpgp.cpp:593 kpgp.cpp:612
+msgid "PGP Warning"
+msgstr "पीजीपी चेतावनी"
+
+#: kpgp.cpp:293 kpgp.cpp:353
+msgid "&Retry"
+msgstr "पुन: प्रयास गर्नुहोस्"
+
+#: kpgp.cpp:347
+msgid ""
+"You entered an invalid passphrase.\n"
+"Do you want to try again, continue and leave the message unsigned, or cancel "
+"sending the message?"
+msgstr ""
+"तपाईँले अवैध पासफ्रेज प्रविष्ट गर्नुभएको छ ।\n"
+"तपाईँले सन्देश पठाउन, पुन: प्रयास गर्न, सन्देशलाई साइन नगरिकन जारी राख्न वा "
+"रद्द गर्न चाहनुहुन्छ ?"
+
+#: kpgp.cpp:354 kpgp.cpp:382
+msgid "Send &Unsigned"
+msgstr "साइन नगरिकन पठाउनुहोस्"
+
+#: kpgp.cpp:376
+#, kde-format
+msgctxt "%1 = 'signing failed' error message"
+msgid ""
+"%1\n"
+"Do you want to send the message unsigned, or cancel sending the message?"
+msgstr ""
+"%1\n"
+"तपाईँले सन्देश साइन नगरिकन पठाउन वा सन्देश पठाउन रद्द गर्न चाहनुहुन्छ ?"
+
+#: kpgp.cpp:394
+#, kde-format
+msgctxt "%1 = 'bad keys' error message"
+msgid ""
+"%1\n"
+"Do you want to encrypt anyway, leave the message as-is, or cancel sending "
+"the message?"
+msgstr ""
+"%1\n"
+"तपाईँले जे भए पनि गुप्तलेखन गर्न, सन्देशलाई जस्ताको त्यस्तै छोड्न वा सन्देश "
+"पठाउन रद्द गर्न चाहनुहुन्छ ?"
+
+#: kpgp.cpp:401 kpgp.cpp:613
+msgid "Send &Encrypted"
+msgstr "गुप्तिकरण गरेको पठाउनुहोस्"
+
+#: kpgp.cpp:402 kpgp.cpp:594 kpgp.cpp:614
+msgid "Send &Unencrypted"
+msgstr "गुप्तिकरण उल्टाएको पठाउनुहोस्"
+
+#: kpgp.cpp:421
+#, kde-format
+msgctxt "%1 = 'missing keys' error message"
+msgid ""
+"%1\n"
+"Do you want to leave the message as-is, or cancel sending the message?"
+msgstr ""
+"%1\n"
+"सन्देश जस्ताको त्यस्तै छोड्न वा सन्देश पठाउन रद्द गर्न चाहनुहुन्छ ?"
+
+#: kpgp.cpp:427
+msgid "&Send As-Is"
+msgstr "जस्ताको त्यस्तै पठाउनुहोस्"
+
+#: kpgp.cpp:438
+#, kde-format
+msgid ""
+"The following error occurred:\n"
+"%1"
+msgstr ""
+"निम्न त्रुटि उत्पन्न भयो:\n"
+"%1"
+
+#: kpgp.cpp:440
+#, kde-format
+msgid ""
+"This is the error message of %1:\n"
+"%2"
+msgstr ""
+"यो %1 को त्रुटि सन्देश हो:\n"
+"%2"
+
+#: kpgp.cpp:585
+msgid ""
+"You did not select an encryption key for the recipient of this message; "
+"therefore, the message will not be encrypted."
+msgstr ""
+"तपाईँले यो सन्देशको प्रापकका लागि गुप्तिकरण कुञ्जी चयन गर्नु भएन; त्यसैले "
+"सन्देश गुप्तिकरण हुदैन ।"
+
+#: kpgp.cpp:588
+msgid ""
+"You did not select an encryption key for any of the recipients of this "
+"message; therefore, the message will not be encrypted."
+msgstr ""
+"तपाईँले यो सन्देशको प्रापकका लागि गुप्तिकरण कुञ्जी चयन गर्नु भएन; त्यसैले "
+"सन्देश गुप्तिकरण हुदैन ।"
+
+#: kpgp.cpp:604
+msgid ""
+"You did not select an encryption key for one of the recipients; this person "
+"will not be able to decrypt the message if you encrypt it."
+msgstr ""
+"तपाईँले कुनै एउटा प्रापकका लागि गुप्तिकरण कुञ्जी चयन गर्नुभएको छैन; यदि "
+"तपाईँले यसलाई गुप्तिकरण गर्नुभएमा त्यो व्यक्तिले सन्देश गुप्तिकरण उल्टाउन "
+"सक्दैन ।"
+
+#: kpgp.cpp:607
+msgid ""
+"You did not select encryption keys for some of the recipients; these persons "
+"will not be able to decrypt the message if you encrypt it."
+msgstr ""
+"तपाईँले कुनै केही प्रापकका लागि गुप्तिकरण कुञ्जी चयन गर्नुभएको छैन; यदि "
+"तपाईँले यसलाई गुप्तिकरण गर्नुभएमा ति मानिसहरूले सन्देश गुप्तिकरण उल्टाउन "
+"सक्दैन ।"
+
+#: kpgp.cpp:881
+msgid ""
+"This feature is\n"
+"still missing"
+msgstr ""
+"यो विशेषता\n"
+"अझै छुटेको छ"
+
+#: kpgp.cpp:929 kpgp.cpp:964 kpgp.cpp:1000
+msgid ""
+"You either do not have GnuPG/PGP installed or you chose not to use GnuPG/PGP."
+msgstr ""
+"तपाईँले GnuPG/PGP स्थापना गर्नुभएको छैन वा GnuPG/PGP प्रयोग नगर्न छनोट "
+"गर्नुभएको छ ।"
+
+#: kpgp.cpp:1213 kpgp.cpp:1277 kpgp.cpp:1303 kpgpui.cpp:1528 kpgpui.cpp:1540
+msgid "Encryption Key Selection"
+msgstr "गुप्तिकरण कुञ्जी चयन"
+
+#: kpgp.cpp:1217
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"There is a problem with the encryption key(s) for \"%1\".\n"
+"\n"
+"Please re-select the key(s) which should be used for this recipient."
+msgstr ""
+"त्यहाँ \"%1\" का लागि गुप्तिकरण कुञ्जीहरूमा समस्या छ ।\n"
+"\n"
+"कृपया यो प्रापकका लागि प्रयोग गरिनु पर्ने कुञ्जी पुन: चयन गर्नुहोस् ।"
+
+#: kpgp.cpp:1281
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"No valid and trusted OpenPGP key was found for \"%1\".\n"
+"\n"
+"Select the key(s) which should be used for this recipient."
+msgstr ""
+"\"%1\" का लागि विश्वासिलो ओपन पीजीपी कुञ्जी छैन ।\n"
+"\n"
+"यो प्रापकका लागि प्रयोग गरिने कुञ्जी चयन गर्नुहोस् ।"
+
+#: kpgp.cpp:1307
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"More than one key matches \"%1\".\n"
+"\n"
+"Select the key(s) which should be used for this recipient."
+msgstr ""
+"एक भन्दा बढी कुञ्जी \"%1\" सँग मिल्दछ ।\n"
+"\n"
+"यो प्रापकका लागि प्रयोग गरिने कुञ्जी चयन गर्नुहोस् ।"
+
+#: kpgpbase2.cpp:137 kpgpbaseG.cpp:150
+#, kde-format
+msgid ""
+"Could not find public keys matching the userid(s)\n"
+"%1;\n"
+"the message is not encrypted."
+msgstr ""
+"प्रयोगकर्ता आईडीसँग मिल्दो सार्वजनिक कुञ्जी फेला पार्न सकेन\n"
+"%1;\n"
+"सन्देश गुप्तिकरण गरेको छैन ।"
+
+#: kpgpbase2.cpp:142 kpgpbaseG.cpp:155
+#, kde-format
+msgid ""
+"Could not find public keys matching the userid(s)\n"
+"%1;\n"
+"these persons will not be able to read the message."
+msgstr ""
+"प्रयोगकर्ता आईडी सँग मिल्दो सार्वजनिक कुञ्जी फेला पार्न सकेन\n"
+"%1;\n"
+"ति व्यक्तिहरूले सन्देश पढ्न सक्षम हुदैनन् ।"
+
+#: kpgpbase2.cpp:168
+#, kde-format
+msgid ""
+"Public keys not certified with trusted signature for userid(s)\n"
+"%1.\n"
+"The message is not encrypted."
+msgstr ""
+"प्रयोगकर्ता आईडी का लागि विश्वासिलो हस्ताक्षरसँग सार्वजनिक कुञ्जी प्रमाणित "
+"गरिएको छैन\n"
+"%1.\n"
+"सन्देश गुप्तिकरण गरिएको छैन ।"
+
+#: kpgpbase2.cpp:174
+#, kde-format
+msgid ""
+"Public keys not certified with trusted signature for userid(s)\n"
+"%1;\n"
+"these persons will not be able to read the message."
+msgstr ""
+"प्रयोगकर्ता आईडी का लागि विश्वासिलो हस्ताक्षरसँग सार्वजनिक कुञ्जी प्रमाणित "
+"गरिएको छैन\n"
+"%1;\n"
+"ति व्यक्तिले सन्देश पढ्न सक्षम हुदैनन् ।"
+
+#: kpgpbase2.cpp:195
+msgid "Bad passphrase; could not sign."
+msgstr "गलत पासफ्रेज; साइन गर्न सकेन ।"
+
+#: kpgpbase2.cpp:203
+msgid ""
+"Signing failed: please check your PGP User Identity, the PGP setup, and the "
+"key rings."
+msgstr ""
+"साइनिङ असफल: कृपया तपाईँको पीजीपी प्रयोगकर्ता पहिचान, पीजीपी सेटअप र कुञ्जी "
+"रिङ जाँच गर्नुहोस् ।"
+
+#: kpgpbase2.cpp:211
+msgid "Encryption failed: please check your PGP setup and the key rings."
+msgstr ""
+"गुप्तिकरण असफल: कृपया तपाईँको पीजीपी सेटअप र कुञ्जी रिङ जाँच गर्नुहोस् ।"
+
+#: kpgpbase2.cpp:257 kpgpbase6.cpp:60 kpgpbase6.cpp:358
+msgid "error running PGP"
+msgstr "पीजीपी चलाउदा त्रुटि"
+
+#: kpgpbase2.cpp:297 kpgpbase5.cpp:227 kpgpbase6.cpp:85 kpgpbaseG.cpp:260
+msgid "Bad passphrase; could not decrypt."
+msgstr "गलत पासफ्रेज; गुप्तिकरण उल्टाउन सकेन ।"
+
+#: kpgpbase2.cpp:308 kpgpbase5.cpp:238 kpgpbaseG.cpp:281
+msgid "You do not have the secret key needed to decrypt this message."
+msgstr "तपाईँसँग यो सन्देश गुप्तिकरण उल्टाउन आवश्यक गोप्य कुञ्जी छैन ।"
+
+#: kpgpbase2.cpp:448
+#, kde-format
+msgid ""
+"The keyring file %1 does not exist.\n"
+"Please check your PGP setup."
+msgstr ""
+"%1 किरिङ फाइल अवस्थित छैन ।\n"
+"तपाईँको पीजीपी सेटअप जाँच गर्नुहोस् ।"
+
+#: kpgpbase2.cpp:454
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: kpgpbase5.cpp:86
+msgid "Neither recipients nor passphrase specified."
+msgstr "प्रापक वा पासफ्रेज दुबै निर्दिष्ट गरिएको छैन ।"
+
+#: kpgpbase5.cpp:128
+msgid "The passphrase you entered is invalid."
+msgstr "तपाईँले प्रविष्ट गर्नुभएको पासफ्रेज वैध छैन ।"
+
+#: kpgpbase5.cpp:154
+msgid ""
+"The key(s) you want to encrypt your message to are not trusted. No "
+"encryption done."
+msgstr ""
+"तपाईँको सन्देश गुप्तिकरण गर्न चाहनुभएको कुञ्जीहरू विश्वासिला छैनन् । "
+"गुप्तिकरण भएको छैन ।"
+
+#: kpgpbase5.cpp:157
+#, kde-format
+msgid ""
+"The following key(s) are not trusted:\n"
+"%1\n"
+"Their owner(s) will not be able to decrypt the message."
+msgstr ""
+"निम्न कुञ्जीहरू विश्वासिला छैनन्:\n"
+"%1\n"
+"तिनीहरूको मालिकले सन्देश गुप्तिकरण उल्टाउन सक्षम हुदैनन् ।"
+
+#: kpgpbase5.cpp:169
+#, kde-format
+msgid ""
+"Missing encryption key(s) for:\n"
+"%1"
+msgstr ""
+"यसका लागि छुटेको गुप्तिकरण कुञ्जी:\n"
+"%1"
+
+#: kpgpbase5.cpp:206
+msgid "Error running PGP"
+msgstr "पीजीपी चलाउदा त्रुटि"
+
+#: kpgpbase6.cpp:93
+msgid "You do not have the secret key for this message."
+msgstr "यो सन्देशका लागि तपाईँसँग गोप्य कुञ्जी छैन ।"
+
+#: kpgpbase6.cpp:170
+msgid "??? (file ~/.pgp/pubring.pkr not found)"
+msgstr "??? (फाइल ~/.pgp/pubring.pkr फेला परेन)"
+
+#: kpgpbaseG.cpp:117
+msgid "Unknown error."
+msgstr "अज्ञात त्रुटि ।"
+
+#: kpgpbaseG.cpp:180
+msgid "Signing failed because the passphrase is wrong."
+msgstr "पासफ्रेज गलत भएकाले साइनिङ असफल भयो ।"
+
+#: kpgpbaseG.cpp:187
+msgid "Signing failed because your secret key is unusable."
+msgstr "तपाईँको गुप्त कुञ्जी उपयोगी नभएकाले साइनिङ असफल भयो ।"
+
+#: kpgpbaseG.cpp:218
+msgid "Error running gpg"
+msgstr "जीपीजी चलाउदा त्रुटि"
+
+#: kpgpbaseG.cpp:288
+msgid "The passphrase dialog was cancelled."
+msgstr ""
+
+#: kpgpbaseG.cpp:365
+msgid "??? (file ~/.gnupg/pubring.gpg not found)"
+msgstr "??? (फाइल ~/.gnupg/pubring.gpg फेला परेन)"
+
+#: kpgpui.cpp:75
+msgid "Please enter your OpenPGP passphrase:"
+msgstr "कृपया तपाईँको ओपन पीजीपी पासफ्रेज प्रविष्ट गर्नुहोस्:"
+
+#: kpgpui.cpp:77
+#, kde-format
+msgid ""
+"Please enter the OpenPGP passphrase for\n"
+"\"%1\":"
+msgstr ""
+"कृपया यसका लागि ओपन पीजीपी पासफ्रेज प्रविष्ट गर्नुहोस्\n"
+"\"%1\":"
+
+#: kpgpui.cpp:106
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: kpgpui.cpp:111
+msgid ""
+"Please check if encryption really works before you start using it seriously. "
+"Also note that attachments are not encrypted by the PGP/GPG module."
+msgstr ""
+"तपाईँले यसलाई पूर्ण रूपमा चलाउनु अगाडि नै गुप्तिकरणले राम्रोसँग काम गरेमा "
+"कृपया चेक गर्नुहोस् । साथै PGP/GPG मोड्युलद्वारा ति संलग्र फाइलहरू गुप्तिकरण "
+"गरिदैनन् भन्ने याद राख्नुहोस् ।"
+
+#: kpgpui.cpp:124
+msgid "Encryption Tool"
+msgstr "गुप्तिकरण उपकरण"
+
+#: kpgpui.cpp:130
+msgid "Select encryption tool to &use:"
+msgstr "प्रयोग गर्नलाई गुप्तिकरण उपकरण चयन गर्नुहोस्:"
+
+#: kpgpui.cpp:134
+msgid "Autodetect"
+msgstr "स्वत: पत्ता लगाउनुहोस्"
+
+#: kpgpui.cpp:135
+msgid "GnuPG - Gnu Privacy Guard"
+msgstr "GnuPG - Gnu निजी सुरक्षा"
+
+#: kpgpui.cpp:136
+msgid "PGP Version 2.x"
+msgstr "PGP संस्करण 2.x"
+
+#: kpgpui.cpp:137
+msgid "PGP Version 5.x"
+msgstr "PGP संस्करण 5.x"
+
+#: kpgpui.cpp:138
+msgid "PGP Version 6.x"
+msgstr "PGP संस्करण 6.x"
+
+#: kpgpui.cpp:139
+msgid "Do not use any encryption tool"
+msgstr "कुनै पनि गुप्तिकरण उपकरण प्रयोग नगर्नुहोस्"
+
+#: kpgpui.cpp:148
+msgid "Options"
+msgstr ""
+
+#: kpgpui.cpp:151
+msgid "&Keep passphrase in memory"
+msgstr "पासफ्रेजलाई स्मृतिमा राख्नुहोस्"
+
+#: kpgpui.cpp:156
+msgid ""
+"<qt><p>When this option is enabled, the passphrase of your private key will "
+"be remembered by the application as long as the application is running. Thus "
+"you will only have to enter the passphrase once.</p><p>Be aware that this "
+"could be a security risk. If you leave your computer, others can use it to "
+"send signed messages and/or read your encrypted messages. If a core dump "
+"occurs, the contents of your RAM will be saved onto disk, including your "
+"passphrase.</p><p>Note that when using KMail, this setting only applies if "
+"you are not using gpg-agent. It is also ignored if you are using crypto "
+"plugins.</p></qt>"
+msgstr ""
+"<qt><p>यो विकल्प सक्षम पार्दा, अनुप्रयोग चले सम्म अनुप्रयोगद्वारा तपाईँको "
+"निजी कुञ्जीको पासफ्रेज सम्झन्छ । त्यसैले तपाईँले पासफ्रेज एक पटक मात्र "
+"प्रविष्ट गर्नुपर्दछ ।</p><p>यो सुरक्षा जोखिम पनि हुन सक्दछ भन्नेमा सचेत "
+"रहनुहोस् । यदि तपाईँले आफ्नो कम्प्युटर छोड्नु भयो भने, अरूले तपाईँले साइन "
+"गरेको सन्देश पठाउन र/वा तपाईँको गुप्तिकरण सन्देश पढ्न प्रयोग गर्न सक्दछन् । "
+"यदि कोर डम्प उत्पन्न भएमा, तपाईँको RAM सामग्री, तपाईँको पासफ्रेज समेत "
+"डिस्कमा बचत हुन्छ ।</p><p>केडीई मेल प्रयोग गर्दा, यदि तपाईँले जीपीजी "
+"अभिकर्ता प्रयोग नगरेको बेलामा मात्र यो सेटिङ लागू गरिन्छ भन्ने याद "
+"राख्नुहोस् । तपाईँले क्राइप्टो प्लगइन प्रयोग गर्दै हुनुहुन्छ भने पनि यसलाई "
+"उपेक्षा गरिन्छ ।</p></qt>"
+
+#: kpgpui.cpp:169
+msgid "Always encr&ypt to self"
+msgstr "स्वचालित रूपमा गुप्तिकरण गर्नुहोस्"
+
+#: kpgpui.cpp:174
+msgid ""
+"<qt><p>When this option is enabled, the message/file will not only be "
+"encrypted with the receiver's public key, but also with your key. This will "
+"enable you to decrypt the message/file at a later time. This is generally a "
+"good idea.</p></qt>"
+msgstr ""
+"<qt><p>यो विकल्प सक्षम पार्दा, प्रापकको सार्वजनिक कुञ्जीसँग मात्र नभएर "
+"तपाईँको कुञ्जीसँग पनि सन्देश/फाइल गुप्तिकरण हुन्छ । यसले तपाईँलाई पछि "
+"सन्देश/फाइल गुप्तलेखन उल्टाउन सक्षम पार्दछ । सामान्यतया यो राम्रो विचार हो "
+"।</p></qt>"
+
+#: kpgpui.cpp:183
+msgid "&Show signed/encrypted text after composing"
+msgstr "रचना गरेपछि साइन/गुप्तिकरण गरेको पाठ देखाउनुहोस्"
+
+#: kpgpui.cpp:189
+msgid ""
+"<qt><p>When this option is enabled, the signed/encrypted text will be shown "
+"in a separate window, enabling you to know how it will look before it is "
+"sent. This is a good idea when you are verifying that your encryption system "
+"works.</p></qt>"
+msgstr ""
+"<qt><p>यो विकल्प सक्षम पार्दा, यसलाई पठाउनु अगाडि तपाईँलाई कस्तो देखिन्छ "
+"भन्ने जानकारी प्राप्त गर्न सक्षम पारेर छुट्टै सञ्झ्यालमा साइन/गुप्तिकरण "
+"गरेको पाठ देखिन्छ । तपाईँको गुप्तिकरण प्रणाली कार्य रुजु गर्दा यो राम्रो "
+"विचार हो ।</p></qt>"
+
+#: kpgpui.cpp:195
+msgid "Always show the encryption keys &for approval"
+msgstr "सहमतिका लागि सधै गुप्तिकरण कुञ्जी देखाउनुहोस्"
+
+#: kpgpui.cpp:200
+msgid ""
+"<qt><p>When this option is enabled, the application will always show you a "
+"list of public keys from which you can choose the one it will use for "
+"encryption. If it is off, the application will only show the dialog if it "
+"cannot find the right key or if there are several which could be used. "
+"</p></qt>"
+msgstr ""
+"<qt><p>यो विकल्प सक्षम पार्दा, अनुप्रयोगले तपाईँलाई सार्वजनिक कुञ्जीको सूची "
+"देखाउदछ जुनबाट तपाईँले गुप्तिकरणका लागि प्रयोग हुने एउटा छनोट गर्न "
+"सक्नुहुन्छ । यदि यो बन्द भएमा, अनुप्रयोगले उचित कुञ्जी फेला पार्न नसकेमा वा "
+"त्यहाँ प्रयोग गर्न सकिने धेरै कुञ्जी भएमा संवाद मात्र देखाउदछ । </p></qt>"
+
+#: kpgpui.cpp:333
+msgid "&Search for:"
+msgstr "यसका लागि खोजी गर्नुहोस्:"
+
+#: kpgpui.cpp:344
+msgid "Key ID"
+msgstr "कुञ्जीआईडी"
+
+#: kpgpui.cpp:345
+msgid "User ID"
+msgstr "प्रयोगकर्ता आईडी"
+
+#: kpgpui.cpp:359
+msgid "Remember choice"
+msgstr "छनोट सम्झनुहोस्"
+
+#: kpgpui.cpp:362
+msgid ""
+"<qt><p>If you check this box your choice will be stored and you will not be "
+"asked again.</p></qt>"
+msgstr ""
+"<qt><p>यदि तपाईँले यो बाकस चिनो गरेमा तपाईँको छनोट भण्डारण गरिन्छ र तपाईँलाई "
+"फेरि सोधिदैन ।</p></qt>"
+
+#: kpgpui.cpp:399
+msgid "&Reread Keys"
+msgstr "कुञ्जी पुन: पढ्नुहोस्"
+
+#: kpgpui.cpp:473
+#, kde-format
+msgid "Fingerprint: %1"
+msgstr "औँठाछाप: %1"
+
+#: kpgpui.cpp:507
+msgid "Revoked"
+msgstr "रद्द गरिएको"
+
+#: kpgpui.cpp:510
+msgid "Expired"
+msgstr "म्याद सकिएको"
+
+#: kpgpui.cpp:513
+msgid "Disabled"
+msgstr "अक्षम पारिएको"
+
+#: kpgpui.cpp:516
+msgid "Invalid"
+msgstr "अवैध"
+
+#: kpgpui.cpp:522
+msgid "Undefined trust"
+msgstr "अपरिभाषित विश्वास"
+
+#: kpgpui.cpp:525
+msgid "Untrusted"
+msgstr "अविश्वासिलो"
+
+#: kpgpui.cpp:528
+msgid "Marginally trusted"
+msgstr "आंशिक रूपमा विश्वासिलो"
+
+#: kpgpui.cpp:531
+msgid "Fully trusted"
+msgstr "पूर्ण रूपमा विश्वासिलो"
+
+#: kpgpui.cpp:534
+msgid "Ultimately trusted"
+msgstr "अन्तिम विश्वासिलो"
+
+#: kpgpui.cpp:538
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: kpgpui.cpp:541
+msgid "Secret key available"
+msgstr "गुप्त कुञ्जी उपलब्ध"
+
+#: kpgpui.cpp:544
+msgid "Sign only key"
+msgstr "कुञ्जी मात्र साइन गर्नुहोस्"
+
+#: kpgpui.cpp:547
+msgid "Encryption only key"
+msgstr "कुञ्जी मात्र गुप्तिकरण गर्नुहोस्"
+
+#: kpgpui.cpp:555
+#, kde-format
+msgctxt "creation date and status of an OpenPGP key"
+msgid "Creation date: %1, Status: %2"
+msgstr "सिर्जना मिति: %1, वस्तुस्थिति: %2"
+
+#: kpgpui.cpp:561
+#, kde-format
+msgctxt "creation date, status and remark of an OpenPGP key"
+msgid "Creation date: %1, Status: %2 (%3)"
+msgstr "सिर्जना मिति: %1, वस्तुस्थिति: %2 (%3)"
+
+#: kpgpui.cpp:1014
+msgid "Checking Keys"
+msgstr "कुञ्जी जाँच गर्दैछ"
+
+#: kpgpui.cpp:1015
+msgid "Checking key 0xMMMMMMMM..."
+msgstr "0xMMMMMMMM कुञ्जी जाँच गर्दैछ..."
+
+#: kpgpui.cpp:1026
+#, kde-format
+msgid "Checking key 0x%1..."
+msgstr "0x%1 कुञ्जी जाँच गर्दैछ..."
+
+#: kpgpui.cpp:1050
+msgid "Recheck Key"
+msgstr "कुञ्जी पुन: जाँच गर्नुहोस्"
+
+#: kpgpui.cpp:1174
+msgid "OpenPGP Key Selection"
+msgstr "ओपन पीजीपी कुञ्जी चयन"
+
+#: kpgpui.cpp:1175
+msgid "Please select an OpenPGP key to use."
+msgstr "कृपया प्रयोग गर्नलाई ओपन पीजीपी चयन गर्नुहोस् ।"
+
+#: kpgpui.cpp:1195
+msgid "Clear"
+msgstr ""
+
+#: kpgpui.cpp:1198 kpgpui.cpp:1396 kpgpui.cpp:1453
+msgid "Change..."
+msgstr "परिवर्तन गर्नुहोस्..."
+
+#: kpgpui.cpp:1334
+msgid "Encryption Key Approval"
+msgstr "गुप्तिकरण कुञ्जी सहमति"
+
+#: kpgpui.cpp:1353
+msgid "The following keys will be used for encryption:"
+msgstr "गुप्तिकरणका लागि निम्न कुञ्जीहरू प्रयोग गरिन्छ:"
+
+#: kpgpui.cpp:1376
+msgid "Your keys:"
+msgstr "तपाईँका कुञ्जी:"
+
+#: kpgpui.cpp:1379 kpgpui.cpp:1436
+msgctxt "@info"
+msgid "<placeholder>none</placeholder> means 'no key'"
+msgstr ""
+
+#: kpgpui.cpp:1427
+msgid "Recipient:"
+msgstr "प्रापक:"
+
+#: kpgpui.cpp:1433
+msgid "Encryption keys:"
+msgstr "गुप्तिकरण कुञ्जी:"
+
+#: kpgpui.cpp:1462
+msgid "Encryption preference:"
+msgstr "गुप्तिकरण प्राथमिकता:"
+
+#: kpgpui.cpp:1464
+msgctxt "@item:inlistbox"
+msgid "<placeholder>none</placeholder>"
+msgstr ""
+
+#: kpgpui.cpp:1465
+msgctxt "@item:inlistbox"
+msgid "Never Encrypt with This Key"
+msgstr ""
+
+#: kpgpui.cpp:1466
+msgctxt "@item:inlistbox"
+msgid "Always Encrypt with This Key"
+msgstr ""
+
+#: kpgpui.cpp:1467
+msgctxt "@item:inlistbox"
+msgid "Encrypt Whenever Encryption is Possible"
+msgstr ""
+
+#: kpgpui.cpp:1468
+msgctxt "@item:inlistbox"
+msgid "Always Ask"
+msgstr "सधैँ सोध्ने"
+
+#: kpgpui.cpp:1469
+msgctxt "@item:inlistbox"
+msgid "Ask Whenever Encryption is Possible"
+msgstr ""
+
+#: kpgpui.cpp:1532
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"Select the key(s) which should be used to encrypt the message to yourself."
+msgstr ""
+"तपाईँ आफ्नै लागि सन्देश गुप्तिकरण गर्न प्रयोग गर्नुपर्ने कुञ्जी चयन "
+"गर्नुहोस् ।"
+
+#: kpgpui.cpp:1544
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"Select the key(s) which should be used to encrypt the message for\n"
+"%1"
+msgstr ""
+"यसका लागि सन्देश गुप्तिकरण गर्न प्रयोग गरिनु पर्ने कुञ्जी चयन गर्नुहोस्\n"
+"%1"
+
+#: kpgpui.cpp:1621
+msgid "OpenPGP Information"
+msgstr "ओपन पीजी पी सूचना"
+
+#: kpgpui.cpp:1632
+msgid "Result of the last encryption/sign operation:"
+msgstr "अन्तिम गुप्तिकरण/साइन सञ्चालनको परिणाम:"

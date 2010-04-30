@@ -1,0 +1,1159 @@
+# translation of kompare.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kompare\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 19:08+0000\n"
+"PO-Revision-Date: 2009-07-16 09:54+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: komparenavtreepart/komparenavtreepart.cpp:62
+msgid "Source Folder"
+msgstr "स्रोत फोल्डर"
+
+#: komparenavtreepart/komparenavtreepart.cpp:67
+msgid "Destination Folder"
+msgstr "गन्तब्य फोल्डर"
+
+#: komparenavtreepart/komparenavtreepart.cpp:72
+msgid "Source File"
+msgstr "स्रोत फाइल"
+
+#: komparenavtreepart/komparenavtreepart.cpp:73
+msgid "Destination File"
+msgstr "गन्तब्य फाइल"
+
+#: komparenavtreepart/komparenavtreepart.cpp:79
+msgid "Source Line"
+msgstr "स्रोत रेखा"
+
+#: komparenavtreepart/komparenavtreepart.cpp:80
+msgid "Destination Line"
+msgstr "गन्तब्य रेखा"
+
+#: komparenavtreepart/komparenavtreepart.cpp:81
+msgid "Difference"
+msgstr "फरक"
+
+#: komparenavtreepart/komparenavtreepart.cpp:441
+#, kde-format
+msgid "Applied: Changes made to %1 line undone"
+msgid_plural "Applied: Changes made to  %1 lines undone"
+msgstr[0] "लागू गरिएको: %1 रेखामा परिवर्तनहरू भएन"
+msgstr[1] "लागू गरिएको: %1 रेखाहरूमा परिवर्तनहरू भएन"
+
+#: komparenavtreepart/komparenavtreepart.cpp:444
+#, kde-format
+msgid "Changed %1 line"
+msgid_plural "Changed %1 lines"
+msgstr[0] "परिवर्तन गरिएको %1 रेखा"
+msgstr[1] "परिवर्तन गरिएको %1 रेखाहरू"
+
+#: komparenavtreepart/komparenavtreepart.cpp:449
+#, kde-format
+msgid "Applied: Insertion of %1 line undone"
+msgid_plural "Applied: Insertion of %1 lines undone"
+msgstr[0] "लागू गरिएको: %1 रेखाको घुसाइ भएन"
+msgstr[1] "लागू गरिएको: %1 रेखाहरूको घुसाई भएन"
+
+#: komparenavtreepart/komparenavtreepart.cpp:452
+#, kde-format
+msgid "Inserted %1 line"
+msgid_plural "Inserted %1 lines"
+msgstr[0] "घुसाइएको %1 रेखा"
+msgstr[1] "घुसाइएको %1 रेखाहरू"
+
+#: komparenavtreepart/komparenavtreepart.cpp:457
+#, kde-format
+msgid "Applied: Deletion of %1 line undone"
+msgid_plural "Applied: Deletion of %1 lines undone"
+msgstr[0] "लागू गरिएको: %1 रेखा मेटिएन"
+msgstr[1] "लागू गरिएको: %1 रेखाहरू मेटिएन"
+
+#: komparenavtreepart/komparenavtreepart.cpp:460
+#, kde-format
+msgid "Deleted %1 line"
+msgid_plural "Deleted %1 lines"
+msgstr[0] "मेटिएको %1 रेखा"
+msgstr[1] "मेटिएको %1 रेखाहरू"
+
+#: komparenavtreepart/komparenavtreepart.cpp:624
+#: komparepart/kompare_part.cpp:857
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: komparenavtreepart/komparenavtreepart.cpp:788
+msgid "KompareNavTreePart"
+msgstr "KompareNavTreePart"
+
+#: komparenavtreepart/komparenavtreepart.cpp:789
+#: komparepart/kompare_part.cpp:637 main.cpp:62
+msgid "John Firebaugh"
+msgstr ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:789
+#: komparenavtreepart/komparenavtreepart.cpp:790
+#: komparepart/kompare_part.cpp:637 komparepart/kompare_part.cpp:638
+#: komparepart/kompare_part.cpp:639 main.cpp:62 main.cpp:63
+msgid "Author"
+msgstr "लेखक"
+
+#: komparenavtreepart/komparenavtreepart.cpp:790
+#: komparepart/kompare_part.cpp:638 main.cpp:63
+msgid "Otto Bruggeman"
+msgstr ""
+
+#: komparepart/kompareprefdlg.cpp:35
+msgid "Preferences"
+msgstr "प्राथमिकता"
+
+#: komparepart/kompareprefdlg.cpp:45
+msgid "View"
+msgstr ""
+
+#: komparepart/kompareprefdlg.cpp:47
+msgid "View Settings"
+msgstr "सेटिङ हेर्नुहोस्"
+
+#: komparepart/kompareprefdlg.cpp:51 libdialogpages/diffpage.cpp:218
+#: kompareurldialog.cpp:52
+msgid "Diff"
+msgstr "फरक"
+
+#: komparepart/kompareprefdlg.cpp:53
+msgid "Diff Settings"
+msgstr "फरक सेटिङ"
+
+#: komparepart/kompare_part.cpp:176
+msgid "Save &All"
+msgstr "सबै बचत गर्नुहोस्"
+
+#: komparepart/kompare_part.cpp:178
+msgid "Save &Diff..."
+msgstr ""
+
+#: komparepart/kompare_part.cpp:180
+msgid "Swap Source with Destination"
+msgstr "गन्तब्यसँग स्रोत स्वाप गर्नुहोस्"
+
+#: komparepart/kompare_part.cpp:182
+msgid "Show Statistics"
+msgstr "तथ्याङ्क देखाउनुहोस्"
+
+#: komparepart/kompare_part.cpp:185
+msgid "Refresh Diff"
+msgstr ""
+
+#: komparepart/kompare_part.cpp:294 komparepart/kompare_part.cpp:305
+#, kde-format
+msgid "<qt>The URL <b>%1</b> cannot be downloaded.</qt>"
+msgstr "<qt>यूआरएल <b>%1</b> डाउनलोड गर्न सकिँदैन ।</qt>"
+
+#: komparepart/kompare_part.cpp:343
+#, kde-format
+msgid "<qt>The URL <b>%1</b> does not exist on your system.</qt>"
+msgstr "<qt>यूआरएल <b>%1</b> तपाईँको प्रणालीमा अवस्थित छैन ।</qt>"
+
+#: komparepart/kompare_part.cpp:535
+msgid "Diff Options"
+msgstr "फरक विकल्प"
+
+#: komparepart/kompare_part.cpp:553
+msgid "*.diff *.dif *.patch|Patch Files"
+msgstr "*.diff *.dif *.patch|प्याच फाइल"
+
+#: komparepart/kompare_part.cpp:553
+msgid "Save .diff"
+msgstr ".diff बचत गर्नुहोस्"
+
+#: komparepart/kompare_part.cpp:556
+msgid "The file exists or is write-protected; do you want to overwrite it?"
+msgstr ""
+"फाइल अवस्थित छ वा सुरक्षित लेखिएको छ; तपाईँ यसलाई अधिलेखन गर्नुहुन्छ ?"
+
+#: komparepart/kompare_part.cpp:556
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: komparepart/kompare_part.cpp:556
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: komparepart/kompare_part.cpp:556
+msgid "Do Not Overwrite"
+msgstr "अधिलेखन नगर्नुहोस्"
+
+#: komparepart/kompare_part.cpp:636
+msgid "KomparePart"
+msgstr "तुलना भाग"
+
+#: komparepart/kompare_part.cpp:639 main.cpp:65
+msgid "Kevin Kofler"
+msgstr ""
+
+#: komparepart/kompare_part.cpp:649
+msgid "Running diff..."
+msgstr "फरक चलिरहेको छ..."
+
+#: komparepart/kompare_part.cpp:652
+msgid "Parsing diff output..."
+msgstr "फरक निर्गात पद वर्णन हुँदैछ..."
+
+#: komparepart/kompare_part.cpp:701
+#, kde-format
+msgid "Comparing file %1 with file %2"
+msgstr "फाइल %1 फाइल %2 सँग तुलना गर्दै"
+
+#: komparepart/kompare_part.cpp:706
+#, kde-format
+msgid "Comparing files in %1 with files in %2"
+msgstr "फाइल %2 भित्र %1 मा फाइलहरू तुलना गर्दै"
+
+#: komparepart/kompare_part.cpp:711
+#, kde-format
+msgid "Viewing diff output from %1"
+msgstr "%1 बाट फरक निर्गात हेर्दै"
+
+#: komparepart/kompare_part.cpp:714
+#, kde-format
+msgid "Blending diff output from %1 into file %2"
+msgstr "फाइल %2 मा %1 बाट फरक निर्गात मिलाउँदै"
+
+#: komparepart/kompare_part.cpp:719
+#, kde-format
+msgid "Blending diff output from %1 into folder %2"
+msgstr "फोल्डर %2 भित्र %1 बाट फरक निर्गात मिसाउँदै"
+
+#: komparepart/kompare_part.cpp:770 komparepart/kompare_part.cpp:801
+#: komparepart/kompare_part.cpp:916
+msgid ""
+"You have made changes to the destination file(s).\n"
+"Would you like to save them?"
+msgstr ""
+"तपाईँले गन्तब्य फाइलहरूमा परिवर्तनहरू बनाउनुपर्छ ।\n"
+"तपाईँ तिनीहरूलाई बचत गर्न चाहनुहुन्छ ?"
+
+#: komparepart/kompare_part.cpp:772 komparepart/kompare_part.cpp:803
+#: komparepart/kompare_part.cpp:918
+msgid "Save Changes?"
+msgstr "परिवर्तनहरू बचत गर्नुहुन्छ ?"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:229
+#. i18n: ectx: property (text), widget (QRadioButton, m_UnifiedRB)
+#: komparepart/kompare_part.cpp:841 libdialogpages/diffpage.cpp:243 rc.cpp:77
+msgid "Unified"
+msgstr "एकीकृत"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:201
+#. i18n: ectx: property (text), widget (QRadioButton, m_ContextRB)
+#: komparepart/kompare_part.cpp:844 libdialogpages/diffpage.cpp:237 rc.cpp:65
+msgid "Context"
+msgstr "प्रसङ्ग"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:222
+#. i18n: ectx: property (text), widget (QRadioButton, m_RCSRB)
+#: komparepart/kompare_part.cpp:847 rc.cpp:74
+msgid "RCS"
+msgstr "आरसीएस"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:208
+#. i18n: ectx: property (text), widget (QRadioButton, m_EdRB)
+#: komparepart/kompare_part.cpp:850 rc.cpp:68
+msgid "Ed"
+msgstr "ईडी"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:215
+#. i18n: ectx: property (text), widget (QRadioButton, m_NormalRB)
+#: komparepart/kompare_part.cpp:853 libdialogpages/diffpage.cpp:240 rc.cpp:71
+msgid "Normal"
+msgstr "सामान्य"
+
+#: komparepart/kompare_part.cpp:873
+msgid ""
+"No diff file, or no 2 files have been diffed. Therefore no stats are "
+"available."
+msgstr ""
+"फरक फाइल छैन, वा २ फाइलहरू फरक छैनन् । त्यसैले कुनै तथ्याङ्क उपलब्ध छैन ।"
+
+#: komparepart/kompare_part.cpp:875 komparepart/kompare_part.cpp:889
+#: komparepart/kompare_part.cpp:905
+msgid "Diff Statistics"
+msgstr "फरक तथ्याङ्क"
+
+#: komparepart/kompare_part.cpp:879
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Old file: %1\n"
+"New file: %2\n"
+"\n"
+"Format: %3\n"
+"Number of hunks: %4\n"
+"Number of differences: %5"
+msgstr ""
+"तथ्याङ्क:\n"
+"\n"
+"पुरानो फाइल: %1\n"
+"नयाँ फाइल: %2\n"
+"\n"
+"ढाँचा: %3\n"
+"टुक्राहरूको सङ्ख्या: %4\n"
+"फरकहरूको सङ्ख्या: %5"
+
+#: komparepart/kompare_part.cpp:892
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Number of files in diff file: %1\n"
+"Format: %2\n"
+"\n"
+"Current old file: %3\n"
+"Current new file: %4\n"
+"\n"
+"Number of hunks: %5\n"
+"Number of differences: %6"
+msgstr ""
+"तथ्याङ्क:\n"
+"\n"
+"फरक फाइलमा फाइलहरूको सङ्ख्या: %1\n"
+"ढाँचा: %2\n"
+"\n"
+"हालको पुरानो फाइल: %3\n"
+"हालको नयाँ फाइल: %4\n"
+"\n"
+"टुक्राहरूको सङ्ख्या: %5\n"
+"फरकहरूको सङ्ख्या: %6"
+
+#: libdialogpages/diffpage.cpp:207
+msgid "Diff Program"
+msgstr "फरक कार्यक्रम"
+
+#: libdialogpages/diffpage.cpp:212
+msgid ""
+"You can select a different diff program here. On Solaris the standard diff "
+"program does not support all the options that the GNU version does. This way "
+"you can select that version."
+msgstr ""
+"तपाईँले यहाँ विभिन्न फरक देखाउने (diff) कार्यक्रम चयन गर्न सक्नुहुन्छ । "
+"सोलारिसमा मानक फरक कार्यक्रमले जीएनयू संस्करणले जस्तो सबै विकल्प समर्थन "
+"गर्दैन । यो तरीकाले तपाईँले त्यो संस्करण चयन गर्न सक्नुहुन्छ ।"
+
+#: libdialogpages/diffpage.cpp:231
+msgid ""
+"Select the format of the output generated by diff. Unified is the one that "
+"is used most frequently because it is very readable. The KDE developers like "
+"this format the best so use it for sending patches."
+msgstr ""
+"फरक रूपमा सिर्जना गरिएका निर्गातको ढाँचा चयन गर्नुहोस् । प्रायजसो धेरै "
+"प्रयोग गरिने एकीकृत हो किनभने यो धेरै पढ्न मिल्ने हुन्छ । केडीई "
+"विकासकर्ताहरूले सबैभन्दा बढी मन परायो त्यसैले टुक्राहरू पठाउन यो प्रयोग "
+"गर्नुहोस् ।"
+
+#: libdialogpages/diffpage.cpp:234
+msgid "Output Format"
+msgstr "निर्गत ढाँचा"
+
+#: libdialogpages/diffpage.cpp:252
+msgid "Lines of Context"
+msgstr "रेखा प्रसङ्ग"
+
+#: libdialogpages/diffpage.cpp:253 libdialogpages/diffpage.cpp:258
+#: libdialogpages/diffpage.cpp:261
+msgid ""
+"The number of context lines is normally 2 or 3. This makes the diff readable "
+"and applicable in most cases. More than 3 lines will only bloat the diff "
+"unnecessarily."
+msgstr ""
+"रेखा प्रसङ्गको सङ्ख्या सामन्यतया २ वा ३ हुन्छ । यसले धेरै जसो केसहरूमा फरक "
+"रूपमा पढ्ने र लागू गर्ने बनाउँदछ । ३ भन्दा बढी रेखाहरूले अनावश्यक रूपमा फरक "
+"तरीकाले फुलाउँनेछ ।"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:257
+#. i18n: ectx: property (text), widget (QLabel, m_ContextLinesLabel)
+#: libdialogpages/diffpage.cpp:256 rc.cpp:83
+msgid "Number of context lines:"
+msgstr "रेखा प्रसङ्गको सङ्ख्या:"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:189
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, m_FormatBG)
+#: libdialogpages/diffpage.cpp:267 rc.cpp:62
+msgid "Format"
+msgstr "ढाँचा"
+
+#: libdialogpages/diffpage.cpp:281
+msgid "General"
+msgstr "सामन्य"
+
+#: libdialogpages/diffpage.cpp:284
+msgid "&Treat new files as empty"
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:285
+msgid "This option corresponds to the -N diff option."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:286
+msgid ""
+"With this option enabled diff will treat a file that only exists in one of "
+"the directories as empty in the other directory. This means that the file is "
+"compared with an empty file and because of this will appear as one big "
+"insertion or deletion."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:289
+msgid "&Look for smaller changes"
+msgstr "साना परिवर्तनहरूका लागि हेर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:290
+msgid "This corresponds to the -d diff option."
+msgstr "यसले -d diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:291
+msgid ""
+"With this option enabled diff will try a little harder (at the cost of more "
+"memory) to find fewer changes."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:293
+msgid "O&ptimize for large files"
+msgstr "ठूला फाइलहरूका लागि अधिक्तम गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:294
+msgid "This corresponds to the -H diff option."
+msgstr "यसले -H diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:295
+msgid ""
+"This option lets diff makes better diffs when using large files. The "
+"definition of large is nowhere to be found though."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:297
+msgid "&Ignore changes in case"
+msgstr "यी केसमा परिवर्तनहरू उपेक्षा गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:298
+msgid "This corresponds to the -i diff option."
+msgstr "यसले -i diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:299
+msgid ""
+"With this option to ignore changes in case enabled, diff will not indicate a "
+"difference when something in one file is changed into SoMEthing in the other "
+"file."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:307
+msgid "Ignore regexp:"
+msgstr "regexp उपेक्षा गर्नुहोस्:"
+
+#: libdialogpages/diffpage.cpp:308
+msgid "This option corresponds to the -I diff option."
+msgstr "यो विकल्पले -I diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:309
+msgid ""
+"When this checkbox is enabled, an option to diff is given that will make "
+"diff ignore lines that match the regular expression."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:313
+msgid ""
+"Add the regular expression here that you want to use\n"
+"to ignore lines that match it."
+msgstr ""
+"यहाँ तपाईँले नियमित अभिव्यक्ति थप्नुहोस् जुन तपाईँले यससँग मिल्ने\n"
+"रेखाहरू उपेक्षा गर्न प्रयोग गर्न चाहनुहुन्छ ।"
+
+#: libdialogpages/diffpage.cpp:319
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: libdialogpages/diffpage.cpp:320
+msgid ""
+"Clicking this will open a regular expression dialog where\n"
+"you can graphically create regular expressions."
+msgstr ""
+"यो क्लिक गर्नाले नियमित अभिव्यक्ति संवाद खोल्नेछ जहाँ\n"
+"तपाईँ ग्राफिकल रूपमा नियमित अभिव्यक्तिहरू सिर्जना गर्न सक्नुहुन्छ ।"
+
+#: libdialogpages/diffpage.cpp:328
+msgid "Whitespace"
+msgstr "सेतो खाली स्थान"
+
+#: libdialogpages/diffpage.cpp:331
+msgid "E&xpand tabs to spaces in output"
+msgstr "निर्गात भित्र खाली स्थानहरूमा ट्याबहरू विस्तार गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:332
+msgid "This option corresponds to the -t diff option."
+msgstr "यो विकल्पले -t diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:333
+msgid ""
+"This option does not always produce the right result. Due to this expansion "
+"Kompare may have problems applying the change to the destination file."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:335
+msgid "I&gnore added or removed empty lines"
+msgstr "थपिएका वा हटाइएका खाली रेखाहरू उपेक्षा गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:336
+msgid "This option corresponds to the -B diff option."
+msgstr "यो विकल्पले -B diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:337
+msgid ""
+"This can be very useful in situations where code has been reorganized and "
+"empty lines have been added or removed to improve legibility."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:339
+msgid "Ig&nore changes in the amount of whitespace"
+msgstr "सेतो स्थानको मात्रामा परिवर्तनहरू उपेक्षा गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:340
+msgid "This option corresponds to the -b diff option."
+msgstr "यो विकल्पले -b diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:341
+msgid ""
+"If you are uninterested in differences arising due to, for example, changes "
+"in indentation, then use this option."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:343
+msgid "Ign&ore all whitespace"
+msgstr "सबै खाली स्थान उपेक्षा गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:344
+msgid "This option corresponds to the -w diff option."
+msgstr "यो विकल्पले -w diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:345
+msgid ""
+"This is useful for seeing the significant changes without being overwhelmed "
+"by all the white space changes."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:347
+msgid "Igno&re changes due to tab expansion"
+msgstr "ट्याब विस्तारको कारणले परिवर्तनहरू उपेक्षा गर्नुहोस्"
+
+#: libdialogpages/diffpage.cpp:348
+msgid "This option corresponds to the -E diff option."
+msgstr "यो विकल्पले -E diff विकल्पलाई देखाउँछ ।"
+
+#: libdialogpages/diffpage.cpp:349
+msgid ""
+"If there is a change because tabs have been expanded into spaces in the "
+"other file, then this option will make sure that these do not show up. "
+"Kompare currently has some problems applying such changes so be careful when "
+"you use this option."
+msgstr ""
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:93
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, m_OptionsGB)
+#: libdialogpages/diffpage.cpp:355 rc.cpp:32
+msgid "Options"
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:368
+msgid "File Pattern to Exclude"
+msgstr "हटाउनुपर्ने फाइल बाँन्की"
+
+#: libdialogpages/diffpage.cpp:371
+msgid ""
+"If this is checked you can enter a shell pattern in the text box on the "
+"right or select entries from the list."
+msgstr ""
+"यदि यो जाँच गरियो भने तपाईँले दायाँपट्टि पाठ बाकसमा शेल बाँन्की प्रविष्ट "
+"गर्न सक्नुहुन्छ वा सूचीबाट प्रविष्टिहरू चयन गर्नुहोस् ।"
+
+#: libdialogpages/diffpage.cpp:377
+msgid ""
+"Here you can enter or remove a shell pattern or select one or more entries "
+"from the list."
+msgstr ""
+"यहाँ तपाईँ शेल बाँन्की प्रविष्ट गर्न वा हटाउन सक्नुहुन्छ वा सूचीबाट एउटा वा "
+"धेरै प्रविष्टिहरू चयन गर्नुहोस् ।"
+
+#: libdialogpages/diffpage.cpp:386
+msgid "File with Filenames to Exclude"
+msgstr "हटाउनुपर्ने फाइलनामसँग फाइल"
+
+#: libdialogpages/diffpage.cpp:389
+msgid ""
+"If this is checked you can enter a filename in the combo box on the right."
+msgstr ""
+"यदि यो जाँच गरियो भने तपाईँ दायाँपट्टि कम्बो बाकसमा फाइलनाम प्रविष्ट गर्न "
+"सक्नुहुन्छ ।"
+
+#: libdialogpages/diffpage.cpp:393
+msgid ""
+"Here you can enter the URL of a file with shell patterns to ignore during "
+"the comparison of the folders."
+msgstr ""
+"फोल्डरहरूको तुलना गर्दा उपेक्षा गर्न यहाँ तपाईँ शेल बाँन्कीसँग फाइलको यूआरएल "
+"प्रविष्ट गर्न सक्नुहुन्छ ।"
+
+#: libdialogpages/diffpage.cpp:397
+msgid ""
+"Any file you select in the dialog that pops up when you click it will be put "
+"in the dialog to the left of this button."
+msgstr ""
+"क्लिक गर्दा पपअप हुने संवादमा तपाईँले चयन गर्नु भएको कुनै फाइललाई यो बटनको "
+"बायाँपट्टि संवादमा राखिनेछ ।"
+
+#: libdialogpages/diffpage.cpp:405
+msgid "Exclude"
+msgstr ""
+
+#: libdialogpages/viewpage.cpp:57
+msgid "Colors"
+msgstr "रङ"
+
+#: libdialogpages/viewpage.cpp:63
+msgid "Removed color:"
+msgstr "हटाइएको रङ:"
+
+#: libdialogpages/viewpage.cpp:70
+msgid "Changed color:"
+msgstr "परिवर्तित रङ:"
+
+#: libdialogpages/viewpage.cpp:77
+msgid "Added color:"
+msgstr "थपिएको रङ:"
+
+#: libdialogpages/viewpage.cpp:84
+msgid "Applied color:"
+msgstr "लागू गरिएको रङ:"
+
+#: libdialogpages/viewpage.cpp:94
+msgid "Mouse Wheel"
+msgstr "माउस ह्वील"
+
+#: libdialogpages/viewpage.cpp:98
+msgid "Number of lines:"
+msgstr "रेखाको सङख्या:"
+
+#: libdialogpages/viewpage.cpp:109
+msgid "Tabs to Spaces"
+msgstr "खाली स्थानहरूमा ट्याब"
+
+#: libdialogpages/viewpage.cpp:113
+msgid "Number of spaces to convert a tab character to:"
+msgstr "यसमा ट्याब क्यारेक्टर रूपान्तरण गर्न खाली स्थानहरूको सङ्ख्या:"
+
+#: libdialogpages/viewpage.cpp:122 kompareurldialog.cpp:60
+msgid "Appearance"
+msgstr ""
+
+#: libdialogpages/viewpage.cpp:132
+msgid "Text Font"
+msgstr "पाठ फन्ट"
+
+#: libdialogpages/viewpage.cpp:136
+msgid "Font:"
+msgstr "फन्ट:"
+
+#: libdialogpages/viewpage.cpp:143
+msgid "Size:"
+msgstr "साइज:"
+
+#: libdialogpages/viewpage.cpp:152
+msgid "Fonts"
+msgstr ""
+
+#: libdialogpages/filespage.cpp:60
+msgid "Encoding"
+msgstr "सङ्केतन"
+
+#: main.cpp:43
+msgid ""
+"A program to view the differences between files and optionally generate a "
+"diff"
+msgstr ""
+"फाइलहरू र वैकल्पिक रूपमा सिर्जना गरेको फरक बीच भिन्नता हेर्ने कार्यक्रम"
+
+#: main.cpp:59
+msgid "Kompare"
+msgstr "तुलना गर्नुहोस्"
+
+#: main.cpp:61
+msgid ""
+"(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) 2004-"
+"2005 Jeff Snyder, (c) 2007-2008 Kevin Kofler"
+msgstr ""
+
+#: main.cpp:64
+msgid "Jeff Snyder"
+msgstr ""
+
+#: main.cpp:64
+msgid "Developer"
+msgstr ""
+
+#: main.cpp:65
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:66
+msgid "Chris Luetchford"
+msgstr ""
+
+#: main.cpp:66
+msgid "Kompare icon artist"
+msgstr "प्रतिमा कलाकार तुलना गर्नुहोस्"
+
+#: main.cpp:67
+msgid "Malte Starostik"
+msgstr ""
+
+#: main.cpp:67
+msgid "A lot of good advice"
+msgstr "अधिक मात्रामा सही सुझाव"
+
+#: main.cpp:68
+msgid "Bernd Gehrmann"
+msgstr ""
+
+#: main.cpp:68
+msgid "Cervisia diff viewer"
+msgstr "सर्भिसिया फरक द्रष्टा"
+
+#: main.cpp:73
+msgid "This will compare URL1 with URL2"
+msgstr "यसले यूआरएल१ लाई यूआरएल२ सँग तुलना गर्नेछ"
+
+#: main.cpp:74
+msgid ""
+"This will open URL1 and expect it to be diff output. URL1 can also be a '-' "
+"and then it will read from standard input. Can be used for instance for cvs "
+"diff | kompare -o -. Kompare will do a check to see if it can find the "
+"original file(s) and then blend the original file(s) into the diffoutput and "
+"show that in the viewer. -n disables the check."
+msgstr ""
+"यसले यूआरएल१ खोल्नेछ र फरक निर्गतको रूपमा अपेक्षा गर्दछ । यूआरएल१ '-' पनि "
+"हुन सक्छ र त्यसपछि यो मानक निर्गातबाट पढनेछ । सीभीएसdiff | kompare -o - का "
+"लागि उदाहरणको रूपमा प्रयोग गर्न सकिन्छ । Kompare ले यसले मौलिक फाइलहरू फेला "
+"पार्यो या पारेन जाँच गर्नेछ र फरक निर्गातमा मौलिक फाइलहरू मिसाउँदछ र त्यसलाई "
+"द्रष्टामा देखाउँनुहोस् । -n ले जाँच अक्षम पार्दछ ।"
+
+#: main.cpp:75
+msgid ""
+"This will blend URL2 into URL1, URL2 is expected to be diff output and URL1 "
+"the file or folder that the diffoutput needs to be blended into. "
+msgstr ""
+"यसले यूआरएल२ लाई यूआरएल१ मा मिसाउँदछ, यूआरएल२ लाई फरक निर्गातको रूपमा "
+"अपेक्षा गरिन्छ र यूआरएल१ लाई फाइल वा फोल्डरको रूपमा अपेक्षा गरिन्छ जहाँ फरक "
+"निर्गात एक आपसमा मिसाइन्छ । "
+
+#: main.cpp:76
+msgid ""
+"Disables the check for automatically finding the original file(s) when using "
+"'-' as URL with the -o option."
+msgstr ""
+"-o विकल्पसँग यूआरएलको रूपमा '-' प्रयोग गर्दा स्वाचलित रूपमा मौलिक फाइलहरू "
+"फेला पार्नका लागि जाँच अक्षम गर्दछ ।"
+
+#: main.cpp:77
+msgid ""
+"Use this to specify the encoding when calling it from the command line. It "
+"will default to the local encoding if not specified."
+msgstr ""
+"आदेश रेखाबाट यसलाई बोलाउँदा सङ्केतन निर्दिष्ट गर्न यो प्रयोग गर्नुहोस् । यदि "
+"निर्दिष्ट गरिएको छैन भने यसले स्थानिय सङ्केतनमा पूर्वनिर्धारित गर्नेछ ।"
+
+#: main.cpp:201 kompare_shell.cpp:415
+msgid "Compare Files or Folders"
+msgstr "फाइल वा फोल्डर तुलना गर्नुहोस्"
+
+#: main.cpp:202 kompare_shell.cpp:416
+msgid "Source"
+msgstr "स्रोत"
+
+#: main.cpp:203 kompare_shell.cpp:417
+msgid "Destination"
+msgstr "गन्तब्य"
+
+#: main.cpp:205 kompare_shell.cpp:419
+msgid "Compare"
+msgstr "तुलना गर्नुहोस्"
+
+#: main.cpp:205
+msgid "Compare these files or folder"
+msgstr "यी फाइलहरू वा फोल्डर तुलना गर्नुहोस्"
+
+#: main.cpp:205 kompare_shell.cpp:419
+msgid ""
+"If you have entered 2 filenames or 2 folders in the fields in this dialog "
+"then this button will be enabled and pressing it will start a comparison of "
+"the entered files or folders. "
+msgstr ""
+"यदि तपाईँले यो संवादमा फाँट भित्र २ फाइलनाम वा २ फोल्डरहरू प्रविष्ट गर्नुभयो "
+"भने त्यसपछि यो बटन सक्षम पारिनेछ र यसलाई थिच्नाले प्रविष्ट भएको फाइलहरू वा "
+"फोल्डरहरूको तुलना सुरु गर्नेछ । "
+
+#. i18n: file: kompareui.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: komparepart/komparepartui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:14
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kompareui.rc:14
+#. i18n: ectx: Menu (settings)
+#. i18n: file: komparepart/komparepartui.rc:29
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:6 rc.cpp:20
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kompareui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:9
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:10
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:11
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com,,,"
+
+#. i18n: file: komparepart/komparepartui.rc:17
+#. i18n: ectx: Menu (difference)
+#: rc.cpp:17
+msgid "&Difference"
+msgstr "फरक"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: rc.cpp:23
+msgid "Run Diff In"
+msgstr "फरक बीच चलाउँनुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:65
+#. i18n: ectx: property (title), widget (QGroupBox, m_CommandLineGB)
+#: rc.cpp:26
+msgid "Command Line"
+msgstr "आदेश रेखा"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:80
+#. i18n: ectx: property (text), widget (QLabel, m_CommandLineLabel)
+#: rc.cpp:29
+msgid "cd dir && diff -udHprNa -- source destination"
+msgstr "cd dir && diff -udHprNa -- स्रोत गन्तव्य"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, m_SmallerChangesCB)
+#: rc.cpp:35
+msgid "Look for smaller changes"
+msgstr "साना परिवर्तनका लागि हेर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:115
+#. i18n: ectx: property (text), widget (QCheckBox, m_LargeFilesCB)
+#: rc.cpp:38
+msgid "Optimize for large files"
+msgstr "ठूला फाइलहरूका लागि अधिक्तम गर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:125
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreCaseCB)
+#: rc.cpp:41
+msgid "Ignore changes in case"
+msgstr "यदि यसो हो भने परिवर्तनहरू उपेक्षा गर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, m_ExpandTabsCB)
+#: rc.cpp:44
+msgid "Expand tabs to spaces"
+msgstr "खाली स्थानहरूमा ट्याबहरू विस्तार गर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreEmptyLinesCB)
+#: rc.cpp:47
+msgid "Ignore added or removed empty lines"
+msgstr "थपिएको वा हटाइएको खाली रेखाहरू उपेक्षा गर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:146
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreWhiteSpaceCB)
+#: rc.cpp:50
+msgid "Ignore changes in whitespace"
+msgstr "सेतो खाली स्थानमा परिवर्तनहरू उपेक्षा गर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:153
+#. i18n: ectx: property (text), widget (QCheckBox, m_FunctionNamesCB)
+#: rc.cpp:53
+msgid "Show function names"
+msgstr "प्रकार्य नाम देखाउनुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:163
+#. i18n: ectx: property (text), widget (QCheckBox, m_RecursiveCB)
+#: rc.cpp:56
+msgid "Compare folders recursively"
+msgstr "पुनरावृत्तिक रूपमा फोल्डरहरू तुलना गर्नुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:173
+#. i18n: ectx: property (text), widget (QCheckBox, m_NewFilesCB)
+#: rc.cpp:59
+msgid "Treat new files as empty"
+msgstr "नयाँ फाइलहरूलाई खाली सम्झनुहोस्"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:239
+#. i18n: ectx: property (text), widget (QRadioButton, m_SideBySideRB)
+#: rc.cpp:80
+msgid "Side-by-side"
+msgstr "सँगसँगै"
+
+#: libdiff2/komparemodellist.cpp:65
+msgid "&Apply Difference"
+msgstr "भिन्नता लागू गर्नुहोस्"
+
+#: libdiff2/komparemodellist.cpp:69
+msgid "Un&apply Difference"
+msgstr "भिन्नता लागू नगर्नुहोस्"
+
+#: libdiff2/komparemodellist.cpp:73
+msgid "App&ly All"
+msgstr "सबै लागू गर्नुहोस्"
+
+#: libdiff2/komparemodellist.cpp:77
+msgid "&Unapply All"
+msgstr "सबै लागू नगर्नुहोस्"
+
+#: libdiff2/komparemodellist.cpp:81
+msgid "P&revious File"
+msgstr "अघिल्लो फाइल"
+
+#: libdiff2/komparemodellist.cpp:85
+msgid "N&ext File"
+msgstr "पछिल्लो फाइल"
+
+#: libdiff2/komparemodellist.cpp:89
+msgid "&Previous Difference"
+msgstr "अघिल्लो फरक"
+
+#: libdiff2/komparemodellist.cpp:93
+msgid "&Next Difference"
+msgstr "पछिल्लो फरक"
+
+#: libdiff2/komparemodellist.cpp:219 libdiff2/komparemodellist.cpp:242
+#, kde-format
+msgid ""
+"<qt>No models or no differences, this file: <b>%1</b>, is not a valid diff "
+"file.</qt>"
+msgstr ""
+"<qt>कुनै नमूना वा भिन्नता छैन, यो फाइल: <b>%1</b>, वैध भिन्न फाइल होइन ।</qt>"
+
+#: libdiff2/komparemodellist.cpp:226
+#, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the file "
+"<b>%2</b>.</qt>"
+msgstr ""
+"<qt>त्यहाँ फाइल <b>%2</b> मा भिन्नता <b>%1</b> लागू गर्दा समस्याहरू थियो "
+"।</qt>"
+
+#: libdiff2/komparemodellist.cpp:251
+#, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the folder "
+"<b>%2</b>.</qt>"
+msgstr ""
+"<qt>त्यहाँ फोल्डर <b>%2</b> मा भिन्नता <b>%1</b> लागू गर्दा समस्याहरू थियो "
+"।</qt>"
+
+#: libdiff2/komparemodellist.cpp:284 libdiff2/komparemodellist.cpp:592
+msgid "Could not open a temporary file."
+msgstr "अस्थायी फाइल खोल्न सकेन ।"
+
+#: libdiff2/komparemodellist.cpp:334
+#, kde-format
+msgid ""
+"<qt>Could not write to the temporary file <b>%1</b>, deleting it.</qt>"
+msgstr "<qt> यसलाई मेटेर, अस्थायी फाइल<b>%1</b> मा हेर्न सकेन ।</qt>"
+
+#: libdiff2/komparemodellist.cpp:362
+#, kde-format
+msgid ""
+"<qt>Could not create destination directory <b>%1</b>.\n"
+"The file has not been saved.</qt>"
+msgstr ""
+"<qt>गन्तब्य डाइरेक्टरी <b>%1</b> सिर्जना गर्न सकेन ।\n"
+"फाइल बचत गरिएको छैन ।</qt>"
+
+#: libdiff2/komparemodellist.cpp:379
+#, kde-format
+msgid ""
+"<qt>Could not upload the temporary file to the destination location "
+"<b>%1</b>. The temporary file is still available under: <b>%2</b>. You can "
+"manually copy it to the right place.</qt>"
+msgstr ""
+"<qt>गन्तब्य स्थान <b>%1</b> मा अस्थायी फाइल अपलोड गर्न सकेन । अस्थायी फाइल "
+"अझै: <b>%2</b> अन्तर्गत उपलब्ध छ । तपाईँ यसलाई म्यानुअल तरिकाले दायाँपट्टि "
+"प्रतिलिपि गर्न सक्नुहुन्छ ।</qt>"
+
+#: libdiff2/komparemodellist.cpp:444 libdiff2/komparemodellist.cpp:557
+msgid "Could not parse diff output."
+msgstr "फरक निर्गात पद वर्णन गर्न सकेन ।"
+
+#: libdiff2/komparemodellist.cpp:460
+msgid "The files are identical."
+msgstr "फाइलहरू समान छन् ।"
+
+#: libdiff2/komparemodellist.cpp:624
+msgid "Could not write to the temporary file."
+msgstr "अस्थायी फाइलमा लेख्न सकेन ।"
+
+#: kompare_shell.cpp:81
+msgid "Could not find our KompareViewPart."
+msgstr "हाम्रो तुलना दृश्य भाग फेला पार्न सकेन ।"
+
+#: kompare_shell.cpp:113
+msgid "Could not load our KompareViewPart."
+msgstr "हाम्रो तुलना दृश्य भाग लोड गर्न सकेन ।"
+
+#: kompare_shell.cpp:121
+msgid "Could not find our KompareNavigationPart."
+msgstr "हाम्रो तुलना नेभिगेसन भाग फेला पार्न सकेन ।"
+
+#: kompare_shell.cpp:130
+msgid "Navigation"
+msgstr ""
+
+#: kompare_shell.cpp:148
+msgid "Could not load our KompareNavigationPart."
+msgstr "हाम्रो तुलना नेभिगेसन भाग लोड गर्न सकेन ।"
+
+#: kompare_shell.cpp:249
+msgid "&Open Diff..."
+msgstr "फरक खोल्नुहोस्..."
+
+#: kompare_shell.cpp:252
+msgid "&Compare Files..."
+msgstr "फाइलहरू तुलना गर्नुहोस्..."
+
+#: kompare_shell.cpp:255
+msgid "&Blend URL with Diff..."
+msgstr "फरक रूपमा यूआरएल मिसाउँनुहोस्..."
+
+#: kompare_shell.cpp:261
+msgid "Show T&ext View"
+msgstr "पाठ दृश्य देखाउनुहोस्"
+
+#: kompare_shell.cpp:274
+msgid " 0 of 0 differences "
+msgstr " ० को ० फरकहरू "
+
+#: kompare_shell.cpp:275
+msgid " 0 of 0 files "
+msgstr " ० को ० फाइलहरू "
+
+#: kompare_shell.cpp:290
+#, kde-format
+msgid " %2 of %1 file "
+msgid_plural " %2 of %1 files "
+msgstr[0] " %2 को %1 फाइल "
+msgstr[1] " %2 को %1 फाइलहरू "
+
+#: kompare_shell.cpp:292
+#, kde-format
+msgid " %1 file "
+msgid_plural " %1 files "
+msgstr[0] " %1 फाइल "
+msgstr[1] " %1 फाइलहरू "
+
+#: kompare_shell.cpp:295
+#, kde-format
+msgid " %2 of %1 difference, %3 applied "
+msgid_plural " %2 of %1 differences, %3 applied "
+msgstr[0] " %2 को %1 भिन्नता, %3 लागू गरियो "
+msgstr[1] " %2 को %1 भिन्नताहरू, %3 लागू गरियो "
+
+#: kompare_shell.cpp:298
+#, kde-format
+msgid " %1 difference "
+msgid_plural " %1 differences "
+msgstr[0] " %1 भिन्नता "
+msgstr[1] " %1 भिन्नताहरू "
+
+#: kompare_shell.cpp:386
+msgid "Blend File/Folder with diff Output"
+msgstr "फरक निर्गातसँग फाइल/फोल्डर मिसाउँनुहोस्"
+
+#: kompare_shell.cpp:387
+msgid "File/Folder"
+msgstr "फाइल/फोल्डर"
+
+#: kompare_shell.cpp:388
+msgid "Diff Output"
+msgstr "फरक निर्गत"
+
+#: kompare_shell.cpp:390
+msgid "Blend"
+msgstr "मिसाउनुहोस्"
+
+#: kompare_shell.cpp:390
+msgid "Blend this file or folder with the diff output"
+msgstr "फरक निर्गातसँग यो फाइल वा फोल्डर मिसाउँनुहोस्"
+
+#: kompare_shell.cpp:390
+msgid ""
+"If you have entered a file or folder name and a file that contains diff "
+"output in the fields in this dialog then this button will be enabled and "
+"pressing it will open kompare's main view where the output of the entered "
+"file or files from the folder are mixed with the diff output so you can then "
+"apply the difference(s) to a file or to the files. "
+msgstr ""
+"यदि तपाईँले फाइल वा फोल्डर प्रविष्ट गर्नुभयो जसले यो संवाद भित्र फाँटहरूमा "
+"फरक निर्गात समाविष्ट गर्दछ भने यो बटन सक्षम पारिनेछ र यसलाई थिच्नाले तुलनाको "
+"मुख्य दृश्य खुल्नेछ जहाँ फोल्डरबाट प्रविष्ट गरेको फाइल वा फाइलहरूको निर्गात "
+"विभिन्न निर्गातसँग मिश्रित गरिएको हुन्छ त्यसैले तपाईँले त्यसपछि फाटइलहरूमा "
+"वा फाइलमा भिन्नताहरू लागू गर्न सक्नुहुन्छ । "
+
+#: kompare_shell.cpp:419
+msgid "Compare these files or folders"
+msgstr "यी फाइलहरू वा फोल्डरहरू तुलना गर्नुहोस्"
+
+#: kompare_shell.cpp:455
+msgid "Text View"
+msgstr "पाठ दृश्य"
+
+#: kompareurldialog.cpp:44
+msgid "Files"
+msgstr ""
+
+#: kompareurldialog.cpp:46
+msgid "Here you can enter the files you want to compare."
+msgstr ""
+
+#: kompareurldialog.cpp:54
+msgid "Here you can change the options for comparing the files."
+msgstr ""
+
+#: kompareurldialog.cpp:62
+msgid "Here you can change the options for the view."
+msgstr ""
+
+#: kompareurldialog.cpp:105
+msgid ""
+"File used for excluding files cannot be found, please specify another file."
+msgstr ""

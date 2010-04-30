@@ -1,0 +1,210 @@
+# translation of kcmsmartcard.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmartcard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2008-10-07 16:04+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:16+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. i18n: file: nosmartcardbase.ui:24
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:3 rc.cpp:59
+msgid "<b>Unable to contact the KDE smartcard service.</b>"
+msgstr "<b>केडीई स्मार्टकार्ड सेवामा समपर्क गर्न असफल भयो ।</b>"
+
+#. i18n: file: nosmartcardbase.ui:35
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:6 rc.cpp:62
+msgid "Possible Reasons"
+msgstr "सम्भाव्य कारण"
+
+#. i18n: file: nosmartcardbase.ui:49
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:9 rc.cpp:65
+msgid ""
+"\n"
+"1) The KDE daemon, 'kded' is not running. You can restart it by running the "
+"command 'kdeinit' and then try reloading the KDE System Settings to see if "
+"this message goes away.\n"
+"\n"
+"2) You do not appear to have smartcard support in the KDE libraries. You "
+"will need to recompile the kdelibs package with libpcsclite installed."
+msgstr ""
+
+#. i18n: file: smartcardbase.ui:31
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:15 rc.cpp:71
+msgid "Smartcard Support"
+msgstr "स्मार्टकार्ड समर्थन"
+
+#. i18n: file: smartcardbase.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:18 rc.cpp:74
+msgid "&Enable smartcard support"
+msgstr "स्मार्टकार्ड समर्थन सक्षम पार्नुहोस्"
+
+#. i18n: file: smartcardbase.ui:61
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:21 rc.cpp:77
+msgid "Enable &polling to autodetect card events"
+msgstr "स्वत: पत्ता लगाउने कार्ड घटनाहरूमा चयन सक्षम पार्नुहोस्"
+
+#. i18n: file: smartcardbase.ui:64
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:24 rc.cpp:80
+msgid ""
+"In most cases you should have this enabled. It allows KDE to automatically "
+"detect card insertion and reader hotplug events."
+msgstr ""
+"धेरै जसो केसहरूमा तपाईँले यसलाई सक्षम पार्नुपर्नेछ । यसले केडीई लाई स्वचालित "
+"रूपमा कार्ड घुसाई र रिडर हटप्लग घटनाहरू पत्ता लगाउन अनुमति दिन्छ ।"
+
+#. i18n: file: smartcardbase.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:27 rc.cpp:83
+msgid "Automatically &launch card manager if inserted card is unclaimed"
+msgstr ""
+"यदि घुसाइएको कार्ड दावी रहित भयो भने स्वचालित रूपमा कार्ड प्रबन्धक सुरु "
+"गर्नुहोस्"
+
+#. i18n: file: smartcardbase.ui:95
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:30 rc.cpp:86
+msgid ""
+"When you insert a smartcard, KDE can automatically launch a management tool "
+"if no other application attempts to use the card."
+msgstr ""
+"तपाईँले स्मार्टकार्ड घुसाउँदा, यदि अन्य उपकरणले कार्ड प्रयोग गर्ने प्रयास "
+"गरेन भने केडीई ले स्वचालित रूपमा व्यवस्थापन उपकरण सुरु गर्न सक्छ ।"
+
+#. i18n: file: smartcardbase.ui:106
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:33 rc.cpp:89
+msgid "&Beep on card insert and removal"
+msgstr "कार्ड घुसाउदा र हटाउदा बीप आवाज राख्नुहोस्"
+
+#. i18n: file: smartcardbase.ui:135
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:36 rc.cpp:92
+msgid "Readers"
+msgstr "पाठक"
+
+#. i18n: file: smartcardbase.ui:152
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:39 rc.cpp:95
+msgid "Reader"
+msgstr "पाठक"
+
+#. i18n: file: smartcardbase.ui:163
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:42 rc.cpp:98
+msgid "Type"
+msgstr "प्रकार"
+
+#. i18n: file: smartcardbase.ui:174
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:45 rc.cpp:101
+msgid "Subtype"
+msgstr "उपप्रकार"
+
+#. i18n: file: smartcardbase.ui:185
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:48 rc.cpp:104
+msgid "SubSubtype"
+msgstr "उप उपप्रकार"
+
+#. i18n: file: smartcardbase.ui:228
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:51 rc.cpp:107
+msgid "PCSCLite Configuration"
+msgstr "PCSCLite कन्फिगरेसन"
+
+#. i18n: file: smartcardbase.ui:251
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:54 rc.cpp:110
+msgid ""
+"To add new readers you have to modify /etc/readers.conf file and re-start "
+"pcscd"
+msgstr ""
+"नयाँ पाठकहरू थप्न तपाईँले /etc/readers.conf फाइल परिमार्जन गर्नुपर्छ र pcscd "
+"पुन: सुरुआत गर्नुपर्छ"
+
+#: rc.cpp:55
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:56
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, Shyam krishna bal<shyam@mpp.org.np>,,,"
+
+#: smartcard.cpp:65
+msgid "kcmsmartcard"
+msgstr "kcmsmartcard"
+
+#: smartcard.cpp:65
+msgid "KDE Smartcard Control Module"
+msgstr "केडीई स्मार्टकार्ड नियन्त्रण मोड्युल"
+
+#: smartcard.cpp:67
+msgid "(c) 2001 George Staikos"
+msgstr "(सी) २००१ जर्ज स्टाकोस"
+
+#: smartcard.cpp:69
+msgid "George Staikos"
+msgstr "जर्ज स्टाइकोस"
+
+#: smartcard.cpp:79
+msgid "Change Module..."
+msgstr "मोड्युल परिवर्तन गर्नुहोस्..."
+
+#: smartcard.cpp:134
+msgid "Unable to launch KCardChooser"
+msgstr "केडीई कार्ड चयनकर्ता सुरू गर्न असफल भयो"
+
+#: smartcard.cpp:183
+msgid "No card inserted"
+msgstr "कुनै कार्ड घुसाइएको छैन"
+
+#: smartcard.cpp:224
+msgid "Smart card support disabled"
+msgstr "स्मार्टकार्ड समर्थन अक्षम पारिएको छ"
+
+#: smartcard.cpp:235
+msgid "No readers found. Check 'pcscd' is running"
+msgstr "कुनै पाठक फेला परेन । 'pcscd' जाँच चलिरहेको छ"
+
+#: smartcard.cpp:260 smartcard.cpp:280
+msgid "NO ATR or no card inserted"
+msgstr "कुनै ATR वा कार्ड घुसाइएको छैन"
+
+#: smartcard.cpp:292
+msgid "Managed by: "
+msgstr "यसद्वारा प्रबन्ध गरिएको: "
+
+#: smartcard.cpp:302
+msgid "No module managing this card"
+msgstr "कुनै मोड्युलले यो कार्डलाई प्रबन्ध गरिरहेको छैन"
+
+#: smartcard.cpp:395
+msgid ""
+"<h1>smartcard</h1> This module allows you to configure KDE support for "
+"smartcards. These can be used for various tasks such as storing SSL "
+"certificates and logging in to the system."
+msgstr ""
+"<h1>स्मार्टकार्ड</h1> यो मोड्युलले तपाईँलाई स्मार्टकार्डहरूका लागि केडीई "
+"समर्थन कन्फिगर गर्न अनुमति दिन्छ । यी विभिन्न कार्यहरूका लागि प्रयोग गर्न "
+"सकिन्छ जस्तै SSL प्रमाणपत्रहरूलाई भण्डारण गरेर प्रणालीमा लगइन गर्न ।"

@@ -1,0 +1,460 @@
+# translation of ksayit.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksayit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 11:26+0000\n"
+"PO-Revision-Date: 2009-07-16 09:38+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: contextmenuhandler.cpp:96
+msgid "New"
+msgstr "नयाँ"
+
+#: contextmenuhandler.cpp:162
+msgid "Rename..."
+msgstr "पुन: नामकरण गर्नुहोस्..."
+
+#: contextmenuhandler.cpp:166
+msgid "Delete..."
+msgstr "मट्नुहोस्..."
+
+#: contextmenuhandler.cpp:170 doctreeviewimpl.cpp:783 doctreeviewimpl.cpp:1402
+msgid "Overview"
+msgstr "समिक्षा"
+
+#. i18n: file: DocTreeView.ui:45
+#. i18n: ectx: property (text), widget (K3ListView)
+#: contextmenuhandler.cpp:174 doctreeviewimpl.cpp:49 doctreeviewimpl.cpp:810
+#: doctreeviewimpl.cpp:1629 rc.cpp:6
+msgid "Chapter"
+msgstr "अध्याय"
+
+#: contextmenuhandler.cpp:178 doctreeviewimpl.cpp:845 doctreeviewimpl.cpp:1564
+msgid "Keywords"
+msgstr "शब्दकुञ्जी"
+
+#: contextmenuhandler.cpp:182 doctreeviewimpl.cpp:874
+msgid "Keyword"
+msgstr "शब्दकुञ्जी"
+
+#: contextmenuhandler.cpp:186 doctreeviewimpl.cpp:907 doctreeviewimpl.cpp:1603
+msgid "Abstract"
+msgstr "संक्षेप"
+
+#: contextmenuhandler.cpp:190
+msgid "Authors"
+msgstr "लेखक"
+
+#: contextmenuhandler.cpp:194 doctreeviewimpl.cpp:979 doctreeviewimpl.cpp:1552
+msgid "Author"
+msgstr "लेखक"
+
+#: contextmenuhandler.cpp:198 doctreeviewimpl.cpp:1022
+#: doctreeviewimpl.cpp:1437
+msgid "Date"
+msgstr "मिति"
+
+#: contextmenuhandler.cpp:202
+msgid "Release Info"
+msgstr "निस्काशन सूचना"
+
+#: contextmenuhandler.cpp:206
+msgid "Title"
+msgstr "शीर्षक"
+
+#: contextmenuhandler.cpp:210 doctreeviewimpl.cpp:540 doctreeviewimpl.cpp:1104
+#: doctreeviewimpl.cpp:1824
+msgid "Paragraph"
+msgstr "अनुच्छेद"
+
+#: contextmenuhandler.cpp:214 doctreeviewimpl.cpp:1127
+#: doctreeviewimpl.cpp:1662
+msgid "Section Level 1"
+msgstr "खण्ड स्तर १"
+
+#: contextmenuhandler.cpp:218 doctreeviewimpl.cpp:1160
+#: doctreeviewimpl.cpp:1695
+msgid "Section Level 2"
+msgstr "खण्ड स्तर २"
+
+#: contextmenuhandler.cpp:222 doctreeviewimpl.cpp:1193
+#: doctreeviewimpl.cpp:1728
+msgid "Section Level 3"
+msgstr "खण्ड स्तर ३"
+
+#: contextmenuhandler.cpp:226 doctreeviewimpl.cpp:1226
+#: doctreeviewimpl.cpp:1761 doctreeviewimpl.cpp:1794
+msgid "Section Level 4"
+msgstr "खण्ड स्तर ४"
+
+#: contextmenuhandler.cpp:230 doctreeviewimpl.cpp:1259
+msgid "Section Level 5"
+msgstr "खण्ड स्तर ५"
+
+#: docbookclasses.cpp:622
+msgid "Unable to make document persistent."
+msgstr ""
+
+#: docbookclasses.cpp:627
+msgid ""
+"This paragraph contains mismatching tags. It will will be handled as CDATA."
+msgstr ""
+
+#: docbookclasses.cpp:628
+msgid "XML-Error"
+msgstr ""
+
+#. i18n: file: DocTreeView.ui:56
+#. i18n: ectx: property (text), widget (K3ListView)
+#: doctreeviewimpl.cpp:50 rc.cpp:9
+msgid "Info"
+msgstr "सूचना"
+
+#. i18n: file: DocTreeView.ui:67
+#. i18n: ectx: property (text), widget (K3ListView)
+#: doctreeviewimpl.cpp:51 rc.cpp:12
+msgid "Page"
+msgstr ""
+
+#: doctreeviewimpl.cpp:110
+msgid "unnamed"
+msgstr "बेनामी"
+
+#: doctreeviewimpl.cpp:135
+msgid "Empty Document"
+msgstr "खाली कागजात"
+
+#: doctreeviewimpl.cpp:148 doctreeviewimpl.cpp:159 ksayit.cpp:82
+msgid "Untitled"
+msgstr ""
+
+#: doctreeviewimpl.cpp:184
+msgid "Unable to open File."
+msgstr "फाइल खोल्न असफल"
+
+#: doctreeviewimpl.cpp:237 doctreeviewimpl.cpp:251
+msgid "Plain File"
+msgstr "सादा फाइल"
+
+#: doctreeviewimpl.cpp:247
+msgid "Failed wrapping the file into XML."
+msgstr "XML मा फाइल र्यापिङ असफल भयो ।"
+
+#: doctreeviewimpl.cpp:262
+#, kde-format
+msgid "The file is of type %1, 'book' expected."
+msgstr "%1 प्रकारको फाइल, 'पुस्तक' अपेक्षा गरिएको थियो ।"
+
+#: doctreeviewimpl.cpp:280
+msgid "Save File"
+msgstr "फाइल बचत गर्नुहोस्"
+
+#: doctreeviewimpl.cpp:285
+msgid "The given URL is invalid. Try 'File save as...' instead."
+msgstr ""
+"दिएको यूआरएल अवैद्य छ । यसको सट्टामा 'फाइल यसका रुपमा बचत गर्नुहोस्...' "
+"प्रयास गर्नुहोस् ।"
+
+#: doctreeviewimpl.cpp:292 doctreeviewimpl.cpp:332
+msgid "Unable open file to write."
+msgstr "लेख्नका लागि फाइल खोल्न असक्षम ।"
+
+#: doctreeviewimpl.cpp:306 doctreeviewimpl.cpp:346
+msgid "Save operation currently works on local files only."
+msgstr "स्थानीय फाइलमा मात्र हालै गरिएका कार्य सञ्चालन बचत गर्नुहोस् ।"
+
+#: doctreeviewimpl.cpp:321
+msgid "Save File As"
+msgstr "यसका रुपमा फाइल बचत गर्नुहोस्"
+
+#: doctreeviewimpl.cpp:325
+msgid "The given URL is invalid."
+msgstr "दिएको यूआरएल अवैद्य छ ।"
+
+#: doctreeviewimpl.cpp:436
+msgid ""
+"Maybe the structure of the document has been changed. Please check if this "
+"bookmark is still valid."
+msgstr ""
+"कागजातको संरचना परिवर्तन गरिएको हुन सक्नेछ । कृपया यो पुस्तकचिनो अझै वैद्य छ "
+"छैन जाँच गर्नुहोस् ।"
+
+#: doctreeviewimpl.cpp:445
+msgid ""
+"Bookmark not found. Maybe the file content or the bookmark URL has been "
+"changed."
+msgstr ""
+"पुस्तकचिनो फेला परेन । फाइल सामाग्री वा पुस्तकचिनो यूआरएल परिवर्तन भएको हुन "
+"सक्छ ।"
+
+#: doctreeviewimpl.cpp:694
+msgid "Rename Item"
+msgstr "वस्तु पुन: नामकरण गर्नुहोस्"
+
+#: doctreeviewimpl.cpp:695
+msgid "Please enter the new name of the item:"
+msgstr "कृपया वस्तुको नयाँ नाम प्रविष्ट गर्नुहोस्:"
+
+#: doctreeviewimpl.cpp:812 doctreeviewimpl.cpp:823
+msgid "New Chapter Title"
+msgstr "नयाँ अध्याय शीर्षक"
+
+#: doctreeviewimpl.cpp:876 doctreeviewimpl.cpp:887
+msgid "New Keyword"
+msgstr "नयाँ शब्दकुञ्जी"
+
+#: doctreeviewimpl.cpp:943 doctreeviewimpl.cpp:1491
+msgid "Author(s)"
+msgstr "लेखक(हरू)"
+
+#: doctreeviewimpl.cpp:980
+msgid "Firstname Surname"
+msgstr "नाम थर"
+
+#: doctreeviewimpl.cpp:993
+msgid "Firstname"
+msgstr ""
+
+#: doctreeviewimpl.cpp:997
+msgid "Surname"
+msgstr ""
+
+#: doctreeviewimpl.cpp:1057 doctreeviewimpl.cpp:1455
+msgid "Release"
+msgstr "निस्काशन"
+
+#: doctreeviewimpl.cpp:1139 doctreeviewimpl.cpp:1172 doctreeviewimpl.cpp:1205
+#: doctreeviewimpl.cpp:1238 doctreeviewimpl.cpp:1271
+msgid "New Section Title"
+msgstr "नयाँ शीर्षक खण्ड"
+
+#: ksayit.cpp:168 ksayitsystemtray.cpp:59
+msgid "Say"
+msgstr "भन्नुहोस्"
+
+#: ksayit.cpp:174 ksayitsystemtray.cpp:65
+msgid "Pause"
+msgstr "पज"
+
+#: ksayit.cpp:180 ksayitsystemtray.cpp:62
+msgid "Shut Up"
+msgstr "चूप गराउनुहोस्"
+
+#: ksayit.cpp:186 ksayitsystemtray.cpp:68
+msgid "Next Sentence"
+msgstr "पछिल्लो वाक्य"
+
+#: ksayit.cpp:193 ksayitsystemtray.cpp:71
+msgid "Previous Sentence"
+msgstr "अघिल्लो वाक्य"
+
+#: ksayit.cpp:199
+msgid "Clear"
+msgstr ""
+
+#: ksayit.cpp:205
+msgid "Edit Text"
+msgstr "पाठ सम्पादन गर्नुहोस्"
+
+#: ksayit.cpp:213
+msgid "Bookmarks"
+msgstr ""
+
+#: ksayit.cpp:326 ksayit.cpp:571 ksayit.cpp:591 ksayit.cpp:790
+msgid "Ready."
+msgstr "तयार"
+
+#: ksayit.cpp:444 ksayit.cpp:689
+msgid "Edit Mode ON."
+msgstr "सम्पादन मोड खोल्नुहोस् ।"
+
+#: ksayit.cpp:447
+msgid "Edit Mode OFF."
+msgstr "सम्पादन मोड बन्द गर्नुहोस् ।"
+
+#: ksayit.cpp:484
+msgid "Open file..."
+msgstr "फाइल खोल्नुहोस्..."
+
+#: ksayit.cpp:490
+msgid "File to Speak"
+msgstr "वाचन गर्न फाइल"
+
+#: ksayit.cpp:516
+msgid "Save file..."
+msgstr "फाइल बचत गर्नुहोस्..."
+
+#: ksayit.cpp:533
+msgid "Save file as..."
+msgstr "यस रुपमा फाइल बचत गर्नुहोस्..."
+
+#: ksayit.cpp:565
+msgid "Exiting..."
+msgstr "बाहिर निस्कदैछ..."
+
+#: ksayit.cpp:566
+msgid "Do you really want to quit?"
+msgstr "तपाईँ निश्चय नै अन्त्य गर्न चाहनुहुन्छ?"
+
+#: ksayit.cpp:584
+msgid "Toggle the statusbar..."
+msgstr "स्थितिपट्टी टगल गर्नुहोस्..."
+
+#: ksayit.cpp:615
+msgid "Setup"
+msgstr "सेटअप"
+
+#: ksayit.cpp:703
+msgid "speaking Clipboard..."
+msgstr "क्लिपबोर्ड वाचन गर्दैछ..."
+
+#: ksayit.cpp:721
+msgid "synthesizing..."
+msgstr "सिन्थेसाइजिङ..."
+
+#: ksayit.cpp:809
+msgid "Paused..."
+msgstr "पज गरिएको..."
+
+#: ksayitbookmarkhandler.cpp:59
+msgid "This is not a KSayIt bookmark.\n"
+msgstr "यो के से इट पुस्तकचिनो होइन ।\n"
+
+#: ksayitbookmarkhandler.cpp:77
+msgid "Bookmark not found"
+msgstr "पुस्तकचिनो फेला परेन"
+
+#: ksayitbookmarkhandler.cpp:88
+msgid "untitled"
+msgstr "शीर्षक विहिन"
+
+#: main.cpp:34
+msgid "KSayIt - A Text To Speech frontend for KDE"
+msgstr "के से इट - केडीई का लागि पाठ वाचक फ्रन्टइन्ड"
+
+#: main.cpp:41
+msgid "KSayIt"
+msgstr "के से इट"
+
+#: main.cpp:43
+msgid "(c) 1996 - 2005, Robert Vogl"
+msgstr ""
+
+#: main.cpp:44
+msgid "Robert Vogl"
+msgstr ""
+
+#. i18n: file: DocTreeView.ui:30
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: rc.cpp:3
+msgid "Document Contents"
+msgstr "कागजात सामाग्री"
+
+#. i18n: file: DocTreeView.ui:78
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:15
+msgid "Hidden"
+msgstr "लुकेको"
+
+#. i18n: file: fx_setup.ui:16
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: rc.cpp:18
+msgid "Effect Stack Setup"
+msgstr "स्ट्याक सेटअप प्रभाव"
+
+#. i18n: file: fx_setup.ui:46
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:22
+msgid "Available:"
+msgstr "उपलब्ध:"
+
+#. i18n: file: fx_setup.ui:153
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:27
+msgid "Active:"
+msgstr "सक्रिय:"
+
+#. i18n: file: fx_setup.ui:167
+#. i18n: ectx: property (toolTip), widget (QListBox)
+#: rc.cpp:30
+msgid "Doubleclick opens the setup dialog."
+msgstr "डबल क्लिकले सेटअप संवाद खोल्छ ।"
+
+#. i18n: file: fx_setup.ui:204
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:33
+msgid "Remove All"
+msgstr "सबै हटाउनुहोस्"
+
+#. i18n: file: ksayitui.rc:14
+#. i18n: ectx: Menu (action)
+#: rc.cpp:36
+msgid "&Action"
+msgstr "कार्य"
+
+#. i18n: file: ksayitui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:39
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:40
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:41
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#: saxhandler.cpp:129
+msgid "Fatal error while parsing XML-Paragraph:\n"
+msgstr "XML-अनुच्छेद पदवर्णन गर्दा घातक त्रुटि:\n"
+
+#: saxhandler.cpp:130
+#, kde-format
+msgid "%1, Line: %2"
+msgstr "%1, लाइन: %2"
+
+#: saxhandler.cpp:131
+msgid "Fatal error"
+msgstr "घातक त्रुटि"
+
+#: saxhandler.cpp:163
+#, kde-format
+msgid "Unresolved entity found: %1.\n"
+msgstr "समाधान नगरिएको प्रविष्टि फेला पर्यो: %1.\n"
+
+#: saxhandler.cpp:164
+msgid "KSayIt does not support DocBook files with external entities. "
+msgstr "के से इटले डकबुक फाइल अतिरिक्त प्रविष्टिसँग समर्थन गर्दैन । "
+
+#: saxhandler.cpp:165
+msgid "Parsing can continue, but the resulting text will contain gaps."
+msgstr "पद वर्णन जारी राख्न सकिनेछ, तर परिणाम पाठमा अन्तर हुनेछ ।"
+
+#: saxhandler.cpp:169
+msgid "Parser problem"
+msgstr "पद वर्णक समस्या"
+
+#: voicesetupdlg.cpp:78
+msgid "Voice Settings"
+msgstr "वाच्य सेटिङ"
+
+#: voicesetupdlg.cpp:120
+msgid "The active TTS system does not make use of aRts effects."
+msgstr "सक्रिय TTS प्रणालीले aRts प्रभावको प्रयोग गर्ने छैन ।"
+
+#: voicesetupdlg.cpp:121
+msgid "Plugin Configuration"
+msgstr "प्लगइन कन्फिगरेसन"

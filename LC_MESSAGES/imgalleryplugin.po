@@ -1,0 +1,235 @@
+# translation of imgalleryplugin.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: imgalleryplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-12 23:08+0000\n"
+"PO-Revision-Date: 2010-04-16 11:36+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:49+0000\n"
+
+#: imgallerydialog.cpp:53
+msgid "Configure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#: imgallerydialog.cpp:61
+msgid "Create Image Gallery"
+msgstr "छवि ग्यालरी सिर्जना गर्नुहोस्"
+
+#: imgallerydialog.cpp:62
+msgid "Create"
+msgstr "सिर्जना गर्नुहोस्"
+
+#: imgallerydialog.cpp:72 imgallerydialog.cpp:113
+#, kde-format
+msgid "Image Gallery for %1"
+msgstr "%1 का लागि छवि ग्यालरी"
+
+#: imgallerydialog.cpp:99
+msgid "Look"
+msgstr "हेर्नुहोस्"
+
+#: imgallerydialog.cpp:100
+msgid "Page Look"
+msgstr "पृष्ठ खोजी"
+
+#: imgallerydialog.cpp:110
+msgid "&Page title:"
+msgstr "पृष्ठ शीर्षक:"
+
+#: imgallerydialog.cpp:120
+msgid "I&mages per row:"
+msgstr "छवि प्रति पङ्क्ति:"
+
+#: imgallerydialog.cpp:128
+msgid "Show image file &name"
+msgstr "छवि फाइल नाम देखाउनुहोस्"
+
+#: imgallerydialog.cpp:132
+msgid "Show image file &size"
+msgstr "छवि फाइल साइज देखाउनुहोस्"
+
+#: imgallerydialog.cpp:136
+msgid "Show image &dimensions"
+msgstr "छवि आयामहरू देखाउनुहोस्"
+
+#: imgallerydialog.cpp:149
+msgid "Fon&t name:"
+msgstr "फन्ट नाम:"
+
+#: imgallerydialog.cpp:161
+msgid "Font si&ze:"
+msgstr "फन्ट साइज:"
+
+#: imgallerydialog.cpp:173
+msgid "&Foreground color:"
+msgstr "अग्रभूमि रङ:"
+
+#: imgallerydialog.cpp:185
+msgid "&Background color:"
+msgstr "पृष्ठभूमि रङ:"
+
+#: imgallerydialog.cpp:196 imgallerydialog.cpp:197
+msgid "Folders"
+msgstr "फोल्डर"
+
+#: imgallerydialog.cpp:206
+msgid "&Save to HTML file:"
+msgstr "एचटीएमएल फाइलमा बचत गर्नुहोस्:"
+
+#: imgallerydialog.cpp:209
+msgid "<p>The name of the HTML file this gallery will be saved to.</p>"
+msgstr ""
+
+#: imgallerydialog.cpp:220
+msgid "&Recurse subfolders"
+msgstr "उपफोल्डर पुनरागमन गर्नुहोस्"
+
+#: imgallerydialog.cpp:222
+msgid ""
+"<p>Whether subfolders should be included for the image gallery creation or "
+"not.</p>"
+msgstr ""
+
+#: imgallerydialog.cpp:230
+msgid "Rec&ursion depth:"
+msgstr "पुनरावृत्तिक गहिराइ:"
+
+#: imgallerydialog.cpp:232
+msgid "Endless"
+msgstr "अनन्त"
+
+#: imgallerydialog.cpp:234
+msgid ""
+"<p>You can limit the number of folders the image gallery creator will "
+"traverse to by setting an upper bound for the recursion depth.</p>"
+msgstr ""
+
+#: imgallerydialog.cpp:246
+msgid "Copy or&iginal files"
+msgstr "मौलिक फाइलहरू प्रतिलिपि बनाउनुहोस्"
+
+#: imgallerydialog.cpp:249
+msgid ""
+"<p>This makes a copy of all images and the gallery will refer to these "
+"copies instead of the original images.</p>"
+msgstr ""
+
+#: imgallerydialog.cpp:255
+msgid "Use &comment file"
+msgstr "टिप्पणी फाइल प्रयोग गर्नुहोस्"
+
+#: imgallerydialog.cpp:259
+msgid ""
+"<p>If you enable this option you can specify a comment file which will be "
+"used for generating subtitles for the images.</p><p>For details about the "
+"file format please see the \"What's This?\" help below.</p>"
+msgstr ""
+
+#: imgallerydialog.cpp:266
+msgid "Comments &file:"
+msgstr "टिप्पणी फाइल:"
+
+#: imgallerydialog.cpp:269
+msgid ""
+"<p>You can specify the name of the comment file here. The comment file "
+"contains the subtitles for the images. The format of this file "
+"is:</p><p>FILENAME1:<br />Description<br /><br />FILENAME2:<br "
+"/>Description<br /><br />and so on</p>"
+msgstr ""
+
+#: imgallerydialog.cpp:297 imgallerydialog.cpp:298
+msgid "Thumbnails"
+msgstr "थम्बनेलहरू"
+
+#: imgallerydialog.cpp:317
+msgid "Image format f&or the thumbnails:"
+msgstr "थम्बनेलका लागि छवि ढाँचा:"
+
+#: imgallerydialog.cpp:325
+msgid "Thumbnail size:"
+msgstr "थम्बनेल साइज:"
+
+#: imgallerydialog.cpp:337
+msgid "&Set different color depth:"
+msgstr "फरक रङ गहिराइ सेट गर्नुहोस्:"
+
+#: imgalleryplugin.cpp:59
+msgid "&Create Image Gallery..."
+msgstr "छवि ग्यालेरी सिर्जना गर्नुहोस्..."
+
+#: imgalleryplugin.cpp:70
+msgid "Could not create the plugin, please report a bug."
+msgstr "प्लगइन सिर्जना गर्न सकेन, कृपया बग प्रतिवेदन गर्नुहोस् ।"
+
+#: imgalleryplugin.cpp:76
+msgid "Creating an image gallery works only on local folders."
+msgstr "स्थानीय फोल्डरमा मात्र काम गर्ने एउटा छवि ग्यालेरी सिर्जना गर्दै ।"
+
+#: imgalleryplugin.cpp:95
+msgid "Creating thumbnails"
+msgstr "थम्बनेल सिर्जना गर्दै"
+
+#: imgalleryplugin.cpp:116 imgalleryplugin.cpp:279
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "%1 फोल्डर निर्माण गर्न सकेन"
+
+#: imgalleryplugin.cpp:177
+#, kde-format
+msgid "<i>Number of images</i>: %1"
+msgstr "<i>छविहरूको सङ्ख्या</i>: %1"
+
+#: imgalleryplugin.cpp:178
+#, kde-format
+msgid "<i>Created on</i>: %1"
+msgstr "<i>यसमा सिर्जीत</i>: %1"
+
+#: imgalleryplugin.cpp:183
+msgid "<i>Subfolders</i>:"
+msgstr "<i> उप-फोल्डर</i>:"
+
+#: imgalleryplugin.cpp:216
+#, kde-format
+msgid ""
+"Created thumbnail for: \n"
+"%1"
+msgstr ""
+"यसका लागि थम्बनेल सिर्जना गरियो: \n"
+"%1"
+
+#: imgalleryplugin.cpp:219
+#, kde-format
+msgid ""
+"Creating thumbnail for: \n"
+"%1\n"
+" failed"
+msgstr ""
+"%1: \n"
+"का लागि थप्बनेलको सिर्जना\n"
+" असफल भयो"
+
+#: imgalleryplugin.cpp:237
+msgid "KB"
+msgstr "किलोबाइट"
+
+#: imgalleryplugin.cpp:333 imgalleryplugin.cpp:428
+#, kde-format
+msgid "Could not open file: %1"
+msgstr "%1 फाइल खोल्न सकेन"
+
+#. i18n: file: kimgalleryplugin.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:3
+msgid "&Tools"
+msgstr "उपकरण"

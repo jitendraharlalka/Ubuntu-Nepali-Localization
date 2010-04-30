@@ -1,0 +1,696 @@
+# translation of kmix.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmix\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 12:09+0000\n"
+"PO-Revision-Date: 2009-07-16 09:52+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: dialogselectmaster.cpp:40
+msgid "Select Master Channel"
+msgstr "मास्टर च्यानल चयन गर्नुहोस्"
+
+#: dialogselectmaster.cpp:74
+msgid "Current mixer:"
+msgstr ""
+
+#: dialogselectmaster.cpp:93
+msgid "Current mixer"
+msgstr "हालको मिक्सर"
+
+#: dialogselectmaster.cpp:100
+msgid "Select the channel representing the master volume:"
+msgstr "मास्टर भोल्युममा प्रतिनिधित्व गरिरहेको च्यानल चयन गर्नुहोस्:"
+
+#: dialogviewconfiguration.cpp:152 kmixprefdlg.cpp:41
+msgid "Configure"
+msgstr ""
+
+#: dialogviewconfiguration.cpp:167
+msgid "Configuration of the channels."
+msgstr ""
+
+#: dialogviewconfiguration.cpp:228
+msgid "Available channels"
+msgstr ""
+
+#: dialogviewconfiguration.cpp:232
+msgid "Visible channels"
+msgstr ""
+
+#: kmix.cpp:122
+msgid "Hardware &Information"
+msgstr "हार्डवेयर जानकारी"
+
+#: kmix.cpp:125 kmixdockwidget.cpp:382
+msgid "Hide Mixer Window"
+msgstr "मिक्सर सञ्झ्याल लुकाउनुहोस्"
+
+#: kmix.cpp:129
+msgid "Configure &Channels..."
+msgstr ""
+
+#: kmix.cpp:132 kmixdockwidget.cpp:103
+msgid "Select Master Channel..."
+msgstr "मास्टर च्यानल चयन गर्नुहोस्..."
+
+#: kmix.cpp:136 mdwslider.cpp:111
+msgid "Increase Volume"
+msgstr ""
+
+#: kmix.cpp:141 mdwslider.cpp:122
+msgid "Decrease Volume"
+msgstr ""
+
+#: kmix.cpp:146 mdwslider.cpp:365
+msgid "Mute"
+msgstr ""
+
+#: kmix.cpp:494
+#, kde-format
+msgid ""
+"The soundcard containing the master device was unplugged. Changing to "
+"control %1 on card %2."
+msgstr ""
+
+#: kmix.cpp:503
+msgid "The last soundcard was unplugged."
+msgstr ""
+
+#: kmix.cpp:772
+msgid "Mixer Hardware Information"
+msgstr "मिक्सर हार्डवेयर सूचना"
+
+#: kmixctrl.cpp:36
+msgid "kmixctrl - kmix volume save/restore utility"
+msgstr "kmixctrl - kmix भोल्युमले युटिलिटी बचत गर्यो/पूर्वावस्थामा ल्यायो"
+
+#: kmixctrl.cpp:41
+msgid "KMixCtrl"
+msgstr "KMixCtrl"
+
+#: kmixctrl.cpp:43
+msgid "(c) 2000 by Stefan Schimanski"
+msgstr ""
+
+#: kmixctrl.cpp:45 main.cpp:48
+msgid "Stefan Schimanski"
+msgstr ""
+
+#: kmixctrl.cpp:51
+msgid "Save current volumes as default"
+msgstr "पूर्वानिर्धारित रूपमा हालको भोल्युम बचत गर्नुहोस्"
+
+#: kmixctrl.cpp:53
+msgid "Restore default volumes"
+msgstr "पूर्वानिर्धारित भोल्युम पूर्वावस्थामा ल्याउनुहोस्"
+
+#: kmixdockwidget.cpp:95
+msgid "M&ute"
+msgstr "मौन गर्नुहोस्"
+
+#: kmixdockwidget.cpp:191
+msgid "Mixer cannot be found"
+msgstr "मिक्सर फेला पार्न सकिँदैन"
+
+#: kmixdockwidget.cpp:211
+#, kde-format
+msgid "Volume at %1%"
+msgstr "%1% मा भोल्युम"
+
+#: kmixdockwidget.cpp:213
+msgid " (Muted)"
+msgstr " (मौन गरिएको)"
+
+#: kmixdockwidget.cpp:386
+msgid "Show Mixer Window"
+msgstr "मिक्सर सञ्झ्याल देखाउनुहोस्"
+
+#: kmixerwidget.cpp:75
+msgid "Invalid mixer"
+msgstr "अवैध मिक्सर"
+
+#: kmixprefdlg.cpp:56
+msgid "Behavior"
+msgstr ""
+
+#: kmixprefdlg.cpp:63
+msgid "&Dock in system tray"
+msgstr ""
+
+#: kmixprefdlg.cpp:65
+msgid "Docks the mixer into the KDE system tray"
+msgstr ""
+
+#: kmixprefdlg.cpp:70
+msgid "Enable system tray &volume control"
+msgstr "प्रणाली ट्रे भोल्युम नियन्त्रण सक्षम पार्नुहोस्"
+
+#: kmixprefdlg.cpp:72
+msgid "Allows to control the volume from the system tray"
+msgstr ""
+
+#: kmixprefdlg.cpp:78
+msgid "Restore volumes on login"
+msgstr "लगइनमा भोल्युम पूर्वावस्थामा ल्याउनुहोस्"
+
+#: kmixprefdlg.cpp:83
+msgid "Visual"
+msgstr ""
+
+#: kmixprefdlg.cpp:89
+msgid "Show &tickmarks"
+msgstr "टिकमार्क देखाउनुहोस्"
+
+#: kmixprefdlg.cpp:91
+msgid "Enable/disable tickmark scales on the sliders"
+msgstr "स्लाइडरमा टिकमार्क मापन सक्षम/अक्षम पार्नुहोस्"
+
+#: kmixprefdlg.cpp:96
+msgid "Show &labels"
+msgstr "लेबुल देखाउनुहोस्"
+
+#: kmixprefdlg.cpp:98
+msgid "Enables/disables description labels above the sliders"
+msgstr "स्लाइडर माथि वर्णन लेबुल सक्षम पार्दछ/अक्षम पार्दछ"
+
+#: kmixprefdlg.cpp:105
+msgid "Slider orientation: "
+msgstr ""
+
+#: kmixprefdlg.cpp:106
+msgid "&Horizontal"
+msgstr "तेर्सो"
+
+#: kmixprefdlg.cpp:107
+msgid "&Vertical"
+msgstr "ठाडो"
+
+#: main.cpp:33
+msgid "KMix - KDE's full featured mini mixer"
+msgstr "केडीई मिक्स - केडीई को पूर्ण विशेषतायुक्त मिनी मिक्सर"
+
+#: main.cpp:37
+msgid "KMix"
+msgstr "केडीई मिक्स"
+
+#: main.cpp:39
+msgid ""
+"(c) 1996-2007 Christian Esken\n"
+"(c) 2000-2003 Stefan Schimanski\n"
+"(c) 2002-2005 Helio Chissini de Castro"
+msgstr ""
+
+#: main.cpp:41
+msgid "Christian Esken"
+msgstr ""
+
+#: main.cpp:41
+msgid "Current maintainer"
+msgstr ""
+
+#: main.cpp:42
+msgid "Helio Chissini de Castro"
+msgstr ""
+
+#: main.cpp:42
+msgid "Co-maintainer, Alsa 0.9x port"
+msgstr ""
+
+#: main.cpp:43
+msgid "Brian Hanson"
+msgstr ""
+
+#: main.cpp:43
+msgid "Solaris port"
+msgstr "सोलारिस पोर्ट"
+
+#: main.cpp:48
+msgid "Temporary maintainer"
+msgstr ""
+
+#: main.cpp:49
+msgid "Erwin Mascher"
+msgstr ""
+
+#: main.cpp:49
+msgid "Improving support for emu10k1 based soundcards"
+msgstr ""
+
+#: main.cpp:50
+msgid "Sebestyen Zoltan"
+msgstr ""
+
+#: main.cpp:50 main.cpp:51
+msgid "*BSD fixes"
+msgstr "*BSD फिक्सेस"
+
+#: main.cpp:51
+msgid "Lennart Augustsson"
+msgstr ""
+
+#: main.cpp:52
+msgid "Nick Lopez"
+msgstr ""
+
+#: main.cpp:52
+msgid "ALSA port"
+msgstr "अल्सा पोर्ट"
+
+#: main.cpp:53
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:53
+msgid "Mute and volume preview, other fixes"
+msgstr "मौन र भोल्युम पूर्वावलोकन, अन्य फिक्सेस"
+
+#: main.cpp:58
+msgid ""
+"Inhibits the unhiding of the KMix main window, if KMix is already running."
+msgstr ""
+
+#: mdwenum.cpp:60 mdwslider.cpp:79 mdwswitch.cpp:58
+msgid "&Hide"
+msgstr "लुकाउनुहोस्"
+
+#: mdwenum.cpp:63 mdwslider.cpp:95 mdwswitch.cpp:61
+msgid "C&onfigure Shortcuts..."
+msgstr "सर्टकट कन्फिगर गर्नुहोस्..."
+
+#: mdwslider.cpp:76
+msgid "&Split Channels"
+msgstr "च्यानल विभाजन गर्नुहोस्"
+
+#: mdwslider.cpp:84
+msgid "&Muted"
+msgstr "मौन गरिएको"
+
+#: mdwslider.cpp:90
+msgid "Set &Record Source"
+msgstr "रेकर्ड स्रोत सेट गर्नुहोस्"
+
+#: mdwslider.cpp:133
+msgid "Toggle Mute"
+msgstr ""
+
+#: mdwslider.cpp:359
+msgid "On"
+msgstr ""
+
+#: mdwslider.cpp:362
+msgid "Off"
+msgstr ""
+
+#: mdwslider.cpp:374
+#, kde-format
+msgid "Mute/Unmute %1"
+msgstr ""
+
+#: mdwslider.cpp:411
+#, kde-format
+msgid "Capture/Uncapture %1"
+msgstr ""
+
+#: mdwslider.cpp:414
+msgid "Capture"
+msgstr ""
+
+#: mdwslider.cpp:444
+msgid "(capture)"
+msgstr ""
+
+#: mdwslider.cpp:499
+#, kde-format
+msgid "%1 (capture)"
+msgstr ""
+
+#: mdwswitch.cpp:68
+msgid "Toggle Switch"
+msgstr "स्विच टगल गर्नुहोस्"
+
+#: mixdevice.cpp:42 mixer_oss.cpp:67 mixer_oss.cpp:68
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: mixer_alsa9.cpp:872
+msgid ""
+"You do not have permission to access the alsa mixer device.\n"
+"Please verify if all alsa devices are properly created."
+msgstr ""
+"तपाईँलाई अल्सा मिक्सर यन्त्र पहुँच गर्ने अनुमति छैन ।\n"
+"यदि सबै अल्सा यन्त्र सही तरिकाले सिर्जना गरिएको छ भने कृपया रूजू गर्नुहोस् ।"
+
+#: mixer_alsa9.cpp:876
+msgid ""
+"Alsa mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+msgstr ""
+"अल्सा मिक्सर फेला पार्न सकिएन ।\n"
+"कृपया त्यो ध्वानिकार्ड स्थापना गरिएको छ छैन र\n"
+"ध्वनिकार्ड ड्राइभर लोड गरिएको छ छैन जाँच्नुहोस् ।\n"
+
+#: mixer_backend.cpp:186
+msgid ""
+"kmix:You do not have permission to access the mixer device.\n"
+"Please check your operating systems manual to allow the access."
+msgstr ""
+"केडीई मिक्स: तपाईँसँग मिक्सर यन्त्र पहुँच गर्ने अनुमति छैन ।\n"
+"पहुँच अनुमति गर्न कृपया तपाईँको सञ्चालन प्रणाली म्यानुअल जाँच्नुहोस् ।"
+
+#: mixer_backend.cpp:190
+msgid "kmix: Could not write to mixer."
+msgstr "केडीई मिक्स: मिक्सरमा लेख्न सकेन ।"
+
+#: mixer_backend.cpp:193
+msgid "kmix: Could not read from mixer."
+msgstr "केडिइ मिक्स: मिक्सरबाट पढ्न सकेन ।"
+
+#: mixer_backend.cpp:196
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and that\n"
+"the soundcard driver is loaded.\n"
+msgstr ""
+"केडीई मिक्स: मिक्सर फेला पार्न सकिँदैन ।\n"
+"कृपया त्यो ध्वानिकार्ड स्थापना गरिएको छ छैन र\n"
+"ध्वनिकार्ड ड्राइभर लोड गरिएको छ छैन जाँच्नुहोस् ।\n"
+
+#: mixer_backend.cpp:201
+msgid "kmix: Unknown error. Please report how you produced this error."
+msgstr ""
+"केडीई मिक्स: अज्ञात त्रुटि । कृपया कसरी यो त्रुटि उत्पन्न भयो प्रतिवेदन "
+"गर्नुहोस् ।"
+
+#: mixer_backend_i18n.cpp:24
+msgid "Recording level of the microphone input."
+msgstr ""
+
+#: mixer_backend_i18n.cpp:25
+msgid ""
+"Controls the volume of the front speakers or all speakers (depending on your "
+"soundcard model). If you use a digital output, you might need to also use "
+"other controls like ADC or DAC. For headphones, soundcards often supply a "
+"Headphone control."
+msgstr ""
+
+#: mixer_backend_i18n.cpp:26
+msgid ""
+"Most media, such as MP3s or Videos, are played back using the PCM channel. "
+"As such, the playback volume of such media is controlled by both this and "
+"the Master or Headphone channels."
+msgstr ""
+
+#: mixer_backend_i18n.cpp:27
+msgid ""
+"Controls the headphone volume. Some soundcards include a switch that must be "
+"manually activated to enable the headphone output."
+msgstr ""
+
+#: mixer_backend_i18n.cpp:28
+msgid "---"
+msgstr ""
+
+#: mixer_oss.cpp:58
+msgid "Volume"
+msgstr "भोल्युम"
+
+#: mixer_oss.cpp:58
+msgid "Bass"
+msgstr "मधुरो"
+
+#: mixer_oss.cpp:58
+msgid "Treble"
+msgstr "तीन गुणा"
+
+#: mixer_oss.cpp:59
+msgid "Synth"
+msgstr "सिन्थ"
+
+#: mixer_oss.cpp:59
+msgid "Pcm"
+msgstr "पी सी एम"
+
+#: mixer_oss.cpp:59
+msgid "Speaker"
+msgstr "स्पिकर"
+
+#: mixer_oss.cpp:60
+msgid "Line"
+msgstr "रेखा"
+
+#: mixer_oss.cpp:60 mixer_sun.cpp:72
+msgid "Microphone"
+msgstr "माइक्रोफोन"
+
+#: mixer_oss.cpp:60 mixer_sun.cpp:74
+msgid "CD"
+msgstr "सीडी"
+
+#: mixer_oss.cpp:61
+msgid "Mix"
+msgstr "मिक्स"
+
+#: mixer_oss.cpp:61
+msgid "Pcm2"
+msgstr "पी सी एम २"
+
+#: mixer_oss.cpp:61
+msgid "RecMon"
+msgstr "रेकमन"
+
+#: mixer_oss.cpp:62
+msgid "IGain"
+msgstr "आइगेन"
+
+#: mixer_oss.cpp:62
+msgid "OGain"
+msgstr "ओगेन"
+
+#: mixer_oss.cpp:62
+msgid "Line1"
+msgstr "रेखा१"
+
+#: mixer_oss.cpp:63
+msgid "Line2"
+msgstr "रेखा२"
+
+#: mixer_oss.cpp:63
+msgid "Line3"
+msgstr "रेखा३"
+
+#: mixer_oss.cpp:63
+msgid "Digital1"
+msgstr "डिजिटल१"
+
+#: mixer_oss.cpp:64
+msgid "Digital2"
+msgstr "डिजिटल२"
+
+#: mixer_oss.cpp:64
+msgid "Digital3"
+msgstr "डिजिटल३"
+
+#: mixer_oss.cpp:64
+msgid "PhoneIn"
+msgstr "फोन भित्र"
+
+#: mixer_oss.cpp:65
+msgid "PhoneOut"
+msgstr "फोन बाहिर"
+
+#: mixer_oss.cpp:65
+msgid "Video"
+msgstr "भिडियो"
+
+#: mixer_oss.cpp:65
+msgid "Radio"
+msgstr "रेडियो"
+
+#: mixer_oss.cpp:66
+msgid "Monitor"
+msgstr "मोनिटर"
+
+#: mixer_oss.cpp:66
+msgid "3D-depth"
+msgstr "त्रि-आयमिक गहिराइ"
+
+#: mixer_oss.cpp:66
+msgid "3D-center"
+msgstr "त्रि-आयमिक केन्द्र"
+
+#: mixer_oss.cpp:68
+msgid "unused"
+msgstr "प्रयोग नगरिएको"
+
+#: mixer_oss.cpp:230 mixer_oss4.cpp:489
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
+msgstr ""
+"केडीई मिक्स: तपाईँसँग मिक्सर यन्त्र पहुँच गर्न अनुमति छैन ।\n"
+"मूलको रूपमा लगइन गर्नुहोस् र पहुँच अनुमति दिन 'chmod a+rw /dev/mixer*' "
+"गर्नुहोस् ।"
+
+#: mixer_oss.cpp:234
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using commercial OSS."
+msgstr ""
+"केडीई मिक्स: मिक्सर फेला पार्न सकिँदैन ।\n"
+"कृपया ध्वनिकार्ड स्थापना भएको छ छैन\n"
+"र ध्वनिकार्ड ड्राइभर लोड गरिएको छ छैन जाँच गर्नुहोस् ।\n"
+"लिनक्समा तपाईँले ड्राइभर लोड गर्न 'insmod' प्रयोग गर्न आवश्यक छ ।\n"
+"व्यावसायिक ओएस एस प्रयोग गर्दा 'soundon' प्रयोग गर्नुहोस् ।"
+
+#: mixer_oss4.cpp:493
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+
+#: mixer_sun.cpp:67
+msgid "Master Volume"
+msgstr "मास्टर भोल्युम"
+
+#: mixer_sun.cpp:68
+msgid "Internal Speaker"
+msgstr "आन्तरीक स्पिकर"
+
+#: mixer_sun.cpp:69
+msgid "Headphone"
+msgstr "हेडफोन"
+
+#: mixer_sun.cpp:70
+msgid "Line Out"
+msgstr "रेखा बाहिर"
+
+#: mixer_sun.cpp:71
+msgid "Record Monitor"
+msgstr "रेकर्ड मनिटर"
+
+#: mixer_sun.cpp:73
+msgid "Line In"
+msgstr "रेखा भित्र"
+
+#: mixer_sun.cpp:239
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Ask your system administrator to fix /dev/audioctl to allow access."
+msgstr ""
+"केडीई मिक्स: तपाईँसँग मिक्सर यन्त्र पहुँच गर्ने अनुमति छैन ।\n"
+"पहुँच अनुमति दिन /dev/audioctl फिक्स गर्न तपाईँको प्रणाली प्रशासकलाई "
+"सोध्नुहोस् ।"
+
+#: mixertoolbox.cpp:200
+msgid "Sound drivers supported:"
+msgstr "समर्थित ध्वनि ड्राइभर:"
+
+#: mixertoolbox.cpp:201
+msgid "Sound drivers used:"
+msgstr "प्रयोग गरिएको ध्वनि ड्राइभर:"
+
+#. i18n: file: colorwidget.ui:20
+#. i18n: ectx: property (text), widget (QCheckBox, customColors)
+#: rc.cpp:3
+msgid "&Use custom colors"
+msgstr "अनुकूल रङ प्रयोग गर्नुहोस्"
+
+#. i18n: file: colorwidget.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, activeColors)
+#: rc.cpp:6
+msgid "Active"
+msgstr "सक्रिय"
+
+#. i18n: file: colorwidget.ui:52
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:9
+msgid "&Silent:"
+msgstr "मौन:"
+
+#. i18n: file: colorwidget.ui:96
+#. i18n: ectx: property (text), widget (QLabel, labelLoad)
+#: rc.cpp:12
+msgid "&Loud:"
+msgstr "चर्को:"
+
+#. i18n: file: colorwidget.ui:112
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: rc.cpp:15
+msgid "&Background:"
+msgstr "पृष्ठभूमि:"
+
+#. i18n: file: colorwidget.ui:131
+#. i18n: ectx: property (title), widget (QGroupBox, mutedColors)
+#: rc.cpp:18
+msgid "Muted"
+msgstr "मौन गराइएको"
+
+#. i18n: file: colorwidget.ui:143
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:21
+msgid "Lou&d:"
+msgstr "चर्को:"
+
+#. i18n: file: colorwidget.ui:159
+#. i18n: ectx: property (text), widget (QLabel, TextLabel8)
+#: rc.cpp:24
+msgid "Backgrou&nd:"
+msgstr "पृष्ठभूमि:"
+
+#. i18n: file: colorwidget.ui:175
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: rc.cpp:27
+msgid "Silen&t:"
+msgstr "मौन:"
+
+#. i18n: file: kmixui.rc:10
+#. i18n: ectx: Menu (file)
+#: rc.cpp:30
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kmixui.rc:20
+#. i18n: ectx: Menu (help)
+#: rc.cpp:33
+msgid "&Help"
+msgstr ""
+
+#: rc.cpp:34
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:"
+
+#: rc.cpp:35
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,"
+
+#: viewbase.cpp:76
+msgid "&Channels"
+msgstr "च्यानल"
+
+#: viewbase.cpp:182
+msgid "Device Settings"
+msgstr "यन्त्र सेटिङ"
+
+#: viewdockareapopup.cpp:115
+msgid "Mixer"
+msgstr "मिक्सर"

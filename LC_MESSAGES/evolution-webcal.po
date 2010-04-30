@@ -1,0 +1,171 @@
+# translation of evolution-webcal.HEAD.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Mahesh Subedi <submanesh@hotmail.com>, 2006.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-webcal.HEAD.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-05 19:28+0000\n"
+"PO-Revision-Date: 2008-02-25 15:27+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:30+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: NEPAL\n"
+"X-Poedit-Language: Nepali\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../evolution-webcal.schemas.in.in.h:1
+msgid "How to handle webcal URLs"
+msgstr "वेबकल यूआरएलहरू कसरी ह्यान्डल गर्ने"
+
+#: ../evolution-webcal.schemas.in.in.h:2
+msgid "Run program in terminal"
+msgstr "टर्मिनलमा कार्यक्रम चलाउनुहोस्"
+
+#: ../evolution-webcal.schemas.in.in.h:3
+msgid "Set to true to have a program specified in command handle webcal URLs"
+msgstr ""
+"आदेश ह्यान्डल वेबकल यूआरएलहरूमा एउटा कार्यक्रम निर्दिष्ट गर्न सत्यमा सेट "
+"गर्नुहोस्"
+
+#: ../evolution-webcal.schemas.in.in.h:4
+msgid "True if the program to handle this URL should be run in a terminal"
+msgstr ""
+"यदि यो यूआरएल ह्यान्डल गर्न कार्यक्रम एउटा टर्मिनलमा चलाउनु छ भने ठीक छ"
+
+#: ../evolution-webcal.schemas.in.in.h:5
+msgid "URL handler for webcal uris"
+msgstr "वेबकल युरिसका लागि यूआरएल ह्यान्डलर"
+
+#: ../src/evolution-webcal-main.c:53
+#, c-format
+msgid ""
+"There was an error parsing the calendar, \"%s\". Please verify that it is a "
+"valid calendar, and try again."
+msgstr ""
+"पात्रोलाई पद वर्णन गर्दा त्यहाँ एउटा त्रुटि थियो, \"%s\" । कृपया यो एउटा वैध "
+"पात्रो हो भनेर रूजु गर्नुहोस्, र फेरि: प्रयास गर्नुहोस् ।"
+
+#: ../src/evolution-webcal-main.c:58
+msgid "Error Parsing Calendar"
+msgstr "पात्रो पद वर्णन गर्दा त्रुटि"
+
+#: ../src/evolution-webcal-main.c:130
+#, c-format
+msgid "Access to the calendar, \"%s\", is forbidden."
+msgstr "पात्रो, \"%s\",मा पहुँचलाई निषेध गरिएको छ ।"
+
+#: ../src/evolution-webcal-main.c:135
+#, c-format
+msgid "The calendar, \"%s\", was not found on the server."
+msgstr "पात्रो, \"%s\", सर्भरमा फेला परेको थिएन ।"
+
+#: ../src/evolution-webcal-main.c:140
+#, c-format
+msgid "There was an internal server error while trying to load \"%s\"."
+msgstr "\"%s\" लोड गर्न प्रयास गर्दा त्यहाँ एउटा आन्तरिक सर्भर त्रुटि ।"
+
+#: ../src/evolution-webcal-main.c:145
+#, c-format
+msgid "There was an error loading the calendar, \"%s\"."
+msgstr "पात्रो लोड गर्दा त्यहाँ एउटा त्रुटि थियो, \"%s\" ।"
+
+#: ../src/evolution-webcal-main.c:150
+msgid "Error Loading Calendar"
+msgstr "पात्रो लोड गर्दा त्रुटि"
+
+#: ../src/evolution-webcal-main.c:179
+#, c-format
+msgid "The URI \"%s\" is invalid."
+msgstr "यूआरआई \"%s\" अवैध छ ।"
+
+#: ../src/evolution-webcal-main.c:180
+msgid "Invalid URI Specified"
+msgstr "अवैध यूआरआई निर्दिष्ट गरियो"
+
+#: ../src/evolution-webcal-main.c:228
+msgid "No URI Specified"
+msgstr "यूआरआई निर्दिष्ट गरिएको छैन"
+
+#: ../src/evolution-webcal-main.c:229
+msgid ""
+"No URI to load was specified. You need to pass the URI of the calendar to "
+"subscribe to, as an argument on the command line."
+msgstr ""
+"लोड गर्न कुनै यूआरआई निर्दिष्ट गरिएको थिएन । आदेश लाइनमा तर्कको रूपमा "
+"सदस्यता लिन पात्रोको यूआरआई पास गर्न आवश्यक छ ।"
+
+#: ../src/evolution-webcal-main.c:258
+msgid "- Evolution webcal: URI Handler"
+msgstr "इभोल्युसन वेबकल: यूआरआई ह्याण्डलर"
+
+#: ../src/evolution-webcal-notify.c:264
+#, c-format
+msgid "No events or tasks were found in the calendar \"%s\"."
+msgstr "\"%s\" पात्रोमा कुनै पनि घटनहरू वा कार्यहरू फेला परेनन् ।"
+
+#: ../src/evolution-webcal-notify.c:267
+msgid "<b>No Tasks or Events Found</b>"
+msgstr "<b>कुनै पनि कार्यहरू वा घटनाहरू फेला परेन</b>"
+
+#: ../src/evolution-webcal-notify.c:323
+#, c-format
+msgid ""
+"You are already subscribed to the calendar \"%s\". Please subscribe to "
+"another calendar."
+msgstr ""
+"\"%s\" पात्रोमा तपाईँ पहिले नै सदस्य हुनुहुन्छ । कृपया अर्को पात्रोमा "
+"सदस्यता लिनुहोस् ।"
+
+#: ../src/evolution-webcal-notify.c:326
+msgid "<b>Already Subscribed</b>"
+msgstr "<b>पहिले नै सदस्यता लिइएको</b>"
+
+#: ../src/evolution-webcal-notify.c:350
+msgid "Subscribe to Calendar"
+msgstr "पात्रोमा सदस्यता लिनुहोस्"
+
+#: ../src/evolution-webcal-notify.c:390
+msgid "_Subscribe"
+msgstr "सदस्यता लिनुहोस्"
+
+#. Description
+#: ../src/evolution-webcal-notify.c:430
+msgid "No Description"
+msgstr "वर्णन छैन"
+
+#. Refresh entry label
+#: ../src/evolution-webcal-notify.c:448
+msgid "_Refresh Every:"
+msgstr "प्रत्येकलाई ताजा पार्नुहोस्:"
+
+#. Color picker label
+#: ../src/evolution-webcal-notify.c:454
+msgid "C_olor:"
+msgstr "रङ:"
+
+#: ../src/evolution-webcal-notify.c:483
+msgid "Days"
+msgstr "दिनहरू"
+
+#: ../src/evolution-webcal-notify.c:487
+msgid "Hours"
+msgstr "घण्टा"
+
+#: ../src/evolution-webcal-notify.c:491
+msgid "Minutes"
+msgstr "मिनेट"
+
+#: ../src/evolution-webcal-notify.c:495
+msgid "Weeks"
+msgstr "हप्ता"

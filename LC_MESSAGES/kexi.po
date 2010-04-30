@@ -1,0 +1,5396 @@
+# translation of kexi.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kexi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-08 11:25+0000\n"
+"PO-Revision-Date: 2009-07-07 19:01+0000\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:51+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kexiutils/identifier.cpp:90
+msgid "Value of \"%1\" column must be an identifier."
+msgstr "\"%1\" स्तम्भको मान एउटा पहिचायक हुनुपर्दछ ।"
+
+#: kexiutils/identifier.cpp:91
+msgid "\"%1\" is not a valid identifier."
+msgstr "\"%1\" वैध पहिचायक होइन ।"
+
+#: kexiutils/validator.h:78
+msgid "\"%1\" value has to be entered."
+msgstr "\"%1\" मान प्रविष्ट गर्नु पर्दछ ।"
+
+#: plugins/relations/kexirelationmaindlg.cpp:41
+msgid "Relationships"
+msgstr "सम्बन्ध"
+
+#: plugins/macros/kexiactions/openaction.cpp:122
+msgid "No project loaded."
+msgstr "कुनै परियोजना लोड गरिएको छैन ।"
+
+#: plugins/macros/kexiactions/openaction.cpp:129
+msgid "No such object \"%1.%2\"."
+msgstr "त्यस्तो कुनै वस्तु \"%1.%2\" छैन ।"
+
+#: plugins/macros/kexiactions/openaction.cpp:142
+msgid "No such viewmode \"%1\" in object \"%2.%3\"."
+msgstr "\"%2.%3\" वस्तुमा त्यस्तो कुनै दृश्यमोड \"%1\" छैन ।"
+
+#: plugins/macros/kexiactions/openaction.cpp:149
+msgid "Failed to open object \"%1.%2\"."
+msgstr "वस्तु \"%1.%2\" खोल्न असफल भयो ।"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:272
+#: plugins/macros/kexiactions/executeaction.cpp:40 widget/kexibrowser.cpp:193
+msgid "Execute"
+msgstr "कार्यान्वयन गर्नुहोस्"
+
+#: plugins/macros/kexiactions/executeaction.cpp:85
+msgid "No such mimetype \"%1\""
+msgstr "त्यस्तो कुनै माइमप्रकार \"%1\" छैन"
+
+#: plugins/macros/kexiactions/executeaction.cpp:90
+msgid "Failed to open part \"%1\" for mimetype \"%2\""
+msgstr "माइमप्रकार \"%2\" का लागि अंश \"%1\" खोल्न असफल"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:45
+msgid "Method"
+msgstr "विधि"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:60
+#: plugins/tables/kexitabledesignerview.cpp:338
+msgid "Type"
+msgstr "प्रकार"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:75
+msgid "Item"
+msgstr "वस्तु"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:107
+msgid "Data Table"
+msgstr "डेटा तालिका"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:154
+msgid "No such item \"%1\""
+msgstr "त्यस्तो कुनै वस्तु \"%1\" छैन"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:181
+msgid "No such method \"%1\""
+msgstr "त्यस्तो कुनै विधि \"%1\" छैन"
+
+#: kexidb/field.cpp:698 kexidb/field.cpp:722
+#: plugins/macros/kexiactions/objectvariable.h:56
+msgid "Object"
+msgstr "वस्तु"
+
+#: plugins/macros/kexiactions/objectnamevariable.h:46
+#: plugins/tables/kexitabledesignerview.cpp:333
+msgid "Name"
+msgstr "नाम"
+
+#: plugins/macros/kexiactions/messageaction.cpp:32
+#: plugins/macros/kexiactions/messageaction.cpp:35
+msgid "Message"
+msgstr "सन्देश"
+
+#: plugins/macros/kexiactions/messageaction.cpp:34
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1717
+#: plugins/tables/kexitabledesignerview.cpp:371
+msgid "Caption"
+msgstr "क्याप्सन"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:46
+msgid "Record"
+msgstr "रेकर्ड"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:64
+msgid "Navigate"
+msgstr "नेभिगेट"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:69
+msgid "Row"
+msgstr "पङ्क्ति"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1163
+#: plugins/macros/kexiactions/navigateaction.cpp:73
+#: plugins/queries/kexiquerydesignerguieditor.cpp:209
+msgid "Column"
+msgstr "स्तम्भ"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:109
+msgid "No window active."
+msgstr "कुनै सञ्झ्याल सक्रिय छैन ।"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:114
+msgid "No view selected for \"%1\"."
+msgstr "\"%1\" का लागि कुनै दृश्य चयन गरिएको छैन ।"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:120
+msgid "The view for \"%1\" could not handle data."
+msgstr "\"%1\" का लागि दृश्यले डेटा ह्यान्डल गर्न सक्दैन ।"
+
+#: plugins/macros/kexiactions/navigateaction.cpp:154
+msgid "Unknown record \"%1\" in view for \"%2\"."
+msgstr "\"%2\" का लागि दृश्यमा अज्ञात रेकर्ड \"%1\" ।"
+
+#: plugins/macros/kexipart/keximacrodesignview.cpp:127
+#: plugins/macros/kexipart/keximacroerror.cpp:64
+msgid "Action"
+msgstr "कार्य"
+
+#: plugins/macros/kexipart/keximacrodesignview.cpp:155
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: plugins/macros/kexipart/keximacropart.cpp:71
+msgid ""
+"_: Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word.\n"
+"macro"
+msgstr "म्याक्रो"
+
+#: plugins/macros/kexipart/keximacropart.cpp:74
+msgid "Macro"
+msgstr "म्याक्रो"
+
+#: plugins/macros/kexipart/keximacropart.cpp:162
+msgid "Design of macro \"%1\" has been modified."
+msgstr "म्याक्रो \"%1\" को डिजाइन परिमार्जित गरियो ।"
+
+#: plugins/macros/kexipart/keximacropart.cpp:165
+msgid "Macro \"%1\" already exists."
+msgstr "म्याक्रो \"%1\" पहिले नै अवस्थित छ ।"
+
+#: plugins/macros/kexipart/keximacroerror.cpp:56
+msgid "<qt>Failed to execute the macro \"%1\".<br>%2</qt>"
+msgstr "<qt>म्याक्रो \"%1\" कार्यान्वयन गर्न असफल भयो ।<br>%2</qt>"
+
+#: plugins/forms/widgets/kexidbautofield.cpp:573
+msgid ""
+"_: Unbound Auto Field\n"
+"(unbound)"
+msgstr "(नबाँधिएको)"
+
+#: plugins/forms/widgets/kexidbautofield.cpp:685
+msgid ""
+"_: Unbound Auto Field\n"
+" (unbound)"
+msgstr " (नबाँधिएको)"
+
+#: plugins/forms/widgets/kexidbimagebox.cpp:564
+msgid "Click to show actions for this image box"
+msgstr "यो छवि बाकसका लागि कार्यहरू देखाउनका लागि क्लिक गर्नुहोस्"
+
+#: plugins/forms/widgets/kexidbimagebox.cpp:576
+msgid "Click to show actions for \"%1\" image box"
+msgstr "\"%1\" छवि बाकसका लागि कार्यहरू देखाउन क्लिक गर्नुहोस्"
+
+#: plugins/forms/widgets/kexidbimagebox.cpp:668
+msgid ""
+"_: Unbound Image Box\n"
+"(unbound)"
+msgstr "(नबाँधिएको)"
+
+#: plugins/forms/kexidbfactory.cpp:79 plugins/forms/kexiformpart.cpp:93
+msgid "Form"
+msgstr "फारम"
+
+#: plugins/forms/kexidbfactory.cpp:82
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"form"
+msgstr "फारम"
+
+#: plugins/forms/kexidbfactory.cpp:83
+msgid "A data-aware form widget"
+msgstr "डेटा-सचेत फारम विजेट"
+
+#: plugins/forms/kexidbfactory.cpp:91
+msgid "Sub Form"
+msgstr "उप फराम"
+
+#: plugins/forms/kexidbfactory.cpp:94
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"subForm"
+msgstr "उप फारम"
+
+#: plugins/forms/kexidbfactory.cpp:95
+msgid "A form widget included in another Form"
+msgstr "अर्को फारममा समावेश भएको फारम विजेट"
+
+#: plugins/forms/kexidbfactory.cpp:107
+msgid "Text Box"
+msgstr "पाठ बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:110
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"textBox"
+msgstr "पाठ बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:111
+msgid "A widget for entering and displaying text"
+msgstr "पाठ प्रविष्ट र प्रदर्शनका लागि विजेट"
+
+#: plugins/forms/kexidbfactory.cpp:121
+msgid "Text Editor"
+msgstr "पाठ सम्पादक"
+
+#: plugins/forms/kexidbfactory.cpp:124
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"textEditor"
+msgstr "पाठ सम्पादक"
+
+#: plugins/forms/kexidbfactory.cpp:125
+msgid "A multiline text editor"
+msgstr "बहुरेखीय पाठ सम्पादक"
+
+#: plugins/forms/kexidbfactory.cpp:133
+msgid "Frame"
+msgstr "फ्रेम"
+
+#: plugins/forms/kexidbfactory.cpp:136
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"frame"
+msgstr "फ्रेम"
+
+#: plugins/forms/kexidbfactory.cpp:137
+msgid "A simple frame widget"
+msgstr "साधारण फ्रेम विजेट"
+
+#: plugins/forms/kexidbfactory.cpp:146
+msgid ""
+"_: Text Label\n"
+"Label"
+msgstr "लेबुल"
+
+#: plugins/forms/kexidbfactory.cpp:149
+#: plugins/reports/kexireportfactory.cpp:53
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"label"
+msgstr "लेबुल"
+
+#: plugins/forms/kexidbfactory.cpp:150
+msgid "A widget for displaying text"
+msgstr "पाठ प्रदर्शनका लागि विजेट"
+
+#: plugins/forms/kexidbfactory.cpp:160
+msgid "Image Box"
+msgstr "छवि बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:163
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"image"
+msgstr "छवि"
+
+#: plugins/forms/kexidbfactory.cpp:164
+msgid "A widget for displaying images"
+msgstr "छविहरू प्रदर्शन गर्नका लागि विजेट"
+
+#: plugins/forms/kexidbfactory.cpp:179
+msgid "Combo Box"
+msgstr "कम्बो बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:182
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"comboBox"
+msgstr "कम्बोबाकस"
+
+#: plugins/forms/kexidbfactory.cpp:183
+msgid "A combo box widget"
+msgstr "कम्बो बाकस विगेट"
+
+#: plugins/forms/kexidbfactory.cpp:191
+msgid "Check Box"
+msgstr "जाँच बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:194
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"checkBox"
+msgstr "जाँच बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:195
+msgid "A check box with text label"
+msgstr "पाठ लेबुल सहितको जाँच बाकस"
+
+#: plugins/forms/kexidbfactory.cpp:203
+msgid "Auto Field"
+msgstr "स्वत: फिल्ड"
+
+#: plugins/forms/kexidbfactory.cpp:206
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters\n"
+"autoField"
+msgstr "स्वत: फिल्ड"
+
+#: plugins/forms/kexidbfactory.cpp:207
+msgid ""
+"A widget containing an automatically selected editor and a label to edit the "
+"value of a database field of any type."
+msgstr ""
+"स्वचालित रूपमा चयन गरिएको सम्पादक र कुनै प्रकारको डाटाबेस फिल्डको मान "
+"सम्पादन गर्न लेबुल समावेश गर्ने विजार्ड ।"
+
+#: plugins/forms/kexidbfactory.cpp:284
+msgid "Command Button"
+msgstr "आदेश बटन"
+
+#: plugins/forms/kexidbfactory.cpp:287
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"button"
+msgstr "बटन"
+
+#: plugins/forms/kexidbfactory.cpp:288
+msgid "A command button to execute actions"
+msgstr "कार्यहरू कार्यन्वयन गर्नका लागि आदेश बटन"
+
+#: plugins/forms/kexidatasourcepage.cpp:60 plugins/forms/kexidbfactory.cpp:291
+#: plugins/forms/kexiformpart.cpp:505
+msgid "Data Source"
+msgstr "डेटा स्रोत"
+
+#: plugins/forms/kexidbfactory.cpp:292
+msgid "Form Name"
+msgstr "फारम नाम"
+
+#: plugins/forms/kexidbfactory.cpp:293
+msgid "On Click"
+msgstr "क्लिकमा"
+
+#: plugins/forms/kexidbfactory.cpp:294
+msgid "On Click Option"
+msgstr "क्लिक विकल्पमा"
+
+#: plugins/forms/kexidbfactory.cpp:295
+msgid "Auto Tab Order"
+msgstr "स्वत: ट्याब क्रम"
+
+#: plugins/forms/kexidbfactory.cpp:296
+msgid "Shadow Enabled"
+msgstr "छाँया सक्षम गरियो"
+
+#: plugins/forms/kexidbfactory.cpp:297
+msgid ""
+"_: On: button\n"
+"On"
+msgstr "खुला"
+
+#: plugins/forms/kexidbfactory.cpp:299
+msgid "Editor Type"
+msgstr "सम्पादक प्रकार"
+
+#: plugins/forms/kexidbfactory.cpp:301
+msgid ""
+"_: AutoField editor's type\n"
+"Auto"
+msgstr "स्वत:"
+
+#: plugins/forms/kexidbfactory.cpp:309
+msgid ""
+"_: AutoField editor's type\n"
+"Multiline Text"
+msgstr "बहुरेखीय पाठ"
+
+#: plugins/forms/kexidbfactory.cpp:310
+msgid ""
+"_: AutoField editor's type\n"
+"Drop-Down List"
+msgstr "ड्रप डाउन सूची"
+
+#: plugins/forms/kexidbfactory.cpp:311
+msgid ""
+"_: AutoField editor's type\n"
+"Image"
+msgstr "छवि"
+
+#: plugins/forms/kexidbfactory.cpp:314
+msgid "Auto Label"
+msgstr "स्वत: लेबुल"
+
+#: plugins/forms/kexidbfactory.cpp:315
+msgid "Label Text Color"
+msgstr "लेबुल पाठ रङ"
+
+#: plugins/forms/kexidbfactory.cpp:317
+msgid ""
+"_: (a property name, keep the text narrow!)\n"
+"Label Background\n"
+"Color"
+msgstr ""
+"लेबुल पृष्ठभूमि\n"
+"रङ"
+
+#: plugins/forms/kexidbfactory.cpp:319
+msgid "Label Position"
+msgstr "लेबुल स्थिति"
+
+#: plugins/forms/kexidbfactory.cpp:320
+msgid ""
+"_: Label Position\n"
+"Left"
+msgstr "बायाँ"
+
+#: plugins/forms/kexidbfactory.cpp:321
+msgid ""
+"_: Label Position\n"
+"Top"
+msgstr "माथि"
+
+#: plugins/forms/kexidbfactory.cpp:322
+msgid ""
+"_: Label Position\n"
+"No Label"
+msgstr "लेबुल छैन"
+
+#: plugins/forms/kexidbfactory.cpp:324
+msgid "Size"
+msgstr "साइज"
+
+#: kexidb/utils.cpp:1257 plugins/forms/kexidbfactory.cpp:326
+#: widget/utils/kexicontextmenuutils.cpp:249
+msgid "Image"
+msgstr "छवि"
+
+#: plugins/forms/kexidbfactory.cpp:327
+msgid "Scaled Contents"
+msgstr "मापन गरिएको सामग्रीहरू"
+
+#: plugins/forms/kexidbfactory.cpp:328
+msgid ""
+"_: Keep Aspect Ratio (short)\n"
+"Keep Ratio"
+msgstr "अनुपात राख्नुहोस्"
+
+#: plugins/forms/kexidbfactory.cpp:335
+msgid "Frame Color"
+msgstr "फ्रेम रङ"
+
+#: plugins/forms/kexidbfactory.cpp:338
+msgid ""
+"_: Drop-Down Button for Image Box Visible (a property name, keep the text "
+"narrow!)\n"
+"Drop-Down\n"
+"Button Visible"
+msgstr ""
+"दृश्यात्मक बटन\n"
+"तल-झार्नुहोस्"
+
+#: plugins/forms/kexidbfactory.cpp:341
+msgid ""
+"_: Tristate checkbox, default\n"
+"Default"
+msgstr "पूर्वनिर्धारित"
+
+#: plugins/forms/kexidbfactory.cpp:342
+msgid ""
+"_: Tristate checkbox, yes\n"
+"Yes"
+msgstr "हो"
+
+#: plugins/forms/kexidbfactory.cpp:343
+msgid ""
+"_: Tristate checkbox, no\n"
+"No"
+msgstr "होइन"
+
+#: plugins/forms/kexidbfactory.cpp:346
+msgid ""
+"_: Editable combobox\n"
+"Editable"
+msgstr "सम्पादनयोग्य"
+
+#: plugins/forms/kexidbfactory.cpp:431
+msgid "&Image"
+msgstr "छवि"
+
+#: plugins/forms/kexidbfactory.cpp:451
+msgid "&Assign Action..."
+msgstr "कार्य मानाङ्कन गर्नुहोस्..."
+
+#: plugins/forms/kexidatasourcepage.cpp:54
+msgid "No data source could be assigned for this widget."
+msgstr "यो विजेटका लागि कुनै डेटा संसाधन पङ्क्तिबद्व गर्न सकेन ।"
+
+#: plugins/forms/kexidatasourcepage.cpp:55
+msgid "No data source could be assigned for multiple widgets."
+msgstr "बहु विजेटका लागि कुनै डेटा संसाधनलाई मानाङ्कन गर्न सकेन ।"
+
+#: plugins/forms/kexidatasourcepage.cpp:79
+msgid ""
+"_: Table Field or Query Field\n"
+"Widget's data source:"
+msgstr "विगेटको डेटा स्रोत:"
+
+#: plugins/forms/kexidatasourcepage.cpp:89
+msgid "Clear widget's data source"
+msgstr "विजेटको डेटा संसाधन खाली गर्नुहोस्"
+
+#: plugins/forms/kexidatasourcepage.cpp:106
+msgid "Form's data source:"
+msgstr "फारमको डेटा स्रोत:"
+
+#: plugins/forms/kexidatasourcepage.cpp:115
+msgid "Go to selected form's data source"
+msgstr "चयन गरिएको ढाँचाको डेटा स्रोतमा जानुहोस्"
+
+#: plugins/forms/kexidatasourcepage.cpp:121
+msgid "Clear form's data source"
+msgstr "ढाँचाको डेटा स्रोत खाली गर्नुहोस्"
+
+#: plugins/forms/kexidatasourcepage.cpp:148
+msgid "Inserting Fields"
+msgstr "फिल्ड घुसाइँदैछ"
+
+#: plugins/forms/kexidatasourcepage.cpp:162
+msgid ""
+"Select fields from the list below and drag them onto a form or click the "
+"\"Insert\" button"
+msgstr ""
+"तलको सूचीबाट फिल्ड चयन गर्नुहोस् र फ्रेममा तिनीहरूलाई तान्नुहोस् वा "
+"\"घुसाउनुहोस्\" बटन क्लिक गर्नुहोस्"
+
+#: plugins/forms/kexidatasourcepage.cpp:169
+msgid "Available fields:"
+msgstr "उपलब्ध फिल्डहरू:"
+
+#: plugins/forms/kexidatasourcepage.cpp:175
+msgid ""
+"_: Insert selected field into form\n"
+"Insert"
+msgstr "घुसाउनुहोस्"
+
+#: plugins/forms/kexidatasourcepage.cpp:180
+msgid "Insert selected fields into form"
+msgstr "फारममा चयन गरिएका फिल्डहरू घुसाउनुहोस्"
+
+#: plugins/forms/kexiformview.cpp:1118
+msgid "Insert AutoField widget"
+msgstr "स्वत: फिल्ड विजेट घुसाउनुहोस्"
+
+#: plugins/forms/kexiformview.cpp:1118
+msgid "Insert %1 AutoField widgets"
+msgstr "%1 स्वत: फिल्ड विजेटहरू घुसाउनुहोस्"
+
+#: plugins/forms/kexiformmanager.cpp:115
+msgid "Set Form's Data Source to \"%1\""
+msgstr "फारमको डेटा संसाधन \"%1\" मा सेट गर्नुहोस्"
+
+#: plugins/forms/kexidataprovider.cpp:231
+#: plugins/forms/kexidataprovider.cpp:256
+#: plugins/forms/kexidataprovider.cpp:278
+msgid "NAME"
+msgstr "NAME"
+
+#: plugins/forms/kexiformpart.cpp:92
+msgid ""
+"_: Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word.\n"
+"form"
+msgstr "फारम"
+
+#: plugins/forms/kexiformpart.cpp:146 plugins/forms/kexiformpart.cpp:177
+msgid "Edit Tab Order..."
+msgstr "ट्याब क्रम सम्पादन गर्नुहोस्..."
+
+#: plugins/forms/kexiformpart.cpp:147
+msgid "Adjust Size"
+msgstr "साइज समायोजन गर्नुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:164
+msgid "Show Form UI Code"
+msgstr "फारम UI कोड देखाउनुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:176
+msgid "Clear Widget Contents"
+msgstr "विजेट सामग्री खाली गर्नुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:183
+msgid "Layout Widgets"
+msgstr "सजावट विजेट"
+
+#: plugins/forms/kexiformpart.cpp:186
+msgid "&Horizontally"
+msgstr "तेर्सो रूपमा"
+
+#: plugins/forms/kexiformpart.cpp:188
+msgid "&Vertically"
+msgstr "ठाडो रूपमा"
+
+#: plugins/forms/kexiformpart.cpp:190
+msgid "In &Grid"
+msgstr "ग्रीडमा"
+
+#: plugins/forms/kexiformpart.cpp:193
+msgid "Horizontally in &Splitter"
+msgstr "स्प्लिटरमा तेर्सो रूपमा"
+
+#: plugins/forms/kexiformpart.cpp:195
+msgid "Verti&cally in Splitter"
+msgstr "स्प्लिटरमा ठाडो रूपमा"
+
+#: plugins/forms/kexiformpart.cpp:199
+msgid "&Break Layout"
+msgstr "विच्छेदित सजावट"
+
+#: plugins/forms/kexiformpart.cpp:205
+msgid "Bring Widget to Front"
+msgstr "विजेटलाई अगाडि ल्याउनुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:206
+msgid "Send Widget to Back"
+msgstr "विजेटलाई पछाडि पठाउनुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:209
+msgid "Other Widgets"
+msgstr "अन्य विजेटहरू"
+
+#: plugins/forms/kexiformpart.cpp:212
+msgid "Align Widgets Position"
+msgstr "विजेटको स्थान पङ्क्तिबद्व गर्नुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:214
+msgid "To Left"
+msgstr "बायाँका लागि"
+
+#: plugins/forms/kexiformpart.cpp:215
+msgid "To Right"
+msgstr "दायाँका लागि"
+
+#: plugins/forms/kexiformpart.cpp:216
+msgid "To Top"
+msgstr "माथिका लागि"
+
+#: plugins/forms/kexiformpart.cpp:217
+msgid "To Bottom"
+msgstr "बटनका लागि"
+
+#: plugins/forms/kexiformpart.cpp:218 plugins/forms/kexiformpart.cpp:223
+msgid "To Grid"
+msgstr "ग्रीडका लागि"
+
+#: plugins/forms/kexiformpart.cpp:220
+msgid "Adjust Widgets Size"
+msgstr "विजेट साइज समायोजन गर्नुहोस्"
+
+#: plugins/forms/kexiformpart.cpp:222
+msgid "To Fit"
+msgstr "ठीक पार्न"
+
+#: plugins/forms/kexiformpart.cpp:224
+msgid "To Shortest"
+msgstr "छोटोका लागि"
+
+#: plugins/forms/kexiformpart.cpp:225
+msgid "To Tallest"
+msgstr "अग्लोका लागि"
+
+#: plugins/forms/kexiformpart.cpp:226
+msgid "To Narrowest"
+msgstr "नजिकका लागि"
+
+#: plugins/forms/kexiformpart.cpp:227
+msgid "To Widest"
+msgstr "चौडाइका लागि"
+
+#: plugins/forms/kexiformpart.cpp:448
+msgid "Design of form \"%1\" has been modified."
+msgstr "फारम \"%1\" को डिजाइन परिमार्जित गरियो ।"
+
+#: plugins/forms/kexiformpart.cpp:450
+msgid "Form \"%1\" already exists."
+msgstr "फारम \"%1\" पहिले नै अवस्थित छ ।"
+
+#: plugins/forms/kexiformpart.cpp:508
+msgid "Widgets"
+msgstr "विजेट"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:194
+msgid "No action"
+msgstr "कार्य छैन"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:197
+msgid "Application actions"
+msgstr "अनुप्रयोग कार्य"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:211
+msgid ""
+"_: Current form's actions\n"
+"Current"
+msgstr "मुद्रा"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:268
+msgid "Open in Data View"
+msgstr "पाठ दृश्यमा खोल्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:284
+msgid "Show Page Setup"
+msgstr "पृष्ठ सेटअप हेर्नुहोस्..."
+
+#: plugins/forms/kexiactionselectiondialog.cpp:292
+msgid ""
+"_: Note: use multiple rows if needed\n"
+"Export to File\n"
+"As Data Table"
+msgstr ""
+"डेटा तालिकाको रूपमा\n"
+"फाइल निर्यात गर्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:297
+msgid ""
+"_: Note: use multiple rows if needed\n"
+"Copy to Clipboard\n"
+"As Data Table"
+msgstr ""
+"डेटा तालिकाको रूपमा\n"
+"क्लिपबोर्ड प्रतिलिपि गर्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:303
+msgid "Create New Object"
+msgstr "नयाँ वस्तु सिर्जना गर्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:306
+msgid "Open in Design View"
+msgstr "डिजाइन दृश्यमा खोल्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:310
+msgid "Open in Text View"
+msgstr "पाठ दृश्यमा खोल्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:313
+msgid "Close View"
+msgstr "दृश्य बन्द गर्नुहोस्"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:355
+msgid "&Select macro to be executed after clicking \"%1\" button:"
+msgstr "\"%1\" बटन क्लिक गरेपछि कार्यन्वयन हुने म्याक्रो चयन गर्नुहोस् ।"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:357
+msgid "&Select script to be executed after clicking \"%1\" button:"
+msgstr "\"%1\" बटन क्लिक गरेपछि कार्यन्वयन हुने स्क्रिप्ट चयन गर्नुहोस् ।"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:360
+msgid "&Select object to be opened after clicking \"%1\" button:"
+msgstr "\"%1\" बटन क्लिक गरेपछि खोलिने वस्तु चयन गर्नुहोस् ।"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:399
+msgid "Assigning Action to Command Button"
+msgstr "आदेश बटनमा कार्य पङ्क्तिबद्व गर्दै"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:405
+msgid ""
+"_: Assign action\n"
+"&Assign"
+msgstr "मानाङ्कन गर्नुहोस्..."
+
+#: plugins/forms/kexiactionselectiondialog.cpp:405
+msgid "Assign action"
+msgstr "कार्य मानाङ्कन गर्नुहोस्..."
+
+#: plugins/forms/kexiactionselectiondialog.cpp:436
+msgid "Action category:"
+msgstr "कार्य कोटि:"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:480
+msgid "Action to execute:"
+msgstr "कार्यन्वयन गर्ने कार्य:"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:581
+msgid "&Select action to be executed after clicking \"%1\" button:"
+msgstr "\"%1\" बटन क्लिक गरेपछि कार्यन्वयन हुने कार्य चयन गर्नुहोस् ।"
+
+#: plugins/tables/kexitablepart.cpp:69
+msgid ""
+"_: Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word.\n"
+"table"
+msgstr "तालिका"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:217
+#: plugins/tables/kexitablepart.cpp:70
+#: widget/relations/kexirelationwidget.cpp:57
+#: widget/relations/kexirelationwidget.cpp:331
+msgid "Table"
+msgstr "तालिका"
+
+#: plugins/tables/kexitabledesignerview.cpp:410
+#: plugins/tables/kexitablepart.cpp:89
+msgid "Primary Key"
+msgstr "प्राथमिक कुञ्जी"
+
+#: plugins/tables/kexitablepart.cpp:91
+msgid "Sets or removes primary key for currently selected field."
+msgstr "हालै चयन गरिएको फिल्डका लागि प्राथमिक कुञ्जी सेट गर्दछ वा हटाउँदछ ।"
+
+#: plugins/tables/kexitablepart.cpp:139
+msgid ""
+"You are about to remove table \"%1\" but following objects using this table "
+"are opened:"
+msgstr ""
+"तपाईँ तालिका \"%1\" हटाउन लाग्दै हुनुहुन्छ तर तलका वस्तुहरू यो तालिका प्रयोग "
+"गरेर खोल्दछ:"
+
+#: plugins/tables/kexitablepart.cpp:190
+msgid "Do you want to close all windows for these objects?"
+msgstr "के तपाईँ यी वस्तुका लागि सबै सञ्झ्याल बन्द गर्न चाहनुहुन्छ?"
+
+#: plugins/tables/kexitablepart.cpp:191
+msgid "Close windows"
+msgstr "सञ्झ्याल बन्द गर्नुहोस्"
+
+#: plugins/tables/kexitablepart.cpp:209
+msgid "Design of table \"%1\" has been modified."
+msgstr "तालिका \"%1\" को डिजाइन परिमार्जित गरियो ।"
+
+#: kexidb/connection.cpp:1582 plugins/tables/kexitablepart.cpp:212
+msgid "Table \"%1\" already exists."
+msgstr "\"%1\" तालिका पहिल्यै अवस्थित छ ।"
+
+#: plugins/tables/kexitablepart.cpp:216
+msgid "Warning! Any data in this table will be removed upon design's saving!"
+msgstr "चेतावनी! डिजाइनको बचत गर्दा यस तालिकामा कुनै पनि डेटा हटाइन्छ!"
+
+#: plugins/tables/kexitablepart.cpp:244
+msgid "Lookup column"
+msgstr "खोजी स्तम्भ"
+
+#: plugins/tables/kexitabledesignerview_p.cpp:277
+msgid "Do you want to save the design now?"
+msgstr "के तपाईँ डिजाइन बचत गर्न चाहनुहुन्छ?"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:144
+msgid "Row source:"
+msgstr "कच्चा स्रोत:"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:153
+msgid "Go to selected row source"
+msgstr "चयन गरिएको कच्चा स्रोतमा जानुहोस्"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:160
+msgid "Clear row source"
+msgstr "कच्चा स्रोत खाली गर्नुहोस्"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:172
+msgid "Bound column:"
+msgstr "बन्धन स्तम्भ:"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:182
+msgid "Clear bound column"
+msgstr "बन्धन स्तम्भ खाली गर्नुहोस्"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:194
+msgid "Visible column:"
+msgstr "दृश्यात्मक स्तम्भ:"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:204
+msgid "Clear visible column"
+msgstr "दृश्यात्मक स्तम्भ खाली गर्नुहोस्"
+
+#: plugins/tables/kexilookupcolumnpage.cpp:247
+msgid "No field selected"
+msgstr "फिल्ड चयन गरिएको छैन"
+
+#: plugins/tables/kexitabledesignercommands.cpp:74
+msgid "Change \"%1\" property for table field from \"%2\" to \"%3\""
+msgstr ""
+"\"%2\" देखि \"%3\" बाट तालिका फिल्डका लागि \"%1\" गुण परिवर्तन गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignercommands.cpp:139
+msgid "Remove table field \"%1\""
+msgstr "तालिका फिल्ड \"%1\" हटाउनुहोस्"
+
+#: plugins/tables/kexitabledesignercommands.cpp:195
+msgid "Insert table field \"%1\""
+msgstr "तालिका फिल्ड \"%1\" घुसाउनुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:124
+msgid "Additional information about the field"
+msgstr "फिल्डका बारेमा थप सूचना"
+
+#: plugins/tables/kexitabledesignerview.cpp:132
+msgid "Field Caption"
+msgstr "फिल्ड क्याप्सन"
+
+#: plugins/tables/kexitabledesignerview.cpp:133
+msgid "Describes caption for the field"
+msgstr "फिल्डका लागि क्याप्सन वर्णन गर्दछ ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:139
+#: widget/kexifieldlistview.cpp:60
+msgid "Data Type"
+msgstr "डेटा प्रकार"
+
+#: plugins/tables/kexitabledesignerview.cpp:140
+msgid "Describes data type for the field"
+msgstr "फिल्डका लागि डेटा प्रकार वर्णन गर्दछ"
+
+#: plugins/tables/kexitabledesignerview.cpp:157
+msgid "Comments"
+msgstr "टिप्पणीहरू"
+
+#: plugins/tables/kexitabledesignerview.cpp:158
+msgid "Describes additional comments for the field"
+msgstr "फिल्डका लागि थप टिप्पणीहरू वर्णन गर्दछ"
+
+#: plugins/tables/kexitabledesignerview.cpp:320
+msgid "Table field"
+msgstr "तालिका फिल्ड"
+
+#: plugins/tables/kexitabledesignerview.cpp:357
+#: plugins/tables/kexitabledesignerview.cpp:368
+msgid "Subtype"
+msgstr "उप प्रकार"
+
+#: plugins/tables/kexitabledesignerview.cpp:363
+msgid ""
+"_: Image object type\n"
+"Image"
+msgstr "छवि"
+
+#: plugins/tables/kexitabledesignerview.cpp:379
+msgid "Unsigned Number"
+msgstr "अपुष्टि नम्बर"
+
+#: plugins/tables/kexitabledesignerview.cpp:382
+msgid "Length"
+msgstr "लम्बाई"
+
+#: plugins/tables/kexitabledesignerview.cpp:385
+msgid "Precision"
+msgstr "यथार्थता"
+
+#: plugins/tables/kexitabledesignerview.cpp:390
+msgid "Visible Decimal Places"
+msgstr "दृश्यात्मक दशमलव स्थानहरू"
+
+#: plugins/tables/kexitabledesignerview.cpp:392
+msgid ""
+"_: Auto Decimal Places\n"
+"Auto"
+msgstr "स्वत:"
+
+#: plugins/tables/kexitabledesignerview.cpp:396
+msgid "Column Width"
+msgstr "स्तम्भ चौडाइ"
+
+#: plugins/tables/kexitabledesignerview.cpp:402
+msgid "Default Value"
+msgstr "पूर्वनिर्धारित मान"
+
+#: kexidb/driver_p.cpp:76 plugins/importexport/csv/kexicsvwidgets.cpp:137
+#: plugins/importexport/csv/kexicsvwidgets.cpp:152
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1734
+#: plugins/tables/kexitabledesignerview.cpp:406
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: plugins/tables/kexitabledesignerview.cpp:414
+msgid "Unique"
+msgstr "अद्वितिय"
+
+#: plugins/tables/kexitabledesignerview.cpp:417
+msgid "Required"
+msgstr "आवश्यक"
+
+#: plugins/tables/kexitabledesignerview.cpp:420
+msgid ""
+"Allow Zero\n"
+"Size"
+msgstr ""
+"शून्य\n"
+"साइजलाई अनुमति दिनुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:423
+msgid "Autonumber"
+msgstr "स्वत नम्बर"
+
+#: plugins/tables/kexitabledesignerview.cpp:427
+msgid "Indexed"
+msgstr "अनुक्रमणिका गरिएको"
+
+#: plugins/tables/kexitabledesignerview.cpp:432
+msgid "Row Source"
+msgstr "कच्चा स्रोत"
+
+#: plugins/tables/kexitabledesignerview.cpp:436
+msgid ""
+"Row Source\n"
+"Type"
+msgstr ""
+"कच्चा स्रोत\n"
+"प्रकार"
+
+#: plugins/tables/kexitabledesignerview.cpp:441
+msgid "Bound Column"
+msgstr "बन्धन स्तम्भ"
+
+#: plugins/tables/kexitabledesignerview.cpp:451
+msgid "Visible Column"
+msgstr "दृश्यात्मक स्तम्भ"
+
+#: plugins/tables/kexitabledesignerview.cpp:592
+msgid ""
+"Cannot switch to data view, because table design is empty.\n"
+"First, please create your design."
+msgstr ""
+"डेटा दृश्यमा स्विच गर्न सकिदैन किनभने तालिका डिजाइन खाली छ ।\n"
+"पहिला, तपाईँको डिजाइन सिर्जना गर्नुहोस् ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:603
+msgid "Saving changes for existing table design is now required."
+msgstr "अवस्थित तालिका डिजाइनका लागि परिवर्तनहरूको बचत अब आवश्यक छ ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:689
+msgid ""
+"Change \"%1\" field's name to \"%2\" and caption from \"%3\" to \"%4\""
+msgstr ""
+"\"%1\" फिल्डको नाम \"%2\" मा र क्याप्सन \"%3\" बाट \"%4\" मा परिवर्तन "
+"गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:761
+msgid "Change data type for field \"%1\" to \"%2\""
+msgstr "\"%1\" देखि \"%2\" फिल्डका लागि डेटा प्रकार परिवर्तन गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:955
+msgid "Setting autonumber requires primary key to be set for current field."
+msgstr ""
+"सेटिङ स्वत नम्बरलाई हालको फिल्डका लगि सेट हुन प्राथमिक कुञ्जी आवश्यक पर्दछ ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:957
+msgid "Previous primary key will be removed."
+msgstr "अघिल्लो प्राथमिक कुञ्जी हट्नेछ ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:959
+msgid ""
+"Do you want to create primary key for current field? Click \"Cancel\" to "
+"cancel setting autonumber."
+msgstr ""
+"के तपाईँले हालको फिल्डका लागि प्राथमिक कुञ्जी सिर्जना गर्न चाहनुहुन्छ ? "
+"सेटिङ स्वत नम्बर रद्द गर्न \"रद्द गर्नुहोस्\" क्लिक गर्नुहोस् ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:963
+msgid "Setting Autonumber Field"
+msgstr "सेटिङ स्वत: नम्बर फिल्ड"
+
+#: plugins/tables/kexitabledesignerview.cpp:964
+msgid "Create &Primary Key"
+msgstr "प्राथमिक कुञ्जी सिर्जना गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:971
+msgid "Assign autonumber for field \"%1\""
+msgstr "फिल्ड \"%1\" का लागि स्वत नम्बर मानाङ्कन गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:977
+msgid "Remove autonumber from field \"%1\""
+msgstr "फिल्ड \"%1\" बाट स्वत नम्बर हटाउनुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:998
+msgid "Set \"%1\" property for field \"%2\""
+msgstr "\"%2\" फिल्डका लागि \"%1\" गुण सेट गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:1043
+msgid "Change type for field \"%1\" to \"%2\""
+msgstr "\"%1\" देखि \"%2\" सम्मका फिल्डका लागि प्रकार परिवर्तन गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:1087
+msgid "Set primary key for field \"%1\""
+msgstr "फिल्ड \"%1\" का लागि प्राथमिक कुञ्जी सेट गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:1113
+msgid "Unset primary key for field \"%1\""
+msgstr "फिल्ड \"%1\" का लागि प्राथमिक कुञ्जी अनसेट गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:1211
+msgid ""
+"<p>Table \"%1\" has no <b>primary key</b> defined.</p><p>Although a primary "
+"key is not required, it is needed for creating relations between database "
+"tables. Do you want to add primary key automatically now?</p><p>If you want "
+"to add a primary key by hand, press \"Cancel\" to cancel saving table "
+"design.</p>"
+msgstr ""
+"<p>\"%1\" तालिकामा <b>प्राथमिक कुञ्जी</b> परिभाषित गरिएको छैन ।</p><p>यद्यपि "
+"प्राथमिक कुञ्जी आवश्यक पर्दैन, यो डाटाबेस तालिकाहरू बीचको सम्बन्ध सिर्जना "
+"गर्नका लागि आवश्यक पर्दछ । के तपाईँले स्वचालित रूपमा प्राथमिक कुञ्जी अहिले "
+"थप्न चाहनुहुन्छ ?</p><p>यदि तपाईँले हातले प्राथमिक कुञ्जी थप्न चाहनुहुन्छ "
+"भने, तालिका डिजाइन बचत रद्द गर्न \"रद्द गर्नुहोस्\" क्लिक गर्नुहोस् ।</p>"
+
+#: plugins/tables/kexitabledesignerview.cpp:1217
+msgid "&Add Primary Key"
+msgstr "प्राथमिक कुञ्जी थप गर्नुहोस्"
+
+#: plugins/tables/kexitabledesignerview.cpp:1227
+msgid ""
+"_: Identifier%1\n"
+"Id%1"
+msgstr "Id%1"
+
+#: plugins/tables/kexitabledesignerview.cpp:1281
+msgid "You should enter field caption."
+msgstr "तपाईँले फिल्ड क्याप्सन प्रविष्ट गर्नुपर्नेछ ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:1299
+msgid ""
+"You have added no fields.\n"
+"Every table should have at least one field."
+msgstr ""
+"तपाईँले कुनै फिल्डहरू थप गर्नु भएको छैन ।\n"
+"प्रत्येक तालिकासँग कम्तिमा एउटा फिल्ड हुनुपर्दछ ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:1314
+msgid ""
+"You have added \"%1\" field name twice.\n"
+"Field names cannot be repeated. Correct name of the field."
+msgstr ""
+"तपाईँले \"%1\" फिल्ड नाम दुई पटक थप्नु भएको छ ।\n"
+"फिल्ड नामलाई दोहर्याउन सकिदैन । फिल्डको नाम सुधार गर्नुहोस् ।"
+
+#: plugins/tables/kexitabledesignerview.cpp:1458
+msgid ""
+"You are about to change the design of table \"%1\" but following objects "
+"using this table are opened:"
+msgstr ""
+"तपाईँले \"%1\" तालिकाको डिजाइन परिवर्तन गर्न लाग्नु भएको छ तर यो तालिकाको "
+"प्रयोग गर्ने निम्न वस्तुहरू खुला छन्:"
+
+#: plugins/tables/kexitabledesignerview.cpp:1662
+msgid "Table field \"%1\""
+msgstr "तालिका फिल्ड \"%1\""
+
+#: plugins/tables/kexitabledesignerview.cpp:1665
+msgid ""
+"_: Empty table row\n"
+"Empty Row"
+msgstr "रिक्त पङ्क्ति"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:74
+msgid "Copy Data From Table to Clipboard"
+msgstr "तालिकाबाट क्लिपबोर्डमा डेटा प्रतिलिपि गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:75
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:85
+msgid "Copying data from table:"
+msgstr "तालिकाबाट डेटा प्रतिलिपि गर्दै:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:78
+msgid "Export Data From Table to CSV File"
+msgstr "तालिकाबाट CSV फाइलमा डेटा निर्यात गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:79
+msgid "Exporting data from table:"
+msgstr "तालिकाबाट डेटा निर्यात गर्दै:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:84
+msgid "Copy Data From Query to Clipboard"
+msgstr "क्वेरीबाट क्लिपबोर्डमा डेटा प्रतिलिपि गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:88
+msgid "Export Data From Query to CSV File"
+msgstr "क्वेरीबाट CSV फाइलमा डेटा निर्यात गर्दै"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:89
+msgid "Exporting data from query:"
+msgstr "क्वेरीबाट डेटा निर्यात गर्दै:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:94
+msgid "Could not open data for exporting."
+msgstr "निर्यातका लागि डेटा खोल्न सकिएन ।"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:113
+msgid "Enter Name of File You Want to Save Data To"
+msgstr "तपाईँले डेटा बचत गर्न चाहनुभएको फाइलको नाम प्रविष्ट गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:129
+msgid "To CSV file:"
+msgstr "CSV फाइलका लागि:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:129
+msgid "To clipboard:"
+msgstr "क्लिपबोर्डका लागि:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:136
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:334
+msgid "Show Options >>"
+msgstr "विकल्पहरू देखाउनुहोस् >>"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:157
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:216
+msgid "Delimiter:"
+msgstr "डेलिमिटर:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:168
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:241
+msgid "Text quote:"
+msgstr "पाठ उद्धरण:"
+
+#: migration/importoptionsdlg.cpp:68
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:175
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:87
+msgid "Text encoding:"
+msgstr "पाठ सङ्केतन:"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:180
+msgid "Add column names as the first row"
+msgstr "पहिलो पङ्क्तिहरूको रूपमा स्तम्भ नामहरू थप्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:185
+msgid "Always use above options for exporting"
+msgstr "निर्यातका लागि जहिले पनि माथिको विकल्पहरू प्रयोग गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:198
+msgid "Copying"
+msgstr "प्रतिलिपि गर्दै"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:198
+msgid "Exporting"
+msgstr "निर्यात गर्दै"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:258
+msgid "(rows: %1, columns: %2)"
+msgstr "(पङ्क्तिहरू: %1, स्तम्भहरू: %2)"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:260
+msgid "(columns: %1)"
+msgstr "(स्तम्भहरू: %1)"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:341
+msgid "Hide Options <<"
+msgstr "विकल्पहरू लुकाउनुहोस् <<"
+
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:359
+msgid "Defaults"
+msgstr "पूर्वनिर्धारितहरू"
+
+#: plugins/importexport/csv/kexicsvwidgets.cpp:51
+msgid "Comma \",\""
+msgstr "अल्पविराम  \",\""
+
+#: plugins/importexport/csv/kexicsvwidgets.cpp:52
+msgid "Semicolon \";\""
+msgstr "अर्धविराम \";\""
+
+#: plugins/importexport/csv/kexicsvwidgets.cpp:53
+msgid "Tabulator"
+msgstr "ट्याबुलेटर"
+
+#: plugins/importexport/csv/kexicsvwidgets.cpp:54
+msgid "Space \" \""
+msgstr "खाली ठाउँ \" \""
+
+#: main/keximainwindowimpl.cpp:889
+#: plugins/importexport/csv/kexicsvwidgets.cpp:55
+msgid "Other"
+msgstr "अन्य"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:142
+msgid "Import CSV Data File"
+msgstr "CSV डेटा फाइल आयात गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:173
+msgid "&Import..."
+msgstr "आयात गर्नुहोस्..."
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:176
+msgid "text"
+msgstr "पाठ"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:177
+msgid "number"
+msgstr "नम्बर"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:178
+msgid "date"
+msgstr "मिति"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:179
+msgid "time"
+msgstr "समय"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:180
+msgid "date/time"
+msgstr "मिति/समय"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:201
+msgid "Preview of data from file:"
+msgstr "फाइलबाट डेटाको पूर्वावलोकन:"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:202
+msgid "Preview of data from clipboard:"
+msgstr "क्लिपबोर्डबाट डेटाको पूर्वावलोकन:"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:221
+msgid "Format for column %1:"
+msgstr "स्तम्भ %1 का लागि ढाँचा:"
+
+#: kexidb/field.cpp:696 kexidb/field.cpp:717
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:223
+msgid "Text"
+msgstr "पाठ"
+
+#: kexidb/utils.cpp:1254 plugins/importexport/csv/kexicsvimportdialog.cpp:224
+msgid "Number"
+msgstr "नम्बर"
+
+#: kexidb/field.cpp:691 plugins/importexport/csv/kexicsvimportdialog.cpp:225
+msgid "Date"
+msgstr "मिति"
+
+#: kexidb/field.cpp:693 plugins/importexport/csv/kexicsvimportdialog.cpp:226
+msgid "Time"
+msgstr "समय"
+
+#: kexidb/field.cpp:721 plugins/importexport/csv/kexicsvimportdialog.cpp:227
+msgid "Date/Time"
+msgstr "मिति/समय"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:234
+msgid "Primary key"
+msgstr "प्राथमिक कुञ्जी"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:262
+msgid "Ignore duplicated delimiters"
+msgstr "नक्कली डेलिमिटर उपेक्षा गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:266
+msgid "First row contains column names"
+msgstr "पहिलो पङ्क्तिले स्तम्भ नामहरू समावेश गर्दछ"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:303
+msgid "Open CSV Data File"
+msgstr "CSV डेटा फाइल खोल्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:352
+msgid "Loading CSV Data"
+msgstr "CSV डेटा लोड गर्दै"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:352
+msgid "Loading CSV Data from \"%1\"..."
+msgstr "\"%1\" बाट CSV डेटा लोड गरिँदैछ..."
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:440
+msgid "Cannot open input file <nobr>\"%1\"</nobr>."
+msgstr "आगत फाइल <nobr>\"%1\"</nobr> खोल्न सकिँदैन ।"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:531
+msgid "Start at line%1:"
+msgstr "रेखा%1 मा सुरु गर्नुहोस्:"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:927
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:938
+#, c-format
+msgid "Column %1"
+msgstr "स्तम्भ %1"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1189
+msgid "Column name"
+msgstr "स्तम्भ नाम"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1323
+msgid "Data set contains no rows. Do you want to import empty table?"
+msgstr ""
+"डेटा सेटले कुनै पङ्क्तिहरू समावेश गर्दैन । के तपाईँ खाली तालिका आयात गर्न "
+"चाहनुहुन्छ?"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1329
+msgid "No project available."
+msgstr "कुनै परियोजना उपलब्ध छैन ।"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1334
+msgid "No database connection available."
+msgstr "कुनै डाटाबेस जडान उपलब्ध छैन ।"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1395
+msgid ""
+"No Primary Key (autonumber) has been defined.\n"
+"Should it be automatically defined on import (recommended)?\n"
+"\n"
+"Note: An imported table without a Primary Key may not be editable (depending "
+"on database type)."
+msgstr ""
+"प्राथमिक कुज्जी (स्वत नम्बर) परिभाषित गरिएको छैन ।\n"
+"के यसलाई आयातमा (सुझाव गरिएको) स्वचालित रूपमा परिभाषित गर्नुपर्ला ?\n"
+"\n"
+"द्रष्टव्य: प्राथमिक कुञ्जी बिना आयात गरिएको तालिका सम्पादनयोग्य हुदैन "
+"(डाटाबेस प्रकारमा आधारित) ।"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1398
+msgid ""
+"_: Add Database Primary Key to a Table\n"
+"Add Primary Key"
+msgstr "प्राथमिक कुञ्जीमा थप्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1399
+msgid ""
+"_: Do Not Add Database Primary Key to a Table\n"
+"Do Not Add"
+msgstr "नथप्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1519
+msgid "Importing CSV Data"
+msgstr "CSV डेटा आयात गर्दै"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1522
+msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
+msgstr "<nobr>\"%1\"</nobr> बाट \"%2\" तालिकामा CSV डेटा आयात ..."
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1569
+msgid "Data has been successfully imported to table \"%1\"."
+msgstr "डेटा सफलतापूर्वक तालिका \"%1\" मा आयात गरियो ।"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1579
+msgid ""
+"_: Text type for column\n"
+"Text"
+msgstr "पाठ"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1581
+msgid ""
+"_: Numeric type for column\n"
+"Number"
+msgstr "नम्बर"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1583
+msgid ""
+"_: Currency type for column\n"
+"Currency"
+msgstr "मुद्रा"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1652
+msgid ""
+"_: row count\n"
+"(rows: %1)"
+msgstr "(पङ्क्ति: %1)"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1657
+msgid ""
+"_: row count\n"
+"(rows: more than %1)"
+msgstr "(पङ्क्ति: %1 भन्दा बढी)"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1658
+msgid "Not all rows are visible on this preview"
+msgstr "यो पूर्वावलोकनमा सबै पङ्क्तिहरू दृश्यात्मक हुँदैनन्"
+
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:72
+msgid "CSV Import Options"
+msgstr "CSV आयात विकल्पहरू"
+
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:94
+msgid "Always use this encoding when importing CSV data files"
+msgstr "CSV डेटा फाइलहरू आयात गर्दा जहिले पनि यो सङ्केतन प्रयोग गर्नुहोस्"
+
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:98
+msgid "Strip leading and trailing blanks off of text values"
+msgstr "पाठ मानको ट्रेलिङ ब्याल्ङ्क अफ र नेतृत्व स्ट्रिप"
+
+#: plugins/queries/kexiquerydesignersqlhistory.cpp:44
+msgid "Copy to Clipboard"
+msgstr "क्लिपबोर्डमा प्रतिलिपि गर्नुहोस्"
+
+#: plugins/queries/kexiquerydesignersqlhistory.cpp:339
+#: widget/tableview/kexidataawareobjectiface.cpp:943
+#, c-format
+msgid "Error: %1"
+msgstr "त्रुटि: %1"
+
+#: plugins/queries/kexiaddparamdialog.cpp:30
+msgid "Add Parameter"
+msgstr "परिमिति थप्नुहोस्"
+
+#: plugins/queries/kexidynamicqueryparameterdialog.cpp:32
+msgid "Query Parameters"
+msgstr "क्वेरी परिमितिहरू"
+
+#: plugins/queries/kexiquerypart.cpp:50
+msgid ""
+"_: Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word.\n"
+"query"
+msgstr "क्वेरी"
+
+#: plugins/queries/kexiquerypart.cpp:51
+msgid "Query"
+msgstr "क्वेरी"
+
+#: plugins/queries/kexiquerypart.cpp:147 plugins/queries/kexiquerypart.cpp:149
+msgid "Check Query"
+msgstr "क्वेरी जाँच गर्नुहोस्"
+
+#: plugins/queries/kexiquerypart.cpp:150
+msgid "Checks query for validity."
+msgstr "वैधताका लागि क्वेरी जाँच गर्नुहोस् ।"
+
+#: plugins/queries/kexiquerypart.cpp:153
+msgid "Show SQL History"
+msgstr "SQL इतिहास देखाउनुहोस्"
+
+#: plugins/queries/kexiquerypart.cpp:155
+msgid "Shows or hides SQL editor's history."
+msgstr "SQL सम्पादकको इतिहास देखाउँदछ वा लुकाउँदछ ।"
+
+#: plugins/queries/kexiquerypart.cpp:198
+msgid "Design of query \"%1\" has been modified."
+msgstr "क्वेरी \"%1\" का लागि डिजाइन परिमार्जित गरियो ।"
+
+#: plugins/queries/kexiquerypart.cpp:200
+msgid "Query \"%1\" already exists."
+msgstr "क्वेरी \"%1\" पहिले नै अवस्थित छ ।"
+
+#: plugins/queries/kexiqueryview.cpp:87
+msgid "Query executing failed."
+msgstr "क्वेरी कार्यान्वयन असफल भयो ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:158
+msgid "Query Columns"
+msgstr "क्वेरी स्तम्भहरू"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:210
+msgid "Describes field name or expression for the designed query."
+msgstr "डिजाइन गरिएको क्वेरीका लागि फिल्ड नाम वा अभिव्यक्ति वर्णन गर्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:218
+msgid "Describes table for a given field. Can be empty."
+msgstr "दिएको फिल्डका लागि तालिका वर्णन गर्नुहोस् । खाली हुन सक्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:223
+msgid "Visible"
+msgstr "दृश्यात्मक"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:224
+msgid "Describes visibility for a given field or expression."
+msgstr "दिइएको फिल्ड वा अभिव्यक्तिका लागि दृश्यात्मक वर्णन गर्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:230
+msgid "Totals"
+msgstr "जम्मा"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:231
+msgid "Describes a way of computing totals for a given field or expression."
+msgstr "दिइएको फिल्ड वा अभिव्यक्तिका लागि जम्मा गणनाको तरिका वर्णन गर्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:233
+msgid "Group by"
+msgstr "समूह द्वारा"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:234
+msgid "Sum"
+msgstr "योगफल"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:235
+msgid "Average"
+msgstr "औसत"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:236
+msgid "Min"
+msgstr "न्यूनतम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:237
+msgid "Max"
+msgstr "अधिकतम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:243
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1736
+msgid "Sorting"
+msgstr "क्रमबद्ध गर्दै"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:244
+msgid "Describes a way of sorting for a given field."
+msgstr "दिएको फिल्डका लागि क्रमबद्धताको तरिका वर्णन गर्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:247
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1734
+msgid "Ascending"
+msgstr "बढ्दो क्रम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:248
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1734
+msgid "Descending"
+msgstr "घट्दो क्रम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:252
+msgid "Criteria"
+msgstr "मापदण्ड"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:253
+msgid "Describes the criteria for a given field or expression."
+msgstr "दिइएको फिल्ड वा अभिव्यक्तिका लागि मापदण्ड वर्णन गर्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:356
+msgid ""
+"Cannot switch to data view, because query design is empty.\n"
+"First, please create your design."
+msgstr ""
+"डेटा दृश्यमा स्विच गर्न सकिदैन किनभने क्वेरी डिजाइन खाली छ ।\n"
+"पहिले, कृपया तपाईँको डिजाइन सिर्जना गर्नुहोस् ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:390
+msgid "Select column for table \"%1\""
+msgstr "तालिका \"%1\" का लागि स्तम्भ चयन गर्नुहोस्"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:413
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1641
+msgid "Invalid criteria \"%1\""
+msgstr "अवैध मापदण्ड \"%1\""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:434
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1471
+msgid "Invalid expression \"%1\""
+msgstr "अवैध अभिव्यक्ति \"%1\""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:628
+#: plugins/queries/kexiquerydesignerguieditor.cpp:642
+#: plugins/queries/kexiquerydesignerguieditor.cpp:665
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1086
+msgid "Query definition loading failed."
+msgstr "क्वेरी परिभाषा लोड गर्न असफल ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:629
+msgid ""
+"Query design may be corrupted so it could not be opened even in text view.\n"
+"You can delete the query and create it again."
+msgstr ""
+"क्वेरी डिजाइन बिग्रिन पनि सक्छ त्यसैले यो पाठ दृश्यमा पनि खोल्न सकिएन ।\n"
+"तपाईँ क्वेरी मेट्न सक्नुहुन्छ र यसलाई फेरि सिर्जना गर्न सक्नुहुन्छ ।"
+
+#: kexidb/queryschema.cpp:250
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1271
+msgid ""
+"_: short for 'expression' word (only latin letters, please)\n"
+"expr"
+msgstr "expr"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1451
+msgid "Entered column alias \"%1\" is not a valid identifier."
+msgstr "प्रविष्ट गरिएको उपनाम \"%1\" वैध पहिचायक होइन ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1453 sqlscanner.l:287
+msgid "Identifiers should start with a letter or '_' character"
+msgstr "पहिचायक अक्षर वा '_' क्यारक्टरसँग सुरु हुनु पर्दछ ।"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1592
+msgid "Could not set sorting for multiple columns (%1)"
+msgstr "बहुविध स्तम्भ (%1) का लागि क्रमबद्धता सेट गर्न सकेन"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1614
+msgid "Could not set criteria for \"%1\""
+msgstr "\"%1\" का लागि मापदण्ड सेट गर्न सकेन"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1617
+msgid "Could not set criteria for empty row"
+msgstr "खाली पङ्क्तिका लागि मापदण्ड सेट गर्न सकेन"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1706
+msgid "Query column"
+msgstr "क्वेरी स्तम्भ"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1722
+msgid "Alias"
+msgstr "उपनाम"
+
+#: plugins/queries/kexiquerydesignersql.cpp:108
+msgid "SQL Query Text"
+msgstr "SQL क्वेरी पाठ"
+
+#: plugins/queries/kexiquerydesignersql.cpp:143
+msgid "SQL Query History"
+msgstr "SQL क्वेरी इतिहास"
+
+#: plugins/queries/kexiquerydesignersql.cpp:147
+msgid "Back to Selected Query"
+msgstr "चयन गरिएको क्वेरीको पछाडि जानुहोस्"
+
+#: plugins/queries/kexiquerydesignersql.cpp:148
+msgid "Clear History"
+msgstr "इतिहास खाली गर्नुहोस्"
+
+#: plugins/queries/kexiquerydesignersql.cpp:175
+msgid "The query is correct"
+msgstr "क्वेरी ठीक छ"
+
+#: plugins/queries/kexiquerydesignersql.cpp:182
+msgid "The query is incorrect"
+msgstr "क्वेरी गलत छ"
+
+#: plugins/queries/kexiquerydesignersql.cpp:189
+msgid ""
+"Please enter your query and execute \"Check query\" function to verify it."
+msgstr ""
+"कृपया तपाईँको क्वेरी प्रविष्ट गर्नुहोस् र रूजु गर्नका लागि \"क्वेरी जाँच "
+"गर्नुहोस्\" प्रकार्य कार्यन्वयन गर्नुहोस् ।"
+
+#: plugins/queries/kexiquerydesignersql.cpp:236
+msgid "The query you entered is incorrect."
+msgstr "तपाईँले प्रविष्ट गर्नुभएको क्वेरी गलत छ ।"
+
+#: plugins/queries/kexiquerydesignersql.cpp:237
+msgid "Do you want to cancel any changes made to this SQL text?"
+msgstr "के तपाईँ यो SQL पाठमा गर्नु भएको परिवर्तनहरू रद्द गर्न चाहनुहुन्छ?"
+
+#: plugins/queries/kexiquerydesignersql.cpp:238
+msgid "Answering \"No\" allows you to make corrections."
+msgstr "\"होइन\" उत्तरले तपाईँलाई सुधारहरू गर्न अनुमति दिन्छ ।"
+
+#: plugins/queries/kexiquerydesignersql.cpp:480
+msgid "Do you want to save invalid query?"
+msgstr "के तपाई अवैध क्वेरी बचत गर्न चाहनुहुन्छ?"
+
+#: plugins/reports/kexireportpart.cpp:57
+msgid ""
+"_: Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word.\n"
+"report"
+msgstr "प्रतिवेदन"
+
+#: plugins/reports/kexireportfactory.cpp:42
+#: plugins/reports/kexireportpart.cpp:58
+msgid "Report"
+msgstr "प्रतिवेदन"
+
+#: plugins/reports/kexireportpart.cpp:123
+msgid "Design of report \"%1\" has been modified."
+msgstr "प्रतिवेदन \"%1\" को डिजाइन परिमार्जित गरियो ।"
+
+#: plugins/reports/kexireportpart.cpp:125
+msgid "Report \"%1\" already exists."
+msgstr "प्रतिवेदन \"%1\" पहिले नै अवस्थित छ।"
+
+#: plugins/reports/kexireportfactory.cpp:44
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"report"
+msgstr "प्रतिवेदन"
+
+#: plugins/reports/kexireportfactory.cpp:45
+msgid "A report"
+msgstr "प्रतिवेदन"
+
+#: plugins/reports/kexireportfactory.cpp:51
+msgid "Label"
+msgstr "लेबुल"
+
+#: plugins/reports/kexireportfactory.cpp:54
+msgid "A label to display text"
+msgstr "पाठ प्रदर्शन गर्न लेबुल"
+
+#: plugins/reports/kexireportfactory.cpp:60
+msgid "Picture Label"
+msgstr "तस्विर लेबुल"
+
+#: plugins/reports/kexireportfactory.cpp:62
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"picture"
+msgstr "तस्विर"
+
+#: plugins/reports/kexireportfactory.cpp:63
+msgid "A label to display images or icons"
+msgstr "छवि वा प्रतिमाहरू प्रदर्शन गर्न लेबुल"
+
+#: plugins/reports/kexireportfactory.cpp:69
+msgid "Line"
+msgstr "रेखा"
+
+#: plugins/reports/kexireportfactory.cpp:71
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"line"
+msgstr "रेखा"
+
+#: plugins/reports/kexireportfactory.cpp:72
+msgid "A simple line"
+msgstr "साधारण रेखा"
+
+#: plugins/reports/kexireportfactory.cpp:78
+msgid "Sub Report"
+msgstr "उप प्रतिवेदन"
+
+#: plugins/reports/kexireportfactory.cpp:80
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"subReport"
+msgstr "उप प्रतिवेदन"
+
+#: plugins/reports/kexireportfactory.cpp:81
+msgid "A report embedded in another report"
+msgstr "अर्को प्रतिवेदनमा सम्मिलित एउटा प्रतिवेदन"
+
+#: plugins/reports/kexireportfactory.cpp:124
+msgid "Edit Rich Text"
+msgstr "रिच पाठ सम्पादन गर्नुहोस्"
+
+#: plugins/reports/kexireportview.cpp:47
+msgid "Page:"
+msgstr "पृष्ठ:"
+
+#: widget/tableview/kexiblobtableedit.cpp:93
+msgid "Click to show available actions for this cell"
+msgstr "यो कक्षका लागि उपलब्ध कार्यहरू देखाउनका लागि क्लिक गर्नुहोस्"
+
+#: widget/tableview/kexitableview.cpp:106
+msgid "Contains a pointer to the currently selected row"
+msgstr "हालै चयन गरिएको पङ्क्तिमा सूचक समावेश गर्दछ"
+
+#: widget/tableview/kexitableview.cpp:109
+msgid "Row navigator"
+msgstr "पङ्क्ति नेभिगेटर"
+
+#: widget/tableview/kexitableview.cpp:222
+msgid "Add Record"
+msgstr "रेकर्ड थप्नुहोस्"
+
+#: widget/tableview/kexitableview.cpp:225
+msgid "Remove Record"
+msgstr "रेकर्ड हटाउनुहोस्"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:960
+#: widget/tableview/kexitableviewdata.cpp:659
+msgid "The column's constraint is declared as NOT NULL."
+msgstr "स्तम्भको अवरोध NOT NULL को रूपमा घोषणा गरिन्छ ।"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:982
+#: widget/tableview/kexitableviewdata.cpp:670
+msgid "The column's constraint is declared as NOT EMPTY."
+msgstr "स्तम्भको अवरोध NOT EMPTY का रूपमा घोषणा गरिन्छ ।"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1000
+msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
+msgstr "स्तम्भको अवरोध NOT EMPTY र NOT NULL का रूपमा घोषणा गरिन्छ ।"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1212
+msgid "Do you want to delete selected row?"
+msgstr "के तपाईँ चयन गरिएको पङ्क्ति मेट्न चाहनुहुन्छ?"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1213
+msgid "&Delete Row"
+msgstr "पङ्क्ति मेट्नुहोस्"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1334
+msgid "Do you want to clear the contents of table %1?"
+msgstr "के तपाई तालिका \"%1\" को सामग्रीहरू हटाउन चाहनुहुन्छ?"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1335
+msgid "&Clear Contents"
+msgstr "सामग्रीहरू खाली गर्नुहोस्"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1762
+msgid "Row: "
+msgstr "पङ्क्ति: "
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1838
+msgid ""
+"_: Correct Changes\n"
+"Correct"
+msgstr "सहि"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1838
+msgid "Correct changes"
+msgstr "सहि परिवर्तनहरू"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1839
+msgid "Discard Changes"
+msgstr "परिवर्तनहरू छोड्नुहोस्"
+
+#: widget/tableview/kexitableviewdata.cpp:657
+#: widget/tableview/kexitableviewdata.cpp:668
+msgid "\"%1\" column requires a value to be entered."
+msgstr "\"%1\" स्तम्भ प्रविष्ट गर्नका लागि मान आवश्यक पर्दछ ।"
+
+#: widget/tableview/kexitableviewdata.cpp:682
+msgid "Row inserting failed."
+msgstr "पङ्क्ति घुसाउँदा असफल ।"
+
+#: widget/tableview/kexitableviewdata.cpp:702
+msgid "Row changing failed."
+msgstr "पङ्क्ति परिवर्तन गर्दा असफल ।"
+
+#: widget/tableview/kexitableviewdata.cpp:769
+msgid "Row deleting failed."
+msgstr "पङ्क्ति मेट्दा असफल ।"
+
+#: main/startup/KexiConnSelector.cpp:362
+#: widget/relations/kexirelationwidget.cpp:65
+msgid "&Add"
+msgstr "थप्नुहोस्"
+
+#: widget/relations/kexirelationwidget.cpp:86
+msgid "&Open Table"
+msgstr "तालिका खोल्नुहोस्"
+
+#: widget/relations/kexirelationwidget.cpp:89
+msgid "&Design Table"
+msgstr "तालिका डिजाइन गर्नुहोस्"
+
+#: widget/relations/kexirelationwidget.cpp:94
+msgid "&Hide Table"
+msgstr "तालिका लुकाउनुहोस्"
+
+#: widget/relations/kexirelationwidget.cpp:335
+msgid "Relationship"
+msgstr "सम्बन्ध"
+
+#: widget/relations/kexirelationview.cpp:76
+msgid "&Hide Selected Table/Query"
+msgstr "चयन गरिएको तालिका/क्वेरी लुकाउनुहोस्"
+
+#: widget/relations/kexirelationview.cpp:78
+msgid "&Remove Selected Relationship"
+msgstr "चयन गरिएको सम्बन्ध हटाउनुहोस्"
+
+#: widget/relations/kexirelationview.cpp:80
+msgid "&Open Selected Table/Query"
+msgstr "चयन गरिएको तालिका/क्वेरी खोल्नुहोस्"
+
+#: widget/utils/kexidisplayutils.cpp:109 widget/utils/kexidisplayutils.cpp:168
+msgid "(autonumber)"
+msgstr "(स्वचालित नम्बर)"
+
+#: widget/utils/kexirecordnavigator.cpp:81
+msgid "Row:"
+msgstr "पङ्क्ति:"
+
+#: widget/utils/kexirecordnavigator.cpp:93
+#: widget/utils/kexirecordnavigator.cpp:471
+msgid "First row"
+msgstr "पहिलो पङ्क्ति"
+
+#: widget/utils/kexirecordnavigator.cpp:100
+#: widget/utils/kexirecordnavigator.cpp:472
+msgid "Previous row"
+msgstr "अघिल्लो पङ्क्ति"
+
+#: widget/utils/kexirecordnavigator.cpp:112
+msgid "Current row number"
+msgstr "हालको पङ्क्ति नम्बर"
+
+#: widget/utils/kexirecordnavigator.cpp:114
+msgid "of"
+msgstr "को"
+
+#: widget/utils/kexirecordnavigator.cpp:129
+msgid "Number of rows"
+msgstr "पङ्क्तिहरूको नम्बर"
+
+#: widget/utils/kexirecordnavigator.cpp:141
+#: widget/utils/kexirecordnavigator.cpp:473
+msgid "Next row"
+msgstr "पछिल्लो पङ्क्ति"
+
+#: widget/utils/kexirecordnavigator.cpp:147
+#: widget/utils/kexirecordnavigator.cpp:474
+msgid "Last row"
+msgstr "अन्तिम पङ्क्ति"
+
+#: widget/utils/kexirecordnavigator.cpp:154
+#: widget/utils/kexirecordnavigator.cpp:475
+msgid "New row"
+msgstr "नयाँ पङ्क्ति"
+
+#: widget/utils/kexirecordnavigator.cpp:457
+msgid "Editing indicator"
+msgstr "सूचक सम्पादन गर्दै"
+
+#: widget/utils/kexirecordnavigator.cpp:471
+msgid "Go to first row"
+msgstr "पहिलो पङ्क्तिमा जानुहोस्"
+
+#: widget/utils/kexirecordnavigator.cpp:472
+msgid "Go to previous row"
+msgstr "अघिल्लो पङ्क्तिमा जानुहोस्"
+
+#: widget/utils/kexirecordnavigator.cpp:473
+msgid "Go to next row"
+msgstr "पछिल्लो पङ्क्तिमा जानुहोस्"
+
+#: widget/utils/kexirecordnavigator.cpp:474
+msgid "Go to last row"
+msgstr "अन्तिम पङ्क्तिमा जानुहोस्"
+
+#: widget/utils/kexirecordnavigator.cpp:475
+msgid "Go to new row"
+msgstr "नयाँ पङ्क्तिमा जानुहोस्"
+
+#: widget/utils/kexicontextmenuutils.cpp:65
+msgid "Insert From &File..."
+msgstr "फाइलबाट घुसाउनुहोस्..."
+
+#: widget/utils/kexicontextmenuutils.cpp:78
+msgid "&Clear"
+msgstr "खाली गर्नुहोस्"
+
+#: widget/utils/kexicontextmenuutils.cpp:105
+#: widget/utils/kexicontextmenuutils.cpp:111
+msgid "Insert Image From File"
+msgstr "फाइलबाट छवि घुसाउनुहोस्"
+
+#: widget/utils/kexicontextmenuutils.cpp:165
+#: widget/utils/kexicontextmenuutils.cpp:169
+msgid "Save Image to File"
+msgstr "फाइलमा छवि बचत गर्नुहोस्"
+
+#: widget/utils/kexicontextmenuutils.cpp:188
+msgid ""
+"File \"%1\" already exists.<p>Do you want to replace it with a new one?"
+msgstr ""
+"फाइल \"%1\" पहिले नै अवस्थित छ ।<p> के तपाईँ यसलाई नयाँसँग बदल्न चाहनुहुन्छ?"
+
+#: main/keximainwindowimpl.cpp:3123 migration/importwizard.cpp:824
+#: widget/utils/kexicontextmenuutils.cpp:191
+msgid "&Replace"
+msgstr "बदल्नुहोस्"
+
+#: widget/utils/kexicontextmenuutils.cpp:191
+msgid "&Don't Replace"
+msgstr "प्रतिस्थापन नगर्नुहोस्"
+
+#: widget/utils/kexicontextmenuutils.cpp:270
+msgid ""
+"_: Object name : Object type\n"
+"%1 : %2"
+msgstr ""
+
+#: widget/kexicharencodingcombobox.cpp:68
+#, c-format
+msgid ""
+"_: Text encoding: Default\n"
+"Default: %1"
+msgstr "पूर्वनिर्धारित: %1"
+
+#: widget/kexiqueryparameters.cpp:39
+msgid ""
+"_: Enter Query Parameter Value\n"
+"Enter Parameter Value"
+msgstr "परिमिति मान प्रविष्ट गर्नुहोस्"
+
+#: widget/kexiqueryparameters.cpp:59
+msgid ""
+"_: Boolean True - Yes\n"
+"Yes"
+msgstr "हो"
+
+#: widget/kexiqueryparameters.cpp:59
+msgid ""
+"_: Boolean False - No\n"
+"No"
+msgstr "होइन"
+
+#: widget/kexiscrollview.cpp:357
+msgid "Outer Area"
+msgstr "बाहिरी क्षेत्र"
+
+#: widget/kexiscrollview.cpp:358
+msgid ""
+"Outer\n"
+"Area"
+msgstr ""
+"बाहिरी\n"
+"क्षेत्र"
+
+#: widget/kexidbconnectionwidget.cpp:85
+msgid "Load database list from the server"
+msgstr "सर्भरबाट डाटाबेस सूची लोड गर्नुहोस्"
+
+#: widget/kexidbconnectionwidget.cpp:87
+msgid ""
+"Loads database list from the server, so you can select one using the "
+"\"Name\" combo box."
+msgstr ""
+"सर्भरबाट डाटाबेस सूची लोड गर्दछ, त्यसैले तपाईँले \"नाम\" कम्बो बाकस प्रयोग "
+"गरेर एउटा चयन गर्न सक्नुहुन्छ ।"
+
+#: widget/kexidbconnectionwidget.cpp:91
+msgid "Save Changes"
+msgstr "परिवर्तनहरू बचत गर्नुहोस्"
+
+#: widget/kexidbconnectionwidget.cpp:92
+msgid "Save all changes made to this connection information"
+msgstr "यस जडान सूचनामा बनाइएको सबै परिवर्तनहरू बचत गर्नुहोस्"
+
+#: widget/kexidbconnectionwidget.cpp:93
+msgid ""
+"Save all changes made to this connection information. You can later reuse "
+"this information."
+msgstr ""
+"यस जडान सूचनामा गरिएको सबै परिवर्तनहरू बचत गर्नुहोस्। तपाईं यसलाई पछि पुन: "
+"प्रयोग गर्न सक्नुहुन्छ।"
+
+#: widget/kexidbconnectionwidget.cpp:100
+msgid "&Test Connection"
+msgstr "जडान परीक्षण गर्नुहोस्"
+
+#: widget/kexidbconnectionwidget.cpp:101
+msgid "Test database connection"
+msgstr "डाटाबेस जडान परीक्षण गर्नुहोस्"
+
+#: widget/kexidbconnectionwidget.cpp:102
+msgid ""
+"Tests database connection. You can ensure that valid connection information "
+"is provided."
+msgstr ""
+"डाटाबेस जडान परीक्षण गर्नुहोस्। तपाईंले मान्य जडान सूचना प्रदान गर्नुभएको छ "
+"भनेर निश्चित गर्न सक्नुहुन्छ।"
+
+#: widget/kexidbconnectionwidget.cpp:132
+msgid "Database Connection"
+msgstr "डाटाबेस जडान"
+
+#: widget/kexidbconnectionwidget.cpp:141
+msgid "Database"
+msgstr "डाटाबेस"
+
+#: widget/kexidbconnectionwidget.cpp:229
+msgid "Parameters"
+msgstr "परिमिति"
+
+#: widget/kexidbconnectionwidget.cpp:238
+msgid "Details"
+msgstr "विवरण"
+
+#: widget/kexidbconnectionwidget.cpp:341
+msgid "Open Database"
+msgstr "डाटाबेस खोल्नुहोस्"
+
+#: main/startup/KexiProjectSelector.cpp:243 main/startup/KexiStartup.cpp:169
+#: widget/kexibrowser.cpp:126 widget/kexidbconnectionwidget.cpp:345
+#: widget/kexidbconnectionwidget.cpp:360
+msgid "&Open"
+msgstr "खोल्नुहोस्"
+
+#: main/startup/KexiProjectSelector.cpp:243
+#: widget/kexidbconnectionwidget.cpp:345 widget/kexidbconnectionwidget.cpp:360
+msgid "Open Database Connection"
+msgstr "डाटाबेस जडान खोल्नुहोस्"
+
+#: widget/kexidbconnectionwidget.cpp:356
+msgid "Connect to a Database Server"
+msgstr "डाटाबेस सर्भरमा जडान गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:780 widget/kexibrowser.cpp:84
+msgid "Project Navigator"
+msgstr "परियोजना नेभिगेटर"
+
+#: widget/kexibrowser.cpp:128
+msgid "Open object"
+msgstr "वस्तु खोल्नुहोस्"
+
+#: widget/kexibrowser.cpp:129
+msgid "Opens object selected in the list"
+msgstr "सूचीमा चयन गरिएको वस्तु खोल्दछ"
+
+#: widget/kexibrowser.cpp:153
+msgid "&Rename"
+msgstr "पुन: नामकरण गर्नुहोस्"
+
+#: widget/kexibrowser.cpp:161
+msgid "&Design"
+msgstr "डिजाइन"
+
+#: widget/kexibrowser.cpp:163
+msgid "Design object"
+msgstr "वस्तु डिजाइन गर्नुहोस्"
+
+#: widget/kexibrowser.cpp:164
+msgid "Starts designing of the object selected in the list"
+msgstr "सूचीमा चयन गरिएको वस्तुको डिजाइन गर्दा सुरु गर्दछ"
+
+#: widget/kexibrowser.cpp:170
+msgid "Open in &Text View"
+msgstr "पाठ दृश्यमा खोल्नुहोस्"
+
+#: widget/kexibrowser.cpp:172
+msgid "Open object in text view"
+msgstr "पाठ दृश्यमा वस्तु खोल्नुहोस्"
+
+#: widget/kexibrowser.cpp:173
+msgid "Opens selected object in the list in text view"
+msgstr "पाठ दृश्यको सूचीमा चयन गरिएको वस्तु खोल्दछ"
+
+#: widget/kexibrowser.cpp:197
+msgid ""
+"_: Export->To File as Data &Table... \n"
+"To &File as Data Table..."
+msgstr "डेटा तालिकाको रूपमा फाइलमा..."
+
+#: widget/kexibrowser.cpp:200
+msgid ""
+"Exports data from the currently selected table or query data to a file."
+msgstr "हालै चयन गरिएको तालिका वा क्वेरी डेटाबाट फाइलमा डेटा निर्यात गर्दछ ।"
+
+#: widget/kexibrowser.cpp:206
+msgid "Prints data from the currently selected table or query."
+msgstr "हालै चयन गरिएको तालिका वा क्वेरीबाट डेटा मुद्रण गर्दछ ।"
+
+#: widget/kexibrowser.cpp:207
+msgid "Page Setup..."
+msgstr "पृष्ठ सेटअप..."
+
+#: main/keximainwindowimpl.cpp:660 widget/kexibrowser.cpp:210
+msgid "Shows page setup for printing the active table or query."
+msgstr "सक्रिय तालिका वा क्वेरी मुद्रण गर्नका लागि पृष्ठ सेटअप देखाउदछ ।"
+
+#: widget/kexibrowser.cpp:341
+msgid "Errors encountered during loading plugins:"
+msgstr "प्लगइन लोड गर्दा त्रुटि देखापर्यो:"
+
+#: widget/kexibrowser.cpp:526
+msgid "&Create Object: %1..."
+msgstr "वस्तु सिर्जना गर्नुहोस्: %1..."
+
+#: widget/kexibrowser.cpp:531
+#, c-format
+msgid "Create object: %1"
+msgstr "वस्तु सिर्जना गर्नुहोस्: %1"
+
+#: widget/kexibrowser.cpp:533
+#, c-format
+msgid "Creates a new object: %1"
+msgstr "नयाँ वस्तु सिर्जना गर्दछ: %1"
+
+#: widget/kexibrowser.cpp:538
+msgid "&Create Object..."
+msgstr "वस्तु सिर्जना गर्नुहोस्..."
+
+#: widget/kexibrowser.cpp:543
+msgid "Create object"
+msgstr "वस्तु सिर्जना गर्नुहोस्"
+
+#: widget/kexibrowser.cpp:544
+msgid "Creates a new object"
+msgstr "नयाँ वस्तु सिर्जना गर्दछ"
+
+#: widget/kexidatasourcecombobox.cpp:128
+msgid "Define Query..."
+msgstr "क्वेरी परिभाषित गर्नुहोस्..."
+
+#: widget/pixmapcollection.cpp:154
+msgid "Load KDE Icon by Name"
+msgstr "नामद्वार KDE प्रतिमा लोड गर्नुहोस्"
+
+#: widget/pixmapcollection.cpp:160
+msgid "&Name:"
+msgstr "नाम:"
+
+#: widget/pixmapcollection.cpp:168
+msgid "&Size:"
+msgstr "साइज:"
+
+#: widget/pixmapcollection.cpp:176
+msgid "Small"
+msgstr "सानो"
+
+#: widget/pixmapcollection.cpp:176
+msgid "Medium"
+msgstr "मध्यम"
+
+#: widget/pixmapcollection.cpp:176
+msgid "Large"
+msgstr "ठूलो"
+
+#: widget/pixmapcollection.cpp:176
+msgid "Huge"
+msgstr "भयङ्कर"
+
+#: widget/pixmapcollection.cpp:235
+#, c-format
+msgid "Edit Pixmap Collection: %1"
+msgstr "पिक्सम्याप सङ्ग्रह सम्पादन गर्नुहोस्: %1"
+
+#: widget/pixmapcollection.cpp:246
+msgid "&Add File"
+msgstr "फाइल थप्नुहोस्"
+
+#: widget/pixmapcollection.cpp:253
+msgid "&Add an Icon"
+msgstr "एउटा प्रतिमा थप्नुहोस्"
+
+#: widget/pixmapcollection.cpp:260
+msgid "&Remove Selected Item"
+msgstr "चयन गरिएको वस्तु हटाउनुहोस्"
+
+#: widget/pixmapcollection.cpp:314
+msgid "Do you want to remove item \"%1\" from collection \"%2\"?"
+msgstr "के तपाईँ सङ्ग्रह \"%2\" बाट \"%1\" वस्तु हटाउन चाहनुहुन्छ?"
+
+#: widget/pixmapcollection.cpp:369
+msgid "Rename Item"
+msgstr "वस्तु पुन: नामकरण गर्नुहोस्"
+
+#: widget/pixmapcollection.cpp:370
+msgid "Remove Item"
+msgstr "वस्तु हटाउनुहोस्"
+
+#: widget/pixmapcollection.cpp:376
+#, c-format
+msgid "Select Pixmap From %1"
+msgstr "%1 बाट पिक्सम्याप चयन गर्नुहोस्"
+
+#: widget/pixmapcollection.cpp:377
+msgid "Edit Collection..."
+msgstr "सङ्ग्रह सम्पादन गर्नुहोस्..."
+
+#: widget/kexifieldlistview.cpp:58
+msgid "Field Name"
+msgstr "फिल्ड नाम"
+
+#: widget/kexifieldlistview.cpp:99
+msgid "* (All Columns)"
+msgstr "* (सबै स्तम्भ)"
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:160
+msgid "%1 - Print Preview - %2"
+msgstr "%1 - मुद्रण पूर्वावलोकन - %2"
+
+#: main/keximainwindowimpl.cpp:654
+#: main/printing/kexisimpleprintpreviewwindow.cpp:176
+msgid "Page Set&up..."
+msgstr "पृष्ठ सेटअप..."
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:183
+msgid "Zoom In"
+msgstr "जुम बढाउनुहोस्"
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:187
+msgid "Zoom Out"
+msgstr "जुम घटाउनुहोस्"
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:216
+msgid "First Page"
+msgstr "पहिलो पृष्ठ"
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:220
+msgid "Previous Page"
+msgstr "अघिल्लो पृष्ठ"
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:227
+msgid "Next Page"
+msgstr "पछिल्लो पृष्ठ"
+
+#: main/printing/kexisimpleprintpreviewwindow.cpp:231
+msgid "Last Page"
+msgstr "अन्तिम पृष्ठ"
+
+#: main/printing/kexisimpleprintingengine.cpp:328
+#: main/printing/kexisimpleprintpreviewwindow.cpp:318
+msgid ""
+"_: Page (number) of (total)\n"
+"Page %1 of %2"
+msgstr "%2 को %1 पृष्ठ"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:93
+#: main/printing/kexisimpleprintingpart.cpp:32
+#: main/printing/kexisimpleprintingpart.cpp:42
+msgid "Printing"
+msgstr "मुद्रण गर्दै"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:254
+msgid "Print Preview"
+msgstr "मुद्रण पूर्वावलोकन"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:343
+msgid "Print Previe&w..."
+msgstr "मुद्रण पूर्वावलोकन..."
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:348
+msgid "Changes font for title text."
+msgstr "शीर्षक पाठका लागि फन्ट परिवर्तन गर्दछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:356
+msgid "Open This Query"
+msgstr "यो क्वेरी खोल्नुहोस्"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:357
+msgid "<h2>Page setup for printing \"%1\" query data</h2>"
+msgstr "<h2>\"%1\" क्वेरी डेटा मुद्रणका लागि पृष्ठ सेटअप</h2>"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:366
+#: main/printing/kexisimpleprintingpagesetup.cpp:368
+msgid "Shows data for table or query associated with this page setup."
+msgstr "यो पृष्ठ सेटअपसँग सम्बन्धित क्वेरी वा तालिकाका लागि डेटा देखाउँदछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:371
+msgid "Saves settings for this setup as default."
+msgstr "पूर्वनिर्धारित रूपमा यो सेटअपका लागि सेटिङहरू बचत गर्दछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:379
+msgid "Adds date and time to the header."
+msgstr "डेटा र समयलाई हेडरमा थप्दछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:380
+msgid "Adds page numbers to the footer."
+msgstr "पृष्ठ नम्बरलाई फुटरमा थप्दछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:381
+msgid "Adds table borders."
+msgstr "तालिका किनारा थप्दछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:390
+msgid "Changes page size and margins."
+msgstr "पृष्ठ साइज र सीमान्तहरू परिवर्तन गर्दछ ।"
+
+#: main/printing/kexisimpleprintingpagesetup.cpp:452
+msgid "margins:"
+msgstr "सीमान्त:"
+
+#: main/printing/kexisimpleprintingengine.cpp:150
+msgid "Could not load data from table or query."
+msgstr "तालिका वा क्वेरीबाट डेटा लोड गर्न सकेन ।"
+
+#: main/printing/kexisimpleprintingengine.cpp:331
+#, c-format
+msgid "Page %1"
+msgstr "%1 पृष्ठ"
+
+#: main/printing/kexisimpleprintingengine.cpp:454
+msgid ""
+"_: Boolean Yes (true)\n"
+"Yes"
+msgstr "हो"
+
+#: main/printing/kexisimpleprintingengine.cpp:454
+msgid ""
+"_: Boolean No (false)\n"
+"No"
+msgstr "होइन"
+
+#: main/startup/KexiStartup_p.cpp:75
+msgid "Saving \"%1\" project file to a new \"%2\" database format..."
+msgstr "\"%1\" परियोजना फाइल नयाँ \"%2\" डाटाबेस ढाँचामा बचत गरिँदैछ..."
+
+#: main/startup/KexiStartupDialog.cpp:135
+msgid "Create Project"
+msgstr "परियोजना सिर्जना गर्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:137
+msgid "Open Existing Project"
+msgstr "अवस्थित परियोजना खोल्नुहोस्"
+
+#: main/startup/KexiProjectSelector.cpp:222
+#: main/startup/KexiStartupDialog.cpp:139
+msgid "Open Recent Project"
+msgstr "भर्खरको परियोजना खोल्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:141
+msgid "Choose Project"
+msgstr "परियोजना छनोट गर्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:296
+msgid "&Create Project"
+msgstr "परियोजना सिर्जना गर्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:310
+msgid "Don't show me this dialog again"
+msgstr "मलाई फेरि यो संवाद नदेखाउनुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:321
+msgid "Click \"OK\" button to proceed."
+msgstr "अगाडि जानका लागि \"ठीक छ\" बटन क्लिक गर्नुहोस् ।"
+
+#: main/startup/KexiStartupDialog.cpp:323
+msgid "Blank Database"
+msgstr "खाली डाटाबेस"
+
+#: main/startup/KexiStartupDialog.cpp:323
+msgid "New Blank Database Project"
+msgstr "नयाँ खाली डाटाबेस परियोजना"
+
+#: main/startup/KexiStartupDialog.cpp:326
+msgid "Kexi will create a new blank database project."
+msgstr "केक्सीले नयाँ खाली डाटाबेस परियोजना सिर्जना गर्नेछ ।"
+
+#: main/startup/KexiStartupDialog.cpp:339
+msgid ""
+"_: Keep this text narrow: split to multiple rows if needed\n"
+"Create From\n"
+"Template"
+msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:340
+msgid "New Database Project From Template"
+msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:343
+msgid ""
+"Kexi will create a new database project using selected template.\n"
+"Select template and click \"OK\" button to proceed."
+msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:386
+msgid ""
+"Import Existing\n"
+"Database"
+msgstr ""
+"अवस्थित डाटाबेस\n"
+"आयात गर्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:386
+msgid "Import Existing Database as New Database Project"
+msgstr "अवस्थित डाटाबेसलाई नयाँ डाटाबेस परियोजनाको रूपमा आयात गर्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:390
+msgid ""
+"Kexi will import the structure and data of an existing database as a new "
+"database project."
+msgstr ""
+"केक्सीले नयाँ डाटाबेस परियोजनाको रूपमा अवस्थित डाटाबेसको डेटा र बनावट आयात "
+"गर्नेछ ।"
+
+#: main/startup/KexiStartupDialog.cpp:547
+msgid "Open &Existing Project"
+msgstr "अवस्थित परियोजना खोल्नुहोस्"
+
+#: main/startup/KexiStartupDialog.cpp:631
+msgid "Open &Recent Project"
+msgstr "भर्खरका परियोजना खोल्नुहोस्"
+
+#: main/startup/KexiStartupFileDialog.cpp:204
+msgid "All Supported Files"
+msgstr "सबै समर्थित फाइल"
+
+#: main/startup/KexiStartupFileDialog.cpp:292
+#: main/startup/KexiStartupFileDialog.cpp:308
+msgid "Enter a filename."
+msgstr "फाइलनाम प्रविष्ट गर्नुहोस् ।"
+
+#: main/startup/KexiStartupFileDialog.cpp:302
+msgid "The file \"%1\" does not exist."
+msgstr "फाइल \"%1\" अवस्थित छैन ।"
+
+#: main/startup/KexiStartupFileDialog.cpp:312
+msgid "The file \"%1\" is not readable."
+msgstr "फाइल \"%1\" पढ्नयोग्य छैन ।"
+
+#: main/startup/KexiStartupFileDialog.cpp:331
+msgid ""
+"The file \"%1\" already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"फाइल \"%1\" पहिलेनै अवस्थित छ ।\n"
+"के तपाईं यसलाई अधिलेखन गर्न चाहनुहुन्छ?"
+
+#: main/startup/KexiStartupFileDialog.cpp:333
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:148
+msgid "Add a new database connection"
+msgstr "नयाँ डाटाबेस जडान थप्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:149
+msgid "Edit selected database connection"
+msgstr "चयन गरिएको डाटाबेस जडान सम्पादन गर्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:150
+msgid "Remove selected database connections"
+msgstr "चयन गरिएको डाटाबेस जडान हटाउनुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:362
+msgid "Add database connection"
+msgstr "डाटाबेस जडान थप्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:363
+msgid "Add New Database Connection"
+msgstr "नयाँ डाटाबेस जडान थप्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:387
+msgid "Save changes made to this database connection"
+msgstr "यो डाटाबेस जडानमा बनाइएको परिवर्तन बचत गर्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:388
+msgid "Edit Database Connection"
+msgstr "डाटाबेस जडान सम्पादन गर्नुहोस्"
+
+#: main/startup/KexiConnSelector.cpp:409
+msgid ""
+"Do you want to remove database connection \"%1\" from the list of available "
+"connections?"
+msgstr "तपाईँले उपलब्ध जडानको सूचीबाट \"%1\" डाटाबेस जडान हटाउन चाहनुहुन्छ ?"
+
+#: main/startup/KexiNewProjectWizard.cpp:93
+msgid "Creating New Project"
+msgstr "नयाँ परियोजना सिर्जना गर्दै"
+
+#: main/startup/KexiNewProjectWizard.cpp:94
+msgid "Create"
+msgstr "सिर्जना गर्नुहोस्"
+
+#: main/startup/KexiNewProjectWizard.cpp:108
+msgid "New Project Stored in File"
+msgstr "फाइलमा भण्डारण गरिएको नयाँ परियोजना"
+
+#: main/startup/KexiNewProjectWizard.cpp:116
+msgid "New Project Stored on Database Server"
+msgstr "डाटाबेस सर्भरमा भण्डारण गरिएको नयाँ परियोजना"
+
+#: main/startup/KexiNewProjectWizard.cpp:134
+msgid "Select Storage Method"
+msgstr "भण्डारण विधि चयन गर्नुहोस्"
+
+#: main/startup/KexiNewProjectWizard.cpp:139
+msgid "Select Project's Caption"
+msgstr "परियोजनाको क्याप्सन चयन गर्नुहोस्"
+
+#: main/startup/KexiNewProjectWizard.cpp:144
+msgid "Enter a new Kexi project's file name:"
+msgstr "नयाँ केक्सी परियोजनाको फाइल नाम प्रविष्ट गर्नुहोस्:"
+
+#: main/startup/KexiNewProjectWizard.cpp:160
+msgid ""
+"Select database server's connection you wish to use to create a new Kexi "
+"project. <p>Here you may also add, edit or remove connections from the list."
+msgstr ""
+"तपाईँले नयाँ केक्सी परियोजना सिर्जना गर्न प्रयोग गर्न चाहनु भएको डाटाबेस "
+"सर्भरको जडान चयन गर्नुहोस् । <p>यहाँ तपाईँले सूचीबाट जडान थप्न, सम्पादन गर्न "
+"वा हटाउन सक्नुहुन्छ ।"
+
+#: main/startup/KexiNewProjectWizard.cpp:177
+msgid "Select Project's Location"
+msgstr "परियोजनाको स्थान चयन गर्नुहोस्"
+
+#: main/startup/KexiNewProjectWizard.cpp:181
+msgid "Existing project databases on <b>%1</b> database server:"
+msgstr "<b>%1</b> डाटाबेस सर्भरमा अवस्थित परियोजना डाटाबेस:"
+
+#: main/startup/KexiNewProjectWizard.cpp:190
+#: main/startup/KexiNewProjectWizard.cpp:244
+msgid "New database"
+msgstr "नयाँ डाटाबेस"
+
+#: main/startup/KexiNewProjectWizard.cpp:198
+msgid "Select Project's Caption & Database Name"
+msgstr "परियोजनाको क्याप्सन र डाटाबेस नाम चयन गर्नुहोस्"
+
+#: main/startup/KexiNewProjectWizard.cpp:288
+#: main/startup/KexiNewProjectWizard.cpp:327
+msgid "Enter project caption."
+msgstr "परियोजना क्याप्सन प्रविष्ट गर्नुहोस् ।"
+
+#: main/startup/KexiNewProjectWizard.cpp:300
+msgid "Select server connection for a new project."
+msgstr "नयाँ परियोजनाका लागि सर्भर जडान चयन गर्नुहोस् ।"
+
+#: main/startup/KexiNewProjectWizard.cpp:334
+msgid "Enter project's database name."
+msgstr "परियोजनाको डाटाबेस नाम प्रविष्ट गर्नुहोस् ।"
+
+#: main/startup/KexiNewProjectWizard.cpp:343
+msgid ""
+"<b>A project with database name \"%1\" already exists</b><p>Do you want to "
+"delete it and create a new one?"
+msgstr ""
+"<b>परियोजनासँगको डाटाबेस नाम \"%1\" पहिले नै अवस्थित छ</b><p>के तपाईं यसलाई "
+"मेट्न चाहनुहुन्छ र नयाँ सिर्जना गर्न चाहनुहुन्छ ?"
+
+#: main/startup/KexiStartup.cpp:143
+msgid "Opening database"
+msgstr "डाटाबेस खोल्दै"
+
+#: main/startup/KexiStartup.cpp:144
+msgid "Please enter the password."
+msgstr "कृपया पासवर्ड प्रविष्ट गर्नुहोस् ।"
+
+#: main/startup/KexiStartup.cpp:151
+msgid "local database server"
+msgstr "स्थानिय डाटाबेस सर्भर"
+
+#: main/startup/KexiStartup.cpp:153
+#, c-format
+msgid "Database server: %1"
+msgstr "डाटाबेस सर्भर: %1"
+
+#: main/startup/KexiStartup.cpp:157
+msgid ""
+"_: unspecified user\n"
+"(unspecified)"
+msgstr "(निर्दिष्ट नगरिएको)"
+
+#: main/startup/KexiStartup.cpp:161
+#, c-format
+msgid "Username: %1"
+msgstr "प्रयोगकर्तानाम: %1"
+
+#: main/startup/KexiStartup.cpp:167
+msgid "&Details"
+msgstr "विवरण"
+
+#: main/startup/KexiStartup.cpp:284
+msgid ""
+"Could not read connection information from connection shortcut file "
+"<nobr>\"%1\"</nobr>.<br><br>Check whether the file has valid contents."
+msgstr ""
+"<nobr>\"%1\"</nobr> जडान सर्टकट फाइलबाट जडान सूचना पढ्न सकेन ।<br><br>त्यो "
+"फाइलमा वैध सामग्री छ की छैन जाँच गर्नुहोस् ।"
+
+#: main/startup/KexiStartup.cpp:297
+msgid ""
+"You have specified invalid argument (\"%1\") for \"type\" command-line "
+"option."
+msgstr ""
+"तपाईँले \"type\" आदेश रेखा विकल्पका लागि (\"%1\") अवैध तर्क निर्दिष्ट गर्नु "
+"भएको छ ।"
+
+#: main/startup/KexiStartup.cpp:352
+msgid "You have specified invalid port number \"%1\"."
+msgstr "तपाईंले अवैध पोर्ट नम्बर \"%1\" निर्दिष्ट गर्नुभयो ।"
+
+#: main/startup/KexiStartup.cpp:368
+msgid "Could not start Kexi application this way."
+msgstr "यस प्रकारले केक्सी अनुप्रयोग सुरू गर्न सकिएन ।"
+
+#: main/startup/KexiStartup.cpp:372
+msgid "You have used both \"createdb\" and \"dropdb\" startup options."
+msgstr ""
+"तपाईंले दुवै \"createdb\" र \"dropdb\" सुरुआत विकल्प प्रयोग गर्नुभयो ।"
+
+#: main/startup/KexiStartup.cpp:378
+msgid "No project name specified."
+msgstr "कुनै परियोजना नाम निर्दिष्ट गरिएको छैन ।"
+
+#: main/startup/KexiStartup.cpp:413
+msgid "You have used both \"user-mode\" and \"design-mode\" startup options."
+msgstr ""
+"तपाईंले दुवै \"user-mode\" र \"design-mode\" सुरुआत विकल्प प्रयोग गर्नुभयो ।"
+
+#: main/startup/KexiStartup.cpp:436
+msgid ""
+"Could not remove project.\n"
+"The file \"%1\" does not exist."
+msgstr ""
+"परियोजना हटाउन सकेन ।\n"
+"फाइल \"%1\" अवस्थित छैन ।"
+
+#: main/startup/KexiStartup.cpp:478
+msgid ""
+"Could not open shortcut file\n"
+"\"%1\"."
+msgstr ""
+"सर्टकट फाइल \"%1\" खोल्न\n"
+"सकिएन ।"
+
+#: main/startup/KexiStartup.cpp:511
+msgid ""
+"Could not open connection data file\n"
+"\"%1\"."
+msgstr ""
+"जडान डेटा फाइल \"%1\" खोल्न\n"
+"सकिएन ।"
+
+#: main/startup/KexiStartup.cpp:598
+msgid ""
+"You have specified a few database objects to be opened automatically, using "
+"startup options.\n"
+"These options will be ignored because it is not available while creating or "
+"dropping projects."
+msgstr ""
+"तपाईँले सुरुआत विकल्पको प्रयोग गरेर, स्वचालित रूपमा खोल्न केही डाटाबेस वस्तु "
+"निर्दिष्ट गर्नु भएको छ ।\n"
+"ति विकल्पहरू परियोजना सिर्जना गर्दा वा छोड्दा उपलब्ध नभएकाले उपेक्षा गरिनेछ ।"
+
+#: main/startup/KexiStartup.cpp:614
+msgid "Project \"%1\" created successfully."
+msgstr "परियोजना \"%1\" सफलतापूर्वक सिर्जना गरियो ।"
+
+#: main/startup/KexiStartup.cpp:624
+msgid "Project \"%1\" dropped successfully."
+msgstr "परियोजना \"%1\" सफलता पूर्वक छोडियो ।"
+
+#: main/startup/KexiStartup.cpp:750 main/startup/KexiStartup.cpp:782
+msgid "<p>Could not open project.</p>"
+msgstr "<p>परियोजना खोल्न सकिएन ।</p>"
+
+#: main/startup/KexiStartup.cpp:751
+msgid ""
+"<p>The file <nobr>\"%1\"</nobr> does not exist or is not readable.</p>"
+msgstr "<p>फाइल <nobr>\"%1\"</nobr> अवस्थित छैन वा यो पढ्न योग्य छैन ।</p>"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:223
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:229
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:268
+#: main/startup/KexiStartup.cpp:753 main/startup/KexiStartup.cpp:785
+msgid ""
+"Check the file's permissions and whether it is already opened and locked by "
+"another application."
+msgstr ""
+"फाइलको अनुमति र यसलाई पहिल्यै अन्य अनुप्रयोगद्वारा लक गरिएको वा खोलिएको छ कि "
+"जाँच गर्नुहोस् ।"
+
+#: main/startup/KexiStartup.cpp:783
+msgid "<p>The file <nobr>\"%1\"</nobr> is not readable.</p>"
+msgstr "<p>फाइल <nobr>\"%1\"</nobr> पढ्न योग्य छैन ।</p>"
+
+#: main/startup/KexiStartup.cpp:805
+msgid ""
+"\"%1\" is an external file of type:\n"
+"\"%2\".\n"
+"Do you want to import the file as a Kexi project?"
+msgstr ""
+"\"%1\" एक प्रकारको बाह्य फाइल हो:\n"
+"\"%2\" ।\n"
+"के तपाईं केक्सी परियोजनाको रूपमा फाइल आयात गर्न चाहनुहुन्छ?"
+
+#: main/startup/KexiStartup.cpp:808
+msgid "Open External File"
+msgstr "बाह्य फाइल खोल्नुहोस्"
+
+#: main/startup/KexiStartup.cpp:808
+msgid "Import..."
+msgstr "आयात गर्नुहोस्..."
+
+#: main/startup/KexiStartup.cpp:830
+msgid ""
+"The project file \"%1\" is recognized as compatible with \"%2\" database "
+"driver, while you have asked for \"%3\" database driver to be used.\n"
+"Do you want to use \"%4\" database driver?"
+msgstr ""
+"तपाईँलाई \"%3\" डाटाबेस ड्राइभर प्रयोगका लागि सोधिएको बेलामा, \"%1\" "
+"परियोजना फाइललाई \"%2\" डाटाबेस ड्राइभरसँग अनुकूल भएको पहिचान गरिन्छ । \n"
+"के तपाईँले \"%4\" डाटाबेस ड्राइभर प्रयोग गर्न चाहनुहुन्छ ?"
+
+#: main/startup/KexiStartup.cpp:852
+msgid ""
+"Previous version of database file format (\"%1\") is detected in the \"%2\" "
+"project file.\n"
+"Do you want to convert the project to a new \"%3\" format (recommended)?"
+msgstr ""
+"(\"%1\") डाटाबेस फाइल ढाँचाको अघिल्लो संस्करण \"%2\" परियोजना फाइलमा पत्ता "
+"लाग्यो ।\n"
+"के तपाईँले परियोजनालाई नयाँ \"%3\" ढाँचा (सुझाव गरिएको) मा रूपान्तरण गर्न "
+"चाहनुहुन्छ ?"
+
+#: main/startup/KexiStartup.cpp:863
+msgid ""
+"Failed to convert project file \"%1\" to a new \"%2\" format.\n"
+"The file format remains unchanged."
+msgstr ""
+"\"%1\" परियोजना फाइललाई \"%2\" नयाँ ढाँचामा रूपान्तरण गर्न असफल भयो ।\n"
+"फाइल ढाँचा परिवर्तन भएको छैन ।"
+
+#: main/startup/KexiStartup.cpp:875
+msgid "Possible problems:"
+msgstr "सम्भावित समस्या:"
+
+#: main/startup/KexiStartup.cpp:880
+msgid "The file \"%1\" is not recognized as being supported by Kexi."
+msgstr "फाइल \"%1\" केक्सीद्वारा समर्थितको रूपमा पहिचान गर्दैन ।"
+
+#: main/startup/KexiStartup.cpp:883
+#, c-format
+msgid ""
+"Database driver for this file type not found.\n"
+"Detected MIME type: %1"
+msgstr ""
+"यो फाइल प्रकारका लागि डाटाबेस ड्राइभर फेला परेन ।\n"
+"पत्ता लगाइएको MIME प्रकार: %1"
+
+#: main/startup/KexiStartup.cpp:919 main/startup/KexiStartup.cpp:923
+msgid ""
+"Could not load list of available projects for <b>%1</b> database server."
+msgstr ""
+"<b>%1</b> डाटाबेस सर्भरका लागि उपलब्ध परियोजनाको सूचीको लोड गर्न सकिँदैन ।"
+
+#: main/startup/KexiStartup.cpp:954
+msgid ""
+"Failed saving connection data to\n"
+"\"%1\" file."
+msgstr ""
+"\"%1\" फाइलमा जडान डेटा बचत\n"
+"गर्न असफल भयो ।"
+
+#: main/startup/KexiProjectSelector.cpp:236
+msgid "Open Project"
+msgstr "परियोजना खोल्नुहोस्"
+
+#: main/startup/KexiProjectSelector.cpp:250
+msgid "Select a project on <b>%1</b> database server to open:"
+msgstr "परियोजना <b>%1</b> डाटाबेस सर्भरमा खोल्नका लागि चयन गर्नुहोस्:"
+
+#: main/keximainwindowimpl_p.h:222
+msgid "Could not start %1 application."
+msgstr "%1 अनुप्रयोग सुरू गर्न सकेन ।"
+
+#: main/keximainwindowimpl_p.h:223
+msgid "Command \"%1\" failed."
+msgstr "आदेश \"%1\" असफल भयो ।"
+
+#: main/kexinamewidget.cpp:73
+msgid "Caption:"
+msgstr "क्याप्सन:"
+
+#: main/kexinamewidget.cpp:94
+msgid "Please enter the name."
+msgstr "कृपया नाम प्रविष्ट गर्नुहोस् ।"
+
+#: main/kexinamewidget.cpp:95
+msgid "Please enter the caption."
+msgstr "कृपया क्याप्सन प्रविष्ट गर्नुहोस् ।"
+
+#: main/keximainwindowimpl.cpp:331 main/keximainwindowimpl.cpp:396
+msgid "&Window"
+msgstr "सञ्झ्याल"
+
+#: main/keximainwindowimpl.cpp:344
+msgid "&Import"
+msgstr "आयात गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:345
+msgid "Paste &Special"
+msgstr "विशेष टाँस्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:348
+msgid "Task Bar"
+msgstr "कार्यपट्टी"
+
+#: main/keximainwindowimpl.cpp:369
+msgid ""
+"_: Close the current tab page in Kexi tab interface\n"
+"Close the current tab"
+msgstr "हालको ट्याब बन्द गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:467
+msgid ""
+"User interface mode will be switched to IDEAl at next %1 application startup."
+msgstr ""
+"प्रयोगकर्ता इन्टरफेस मोड अर्को %1 अनुप्रयोग सुरुआतमा IDEAL मा स्विच गरिनेछ ।"
+
+#: main/keximainwindowimpl.cpp:494
+msgid ""
+"User interface mode will be switched to Childframe at next %1 application "
+"startup."
+msgstr ""
+"प्रयोगकर्ता इन्टरफेस मोड अर्को %1 अनुप्रयोग सुरुआतमा शाखाफ्रेममा स्विच "
+"गरिनेछ ।"
+
+#: main/keximainwindowimpl.cpp:527
+msgid "&New..."
+msgstr "नयाँ..."
+
+#: main/keximainwindowimpl.cpp:529
+msgid "Create a new project"
+msgstr "नयाँ परियोजना सिर्जना गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:530
+msgid "Creates a new project. Currently opened project is not affected."
+msgstr "नयाँ परियोजना सिर्जना गर्दछ । हालै खोलिएको परियोजना प्रभावित हुदैन ।"
+
+#: main/keximainwindowimpl.cpp:533
+msgid "Open an existing project"
+msgstr "एउटा अवस्थित परियोजना खोल्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:534
+msgid "Opens an existing project. Currently opened project is not affected."
+msgstr ""
+"एउटा अवस्थित परियोजना खोल्दछ । हालै खोलिएको परियोजना प्रभावित हुँदैन ।"
+
+#: main/keximainwindowimpl.cpp:537
+msgid "&Download Example Databases..."
+msgstr "उदाहरण डाटाबेस डाउनलोड गर्नुहोस्..."
+
+#: main/keximainwindowimpl.cpp:539
+msgid "Download example databases from the Internet"
+msgstr "इन्टरनेटबाट उदाहरण डाटाबेस डाउनलोड गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:540
+msgid "Downloads example databases from the Internet."
+msgstr "इन्टरनेटबाट उदाहरण डाटाबेस डाउनलोड गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:568
+msgid "Save object changes"
+msgstr "वस्तु परिवर्तन बचत गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:569
+msgid "Saves object changes from currently selected window."
+msgstr "हालै चयन गरिएको सञ्झ्यालबाट वस्तु परिवर्तनहरू बचत गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:572
+msgid "Save &As..."
+msgstr "यस रूपमा बचत गर्नुहोस्..."
+
+#: main/keximainwindowimpl.cpp:574 main/keximainwindowimpl.cpp:2882
+msgid "Save object as"
+msgstr "यस रूपमा वस्तु बचत गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:576
+msgid ""
+"Saves object changes from currently selected window under a new name (within "
+"the same project)."
+msgstr ""
+"नयाँ नाम (उही परियोजना भित्र) अन्तर्गत हालै चयन गरिएको सञ्झ्यालबाट वस्तु "
+"परिवर्तनहरू बचत गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:578
+msgid "Project Properties"
+msgstr "परियोजना गुण"
+
+#: main/keximainwindowimpl.cpp:585
+msgid "&Close Project"
+msgstr "परियोजना बन्द गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:587
+msgid "Close the current project"
+msgstr "हालको परियोजना बन्द गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:588
+msgid "Closes the current project."
+msgstr "हालको परियोजना बन्द गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:593
+msgid "&Relationships..."
+msgstr "सम्बन्ध..."
+
+#: main/keximainwindowimpl.cpp:595
+msgid "Project relationships"
+msgstr "परियोजना सम्बन्ध"
+
+#: main/keximainwindowimpl.cpp:596
+msgid "Shows project relationships."
+msgstr "परियोजना सम्बन्ध देखाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:602
+msgid "&Import Database..."
+msgstr "डाटाबेस आयात गर्नुहोस्..."
+
+#: main/keximainwindowimpl.cpp:604
+msgid "Import entire database as a Kexi project"
+msgstr "केक्सी परियोजनाको रूपमा सम्पूर्ण डाटाबेस आयात गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:605
+msgid "Imports entire database as a Kexi project."
+msgstr "केक्सी परियोजनाको रूपमा सम्पूर्ण डाटाबेस आयात गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:608
+msgid "&Compact Database..."
+msgstr "डाटाबेस सङ्कुचन गर्नुहोस्..."
+
+#: main/keximainwindowimpl.cpp:610
+msgid "Compact the current database project"
+msgstr "हालको डाटाबेस परियोजना सङ्कुचन गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:612
+msgid ""
+"Compacts the current database project, so it will take less space and work "
+"faster."
+msgstr ""
+"हालको डाटाबेस परियोजना सङ्कुचन गर्दछ, किनकि यसले कम खाली स्थान लिन्छ र कार्य "
+"छिटो हुन्छ।"
+
+#: main/keximainwindowimpl.cpp:618
+msgid ""
+"_: Import->Table Data From File...\n"
+"Table Data From &File..."
+msgstr "फाइलबाट तालिका डेटा..."
+
+#: main/keximainwindowimpl.cpp:622
+msgid "Import table data from a file"
+msgstr "फाइलबाट तालिका डेटा आयात गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:623
+msgid "Imports table data from a file."
+msgstr "फाइलबाट तालिका डेटा आयात गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:627
+msgid ""
+"_: Export->Table or Query Data to File...\n"
+"Table or Query Data to &File..."
+msgstr "फाइलमा तालिका वा क्वेरी डेटा..."
+
+#: main/keximainwindowimpl.cpp:632
+msgid "Export data from the active table or query data to a file"
+msgstr "फाइलमा डेटा सक्रिय तालिका वा क्वेरी डेटाबाट निर्यात गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:634
+msgid "Exports data from the active table or query data to a file."
+msgstr "फाइलमा डेटा सक्रिय तालिका वा क्वेरी डेटाबाट निर्यात गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:643
+msgid "Print data from the active table or query"
+msgstr "सक्रिय तालिका वा क्वेरीबाट डेटा मुद्रण गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:644
+msgid "Prints data from the active table or query."
+msgstr "सक्रिय तालिका वा क्वेरीबाट डेटा मुद्रण गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:650
+msgid "Show print preview for the active table or query"
+msgstr "सक्रिय तालिका वा क्वेरीका लागि मुद्रण पूर्वावलोकन देखाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:652
+msgid "Shows print preview for the active table or query."
+msgstr "सक्रिय तालिका वा क्वेरीका लागि मुद्रण पूर्वावलोकन देखाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:658
+msgid "Show page setup for printing the active table or query"
+msgstr "सक्रिय तालिका वा क्वेरीका लागि पृष्ठ सेटअप देखाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:671
+msgid ""
+"_: Paste Special->As Data &Table...\n"
+"As Data &Table..."
+msgstr "डेटा तालिकाको रूपमा..."
+
+#: main/keximainwindowimpl.cpp:675
+msgid "Paste clipboard data as a table"
+msgstr "तालिकाको रूपमा क्लिपबोर्ड टाँस्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:677
+msgid "Pastes clipboard data to a table."
+msgstr "तालिकामा क्लिपबोर्ड डेटा टाँस्दछ ।"
+
+#: main/keximainwindowimpl.cpp:682
+msgid ""
+"_: Copy Special->Table or Query Data...\n"
+"Table or Query as Data Table..."
+msgstr "डेटा तालिकाको रूपमा तालिका वा क्वेरी..."
+
+#: main/keximainwindowimpl.cpp:686
+msgid "Copy selected table or query data to clipboard"
+msgstr "क्लिपबोर्डमा चयन तालिका वा क्वेरी डेटा प्रतिलिपि गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:688
+msgid "Copies selected table or query data to clipboard."
+msgstr "क्लिपबोर्डमा चयन तालिका वा क्वेरी डेटा प्रतिलिपि गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:691
+msgid "Reverts the most recent editing action."
+msgstr "हालैको सम्पादन कार्य उल्टाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:693
+msgid "Reverts the most recent undo action."
+msgstr "हालै पूर्वास्थितिमा फर्काइएको कार्य उल्टाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:720
+msgid "Delete selected object"
+msgstr "चयन गरिएको वस्तु मेट्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:721
+msgid "Deletes currently selected object."
+msgstr "हालै चयन गरिएको वस्तु मेट्दछ ।"
+
+#: main/keximainwindowimpl.cpp:723
+msgid "Delete Row"
+msgstr "पङ्क्ति मेट्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:725
+msgid "Delete currently selected row"
+msgstr "हालै चयन गरिएको पङ्क्ति मेट्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:726
+msgid "Deletes currently selected row."
+msgstr "हालै चयन गरिएको पङ्क्ति मेट्दछ ।"
+
+#: main/keximainwindowimpl.cpp:728
+msgid "Clear Table Contents"
+msgstr "तालिका सामग्री हटाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:730
+msgid "Clear table contents"
+msgstr "तालिका सामग्री हटाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:731
+msgid "Clears table contents."
+msgstr "तालिका सामग्री हटाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:734
+msgid "Edit Item"
+msgstr "वस्तु सम्पादन गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:736
+msgid "Edit currently selected item"
+msgstr "हालै चयन गरिएको वस्तु सम्पादन गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:737
+msgid "Edits currently selected item."
+msgstr "हालै चयन गरिएको वस्तु सम्पादन गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:739
+msgid "&Insert Empty Row"
+msgstr "खाली पङ्क्ति घुसाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:742
+msgid "Insert one empty row above"
+msgstr "माथि एउटा खाली पङ्क्ति घुसाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:743
+msgid "Inserts one empty row above currently selected table row."
+msgstr "हालै चयन गरिएको तालिका पङ्क्तिको माथि एउटा खाली पङ्क्ति घुसाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:747
+msgid "&Data View"
+msgstr "डेटा दृश्य"
+
+#: main/keximainwindowimpl.cpp:751
+msgid "Switch to data view"
+msgstr "डेटा दृश्यमा स्विच गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:752
+msgid "Switches to data view."
+msgstr "डेटा दृश्यमा स्विच गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:758
+msgid "D&esign View"
+msgstr "डिजाइन दृश्य"
+
+#: main/keximainwindowimpl.cpp:762
+msgid "Switch to design view"
+msgstr "डिजाइन दृश्यमा स्विच गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:763
+msgid "Switches to design view."
+msgstr "डिजाइन दृश्यमा स्विच गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:769
+msgid "&Text View"
+msgstr "पाठ दृश्य"
+
+#: main/keximainwindowimpl.cpp:773
+msgid "Switch to text view"
+msgstr "पाठ दृश्यमा स्विच गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:774
+msgid "Switches to text view."
+msgstr "पाठ दृश्यमा स्विच गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:782
+msgid "Go to project navigator panel"
+msgstr "परियोजना नेभिगेटर प्यानलमा जानुहोस्"
+
+#: main/keximainwindowimpl.cpp:783
+msgid "Goes to project navigator panel."
+msgstr "परियोजना नेभिगेटर प्यानलमा जान्छ ।"
+
+#: main/keximainwindowimpl.cpp:788
+msgid "Main Area"
+msgstr "मुख्य क्षेत्र"
+
+#: main/keximainwindowimpl.cpp:790
+msgid "Go to main area"
+msgstr "मुख्य क्षेत्रमा जानुहोस्"
+
+#: main/keximainwindowimpl.cpp:791
+msgid "Goes to main area."
+msgstr "मुख्य क्षेत्रमा जान्छ ।"
+
+#: main/keximainwindowimpl.cpp:794
+msgid "Property Editor"
+msgstr "गुण सम्पादक"
+
+#: main/keximainwindowimpl.cpp:796
+msgid "Go to property editor panel"
+msgstr "गुण सम्पादक प्यानलमा जानुहोस्"
+
+#: main/keximainwindowimpl.cpp:797
+msgid "Goes to property editor panel."
+msgstr "गुण सम्पादक प्यानलमा जान्छ ।"
+
+#: main/keximainwindowimpl.cpp:803
+msgid "&Save Row"
+msgstr "पङ्क्ति बचत गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:805
+msgid "Save changes made to the current row"
+msgstr "हालको पङ्क्तिमा गरिएको परिवर्तनहरू बचत गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:806
+msgid "Saves changes made to the current row."
+msgstr "हालको पङ्क्तिमा गरिएको परिवर्तनहरू बचत गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:809
+msgid "&Cancel Row Changes"
+msgstr "पङ्क्ति परिवर्तनहरू रद्द गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:811
+msgid "Cancel changes made to the current row"
+msgstr "हालको पङ्क्तिमा गरिएको परिवर्तनहरू रद्द गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:812
+msgid "Cancels changes made to the current row."
+msgstr "हालको पङ्क्तिमा गरिएको परिवर्तनहरू रद्द गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:815
+msgid "&Execute"
+msgstr "कार्यन्वयन गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:820
+msgid "&Filter"
+msgstr "फिल्टर"
+
+#: main/keximainwindowimpl.cpp:827
+msgid "&Ascending"
+msgstr "बढ्दो क्रम"
+
+#: main/keximainwindowimpl.cpp:829
+msgid "Sort data in ascending order"
+msgstr "बढ्दो क्रममा डेटालाई क्रमबद्व गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:830
+msgid ""
+"Sorts data in ascending order (from A to Z and from 0 to 9). Data from "
+"selected column is used for sorting."
+msgstr ""
+"(A देखि Z सम्म र ० देखि ९ सम्म) बढ्दो क्रममा डेटा क्रमबद्व गर्दछ । चयन "
+"गरिएको स्तम्भको डेटा क्रमबद्व गरिन्छ ।"
+
+#: main/keximainwindowimpl.cpp:832
+msgid "&Descending"
+msgstr "घट्दो क्रम"
+
+#: main/keximainwindowimpl.cpp:834
+msgid "Sort data in descending order"
+msgstr "डेटा घट्दो क्रममा क्रमबद्व गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:835
+msgid ""
+"Sorts data in descending (from Z to A and from 9 to 0). Data from selected "
+"column is used for sorting."
+msgstr ""
+"(Z देखि A सम्म र ९ देखि ० सम्म) घट्दो क्रममा डेटा क्रमबद्व गर्दछ । चयन "
+"गरिएको स्तम्भको डेटा क्रमबद्व गरिन्छ ।"
+
+#: main/keximainwindowimpl.cpp:845
+msgid "&Font..."
+msgstr "फन्ट..."
+
+#: main/keximainwindowimpl.cpp:846
+msgid "Change font for selected object"
+msgstr "चयन गरिएको वस्तुका लागि फन्ट परिवर्तन गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:847
+msgid "Changes font for selected object."
+msgstr "चयन गरिएको वस्तुका लागि फन्ट परिवर्तन गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:860
+msgid "&Next Window"
+msgstr "पछिल्लो सञ्झ्याल"
+
+#: main/keximainwindowimpl.cpp:867
+msgid "Next window"
+msgstr "पछिल्लो सञ्झ्याल"
+
+#: main/keximainwindowimpl.cpp:868
+msgid "Switches to the next window."
+msgstr "पछिल्लो सञ्झ्यालमा स्विच गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:870
+msgid "&Previous Window"
+msgstr "अघिल्लो सञ्झ्याल"
+
+#: main/keximainwindowimpl.cpp:877
+msgid "Previous window"
+msgstr "अघिल्लो सञ्झ्याल"
+
+#: main/keximainwindowimpl.cpp:878
+msgid "Switches to the previous window."
+msgstr "अघिल्लो सञ्झ्यालमा स्विच गर्दछ ।"
+
+#: main/keximainwindowimpl.cpp:883
+msgid "Lets you configure shortcut keys."
+msgstr "तपाईंलाई सर्टकट कुञ्जीहरू कन्फिगर गर्न अनुमति दिन्छ ।"
+
+#: main/keximainwindowimpl.cpp:887
+msgid "Lets you configure toolbars."
+msgstr "तपाईंलाई उपकरणपट्टीहरू कन्फिगर गर्न अनुमति दिन्छ ।"
+
+#: main/keximainwindowimpl.cpp:894
+msgid "Show Context Help"
+msgstr "सामग्री मद्दत देखाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:897
+msgid "Hide Context Help"
+msgstr "सामग्री मद्दत लुकाउनुहोस्"
+
+#: main/keximainwindowimpl.cpp:927
+msgid "Lets you configure Kexi."
+msgstr "तपाईंलाई केक्सी कन्फिगर गर्न अनुमति दिन्छ ।"
+
+#: main/keximainwindowimpl.cpp:933
+msgid "This shows useful tips on the use of this application."
+msgstr "यसले यो अनुप्रयोगको प्रयोगका लागि महत्त्वपूर्ण टिपहरू देखाउँदछ ।"
+
+#: main/keximainwindowimpl.cpp:936 main/keximainwindowimpl.cpp:3997
+msgid "Important Information"
+msgstr "महत्वपूर्ण सूचना"
+
+#: main/keximainwindowimpl.cpp:943
+msgid "Give Feedback..."
+msgstr "पुनर्निवेश दिनुहोस्..."
+
+#: main/keximainwindowimpl.cpp:954
+msgid "Close the current window"
+msgstr "हालको सञ्झ्याल बन्द गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:1284
+msgid "reason:"
+msgstr "कारण:"
+
+#: main/keximainwindowimpl.cpp:1321
+msgid ""
+"<qt>Database project %1 does not appear to have been created using "
+"Kexi.<br><br>Do you want to import it as a new Kexi project?</qt>"
+msgstr ""
+"<qt>%1 डाटाबेस परियोजना केक्सी प्रयोग गरेर सिर्जना भएको जस्तो देखिदैन "
+"।<br><br>के तपाईँले नयाँ केक्सी परियोजनाको रूपमा यसलाई आयात गर्न चाहनुहुन्छ "
+"?</qt>"
+
+#: main/keximainwindowimpl.cpp:1323
+msgid ""
+"_: Import Database\n"
+"&Import..."
+msgstr "आयात गर्नुहोस्..."
+
+#: main/keximainwindowimpl.cpp:1358
+msgid "Select New Project's Location"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:1449
+msgid "cannot create object - unknown object type \"%1\""
+msgstr "वस्तु सिर्जना गर्न सकिँदैन - अज्ञात वस्तु प्रकार \"%1\""
+
+#: main/keximainwindowimpl.cpp:1452
+msgid "unknown object type \"%1\""
+msgstr "अज्ञात वस्तु प्रकार \"%1\""
+
+#: main/keximainwindowimpl.cpp:1460
+msgid "cannot create object of type \"%1\""
+msgstr "\"%1\" प्रकारको वस्तु सिर्जना गर्न सकिँदैन"
+
+#: main/keximainwindowimpl.cpp:1473
+msgid "making print preview for"
+msgstr "यसका लागि मुद्रण पूर्वावलोकन बनाउँदै"
+
+#: main/keximainwindowimpl.cpp:1475
+msgid "printing"
+msgstr "मुद्रण गर्दै"
+
+#: main/keximainwindowimpl.cpp:1477
+msgid ""
+"_: \"executing object\" action\n"
+"executing"
+msgstr "कार्यन्वयन गर्दै"
+
+#: main/keximainwindowimpl.cpp:1479
+msgid "opening"
+msgstr "खोल्दै"
+
+#: main/keximainwindowimpl.cpp:1483
+msgid "table not found"
+msgstr "तालिका फेला परेन"
+
+#: main/keximainwindowimpl.cpp:1485
+msgid "query not found"
+msgstr "क्वेरी फेला परेन"
+
+#: main/keximainwindowimpl.cpp:1487
+msgid "macro not found"
+msgstr "म्याक्रो फेला परेन"
+
+#: main/keximainwindowimpl.cpp:1489
+msgid "script not found"
+msgstr "स्क्रिप्ट फेला परेन"
+
+#: main/keximainwindowimpl.cpp:1491
+msgid "object not found"
+msgstr "वस्तु फेला परेन"
+
+#: main/keximainwindowimpl.cpp:1499
+msgid "cannot execute object"
+msgstr "वस्तु कार्यन्वयन गर्न सकिँदैन"
+
+#: main/keximainwindowimpl.cpp:1507
+msgid "cannot print object"
+msgstr "वस्तु मुद्रण गर्न सकिँदैन"
+
+#: main/keximainwindowimpl.cpp:1515
+msgid "cannot make print preview of object"
+msgstr "वस्तुको मुद्रण पूर्वावलोकन बनाउन सकिँदैन"
+
+#: main/keximainwindowimpl.cpp:1537
+msgid "cannot open object"
+msgstr "वस्तु खोल्न सकिँदैन"
+
+#: main/keximainwindowimpl.cpp:1552
+msgid ""
+"You have requested selected objects to be automatically opened or processed "
+"on startup. Several objects cannot be opened or processed."
+msgstr ""
+"तपाईँले सुरुआतमा चयन गरिएको वस्तुहरू स्वचालित रूपमा अगाडि बढ्ने वा खोलिने "
+"हुन अनुरोध गर्नु भएको छ । धेरै वस्तुहरू खोल्न वा अगाडि बढाउन सकिदैन ।"
+
+#: main/keximainwindowimpl.cpp:2823
+msgid "Recently Opened Databases"
+msgstr "भर्खरै खोलिएको डाटाबेसहरू"
+
+#: main/keximainwindowimpl.cpp:2842
+msgid "Recently Connected Database Servers"
+msgstr "भर्खरै जडान गरिएको डाटाबेस सर्भरहरू"
+
+#: main/keximainwindowimpl.cpp:2936
+msgid "From File..."
+msgstr "फाइलबाट..."
+
+#: main/keximainwindowimpl.cpp:2941
+msgid "From Server..."
+msgstr "सर्भरबाट..."
+
+#: main/keximainwindowimpl.cpp:3008
+msgid "Selected view is not supported for \"%1\" object."
+msgstr "चयन गरिएको दृश्य \"%1\" वस्तुका लागि समर्थित छैन ।"
+
+#: main/keximainwindowimpl.cpp:3010
+msgid "Selected view (%1) is not supported by this object type (%2)."
+msgstr "चयन गरिएको दृश्य (%1) यस वस्तु प्रकार (%2) द्वारा समर्थन गर्दैन ।"
+
+#: core/kexidialogbase.cpp:382 main/keximainwindowimpl.cpp:3022
+msgid "Switching to other view failed (%1)."
+msgstr "अर्को दृश्यमा स्विच गर्न असफल (%1) भयो ।"
+
+#: main/keximainwindowimpl.cpp:3102
+msgid "Save Object As"
+msgstr "यस रूपमा वस्तु बचत गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:3122
+msgid "Do you want to replace it?"
+msgstr "के तपाईं यसलाई बदल्न चाहनुहुन्छ?"
+
+#: main/keximainwindowimpl.cpp:3124
+msgid "&Choose Other Name..."
+msgstr "अन्य नाम छनोट गर्नुहोस्..."
+
+#: main/keximainwindowimpl.cpp:3139
+msgid "Please choose other name."
+msgstr "कृपया अर्को नाम छनोट गर्नुहोस् ।"
+
+#: main/keximainwindowimpl.cpp:3163
+msgid "Saving \"%1\" object failed."
+msgstr "\"%1\" वस्तु बचत गर्दा असफल ।"
+
+#: main/keximainwindowimpl.cpp:3180
+msgid "Saving new \"%1\" object failed."
+msgstr "नयाँ \"%1\" वस्तु बचत गर्दा असफल ।"
+
+#: main/keximainwindowimpl.cpp:3224 main/keximainwindowimpl.cpp:4423
+msgid "Save changes"
+msgstr "परिवर्तनहरू बचत गर्नुहोस्"
+
+#: main/keximainwindowimpl.cpp:3226 main/keximainwindowimpl.cpp:4425
+msgid ""
+"Pressing this button will save all recent changes made in \"%1\" object."
+msgstr ""
+"यो बटन थिच्दा \"%1\" वस्तुमा बनाइएको भर्खरका सबै परिवर्तनहरू बचत गर्नेछ ।"
+
+#: main/keximainwindowimpl.cpp:3230
+msgid ""
+"Pressing this button will discard all recent changes made in \"%1\" object."
+msgstr ""
+"यो बटन थिच्दा \"%1\" वस्तुमा बनाइएको भर्खरका सबै परिवर्तनहरू अस्वीकार गर्नेछ "
+"।"
+
+#: main/keximainwindowimpl.cpp:3246
+msgid "Do you want to save changes?"
+msgstr "के तपाईं परिवर्तनहरू बचत गर्न चाहनुहुन्छ?"
+
+#: main/keximainwindowimpl.cpp:3608
+msgid ""
+"_: opening is not allowed in \"data view/design view/text view\" mode\n"
+"opening is not allowed in \"%1\" mode"
+msgstr "\"%1\" मोडमा खोल्न अनुमति छैन ।"
+
+#: main/keximainwindowimpl.cpp:3790
+msgid ""
+"Do you want to permanently delete:\n"
+"%1\n"
+"If you click \"Delete\", you will not be able to undo the deletion."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:3845
+msgid "Could not remove object."
+msgstr "वस्तु हटाउन सकेन ।"
+
+#: core/kexiproject.cpp:815 main/keximainwindowimpl.cpp:3860
+msgid "Could not set empty name for this object."
+msgstr "यो वस्तुका लागि खाली नाम सेट गर्न सकेन ।"
+
+#: main/keximainwindowimpl.cpp:3868
+msgid "Renaming object \"%1\" failed."
+msgstr "वस्तु \"%1\" पुन: नामकरण गर्न असफल ।"
+
+#: main/keximainwindowimpl.cpp:4064
+msgid "Could not start project \"%1\" in Final Mode."
+msgstr "अन्तिम मोडमा परियोजना \"%1\" सुरू गर्न सकेन ।"
+
+#: main/keximainwindowimpl.cpp:4069
+msgid "No Final Mode data found."
+msgstr "कुनै अन्तिम मोड डेटा फेला परेन ।"
+
+#: main/keximainwindowimpl.cpp:4077
+msgid "Error reading Final Mode data."
+msgstr "अन्तिम मोड डेटा पढ्दा त्रुटि ।"
+
+#: main/keximainwindowimpl.cpp:4107
+msgid "Specified plugin does not exist."
+msgstr "निर्दिष्ट गरिएको प्लगइन अवस्थित छैन ।"
+
+#: main/keximainwindowimpl.cpp:4116
+msgid "Specified object could not be opened."
+msgstr "निर्दिष्ट गरिएको वस्तु खोल्न सकेन ।"
+
+#: main/keximainwindowimpl.cpp:4186
+msgid "Compacting database file <nobr>\"%1\"</nobr> is not supported."
+msgstr "सङ्कुचित गरिएको डाटाबेस फाइल <nobr>\"%1\"</nobr> समर्थित छैन ।"
+
+#: main/keximainwindowimpl.cpp:4199
+msgid ""
+"The current project has to be closed before compacting the database. It will "
+"be open again after compacting.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"हालको परियोजना डाटाबेस सङ्कुचित पार्नु अगाडि बन्द गरिनु पर्नेछ ।यो सङ्कुचन "
+"गरिए पछि फेरि खुल्नेछ ।\n"
+"\n"
+"के तपाईँले निरन्तरता दिन चाहनुहुन्छ ?"
+
+#: main/keximainwindowimpl.cpp:4429
+msgid ""
+"Pressing this button will ignore all unsaved changes made in \"%1\" object."
+msgstr ""
+"यो बटन थिच्दा \"%1\" वस्तुमा गरिएको सबै बचत नगरिएको परिवर्तनहरू उपेक्षा "
+"गरिनेछ ।"
+
+#: main/keximainwindowimpl.cpp:4434
+msgid "Do you want to save changes before printing?"
+msgstr "मुद्रण गर्नुभन्दा अगाडि के तपाईं परिवर्तनहरू बचत गर्न चाहनुहुन्छ?"
+
+#: main/keximainwindowimpl.cpp:4436
+msgid "Do you want to save changes before making print preview?"
+msgstr ""
+"मुद्रण पूर्वावलोकन बनाउनु भन्दा अगाडि के तपाईं परिवर्तनहरू बचत गर्न "
+"चाहनुहुन्छ?"
+
+#: main/keximainwindowimpl.cpp:4438
+msgid "Do you want to save changes before showing page setup?"
+msgstr ""
+"पृष्ठ सेटअप देखाउनु भन्दा अगाडि के तपाईं परिवर्तनहरू बचत गर्न चाहननुहुन्छ?"
+
+#: main/kexifinddialog.cpp:162
+msgid "(All fields)"
+msgstr ""
+
+#: main/kexifinddialog.cpp:163
+msgid "(Current field)"
+msgstr ""
+
+#: main/kexifinddialog.cpp:217
+msgid "Replace in \"%1\""
+msgstr ""
+
+#: main/kexifinddialog.cpp:221
+msgid "Find"
+msgstr ""
+
+#: main/kexifinddialog.cpp:223
+msgid "Find in \"%1\""
+msgstr ""
+
+#: main/kexifinddialog.cpp:246
+msgid "The search item was not found"
+msgstr ""
+
+#: main/kexinewstuff.cpp:64
+msgid "Choose Directory Where to Install Example Database"
+msgstr "उदाहरण डाटाबेस स्थापना गर्ने स्थानमा डाइरेक्टरी छनोट गर्नुहोस्"
+
+#: main/kexistatusbar.cpp:53 main/kexistatusbar.cpp:142
+msgid "Read only"
+msgstr "पढ्ने मात्र"
+
+#: main/kexistatusbar.cpp:129
+msgid " Line: %1 Col: %2 "
+msgstr " रेखा: %1 स्तम्भ: %2 "
+
+#: core/kexi.cpp:159
+msgid "No View"
+msgstr "दृश्य छैन"
+
+#: core/kexi.cpp:160
+msgid "Data View"
+msgstr "डेटा दृश्य"
+
+#: core/kexi.cpp:161
+msgid "Design View"
+msgstr "डिजाइन दृश्य"
+
+#: core/kexi.cpp:162
+msgid "Text View"
+msgstr "पाठ दृश्य"
+
+#: core/kexi.cpp:164
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: core/kexi.cpp:170
+msgid ""
+"You can correct data in this row or use \"Cancel row changes\" function."
+msgstr ""
+"तपाईं यो पङ्क्तिमा डेटा सुधार गर्न सक्नुहुन्छ वा \"पङ्क्ति परिवर्तनहरू रद्द "
+"गर्नुहोस्\" प्रकार्य प्रयोग गर्न सक्नुहुन्छ ।"
+
+#: core/kexi.cpp:332
+msgid "This function is not available for version %1 of %2 application."
+msgstr "यो प्रकार्य संस्करण %2 को %1 अनुप्रयोगका लागि उपलब्ध हुँदैन ।"
+
+#: core/kexi.cpp:337
+msgid "\"%1\" function is not available for version %2 of %3 application."
+msgstr "\"%1\" प्रकार्य संस्करण %3 को %2 अनुप्रयोगका लागि उपलब्ध हुँदैन ।"
+
+#: core/kexiguimsghandler.cpp:124 core/kexitextmsghandler.cpp:52
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: core/kexicontexthelp.cpp:34
+msgid "Context Help"
+msgstr "प्रसङ्ग मद्दत"
+
+#: core/kexipartmanager.cpp:134
+msgid "Error while loading plugin \"%1\""
+msgstr "प्लगइन \"%1\" लोड गर्दा त्रुटि"
+
+#: core/kexipartmanager.cpp:201
+msgid "No plugin for mime type \"%1\""
+msgstr "माइम प्रकार \"%1\" का लागि कुनै प्लगइन छैन"
+
+#: core/kexiaboutdata.cpp:29
+msgid "Database creation for everyone"
+msgstr "सबैका लागि डाटाबेस सिर्जना"
+
+#: core/kexiaboutdata.cpp:32
+msgid ""
+"This is standalone version of the application distributed outside of KOffice "
+"suite."
+msgstr ""
+"यो केडीई कार्यालय समष्टिको बाहिर वितरण गरिएको अनुप्रयोगको स्ट्यान्डअलोन "
+"संस्करण हो ।"
+
+#: core/kexiaboutdata.cpp:34
+msgid "This application version is distributed with KOffice suite."
+msgstr "यो अनुप्रयोग संस्करण केडीई कार्यालय समष्टिसँग वितरण गरिन्छ ।"
+
+#: core/kexiaboutdata.cpp:50
+msgid ""
+"(c) 2002-2007, Kexi Team\n"
+"(c) 2003-2007, OpenOffice Polska LLC\n"
+msgstr ""
+
+#: core/kexiaboutdata.cpp:52
+msgid ""
+"This software is developed by Kexi Team - an international group\n"
+"of independent developers, with additional assistance and support\n"
+"from the OpenOffice Polska company.\n"
+"\n"
+"Visit the company Home Page: http://www.openoffice.com.pl"
+msgstr ""
+"यो सफ्टवेयर ओपनअफिस पोल्स्का कम्पनीको थप सहयोग र समर्थनमा,\n"
+"स्वतन्त्र विकासकर्ताको\n"
+"एउटा अन्तर्राष्ट्रियट्रिय समूह - केक्सी समूहद्वारा विकास गरिएको हो ।\n"
+"\n"
+"कम्पनीको गृह पृष्ठमा हेर्नुहोस्: http://www.openoffice.com.pl"
+
+#: core/kexiaboutdata.cpp:60
+msgid ""
+"Project maintainer & developer, design, KexiDB, commercially supported "
+"version, win32 port"
+msgstr ""
+"परियोजना मर्मतकर्ता र विकासकर्ता, डिजाइन,KexiDB, व्यापारिक समर्थित संस्करण, "
+"win32 पोर्ट"
+
+#: core/kexiaboutdata.cpp:61
+msgid "Former project maintainer & developer"
+msgstr "अघिल्लो परियोजना मर्मतकर्ता र विकासकर्ता"
+
+#: core/kexiaboutdata.cpp:62
+msgid "KexiPropertyEditor and FormDesigner"
+msgstr "केक्सी गुण सम्पादक र फारम डिजाइनर"
+
+#: core/kexiaboutdata.cpp:63
+msgid "PostgreSQL database driver, Migration module"
+msgstr "PostgreSQL डाटाबेस ड्राइभर, निर्गमन मोड्युल"
+
+#: core/kexiaboutdata.cpp:64
+msgid ""
+"Contributions for MySQL and KexiDB, fixes, Migration module, MDB support"
+msgstr "MySQL र KexiDB, समाधान, निर्गमन मोड्युल, MDB समर्थनका लागि योगदान"
+
+#: core/kexiaboutdata.cpp:65
+msgid "Scripting module (KROSS), Python language bindings, design"
+msgstr "स्क्रिप्टिङ मोड्युल (KROSS), पाइथोन भाषा बन्धन, डिजाइन"
+
+#: core/kexiaboutdata.cpp:66
+msgid "Graphics effects, helper dialogs"
+msgstr "ग्राफिक्स प्रभाव; सहयोगी संवाद"
+
+#: core/kexiaboutdata.cpp:67
+msgid "Former developer"
+msgstr "अघिल्लो विकासकर्ता"
+
+#: core/kexiaboutdata.cpp:68
+msgid "Original Form Designer, original user interface & much more"
+msgstr "डिजाइनरबाट मौलिक, मौलिक प्रयोगकर्ता इन्टरफेस र अझ बढि"
+
+#: core/kexiaboutdata.cpp:69
+msgid "CQL++, SQL assistance"
+msgstr "CQL++, SQL सहयोग"
+
+#: core/kexiaboutdata.cpp:70
+msgid "Original code cleanings"
+msgstr "मौलिक सङ्केत सफाई"
+
+#: core/kexiaboutdata.cpp:71
+msgid "Bugfixes, original Table Widget"
+msgstr "बग समाधान, मौलिक तालिका विजेट"
+
+#: core/kexiaboutdata.cpp:72
+msgid "Initial design improvements"
+msgstr "सुरुको डिजाइन सुधारहरू"
+
+#: core/kexiaboutdata.cpp:73
+msgid "Icons and user interface research"
+msgstr "प्रतिमा र प्रयोगकर्ता इन्टरफेस अनुसन्धान"
+
+#: core/kexiaboutdata.cpp:74
+msgid "Coffee sponsoring"
+msgstr "कफी लगानीकर्ता"
+
+#: core/kexiaboutdata.cpp:75
+msgid "Numerous bug reports, usability tests, technical support"
+msgstr "अनगिन्ती बग प्रतिवेदन, प्रयोगात्मक परीक्षण, प्राविधिक समर्थन"
+
+#: _translatorinfo.cpp:1 core/kexiaboutdata.cpp:76 _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3 core/kexiaboutdata.cpp:76 _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "lipak21@gmail.com shyamkrishna_bal@yahoo.com,,,submanesh@gmail.com"
+
+#: core/kexipart.cpp:66
+msgid "Details:"
+msgstr "विवरण:"
+
+#: core/kexipart.cpp:69
+msgid "Object \"%1\" could not be opened in Design View."
+msgstr "वस्तु \"%1\" डिजाइन दृश्यमा खोल्न सकेन ।"
+
+#: core/kexipart.cpp:70
+msgid "Object could not be opened in Data View."
+msgstr "वस्तु डेटा दृश्यमा खुल्न सकेन ।"
+
+#: core/kexipart.cpp:71
+msgid "Do you want to open it in Text View?"
+msgstr "के तपाईं यसलाई पाठ दृश्यमा खोल्न चाहनुहुन्छ?"
+
+#: core/kexipart.cpp:293
+msgid "Could not load object's definition."
+msgstr "वस्तुको परिभाषा लोड गर्न सकेन ।"
+
+#: core/kexipart.cpp:293
+msgid "Object design may be corrupted."
+msgstr "वस्तु डिजाइन ध्वस्त हुनुपर्दछ ।"
+
+#: core/kexipart.cpp:295
+msgid "You can delete \"%1\" object and create it again."
+msgstr "तपाईं \"%1\" वस्तु मेटेर यसलाई फेरि सिर्जना गर्न सक्नुहुन्छ ।"
+
+#: core/kexipart.cpp:370
+msgid "Could not load object's data."
+msgstr "वस्तुको डेटा लोड गर्न सकेन ।"
+
+#: core/kexipart.cpp:370
+msgid "Data identifier: \"%1\"."
+msgstr "डेटा पहिचायक: \"%1\""
+
+#: core/kexiuseraction.cpp:41
+msgid "Specified part does not exist"
+msgstr "निर्दिष्ट गरिएको भाग अवस्थित छैन"
+
+#: core/kexiuseraction.cpp:49
+msgid "Specified document could not be opened."
+msgstr "निर्दिष्ट गरिएको कागजात खुल्न सकेन ।"
+
+#: core/kexiuseractionmethod.cpp:19
+msgid "Open Object"
+msgstr "वस्तु खोल्नुहोस्"
+
+#: core/kexiuseractionmethod.cpp:21
+msgid "Close Object"
+msgstr "वस्तु बन्द गर्नुहोस्"
+
+#: core/kexiuseractionmethod.cpp:23
+msgid "Delete Object"
+msgstr "वस्तु मेट्नुहोस्"
+
+#: core/kexiuseractionmethod.cpp:25
+msgid "Execute Script"
+msgstr "स्क्रिप्ट कार्यन्वयन गर्नुहोस्"
+
+#: core/kexiuseractionmethod.cpp:27
+msgid "Exit Main Application"
+msgstr "मुख्य अनुप्रयोग अनत्य गर्नुहोस्"
+
+#: core/kexiprojectdata.cpp:159
+msgid ""
+"_: database connection\n"
+"(connection %1)"
+msgstr "(जडान %1)"
+
+#: core/kexiinternalpart.cpp:57
+msgid "Could not load \"%1\" plugin."
+msgstr "\"%1\" प्लगइन लोड गर्न सकेन ।"
+
+#: core/kexidialogbase.cpp:321
+msgid ""
+"Design has been changed. You must save it before switching to other view."
+msgstr ""
+"डिजाइन परिवर्तन गरिएको छ । तपाईंले यसलाई अर्को दृश्यमा स्विच गर्नु भन्दा "
+"पहिले बचत गर्नुपर्दछ ।"
+
+#: core/kexidialogbase.cpp:520
+msgid "Saving object's definition failed."
+msgstr "वस्तुको परिभाषा बचत गर्दा असफल ।"
+
+#: core/kexicmdlineargs.h:30
+msgid "Options related to entire projects:"
+msgstr "सम्पूर्ण परियोजनासँग सम्बन्धित विकल्प:"
+
+#: core/kexicmdlineargs.h:32
+msgid ""
+"Create a new, blank project using specified\n"
+"database driver and database name\n"
+"and exit immediately.\n"
+"You will be asked for confirmation\n"
+"if overwriting is needed."
+msgstr ""
+"निर्दिष्ट डाटाबेस ड्राइभर र डाटाबेस नामको प्रयोग गरेर \n"
+"नयाँ, खाली परियोजना सिर्जना गर्नुहोस् र \n"
+"तुरुन्तै निस्कनुहोस् ।\n"
+"यदि अधिलेखन आवश्यक परेमा\n"
+"तपाईँलाई स्वीकृतिका लागि सोधिनेछ ।"
+
+#: core/kexicmdlineargs.h:38
+msgid ""
+"Like --createdb, but also open newly\n"
+"created database.\n"
+msgstr ""
+"जस्तै --createdb, तर नयाँ सिर्जना गरिएको डाटाबेस \n"
+"पनि खोल्नुहोस् ।\n"
+
+#: core/kexicmdlineargs.h:41
+msgid ""
+"Drop (remove) a project using specified\n"
+"database driver and database name.\n"
+"You will be asked for confirmation."
+msgstr ""
+"निर्दिष्ट ड्राइभर र डाटाबेस नाम प्रयोग गरेर\n"
+"परियोजना छोड्नुहोस् (हटाउनुहोस्)\n"
+"तपाईँलाई स्वीकृतिका लागि सोधिनेछ ।"
+
+#: core/kexicmdlineargs.h:46
+msgid ""
+"Database driver to be used\n"
+"for connecting to a database project\n"
+"(SQLite by default).\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+"डाटाबेस परियोजनामा\n"
+"(पूर्वनिर्धारित रूपमा SQLite)\n"
+"जडानका लागि प्रयोग गरिने डाटाबेस ड्राइभर ।\n"
+"यदि सर्टकट फाइलनाम प्रदान गरिएमा\n"
+"उपेक्षा गर्नुहोस् ।"
+
+#: core/kexicmdlineargs.h:53
+msgid ""
+"Specify the type of file provided as an argument.\n"
+"This option is only useful if the filename does\n"
+"not have a valid extension set and its type\n"
+"cannot be determined unambiguously by examining\n"
+"its contents.\n"
+"This option is ignored if no file is specified as\n"
+"an argument.\n"
+"Available file types are:\n"
+"- \"project\" for a project file (the default)\n"
+"- \"shortcut\" for a shortcut file pointing to a\n"
+"  project.\n"
+"- \"connection\" for database connection data.\n"
+msgstr ""
+"तर्कको रूपमा प्रदान गरिएको फाइलको प्रकार निर्दिष्ट गर्नुहोस् ।\n"
+"यदि फाइलनामसँग वैध विस्तार सेट र यसको \n"
+"सामग्रीको परीक्षणद्वारा निश्चित रूपमा\n"
+"यसको प्रकार निर्धारण गर्न नसकेमा\n"
+"यो विकल्प उपयोगी हुन्छ ।\n"
+"यदि तर्कको रूपमा कुनै फाइल निर्दिष्ट गरिएको छ भने\n"
+"यो विकल्प उपेक्षा गरिन्छ ।\n"
+"उपलब्ध फाइल प्रकारहरू निम्न छन्:\n"
+"-पूर्वनिर्धारित परियोजना फाइलका लागि \"परियोजना\"\n"
+"- परियोजना तोक्न सर्टकट फाइलका लागि\n"
+"  \"shortcut\" ।\n"
+"- डाटाबेस जडान डेटाका लागि \"जडान\" ।\n"
+
+#: core/kexicmdlineargs.h:68
+msgid ""
+"\n"
+"Specify a database connection shortcut .kexic\n"
+"file containing connection data.\n"
+"Can be used with --createdb or --create-opendb\n"
+"for convenience instead of using options like \n"
+"--user, --host or --port.\n"
+"Note: Options like --user, --host have\n"
+"precedence over settings defined in the shortcut\n"
+"file."
+msgstr ""
+"\n"
+"जडान डेटा समावेश गर्ने .kexic फाइल\n"
+"डाटाबेस जडान सर्टकट .kexic निर्दिष्ट गर्नुहोस् ।\n"
+"--user, --host वा --port जस्तो\n"
+"विकल्प प्रयोग गर्नुको सट्टामा सुविधाका लागि\n"
+" --createdb वा --create-opendb सँग प्रयोग गर्न सकिन्छ ।\n"
+"द्रष्टव्य: --user, --host जस्ता विकल्पमा\n"
+"सर्टकट फाइलमा परिभाषि सेटिङ भन्दा राम्रो\n"
+"हुन्छ ।"
+
+#: core/kexicmdlineargs.h:77
+msgid ""
+"Specify that any database connections will\n"
+"be performed without write support. This option\n"
+"is ignored when \"createdb\" option is present,\n"
+"otherwise the database could not be created."
+msgstr ""
+"लेख्ने समर्थन बिना कार्यसम्पादन गर्न सक्षम कुनै पनि डाटाबेस जडान\n"
+"निर्दिष्ट गर्नुहोस् । \"createdb\" विकल्प रहेको बेलामा यो विकल्प\n"
+"उपेक्षा गरिन्छ,\n"
+"अन्यथा डाटाबेस सिर्जना गर्न सकिदैन ।"
+
+#: core/kexicmdlineargs.h:82
+msgid ""
+"Start project in User Mode, regardless \n"
+"of the project settings."
+msgstr ""
+"परियोजना सेटिङको वास्ता नगरिकन,\n"
+"प्रयोगकर्ता मोडमा परियोजना सुरु गर्नुहोस् ।"
+
+#: core/kexicmdlineargs.h:85
+msgid ""
+"Start project in Design Mode, regardless \n"
+"of the project settings."
+msgstr ""
+"परियोजना सेटिङको वास्ता नगरिकन,\n"
+"डिजाइन मोडमा परियोजना सुरु गर्नुहोस् ।"
+
+#: core/kexicmdlineargs.h:88
+msgid ""
+"Show the Project Navigator side pane even\n"
+"if Kexi runs in User Mode."
+msgstr ""
+"केक्सी प्रयोगकर्ता मोडमा चेलेको भए पनि\n"
+"परियोजना नेभिगेसन छेउ पलक देखाउनुहोस् ।"
+
+#: core/kexicmdlineargs.h:91
+msgid ""
+"Skip displaying startup dialog window.\n"
+"If there is no project name specified to open,\n"
+"empty application window will appear."
+msgstr ""
+"सुरुआत संवाद सञ्झ्याल प्रर्दशन फड्काउनुहोस्\n"
+"यदि त्यहाँ खोल्नका लागि कुनै परियोजना नाम छैन भने,\n"
+"खाली अनुप्रयोग सञ्झ्याल देखापर्नेछ ।"
+
+#: core/kexicmdlineargs.h:95
+msgid "Options related to opening objects within a project:"
+msgstr "परियोजना भित्र वस्तु खोल्ने सम्बन्धित विकल्प:"
+
+#: core/kexicmdlineargs.h:97
+msgid ""
+"\n"
+"Open object of type <object_type>\n"
+"and name <object_name> from specified project\n"
+"on application start.\n"
+"<object_type>: is optional, if omitted - table\n"
+"type is assumed.\n"
+"Other object types can be query, report, form,\n"
+"script (may be more or less, depending on your\n"
+"plugins installed).\n"
+"Use \"\" chars to specify names containing spaces.\n"
+"Examples: --open MyTable,\n"
+" --open query:\"My very big query\""
+msgstr ""
+"\n"
+"अनुप्रयोगको सुरआतमा निर्दिष्ट परियोजनाबाट <object_name> नाम\n"
+"र <object_type> को प्रकार\n"
+"को वस्तु खोल्नुहोस् ।\n"
+"<object_type>: इच्छाधिन हो, यदि मेटिएमा - तालिका\n"
+"प्रकार मानिन्छ ।\n"
+"अन्य प्रकारको वस्तुहरू क्वेरी, प्रतिवेदन, फारम,\n"
+"स्क्रिप्ट (तपाईँको स्थापित प्लगइनमा आधारित भएर\n"
+"धेरै वा थोरै ) हुन सक्दछ ।खाली स्थानहरू समावेश गर्ने नाम निर्दिष्ट गर्न \"\" "
+"क्यार प्रयोग गर्नुहोस् ।\n"
+"उदाहरण: --मेरो तालिका खोल्नुहोस्,\n"
+" --क्वेरी खोल्नुहोस्:\"मेरो धेरै ठूलो क्वेरी\""
+
+#: core/kexicmdlineargs.h:109
+msgid ""
+"\n"
+"Like --open, but the object will\n"
+"be opened in Design Mode, if one is available."
+msgstr ""
+"\n"
+"जस्तै --open, यदि एउटा उपलब्ध छ भने, वस्तु\n"
+"डिजाइन मोडमा खोलिनेछ ।"
+
+#: core/kexicmdlineargs.h:112
+msgid ""
+"\n"
+"Like --open, but the object will\n"
+"be opened in Text Mode, if one is available."
+msgstr ""
+"\n"
+"जस्तै --open, यदि एउटा उपलब्ध छ भने, वस्तु\n"
+"पाठ मोडमा खोलिनेछ ।"
+
+#: core/kexicmdlineargs.h:116
+msgid ""
+"\n"
+"Start execution of object of type <object_type>\n"
+"and name <object_name> on application start.\n"
+"<object_type>: is optional, if omitted - macro\n"
+"type is assumed.\n"
+"Other object types can be script (may be more\n"
+"or less, depending on your plugins installed).\n"
+"Use \"\" chars to specify names containing spaces."
+msgstr ""
+"\n"
+"अनुप्रयोगको सुरुआतमा प्रकार <object_name> ना\n"
+"र नाम <object_type> को वस्तुको कार्यान्वयन सुरु गर्नुहोस् ।\n"
+"<object_type>: इच्छाधिन हो । यदि मेटिएमा - म्याक्रो\n"
+"प्रकार मानिन्छ ।\n"
+"अन्य प्रकारको वस्तुहरू क्वेरी, प्रतिवेदन, फारम,\n"
+"स्क्रिप्ट (तपाईँको स्थापित प्लगइनमा आधारित भएर\n"
+"धेरै वा थोरै ) हुन सक्दछ ।खाली स्थानहरू समावेश गर्ने नाम निर्दिष्ट गर्न \"\" "
+"क्यारेक्टर प्रयोग गर्नुहोस् ।"
+
+#: core/kexicmdlineargs.h:124
+msgid "Start new object design of type <object_type>."
+msgstr "<object_type> प्रकारको नयाँ वस्तु डिजाइन सुरु गर्नुहोस् ।"
+
+#: core/kexicmdlineargs.h:126
+msgid ""
+"\n"
+"Open the Print dialog window for an object of type\n"
+"<object_type> and name <object_name> in the specified\n"
+"project when the application starts, for quick printing\n"
+"of the object's data.\n"
+"<object_type>: is optional; if omitted, table\n"
+"type is assumed. Object type can also be query."
+msgstr ""
+"\n"
+"वस्तु डेटाको द्रुत मुद्रणका लागि, अनुप्रयोग सुरु हुँदा निर्दिष्ट गरिएको\n"
+"परियोजनामा प्रकार<object_type> र नाम <object_name>को एउटा वस्तुका लागि\n"
+"मुद्रण संवाद सञ्झ्याल\n"
+"खोल्नुहोस् ।\n"
+"<object_type>: इच्छाधिन हो; यदि मेटिएमा, तालिका\n"
+"प्रकार मानिएको छ । वस्तु प्रकार पनि क्वेरी हुन सक्छ ।"
+
+#: core/kexicmdlineargs.h:133
+msgid ""
+"\n"
+"Open Print Preview window for object\n"
+"of type <object_type> and name <object_name>\n"
+"from specified project on application start.\n"
+"See --print for more details."
+msgstr ""
+"\n"
+"अनुप्रयोग सुरुआतमा निर्दिष्ट परियोजनाबाट\n"
+" <object_type> प्रकार र <object_name> नामको वस्तुका लागि\n"
+"मुद्रण पूर्वावलोकन सञ्झ्याल खोल्नुहोस्\n"
+"बढी विस्तृत जानकारीका लागि --मुद्रण हेर्नुहोस् ।"
+
+#: core/kexicmdlineargs.h:138
+msgid "Options related to database servers:"
+msgstr "डाटाबेस सर्भरसँग सम्बन्धित विकल्पहरू:"
+
+#: core/kexicmdlineargs.h:141
+msgid ""
+"User name to be used\n"
+"for connecting to a database project.\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+"डाटाबेस परियोजनामा जडानका लागि प्रयोग गरिने\n"
+"प्रयोगकर्ता नाम ।\n"
+"यदि सर्टकट फाइलनाम उपलब्ध भएमा\n"
+"उपेक्षा गरिन्छ ।"
+
+#: core/kexicmdlineargs.h:152
+msgid ""
+"Server (host) name to be used\n"
+"for connecting to a database project.\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+"डाटाबेस परियोजनामा जडानका लागि प्रयोग गरिने\n"
+"सर्भर (होस्ट) ।\n"
+"यदि सर्टकट फाइलनाम उपलब्ध भएमा\n"
+"उपेक्षा गरिन्छ ।"
+
+#: core/kexicmdlineargs.h:157
+msgid ""
+"Server's port number to be used\n"
+"for connecting to a database project.\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+"डाटाबेस परियोजनामा जडानका लागि प्रयोग गरिने\n"
+"सर्भरको पोर्ट नम्बर ।\n"
+"यदि सर्टकट फाइलनाम उपलब्ध भएमा\n"
+"उपेक्षा गरिन्छ ।"
+
+#: core/kexicmdlineargs.h:162
+msgid ""
+"Server's local socket filename\n"
+"to be used for connecting to a database\n"
+"project. Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+"डाटाबेस परियोजनामा जडानका लागि प्रयोग गरिने\n"
+"सर्भरको स्थानिय सकेट फाइल नाम ।\n"
+"यदि सर्टकट फाइलनाम उपलब्ध भएमा\n"
+"उपेक्षा गरिन्छ ।"
+
+#: core/kexicmdlineargs.h:167
+msgid ""
+"Skip displaying connection dialog window\n"
+"and connect directly. Available when\n"
+"opening .kexic or .kexis shortcut files."
+msgstr ""
+"प्रदर्शन गरिरहेको जडान संवाद सञ्झ्याल\n"
+"फड्काउनुहोस् र सीधै जडान गर्नुहोस् । \n"
+".kexic वा .kexis सर्टकट फाइल खोल्दा उपलब्ध हुन्छ ।"
+
+#: core/kexicmdlineargs.h:172
+msgid ""
+"Kexi database project filename,\n"
+"Kexi shortcut filename,\n"
+"or name of a Kexi database\n"
+"project on a server to open."
+msgstr ""
+"केक्सी डाटाबेस परियोजना फाइल नाम,\n"
+"केक्सी सर्टकट फाइलनाम,\n"
+"वा खोल्दा सर्भरमा \n"
+"केक्सी डाटाबेस परियोजना नाम ।"
+
+#: core/kexiproject.cpp:183
+msgid "Could not open project \"%1\"."
+msgstr "\"%1\" परियोजना खोल्न सकेन ।"
+
+#: core/kexiproject.cpp:228
+msgid "Could not create project \"%1\"."
+msgstr "\"%1\" परियोजना सिर्जना गर्न सकेन ।"
+
+#: core/kexiproject.cpp:272 core/kexiproject.cpp:333
+msgid "Project major version"
+msgstr "परियोजना ठूलो संस्करण"
+
+#: core/kexiproject.cpp:274 core/kexiproject.cpp:335
+msgid "Project minor version"
+msgstr "परियोजना सानो संस्करण"
+
+#: core/kexiproject.cpp:276
+msgid "Project caption"
+msgstr "परियोजना क्याप्सन"
+
+#: core/kexiproject.cpp:278
+msgid "Project description"
+msgstr "परियोजना वर्णन"
+
+#: core/kexiproject.cpp:739
+msgid "Opening object \"%1\" failed."
+msgstr "\"%1\" वस्तु खोल्न असफल ।"
+
+#: core/kexiproject.cpp:758
+msgid "This project is opened as read only."
+msgstr "यो परियोजना पढ्नको लागि मात्र खोलियो ।"
+
+#: core/kexiproject.cpp:819
+msgid "Could not use this name. Object with name \"%1\" already exists."
+msgstr "यो नाम प्रयोग गर्न सकेन । \"%1\" सँगको नाम पहिले नै अवस्थित छ ।"
+
+#: core/kexiproject.cpp:826
+msgid "Could not rename object \"%1\"."
+msgstr "\"%1\" वस्तुलाई पुन: नामकरण गर्न सकेन ।"
+
+#: core/kexiproject.cpp:947
+msgid "Warning: entire project's data will be removed."
+msgstr "चेतावनी: सम्पूर्ण परियोजनाको डेटा हटाइनेछ ।"
+
+#: core/kexiproject.cpp:961
+msgid ""
+"The project %1 already exists.\n"
+"Do you want to replace it with a new, blank one?"
+msgstr ""
+"परियोजना %1 पहिलेनै अवस्थित छ ।\n"
+"के तपाईं यसलाई नयाँ, एउटा खालीसँग बदल्न चाहनुहुन्छ?"
+
+#: core/kexiproject.cpp:988
+msgid "Do you want to drop the project \"%1\"?"
+msgstr "के तपाईँ \"%1\" परियोजना छोड्न चाहनुहुन्छ?"
+
+#: core/kexiproject.cpp:997
+msgid ""
+"Could not drop this project. Database connection for this project has been "
+"opened as read only."
+msgstr ""
+"यो परियोजना छोड्न सकेन । यो परियोजनाका लागि डाटाबेस जडान पढ्नका लागि मात्र "
+"खोलिएको हो ।"
+
+#: migration/keximigrate.cpp:76 migration/keximigrate.cpp:126
+#: migration/keximigrate.cpp:232 migration/keximigrate.cpp:303
+msgid "Could not create database \"%1\"."
+msgstr "\"%1\" डाटाबेस सिर्जना गर्न सकेन ।"
+
+#: migration/keximigrate.cpp:138
+msgid "Could not connect to data source \"%1\"."
+msgstr "\"%1\" डेटा स्रोतमा जडान गर्न सकेन ।"
+
+#: migration/keximigrate.cpp:149
+msgid "Could not get a list of table names for data source \"%1\"."
+msgstr "\"%1\" डेटा स्रोत नाम गरेको तालिकाको सूची प्राप्त गर्न सकेन ।"
+
+#: migration/keximigrate.cpp:159
+msgid "No tables to import found in data source \"%1\"."
+msgstr "\"%1\" डेटा स्रोतमा आयात गर्न कुनै तालिका फेला परेन ।"
+
+#: migration/keximigrate.cpp:203
+msgid ""
+"Could not import project from data source \"%1\". Error reading table \"%2\"."
+msgstr ""
+"\"%1\" डेटा स्रोतबाट परियोजना आयात गर्न सकेन । \"%2\" तालिका पढ्दा त्रुटि ।"
+
+#: migration/keximigrate.cpp:333
+msgid "Could not import project from data source \"%1\"."
+msgstr "\"%1\" डेटा स्रोतबाट परियोजना आयात गर्न सकेन ।"
+
+#: migration/keximigrate.cpp:384
+msgid "Could not copy table \"%1\" to destination database."
+msgstr "गन्तव्य डाटाबेसमा \"%1\" तालिका प्रतिलिपि बनाउन सकेन ।"
+
+#: migration/keximigrate.cpp:408
+msgid "Could not import data from data source \"%1\"."
+msgstr "\"%1\" डेटा स्रोतबाट डेटा आयात गर्न सकेन ।"
+
+#: migration/keximigrate.cpp:512
+msgid "Field Type"
+msgstr "फिल्ड प्रकार"
+
+#: migration/keximigrate.cpp:513
+msgid ""
+"The data type for %1 could not be determined. Please select one of the "
+"following data types"
+msgstr ""
+"%1 का लागि डेटा प्रकार निर्धारण गर्न सकेन । कृपया निम्न मध्येको कुनै डेटा "
+"प्रकार चयन गर्नुहोस् ।"
+
+#: migration/keximigrate.cpp:577
+msgid ""
+"Incompatible migration driver's \"%1\" version: found version %2, expected "
+"version %3."
+msgstr ""
+"अनुपयुक्त निर्गमन ड्राइभरको \"%1\" संस्करण: %2 संस्करण फेला पारियो, %3 "
+"अपेक्षा गरिएको संस्करण ।"
+
+#: migration/importoptionsdlg.cpp:42
+msgid "Advanced Import Options"
+msgstr "उन्नत आयात विकल्प"
+
+#: migration/importoptionsdlg.cpp:59
+msgid ""
+"<h3>Text encoding for Microsoft Access database</h3>\n"
+"<p>Database file \"%1\" appears to be created by a version of Microsoft "
+"Access older than 2000.</p><p>In order to properly import national "
+"characters, you may need to choose a proper text encoding if the database "
+"was created on a computer with a different character set.</p>"
+msgstr ""
+"<h3>माइक्रोसफ्ट पहुँच डाटाबेसका लागि पाठ सङ्केतन</h3>\n"
+"<p>२००० भन्दा पुरानो माइक्रोसफ्ट पहुँचको संस्करणद्वारा \"%1\" डाटाबेस फाइल "
+"सिर्जना गरिएको जस्तो देखिन्छ । </p><p>राष्ट्रिय क्यारेक्टर उपयुक्त रूपमा "
+"आयात गर्नलाई, यदि कम्प्युटरमा फरक क्यारेक्टर सेटसँग डाटाबेस सिर्जना गरिएको छ "
+"भने तपाईँले उपयुक्त पाठ सङ्केतन छनोट गर्नु आवश्यक हुन्छ ।</p>"
+
+#: migration/importoptionsdlg.cpp:72
+msgid "Always use this encoding in similar situations"
+msgstr "उही अवस्थामा यो सङ्केतनको सधै प्रयोग गर्नुहोस्"
+
+#: migration/migratemanager.cpp:172
+msgid "Could not find any import/export database drivers."
+msgstr "कुनै आयात/निर्यात डाटाबेस ड्राइभर फेला पार्न सकेन ।"
+
+#: migration/migratemanager.cpp:191
+msgid "Could not find import/export database driver \"%1\"."
+msgstr "आयात/निर्यात डाटाबेस ड्राइभर \"%1\" फेला पार्न सकेन ।"
+
+#: migration/migratemanager.cpp:203
+msgid "Could not load import/export database driver \"%1\"."
+msgstr "आयात/निर्यात डाटाबेस ड्राइभर \"%1\" लोड गर्न सकेन ।"
+
+#: migration/importwizard.cpp:65
+msgid "Import Database"
+msgstr "डाटाबेस आयात गर्नुहोस्"
+
+#: migration/importwizard.cpp:154
+msgid ""
+"<qt>Database Importing wizard is about to import \"%1\" database "
+"<nobr>(connection %2)</nobr> into a Kexi database.</qt>"
+msgstr ""
+"<qt>डाटाबेस आयात गर्ने विजार्डले केक्सी डाटाबेसमा \"%1\" डाटाबेस <nobr>(%2 "
+"जडान)</nobr>आयात गर्न लागेको छ ।</qt>"
+
+#: migration/importwizard.cpp:161
+msgid ""
+"<qt>Database Importing wizard is about to import <nobr>\"%1\"</nobr> file of "
+"type \"%2\" into a Kexi database.</qt>"
+msgstr ""
+"<qt>डाटाबेस आयात गर्ने विजार्डले केक्सी डाटाबेसमा \"%2\" प्रकारको  "
+"<nobr>\"%1\"</nobr> फाइल आयात गर्न लागेको छ ।</qt>"
+
+#: migration/importwizard.cpp:166
+msgid ""
+"Database Importing wizard allows you to import an existing database into a "
+"Kexi database."
+msgstr ""
+"डाटाबेस आयात गर्ने विजार्डले केक्सी डाटाबेसमा अवस्थित डाटाबेस आयात गर्न "
+"तपाईँलाई अनुमति दिन्छ ।"
+
+#: migration/importwizard.cpp:170
+msgid ""
+"Click \"Next\" button to continue or \"Cancel\" button to exit this wizard."
+msgstr ""
+"यो विजार्ड जारी राख्न\"पछिल्लो\" बटन क्लिक गर्नुहोस् वा निस्कनका लागि \"रद्द "
+"गर्नुहोस्\" बटन क्लिक गर्नुहोस्   ।"
+
+#: migration/importwizard.cpp:172
+msgid "Welcome to the Database Importing Wizard"
+msgstr "डाटाबेस आयात गर्ने विजार्डमा स्वागत छ"
+
+#: migration/importwizard.cpp:224
+msgid "Select Location for Source Database"
+msgstr "स्रोत डाटाबेसका लागि स्थान चयन गर्नुहोस्"
+
+#: migration/importwizard.cpp:234
+msgid "Select Source Database"
+msgstr "स्रोत डाटाबेस चयन गर्नुहोस्"
+
+#: migration/importwizard.cpp:249
+msgid "Destination database type:"
+msgstr "गन्तव्य डाटाबेस प्रकार:"
+
+#: migration/importwizard.cpp:255
+msgid "Database project stored in a file"
+msgstr "फाइलमा भण्डारण गरिएको डाटाबेस परियोजना"
+
+#: migration/importwizard.cpp:256
+msgid "Database project stored on a server"
+msgstr "सर्भरमा भण्डारण गरिएको डाटाबेस परियोजना"
+
+#: migration/importwizard.cpp:268
+msgid "Select Destination Database Type"
+msgstr "गन्तव्य डाटाबेस प्रकार चयन गर्नुहोस्"
+
+#: migration/importwizard.cpp:275
+msgid "Destination project's caption:"
+msgstr "गन्तव्य परियोजनाको क्याप्सन:"
+
+#: migration/importwizard.cpp:280
+msgid "Select Destination Database Project's Caption"
+msgstr "गन्तव्य डाटाबेस परियोजनाको क्याप्सन चयन गर्नुहोस्"
+
+#: migration/importwizard.cpp:313
+msgid "Select Location for Destination Database"
+msgstr "गन्तव्य डाटाबेसका लागि स्थान चयन गर्नुहोस्"
+
+#: migration/importwizard.cpp:326
+msgid "Structure and data"
+msgstr "बनावट र डेटा"
+
+#: migration/importwizard.cpp:327
+msgid "Structure only"
+msgstr "बनावट मात्र"
+
+#: migration/importwizard.cpp:331
+msgid "Select Type of Import"
+msgstr "आयातको प्रकार चयन गर्नुहोस्"
+
+#: migration/importwizard.cpp:356
+msgid "Advanced Options"
+msgstr "उन्नत विकल्प"
+
+#: migration/importwizard.cpp:366
+msgid "Importing"
+msgstr "आयात गर्दै"
+
+#: migration/importwizard.cpp:380
+msgid "Open imported project"
+msgstr "आयात गरिएको परियोजना खोल्नुहोस्"
+
+#: migration/importwizard.cpp:387 migration/importwizard.cpp:847
+msgid "Success"
+msgstr "सफलता"
+
+#: migration/importwizard.cpp:398
+msgid "No new database name was entered."
+msgstr "कुनै नयाँ डाटाबेस नाम प्रविष्ट गरिएन ।"
+
+#: migration/importwizard.cpp:405
+msgid "Source database is the same as destination."
+msgstr "गन्तव्य जस्तै स्रोत डाटाबेस ।"
+
+#: migration/importwizard.cpp:410
+msgid "Following problems were found with the data you entered:"
+msgstr "तपाईँले प्रविष्ट गर्नु भएको डेटासँग निम्न समस्याहरू फेला पर्यो:"
+
+#: migration/importwizard.cpp:412
+msgid "Please click 'Back' button and correct these errors."
+msgstr "कृपया 'पछाडि' बटन क्लिक गर्नुहोस् र ती त्रुटिहरू सुधार गर्नुहोस् ।"
+
+#: migration/importwizard.cpp:474
+msgid "Select source database you wish to import:"
+msgstr "तपाईँले आयात गर्न चाहनु भएको स्रोत डाटाबेस चयन गर्नुहोस्:"
+
+#: migration/importwizard.cpp:539
+msgid ""
+"All required information has now been gathered. Click \"Next\" button to "
+"start importing.\n"
+"\n"
+"Depending on size of the database this may take some time."
+msgstr ""
+"सबै आवश्यक सूचना सङ्कलन गरी सकियो । आयात सुरु गर्न \"पछिल्लो\" बटनमा क्लिक "
+"गर्नुहोस् ।\n"
+"\n"
+"डाटाबेसको साइजको आधारमा केही समय लिन सक्दछ ।"
+
+#: migration/importwizard.cpp:716
+msgid "No appropriate migration driver found."
+msgstr "उपयुक्त निर्गमन ड्राइभर फेला परेन ।"
+
+#: migration/importwizard.cpp:821
+msgid ""
+"Database %1 already exists.<p>Do you want to replace it with a new one?"
+msgstr ""
+"%1 डाटाबेस पहिल्यै अवस्थित छ ।<p> के तपाईँले यसलाई नयाँसँग प्रतिस्थापन गर्न "
+"चाहनुहुन्छ ?"
+
+#: migration/importwizard.cpp:861
+msgid "Failure"
+msgstr "असफलता"
+
+#: migration/importwizard.cpp:863
+msgid ""
+"<p>Import failed.</p>%1<p>%2</p><p>You can click \"Back\" button and try "
+"again.</p>"
+msgstr ""
+"<p>आयात असफल ।</p>%1<p>%2</p><p>तपाईँले \"पछाडि\" बटन क्लिक गरेर पुन: प्रयास "
+"गर्न सक्नुहुन्छ ।</p>"
+
+#: migration/importwizard.cpp:884
+msgid "Select source database filename."
+msgstr "स्रोत डाटाबेस फाइलनाम चयन गर्नुहोस् ।"
+
+#: migration/importwizard.cpp:889
+msgid "Select source database."
+msgstr "स्रोत डाटाबेस चयन गर्नुहोस् ।"
+
+#: migration/importwizard.cpp:903
+msgid "Could not import database%1. This type is not supported."
+msgstr "%1 डाटाबेस आयात गर्न सकेन । यो प्रकारलाई समर्थन गर्दैन ।"
+
+#: migration/importwizard.cpp:920
+msgid "Importing in progress..."
+msgstr "आयात प्रगतिमा छ..."
+
+#: migration/importwizard.cpp:924
+msgid "Database has been imported into Kexi database project \"%1\"."
+msgstr "डाटाबेसलाई \"%1\" केक्सी डाटाबेस परियोजनामा आयात गरिएको छ ।"
+
+#: migration/importwizard.cpp:992 migration/importwizard.cpp:1016
+msgid "No help is available for this page."
+msgstr "यो पृष्ठका लागि मद्दत उपलब्ध छैन ।"
+
+#: migration/importwizard.cpp:1000
+msgid "Here you can choose the location to import data from."
+msgstr "तपाईँले यसबाट डेटा आयात गर्न स्थान छनोट गर्न सक्नुहुन्छ ।"
+
+#: migration/importwizard.cpp:1004
+msgid "Here you can choose the actual database to import data from."
+msgstr "तपाईँले यसबाट डेटा आयात गर्न वास्तविक डाटाबेस छनोट गर्न सक्नुहुन्छ ।"
+
+#: migration/importwizard.cpp:1008
+msgid "Here you can choose the location to save the data."
+msgstr "तपाईँले यसबाट डेटा बचत गर्न स्थान छनोट गर्न सक्नुहुन्छ ।"
+
+#: migration/importwizard.cpp:1012
+msgid ""
+"Here you can choose the location to save the data in and the new database "
+"name."
+msgstr ""
+"तपाईँले यहाँ नयाँ डाटाबेस नाम र डेटामा बचत गर्न स्थान छनोट गर्न सक्नुहुन्छ ।"
+
+#: sqlscanner.l:98
+msgid "Invalid integer number"
+msgstr "अवैध इन्टिजर नम्बर"
+
+#: sqlscanner.l:98
+msgid "This integer number may be too large."
+msgstr "यो इन्टिजर नम्बर धेरै ठूलो हुन सक्दछ ।"
+
+#: sqlscanner.l:286
+msgid "Invalid identifier"
+msgstr "अवैध पहिचायक"
+
+#: kexidb/parser/parser_p.cpp:136
+msgid "identifier was expected"
+msgstr "पहिचायक अपेक्षित थियो"
+
+#: kexidb/parser/parser_p.cpp:144 kexidb/parser/parser_p.cpp:147
+msgid "Syntax Error"
+msgstr "वाक्य संरचना त्रुटि"
+
+#: kexidb/parser/parser_p.cpp:145
+msgid "\"%1\" is a reserved keyword"
+msgstr "\"%1\" एउटा सुरक्षित शब्दकुञ्जी हो ।"
+
+#: kexidb/parser/parser_p.cpp:148
+msgid "Syntax Error near \"%1\""
+msgstr "\"%1\" नजिकको वाक्य संरचना त्रुटि"
+
+#: kexidb/parser/parser_p.cpp:177
+msgid "No query specified"
+msgstr "क्वेरी निर्दिष्ट गरिएको छैन"
+
+#: kexidb/parser/parser_p.cpp:242
+msgid "\"*\" could not be used if no tables are specified"
+msgstr "यदि तालिका निर्दिष्ट गरिएको छैन भने \"*\" प्रयोग गर्न सकिदैन ।"
+
+#: kexidb/expression.cpp:719 kexidb/parser/parser_p.cpp:288
+msgid "Ambiguous field name"
+msgstr "अस्पष्ट फिल्ड नाम"
+
+#: kexidb/expression.cpp:720 kexidb/parser/parser_p.cpp:289
+msgid ""
+"Both table \"%1\" and \"%2\" have defined \"%3\" field. Use "
+"\"<tableName>.%4\" notation to specify table name."
+msgstr ""
+"दुबै तालिका \"%1\" र \"%2\" ले \"%3\" फिल्ड परिभाषित गरेको छ । तालिका नाम "
+"निर्दिष्ट गर्न\"<tableName>.%4\" चिन्ह प्रयोग गर्नुहोस् ।"
+
+#: kexidb/expression.cpp:729 kexidb/expression.cpp:801
+#: kexidb/parser/parser_p.cpp:298 kexidb/parser/parser_p.cpp:381
+msgid "Field not found"
+msgstr "फिल्ड फेला परेन"
+
+#: kexidb/expression.cpp:730 kexidb/parser/parser_p.cpp:299
+msgid "Table containing \"%1\" field not found"
+msgstr "\"%1\" तालिका समाविष्ट फिल्ड फेला परेन"
+
+#: kexidb/expression.cpp:755 kexidb/parser/parser_p.cpp:322
+msgid "Could not access the table directly using its name"
+msgstr "यसको नाम प्रयोग गरेर प्रत्यक्ष रूपमा तालिकामा पहुँच गर्न सकेन"
+
+#: kexidb/expression.cpp:756 kexidb/parser/parser_p.cpp:323
+msgid ""
+"Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
+msgstr ""
+"\"%1\" तालिका उपनामहरूद्वारा ढाकिएको छ । \"%2\" को सट्टामा, तपाईँले \"%3\" "
+"लेख्न सक्नुहुन्छ"
+
+#: kexidb/expression.cpp:789 kexidb/parser/parser_p.cpp:351
+msgid "Ambiguous \"%1.*\" expression"
+msgstr "अस्पष्ट \"%1.*\" अभिव्यक्ति"
+
+#: kexidb/expression.cpp:790 kexidb/parser/parser_p.cpp:352
+msgid "More than one \"%1\" table or alias defined"
+msgstr "एक वा बढी \"%1\" तालिका वा उपनाम परिभाषित गरिएको छ ।"
+
+#: kexidb/expression.cpp:817 kexidb/parser/parser_p.cpp:371
+msgid "Ambiguous \"%1.%2\" expression"
+msgstr "अस्पष्ट \"%1.%2\" अभिव्यक्ति"
+
+#: kexidb/expression.cpp:819 kexidb/parser/parser_p.cpp:372
+msgid "More than one \"%1\" table or alias defined containing \"%2\" field"
+msgstr ""
+"एक वा बढी \"%1\" तालिका वा उपनामले \"%2\" समाविष्ट फिल्ड परिभाषित गर्यो ।"
+
+#: kexidb/expression.cpp:802 kexidb/parser/parser_p.cpp:381
+msgid "Table \"%1\" has no \"%2\" field"
+msgstr "\"%1\" तालिकासँग \"%2\" फिल्ड छैन"
+
+#. i18n("Field List Error"),
+#: kexidb/parser/parser_p.cpp:439
+msgid "Table \"%1\" does not exist"
+msgstr "\"%1\" तालिका अवस्थित छैन"
+
+#: kexidb/parser/parser_p.cpp:513
+msgid "Invalid alias definition for column \"%1\""
+msgstr "\"%1\" स्तम्भका लागि अवैध उपनाम परिभाषा"
+
+#: kexidb/parser/parser_p.cpp:545
+msgid "Invalid \"%1\" column definition"
+msgstr "अवैध \"%1\" स्तम्भ परिभाषा"
+
+#: kexidb/parser/parser_p.cpp:612
+#, c-format
+msgid "Could not define sorting - no column at position %1"
+msgstr "भण्डारण परिभाषित गर्न सकेन - स्थानमा स्तम्भ छैन %1"
+
+#: kexidb/parser/parser_p.cpp:621
+msgid "Could not define sorting - column name or alias \"%1\" does not exist"
+msgstr "भण्डारण परिभाषित गर्न सकेन - स्तम्भ नाम वा उपनाम \"%1\" अवस्थित छैन"
+
+#: kexidb/drivers/pqxx/pqxxcursor.cpp:85
+msgid "No connection for cursor open operation specified"
+msgstr "कर्सर खुला सञ्चालनका लागि जडान निर्दिष्ट गरिएको छैन"
+
+#: kexidb/drivers/pqxx/pqxxconnection.cpp:221
+#: kexidb/drivers/pqxx/pqxxconnection.cpp:307
+#: kexidb/drivers/pqxx/pqxxconnection.cpp:415
+msgid "Unknown error."
+msgstr "अज्ञात त्रुटि ।"
+
+#: kexidb/drivers/sqlite/sqliteadmin.cpp:49
+msgid "Could not compact database \"%1\"."
+msgstr "\"%1\" डाटाबेस सङ्कुचित पार्न सकेन ।"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:202
+msgid "Do you want to open file \"%1\" as read-only?"
+msgstr "के तपाईँले \"%1\" फाइललाई पढ्ने मात्रको रूपमा खोल्न चाहनुहुन्छ ?"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:205
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:221
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:227
+msgid "The file is probably already open on this or another computer."
+msgstr "यो फाइल सम्भवत पहिल्यै यो वा अन्य कम्प्युटरमा खोलिएको छ ।"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:206
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:228
+msgid "Could not gain exclusive access for writing the file."
+msgstr "फाइल लेख्नका लागि अनन्य पहुँच लाभ लिन सकेन ।"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:208
+msgid "Open As Read-Only"
+msgstr "पढ्ने मात्रको रूपमा खोल्नुहोस्"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:222
+msgid "Could not gain exclusive access for reading and writing the file."
+msgstr "फाइल लेख्न र पढ्नका लागि अनन्य पहुँच लाभ लिन सकेन ।"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:252
+msgid "Could not close busy database."
+msgstr "व्यस्त डाटाबेस बन्द गर्न सकेन ।"
+
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:266
+msgid "Could not remove file \"%1\"."
+msgstr "\"%1\" फाइल हटाउन सकेन ।"
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:80
+msgid "Compacting database"
+msgstr "डाटाबेस सङ्कुचन गर्दै"
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:81
+msgid "Compacting database \"%1\"..."
+msgstr "\"%1\" डाटाबेस सङ्कुचन गरिँदैछ..."
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:100
+msgid "The database has been compacted. Current size decreased by %1% to %2."
+msgstr "डाटाबेस सङ्कुचन गरिएको छ । हालको साइज %1% द्वारा %2 मा घटेको छ ।"
+
+#: kexidb/connection.cpp:116
+msgid "Invalid database contents. "
+msgstr "अवैध डाटाबेस सामग्री । "
+
+#: kexidb/connection.cpp:120
+msgid "It is a system object."
+msgstr "यो प्रणाली वस्तु हो ।"
+
+#: kexidb/connection.cpp:250
+msgid "Connection already established."
+msgstr "जडान पहिल्यै गरिएको छ ।"
+
+#: kexidb/connection.cpp:257
+msgid "Could not open \"%1\" project file."
+msgstr "\"%1\" परियोजना फाइल खोल्न सकेन ।"
+
+#: kexidb/connection.cpp:258
+msgid "Could not connect to \"%1\" database server."
+msgstr "\"%1\" डाटाबेस सर्भरमा जडान गर्न सकेन ।"
+
+#: kexidb/connection.cpp:300
+msgid "Not connected to the database server."
+msgstr "डाटाबेस सर्भरमा जडान गरिएको छैन ।"
+
+#: kexidb/connection.cpp:310
+msgid "Currently no database is used."
+msgstr "हालै कुनै पनि डाटाबेस प्रयोग गरिएको छैन ।"
+
+#: kexidb/connection.cpp:366
+msgid "The database \"%1\" does not exist."
+msgstr "\"%1\" डाटाबेस अवस्थित छैन ।"
+
+#: kexidb/connection.cpp:386
+msgid "Database file \"%1\" does not exist."
+msgstr "\"%1\" डाटाबेस फाइल अवस्थित छैन ।"
+
+#: kexidb/connection.cpp:392
+msgid "Database file \"%1\" is not readable."
+msgstr "\"%1\" डाटाबेस फाइल पढ्नयोग्य छैन ।"
+
+#: kexidb/connection.cpp:398
+msgid "Database file \"%1\" is not writable."
+msgstr "\"%1\" डाटाबेस फाइल लेख्नयोग्य छैन ।"
+
+#: kexidb/connection.cpp:441
+msgid "Database \"%1\" already exists."
+msgstr "\"%1\" डाटाबेस पहिल्यै अवस्थित छ ।"
+
+#: kexidb/connection.cpp:446
+msgid ""
+"Cannot create database \"%1\". This name is reserved for system database."
+msgstr ""
+"\"%1\" डाटाबेस सिर्जना गर्न सकिदैन । यो नामलाई प्रणाली डाटाबेसका लागि "
+"सुरक्षित गरिएको छ ।"
+
+#: kexidb/connection.cpp:461
+msgid "Error creating database \"%1\" on the server."
+msgstr "सर्भरमा \"%1\" डाटाबेस सिर्जना गर्दा त्रुटि ।"
+
+#: kexidb/connection.cpp:475
+msgid "Database \"%1\" created but could not be opened."
+msgstr "\"%1\" डाटाबेस सिर्जना गरिएको छ तर खोल्न सकिएन ।"
+
+#: kexidb/connection.cpp:569
+msgid "Opening database \"%1\" failed."
+msgstr "\"%1\" डाटाबेस खोल्न असफल ।"
+
+#: kexidb/connection.cpp:609
+msgid "Database version (%1) does not match Kexi application's version (%2)"
+msgstr "(%1) डाटाबेस संस्करणले (%2) केक्सी अनुप्रयोगको संस्करणसँग मिल्दैन ।"
+
+#: kexidb/connection.cpp:679
+msgid "Cannot find any database for temporary connection."
+msgstr "अस्थायी जडानका लागि कुनै पनि डाटाबेस फेला पार्न सकिदैन ।"
+
+#: kexidb/connection.cpp:688
+msgid ""
+"Error during starting temporary connection using \"%1\" database name."
+msgstr ""
+"\"%1\" डाटाबेस नामको प्रयोग गरेर अस्थायी जडान सुरु गर्ने बेलामा त्रुटि ।"
+
+#: kexidb/connection.cpp:705
+msgid "Cannot drop database - name not specified."
+msgstr "निर्दिष्ट नगरिएको डाटाबेस नाम छोड्न सकिदैन ।"
+
+#: kexidb/connection.cpp:723
+msgid "Cannot delete database - name not specified."
+msgstr "निर्दिष्ट नगरिएको डाटाबेस नाम मेट्न सकिदैन ।"
+
+#: kexidb/connection.cpp:728
+msgid "Cannot delete system database \"%1\"."
+msgstr "\"%1\" प्रणाली डाटाबेस मेट्न सकिदैन ।"
+
+#: kexidb/connection.cpp:1062
+msgid "Error while executing SQL statement."
+msgstr "SQL कथन कार्यान्वयन गर्दा त्रुटि ।"
+
+#: kexidb/connection.cpp:1533
+msgid "Cannot create table without fields."
+msgstr "फिल्ड बिना तालिका सिर्जना गर्न सकिदैन ।"
+
+#: kexidb/connection.cpp:1543
+msgid "System name \"%1\" cannot be used as table name."
+msgstr "तालिका नामको रूपमा \"%1\" प्रणाली नाम प्रयोग गर्न सकिदैन ।"
+
+#: kexidb/connection.cpp:1552
+msgid "System name \"%1\" cannot be used as one of fields in \"%2\" table."
+msgstr ""
+"तालिकामा \"%2\" कुनै एउटा फिल्डको रूपमा \"%1\" प्रणाली नाम प्रयोग गर्न "
+"सकिदैन ।"
+
+#: kexidb/connection.cpp:1568
+msgid "Could not create the same table \"%1\" twice."
+msgstr "\"%1\" उही तालिकालाई दुई पटक सिर्जना गर्न सकेन ।"
+
+#: kexidb/connection.cpp:1673
+msgid "Could not remove object's data."
+msgstr "वस्तुको डेटा हटाउन सकेन ।"
+
+#: kexidb/connection.cpp:1704
+msgid "Table \"%1\" cannot be removed.\n"
+msgstr "\"%1\" तालिका हटाउन सकिदैन ।\n"
+
+#: kexidb/connection.cpp:1711
+msgid "Unexpected name or identifier."
+msgstr "अनपेक्षित नाम वा पहिचायक ।"
+
+#: kexidb/connection.cpp:1759
+msgid "Table \"%1\" does not exist."
+msgstr "\"%1\" तालिका अवस्थित छैन ।"
+
+#: kexidb/connection.cpp:1774
+msgid "Could not alter table \"%1\" using the same table."
+msgstr "उही तालिका प्रयोग गरेर \"%1\" तालिका परिवर्तन गर्न सकेन ।"
+
+#: kexidb/connection.cpp:1796 kexidb/expression.cpp:776
+msgid "Unknown table \"%1\""
+msgstr "अज्ञात तालिका \"%1\""
+
+#: kexidb/connection.cpp:1800
+msgid "Invalid table name \"%1\""
+msgstr "अवैध तालिका नाम \"%1\""
+
+#: kexidb/connection.cpp:1806
+msgid "Could rename table \"%1\" using the same name."
+msgstr "उही नाम प्रयोग गरेर \"%1\" तालिका पुन: नामकरण गर्न सकेन ।"
+
+#: kexidb/connection.cpp:1818
+msgid "Could not rename table \"%1\" to \"%2\". Table \"%3\" already exists."
+msgstr ""
+"\"%1\" तालिकालाई \"%2\" मा पुन: नामकरण गर्न सकेन । \"%3\" तालिका पहिल्यै "
+"अवस्थित छ ।"
+
+#: kexidb/connection.cpp:1940
+msgid "Query \"%1\" does not exist."
+msgstr "\"%1\" क्वेरी अवस्थित छैन ।"
+
+#: kexidb/connection.cpp:2037
+msgid "Transaction already started."
+msgstr "कारोबार पहिल्यै सुरुआत गरिएको छ ।"
+
+#: kexidb/connection.cpp:2079 kexidb/connection.cpp:2115
+msgid "Transaction not started."
+msgstr "कारोबार सुरुआत गरिएको छैन ।"
+
+#: kexidb/connection.cpp:2093
+msgid "Error on commit transaction"
+msgstr "कारोबार कमिट गर्दा त्रुटि"
+
+#: kexidb/connection.cpp:2129
+msgid "Error on rollback transaction"
+msgstr "कारोबार रोलब्याकमा त्रुटि"
+
+#: kexidb/connection.cpp:2290 kexidb/connection.cpp:2779
+msgid "Invalid object name \"%1\""
+msgstr "अवैध वस्तु नाम \"%1\""
+
+#: kexidb/connection.cpp:2410
+msgid "Column %1 does not exist for the query."
+msgstr "क्वेरीका लागि %1 स्तम्भ अवस्थित छैन ।"
+
+#: kexidb/connection.cpp:2697
+msgid ""
+"Error in XML data: \"%1\" in line %2, column %3.\n"
+"XML data: "
+msgstr ""
+"XML डेटामा त्रुटि: %2 रेखामा \"%1\", %3 स्तम्भ\n"
+"XML डेटा: "
+
+#: kexidb/connection.cpp:2819
+msgid "Table has no fields defined."
+msgstr "तालिकासँग परिभाषित गरिएको फिल्ड छैन ।"
+
+#: kexidb/connection.cpp:2945
+msgid ""
+"Could not find definition for query \"%1\". Removing this query is "
+"recommended."
+msgstr ""
+"\"%1\" क्वेरीका लागि परिभाषा फेला पार्न सकेन । यो क्वेरी हटाउन सिफारिस "
+"गरिएको छ ।"
+
+#: kexidb/connection.cpp:2954
+msgid ""
+"<p>Could not load definition for query \"%1\". SQL statement for this query "
+"is invalid:<br><tt>%2</tt></p>\n"
+"<p>You can open this query in Text View and correct it.</p>"
+msgstr ""
+"<p>\"%1\" क्वेरीका लागि परिभाषा लोड गर्न सकेन । क्वेरीका लागि SQL कथन अवैध "
+"छ:<br><tt>%2</tt></p>\n"
+"<p>तपाईँले यो क्वेरीलाई पाठ दृश्यमा खोल्न र यसलाई सुधार गर्न सक्नुहुन्छ ।</p>"
+
+#: kexidb/connection.cpp:3168
+msgid "Could not update row because there is no master table defined."
+msgstr ""
+"पङ्क्ति अद्यावधिक गर्न सकिँदैन किनभने त्यहाँ कुनै मास्टर तालिका परिभाषित "
+"गरिएको छैन।"
+
+#: kexidb/connection.cpp:3175
+msgid "Could not update row because master table has no primary key defined."
+msgstr ""
+"मास्टर कुञ्जीमा प्राथमिक कुञ्जी परिभाषित नगरिएकाले पङ्क्ति अद्यावधिक गर्न "
+"सकेन ।"
+
+#: kexidb/connection.cpp:3199
+msgid ""
+"Could not update row because it does not contain entire master table's "
+"primary key."
+msgstr ""
+"यसले सम्पूर्ण मास्टर तालिकाको प्राथमिक कुञ्जी समावेश नगरेकाले पङ्क्ति "
+"अद्यावधिक गर्न सकेन ।"
+
+#: kexidb/connection.cpp:3210 kexidb/connection.cpp:3431
+msgid "Primary key's field \"%1\" cannot be empty."
+msgstr "प्राथमिक कुञ्जी फिल्ड \"%1\" खाली हुन सक्दैन ।"
+
+#: kexidb/connection.cpp:3227
+msgid "Row updating on the server failed."
+msgstr "पङ्क्ति अद्यावधिक गर्दा असफल ।"
+
+#: kexidb/connection.cpp:3250
+msgid "Could not insert row because there is no master table defined."
+msgstr "त्यहाँ मास्टर तालिका परिभाषित नगरिएकाले पङ्क्ति घुसाउन सकेन ।"
+
+#: kexidb/connection.cpp:3284
+msgid "Could not insert row because master table has no primary key defined."
+msgstr ""
+"मास्टर कुञ्जीमा प्राथमिक कुञ्जी परिभाषित नगरिएकाले पङ्क्ति घुसाउन सकेन ।"
+
+#: kexidb/connection.cpp:3293
+msgid ""
+"Could not insert row because it does not contain entire master table's "
+"primary key."
+msgstr ""
+"यसले सम्पूर्ण मास्टर तालिकाको प्राथमिक कुञ्जी समावेश नगरेकाले पङ्क्ति घुसाउन "
+"सकेन ।"
+
+#: kexidb/connection.cpp:3332
+msgid "Row inserting on the server failed."
+msgstr "सर्भरमा पङ्क्ति घुसाउँदा असफल ।"
+
+#: kexidb/connection.cpp:3397
+msgid "Could not delete row because there is no master table defined."
+msgstr "त्यहाँ मास्टर तालिका परिभाषित नगरिएकाले पङ्क्ति मेट्न सकेन ।"
+
+#: kexidb/connection.cpp:3407
+msgid ""
+"Could not delete row because there is no primary key for master table "
+"defined."
+msgstr ""
+"त्यहाँ मास्टर तालिकाका लागि प्राथमिक कुञ्जी परिभाषित नगरिएकाले पङ्क्ति मेट्न "
+"सकेन ।"
+
+#: kexidb/connection.cpp:3422
+msgid ""
+"Could not delete row because it does not contain entire master table's "
+"primary key."
+msgstr ""
+"यसले सम्पूर्ण मास्टर तालिकाको प्राथमिक कुञ्जी समावेश नगर्ने हुनाले पङ्क्ति "
+"मेट्न सकेन ।"
+
+#: kexidb/connection.cpp:3448 kexidb/connection.cpp:3471
+msgid "Row deletion on the server failed."
+msgstr "सर्भरमा पङ्क्ति मेट्न असफल ।"
+
+#: kexidb/field.cpp:685
+msgid "Invalid Type"
+msgstr "अवैध प्रकार"
+
+#: kexidb/field.cpp:686
+msgid "Byte"
+msgstr "बाइट"
+
+#: kexidb/field.cpp:687
+msgid "Short Integer Number"
+msgstr "छोटो इन्टिजर नम्बर"
+
+#: kexidb/field.cpp:688 kexidb/field.cpp:718
+msgid "Integer Number"
+msgstr "इन्टिजर नम्बर"
+
+#: kexidb/field.cpp:689
+msgid "Big Integer Number"
+msgstr "ठूलो इन्टिजर नम्बर"
+
+#: kexidb/field.cpp:690
+msgid "Yes/No Value"
+msgstr "हो/होइन मान"
+
+#: kexidb/field.cpp:692
+msgid "Date and Time"
+msgstr "मिति र समय"
+
+#: kexidb/field.cpp:694
+msgid "Single Precision Number"
+msgstr "एकल सूक्ष्म नम्बर"
+
+#: kexidb/field.cpp:695
+msgid "Double Precision Number"
+msgstr "दोहोरो सूक्ष्म नम्बर"
+
+#: kexidb/field.cpp:697
+msgid "Long Text"
+msgstr "लामो पाठ"
+
+#: kexidb/field.cpp:716
+msgid "Invalid Group"
+msgstr "अवैध समूह"
+
+#: kexidb/field.cpp:719
+msgid "Floating Point Number"
+msgstr "उत्प्लवान बिन्दु नम्बर"
+
+#: kexidb/field.cpp:720
+msgid "Yes/No"
+msgstr "हो/होइन"
+
+#: kexidb/dbproperties.cpp:44 kexidb/dbproperties.cpp:54
+#: kexidb/dbproperties.cpp:65
+msgid "Could not set value of database property \"%1\"."
+msgstr "डाटाबेस गुण \"%1\" को मान सेट गर्न सेकन ।"
+
+#: kexidb/dbproperties.cpp:82 kexidb/dbproperties.cpp:92
+#: kexidb/dbproperties.cpp:103
+msgid "Could not set caption for database property \"%1\"."
+msgstr "डाटाबेस गुण \"%1\" का लागि क्याप्सन सेट गर्न सकेन ।"
+
+#: kexidb/dbproperties.cpp:116 kexidb/dbproperties.cpp:131
+msgid "Could not read database property \"%1\"."
+msgstr "डाटाबेस गुण \"%1\" पढ्न सकेन ।"
+
+#: kexidb/dbproperties.cpp:144
+msgid "Could not read database properties."
+msgstr "डाटाबेस गुण पढ्न सकेन ।"
+
+#: kexidb/object.cpp:60
+msgid "Unspecified error encountered"
+msgstr "निर्दिष्ट नगरिएको त्रुटि भेटियो"
+
+#: kexidb/driver_p.cpp:49
+msgid "Client library version"
+msgstr "क्लाइन्ट लाइब्रेरी संस्करण"
+
+#: kexidb/driver_p.cpp:53
+msgid "Default character encoding on server"
+msgstr "सर्भरमा पूर्वनिर्धारित क्यारेक्टर सङ्केतन"
+
+#: kexidb/driver_p.cpp:59
+msgid "File-based database driver"
+msgstr "फाइलमा आधारित डाटाबेस ड्राइभर"
+
+#: kexidb/driver_p.cpp:62
+msgid "File-based database's MIME type"
+msgstr "फाइलमा आधारित डाटाबेसको माइम प्रकार"
+
+#: kexidb/driver_p.cpp:68
+msgid "Single transactions"
+msgstr "एकल कारोबार"
+
+#: kexidb/driver_p.cpp:70
+msgid "Multiple transactions"
+msgstr "बहुँविध कारोबार"
+
+#: kexidb/driver_p.cpp:72
+msgid "Nested transactions"
+msgstr "नेस्टेड कारोबार"
+
+#: kexidb/driver_p.cpp:74
+msgid "Ignored"
+msgstr "उपेक्षित"
+
+#: kexidb/driver_p.cpp:81
+msgid "Single transactions support"
+msgstr "एकल कारोबार समर्थन"
+
+#: kexidb/driver_p.cpp:83
+msgid "Multiple transactions support"
+msgstr "बहुँविध कारोबार समर्थन"
+
+#: kexidb/driver_p.cpp:85
+msgid "Nested transactions support"
+msgstr "नेस्टेड कारोबार समर्थन"
+
+#: kexidb/driver_p.cpp:90
+msgid "KexiDB driver version"
+msgstr "KexiDB ड्राइभर संस्करण"
+
+#: kexidb/expression.cpp:775
+msgid "Table not found"
+msgstr "तालिका फेला परेन"
+
+#: kexidb/cursor.cpp:142
+msgid "No query statement or schema defined."
+msgstr "क्वेरी कथन वा स्कीमा परिभाषित गरिएको छैन ।"
+
+#: kexidb/cursor.cpp:152
+msgid "Query statement is empty."
+msgstr "क्वेरी कथन खाली छ ।"
+
+#: kexidb/cursor.cpp:162
+msgid "Error opening database cursor."
+msgstr "डाटाबेस कर्सर खोल्दा त्रुटि ।"
+
+#: kexidb/cursor.cpp:418 kexidb/cursor.cpp:441
+msgid "Cannot fetch next record."
+msgstr "पछिल्लो रेकर्ड तान्न सकिदैन ।"
+
+#: kexidb/connectiondata.cpp:97
+msgid "file"
+msgstr "फाइल"
+
+#: kexidb/utils.cpp:139
+msgid "Message from server:"
+msgstr "सर्भरबाट सन्देश:"
+
+#: kexidb/utils.cpp:141
+msgid "SQL statement:"
+msgstr "SQL तथ्याङ्क:"
+
+#: kexidb/utils.cpp:153
+msgid "Server result name:"
+msgstr "सर्भर परिणाम नाम:"
+
+#: kexidb/utils.cpp:157
+msgid "Server result number:"
+msgstr "सर्भर परिणाम नम्बर:"
+
+#: kexidb/utils.cpp:389 kexidb/utils.cpp:445 kexidb/utils.cpp:451
+msgid "Test Connection"
+msgstr "परीक्षण जडान"
+
+#: kexidb/utils.cpp:389
+msgid "<qt>Testing connection to <b>%1</b> database server...</qt>"
+msgstr "<qt>डाटाबेस सर्भर <b>%1</b> मा परीक्षण जडान...</qt>"
+
+#: kexidb/utils.cpp:443
+msgid ""
+"<qt>Test connection to <b>%1</b> database server failed. The server is not "
+"responding.</qt>"
+msgstr ""
+"<qt>डाटाबेस सर्भर <b>%1</b> मा परीक्षण जडान असफल । यो सर्भरले प्रतिक्रिया "
+"गरिरहेको छैन ।</qt>"
+
+#: kexidb/utils.cpp:449
+msgid ""
+"<qt>Test connection to <b>%1</b> database server established "
+"successfully.</qt>"
+msgstr ""
+"<qt>डाटाबेस सर्भर <b>%1</b> मा परीक्षण जडान सफलता पूर्वक स्थापना गरियो ।</qt>"
+
+#: kexidb/simplecommandlineapp.cpp:35
+msgid "Database driver name"
+msgstr "डाटाबेस ड्राइभर नाम"
+
+#: kexidb/simplecommandlineapp.cpp:37
+msgid "Database user name"
+msgstr "डाटाबेस प्रयोगकर्ता नाम"
+
+#: kexidb/simplecommandlineapp.cpp:39
+msgid "Prompt for password"
+msgstr "पासवर्डका लागि प्रोम्ट गर्नुहोस्"
+
+#: kexidb/simplecommandlineapp.cpp:41
+msgid "Host (server) name"
+msgstr "होस्ट (सर्भर) नाम"
+
+#: kexidb/simplecommandlineapp.cpp:42
+msgid "Server's port number"
+msgstr "सर्भरको पोर्ट नम्बर:"
+
+#: kexidb/simplecommandlineapp.cpp:44
+msgid "Server's local socket filename"
+msgstr "स्रोतको स्थानिय सकेट फाइलनाम"
+
+#: kexidb/simplecommandlineapp.cpp:143
+msgid "Enter password for %1: "
+msgstr "%1 का लागि पासवर्ड प्रविष्ट गर्नुहोस्: "
+
+#: kexidb/dbobjectnamevalidator.cpp:46
+msgid ""
+"You cannot use name \"%1\" for your object.\n"
+"It is reserved for internal Kexi objects. Please choose another name."
+msgstr ""
+"तपाईँको वस्तुका लागि तपाईँले \"%1\" नाम प्रयोग गर्न सक्नुहुन्न ।\n"
+"यो आन्तरिक केक्सी वस्तुका लागि सञ्चित गरिएको छ । कृपया अन्य नाम छनोट "
+"गर्नुहोस् ।"
+
+#: kexidb/dbobjectnamevalidator.cpp:49
+msgid "Names of internal Kexi objects are starting with \"kexi__\"."
+msgstr "केक्सी वस्तुको नाम \"kexi__\" सँग सुरुआत हुन्छ ।"
+
+#: kexidb/drivermanager.cpp:179
+msgid "Could not find any database drivers."
+msgstr "कुनै डाटाबेस ड्राइभर फेला पार्न सकेन ।"
+
+#: kexidb/drivermanager.cpp:189 kexidb/drivermanager.cpp:206
+msgid "Could not find database driver \"%1\"."
+msgstr "\"%1\" डाटाबेस ड्राइभर फेला पार्न सकेन ।"
+
+#: kexidb/drivermanager.cpp:218
+msgid "Could not load database driver \"%1\"."
+msgstr "\"%1\" डाटाबेस ड्राइभर लोड गर्न सकेन ।"
+
+#: kexidb/drivermanager.cpp:363
+msgid "No such driver service: \"%1\"."
+msgstr "यस्तो ड्राइभर सेवा छैन: \"%1\"।"
+
+#: kexidb/driver.cpp:108
+msgid ""
+"Incompatible database driver's \"%1\" version: found version %2, expected "
+"version %3."
+msgstr ""
+"अनुपयुक्त डाटाबेस ड्राइभरको \"%1\" संस्करण: %2 फेला पर्यो, अपेक्षित संस्करण "
+"%3"
+
+#: kexidb/driver.cpp:115
+msgid "Invalid database driver's \"%1\" implementation:\n"
+msgstr "अवैध डाटाबेस ड्राइभरको \"%1\" कार्यान्वयन:\n"
+
+#: kexidb/driver.cpp:116
+msgid "Value of \"%1\" is not initialized for the driver."
+msgstr "ड्राइभरका लागि \"%1\" को मान सुरुआत गरिएको छैन ।"
+
+#: kexidb/driver.cpp:186
+msgid "File name expected for file-based database driver."
+msgstr "फाइल आधारित डाटाबेस ड्राइभरका लागि अपेक्षा गरिएको फाइल नाम ।"

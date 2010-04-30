@@ -1,0 +1,279 @@
+# translation of katomic.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: katomic\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2010-04-20 13:36+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:25+0000\n"
+
+#: chooselevelsetdialog.cpp:38
+msgid "Level Sets"
+msgstr ""
+
+#: gamewidget.cpp:97
+#, kde-format
+msgid ""
+"Failed to load level set \"%1\". Check if it is installed on your computer."
+msgstr ""
+
+#: gamewidget.cpp:158
+#, kde-format
+msgid "Level %1 finished. "
+msgstr "स्तर %1 समाप्त ।"
+
+#: gamewidget.cpp:162
+msgid "Congratulations! You have a new highscore!"
+msgstr "बधाइ छ! तपाईले नयाँ उच्च प्राप्ताङ्क बनाउनु भयो!"
+
+#: levelset.cpp:278
+msgid "Noname"
+msgstr "बेनामी"
+
+#: levelsetdelegate.cpp:96
+#, kde-format
+msgid "by %1"
+msgstr ""
+
+#: levelsetdelegate.cpp:102
+#, kde-format
+msgid ", contains 1 level"
+msgid_plural ", contains %1 levels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: main.cpp:36
+msgid "KDE Atomic Entertainment Game"
+msgstr "केडीई एटोमिक मनोरञ्जन खेल"
+
+#: main.cpp:46
+msgid "KAtomic"
+msgstr "केडीई एटोमिक"
+
+#: main.cpp:48
+msgid ""
+"(c) 1998, Andreas Wuest\n"
+"(c) 2007-2009 Dmitry Suzdalev"
+msgstr ""
+
+#: main.cpp:49
+msgid "Andreas Wuest"
+msgstr "एन्ड्रेस वेस्ट"
+
+#: main.cpp:49
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:50
+msgid "Dmitry Suzdalev"
+msgstr "डीमिट्रे सुज्डालेभ"
+
+#: main.cpp:50
+msgid "Porting to KDE4. Current maintainer"
+msgstr "केडीई ४ मा पोर्ट गर्दै, हालको सम्भारकर्ता"
+
+#: main.cpp:51
+msgid "Stephan Kulow"
+msgstr "स्टेफन कुल्वो"
+
+#: main.cpp:52
+msgid "Cristian Tibirna"
+msgstr "क्रिस्टियन टिबिर्ना"
+
+#: main.cpp:53
+msgid "Carsten Pfeiffer"
+msgstr "कार्स्टेन पिफिफर"
+
+#: main.cpp:54
+msgid "Dave Corrie"
+msgstr "डेभ कोरी"
+
+#: main.cpp:55
+msgid "Kai Jung"
+msgstr "काइ जङ"
+
+#: main.cpp:55
+msgid "6 new levels"
+msgstr "६ वटा नयाँ स्तर"
+
+#: main.cpp:56
+msgid "Danny Allen"
+msgstr "ड्यानि एलेन"
+
+#: main.cpp:56
+msgid "Game graphics and application icon"
+msgstr "खेल ग्राफिक्स र अनुप्रयोग प्रतिमा"
+
+#: main.cpp:57
+msgid "Johann Ollivier Lapeyre"
+msgstr "जोहान ओलिभिर लापिर"
+
+#: main.cpp:57
+msgid "New great SVG artwork for KDE4"
+msgstr "केडीई ४ का लागि नयाँ ठूलो एसभीजी कलाकार्य"
+
+#: main.cpp:62
+msgid "Enable access to all levels"
+msgstr "सबै स्तरमा पहुँच सक्षम पार्नुहोस्"
+
+#: main.cpp:70
+msgid ""
+"KAtomic failed to find its default level set and will quit. Please check "
+"your installation."
+msgstr ""
+
+#. i18n: file: katomic.kcfg:9
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: rc.cpp:3
+msgid "The speed of the animations."
+msgstr "एनिमेसनको गति ।"
+
+#. i18n: file: katomic.kcfg:20
+#. i18n: ectx: label, entry (SavedBackgroundWidth), group (General)
+#: rc.cpp:6
+msgid "Width of saved background"
+msgstr "बचत गरिएको पृष्ठभूमिको चौडाइ"
+
+#. i18n: file: katomic.kcfg:24
+#. i18n: ectx: label, entry (SavedBackgroundHeight), group (General)
+#: rc.cpp:9
+msgid "Height of saved background"
+msgstr "बचत गरिएको पृष्ठभूमिको उचाइ"
+
+#. i18n: file: katomic.kcfg:28
+#. i18n: ectx: label, entry (LastPlayedLevelSet), group (General)
+#: rc.cpp:12
+msgid "Last played levelset"
+msgstr ""
+
+#. i18n: file: katomicui.rc:16
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:15
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: katomicui.rc:25
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:18
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: levelsetwidget.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21
+msgid "Choose a level set to play:"
+msgstr ""
+
+#. i18n: file: levelsetwidget.ui:45
+#. i18n: ectx: property (text), widget (KNS::Button, m_pbNewStuff)
+#: rc.cpp:24
+msgid "Get new levels"
+msgstr "नयाँ स्तरहरु पाउनुहोस्"
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, जितेन्द्र हरलालका ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, jitendra@otrc.gov.np, ,"
+
+#: toplevel.cpp:60
+msgid "Level:"
+msgstr "स्तर:"
+
+#: toplevel.cpp:61
+msgid "Current score:"
+msgstr "हालको प्राप्ताङ्क:"
+
+#: toplevel.cpp:62
+msgid "Highscore:"
+msgstr "उच्च प्राप्ताङ्क:"
+
+#: toplevel.cpp:106
+msgid "Previous Level"
+msgstr "अघिल्लो स्तर"
+
+#: toplevel.cpp:113
+msgid "Next Level"
+msgstr "पछिल्लो स्तर"
+
+#: toplevel.cpp:119
+msgid "Choose level set..."
+msgstr ""
+
+#: toplevel.cpp:123
+msgid "Animation Speed"
+msgstr "एनिमेसन गति"
+
+#: toplevel.cpp:126
+msgid "Slow"
+msgstr "ढिलो"
+
+#: toplevel.cpp:126
+msgid "Normal"
+msgstr "सामान्य"
+
+#: toplevel.cpp:126
+msgid "Fast"
+msgstr "छिटो"
+
+#: toplevel.cpp:132
+msgid "Undo All"
+msgstr "सबैलाई पूर्वावस्थामा फर्काउनुहोस्"
+
+#: toplevel.cpp:137
+msgid "Redo All"
+msgstr "सबैलाई रिडु गर्नुहोस्"
+
+#: toplevel.cpp:151
+msgid "Atom Up"
+msgstr "एटम माथि"
+
+#: toplevel.cpp:157
+msgid "Atom Down"
+msgstr "एटम तल"
+
+#: toplevel.cpp:163
+msgid "Atom Left"
+msgstr "एटम बायाँ"
+
+#: toplevel.cpp:169
+msgid "Atom Right"
+msgstr "एटम दायाँ"
+
+#: toplevel.cpp:175
+msgid "Next Atom"
+msgstr "पछिल्लो एटम"
+
+#: toplevel.cpp:181
+msgid "Previous Atom"
+msgstr "अघिल्लो एटम"
+
+#: toplevel.cpp:202
+#, kde-format
+msgid "Level: %1 (%2)"
+msgstr "स्तर: %1 (%2)"
+
+#: toplevel.cpp:203
+#, kde-format
+msgid "Current score: %1"
+msgstr "हालको प्राप्ताङ्क: %1"
+
+#: toplevel.cpp:209
+#, kde-format
+msgid "Highscore: %1"
+msgstr "उच्च प्राप्ताङ्क: %1"

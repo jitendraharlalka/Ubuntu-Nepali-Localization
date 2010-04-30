@@ -1,0 +1,6266 @@
+# translation of umbrello.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: umbrello\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 19:08+0000\n"
+"PO-Revision-Date: 2009-07-16 09:54+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:07+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: umlviewimageexportermodel.cpp:214
+#, kde-format
+msgid "Can not create directory: %1"
+msgstr "डाइरेक्टरी सिर्जना गर्न सकिँदैन; %1"
+
+#: umlviewimageexportermodel.cpp:232
+msgid "Can not save an empty diagram"
+msgstr "एउटा खाली रेखाचित्र बचत गर्न सकिँदैन"
+
+#: umlviewimageexportermodel.cpp:237
+#, kde-format
+msgid "A problem occurred while saving diagram in %1"
+msgstr ""
+
+#: umlviewimageexportermodel.cpp:243 umldoc.cpp:615 umldoc.cpp:625
+#: umldoc.cpp:642 umldoc.cpp:675 umldoc.cpp:693 umllistview.cpp:471
+#, kde-format
+msgid "There was a problem saving file: %1"
+msgstr "त्यहाँ फाइल बचत गर्दा समस्या थियो: %1"
+
+#: association.cpp:39
+msgid "Generalization"
+msgstr "सामान्यकरण"
+
+#: association.cpp:40 worktoolbar.cpp:315
+msgid "Aggregation"
+msgstr "समुच्चयन"
+
+#: association.cpp:41 worktoolbar.cpp:314
+msgid "Dependency"
+msgstr "निर्भरता"
+
+#: association.cpp:42 worktoolbar.cpp:307
+msgid "Association"
+msgstr "संघ"
+
+#: association.cpp:43
+msgid "Self Association"
+msgstr "स्वयं संगत"
+
+#: association.cpp:44
+msgid "Collaboration Message"
+msgstr "सहकार्य सन्देश"
+
+#: association.cpp:45
+msgid "Sequence Message"
+msgstr "अनुक्रम सन्देश"
+
+#: association.cpp:46
+msgid "Collaboration Self Message"
+msgstr "सहकार्य स्वयं सन्देश"
+
+#: association.cpp:47
+msgid "Sequence Self Message"
+msgstr "अनुक्रम स्वयं सन्देश"
+
+#: association.cpp:48 worktoolbar.cpp:308
+msgid "Containment"
+msgstr "रोकथाम"
+
+#: association.cpp:49 worktoolbar.cpp:319
+msgid "Composition"
+msgstr "मिश्रण"
+
+#: association.cpp:50
+msgid "Realization"
+msgstr "प्राप्ति"
+
+#: association.cpp:51
+msgid "Uni Association"
+msgstr "एकीकृत संघ"
+
+#: association.cpp:52 worktoolbar.cpp:309
+msgid "Anchor"
+msgstr "एङ्कर"
+
+#: association.cpp:53 worktoolbar.cpp:347
+msgid "State Transition"
+msgstr "स्थिति सङ्क्रमण"
+
+#: association.cpp:54 dialogs/activitydialog.cpp:137 worktoolbar.cpp:349
+msgid "Activity"
+msgstr "क्रियाकलाप"
+
+#: association.cpp:55 worktoolbar.cpp:356
+msgid "Exception"
+msgstr ""
+
+#: association.cpp:56 worktoolbar.cpp:360
+msgid "Category to Parent"
+msgstr ""
+
+#: association.cpp:57 worktoolbar.cpp:361
+msgid "Child to Category"
+msgstr ""
+
+#: association.cpp:58 worktoolbar.cpp:316
+msgid "Relationship"
+msgstr "सम्बन्ध"
+
+#: toolbarstateassociation.cpp:181 toolbarstateassociation.cpp:250
+msgid "Incorrect use of associations."
+msgstr "संघको गलत प्रयोग ।"
+
+#: toolbarstateassociation.cpp:181 toolbarstateassociation.cpp:250
+msgid "Association Error"
+msgstr "संघ त्रुटि"
+
+#: widgets/notewidget.cpp:393
+msgid "Note Type"
+msgstr ""
+
+#: widgets/notewidget.cpp:393
+msgid "Select the Note Type"
+msgstr ""
+
+#: widgets/floatingdashlinewidget.cpp:77
+msgid "Enter alternative Name"
+msgstr ""
+
+#: widgets/floatingdashlinewidget.cpp:77
+msgid "Enter the alternative :"
+msgstr ""
+
+#: widgets/associationwidget.cpp:2694
+msgid "Multiplicity"
+msgstr "बाहुल्य"
+
+#: widgets/associationwidget.cpp:2695 widgets/floatingtextwidget.cpp:184
+msgid "Enter multiplicity:"
+msgstr "बाहूल्यता प्रविष्ट गर्नुहोस्:"
+
+#: widgets/associationwidget.cpp:2712
+msgid "Association Name"
+msgstr "संघ नाम"
+
+#: widgets/associationwidget.cpp:2713 widgets/floatingtextwidget.cpp:191
+msgid "Enter association name:"
+msgstr "संघको नाम प्रविष्ट गर्नुहोस्:"
+
+#: widgets/associationwidget.cpp:2732
+msgid "Role Name"
+msgstr "भूमिका नाम"
+
+#: widgets/associationwidget.cpp:2733 widgets/floatingtextwidget.cpp:182
+msgid "Enter role name:"
+msgstr "भूमिका नाम प्रविष्ट गर्नुहोस्:"
+
+#: widgets/toolbarstateonewidget.cpp:120 widgets/preconditionwidget.cpp:124
+msgid "Enter Precondition Name"
+msgstr ""
+
+#: widgets/toolbarstateonewidget.cpp:120
+msgid "Enter the precondition"
+msgstr ""
+
+#: widgets/toolbarstateonewidget.cpp:120
+msgid "new precondition"
+msgstr ""
+
+#: widgets/preconditionwidget.cpp:124
+msgid "Enter the precondition :"
+msgstr ""
+
+#: widgets/floatingtextwidget.cpp:129
+msgctxt "operation name"
+msgid "Name"
+msgstr ""
+
+#: widgets/floatingtextwidget.cpp:130
+msgid "Enter operation name:"
+msgstr "सञ्चालन नाम प्रविष्ट गर्नुहोस्:"
+
+#: widgets/floatingtextwidget.cpp:193 widgets/floatingtextwidget.cpp:315
+msgid "Enter new text:"
+msgstr "नयाँ पाठ प्रविष्ट गर्नुहोस्:"
+
+#: widgets/floatingtextwidget.cpp:195
+msgid "ERROR"
+msgstr "त्रुटि"
+
+#: widgets/floatingtextwidget.cpp:198 dialogs/activitypage.cpp:106
+msgid "Rename"
+msgstr "पुन: नामकरण गर्नुहोस्"
+
+#: widgets/floatingtextwidget.cpp:315
+msgid "Change Text"
+msgstr "पाठ परिवर्तन गर्नुहोस्"
+
+#: widgets/statewidget.cpp:175 umlview.cpp:2724 toolbarstateother.cpp:256
+msgid "Enter State Name"
+msgstr "राज्य नाम प्रविष्ट गर्नुहोस्"
+
+#: widgets/statewidget.cpp:175 umlview.cpp:2725 toolbarstateother.cpp:257
+msgid "Enter the name of the new state:"
+msgstr "नयाँ राज्यको नाम प्रविष्ट गर्नुहोस्:"
+
+#: widgets/statewidget.cpp:185
+msgid "Enter Activity"
+msgstr "क्रियाकलाप प्रविष्ट गर्नुहोस्"
+
+#: widgets/statewidget.cpp:185 widgets/activitywidget.cpp:265 umlview.cpp:2757
+#: toolbarstateother.cpp:228 dialogs/activitypage.cpp:176
+msgid "Enter the name of the new activity:"
+msgstr "नयाँ क्रियाकलापको नाम प्रविष्ट गर्नुहोस्:"
+
+#: widgets/statewidget.cpp:185 umlview.cpp:2758 toolbarstateother.cpp:228
+#: dialogs/activitypage.cpp:176
+msgid "new activity"
+msgstr "नयाँ क्रियाकलाप"
+
+#: widgets/activitywidget.cpp:265 umlview.cpp:2756 toolbarstateother.cpp:227
+msgid "Enter Activity Name"
+msgstr "क्रियाकलाप नाम प्रविष्ट गर्नुहोस्"
+
+#: widgets/objectwidget.cpp:94
+msgid "Rename Object"
+msgstr "वस्तु पुन: नामकरण गर्नुहोस्"
+
+#: widgets/objectwidget.cpp:95
+msgid "Enter object name:"
+msgstr "वस्तु नाम प्रविष्ट गर्नुहोस्:"
+
+#: widgets/objectnodewidget.cpp:200
+msgid "Enter Object Node Name"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:200
+msgid "Enter the name of the object node :"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:256
+msgid "Select Object node type"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:256
+msgid "Select the object node type"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:262
+msgid "Enter the name of the data store node"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:262
+msgid "data store name"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:264
+msgid "Enter the name of the buffer node"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:264
+msgid "Enter the name of the buffer"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:264
+msgid "centralBuffer"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:266
+msgid "Enter the name of the object flow"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:266
+msgid "object flow"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:279
+msgid "Enter Object Flow State"
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:279
+msgid "Enter State (keep '-' if there is no state for the object) "
+msgstr ""
+
+#: widgets/objectnodewidget.cpp:279 widgets/combinedfragmentwidget.cpp:255
+#: widgets/combinedfragmentwidget.cpp:257
+msgid "-"
+msgstr ""
+
+#: widgets/signalwidget.cpp:217
+msgid "Enter signal name"
+msgstr ""
+
+#: widgets/signalwidget.cpp:217
+msgid "Enter the signal name :"
+msgstr ""
+
+#: widgets/pinwidget.cpp:180
+msgid "Enter Pin Name"
+msgstr ""
+
+#: widgets/pinwidget.cpp:180
+msgid "Enter the pin name :"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:253
+msgid "Enter the name of the diagram referenced"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:253
+msgid "Diagram name"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:255
+#: widgets/combinedfragmentwidget.cpp:348
+msgid "Enter the guard of the loop"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:257
+msgid "Enter the first alternative name"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:342
+msgid "Enter first alternative"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:342
+msgid "Enter first alternative :"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:345
+msgid "Enter referenced diagram name"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:345
+msgid "Enter referenced diagram name :"
+msgstr ""
+
+#: widgets/combinedfragmentwidget.cpp:348
+msgid "Enter the guard of the loop:"
+msgstr ""
+
+#: widgets/messagewidget.cpp:1019 listpopupmenu.cpp:1168
+#: listpopupmenu.cpp:1172
+msgid "Operation"
+msgstr "सञ्चालन"
+
+#: codegenerators/simplecodegenerator.cpp:132
+#: codegenerators/codegenerator.cpp:643
+msgid "Cannot create the folder:\n"
+msgstr "फोल्डर सिर्जना गर्न सकिँदैन:\n"
+
+#: codegenerators/simplecodegenerator.cpp:133
+#: codegenerators/codegenerator.cpp:644
+msgid ""
+"\n"
+"Please check the access rights"
+msgstr ""
+"\n"
+"कृपया पहुँच अधिकार जाँच गर्नुहोस्"
+
+#: codegenerators/simplecodegenerator.cpp:134
+#: codegenerators/codegenerator.cpp:645
+msgid "Cannot Create Folder"
+msgstr "फोल्डर सिर्जना गर्न सकिँदैन"
+
+#: codegenerators/codegenerator.cpp:578
+#, kde-format
+msgid ""
+"Cannot open file %1 for writing. Please make sure the folder exists and you "
+"have permissions to write to it."
+msgstr ""
+"लेख्नका लागि फाइल %1 खोल्न सकिँदैन । कृपया फोल्डर अवस्थित छ भन्ने निश्चित "
+"गर्नुहोस् र तपाईँलाई यसमा लेख्ने अनुमति छ ।"
+
+#: codegenerators/codegenerator.cpp:578
+msgid "Cannot Open File"
+msgstr "फाइल खोल्न सकिँदैन"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:39
+msgid "Package is a namespace"
+msgstr "प्याकेज नामस्थान हो"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:43
+msgid "Virtual destructors"
+msgstr "वास्तविक विनाशक"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:47
+msgid "Generate empty constructors"
+msgstr "खाली निर्माणकर्ताहरू सिर्जना गर्नुहोस्"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:51
+msgid "Generate accessor methods"
+msgstr "पहुँचकर्ता विधिहरू सिर्जना गर्नुहोस्"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:55
+msgid "Operations are inline"
+msgstr "सञ्चालनहरू इनलाइन छन्"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:59
+msgid "Accessors are inline"
+msgstr "पहुँचकर्ताहरू इनलाइन छन्"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:63
+msgid "Accessors are public"
+msgstr "पहुँचकर्ताहरू सार्वजनिक छन्"
+
+#: codegenerators/cpp/cppcodegenerationform.cpp:67
+msgid "Use '\\' as documentation tag instead of '@'"
+msgstr ""
+
+#: clipboard/umlclipboard.cpp:827
+msgid ""
+"At least one of the items in the clipboard could not be pasted because an "
+"item of the same name already exists.  Any other items have been pasted."
+msgstr ""
+"क्लिपबोर्डमा भएको कम्तिमा एउटा वस्तु टाँस्न सकिँदैन किनभने उही नामको एउटा "
+"वस्तु पहिल्यै अवस्थित छ । अन्य कुनै वस्तु टाँसिएको छ ।"
+
+#: clipboard/umlclipboard.cpp:831 uml.cpp:1290
+msgid "Paste Error"
+msgstr "त्रुटि टाँस्नुहोस्"
+
+#: umldoc.cpp:87 umldoc.cpp:1870
+msgid "UML Model"
+msgstr "यूएमएल नमूना"
+
+#: umldoc.cpp:117
+msgid "Logical View"
+msgstr "लोजिकल दृश्य"
+
+#: umldoc.cpp:118
+msgid "Use Case View"
+msgstr "केस दृश्य प्रयोग गर्नुहोस्"
+
+#: umldoc.cpp:119
+msgid "Component View"
+msgstr "अवयव दृश्य"
+
+#: umldoc.cpp:120
+msgid "Deployment View"
+msgstr "परिनियोजन दृश्य"
+
+#: umldoc.cpp:121
+msgid "Entity Relationship Model"
+msgstr "अस्तित्व सम्बन्ध नमूना"
+
+#: umldoc.cpp:128 umldoc.cpp:340
+msgid "Datatypes"
+msgstr "डेटा प्रकार"
+
+#: umldoc.cpp:268
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"हालको फाइल परिमार्जन गरिएको छ ।\n"
+"यसलाई तपाईँ बचत गर्न चाहनुहुन्छ ?"
+
+#: umldoc.cpp:269
+msgctxt "warning message"
+msgid "Warning"
+msgstr ""
+
+#: umldoc.cpp:273 umldoc.cpp:366 umldoc.cpp:418 umldoc.cpp:440 umldoc.cpp:478
+#: umldoc.cpp:490 umldoc.cpp:504 umldoc.cpp:516 umldoc.cpp:528 umldoc.cpp:694
+#: umldoc.cpp:701 umldoc.cpp:2691 umldoc.cpp:2694 uml.cpp:796 uml.cpp:1083
+msgid "Untitled"
+msgstr ""
+
+#: umldoc.cpp:417
+#, kde-format
+msgid "The file %1 does not exist."
+msgstr "फाइल %1 अवस्थित छैन ।"
+
+#: umldoc.cpp:417 umldoc.cpp:439 umldoc.cpp:477 umldoc.cpp:489 umldoc.cpp:503
+#: umldoc.cpp:515 umldoc.cpp:527 umldoc.cpp:545 folder.cpp:412 folder.cpp:416
+msgid "Load Error"
+msgstr "त्रुटि लोड गर्नुहोस्"
+
+#: umldoc.cpp:439
+#, kde-format
+msgid "The file %1 seems to be corrupted."
+msgstr "फाइल %1 दूषित देखिन्छ ।"
+
+#: umldoc.cpp:476 umldoc.cpp:488 umldoc.cpp:514
+#, kde-format
+msgid "There was no XMI file found in the compressed file %1."
+msgstr "त्यहाँ सङ्कुचन गरिएको फाइल %1 मा एकसएमएल फाइल फेला परेन ।"
+
+#: umldoc.cpp:502
+#, kde-format
+msgid "There was a problem loading the extracted file: %1"
+msgstr "त्यहाँ झिकिएको फाइल लोड गर्दा समस्या भयो: %1"
+
+#: umldoc.cpp:526 umldoc.cpp:544
+#, kde-format
+msgid "There was a problem loading file: %1"
+msgstr "त्यहाँ फाइल लोड गर्दा समस्या भयो: %1"
+
+#: umldoc.cpp:615 umldoc.cpp:625 umldoc.cpp:642 umldoc.cpp:675 umldoc.cpp:693
+#: umldoc.cpp:700 umllistview.cpp:472
+msgid "Save Error"
+msgstr "त्रुटि बचत गर्नुहोस्"
+
+#: umldoc.cpp:700
+#, kde-format
+msgid "There was a problem uploading file: %1"
+msgstr "त्यहाँ फाइल अपलोड गर्दा समस्या भयो: %1"
+
+#: umldoc.cpp:1153
+msgid "use case diagram"
+msgstr "केस रेखाचित्र प्रयोग गर्नुहोस्"
+
+#: umldoc.cpp:1156
+msgid "class diagram"
+msgstr "वर्ग रेखाचित्र"
+
+#: umldoc.cpp:1159
+msgid "sequence diagram"
+msgstr "अनुक्रम रेखाचित्र"
+
+#: umldoc.cpp:1162
+msgid "collaboration diagram"
+msgstr "सहकार्य रेखाचित्र"
+
+#: umldoc.cpp:1165
+msgid "state diagram"
+msgstr "स्थिति रेखाचित्र"
+
+#: umldoc.cpp:1168
+msgid "activity diagram"
+msgstr "क्रियाकलाप रेखाचित्र"
+
+#: umldoc.cpp:1171
+msgid "component diagram"
+msgstr "अवयव रेखाचित्र"
+
+#: umldoc.cpp:1174
+msgid "deployment diagram"
+msgstr "परिनियोजन रेखाचित्र"
+
+#: umldoc.cpp:1177
+msgid "entity relationship diagram"
+msgstr "अस्तित्व सम्बन्ध रेखाचित्र"
+
+#: umldoc.cpp:1234
+msgctxt "diagram name"
+msgid "Name"
+msgstr ""
+
+#: umldoc.cpp:1234 umldoc.cpp:1277 umldoc.cpp:1309 umldoc.cpp:1343
+#: enumliteral.cpp:105 object_factory.cpp:189 stereotype.cpp:96
+msgid "Enter name:"
+msgstr "नाम प्रविष्ट गर्नुहोस्:"
+
+#: umldoc.cpp:1242 umldoc.cpp:1283
+msgid "That is an invalid name for a diagram."
+msgstr "त्यो रेखाचित्रका लागि एउटा अवैध नाम हो ।"
+
+#: umldoc.cpp:1242 umldoc.cpp:1283 umldoc.cpp:1314 umldoc.cpp:1348
+#: dialogs/umlviewdialog.cpp:211 enum.cpp:107 package.cpp:169 entity.cpp:125
+#: entity.cpp:178 entity.cpp:228 entity.cpp:277 classifier.cpp:391
+#: classifier.cpp:768 object_factory.cpp:195
+msgid "Invalid Name"
+msgstr "अवैध नाम"
+
+#: umldoc.cpp:1256 umldoc.cpp:1293
+msgid "A diagram is already using that name."
+msgstr "रेखाचित्रले पहिल्यै त्यो नाम प्रयोग गरिरहेको छ ।"
+
+#: umldoc.cpp:1256 umldoc.cpp:1293 umldoc.cpp:1321 umldoc.cpp:1359
+#: entity.cpp:127 entity.cpp:180 entity.cpp:230 entity.cpp:279
+#: classifier.cpp:394 classifier.cpp:770 object_factory.cpp:206
+msgid "Not a Unique Name"
+msgstr "अद्धितिय नाम होइन"
+
+#: umldoc.cpp:1277
+msgctxt "renaming diagram"
+msgid "Name"
+msgstr ""
+
+#: umldoc.cpp:1309
+msgctxt "renaming uml object"
+msgid "Name"
+msgstr ""
+
+#: umldoc.cpp:1314 umldoc.cpp:1348 enum.cpp:107 package.cpp:168 entity.cpp:125
+#: entity.cpp:178 entity.cpp:228 entity.cpp:277 classifier.cpp:391
+#: classifier.cpp:768 object_factory.cpp:194
+msgid "That is an invalid name."
+msgstr "त्यो एउटा अवैध नाम हो ।"
+
+#: umldoc.cpp:1321 umldoc.cpp:1359 entity.cpp:127 entity.cpp:180
+#: entity.cpp:230 entity.cpp:279 classifier.cpp:394 classifier.cpp:770
+#: object_factory.cpp:205
+msgid "That name is already being used."
+msgstr "त्यो नाम पहिल्यै प्रयोग गरिएको छ ।"
+
+#: umldoc.cpp:1343
+msgctxt "renaming child uml object"
+msgid "Name"
+msgstr ""
+
+#: umldoc.cpp:1353 umllistview.cpp:2191
+msgid ""
+"The name you entered was not unique.\n"
+"Is this what you wanted?"
+msgstr ""
+"तपाईँले प्रविष्ट गर्नुभएको नाम अद्वितिय छैन ।\n"
+"के यो तपाईँले चाहेको जस्तो छ ?"
+
+#: umldoc.cpp:1354 dialogs/umlviewdialog.cpp:217 umllistview.cpp:2192
+#: umllistview.cpp:2199 umllistview.cpp:2461
+msgid "Name Not Unique"
+msgstr "नाम अद्धितिय छैन"
+
+#: umldoc.cpp:1354 umllistview.cpp:2192
+msgid "Use Name"
+msgstr "नाम प्रयोग गर्नुहोस्"
+
+#: umldoc.cpp:1354 umllistview.cpp:2192
+msgid "Enter New Name"
+msgstr "नयाँ नाम प्रविष्ट गर्नुहोस्"
+
+#: umldoc.cpp:1396
+#, kde-format
+msgid "Are you sure you want to delete diagram %1?"
+msgstr "तपाईँ रेखाचित्र %1 मेट्न निश्चित हुनुहुन्छ ?"
+
+#: umldoc.cpp:1397
+msgid "Delete Diagram"
+msgstr "रेखाचित्र मेट्नुहोस्"
+
+#: umldoc.cpp:1398 umlview.cpp:2952
+#: dialogs/umlforeignkeyconstraintdialog.cpp:310
+#: dialogs/umloperationdialog.cpp:166 dialogs/classifierlistpage.cpp:206
+#: dialogs/umluniqueconstraintdialog.cpp:114 uml.cpp:412
+msgid "&Delete"
+msgstr ""
+
+#: umldoc.cpp:1926
+msgid "Setting up the document..."
+msgstr "कागजात सेटिङ गर्दैछ..."
+
+#: umldoc.cpp:1955
+msgid "Resolving object references..."
+msgstr "वस्तु सन्दर्भहरू विभाजित गर्दैछ..."
+
+#: umldoc.cpp:2006
+msgid "Loading UML elements..."
+msgstr "यूएमएल तत्वहरू लोड हुँदैछ..."
+
+#: umldoc.cpp:2190
+msgid "Loading diagrams..."
+msgstr "रेखाचित्र लोड हुँदैछ..."
+
+#: umldoc.cpp:2692
+#, kde-format
+msgid "/autosave%1"
+msgstr "/autosave%1"
+
+#: cmds/widget/cmd_changeLineColor.cpp:34
+msgid "Change Line Color"
+msgstr ""
+
+#: cmds/widget/cmd_changeFillColor.cpp:26
+msgid "Change Fill Color"
+msgstr ""
+
+#: cmds/widget/cmd_changeFontSelection.cpp:26
+msgid "Change Font"
+msgstr ""
+
+#: cmds/widget/cmd_changeMulti.cpp:26
+msgid "Change Multiplicity"
+msgstr ""
+
+#: cmds/widget/cmd_create_widget.cpp:26
+msgid "Create widget :"
+msgstr ""
+
+#: cmds/cmd_create_statediag.cpp:25
+msgid "Create state diagram"
+msgstr ""
+
+#: cmds/cmd_create_componentdiag.cpp:25
+msgid "Create component diagram"
+msgstr ""
+
+#: cmds/cmd_create_usecasediag.cpp:25
+msgid "Create use case diagram"
+msgstr ""
+
+#: cmds/cmd_handle_rename.cpp:25
+msgid "Change text"
+msgstr ""
+
+#: cmds/cmd_create_collaborationdiag.cpp:25
+msgid "Create collaboration diagram"
+msgstr ""
+
+#: cmds/cmd_create_seqdiag.cpp:25
+msgid "Create sequence diagram"
+msgstr ""
+
+#: cmds/cmd_create_activitydiag.cpp:25
+msgid "Create activity diagram"
+msgstr ""
+
+#: cmds/cmd_moveWidget.cpp:26
+msgid "Move widget :"
+msgstr ""
+
+#: cmds/cmd_create_deploydiag.cpp:25
+msgid "Create deployment diagram"
+msgstr ""
+
+#: cmds/cmd_resizeWidget.cpp:25
+msgid "Resizing Widget."
+msgstr ""
+
+#: cmds/cmd_create_entityrelationdiag.cpp:25
+msgid "Create entity relationship diagram"
+msgstr ""
+
+#: cmds/generic/cmd_create_umlobject.cpp:28
+msgid "Create uml object :"
+msgstr ""
+
+#: cmds/generic/cmd_rename_umlobject.cpp:25
+msgid "Rename object"
+msgstr ""
+
+#: cmds/cmd_set_visibility.cpp:24
+msgid "Change visibility : "
+msgstr ""
+
+#: cmds/cmd_create_classdiag.cpp:25
+msgid "Create class diagram"
+msgstr ""
+
+#: umlcanvasobject.cpp:191 model_utils.cpp:428
+msgid "new_association"
+msgstr "new_association"
+
+#: umlcanvasobject.cpp:194
+msgid "new_attribute"
+msgstr "new_attribute"
+
+#: umlcanvasobject.cpp:197
+msgid "new_template"
+msgstr "new_template"
+
+#: umlcanvasobject.cpp:200
+msgid "new_operation"
+msgstr "new_operation"
+
+#: umlcanvasobject.cpp:203
+msgid "new_literal"
+msgstr "new_literal"
+
+#: umlcanvasobject.cpp:206
+msgid "new_field"
+msgstr "new_field"
+
+#: umlcanvasobject.cpp:209
+msgid "new_unique_constraint"
+msgstr ""
+
+#: umlcanvasobject.cpp:212
+msgid "new_fkey_constraint"
+msgstr ""
+
+#: umlcanvasobject.cpp:215
+msgid "new_check_constraint"
+msgstr ""
+
+#: umlview.cpp:309 umlview.cpp:379
+#, kde-format
+msgid "Diagram: %2 Page %1"
+msgstr "रेखाचित्र: %2 पृष्ठ %1"
+
+#: umlview.cpp:2726 toolbarstateother.cpp:257
+msgid "new state"
+msgstr "नयाँ राज्य"
+
+#: umlview.cpp:2788
+msgid "Enter Diagram Name"
+msgstr "रेखाचित्र नाम प्रविष्ट गर्नुहोस्"
+
+#: umlview.cpp:2789
+msgid "Enter the new name of the diagram:"
+msgstr "रेखाचित्रको नयाँ नाम प्रविष्ट गर्नुहोस्:"
+
+#: umlview.cpp:2950
+msgid ""
+"You are about to delete the entire diagram.\n"
+"Are you sure?"
+msgstr ""
+"तपाईँ पूरै रेखाचित्र मेट्दै हुनुहुन्छ ।\n"
+"तपाईँ निश्चित हुनुहुन्छ ?"
+
+#: umlview.cpp:2952
+msgid "Delete Diagram?"
+msgstr "रेखाचित्र मेट्नुहुन्छ ?"
+
+#: toolbarstateother.cpp:235
+msgid "Enter Signal Name"
+msgstr ""
+
+#: toolbarstateother.cpp:236
+msgid "Enter Signal"
+msgstr ""
+
+#: toolbarstateother.cpp:236
+msgid "new Signal"
+msgstr ""
+
+#: toolbarstateother.cpp:242
+msgid "Enter Time Event Name"
+msgstr ""
+
+#: toolbarstateother.cpp:243
+msgid "Enter Time Event"
+msgstr ""
+
+#: toolbarstateother.cpp:243
+msgid "new time event"
+msgstr ""
+
+#: toolbarstateother.cpp:249
+msgid "Enter Combined Fragment Name"
+msgstr ""
+
+#: toolbarstateother.cpp:250
+msgid "Enter the Combined Fragment"
+msgstr ""
+
+#: toolbarstateother.cpp:250
+msgid "new Combined Fragment"
+msgstr ""
+
+#: codegenwizard/codegenerationwizard.cpp:44
+msgid "Code Generation Wizard"
+msgstr "कोड सिर्जना विजार्ड"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, CodeGenOptionsPage)
+#: codegenwizard/codegenoptionspage.cpp:42 rc.cpp:1395
+msgid "Code Generation Options"
+msgstr "सङ्केत सिर्जना विकल्प"
+
+#: codegenwizard/codegenoptionspage.cpp:43
+msgid "Adjust code generation options."
+msgstr ""
+
+#: codegenwizard/codegenoptionspage.cpp:198
+msgid "Language Options"
+msgstr "भाषा विकल्प"
+
+#: codegenwizard/codegenoptionspage.cpp:259
+msgid ""
+"The output folder exists, but it is not writable.\n"
+"Please set the appropriate permissions or choose another folder."
+msgstr ""
+"निर्गत फोल्डर अवस्थित छ, तर यो लेखनयोगय छैन ।\n"
+"कृपया उपयुक्त अनुमतिहरू सेट गर्नुहोस् वा अर्को फोल्डर छनौट गर्नुहोस् ।"
+
+#: codegenwizard/codegenoptionspage.cpp:260
+msgid "Error Writing to Output Folder"
+msgstr "निर्गत फोल्डरमा लेख्दा त्रुटि"
+
+#: codegenwizard/codegenoptionspage.cpp:265
+#, kde-format
+msgid "%1 does not seem to be a folder. Please choose a valid folder."
+msgstr "%1 फोल्डर जस्तो देखिँदैन । कृपया वैध फोल्डर छनौट गर्नुहोस् ।"
+
+#: codegenwizard/codegenoptionspage.cpp:266
+msgid "Please Choose Valid Folder"
+msgstr "कृपया वैध फोल्डर छनौट गर्नुहोस्"
+
+#: codegenwizard/codegenoptionspage.cpp:272
+#, kde-format
+msgid "The folder %1 does not exist. Do you want to create it now?"
+msgstr "फोल्डर %1 अवस्थित छैन । तपाईँ यसलाई अहिले सिर्जना गर्नुहुन्छ ?"
+
+#: codegenwizard/codegenoptionspage.cpp:273
+#: codegenwizard/codegenoptionspage.cpp:285
+msgid "Output Folder Does Not Exist"
+msgstr "निर्गत फोल्डर अवस्थित छैन"
+
+#: codegenwizard/codegenoptionspage.cpp:273
+msgid "Create Folder"
+msgstr "फोल्डर सिर्जना गर्नुहोस्"
+
+#: codegenwizard/codegenoptionspage.cpp:273
+msgid "Do Not Create"
+msgstr "सिर्जना नगर्नुहोस्"
+
+#: codegenwizard/codegenoptionspage.cpp:277
+msgid ""
+"The folder could not be created.\n"
+"Please make sure you have write access to its parent folder or select "
+"another, valid, folder."
+msgstr ""
+"फोल्डर सिर्जना गर्न सकिएन ।\n"
+"कृपया तपाईँको यसको प्रमूल फोल्डरमा लेख्ने पहुँच छ भन्ने निश्चित गर्नुहोस् वा "
+"अन्य, वैध, फोल्डर चयन गर्नुहोस् ।"
+
+#: codegenwizard/codegenoptionspage.cpp:278
+msgid "Error Creating Folder"
+msgstr "फोल्डर सिर्जना गर्दा त्रुटि"
+
+#: codegenwizard/codegenoptionspage.cpp:284
+msgid "Please select a valid folder."
+msgstr "कृपया वैध फोल्डर चयन गर्नुहोस् ।"
+
+#: codegenwizard/codegenstatuspage.cpp:44
+msgid "Status of Code Generation Progress"
+msgstr ""
+
+#: codegenwizard/codegenstatuspage.cpp:45
+msgid ""
+"Press the button Generate to start the code generation.\n"
+"Check the success state for every class."
+msgstr ""
+
+#: codegenwizard/codegenstatuspage.cpp:84
+msgid "Not Yet Generated"
+msgstr "हालसम्म सिर्जना गरिएको छैन"
+
+#: codegenwizard/codegenstatuspage.cpp:154
+msgid "Code Generated"
+msgstr "कोड सिर्जना गरियो"
+
+#: codegenwizard/codegenstatuspage.cpp:158
+msgid "Not Generated"
+msgstr "सिर्जना गरिएको छैन"
+
+#: codegenwizard/codegenselectpage.cpp:36
+msgid "Select Classes"
+msgstr ""
+
+#: codegenwizard/codegenselectpage.cpp:37
+msgid ""
+"Place all the classes you want to generate code\n"
+"for in the right hand side list."
+msgstr ""
+
+#: dialogs/activitydialog.cpp:36 dialogs/activitydialog.cpp:146
+#: dialogs/classpropdlg.cpp:109 dialogs/parmpropdlg.cpp:71
+#: dialogs/statedialog.cpp:37 dialogs/statedialog.cpp:125
+#: dialogs/assocgenpage.cpp:60 dialogs/objectnodedialog.cpp:39
+#: dialogs/umlviewdialog.cpp:35 refactoring/refactoringassistant.cpp:453
+#: listpopupmenu.cpp:583
+msgid "Properties"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:137
+msgid "Initial activity"
+msgstr "सुरूको क्रियाकलाप"
+
+#: dialogs/activitydialog.cpp:137
+msgid "End activity"
+msgstr "अन्तिमको क्रियाकलाप"
+
+#: dialogs/activitydialog.cpp:137
+msgid "Final activity"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:137 listpopupmenu.cpp:1146 worktoolbar.cpp:325
+msgid "Branch/Merge"
+msgstr "शाखा/गाभ्नुहोस्"
+
+#: dialogs/activitydialog.cpp:137
+msgid "Invoke action"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:137
+msgid "Parameter activity"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:141
+msgctxt "general properties page"
+msgid "General"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:142 dialogs/umlentityattributedialog.cpp:71
+#: dialogs/umlattributedialog.cpp:69 dialogs/umltemplatedialog.cpp:65
+#: dialogs/umloperationdialog.cpp:88 dialogs/statedialog.cpp:121
+#: dialogs/objectnodedialog.cpp:141
+msgid "General Properties"
+msgstr "सामान्य गुण"
+
+#: dialogs/activitydialog.cpp:154
+msgid "Activity type:"
+msgstr "क्रियाकलाप प्रकार:"
+
+#: dialogs/activitydialog.cpp:159
+msgid "Activity name:"
+msgstr "क्रियाकलाप नाम:"
+
+#: dialogs/activitydialog.cpp:163
+msgid "Precondition :"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:167
+msgid "Postcondition :"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:174
+msgid "&Normal activity"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:177
+msgid "&Invoke action "
+msgstr ""
+
+#: dialogs/activitydialog.cpp:180
+msgid "&Parameter activity node"
+msgstr ""
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:52
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxDocumentation)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:261
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:261
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:575
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxDocumentation)
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:140
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxDocumentation)
+#. i18n: file: dialogs/diagrampropertiespage.ui:307
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxDocumentation)
+#: dialogs/activitydialog.cpp:200 dialogs/notedialog.cpp:38
+#: dialogs/assocrolepage.cpp:80 dialogs/assocrolepage.cpp:81
+#: dialogs/classgenpage.cpp:225 dialogs/classgenpage.cpp:305
+#: dialogs/classgenpage.cpp:368 dialogs/parmpropdlg.cpp:115
+#: dialogs/statedialog.cpp:140 dialogs/classifierlistpage.cpp:218
+#: dialogs/assocgenpage.cpp:61 dialogs/objectnodedialog.cpp:197 rc.cpp:534
+#: rc.cpp:636 rc.cpp:699 rc.cpp:1362 rc.cpp:1544 rc.cpp:1627
+msgid "Documentation"
+msgstr "मिसिलीकरण"
+
+#. i18n: file: umbrello.kcfg:121
+#. i18n: ectx: label, entry (uiFont), group (UI Options)
+#. i18n: file: umbrello.kcfg:209
+#. i18n: ectx: label, entry (codeViewerFont), group (Code Viewer Options)
+#: dialogs/activitydialog.cpp:223 dialogs/assocpropdlg.cpp:122
+#: dialogs/classpropdlg.cpp:379 dialogs/settingsdlg.cpp:355
+#: dialogs/statedialog.cpp:166 dialogs/objectnodedialog.cpp:220
+#: dialogs/umlviewdialog.cpp:145 rc.cpp:115 rc.cpp:211
+msgid "Font"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:224 dialogs/assocpropdlg.cpp:123
+#: dialogs/classpropdlg.cpp:380 dialogs/settingsdlg.cpp:356
+#: dialogs/statedialog.cpp:167 dialogs/objectnodedialog.cpp:221
+#: dialogs/umlviewdialog.cpp:146
+msgid "Font Settings"
+msgstr "फन्ट सेटिङ"
+
+#: dialogs/activitydialog.cpp:254
+msgctxt "widget color page"
+msgid "Color"
+msgstr ""
+
+#: dialogs/activitydialog.cpp:255 dialogs/classpropdlg.cpp:240
+#: dialogs/objectnodedialog.cpp:248
+msgid "Widget Colors"
+msgstr "विजेड रङ"
+
+#: dialogs/assocpage.cpp:30 dialogs/classpropdlg.cpp:349
+msgid "Associations"
+msgstr "संघ"
+
+#: dialogs/codeeditor.cpp:690
+msgid "Hide"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:696 dialogs/classoptionspage.cpp:76
+#: dialogs/classoptionspage.cpp:146 listpopupmenu.cpp:905
+msgid "Show"
+msgstr "देखाउनुहोस्"
+
+#: dialogs/codeeditor.cpp:705
+msgid "Hide Comment"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:711
+msgid "Show Comment"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:719
+msgid "Insert Code Block Before"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:724
+msgid "Insert Code Block After"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:731 listpopupmenu.cpp:595
+msgid "Copy"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:736 listpopupmenu.cpp:598
+msgid "Paste"
+msgstr ""
+
+#: dialogs/codeeditor.cpp:741 listpopupmenu.cpp:592
+msgid "Cut"
+msgstr ""
+
+#: dialogs/classoptionspage.cpp:83 dialogs/classoptionspage.cpp:152
+msgid "Operatio&ns"
+msgstr "सञ्चालन"
+
+#: dialogs/classoptionspage.cpp:87 dialogs/classoptionspage.cpp:169
+msgid "&Visibility"
+msgstr "दृश्यता"
+
+#: dialogs/classoptionspage.cpp:96 dialogs/classoptionspage.cpp:156
+msgid "O&peration signature"
+msgstr "सञ्चालन हस्ताक्षर"
+
+#: dialogs/classoptionspage.cpp:100 dialogs/classoptionspage.cpp:173
+msgid "Pac&kage"
+msgstr "प्याकेज"
+
+#: dialogs/classoptionspage.cpp:107 dialogs/classoptionspage.cpp:161
+msgid "Att&ributes"
+msgstr "विशेषताहरू"
+
+#: dialogs/classoptionspage.cpp:111 dialogs/classoptionspage.cpp:177
+msgid "Stereot&ype"
+msgstr "स्टेरियो प्रकार"
+
+#: dialogs/classoptionspage.cpp:115 dialogs/classoptionspage.cpp:165
+msgid "Attr&ibute signature"
+msgstr "विशेषता हस्ताक्षर"
+
+#: dialogs/classoptionspage.cpp:124 dialogs/classoptionspage.cpp:185
+msgid "&Public Only"
+msgstr ""
+
+#: dialogs/classoptionspage.cpp:130
+msgid "Draw as circle"
+msgstr "वृतको रूपमा रेखाङ्कन गर्नुहोस्"
+
+#: dialogs/classoptionspage.cpp:181
+msgid "&Attribute associations"
+msgstr ""
+
+#: dialogs/pkgcontentspage.cpp:40
+msgid "Contained Items"
+msgstr "समाविष्ट वस्तु"
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:50
+msgid "Foreign Key Setup"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:196
+msgctxt "general page title"
+msgid "General"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:197 dialogs/assocpropdlg.cpp:93
+#: dialogs/classpropdlg.cpp:227 dialogs/classpropdlg.cpp:361
+#: dialogs/settingsdlg.cpp:120 dialogs/umlviewdialog.cpp:84
+msgid "General Settings"
+msgstr "सामान्य सेटिङ"
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:201
+msgctxt "general group title"
+msgid "General"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:208
+msgctxt "label for entering name"
+msgid "Name"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:211
+msgid "Referenced Entity"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:218
+msgid "Actions"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:224
+msgid "On Update"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:230
+msgid "On Delete"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:262
+msgid "No Action"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:262
+msgid "Restrict"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:262
+msgid "Cascade"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:262
+msgid "Set Null"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:263
+msgid "Set Default"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:281
+#: dialogs/umlforeignkeyconstraintdialog.cpp:282
+msgid "Columns"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:289
+msgctxt "column header local"
+msgid "Local"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:289
+msgctxt "column header referenced"
+msgid "Referenced"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:295
+msgid "Local Column"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:301
+msgid "Referenced Column"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:308
+#: dialogs/umluniqueconstraintdialog.cpp:112
+msgid "&Add"
+msgstr ""
+
+#: dialogs/umlforeignkeyconstraintdialog.cpp:383
+msgid ""
+"You are attempting to change the Referenced Entity of this ForeignKey "
+"Constraint. Any unapplied changes to the mappings between local and "
+"referenced entities will be lost. Are you sure you want to continue ?"
+msgstr ""
+
+#: dialogs/assocpropdlg.cpp:43
+msgid "Association Properties"
+msgstr "संघको गुण"
+
+#: dialogs/assocpropdlg.cpp:92
+msgctxt "general settings"
+msgid "General"
+msgstr ""
+
+#: dialogs/assocpropdlg.cpp:103
+msgid "Roles"
+msgstr "भूमिका"
+
+#: dialogs/assocpropdlg.cpp:104
+msgid "Role Settings"
+msgstr "भूमिका सेटिङ"
+
+#: dialogs/assocpropdlg.cpp:129
+msgid "Association font"
+msgstr "संघको फन्ट"
+
+#: dialogs/notedialog.cpp:27
+msgid "Note Documentation"
+msgstr "टिपोट मिसिलीकरण"
+
+#: dialogs/assocrolepage.cpp:54
+msgid "Role A Properties"
+msgstr "भूमिका ए को गुण"
+
+#: dialogs/assocrolepage.cpp:55
+msgid "Role B Properties"
+msgstr "भूमिका बी को गुण"
+
+#: dialogs/assocrolepage.cpp:72
+msgid "Role A Visibility"
+msgstr "भूमिका ए को दृश्यात्मकता"
+
+#: dialogs/assocrolepage.cpp:73
+msgid "Role B Visibility"
+msgstr "भूमिका बी को दृश्यात्मकता"
+
+#: dialogs/assocrolepage.cpp:74
+msgid "Role A Changeability"
+msgstr "भूमिका ए को परिवर्तनशीलता"
+
+#: dialogs/assocrolepage.cpp:75
+msgid "Role B Changeability"
+msgstr "भूमिका बी को परिवर्तनशीलता"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:36
+#. i18n: ectx: property (text), widget (QLabel, ui_labelRoleName)
+#: dialogs/assocrolepage.cpp:100 dialogs/assocrolepage.cpp:177 rc.cpp:1511
+msgid "Rolename:"
+msgstr "भूमिका नाम:"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:49
+#. i18n: ectx: property (text), widget (QLabel, ui_labelMultiplicity)
+#: dialogs/assocrolepage.cpp:105 dialogs/assocrolepage.cpp:182 rc.cpp:1514
+msgid "Multiplicity:"
+msgstr "गुणकत्व:"
+
+#: dialogs/assocrolepage.cpp:122
+msgctxt "scope for A is public"
+msgid "Public"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:125
+msgctxt "scope for A is private"
+msgid "Private"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:128
+msgctxt "scope for A is protected"
+msgid "Protected"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:131
+msgctxt "scope for A is implementation"
+msgid "Implementation"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:153
+msgctxt "changeability for A is changeable"
+msgid "Changeable"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:156
+msgctxt "changeability for A is frozen"
+msgid "Frozen"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:159
+msgctxt "changeability for A is add only"
+msgid "Add only"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:199
+msgctxt "scope for B is public"
+msgid "Public"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:202
+msgctxt "scope for B is private"
+msgid "Private"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:205
+msgctxt "scope for B is protected"
+msgid "Protected"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:208
+msgctxt "scope for B is implementation"
+msgid "Implementation"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:230
+msgctxt "changeability for B is changeable"
+msgid "Changeable"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:233
+msgctxt "changeability for B is frozen"
+msgid "Frozen"
+msgstr ""
+
+#: dialogs/assocrolepage.cpp:236
+msgctxt "changeability for B is add only"
+msgid "Add only"
+msgstr ""
+
+#: dialogs/umlwidgetcolorpage.cpp:56
+msgctxt "title of color group"
+msgid "Color"
+msgstr ""
+
+#: dialogs/umlwidgetcolorpage.cpp:61
+msgctxt "line color"
+msgid "&Line:"
+msgstr ""
+
+#: dialogs/umlwidgetcolorpage.cpp:68
+msgctxt "default line color button"
+msgid "&Default"
+msgstr ""
+
+#: dialogs/umlwidgetcolorpage.cpp:71
+msgid "&Fill:"
+msgstr "भर्नुहोस्:"
+
+#: dialogs/umlwidgetcolorpage.cpp:78
+msgctxt "default fill color button"
+msgid "D&efault"
+msgstr ""
+
+#: dialogs/umlwidgetcolorpage.cpp:81
+msgid "&Use fill"
+msgstr "भर्ने प्रयोग गर्नुहोस्"
+
+#: dialogs/classpropdlg.cpp:227
+msgctxt "general settings page name"
+msgid "General"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:240
+msgctxt "widget color page name"
+msgid "Color"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:252
+msgctxt "display option page name"
+msgid "Display"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:252
+msgid "Display Options"
+msgstr "विकल्प प्रदर्शन गर्नुहोस्"
+
+#: dialogs/classpropdlg.cpp:265 dialogs/classifierlistpage.cpp:115
+#: refactoring/refactoringassistant.cpp:658 listpopupmenu.cpp:909
+msgid "Attributes"
+msgstr "विशेषताहरू"
+
+#: dialogs/classpropdlg.cpp:265
+msgid "Attribute Settings"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:277 dialogs/classifierlistpage.cpp:119
+#: refactoring/refactoringassistant.cpp:674 listpopupmenu.cpp:912
+msgid "Operations"
+msgstr "सञ्चालन"
+
+#: dialogs/classpropdlg.cpp:277
+msgid "Operation Settings"
+msgstr "सञ्चालन सेटिङ"
+
+#: dialogs/classpropdlg.cpp:289 dialogs/classifierlistpage.cpp:123
+msgid "Templates"
+msgstr "टेम्प्लेट"
+
+#: dialogs/classpropdlg.cpp:289
+msgid "Templates Settings"
+msgstr "टेम्प्लेट सेटिङ"
+
+#: dialogs/classpropdlg.cpp:301 dialogs/classifierlistpage.cpp:127
+msgid "Enum Literals"
+msgstr "इनम आक्षरहरू"
+
+#: dialogs/classpropdlg.cpp:301
+msgid "Enum Literals Settings"
+msgstr "इनम आक्षरहरूको सेटिङ"
+
+#: dialogs/classpropdlg.cpp:313 dialogs/classifierlistpage.cpp:131
+msgid "Entity Attributes"
+msgstr "अस्तित्व विशेषताहरू"
+
+#: dialogs/classpropdlg.cpp:313
+msgid "Entity Attributes Settings"
+msgstr "अस्तित्व विशेषताहरूको सेटिङ"
+
+#: dialogs/classpropdlg.cpp:325
+msgid "Entity Constraints"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:325
+msgid "Entity Constraints Settings"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:337
+msgctxt "contents settings page name"
+msgid "Contents"
+msgstr ""
+
+#: dialogs/classpropdlg.cpp:337
+msgid "Contents Settings"
+msgstr "सामग्रीहरूको सेटिङ"
+
+#: dialogs/classpropdlg.cpp:349
+msgid "Class Associations"
+msgstr "वर्ग संघ"
+
+#: dialogs/classpropdlg.cpp:361
+msgctxt "instance general settings page name"
+msgid "General"
+msgstr ""
+
+#: dialogs/umlentityattributedialog.cpp:46
+msgid "Entity Attribute Properties"
+msgstr "अस्तित्व विशेषता गुण"
+
+#: dialogs/umlentityattributedialog.cpp:76 dialogs/umlattributedialog.cpp:74
+#: dialogs/umltemplatedialog.cpp:70 dialogs/umloperationdialog.cpp:101
+#: dialogs/parmpropdlg.cpp:78
+msgid "&Type:"
+msgstr "प्रकार:"
+
+#: dialogs/umlentityattributedialog.cpp:84
+msgctxt "name of entity attribute"
+msgid "&Name:"
+msgstr ""
+
+#: dialogs/umlentityattributedialog.cpp:88
+msgid "&Default value:"
+msgstr "पूर्वनिर्धारित मान:"
+
+#: dialogs/umlentityattributedialog.cpp:92 dialogs/umlattributedialog.cpp:90
+#: dialogs/umloperationdialog.cpp:108 dialogs/classgenpage.cpp:346
+#: dialogs/parmpropdlg.cpp:93
+msgid "Stereotype name:"
+msgstr "स्टेरियो प्रकार नाम:"
+
+#: dialogs/umlentityattributedialog.cpp:96
+msgid "Length/Values:"
+msgstr "लम्बाइ/मान:"
+
+#: dialogs/umlentityattributedialog.cpp:99
+msgid "&Auto increment"
+msgstr "स्वचालित बढोत्तरी:"
+
+#: dialogs/umlentityattributedialog.cpp:103
+msgid "Allow &null"
+msgstr "शून्य अनुमति दिनुहोस्"
+
+#: dialogs/umlentityattributedialog.cpp:110
+msgid "Attributes:"
+msgstr "विशेषता:"
+
+#: dialogs/umlentityattributedialog.cpp:125
+msgid "Indexing"
+msgstr "अनुक्रमणिका"
+
+#: dialogs/umlentityattributedialog.cpp:129
+msgid "&Not Indexed"
+msgstr ""
+
+#: dialogs/umlentityattributedialog.cpp:140
+msgid "&Indexed"
+msgstr ""
+
+#: dialogs/umlentityattributedialog.cpp:182
+msgid "You have entered an invalid entity attribute name."
+msgstr "तपाईँले एउटा अवैध अस्तित्व विशेषता नाम प्रविष्ट गर्नुभयो ।"
+
+#: dialogs/umlentityattributedialog.cpp:183
+msgid "Entity Attribute Name Invalid"
+msgstr "अस्तित्व विशेषता नाम अवैध छ"
+
+#: dialogs/umlentityattributedialog.cpp:190
+msgid ""
+"The entity attribute name you have chosen is already being used in this "
+"operation."
+msgstr ""
+"तपाईँले रोज्नुभएको अस्तित्व विशेषता नाम यो सञ्चालनमा पहिल्यै प्रयोग गरिएको छ "
+"।"
+
+#: dialogs/umlentityattributedialog.cpp:191
+msgid "Entity Attribute Name Not Unique"
+msgstr "अस्तित्व विशेषता नाम अद्धितिय छैन"
+
+#: dialogs/defaultcodegenpolicypage.cpp:37
+msgid "<p align=\"center\">No Options Available.</p>"
+msgstr "<p align=\"center\">विकल्प उपलब्ध छैन ।</p>"
+
+#: dialogs/umlattributedialog.cpp:45
+msgid "Attribute Properties"
+msgstr "विशेषता गुण"
+
+#: dialogs/umlattributedialog.cpp:82
+msgctxt "attribute name"
+msgid "&Name:"
+msgstr ""
+
+#: dialogs/umlattributedialog.cpp:86 dialogs/parmpropdlg.cpp:90
+msgid "&Initial value:"
+msgstr "सुरूको मान:"
+
+#: dialogs/umlattributedialog.cpp:93 dialogs/umloperationdialog.cpp:116
+msgid "Classifier &scope (\"static\")"
+msgstr "विभाजक क्षेत्र (\"static\")"
+
+#: dialogs/umlattributedialog.cpp:99 dialogs/umloperationdialog.cpp:123
+#: dialogs/settingsdlg.cpp:244 dialogs/classgenpage.cpp:203
+#: listpopupmenu.cpp:916
+msgid "Visibility"
+msgstr "दृश्यात्मकता"
+
+#: dialogs/umlattributedialog.cpp:103
+msgctxt "access control public"
+msgid "&Public"
+msgstr ""
+
+#: dialogs/umlattributedialog.cpp:106
+msgctxt "access control private"
+msgid "P&rivate"
+msgstr ""
+
+#: dialogs/umlattributedialog.cpp:109
+msgctxt "access control protected"
+msgid "Prot&ected"
+msgstr ""
+
+#: dialogs/umlattributedialog.cpp:112 dialogs/umloperationdialog.cpp:137
+msgid "I&mplementation"
+msgstr "कार्यान्वयन"
+
+#: dialogs/umlattributedialog.cpp:160
+msgid "You have entered an invalid attribute name."
+msgstr "तपाईँले एउटा अवैध विशेषता नाम प्रविष्ट गर्नुभयो ।"
+
+#: dialogs/umlattributedialog.cpp:161 refactoring/refactoringassistant.cpp:829
+msgid "Attribute Name Invalid"
+msgstr "विशेषता नाम अवैध छ"
+
+#: dialogs/umlattributedialog.cpp:168
+msgid ""
+"The attribute name you have chosen is already being used in this operation."
+msgstr ""
+"तपाईँले रोज्नुभएको विशेषता नाम पहिल्यै यो सञ्चालनमा प्रयोग गरिएको छ ।"
+
+#: dialogs/umlattributedialog.cpp:169
+msgid "Attribute Name Not Unique"
+msgstr "विशेषता नाम अद्धितिय छैन"
+
+#: dialogs/umltemplatedialog.cpp:40
+msgid "Template Properties"
+msgstr "टेम्प्लेट गुण"
+
+#: dialogs/umltemplatedialog.cpp:78
+msgctxt "template name"
+msgid "&Name:"
+msgstr ""
+
+#: dialogs/umltemplatedialog.cpp:82 dialogs/classgenpage.cpp:113
+msgid "&Stereotype name:"
+msgstr "स्टेरियो प्रकार नाम:"
+
+#: dialogs/umltemplatedialog.cpp:149
+msgid "You have entered an invalid template name."
+msgstr "तपाईँले एउटा अवैध टेम्प्लेट नाम प्रविष्ट गर्नुभयो ।"
+
+#: dialogs/umltemplatedialog.cpp:150
+msgid "Template Name Invalid"
+msgstr "टेम्प्लेट नाम अवैध छ"
+
+#: dialogs/umltemplatedialog.cpp:159
+msgid ""
+"The template parameter name you have chosen is already being used in this "
+"operation."
+msgstr ""
+"तपाईँले रोज्नुभएको टेम्प्लेट परिमिति नाम यो सञ्चालनमा पहिल्यै प्रयोग गरिएको "
+"छ ।"
+
+#: dialogs/umltemplatedialog.cpp:160
+msgid "Template Name Not Unique"
+msgstr "टेम्प्लेट नाम अद्धितिय छैन"
+
+#: dialogs/umloperationdialog.cpp:57
+msgid "Operation Properties"
+msgstr "सञ्चालन गुण"
+
+#: dialogs/umloperationdialog.cpp:98
+msgctxt "operation name"
+msgid "&Name:"
+msgstr ""
+
+#: dialogs/umloperationdialog.cpp:113
+msgid "&Abstract operation"
+msgstr "संक्षेप सञ्चालन"
+
+#: dialogs/umloperationdialog.cpp:119
+msgid "&Query (\"const\")"
+msgstr "क्वेरी (\"const\")"
+
+#: dialogs/umloperationdialog.cpp:128 dialogs/classgenpage.cpp:207
+msgctxt "public visibility"
+msgid "P&ublic"
+msgstr ""
+
+#: dialogs/umloperationdialog.cpp:131 dialogs/classgenpage.cpp:210
+msgctxt "private visibility"
+msgid "P&rivate"
+msgstr ""
+
+#: dialogs/umloperationdialog.cpp:134
+msgctxt "protected visibility"
+msgid "Prot&ected"
+msgstr ""
+
+#: dialogs/umloperationdialog.cpp:140
+msgid "Parameters"
+msgstr "परामितिहरू"
+
+#: dialogs/umloperationdialog.cpp:164
+msgid "Ne&w Parameter..."
+msgstr "नयाँ परिमिति..."
+
+#: dialogs/umloperationdialog.cpp:168 dialogs/classifierlistpage.cpp:208
+#: uml.cpp:427
+msgid "&Properties"
+msgstr "गुण"
+
+#: dialogs/umloperationdialog.cpp:305
+msgid ""
+"The parameter name you have chosen\n"
+"is already being used in this operation."
+msgstr ""
+"तपाईँले रोज्नुभएको परिमिति नाम\n"
+"पहिल्यै सञ्चालनमा प्रयोग गरिएको छ ।"
+
+#: dialogs/umloperationdialog.cpp:306 dialogs/umloperationdialog.cpp:352
+msgid "Parameter Name Not Unique"
+msgstr "परिमिति नाम अद्धितिय छैन"
+
+#: dialogs/umloperationdialog.cpp:351
+msgid ""
+"The parameter name you have chosen is already being used in this operation."
+msgstr ""
+"तपाईँले रोज्नुभएको परिमिति नाम पहिल्यै यो सञ्चालनमा प्रयोग गरिएको छ ।"
+
+#: dialogs/umloperationdialog.cpp:436
+msgid "You have entered an invalid operation name."
+msgstr "तपाईँले एउटा अवैध सञ्चालन नाम प्रविष्ट गर्नुभयो ।"
+
+#: dialogs/umloperationdialog.cpp:437 dialogs/umloperationdialog.cpp:449
+#: refactoring/refactoringassistant.cpp:808
+msgid "Operation Name Invalid"
+msgstr "सञ्चालन नाम अवैध छ"
+
+#: dialogs/umloperationdialog.cpp:446 refactoring/refactoringassistant.cpp:805
+#, kde-format
+msgid "An operation with that signature already exists in %1.\n"
+msgstr "त्यो हस्ताक्षर सहितको एउटा सञ्चालन %1 मा पहिल्यै अवस्थित छ ।\n"
+
+#: dialogs/umloperationdialog.cpp:448 refactoring/refactoringassistant.cpp:807
+msgid "Choose a different name or parameter list."
+msgstr "फरक नाम वा परिमिति सूची रोज्नुहोस् ।"
+
+#: dialogs/settingsdlg.cpp:36
+msgid "Umbrello Setup"
+msgstr "अमब्रेलो सेटअप"
+
+#: dialogs/settingsdlg.cpp:64
+msgid "User Interface"
+msgstr "प्रयोगकर्ता इन्टरफेस"
+
+#: dialogs/settingsdlg.cpp:65
+msgid "User Interface Settings"
+msgstr "प्रयोगकर्ता इन्टरफेस सेटिङ"
+
+#: dialogs/settingsdlg.cpp:69
+msgctxt "color group box"
+msgid "Color"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:74
+msgid "Line color:"
+msgstr "रेखा रङ:"
+
+#: dialogs/settingsdlg.cpp:81
+msgid "D&efault Color"
+msgstr "पूर्वनिर्धारित रङ"
+
+#: dialogs/settingsdlg.cpp:84
+msgid "Fill color:"
+msgstr "रङ भर्नुहोस्:"
+
+#: dialogs/settingsdlg.cpp:91
+msgid "De&fault Color"
+msgstr "पूर्वनिर्धारित रङ"
+
+#: dialogs/settingsdlg.cpp:94
+msgid "Line width:"
+msgstr "रेखाको चौडाइ:"
+
+#: dialogs/settingsdlg.cpp:102
+msgid "D&efault Width"
+msgstr "पूर्वनिर्धारित चौडाइ"
+
+#: dialogs/settingsdlg.cpp:105
+msgid "&Use fill color"
+msgstr "भर्ने रङ प्रयोग गर्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:119 dialogs/umlviewdialog.cpp:83
+msgctxt "general settings page"
+msgid "General"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:125
+msgctxt "miscellaneous group box"
+msgid "Miscellaneous"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:131
+msgid "Enable undo"
+msgstr "पूर्वावस्थामा फर्काउन सक्षम पार्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:135
+msgid "Use tabbed diagrams"
+msgstr "ट्याब गरिएको रेखाचित्र प्रयोग गर्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:139
+msgid "Use new C++/Java/Ruby generators"
+msgstr "नयाँ C++/Java/Ruby सर्जकहरू प्रयोग गर्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:143
+msgid "Use angular association lines"
+msgstr "कोणिक संगत पङ्क्तिहरू प्रयोग गर्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:147
+msgid "Turn on footer and page numbers when printing"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:152
+msgid "Autosave"
+msgstr "स्वत: बचत गर्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:158
+msgid "E&nable autosave"
+msgstr "स्वत: बचत सक्षम पार्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:162
+msgid "Select auto-save time interval (mins):"
+msgstr "(मिनेटमा) स्वत-बचत गर्ने अन्तराल चयन गर्नुहोस्:"
+
+#: dialogs/settingsdlg.cpp:171
+msgid "Set autosave suffix:"
+msgstr "स्वत: बचत गर्ने प्रत्यय सेट गर्नुहोस्:"
+
+#: dialogs/settingsdlg.cpp:173
+msgid ""
+"<qt><p>The autosave file will be saved to ~/autosave.xmi if the autosaving "
+"occurs before you have manually saved the file.</p><p>If you have already "
+"saved it, the autosave file will be saved in the same folder as the file and "
+"will be named like the file's name, followed by the suffix "
+"specified.</p><p>If the suffix is equal to the suffix of the file you have "
+"saved, the autosave will overwrite your file automatically.</p></qt>"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:183
+msgid "Startup"
+msgstr "सुरुआत"
+
+#: dialogs/settingsdlg.cpp:189
+msgid "&Load last project"
+msgstr "अन्तिम परियोजना लोड गर्नुहोस्"
+
+#: dialogs/settingsdlg.cpp:193
+msgid "Start new project with:"
+msgstr "यससँग नयाँ परियोजना सुरु गर्नुहोस्:"
+
+#: dialogs/settingsdlg.cpp:210
+msgid "Default Language :"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:239
+msgctxt "class settings page"
+msgid "Class"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:240
+msgid "Class Settings"
+msgstr "वर्ग सेटिङ"
+
+#: dialogs/settingsdlg.cpp:250
+msgid "Show &visibility"
+msgstr "दृश्यता देखाउनुहोस्"
+
+#: dialogs/settingsdlg.cpp:254
+msgid "Show attributes"
+msgstr "विशेषताहरू देखाउनुहोस्"
+
+#: dialogs/settingsdlg.cpp:258
+msgid "Show operations"
+msgstr "सञ्चालन देखाउनुहोस्"
+
+#: dialogs/settingsdlg.cpp:262
+msgid "Show stereot&ype"
+msgstr "स्टेरियो प्रकार देखाउनुहोस्"
+
+#: dialogs/settingsdlg.cpp:266
+msgid "Show attribute signature"
+msgstr "हस्ताक्षर विशेषता देखाउनुहोस्"
+
+#: dialogs/settingsdlg.cpp:270
+msgid "Show package"
+msgstr "प्याकेज देखाउनुहोस्"
+
+#. i18n: file: umbrello.kcfg:169
+#. i18n: ectx: whatsthis, entry (showOpSig), group (Class Options)
+#. i18n: file: dialogs/diagrampropertiespage.ui:120
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showOpSigs)
+#: dialogs/settingsdlg.cpp:274 rc.cpp:172 rc.cpp:1599
+msgid "Show operation signature"
+msgstr "हस्ताक्षर सञ्चालन देखाउनुहोस्"
+
+#. i18n: file: umbrello.kcfg:158
+#. i18n: ectx: label, entry (showPublicOnly), group (Class Options)
+#: dialogs/settingsdlg.cpp:278 rc.cpp:157
+msgid "Show Public Only"
+msgstr ""
+
+#: dialogs/settingsdlg.cpp:283
+msgid "Starting Scope"
+msgstr "सुरु भइरहेको कार्यक्षेत्र"
+
+#: dialogs/settingsdlg.cpp:288
+msgid "Default attribute scope:"
+msgstr "पूर्वनिर्धारित विशेषता क्षेत्र:"
+
+#: dialogs/settingsdlg.cpp:291
+msgid "Default operation scope:"
+msgstr "पूर्वनिर्धारित सञ्चालन क्षेत्र:"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:147
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:188
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:168
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:221
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:168
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:221
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:73
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pPublicRB)
+#: dialogs/settingsdlg.cpp:295 dialogs/settingsdlg.cpp:303 rc.cpp:561
+#: rc.cpp:576 rc.cpp:609 rc.cpp:624 rc.cpp:672 rc.cpp:687 rc.cpp:1520
+msgid "Public"
+msgstr "सार्वजनिक"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:152
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:193
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:173
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:226
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:173
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:226
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:83
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pPrivateRB)
+#: dialogs/settingsdlg.cpp:296 dialogs/settingsdlg.cpp:304 rc.cpp:564
+#: rc.cpp:579 rc.cpp:612 rc.cpp:627 rc.cpp:675 rc.cpp:690 rc.cpp:1523
+msgid "Private"
+msgstr "व्यक्तिगत"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:157
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:198
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:178
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:231
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:178
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:231
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:90
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pProtectedRB)
+#: dialogs/settingsdlg.cpp:297 dialogs/settingsdlg.cpp:305 rc.cpp:567
+#: rc.cpp:582 rc.cpp:615 rc.cpp:630 rc.cpp:678 rc.cpp:693 rc.cpp:1526
+msgid "Protected"
+msgstr "सुरक्षित"
+
+#: dialogs/settingsdlg.cpp:333
+msgid "Code Generation"
+msgstr "सङ्केत सिर्जना"
+
+#: dialogs/settingsdlg.cpp:334
+msgid "Code Generation Settings"
+msgstr "सङ्केत सिर्जना सेटिङ"
+
+#: dialogs/settingsdlg.cpp:345
+msgid "Code Viewer"
+msgstr "सङ्केत द्रष्टा"
+
+#: dialogs/settingsdlg.cpp:346
+msgid "Code Viewer Settings"
+msgstr "सङ्केत द्रष्टा सेटिङ"
+
+#: dialogs/classgenpage.cpp:60
+msgid "Class &name:"
+msgstr "वर्ग नाम:"
+
+#: dialogs/classgenpage.cpp:63
+msgid "Actor &name:"
+msgstr "कलाकार नाम:"
+
+#: dialogs/classgenpage.cpp:66
+msgid "Package &name:"
+msgstr "प्याकेज नाम:"
+
+#: dialogs/classgenpage.cpp:69
+msgid "Use case &name:"
+msgstr "केस नाम प्रयोग गर्नुहोस्:"
+
+#: dialogs/classgenpage.cpp:72
+msgid "Interface &name:"
+msgstr "इन्टरफेस नाम:"
+
+#: dialogs/classgenpage.cpp:75
+msgid "Component &name:"
+msgstr "अवयव नाम:"
+
+#: dialogs/classgenpage.cpp:78
+msgid "Node &name:"
+msgstr ""
+
+#: dialogs/classgenpage.cpp:81
+msgid "Artifact &name:"
+msgstr "शिल्पकृति नाम:"
+
+#: dialogs/classgenpage.cpp:84
+msgid "Enum &name:"
+msgstr "इनम नाम:"
+
+#: dialogs/classgenpage.cpp:87
+msgid "Datatype &name:"
+msgstr "डेटा प्रकार नाम:"
+
+#: dialogs/classgenpage.cpp:90
+msgid "Entity &name:"
+msgstr "अस्तित्व नाम:"
+
+#: dialogs/classgenpage.cpp:127
+msgid "Package name:"
+msgstr ""
+
+#: dialogs/classgenpage.cpp:154
+msgid "A&bstract class"
+msgstr "संक्षेप वर्ग"
+
+#: dialogs/classgenpage.cpp:156
+msgid "A&bstract use case"
+msgstr "संक्षेप प्रयोग केस"
+
+#: dialogs/classgenpage.cpp:164
+msgctxt "component is executable"
+msgid "&Executable"
+msgstr ""
+
+#: dialogs/classgenpage.cpp:171
+msgid "Draw As"
+msgstr "यस रूपमा रेखाङ्कन गर्नुहोस्"
+
+#: dialogs/classgenpage.cpp:175
+msgctxt "draw as default"
+msgid "&Default"
+msgstr ""
+
+#. i18n: file: umbrelloui.rc:4
+#. i18n: ectx: Menu (file)
+#: dialogs/classgenpage.cpp:178 rc.cpp:469 rc.cpp:501
+msgid "&File"
+msgstr ""
+
+#: dialogs/classgenpage.cpp:181
+msgid "&Library"
+msgstr "लाइब्रेरी"
+
+#: dialogs/classgenpage.cpp:184
+msgid "&Table"
+msgstr "तालिका"
+
+#: dialogs/classgenpage.cpp:213
+msgctxt "protected visibility"
+msgid "Pro&tected"
+msgstr ""
+
+#: dialogs/classgenpage.cpp:217
+msgid "Imple&mentation"
+msgstr "कार्यान्वयन"
+
+#: dialogs/classgenpage.cpp:269
+msgid "Class name:"
+msgstr "वर्ग नाम:"
+
+#: dialogs/classgenpage.cpp:277 dialogs/classgenpage.cpp:356
+msgid "Instance name:"
+msgstr "दृष्टान्त नाम:"
+
+#: dialogs/classgenpage.cpp:285
+msgid "Draw as actor"
+msgstr "कलाकारको रूपमा रेखाङ्कन गर्नुहोस्"
+
+#: dialogs/classgenpage.cpp:290
+msgid "Multiple instance"
+msgstr "बहुविध दृष्टान्त"
+
+#: dialogs/classgenpage.cpp:296
+msgid "Show destruction"
+msgstr "विनाश देखाउनुहोस्"
+
+#: dialogs/classgenpage.cpp:334
+msgid "Component name:"
+msgstr "अवयव नाम:"
+
+#: dialogs/classgenpage.cpp:336
+msgid "Node name:"
+msgstr "नोड नाम:"
+
+#: dialogs/classgenpage.cpp:443 dialogs/classgenpage.cpp:494
+#: dialogs/classgenpage.cpp:507
+msgid ""
+"The name you have chosen\n"
+"is already being used.\n"
+"The name has been reset."
+msgstr ""
+"तपाईँले रोज्नुभएको नाम\n"
+"पहिल्यै प्रयोग गरिएको छ ।\n"
+"नाम रिसेट गरिएको छ ।"
+
+#: dialogs/classgenpage.cpp:444 dialogs/classgenpage.cpp:495
+#: dialogs/classgenpage.cpp:508
+msgid "Name is Not Unique"
+msgstr "नाम अद्धितिय छैन"
+
+#: dialogs/parmpropdlg.cpp:47
+msgid "Parameter Properties"
+msgstr "परिमिति गुण"
+
+#: dialogs/parmpropdlg.cpp:86
+msgctxt "property name"
+msgid "&Name:"
+msgstr ""
+
+#: dialogs/parmpropdlg.cpp:98
+msgid "Passing Direction"
+msgstr "दिशा पास गर्दै"
+
+#: dialogs/parmpropdlg.cpp:99
+msgid ""
+"\"in\" is a readonly parameter, \"out\" is a writeonly parameter and "
+"\"inout\" is a parameter for reading and writing."
+msgstr ""
+"\"in\" पढ्ने मात्र परिमिति हो, \"out\" लेख्ने मात्र परिमिति हो र \"inout\" "
+"पढ्न र लेख्नका लागि परिमिति हो ।"
+
+#: dialogs/parmpropdlg.cpp:264
+msgid "You have entered an invalid parameter name."
+msgstr "तपाईँ एउटा अवैध परामिति नाम प्रविष्ट गर्नुभएको छ ।"
+
+#: dialogs/parmpropdlg.cpp:265
+msgid "Parameter Name Invalid"
+msgstr "परिमिति नाम अवैध छ"
+
+#: dialogs/classwizard.cpp:45 model_utils.cpp:404
+msgid "new_class"
+msgstr "new_class"
+
+#: dialogs/classwizard.cpp:60
+msgid "Class Wizard"
+msgstr ""
+
+#: dialogs/classwizard.cpp:83
+msgid "New Class"
+msgstr "नयाँ वर्ग"
+
+#: dialogs/classwizard.cpp:84
+msgid "Add general info about the new class."
+msgstr ""
+
+#: dialogs/classwizard.cpp:101
+msgid "Class Attributes"
+msgstr "वर्ग विशेषताहरू"
+
+#: dialogs/classwizard.cpp:102
+msgid "Add attributes to the new class."
+msgstr ""
+
+#: dialogs/classwizard.cpp:119
+msgid "Class Operations"
+msgstr "वर्ग सञ्चालन"
+
+#: dialogs/classwizard.cpp:120
+msgid "Add operations to the new class."
+msgstr ""
+
+#: dialogs/diagramprintpage.cpp:42
+msgid "&Diagrams"
+msgstr "रेखाचित्र"
+
+#: dialogs/diagramprintpage.cpp:47
+msgid "Filter"
+msgstr "फिल्टर"
+
+#: dialogs/diagramprintpage.cpp:54
+msgid "&Current diagram"
+msgstr "हालको रेखाचित्र"
+
+#: dialogs/diagramprintpage.cpp:58
+msgid "&All diagrams"
+msgstr "सबै रेखाचित्र"
+
+#: dialogs/diagramprintpage.cpp:61
+msgid "&Select diagrams"
+msgstr "रेखाचित्र चयन गर्नुहोस्"
+
+#: dialogs/diagramprintpage.cpp:64
+msgid "&Type of diagram"
+msgstr "रेखाचित्रको प्रकार"
+
+#: dialogs/diagramprintpage.cpp:67
+msgctxt "diagram selection for printing"
+msgid "Selection"
+msgstr ""
+
+#: dialogs/diagramprintpage.cpp:157
+msgid "No diagrams selected."
+msgstr "रेखाचित्र चयन गरिएको छैन ।"
+
+#: dialogs/selectopdlg.cpp:37 dialogs/selectopdlg.cpp:49
+msgid "Select Operation"
+msgstr "सञ्चालन चयन गर्नुहोस्"
+
+#: dialogs/selectopdlg.cpp:57
+msgid "Sequence number:"
+msgstr "अनुक्रम सङ्ख्या:"
+
+#: dialogs/selectopdlg.cpp:60
+msgid "Class operation:"
+msgstr "वर्ग सञ्चालन:"
+
+#: dialogs/selectopdlg.cpp:69
+msgid "Custom operation:"
+msgstr "अनुकूल सञ्चालन:"
+
+#: dialogs/codeviewerdialog.cpp:112
+msgid "Code Viewer - "
+msgstr ""
+
+#: dialogs/constraintlistpage.cpp:70 listpopupmenu.cpp:1178
+msgid "Unique Constraint..."
+msgstr ""
+
+#: dialogs/constraintlistpage.cpp:73 listpopupmenu.cpp:1177
+msgid "Primary Key Constraint..."
+msgstr ""
+
+#: dialogs/constraintlistpage.cpp:76 listpopupmenu.cpp:1179
+msgid "Foreign Key Constraint..."
+msgstr ""
+
+#: dialogs/constraintlistpage.cpp:79 listpopupmenu.cpp:1180
+msgid "Check Constraint..."
+msgstr ""
+
+#: dialogs/importprojectdlg.cpp:122
+msgid "You have to choose a directory."
+msgstr ""
+
+#: dialogs/importprojectdlg.cpp:127
+msgid "This directory does not exist."
+msgstr ""
+
+#: dialogs/importprojectdlg.cpp:154
+msgid "No source file in this directory."
+msgstr ""
+
+#: dialogs/umlcheckconstraintdialog.cpp:30
+msgid "Check Constraint Properties"
+msgstr ""
+
+#: dialogs/umlcheckconstraintdialog.cpp:64
+#: dialogs/umluniqueconstraintdialog.cpp:83
+msgctxt "name label"
+msgid "Name"
+msgstr ""
+
+#: dialogs/umlcheckconstraintdialog.cpp:73
+msgid "Check Condition :"
+msgstr ""
+
+#: dialogs/overwritedialogue.cpp:29
+msgid "Destination File Already Exists"
+msgstr "गन्तब्य फाइल पहिल्यै अवस्थित छ"
+
+#: dialogs/overwritedialogue.cpp:42
+#, kde-format
+msgid ""
+"The file %1 already exists in %2.\n"
+"\n"
+"Umbrello can overwrite the file, generate a similar\n"
+"file name or not generate this file."
+msgstr ""
+"फाइल %1 पहिल्यै %2 मा अवस्थित छ ।\n"
+"\n"
+"अम्ब्रेलोले फाइल अधिलेखन गर्न सक्छ, उही फाइलनाम सिर्जना गर्न सक्छ\n"
+"वा यो फाइल सिर्जना गर्न सक्छ ।"
+
+#: dialogs/overwritedialogue.cpp:45
+msgid "&Apply to all remaining files"
+msgstr "सबै बाँकी फाइलहरूमा लागू गर्नुहोस्"
+
+#: dialogs/overwritedialogue.cpp:49 umlviewimageexporter.cpp:103
+msgid "&Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: dialogs/overwritedialogue.cpp:50
+msgid "&Generate Similar File Name"
+msgstr "उही फाइलनाम सिर्जना गर्नहोस्"
+
+#: dialogs/overwritedialogue.cpp:51
+msgid "&Do Not Generate File"
+msgstr "फाइल सिर्जना नगर्नुहोस्"
+
+#: dialogs/statedialog.cpp:114
+msgctxt "initial state in statechart"
+msgid "Initial state"
+msgstr ""
+
+#: dialogs/statedialog.cpp:115
+msgctxt "state in statechart"
+msgid "State"
+msgstr ""
+
+#: dialogs/statedialog.cpp:116
+msgctxt "end state in statechart"
+msgid "End state"
+msgstr ""
+
+#: dialogs/statedialog.cpp:120
+msgctxt "general page"
+msgid "General"
+msgstr ""
+
+#: dialogs/statedialog.cpp:132
+msgid "State type:"
+msgstr "स्थिति प्रकार:"
+
+#: dialogs/statedialog.cpp:137
+msgid "State name:"
+msgstr "स्थिति नाम:"
+
+#: dialogs/statedialog.cpp:180
+msgctxt "color page"
+msgid "Color"
+msgstr ""
+
+#: dialogs/statedialog.cpp:181
+msgid "Widget Color"
+msgstr "विजेट रङ"
+
+#: dialogs/statedialog.cpp:195 dialogs/statedialog.cpp:196
+#: dialogs/activitypage.cpp:58
+msgid "Activities"
+msgstr "क्रियाकलापहरू"
+
+#: dialogs/classifierlistpage.cpp:116
+msgid "N&ew Attribute..."
+msgstr "नयाँ विशेषता..."
+
+#: dialogs/classifierlistpage.cpp:120
+msgid "N&ew Operation..."
+msgstr "नयाँ सञ्चालन..."
+
+#: dialogs/classifierlistpage.cpp:124
+msgid "N&ew Template..."
+msgstr "नयाँ टेम्प्लेट..."
+
+#: dialogs/classifierlistpage.cpp:128
+msgid "N&ew Enum Literal..."
+msgstr "नयाँ इनम आक्षर..."
+
+#: dialogs/classifierlistpage.cpp:132
+msgid "N&ew Entity Attribute..."
+msgstr "नयाँ अस्तित्व विशेषता..."
+
+#: dialogs/classifierlistpage.cpp:135
+msgid "Constraints"
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:136
+msgid "N&ew Constraint..."
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:174 dialogs/activitypage.cpp:80
+msgid "Move selected item to the top"
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:180 dialogs/activitypage.cpp:86
+msgid "Move selected item up"
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:186 dialogs/activitypage.cpp:92
+msgid "Move selected item down"
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:192 dialogs/activitypage.cpp:98
+msgid "Move selected item to the bottom"
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:226
+msgid "Comment"
+msgstr ""
+
+#: dialogs/classifierlistpage.cpp:227
+msgid "Source Code"
+msgstr ""
+
+#: dialogs/assocgenpage.cpp:72
+msgctxt "name of association widget"
+msgid "Name:"
+msgstr ""
+
+#: dialogs/assocgenpage.cpp:85
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: dialogs/activitypage.cpp:102
+msgid "New Activity..."
+msgstr "नयाँ क्रियाकलाप..."
+
+#: dialogs/activitypage.cpp:104 refactoring/refactoringassistant.cpp:454
+#: listpopupmenu.cpp:589
+msgid "Delete"
+msgstr ""
+
+#: dialogs/activitypage.cpp:175
+msgid "New Activity"
+msgstr "नयाँ क्रियाकलाप"
+
+#: dialogs/activitypage.cpp:198
+msgid "Rename Activity"
+msgstr "क्रियाकलाप पुन: नामकरण गर्नुहोस्"
+
+#: dialogs/activitypage.cpp:198
+msgid "Enter the new name of the activity:"
+msgstr "क्रियाकलापको नयाँ नाम प्रविष्ट गर्नुहोस्:"
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:52
+#. i18n: ectx: property (toolTip), widget (QLabel, ui_imageTypeLabel)
+#: dialogs/exportallviewsdialog.cpp:86 rc.cpp:1651
+msgid "The format that the images will be exported to"
+msgstr "छवि निर्यात गरिने ढाँचा"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, ui_propsGroupBox)
+#: dialogs/umlroledialog.cpp:25 rc.cpp:1508
+msgid "Role Properties"
+msgstr "भूमिका गुण"
+
+#: dialogs/objectnodedialog.cpp:136
+msgid "Central Buffer"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:136
+msgid "Data Store"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:136
+msgid "ObjectFlow"
+msgstr ""
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:51
+#. i18n: ectx: attribute (title), widget (QWidget, ui_tabGeneral)
+#. i18n: file: codegenwizard/codegenoptionspage.ui:39
+#. i18n: ectx: attribute (title), widget (QWidget, ui_tabGeneral)
+#: dialogs/objectnodedialog.cpp:140 rc.cpp:717 rc.cpp:1398
+msgid "General"
+msgstr "सामान्य"
+
+#: dialogs/objectnodedialog.cpp:145
+msgctxt "properties group title"
+msgid "Properties"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:159
+msgid "Object Node type:"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:164
+msgid "Object Node name:"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:168
+msgctxt "enter state label"
+msgid "State :"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:173
+msgid "&Central Buffer"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:176
+msgid "&Data Store "
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:179
+msgid "&Object Flow"
+msgstr ""
+
+#: dialogs/objectnodedialog.cpp:247
+msgctxt "color page title"
+msgid "Color"
+msgstr ""
+
+#: dialogs/umluniqueconstraintdialog.cpp:42
+msgid "Unique Constraint Properties"
+msgstr ""
+
+#: dialogs/umluniqueconstraintdialog.cpp:91
+msgid "Attribute Details"
+msgstr ""
+
+#: dialogs/umluniqueconstraintdialog.cpp:241
+msgid "You have entered an invalid constraint name."
+msgstr ""
+
+#: dialogs/umluniqueconstraintdialog.cpp:242
+msgid "Constraint Name Invalid"
+msgstr ""
+
+#: dialogs/umlviewdialog.cpp:113
+msgctxt "classes display options page"
+msgid "Display"
+msgstr ""
+
+#: dialogs/umlviewdialog.cpp:114
+msgid "Classes Display Options"
+msgstr "वर्ग प्रदर्शन गर्ने विकल्प"
+
+#: dialogs/umlviewdialog.cpp:129
+msgctxt "diagram colors page"
+msgid "Color"
+msgstr ""
+
+#: dialogs/umlviewdialog.cpp:130
+msgid "Diagram Colors"
+msgstr "रेखाचित्र रङ"
+
+#: dialogs/umlviewdialog.cpp:210
+msgid "The name you have entered is invalid."
+msgstr "तपाईँले प्रविष्ट गर्नुभएको नाम अवैध छ ।"
+
+#: dialogs/umlviewdialog.cpp:216
+msgid "The name you have entered is not unique."
+msgstr "तपाईँले प्रविष्ट गर्नुभएको नाम अद्वितिय छ ।"
+
+#: docgenerators/xhtmlgenerator.cpp:108
+msgid "Generating XHTML..."
+msgstr ""
+
+#: docgenerators/xhtmlgenerator.cpp:134
+msgid "XHTML Generation Complete..."
+msgstr ""
+
+#: docgenerators/xhtmlgenerator.cpp:140
+msgid "Copying CSS..."
+msgstr ""
+
+#: docgenerators/xhtmlgenerator.cpp:148
+msgid "Finished Copying CSS..."
+msgstr ""
+
+#: docgenerators/xhtmlgenerator.cpp:151
+msgid "Failed Copying CSS..."
+msgstr ""
+
+#: docgenerators/docbookgeneratorjob.cpp:80
+msgid "Exporting to DocBook..."
+msgstr ""
+
+#: docgenerators/main.cpp:39 docgenerators/main.cpp:52
+msgid "Umbrello UML Modeller autonomous code generator"
+msgstr "अम्ब्रेलो यूएमएल मोडेलर स्वायत कोड सर्जक"
+
+#: docgenerators/main.cpp:54
+msgid ""
+"(c) 2006 Gael de Chalendar (aka Kleag), (c) 2002-2006 Umbrello UML Modeller "
+"Authors"
+msgstr ""
+"(c) 2006 Gael de Chalendar (aka Kleag), (c) 2002-2006 अम्ब्रेलो यूएमएल "
+"मोडेलर लेखक"
+
+#: docgenerators/main.cpp:56
+msgid "Gael de Chalendar (aka Kleag)"
+msgstr ""
+
+#: docgenerators/main.cpp:57 main.cpp:73
+msgid "Umbrello UML Modeller Authors"
+msgstr "अम्ब्रेलो यूएमएल मोडेलर लेखकहरू"
+
+#: docgenerators/main.cpp:61
+msgid "File to transform"
+msgstr "स्थानान्तरण गर्नुपर्ने फाइल"
+
+#: docgenerators/main.cpp:62
+msgid "The XSLT file to use"
+msgstr "प्रयोग गर्नका लागि एक्सएसएलटी फाइल"
+
+#: docgenerators/docbookgenerator.cpp:81 umlviewimageexporterall.cpp:77
+msgid "Exporting all views..."
+msgstr "सबै दृश्यहरू निर्यात गर्दै..."
+
+#: docgenerators/docbookgenerator.cpp:86 umlviewimageexporterall.cpp:82
+msgid "Some errors happened when exporting the images:"
+msgstr "छविहरू निर्यात गर्दा केही त्रुटिहरू उत्पन्न भयो:"
+
+#: docgenerators/docbookgenerator.cpp:90
+msgid "Generating Docbook..."
+msgstr ""
+
+#: docgenerators/docbookgenerator.cpp:110
+msgid "Docbook Generation Complete..."
+msgstr ""
+
+#: docgenerators/docbookgenerator.cpp:113
+msgid "Docbook Generation Failed..."
+msgstr ""
+
+#: docgenerators/docbook2xhtmlgeneratorjob.cpp:56
+msgid "Exporting to XHTML..."
+msgstr ""
+
+#: controller/umlwidgetcontroller.cpp:199
+msgid ""
+"Hold shift or ctrl to move in X axis. Hold shift and control to move in Y "
+"axis. Right button click to cancel move."
+msgstr ""
+"एक्स अक्षमा सार्न shift वा ctrl समात्नुहोस् । वाइ अक्षमा सार्न शिफ्ट र "
+"कन्ट्रोल समात्नुहोस् । सराइ रद्द गर्न दायाँ बटन क्लिक गर्नुहोस् ।"
+
+#: controller/umlwidgetcontroller.cpp:667
+msgid ""
+"Hold shift or ctrl to move in X axis. Hold shift and control to move in Y "
+"axis. Right button click to cancel resize."
+msgstr ""
+"एक्स अक्षमा सार्न shift वा ctrl समात्नुहोस् । वाइ अक्षमा सार्न शिफ्ट र "
+"कन्ट्रोल समात्नुहोस् । रिसाइज रद्द गर्न दायाँ बटन क्लिक गर्नुहोस् ।"
+
+#: umllistview.cpp:432
+msgid "Externalize Folder"
+msgstr "मूर्त रूप दिने फोल्डर"
+
+#: umllistview.cpp:501
+msgid "Enter Model Name"
+msgstr "नमूना नाम प्रविष्ट गर्नुहोस्"
+
+#: umllistview.cpp:502
+msgid "Enter the new name of the model:"
+msgstr "नमूनाको नयाँ नाम प्रविष्ट गर्नुहोस्:"
+
+#: umllistview.cpp:1229
+msgid "Views"
+msgstr "दृश्यहरू"
+
+#: umllistview.cpp:2181
+msgid ""
+"The name you entered was invalid.\n"
+"Creation process has been canceled."
+msgstr ""
+"तपाईँले प्रविष्ट गर्नुभएको नाम अवैध थियो ।\n"
+"सिर्जना प्रक्रिया रद्द गरियो ।"
+
+#: umllistview.cpp:2182 umllistviewitem.cpp:664
+msgid "Name Not Valid"
+msgstr "नाम वैध छैन"
+
+#: umllistview.cpp:2198 umllistview.cpp:2460
+msgid ""
+"The name you entered was not unique.\n"
+"Creation process has been canceled."
+msgstr ""
+
+#: umllistview.cpp:2418 umllistview.cpp:2435 umllistview.cpp:2450
+#: umllistview.cpp:2480
+msgid "Creation canceled"
+msgstr "सिर्जना रद्द गरियो"
+
+#: umllistview.cpp:2691
+msgid "Loading listview..."
+msgstr "सूची दृश्य लोड हुँदैछ..."
+
+#: umllistview.cpp:3066
+msgid "The folder must be emptied before it can be deleted."
+msgstr "फोल्डरलाई मेटिसक्नु भन्दा पहिल्यै खाली गर्नुपर्छ ।"
+
+#: umllistview.cpp:3067
+msgid "Folder Not Empty"
+msgstr "फोल्डर खाली छैन"
+
+#: refactoring/refactoringassistant.cpp:49
+msgid "Name"
+msgstr ""
+
+#: refactoring/refactoringassistant.cpp:437
+msgid "Add Base Class"
+msgstr "आधार वर्ग थप्नुहोस्"
+
+#: refactoring/refactoringassistant.cpp:438
+msgid "Add Derived Class"
+msgstr "व्युत्पन्न वर्ग थप्नुहोस्"
+
+#: refactoring/refactoringassistant.cpp:440
+#: refactoring/refactoringassistant.cpp:446
+#: refactoring/refactoringassistant.cpp:458
+msgid "Add Operation"
+msgstr "सञ्चालन थप्नुहोस्"
+
+#: refactoring/refactoringassistant.cpp:441
+#: refactoring/refactoringassistant.cpp:461
+msgid "Add Attribute"
+msgstr "विशेषता थप्नुहोस्"
+
+#: refactoring/refactoringassistant.cpp:444
+msgid "Add Base Interface"
+msgstr "आधार इन्टरफेस थप्नुहोस्"
+
+#: refactoring/refactoringassistant.cpp:445
+msgid "Add Derived Interface"
+msgstr "व्युत्पन्न इन्टरफेस थप्नुहोस्"
+
+#: refactoring/refactoringassistant.cpp:504
+#: refactoring/refactoringassistant.cpp:684
+msgid "Base Classifiers"
+msgstr "आधार विभाजकहरू"
+
+#: refactoring/refactoringassistant.cpp:549
+#: refactoring/refactoringassistant.cpp:699
+msgid "Derived Classifiers"
+msgstr "व्युत्पन्न विभाजकहरू"
+
+#: refactoring/refactoringassistant.cpp:826
+#, kde-format
+msgid "An attribute with that name already exists in %1.\n"
+msgstr ""
+
+#: refactoring/refactoringassistant.cpp:828
+msgid "Choose a different name."
+msgstr ""
+
+#: folder.cpp:412
+#, kde-format
+msgid "The folderfile %1 does not exist."
+msgstr "फोल्डरफाइल %1 अवस्थित छैन ।"
+
+#: folder.cpp:416
+#, kde-format
+msgid "The folderfile %1 cannot be opened."
+msgstr "फोल्डर फाइल %1 खुल्न सकेन ।"
+
+#: uml.cpp:239
+msgid "&Export model to DocBook"
+msgstr "डक पुस्तकमा नमूना निर्यात गर्नुहोस्"
+
+#: uml.cpp:243
+msgid "&Export model to XHTML"
+msgstr "एक्सएचटीएमएलमा नमूना निर्यात गर्नुहोस्"
+
+#: uml.cpp:247
+msgid "&New Class Wizard..."
+msgstr "नयाँ वर्ग विजार्ड..."
+
+#: uml.cpp:251
+msgid "&Add Default Datatypes for Active Language"
+msgstr "सक्रिय भाषाका लागि पूर्वनिर्धारित डेटाप्रकार थप्नुहोस्"
+
+#: uml.cpp:258
+msgid "&Import Classes..."
+msgstr "वर्गहरू आयात गर्नुहोस्..."
+
+#: uml.cpp:263
+msgid "Import &Project..."
+msgstr ""
+
+#: uml.cpp:267
+msgid "&Code Generation Wizard..."
+msgstr "सङ्केत सिर्जना विजार्ड..."
+
+#: uml.cpp:271
+msgid "&Generate All Code"
+msgstr "सबै सङ्केत सिर्जना गर्नुहोस्"
+
+#: uml.cpp:316
+msgid "Creates a new document"
+msgstr "नयाँ कागजात सिर्जना गर्दछ"
+
+#: uml.cpp:317
+msgid "Opens an existing document"
+msgstr "एउटा अवस्थित कागजात खोल्दछ"
+
+#: uml.cpp:318
+msgid "Opens a recently used file"
+msgstr "हालै प्रयोग गरिएको फाइल खोल्दछ"
+
+#: uml.cpp:319
+msgid "Saves the document"
+msgstr "कागजात बचत गर्दछ"
+
+#: uml.cpp:320
+msgid "Saves the document as..."
+msgstr "यस रूपमा कागजात बचत गर्दछ..."
+
+#: uml.cpp:321
+msgid "Closes the document"
+msgstr "कागजात बन्द गर्दछ"
+
+#: uml.cpp:322
+msgid "Prints out the document"
+msgstr "कागजात मुद्रण गर्दछ"
+
+#: uml.cpp:323
+msgid "Quits the application"
+msgstr "अनुप्रयोग अन्त्य गर्दछ"
+
+#: uml.cpp:324
+msgid "Exports the model to the docbook format"
+msgstr "डक पुस्तक ढाँचामा नमूना निर्यात गर्दछ"
+
+#: uml.cpp:325
+msgid "Exports the model to the XHTML format"
+msgstr "एक्सएचटीएमएल ढाँचामा नमूना निर्यात गर्दछ"
+
+#: uml.cpp:326
+msgid "Cuts the selected section and puts it to the clipboard"
+msgstr "चयन गरिएको सेक्सन काट्छ र यसलाई क्लिपबोर्डमा राख्छ"
+
+#: uml.cpp:327
+msgid "Copies the selected section to the clipboard"
+msgstr "चयन गरिएको खण्ड क्लिपबोर्डमा प्रतिलिपि गर्छ"
+
+#: uml.cpp:328
+msgid "Pastes the contents of the clipboard"
+msgstr "क्लिपबोर्डको सामग्री टाँस्दछ"
+
+#: uml.cpp:329
+msgid "Set the default program preferences"
+msgstr "पूर्वनिर्धारित कार्यक्रम प्राथमिकता सेट गर्नुहोस्"
+
+#: uml.cpp:333
+msgctxt "delete selected widget"
+msgid "Delete &Selected"
+msgstr ""
+
+#: uml.cpp:344
+msgid "&Class Diagram..."
+msgstr "वर्ग रेखाचित्र..."
+
+#: uml.cpp:350
+msgid "&Sequence Diagram..."
+msgstr "अनुक्रम रेखाचित्र..."
+
+#: uml.cpp:356
+msgid "C&ollaboration Diagram..."
+msgstr "सहकार्य रेखाचित्र"
+
+#: uml.cpp:362
+msgid "&Use Case Diagram..."
+msgstr "केस रेखाचित्र प्रयोग गर्नुहोस्..."
+
+#: uml.cpp:368
+msgid "S&tate Diagram..."
+msgstr "स्थिति रेखाचित्र..."
+
+#: uml.cpp:374
+msgid "&Activity Diagram..."
+msgstr "क्रियाकलाप रेखाचित्र..."
+
+#: uml.cpp:380
+msgid "Co&mponent Diagram..."
+msgstr "अवयव रेखाचित्र..."
+
+#: uml.cpp:386
+msgid "&Deployment Diagram..."
+msgstr "परिनियोजन रेखाचित्र..."
+
+#: uml.cpp:392
+msgid "&Entity Relationship Diagram..."
+msgstr "अस्तित्व सम्बन्ध रेखाचित्र..."
+
+#: uml.cpp:398
+msgid "&Clear Diagram"
+msgstr "रेखाचित्र खाली गर्नुहोस्"
+
+#: uml.cpp:402
+msgid "&Snap to Grid"
+msgstr "ग्रिडमा सटाउनुहोस्"
+
+#: uml.cpp:406
+msgid "S&how Grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: uml.cpp:408
+msgid "&Hide Grid"
+msgstr "ग्रिड लुकाउनुहोस्"
+
+#: uml.cpp:417
+msgid "&Export as Picture..."
+msgstr "तस्वीरको रूपमा निर्यात गर्नुहोस्..."
+
+#: uml.cpp:422
+msgid "Export &All Diagrams as Pictures..."
+msgstr "सबै रेखाचित्रहरू तस्वीरको रूपमा निर्यात गर्नुहोस्..."
+
+#: uml.cpp:441
+msgid "&Zoom Slider"
+msgstr "स्लाइडर जुम गर्नुहोस्"
+
+#: uml.cpp:447
+msgid "Z&oom to 100%"
+msgstr "१००% मा जुम गर्नुहोस्"
+
+#: uml.cpp:451
+msgid "Align Right"
+msgstr "दायाँ पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:456
+msgid "Align Left"
+msgstr "बायाँ पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:461
+msgid "Align Top"
+msgstr "माथि पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:466
+msgid "Align Bottom"
+msgstr "तल पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:471
+msgid "Align Vertical Middle"
+msgstr "ठाडो बीचमा पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:476
+msgid "Align Horizontal Middle"
+msgstr "तेर्सो बीचमा पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:481
+msgid "Align Vertical Distribute"
+msgstr "ठाडो वितरण पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:486
+msgid "Align Horizontal Distribute"
+msgstr "तेर्सो वितरण पङ्क्तिबद्ध गर्नुहोस्"
+
+#: uml.cpp:490
+msgid "&Move Tab Left"
+msgstr "ट्याब बायाँ सार्नुहोस्"
+
+#: uml.cpp:491
+msgid "&Move Tab Right"
+msgstr "ट्याब दायाँ सार्नुहोस्"
+
+#: uml.cpp:506
+msgid "Select Diagram on Left"
+msgstr "रेखाचित्र बायाँपट्टी चयन गर्नुहोस्"
+
+#: uml.cpp:507
+msgid "Select Diagram on Right"
+msgstr "रेखाचित्र दायाँपट्टी चयन गर्नुहोस्"
+
+#: uml.cpp:633
+msgctxt "init status bar"
+msgid "Ready"
+msgstr ""
+
+#: uml.cpp:646
+msgid "Diagram Toolbar"
+msgstr "रेखाचित्र उपकरणपट्टी"
+
+#: uml.cpp:693
+msgid "&Tree View"
+msgstr "ट्री दृश्य"
+
+#: uml.cpp:703
+msgid "Doc&umentation"
+msgstr ""
+
+#: uml.cpp:713
+msgid "Co&mmand history"
+msgstr ""
+
+#: uml.cpp:735 uml.cpp:1021 uml.cpp:1052
+msgid "Opening file..."
+msgstr "फाइल खुल्दैछ..."
+
+#: uml.cpp:1003
+msgid "Creating new document..."
+msgstr "नयाँ कागजात सिर्जना गरिँदैछ..."
+
+#: uml.cpp:1029
+msgid ""
+"*.xmi *.xmi.tgz *.xmi.tar.bz2 *.mdl|All Supported Files (*.xmi, *.xmi.tgz, "
+"*.xmi.tar.bz2, *.mdl)\n"
+"*.xmi|Uncompressed XMI Files (*.xmi)\n"
+"*.xmi.tgz|Gzip Compressed XMI Files (*.xmi.tgz)\n"
+"*.xmi.tar.bz2|Bzip2 Compressed XMI Files (*.xmi.tar.bz2)\n"
+"*.mdl|Rose model files"
+msgstr ""
+"*.xmi *.xmi.tgz *.xmi.tar.bz2 *.mdl|सबै समर्थित फाइलहरू (*.xmi, *.xmi.tgz, "
+"*.xmi.tar.bz2, *.mdl)\n"
+"*.xmi|सङ्कुचनबाट हटाइएको एक्सएमएल फाइल (*.xmi)\n"
+"*.xmi.tgz| जीजिप सङ्कुचित एक्सएमएल फाइल (*.xmi.tgz)\n"
+"*.xmi.tar.bz2|बीजिप२ सङ्कुचित एक्सएमएल फाइल (*.xmi.tar.bz2)\n"
+"*.mdl|रोज मोडेल फाइल"
+
+#: uml.cpp:1033
+msgid "Open File"
+msgstr "फाइल खोल्नुहोस्"
+
+#: uml.cpp:1082
+msgid "Saving file..."
+msgstr "फाइल बचत गर्दैछ..."
+
+#: uml.cpp:1098
+msgid "Saving file with a new filename..."
+msgstr "नयाँ फाइलनामसँग फाइल बचत गर्दैछ..."
+
+#: uml.cpp:1103
+msgid ""
+"*.xmi|XMI File\n"
+"*.xmi.tgz|Gzip Compressed XMI File\n"
+"*.xmi.tar.bz2|Bzip2 Compressed XMI File\n"
+"*|All Files"
+msgstr ""
+"*.xmi|एक्सएमआई फाइल\n"
+"*.xmi.tgz|जीजिप सङ्कुचित एक्सएमआई फाइल\n"
+"*.xmi.tar.bz2|बीजिप२ सङ्कुचित एक्सएमआई फाइल\n"
+"*|सबै फाइलहरू"
+
+#: uml.cpp:1103 umlviewimageexporter.cpp:166
+msgid "Save As"
+msgstr ""
+
+#: uml.cpp:1121
+#, kde-format
+msgid ""
+"The file %1 exists.\n"
+"Do you wish to overwrite it?"
+msgstr ""
+"फाइल %1 अवस्थित छ ।\n"
+"तपाईँ यसलाई अधिलेखन गर्न चाहनुहुन्छ ?"
+
+#: uml.cpp:1122
+msgid "Warning"
+msgstr ""
+
+#: uml.cpp:1122
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: uml.cpp:1156
+msgid "Closing file..."
+msgstr "फाइल बन्द गर्दैछ..."
+
+#: uml.cpp:1165
+msgid "Printing..."
+msgstr "मुद्रण हुँदैछ..."
+
+#: uml.cpp:1173
+#, kde-format
+msgid "Print %1"
+msgstr "%1 मुद्रण गर्नुहोस्"
+
+#: uml.cpp:1191
+msgid "Exiting..."
+msgstr "बाहिर निस्कदैछ..."
+
+#: uml.cpp:1254
+msgid "Cutting selection..."
+msgstr "चयन काटिँदैछ..."
+
+#: uml.cpp:1271
+msgid "Copying selection to clipboard..."
+msgstr "क्लिपबोर्डमा चयन प्रतिलिपि गरिँदैछ..."
+
+#: uml.cpp:1283
+msgid "Inserting clipboard contents..."
+msgstr "क्लिपबोर्ड सामग्री घुसाइदैछ..."
+
+#: uml.cpp:1288
+msgid ""
+"Umbrello could not paste the clipboard contents.  The objects in the "
+"clipboard may be of the wrong type to be pasted here."
+msgstr ""
+"अम्ब्रेलोले क्लिपबोर्ड सामग्रीहरू टाँस्न सकेन । यहाँ टाँसिने क्लिपबोर्डमा "
+"भएको वस्तुहरू गलत प्रकारको हुन सक्छ ।"
+
+#: uml.cpp:1314 umlviewimageexporterall.cpp:84 umlviewimageexporter.cpp:77
+msgctxt "reset status bar"
+msgid "Ready."
+msgstr ""
+
+#: uml.cpp:1838
+msgid "Cannot view code until you generate some first."
+msgstr "तपाईँले पहिले केही सिर्जना नगरेसम्म कोड हेर्न सकिँदैन ।"
+
+#: uml.cpp:1838 uml.cpp:1841
+msgid "Cannot View Code"
+msgstr "कोड हेर्न सकिँदैन"
+
+#: uml.cpp:1841
+msgid "Cannot view code from simple code writer."
+msgstr "साधरण कोड राइटरबाट कोड हेर्न सकिँदैन ।"
+
+#: uml.cpp:2247
+msgid "*.idl|IDL Files (*.idl)"
+msgstr "*.idl|आईडीएल फाइलहरू (*.idl)"
+
+#: uml.cpp:2249
+msgid "*.py|Python Files (*.py *.pyw)"
+msgstr ""
+
+#: uml.cpp:2251
+msgid "*.java|Java Files (*.java)"
+msgstr "*.java|जाभा फाइलहरू (*.java)"
+
+#: uml.cpp:2253
+msgid "*.pas|Pascal Files (*.pas)"
+msgstr "*.pas|पासकल फाइलहरू (*.pas)"
+
+#: uml.cpp:2255
+msgid "*.ads *.ada|Ada Files (*.ads *.ada)"
+msgstr "*.ads *.ada|एडा फाइलहरू (*.ads *.ada)"
+
+#: uml.cpp:2257
+msgid "*.h *.hh *.hpp *.hxx *.H|Header Files (*.h *.hh *.hpp *.hxx *.H)"
+msgstr "*.h *.hh *.hpp *.hxx *.H|हेडर फाइलहरू (*.h *.hh *.hpp *.hxx *.H)"
+
+#: uml.cpp:2259
+msgid "All Files"
+msgstr "सबै फाइल"
+
+#: uml.cpp:2261
+msgid "Select Code to Import"
+msgstr "आयात गर्न कोड चयन गर्नुहोस्"
+
+#: uml.cpp:2718
+msgid "XHTML Generation failed ."
+msgstr ""
+
+#: main.cpp:36 main.cpp:68
+msgid "Umbrello UML Modeller"
+msgstr "अम्ब्रेलो यूएमएल मोडेलर"
+
+#: main.cpp:70
+msgid "(c) 2001 Paul Hensgen, (c) 2002-2006 Umbrello UML Modeller Authors"
+msgstr "(c) 2001 Paul Hensgen, (c) 2002-2006 अम्ब्रेलो यूएमएल मोडेलर लेखक"
+
+#: main.cpp:72
+msgid "Paul Hensgen"
+msgstr ""
+
+#: main.cpp:77
+msgid "File to open"
+msgstr "खोल्नुपर्ने फाइल"
+
+#: main.cpp:78
+msgid "export diagrams to extension and exit"
+msgstr "विस्तारमा रेखाचित्र निर्यात गर्नुहोस् र निस्कनुहोस्"
+
+#: main.cpp:79
+msgid "list available export extensions"
+msgstr ""
+
+#: main.cpp:80
+msgid "the local directory to save the exported diagrams in"
+msgstr "यसमा निर्यात गरिएको रेखाचित्र बचत गर्न स्थानिय डाइरेक्टरी"
+
+#: main.cpp:80
+msgid "the directory of the file"
+msgstr "फाइलको डाइरेक्टरी"
+
+#: main.cpp:81
+msgid ""
+"keep the tree structure used to store the views in the document in the "
+"target directory"
+msgstr ""
+"लक्षित डाइरेक्टरीमा कागजातमा दृश्यहरू भण्डारन गर्न प्रयोग गरिएको ट्री समरचना "
+"राख्नुहोस्"
+
+#: umlviewimageexporter.cpp:71
+msgid "Exporting view..."
+msgstr "दृश्य निर्यात गर्दैछ..."
+
+#: umlviewimageexporter.cpp:75
+msgid "An error happened when exporting the image:\n"
+msgstr "छवि निर्यात गर्दा एउटा त्रुटि देखापर्यो:\n"
+
+#: umlviewimageexporter.cpp:102
+#, kde-format
+msgid ""
+"The selected file %1 exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"चयन गरिएको फाइल %1 अवस्थित छ ।\n"
+"तपाईँ यसलाई अधिलेखन गर्न चाहनुहुन्छ ?"
+
+#: umlviewimageexporter.cpp:103
+msgid "File Already Exists"
+msgstr "फाइल पहिल्यै अवस्थित छ"
+
+#: listpopupmenu.cpp:286 listpopupmenu.cpp:601
+msgid "Change Font..."
+msgstr "फन्ट परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:287
+msgid "Delete Selected Items"
+msgstr "चयन गरिएको वस्तु मेट्नुहोस्"
+
+#: listpopupmenu.cpp:293 listpopupmenu.cpp:958
+msgid "Draw as Circle"
+msgstr "वृत जस्तो कोर्नुहोस्"
+
+#: listpopupmenu.cpp:295 listpopupmenu.cpp:960
+msgid "Change into Class"
+msgstr "वर्गमा परिवर्तन गर्नुहोस्"
+
+#: listpopupmenu.cpp:299 listpopupmenu.cpp:966
+msgid "Change into Interface"
+msgstr "इन्टरफेसमा परिवर्तन गर्नुहोस्"
+
+#: listpopupmenu.cpp:320 listpopupmenu.cpp:1478
+msgid "Category Type"
+msgstr ""
+
+#: listpopupmenu.cpp:371
+msgid "Move Up"
+msgstr "माथि सार्नुहोस्"
+
+#: listpopupmenu.cpp:372
+msgid "Move Down"
+msgstr "तल सार्नुहोस्"
+
+#: listpopupmenu.cpp:378
+msgid "Rename Class..."
+msgstr "वर्ग पुन: नामकरण गर्नुहोस्..."
+
+#: listpopupmenu.cpp:379
+msgid "Rename Object..."
+msgstr "वस्तु पुन: नामकरण गर्नुहोस्..."
+
+#: listpopupmenu.cpp:398
+msgctxt "clear note"
+msgid "Clear"
+msgstr ""
+
+#: listpopupmenu.cpp:400 listpopupmenu.cpp:487 listpopupmenu.cpp:506
+#: listpopupmenu.cpp:547
+msgid "Change Text..."
+msgstr "पाठ परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:419
+msgid "Change State Name..."
+msgstr "स्थिति नाम परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:430
+msgid "Flip Horizontal"
+msgstr "तेर्सो गरी घुमाउनुहोस्"
+
+#: listpopupmenu.cpp:433
+msgid "Flip Vertical"
+msgstr "ठाडो गरी घुमाउनुहोस्"
+
+#: listpopupmenu.cpp:450
+msgid "Change Activity Name..."
+msgstr "क्रियाकलाप नाम परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:469
+msgid "Change Object Node Name..."
+msgstr ""
+
+#: listpopupmenu.cpp:485
+msgctxt "clear precondition"
+msgid "Clear"
+msgstr ""
+
+#: listpopupmenu.cpp:496
+msgid "Add Interaction Operand"
+msgstr ""
+
+#: listpopupmenu.cpp:504
+msgctxt "clear combined fragment"
+msgid "Clear"
+msgstr ""
+
+#: listpopupmenu.cpp:514 listpopupmenu.cpp:517 listpopupmenu.cpp:1623
+#: listpopupmenu.cpp:1627
+msgid "Change Multiplicity..."
+msgstr "बाहुल्य परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:520 listpopupmenu.cpp:1631
+msgid "Change Name"
+msgstr "नाम परिवर्तन गर्नुहोस्"
+
+#: listpopupmenu.cpp:523 listpopupmenu.cpp:1615 listpopupmenu.cpp:1637
+msgid "Change Role A Name..."
+msgstr "ए नामको भूमिका परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:526 listpopupmenu.cpp:1619 listpopupmenu.cpp:1638
+msgid "Change Role B Name..."
+msgstr "बी नामको भूमिका परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:540 listpopupmenu.cpp:634
+msgid "New Operation..."
+msgstr "नयाँ सञ्चालन..."
+
+#: listpopupmenu.cpp:541 listpopupmenu.cpp:1657
+msgid "Select Operation..."
+msgstr "सञ्चालन चयन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:586 listpopupmenu.cpp:1661
+msgid "Rename..."
+msgstr "पुन: नामकरण गर्नुहोस्..."
+
+#: listpopupmenu.cpp:604 listpopupmenu.cpp:979
+msgid "Line Color..."
+msgstr "रेखा रङ..."
+
+#: listpopupmenu.cpp:607
+msgid "Expand All"
+msgstr "सबैलाई विस्तार गर्नुहोस्"
+
+#: listpopupmenu.cpp:610
+msgid "Collapse All"
+msgstr "सबैलाई संक्षिप्त गर्नुहोस्"
+
+#: listpopupmenu.cpp:613
+msgctxt "duplicate action"
+msgid "Duplicate"
+msgstr ""
+
+#: listpopupmenu.cpp:616
+msgid "Externalize Folder..."
+msgstr "मूर्त रूप दिने फोल्डर..."
+
+#: listpopupmenu.cpp:619
+msgid "Internalize Folder"
+msgstr "आन्तरीक फोल्डर"
+
+#: listpopupmenu.cpp:622
+msgid "Import Classes..."
+msgstr "वर्गहरू आयात गर्नुहोस्..."
+
+#: listpopupmenu.cpp:625
+msgid "Import Project..."
+msgstr ""
+
+#: listpopupmenu.cpp:628
+msgid "Reset Label Positions"
+msgstr "लेबुल स्थितिहरू रिसेट गर्नुहोस्"
+
+#: listpopupmenu.cpp:631
+msgid "New Parameter..."
+msgstr "नयाँ परिमिति..."
+
+#: listpopupmenu.cpp:637
+msgid "New Attribute..."
+msgstr "नयाँ विशेषता..."
+
+#: listpopupmenu.cpp:640 listpopupmenu.cpp:1563
+msgid "New Template..."
+msgstr "नयाँ टेम्प्लेट..."
+
+#: listpopupmenu.cpp:643
+msgid "New Literal..."
+msgstr "नयाँ अक्षरश..."
+
+#: listpopupmenu.cpp:646
+msgid "New Entity Attribute..."
+msgstr "नयाँ अस्तित्व विशेषता..."
+
+#: listpopupmenu.cpp:649
+msgid "Export as Picture..."
+msgstr "तस्वीरको रूपमा निर्यात गर्नुहोस्..."
+
+#: listpopupmenu.cpp:668
+msgid "Subsystem"
+msgstr "उपप्रणाली"
+
+#: listpopupmenu.cpp:671 worktoolbar.cpp:331
+msgid "Component"
+msgstr "अवयव"
+
+#: listpopupmenu.cpp:674 worktoolbar.cpp:333
+msgid "Artifact"
+msgstr "शिल्पकृति"
+
+#: listpopupmenu.cpp:685 worktoolbar.cpp:332
+msgid "Node"
+msgstr "नोड"
+
+#: listpopupmenu.cpp:698 listpopupmenu.cpp:832
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: listpopupmenu.cpp:701 worktoolbar.cpp:337
+msgid "Entity"
+msgstr "अस्तित्व"
+
+#: listpopupmenu.cpp:711 worktoolbar.cpp:359
+msgid "Category"
+msgstr ""
+
+#: listpopupmenu.cpp:714 worktoolbar.cpp:313
+msgid "Actor"
+msgstr "कलाकार"
+
+#: listpopupmenu.cpp:717 worktoolbar.cpp:320
+msgid "Use Case"
+msgstr "केस प्रयोग गर्नुहोस्"
+
+#: listpopupmenu.cpp:727
+msgid "Text Line..."
+msgstr "पाठ रेखा..."
+
+#: listpopupmenu.cpp:829
+msgctxt "new container menu"
+msgid "New"
+msgstr ""
+
+#: listpopupmenu.cpp:833
+msgctxt "new class menu item"
+msgid "Class"
+msgstr ""
+
+#: listpopupmenu.cpp:834 worktoolbar.cpp:334
+msgid "Interface"
+msgstr "इन्टरफेस"
+
+#: listpopupmenu.cpp:835 worktoolbar.cpp:335
+msgid "Datatype"
+msgstr "डेटा प्रकार"
+
+#: listpopupmenu.cpp:836 worktoolbar.cpp:336
+msgid "Enum"
+msgstr "इनम"
+
+#: listpopupmenu.cpp:837 listpopupmenu.cpp:928 worktoolbar.cpp:330
+msgid "Package"
+msgstr "प्याकेज"
+
+#: listpopupmenu.cpp:914
+msgid "Public Only"
+msgstr "सार्वजनिक मात्र"
+
+#: listpopupmenu.cpp:918
+msgid "Operation Signature"
+msgstr "सञ्चालन हस्ताक्षर"
+
+#: listpopupmenu.cpp:923
+msgid "Attribute Signature"
+msgstr "विशेषता हस्ताक्षर"
+
+#: listpopupmenu.cpp:931 stereotype.cpp:96
+msgid "Stereotype"
+msgstr "स्टेरियो प्रकार"
+
+#: listpopupmenu.cpp:943
+msgctxt "new classifier menu"
+msgid "New"
+msgstr ""
+
+#: listpopupmenu.cpp:946
+msgid "Attribute..."
+msgstr "विशेषता..."
+
+#: listpopupmenu.cpp:947
+msgid "Operation..."
+msgstr "सञ्चालन..."
+
+#: listpopupmenu.cpp:948
+msgid "Template..."
+msgstr ""
+
+#: listpopupmenu.cpp:962
+msgid "Refactor"
+msgstr "रिफ्याक्टर"
+
+#: listpopupmenu.cpp:963
+msgid "View Code"
+msgstr "कोड हेर्नुहोस्"
+
+#: listpopupmenu.cpp:978
+msgctxt "color menu"
+msgid "Color"
+msgstr ""
+
+#: listpopupmenu.cpp:980
+msgid "Fill Color..."
+msgstr "रङ भर्नुहोस्..."
+
+#. i18n: file: umbrello.kcfg:96
+#. i18n: ectx: label, entry (useFillColor), group (UI Options)
+#: listpopupmenu.cpp:981 rc.cpp:85
+msgid "Use Fill Color"
+msgstr "भरेको रङ प्रयोग गर्नुहोस्"
+
+#: listpopupmenu.cpp:1075
+msgctxt "new sub menu"
+msgid "New"
+msgstr ""
+
+#: listpopupmenu.cpp:1124
+msgid "Actor..."
+msgstr "कर्ता..."
+
+#: listpopupmenu.cpp:1125
+msgid "Use Case..."
+msgstr "केस प्रयोग गर्नुहोस्..."
+
+#: listpopupmenu.cpp:1129
+msgctxt "new class menu item"
+msgid "Class..."
+msgstr ""
+
+#: listpopupmenu.cpp:1130
+msgid "Interface..."
+msgstr "इन्टरफेस..."
+
+#: listpopupmenu.cpp:1131
+msgid "Datatype..."
+msgstr "डेटाप्रकार..."
+
+#: listpopupmenu.cpp:1132
+msgid "Enum..."
+msgstr "इनम..."
+
+#: listpopupmenu.cpp:1133
+msgid "Package..."
+msgstr "प्याकेज..."
+
+#: listpopupmenu.cpp:1137 worktoolbar.cpp:322
+msgid "Initial State"
+msgstr "सुरूको स्थिति"
+
+#: listpopupmenu.cpp:1138 worktoolbar.cpp:324
+msgid "End State"
+msgstr "अन्तिम स्थिति"
+
+#: listpopupmenu.cpp:1139
+msgctxt "add new state"
+msgid "State..."
+msgstr ""
+
+#: listpopupmenu.cpp:1143 worktoolbar.cpp:354
+msgid "Initial Activity"
+msgstr "सुरूको क्रियाकलाप"
+
+#: listpopupmenu.cpp:1144 worktoolbar.cpp:351
+msgid "End Activity"
+msgstr "क्रियाकलाप अन्त्य गर्नुहोस्"
+
+#: listpopupmenu.cpp:1145 listpopupmenu.cpp:1187
+msgid "Activity..."
+msgstr "क्रियाकलाप..."
+
+#: listpopupmenu.cpp:1150
+msgid "Subsystem..."
+msgstr "उपप्रणाली..."
+
+#: listpopupmenu.cpp:1151
+msgid "Component..."
+msgstr "अवयव..."
+
+#: listpopupmenu.cpp:1152
+msgid "Artifact..."
+msgstr "शिल्पकृति..."
+
+#: listpopupmenu.cpp:1155
+msgid "Node..."
+msgstr "नोड..."
+
+#: listpopupmenu.cpp:1158
+msgid "Entity..."
+msgstr "अस्तित्व..."
+
+#: listpopupmenu.cpp:1159
+msgid "Category..."
+msgstr ""
+
+#: listpopupmenu.cpp:1163
+msgid "Object..."
+msgstr "वस्तु..."
+
+#: listpopupmenu.cpp:1167
+msgid "Attribute"
+msgstr "विशेषता"
+
+#: listpopupmenu.cpp:1169 listpopupmenu.cpp:1173
+msgid "Template"
+msgstr "टेम्प्लेट"
+
+#: listpopupmenu.cpp:1176
+msgid "Entity Attribute..."
+msgstr "अस्तित्व विशेषता..."
+
+#: listpopupmenu.cpp:1183
+msgid "Enum Literal..."
+msgstr "इनम अक्षरश..."
+
+#: listpopupmenu.cpp:1611
+msgid "Delete Anchor"
+msgstr "एङ्कर मेट्नुहोस्"
+
+#: listpopupmenu.cpp:1636
+msgid "Change Association Name..."
+msgstr "संघ नाम परिवर्तन गर्नुहोस्..."
+
+#: listpopupmenu.cpp:1686
+msgid "Undo"
+msgstr ""
+
+#: listpopupmenu.cpp:1687
+msgid "Redo"
+msgstr ""
+
+#: listpopupmenu.cpp:1693
+msgid "Clear Diagram"
+msgstr "रेखाचित्र खाली गर्नुहोस्"
+
+#: listpopupmenu.cpp:1696
+msgid "Snap to Grid"
+msgstr "ग्रिडमा सटाउनुहोस्"
+
+#: listpopupmenu.cpp:1698
+msgid "Show Grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: listpopupmenu.cpp:1710
+msgid "Disjoint(Specialisation)"
+msgstr ""
+
+#: listpopupmenu.cpp:1711
+msgid "Overlapping(Specialisation)"
+msgstr ""
+
+#: listpopupmenu.cpp:1712
+msgid "Union"
+msgstr ""
+
+#: umllistviewitem.cpp:525 umllistviewitem.cpp:558 umllistviewitem.cpp:589
+#: umllistviewitem.cpp:616
+msgid "Rename canceled"
+msgstr "पुन: नामकरण रद्द गरियो"
+
+#: umllistviewitem.cpp:649
+#, kde-format
+msgid "Renaming an item of listview type %1 is not yet implemented."
+msgstr ""
+"सूची दृश्य प्रकार %1 को एउटा वस्तुको पुन: नामकरण अहिले सम्म कार्यान्वयन भएको "
+"छैन ।"
+
+#: umllistviewitem.cpp:650
+msgid "Function Not Implemented"
+msgstr "प्रकार्य कार्यान्वयन गरिएको छैन"
+
+#: umllistviewitem.cpp:663
+msgid ""
+"The name you entered was invalid.\n"
+"Renaming process has been canceled."
+msgstr ""
+"तपाईँले प्रविष्ट गर्नुभएको नाम अवैध थियो ।\n"
+"पुन: नामकरण प्रक्रिया रद्द गरियो ।"
+
+#. i18n: file: umbrello.kcfg:13
+#. i18n: ectx: label, entry (Geometry), group (General Options)
+#. i18n: file: umbrello.kcfg:14
+#. i18n: ectx: whatsthis, entry (Geometry), group (General Options)
+#: rc.cpp:3 rc.cpp:6
+msgid "Geometry"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:18
+#. i18n: ectx: label, entry (imageMimeType), group (General Options)
+#: rc.cpp:9
+msgid "Image Mime Type"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:19
+#. i18n: ectx: whatsthis, entry (imageMimeType), group (General Options)
+#: rc.cpp:12
+msgid "The Mime Type of the Images"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:23
+#. i18n: ectx: label, entry (undo), group (General Options)
+#: rc.cpp:15
+msgid "Undo Support"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:24
+#. i18n: ectx: whatsthis, entry (undo), group (General Options)
+#: rc.cpp:18
+msgid "Undo Support is enabled when this is true"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:28
+#. i18n: ectx: label, entry (tabdiagrams), group (General Options)
+#: rc.cpp:21
+msgid "Tabbed Diagrams"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:29
+#. i18n: ectx: whatsthis, entry (tabdiagrams), group (General Options)
+#: rc.cpp:24
+msgid "Enables/Disables Tabbed View of Diagrams in the view area"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:33
+#. i18n: ectx: label, entry (newcodegen), group (General Options)
+#: rc.cpp:27
+msgid "New Code Generator"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:34
+#. i18n: ectx: whatsthis, entry (newcodegen), group (General Options)
+#: rc.cpp:30
+msgid "Enables/Disables Support for the New Code Generator"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:38
+#. i18n: ectx: label, entry (angularlines), group (General Options)
+#: rc.cpp:33
+msgid "Angular Lines"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:39
+#. i18n: ectx: whatsthis, entry (angularlines), group (General Options)
+#: rc.cpp:36
+msgid "Enables/Disables Support for Angular Lines in diagrams"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:43
+#. i18n: ectx: label, entry (footerPrinting), group (General Options)
+#: rc.cpp:39
+msgid "Footer Printing"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:44
+#. i18n: ectx: whatsthis, entry (footerPrinting), group (General Options)
+#: rc.cpp:42
+msgid "Enables/Disables Support for footer printing"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:48
+#. i18n: ectx: label, entry (autosave), group (General Options)
+#: rc.cpp:45
+msgid "Auto Save"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:49
+#. i18n: ectx: whatsthis, entry (autosave), group (General Options)
+#: rc.cpp:48
+msgid "Enables/Disables Auto Saving at Regular Intervals"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:53
+#. i18n: ectx: label, entry (time), group (General Options)
+#: rc.cpp:51
+msgid "Auto Save Time ( Old )"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:54
+#. i18n: ectx: whatsthis, entry (time), group (General Options)
+#: rc.cpp:54
+msgid "Auto Save Time Interval ( Old )"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:67
+#. i18n: ectx: label, entry (autosavesuffix), group (General Options)
+#: rc.cpp:59
+msgid "Auto Save Suffix"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:68
+#. i18n: ectx: whatsthis, entry (autosavesuffix), group (General Options)
+#: rc.cpp:62
+msgid "The Suffix for the auto save file"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:72
+#. i18n: ectx: label, entry (loadlast), group (General Options)
+#: rc.cpp:65
+msgid "Load Last"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:73
+#. i18n: ectx: whatsthis, entry (loadlast), group (General Options)
+#: rc.cpp:68
+msgid "Enables/Disables Loading of the last open file"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:77
+#. i18n: ectx: label, entry (diagram), group (General Options)
+#: rc.cpp:71
+msgid "Diagram To Load at Startup"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:78
+#. i18n: ectx: whatsthis, entry (diagram), group (General Options)
+#: rc.cpp:74
+msgid "The Diagram to load at startup"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:83
+#. i18n: ectx: label, entry (defaultLanguage), group (General Options)
+#: rc.cpp:77
+msgid "Default Language at Startup"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:84
+#. i18n: ectx: whatsthis, entry (defaultLanguage), group (General Options)
+#: rc.cpp:80
+msgid "The Language that Umbrello should start with by default"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:97
+#. i18n: ectx: whatsthis, entry (useFillColor), group (UI Options)
+#: rc.cpp:88
+msgid "Enables/Disables usage of fill color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:101
+#. i18n: ectx: label, entry (fillColor), group (UI Options)
+#: rc.cpp:91
+msgid "Fill Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:102
+#. i18n: ectx: whatsthis, entry (fillColor), group (UI Options)
+#: rc.cpp:94
+msgid "The Fill Color to be used"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:106
+#. i18n: ectx: label, entry (lineColor), group (UI Options)
+#: rc.cpp:97
+msgid "Line Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:107
+#. i18n: ectx: whatsthis, entry (lineColor), group (UI Options)
+#: rc.cpp:100
+msgid "The Color of the Lines"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:111
+#. i18n: ectx: label, entry (lineWidth), group (UI Options)
+#: rc.cpp:103
+msgid "Line Width"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:112
+#. i18n: ectx: whatsthis, entry (lineWidth), group (UI Options)
+#: rc.cpp:106
+msgid "The Width of the Line"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:116
+#. i18n: ectx: label, entry (showDocWindow), group (UI Options)
+#: rc.cpp:109
+msgid "Show Doc Window"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:117
+#. i18n: ectx: whatsthis, entry (showDocWindow), group (UI Options)
+#: rc.cpp:112
+msgid "Enables/Disables showing of the doc window"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:122
+#. i18n: ectx: whatsthis, entry (uiFont), group (UI Options)
+#: rc.cpp:118
+msgid "The Font to be used"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:128
+#. i18n: ectx: label, entry (showVisibility), group (Class Options)
+#: rc.cpp:121
+msgid "Show Visibility"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:129
+#. i18n: ectx: whatsthis, entry (showVisibility), group (Class Options)
+#: rc.cpp:124
+msgid ""
+"Show the Visibility of the Attributes ( eg: private, public, protected)"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:133
+#. i18n: ectx: label, entry (showAtts), group (Class Options)
+#: rc.cpp:127
+msgid "Show Attributes"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:134
+#. i18n: ectx: whatsthis, entry (showAtts), group (Class Options)
+#: rc.cpp:130
+msgid "Show attributes of the class"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:138
+#. i18n: ectx: label, entry (showOps), group (Class Options)
+#. i18n: file: umbrello.kcfg:139
+#. i18n: ectx: whatsthis, entry (showOps), group (Class Options)
+#: rc.cpp:133 rc.cpp:136
+msgid "Show Operations"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:143
+#. i18n: ectx: label, entry (showPackage), group (Class Options)
+#: rc.cpp:139
+msgid "Show Package"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:144
+#. i18n: ectx: whatsthis, entry (showPackage), group (Class Options)
+#: rc.cpp:142
+msgid "Enables/Disables showing of packages"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:148
+#. i18n: ectx: label, entry (showStereoType), group (Class Options)
+#. i18n: file: umbrello.kcfg:149
+#. i18n: ectx: whatsthis, entry (showStereoType), group (Class Options)
+#: rc.cpp:145 rc.cpp:148
+msgid "Show Stereotypes"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:153
+#. i18n: ectx: label, entry (showAttribAssocs), group (Class Options)
+#. i18n: file: umbrello.kcfg:154
+#. i18n: ectx: whatsthis, entry (showAttribAssocs), group (Class Options)
+#: rc.cpp:151 rc.cpp:154
+msgid "Show Attribute Associations"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:159
+#. i18n: ectx: whatsthis, entry (showPublicOnly), group (Class Options)
+#: rc.cpp:160
+msgid "Enables/Disables showing of public attributes/methods"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:163
+#. i18n: ectx: label, entry (showAttSig), group (Class Options)
+#. i18n: file: umbrello.kcfg:164
+#. i18n: ectx: whatsthis, entry (showAttSig), group (Class Options)
+#: rc.cpp:163 rc.cpp:166
+msgid "Show Attribute Signature"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:168
+#. i18n: ectx: label, entry (showOpSig), group (Class Options)
+#: rc.cpp:169
+msgid "Show Operation Signature"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:173
+#. i18n: ectx: label, entry (defaultAttributeScope), group (Class Options)
+#. i18n: file: umbrello.kcfg:174
+#. i18n: ectx: whatsthis, entry (defaultAttributeScope), group (Class Options)
+#: rc.cpp:175 rc.cpp:178
+msgid "Default Attribute Scope"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:179
+#. i18n: ectx: label, entry (defaultOperationScope), group (Class Options)
+#. i18n: file: umbrello.kcfg:180
+#. i18n: ectx: whatsthis, entry (defaultOperationScope), group (Class Options)
+#: rc.cpp:181 rc.cpp:184
+msgid "Default Operation Scope"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:187
+#. i18n: ectx: label, entry (height), group (Code Viewer Options)
+#: rc.cpp:187
+msgid "Height"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:188
+#. i18n: ectx: whatsthis, entry (height), group (Code Viewer Options)
+#: rc.cpp:190
+msgid "Height of the code viewer"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:193
+#. i18n: ectx: label, entry (width), group (Code Viewer Options)
+#: rc.cpp:193
+msgid "Width"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:194
+#. i18n: ectx: whatsthis, entry (width), group (Code Viewer Options)
+#: rc.cpp:196
+msgid "Width of the Code Viewer"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:199
+#. i18n: ectx: label, entry (showHiddenBlocks), group (Code Viewer Options)
+#. i18n: file: umbrello.kcfg:200
+#. i18n: ectx: whatsthis, entry (showHiddenBlocks), group (Code Viewer Options)
+#: rc.cpp:199 rc.cpp:202
+msgid "Show Hidden Blocks"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:204
+#. i18n: ectx: label, entry (blocksAreHighlighted), group (Code Viewer Options)
+#: rc.cpp:205
+msgid "Highlight Blocks"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:205
+#. i18n: ectx: whatsthis, entry (blocksAreHighlighted), group (Code Viewer Options)
+#: rc.cpp:208
+msgid "Enables/Disables Highlighting of blocks"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:210
+#. i18n: ectx: whatsthis, entry (codeViewerFont), group (Code Viewer Options)
+#: rc.cpp:214
+msgid "Font to be used in the Code Viewer"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:214
+#. i18n: ectx: label, entry (paperColor), group (Code Viewer Options)
+#: rc.cpp:217
+msgid "Paper Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:215
+#. i18n: ectx: whatsthis, entry (paperColor), group (Code Viewer Options)
+#: rc.cpp:220
+msgid "Color of the Paper"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:219
+#. i18n: ectx: label, entry (fontColor), group (Code Viewer Options)
+#: rc.cpp:223
+msgid "Font Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:220
+#. i18n: ectx: whatsthis, entry (fontColor), group (Code Viewer Options)
+#: rc.cpp:226
+msgid "Color of the Font"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:224
+#. i18n: ectx: label, entry (selectedColor), group (Code Viewer Options)
+#. i18n: file: umbrello.kcfg:225
+#. i18n: ectx: whatsthis, entry (selectedColor), group (Code Viewer Options)
+#: rc.cpp:229 rc.cpp:232
+msgid "Selected Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:229
+#. i18n: ectx: label, entry (editBlockColor), group (Code Viewer Options)
+#: rc.cpp:235
+msgctxt "Color of the Edit Block"
+msgid "Edit Block Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:230
+#. i18n: ectx: whatsthis, entry (editBlockColor), group (Code Viewer Options)
+#: rc.cpp:238
+msgid "Color of the Edit Block"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:234
+#. i18n: ectx: label, entry (nonEditBlockColor), group (Code Viewer Options)
+#. i18n: file: umbrello.kcfg:235
+#. i18n: ectx: whatsthis, entry (nonEditBlockColor), group (Code Viewer Options)
+#: rc.cpp:241 rc.cpp:244
+msgid "Non Edit Block Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:239
+#. i18n: ectx: label, entry (umlObjectColor), group (Code Viewer Options)
+#: rc.cpp:247
+msgid "UML Object Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:240
+#. i18n: ectx: whatsthis, entry (umlObjectColor), group (Code Viewer Options)
+#: rc.cpp:250
+msgid "Color of the UML Object"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:244
+#. i18n: ectx: label, entry (hiddenColor), group (Code Viewer Options)
+#. i18n: file: umbrello.kcfg:245
+#. i18n: ectx: whatsthis, entry (hiddenColor), group (Code Viewer Options)
+#: rc.cpp:253 rc.cpp:256
+msgid "Hidden Color"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:251
+#. i18n: ectx: label, entry (autoGenEmptyConstructors), group (Code Generation)
+#: rc.cpp:259
+msgid "Auto Generate Empty Constructors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:252
+#. i18n: ectx: whatsthis, entry (autoGenEmptyConstructors), group (Code Generation)
+#: rc.cpp:262
+msgid "Enables/Disables Auto Generation of Empty Constructors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:256
+#. i18n: ectx: label, entry (commentStyle), group (Code Generation)
+#: rc.cpp:265
+msgid "Comment Style"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:257
+#. i18n: ectx: whatsthis, entry (commentStyle), group (Code Generation)
+#: rc.cpp:268
+msgid "Sets the Style of Comments to be used"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:262
+#. i18n: ectx: label, entry (defaultAssocFieldScope), group (Code Generation)
+#: rc.cpp:271
+msgid "Default Association Field Scope"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:263
+#. i18n: ectx: whatsthis, entry (defaultAssocFieldScope), group (Code Generation)
+#: rc.cpp:274
+msgid "Sets the default Association field scope"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:268
+#. i18n: ectx: label, entry (defaultAttributeAccessorScope), group (Code Generation)
+#: rc.cpp:277
+msgid "Default Attribute Accessor Scope"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:269
+#. i18n: ectx: whatsthis, entry (defaultAttributeAccessorScope), group (Code Generation)
+#: rc.cpp:280
+msgid "Sets the default attribute accessor scope"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:274
+#. i18n: ectx: label, entry (forceDoc), group (Code Generation)
+#: rc.cpp:283
+msgid "Force Documentation"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:275
+#. i18n: ectx: whatsthis, entry (forceDoc), group (Code Generation)
+#: rc.cpp:286
+msgid "Enables/Disables Verbose Documentation"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:279
+#. i18n: ectx: label, entry (forceSections), group (Code Generation)
+#: rc.cpp:289
+msgid "Force Section Documentation"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:280
+#. i18n: ectx: whatsthis, entry (forceSections), group (Code Generation)
+#: rc.cpp:292
+msgid "Enables/Disables verbose section documentation"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:284
+#. i18n: ectx: label, entry (headingsDirectory), group (Code Generation)
+#: rc.cpp:295
+msgid "Headings Directory"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:285
+#. i18n: ectx: whatsthis, entry (headingsDirectory), group (Code Generation)
+#: rc.cpp:298
+msgid "The Path in which the headings are stored"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:289
+#. i18n: ectx: label, entry (includeHeadings), group (Code Generation)
+#: rc.cpp:301
+msgid "Include headings"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:290
+#. i18n: ectx: whatsthis, entry (includeHeadings), group (Code Generation)
+#: rc.cpp:304
+msgid "Enables/Disables inclusion of headings"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:294
+#. i18n: ectx: label, entry (indentationAmount), group (Code Generation)
+#: rc.cpp:307
+msgid "Indentation Amount"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:295
+#. i18n: ectx: whatsthis, entry (indentationAmount), group (Code Generation)
+#: rc.cpp:310
+msgid "The amount of indentation"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:300
+#. i18n: ectx: label, entry (indentationType), group (Code Generation)
+#: rc.cpp:313
+msgid "Indentation Type"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:301
+#. i18n: ectx: whatsthis, entry (indentationType), group (Code Generation)
+#: rc.cpp:316
+msgid "The Type of Indentation"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:306
+#. i18n: ectx: label, entry (lineEndingType), group (Code Generation)
+#: rc.cpp:319
+msgid "Line Ending Type"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:307
+#. i18n: ectx: whatsthis, entry (lineEndingType), group (Code Generation)
+#: rc.cpp:322
+msgid "The type of line ending ( or new line type )"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:312
+#. i18n: ectx: label, entry (modnamePolicy), group (Code Generation)
+#. i18n: file: umbrello.kcfg:313
+#. i18n: ectx: whatsthis, entry (modnamePolicy), group (Code Generation)
+#: rc.cpp:325 rc.cpp:328
+msgid "Modifier Name Policy"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:318
+#. i18n: ectx: label, entry (outputDirectory), group (Code Generation)
+#: rc.cpp:331
+msgid "Output Directory"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:319
+#. i18n: ectx: whatsthis, entry (outputDirectory), group (Code Generation)
+#: rc.cpp:334
+msgid "The directory to which the code has to be outputted"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:323
+#. i18n: ectx: label, entry (overwritePolicy), group (Code Generation)
+#. i18n: file: codegenwizard/codegenoptionspage.ui:136
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxOverwritePolicy)
+#: rc.cpp:337 rc.cpp:1425
+msgid "Overwrite Policy"
+msgstr "नीति अधिलेखन गर्नुहोस्"
+
+#. i18n: file: umbrello.kcfg:324
+#. i18n: ectx: whatsthis, entry (overwritePolicy), group (Code Generation)
+#: rc.cpp:340
+msgid "The policy to be followed when there are name conflicts"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:331
+#. i18n: ectx: label, entry (autoGenAccessors), group (CPP Code Generation)
+#: rc.cpp:343
+msgid "Auto Generate Accessors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:332
+#. i18n: ectx: whatsthis, entry (autoGenAccessors), group (CPP Code Generation)
+#: rc.cpp:346
+msgid "Enables/Disables auto generation of accessors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:336
+#. i18n: ectx: label, entry (inlineAccessors), group (CPP Code Generation)
+#: rc.cpp:349
+msgid "Inline Accessors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:337
+#. i18n: ectx: whatsthis, entry (inlineAccessors), group (CPP Code Generation)
+#: rc.cpp:352
+msgid "Enables/Disables Inline accessors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:341
+#. i18n: ectx: label, entry (inlineOps), group (CPP Code Generation)
+#: rc.cpp:355
+msgid "Inline operations"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:342
+#. i18n: ectx: whatsthis, entry (inlineOps), group (CPP Code Generation)
+#: rc.cpp:358
+msgid "Enables/Disables Inline Operations"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:346
+#. i18n: ectx: label, entry (packageIsNamespace), group (CPP Code Generation)
+#: rc.cpp:361
+msgid "Package is namespace"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:347
+#. i18n: ectx: whatsthis, entry (packageIsNamespace), group (CPP Code Generation)
+#: rc.cpp:364
+msgid "Enables/Disables treating a package as a namespace"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:351
+#. i18n: ectx: label, entry (publicAccessors), group (CPP Code Generation)
+#: rc.cpp:367
+msgid "Public Accessors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:352
+#. i18n: ectx: whatsthis, entry (publicAccessors), group (CPP Code Generation)
+#: rc.cpp:370
+msgid "Enables/Disables public accessors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:356
+#. i18n: ectx: label, entry (stringClassName), group (CPP Code Generation)
+#: rc.cpp:373
+msgid "String Class Name"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:357
+#. i18n: ectx: whatsthis, entry (stringClassName), group (CPP Code Generation)
+#: rc.cpp:376
+msgid "The name of the string class"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:361
+#. i18n: ectx: label, entry (stringClassNameInclude), group (CPP Code Generation)
+#: rc.cpp:379
+msgid "String Class Name Include"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:362
+#. i18n: ectx: whatsthis, entry (stringClassNameInclude), group (CPP Code Generation)
+#: rc.cpp:382
+msgid "The name of the string class to be included"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:366
+#. i18n: ectx: label, entry (stringIncludeIsGlobal), group (CPP Code Generation)
+#: rc.cpp:385
+msgid "String Include is Global"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:367
+#. i18n: ectx: whatsthis, entry (stringIncludeIsGlobal), group (CPP Code Generation)
+#: rc.cpp:388
+msgid "Enables/Disables global inclusion of string"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:371
+#. i18n: ectx: label, entry (vectorClassName), group (CPP Code Generation)
+#: rc.cpp:391
+msgid "Vector Class Name"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:372
+#. i18n: ectx: whatsthis, entry (vectorClassName), group (CPP Code Generation)
+#: rc.cpp:394
+msgid "The name of the vector class"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:376
+#. i18n: ectx: label, entry (vectorClassNameInclude), group (CPP Code Generation)
+#: rc.cpp:397
+msgid "Vector Class Name Include "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:377
+#. i18n: ectx: whatsthis, entry (vectorClassNameInclude), group (CPP Code Generation)
+#: rc.cpp:400
+msgid "The name of the vector class to be included"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:381
+#. i18n: ectx: label, entry (vectorIncludeIsGlobal), group (CPP Code Generation)
+#: rc.cpp:403
+msgid "Vector include is global"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:382
+#. i18n: ectx: whatsthis, entry (vectorIncludeIsGlobal), group (CPP Code Generation)
+#: rc.cpp:406
+msgid "Enables/Disables global inclusing of vector class"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:386
+#. i18n: ectx: label, entry (virtualDestructors), group (CPP Code Generation)
+#: rc.cpp:409
+msgid "Virtual Destructors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:387
+#. i18n: ectx: whatsthis, entry (virtualDestructors), group (CPP Code Generation)
+#: rc.cpp:412
+msgid "Enables/Disables virtual destructors"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:391
+#. i18n: ectx: label, entry (docToolTag), group (CPP Code Generation)
+#: rc.cpp:415
+msgid "Documentation tags"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:392
+#. i18n: ectx: whatsthis, entry (docToolTag), group (CPP Code Generation)
+#: rc.cpp:418
+msgid "The tag used for generating doxygen documentation (\\\\, @)"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:398
+#. i18n: ectx: label, entry (autoGenerateAttributeAccessorsD), group (D Code Generation)
+#: rc.cpp:421
+msgid "Auto Generate Attribute Accessors ( D ) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:399
+#. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsD), group (D Code Generation)
+#: rc.cpp:424
+msgid "Enables/Disables auto generation of attribute accessors ( D )"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:403
+#. i18n: ectx: label, entry (autoGenerateAssocAccessorsD), group (D Code Generation)
+#: rc.cpp:427
+msgid "Auto Generate Assoc Accessors ( D )"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:404
+#. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsD), group (D Code Generation)
+#: rc.cpp:430
+msgid "Enables/Disables auto generation of association accessors ( D )"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:408
+#. i18n: ectx: label, entry (buildANTDocumentD), group (D Code Generation)
+#: rc.cpp:433
+msgid "Build ANT Document (D) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:409
+#. i18n: ectx: whatsthis, entry (buildANTDocumentD), group (D Code Generation)
+#: rc.cpp:436
+msgid "Enables/Disables building of ANT Document (D) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:415
+#. i18n: ectx: label, entry (autoGenerateAttributeAccessorsJava), group (Java Code Generation)
+#: rc.cpp:439
+msgid "Auto Generate Attribute Accessors (Java)"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:416
+#. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsJava), group (Java Code Generation)
+#: rc.cpp:442
+msgid "Enables/Disables auto generation of attribute accessors (Java)"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:420
+#. i18n: ectx: label, entry (autoGenerateAssocAccessorsJava), group (Java Code Generation)
+#: rc.cpp:445
+msgid "Auto Generate Assoc Accessors (Java) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:421
+#. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsJava), group (Java Code Generation)
+#: rc.cpp:448
+msgid "Enables/Disables auto generation of association accessors (Java) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:425
+#. i18n: ectx: label, entry (buildANTDocumentJava), group (Java Code Generation)
+#: rc.cpp:451
+msgid "Build ANT Document (Java) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:426
+#. i18n: ectx: whatsthis, entry (buildANTDocumentJava), group (Java Code Generation)
+#: rc.cpp:454
+msgid "Enables/Disables building of ANT Document (Java) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:432
+#. i18n: ectx: label, entry (autoGenerateAttributeAccessorsRuby), group (Ruby Code Generation)
+#: rc.cpp:457
+msgid "Auto Generate Attribute Accessors (Ruby) "
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:433
+#. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsRuby), group (Ruby Code Generation)
+#: rc.cpp:460
+msgid "Enables/Disables auto generation of attribute accessors (Ruby)"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:437
+#. i18n: ectx: label, entry (autoGenerateAssocAccessorsRuby), group (Ruby Code Generation)
+#: rc.cpp:463
+msgid "Auto Generate Assoc Accessors (Ruby)"
+msgstr ""
+
+#. i18n: file: umbrello.kcfg:438
+#. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsRuby), group (Ruby Code Generation)
+#: rc.cpp:466
+msgid "Enables/Disables auto generation of association accessors (Ruby)"
+msgstr ""
+
+#. i18n: file: umbrelloui.rc:5
+#. i18n: ectx: Menu (file_export)
+#: rc.cpp:472 rc.cpp:504
+msgid "&Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#. i18n: file: umbrelloui.rc:10
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:475 rc.cpp:507
+msgid "&Edit"
+msgstr ""
+
+#. i18n: file: umbrelloui.rc:13
+#. i18n: ectx: Menu (views)
+#: rc.cpp:478 rc.cpp:510
+msgid "&Diagram"
+msgstr "रेखाचित्र"
+
+#. i18n: file: umbrelloui.rc:14
+#. i18n: ectx: Menu (new_view)
+#: rc.cpp:481 rc.cpp:513
+msgid "&New"
+msgstr "नयाँ"
+
+#. i18n: file: umbrelloui.rc:30
+#. i18n: ectx: Menu (show_view)
+#: rc.cpp:484 rc.cpp:516
+msgid "Sh&ow"
+msgstr "देखाउनुहोस्"
+
+#. i18n: file: umbrelloui.rc:33
+#. i18n: ectx: Menu (zoom_menu)
+#: rc.cpp:487 rc.cpp:519
+msgid "&Zoom"
+msgstr ""
+
+#. i18n: file: umbrelloui.rc:35
+#. i18n: ectx: Menu (align_menu)
+#: rc.cpp:490 rc.cpp:522
+msgid "&Align"
+msgstr ""
+
+#. i18n: file: umbrelloui.rc:51
+#. i18n: ectx: Menu (code)
+#: rc.cpp:493 rc.cpp:525
+msgid "&Code"
+msgstr "सङ्केत"
+
+#. i18n: file: umbrelloui.rc:56
+#. i18n: ectx: Menu (active_lang_menu)
+#: rc.cpp:496 rc.cpp:528
+msgid "Active &Language"
+msgstr "सक्रिय भाषा"
+
+#: rc.cpp:497
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr " ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:498
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:30
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelTitle)
+#: rc.cpp:531
+msgid "<p align=\"center\">Ruby Code Generation</p>"
+msgstr "<p align=\"center\">रूबी कोड सिर्जना</p>"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:58
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelStyle)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:279
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelStyle)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:279
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelStyle)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:581
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelStyle)
+#: rc.cpp:537 rc.cpp:639 rc.cpp:702 rc.cpp:1365
+msgid "Style:"
+msgstr "शैली:"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:69
+#. i18n: ectx: property (text), item, widget (KComboBox, m_SelectCommentStyle)
+#: rc.cpp:540
+msgid "Hash (#)"
+msgstr "ह्यास (#)"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:74
+#. i18n: ectx: property (text), item, widget (KComboBox, m_SelectCommentStyle)
+#: rc.cpp:543
+msgid "Begin-End (=begin  =end)"
+msgstr "सुरूआत-अन्त्य (=सुरूआत  =अन्त्य)"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxAutoGeneratedMethods)
+#: rc.cpp:546
+msgid "Auto-Generated Methods"
+msgstr ""
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:99
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateConstructors)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateConstructors)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateConstructors)
+#: rc.cpp:549 rc.cpp:597 rc.cpp:660
+msgid "Empty constructor methods"
+msgstr "निर्माणकर्ता विधिहरू खाली गर्नुहोस्"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:109
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateAssocAccessors)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateAssocAccessors)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateAssocAccessors)
+#: rc.cpp:552 rc.cpp:600 rc.cpp:663
+msgid "Association accessor methods"
+msgstr "संघ पहुँचकर्ता विधि"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateAttribAccessors)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateAttribAccessors)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox, m_generateAttribAccessors)
+#: rc.cpp:555 rc.cpp:603 rc.cpp:666
+msgid "Attribute accessor methods"
+msgstr "विशेषता पहुँचकर्ता विधि"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:133
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelAccessorScope)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:154
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:154
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:558 rc.cpp:606 rc.cpp:669
+msgid "Default attribute accessor scope:"
+msgstr "पूर्वनिर्धारित विशेषता पहुँचकर्ता क्षेत्र:"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:162
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:183
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:183
+#. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
+#: rc.cpp:570 rc.cpp:618 rc.cpp:681
+msgid "From Parent Object"
+msgstr "प्रमूल वस्तुबाट"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:174
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelAssocFieldScope)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:207
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:207
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelAssFieldScope)
+#: rc.cpp:573 rc.cpp:621 rc.cpp:684
+msgid "Default association field scope:"
+msgstr "पूर्वनिर्धारित संघ फाँट क्षेत्र:"
+
+#. i18n: file: codegenerators/ruby/rubycodegenerationformbase.ui:203
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:236
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:236
+#. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
+#: rc.cpp:585 rc.cpp:633 rc.cpp:696
+msgid "From Parent Role"
+msgstr "प्रमूल भूमिकाबाट"
+
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:42
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:42
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:588 rc.cpp:651
+msgid "Project Generation"
+msgstr "परियोजना सिर्जना"
+
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, m_makeANTDocumentCheckBox)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, m_makeANTDocumentCheckBox)
+#: rc.cpp:591 rc.cpp:654
+msgid "Create ANT build document"
+msgstr "एएनटी निर्माण कागजात सिर्जना गर्नुहोस्"
+
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:76
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:76
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:594 rc.cpp:657
+msgid "Auto-Generate Methods"
+msgstr "विधिहरू स्वत: सिर्जना गर्नुहोस्"
+
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:290
+#. i18n: ectx: property (text), item, widget (KComboBox, m_SelectCommentStyle)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:290
+#. i18n: ectx: property (text), item, widget (KComboBox, m_SelectCommentStyle)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:592
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_selectCommentStyle)
+#: rc.cpp:642 rc.cpp:705 rc.cpp:1368
+msgid "Slash-Slash (//)"
+msgstr "स्ल्यास-स्ल्यास (//)"
+
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:295
+#. i18n: ectx: property (text), item, widget (KComboBox, m_SelectCommentStyle)
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:295
+#. i18n: ectx: property (text), item, widget (KComboBox, m_SelectCommentStyle)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:597
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_selectCommentStyle)
+#: rc.cpp:645 rc.cpp:708 rc.cpp:1371
+msgid "Slash-Star (/**  */)"
+msgstr "स्ल्यास-तारा (/**  */)"
+
+#. i18n: file: codegenerators/d/dcodegenerationformbase.ui:318
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelTitle)
+#: rc.cpp:648
+msgid "<p align=\"center\">D Code Generation</p>"
+msgstr ""
+
+#. i18n: file: codegenerators/java/javacodegenerationformbase.ui:318
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelTitle)
+#: rc.cpp:711
+msgid "<p align=\"center\">Java Code Generation</p>"
+msgstr "<p align=\"center\">जाभा कोड सिर्जना</p>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:31
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelTitle)
+#: rc.cpp:714
+msgid "<p align=\"center\">C++ Code Generation</p>"
+msgstr "<p align=\"center\">C++ कोड सिर्जना</p>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:61
+#. i18n: ectx: attribute (title), widget (QWidget, ui_tabMethodBodyGeneration)
+#: rc.cpp:720
+msgid "Method Body Generation"
+msgstr "विधि मुख्य भाग सिर्जना"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:98
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:100
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:102
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:104
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:106
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:108
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:110
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:112
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:114
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:116
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:118
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:120
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:122
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:124
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:126
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:128
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:130
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:132
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:134
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:136
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:138
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:140
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:142
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:144
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:146
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#: rc.cpp:723 rc.cpp:729 rc.cpp:735 rc.cpp:741 rc.cpp:747 rc.cpp:753
+#: rc.cpp:759 rc.cpp:765 rc.cpp:771 rc.cpp:777 rc.cpp:783 rc.cpp:789
+#: rc.cpp:795 rc.cpp:801 rc.cpp:807 rc.cpp:813 rc.cpp:819 rc.cpp:825
+#: rc.cpp:831 rc.cpp:837 rc.cpp:843 rc.cpp:849 rc.cpp:855 rc.cpp:861
+#: rc.cpp:867
+msgid "QPtrList"
+msgstr "QPtrList"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:99
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:101
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:103
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:105
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:107
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:109
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:111
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:113
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:115
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:117
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:119
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:121
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:123
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:125
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:127
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:129
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:131
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:133
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:135
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:137
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:139
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:141
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:143
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:145
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:147
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:155
+#. i18n: ectx: property (text), item, widget (KHistoryComboBox, ui_listClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:352
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:354
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:356
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:358
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:360
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:362
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:364
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:366
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:368
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:370
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:372
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:374
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:376
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:378
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:380
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:382
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:384
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:386
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:388
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:390
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:392
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:394
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:396
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:398
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:400
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:408
+#. i18n: ectx: property (text), item, widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#: rc.cpp:726 rc.cpp:732 rc.cpp:738 rc.cpp:744 rc.cpp:750 rc.cpp:756
+#: rc.cpp:762 rc.cpp:768 rc.cpp:774 rc.cpp:780 rc.cpp:786 rc.cpp:792
+#: rc.cpp:798 rc.cpp:804 rc.cpp:810 rc.cpp:816 rc.cpp:822 rc.cpp:828
+#: rc.cpp:834 rc.cpp:840 rc.cpp:846 rc.cpp:852 rc.cpp:858 rc.cpp:864
+#: rc.cpp:870 rc.cpp:873 rc.cpp:1044 rc.cpp:1050 rc.cpp:1056 rc.cpp:1062
+#: rc.cpp:1068 rc.cpp:1074 rc.cpp:1080 rc.cpp:1086 rc.cpp:1092 rc.cpp:1098
+#: rc.cpp:1104 rc.cpp:1110 rc.cpp:1116 rc.cpp:1122 rc.cpp:1128 rc.cpp:1134
+#: rc.cpp:1140 rc.cpp:1146 rc.cpp:1152 rc.cpp:1158 rc.cpp:1164 rc.cpp:1170
+#: rc.cpp:1176 rc.cpp:1182 rc.cpp:1188 rc.cpp:1191
+msgid "vector"
+msgstr "भेक्टर"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:163
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelVariable)
+#: rc.cpp:876
+msgid "<b>Variable</b>"
+msgstr "<b> चल</b>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:185
+#. i18n: ectx: property (text), widget (QPushButton, ui_browseStringButton)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:530
+#. i18n: ectx: property (text), widget (QPushButton, ui_browseListButton)
+#: rc.cpp:879 rc.cpp:1353
+msgid "..."
+msgstr "..."
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:215
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:217
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:219
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:221
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:223
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:225
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:227
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:229
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:231
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:233
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:235
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:237
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:239
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:241
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:243
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:245
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:247
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:249
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:251
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:253
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:255
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:257
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:259
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:261
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:263
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#: rc.cpp:882 rc.cpp:888 rc.cpp:894 rc.cpp:900 rc.cpp:906 rc.cpp:912
+#: rc.cpp:918 rc.cpp:924 rc.cpp:930 rc.cpp:936 rc.cpp:942 rc.cpp:948
+#: rc.cpp:954 rc.cpp:960 rc.cpp:966 rc.cpp:972 rc.cpp:978 rc.cpp:984
+#: rc.cpp:990 rc.cpp:996 rc.cpp:1002 rc.cpp:1008 rc.cpp:1014 rc.cpp:1020
+#: rc.cpp:1026
+msgid "QString"
+msgstr "क्यू स्ट्रिङ"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:216
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:218
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:220
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:222
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:224
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:226
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:228
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:230
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:232
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:234
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:236
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:238
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:240
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:242
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:244
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:246
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:248
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:250
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:252
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:254
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:256
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:258
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:260
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:262
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:264
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:272
+#. i18n: ectx: property (text), item, widget (KHistoryComboBox, ui_stringClassHCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:434
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:436
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:438
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:440
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:442
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:444
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:446
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:448
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:450
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:452
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:454
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:456
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:458
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:460
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:462
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:464
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:466
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:468
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:470
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:472
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:474
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:476
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:478
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:480
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:482
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:490
+#. i18n: ectx: property (text), item, widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#: rc.cpp:885 rc.cpp:891 rc.cpp:897 rc.cpp:903 rc.cpp:909 rc.cpp:915
+#: rc.cpp:921 rc.cpp:927 rc.cpp:933 rc.cpp:939 rc.cpp:945 rc.cpp:951
+#: rc.cpp:957 rc.cpp:963 rc.cpp:969 rc.cpp:975 rc.cpp:981 rc.cpp:987
+#: rc.cpp:993 rc.cpp:999 rc.cpp:1005 rc.cpp:1011 rc.cpp:1017 rc.cpp:1023
+#: rc.cpp:1029 rc.cpp:1032 rc.cpp:1200 rc.cpp:1206 rc.cpp:1212 rc.cpp:1218
+#: rc.cpp:1224 rc.cpp:1230 rc.cpp:1236 rc.cpp:1242 rc.cpp:1248 rc.cpp:1254
+#: rc.cpp:1260 rc.cpp:1266 rc.cpp:1272 rc.cpp:1278 rc.cpp:1284 rc.cpp:1290
+#: rc.cpp:1296 rc.cpp:1302 rc.cpp:1308 rc.cpp:1314 rc.cpp:1320 rc.cpp:1326
+#: rc.cpp:1332 rc.cpp:1338 rc.cpp:1344 rc.cpp:1347
+msgid "string"
+msgstr "स्ट्रिङ"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:318
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelStringClass)
+#: rc.cpp:1035
+msgid "<p align=\"center\">String</p>"
+msgstr "<p align=\"center\"> स्ट्रिङ</p>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:334
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelListClass)
+#: rc.cpp:1038
+msgid "<p align=\"center\">List</p>"
+msgstr "<p align=\"center\"> सूची</p>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:351
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:353
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:355
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:357
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:359
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:361
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:363
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:365
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:367
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:369
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:371
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:373
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:375
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:377
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:379
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:381
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:383
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:385
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:387
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:389
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:391
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:393
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:395
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:397
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:399
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listIncludeFileHistoryCombo)
+#: rc.cpp:1041 rc.cpp:1047 rc.cpp:1053 rc.cpp:1059 rc.cpp:1065 rc.cpp:1071
+#: rc.cpp:1077 rc.cpp:1083 rc.cpp:1089 rc.cpp:1095 rc.cpp:1101 rc.cpp:1107
+#: rc.cpp:1113 rc.cpp:1119 rc.cpp:1125 rc.cpp:1131 rc.cpp:1137 rc.cpp:1143
+#: rc.cpp:1149 rc.cpp:1155 rc.cpp:1161 rc.cpp:1167 rc.cpp:1173 rc.cpp:1179
+#: rc.cpp:1185
+msgid "qptrlist.h"
+msgstr "qptrlist.h"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:416
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelGlobal)
+#: rc.cpp:1194
+msgid "<i>global?</i>"
+msgstr "<i>विश्वव्यापी?</i>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:433
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:435
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:437
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:439
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:441
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:443
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:445
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:447
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:449
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:451
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:453
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:455
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:457
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:459
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:461
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:463
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:465
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:467
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:469
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:471
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:473
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:475
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:477
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:479
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:481
+#. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
+#: rc.cpp:1197 rc.cpp:1203 rc.cpp:1209 rc.cpp:1215 rc.cpp:1221 rc.cpp:1227
+#: rc.cpp:1233 rc.cpp:1239 rc.cpp:1245 rc.cpp:1251 rc.cpp:1257 rc.cpp:1263
+#: rc.cpp:1269 rc.cpp:1275 rc.cpp:1281 rc.cpp:1287 rc.cpp:1293 rc.cpp:1299
+#: rc.cpp:1305 rc.cpp:1311 rc.cpp:1317 rc.cpp:1323 rc.cpp:1329 rc.cpp:1335
+#: rc.cpp:1341
+msgid "qstring.h"
+msgstr "qstring.h"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:508
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelClassName)
+#: rc.cpp:1350
+msgid "Class name"
+msgstr "वर्ग नाम"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:537
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelIncludeFile)
+#: rc.cpp:1356
+msgid "<i><p align=\"center\">Include file</p></i>"
+msgstr "<i><p align=\"center\"> फाइल समावेश गर्नुहोस्</p></i>"
+
+#. i18n: file: codegenerators/cpp/cppcodegenerationformbase.ui:549
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelHelpMethodBodyGen)
+#: rc.cpp:1359
+msgid "Use following for classes in generated code:"
+msgstr "सिर्जना गरिएको कोडमा वर्गहरूका लागि निम्न प्रयोग गर्नुहोस्:"
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:19
+#. i18n: ectx: property (windowTitle), widget (QWidget, CodeGenSelectPage)
+#: rc.cpp:1374
+msgid "Code Generation Selection"
+msgstr ""
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:32
+#. i18n: ectx: property (text), widget (QLabel, ui_labelListAvailable)
+#: rc.cpp:1377
+msgid "Classes Available"
+msgstr "वर्गहरू उपलब्ध छ"
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:72
+#. i18n: ectx: property (toolTip), widget (QPushButton, ui_addButton)
+#: rc.cpp:1380
+msgid "Add class for code generation"
+msgstr "कोड सिर्जनाका लागि थप्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:75
+#. i18n: ectx: property (text), widget (QPushButton, ui_addButton)
+#: rc.cpp:1383
+msgid "Add >>"
+msgstr ""
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:101
+#. i18n: ectx: property (toolTip), widget (QPushButton, ui_removeButton)
+#: rc.cpp:1386
+msgid "Remove class from Code Generation"
+msgstr "कोड सिर्जनाबाट वर्ग हटाउनुहोस्"
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:104
+#. i18n: ectx: property (text), widget (QPushButton, ui_removeButton)
+#: rc.cpp:1389
+msgid "<< Remove"
+msgstr ""
+
+#. i18n: file: codegenwizard/codegenselectpage.ui:137
+#. i18n: ectx: property (text), widget (QLabel, ui_labelListSelected)
+#: rc.cpp:1392
+msgid "Classes Selected"
+msgstr "वर्गहरू चयन गरियो"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:53
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxLanguage)
+#: rc.cpp:1401
+msgid "Language"
+msgstr "भाषा"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:71
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxFolders)
+#: rc.cpp:1404
+msgid "Folders"
+msgstr "फोल्डर"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:77
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelFolder)
+#: rc.cpp:1407
+msgid "Write all generated files to folder:"
+msgstr "फोल्डरमा सबै सिर्जना गरिएको फाइलहरू लेख्नुहोस्:"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:89
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, ui_outputDir)
+#: rc.cpp:1410
+msgid "Files generated by Code Generator will be written to this folder"
+msgstr "कोड सर्जकद्वारा सिर्जना गरिएको फाइलहरू यो फोल्डरमा लेखिनेछ"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, ui_browseOutput)
+#: rc.cpp:1413
+msgid "Bro&wse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, ui_includeHeadings)
+#: rc.cpp:1416
+msgid "&Include heading files from folder:"
+msgstr "फोल्डरबाट शीर्षक फाइलहरू समावेश गर्नुहोस्:"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:117
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, ui_headingsDir)
+#: rc.cpp:1419
+msgid ""
+"Files in this folder will be used as heading files in the generated code"
+msgstr ""
+"यो फोल्डरमा फाइलहरू सिर्जना गरिएको कोडमा शीर्षक फाइलहरू जस्तै प्रयोग गरिनेछ"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:124
+#. i18n: ectx: property (text), widget (QPushButton, ui_browseHeadings)
+#: rc.cpp:1422
+msgid "B&rowse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:143
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelOverwritePolicy)
+#: rc.cpp:1428
+msgid ""
+"If a file with the same name as the name code \n"
+"generator wants to use as output file already exists:"
+msgstr ""
+"यदि सर्जकले नाम कोडको रूपमा उही नामसँग फाइल निर्गतको रूपमा प्रयोग गर्न\n"
+"चाहन्छ भने फाइल पहिल्यै अवस्थित छ:"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:167
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, ui_radioButtonOverwrite)
+#: rc.cpp:1432
+msgid "Overwrite existing files if they exist in the destination folder"
+msgstr ""
+"यदि अवस्थित फाइलहरू गन्तब्य फोल्डरमानै रहन्छ भने अवस्थित फाइलहरू अधिलेखन "
+"गर्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:170
+#. i18n: ectx: property (text), widget (QRadioButton, ui_radioButtonOverwrite)
+#: rc.cpp:1435
+msgid "O&verwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:177
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, ui_radioButtonAsk)
+#: rc.cpp:1438
+msgid "If a file with the same name already exists, ask what to do"
+msgstr "यदि उही नामको फाइल पहिल्यै अवस्थित छ भने, के गर्ने भनेर सोध्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:180
+#. i18n: ectx: property (text), widget (QRadioButton, ui_radioButtonAsk)
+#: rc.cpp:1441
+msgid "As&k"
+msgstr "सोध्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:190
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, ui_radioButtonChangeName)
+#: rc.cpp:1444
+msgid ""
+"If a file already exists in the destination folder, select a different name "
+"to use by adding a suffix to the file name"
+msgstr ""
+"यदि फाइल गन्तब्य फोल्डरमा पहिल्यै अवस्थित छ भने, फाइलनाममा प्रत्यय थपेर "
+"प्रयोग गर्न फरक नाम चयन गर्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:193
+#. i18n: ectx: property (text), widget (QRadioButton, ui_radioButtonChangeName)
+#: rc.cpp:1447
+msgid "&Use a different name"
+msgstr "फरक नाम प्रयोग गर्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:208
+#. i18n: ectx: attribute (title), widget (QWidget, ui_tabFormatting)
+#: rc.cpp:1450
+msgid "Formatting"
+msgstr "ढाँचा"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:216
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxComment)
+#: rc.cpp:1453
+msgid "Comment Verbosity"
+msgstr "टिप्पणी भर्बोसिटी"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:222
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ui_forceDoc)
+#: rc.cpp:1456
+msgid "Write comments &for class and method documentation even if empty"
+msgstr "खाली भएता पनि वर्ग र विधि मिसिलिकरणका लागि टिप्पणीहरू लेख्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:225
+#. i18n: ectx: property (text), widget (QCheckBox, ui_forceDoc)
+#: rc.cpp:1459
+msgid "&Write documentation comments even if empty"
+msgstr "खाली भएता पनि मिसिलिकरण टिप्पणीहरू लेख्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:232
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ui_forceSections)
+#: rc.cpp:1462
+msgid ""
+"Writes comments to indicate the different sections (public, private etc) in "
+"a class, even if the sections are empty"
+msgstr ""
+"यदि सेक्सनहरू खाली भएता पनि, वर्गमा फरक सेक्सनहरू (सार्वजनिक, निजी इत्यादि) "
+"इङ्कित गर्न टिप्पणीहरू लेख्दछ"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:236
+#. i18n: ectx: property (text), widget (QCheckBox, ui_forceSections)
+#: rc.cpp:1465
+msgid ""
+"Write comments &for sections even if section \n"
+"is empty"
+msgstr ""
+"सेक्सन खाली भएता पनि सेक्सनहरूका लागि\n"
+"टिप्पणी लेख्नुहोस्"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:246
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxLines)
+#: rc.cpp:1469
+msgid "Lines"
+msgstr "रेखा"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:254
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelType)
+#: rc.cpp:1472
+msgid "Indentation type:"
+msgstr "इन्डेन्टेसन प्रकार:"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:265
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_SelectIndentationTypeBox)
+#: rc.cpp:1475
+msgid "No Indentation"
+msgstr "इन्डेन्टेसन छैन"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:270
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_SelectIndentationTypeBox)
+#: rc.cpp:1478
+msgid "Tab"
+msgstr "ट्याब"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:275
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_SelectIndentationTypeBox)
+#: rc.cpp:1481
+msgid "Space"
+msgstr "खालीस्थान"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:293
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelAmount)
+#: rc.cpp:1484
+msgid "Indentation amount:"
+msgstr "इन्डेन्टेसन रकम:"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:310
+#. i18n: ectx: property (text), widget (QLabel, ui_textLabelStyle)
+#: rc.cpp:1487
+msgid "Line ending style:"
+msgstr "रेखा समाप्ति शैली:"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:321
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_SelectEndLineCharsBox)
+#: rc.cpp:1490
+msgid "*NIX (\"\\n\")"
+msgstr "*NIX (\"\\n\")"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:326
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_SelectEndLineCharsBox)
+#: rc.cpp:1493
+msgid "Windows (\"\\r\\n\")"
+msgstr "सञ्झ्याल (\"\\r\\n\")"
+
+#. i18n: file: codegenwizard/codegenoptionspage.ui:331
+#. i18n: ectx: property (text), item, widget (KComboBox, ui_SelectEndLineCharsBox)
+#: rc.cpp:1496
+msgid "Mac (\"\\r\")"
+msgstr "म्याक (\"\\r\")"
+
+#. i18n: file: codegenwizard/codegenstatuspage.ui:29
+#. i18n: ectx: property (text), widget (QTableWidget, ui_tableWidgetStatus)
+#: rc.cpp:1499
+msgid "Class"
+msgstr "वर्ग"
+
+#. i18n: file: codegenwizard/codegenstatuspage.ui:34
+#. i18n: ectx: property (text), widget (QTableWidget, ui_tableWidgetStatus)
+#: rc.cpp:1502
+msgid "Status"
+msgstr ""
+
+#. i18n: file: codegenwizard/codegenstatuspage.ui:55
+#. i18n: ectx: property (text), widget (QPushButton, ui_pushButtonGenerate)
+#: rc.cpp:1505
+msgid "Generate"
+msgstr ""
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:67
+#. i18n: ectx: property (title), widget (KButtonGroup, ui_visibilityButtonGroup)
+#: rc.cpp:1517
+msgid "Role Visibility"
+msgstr "भूमिका दृश्यात्मकता"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:97
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pImplementationRB)
+#: rc.cpp:1529
+msgid "Implementation"
+msgstr "कार्यान्वयन"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:107
+#. i18n: ectx: property (title), widget (KButtonGroup, ui_changeabilityButtonGroup)
+#: rc.cpp:1532
+msgid "Role Changeability"
+msgstr "भूमिका परिवर्तनशीलता"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:113
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pChangeableRB)
+#: rc.cpp:1535
+msgid "Changeable"
+msgstr "परिवर्तनयोग्य"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:123
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pFrozenRB)
+#: rc.cpp:1538
+msgid "Frozen"
+msgstr "फ्रोजेन"
+
+#. i18n: file: dialogs/umlrolepropertiesbase.ui:130
+#. i18n: ectx: property (text), widget (QRadioButton, ui_pAddOnlyRB)
+#: rc.cpp:1541
+msgid "Add only"
+msgstr "थप्ने मात्र"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:32
+#. i18n: ectx: property (title), widget (Q3GroupBox, colorGroupBox)
+#: rc.cpp:1547
+msgid "Colors"
+msgstr "रङ"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:46
+#. i18n: ectx: property (text), widget (QLabel, fontLabel)
+#: rc.cpp:1550
+msgid "Font:"
+msgstr "फन्ट:"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:76
+#. i18n: ectx: property (text), widget (QLabel, paperLabel)
+#: rc.cpp:1553
+msgid "Paper:"
+msgstr "कागज:"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:106
+#. i18n: ectx: property (text), widget (QLabel, selectedLabel)
+#: rc.cpp:1556
+msgid "Selected:"
+msgstr "चयन गरिएको:"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:208
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:1559
+msgid "<p align=\"right\">UML object block:</p>"
+msgstr "<p align=\"right\">यूएमएल वस्तु खण्ड:</p>"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:224
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:1562
+msgid "<p align=\"right\">Hidden block:</p>"
+msgstr "<p align=\"right\"> लुकाइएको खण्ड:</p>"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:242
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:1565
+msgid "<p align=\"right\">Uneditable text:</p>"
+msgstr "<p align=\"right\">सम्पादन अयोग्य पाठ:</p>"
+
+#. i18n: file: dialogs/codevieweroptionsbase.ui:278
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:1568
+msgid "<p align=\"right\">Editable text:</p>"
+msgstr "<p align=\"right\"> सम्पादनयोग्य पाठ:</p>"
+
+#. i18n: file: dialogs/importprojectdlgbase.ui:23
+#. i18n: ectx: property (toolTip), widget (QLabel, kURLRequesterLabel)
+#. i18n: file: dialogs/importprojectdlgbase.ui:39
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, m_kURL)
+#: rc.cpp:1571 rc.cpp:1577
+msgid "The base directory that contains the project"
+msgstr ""
+
+#. i18n: file: dialogs/importprojectdlgbase.ui:26
+#. i18n: ectx: property (text), widget (QLabel, kURLRequesterLabel)
+#: rc.cpp:1574
+msgid "&Directory of the project:"
+msgstr ""
+
+#. i18n: file: dialogs/importprojectdlgbase.ui:50
+#. i18n: ectx: property (toolTip), widget (QLabel, languageLabel)
+#: rc.cpp:1580
+msgid "The language of the project"
+msgstr ""
+
+#. i18n: file: dialogs/importprojectdlgbase.ui:53
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: rc.cpp:1583
+msgid "Language:"
+msgstr ""
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxDiagramProperties)
+#: rc.cpp:1586
+msgid "Diagram Properties"
+msgstr "रेखाचित्र गुण"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:39
+#. i18n: ectx: property (text), widget (QLabel, ui_labelDiagramName)
+#: rc.cpp:1589
+msgid "Name:"
+msgstr "नाम:"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:82
+#. i18n: ectx: property (text), widget (QLabel, ui_labelZoom)
+#: rc.cpp:1592
+msgid "Zoom:"
+msgstr "जुम:"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:108
+#. i18n: ectx: property (text), widget (QLabel, ui_labelZoomUnit)
+#: rc.cpp:1596
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:153
+#. i18n: ectx: property (text), widget (QCheckBox, ui_checkBoxShowGrid)
+#: rc.cpp:1602
+msgid "Show &grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:160
+#. i18n: ectx: property (text), widget (QCheckBox, ui_snapToGrid)
+#: rc.cpp:1605
+msgid "Snap &to grid"
+msgstr "ग्रिडमा सटाउनुहोस्"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:168
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ui_snapComponentSizeToGrid)
+#: rc.cpp:1608
+msgid ""
+"Snap the size of the components to be a multiple of the grid spacing.\n"
+"If 'Snap to Grid' is enabled a component will always be aligned with the "
+"grid on all 4 sides."
+msgstr ""
+"ग्रिड खाली स्थानको गुणा हुनका लागि अवयवहरूको साइज सटाउनुहोस् ।\n"
+"यदि 'ग्रिडमा सटाउनुहोस्' सक्षम पारिएको छ भने अवयव सबै ४ किनारामा ग्रिडसँग "
+"सधै पङ्क्तिबद्ध गरिनेछ ।"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:171
+#. i18n: ectx: property (text), widget (QCheckBox, ui_snapComponentSizeToGrid)
+#: rc.cpp:1612
+msgid "Snap component size"
+msgstr "अवयव साइज सटाउनुहोस्"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:197
+#. i18n: ectx: property (text), widget (QLabel, ui_labelGridSpacing)
+#: rc.cpp:1615
+msgid "Grid spacing:  "
+msgstr "ग्रिड खाली स्थान:  "
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:207
+#. i18n: ectx: property (text), widget (QLabel, ui_labelX)
+#: rc.cpp:1618
+msgid "X"
+msgstr "X"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:243
+#. i18n: ectx: property (text), widget (QLabel, ui_labelY)
+#: rc.cpp:1621
+msgid "Y"
+msgstr "Y"
+
+#. i18n: file: dialogs/diagrampropertiespage.ui:282
+#. i18n: ectx: property (text), widget (QLabel, ui_labeLineWidth)
+#: rc.cpp:1624
+msgid "Line width:  "
+msgstr "रेखा चौडाइ:  "
+
+#. i18n: file: dialogs/codeviewerdialogbase.ui:20
+#. i18n: ectx: property (text), widget (QCheckBox, m_showHiddenCodeCB)
+#: rc.cpp:1630
+msgid "Show hidden blocks"
+msgstr "लुकेका खण्डहरू देखाउनुहोस्"
+
+#. i18n: file: dialogs/codeviewerdialogbase.ui:33
+#. i18n: ectx: property (text), widget (QLabel, ui_componentLabel)
+#: rc.cpp:1633
+msgid "<p align=\"center\">component name here</p>"
+msgstr "<p align=\"center\">यहाँ अवयव नाम छ</p>"
+
+#. i18n: file: dialogs/codeviewerdialogbase.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, m_highlightCheckBox)
+#: rc.cpp:1636
+msgid "Show block type"
+msgstr "खण्ड प्रकार देखाउनुहोस्"
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExportAllViewsDialogBase)
+#: rc.cpp:1639
+msgid "Export All Views"
+msgstr ""
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:25
+#. i18n: ectx: property (toolTip), widget (QLabel, kURLRequesterLabel)
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:41
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, m_kURL)
+#: rc.cpp:1642 rc.cpp:1648
+msgid "The base directory used to save the images"
+msgstr "छविहरू बचत गर्न प्रयोग गरिने आधार डाइरेक्टरी"
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:28
+#. i18n: ectx: property (text), widget (QLabel, kURLRequesterLabel)
+#: rc.cpp:1645
+msgid "&Directory to save the diagrams in:"
+msgstr "यसमा रेखाचित्रहरू बचत गर्न डाइरेक्टरी:"
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:55
+#. i18n: ectx: property (text), widget (QLabel, ui_imageTypeLabel)
+#: rc.cpp:1654
+msgid "&Image type:"
+msgstr "छवि प्रकार:"
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:71
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_useFolders)
+#: rc.cpp:1657
+msgid ""
+"Create in the target directory the same tree structure used\n"
+"in the document to store the views"
+msgstr ""
+"दृश्यहरू भण्डारण गर्न कागजातमा प्रयोग गरिएको उही ट्री\n"
+"संरचना लक्षित डाइरेक्टरीमा सिर्जना गर्नुहोस्"
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:75
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_useFolders)
+#: rc.cpp:1661
+msgid ""
+"The views are stored in folders in the document. The same tree structure "
+"used in the document to store the views can be created in the selected base "
+"directory with this option.\n"
+"Only the folders made by the user are created in the base directory (Logical "
+"view, use case view and so on are not created)."
+msgstr ""
+
+#. i18n: file: dialogs/exportallviewsdialogbase.ui:78
+#. i18n: ectx: property (text), widget (QCheckBox, m_useFolders)
+#: rc.cpp:1665
+msgid "Use &folders"
+msgstr "फोल्डरहरू प्रयोग गर्नुहोस्"
+
+#: enumliteral.cpp:105
+msgctxt "enum name"
+msgid "Name"
+msgstr ""
+
+#: package.cpp:160
+msgctxt "object name"
+msgid "Name"
+msgstr ""
+
+#: package.cpp:161
+#, kde-format
+msgid ""
+"An object with the name %1\n"
+"already exists in the package %2.\n"
+"Please enter a new name:"
+msgstr ""
+
+#: worktoolbar.cpp:300
+msgid "Object"
+msgstr "वस्तु"
+
+#: worktoolbar.cpp:301
+msgid "Synchronous Message"
+msgstr "तुल्यकालिक सन्देश"
+
+#: worktoolbar.cpp:302
+msgid "Asynchronous Message"
+msgstr "एककालीन सन्देश"
+
+#: worktoolbar.cpp:303
+msgid "Found Message"
+msgstr ""
+
+#: worktoolbar.cpp:304
+msgid "Lost Message"
+msgstr ""
+
+#: worktoolbar.cpp:305
+msgid "Combined Fragment"
+msgstr ""
+
+#: worktoolbar.cpp:306
+msgid "Precondition"
+msgstr ""
+
+#: worktoolbar.cpp:310
+msgid "Label"
+msgstr "लेबुल"
+
+#: worktoolbar.cpp:311
+msgid "Note"
+msgstr "टिपोट"
+
+#: worktoolbar.cpp:312
+msgid "Box"
+msgstr "बाकस"
+
+#: worktoolbar.cpp:317
+msgid "Directional Association"
+msgstr "दिशानिर्देशात्मक संघ"
+
+#: worktoolbar.cpp:318
+msgid "Implements"
+msgstr ""
+
+#: worktoolbar.cpp:321
+msgctxt "UML class"
+msgid "Class"
+msgstr ""
+
+#: worktoolbar.cpp:323
+msgid "Region"
+msgstr ""
+
+#: worktoolbar.cpp:326
+msgid "Send signal"
+msgstr ""
+
+#: worktoolbar.cpp:327
+msgid "Accept signal"
+msgstr ""
+
+#: worktoolbar.cpp:328
+msgid "Accept time event"
+msgstr ""
+
+#: worktoolbar.cpp:329
+msgid "Fork/Join"
+msgstr "काँटा/जोड्नुहोस्"
+
+#: worktoolbar.cpp:338
+msgid "Deep History"
+msgstr "गहन इतिहास"
+
+#: worktoolbar.cpp:339
+msgid "Shallow History"
+msgstr "उथला इतिहास"
+
+#: worktoolbar.cpp:340
+msgctxt "join states"
+msgid "Join"
+msgstr ""
+
+#: worktoolbar.cpp:341
+msgid "Fork"
+msgstr "काँटा"
+
+#: worktoolbar.cpp:342
+msgid "Junction"
+msgstr "जङ्कसन"
+
+#: worktoolbar.cpp:343
+msgctxt "state choice"
+msgid "Choice"
+msgstr ""
+
+#: worktoolbar.cpp:346
+msgid "And Line"
+msgstr ""
+
+#: worktoolbar.cpp:348
+msgid "Activity Transition"
+msgstr "क्रियाकलाप सङ्क्रमण"
+
+#: worktoolbar.cpp:350
+msgctxt "state diagram"
+msgid "State"
+msgstr ""
+
+#: worktoolbar.cpp:352
+msgid "Final Activity"
+msgstr ""
+
+#: worktoolbar.cpp:353
+msgid "Pin"
+msgstr ""
+
+#: worktoolbar.cpp:355
+msgid "Message"
+msgstr "सन्देश"
+
+#: worktoolbar.cpp:357
+msgid "Object Node"
+msgstr ""
+
+#: worktoolbar.cpp:358
+msgid "Pre/Post condition"
+msgstr ""
+
+#: worktoolbar.cpp:372
+msgctxt "selection arrow"
+msgid "Select"
+msgstr ""
+
+#: classifier.cpp:264
+msgid ""
+"An operation with the same name and signature already exists. You can not "
+"add it again."
+msgstr ""
+"एउटा नाम र हस्ताक्षर भएको एउटा सञ्चालन पहिल्यै अवस्थित छ । तपाईँ यसलाई फेरि "
+"थप्न सक्नुहुन्न ।"
+
+#: operation.cpp:273
+msgid "new_parameter"
+msgstr "नयाँ परामिति"
+
+#: model_utils.cpp:406
+msgid "new_actor"
+msgstr "new_actor"
+
+#: model_utils.cpp:408
+msgid "new_usecase"
+msgstr "new_usecase"
+
+#: model_utils.cpp:410
+msgid "new_package"
+msgstr "new_package"
+
+#: model_utils.cpp:412
+msgid "new_component"
+msgstr "new_component"
+
+#: model_utils.cpp:414
+msgid "new_node"
+msgstr "new_node"
+
+#: model_utils.cpp:416
+msgid "new_artifact"
+msgstr "new_artifact"
+
+#: model_utils.cpp:418
+msgid "new_interface"
+msgstr "new_interface"
+
+#: model_utils.cpp:420
+msgid "new_datatype"
+msgstr "new_datatype"
+
+#: model_utils.cpp:422
+msgid "new_enum"
+msgstr "new_enum"
+
+#: model_utils.cpp:424
+msgid "new_entity"
+msgstr "new_entity"
+
+#: model_utils.cpp:426
+msgid "new_folder"
+msgstr "new_folder"
+
+#: model_utils.cpp:430
+msgid "new_category"
+msgstr ""
+
+#: model_utils.cpp:432
+msgid "new_object"
+msgstr "new_object"
+
+#: model_utils.cpp:833
+msgid "OK"
+msgstr ""
+
+#: model_utils.cpp:833
+msgctxt "parse status"
+msgid "Empty"
+msgstr ""
+
+#: model_utils.cpp:833
+msgid "Malformed argument"
+msgstr "विकृत गरिएको तर्क"
+
+#: model_utils.cpp:834
+msgid "Unknown argument type"
+msgstr "अज्ञात तर्क प्रकार"
+
+#: model_utils.cpp:834
+msgid "Illegal method name"
+msgstr "गैरकानूनी विधि नाम"
+
+#: model_utils.cpp:835
+msgid "Unknown return type"
+msgstr "अज्ञात फर्कने प्रकार"
+
+#: model_utils.cpp:835
+msgid "Unspecified error"
+msgstr "निर्दिष्ट नगरिएको त्रुटि"
+
+#: model_utils.cpp:1707
+msgid "Class Diagram"
+msgstr "वर्ग रेखाचित्र"
+
+#: model_utils.cpp:1709
+msgid "Use Case Diagram"
+msgstr "केस रेखाचित्र प्रयोग गर्नुहोस्"
+
+#: model_utils.cpp:1711
+msgid "Sequence Diagram"
+msgstr "अनुक्रम रेखाचित्र"
+
+#: model_utils.cpp:1713
+msgid "Collaboration Diagram"
+msgstr "सहकार्य रेखाचित्र"
+
+#: model_utils.cpp:1715
+msgid "State Diagram"
+msgstr "स्थिति रेखाचित्र"
+
+#: model_utils.cpp:1717
+msgid "Activity Diagram"
+msgstr "क्रियाकलाप रेखाचित्र"
+
+#: model_utils.cpp:1719
+msgid "Component Diagram"
+msgstr "अवयव रेखाचित्र"
+
+#: model_utils.cpp:1721
+msgid "Deployment Diagram"
+msgstr "परिनियोजन रेखाचित्र"
+
+#: model_utils.cpp:1723
+msgid "Entity Relationship Diagram"
+msgstr ""
+
+#: model_utils.cpp:1725
+msgid "No Diagram"
+msgstr "रेखाचित्र छैन"
+
+#: object_factory.cpp:189
+msgctxt "UMLObject name"
+msgid "Name"
+msgstr ""
+
+#: object_factory.cpp:200
+msgid ""
+"This is a reserved keyword for the language of the configured code generator."
+msgstr ""
+"यो कन्फिगर गरिएको कोड सर्जकको भाषाका लागि सञ्चित गरिएको शब्दकुञ्जी हो ।"
+
+#: object_factory.cpp:201
+msgid "Reserved Keyword"
+msgstr "सञ्चित गरिएको शब्दकुञ्जी"
+
+#: codeimport/kdevcppparser/parser.cpp:38
+#: codeimport/kdevcppparser/parser.cpp:1925
+#, kde-format
+msgid "'%1' expected found '%2'"
+msgstr ""
+
+#: codeimport/kdevcppparser/parser.cpp:94
+msgid "<eof>"
+msgstr "<eof>"
+
+#: codeimport/kdevcppparser/parser.cpp:278
+#: codeimport/kdevcppparser/parser.cpp:2672
+#: codeimport/kdevcppparser/parser.cpp:2880
+#: codeimport/kdevcppparser/parser.cpp:2886
+msgid "expression expected"
+msgstr "अभिव्यक्ति अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:553
+msgid "Declaration syntax error"
+msgstr "घोषणा वाक्य संरचना त्रुटि"
+
+#: codeimport/kdevcppparser/parser.cpp:598
+#: codeimport/kdevcppparser/parser.cpp:2767
+#: codeimport/kdevcppparser/parser.cpp:3223
+msgid "} expected"
+msgstr "} अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:640
+msgid "namespace expected"
+msgstr "नामस्थान अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:644
+msgid "{ expected"
+msgstr "{ अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:718
+#: codeimport/kdevcppparser/parser.cpp:2970
+msgid "Namespace name expected"
+msgstr "नामस्थान नाम अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:826
+msgid "Need a type specifier to declare"
+msgstr "घोषणा गर्न प्रकार निर्धारक आवश्यक छ"
+
+#: codeimport/kdevcppparser/parser.cpp:900
+msgid "expected a declaration"
+msgstr "घोषणा अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:1173
+#: codeimport/kdevcppparser/parser.cpp:2160
+msgid "Constant expression expected"
+msgstr "स्थित अभिव्यक्ति अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:1243
+#: codeimport/kdevcppparser/parser.cpp:1339
+msgid "')' expected"
+msgstr "')' अपेक्षित गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:1411
+#: codeimport/kdevcppparser/parser.cpp:1875
+#: codeimport/kdevcppparser/parser.cpp:2377
+msgid "} missing"
+msgstr "} हराइरहेको छ"
+
+#: codeimport/kdevcppparser/parser.cpp:2055
+msgid "Member initializers expected"
+msgstr "सदस्य सुरूआतकर्ताहरू अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2217
+msgid "Base class specifier expected"
+msgstr "आधार वर्ग निर्धारक अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2242
+msgid "Initializer clause expected"
+msgstr "सुरूआतकर्ता क्लज अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2286
+msgid "Identifier expected"
+msgstr "पहिचायक अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2322
+msgid "Type id expected"
+msgstr "प्रकार आईडी अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2359
+msgid "Class name expected"
+msgstr "वर्ग नाम अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2632
+#: codeimport/kdevcppparser/parser.cpp:2794
+#: codeimport/kdevcppparser/parser.cpp:2837
+#: codeimport/kdevcppparser/parser.cpp:3283
+msgid "condition expected"
+msgstr "अवस्था अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2640
+#: codeimport/kdevcppparser/parser.cpp:2663
+#: codeimport/kdevcppparser/parser.cpp:2802
+#: codeimport/kdevcppparser/parser.cpp:2813
+msgid "statement expected"
+msgstr "कथन अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:2700
+msgid "for initialization expected"
+msgstr "थालनीका लागि अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/parser.cpp:3273
+msgid "catch expected"
+msgstr "समाउन अपेक्षा गरियो"
+
+#: codeimport/kdevcppparser/errors.cpp:23
+msgid "Internal Error"
+msgstr "आन्तरिक त्रुटि"
+
+#: codeimport/kdevcppparser/errors.cpp:24
+#, kde-format
+msgid "Syntax Error before '%1'"
+msgstr "'%1' अघि वाक्य संरचना त्रुटि"
+
+#: codeimport/kdevcppparser/errors.cpp:25
+#, kde-format
+msgid "Parse Error before '%1'"
+msgstr "'%1' अघि पद वर्णन त्रुटि"
+
+#: codeimport/classimport.cpp:43
+#, kde-format
+msgid "Importing file: %1 Progress: %2/%3"
+msgstr "फाइल आयात गर्दै: %1 प्रगति: %2/%3"
+
+#: codeimport/classimport.cpp:48
+msgctxt "ready to status bar"
+msgid "Ready."
+msgstr ""
+
+#: codeimport/import_utils.cpp:215
+#, kde-format
+msgid "Is the scope %1 a namespace or a class?"
+msgstr "क्षेत्र %1 नामस्थान हो कि वर्ग हो ?"
+
+#: codeimport/import_utils.cpp:216
+msgid "C++ Import Requests Your Help"
+msgstr "C++ आयातले तपाईँको मद्दत अनुरोध गर्दछ"
+
+#: codeimport/import_utils.cpp:217
+msgctxt "namespace scope"
+msgid "Namespace"
+msgstr ""
+
+#: codeimport/import_utils.cpp:217
+msgctxt "class scope"
+msgid "Class"
+msgstr ""

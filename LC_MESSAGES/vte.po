@@ -1,0 +1,112 @@
+# translation of vte.HEAD.ne.po to Nepali
+# Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: vte.HEAD.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-10-06 10:12+0000\n"
+"PO-Revision-Date: 2009-07-07 11:21+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:23+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/iso2022.c:791 ../src/iso2022.c:799 ../src/iso2022.c:830
+#: ../src/vte.c:1840
+#, c-format
+msgid "Unable to convert characters from %s to %s."
+msgstr "%s बाट %s मा क्यारेक्टरहरू रूपान्तरण गर्न असक्षम ।"
+
+#: ../src/iso2022.c:1540
+#, c-format
+msgid "Attempt to set invalid NRC map '%c'."
+msgstr "अवैध एनआरसी मानचित्र '%c' सेट गर्न प्रयास गर्नुहोस् ।"
+
+#. Application signalled an "identified coding system" we haven't heard of.  See ECMA-35 for gory details.
+#: ../src/iso2022.c:1570
+msgid "Unrecognized identified coding system."
+msgstr "अपरिचित कोडिङ प्रणाली ।"
+
+#: ../src/iso2022.c:1629 ../src/iso2022.c:1656
+#, c-format
+msgid "Attempt to set invalid wide NRC map '%c'."
+msgstr "अवैध फराकिलो एनआरसी मानचित्र '%c' सेट गर्न प्रयास गर्नुहोस् ।"
+
+#. Give the user some clue as to why session logging is not
+#. * going to work (assuming we can open a pty using some other
+#. * method).
+#: ../src/pty.c:879
+#, c-format
+msgid "can not run %s"
+msgstr "%s चलाउन सकिँदैन"
+
+#: ../src/reaper.c:136
+msgid "Error creating signal pipe."
+msgstr "साङ्केतिक पाइप सिर्जना गर्दा त्रुटि ।"
+
+#: ../src/trie.c:414
+#, c-format
+msgid "Duplicate (%s/%s)!"
+msgstr "नक्कली (%s/%s)!"
+
+#: ../src/vte.c:1227
+#, c-format
+msgid "Error compiling regular expression \"%s\"."
+msgstr "नियमित अभिव्यक्ति कम्पाइल गर्दा त्रुटि \"%s\" ।"
+
+#: ../src/vte.c:2701 ../src/vte.c:2706
+#, c-format
+msgid "No handler for control sequence `%s' defined."
+msgstr "नियन्त्रण अनुक्रम `%s' का लागि कुनै ह्यान्डलर परिभाषित गरिएको छैन ।"
+
+#. Translators: %s is replaced with error message returned by strerror().
+#: ../src/vte.c:3671
+#, c-format
+msgid "Error reading from child: %s."
+msgstr "शाखाबाट पढ्दा त्रुटि: %s."
+
+#: ../src/vte.c:3787
+msgid "Unable to send data to child, invalid charset convertor"
+msgstr "शाखामा डेटा पठाउन असक्षम, अवैध क्यारेक्टर सेट रूपान्तरक"
+
+#: ../src/vte.c:3798 ../src/vte.c:4705
+#, c-format
+msgid "Error (%s) converting data for child, dropping."
+msgstr "शाखाका लागि डेटा रूपान्तरण गर्दा, छोड्दा त्रुटि (%s) ।"
+
+#: ../src/vte.c:6941
+#, c-format
+msgid "Error reading PTY size, using defaults: %s."
+msgstr "पूर्वनिर्धारित प्रयोग गरेर, पीटीवाई साइज पढ्दा त्रुटि: %s."
+
+#: ../src/vte.c:6977
+#, c-format
+msgid "Error setting PTY size: %s."
+msgstr "पीटीवाई साइज सेट गर्दा त्रुटि: %s."
+
+#. Aaargh.  We're screwed.
+#: ../src/vte.c:11451
+msgid "_vte_conv_open() failed setting word characters"
+msgstr "शब्द क्यारेक्टर सेटिङ गर्दा _vte_conv_open() असफल भयो"
+
+#: ../src/vteseq.c:3929
+#, c-format
+msgid "Got unexpected (key?) sequence `%s'."
+msgstr "अनपेक्षित (key?) अनुक्रम `%s' प्राप्त भयो ।"
+
+#. Bail back to normal mode.
+#: ../src/vteapp.c:780
+msgid "Could not open console.\n"
+msgstr "कन्सोल खोल्न सकिएन ।\n"
+
+#: ../src/vteapp.c:844
+msgid "Could not parse the geometry spec passed to --geometry"
+msgstr "ज्यामितिमा पास गरिएको ज्यामिति स्पेक पद वर्णन गर्न सकिएन"
+
+#: ../src/vteglyph.c:562
+#, c-format
+msgid "Unknown pixel mode %d.\n"
+msgstr "अज्ञात पिक्सेल मोड %d ।\n"

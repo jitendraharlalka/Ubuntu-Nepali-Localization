@@ -1,0 +1,381 @@
+# translation of ktexteditor_plugins.po to Nepali
+#
+# Pawan Chitrakar  <pchitrakar@gmail.com>, 2006.
+# Nabin Gautam <nabingautam2001@yahoo.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktexteditor_plugins\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 12:38+0000\n"
+"PO-Revision-Date: 2009-07-16 09:37+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:47+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: autobrace/autobrace.cpp:54
+msgid ""
+"The autobrace plugin supersedes the Kate-internal \"Auto Brackets\" "
+"feature.\n"
+"The setting was automatically disabled for this document."
+msgstr ""
+
+#: autobrace/autobrace.cpp:56
+msgid "Auto brackets feature disabled"
+msgstr ""
+
+#: kdatatool/kate_kdatatool.cpp:38
+msgid "DataTool"
+msgstr ""
+
+#: kdatatool/kate_kdatatool.cpp:38
+msgid "Data tool"
+msgstr ""
+
+#: kdatatool/kate_kdatatool.cpp:78
+msgid "Data Tools"
+msgstr "डेटा उपकरण"
+
+#: kdatatool/kate_kdatatool.cpp:150 kdatatool/kate_kdatatool.cpp:173
+msgid "(not available)"
+msgstr "(उपलब्ध छैन)"
+
+#: kdatatool/kate_kdatatool.cpp:182
+msgid ""
+"Data tools are only available when text is selected, or when the right mouse "
+"button is clicked over a word. If no data tools are offered even when text "
+"is selected, you need to install them. Some data tools are part of the "
+"KOffice package."
+msgstr ""
+"पाठ चयन गरिएमा वा एउटा शब्द माथि माउसको दायाँ बटन क्लिक गरिएमा मात्र, डेटा "
+"उपकरणहरू उपलब्ध हुन्छन् । पाठ चयन गरिएको भएता पनि यदि तपाईँले डेटा उपकरण "
+"प्रस्ताव नगरेमा तिनीहरूलाई स्थापना गर्नुपर्दछ । केही डेटा उपकरणहरू केडीई "
+"अफिस प्याकेजका भाग हुन् ।"
+
+#: insertfile/insertfileplugin.cpp:42
+msgid "Insert File"
+msgstr ""
+
+#: insertfile/insertfileplugin.cpp:88
+msgid "Insert File..."
+msgstr "फाइल घुसाउनुहोस्..."
+
+#: insertfile/insertfileplugin.cpp:100
+msgid "Choose File to Insert"
+msgstr "घुसाउनका लागि फाइल रोज्नुहोस्"
+
+#: insertfile/insertfileplugin.cpp:101
+msgid "&Insert"
+msgstr "घुसाउनुहोस्"
+
+#: insertfile/insertfileplugin.cpp:130
+msgid ""
+"Failed to load file:\n"
+"\n"
+msgstr ""
+"फाइल लोड गर्न असफल:\n"
+"\n"
+
+#: insertfile/insertfileplugin.cpp:130 insertfile/insertfileplugin.cpp:151
+#: insertfile/insertfileplugin.cpp:173
+msgid "Insert File Error"
+msgstr "फाइल त्रुटि घुसाउनुहोस्"
+
+#: insertfile/insertfileplugin.cpp:144
+#, kde-format
+msgid ""
+"<p>The file <strong>%1</strong> does not exist or is not readable, "
+"aborting.</p>"
+msgstr ""
+
+#: insertfile/insertfileplugin.cpp:148
+#, kde-format
+msgid "<p>Unable to open file <strong>%1</strong>, aborting.</p>"
+msgstr ""
+
+#: insertfile/insertfileplugin.cpp:171
+#, kde-format
+msgid "<p>File <strong>%1</strong> had no contents.</p>"
+msgstr ""
+
+#: pythonencoding/python_encoding.cpp:35
+msgid "PythonEncoding"
+msgstr ""
+
+#: pythonencoding/python_encoding.cpp:35
+msgid "Python Encoding check"
+msgstr ""
+
+#: autobookmarker/autobookmarker.cpp:92
+msgid "AutoBookmarks"
+msgstr "स्वचालित पुस्तकचिनोहरू"
+
+#: autobookmarker/autobookmarker.cpp:103
+msgid "Configure AutoBookmarks"
+msgstr "स्वचालित पुस्तकचिनोहरू कन्फिगर गर्नुहोस्"
+
+#: autobookmarker/autobookmarker.cpp:280
+msgid "Edit Entry"
+msgstr "प्रविष्टि सम्पादन गर्नुहोस्"
+
+#: autobookmarker/autobookmarker.cpp:288
+msgid "&Pattern:"
+msgstr "बाँन्की:"
+
+#: autobookmarker/autobookmarker.cpp:294
+msgid "<p>A regular expression. Matching lines will be bookmarked.</p>"
+msgstr ""
+"<p> एउटा नियमित अभिव्यक्ति । मिल्दो रेखाहरू पुस्तकचिनो गरिनेछन् ।</p>"
+
+#: autobookmarker/autobookmarker.cpp:298
+msgid "Case &sensitive"
+msgstr "केस सम्वेदनशील"
+
+#: autobookmarker/autobookmarker.cpp:302
+msgid ""
+"<p>If enabled, the pattern matching will be case sensitive, otherwise "
+"not.</p>"
+msgstr ""
+"<p>यदि सक्षम पारियोो भने, मिल्दो बँान्की केस सम्वेदनशील हुनेछ, अन्यथा हुदैन "
+"।</p>"
+
+#: autobookmarker/autobookmarker.cpp:305
+msgid "&Minimal matching"
+msgstr "न्यूनतम मिल्दोपना"
+
+#: autobookmarker/autobookmarker.cpp:309
+msgid ""
+"<p>If enabled, the pattern matching will use minimal matching; if you do not "
+"know what that is, please read the appendix on regular expressions in the "
+"kate manual.</p>"
+msgstr ""
+"<p> यदि सक्षम पारियो भने, मिल्दो बाँन्की न्यून मिल्दोपनामा प्रयोग हुनेछ; "
+"तपाईँले बुझ्नु भएन भने कृपया केट मेनुअलको नियमित अभिव्यक्तिमा परिशिष्ट "
+"पढ्नुहोस् ।</p>"
+
+#: autobookmarker/autobookmarker.cpp:313
+msgid "&File mask:"
+msgstr "फाइल मास्क:"
+
+#: autobookmarker/autobookmarker.cpp:319
+msgid ""
+"<p>A list of filename masks, separated by semicolons. This can be used to "
+"limit the usage of this entity to files with matching names.</p><p>Use the "
+"wizard button to the right of the mimetype entry below to easily fill out "
+"both lists.</p>"
+msgstr ""
+"<p>अर्धविरामद्वारा विभाजन गरिएको, फाइलनाम मास्कहरुको सूची । मिल्दो नामहरूसँग "
+"फाइलहरुको अस्तित्व सिमाङ्कन गर्न यसलाई प्रयोग गरिन्छ ।</p><p>दुवै सूचीहरू "
+"सजिलै भर्न माइम प्रकार प्रविष्टि तल विजार्डको दायाँ बटन प्रयोग गर्नुहोस् "
+"।</p>"
+
+#: autobookmarker/autobookmarker.cpp:324
+msgid "MIME &types:"
+msgstr "माइम प्रकारहरू:"
+
+#: autobookmarker/autobookmarker.cpp:330
+msgid ""
+"<p>A list of mime types, separated by semicolon. This can be used to limit "
+"the usage of this entity to files with matching mime types.</p><p>Use the "
+"wizard button on the right to get a list of existing file types to choose "
+"from, using it will fill in the file masks as well.</p>"
+msgstr ""
+"<p>अर्धविरामद्वारा विभाजित गरिएको माइम प्रकारहरुको एउटा सूची । मिल्दो माइम "
+"प्रकारहरूसँग फाइलहरूमा अस्तित्वको उपयोगको सिमाङ्कन गर्न यसलाई प्रयोग गर्न "
+"सकिन्छ ।</p><p> यसबाट रोज्न अवस्थित फाइल प्रकारहरूको सूची प्राप्त गर्न "
+"दायाँको विजार्ड बटन प्रयोग गर्नुहोस् साथै यसलाई प्रयोग गर्दा यो फाइल "
+"मास्कहरूमा भरिने छ । </p>"
+
+#: autobookmarker/autobookmarker.cpp:340
+msgid ""
+"<p>Click this button to display a checkable list of mimetypes available on "
+"your system. When used, the file masks entry above will be filled in with "
+"the corresponding masks.</p>"
+msgstr ""
+"<p> तपाईँको प्रणालीमा उपलब्ध जाँचयोग्य माइम प्रकारहरूको सूची प्रदर्शित गर्न "
+"यो बटन थिच्नुहोस् । जब प्रयोग गरिन्छ, फाइल मास्कहरू प्रविष्टि माथि "
+"सम्बन्धितमास्कहरूसँग भरिने छ ।</p>"
+
+#: autobookmarker/autobookmarker.cpp:365
+msgid ""
+"Select the MimeTypes for this pattern.\n"
+"Please note that this will automatically edit the associated file extensions "
+"as well."
+msgstr ""
+"यो बाँन्कीका लागि माइम प्रकारहरू चयन गर्नुहोस् ।\n"
+"कृपया याद गर्नुहोस् कि यसले स्वचालित रूपम सम्बन्धित फाइल विस्तारहरुमा "
+"सम्पादन गर्नेछ ।"
+
+#: autobookmarker/autobookmarker.cpp:367
+msgid "Select Mime Types"
+msgstr "माइम प्रकारहरू चयन गर्नुहोस्"
+
+#: autobookmarker/autobookmarker.cpp:384
+msgid "&Patterns"
+msgstr "बाँन्की"
+
+#: autobookmarker/autobookmarker.cpp:387
+msgid "Pattern"
+msgstr "बाँन्की"
+
+#: autobookmarker/autobookmarker.cpp:388
+msgid "Mime Types"
+msgstr "माइम प्रकार"
+
+#: autobookmarker/autobookmarker.cpp:389
+msgid "File Masks"
+msgstr "फाइल मास्कहरू"
+
+#: autobookmarker/autobookmarker.cpp:393
+msgid ""
+"<p>This list shows your configured autobookmark entities. When a document is "
+"opened, each entity is used in the following way:<p><ol><li>The entity is "
+"dismissed, if a mime and/or filename mask is defined, and neither matches "
+"the document.</li><li>Otherwise each line of the document is tried against "
+"the pattern, and a bookmark is set on matching lines.</li></ol><p>Use the "
+"buttons below to manage your collection of entities.</p>"
+msgstr ""
+
+#: autobookmarker/autobookmarker.cpp:404
+msgid "&New..."
+msgstr "नयाँ..."
+
+#: autobookmarker/autobookmarker.cpp:407
+msgid "Press this button to create a new autobookmark entity."
+msgstr "नयाँ स्वचालित पुस्तकचिनो अस्तित्व सिर्जना गर्न यो बटन थिच्नुहोस् ।"
+
+#: autobookmarker/autobookmarker.cpp:409
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#: autobookmarker/autobookmarker.cpp:412
+msgid "Press this button to delete the currently selected entity."
+msgstr "हालै चयन गरिएको अस्तित्व मेट्न यो बटन थिच्नुहोस् ।"
+
+#: autobookmarker/autobookmarker.cpp:414
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: autobookmarker/autobookmarker.cpp:417
+msgid "Press this button to edit the currently selected entity."
+msgstr "हालै चयन गरिएको अस्तित्व सम्पादन गर्न यो बटन थिच्नुहोस् ।"
+
+#: timedate/timedate_config.cpp:38
+msgid ""
+"%y\t2-digit year excluding century (00 - 99)\n"
+"%Y\tfull year number\n"
+"%:m\tmonth number, without leading zero (1 - 12)\n"
+"%m\tmonth number, 2 digits (01 - 12)\n"
+"%b\tabbreviated month name\n"
+"%B\tfull month name\n"
+"%e\tday of the month (1 - 31)\n"
+"%d\tday of the month, 2 digits (01 - 31)\n"
+"%a\tabbreviated weekday name\n"
+"%A\tfull weekday name\n"
+"\n"
+"%H\thour in the 24 hour clock, 2 digits (00 - 23)\n"
+"%k\thour in the 24 hour clock, without leading zero (0 - 23)\n"
+"%I\thour in the 12 hour clock, 2 digits (01 - 12)\n"
+"%l\thour in the 12 hour clock, without leading zero (1 - 12)\n"
+"%M\tminute, 2 digits (00 - 59)\n"
+"%S\tseconds (00 - 59)\n"
+"%P\t\"am\" or \"pm\"\n"
+"%p\t\"AM\" or \"PM\"\n"
+msgstr ""
+
+#: timedate/timedate_config.cpp:70 timedate/timedate.cpp:55
+msgctxt ""
+"This is a localized string for default time & date printing on kate "
+"document.%d means day in XX format.%m means month in XX format.%Y means year "
+"in XXXX format.%H means hours in XX format.%M means minutes in XX "
+"format.Please, if in your language time or date is written in a different "
+"order, change it here"
+msgid "%d-%m-%Y %H:%M"
+msgstr ""
+
+#: timedate/timedate_config.cpp:74
+msgid "Format"
+msgstr ""
+
+#: timedate/timedate.cpp:124
+msgid "Insert Time && Date"
+msgstr ""
+
+#: exporter/exporterpluginview.cpp:56
+msgid "Copy as &HTML"
+msgstr ""
+
+#: exporter/exporterpluginview.cpp:57
+msgid ""
+"Use this command to copy the currently selected text as HTML to the system "
+"clipboard."
+msgstr ""
+
+#: exporter/exporterpluginview.cpp:61
+msgid "E&xport as HTML..."
+msgstr ""
+
+#: exporter/exporterpluginview.cpp:62
+msgid ""
+"This command allows you to export the current document with all highlighting "
+"information into a HTML document."
+msgstr ""
+
+#: exporter/exporterpluginview.cpp:100
+msgid "Export File as HTML"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr " ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,"
+
+#. i18n: file: insertfile/ktexteditor_insertfileui.rc:4
+#. i18n: ectx: Menu (tools)
+#. i18n: file: timedate/timedateui.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:5 rc.cpp:8
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: exporter/ktexteditor_exporterui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:11
+msgid "&File"
+msgstr ""
+
+#. i18n: file: exporter/ktexteditor_exporterui.rc:9
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:14
+msgid "&Edit"
+msgstr ""
+
+#: pythonencoding/python_encoding.h:66
+#, kde-format
+msgid ""
+"You are trying to save a python file as non ASCII, without specifiying a "
+"correct source encoding line for encoding \"%1\""
+msgstr ""
+
+#: pythonencoding/python_encoding.h:67
+msgid "No encoding header"
+msgstr ""
+
+#: pythonencoding/python_encoding.h:68
+#, kde-format
+msgid "Insert: %1"
+msgstr ""
+
+#: pythonencoding/python_encoding.h:69
+msgid "Save Nevertheless"
+msgstr ""

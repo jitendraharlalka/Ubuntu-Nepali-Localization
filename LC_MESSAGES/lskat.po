@@ -1,0 +1,413 @@
+# translation of lskat.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: lskat\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:45+0000\n"
+"PO-Revision-Date: 2010-04-11 12:00+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:27+0000\n"
+
+#: config_two.cpp:45
+msgctxt "Default player name"
+msgid "Alice"
+msgstr "एलाइस"
+
+#: config_two.cpp:46
+msgctxt "Default player name"
+msgid "Bob"
+msgstr "बब"
+
+#: deck.cpp:168
+msgid "no valid card"
+msgstr "बैध कार्ड छैन"
+
+#: deck.cpp:175 deck.cpp:187
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: deck.cpp:176
+msgctxt "suite name"
+msgid "Clubs"
+msgstr "चिडी"
+
+#: deck.cpp:177
+msgctxt "suite name"
+msgid "Spades"
+msgstr "हुकुम"
+
+#: deck.cpp:178
+msgctxt "suite name"
+msgid "Hearts"
+msgstr "पाना"
+
+#: deck.cpp:179
+msgctxt "suite name"
+msgid "Diamonds"
+msgstr "ईँट"
+
+#: deck.cpp:180
+msgctxt "trump name"
+msgid "Grand"
+msgstr "ग्रान्ड"
+
+#: deck.cpp:188
+msgctxt "card name"
+msgid "Ace"
+msgstr "एक्का"
+
+#: deck.cpp:189
+msgctxt "card name"
+msgid "King"
+msgstr "बास्सा"
+
+#: deck.cpp:190
+msgctxt "card name"
+msgid "Queen"
+msgstr "मिस्सि"
+
+#: deck.cpp:191
+msgctxt "card name"
+msgid "Jack"
+msgstr "गुलाम"
+
+#: deck.cpp:192
+msgctxt "card name"
+msgid "Ten"
+msgstr "दहल"
+
+#: deck.cpp:193
+msgctxt "card name"
+msgid "Nine"
+msgstr "नहल"
+
+#: deck.cpp:194
+msgctxt "card name"
+msgid "Eight"
+msgstr "अठ्ठा"
+
+#: deck.cpp:195
+msgctxt "card name"
+msgid "Seven"
+msgstr "सत्ता"
+
+#: deck.cpp:205
+#, kde-format
+msgctxt "eg jack of clubs"
+msgid "%1 of %2"
+msgstr "%2 को %1"
+
+#: display_intro.cpp:112
+msgctxt "Title of the game - line 1"
+msgid "Lieutenant Skat"
+msgstr "लेफ्टिनेन्ट स्क्याट"
+
+#: display_intro.cpp:113
+msgctxt "Title of the game - line 2"
+msgid "for"
+msgstr "तपाईँका लागि"
+
+#: display_intro.cpp:114
+msgctxt "Title of the game - line 3"
+msgid "K D E"
+msgstr "केडीई"
+
+#: display_two.cpp:401
+msgctxt "Resulting score of a game with no point"
+msgid "no point"
+msgstr "कुनै अङ्क छैन"
+
+#: display_two.cpp:403
+#, kde-format
+msgctxt "Resulting score of a game between 1 and 4"
+msgid "%1 point"
+msgid_plural "%1 points"
+msgstr[0] "%1 अङ्क"
+msgstr[1] "%1 अङ्क"
+
+#: engine_two.cpp:262
+msgid "Game was ended - no winner"
+msgstr "खेल समाप्त भयो - कोही विजेता भएन्"
+
+#: engine_two.cpp:271
+msgid "Game is drawn"
+msgstr "खेल बराबर भएको छ"
+
+#: engine_two.cpp:277
+#, kde-format
+msgid "Player %1 won "
+msgstr "खेलाडी %1 विजयी भयो "
+
+#: engine_two.cpp:284 engine_two.cpp:304
+#, kde-format
+msgid "%1 won with 90 points. Super!"
+msgstr "%1 ले ९० पोइन्टले विजयी भयो । राम्रो!"
+
+#: engine_two.cpp:290 engine_two.cpp:310
+#, kde-format
+msgid "%1 won to nil. Congratulations!"
+msgstr "%1 ले शून्यमा जित्यो । बधाई छ!"
+
+#: engine_two.cpp:297
+#, kde-format
+msgid "Player 2 - %1 won "
+msgstr "खेलाडी 2 - %1 विजयी भयो "
+
+#: engine_two.cpp:373
+msgid "Game ended"
+msgstr "खेल समाप्त भयो"
+
+#: main.cpp:69
+msgid "LSkat"
+msgstr "एल स्क्याट"
+
+#: main.cpp:71
+msgid "LSkat: A desktop card game"
+msgstr ""
+
+#: main.cpp:73
+msgid "(c) 1995-2007, Martin Heni"
+msgstr "(c) 1995-2007, मार्टिन हेनी"
+
+#: main.cpp:77
+msgid "Martin Heni"
+msgstr "मार्टिन हेनी"
+
+#: main.cpp:77
+msgid "Game design and code"
+msgstr ""
+
+#: main.cpp:78
+msgid "Eugene Trounev"
+msgstr ""
+
+#: main.cpp:78
+msgid "Graphics"
+msgstr "ग्राफिक्स्"
+
+#: main.cpp:80
+msgid "Benjamin Meyer"
+msgstr "बेन्जामिन मेयर"
+
+#: main.cpp:80
+msgid "Code Improvements"
+msgstr "सङ्केत सुधार"
+
+#: main.cpp:86
+msgid "Enter debug level"
+msgstr "त्रुटि सच्याउने स्तर प्रविष्ट गर्नुहोस्"
+
+#: main.cpp:87
+msgid "Skip intro animation"
+msgstr "परिचय एनिमेसन फड्काउनुहोस्"
+
+#: main.cpp:88
+msgid "Run game in demo (autoplay) mode"
+msgstr "प्रदर्शन (स्वत: खेल्ने) मोडमा खेल खोल्नुहोस्"
+
+#: mainwindow.cpp:103
+msgid "Installation error: No theme list found."
+msgstr ""
+
+#: mainwindow.cpp:154
+msgid "Installation error: Theme file error."
+msgstr "स्थापना त्रुटि: विषयवस्तु फाइल त्रुटि ।"
+
+#: mainwindow.cpp:173
+msgid "Welcome to Skat! Please start a new game."
+msgstr "स्क्याटमा स्वागत छ! कृपया नयाँ खेल सुरु गर्नुहोस् ।"
+
+#: mainwindow.cpp:372
+msgid "Game Over. Please start a new game."
+msgstr "खेल समाप्त । कृपया नयाँ खेल सुरु गर्नुहोस् ।"
+
+#: mainwindow.cpp:387
+#, kde-format
+msgctxt "Player name and number"
+msgid "Next move for %1 (player %2)"
+msgstr "%1 का लागि पछिल्लो चाल (खेलाडि %2)"
+
+#: mainwindow.cpp:402
+msgid "Clears the all time statistics which is kept in all sessions."
+msgstr "सबै सत्रमा राखिएका सबै समयका तथ्याङ्क खाली गर्छ ।"
+
+#: mainwindow.cpp:407
+msgid "Ends a currently played game. No winner will be declared."
+msgstr "हालै खेलिएको खेल समाप्त गर्दछ । कुनै विजेता घोषित गरिने छैन ।"
+
+#: mainwindow.cpp:413
+msgid "Quits the program."
+msgstr "कार्यक्रम अन्त्य गर्छ ।"
+
+#: mainwindow.cpp:416
+msgid "Starting Player"
+msgstr "सुरुको खेलाडी"
+
+#: mainwindow.cpp:419
+msgid "Changing starting player..."
+msgstr "सुरुको खेलाडी परिवर्तन..."
+
+#: mainwindow.cpp:420
+msgid "Chooses which player begins the next game."
+msgstr "पछिल्लो खेल सुरुआत गर्ने खेलाडी रोज्दछ ।"
+
+#: mainwindow.cpp:423
+msgid "Player &1"
+msgstr "खेलाडी १"
+
+#: mainwindow.cpp:424
+msgid "Player &2"
+msgstr "खेलाडी २"
+
+#: mainwindow.cpp:430
+msgid "Player &1 Played By"
+msgstr "खेलाडी १ यस अनुरुप खेल्यो"
+
+#: mainwindow.cpp:433
+msgid "Changing who plays player 1..."
+msgstr "खेलाडी १ परिवर्तन गरिँदैछ..."
+
+#: mainwindow.cpp:434
+msgid "Changing who plays player 1."
+msgstr "खेलाडी १ परिवर्तन गरिँदैछ ।"
+
+#: mainwindow.cpp:436
+msgid "&Mouse"
+msgstr "माउस"
+
+#: mainwindow.cpp:437
+msgid "&Computer"
+msgstr "कम्प्युटर"
+
+#: mainwindow.cpp:442
+msgid "Player &2 Played By"
+msgstr "खेलाडी २ ले यस अनुरुप खेल्यो"
+
+#: mainwindow.cpp:445
+msgid "Changing who plays player 2..."
+msgstr "खेलाडी २ परिवर्तन गरिँदैछ..."
+
+#: mainwindow.cpp:446
+msgid "Changing who plays player 2."
+msgstr "खेलाडी २ परिवर्तन गरिँदैछ ।"
+
+#: mainwindow.cpp:454
+msgid "&Theme"
+msgstr ""
+
+#: mainwindow.cpp:460
+msgid "Changing theme..."
+msgstr ""
+
+#: mainwindow.cpp:461
+msgid "Changing theme."
+msgstr ""
+
+#: mainwindow.cpp:465
+msgid "Select &Card Deck..."
+msgstr "ताशको पत्ती चयन गर्नुहोस्..."
+
+#: mainwindow.cpp:468
+msgid "Configure card decks..."
+msgstr "ताशका पत्ती कन्फिगर गर्नुहोस्..."
+
+#: mainwindow.cpp:469
+msgid "Choose how the cards should look."
+msgstr "तास कस्तो देखिनु पर्छ रोज्नुहोस् ।"
+
+#: mainwindow.cpp:473
+msgid "&Change Player Names..."
+msgstr "खेलका नाम परिवर्तन गर्नुहोस्..."
+
+#: mainwindow.cpp:555
+msgid "Do you really want to clear the all time statistical data?"
+msgstr "तपाईँ वास्तवमै सबै समयका तथ्याङ्किय डेटा खाली गर्न चाहनुहुन्छ?"
+
+#: mainwindow.cpp:626
+msgid "Dealing cards..."
+msgstr "ताश बाड्दैछ..."
+
+#. i18n: file: lskatui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:3
+msgid "&Game"
+msgstr "खेल"
+
+#. i18n: file: lskatui.rc:12
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:6
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: lskatui.rc:24
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:9
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: namedialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, NameDialog)
+#: rc.cpp:12
+msgid "Configure Names"
+msgstr "नाम कन्फिगर गर्नुहोस्"
+
+#. i18n: file: namedialog.ui:25
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:15
+msgid "Player Names"
+msgstr "खेलाडीका नाम"
+
+#. i18n: file: namedialog.ui:43
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: rc.cpp:18
+msgid "Player 1:"
+msgstr "खेलाडी १:"
+
+#. i18n: file: namedialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:21
+msgid "Player 2:"
+msgstr "खेलाडी २:"
+
+#. i18n: file: namedialog.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, okButton)
+#: rc.cpp:24
+msgid "OK"
+msgstr "ठीक छ"
+
+#. i18n: file: namedialog.ui:88
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: rc.cpp:27
+msgid "Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: rc.cpp:28
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jitendra Harlalka, Nabin Gautam, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:29
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jitendra@otrc.gov.np, nabin@mpp.org.np,,,"
+
+#: scoresprite.cpp:174
+#, kde-format
+msgctxt "Score in score widget"
+msgid "Score: %1"
+msgstr "प्राप्ताङ्क: %1"
+
+#: scoresprite.cpp:183
+#, kde-format
+msgctxt "Won and overall games in score widget"
+msgid "Games: %1 / %2"
+msgstr "खेल: %1 / %2"

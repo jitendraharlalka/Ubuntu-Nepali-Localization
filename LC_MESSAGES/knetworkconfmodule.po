@@ -1,0 +1,1060 @@
+# translation of knetworkconf.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: knetworkconf\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 15:28+0000\n"
+"PO-Revision-Date: 2008-10-07 13:25+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: version.h:5
+msgid ""
+"KNetworkConf - A KDE Control Center module to configure TCP/IP settings."
+msgstr ""
+"KNetworkConf - TCP/IP सेटिङ कन्फिगर गर्नलाई एउटा केडीई नियन्त्रण केन्द्र "
+"मोड्युल ।"
+
+#: kadddevicecontainer.cpp:73
+msgid "&Advanced Settings"
+msgstr "उन्नत सेटिङ"
+
+#: kadddevicecontainer.cpp:74 kadddevicecontainer.cpp:75
+msgid "Toggle between advanced and basic settings"
+msgstr "उन्नत र आधारभूत सेटिङ बीचमा टगल गर्नुहोस्"
+
+#. i18n: file: kaddknownhostdlg.ui:110
+#. i18n: ectx: property (text), widget (KPushButton, kpbAdd)
+#. i18n: file: kreloadnetworkdlg.ui:67
+#. i18n: ectx: property (text), widget (KPushButton, kpbOk)
+#: kadddevicecontainer.cpp:76 knetworkconf.cpp:146 knetworkconf.cpp:389
+#: rc.cpp:184 rc.cpp:343
+msgid "&OK"
+msgstr "ठीक छ"
+
+#: kadddevicecontainer.cpp:77
+msgid "Apply changes"
+msgstr "परिवर्तन लागू गर्नुहोस्"
+
+#. i18n: file: kadddnsserverdlg.ui:109
+#. i18n: ectx: property (text), widget (KPushButton, kpbCancel)
+#. i18n: file: kaddknownhostdlg.ui:87
+#. i18n: ectx: property (text), widget (KPushButton, kpbCancel)
+#: kadddevicecontainer.cpp:78 rc.cpp:169 rc.cpp:181
+msgid "&Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: kadddevicecontainer.cpp:79
+msgid "Forget changes"
+msgstr "परिवर्तन बिर्सनुहोस्"
+
+#: kadddevicecontainer.cpp:142 knetworkconf.cpp:67 knetworkconf.cpp:99
+msgid "The format of the specified IP address is not valid."
+msgstr "निर्दिष्ट गरिएको आईपी ठेगानाको ढाँचा वैध छैन ।"
+
+#: kadddevicecontainer.cpp:142 kadddevicecontainer.cpp:145
+msgid "Invalid IP Address "
+msgstr "अवैध आईपी ठेगाना "
+
+#: kadddevicecontainer.cpp:145
+msgid "The format of the specified netmask is not valid."
+msgstr "निर्दिष्ट गरिएको नेटमास्कको ढाँचा अवैध छ ।"
+
+#: kadddevicecontainer.cpp:148
+msgid "The format of the specified broadcast is not valid."
+msgstr "निर्दिष्ट गरिएको प्रसारणको ढाँचा अवैध छ ।"
+
+#: kadddevicecontainer.cpp:148 knetworkconf.cpp:67 knetworkconf.cpp:99
+msgid "Invalid IP Address"
+msgstr "अवैध आईपी ठेगाना"
+
+#: kadddevicecontainer.cpp:187
+msgid "Basic Settings"
+msgstr "आधारभूत सेटिङ"
+
+#: kadddevicecontainer.cpp:192
+msgid "Advanced Settings"
+msgstr "उन्नत सेटिङ"
+
+#: knetworkconf.cpp:56
+msgid "You have to type an alias first."
+msgstr "तपाईँले पहिला उपनाम लेख्नुपर्छ ।"
+
+#: knetworkconf.cpp:56
+msgid "Invalid Text"
+msgstr "अवैध पाठ"
+
+#: knetworkconf.cpp:103
+msgid "You must add at least one alias for the specified IP address."
+msgstr ""
+"तपाईँले निर्दिष्ट गरेको आईपी ठेगानाका लागि कम्तिमा एउटा उपनाम थप्नुपर्छ ।"
+
+#: knetworkconf.cpp:103
+msgid "Insufficient Aliases"
+msgstr "अपर्याप्त उपनाम"
+
+#: knetworkconf.cpp:140
+msgid "Edit Alias"
+msgstr "उपनाम सम्पादन गर्नुहोस्"
+
+#: knetworkconf.cpp:141 knetworkconf.cpp:171
+msgid "Alias:"
+msgstr "उपनाम:"
+
+#: knetworkconf.cpp:170
+msgid "Add New Alias"
+msgstr "नयाँ उपनाम थप्नुहोस्"
+
+#: knetworkconf.cpp:237
+msgid "Could not load network info."
+msgstr "सञ्जाल सूचना लोड गर्न सकेन ।"
+
+#: knetworkconf.cpp:238
+msgid "Error Reading Configuration File"
+msgstr "कन्फिगरेसन फाइल पढ्दा त्रुटि"
+
+#: knetworkconf.cpp:292 knetworkconf.cpp:888
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: knetworkconf.cpp:302 knetworkconf.cpp:902
+msgid "Disabled"
+msgstr "अक्षम"
+
+#: knetworkconf.cpp:312 knetworkconf.cpp:474
+msgid "Manual"
+msgstr "म्यानुअल"
+
+#: knetworkconf.cpp:333
+msgid ""
+"The new configuration has not been saved.\n"
+"Do you want to apply changes before quitting?"
+msgstr ""
+"नयाँ कन्फिगरेसन बचत गरिएको छैन ।\n"
+"तपाईँ यसलाई अन्त्य गर्नुभन्दा पहिले परिवर्तन लागू गर्न चाहनुहुन्छ ?"
+
+#: knetworkconf.cpp:334
+msgid "New Configuration Not Saved"
+msgstr "नयाँ कन्फिगरेसन बचत गरिएको छैन"
+
+#: knetworkconf.cpp:385
+msgid "Edit Server"
+msgstr "सर्भर सम्पादन गर्नुहोस्"
+
+#: knetworkconf.cpp:412
+#, kde-format
+msgid "Configure Device %1"
+msgstr "यन्त्र %1 कन्फिगर गर्नुहोस्"
+
+#: knetworkconf.cpp:576
+msgid "Could not open file '/etc/sysconfig/network' for reading."
+msgstr "पढ्नका लागि फाइल '/etc/sysconfig/network' खोल्न सकेन ।"
+
+#: knetworkconf.cpp:577 knetworkconf.cpp:595
+msgid "Error Loading Config Files"
+msgstr "कन्फिग फाइल लोड गर्दा त्रुटि"
+
+#: knetworkconf.cpp:594
+msgid "Could not open file '/etc/resolv.conf' for reading."
+msgstr "पढ्नका लागि फाइल '/etc/resolv.conf' खोल्न सकेन ।"
+
+#: knetworkconf.cpp:741
+msgid "The default Gateway IP address is invalid."
+msgstr "पूर्वनिर्धारित गेटवे आईपी ठेगाना अवैध छ ।"
+
+#: knetworkconf.cpp:741
+msgid " Invalid IP Address"
+msgstr " अवैध आईपी ठेगाना"
+
+#: knetworkconf.cpp:811
+msgid "Changing device state"
+msgstr "यन्त्र स्थिति परिवर्तन गर्दैछ"
+
+#: knetworkconf.cpp:813
+#, kde-format
+msgid "Enabling interface <b>%1</b>"
+msgstr "इन्टरफेस <b>%1</b> सक्षम पार्दैछ"
+
+#: knetworkconf.cpp:815
+#, kde-format
+msgid "Disabling interface <b>%1</b>"
+msgstr "इन्टरफेस <b>%1</b> अक्षम पार्दैछ"
+
+#: knetworkconf.cpp:849
+msgid ""
+"Could not launch backend to change network device state. You will have to do "
+"it manually."
+msgstr ""
+"सञ्जाल यन्त्र स्थिति परिवर्तन गर्न ब्याकइन्ड सुरुआत गर्न सकेन । तपाईँले "
+"यसलाई म्यानुअली गर्नुपर्नेछ ।"
+
+#: knetworkconf.cpp:850 knetworkconfigparser.cpp:795
+#: knetworkconfigparser.cpp:989
+msgid "Error"
+msgstr "त्रुटि"
+
+#: knetworkconf.cpp:870
+msgid ""
+"There was an error changing the device's state. You will have to do it "
+"manually."
+msgstr ""
+"यन्त्रको स्थिति परिवर्तन गर्दा एउटा त्रुटि थियो । तपाईँले यसलाई म्यानुअली "
+"गर्नुपर्नेछ ।"
+
+#: knetworkconf.cpp:871
+msgid "Could Not Change Device State"
+msgstr "यन्त्र स्थिति परिवर्तन गर्न सकेन"
+
+#. i18n: file: kaddknownhostdlg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, KAddKnownHostDlg)
+#: knetworkconf.cpp:982 rc.cpp:175
+msgid "Add New Static Host"
+msgstr "नया स्थिर होस्ट थप्नुहोस्"
+
+#: knetworkconf.cpp:1017
+msgid "Edit Static Host"
+msgstr "स्थिर होस्ट सम्पादन गर्नुहोस्"
+
+#: knetworkconf.cpp:1150
+msgid "Could not load the selected Network Profile."
+msgstr "चयन गरिएको सञ्जाल प्रोफाइल लोड गर्न सकेन ।"
+
+#: knetworkconf.cpp:1151
+msgid "Error Reading Profile"
+msgstr "प्रोफाइल पढ्दा त्रुटि"
+
+#: knetworkconfigparser.cpp:45
+#, kde-format
+msgid ""
+"Could not find the network detection scripts. Something is wrong with your "
+"installation.\n"
+" Please check that  \n"
+"{KDE_PATH}/%1 \n"
+"file is present."
+msgstr ""
+"सञ्जाल पत्ता लगाउने स्क्रिप्ट फेला पार्न सकेन । तपाईँको स्थापनामा केही खराबी "
+"छ ।\n"
+" कृपया फाइल \n"
+"{KDE_PATH}/%1 \n"
+"उपस्थित भएको जाँच गर्नुहोस् ।"
+
+#: knetworkconfigparser.cpp:46
+msgid "Could Not Find Network Backend Script"
+msgstr "सञ्जाल ब्याकइन्ड स्क्रिप्ट फेला पार्न सकेन"
+
+#: knetworkconfigparser.cpp:70 knetworkconfigparser.cpp:101
+msgid ""
+"Could not execute network detection scripts. Something is wrong with your "
+"installation."
+msgstr ""
+"सञ्जाल पत्ता लगाउने ब्याकइन्ड स्क्रिप्ट कार्यान्वयन गर्न सकेन । तपाईँको "
+"स्थापनामा केही खराबी छ ।"
+
+#: knetworkconfigparser.cpp:71 knetworkconfigparser.cpp:102
+#: knetworkconfigparser.cpp:310 knetworkconfigparser.cpp:974
+msgid "Could Not Launch Network Backend Script"
+msgstr "सञ्जाल ब्याकइन्ड स्क्रिप्ट सुरुआत गर्न सकेन"
+
+#: knetworkconfigparser.cpp:120
+#, kde-format
+msgid "Could not parse the XML file (%1)"
+msgstr ""
+
+#: knetworkconfigparser.cpp:121
+msgid "Error While Listing Network Interfaces"
+msgstr "सञ्जाल इन्टरफेस सूचीकृत गर्दा त्रुटि"
+
+#: knetworkconfigparser.cpp:201
+msgid "Could not open file /proc/net/route."
+msgstr "फाइल /proc/net/route खोल्न सकेन ।"
+
+#: knetworkconfigparser.cpp:202
+msgid "Could Not Open File"
+msgstr "फाइल खोल्न सकेन"
+
+#. i18n: file: kreloadnetworkdlg.ui:25
+#. i18n: ectx: property (windowTitle), widget (QDialog, KReloadNetworkDlg)
+#: knetworkconfigparser.cpp:295 rc.cpp:340
+msgid "Reloading Network"
+msgstr "सञ्जाल रिलोड गर्दैछ"
+
+#: knetworkconfigparser.cpp:296
+msgid "<center>Please wait while reloading the network...</center>"
+msgstr "<center>कृपया सञ्जाल रिलोड गर्दा प्रतिक्षा गर्नुहोस्...</center>"
+
+#: knetworkconfigparser.cpp:309
+msgid ""
+"Could not execute network saving scripts. Something is wrong with your "
+"installation."
+msgstr ""
+"सञ्जाल बचत गर्ने स्क्रिप्ट कार्यान्वयन गर्न सकेन । तपाईँको स्थापनामा केही "
+"खराबी छ ।"
+
+#: knetworkconfigparser.cpp:713
+msgid "Ethernet Network Device"
+msgstr "इथरनेट सञ्जाल यन्त्र"
+
+#: knetworkconfigparser.cpp:715
+msgid "Wireless Network Device"
+msgstr "तार रहित सञ्जाल यन्त्र"
+
+#: knetworkconfigparser.cpp:794
+#, kde-format
+msgid "Could not parse the XML file (%1)."
+msgstr ""
+
+#: knetworkconfigparser.cpp:973
+msgid ""
+"Could not list supported platforms. Something is wrong with your "
+"installation."
+msgstr ""
+"समर्थित प्लेटफर्म सूचीबद्ध गर्न सकेन । तपाईँको स्थापनामा केही खराबी छ ।"
+
+#: knetworkconfigparser.cpp:988
+#, kde-format
+msgid "Could not parse the XML file (%1) of supported platforms."
+msgstr ""
+
+#: knetworkconfmodule.cpp:101
+msgid "KNetworkConf"
+msgstr "केडिई सञ्जाल कन्फिग"
+
+#: knetworkconfmodule.cpp:103
+msgid "(c) 2003 - 2005, Juan Luis Baptiste"
+msgstr "(c) २००४-२००५, जुआन लुइस बाप्टिस्ट"
+
+#: knetworkconfmodule.cpp:104
+msgid "Juan Luis Baptiste"
+msgstr "जुआन लुइस बाप्टिस्ट"
+
+#: knetworkconfmodule.cpp:104
+msgid "Lead Developer"
+msgstr "मुख्य विकासकर्ता"
+
+#: knetworkconfmodule.cpp:106
+msgid "Carlos Garnacho and the Gnome System Tools Team"
+msgstr "कार्लोस गार्नाको र जिनोम प्रणाली उपकरण समूह"
+
+#: knetworkconfmodule.cpp:106
+msgid "Provided the Network backend which KNetworkConf relies on."
+msgstr "केडीई सञ्जाल कन्फिगमा निर्भर सञ्जाल ब्याकइन्ड उपलब्ध भयो ।"
+
+#: knetworkconfmodule.cpp:108
+msgid "Helio Chissini de Castro"
+msgstr "हेलिओ चिसिनि डे कास्ट्रो"
+
+#: knetworkconfmodule.cpp:108
+msgid "Conectiva Linux Support"
+msgstr "कनेक्टिभा लिनक्स समर्थन"
+
+#: knetworkconfmodule.cpp:110
+msgid "Christoph Eckert"
+msgstr "क्रिस्टोफ इकेर्ट"
+
+#: knetworkconfmodule.cpp:110
+msgid "Documentation maintainer, and German translator"
+msgstr "मिसिलीकरण मर्मतकर्ता र जर्मनी अनुवादक"
+
+#: knetworkconfmodule.cpp:112
+msgid "David Sansome"
+msgstr "डेभिड सानसोम"
+
+#: knetworkconfmodule.cpp:112
+msgid "Various bugfixes and features"
+msgstr "विभिन्न बग समाधान र बिशेषता"
+
+#: knetworkconfmodule.cpp:114
+msgid "Gustavo Pichorim Boiko"
+msgstr "गुस्टाभो पिचोरिम बोइको"
+
+#: knetworkconfmodule.cpp:114
+msgid "Various bugfixes and Brazilian Portuguese translator"
+msgstr "विभिन्न बग समाधान र ब्राजिलियन पोर्चुगाली अनुवादक"
+
+#: knetworkconfmodule.cpp:120
+msgid ""
+"<h1>Network configuration</h1><p>This module allows you to configure your "
+"TCP/IP settings.</p>"
+msgstr ""
+"<h1>सञ्जाल कन्फिगरेसन</h1><p>यो मोड्युलले तपाईँकोTCP/IP सेटिङ कन्फिगर गर्न "
+"अनुमति दिन्छ ।</p>"
+
+#. i18n: file: kadddevicedlg.ui:41
+#. i18n: ectx: property (windowTitle), widget (QWidget, KAddDeviceDlg)
+#: rc.cpp:3
+msgid "Configure Interface"
+msgstr "इन्टरफेस कन्फिगरेसन गर्नुहोस्"
+
+#. i18n: file: kadddevicedlg.ui:56
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, gbBasicDeviceInfo)
+#: rc.cpp:6
+msgid "TCP/IP Address"
+msgstr "TCP/IP ठेगाना"
+
+#. i18n: file: kadddevicedlg.ui:97
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:9
+msgid "Netmask:"
+msgstr "नेटमास्क:"
+
+#. i18n: file: kadddevicedlg.ui:100
+#. i18n: ectx: property (toolTip), widget (QLabel, TextLabel1_2)
+#. i18n: file: kadddevicedlg.ui:103
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1_2)
+#: rc.cpp:12 rc.cpp:15
+msgid ""
+"The netmask defines a range of IP numbers which will build a subnet inside "
+"the network."
+msgstr ""
+"नेटमास्कले सञ्जाल भित्र सबनेट बनाउने आईपी सङ्ख्याको दायरा परिभाषित गर्छ ।"
+
+#. i18n: file: kadddevicedlg.ui:113
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#. i18n: file: kadddnsserverdlg.ui:50
+#. i18n: ectx: property (text), widget (QLabel, lIPAddress)
+#. i18n: file: kaddknownhostdlg.ui:24
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: knetworkconfdlg.ui:253
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:18 rc.cpp:157 rc.cpp:178 rc.cpp:262
+msgid "IP address:"
+msgstr "आईपी ठेगाना:"
+
+#. i18n: file: kadddevicedlg.ui:116
+#. i18n: ectx: property (toolTip), widget (QLabel, TextLabel1)
+#. i18n: file: kadddevicedlg.ui:119
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1)
+#: rc.cpp:21 rc.cpp:24
+msgid ""
+"An IP address is an unique identifier of a networking device in an TCP/IP "
+"network"
+msgstr ""
+"एउटा आईपी ठेगाना TCP/IP सञ्जालमा सञ्जाल यन्त्रको अद्वितिय पहिचायक हो ।"
+
+#. i18n: file: kadddevicedlg.ui:164
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kleIPAddress)
+#: rc.cpp:27
+msgid "IP address for the network device"
+msgstr "सञ्जाल यन्त्रका लागि आईपी ठेगाना"
+
+#. i18n: file: kadddevicedlg.ui:174
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kleIPAddress)
+#: rc.cpp:30
+msgid ""
+"<p>Here you should enter the IP address for the network interface.</p>\n"
+"<p>Please note: If your network is connected to the internet, you should "
+"only enter IP addresses you have been given by your provider.</p>\n"
+"<p>Otherwise, you should enter one of the IP addresses which are explicitly "
+"reserved for private use.</p>\n"
+"<p>Most small private networks use class C networks, which allow up to 255 "
+"computers in your network. So simply use addresses like 192.168.1.1, "
+"192.168.1.2, 192.168.1.171 and so on for your computers.</p>\n"
+"<p>Class C networks: 192.168.0.0 to 192.168.255.255, for example "
+"192.168.0.13.</p>\n"
+"<p>Class B networks: 172.16.0.0 to 172.31.255.255, for example "
+"172.28.2.5</p>\n"
+"<p>Class A networks: 10.0.0.0 to 10.255.255.255, for example 10.5.12.14</p>\n"
+"<p>Please ensure that all IP addresses you give to your computers are "
+"unique; you will have many problems if the same address is assigned to more "
+"than one network device.</p>"
+msgstr ""
+
+#. i18n: file: kadddevicedlg.ui:184
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcbNetmask)
+#: rc.cpp:40
+msgid "Subnetmask of the network device"
+msgstr "सञ्जाल यन्त्रको सब-नेटमास्क"
+
+#. i18n: file: kadddevicedlg.ui:189
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcbNetmask)
+#: rc.cpp:43
+msgid ""
+"<p>Please enter the desired subnetmask for the interface here.</p>\n"
+"<p>For small private networks, 255.255.255.0 will most often be a reasonable "
+"default value.</p>\n"
+"<p>This field will change from a popup box to a combo box as soon as you "
+"enable the advanced settings below.</p>"
+msgstr ""
+"<p>कृपया इन्टरफेसका लागि यहाँ चाहेको सब-नेटमास्क प्रविष्ट गर्नुहोस् ।</p>\n"
+"<p>सानो व्यक्तिगत सञ्जालका लागि, प्राय: 255.255.255.0 पूर्वनिर्धारित मानका "
+"रूपमा सबैभन्दा उपयुक्त हुनेछ ।</p>\n"
+"<p>तपाईँले तलको उन्नत सेटिङ सक्षम बनाएपछि यो फिल्ड पपअप बाकसबाट कम्बोबाकसमा "
+"परिवर्तन हुनेछ ।</p>"
+
+#. i18n: file: kadddevicedlg.ui:193
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:48
+msgid "255.255.255.0"
+msgstr "255.255.255.0"
+
+#. i18n: file: kadddevicedlg.ui:198
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:51
+msgid "255.255.0.0"
+msgstr "255.255.0.0"
+
+#. i18n: file: kadddevicedlg.ui:203
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:54
+msgid "255.0.0.0"
+msgstr "255.0.0.0"
+
+#. i18n: file: kadddevicedlg.ui:208
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:57
+msgid "255.255.255.128"
+msgstr "255.255.255.128"
+
+#. i18n: file: kadddevicedlg.ui:213
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:60
+msgid "255.255.255.192"
+msgstr "255.255.255.192"
+
+#. i18n: file: kadddevicedlg.ui:218
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:63
+msgid "255.255.255.240"
+msgstr "255.255.255.240"
+
+#. i18n: file: kadddevicedlg.ui:223
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbNetmask)
+#: rc.cpp:66
+msgid "255.255.255.248"
+msgstr "255.255.255.248"
+
+#. i18n: file: kadddevicedlg.ui:247
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcbAutoBootProto)
+#. i18n: file: kadddevicedlg.ui:250
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcbAutoBootProto)
+#: rc.cpp:69 rc.cpp:72
+msgid "The boot protocol this network device should use"
+msgstr "बुट प्रोटोकलले यो सञ्जाल यन्त्र प्रयोग गर्नुपर्छ"
+
+#. i18n: file: kadddevicedlg.ui:254
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbAutoBootProto)
+#: rc.cpp:75
+msgid "dhcp"
+msgstr "dhcp"
+
+#. i18n: file: kadddevicedlg.ui:259
+#. i18n: ectx: property (text), item, widget (KComboBox, kcbAutoBootProto)
+#: rc.cpp:78
+msgid "bootp"
+msgstr "bootp"
+
+#. i18n: file: kadddevicedlg.ui:283
+#. i18n: ectx: property (text), widget (QRadioButton, rbBootProtoManual)
+#: rc.cpp:81
+msgid "Manual:"
+msgstr "म्यानुअल:"
+
+#. i18n: file: kadddevicedlg.ui:286
+#. i18n: ectx: property (toolTip), widget (QRadioButton, rbBootProtoManual)
+#: rc.cpp:84
+msgid "Use a static IP address. Use the fields below to enter the values"
+msgstr ""
+"स्थिर आईपी ठेगाना प्रयोग गर्नुहोस् । मान प्रविष्ट गर्न तलका फिल्ड प्रयोग "
+"गर्नुहोस्"
+
+#. i18n: file: kadddevicedlg.ui:290
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbBootProtoManual)
+#: rc.cpp:87
+msgid ""
+"<p>Sets this interface to use static IP settings.</p>\n"
+"<p>In this case, please use the fields below to enter the desired values "
+"manually.</p>"
+msgstr ""
+"<p>स्थिर आईपी सेटिङ प्रयोग गर्न यो इन्टरफेस सेट गर्छ ।</p>\n"
+"<p>यस्तो अवस्थामा, कृपया चाहेको मान म्यानुअली प्रविष्ट गर्न तलका फिल्ड "
+"प्रयोग गर्नुहोस् ।</p>"
+
+#. i18n: file: kadddevicedlg.ui:297
+#. i18n: ectx: property (text), widget (QRadioButton, rbBootProtoAuto)
+#: rc.cpp:91
+msgid "Automatic:"
+msgstr "स्वचालित:"
+
+#. i18n: file: kadddevicedlg.ui:300
+#. i18n: ectx: property (toolTip), widget (QRadioButton, rbBootProtoAuto)
+#: rc.cpp:94
+msgid "Use a dynamic IP address"
+msgstr "गतिशील आईपी ठेगाना प्रयोग गर्नुहोस्"
+
+#. i18n: file: kadddevicedlg.ui:305
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbBootProtoAuto)
+#: rc.cpp:97
+msgid ""
+"<p>Using an dynamic IP address causes this device to get a free IP address "
+"automatically.</p>\n"
+"<p>The interface will try to contact an DHCP- or BOOTP-Server during the "
+"boot process.</p>\n"
+"<p>Rendevouz is not supported yet.</p>"
+msgstr ""
+"<p>गतिशील आईपी ठेगाना प्रयोग गरेको कारणले यो यन्त्रले स्वचालित रूपमा एउटा "
+"स्वतन्त्र आईपी ठेगाना प्राप्त गर्छ ।</p>\n"
+"<p>इन्टरफेसले बुट प्रक्रिया गर्दा DHCP- वा BOOTP सर्भरमा सम्पर्क गर्ने "
+"प्रयास गर्नेछ ।</p>\n"
+"<p>रेन्डभउज हालसम्म समर्थित छैन ।</p>"
+
+#. i18n: file: kadddevicedlg.ui:331
+#. i18n: ectx: property (text), widget (QCheckBox, kcbstartAtBoot)
+#: rc.cpp:102
+msgid "Activate when the computer starts"
+msgstr "कम्प्युटर सुरु हुँदा सक्रिय पार्नुहोस्"
+
+#. i18n: file: kadddevicedlg.ui:334
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcbstartAtBoot)
+#: rc.cpp:105
+msgid "Ensures that this interface gets activated during boot time"
+msgstr "बुट गर्ने समयमा यो इन्टरफेस सक्रिय भएको निश्चित गर्छ"
+
+#. i18n: file: kadddevicedlg.ui:338
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcbstartAtBoot)
+#: rc.cpp:108
+msgid ""
+"<p>Ensures that this interface gets activated during boot time.</p>\n"
+"<p>Otherwise, you will have to active the interface manually after you have "
+"logged in after the boot process.</p>"
+msgstr ""
+"<p>बुट गर्ने समयमा यो इन्टरफेस सक्रिय भएको निश्चित गर्छ ।</p>\n"
+"<p>अन्यथा, तपाईँले बुट प्रक्रियामा लग गरि सकेपछि म्यानुअली इन्टरफेस सक्रिय "
+"पार्नुपर्नेछ ।</p>"
+
+#. i18n: file: kadddevicedlgextension.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, KAddDeviceDlgExtension)
+#: rc.cpp:112
+msgid "Advanced Options"
+msgstr "उन्नत विकल्प"
+
+#. i18n: file: kadddevicedlgextension.ui:19
+#. i18n: ectx: property (title), widget (Q3GroupBox, gbAdvancedDeviceInfo)
+#: rc.cpp:115
+msgid "Advanced Device Information"
+msgstr "उन्नत यन्त्र सूचना"
+
+#. i18n: file: kadddevicedlgextension.ui:22
+#. i18n: ectx: property (toolTip), widget (Q3GroupBox, gbAdvancedDeviceInfo)
+#: rc.cpp:118
+msgid "Set advanced setting for the network device"
+msgstr "सञ्जाल यन्त्रका लागि उन्नत सेटिङ सेट गर्नुहोस्"
+
+#. i18n: file: kadddevicedlgextension.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:121
+msgid "Description:"
+msgstr "वर्णन:"
+
+#. i18n: file: kadddevicedlgextension.ui:31
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
+#. i18n: file: kadddevicedlgextension.ui:67
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kleBroadcast)
+#: rc.cpp:124 rc.cpp:136
+msgid "IP address of the network device"
+msgstr "सञ्जाल यन्त्रको आईपी ठेगाना"
+
+#. i18n: file: kadddevicedlgextension.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: rc.cpp:127
+msgid "Broadcast:"
+msgstr "प्रसारण:"
+
+#. i18n: file: kadddevicedlgextension.ui:54
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kleDescription)
+#. i18n: file: kadddevicedlgextension.ui:57
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kleDescription)
+#: rc.cpp:130 rc.cpp:133
+msgid "Simply enter a short human-readable description for this device"
+msgstr ""
+"यो यन्त्रका लागि केवल मानिसले पढ्न सक्ने छोटो वर्णन प्रविष्ट गर्नुहोस्"
+
+#. i18n: file: kadddevicedlgextension.ui:70
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kleBroadcast)
+#: rc.cpp:139
+msgid ""
+"The Broadcast is a special address. All devices of a network respond if "
+"packages are sent to this address."
+msgstr ""
+"प्रसारण एउटा विशेष ठेगाना हो । यदि प्याकेज यो ठेगानामा पठाएको भएमा सबै "
+"यन्त्रको सञ्जालले प्रतिक्रिया दिन्छन् ।"
+
+#. i18n: file: kadddevicewifiext.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, KAddDeviceWifiExt)
+#. i18n: file: kadddevicewifiext.ui:24
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, gbWirelessSettings)
+#: rc.cpp:142 rc.cpp:145
+msgid "Wireless Settings"
+msgstr "तार रहित सेटिङ"
+
+#. i18n: file: kadddevicewifiext.ui:30
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:148
+msgid "WEP key:"
+msgstr "WEP कुञ्जी:"
+
+#. i18n: file: kadddevicewifiext.ui:40
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:151
+msgid "ESSID:"
+msgstr "ESSID:"
+
+#. i18n: file: kadddnsserverdlg.ui:25
+#. i18n: ectx: property (windowTitle), widget (QWidget, KAddDNSServerDlg)
+#: rc.cpp:154
+msgid "Add New DNS Server"
+msgstr "नयाँ DNS सर्भर थप्नुहोस्"
+
+#. i18n: file: kadddnsserverdlg.ui:76
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kleNewServer)
+#: rc.cpp:160
+msgid "IP address of the new DNS server"
+msgstr "नयाँ DNS सर्भरको आईपी ठेगाना"
+
+#. i18n: file: kadddnsserverdlg.ui:99
+#. i18n: ectx: property (text), widget (KPushButton, kpbAddServer)
+#: rc.cpp:163
+msgid "&Add"
+msgstr "थप्नुहोस्"
+
+#. i18n: file: kadddnsserverdlg.ui:102
+#. i18n: ectx: property (toolTip), widget (KPushButton, kpbAddServer)
+#: rc.cpp:166
+msgid "Add the server to the list"
+msgstr "सूचीमा सर्भर थप्नुहोस्"
+
+#. i18n: file: kadddnsserverdlg.ui:112
+#. i18n: ectx: property (toolTip), widget (KPushButton, kpbCancel)
+#: rc.cpp:172
+msgid "Forget it"
+msgstr "यसलाई बिसर्नुहोस्"
+
+#. i18n: file: kaddknownhostdlg.ui:133
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1)
+#. i18n: file: knetworkconfdlg.ui:574
+#. i18n: ectx: property (text), widget (K3ListView, klvKnownHosts)
+#: rc.cpp:187 rc.cpp:301
+msgid "Aliases"
+msgstr "उपनाम"
+
+#. i18n: file: kaddknownhostdlg.ui:150
+#. i18n: ectx: property (text), widget (KPushButton, kpbAddHost)
+#. i18n: file: knetworkconfdlg.ui:493
+#. i18n: ectx: property (text), widget (KPushButton, kpbAddDomainServer)
+#. i18n: file: knetworkconfdlg.ui:596
+#. i18n: ectx: property (text), widget (KPushButton, kpbAddKnownHost)
+#: rc.cpp:190 rc.cpp:286 rc.cpp:304
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: kaddknownhostdlg.ui:166
+#. i18n: ectx: property (text), widget (KPushButton, kpbEditHost)
+#. i18n: file: knetworkconfdlg.ui:509
+#. i18n: ectx: property (text), widget (KPushButton, kpbEditDomainServer)
+#. i18n: file: knetworkconfdlg.ui:612
+#. i18n: ectx: property (text), widget (KPushButton, kpbEditKnownHost)
+#: rc.cpp:193 rc.cpp:289 rc.cpp:307
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#. i18n: file: kaddknownhostdlg.ui:182
+#. i18n: ectx: property (text), widget (KPushButton, kpbRemoveHost)
+#. i18n: file: knetworkconfdlg.ui:525
+#. i18n: ectx: property (text), widget (KPushButton, kpbRemoveDomainServer)
+#. i18n: file: knetworkconfdlg.ui:628
+#. i18n: ectx: property (text), widget (KPushButton, kpbRemoveKnownHost)
+#: rc.cpp:196 rc.cpp:292 rc.cpp:310
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#. i18n: file: kdetectdistrodlg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, KDetectDistroDlg)
+#: rc.cpp:199
+msgid "Detecting Your Current Platform"
+msgstr "तपाईँको हालको प्लेटफर्म पत्ता लगाउदैछ"
+
+#. i18n: file: kdetectdistrodlg.ui:48
+#. i18n: ectx: property (text), widget (QLabel, text)
+#: rc.cpp:202
+msgid "Please wait while detecting your current platform..."
+msgstr "तपाईँको हालको प्लेटफर्म पत्ता लगाउदा कृपया प्रतिक्षा गर्नुहोस्..."
+
+#. i18n: file: kinterfaceupdowndlg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, KInterfaceUpDownDlg)
+#: rc.cpp:205
+msgid "Changing Interface State"
+msgstr "इन्टरफेस स्थिति परिवर्तन गर्दैछ"
+
+#. i18n: file: kinterfaceupdowndlg.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:208
+msgid "Bringing up interface <b>eth0</b>..."
+msgstr "इन्टरफेस <b>eth0</b> ल्याउदैछ..."
+
+#. i18n: file: knetworkconfdlg.ui:33
+#. i18n: ectx: property (windowTitle), widget (QWidget, KNetworkConfDlg)
+#: rc.cpp:211
+msgid "Network Settings"
+msgstr "सञ्जाल सेटिङ"
+
+#. i18n: file: knetworkconfdlg.ui:39
+#. i18n: ectx: property (windowIconText), widget (QWidget, KNetworkConfDlg)
+#: rc.cpp:214
+msgid "Configure your TCP/IP settings"
+msgstr "तपाईँको TCP/IP सेटिङ कन्फिगर गर्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:42
+#. i18n: ectx: property (toolTip), widget (QWidget, KNetworkConfDlg)
+#: rc.cpp:217
+msgid "Change TCP/IP settings"
+msgstr "TCP/IP सेटिङ परिवर्तन गर्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:61
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:220
+msgid "Network Interfaces"
+msgstr "सञ्जाल इन्टरफेस"
+
+#. i18n: file: knetworkconfdlg.ui:69
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:223
+msgid "Available Network Interfaces"
+msgstr "उपलब्ध सञ्जाल इन्टरफेस"
+
+#. i18n: file: knetworkconfdlg.ui:105
+#. i18n: ectx: property (toolTip), widget (K3ListView, klvCardList)
+#: rc.cpp:226
+msgid "List of configured network devices"
+msgstr "कन्फिगर गरिएका सञ्जाल यन्त्रको सूची"
+
+#. i18n: file: knetworkconfdlg.ui:109
+#. i18n: ectx: property (text), widget (K3ListView, klvCardList)
+#: rc.cpp:229
+msgid "Interface"
+msgstr "इन्टरफेस"
+
+#. i18n: file: knetworkconfdlg.ui:120
+#. i18n: ectx: property (text), widget (K3ListView, klvCardList)
+#. i18n: file: knetworkconfdlg.ui:563
+#. i18n: ectx: property (text), widget (K3ListView, klvKnownHosts)
+#: rc.cpp:232 rc.cpp:298
+msgid "IP Address"
+msgstr "आईपी ठेगाना"
+
+#. i18n: file: knetworkconfdlg.ui:131
+#. i18n: ectx: property (text), widget (K3ListView, klvCardList)
+#: rc.cpp:235
+msgid "Protocol"
+msgstr "प्रोटोकल"
+
+#. i18n: file: knetworkconfdlg.ui:142
+#. i18n: ectx: property (text), widget (K3ListView, klvCardList)
+#: rc.cpp:238
+msgid "State"
+msgstr "स्थिति"
+
+#. i18n: file: knetworkconfdlg.ui:153
+#. i18n: ectx: property (text), widget (K3ListView, klvCardList)
+#: rc.cpp:241
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#. i18n: file: knetworkconfdlg.ui:172
+#. i18n: ectx: property (text), widget (KPushButton, kpbConfigureNetworkInterface)
+#: rc.cpp:244
+msgid "Configure Interface..."
+msgstr "इन्टरफेस कन्फिगर गर्नुहोस्..."
+
+#. i18n: file: knetworkconfdlg.ui:175
+#. i18n: ectx: property (toolTip), widget (KPushButton, kpbConfigureNetworkInterface)
+#: rc.cpp:247
+msgid "Change the settings of the selected device"
+msgstr "चयन गरिएका यन्त्रको सेटिङ परिवर्तन गर्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:185
+#. i18n: ectx: property (text), widget (KPushButton, kpbUpButton)
+#: rc.cpp:250
+msgid "Enable Interface"
+msgstr "इन्टरफेस सक्षम पार्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:195
+#. i18n: ectx: property (text), widget (KPushButton, kpbDownButton)
+#: rc.cpp:253
+msgid "Disable Interface"
+msgstr "इन्टरफेस अक्षम पार्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:221
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:256
+msgid "Routes"
+msgstr "मार्ग"
+
+#. i18n: file: knetworkconfdlg.ui:233
+#. i18n: ectx: property (title), widget (Q3GroupBox, gbDefaultGateway)
+#: rc.cpp:259
+msgid "Default Gateway"
+msgstr "पूर्वनिर्धारित गेटवे"
+
+#. i18n: file: knetworkconfdlg.ui:300
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kleDefaultRoute)
+#: rc.cpp:265
+msgid "Default Gateway IP address"
+msgstr "पूर्वनिर्धारित गेटवे आईपी ठेगाना"
+
+#. i18n: file: knetworkconfdlg.ui:323
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:268
+msgid "Device:"
+msgstr "यन्त्र:"
+
+#. i18n: file: knetworkconfdlg.ui:353
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcbGwDevice)
+#: rc.cpp:271
+msgid "Network device where to send packets"
+msgstr "प्याकेट पठाउनु पर्ने सञ्जाल यन्त्र"
+
+#. i18n: file: knetworkconfdlg.ui:382
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:274
+msgid "Domain Name System"
+msgstr "डोमेन नाम प्रणाली"
+
+#. i18n: file: knetworkconfdlg.ui:388
+#. i18n: ectx: property (title), widget (Q3GroupBox, gbDNSServersList)
+#: rc.cpp:277
+msgid "Domain Name Servers"
+msgstr "डोमेन नाम सर्भर"
+
+#. i18n: file: knetworkconfdlg.ui:431
+#. i18n: ectx: property (toolTip), widget (KPushButton, kpbUpDomainServerList)
+#: rc.cpp:280
+msgid "Move up the selected server on the list (higher priority)"
+msgstr "सूचीमा चयन गरिएको सर्भर माथि सार्दछ (उच्च प्राथमिकता)"
+
+#. i18n: file: knetworkconfdlg.ui:444
+#. i18n: ectx: property (toolTip), widget (KPushButton, kpbDownDomainServerList)
+#: rc.cpp:283
+msgid "Move down the selected server on the list (less priority)"
+msgstr "सूचीमा चयन गरिएको सर्भर तल सार्दछ (न्यून प्राथमिकता)"
+
+#. i18n: file: knetworkconfdlg.ui:556
+#. i18n: ectx: property (title), widget (Q3GroupBox, gbKnownHostsList)
+#: rc.cpp:295
+msgid "Static Hosts"
+msgstr "स्थिर होस्ट"
+
+#. i18n: file: knetworkconfdlg.ui:643
+#. i18n: ectx: property (text), widget (QLabel, tlHostName)
+#: rc.cpp:313
+msgid "Host name:"
+msgstr "होस्ट नाम:"
+
+#. i18n: file: knetworkconfdlg.ui:667
+#. i18n: ectx: property (text), widget (QLabel, tlDomainName)
+#: rc.cpp:316
+msgid "Domain name:"
+msgstr "डोमेन नाम:"
+
+#. i18n: file: knetworkconfdlg.ui:678
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: rc.cpp:319
+msgid "Network Profiles"
+msgstr "सञ्जाल प्रोफाइल"
+
+#. i18n: file: knetworkconfdlg.ui:720
+#. i18n: ectx: property (text), widget (K3ListView, klvProfilesList)
+#: rc.cpp:322
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: knetworkconfdlg.ui:731
+#. i18n: ectx: property (text), widget (K3ListView, klvProfilesList)
+#: rc.cpp:325
+msgid "In Use"
+msgstr "प्रयोग भइरहेको"
+
+#. i18n: file: knetworkconfdlg.ui:747
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:328
+msgid "Available Network Profiles"
+msgstr "उपलब्ध सञ्जाल प्रोफाइल"
+
+#. i18n: file: knetworkconfdlg.ui:777
+#. i18n: ectx: property (text), widget (KPushButton, kpbEnableProfile)
+#: rc.cpp:331
+msgid "&Enable"
+msgstr "सक्षम पार्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:784
+#. i18n: ectx: property (text), widget (KPushButton, kpbCreateProfile)
+#: rc.cpp:334
+msgid "&Create New"
+msgstr "नयाँ सिर्जना गर्नुहोस्"
+
+#. i18n: file: knetworkconfdlg.ui:791
+#. i18n: ectx: property (text), widget (KPushButton, kpbDeleteProfile)
+#: rc.cpp:337
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#. i18n: file: kreloadnetworkdlg.ui:100
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:346
+msgid ""
+"Please wait while the network is reloaded so\n"
+"the changes can take effect."
+msgstr ""
+"कृपया सञ्जाल रिलोड हुदा प्रतिक्षा गर्नुहोस् किनकि\n"
+"परिवर्तनले प्रभाव पार्नसक्छ ।"
+
+#. i18n: file: kselectdistrodlg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, KSelectDistroDlg)
+#: rc.cpp:350
+msgid "Unsupported Platform"
+msgstr "असमर्थित प्लेटफर्म"
+
+#. i18n: file: kselectdistrodlg.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, cbAskAgain)
+#: rc.cpp:353
+msgid "Do not ask again"
+msgstr "फेरि नसोध्नुहोस्"
+
+#. i18n: file: kselectdistrodlg.ui:48
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:356
+msgid ""
+"<font size=\"+1\"><p align=\"center\"><b>Your Platform is Not "
+"Supported</b></p></font>"
+msgstr ""
+"<font size=\"+1\"><p align=\"center\"><b>तपाईँको प्लेटफर्म समर्थन गरेको "
+"छैन</b></p></font>"
+
+#. i18n: file: kselectdistrodlg.ui:58
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:359
+msgid ""
+"You may choose one of the following supported platforms if you are "
+"<b>sure</b> your platform behaves the same as the chosen one. Please be "
+"sure, because your current network configuration could be damaged."
+msgstr ""
+"यदि तपाईँले आफ्नो प्लेटफर्मले रोजेको कुनैले जस्तो व्यवहार गर्छ भन्ने "
+"<b>निश्चित</b> हुनुहुन्छ भने तपाईँले निम्न समर्थित प्लेटफर्म मध्ये एउटा छनोट "
+"गर्न सक्नुहुन्छ । कृपया निश्चित हुनुहोस्, किनभने तपाईँको हालको सञ्जाल "
+"कन्फिगरेसन नष्ट हुनसक्छ ।"
+
+#: rc.cpp:360
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:361
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"

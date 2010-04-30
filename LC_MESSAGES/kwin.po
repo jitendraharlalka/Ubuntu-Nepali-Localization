@@ -1,0 +1,932 @@
+# translation of kwin.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Shyam Krishna Bal <shyam@mpp.org.np>, 2006.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:56+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:37+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: activation.cpp:747
+#, kde-format
+msgid "Window '%1' demands attention."
+msgstr "'%1' सञ्झ्यालले ध्यानकर्षण गर्दछ"
+
+#: composite.cpp:300
+#, kde-format
+msgid ""
+"Compositing has been suspended by another application.<br/>You can resume "
+"using the '%1' shortcut."
+msgstr ""
+
+#: composite.cpp:554
+msgid ""
+"Compositing was too slow and has been suspended.\n"
+"You can disable functionality checks in advanced compositing settings."
+msgstr ""
+
+#: composite.cpp:557
+#, kde-format
+msgid ""
+"Compositing was too slow and has been suspended.\n"
+"If this was only a temporary problem, you can resume using the '%1' "
+"shortcut.\n"
+"You can also disable functionality checks in advanced compositing settings."
+msgstr ""
+
+#: compositingprefs.cpp:87
+msgid "Required X extensions (XComposite and XDamage) are not available."
+msgstr ""
+
+#: compositingprefs.cpp:91
+msgid "GLX/OpenGL are not available and only OpenGL support is compiled."
+msgstr ""
+
+#: compositingprefs.cpp:94
+msgid ""
+"XRender/XFixes extensions are not available and only XRender support is "
+"compiled."
+msgstr ""
+
+#: compositingprefs.cpp:100
+msgid "GLX/OpenGL and XRender/XFixes are not available."
+msgstr ""
+
+#: compositingprefs.cpp:105
+msgid ""
+"Compositing was disabled at compile time.\n"
+"It is likely Xorg development headers were not installed."
+msgstr ""
+
+#: kwinbindings.cpp:51
+msgid "System"
+msgstr "प्रणाली"
+
+#: kwinbindings.cpp:54
+msgid "Navigation"
+msgstr "नेभिगेसन"
+
+#: kwinbindings.cpp:55
+msgid "Walk Through Windows"
+msgstr "सञ्झ्याल मार्फत जानुहोस्"
+
+#: kwinbindings.cpp:56
+msgid "Walk Through Windows (Reverse)"
+msgstr "सञ्झ्याल (उल्टो) मार्फत जानुहोस्"
+
+#: kwinbindings.cpp:57
+msgid "Walk Through Window Tabs"
+msgstr ""
+
+#: kwinbindings.cpp:58
+msgid "Walk Through Window Tabs (Reverse)"
+msgstr ""
+
+#: kwinbindings.cpp:59
+msgid "Remove Window From Group"
+msgstr ""
+
+#: kwinbindings.cpp:60
+msgid "Walk Through Windows Alternative"
+msgstr ""
+
+#: kwinbindings.cpp:61
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr ""
+
+#: kwinbindings.cpp:62
+msgid "Walk Through Desktops"
+msgstr "डेस्कटप मार्फत जानुहोस्"
+
+#: kwinbindings.cpp:63
+msgid "Walk Through Desktops (Reverse)"
+msgstr "डेस्कटप (उल्टो) मार्फत जानुहोस्"
+
+#: kwinbindings.cpp:64
+msgid "Walk Through Desktop List"
+msgstr "डेस्कटप सूची मार्फत जानुहोस्"
+
+#: kwinbindings.cpp:65
+msgid "Walk Through Desktop List (Reverse)"
+msgstr "डेस्कटप सूची (उल्टो) मार्फत जानुहोस्"
+
+#: kwinbindings.cpp:68
+msgid "Windows"
+msgstr "सञ्झ्याल"
+
+#: kwinbindings.cpp:69
+msgid "Window Operations Menu"
+msgstr "सञ्झ्याल सञ्चालन मेनुहरू"
+
+#: kwinbindings.cpp:71
+msgid "Close Window"
+msgstr "सञ्झ्याल बन्द गर्नुहोस्"
+
+#: kwinbindings.cpp:73
+msgid "Maximize Window"
+msgstr "सञ्झ्याल बढाउनुहोस्"
+
+#: kwinbindings.cpp:75
+msgid "Maximize Window Vertically"
+msgstr "ठाडो तरिकाले सञ्झ्याल बढाउनुहोस्"
+
+#: kwinbindings.cpp:77
+msgid "Maximize Window Horizontally"
+msgstr "तेर्सो तरिकाले सञ्झ्याल बढाउनुहोस्"
+
+#: kwinbindings.cpp:79
+msgid "Minimize Window"
+msgstr "सञ्झ्याल घटाउनुहोस्"
+
+#: kwinbindings.cpp:81
+msgid "Shade Window"
+msgstr "सञ्झ्याल सेड गर्नुहोस्"
+
+#: kwinbindings.cpp:83
+msgid "Move Window"
+msgstr "सञ्झ्याल सार्नुहोस्"
+
+#: kwinbindings.cpp:85
+msgid "Resize Window"
+msgstr "सञ्झ्याल रिसाइज गर्नुहोस्"
+
+#: kwinbindings.cpp:87
+msgid "Raise Window"
+msgstr "सञ्झ्याल बढाउनुहोस्"
+
+#: kwinbindings.cpp:89
+msgid "Lower Window"
+msgstr "सञ्झ्याल घटाउनुहोस्"
+
+#: kwinbindings.cpp:91
+msgid "Toggle Window Raise/Lower"
+msgstr "सञ्झ्याल बढाउने/घटाउने टगल गर्नुहोस्"
+
+#: kwinbindings.cpp:93
+msgid "Make Window Fullscreen"
+msgstr "सञ्झ्याललाई पूरा पर्दा गर्नुहोस्"
+
+#: kwinbindings.cpp:95
+msgid "Hide Window Border"
+msgstr "सञ्झ्याल किनारा लुकाउनुहोस्"
+
+#: kwinbindings.cpp:97
+msgid "Keep Window Above Others"
+msgstr "अन्यको माथि सञ्झ्याल राख्नुहोस्"
+
+#: kwinbindings.cpp:99
+msgid "Keep Window Below Others"
+msgstr "अन्यको तल सञ्झ्याल राख्नुहोस्"
+
+#: kwinbindings.cpp:101
+msgid "Activate Window Demanding Attention"
+msgstr "सञ्झ्याल ध्यानकर्षण सक्रिय पार्नुहोस्"
+
+#: kwinbindings.cpp:103
+msgid "Setup Window Shortcut"
+msgstr "सञ्झ्याल सर्टकट सेटअप गर्नुहोस्"
+
+#: kwinbindings.cpp:105
+msgid "Pack Window to the Right"
+msgstr "दाँयामा सञ्झ्याल प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:107
+msgid "Pack Window to the Left"
+msgstr "बाँयामा सञ्झ्याल प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:109
+msgid "Pack Window Up"
+msgstr "माथि सञ्झ्याल प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:111
+msgid "Pack Window Down"
+msgstr "तल सञ्झ्याल प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:113
+msgid "Pack Grow Window Horizontally"
+msgstr "विस्तार सञ्झ्याल तेर्सो तरिकाले प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:115
+msgid "Pack Grow Window Vertically"
+msgstr "विस्तार सञ्झ्याल ठाडो तरिकाले प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:117
+msgid "Pack Shrink Window Horizontally"
+msgstr "घट्दो सञ्झ्याल तेर्सो तरिकाले प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:119
+msgid "Pack Shrink Window Vertically"
+msgstr "घट्दो सञ्झ्याल तेर्सो तरिकाले प्याक गर्नुहोस्"
+
+#: kwinbindings.cpp:121
+msgid "Quick Tile Window to the Left"
+msgstr ""
+
+#: kwinbindings.cpp:123
+msgid "Quick Tile Window to the Right"
+msgstr ""
+
+#: kwinbindings.cpp:125
+msgid "Switch to Window Above"
+msgstr ""
+
+#: kwinbindings.cpp:127
+msgid "Switch to Window Below"
+msgstr ""
+
+#: kwinbindings.cpp:129
+msgid "Switch to Window to the Right"
+msgstr ""
+
+#: kwinbindings.cpp:131
+msgid "Switch to Window to the Left"
+msgstr ""
+
+#: kwinbindings.cpp:135
+msgid "Window & Desktop"
+msgstr "सञ्झ्याल र डेस्कटप"
+
+#: kwinbindings.cpp:136
+msgid "Keep Window on All Desktops"
+msgstr "सबै डेस्कटपहरूमा सञ्झ्याल राख्नुहोस्"
+
+#: kwinbindings.cpp:138
+msgid "Window to Desktop 1"
+msgstr "सञ्झ्याल देखि डेस्कटप १ सम्म"
+
+#: kwinbindings.cpp:139
+msgid "Window to Desktop 2"
+msgstr "सञ्झ्याल देखि डेस्कटप २ सम्म"
+
+#: kwinbindings.cpp:140
+msgid "Window to Desktop 3"
+msgstr "सञ्झ्याल देखि डेस्कटप ३ सम्म"
+
+#: kwinbindings.cpp:141
+msgid "Window to Desktop 4"
+msgstr "सञ्झ्याल देखि डेस्कटप ४ सम्म"
+
+#: kwinbindings.cpp:142
+msgid "Window to Desktop 5"
+msgstr "सञ्झ्याल देखि डेस्कटप ५ सम्म"
+
+#: kwinbindings.cpp:143
+msgid "Window to Desktop 6"
+msgstr "सञ्झ्याल देखि डेस्कटप ६ सम्म"
+
+#: kwinbindings.cpp:144
+msgid "Window to Desktop 7"
+msgstr "सञ्झ्याल देखि डेस्कटप ७ सम्म"
+
+#: kwinbindings.cpp:145
+msgid "Window to Desktop 8"
+msgstr "सञ्झ्याल देखि डेस्कटप ८ सम्म"
+
+#: kwinbindings.cpp:146
+msgid "Window to Desktop 9"
+msgstr "सञ्झ्याल देखि डेस्कटप ९ सम्म"
+
+#: kwinbindings.cpp:147
+msgid "Window to Desktop 10"
+msgstr "सञ्झ्याल देखि डेस्कटप १० सम्म"
+
+#: kwinbindings.cpp:148
+msgid "Window to Desktop 11"
+msgstr "सञ्झ्याल देखि डेस्कटप ११ सम्म"
+
+#: kwinbindings.cpp:149
+msgid "Window to Desktop 12"
+msgstr "सञ्झ्याल देखि डेस्कटप १२ सम्म"
+
+#: kwinbindings.cpp:150
+msgid "Window to Desktop 13"
+msgstr "सञ्झ्याल देखि डेस्कटप १३ सम्म"
+
+#: kwinbindings.cpp:151
+msgid "Window to Desktop 14"
+msgstr "सञ्झ्याल देखि डेस्कटप १४ सम्म"
+
+#: kwinbindings.cpp:152
+msgid "Window to Desktop 15"
+msgstr "सञ्झ्याल देखि डेस्कटप १५ सम्म"
+
+#: kwinbindings.cpp:153
+msgid "Window to Desktop 16"
+msgstr "सञ्झ्याल देखि डेस्कटप १६ सम्म"
+
+#: kwinbindings.cpp:154
+msgid "Window to Desktop 17"
+msgstr "सञ्झ्याल देखि डेस्कटप १७ सम्म"
+
+#: kwinbindings.cpp:155
+msgid "Window to Desktop 18"
+msgstr "सञ्झ्याल देखि डेस्कटप १८ सम्म"
+
+#: kwinbindings.cpp:156
+msgid "Window to Desktop 19"
+msgstr "सञ्झ्याल देखि डेस्कटप १९ सम्म"
+
+#: kwinbindings.cpp:157
+msgid "Window to Desktop 20"
+msgstr "सञ्झ्याल देखि डेस्कटप २० सम्म"
+
+#: kwinbindings.cpp:158
+msgid "Window to Next Desktop"
+msgstr "सञ्झ्याल देखि अर्को डेस्कटप सम्म"
+
+#: kwinbindings.cpp:159
+msgid "Window to Previous Desktop"
+msgstr "सञ्झ्याल देखि अघिल्लो डेस्कटप सम्म"
+
+#: kwinbindings.cpp:160
+msgid "Window One Desktop to the Right"
+msgstr "सञ्झ्याल एक डेस्कटप देखि दाँया सम्म"
+
+#: kwinbindings.cpp:161
+msgid "Window One Desktop to the Left"
+msgstr "सञ्झ्याल एक डेस्कटप देखि बाँया सम्म"
+
+#: kwinbindings.cpp:162
+msgid "Window One Desktop Up"
+msgstr "एक डेस्कटप माथि सञ्झ्याल"
+
+#: kwinbindings.cpp:163
+msgid "Window One Desktop Down"
+msgstr "एक डेस्कटप तल सञ्झ्याल"
+
+#: kwinbindings.cpp:164
+msgid "Window to Screen 0"
+msgstr "पर्दा ० मा सञ्झ्याल"
+
+#: kwinbindings.cpp:165
+msgid "Window to Screen 1"
+msgstr "पर्दा १ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:166
+msgid "Window to Screen 2"
+msgstr "पर्दा २ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:167
+msgid "Window to Screen 3"
+msgstr "पर्दा ३ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:168
+msgid "Window to Screen 4"
+msgstr "पर्दा ४ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:169
+msgid "Window to Screen 5"
+msgstr "पर्दा ५ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:170
+msgid "Window to Screen 6"
+msgstr "पर्दा ६ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:171
+msgid "Window to Screen 7"
+msgstr "पर्दा ७ मा सञ्झ्याल"
+
+#: kwinbindings.cpp:172
+msgid "Window to Next Screen"
+msgstr "पछिल्लो पर्दामा सञ्झ्याल"
+
+#: kwinbindings.cpp:173
+msgid "Show Desktop"
+msgstr ""
+
+#: kwinbindings.cpp:176
+msgid "Desktop Switching"
+msgstr "डेस्कटप स्विचिङ"
+
+#: kwinbindings.cpp:177
+msgid "Switch to Desktop 1"
+msgstr "डेस्कटप १ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:178
+msgid "Switch to Desktop 2"
+msgstr "डेस्कटप २ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:179
+msgid "Switch to Desktop 3"
+msgstr "डेस्कटप ३ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:180
+msgid "Switch to Desktop 4"
+msgstr "डेस्कटप ४ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:181
+msgid "Switch to Desktop 5"
+msgstr "डेस्कटप ५ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:182
+msgid "Switch to Desktop 6"
+msgstr "डेस्कटप ६ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:183
+msgid "Switch to Desktop 7"
+msgstr "डेस्कटप ७ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:184
+msgid "Switch to Desktop 8"
+msgstr "डेस्कटप ८ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:185
+msgid "Switch to Desktop 9"
+msgstr "डेस्कटप ९ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:186
+msgid "Switch to Desktop 10"
+msgstr "डेस्कटप १० मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:187
+msgid "Switch to Desktop 11"
+msgstr "डेस्कटप ११ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:188
+msgid "Switch to Desktop 12"
+msgstr "डेस्कटप १२ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:189
+msgid "Switch to Desktop 13"
+msgstr "डेस्कटप १३ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:190
+msgid "Switch to Desktop 14"
+msgstr "डेस्कटप १४ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:191
+msgid "Switch to Desktop 15"
+msgstr "डेस्कटप १५ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:192
+msgid "Switch to Desktop 16"
+msgstr "डेस्कटप १६ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:193
+msgid "Switch to Desktop 17"
+msgstr "डेस्कटप १७ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:194
+msgid "Switch to Desktop 18"
+msgstr "डेस्कटप १८ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:195
+msgid "Switch to Desktop 19"
+msgstr "डेस्कटप १९ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:196
+msgid "Switch to Desktop 20"
+msgstr "डेस्कटप २० मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:197
+msgid "Switch to Next Desktop"
+msgstr "पछिल्लो डेस्कटपमा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:198
+msgid "Switch to Previous Desktop"
+msgstr "अघिल्लो डेस्कटपमा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:199
+msgid "Switch One Desktop to the Right"
+msgstr "एक डेस्कटप देखि दाँयामा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:200
+msgid "Switch One Desktop to the Left"
+msgstr "एक डेस्कटप देखि बाँयामा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:201
+msgid "Switch One Desktop Up"
+msgstr "एक डेस्कटप माथि स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:202
+msgid "Switch One Desktop Down"
+msgstr "एक डेस्कटप तल स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:203
+msgid "Switch to Screen 0"
+msgstr "पर्दा ० मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:204
+msgid "Switch to Screen 1"
+msgstr "पर्दा १ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:205
+msgid "Switch to Screen 2"
+msgstr "पर्दा २ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:206
+msgid "Switch to Screen 3"
+msgstr "पर्दा ३ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:207
+msgid "Switch to Screen 4"
+msgstr "पर्दा ४ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:208
+msgid "Switch to Screen 5"
+msgstr "पर्दा ५ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:209
+msgid "Switch to Screen 6"
+msgstr "पर्दा ६ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:210
+msgid "Switch to Screen 7"
+msgstr "पर्दा ७ मा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:211
+msgid "Switch to Next Screen"
+msgstr "पछिल्लो पर्दामा स्विच गर्नुहोस्"
+
+#: kwinbindings.cpp:214
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#: kwinbindings.cpp:215
+msgid "Mouse Emulation"
+msgstr "माउस इमुलेशन"
+
+#: kwinbindings.cpp:216
+msgid "Kill Window"
+msgstr "सञ्झ्याल नष्ट गर्नुहोस्"
+
+#: kwinbindings.cpp:217
+msgid "Window Screenshot to Clipboard"
+msgstr ""
+
+#: kwinbindings.cpp:218
+msgid "Desktop Screenshot to Clipboard"
+msgstr ""
+
+#: kwinbindings.cpp:219
+msgid "Block Global Shortcuts"
+msgstr "विश्वव्यापी सर्टकट निषेध गर्नुहोस्"
+
+#: kwinbindings.cpp:220
+msgid "Suspend Compositing"
+msgstr ""
+
+#: main.cpp:178
+msgid ""
+"kwin: it looks like there's already a window manager running. kwin not "
+"started.\n"
+msgstr ""
+"केडीई विन:त्यहाँ पहिले नै सञ्झ्याल प्रबन्धक चालु छ जस्तो देखिन्छ । केडीई विन "
+"सुरु भएको छैन ।\n"
+
+#: main.cpp:207
+msgid ""
+"KWin is unstable.\n"
+"It seems to have crashed several times in a row.\n"
+"You can select another window manager to run:"
+msgstr ""
+"केडीई विन अस्थिर छ ।\n"
+"यो पङ्क्तिमा धेरै पटक नष्ट भएको देखिन्छ ।\n"
+"तपाईँले चलाउनका लागि अर्को सञ्झ्याल प्रबन्धक चयन गर्न सक्नुहुन्छ:"
+
+#: main.cpp:267
+msgid ""
+"kwin: unable to claim manager selection, another wm running? (try using --"
+"replace)\n"
+msgstr ""
+"केडीई विन: प्रबन्धक चयन अनुरोध गर्दा अक्षम, अर्को डब्लु एम चालु छ ? (--"
+"'बदल्नुहोस्' प्रयोग गर्न प्रयास गर्नुहोस्)\n"
+
+#: main.cpp:399
+msgid "KDE window manager"
+msgstr "केडीई सञ्झ्याल प्रबन्धक"
+
+#: main.cpp:474 killer/killer.cpp:37
+msgid "KWin"
+msgstr "केडीई विन"
+
+#: main.cpp:478
+msgid "(c) 1999-2008, The KDE Developers"
+msgstr ""
+
+#: main.cpp:479
+msgid "Matthias Ettrich"
+msgstr "माथियस इट्रिच"
+
+#: main.cpp:480
+msgid "Cristian Tibirna"
+msgstr "क्रिस्टियन टिबिर्ना"
+
+#: main.cpp:481
+msgid "Daniel M. Duley"
+msgstr "डानियल एम.डुले"
+
+#: main.cpp:482
+msgid "Luboš Luňák"
+msgstr "लुबोस लुनाक"
+
+#: main.cpp:482
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: main.cpp:487
+msgid "Disable configuration options"
+msgstr "कन्फिगरेसन विकल्प अक्षम पार्नुहोस्"
+
+#: main.cpp:488
+msgid "Replace already-running ICCCM2.0-compliant window manager"
+msgstr "चालु ICCCM२.०-कम्प्लेन्ट सञ्झ्याल प्रबन्धक प्रतिस्थापन गर्नुहोस्"
+
+#: main.cpp:489
+msgid "Indicate that KWin has recently crashed n times"
+msgstr "भर्खरै केडीई विन एन पटक नष्ट भयो भन्ने इङ्कित गर्नुहोस्"
+
+#: plugins.cpp:42
+msgid "KWin: "
+msgstr "केडीई विन: "
+
+#: plugins.cpp:43
+msgid ""
+"\n"
+"KWin will now exit..."
+msgstr ""
+"\n"
+"केडीई विन अहिले अन्त्य हुनेछ..."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com,,,"
+
+#: useractions.cpp:73
+msgid "Keep &Above Others"
+msgstr "अन्यको माथि राख्नुहोस्"
+
+#: useractions.cpp:81
+msgid "Keep &Below Others"
+msgstr "अन्यको तल राख्नुहोस्"
+
+#: useractions.cpp:89
+msgid "&Fullscreen"
+msgstr "पूरा पर्दा"
+
+#: useractions.cpp:97
+msgid "&No Border"
+msgstr "किनारा छैन"
+
+#: useractions.cpp:104
+msgid "Window &Shortcut..."
+msgstr "सञ्झ्याल सर्टकट..."
+
+#: useractions.cpp:111
+msgid "&Special Window Settings..."
+msgstr "विशेष सञ्झ्याल सेटिङ..."
+
+#: useractions.cpp:115
+msgid "&Special Application Settings..."
+msgstr "विशेष अनुप्रयोग सेटिङ..."
+
+#: useractions.cpp:134
+msgid "&Opacity"
+msgstr "अस्पष्टता"
+
+#: useractions.cpp:137
+msgid "&Move"
+msgstr "सार्नुहोस्"
+
+#: useractions.cpp:144
+msgid "Re&size"
+msgstr "रिसाइज"
+
+#: useractions.cpp:150
+msgid "Mi&nimize"
+msgstr "घटाउनुहोस्"
+
+#: useractions.cpp:156
+msgid "Ma&ximize"
+msgstr "बढाउनुहोस्"
+
+#: useractions.cpp:163
+msgid "Sh&ade"
+msgstr "छायाँ लगाउनुहोस्"
+
+#: useractions.cpp:175
+msgid "Remove &from group"
+msgstr ""
+
+#: useractions.cpp:181
+msgid "Close entire &group"
+msgstr ""
+
+#: useractions.cpp:192
+msgid "Ad&vanced"
+msgstr "उन्नत"
+
+#: useractions.cpp:199
+msgid "Configur&e Window Behavior..."
+msgstr "सञ्झ्याल व्यवहार कन्फिगर गर्नुहोस्..."
+
+#: useractions.cpp:205
+msgid "&Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: useractions.cpp:308
+msgid "Switch to window tab"
+msgstr ""
+
+#: useractions.cpp:349
+msgid "To the left"
+msgstr ""
+
+#: useractions.cpp:351
+msgid "To the right"
+msgstr ""
+
+#: useractions.cpp:380
+msgid "Move window to group"
+msgstr ""
+
+#: useractions.cpp:423
+msgid "To &Desktop"
+msgstr "डेस्कटपमा"
+
+#: useractions.cpp:436
+msgid "&All Desktops"
+msgstr "सबै डेस्कटप"
+
+#: useractions.cpp:615
+#, kde-format
+msgid "Activate Window (%1)"
+msgstr ""
+
+#: workspace.cpp:1190 workspace.cpp:1210
+#, kde-format
+msgid "Desktop %1"
+msgstr "डेस्कटप %1"
+
+#: workspace.cpp:2590
+#, kde-format
+msgid ""
+"You have selected to show a window without its border.\n"
+"Without the border, you will not be able to enable the border again using "
+"the mouse: use the window operations menu instead, activated using the %1 "
+"keyboard shortcut."
+msgstr ""
+"सञ्झ्यालको किनारा नदेखाईकन तपाईँले चयन गर्नुपर्छ ।\n"
+"किनारा बिना, तपाईँले माउस प्रयोग गरेर फेरि किनारा सक्षम पार्न सक्नुहुन्न: "
+"यसको सट्टामा %1 कुञ्जीपाटी प्रयोग गरेर सक्रिय गरिएको, सञ्चालन मेनु प्रयोग "
+"गर्नुहोस् ।"
+
+#: workspace.cpp:2604
+#, kde-format
+msgid ""
+"You have selected to show a window in fullscreen mode.\n"
+"If the application itself does not have an option to turn the fullscreen "
+"mode off you will not be able to disable it again using the mouse: use the "
+"window operations menu instead, activated using the %1 keyboard shortcut."
+msgstr ""
+"तपाईँले पूरा पर्दा मोडमा सञ्झ्याल देखाउन चयन गर्नुपर्छ ।\n"
+"यदि अनुप्रयोग आफैसँग पूरा पर्दा मोड बन्द गर्न कुनै विकल्प छैन भने तपाईँ माउस "
+"प्रयोग गरेर यसलाई फेरि अक्षम पार्न सक्षम हुनुहुने छैन: यसको सट्टामा %1 "
+"कुञ्जीपाटी सर्टकट प्रयोग गरेर सक्रिय गरिएको, सञ्झ्याल सञ्चालन मेनु प्रयोग "
+"गर्नुहोस् ।"
+
+#: killer/killer.cpp:38
+msgid "KWin helper utility"
+msgstr "केडीई विन सहयोगी युटिलिटी"
+
+#: killer/killer.cpp:41
+msgid "PID of the application to terminate"
+msgstr ""
+
+#: killer/killer.cpp:42
+msgid "Hostname on which the application is running"
+msgstr ""
+
+#: killer/killer.cpp:43
+msgid "Caption of the window to be terminated"
+msgstr ""
+
+#: killer/killer.cpp:44
+msgid "Name of the application to be terminated"
+msgstr ""
+
+#: killer/killer.cpp:45
+msgid "ID of resource belonging to the application"
+msgstr ""
+
+#: killer/killer.cpp:46
+msgid "Time of user action causing termination"
+msgstr ""
+
+#: killer/killer.cpp:64
+msgid "This helper utility is not supposed to be called directly."
+msgstr "यो सहयोगीलाई प्रत्यक्ष कल गर्न मिल्दैन ।"
+
+#: killer/killer.cpp:68
+#, kde-format
+msgid ""
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child "
+"windows</em>?<br /><b>Any unsaved data will be lost.</b></p>"
+msgstr ""
+
+#: killer/killer.cpp:74
+#, kde-format
+msgid "&Terminate Application %1"
+msgstr ""
+
+#: lib/kcommondecoration.cpp:291
+#, kde-format
+msgid "<center><b>%1 preview</b></center>"
+msgstr "<center><b>%1 पूर्वावलोकन</b></center>"
+
+#: lib/kcommondecoration.cpp:381
+msgid "Menu"
+msgstr "मेनु"
+
+#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:608
+msgid "Not on all desktops"
+msgstr "सबै डेस्कटपमा होइन"
+
+#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:609
+msgid "On all desktops"
+msgstr "सबै डेस्कटपमा"
+
+#: lib/kcommondecoration.cpp:412
+msgid "Help"
+msgstr "मद्दत"
+
+#: lib/kcommondecoration.cpp:425
+msgid "Minimize"
+msgstr "घटाउनुहोस्"
+
+#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:596
+msgid "Restore"
+msgstr "पूर्वावस्थामा ल्याउनुहोस्"
+
+#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:595
+msgid "Maximize"
+msgstr "बढाउनुहोस्"
+
+#: lib/kcommondecoration.cpp:455
+msgid "Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:651
+msgid "Do not keep above others"
+msgstr "अन्यको माथि नराख्नुहोस्"
+
+#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:651
+#: lib/kcommondecoration.cpp:675
+msgid "Keep above others"
+msgstr "अन्यको माथि राख्नुहोस्"
+
+#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:668
+msgid "Do not keep below others"
+msgstr "अन्यको तल नराख्नुहोस्"
+
+#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:658
+#: lib/kcommondecoration.cpp:668
+msgid "Keep below others"
+msgstr "अन्यको तल राख्नुहोस्"
+
+#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:620
+msgid "Unshade"
+msgstr "छायाँ हटाउनुहोस्"
+
+#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:621
+msgid "Shade"
+msgstr "छायाँ लगाउनुहोस्"
+
+#: lib/kdecoration_plugins_p.cpp:128
+msgid "No window decoration plugin library was found."
+msgstr "कुनै सञ्झ्याल सजावट प्लगइन पुस्तकालय फेला परेन ।"
+
+#: lib/kdecoration_plugins_p.cpp:154
+msgid "The default decoration plugin is corrupt and could not be loaded."
+msgstr "पूर्वनिर्धारित सजावट प्लगइन ध्वस्त छ र लोड गर्न सकिँदैन ।"
+
+#: lib/kdecoration_plugins_p.cpp:168 lib/kdecoration_plugins_p.cpp:173
+#, kde-format
+msgid "The library %1 is not a KWin plugin."
+msgstr "%1 लाइब्रेरी केडीई विन प्लगइन होइन ।"
+
+#: tabbox/clientmodel.cpp:57
+msgid "*** No Windows ***"
+msgstr "*** सञ्झ्याल छैन ***"

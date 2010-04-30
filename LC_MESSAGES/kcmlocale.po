@@ -1,0 +1,812 @@
+# translation of kcmlocale.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-16 21:53+0000\n"
+"PO-Revision-Date: 2009-07-16 09:58+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 03:59+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: countryselectordialog.cpp:217
+msgid "Country Selector"
+msgstr "देश छनौटकर्ता"
+
+#: countryselectordialog.cpp:263 countryselectordialog.cpp:278
+msgid "without name"
+msgstr "नाम रहित"
+
+#: countryselectordialog.cpp:294
+msgctxt "@item:inlistbox Country"
+msgid "Not set (Generic English)"
+msgstr ""
+
+#. i18n: file: language.ui:28
+#. i18n: ectx: property (text), widget (QLabel, m_crLabel)
+#: kcmlocale.cpp:77 rc.cpp:3
+msgid "Country or region:"
+msgstr ""
+
+#. i18n: file: language.ui:38
+#. i18n: ectx: property (text), widget (QLabel, m_languagesLabel)
+#: kcmlocale.cpp:78 rc.cpp:6
+msgid "Languages:"
+msgstr "भाषा:"
+
+#. i18n: file: language.ui:142
+#. i18n: ectx: property (text), widget (QPushButton, languageRemove)
+#: kcmlocale.cpp:79 rc.cpp:12
+msgid "Remove"
+msgstr "हटाउनुहोस्"
+
+#: kcmlocale.cpp:281
+msgctxt "@item:intext Country"
+msgid "Not set (Generic English)"
+msgstr ""
+
+#: kcmlocale.cpp:282
+#, kde-format
+msgctxt "@info %1 is country name"
+msgid "<html>%1 (<a href=\"changeCountry\">change...</a>)</html>"
+msgstr "<html>%1 (<a href=\"changeCountry\">परिवर्तन...</a>)</html>"
+
+#. i18n: file: language.ui:173
+#. i18n: ectx: property (text), widget (QPushButton, installLanguage)
+#: kcmlocale.cpp:287 rc.cpp:18
+msgid "Install New Language"
+msgstr ""
+
+#. i18n: file: language.ui:166
+#. i18n: ectx: property (text), widget (QPushButton, uninstallLanguage)
+#: kcmlocale.cpp:288 rc.cpp:15
+msgid "Uninstall Language"
+msgstr ""
+
+#. i18n: file: language.ui:180
+#. i18n: ectx: property (text), widget (QPushButton, selectLanguage)
+#: kcmlocale.cpp:289 rc.cpp:21
+msgid "Select System Language"
+msgstr ""
+
+#. i18n: file: language.ui:187
+#. i18n: ectx: property (text), widget (QLabel, languageSelectorInfo)
+#: kcmlocale.cpp:290 rc.cpp:24
+msgid ""
+"<qt>Install <em>language-selector-qt</em> to be able to add more "
+"languages.</qt>"
+msgstr ""
+
+#: kcmlocale.cpp:291
+msgid "Add Language"
+msgstr "भाषा थप्नुहोस्"
+
+#: kcmlocale.cpp:294
+msgid ""
+"This is where you live. KDE will use the defaults for this country or region."
+msgstr ""
+"यो तपाईँ रहने ठाउँ हो । केडीईले यो देश वा क्षेत्रका लागि पूर्वनिर्धारित "
+"प्रयोग गर्नेछ ।"
+
+#: kcmlocale.cpp:297
+msgid ""
+"This will add a language to the list. If the language is already in the "
+"list, the old one will be moved instead."
+msgstr ""
+"यसले सूचीमा एउटा भाषा थप्नेछ । यदि भाषा पहिले नै सूचीमा भएमा, यसको साटोमा "
+"पुरानो सारिने छ ।"
+
+#: kcmlocale.cpp:301
+msgid "This will remove the highlighted language from the list."
+msgstr "यसले सूचीबाट हाइलाइट गरिएका भाषा हटाउने छ ।"
+
+#: kcmlocale.cpp:304
+msgid ""
+"KDE programs will be displayed in the first available language in this "
+"list.\n"
+"If none of the languages are available, US English will be used."
+msgstr ""
+"यो सूचीमा उपलब्ध भाषा मध्ये केडीई कार्यक्रम पहिला प्रदर्शित हुनेछन् ।\n"
+"यदि कुनै पनि भाषा उपलब्ध नभएमा, यूएस अङ्ग्रेजी प्रयोग हुनेछ ।"
+
+#: kcmlocale.cpp:311
+msgid ""
+"Here you can choose your country or region. The settings for languages, "
+"numbers etc. will automatically switch to the corresponding values."
+msgstr ""
+"यहाँ तपाईँको देश वा क्षेत्र रोज्न सक्नुहुन्छ । भाषा र नम्बर आदिका सेटिङ संगत "
+"मानमा स्वत: स्विच हुनेछन् ।"
+
+#: kcmlocale.cpp:318
+msgid ""
+"<p>Here you can choose the languages that will be used by KDE. If the first "
+"language in the list is not available, the second will be used, etc. If only "
+"US English is available, no translations have been installed. You can get "
+"translation packages for many languages from the place you got KDE "
+"from.</p><p>Note that some applications may not be translated to your "
+"languages; in this case, they will automatically fall back to US English.</p>"
+msgstr ""
+"<p>यहाँ तपाईँले केडीई द्वारा प्रयोग हुने भाषा रोज्न सक्नुहुन्छ । यदि सूचीको "
+"पहिलो भाषा उपलब्ध छैन भने, दोश्रो प्रयोग गरिने छ, यदि यूएस अङ्ग्रेजी उपलब्ध "
+"भएमा, अनुवाद स्थापना गरिने छैन । तपाईँले केडीई प्राप्त गर्ने स्थानबाट धेरै "
+"भाषाका लागि अनुवाद प्याकेज प्राप्त गर्न सक्नुहुन्छ ।</p><p>याद गर्नुहोस् "
+"कुनै भाषा तपाईँको भाषामा अनुवाद नहुन सक्छन्; यस्तो अवस्थामा तीनिहरू स्वत: "
+"यूएस अङ्ग्रेजीमा हुनेछन् ।</p>"
+
+#: klocalesample.cpp:46
+msgid "Numbers:"
+msgstr "नम्बर:"
+
+#: klocalesample.cpp:51
+msgid "Money:"
+msgstr "मुद्रा:"
+
+#: klocalesample.cpp:56
+msgid "Date:"
+msgstr "मिति:"
+
+#: klocalesample.cpp:61
+msgid "Short date:"
+msgstr "छोटो मिति:"
+
+#: klocalesample.cpp:66
+msgid "Time:"
+msgstr "समय:"
+
+#: klocalesample.cpp:103
+msgid "This is how numbers will be displayed."
+msgstr "यसरी नम्बर प्रदर्शित हुनेछन् ।"
+
+#: klocalesample.cpp:107
+msgid "This is how monetary values will be displayed."
+msgstr "यसरी मौद्रिक मान प्रदर्शित हुनेछन् ।"
+
+#: klocalesample.cpp:111
+msgid "This is how date values will be displayed."
+msgstr "यसरी मिति मान प्रदर्शित हुनेछन् ।"
+
+#: klocalesample.cpp:115
+msgid "This is how date values will be displayed using a short notation."
+msgstr "यसरी छोटा नोटेसन प्रयोग गरेर मिति मान प्रदर्शित हुनेछन् ।"
+
+#: klocalesample.cpp:120
+msgid "This is how the time will be displayed."
+msgstr "यसरी समय प्रदर्शित हुनेछ ।"
+
+#. i18n: file: localemon.ui:78
+#. i18n: ectx: property (text), widget (QLabel, m_labelCurrencyCode)
+#: localemon.cpp:47 rc.cpp:39
+msgid "Currency:"
+msgstr ""
+
+#. i18n: file: localemon.ui:91
+#. i18n: ectx: property (text), widget (QLabel, m_labelCurrencySymbol)
+#: localemon.cpp:48 rc.cpp:42
+msgid "Currency symbol:"
+msgstr "मुद्रा प्रतीक:"
+
+#. i18n: file: localemon.ui:19
+#. i18n: ectx: property (text), widget (QLabel, m_labMonDecSym)
+#: localemon.cpp:49 rc.cpp:27
+msgid "Decimal symbol:"
+msgstr "दशमलव प्रतीक:"
+
+#. i18n: file: localemon.ui:32
+#. i18n: ectx: property (text), widget (QLabel, m_labMonThoSep)
+#: localemon.cpp:50 rc.cpp:30
+msgid "Thousands separator:"
+msgstr "हजार विभाजक:"
+
+#. i18n: file: localemon.ui:45
+#. i18n: ectx: property (text), widget (QLabel, m_labelMonetaryDecimalPlaces)
+#: localemon.cpp:51 rc.cpp:33
+msgid "Decimal places:"
+msgstr ""
+
+#. i18n: file: localemon.ui:108
+#. i18n: ectx: property (title), widget (QGroupBox, m_positiveGB)
+#: localemon.cpp:52 rc.cpp:45
+msgid "Positive"
+msgstr "धनात्मक"
+
+#. i18n: file: localemon.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, m_chMonPosPreCurSym)
+#. i18n: file: localemon.ui:183
+#. i18n: ectx: property (text), widget (QCheckBox, m_chMonNegPreCurSym)
+#: localemon.cpp:53 localemon.cpp:56 rc.cpp:48 rc.cpp:72
+msgid "Prefix currency symbol"
+msgstr "उपसर्ग मुद्रा प्रतीक"
+
+#. i18n: file: localemon.ui:123
+#. i18n: ectx: property (text), widget (QLabel, m_labMonPosMonSignPos)
+#. i18n: file: localemon.ui:192
+#. i18n: ectx: property (text), widget (QLabel, m_labMonNegMonSignPos)
+#: localemon.cpp:54 localemon.cpp:57 rc.cpp:51 rc.cpp:75
+msgid "Sign position:"
+msgstr "धनात्मक चिन्ह:"
+
+#. i18n: file: localemon.ui:177
+#. i18n: ectx: property (title), widget (QGroupBox, m_negativeGB)
+#: localemon.cpp:55 rc.cpp:69
+msgid "Negative"
+msgstr "ऋणात्मक"
+
+#. i18n: file: localemon.ui:65
+#. i18n: ectx: property (text), widget (QLabel, m_labMonDigSet)
+#: localemon.cpp:58 rc.cpp:36
+msgid "Digit set:"
+msgstr ""
+
+#: localemon.cpp:285 localemon.cpp:294
+#, kde-format
+msgctxt "@item currency name and currency code"
+msgid "%1 (%2)"
+msgstr ""
+
+#. i18n: file: localemon.ui:131
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:200
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: localemon.cpp:317 rc.cpp:54 rc.cpp:78
+msgid "Parentheses Around"
+msgstr "वरिपरि कोष्ठक चिन्ह"
+
+#. i18n: file: localemon.ui:136
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: localemon.cpp:318 rc.cpp:57 rc.cpp:81
+msgid "Before Quantity Money"
+msgstr "मुद्रा परिमाण अगाडि"
+
+#. i18n: file: localemon.ui:141
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: localemon.cpp:319 rc.cpp:60 rc.cpp:84
+msgid "After Quantity Money"
+msgstr "मुद्रा परिमाण पछाडि"
+
+#. i18n: file: localemon.ui:146
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:215
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: localemon.cpp:320 rc.cpp:63 rc.cpp:87
+msgid "Before Money"
+msgstr "मुद्रा अगाडि"
+
+#. i18n: file: localemon.ui:151
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: localemon.cpp:321 rc.cpp:66 rc.cpp:90
+msgid "After Money"
+msgstr "मुद्रा पछाडि"
+
+#: localemon.cpp:335
+msgid ""
+"Here you can choose the currency to be used when displaying monetary values, "
+"e.g. United States Dollar or Pound Sterling."
+msgstr ""
+
+#: localemon.cpp:341
+msgid ""
+"Here you can choose the currency symbol to be displayed for your chosen "
+"currency, e.g. $, US$, or USD."
+msgstr ""
+
+#: localemon.cpp:347
+msgid ""
+"<p>Here you can define the decimal separator used to display monetary "
+"values.</p><p>Note that the decimal separator used to display other numbers "
+"has to be defined separately (see the 'Numbers' tab).</p>"
+msgstr ""
+"<p>यहाँ तपाईँले मौद्रिक मान प्रदर्शन गर्न प्रयोग हुने दशमलव विभाजक परिभाषित "
+"गर्न सक्नुहुन्छ ।</p><p>अन्य नम्बर प्रदर्शन गर्न प्रयोग हुने दशमलव विभाजक "
+"फरक रुपले परिभाषित भएको हुनु पर्नेमा याद गर्नुहोस् । ('नम्बर' ट्याबमा "
+"हेर्नुहोस्) ।"
+
+#: localemon.cpp:355
+msgid ""
+"<p>Here you can define the thousands separator used to display monetary "
+"values.</p><p>Note that the thousands separator used to display other "
+"numbers has to be defined separately (see the 'Numbers' tab).</p>"
+msgstr ""
+"<p>यहाँ तपाईँले मौद्रिक मान प्रदर्शन गर्न प्रयोग हुने हजार विभाजक परिभाषित "
+"गर्न सक्नुहुन्छ ।</p><p>अन्य नम्बर प्रदर्शन गर्न प्रयोग हुने हजारौ विभाज फरक "
+"रुपमा परिभाषित गरिएको हुनु पर्नेमा याद गर्नुहोस् ('नम्बर' ट्याब हेर्नुहोस्) "
+"।</p>"
+
+#: localemon.cpp:363
+msgid ""
+"<p>Here you can set the number of decimal places displayed for monetary "
+"values, i.e. the number of digits <em>after</em> the decimal separator. "
+"<p>Note that the decimal places used to display other numbers has to be "
+"defined separately (see the 'Numbers' tab).</p>"
+msgstr ""
+
+#: localemon.cpp:372
+msgid ""
+"If this option is checked, the currency sign will be prefixed (i.e. to the "
+"left of the value) for all positive monetary values. If not, it will be "
+"postfixed (i.e. to the right)."
+msgstr ""
+"यदि यो विकल्प जाँच गरिएमा, मुद्रा चिन्ह सबै धनात्मक मौद्रिक मानका लागि "
+"(जस्तै: मानको बायाँ तिर) उपसर्ग भएको हुनेछ । यदि नभएमा, यो पछि निश्चित गरिने "
+"छ (जस्तै: दायाँ तिर) ।"
+
+#: localemon.cpp:378
+msgid ""
+"If this option is checked, the currency sign will be prefixed (i.e. to the "
+"left of the value) for all negative monetary values. If not, it will be "
+"postfixed (i.e. to the right)."
+msgstr ""
+"यदि यो विकल्प जाँच गरिएमा, मुद्रा चिन्ह सबै ऋणात्मक मौद्रिक मानका लागि "
+"(जस्तै: मानको बायाँ तिर) उपसर्ग भएको हुनेछ । यदि नभएमा, यो पछि निश्चित गरिने "
+"छ (जस्तै: दायाँ तिर) ।"
+
+#: localemon.cpp:384
+msgid ""
+"Here you can select how a positive sign will be positioned. This only "
+"affects monetary values."
+msgstr ""
+"यहाँ तपाईँले धनात्मक चिन्ह राख्ने तरिका चयन गर्न सक्नुहुन्छ । यसले मौद्रिक "
+"मानलाई मात्र प्रभाव पार्छ ।"
+
+#: localemon.cpp:389
+msgid ""
+"Here you can select how a negative sign will be positioned. This only "
+"affects monetary values."
+msgstr ""
+"यहाँ तपाईँले ऋणात्मक मान राख्ने तरीका चयन गर्न सक्नुहुन्छ । यसले मौद्रिक "
+"मानलाई मात्र प्रभाव पार्छ ।"
+
+#: localemon.cpp:395
+msgid ""
+"<p>Here you can define the set of digits used to display monetary values. If "
+"digits other than Arabic are selected, they will appear only if used in the "
+"language of the application or the piece of text where the number is "
+"shown.</p><p>Note that the set of digits used to display other numbers has "
+"to be defined separately (see the 'Numbers' tab).</p>"
+msgstr ""
+
+#: localenum.cpp:48
+msgid "&Decimal symbol:"
+msgstr "दशमलव प्रतीक:"
+
+#: localenum.cpp:58
+msgid "Tho&usands separator:"
+msgstr "हजार विभाजक:"
+
+#: localenum.cpp:68
+msgid "Positive si&gn:"
+msgstr "धनात्मक चिन्ह:"
+
+#: localenum.cpp:78
+msgid "&Negative sign:"
+msgstr "ऋणात्मक चिन्ह:"
+
+#: localenum.cpp:88
+msgid "Decimal &places:"
+msgstr ""
+
+#: localenum.cpp:99 localetime.cpp:214
+msgid "Di&git set:"
+msgstr ""
+
+#: localenum.cpp:230
+msgid ""
+"<p>Here you can define the decimal separator used to display numbers (i.e. a "
+"dot or a comma in most countries).</p><p>Note that the decimal separator "
+"used to display monetary values has to be set separately (see the 'Money' "
+"tab).</p>"
+msgstr ""
+"<p>यहाँ तपईँले नम्बर प्रदर्शन गर्दा प्रयोग हुने दशमलव विभाजक परिभाषित गर्न "
+"सक्नुहुन्छ (जस्तै: धेरै देशमा एउटा बिन्दु वा एउटा अल्पविराम) ।</p><p> याद "
+"गर्नुहोस् मौद्रिक मान प्रदर्शन गर्न प्रयोग हुने दशमलव विभाजक फरक तरिकाले सेट "
+"गर्नुपर्ने छ ('मुद्रा' ट्याबमा हेर्नुहोस्) ।</p>"
+
+#: localenum.cpp:239
+msgid ""
+"<p>Here you can define the thousands separator used to display "
+"numbers.</p><p>Note that the thousands separator used to display monetary "
+"values has to be set separately (see the 'Money' tab).</p>"
+msgstr ""
+"<p>यहाँ तपाईँले नम्बर प्रदर्शन गर्न प्रयोग हुने हजार विभाजक परिभाषित गर्न "
+"सक्नुहुन्छ ।</p><p> याद गर्नुहोस् मौद्रिक मान प्रदर्शन गर्न प्रयोग हुने हजार "
+"विभाजक फरक तरिकाले सेट गरिएको हुनु पर्छ ('मुद्रा' ट्याबमा हेर्नुहोस्) ।</p>"
+
+#: localenum.cpp:247
+msgid ""
+"Here you can specify text used to prefix positive numbers. Most people leave "
+"this blank."
+msgstr ""
+"यहाँ तपाईँले उपसर्ग धनात्मक नम्बर प्रयोग हुने पाठ निर्दिष्ट गर्न सक्नुहुन्छ "
+"। धेरै मानिसले यो खाली छोड्छन् ।"
+
+#: localenum.cpp:253
+msgid ""
+"Here you can specify text used to prefix negative numbers. This should not "
+"be empty, so you can distinguish positive and negative numbers. It is "
+"normally set to minus (-)."
+msgstr ""
+"यहाँ तपाईँले उपसर्ग ऋणात्मक नम्बर प्रयोग हुने पाठ निर्दिष्ट गर्न सक्नुहुन्छ "
+"। यो खाली हुनु हुदैन, त्यसैले तपाईँले धनात्मक र ऋणात्मक सङ्ख्या फरक छुट्याउन "
+"सक्नुहुन्छ । यो सामान्य रुपमा (-) मा सेट हुन्छ ।"
+
+#: localenum.cpp:260
+msgid ""
+"Here you can set the number of decimal places displayed for numeric values, "
+"i.e. the number of digits <em>after</em> the decimal separator. "
+msgstr ""
+
+#: localenum.cpp:266
+msgid ""
+"<p>Here you can define the set of digits used to display numbers. If digits "
+"other than Arabic are selected, they will appear only if used in the "
+"language of the application or the piece of text where the number is "
+"shown.</p><p>Note that the set of digits used to display monetary values has "
+"to be set separately (see the 'Money' tab).</p>"
+msgstr ""
+
+#: localeother.cpp:48
+msgid "Paper format:"
+msgstr "कागज ढाँचा:"
+
+#: localeother.cpp:57
+msgid "Measure system:"
+msgstr "मापन प्रणाली:"
+
+#: localeother.cpp:120
+msgctxt "The Metric System"
+msgid "Metric"
+msgstr "मेट्रिक"
+
+#: localeother.cpp:121
+msgctxt "The Imperial System"
+msgid "Imperial"
+msgstr "इम्पेरियल"
+
+#: localeother.cpp:123
+msgid "A4"
+msgstr "A4"
+
+#: localeother.cpp:124
+msgid "US Letter"
+msgstr "यूएस अक्षर"
+
+#: localetime.cpp:96
+msgid "HH"
+msgstr "HH"
+
+#: localetime.cpp:97
+msgid "hH"
+msgstr "hH"
+
+#: localetime.cpp:98
+msgid "PH"
+msgstr "PH"
+
+#: localetime.cpp:99
+msgid "pH"
+msgstr "pH"
+
+#: localetime.cpp:100
+msgctxt "Minute"
+msgid "MM"
+msgstr "MM"
+
+#: localetime.cpp:101
+msgid "SS"
+msgstr "SS"
+
+#: localetime.cpp:102
+msgid "AMPM"
+msgstr "AMPM"
+
+#: localetime.cpp:112
+msgid "YYYY"
+msgstr "YYYY"
+
+#: localetime.cpp:113
+msgid "YY"
+msgstr "YY"
+
+#: localetime.cpp:114
+msgid "mM"
+msgstr "mM"
+
+#: localetime.cpp:115
+msgctxt "Month"
+msgid "MM"
+msgstr "MM"
+
+#: localetime.cpp:116
+msgid "SHORTMONTH"
+msgstr "SHORTMONTH"
+
+#: localetime.cpp:117
+msgid "MONTH"
+msgstr "MONTH"
+
+#: localetime.cpp:118
+msgid "dD"
+msgstr "dD"
+
+#: localetime.cpp:119
+msgid "DD"
+msgstr "DD"
+
+#: localetime.cpp:120
+msgid "SHORTWEEKDAY"
+msgstr "SHORTWEEKDAY"
+
+#: localetime.cpp:121
+msgid "WEEKDAY"
+msgstr "WEEKDAY"
+
+#: localetime.cpp:203
+msgid "Calendar system:"
+msgstr "पात्रो प्रणाली:"
+
+#: localetime.cpp:225
+msgid "Time format:"
+msgstr "समय ढाँचा:"
+
+#: localetime.cpp:235
+msgid "Date format:"
+msgstr "मिति ढाँचा:"
+
+#: localetime.cpp:243
+msgid "Short date format:"
+msgstr "छोटो मिति ढाँचा:"
+
+#: localetime.cpp:251
+msgid "Use declined form of month name"
+msgstr "महिनाको नामबाट घटाउदैँ प्रयोग गर्नुहोस्"
+
+#: localetime.cpp:261
+msgid "First day of the week:"
+msgstr "हप्ताको पहिलो दिन:"
+
+#: localetime.cpp:269
+msgid "First working day of the week:"
+msgstr ""
+
+#: localetime.cpp:277
+msgid "Last working day of the week:"
+msgstr ""
+
+#: localetime.cpp:286
+msgid "Day of the week for religious observance:"
+msgstr ""
+
+#: localetime.cpp:496
+msgctxt "some reasonable time formats for the language"
+msgid ""
+"HH:MM:SS\n"
+"pH:MM:SS AMPM"
+msgstr ""
+"HH:MM:SS\n"
+"pH:MM:SS AMPM"
+
+#: localetime.cpp:504
+msgctxt "some reasonable date formats for the language"
+msgid ""
+"WEEKDAY MONTH dD YYYY\n"
+"SHORTWEEKDAY MONTH dD YYYY"
+msgstr ""
+"WEEKDAY MONTH dD YYYY\n"
+"SHORTWEEKDAY MONTH dD YYYY"
+
+#: localetime.cpp:512
+msgctxt "some reasonable short date formats for the language"
+msgid ""
+"YYYY-MM-DD\n"
+"dD.mM.YYYY\n"
+"DD.MM.YYYY"
+msgstr ""
+"YYYY-MM-DD\n"
+"dD.mM.YYYY\n"
+"DD.MM.YYYY"
+
+#: localetime.cpp:523
+msgid ""
+"<p>The text in this textbox will be used to format time strings. The "
+"sequences below will be replaced:</p><table><tr><td><b>HH</b></td><td>The "
+"hour as a decimal number using a 24-hour clock (00-"
+"23).</td></tr><tr><td><b>hH</b></td><td>The hour (24-hour clock) as a "
+"decimal number (0-23).</td></tr><tr><td><b>PH</b></td><td>The hour as a "
+"decimal number using a 12-hour clock (01-"
+"12).</td></tr><tr><td><b>pH</b></td><td>The hour (12-hour clock) as a "
+"decimal number (1-12).</td></tr><tr><td><b>MM</b></td><td>The minutes as a "
+"decimal number (00-59).</td></tr><tr><td><b>SS</b></td><td>The seconds as a "
+"decimal number (00-59).</td></tr><tr><td><b>AMPM</b></td><td>Either \"am\" "
+"or \"pm\" according to the given time value. Noon is treated as \"pm\" and "
+"midnight as \"am\".</td></tr></table>"
+msgstr ""
+"<p>यो पाठबाकसको पाठ समय स्ट्रिङ ढाँचामा प्रयोग गरिने छ । तलका अनुक्रम "
+"प्रतिस्थापन गरिन्छ:</p><table><tr><td><b>HH</b></td><td>घन्टा (००-२३) प्रयोग "
+"गर्ने दशमलब नम्बरमा घन्टा २४ हुन्छ</td></tr><tr><td><b>hH</b></td><td>घन्टा "
+"(२४-घन्टा) दशमलब नम्बर (०-२३) को रूपमा हुन्छ "
+"।</td></tr><tr><td><b>PH</b></td><td>१२-घन्टाको दशमलब नम्बर (०१-१२)  हुन्छ "
+"।</td></tr><tr><td><b>pH</b></td><td>(१२-घन्टा) घन्टा (१-१२) नम्बरमा हुन्छ "
+"।</td></tr><tr><td><b>MM</b></td><td>मिनेट (००-५९) नम्बरमा हुन्छ "
+"।</td><tr><tr><td><b>SS</b></td><td>सेकेन्ड (००-५९) नम्बरमा हुन्छ "
+"।</td></tr><tr><td><b>AMPM</b></td><td>दिएको समय मान अनुसार या \"am\" वा "
+"\"pm\" हुन्छ । पूर्वान्ह पछि \"pm\" र मध्यरात पछि \"am\" हुन्छ "
+"।</td></tr></table>"
+
+#: localetime.cpp:546
+msgid ""
+"<table><tr><td><b>YYYY</b></td><td>The year with century as a decimal "
+"number.</td></tr><tr><td><b>YY</b></td><td>The year without century as a "
+"decimal number (00-99).</td></tr><tr><td><b>MM</b></td><td>The month as a "
+"decimal number (01-12).</td></tr><tr><td><b>mM</b></td><td>The month as a "
+"decimal number (1-12).</td></tr><tr><td><b>SHORTMONTH</b></td><td>The first "
+"three characters of the month name. "
+"</td></tr><tr><td><b>MONTH</b></td><td>The full month "
+"name.</td></tr><tr><td><b>DD</b></td><td>The day of month as a decimal "
+"number (01-31).</td></tr><tr><td><b>dD</b></td><td>The day of month as a "
+"decimal number (1-31).</td></tr><tr><td><b>SHORTWEEKDAY</b></td><td>The "
+"first three characters of the weekday "
+"name.</td></tr><tr><td><b>WEEKDAY</b></td><td>The full weekday "
+"name.</td></tr></table>"
+msgstr ""
+"<table><tr><td><b>YYYY</b></td><td>दशमलव नम्बरको रुपमा शताब्दीसँग वर्ष "
+"।</td></tr><tr><td><b>YY</b></td><td>दशमलव नम्बरको रुपमा शताब्दी विहिन वर्ष "
+"(००-९९) ।</td></tr><tr><td><b>MM</b></td><td>दशमलव नम्बरको रुपमा महिना (०१-"
+"१२) ।</td></tr><tr><td><b>mM</b></td><td>दशमलव नम्बरको रुपमा महिना(१-१२) "
+"।</td></tr><tr><td><b>SHORTMONTH</b></td><td>महिनको नामका पहिला तिन वटा "
+"क्यारेक्टर ।</td></tr><tr><td><b>MONTH</b></td><td>पुरा महिनाको नाम "
+"।</td></tr><tr><td><b>DD</b></td><td>महिनाको दिन दशमलव नम्बरको रुपमा (०१-३१) "
+"।</td></tr><tr><td><b>dD</b></td><td>महिनाको दिन दशमलव नम्बरको रुपमा (१-३१) "
+"।</td></tr><tr><td><b>SHORTWEEKDAY</b></td><td>हप्ताको दिनका नामको पहिला तिन "
+"क्यारेक्ट ।</td></tr><tr><td><b>WEEKDAY</b></td><td> पुरा हप्ता दिनका नाम "
+"।</td></tr></table>"
+
+#: localetime.cpp:567
+msgid ""
+"<p>The text in this textbox will be used to format long dates. The sequences "
+"below will be replaced:</p>"
+msgstr ""
+"<p>यो पाठबाकसको पाठ लामो मिति ढाचाँ गर्न प्रयोग हुनेछ । तलको अनुक्रम "
+"प्रतिस्थापन गरिने छ:</p>"
+
+#: localetime.cpp:573
+msgid ""
+"<p>The text in this textbox will be used to format short dates. For "
+"instance, this is used when listing files. The sequences below will be "
+"replaced:</p>"
+msgstr ""
+"<p>यो पाठ बाकसको पाठ छोटो मितिमा ढाचाँ गर्न प्रयोग गरिने छ । दृष्टान्तका "
+"लागि, यो फाइल सूचीकृत गर्दा प्रयोग गरिन्छ । तलको अनुक्रम प्रतिस्थापन "
+"गरिनेछ:</p>"
+
+#: localetime.cpp:592
+msgid ""
+"<p>This option determines which day will be considered as the first one of "
+"the week.</p>"
+msgstr "<p>यो विकल्पले हप्ताको पहिलो कुन दिनलाई मान्ने निर्धारण गर्छ ।</p>"
+
+#: localetime.cpp:597
+msgid ""
+"<p>This option determines which day will be considered as the first working "
+"day of the week.</p>"
+msgstr ""
+
+#: localetime.cpp:602
+msgid ""
+"<p>This option determines which day will be considered as the last working "
+"day of the week.</p>"
+msgstr ""
+
+#: localetime.cpp:607
+msgid ""
+"<p>This option determines which day will be considered as the day of the "
+"week for religious observance.</p>"
+msgstr ""
+
+#: localetime.cpp:614
+msgid ""
+"<p>This option determines whether possessive form of month names should be "
+"used in dates.</p>"
+msgstr ""
+"<p>यो विकल्पले मितिमा प्रयोग हुनुपर्ने महिनाको नामबाट स्वामित्व हुने "
+"निर्धारण गर्छ ।</p>"
+
+#: localetime.cpp:624
+msgctxt "Day name list, option for no day of religious observance"
+msgid "None"
+msgstr ""
+
+#. i18n: file: language.ui:110
+#. i18n: ectx: property (text), widget (QLabel, m_selectedCountryLabel)
+#: rc.cpp:9
+msgid "None selected (<a href=\"/change\">change...</a>)"
+msgstr "कुनै चयन गरिएको छैन (<a href=\"/change\">परिवर्तन...</a>)"
+
+#: rc.cpp:91
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:"
+
+#: rc.cpp:92
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np shyamkrishna_bal@yahoo.com,,"
+
+#: toplevel.cpp:62
+msgid "KCMLocale"
+msgstr "KCM लोकेल"
+
+#: toplevel.cpp:64
+msgid "Regional settings"
+msgstr "क्षेत्रीय सेटिङ"
+
+#: toplevel.cpp:66
+msgid "(C) 1998 Matthias Hoelzer, (C) 1999-2003 Hans Petter Bieker"
+msgstr "(C) 1998 माथियस होल्जर, (C) 1999-2003 ह्यान्स पिटर बिकर"
+
+#: toplevel.cpp:181
+msgid ""
+"Changed language settings apply only to newly started applications.\n"
+"To change the language of all programs, you will have to logout first."
+msgstr ""
+"परिवर्तन गरिएका भाषा सेटिङ हालै सुरुआत गरिएका अनुप्रयोगमा मात्र लागू हुन्छन् "
+"।\n"
+"सबै कार्यक्रमको भाषा परिवर्तन गर्न, तपाईँले पहिला लगआउट गर्नु पर्छ ।"
+
+#: toplevel.cpp:185
+msgid "Applying Language Settings"
+msgstr "भाषा सेटिङ लागू गर्दैछ"
+
+#: toplevel.cpp:222
+msgid ""
+"<h1>Country/Region & Language</h1>\n"
+"<p>From here you can configure language, numeric, and time \n"
+"settings for your particular region. In most cases it will be \n"
+"sufficient to choose the country you live in. For instance KDE \n"
+"will automatically choose \"German\" as language if you choose \n"
+"\"Germany\" from the list. It will also change the time format \n"
+"to use 24 hours and and use comma as decimal separator.</p>\n"
+msgstr ""
+"<h1>देश/प्रदेश र भाषा</h1>\n"
+"<p>यहाँबाट तपाईँले निश्चित प्रदेशका लागि भाषा, सङ्ख्या, र समय \n"
+"सेट गर्न सक्नुहुन्छ । धेरै जसो केसमा तपाईँ रहेको देश रोज्न यो\n"
+"प्रयाप्त हुनेछ । दृष्टान्तका लागि यदि तपाईँले सूचीबाट\n"
+"\"जर्मनी\" रोजेमा केडीई ले भाषा रोज्दा स्वत: \n"
+"\"जर्मन\" रोज्नेछ । यसले २४ घण्टा प्रयोग गर्न समय ढाचाँ पनि परिवर्तन \n"
+"गर्नेछ र दशमलव विभाजकका रुपमा अल्पविराम प्रयोग गर्नेछ ।</p>\n"
+
+#: toplevel.cpp:259
+msgid "Examples"
+msgstr "उदाहरण"
+
+#: toplevel.cpp:260
+msgid "&Locale"
+msgstr "लोकेल"
+
+#: toplevel.cpp:261
+msgid "&Numbers"
+msgstr "नम्बर"
+
+#: toplevel.cpp:262
+msgid "&Money"
+msgstr "मुद्रा"
+
+#: toplevel.cpp:263
+msgid "&Time && Dates"
+msgstr "समय र मिति"
+
+#: toplevel.cpp:264
+msgid "&Other"
+msgstr "अन्य"

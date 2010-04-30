@@ -1,0 +1,2068 @@
+# translation of kuser.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kuser\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 15:28+0000\n"
+"PO-Revision-Date: 2009-07-16 09:36+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:41+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ku_adduser.cpp:47
+msgid "New Account Options"
+msgstr "नयाँ खाता विकल्प"
+
+#. i18n: file: ku_generalsettings.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createHomeDir)
+#. i18n: file: kuser.kcfg:55
+#. i18n: ectx: label, entry (createHomeDir), group (connection-$(connection))
+#: ku_adduser.cpp:53 rc.cpp:45 rc.cpp:226
+msgid "Create home folder"
+msgstr "गृह फोल्डर सिर्जना गर्नुहोस्"
+
+#: ku_adduser.cpp:56
+msgid "Copy skeleton"
+msgstr "स्केलेटन प्रतिलिपि गर्नुहोस्"
+
+#: ku_adduser.cpp:74
+#, kde-format
+msgid "User with UID %1 already exists."
+msgstr "UID %1 भएको प्रयोगकर्ता पहिले नै अवस्थित छ ।"
+
+#: ku_adduser.cpp:81
+#, kde-format
+msgid "User with RID %1 already exists."
+msgstr "RID %1 भएको प्रयोगकर्ता पहिले नै अवस्थित छ ।"
+
+#: ku_adduser.cpp:123
+#, kde-format
+msgid ""
+"Folder %1 already exists.\n"
+"%2 may become owner and permissions may change.\n"
+"Do you really want to use %3?"
+msgstr ""
+"%1 फोल्डर पहिले नै अवस्थित छ ।\n"
+"%2 मालिक हुन सक्छ र अनुमति परिवर्तन हुन सक्छन् ।\n"
+"तपाईँ वास्तवमै %3 प्रयोग गर्न चाहनुहुन्छ ?"
+
+#: ku_adduser.cpp:130
+#, kde-format
+msgid "%1 is not a folder."
+msgstr "%1 फोल्डर होइन ।"
+
+#: ku_adduser.cpp:132 ku_adduser.cpp:159
+#, kde-format
+msgid "stat() failed on %1."
+msgstr "%1 मा stat() असफल भयो ।"
+
+#: ku_adduser.cpp:152
+#, kde-format
+msgid "Mailbox %1 already exists (uid=%2)."
+msgstr "पत्रमञ्जूषा %1 पहिले नै अवस्थित छ (uid=%2) ।"
+
+#: ku_adduser.cpp:156
+#, kde-format
+msgid "%1 exists but is not a regular file."
+msgstr "%1 अवस्थित भए पनि नियमित फाइल होइन ।"
+
+#: ku_configdlg.cpp:55 ku_edituser.cpp:153
+msgid "<Empty>"
+msgstr "<Empty>"
+
+#: ku_configdlg.cpp:57 ku_configdlg.cpp:97
+msgid "Connection"
+msgstr "जडान"
+
+#: ku_configdlg.cpp:63
+msgid "Password Policy"
+msgstr "पासवर्ड नीति"
+
+#: ku_configdlg.cpp:64 ku_configdlg.cpp:65 ku_configdlg.cpp:66
+#: ku_configdlg.cpp:67
+msgid " day"
+msgid_plural " days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ku_configdlg.cpp:69
+msgid "General"
+msgstr "साधारण"
+
+#: ku_configdlg.cpp:69
+msgid "General Settings"
+msgstr "साधारण सेटिङ"
+
+#. i18n: file: ku_generalsettings.ui:41
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_source)
+#: ku_configdlg.cpp:75 rc.cpp:24
+msgid "Files"
+msgstr "फाइल"
+
+#: ku_configdlg.cpp:75
+msgid "File Source Settings"
+msgstr "फाइल स्रोत सेटिङ"
+
+#: ku_configdlg.cpp:103
+msgid "Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: ku_ldapsamba.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, KU_LdapSamba)
+#: ku_configdlg.cpp:110 ku_edituser.cpp:271 rc.cpp:57
+msgid "Samba"
+msgstr "साम्बा"
+
+#. i18n: file: ku_generalsettings.ui:46
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_source)
+#: ku_configdlg.cpp:112 rc.cpp:27
+msgid "LDAP"
+msgstr "LDAP"
+
+#: ku_configdlg.cpp:112
+msgid "LDAP Source Settings"
+msgstr "LDAP स्रोत सेटिङ"
+
+#: ku_deluser.cpp:34
+msgid "Delete User"
+msgstr "प्रयोगकर्ता मेट्नुहोस्"
+
+#: ku_deluser.cpp:39
+#, kde-format
+msgid ""
+"<p>Deleting user <b>%1</b><br />Also perform the following actions:</p>"
+msgstr ""
+
+#: ku_deluser.cpp:42
+#, kde-format
+msgid "Delete &home folder: %1"
+msgstr "गृह फोल्डर मेट्नुहोस्: %1"
+
+#: ku_deluser.cpp:44
+#, kde-format
+msgid "Delete &mailbox: %1"
+msgstr "पत्रमञ्जूषा मेट्नुहोस्: %1"
+
+#: ku_editgroup.cpp:39
+msgid "Group Properties"
+msgstr "समूह गुण"
+
+#: ku_editgroup.cpp:50
+msgid "Domain Admins"
+msgstr "डोमेन प्रशासन"
+
+#: ku_editgroup.cpp:50
+msgid "Admins"
+msgstr "प्रशासन"
+
+#: ku_editgroup.cpp:51
+msgid "Domain Users"
+msgstr "डोमेन प्रयोगकर्ता"
+
+#: ku_editgroup.cpp:51 ku_mainview.cpp:61
+msgid "Users"
+msgstr "प्रयोगकर्ता"
+
+#: ku_editgroup.cpp:52
+msgid "Domain Guests"
+msgstr "डोमेन गेष्ट"
+
+#: ku_editgroup.cpp:52
+msgid "Guests"
+msgstr "गेष्ट"
+
+#: ku_editgroup.cpp:63
+msgid "Group number:"
+msgstr "समूह नम्बर:"
+
+#: ku_editgroup.cpp:78
+msgid "Group rid:"
+msgstr "समूह रिड:"
+
+#: ku_editgroup.cpp:96
+msgid "Group name:"
+msgstr "समूह नाम:"
+
+#: ku_editgroup.cpp:110
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: ku_editgroup.cpp:119
+msgid "Display name:"
+msgstr "नाम प्रदर्शन गर्नुहोस्:"
+
+#: ku_editgroup.cpp:128
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: ku_editgroup.cpp:130 ku_groupmodel.cpp:75
+msgid "Domain"
+msgstr "डोमेन"
+
+#: ku_editgroup.cpp:131 ku_groupmodel.cpp:76
+msgid "Local"
+msgstr "स्थानीय"
+
+#: ku_editgroup.cpp:132 ku_groupmodel.cpp:77
+msgid "Builtin"
+msgstr "सिर्जना मिति"
+
+#: ku_editgroup.cpp:149 ku_edituser.cpp:313
+msgid "Domain SID:"
+msgstr "डोमेन SID:"
+
+#: ku_editgroup.cpp:157
+msgid "Disable Samba group information"
+msgstr "साम्बा समूह सूचना अक्षम पार्नुहोस्"
+
+#: ku_editgroup.cpp:171
+msgid "Users in Group"
+msgstr "समूहका प्रयोगकर्ता"
+
+#: ku_editgroup.cpp:178
+msgid "Add"
+msgstr ""
+
+#: ku_editgroup.cpp:179
+msgid "Remove"
+msgstr ""
+
+#: ku_editgroup.cpp:191
+msgid "Users NOT in Group"
+msgstr "प्रयोगकर्ता समूहमा छैन"
+
+#: ku_editgroup.cpp:281
+msgid "You need to type a group name."
+msgstr "तपाईँले समूह नाम टाइप गर्नु आवश्यक हुन्छ ।"
+
+#: ku_editgroup.cpp:289
+#, kde-format
+msgid "Group with name %1 already exists."
+msgstr "%1 नाम भएको समूह पहिले नै अवस्थित छ ।"
+
+#: ku_editgroup.cpp:296
+#, kde-format
+msgid "Group with SID %1 already exists."
+msgstr "SID %1 भएको समूह पहिले नै अवस्थित छ ।"
+
+#: ku_editgroup.cpp:301
+#, kde-format
+msgid "Group with gid %1 already exists."
+msgstr "gid %1 भएको समूह पहिले नै अवस्थित छ ।"
+
+#: ku_edituser.cpp:61 ku_edituser.cpp:92
+msgid "Do not change"
+msgstr "परिवर्तन नगर्नुहोस्"
+
+#: ku_edituser.cpp:77
+msgid " days"
+msgstr " दिन"
+
+#. i18n: file: ku_passwordpolicy.ui:77
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_smax)
+#. i18n: file: ku_passwordpolicy.ui:90
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_sinact)
+#. i18n: file: ku_passwordpolicy.ui:116
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_swarn)
+#. i18n: file: ku_passwordpolicy.ui:159
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_sneverexpire)
+#: ku_edituser.cpp:82 ku_edituser.cpp:260 rc.cpp:171 rc.cpp:174 rc.cpp:180
+#: rc.cpp:186
+msgid "Never"
+msgstr "कहिल्यै पनि"
+
+#: ku_edituser.cpp:109
+msgid "User Info"
+msgstr "प्रयोगकर्ता सूचना"
+
+#: ku_edituser.cpp:118
+msgid "User login:"
+msgstr "प्रयोगकर्ता लगइन:"
+
+#: ku_edituser.cpp:123
+msgid "&User ID:"
+msgstr "प्रयोगकर्ता आईडी:"
+
+#: ku_edituser.cpp:127
+msgid "Set &Password..."
+msgstr "पासवर्ड सेट गर्नुहोस्..."
+
+#: ku_edituser.cpp:135
+msgid "Full &name:"
+msgstr "पूरा नाम:"
+
+#: ku_edituser.cpp:142
+msgid "Surname:"
+msgstr "उपनाम:"
+
+#: ku_edituser.cpp:147
+msgid "Email address:"
+msgstr "इमेल ठेगाना:"
+
+#: ku_edituser.cpp:161
+msgid "&Login shell:"
+msgstr "लगइन शेल:"
+
+#: ku_edituser.cpp:166
+msgid "&Home folder:"
+msgstr "गृह फोल्डर:"
+
+#: ku_edituser.cpp:174
+msgid "&Office:"
+msgstr "कार्यालय:"
+
+#: ku_edituser.cpp:179
+msgid "Offi&ce Phone:"
+msgstr "कार्यालय फोन:"
+
+#: ku_edituser.cpp:184
+msgid "Ho&me Phone:"
+msgstr "गृह फोन:"
+
+#: ku_edituser.cpp:189
+msgid "Login class:"
+msgstr "लगइन वर्ग:"
+
+#: ku_edituser.cpp:194
+msgid "&Office #1:"
+msgstr "कार्यालय #१:"
+
+#: ku_edituser.cpp:199
+msgid "O&ffice #2:"
+msgstr "कार्यालय #२:"
+
+#: ku_edituser.cpp:204
+msgid "&Address:"
+msgstr "ठेगाना:"
+
+#: ku_edituser.cpp:208
+msgid "Account &disabled"
+msgstr "खाता अक्षम पारियो"
+
+#: ku_edituser.cpp:214
+msgid "Disable &POSIX account information"
+msgstr "POSIX खाता सूचना अक्षम पार्नुहोस्"
+
+#: ku_edituser.cpp:227
+msgid "Password Management"
+msgstr "पासवर्ड प्रबन्ध"
+
+#: ku_edituser.cpp:233
+msgid "Last password change:"
+msgstr "पछिल्लो पासवर्ड परिवर्तन:"
+
+#: ku_edituser.cpp:239
+msgid "POSIX parameters:"
+msgstr "POSIX परिमिति:"
+
+#: ku_edituser.cpp:240
+msgid "Time before password may &not be changed after last password change:"
+msgstr ""
+"पछिल्लो पासवर्ड परिवर्तन पछि पासवर्ड परिवर्तन नहुने भन्दा पहिलाको समय"
+
+#: ku_edituser.cpp:241
+msgid "Time when password &expires after last password change:"
+msgstr "पछिल्लो पासवर्ड परिवर्तन पछाडि पासवर्डको म्याद समाप्त हुने समय:"
+
+#: ku_edituser.cpp:242
+msgid "Time before password expires to &issue an expire warning:"
+msgstr ""
+"पासवर्ड म्याद समाप्त हुनभन्दा पहिले म्याद समाप्त चेतावनी निस्कने समय:"
+
+#: ku_edituser.cpp:243
+msgid "Time when account will be &disabled after expiration of password:"
+msgstr "पासवर्डको म्याद समाप्ति पछि खाता अक्षम पारिएको हुने समय:"
+
+#: ku_edituser.cpp:254
+msgid "&Account will expire on:"
+msgstr "यसमा खाताको म्याद समाप्त हुनेछ:"
+
+#: ku_edituser.cpp:278
+msgid "RID:"
+msgstr "RID:"
+
+#: ku_edituser.cpp:283
+msgid "Login script:"
+msgstr "लगइन स्क्रिप्ट:"
+
+#: ku_edituser.cpp:288
+msgid "Profile path:"
+msgstr "प्रोफाइल मार्ग:"
+
+#. i18n: file: ku_ldapsamba.ui:74
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2_2)
+#: ku_edituser.cpp:293 rc.cpp:66
+msgid "Home drive:"
+msgstr "गृह ड्राइभ:"
+
+#: ku_edituser.cpp:298
+msgid "Home path:"
+msgstr "गृह मार्ग:"
+
+#: ku_edituser.cpp:303
+msgid "User workstations:"
+msgstr "प्रयोगकर्ता कार्यस्थान:"
+
+#. i18n: file: ku_ldapsamba.ui:157
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ku_edituser.cpp:308 rc.cpp:78
+msgid "Domain name:"
+msgstr "डोमेन नाम:"
+
+#: ku_edituser.cpp:319
+msgid "Disable &Samba account information"
+msgstr "साम्बा खाता सूचना अक्षम पार्नुहोस्"
+
+#: ku_edituser.cpp:325 ku_mainview.cpp:69
+msgid "Groups"
+msgstr "समूह"
+
+#: ku_edituser.cpp:335 ku_edituser.cpp:664 ku_edituser.cpp:695
+msgid "Primary group: "
+msgstr "प्राथमिक समूह: "
+
+#: ku_edituser.cpp:338
+msgid "Set as Primary"
+msgstr "प्राथमिक रूपमा सेट गर्नुहोस्"
+
+#: ku_edituser.cpp:352 ku_edituser.cpp:375
+msgid "User Properties"
+msgstr "प्रयोगकर्ता गुण"
+
+#: ku_edituser.cpp:358
+#, kde-format
+msgid "User Properties - %1 Selected Users"
+msgstr "प्रयोगकर्ता विशेषता - %1 चयन गरिएका प्रयोगकर्ता"
+
+#: ku_edituser.cpp:531 ku_mainview.cpp:145
+msgid "Do Not Change"
+msgstr "परिवर्तन नगर्नुहोस्"
+
+#: ku_edituser.cpp:910
+msgid "You need to specify an UID."
+msgstr "तपाईँले एउटा UID निर्दिष्ट गर्नु आवश्यक हुन्छ ।"
+
+#: ku_edituser.cpp:915
+msgid "You must specify a home directory."
+msgstr "तपाईँले गृह डाइरेक्टरी निर्दिष्ट गर्नुपर्छ ।"
+
+#: ku_edituser.cpp:921
+msgid "You must fill the surname field."
+msgstr "तपाईँले उपनाम फिल्ड भर्नुपर्छ ।"
+
+#: ku_edituser.cpp:928
+msgid "You need to specify a samba RID."
+msgstr "तपाईँले साम्बा RID निर्दिष्ट गर्नुपर्छ ।"
+
+#: ku_edituser.cpp:973
+#, kde-format
+msgid "User with UID %1 already exists"
+msgstr "UID %1 भएको प्रयोगकर्ता पहिले नै अवस्थित छ"
+
+#: ku_edituser.cpp:983
+#, kde-format
+msgid "User with RID %1 already exists"
+msgstr "RID %1 भएको प्रयोगकर्ता पहिले नै अवस्थित छ"
+
+#: ku_edituser.cpp:997
+#, kde-format
+msgid ""
+"<p>The shell %1 is not yet listed in the file %2. In order to use this shell "
+"you must add it to this file first.<br />Do you want to add it now?</p>"
+msgstr ""
+
+#: ku_edituser.cpp:1001
+msgid "Unlisted Shell"
+msgstr "सूचीकृत नगरिएको शेल"
+
+#: ku_edituser.cpp:1002
+msgid "&Add Shell"
+msgstr "शेल थप्नुहोस्"
+
+#: ku_edituser.cpp:1003
+msgid "Do &Not Add"
+msgstr "नथप्नुहोस्"
+
+#: ku_groupfiles.cpp:74
+msgid "Groups file name not set, please check 'Settings/Files'"
+msgstr "समूह फाइल नाम सेट गरिएको छैन, कृपया 'सेटिङ/फाइल' जाँच गर्नुहोस्"
+
+#: ku_groupfiles.cpp:82
+#, kde-format
+msgid ""
+"stat() call on file %1 failed: %2\n"
+"Check KUser settings."
+msgstr ""
+"stat() ले फाइल %1 लाई गरेको कल असफल भयो: %2\n"
+"केडीई प्रयोगकर्ता सेटिङ जाँच गर्नुहोस् ।"
+
+#: ku_groupfiles.cpp:96 ku_userfiles.cpp:195
+#, kde-format
+msgid "Error opening %1 for reading."
+msgstr "%1 पढ्नका लागि खोल्दा त्रुटि ।"
+
+#: ku_groupfiles.cpp:172 ku_groupfiles.cpp:179 ku_userfiles.cpp:294
+#: ku_userfiles.cpp:301
+#, kde-format
+msgid "Error opening %1 for writing."
+msgstr "%1 लेख्नका लागि खोल्दा त्रुटि ।"
+
+#: ku_groupldap.cpp:156
+msgid "Loading Groups From LDAP"
+msgstr "LDAP बाट समूह लोडिङ हुँदैछ"
+
+#: ku_groupldap.cpp:208 ku_userldap.cpp:512
+msgid "LDAP Operation"
+msgstr "LDAP सञ्चालन"
+
+#: ku_groupmodel.cpp:48
+msgid "GID"
+msgstr "GID"
+
+#: ku_groupmodel.cpp:49
+msgid "Group Name"
+msgstr "समूह नाम"
+
+#: ku_groupmodel.cpp:50 ku_usermodel.cpp:53
+msgid "Domain SID"
+msgstr "डोमेन SID"
+
+#: ku_groupmodel.cpp:51 ku_usermodel.cpp:54
+msgid "RID"
+msgstr "RID"
+
+#: ku_groupmodel.cpp:52
+msgid "Type"
+msgstr "प्रकार"
+
+#: ku_groupmodel.cpp:53
+msgid "Display Name"
+msgstr "नाम प्रदर्शन गर्नुहोस्"
+
+#: ku_groupmodel.cpp:54
+msgid "Description"
+msgstr "वर्णन"
+
+#: ku_groupmodel.cpp:78
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ku_main.cpp:37
+msgid "KDE User Editor"
+msgstr "केडीई प्रयोकर्ता सम्पादक"
+
+#: ku_main.cpp:42
+msgid "KUser"
+msgstr "केडीई प्रयोगकर्ता"
+
+#: ku_main.cpp:44
+msgid ""
+"(c) 1997-2000, Denis Perchine\n"
+"(c) 2004, Szombathelyi György"
+msgstr ""
+"(c) १९९७-२०००, डेनिस पर्चिन\n"
+"(c) २००४, स्जोमाबथेलि ग्योर्गि"
+
+#: ku_main.cpp:45
+msgid "Denis Perchine"
+msgstr "डेनिस पर्चिन"
+
+#: ku_main.cpp:45 ku_main.cpp:47
+msgid "kuser author"
+msgstr "केडीई प्रयोगकर्ता लेखक"
+
+#: ku_main.cpp:47
+msgid "Szombathelyi György"
+msgstr "स्जोमाबथेलि ग्योर्गि"
+
+#: ku_main.cpp:58
+msgid "KDE User Manager"
+msgstr "केडीई प्रयोगकर्ता प्रबन्धक"
+
+#: ku_mainview.cpp:144
+#, kde-format
+msgid ""
+"You have selected %1 users. Do you really want to change the password for "
+"all the selected users?"
+msgstr ""
+"तपाईँले %1 प्रयोगकर्ता चयन गर्नुभएकोछ । तपाईँ साँच्चिकै चयन गरिएका सबै "
+"प्रयोगकर्ताको पासवर्ड परिवर्तन गर्न चाहनुहुन्छ ?"
+
+#: ku_mainview.cpp:145
+msgid "Change"
+msgstr "परिवर्तन गर्नुहोस्"
+
+#: ku_mainview.cpp:186
+msgid "You have run out of uid space."
+msgstr "तपाईँले uid खालीस्थान बाहिर चलाउनुभएको छ ।"
+
+#: ku_mainview.cpp:198
+msgid "Please type the name of the new user:"
+msgstr "कृपया नयाँ प्रयोगकर्ताको नाम लेख्नुहोस्:"
+
+#: ku_mainview.cpp:204
+#, kde-format
+msgid "User with name %1 already exists."
+msgstr "%1 नाम भएको प्रयोगकर्ता पहिले नै अवस्थित छ ।"
+
+#: ku_mainview.cpp:359
+#, kde-format
+msgid ""
+"You are using private groups.\n"
+"Do you want to delete the user's private group '%1'?"
+msgstr ""
+"तपाईँले व्यक्तिगत समूह प्रयोग गरिरहनु भएको छ ।\n"
+"तपाईँले प्रयोगकर्ताको व्यक्तिगत समूह '%1' मेट्न चाहनुहुन्छ ?"
+
+#: ku_mainview.cpp:362
+msgid "Do Not Delete"
+msgstr "यसलाई नमेट्नुहोस्"
+
+#: ku_mainview.cpp:380
+msgid "You have run out of gid space."
+msgstr "तपाईँले gid खाली स्थान बाहिर चलाउनु भएको छ ।"
+
+#: ku_mainview.cpp:457
+#, kde-format
+msgid ""
+"The group '%1' is the primary group of one or more users (such as '%2'); it "
+"cannot be deleted."
+msgstr ""
+"समूह '%1' एक वा धेरै प्रयोगकर्ताका प्राथमिक समूह हो (जस्तै: '%2'); यो मेट्न "
+"सकिने छैन ।"
+
+#: ku_mainview.cpp:466
+#, kde-format
+msgid "Do you really want to delete the group '%1'?"
+msgstr "तपाईँ वास्तवमै समूह '%1' मेट्न चाहनुहुन्छ ?"
+
+#: ku_mainview.cpp:470
+#, kde-format
+msgid "Do you really want to delete the %1 selected groups?"
+msgstr "तपाईँ वास्तवमै चयन गरिएका समूह '%1' मेट्न चाहनुहुन्छ ?"
+
+#: ku_mainwidget.cpp:51
+msgid "Reading configuration"
+msgstr "कन्फिगरेसन पढ्दैछ"
+
+#: ku_mainwidget.cpp:57
+msgid "Ready"
+msgstr "तयार"
+
+#: ku_mainwidget.cpp:78 ku_mainwidget.cpp:94
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#: ku_mainwidget.cpp:82 ku_mainwidget.cpp:98
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: ku_mainwidget.cpp:86 ku_mainwidget.cpp:102
+msgid "&Delete..."
+msgstr "मेट्नुहोस्..."
+
+#: ku_mainwidget.cpp:90
+msgid "&Set Password..."
+msgstr "पासवर्ड सेट गर्नुहोस्..."
+
+#: ku_mainwidget.cpp:106
+msgid "&Reload..."
+msgstr "रिलोड गर्नुहोस्..."
+
+#: ku_mainwidget.cpp:110
+msgid "&Select Connection..."
+msgstr "जडान चयन गर्नुहोस्..."
+
+#: ku_mainwidget.cpp:114
+msgid "Show System Users/Groups"
+msgstr "प्रणाली प्रयोगकर्ता/समूह देखाउनुहोस्"
+
+#: ku_mainwidget.cpp:118
+msgid "Hide System Users/Groups"
+msgstr "प्रणाली प्रयोगकर्ता/समूह लुकाउनुहोस्"
+
+#: ku_misc.cpp:55
+#, kde-format
+msgid "Can not create backup file for %1"
+msgstr ""
+
+#: ku_misc.cpp:105
+#, kde-format
+msgid ""
+"Error creating symlink %1.\n"
+"Error: %2"
+msgstr ""
+"%1 सिमलिङ्क सिर्जना गर्दा त्रुटि\n"
+"त्रुटि: %2"
+
+#: ku_misc.cpp:115
+#, kde-format
+msgid ""
+"Cannot change owner of folder %1.\n"
+"Error: %2"
+msgstr ""
+"%1 फोल्डरको मालिक परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_misc.cpp:120
+#, kde-format
+msgid ""
+"Cannot change permissions on folder %1.\n"
+"Error: %2"
+msgstr ""
+"%1 फोल्डरमा अनुमति परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_misc.cpp:130
+#, kde-format
+msgid ""
+"Cannot change owner of file %1.\n"
+"Error: %2"
+msgstr ""
+"%1 फाइलको मालिक परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_misc.cpp:135
+#, kde-format
+msgid ""
+"Cannot change permissions on file %1.\n"
+"Error: %2"
+msgstr ""
+"%1 फाइलमा अनुमति परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_misc.cpp:154
+#, kde-format
+msgid "File %1 does not exist."
+msgstr "फाइल %1 अवस्थित छैन ।"
+
+#: ku_misc.cpp:159
+#, kde-format
+msgid "Cannot open file %1 for reading."
+msgstr "पढ्नका लागि %1 फाइल खोल्न सकिँदैन ।"
+
+#: ku_misc.cpp:164
+#, kde-format
+msgid "Cannot open file %1 for writing."
+msgstr "लेख्नका लागि %1 फाइल खोल्न सकिँदैन ।"
+
+#: ku_pwdlg.cpp:33
+msgid "Enter Password"
+msgstr "पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ku_pwdlg.cpp:39
+msgid "Password:"
+msgstr "पासवर्ड:"
+
+#: ku_pwdlg.cpp:55
+msgid "Verify:"
+msgstr "रूजु गर्नुहोस्:"
+
+#: ku_pwdlg.cpp:86
+msgid ""
+"Passwords are not identical.\n"
+"Try again."
+msgstr ""
+"पासवर्ड समान छैनन् ।\n"
+"फेरि प्रयास गर्नुहोस् ।"
+
+#: ku_selectconn.cpp:39
+msgid "Connection Selection"
+msgstr "चयन जडान गर्नुहोस्"
+
+#: ku_selectconn.cpp:40
+msgid "&New..."
+msgstr "नयाँ..."
+
+#: ku_selectconn.cpp:41
+msgid "&Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: ku_selectconn.cpp:42
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#: ku_selectconn.cpp:48
+msgid "Defined connections:"
+msgstr "जडान परिभाषित गर्नुहोस्:"
+
+#: ku_selectconn.cpp:86
+msgid "Please type the name of the new connection:"
+msgstr "कृपया नयाँ जडानको नाम टाइप गर्नुहोस्:"
+
+#: ku_selectconn.cpp:89
+msgid "A connection with this name already exists."
+msgstr "यो नामको जडान पहिले नै अवस्थित छ ।"
+
+#: ku_selectconn.cpp:129
+#, kde-format
+msgid "Do you really want to delete the connection '%1'?"
+msgstr "तपाईँ वास्तवमै '%1' जडान मेट्न चाहनुहुन्छ ?"
+
+#: ku_selectconn.cpp:130
+msgid "Delete Connection"
+msgstr "जडान मेट्नुहोस्"
+
+#: ku_user.cpp:161
+#, kde-format
+msgid "Cannot create home folder for %1: it is null or empty."
+msgstr "%1 का लागि गृह फोल्डर सिर्जना गर्न सकिँदैन: यो शून्य वा खाली छ ।"
+
+#: ku_user.cpp:167
+#, kde-format
+msgid ""
+"Cannot create home folder %1.\n"
+"Error: %2"
+msgstr ""
+"गृह फोल्डर %1 सिर्जना गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:173
+#, kde-format
+msgid ""
+"Cannot change owner of home folder %1.\n"
+"Error: %2"
+msgstr ""
+"%1 गृह फोल्डरको मालिक परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:178
+#, kde-format
+msgid ""
+"Cannot change permissions on home folder %1.\n"
+"Error: %2"
+msgstr ""
+"%1 गृह फोल्डरमा अनुमति परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:193
+#, kde-format
+msgid ""
+"Folder %1 already exists.\n"
+"Will make %2 owner and change permissions.\n"
+"Do you want to continue?"
+msgstr ""
+"%1 फोल्डर पहिला नै अवस्थित छ ।\n"
+"%2 लाई मालिक बनाउनेछ र अनुमति परिवर्तन गर्नेछ ।\n"
+"तपाईँ जारी राख्न चाहनुहुन्छ ?"
+
+#: ku_user.cpp:197 ku_user.cpp:215
+#, kde-format
+msgid ""
+"Cannot change owner of %1 folder.\n"
+"Error: %2"
+msgstr ""
+"%1 फोल्डरको मालिक परिवर्तन गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:201
+#, kde-format
+msgid ""
+"Folder %1 left 'as is'.\n"
+"Verify ownership and permissions for user %2 who may not be able to log in."
+msgstr ""
+"फोल्डर %1 'उस्तै' छोडियो ।\n"
+"लगइन गर्न नसक्ने %2 प्रयोगकर्ताका लागि स्वामित्व र अनुमति रूजु गर्नुहोस् ।"
+
+#: ku_user.cpp:205
+#, kde-format
+msgid "%1 exists and is not a folder. User %2 will not be able to log in."
+msgstr ""
+"%1 अवस्थित छ र फोल्डर होइन । %2 प्रयोगकर्ता लगइन गर्न सक्षम हुने छैन ।"
+
+#: ku_user.cpp:211
+#, kde-format
+msgid ""
+"Cannot create %1 folder.\n"
+"Error: %2"
+msgstr ""
+"%1 फोल्डर सिर्जना गर्न सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:219
+#, kde-format
+msgid ""
+"stat call on %1 failed.\n"
+"Error: %2"
+msgstr ""
+"%1 stat कल असफल भयो ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:234
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr "%1 सिर्जना गर्न सकिँदैन: %2"
+
+#: ku_user.cpp:244
+#, kde-format
+msgid ""
+"Cannot change owner on mailbox: %1\n"
+"Error: %2"
+msgstr ""
+"पत्रमञ्जूषामा मालिक परिवर्तन गर्न सकिँदैन: %1\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:250
+#, kde-format
+msgid ""
+"Cannot change permissions on mailbox: %1\n"
+"Error: %2"
+msgstr ""
+"पत्रमञ्जूषामा अनुमति परिवर्तन गर्न सकिँदैन: %1\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:265
+#, kde-format
+msgid "Folder %1 does not exist, cannot copy skeleton for %2."
+msgstr "%1 फोल्डर अवस्थित छैन, %2 का लागि स्केलेटन प्रतिलिपि गर्न सकिँदैन ।"
+
+#: ku_user.cpp:270
+#, kde-format
+msgid "Folder %1 does not exist, cannot copy skeleton."
+msgstr "%1 फोल्डर अवस्थित छैन, स्केलेटन प्रतिलिपि गर्न सकिँदैन ।"
+
+#: ku_user.cpp:288
+#, kde-format
+msgid ""
+"Cannot remove home folder %1.\n"
+"Error: %2"
+msgstr ""
+"%1 गृह फोल्डर हटाउन सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:292
+#, kde-format
+msgid "Removal of home folder %1 failed (uid = %2, gid = %3)."
+msgstr "%1 गृह फोल्डर हटाउन असफल (uid = %2, gid = %3) ।"
+
+#: ku_user.cpp:295
+#, kde-format
+msgid ""
+"stat call on file %1 failed.\n"
+"Error: %2"
+msgstr ""
+"%1 फाइलमा stat कल असफल ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:313
+#, kde-format
+msgid ""
+"Cannot remove crontab %1.\n"
+"Error: %2"
+msgstr ""
+"%1 क्रनट्याब हटाउन सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_user.cpp:327
+#, kde-format
+msgid ""
+"Cannot remove mailbox %1.\n"
+"Error: %2"
+msgstr ""
+"%1 पत्रमञ्जूषा हटाउन सकिँदैन ।\n"
+"त्रुटि: %2"
+
+#: ku_userfiles.cpp:103
+msgid ""
+"KUser sources were not configured.\n"
+"Set 'Password file' in Settings/Files"
+msgstr ""
+"केडीई प्रयोगकर्ता स्रोत कन्फिगर गरिएको थिएन ।\n"
+"सेटिङ/फाइलमा 'पासवर्ड फाइल' सेट गर्नुहोस्"
+
+#: ku_userfiles.cpp:111
+#, kde-format
+msgid ""
+"Stat call on file %1 failed: %2\n"
+"Check KUser settings."
+msgstr ""
+"फाइल %1 मा Stat कल असफल: %2\n"
+"केडीई प्रयोगकर्ता सेटिङ जाँच गर्नुहोस् ।"
+
+#: ku_userfiles.cpp:125
+#, kde-format
+msgid "Error opening %1 for reading.\n"
+msgstr "पढ्नका लागि %1 खोल्दा त्रुटि ।\n"
+
+#: ku_userfiles.cpp:207
+#, kde-format
+msgid ""
+"No /etc/passwd entry for %1.\n"
+"Entry will be removed at the next `Save'-operation."
+msgstr ""
+"%1 का लागि /etc/passwd प्रविष्टि छैन ।\n"
+"पछिल्लो `बचत' कार्यमा प्रविष्टि हटाइने छ ।"
+
+#: ku_userfiles.cpp:441
+msgid "Unable to build password database."
+msgstr "पासवर्ड डाटाबेस निर्माण गर्न असमर्थ ।"
+
+#: ku_userldap.cpp:228
+msgid "Loading Users From LDAP"
+msgstr "LDAP बाट प्रयोगकर्ता लोडिङ"
+
+#: ku_usermodel.cpp:48
+msgid "UID"
+msgstr "UID"
+
+#: ku_usermodel.cpp:49
+msgid "User Login"
+msgstr "प्रयोगकर्ता लगइन"
+
+#: ku_usermodel.cpp:50
+msgid "Full Name"
+msgstr "पूरा नाम"
+
+#: ku_usermodel.cpp:51
+msgid "Home Directory"
+msgstr "गृह डाइरेक्टरी"
+
+#: ku_usermodel.cpp:52
+msgid "Login Shell"
+msgstr "लगइन शेल"
+
+#: ku_usermodel.cpp:55
+msgid "Samba Login Script"
+msgstr "साम्बा लगइन स्क्रिप्ट"
+
+#: ku_usermodel.cpp:56
+msgid "Samba Profile Path"
+msgstr "साम्बा प्रोफाइल मार्ग"
+
+#: ku_usermodel.cpp:57
+msgid "Samba Home Drive"
+msgstr "साम्बा गृह ड्राइभ"
+
+#: ku_usermodel.cpp:58
+msgid "Samba Home Path"
+msgstr "साम्बा गृह मार्ग"
+
+#. i18n: file: ku_filessettings.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:3
+msgid "User/group database locations"
+msgstr "प्रयोगकर्ता/समूह डाटाबेस स्थान"
+
+#. i18n: file: ku_filessettings.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_md5shadow)
+#: rc.cpp:6
+msgid "MD5 shadow passwords"
+msgstr "MD5 छायाँ पासवर्ड"
+
+#. i18n: file: ku_filessettings.ui:52
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_3)
+#: rc.cpp:9
+msgid "Shadow group file:"
+msgstr "छायाँ समूह फाइल:"
+
+#. i18n: file: ku_filessettings.ui:65
+#. i18n: ectx: property (text), widget (QLabel, textLabel5_3)
+#: rc.cpp:12
+msgid "Shadow password file:"
+msgstr "छायाँ पासवर्ड फाइल:"
+
+#. i18n: file: ku_filessettings.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_3)
+#: rc.cpp:15
+msgid "Group file:"
+msgstr "समूह फाइल:"
+
+#. i18n: file: ku_filessettings.ui:88
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#: rc.cpp:18
+msgid "Password file:"
+msgstr "पासवर्ड फाइल:"
+
+#. i18n: file: ku_generalsettings.ui:30
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:21
+msgid "Source of user/group database:"
+msgstr "प्रयोगकर्ता/समूह डाटाबेसको स्रोत:"
+
+#. i18n: file: ku_generalsettings.ui:51
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_source)
+#: rc.cpp:30
+msgid "System"
+msgstr "प्रणाली"
+
+#. i18n: file: ku_generalsettings.ui:72
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:33
+msgid "First normal GID:"
+msgstr "पहिलो समान्य GID:"
+
+#. i18n: file: ku_generalsettings.ui:82
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: ku_ldapsamba.ui:103
+#. i18n: ectx: property (text), widget (QLabel, textLabel5_2_2)
+#: rc.cpp:36 rc.cpp:72
+msgid "Home path template:"
+msgstr "गृह मार्ग टेम्प्लेट:"
+
+#. i18n: file: ku_generalsettings.ui:92
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:39
+msgid "Shell:"
+msgstr "शेल:"
+
+#. i18n: file: ku_generalsettings.ui:109
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
+#: rc.cpp:42
+msgid "First normal UID:"
+msgstr "पहिलो समान्य UID:"
+
+#. i18n: file: ku_generalsettings.ui:137
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_copySkel)
+#. i18n: file: kuser.kcfg:60
+#. i18n: ectx: label, entry (copySkel), group (connection-$(connection))
+#: rc.cpp:48 rc.cpp:232
+msgid "Copy skeleton to home folder"
+msgstr "गृह फोल्डरमा स्केलेटन प्रतिलिपि गर्नुहोस्"
+
+#. i18n: file: ku_generalsettings.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_userPrivateGroup)
+#. i18n: file: kuser.kcfg:65
+#. i18n: ectx: label, entry (userPrivateGroup), group (connection-$(connection))
+#: rc.cpp:51 rc.cpp:238
+msgid "User private groups"
+msgstr "प्रयोगकर्ताको व्यक्तिगत समूह"
+
+#. i18n: file: ku_generalsettings.ui:159
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: rc.cpp:54
+msgid "Default group:"
+msgstr "पूर्वनिर्धारित समूह:"
+
+#. i18n: file: ku_ldapsamba.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapsam)
+#: rc.cpp:60
+msgid "Manage Samba user accounts/groups"
+msgstr "साम्बा प्रयोगकर्ता खाता/समूह प्रबन्ध गर्नुहोस्"
+
+#. i18n: file: ku_ldapsamba.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2)
+#: rc.cpp:63
+msgid "Default login script:"
+msgstr "पूर्वनिर्धारित लगइन स्क्रिप्ट:"
+
+#. i18n: file: ku_ldapsamba.ui:87
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#: rc.cpp:69
+msgid "Profile path template:"
+msgstr "प्रोफाइल मार्ग टेम्प्लेट:"
+
+#. i18n: file: ku_ldapsamba.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_lanmanhash)
+#. i18n: file: kuser.kcfg:304
+#. i18n: ectx: label, entry (lanmanhash), group (connection-$(connection))
+#: rc.cpp:75 rc.cpp:477
+msgid "Store LanManager hashed password"
+msgstr "परिमार्जित ल्यान प्रबन्धक पासवर्ड भण्डारण गर्नुहोस्"
+
+#. i18n: file: ku_ldapsamba.ui:177
+#. i18n: ectx: property (text), widget (KPushButton, domQuery)
+#: rc.cpp:81
+msgid "&Query Server"
+msgstr "क्वेरी सर्भर"
+
+#. i18n: file: ku_ldapsamba.ui:189
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:84
+msgid "Domain SID (you can obtain with 'net getlocalsid domain_name'):"
+msgstr ""
+"डोमेन SID (तपाईँले 'net getlocalsid डोमेन नाम' मा प्राप्त गर्न सक्नुहुन्छ):"
+
+#. i18n: file: ku_ldapsamba.ui:217
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:87
+msgid "Algorithmic RID base:"
+msgstr "अल्गोरिदमिक RID आधार:"
+
+#. i18n: file: ku_ldapsettings.ui:34
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapgrouprdn)
+#. i18n: file: ku_ldapsettings.ui:165
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapuserrdn)
+#: rc.cpp:90 rc.cpp:141
+msgid "cn"
+msgstr "cn"
+
+#. i18n: file: ku_ldapsettings.ui:39
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapgrouprdn)
+#: rc.cpp:93
+msgid "gidNumber"
+msgstr "gidNumber"
+
+#. i18n: file: ku_ldapsettings.ui:51
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: rc.cpp:96
+msgid "Plain Text"
+msgstr "सादा पाठ"
+
+#. i18n: file: ku_ldapsettings.ui:56
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: rc.cpp:99
+msgid "CRYPT"
+msgstr "CRYPT"
+
+#. i18n: file: ku_ldapsettings.ui:61
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: rc.cpp:102
+msgid "MD5"
+msgstr "MD5"
+
+#. i18n: file: ku_ldapsettings.ui:66
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: rc.cpp:105
+msgid "SMD5"
+msgstr "SMD5"
+
+#. i18n: file: ku_ldapsettings.ui:71
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: rc.cpp:108
+msgid "SHA"
+msgstr "SHA"
+
+#. i18n: file: ku_ldapsettings.ui:76
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: rc.cpp:111
+msgid "SSHA"
+msgstr "SSHA"
+
+#. i18n: file: ku_ldapsettings.ui:84
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:114
+msgid "User base:"
+msgstr "प्रयोगकर्ता आधार:"
+
+#. i18n: file: ku_ldapsettings.ui:94
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: rc.cpp:117
+msgid "Group filter:"
+msgstr "समूह फिल्टर:"
+
+#. i18n: file: ku_ldapsettings.ui:104
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:120
+msgid "Structural objectclass:"
+msgstr "संरचनात्मक वस्तु वर्ग:"
+
+#. i18n: file: ku_ldapsettings.ui:114
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: rc.cpp:123
+msgid "User filter:"
+msgstr "प्रयोगकर्ता फिल्टर:"
+
+#. i18n: file: ku_ldapsettings.ui:131
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapstructural)
+#: rc.cpp:126
+msgid "account"
+msgstr "खाता"
+
+#. i18n: file: ku_ldapsettings.ui:136
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapstructural)
+#: rc.cpp:129
+msgid "inetOrgPerson"
+msgstr "inetOrgPerson"
+
+#. i18n: file: ku_ldapsettings.ui:144
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:132
+msgid "Group RDN prefix:"
+msgstr "समूह RDN उपसर्ग:"
+
+#. i18n: file: ku_ldapsettings.ui:155
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapuserrdn)
+#: rc.cpp:135
+msgid "uid"
+msgstr "uid"
+
+#. i18n: file: ku_ldapsettings.ui:160
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapuserrdn)
+#: rc.cpp:138
+msgid "uidNumber"
+msgstr "uidNumber"
+
+#. i18n: file: ku_ldapsettings.ui:173
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:144
+msgid "Group base:"
+msgstr "समूह आधार:"
+
+#. i18n: file: ku_ldapsettings.ui:183
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:147
+msgid "User RDN prefix:"
+msgstr "प्रयोगकर्ता RDN उपसर्ग:"
+
+#. i18n: file: ku_ldapsettings.ui:193
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:150
+msgid "Password hash:"
+msgstr "पासवर्ड सम्झनुहोस्:"
+
+#. i18n: file: ku_ldapsettings.ui:205
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapshadow)
+#: rc.cpp:153
+msgid "Manage shadowAccount objectclass"
+msgstr "छायाँ खाता वस्तु वर्ग प्रबन्ध गर्नुहोस्"
+
+#. i18n: file: ku_ldapsettings.ui:212
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapcnfullname)
+#. i18n: file: kuser.kcfg:225
+#. i18n: ectx: label, entry (ldapcnfullname), group (connection-$(connection))
+#: rc.cpp:156 rc.cpp:391
+msgid "Store the user's full name in the cn attribute"
+msgstr "cn विशेषतामा प्रयोगकर्ताको पूरा नाम भण्डारण गर्नुहोस्"
+
+#. i18n: file: ku_ldapsettings.ui:219
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapgecos)
+#: rc.cpp:159
+msgid "Update the gecos attribute"
+msgstr "जेकोस विशेषता अद्यावधिक गर्नुहोस्"
+
+#. i18n: file: ku_passwordpolicy.ui:38
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:162
+msgid "Time before password expires to issue an expire warning:"
+msgstr "पासवर्ड म्याद समाप्त हुनुभन्दा पहिले चेतावनी दिने समय:"
+
+#. i18n: file: ku_passwordpolicy.ui:51
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:165
+msgid "Time when password expires after last password change:"
+msgstr "पछिल्लो पासवर्ड परिवर्तन पछि पासवर्डको म्याद समाप्त हुने समय:"
+
+#. i18n: file: ku_passwordpolicy.ui:64
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: rc.cpp:168
+msgid "Time when account will be disabled after expiration of password:"
+msgstr "पासवर्डको म्यादको समाप्ति पछि खाता अक्षम पारिने समय:"
+
+#. i18n: file: ku_passwordpolicy.ui:103
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:177
+msgid "Time before password may not be changed after last password change:"
+msgstr "पछिल्लो पासवर्ड परिवर्तन पछि पासवर्ड परिवर्तन नहुने अगाडिको समय:"
+
+#. i18n: file: ku_passwordpolicy.ui:149
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:183
+msgid "Account will expire on:"
+msgstr "खाताको म्याद समाप्त हुने समय:"
+
+#. i18n: file: kuser.kcfg:16
+#. i18n: ectx: label, entry (connection), group (general)
+#: rc.cpp:189
+msgid "Default connection"
+msgstr "पूर्वनिर्धारित जडान"
+
+#. i18n: file: kuser.kcfg:20
+#. i18n: ectx: label, entry (showsys), group (general)
+#: rc.cpp:192
+msgid "Show system users"
+msgstr "प्रणाली प्रयोगकर्ता देखाउनुहोस्"
+
+#. i18n: file: kuser.kcfg:26
+#. i18n: ectx: label, entry (source), group (connection-$(connection))
+#: rc.cpp:195
+msgid "The source of the user and group database"
+msgstr "प्रयोगकर्ता र समूह डाटाबेसको स्रोत"
+
+#. i18n: file: kuser.kcfg:27
+#. i18n: ectx: whatsthis, entry (source), group (connection-$(connection))
+#: rc.cpp:198
+msgid ""
+"This option allows you to select where the user/group data stored. Currently "
+"three storage backends are supported. <BR><B>Files</B> stores user/group "
+"data in traditional /etc/passwd and /etc/group flat files. <BR><B>LDAP</B> "
+"stores data in a directory server using the posixAccount and posixGroup "
+"object classes; this backend allows the management of Samba users/groups via "
+"the sambaSamAccount object class.<BR><B>System</B> provides a read-only "
+"access to all users and groups which your installation knows about."
+msgstr ""
+"यो विकल्पले तपाईँलाई प्रयोगकर्ता/समूह डेटा भण्डारण गरिने ठाउँमा चयन गर्न "
+"अनुमति दिन्छ । हाललाई तिनवटा भण्डारण ब्याकइन्डलाई समर्थन गर्दछ । "
+"<BR><B>फाइल</B> ले प्रयोगकर्ता/समूह डेटा परम्पारगत /etc/passwd र /etc/group "
+"फ्ल्याट फाइलमा भण्डारण गर्छ । <BR><B>LDAP</B> ले पोसिक्स खाता र पोसिक्स समूह "
+"वस्तु वर्ग प्रयोग गरेर डाइरेक्टरी सर्भरमा डेटा भण्डारण गर्छ; यो ब्याकइन्डले "
+"साम्बा प्रयोगकर्ता/समूह हुदै साम्बा खाता वस्तु वर्ग व्यवस्थापन गर्न अनुमति "
+"दिन्छ ।<BR><B>प्रणाली</B> ले तपाईँको स्थापनाको जानकारीका सबै प्रयोगकर्ता र "
+"समूहमा पढ्ने मात्र पहुँच उपलब्ध गराउछ ।"
+
+#. i18n: file: kuser.kcfg:36
+#. i18n: ectx: label, entry (shell), group (connection-$(connection))
+#: rc.cpp:201
+msgid "Shell"
+msgstr "शेल"
+
+#. i18n: file: kuser.kcfg:37
+#. i18n: ectx: whatsthis, entry (shell), group (connection-$(connection))
+#: rc.cpp:204
+msgid ""
+"This option allows you to select the shell which will be the default for new "
+"users."
+msgstr ""
+"यो विकल्पले तपाईँलाई नयाँ प्रयोगकर्ताका लागि पूर्वनिर्धारित हुने शेल चयन "
+"गर्न अनुमति दिन्छ ।"
+
+#. i18n: file: kuser.kcfg:40
+#. i18n: ectx: label, entry (homepath), group (connection-$(connection))
+#: rc.cpp:207
+msgid "Home path template"
+msgstr "गृह मार्ग टेम्प्लेट"
+
+#. i18n: file: kuser.kcfg:41
+#. i18n: ectx: whatsthis, entry (homepath), group (connection-$(connection))
+#: rc.cpp:211
+#, no-c-format
+msgid ""
+"This option specifies the UNIX home path template for new users. The '%U' "
+"macro will replaced with the actual user name."
+msgstr ""
+"यो विकल्पले नयाँ प्रयोगकर्ताका लागि यूनिक्स गृह मार्ग टेम्प्लेट निर्दिष्ट "
+"गर्छ । '%U' म्याक्रो वास्तविक प्रयोगकर्ता नाममा प्रतिस्थापित हुनेछ ।"
+
+#. i18n: file: kuser.kcfg:45
+#. i18n: ectx: label, entry (firstUID), group (connection-$(connection))
+#: rc.cpp:214
+msgid "First UID"
+msgstr "पहिलो UID"
+
+#. i18n: file: kuser.kcfg:46
+#. i18n: ectx: whatsthis, entry (firstUID), group (connection-$(connection))
+#: rc.cpp:217
+msgid ""
+"This options specifies the first user ID where searching for an available "
+"UID starts."
+msgstr ""
+"यो विकल्पले उपलब्ध UID सुरुआतका लागि खोजिने ठाउँमा पहिलो प्रयोगकर्ता आईडी "
+"निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:50
+#. i18n: ectx: label, entry (firstGID), group (connection-$(connection))
+#: rc.cpp:220
+msgid "First GID"
+msgstr "पहिलो GID"
+
+#. i18n: file: kuser.kcfg:51
+#. i18n: ectx: whatsthis, entry (firstGID), group (connection-$(connection))
+#: rc.cpp:223
+msgid ""
+"This options specifies the first group ID where searching for an available "
+"GID starts."
+msgstr ""
+"यो विकल्पले उपलब्ध GID सुरुआतका लागि खोजिने ठाउँमा पहिलो समूह आईडी निर्दिष्ट "
+"गर्छ ।"
+
+#. i18n: file: kuser.kcfg:56
+#. i18n: ectx: whatsthis, entry (createHomeDir), group (connection-$(connection))
+#: rc.cpp:229
+msgid ""
+"If this option is checked then a home directory will created for the new "
+"user."
+msgstr ""
+"यो विकल्प जाँच गरेमा नयाँ प्रयोगकर्ताका लागि गृह डाइरेक्टरी सिर्जना गरिन्छ ।"
+
+#. i18n: file: kuser.kcfg:61
+#. i18n: ectx: whatsthis, entry (copySkel), group (connection-$(connection))
+#: rc.cpp:235
+msgid ""
+"If this option is checked then the contents of the skeleton folder will "
+"copied to the new user's home directory"
+msgstr ""
+"यो विकल्प जाँच गरेमा त्यसपछि स्केलेटन फोल्डरको सामाग्री नयाँ प्रयोगकर्ताको "
+"गृह डाइरेक्टरीमा प्रतिलिपि हुन्छ"
+
+#. i18n: file: kuser.kcfg:66
+#. i18n: ectx: whatsthis, entry (userPrivateGroup), group (connection-$(connection))
+#: rc.cpp:241
+msgid ""
+"If this option is enabled, new user creation will create a private group "
+"named as the user, and the primary group of the user will assigned to this "
+"private group."
+msgstr ""
+"यो विकल्प सक्षम पारिएमा, नयाँ प्रयोगकर्ता सिर्जनाले प्रयोगकर्ताको रूपमा नाम "
+"दिएको व्यक्तिगत समूह सिर्जना गर्नेछ, र प्रयोगकर्ताको प्राथमिक समूह यो "
+"व्यक्तिगत समूहमा मानाङ्कित हुनेछ ।"
+
+#. i18n: file: kuser.kcfg:70
+#. i18n: ectx: label, entry (defaultgroup), group (connection-$(connection))
+#: rc.cpp:244
+msgid "Default primary group"
+msgstr "पूर्वनिर्धारित प्राथमिक समूह"
+
+#. i18n: file: kuser.kcfg:71
+#. i18n: ectx: whatsthis, entry (defaultgroup), group (connection-$(connection))
+#: rc.cpp:247
+msgid ""
+"This is the default primary group which will be assigned to a newly created "
+"user."
+msgstr ""
+"यो हालै सिर्जना गरिएको प्रयोगकर्तामा मानाङ्कित हुने पूर्वनिर्धारित प्राथमिक "
+"समूह हो ।"
+
+#. i18n: file: kuser.kcfg:76
+#. i18n: ectx: label, entry (smin), group (connection-$(connection))
+#: rc.cpp:250
+msgid "smin"
+msgstr "smin"
+
+#. i18n: file: kuser.kcfg:80
+#. i18n: ectx: label, entry (smax), group (connection-$(connection))
+#: rc.cpp:253
+msgid "smax"
+msgstr "smax"
+
+#. i18n: file: kuser.kcfg:84
+#. i18n: ectx: label, entry (swarn), group (connection-$(connection))
+#: rc.cpp:256
+msgid "swarn"
+msgstr "swarn"
+
+#. i18n: file: kuser.kcfg:88
+#. i18n: ectx: label, entry (sinact), group (connection-$(connection))
+#: rc.cpp:259
+msgid "sinact"
+msgstr "sinact"
+
+#. i18n: file: kuser.kcfg:92
+#. i18n: ectx: label, entry (sexpire), group (connection-$(connection))
+#: rc.cpp:262
+msgid "sexpire"
+msgstr "sexpire"
+
+#. i18n: file: kuser.kcfg:93
+#. i18n: ectx: whatsthis, entry (sexpire), group (connection-$(connection))
+#: rc.cpp:265
+msgid "This setting is for specifying a date when user accounts will expire."
+msgstr ""
+"यो प्रयोगकर्ता खाताको म्याद समाप्त हुने बेलामा डेटा निर्दिष्ट गर्नका लगि "
+"बनाइएको सेटिङ हो ।"
+
+#. i18n: file: kuser.kcfg:97
+#. i18n: ectx: label, entry (sneverexpire), group (connection-$(connection))
+#: rc.cpp:268
+msgid "sneverexpire"
+msgstr "sneverexpire"
+
+#. i18n: file: kuser.kcfg:98
+#. i18n: ectx: whatsthis, entry (sneverexpire), group (connection-$(connection))
+#: rc.cpp:271
+msgid "Check this if you want to user accounts never expire."
+msgstr ""
+"तपाईँ प्रयोगकर्ता खाता कहिल्यै पनि समाप्त गर्न चाहनुहुन्न भने यसलाई चिनो "
+"लगाउनुहोस् ।"
+
+#. i18n: file: kuser.kcfg:103
+#. i18n: ectx: label, entry (passwdsrc), group (connection-$(connection))
+#: rc.cpp:274
+msgid "Password file"
+msgstr "पासवर्ड फाइल"
+
+#. i18n: file: kuser.kcfg:104
+#. i18n: ectx: whatsthis, entry (passwdsrc), group (connection-$(connection))
+#: rc.cpp:277
+msgid "This specifies the users database file (usually /etc/passwd)."
+msgstr "यसले प्रयोगकर्ता डाटाबेस फाइल (सधैँजसो /etc/passwd) निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:108
+#. i18n: ectx: label, entry (groupsrc), group (connection-$(connection))
+#: rc.cpp:280
+msgid "Group file"
+msgstr "समूह फाइल"
+
+#. i18n: file: kuser.kcfg:109
+#. i18n: ectx: whatsthis, entry (groupsrc), group (connection-$(connection))
+#: rc.cpp:283
+msgid "This specifies the groups database file (usually /etc/group)."
+msgstr "यसले समूह डाटाबेस फाइल (सधैँजसो /etc/passwd) निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:113
+#. i18n: ectx: label, entry (md5shadow), group (connection-$(connection))
+#: rc.cpp:286
+msgid "MD5 Shadow passwords"
+msgstr "MD5 छायाँ पासवर्ड"
+
+#. i18n: file: kuser.kcfg:114
+#. i18n: ectx: whatsthis, entry (md5shadow), group (connection-$(connection))
+#: rc.cpp:289
+msgid ""
+"Check this if you want the passwords in the shadow file MD5 hashed. Leave "
+"this unchecked if DES encryption should be used."
+msgstr ""
+"यदि तपाईँ छायाँ फाइलमा MD5 परिमार्जित पासवर्ड चाहनुहुन्छ भने यसमा चिनो "
+"लगाउनुहोस् । यदि DES गुप्तिकरण प्रयोग गर्नुपर्ने भएमा यो चिनो हटाइएको रूपमै "
+"छोड्नुहोस् ।"
+
+#. i18n: file: kuser.kcfg:117
+#. i18n: ectx: label, entry (shadowsrc), group (connection-$(connection))
+#: rc.cpp:292
+msgid "Shadow password file"
+msgstr "छायाँ पासवर्ड फाइल"
+
+#. i18n: file: kuser.kcfg:118
+#. i18n: ectx: whatsthis, entry (shadowsrc), group (connection-$(connection))
+#: rc.cpp:295
+msgid ""
+"Specifies the shadow password file (usually /etc/shadow). Leave this empty "
+"if your system does not use a shadow password file."
+msgstr ""
+"छायाँ पासवर्ड फाइल (सधैँजसो /etc/shadow) निर्दिष्ट गर्छ । यदि तपाईँको "
+"प्रणालीले छायाँ पासवर्ड फाइल प्रयोग गर्दैन भने यसलाई खाली छोड्नुहोस् ।"
+
+#. i18n: file: kuser.kcfg:122
+#. i18n: ectx: label, entry (gshadowsrc), group (connection-$(connection))
+#: rc.cpp:298
+msgid "Group shadow file"
+msgstr "समूह छायाँ फाइल"
+
+#. i18n: file: kuser.kcfg:123
+#. i18n: ectx: whatsthis, entry (gshadowsrc), group (connection-$(connection))
+#: rc.cpp:301
+msgid ""
+"Specifies the shadow group file (usually /etc/gshadow). Leave this empty if "
+"your system does not use a shadow group file."
+msgstr ""
+"छायाँ समूह फाइल (सधैँजसो /etc/gshadow) निर्दिष्ट गर्छ । यदि तपाईँको "
+"प्रणालीले छायाँ समूह फाइल प्रयोग गर्दैन भने यसलाई खाली छोड्नुहोस् ।"
+
+#. i18n: file: kuser.kcfg:128
+#. i18n: ectx: label, entry (ldapuser), group (connection-$(connection))
+#: rc.cpp:304
+msgid "LDAP User"
+msgstr "LDAP प्रयोगकर्ता"
+
+#. i18n: file: kuser.kcfg:131
+#. i18n: ectx: label, entry (ldappassword), group (connection-$(connection))
+#: rc.cpp:307
+msgid "LDAP Password"
+msgstr "LDAP पासवर्ड"
+
+#. i18n: file: kuser.kcfg:134
+#. i18n: ectx: label, entry (ldaprealm), group (connection-$(connection))
+#: rc.cpp:310
+msgid "LDAP SASL Realm"
+msgstr "LDAP SASL रिआल्म"
+
+#. i18n: file: kuser.kcfg:137
+#. i18n: ectx: label, entry (ldapbinddn), group (connection-$(connection))
+#: rc.cpp:313
+msgid "LDAP Bind DN"
+msgstr "LDAP बाइन्ड DN"
+
+#. i18n: file: kuser.kcfg:140
+#. i18n: ectx: label, entry (ldaphost), group (connection-$(connection))
+#: rc.cpp:316
+msgid "LDAP Host"
+msgstr "LDAP होस्ट"
+
+#. i18n: file: kuser.kcfg:143
+#. i18n: ectx: label, entry (ldapport), group (connection-$(connection))
+#: rc.cpp:319
+msgid "LDAP Port"
+msgstr "LDAP पोर्ट"
+
+#. i18n: file: kuser.kcfg:147
+#. i18n: ectx: label, entry (ldapver), group (connection-$(connection))
+#: rc.cpp:322
+msgid "LDAP version"
+msgstr "LDAP संस्करण"
+
+#. i18n: file: kuser.kcfg:151
+#. i18n: ectx: label, entry (ldapsizelimit), group (connection-$(connection))
+#: rc.cpp:325
+msgid "LDAP Size limit"
+msgstr "LDAP साइज सीमा"
+
+#. i18n: file: kuser.kcfg:155
+#. i18n: ectx: label, entry (ldaptimelimit), group (connection-$(connection))
+#. i18n: file: kuser.kcfg:159
+#. i18n: ectx: label, entry (ldappagesize), group (connection-$(connection))
+#: rc.cpp:328 rc.cpp:331
+msgid "LDAP Time limit"
+msgstr "LDAP समय सीमा"
+
+#. i18n: file: kuser.kcfg:163
+#. i18n: ectx: label, entry (ldapdn), group (connection-$(connection))
+#: rc.cpp:334
+msgid "LDAP Base DN"
+msgstr "LDAP मा आधारित DN"
+
+#. i18n: file: kuser.kcfg:166
+#. i18n: ectx: label, entry (ldapfilter), group (connection-$(connection))
+#: rc.cpp:337
+msgid "LDAP Filter"
+msgstr "LDAP फिल्टर"
+
+#. i18n: file: kuser.kcfg:169
+#. i18n: ectx: label, entry (ldapnosec), group (connection-$(connection))
+#: rc.cpp:340
+msgid "LDAP no encryption"
+msgstr "LDAP गुप्तिकरण गरिएको छैन"
+
+#. i18n: file: kuser.kcfg:173
+#. i18n: ectx: label, entry (ldaptls), group (connection-$(connection))
+#: rc.cpp:343
+msgid "LDAP TLS"
+msgstr "LDAP TLS"
+
+#. i18n: file: kuser.kcfg:177
+#. i18n: ectx: label, entry (ldapssl), group (connection-$(connection))
+#: rc.cpp:346
+msgid "LDAP SSL"
+msgstr "LDAP SSL"
+
+#. i18n: file: kuser.kcfg:181
+#. i18n: ectx: label, entry (ldapanon), group (connection-$(connection))
+#: rc.cpp:349
+msgid "LDAP Anonymous"
+msgstr "बेनामी LDAP"
+
+#. i18n: file: kuser.kcfg:185
+#. i18n: ectx: label, entry (ldapsimple), group (connection-$(connection))
+#: rc.cpp:352
+msgid "LDAP Simple auth"
+msgstr "LDAP साधारण प्रमाणीकरण"
+
+#. i18n: file: kuser.kcfg:189
+#. i18n: ectx: label, entry (ldapsasl), group (connection-$(connection))
+#: rc.cpp:355
+msgid "LDAP SASL auth"
+msgstr "LDAP SASL auth"
+
+#. i18n: file: kuser.kcfg:193
+#. i18n: ectx: label, entry (ldapsaslmech), group (connection-$(connection))
+#: rc.cpp:358
+msgid "LDAP SASL mechanism"
+msgstr "LDAP SASL संयन्त्र"
+
+#. i18n: file: kuser.kcfg:197
+#. i18n: ectx: label, entry (ldapuserbase), group (connection-$(connection))
+#: rc.cpp:361
+msgid "LDAP User container"
+msgstr "LDAP प्रयोगकर्ता कन्टेनर"
+
+#. i18n: file: kuser.kcfg:198
+#. i18n: ectx: whatsthis, entry (ldapuserbase), group (connection-$(connection))
+#: rc.cpp:364
+msgid ""
+"This specifies where to store users' entries relative to the LDAP base DN."
+msgstr ""
+"यसले LDAP मा आधारित DN सँग सम्बन्धित प्रयोगकर्ताको प्रविष्टि भण्डारण गर्ने "
+"ठाँउ निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:202
+#. i18n: ectx: label, entry (ldapuserfilter), group (connection-$(connection))
+#: rc.cpp:367
+msgid "LDAP User filter"
+msgstr "LDAP प्रयोगकर्ता फिल्टर"
+
+#. i18n: file: kuser.kcfg:203
+#. i18n: ectx: whatsthis, entry (ldapuserfilter), group (connection-$(connection))
+#: rc.cpp:370
+msgid "This specifies the filter used for user entries."
+msgstr ""
+"यसले प्रयोगकर्ता प्रविष्टिका लागि प्रयोग गरिएका फिल्टर निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:206
+#. i18n: ectx: label, entry (ldapgroupbase), group (connection-$(connection))
+#: rc.cpp:373
+msgid "LDAP Group container"
+msgstr "LDAP समूह कन्टेनर"
+
+#. i18n: file: kuser.kcfg:207
+#. i18n: ectx: whatsthis, entry (ldapgroupbase), group (connection-$(connection))
+#: rc.cpp:376
+msgid ""
+"This specifies where to store groups' entries relative to the LDAP base DN."
+msgstr ""
+"यसले LDAP मा आधारित DN सँग सम्बन्धित समूहको प्रविष्टि भण्डारण गर्ने ठाउँ "
+"निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:211
+#. i18n: ectx: label, entry (ldapgroupfilter), group (connection-$(connection))
+#: rc.cpp:379
+msgid "LDAP Group filter"
+msgstr "LDAP समूह फिल्टर"
+
+#. i18n: file: kuser.kcfg:212
+#. i18n: ectx: whatsthis, entry (ldapgroupfilter), group (connection-$(connection))
+#: rc.cpp:382
+msgid "This specifies the filter used for group entries."
+msgstr "यसले समूह प्रविष्टका लागि प्रयोग गरिएका फिल्टर निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:215
+#. i18n: ectx: label, entry (ldapuserrdn), group (connection-$(connection))
+#: rc.cpp:385
+msgid "LDAP User RDN prefix"
+msgstr "LDAP प्रयोगकर्ताको RDN उपसर्ग"
+
+#. i18n: file: kuser.kcfg:216
+#. i18n: ectx: whatsthis, entry (ldapuserrdn), group (connection-$(connection))
+#: rc.cpp:388
+msgid "This specifies what prefix will used for user entries."
+msgstr ""
+"यसले प्रयोगकर्ता प्रविष्टिका लागि प्रयोग गरिने उपसर्ग निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:226
+#. i18n: ectx: whatsthis, entry (ldapcnfullname), group (connection-$(connection))
+#: rc.cpp:394
+msgid ""
+"Check this if the user's full name should be stored in the cn (Canonical "
+"Name) attribute."
+msgstr ""
+"यदि प्रयोगकर्ताको पूरा नाम cn (क्यानोनिकल नाम) विशेषतामा भण्डारण गर्नुपर्ने "
+"भएमा यसमा चिनो लगाउनुहोस् ।"
+
+#. i18n: file: kuser.kcfg:230
+#. i18n: ectx: label, entry (ldapgecos), group (connection-$(connection))
+#: rc.cpp:397
+msgid "Update the gecos field"
+msgstr "gecos फिल्ड अद्यावधिक गर्नुहोस्"
+
+#. i18n: file: kuser.kcfg:231
+#. i18n: ectx: whatsthis, entry (ldapgecos), group (connection-$(connection))
+#: rc.cpp:400
+msgid "Check this if the gecos attribute should be updated."
+msgstr "यदि gecos विशेषता अद्यावधिक गर्नुपर्ने भएमा यसमा चिनो लगाउनुहोस् ।"
+
+#. i18n: file: kuser.kcfg:235
+#. i18n: ectx: label, entry (ldapshadow), group (connection-$(connection))
+#: rc.cpp:403
+msgid "Manage LDAP shadowAccount objectclass"
+msgstr "LDAP छायाँ खाता वस्तु वर्ग व्यवस्थापन गर्नुहोस्"
+
+#. i18n: file: kuser.kcfg:236
+#. i18n: ectx: whatsthis, entry (ldapshadow), group (connection-$(connection))
+#: rc.cpp:406
+msgid ""
+"Check this if the shadowAccount object should be used in the users' entries. "
+"It allows to enforce password change/expiration policies."
+msgstr ""
+"यदि प्रयोगकर्ता प्रविष्टिमा छायाँ खाता वस्तु प्रयोग गर्नुपर्ने भएमा यसमा "
+"चिनो गर्नुहोस् । यसले पासवर्ड परिवर्तन/समाप्त नीति सबल पार्न अनुमति दिन्छ ।"
+
+#. i18n: file: kuser.kcfg:240
+#. i18n: ectx: label, entry (ldapstructural), group (connection-$(connection))
+#: rc.cpp:409
+msgid "LDAP Structural objectclass"
+msgstr "LDAP संरचनात्मक वस्तु वर्ग"
+
+#. i18n: file: kuser.kcfg:241
+#. i18n: ectx: whatsthis, entry (ldapstructural), group (connection-$(connection))
+#: rc.cpp:412
+msgid ""
+"This option allows to specify the structural objectclass used with users' "
+"entries. If you want to use these entries not just for authentication, but "
+"for an address book, too, then choose inetOrgPerson."
+msgstr ""
+
+#. i18n: file: kuser.kcfg:249
+#. i18n: ectx: label, entry (ldapgrouprdn), group (connection-$(connection))
+#: rc.cpp:415
+msgid "LDAP Group RDN prefix"
+msgstr "LDAP समूहमा RDN उपसर्ग"
+
+#. i18n: file: kuser.kcfg:250
+#. i18n: ectx: whatsthis, entry (ldapgrouprdn), group (connection-$(connection))
+#: rc.cpp:418
+msgid "This specifies what prefix will used for group entries."
+msgstr "यसले समूह प्रविष्टका लागि प्रयोग गरिने उपसर्ग निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:258
+#. i18n: ectx: label, entry (ldappasswordhash), group (connection-$(connection))
+#: rc.cpp:421
+msgid "LDAP Password hash method"
+msgstr "LDAP पासवर्ड परिमार्जन बिधि"
+
+#. i18n: file: kuser.kcfg:259
+#. i18n: ectx: whatsthis, entry (ldappasswordhash), group (connection-$(connection))
+#: rc.cpp:424
+msgid "This specifies the password hashing method. The most secure is SSHA."
+msgstr ""
+"यसले पासवर्ड परिमार्जन बिधि निर्दिष्ट गर्छ । सबैभन्दा सुरक्षित SSHA छ ।"
+
+#. i18n: file: kuser.kcfg:271
+#. i18n: ectx: label, entry (ldapsam), group (connection-$(connection))
+#: rc.cpp:427
+msgid "Enable samba account management"
+msgstr "साम्बा खाता व्यवस्थापन सक्षम पार्नुहोस्"
+
+#. i18n: file: kuser.kcfg:272
+#. i18n: ectx: whatsthis, entry (ldapsam), group (connection-$(connection))
+#: rc.cpp:430
+msgid ""
+"Check this if you want to use the user/group entries in a Samba domain. "
+"KUser will create sambaSamAccount objectclass for each entry which is usable "
+"with the ldapsam passdb backend with Samba version greater than 3.0."
+msgstr ""
+"यदि तपाईँ साम्बा डोमेनमा प्रयोगकर्ता/समूह प्रविष्ट प्रयोग गर्न चाहनुहुन्छ "
+"भने यो चिनो लगाउनुहोस् । केडीई प्रयोगकर्ताले ३.० भन्दा ठुलो संस्करणमा "
+"साम्बामा ldapsam passdg ब्याकइन्डसँग प्रयोग गर्न योग्य प्रत्येक प्रविष्टिका "
+"लागि sambasamaccount वस्तु वर्ग सिर्जना गर्नेछ ।"
+
+#. i18n: file: kuser.kcfg:275
+#. i18n: ectx: label, entry (samdomain), group (connection-$(connection))
+#: rc.cpp:433
+msgid "Samba domain name"
+msgstr "साम्बा डोमेन नाम"
+
+#. i18n: file: kuser.kcfg:276
+#. i18n: ectx: whatsthis, entry (samdomain), group (connection-$(connection))
+#: rc.cpp:436
+msgid "This specifies the samba domain name."
+msgstr "यसले साम्बा डोमेन नाम निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:279
+#. i18n: ectx: label, entry (samdomsid), group (connection-$(connection))
+#: rc.cpp:439
+msgid "Samba domain SID"
+msgstr "साम्बा डोमेन SID"
+
+#. i18n: file: kuser.kcfg:280
+#. i18n: ectx: whatsthis, entry (samdomsid), group (connection-$(connection))
+#: rc.cpp:442
+msgid ""
+"This specifies the domain Security IDentifier. It is unique in a single "
+"domain. You can query the value of the domain SID with 'net getlocalsid "
+"domain_name'."
+msgstr ""
+"यसले डोमेन सुरक्षण पहिचायक निर्दिष्ट गर्छ । यो एकल डोमेनमा अद्वितिय छ । "
+"तपाईँले 'net getlocalsid डोमेन नाम' सँग SID डोमेनको मान क्वेरी गर्न "
+"सक्नुहुन्छ ।"
+
+#. i18n: file: kuser.kcfg:283
+#. i18n: ectx: label, entry (samridbase), group (connection-$(connection))
+#: rc.cpp:445
+msgid "Algorithmic RID base"
+msgstr "अल्गोरिदमिक RID आधार"
+
+#. i18n: file: kuser.kcfg:284
+#. i18n: ectx: whatsthis, entry (samridbase), group (connection-$(connection))
+#: rc.cpp:448
+msgid ""
+"This value is an offset for the algorithmic mapping from uids and gids to "
+"rids. The default (and minimum) value is 1000, it must be even, and the LDAP "
+"database and smb.conf must store the same values."
+msgstr ""
+
+#. i18n: file: kuser.kcfg:288
+#. i18n: ectx: label, entry (samloginscript), group (connection-$(connection))
+#: rc.cpp:451
+msgid "Samba login script"
+msgstr "साम्बा लगइन स्क्रिप्ट"
+
+#. i18n: file: kuser.kcfg:289
+#. i18n: ectx: whatsthis, entry (samloginscript), group (connection-$(connection))
+#: rc.cpp:454
+msgid ""
+"This specifies a name of a login script (in the `Netlogon` share) which will "
+"be executed as the user logs in to a Windows machine."
+msgstr ""
+"यसले सञ्झ्याल मेसिनमा प्रयोगकर्ता लग अनुरूप कार्यान्वयन गर्न सकिने लगइन "
+"स्क्रिप्ट (`नेटलगअन` शेयरमा) को नाम निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:292
+#. i18n: ectx: label, entry (samhomedrive), group (connection-$(connection))
+#: rc.cpp:457
+msgid "Samba home drive"
+msgstr "साम्बा गृह ड्राइभ"
+
+#. i18n: file: kuser.kcfg:293
+#. i18n: ectx: whatsthis, entry (samhomedrive), group (connection-$(connection))
+#: rc.cpp:460
+msgid ""
+"Specifies a drive letter where the user's home directory will automatically "
+"mapped when he/she logs into a Windows machine."
+msgstr ""
+"उसले/उनले विन्डोज मेसिनमा लग गर्दा प्रयोगकर्ताको गृह डाइरेक्टरी स्वचालित "
+"रूपले नक्साङ्कित हुने ड्राइभ लेटर निर्दिष्ट गर्छ ।"
+
+#. i18n: file: kuser.kcfg:296
+#. i18n: ectx: label, entry (samprofilepath), group (connection-$(connection))
+#: rc.cpp:463
+msgid "Samba profile path template"
+msgstr "साम्बा प्रोफाइल मार्ग टेम्प्लेट"
+
+#. i18n: file: kuser.kcfg:297
+#. i18n: ectx: whatsthis, entry (samprofilepath), group (connection-$(connection))
+#: rc.cpp:467
+#, no-c-format
+msgid ""
+"This specifies the location of the roaming profile of the user. The '%U' "
+"macro will be replaced with the actual user name."
+msgstr ""
+"यसले प्रयोगकर्ताको रोमिङ प्रोफइलको स्थान निर्दिष्ट गर्छ । '%U' म्याक्रो "
+"वास्तविक प्रयोगकर्ता नामद्वारा प्रतिस्थापन गरिन्छ ।"
+
+#. i18n: file: kuser.kcfg:300
+#. i18n: ectx: label, entry (samhomepath), group (connection-$(connection))
+#: rc.cpp:470
+msgid "Samba home path template"
+msgstr "साम्बा गृह मार्ग टेम्प्लेट"
+
+#. i18n: file: kuser.kcfg:301
+#. i18n: ectx: whatsthis, entry (samhomepath), group (connection-$(connection))
+#: rc.cpp:474
+#, no-c-format
+msgid ""
+"This specifies the location of the home directory of the user. This field is "
+"meaningful only for Windows machines. The '%U' macro will be replaced with "
+"the actual user name."
+msgstr ""
+"यसले प्रयोगकर्ताको गृह डाइरेक्टरीको स्थान निर्दिष्ट गर्छ । यो फिल्ड विन्डोज "
+"मेसिनका लागि मात्र अर्थपूर्ण हुन्छ । '%U' म्याक्रो वास्तविक प्रयोगकर्ता "
+"नामद्वारा प्रतिस्थापन गरिन्छ ।"
+
+#. i18n: file: kuser.kcfg:305
+#. i18n: ectx: whatsthis, entry (lanmanhash), group (connection-$(connection))
+#: rc.cpp:480
+msgid ""
+"Store the LanManager hashed password in the sambaLMPassword attribute. Check "
+"this if you have older clients (Win9x series and before) on your network."
+msgstr ""
+"साम्बा LMPassword विशेषतामा परिमार्जित ल्यानमेनेजर भण्डारण गर्नुहोस् । "
+"तपाईँको सञ्जालमा पूराना क्लाइन्ट (Win9x श्रृङ्खला र अगाडिको) भएमा यो चिनो "
+"लगाउनुहोस् ।"
+
+#. i18n: file: kuserui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:483
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: kuserui.rc:8
+#. i18n: ectx: Menu (user)
+#: rc.cpp:486
+msgid "&User"
+msgstr "प्रयोगकर्ता"
+
+#. i18n: file: kuserui.rc:14
+#. i18n: ectx: Menu (group)
+#: rc.cpp:489
+msgid "&Group"
+msgstr "समूह"
+
+#. i18n: file: kuserui.rc:19
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:492
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#: rc.cpp:493
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:494
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"

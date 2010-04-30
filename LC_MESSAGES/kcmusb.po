@@ -1,0 +1,352 @@
+# translation of kcmusb.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmusb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:59+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:49+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kcmusb.cpp:39
+msgid ""
+"This module allows you to see the devices attached to your USB bus(es)."
+msgstr ""
+
+#: kcmusb.cpp:53
+msgid "Device"
+msgstr "यन्त्र"
+
+#: kcmusb.cpp:73
+msgid "kcmusb"
+msgstr "kcmusb"
+
+#: kcmusb.cpp:73
+msgid "KDE USB Viewer"
+msgstr "केडीई USB दृश्यकर्ता"
+
+#: kcmusb.cpp:75
+msgid "(c) 2001 Matthias Hoelzer-Kluepfel"
+msgstr "(सी) २००१ माथियस होइल्जर-क्लुपफेल"
+
+#: kcmusb.cpp:77
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "माथियस होइल्जर-क्लुपफेल"
+
+#: kcmusb.cpp:78
+msgid "Leo Savernik"
+msgstr "लियो सेभरनिक"
+
+#: kcmusb.cpp:78
+msgid "Live Monitoring of USB Bus"
+msgstr "यूएसबी बसको प्रत्यक्ष अनुगमन"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, Shyam krishna bal<shyam@mpp.org.np>,,,"
+
+#: usbdevices.cpp:148
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: usbdevices.cpp:157
+msgid "<b>Manufacturer:</b> "
+msgstr "<b>उत्पादक:</b> "
+
+#: usbdevices.cpp:159
+msgid "<b>Serial #:</b> "
+msgstr "<b>क्रमिक #:</b> "
+
+#: usbdevices.cpp:167
+#, kde-format
+msgid "<tr><td><i>Class</i></td>%1</tr>"
+msgstr "<tr><td><i> वर्ग</i></td>%1</tr>"
+
+#: usbdevices.cpp:172
+#, kde-format
+msgid "<tr><td><i>Subclass</i></td>%1</tr>"
+msgstr "<tr><td><i>उपवर्ग</i></td>%1</tr>"
+
+#: usbdevices.cpp:177
+#, kde-format
+msgid "<tr><td><i>Protocol</i></td>%1</tr>"
+msgstr "<tr><td><i>प्रोटोकल</i></td>%1</tr>"
+
+#: usbdevices.cpp:179
+#, kde-format
+msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>यूएसबी संस्करण</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:189
+#, kde-format
+msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>विक्रेता आईडी</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:194
+#, kde-format
+msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>वस्तु आईडी</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:195
+#, kde-format
+msgid "<tr><td><i>Revision</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>पुनरावृत्ति</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:200
+#, kde-format
+msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
+msgstr "<tr><td><i>गति</i></td><td>%1 Mbit/s</td></tr>"
+
+#: usbdevices.cpp:201
+#, kde-format
+msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>च्यानल</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:204
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>%1 mA</td></tr>"
+msgstr "<tr><td><i>शक्ति उपभोग</i></td><td>%1 mA</td></tr>"
+
+#: usbdevices.cpp:206
+msgid "<tr><td><i>Power Consumption</i></td><td>self powered</td></tr>"
+msgstr "<tr><td><i>शक्ति उपभोग</i></td><td>स्वयम शक्ति भएको</td></tr>"
+
+#: usbdevices.cpp:207
+#, kde-format
+msgid "<tr><td><i>Attached Devicenodes</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>संलग्न गरिएको यन्त्र नोड</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:215
+#, kde-format
+msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>अधिकतम प्याकेट साइज</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:220
+#, kde-format
+msgid "<tr><td><i>Bandwidth</i></td><td>%1 of %2 (%3%)</td></tr>"
+msgstr "%2 (%3%)</td></tr> को <tr><td><i>ब्यान्डविथ</i></td><td>%1"
+
+#: usbdevices.cpp:221
+#, kde-format
+msgid "<tr><td><i>Intr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Intr. अनुरोध</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:222
+#, kde-format
+msgid "<tr><td><i>Isochr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Isochr. अनुरोध</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:406
+msgid ""
+"Could not open one or more USB controller. Make sure, you have read access "
+"to all USB controllers that should be listed here."
+msgstr ""
+"एउटा वा धेरै USB नियनत्रक खोल्न सकेन । तपाईँले यहाँ सूचीकृत गरिनु पर्ने सबै "
+"USB नियन्त्रकहरूमा पहुँच पढ्नुभयो भन्नेमा निश्चित गर्नुहोस् ।"
+
+#: classes.i18n:1
+msgid "AT-commands"
+msgstr "AT-आदेश"
+
+#: classes.i18n:2
+msgid "ATM Networking"
+msgstr "ATM सञ्जालीकरण"
+
+#: classes.i18n:3
+msgid "Abstract (modem)"
+msgstr "संक्षेप (मोडेम)"
+
+#: classes.i18n:4
+msgid "Audio"
+msgstr "अडियो"
+
+#: classes.i18n:5
+msgid "Bidirectional"
+msgstr "द्विदिशात्मक"
+
+#: classes.i18n:6
+msgid "Boot Interface Subclass"
+msgstr "बुट इन्टरफेस उपवर्ग"
+
+#: classes.i18n:7
+msgid "Bulk (Zip)"
+msgstr "परिमाण (जीप)"
+
+#: classes.i18n:8
+msgid "CAPI 2.0"
+msgstr "CAPI 2.0"
+
+#: classes.i18n:9
+msgid "CAPI Control"
+msgstr "CAPI नियन्त्रण"
+
+#: classes.i18n:10
+msgid "CDC PUF"
+msgstr "CDC PUF"
+
+#: classes.i18n:11
+msgid "Communications"
+msgstr "सञ्चार"
+
+#: classes.i18n:12
+msgid "Control Device"
+msgstr "नियन्त्रण यन्त्र"
+
+#: classes.i18n:13
+msgid "Control/Bulk"
+msgstr "नियन्त्रण/परिमाण"
+
+#: classes.i18n:14
+msgid "Control/Bulk/Interrupt"
+msgstr "नियन्त्रण/परिमाण/अवरोध"
+
+#: classes.i18n:15
+msgid "Data"
+msgstr "डेटा"
+
+#: classes.i18n:16
+msgid "Direct Line"
+msgstr "प्रत्यक्ष रेखा"
+
+#: classes.i18n:17
+msgid "Ethernet Networking"
+msgstr "इथरनेट सञ्जालीकरण"
+
+#: classes.i18n:18
+msgid "Floppy"
+msgstr "फ्लपी"
+
+#: classes.i18n:19
+msgid "HDLC"
+msgstr "HDLC"
+
+#: classes.i18n:20
+msgid "Host Based Driver"
+msgstr "होस्ट आधारित ड्राइभर"
+
+#: classes.i18n:21
+msgid "Hub"
+msgstr "हब"
+
+#: classes.i18n:22
+msgid "Human Interface Devices"
+msgstr "मानव इन्टरफेस यन्त्र"
+
+#: classes.i18n:23
+msgid "I.430 ISDN BRI"
+msgstr "I.430 ISDN BRI"
+
+#: classes.i18n:24
+msgid "Interface"
+msgstr "इन्टरफेस"
+
+#: classes.i18n:25
+msgid "Keyboard"
+msgstr "कुञ्जीपाटी"
+
+#: classes.i18n:26
+msgid "Mass Storage"
+msgstr "अधिक भण्डार"
+
+#: classes.i18n:27
+msgid "Mouse"
+msgstr "माउस"
+
+#: classes.i18n:28
+msgid "Multi-Channel"
+msgstr "बहु-च्यानल"
+
+#: classes.i18n:29
+msgid "No Subclass"
+msgstr "उपवर्ग छैन"
+
+#: classes.i18n:30
+msgid "Non Streaming"
+msgstr "प्रवाह विहिन"
+
+#: classes.i18n:31
+msgid "None"
+msgstr "कुनै होइन"
+
+#: classes.i18n:32
+msgid "Printer"
+msgstr "मुद्रक"
+
+#: classes.i18n:33
+msgid "Q.921"
+msgstr "Q.921"
+
+#: classes.i18n:34
+msgid "Q.921M"
+msgstr "Q.921M"
+
+#: classes.i18n:35
+msgid "Q.921TM"
+msgstr "Q.921TM"
+
+#: classes.i18n:36
+msgid "Q.932 EuroISDN"
+msgstr "Q.932 EuroISDN"
+
+#: classes.i18n:37
+msgid "SCSI"
+msgstr "SCSI"
+
+#: classes.i18n:38
+msgid "Streaming"
+msgstr "प्रवाह"
+
+#: classes.i18n:39
+msgid "Telephone"
+msgstr "टेलिफोन"
+
+#: classes.i18n:40
+msgid "Transparent"
+msgstr "पारदर्शी"
+
+#: classes.i18n:41
+msgid "Unidirectional"
+msgstr "दिशात्मक"
+
+#: classes.i18n:42
+msgid "V.120 V.24 rate ISDN"
+msgstr "V.120 V.24 दर ISDN"
+
+#: classes.i18n:43
+msgid "V.42bis"
+msgstr "V.42bis"
+
+#: classes.i18n:44
+msgid "Vendor Specific"
+msgstr "विक्रेता निर्दिष्ट"
+
+#: classes.i18n:45
+msgid "Vendor Specific Class"
+msgstr "विक्रेता निर्दिष्ट वर्ग"
+
+#: classes.i18n:46
+msgid "Vendor Specific Protocol"
+msgstr "विक्रेता निर्दिष्ट प्रोटोकल"
+
+#: classes.i18n:47
+msgid "Vendor Specific Subclass"
+msgstr "विक्रेता निर्दिष्ट उपवर्ग"
+
+#: classes.i18n:48
+msgid "Vendor specific"
+msgstr "विक्रेता निर्दिष्ट"

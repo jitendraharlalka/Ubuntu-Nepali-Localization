@@ -1,0 +1,158 @@
+# translation of kio_pop3.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Ishwor sharma <sharmabeeshwar@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_pop3\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:21+0000\n"
+"PO-Revision-Date: 2008-10-07 14:40+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:51+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: pop3.cpp:228
+#, kde-format
+msgid "The server said: \"%1\""
+msgstr "सर्भरले भन्यो :\"%1\""
+
+#: pop3.cpp:250
+msgid "The server terminated the connection."
+msgstr "सर्भरले जडान विच्छेद गर्यो ।"
+
+#: pop3.cpp:252
+#, kde-format
+msgid ""
+"Invalid response from server:\n"
+"\"%1\""
+msgstr ""
+"सर्भरबाट अवैध प्रतिक्रिया:\n"
+"\"%1\""
+
+#: pop3.cpp:289
+msgid "Could not send to server.\n"
+msgstr "सर्भरमा पठाउन सकेन ।\n"
+
+#: pop3.cpp:342 pop3.cpp:399 pop3.cpp:576
+msgid "No authentication details supplied."
+msgstr "प्रमाणीकरण विवरण प्रदान गरिएको छैन ।"
+
+#: pop3.cpp:378
+#, kde-format
+msgid ""
+"Login via APOP failed. The server %1 may not support APOP, although it "
+"claims to support it, or the password may be wrong.\n"
+"\n"
+"%2"
+msgstr ""
+"APOP हुँदै लगइन गर्न असफल भयो । %1 सर्भरले APOP समर्थन नगर्न सक्दछ, यद्यपी "
+"यसले समर्थन भएको दाबा गर्दछ वा पासवर्ड गलत हुन सक्छ ।\n"
+"\n"
+" %2"
+
+#: pop3.cpp:434
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "प्रमाणीकरण गर्दा एउटा त्रुटि देखापर्यो: %1"
+
+#: pop3.cpp:553
+#, kde-format
+msgid ""
+"Login via SASL (%1) failed. The server may not support %2, or the password "
+"may be wrong.\n"
+"\n"
+"%3"
+msgstr ""
+"SASL (%1) हुँदै लगइन गर्न असफल भयो । सर्भरले %2 समर्थन नगरेर वा पासवर्ड गलत "
+"हुन सक्छ।\n"
+"\n"
+"%3"
+
+#: pop3.cpp:562
+#, kde-format
+msgid ""
+"Your POP3 server (%1) does not support SASL.\n"
+"Choose a different authentication method."
+msgstr ""
+
+#: pop3.cpp:594 pop3.cpp:643
+#, kde-format
+msgid ""
+"Could not login to %1.\n"
+"\n"
+msgstr ""
+"%1 सँग लगइन हुन सकेन ।\n"
+"\n"
+
+#: pop3.cpp:608
+#, kde-format
+msgid ""
+"Could not login to %1. The password may be wrong.\n"
+"\n"
+"%2"
+msgstr ""
+"%1 मा लगइन गर्न सकेन । पासवर्ड गलत हुन सक्छ ।\n"
+"\n"
+"%2"
+
+#: pop3.cpp:646
+msgid "The server terminated the connection immediately."
+msgstr "सर्भरले तुरून्त नै जडान विच्छेद गर्यो ।"
+
+#: pop3.cpp:647
+#, kde-format
+msgid ""
+"Server does not respond properly:\n"
+"%1\n"
+msgstr ""
+"सर्भरले राम्रोसँग प्रतिक्रिया दिएको छैन:\n"
+"%1\n"
+
+#: pop3.cpp:675
+#, kde-format
+msgid ""
+"Your POP3 server (%1) does not support APOP.\n"
+"Choose a different authentication method."
+msgstr ""
+
+#: pop3.cpp:693
+msgid ""
+"Your POP3 server claims to support TLS but negotiation was unsuccessful. You "
+"can disable TLS in KDE using the crypto settings module."
+msgstr ""
+"तपाईँको POP3 सर्भरले TLS समर्थन गर्न दावि गर्दछ तर सम्झौता असफल भयो । "
+"तपाईँले क्रिप्टो सेटिङ मोड्युल प्रयोग गरेर केडीई मा TLS अक्षम बनाउन "
+"सक्नुहुन्छ ।"
+
+#: pop3.cpp:703
+#, kde-format
+msgid ""
+"Your POP3 server (%1) does not support TLS. Disable TLS, if you want to "
+"connect without encryption."
+msgstr ""
+
+#: pop3.cpp:712
+msgid "Username and password for your POP3 account:"
+msgstr "तपाईँको POP3 खाताका लागि प्रयोगकर्ता नाम र पासवर्ड:"
+
+#: pop3.cpp:879 pop3.cpp:888 pop3.cpp:1027
+msgid "Unexpected response from POP3 server."
+msgstr "POP3 सर्भरबाट अनपेक्षित प्रतिक्रिया"
+
+#: pop3.cpp:1054
+msgid "The POP3 command 'STAT' failed"
+msgstr ""
+
+#: pop3.cpp:1060
+msgid "Invalid POP3 response, should have at least one space."
+msgstr ""
+
+#: pop3.cpp:1068
+msgid "Invalid POP3 STAT response."
+msgstr ""

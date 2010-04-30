@@ -1,0 +1,496 @@
+# translation of krandr.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: krandr\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:56+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 03:43+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: krandrmodule.cpp:46
+msgid ""
+"Your X server does not support resizing and rotating the display. Please "
+"update to version 4.3 or greater. You need the X Resize, Rotate, and Reflect "
+"extension (RANDR) version 1.1 or greater to use this feature."
+msgstr ""
+
+#: krandrtray.cpp:53
+msgid "Screen Settings"
+msgstr ""
+
+#: krandrtray.cpp:54
+msgid "Resize, rotate and configure screens."
+msgstr ""
+
+#: krandrtray.cpp:80
+msgid "Required X Extension Not Available"
+msgstr "आवश्यक एक्स विस्तार उपलब्ध छैन"
+
+#: krandrtray.cpp:97 legacyrandrconfig.cpp:38
+#, kde-format
+msgid "Screen %1"
+msgstr "पर्दा %1"
+
+#: krandrtray.cpp:119
+msgid "Configure Display..."
+msgstr "प्रदर्शन कन्फिगर गर्नुहोस्..."
+
+#: krandrtray.cpp:152
+msgid "Screen configuration has changed"
+msgstr "पर्दा कन्फिगरेसन परिवर्तन गरियो"
+
+#: krandrtray.cpp:187 krandrtray.cpp:294
+msgid "Screen Size"
+msgstr "पर्दा साइज"
+
+#: krandrtray.cpp:195 krandrtray.cpp:257 krandrtray.cpp:307
+msgid "Orientation"
+msgstr "अभिमुखिकरण"
+
+#: krandrtray.cpp:212
+msgid "Outputs"
+msgstr "निर्गात"
+
+#: krandrtray.cpp:224
+#, kde-format
+msgid "%1 - Screen Size"
+msgstr "%1 - पर्दा साइज"
+
+#: krandrtray.cpp:241
+msgid "Disable"
+msgstr "अक्षम पार्नुहोस्"
+
+#: krandrtray.cpp:267 krandrtray.cpp:316
+msgid "Refresh Rate"
+msgstr "ताजा पार्ने दर"
+
+#: krandrtray.cpp:282
+msgid "Unify Outputs"
+msgstr "निर्गात एकीकृत गर्नुहोस्"
+
+#: krandrtray.cpp:376 legacyrandrconfig.cpp:270 legacyrandrscreen.cpp:246
+#: outputconfig.cpp:407
+#, kde-format
+msgid "%1 Hz"
+msgstr "%1 Hz"
+
+#: krandrtray.cpp:469
+msgid "Configure Display"
+msgstr "प्रदर्शन कन्फिगर गर्नुहोस्"
+
+#: ktimerdialog.cpp:167
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] "१ सेकेन्ड बाँकी:"
+msgstr[1] "%1 सेकेन्ड बाँकी:"
+
+#: legacyrandrscreen.cpp:140
+#, kde-format
+msgid ""
+"New configuration:\n"
+"Resolution: %1 x %2\n"
+"Orientation: %3"
+msgstr ""
+"नयाँ कन्फिगरेसन:\n"
+"रिजोल्युसन: %1 x %2\n"
+"अभिमुखिकरण: %3"
+
+#: legacyrandrscreen.cpp:145
+#, kde-format
+msgid ""
+"New configuration:\n"
+"Resolution: %1 x %2\n"
+"Orientation: %3\n"
+"Refresh rate: %4"
+msgstr ""
+"नयाँ कन्फिगरेसन:\n"
+"रिजोल्युसन: %1 x %2\n"
+"अभिमुखिकरण: %3\n"
+"ताजा दर: %4"
+
+#: legacyrandrscreen.cpp:236 legacyrandrscreen.cpp:241
+#, kde-format
+msgctxt "Refresh rate in Hertz (Hz)"
+msgid "%1 Hz"
+msgstr "%1 Hz"
+
+#: main.cpp:33
+msgid "Resize and Rotate"
+msgstr "रिसाइज र परिक्रमण गर्नुहोस्"
+
+#: main.cpp:34
+msgid "X Resize and Rotate System Tray App"
+msgstr ""
+
+#: main.cpp:35
+msgid "(c) 2007 Gustavo Pichorim Boiko, 2002-2003 Hamish Rodda"
+msgstr "(c) 2007 गुस्टाभो पिकहोरिम बोइको, 2002-2003 हमिश रोडा"
+
+#: main.cpp:36
+msgid "Gustavo Pichorim Boiko"
+msgstr "गुस्टाभो पिकहोरिम बोइको"
+
+#: main.cpp:36
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: main.cpp:37
+msgid "Hamish Rodda"
+msgstr "हमिश रोडा"
+
+#: main.cpp:37
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:38
+msgid "Lubos Lunak"
+msgstr "लुबोस लुनाक"
+
+#: main.cpp:38
+msgid "Many fixes"
+msgstr "थुप्रै समाधानहरू"
+
+#: main.cpp:39
+msgid "Harry Bock"
+msgstr ""
+
+#: main.cpp:39
+msgid "Many fixes, multi-head support"
+msgstr ""
+
+#: main.cpp:46
+msgid "Application is being auto-started at KDE session start"
+msgstr "केडीई सत्र सुरुमा स्वत: सुरु हुने अनुप्रयोग"
+
+#: outputconfig.cpp:210
+msgid "Left of"
+msgstr ""
+
+#: outputconfig.cpp:211
+msgid "Right of"
+msgstr ""
+
+#: outputconfig.cpp:212
+msgctxt "Output is placed above another one"
+msgid "Above"
+msgstr ""
+
+#: outputconfig.cpp:213
+msgctxt "Output is placed below another one"
+msgid "Below"
+msgstr ""
+
+#: outputconfig.cpp:214
+msgid "Clone of"
+msgstr ""
+
+#: outputconfig.cpp:215
+msgctxt "Fixed, abitrary position"
+msgid "Absolute"
+msgstr ""
+
+#: outputconfig.cpp:218
+msgid "No relative position"
+msgstr ""
+
+#: outputconfig.cpp:368
+msgctxt "Screen size"
+msgid "Disabled"
+msgstr ""
+
+#: outputconfig.cpp:374
+#, kde-format
+msgctxt "Automatic screen size (native resolution)"
+msgid "%1 (Auto)"
+msgstr ""
+
+#: outputconfig.cpp:400
+msgctxt "Automatic refresh rate configuration"
+msgid "Auto"
+msgstr ""
+
+#: randr.cpp:31
+msgid "No Rotation"
+msgstr ""
+
+#: randr.cpp:33
+msgid "Left (90 degrees)"
+msgstr "बायाँ (९० डिग्री)"
+
+#: randr.cpp:35
+msgid "Upside-Down (180 degrees)"
+msgstr ""
+
+#: randr.cpp:37
+msgid "Right (270 degrees)"
+msgstr "दायाँ (२७० डिग्री)"
+
+#: randr.cpp:39
+msgid "Mirror Horizontally"
+msgstr ""
+
+#: randr.cpp:41
+msgid "Mirror Vertically"
+msgstr ""
+
+#: randr.cpp:43 randr.cpp:74
+msgid "Unknown Orientation"
+msgstr ""
+
+#: randr.cpp:48
+msgid "Not Rotated"
+msgstr ""
+
+#: randr.cpp:50
+msgid "Rotated 90 Degrees Counterclockwise"
+msgstr ""
+
+#: randr.cpp:52
+msgid "Rotated 180 Degrees Counterclockwise"
+msgstr ""
+
+#: randr.cpp:54
+msgid "Rotated 270 Degrees Counterclockwise"
+msgstr ""
+
+#: randr.cpp:59
+msgid "Mirrored Horizontally And Vertically"
+msgstr ""
+
+#: randr.cpp:61
+msgid "mirrored horizontally and vertically"
+msgstr "तेर्सो र ठाडो मिरर गरियो"
+
+#: randr.cpp:64
+msgid "Mirrored Horizontally"
+msgstr ""
+
+#: randr.cpp:66
+msgid "mirrored horizontally"
+msgstr "तेर्सो पारिएको ऐना"
+
+#: randr.cpp:69
+msgid "Mirrored Vertically"
+msgstr ""
+
+#: randr.cpp:71
+msgid "mirrored vertically"
+msgstr "ठाडो पारिएको ऐना"
+
+#: randr.cpp:76
+msgid "unknown orientation"
+msgstr "अज्ञात अभिमुखिकरण"
+
+#: randr.cpp:126
+msgid "Confirm Display Setting Change"
+msgstr "प्रदर्शन सेटिङ परिवर्तन यकीन गर्नुहोस्"
+
+#: randr.cpp:130
+msgid "&Accept Configuration"
+msgstr "कन्फिगरेसन स्वीकार गर्नुहोस्"
+
+#: randr.cpp:131
+msgid "&Revert to Previous Configuration"
+msgstr ""
+
+#: randr.cpp:133
+msgid ""
+"Your screen configuration has been changed to the requested settings. Please "
+"indicate whether you wish to keep this configuration. In 15 seconds the "
+"display will revert to your previous settings."
+msgstr ""
+"तपाईँको पर्दा कन्फिगरेसन अनुरोध गरिएको सेटिङमा परिवर्तन भएको छ । कृपया "
+"तपाईँले यो कन्फिगरेसन राख्न चाहनुहुन्छ की हुदैन निर्दिष्ट गर्नुहोस् । १५ "
+"सेकेन्डको प्रदर्शन पछि तपाईँको अघिल्लो सेटिङमा फर्किन्छ ।"
+
+#: randrconfig.cpp:105
+#, kde-format
+msgid "%1 (Connected)"
+msgstr ""
+
+#: randrconfig.cpp:323
+msgid ""
+"Insufficient virtual size for the total screen size.\n"
+"The configured virtual size of your X server is insufficient for this setup. "
+"This configuration needs to be adjusted.\n"
+"Do you wish to run a tool to adjust the configuration?"
+msgstr ""
+
+#: randrconfig.cpp:331
+msgid ""
+"Configuration has been adjusted. Please restart your session for this change "
+"to take effect."
+msgstr ""
+
+#: randrconfig.cpp:334
+msgid "Changing configuration failed. Please adjust your xorg.conf manually."
+msgstr ""
+
+#: randrdisplay.cpp:49
+#, kde-format
+msgid "X Resize and Rotate extension version %1.%2"
+msgstr "एक्स रिसाइज र परिक्रमण विस्तार संस्करण %1.%2"
+
+#. i18n: file: legacyrandrconfigbase.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, LegacyRandRConfigBase)
+#: rc.cpp:3 rc.cpp:65
+msgid "Screen Resize and Rotate Settings"
+msgstr "पर्दा रिसाइज र परिक्रमण सेटिङ"
+
+#. i18n: file: legacyrandrconfigbase.ui:17
+#. i18n: ectx: property (whatsThis), widget (QWidget, LegacyRandRConfigBase)
+#: rc.cpp:6 rc.cpp:68
+msgid ""
+"If this option is enabled, options set by the system tray applet will be "
+"saved and loaded when KDE starts instead of being temporary."
+msgstr ""
+"यदि यो विकल्प सक्षम छ भने, अस्थायी नभएर केडीई सुरु भएको बेलामा प्रणाली ट्रे "
+"एप्लेटद्वारा सेट गरिएको विकल्प बचत गरिन्छ र लोड गरिन्छ ।"
+
+#. i18n: file: legacyrandrconfigbase.ui:25
+#. i18n: ectx: property (text), widget (QLabel, screenLabel)
+#: rc.cpp:9 rc.cpp:71
+msgid "Settings for screen:"
+msgstr ""
+
+#. i18n: file: legacyrandrconfigbase.ui:38
+#. i18n: ectx: property (whatsThis), widget (KComboBox, screenCombo)
+#: rc.cpp:12 rc.cpp:74
+msgid ""
+"The screen whose settings you would like to change can be selected using "
+"this drop-down list."
+msgstr ""
+"तपाईँलाई परिवर्तन गर्न मन लाग्ने पर्दाको सेटिङ ड्रप-डाउन सूची प्रयोग गरेर "
+"चयन गर्न सकिन्छ ।"
+
+#. i18n: file: legacyrandrconfigbase.ui:49
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: rc.cpp:15 rc.cpp:77
+msgid "Screen size:"
+msgstr ""
+
+#. i18n: file: legacyrandrconfigbase.ui:62
+#. i18n: ectx: property (whatsThis), widget (KComboBox, sizeCombo)
+#: rc.cpp:18 rc.cpp:80
+msgid ""
+"The size, otherwise known as the resolution, of your screen can be selected "
+"from this drop-down list."
+msgstr ""
+"तपाईँको पर्दाको साइज, अन्यथा रिज्योलुसन यो ड्रप-डाउन सूचीबाट चयन गर्न सकिन्छ "
+"।"
+
+#. i18n: file: legacyrandrconfigbase.ui:73
+#. i18n: ectx: property (text), widget (QLabel, rateLabel)
+#: rc.cpp:21 rc.cpp:83
+msgid "Refresh rate:"
+msgstr ""
+
+#. i18n: file: legacyrandrconfigbase.ui:83
+#. i18n: ectx: property (whatsThis), widget (KComboBox, rateCombo)
+#: rc.cpp:24 rc.cpp:86
+msgid ""
+"The refresh rate of your screen can be selected from this drop-down list."
+msgstr "तपाईँको पर्दाको ताजा पार्ने दर यो ड्रप-डाउन सूचीबाट चयन गर्न सकिन्छ।"
+
+#. i18n: file: legacyrandrconfigbase.ui:98
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, rotationGroup)
+#: rc.cpp:27 rc.cpp:89
+msgid ""
+"The options in this section allow you to change the rotation of your screen."
+msgstr ""
+"यो सेक्सनको विकल्पले तपाईँलाई पर्दाको परिक्रम परिवर्तन गर्न अनुमति दिन्छ ।"
+
+#. i18n: file: legacyrandrconfigbase.ui:101
+#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
+#: rc.cpp:30 rc.cpp:92
+msgid "Orientation (degrees counterclockwise)"
+msgstr "अभिमुखिकरण (डिग्री घडीको दिशा विपरित)"
+
+#. i18n: file: legacyrandrconfigbase.ui:108
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, applyOnStartup)
+#: rc.cpp:33 rc.cpp:95
+msgid ""
+"If this option is enabled the size and orientation settings will be used "
+"when KDE starts."
+msgstr ""
+"यदि यो विकल्प सक्षम पारिएमा साइज र पृष्ठविन्यास सेटिङ केडीई सुरु भएको बेलामा "
+"प्रयोग गरिन्छ।"
+
+#. i18n: file: legacyrandrconfigbase.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, applyOnStartup)
+#: rc.cpp:36 rc.cpp:98
+msgid "Apply settings on KDE startup"
+msgstr "केडीई सुरुआतमा सेटिङ लागू गर्नुहोस्"
+
+#. i18n: file: legacyrandrconfigbase.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, syncTrayApp)
+#: rc.cpp:39 rc.cpp:101
+msgid "Allow tray application to change startup settings"
+msgstr "सुरुआत सेटिङ परिवर्तन गर्न ट्रे अनुप्रयोगलाई अनुमति दिनुहोस्"
+
+#. i18n: file: outputconfigbase.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, OutputConfigBase)
+#: rc.cpp:42 rc.cpp:104
+msgid "Output Config"
+msgstr "निर्गात कन्फिग"
+
+#. i18n: file: outputconfigbase.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:45 rc.cpp:107
+msgid "Size:"
+msgstr "साइज:"
+
+#. i18n: file: outputconfigbase.ui:48
+#. i18n: ectx: property (text), widget (QLabel, rateLabel)
+#: rc.cpp:48 rc.cpp:110
+msgid "Refresh:"
+msgstr "ताजा पार्नुहोस्:"
+
+#. i18n: file: outputconfigbase.ui:64
+#. i18n: ectx: property (text), widget (QLabel, orientationLabel)
+#: rc.cpp:51 rc.cpp:113
+msgid "Orientation:"
+msgstr "अभिमुखिकरण:"
+
+#. i18n: file: outputconfigbase.ui:80
+#. i18n: ectx: property (text), widget (QLabel, positionLabel)
+#: rc.cpp:54 rc.cpp:116
+msgctxt "Position of the screen"
+msgid "Position:"
+msgstr ""
+
+#. i18n: file: randrconfigbase.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, RandRConfigBase)
+#: rc.cpp:57 rc.cpp:119
+msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
+msgstr ""
+
+#. i18n: file: randrconfigbase.ui:43
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
+#: rc.cpp:60 rc.cpp:122
+msgid "Identify Outputs"
+msgstr ""
+
+#: rc.cpp:61
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Shiva Pokharel, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:62
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shiva@mpp.org.np, shyamkrishna_bal@yahoo.com,,,"

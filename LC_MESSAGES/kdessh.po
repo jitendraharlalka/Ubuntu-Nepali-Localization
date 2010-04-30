@@ -1,0 +1,122 @@
+# translation of kdessh.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdessh\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-12-25 12:01+0000\n"
+"PO-Revision-Date: 2008-10-07 18:00+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:43+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kdessh.cpp:60
+msgid "KDE ssh"
+msgstr "केडीई ssh"
+
+#: kdessh.cpp:61
+msgid "Runs a program on a remote host"
+msgstr "टाढाको होस्टमा कार्यक्रम चलाउनुहोस्"
+
+#: kdessh.cpp:63
+msgid "Copyright (c) 2000 Geert Jansen"
+msgstr "प्रतिलिपि अधिकार (c) 2000 गीर्ट जानसेन"
+
+#: kdessh.cpp:65
+msgid "Geert Jansen"
+msgstr "गीर्ट जानसेन"
+
+#: kdessh.cpp:65
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: kdessh.cpp:71
+msgid "Specifies the remote host"
+msgstr "टाढाको होस्ट निर्दिष्ट गर्दछ"
+
+#: kdessh.cpp:72
+msgid "The command to run"
+msgstr "चलाउनका लागि आदेश"
+
+#: kdessh.cpp:73
+msgid "Specifies the target uid"
+msgstr "लक्षित यूआईडी निर्दिष्ट गर्दछ"
+
+#: kdessh.cpp:74
+msgid "Specify remote stub location"
+msgstr "टाढाको स्टब स्थान निर्दिष्ट गर्नुहोस्"
+
+#: kdessh.cpp:75
+msgid "Do not keep password"
+msgstr "पासवर्ड नराख्नुहोस्"
+
+#: kdessh.cpp:76
+msgid "Stop the daemon (forgets all passwords)"
+msgstr "डेइमोन रोक्नुहोस् (सबै पासवर्ड बिर्सिन्छ)"
+
+#: kdessh.cpp:77
+msgid "Enable terminal output (no password keeping)"
+msgstr "टर्मिनल निर्गत सक्षम पार्नुहोस् (पासवर्ड राँखिदैन)"
+
+#: kdessh.cpp:109
+msgid "No command or host specified."
+msgstr "कुनै आदेश वा होस्ट निर्दिष्ट गरिएन ।"
+
+#: kdessh.cpp:180
+msgid ""
+"Ssh returned with an error.\n"
+"The error message is:\n"
+"\n"
+msgstr ""
+"त्रुटिसँग Ssh फर्कियो!\n"
+"त्रुटि सन्देश छ:\n"
+"\n"
+
+#: kdessh.cpp:191
+msgid "Command"
+msgstr "आदेश"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, नारायण कुमार मगर, ,Launchpad "
+"Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com, narayan@mpp.org.np,,,"
+
+#: sshdlg.cpp:56
+msgid "The action you requested needs authentication. Please enter "
+msgstr ""
+"तपाईंले अनुरोध गर्नु भएको कार्यलाई प्रमाणीकरण आवश्यक पर्दछ । कृपया प्रविष्ट "
+"गर्नुहोस् "
+
+#: sshdlg.cpp:76
+msgid "Conversation with ssh failed.\n"
+msgstr "ssh सँगको वार्तालाप असफल भयो।\n"
+
+#: sshdlg.cpp:85
+msgid ""
+"The programs 'ssh' or 'kdesu_stub' cannot be found.\n"
+"Make sure your PATH is set correctly."
+msgstr ""
+"प्रोग्राम 'ssh' वा 'kdesu_stub' फेला पार्न सकिँदैन।\n"
+"ततपाईंको PATH ठीकसँग सेट गरिएको छ भनी निश्चित गर्नुहोस् ।"
+
+#: sshdlg.cpp:91
+msgid "Incorrect password. Please try again."
+msgstr "गलत पासवर्ड । कृपया फेरि प्रयास गर्नुहोस् ।"
+
+#: sshdlg.cpp:95
+msgid "Internal error: Illegal return from SshProcess::checkInstall()"
+msgstr "आन्तरिक त्रुटि: SshProcess::checkInstall() बाट अवैध फर्कियो"

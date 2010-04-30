@@ -1,0 +1,300 @@
+# translation of ktimer.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktimer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 23:08+0000\n"
+"PO-Revision-Date: 2008-10-07 18:10+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:14+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: main.cpp:27
+msgid "KDE Timer"
+msgstr "केडीई समय सूचक"
+
+#: main.cpp:33
+msgid "KTimer"
+msgstr "केडीई समय सूचक"
+
+#: main.cpp:35
+msgid "(c) 2001, Stefan Schimanski"
+msgstr "(c) 2001, स्टेफन स्चिमान्स्कि"
+
+#: main.cpp:37
+msgid "Stefan Schimanski"
+msgstr "स्टेफन स्चिमान्स्कि"
+
+#. i18n: file: prefwidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, PrefWidget)
+#: rc.cpp:3
+msgid "Timer Settings"
+msgstr "समय सूचक सेटिङ"
+
+#. i18n: file: prefwidget.ui:26
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, m_list)
+#: rc.cpp:6
+msgid "List of countdowns you have set"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:29
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, m_list)
+#: rc.cpp:9
+msgid ""
+"New countdowns are put here. You can add and remove them, and stop and start "
+"them."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:36
+#. i18n: ectx: property (text), widget (QTreeWidget, m_list)
+#: rc.cpp:12
+msgid "Counter"
+msgstr "प्रतिकूल"
+
+#. i18n: file: prefwidget.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, m_list)
+#: rc.cpp:15
+msgid "Delay"
+msgstr "विलम्ब"
+
+#. i18n: file: prefwidget.ui:46
+#. i18n: ectx: property (text), widget (QTreeWidget, m_list)
+#. i18n: file: prefwidget.ui:208
+#. i18n: ectx: property (title), widget (QGroupBox, m_state)
+#: rc.cpp:18 rc.cpp:84
+msgid "State"
+msgstr "अवस्था"
+
+#. i18n: file: prefwidget.ui:51
+#. i18n: ectx: property (text), widget (QTreeWidget, m_list)
+#: rc.cpp:21
+msgid "Command"
+msgstr "आदेश"
+
+#. i18n: file: prefwidget.ui:59
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_add)
+#: rc.cpp:24
+msgid "Add a new task"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:62
+#. i18n: ectx: property (whatsThis), widget (KPushButton, m_add)
+#: rc.cpp:27
+msgid "Add a new task to the list."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:65
+#. i18n: ectx: property (text), widget (KPushButton, m_add)
+#: rc.cpp:30
+msgid "&New"
+msgstr "नयाँ"
+
+#. i18n: file: prefwidget.ui:72
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_remove)
+#: rc.cpp:33
+msgid "Remove a task"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:75
+#. i18n: ectx: property (whatsThis), widget (KPushButton, m_remove)
+#: rc.cpp:36
+msgid "Remove a task from the list."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:78
+#. i18n: ectx: property (text), widget (KPushButton, m_remove)
+#: rc.cpp:39
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#. i18n: file: prefwidget.ui:104
+#. i18n: ectx: property (title), widget (QGroupBox, m_settings)
+#: rc.cpp:42
+msgid "Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: prefwidget.ui:116
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_loop)
+#. i18n: file: prefwidget.ui:119
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_loop)
+#: rc.cpp:45 rc.cpp:48
+msgid ""
+"Check this box if you want your countdown to start over after it finishes"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:122
+#. i18n: ectx: property (text), widget (QCheckBox, m_loop)
+#: rc.cpp:51
+msgid "&Loop"
+msgstr "लूप"
+
+#. i18n: file: prefwidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:54
+msgid "Delay:"
+msgstr "विलम्ब:"
+
+#. i18n: file: prefwidget.ui:136
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_delay)
+#: rc.cpp:57
+msgid "You can change the amount of time here."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:139
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, m_delay)
+#: rc.cpp:60
+msgid "You can change the amount of time in the countdown here."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:149
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_one)
+#: rc.cpp:63
+msgid "Check this box if you only want to open one copy of your program"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:152
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_one)
+#: rc.cpp:66
+msgid "Check this box if you only want one instance to open"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, m_one)
+#: rc.cpp:69
+msgid "Start only &one instance"
+msgstr "एउटा दृष्टान्त मात्र सुरु गर्नुहोस्"
+
+#. i18n: file: prefwidget.ui:162
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:72
+msgid "seconds"
+msgstr "सेकेन्ड"
+
+#. i18n: file: prefwidget.ui:185
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, m_commandLine)
+#: rc.cpp:75
+msgid "command you would like to run when time is up"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:188
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_commandLine)
+#: rc.cpp:78
+msgid "Enter here a program you would like to run when the countdown is zero"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:195
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:81
+msgid "Command line:"
+msgstr "आदेश रेखा:"
+
+#. i18n: file: prefwidget.ui:220
+#. i18n: ectx: property (toolTip), widget (QSlider, m_slider)
+#: rc.cpp:87
+msgid "Speed up or slow down your countdown"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:223
+#. i18n: ectx: property (whatsThis), widget (QSlider, m_slider)
+#: rc.cpp:90
+msgid "You can use this slider to adjust the time."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:233
+#. i18n: ectx: property (toolTip), widget (QLCDNumber, m_counter)
+#: rc.cpp:93
+msgid "This many seconds are left"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:236
+#. i18n: ectx: property (whatsThis), widget (QLCDNumber, m_counter)
+#: rc.cpp:96
+msgid "This number is how many seconds are left for the selected countdown."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:243
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pause)
+#: rc.cpp:99
+msgid "Pause a countdown"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:246
+#. i18n: ectx: property (whatsThis), widget (QToolButton, m_pause)
+#: rc.cpp:102
+msgid "Use this to pause a timer countdown."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:249
+#. i18n: ectx: property (text), widget (QToolButton, m_pause)
+#: rc.cpp:105
+msgid "||"
+msgstr "||"
+
+#. i18n: file: prefwidget.ui:256
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_start)
+#: rc.cpp:108
+msgid "Start a countdown"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:259
+#. i18n: ectx: property (whatsThis), widget (QToolButton, m_start)
+#: rc.cpp:111
+msgid "Use this to start or restart a countdown."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:262
+#. i18n: ectx: property (text), widget (QToolButton, m_start)
+#: rc.cpp:114
+msgid ">"
+msgstr ">"
+
+#. i18n: file: prefwidget.ui:269
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_stop)
+#: rc.cpp:117
+msgid "Stop a countdown"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:272
+#. i18n: ectx: property (whatsThis), widget (QToolButton, m_stop)
+#: rc.cpp:120
+msgid "Use this to stop the countdown for a task."
+msgstr ""
+
+#. i18n: file: prefwidget.ui:275
+#. i18n: ectx: property (text), widget (QToolButton, m_stop)
+#: rc.cpp:123
+msgid "="
+msgstr "="
+
+#. i18n: file: prefwidget.ui:285
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_help)
+#: rc.cpp:126
+msgid "Detailed help documentation"
+msgstr ""
+
+#. i18n: file: prefwidget.ui:288
+#. i18n: ectx: property (whatsThis), widget (KPushButton, m_help)
+#: rc.cpp:129
+msgid "Click here to open the help documentation viewer."
+msgstr ""
+
+#: rc.cpp:130
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Mahesh Subedi, श्यामकृष्ण बल, नारायण कुमार मगर, ,Launchpad "
+"Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:131
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"submanesh@gmail.com, shyamkrishna_bal@yahoo.com, narayan@mpp.org.np,,,"

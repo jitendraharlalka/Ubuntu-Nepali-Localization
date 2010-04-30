@@ -1,0 +1,720 @@
+# translation of kugar.po to Nepali
+# Ishwor Sharma <sharmabeeshwar@mail.com>, 2006.
+# Ishwor Sharma <sharmabeeshwar@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kugar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 08:47+0000\n"
+"PO-Revision-Date: 2009-07-07 18:47+0000\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:24+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: lib/mfieldobject.cpp:233
+msgid ","
+msgstr ","
+
+#: lib/mreportviewer.cpp:155 lib/mreportviewer.cpp:293
+msgid ""
+"There are no pages in the\n"
+"report to print."
+msgstr ""
+"त्यहाँ प्रतिवेदनमा\n"
+"मुद्रण गर्नका लागि पृष्ठ छैन।"
+
+#: lib/mreportviewer.cpp:249
+msgid "Creating report..."
+msgstr "प्रतिवेदन सिर्जना गरिँदैछ..."
+
+#: lib/mreportviewer.cpp:323
+msgid "Printing report..."
+msgstr "प्रतिवेदन मुद्रण गरिँदैछ..."
+
+#: part/kugar_part.cpp:92
+#, c-format
+msgid "Invalid data file %1"
+msgstr "अवैध डेटा फाइल %1"
+
+#: part/kugar_part.cpp:97
+msgid "The zero sized data file %1 can't be rendered"
+msgstr "शून्य साइज भएको %1 डेटाफाइल बदल्न सकिदैन"
+
+#: part/kugar_part.cpp:104 part/kugar_view.cpp:98
+#, c-format
+msgid "Unable to open data file: %1"
+msgstr "डेटा फाइल खोल्न असक्षम: %1"
+
+#: part/kugar_part.cpp:169 part/kugar_part.cpp:186 part/kugar_part.cpp:195
+#, c-format
+msgid "Unable to download template file: %1"
+msgstr "टेम्प्लेट फाइल डाउनलोड गर्न असक्षम: %1"
+
+#: part/kugar_part.cpp:218
+#, c-format
+msgid "Invalid template file: %1"
+msgstr "अवैध टेम्प्लेट फाइल: %1"
+
+#: part/kugar_part.cpp:232 part/kugar_part.cpp:238
+msgid "%1 is not a valid Kugar Designer template file."
+msgstr "%1 वैध कुगर डिजाइनर टेम्प्लेट फाइल होइन ।"
+
+#: part/kugar_part.cpp:247
+#, c-format
+msgid "Couldn't read the beginning of the template file: %1"
+msgstr "टेम्प्लेट फाइलको सुरुआत पढ्न सकेन: %1"
+
+#: part/kugar_part.cpp:252
+#, c-format
+msgid "Unable to open template file: %1"
+msgstr "टेम्प्लेट फाइल खोल्न असक्षम: %1"
+
+#: part/kugar_view.cpp:93
+#, c-format
+msgid "Invalid data file: %1"
+msgstr "अवैध डेटा फाइल: %1"
+
+#: kudesigner/main.cpp:31 part/main.cpp:26
+msgid "File to open"
+msgstr "खोल्नका लागि फाइल"
+
+#: kudesigner/kudesigner_view.cpp:143
+msgid "Grid size:"
+msgstr "ग्रिड साइज:"
+
+#: kudesigner/kudesigner_view.cpp:192 kudesigner_lib/reportheader.cpp:45
+#: kudesigner_lib/structurewidget.cpp:123
+msgid "Report Header"
+msgstr "हेडर प्रतिवेदन दिनुहोस्"
+
+#: kudesigner/kudesigner_view.cpp:194 kudesigner_lib/reportfooter.cpp:47
+#: kudesigner_lib/structurewidget.cpp:126
+msgid "Report Footer"
+msgstr "फुटर प्रतिवेदन दिनुहोस्"
+
+#: kudesigner/kudesigner_view.cpp:196 kudesigner_lib/pageheader.cpp:46
+#: kudesigner_lib/structurewidget.cpp:132
+msgid "Page Header"
+msgstr "पृष्ठ हेडर"
+
+#: kudesigner/kudesigner_view.cpp:198 kudesigner_lib/pagefooter.cpp:45
+#: kudesigner_lib/structurewidget.cpp:129
+msgid "Page Footer"
+msgstr "पृष्ठ फुटर"
+
+#: kudesigner/kudesigner_view.cpp:200 kudesigner_lib/detailheader.cpp:39
+#: kudesigner_lib/structurewidget.cpp:138
+msgid "Detail Header"
+msgstr "विवरण हेडर"
+
+#: kudesigner/kudesigner_view.cpp:202 kudesigner_lib/detail.cpp:42
+#: kudesigner_lib/detailbase.cpp:29 kudesigner_lib/structurewidget.cpp:135
+msgid "Detail"
+msgstr "विवरण"
+
+#: kudesigner/kudesigner_view.cpp:204 kudesigner_lib/detailfooter.cpp:39
+#: kudesigner_lib/structurewidget.cpp:141
+msgid "Detail Footer"
+msgstr "विवरण फुटर"
+
+#: kudesigner/kudesigner_view.cpp:207
+msgid "Clear Selection"
+msgstr "चयन खाली गर्नुहोस्"
+
+#: kudesigner/kudesigner_view.cpp:211 kudesigner_lib/commdefs.cpp:34
+msgid "Label"
+msgstr "लेबुल"
+
+#: kudesigner/kudesigner_view.cpp:214 kudesigner_lib/commdefs.cpp:36
+#: kudesigner_lib/field.cpp:36
+msgid "Field"
+msgstr "फिल्ड"
+
+#: kudesigner/kudesigner_view.cpp:217 kudesigner_lib/specialfield.cpp:33
+msgid "Special Field"
+msgstr "विशेष फिल्ड"
+
+#: kudesigner/kudesigner_view.cpp:220 kudesigner_lib/commdefs.cpp:40
+msgid "Calculated Field"
+msgstr "गणना गरिएको फिल्ड"
+
+#: kudesigner/kudesigner_view.cpp:223 kudesigner_lib/commdefs.cpp:42
+#: kudesigner_lib/label.cpp:62 kudesigner_lib/line.cpp:35
+#: kudesigner_lib/structurewidget.cpp:182
+msgid "Line"
+msgstr "रेखा"
+
+#: kudesigner/kudesigner_view.cpp:227
+msgid "Grid Label"
+msgstr "ग्रिड लेबुल"
+
+#: kudesigner/kudesigner_view.cpp:230
+msgid "Grid Size"
+msgstr "ग्रिड साइज"
+
+#: kudesigner/kudesigner_view.cpp:312
+msgid "Add Detail Header"
+msgstr "विवरण हेडर थप्नुहोस्"
+
+#: kudesigner/kudesigner_view.cpp:312 kudesigner/kudesigner_view.cpp:325
+#: kudesigner/kudesigner_view.cpp:339
+msgid "Enter detail level:"
+msgstr "विस्तृत स्तर प्रविष्ट गर्नुहोस्:"
+
+#: kudesigner/kudesigner_view.cpp:325
+msgid "Add Detail"
+msgstr "विवरण थप्नुहोस्"
+
+#: kudesigner/kudesigner_view.cpp:339
+msgid "Add Detail Footer"
+msgstr "विवरण फुटर थप्नुहोस्"
+
+#: kudesigner_lib/calcfield.cpp:35
+msgid "Calculation"
+msgstr "गणना"
+
+#: kudesigner_lib/calcfield.cpp:36
+msgid "Count"
+msgstr "गणना गर्नुहोस्"
+
+#: kudesigner_lib/calcfield.cpp:37
+msgid "Sum"
+msgstr "जोड"
+
+#: kudesigner_lib/calcfield.cpp:38
+msgid "Average"
+msgstr "औसत"
+
+#: kudesigner_lib/calcfield.cpp:39
+msgid "Variance"
+msgstr "भ्यारिएन्स"
+
+#: kudesigner_lib/calcfield.cpp:40
+msgid "StandardDeviation"
+msgstr "स्ट्यान्डर्ड डेभिएसन"
+
+#: kudesigner_lib/calcfield.cpp:41 kudesigner_lib/field.cpp:45
+#: kudesigner_lib/specialfield.cpp:37
+msgid "Type"
+msgstr "प्रकार"
+
+#: kudesigner_lib/calcfield.cpp:41
+msgid "Calculation Type"
+msgstr "गणनाको प्रकार"
+
+#: kudesigner_lib/command.cpp:54
+msgid "Insert Detail Footer Section"
+msgstr "विवरण फुटर खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:78
+msgid "Insert Detail Section"
+msgstr "विवरण खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:102
+msgid "Insert Detail Header Section"
+msgstr "विवरण हेडर खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:126
+msgid "Insert Page Footer Section"
+msgstr "पृष्ठ फूटर खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:149
+msgid "Insert Page Header Section"
+msgstr "पृष्ठ हेडर खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:172
+msgid "Insert Report Footer Section"
+msgstr "प्रतिवेदन फुटर खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:195
+msgid "Insert Report Header Section"
+msgstr "प्रतिवेदन हेडर खण्ड घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:218
+msgid "Insert Report Item"
+msgstr "प्रतिवेदन वस्तु घुसाउनुहोस्"
+
+#: kudesigner_lib/command.cpp:273
+msgid "Delete Report Item(s)"
+msgstr "प्रतिवेदन वस्तु(हरू) मेट्नुहोस्"
+
+#: kudesigner_lib/commdefs.cpp:38
+msgid "Special"
+msgstr "विशेष"
+
+#: kudesigner_lib/commdefs.cpp:45
+msgid "Report Item"
+msgstr "प्रतिवेदन वस्तु"
+
+#: kudesigner_lib/detail.cpp:34 kudesigner_lib/detailfooter.cpp:34
+#: kudesigner_lib/detailheader.cpp:34
+msgid "Level"
+msgstr "स्तर"
+
+#: kudesigner_lib/detail.cpp:34 kudesigner_lib/detailfooter.cpp:34
+#: kudesigner_lib/detailheader.cpp:34
+msgid "Detail Level"
+msgstr "विस्तृत स्तर"
+
+#: kudesigner_lib/detail.cpp:35
+msgid "Repeat"
+msgstr "दोहोर्याउनुहोस्"
+
+#: kudesigner_lib/detail.cpp:35
+msgid "Repeat After Page Break"
+msgstr "पृष्ठ बिच्छेद पछि दोहोर्याउनुहोस्"
+
+#: kudesigner_lib/field.cpp:38
+msgid "Name"
+msgstr "नाम"
+
+#: kudesigner_lib/field.cpp:38
+msgid "Field Name"
+msgstr "फिल्ड नाम"
+
+#: kudesigner_lib/field.cpp:40
+msgid "String"
+msgstr "स्ट्रिङ"
+
+#: kudesigner_lib/field.cpp:41
+msgid "Integer"
+msgstr "इन्टिजर"
+
+#: kudesigner_lib/field.cpp:42
+msgid "Float"
+msgstr "उत्प्लवान"
+
+#: kudesigner_lib/field.cpp:43 kudesigner_lib/specialfield.cpp:35
+#: kudesigner_lib/specialfield.cpp:59
+msgid "Date"
+msgstr "मिति"
+
+#: kudesigner_lib/field.cpp:44 kudesigner_lib/field.cpp:68
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: kudesigner_lib/field.cpp:45
+msgid "Data Type"
+msgstr "मिति प्रकार"
+
+#: kudesigner_lib/field.cpp:48 kudesigner_lib/specialfield.cpp:40
+msgid "m/d/y"
+msgstr "m/d/y"
+
+#: kudesigner_lib/field.cpp:49 kudesigner_lib/specialfield.cpp:41
+msgid "m-d-y"
+msgstr "m-d-y"
+
+#: kudesigner_lib/field.cpp:50 kudesigner_lib/specialfield.cpp:42
+msgid "mm/dd/y"
+msgstr "mm/dd/y"
+
+#: kudesigner_lib/field.cpp:51 kudesigner_lib/specialfield.cpp:43
+msgid "mm-dd-y"
+msgstr "mm-dd-y"
+
+#: kudesigner_lib/field.cpp:52 kudesigner_lib/specialfield.cpp:44
+msgid "m/d/yyyy"
+msgstr "m/d/yyyy"
+
+#: kudesigner_lib/field.cpp:53 kudesigner_lib/specialfield.cpp:45
+msgid "m-d-yyyy"
+msgstr "m-d-yyyy"
+
+#: kudesigner_lib/field.cpp:54 kudesigner_lib/specialfield.cpp:46
+msgid "mm/dd/yyyy"
+msgstr "mm/dd/yyyy"
+
+#: kudesigner_lib/field.cpp:55 kudesigner_lib/specialfield.cpp:47
+msgid "mm-dd-yyyy"
+msgstr "mm-dd-yyyy"
+
+#: kudesigner_lib/field.cpp:56 kudesigner_lib/specialfield.cpp:48
+msgid "yyyy/m/d"
+msgstr "yyyy/m/d"
+
+#: kudesigner_lib/field.cpp:57 kudesigner_lib/specialfield.cpp:49
+msgid "yyyy-m-d"
+msgstr "yyyy-m-d"
+
+#: kudesigner_lib/field.cpp:58 kudesigner_lib/specialfield.cpp:50
+msgid "dd.mm.yy"
+msgstr "dd.mm.yy"
+
+#: kudesigner_lib/field.cpp:59 kudesigner_lib/specialfield.cpp:51
+msgid "dd.mm.yyyy"
+msgstr "dd.mm.yyyy"
+
+#: kudesigner_lib/field.cpp:62 kudesigner_lib/specialfield.cpp:53
+msgid "Date Format"
+msgstr "मिति ढाँचा"
+
+#: kudesigner_lib/field.cpp:65
+msgid "Precision"
+msgstr "सुनिश्चितता"
+
+#: kudesigner_lib/field.cpp:65
+msgid "Number of Digits After Comma"
+msgstr "अल्पविराम पछि अङ्कहरूको नम्बर"
+
+#: kudesigner_lib/field.cpp:68
+msgid "Currency Symbol"
+msgstr "मुद्रा प्रतिक"
+
+#: kudesigner_lib/field.cpp:70
+msgid "Negative Value Color"
+msgstr "ऋणात्मक मान रङ"
+
+#: kudesigner_lib/field.cpp:72
+msgid "Comma Separator"
+msgstr "अल्पविराम विभाजक"
+
+#: kudesigner_lib/field.cpp:74
+msgid "InputMask"
+msgstr "आगत मास्क"
+
+#: kudesigner_lib/field.cpp:96
+msgid "Change Field"
+msgstr "फिल्ड परिवर्तन गर्नुहोस्"
+
+#: kudesigner_lib/kugartemplate.cpp:61
+msgid "Document Settings"
+msgstr "कागजात सेटिङ"
+
+#: kudesigner_lib/kugartemplate.cpp:95
+msgid "Page Size"
+msgstr "पृष्ठ साइज"
+
+#: kudesigner_lib/kugartemplate.cpp:100
+msgid "Page Orientation"
+msgstr "पृष्ठ अभिमुखिकरण"
+
+#: kudesigner_lib/kugartemplate.cpp:103
+msgid "Top Margin"
+msgstr "माथिको सीमान्त"
+
+#: kudesigner_lib/kugartemplate.cpp:104
+msgid "Bottom Margin"
+msgstr "तलको सीमान्त"
+
+#: kudesigner_lib/kugartemplate.cpp:105
+msgid "Left Margin"
+msgstr "बायाँ सीमान्त"
+
+#: kudesigner_lib/kugartemplate.cpp:106
+msgid "Right Margin"
+msgstr "दायाँ सीमान्त"
+
+#: kudesigner_lib/label.cpp:42
+msgid "Text"
+msgstr "पाठ"
+
+#: kudesigner_lib/label.cpp:42
+msgid "Text to Display"
+msgstr "प्रदर्शन गर्न पाठ"
+
+#: kudesigner_lib/label.cpp:44
+msgid "Geometry"
+msgstr "ज्यामिति"
+
+#: kudesigner_lib/label.cpp:45
+msgid "X"
+msgstr "X"
+
+#: kudesigner_lib/label.cpp:45
+msgid "X value"
+msgstr "X मान"
+
+#: kudesigner_lib/label.cpp:47
+msgid "Y"
+msgstr "Y"
+
+#: kudesigner_lib/label.cpp:47
+msgid "Y value"
+msgstr "Y मान"
+
+#: kudesigner_lib/label.cpp:53
+msgid "Background Color"
+msgstr "पृष्ठभूमि रङ"
+
+#: kudesigner_lib/label.cpp:55
+msgid "Foreground Color"
+msgstr "अग्रभूमि रङ"
+
+#: kudesigner_lib/label.cpp:57 kudesigner_lib/label.cpp:62
+msgid "Border Style"
+msgstr "किनारा शैली"
+
+#: kudesigner_lib/label.cpp:58 kudesigner_lib/line.cpp:44
+msgid "Color"
+msgstr "रङ"
+
+#: kudesigner_lib/label.cpp:58
+msgid "Border Color"
+msgstr "किनारा रङ"
+
+#: kudesigner_lib/label.cpp:60
+msgid "Border Width"
+msgstr "किनारा चौडाइ"
+
+#: kudesigner_lib/label.cpp:65
+msgid "Draw Top Border"
+msgstr "माथि किनारा कोर्नुहोस्"
+
+#: kudesigner_lib/label.cpp:66
+msgid "Draw Bottom Border"
+msgstr "तल किनारा कोर्नुहोस्"
+
+#: kudesigner_lib/label.cpp:67
+msgid "Draw Left Border"
+msgstr "बायाँ किनारा कोर्नुहोस्"
+
+#: kudesigner_lib/label.cpp:68
+msgid "Draw Right Border"
+msgstr "दायाँ किनारा कोर्नुहोस्"
+
+#: kudesigner_lib/label.cpp:72
+msgid "Family"
+msgstr "परिवार"
+
+#: kudesigner_lib/label.cpp:72
+msgid "Font Family"
+msgstr "फन्ट परिवार"
+
+#: kudesigner_lib/label.cpp:74
+msgid "Size"
+msgstr "साइज"
+
+#: kudesigner_lib/label.cpp:76
+msgid "Light"
+msgstr "प्रकाश"
+
+#: kudesigner_lib/label.cpp:77
+msgid "Normal"
+msgstr "सामान्य"
+
+#: kudesigner_lib/label.cpp:78
+msgid "DemiBold"
+msgstr "डेमिबोल्ड"
+
+#: kudesigner_lib/label.cpp:79
+msgid "Bold"
+msgstr "बाक्लो"
+
+#: kudesigner_lib/label.cpp:80
+msgid "Black"
+msgstr "कालो"
+
+#: kudesigner_lib/label.cpp:81
+msgid "Weight"
+msgstr "वजन"
+
+#: kudesigner_lib/label.cpp:84
+msgid "Regular"
+msgstr "नियमित"
+
+#: kudesigner_lib/label.cpp:93
+msgid "HAlignment"
+msgstr "H पंक्तिबद्धता"
+
+#: kudesigner_lib/label.cpp:97
+msgid "Middle"
+msgstr "मध्य"
+
+#: kudesigner_lib/label.cpp:99
+msgid "VAlignment"
+msgstr "V पंक्तिबद्धता"
+
+#: kudesigner_lib/label.cpp:102
+msgid "False"
+msgstr "बेठीक"
+
+#: kudesigner_lib/label.cpp:103
+msgid "True"
+msgstr "ठीक"
+
+#: kudesigner_lib/label.cpp:104
+msgid "Word wrap"
+msgstr "शब्द बेर्नुहोस्"
+
+#: kudesigner_lib/label.cpp:248
+msgid "Change Label"
+msgstr "लेबुल परिवर्तन गर्नुहोस्"
+
+#: kudesigner_lib/line.cpp:36
+msgid "X1"
+msgstr "X1"
+
+#: kudesigner_lib/line.cpp:38
+msgid "Y1"
+msgstr "Y1"
+
+#: kudesigner_lib/line.cpp:40
+msgid "X2"
+msgstr "X2"
+
+#: kudesigner_lib/line.cpp:42
+msgid "Y2"
+msgstr "Y2"
+
+#: kudesigner_lib/line.cpp:48
+msgid "Line Style"
+msgstr "रेखा शैली"
+
+#: kudesigner_lib/pagefooter.cpp:36 kudesigner_lib/pageheader.cpp:36
+#: kudesigner_lib/reportfooter.cpp:37 kudesigner_lib/reportheader.cpp:36
+msgid "First Page"
+msgstr "पहिलो पृष्ठ"
+
+#: kudesigner_lib/pagefooter.cpp:37 kudesigner_lib/pageheader.cpp:37
+#: kudesigner_lib/reportfooter.cpp:38 kudesigner_lib/reportheader.cpp:37
+msgid "Every Page"
+msgstr "प्रत्येक पृष्ठ"
+
+#: kudesigner_lib/pagefooter.cpp:38 kudesigner_lib/pageheader.cpp:38
+#: kudesigner_lib/reportfooter.cpp:39 kudesigner_lib/reportheader.cpp:38
+msgid "Last Page"
+msgstr "अन्तिम पृष्ठ"
+
+#: kudesigner_lib/pagefooter.cpp:40 kudesigner_lib/pageheader.cpp:40
+#: kudesigner_lib/reportfooter.cpp:41 kudesigner_lib/reportheader.cpp:40
+msgid "Print Frequency"
+msgstr "मुद्रण आवृत्ति"
+
+#: kudesigner_lib/section.cpp:29
+msgid "Section"
+msgstr "सेक्सन"
+
+#: kudesigner_lib/specialfield.cpp:36
+msgid "PageNumber"
+msgstr "पृष्ठसंख्या"
+
+#: kudesigner_lib/specialfield.cpp:37
+msgid "Special Field Type"
+msgstr "विशेष फिल्ड प्रकार"
+
+#: kudesigner_lib/specialfield.cpp:59
+msgid "PageNo"
+msgstr "पृष्ठ नं."
+
+#: kudesigner_lib/structurewidget.cpp:82
+msgid "Report Structure"
+msgstr "प्रतिवेदन बनावट"
+
+#: kudesigner_lib/structurewidget.cpp:94
+msgid "Report Template"
+msgstr "प्रतिवेदन टेम्प्लेट"
+
+#: kudesigner_lib/structurewidget.cpp:145
+msgid " (level %1)"
+msgstr " (स्तर %1)"
+
+#: kudesigner_lib/structurewidget.cpp:163
+msgid "<unknown>"
+msgstr "<unknown>"
+
+#: kudesigner_lib/structurewidget.cpp:168
+#, c-format
+msgid "Label: %1"
+msgstr "लेबुल: %1"
+
+#: kudesigner_lib/structurewidget.cpp:171
+#, c-format
+msgid "Field: %1"
+msgstr "फिल्ड: %1"
+
+#: kudesigner_lib/structurewidget.cpp:174
+#, c-format
+msgid "Calculated Field: %1"
+msgstr "गणना गरिएको फिल्ड: %1"
+
+#: kudesigner_lib/structurewidget.cpp:179
+#, c-format
+msgid "Special Field: %1"
+msgstr "विशेष फिल्ड: %1"
+
+#: part/kugar_about.h:31
+msgid "Kugar"
+msgstr "कुगार"
+
+#: part/kugar_about.h:32
+msgid "Report viewer(generator)"
+msgstr "प्रतिवेदन दृश्यकर्ता (उत्पन्नकर्ता)"
+
+#: part/kugar_about.h:33
+msgid "(c) 1999-2006, The Kugar Team"
+msgstr "(c) 1999-2006, कुगार समूह"
+
+#: kudesigner/kudesigner_aboutdata.h:40 part/kugar_about.h:36
+msgid "Maintainer, Report Designer, Kugar library enhancements"
+msgstr "मर्मतकर्ता, प्रतिवेदन डिजाइनर, कुगार लाइब्रेरी बढोत्तरित"
+
+#: part/kugar_about.h:39
+msgid "Smaller fixes and Kexi integration"
+msgstr "साना समाधान र केक्सी एकिकरण"
+
+#: part/kugar_about.h:42
+msgid "Direct database support"
+msgstr "प्रत्यक्ष डाटाबेस समर्थन"
+
+#: part/kugar_about.h:45
+msgid "Former maintainer"
+msgstr "भूतपूर्व मर्मतकर्ता"
+
+#: part/kugar_about.h:48
+msgid "Original author of Metaphrast"
+msgstr "मेटाफ्रेस्टको मौलिक लेखक"
+
+#: _translatorinfo.cpp:1 kudesigner/kudesigner_aboutdata.h:51
+#: part/kugar_about.h:50
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+"Ishwor Sharma, श्यामकृष्ण बल, ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3 kudesigner/kudesigner_aboutdata.h:52
+#: part/kugar_about.h:50
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+"sharmabeeshwar@gmail.com, shyamkrishna_bal@yahoo.com,,,submanesh@gmail.com"
+
+#: kudesigner/kudesigner_aboutdata.h:27
+msgid "GUI report template designer for Kugar report engine"
+msgstr "कुगार प्रतिवेदन इन्जिनका लागि GUI प्रतिवेदन टेम्प्लेट डिजाइनर"
+
+#: kudesigner/kudesigner_aboutdata.h:36
+msgid "Kugar Report Designer"
+msgstr "कुगार प्रतिवेदन डिजाइनर"
+
+#: kudesigner/kudesigner_aboutdata.h:44
+msgid "Major bugfixes, additional features and Kexi integration"
+msgstr "मुख्य समाधान, थप विशेषता र केक्सी एकिकरण"
+
+#: kudesigner/kudesigner_aboutdata.h:48
+msgid "Fast property editing for report items"
+msgstr "प्रतिवेदन वस्तुहरूका लागि छिटो गुण सम्पादन"
+
+#: rc.cpp:9
+msgid "Sec&tions"
+msgstr "सेक्सन"
+
+#: rc.cpp:12
+msgid "&Items"
+msgstr "वस्तु"
+
+#: rc.cpp:18
+msgid "Sections"
+msgstr "सेक्सन"
+
+#: rc.cpp:21
+msgid "Items"
+msgstr "वस्तु"

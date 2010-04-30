@@ -1,0 +1,806 @@
+# translation of kcmbackground.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmbackground\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:57+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:19+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: bgadvanced.cpp:53
+msgid "Advanced Background Settings"
+msgstr "उन्नत पृष्ठभूमि सेटिङ"
+
+#: bgadvanced.cpp:220
+#, kde-format
+msgid "%1 min."
+msgstr "%1 मिनेट"
+
+#: bgadvanced.cpp:257
+msgid ""
+"Unable to remove the program: the program is global and can only be removed "
+"by the system administrator."
+msgstr ""
+"कार्यक्रम हटाउन अक्षम: कार्यक्रम विश्वव्यापी भएकाले प्रणाली प्रशासकद्वारा "
+"मात्र हटाउन सक्नेछ ।"
+
+#: bgadvanced.cpp:259
+msgid "Cannot Remove Program"
+msgstr "कार्यक्रम हटाउन सकिदैँन"
+
+#: bgadvanced.cpp:263
+#, kde-format
+msgid "Are you sure you want to remove the program `%1'?"
+msgstr "के तपाईँ कार्यक्रम`%1' हटाउन निश्चिन्त हुनुहुन्छ?"
+
+#: bgadvanced.cpp:265
+msgid "Remove Background Program"
+msgstr "पृष्ठभूमि कार्यक्रम हटाउनुहोस्"
+
+#. i18n: file: bgadvanced_ui.ui:47
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#. i18n: file: bgwallpaper_ui.ui:115
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#. i18n: file: bgadvanced_ui.ui:47
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#. i18n: file: bgwallpaper_ui.ui:115
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#: bgadvanced.cpp:266 rc.cpp:18 rc.cpp:191 rc.cpp:215 rc.cpp:388
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#: bgadvanced.cpp:354
+msgid "Configure Background Program"
+msgstr "पृष्ठभूमि कार्यक्रम कन्फिगर गर्नुहोस्"
+
+#: bgadvanced.cpp:366
+msgid "&Name:"
+msgstr "नाम:"
+
+#: bgadvanced.cpp:372
+msgid "Co&mment:"
+msgstr "टिप्पणी:"
+
+#: bgadvanced.cpp:378
+msgid "Comman&d:"
+msgstr "आदेश:"
+
+#: bgadvanced.cpp:384
+msgid "&Preview cmd:"
+msgstr "cmd पूर्वावलोकन:"
+
+#: bgadvanced.cpp:390
+msgid "&Executable:"
+msgstr "कार्यान्वयन योग्य:"
+
+#: bgadvanced.cpp:396
+msgid "&Refresh time:"
+msgstr "ताजा पार्ने समय:"
+
+#: bgadvanced.cpp:401
+msgid " min"
+msgstr " मिनेट"
+
+#: bgadvanced.cpp:408
+msgid "New Command"
+msgstr "नयाँ आदेश"
+
+#: bgadvanced.cpp:411
+#, kde-format
+msgid "New Command <%1>"
+msgstr "नयाँ आदेश <%1>"
+
+#: bgadvanced.cpp:438
+msgid ""
+"You did not fill in the `Name' field.\n"
+"This is a required field."
+msgstr ""
+"तपाईँले`नाम' फाँटमा भर्नु भएन ।\n"
+"यो भर्नु पर्ने फाँट हो ।"
+
+#: bgadvanced.cpp:446
+#, kde-format
+msgid ""
+"There is already a program with the name `%1'.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"त्यहाँ `%1' नामको कार्यक्रम पहिले नै छ ।\n"
+"के तपाईँ यसलाई अधिलेखन गर्नु चाहनुहुन्छ?"
+
+#: bgadvanced.cpp:447
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: bgadvanced.cpp:453
+msgid ""
+"You did not fill in the `Executable' field.\n"
+"This is a required field."
+msgstr ""
+"तपाईँले `कार्यान्वयन योग्य' फाँटमा भर्नु भएन ।\n"
+"यो भर्नु पर्ने फाँट हो ।"
+
+#: bgadvanced.cpp:458
+msgid ""
+"You did not fill in the `Command' field.\n"
+"This is a required field."
+msgstr ""
+"तपाईँले `आदेश' फाँटमा भर्नु भएन ।\n"
+"यो भर्नु पर्ने फाँट हो ।"
+
+#: bgdialog.cpp:114
+msgid "Open file dialog"
+msgstr "खुला फाइल संवाद"
+
+#: bgdialog.cpp:348
+msgid ""
+"<p><h1>Background</h1> This module allows you to control the appearance of "
+"the virtual desktops. KDE offers a variety of options for customization, "
+"including the ability to specify different settings for each virtual "
+"desktop, or a common background for all of them.</p> <p>The appearance of "
+"the desktop results from the combination of its background colors and "
+"patterns, and optionally, wallpaper, which is based on the image from a "
+"graphic file.</p> <p>The background can be made up of a single color, or a "
+"pair of colors which can be blended in a variety of patterns. Wallpaper is "
+"also customizable, with options for tiling and stretching images. The "
+"wallpaper can be overlaid opaquely, or blended in different ways with the "
+"background colors and patterns.</p> <p>KDE allows you to have the wallpaper "
+"change automatically at specified intervals of time. You can also replace "
+"the background with a program that updates the desktop dynamically. For "
+"example, the \"kdeworld\" program shows a day/night map of the world which "
+"is updated periodically.</p>"
+msgstr ""
+"<p>तपाईँलाई यो <h1>पृष्ठभूमि</h1> मोड्युलले अवास्तविक डेस्कटपको ढाँचा "
+"नियन्त्रण गर्न अनुमति दिन्छ । प्रत्येक अवास्तविक डेस्कटपका लागि फरक सेटिङ "
+"निर्दिष्ट गर्न वा तीनिहरू सबैका लागि एउटा साझा पृष्ठभूमि क्षमता समावेश गर्दै "
+"KDE ले अनुकूलनका लागि विकल्पको विकल्प प्रस्ताव गर्छ ।</p> <p> डेस्कटपको "
+"दृश्य यसको पृष्ठभूमि रङ र बाँन्की, र ऐच्छिक, वालपेपर संयोजनको परिणाम हो जुन "
+"ग्राफिक फाइलको छविमा आधारित हुन्छ ।</p> <p> पृष्ठभूमि एक रङबाट वा रङहरूको "
+"जोडा बाट बनाउन सकिन्छ जुन बिभिन्न बाँन्कीहरूमा मिश्रण गर्न सकिनेछ । वालपेपर "
+"टायल गर्ने र सोझ्याउने छविहरूमा अनुकूलनयोग्य हुन्छ । वालपेपर अस्पष्ट रुपमा "
+"अधिरोहण हुन सक्छ, वा पृष्ठभूमि रङ र बाँन्कीहरूमा बिभिन्न तरिकाले मिश्रण हुन "
+"सक्छ ।<p> KDE ले तपाईँसँग भएको वालपेपर निर्दिष्ट गरिएको समयका अन्तरालमा "
+"स्वचालित तरिकाले परिवर्तन अनुमति दिन्छ । तपाईँले एउटा कार्यक्रमसँग पृष्ठभूमि "
+"बदल्न पनि सक्नुहुन्छ त्यसले गतिशील रुपमा डेस्कटप अद्याबधिक गर्छ । उदाहरणका "
+"लागि, \"kdeworld\" कार्यक्रमले विश्वको दिन/रात नक्सा देखाउँछ जुन समयाबधिमा "
+"अद्याबधिक गरिएको हुन्छ ।</p>"
+
+#: bgdialog.cpp:401
+#, kde-format
+msgid "Screen %1"
+msgstr "पर्दा %1"
+
+#: bgdialog.cpp:404
+msgid "Single Color"
+msgstr "एकल रङ"
+
+#: bgdialog.cpp:405
+msgid "Horizontal Gradient"
+msgstr "तेर्सो ग्रेडियन्ट"
+
+#: bgdialog.cpp:406
+msgid "Vertical Gradient"
+msgstr "ठाडो ग्रेडियन्ट"
+
+#: bgdialog.cpp:407
+msgid "Pyramid Gradient"
+msgstr "पिरामिड ग्रेडियन्ट"
+
+#: bgdialog.cpp:408
+msgid "Pipecross Gradient"
+msgstr "पाइप क्रस ग्रेडियन्ट"
+
+#: bgdialog.cpp:409
+msgid "Elliptic Gradient"
+msgstr "दीर्घवृत्त ग्रेडियन्ट"
+
+#: bgdialog.cpp:424
+msgid "Centered"
+msgstr "केन्द्रित"
+
+#: bgdialog.cpp:425
+msgid "Tiled"
+msgstr "टायल गरिएको"
+
+#: bgdialog.cpp:426
+msgid "Center Tiled"
+msgstr "केन्द्रमा टायल गरिएको"
+
+#: bgdialog.cpp:427
+msgid "Centered Maxpect"
+msgstr "केन्द्रित म्याक्सपेक्ट"
+
+#: bgdialog.cpp:428
+msgid "Tiled Maxpect"
+msgstr "टायल गरिएको म्याक्सपेक्ट"
+
+#: bgdialog.cpp:429
+msgid "Scaled"
+msgstr "मापन गरिएको"
+
+#: bgdialog.cpp:430
+msgid "Centered Auto Fit"
+msgstr "केन्द्रिकृत स्वत: ठीक"
+
+#: bgdialog.cpp:431
+msgid "Scale & Crop"
+msgstr "स्केल र काटछाँट गरिएको"
+
+#: bgdialog.cpp:434
+msgid "No Blending"
+msgstr "मिसावट विहिन"
+
+#: bgdialog.cpp:435
+msgid "Flat"
+msgstr "चौडा"
+
+#: bgdialog.cpp:436
+msgid "Horizontal"
+msgstr "तेर्सो"
+
+#: bgdialog.cpp:437
+msgid "Vertical"
+msgstr "ठाडो"
+
+#: bgdialog.cpp:438
+msgid "Pyramid"
+msgstr "पिरामिड"
+
+#: bgdialog.cpp:439
+msgid "Pipecross"
+msgstr "पाइपक्रस"
+
+#: bgdialog.cpp:440
+msgid "Elliptic"
+msgstr "दीर्घवृत्त"
+
+#: bgdialog.cpp:441
+msgid "Intensity"
+msgstr "अधिकता"
+
+#: bgdialog.cpp:442
+msgid "Saturation"
+msgstr "अतितृप्त"
+
+#: bgdialog.cpp:443
+msgid "Contrast"
+msgstr "ब्यतिरेक"
+
+#: bgdialog.cpp:444
+msgid "Hue Shift"
+msgstr "ह्यु सिफ्ट"
+
+#: bgdialog.cpp:589
+msgid "Select Wallpaper"
+msgstr "वालपेपर चयन गर्नुहोस्"
+
+#: bgmonitor.cpp:52
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"यो मोनिटरको तस्वीरले हालको सेटिङ तपाईँको डेस्कटपमा कस्तो देखिने छ "
+"पूर्वावलोकन समावेश गर्छ ।"
+
+#: bgwallpaper.cpp:112
+msgid "Setup Slide Show"
+msgstr "स्लाइड देखाउने सेट अप गर्नुहोस्"
+
+#: bgwallpaper.cpp:121
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bgwallpaper.cpp:169
+msgid "Select Image"
+msgstr "छवि चयन गर्नुहोस्"
+
+#. i18n: file: bgadvanced_ui.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupProgram)
+#: rc.cpp:3 rc.cpp:200
+msgid "Background Program"
+msgstr "पृष्ठभूमि कार्यक्रम"
+
+#. i18n: file: bgadvanced_ui.ui:31
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdd)
+#: rc.cpp:6 rc.cpp:203
+msgid ""
+"<qt>\n"
+"<p>Click here if you want to add a program to the listbox. This button opens "
+"a dialog where you are asked to give details about the program you want to "
+"run. To successfully add a program, you must know if it is compatible, the "
+"name of the executable file and, if necessary, its options.</p>\n"
+"<p>You usually can get the available options to a suitable program by typing "
+"in a terminal emulator the name of the executable file plus --help (foobar --"
+"help).</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p> यदि तपाईँले सूची बाकसमा कार्यक्रम थप्न चाहेमा यहाँ क्लिक गर्नुहोस् । यो "
+"बटनले तपाईँले चलाउन चाहेको कार्यक्रमको बारेमा विवरण दिन कहाँ सोध्नु भएको छ "
+"भन्ने संवाद खोल्छ । सफलता पूर्वक कार्यक्रम थप्नका लागि, तपाईँले यो मिल्दो "
+"भएको, कार्यान्वयन योग्य फाइलको नाम र आबश्यक भएमा यसका विकल्प जानेको हुनु "
+"पर्छ ।</p>\n"
+"<p>तपाईँले सधैँ टर्मिनल यन्त्रमा कार्यान्वयन योग्य फाइलको नाम प्लस --मद्दत "
+"(फुबार --मद्दत) टाइप गरि एउटा उचित कार्यक्रममा उपलब्ध विकल्प प्राप्त गर्न "
+"सक्नुहुन्छ ।</p>\n"
+"</qt>"
+
+#. i18n: file: bgadvanced_ui.ui:34
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#. i18n: file: bgwallpaper_ui.ui:92
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#. i18n: file: bgadvanced_ui.ui:34
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#. i18n: file: bgwallpaper_ui.ui:92
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#: rc.cpp:12 rc.cpp:188 rc.cpp:209 rc.cpp:385
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: bgadvanced_ui.ui:44
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonRemove)
+#: rc.cpp:15 rc.cpp:212
+msgid ""
+"Click here to remove programs from this list. Please note that it does not "
+"remove the program from your system, it only removes it from the available "
+"options in the background drawing programs list."
+msgstr ""
+"यो सूचीबाट कार्यक्रमहरू हटाउन यहाँ क्लिक गर्नुहोस् । कृपया यसले तपाईँको "
+"प्रणालीबाट कार्यक्रम हटाउँदैन, यसले पृष्ठभूमि रेखाचित्र कार्यक्रम सूचीमा "
+"उपलब्ध विकल्पबाट मात्र यसलाई हटाउँछ भन्ने याद गर्नुहोस् ।"
+
+#. i18n: file: bgadvanced_ui.ui:60
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonModify)
+#: rc.cpp:21 rc.cpp:218
+msgid ""
+"<qt>\n"
+"<p>Click here to modify the programs options. You usually can get the "
+"available options to a suitable program by typing in a terminal emulator the "
+"name of the executable file plus --help. (example: kwebdesktop --help).</p>\n"
+"<p>One useful example is the program kwebdesktop. It draws a web page on the "
+"background of your desktop.  You can use this program by selecting it on the "
+"listbox on the right, but it will draw a predefined web page. To change the "
+"web page it renders, select the kwebdesktop program on the listbox, then "
+"click here. A dialog will appear, allowing you to change the web page by "
+"replacing the old address (URL) with a new one.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>कार्यक्रम विकल्प परिमार्जन गर्न यहाँ क्लिक गर्नुहोस् । तपाईँले सधैँ "
+"टर्मिनल इमुलेटरमा कार्यान्वयन योग्य फाइलको नाम प्लस --मद्दत टाइप गरेर "
+"उपयुक्त कार्यक्रममा उपलब्ध विकल्प प्राप्त गर्न सक्नुहुन्छ । (उदाहरणका लागि: "
+"kwebdesktop --मद्दत) ।</p>\n"
+"<p>एउटा उपयोगि उदाहरण कार्यक्रम kwebdesktop हो । यसले तपाईँको डेस्कटप "
+"पृष्ठभूमिमा वेब पृष्ठ कोर्छ । तपाईँले यो कार्यक्रम सूची वाकसको दायाँ तिर चयन "
+"गरेर प्रयोग गर्न सक्नुहुन्छ, तर यसले पूर्वपरिभाषित वेब पृष्ठ कोर्नेछ । यसले "
+"वेब पृष्ठ परिवर्तन गर्न दिन्छ, सूची बाकसमा kwebdesktop कार्यक्रम चयन "
+"गर्नुहोस्, त्यसपछि यहाँ क्लिक गर्नुहोस् । एउट संवाद देखीने छ, पुरानो "
+"(यूआरएल) ठेगानामा नयाँ एक बदलेर वेब पृष्ठ परिवर्तन गर्न अनुमति दिन्छ ।</p>\n"
+"</qt>"
+
+#. i18n: file: bgadvanced_ui.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonModify)
+#: rc.cpp:27 rc.cpp:224
+msgid "&Modify..."
+msgstr "परिमार्जन..."
+
+#. i18n: file: bgadvanced_ui.ui:103
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:30 rc.cpp:227
+msgid ""
+"<qt>\n"
+"<p>Select from this listbox the program you want to use to draw your desktop "
+"background.</p>\n"
+"<p>The <b>Program</b> column shows the name of the program.<br>\n"
+"The <b>Comment</b> column brings a short description.<br>\n"
+"The <b>Refresh</b> column indicates the time interval between redraws of the "
+"desktop.</p>\n"
+"<p>The <b>K Web Desktop</b> program (kwebdesktop) is worth noting: it draws "
+"a specified page of the web in your desktop. You can modify it, and the "
+"webpage it draws by selecting it here, then clicking on the <b>Modify</b> "
+"button.<br>\n"
+"You can also add new compliant programs. To do that, click on the <b>Add</b> "
+"button.<br>\n"
+"You can also remove programs from this list clicking on the <b>Remove</b> "
+"button. Please note that it does not remove the program from your system, it "
+"only removes it from the available options in this listbox.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>तपाईँको डेस्कटप पृष्ठभूमि चित्र प्रयोग गर्न चाहनुभएको कार्यक्रम यो सूची "
+"बाकसबाट चयन गर्नुहोस् ।</p>\n"
+"<p><b>कार्यक्रम</b> स्तम्भले कार्यक्रमको नाम देखाउँछ ।<br>\n"
+"<b>टिप्पणी</b> स्तम्भले छोटो वर्णन ल्याउँछ ।<br>\n"
+"<b>ताजा पार्नुहोस्</b> स्तम्भले डेस्कटपको दोस्रो चित्र बीचमा समय अन्तराल "
+"देखाउँछ</p>\n"
+"<p><b>के वेब डेस्कटप </b> कार्यक्रम (के वेब डेस्कटप) केही पनि मान्यता छैन: "
+"यसले तपाँको डेस्कटपमा वेबको निर्दिष्ट गरिएको पृष्ठ कोर्छ । तपाईँले यसलाई "
+"परिमार्जन गर्न सक्नुहुन्छ, र यसलाई यहाँ चयन गरेर वेब पृष्ठ कोर्छ त्यसपछि "
+"<b>परिमार्जन गर्नुहोस्</b> क्लिक गर्नुहोस् ।<br>\n"
+"तपाईँले यहाँ मान्य नयाँ कार्यक्रम थप्न सक्नुहुन्छ । त्यसो गर्न, "
+"<b>थप्नुहोस्</b> बटनमा क्लिक गर्नुहोस् ।<br>\n"
+"तपाईँले <b>हटाउँनुहोस्</b> बटन क्लिक गरेर यो सूचीबाट कार्यक्रम हटाउन पनि "
+"सक्नुहुन्छ । कृपया याद गर्नुहोस् यसले कार्यक्रमलाई तपाईँको प्रणालीबाट "
+"हटाउँदैन, यसले यो सूची बाकसमा उपलब्ध विकल्प बाट मात्र हटाउँछ ।</p>\n"
+"</qt>"
+
+#. i18n: file: bgadvanced_ui.ui:107
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:41 rc.cpp:238
+msgid "Program"
+msgstr "कार्यक्रम"
+
+#. i18n: file: bgadvanced_ui.ui:112
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:44 rc.cpp:241
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#. i18n: file: bgadvanced_ui.ui:117
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:47 rc.cpp:244
+msgid "Refresh"
+msgstr "ताजा पार्नुहोस्"
+
+#. i18n: file: bgadvanced_ui.ui:125
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbProgram)
+#: rc.cpp:50 rc.cpp:247
+msgid ""
+"Check here if you want to allow a program to draw your desktop background. "
+"Below you can find the list of programs currently available for drawing the "
+"background. You may use one of the available programs, add new ones or "
+"modify the existing ones to fit your needs."
+msgstr ""
+"यदि तपाईँ पृष्ठभूमि डेस्कटप कोर्न एउटा कार्यक्रमलाई अनुमति दिन चाहनुहुन्छ "
+"भने यहाँ जाँच गर्नुहोस् । तपाईँले तल पृष्ठभूमि रेखाचित्रका लागि हालै उपलब्ध "
+"कार्यक्रमहरूको सूची फेला पार्न सक्नुहुन्छ । तपाईँले उपलब्ध मध्ये एक "
+"कार्यक्रम प्रयोग गर्न, नयाँ एक थप्न सक्नुहुन्छ वा तपाईँक आवश्यकतामा अनुरुप "
+"अवस्थित एक परिमार्जन गर्न सकनुहुन्छ ।"
+
+#. i18n: file: bgadvanced_ui.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbProgram)
+#: rc.cpp:53 rc.cpp:250
+msgid "Use the following program for drawing the background:"
+msgstr "पृष्ठभूमि रेखाचित्रका लागि निम्न कार्यक्रम प्रयोग गर्नुहोस्:"
+
+#. i18n: file: bgadvanced_ui.ui:138
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupCache)
+#: rc.cpp:56 rc.cpp:253
+msgid "Memory Usage"
+msgstr "स्मृति उपयोग"
+
+#. i18n: file: bgadvanced_ui.ui:144
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
+#. i18n: file: bgadvanced_ui.ui:157
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_spinCache)
+#. i18n: file: bgadvanced_ui.ui:144
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
+#. i18n: file: bgadvanced_ui.ui:157
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_spinCache)
+#: rc.cpp:59 rc.cpp:65 rc.cpp:256 rc.cpp:262
+msgid ""
+"In this box you can enter how much memory KDE should use for caching the "
+"background(s). If you have different backgrounds for the different desktops "
+"caching can make switching desktops smoother at the expense of higher memory "
+"use."
+msgstr ""
+"तपाईँले यो बाकसमा पृष्ठभूमि क्यास गर्नका लागि कति स्मृति केडीई प्रयोग "
+"गर्नुपर्छ प्रविष्ट गर्न सक्नुहुन्छ । यदि तपाईँसँग फरक पृष्ठभूमिका लागि फरक "
+"डेस्कटप भएमा क्यासिङले स्विचिङ डेस्सटप उच्च स्मृतिको प्रयोगमा मिहिन बनाउन "
+"सक्छ ।"
+
+#. i18n: file: bgadvanced_ui.ui:147
+#. i18n: ectx: property (text), widget (QLabel, m_lblCache)
+#: rc.cpp:62 rc.cpp:259
+msgid "Size of background cache:"
+msgstr "पृष्ठभूमि क्यास साइज:"
+
+#. i18n: file: bgadvanced_ui.ui:160
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_spinCache)
+#: rc.cpp:68 rc.cpp:265
+msgid " KiB"
+msgstr ""
+
+#. i18n: file: bgdialog_ui.ui:80
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
+#: rc.cpp:71 rc.cpp:268
+msgid "Click this button to show the identifying number for each screen."
+msgstr ""
+"प्रत्येक पर्दाका लागि पहिचान गर्ने सङ्ख्याहरू देखाउन यो बटन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: bgdialog_ui.ui:83
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonIdentifyScreens)
+#: rc.cpp:74 rc.cpp:271
+msgid "Identify Screens"
+msgstr "पर्दा पहिचान गर्नुहोस्"
+
+#. i18n: file: bgdialog_ui.ui:132
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdvanced)
+#: rc.cpp:77 rc.cpp:274
+msgid ""
+"Click this button to set the icon text colors and shadow, set up a program "
+"to run for the background picture or control the size of the background "
+"cache."
+msgstr ""
+"रङहरू र छायाँ पाठ प्रतिमा सेट गर्न यो बटन क्लिक गर्नुहोस्, पृष्ठभूमि क्यासको "
+"साइज नियन्त्रण गर्न वा पृष्ठभूमि तस्वीर चलाउनका लागि कार्यक्रम सेट गर्नुहोस् "
+"।"
+
+#. i18n: file: bgdialog_ui.ui:135
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvanced)
+#: rc.cpp:80 rc.cpp:277
+msgid "Advanced Options"
+msgstr "उन्नत विकल्प"
+
+#. i18n: file: bgdialog_ui.ui:184
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonGetNew)
+#: rc.cpp:83 rc.cpp:280
+msgid ""
+"Click this button to give you a list of new wallpapers to download from the "
+"Internet."
+msgstr ""
+"तपाईँलाई इन्टरनेटबाट डाउनलोड गर्न नयाँ वालपेपरको सूची दिने यो बटन क्लिक "
+"गर्नुहोस् ।"
+
+#. i18n: file: bgdialog_ui.ui:187
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
+#: rc.cpp:86 rc.cpp:283
+msgid "Get New Wallpapers"
+msgstr "नयाँ वालपेपर प्राप्त गर्नुहोस्"
+
+#. i18n: file: bgdialog_ui.ui:232
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:89 rc.cpp:286
+msgid "Options"
+msgstr "विकल्प"
+
+#. i18n: file: bgdialog_ui.ui:247
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
+#. i18n: file: bgdialog_ui.ui:438
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
+#. i18n: file: bgdialog_ui.ui:247
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
+#. i18n: file: bgdialog_ui.ui:438
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
+#: rc.cpp:92 rc.cpp:137 rc.cpp:289 rc.cpp:334
+msgid ""
+"<qt>You can choose here how a background picture is shown on the desktop:\n"
+"<ul>\n"
+"<li><em>Centered:</em> Center the picture on the desktop.</li>\n"
+" <li><em>Tiled:</em> Tile the picture beginning at the top left of the "
+"desktop, so the desktop is totally covered up.</li>\n"
+"<li><em>Center Tiled:</em> Center the picture on the desktop and then tile "
+"around it so that the background is totally covered up.</li>\n"
+"<li><em>Centered Maxpect:</em> Magnify the picture without distorting it "
+"until it fills either the width or height of the desktop, and then center it "
+"on the desktop.</li>\n"
+"<li><em>Scaled:</em> Magnify the picture, until the entire desktop is "
+"covered. This may result in some distortion of the picture.</li>\n"
+"<li><em>Centered Auto Fit:</em> If the picture fits the desktop this mode "
+"works like the Centered option. If the picture is larger than the desktop it "
+"is scaled down to fit while keeping the aspect ratio.</li>\n"
+"<li><em>Scale and Crop:</em> Magnify the picture without distorting it until "
+"it fills both the width and height of the desktop (cropping the picture if "
+"necessary), and then center it on the desktop.</li>\n"
+"</ul></qt>"
+msgstr ""
+"<qt>तपाईँले यहाँ कसरी पृष्ठभूमि तस्वीर डेस्कटपमा देखिन्छ रोज्न सक्नुहुन्छ:\n"
+"<ul>\n"
+"<li><em>केन्द्रित:</em> तस्वीर डेस्कटपको केन्द्रमा राख्नुहोस् ।</li>\n"
+" <li><em>टायल गरिएको:</em> डेस्कटपको माथिको बायाँ तिरको सुरुआतमा तस्वीर टायल "
+"गर्नुहोस्, त्यसैले डेस्कटप पूरै ढाकिन्छ ।</li>\n"
+"<li><em>टायल गरिएको केन्द्र:</em> डेस्कटपमा तस्वीर केन्द्रमा राख्नुहोस् र "
+"त्यसपछि यसको वरिपरि टायल गर्ननुहोस् त्यसैले पृष्ठभूमि पूरै ढाकिन्छ ।</li>\n"
+"<li><em>म्याक्सपेक्ट किन्द्रित:</em> डेस्कटपको उचाइ र चौडाइ यसले नभरिए सम्म "
+"तस्वीर नबिगारीकन विस्तार गर्नुहोस्, र त्यसपछि यसलाई डेस्कटपको केन्द्रमा "
+"राख्नुहोस् ।</li>\n"
+"<li><em>मापन गरिएको:</em>पूरै डेस्कटप नढाकिएसम्म, तस्वीर विस्तार गर्नुहोस् । "
+"यसको कारणले तस्वीरमा केही बिग्रन सक्छ ।</li>\n"
+"<li><em>केन्द्रित स्वत: ठिक:</em> यदि यो तस्वीर डेस्कटपमा ठीक्क भएमा यो "
+"मोडले केन्द्रित विकल्पको रुपमा कार्य गर्छ । यदि तस्वीर डेस्कटप भन्दा ठूलो "
+"भएमा अपेक्षीत अनुपात राख्ने बेलामा ठीक्क बनाउँन यो माप गरिन्छ ।</li>\n"
+"<li><em>मापन र काटछाँट:</em> यसले डेस्कटपको उचाइ र चौडाइ दुबै नभरिएसम्म "
+"तस्वीर नबिगारीकन विस्तार गर्नुहोस् (आवश्यक भएमा तस्वीर काटछाँट गर्नुहोस्), र "
+"त्यसपछि यसलाई डेस्कटपको केन्द्रमा राख्नुहोस् ।</li>\n"
+"</ul></qt>"
+
+#. i18n: file: bgdialog_ui.ui:250
+#. i18n: ectx: property (text), widget (QLabel, m_lblWallpaperPos)
+#: rc.cpp:104 rc.cpp:301
+msgid "Posi&tion:"
+msgstr "स्थिति:"
+
+#. i18n: file: bgdialog_ui.ui:266
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboBlend)
+#: rc.cpp:107 rc.cpp:304
+msgid ""
+"If you have selected to use a background picture you can choose various "
+"methods of blending the background colors with the picture. The default "
+"option of \"No Blending\" means that the picture simply obscures the "
+"background colors below."
+msgstr ""
+"यदि तपाईँले पृष्ठभूमि तस्वीर प्रयोग गर्न चयन गर्नुभएको छ भने तस्वीरमा "
+"पृष्ठभूमि रङहरू मिश्रण गर्ने धेरै विधिहरू रोज्न सक्नुहुन्छ । \"मिश्रण "
+"नगर्ने\" पूर्वनिर्धारित विकल्पको अर्थ तल सजिलैसँग पृष्ठभूमि रङ अस्पष्ट "
+"बनाउँछ ।"
+
+#. i18n: file: bgdialog_ui.ui:275
+#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorPrimary)
+#: rc.cpp:110 rc.cpp:307
+msgid "Click to choose the primary background color."
+msgstr "प्राथमिक पृष्ठभूमि रङ रोज्नका लागि क्लिक गर्नुहोस् ।"
+
+#. i18n: file: bgdialog_ui.ui:285
+#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorSecondary)
+#: rc.cpp:113 rc.cpp:310
+msgid ""
+"Click to choose the secondary background color. If no secondary color is "
+"required by the pattern selected this button will be disabled."
+msgstr ""
+"गौण पृष्ठभूमि रङ रोज्नका लागि क्लिक गर्नुहोस् । यदि बाँन्की अनरुप चयन गरिएका "
+"गौण रङ आवश्यक नभएमा यो बटन अक्षम पारिने छ ।"
+
+#. i18n: file: bgdialog_ui.ui:297
+#. i18n: ectx: property (text), widget (QLabel, m_lblColors)
+#: rc.cpp:116 rc.cpp:313
+msgid "Co&lors:"
+msgstr "रङ:"
+
+#. i18n: file: bgdialog_ui.ui:313
+#. i18n: ectx: property (text), widget (QLabel, m_lblBlending)
+#: rc.cpp:119 rc.cpp:316
+msgid "&Blending:"
+msgstr "मिश्रण:"
+
+#. i18n: file: bgdialog_ui.ui:331
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
+#. i18n: file: bgdialog_ui.ui:347
+#. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
+#. i18n: file: bgdialog_ui.ui:331
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
+#. i18n: file: bgdialog_ui.ui:347
+#. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
+#: rc.cpp:122 rc.cpp:128 rc.cpp:319 rc.cpp:325
+msgid ""
+"You can use this slider to control the degree of blending. You can "
+"experiment by moving the slider and looking at the effects in the preview "
+"image."
+msgstr ""
+"तपाईँले मिसावटको मात्रा नियन्त्रण गर्न यो स्लाइडर प्रयोग गर्न सक्नुहुन्छ । "
+"तपाईँले स्लाइडर सारेर र पूर्वावलोकन छविमा प्रभावहरू हेरेर परीक्षण गर्न "
+"सक्नुहुन्छ ।"
+
+#. i18n: file: bgdialog_ui.ui:334
+#. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
+#: rc.cpp:125 rc.cpp:322
+msgid "Balance:"
+msgstr "सन्तुलन:"
+
+#. i18n: file: bgdialog_ui.ui:374
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbBlendReverse)
+#: rc.cpp:131 rc.cpp:328
+msgid ""
+"For some types of blending, you can reverse the role of the background and "
+"the picture by checking this option."
+msgstr ""
+"केही मिसावटको प्रकारका लागि, तपाईँले यो विकल्पको जाँच गरेर पृष्ठभूमिको "
+"भूमिका र तस्वीर फर्काउन सक्नुहुन्छ ।"
+
+#. i18n: file: bgdialog_ui.ui:377
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbBlendReverse)
+#: rc.cpp:134 rc.cpp:331
+msgid "Reverse roles"
+msgstr "भूमिका उल्टाउनुहोस्"
+
+#. i18n: file: bgdialog_ui.ui:448
+#. i18n: ectx: property (title), widget (KButtonGroup, m_buttonGroupBackground)
+#: rc.cpp:149 rc.cpp:346
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#. i18n: file: bgdialog_ui.ui:454
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioNoPicture)
+#: rc.cpp:152 rc.cpp:349
+msgid "No picture, color only"
+msgstr "तस्वीर होइन, रङ मात्र"
+
+#. i18n: file: bgdialog_ui.ui:457
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioNoPicture)
+#: rc.cpp:155 rc.cpp:352
+msgid "&No picture"
+msgstr "तस्वीर विहिन"
+
+#. i18n: file: bgdialog_ui.ui:464
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSlideShow)
+#: rc.cpp:158 rc.cpp:355
+msgid "&Slide show:"
+msgstr "स्लाइड देखाउनुहोस्:"
+
+#. i18n: file: bgdialog_ui.ui:471
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioPicture)
+#: rc.cpp:161 rc.cpp:358
+msgid "&Picture:"
+msgstr "तस्वीर:"
+
+#. i18n: file: bgdialog_ui.ui:497
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonSetupWallpapers)
+#: rc.cpp:164 rc.cpp:361
+msgid ""
+"Click this button to select a set of images to be used as background "
+"pictures. One picture at a time will be shown for a specified amount of "
+"time, after which another image from the set will be shown. Images can be "
+"shown at random or in the order you specify them."
+msgstr ""
+"पृष्ठभूमि तस्वीरको रुपमा प्रयोग हुने छविहरूको सेट चयन गर्न यो बटन क्लिक "
+"गर्नुहोस् । निर्दिष्ट गरिएको समयको मात्रासम्म एउटा तस्वीर एक समयमा देखिने छ, "
+"सेटबाट पछि अर्को छवि देखिने छ । छवि अनियमित वा क्रमिक रुपमा देखिन सक्छ "
+"तपाईँले तीनिहरूलाई निर्दिष्ट गर्नुहोस् ।"
+
+#. i18n: file: bgdialog_ui.ui:500
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonSetupWallpapers)
+#: rc.cpp:167 rc.cpp:364
+msgid "Set&up..."
+msgstr "सेटअप गर्नुहोस्..."
+
+#. i18n: file: bgdialog_ui.ui:558
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
+#: rc.cpp:170 rc.cpp:367
+msgid ""
+"Choose the screen you wish to configure the background for from this list."
+msgstr ""
+"तपाईँले यसका लागि यो सूचीबाट पृष्ठभूमि कन्फिगर गर्न चाहनुभएको पर्दा "
+"रोज्नुहोस् ।"
+
+#. i18n: file: bgdialog_ui.ui:562
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
+#: rc.cpp:173 rc.cpp:370
+msgid "Across All Screens"
+msgstr "सबै पर्दामा"
+
+#. i18n: file: bgdialog_ui.ui:567
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
+#: rc.cpp:176 rc.cpp:373
+msgid "On Each Screen"
+msgstr "प्रत्येक पर्दामा"
+
+#. i18n: file: bgwallpaper_ui.ui:19
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:179 rc.cpp:376
+msgid "Show the following pictures:"
+msgstr "निम्न तस्वीर देखाउनुहोस्:"
+
+#. i18n: file: bgwallpaper_ui.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbRandom)
+#: rc.cpp:182 rc.cpp:379
+msgid "&Show pictures in random order"
+msgstr "अनियमित क्रममा तस्वीर देखाउनुहोस्"
+
+#. i18n: file: bgwallpaper_ui.ui:38
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:185 rc.cpp:382
+msgid "Change &picture after:"
+msgstr "यस पछि तस्वीर परिवर्तन गर्नुहोस्:"
+
+#. i18n: file: bgwallpaper_ui.ui:122
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveDown)
+#: rc.cpp:194 rc.cpp:391
+msgid "Move &Down"
+msgstr "तल सार्नुहोस्"
+
+#. i18n: file: bgwallpaper_ui.ui:129
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveUp)
+#: rc.cpp:197 rc.cpp:394
+msgid "Move &Up"
+msgstr "माथि सार्नुहोस्"

@@ -1,0 +1,1231 @@
+# translation of kcachegrind.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcachegrind\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 19:08+0000\n"
+"PO-Revision-Date: 2010-04-20 13:00+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:04+0000\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, जितेन्द्र हरलालका ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, jitendra@otrc.gov.np,,"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, DumpSelectionBase)
+#: rc.cpp:5 kcachegrind/toplevel.cpp:293 kcachegrind/toplevel.cpp:519
+msgid "Profile Dumps"
+msgstr "प्रोफाइल डम्प"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:24
+#. i18n: ectx: property (text), widget (Q3ListView, listView1)
+#: rc.cpp:8
+msgid "Target"
+msgstr "लक्ष्य"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:46
+#. i18n: ectx: property (text), widget (Q3ListView, listView1)
+#: rc.cpp:11
+msgid "Time"
+msgstr "समय"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:57
+#. i18n: ectx: property (text), widget (Q3ListView, listView1)
+#: rc.cpp:14
+msgid "Path"
+msgstr "मार्ग"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:70
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:17
+msgid "Options"
+msgstr "विकल्पहरु"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:87
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:20
+msgid "Target command:"
+msgstr "लक्ष्य आदेश:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:100
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:23
+msgid "Profiler options:"
+msgstr "प्रोफाइलर विकल्प:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:111
+#. i18n: ectx: property (text), widget (Q3ListView, listView3)
+#: rc.cpp:26
+msgid "Option"
+msgstr "विकल्प"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:122
+#. i18n: ectx: property (text), widget (Q3ListView, listView3)
+#. i18n: file: kcachegrind/dumpselectionbase.ui:650
+#. i18n: ectx: property (text), widget (Q3ListView, listView4_3)
+#: rc.cpp:29 rc.cpp:140
+msgid "Value"
+msgstr "मान"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:133
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:32
+msgid "Trace"
+msgstr "पदचिन्ह"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:146
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#. i18n: file: kcachegrind/dumpselectionbase.ui:730
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:35 rc.cpp:158
+msgid "Jumps"
+msgstr "उफ्राइ"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:160
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:38
+msgid "Instructions"
+msgstr "निर्देशन"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:175
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#. i18n: file: kcachegrind/dumpselectionbase.ui:745
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:41 rc.cpp:161
+msgid "Events"
+msgstr "घटना"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:188
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:44
+msgid "Full Cache"
+msgstr "पूर्ण क्यास"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:202
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:47
+msgid "Custom"
+msgstr "अनुकूलन"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:217
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:50
+msgid "Collect"
+msgstr "सङ्कलन गर्नुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:230
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:53
+msgid "At Startup"
+msgstr "सुरुआतमा"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:244
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:56
+msgid "While In"
+msgstr "भित्र हुँदा"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:259
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:59
+msgid "Skip"
+msgstr "फड्काउनुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:272
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:62
+msgid "PLT"
+msgstr "पीएलटी"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:286
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#. i18n: file: kcachegrind/dumpselectionbase.ui:898
+#. i18n: ectx: property (text), widget (Q3ListView, listView7)
+#: rc.cpp:65 rc.cpp:194
+msgid "Function"
+msgstr "प्रकार्य"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:301
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:68
+msgid "Dump Profile"
+msgstr "डम्प प्रोफाइल"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:314
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:71
+msgid "Every BBs"
+msgstr "प्रत्येक बीबीहरू"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:328
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#. i18n: file: kcachegrind/dumpselectionbase.ui:370
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:74 rc.cpp:83
+msgid "On Entering"
+msgstr "प्रविष्ट गर्दा"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:342
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:77
+msgid "On Leaving"
+msgstr "छोड्दा"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:357
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:80
+msgid "Zero Events"
+msgstr "शून्य घटना"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:385
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:86
+msgid "Separate"
+msgstr "बिभाजन गर्नुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:398
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:89
+msgid "Threads"
+msgstr "थ्रेड"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:412
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:92
+msgid "Recursions"
+msgstr "पुनरावृत्ती"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:426
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView3)
+#: rc.cpp:95
+msgid "Call Chain"
+msgstr "कल श्रृङ्खला"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:452
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:98
+msgid "Custom profiler options:"
+msgstr "अनुकूलन प्रोफाइलर विकल्प:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:486
+#. i18n: ectx: property (text), widget (QPushButton, pushButton2)
+#: rc.cpp:101
+msgid "Run New Profile"
+msgstr "नयाँ प्रोफाइल चलाउनुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:496
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:104
+msgid "Info"
+msgstr "सूचना"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:505
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: rc.cpp:107
+msgid "Dump reason:"
+msgstr "डम्प कारण:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:518
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:110
+msgid "Event summary:"
+msgstr "घटना सारांश:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:529
+#. i18n: ectx: property (text), widget (Q3ListView, listView4)
+#: rc.cpp:113
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:540
+#. i18n: ectx: property (text), widget (Q3ListView, listView4)
+#: rc.cpp:116
+msgid "Sum"
+msgstr "जोड"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:554
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: rc.cpp:119
+msgid "Miscellaneous:"
+msgstr "बिबिध:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:588
+#. i18n: ectx: property (text), widget (QPushButton, pushButton6)
+#: rc.cpp:122
+msgid "Show"
+msgstr "देखाउनुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:595
+#. i18n: ectx: property (text), widget (QPushButton, pushButton5)
+#: rc.cpp:125
+msgid "Compare"
+msgstr "तुलना गर्नुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:605
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:128
+msgid "State"
+msgstr "स्थिति"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:619
+#. i18n: ectx: property (text), widget (QPushButton, pushButton1)
+#: rc.cpp:131
+msgid "Update"
+msgstr "अद्यावधिक गर्नुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:626
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox1)
+#: rc.cpp:134
+msgid "Every [s]:"
+msgstr "प्रत्येक [s]:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:639
+#. i18n: ectx: property (text), widget (Q3ListView, listView4_3)
+#: rc.cpp:137
+msgid "Counter"
+msgstr "काउन्टर"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:661
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:143
+msgid "Dumps Done"
+msgstr "डम्प समाप्त"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:675
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:146
+msgid "Is Collecting"
+msgstr "सङ्कलन हुदैछ"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:689
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:149
+msgid "Executed"
+msgstr "कार्यान्वित"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:702
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:152
+msgid "Basic Blocks"
+msgstr "आधारभूत खण्ड"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:716
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:155
+msgid "Calls"
+msgstr "कल"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:758
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:164
+msgid "Ir"
+msgstr "Ir"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:773
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:167
+msgid "Distinct"
+msgstr "भिन्न"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:786
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:170 kcachegrind/configdlg.cpp:57
+msgid "ELF Objects"
+msgstr "ईएलएफ वस्तुहरू"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:800
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:173
+msgid "Functions"
+msgstr "प्रकार्यहरू"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:814
+#. i18n: ectx: property (text), item, widget (Q3ListView, listView4_3)
+#: rc.cpp:176
+msgid "Contexts"
+msgstr "प्रसङ्ग"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:845
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:179
+msgid "Stack trace:"
+msgstr "थाक पदचिन्ह:"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:855
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox2)
+#: rc.cpp:182
+msgid "Sync."
+msgstr "समक्रमण"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:865
+#. i18n: ectx: property (text), widget (Q3ListView, listView7)
+#: rc.cpp:185
+msgid "#"
+msgstr "#"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:876
+#. i18n: ectx: property (text), widget (Q3ListView, listView7)
+#: rc.cpp:188
+msgid "Incl."
+msgstr "Incl."
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:887
+#. i18n: ectx: property (text), widget (Q3ListView, listView7)
+#: rc.cpp:191
+msgid "Called"
+msgstr "कल गरिएको"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:909
+#. i18n: ectx: property (text), widget (Q3ListView, listView7)
+#: rc.cpp:197
+msgid "Location"
+msgstr "स्थान"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:928
+#. i18n: ectx: property (text), widget (QPushButton, pushButton7)
+#: rc.cpp:200
+msgid "Start"
+msgstr "सुरुआत"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:951
+#. i18n: ectx: property (text), widget (QPushButton, pushButton6_2)
+#: rc.cpp:203
+msgid "Zero"
+msgstr "शून्य"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:958
+#. i18n: ectx: property (text), widget (QPushButton, pushButton4)
+#: rc.cpp:206
+msgid "Dump"
+msgstr "डम्प गर्नुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:968
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:209
+msgid "Messages"
+msgstr "सन्देश"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:985
+#. i18n: ectx: property (text), widget (QPushButton, pushButton9)
+#: rc.cpp:212
+msgid "Kill Run"
+msgstr "नष्ट गर्नुहोस् चलाउनुहोस्"
+
+#. i18n: file: kcachegrind/dumpselectionbase.ui:1008
+#. i18n: ectx: property (text), widget (QPushButton, pushButton8)
+#: rc.cpp:215
+msgid "Clear"
+msgstr ""
+
+#. i18n: file: kcachegrind/kcachegrindui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:218
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: kcachegrind/kcachegrindui.rc:10
+#. i18n: ectx: Menu (view)
+#: rc.cpp:221
+msgid "&View"
+msgstr ""
+
+#. i18n: file: kcachegrind/kcachegrindui.rc:15
+#. i18n: ectx: Menu (layouts)
+#: rc.cpp:224
+msgid "&Layout"
+msgstr "सजावट"
+
+#. i18n: file: kcachegrind/kcachegrindui.rc:32
+#. i18n: ectx: Menu
+#: rc.cpp:227
+msgid "Sidebars"
+msgstr "छेउपट्टी"
+
+#. i18n: file: kcachegrind/kcachegrindui.rc:41
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:230
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: kcachegrind/kcachegrindui.rc:52
+#. i18n: ectx: ToolBar (stateToolBar)
+#: rc.cpp:233
+msgid "State Toolbar"
+msgstr "विषयवस्तु उपकरणपट्टी"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, configDlgBase)
+#: rc.cpp:236
+msgid "Configuration"
+msgstr "कन्फिगरेसन"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:26
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:239
+msgid "General"
+msgstr "साधारण"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:46
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:242
+msgid "Truncated when more/longer than:"
+msgstr "यो भन्दा बढी/लामो हुँदा काटिएको:"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:56
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
+#: rc.cpp:245
+msgid "Precision of percentage values:"
+msgstr "प्रतिशत मानको शुद्धता:"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:66
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:248
+msgid "Symbols in tooltips and context menus"
+msgstr "उपकरणटिप र प्रसङ्ग मेनुका प्रतीक"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:119
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:251
+msgid "Maximum number of items in lists:"
+msgstr "सूचीका विषयवस्तुको अधिकतम नम्बर"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:142
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:254
+msgid "Cost Item Colors"
+msgstr "लागत विषयवस्तु रङ"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:213
+#. i18n: ectx: property (text), widget (QCheckBox, fileCheck)
+#. i18n: file: kcachegrind/configdlgbase.ui:255
+#. i18n: ectx: property (text), widget (QCheckBox, classCheck)
+#. i18n: file: kcachegrind/configdlgbase.ui:269
+#. i18n: ectx: property (text), widget (QCheckBox, objectCheck)
+#: rc.cpp:257 rc.cpp:266 rc.cpp:269
+msgid "Automatic"
+msgstr "स्वचालित"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:220
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: rc.cpp:260
+msgid "Object:"
+msgstr "वस्तु:"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:230
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
+#: rc.cpp:263
+msgid "Class:"
+msgstr "वर्ग:"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:276
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#: rc.cpp:272
+msgid "File:"
+msgstr "फाइल:"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:340
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:275
+msgid "Annotations"
+msgstr "एनोटेसन"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:348
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3_2)
+#: rc.cpp:278
+msgid "Context lines in annotations:"
+msgstr "एनोटेसनका प्रसङ्ग लाइन:"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:377
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:281
+msgid "Source Folders"
+msgstr "स्रोत फोल्डर"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:409
+#. i18n: ectx: property (text), widget (Q3ListView, dirList)
+#: rc.cpp:284
+msgid "Object / Related Source Base"
+msgstr "वस्तु / सम्बन्धित स्रोत आधार"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:425
+#. i18n: ectx: property (text), widget (QPushButton, addDirButton)
+#: rc.cpp:287
+msgid "Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: kcachegrind/configdlgbase.ui:448
+#. i18n: ectx: property (text), widget (QPushButton, deleteDirButton)
+#: rc.cpp:290
+msgid "Delete"
+msgstr "मेटाउनुहोस्"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:513
+#. i18n: ectx: property (text), widget (QPushButton, PushButton2)
+#: rc.cpp:293
+msgid "&OK"
+msgstr "ठीक छ"
+
+#. i18n: file: kcachegrind/configdlgbase.ui:523
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: rc.cpp:296
+msgid "&Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:262 kcachegrind/toplevel.cpp:493
+msgid "Parts Overview"
+msgstr "अवयव समीक्षा"
+
+#: kcachegrind/toplevel.cpp:271
+msgid "Top Cost Call Stack"
+msgstr "धेरै लागतको कल थाक"
+
+#: kcachegrind/toplevel.cpp:273
+msgid ""
+"<b>The Top Cost Call Stack</b><p>This is a purely fictional 'most probable' "
+"call stack. It is built up by starting with the current selected function "
+"and adds the callers/callees with highest cost at the top and to "
+"bottom.</p><p>The <b>Cost</b> and <b>Calls</b> columns show the cost used "
+"for all calls from the function in the line above.</p>"
+msgstr ""
+"<b>सबैभन्दा धेरै लागतको कल थाक</b><p>यो केवल अवास्तविक 'सबैबन्दा धेरै "
+"सम्भावना भएको' कल थाक हो । यो हाल चयन गरिएको प्रकार्यबाट सुरु गरेर निर्माण "
+"गरिन्छ र माथि र तल सबैभन्दा उच्च लागत भएका कल गर्ने/कल प्राप्त गर्ने थप्दछ "
+"।</p><p> <b>लागत</b> र <b>कल</b> स्तम्भले माथिको लाइनमा प्रकार्यका सबै "
+"कलहरूका लागि प्रयोग गरिएको लागत देखाउछ ।</p>"
+
+#: kcachegrind/toplevel.cpp:287
+msgid "Flat Profile"
+msgstr "फ्ल्याट प्रोफाइल"
+
+#: kcachegrind/toplevel.cpp:300
+msgid ""
+"<b>Profile Dumps</b><p>This dockable shows in the top part the list of "
+"loadable profile dumps in all subdirectories of: <ul><li>current working "
+"directory of KCachegrind, i.e. where it was started from, and </li><li>the "
+"default profile dump directory given in the configuration.</li></ul> The "
+"list is sorted according to the target command profiled in the corresponding "
+"dump.</p><p>On selecting a profile dump, information for it is shown in the "
+"bottom area of the dockable: <ul><li><b>Options</b> allows you to view the "
+"profiled command and profile options of this dump. By changing any item, a "
+"new (yet unexisting) profile template is created. Press <b>Run Profile</b> "
+"to start a profile run with these options in the background. "
+"</li><li><b>Info</b> gives detailed info on the selected dump like event "
+"cost summary and properties of the simulated cache. </li><li><b>State</b> is "
+"only available for current happening profiles runs. Press <b>Update</b> to "
+"see different counters of the run, and a stack trace of the current position "
+"in the program profiled. Check the <b>Every</b> option to let KCachegrind "
+"regularly poll these data. Check the <b>Sync</b> option to let the dockable "
+"activate the top function in the current loaded dump.</li></ul></p>"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:374
+msgid "&Duplicate"
+msgstr "नक्कल प्रति बनाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:377
+msgid ""
+"<b>Duplicate Current Layout</b><p>Make a copy of the current layout.</p>"
+msgstr ""
+"<b>हालको सजावट नक्कल प्रति बनाउनुहोस्</b><p>हालको सजावटको एउटा प्रतिलिपि "
+"गर्नुहोस् ।</p>"
+
+#: kcachegrind/toplevel.cpp:382
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:384
+msgid ""
+"<b>Remove Current Layout</b><p>Delete current layout and make the previous "
+"active.</p>"
+msgstr ""
+"<b>हालको सजावट हटाउनुहोस्</b><p>हालको सजावटलाई मेट्नुहोस् र अघिल्लोलाई "
+"सक्रिय बनाउनुहोस् ।</p>"
+
+#: kcachegrind/toplevel.cpp:389
+msgid "&Go to Next"
+msgstr "पछिल्लोमा जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:392
+msgid "Go to Next Layout"
+msgstr "पछिल्लो सजावटमा जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:396
+msgid "&Go to Previous"
+msgstr "अघिल्लोमा जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:399
+msgid "Go to Previous Layout"
+msgstr "अघिल्लो सजावटमा जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:403
+msgid "&Restore to Default"
+msgstr "पूर्वनिर्धारित रुपमा पुन: भण्डारण गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:405
+msgid "Restore Layouts to Default"
+msgstr "पूर्वनिर्धारित रुपमा सजावट पुन: भण्डारण गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:409
+msgid "&Save as Default"
+msgstr "पूर्वनिर्धारित रुपमा बचत गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:411
+msgid "Save Layouts as Default"
+msgstr "पूर्वनिर्धारित रुपमा सजावट बचत गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:422
+msgid "<b>New</b><p>Open new empty KCachegrind window.</p>"
+msgstr "<b>नयाँ</b><p>नयाँ खाली KCachegrind सञ्झ्याल खोल्दछ ।</p>"
+
+#: kcachegrind/toplevel.cpp:426
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#: kcachegrind/toplevel.cpp:428
+msgid ""
+"<b>Add Profile Data</b><p>This opens an additional profile data file in the "
+"current window.</p>"
+msgstr ""
+"<b>प्रोफाइल डाटा थप्नुहोस्</b><p>यसले हालको सञ्झ्यालमा एउटा अतिरिक्त "
+"प्रोफाइल डाटा फाइल खोल्दछ ।</p>"
+
+#: kcachegrind/toplevel.cpp:434
+msgctxt "Reload a document"
+msgid "&Reload"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:437
+msgid ""
+"<b>Reload Profile Data</b><p>This loads any new created parts, too.</p>"
+msgstr ""
+"<b>प्रोफाइल डाटा रिलोड गर्नुहोस्</b><p>यसले कुनै पनि नयाँ सिर्जित अवयव, लोड "
+"गर्दछ ।</p>"
+
+#: kcachegrind/toplevel.cpp:442
+msgid "&Export Graph"
+msgstr "ग्राफ निर्यात गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:445
+msgid ""
+"<b>Export Call Graph</b><p>Generates a file with extension .dot for the "
+"tools of the GraphViz package.</p>"
+msgstr ""
+"<b>कल ग्राफ निर्यात गर्नुहोस्</b><p>GraphViz प्याकेजको उपकरणका लागि "
+"extension .dot बाट फाइल उत्पन्न गर्छ ।</p>"
+
+#: kcachegrind/toplevel.cpp:453
+msgid "&Force Dump"
+msgstr "डम्प गर्न दबाब दिनुहोस्"
+
+#: kcachegrind/toplevel.cpp:456
+msgid ""
+"<b>Force Dump</b><p>This forces a dump for a Callgrind profile run in the "
+"current directory. This action is checked while KCachegrind looks for the "
+"dump. If the dump is finished, it automatically reloads the current trace. "
+"If this is the one from the running Callgrind, the new created trace part "
+"will be loaded, too.</p><p>Force dump creates a file 'callgrind.cmd', and "
+"checks every second for its existence. A running Callgrind will detect this "
+"file, dump a trace part, and delete 'callgrind.cmd'. The deletion is "
+"detected by KCachegrind, and it does a Reload. If there is <em>no</em> "
+"Callgrind running, press 'Force Dump' again to cancel the dump request. This "
+"deletes 'callgrind.cmd' itself and stops polling for a new dump.</p><p>Note: "
+"A Callgrind run <em>only</em> detects existence of 'callgrind.cmd' when "
+"actively running a few milliseconds, i.e. <em>not</em> sleeping. Tip: For a "
+"profiled GUI program, you can awake Callgrind e.g. by resizing a window of "
+"the program.</p>"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:481
+msgid ""
+"<b>Open Profile Data</b><p>This opens a profile data file, with possible "
+"multiple parts</p>"
+msgstr ""
+"<b>प्रोफाइल डाटा खोल्नुहोस्</b><p>यसले सम्भावित बहुभागिय भागबाट, प्रोफाइल "
+"डाटा खोल्दछ</p>"
+
+#: kcachegrind/toplevel.cpp:496
+msgid "Show/Hide the Parts Overview Dockable"
+msgstr "Dockable अवयव समीक्षा देखाउनुहोस्/लुकाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:501
+msgid "Call Stack"
+msgstr "कल स्ट्याक"
+
+#: kcachegrind/toplevel.cpp:504
+msgid "Show/Hide the Call Stack Dockable"
+msgstr "Dockable कल स्ट्याक देखाउनुहोस्/लुकाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:509
+msgid "Function Profile"
+msgstr "प्रकार्य प्रोफाइल"
+
+#: kcachegrind/toplevel.cpp:512
+msgid "Show/Hide the Function Profile Dockable"
+msgstr "Dockable प्रकार्य प्रोफाइल देखाउनुहोस्/लुकाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:520
+msgid "Show/Hide the Profile Dumps Dockable"
+msgstr "Dockable प्रोफाइल डम्प देखाउनुहोस्/लुकाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:527
+msgid "Relative"
+msgstr "सापेक्षिक"
+
+#: kcachegrind/toplevel.cpp:529
+msgid "Show relative instead of absolute costs"
+msgstr "निश्चित लागतको साटोमा सापेक्षिक लागत देखाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:535
+msgid "Relative to Parent"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:538
+msgid "Show percentage costs relative to parent"
+msgstr "प्यारेन्टमा सापेक्षिक लागत प्रतिशत देखाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:542
+msgid ""
+"<b>Show percentage costs relative to parent</b><p>If this is switched off, "
+"percentage costs are always shown relative to the total cost of the profile "
+"part(s) that are currently browsed. By turning on this option, percentage "
+"cost of shown cost items will be relative to the parent cost "
+"item.</p><ul><table><tr><td><b>Cost Type</b></td><td><b>Parent "
+"Cost</b></td></tr><tr><td>Function "
+"Cumulative</td><td>Total</td></tr><tr><td>Function Self</td><td>Function "
+"Group (*) / Total</td></tr><tr><td>Call</td><td>Function "
+"Inclusive</td></tr><tr><td>Source Line</td><td>Function "
+"Inclusive</td></tr></table></ul><p>(*) Only if function grouping is switched "
+"on (e.g. ELF object grouping).</p>"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:559
+msgid "Cycle Detection"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:562
+msgid ""
+"<b>Detect recursive cycles</b><p>If this is switched off, the treemap "
+"drawing will show black areas when a recursive call is made instead of "
+"drawing the recursion ad infinitum. Note that the size of black areas often "
+"will be wrong, as inside recursive cycles the cost of calls cannot be "
+"determined; the error is small, however, for false cycles (see "
+"documentation).</p><p>The correct handling for cycles is to detect them and "
+"collapse all functions of a cycle into an artificial function, which is done "
+"when this option is selected. Unfortunately, with GUI applications, this "
+"often will lead to huge false cycles, making the analysis impossible; "
+"therefore, there is the option to switch this off.</p>"
+msgstr ""
+
+#: kcachegrind/toplevel.cpp:584 kcachegrind/toplevel.cpp:625
+msgid "Go back in function selection history"
+msgstr "इतिहास चयन प्रकार्यमा फर्कनुहोस्"
+
+#: kcachegrind/toplevel.cpp:590 kcachegrind/toplevel.cpp:637
+msgid "Go forward in function selection history"
+msgstr "इतिहास चयन प्रकार्यमा जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:596 kcachegrind/toplevel.cpp:610
+msgid ""
+"<b>Go Up</b><p>Go to last selected caller of current function. If no caller "
+"was visited, use that with highest cost.</p>"
+msgstr ""
+"<b>माथि जानुहोस्</b><p>हालको प्रकार्यको अन्त्यमा चयन गरिएको कलरमा जानुहोस् । "
+"यदि कलर अवलोकन गरिएको नभएमा, जसरी भए पनि प्रयोग गर्नुहोस् ।</p>"
+
+#: kcachegrind/toplevel.cpp:602
+msgid "&Up"
+msgstr "माथि"
+
+#: kcachegrind/toplevel.cpp:643 kcachegrind/toplevel.cpp:1494
+msgid "Primary Event Type"
+msgstr "प्राथमिक घटना प्रकार"
+
+#: kcachegrind/toplevel.cpp:644
+msgid "Select primary event type of costs"
+msgstr "लागतको प्राथमिक घटना प्रकार चयन गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:666 kcachegrind/toplevel.cpp:1499
+msgid "Secondary Event Type"
+msgstr "गौण घटना प्रकार"
+
+#: kcachegrind/toplevel.cpp:667
+msgid "Select secondary event type for cost e.g. shown in annotations"
+msgstr "लागतका लागि एनोटेसनमा जस्तै देखिने गौण घटना प्रकार चयन गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:677
+msgid "Grouping"
+msgstr "समूह"
+
+#: kcachegrind/toplevel.cpp:679
+msgid "Select how functions are grouped into higher level cost items"
+msgstr ""
+"उच्च स्तर लागत विषयवस्तुमा कसरी प्रकार्य बर्गीकृत गर्ने चयन गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:685
+msgid "(No Grouping)"
+msgstr "(समूह छैन)"
+
+#: kcachegrind/toplevel.cpp:697
+msgid "Split"
+msgstr "बिभाजन गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:700
+msgid "Show two information panels"
+msgstr "दुइवटा सूचना प्यानल देखाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:706
+msgid "Split Horizontal"
+msgstr "तेर्सो बिभाजन गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:709
+msgid "Change Split Orientation when main window is split."
+msgstr "मुख्य सञ्झ्याल बिभाजन हुँदा बिभाजन अभिमुखीकरण परिवर्तन गर्नुहोस् ।"
+
+#: kcachegrind/toplevel.cpp:898 kcachegrind/toplevel.cpp:959
+msgid ""
+"cachegrind.out* callgrind.out*|Callgrind Profile Data\n"
+"*|All Files"
+msgstr ""
+"cachegrind.out* callgrind.out*|Callgrind प्रोफाइल डाटा\n"
+"*|सबै फाइल"
+
+#: kcachegrind/toplevel.cpp:900
+msgid "Select Callgrind Profile Data"
+msgstr "Callgrind प्रोफाइल डाटा चयन गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:918 kcachegrind/toplevel.cpp:950
+#, kde-format
+msgid ""
+"Could not open the file \"%1\". Check it exists and you have enough "
+"permissions to read it."
+msgstr ""
+"\"%1\" फाइल खोल्न सकेन । यो विद्यमान छ र तपाईसित यसलाई पढ्न पर्याप्त अनुमति छ "
+"भनेर जाँच गर्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:961
+msgid "Add Callgrind Profile Data"
+msgstr "Callgrind प्रोफाइल डाटा थप्नुहोस्"
+
+#: kcachegrind/toplevel.cpp:1118 kcachegrind/toplevel.cpp:1447
+msgid "(Hidden)"
+msgstr "(लुकेको)"
+
+#: kcachegrind/toplevel.cpp:1504
+msgid "Hide"
+msgstr "लुकाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:1546
+msgid "Show Absolute Cost"
+msgstr "निश्चित लागत देखाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:1549
+msgid "Show Relative Cost"
+msgstr "सापेक्षिक लागत देखाउनुहोस्"
+
+#: kcachegrind/toplevel.cpp:1581
+msgid "Go Back"
+msgstr "पछाडि जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:1582
+msgid "Go Forward"
+msgstr "अगाडि जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:1583
+msgid "Go Up"
+msgstr "माथि जानुहोस्"
+
+#: kcachegrind/toplevel.cpp:1795
+#, kde-format
+msgid "Layout Count: %1"
+msgstr "सजावट गणना: %1"
+
+#: kcachegrind/toplevel.cpp:1802
+msgid "No profile data file loaded."
+msgstr "प्रोफाइल डाटा फाइल लोड गरिएको छैन ।"
+
+#: kcachegrind/toplevel.cpp:1811
+#, kde-format
+msgid "Total %1 Cost: %2"
+msgstr "कूल %1 लागत: %2"
+
+#: kcachegrind/toplevel.cpp:1823
+msgid "No event type selected"
+msgstr "घटना प्रकार चयन गरिएको छैन"
+
+#: kcachegrind/toplevel.cpp:2040 kcachegrind/toplevel.cpp:2079
+#: kcachegrind/toplevel.cpp:2118
+msgid "(No Stack)"
+msgstr "(थाक छैन)"
+
+#: kcachegrind/toplevel.cpp:2046
+msgid "(No next function)"
+msgstr "(पछिल्लो प्रकार्य छैन)"
+
+#: kcachegrind/toplevel.cpp:2085
+msgid "(No previous function)"
+msgstr "(अघिल्लो प्रकार्य छैन)"
+
+#: kcachegrind/toplevel.cpp:2123
+msgid "(No Function Up)"
+msgstr "(माथि प्रकार्य छैन)"
+
+#: kcachegrind/configdlg.cpp:59
+msgid "Source Files"
+msgstr "स्रोत फाइल"
+
+#: kcachegrind/configdlg.cpp:60
+msgid "C++ Classes"
+msgstr "C++ बर्गहरू"
+
+#: kcachegrind/configdlg.cpp:61
+msgid "Function (no Grouping)"
+msgstr "प्रकार्य (बर्गीकरण छैन)"
+
+#: kcachegrind/configdlg.cpp:163 kcachegrind/configdlg.cpp:354
+#: kcachegrind/configdlg.cpp:373
+msgid "(always)"
+msgstr "(सधैँ)"
+
+#: kcachegrind/configdlg.cpp:218
+msgid "KCachegrind Configuration"
+msgstr "केडीई क्यासग्रिन्ड कन्फिगरेसन"
+
+#: kcachegrind/configdlg.cpp:219
+#, kde-format
+msgid ""
+"The Maximum Number of List Items should be below 500.The previous set value "
+"(%1) will still be used."
+msgstr ""
+"सूची विषयवस्तुको अधिकतम सङ्ख्या ५०० भन्दा थोरै हुनुपर्छ । अघिल्लो सेट "
+"मान(%1) पनि प्रयोग गरिनेछ ।"
+
+#: kcachegrind/configdlg.cpp:381
+msgid "Choose Source Folder"
+msgstr "स्रोत फोल्डर रोज्नुहोस्"
+
+#: kcachegrind/main.cpp:40
+msgid "KCachegrind"
+msgstr "केडीई क्यास ग्रिन्ड"
+
+#: kcachegrind/main.cpp:42
+msgid "KDE Frontend for Callgrind/Cachegrind"
+msgstr ""
+
+#: kcachegrind/main.cpp:44
+msgid "(C) 2002 - 2007"
+msgstr "(C) २००२ -२००६"
+
+#: kcachegrind/main.cpp:46
+msgid "Josef Weidendorfer"
+msgstr "जोसेफ विडेनडोर्फर (Josef Weidendorfer)"
+
+#: kcachegrind/main.cpp:47
+msgid "Author/Maintainer"
+msgstr "लेखक/सम्भारकर्ता"
+
+#: kcachegrind/main.cpp:54
+msgid "Show information of this trace"
+msgstr "यो पदचिन्हको सूचना देखाउनुहोस्"
+
+#: tips.cpp:3
+msgid ""
+"<p>...that the <em>What's this...</em> help for every GUI widget\n"
+"in KCachegrind contains detailed usage information for this widget?\n"
+"It is highly recommend to read at least these help texts on first\n"
+"use. Request <em>What's this...</em> help by pressing\n"
+"Shift-F1 and clicking on the widget.</p>\n"
+msgstr ""
+
+#: tips.cpp:12
+msgid ""
+"<p>...that you can get profile information at instruction level\n"
+"with Calltree when you provide the option <em>--dump-instr=yes</em>?\n"
+"Use the Assembler View for the instruction annotations.\n"
+"</p>\n"
+msgstr ""
+"<p>...के तपाईँलाई विकल्प <em>--dump-instr=yes</em> उपलब्ध हुँदा\n"
+"निर्देशन स्तरसँगको कलट्रीमा प्रोफाइल सूचना प्राप्त गर्न सक्नुहुन्छ ?\n"
+"निर्देशन विवरणका लागि एसेम्बलर प्रयोग गर्नुहोस् ।\n"
+"</p>\n"
+
+#: tips.cpp:20
+msgid ""
+"<p>...that you can use Alt-Left/Right keys of your keyboard to go\n"
+"back/forward in the active object history ?</p>\n"
+msgstr ""
+"<p>...के तपाईँले सक्रिय वस्तु इतिहासमा पछाडि/अगाडि जान\n"
+"तपाईँको कुञ्जीपाटीको Alt-Left/Right कुञ्जीहरू प्रयोग गर्न सक्नुहुन्छ ?</p>\n"
+
+#: tips.cpp:26
+msgid ""
+"<p>...that you can navigate in the Callee/Caller Map View using\n"
+"arrow keys? Use Left/Right to change to siblings of the current\n"
+"item; use Up/Down to go one nesting level up/down. To select\n"
+"the current item, press Space, and to activate it, press Return.\n"
+"</p>\n"
+msgstr ""
+"<p>...के तपाईँले बाँण कुञ्जी प्रयोग गरेर कल गर्ने/कल प्राप्त गर्ने मानचित्र "
+"दृश्यमा नेभिगेट\n"
+"गर्न सक्नुहुन्छ ? हालको विषयवस्तुको सम्बन्ध परिवर्तन गर्न बायाँ/दायाँ बटन "
+"प्रयोग गर्नुहोस्; एक नेस्टिङ\n"
+"स्तर माथि/तल जान माथि/तल बटन प्रयोग गर्नुहोस् । हालको विषयवस्तु चयन\n"
+"गर्न, Space थिच्नुहोस्, र यसलाई सक्रिय पार्न, फर्कनुहोस् बटनथिच्नुहोस् ।\n"
+"</p>\n"
+
+#: tips.cpp:35
+msgid ""
+"<p>...that you can navigate in the Call Graph View using\n"
+"arrow keys? Use Up/Down to go one calling level up/down, alternating\n"
+"between calls and functions. Use Left/Right to change to siblings of a "
+"current\n"
+"selected call. To activate the current item, press Return.\n"
+"</p>\n"
+msgstr ""
+"<p>...के तपाईँले वाँण कुञ्जीहरू प्रयोग गरेर कल ग्राफमा\n"
+" नेभिगेट गर्न सक्नुहुन् s?कल र प्रकार्य विकल्प बीचमा, एक कल स्तर\n"
+"माथि/तल जान माथि/तल बटन प्रयोग गर्नुहोस् ।.हाल चयन गरिएका कलको सम्बन्ध "
+"परिवर्तन गर्न बायाँtदायाँ बटन\n"
+"प्रयोग गर्नुहोस् ।.हालको विषयवस्तु सक्रिय पार्न, फर्कनुहोस् बटन थिचक्नुहोस् "
+"।.\n"
+"</p>\n"
+
+#: tips.cpp:44
+msgid ""
+"<p>...that you can rapidly locate a function by entering part of its\n"
+"name (case-insensitive) into the edit line of the toolbar\n"
+"and hit return?</p>\n"
+msgstr ""
+"<p>...के तपाईँले उपकरणपट्टीको सम्पादन लाइनमा प्रकार्यका (केस-असम्वेदना) "
+"प्रविष्ट गरेर\n"
+"एउटा प्रकार्य तत्काल तोक्न सक्नुहुन्छ\n"
+"र फर्काउन सक्नुहुन्छ?</p>\n"
+
+#: tips.cpp:51
+msgid ""
+"<p>...that you can assign custom colors to \n"
+"ELF objects/C++ Classes/Source Files for graph coloring\n"
+"in <em>Settings->Configure KCachegrind...</em>?</p>\n"
+msgstr ""
+"<p>...के तपाईँले <em>Settings->Configure\n"
+"KCachegrind...</em> को ग्राफ रङ्गाउनका लागिELF objects/C++ Classes/Source "
+"फाइलमा अनुकूलन रङ मानाङ्कन गर्न\n"
+"सक्नुहुन्छ ?</p>\n"
+
+#: tips.cpp:58
+msgid ""
+"<p>...that you can see if debug info is available for a selected \n"
+"function by looking at the location label in the Info tab or\n"
+"the source listing header in the source tab?</p>\n"
+"<p>There must be the name of the source file (with extension).\n"
+"If KCachegrind still does not show the source, make sure that you\n"
+"have added the directory of the source file to the\n"
+"<em>Source Directories</em> list in the configuration.\n"
+msgstr ""
+
+#: tips.cpp:69
+msgid ""
+"<p>...that you can configure whether KCachgrind should\n"
+"show absolute event counts or relative ones (percentage display)?</p>\n"
+msgstr ""
+"<p>...के तपाईँले KCachgrind ले निश्चित घटना गणना वा सम्बन्धित एक (प्रतिशत "
+"प्रदर्शन) देखाउनु पर्छ वा पर्दैन कन्फिगर गर्न सक्नुहुन्छ ?</p>\n"
+
+#: tips.cpp:75
+msgid ""
+"<p>...that you can configure the maximum number of items\n"
+"for all function lists in KCachegrind? Limiting the number\n"
+"of items is done to get a fast reacting GUI. The last item in\n"
+"the list will show you the number of skipped functions, together\n"
+"with a cost condition for these skipped functions.</p>\n"
+"<p>To activate a function with small costs, search for it and select\n"
+"it in the flat profile. Selecting functions with small cost will\n"
+"temporarily add them to the flat profile list.</p>\n"
+msgstr ""
+"<p>...के तपाईँले KCachegrind का सबै प्रकार्य सूचीका लागि विषयवस्तुको\n"
+"अधिकतम सङ्ख्या कन्फिगर गर्न सक्नुहुन्छ ? छिटो प्रतिक्रिया दिने जीयूआई "
+"प्राप्त गर्न विषयवस्तुको सङ्ख्या\n"
+"सीमित गर्ने कार्य समाप्त भयो । तपाईँलाई सूचीको अन्तिम\n"
+"विषयवस्तुले फड्किएका प्रकार्यहरूसँग,तीनिहरूको\n"
+"लागि लागत सर्त देखाउनेछ</p>\n"
+"<p>सानो लागतबाट प्रकार्य सक्रिय पार्न, यसलाई खोजी गर्नुहोस् र यसलाई\n"
+"फ्ल्याट प्रोफाइलमा चयन गर्नुहोस् । प्रकार्यहरू सानो लागतमा चयन गर्दा "
+"तीनिहरूलाई फ्ल्याट प्रोफाइल सूचीमा\n"
+"अस्थायी रुपमा थपिने छन् ।</p>\n"
+
+#: tips.cpp:87
+msgid ""
+"<p>...that the Coverage tab - in contrast to the Call Lists tab -\n"
+"shows <em>all</em> functions that are calling the selected function\n"
+"(upper part) / are called by the selected function (bottom part),\n"
+"no matter how many function are between them on the stack?</p>\n"
+"<p>Examples:</p>\n"
+"<p>An entry in the upper list for function foo1() with a value of 50%\n"
+"with function bar() selected means that 50% of all the cost of function\n"
+"bar() happened while called from function foo1().</p>\n"
+"<p>An entry in the bottom list for function foo2() with a value of 50%\n"
+"with function bar() selected means that 50% of all the cost of function\n"
+"bar() happened while calling foo2() from bar().</p>\n"
+msgstr ""
+"<p>...के कल सूची ट्याबमा व्यतिरेक सूचीको - ढाक्ने ट्याबले -\n"
+"चयन गरिएका प्रकार्य (तल्लो भाग) द्वारा कल गर्ने चयन गरिएका प्रकार्य\n"
+"(माथिल्लो भाग) / <em>सबै</em> प्रकार्यहरू\n"
+"त्यो कुरा होइन थाकमा तीनिहरूको बीचमा कतिप्रकार्य छन्, देखाउछ ?</p>\n"
+"<p>उदाहरण:</p>\n"
+"<p> प्रकार्य पट्टी () मा 50%\n"
+"मान भएको प्रकार्य foo1() का लागि माथिल्लो सूचीको एउटा प्रविष्टि चयनले "
+"प्रकार्य foo1() बाट\n"
+"कल गर्दा देखिने सबै प्रकार्यपट्टी () लागतको 50% मान बताउछ ।</p>\n"
+"<p> प्रकार्य पट्टी () मा 50%\n"
+"मान भएको प्रकार्य foo2() का लागि माथिल्लो सूचीको एउटा प्रविष्टि चयनले "
+"प्रकार्य foo2() बाट\n"
+"कल गर्दा देखिने सबै प्रकार्यपट्टी () लागतको 50% मान बताउछ ।</p>\n"
+
+#: tips.cpp:102
+msgid ""
+"<p>...that waiting for the tool tip inside of a tree map\n"
+"shows the list of names of the nested rectangles the mouse\n"
+"pointer is over?</p>\n"
+"<p>Items from this list can be selected by pressing the right\n"
+"mouse button.</p>\n"
+msgstr ""
+"<p>...के ट्री मानचित्र भित्रको उपकरण टिपको प्रतिक्षामा\n"
+"माउस देखाउने माथि हुँदा\n"
+"नेस्टेड आयातको नामको सूची देखाउछ ?</p>\n"
+"<p>यो सूचीका विषयवस्तु माउसको दायाँबटन\n"
+"थिचेर चयन गर्न सकिन्छ ।</p>\n"
+
+#: tips.cpp:111
+msgid ""
+"<p>...that you can constrain the cost counts shown to only a\n"
+"few parts of the whole trace by selecting these parts in the\n"
+"\"Trace Selection\" Dockable?</p>\n"
+"<p>To generate multiple parts in a profiling run with\n"
+"cachegrind, use e.g. option --cachedumps=xxx for parts\n"
+"of a length of xxx basic blocks (A basic block is a run\n"
+"of not-branching assembler statements inside of your program\n"
+"code).</p>\n"
+msgstr ""
+"<p>...के तपाईँले \"पदचिन्ह चयन\" Dockable मा यी अवयव चयन\n"
+"गरेरसम्पूर्ण पदचिन्हका\n"
+"केही अवयवमा मात्र देखाउन लागत गणना नियन्त्रण गर्न सक्नुहुन्छ ?</p>\n"
+"<p>cachegrind बाट प्रोफाइलिङ रनमा बहुभागिय अवयव\n"
+"उत्पन्न गर्न, जस्तै: xxx आधारभूत खण्डको\n"
+"लम्बाइको अवयवका लागिoption --cachedumps=xxx प्रयोग गर्नुहोस् (आधारभूत\n"
+"खण्ड तपाईँको कार्यक्रम सङ्केतको भित्रपट्टिको शाखाबिहिन एसेम्बलर कथनको\n"
+"चलाई हो ।</p>\n"

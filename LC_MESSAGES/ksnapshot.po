@@ -1,0 +1,374 @@
+# translation of ksnapshot.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksnapshot\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:10+0000\n"
+"PO-Revision-Date: 2009-07-16 09:43+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:03+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ksnapshot_options.h:30
+msgid ""
+"Captures the window under the mouse on startup (instead of the desktop)"
+msgstr "(डेस्कटपको सट्टा) सुरुआतमा माउस रहेको सञ्झ्याल क्यापचर गर्दछ"
+
+#: ksnapshot_options.h:31
+msgid "Captures the desktop"
+msgstr ""
+
+#: ksnapshot_options.h:32
+msgid "Captures a region"
+msgstr ""
+
+#: ksnapshot_options.h:33
+msgid "Captures a part of windows"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:166
+msgid "snapshot"
+msgstr "स्न्यापसट"
+
+#: kbackgroundsnapshot.cpp:172
+msgid "KDE Background Screenshot Utility"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:176
+msgid "KBackgroundSnapshot"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:178
+msgid "(c) 2007, Montel Laurent"
+msgstr ""
+
+#: ksnapshot.cpp:111
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ksnapshot.cpp:180
+msgid "Quick Save Snapshot &As..."
+msgstr "यस रूपमा स्न्यापसट चाडो बचत गर्नुहोस्..."
+
+#: ksnapshot.cpp:181
+msgid ""
+"Save the snapshot to the file specified by the user without showing the file "
+"dialog."
+msgstr ""
+"फाइल संवाद नदेखाइकन प्रयोगकर्ताद्वारा निर्दिष्ट गरेको स्न्यापसट फाइलमा बचत "
+"गर्नुहोस् ।"
+
+#: ksnapshot.cpp:183
+msgid "Save Snapshot &As..."
+msgstr "यस रुपमा स्न्यापसट बचत गर्नुहोस्..."
+
+#: ksnapshot.cpp:184
+msgid "Save the snapshot to the file specified by the user."
+msgstr "प्रयोगकर्ताले निर्दिष्ट गरेको फाइलमा स्न्यापसट बचत गर्नुहोस् ।"
+
+#: ksnapshot.cpp:233
+msgid "Save As"
+msgstr ""
+
+#: ksnapshot.cpp:371
+msgid "Other Application..."
+msgstr ""
+
+#: ksnapshot.cpp:451
+msgid "The screen has been successfully grabbed."
+msgstr "पर्दा सफतापूर्वक समातिएकोछ ।"
+
+#: ksnapshot.cpp:573
+#, kde-format
+msgid "Preview of the snapshot image (%1 x %2)"
+msgstr ""
+
+#: ksnapshotobject.cpp:111
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: ksnapshotobject.cpp:112
+#, kde-format
+msgid "<qt>Do you really want to overwrite <b>%1</b>?</qt>"
+msgstr "<qt>के तपाईँले वास्तवमै <b>%1</b> अधिलेखन गर्न चाहनुहुन्छ?</qt>"
+
+#: ksnapshotobject.cpp:113
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: ksnapshotobject.cpp:149
+msgid "Unable to Save Image"
+msgstr ""
+
+#: ksnapshotobject.cpp:150
+#, kde-format
+msgid ""
+"KSnapshot was unable to save the image to\n"
+"%1."
+msgstr ""
+"यसमा छवि बचत गर्न केडीई स्न्यापसट अक्षम भयो\n"
+"%1"
+
+#: ksnapshotobject.cpp:172
+msgid "Title"
+msgstr ""
+
+#: ksnapshotobject.cpp:174
+msgid "Window Class"
+msgstr ""
+
+#: main.cpp:34
+msgid "KDE Screenshot Utility"
+msgstr "केडीई स्क्रिनसट युटिलिटी"
+
+#: main.cpp:38
+msgid "KSnapshot"
+msgstr "केडीई स्न्यापसट"
+
+#: main.cpp:40
+msgid ""
+"(c) 1997-2008, Richard J. Moore,\n"
+"(c) 2000, Matthias Ettrich,\n"
+"(c) 2002-2003 Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:41
+msgid "Richard J. Moore"
+msgstr ""
+
+#: main.cpp:42
+msgid "Matthias Ettrich"
+msgstr ""
+
+#: main.cpp:43
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:44
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:44
+msgid ""
+"Region Grabbing\n"
+"Reworked GUI"
+msgstr ""
+"क्षेत्र प्राप्त गर्दै\n"
+"GUI ले पुन: कार्य गर्यो"
+
+#: main.cpp:46
+msgid "Marcus Hufgard"
+msgstr ""
+
+#: main.cpp:46
+msgid "\"Open With\" function"
+msgstr ""
+
+#. i18n: file: ksnapshotwidget.ui:32
+#. i18n: ectx: property (whatsThis), widget (KSnapshotPreview, lblImage)
+#: rc.cpp:3
+msgid ""
+"This is a preview of the current snapshot.\n"
+"\n"
+"The image can be dragged to another application or document to copy the full "
+"screenshot there. Try it with the Konqueror file manager.\n"
+"\n"
+"You can also copy the image to the clipboard by pressing Ctrl+C."
+msgstr ""
+"यो हालको स्न्यापसटको पूर्वावलोकन हो ।\n"
+"\n"
+"त्यहाँ पूरा स्क्रिनसट प्रतिलिपि गर्न छवि अर्को अनुप्रयोग वा कागजातमा तान्न "
+"सकिन्छ । यसलाई कन्क्वेरर फाइल प्रबन्धकसँग प्रयास गर्नुहोस् ।\n"
+"\n"
+"तपाईँले Ctrl+C थिचेर क्लिपबोर्डमा छवि प्रतिलिपि गर्न सक्नुहुन्छ ।"
+
+#. i18n: file: ksnapshotwidget.ui:52
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, spinDelay)
+#: rc.cpp:10
+msgid "Snapshot delay in seconds"
+msgstr "सेकेन्डमा स्न्यापसट विलम्ब"
+
+#. i18n: file: ksnapshotwidget.ui:62
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, spinDelay)
+#: rc.cpp:13
+msgid ""
+"<qt><p>\n"
+"This is the number of seconds to wait after clicking the <i>New Snapshot</i> "
+"button before taking the snapshot.\n"
+"</p><p>\n"
+"This is very useful for getting windows, menus and other items on the screen "
+"set up just the way you want.\n"
+"</p><p>\n"
+"If <i>no delay</i> is set, the program will wait for a mouse click before "
+"taking a snapshot.\n"
+"</p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: ksnapshotwidget.ui:65
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, spinDelay)
+#: rc.cpp:23
+msgid "No delay"
+msgstr "कुनै विलम्ब छैन"
+
+#. i18n: file: ksnapshotwidget.ui:72
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: rc.cpp:26
+msgid "Snapshot &delay:"
+msgstr "स्न्यापसट विलम्ब:"
+
+#. i18n: file: ksnapshotwidget.ui:85
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:29
+msgid "Cap&ture mode:"
+msgstr "क्याप्चर मोड:"
+
+#. i18n: file: ksnapshotwidget.ui:114
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIncludeDecorations)
+#: rc.cpp:32
+msgid ""
+"When enabled, snapshot of a window will also include the window decorations"
+msgstr ""
+"सक्षम पार्दा, सञ्झ्यालको स्न्यापसटले पनि सञ्झ्याल सजावट समावेश गर्नेछ"
+
+#. i18n: file: ksnapshotwidget.ui:117
+#. i18n: ectx: property (text), widget (QCheckBox, cbIncludeDecorations)
+#: rc.cpp:35
+msgid "Include &window decorations"
+msgstr "सञ्झ्याल सजावट समावेश गर्नुहोस्"
+
+#. i18n: file: ksnapshotwidget.ui:134
+#. i18n: ectx: property (whatsThis), widget (QComboBox, comboMode)
+#: rc.cpp:38
+msgid ""
+"<qt>Using this menu, you can select from the five following snapshot modes:\n"
+"<p>\n"
+"<b>Full Screen</b> - captures the entire desktop.<br/>\n"
+"<b>Window Under Cursor</b> - captures only the window (or menu) that is "
+"under the mouse cursor when the snapshot is taken.<br/>\n"
+"<b>Region</b> - captures only the region of the desktop that you specify. "
+"When taking a new snapshot in this mode you will be able to select any area "
+"of the screen by clicking and dragging the mouse.<br/>\n"
+"<b>Section of Window</b> - captures only a section of the window. When "
+"taking a new snapshot in this mode you will be able to select any child "
+"window by moving the mouse over it.<br/>\n"
+"<b>Current Screen</b> - if you have multiple screens, this captures the "
+"screen containing the mouse cursor when the snapshot is taken.\n"
+"</p></qt>"
+msgstr ""
+
+#. i18n: file: ksnapshotwidget.ui:138
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: rc.cpp:48
+msgid "Full Screen"
+msgstr "पूरा पर्दा"
+
+#. i18n: file: ksnapshotwidget.ui:143
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: rc.cpp:51
+msgid "Window Under Cursor"
+msgstr "कर्सर रहेको सञ्झ्याल"
+
+#. i18n: file: ksnapshotwidget.ui:148
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: rc.cpp:54
+msgid "Region"
+msgstr "क्षेत्र"
+
+#. i18n: file: ksnapshotwidget.ui:153
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: rc.cpp:57
+msgid "Section of Window"
+msgstr "सञ्झ्यालको खण्ड"
+
+#. i18n: file: ksnapshotwidget.ui:158
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: rc.cpp:60
+msgid "Current Screen"
+msgstr ""
+
+#. i18n: file: ksnapshotwidget.ui:174
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btnNew)
+#: rc.cpp:63
+msgid "Click this button to take a new snapshot."
+msgstr "नयाँ स्न्यापसट लिनका लागि यो बटन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: ksnapshotwidget.ui:177
+#. i18n: ectx: property (text), widget (KPushButton, btnNew)
+#: rc.cpp:66
+msgid "&New Snapshot"
+msgstr "नयाँ स्न्यापसट"
+
+#. i18n: file: ksnapshotwidget.ui:200
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btnSave)
+#: rc.cpp:69
+msgid ""
+"Click this button to save the current snapshot. To quickly save the snapshot "
+"without showing the file dialog, press Ctrl+Shift+S. The filename is "
+"automatically incremented after each save."
+msgstr ""
+"हालको स्न्यापसट बचत गर्न यो बटन क्लिक गर्नुहोस् । फाइल संवाद नदेखाइकन "
+"स्न्यापसट छिटो बचत गर्न, Ctrl+Shift+S थिच्नुहोस् । फाइलनाम हरेक बचत पछि "
+"स्वचालित रूपमा बढोत्तरी हुन्छ ।"
+
+#. i18n: file: ksnapshotwidget.ui:203
+#. i18n: ectx: property (text), widget (KPushButton, btnSave)
+#: rc.cpp:72
+msgid "&Save As..."
+msgstr "यस रूपमा बचत गर्नुहोस्..."
+
+#. i18n: file: ksnapshotwidget.ui:210
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btnOpen)
+#: rc.cpp:75
+msgid "Click this button to open the snapshot with another application."
+msgstr ""
+
+#. i18n: file: ksnapshotwidget.ui:213
+#. i18n: ectx: property (text), widget (KPushButton, btnOpen)
+#: rc.cpp:78
+msgid "&Open With"
+msgstr ""
+
+#. i18n: file: ksnapshotwidget.ui:220
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btnCopy)
+#: rc.cpp:81
+msgid "Click this button to copy the current snapshot to the clipboard."
+msgstr "क्लिपबोर्डमा हालको स्न्यापसट प्रतिलिपि गर्न यो बटन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: ksnapshotwidget.ui:223
+#. i18n: ectx: property (text), widget (KPushButton, btnCopy)
+#: rc.cpp:84
+msgid "&Copy to Clipboard"
+msgstr "क्लिपबोर्डमा प्रतिलिपि गर्नुहोस्"
+
+#: rc.cpp:85
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:86
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,,"
+
+#: regiongrabber.cpp:116
+msgid ""
+"Select a region using the mouse. To take the snapshot, press the Enter key. "
+"Press Esc to quit."
+msgstr ""
+
+#: snapshottimer.cpp:35 snapshottimer.cpp:89
+#, kde-format
+msgid "Snapshot will be taken in 1 second"
+msgid_plural "Snapshot will be taken in %1 seconds"
+msgstr[0] ""
+msgstr[1] ""

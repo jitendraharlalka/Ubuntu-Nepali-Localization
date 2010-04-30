@@ -1,0 +1,640 @@
+# translation of khelpcenter.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-16 21:53+0000\n"
+"PO-Revision-Date: 2010-04-25 12:43+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:06+0000\n"
+
+#: application.cpp:57 navigator.cpp:470
+msgid "KDE Help Center"
+msgstr "केडीई मद्दत केन्द्र"
+
+#: application.cpp:59 khc_indexbuilder.cpp:156
+msgid "The KDE Help Center"
+msgstr "केडीई मद्दत केन्द्र"
+
+#: application.cpp:61
+msgid "(c) 1999-2003, The KHelpCenter developers"
+msgstr "(प्रतिलिपि अधिकार) १९९९-२००३, केडीई मद्दत केन्द्र विकासकर्ता"
+
+#: application.cpp:63 khc_indexbuilder.cpp:160
+msgid "Cornelius Schumacher"
+msgstr "कोर्नेलियस स्कुम्याचर"
+
+#: application.cpp:64
+msgid "Frerich Raabe"
+msgstr "फ्रेरिच राबे"
+
+#: application.cpp:65
+msgid "Matthias Elter"
+msgstr "माथियस इल्टर"
+
+#: application.cpp:65
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: application.cpp:67
+msgid "Wojciech Smigaj"
+msgstr "वजसियक स्मिगज"
+
+#: application.cpp:67
+msgid "Info page support"
+msgstr "सूचना पृष्ठ समर्थन"
+
+#: application.cpp:74
+msgid "URL to display"
+msgstr "प्रदर्शन गर्न यूआरएल"
+
+#: docmetainfo.cpp:34
+msgid "Top-Level Documentation"
+msgstr "उच्च-स्तर मिसिलीकरण"
+
+#: docmetainfo.cpp:74
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: docmetainfo.cpp:110
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "अङ्ग्रेजी"
+
+#: fontdialog.cpp:44
+msgid "Font Configuration"
+msgstr "फन्ट कन्फिगरेसन"
+
+#: fontdialog.cpp:67
+msgid "Sizes"
+msgstr "साइज"
+
+#: fontdialog.cpp:73
+msgctxt "The smallest size a will have"
+msgid "M&inimum font size:"
+msgstr "न्यूनतम फन्ट साइज:"
+
+#: fontdialog.cpp:80
+msgctxt "The normal size a font will have"
+msgid "M&edium font size:"
+msgstr "मध्यम फन्ट साइज:"
+
+#: fontdialog.cpp:90
+msgid "Fonts"
+msgstr "फन्ट"
+
+#: fontdialog.cpp:96
+msgid "S&tandard font:"
+msgstr "मानक फन्ट:"
+
+#: fontdialog.cpp:102
+msgid "F&ixed font:"
+msgstr "स्थिर फन्ट:"
+
+#: fontdialog.cpp:108
+msgid "S&erif font:"
+msgstr "सेरिफ फन्ट:"
+
+#: fontdialog.cpp:114
+msgid "S&ans serif font:"
+msgstr "सन्स सेरिफ फन्ट:"
+
+#: fontdialog.cpp:120
+msgid "&Italic font:"
+msgstr "छड्के फन्ट:"
+
+#: fontdialog.cpp:126
+msgid "&Fantasy font:"
+msgstr "फन्टासी फन्ट:"
+
+#: fontdialog.cpp:135
+msgid "Encoding"
+msgstr "सङ्केतन"
+
+#: fontdialog.cpp:141
+msgid "&Default encoding:"
+msgstr "पूर्वानिर्धारित सङ्केतन:"
+
+#: fontdialog.cpp:146 fontdialog.cpp:216
+msgid "Use Language Encoding"
+msgstr "भाषा सङ्केतन प्रयोग गर्नुहोस्"
+
+#: fontdialog.cpp:150
+msgid "&Font size adjustment:"
+msgstr "फन्ट साइज समायोजन:"
+
+#: glossary.cpp:95
+msgid "By Topic"
+msgstr "विषयद्वारा"
+
+#: glossary.cpp:98 infotree.cpp:94
+msgid "Alphabetically"
+msgstr "वर्णानुक्रम अनुसार"
+
+#: glossary.cpp:154
+msgid "Rebuilding glossary cache..."
+msgstr ""
+
+#: glossary.cpp:207
+msgid "Rebuilding cache... done."
+msgstr "क्यास पुन: निर्माण...पूरा भयो ।"
+
+#: glossary.cpp:301
+msgid "Error"
+msgstr "त्रुटि"
+
+#: glossary.cpp:302
+msgid ""
+"Unable to show selected glossary entry: unable to open file "
+"'glossary.html.in'!"
+msgstr ""
+"चयन गरिएको शब्दकोश प्रविष्टि देखाउन असक्षम भयो: फाइल 'glossary.html.in' "
+"खोल्न अक्षम भयो!"
+
+#: glossary.cpp:307
+msgid "See also: "
+msgstr "यो पनि हेर्नुहोस्: "
+
+#: glossary.cpp:322
+msgid "KDE Glossary"
+msgstr "केडीई शब्दकोश"
+
+#: htmlsearchconfig.cpp:50
+msgid "ht://dig"
+msgstr "ht://dig"
+
+#: htmlsearchconfig.cpp:59
+msgid ""
+"The fulltext search feature makes use of the ht://dig HTML search engine."
+msgstr ""
+
+#: htmlsearchconfig.cpp:63
+msgid "Information about where to get the ht://dig package."
+msgstr "ht://dig प्याकेज प्राप्त गर्ने ठाउँबारे जानकारी ।"
+
+#: htmlsearchconfig.cpp:67
+msgid "You can get ht://dig at the ht://dig home page"
+msgstr ""
+
+#: htmlsearchconfig.cpp:73
+msgid "Program Locations"
+msgstr "कार्यक्रम स्थान"
+
+#: htmlsearchconfig.cpp:82
+msgid "htsearch:"
+msgstr "ht खोजी:"
+
+#: htmlsearchconfig.cpp:88
+msgid "Enter the URL of the htsearch CGI program."
+msgstr "ht खोजी CGI कार्यक्रमको यूआरएल प्रविष्ट गर्नुहोस् ।"
+
+#: htmlsearchconfig.cpp:93
+msgid "Indexer:"
+msgstr "सूचक:"
+
+#: htmlsearchconfig.cpp:99
+msgid "Enter the path to your htdig indexer program here."
+msgstr "यहाँ तपाईँको htdig सूचक कार्यक्रममा मार्ग प्रविष्ट गर्नुहोस् ।"
+
+#: htmlsearchconfig.cpp:105
+msgid "htdig database:"
+msgstr "htdig डाटाबेस:"
+
+#: htmlsearchconfig.cpp:111
+msgid "Enter the path to the htdig database folder."
+msgstr "htdig डाटाबेस फोल्डरमा मार्ग प्रविष्ट गर्नुहोस् ।"
+
+#: infotree.cpp:97
+msgid "By Category"
+msgstr "कोटिद्वारा"
+
+#: kcmhelpcenter.cpp:64
+msgid "Change Index Folder"
+msgstr "अनुक्रमणिका फोल्डर परिवर्तन गर्नुहोस्"
+
+#: kcmhelpcenter.cpp:72 kcmhelpcenter.cpp:294
+msgid "Index folder:"
+msgstr "अनुक्रमणिका फोल्डर:"
+
+#: kcmhelpcenter.cpp:104
+msgid "Build Search Indices"
+msgstr "खोजी अनुक्रमणिका निर्माण गर्नुहोस्"
+
+#: kcmhelpcenter.cpp:117
+msgid "Index creation log:"
+msgstr "अनुक्रमणिका सिर्जना लग:"
+
+#: kcmhelpcenter.cpp:173
+msgctxt ""
+"Label for button to close search index progress dialog after successful "
+"completion"
+msgid "Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: kcmhelpcenter.cpp:174
+msgid "Index creation finished."
+msgstr "अनुक्रमणिका सिर्जना समाप्त भयो ।"
+
+#: kcmhelpcenter.cpp:177
+msgctxt "Label for stopping search index generation before completion"
+msgid "Stop"
+msgstr "रोक्नुहोस्"
+
+#: kcmhelpcenter.cpp:203
+msgid "Details &lt;&lt;"
+msgstr "विवरण &lt;&lt;"
+
+#: kcmhelpcenter.cpp:216
+msgid "Details &gt;&gt;"
+msgstr "विवरण &gt;&gt;"
+
+#: kcmhelpcenter.cpp:233
+msgid "Build Search Index"
+msgstr "खोजी अनुक्रमणिका निर्माण गर्नुहोस्"
+
+#: kcmhelpcenter.cpp:242
+msgid "Build Index"
+msgstr "सूचक निर्माण गर्नुहोस्"
+
+#: kcmhelpcenter.cpp:273
+msgid ""
+"To be able to search a document, a search\n"
+"index needs to exist. The status column of the list below shows whether an "
+"index\n"
+"for a document exists.\n"
+msgstr ""
+
+#: kcmhelpcenter.cpp:276
+msgid ""
+"To create an index, check the box in the list and press the\n"
+"\"Build Index\" button.\n"
+msgstr ""
+
+#: kcmhelpcenter.cpp:285
+msgid "Search Scope"
+msgstr "खोजी क्षेत्र"
+
+#: kcmhelpcenter.cpp:285
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: kcmhelpcenter.cpp:300
+msgid "Change..."
+msgstr "परिवर्तन गर्नुहोस्..."
+
+#: kcmhelpcenter.cpp:322
+#, kde-format
+msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
+msgstr ""
+"<qt>फोल्डर <b>%1</b> अवस्थित छैन; सूचना सिर्जना गर्न अक्षम भयो ।</qt>"
+
+#: kcmhelpcenter.cpp:361
+msgctxt "Describes the status of a documentation index that is present"
+msgid "OK"
+msgstr "ठीक छ"
+
+#: kcmhelpcenter.cpp:364
+msgctxt "Describes the status of a documentation index that is missing"
+msgid "Missing"
+msgstr "हराइरहेको छ"
+
+#: kcmhelpcenter.cpp:408
+#, kde-format
+msgctxt ""
+" Generic prefix label for error messages when creating documentation index, "
+"first arg is the document's identifier, second is the document's name"
+msgid "Document '%1' (%2):\n"
+msgstr "कागजात '%1' (%2):\n"
+
+#: kcmhelpcenter.cpp:413
+msgid "No document type."
+msgstr "कुनै कागजात प्रकार छैन ।"
+
+#: kcmhelpcenter.cpp:420
+#, kde-format
+msgid "No search handler available for document type '%1'."
+msgstr "'%1' कागजात प्रकारका लागि खोजी ह्यान्डलर उपलब्ध छैन ।"
+
+#: kcmhelpcenter.cpp:430
+#, kde-format
+msgid "No indexing command specified for document type '%1'."
+msgstr ""
+"'%1' कागजात प्रकारका लागि कुनै अनुक्रमणिका आदेश निर्दिष्ट गरिएको छैन ।"
+
+#: kcmhelpcenter.cpp:548
+msgid "Failed to build index."
+msgstr "अनुक्रमणिका निर्माण गर्न असफल भयो ।"
+
+#: kcmhelpcenter.cpp:603
+#, kde-format
+msgid ""
+"Error executing indexing build command:\n"
+"%1"
+msgstr ""
+"सूचक निर्माण आदेश कार्यान्वयन गर्दा त्रुटि:\n"
+"%1"
+
+#: khc_indexbuilder.cpp:98
+#, kde-format
+msgid "Unable to start command '%1'."
+msgstr "'%1' आदेश सुरु गर्न अक्षम भयो ।"
+
+#: khc_indexbuilder.cpp:154
+msgid "KHelpCenter Index Builder"
+msgstr "केडीई मद्दत केन्द्र अनुक्रमणिका निर्माणकर्ता"
+
+#: khc_indexbuilder.cpp:158
+msgid "(c) 2003, The KHelpCenter developers"
+msgstr "(प्रतिलिपि अधिकार) २००३, केडीई मद्दत केन्द्र विकासकर्ता"
+
+#: khc_indexbuilder.cpp:165
+msgid "Document to be indexed"
+msgstr "अनुक्रमण गर्नुपर्ने कागजात"
+
+#: khc_indexbuilder.cpp:166
+msgid "Index directory"
+msgstr "अनुक्रमणिका डाइरेक्टरी"
+
+#: mainwindow.cpp:72
+msgid "Search Error Log"
+msgstr "खोजी त्रुटि लग"
+
+#: mainwindow.cpp:130
+msgid "Preparing Index"
+msgstr "अनुक्रमणिका तयार गर्दै"
+
+#: mainwindow.cpp:179
+msgid "Ready"
+msgstr "तयार"
+
+#: mainwindow.cpp:234
+msgid "Previous Page"
+msgstr "अघिल्लो पृष्ठ"
+
+#: mainwindow.cpp:236
+msgid "Moves to the previous page of the document"
+msgstr "कागजातको अघिल्लो पृष्ठमा सर्दछ"
+
+#: mainwindow.cpp:240
+msgid "Next Page"
+msgstr "पछिल्लो पृष्ठ"
+
+#: mainwindow.cpp:242
+msgid "Moves to the next page of the document"
+msgstr "कागजातको पछिल्लो पृष्ठमा सर्दछ"
+
+#: mainwindow.cpp:247
+msgid "Table of &Contents"
+msgstr "विषयसूची"
+
+#: mainwindow.cpp:248
+msgid "Table of contents"
+msgstr "विषयसूची"
+
+#: mainwindow.cpp:249
+msgid "Go back to the table of contents"
+msgstr "विषयसूचीमा जानुहोस्"
+
+#: mainwindow.cpp:255
+msgid "&Last Search Result"
+msgstr "अन्तिम खोजी नतिजा"
+
+#: mainwindow.cpp:260
+msgid "Build Search Index..."
+msgstr "खोजी सूचक निर्माण गर्नुहोस्..."
+
+#: mainwindow.cpp:268
+msgid "Show Search Error Log"
+msgstr "खोजी त्रुटि लग देखाउनुहोस्"
+
+#: mainwindow.cpp:275
+msgid "Configure Fonts..."
+msgstr "फन्ट कन्फिगर गर्नुहोस्..."
+
+#: mainwindow.cpp:279
+msgid "Increase Font Sizes"
+msgstr "फन्ट साइज बढाउनुहोस्"
+
+#: mainwindow.cpp:284
+msgid "Decrease Font Sizes"
+msgstr "फन्ट साइज घटाउनुहोस्"
+
+#: navigator.cpp:116
+msgid "&Search"
+msgstr "खोजी"
+
+#: navigator.cpp:173
+msgid "&Contents"
+msgstr "सामग्री"
+
+#: navigator.cpp:186
+msgid "Search Options"
+msgstr "खोजी विकल्प"
+
+#: navigator.cpp:194
+msgid "G&lossary"
+msgstr "शब्दकोश"
+
+#: navigator.cpp:469
+msgid "Start Page"
+msgstr "सुरु पृष्ठ"
+
+#: navigator.cpp:557
+msgid "Unable to run search program."
+msgstr "खोजी कार्यक्रम सञ्चालन गर्न अक्षम भयो ।"
+
+#: navigator.cpp:597
+msgid ""
+"A search index does not yet exist. Do you want to create the index now?"
+msgstr ""
+"एउटा खोजी अनुक्रमणिका अहिले सम्म अवस्थित छैन । के तपाईँ अहिले अनुक्रमणिका "
+"सिर्जना गर्न चाहनुहुन्छ ?"
+
+#: navigator.cpp:601
+msgid "Create"
+msgstr "सिर्जना गर्नुहोस्"
+
+#: navigator.cpp:602
+msgid "Do Not Create"
+msgstr "सिर्जना नगर्नुहोस्"
+
+#. i18n: file: khelpcenter.kcfg:11
+#. i18n: ectx: label, entry, group (Search)
+#: rc.cpp:3 rc.cpp:29
+msgid "Path to index directory."
+msgstr "अनुक्रमणिका डाइरेक्टरीमा मार्ग ।"
+
+#. i18n: file: khelpcenter.kcfg:12
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: rc.cpp:6 rc.cpp:32
+msgid "Path to directory containing search indices."
+msgstr "खोजी अनुक्रमणिकाहरू समाविष्ट भएको डाइरेक्टरीमा मार्ग ।"
+
+#. i18n: file: khelpcenter.kcfg:26
+#. i18n: ectx: label, entry, group (Layout)
+#: rc.cpp:9 rc.cpp:35
+msgid "Currently visible navigator tab"
+msgstr "हालै दृश्यात्मक भएको नेभिगेटर ट्याब"
+
+#. i18n: file: khelpcenterui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:12
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: khelpcenterui.rc:12
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:15
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#. i18n: file: khelpcenterui.rc:20
+#. i18n: ectx: Menu (view)
+#: rc.cpp:18
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: khelpcenterui.rc:25
+#. i18n: ectx: Menu (go)
+#: rc.cpp:21
+msgid "&Go"
+msgstr "जानुहोस्"
+
+#. i18n: file: khelpcenterui.rc:40
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:24
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Shyam krishna bal, ,Launchpad Contributions:"
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,"
+
+#: searchengine.cpp:77
+msgid "Error: No document type specified."
+msgstr "त्रुटि: कुनै कागजात प्रकार निर्दिष्ट गरिएको छैन ।"
+
+#: searchengine.cpp:79
+#, kde-format
+msgid "Error: No search handler for document type '%1'."
+msgstr "त्रुटि: '%1' कागजात प्रकारका लागि कुनै खोजी ह्यान्डलर छैन ।"
+
+#: searchengine.cpp:227
+#, kde-format
+msgid "Unable to initialize SearchHandler from file '%1'."
+msgstr "'%1' फाइलबाट खोजी ह्यान्डलर सुरुआत गर्न अक्षम भयो ।"
+
+#: searchengine.cpp:241
+msgid "No valid search handler found."
+msgstr "कुनै वैध खोजी ह्यान्डलर फेला परेन ।"
+
+#: searchengine.cpp:284
+#, kde-format
+msgid "Search Results for '%1':"
+msgstr "'%1' का लागि नतिजाहरू खोजी गर्नुहोस्:"
+
+#: searchengine.cpp:289
+msgid "Search Results"
+msgstr "खोजी नतिजा"
+
+#: searchhandler.cpp:54
+#, kde-format
+msgid "Error executing search command '%1'."
+msgstr "'%1' खोजी आदेश कार्यान्वयन गर्दा त्रुटि ।"
+
+#: searchhandler.cpp:97
+#, kde-format
+msgid "Error: %1"
+msgstr "त्रुटि: '%1"
+
+#: searchhandler.cpp:166 searchhandler.cpp:171
+#, kde-format
+msgid "'%1' not found, check your installation"
+msgstr "'%1' फेला परेन, आफ्नो इन्सटल प्रक्रिया जाँच्नुहोस्"
+
+#: searchhandler.cpp:176
+#, kde-format
+msgid "'%1' not found, install the package containing it"
+msgstr ""
+
+#: searchhandler.cpp:227
+msgid "No search command or URL specified."
+msgstr "कुनै खोजी आदेश वा यूआरएल निर्दिष्ट गरिएको छैन ।"
+
+#: searchwidget.cpp:66
+msgid "and"
+msgstr "र"
+
+#: searchwidget.cpp:67
+msgid "or"
+msgstr "वा"
+
+#: searchwidget.cpp:69
+msgid "&Method:"
+msgstr "विधि:"
+
+#: searchwidget.cpp:85
+msgid "Max. &results:"
+msgstr "अधिकतम नतिजा:"
+
+#: searchwidget.cpp:101
+msgid "&Scope selection:"
+msgstr "क्षेत्र चयन:"
+
+#: searchwidget.cpp:110
+msgid "Scope"
+msgstr "क्षेत्र"
+
+#: searchwidget.cpp:113
+msgid "Build Search &Index..."
+msgstr "खोजी अनुक्रमणिका निर्माण गर्नुहोस्..."
+
+#: searchwidget.cpp:368
+msgctxt "Label for searching documentation using custom (user defined) scope"
+msgid "Custom"
+msgstr "अनुकूल"
+
+#: searchwidget.cpp:370
+msgctxt "Label for searching documentation using default search scope"
+msgid "Default"
+msgstr "पूर्वानिर्धारित"
+
+#: searchwidget.cpp:372
+msgctxt "Label for searching documentation in all subsections"
+msgid "All"
+msgstr "सबै"
+
+#: searchwidget.cpp:374
+msgctxt "Label for scope that deselects all search subsections"
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: searchwidget.cpp:376
+msgctxt "Label for Unknown search scope, that should never appear"
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: view.cpp:209
+msgid "Copy Link Address"
+msgstr "लिङ्क ठेगाना प्रतिलिपि गर्नुहोस्"

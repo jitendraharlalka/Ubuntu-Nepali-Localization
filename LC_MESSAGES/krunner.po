@@ -1,0 +1,441 @@
+# translation of krunner.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:56+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:29+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: lock/main.cc:61
+msgid "KDE Screen Locker"
+msgstr ""
+
+#: lock/main.cc:62
+msgid "Session Locker for KDE Workspace"
+msgstr ""
+
+#: lock/main.cc:65
+msgid "Force session locking"
+msgstr "सत्र ताल्चा लगाउन बल गर्नुहोस्"
+
+#: lock/main.cc:66
+msgid "Only start screen saver"
+msgstr ""
+
+#: lock/main.cc:67
+msgid "Only use the blank screen saver"
+msgstr ""
+
+#: lock/main.cc:68
+msgid "start with plasma unlocked for configuring"
+msgstr ""
+
+#: lock/autologout.cc:38
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr "<qt><nobr><b>स्वचालित लगआउट</b></nobr></qt>"
+
+#: lock/autologout.cc:39
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+"<qt>लग आउट हुनबाट रोक्न, यो सत्र प्रयोग गरी माउस सारेर वा एउटा कुञ्जी थिचेर "
+"पुन: निरन्तरता दिनुहोस् ।</qt>"
+
+#: lock/autologout.cc:44
+msgid "Time Remaining:"
+msgstr "बाँकी समय:"
+
+#: lock/autologout.cc:77
+#, kde-format
+msgid ""
+"<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] ""
+"<qt><nobr>तपाईँ १ सेकेन्डमा स्वचालित रूपमा लगआउट हुनुहुनेछ</nobr></qt>"
+msgstr[1] ""
+"<qt><nobr>तपाईँ %1 सेकेन्डमा स्वचालित रूपमा लगआउट हुनुहुनेछ</nobr></qt>"
+
+#: lock/lockprocess.cc:793
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "सत्रमा ताल्चा लाग्दैन, त्यस्तै ताल्चा खोल्न असम्भव हुनेछ:\n"
+
+#: lock/lockprocess.cc:797
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "<i>kcheckpass</i> सुरु गर्न सकिदैँन ।"
+
+#: lock/lockprocess.cc:798
+msgid ""
+"<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+
+#: lock/lockprocess.cc:861
+msgid "No appropriate greeter plugin configured."
+msgstr "उपयुक्त ग्रीटर प्लगिन कन्फिगर गरिएको छैन ।"
+
+#: lock/lockdlg.cc:100
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr "<nobr><b>सत्रमा ताल्चा लगाइएको छ</b></nobr><br />"
+
+#: lock/lockdlg.cc:101
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr "<nobr><b>सत्र%1 द्वारा ताल्चा लगाइएको थियो</b></nobr><br />"
+
+#: lock/lockdlg.cc:114
+msgid "Unl&ock"
+msgstr "ताल्चा खोल्नुहोस्"
+
+#: lock/lockdlg.cc:116
+msgid "Sw&itch User..."
+msgstr "स्वीच प्रयोगकर्ता..."
+
+#: lock/lockdlg.cc:184
+msgid "<b>Unlocking failed</b>"
+msgstr "<b>ताल्चा खोल्न असफल भयो</b>"
+
+#: lock/lockdlg.cc:192
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr "<b>चेतावनी:Caps Lock सुरु</b>"
+
+#: lock/lockdlg.cc:424
+#, kde-format
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill kscreenlocker (pid %1) manually."
+msgstr ""
+
+#: lock/lockdlg.cc:517
+msgid "&Start New Session"
+msgstr "नयाँ सत्र सुरु गर्नुहोस्"
+
+#: lock/lockdlg.cc:525
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+"तपाईँले हालको एकलाई पुन: निरन्तरता दिनुको साटोमा अन्य डेस्कटप सत्र खोल्नका "
+"लागि रोज्नुभएको छ ।\n"
+"हालको सत्र लुकेको हुनेछ र एउटा नयाँ लगइन पर्दा प्रदर्शित हुनेछ ।\n"
+"F-कुञ्जी प्रत्येक सत्रमा मानाङ्कन गरिएको छ; F%1 सधैँ पहिलो सत्र मानाङ्कन "
+"गर्न, F%2 दोस्रो सत्रलाई तथा अन्यलाई त्यस्तै गरि प्रयोग गरिन्छ । तपाईँले "
+"ctrl ,alt र उचित F-कुञ्जी समान समयमा थिचेर बिचका सत्रमा स्विच गर्न "
+"सक्नुहुन्छ । यसका अतिरिक्त केडीई प्यानल र डेस्कटप मेनुमा सत्रका बीचमा स्विच "
+"गर्ने कार्य छन् ।"
+
+#: lock/lockdlg.cc:538
+msgid "&Do not ask again"
+msgstr "फेरि नसोध्नुहोस्"
+
+#: lock/lockdlg.cc:594
+msgid "Session"
+msgstr "सत्र"
+
+#: lock/lockdlg.cc:594
+msgid "Location"
+msgstr "स्थान"
+
+#: lock/lockdlg.cc:622
+msgctxt "session"
+msgid "&Activate"
+msgstr "सक्रिय गर्नुहोस्"
+
+#: lock/lockdlg.cc:631
+msgid "Start &New Session"
+msgstr "नयाँ सत्र सुरु गर्नुहोस्"
+
+#: ksystemactivitydialog.h:28
+msgid "System Activity"
+msgstr "प्रणाली क्रियाकलाप"
+
+#: krunnerdialog.cpp:67 krunnerapp.cpp:124
+msgid "Run Command"
+msgstr "आदेश चलाउनुहोस्"
+
+#: interfaces/quicksand/qs_matchview.cpp:177
+msgid "Type to search."
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:261
+#, kde-format
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: interfaces/quicksand/qs_matchview.cpp:263
+#, kde-format
+msgid "1 action"
+msgid_plural "%1 actions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: interfaces/quicksand/qs_matchview.cpp:348
+msgid "Loading..."
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:432
+msgid "No results found."
+msgstr ""
+
+#: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
+msgid "Settings"
+msgstr ""
+
+#: interfaces/quicksand/qs_dialog.cpp:86
+msgid "Actions"
+msgstr ""
+
+#: interfaces/quicksand/qs_statusbar.cpp:57
+#, kde-format
+msgctxt "%1 current item number, %2 total number of items"
+msgid "%1 of %2"
+msgstr ""
+
+#: interfaces/default/interface.cpp:115
+msgid "Help"
+msgstr ""
+
+#: interfaces/default/interface.cpp:116
+msgid "Information on using this application"
+msgstr ""
+
+#: interfaces/default/interface.cpp:255
+#, kde-format
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr ""
+
+#: interfaces/default/interface.cpp:441
+#, kde-format
+msgid "(From %1, %2)"
+msgstr ""
+
+#: main.cpp:38
+msgid "KDE run command interface"
+msgstr "केडीई चलाउने आदेश इन्टरफेस"
+
+#: main.cpp:50
+msgid "Run Command Interface"
+msgstr "आदेश इन्टरफेस चलाउनुहोस्"
+
+#: main.cpp:52
+msgid "(c) 2006, Aaron Seigo"
+msgstr "(c) २००६, आरोन सेइगो"
+
+#: main.cpp:53
+msgid "Aaron J. Seigo"
+msgstr "आरोन जे. सेइगो"
+
+#: main.cpp:54
+msgid "Author and maintainer"
+msgstr "लेखक र सम्भारकर्ता"
+
+#: configdialog.cpp:50
+msgid "Plugins"
+msgstr ""
+
+#: configdialog.cpp:74
+msgid "User Interface"
+msgstr ""
+
+#: configdialog.cpp:80
+msgid "Available Features"
+msgstr ""
+
+#: krunnerapp.cpp:129
+msgid "Run Command on clipboard contents"
+msgstr ""
+
+#: krunnerapp.cpp:135
+msgid "Show System Activity"
+msgstr "प्रणाली क्रियाकलाप देखाउनुहोस्"
+
+#: krunnerapp.cpp:148
+msgid "Switch User"
+msgstr "प्रयोगकर्ता स्विच गर्नुहोस्"
+
+#: krunnerapp.cpp:158
+msgid "Lock Session"
+msgstr "सत्र ताल्चा लगाउनुहोस्"
+
+#: krunnerapp.cpp:166
+msgid "Log Out"
+msgstr "लग आउट गर्नुहोस्"
+
+#: krunnerapp.cpp:171
+msgid "Log Out Without Confirmation"
+msgstr "स्वीकृति बिना लगआउट गर्नुहोस्"
+
+#: krunnerapp.cpp:176
+msgid "Halt Without Confirmation"
+msgstr ""
+
+#: krunnerapp.cpp:181
+msgid "Reboot Without Confirmation"
+msgstr ""
+
+#: krunnerapp.cpp:219
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
+
+#: krunnerapp.cpp:397
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"उचित तरिकाले लग आउट गर्न सकेन ।\n"
+"सत्र प्रबन्धक जडान गर्न सकिने छैन । तपाईँले Ctrl+Alt+Backspace थिचेर बन्द "
+"गर्न बल गर्ने प्रयास गर्न सक्नुहुन्छ; तापनि, याद गर्नुहोस्, बल लगाएर गरिएको "
+"बन्दमा तपाईँको हालको सत्र बचत हुने छैन ।"
+
+#. i18n: file: interfaceOptions.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:3
+msgid "Positioning:"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:27
+#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
+#: rc.cpp:6
+msgid "Top edge of screen"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:37
+#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
+#: rc.cpp:9
+msgid "Free floating window"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid "Style:"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:67
+#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
+#: rc.cpp:15
+msgid "Command oriented"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:77
+#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
+#: rc.cpp:18
+msgid "Task oriented"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:97
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: rc.cpp:21
+msgid "Preview"
+msgstr ""
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#. i18n: file: kcfg/krunner.kcfg:13
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:34
+msgid "The interface style to use in KRunner"
+msgstr ""
+
+#. i18n: file: kcfg/krunner.kcfg:21
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:37
+msgid ""
+"Set to true to show the interface in a freely floating dialog instead of at "
+"the top of the screen"
+msgstr ""
+
+#. i18n: file: kcfg/krunner.kcfg:26
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:40
+msgid "Completion mode used for the query text."
+msgstr ""
+
+#. i18n: file: kcfg/krunner.kcfg:31
+#. i18n: ectx: label, entry (PastQueries), group (General)
+#: rc.cpp:43
+msgid "History if past queries successfully completed"
+msgstr ""
+
+#. i18n: file: kcfg/krunner.kcfg:40
+#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
+#: rc.cpp:47
+msgid "Whether to keep the tasks dialog above other windows when shown."
+msgstr ""
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:11
+#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: rc.cpp:53
+msgid "Enable screen saver"
+msgstr "स्क्रिन सेभर सक्षम पार्नुहोस्"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:12
+#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: rc.cpp:56
+msgid "Enables the screen saver."
+msgstr "स्क्रिन सेभर सक्षम पार्छ ।"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:16
+#. i18n: ectx: label, entry, group (ScreenSaver)
+#: rc.cpp:59
+msgid "Screen saver timeout"
+msgstr "स्क्रिन सेभर समय समाप्त"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:17
+#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
+#: rc.cpp:62
+msgid "Sets the seconds after which the screen saver is started."
+msgstr "स्क्रिन सेभर कति सेकेन्ड पछाडि सुरु हुने सेट गर्दछ ।"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:21
+#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: rc.cpp:65
+msgid "Suspend screen saver when DPMS kicks in"
+msgstr ""
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:24
+#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: rc.cpp:68
+msgid ""
+"Usually the screen saver is suspended when display power saving kicks in,\n"
+"       as nothing can be seen on the screen anyway, obviously. However, some "
+"screen savers\n"
+"       actually perform useful computations, so it is not desirable to "
+"suspend them."
+msgstr ""

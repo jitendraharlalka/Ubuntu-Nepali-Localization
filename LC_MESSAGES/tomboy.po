@@ -1,0 +1,2268 @@
+# translation of tomboy.gnome-2-20.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: tomboy.gnome-2-20.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-12 07:26+0000\n"
+"PO-Revision-Date: 2010-02-13 14:09+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:1
+msgid "Accessories"
+msgstr "सहायक सामाग्रीहरू"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:2
+msgid "Simple and easy to use note-taking"
+msgstr "द्रष्टव्य-लिने प्रयोग गर्नको लागि सरल र सजिलो"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:3
+msgid "Tomboy Applet Factory"
+msgstr "टोमब्वाय एप्लेट कारखाना"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:4 ../data/tomboy.desktop.in.h:3
+#: ../Tomboy/Tray.cs:572
+msgid "Tomboy Notes"
+msgstr "टोमब्वाय द्रष्टव्यहरू"
+
+#: ../data/GNOME_TomboyApplet.xml.h:1 ../Tomboy/ActionManager.cs:183
+#: ../Tomboy/Tray.cs:264
+msgid "S_ynchronize Notes"
+msgstr "द्रष्टव्यहरू समक्रमण गर्नुहोस्"
+
+#: ../data/GNOME_TomboyApplet.xml.h:2 ../Tomboy/ActionManager.cs:168
+msgid "_About"
+msgstr "बारेमा"
+
+#: ../data/GNOME_TomboyApplet.xml.h:3 ../Tomboy/ActionManager.cs:161
+#: ../Tomboy/Tray.cs:278
+msgid "_Help"
+msgstr "मद्दत"
+
+#: ../data/GNOME_TomboyApplet.xml.h:4 ../Tomboy/ActionManager.cs:157
+#: ../Tomboy/Tray.cs:273
+msgid "_Preferences"
+msgstr "प्राथमिकताहरू"
+
+#: ../data/tomboy.desktop.in.h:1
+msgid "Note-taker"
+msgstr "द्रष्टव्य-प्रापक"
+
+#: ../data/tomboy.desktop.in.h:2
+msgid "Take notes, link ideas, and stay organized"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:1
+msgid "Accept SSL Certificates"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:2
+msgid "Automatic Background Synchronization Timeout"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:3
+msgid "Create a new Note"
+msgstr "एउटा नयाँ द्रष्टव्य सिर्जना गर्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:4
+msgid "Custom Font Face"
+msgstr "अनुकुलन फन्ट फेस"
+
+#: ../data/tomboy.schemas.in.h:5
+msgid "Determines X coordinate of Search window; stored on Tomboy exit."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:6
+msgid "Determines Y coordinate of Search window; stored on Tomboy exit."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:7
+msgid "Determines pixel height of Search window; stored on Tomboy exit."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:8
+msgid "Determines pixel width of Search window; stored on Tomboy exit."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:9
+msgid "Enable Auto bulleted lists."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:10
+msgid "Enable Middle-Click Paste On Icon."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:11
+msgid "Enable WikiWord highlighting"
+msgstr "विकिवर्ड हाइलाइटिङ् सक्षम पार्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:12
+msgid "Enable closing notes with escape."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:13
+msgid "Enable custom font"
+msgstr "अनुकुलन फन्ट सक्षम पार्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:14
+msgid "Enable global keybindings"
+msgstr "विश्वव्यापी कुञ्जी बाइन्डिङहरू सक्षम पार्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:15
+msgid "Enable spellchecking"
+msgstr "हिज्जेजाँच सक्षम पार्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:16
+msgid "Enable startup notes"
+msgstr "सुरुआत द्रष्टव्यहरू सक्षम पार्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:17
+msgid ""
+"Enable this option if you want bulleted lists to be automatic when you place "
+"- or * at the beginning of a line."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:18
+msgid ""
+"Enable this option if you want to be able to middle-click the Tomboy icon to "
+"paste timestamped content into the Start Here note."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:19
+msgid ""
+"Enable this option to highlight words ThatLookLikeThis. Clicking the word "
+"will create a note with that name."
+msgstr ""
+"यस्तो देखिने शब्दहरू हाइलाइट गर्नको लागि यो विकल्प सक्षम पार्नुहोस। । शब्दमा "
+"क्लिक गर्नाले त्यो नामसँग एउटा द्रष्टव्य सिर्जना गर्नेछ ।"
+
+#: ../data/tomboy.schemas.in.h:20
+msgid "FUSE Mounting Timeout (ms)"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:21
+msgid "HTML Export All Linked Notes"
+msgstr "HTML ले लिङ्क भएको सबै द्रष्टव्यहरूलाई निर्यात गर्दछ"
+
+#: ../data/tomboy.schemas.in.h:22
+msgid "HTML Export Last Directory"
+msgstr "HTML ले अन्तिम डाइरेक्टरी निर्यात गर्दन"
+
+#: ../data/tomboy.schemas.in.h:23
+msgid "HTML Export Linked Notes"
+msgstr "HTML ले लिङ्क भएको द्रष्टव्यहरू निर्यात गर्दछ"
+
+#: ../data/tomboy.schemas.in.h:24
+msgid ""
+"If enable_custom_font is true, the font name set here will be used as the "
+"font when displaying notes."
+msgstr ""
+"यदि enable_custom_font सही छ भने, यहाँ सेट गरिएको फन्ट नाम द्रष्टव्यहरू "
+"प्रदर्शन गर्दा फन्टको रूपमा प्रयोग गरिनेछ ।"
+
+#: ../data/tomboy.schemas.in.h:25
+msgid ""
+"If enabled, all notes that were open when Tomboy quit will automatically be "
+"reopened at startup."
+msgstr ""
+"यदि सक्षम पारिएमा, टोमव्वाय निस्कँदा खुला रहेका सबै द्रष्टव्यहरू स्वाचालित "
+"रूपले सुरुआतमा पुन: खोलिनेछ ।"
+
+#: ../data/tomboy.schemas.in.h:26
+msgid "If enabled, an opened note can be closed by hitting the escape key."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:27
+msgid ""
+"If true, misspellings will be underlined in red, and correct spelling "
+"suggestions shown in the right-click menu."
+msgstr ""
+"यदि सही छ भने, गलत हिज्जेहरु रातोमा अधोरेखा गरिनेछ, र सही हिज्जे सुझावहरू "
+"दाँया-क्लिक मेनुमा देखिनेछ ।"
+
+#: ../data/tomboy.schemas.in.h:28
+msgid ""
+"If true, the desktop-global keybindings set in "
+"/apps/tomboy/global_keybindings will be enabled, allowing for useful Tomboy "
+"actions to be available from any application."
+msgstr ""
+"यदि सही छ भने, /apps/tomboy/global_keybindings मा सेट भएको डेस्कटप-"
+"विश्वव्यापी कुञ्जी बाइन्डिङहरू सक्षम पारिनेछ, जसले कुनै पनि अनुप्रयोगबाट "
+"उपयोगी टमब्वाय कार्यहरुको लागि उपलब्ध हुन अनुमति प्रदान गर्दछ ।"
+
+#: ../data/tomboy.schemas.in.h:29
+msgid ""
+"If true, the font name set in custom_font_face will be used as the font when "
+"displaying notes. Otherwise the desktop default font will be used."
+msgstr ""
+"यदि सही छो भने custom_font_face मा सेट भएको फन्ट नाम द्रष्टव्हरूय प्रदर्शन "
+"गर्दा प्रयोग गरिने ।.अन्यथा डेस्कटप पुर्वनिर्धारित फन्ट प्रयोग गरिनेछ ।"
+
+#: ../data/tomboy.schemas.in.h:30
+msgid ""
+"Indicates that the Sticky Note Importer plugin has not been run, so it "
+"should run automatically the next time Tomboy starts."
+msgstr ""
+"स्टिकी नोट आयातकर्ता प्लगइन चालु रहेको इङ्गित गर्दछ, त्यसैले यो अर्को पटक "
+"टोमव्वाय सुरु गर्दा स्वाचालित रूपले चालु हुनु पर्दछ ।"
+
+#: ../data/tomboy.schemas.in.h:31
+msgid ""
+"Integer determining the minimum number of notes to show in the Tomboy note "
+"menu."
+msgstr ""
+"इन्टिजरले टोमव्वाय द्रष्टव्य मेनुमा देखाउन द्रष्टव्यहरूको न्यूनतम सङ्ख्या "
+"निर्धारण गर्दै ।"
+
+#: ../data/tomboy.schemas.in.h:32
+msgid ""
+"Integer value indicating how frequently to perform a background sync of your "
+"notes (when sync is configured). Any value less than 1 indicates that "
+"autosync is disabled. The lowest acceptable positive value is 5. Value is in "
+"minutes."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:33
+msgid ""
+"Integer value indicating if there is a preference to always perform a "
+"specific behavior when a conflict is detected, instead of prompting the "
+"user. The values map to an internal enumeration. 0 indicates that the user "
+"wishes to be prompted when a conflict occurs, so that they may handle each "
+"conflict situation on a case-by-case basis."
+msgstr ""
+"यदि त्यहाँ प्रयोगकर्तालाई प्रवर्धन गर्नुको सट्टा द्वन्द्व पत्ता लागेको बेला "
+"विशिष्ट व्यबहार सधैँ कार्यसम्पादन गर्न प्राथमिक्ता छ भन्ने इन्टिजर मानले "
+"इङ्गित गर्दै । एउटा आन्तरिक परिगणनाका लागि मानहरूको मानचित्र । ० ले द्वन्द्व "
+"देखा पर्दा प्रयोगकर्ताले प्रवर्धन गर्न चाहेको इङ्गित गर्दछ, ताकि उनीहरूले "
+"प्रत्येक द्वन्द्व अवस्था केस-द्वारा-केस आधारमा ह्याण्डल गर्न सक्दछ ।"
+
+#: ../data/tomboy.schemas.in.h:34
+msgid ""
+"Integer value indicating if there is a preference to always perform a "
+"specific link updating behavior when a note is renamed, instead of prompting "
+"the user. The values map to an internal enumeration. 0 indicates that the "
+"user wishes to be prompted when renaming a note may impact links that exist "
+"in other notes. 1 indicates that links should automatically be removed. 2 "
+"indicates that link text should be updated to the new note name so that it "
+"will continue linking to the renamed note."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:35
+msgid "Link Updating Behavior on Note Rename"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:36
+msgid "List of pinned notes."
+msgstr "पिन गरिएको द्रष्टव्यहरूको सूची ।"
+
+#: ../data/tomboy.schemas.in.h:37
+msgid ""
+"Maximum characters of note title to show in the Tomboy tray or panel applet "
+"note menu."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:38
+msgid "Maximum note title length to show in tray menu."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:39
+msgid "Minimum number of notes to show in menu"
+msgstr "मेनुमा देखाउनका लागि द्रष्टव्यहरूको न्यूनतम सूची"
+
+#: ../data/tomboy.schemas.in.h:40
+msgid "Note Synchronization Conflict Saved Behavior"
+msgstr "द्रष्टव्य समक्रमण द्वन्दव बचत व्यबहार"
+
+#: ../data/tomboy.schemas.in.h:41
+msgid "Open Recent Changes"
+msgstr "हालका परिवर्तनहरू खोल्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:42
+msgid "Open Search Dialog"
+msgstr "खोजी संवाद खोल्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:43
+msgid "Open Start Here"
+msgstr "यहाँ 'सुरु गर्नुहोस्' खोल्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:44
+msgid "Path on SSH server to Tomboy synchronization directory (optional)."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:45
+msgid ""
+"Path to the synchronization server when using the filesystem synchronization "
+"service addin."
+msgstr "फाइलप्रणाली समक्रमण सेवा एड इन प्रयोग गर्दा समक्रमण सर्भरमा मार्ग ।"
+
+#: ../data/tomboy.schemas.in.h:46
+msgid "SSHFS Remote Synchronization Folder"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:47
+msgid "SSHFS Remote Synchronization User Name"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:48
+msgid "SSHFS Synchronization Server Port"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:49
+msgid "SSHFS Synchronization Server URL"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:50
+msgid "Saved height of Search window"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:51
+msgid "Saved horizontal position of Search window"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:52
+msgid "Saved vertical position of Search window"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:53
+msgid "Saved width of Search window"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:54
+msgid "Selected Synchronization Service Addin"
+msgstr "समक्रमण सेवा एड इन चयन गरियो"
+
+#: ../data/tomboy.schemas.in.h:55
+msgid "Set to TRUE to activate"
+msgstr "सक्रिय पार्नका लागि TRUE लाई सेट गर्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:56
+msgid "Show applet menu"
+msgstr "एप्लेट मेनु देखाउनुहोस्"
+
+#: ../data/tomboy.schemas.in.h:57
+msgid "Start Here Note"
+msgstr "यहाँ द्रष्टव्य सुरु गर्नुहोस्"
+
+#: ../data/tomboy.schemas.in.h:58
+msgid "Sticky Note Importer First Run"
+msgstr "पहिलो चालु स्टिकी नोट आयातकर्ता"
+
+#: ../data/tomboy.schemas.in.h:59
+msgid "Synchronization Client ID"
+msgstr "समक्रमण क्लाइन्ट आईडी"
+
+#: ../data/tomboy.schemas.in.h:60
+msgid "Synchronization Local Server Path"
+msgstr "समक्रमण स्थानीय सर्भर मार्ग"
+
+#: ../data/tomboy.schemas.in.h:61
+msgid "The date format that is used for the timestamp."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:62
+msgid ""
+"The global keybinding for creating and displaying a new Note. The format "
+"looks like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The "
+"parser is fairly liberal and allows lower or upper case, and also "
+"abbreviations such as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the "
+"option to the special string \"disabled\", then there will be no keybinding "
+"for this action."
+msgstr ""
+"एउटा नयाँ द्रष्टव्य सिर्जना गर्न र प्रदर्शन गर्नका लागि विश्वव्यापी "
+"कुञ्जीबाइन्डिङ । यो ढाँचा \"&lt;Control&gt;a\" वा "
+"\"&lt;Shift&gt;&lt;Alt&gt;F1\" जस्तो देखिन्छ । पदवर्णक निष्पक्ष रूपले उदार छ "
+"र साना वा ठूला वर्णलाई अनुमति दिन्छ, तथा सम्क्षिप्त रूपहरू जस्तै "
+"\"&lt;Ctl&gt;\" र \"&lt;Ctrl&gt;\" लाई पनि । यदि तपाईँले विकल्पलाई विशेष "
+"स्ट्रिङ \"disabled\" मा सेट गर्नुभयो भने, यो कार्यको लागि त्यहाँ कुनै "
+"कुञ्जीबाइन्डिङ हुनेछैन ।"
+
+#: ../data/tomboy.schemas.in.h:63
+msgid ""
+"The global keybinding for opening the \"Start Here\" note. The format looks "
+"like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
+"fairly liberal and allows lower or upper case, and also abbreviations such "
+"as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the option to the "
+"special string \"disabled\", then there will be no keybinding for this "
+"action."
+msgstr ""
+"\"यहाँ सुरुआत गर्नुहोस्\" द्रष्टव्य खोल्नका लागि विश्वव्यापी कुञ्जीबाइन्डिङ "
+"।यो ढाँचा \"&lt;Control&gt;a\" वा \"&lt;Shift&gt;&lt;Alt&gt;F1\" जस्तै "
+"देखिन्छ । पदवर्णक निष्पक्ष रूपले उदार छ र साना वा ठूला वर्णलाई अनुमति दिन्छ, "
+"तथा सम्क्षिप्त रूपहरू जस्तै \"&lt;Ctl&gt;\" र \"&lt;Ctrl&gt;\" लाई पनि । यदि "
+"तपाईँले विकल्पलाई विशेष स्ट्रिङ \"disabled\" मा सेट गर्नुभयो भने, यो कार्यको "
+"लागि त्यहाँ कुनै कुञ्जीबाइन्डिङ हुनेछैन ।"
+
+#: ../data/tomboy.schemas.in.h:64
+msgid ""
+"The global keybinding for opening the Note Search dialog. The format looks "
+"like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
+"fairly liberal and allows lower or upper case, and also abbreviations such "
+"as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the option to the "
+"special string \"disabled\", then there will be no keybinding for this "
+"action."
+msgstr ""
+"द्रष्टव्य खोजी संवाद खोल्नको लागि विश्वव्यापी कुञ्जीबाइन्डिङ । ढाँचा "
+"\"&lt;Control&gt;a\" वा \"&lt;Shift&gt;&lt;Alt&gt;F1\" जस्तै देखिन्छ । "
+"पदवर्णक निष्पक्ष रूपले उदार छ र साना वा ठूला वर्णलाई अनुमति दिन्छ, तथा "
+"सम्क्षिप्त रूपहरू जस्तै \"&lt;Ctl&gt;\" र \"&lt;Ctrl&gt;\" लाई पनि । यदि "
+"तपाईँले विकल्पलाई विशेष स्ट्रिङ \"disabled\" मा सेट गर्नुभयो भने, यो कार्यको "
+"लागि त्यहाँ कुनै कुञ्जीबाइन्डिङ हुनेछैन ।"
+
+#: ../data/tomboy.schemas.in.h:65
+msgid ""
+"The global keybinding for opening the Recent Changes dialog. The format "
+"looks like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The "
+"parser is fairly liberal and allows lower or upper case, and also "
+"abbreviations such as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the "
+"option to the special string \"disabled\", then there will be no keybinding "
+"for this action."
+msgstr ""
+"भर्खरैका परिवर्तनहरु संवाद खोल्नको लागि विश्वव्यापी कुञ्जीबाइन्डिङ । ढाँचा "
+"\"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\" जस्तो देखिन्छ । "
+"पदवर्णक निष्पक्ष रूपेले उदार छ र साना वा ठूला वर्णलाई अनुमति दिन्छ, तथा "
+"संक्षिप्त रूपहरू जस्तै \"&lt;Ctl&gt;\" र \"&lt;Ctrl&gt;\" लाइ पनि । यदि "
+"तपाईंले विकल्पलाई विशेष स्ट्रिङ \"disabled\" मा सेट गर्नुभयो भने, यो कार्यको "
+"लागि त्यहाँ कुनै कुञ्जीबाइन्डिङ हुनेछैन ।"
+
+#: ../data/tomboy.schemas.in.h:66
+msgid ""
+"The global keybinding for showing the Tomboy applet's menu. The format looks "
+"like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
+"fairly liberal and allows lower or upper case, and also abbreviations such "
+"as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the option to the "
+"special string \"disabled\", then there will be no keybinding for this "
+"action."
+msgstr ""
+"टोमव्वाय एप्लेटको मेनु देखाउनको लागि विश्वव्यापी कुञ्जीबाइन्डिङ । ढाँचा "
+"\"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\" जस्तो देखिन्छ । "
+"पदवर्णक निष्पक्ष रूपले उदार छ र साना वा ठूला वर्णलाई अनुमति दिन्छ, तथा "
+"संक्षिप्त रूपहरू जस्तै \"&lt;Ctl&gt;\" र \"&lt;Ctrl&gt;\" लाइ पनि । यदि "
+"तपाईँले विकल्पलाई विशेष स्ट्रिङ \"disabled\" मा सेट गर्नुभयो भने, यो कार्यको "
+"लागि त्यहाँ कुनै कुञ्जीबाइन्डिङ हुनेछैन ।"
+
+#: ../data/tomboy.schemas.in.h:67
+msgid "The handler for \"note://\" URLs"
+msgstr "\"note://\" URLs का लागि ह्याण्डलर"
+
+#: ../data/tomboy.schemas.in.h:68
+msgid ""
+"The last directory a note was exported to using the Export To HTML plugin."
+msgstr ""
+"HTML प्लगइनमा निर्यात प्रयोग गर्नका लागि एउटा द्रष्टव्य निर्यात गरिएको "
+"अन्तिम डाइरेक्टरी ।"
+
+#: ../data/tomboy.schemas.in.h:69
+msgid ""
+"The last setting for the 'Export linked notes' checkbox in the Export to "
+"HTML plugin."
+msgstr ""
+"HTML प्लगइनमा निर्यात भित्र 'लिङ्क भएका द्रष्टव्यहरू निर्यात गर्नुहोस्' जाँच "
+"बाकसका लागि अन्तिम सेटिङ ।"
+
+#: ../data/tomboy.schemas.in.h:70
+msgid ""
+"The last setting for the 'Include all other linked notes' checkbox in the "
+"Export to HTML plugin. This setting is used in conjunction with the 'HTML "
+"Export Linked Notes' setting and is used to specify whether all notes (found "
+"recursively) should be included during an export to HTML."
+msgstr ""
+"HTML प्लगइनमा निर्यात भित्र ' अन्य लिङ्क भएका सबै द्रष्टव्यहरू समावेश "
+"गर्नुहोस्' जाँच बाकसका लागि अन्तिम सेटिङ । यो सेटिङ 'द्रष्टव्यहरू लिङ्क भएको "
+"HTML निर्यात' सेटिङसँग मिलनमा प्रयोग गरिन्छ र HTML मा एउटा निर्यात भएको "
+"समयमा सबै द्रष्टव्यहरू (पुरावृत्तिक रूपले फेला परेको) समावेश गरिनुपर्दछ या "
+"पर्दैन निर्दिष्ट गर्न प्रयोग गरिन्छ ।"
+
+#: ../data/tomboy.schemas.in.h:71
+msgid ""
+"The note URI of the note that should be considered the \"Start Here\" note, "
+"which is always placed at the bottom of the Tomboy note menu and also "
+"accessible by hotkey."
+msgstr ""
+"द्रष्टव्यको द्रष्टव्य URI जसले \"Start Here\" द्रष्टव्य ध्यान दिनिपर्दछ, जुन "
+"जहिल्यै पनि टोम व्वाय द्रष्टव्य मेनुको तल राखिन्छ र हटकिद्वारा पहुँचयोग्य "
+"पनि हुन्छ ।"
+
+#: ../data/tomboy.schemas.in.h:72
+msgid ""
+"The port to use when connecting to the synchronization server via SSH. Set "
+"to -1 or less if default SSH port settings should be used instead."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:73
+msgid ""
+"Time (in milliseconds) Tomboy should wait for a response when using FUSE to "
+"mount a sync share."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:74
+msgid "Timestamp format"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:75
+msgid "URL of SSH server containing Tomboy synchronization directory."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:76
+msgid ""
+"Unique identifier for the currently configured note synchronization service "
+"addin."
+msgstr ""
+"हालै कन्फिगर गरिएको द्रष्टव्य समक्रमण सेवा एड इनका लागि अद्वितीय पहिचायक ।"
+
+#: ../data/tomboy.schemas.in.h:77
+msgid ""
+"Unique identifier for this Tomboy client, used when communicating with a "
+"sychronization server."
+msgstr ""
+"समक्रमण सर्भरसँग सञ्चार गर्दा प्रयोग गरिने यो टोमव्वाय क्लाइन्टका लागि "
+"अद्वितीय पहिचायक ।"
+
+#: ../data/tomboy.schemas.in.h:78
+msgid ""
+"Use wdfs option \"-ac\" to accept SSL certificates without prompting the "
+"user."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:79
+msgid ""
+"User name to use when connecting to the synchronization server via SSH."
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:80
+msgid ""
+"Whitespace-separated list of note URIs for notes that should always appear "
+"in the Tomboy note menu."
+msgstr ""
+"टोमव्वाय द्रष्टव्य मेनुमा सँधै देखिनु पर्ने द्रष्टव्यका लागि द्रष्टव्य URIs "
+"को सेतोकालीस्थान-स्प्रिसशीट सूची ।"
+
+#: ../Tomboy/ActionManager.cs:131
+msgid "_File"
+msgstr "फाइल"
+
+#: ../Tomboy/ActionManager.cs:134
+msgid "_New"
+msgstr "नयाँ"
+
+#: ../Tomboy/ActionManager.cs:135 ../Tomboy/ActionManager.cs:176
+msgid "Create a new note"
+msgstr "एउटा नयाँ द्रष्टव्य सिर्जना गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:138
+msgid "_Open..."
+msgstr "खोल्नुहोस्..."
+
+#: ../Tomboy/ActionManager.cs:139
+msgid "Open the selected note"
+msgstr "चयन गरिएको द्रष्टव्य खोल्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:142
+msgid "_Delete"
+msgstr "मेट्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:143
+msgid "Delete the selected note"
+msgstr "चयन गरिएको द्रष्टव्य मेट्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:146 ../Tomboy/NoteWindow.cs:406
+msgid "_Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:147
+msgid "Close this window"
+msgstr "यो सञ्झ्याल बन्द गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:150 ../Tomboy/Tray.cs:293
+msgid "_Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:151
+msgid "Quit Tomboy"
+msgstr "टोमब्वाय अन्त्य गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:154
+msgid "_Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:158 ../Tomboy/PreferencesDialog.cs:65
+msgid "Tomboy Preferences"
+msgstr "टोमब्वाय प्राथमिकताहरू"
+
+#: ../Tomboy/ActionManager.cs:164
+msgid "_Contents"
+msgstr "सामाग्रीहरू"
+
+#: ../Tomboy/ActionManager.cs:165
+msgid "Tomboy Help"
+msgstr "टोमब्वाय मद्दत"
+
+#: ../Tomboy/ActionManager.cs:169
+msgid "About Tomboy"
+msgstr "टोमव्वायको बारेमा"
+
+#: ../Tomboy/ActionManager.cs:172
+msgid "TrayIcon"
+msgstr "ट्रे प्रतिमा"
+
+#: ../Tomboy/ActionManager.cs:175
+msgid "Create _New Note"
+msgstr "नयाँ द्रष्टव्य सिर्जना गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:179 ../Tomboy/NoteWindow.cs:349
+msgid "_Search All Notes"
+msgstr "सबै द्रष्टव्यहरू खोजी गर्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:180
+msgid "Open the Search All Notes window"
+msgstr "'सबै द्रष्टव्यहरू सञ्झ्याल खोजी ' खोल्नुहोस्"
+
+#: ../Tomboy/ActionManager.cs:184
+msgid "Start synchronizing notes"
+msgstr "द्रष्टव्यहरू समक्रमण गर्दा सुरुआत गर्नुहोस्"
+
+#: ../Tomboy/Addins/Backlinks/BacklinksNoteAddin.cs:38
+msgid "What links here?"
+msgstr "यहाँ कुन लिङ्क छ?"
+
+#: ../Tomboy/Addins/Backlinks/BacklinksNoteAddin.cs:84
+msgid "(none)"
+msgstr "(कुनै पनि होइन)"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:23
+msgid ""
+"You can use any bugzilla just by dragging links into notes.  If you want a "
+"special icon for certain hosts, add them here."
+msgstr ""
+"तपाईँले द्रष्टव्यहरूमा लिङ्कहरू तानेर कुनै पनि बगजिल्ला प्रयोग गर्न "
+"सक्नुहुन्छ ।  यदि तपाईँ निश्चित होस्टहरूका लागि विशेष प्रतिमा चाहनुहुन्छ "
+"भने, तिनिहरूलाई यहाँ थप्नुहोस् ।"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:41
+msgid "Host Name"
+msgstr "होस्ट नाम"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:58
+msgid "Icon"
+msgstr "प्रतिमा"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:176
+msgid "Select an icon..."
+msgstr "एउटा प्रतिमा चयन गर्नुहोस्..."
+
+#. Extra Widget
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:191
+msgid "_Host name:"
+msgstr "होस्ट नाम:"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:220
+msgid "No host name specified"
+msgstr "कुनै होस्ट नाम निर्दिष्ट गरिएको छैन"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:221
+msgid "You must specify the Bugzilla host name to use with this icon."
+msgstr ""
+"यो प्रतिमासँग प्रयोग गर्नका लागि तपाईँले बगजिल्ला होस्ट नाम निर्दिष्ट "
+"गर्नुपर्दछ ।"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:247
+msgid "Error saving icon"
+msgstr "प्रतिमा बचत गर्दा त्रुटि"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:248
+msgid "Could not save the icon file."
+msgstr ""
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:302
+msgid "Really remove this icon?"
+msgstr "साञ्चै यो प्रतिमा हटाउनुहुन्छ?"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:303
+msgid "If you remove an icon it is permanently lost."
+msgstr "यदि तपाईँले एउटा प्रतिमा हटाउनुभयो भने यो स्थायी रूपमै नष्ट गरिन्छ ।"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:66
+msgid "Export to HTML"
+msgstr "HTML मा निर्यात गर्नुहोस्"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:114
+#, csharp-format
+msgid "Your note was exported to \"{0}\"."
+msgstr "तपाईँको द्रष्टव्य \"{0}\" मा निर्यात गरिएको थियो ।"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:125
+msgid "Note exported successfully"
+msgstr "द्रष्टव्य सफलतापूर्वक निर्यात गरियो"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:131
+msgid "Access denied."
+msgstr "पहुँच अस्वीकार गरियो ।"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:133
+msgid "Folder does not exist."
+msgstr "फोल्डर अवस्थित छैन ।"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:148
+#, csharp-format
+msgid "Could not save the file \"{0}\""
+msgstr "\"{0}\" फाइल बचत गर्न सकेन"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlDialog.cs:13
+msgid "Destination for HTML Export"
+msgstr "HTML निर्यातका लागि गन्तव्य"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlDialog.cs:23
+msgid "Export linked notes"
+msgstr "लिङ्क भएको द्रष्टव्यहरूलाई निर्यात गर्नुहोस्"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlDialog.cs:28
+msgid "Include all other linked notes"
+msgstr "लिङ्क भएको सबै द्रष्टव्यहरूलाई समावेश गर्नुहोस्"
+
+#: ../Tomboy/Addins/Evolution/EvolutionNoteAddin.cs:273
+msgid "Cannot open email"
+msgstr "इमेल खोल्न सकिँदैन"
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:93
+msgid "_Folder Path:"
+msgstr ""
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:100
+msgid "Select Synchronization Folder..."
+msgstr "समक्रमण फोल्डर चयन गर्नुहोस्..."
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:126
+msgid "Folder path field is empty."
+msgstr "फोल्डर मार्ग फाँट खाली छ ।"
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:135
+msgid ""
+"Specified folder path does not exist, and Tomboy was unable to create it."
+msgstr ""
+"निर्दिष्ट गरिएको फोल्डर मार्ग हवस्थित छैन, र टोमव्वाय यो सिर्जना गर्न असक्षम "
+"थियो ।"
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:213
+msgid "Local Folder"
+msgstr "स्थानीय फोल्डर"
+
+#: ../Tomboy/Addins/FixedWidth/FixedWidthMenuItem.cs:13
+msgid "Fixed Wid_th"
+msgstr ""
+
+#: ../Tomboy/Addins/GalagoPresence/GalagoPresenceNoteAddin.cs:244
+#, csharp-format
+msgid "Cannot contact '{0}'"
+msgstr "'{0}' सम्पर्क गर्न सकिँदैन"
+
+#: ../Tomboy/Addins/GalagoPresence/GalagoPresenceNoteAddin.cs:247
+#, csharp-format
+msgid "Error running gaim-remote: {0}"
+msgstr "टाढाको गाइम चलाउँदा त्रुटि: {0}"
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampNoteAddin.cs:29
+msgid "Insert Timestamp"
+msgstr ""
+
+#. initial newline
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:29
+#: ../Tomboy/Applet.cs:221 ../Tomboy/Preferences.cs:146
+msgid "dddd, MMMM d, h:mm tt"
+msgstr "dddd, MMMM d, h:mm tt"
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:54
+msgid "Choose one of the predefined formats or use your own."
+msgstr ""
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:62
+msgid "Use _Selected Format"
+msgstr ""
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:87
+msgid "_Use Custom Format"
+msgstr ""
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:10
+msgid "Today: Template"
+msgstr "आज: टेम्प्लेट"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:12
+msgid "Today: "
+msgstr "आज: "
+
+#. Format: "Today: Friday, July 01 2005"
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:17
+msgid "dddd, MMMM d yyyy"
+msgstr "dddd, MMMM d yyyy"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:43
+msgid "Tasks"
+msgstr "कार्यहरू"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:44
+msgid "Appointments"
+msgstr "भेटघाट"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDayPreferences.cs:16
+msgid ""
+"Change the <span weight=\"bold\">Today: Template</span> note to customize "
+"the text that new Today notes have."
+msgstr ""
+"<span weight=\"bold\"> आज परिवर्तन गर्नुहोस्: आजको द्रष्टव्यमा भएको नयाँ पाठ "
+"अनुकुलन गर्न टेम्प्लेट</span> द्रष्टव्य ।"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDayPreferences.cs:24
+msgid "_Open Today: Template"
+msgstr "आज खोल्नुहोस्: टेम्प्लेट"
+
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:52
+msgid "Print"
+msgstr "मुद्रण गर्नुहोस्"
+
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:82
+msgid "Error printing note"
+msgstr ""
+
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:219
+#, csharp-format
+msgid "Page {0} of {1}"
+msgstr ""
+
+#. Translators: Explanation of the date and time format specifications can be found here:
+#. * http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:238
+msgid "dddd MM/dd/yyyy, hh:mm:ss tt"
+msgstr ""
+
+#: ../Tomboy/Addins/Sketching/SketchingNoteAddin.cs:19
+msgid "Add a sketch"
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:47
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:59
+msgid "Se_rver:"
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:51
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:59
+msgid "User_name:"
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:55
+msgid "_Folder Path (optional):"
+msgstr ""
+
+#. Text for label describing setup required for SSH sync addin to work
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:58
+msgid ""
+"SSH synchronization requires an existing SSH key for this server and user, "
+"added to a running SSH daemon."
+msgstr ""
+"SSH समक्रमणलाई यो सर्भर र प्रयोगकर्ताको लागि एउटा अवस्थित SSH कुञ्जी आवश्यक "
+"छ, चालु SSH डेमोनमा थपियो ।"
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:82
+msgid "Server or username field is empty."
+msgstr "सर्भर वा प्रयोगकर्ता नाम फाँट काली छ ।"
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:130
+msgid "SSH (sshfs FUSE)"
+msgstr "SSH (sshfs FUSE)"
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:179
+msgid ""
+"Timeout connecting to server. Please ensure that your SSH key has been added "
+"to a running SSH daemon."
+msgstr ""
+"टायमआउट सर्भरमा जडान गर्दै । कृपया तपाईँको SSH कुञ्जी चालु SSH डेइमोनमा "
+"थपिएको छ भन्ने निश्चित गर्नुहोस् ।"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:50
+msgid "Import from Sticky Notes"
+msgstr "'स्टिकी नोटहरू'बाट आयात गर्नुहोस्"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:133
+msgid "No Sticky Notes found"
+msgstr "स्टिकी नोटहरू फेला परेन"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:134
+#, csharp-format
+msgid "No suitable Sticky Notes file was found at \"{0}\"."
+msgstr "सुहाउँदो स्टिकीनोट फाइल फेला परेको थिएन \"{0}\" ।"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:143
+msgid "Sticky Notes import completed"
+msgstr "स्टिकी नोट आयात पूरा भयो"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:144
+#, csharp-format
+msgid "<b>{0}</b> of <b>{1}</b> Sticky Notes were successfully imported."
+msgstr "<b>{0}</b> को <b>{1}</b> स्टिकी नोटहरू सफलतापूर्वक आयात गरिएका थिए ।"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:156
+msgid "Untitled"
+msgstr "शीर्षक नभएको"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:185
+msgid "Sticky Note: "
+msgstr "स्टिकी नोट: "
+
+#: ../Tomboy/Addins/Tasque/TasqueNoteAddin.cs:62
+msgid "Tasque"
+msgstr ""
+
+#. Note to translators: "All" here must match up with the "All"
+#. category translation in Tasque for this to work properly.  "All"
+#. is used here to allow Tasque to decide which default category
+#. will be used to create the new task.
+#: ../Tomboy/Addins/Tasque/TasqueNoteAddin.cs:86
+msgid "All"
+msgstr ""
+
+#: ../Tomboy/Addins/Tasque/TasqueNoteAddin.cs:145
+msgid "--- Tasque is not running ---"
+msgstr ""
+
+#: ../Tomboy/Addins/Underline/UnderlineMenuItem.cs:12
+msgid "_Underline"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:55
+msgid "_URL:"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:64
+msgid "_Password:"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:77
+msgid "URL, username, or password field is empty."
+msgstr "URL, प्रयोगकर्ता नाम, वा पासवर्ड फाँट काली छ ।"
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:119
+msgid "WebDAV (wdfs FUSE)"
+msgstr "WebDAV (wdfs FUSE)"
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:178
+msgid ""
+"There was an error connecting to the server.  This may be caused by using an "
+"incorrect user name and/or password."
+msgstr ""
+"सर्भरमा जडान गर्दा त्यहाँ एउटा त्रुटि थियो ।  यो एउटा गलत प्रयोग कर्ता नाम "
+"र/वा पासवर्ड प्रयोग गरेको कारणले हुन सक्दछ ।"
+
+#. TODO: If the above fails (no keyring daemon), save all but password
+#. to GConf, and notify user.
+#. Save configuration into GConf
+#. Preferences.Set ("/apps/tomboy/sync_wdfs_url", url ?? string.Empty);
+#. Preferences.Set ("/apps/tomboy/sync_wdfs_username", username ?? string.Empty);
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:254
+msgid ""
+"Saving configuration to the GNOME keyring failed with the following message:"
+msgstr "निम्न सन्देशसँग जीनोम किरिङमा कन्फिगरेसन बचत गर्न असफल भयो:"
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncServiceAddin.cs:70
+msgid "Tomboy Web"
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:66
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:96
+msgid "Connect to Server"
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:68
+msgid "Connected"
+msgstr ""
+
+#. Translators: The web service supporting Tomboy WebSync is not responding as expected
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:125
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:156
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:170
+msgid "Server not responding. Try again later."
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:201
+msgid "Authorization Failed, Try Again"
+msgstr ""
+
+#. Translators: Title of web page presented to user after they authorized Tomboy for sync
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:210
+msgid "Tomboy Web Authorization Successful"
+msgstr ""
+
+#. Translators: Body of web page presented to user after they authorized Tomboy for sync
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:212
+msgid ""
+"Please return to the Tomboy Preferences window and press Save to start "
+"synchronizing."
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:221
+msgid "Connected. Press Save to start synchronizing"
+msgstr ""
+
+#. Translators: The user must take action in their web browser to continue the authorization process
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:227
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:239
+msgid "Authorizing in browser (Press to reset connection)"
+msgstr ""
+
+#. Translators: Sometimes a user's default browser is not set, so we recommend setting it and trying again
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:235
+msgid "Set the default browser and try again"
+msgstr ""
+
+#. Translators: This is the name of "Window" menu in the Mac menubar
+#: ../Tomboy/MacApplication.cs:215
+msgid "_Window"
+msgstr ""
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:24
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:53
+msgid "Create a new notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:25
+msgid "Type the name of the notebook you'd like to create."
+msgstr ""
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:31
+msgid "N_otebook name:"
+msgstr ""
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:45
+msgid "Name already taken"
+msgstr ""
+
+#. Translation note: This is the Create button in the Create
+#. New Note Dialog.
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:59
+msgid "C_reate"
+msgstr ""
+
+#. The templateNoteTite should show the name of the
+#. notebook.  For example, if the name of the notebooks
+#. "Meetings", the templateNoteTitle should be "Meetings
+#. Notebook Template".  Translators should place the
+#. name of the notebook accordingly using "{0}".
+#. TODO: Figure out how to make this note for
+#. translators appear properly.
+#: ../Tomboy/Notebooks/Notebook.cs:79
+#, csharp-format
+msgid "{0} Notebook Template"
+msgstr ""
+
+#: ../Tomboy/Notebooks/Notebook.cs:183
+msgid "All Notes"
+msgstr ""
+
+#: ../Tomboy/Notebooks/Notebook.cs:215
+msgid "Unfiled Notes"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:48
+msgid "Note_books"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:49
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:69
+msgid "Create a new note in a notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:52
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:223
+msgid "New Note_book..."
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:56
+msgid "_New Note"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:57
+msgid "Create a new note in this notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:60
+msgid "_Open Template Note"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:61
+msgid "Open this notebook's template note"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:64
+msgid "Delete Note_book"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:65
+msgid "Delete the selected notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:68
+#: ../Tomboy/RecentChanges.cs:251
+msgid "Notebooks"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookManager.cs:356
+msgid "Really delete this notebook?"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookManager.cs:358
+msgid ""
+"The notes that belong to this notebook will not be deleted, but they will no "
+"longer be associated with this notebook.  This action cannot be undone."
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookMenuItem.cs:14
+msgid "No notebook"
+msgstr ""
+
+#. Translators should preserve the "{0}" in the following
+#. string.  After being formatted for a notebook named,
+#. "Meetings", for example, the resultant string would be:
+#. New "Meetings" Note
+#: ../Tomboy/Notebooks/NotebookNewNoteMenuItem.cs:27
+#, csharp-format
+msgid "New \"{0}\" Note"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookNoteAddin.cs:46
+msgid "Place this note into a notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookNoteAddin.cs:127
+msgid "Notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookNoteAddin.cs:156
+msgid "_New notebook..."
+msgstr ""
+
+#: ../Tomboy/Note.cs:1569
+msgid "Really delete this note?"
+msgstr "साञ्चै यो द्रष्टव्य मेट्नुहुन्छ?"
+
+#: ../Tomboy/Note.cs:1572
+#, csharp-format
+msgid "Really delete this {0} note?"
+msgid_plural "Really delete these {0} notes?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Note.cs:1583
+msgid "If you delete a note it is permanently lost."
+msgstr ""
+"यदि तपाईँले एउटा द्रष्टव्य मेट्नुभयो भने यो स्थायी रूपमै नष्ट हुन्छ ।"
+
+#: ../Tomboy/Note.cs:1611
+#, csharp-format
+msgid ""
+"An error occurred while saving your notes. Please check that you have "
+"sufficient disk space, and that you have appropriate rights on {0}. Error "
+"details can be found in {0}."
+msgstr ""
+
+#: ../Tomboy/Note.cs:1627
+msgid "Error saving note data."
+msgstr ""
+
+#. New Note Template
+#. Translators: This is 'New Note' Template, not New 'Note Template'
+#: ../Tomboy/NoteManager.cs:21 ../Tomboy/PreferencesDialog.cs:256
+msgid "New Note Template"
+msgstr ""
+
+#. Create migration notification note
+#. Translators: The title of the data migration note
+#: ../Tomboy/NoteManager.cs:147
+msgid "Your Notes Have Moved!"
+msgstr ""
+
+#. Translators: The contents (not including the title) of the data migration note. {0}, {1}, {2}, {3}, and {4} are replaced by directory paths and should not be changed
+#: ../Tomboy/NoteManager.cs:160
+#, csharp-format
+msgid ""
+"In the latest version of Tomboy, your note files have moved.  You have "
+"probably never cared where your notes are stored, and if you still don't "
+"care, please go ahead and <bold>delete this note</bold>.  :-)\n"
+"\n"
+"Your old note directory is still safe and sound at <link:url>{0}</link:url> "
+". If you go back to an older version of Tomboy, it will look for notes "
+"there.\n"
+"\n"
+"But we've copied your notes and configuration info into new directories, "
+"which will be used from now on:\n"
+"\n"
+"<list><list-item dir=\"ltr\">Notes can now be found at "
+"<link:url>{1}</link:url>\n"
+"</list-item><list-item dir=\"ltr\">Configuration is at "
+"<link:url>{2}</link:url>\n"
+"</list-item><list-item dir=\"ltr\">You can install add-ins at "
+"<link:url>{3}</link:url>\n"
+"</list-item><list-item dir=\"ltr\">Log files can be found at "
+"<link:url>{4}</link:url></list-item></list>\n"
+"\n"
+"Ciao!"
+msgstr ""
+
+#: ../Tomboy/NoteManager.cs:259
+msgid ""
+"<note-content>Start Here\n"
+"\n"
+"<bold>Welcome to Tomboy!</bold>\n"
+"\n"
+"Use this \"Start Here\" note to begin organizing your ideas and thoughts.\n"
+"\n"
+"You can create new notes to hold your ideas by selecting the \"Create New "
+"Note\" item from the Tomboy Notes menu in your GNOME Panel. Your note will "
+"be saved automatically.\n"
+"\n"
+"Then organize the notes you create by linking related notes and ideas "
+"together!\n"
+"\n"
+"We've created a note called <link:internal>Using Links in "
+"Tomboy</link:internal>.  Notice how each time we type <link:internal>Using "
+"Links in Tomboy</link:internal> it automatically gets underlined?  Click on "
+"the link to open the note.</note-content>"
+msgstr ""
+"<note-content>यहाँ सुरु गर्नुहोस्\n"
+"\n"
+"<bold>टोमव्वायलाई स्वागत छ!</bold>\n"
+"\n"
+"तपाईँको विचार र सोँचाइहरू संगठित गर्न थालनी गर्नलाई यो \"यहाँ सुरु "
+"गर्नुहोस्\" द्रष्टव्य प्रयोग गर्नुहोस् ।\n"
+"\n"
+"तपाईँले तपाईँको विचारहरू लिनका लागि जीनोम प्यानल भित्र टोमव्वाय द्रष्टव्य "
+"मेनुबाट \"नयाँ द्रष्टव्य सिर्जना गर्नुहोस्\" वस्तु चयन गरेर नयाँ "
+"द्रष्टव्यहरू सिर्जना गर्न सक्नुहुन्छ । तपाईँको द्रष्टव्य स्वाचालित रूपले बचत "
+"हुनेछ ।\n"
+"\n"
+"त्यसपछि तपाईँले सम्बन्धित द्रष्टव्यहरू र विचारहरू सँगै लिङ्क गरेर सिर्जना "
+"गर्नु भएको द्रष्टव्यहरू संगठित गर्नुहोस्!\n"
+"\n"
+"हामीले टोमव्वायमा लिङ्कहरू प्रयोग गरेर <link:internal> भनिने एउटा द्रष्टव्य "
+"सिर्जना गरेका छौं</link:internal>.  टोमव्वायमा लिङ्कहरू प्रयोग गरेर "
+"<link:internal> प्रत्येक पटक हामीले कसरी टाइप गर्छौं सूचीत "
+"गर्नुहोस्</link:internal> यसले स्वाचालित रूपले अधोरेखित हुनेछ?  द्रष्टव्य "
+"खोल्नका लागि लिङ्कमा क्लिक गर्नुहोस् ।</note-content>"
+
+#: ../Tomboy/NoteManager.cs:278
+msgid ""
+"<note-content>Using Links in Tomboy\n"
+"\n"
+"Notes in Tomboy can be linked together by highlighting text in the current "
+"note and clicking the <bold>Link</bold> button above in the toolbar.  Doing "
+"so will create a new note and also underline the note's title in the current "
+"note.\n"
+"\n"
+"Changing the title of a note will update links present in other notes.  This "
+"prevents broken links from occurring when a note is renamed.\n"
+"\n"
+"Also, if you type the name of another note in your current note, it will "
+"automatically be linked for you.</note-content>"
+msgstr ""
+"<note-content>टोमव्वायमा लिङ्कहरू प्रयोग गरेर\n"
+"\n"
+"हालको द्रष्टव्यमा पाठ हाइलाइट गरेर र माथिका उपकरणपट्टीमा <bold>लिङ्क</bold> "
+"बटन क्लिक गरेर टोमव्वायमा भएका द्रष्टव्यहरू सँगै लिङ्क गर्न सकिन्छ ।  त्यसो "
+"गर्नाले  एउटा नयाँ द्रष्टव्य सिर्जना गर्नेछ र हालको द्रष्टव्यमा "
+"द्रष्टव्यहरूको शिर्षकलाई पनि अधोरेखा गर्नेछ ।\n"
+"\n"
+"द्रष्टव्यको शिर्षक परिवर्तन गर्नाले अन्य द्रष्टव्यहरूमा प्रस्तुत लिङ्कहरूलाई "
+"अद्यावधिक गर्नेछ ।  यसले द्रष्टव्य पुन: नामाकरण गर्दा विच्छेदन भएका लिङ्कहरू "
+"देखा पर्नबाट रोक्दछ ।\n"
+"\n"
+"तथा, यदि तपाईँले हालको द्रष्टव्यमा अर्को द्रष्टव्यको नाम टाइप गर्नु भएमा, यो "
+"तपाईँका लागि स्वाचालित रूपले लिङ्क गरिनेछ ।</note-content>"
+
+#. Attempt to find an existing Start Here note
+#: ../Tomboy/NoteManager.cs:293 ../Tomboy/NoteManager.cs:361
+msgid "Start Here"
+msgstr "यहाँ सुरु गर्नुहोस्"
+
+#: ../Tomboy/NoteManager.cs:298
+msgid "Using Links in Tomboy"
+msgstr "टोमव्वायमा भएका लिङ्कहरू प्रयोग गर्दै"
+
+#: ../Tomboy/NoteManager.cs:438
+#, csharp-format
+msgid "New Note {0}"
+msgstr "नयाँ द्रष्टव्य {0}"
+
+#. Use a simple "Describe..." body and highlight
+#. it so it can be easily overwritten
+#: ../Tomboy/NoteManager.cs:511 ../Tomboy/NoteManager.cs:603
+msgid "Describe your new note here."
+msgstr "तपाईँको नयाँ द्रष्टव्य यहाँ वर्णन गर्नुहोस् ।"
+
+#: ../Tomboy/NoteRenameDialog.cs:50
+msgid "Rename Note Links?"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:56
+msgid "_Rename Links"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:59
+msgid "_Don't Rename Links"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:67
+#, csharp-format
+msgid ""
+"Rename links in other notes from \"<span underline=\"single\">{0}</span>\" "
+"to \"<span underline=\"single\">{1}</span>\"?\n"
+"\n"
+"If you do not rename the links, they will no longer link to anything."
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:81
+msgid "Rename Links"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:93
+#: ../Tomboy/Synchronization/SyncDialog.cs:119
+msgid "Note Title"
+msgstr "द्रष्टव्य शीर्षक"
+
+#: ../Tomboy/NoteRenameDialog.cs:115
+msgid "Select All"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:123
+msgid "Select None"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:140
+msgid "Ad_vanced"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:143
+msgid "Always show this _window"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:151
+msgid "Never rename _links"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:159
+msgid "Alwa_ys rename links"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:58
+msgid "Find in This Note"
+msgstr "यो द्रष्टव्यमा फेला पार्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:361
+msgid "_Link to New Note"
+msgstr "नयाँ द्रष्टव्यमा लिङ्क गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:373
+msgid "Te_xt"
+msgstr "पाठ"
+
+#: ../Tomboy/NoteWindow.cs:381
+msgid "_Find in This Note"
+msgstr "यो द्रष्टव्यमा फेला पार्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:396
+msgid "Clos_e All Notes"
+msgstr "सबै द्रष्टव्यहरू बन्द गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:436
+msgid "Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:439
+msgid "Search your notes (Ctrl-Shift-F)"
+msgstr "तपाईँको द्रष्टव्यहरू खोजी गर्नुहोस् (Ctrl-Shift-F)"
+
+#: ../Tomboy/NoteWindow.cs:451
+msgid "Link"
+msgstr "लिङ्क गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:457
+msgid "Link selected text to a new note (Ctrl-L)"
+msgstr "चयन गरिएको पाठलाई एउटा नयाँ द्रष्टव्यमा लिङ्क गर्नुहोस् (Ctrl-L)"
+
+#: ../Tomboy/NoteWindow.cs:470
+msgid "_Text"
+msgstr "पाठ"
+
+#: ../Tomboy/NoteWindow.cs:475
+msgid "Set properties of text"
+msgstr "पाठको गुणहरू सेट गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:480
+msgid "T_ools"
+msgstr "उपकरणहरू"
+
+#: ../Tomboy/NoteWindow.cs:484
+msgid "Use tools on this note"
+msgstr "यो द्रष्टव्यमा उपकरणहरू लप्रयोग गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:492
+msgid "Delete this note"
+msgstr "यो द्रष्टव्य मेट्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:500 ../Tomboy/Synchronization/SyncManager.cs:163
+msgid "Synchronize Notes"
+msgstr "द्रष्टव्यहरू समक्रमण गर्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:562
+msgid "_Find..."
+msgstr "फेला पार्नुहोस्..."
+
+#: ../Tomboy/NoteWindow.cs:573
+msgid "Find _Next"
+msgstr "पछिल्लो फेला पार्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:586
+msgid "Find _Previous"
+msgstr "अघिल्लो फेला पार्नुहोस्"
+
+#: ../Tomboy/NoteWindow.cs:674
+msgid "Cannot create note"
+msgstr "द्रष्टव्य सिर्जना गर्न सकिँदैन"
+
+#: ../Tomboy/NoteWindow.cs:755
+msgid "_Find:"
+msgstr "फेला पार्नुहोस्:"
+
+#: ../Tomboy/NoteWindow.cs:766
+msgid "_Previous"
+msgstr "अघिल्लो"
+
+#: ../Tomboy/NoteWindow.cs:775
+msgid "_Next"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:1258
+msgid "_Bold"
+msgstr "बाक्लो"
+
+#: ../Tomboy/NoteWindow.cs:1270
+msgid "_Italic"
+msgstr "छड्के"
+
+#: ../Tomboy/NoteWindow.cs:1282
+msgid "_Strikeout"
+msgstr "स्ट्राइकआउट"
+
+#: ../Tomboy/NoteWindow.cs:1294
+msgid "_Highlight"
+msgstr "हाइलाइट"
+
+#: ../Tomboy/NoteWindow.cs:1307
+msgid "Font Size"
+msgstr "फन्ट साइज"
+
+#: ../Tomboy/NoteWindow.cs:1310
+msgid "_Normal"
+msgstr "सामान्य"
+
+#: ../Tomboy/NoteWindow.cs:1327
+msgid "Hu_ge"
+msgstr "विशाल"
+
+#: ../Tomboy/NoteWindow.cs:1335
+msgid "_Large"
+msgstr "ठूलो"
+
+#: ../Tomboy/NoteWindow.cs:1343
+msgid "S_mall"
+msgstr "सानो"
+
+#: ../Tomboy/NoteWindow.cs:1352
+msgid "Increase Font Size"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:1370
+msgid "Decrease Font Size"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:1390
+msgid "Bullets"
+msgstr "गोली चिन्हहरू"
+
+#: ../Tomboy/PreferencesDialog.cs:81
+msgid "Editing"
+msgstr "सम्पादन गर्दै"
+
+#: ../Tomboy/PreferencesDialog.cs:84
+msgid "Hotkeys"
+msgstr "हटकिहरू"
+
+#: ../Tomboy/PreferencesDialog.cs:86
+msgid "Synchronization"
+msgstr "समक्रमण"
+
+#: ../Tomboy/PreferencesDialog.cs:88
+msgid "Add-ins"
+msgstr "एष-इन"
+
+#: ../Tomboy/PreferencesDialog.cs:173
+msgid "_Spell check while typing"
+msgstr "टाइप गर्दा हिज्जेजाँच गर्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:182
+msgid ""
+"Misspellings will be underlined in red, with correct spelling suggestions "
+"shown in the context menu."
+msgstr ""
+"गलत हिज्जेहरु रातोमा अधोरेखा गरिनेछ, र सही हिज्जे सुझावहरू प्रसङ्ग मेनुमा "
+"देखाइनेछ ।"
+
+#. WikiWords...
+#: ../Tomboy/PreferencesDialog.cs:193
+msgid "Highlight _WikiWords"
+msgstr "विकि शब्दहरू हाइलाइट गर्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:201
+msgid ""
+"Enable this option to highlight words <b>ThatLookLikeThis</b>. Clicking the "
+"word will create a note with that name."
+msgstr ""
+"शब्दहरू हाइलाइट गर्नको लागि यो विकल्प सक्षम पार्नुहोस <b>जुन यस्तो "
+"देखिन्छ</b> । शब्द क्लिक गर्नाले त्यो नामको एउटा द्रष्टव्य सिर्जना गर्नेछ ।"
+
+#. Auto bulleted list
+#: ../Tomboy/PreferencesDialog.cs:208
+msgid "Enable auto-_bulleted lists"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:217
+msgid "Use custom _font"
+msgstr "अनुकुलन फन्ट प्रयोग गर्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:235
+msgid "When renaming a linked note: "
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:238
+msgid "Ask me what to do"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:239
+msgid "Never rename links"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:240
+msgid "Always rename links"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:260
+msgid ""
+"Use the new note template to specify the text that should be used when "
+"creating a new note."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:269
+msgid "Open New Note Template"
+msgstr ""
+
+#. Hotkeys...
+#: ../Tomboy/PreferencesDialog.cs:326
+msgid "Listen for _Hotkeys"
+msgstr "हटकिहरूको लागि सुन्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:335
+msgid ""
+"Hotkeys allow you to quickly access your notes from anywhere with a "
+"keypress. Example Hotkeys: <b>&lt;Control&gt;&lt;Shift&gt;F11</b>, "
+"<b>&lt;Alt&gt;N</b>"
+msgstr ""
+"हटकिहरूले एउटा कुञ्जि थिचाइसँग जहाँबाट पनि तपाईँको द्रष्टव्यहरूमा तुरून्त "
+"पहुँच प्राप्त गर्न तपाईँलाई अनुमति दिन्छ । उदाहरण हटकहरू: "
+"<b>&lt;Control&gt;&lt;Shift&gt;F11</b>, <b>&lt;Alt&gt;N</b>"
+
+#. Show notes menu keybinding...
+#: ../Tomboy/PreferencesDialog.cs:355
+msgid "Show notes _menu"
+msgstr "द्रष्टव्य मेनु देखाउनुहोस्"
+
+#. Open Start Here keybinding...
+#: ../Tomboy/PreferencesDialog.cs:372
+msgid "Open \"_Start Here\""
+msgstr "\"यहाँ सुरु गर्नुहोस्\" खोल्नुहोस्"
+
+#. Create new note keybinding...
+#: ../Tomboy/PreferencesDialog.cs:389
+msgid "Create _new note"
+msgstr "नयाँ द्रष्टव्य सिर्जना गर्नुहोस्"
+
+#. Open Search All Notes window keybinding...
+#: ../Tomboy/PreferencesDialog.cs:406
+msgid "Open \"Search _All Notes\""
+msgstr "\"सबै द्रष्टव्यहरू खोजी गर्नुहोस्\" खोल्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:433
+msgid "Ser_vice:"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:486 ../Tomboy/PreferencesDialog.cs:1114
+msgid "Not configurable"
+msgstr "कन्फिगरयोग्य छैन"
+
+#: ../Tomboy/PreferencesDialog.cs:512
+msgid "Automaticall_y Sync in Background Every"
+msgstr ""
+
+#. Translators: See above comment for details on
+#. this string.
+#: ../Tomboy/PreferencesDialog.cs:518
+msgid "Minutes"
+msgstr ""
+
+#. "Advanced..." button to bring up extra sync config dialog
+#: ../Tomboy/PreferencesDialog.cs:541
+msgid "_Advanced..."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:602
+msgid "The following add-ins are installed"
+msgstr "निम्न एड-इनहरू स्थापना गरिएका छन्"
+
+#: ../Tomboy/PreferencesDialog.cs:623
+msgid "Get More Add-Ins..."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:649
+msgid "_Enable"
+msgstr "सक्षम पार्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:655
+msgid "_Disable"
+msgstr "अक्षम पार्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:786
+msgid "Not Implemented"
+msgstr "कार्यान्वयन गरिएको छैन"
+
+#: ../Tomboy/PreferencesDialog.cs:800
+#, csharp-format
+msgid "{0} Preferences"
+msgstr "{0} प्राथमिकताहरू"
+
+#: ../Tomboy/PreferencesDialog.cs:939
+msgid "Choose Note Font"
+msgstr "द्रष्टव्य फन्ट रोज्नुहोस्"
+
+#: ../Tomboy/PreferencesDialog.cs:983
+msgid "Other Synchronization Options"
+msgstr "अन्य समक्रमण विकल्पहरू"
+
+#: ../Tomboy/PreferencesDialog.cs:989
+msgid ""
+"When a conflict is detected between a local note and a note on the "
+"configured synchronization server:"
+msgstr ""
+"जब स्थानीय द्रष्टव्य र कन्फिगर गरिएको समक्रमण सर्भरमा भएको द्रष्टव्य बींच "
+"एउटा द्वन्द्व पत्ता लगाइन्छ:"
+
+#: ../Tomboy/PreferencesDialog.cs:996
+msgid "Always ask me what to do."
+msgstr "के गर्ने भनेर सधैँ मलाई सोध्नुहोस् ।"
+
+#: ../Tomboy/PreferencesDialog.cs:1000
+msgid "Rename my local note."
+msgstr "मेरो स्थानीय द्रष्टव्यको पुन: नामाकरण गर्नुहोस् ।"
+
+#: ../Tomboy/PreferencesDialog.cs:1004
+msgid "Replace my local note with the server's update."
+msgstr "सर्भरको अद्यावधिकले मेरो स्थानीय द्रष्टव्य प्रतिस्थापन गर्नुहोस् ।"
+
+#: ../Tomboy/PreferencesDialog.cs:1150
+msgid "WARNING: Are you sure?"
+msgstr "चेतावनी: तपाईँ निश्चित हुनुहुन्छ?"
+
+#: ../Tomboy/PreferencesDialog.cs:1152
+msgid ""
+"Clearing your synchronization settings is not recommended.  You may be "
+"forced to synchronize all of your notes again when you save new settings."
+msgstr ""
+"तपाईँको समक्रमण सेटिङहरू खाली गर्न सिफारिस गरिँदैन ।  तपाईँले नयाँ सेटिङहरू "
+"बचत गर्दा तपाईँका सबै द्रष्टव्यहरू फेरि समक्रमण गर्न तपाईँलाई बल गर्न सक्दछ ।"
+
+#: ../Tomboy/PreferencesDialog.cs:1165
+msgid "Resetting Synchronization Settings"
+msgstr "समक्रमण सेटिङहरू पुन: सेटिङ गर्दै"
+
+#: ../Tomboy/PreferencesDialog.cs:1167
+msgid ""
+"You have disabled the configured synchronization service.  Your "
+"synchronization settings will now be cleared.  You may be forced to "
+"synchronize all of your notes again when you save new settings"
+msgstr ""
+"तपाईँले कन्फिगर गरिएको समक्रमण सेवा असक्षम पार्नु भएको छ ।  तपाईँको समक्रमण "
+"सेटिङहरू अब खाली गरिनेछ ।  तपाईँले नयाँ सेटिङहरू बचत गर्दा तपाईँका सबै "
+"सेटिङहरू फेरि समक्रमण गर्न तपाईँलाई बल गर्न सक्दछ ।"
+
+#: ../Tomboy/PreferencesDialog.cs:1245
+msgid "Success! You're connected!"
+msgstr "सफल! तपाईँ जडान हुनुभयो!"
+
+#: ../Tomboy/PreferencesDialog.cs:1247
+msgid ""
+"Tomboy is ready to synchronize your notes. Would you like to synchronize "
+"them now?"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1270
+#, csharp-format
+msgid ""
+"Sorry, but something went wrong.  Please check your information and try "
+"again.  The {0} might be useful too."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1283
+msgid "Error connecting :("
+msgstr "जडान गर्द त्रुटि :("
+
+#: ../Tomboy/PreferencesDialog.cs:1359
+msgid "Version:"
+msgstr "संस्करण:"
+
+#: ../Tomboy/PreferencesDialog.cs:1366
+msgid "Author:"
+msgstr "लेखक:"
+
+#: ../Tomboy/PreferencesDialog.cs:1373
+msgid "Copyright:"
+msgstr "प्रतिलिपि अधिकार:"
+
+#: ../Tomboy/PreferencesDialog.cs:1379
+msgid "Add-in Dependencies:"
+msgstr "एड-इन परा निर्भरता:"
+
+#: ../Tomboy/RecentChanges.cs:75
+msgid "Search All Notes"
+msgstr "सबै द्रष्टव्यहरू खोजी गर्नुहोस्"
+
+#: ../Tomboy/RecentChanges.cs:90
+msgid "_Search:"
+msgstr "खोजी गर्नुहोस्:"
+
+#: ../Tomboy/RecentChanges.cs:319
+msgid "Note"
+msgstr "द्रष्टव्य"
+
+#: ../Tomboy/RecentChanges.cs:341
+msgid "Last Changed"
+msgstr "अन्तिम परिवर्तित"
+
+#: ../Tomboy/RecentChanges.cs:472
+msgid "Matches"
+msgstr "मिल्दछ"
+
+#: ../Tomboy/RecentChanges.cs:523
+#, csharp-format
+msgid "{0} match"
+msgid_plural "{0} matches"
+msgstr[0] "{0} जोडा"
+msgstr[1] "({0} जोडाहरू"
+
+#: ../Tomboy/RecentChanges.cs:537
+#, csharp-format
+msgid "Total: {0} note"
+msgid_plural "Total: {0} notes"
+msgstr[0] "जम्मा: {0} द्रष्टव्य"
+msgstr[1] "जम्मा: {0} द्रष्टव्य"
+
+#: ../Tomboy/RecentChanges.cs:548
+#, csharp-format
+msgid "Matches: {0} note"
+msgid_plural "Matches: {0} notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/RecentChanges.cs:680
+msgid "Notes"
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:266
+msgid "Cannot create new note"
+msgstr "नयाँ द्रष्टव्य सिर्जना गर्न सकिँदैन"
+
+#: ../Tomboy/Tomboy.cs:332
+msgid "Primary Development:"
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:338
+msgid "Contributors:"
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:400
+msgid "translator-credits"
+msgstr "Narayan Kumar Magar <narayan@mpp.org.np>"
+
+#: ../Tomboy/Tomboy.cs:409
+msgid ""
+"Copyright © 2004-2007 Alex Graveley\n"
+"Copyright © 2004-2009 Others\n"
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:411
+msgid "A simple and easy to use desktop note-taking application."
+msgstr ""
+"एउटा सरल र प्रयोग गर्नको लागि सजिलो डेस्कटप द्रष्टव्य-प्रापक अनुप्रयोग ।"
+
+#: ../Tomboy/Tomboy.cs:421
+msgid "Homepage"
+msgstr "गृह पृष्ठ"
+
+#: ../Tomboy/Tomboy.cs:533
+msgid ""
+"Tomboy: A simple, easy to use desktop note-taking application.\n"
+"Copyright (C) 2004-2006 Alex Graveley <alex@beatniksoftware.com>\n"
+"\n"
+msgstr ""
+"टमब्वाय: एउटा सरल, प्रयोग गर्न सजिलो डेस्कटप द्रष्टव्य-प्रापक अनुप्रयोग ।\n"
+"प्रतिलिपि अधिकार (C) २००४, २००५ एलेक्स ग्राभ्ले <alex@beatniksoftware.com>\n"
+"\n"
+
+#: ../Tomboy/Tomboy.cs:545
+msgid ""
+"Usage:\n"
+"  --version\t\t\tPrint version information.\n"
+"  --help\t\t\tPrint this usage message.\n"
+"  --note-path [path]\t\tLoad/store note data in this directory.\n"
+"  --search [text]\t\tOpen the search all notes window with the search text.\n"
+msgstr ""
+"उपयोग:\n"
+"  --संस्करण\t\t\tसंस्करण सूचना मुद्रण गर्नुहोस् ।\n"
+"  --मद्दत\t\t\tयो उपयोग सन्देश मुद्रण गर्नुहोस् ।\n"
+"  --द्रष्टव्य-मार्ग [मार्ग]\t\tयो डाइरेक्टरीमा द्रष्टव्य डेटा लोड/भण्डारण "
+"गर्नुहोस् ।\n"
+"  --खोजी [पाठ]\t\tखोजी पाठसँग सबै द्रष्टव्यहरू सञ्झ्याल खोजी खोल्नुहोस् ।\n"
+
+#: ../Tomboy/Tomboy.cs:555
+msgid ""
+"  --new-note\t\t\tCreate and display a new note.\n"
+"  --new-note [title]\t\tCreate and display a new note, with a title.\n"
+"  --open-note [title/url]\tDisplay the existing note matching title.\n"
+"  --start-here\t\t\tDisplay the 'Start Here' note.\n"
+"  --highlight-search [text]\tSearch and highlight text in the opened note.\n"
+msgstr ""
+"  --नयाँ-द्रष्टव्य\t\t\tएउटा नयाँ द्रष्टव्य सिर्जना गर्नुहोस् र प्रदर्शन "
+"गर्नुहोस् ।\n"
+"  --नयाँ-द्रष्टव्य [शिर्षक]\t\tएउटा शिर्षकसहित एउटा नयाँ द्रष्टव्य सिर्जना "
+"गर्नुहोस् र प्रदर्शन गर्नुहोस् ।\n"
+"  --खुला-द्रष्टव्य [शिर्षक/url]\tशिर्षक मिल्दो अवस्थित द्रष्टव्य प्रदर्शन "
+"गर्नुहोस् ।\n"
+"  --सुरु-यहाँ\t\t\t'यहाँ सुरु गर्नुहोस्' द्रष्टव्य प्रदर्शन गर्नुहोस् ।\n"
+"  --हाइलाइट-खोजी [पाठ]\tखुला रहेको द्रष्टव्यमा पाट खोजी गर्नुहोस् र हाइलाइटौ "
+"गर्नुहोस् ।\n"
+
+#: ../Tomboy/Tomboy.cs:569
+#, csharp-format
+msgid "Version {0}"
+msgstr "संस्करण {0}"
+
+#: ../Tomboy/Tray.cs:69
+msgid " (new)"
+msgstr " (नयाँ)"
+
+#: ../Tomboy/Tray.cs:283
+msgid "_About Tomboy"
+msgstr "टोमव्वायको बारेमा"
+
+#: ../Tomboy/Utils.cs:143
+msgid ""
+"The \"Tomboy Notes Manual\" could not be found.  Please verify that your "
+"installation has been completed successfully."
+msgstr ""
+"\"टोमव्वाय द्रष्टव्य म्यानुअल\" फेला पार्न सकिएन ।  कृपया तपाईँको जडान "
+"सफलतापूर्वक पूरा भएको रुजु गर्नुहोस् ।"
+
+#: ../Tomboy/Utils.cs:152
+msgid "Help not found"
+msgstr "मद्दत फेला परेन"
+
+#: ../Tomboy/Utils.cs:168
+msgid "Cannot open location"
+msgstr "स्थान खोल्न सक्दैन"
+
+#: ../Tomboy/Utils.cs:190
+#, csharp-format
+msgid "Today, {0}"
+msgstr "आज, {0}"
+
+#: ../Tomboy/Utils.cs:192
+msgid "Today"
+msgstr "आज"
+
+#: ../Tomboy/Utils.cs:196
+#, csharp-format
+msgid "Yesterday, {0}"
+msgstr "हिजो, {0}"
+
+#: ../Tomboy/Utils.cs:198
+msgid "Yesterday"
+msgstr "हिजो"
+
+#: ../Tomboy/Utils.cs:203
+#, csharp-format
+msgid "{0} day ago, {1}"
+msgid_plural "{0} days ago, {1}"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Utils.cs:207
+#, csharp-format
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Utils.cs:213
+#, csharp-format
+msgid "Tomorrow, {0}"
+msgstr "भोली, {0}"
+
+#: ../Tomboy/Utils.cs:215
+msgid "Tomorrow"
+msgstr "भोली"
+
+#: ../Tomboy/Utils.cs:220
+#, csharp-format
+msgid "In {0} day, {1}"
+msgid_plural "In {0} days, {1}"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Utils.cs:224
+#, csharp-format
+msgid "In {0} day"
+msgid_plural "In {0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Utils.cs:229
+msgid "MMMM d, h:mm tt"
+msgstr "MMMM d, h:mm tt"
+
+#: ../Tomboy/Utils.cs:230
+msgid "MMMM d"
+msgstr "MMMM d"
+
+#: ../Tomboy/Utils.cs:232
+msgid "No Date"
+msgstr "मिति छैन"
+
+#: ../Tomboy/Utils.cs:235
+msgid "MMMM d yyyy, h:mm tt"
+msgstr "MMMM d yyyy, h:mm tt"
+
+#: ../Tomboy/Utils.cs:236
+msgid "MMMM d yyyy"
+msgstr "MMMM d yyyy"
+
+#: ../Tomboy/Watchers.cs:155
+#, csharp-format
+msgid "(Untitled {0})"
+msgstr "(शीर्षक नभएको {0})"
+
+#: ../Tomboy/Watchers.cs:189
+#, csharp-format
+msgid ""
+"A note with the title <b>{0}</b> already exists. Please choose another name "
+"for this note before continuing."
+msgstr ""
+"शीर्षक <b>{0}</b> सहितको एउटा द्रष्टव्य पहिल्यै अवस्थित छ । कृपया निरन्तरता "
+"दिनु अगाडि यो द्रष्टव्यको लागि अर्को नाम रोज्नुहोस्"
+
+#: ../Tomboy/Watchers.cs:204
+msgid "Note title taken"
+msgstr "द्रष्टव्य शीर्षक लिइएको"
+
+#: ../Tomboy/Watchers.cs:549
+msgid "_Copy Link Address"
+msgstr "लिङ्क ठेगाना प्रतिलिपि गर्नुहोस्"
+
+#: ../Tomboy/Watchers.cs:554
+msgid "_Open Link"
+msgstr "लिङ्क खोल्नुहोस्"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:94
+#, csharp-format
+msgid ""
+"This synchronization addin is not supported on your computer. Please make "
+"sure you have FUSE and {0} correctly installed and configured"
+msgstr ""
+"यो समक्रमण एड-इन तपाईँको क्म्प्युटरमा समर्थित छैन । कृपया तपाईँसँग FUSE भएको "
+"र {0} सही तरिकाले जडान भएको तथा कन्फिगर गरिएको निश्चित गर्नुहोस्"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:129
+msgid "Could not read testfile."
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:132
+msgid "Write test failed."
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:176
+msgid "Timeout connecting to server."
+msgstr "टाइमआउट सर्भरमा जडान गर्दै ।"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:184
+msgid "Error connecting to server."
+msgstr "सर्भरमा जडान गर्दा त्रुटि ।"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:198
+msgid "FUSE could not be enabled."
+msgstr "FUSE सक्षम पार्न सकिएन ।"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:233
+msgid "An error ocurred while connecting to the specified server:"
+msgstr "निर्दिष्ट गरिएको सर्भरमा जडान गर्दा एउटा त्रुटि देखा पर्यो:"
+
+#. Expander containing TreeView
+#: ../Tomboy/Synchronization/SyncDialog.cs:89
+msgid "Details"
+msgstr "विस्तृत विवरणहरू"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:126
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:236
+msgid "Acquiring sync lock..."
+msgstr "समक्रमण ताल्चा प्राप्त गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:239
+msgid "Committing changes..."
+msgstr "परिवर्तनहरू कमित गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:242
+msgid "Synchronizing Notes"
+msgstr "द्रष्टव्यहरू समक्रमण गर्दै"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:243
+msgid "Synchronizing your notes..."
+msgstr "तपाईँको द्रष्टव्यहरू समक्रमण गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:244
+msgid "This may take a while, kick back and enjoy!"
+msgstr "यसले केहि क्षण समय लिन सक्दछ, पछाडि फाल्नुहोस् र रमाउनुहोस्!"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:246
+msgid "Connecting to the server..."
+msgstr "सर्भरमा जडान गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:252
+msgid "Deleting notes off of the server..."
+msgstr "सर्भरको द्रष्टव्यहरू मेट्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:256
+msgid "Downloading new/updated notes..."
+msgstr "नयाँ/अद्यावधिक गरिएको द्रष्टव्यहरू डाउनलोड गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:268
+msgid "Server Locked"
+msgstr "सर्भर ताल्चा लगाइयो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:269
+msgid "Server is locked"
+msgstr "सर्भर ताल्चा लगाइएको छ"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:270
+msgid ""
+"One of your other computers is currently synchronizing.  Please wait 2 "
+"minutes and try again."
+msgstr ""
+"तपाईँको अन्य कम्प्युटरहरू मध्ये एउटा हाल समक्रमण गरिरहेको छ ।  कृपया २ मिनट "
+"प्रतिक्षा गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:274
+msgid "Preparing to download updates from server..."
+msgstr "सर्भरबाट अद्यावधिकहरू डाउनलोड गर्न तायरी गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:277
+msgid "Preparing to upload updates to server..."
+msgstr "सर्भरमा अद्यावधिकहरू अपलोड गर्न तयारी गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:280
+msgid "Uploading notes to server..."
+msgstr "सर्भरमा द्रष्टव्यहरू अपलोड गर्दैछ..."
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:283
+msgid "Synchronization Failed"
+msgstr "समक्रमण असफल भयो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:284
+msgid "Failed to synchronize"
+msgstr "समक्रमण गर्न असफल भयो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:285
+msgid "Could not synchronize notes.  Check the details below and try again."
+msgstr ""
+"द्रष्टव्यहरू समक्रमण गर्न सकेन ।  तल विस्तृत जाँच गर्नुहोस् र फेरि प्रयास "
+"गर्नुहोस् ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:291
+msgid "Synchronization Complete"
+msgstr "समक्रमण पूर्ण"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:292
+msgid "Synchronization is complete"
+msgstr "समक्रमण पूर्ण छ"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:294
+#, csharp-format
+msgid "{0} note updated."
+msgid_plural "{0} notes updated."
+msgstr[0] "{0} द्रष्टव्य अद्यावधिक गरियो ।"
+msgstr[1] "{0} द्रष्टव्यहरू अद्यावधिक गरियो ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:299
+msgid "Your notes are now up to date."
+msgstr "तपाईँका द्रष्टव्यहरू अद्यावधिक छैनन् ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:303
+msgid "Synchronization Canceled"
+msgstr "समक्रमण रद्द गरियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:304
+msgid "Synchronization was canceled"
+msgstr "समक्रमण रद्द गरिएको थियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:305
+msgid "You canceled the synchronization.  You may close the window now."
+msgstr ""
+"तपाईँले समक्रमण रद्द गर्नुभयो ।  तपाईँले अब सञ्झ्याल बन्द गर्न सक्नुगहुन्छ ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:309
+msgid "Synchronization Not Configured"
+msgstr "समक्रमण कन्फिगर गरिएन"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:310
+msgid "Synchronization is not configured"
+msgstr "समक्रमण कन्फिगर गरिएको छैन"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:311
+msgid "Please configure synchronization in the preferences dialog."
+msgstr "कृपया प्राथमिकता संवादमा समक्रमण कन्फिगर गर्नुहोस् ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:315
+msgid "Synchronization Service Error"
+msgstr "समक्रमण सेवा त्रुटि"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:316
+msgid "Service error"
+msgstr "सेवा त्रुटि"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:317
+msgid "Error connecting to the synchronization service.  Please try again."
+msgstr "समक्रमण सेवामा जडान गर्दा त्रुटि ।  कृपया फेरि प्रयास गर्नुहोस् ।"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:334
+msgid "Deleted locally"
+msgstr "स्थानीय रूपमा मेटियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:337
+msgid "Deleted from server"
+msgstr "सर्भरबाट मेटियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:340
+msgid "Updated"
+msgstr "अद्यावधिक गरियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:343
+msgid "Added"
+msgstr "थपियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:346
+msgid "Uploaded changes to server"
+msgstr "सर्भरमा परिवर्तनहरू अपलोड गरियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:349
+msgid "Uploaded new note to server"
+msgstr "सर्भरमा नयाँ द्रष्टव्य अपलोड गरियो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:496
+msgid "Note Conflict"
+msgstr "द्रष्टव्य द्वन्द्व"
+
+#. Suggest renaming note by appending " (old)" to the existing title
+#: ../Tomboy/Synchronization/SyncDialog.cs:502
+msgid " (old)"
+msgstr " (पुरानो)"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:541
+msgid "Rename local note:"
+msgstr "स्थानीय द्रष्टव्य पुन: नामाकरण गर्नुहोस्:"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:547
+msgid "Update links in referencing notes"
+msgstr "सन्दर्भ द्रष्टव्यहरूमा लिङ्कहरू अद्यावधिक गर्नुहोस्"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:554
+msgid "Overwrite local note"
+msgstr "स्थानीय द्रष्टव्य अधिलेखन गर्नुहोस्"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:558
+msgid "Always perform this action"
+msgstr "यो कार्य सँधै कार्यसम्पादन गर्नुहोस्"
+
+#. Set initial dialog text
+#: ../Tomboy/Synchronization/SyncDialog.cs:564
+msgid "Note conflict detected"
+msgstr "द्रष्टव्य द्वन्द्व पत्ता लाग्यो"
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:565
+#, csharp-format
+msgid ""
+"The server version of \"{0}\" conflicts with your local note.  What do you "
+"want to do with your local note?"
+msgstr ""
+"\"{0}\" को सर्भर संस्करण तपाईँको स्थानीय द्रष्टव्यसँग द्वन्द्व छ ।  तपाईँ "
+"स्थानीय द्रष्टव्यसँग कर गर्न चाहनुहुन्छ?"
+
+#: ../Tomboy/Synchronization/SyncManager.cs:161
+msgid "_Tools"
+msgstr "उपकरणहरू"
+
+#: ../Tomboy/Synchronization/SyncUtils.cs:119
+#: ../Tomboy/Synchronization/SyncUtils.cs:163
+msgid "Could not enable FUSE"
+msgstr "FUSE सक्षम पार्न सकेन"
+
+#: ../Tomboy/Synchronization/SyncUtils.cs:120
+#: ../Tomboy/Synchronization/SyncUtils.cs:164
+msgid ""
+"The FUSE module could not be loaded. Please check that it is installed "
+"properly and try again."
+msgstr ""
+"FUSE मोड्युल लोड गर्न सकेन । कृपया यो राम्रोसँग स्थापना गरिएको जाँच "
+"गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: ../Tomboy/Synchronization/SyncUtils.cs:135
+msgid "Enable FUSE?"
+msgstr "FUSE सक्षम पार्नुहुन्छ?"
+
+#. TODO: This message isn't entirely accurate.
+#. We should fix it.
+#: ../Tomboy/Synchronization/SyncUtils.cs:139
+msgid ""
+"The synchronization you've chosen requires the FUSE module to be loaded.\n"
+"\n"
+"To avoid getting this prompt in the future, you should load FUSE at startup. "
+" Add \"modprobe fuse\" to /etc/init.d/boot.local or \"fuse\" to /etc/modules."
+msgstr ""
+"तपाईँले रोज्नु भएको समक्रमणलाई लोड हुनका लागि FUSE आवश्यक हुन्छ ।\n"
+"\n"
+"भविश्यमा यसको प्रवर्धन हटाउनका लागि, तपाईँले सुरुआतमा FUSE लोड गर्नु पर्दछ । "
+" \"modprobe fuse\" लाई /etc/init.d/boot.local वा /etc/modules मा \"fuse\" मा "
+"थप्नुहोस् ।"

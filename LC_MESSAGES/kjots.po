@@ -1,0 +1,559 @@
+# translation of kjots.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kjots\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:47+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:57+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: aboutdata.cpp:32
+msgid "KJots"
+msgstr "केडीई जोट्स"
+
+#: aboutdata.cpp:38
+msgid "KDE note taking utility"
+msgstr "उपयोगिता लिइरहेको केडीई टिपोट"
+
+#: aboutdata.cpp:40
+msgid "(c) 1997-2008, KJots developers"
+msgstr ""
+
+#: aboutdata.cpp:44
+msgid "Stephen Kelly"
+msgstr ""
+
+#: aboutdata.cpp:44
+msgid "Current maintainer"
+msgstr "हालको सम्भारकर्ता"
+
+#: aboutdata.cpp:45
+msgid "Pradeepto K. Bhattacharya"
+msgstr "प्रदिप देखि के. भट्टचार्य सम्म"
+
+#: aboutdata.cpp:46
+msgid "Jaison Lee"
+msgstr "जइसन ली"
+
+#: aboutdata.cpp:47
+msgid "Aaron J. Seigo"
+msgstr "आरोन जे. सेइगो"
+
+#: aboutdata.cpp:48
+msgid "Stanislav Kljuhhin"
+msgstr "स्तानिस्लाभ कल्जुहिन"
+
+#: aboutdata.cpp:49
+msgid "Christoph Neerfeld"
+msgstr "क्रिस्टोफ नैर्फेल्ड"
+
+#: aboutdata.cpp:49
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: bookshelf.cpp:60
+msgid "Bookshelf"
+msgstr "पुस्तक राख्ने दराज"
+
+#: bookshelf.cpp:403
+msgid ""
+"All pages must be inside a book. Would you like to create a new book to put "
+"the page in, or would you prefer to not move the page at all?"
+msgstr ""
+"सबै पृष्ठहरू पुस्तक भित्र हुनुपर्दछ । पृष्ठ भित्र राख्न तपाईँ नयाँ पुस्तक "
+"सिर्जना गर्न चाहनुहुन्छ वा पृष्ठ सार्न मन पराउनुहुदैन ?"
+
+#: bookshelf.cpp:406
+msgid "Create New Book"
+msgstr "नयाँ पुस्तक सिर्जना गर्नुहोस्"
+
+#: bookshelf.cpp:406
+msgid "Do Not Move Page"
+msgstr "पृष्ठ नसार्नुहोस्"
+
+#: bookshelf.cpp:414 kjotsentry.cpp:650
+msgid "New Book"
+msgstr "नयाँ पुस्तक"
+
+#: bookshelf.cpp:631
+msgid "Multiple selections"
+msgstr "बहुविध चयन"
+
+#: kjotscomponent.cpp:124
+msgid "Next Book"
+msgstr "पछिल्लो पुस्तक"
+
+#: kjotscomponent.cpp:131
+msgid "Previous Book"
+msgstr "अघिल्लो पुस्तक"
+
+#: kjotscomponent.cpp:137
+msgid "Next Page"
+msgstr "पछिल्लो पृष्ठ"
+
+#: kjotscomponent.cpp:144
+msgid "Previous Page"
+msgstr "अघिल्लो पृष्ठ"
+
+#: kjotscomponent.cpp:150
+msgid "&New Page"
+msgstr "नयाँ पृष्ठ"
+
+#: kjotscomponent.cpp:156
+msgid "New &Book..."
+msgstr "नयाँ पुस्तक..."
+
+#: kjotscomponent.cpp:162
+msgid "Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#: kjotscomponent.cpp:165
+msgid "To Text File..."
+msgstr "पाठ फाइलमा..."
+
+#: kjotscomponent.cpp:171
+msgid "To HTML File..."
+msgstr "HTML फाइलमा..."
+
+#: kjotscomponent.cpp:177
+msgid "To Book File..."
+msgstr "पुस्तक फाइलमा..."
+
+#: kjotscomponent.cpp:183
+msgid "Import..."
+msgstr "आयत गर्नुहोस्..."
+
+#: kjotscomponent.cpp:188
+msgid "&Delete Page"
+msgstr "पृष्ठ मेट्नुहोस्"
+
+#: kjotscomponent.cpp:194
+msgid "Delete Boo&k"
+msgstr "पुस्तक मेट्नुहोस्"
+
+#: kjotscomponent.cpp:200
+msgid "Delete Selected"
+msgstr "चयन गरिएको मेट्नुहोस्"
+
+#: kjotscomponent.cpp:205
+msgid "Manual Save"
+msgstr "म्यानुअल बचत"
+
+#: kjotscomponent.cpp:211
+msgid "Auto Bullets"
+msgstr "स्वत गोली चिन्हहरू"
+
+#: kjotscomponent.cpp:216
+msgid "Auto Decimal List"
+msgstr ""
+
+#: kjotscomponent.cpp:221
+msgid "Link"
+msgstr ""
+
+#: kjotscomponent.cpp:225
+msgid "Insert Checkmark"
+msgstr ""
+
+#: kjotscomponent.cpp:241
+msgid "Copy &into Page Title"
+msgstr "पृष्ठ शीर्षकमा प्रतिलिपि बनाउनुहोस्"
+
+#: kjotscomponent.cpp:256
+msgid "Rename..."
+msgstr "पुन: नामकरण गर्नुहोस्..."
+
+#: kjotscomponent.cpp:262
+msgid "Insert Date"
+msgstr "मिति घुसाउनुहोस्"
+
+#: kjotscomponent.cpp:269
+msgid "Change Color..."
+msgstr "रङ परिवर्तन गर्नुहोस्..."
+
+#: kjotscomponent.cpp:273
+msgid "Copy Link Address"
+msgstr "लिङ्क ठेगाना प्रतिलिपि बनाउनुहोस्"
+
+#: kjotscomponent.cpp:278
+msgctxt ""
+"@action Paste the text in the clipboard without rich text formatting."
+msgid "Paste Plain Text"
+msgstr ""
+
+#: kjotscomponent.cpp:284
+msgid "&Bookmarks"
+msgstr "पुस्तकचिनो"
+
+#: kjotscomponent.cpp:364 kjotscomponent.cpp:376
+msgid "Search all pages"
+msgstr "सबै पृष्ट खोजी गर्नुहोस्"
+
+#: kjotscomponent.cpp:535
+#, kde-format
+msgctxt "remove the book, by title"
+msgid ""
+"<qt>Are you sure you want to delete the book <strong>%1</strong>?</qt>"
+msgstr ""
+
+#: kjotscomponent.cpp:536 kjotscomponent.cpp:554 kjotscomponent.cpp:572
+msgid "Delete"
+msgstr "मेट्नुहोस्"
+
+#: kjotscomponent.cpp:553
+#, kde-format
+msgctxt "remove the page, by title"
+msgid ""
+"<qt>Are you sure you want to delete the page <strong>%1</strong>?</qt>"
+msgstr ""
+
+#: kjotscomponent.cpp:571
+msgid "<qt>Are you sure you want to delete these entries?</qt>"
+msgstr "<qt>तपाईँ यी प्रविष्टिहरू मेट्न निश्चित हुनुहुन्छ ?</qt>"
+
+#: kjotscomponent.cpp:604
+msgid "Settings"
+msgstr ""
+
+#: kjotscomponent.cpp:716
+msgid "<qt>No matches found.</qt>"
+msgstr "<qt>कुनै मिल्ने फेला परेन ।</qt>"
+
+#: kjotscomponent.cpp:889
+#, kde-format
+msgid "<qt>Replaced 1 occurrence.</qt>"
+msgid_plural "<qt>Replaced %1 occurrences.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kjotscomponent.cpp:894
+#, kde-format
+msgid "<qt>Replaced %2 of 1 occurrence.</qt>"
+msgid_plural "<qt>Replaced %2 of %1 occurrences.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kjotscomponent.cpp:978
+msgid ""
+"<qt>End of search area reached. Do you want to wrap around and continue?</qt>"
+msgstr ""
+"<qt>खोजी क्षेत्रको अन्त्यमा पुगियो । तपाईँ वरिपरि बेर्न र जारी राख्न "
+"चाहानुहुन्छ?</qt>"
+
+#: kjotscomponent.cpp:1113
+msgid "Multiple Selections"
+msgstr "बहुविध चयन"
+
+#: kjotscomponent.cpp:1119 kjotscomponent.cpp:1228
+msgid "KJots Books"
+msgstr ""
+
+#: kjotscomponent.cpp:1123
+msgid "HTML Files"
+msgstr ""
+
+#: kjotscomponent.cpp:1142
+msgid "<qt>Error opening temporary file.</qt>"
+msgstr "<qt>अस्थायी फाइल खोल्दा त्रुटि ।</qt>"
+
+#: kjotscomponent.cpp:1186
+msgid "<qt>Error opening internal file.</qt>"
+msgstr "<qt>आन्तरिक फाइल खोल्दा त्रुटि ।</qt>"
+
+#: kjotscomponent.cpp:1229
+msgid "KnowIt files"
+msgstr ""
+
+#: kjotscomponent.cpp:1299
+msgid "Send To Printer"
+msgstr "मुद्रकमा पाठाउनुहोस्"
+
+#: kjotsentry.cpp:101
+#, kde-format
+msgid ""
+"A duplicate ID was found in the book %1. This can happen if you manipulate "
+"the data files by hand, and will prevent KJots from working correctly. KJots "
+"can attempt to fix this, or you can fix it yourself. In either case, "
+"bookmarks and links between pages may be broken."
+msgstr ""
+"%1 पुस्तकमा नक्कली ID फेला पर्यो । यदि तपाईँले हातैले डेटा फाइल मिलाउनु भएमा "
+"यो घट्न सक्छ, र सही कार्य गर्न बाट केडीई जोट्सलाई रोक्नेछ । केडीई जोट्सले "
+"यसलाई स्थिर राख्न प्रयास गर्न सक्छ, वा तपाईँ आफैले यसलाई स्थिर राख्न "
+"सक्नुहुन्छ । अन्यथा पृष्टहरू बीचको पुस्तकचिनो र लिङ्क बिच्छेद हुन सक्छ ।"
+
+#: kjotsentry.cpp:105
+msgid "A duplicate ID was found"
+msgstr "नक्कली ID फेला पर्यो"
+
+#: kjotsentry.cpp:105
+msgid "Exit and fix by hand"
+msgstr "हातैले अन्त्य र निश्चित गर्नुहोस्"
+
+#: kjotsentry.cpp:106
+msgid "Fix it automatically"
+msgstr "यसलाई स्वचालित रुपमा निश्चित गर्नुहोस्"
+
+#: kjotsentry.cpp:372
+msgid ""
+"<qt>KJots is having problems saving your data. This might be a permissions "
+"problem, or you may be out of disk space.</qt>"
+msgstr ""
+"<qt> केडीई जोट्सलेटले तपाईँको डेटा बचत गरिरहँदा समस्या भइरहेको छ । यो अनुमति "
+"समस्या हुन सक्दछ, वा तपाईँ डिस्कको खालीस्थान भन्दा बाहिर हुनुहुन्छ ।</qt>"
+
+#: kjotsentry.cpp:407
+msgid "Rename Book"
+msgstr "पुस्तक पुन: नामकरण गर्नुहोस्"
+
+#: kjotsentry.cpp:408 kjotsentry.cpp:651
+msgid "Book name:"
+msgstr "पुस्तक नाम:"
+
+#: kjotsentry.cpp:554
+msgid "Table of Contents"
+msgstr "विषयसूची"
+
+#: kjotsentry.cpp:689
+#, kde-format
+msgid "Page %1"
+msgstr "पृष्ठ %1"
+
+#: kjotsentry.cpp:692
+msgid "New Page"
+msgstr "नयाँ पृष्ठ"
+
+#: kjotsentry.cpp:693
+msgid "Page name:"
+msgstr "पृष्ठ नाम:"
+
+#: kjotsentry.cpp:723
+msgid "Rename Page"
+msgstr "पृष्ठ पुन: नामकरण गर्नुहोस्"
+
+#: kjotsentry.cpp:724
+msgid "Page title:"
+msgstr "पृष्ठ शीर्षक:"
+
+#: kjotslinkdialog.cpp:41
+msgid "Manage Link"
+msgstr ""
+
+#: kjotslinkdialog.cpp:57
+msgid "Link Text:"
+msgstr ""
+
+#: kjotslinkdialog.cpp:60
+msgid "Link URL:"
+msgstr ""
+
+#: kjotsreplacenextdialog.cpp:31 kjotsreplacenextdialog.cpp:35
+msgid "Replace"
+msgstr "बदल्नुहोस्"
+
+#: kjotsreplacenextdialog.cpp:33
+msgid "&All"
+msgstr "सबै"
+
+#: kjotsreplacenextdialog.cpp:34
+msgid "&Skip"
+msgstr "फड्काउनुहोस्"
+
+#: kjotsreplacenextdialog.cpp:49
+#, kde-format
+msgid "Replace '%1' with '%2'?"
+msgstr "'%2' सँग '%1' बदल्नुहुन्छ ?"
+
+#: knowitimporter.cpp:144
+msgctxt "Name for the top level book created to hold the imported data."
+msgid "KNowIt Import"
+msgstr ""
+
+#. i18n: file: confpagemisc.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, confPageMisc)
+#: rc.cpp:3
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#. i18n: file: confpagemisc.ui:22
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_AutoSaveInterval)
+#: rc.cpp:6
+msgid " minutes"
+msgstr " मिनेट"
+
+#. i18n: file: confpagemisc.ui:25
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_AutoSaveInterval)
+#: rc.cpp:9
+msgid "1 minute"
+msgstr "१ मिनेट"
+
+#. i18n: file: confpagemisc.ui:34
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_AutoSaveInterval)
+#. i18n: file: confpagemisc.ui:47
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#: rc.cpp:12 rc.cpp:18
+msgid ""
+"This is the number of minutes KJots will wait before automatically saving "
+"changes."
+msgstr ""
+"परिवर्तन स्वचालित रूपमा बचत गर्नु अगाडि केडीई जोट्स ले प्रतिक्षा गर्ने मिनेट "
+"।"
+
+#. i18n: file: confpagemisc.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:15
+msgid "S&ave every:"
+msgstr "प्रत्येक बचत गर्नुहोस्:"
+
+#. i18n: file: confpagemisc.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
+#: rc.cpp:21
+msgid "&Save changes periodically"
+msgstr "आवधिक रूपमा परिवर्तन बचत गर्नुहोस्"
+
+#. i18n: file: confpagemisc.ui:111
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
+#: rc.cpp:24
+msgid ""
+"When \"Enable autosave\" is checked, KJots will automatically save changes "
+"made to books at the interval defined below."
+msgstr ""
+"जब\"स्वत: बचत सक्षम पार्नुहोस्\" जाँच गरिन्छ, केडीई जोट्सले तल परिभाषित "
+"अन्तरालमा पुस्तकमा गरिएको परिवर्तन स्वचालित रूपमा बचत गर्नेछ ।"
+
+#. i18n: file: confpagemisc.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PageNamePrompt)
+#: rc.cpp:27
+msgid "Ask for new &page names"
+msgstr ""
+
+#. i18n: file: confpagemisc.ui:124
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PageNamePrompt)
+#: rc.cpp:30
+msgid ""
+"Determines if new pages are given an automatic name, or a prompt is "
+"displayed."
+msgstr ""
+"यदि नयाँ पृष्टलाई स्वत नाम दिइएको हुन्छ, वा प्रवर्धन प्रदर्शन गरिएको हुन्छ "
+"निर्धारण गर्दछ ।"
+
+#. i18n: file: kjots.kcfg:10
+#. i18n: ectx: label, entry (SplitterSizes), group (kjots)
+#: rc.cpp:33
+msgid "How the main window is divided."
+msgstr "कसरी मुख्य सञ्झ्याल विभाजन गरिएको छ ।"
+
+#. i18n: file: kjots.kcfg:13
+#. i18n: ectx: label, entry (CurrentSelection), group (kjots)
+#: rc.cpp:36
+msgid "The book or page that is currently active."
+msgstr "हालै सक्रिय रहेको पुस्तक वा पृष्ठ ।"
+
+#. i18n: file: kjots.kcfg:16
+#. i18n: ectx: label, entry (Font), group (kjots)
+#: rc.cpp:39
+msgid "The font used to display the contents of books."
+msgstr "पुस्तकको सामग्री प्रर्दशन गर्न प्रयोग गरिएको फन्ट ।"
+
+#. i18n: file: kjots.kcfg:20
+#. i18n: ectx: label, entry (AutoSave), group (kjots)
+#: rc.cpp:42
+msgid "Whether books should be saved automatically."
+msgstr "पुस्तक स्वचालित रूपमा बचत गर्ने या नगर्ने ।"
+
+#. i18n: file: kjots.kcfg:24
+#. i18n: ectx: label, entry (Unicode), group (kjots)
+#: rc.cpp:45
+msgid "Whether UTF-8 encoding should be forced for saving and loading."
+msgstr "बचत गर्दा र लोड गर्दा UTF-8 सङ्केतनलाई बल गर्ने या नगर्ने ।"
+
+#. i18n: file: kjots.kcfg:28
+#. i18n: ectx: label, entry (AutoSaveInterval), group (kjots)
+#: rc.cpp:48
+msgid "The interval in minutes at which books should be saved automatically."
+msgstr "पुस्तक स्वचालित रूपमा बचत गर्नु पर्ने मिनेटमा अन्तराल"
+
+#. i18n: file: kjots.kcfg:32
+#. i18n: ectx: label, entry (LastId), group (kjots)
+#: rc.cpp:51
+msgid "The last ID that was used for a book or page."
+msgstr "पुस्तक वा पृष्ठका लागि प्रयोग गरिएको अन्तिम आईडी ।"
+
+#. i18n: file: kjots.kcfg:36
+#. i18n: ectx: label, entry (BookshelfOrder), group (kjots)
+#: rc.cpp:54
+msgid "The IDs of the books in the bookshelf."
+msgstr "पुस्तक राख्ने दराजमा भएको पुस्तकको IDs ."
+
+#. i18n: file: kjots.kcfg:40
+#. i18n: ectx: label, entry (PageNamePrompt), group (kjots)
+#: rc.cpp:57
+msgid "Ask for a name when creating a new page?"
+msgstr "नयाँ पृष्ट सिर्जना गर्दा नामको लागि सोध्नुहुन्छ?"
+
+#. i18n: file: kjotspartui.rc:19
+#. i18n: ectx: Menu (format)
+#. i18n: file: kjotsui.rc:19
+#. i18n: ectx: Menu (format)
+#: rc.cpp:60 rc.cpp:78
+msgid "F&ormat"
+msgstr ""
+
+#. i18n: file: kjotspartui.rc:42
+#. i18n: ectx: Menu (go)
+#: rc.cpp:63
+msgid "&Go"
+msgstr ""
+
+#. i18n: file: kjotspartui.rc:51
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:66
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: kjotspartui.rc:65
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: kjotsui.rc:62
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:69 rc.cpp:81
+msgid "Main Toobar"
+msgstr ""
+
+#. i18n: file: kjotspartui.rc:77
+#. i18n: ectx: ToolBar (textToolBar)
+#. i18n: file: kjotsui.rc:77
+#. i18n: ectx: ToolBar (textToolBar)
+#: rc.cpp:72 rc.cpp:84
+msgid "Text Toolbar"
+msgstr ""
+
+#. i18n: file: kjotspartui.rc:90
+#. i18n: ectx: ToolBar (formatToolBar)
+#. i18n: file: kjotsui.rc:90
+#. i18n: ectx: ToolBar (formatToolBar)
+#: rc.cpp:75 rc.cpp:87
+msgid "Format Toolbar"
+msgstr ""
+
+#: rc.cpp:88
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Mahesh Subedi, श्यामकृष्ण बल, नारायण कुमार मगर, ,Launchpad "
+"Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:89
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"submanesh@gmail.com, shyamkrishna_bal@yahoo.com, narayan@mpp.org.np,,,"

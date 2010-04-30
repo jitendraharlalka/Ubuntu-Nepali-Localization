@@ -1,0 +1,120 @@
+# translation of kres_xmlrpc.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kres_xmlrpc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-26 09:27+0000\n"
+"PO-Revision-Date: 2008-10-09 06:28+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:13+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: debugdialog.cpp:40
+msgid "Debug Dialog"
+msgstr "डिबग संवाद"
+
+#: kabc_resourcexmlrpc.cpp:304
+msgid "Login failed, please check your username and password."
+msgstr ""
+"लगइन असफल भयो, कृपया तपाईँको प्रयोगकर्ता नाम र पासवर्ड जाँच गर्नुहोस् ।"
+
+#: kabc_resourcexmlrpc.cpp:323
+msgid "Logout failed, please check your username and password."
+msgstr ""
+"लगआउट असफल भयो, कृपया तपाईँको प्रयोगकर्ता नाम र पासवर्ड जाँच गर्नुहोस् ।"
+
+#: kabc_resourcexmlrpc.cpp:400
+#, kde-format
+msgid "<qt>Server sent error %1: <b>%2</b></qt>"
+msgstr "<qt>सर्भरले त्रुटि %1 पठायो: <b>%2</b></qt>"
+
+#: kabc_resourcexmlrpc.cpp:414
+#, kde-format
+msgid "Unable to add contact %1 to server. (%2)"
+msgstr "सर्भरमा सम्पर्क %1 थप्न असक्षम भयो । (%2)"
+
+#: kabc_resourcexmlrpc.cpp:424
+#, kde-format
+msgid "Unable to update contact %1 on server. (%2)"
+msgstr "सर्भरमा सम्पर्क %1 अद्यावधिक गर्न असक्षम भयो । (%2)"
+
+#: kabc_resourcexmlrpc.cpp:445
+#, kde-format
+msgid "Unable to delete contact %1 from server. (%2)"
+msgstr "सर्भरमा सम्पर्क %1 मेट्न असक्षम भयो । (%2)"
+
+#: kabc_resourcexmlrpcconfig.cpp:45 kcal_resourcexmlrpcconfig.cpp:46
+#: knotes_resourcexmlrpcconfig.cpp:46
+msgid "URL:"
+msgstr "URL:"
+
+#: kabc_resourcexmlrpcconfig.cpp:51 kcal_resourcexmlrpcconfig.cpp:52
+#: knotes_resourcexmlrpcconfig.cpp:52
+msgid "Domain:"
+msgstr "डोमेन:"
+
+#: kabc_resourcexmlrpcconfig.cpp:57 kcal_resourcexmlrpcconfig.cpp:58
+#: knotes_resourcexmlrpcconfig.cpp:58
+msgid "User:"
+msgstr "प्रयोगकर्ता:"
+
+#: kabc_resourcexmlrpcconfig.cpp:63 kcal_resourcexmlrpcconfig.cpp:64
+#: knotes_resourcexmlrpcconfig.cpp:64
+msgid "Password:"
+msgstr "पासवर्ड:"
+
+#. i18n: file: kresources_kabc_egroupware.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#. i18n: file: kresources_kcal_egroupware.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#. i18n: file: kresources_knotes_egroupware.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#: rc.cpp:3 rc.cpp:15 rc.cpp:27
+msgid "URL"
+msgstr "URL"
+
+#. i18n: file: kresources_kabc_egroupware.kcfg:13
+#. i18n: ectx: label, entry (Domain), group (General)
+#. i18n: file: kresources_kcal_egroupware.kcfg:13
+#. i18n: ectx: label, entry (Domain), group (General)
+#. i18n: file: kresources_knotes_egroupware.kcfg:13
+#. i18n: ectx: label, entry (Domain), group (General)
+#: rc.cpp:6 rc.cpp:18 rc.cpp:30
+msgid "Domain"
+msgstr "डोमेन"
+
+#. i18n: file: kresources_kabc_egroupware.kcfg:17
+#. i18n: ectx: label, entry (User), group (General)
+#. i18n: file: kresources_kcal_egroupware.kcfg:17
+#. i18n: ectx: label, entry (User), group (General)
+#. i18n: file: kresources_knotes_egroupware.kcfg:17
+#. i18n: ectx: label, entry (User), group (General)
+#: rc.cpp:9 rc.cpp:21 rc.cpp:33
+msgid "User Name"
+msgstr "प्रयोगकर्ता नाम"
+
+#. i18n: file: kresources_kabc_egroupware.kcfg:20
+#. i18n: ectx: label, entry (Password), group (General)
+#. i18n: file: kresources_kcal_egroupware.kcfg:20
+#. i18n: ectx: label, entry (Password), group (General)
+#. i18n: file: kresources_knotes_egroupware.kcfg:20
+#. i18n: ectx: label, entry (Password), group (General)
+#: rc.cpp:12 rc.cpp:24 rc.cpp:36
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: xmlrpciface.cpp:118
+#, kde-format
+msgid "Received invalid XML markup: %1 at %2:%3"
+msgstr "अवैध एक्सएमएल मार्कअप प्राप्त भयो: %2:%3 मा %1"
+
+#: xmlrpciface.cpp:134
+msgid "Unknown type of XML markup received"
+msgstr "अज्ञात प्रकारको एक्सएमएल मार्कअप प्राप्त भयो"

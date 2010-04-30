@@ -1,0 +1,1107 @@
+# translation of karm.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: karm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:48+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:26+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: csvexportdialog.h:37
+msgctxt "@action:button"
+msgid "&Export"
+msgstr ""
+
+#: csvexportdialog.h:38
+msgctxt "@action:button"
+msgid "E&xport to Clipboard"
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:176
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: csvexportdialog.cpp:93 rc.cpp:99 rc.cpp:237
+msgctxt "format to display times"
+msgid "Decimal"
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:203
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: csvexportdialog.cpp:108 rc.cpp:108 rc.cpp:246
+msgid "Session Times"
+msgstr "सत्र समय"
+
+#. i18n: file: csvexportdialog_base.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: csvexportdialog.cpp:109 rc.cpp:111 rc.cpp:249
+msgid "All Tasks"
+msgstr "सबै कार्य"
+
+#: historydialog.cpp:78 timekard.cpp:67
+msgid "Task"
+msgstr "कार्य"
+
+#: historydialog.cpp:78
+msgid "StartTime"
+msgstr ""
+
+#: historydialog.cpp:78
+msgid "EndTime"
+msgstr ""
+
+#: historydialog.cpp:79
+msgid "Comment"
+msgstr ""
+
+#: historydialog.cpp:113
+msgid "You can change this task's comment, start time and end time."
+msgstr ""
+"तपाईँले कार्यको टिप्पणी, सुरु समय र अन्त्य समय परिवर्तन गर्न सक्नुहुन्छ ।"
+
+#: historydialog.cpp:185 historydialog.cpp:208
+msgid "This is not a valid Date/Time."
+msgstr "यो वैध मिति/समय होइन ।"
+
+#: idletimedetector.cpp:118
+#, kde-format
+msgid "Continue timing. Timing has started at %1"
+msgstr "समय गणना जारी राख्नुहोस् । समय गणना %1 मा सुरु भएकोछ"
+
+#: idletimedetector.cpp:119
+#, kde-format
+msgid "Stop timing and revert back to the time at %1."
+msgstr "समय गणना रोक्नुहोस् र समयलाई %1 मा फर्काउनुहोस् ।"
+
+#: idletimedetector.cpp:120
+msgid "Continue timing."
+msgstr "समय गणना जारी राख्नुहोस् ।"
+
+#: idletimedetector.cpp:121
+msgid "Revert timing"
+msgstr "समय गणना पछाडि फर्काउनुहोस्"
+
+#: karm.cpp:45 karm.cpp:46
+msgid "KArmReminder"
+msgstr "KArmReminder"
+
+#: karm.cpp:47
+msgid "(c) 2006"
+msgstr "(प्रतिलिपि अधिकार) २००६"
+
+#: karm.cpp:52
+msgid "Someone, probably you, has called karm.\n"
+msgstr "कोही व्यक्तिले, सम्भवत तपाईँले, केडीई आर्म कल गर्नुभएको छ ।\n"
+
+#: karm.cpp:53
+msgid ""
+"KArm has been renamed to KTimeTracker. This makes it easier to recognize.\n"
+"Compatibility advice: Do not give ktimetracker files to karm users. Using "
+"karm files with ktimetracker is possible.\n"
+msgstr ""
+
+#: karm.cpp:54
+msgid ""
+"Please learn to call ktimetracker as this reminder may be removed in the "
+"future.\n"
+msgstr ""
+"यस सचेतकबाट ktimetracker लाई कल गर्न सिक्नुहोस् किनकी भविश्यमा यसलाई हटाउन "
+"सकिन्छ ।\n"
+
+#: karm.cpp:55
+msgid ""
+"Someone, probably you, has called karm. KArm has been renamed to "
+"KTimeTracker. This makes it easier to recognize. Compatibility advice: Do "
+"not give ktimetracker files to karm users. Using karm files with "
+"ktimetracker is possible. Please learn to call ktimetracker as this reminder "
+"may be removed in the future."
+msgstr ""
+
+#: karm.cpp:55
+msgid "KArm is now ktimetracker"
+msgstr "केडीई आर्म अहिले ktimetrcker हो"
+
+#: ktimetrackerpart.cpp:72
+msgid "ktimetracker"
+msgstr ""
+
+#: ktimetrackerpart.cpp:85 mainwindow.cpp:160
+msgid "Configure key bindings"
+msgstr "कुञ्जी बाइन्डिङ कन्फिगर गर्नुहोस्"
+
+#: ktimetrackerpart.cpp:86 mainwindow.cpp:161
+msgid ""
+"This will let you configure keybindings which are specific to ktimetracker"
+msgstr ""
+
+#: main.cpp:42
+msgid "KDE Time tracker tool"
+msgstr "केडीई समय ट्र्याकर उपकरण"
+
+#: main.cpp:46
+msgid "Just caught a software interrupt."
+msgstr "सफ्टवेयर रोकावट मात्र समात्नुहोस् ।"
+
+#: main.cpp:85 timetrackerstorage.cpp:973 timetrackerstorage.cpp:996
+msgid "KTimeTracker"
+msgstr "केडीई समय ट्र्याकर"
+
+#: main.cpp:87
+msgid "(c) 1997-2009, KDE PIM Developers"
+msgstr ""
+
+#: main.cpp:89
+msgid "Thorsten St&auml;rk"
+msgstr "थोर्स्टेन St&auml;rk"
+
+#: main.cpp:89
+msgid "Current Maintainer"
+msgstr "हालको मर्मतकर्ता"
+
+#: main.cpp:91
+msgid "Sirtaj Singh Kang"
+msgstr "सिर्टाज सिङ काङ"
+
+#: main.cpp:91
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:93
+msgid "Allen Winter"
+msgstr "एलेन विन्टर"
+
+#: main.cpp:94
+msgid "David Faure"
+msgstr "डेभिड फाउर"
+
+#: main.cpp:95
+msgid "Mathias Soeken"
+msgstr "माथियास सोयकेन"
+
+#: main.cpp:96
+msgid "Jesper Pedersen"
+msgstr "जेस्पर पेडेर्सन"
+
+#: main.cpp:97
+msgid "Kalle Dalheimer"
+msgstr "क्याली डाल्हिमेर"
+
+#: main.cpp:98
+msgid "Mark Bucciarelli"
+msgstr "मार्क बुसियारेली"
+
+#: main.cpp:102
+msgid "The iCalendar file to open"
+msgstr "खोलिने आई क्यालेन्डर फाइल"
+
+#: main.cpp:103
+msgid "List all tasks as text output"
+msgstr ""
+
+#: main.cpp:104
+msgid "Add task <taskname>"
+msgstr ""
+
+#: main.cpp:105
+msgid "Delete task <taskid>"
+msgstr ""
+
+#: main.cpp:106
+msgid "Print the task ids for all tasks named <taskname>"
+msgstr ""
+
+#: main.cpp:107
+msgid "Start timer for task <taskid>"
+msgstr ""
+
+#: main.cpp:108
+msgid "Stop timer for task <taskid>"
+msgstr ""
+
+#: main.cpp:109
+msgid "Deliver total minutes for task id"
+msgstr ""
+
+#: main.cpp:110
+msgid "Outputs the version"
+msgstr ""
+
+#: mainwindow.cpp:84
+msgid "Could not find the KTimeTracker part."
+msgstr ""
+
+#: mainwindow.cpp:118
+msgid "Configure KTimeTracker..."
+msgstr ""
+
+#: mainwindow.cpp:201
+msgid "task_popup"
+msgstr "कार्य पपअप"
+
+#. i18n: file: cfgbehavior.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: rc.cpp:3 rc.cpp:339
+msgid "Detect desktop as idle after:"
+msgstr ""
+
+#. i18n: file: cfgbehavior.ui:23
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#. i18n: file: cfgstorage.ui:35
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoSavePeriod)
+#. i18n: file: cfgbehavior.ui:23
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#: rc.cpp:6 rc.cpp:63 rc.cpp:201 rc.cpp:342
+msgid " min"
+msgstr " मिनेट"
+
+#. i18n: file: cfgbehavior.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:9 rc.cpp:345
+msgid "Minimum desktop active time:"
+msgstr ""
+
+#. i18n: file: cfgbehavior.ui:43
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minActiveTime)
+#: rc.cpp:12 rc.cpp:348
+msgid " sec"
+msgstr ""
+
+#. i18n: file: cfgbehavior.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptDelete)
+#: rc.cpp:15 rc.cpp:351
+msgid "Prompt before deleting tasks"
+msgstr "कार्य मेट्न पहिला प्रस्तुत गर्नुहोस्"
+
+#. i18n: file: cfgbehavior.ui:63
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uniTasking)
+#: rc.cpp:18 rc.cpp:354
+msgid ""
+"Unitasking - allow only one task to be timed at a time. Does not stop any "
+"timer."
+msgstr ""
+"Unitasking - एक समयमा एउटा कार्यलाई मात्र समय दिन अनुमति दिन्छ । कुनै पनि "
+"टाइमर नरोक्नुहोस् ।"
+
+#. i18n: file: cfgbehavior.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uniTasking)
+#: rc.cpp:21 rc.cpp:357
+msgid "Allow only one timer at a time"
+msgstr "एक समयमा एउटा टाइमरलाई मात्र अनुमति दिनुहोस्"
+
+#. i18n: file: cfgbehavior.ui:73
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trayIcon)
+#: rc.cpp:24 rc.cpp:360
+msgid "Place an icon to the system tray"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:27 rc.cpp:276
+msgctxt "title of group box, general options"
+msgid "General"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_decimalFormat)
+#: rc.cpp:30 rc.cpp:279
+msgid "Decimal number format"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:32
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_configPDA)
+#: rc.cpp:33 rc.cpp:282
+msgid ""
+"Choose this if you have a touchscreen and your screen real estate is precious"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_configPDA)
+#: rc.cpp:36 rc.cpp:285
+msgctxt ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious."
+msgid "Configuration for PDA"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:39 rc.cpp:288
+msgid "Columns Displayed"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displaySessionTime)
+#: rc.cpp:42 rc.cpp:291
+msgid "Session time"
+msgstr "सत्र समय"
+
+#. i18n: file: cfgdisplay.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTime)
+#: rc.cpp:45 rc.cpp:294
+msgid "Cumulative task time"
+msgstr "सञ्चीत कार्य समय"
+
+#. i18n: file: cfgdisplay.ui:65
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalSessionTime)
+#: rc.cpp:48 rc.cpp:297
+msgid "Total session time"
+msgstr "कूल सत्र समय"
+
+#. i18n: file: cfgdisplay.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalTime)
+#: rc.cpp:51 rc.cpp:300
+msgid "Total task time"
+msgstr "कूल कार्य समय"
+
+#. i18n: file: cfgdisplay.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPriority)
+#: rc.cpp:54 rc.cpp:303 taskview.cpp:183
+msgid "Priority"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:86
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPercentComplete)
+#: rc.cpp:57 rc.cpp:306
+msgid "Percent complete"
+msgstr ""
+
+#. i18n: file: cfgstorage.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSave)
+#: rc.cpp:60 rc.cpp:198
+msgid "Save tasks every:"
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:13
+#. i18n: ectx: property (windowTitle), widget (KDialog, CSVExportDialogBase)
+#: rc.cpp:66 rc.cpp:204
+msgid "CSV Export"
+msgstr "CSV निर्यात"
+
+#. i18n: file: csvexportdialog_base.ui:36
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:69 rc.cpp:207
+msgid "Export to:"
+msgstr "यसमा निर्यात गर्नुहोस्:"
+
+#. i18n: file: csvexportdialog_base.ui:46
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlExportTo)
+#: rc.cpp:72 rc.cpp:210
+msgid "The file where KTimeTracker will write the data."
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:64
+#. i18n: ectx: property (text), widget (QLabel, quotesLabel)
+#: rc.cpp:75 rc.cpp:213
+msgid "Quotes:"
+msgstr "उद्धरण:"
+
+#. i18n: file: csvexportdialog_base.ui:85
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cboQuote)
+#: rc.cpp:78 rc.cpp:216
+msgid "All fields are quoted in the output."
+msgstr "सबै फिल्ड निर्गतमा उद्धरण गरिएका छन् ।"
+
+#. i18n: file: csvexportdialog_base.ui:89
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: rc.cpp:81 rc.cpp:219
+msgid "\""
+msgstr "\""
+
+#. i18n: file: csvexportdialog_base.ui:94
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: rc.cpp:84 rc.cpp:222
+msgid "'"
+msgstr "'"
+
+#. i18n: file: csvexportdialog_base.ui:105
+#. i18n: ectx: property (title), widget (QGroupBox, grpDateRange)
+#: rc.cpp:87 rc.cpp:225
+msgid "Date Range"
+msgstr "मिति दायरा"
+
+#. i18n: file: csvexportdialog_base.ui:108
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDateRange)
+#: rc.cpp:90 rc.cpp:228
+msgid ""
+"<p>An inclusive date range for reporting on time card history.  Not enabled "
+"when reporting on totals.</p>"
+msgstr ""
+"<p>समय कार्ड इतिहासमा प्रतिवेदनका लागि एउटा सम्मिलित मिति दायरा ।  कूलमा "
+"प्रतिवेदन गर्दा सक्षम पारिएको थिएन ।</p>"
+
+#. i18n: file: csvexportdialog_base.ui:114
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:93 rc.cpp:231
+msgid "From:"
+msgstr "बाट:"
+
+#. i18n: file: csvexportdialog_base.ui:139
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:96 rc.cpp:234
+msgid "To:"
+msgstr "सम्म:"
+
+#. i18n: file: csvexportdialog_base.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: rc.cpp:102 rc.cpp:240
+msgid "Hours:Minutes"
+msgstr "घन्टा:मिनेट"
+
+#. i18n: file: csvexportdialog_base.ui:198
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: rc.cpp:105 rc.cpp:243
+msgid "All Times"
+msgstr "सबै समय"
+
+#. i18n: file: csvexportdialog_base.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: rc.cpp:114 rc.cpp:252
+msgid "Only Selected"
+msgstr "चयन गरिएका मात्र"
+
+#. i18n: file: csvexportdialog_base.ui:241
+#. i18n: ectx: property (title), widget (QGroupBox, grpDelimiter)
+#: rc.cpp:117 rc.cpp:255
+msgid "Delimiter"
+msgstr "डेलिमिटर"
+
+#. i18n: file: csvexportdialog_base.ui:244
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDelimiter)
+#: rc.cpp:120 rc.cpp:258
+msgid "The character used to separate one field from another in the output."
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:256
+#. i18n: ectx: property (text), widget (QRadioButton, radioTab)
+#: rc.cpp:123 rc.cpp:261
+msgctxt "tabulator delimiter"
+msgid "Tab"
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:263
+#. i18n: ectx: property (text), widget (QRadioButton, radioOther)
+#: rc.cpp:126 rc.cpp:264
+msgctxt "user can set an user defined delimiter"
+msgid "Other:"
+msgstr ""
+
+#. i18n: file: csvexportdialog_base.ui:270
+#. i18n: ectx: property (text), widget (QRadioButton, radioSpace)
+#: rc.cpp:129 rc.cpp:267
+msgid "Space"
+msgstr "खाली स्थान"
+
+#. i18n: file: csvexportdialog_base.ui:277
+#. i18n: ectx: property (text), widget (QRadioButton, radioComma)
+#: rc.cpp:132 rc.cpp:270
+msgid "Comma"
+msgstr "अल्पविराम"
+
+#. i18n: file: csvexportdialog_base.ui:314
+#. i18n: ectx: property (text), widget (QRadioButton, radioSemicolon)
+#: rc.cpp:135 rc.cpp:273
+msgid "Semicolon"
+msgstr "अर्धविराम"
+
+#. i18n: file: edittaskdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, EditTaskDialog)
+#: rc.cpp:138 rc.cpp:363
+msgid "Dialog"
+msgstr ""
+
+#. i18n: file: edittaskdialog.ui:20
+#. i18n: ectx: property (text), widget (QLabel, tasknamelabel)
+#: rc.cpp:141 rc.cpp:366
+msgid "Task Name:"
+msgstr ""
+
+#. i18n: file: edittaskdialog.ui:32
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, tasknamelineedit)
+#: rc.cpp:144 rc.cpp:369
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Enter the name of the task "
+"here. You can choose it freely.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"style:italic;\">Example:</span> phone with mother</p></body></html>"
+msgstr ""
+
+#. i18n: file: edittaskdialog.ui:39
+#. i18n: ectx: property (title), widget (QGroupBox, autotrackinggroupbox)
+#: rc.cpp:152 rc.cpp:377
+msgid "Auto Tracking"
+msgstr ""
+
+#. i18n: file: edittaskdialog.ui:63
+#. i18n: ectx: property (whatsThis), widget (QPushButton, edittimespushbutton)
+#: rc.cpp:155 rc.cpp:380
+msgid "To change this task's time, you have to edit its event history."
+msgstr ""
+
+#. i18n: file: edittaskdialog.ui:66
+#. i18n: ectx: property (text), widget (QPushButton, edittimespushbutton)
+#: rc.cpp:158 rc.cpp:383
+msgid "Edit Times"
+msgstr ""
+
+#. i18n: file: historydialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, historydialog)
+#: rc.cpp:161 rc.cpp:333
+msgid "Edit History"
+msgstr ""
+
+#. i18n: file: historydialog.ui:23
+#. i18n: ectx: property (text), widget (QPushButton, deletepushbutton)
+#: rc.cpp:164 rc.cpp:336
+msgid "delete"
+msgstr ""
+
+#. i18n: file: ktimetrackerui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:172 rc.cpp:386
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: ktimetrackerui.rc:16
+#. i18n: ectx: Menu (import)
+#: rc.cpp:175 rc.cpp:389
+msgid "&Import"
+msgstr ""
+
+#. i18n: file: ktimetrackerui.rc:20
+#. i18n: ectx: Menu (export)
+#: rc.cpp:178 rc.cpp:392
+msgid "&Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#. i18n: file: ktimetrackerui.rc:31
+#. i18n: ectx: Menu (clock)
+#: rc.cpp:181 rc.cpp:395
+msgid "&Clock"
+msgstr "घडी"
+
+#. i18n: file: ktimetrackerui.rc:38
+#. i18n: ectx: Menu (task)
+#: rc.cpp:184 rc.cpp:398
+msgid "&Task"
+msgstr "कार्य"
+
+#. i18n: file: ktimetrackerui.rc:49
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:187 rc.cpp:401
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: ktimetrackerui.rc:54
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:190 rc.cpp:404
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: ktimetrackerui.rc:63
+#. i18n: ectx: ToolBar (taskToolBar)
+#: rc.cpp:193 rc.cpp:407
+msgid "Tasks"
+msgstr ""
+
+#: rc.cpp:194
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:195
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#. i18n: file: new/mainwindow.ui:22
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:309
+msgid "1"
+msgstr ""
+
+#. i18n: file: new/mainwindow.ui:50
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: rc.cpp:312
+msgid "File"
+msgstr ""
+
+#. i18n: file: new/mainwindow.ui:58
+#. i18n: ectx: property (title), widget (QMenu, menuHelp)
+#. i18n: file: new/mainwindow.ui:97
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: rc.cpp:315 rc.cpp:330
+msgid "Help"
+msgstr ""
+
+#. i18n: file: new/mainwindow.ui:68
+#. i18n: ectx: property (windowTitle), widget (QToolBar, toolBar)
+#: rc.cpp:318
+msgid "toolBar"
+msgstr ""
+
+#. i18n: file: new/mainwindow.ui:82
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: rc.cpp:321
+msgid "Load"
+msgstr ""
+
+#. i18n: file: new/mainwindow.ui:87
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: rc.cpp:324
+msgid "Save"
+msgstr ""
+
+#. i18n: file: new/mainwindow.ui:92
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: rc.cpp:327
+msgid "Quit"
+msgstr ""
+
+#: taskview.cpp:181
+msgid "Task Name"
+msgstr "कार्य नाम"
+
+#: taskview.cpp:181
+msgid "Session Time"
+msgstr "सत्र समय"
+
+#: taskview.cpp:181 timekard.cpp:66
+msgid "Time"
+msgstr "समय"
+
+#: taskview.cpp:182
+msgid "Total Session Time"
+msgstr "कूल सत्र समय"
+
+#: taskview.cpp:182
+msgid "Total Time"
+msgstr "कूल समय"
+
+#: taskview.cpp:183
+msgid "Percent Complete"
+msgstr "समापन प्रतिशत"
+
+#: taskview.cpp:233
+#, kde-format
+msgid "%1 %"
+msgstr ""
+
+#: taskview.cpp:246
+msgid "unspecified"
+msgstr ""
+
+#: taskview.cpp:249
+msgctxt "combox entry for highest priority"
+msgid "1 (highest)"
+msgstr ""
+
+#: taskview.cpp:252
+msgctxt "combox entry for medium priority"
+msgid "5 (medium)"
+msgstr ""
+
+#: taskview.cpp:255
+msgctxt "combox entry for lowest priority"
+msgid "9 (lowest)"
+msgstr ""
+
+#: taskview.cpp:300 taskview.cpp:852
+msgid ""
+"Error storing new task. Your changes were not saved. Make sure you can edit "
+"your iCalendar file. Also quit all applications using this file and remove "
+"any lock file related to its name from ~/.kde/share/apps/kabc/lock/ "
+msgstr ""
+"नयाँ कार्य भण्डारण गर्दा त्रुटि । तपाईँका परिवर्तन बचत गरिएका थिएनन् । तपाईँ "
+"आई क्यालेन्डर फाइल सम्पादन गर्न निश्चित हुनुहोस् । यस फाइलको प्रयोग गरेर सबै "
+"अनुप्रयोग अन्त्य गर्नुहोस् र ~/.kde/share/apps/kabc/lock/ बाट यसको नामसँग "
+"सम्बन्धित ताल्चा लगाउने कुनै पनि फाइल हटाउनुहोस् । "
+
+#: taskview.cpp:466
+msgid ""
+"Your virtual desktop number is too high, desktop tracking will not work"
+msgstr ""
+
+#: taskview.cpp:681
+msgid "Successfully saved file "
+msgstr ""
+
+#: taskview.cpp:683
+msgid "Could not save. Disk full ?"
+msgstr ""
+
+#: taskview.cpp:684
+msgid "Could not save."
+msgstr ""
+
+#: taskview.cpp:825
+msgid "New Task"
+msgstr "नयाँ कार्य"
+
+#: taskview.cpp:837 taskview.cpp:910
+msgid "Unnamed Task"
+msgstr "नाम नदिइएको कार्य"
+
+#: taskview.cpp:891
+msgid "New Sub Task"
+msgstr "नयाँ उप-कार्य"
+
+#: taskview.cpp:905
+msgid "Edit Task"
+msgstr "कार्य सम्पादन गर्नुहोस्"
+
+#: taskview.cpp:946 taskview.cpp:984 taskview.cpp:1019
+msgid "No task selected."
+msgstr "कार्य चयन गरिएको छैन ।"
+
+#: taskview.cpp:992
+msgid ""
+"Are you sure you want to delete the selected task(s) and their entire "
+"history?\n"
+"NOTE: all subtasks and their history will also be deleted."
+msgstr ""
+
+#: taskview.cpp:996
+msgid "Deleting Task(s)"
+msgstr ""
+
+#: timekard.cpp:62
+msgid "Task Totals"
+msgstr "कूल कार्य"
+
+#: timekard.cpp:97
+msgctxt "total time of all tasks"
+msgid "Total"
+msgstr ""
+
+#: timekard.cpp:100
+msgid "No tasks."
+msgstr "कार्य होइन ।"
+
+#: timekard.cpp:161
+#, kde-format
+msgid "Week of %1"
+msgstr "%1 को हप्ता"
+
+#: timetrackerstorage.cpp:190 timetrackerstorage.cpp:276
+#, kde-format
+msgid "Error loading \"%1\": could not find parent (uid=%2)"
+msgstr "\"%1\" लोड गर्दा त्रुटि: प्यारेन्ट (uid=%2) फेला पार्न सकेन"
+
+#: timetrackerstorage.cpp:448
+msgid "Export Progress"
+msgstr "निर्यात प्रगति"
+
+#: timetrackerstorage.cpp:528 timetrackerstorage.cpp:817
+#, kde-format
+msgid "Could not open \"%1\"."
+msgstr "\"%1\" खोल्न सकेन ।"
+
+#: timetrackerwidget.cpp:106
+msgid "Search or add task"
+msgstr ""
+
+#: timetrackerwidget.cpp:107
+msgid ""
+"This is a combined field. As long as you do not type ENTER, it acts as a "
+"filter. Then, only tasks that match your input are shown. As soon as you "
+"type ENTER, your input is used as name to create a new task."
+msgstr ""
+
+#: timetrackerwidget.cpp:186
+msgid "Cannot create new file."
+msgstr ""
+
+#: timetrackerwidget.cpp:199 timetrackerwidget.cpp:464
+msgid "Untitled"
+msgstr ""
+
+#: timetrackerwidget.cpp:297
+msgid "Start &New Session"
+msgstr "नयाँ सत्र सुरु गर्नुहोस्"
+
+#: timetrackerwidget.cpp:298
+msgid "Starts a new session"
+msgstr ""
+
+#: timetrackerwidget.cpp:298
+msgid ""
+"This will reset the session time to 0 for all tasks, to start a new session, "
+"without affecting the totals."
+msgstr ""
+"कूल सबैलाई प्रभाव नपारिकन, नयाँ सत्र सुरु गर्न, यसले सबै कार्यका लागि सत्र "
+"समय रिसेट गर्नेछ ।छ ।"
+
+#: timetrackerwidget.cpp:302
+msgid "Edit History..."
+msgstr ""
+
+#: timetrackerwidget.cpp:303
+msgid "Edits history of all tasks of the current document"
+msgstr ""
+
+#: timetrackerwidget.cpp:303
+msgid ""
+"A window will be opened where you can change start and stop times of tasks "
+"or add a comment to them."
+msgstr ""
+
+#: timetrackerwidget.cpp:307
+msgid "&Reset All Times"
+msgstr "सबै समय रिसेट गर्नुहोस्"
+
+#: timetrackerwidget.cpp:308
+msgid "Resets all times"
+msgstr ""
+
+#: timetrackerwidget.cpp:308
+msgid ""
+"This will reset the session and total time to 0 for all tasks, to restart "
+"from scratch."
+msgstr ""
+"यसले स्क्र्याचबाट पुन: सुरु गर्न, सबै कार्यका लागि सत्र र कूल समय ० मा रिसेट "
+"गर्नेछ ।"
+
+#: timetrackerwidget.cpp:311
+msgid "&Start"
+msgstr ""
+
+#: timetrackerwidget.cpp:312
+msgid "Starts timing for selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:312
+msgid ""
+"This will start timing for the selected task.\n"
+"It is even possible to time several tasks simultanously.\n"
+"\n"
+"You may also start timing of tasks by double clicking the left mouse button "
+"on a given task. This will, however, stop timing of other tasks."
+msgstr ""
+
+#: timetrackerwidget.cpp:318
+msgid "S&top"
+msgstr "रोक्नुहोस्"
+
+#: timetrackerwidget.cpp:319
+msgid "Stops timing of the selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:321
+msgid "Focus on Searchbar"
+msgstr ""
+
+#: timetrackerwidget.cpp:322
+msgid "Sets the focus on the searchbar"
+msgstr ""
+
+#: timetrackerwidget.cpp:324
+msgid "Stop &All Timers"
+msgstr "सबै टाइमर रोक्नुहोस्"
+
+#: timetrackerwidget.cpp:325
+msgid "Stops all of the active timers"
+msgstr ""
+
+#: timetrackerwidget.cpp:327
+msgid "Track Active Applications"
+msgstr ""
+
+#: timetrackerwidget.cpp:328
+msgid ""
+"Auto-creates and updates tasks when the focus of the current window has "
+"changed"
+msgstr ""
+
+#: timetrackerwidget.cpp:329
+msgid ""
+"If the focus of a window changes for the first time when this action is "
+"enabled, a new task will be created with the title of the window as its name "
+"and will be started. If there already exists such an task it will be started."
+msgstr ""
+
+#: timetrackerwidget.cpp:337
+msgid "&New Task..."
+msgstr ""
+
+#: timetrackerwidget.cpp:337
+msgid "Creates new top level task"
+msgstr ""
+
+#: timetrackerwidget.cpp:338
+msgid "This will create a new top level task."
+msgstr "यसले नयाँ उच्च स्तर कार्य सिर्जना गर्नेछ ।"
+
+#: timetrackerwidget.cpp:340
+msgid "New &Subtask..."
+msgstr "नयाँ उप-कार्य..."
+
+#: timetrackerwidget.cpp:341
+msgid "Creates a new subtask to the current selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:342
+msgid "This will create a new subtask to the current selected task."
+msgstr ""
+
+#: timetrackerwidget.cpp:344
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#: timetrackerwidget.cpp:344
+msgid "Deletes selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:345
+msgid "This will delete the selected task(s) and all subtasks."
+msgstr ""
+
+#: timetrackerwidget.cpp:348
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: timetrackerwidget.cpp:349
+msgid "Edits name or times for selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:349
+msgid ""
+"This will bring up a dialog box where you may edit the parameters for the "
+"selected task."
+msgstr ""
+"यसले चयन गरिएका कार्यका लागि तपाईँले परिमिति सम्पादन गर्न सक्ने संवाद बाकस "
+"ल्याउनेछ ।"
+
+#: timetrackerwidget.cpp:352
+msgid "&Mark as Complete"
+msgstr "समापनका रूपमा चिनो लगाउनुहोस्"
+
+#: timetrackerwidget.cpp:355
+msgid "&Mark as Incomplete"
+msgstr "अपूर्णका रूपमा चिनो लगाउनुहोस्"
+
+#: timetrackerwidget.cpp:358
+msgid "&Export Times..."
+msgstr "समय निर्यात गर्नुहोस्..."
+
+#: timetrackerwidget.cpp:361
+msgid "Export &History..."
+msgstr "इतिहास निर्यात गर्नुहोस्..."
+
+#: timetrackerwidget.cpp:364
+msgid "Import Tasks From &Planner..."
+msgstr "योजनाकर्ताबाट कार्य आयात गर्नुहोस्..."
+
+#: timetrackerwidget.cpp:367
+msgid "Show Searchbar"
+msgstr ""
+
+#: timetrackerwidget.cpp:463
+msgid "This document has not been saved yet. Do you want to save it?"
+msgstr ""
+
+#: timetrackerwidget.cpp:684
+msgid "Settings"
+msgstr ""
+
+#: timetrackerwidget.cpp:808
+msgctxt "@info in message box"
+msgid ""
+"There is no history yet. Start and stop a task and you will have an entry in "
+"your history."
+msgstr ""
+
+#: timetrackerwidget.cpp:817
+msgid "Do you really want to reset the time to zero for all tasks?"
+msgstr ""
+"साँच्चिकै तपाईँले सबै कार्यका लागि समय शून्यमा रिसेट गर्न चाहनुहुन्छ ?"
+
+#: timetrackerwidget.cpp:818
+msgid "Confirmation Required"
+msgstr "स्वीकृति आवश्यक"
+
+#: timetrackerwidget.cpp:818
+msgid "Reset All Times"
+msgstr "सबै समय रिसेट गर्नुहोस्"
+
+#: timetrackerwidget.cpp:992
+msgid "Save failed, most likely because the file could not be locked."
+msgstr "बचत असफल भयो, यसको कारणले धेरै जसो फाइलमा ताल्चा लगाउन सक्ने छैन ।"
+
+#: timetrackerwidget.cpp:994
+msgid "Could not modify calendar resource."
+msgstr "क्यालेन्डर स्रोत परिमार्जन गर्न सकेन ।"
+
+#: timetrackerwidget.cpp:996
+msgid "Out of memory--could not create object."
+msgstr "स्मृति बाहिर--वस्तु सिर्जना गर्न सकेन ।"
+
+#: timetrackerwidget.cpp:998
+msgid "UID not found."
+msgstr "UID फेला परेन ।"
+
+#: timetrackerwidget.cpp:1000
+msgid "Invalidate date--format is YYYY-MM-DD."
+msgstr "अवैध मिति--ढाँचा YYYY-MM-DD हो ।"
+
+#: timetrackerwidget.cpp:1002
+msgid "Invalid time--format is YYYY-MM-DDTHH:MM:SS."
+msgstr "अवैध समय--ढाँचा YYYY-MM-DDTHH:MM:SS हो ।"
+
+#: timetrackerwidget.cpp:1004
+msgid "Invalid task duration--must be greater than zero."
+msgstr "अवैद्य कार्य अवधि--शून्य भन्दा ठूलो हुनुपर्छ ।"
+
+#: timetrackerwidget.cpp:1006
+#, kde-format
+msgid "Invalid error number: %1"
+msgstr "अवैद्य त्रुटि नम्बर: %1"
+
+#: timetrackerwidget.cpp:1272
+msgid ""
+"This is ktimetracker, KDE's program to help you track your time. Best, start "
+"with creating your first task - enter it into the field where you see "
+"\"search or add task\"."
+msgstr ""
+
+#: timetrackerwidget.cpp:1273
+msgid "You have already created a task. You can now start and stop timing"
+msgstr ""
+
+#: tray.cpp:142
+msgid "No active tasks"
+msgstr "सक्रिय कार्य छैन"
+
+#: tray.cpp:147
+msgid ", ..."
+msgstr ", ..."
+
+#: tray.cpp:163
+msgid ", "
+msgstr ", "
+
+#: treeviewheadercontextmenu.cpp:47
+msgid "Columns"
+msgstr "स्तम्भ"
+
+#: treeviewheadercontextmenu.cpp:141
+msgid "Show"
+msgstr "देखाउनुहोस्"
+
+#: treeviewheadercontextmenu.cpp:141
+msgid "Hide"
+msgstr "लुकाउनुहोस्"

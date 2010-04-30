@@ -1,0 +1,153 @@
+# translation of solidshell.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: solidshell\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-16 21:53+0000\n"
+"PO-Revision-Date: 2009-07-16 09:56+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:35+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: solid-hardware.cpp:45
+msgid "solid-hardware"
+msgstr ""
+
+#: solid-hardware.cpp:47
+msgid "KDE tool for querying your hardware from the command line"
+msgstr ""
+
+#: solid-hardware.cpp:165
+msgid "Syntax Error: Not enough arguments"
+msgstr "वाक्य संरचना त्रुटि: पर्याप्त तर्क छैन"
+
+#: solid-hardware.cpp:170
+msgid "Syntax Error: Too many arguments"
+msgstr "वाक्य संरचना त्रुटि: अति धेरै तर्क"
+
+#: solid-hardware.cpp:181
+msgid "Show available commands"
+msgstr ""
+
+#: solid-hardware.cpp:183
+msgid "Command (see --commands)"
+msgstr "आदेश (--आदेश हेर्नुहोस्)"
+
+#: solid-hardware.cpp:185
+msgid "Arguments for command"
+msgstr "आदेशका लागि तर्क"
+
+#: solid-hardware.cpp:197
+msgid "Syntax:"
+msgstr "वाक्य संरचना:"
+
+#: solid-hardware.cpp:200
+msgid ""
+"             # List the hardware available in the system.\n"
+"             # - If the 'nonportableinfo' option is specified, the device\n"
+"             # properties are listed (be careful, in this case property "
+"names\n"
+"             # are backend dependent),\n"
+"             # - If the 'details' option is specified, the device "
+"interfaces\n"
+"             # and the corresponding properties are listed in a platform\n"
+"             # neutral fashion,\n"
+"             # - Otherwise only device UDIs are listed.\n"
+msgstr ""
+"             # प्रणालीमा उपलब्ध हार्डवेयरको सूची ।\n"
+"             # - यदि 'nonportableinfo' विकल्प निर्दिष्ट गरिएको भएमा, यन्त्र\n"
+"             # गुण सूचीबद्ध गरिन्छ (सावधान हुनुहोस्, यस्तो प्रकारकोगुणनाम\n"
+"             # ब्याकइन्डमा निर्भर हुन्छन्) ।\n"
+"             # - यदि 'विवरण' विकल्प निर्दिष्ट गरिएको भएमा, यन्त्रइन्टरफेस\n"
+"             # र सङ्गत गुणप्लेटफर्ममा सूचीबद्ध गरिन्छ\n"
+"             # तटस्थ फेसन,\n"
+"             # - अन्यथा यन्त्र UDIs सूचीबद्ध गरिन्छ ।\n"
+
+#: solid-hardware.cpp:210
+msgid ""
+"             # Display all the interfaces and properties of the device\n"
+"             # corresponding to 'udi' in a platform neutral fashion.\n"
+msgstr ""
+"             # यन्त्रका सबै इन्टरफेस र गुण प्रदर्शन गर्नुहोस्\n"
+"             # प्लेटफर्म तटस्थ फेसनको 'udi' सँग सङ्गत हुन्छ ।\n"
+
+#: solid-hardware.cpp:214
+msgid ""
+"             # Display all the properties of the device corresponding to "
+"'udi'\n"
+"             # (be careful, in this case property names are backend "
+"dependent).\n"
+msgstr ""
+"             # 'udi' सँग सङ्गत यन्त्रकासबै गुण प्रदर्शन गर्नुहोस्\n"
+"             # (सावधान हुनुहोस्, यस्तो अवस्थामा गुण नाम ब्याकइन्डमा निर्भर "
+"हुन्छन्) ।\n"
+
+#: solid-hardware.cpp:218
+msgid ""
+"             # List the UDI of devices corresponding to 'predicate'.\n"
+"             # - If 'parentUdi' is specified, the search is restricted to "
+"the\n"
+"             # branch of the corresponding device,\n"
+"             # - Otherwise the search is done on all the devices.\n"
+msgstr ""
+"             # 'घोषणा' सँग सङ्गत यन्त्रको UDI सूचीबद्ध गर्नुहोस् ।\n"
+"             # - यदि 'parentUdi' निर्दिष्ट गरिएको छभने, खोजी\n"
+"             # सङ्गत यन्त्रको शाखामा निषेध गरिएको हुन्छ,\n"
+"             # - अन्यथा सबै यन्त्रमा खोजी गरिन्छ ।\n"
+
+#: solid-hardware.cpp:224
+msgid ""
+"             # If applicable, mount the device corresponding to 'udi'.\n"
+msgstr ""
+"             # प्रयोगयोग्य भएमा, 'udi' सँग सङ्गत यन्त्र माउन्ट गर्नुहोस् ।\n"
+
+#: solid-hardware.cpp:227
+msgid ""
+"             # If applicable, unmount the device corresponding to 'udi'.\n"
+msgstr ""
+"             # प्रयोगयोग्य भएमा, 'udi' सँग सङ्गत यन्त्र अनमाउन्ट गर्नुहोस् "
+"।\n"
+
+#: solid-hardware.cpp:230
+msgid ""
+"             # If applicable, eject the device corresponding to 'udi'.\n"
+msgstr ""
+"             # प्रयोगयोग्य भएमा, 'udi' सँग सङ्गत यन्त्र निकाल्नुहोस् ।\n"
+
+#: solid-hardware.cpp:301
+#, kde-format
+msgid "Syntax Error: Unknown command '%1'"
+msgstr "वाक्य संरचना त्रुटि: अज्ञात आदेश '%1'"
+
+#: solid-hardware.cpp:371
+#, kde-format
+msgid "Error: %1 does not have the interface StorageAccess."
+msgstr "त्रुटि: %1 सँग इन्टरफेस भण्डारण पहुँच छैन ।"
+
+#: solid-hardware.cpp:376
+#, kde-format
+msgid "Error: %1 does not have the interface OpticalDrive."
+msgstr "त्रुटि: %1 सँग इन्टरफेस अप्टिकल ड्राइभ छैन ।"
+
+#: solid-hardware.cpp:409
+#, kde-format
+msgid "Error: %1"
+msgstr "त्रुटि: %1"
+
+#: solid-hardware.cpp:429
+#, kde-format
+msgid "Progress: %1%"
+msgstr "प्रगति: %1%"
+
+#: solid-hardware.cpp:435
+#, kde-format
+msgid "Info: %1"
+msgstr "सूचना: %1"

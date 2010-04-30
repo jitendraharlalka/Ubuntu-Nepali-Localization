@@ -1,0 +1,156 @@
+# translation of klines.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: klines\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2010-04-14 17:22+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:29+0000\n"
+
+#: klines.cpp:51
+msgid "Score:"
+msgstr "प्राप्ताङ्क:"
+
+#: klines.cpp:76
+msgid "Show Next"
+msgstr ""
+
+#: klines.cpp:83
+msgid "Move Left"
+msgstr ""
+
+#: klines.cpp:87
+msgid "Move Right"
+msgstr ""
+
+#: klines.cpp:91
+msgid "Move Up"
+msgstr ""
+
+#: klines.cpp:95
+msgid "Move Down"
+msgstr ""
+
+#: klines.cpp:99
+msgid "Select"
+msgstr "छान्नुहोस्"
+
+#: klines.cpp:115
+#, kde-format
+msgid "Score: %1"
+msgstr "प्राप्ताङ्क: %1"
+
+#: klines.cpp:178
+msgid "Theme"
+msgstr "विषयवस्तु"
+
+#: klines.cpp:188
+#, kde-format
+msgid "Failed to load \"%1\" theme. Please check your installation."
+msgstr ""
+"\"%1\" विषयवस्तु लोड गर्न असफल । कृपया तपाईँको स्थापना जाँच गर्नुहोस् ।"
+
+#: main.cpp:31
+msgid "Kolor Lines - a little game about balls and how to get rid of them"
+msgstr "रङ लाइन - बल र तिनीहरूबाट कसरी मुक्त हुने बारेको एउटा सानो खेल"
+
+#: main.cpp:35
+msgid "Kolor Lines"
+msgstr "रङ लाइन"
+
+#: main.cpp:37
+msgid "(c) 2000-2008 The KLines Authors"
+msgstr ""
+
+#: main.cpp:38
+msgid "Roman Merzlyakov"
+msgstr "रोमन मेर्जल्याकोभ"
+
+#: main.cpp:38
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:39
+msgid "Roman Razilov"
+msgstr "रोमन राजिलोभ"
+
+#: main.cpp:39
+msgid "Rewrite and Extension"
+msgstr "पुन: लेखन र विस्तार"
+
+#: main.cpp:40
+msgid "Dmitry Suzdalev"
+msgstr "डिमिट्री सुज्डालेभ"
+
+#: main.cpp:40
+msgid "Rewrite to use QGraphicsView. Current maintainer"
+msgstr ""
+"क्यू ग्राफिक्स दृश्य प्रयोग गर्न पुन: लेखन गर्नुहोस् । हालको मर्मतकर्ता"
+
+#: main.cpp:41
+msgid "Eugene Trounev"
+msgstr "युगेन ट्रुनेभ"
+
+#: main.cpp:41
+msgid "New SVG artwork for KDE4 version of the game"
+msgstr "खेलको केडीई४ संस्करणका लागि नयाँ SVG कलाकार्य"
+
+#. i18n: file: klines.kcfg:9
+#. i18n: ectx: label, entry (Theme), group (General)
+#: rc.cpp:3
+msgid "The graphical theme to be used."
+msgstr "प्रयोग हुने ग्राफिकल विषयवस्तु ।"
+
+#. i18n: file: klines.kcfg:15
+#. i18n: ectx: label, entry (ShowNext), group (Game)
+#: rc.cpp:6
+msgid "Whether to show the next set of balls."
+msgstr "बलको पछिल्लो सेट देखाउने या नदेखाउने ।"
+
+#. i18n: file: klines.kcfg:19
+#. i18n: ectx: label, entry (SavedBackgroundWidth), group (Game)
+#: rc.cpp:9
+msgid "Width of saved background"
+msgstr "बचत गरिएको पृष्ठभूमिको चौडाइ"
+
+#. i18n: file: klines.kcfg:23
+#. i18n: ectx: label, entry (SavedBackgroundHeight), group (Game)
+#: rc.cpp:12
+msgid "Height of saved background"
+msgstr "बचत गरिएको पृष्ठभूमिको उचाइ"
+
+#. i18n: file: klinesui.rc:14
+#. i18n: ectx: Menu (navigation)
+#: rc.cpp:15
+msgid "Navigation"
+msgstr "नेभिगेसन"
+
+#: rc.cpp:16
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Jitendra Harlalka, Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:17
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jitendra@otrc.gov.np, submanesh@gmail.com,,,"
+
+#: scene.cpp:298
+msgid "There is no path from the selected piece to this cell"
+msgstr ""
+
+#: scene.cpp:683
+msgid "<h1>Game over</h1>"
+msgstr "<h1>खेल समाप्त</h1>"

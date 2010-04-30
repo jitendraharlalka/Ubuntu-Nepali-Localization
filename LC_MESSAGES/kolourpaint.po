@@ -1,0 +1,2399 @@
+# translation of kolourpaint.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shiva Pokharel <shiva@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kolourpaint\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:10+0000\n"
+"PO-Revision-Date: 2009-07-16 09:43+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:02+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: generic/widgets/kpSqueezedTextLabel.cpp:118
+msgid "..."
+msgstr "..."
+
+#: tools/kpToolZoom.cpp:73
+msgid "Zoom"
+msgstr ""
+
+#: tools/kpToolZoom.cpp:73
+msgid "Zooms in and out of the image"
+msgstr ""
+
+#: tools/kpToolZoom.cpp:120
+msgid "Click to zoom in/out or left drag to zoom into a specific area."
+msgstr ""
+
+#: tools/kpToolZoom.cpp:207 tools/selection/kpAbstractSelectionTool.cpp:243
+#: tools/selection/kpAbstractSelectionTool.cpp:489
+#: tools/kpToolFloodFill.cpp:131
+#: tools/rectangular/kpToolRectangularBase.cpp:333
+#: tools/kpToolColorPicker.cpp:112 tools/flow/kpToolFlowBase.cpp:302
+#: tools/polygonal/kpToolPolygonalBase.cpp:433
+msgid "Let go of all the mouse buttons."
+msgstr "अब सबै माउस बटनहरूमा जानुहोस् ।"
+
+#: tools/kpTool.cpp:160
+#, kde-format
+msgctxt "<Tool Name> (<Single Accel Key>)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: tools/selection/image/kpToolEllipticalSelection.cpp:43
+msgid "Selection (Elliptical)"
+msgstr "चयन (दीर्घवृत्ताकार)"
+
+#: tools/selection/image/kpToolEllipticalSelection.cpp:44
+msgid "Makes an elliptical or circular selection"
+msgstr "एउटा दीर्घवृत्तकार वा वृत्तकार चयन बनाउँदछ"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:170
+msgid "Selection: Opaque"
+msgstr "चयन: अपारदर्शी"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:171
+msgid "Selection: Transparent"
+msgstr "चयन: पारदर्शी"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:191
+msgid "Selection: Transparency Color"
+msgstr "चयन: पारदर्शी रङ"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:211
+msgid "Selection: Transparency Color Similarity"
+msgstr "चयन: पारदर्शी रङ मिल्दो"
+
+#: tools/selection/image/kpToolFreeFormSelection.cpp:45
+msgid "Selection (Free-Form)"
+msgstr "चयन (यसबाट स्वतन्त्र)"
+
+#: tools/selection/image/kpToolFreeFormSelection.cpp:46
+msgid "Makes a free-form selection"
+msgstr "चयनबाट स्वतन्त्र बनाउछ"
+
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
+#: mainWindow/kpMainWindow_Image.cpp:296 mainWindow/kpMainWindow_Edit.cpp:487
+#: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:246
+msgid "Selection: Create"
+msgstr "चयन: सिर्जना गर्नुहोस्"
+
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:89
+msgid "Left drag to create selection."
+msgstr "चयन सिर्जना गर्न बायाँ तान्नुहोस् ।"
+
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:95
+msgid "Left drag to move selection."
+msgstr "चयन सार्न बायाँ तान्नुहोस् ।"
+
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:101
+msgid "Left drag to scale selection."
+msgstr "चयन मापन गर्न बायाँ तान्नुहोस् ।"
+
+#: tools/selection/image/kpToolRectSelection.cpp:42
+msgid "Selection (Rectangular)"
+msgstr "चयन (आयात)"
+
+#: tools/selection/image/kpToolRectSelection.cpp:43
+msgid "Makes a rectangular selection"
+msgstr "आयात चयन बनाउँदछ"
+
+#: tools/selection/kpAbstractSelectionTool_Move.cpp:311
+msgid "Selection: Move"
+msgstr "चयन: सार्नुहोस्"
+
+#: tools/selection/kpAbstractSelectionTool_Move.cpp:331
+#, kde-format
+msgid "%1: Smear"
+msgstr "%1: पोत्नु"
+
+#: tools/selection/text/kpToolText_ResizeScale.cpp:42
+msgid "Left drag to resize text box."
+msgstr "पाठ बाकस रिसाइज गर्न बायाँ तान्नुहोस् ।"
+
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:111
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:178
+#: tools/selection/text/kpToolText_Commands.cpp:87
+msgid "Text: Delete"
+msgstr "पाठ: मेट्नुहोस्"
+
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:131
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:200
+#: tools/selection/text/kpToolText_Commands.cpp:121
+msgid "Text: Write"
+msgstr "पाठ: लेख्नुहोस्"
+
+#: tools/selection/text/kpToolText_SelectText.cpp:56
+msgid "Left click to change cursor position."
+msgstr "कर्सर स्थिति परिवर्तन गर्न बायाँ क्लिक गर्नुहोस् ।"
+
+#: tools/selection/text/kpToolText_Create.cpp:48
+msgid "Left drag to create text box."
+msgstr "पाठ बाकस सिर्जना गर्न बायाँ तान्नुहोस् ।"
+
+#: tools/selection/text/kpToolText_Commands.cpp:70
+msgid "Text: Backspace"
+msgstr "पाठ: ब्याकस्पेस"
+
+#: tools/selection/text/kpToolText_Commands.cpp:104
+msgid "Text: New Line"
+msgstr "पाठ: नयाँ रेखा"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:118
+msgid "Text: Opaque Background"
+msgstr "पाठ: अपारदर्शी पृष्ठभूमि"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:119
+msgid "Text: Transparent Background"
+msgstr "पाठ: पारदर्शी पृष्ठभूमि"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:141
+msgid "Text: Swap Colors"
+msgstr "पाठ: रङ साटासाट गर्नुहोस्"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:161
+msgid "Text: Foreground Color"
+msgstr "पाठ: अग्रभूमि रङ"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:181
+msgid "Text: Background Color"
+msgstr "पाठ: पृष्ठभूमि रङ"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:217
+msgid "Text: Font"
+msgstr "पाठ: फन्ट"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:244
+msgid "Text: Font Size"
+msgstr "पाठ: फन्ट साइज"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:266
+msgid "Text: Bold"
+msgstr "पाठ: बाक्लो"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:287
+msgid "Text: Italic"
+msgstr "पाठ: छड्के"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:308
+msgid "Text: Underline"
+msgstr "पाठ: अधोरेखा"
+
+#: tools/selection/text/kpToolText_TextStyle.cpp:329
+msgid "Text: Strike Through"
+msgstr "पाठ: स्ट्राइकथ्रु"
+
+#: tools/selection/text/kpToolText_Move.cpp:42
+msgid "Left drag to move text box."
+msgstr "पाठ बाकस सार्न बायाँ तान्नुहोस् ।"
+
+#: tools/selection/text/kpToolText_Move.cpp:61
+msgid "Text: Move Box"
+msgstr "पाठ: बाकस सार्नुहोस्"
+
+#: tools/selection/text/kpToolText.cpp:60
+#: layers/selections/text/kpTextSelection.cpp:136
+msgid "Text"
+msgstr "पाठ"
+
+#: tools/selection/text/kpToolText.cpp:60
+msgid "Writes text"
+msgstr "पाठ लेख्दछ"
+
+#: tools/selection/text/kpToolText.cpp:100
+#: mainWindow/kpMainWindow_Image.cpp:298 mainWindow/kpMainWindow_Edit.cpp:486
+#: mainWindow/kpMainWindow_Edit.cpp:568
+msgid "Text: Create Box"
+msgstr "पाठ: बाकस सिर्जना गर्नुहोस्"
+
+#: tools/kpToolFloodFill.cpp:52 commands/tools/kpToolFloodFillCommand.cpp:72
+msgid "Flood Fill"
+msgstr "जलमग्न भराइ"
+
+#: tools/kpToolFloodFill.cpp:52
+msgid "Fills regions in the image"
+msgstr "छविमा क्षेत्रहरू भर्दछ"
+
+#: tools/kpToolFloodFill.cpp:69
+msgid "Click to fill a region."
+msgstr "क्षेत्र भर्न क्लिक गर्नुहोस् ।"
+
+#: tools/rectangular/kpToolEllipse.cpp:37
+msgid "Ellipse"
+msgstr "दीर्घवृत"
+
+#: tools/rectangular/kpToolEllipse.cpp:38
+msgid "Draws ellipses and circles"
+msgstr "दीर्घवृत र वृत कोर्दछ"
+
+#: tools/rectangular/kpToolRoundedRectangle.cpp:38
+msgid "Rounded Rectangle"
+msgstr "घेरिएको आयात"
+
+#: tools/rectangular/kpToolRoundedRectangle.cpp:39
+msgid "Draws rectangles and squares with rounded corners"
+msgstr "घुमाउरो किनारासँगै आयात र वर्ग कोर्दछ"
+
+#: tools/rectangular/kpToolRectangularBase.cpp:112
+#: tools/polygonal/kpToolLine.cpp:75
+msgid "Drag to draw."
+msgstr "रेखाचित्र कोर्न तान्नुहोस् ।"
+
+#: tools/rectangular/kpToolRectangle.cpp:37
+msgid "Rectangle"
+msgstr "आयात"
+
+#: tools/rectangular/kpToolRectangle.cpp:38
+msgid "Draws rectangles and squares"
+msgstr "आयात र वर्ग कोर्दछ"
+
+#: tools/kpToolColorPicker.cpp:47
+#: commands/tools/kpToolColorPickerCommand.cpp:61
+msgid "Color Picker"
+msgstr "रङ पिकर"
+
+#: tools/kpToolColorPicker.cpp:47
+msgid "Lets you select a color from the image"
+msgstr "छविबाट रङ चयन गर्न तपाईँलाई अनुमति दिन्छ"
+
+#: tools/kpToolColorPicker.cpp:72
+msgid "Click to select a color."
+msgstr "रङ चयन गर्न क्लिक गर्नुहोस् ।"
+
+#: tools/flow/kpToolBrush.cpp:35
+msgid "Brush"
+msgstr "ब्रुस"
+
+#: tools/flow/kpToolBrush.cpp:36
+msgid "Draw using brushes of different shapes and sizes"
+msgstr "विभिन्न आकार र साइजका ब्रुस प्रयोग गरेर रेखाचित्र कोर्नुहोस्"
+
+#: tools/flow/kpToolBrush.cpp:50 tools/flow/kpToolPen.cpp:66
+msgid "Click to draw dots or drag to draw strokes."
+msgstr "थोप्ला कोर्न क्लिक गर्नुहोस् वा स्ट्रोक कोर्न तान्नुहोस् ।"
+
+#: tools/flow/kpToolPen.cpp:50
+msgid "Pen"
+msgstr "कलम"
+
+#: tools/flow/kpToolPen.cpp:50
+msgid "Draws dots and freehand strokes"
+msgstr "थोप्ला र फ्रिह्यान्ड स्ट्रोक कोर्दछ"
+
+#: tools/flow/kpToolEraser.cpp:42
+msgid "Eraser"
+msgstr "मेट्ने"
+
+#: tools/flow/kpToolEraser.cpp:43
+msgid "Lets you rub out mistakes"
+msgstr "तपाईँलाई गल्तिहरू मेट्ने सूबिधा प्रदान गर्दछ"
+
+#: tools/flow/kpToolEraser.cpp:72
+msgid "Click or drag to erase."
+msgstr "मेटाउन क्लिक गर्नुहोस् वा तान्नुहोस् ।"
+
+#: tools/flow/kpToolColorEraser.cpp:54 tools/flow/kpToolColorEraser.cpp:81
+msgid "Color Eraser"
+msgstr "रङ मेटाउने"
+
+#: tools/flow/kpToolColorEraser.cpp:55
+msgid "Replaces pixels of the foreground color with the background color"
+msgstr "पृष्ठभूमि रङमा अग्रभूमि रङको पिक्सेल प्रतिस्थापन गर्दछ"
+
+#: tools/flow/kpToolColorEraser.cpp:116
+msgid "Click or drag to erase pixels of the foreground color."
+msgstr "अग्रभूमि रङको पिक्सेल मेट्न क्लिक गर्नुहोस् वा तान्नुहोस् ।"
+
+#: tools/flow/kpToolSpraycan.cpp:61
+msgid "Spraycan"
+msgstr "स्प्रे क्यान"
+
+#: tools/flow/kpToolSpraycan.cpp:61
+msgid "Sprays graffiti"
+msgstr "स्प्रे ग्राफिटि"
+
+#: tools/flow/kpToolSpraycan.cpp:78
+msgid "Click or drag to spray graffiti."
+msgstr "स्प्रे ग्राफिटिमा क्लिक गर्नुहोस् वा तान्नुहोस् ।"
+
+#: tools/polygonal/kpToolPolyline.cpp:42
+msgid "Connected Lines"
+msgstr "जडित रेखा"
+
+#: tools/polygonal/kpToolPolyline.cpp:43
+msgid "Draws connected lines"
+msgstr "जडित रेखा कोर्दछ"
+
+#: tools/polygonal/kpToolPolyline.cpp:59 tools/polygonal/kpToolPolygon.cpp:80
+msgid "Drag to draw the first line."
+msgstr "पहिलो रेखा कोर्न तान्नुहोस् ।"
+
+#: tools/polygonal/kpToolPolyline.cpp:105
+#: tools/polygonal/kpToolPolygon.cpp:153
+msgid "Left drag another line or right click to finish."
+msgstr "समाप्त गर्न अर्को रेखा बायाँ तान्नुहोस् वा दायाँ क्लिक गर्नुहोस् ।"
+
+#: tools/polygonal/kpToolPolyline.cpp:109
+#: tools/polygonal/kpToolPolygon.cpp:157
+msgid "Right drag another line or left click to finish."
+msgstr "समाप्त गर्न अर्को रेखा दायाँ तान्नुहोस् वा बायाँ क्लिक गर्नुहोस् ।"
+
+#: tools/polygonal/kpToolLine.cpp:58
+msgid "Line"
+msgstr "रेखा"
+
+#: tools/polygonal/kpToolLine.cpp:59
+msgid "Draws lines"
+msgstr "रेखा कोर्दछ"
+
+#: tools/polygonal/kpToolPolygon.cpp:61
+msgid "Polygon"
+msgstr "बहुभुज"
+
+#: tools/polygonal/kpToolPolygon.cpp:62
+msgid "Draws polygons"
+msgstr "बहुभुज कोर्दछ"
+
+#: tools/polygonal/kpToolCurve.cpp:86
+msgid "Curve"
+msgstr "वक्र"
+
+#: tools/polygonal/kpToolCurve.cpp:87
+msgid "Draws curves"
+msgstr "वक्र कोर्दछ"
+
+#: tools/polygonal/kpToolCurve.cpp:103
+msgid "Drag out the start and end points."
+msgstr "सुरुआत र समाप्ति बिन्दु तान्नुहोस् ।"
+
+#: tools/polygonal/kpToolCurve.cpp:142
+msgid "Left drag to set the first control point or right click to finish."
+msgstr ""
+"पहिलो नियन्त्रण बिन्दु सेट गर्न बायाँ तान्नुहोस् वा समाप्त गर्न दायाँ क्लिक "
+"गर्नुहोस् ।"
+
+#: tools/polygonal/kpToolCurve.cpp:147
+msgid "Right drag to set the first control point or left click to finish."
+msgstr ""
+"पहिलो नियन्त्रण बिन्दु सेट गर्न दायाँ तान्नुहोस् वा समाप्त गर्न बायाँ क्लिक "
+"गर्नुहोस् ।"
+
+#: tools/polygonal/kpToolCurve.cpp:157
+msgid "Left drag to set the last control point or right click to finish."
+msgstr ""
+"अन्तिम नियन्त्रण बिन्दु सेट गर्न बायाँ तान्नुहोस् वा समाप्त गर्न दायाँ क्लिक "
+"गर्नुहोस् ।"
+
+#: tools/polygonal/kpToolCurve.cpp:162
+msgid "Right drag to set the last control point or left click to finish."
+msgstr ""
+"अन्तिम नियन्त्रण बिन्दु सेट गर्न दायाँ तान्नुहोस् वा समाप्त गर्न बायाँ क्लिक "
+"गर्नुहोस् ।"
+
+#: tools/kpTool_UserNotifications.cpp:72
+msgid "Right click to cancel."
+msgstr "'रद्द गर्नुहोस्' मा दायाँ क्लिक गर्नुहोस् ।"
+
+#: tools/kpTool_UserNotifications.cpp:74
+msgid "Left click to cancel."
+msgstr "'रद्द गर्नुहोस्' मा बायाँ क्लिक गर्नुहोस् ।"
+
+#: tools/kpTool_UserNotifications.cpp:98
+#, kde-format
+msgid "%1: "
+msgstr "%1: "
+
+#: views/kpZoomedThumbnailView.cpp:66
+#, kde-format
+msgid "%1% - Thumbnail"
+msgstr ""
+
+#: views/kpUnzoomedThumbnailView.cpp:83
+msgid "Unzoomed Mode - Thumbnail"
+msgstr ""
+
+#: lgpl/generic/kpColorCollection.cpp:118
+#, kde-format
+msgid "Could not open color palette \"%1\"."
+msgstr ""
+
+#: lgpl/generic/kpColorCollection.cpp:157
+#, kde-format
+msgid ""
+"Could not open color palette \"%1\" - unsupported format.\n"
+"The file may be corrupt."
+msgstr ""
+
+#: lgpl/generic/kpColorCollection.cpp:208
+#, kde-format
+msgid "Could not open KDE color palette \"%1\"."
+msgstr ""
+
+#: lgpl/generic/kpColorCollection.cpp:257
+#, kde-format
+msgid "Could not save color palette as \"%1\"."
+msgstr ""
+
+#: lgpl/generic/kpColorCollection.cpp:294
+#, kde-format
+msgid ""
+"A color palette called \"%1\" already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+
+#: lgpl/generic/kpColorCollection.cpp:298 document/kpDocument_Save.cpp:340
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: lgpl/generic/kpUrlFormatter.cpp:39 lgpl/generic/kpUrlFormatter.cpp:48
+#: widgets/toolbars/kpColorToolBar.cpp:264
+msgid "Untitled"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Tools.cpp:132
+msgid "Previous Tool Option (Group #1)"
+msgstr "अघिल्लो उपकरण विकल्प (समूह #१)"
+
+#: mainWindow/kpMainWindow_Tools.cpp:138
+msgid "Next Tool Option (Group #1)"
+msgstr "पछिल्लो उपकरण विकल्प (समूह #१)"
+
+#: mainWindow/kpMainWindow_Tools.cpp:144
+msgid "Previous Tool Option (Group #2)"
+msgstr "अघिल्लो उपकरण विकल्प (समूह #२)"
+
+#: mainWindow/kpMainWindow_Tools.cpp:150
+msgid "Next Tool Option (Group #2)"
+msgstr "पछिल्लो उपकरण विकल्प (समूह #२)"
+
+#: mainWindow/kpMainWindow_Tools.cpp:162
+msgid "&Draw Opaque"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Tools.cpp:167
+msgid "Draw With Color Similarity..."
+msgstr ""
+
+#: mainWindow/kpMainWindow_Tools.cpp:175
+msgid "Tool Box"
+msgstr "उपकरण बाकस"
+
+#: mainWindow/kpMainWindow_Tools.cpp:625
+#, kde-format
+msgid ""
+"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to resize the image?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा छवि रिसाइज गर्नाले स्मृतिको धेरैजसो परिमाण लिन सक्छ । यसले "
+"प्रणाली जिम्मेवारी घटाउन सक्छ र यसका कारणले अन्य अनुप्रयोग संसाधान समस्या "
+"हुन सक्छ ।</p><p>तपाईँ यो छवि रिसाइज गर्ने चाहानामा निश्चित "
+"हुनुहुन्छ?</p></qt>"
+
+#: mainWindow/kpMainWindow_Tools.cpp:635
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
+msgid "Resize Image?"
+msgstr "छवि रिसाइज गर्नुहुन्छ?"
+
+#: mainWindow/kpMainWindow_Tools.cpp:636
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:718
+msgid "R&esize Image"
+msgstr "छवि रिसाइज गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:146
+#, kde-format
+msgid "%1,%2"
+msgstr "%1,%2"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:153
+#, kde-format
+msgid "%1,%2 - %3,%4"
+msgstr "%1,%2 - %3,%4"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:194
+#: mainWindow/kpMainWindow_StatusBar.cpp:223
+#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:92
+#: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:119
+#, kde-format
+msgid "%1x%2"
+msgstr "%1x%2"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:249
+#, kde-format
+msgid "%1bpp"
+msgstr "%1bpp"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:273
+#: mainWindow/kpMainWindow_View_Zoom.cpp:90
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: mainWindow/kpMainWindow_File.cpp:99
+msgid "E&xport..."
+msgstr "निर्यात..."
+
+#: mainWindow/kpMainWindow_File.cpp:104
+msgid "Scan..."
+msgstr "स्क्यान..."
+
+#: mainWindow/kpMainWindow_File.cpp:109
+msgid "Properties"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:115
+msgid "Reloa&d"
+msgstr "रिलोड गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_File.cpp:127
+msgid "Set as Wa&llpaper (Centered)"
+msgstr "(केन्द्रिकृत) वालपेपरका रूपमा सेट गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_File.cpp:130
+msgid "Set as Wallpaper (&Tiled)"
+msgstr "वालपेपरको रूपमा सेट गर्नुहोस् (टाइल गरिएको)"
+
+#: mainWindow/kpMainWindow_File.cpp:454
+msgid "Open Image"
+msgstr "छवि खोल्नुहोस्"
+
+#: mainWindow/kpMainWindow_File.cpp:526
+msgid "Scanning support is not installed."
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:527
+msgid "No Scanning Support"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:630
+msgid "Cannot scan - out of graphics memory."
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:631
+msgid "Cannot Scan"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:660
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
+msgid "Document Properties"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:901
+msgid "Save Image As"
+msgstr "यस रूपमा छवि बचत गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_File.cpp:951
+msgid "Export"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:1015
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Reloading will lose all changes since you last saved it.\n"
+"Are you sure?"
+msgstr ""
+"कागजात \"%1\" परिमार्जन गरिएको छ ।\n"
+"तपाईँले यसलाई अन्त्यमा बचत गरे देखि रिलोडिङले सबै परिवर्तनहरू हराउनेछ ।\n"
+"तपाईँ निश्चित हुनुहुन्छ?"
+
+#: mainWindow/kpMainWindow_File.cpp:1020 mainWindow/kpMainWindow_File.cpp:1030
+#: mainWindow/kpMainWindow_Colors.cpp:347
+#: mainWindow/kpMainWindow_Colors.cpp:360
+#: mainWindow/kpMainWindow_Colors.cpp:369
+msgid "&Reload"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:1025
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+"कागजात \"%1\" परिमार्जन गरिएको छ ।\n"
+"रिलोडिङले सबै परिवर्तनहरू हराउनेछ ।\n"
+"तपाईँ निश्चित हुनुहुन्छ?"
+
+#: mainWindow/kpMainWindow_File.cpp:1267
+msgid "Print Image"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:1352
+msgid ""
+"You must save this image before sending it.\n"
+"Do you want to save it?"
+msgstr ""
+"तपाईँले छवि पठाउनु अघि यसलाई बचत गर्नुपर्नेछ ।\n"
+"तपाईँ यसलाई बचत गर्नुहुन्छ?"
+
+#: mainWindow/kpMainWindow_File.cpp:1395
+msgid ""
+"Before this image can be set as the wallpaper, you must save it as a local "
+"file.\n"
+"Do you want to save it?"
+msgstr ""
+"यो छविलाई वालपेपरको रूपमा सेट गर्न सक्नका लागि पहिला, तपाईँले यसलाई स्थानीय "
+"फाइलको रूपमा बचत गर्नुपर्छ ।\n"
+"तपाईँ यसलाई बचत गर्न चाहनुहुन्छ?"
+
+#: mainWindow/kpMainWindow_File.cpp:1401
+msgid ""
+"Before this image can be set as the wallpaper, you must save it.\n"
+"Do you want to save it?"
+msgstr ""
+"यो छविलाई वालपेपरको रूपमा सेट गर्न सक्नुभन्दा पहिला, तपाईँले यसलाई बचत "
+"गर्नुपर्छ ।\n"
+"तपाईँ यसलाई बचत गर्न चाहनुहुन्छ?"
+
+#: mainWindow/kpMainWindow_File.cpp:1475
+msgid "Could not change wallpaper."
+msgstr "वालपेपर परिवर्तन गर्न सकेन ।"
+
+#: mainWindow/kpMainWindow_File.cpp:1510
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"कागजात \"%1\" परिमार्जन गरिएको छ ।\n"
+"तपाईँ यसलाई बचत गर्न चाहनुहुन्छ?"
+
+#: mainWindow/kpMainWindow_View_Zoom.cpp:111
+msgid "&Zoom"
+msgstr ""
+
+#: mainWindow/kpMainWindow_View_Zoom.cpp:191
+#, kde-format
+msgid ""
+"Setting the zoom level to a value that is not a multiple of 100% results in "
+"imprecise editing and redraw glitches.\n"
+"Do you really want to set to zoom level to %1%?"
+msgstr ""
+"असामयिक सम्पादनमा र पुन: रेखाङ्कन विधारीको १००% नतिजाको गुणनखण्ड नभएको मानको "
+"जुम स्तर सेटिङ ।\n"
+"तपाईँ साँच्चिकै %1% जुम स्तरमा सेट गर्न चाहनुहुन्छ?"
+
+#: mainWindow/kpMainWindow_View_Zoom.cpp:196
+#, kde-format
+msgid "Set Zoom Level to %1%"
+msgstr "जुम स्तर %1% सम्म सेट गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_Help.cpp:62
+msgid "Acquiring &Screenshots"
+msgstr "स्क्रिनसट लिनुहोस्"
+
+#: mainWindow/kpMainWindow_Help.cpp:134
+#, kde-format
+msgid ""
+"<p>To acquire a screenshot, press <b>%1</b>.  The screenshot will be placed "
+"into the clipboard and you will be able to paste it in "
+"KolourPaint.</p><p>You may configure the <b>Desktop Screenshot</b> shortcut "
+"in the KDE System Settings module <a href=\"configure kde "
+"shortcuts\">Keyboard Shortcuts</a>.</p><p>Alternatively, you may try the "
+"application <a href=\"run ksnapshot\">KSnapshot</a>.</p>"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Help.cpp:157
+#, kde-format
+msgid ""
+"<p>You do not appear to be running KDE.</p><p>Once you have loaded "
+"KDE:<br><blockquote>To acquire a screenshot, press <b>%1</b>.  The "
+"screenshot will be placed into the clipboard and you will be able to paste "
+"it in KolourPaint.</blockquote></p><p>Alternatively, you may try the "
+"application <a href=\"run ksnapshot\">KSnapshot</a>.</p>"
+msgstr ""
+"<p>तपाईँले केडीई चलाइरहेको जस्तो देखिदैन ।</p><p>एकपटक तपाईँले केडीई लोड "
+"गर्नु भएको छ:<br><blockquote>स्क्रिनसट प्राप्त गर्न, <b>%1</b> थिच्नुहोस् । "
+"स्क्रिनसट क्लिपबोर्डमा राखिनेछ र तपाईँ यसलाई कलरपेन्टमा टाँस्न सक्षम "
+"हुनुहुनेछ ।</blockquote></p><p>वैकल्पिक रूपमा, तपाईँले अनुप्रयोग <a "
+"href=\"run ksnapshot\">के स्न्यापसट प्रयास गर्न सक्नुहुन्छ</a> ।</p>"
+
+#: mainWindow/kpMainWindow_Help.cpp:186
+msgid "Acquiring Screenshots"
+msgstr "स्क्रिनसट प्राप्त गर्दै"
+
+#: mainWindow/kpMainWindow_Image.cpp:113
+msgid "R&esize / Scale..."
+msgstr "रिसाइज गर्नुहोस् / मापन गर्नुहोस्..."
+
+#: mainWindow/kpMainWindow_Image.cpp:118
+msgid "Se&t as Image (Crop)"
+msgstr "(क्रप) छविको रूपमा सेट गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_Image.cpp:128
+msgid "&Flip..."
+msgstr "फ्लिप..."
+
+#: mainWindow/kpMainWindow_Image.cpp:133
+msgid "&Rotate..."
+msgstr "परिक्रमण..."
+
+#: mainWindow/kpMainWindow_Image.cpp:139
+msgid "Rotate &Left"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Image.cpp:145
+msgid "Rotate Righ&t"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Image.cpp:151
+msgid "S&kew..."
+msgstr "बाङ्गो..."
+
+#: mainWindow/kpMainWindow_Image.cpp:156
+msgid "Reduce to Mo&nochrome (Dithered)"
+msgstr "(हल्लिएको) मोनोक्रममा घटाउनुहोस्"
+
+#: mainWindow/kpMainWindow_Image.cpp:160
+msgid "Reduce to &Grayscale"
+msgstr "ग्रेस्केलमा घटाउनुहोस्"
+
+#: mainWindow/kpMainWindow_Image.cpp:164
+msgid "&Invert Colors"
+msgstr "रङ रूपान्तरण गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_Image.cpp:169
+msgid "C&lear"
+msgstr "खाली गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_Image.cpp:174
+msgid "&More Effects..."
+msgstr "धेरै प्रभाव..."
+
+#: mainWindow/kpMainWindow_Image.cpp:210
+msgctxt ""
+"Image/Selection Menu caption - make sure the translation has the same accel "
+"as the Select&ion translation"
+msgid "&Image"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Image.cpp:214
+msgctxt ""
+"Image/Selection Menu caption - make sure that translation has the same accel "
+"as the &Image translation"
+msgid "Select&ion"
+msgstr ""
+
+#: mainWindow/kpMainWindow_View_Thumbnail.cpp:69
+msgid "Show T&humbnail"
+msgstr "थम्बनेल देखाउनुहोस्"
+
+#: mainWindow/kpMainWindow_View_Thumbnail.cpp:80
+msgid "Zoo&med Thumbnail Mode"
+msgstr "जुम गरिएको थम्बनेल मोड"
+
+#: mainWindow/kpMainWindow_View_Thumbnail.cpp:90
+msgid "Enable Thumbnail &Rectangle"
+msgstr "थम्बनेल आयात सक्षम पार्नुहोस्"
+
+#: mainWindow/kpMainWindow_Colors.cpp:59
+msgid "Use KolourPaint Defaults"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:64
+msgctxt "@item:inmenu colors"
+msgid "Use KDE's"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:73
+msgctxt "@item:inmenu colors"
+msgid "&Open..."
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:78
+msgctxt "@item:inmenu colors"
+msgid "Reloa&d"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:84
+msgctxt "@item:inmenu colors"
+msgid "&Save"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:89
+msgctxt "@item:inmenu colors"
+msgid "Save &As..."
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:95
+msgctxt "@item:inmenu colors"
+msgid "Add Row"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:100
+msgctxt "@item:inmenu colors"
+msgid "Delete Last Row"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:111
+msgid "Color Box"
+msgstr "रङ बाकस"
+
+#: mainWindow/kpMainWindow_Colors.cpp:187
+#, kde-format
+msgid ""
+"The color palette \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:199
+#, kde-format
+msgid ""
+"The KDE color palette \"%1\" has been modified.\n"
+"Do you want to save it to a file?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:208
+msgid ""
+"The default color palette has been modified.\n"
+"Do you want to save it to a file?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:317
+msgid "Open Color Palette"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:342
+#, kde-format
+msgid ""
+"The color palette \"%1\" has been modified.\n"
+"Reloading will lose all changes since you last saved it.\n"
+"Are you sure?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:355
+#, kde-format
+msgid ""
+"The KDE color palette \"%1\" has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:365
+msgid ""
+"The default color palette has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:418
+msgid "Save Color Palette As"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Edit.cpp:79
+#, kde-format
+msgid ""
+"<qt><p>The image to be pasted may have more colors than the current screen "
+"mode can support. In order to display it, some color information may be "
+"removed.</p><p><b>If you save this image, any color loss will become "
+"permanent.</b></p><p>To avoid this issue, increase your screen depth to at "
+"least %1bpp and then restart KolourPaint.</p><hr/><p>It also contains "
+"translucency which is not fully supported. The translucency data will be "
+"approximated with a 1-bit transparency mask.</p><p><b>If you save this "
+"image, this loss of translucency will become permanent.</b></p></qt>"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Edit.cpp:99
+#, kde-format
+msgid ""
+"<qt><p>The image to be pasted may have more colors than the current screen "
+"mode can support. In order to display it, some color information may be "
+"removed.</p><p><b>If you save this image, any color loss will become "
+"permanent.</b></p><p>To avoid this issue, increase your screen depth to at "
+"least %1bpp and then restart KolourPaint.</p></qt>"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Edit.cpp:108
+msgid ""
+"<qt><p>The image to be pasted contains translucency which is not fully "
+"supported. The translucency data will be approximated with a 1-bit "
+"transparency mask.</p><p><b>If you save this image, this loss of "
+"translucency will become permanent.</b></p></qt>"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Edit.cpp:141
+msgid "Paste in &New Window"
+msgstr "नयाँ सञ्झ्यालमा टाँस्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:148
+msgid "&Delete Selection"
+msgstr "चयन मेट्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:156
+msgid "C&opy to File..."
+msgstr "फाइलमा प्रतिलिपि गर्नुहोस्..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:160
+msgid "Paste &From File..."
+msgstr "फाइलबाट टाँस्नुहोस्..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:370
+msgid "<qt><p>There is nothing in the clipboard to paste.</p></qt>"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Edit.cpp:371 mainWindow/kpMainWindow_Edit.cpp:761
+msgid "Cannot Paste"
+msgstr "टाँस्न सकिदैन"
+
+#: mainWindow/kpMainWindow_Edit.cpp:574
+msgid "Text: Paste"
+msgstr "पाठ: टाँस्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:755
+msgid ""
+"<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
+"unexpectedly disappeared.</p><p>This usually occurs if the application which "
+"was responsible for the clipboard contents has been closed.</p></qt>"
+msgstr ""
+"<qt><p> कलर पेन्टले अनपेक्षित रूपमा हराउने लगत जस्तै क्लिपबोर्डको सामग्री "
+"टाँस्न सक्दैन ।</p><p>यदि क्लिपबोर्ड सामग्रीका लागि जिम्मेवार भएको अनुप्रयोग "
+"बन्द गरिएको भएमा यो प्राय: गरेर देखा पर्छ ।</p></qt>"
+
+#: mainWindow/kpMainWindow_Edit.cpp:855
+msgid "Text: Delete Box"
+msgstr "पाठ: बाकस मेट्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:856
+msgid "Selection: Delete"
+msgstr "चयन: मेट्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:925
+msgid "Text: Finish"
+msgstr "पाठ: समाप्त गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:926
+msgid "Selection: Deselect"
+msgstr "चयन: चयनबाट हटाउनुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:1003
+msgid "Copy to File"
+msgstr "फाइलमा प्रतिलिपि गर्नुहोस्"
+
+#: mainWindow/kpMainWindow_Edit.cpp:1049
+msgid "Paste From File"
+msgstr "फाइलबाट टाँस्नुहोस्"
+
+#: mainWindow/kpMainWindow_View.cpp:76
+msgid "Show &Grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: mainWindow/kpMainWindow_Text.cpp:60
+msgid "Font Family"
+msgstr "फन्ट समूह"
+
+#: mainWindow/kpMainWindow_Text.cpp:65
+msgid "Font Size"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Text.cpp:71
+msgid "Bold"
+msgstr "बाक्लो"
+
+#: mainWindow/kpMainWindow_Text.cpp:77
+msgid "Italic"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Text.cpp:83
+msgid "Underline"
+msgstr "अधोरेखा"
+
+#: mainWindow/kpMainWindow_Text.cpp:89
+msgid "Strike Through"
+msgstr "स्ट्राइकथ्रु"
+
+#: mainWindow/kpMainWindow_Settings.cpp:69
+msgid "Show &Path"
+msgstr "बाटो देखाउनुहोस्"
+
+#. i18n: file: kolourpaintui.rc:38
+#. i18n: ectx: Menu (view)
+#: rc.cpp:3 rc.cpp:29
+msgid "&View"
+msgstr ""
+
+#. i18n: file: kolourpaintui.rc:73
+#. i18n: ectx: Menu (image)
+#. i18n: file: kolourpaintui.rc:210
+#. i18n: ectx: Menu (image)
+#. i18n: file: kolourpaintui.rc:73
+#. i18n: ectx: Menu (image)
+#. i18n: file: kolourpaintui.rc:210
+#. i18n: ectx: Menu (image)
+#: rc.cpp:6 rc.cpp:24 rc.cpp:32 rc.cpp:50
+msgid "&Image"
+msgstr "छवि"
+
+#. i18n: file: kolourpaintui.rc:99
+#. i18n: ectx: Menu (colors)
+#: rc.cpp:9 rc.cpp:35
+msgid "&Colors"
+msgstr ""
+
+#. i18n: file: kolourpaintui.rc:150
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:12 rc.cpp:38
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: kolourpaintui.rc:165
+#. i18n: ectx: ToolBar (textToolBar)
+#: rc.cpp:15 rc.cpp:41
+msgid "Text Toolbar"
+msgstr "पाठ उपकरणपट्टी"
+
+#. i18n: file: kolourpaintui.rc:175
+#. i18n: ectx: Menu (selectionToolRMBMenu)
+#: rc.cpp:18 rc.cpp:44
+msgid "Selection Tool RMB Menu"
+msgstr "चयन उपकरण आरएमबी मेनु"
+
+#. i18n: file: kolourpaintui.rc:177
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:21 rc.cpp:47
+msgid "&Edit"
+msgstr ""
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,,"
+
+#: dialogs/kpColorSimilarityDialog.cpp:47
+msgid "Color Similarity"
+msgstr "रङ समानता"
+
+#: dialogs/kpColorSimilarityDialog.cpp:53
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:166
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: dialogs/kpColorSimilarityDialog.cpp:59
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:173
+msgid "&Update"
+msgstr ""
+
+#: dialogs/kpColorSimilarityDialog.cpp:73
+msgid "&RGB Color Cube Distance"
+msgstr ""
+
+#: dialogs/kpColorSimilarityDialog.cpp:80
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:319
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:326
+msgid "%"
+msgstr "%"
+
+#: dialogs/kpColorSimilarityDialog.cpp:81
+msgid "Exact Match"
+msgstr "दुरुस्त मिल्ने"
+
+#: dialogs/kpColorSimilarityDialog.cpp:86
+msgid ""
+"<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
+msgstr ""
+
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:62
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:68
+msgid "Save Preview"
+msgstr "पूर्वावलोकन बचत गर्नुहोस्"
+
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:140
+#, kde-format
+msgid "1 byte (approx. %2%)"
+msgid_plural "%1 bytes (approx. %2%)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
+msgid "Rotate Selection"
+msgstr "चयन घुमाउनुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
+msgid "Rotate Image"
+msgstr "छवि घुमाउनुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:71
+msgid "After rotate:"
+msgstr ""
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:99
+#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:56
+msgid "Direction"
+msgstr "दिशा"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:110
+msgid "Cou&nterclockwise"
+msgstr "घडीको विपरित दिशामा"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:111
+msgid "C&lockwise"
+msgstr "घडीको दिशामा"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:136
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:101
+msgid "Angle"
+msgstr "कोण"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:140
+msgid "90 &degrees"
+msgstr "९० डिग्री"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:141
+msgid "180 d&egrees"
+msgstr "१८० डिग्री"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:142
+msgid "270 de&grees"
+msgstr "२७० डिग्री"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:144
+msgid "C&ustom:"
+msgstr "अनुकूल:"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:148
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:113
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:124
+msgid "degrees"
+msgstr "डिग्री"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:271
+#, kde-format
+msgid ""
+"<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure want to rotate the selection?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा चयन घुमाउनाले स्मृतिको धेरैजसो मात्रा लिन सक्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>के तपाईँ चयन घुमाउने चाहानामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:279
+msgid "Rotate Selection?"
+msgstr "चयन घुमाउनुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:280
+msgid "Rotat&e Selection"
+msgstr "चयन घुमाउनुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:286
+#, kde-format
+msgid ""
+"<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to rotate the image?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा छवि घुमाउनले स्मृतिको धेरैजसो मात्र लिन सक्छ । यसले प्रणाली "
+"उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या हुन्छ "
+"।</p><p>तपाईँ छवि घुमाउने चाहानामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:294
+msgid "Rotate Image?"
+msgstr "छवि घुमाउनुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:295
+msgid "Rotat&e Image"
+msgstr "छवि घुमाउनुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:54
+msgid "Flip Selection"
+msgstr "चयन फ्लिप गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:54
+msgid "Flip Image"
+msgstr "छवि फ्लिप गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:59
+msgid "&Vertical (upside-down)"
+msgstr "ठाडो (माथिल्लो भाग-तल)"
+
+#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:60
+msgid "&Horizontal"
+msgstr "तेर्सो"
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:131
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:292
+msgid "Dimensions"
+msgstr "आयाम"
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:133
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:299
+msgid "Original:"
+msgstr "मौलिक:"
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:137
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:242
+#, kde-format
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:102
+msgid "Resize / Scale"
+msgstr "रिसाइज गर्नुहोस्/ मापन गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:165
+msgid "Ac&t on:"
+msgstr "कार्य:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:171
+msgid "Entire Image"
+msgstr "पूरै छवि"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:174
+#: layers/selections/image/kpAbstractImageSelection.cpp:195
+msgid "Selection"
+msgstr "चयन"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:177
+msgid "Text Box"
+msgstr "पाठ बाकस"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:215
+msgid "Operation"
+msgstr "सञ्चालन"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:217
+msgid ""
+"<qt><ul><li><b>Resize</b>: The size of the picture will be increased by "
+"creating new areas to the right and/or bottom (filled in with the background "
+"color) or decreased by cutting it at the right and/or "
+"bottom.</li><li><b>Scale</b>: The picture will be expanded by duplicating "
+"pixels or squashed by dropping pixels.</li><li><b>Smooth Scale</b>: This is "
+"the same as <i>Scale</i> except that it blends neighboring pixels to produce "
+"a smoother looking picture.</li></ul></qt>"
+msgstr ""
+"<qt><ul><li><b>रिसाइज</b>: तस्वीरको साइज दायाँ र/वा तल (पृष्ठभूमि रङ सँग "
+"भरिएको) मा नयाँ क्षेत्र सिर्जना गरेर बढाउन सकिन्छ वा यसलाई दायाँ र/वा तल "
+"काटेर घटाउन सकिन्छ ।</li><li><b>मापन</b>: तस्वीरलाई पिक्सेल नक्कल गरेर "
+"विस्तार गर्न सकिन्छ वा पिक्सेल छोडेर धमाका गर्न सकिन्छ ।</li><li><b>महीन "
+"मापन</b>: यो <i>मापन</i> जस्तै हो यो बाहेक यसले महीन देखिने तस्वीर उत्पादन "
+"गर्न छिमेकी पिक्सेललाई समिश्रण गर्दछ ।</li></ul></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:238
+msgid "&Resize"
+msgstr "रिसाइज गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:243
+msgid "&Scale"
+msgstr "मापन गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:248
+msgid "S&mooth Scale"
+msgstr "महीन मापन"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:294
+msgid "Width:"
+msgstr "चौडाइ:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:296
+msgid "Height:"
+msgstr "उचाइ:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:303
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:310
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:320
+msgid "x"
+msgstr "x"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:308
+msgid "&New:"
+msgstr "नयाँ:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:313
+msgid "&Percent:"
+msgstr "प्रतिशत:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:328
+msgid "Keep &aspect ratio"
+msgstr "आकार अनुपात राख्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:695
+#, kde-format
+msgid ""
+"<qt><p>Resizing the text box to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to resize the text "
+"box?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा पाठ बाकस रिसाइज गर्नाले स्मृतिको धेरैजसो मात्रा लिन्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउँछ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>के तपाईँ पाठ बाकस रिसाइज गर्ने चाहानामा निश्चित "
+"हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:703
+msgid "Resize Text Box?"
+msgstr "पाठ बाकस रिसाइज गर्नुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:704
+msgid "R&esize Text Box"
+msgstr "पाठ बाकस रिसाइज गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:709
+#, kde-format
+msgid ""
+"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to resize the image?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा छवि रिसाइज गर्नाले स्मृतिको धेरैजसो मात्रा लिन्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>तपाईँ छवि रिसाइज गर्ने चहानामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:727
+#, kde-format
+msgid ""
+"<qt><p>Scaling the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to scale the image?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा छवि मापन गर्नाले स्मृतिको धेरैजसो मात्रा लिन सक्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>तपाईँ छवि मापन गर्ने चाहानामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:735
+msgid "Scale Image?"
+msgstr "छवि मापन गर्नुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:736
+msgid "Scal&e Image"
+msgstr "छवि मापन गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:741
+#, kde-format
+msgid ""
+"<qt><p>Scaling the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to scale the "
+"selection?</p></qt>"
+msgstr ""
+"<qt><p>चयन %1x%2 मा मापन गर्दा स्मृतिको धेरैजसो मात्र लिन सक्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोगमा समस्या हुन्छ "
+"।</p><p>तपाईँ चयन मापन गर्न चाहानामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:749
+msgid "Scale Selection?"
+msgstr "चयन मापन गर्नुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:750
+msgid "Scal&e Selection"
+msgstr "चयन मापन गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:759
+#, kde-format
+msgid ""
+"<qt><p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to smooth scale the "
+"image?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा छवि महीन मापन गर्नाले स्मृतिको धेरैजसो मात्र लिन सक्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>के तपाईँ छवि महीन मापन गर्ने चाहानामा निश्चित "
+"हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:767
+msgid "Smooth Scale Image?"
+msgstr "मापन छवि महीन गर्नुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:768
+msgid "Smooth Scal&e Image"
+msgstr "मापन छवि महीन गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:773
+#, kde-format
+msgid ""
+"<qt><p>Smooth Scaling the selection to %1x%2 may take a substantial amount "
+"of memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to smooth scale the "
+"selection?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा चयन महीन मापन गर्नाले स्मृतिको धेरैजसो मात्रा लिन सक्छ । "
+"यसले प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोमा संसाधान "
+"समस्या हुन्छ ।</p><p>के तपाईँ चयन महीन मापन गर्ने चाहानाम निश्चित "
+"हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:781
+msgid "Smooth Scale Selection?"
+msgstr "मापन चयन महीन गर्नुहुन्छ ?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:782
+msgid "Smooth Scal&e Selection"
+msgstr "मापन चयन महीन गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
+msgid "Skew Selection"
+msgstr "चयन बाङ्गो बनाउँनुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
+msgid "Skew Image"
+msgstr "छवि बाङ्गो बनाउनुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:71
+msgid "After skew:"
+msgstr ""
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:108
+msgid "&Horizontal:"
+msgstr "तेर्सो:"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:119
+msgid "&Vertical:"
+msgstr "ठाडो:"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:252
+#, kde-format
+msgid ""
+"<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure want to skew the selection?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा चयन बाङ्गो पार्नाले स्मृतिको धेरैजसो मात्रा लिन सक्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>के तपाईँ चयन बाङ्गो गर्ने चाहनामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:260
+msgid "Skew Selection?"
+msgstr "चयन बाङ्गो गर्नुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:261
+msgid "Sk&ew Selection"
+msgstr "चयन बाङ्गो गर्नुहोस्"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:267
+#, kde-format
+msgid ""
+"<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to skew the image?</p></qt>"
+msgstr ""
+"<qt><p>%1x%2 मा छवि बाङ्गो गर्नाले स्मृतिको धेरैजसो मात्रा लिन सक्छ । यसले "
+"प्रणाली उत्तरदायित्व घटाउन सक्छ र यसले गर्दा अन्य अनुप्रयोग संसाधानमा समस्या "
+"हुन्छ ।</p><p>के तपाईँ छवि बाङ्गो पार्ने चाहानामा निश्चित हनुहुन्छ?</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:275
+msgid "Skew Image?"
+msgstr "छवि बाङ्गो गर्नुहुन्छ?"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:276
+msgid "Sk&ew Image"
+msgstr "छवि बाङ्गो गर्नुहोस्"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:91
+msgid "More Image Effects (Selection)"
+msgstr "धेरै छवि प्रभाव (चयन)"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:93
+msgid "More Image Effects"
+msgstr "धेरै छवि प्रभाव"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:106
+msgid "&Effect:"
+msgstr "प्रभाव:"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:112
+#: commands/imagelib/effects/kpEffectBalanceCommand.cpp:44
+msgid "Balance"
+msgstr "सन्तुलन"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:113
+#: commands/imagelib/effects/kpEffectEmbossCommand.cpp:43
+msgid "Emboss"
+msgstr "इम्बोस"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:114
+#: commands/imagelib/effects/kpEffectFlattenCommand.cpp:44
+msgid "Flatten"
+msgstr "चाक्लो पारिएको"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:115
+#: commands/imagelib/effects/kpEffectToneEnhanceCommand.cpp:41
+msgid "Histogram Equalizer"
+msgstr ""
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:116
+#: commands/imagelib/effects/kpEffectHSVCommand.cpp:40
+msgid "Hue, Saturation, Value"
+msgstr ""
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:117
+#: commands/imagelib/effects/kpEffectInvertCommand.cpp:50
+msgid "Invert"
+msgstr "उल्टो पार्नुहोस्"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:118
+msgid "Reduce Colors"
+msgstr "रङ घटाउनुहोस्"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:119
+msgid "Soften & Sharpen"
+msgstr "नरमपन र तिखोपन"
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:137
+msgid "Dots &Per Inch (DPI)"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:147
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:216
+msgid "Horizontal:"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:149
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:164
+msgid "Unspecified"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:152
+msgctxt "Horizontal DPI 'x' Vertical DPI"
+msgid " x "
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:162
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:224
+msgid "Vertical:"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:182
+msgid ""
+"<qt><p><b>Dots Per Inch</b> (DPI) specifies the number of pixels of the "
+"image that should be printed inside one inch (2.54cm).</p><p>The higher the "
+"image's DPI, the smaller the printed image. Note that your printer is "
+"unlikely to produce high quality prints if you increase this to more than "
+"300 or 600 DPI, depending on the printer.</p><p>If you would like to print "
+"the image so that it is the same size as it is displayed on the screen, set "
+"the image's DPI values to be the same as the screen's.</p><p>If either DPI "
+"value is <b>Unspecified</b>, the image will also be printed to be the same "
+"size as on the screen.</p><p>Not all image formats support DPI values.  If "
+"the format you save in does not support them, they will not be "
+"saved.</p></qt>"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:213
+msgid "O&ffset"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:246
+msgid ""
+"<qt><p>The <b>Offset</b> is the relative position where this image should be "
+"placed, compared to other images.</p><p>Not all image formats support the "
+"<b>Offset</b> feature. If the format you save in does not support it, the "
+"values specified here will not be saved.</p></qt>"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:262
+msgid "&Text Fields"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:284
+msgid "&Add Row"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:289
+msgid "&Delete Row"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:295
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:74
+msgid "&Reset"
+msgstr "रिसेट गर्नुहोस्"
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:312
+msgid ""
+"<qt><p><b>Text Fields</b> provide extra information about the image. This is "
+"probably a comment area that you can freely write any text "
+"in.</p><p>However, this is format-specific so the fields could theoretically "
+"be computer-interpreted data - that you should not modify - but this is "
+"unlikely.</p><p>Not all image formats support <b>Text Fields</b>.  If the "
+"format you save in does not support them, they will not be saved.</p></qt>"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:398
+msgid "Key"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:398
+msgid "Value"
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:486
+#, kde-format
+msgid "The text value \"%1\" on line %2 requires a key."
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:512
+#, kde-format
+msgid ""
+"All text keys must be unique. The text key \"%1\" on lines %2 and %3 are "
+"identical."
+msgstr ""
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:827
+msgid "Invalid Text Fields"
+msgstr ""
+
+#: commands/tools/selection/kpToolSelectionResizeScaleCommand.cpp:62
+#: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:110
+msgid "Text: Resize Box"
+msgstr "पाठ: बाकस रिसाइज गर्नुहोस्"
+
+#: commands/tools/selection/kpToolSelectionResizeScaleCommand.cpp:63
+#: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:117
+msgid "Selection: Smooth Scale"
+msgstr "चयन: महीन स्केल"
+
+#: commands/kpCommandHistoryBase.cpp:447
+#, kde-format
+msgid "&Undo: %1"
+msgstr "पूर्वस्थितिमा फर्काउनुहोस्: %1"
+
+#: commands/kpCommandHistoryBase.cpp:449
+msgid "&Undo"
+msgstr ""
+
+#: commands/kpCommandHistoryBase.cpp:458
+#, kde-format
+msgid "&Redo: %1"
+msgstr "रिडू गर्नुहोस्: %1"
+
+#: commands/kpCommandHistoryBase.cpp:460
+msgid "&Redo"
+msgstr ""
+
+#: commands/kpCommandHistoryBase.cpp:470
+#, kde-format
+msgid "Undo: %1"
+msgstr ""
+
+#: commands/kpCommandHistoryBase.cpp:472 commands/kpCommandHistoryBase.cpp:663
+msgid "Undo"
+msgstr ""
+
+#: commands/kpCommandHistoryBase.cpp:481
+#, kde-format
+msgid "Redo: %1"
+msgstr ""
+
+#: commands/kpCommandHistoryBase.cpp:483 commands/kpCommandHistoryBase.cpp:684
+msgid "Redo"
+msgstr ""
+
+#: commands/kpCommandHistoryBase.cpp:626
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: commands/kpCommandHistoryBase.cpp:636
+#, kde-format
+msgid "%1 more item"
+msgid_plural "%1 more items"
+msgstr[0] "%1 धेरै वस्तु"
+msgstr[1] "%1 धेरै वस्तु"
+
+#: commands/imagelib/transforms/kpTransformSkewCommand.cpp:75
+msgid "Skew"
+msgstr "बाङ्गो"
+
+#: commands/imagelib/transforms/kpTransformSkewCommand.cpp:78
+#: commands/imagelib/transforms/kpTransformRotateCommand.cpp:75
+#: commands/imagelib/transforms/kpTransformFlipCommand.cpp:86
+#: commands/imagelib/effects/kpEffectCommandBase.cpp:67
+#: commands/imagelib/effects/kpEffectClearCommand.cpp:62
+#, kde-format
+msgid "Selection: %1"
+msgstr "चयन: %1"
+
+#: commands/imagelib/transforms/kpTransformRotateCommand.cpp:72
+msgid "Rotate"
+msgstr "घुमाउनुहोस्"
+
+#: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:115
+msgid "Selection: Scale"
+msgstr "चयन: मापन"
+
+#: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:125
+msgid "Resize"
+msgstr "रिसाइज गर्नुहोस्"
+
+#: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:127
+msgid "Scale"
+msgstr "मापन गर्नुहोस्"
+
+#: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:129
+msgid "Smooth Scale"
+msgstr "महीन मापन"
+
+#: commands/imagelib/transforms/kpTransformFlipCommand.cpp:69
+msgid "Flip"
+msgstr "फ्लिप गर्नुहोस्"
+
+#: commands/imagelib/transforms/kpTransformFlipCommand.cpp:72
+msgid "Flip horizontally and vertically"
+msgstr "तेर्सो र ठाडो रूपमा फ्लिप गर्नुहोस्"
+
+#: commands/imagelib/transforms/kpTransformFlipCommand.cpp:74
+msgid "Flip horizontally"
+msgstr "तेर्सो गरी फ्लिप गर्नुहोस्"
+
+#: commands/imagelib/transforms/kpTransformFlipCommand.cpp:76
+msgid "Flip vertically"
+msgstr "ठाडो गरी फ्लिप गर्नुहोस्"
+
+#: commands/imagelib/effects/kpEffectBlurSharpenCommand.cpp:58
+msgid "Soften"
+msgstr "नरम"
+
+#: commands/imagelib/effects/kpEffectBlurSharpenCommand.cpp:60
+msgid "Sharpen"
+msgstr "तिखो"
+
+#: commands/imagelib/effects/kpEffectGrayscaleCommand.cpp:41
+msgid "Reduce to Grayscale"
+msgstr "ग्रेस्केलमा घटाउनुहोस्"
+
+#: commands/imagelib/effects/kpEffectClearCommand.cpp:59
+msgid "Clear"
+msgstr ""
+
+#: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:68
+msgid "Reduce to Monochrome (Dithered)"
+msgstr "(हल्लिएको) मोनोक्रममा घटाउनुहोस्"
+
+#: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:70
+msgid "Reduce to Monochrome"
+msgstr "मोनोक्रममा घटाउनुहोस्"
+
+#: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:75
+msgid "Reduce to 256 Color (Dithered)"
+msgstr "(हल्लिएको) २५६ रङमा घटाउनुहोस्"
+
+#: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:77
+msgid "Reduce to 256 Color"
+msgstr "२५६ रङमा घटाउनुहोस्"
+
+#: commands/imagelib/effects/kpEffectInvertCommand.cpp:50
+#: commands/imagelib/effects/kpEffectInvertCommand.cpp:58
+msgid "Invert Colors"
+msgstr "रङहरू उल्टाउनुहोस्"
+
+#: kolourpaint.cpp:49
+msgid "KolourPaint"
+msgstr ""
+
+#: kolourpaint.cpp:51
+msgid "Paint Program for KDE"
+msgstr "केडीईका लागि पेन्ट कार्यक्रम"
+
+#: kolourpaint.cpp:54
+msgid "To obtain support, please visit the website."
+msgstr ""
+
+#: kolourpaint.cpp:65
+msgid "Clarence Dang"
+msgstr ""
+
+#: kolourpaint.cpp:65
+msgid "Project Founder"
+msgstr ""
+
+#: kolourpaint.cpp:66
+msgid "Thurston Dang"
+msgstr ""
+
+#: kolourpaint.cpp:66
+msgid "Chief Investigator"
+msgstr "मुख्य खोजकर्ता"
+
+#: kolourpaint.cpp:68
+msgid "Kristof Borrey"
+msgstr ""
+
+#: kolourpaint.cpp:68 kolourpaint.cpp:70 kolourpaint.cpp:71
+msgid "Icons"
+msgstr "प्रतिमा"
+
+#: kolourpaint.cpp:69
+msgid "Kazuki Ohta"
+msgstr ""
+
+#: kolourpaint.cpp:69
+msgid "InputMethod Support"
+msgstr "आगतविधि समर्थन"
+
+#: kolourpaint.cpp:70
+msgid "Nuno Pinheiro"
+msgstr ""
+
+#: kolourpaint.cpp:71
+msgid "Danny Allen"
+msgstr ""
+
+#: kolourpaint.cpp:72
+msgid "Mike Gashler"
+msgstr ""
+
+#: kolourpaint.cpp:72
+msgid "Image Effects"
+msgstr ""
+
+#: kolourpaint.cpp:74
+msgid "Laurent Montel"
+msgstr ""
+
+#: kolourpaint.cpp:74
+msgid "KDE 4 Porting"
+msgstr ""
+
+#: kolourpaint.cpp:77
+msgid "Martin Koller"
+msgstr ""
+
+#: kolourpaint.cpp:77
+msgid "Scanning Support"
+msgstr ""
+
+#: kolourpaint.cpp:80
+msgid ""
+"Thanks to the many others who have helped to make this program possible."
+msgstr ""
+
+#: kolourpaint.cpp:86
+msgid "Image file to open"
+msgstr "खोल्नुपर्ने छवि फाइल"
+
+#: kpViewScrollableContainer.cpp:158 kpViewScrollableContainer.cpp:954
+#: kpViewScrollableContainer.cpp:960 kpViewScrollableContainer.cpp:966
+msgid "Left drag the handle to resize the image."
+msgstr "छवि रिसाइज गर्न ह्यान्डल बायाँ तान्नुहोस् ।"
+
+#: kpViewScrollableContainer.cpp:232
+msgid "Resize Image: Let go of all the mouse buttons."
+msgstr "छवि रिसाइज गर्नुहोस्: सबै माउस बटनमा जानुहोस् ।"
+
+#: kpViewScrollableContainer.cpp:262
+msgid "Resize Image: Right click to cancel."
+msgstr "छवि रिसाइज गर्नुहोस्: 'रद्द गर्नुहोस्' मा दायाँ क्लिक गर्नुहोस् ।"
+
+#: document/kpDocument_Open.cpp:201
+#, kde-format
+msgid "Could not open \"%1\"."
+msgstr "\"%1\" खोल्न सकेन ।"
+
+#: document/kpDocument_Open.cpp:241
+#, kde-format
+msgid "Could not open \"%1\" - unknown mimetype."
+msgstr "\"%1\" खोल्न सकेन - अज्ञात माइमप्रकार ।"
+
+#: document/kpDocument_Open.cpp:266
+#, kde-format
+msgid ""
+"Could not open \"%1\" - unsupported image format.\n"
+"The file may be corrupt."
+msgstr ""
+"\"%1\" मा खोल्न सकेन - असमर्थित छवि ढाँचा ।\n"
+"फाइल बिग्रेको हुन सक्छ ।"
+
+#: document/kpDocument_Open.cpp:274
+#, kde-format
+msgid ""
+"<qt><p>The image \"%1\" may have more colors than the current screen mode "
+"can support. In order to display it, some color information may be "
+"removed.</p><p><b>If you save this image, any color loss will become "
+"permanent.</b></p><p>To avoid this issue, increase your screen depth to at "
+"least %2bpp and then restart KolourPaint.</p><hr/><p>It also contains "
+"translucency which is not fully supported. The translucency data will be "
+"approximated with a 1-bit transparency mask.</p><p><b>If you save this "
+"image, this loss of translucency will become permanent.</b></p></qt>"
+msgstr ""
+
+#: document/kpDocument_Open.cpp:295
+#, kde-format
+msgid ""
+"<qt><p>The image \"%1\" may have more colors than the current screen mode "
+"can support. In order to display it, some color information may be "
+"removed.</p><p><b>If you save this image, any color loss will become "
+"permanent.</b></p><p>To avoid this issue, increase your screen depth to at "
+"least %2bpp and then restart KolourPaint.</p></qt>"
+msgstr ""
+
+#: document/kpDocument_Open.cpp:305
+#, kde-format
+msgid ""
+"<qt><p>The image \"%1\" contains translucency which is not fully supported. "
+"The translucency data will be approximated with a 1-bit transparency "
+"mask.</p><p><b>If you save this image, this loss of translucency will become "
+"permanent.</b></p></qt>"
+msgstr ""
+
+#: document/kpDocument_Open.cpp:321
+#, kde-format
+msgid "Could not open \"%1\" - out of graphics memory."
+msgstr "\"%1\" खोल्न सकेन - ग्राफिक्स स्मृति बाहिर ।"
+
+#: document/kpDocument_Save.cpp:88
+msgid "Could not save image - insufficient information."
+msgstr "छवि बचत गर्न सकेन - अपर्याप्त सूचना ।"
+
+#: document/kpDocument_Save.cpp:93
+msgid "<empty>"
+msgstr "<empty>"
+
+#: document/kpDocument_Save.cpp:89
+#, kde-format
+msgid ""
+"URL: %1\n"
+"Mimetype: %2"
+msgstr ""
+"यूआरएल: %1\n"
+"माइमप्रकार: %2"
+
+#: document/kpDocument_Save.cpp:95
+msgid "Internal Error"
+msgstr "आन्तरिक त्रुटि"
+
+#: document/kpDocument_Save.cpp:128
+#, kde-format
+msgid ""
+"<qt><p>The <b>%1</b> format may not be able to preserve all of the image's "
+"color information.</p><p>Are you sure you want to save in this "
+"format?</p></qt>"
+msgstr ""
+"<qt><p><b>%1</b> ढाँचाले सबै छविको रङ जानकारी सुरक्षित राख्न नसक्न सक्छ "
+"।</p><p>तपाईँ यो ढाँचामा बचत गर्ने चाहनामा निश्चित हुनुहुन्छ?</p></qt>"
+
+#: document/kpDocument_Save.cpp:135
+msgid "Lossy File Format"
+msgstr "लसी फाइल ढाँचा"
+
+#: document/kpDocument_Save.cpp:144
+#, kde-format
+msgid ""
+"<qt><p>Saving the image at the low color depth of %1-bit may result in the "
+"loss of color information. Any transparency might also be removed.</p><p>Are "
+"you sure you want to save at this color depth?</p></qt>"
+msgstr ""
+
+#: document/kpDocument_Save.cpp:154
+msgid "Low Color Depth"
+msgstr "न्यून रङ गहिराइ"
+
+#: document/kpDocument_Save.cpp:299
+msgid "Could not save image - unable to create temporary file."
+msgstr "छवि बचत गर्न सकेन - अस्थायी फाइल सिर्जना गर्न अक्षम ।"
+
+#: document/kpDocument_Save.cpp:306
+#, kde-format
+msgid "Could not save as \"%1\"."
+msgstr "\"%1\" का रूपमा बचत गर्न सकेन ।"
+
+#: document/kpDocument_Save.cpp:336
+#, kde-format
+msgid ""
+"A document called \"%1\" already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"\"%1\" नामकरण गरिएको कागजात पहिल्यै अवस्थित छ ।\n"
+"तपाईँ यसलाई अधिलेखन गर्न चाहनुहुन्छ?"
+
+#: document/kpDocument_Save.cpp:473
+msgid "Could not save image - failed to upload."
+msgstr "छवि बचत गर्न सकेन - अनलोड गर्न असफल भयो ।"
+
+#: kpThumbnail.cpp:126
+msgid "Thumbnail"
+msgstr "थम्बनेल"
+
+#: widgets/kpPrintDialogPage.cpp:60
+msgid "I&mage Position"
+msgstr ""
+
+#: widgets/kpPrintDialogPage.cpp:65
+msgid "&Center of the page"
+msgstr ""
+
+#: widgets/kpPrintDialogPage.cpp:67
+msgid "Top-&left of the page"
+msgstr ""
+
+#: widgets/kpColorCells.cpp:196
+msgid ""
+"<qt><p>To select the foreground color that tools use to draw, left-click on "
+"a filled-in color cell. To select the background color, right-click "
+"instead.</p><p>To change the color of a color cell itself, double-click on "
+"it.</p><p>You can also swap the color of a filled-in cell with any other "
+"cell using drag and drop. Also, if you hold down the <b>Ctrl</b> key, the "
+"destination cell's color will be overwritten, instead of being swapped with "
+"the color of the source cell.</p></qt>"
+msgstr ""
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:94
+msgid "Convert &to:"
+msgstr "यसमा रूपान्तरण गर्नुहोस्:"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:99
+msgid "Quali&ty:"
+msgstr "गुणस्तर:"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:107
+msgid "&Preview"
+msgstr "पूर्वावलोकन"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:229
+msgid "Monochrome"
+msgstr "मोनोक्रोम"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:230
+msgid "Monochrome (Dithered)"
+msgstr "एकल रङ छायाँ (हल्लिएको)"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:234
+msgid "256 Color"
+msgstr "२५६ रङ"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:235
+msgid "256 Color (Dithered)"
+msgstr "२५६ रङ (हल्लिएको)"
+
+#: widgets/kpDocumentSaveOptionsWidget.cpp:240
+msgid "24-bit Color"
+msgstr "२४-बिट रङ"
+
+#: widgets/kpTransparentColorCell.cpp:65
+#: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:45
+msgid "Transparent"
+msgstr "पारदर्शी"
+
+#: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:43
+msgid "Opaque"
+msgstr "अपारदर्शी"
+
+#: widgets/toolbars/options/kpToolWidgetBrush.cpp:164
+msgid "1x1"
+msgstr "१x१"
+
+#: widgets/toolbars/options/kpToolWidgetBrush.cpp:172
+msgid "Circle"
+msgstr "वृत्त"
+
+#: widgets/toolbars/options/kpToolWidgetBrush.cpp:175
+msgid "Square"
+msgstr "वर्ग"
+
+#: widgets/toolbars/options/kpToolWidgetBrush.cpp:179
+msgid "Slash"
+msgstr "स्ल्यास"
+
+#: widgets/toolbars/options/kpToolWidgetBrush.cpp:183
+msgid "Backslash"
+msgstr "ब्याकस्ल्यास"
+
+#: widgets/toolbars/options/kpToolWidgetBrush.cpp:190
+#, kde-format
+msgid "%1x%2 %3"
+msgstr "%1x%2 %3"
+
+#: widgets/toolbars/options/kpToolWidgetFillStyle.cpp:136
+msgid "No Fill"
+msgstr "नभर्नुहोस्"
+
+#: widgets/toolbars/options/kpToolWidgetFillStyle.cpp:139
+msgid "Fill with Background Color"
+msgstr "पृष्ठभूमि रङसँग भर्नुहोस्"
+
+#: widgets/toolbars/options/kpToolWidgetFillStyle.cpp:142
+msgid "Fill with Foreground Color"
+msgstr "अग्रभूमि रङसँग भर्नुहोस्"
+
+#: widgets/toolbars/kpColorToolBar.cpp:260
+msgid "KolourPaint Defaults"
+msgstr ""
+
+#: widgets/toolbars/kpColorToolBar.cpp:273
+#, kde-format
+msgctxt "Colors: name_or_url_of_color_palette"
+msgid "Colors: %1"
+msgstr ""
+
+#: widgets/toolbars/kpColorToolBar.cpp:280
+#, kde-format
+msgctxt "Colors: name_or_url_of_color_palette [modified]"
+msgid "Colors: %1 [modified]"
+msgstr ""
+
+#: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:72
+msgid ""
+"<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of different "
+"pixels must be, for operations to consider them to be the same.</p><p>If you "
+"set it to something other than <b>Exact Match</b>, you can work more "
+"effectively with dithered images and photos, in a comparable manner to the "
+"\"Magic Wand\" feature of other paint programs.</p><p>This feature applies "
+"to:</p><ul><li><b>Selections</b>: In <b>Transparent</b> mode, any color in "
+"the selection that is <i>similar</i> to the background color will be made "
+"transparent.</li><li><b>Flood Fill</b>: For regions with <i>similar</i> - "
+"but not identical - colored pixels, a higher setting is likely to fill more "
+"pixels.</li><li><b>Color Eraser</b>: Any pixel whose color is <i>similar</i> "
+"to the foreground color will be replaced with the background "
+"color.</li><li><b>Autocrop</b> and <b>Remove Internal Border</b>: For "
+"borders with <i>similar</i> - but not identical - colored pixels, a higher "
+"setting is more likely to crop the whole border.</li></ul><p>Higher settings "
+"mean that operations consider an increased range of colors to be "
+"sufficiently <i>similar</i> so as to be the same.  Therefore, you should "
+"increase the setting if the above operations are not affecting pixels whose "
+"colors you consider to be similar enough.</p><p>However, if they are having "
+"too much of an effect and are changing pixels whose colors you do not "
+"consider to be similar (e.g. if <b>Flood Fill</b> is changing too many "
+"pixels), you should decrease this setting.</p><p>To configure it, click on "
+"the cube.</p></qt>"
+msgstr ""
+
+#: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:122
+msgid ""
+"<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of different "
+"pixels must be, for operations to consider them to be the same.</p><p>If you "
+"set it to something other than <b>Exact Match</b>, you can work more "
+"effectively with dithered images and photos, in a comparable manner to the "
+"\"Magic Wand\" feature of other paint programs.</p><p>This feature applies "
+"to:</p><ul><li><b>Selections</b>: In <b>Transparent</b> mode, any color in "
+"the selection that is <i>similar</i> to the background color will be made "
+"transparent.</li><li><b>Flood Fill</b>: For regions with <i>similar</i> - "
+"but not identical - colored pixels, a higher setting is likely to fill more "
+"pixels.</li><li><b>Color Eraser</b>: Any pixel whose color is <i>similar</i> "
+"to the foreground color will be replaced with the background "
+"color.</li><li><b>Autocrop</b> and <b>Remove Internal Border</b>: For "
+"borders with <i>similar</i> - but not identical - colored pixels, a higher "
+"setting is more likely to crop the whole border.</li></ul><p>Higher settings "
+"mean that operations consider an increased range of colors to be "
+"sufficiently <i>similar</i> so as to be the same.  Therefore, you should "
+"increase the setting if the above operations are not affecting pixels whose "
+"colors you consider to be similar enough.</p><p>However, if they are having "
+"too much of an effect and are changing pixels whose colors you do not "
+"consider to be similar (e.g. if <b>Flood Fill</b> is changing too many "
+"pixels), you should decrease this setting.</p></qt>"
+msgstr ""
+
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:224
+#, kde-format
+msgid ""
+"<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
+msgstr ""
+
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:231
+msgid ""
+"<p>Color Similarity: Exact Match</p><p align=\"center\">Click to "
+"configure.</p>"
+msgstr ""
+
+#: widgets/imagelib/effects/kpEffectInvertWidget.cpp:63
+msgid "&Red"
+msgstr "रातो"
+
+#: widgets/imagelib/effects/kpEffectInvertWidget.cpp:64
+msgid "&Green"
+msgstr "हरियो"
+
+#: widgets/imagelib/effects/kpEffectInvertWidget.cpp:65
+msgid "&Blue"
+msgstr "नीलो"
+
+#: widgets/imagelib/effects/kpEffectInvertWidget.cpp:70
+msgid "&All"
+msgstr "सबै"
+
+#: widgets/imagelib/effects/kpEffectInvertWidget.cpp:144
+msgid "Channels"
+msgstr "च्यानलहरू"
+
+#: widgets/imagelib/effects/kpEffectBlurSharpenWidget.cpp:53
+#: widgets/imagelib/effects/kpEffectToneEnhanceWidget.cpp:67
+#: widgets/imagelib/effects/kpEffectEmbossWidget.cpp:54
+msgid "&Amount:"
+msgstr "मात्रा:"
+
+#: widgets/imagelib/effects/kpEffectToneEnhanceWidget.cpp:65
+msgid "&Granularity:"
+msgstr ""
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:49
+msgid "&Hue:"
+msgstr ""
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:50
+msgid "&Saturation:"
+msgstr ""
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:51
+msgctxt "The V of HSV"
+msgid "&Value:"
+msgstr ""
+
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:60
+msgid "&Monochrome"
+msgstr "मोनोक्रोम"
+
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:63
+msgid "Mo&nochrome (dithered)"
+msgstr "मोनोक्रोम (हल्लिएको)"
+
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:65
+msgid "256 co&lor"
+msgstr "२५६ रङ"
+
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:67
+msgid "256 colo&r (dithered)"
+msgstr "२५६ रङ (हल्लिएको)"
+
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:69
+msgid "24-&bit color"
+msgstr "२४-बिट रङ"
+
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:192
+msgid "Reduce To"
+msgstr "यसमा घटाउनुहोस्"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:66
+msgid "&Brightness:"
+msgstr "चम्किलोपन:"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:69
+msgid "Re&set"
+msgstr "रिसेट गर्नुहोस्"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:71
+msgid "Co&ntrast:"
+msgstr "व्यतिरेक:"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:76
+msgid "&Gamma:"
+msgstr "गामा:"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:85
+msgid "Rese&t"
+msgstr "रिसेट गर्नुहोस्"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:92
+msgid "C&hannels:"
+msgstr "च्यानल:"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:94
+msgid "All"
+msgstr "सबै"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:95
+msgid "Red"
+msgstr "रातो"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:96
+msgid "Green"
+msgstr "हरियो"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:97
+msgid "Blue"
+msgstr "नीलो"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:100
+msgid "Reset &All Values"
+msgstr "सबै मान रिसेट गर्नुहोस्"
+
+#: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:169
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: widgets/imagelib/effects/kpEffectEmbossWidget.cpp:58
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: widgets/imagelib/effects/kpEffectEmbossWidget.cpp:74
+#: widgets/imagelib/effects/kpEffectFlattenWidget.cpp:73
+msgid "E&nable"
+msgstr "सक्षम पार्नुहोस्"
+
+#: widgets/imagelib/effects/kpEffectFlattenWidget.cpp:136
+msgid "Colors"
+msgstr "रङहरू"
+
+#: pixmapfx/kpPixmapFX_FormatConversion.cpp:188
+msgid "Loss of Color and Translucency Information"
+msgstr ""
+
+#: pixmapfx/kpPixmapFX_FormatConversion.cpp:202
+msgid "Loss of Color Information"
+msgstr ""
+
+#: pixmapfx/kpPixmapFX_FormatConversion.cpp:209
+msgid "Loss of Translucency Information"
+msgstr ""
+
+#: pixmapfx/kpPixmapFX_ScreenDepth.cpp:60
+#, kde-format
+msgid ""
+"<qt><p>KolourPaint does not support the current screen depth of %1bpp. "
+"KolourPaint will attempt to start but may act unreliably.</p><p>To avoid "
+"this issue, please change your screen depth to 24bpp and then restart "
+"KolourPaint.</p></qt>"
+msgstr ""
+
+#: pixmapfx/kpPixmapFX_ScreenDepth.cpp:66
+msgid "Unsupported Screen Mode"
+msgstr ""
+
+#: pixmapfx/kpPixmapFX_ScreenDepth.cpp:85
+#, kde-format
+msgid ""
+"<qt><p>This effect does not support the current screen depth of "
+"%1bpp.</p><p>To avoid this issue, please change your screen depth to 24bpp "
+"and then restart KolourPaint.</p></qt>"
+msgstr ""
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:384
+msgid "Remove Internal B&order"
+msgstr "आन्तरिक किनारा हटाउनुहोस्"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:386
+msgid "Remove Internal Border"
+msgstr "आन्तरिक किनारा हटाउनुहोस्"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:391
+msgid "Autocr&op"
+msgstr "स्वत: काटछाँट गर्नुहोस्"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:393
+msgid "Autocrop"
+msgstr "स्वत: काटछाँट गर्नुहोस्"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:620
+msgid ""
+"KolourPaint cannot remove the selection's internal border as it could not be "
+"located."
+msgstr ""
+"कलरपेन्टले चयनको आन्तरिक किनारालाई स्थापना गर्न नसके जस्तै यसलाई हटाउन "
+"सक्दैन ।।"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:622
+msgid "Cannot Remove Internal Border"
+msgstr "आन्तरिक किनारा हटाउन सकिँदैन"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:628
+msgid ""
+"KolourPaint cannot automatically crop the image as its border could not be "
+"located."
+msgstr ""
+"कलरपेन्टले यसको किनारा राख्न नसके जस्तै स्वचालित रूपमा छवि काटछाँट गर्न "
+"सक्दैन ।"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:630
+msgid "Cannot Autocrop"
+msgstr "स्वत: काटछाँट गर्न सक्दैन"
+
+#: imagelib/transforms/kpTransformCrop.cpp:45
+msgid "Set as Image"
+msgstr "छविको रूपमा सेट गर्नुहोस्"

@@ -1,0 +1,1674 @@
+# translation of juk.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: juk\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 12:09+0000\n"
+"PO-Revision-Date: 2010-04-15 12:24+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:29+0000\n"
+
+#: advancedsearchdialog.cpp:43
+msgid "Create Search Playlist"
+msgstr "खोजी बजाउने सूची सिर्जना गर्नुहोस्"
+
+#: advancedsearchdialog.cpp:55
+msgid "Playlist name:"
+msgstr "बजाउने सूची नाम:"
+
+#: advancedsearchdialog.cpp:58
+msgid "Search Criteria"
+msgstr "खोजी दायरा"
+
+#: advancedsearchdialog.cpp:65
+msgid "Match any of the following"
+msgstr "निम्न मध्ये कुनै मिलाउनुहोस्"
+
+#: advancedsearchdialog.cpp:66
+msgid "Match all of the following"
+msgstr "निम्न सबै मिलाउनुहोस्"
+
+#: advancedsearchdialog.cpp:113
+msgctxt "additional search options"
+msgid "More"
+msgstr "अधिक"
+
+#: advancedsearchdialog.cpp:117
+msgid "Fewer"
+msgstr "एकदम कम"
+
+#: cache.cpp:379
+msgid ""
+"The music data cache has been corrupted. JuK needs to rescan it now. This "
+"may take some time."
+msgstr ""
+"सङ्गीत डेटा क्यास दूषित भयो । जुकले यसलाई फेरि पुन: स्क्यान गर्न चाहन्छ । "
+"यसले केही समय लिन सक्छ ।"
+
+#: collectionlist.cpp:96
+msgid "Collection List"
+msgstr "सङ्कलन सूची"
+
+#: collectionlist.cpp:203
+msgid ""
+"Removing an item from the collection will also remove it from all of your "
+"playlists. Are you sure you want to continue?\n"
+"\n"
+"Note, however, that if the directory that these files are in is in your "
+"\"scan on startup\" list, they will be readded on startup."
+msgstr ""
+"सङ्कलनबाट एउटा वस्तु हटाउँदा तपाईँको सबै प्ले सूचीबाट यसलाई हटाउनेछ । तपाईँ "
+"यसलाई निरन्तरता दिन निश्चित हुनुहुन्छ ?\n"
+"\n"
+"द्रष्टब्य, जे भएता पनि, यदि डाइरेक्टरी जसमा यी फाइलहरू \"सुरुआतमा स्क्यान "
+"गर्नुहोस्\" सूचीमा छन् भने, तिनीहरू सुरुआतमा पुन: थपिने छन् ।"
+
+#: collectionlist.cpp:249
+msgid "Show Playing"
+msgstr "बजिरहेको देखाउनुहोस्"
+
+#: coverdialog.cpp:38
+msgid "&lt;All Artists&gt;"
+msgstr "&lt;सबै कलाकारहरु&gt;"
+
+#: coverdialog.cpp:153
+msgid "Remove Cover"
+msgstr "आवरण हटाउनुहोस्"
+
+#: deletedialog.cpp:54
+#, kde-format
+msgid "<b>1</b> file selected."
+msgid_plural "<b>%1</b> files selected."
+msgstr[0] "<b>१</b> फाइल छानियो।"
+msgstr[1] "<b>%1</b> फाइलहरु छानिए।"
+
+#: deletedialog.cpp:65
+msgid ""
+"<qt>These items will be <b>permanently deleted</b> from your hard disk.</qt>"
+msgstr ""
+"<qt>यी वस्तुहरू <b>तपाईँको हार्डडिक्सबाट</b> स्थायी रूपमा मेटिनेछन् ।</qt>"
+
+#: deletedialog.cpp:71
+msgid "<qt>These items will be moved to the Trash Bin.</qt>"
+msgstr "<qt>यी वस्तुहरू रद्दीटोकरीमा सारिनेछन् ।</qt>"
+
+#: deletedialog.cpp:83
+msgid "&Send to Trash"
+msgstr "रद्दीटोकरीमा पठाउनुहोस्"
+
+#: deletedialog.cpp:87
+msgid "About to delete selected files"
+msgstr "चयन गरिएको फाइल मेट्ने बारे"
+
+#: directorylist.cpp:41
+msgid "Folder List"
+msgstr "फोल्डर सूची"
+
+#: exampleoptions.cpp:55 main.cpp:48 systemtray.cpp:478 systemtray.cpp:486
+msgid "JuK"
+msgstr "JuK"
+
+#: filerenamer.cpp:66
+msgctxt "warning about mass file rename"
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: filerenamer.cpp:76
+msgid ""
+"You are about to rename the following files. Are you sure you want to "
+"continue?"
+msgstr ""
+"तपाईँ निम्न फाइल पुन: नामकरण गर्दै हुनुहुन्छ । तपाईँ जारी राख्न निश्चित "
+"हुनुहुन्छ ?"
+
+#: filerenamer.cpp:82
+msgid "Original Name"
+msgstr "मौलिक नाम"
+
+#: filerenamer.cpp:83
+msgid "New Name"
+msgstr "नयाँ नाम"
+
+#: filerenamer.cpp:91
+msgid "No Change"
+msgstr "कुनै परिवर्तन छैन"
+
+#: filerenamer.cpp:368
+msgctxt "remove music genre from file renamer"
+msgid "Remove"
+msgstr "हटाउनुहोस्"
+
+#: filerenamer.cpp:373
+msgctxt "file renamer genre options"
+msgid "Options"
+msgstr "विकल्पहरु"
+
+#: filerenamer.cpp:471
+msgid "Insert folder separator"
+msgstr "फोल्डर विभाजक घुसाउनुहोस्"
+
+#: filerenamer.cpp:564
+msgid "No file selected, or selected file has no tags."
+msgstr "कुनै फाइल चयन गरिएको छैन वा चयन गरिएको फाइलसँग कुनै ट्याग छैन ।"
+
+#: filerenamer.cpp:807
+msgid "Hide Renamer Test Dialog"
+msgstr "पुन: नामकरण गर्ने परीक्षण संवाद लुकाउनुहोस्"
+
+#. i18n: file: filerenamerbase.ui:212
+#. i18n: ectx: property (text), widget (KPushButton, m_showExample)
+#: filerenamer.cpp:812 rc.cpp:119
+msgid "Show Renamer Test Dialog"
+msgstr "पुन: नामकरण गर्ने परीक्षण संवाद देखाउनुहोस्"
+
+#: filerenamer.cpp:894
+#, kde-format
+msgid "%1 to %2"
+msgstr "%2 मा %1"
+
+#: filerenamer.cpp:901
+msgid "The following rename operations failed:\n"
+msgstr "निम्न पुन: नामकरण सञ्चालन असफल भयो:\n"
+
+#: filerenamerconfigdlg.cpp:28
+msgid "File Renamer Options"
+msgstr "फाइल पुन: नामकरण गर्ने विकल्प"
+
+#: filerenameroptions.cpp:38
+#, kde-format
+msgctxt "%1 will be a music tag category like Artist or Album"
+msgid "%1 Options"
+msgstr "%1 विकल्पहरु"
+
+#: filerenameroptions.cpp:39
+#, kde-format
+msgid "%1 Format"
+msgstr "%1 ढाँचा"
+
+#: filerenameroptions.cpp:40
+#, kde-format
+msgid "When the Track's %1 is Empty"
+msgstr "ट्रयाकको %1 खाली हुँदा"
+
+#: filerenameroptions.cpp:41
+#, kde-format
+msgid ""
+"When using the file renamer your files will be renamed to the values that "
+"you have in your track's %1 tag, plus any additional text that you specify "
+"below."
+msgstr ""
+"फाइल पुन: नामकरणकर्ता प्रयोग गर्दा तपाईँको फाइल मानहरूमा पुन: नामकरण हुनेछ "
+"जुन तपाईँको ट्रयाकको %1 ट्यागमा छ, त्यसमा थप कुनै अतिरिक्त पाठ जुन तपाईँले "
+"तल निर्दिष्ट गर्नुभएको छ ।"
+
+#: filerenameroptions.cpp:115
+msgid "File Renamer"
+msgstr "फाइल पुन: नामकरणकर्ता"
+
+#: historyplaylist.cpp:65
+msgid "Time"
+msgstr "समय"
+
+#: juk.cpp:143
+msgid "Your album art failed to download."
+msgstr ""
+
+#: juk.cpp:145
+msgid "Your album art has finished downloading."
+msgstr ""
+
+#: juk.cpp:189 systemtray.cpp:180
+msgid "&Random Play"
+msgstr "अनियमित बजाइ"
+
+#: juk.cpp:196
+msgid "&Disable Random Play"
+msgstr "अनियमित बजाइ अक्षम पार्नुहोस्"
+
+#: juk.cpp:202
+msgid "Use &Random Play"
+msgstr "अनियमित बजाइ प्रयोग गर्नुहोस्"
+
+#: juk.cpp:208
+msgid "Use &Album Random Play"
+msgstr "एल्बम अनियमित बजाइ प्रयोग गर्नुहोस्"
+
+#: juk.cpp:215
+msgid "Remove From Playlist"
+msgstr "बजाउने सूचीबाट हटाउनुहोस्"
+
+#: juk.cpp:219
+msgid "Crossfade Between Tracks"
+msgstr ""
+
+#: juk.cpp:223
+msgid "&Play"
+msgstr "बजाउनुहोस्"
+
+#: juk.cpp:227
+msgid "P&ause"
+msgstr "पज गर्नुहोस्"
+
+#: juk.cpp:231
+msgid "&Stop"
+msgstr "रोक्नुहोस्"
+
+#: juk.cpp:234
+msgctxt "previous track"
+msgid "Previous"
+msgstr "अघिल्लो"
+
+#: juk.cpp:239
+msgctxt "next track"
+msgid "&Next"
+msgstr "पछिल्लो"
+
+#: juk.cpp:243
+msgid "&Loop Playlist"
+msgstr "लूप बजाउने सूची"
+
+#: juk.cpp:247
+msgid "&Resize Playlist Columns Manually"
+msgstr "प्ले सूची स्तम्भ म्यानुअल तरिकाले रिसाइज गर्नुहोस्"
+
+#: juk.cpp:252
+msgctxt "silence playback"
+msgid "Mute"
+msgstr "मौन"
+
+#: juk.cpp:256
+msgid "Volume Up"
+msgstr "भोल्युम बढाउनुहोस्"
+
+#: juk.cpp:260
+msgid "Volume Down"
+msgstr "भोल्युम घटाउनुहोस्"
+
+#: juk.cpp:264
+msgid "Play / Pause"
+msgstr "प्ले / पज गर्नुहोस्"
+
+#: juk.cpp:268
+msgid "Seek Forward"
+msgstr "अघिल्तिर खोजी गर्नुहोस्"
+
+#: juk.cpp:272
+msgid "Seek Back"
+msgstr "पछिल्लितर खोजी गर्नुहोस्"
+
+#: juk.cpp:276
+msgid "Show / Hide"
+msgstr "देखाउनुहोस् / लुकाउनुहोस्"
+
+#: juk.cpp:283
+msgid "Show Splash Screen on Startup"
+msgstr "सुरुआतमा स्प्लास पर्दा देखाउनुहोस्"
+
+#: juk.cpp:286
+msgid "&Dock in System Tray"
+msgstr "प्रणाली ट्रेमा डक गर्नुहोस्"
+
+#: juk.cpp:290
+msgid "&Stay in System Tray on Close"
+msgstr "बन्द गर्दा प्रणाली ट्रेमा रोकिनुहोस्"
+
+#: juk.cpp:293
+msgid "Popup &Track Announcement"
+msgstr "पपअप ट्रयाक जानकारी"
+
+#: juk.cpp:296
+msgid "Save &Play Queue on Exit"
+msgstr "निस्कँदा बजाउने लामलाई बचत गर्नुहोस्"
+
+#: juk.cpp:299
+msgid "&Tag Guesser..."
+msgstr "ट्याग अनुमानकर्ता..."
+
+#: juk.cpp:302
+msgid "&File Renamer..."
+msgstr "फाइल पुन: नामकरणकर्ता..."
+
+#: juk.cpp:308
+msgid "Track Position"
+msgstr "ट्रयाक स्थिति"
+
+#: juk.cpp:482
+msgid ""
+"<qt>Closing the main window will keep JuK running in the system tray. Use "
+"Quit from the File menu to quit the application.</qt>"
+msgstr ""
+"<qt>मुख्य सञ्झ्याल बन्द गर्नाले प्रणाली ट्रेमा चलिरहेको ज्युके राख्नेछ । "
+"अनुप्रयोग अन्त्य गर्न फाइल मेनुबाट 'अन्त्य गर्नुहोस्' प्रयोग गर्नुहोस् ।</qt>"
+
+#: juk.cpp:484
+msgid "Docking in System Tray"
+msgstr "प्रणाली ट्रेमा डक गर्दैछ"
+
+#: k3bexporter.cpp:105
+msgid "Add Selected Items to Audio or Data CD"
+msgstr "अडियो वा डेटा सीडी मा चयन गरिएको वस्तु थप्नुहोस्"
+
+#: k3bexporter.cpp:177
+msgid "Unable to start K3b."
+msgstr "K3b सुरु गर्न अक्षम भयो ।"
+
+#: k3bexporter.cpp:212
+msgid "There was a DCOP communication error with K3b."
+msgstr "त्यहाँ K3b सँग डीसीओपी सञ्चार त्रुटि थियो ।"
+
+#: k3bexporter.cpp:245
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable "
+"for computers and other digital music players?"
+msgstr ""
+"सीडी प्लेयरका लागि उपयुक्त अडियो सीडी मोड, वा कम्प्युटर र अन्य डिजिटल सङ्गीत "
+"प्लेयरका लागि उपयुक्त डेटा मोड सीडी सिर्जना गर्नुहुन्छ ?"
+
+#: k3bexporter.cpp:248
+msgid "Create K3b Project"
+msgstr "K3b परियोजना सिर्जना गर्नुहोस्"
+
+#: k3bexporter.cpp:249
+msgid "Audio Mode"
+msgstr "अडियो मोड"
+
+#: k3bexporter.cpp:250
+msgid "Data Mode"
+msgstr "डेटा मोड"
+
+#: k3bexporter.cpp:276
+msgid "Add Playlist to Audio or Data CD"
+msgstr "अडियो वा डेटा CD मा बजाउने सूची थप्नुहोस्"
+
+#: keydialog.cpp:96
+msgid "Configure Shortcuts"
+msgstr "सर्टकट कन्फिगर गर्नुहोस्"
+
+#: keydialog.cpp:113
+msgid "Global Shortcuts"
+msgstr "विश्वव्यापि सर्टकट"
+
+#: keydialog.cpp:118
+msgid "&No keys"
+msgstr "कुञ्जी छैन"
+
+#: keydialog.cpp:122
+msgid "&Standard keys"
+msgstr "मानक कुञ्जी"
+
+#: keydialog.cpp:126
+msgid "&Multimedia keys"
+msgstr "मल्टिमिडिया कुञ्जी"
+
+#: keydialog.cpp:132
+msgid ""
+"Here you can select the keys used as global shortcuts to control the player"
+msgstr ""
+"प्लेयर नियन्त्रण गर्न तपाईँले यहाँ विश्वव्यापी सर्टकटको रूपमा कुञ्जी चयन "
+"गर्न सक्नुहुन्छ ।"
+
+#: main.cpp:27
+msgid "Jukebox and music manager for KDE"
+msgstr "केडीई का लागि जुकबक्स र सङ्गित प्रबन्धक"
+
+#: main.cpp:28
+msgid "Author, chief dork and keeper of the funk"
+msgstr "लेखक, फङ्कको मुख्य डोर्क र किपर"
+
+#: main.cpp:29
+msgid "Assistant super-hero, fixer of many things"
+msgstr "सहायक सुपर-नायक, धेरै कुराको फिक्सर"
+
+#: main.cpp:30
+msgid "More KDE 4 porting efforts"
+msgstr ""
+
+#: main.cpp:31
+msgid ""
+"System tray docking, \"inline\" tag editing,\n"
+"bug fixes, evangelism, moral support"
+msgstr ""
+"प्रणाली ट्रे डकिङ,, \"इनलाइन\" ट्याग सम्पादन,\n"
+"बग समाधान, इभान्जेलिजम, नैतिक समर्थन"
+
+#: main.cpp:32
+msgid "GStreamer port"
+msgstr "GStreamer पोर्ट"
+
+#: main.cpp:33
+msgid "Global keybindings support"
+msgstr "विश्वव्यापी कुञ्जीबन्धन समर्थन"
+
+#: main.cpp:34
+msgid "Track announcement popups"
+msgstr "ट्रयाक घोषणा पपअप"
+
+#: main.cpp:35
+msgid "Automagic track data guessing, bugfixes"
+msgstr "स्वत: जादू ट्रयाक डेटा अनुमानित भइरहेको छ, बग फिक्सेस"
+
+#: main.cpp:36
+msgid "More automagical things, now using MusicBrainz"
+msgstr "धेरै स्वत: जादूगर चिज, हाल अहिले सङ्गीत ब्रेन्ज प्रयोग गर्दै"
+
+#: main.cpp:37
+msgid "Co-conspirator in MusicBrainz wizardry"
+msgstr "सङ्गीत ब्रेन्ज विजार्डीमा सह-षड़यन्त्रकारी"
+
+#: main.cpp:38
+msgid "Friendly, neighborhood aRts guru"
+msgstr "मित्रवत, छिमेकी कला गुरु"
+
+#: main.cpp:39
+msgid ""
+"Making JuK friendlier to people with\n"
+"terabytes of music"
+msgstr ""
+"सङ्गीतको तेराबिटसँग मानिसलाई\n"
+"जुक मित्रवत बनाउँदै"
+
+#: main.cpp:40
+msgid "DCOP interface"
+msgstr "DCOP इन्टरफेस"
+
+#: main.cpp:41
+msgid "FLAC and MPC support"
+msgstr "FLAC र MPC समर्थन"
+
+#: main.cpp:42
+msgid "Album cover manager"
+msgstr "एल्बम आवरण प्रबन्धक"
+
+#: main.cpp:43
+msgid "Gimper of splash screen"
+msgstr "स्प्लास पर्दाको गिम्पर"
+
+#: main.cpp:44
+msgid "Porting to KDE 4 when no one else was around"
+msgstr ""
+
+#: main.cpp:50
+msgid "© 2002 - 2009, Scott Wheeler"
+msgstr "© २००२ - २००९, स्कोट ह्विलर (Scott Wheeler)"
+
+#: main.cpp:53
+msgid "Scott Wheeler"
+msgstr "स्कोट ह्विलर (Scott Wheeler)"
+
+#: main.cpp:54
+msgid "Michael Pyne"
+msgstr "माइकेल पेनी (Michael Pyne)"
+
+#: main.cpp:55
+msgid "Daniel Molkentin"
+msgstr "डेनियल मोलकेनटिन (Daniel Molkentin)"
+
+#: main.cpp:56
+msgid "Tim Jansen"
+msgstr "टिम जेन्सन (Tim Jansen)"
+
+#: main.cpp:57
+msgid "Stefan Asserhäll"
+msgstr "स्टिफन एसरहल (Stefan Asserhäll)"
+
+#: main.cpp:58
+msgid "Stephen Douglas"
+msgstr "स्टिफन डगलस (Stephen Douglas)"
+
+#: main.cpp:59
+msgid "Frerich Raabe"
+msgstr "फ्रेरिच रैबी (Frerich Raabe)"
+
+#: main.cpp:60
+msgid "Zack Rusin"
+msgstr "ज्याक रसिन (Zack Rusin)"
+
+#: main.cpp:61
+msgid "Adam Treat"
+msgstr "एड्म ट्रिट (Adam Treat)"
+
+#: main.cpp:62
+msgid "Matthias Kretz"
+msgstr ""
+
+#: main.cpp:63
+msgid "Maks Orlovich"
+msgstr ""
+
+#: main.cpp:64
+msgid "Antonio Larrosa Jimenez"
+msgstr ""
+
+#: main.cpp:65
+msgid "Allan Sandfeld Jensen"
+msgstr "ऐलेन सेन्डफेल्ड जेन्सेन (Allan Sandfeld Jensen)"
+
+#: main.cpp:66
+msgid "Nathan Toone"
+msgstr "नाथन टुन (Nathan Toone)"
+
+#: main.cpp:67
+msgid "Pascal Klein"
+msgstr "पास्कल क्लेन (Pascal Klein)"
+
+#: main.cpp:68
+msgid "Laurent Montel"
+msgstr "लाउरेन्ट मोन्टेल (Laurent Montel)"
+
+#: main.cpp:69
+msgid "Georg Grabler"
+msgstr ""
+
+#: main.cpp:74
+msgid "File(s) to open"
+msgstr "खोल्ने फाइल(हरू)"
+
+#: mediafiles.cpp:90
+msgctxt "open audio file"
+msgid "Open"
+msgstr "खोल्नुहोस्"
+
+#: mediafiles.cpp:110
+msgid "Playlists"
+msgstr "बजाउने सूची"
+
+#: musicbrainzquery.cpp:38
+msgid "Querying MusicBrainz server..."
+msgstr "क्वेरिङ म्युजिकब्रेन्ज सर्भर..."
+
+#: musicbrainzquery.cpp:51
+msgid "No matches found."
+msgstr "मिल्दो फेला परेन"
+
+#: musicbrainzquery.cpp:65
+msgid "Error connecting to MusicBrainz server."
+msgstr "म्युजिकब्रेन्ज सर्भरमा जडान त्रुटि"
+
+#: nowplaying.cpp:309
+msgid "back to playlist"
+msgstr "बजाउने सूचीमा फर्कनुहोस्"
+
+#: nowplaying.cpp:340 nowplaying.cpp:355 playlistcollection.cpp:557
+msgid "History"
+msgstr "इतिहास"
+
+#: playermanager.cpp:454
+#, kde-format
+msgctxt ""
+"%1 will be the /path/to/file, %2 will be some string from Phonon describing "
+"the error"
+msgid ""
+"JuK is unable to play the audio file<nl><filename>%1</filename><nl>for the "
+"following reason:<nl><message>%2</message>"
+msgstr ""
+
+#: playlist.cpp:550
+#, kde-format
+msgid "Could not save to file %1."
+msgstr "%1 फाइलमा बचत गर्न सकेन"
+
+#: playlist.cpp:816
+msgid "Are you sure you want to delete these covers?"
+msgstr "तपाईँले ति आवरण मेट्न चाहनुमा निश्चित हुनुहुन्छ ?"
+
+#: playlist.cpp:818
+msgid "&Delete Covers"
+msgstr "आवरण मेट्नुहोस्"
+
+#: playlist.cpp:847
+msgid "Select Cover Image File"
+msgstr "आवरण छवि फाइल चयन गर्नुहोस्"
+
+#: playlist.cpp:995
+msgid "Could not delete these files"
+msgstr "ती फाइलहरू मेट्न सकेन"
+
+#: playlist.cpp:996
+msgid "Could not move these files to the Trash"
+msgstr "ती फाइललाई रद्दीटोकरीमा सार्न सकेन"
+
+#. i18n: file: trackpickerdialogbase.ui:97
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1509 rc.cpp:260
+msgid "Track Name"
+msgstr "ट्रयाक नाम"
+
+#. i18n: file: coverdialogbase.ui:46
+#. i18n: ectx: property (text), widget (K3ListView, m_artists)
+#. i18n: file: exampleoptionsbase.ui:221
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleArtist)
+#. i18n: file: trackpickerdialogbase.ui:108
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1510 rc.cpp:6 rc.cpp:74 rc.cpp:263 tagrenameroptions.cpp:102
+msgid "Artist"
+msgstr "कलाकार"
+
+#. i18n: file: exampleoptionsbase.ui:228
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleAlbum)
+#. i18n: file: trackpickerdialogbase.ui:119
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1511 rc.cpp:77 rc.cpp:266 tagrenameroptions.cpp:106
+msgid "Album"
+msgstr "एल्बम"
+
+#: playlist.cpp:1512
+msgid "Cover"
+msgstr "आवरण"
+
+#. i18n: file: trackpickerdialogbase.ui:130
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1513 rc.cpp:269 tagrenameroptions.cpp:110
+msgctxt "cd track number"
+msgid "Track"
+msgstr "ट्रयाक"
+
+#. i18n: file: exampleoptionsbase.ui:235
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleGenre)
+#: playlist.cpp:1514 rc.cpp:80 tagrenameroptions.cpp:115
+msgid "Genre"
+msgstr "विधा"
+
+#. i18n: file: trackpickerdialogbase.ui:141
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1515 rc.cpp:272 tagrenameroptions.cpp:119
+msgid "Year"
+msgstr "वर्ष"
+
+#: playlist.cpp:1516
+msgid "Length"
+msgstr "लम्बाइ"
+
+#: playlist.cpp:1517
+msgid "Bitrate"
+msgstr "बिटरेट"
+
+#: playlist.cpp:1518
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#. i18n: file: trackpickerdialogbase.ui:21
+#. i18n: ectx: property (title), widget (QGroupBox, fileInfoGroup)
+#: playlist.cpp:1519 rc.cpp:254
+msgid "File Name"
+msgstr "फाइलको नाम"
+
+#: playlist.cpp:1520
+msgid "File Name (full path)"
+msgstr "फाइलको नाम (पूरा मार्ग)"
+
+#: playlist.cpp:1696
+msgid "&Show Columns"
+msgstr "स्तम्भ देखाउनुहोस्"
+
+#: playlist.cpp:2115
+msgid "Add to Play Queue"
+msgstr "बजाउने लाममा थप्नुहोस्"
+
+#: playlist.cpp:2128 playlist.cpp:2278
+msgid "Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: playlist.cpp:2143
+msgid "Create Playlist From Selected Items..."
+msgstr "चयन गरिएको वस्तुबाट बजाउने सूची सिर्जना गर्नुहोस्..."
+
+#: playlist.cpp:2164
+#, kde-format
+msgid "Edit '%1'"
+msgstr "'%1' सम्पादन गर्नुहोस्"
+
+#: playlist.cpp:2276
+msgid "This will edit multiple files. Are you sure?"
+msgstr "यसले बहुविध फाइलहरू सम्पादन गर्नेछ । तपाईँ निश्चित हुनुहुन्छ ?"
+
+#: playlist.cpp:2333 playlistcollection.h:171
+msgid "Create New Playlist"
+msgstr "नयाँ बजाउने सूची सिर्जना गर्नुहोस्"
+
+#: playlist.cpp:2342
+msgid ""
+"Manual column widths have been enabled.  You can switch back to automatic "
+"column sizes in the view menu."
+msgstr ""
+"म्यानुअल स्तम्भ चौडाइ सक्षम पारिएको छ । तपाईँले दृश्य मेनुमा स्वचालित स्तम्भ "
+"साइजमा पछाडि स्विच गर्न सक्नुहुन्छ ।"
+
+#: playlist.cpp:2345
+msgid "Manual Column Widths Enabled"
+msgstr "म्यानुअल स्तम्भ चौडाइ सक्षम पारियो"
+
+#: playlistbox.cpp:109
+msgid "View Modes"
+msgstr "दृश्य मोड"
+
+#: playlistbox.cpp:162
+msgid "Show &History"
+msgstr "इतिहास देखाउनुहोस्"
+
+#: playlistbox.cpp:214 playlistcollection.cpp:399
+msgctxt "verb, copy the playlist"
+msgid "Duplicate"
+msgstr "नक्कल गर्नुहोस्"
+
+#: playlistbox.cpp:334
+msgid "Do you want to delete these files from the disk as well?"
+msgstr "तपाईँ राम्रोसँग डिस्कबाट यी फाइलहरू मेट्न चाहनुहुन्छ ?"
+
+#: playlistbox.cpp:334
+msgid "Keep"
+msgstr "राख्नुहोस्"
+
+#: playlistbox.cpp:344
+msgid "Could not delete these files."
+msgstr "यी फाइल मेट्न सकेन ।"
+
+#: playlistbox.cpp:351
+msgid "Are you sure you want to remove these playlists from your collection?"
+msgstr "तपाईँ आफ्नो सङ्कलनबाट यी बजाउने सूची हटाउन निश्चित हुनुहुन्छ ?"
+
+#: playlistbox.cpp:354
+msgid "Remove Items?"
+msgstr "वस्तु हटाउनुहुन्छ ?"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:100
+#. i18n: ectx: property (text), widget (KPushButton, bRemove)
+#: playlistbox.cpp:355 rc.cpp:251
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#: playlistbox.cpp:673
+msgid "Hid&e"
+msgstr "लुकाउनुहोस्"
+
+#: playlistbox.cpp:675 playlistcollection.cpp:885
+msgid "R&emove"
+msgstr "हटाउनुहोस्"
+
+#: playlistcollection.cpp:188
+msgid "Dynamic List"
+msgstr "गतिशील सूची"
+
+#: playlistcollection.cpp:228
+msgid "Now Playing"
+msgstr "अहिले बजिरहेको छ"
+
+#: playlistcollection.cpp:330
+msgid ""
+"Do you want to add these items to the current list or to the collection list?"
+msgstr "तपाईँ यी वस्तुहरू हालको सूची वा सङ्कलन सूचीमा थप्न चाहनुहुन्छ ?"
+
+#: playlistcollection.cpp:332
+msgctxt "current playlist"
+msgid "Current"
+msgstr "वर्तमान"
+
+#: playlistcollection.cpp:333
+msgid "Collection"
+msgstr "सङ्कलन"
+
+#: playlistcollection.cpp:387
+msgid "Rename"
+msgstr "पुन: नामकरण गर्नुहोस्"
+
+#: playlistcollection.cpp:501
+msgid "Search Playlist"
+msgstr "बजाउने सूची खोजी गर्नुहोस्"
+
+#: playlistcollection.cpp:518
+msgid "Create Folder Playlist"
+msgstr "बजाउने सूची फोल्डर सिर्जना गर्नुहोस्"
+
+#: playlistcollection.cpp:736
+msgid "Please enter a name for this playlist:"
+msgstr "कृपया यो बजाउने सूचीका लागि नाम प्रविष्ट गर्नुहोस्:"
+
+#: playlistcollection.cpp:846
+msgctxt "new playlist"
+msgid "&New"
+msgstr "नयाँ"
+
+#: playlistcollection.cpp:849
+msgid "&Empty Playlist..."
+msgstr "बजाउने सूची खाली गर्नुहोस्..."
+
+#: playlistcollection.cpp:851
+msgid "&Search Playlist..."
+msgstr "बजाउने सूची खोजी गर्नुहोस्..."
+
+#: playlistcollection.cpp:853
+msgid "Playlist From &Folder..."
+msgstr "फोल्डरबाट बजाउने सूची..."
+
+#: playlistcollection.cpp:859
+msgid "&Guess Tag Information"
+msgstr "ट्याग जानकारी अनुमान गर्नुहोस्"
+
+#: playlistcollection.cpp:864
+msgid "From &File Name"
+msgstr "फाइल नामबाट"
+
+#: playlistcollection.cpp:866
+msgid "From &Internet"
+msgstr "इन्टरनेटबाट"
+
+#: playlistcollection.cpp:869
+msgid "Guess Tag Information From &File Name"
+msgstr "फाइल नामबाट ट्याग जानकारी अनुमान गर्नुहोस्"
+
+#: playlistcollection.cpp:874
+msgid "Play First Track"
+msgstr "पहिलो ट्रयाक बजाउनुहोस्"
+
+#: playlistcollection.cpp:875
+msgid "Play Next Album"
+msgstr "पछिल्लो एल्बम बजाउनुहोस्"
+
+#: playlistcollection.cpp:881
+msgid "Add &Folder..."
+msgstr "फोल्डर थप्नुहोस्..."
+
+#: playlistcollection.cpp:882
+msgid "&Rename..."
+msgstr "नाम फेर्नुहोस्..."
+
+#: playlistcollection.cpp:883
+msgctxt "verb, copy the playlist"
+msgid "D&uplicate..."
+msgstr "नक्कल गर्नुहोस्..."
+
+#: playlistcollection.cpp:886
+msgid "Reload"
+msgstr "पुन:लोड गर्नुहोस्"
+
+#: playlistcollection.cpp:887
+msgid "Edit Search..."
+msgstr "खोजी सम्पादन गर्नुहोस्..."
+
+#: playlistcollection.cpp:889
+msgid "&Delete"
+msgstr "मेटाउनुहोस्"
+
+#: playlistcollection.cpp:890
+msgid "Refresh"
+msgstr "ताजा पार्नुहोस्"
+
+#: playlistcollection.cpp:891
+msgid "&Rename File"
+msgstr "फाइल पुन: नामकरण गर्नुहोस्"
+
+#. i18n: file: coverdialogbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, CoverDialogBase)
+#: playlistcollection.cpp:893 rc.cpp:3
+msgid "Cover Manager"
+msgstr "आवरण प्रबन्धक"
+
+#: playlistcollection.cpp:896
+msgid "&View Cover"
+msgstr "आवरण हेर्नुहोस्"
+
+#: playlistcollection.cpp:898
+msgid "Get Cover From &File..."
+msgstr "फाइलबाट आवरण प्राप्त गर्नुहोस्..."
+
+#: playlistcollection.cpp:900
+msgid "Get Cover From &Internet..."
+msgstr "इन्टरनेटबाट आवरण प्राप्त गर्नुहोस्..."
+
+#: playlistcollection.cpp:902
+msgid "&Delete Cover"
+msgstr "आवरण मेट्नुहोस्"
+
+#: playlistcollection.cpp:904
+msgid "Show Cover &Manager"
+msgstr "आवरण प्रबन्धक देखाउनुहोस्"
+
+#: playlistcollection.cpp:908
+msgid "Show &Play Queue"
+msgstr "बजाउनका लागि लगाइएको लाम देखाउनुहोस्"
+
+#: playlistsplitter.cpp:152
+msgid "Show &Search Bar"
+msgstr "खोजीपट्टी देखाउनुहोस्"
+
+#: playlistsplitter.cpp:155
+msgid "Edit Track Search"
+msgstr "ट्रयाक खोजी सम्पादन गर्नुहोस्"
+
+#. i18n: file: deletedialogbase.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:10
+msgid "Are you sure that you want to remove these items?"
+msgstr "तपाईँ यो वस्तु हटाउन निश्चित हुनुहुन्छ ?"
+
+#. i18n: file: deletedialogbase.ui:111
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ddShouldDelete)
+#: rc.cpp:15
+msgid ""
+"If checked, files will be permanently removed instead of being placed in the "
+"Trash Bin"
+msgstr ""
+"यदि चिनो गरियो भने, फाइल रद्दीटोकरीमा रखिनुको सट्टा स्थायी रूपमा हटाइनेछ"
+
+#. i18n: file: deletedialogbase.ui:116
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ddShouldDelete)
+#: rc.cpp:18
+msgid ""
+"<qt><p>If this box is checked, files will be <b>permanently removed</b> "
+"instead of being placed in the Trash Bin.</p>\n"
+"\n"
+"<p><em>Use this option with caution</em>: Most filesystems are unable to "
+"reliably undelete deleted files.</p></qt>"
+msgstr ""
+"<qt><p>यदि यो बाकस चिनो गरियो भने, फाइल <b>रद्दीटोकरीमा राख्नुको सट्टा</b> "
+"अस्थायी रूपमा हटाइनेछ ।</p>\n"
+"\n"
+"<p><em>सतर्कता साथ यो विकल्प प्रयोग गर्नुहोस्</em>: धेरैजसो फाइल प्रणाली "
+"मेटिएको फाइल विश्वासपूर्वक नमेट्न अक्षम छन् ।</p></qt>"
+
+#. i18n: file: deletedialogbase.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, ddShouldDelete)
+#: rc.cpp:23
+msgid "&Delete files instead of moving them to the trash"
+msgstr "रद्दीटोकरीमा सार्नुको सट्टा फाइलहरू मेट्नुहोस्"
+
+#. i18n: file: directorylistbase.ui:19
+#. i18n: ectx: property (text), widget (QLabel, informationLabel)
+#: rc.cpp:26
+msgid "These folders will be scanned on startup for new files."
+msgstr "नयाँ फाइलका लागि यी फोल्डर सुरुआतमा स्क्यान गरिनेछ ।"
+
+#. i18n: file: directorylistbase.ui:58
+#. i18n: ectx: property (text), widget (KPushButton, addDirectoryButton)
+#: rc.cpp:29
+msgid "Add Folder..."
+msgstr "फोल्डर थप्नुहोस्..."
+
+#. i18n: file: directorylistbase.ui:65
+#. i18n: ectx: property (text), widget (KPushButton, removeDirectoryButton)
+#: rc.cpp:32
+msgid "Remove Folder"
+msgstr "फोल्डर हटाउनुहोस्"
+
+#. i18n: file: directorylistbase.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, importPlaylistsCheckBox)
+#: rc.cpp:35
+msgid "Import playlists"
+msgstr "बजाउने सूची आयात गर्नुहोस्"
+
+#. i18n: file: exampleoptionsbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExampleOptionsBase)
+#. i18n: file: filerenamerbase.ui:176
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:38 rc.cpp:116
+msgid "Example"
+msgstr "उदाहरण"
+
+#. i18n: file: exampleoptionsbase.ui:37
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:41
+msgid "Example Tag Selection"
+msgstr "उदाहरण ट्याग चयन"
+
+#. i18n: file: exampleoptionsbase.ui:58
+#. i18n: ectx: property (text), widget (QRadioButton, m_fileTagsButton)
+#: rc.cpp:44
+msgid "Get example tags from this file:"
+msgstr "यो फाइलबाट उदाहरण ट्याग प्राप्त गर्नुहोस्:"
+
+#. i18n: file: exampleoptionsbase.ui:81
+#. i18n: ectx: property (text), widget (QRadioButton, m_manualTagsButton)
+#: rc.cpp:47
+msgid "Enter example tags manually:"
+msgstr "उदाहरण ट्याग म्यानुअल तरिकाले प्रविष्ट गर्नुहोस्:"
+
+#. i18n: file: exampleoptionsbase.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, m_manualGroup)
+#: rc.cpp:50
+msgid "Example Tags"
+msgstr "उदाहरण ट्याग"
+
+#. i18n: file: exampleoptionsbase.ui:135
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:53
+msgctxt "song title"
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#. i18n: file: exampleoptionsbase.ui:145
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:56
+msgid "Artist:"
+msgstr "कलाकार:"
+
+#. i18n: file: exampleoptionsbase.ui:155
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:59
+msgid "Album:"
+msgstr "एल्बम:"
+
+#. i18n: file: exampleoptionsbase.ui:165
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:62
+msgid "Genre:"
+msgstr "विधा:"
+
+#. i18n: file: exampleoptionsbase.ui:175
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:65
+msgid "Track number:"
+msgstr "ट्रयाक नम्बर:"
+
+#. i18n: file: exampleoptionsbase.ui:185
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:68
+msgid "Year:"
+msgstr "वर्ष:"
+
+#. i18n: file: exampleoptionsbase.ui:214
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleTitle)
+#: rc.cpp:71
+msgctxt "example song title"
+msgid "Title"
+msgstr "शीर्षक"
+
+#. i18n: file: filerenamerbase.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, FileRenamerBase)
+#: rc.cpp:83
+msgid "File Renamer Configuration"
+msgstr "फाइल पुन: नामकरणकर्ता कन्फिगरेसन"
+
+#. i18n: file: filerenamerbase.ui:47
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
+#: rc.cpp:86
+msgid "Music folder:"
+msgstr "सङ्गीत फोल्डर"
+
+#. i18n: file: filerenamerbase.ui:63
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:89
+msgid "Album Tag"
+msgstr "एल्बम ट्याग"
+
+#. i18n: file: filerenamerbase.ui:68
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:92
+msgid "Artist Tag"
+msgstr "कलाकार ट्याग"
+
+#. i18n: file: filerenamerbase.ui:73
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:95
+msgid "Genre Tag"
+msgstr "विधा ट्याग"
+
+#. i18n: file: filerenamerbase.ui:78
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:98
+msgid "Title Tag"
+msgstr "शीर्षक ट्याग"
+
+#. i18n: file: filerenamerbase.ui:83
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:101
+msgid "Track Tag"
+msgstr "ट्रयाक ट्याग"
+
+#. i18n: file: filerenamerbase.ui:88
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:104
+msgid "Year Tag"
+msgstr "वर्ष ट्याग"
+
+#. i18n: file: filerenamerbase.ui:96
+#. i18n: ectx: property (text), widget (KPushButton, m_insertCategory)
+#: rc.cpp:107
+msgid "Insert Category"
+msgstr "कोटि घुसाउनुहोस्"
+
+#. i18n: file: filerenamerbase.ui:108
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:110
+msgid "Add category:"
+msgstr "कोटि थप्नुहोस्:"
+
+#. i18n: file: filerenamerbase.ui:118
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_7)
+#: rc.cpp:113
+msgid "Separator:"
+msgstr "विभाजक:"
+
+#. i18n: file: filerenameroptionsbase.ui:115
+#. i18n: ectx: property (text), widget (QLabel, m_substitution)
+#: rc.cpp:122
+msgid "Substitution Example"
+msgstr "प्रतिस्थापन उदाहरण"
+
+#. i18n: file: filerenameroptionsbase.ui:137
+#. i18n: ectx: property (text), widget (QRadioButton, m_includeEmptyButton)
+#: rc.cpp:125
+msgid "Include in the &filename anyways"
+msgstr "जसरी पनि फाइलनाममा समावेश गर्नुहोस्"
+
+#. i18n: file: filerenameroptionsbase.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, m_ignoreTagButton)
+#: rc.cpp:128
+msgid "&Ignore this tag when renaming the file"
+msgstr "फाइल पुन: नामकरण गर्दा यो ट्याग उपेक्षा गर्नुहोस्"
+
+#. i18n: file: filerenameroptionsbase.ui:162
+#. i18n: ectx: property (text), widget (QRadioButton, m_useValueButton)
+#: rc.cpp:131
+msgid "Use &this value:"
+msgstr "यो मान प्रयोग गर्नुहोस्:"
+
+#. i18n: file: filerenameroptionsbase.ui:172
+#. i18n: ectx: property (text), widget (QLineEdit, m_emptyTagValue)
+#: rc.cpp:134
+msgctxt "value to use in replacement when source tag empty"
+msgid "Empty"
+msgstr "खाली"
+
+#. i18n: file: filerenameroptionsbase.ui:184
+#. i18n: ectx: property (title), widget (QGroupBox, m_trackGroup)
+#: rc.cpp:137
+msgid "Track numbering"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:196
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: rc.cpp:140
+msgid ""
+"JuK can force the track used in a file name to have a minimum number of "
+"digits.  You may want to do this for better sorting in file managers."
+msgstr ""
+"जुकले ट्रयाकलाई फाइलनाममा प्रयोग हुने दशमलबलाई न्यूनतम गर्न बल गर्न सक्दछ । "
+"तपाईँले फाइल प्रबन्धकमा उत्तम क्रमबद्ध गर्नका लागि यो कार्य गर्नपर्नेछ ।"
+
+#. i18n: file: filerenameroptionsbase.ui:228
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:143
+msgid "Minimum number of digits:"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:266
+#. i18n: ectx: property (text), widget (QLabel, m_doubleDigitExample)
+#: rc.cpp:146
+msgid "014"
+msgstr "०१४"
+
+#. i18n: file: filerenameroptionsbase.ui:284
+#. i18n: ectx: property (text), widget (QLabel, m_singleDigitExample)
+#: rc.cpp:149
+msgid "003"
+msgstr "००३"
+
+#. i18n: file: filerenameroptionsbase.ui:291
+#. i18n: ectx: property (text), widget (QLabel, m_singleDigit)
+#: rc.cpp:152
+msgid "3 ->"
+msgstr "३ ->"
+
+#. i18n: file: filerenameroptionsbase.ui:301
+#. i18n: ectx: property (text), widget (QLabel, m_doubleDigit)
+#: rc.cpp:155
+msgid "14 ->"
+msgstr "१४ ->"
+
+#. i18n: file: jukui-rtl.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: jukui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: jukui-rtl.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: jukui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:158 rc.cpp:179 rc.cpp:277 rc.cpp:298
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: jukui-rtl.rc:26
+#. i18n: ectx: Menu (view)
+#. i18n: file: jukui.rc:28
+#. i18n: ectx: Menu (view)
+#. i18n: file: jukui-rtl.rc:26
+#. i18n: ectx: Menu (view)
+#. i18n: file: jukui.rc:28
+#. i18n: ectx: Menu (view)
+#: rc.cpp:161 rc.cpp:182 rc.cpp:280 rc.cpp:301
+msgid "&View"
+msgstr ""
+
+#. i18n: file: jukui-rtl.rc:38
+#. i18n: ectx: Menu (player)
+#. i18n: file: jukui.rc:40
+#. i18n: ectx: Menu (player)
+#. i18n: file: jukui-rtl.rc:38
+#. i18n: ectx: Menu (player)
+#. i18n: file: jukui.rc:40
+#. i18n: ectx: Menu (player)
+#: rc.cpp:164 rc.cpp:185 rc.cpp:283 rc.cpp:304
+msgid "&Player"
+msgstr "प्लेयर"
+
+#. i18n: file: jukui-rtl.rc:56
+#. i18n: ectx: Menu (playlist)
+#. i18n: file: jukui.rc:58
+#. i18n: ectx: Menu (playlist)
+#. i18n: file: jukui-rtl.rc:56
+#. i18n: ectx: Menu (playlist)
+#. i18n: file: jukui.rc:58
+#. i18n: ectx: Menu (playlist)
+#: rc.cpp:167 rc.cpp:188 rc.cpp:286 rc.cpp:307
+msgid "&Tagger"
+msgstr "ट्यागर"
+
+#. i18n: file: jukui-rtl.rc:67
+#. i18n: ectx: Menu (settings)
+#. i18n: file: jukui.rc:69
+#. i18n: ectx: Menu (settings)
+#. i18n: file: jukui-rtl.rc:67
+#. i18n: ectx: Menu (settings)
+#. i18n: file: jukui.rc:69
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:170 rc.cpp:191 rc.cpp:289 rc.cpp:310
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: jukui-rtl.rc:79
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: jukui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: jukui-rtl.rc:79
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: jukui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:173 rc.cpp:194 rc.cpp:292 rc.cpp:313
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: jukui-rtl.rc:97
+#. i18n: ectx: ToolBar (playToolBar)
+#. i18n: file: jukui.rc:99
+#. i18n: ectx: ToolBar (playToolBar)
+#. i18n: file: jukui-rtl.rc:97
+#. i18n: ectx: ToolBar (playToolBar)
+#. i18n: file: jukui.rc:99
+#. i18n: ectx: ToolBar (playToolBar)
+#: rc.cpp:176 rc.cpp:197 rc.cpp:295 rc.cpp:316
+msgid "Play Toolbar"
+msgstr "प्ले गर्ने उपकरणपट्टी"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:18
+#. i18n: ectx: property (toolTip), widget (QTreeView, lvSchemes)
+#: rc.cpp:200
+msgid "Currently used file name schemes"
+msgstr "हालै प्रयोग गरिएको फाइलनाम योजना"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:29
+#. i18n: ectx: property (whatsThis), widget (QTreeView, lvSchemes)
+#: rc.cpp:204
+#, no-c-format
+msgid ""
+"Here you can see the currently configured file name schemes which the "
+"\"Suggest\" button in the tag editor uses to extract tag information from a "
+"file name. Each string may contain one of the following placeholders:<ul>\n"
+"<li>%t: Title</li>\n"
+"<li>%a: Artist</li>\n"
+"<li>%A: Album</li>\n"
+"<li>%T: Track</li>\n"
+"<li>%c: Comment</li>\n"
+"</ul>\n"
+"For example, the file name scheme \"[%T] %a - %t\" would match \"[01] Deep "
+"Purple - Smoke on the water\" but not \"(Deep Purple) Smoke on the water\". "
+"For that second name, you would use the scheme \"(%a) %t\".<p/>\n"
+"Note that the order in which the schemes appear in the list is relevant, "
+"since the tag guesser will go through the list from the top to the bottom, "
+"and use the first matching scheme."
+msgstr ""
+"यहाँ तपाईँले हालै कन्फिगर गरिएको फाइल नाम योजना हेर्न सक्नुहुन्छ जुन ट्याग "
+"सम्पादकमा \"सुझाव\" बटनले फाइलनामबाट ट्याग छोड्न प्रयोग गर्दछ । हरेक "
+"स्ट्रिङले निम्न प्लेसहोल्डर मध्ये एउटा समाविष्ट गर्दछ:<ul>\n"
+"<li>%t: शीर्षक</li>\n"
+"<li>%a: कलाकार</li>\n"
+"<li>%A: एल्बम</li>\n"
+"<li>%T: ट्रयाक</li>\n"
+"<li>%c: टिप्पणी</li>\n"
+"</ul>\n"
+"उदाहरणका लागि, फाइलनाम योजना \"[%T] %a - %t\" \"[01] Deep Purple - Smoke on "
+"the water\" सँग मिल्नेछ तर \"(Deep Purple) Smoke on the water\" सँग होइन । "
+"त्यो दोस्रो नामका लागि, तपाईँ योजना \"(%a) %t\" प्रयोग गर्नुहुनेछ ।<p/>\n"
+"ट्याग अनुमानकर्ता सूचीको माथिबाट तल गएता पनि, याद गर्नुहोस् कि सूचीमा "
+"देखिएको योजना क्रम सान्दर्भिक छ र पहिलो मिल्दो योजना प्रयोग गर्नुहोस् ।"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:42
+#. i18n: ectx: property (toolTip), widget (QToolButton, bMoveUp)
+#: rc.cpp:215
+msgid "Move scheme up"
+msgstr "योजना माथि सार्नुहोस्"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:45
+#. i18n: ectx: property (whatsThis), widget (QToolButton, bMoveUp)
+#: rc.cpp:218
+msgid ""
+"Press this button to move the currently selected scheme one step upwards."
+msgstr "एक चरण माथि हालै चयन गरिएको योजना सार्न यो बटन थिच्नुहोस् ।"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:55
+#. i18n: ectx: property (toolTip), widget (QToolButton, bMoveDown)
+#: rc.cpp:221
+msgid "Move scheme down"
+msgstr "योजना तल सार्नुहोस्"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:58
+#. i18n: ectx: property (whatsThis), widget (QToolButton, bMoveDown)
+#: rc.cpp:224
+msgid ""
+"Press this button to move the currently selected scheme one step downwards."
+msgstr "एक चरण तल हालै चयन गरिएको योजना सार्न यो बटन थिच्नुहोस् ।"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:68
+#. i18n: ectx: property (toolTip), widget (KPushButton, bAdd)
+#: rc.cpp:227
+msgid "Add a new scheme"
+msgstr "नयाँ योजना थप्नुहोस्"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:71
+#. i18n: ectx: property (whatsThis), widget (KPushButton, bAdd)
+#: rc.cpp:230
+msgid ""
+"Press this button to add a new file name scheme to the end of the list."
+msgstr "सूचीको समाप्तिमा नयाँ फाइलनाम योजना थप्न यो बटन थिच्नुहोस् ।"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:74
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#: rc.cpp:233
+msgid "&Add"
+msgstr "थप्नुहोस्"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:81
+#. i18n: ectx: property (toolTip), widget (KPushButton, bModify)
+#: rc.cpp:236
+msgid "Modify scheme"
+msgstr "योजना परिमार्जन गर्नुहोस्"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:84
+#. i18n: ectx: property (whatsThis), widget (KPushButton, bModify)
+#: rc.cpp:239
+msgid "Press this button to modify the currently selected scheme."
+msgstr "हालै चयन गरिएको योजना परिमार्जन गर्न यो बटन थिच्नुहोस् ।"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:87
+#. i18n: ectx: property (text), widget (KPushButton, bModify)
+#: rc.cpp:242
+msgid "&Modify"
+msgstr ""
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:94
+#. i18n: ectx: property (toolTip), widget (KPushButton, bRemove)
+#: rc.cpp:245
+msgid "Remove scheme"
+msgstr "योजना हटाउनुहोस्"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:97
+#. i18n: ectx: property (whatsThis), widget (KPushButton, bRemove)
+#: rc.cpp:248
+msgid ""
+"Press this button to remove the currently selected scheme from the list."
+msgstr "सूचीबाट हालै चयन गरिएको योजना हटाउन यो बटन थिच्नुहोस् ।"
+
+#. i18n: file: trackpickerdialogbase.ui:64
+#. i18n: ectx: property (title), widget (QGroupBox, trackInfoGroup)
+#: rc.cpp:257
+msgid "Select Best Possible Match"
+msgstr "उत्तम सम्भाव्य जोडा चयन गर्नुहोस्"
+
+#: rc.cpp:273
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jitendra Harlalka, श्यामकृष्ण बल, ,Launchpad Contributions:"
+
+#: rc.cpp:274
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jitendra@otrc.gov.np, Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,"
+
+#: searchwidget.cpp:73
+msgid "Normal Matching"
+msgstr "सामान्य जोडा"
+
+#: searchwidget.cpp:74
+msgid "Case Sensitive"
+msgstr "केस सम्वेदनशील"
+
+#: searchwidget.cpp:75
+msgid "Pattern Matching"
+msgstr "बाँन्की जोडा"
+
+#: searchwidget.cpp:174
+msgid "All Visible"
+msgstr "सबै दृश्यात्मक"
+
+#: searchwidget.cpp:206
+msgid "Search:"
+msgstr "खोजी गर्नुहोस्:"
+
+#: splashscreen.cpp:34
+msgid "Loading"
+msgstr "लोड हुँदैछ"
+
+#: statuslabel.cpp:92
+msgid "Jump to the currently playing item"
+msgstr "हालै बजाइएको वस्तुमा जानुहोस्"
+
+#: statuslabel.cpp:138
+#, kde-format
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] "१ दिन"
+msgstr[1] "%1 दिन"
+
+#: statuslabel.cpp:148
+#, kde-format
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "1 वस्तु"
+msgstr[1] "%1 वस्तुहरु"
+
+#: systemtray.cpp:160
+msgid "Redisplay Popup"
+msgstr "पपअप पुन: प्रदर्शन गर्नुहोस्"
+
+#: tag.cpp:97
+#, kde-format
+msgctxt "a playing track, %1 is artist, %2 is song title"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: tageditor.cpp:492
+msgid "Show &Tag Editor"
+msgstr "ट्याग सम्पादक देखाउनुहोस्"
+
+#: tageditor.cpp:496
+msgid "&Save"
+msgstr "बचत गर्नुहोस्"
+
+#: tageditor.cpp:534
+msgid "&Artist name:"
+msgstr "कलाकार नाम:"
+
+#: tageditor.cpp:538
+msgid "&Track name:"
+msgstr "ट्रयाक नाम:"
+
+#: tageditor.cpp:543
+msgid "Album &name:"
+msgstr "एल्बम नाम:"
+
+#: tageditor.cpp:547
+msgid "&Genre:"
+msgstr "विधा:"
+
+#: tageditor.cpp:568
+msgid "&File name:"
+msgstr "फाइल नाम:"
+
+#: tageditor.cpp:585
+msgctxt "cd track number"
+msgid "T&rack:"
+msgstr "ट्रयाक:"
+
+#: tageditor.cpp:590
+msgid "&Year:"
+msgstr "वर्ष:"
+
+#: tageditor.cpp:609
+msgid "Length:"
+msgstr "लम्बाइ:"
+
+#: tageditor.cpp:618
+msgid "Bitrate:"
+msgstr "बिटरेट:"
+
+#: tageditor.cpp:628
+msgid "&Comment:"
+msgstr "टिप्पणी:"
+
+#: tageditor.cpp:747
+msgid "Do you want to save your changes to:\n"
+msgstr "यसमा तपाईँको परिवर्तनहरू बचत गर्न चाहनुहुन्छ:\n"
+
+#: tageditor.cpp:749
+msgid "Save Changes"
+msgstr "परिवर्तन बचत गर्नुहोस्"
+
+#: tageditor.cpp:771
+msgid "Enable"
+msgstr "सक्षम पार्नुहोस्"
+
+#: tagguesserconfigdlg.cpp:26
+msgid "Tag Guesser Configuration"
+msgstr "ट्याग अनुमानकर्ता कन्फिगरेसन"
+
+#: tagrenameroptions.cpp:97
+msgctxt "song title"
+msgid "Title"
+msgstr "शीर्षक"
+
+#: tagrenameroptions.cpp:125
+msgctxt "unknown renamer category"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: tagtransactionmanager.cpp:141
+msgid ""
+"This file already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"फाइल पहिल्यै अवस्थित छ ।\n"
+"तपाईँले यसलाई प्रतिस्थापन गर्नुहुन्छ ?"
+
+#: tagtransactionmanager.cpp:142
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: tagtransactionmanager.cpp:142
+msgid "Replace"
+msgstr ""
+
+#: tagtransactionmanager.cpp:206
+msgid "The following files were unable to be changed."
+msgstr "निम्न फाइल परिवर्तन गर्न अक्षम भयो ।"
+
+#: tagtransactionmanager.cpp:208
+msgid "Error"
+msgstr "त्रुटि"
+
+#: trackpickerdialog.cpp:52
+msgid "Internet Tag Guesser"
+msgstr "इन्टरनेट ट्याग अनुमानकर्ता"
+
+#: treeviewitemplaylist.cpp:47
+msgid "artist"
+msgstr "कलाकार"
+
+#: treeviewitemplaylist.cpp:49
+msgid "genre"
+msgstr "विधा"
+
+#: treeviewitemplaylist.cpp:51
+msgid "album"
+msgstr "एल्बम"
+
+#: treeviewitemplaylist.cpp:55
+#, kde-format
+msgid "You are about to change the %1 on these files."
+msgstr "तपाईँले यी फाइलमा %1 परिवर्तन गर्दै हुनुहुन्छ ।"
+
+#: treeviewitemplaylist.cpp:57
+msgid "Changing Track Tags"
+msgstr "ट्रयाक ट्याग परिवर्तन गर्दैछ"
+
+#: upcomingplaylist.cpp:37
+msgid "Play Queue"
+msgstr "बजाउने लाम"
+
+#: viewmode.cpp:122
+msgctxt "the normal viewing mode"
+msgid "Default"
+msgstr "पूर्वनिर्धारित"
+
+#: viewmode.cpp:243
+msgctxt "compact viewing mode"
+msgid "Compact"
+msgstr ""
+
+#: viewmode.cpp:279
+msgid "Tree"
+msgstr "ट्री"
+
+#: viewmode.cpp:415
+msgid "Artists"
+msgstr "कलाकार"
+
+#: viewmode.cpp:418
+msgid "Albums"
+msgstr "एल्बम"
+
+#: viewmode.cpp:421
+msgid "Genres"
+msgstr "विधा"
+
+#: webimagefetcher.cpp:233
+msgid "Searching for Images. Please Wait..."
+msgstr "छविका लागि खोजी गर्दैछ । कृपया प्रतिक्षा गर्नुहोस्..."
+
+#: webimagefetcher.cpp:241
+msgid "Cover Downloader"
+msgstr "आवरण डाउनलोडर"
+
+#: webimagefetcher.cpp:243
+msgid "No matching images found, please enter new search terms:"
+msgstr "कुनै मिल्दो छवि फेला परेन, कृपया नयाँ खोजी टर्म प्रविष्ट गर्नुहोस्:"
+
+#: webimagefetcher.cpp:244
+msgid "Enter new search terms:"
+msgstr "नयाँ खोजी टर्म प्रविष्ट गर्नुहोस्:"
+
+#: webimagefetcherdialog.cpp:88
+msgid "New Search"
+msgstr "नयाँ खोजी"
+
+#: playlistcollection.h:174
+msgid "Playlist"
+msgstr "बजाउने सूची"

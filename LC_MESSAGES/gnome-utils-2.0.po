@@ -1,0 +1,3341 @@
+# translation of gnome-utils.gnome-2-20.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# FIRST AUTHOR <pawan@nplinux.org>, 2004.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.gnome-2-20.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-15 00:57+0000\n"
+"PO-Revision-Date: 2010-04-07 16:36+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:08+0000\n"
+"First-Translator: Pawan Chitrakar <pawan@nplinux.org>\n"
+
+#: ../baobab/data/baobab.desktop.in.in.h:1
+msgid "Check folder sizes and available disk space"
+msgstr "फोल्डर साइज र उपलब्ध डिस्क खालीस्थान जाँच गर्नुहोस्"
+
+#: ../baobab/data/baobab.desktop.in.in.h:2
+#: ../baobab/data/baobab-main-window.ui.h:2
+msgid "Disk Usage Analyzer"
+msgstr "डिस्क प्रयोग विश्लेषक"
+
+#: ../baobab/data/baobab-dialog-scan-props.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "डिस्क प्रयोग विश्लेषक प्राथमिकता"
+
+#: ../baobab/data/baobab-dialog-scan-props.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "फाइल प्रणाली स्क्यानमा समावेश गरिने यन्त्र चयन गर्नुहोस्:"
+
+#: ../baobab/data/baobab-dialog-scan-props.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "तपाईँको गृह फोल्डरका परिवर्तन अनुगमन गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:1
+msgid "All_ocated Space"
+msgstr "खालीस्थान विभाजन गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:3
+msgid "Refresh"
+msgstr "ताजा पार्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:4
+msgid "S_can Remote Folder..."
+msgstr "टाढाको फोल्डर स्क्यान गर्नुहोस्..."
+
+#: ../baobab/data/baobab-main-window.ui.h:5
+msgid "Scan F_older..."
+msgstr "फोल्डर स्क्यान गर्नुहोस्..."
+
+#: ../baobab/data/baobab-main-window.ui.h:6
+msgid "Scan Filesystem"
+msgstr "फाइल प्रणाली स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:7
+msgid "Scan Folder"
+msgstr "फोल्डर स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:8
+msgid "Scan Home"
+msgstr "गृह स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:9
+msgid "Scan Remote Folder"
+msgstr "टाढाको फोल्डर स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:10
+msgid "Scan _Filesystem"
+msgstr "फाइल प्रणाली स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:11
+msgid "Scan _Home Folder"
+msgstr "गृह फोल्डर स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:12
+msgid "Scan a folder"
+msgstr "एउटा फोल्डर स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:13
+msgid "Scan a remote folder"
+msgstr "टाढाको फोल्डर स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:14
+msgid "Scan filesystem"
+msgstr "फाइल प्रणाली स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:15
+msgid "Scan home folder"
+msgstr "गृह फोल्डर स्क्यान गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:16
+msgid "St_atusbar"
+msgstr "स्थितिपट्टी"
+
+#: ../baobab/data/baobab-main-window.ui.h:17
+msgid "Stop scanning"
+msgstr "स्क्यानिङ रोक्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:18
+msgid "_Analyzer"
+msgstr "विश्लेषक"
+
+#: ../baobab/data/baobab-main-window.ui.h:19
+msgid "_Collapse All"
+msgstr "सबैलाई संक्षिप्त गर्नुहोस्"
+
+#. Help menu
+#: ../baobab/data/baobab-main-window.ui.h:20
+#: ../gnome-dictionary/src/gdict-window.c:1235 ../logview/logview-window.c:868
+msgid "_Contents"
+msgstr "सामाग्री"
+
+#: ../baobab/data/baobab-main-window.ui.h:21
+#: ../gnome-dictionary/src/gdict-window.c:1182 ../logview/logview-window.c:839
+msgid "_Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:22
+msgid "_Expand All"
+msgstr "सबै विस्तार गर्नुहोस्"
+
+#: ../baobab/data/baobab-main-window.ui.h:23
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
+#: ../gnome-dictionary/src/gdict-window.c:1185 ../logview/logview-window.c:842
+msgid "_Help"
+msgstr "मद्दत"
+
+#: ../baobab/data/baobab-main-window.ui.h:24
+msgid "_Toolbar"
+msgstr "उपकरणपट्टी"
+
+#: ../baobab/data/baobab-main-window.ui.h:25
+#: ../gnome-dictionary/src/gdict-window.c:1183 ../logview/logview-window.c:840
+msgid "_View"
+msgstr "दृश्य"
+
+#: ../baobab/data/baobab.schemas.in.h:1
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr ""
+
+#: ../baobab/data/baobab.schemas.in.h:2
+msgid "Enable monitoring of home directory"
+msgstr "गृह डाइरेक्टरीको अनुगमन सक्षम पार्नुहोस्"
+
+#: ../baobab/data/baobab.schemas.in.h:3
+msgid "Excluded partitions URIs"
+msgstr ""
+
+#: ../baobab/data/baobab.schemas.in.h:4
+msgid "Status Bar is Visible"
+msgstr "स्थिति पट्टी दृश्यात्मक छ"
+
+#: ../baobab/data/baobab.schemas.in.h:5
+msgid "Subfolders tooltips visible"
+msgstr ""
+
+#: ../baobab/data/baobab.schemas.in.h:6
+msgid "Toolbar is Visible"
+msgstr "उपकरणपट्टी दृश्यात्मक छ"
+
+#: ../baobab/data/baobab.schemas.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "गृह डाइरेक्टरीका कुनै पनि परिवर्तन अनुगमन गर्नुपर्दछ या पर्दैन ।"
+
+#: ../baobab/data/baobab.schemas.in.h:8
+msgid ""
+"Whether the status bar at the bottom of main window should be visible."
+msgstr "मुख्य सञ्झ्यालको तलको स्थितिपट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
+
+#: ../baobab/data/baobab.schemas.in.h:9
+msgid "Whether the subfolder tooltips of the selected folder are drawn."
+msgstr ""
+
+#: ../baobab/data/baobab.schemas.in.h:10
+msgid "Whether the toolbar should be visible in main window."
+msgstr "मुख्य सञ्झ्यालमा उपकरणपट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
+
+#: ../baobab/src/baobab.c:139 ../baobab/src/baobab.c:320
+msgid "Scanning..."
+msgstr "स्क्यानिङ..."
+
+#. set statusbar, percentage and allocated/normal size
+#: ../baobab/src/baobab.c:204 ../baobab/src/baobab.c:262
+#: ../baobab/src/callbacks.c:264
+msgid "Calculating percentage bars..."
+msgstr "प्रतिशत पट्टी गणना गर्दैछ..."
+
+#: ../baobab/src/baobab.c:214 ../baobab/src/baobab.c:1163
+#: ../baobab/src/callbacks.c:268
+msgid "Ready"
+msgstr "तयार"
+
+#: ../baobab/src/baobab.c:356
+msgid "Total filesystem capacity"
+msgstr "जम्मा फाइल प्रणाली क्षमता:"
+
+#: ../baobab/src/baobab.c:378
+msgid "Total filesystem usage"
+msgstr "जम्मा फाइल प्रणाली उपयोग"
+
+#: ../baobab/src/baobab.c:419
+msgid "contains hardlinks for:"
+msgstr "यसका लागि हार्डलिङ्क समाविष्ट गर्दछ:"
+
+#: ../baobab/src/baobab.c:428
+#, c-format
+msgid "%5d item"
+msgid_plural "%5d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../baobab/src/baobab.c:779
+msgid "Could not initialize monitoring"
+msgstr ""
+
+#: ../baobab/src/baobab.c:780
+msgid "Changes to your home folder will not be monitored."
+msgstr "तपाईँको गृह फोल्डरको परिवर्तन अनुगमन गरिने छैन ।"
+
+#: ../baobab/src/baobab.c:887
+msgid "Move to parent folder"
+msgstr ""
+
+#: ../baobab/src/baobab.c:891
+msgid "Zoom in"
+msgstr "जूम बढाउनुहोस्"
+
+#: ../baobab/src/baobab.c:895
+msgid "Zoom out"
+msgstr "जूम घटाउनुहोस्"
+
+#: ../baobab/src/baobab.c:899
+msgid "Save screenshot"
+msgstr ""
+
+#: ../baobab/src/baobab.c:985
+msgid "View as Rings Chart"
+msgstr ""
+
+#: ../baobab/src/baobab.c:987
+msgid "View as Treemap Chart"
+msgstr ""
+
+#: ../baobab/src/baobab.c:1086
+msgid "Show version"
+msgstr "संस्करण देखाउनुहोस्"
+
+#: ../baobab/src/baobab.c:1087
+msgid "[DIRECTORY]"
+msgstr "[DIRECTORY]"
+
+#: ../baobab/src/baobab.c:1117
+msgid "Too many arguments. Only one directory can be specified."
+msgstr ""
+
+#: ../baobab/src/baobab.c:1135
+msgid "Could not detect any mount point."
+msgstr ""
+
+#: ../baobab/src/baobab.c:1138
+msgid "Without mount points disk usage cannot be analyzed."
+msgstr ""
+
+#: ../baobab/src/baobab-chart.c:206
+msgid "Maximum depth"
+msgstr "अधिकतम गहिराइ"
+
+#: ../baobab/src/baobab-chart.c:207
+msgid "The maximum depth drawn in the chart from the root"
+msgstr ""
+
+#: ../baobab/src/baobab-chart.c:216
+msgid "Chart model"
+msgstr ""
+
+#: ../baobab/src/baobab-chart.c:217
+msgid "Set the model of the chart"
+msgstr ""
+
+#: ../baobab/src/baobab-chart.c:224
+msgid "Chart root node"
+msgstr ""
+
+#: ../baobab/src/baobab-chart.c:225
+msgid "Set the root node from the model"
+msgstr "मोडेलबाट मूल नोड सेट गर्नुहोस्"
+
+#: ../baobab/src/baobab-chart.c:1695
+msgid "Cannot create pixbuf image!"
+msgstr "पिक्सबफ छवि सिर्जना गर्न सकिँदैन !"
+
+#. Popup the File chooser dialog
+#: ../baobab/src/baobab-chart.c:1705
+msgid "Save Snapshot"
+msgstr "स्न्यापसट बचत गर्नुहोस्"
+
+#: ../baobab/src/baobab-chart.c:1734
+msgid "_Image type:"
+msgstr "छवि प्रकार:"
+
+#: ../baobab/src/baobab-prefs.c:181
+msgid "Scan"
+msgstr "स्क्यान"
+
+#: ../baobab/src/baobab-prefs.c:188
+msgid "Device"
+msgstr "यन्त्र"
+
+#: ../baobab/src/baobab-prefs.c:196
+msgid "Mount Point"
+msgstr "माउन्ट बिन्दु"
+
+#: ../baobab/src/baobab-prefs.c:204
+msgid "Filesystem Type"
+msgstr "फाइल प्रणाली प्रकार"
+
+#: ../baobab/src/baobab-prefs.c:212
+msgid "Total Size"
+msgstr "कूल साइज"
+
+#: ../baobab/src/baobab-prefs.c:221
+msgid "Available"
+msgstr "उपलब्ध"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:77
+#, c-format
+msgid "Cannot scan location \"%s\""
+msgstr ""
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:175
+msgid "Custom Location"
+msgstr "अनुकूल स्थान"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:177
+msgid "SSH"
+msgstr "एसएसएच (SSH)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:180
+msgid "Public FTP"
+msgstr "सार्वजनिक एफटीपी (FTP)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:182
+msgid "FTP (with login)"
+msgstr "एफटीपी (FTP) (लगइन भएको)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:185
+msgid "Windows share"
+msgstr "सञ्झ्याल सेयर"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:187
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:189
+msgid "Secure WebDAV (HTTPS)"
+msgstr "सुरक्षित WebDAV (HTTPS)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:249
+msgid "Cannot Connect to Server. You must enter a name for the server."
+msgstr ""
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:252
+msgid "Please enter a name and try again."
+msgstr "कृपया नाम प्रविष्टि गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:443
+msgid "_Location (URI):"
+msgstr "स्थान (URI):"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:465
+msgid "_Server:"
+msgstr "_सेवाप्रदायेक"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:484
+msgid "Optional information:"
+msgstr "ऐच्छिक जानकारी:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:496
+msgid "_Share:"
+msgstr ""
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:517
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:7
+msgid "_Port:"
+msgstr "पोर्ट:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:537
+msgid "_Folder:"
+msgstr "फोल्डर:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:557
+msgid "_User Name:"
+msgstr "प्रयोगकर्ता नाम:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:578
+msgid "_Domain Name:"
+msgstr "डोमेन नाम:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:645
+msgid "Connect to Server"
+msgstr ""
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:662
+msgid "Service _type:"
+msgstr "सेवा प्रकार:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:781
+msgid "_Scan"
+msgstr "स्क्यान"
+
+#: ../baobab/src/baobab-treeview.c:86
+msgid "Rescan your home folder?"
+msgstr "तपाईँको गृह फोल्डर फेरि स्क्यान गर्नुहुन्छ ?"
+
+#: ../baobab/src/baobab-treeview.c:87
+msgid ""
+"The content of your home folder has changed. Select rescan to update the "
+"disk usage details."
+msgstr ""
+"तपाईँको गृह फोल्डरको सामाग्री परिवर्तन गरिएको छ । डिस्क प्रयोग विवरण "
+"अद्यावधिक गर्न फेरि स्क्यान गर्नुहोस् बटन चयन गर्नुहोस् ।"
+
+#: ../baobab/src/baobab-treeview.c:88
+msgid "_Rescan"
+msgstr "फेरि स्क्यान गर्नुहोस्"
+
+#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2406
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: ../baobab/src/baobab-treeview.c:244
+msgid "Usage"
+msgstr "प्रयोग"
+
+#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2419
+msgid "Size"
+msgstr "आकार"
+
+#: ../baobab/src/baobab-treeview.c:274
+msgid "Contents"
+msgstr "सामाग्री"
+
+#: ../baobab/src/baobab-utils.c:110
+msgid "Select Folder"
+msgstr "फोल्डर चयन गर्नुहोस्"
+
+#. add extra widget
+#: ../baobab/src/baobab-utils.c:122
+msgid "_Show hidden folders"
+msgstr "लुकेका फोल्डर देखाउनुहोस्"
+
+#: ../baobab/src/baobab-utils.c:301
+msgid "Cannot check an excluded folder!"
+msgstr ""
+
+#: ../baobab/src/baobab-utils.c:325
+#, c-format
+msgid "\"%s\" is not a valid folder"
+msgstr "\"%s\" मान्य फोल्डर होइन"
+
+#: ../baobab/src/baobab-utils.c:328
+msgid "Could not analyze disk usage."
+msgstr "डिस्क प्रयोग विश्लेषण गर्न सकेन ।"
+
+#: ../baobab/src/baobab-utils.c:369
+msgid "_Open Folder"
+msgstr "फोल्डर खोल्नुहोस्"
+
+#: ../baobab/src/baobab-utils.c:375
+#: ../gsearchtool/gsearchtool-callbacks.c:1203
+msgid "Mo_ve to Trash"
+msgstr "रद्दीटोकरीमा सार्नुहोस्"
+
+#: ../baobab/src/baobab-utils.c:401
+msgid "Total filesystem capacity:"
+msgstr "जम्मा फाइल प्रणाली क्षमता:"
+
+#: ../baobab/src/baobab-utils.c:402
+msgid "used:"
+msgstr "प्रयोग गरिएका:"
+
+#: ../baobab/src/baobab-utils.c:403
+msgid "available:"
+msgstr "उपलब्ध:"
+
+# msgstr[1] "तँपाइहरु पक्का %d फोल्डरहरू खोल्न चाहनुहुन्छ?"
+#: ../baobab/src/baobab-utils.c:447
+#, c-format
+msgid "Could not open folder \"%s\""
+msgstr "फोल्डर \"%s\" खोल्न सकेन"
+
+#: ../baobab/src/baobab-utils.c:450
+msgid "There is no installed viewer capable of displaying the folder."
+msgstr "त्यहाँ फोल्डर प्रदर्शनको दर्शक सक्षमता स्थापना गरिएको छैन ।"
+
+#: ../baobab/src/baobab-utils.c:519
+#, c-format
+msgid "Could not move \"%s\" to the Trash"
+msgstr "\"%s\" लाई रद्दीटोकरीमा सार्न सकेन"
+
+#: ../baobab/src/baobab-utils.c:527
+msgid "Could not move file to the Trash"
+msgstr ""
+
+#: ../baobab/src/baobab-utils.c:529
+#, c-format
+msgid "Details: %s"
+msgstr "विस्तृत विवरण: %s"
+
+#: ../baobab/src/baobab-utils.c:576
+msgid "There was an error displaying help."
+msgstr "मद्दत प्रदर्शन गर्दा त्रुटि भएको थियो ।"
+
+#: ../baobab/src/callbacks.c:78 ../logview/logview-about.h:49
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+
+#: ../baobab/src/callbacks.c:83 ../logview/logview-about.h:53
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+
+#: ../baobab/src/callbacks.c:88 ../logview/logview-about.h:57
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
+msgstr ""
+"तपाईँले यस प्रोगामसित जीएनयू साधारण सार्वजनिक अनुमतिपत्रको एउटा प्रतिलिपि "
+"प्राप्त गर्नुभएको हुन पर्दछ; यदि छैन भने, स्वतन्त्र सफ्टवेयर संस्थालाई, "
+"Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA मा लेख्नुहोस्।"
+
+#: ../baobab/src/callbacks.c:101
+msgid "Baobab"
+msgstr "बाओबाब"
+
+#: ../baobab/src/callbacks.c:102
+msgid "A graphical tool to analyze disk usage."
+msgstr "डिस्क प्रयोग विश्लेषण गर्ने ग्राफिकल उपकरण ।"
+
+#. translator credits
+#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
+#: ../logview/logview-about.h:63
+msgid "translator-credits"
+msgstr "अनुवादक-श्रेय"
+
+#: ../baobab/src/callbacks.c:207 ../gsearchtool/gsearchtool-callbacks.c:504
+#: ../gsearchtool/gsearchtool-callbacks.c:843
+msgid "The document does not exist."
+msgstr "कागजात अवस्थित छैन ।"
+
+#: ../baobab/src/callbacks.c:318
+msgid "The folder does not exist."
+msgstr "फोल्डर अवस्थित छैन ।"
+
+#: ../gnome-dictionary/data/default.desktop.in.h:1
+msgid "Default Dictionary Server"
+msgstr "पूर्वनिर्धारित शब्दकोश सर्भर"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
+msgid "Dictionary Look up"
+msgstr "शब्दकोश खोजी"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
+msgid "Look up words in a dictionary"
+msgstr "शब्दकोशमा शब्द खोज्नुहोस्"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
+msgid "Cl_ear"
+msgstr "खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
+#: ../gnome-dictionary/src/gdict-window.c:1237 ../logview/logview-window.c:870
+msgid "_About"
+msgstr "बारेमा"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
+msgid "_Look Up Selected Text"
+msgstr "चयन गरिएका पाठ खोज्नुहोस्"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
+#: ../gnome-dictionary/src/gdict-window.c:1211
+msgid "_Preferences"
+msgstr "प्राथमिकता"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
+msgid "_Print"
+msgstr "मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
+msgid "_Save"
+msgstr "बचत गर्नुहोस्"
+
+#: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "अनलाइन शब्दकोशमा शब्द परिभाषा र हिज्जे जाँच गर्नुहोस्"
+
+#: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
+#: ../gnome-dictionary/src/gdict-about.c:78
+#: ../gnome-dictionary/src/gdict-app.c:385
+#: ../gnome-dictionary/src/gdict-window.c:609
+#: ../gnome-dictionary/src/gdict-window.c:1954
+msgid "Dictionary"
+msgstr "शब्दकोश"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
+msgid "Dictionary server (Deprecated)"
+msgstr "शब्दकोश सर्भर (अस्वीकार गरियो)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
+msgid "Port used to connect to server (Deprecated)"
+msgstr "सर्भरमा जडान गर्न प्रयोग गरिने पोर्ट (अस्वीकार गरियो)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
+msgid ""
+"Specify whether to use smart lookup. This key is dependant on whether the "
+"dictionary server supports this option. The default is TRUE. This key is "
+"deprecated and no longer in use."
+msgstr ""
+"छरितो खोजी प्रयोग गर्ने या नगर्ने निर्दिष्ट गर्नुहोस् । यो कुञ्जी शब्दकोश "
+"सर्भरले यस विकल्पलाई समर्थन गर्ने या नगर्नेमा निर्भर हुन्छ । पूर्वनिर्धारित "
+"TRUE हो । यस कुञ्जीलाई अस्वीकार गरिन्छ र लामो धेरै समय प्रयोग गरिदैन ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+msgid "The default database to use"
+msgstr "प्रयोग गरिने पूर्वनिर्धारित डेटावेस"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
+msgid "The default height of the application window"
+msgstr "अनुप्रयोग सञ्झ्यालको पूर्वनिर्धारित उचाइ"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+msgid "The default search strategy to use"
+msgstr "प्रयोग गरिने पूर्वनिर्धारित खोजी रणनीति"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
+msgid "The default width of the application window"
+msgstr "अनुप्रयोग सञ्झ्यालको पूर्वनिर्धारित चौडाइ"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
+msgid ""
+"The dictionary server to connect to. The default server is dict.org. See "
+"http://www.dict.org for details on other servers. This key is deprecated and "
+"no longer in use."
+msgstr ""
+"जडान गरिने शब्दकोश सर्भर । पूर्वनिर्धारित सर्भर dict.org हो । अन्य सर्भरको "
+"विवरणका लागि http://www.dict.org हेर्नुहोस् । यस कुञ्जीलाई अस्वीकार गरिन्छ र "
+"धेरै प्रयोग गरिदैन ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+msgid "The font to be used when printing"
+msgstr "मुद्रण गर्दा प्रयोग गरिने फन्ट"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+msgid "The font to be used when printing a definition."
+msgstr "परिभाषा मुद्रण गर्दा प्रयोग गरिने फन्ट ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"शब्दकोश स्रोतमा प्रयोग गरिने पूर्वनिर्धारित व्यक्तिगत डेटाबेस वा मेटा "
+"डेटाबेसको नाम । विस्मय वोधक चिन्ह (\"!\") को अर्थ हाल शब्दकोशमा प्रस्तुत सबै "
+"डेटाबेस स्रोत खोज्नु पर्नेछ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"उपलब्ध भएमा, शब्दकोश स्रोतमा प्रयोग गरिने पूर्वनिर्धारित खोजी रणनीतिको नाम । "
+"पूर्वनिर्धारित रणनीति 'दुरुस्त' हो, जुन दुरुस्त शब्दसँग मिल्छ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+msgid "The name of the dictionary source used"
+msgstr "प्रयोग गरिएको शब्दकोश स्रोतको नाम"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "शब्दको परिभाषा पुन: प्राप्त गर्न प्रयोग गरिने शब्दकोश स्रोतको नाम ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
+msgid "The page of the sidebar to show"
+msgstr "देखाइने छेउपट्टीको पृष्ठ"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
+msgid ""
+"The port number to connect to. The default port is 2628. This key is "
+"deprecated and no longer in use."
+msgstr ""
+"जडान गरिने पोर्ट नम्बर । पूर्वनिर्धारित पोर्ट २६२८ हो । यस कुञ्जीलाई "
+"अस्वीकार गरिन्छ र धेरै समय प्रयोग गरिदैन ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
+msgid "The width of the sidebar"
+msgstr "छेउपट्टीको चौडाइ"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
+msgid ""
+"This key defines the width of the sidebar and it's used to remember the "
+"setting across sessions."
+msgstr ""
+"यस कुञ्जीले छेउपट्टीको चौडाइ परिभाषित गर्दछ र यसलाई सत्रको सेटिङ याद गर्न "
+"प्रयोग गरिन्छ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
+msgid ""
+"This key defines the window height and it's used to remember the size of the "
+"dictionary window across sessions. Setting it to -1 will make the dictionary "
+"window use a height based on the font size."
+msgstr ""
+"यस कुञ्जीले सञ्झ्याल उचाइ परिभाषित गर्दछ र यसलाई सत्रको शब्दकोश सञ्झ्यालको "
+"साइज याद गर्न प्रयोग गरिन्छ । यसलाई -१ मा सेट गर्दा शब्दकोशलाई फन्ट साइजमा "
+"आधारित सञ्झ्यालको उचाइ प्रयोग गर्ने बनाउछ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
+msgid ""
+"This key defines the window width and it's used to remember the size of the "
+"dictionary window across sessions. Setting it to -1 will make the dictionary "
+"window use a width based on the font size."
+msgstr ""
+"यस कुञ्जीले सञ्झ्याल चौडाइ परिभाषित गर्दछ र यसलाई सत्रको शब्दकोश सञ्झ्यालको "
+"साइज याद गर्न प्रयोग गरिन्छ । यसलाई -१ मा सेट गर्दा शब्दकोशलाई फन्ट साइजमा "
+"आधारित सञ्झ्यालको चौडाइ प्रयोग गर्ने बनाउछ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
+msgid ""
+"This key defines whether the sidebar should be visible and it's used to "
+"remember the state of the sidebar across sessions. Setting it to TRUE will "
+"make the sidebar always be displayed."
+msgstr ""
+"यस कुञ्जीले सत्रमा छेउपट्टी दृश्यात्मक हुनुपर्ने या नपर्ने र यसलाई "
+"छेउपट्टीको स्थिति सम्झन प्रयोग गरिन्छ या गरिदैन परिभाषित गर्दछ । यसलाई ठीकमा "
+"सेट गर्दा छेउपट्टीलाई सधैँ देखिने बनाउछ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
+msgid ""
+"This key defines whether the statusbar should be visible and it's used to "
+"remember the state of the statusbar across sessions. Setting it to TRUE will "
+"make the statusbar always be displayed."
+msgstr ""
+"यस कुञ्जीले सत्रमा स्थितिपट्टी दृश्यात्मक हुनुपर्ने या नपर्ने र यसलाई "
+"स्थितिपट्टीको स्थिति सम्झन प्रयोग गरिन्छ या गरिदैन परिभाषित गर्दछ । यसलाई "
+"ठीकमा सेट गर्दा स्थितिपट्टीलाई सधैँ देखिने बनाउछ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
+msgid ""
+"This key defines whether the window should be maximized and it's used to "
+"remember the state of the dictionary window across sessions. Setting it to "
+"TRUE will make the window always appear as maximized."
+msgstr ""
+"यस कुञ्जीले सत्रमा सञ्झ्याल अधिकतम हुनुपर्दछ या पर्दैन र यसलाई शब्दकोशको "
+"स्थिति सम्झन प्रयोग गरिन्छ या गरिदैन परिभाषित गर्दछ । यसलाई ठीकमा सेट गर्दा "
+"सञ्झ्याललाई सधैँ अधिकतम पारिएको रूपमा देखिने बनाउछ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
+msgid ""
+"This key defines which page of the sidebar should be displayed and it's used "
+"to remember the setting across sessions.. It can be \"speller\" or "
+"\"databases\"."
+msgstr ""
+"यस कुञ्जीले छेउपट्टीको कुन पृष्ठ प्रदर्शित गर्नुपर्दछ र यसलाई सत्रमा सेटिङ "
+"सम्झन प्रयोग गरिन्छ भन्ने परिभाषित गर्दछ.. यो \"स्पेलर\" वा \"डेटाबेस\" "
+"हुनसक्छ ।"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
+msgid "Use smart lookup (Deprecated)"
+msgstr "छरितो खोजी प्रयोग गर्नुहोस् (अनुचित ठानिएको)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
+msgid "Whether the application window should be maximized"
+msgstr "अनुप्रयोग सञ्झ्याल ठूलो पारिएको हुनुपर्दछ या पर्दैन"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
+msgid "Whether the sidebar should be visible"
+msgstr "छेउपट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
+msgid "Whether the statusbar should be visible"
+msgstr "स्थितिपट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
+msgid "Print"
+msgstr "मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:2
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:3
+msgid "Source"
+msgstr "स्रोत"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "फन्ट मुद्रण गर्नुहोस्:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:4
+msgid "_Select a dictionary source for looking up words:"
+msgstr "शब्द हेर्नका लागि शब्दकोश स्रोत चयन गर्नुहोस्:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:1
+msgid "Dictionaries"
+msgstr "शब्दकोश"
+
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:2
+msgid "H_ostname:"
+msgstr "होस्टनाम:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:4
+msgid "Source Name"
+msgstr "स्रोत नाम"
+
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:5
+msgid "Strategies"
+msgstr "रणनीति"
+
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:6
+msgid "_Description:"
+msgstr "वर्णन:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:8
+msgid "_Transport:"
+msgstr "सवारी:"
+
+#: ../gnome-dictionary/data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "स्पेनी शब्दकोश"
+
+#: ../gnome-dictionary/data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "लङ्गडू थाई अङ्ग्रेजी शब्दकोश"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:283
+msgid "Client Name"
+msgstr "क्लाइन्ट नाम"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:284
+msgid "The name of the client of the context object"
+msgstr "सन्दर्भ वस्तुको क्लाइन्टको नाम"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:297
+msgid "Hostname"
+msgstr "होस्टनाम"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:298
+msgid "The hostname of the dictionary server to connect to"
+msgstr "जडान गरिने शब्दकोश सर्भरको होस्टनाम"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:311
+msgid "Port"
+msgstr "पोर्ट"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:312
+msgid "The port of the dictionary server to connect to"
+msgstr "जडान गरिने शब्दकोश सर्भरको पोर्ट"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:327
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:328
+msgid "The status code as returned by the dictionary server"
+msgstr "शब्दकोश सर्भरद्वारा फिर्ता गरिए अनुरूपको वस्तुस्थिति सङ्केत"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:777
+#, c-format
+msgid "No connection to the dictionary server at '%s:%d'"
+msgstr "शब्दकोश सर्भरको '%s:%d' मा जडान छैन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1060
+#, c-format
+msgid "Lookup failed for hostname '%s': no suitable resources found"
+msgstr "होस्टनाम '%s' का लागि खोजी असफल: उचित स्रोत फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1091
+#, c-format
+msgid "Lookup failed for host '%s': %s"
+msgstr "होस्ट '%s': %s का लागि खोजी असफल"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1125
+#, c-format
+msgid "Lookup failed for host '%s': host not found"
+msgstr "होस्ट '%s' का लागि खोजी असफल: होस्ट फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1177
+#, c-format
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"शब्दकोश सर्भरलाई '%s:%d' मा जडान गर्न असक्षम । सर्भरले सङ्केत %d भएको जवाफ "
+"प्रस्तुत गर्यो (सर्भर डाउन)"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr ""
+"शब्दकोश सर्भर जवाफको पदवर्णन गर्न असफल\n"
+": '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1225
+#, c-format
+msgid "No definitions found for '%s'"
+msgstr "'%s' का लागि परिभाषा फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1240
+#, c-format
+msgid "Invalid database '%s'"
+msgstr "अमान्य डेटाबेस '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1255
+#, c-format
+msgid "Invalid strategy '%s'"
+msgstr "अमान्य रणनीति '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1270
+#, c-format
+msgid "Bad command '%s'"
+msgstr "गलत आदेश '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1285
+#, c-format
+msgid "Bad parameters for command '%s'"
+msgstr "आदेशका लागि गलत दायरा '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1300
+#, c-format
+msgid "No databases found on dictionary server at '%s'"
+msgstr "'%s' को शब्दकोश सर्भरमा डेटाबेस फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1315
+#, c-format
+msgid "No strategies found on dictionary server at '%s'"
+msgstr "'%s' को शब्दकोश सर्भरमा रणनीति फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1748
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "शब्दकोश सर्भरलाई %s:%d मा जडान गर्न असफल"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1787
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"सर्भरबाट जवाफ पढ्दा त्रुटि:\n"
+"%s"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1860
+#, c-format
+msgid "Connection timeout for the dictionary server at '%s:%d'"
+msgstr "शब्दकोश सर्भरको '%s:%d' मा जडान समय समाप्त"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1894
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "शब्दकोश सर्भरका लागि होस्टनाम परिभाषित गरिएको छैन"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1930
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1945
+#, c-format
+msgid "Unable to create socket"
+msgstr "सकेट सिर्जना गर्न असफल"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1971
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr "च्यनललाई नरोकिएको रूपमा सेट गर्न असफल: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1986
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'"
+msgstr "शब्दकोश सर्भरलाई '%s:%d' मा जडान गर्न असफल"
+
+#: ../gnome-dictionary/libgdict/gdict-context.c:218
+msgid "Local Only"
+msgstr "स्थानीय मात्र"
+
+#: ../gnome-dictionary/libgdict/gdict-context.c:219
+msgid "Whether the context uses only local dictionaries or not"
+msgstr "सन्दर्भले स्थानीय शब्दकोश मात्र प्रयोग गर्दछ या गर्दैन"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+msgid "Reload the list of available databases"
+msgstr "उपलब्ध डेटाबेसको सुची रिलोड गर्नुहोस्"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+msgid "Clear the list of available databases"
+msgstr "उपलब्ध डेटाबेसको सूची खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
+#: ../gnome-dictionary/libgdict/gdict-speller.c:779
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+msgid "Error while matching"
+msgstr "मिलाउदा त्रुटि"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
+#: ../logview/logview-window.c:515
+msgid "Not found"
+msgstr "फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+msgid "F_ind:"
+msgstr "फेला पार्नुहोस्:"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+msgid "_Previous"
+msgstr "अघिल्लो"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+msgid "_Next"
+msgstr "पछिल्लो"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+msgid "Error while looking up definition"
+msgstr "परिभाषा खोज्दा त्रुटि"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+msgid "Another search is in progress"
+msgstr "अन्य खोजी प्रगतिमा छ"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
+#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+msgid "Please wait until the current search ends."
+msgstr "कृपया हालको खोजी अन्त्य हुदासम्म प्रतिक्षा गर्नुहोस् ।"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+msgid "Error while retrieving the definition"
+msgstr "परिभाषा पुन: प्राप्त गर्दा त्रुटि"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:232
+msgid "Filename"
+msgstr "फाइलनाम"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:233
+msgid "The filename used by this dictionary source"
+msgstr "यस शब्दकोश स्रोतद्वारा प्रयोग गरिने फाइलनाम"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:246
+#: ../gsearchtool/gsearchtool.c:2382
+msgid "Name"
+msgstr "नाम"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:247
+msgid "The display name of this dictonary source"
+msgstr "यस शब्दकोश स्रोतको प्रदर्शन नाम"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:260
+msgid "Description"
+msgstr "वर्णन"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:261
+msgid "The description of this dictionary source"
+msgstr "यस शब्दकोश स्रोतको वर्णन"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:274
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+msgid "Database"
+msgstr "डेटाबेस"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:275
+msgid "The default database of this dictonary source"
+msgstr "यस शब्दकोश स्रोतको पूर्वनिर्धारित डेटाबेस"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:288
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+msgid "Strategy"
+msgstr "रणनीति"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:289
+msgid "The default strategy of this dictonary source"
+msgstr "यस शब्दकोश स्रोतको पूर्वनिर्धारित रणनीति"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:302
+msgid "Transport"
+msgstr "सवारी"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:303
+msgid "The transport mechanism used by this dictionary source"
+msgstr "यस शब्दकोश स्रोतद्वारा प्रयोग गरिने सवारी संयन्त्र"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:317
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+msgid "Context"
+msgstr "सन्दर्भ"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:318
+msgid "The GdictContext bound to this source"
+msgstr "यस स्रोतमा समाविष्ट गरिने GdictContext"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:413
+#, c-format
+msgid "Invalid transport type '%d'"
+msgstr "अमान्य सवारी प्रकार '%d'"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:441
+#, c-format
+msgid "No '%s' group found inside the dictionary source definition"
+msgstr "शब्दकोश स्रोत परिभाषा भित्र '%s' समूह फेला परेन"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:457
+#: ../gnome-dictionary/libgdict/gdict-source.c:481
+#: ../gnome-dictionary/libgdict/gdict-source.c:505
+#: ../gnome-dictionary/libgdict/gdict-source.c:530
+#, c-format
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition: %s"
+msgstr "शब्दकोश स्रोत परिभाषा भित्र '%s' कुञ्जी प्राप्त गर्न असक्षम: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:555
+#, c-format
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr "शब्दकोश परिभाषा फाइल भित्र '%s' कुञ्जी प्राप्त गर्न असक्षम: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:741
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr "शब्दकोश स्रोतको नाम छैन"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:750
+#, c-format
+msgid "Dictionary source '%s' has invalid transport '%s'"
+msgstr "शब्दकोश स्रोत '%s' सँग अमान्य सवारी '%s' छ"
+
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+msgid "Reload the list of available sources"
+msgstr ""
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:171
+msgid "Paths"
+msgstr "मार्ग"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:172
+msgid "Search paths used by this object"
+msgstr "यस वस्तुद्वारा प्रयोग गरिएको मार्ग खोजी गर्नुहोस्"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:184
+msgid "Sources"
+msgstr "स्रोत"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:185
+msgid "Dictionary sources found"
+msgstr "शब्दकोश स्रोत फेला पर्यो"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+msgid "Clear the list of similar words"
+msgstr "समान शब्दको सूची खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+msgid "The GdictContext object used to get the word definition"
+msgstr "शब्द परिभाषा प्राप्त गर्न प्रयोग गरिने GdictContext वस्तु"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+msgid "The database used to query the GdictContext"
+msgstr "GdictContext क्वेरी गर्न प्रयोग गरिने डेटाबेस"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+msgid "The strategy used to query the GdictContext"
+msgstr "GdictContext क्वेरी गर्न प्रयोग गरिने रणनीति"
+
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+msgid "Reload the list of available strategies"
+msgstr "उपलब्ध रणनीतिको सूची रिलोड गर्नुहोस्"
+
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+msgid "Clear the list of available strategies"
+msgstr "उपलब्ध रणनीतिको सूची खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:97
+msgid "GDict debugging flags to set"
+msgstr ""
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:97
+#: ../gnome-dictionary/libgdict/gdict-utils.c:99
+msgid "FLAGS"
+msgstr ""
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:99
+msgid "GDict debugging flags to unset"
+msgstr ""
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:157
+msgid "GDict Options"
+msgstr ""
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:158
+msgid "Show GDict Options"
+msgstr ""
+
+#: ../gnome-dictionary/src/gdict-about.c:57
+#: ../gnome-dictionary/src/gdict-applet.c:591
+msgid "Look up words in dictionaries"
+msgstr "शब्दकोशमा शब्दहरू खोज्नुहोस्"
+
+#. Translators: the first is the word found, the second is the
+#. * database name and the last is the definition's text; please
+#. * keep the new lines.
+#: ../gnome-dictionary/src/gdict-app.c:217
+#, c-format
+msgid ""
+"Definition for '%s'\n"
+"  From '%s':\n"
+"\n"
+"%s\n"
+msgstr ""
+"'%s' का लागि परिभाषा\n"
+"  यसबाट '%s':\n"
+"\n"
+"%s\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:231
+#, c-format
+msgid "Error: %s\n"
+msgstr "त्रुटि: %s\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:257
+#, c-format
+msgid "See gnome-dictionary --help for usage\n"
+msgstr "जिनोम-शब्दकोश --मद्दत प्रयोगका लागि हेर्नुहोस्\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:270
+msgid "Unable to find a suitable dictionary source"
+msgstr "उचित शब्दकोश स्रोत फेला पार्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-app.c:304
+#, c-format
+msgid ""
+"Error while looking up the definition of \"%s\":\n"
+"%s"
+msgstr ""
+"\"%s\"को परिभाषा खोज्दा त्रुटि:\n"
+"%s"
+
+#: ../gnome-dictionary/src/gdict-app.c:337
+#: ../gnome-dictionary/src/gdict-app.c:351
+msgid "Words to look up"
+msgstr "खोज्नु पर्ने शब्द"
+
+#: ../gnome-dictionary/src/gdict-app.c:337
+#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:351
+msgid "word"
+msgstr "शब्द"
+
+#: ../gnome-dictionary/src/gdict-app.c:339
+msgid "Words to match"
+msgstr "मिल्ने शब्द"
+
+#: ../gnome-dictionary/src/gdict-app.c:341
+msgid "Dictionary source to use"
+msgstr "प्रयोग गरिने शब्दकोश स्रोत"
+
+#: ../gnome-dictionary/src/gdict-app.c:341
+msgid "source"
+msgstr "स्रोत"
+
+#: ../gnome-dictionary/src/gdict-app.c:343
+msgid "Show available dictionary sources"
+msgstr "उपलब्ध शब्दकोश स्रोत देखाउनुहोस्"
+
+#: ../gnome-dictionary/src/gdict-app.c:345
+msgid "Print result to the console"
+msgstr "कन्सोलमा परिणाम मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-app.c:347
+msgid "Database to use"
+msgstr "प्रयोग गरिने डेटाबेस"
+
+#: ../gnome-dictionary/src/gdict-app.c:347
+msgid "db"
+msgstr "db"
+
+#: ../gnome-dictionary/src/gdict-app.c:349
+msgid "Strategy to use"
+msgstr "प्रयोग गरिने रणनीति"
+
+#: ../gnome-dictionary/src/gdict-app.c:349
+msgid "strat"
+msgstr "सुरु गर्नुहोस्"
+
+#. create the new option context
+#: ../gnome-dictionary/src/gdict-app.c:367
+msgid " - Look up words in dictionaries"
+msgstr " - शब्दकोशमा शब्द खोज्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:205
+#: ../gnome-dictionary/src/gdict-window.c:838
+msgid "Save a Copy"
+msgstr "एउटा प्रतिलिपि बचत गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:215
+#: ../gnome-dictionary/src/gdict-window.c:848
+msgid "Untitled document"
+msgstr "शीर्षक नभएको कागजात"
+
+#: ../gnome-dictionary/src/gdict-applet.c:236
+#: ../gnome-dictionary/src/gdict-window.c:869
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "'%s'मा लेख्दा त्रुटि"
+
+#: ../gnome-dictionary/src/gdict-applet.c:361
+msgid "Clear the definitions found"
+msgstr "फेला पारिएका परिभाषा खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:363
+msgid "Clear definition"
+msgstr "परिभाषा खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:364
+msgid "Clear the text of the definition"
+msgstr "परिभाषाको पाठ खाली गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:371
+msgid "Print the definitions found"
+msgstr "प्राप्त परिभाषा मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:373
+msgid "Print definition"
+msgstr "परिभाषा मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:374
+msgid "Print the text of the definition"
+msgstr "परिभाषाको पाठ मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:381
+msgid "Save the definitions found"
+msgstr "फेला परेको परिभाषा बचत गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:383
+msgid "Save definition"
+msgstr "परिभाषा बचत गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:384
+msgid "Save the text of the definition to a file"
+msgstr "फाइलमा परिभाषाको पाठ बचत गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:533
+msgid "Click to view the dictionary window"
+msgstr "शब्दकोश सञ्झ्याल हेर्न क्लिक गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:535
+msgid "Toggle dictionary window"
+msgstr "शब्दकोश सञ्झ्याल टगल गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:536
+msgid "Show or hide the definition window"
+msgstr "परिभाषा सञ्झ्याल देखाउनुहोस् वा लुकाउनुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:588
+msgid "Type the word you want to look up"
+msgstr "तपाईँले खोज्न चाहेको शब्द टाइप गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-applet.c:590
+msgid "Dictionary entry"
+msgstr "शब्दकोश प्रविष्टि"
+
+#: ../gnome-dictionary/src/gdict-applet.c:724
+#: ../gnome-dictionary/src/gdict-window.c:1002
+msgid "Dictionary Preferences"
+msgstr "प्राथमिकिकरण"
+
+#: ../gnome-dictionary/src/gdict-applet.c:750
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:504
+#: ../gnome-dictionary/src/gdict-source-dialog.c:494
+#: ../gnome-dictionary/src/gdict-window.c:1146
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "मद्दत प्रदर्शन गर्दा त्रुटि भएको थियो"
+
+#: ../gnome-dictionary/src/gdict-applet.c:902
+#: ../gnome-dictionary/src/gdict-window.c:518
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "'%s' नाम भएको शब्दकोश स्रोत उपलब्ध छैन"
+
+#: ../gnome-dictionary/src/gdict-applet.c:906
+#: ../gnome-dictionary/src/gdict-window.c:522
+msgid "Unable to find dictionary source"
+msgstr "शब्दकोश स्रोत फेला पार्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-applet.c:922
+#: ../gnome-dictionary/src/gdict-window.c:538
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "स्रोत '%s' का लागि सन्दर्भ उपलब्ध छैन"
+
+#: ../gnome-dictionary/src/gdict-applet.c:926
+#: ../gnome-dictionary/src/gdict-window.c:542
+msgid "Unable to create a context"
+msgstr "सन्दर्भ सिर्जना गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1191
+#: ../gnome-dictionary/src/gdict-window.c:2085
+msgid "Unable to connect to GConf"
+msgstr "GConfमा जडान गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1204
+#: ../gnome-dictionary/src/gdict-window.c:2098
+msgid "Unable to get notification for preferences"
+msgstr "प्राथमिकताका लागि सूचना प्राप्त गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1218
+#: ../gnome-dictionary/src/gdict-window.c:2111
+msgid "Unable to get notification for the document font"
+msgstr "कागजात फन्टका लागि सूचना प्राप्त गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-common.c:79
+#, c-format
+msgid "Unable to rename file '%s' to '%s': %s"
+msgstr "फाइल '%s' लाई '%s': %sमा पुन: नामकरण गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-common.c:103
+#: ../gnome-dictionary/src/gdict-common.c:126
+#, c-format
+msgid "Unable to create the data directory '%s': %s"
+msgstr "डेटा डाइरेक्टरी '%s': %s सिर्जना गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+msgid "Edit Dictionary Source"
+msgstr "शब्दकोश स्रोत सम्पादन गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+msgid "Add Dictionary Source"
+msgstr "शब्दकोश स्रोत थप्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:354
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr "\"%s\" हटाउनुहुन्छ ?"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:356
+msgid "This will permanently remove the dictionary source from the list."
+msgstr "यसले सुचीबाट शब्दकोश स्रोतलाई स्थायी रूपमा हटाउदछ ।"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:386
+#, c-format
+msgid "Unable to remove source '%s'"
+msgstr "स्रोत '%s' हटाउन असक्षम"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:667
+msgid "Add a new dictionary source"
+msgstr "एउटा नयाँ शब्दकोश स्रोत थप्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:673
+msgid "Remove the currently selected dictionary source"
+msgstr "हालै चयन गरिएको शब्दकोश स्रोत हटाउनुहोस्"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:686
+msgid "Set the font used for printing the definitions"
+msgstr "परिभाषा मुद्रण गर्नका लागि प्रयोग गरिने फन्ट सेट गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-print.c:249
+#: ../gnome-dictionary/src/gdict-print.c:313
+#, c-format
+msgid "Unable to display the preview: %s"
+msgstr ""
+
+#: ../gnome-dictionary/src/gdict-source-dialog.c:356
+#: ../gnome-dictionary/src/gdict-source-dialog.c:449
+msgid "Unable to create a source file"
+msgstr "स्रोत फाइल सिर्जना गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-source-dialog.c:374
+#: ../gnome-dictionary/src/gdict-source-dialog.c:467
+msgid "Unable to save source file"
+msgstr "स्रोत फाइल बचत गर्न असक्षम"
+
+#: ../gnome-dictionary/src/gdict-window.c:317
+#, c-format
+msgid "Searching for '%s'..."
+msgstr "'%s'का लागि खोजी गर्दैछ..."
+
+#: ../gnome-dictionary/src/gdict-window.c:349
+#: ../gnome-dictionary/src/gdict-window.c:408
+msgid "No definitions found"
+msgstr "कुनै परिभाषा फेला परेन"
+
+#: ../gnome-dictionary/src/gdict-window.c:351
+#, c-format
+msgid "A definition found"
+msgid_plural "%d definitions found"
+msgstr[0] "एउटा परिभाषा फेला पर्यो"
+msgstr[1] "%d परिभाषा फेला पर्यो"
+
+#: ../gnome-dictionary/src/gdict-window.c:607
+#, c-format
+msgid "%s - Dictionary"
+msgstr "%s - शब्दकोश"
+
+#: ../gnome-dictionary/src/gdict-window.c:1181 ../logview/logview-window.c:838
+msgid "_File"
+msgstr "फाइल"
+
+#: ../gnome-dictionary/src/gdict-window.c:1184
+msgid "_Go"
+msgstr "जानुहोस्"
+
+#. File menu
+#: ../gnome-dictionary/src/gdict-window.c:1188
+msgid "_New"
+msgstr "नयाँ"
+
+#: ../gnome-dictionary/src/gdict-window.c:1189
+msgid "New look up"
+msgstr "नयाँ खोजी गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1190
+msgid "_Save a Copy..."
+msgstr "एउटा प्रतिलिपि बचत गर्नुहोस्..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1192
+msgid "P_review..."
+msgstr ""
+
+#: ../gnome-dictionary/src/gdict-window.c:1193
+msgid "Preview this document"
+msgstr ""
+
+#: ../gnome-dictionary/src/gdict-window.c:1194
+msgid "_Print..."
+msgstr "मुद्रण गर्नुहोस्..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1195
+msgid "Print this document"
+msgstr "यस कागजातलाई मुद्रण गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1202 ../logview/logview-window.c:853
+msgid "Select _All"
+msgstr "सबै चयन गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1205
+msgid "Find a word or phrase in the document"
+msgstr "कागजातमा एउटा शब्द वा वाक्यांश फेला पार्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1207
+msgid "Find Ne_xt"
+msgstr "पछिल्लो फेला पार्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1209
+msgid "Find Pre_vious"
+msgstr "अघिल्लो फेला पार्नुहोस्"
+
+#. Go menu
+#: ../gnome-dictionary/src/gdict-window.c:1215
+msgid "_Previous Definition"
+msgstr "अघिल्लो परिभाषा"
+
+#: ../gnome-dictionary/src/gdict-window.c:1216
+msgid "Go to the previous definition"
+msgstr "अघिल्लो परिभाषामा जानुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1217
+msgid "_Next Definition"
+msgstr "पछिल्लो परिभाषा"
+
+#: ../gnome-dictionary/src/gdict-window.c:1218
+msgid "Go to the next definition"
+msgstr "पछिल्लो परिभाषामा जानुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1219
+msgid "_First Definition"
+msgstr "पहिलो परिभाषा"
+
+#: ../gnome-dictionary/src/gdict-window.c:1220
+msgid "Go to the first definition"
+msgstr "पहिलो परिभाषामा जानुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1221
+msgid "_Last Definition"
+msgstr "अन्तिम परिभाषा"
+
+#: ../gnome-dictionary/src/gdict-window.c:1222
+msgid "Go to the last definition"
+msgstr "अन्तिम परिभाषामा जानुहोस्"
+
+#. View menu
+#: ../gnome-dictionary/src/gdict-window.c:1225
+msgid "Similar _Words"
+msgstr "समान शब्द"
+
+#: ../gnome-dictionary/src/gdict-window.c:1227
+msgid "Dictionary Sources"
+msgstr ""
+
+#: ../gnome-dictionary/src/gdict-window.c:1229
+msgid "Available _Databases"
+msgstr "उपलब्ध डेटाबेस"
+
+#: ../gnome-dictionary/src/gdict-window.c:1231
+msgid "Available St_rategies"
+msgstr "उपलब्ध रणनीति"
+
+#. View menu
+#: ../gnome-dictionary/src/gdict-window.c:1248
+msgid "_Sidebar"
+msgstr "छेउपट्टी"
+
+#: ../gnome-dictionary/src/gdict-window.c:1250
+msgid "S_tatusbar"
+msgstr "स्थितिपट्टी"
+
+#: ../gnome-dictionary/src/gdict-window.c:1371
+#, c-format
+msgid "Dictionary source `%s' selected"
+msgstr ""
+
+#: ../gnome-dictionary/src/gdict-window.c:1392
+#, c-format
+msgid "Strategy `%s' selected"
+msgstr "रणनीति `%s' चयन गरियो"
+
+#: ../gnome-dictionary/src/gdict-window.c:1412
+#, c-format
+msgid "Database `%s' selected"
+msgstr "डेटाबेस `%s' चयन गरियो"
+
+#: ../gnome-dictionary/src/gdict-window.c:1432
+#, c-format
+msgid "Word `%s' selected"
+msgstr "शब्द `%s' चयन गरियो"
+
+#. speller
+#: ../gnome-dictionary/src/gdict-window.c:1454
+msgid "Double-click on the word to look up"
+msgstr "शब्द खोजी गर्नका लागि शब्दमा डबल क्लिक गर्नुहोस्"
+
+#. strat-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1460
+msgid "Double-click on the matching strategy to use"
+msgstr "प्रयोग गरिने मिल्दो रणनीतिमा डबल क्लिक गर्नुहोस्"
+
+#. source-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1465
+msgid "Double-click on the source to use"
+msgstr ""
+
+#. db-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1474
+msgid "Double-click on the database to use"
+msgstr "प्रयोग गरिने डेटाबेसमा डबल क्लिक गर्नुहोस्"
+
+#: ../gnome-dictionary/src/gdict-window.c:1762
+msgid "Look _up:"
+msgstr "खोजी गर्नुहोस्:"
+
+#: ../gnome-dictionary/src/gdict-window.c:1836
+msgid "Similar words"
+msgstr "समान शब्द"
+
+#: ../gnome-dictionary/src/gdict-window.c:1849
+msgid "Available dictionaries"
+msgstr "उपलब्ध शब्दकोश"
+
+#: ../gnome-dictionary/src/gdict-window.c:1862
+msgid "Available strategies"
+msgstr "उपलब्ध रणनीति"
+
+#: ../gnome-dictionary/src/gdict-window.c:1873
+msgid "Dictionary sources"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.c:133
+msgid "Error loading the help page"
+msgstr "मद्दत पृष्ठ लोड गर्दा त्रुटि"
+
+#: ../gnome-screenshot/gnome-screenshot.c:245
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: ../gnome-screenshot/gnome-screenshot.c:246
+msgid "Drop shadow"
+msgstr "छायाँ झार्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:247
+msgid "Border"
+msgstr "किनारा"
+
+#. * Include pointer *
+#: ../gnome-screenshot/gnome-screenshot.c:351
+msgid "Include _pointer"
+msgstr ""
+
+#. * Include window border *
+#: ../gnome-screenshot/gnome-screenshot.c:360
+msgid "Include the window _border"
+msgstr "सञ्झ्याल किनारा समाविष्ट गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:375
+msgid "Apply _effect:"
+msgstr "प्रभाव लागू गर्नुहोस्:"
+
+#: ../gnome-screenshot/gnome-screenshot.c:437
+msgid "Grab the whole _desktop"
+msgstr "सम्पूर्ण डेस्कटप प्राप्त गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:449
+msgid "Grab the current _window"
+msgstr "हालको सञ्झ्याल प्राप्त गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:461
+msgid "Select _area to grab"
+msgstr ""
+
+#. translators: this is the first part of the "grab after a
+#. * delay of <spin button> seconds".
+#. 
+#: ../gnome-screenshot/gnome-screenshot.c:478
+msgid "Grab _after a delay of"
+msgstr "विलम्ब पछि प्राप्त गर्नुहोस्"
+
+#. translators: this is the last part of the "grab after a
+#. * delay of <spin button> seconds".
+#. 
+#: ../gnome-screenshot/gnome-screenshot.c:498
+#: ../gnome-screenshot/gnome-screenshot.c:1291
+msgid "seconds"
+msgstr "सेकेन्ड"
+
+#: ../gnome-screenshot/gnome-screenshot.c:514
+#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+msgid "Take Screenshot"
+msgstr "स्क्रिनसट लिनुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:525
+msgid "Effects"
+msgstr "प्रभाव"
+
+#: ../gnome-screenshot/gnome-screenshot.c:531
+msgid "Take _Screenshot"
+msgstr "स्क्रिनसट लिनुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:657
+msgid "Error while saving screenshot"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.c:661
+#, c-format
+msgid ""
+"Impossible to save the screenshot to %s.\n"
+" Error was %s.\n"
+" Please choose another location and retry."
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.c:793
+msgid "Screenshot taken"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.c:847
+msgid "Unable to take a screenshot of the current window"
+msgstr "हालको सञ्झ्यालको स्क्रिनसट लिन असक्षम"
+
+#: ../gnome-screenshot/gnome-screenshot.c:897
+#, c-format
+msgid "Screenshot-%s.png"
+msgstr "Screenshot-%s.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if a specific window is
+#. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:904
+#, c-format
+msgid "Screenshot-%s-%d.png"
+msgstr "Screenshot-%s-%d.png"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot if the entire screen is taken
+#: ../gnome-screenshot/gnome-screenshot.c:914
+#: ../gnome-screenshot/screenshot-dialog.c:356
+#: ../gnome-screenshot/screenshot-save.c:196
+msgid "Screenshot.png"
+msgstr "Screenshot.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if the entire screen is
+#. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:921
+#, c-format
+msgid "Screenshot-%d.png"
+msgstr "Screenshot-%d.png"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1287
+msgid "Grab a window instead of the entire screen"
+msgstr "पूरा पर्दाको सट्टामा सञ्झ्याल लिनुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1288
+msgid "Grab an area of the screen instead of the entire screen"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.c:1289
+msgid "Include the window border with the screenshot"
+msgstr "सक्रिन सट सँग सञ्झ्याल किनारा समावेश गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1290
+msgid "Remove the window border from the screenshot"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.c:1291
+msgid "Take screenshot after specified delay [in seconds]"
+msgstr "निर्दिष्ट गरिएको विलम्ब पछि स्क्रिनसट लिनुहोस् [सेकेन्डमा]"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1292
+msgid "Effect to add to the border (shadow, border or none)"
+msgstr "किनारामा थपिने प्रभाव (छायाँ, किनारा वा कुनै पनि होइन)"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1292
+msgid "effect"
+msgstr "प्रभाव"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1293
+msgid "Interactively set options"
+msgstr "विकल्पलाई अन्तर्क्रियात्मक रूपमा सेट गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1304
+msgid "Take a picture of the screen"
+msgstr "पर्दाको तस्वीर लिनुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1322
+#, c-format
+msgid ""
+"Conflicting options: --window and --area should not be used at the same "
+"time.\n"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
+msgid "Save images of your desktop or individual windows"
+msgstr "तपाईँको डेस्कटपको वा व्यक्तिगत सञ्झ्यालका छविहरू बचत गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:2
+msgid "C_opy to Clipboard"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:3
+msgid "Save Screenshot"
+msgstr "स्क्रिनसट बचत गर्नुहोस् ।"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:4
+msgid "Save in _folder:"
+msgstr "फोल्डरमा बचत गर्नुहोस्:"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:5
+#: ../logview/data/logview-filter.ui.h:6
+msgid "_Name:"
+msgstr "नाम:"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+msgid "Border Effect"
+msgstr "किनारा प्रभाव"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+msgid ""
+"Effect to add to the outside of a border. Possible values are \"shadow\", "
+"\"none\", and \"border\"."
+msgstr ""
+"किनाराको बाहिरपट्टी थपिने प्रभाव । सम्भावित मान \"छायाँ\", \"कुनै पनि "
+"होइन\", र \"किनारा\" हुन् ।"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+msgid ""
+"Grab just the current window, rather than the whole desktop. This key has "
+"been deprecated and it is no longer in use."
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+msgid "Include Border"
+msgstr "किनारा समावेश गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+msgid "Include Pointer"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+msgid "Include the pointer in the screenshot"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+msgid "Include the window manager border along with the screenshot"
+msgstr "सक्रिनसट सँग सञ्झ्याल प्रबन्धक किनारा समावेश गर्नुहोस्"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+msgid "Screenshot delay"
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+msgid "Screenshot directory"
+msgstr "स्क्रिनसट डाइरेक्टरी"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+msgid "The directory the last screenshot was saved in."
+msgstr "अन्तिम स्क्रिनसट बचत गरिएको डाइरेक्टरी ।"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+msgid "The number of seconds to wait before taking the screenshot."
+msgstr ""
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+msgid "Window-specific screenshot (deprecated)"
+msgstr ""
+
+#: ../gnome-screenshot/screenshot-dialog.c:239
+msgid ""
+"UI definition file for the screenshot program is missing.\n"
+"Please check your installation of gnome-utils"
+msgstr ""
+
+#: ../gnome-screenshot/screenshot-dialog.c:260
+msgid "Select a folder"
+msgstr "फोल्डर चयन गर्नुहोस्"
+
+#: ../gnome-screenshot/screenshot-save.c:57
+#, c-format
+msgid ""
+"Unable to clear the temporary folder:\n"
+"%s"
+msgstr ""
+"अस्थायी फोल्डर खाली गर्न असक्षम:\n"
+"%s"
+
+#: ../gnome-screenshot/screenshot-save.c:95
+msgid ""
+"The child save process unexpectedly exited.  We are unable to write the "
+"screenshot to disk."
+msgstr ""
+"चाइल्ड बचत प्रक्रिया अनपेक्षित रूपमा बहिरियो ।  हामी डिस्कमा सक्रिनसट लेख्न "
+"असमर्थ छौ ।"
+
+#: ../gnome-screenshot/screenshot-save.c:223
+msgid "Unknown error saving screenshot to disk"
+msgstr "डिस्कमा सक्रिनसट बचत गर्दा अज्ञात त्रुटि"
+
+#. TODO: maybe we should also look at WM_NAME and WM_CLASS?
+#: ../gnome-screenshot/screenshot-utils.c:828
+msgid "Untitled Window"
+msgstr "शीर्षक नभएको सञ्झ्याल"
+
+#: ../gnome-screenshot/screenshot-xfer.c:74
+msgid "File already exists"
+msgstr "फाइल पहिल्यै अवस्थित छ"
+
+#: ../gnome-screenshot/screenshot-xfer.c:77
+#, c-format
+msgid "The file \"%s\" already exists. Would you like to replace it?"
+msgstr ""
+
+#: ../gnome-screenshot/screenshot-xfer.c:84
+#: ../gsearchtool/gsearchtool-callbacks.c:1722
+msgid "_Replace"
+msgstr "परिवर्तन गर्नुहोस्"
+
+#: ../gnome-screenshot/screenshot-xfer.c:122
+msgid "Saving file..."
+msgstr ""
+
+#: ../gnome-screenshot/screenshot-xfer.c:294
+msgid "Can't access source file"
+msgstr ""
+
+#: ../gsearchtool/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr ""
+"यस कम्प्युटरमा नाम वा सामाग्री अनुरूप कागजात र फोल्डर स्थापना गर्नुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "...फाइलहरू खोज्नुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "पूर्वनिर्धारित सञ्झ्याल उचाइ"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "पूर्वनिर्धारित सञ्झ्याल ठूलो बनाइयो"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "पूर्वनिर्धारित सञ्झ्याल चौडाइ"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "छिटो खोजी अक्षम बनाउनुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "दोस्रो स्क्यान छरितो खोजी अक्षम पार्नुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:6
+msgid "Look in Folder"
+msgstr ""
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Excluded Paths"
+msgstr "छाडिएका बाटा छिटो खोज्नुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:8
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "दोस्रो स्क्यानमा छाडिएका बाटोहरू छिटो खोजी गर्नुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:9
+msgid "Search Result Columns Order"
+msgstr "परिणाम स्तम्भ क्रम खोजी गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:12
+msgid "Select the search option \"Contains the text\""
+msgstr "खोजी विकल्प \"पाठ समाविष्ट\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:15
+msgid "Select the search option \"Date modified less than\""
+msgstr "खोजी विकल्प \"यसभन्दा थोरैमा परिमार्जित मिति\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:18
+msgid "Select the search option \"Date modified more than\""
+msgstr "खोजी विकल्प \"यसभन्दा बढीमा परिमार्जित मिति\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:21
+msgid "Select the search option \"Exclude other filesystems\""
+msgstr ""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:24
+msgid "Select the search option \"File is empty\""
+msgstr "खोजी विकल्प\"फाइल खाली छ\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:27
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "खोजी विकल्प \"प्रतिकात्मक लिङ्क अनुगमन गर्नुहोस्\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:30
+msgid "Select the search option \"Name does not contain\""
+msgstr "खोजी विकल्प \"नाम समाविष्ट छैन\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:33
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "खोजी विकल्प \"नियमित अभिव्यक्तिसँग मिल्ने नाम\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:36
+msgid "Select the search option \"Owned by group\""
+msgstr "खोजी विकल्प \"समूहद्वारा नियन्त्रित\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:39
+msgid "Select the search option \"Owned by user\""
+msgstr "खोजी विकल्प \"प्रयोगकर्ताद्वारा नियन्त्रित\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:42
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "खोजी विकल्प \"मालिक अपरिचित\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:45
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "खोजी विकल्प \"लुकेका फाइल र फोल्डर देखाउनुहोस्\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:48
+msgid "Select the search option \"Size at least\""
+msgstr "खोजी विकल्प \"न्यूनतम साइज\" चयन गर्नुहोस्"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:51
+msgid "Select the search option \"Size at most\""
+msgstr "खोजी विकल्प \"अधिकतम साइज\" चयन गर्नुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:52
+msgid "Show Additional Options"
+msgstr "थप विकल्पहरू देखाउनुहोस्"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:53
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr ""
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:54
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"यस कुञ्जीले खोजी परिणाममा स्तम्भको क्रम परिभाषित गर्दछ । यो कुञ्जीलाई "
+"प्रयोगकर्ताद्वारा परिमार्जित गरिएको हुनुहुदैँन ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:55
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, "
+"/media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"यस कुञ्जीले परिभाषित गर्ने बाटोहरू खोजी उपकरणले छिटो खोजीमा समाबेश गर्दैन । "
+"वाइल्डकार्ड '*' र '?' समर्थित छन् । पूर्वनिर्धारित मानहरू /mnt/*, /media/*, "
+"/dev/*, /tmp/*, /proc/*, र /var/* हुन् ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"यस कुञ्जीले बाटोहरू परिभाषित गर्दछ, छरितो खोजी सम्पादन गर्दा खोजी उपकरणलाई "
+"दोश्रो स्क्यानबाट हटाइन्छ । दोश्रो स्क्यानले फाइलहरू खोजी कार्यमा खोजी आदेश "
+"प्रयोग गर्दछ । दोश्रो स्क्यानको उद्देश्य अनुक्रमणिकामा नभएका फाइलको खोजी "
+"गर्नु हो । वाइल्डकार्ड '*' र '?' समर्थित छैनन् । पूर्वनिर्धारित मान  /. हो ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:57
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"यस कुञ्जीले सञ्झ्याल उचाइ परिभाषित गर्दछ, र यसलाई सत्र बीचको खोजी उपकरणको "
+"साइज याद गर्न प्रयोग गरिन्छ । यसलाई -१ मा सेटिङ गर्दा खोजी उपकरणलाई "
+"पूर्वनिर्धारित उचाइको बनाउछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"यस कुञ्जीले सञ्झ्याल चौडाइ परिभाषित गर्दछ, र यसलाई सत्र बीचको खोजी उपकरणको "
+"साइज याद गर्न प्रयोग गरिन्छ । यसलाई -१ मा सेटिङ गर्दा खोजी उपकरणलाई "
+"पूर्वनिर्धारित चौडाइको बनाउछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:59
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु गर्दा \"पाठ समाविष्ट\" खोजी विकल्प चयन गरिएको छ "
+"या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"यसभन्दा थोरैमा परिमार्जित मिति\" खोजी "
+"विकल्प चयन गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:61
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"यसभन्दा धेरैमा परिमार्जित मिति\" खोजी "
+"विकल्प चयन गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:62
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"फाइल खाली छ\" खोजी विकल्प चयन गरिएको छ "
+"या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:64
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"प्रतिकात्मक लिङ्क अनुगमन गर्नुहोस्\" "
+"खोजी विकल्प चयन गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:65
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"नाम समाविष्ट छैन\" खोजी विकल्प चयन "
+"गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"नाम नियमित अभिव्यक्तिसँग मिल्दछ\" खोजी "
+"विकल्प चयन गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:67
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"समूहद्वारा नियन्त्रित\" खोजी विकल्प चयन "
+"गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:68
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"प्रयोगकर्ताद्वारा नियन्त्रित\" खोजी "
+"विकल्प चयन गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:69
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"मालिक अपरिचित छ\" खोजी विकल्प चयन गरिएको "
+"छ या छैन निर्धारण गर्दछ ।"
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:72
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"धेरै विकल्प चयन गर्नुहोस्\" चयन विस्तार "
+"गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:73
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"लुकेका फाइल र फोल्डर देखाउनुहोस्\" खोजी "
+"विकल्प चयन गरिएको छ या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:74
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"न्यूनतम साइज\" खोजी विकल्प चयन गरिएको छ "
+"या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:75
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सुरु हुदा, \"अधिकतम साइज\" खोजी विकल्प चयन गरिएको छ "
+"या छैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:76
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"यस कुञ्जीले छरितो खोजी सम्पादन पछाडी फेला पार्ने आदेशको प्रयोग खोजी उपकरणले "
+"अक्षम पार्छ या पार्दैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:77
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"यस कुञ्जीले सामान्य फाइलनाम खोजी सम्पादन गर्दाको स्थापना आदेशको प्रयोग खोजी "
+"उपकरणले अक्षम पार्छ या पर्दैन निर्धारण गर्दछ ।"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:78
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"यस कुञ्जीले खोजी उपकरण सञ्झ्याल अधिकतम स्थितिमा सुरु हुन्छ या हुदैन निर्धारण "
+"गर्दछ ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:194
+msgid "Could not open help document."
+msgstr "मद्दत कागजात खोल्न सकेन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:345
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "तपाईँ %d कागजात खोल्न साँच्चिकै चाहनुहुन्छ ?"
+msgstr[1] "तपाईँ %d कागजातहरू खोल्न साँच्चिकै चाहनुहुन्छ ?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:350
+#: ../gsearchtool/gsearchtool-callbacks.c:547
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "यसले %d अलग विण्डो खोल्नेछ ।"
+msgstr[1] "यसले %d अलग विण्डोहरू खोल्नेछ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:390
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "\"%s\" कागजात खोल्न सकेन ।"
+
+# msgstr[1] "तँपाइहरु पक्का %d फोल्डरहरू खोल्न चाहनुहुन्छ?"
+#: ../gsearchtool/gsearchtool-callbacks.c:419
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "\"%s\" फोल्डर खोल्न सकेन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:427
+msgid "The nautilus file manager is not running."
+msgstr "नउटिलस फाइल प्रबन्धक चलिरहेको छैन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:519
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "कागजात प्रदर्शनको दर्शक सक्षमता स्थापना गरिएको छैन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:542
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "तपाईँ साच्चिकै %d फोल्डर खोल्न चाहनुहुन्छ ?"
+msgstr[1] "तपाईँ साच्चिकै %d फोल्डरहरू खोल्न चाहनुहुन्छ ?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:695
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "\"%s\" लाई रद्दिटोकरीमा सार्न सकेन"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:726
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "तपाईँ सधैँका लगि  \"%s\" मेट्न चाहनुहुन्छ ?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:729
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "रद्दीटोकरी उपलब्ध छैन ।  \"%s\" लाई रद्दीटोकरीमा सार्न सकेन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:768
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "\"%s\" मेट्न सकेन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:879
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "\"%s\" मेट्न असफल: %s."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:891
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "\"%s\" लाई सार्न असफल: %s."
+
+#. Popup menu item: Open
+#: ../gsearchtool/gsearchtool-callbacks.c:1019
+#: ../gsearchtool/gsearchtool-callbacks.c:1049
+msgid "_Open"
+msgstr "खोल्नुहोस्"
+
+#. Popup menu item: Open with (default)
+#: ../gsearchtool/gsearchtool-callbacks.c:1074
+#, c-format
+msgid "_Open with %s"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1108
+#, c-format
+msgid "Open with %s"
+msgstr ""
+
+#. Popup menu item: Open With
+#: ../gsearchtool/gsearchtool-callbacks.c:1140
+msgid "Open Wit_h"
+msgstr ""
+
+#. Popup menu item: Open Folder
+#: ../gsearchtool/gsearchtool-callbacks.c:1185
+msgid "Open _Folder"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1225
+msgid "_Save Results As..."
+msgstr "परिणाम यस रूपमा बचत गर्नुहोस्..."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1607
+msgid "Save Search Results As..."
+msgstr "...यस रूपमा खोजी परिणाम बचत गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1638
+msgid "Could not save document."
+msgstr "कागजात बचत गर्न सकेन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1639
+msgid "You did not select a document name."
+msgstr "तपाईँले कागजातको नाम छान्नु भएन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1669
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "कागजात \"%s\" लाई \"%s\" मा बचत गर्न सकेन ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1703
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "कागजात \"%s\" पहिले नै अवस्थित छ ।  तपाईँ यसलाई बदल्न चाहनुहुन्छ ?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1707
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "तपाईँले अवस्थित फाइल बदलेमा, यसका विषयबस्तुहरू अधिलेखन हुन्छन् ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1772
+msgid "The document name you selected is a folder."
+msgstr "तपाईँले चयन गर्नु भएको कागजात नाम फोल्डर हो ।"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1810
+msgid "You may not have write permissions to the document."
+msgstr "तपाईँलाई कागजातमा लेखन अनुमति नभएको हुनसक्छ ।"
+
+#: ../gsearchtool/gsearchtool-support.c:63
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"जिकन्फ त्रुटि:\n"
+"  %s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../gsearchtool/gsearchtool-support.c:696
+msgid "today at %-I:%M %p"
+msgstr "%-I:%M %pमा आज"
+
+#: ../gsearchtool/gsearchtool-support.c:698
+msgid "yesterday at %-I:%M %p"
+msgstr "%-I:%M %p मा हिजो"
+
+#: ../gsearchtool/gsearchtool-support.c:700
+#: ../gsearchtool/gsearchtool-support.c:702
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %B %-d %Y at %-I:%M:%S %p"
+
+#: ../gsearchtool/gsearchtool-support.c:889
+msgid "link (broken)"
+msgstr "लिङ्क (विच्छेद)"
+
+#: ../gsearchtool/gsearchtool-support.c:893
+#, c-format
+msgid "link to %s"
+msgstr "%sमा लिङ्क गर्नुहोस्"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#. 
+#. localizers: tag used to detect the first copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1490
+msgid " (copy)"
+msgstr " (copy)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1492
+msgid " (another copy)"
+msgstr " (another copy)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1495
+#: ../gsearchtool/gsearchtool-support.c:1497
+#: ../gsearchtool/gsearchtool-support.c:1499
+#: ../gsearchtool/gsearchtool-support.c:1509
+msgid "th copy)"
+msgstr "th copy)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1502
+msgid "st copy)"
+msgstr "st copy)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1504
+msgid "nd copy)"
+msgstr "nd copy)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1506
+msgid "rd copy)"
+msgstr "rd copy)"
+
+#. localizers: appended to first file copy
+#: ../gsearchtool/gsearchtool-support.c:1523
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (copy)%s"
+
+#. localizers: appended to second file copy
+#: ../gsearchtool/gsearchtool-support.c:1525
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (another copy)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../gsearchtool/gsearchtool-support.c:1528
+#: ../gsearchtool/gsearchtool-support.c:1530
+#: ../gsearchtool/gsearchtool-support.c:1532
+#: ../gsearchtool/gsearchtool-support.c:1541
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%dth copy)%s"
+
+#. localizers: appended to x1st file copy
+#: ../gsearchtool/gsearchtool-support.c:1535
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%dst copy)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../gsearchtool/gsearchtool-support.c:1537
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%dnd copy)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../gsearchtool/gsearchtool-support.c:1539
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%drd copy)%s"
+
+#: ../gsearchtool/gsearchtool-support.c:1586
+msgid " (invalid Unicode)"
+msgstr " (अमान्य यूनिकोड)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../gsearchtool/gsearchtool-support.c:1675
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../gsearchtool/gsearchtool-support.c:1683
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../gsearchtool/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "पाठ समाविष्ट गर्दछ"
+
+#: ../gsearchtool/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "यसभन्दा तल परिमार्जित मिति"
+
+#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
+msgid "days"
+msgstr "दिनहरू"
+
+#: ../gsearchtool/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "यसभन्दा बढी परिमार्जित मिति"
+
+#: ../gsearchtool/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "न्यूनतम साइज"
+
+#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "किलोबाइट"
+
+#: ../gsearchtool/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "अधिकतम साइज"
+
+#: ../gsearchtool/gsearchtool.c:88
+msgid "File is empty"
+msgstr "फाइल खाली छ"
+
+#: ../gsearchtool/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "प्रयोगकर्ताको स्वामित्वद्वारा"
+
+#: ../gsearchtool/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "समुहको स्वामित्वद्वारा"
+
+#: ../gsearchtool/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "मालिक परिचित छैन"
+
+#: ../gsearchtool/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "नाम समाविष्ट छैन"
+
+#: ../gsearchtool/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "नाम नियमित अभिव्यक्तिसँग मिल्दछ"
+
+#: ../gsearchtool/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "लुकेको र जगेडा फाइल देखाउनुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "प्रतिकात्माक लिङ्क अनुगमन गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:99
+msgid "Exclude other filesystems"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:157
+msgid "Show version of the application"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:172
+msgid "STRING"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:159
+msgid "PATH"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:160
+msgid "VALUE"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
+msgid "DAYS"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:169
+msgid "USER"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:170
+msgid "GROUP"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:173
+msgid "PATTERN"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "स्थानीय डाटाबेश सायद सिर्जना गरिएको छैन ।"
+
+#: ../gsearchtool/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "\"%s\" का लागि क्यारेक्टर सेट रुपान्तरण असफल भयो"
+
+#: ../gsearchtool/gsearchtool.c:510
+msgid "Searching..."
+msgstr "खोजी गर्दैछ..."
+
+#: ../gsearchtool/gsearchtool.c:510 ../gsearchtool/gsearchtool.c:1016
+#: ../gsearchtool/gsearchtool.c:2988
+msgid "Search for Files"
+msgstr "फाइलको खोजी गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
+msgid "No files found"
+msgstr "फाइल फेला परेन"
+
+#: ../gsearchtool/gsearchtool.c:984
+msgid "(stopped)"
+msgstr "(रोकियो)"
+
+#: ../gsearchtool/gsearchtool.c:990
+msgid "No Files Found"
+msgstr "कुनै फाइल फेला परेन"
+
+#: ../gsearchtool/gsearchtool.c:995
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gsearchtool/gsearchtool.c:1128
+msgid "Entry changed called for a non entry option!"
+msgstr "प्रविष्टि नहुने विकल्पका लागि प्रविष्टि परिवर्तन कल गरियो !"
+
+#: ../gsearchtool/gsearchtool.c:1288
+msgid "Set the text of \"Name contains\" search option"
+msgstr "\"नाम समाविष्ट\" खोजी विकल्पको पाठ सेट गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1289
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "\"फोल्डरमा खोजी गर्नुहोस्\" खोजी विकल्पको पाठ सेट गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1290
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"निम्न मध्ये कुनै एक अनुरूप फाइल क्रमबद्ध गर्नुहोस्: नाम, फोल्डर, साइज, "
+"प्रकार, वा मिति"
+
+#: ../gsearchtool/gsearchtool.c:1291
+msgid "Set sort order to descending, the default is ascending"
+msgstr "क्रमबद्धता घट्दो क्रममा सेट गर्नुहोस्, पूर्वनिर्धारित बढ्दो क्रममा छ"
+
+#: ../gsearchtool/gsearchtool.c:1292
+msgid "Automatically start a search"
+msgstr "खोजी स्वचालित रूपमा सुरु गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1298
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "\"%s\" खोजी विकल्प चयन गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1301
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "चयन गर्नुहोस् र \"%s\" खोजी विकल्प सेट गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1408
+msgid "Invalid option passed to sortby command line argument."
+msgstr "अमान्य विकल्प क्रमबद्धता अनुरूप आदेश लाइन तर्कमा पास भयो ।"
+
+#: ../gsearchtool/gsearchtool.c:1702
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... प्रदर्शन गरिने अति धेरै त्रुटि ..."
+
+#: ../gsearchtool/gsearchtool.c:1716
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr "खोजी परिणाम अमान्य हुन सक्दछ ।  यहाँ खोजी गर्दा त्रुटिहरू थिए ।"
+
+#: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
+msgid "Show more _details"
+msgstr "विस्तृत विवरण देखाउनुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1758
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"खोजी परिणाम म्याद समाप्त भएको वा अमान्य हुनसक्छ ।  तपाईँ छिटो खोजी विशेषता "
+"अक्षम पार्न चाहनुहुन्छ ?"
+
+#: ../gsearchtool/gsearchtool.c:1783
+msgid "Disable _Quick Search"
+msgstr "छिटो खोजी निस्क्रिय पार्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:1810
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "चाइल्ड %d को समुह आइ डी सेट गर्ने प्रक्रिया असफल भयो: %s.\n"
+
+#: ../gsearchtool/gsearchtool.c:1835
+msgid "Error parsing the search command."
+msgstr "खोजी आदेश पद बर्णन गर्दा त्रुटि ।"
+
+#: ../gsearchtool/gsearchtool.c:1868
+msgid "Error running the search command."
+msgstr "खोजी आदेश सञ्चालन गर्दा त्रुटि ।"
+
+#: ../gsearchtool/gsearchtool.c:1988
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "खोजी विकल्प \"%s\" का लागि पाठ मान प्रविष्टि गर्नुहोस् ।"
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../gsearchtool/gsearchtool.c:1993
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "%s मा \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:1995
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "खोजी विकल्प \"%s\" का लागि  %s मा मान प्रविष्टि गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2053
+#, c-format
+msgid "Remove \"%s\""
+msgstr "\"%s\" हटाउनुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2054
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "खोजी विकल्प \"%s\" हटाउन क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2147
+msgid "A_vailable options:"
+msgstr "उपलब्ध विकल्प:"
+
+#: ../gsearchtool/gsearchtool.c:2176
+msgid "Available options"
+msgstr "उपलब्ध विकल्प"
+
+#: ../gsearchtool/gsearchtool.c:2177
+msgid "Select a search option from the drop-down list."
+msgstr "ड्रप-डाउन सूचीबाट खोजी विकल्प चयन गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2189
+msgid "Add search option"
+msgstr "खोजी विकल्प थप्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2190
+msgid "Click to add the selected available search option."
+msgstr "चयन गरिएका उपलब्ध खोजी विकल्प थप्न क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2279
+msgid "S_earch results:"
+msgstr "खोजी परिणाम:"
+
+#: ../gsearchtool/gsearchtool.c:2322
+msgid "List View"
+msgstr "सूची हेर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2431
+msgid "Type"
+msgstr "प्रकार"
+
+#: ../gsearchtool/gsearchtool.c:2443
+msgid "Date Modified"
+msgstr "मिति परिमार्जित गरियो"
+
+#: ../gsearchtool/gsearchtool.c:2759
+msgid "_Name contains:"
+msgstr "नाम समावेस हुन्छ:"
+
+#: ../gsearchtool/gsearchtool.c:2773 ../gsearchtool/gsearchtool.c:2774
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"वाइल्डकार्ड भएको वा नभएको फाइलनाम वा आंशिक फाइलनाम प्रविष्टि गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2774
+msgid "Name contains"
+msgstr "नाममा समावेश छ"
+
+#: ../gsearchtool/gsearchtool.c:2780
+msgid "_Look in folder:"
+msgstr "फोल्डरमा हेर्नुहोस्:"
+
+#: ../gsearchtool/gsearchtool.c:2786
+msgid "Browse"
+msgstr "ब्राउज गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2795
+msgid "Look in folder"
+msgstr "फोल्डरमा हेर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2795
+msgid "Select the folder or device from which you want to begin the search."
+msgstr ""
+"तपाईँले खोजी सुरु गर्न चाहेको खोजीबाट फोल्डर वा यन्त्र चयन गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2813
+msgid "Select more _options"
+msgstr "धेरै विकल्प चयन गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2822
+msgid "Select more options"
+msgstr "धेरै विकल्प चयन गर्नुहोस्"
+
+#: ../gsearchtool/gsearchtool.c:2822
+msgid "Click to expand or collapse the list of available options."
+msgstr "उपलब्ध विकल्पको सूची बढाउन वा संक्षिप्त गर्न क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2846
+msgid "Click to display the help manual."
+msgstr "मद्दत म्यानुअल देखाउन क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2854
+msgid "Click to close \"Search for Files\"."
+msgstr "\"फाइलको खोजी\" बन्द गर्न क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2880
+msgid "Click to perform a search."
+msgstr "खोजी सम्पादन गर्न क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2881
+msgid "Click to stop a search."
+msgstr "खोजी कार्य रोक्न क्लिक गर्नुहोस् ।"
+
+#: ../gsearchtool/gsearchtool.c:2973
+msgid "- the GNOME Search Tool"
+msgstr ""
+
+#: ../gsearchtool/gsearchtool.c:2982
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../logview/data/gnome-system-log.desktop.in.in.h:1
+msgid "Log File Viewer"
+msgstr ""
+
+#: ../logview/data/gnome-system-log.desktop.in.in.h:2
+msgid "View or monitor system log files"
+msgstr "प्रणाली लग फाइल हेर्नुहोस् वा अनुगमन गर्नुहोस्"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:1
+msgid "Height of the main window in pixels"
+msgstr "मुख्य सञ्झ्यालको उचाइ पिक्सेलमा"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:2
+msgid "Log file to open up on startup"
+msgstr "सुरुआतमा खोलिने कार्य फाइल"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:3
+msgid "Log files to open up on startup"
+msgstr "सुरुआतमा खोलिने कार्य फाइल"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:4
+msgid "Size of the font used to display the log"
+msgstr "कार्य प्रदर्शन गर्न प्रयोग गरिने फन्टको साइज"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:5
+msgid ""
+"Specifies a list of log files to open up at startup. A default list is "
+"created by reading /etc/syslog.conf."
+msgstr ""
+"सुरुआतमा खोलिने कार्य फाइलको सुची निर्दिष्ट गर्दछ । पूर्वनिर्धारित सूची पढाई "
+"/etc/syslog.conf अनुरूप सिर्जना गरिन्छ ।"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:6
+msgid "Specifies the height of the log viewer main window in pixels."
+msgstr "कार्य दर्शक मुख्य सञ्झ्यालको उचाइ पिक्सेलमा निर्दिष्ट गर्दछ ।"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:7
+msgid ""
+"Specifies the log file displayed at startup. The default is either "
+"/var/adm/messages or /var/log/messages, depending on your operating system."
+msgstr ""
+"सुरुआतमा प्रदर्शित गरिने कार्य फाइल निर्दिष्ट गर्दछ । पूर्वनिर्धारित तपाईँको "
+"सञ्चालन प्रणालीमा निर्भर हुने, या /var/adm/messages वा /var/log/messages "
+"हुन्छ ।"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:8
+msgid ""
+"Specifies the size of the fixed-width font used to display the log in the "
+"main tree view. The default is taken from the default terminal font size."
+msgstr ""
+"मुख्य ट्री दृश्यमा कार्य प्रदर्शन गर्न प्रयोग गरिने निश्चित चौडाइको फन्टको "
+"साइज निर्दिष्ट गर्दछ । पूर्वनिर्धारितलाई पूर्वनिर्धारित टर्मिनल फन्ट साइजबाट "
+"लिइन्छ ।"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:9
+msgid "Specifies the width of the log viewer main window in pixels."
+msgstr "कार्य दर्शक मुख्य सञ्झ्यालको चौडाइ पिक्सेलमा निर्दिष्ट गर्दछ ।"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:10
+msgid "Width of the main window in pixels"
+msgstr "मुख्य सञ्झ्यालको चौडाइ पिक्सेलमा"
+
+#: ../logview/data/logview-filter.ui.h:1
+msgid "Background:"
+msgstr ""
+
+#: ../logview/data/logview-filter.ui.h:2
+msgid "Effect:"
+msgstr ""
+
+#: ../logview/data/logview-filter.ui.h:3
+msgid "Foreground:"
+msgstr ""
+
+#: ../logview/data/logview-filter.ui.h:4
+msgid "Hide"
+msgstr ""
+
+#: ../logview/data/logview-filter.ui.h:5
+msgid "Highlight"
+msgstr ""
+
+#: ../logview/data/logview-filter.ui.h:7
+msgid "_Regular Expression:"
+msgstr ""
+
+#: ../logview/logview-app.c:375
+#, c-format
+msgid "Impossible to open the file %s"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:90
+msgid "Filter name is empty!"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:103
+msgid "Filter name may not contain the ':' character"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:126
+msgid "Regular expression is empty!"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:142
+#, c-format
+msgid "Regular expression is invalid: %s"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:238
+msgid "Please specify either foreground or background color!"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:293
+msgid "Edit filter"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:293
+msgid "Add new filter"
+msgstr ""
+
+#: ../logview/logview-filter-manager.c:503
+msgid "Filters"
+msgstr ""
+
+#: ../logview/logview-findbar.c:169
+msgid "_Find:"
+msgstr ""
+
+#: ../logview/logview-findbar.c:184
+msgid "Find Previous"
+msgstr ""
+
+#: ../logview/logview-findbar.c:187
+msgid "Find previous occurrence of the search string"
+msgstr ""
+
+#: ../logview/logview-findbar.c:192
+msgid "Find Next"
+msgstr ""
+
+#: ../logview/logview-findbar.c:195
+msgid "Find next occurrence of the search string"
+msgstr ""
+
+#: ../logview/logview-findbar.c:202
+msgid "Clear the search string"
+msgstr ""
+
+#: ../logview/logview-log.c:595
+msgid "Error while uncompressing the GZipped log. The file might be corrupt."
+msgstr ""
+
+#: ../logview/logview-log.c:642
+msgid "You don't have enough permissions to read the file."
+msgstr ""
+
+#: ../logview/logview-log.c:657
+msgid "The file is not a regular file or is not a text file."
+msgstr ""
+
+#: ../logview/logview-log.c:739
+msgid "This version of System Log does not support GZipped logs."
+msgstr ""
+
+#: ../logview/logview-loglist.c:311
+msgid "Loading..."
+msgstr ""
+
+#: ../logview/logview-main.c:62
+msgid "Show the application's version"
+msgstr "अनुप्रयोगको संस्करण देखाउनुहोस्"
+
+#: ../logview/logview-main.c:64
+msgid "[LOGFILE...]"
+msgstr ""
+
+#: ../logview/logview-main.c:68
+msgid " - Browse and monitor logs"
+msgstr " - लग ब्राउज गर्नुहोस् र अनुगमन गर्नुहोस्"
+
+#: ../logview/logview-main.c:103
+msgid "Log Viewer"
+msgstr "लग दर्शक"
+
+#: ../logview/logview-window.c:40 ../logview/logview-window.c:790
+msgid "System Log Viewer"
+msgstr "प्रणाली लग दर्शक"
+
+#: ../logview/logview-window.c:212
+#, c-format
+msgid "last update: %s"
+msgstr "अन्तिम अद्यावधिक: %s"
+
+#: ../logview/logview-window.c:215
+#, c-format
+msgid "%d lines (%s) - %s"
+msgstr "%d लाइन (%s) - %s"
+
+#: ../logview/logview-window.c:345
+msgid "Open Log"
+msgstr "लग खोल्नुहोस्"
+
+#: ../logview/logview-window.c:384
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr ""
+
+#: ../logview/logview-window.c:500
+msgid "Wrapped"
+msgstr ""
+
+#: ../logview/logview-window.c:795
+msgid "A system log viewer for GNOME."
+msgstr "जिनोमका लागि एउटा प्रणाली लग दर्शक ।"
+
+#: ../logview/logview-window.c:841
+msgid "_Filters"
+msgstr ""
+
+#: ../logview/logview-window.c:844
+msgid "_Open..."
+msgstr "खोल्नुहोस्..."
+
+#: ../logview/logview-window.c:844
+msgid "Open a log from file"
+msgstr "फाइलबाट लग फाइल खोल्नुहोस्"
+
+#: ../logview/logview-window.c:846
+msgid "_Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: ../logview/logview-window.c:846
+msgid "Close this log"
+msgstr "यस लगलाई बन्द गर्नुहोस्"
+
+#: ../logview/logview-window.c:848
+msgid "_Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: ../logview/logview-window.c:848
+msgid "Quit the log viewer"
+msgstr "लग दर्शक अन्त्य गर्नुहोस्"
+
+#: ../logview/logview-window.c:851
+msgid "_Copy"
+msgstr "प्रतिलिपि गर्नुहोस्"
+
+#: ../logview/logview-window.c:851
+msgid "Copy the selection"
+msgstr "चयन प्रतिलिपि गर्नुहोस्"
+
+#: ../logview/logview-window.c:853
+msgid "Select the entire log"
+msgstr "पुरा लग चयन गर्नुहोस्"
+
+#: ../logview/logview-window.c:855
+msgid "_Find..."
+msgstr ""
+
+#: ../logview/logview-window.c:855
+msgid "Find a word or phrase in the log"
+msgstr ""
+
+#: ../logview/logview-window.c:858
+msgid "Bigger text size"
+msgstr "झन ठूलो पाठ साइज"
+
+#: ../logview/logview-window.c:860
+msgid "Smaller text size"
+msgstr "झन सानो पाठ साइज"
+
+#: ../logview/logview-window.c:862
+msgid "Normal text size"
+msgstr "साधारण पाठ साइज"
+
+#: ../logview/logview-window.c:865
+msgid "Manage Filters"
+msgstr ""
+
+#: ../logview/logview-window.c:865
+msgid "Manage filters"
+msgstr ""
+
+#: ../logview/logview-window.c:868
+msgid "Open the help contents for the log viewer"
+msgstr "लग दर्शकका लागि मद्दत विषयबस्तु खोल्नुहोस्"
+
+#: ../logview/logview-window.c:870
+msgid "Show the about dialog for the log viewer"
+msgstr "लग दर्शकका लागि यस बारेको संवाद देखाउनुहोस्"
+
+#: ../logview/logview-window.c:875
+msgid "_Statusbar"
+msgstr "स्थितिपट्टी"
+
+#: ../logview/logview-window.c:875
+msgid "Show Status Bar"
+msgstr "स्थितिपट्टी देखाउनुहोस्"
+
+#: ../logview/logview-window.c:877
+msgid "Side _Pane"
+msgstr "छेउ फलक"
+
+#: ../logview/logview-window.c:877
+msgid "Show Side Pane"
+msgstr "छेउ फलक देखाउनुहोस्"
+
+#: ../logview/logview-window.c:879
+msgid "Show matches only"
+msgstr ""
+
+#: ../logview/logview-window.c:879
+msgid "Only show lines that match one of the given filters"
+msgstr ""
+
+#: ../logview/logview-window.c:1016
+#, c-format
+msgid "Can't read from \"%s\""
+msgstr ""
+
+#: ../logview/logview-window.c:1439
+msgid "Version: "
+msgstr "संस्करण: "
+
+#: ../logview/logview-window.c:1546
+msgid "Could not open the following files:"
+msgstr ""

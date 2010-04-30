@@ -1,0 +1,834 @@
+# translation of kcron.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcron\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 15:28+0000\n"
+"PO-Revision-Date: 2009-07-16 09:36+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:31+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/kcmCron.cpp:75
+msgid "Task Scheduler"
+msgstr "कार्य अनुसूचक"
+
+#: src/kcmCron.cpp:76
+msgid "KDE Task Scheduler"
+msgstr "केडीई कार्य अनुसूचक"
+
+#: src/kcmCron.cpp:76
+msgid ""
+"(c) 2008, Nicolas Ternisien\n"
+"(c) 1999-2000, Gary Meyer"
+msgstr ""
+
+#: src/kcmCron.cpp:78
+msgid "Nicolas Ternisien"
+msgstr ""
+
+#: src/kcmCron.cpp:79
+msgid "Gary Meyer"
+msgstr "गेरि मेयर"
+
+#: src/kcmCron.cpp:80
+msgid "Robert Berry"
+msgstr "रोबर्ट बेरे"
+
+#: src/kcmCron.cpp:81
+msgid "James Ots"
+msgstr "जेम्स अट्स"
+
+#: src/kcmCron.cpp:82
+msgid "Alberto G. Hierro"
+msgstr "अल्बर्टो जी हिरेरो"
+
+#: src/kcmCron.cpp:91
+#, kde-format
+msgid ""
+"The following error occurred while initializing KCron:\n"
+"\n"
+"%1\n"
+"\n"
+"KCron will now exit.\n"
+msgstr ""
+"केडीई क्रोन सुरुआत गर्दा निम्न त्रुटि उत्पन्न भयो:\n"
+"\n"
+"%1\n"
+"\n"
+"केडीई क्रोन अब अन्त्य हुन्छ ।\n"
+
+#: src/kcmCron.cpp:158
+msgid ""
+"You can use this application to schedule programs to run in the background.\n"
+"To schedule a new task now, click on the Tasks folder and select Edit/New "
+"from the menu."
+msgstr ""
+"तपाईँले यो अनुप्रयोग पृष्ठभूमिमा चल्ने कार्यक्रमको अनुसूची बनाउन प्रयोग गर्न "
+"सक्नुहुन्छ ।\n"
+"अहिले नयाँ कार्यको अनुसूची बनाउन, कार्य फोल्डरमा क्लिक गर्नुहोस् र मेनुबाट "
+"सम्पादन/नयाँ चयन गर्नुहोस् ।"
+
+#: src/kcmCron.cpp:158
+msgid "Welcome to the Task Scheduler"
+msgstr "कार्य अनुसूचकमा स्वागत छ"
+
+#: src/crontabPrinter.cpp:125
+msgid "Scheduled Tasks"
+msgstr ""
+
+#: src/crontabPrinter.cpp:140 src/tasksWidget.cpp:243
+msgid "Scheduling"
+msgstr ""
+
+#: src/crontabPrinter.cpp:140 src/tasksWidget.cpp:245
+msgid "Command"
+msgstr ""
+
+#: src/crontabPrinter.cpp:140 src/tasksWidget.cpp:247
+msgid "Description"
+msgstr "वर्णन"
+
+#: src/crontabPrinter.cpp:164
+msgid "Environment Variables"
+msgstr ""
+
+#: src/crontabPrinter.cpp:187 src/crontablib/ctSystemCron.cpp:53
+msgid "System Crontab"
+msgstr ""
+
+#: src/crontabPrinter.cpp:189
+msgid "All Users Crontabs"
+msgstr ""
+
+#: src/crontabPrinter.cpp:191
+#, kde-format
+msgctxt "Crontab of user login"
+msgid "Crontab of user %1"
+msgstr ""
+
+#: src/variablesWidget.cpp:48
+msgid "<b>Environment Variables</b>"
+msgstr ""
+
+#: src/variablesWidget.cpp:83
+msgid "Modify Variable"
+msgstr "चल परिमार्जन गर्नुहोस्"
+
+#: src/variablesWidget.cpp:159
+msgid "New Variable"
+msgstr ""
+
+#: src/variablesWidget.cpp:197 src/tasksWidget.cpp:240
+msgid "User"
+msgstr ""
+
+#: src/variablesWidget.cpp:200
+msgid "Variable"
+msgstr ""
+
+#: src/variablesWidget.cpp:201
+msgid "Value"
+msgstr "मान"
+
+#: src/variablesWidget.cpp:202 src/tasksWidget.cpp:246
+msgid "Status"
+msgstr ""
+
+#: src/variablesWidget.cpp:203
+msgid "Comment"
+msgstr ""
+
+#: src/variablesWidget.cpp:218
+msgctxt "Adds a new variable"
+msgid "New &Variable..."
+msgstr ""
+
+#: src/variablesWidget.cpp:219
+msgid "Create a new variable."
+msgstr ""
+
+#: src/variablesWidget.cpp:223 src/tasksWidget.cpp:277
+msgid "M&odify..."
+msgstr "परिमार्जन गर्नुहोस्..."
+
+#: src/variablesWidget.cpp:225
+msgid "Modify the selected variable."
+msgstr ""
+
+#: src/variablesWidget.cpp:229 src/tasksWidget.cpp:283
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#: src/variablesWidget.cpp:231
+msgid "Delete the selected variable."
+msgstr ""
+
+#: src/crontabPrinterWidget.cpp:24
+msgid "Cron Options"
+msgstr "क्रोन विकल्प"
+
+#: src/crontabPrinterWidget.cpp:30
+msgid "Print cron&tab"
+msgstr "क्रोन ट्याब मुद्रण गर्नुहोस्"
+
+#: src/crontabPrinterWidget.cpp:34
+msgid "Print &all users"
+msgstr "सबै प्रयोगकर्ता मुद्रण गर्नुहोस्"
+
+#: src/crontabWidget.cpp:164
+msgid "Show the following Cron:"
+msgstr ""
+
+#: src/crontabWidget.cpp:168
+msgid "Personal Cron"
+msgstr ""
+
+#: src/crontabWidget.cpp:173
+msgid "System Cron"
+msgstr ""
+
+#: src/crontabWidget.cpp:177
+msgid "Cron of User:"
+msgstr ""
+
+#: src/crontabWidget.cpp:200
+msgid "Show All Personal Crons"
+msgstr ""
+
+#: src/variableWidget.cpp:44 src/taskWidget.cpp:49
+msgid "Enabled"
+msgstr ""
+
+#: src/variableWidget.cpp:48 src/taskWidget.cpp:52
+msgid "Disabled"
+msgstr ""
+
+#: src/tasksWidget.cpp:57
+msgid "<b>Scheduled Tasks</b>"
+msgstr ""
+
+#: src/tasksWidget.cpp:111
+msgctxt "Do not use any quote characters (') in this string"
+msgid "End of script execution. Type Enter or Ctrl+C to exit."
+msgstr ""
+
+#: src/tasksWidget.cpp:144
+msgid "New Task"
+msgstr ""
+
+#: src/tasksWidget.cpp:180
+msgid "Modify Task"
+msgstr "कार्य परिमार्जन गर्नुहोस्"
+
+#: src/tasksWidget.cpp:248
+msgid "Scheduling Details"
+msgstr ""
+
+#: src/tasksWidget.cpp:272
+msgctxt "Adds a new task"
+msgid "New &Task..."
+msgstr ""
+
+#: src/tasksWidget.cpp:273
+msgid "Create a new task."
+msgstr ""
+
+#: src/tasksWidget.cpp:279
+msgid "Modify the selected task."
+msgstr ""
+
+#: src/tasksWidget.cpp:285
+msgid "Delete the selected task."
+msgstr ""
+
+#: src/tasksWidget.cpp:289
+msgid "&Run Now"
+msgstr "अहिले चलाउनुहोस्"
+
+#: src/tasksWidget.cpp:291
+msgid "Run the selected task now."
+msgstr "चयन गरिएको कार्य अहिले चलाउनुहोस् ।"
+
+#: src/variableEditorDialog.cpp:60
+msgid "Add or modify a variable"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:64
+msgctxt "The environmental variable name ie HOME, MAILTO etc"
+msgid "&Variable:"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:93
+msgid "Va&lue:"
+msgstr "मान:"
+
+#: src/variableEditorDialog.cpp:102 src/taskEditorDialog.cpp:106
+msgid "&Run as:"
+msgstr "यस रूपमा चलाउनुहोस्:"
+
+#: src/variableEditorDialog.cpp:120 src/taskEditorDialog.cpp:122
+msgid "Co&mment:"
+msgstr "टिप्पणी:"
+
+#: src/variableEditorDialog.cpp:128
+msgid "&Enable this variable"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:156
+msgid "<i>This variable will be used by scheduled tasks.</i>"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:200
+msgid "<i>This variable is disabled.</i>"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:207
+msgid "<i>Please enter the variable name...</i>"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:214
+msgid "<i>Please enter the variable value ...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:76
+msgid "Add or modify a scheduled task"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:77 src/taskEditorDialog.cpp:846
+msgid "<i>This task will be executed at the specified intervals.</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:86
+msgid "&Command:"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:135
+msgid "&Enable this task"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:140
+msgid "Run at system &bootup"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:146
+msgid "Run &every day"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:248
+msgid "Days of Month"
+msgstr "महिनाका दिन"
+
+#: src/taskEditorDialog.cpp:288
+msgid "Months"
+msgstr "महिना"
+
+#: src/taskEditorDialog.cpp:325
+msgid "Days of Week"
+msgstr "हप्ताका दिन"
+
+#: src/taskEditorDialog.cpp:461
+msgid "Minutes"
+msgstr "मिनेट"
+
+#: src/taskEditorDialog.cpp:471
+msgid "Preselection:"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:478
+msgid "Clear selection"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:479
+msgid "Custom selection"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:480
+msgid "Each minute"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:481
+msgid "Every 2 minutes"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:482
+msgid "Every 5 minutes"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:483
+msgid "Every 10 minutes"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:484
+msgid "Every 15 minutes"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:485
+msgid "Every 20 minutes"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:486
+msgid "Every 30 minutes"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:520
+msgid "Hours"
+msgstr "घण्टा"
+
+#: src/taskEditorDialog.cpp:524
+msgid "AM:"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:541
+msgid "PM:"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:707 src/taskEditorDialog.cpp:718
+msgid "<i>Please type a valid command line...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:740
+msgid "<i>Please select an executable program...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:748 src/taskEditorDialog.cpp:774
+msgid "<i>Please browse for a program to execute...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:761
+msgid "<i>This task is disabled.</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:768
+msgid "<i>This task will be run on system bootup.</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:793
+msgid "<i>Please select from the 'Months' section...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:811
+msgid ""
+"<i>Please select from either the 'Days of Month' or the 'Days of Week' "
+"section...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:825
+msgid "<i>Please select from the 'Hours' section...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:839
+msgid "<i>Please select from the 'Minutes' section...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:1045
+msgid "Set All"
+msgstr "सबै सेट गर्नुहोस्"
+
+#: src/taskEditorDialog.cpp:1047
+msgid "Clear All"
+msgstr "सबै खाली गर्नुहोस्"
+
+#: src/crontablib/ctvariable.cpp:126
+msgid "Override default home folder."
+msgstr "पूर्वनिर्धारित गृह फोल्डर अधिरोहण गर्नुहोस् ।"
+
+#: src/crontablib/ctvariable.cpp:129
+msgid "Email output to specified account."
+msgstr "निर्दिष्ट गरिएको खातामा इमेल प्रतिफल ।"
+
+#: src/crontablib/ctvariable.cpp:132
+msgid "Override default shell."
+msgstr "पूर्वनिर्धारित शेल अधिरोहण गर्नुहोस् ।"
+
+#: src/crontablib/ctvariable.cpp:135
+msgid "Folders to search for program files."
+msgstr "कार्यक्रम फाइल खोज्नका लागि फोल्डर ।"
+
+#: src/crontablib/ctvariable.cpp:138
+msgid "Dynamic libraries location."
+msgstr ""
+
+#: src/crontablib/ctvariable.cpp:141
+msgid "Local Variable"
+msgstr ""
+
+#: src/crontablib/ctHelper.cpp:22
+msgid "No comment"
+msgstr ""
+
+#: src/crontablib/ctunit.cpp:172
+msgid ","
+msgstr ","
+
+#: src/crontablib/ctunit.cpp:173 src/crontablib/cttask.cpp:318
+msgid " and "
+msgstr " र "
+
+#: src/crontablib/ctunit.cpp:176 src/crontablib/cttask.cpp:321
+msgid ", "
+msgstr ", "
+
+#: src/crontablib/ctdom.cpp:23 src/crontablib/ctdow.cpp:44
+#: src/crontablib/cttask.cpp:266
+msgid "every day "
+msgstr "प्रत्येक दिन "
+
+#: src/crontablib/ctdom.cpp:33
+msgid "1st"
+msgstr "पहिलो"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "2nd"
+msgstr "दोस्रो"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "3rd"
+msgstr "तेस्रो"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "4th"
+msgstr "चौथो"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "5th"
+msgstr "पाँचौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "6th"
+msgstr "छैटौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "7th"
+msgstr "सातौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "8th"
+msgstr "आठौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "9th"
+msgstr "नवौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "10th"
+msgstr "दशौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "11th"
+msgstr "एघारौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "12th"
+msgstr "बार्हौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "13th"
+msgstr "तेर्हौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "14th"
+msgstr "चौधौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "15th"
+msgstr "पन्ध्रौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "16th"
+msgstr "सोर्हौँ"
+
+#: src/crontablib/ctdom.cpp:33
+msgid "17th"
+msgstr "सत्रौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "18th"
+msgstr "अठारौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "19th"
+msgstr "उन्नाइसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "20th"
+msgstr "बिसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "21st"
+msgstr "एक्काइसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "22nd"
+msgstr "बाइसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "23rd"
+msgstr "तेइसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "24th"
+msgstr "चौबिसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "25th"
+msgstr "पच्चिसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "26th"
+msgstr "छब्बिसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "27th"
+msgstr "सत्ताइसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "28th"
+msgstr "अठ्ठाइसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "29th"
+msgstr "उन्तिसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "30th"
+msgstr "तिसौँ"
+
+#: src/crontablib/ctdom.cpp:34
+msgid "31st"
+msgstr "एक्तिसौँ"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Mon"
+msgstr "सोमबार"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Tue"
+msgstr "मङ्गलबार"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Wed"
+msgstr "बुधबार"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Thu"
+msgstr "बिहिबार"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Fri"
+msgstr "शुक्रबार"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Sat"
+msgstr "शनिबार"
+
+#: src/crontablib/ctdow.cpp:56
+msgid "Sun"
+msgstr "आइतबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Monday"
+msgstr "सोमबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Tuesday"
+msgstr "मङ्गलबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Wednesday"
+msgstr "बुधबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Thursday"
+msgstr "बिहिबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Friday"
+msgstr "शुक्रबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Saturday"
+msgstr "शनिबार"
+
+#: src/crontablib/ctdow.cpp:58
+msgid "Sunday"
+msgstr "आइतबार"
+
+#: src/crontablib/cttask.cpp:240
+msgid "At system startup"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:247
+#, kde-format
+msgctxt "1:Time Description, 2:Date Description"
+msgid "%1, %2"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:251
+#, kde-format
+msgctxt "Every 'days of week'"
+msgid "every %1"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:255
+#, kde-format
+msgctxt "'Days of month' of 'Months'"
+msgid "%1 of %2"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:277
+#, kde-format
+msgctxt "1:Day of month, 2:Day of week"
+msgid "%1 as well as %2"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:307
+#, kde-format
+msgctxt "1:Hour, 2:Minute"
+msgid "%1:%2"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:316
+msgid ", and "
+msgstr ", र "
+
+#: src/crontablib/cttask.cpp:329
+#, kde-format
+msgctxt "Hour::Minute list"
+msgid "At %1"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:337
+#, kde-format
+msgid "Every minute"
+msgid_plural "Every %1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/crontablib/cthost.cpp:60
+msgid ""
+"You have been blocked from using KCron\t                      by either the "
+"/etc/cron.allow file or the /etc/cron.deny file.\t                      \n"
+"\n"
+"Check the crontab man page for further details."
+msgstr ""
+
+#: src/crontablib/cthost.cpp:142
+#, kde-format
+msgctxt "User login: errorMessage"
+msgid "User %1: %2"
+msgstr ""
+
+#: src/crontablib/ctmonth.cpp:23
+msgid "every month"
+msgstr ""
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "January"
+msgstr "जनवरी"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "February"
+msgstr "फेब्रुअरी"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "March"
+msgstr "मार्च"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "April"
+msgstr "अप्रिल"
+
+#: src/crontablib/ctmonth.cpp:33
+msgctxt "May long"
+msgid "May"
+msgstr "मे"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "June"
+msgstr "जुन"
+
+#: src/crontablib/ctmonth.cpp:33
+msgctxt "July long"
+msgid "July"
+msgstr ""
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "August"
+msgstr "अगस्ट"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "September"
+msgstr "सेप्टेम्बर"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "October"
+msgstr "अक्टोबर"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "November"
+msgstr "नोभेम्बर"
+
+#: src/crontablib/ctmonth.cpp:33
+msgid "December"
+msgstr "डिसेम्बर"
+
+#: src/crontablib/ctGlobalCron.cpp:39
+msgid "All users"
+msgstr ""
+
+#: src/crontablib/ctcron.cpp:98
+#, kde-format
+msgid "No password entry found for uid '%1'"
+msgstr "'%1' यूआईडी का लागि पासवर्ड प्रविष्टि फेला परेन"
+
+#: src/crontablib/ctcron.cpp:229
+#, kde-format
+msgctxt "Generation Message + current date"
+msgid "File generated by KCron the %1."
+msgstr ""
+
+#: src/crontablib/ctcron.cpp:267
+msgid "<em>No output.</em>"
+msgstr ""
+
+#: src/crontablib/ctcron.cpp:273
+msgid "<em>No error.</em>"
+msgstr ""
+
+#: src/crontablib/ctcron.cpp:277
+#, kde-format
+msgid ""
+"<p><strong>Command:</strong> %1</p><strong>Standard Output "
+":</strong><pre>%2</pre><strong>Error Output :</strong><pre>%3</pre>"
+msgstr ""
+
+#: src/crontablib/ctcron.cpp:279
+msgid "An error occurred while updating crontab."
+msgstr "क्रोनट्याब अद्यावधिक गर्दा एउटा त्रुटि उत्पन्न भयो ।"
+
+#: src/crontablib/ctcron.cpp:286
+msgid "Unable to open crontab file for writing"
+msgstr ""
+
+#: src/crontablib/ctcron.cpp:286
+#, kde-format
+msgid "The file %1 could not be opened."
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"

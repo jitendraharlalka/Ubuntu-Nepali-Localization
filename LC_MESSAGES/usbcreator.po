@@ -1,0 +1,432 @@
+# Nepali translation for usb-creator
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the usb-creator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: usb-creator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-15 08:46+0000\n"
+"PO-Revision-Date: 2010-04-22 15:32+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:24+0000\n"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:1
+msgid "Format the device"
+msgstr "डिभाइस फर्म्याट गर्नुहोस्"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:2
+msgid "Image the device"
+msgstr ""
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:3
+msgid "Install the bootloader"
+msgstr "बुटलोडर प्रतिस्थापन गर्नुहोस्"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:4
+msgid "Mount a device"
+msgstr "यन्त्र माउन्ट गर्नुहोस्"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:5
+msgid "System policy prevents formatting this device"
+msgstr ""
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:6
+msgid "System policy prevents installing the bootloader"
+msgstr ""
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:7
+msgid "System policy prevents mounting"
+msgstr ""
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:8
+msgid "System policy prevents writing a disk image to this device"
+msgstr ""
+
+#: .././usbcreator/install.py:133
+#, python-format
+msgid "The extension \"%s\" is not supported."
+msgstr ""
+
+#: .././usbcreator/install.py:148
+#, python-format
+msgid ""
+"An uncaught exception was raised:\n"
+"%s"
+msgstr ""
+
+#: .././usbcreator/install.py:164
+#, python-format
+msgid ""
+"Insufficient free space to write the image:\n"
+"%s\n"
+"\n"
+"(%d MB) > %s (%d MB)"
+msgstr ""
+"छवि लेख्नलाई अपर्याप्त खाली ठाँउ:\n"
+"%s\n"
+"\n"
+"(%d मेगाबाइट) > %s (%d मेगाबाइट)"
+
+#: .././usbcreator/install.py:190
+msgid "Installing the bootloader..."
+msgstr "बुटलोडर इन्सटल गर्दै..."
+
+#: .././usbcreator/install.py:191
+msgid "Failed to install the bootloader."
+msgstr "बुटलोडर इन्सटल गर्न असफल भयो ।"
+
+#: .././usbcreator/install.py:218
+msgid "Modifying configuration..."
+msgstr "कन्फिगरेसन परिवर्तन गर्दै..."
+
+#: .././usbcreator/install.py:280
+msgid "Creating a persistence file..."
+msgstr ""
+
+#: .././usbcreator/install.py:283
+msgid "Creating an ext2 filesystem in the persistence file..."
+msgstr ""
+
+#: .././usbcreator/install.py:294
+msgid "Flushing writes to the disk..."
+msgstr ""
+
+#. TODO evand 2009-09-02: Disabled until we can find a cross-platform
+#. way of determining dd progress.
+#. self.initialize_progress_thread()
+#: .././usbcreator/install.py:306
+msgid "Writing disk image..."
+msgstr "डिस्क छवि लेख्दै..."
+
+#: .././usbcreator/install.py:307
+#, python-format
+msgid "Could not write the disk image (%s) to the device (%s)."
+msgstr "डिस्क छवि (%s) यन्त्र (%s) मा लेख्न सकेन ।"
+
+#. Clear.
+#. Some of the code in this function was copied from Ubiquity's
+#. scripts/install.py
+#: .././usbcreator/install.py:348 .././usbcreator/install.py:431
+msgid "Removing files..."
+msgstr "फाइलहरु हटाउँदै..."
+
+#: .././usbcreator/install.py:380 .././usbcreator/install.py:455
+msgid "Copying files..."
+msgstr ""
+
+#: .././usbcreator/install.py:409
+msgid "md5 checksums do not match."
+msgstr ""
+
+#. TODO evand 2009-07-23: Catch exceptions around the
+#. user removing the flash drive mid-write.  Give the
+#. user the option of selecting the re-inserted disk
+#. from a drop down list and continuing.
+#. TODO evand 2009-07-23: Fail more gracefully.
+#: .././usbcreator/install.py:519
+#, python-format
+msgid "Could not read from %s"
+msgstr "%s बाट पढ्न सकेन"
+
+#: .././usbcreator/install.py:544
+msgid "Checksums do not match.  Retry?"
+msgstr ""
+
+#: .././usbcreator/install.py:548
+msgid "Checksums do not match."
+msgstr ""
+
+#: .././usbcreator/frontends/winui/main_dialog.py:21
+#: .././gui/usbcreator-gtk.ui.h:17 usbcreator-kde.ui.py:6
+msgid ""
+"To try or install Ubuntu from a removable disk, it needs to be set up as a "
+"startup disk."
+msgstr ""
+
+#: .././usbcreator/frontends/winui/main_dialog.py:24
+#: .././gui/usbcreator-gtk.ui.h:13 usbcreator-kde.ui.py:9
+msgid "Source disc image (.iso) or CD:"
+msgstr "स्रोत डिस्क छवि (.iso) वा सिडी:"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:27
+msgid "Image"
+msgstr "छवि"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:28
+#: .././usbcreator/frontends/gtk/frontend.py:380 usbcreator-kde.ui.py:15
+msgid "OS Version"
+msgstr ""
+
+#: .././usbcreator/frontends/winui/main_dialog.py:29
+#: .././usbcreator/frontends/gtk/frontend.py:390 usbcreator-kde.ui.py:18
+msgid "Size"
+msgstr "साइज"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:32
+#: .././gui/usbcreator-gtk.ui.h:11 usbcreator-kde.ui.py:24
+msgid "Other..."
+msgstr "अन्य..."
+
+#: .././usbcreator/frontends/winui/main_dialog.py:34
+msgid "Removable disk to use:"
+msgstr ""
+
+#: .././usbcreator/frontends/winui/main_dialog.py:36
+#: .././usbcreator/frontends/gtk/frontend.py:537 usbcreator-kde.ui.py:30
+msgid "Device"
+msgstr "यन्त्र"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:37
+#: .././usbcreator/frontends/gtk/frontend.py:553 usbcreator-kde.ui.py:33
+msgid "Label"
+msgstr "लेबल"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:38
+#: .././usbcreator/frontends/gtk/frontend.py:563 usbcreator-kde.ui.py:36
+msgid "Capacity"
+msgstr "क्षमता"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:39
+#: .././usbcreator/frontends/gtk/frontend.py:573 usbcreator-kde.ui.py:39
+msgid "Free Space"
+msgstr "खाली ठाउँ"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:42
+#: .././gui/usbcreator-gtk.ui.h:18 usbcreator-kde.ui.py:46
+msgid "When starting up from this disk, documents and settings will be:"
+msgstr " "
+
+#: .././usbcreator/frontends/winui/main_dialog.py:45
+#, fuzzy
+msgid "Stored in reserved space"
+msgstr "आरक्षित ठाँउमा भन्डारण गरिएको"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:46
+#: .././gui/usbcreator-gtk.ui.h:5 usbcreator-kde.ui.py:52
+msgid "How much:"
+msgstr "कति:"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:52
+#: .././gui/usbcreator-gtk.ui.h:1 usbcreator-kde.ui.py:58
+msgid "Discarded on shutdown, unless you save them elsewhere"
+msgstr ""
+
+#: .././usbcreator/frontends/winui/main_dialog.py:56 usbcreator-kde.ui.py:64
+msgid "Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: .././usbcreator/frontends/winui/main_dialog.py:58
+msgid "Make startup disk"
+msgstr ""
+
+#. #-#-#-#-#  usbcreator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. set title of progress window (same as gtk frontend)
+#: .././usbcreator/frontends/winui/install_window.py:23
+#: .././usbcreator/frontends/kde/frontend.py:171
+#: .././gui/usbcreator-gtk.ui.h:9 usbcreator/frontends/kde/frontend.py:171
+msgid "Installing"
+msgstr "इन्सटल गर्दै"
+
+#. TODO evand 2009-07-31: Make these the default values in the
+#. GtkBuilder file.
+#: .././usbcreator/frontends/winui/install_window.py:28
+#: .././usbcreator/frontends/gtk/frontend.py:606
+msgid "Starting up..."
+msgstr ""
+
+#: .././usbcreator/frontends/winui/install_window.py:32
+msgid "&Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: .././usbcreator/frontends/winui/frontend.py:71
+#: .././usbcreator/frontends/kde/frontend.py:444
+#: usbcreator/frontends/kde/frontend.py:444
+msgid ""
+"The installation is complete.  You may now reboot your computer with this "
+"device inserted to try or install Ubuntu."
+msgstr ""
+
+#: .././usbcreator/frontends/winui/frontend.py:74
+msgid "Installation complete"
+msgstr "इन्सटल प्रक्रिया पूरा भयो"
+
+#: .././usbcreator/frontends/winui/frontend.py:80
+msgid "Installation failed"
+msgstr "इन्सटल प्रक्रिया असफल"
+
+#. #-#-#-#-#  usbcreator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. TODO evand 2009-07-28: Better error message.
+#: .././usbcreator/frontends/winui/frontend.py:85
+#: .././usbcreator/frontends/gtk/frontend.py:662
+#: .././usbcreator/frontends/kde/frontend.py:199
+#: usbcreator/frontends/kde/frontend.py:199
+msgid "Installation failed."
+msgstr "इन्सटल प्रक्रिया असफल भयो ।"
+
+#: .././usbcreator/frontends/winui/frontend.py:151
+#: .././usbcreator/frontends/gtk/frontend.py:627
+#, python-format
+msgid "%d%% complete (%dm%ss remaining)"
+msgstr ""
+
+#: .././usbcreator/frontends/winui/frontend.py:155
+#: .././usbcreator/frontends/gtk/frontend.py:631
+#, python-format
+msgid "%d%% complete"
+msgstr "%d%% पूरा भयो"
+
+#. #-#-#-#-#  usbcreator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. TODO evand 2009-07-28: The list itself needs to be moved into the
+#. base frontend.
+#. To be displayed as a list of file type filters.
+#: .././usbcreator/frontends/winui/frontend.py:177
+#: .././usbcreator/frontends/gtk/frontend.py:585
+#: .././usbcreator/frontends/kde/frontend.py:393
+#: usbcreator/frontends/kde/frontend.py:393
+msgid "CD Images"
+msgstr "सिडी छविहरु"
+
+#: .././usbcreator/frontends/winui/frontend.py:178
+#: .././usbcreator/frontends/gtk/frontend.py:585
+#: .././usbcreator/frontends/kde/frontend.py:393
+#: usbcreator/frontends/kde/frontend.py:393
+msgid "Disk Images"
+msgstr "डिस्क छविहरु"
+
+#: .././usbcreator/frontends/winui/frontend.py:179
+msgid "All"
+msgstr "सबै"
+
+#: .././usbcreator/frontends/winui/frontend.py:189
+#: .././gui/usbcreator-gtk.ui.h:10 usbcreator-kde.ui.py:3
+#: usbcreator-kde.ui.py:61
+msgid "Make Startup Disk"
+msgstr ""
+
+#: .././usbcreator/frontends/gtk/frontend.py:367 usbcreator-kde.ui.py:12
+msgid "CD-Drive/Image"
+msgstr ""
+
+#: .././usbcreator/frontends/gtk/frontend.py:462
+#: .././usbcreator/frontends/kde/frontend.py:356
+#: usbcreator/frontends/kde/frontend.py:356
+msgid "The device is not large enough to hold this image."
+msgstr ""
+
+#: .././usbcreator/frontends/gtk/frontend.py:464
+#: .././usbcreator/frontends/kde/frontend.py:358
+#: usbcreator/frontends/kde/frontend.py:358
+msgid "There is not enough free space for this image."
+msgstr "यो छविका लागि पर्याप्त खाली ठाँउ छैन् ।"
+
+#: .././usbcreator/frontends/gtk/frontend.py:467
+#: .././usbcreator/frontends/kde/frontend.py:360
+#: usbcreator/frontends/kde/frontend.py:360
+msgid "The device needs to be formatted for use."
+msgstr ""
+
+#: .././usbcreator/frontends/kde/frontend.py:409
+#: usbcreator/frontends/kde/frontend.py:409
+msgid "Starting up"
+msgstr ""
+
+#: .././usbcreator/frontends/kde/frontend.py:417
+#: usbcreator/frontends/kde/frontend.py:417
+msgid "You must select both source image and target device first."
+msgstr ""
+
+#: .././usbcreator/frontends/kde/frontend.py:455
+#: usbcreator/frontends/kde/frontend.py:455
+msgid "Retry?"
+msgstr ""
+
+#: .././usbcreator/frontends/kde/frontend.py:467
+#: .././gui/usbcreator-gtk.ui.h:12 usbcreator/frontends/kde/frontend.py:467
+msgid "Quit the installation?"
+msgstr "इन्सटल प्रक्रिया अन्त्य गर्ने?"
+
+#: .././usbcreator/frontends/kde/frontend.py:468
+#: .././gui/usbcreator-gtk.ui.h:3 usbcreator/frontends/kde/frontend.py:468
+msgid "Do you really want to quit the installation now?"
+msgstr "के तपाई साँच्चिकै इन्सटल प्रक्रिया अन्त्य गर्न चाहनुहुन्छ?"
+
+#: .././desktop/usb-creator-gtk.desktop.in.h:1
+#: .././desktop/usb-creator-kde.desktop.in.h:1
+msgid "Create a startup disk using a CD or disc image"
+msgstr ""
+
+#: .././desktop/usb-creator-gtk.desktop.in.h:2
+#: .././desktop/usb-creator-kde.desktop.in.h:2
+msgid "Startup Disk Creator"
+msgstr ""
+
+#: .././gui/usbcreator-gtk.ui.h:2 usbcreator-kde.ui.py:27
+msgid "Disk to use:"
+msgstr ""
+
+#: .././gui/usbcreator-gtk.ui.h:4 usbcreator-kde.ui.py:43
+msgid "Format"
+msgstr "ढाँचा"
+
+#: .././gui/usbcreator-gtk.ui.h:6
+msgid "Installation Complete"
+msgstr "इन्सटल प्रक्रिया पूरा भयो"
+
+#: .././gui/usbcreator-gtk.ui.h:7
+msgid "Installation Failed"
+msgstr "इन्सटल प्रक्रिया असफल"
+
+#: .././gui/usbcreator-gtk.ui.h:8
+msgid ""
+"Installation is complete.  You may now run Ubuntu on other computers by "
+"booting them with this drive inserted."
+msgstr ""
+
+#: .././gui/usbcreator-gtk.ui.h:14 usbcreator-kde.ui.py:49
+msgid "Stored in reserved extra space"
+msgstr ""
+
+#: .././gui/usbcreator-gtk.ui.h:15
+msgid ""
+"The installation failed.  Please see ~/.usbcreator.log for more details.\n"
+msgstr ""
+
+#: .././main.py:38
+msgid "Please run this program as an administrator to continue."
+msgstr ""
+
+#: .././main.py:39
+msgid "Administrator privileges required"
+msgstr ""
+
+#: .././main.py:56
+#, python-format
+msgid ""
+"An unhandled exception occurred:\n"
+"%s"
+msgstr ""
+
+#: .././main.py:57
+msgid "Error"
+msgstr "त्रुटि"
+
+#: usbcreator-kde.ui.py:21
+msgid "Please insert a CD or select 'Other...'."
+msgstr "कृपया सिडी छिराउनुहोस् वा 'अन्य...' छान्नुहोस् ।"
+
+#: usbcreator-kde.ui.py:55
+msgid "0.0 MB"
+msgstr "०.० मेगाबाइट"
+
+#: usbcreator/frontends/kde/frontend.py:169
+msgid "Cancel"
+msgstr "रद्द गर्नुहोस्"

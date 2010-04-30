@@ -1,0 +1,1823 @@
+# translation of libkdepim.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdepim\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:46+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: addresseelineedit.cpp:913
+msgid "Configure Completion Order..."
+msgstr "समाप्त क्रम कन्फिगर गर्नुहोस्..."
+
+#: addresseeview.cpp:75
+msgid "Show Birthday"
+msgstr "जन्मदिन देखाउनुहोस्"
+
+#: addresseeview.cpp:76
+msgid "Show Postal Addresses"
+msgstr "हुलाकी ठेगाना देखाउनुहोस्"
+
+#: addresseeview.cpp:77
+msgid "Show Email Addresses"
+msgstr "इमेल ठेगाना देखाउनुहोस्"
+
+#: addresseeview.cpp:78
+msgid "Show Telephone Numbers"
+msgstr "टेलिफोन नम्बर देखाउनुहोस्"
+
+#: addresseeview.cpp:79
+msgid "Show Web Pages (URLs)"
+msgstr "वेब पृष्ठ (URLs) देखाउनुहोस्"
+
+#: addresseeview.cpp:80
+msgid "Show Instant Messaging Addresses"
+msgstr "तत्काल सन्देश ठेगाना देखाउनुहोस्"
+
+#: addresseeview.cpp:81
+msgid "Show Custom Fields"
+msgstr "अनुकूलन फिल्ड देखाउनुहोस्"
+
+#: addresseeview.cpp:227
+msgid "SMS"
+msgstr "SMS"
+
+#: addresseeview.cpp:243 ldapsearchdialog.cpp:83 ldapsearchdialog.cpp:162
+#: ldapsearchdialog.cpp:302 ldapsearchdialog.cpp:387
+msgid "Email"
+msgstr "इमेल"
+
+#: addresseeview.cpp:267
+msgid "Homepage"
+msgstr "गृहपृष्ठ"
+
+#: addresseeview.cpp:275
+msgid "Blog Feed"
+msgstr "ब्लग फिड"
+
+#: addresseeview.cpp:325
+msgid "Notes"
+msgstr "टिपोट"
+
+#: addresseeview.cpp:332 ldapsearchdialog.cpp:95 ldapsearchdialog.cpp:315
+msgid "Department"
+msgstr "विभाग"
+
+#: addresseeview.cpp:333
+msgid "Profession"
+msgstr "पेशा"
+
+#: addresseeview.cpp:334
+msgid "Assistant's Name"
+msgstr "सहायकको नाम"
+
+#: addresseeview.cpp:335
+msgid "Manager's Name"
+msgstr "प्रबन्धकको नाम"
+
+#: addresseeview.cpp:336
+msgctxt "Wife/Husband/..."
+msgid "Partner's Name"
+msgstr ""
+
+#: addresseeview.cpp:337
+msgid "Office"
+msgstr "कार्यालय"
+
+#: addresseeview.cpp:338 addresseeview.cpp:378
+msgid "IM Address"
+msgstr "आईएम ठेगाना"
+
+#: addresseeview.cpp:339
+msgid "Anniversary"
+msgstr "वार्षिकोत्सव"
+
+#: addresseeview.cpp:466
+#, kde-format
+msgid "<p><b>Address book</b>: %1</p>"
+msgstr ""
+
+#: addresseeview.cpp:576 addresseeview.cpp:591 addresseeview.cpp:627
+msgid ""
+"There is no application set which could be executed. Please go to the "
+"settings dialog and configure one."
+msgstr ""
+"त्यहाँ कार्यान्वयन गर्न सकिने अनुप्रयोग छैन । कृपया 'सेटिङ संवाद' जानुहोस् र "
+"'एउटा कन्फिगर गर्नुहोस् ।"
+
+#: addresseeview.cpp:681
+#, kde-format
+msgid "Send mail to '%1'"
+msgstr "'%1' मेल पठाउनुहोस्"
+
+#: addresseeview.cpp:686
+#, kde-format
+msgid "Call number %1"
+msgstr "%1 नम्बर कल गर्नुहोस्"
+
+#: addresseeview.cpp:691
+#, kde-format
+msgid "Send fax to %1"
+msgstr "%1 मा फ्याक्स पठाउनुहोस्"
+
+#: addresseeview.cpp:693
+msgid "Show address on map"
+msgstr "मानचित्रमा ठेगाना देखाउनुहोस्"
+
+#: addresseeview.cpp:696
+#, kde-format
+msgid "Send SMS to %1"
+msgstr "%1 मा SMS पठाउनुहोस्"
+
+#: addresseeview.cpp:699
+#, kde-format
+msgid "Open URL %1"
+msgstr "%1 URL खोल्नुहोस्"
+
+#: addresseeview.cpp:701
+#, kde-format
+msgid "Chat with %1"
+msgstr "%1 सँग कुराकानी गर्नुहोस्"
+
+#: addressesdialog.cpp:126 addressesdialog.cpp:137
+msgid "<group>"
+msgstr "<group>"
+
+#. i18n: file: addresspicker.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, AddressPickerUI)
+#: addressesdialog.cpp:205 rc.cpp:3
+msgid "Address Selection"
+msgstr "ठेगाना चयन"
+
+#: addressesdialog.cpp:234 addressesdialog.cpp:663
+msgid "To"
+msgstr "लाई"
+
+#: addressesdialog.cpp:243 addressesdialog.cpp:683
+msgid "CC"
+msgstr "बोधार्थ प्रतिलिपि"
+
+#: addressesdialog.cpp:252 addressesdialog.cpp:703
+msgid "BCC"
+msgstr "गुप्त बोधार्थ प्रतिलिपि"
+
+#: addressesdialog.cpp:309 completionordereditor.cpp:221
+#: recentaddresses.cpp:185
+msgid "Recent Addresses"
+msgstr "हालको ठेगाना"
+
+#: addressesdialog.cpp:433
+msgid "Other Addresses"
+msgstr "अन्य ठेगाना"
+
+#: addressesdialog.cpp:817
+msgid ""
+"There are no addresses in your list. First add some addresses from your "
+"address book, then try again."
+msgstr ""
+"तपाईँको सूचीमा ठेगाना छैनन् । तपाईँको ठेगाना पुस्तिकाबाट केही ठेगाना "
+"थप्नुहोस् र पुन: प्रयास गर्नुहोस् ।"
+
+#: addressesdialog.cpp:824
+msgid "New Distribution List"
+msgstr "नयाँ वितरण सूची"
+
+#: addressesdialog.cpp:825
+msgid "Please enter name:"
+msgstr "कृपया नाम प्रविष्ट गर्नुहोस्:"
+
+#: addressesdialog.cpp:838
+#, kde-format
+msgid ""
+"<qt>Distribution list with the given name <b>%1</b> already exists. Please "
+"select a different name.</qt>"
+msgstr ""
+"<qt>दिएको नाम <b>%1</b> सँगको वितरण सूची पहिल्यै अवस्थि छ । कृपया फरक नाम "
+"चयन गर्नुहोस् ।</qt>"
+
+#: addressesdialog.cpp:1000
+msgid "Distribution Lists"
+msgstr "वितरण सूची"
+
+#: broadcaststatus.cpp:74
+#, kde-format
+msgctxt "%1 is a time, %2 is a status message"
+msgid "[%1] %2"
+msgstr "[%1] %2"
+
+#: broadcaststatus.cpp:89
+#, kde-format
+msgid ""
+"Transmission complete. %1 new message (%2 KB). %3 KB remaining on the server."
+msgid_plural ""
+"Transmission complete. %1 new messages (%2 KB). %3 KB remaining on the "
+"server."
+msgstr[0] ""
+msgstr[1] ""
+
+#: broadcaststatus.cpp:97
+#, kde-format
+msgid "Transmission complete. %1 message (%2 KB)."
+msgid_plural "Transmission complete. %1 messages (%2 KB)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: broadcaststatus.cpp:103
+#, kde-format
+msgid "Transmission complete. %1 new message."
+msgid_plural "Transmission complete. %1 new messages."
+msgstr[0] "प्रेषण समाप्त । %1 नयाँ सन्देश"
+msgstr[1] "प्रेषण समाप्त । %1 नयाँ सन्देश ।"
+
+#: broadcaststatus.cpp:108
+msgid "Transmission complete. No new messages."
+msgstr "प्रेषण समाप्त भयो । नयाँ सन्देश छैन ।"
+
+#: broadcaststatus.cpp:130
+#, kde-format
+msgid ""
+"Transmission for account %4 complete. %1 new message (%2 KB). %3 KB "
+"remaining on the server."
+msgid_plural ""
+"Transmission for account %4 complete. %1 new messages (%2 KB). %3 KB "
+"remaining on the server."
+msgstr[0] ""
+msgstr[1] ""
+
+#: broadcaststatus.cpp:141
+#, kde-format
+msgid "Transmission for account %3 complete. %1 message (%2 KB)."
+msgid_plural "Transmission for account %3 complete. %1 messages (%2 KB)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: broadcaststatus.cpp:150
+#, kde-format
+msgid "Transmission for account %2 complete. %1 new message."
+msgid_plural "Transmission for account %2 complete. %1 new messages."
+msgstr[0] "%2 खाताका लागि प्रेषण समाप्त भयो । %1 नयाँ सन्देश"
+msgstr[1] "%2 खाताका लागि प्रेषण समाप्त भयो । %1 नयाँ सन्देश ।"
+
+#: broadcaststatus.cpp:158
+#, kde-format
+msgid "Transmission for account %1 complete. No new messages."
+msgstr "%1 खाता लागि प्रेषण समाप्त भयो । नयाँ सन्देश छैन ।"
+
+#: calendardiffalgo.cpp:81
+msgctxt "boolean yes"
+msgid "Yes"
+msgstr ""
+
+#: calendardiffalgo.cpp:83
+msgctxt "boolean no"
+msgid "No"
+msgstr ""
+
+#: calendardiffalgo.cpp:117
+msgid "Attendees"
+msgstr "सहभागी"
+
+#: calendardiffalgo.cpp:120
+msgid "Start time"
+msgstr "सुरु समय"
+
+#: calendardiffalgo.cpp:126
+msgid "Organizer"
+msgstr "आयोजक"
+
+#: calendardiffalgo.cpp:131
+msgid "UID"
+msgstr "UID"
+
+#: calendardiffalgo.cpp:135
+msgid "Is all-day"
+msgstr ""
+
+#: calendardiffalgo.cpp:140
+msgid "Has duration"
+msgstr "अवधि छ"
+
+#: calendardiffalgo.cpp:146
+msgid "Duration"
+msgstr "अवधि"
+
+#: calendardiffalgo.cpp:155 ldapsearchdialog.cpp:98 ldapsearchdialog.cpp:316
+msgid "Description"
+msgstr "वर्णन"
+
+#: calendardiffalgo.cpp:160
+msgid "Summary"
+msgstr "सारांश"
+
+#: calendardiffalgo.cpp:164
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: calendardiffalgo.cpp:168
+msgid "Secrecy"
+msgstr "गोप्य"
+
+#: calendardiffalgo.cpp:173
+msgid "Priority"
+msgstr "प्राथमिकता"
+
+#: calendardiffalgo.cpp:178
+msgid "Location"
+msgstr "स्थान"
+
+#: calendardiffalgo.cpp:181
+msgid "Categories"
+msgstr "कोटी"
+
+#: calendardiffalgo.cpp:183
+msgid "Alarms"
+msgstr "सूचक"
+
+#: calendardiffalgo.cpp:185
+msgid "Resources"
+msgstr "संसाधन"
+
+#: calendardiffalgo.cpp:187
+msgid "Relations"
+msgstr "सम्बन्ध"
+
+#: calendardiffalgo.cpp:189
+msgid "Attachments"
+msgstr "सङ्लग्नता"
+
+#: calendardiffalgo.cpp:191
+msgid "Exception Dates"
+msgstr "अपवाद मिति"
+
+#: calendardiffalgo.cpp:193
+msgid "Exception Times"
+msgstr "अपवाद समय"
+
+#: calendardiffalgo.cpp:198
+msgctxt "todo creation time"
+msgid "Created"
+msgstr ""
+
+#: calendardiffalgo.cpp:203
+msgid "Related Uid"
+msgstr "सम्बन्धित Uid"
+
+#: calendardiffalgo.cpp:211
+msgid "Has End Date"
+msgstr "समाप्त मिति छ"
+
+#: calendardiffalgo.cpp:217
+msgid "End Date"
+msgstr "समाप्त मिति"
+
+#: calendardiffalgo.cpp:228
+msgid "Has Start Date"
+msgstr "सुरु मिति छ"
+
+#: calendardiffalgo.cpp:234
+msgid "Has Due Date"
+msgstr "देयमिति छ"
+
+#: calendardiffalgo.cpp:240
+msgid "Due Date"
+msgstr "देयमिति"
+
+#: calendardiffalgo.cpp:246
+msgid "Has Complete Date"
+msgstr "समाप्त मिति छ"
+
+#: calendardiffalgo.cpp:252
+msgctxt "to-do completion percentage"
+msgid "Complete"
+msgstr ""
+
+#: calendardiffalgo.cpp:258
+msgctxt "if to-do is completed"
+msgid "Completed"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
+#: categoryeditdialog.cpp:40 rc.cpp:45
+msgid "Edit Categories"
+msgstr "कोटी सम्पादन गर्नुहोस्"
+
+#: categoryeditdialog.cpp:125 categoryeditdialog.cpp:143
+msgid "New category"
+msgstr ""
+
+#. i18n: file: categoryselectdialog_base.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategorySelectDialog_base)
+#: categoryselectdialog.cpp:176 rc.cpp:90
+msgid "Select Categories"
+msgstr "कोटी चयन गर्नुहोस्"
+
+#: completionordereditor.cpp:94
+#, kde-format
+msgid "LDAP server %1"
+msgstr "LDAP सर्भर %1"
+
+#: completionordereditor.cpp:190
+msgid "Edit Completion Order"
+msgstr "समाप्ती क्रम सम्पादन गर्नुहोस्"
+
+#: contactstreemodel.cpp:214
+msgctxt "@title:column, address books overview"
+msgid "Address Books"
+msgstr ""
+
+#: contactstreemodel.cpp:223
+msgctxt "@title:column, name of a person"
+msgid "Name"
+msgstr ""
+
+#: contactstreemodel.cpp:229
+msgctxt "@title:column, home address of a person"
+msgid "Home"
+msgstr ""
+
+#: contactstreemodel.cpp:232
+msgctxt "@title:column, home address of a person"
+msgid "Work"
+msgstr ""
+
+#: contactstreemodel.cpp:235
+msgctxt "@title:column, phone numbers of a person"
+msgid "Phone Numbers"
+msgstr ""
+
+#: contactstreemodel.cpp:238
+msgctxt "@title:column, the preferred email addresses of a person"
+msgid "Preferred EMail"
+msgstr ""
+
+#: contactstreemodel.cpp:241
+msgctxt "@title:column, all email addresses of a person"
+msgid "All EMails"
+msgstr ""
+
+#: embeddedurlpage.cpp:48
+#, kde-format
+msgid "Showing URL %1"
+msgstr "URL %1 देखाउदैछ"
+
+#: foldertreewidget.cpp:369
+msgid "Local"
+msgstr ""
+
+#: foldertreewidget.cpp:372
+msgid "IMAP"
+msgstr ""
+
+#: foldertreewidget.cpp:375
+msgid "Cached IMAP"
+msgstr ""
+
+#: foldertreewidget.cpp:378
+msgid "News"
+msgstr ""
+
+#: foldertreewidget.cpp:381 ldapsearchdialog.cpp:170 ldapsearchdialog.cpp:449
+msgid "Search"
+msgstr ""
+
+#: foldertreewidget.cpp:384
+msgid "None"
+msgstr ""
+
+#: foldertreewidget.cpp:390
+msgid "Unknown"
+msgstr ""
+
+#: kaccount.cpp:77
+msgctxt "@item IMAP account"
+msgid "IMAP"
+msgstr ""
+
+#: kaccount.cpp:79
+msgctxt "@item mbox account"
+msgid "MBOX"
+msgstr ""
+
+#: kaccount.cpp:81
+msgctxt "@item maildir account"
+msgid "Maildir mailbox"
+msgstr ""
+
+#: kaccount.cpp:83
+msgctxt "@item usenet account"
+msgid "News"
+msgstr ""
+
+#: kaccount.cpp:85
+msgctxt "@item DIMAP account"
+msgid "Disconnected IMAP"
+msgstr ""
+
+#: kaccount.cpp:87
+msgctxt "@item local mailbox account"
+msgid "Local mailbox"
+msgstr ""
+
+#: kaccount.cpp:89
+msgctxt "@item pop3 account"
+msgid "POP3"
+msgstr ""
+
+#: kaccount.cpp:92
+msgctxt "@item unknown mail account"
+msgid "Unknown"
+msgstr ""
+
+#: kaddrbookexternal.cpp:57 kaddrbookexternal.cpp:184
+msgid "Select Address Book"
+msgstr ""
+
+#: kaddrbookexternal.cpp:58 kaddrbookexternal.cpp:185
+msgid "Select the address book the new contact shall be saved in:"
+msgstr ""
+
+#: kaddrbookexternal.cpp:122
+#, kde-format
+msgid ""
+"<qt>The email address <b>%1</b> was added to your address book; you can add "
+"more information to this entry by opening the address book.</qt>"
+msgstr ""
+
+#: kaddrbookexternal.cpp:129
+#, kde-format
+msgid "<qt>The email address <b>%1</b> is already in your address book.</qt>"
+msgstr ""
+
+#: kaddrbookexternal.cpp:160
+msgid ""
+"The VCard was added to your address book; you can add more information to "
+"this entry by opening the address book."
+msgstr ""
+
+#: kaddrbookexternal.cpp:167
+msgid ""
+"The VCard's primary email address is already in your address book; however, "
+"you may save the VCard into a file and import it into the address book "
+"manually."
+msgstr ""
+
+#: kcmdesignerfields.cpp:83 kcmdesignerfields.cpp:84 kcmdesignerfields.cpp:89
+#: kcmdesignerfields.cpp:90
+msgid "Text"
+msgstr "पाठ"
+
+#: kcmdesignerfields.cpp:85
+msgid "Numeric Value"
+msgstr "सङ्ख्यात्मक मान"
+
+#: kcmdesignerfields.cpp:86
+msgid "Boolean"
+msgstr "बुलियन"
+
+#: kcmdesignerfields.cpp:87
+msgid "Selection"
+msgstr "चयन"
+
+#: kcmdesignerfields.cpp:88 kcmdesignerfields.cpp:91
+msgid "Date & Time"
+msgstr "मिति र समय"
+
+#: kcmdesignerfields.cpp:92
+msgid "Date"
+msgstr "मिति"
+
+#: kcmdesignerfields.cpp:147
+msgid "KCMDesignerfields"
+msgstr "KCM डिजाइनर फिल्ड"
+
+#: kcmdesignerfields.cpp:148
+msgid "Qt Designer Fields Dialog"
+msgstr "Qt डिजाइनर फिल्ड संवाद"
+
+#: kcmdesignerfields.cpp:150
+msgid "(c), 2004 Tobias Koenig"
+msgstr "(c), 2004 Tobias Koenig"
+
+#: kcmdesignerfields.cpp:152
+msgid "Tobias Koenig"
+msgstr ""
+
+#: kcmdesignerfields.cpp:153
+msgid "Cornelius Schumacher"
+msgstr ""
+
+#: kcmdesignerfields.cpp:192
+#, kde-format
+msgid "<qt>Do you really want to delete '<b>%1</b>'?</qt>"
+msgstr "<qt>तपाईँले साच्चिकै '<b>%1</b>' फाइल मेट्न चाहनुहुन्छ ?</qt>"
+
+#: kcmdesignerfields.cpp:201
+msgid "*.ui|Designer Files"
+msgstr "*.ui|डिजाइनर फाइल"
+
+#: kcmdesignerfields.cpp:202
+msgid "Import Page"
+msgstr "पृष्ठ आयात गर्नुहोस्"
+
+#: kcmdesignerfields.cpp:298
+msgid ""
+"<qt><b>Warning:</b> Qt Designer could not be found. It is probably not "
+"installed. You will only be able to import existing designer files.</qt>"
+msgstr ""
+"<qt><b>चेतावनी:</b> Qt डिजाइनर फेला पार्न सकेन । यो सम्भवत: स्थापना गरेको "
+"छैन । तपाईँले अवस्थित डिजाइनर फाइल मात्र आयात गर्न सक्नुहुन्छ ।</qt>"
+
+#: kcmdesignerfields.cpp:309
+msgid "Available Pages"
+msgstr "उपलब्ध पृष्ठ"
+
+#: kcmdesignerfields.cpp:316
+msgid "Preview of Selected Page"
+msgstr "चयन गरेको पृष्ठको पूर्वावलोकन"
+
+#: kcmdesignerfields.cpp:331
+#, kde-format
+msgid ""
+"<qt><p>This section allows you to add your own GUI  Elements "
+"('<i>Widgets</i>') to store your own values into %1. Proceed as described "
+"below:</p><ol><li>Click on '<i>Edit with Qt Designer</i>'</li><li>In the "
+"dialog, select '<i>Widget</i>', then click <i>OK</i></li><li>Add your "
+"widgets to the form</li><li>Save the file in the directory proposed by Qt "
+"Designer</li><li>Close Qt Designer</li></ol><p>In case you already have a "
+"designer file (*.ui) located somewhere on your hard disk, simply choose "
+"'<i>Import Page</i>'</p><p><b>Important:</b> The name of each input widget "
+"you place within the form must start with '<i>X_</i>'; so if you want the "
+"widget to correspond to your custom entry '<i>X-Foo</i>', set the widget's "
+"<i>name</i> property to '<i>X_Foo</i>'.</p><p><b>Important:</b> The widget "
+"will edit custom fields with an application name of %2.  To change the "
+"application name to be edited, set the widget name in Qt Designer.</p></qt>"
+msgstr ""
+
+#: kcmdesignerfields.cpp:353
+#, kde-format
+msgid "<a href=\"whatsthis:%1\">How does this work?</a>"
+msgstr "<a href=\"whatsthis:%1\">यसले कसरी काम गर्दछ ?</a>"
+
+#: kcmdesignerfields.cpp:365
+msgid "Delete Page"
+msgstr "पृष्ठ मेट्नुहोस्"
+
+#: kcmdesignerfields.cpp:368
+msgid "Import Page..."
+msgstr "पृष्ठ आयात गर्नुहोस्..."
+
+#: kcmdesignerfields.cpp:370
+msgid "Edit with Qt Designer..."
+msgstr "Qt डिजाइनरसँग सम्पादन गर्नुहोस्..."
+
+#: kcmdesignerfields.cpp:389
+msgid "Key:"
+msgstr "कुञ्जी:"
+
+#: kcmdesignerfields.cpp:391
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: kcmdesignerfields.cpp:393
+msgid "Classname:"
+msgstr "क्लासनेम:"
+
+#: kcmdesignerfields.cpp:395
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: kconfigpropagator.cpp:41
+msgid "Change Config Value"
+msgstr "कन्फिग मान परिवर्तन गर्नुहोस्"
+
+#: kconfigwizard.cpp:66
+msgctxt "@title:window"
+msgid "Configuration Wizard"
+msgstr ""
+
+#: kconfigwizard.cpp:101
+msgctxt "@title:tab"
+msgid "Rules"
+msgstr ""
+
+#: kconfigwizard.cpp:102
+msgctxt "@title:window"
+msgid "Set Up Rules"
+msgstr ""
+
+#: kconfigwizard.cpp:110
+msgctxt "@title:column source file,group,entry"
+msgid "Source"
+msgstr ""
+
+#: kconfigwizard.cpp:111
+msgctxt "@title:column target file,group,entry"
+msgid "Target"
+msgstr ""
+
+#: kconfigwizard.cpp:112
+msgctxt "@title:column file,group,key,value"
+msgid "Condition"
+msgstr ""
+
+#: kconfigwizard.cpp:146
+msgctxt "@title:tab"
+msgid "Changes"
+msgstr ""
+
+#: kconfigwizard.cpp:147
+msgctxt "@title:window"
+msgid "Set Up Changes"
+msgstr ""
+
+#: kconfigwizard.cpp:154
+msgctxt "@title:column change action"
+msgid "Action"
+msgstr ""
+
+#: kconfigwizard.cpp:155
+msgctxt "@title:column option to change"
+msgid "Option"
+msgstr ""
+
+#: kconfigwizard.cpp:156
+msgctxt "@title:column value for option"
+msgid "Value"
+msgstr ""
+
+#: kconfigwizard.cpp:191
+msgctxt "@info"
+msgid ""
+"Please make sure that the programs which are configured by the wizard do not "
+"run in parallel to the wizard; otherwise, changes done by the wizard could "
+"be lost."
+msgstr ""
+
+#: kconfigwizard.cpp:194
+msgctxt "@title:window warn about running instances"
+msgid "Warning"
+msgstr ""
+
+#: kconfigwizard.cpp:195
+msgctxt "@action:button"
+msgid "Run Wizard Now"
+msgstr ""
+
+#: kdateedit.cpp:367
+msgctxt "the day after today"
+msgid "tomorrow"
+msgstr ""
+
+#: kdateedit.cpp:368
+msgctxt "this day"
+msgid "today"
+msgstr ""
+
+#: kdateedit.cpp:369
+msgctxt "the day before today"
+msgid "yesterday"
+msgstr ""
+
+#: kdatepickerpopup.cpp:96
+msgctxt "@option today"
+msgid "&Today"
+msgstr ""
+
+#: kdatepickerpopup.cpp:97
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr ""
+
+#: kdatepickerpopup.cpp:98
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr ""
+
+#: kdatepickerpopup.cpp:99
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr ""
+
+#: kdatepickerpopup.cpp:107
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr ""
+
+#: kincidencechooser.cpp:54
+msgctxt "@title:window"
+msgid "Conflict Detected"
+msgstr ""
+
+#: kincidencechooser.cpp:58
+msgctxt "@info"
+msgid ""
+"A conflict was detected. This probably means someone edited the same "
+"incidence on the server while you changed it locally.<nl/><note>You have to "
+"check mail again to apply your changes to the server.</note>"
+msgstr ""
+
+#: kincidencechooser.cpp:68
+msgctxt "@action:button"
+msgid "Take Local"
+msgstr ""
+
+#: kincidencechooser.cpp:71
+msgctxt "@info:tooltip"
+msgid "Take your local copy of the incidence"
+msgstr ""
+
+#: kincidencechooser.cpp:74
+msgctxt "@info:whatsthis"
+msgid ""
+"A conflict was detected between your local copy of the incidence and the "
+"remote incidence on the server. Press the \"Take Local\" button to make sure "
+"your local copy is used."
+msgstr ""
+
+#: kincidencechooser.cpp:78
+msgctxt "@action:button"
+msgid "Take New"
+msgstr ""
+
+#: kincidencechooser.cpp:81
+msgctxt "@info:tooltip"
+msgid "Take the server copy of the incidence"
+msgstr ""
+
+#: kincidencechooser.cpp:84
+msgctxt "@info:whatsthis"
+msgid ""
+"A conflict was detected between your local copy of the incidence and the "
+"remote incidence on the server. Press the \"Take New\" button to use the "
+"server copy, thereby overwriting your local copy"
+msgstr ""
+
+#: kincidencechooser.cpp:88
+msgctxt "@action:button"
+msgid "Take Both"
+msgstr ""
+
+#: kincidencechooser.cpp:91
+msgctxt "@info:tooltip"
+msgid "Take both copies of the incidence"
+msgstr ""
+
+#: kincidencechooser.cpp:94
+msgctxt "@info:whatsthis"
+msgid ""
+"A conflict was detected between your local copy of the incidence and the "
+"remote incidence on the server. Press the \"Take Both\" button to keep both "
+"the local and the server copies."
+msgstr ""
+
+#: kincidencechooser.cpp:101 kincidencechooser.cpp:123
+msgctxt "@label"
+msgid "Local incidence"
+msgstr ""
+
+#: kincidencechooser.cpp:104 kincidencechooser.cpp:126
+msgctxt "@label"
+msgid "Local incidence summary"
+msgstr ""
+
+#: kincidencechooser.cpp:108 kincidencechooser.cpp:130
+msgctxt "@label"
+msgid "Last modified:"
+msgstr ""
+
+#: kincidencechooser.cpp:110 kincidencechooser.cpp:132
+msgctxt "@label"
+msgid "Set Last modified"
+msgstr ""
+
+#: kincidencechooser.cpp:113 kincidencechooser.cpp:135
+#: kincidencechooser.cpp:348
+msgctxt "@action:button"
+msgid "Show Details"
+msgstr ""
+
+#: kincidencechooser.cpp:115 kincidencechooser.cpp:137
+msgctxt "@info:tooltip"
+msgid "Hide/Show incidence details"
+msgstr ""
+
+#: kincidencechooser.cpp:118 kincidencechooser.cpp:140
+msgctxt "@info:whatsthis"
+msgid "Press this button to toggle the incidence details display."
+msgstr ""
+
+#: kincidencechooser.cpp:147
+msgctxt "@action:button"
+msgid "Show Differences"
+msgstr ""
+
+#: kincidencechooser.cpp:149
+msgctxt "@info:tooltip"
+msgid "Show the differences between the two incidences"
+msgstr ""
+
+#: kincidencechooser.cpp:152
+msgctxt "@info:whatsthis"
+msgid ""
+"Press the \"Show Differences\" button to see the specific differences "
+"between the incidences which are in conflict."
+msgstr ""
+
+#: kincidencechooser.cpp:161
+msgctxt "@title:group"
+msgid "Sync Preferences"
+msgstr ""
+
+#: kincidencechooser.cpp:163
+msgctxt "@info:tooltip"
+msgid "Sync Preferences"
+msgstr ""
+
+#: kincidencechooser.cpp:164
+msgctxt "@info:whatsthis"
+msgid "Sync Preferences"
+msgstr ""
+
+#: kincidencechooser.cpp:169
+msgctxt "@option:radio"
+msgid "Take local copy on conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:172
+msgctxt "@info:tooltip"
+msgid "Take local copy of the incidence on conflicts"
+msgstr ""
+
+#: kincidencechooser.cpp:175
+msgctxt "@info:whatsthis"
+msgid ""
+"When a conflict is detected between a local copy of an incidence and a "
+"remote incidence on the server, this option enforces using the local copy."
+msgstr ""
+
+#: kincidencechooser.cpp:180
+msgctxt "@option:radio"
+msgid "Take remote copy on conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:183
+msgctxt "@info:tooltip"
+msgid "Take remote copy of the incidence on conflicts"
+msgstr ""
+
+#: kincidencechooser.cpp:186
+msgctxt "@info:whatsthis"
+msgid ""
+"When a conflict is detected between a local copy of an incidence and a "
+"remote incidence on the server, this option enforces using the remote copy."
+msgstr ""
+
+#: kincidencechooser.cpp:191
+msgctxt "@option:radio"
+msgid "Take newest incidence on conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:194
+msgctxt "@info:tooltip"
+msgid "Take newest version of the incidence on conflicts"
+msgstr ""
+
+#: kincidencechooser.cpp:197
+msgctxt "@info:whatsthis"
+msgid ""
+"When a conflict is detected between a local copy of an incidence and a "
+"remote incidence on the server, this option enforces using the newest "
+"version available."
+msgstr ""
+
+#: kincidencechooser.cpp:202
+msgctxt "@option:radio"
+msgid "Ask for every conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:205
+msgctxt "@info:tooltip"
+msgid "Ask for every incidence conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:208
+msgctxt "@info:whatsthis"
+msgid ""
+"When a conflict is detected between a local copy of an incidence and a "
+"remote incidence on the server, this option says to ask the user which "
+"version they want to keep."
+msgstr ""
+
+#: kincidencechooser.cpp:213
+msgctxt "@option:radio"
+msgid "Take both on conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:216
+msgctxt "@info:tooltip"
+msgid "Take both incidences on conflict"
+msgstr ""
+
+#: kincidencechooser.cpp:219
+msgctxt "@info:whatsthis"
+msgid ""
+"When a conflict is detected between a local copy of an incidence and a "
+"remote incidence on the server, this option says to keep both versions of "
+"the incidence."
+msgstr ""
+
+#: kincidencechooser.cpp:226
+msgctxt "@action:button"
+msgid "Apply preference to all conflicts of this sync"
+msgstr ""
+
+#: kincidencechooser.cpp:230
+msgctxt "@info:tooltip"
+msgid "Apply the preference to all conflicts that may occur during the sync"
+msgstr ""
+
+#: kincidencechooser.cpp:233
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to apply the selected preference to all future conflicts "
+"that might occur during this sync."
+msgstr ""
+
+#: kincidencechooser.cpp:308
+msgctxt "@label"
+msgid "Local Event"
+msgstr ""
+
+#: kincidencechooser.cpp:314
+msgctxt "@label"
+msgid "Local Todo"
+msgstr ""
+
+#: kincidencechooser.cpp:320
+msgctxt "@label"
+msgid "Local Journal"
+msgstr ""
+
+#: kincidencechooser.cpp:331
+msgctxt "@label"
+msgid "New Event"
+msgstr ""
+
+#: kincidencechooser.cpp:334
+msgctxt "@label"
+msgid "New Todo"
+msgstr ""
+
+#: kincidencechooser.cpp:337
+msgctxt "@label"
+msgid "New Journal"
+msgstr ""
+
+#: kincidencechooser.cpp:351 kincidencechooser.cpp:369
+msgctxt "@action:button"
+msgid "Hide Details"
+msgstr ""
+
+#: kincidencechooser.cpp:365 kincidencechooser.cpp:433
+msgctxt "@info:tooltip"
+msgid "Incidence details"
+msgstr ""
+
+#: kincidencechooser.cpp:367 kincidencechooser.cpp:435
+msgctxt "@info:whatsthis"
+msgid "This area shows the incidence details"
+msgstr ""
+
+#: kincidencechooser.cpp:378 kincidencechooser.cpp:380
+msgctxt "@action:button"
+msgid "Show details..."
+msgstr ""
+
+#: kincidencechooser.cpp:395
+#, kde-format
+msgctxt "@title:window"
+msgid "Differences of %1 and %2"
+msgstr ""
+
+#: kincidencechooser.cpp:400
+#, kde-format
+msgctxt "@title:window"
+msgid "Differences of %1"
+msgstr ""
+
+#: kincidencechooser.cpp:404
+msgctxt "@title:column"
+msgid "Local incidence"
+msgstr ""
+
+#: kincidencechooser.cpp:405
+msgctxt "@title:column"
+msgid "Remote incidence"
+msgstr ""
+
+#: kincidencechooser.cpp:416
+msgctxt "@label"
+msgid "Show Details"
+msgstr ""
+
+#: kincidencechooser.cpp:419 kincidencechooser.cpp:437
+msgctxt "@label"
+msgid "Hide Details"
+msgstr ""
+
+#: kmeditor.cpp:261
+msgctxt "@action:button"
+msgid "&Insert"
+msgstr ""
+
+#: kmeditor.cpp:262
+msgctxt "@title:window"
+msgid "Insert File"
+msgstr ""
+
+#: kmeditor.cpp:365
+msgctxt "@info"
+msgid ""
+"The external editor is still running.<nl>Do you want to stop the editor or "
+"keep it running?</nl><warning>Stopping the editor will cause all your "
+"unsaved changes to be lost.</warning>"
+msgstr ""
+
+#: kmeditor.cpp:369
+msgctxt "@title:window"
+msgid "External Editor Running"
+msgstr ""
+
+#: kmeditor.cpp:370
+msgctxt "@action:button"
+msgid "Stop Editor"
+msgstr ""
+
+#: kmeditor.cpp:371
+msgctxt "@action:button"
+msgid "Keep Editor Running"
+msgstr ""
+
+#: kprefsdialog.cpp:244
+msgid "Choose..."
+msgstr "छनोट गर्नुहोस्..."
+
+#: kprefsdialog.cpp:772
+msgid "Preferences"
+msgstr "प्राथमिकता"
+
+#: kprefsdialog.cpp:880
+msgid ""
+"You are about to set all preferences to default values. All custom "
+"modifications will be lost."
+msgstr ""
+"तपाईँले पूर्वनिर्धारित मानमा सबै प्राथमिकता सेट गर्दैहुनुहुन्छ । सबै अनुकूल "
+"परिमार्जन हराउने छ ।"
+
+#: kprefsdialog.cpp:882
+msgid "Setting Default Preferences"
+msgstr "पूर्वनिर्धारित प्राथमिकता सेटिङ"
+
+#: kprefsdialog.cpp:883
+msgid "Reset to Defaults"
+msgstr "पूर्वनिर्धारितमा रिसेट गर्नुहोस्"
+
+#: kscoring.cpp:87
+msgid "Notify Message"
+msgstr ""
+
+#: kscoring.cpp:98
+msgid "Do not show this message again"
+msgstr ""
+
+#: kscoring.cpp:122
+#, kde-format
+msgid ""
+"Article\n"
+"<b>%1</b><br /><b>%2</b><br />caused the following note to appear:<br />%3"
+msgstr ""
+
+#: kscoring.cpp:193
+msgid "Adjust Score"
+msgstr "प्राप्ताङ्क समायोजन गर्नुहोस्"
+
+#: kscoring.cpp:195
+msgid "Display Message"
+msgstr "सन्देश प्रर्दशन गर्नुहोस्"
+
+#: kscoring.cpp:197
+msgid "Colorize Header"
+msgstr "रङ्गिन हेडर"
+
+#: kscoring.cpp:199
+msgid "Mark as Read"
+msgstr ""
+
+#: kscoring.cpp:394
+msgid "<h1>List of collected notes</h1>"
+msgstr "<h1>सङ्कलित टिपोटको सूची</h1>"
+
+#: kscoring.cpp:418
+msgid "Collected Notes"
+msgstr "सङ्कलित टिपोट"
+
+#: kscoring.cpp:491
+msgid "Contains Substring"
+msgstr "सहायक स्ट्रिङ समावेश गर्दछ"
+
+#: kscoring.cpp:493
+msgid "Matches Regular Expression"
+msgstr "नियमित अभिव्यक्तिसँग मिल्दछ"
+
+#: kscoring.cpp:495
+msgid "Matches Regular Expression (Case Sensitive)"
+msgstr "नियमित अभिव्यक्तिसँग मिल्दछ (केस सम्बेदनशील)"
+
+#: kscoring.cpp:497
+msgid "Is Exactly the Same As"
+msgstr "ठ्याक्कै यो जस्तै छ"
+
+#: kscoring.cpp:499
+msgid "Less Than"
+msgstr "यो भन्दा कम"
+
+#: kscoring.cpp:501
+msgid "Greater Than"
+msgstr "यो भन्दा बढी"
+
+#: kscoring.cpp:1042
+msgid "Choose Another Rule Name"
+msgstr "अन्य रूल नाम छनोट गर्नुहोस्"
+
+#: kscoring.cpp:1043
+msgid "The rule name is already assigned, please choose another name:"
+msgstr "यो रूल नाम पहिल्यै मानाङ्कन गरिएको छ, कृपया अर्को छनोट गर्नुहोस्:"
+
+#: kscoring.cpp:1198
+#, kde-format
+msgid "rule %1"
+msgstr "रूल %1"
+
+#: kscoringeditor.cpp:76
+msgid "Not"
+msgstr "होइन"
+
+#: kscoringeditor.cpp:77
+msgid "Negate this condition"
+msgstr "यो शर्त अस्वीकार गर्नुहोस्"
+
+#: kscoringeditor.cpp:82
+msgid "Select the header to match this condition against"
+msgstr "यो शर्तसँग मिल्दो हेडर चयन गर्नुहोस्"
+
+#: kscoringeditor.cpp:86
+msgid "Select the type of match"
+msgstr "मिल्दोको प्रकार चयन गर्नुहोस्"
+
+#: kscoringeditor.cpp:94
+msgid "The condition for the match"
+msgstr "मिल्दोका लागि शर्त"
+
+#: kscoringeditor.cpp:98
+msgid "Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: kscoringeditor.cpp:245
+msgid "Select an action."
+msgstr "कार्य चयन गर्नुहोस् ।"
+
+#: kscoringeditor.cpp:444
+msgid "Properties"
+msgstr ""
+
+#: kscoringeditor.cpp:455
+msgctxt "@label rule name"
+msgid "&Name:"
+msgstr ""
+
+#: kscoringeditor.cpp:463
+msgid "&Groups:"
+msgstr "समूह:"
+
+#: kscoringeditor.cpp:468
+msgid "A&dd Group"
+msgstr "समूह थप्नुहोस्"
+
+#: kscoringeditor.cpp:479
+msgid "&Expire rule automatically"
+msgstr "नियमको स्वचालित रूपमा समय समाप्त हुन्छ"
+
+#: kscoringeditor.cpp:487
+msgid "&Rule is valid for:"
+msgstr "यसका लागि नियम वैध हुन्छ:"
+
+#: kscoringeditor.cpp:498
+msgid "Conditions"
+msgstr "शर्त"
+
+#: kscoringeditor.cpp:508
+msgid "Match a&ll conditions"
+msgstr "सबै शर्त मिलाउनुहोस्"
+
+#: kscoringeditor.cpp:511
+msgid "Matc&h any condition"
+msgstr "कुनै शर्त मिल्दैन"
+
+#: kscoringeditor.cpp:521
+msgid "Actions"
+msgstr "कार्य"
+
+#: kscoringeditor.cpp:646
+msgid " day"
+msgid_plural " days"
+msgstr[0] " दिन"
+msgstr[1] " दिन"
+
+#: kscoringeditor.cpp:681
+msgid "Move rule up"
+msgstr "नियम माथि सार्नुहोस्"
+
+#: kscoringeditor.cpp:686
+msgid "Move rule down"
+msgstr "नियम तल सार्नुहोस्"
+
+#: kscoringeditor.cpp:698
+msgid "New rule"
+msgstr "नयाँ नियम"
+
+#: kscoringeditor.cpp:705
+msgid "Edit rule"
+msgstr "नियम सम्पादन गर्नुहोस्"
+
+#: kscoringeditor.cpp:711
+msgid "Remove rule"
+msgstr "नियम हटाउनुहोस्"
+
+#: kscoringeditor.cpp:716
+msgid "Copy rule"
+msgstr "नियम प्रतिलिपि गर्नुहोस्"
+
+#: kscoringeditor.cpp:727 kscoringeditor.cpp:732 kscoringeditor.cpp:773
+msgid "<placeholder>all groups</placeholder>"
+msgstr ""
+
+#: kscoringeditor.cpp:733
+msgid "Sho&w only rules for group:"
+msgstr "समूहका लागि मात्र नियम देखाउनुहोस्:"
+
+#: kscoringeditor.cpp:951
+msgid "Rule Editor"
+msgstr "नियम सम्पादक"
+
+#: kscoringeditor.cpp:1063
+msgid "Edit Rule"
+msgstr "नियम सम्पादन गर्नुहोस्"
+
+#: ksubscription.cpp:217
+msgid "Reload &List"
+msgstr "सूची पुन: लोड गर्नुहोस्"
+
+#: ksubscription.cpp:231
+msgid "Manage which mail folders you want to see in your folder view"
+msgstr ""
+"तपाईँको फोल्डर दृश्यमा हेर्न चाहनुभएको मेल फोल्डर व्यवस्थापन गर्नुहोस्"
+
+#: ksubscription.cpp:235
+msgid "S&earch:"
+msgstr "खोजी:"
+
+#: ksubscription.cpp:240
+msgid "Disable &tree view"
+msgstr "ट्रि दृश्य अक्षम पार्नुहोस्"
+
+#: ksubscription.cpp:242
+msgid "&Subscribed only"
+msgstr "सदस्यता मात्र"
+
+#: ksubscription.cpp:244
+msgid "&New only"
+msgstr "नयाँ मात्र"
+
+#: ksubscription.cpp:252
+msgid "Loading..."
+msgstr "लोड हुँदैछ..."
+
+#: ksubscription.cpp:253
+msgid "Current changes:"
+msgstr "हालका परिवर्तन:"
+
+#: ksubscription.cpp:273
+msgctxt "subscription name"
+msgid "Name"
+msgstr ""
+
+#: ksubscription.cpp:277
+msgctxt "subscription description"
+msgid "Description"
+msgstr ""
+
+#: ksubscription.cpp:318
+msgid "Subscribe To"
+msgstr "यसमा सदस्यता लिनुहोस्"
+
+#: ksubscription.cpp:320
+msgid "Unsubscribe From"
+msgstr "यसबाट सदस्यता हटाउनुहोस्"
+
+#: ksubscription.cpp:774
+#, kde-format
+msgid "Loading... (1 matching)"
+msgid_plural "Loading... (%1 matching)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ksubscription.cpp:776
+#, kde-format
+msgid "%2: (1 matching)"
+msgid_plural "%2: (%1 matching)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kwidgetlister.cpp:67
+msgctxt "more widgets"
+msgid "More"
+msgstr "बढी"
+
+#: kwidgetlister.cpp:71
+msgctxt "fewer widgets"
+msgid "Fewer"
+msgstr "थोरै"
+
+#: ldapsearchdialog.cpp:81 ldapsearchdialog.cpp:318
+msgid "Title"
+msgstr ""
+
+#: ldapsearchdialog.cpp:82 ldapsearchdialog.cpp:301
+msgid "Full Name"
+msgstr ""
+
+#: ldapsearchdialog.cpp:84 ldapsearchdialog.cpp:163 ldapsearchdialog.cpp:303
+#: ldapsearchdialog.cpp:389
+msgid "Home Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:85 ldapsearchdialog.cpp:164 ldapsearchdialog.cpp:304
+#: ldapsearchdialog.cpp:391
+msgid "Work Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:86 ldapsearchdialog.cpp:305
+msgid "Mobile Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:87 ldapsearchdialog.cpp:306
+msgid "Fax Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:88
+msgid "Pager"
+msgstr ""
+
+#: ldapsearchdialog.cpp:89 ldapsearchdialog.cpp:309
+msgid "Street"
+msgstr ""
+
+#: ldapsearchdialog.cpp:90 ldapsearchdialog.cpp:310
+msgid "State"
+msgstr ""
+
+#: ldapsearchdialog.cpp:91 ldapsearchdialog.cpp:311
+msgid "Country"
+msgstr ""
+
+#: ldapsearchdialog.cpp:92 ldapsearchdialog.cpp:314
+msgid "City"
+msgstr ""
+
+#: ldapsearchdialog.cpp:93 ldapsearchdialog.cpp:308
+msgid "Organization"
+msgstr ""
+
+#: ldapsearchdialog.cpp:94 ldapsearchdialog.cpp:307
+msgid "Company"
+msgstr ""
+
+#: ldapsearchdialog.cpp:96 ldapsearchdialog.cpp:312
+msgid "Zip Code"
+msgstr ""
+
+#: ldapsearchdialog.cpp:97 ldapsearchdialog.cpp:313
+msgid "Postal Address"
+msgstr ""
+
+#: ldapsearchdialog.cpp:99 ldapsearchdialog.cpp:317
+msgid "User ID"
+msgstr ""
+
+#: ldapsearchdialog.cpp:130 ldapsearchdialog.cpp:144
+msgid "Search for Addresses in Directory"
+msgstr ""
+
+#: ldapsearchdialog.cpp:150
+msgid "Search for:"
+msgstr ""
+
+#: ldapsearchdialog.cpp:157
+msgid "in"
+msgstr ""
+
+#. i18n: file: addresspicker.ui:56
+#. i18n: ectx: property (text), widget (QTreeWidget, mAvailableView)
+#. i18n: file: addresspicker.ui:286
+#. i18n: ectx: property (text), widget (QTreeWidget, mSelectedView)
+#: ldapsearchdialog.cpp:161 ldapsearchdialog.cpp:382 rc.cpp:6 rc.cpp:33
+msgid "Name"
+msgstr "नाम"
+
+#: ldapsearchdialog.cpp:168 ldapsearchdialog.cpp:408
+msgid "Stop"
+msgstr ""
+
+#: ldapsearchdialog.cpp:179
+msgid "Recursive search"
+msgstr ""
+
+#: ldapsearchdialog.cpp:184
+msgid "Contains"
+msgstr ""
+
+#: ldapsearchdialog.cpp:185
+msgid "Starts With"
+msgstr ""
+
+#: ldapsearchdialog.cpp:199
+msgid "Unselect All"
+msgstr ""
+
+#: ldapsearchdialog.cpp:200
+msgid "Select All"
+msgstr ""
+
+#: ldapsearchdialog.cpp:201
+msgid "Add Selected"
+msgstr ""
+
+#: ldapsearchdialog.cpp:242
+msgid ""
+"You must select a LDAP server before searching.\n"
+"You can do this from the menu Settings/Configure KAddressBook."
+msgstr ""
+
+#: maillistdrag.cpp:249
+msgid "Retrieving and storing messages..."
+msgstr "सन्देश पुन: प्राप्त र भण्डारण गर्दैछ..."
+
+#: pluginloaderbase.cpp:81
+msgid "Unnamed plugin"
+msgstr "बेनामी प्लगइन"
+
+#: pluginloaderbase.cpp:87
+msgid "No description available"
+msgstr "वर्णन उपलब्ध छैन"
+
+#: progressdialog.cpp:175
+msgid "Cancel this operation."
+msgstr "यो सञ्चालन रद्द गर्नुहोस् ।"
+
+#: progressmanager.cpp:99
+msgid "Aborting..."
+msgstr "परित्याग गर्दैछ..."
+
+#. i18n: file: addresspicker.ui:61
+#. i18n: ectx: property (text), widget (QTreeWidget, mAvailableView)
+#. i18n: file: addresspicker.ui:291
+#. i18n: ectx: property (text), widget (QTreeWidget, mSelectedView)
+#: rc.cpp:9 rc.cpp:36
+msgid "Email Address"
+msgstr "इमेल ठेगाना"
+
+#. i18n: file: addresspicker.ui:102
+#. i18n: ectx: property (text), widget (KPushButton, mToButton)
+#: rc.cpp:12
+msgid "&To >>"
+msgstr "यसलाई >>"
+
+#. i18n: file: addresspicker.ui:112
+#. i18n: ectx: property (text), widget (KPushButton, mCCButton)
+#: rc.cpp:15
+msgid "&CC >>"
+msgstr "बोधार्थ प्रतिलिपि >>"
+
+#. i18n: file: addresspicker.ui:122
+#. i18n: ectx: property (text), widget (KPushButton, mBCCButton)
+#: rc.cpp:18
+msgid "&BCC >>"
+msgstr "गुप्त बोधार्थ प्रतिलिपि >>"
+
+#. i18n: file: addresspicker.ui:148
+#. i18n: ectx: property (text), widget (KPushButton, mRemoveButton)
+#: rc.cpp:21
+msgid "<< &Remove"
+msgstr "<< हटाउनुहोस्"
+
+#. i18n: file: addresspicker.ui:180
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:24
+msgid "&Selected Addresses"
+msgstr "चयन गरेको ठेगाना"
+
+#. i18n: file: addresspicker.ui:203
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:27
+msgid "&Address Book"
+msgstr "ठेगाना पुस्तिका"
+
+#. i18n: file: addresspicker.ui:233
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:30
+msgid "&Filter on:"
+msgstr "यसमा फिल्टर गर्नुहोस्:"
+
+#. i18n: file: addresspicker.ui:302
+#. i18n: ectx: property (text), widget (QPushButton, mSaveAs)
+#: rc.cpp:39
+msgid "Save as &Distribution List..."
+msgstr "वितरण सूचीको रूपमा बचत गर्नुहोस्..."
+
+#. i18n: file: addresspicker.ui:309
+#. i18n: ectx: property (text), widget (QPushButton, mLdapSearch)
+#: rc.cpp:42
+msgid "&Search Directory Service"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:25
+#. i18n: ectx: property (toolTip), widget (KLineEdit, mEdit)
+#: rc.cpp:48
+msgid "New category entry"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:28
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mEdit)
+#: rc.cpp:51
+msgid "Type in any text you want to use as a new category or sub-category."
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:43
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonAdd)
+#: rc.cpp:54
+msgid "Add the entry to the category list"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:46
+#. i18n: ectx: property (whatsThis), widget (KPushButton, mButtonAdd)
+#: rc.cpp:57
+msgid "Click this button to insert the entry into the category list."
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:49
+#. i18n: ectx: property (text), widget (KPushButton, mButtonAdd)
+#: rc.cpp:60
+msgid "A&dd"
+msgstr "थप्नुहोस्"
+
+#. i18n: file: categoryeditdialog_base.ui:56
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonAddSubcategory)
+#: rc.cpp:63
+msgid "Add the entry as a subcategory of the selected category"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:62
+#. i18n: ectx: property (whatsThis), widget (KPushButton, mButtonAddSubcategory)
+#: rc.cpp:66
+msgid ""
+"Click this button to insert the entry as a subcategory of the currently "
+"selected category."
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:65
+#. i18n: ectx: property (text), widget (KPushButton, mButtonAddSubcategory)
+#: rc.cpp:69
+msgid "Add &Subcategory"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:72
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonRemove)
+#: rc.cpp:72
+msgid "Remove the selected category"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:78
+#. i18n: ectx: property (whatsThis), widget (KPushButton, mButtonRemove)
+#: rc.cpp:75
+msgid ""
+"Click this button to remove the selected category from the category list."
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:81
+#. i18n: ectx: property (text), widget (KPushButton, mButtonRemove)
+#: rc.cpp:78
+msgid "&Remove"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:106
+#. i18n: ectx: property (toolTip), widget (KPIM::AutoCheckTreeWidget, mCategories)
+#: rc.cpp:81
+msgid "Category list"
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:109
+#. i18n: ectx: property (whatsThis), widget (KPIM::AutoCheckTreeWidget, mCategories)
+#: rc.cpp:84
+msgid ""
+"This is a list of all the categories available. You can create as many sub-"
+"categories as you want here."
+msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:128
+#. i18n: ectx: property (text), widget (KPIM::AutoCheckTreeWidget, mCategories)
+#: rc.cpp:87
+msgid "Default Category"
+msgstr ""
+
+#. i18n: file: categoryselectdialog_base.ui:29
+#. i18n: ectx: property (text), widget (KPIM::AutoCheckTreeWidget, mCategories)
+#: rc.cpp:93
+msgid "Category"
+msgstr "कोटि"
+
+#. i18n: file: categoryselectdialog_base.ui:61
+#. i18n: ectx: property (text), widget (KPushButton, mButtonClear)
+#: rc.cpp:96
+msgid "&Clear Selection"
+msgstr "चयन खाली गर्नुहोस्"
+
+#. i18n: file: categoryselectdialog_base.ui:68
+#. i18n: ectx: property (text), widget (KPushButton, mButtonEdit)
+#: rc.cpp:99
+msgid "&Edit Categories..."
+msgstr "कोटि सम्पादन गर्नुहोस्..."
+
+#: rc.cpp:100
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:101
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com,,,"
+
+#: recentaddresses.cpp:175
+msgid "Edit Recent Addresses"
+msgstr "हालको ठेगाना सम्पादन गर्नुहोस्"
+
+#: sendsmsdialog.cpp:35
+msgid "Send SMS"
+msgstr "SMS पठाउनुहोस्"
+
+#: sendsmsdialog.cpp:47
+msgid "Message"
+msgstr "सन्देश"
+
+#: sendsmsdialog.cpp:56
+msgid "Recipient:"
+msgstr "प्रापक:"
+
+#: sendsmsdialog.cpp:59
+msgid "Send"
+msgstr "पठाउनुहोस्"
+
+#: ssllabel.cpp:66
+msgid "Connection is encrypted"
+msgstr "जडान गुप्तिकरण गरिएको छ"
+
+#: ssllabel.cpp:71
+msgid "Connection is unencrypted"
+msgstr "जडान गुप्तिकरण उल्टाइएको छ"
+
+#: statusbarprogresswidget.cpp:83
+msgid "Open detailed progress dialog"
+msgstr "विस्तृत प्रक्रिया संवाद खोल्नुहोस्"
+
+#: statusbarprogresswidget.cpp:288
+msgid "Hide detailed progress window"
+msgstr "विस्तृत प्रक्रिया सञ्झ्याल लुकाउनुहोस्"
+
+#: statusbarprogresswidget.cpp:292
+msgid "Show detailed progress window"
+msgstr "विस्तृत प्रक्रिया सञ्झ्याल देखाउनुहोस्"
+
+#: treewidget.cpp:217
+msgid "View Columns"
+msgstr ""

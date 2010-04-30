@@ -1,0 +1,6042 @@
+# translation of kleopatra.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kleopatra\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:47+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:59+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: models/keylistmodel.cpp:247 models/useridlistmodel.cpp:249
+#: newcertificatewizard/newcertificatewizard.cpp:921
+msgid "Name"
+msgstr ""
+
+#: models/keylistmodel.cpp:248
+msgid "E-Mail"
+msgstr ""
+
+#: models/keylistmodel.cpp:249 models/useridlistmodel.cpp:251
+#: models/subkeylistmodel.cpp:158
+msgid "Valid From"
+msgstr ""
+
+#: models/keylistmodel.cpp:250 models/useridlistmodel.cpp:252
+#: models/subkeylistmodel.cpp:159
+msgid "Valid Until"
+msgstr ""
+
+#: models/keylistmodel.cpp:251
+msgid "Details"
+msgstr ""
+
+#: models/keylistmodel.cpp:252 utils/formatting.cpp:302
+msgid "Fingerprint"
+msgstr "औँठा छाप"
+
+#: models/useridlistmodel.cpp:248 models/subkeylistmodel.cpp:156
+msgid "ID"
+msgstr ""
+
+#: models/useridlistmodel.cpp:250
+#: newcertificatewizard/newcertificatewizard.cpp:925
+msgid "EMail"
+msgstr ""
+
+#: models/useridlistmodel.cpp:253 models/subkeylistmodel.cpp:160
+#: utils/kleo_kicondialog.cpp:366
+msgid "Status"
+msgstr ""
+
+#: models/useridlistmodel.cpp:304 utils/formatting.cpp:429
+#: utils/formatting.cpp:441
+msgid "revoked"
+msgstr ""
+
+#: models/useridlistmodel.cpp:306 utils/formatting.cpp:431
+#: utils/formatting.cpp:467
+msgid "expired"
+msgstr ""
+
+#: models/useridlistmodel.cpp:308 utils/formatting.cpp:433
+msgid "disabled"
+msgstr ""
+
+#: models/useridlistmodel.cpp:310 utils/formatting.cpp:435
+#: utils/formatting.cpp:443 utils/formatting.cpp:466
+msgid "invalid"
+msgstr ""
+
+#: models/useridlistmodel.cpp:311
+msgid "good"
+msgstr ""
+
+#: models/keycache.cpp:902
+msgid "Listing public X.509 certificates"
+msgstr ""
+
+#: models/keycache.cpp:902
+msgid "Listing private X.509 certificates"
+msgstr ""
+
+#: models/keycache.cpp:903
+msgid "Listing public OpenPGP certificates"
+msgstr ""
+
+#: models/keycache.cpp:903
+msgid "Listing private OpenPGP certificates"
+msgstr ""
+
+#: models/subkeylistmodel.cpp:157
+msgid "Type"
+msgstr ""
+
+#: models/subkeylistmodel.cpp:161
+msgid "Strength"
+msgstr ""
+
+#: uiserver/selectcertificatecommand.cpp:151
+#, kde-format
+msgid ""
+"Caught unexpected exception in "
+"SelectCertificateCommand::Private::slotDialogAccepted: %1"
+msgstr ""
+
+#: uiserver/selectcertificatecommand.cpp:155
+msgid ""
+"Caught unknown exception in "
+"SelectCertificateCommand::Private::slotDialogAccepted"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:145
+msgid "Can not use non-info SENDER"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:149
+msgid "Can not use non-info RECIPIENT"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:164
+msgid "FILES present"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:168
+msgid "At least one INPUT needs to be provided"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:173
+msgid "INPUT/SENDER --info count mismatch"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:178
+msgid "INPUT/MESSAGE count mismatch"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:181
+msgid "MESSAGE can only be given for detached signature verification"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:187 uiserver/signcommand.cpp:98
+#: uiserver/encryptcommand.cpp:105
+msgid "INPUT/OUTPUT count mismatch"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:190
+msgid "Can not use OUTPUT and MESSAGE simultaneously"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:198
+msgid "No backend support for OpenPGP"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:199
+msgid "No backend support for S/MIME"
+msgstr ""
+
+#: uiserver/uiserver_win.cpp:68 uiserver/uiserver_unix.cpp:70
+#, kde-format
+msgid "Could not create socket: %1"
+msgstr ""
+
+#: uiserver/uiserver_win.cpp:77 uiserver/uiserver_unix.cpp:83
+#, kde-format
+msgid "Could not bind to socket: %1"
+msgstr ""
+
+#: uiserver/uiserver_win.cpp:80 uiserver/uiserver_unix.cpp:89
+#, kde-format
+msgid "Could not get socket nonce: %1"
+msgstr ""
+
+#: uiserver/uiserver_win.cpp:84 uiserver/uiserver_unix.cpp:94
+#, kde-format
+msgid "Could not listen to socket: %1"
+msgstr ""
+
+#: uiserver/uiserver_win.cpp:87 uiserver/uiserver_unix.cpp:97
+#, kde-format
+msgid ""
+"Could not pass socket to Qt: %1. This should not happen, please report this "
+"bug."
+msgstr ""
+
+#: uiserver/echocommand.cpp:147 uiserver/signcommand.cpp:165
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignCommand::Private::slotMicAlgDetermined: %1"
+msgstr ""
+
+#: uiserver/echocommand.cpp:151 uiserver/signcommand.cpp:169
+msgid ""
+"Caught unknown exception in SignCommand::Private::slotMicAlgDetermined"
+msgstr ""
+
+#: uiserver/signcommand.cpp:86
+msgid ""
+"SIGN is an email mode command, connection seems to be in filemanager mode"
+msgstr ""
+
+#: uiserver/signcommand.cpp:90
+msgid "RECIPIENT may not be given prior to SIGN, except with --info"
+msgstr ""
+
+#: uiserver/signcommand.cpp:94 uiserver/encryptcommand.cpp:97
+msgid "At least one INPUT must be present"
+msgstr ""
+
+#: uiserver/signcommand.cpp:102
+msgid "MESSAGE command is not allowed before SIGN"
+msgstr ""
+
+#: uiserver/signcommand.cpp:143
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignCommand::Private::slotRecipientsResolved: "
+"%1"
+msgstr ""
+
+#: uiserver/signcommand.cpp:147
+msgid ""
+"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
+msgstr ""
+
+#: uiserver/signencryptfilescommand.cpp:83
+#: uiserver/decryptverifycommandfilesbase.cpp:164
+msgid "At least one FILE must be present"
+msgstr ""
+
+#: uiserver/signencryptfilescommand.cpp:88
+#: uiserver/signencryptfilescommand.cpp:93
+#: uiserver/signencryptfilescommand.cpp:99
+#: uiserver/signencryptfilescommand.cpp:104
+#: uiserver/signencryptfilescommand.cpp:109
+#, kde-format
+msgid ""
+"%1 is a filemanager mode command, connection seems to be in email mode (%2 "
+"present)"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:89
+msgid ""
+"ENCRYPT is an email mode command, connection seems to be in filmanager mode"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:93
+msgid "SENDER may not be given prior to ENCRYPT, except with --info"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:101
+msgid "At least one OUTPUT must be present"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:109
+msgid "MESSAGE command is not allowed before ENCRYPT"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:118
+msgid "Protocol given conflicts with protocol determined by PREP_ENCRYPT"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:122
+msgid "New recipients added after PREP_ENCRYPT command"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:125
+msgid "New senders added after PREP_ENCRYPT command"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:131 uiserver/prepencryptcommand.cpp:93
+msgid "No recipients given, or only with --info"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:185
+#, kde-format
+msgid ""
+"Caught unexpected exception in "
+"EncryptCommand::Private::slotRecipientsResolved: %1"
+msgstr ""
+
+#: uiserver/encryptcommand.cpp:189
+msgid ""
+"Caught unknown exception in EncryptCommand::Private::slotRecipientsResolved"
+msgstr ""
+
+#: uiserver/prepencryptcommand.cpp:81
+msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_ENCRYPT"
+msgstr ""
+
+#: uiserver/prepencryptcommand.cpp:85
+msgid ""
+"PREP_ENCRYPT is an email mode command, connection seems to be in filemanager "
+"mode"
+msgstr ""
+
+#: uiserver/prepencryptcommand.cpp:89
+msgid "SENDER may not be given prior to PREP_ENCRYPT, except with --info"
+msgstr ""
+
+#: uiserver/prepencryptcommand.cpp:134
+#, kde-format
+msgid ""
+"Caught unexpected exception in "
+"PrepEncryptCommand::Private::slotRecipientsResolved: %1"
+msgstr ""
+
+#: uiserver/prepencryptcommand.cpp:138
+msgid ""
+"Caught unknown exception in "
+"PrepEncryptCommand::Private::slotRecipientsResolved"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:176
+msgid "No option name given"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:327
+msgid "Parse error"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:336
+msgid "Parse error: numeric session id too large"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:349
+msgid "CAPABILITIES does not take arguments"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:383
+msgid "Unknown value for WHAT"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:394
+msgid "START_KEYMANAGER does not take arguments"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:408
+msgid "START_CONFDIALOG does not take arguments"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:453
+#, kde-format
+msgid "Message #%1"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:464
+msgid "Empty file path"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:467
+#: uiserver/assuanserverconnection.cpp:520
+msgid "Only absolute file paths are allowed"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:469
+msgid "Only files are allowed in INPUT/OUTPUT FILE"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:534
+msgid "unknown exception caught"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:587
+msgid "Cannot mix --info with non-info SENDER or RECIPIENT"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:591
+msgid "Argument is not a valid RFC-2822 mailbox"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:594
+msgid "Garbage after valid RFC-2822 mailbox detected"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:623
+#: uiserver/assuanserverconnection.cpp:634
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The sender address <email>%1</email> matches more than one "
+"cryptographic format.</para><para>Which format do you want to use?</para>"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:625
+#: uiserver/assuanserverconnection.cpp:636
+msgctxt "@title"
+msgid "Format Choice"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:626
+#: uiserver/assuanserverconnection.cpp:637
+msgctxt "@action:button"
+msgid "Send OpenPGP-Signed"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:627
+#: uiserver/assuanserverconnection.cpp:638
+msgctxt "@action:button"
+msgid "Send S/MIME-Signed"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1009
+#, kde-format
+msgid "Caught unexpected exception: %1"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1013
+msgid ""
+"Caught unknown exception - please report this error to the developers."
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1139
+#, kde-format
+msgid "Can not send \"%1\" status"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1146
+msgid "Can not send data"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1149
+msgid "Can not flush data"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1318
+#: uiserver/assuanserverconnection.cpp:1364
+msgid "Caught unknown exception"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1385
+msgid "Required --mode option missing"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1392
+#, kde-format
+msgid "invalid mode: \"%1\""
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1413
+msgid "Required --protocol option missing"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1418
+msgid "--protocol is not allowed here"
+msgstr ""
+
+#: uiserver/assuanserverconnection.cpp:1425
+#, kde-format
+msgid "invalid protocol \"%1\""
+msgstr ""
+
+#: uiserver/uiserver.cpp:209
+msgid ""
+"Could not determine the GnuPG home directory. Consider setting the GNUPGHOME "
+"environment variable."
+msgstr ""
+
+#: uiserver/uiserver.cpp:219
+#, kde-format
+msgid ""
+"Cannot determine the GnuPG home directory: %1 exists but is not a directory."
+msgstr ""
+
+#: uiserver/uiserver.cpp:225
+#, kde-format
+msgid "Could not create GnuPG home directory %1: %2"
+msgstr ""
+
+#: uiserver/uiserver.cpp:237
+#, kde-format
+msgid "Detected another running gnupg UI server listening at %1."
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:145
+msgid "Can not use SENDER"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:149
+msgid "Can not use RECIPIENT"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:156
+msgid "INPUT present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:158
+msgid "MESSAGE present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:160
+msgid "OUTPUT present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:167
+msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
+msgstr ""
+
+#: systrayicon.cpp:195
+msgid "&Open Certificate Manager..."
+msgstr ""
+
+#: systrayicon.cpp:196
+#, kde-format
+msgid "&Configure %1..."
+msgstr ""
+
+#: systrayicon.cpp:197
+#, kde-format
+msgid "&About %1..."
+msgstr ""
+
+#: systrayicon.cpp:198
+msgid "&Shutdown Kleopatra"
+msgstr ""
+
+#: systrayicon.cpp:199 utils/output.cpp:365
+#: commands/importcertificatefromclipboardcommand.cpp:122
+msgid "Clipboard"
+msgstr ""
+
+#: systrayicon.cpp:200
+msgid "Certificate Import"
+msgstr ""
+
+#: systrayicon.cpp:201
+msgid "Encrypt..."
+msgstr ""
+
+#: systrayicon.cpp:202
+msgid "S/MIME-Sign..."
+msgstr ""
+
+#: systrayicon.cpp:203
+msgid "OpenPGP-Sign..."
+msgstr ""
+
+#: systrayicon.cpp:204 mainwindow.cpp:634
+msgid "Decrypt/Verify..."
+msgstr ""
+
+#: systrayicon.cpp:205
+msgid "SmartCard"
+msgstr ""
+
+#: systrayicon.cpp:206
+msgid "Set NetKey v3 Initial PIN..."
+msgstr ""
+
+#: systrayicon.cpp:207
+msgid "Learn NetKey v3 Card Certificates"
+msgstr ""
+
+#: conf/smimevalidationconfigurationwidget.cpp:131
+msgid "This option requires dirmngr >= 0.9.0"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:215
+#. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
+#: conf/smimevalidationconfigurationwidget.cpp:259 rc.cpp:161
+msgid "no proxy"
+msgstr ""
+
+#: conf/smimevalidationconfigurationwidget.cpp:260
+#, kde-format
+msgid "(Current system setting: %1)"
+msgstr ""
+
+#: conf/appearanceconfigwidget.cpp:145
+msgctxt "Key filter without user-assigned name"
+msgid "<unnamed>"
+msgstr ""
+
+#: conf/appearanceconfigwidget.cpp:277
+msgid "This parameter has been locked down by the system administrator."
+msgstr ""
+
+#: conf/dirservconfigpage.cpp:171
+msgid "LDAP &timeout (minutes:seconds):"
+msgstr "LDAP म्याद समाप्त (मिनेट:सकेन्ड):"
+
+#: conf/dirservconfigpage.cpp:181
+msgid "&Maximum number of items returned by query:"
+msgstr "क्वेरीद्वारा फिर्ता गरिएका वस्तुको अधिकतम सङ्ख्या"
+
+#: conf/dirservconfigpage.cpp:191
+msgid "Automatically add &new servers discovered in CRL distribution points"
+msgstr "CRL वितरण बिन्दुमा पत्ता लगाइएका नयाँ सर्भर स्वत: थप्नुहोस्"
+
+#: conf/dirservconfigpage.cpp:385
+#, kde-format
+msgid "Backend error: gpgconf does not seem to know the entry for %1/%2/%3"
+msgstr ""
+"ब्याकइन्ड त्रुटि: %1/%2/%3 का लागि प्रविष्टि पहिचान गर्न gpgconf नसक्ने "
+"देखिन्छ"
+
+#: conf/dirservconfigpage.cpp:390
+#, kde-format
+msgid "Backend error: gpgconf has wrong type for %1/%2/%3: %4 %5"
+msgstr "ब्याकइन्ड त्रुटि: %1/%2/%3: %4 %5 का लागि gpgconf सँग गलत प्रकार छ"
+
+#: conf/configuredialog.cpp:52
+msgid "Configure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#: utils/input.cpp:155
+#, kde-format
+msgid "Could not open FD %1 for reading"
+msgstr ""
+
+#: utils/input.cpp:184 utils/input.cpp:200
+#, kde-format
+msgid "Could not open file \"%1\" for reading"
+msgstr ""
+
+#: utils/input.cpp:197
+#, kde-format
+msgid "File \"%1\" is already open, but not for reading"
+msgstr ""
+
+#: utils/input.cpp:234
+#, kde-format
+msgid "Could not start %1 process: %2"
+msgstr ""
+
+#: utils/input.cpp:243
+#, kde-format
+msgctxt "e.g. \"Output of tar xf - file1 ...\""
+msgid "Output of %1 ..."
+msgstr ""
+
+#: utils/input.cpp:245
+#, kde-format
+msgctxt "e.g. \"Output of tar xf - file\""
+msgid "Output of %1"
+msgstr ""
+
+#: utils/input.cpp:267
+msgid "Could not open clipboard for reading"
+msgstr ""
+
+#: utils/input.cpp:277
+msgid "Clipboard contents"
+msgstr ""
+
+#: utils/input.cpp:279
+msgid "FindBuffer contents"
+msgstr ""
+
+#: utils/input.cpp:281
+msgid "Current selection"
+msgstr ""
+
+#: utils/output.cpp:252
+#, kde-format
+msgid "Could not open FD %1 for writing"
+msgstr ""
+
+#: utils/output.cpp:277
+#, kde-format
+msgid "Could not create temporary file for output \"%1\""
+msgstr ""
+
+#: utils/output.cpp:283
+#, kde-format
+msgid ""
+"The file <b>%1</b> already exists.\n"
+"Overwrite?"
+msgstr ""
+
+#: utils/output.cpp:285
+msgid "Overwrite Existing File?"
+msgstr ""
+
+#: utils/output.cpp:287
+msgid "Overwrite All"
+msgstr ""
+
+#: utils/output.cpp:325
+msgid "Overwriting declined"
+msgstr ""
+
+#: utils/output.cpp:331
+#, kde-format
+msgid "Could not remove file \"%1\" for overwriting."
+msgstr ""
+
+#: utils/output.cpp:343
+#, kde-format
+msgid "Could not rename file \"%1\" to \"%2\""
+msgstr ""
+
+#: utils/output.cpp:359
+msgid "Could not write to clipboard"
+msgstr ""
+
+#: utils/output.cpp:367
+msgid "Find buffer"
+msgstr ""
+
+#: utils/output.cpp:369
+msgid "Selection"
+msgstr ""
+
+#: utils/output.cpp:381
+msgid "Could not find clipboard"
+msgstr ""
+
+#: utils/hex.cpp:55
+#, kde-format
+msgid "Invalid hex char '%1' in input stream."
+msgstr ""
+
+#: utils/hex.cpp:68 utils/hex.cpp:73
+msgid "Premature end of hex-encoded char in input stream"
+msgstr ""
+
+#: utils/log.cpp:157
+#, kde-format
+msgid "Log Error: Could not open log file \"%1\" for writing."
+msgstr ""
+
+#: utils/archivedefinition.cpp:71
+#, kde-format
+msgid "Error in archive definition %1: %2"
+msgstr ""
+
+#: utils/archivedefinition.cpp:89
+msgid "'extensions' entry is empty/missing"
+msgstr ""
+
+#: utils/archivedefinition.cpp:93
+msgid "'command' entry is empty/missing"
+msgstr ""
+
+#: utils/archivedefinition.cpp:130
+#, kde-format
+msgid ""
+"Cannot find common base directory for these files:\n"
+"%1"
+msgstr ""
+
+#: utils/formatting.cpp:205 utils/formatting.cpp:208
+#, kde-format
+msgid "<tr><th>%1:</th><td>%2</td></tr>"
+msgstr ""
+
+#: utils/formatting.cpp:217
+#, kde-format
+msgid "%1-bit %2 (secret certificate available)"
+msgstr ""
+
+#: utils/formatting.cpp:219
+#, kde-format
+msgid "%1-bit %2"
+msgstr ""
+
+#: utils/formatting.cpp:226
+msgid "Signing EMails and Files (Qualified)"
+msgstr ""
+
+#: utils/formatting.cpp:228
+msgid "Signing EMails and Files"
+msgstr ""
+
+#: utils/formatting.cpp:231
+msgid "Encrypting EMails and Files"
+msgstr ""
+
+#: utils/formatting.cpp:233
+msgid "Certifying other Certificates"
+msgstr ""
+
+#: utils/formatting.cpp:235
+msgid "Authenticate against Servers"
+msgstr ""
+
+#: utils/formatting.cpp:236
+msgid ", "
+msgstr ""
+
+#: utils/formatting.cpp:261
+msgid "This certificate has been revoked."
+msgstr ""
+
+#: utils/formatting.cpp:263
+msgid "This certificate has expired."
+msgstr ""
+
+#: utils/formatting.cpp:265
+msgid "This certificate has been disabled locally."
+msgstr ""
+
+#: utils/formatting.cpp:267
+msgid "This certificate is currently valid."
+msgstr ""
+
+#: utils/formatting.cpp:269
+msgid "The validity of this certificate cannot be checked at the moment."
+msgstr ""
+
+#: utils/formatting.cpp:277
+msgid "Serial number"
+msgstr ""
+
+#: utils/formatting.cpp:279
+msgid "Issuer"
+msgstr "वितरक"
+
+#: utils/formatting.cpp:285
+msgid "Subject"
+msgstr "वस्तु"
+
+#: utils/formatting.cpp:286
+msgid "User-ID"
+msgstr ""
+
+#: utils/formatting.cpp:290
+msgid "a.k.a."
+msgstr ""
+
+#: utils/formatting.cpp:293
+msgid "Validity"
+msgstr ""
+
+#: utils/formatting.cpp:295
+#, kde-format
+msgid "from %1 until forever"
+msgstr ""
+
+#: utils/formatting.cpp:296
+#, kde-format
+msgid "from %1 through %2"
+msgstr ""
+
+#: utils/formatting.cpp:298
+msgid "Certificate type"
+msgstr ""
+
+#: utils/formatting.cpp:300
+msgid "Certificate usage"
+msgstr ""
+
+#: utils/formatting.cpp:393
+msgctxt "X.509/CMS encryption standard"
+msgid "X.509"
+msgstr ""
+
+#: utils/formatting.cpp:395 crypto/gui/resolverecipientspage.cpp:431
+msgid "OpenPGP"
+msgstr ""
+
+#: utils/formatting.cpp:396
+msgctxt "Unknown encryption protocol"
+msgid "Unknown"
+msgstr ""
+
+#: utils/formatting.cpp:414 utils/formatting.cpp:445
+msgctxt "unknown trust level"
+msgid "unknown"
+msgstr ""
+
+#: utils/formatting.cpp:415 utils/formatting.cpp:447
+msgid "untrusted"
+msgstr ""
+
+#: utils/formatting.cpp:416 utils/formatting.cpp:448
+msgctxt "marginal trust"
+msgid "marginal"
+msgstr ""
+
+#: utils/formatting.cpp:417 utils/formatting.cpp:449
+msgctxt "full trust"
+msgid "full"
+msgstr ""
+
+#: utils/formatting.cpp:418 utils/formatting.cpp:450
+msgctxt "ultimate trust"
+msgid "ultimate"
+msgstr ""
+
+#: utils/formatting.cpp:419 utils/formatting.cpp:446
+msgctxt "undefined trust"
+msgid "undefined"
+msgstr ""
+
+#: utils/formatting.cpp:436
+msgctxt "as in good/valid signature"
+msgid "good"
+msgstr ""
+
+#: utils/formatting.cpp:460
+#, kde-format
+msgid "class %1"
+msgstr ""
+
+#: utils/formatting.cpp:462
+msgctxt "good/valid signature"
+msgid "good"
+msgstr ""
+
+#: utils/formatting.cpp:468
+msgid "certificate expired"
+msgstr ""
+
+#: utils/formatting.cpp:469
+msgctxt "fake/invalid signature"
+msgid "bad"
+msgstr ""
+
+#: utils/formatting.cpp:486
+#, kde-format
+msgctxt "name, email, key id"
+msgid "%1 %2 (%3)"
+msgstr ""
+
+#: utils/formatting.cpp:528
+#, kde-format
+msgid "Bad signature by unknown certificate %1: %2"
+msgstr ""
+
+#: utils/formatting.cpp:530
+#, kde-format
+msgid "Bad signature by an unknown certificate: %1"
+msgstr ""
+
+#: utils/formatting.cpp:532
+#, kde-format
+msgid "Bad signature by %1: %2"
+msgstr ""
+
+#: utils/formatting.cpp:537
+#, kde-format
+msgid "Good signature by unknown certificate %1."
+msgstr ""
+
+#: utils/formatting.cpp:539
+msgid "Good signature by an unknown certificate."
+msgstr ""
+
+#: utils/formatting.cpp:541
+#, kde-format
+msgid "Good signature by %1."
+msgstr ""
+
+#: utils/formatting.cpp:546
+#, kde-format
+msgid "Invalid signature by unknown certificate %1: %2"
+msgstr ""
+
+#: utils/formatting.cpp:548
+#, kde-format
+msgid "Invalid signature by an unknown certificate: %1"
+msgstr ""
+
+#: utils/formatting.cpp:550
+#, kde-format
+msgid "Invalid signature by %1: %2"
+msgstr ""
+
+#: utils/formatting.cpp:563
+msgid "This certificate was imported from the following sources:"
+msgstr ""
+
+#: utils/formatting.cpp:573
+msgid "The import of this certificate was canceled."
+msgstr ""
+
+#: utils/formatting.cpp:575
+#, kde-format
+msgid "An error occurred importing this certificate: %1"
+msgstr ""
+
+#: utils/formatting.cpp:581
+msgid ""
+"This certificate was new to your keystore. The secret key is available."
+msgstr ""
+
+#: utils/formatting.cpp:582
+msgid "This certificate is new to your keystore."
+msgstr ""
+
+#: utils/formatting.cpp:586
+msgid "New user-ids were added to this certificate by the import."
+msgstr ""
+
+#: utils/formatting.cpp:588
+msgid "New signatures were added to this certificate by the import."
+msgstr ""
+
+#: utils/formatting.cpp:590
+msgid "New subkeys were added to this certificate by the import."
+msgstr ""
+
+#: utils/formatting.cpp:593
+msgid ""
+"The import contained no new data for this certificate. It is unchanged."
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:263 utils/kleo_kicondialog.cpp:275
+msgid "Select Icon"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:296
+msgid "Icon Source"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:306
+msgid "S&ystem icons:"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:312
+msgid "O&ther icons:"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:315
+msgid "&Browse..."
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:327
+msgid "&Search:"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:334
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:34
+#. i18n: ectx: property (title), widget (QGroupBox, overviewActionsGB)
+#: utils/kleo_kicondialog.cpp:355 rc.cpp:636
+msgid "Actions"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:356
+msgid "Animations"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:357
+msgid "Applications"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:358
+msgid "Categories"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:359
+msgid "Devices"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:360
+msgid "Emblems"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:361
+msgid "Emotes"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:362
+msgid "Filesystems"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:363
+msgid "International"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:364
+msgid "Mimetypes"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:365
+msgid "Places"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:568
+msgid "Open"
+msgstr ""
+
+#: utils/kleo_kicondialog.cpp:568
+msgid "Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr ""
+
+#: utils/path-helper.cpp:102
+#, kde-format
+msgid "Cannot remove directory %1"
+msgstr ""
+
+#: utils/path-helper.cpp:106
+#, kde-format
+msgid "Cannot remove file %1: %2"
+msgstr ""
+
+#: aboutdata.cpp:53
+msgid "Certificate Manager and Unified Crypto GUI"
+msgstr ""
+
+#: aboutdata.cpp:63
+msgid "Current Maintainer"
+msgstr "हालको मर्मतकर्ता"
+
+#: aboutdata.cpp:64
+msgid "Former Maintainer"
+msgstr "अघिल्लो मर्मतकर्ता"
+
+#: aboutdata.cpp:65 kwatchgnupg/aboutdata.cpp:50
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: aboutdata.cpp:70
+msgid "David Faure"
+msgstr "डेभिड फाउर"
+
+#: aboutdata.cpp:71
+msgid "Backend configuration framework, KIO integration"
+msgstr "ब्याकइन्ड कन्फिगरेसन कार्यढाँचा,  KIO इन्टिग्रेसन"
+
+#: aboutdata.cpp:73
+msgid "Michel Boyer de la Giroday"
+msgstr "माइकल बोयर डे ला गिरोडे"
+
+#: aboutdata.cpp:74
+msgid "Key-state dependent colors and fonts in the certificates list"
+msgstr ""
+
+#: aboutdata.cpp:76
+msgid "Thomas Moenicke"
+msgstr ""
+
+#: aboutdata.cpp:77
+msgid "Artwork"
+msgstr ""
+
+#: aboutdata.cpp:79
+msgid "Frank Osterfeld"
+msgstr ""
+
+#: aboutdata.cpp:80
+msgid "Resident gpgme/win wrangler, UI Server commands and dialogs"
+msgstr ""
+
+#: aboutdata.cpp:82
+msgid "Karl-Heinz Zimmer"
+msgstr "कार्ल हेन्ज जिमर"
+
+#: aboutdata.cpp:83
+msgid "DN display ordering support, infrastructure"
+msgstr "DN प्रदर्शन क्रमाङ्कन समर्थन, पूर्वाधार"
+
+#: aboutdata.cpp:89
+msgid "Kleopatra"
+msgstr "Kleopatra"
+
+#: aboutdata.cpp:91
+msgid ""
+"(c) 2002 Steffen Hansen, Matthias Kalle Dalheimer, "
+"Klarälvdalens Datakonsult AB\n"
+"(c) 2004, 2007, 2008, 2009 Marc Mutz, Klarälvdalens Datakonsult AB"
+msgstr ""
+
+#: aboutdata.cpp:105
+msgid ""
+"Gpg4win is an installer package for Windows for EMail and file encryption "
+"using the core component GnuPG for Windows. Both relevant cryptography "
+"standards are supported, OpenPGP and S/MIME. Gpg4win and the software "
+"included with Gpg4win are Free Software."
+msgstr ""
+
+#: aboutdata.cpp:120 aboutdata.cpp:127
+msgctxt "Version string is a guess"
+msgid "guessed"
+msgstr ""
+
+#: aboutdata.cpp:143
+msgid "Gpg4win"
+msgstr ""
+
+#: aboutdata.cpp:147
+msgid "Intevation GmbH (Project Management)"
+msgstr ""
+
+#: aboutdata.cpp:148
+msgid "g¹ºcode GmbH (Crypto Functionality, GpgOL, GpgEX, GPA)"
+msgstr ""
+
+#: aboutdata.cpp:149
+msgid "KDAB (Kleopatra)"
+msgstr ""
+
+#: aboutdata.cpp:150 aboutdata.cpp:151
+msgid "Gpg4win is being developed by the following companies:"
+msgstr ""
+
+#: crypto/signemailtask.cpp:83 crypto/signencryptfilestask.cpp:132
+msgid "Signing canceled."
+msgstr ""
+
+#: crypto/signemailtask.cpp:86
+#, kde-format
+msgid "Signing failed: %1"
+msgstr ""
+
+#: crypto/signemailtask.cpp:88 crypto/signencryptfilestask.cpp:136
+msgid "Signing succeeded."
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:83
+msgid "Status and progress of the crypto operations is shown here."
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:162
+#: crypto/decryptverifyfilescontroller.cpp:181
+msgid "User canceled"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:250
+msgid "Decrypt/Verify E-Mail"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:272
+msgid "At least one input needs to be provided"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:276
+msgid "Informative sender/signed data count mismatch"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:281
+msgid "Signature/signed data count mismatch"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:284
+msgid "Signed data can only be given for detached signature verification"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:290
+msgid "Input/Output count mismatch"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:293
+msgid "Cannot use output and signed data simultaneously"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:300
+#, kde-format
+msgid "No backend support for %1"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:167
+msgid "Error: Signature not verified"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:169
+msgid "Good signature"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:171
+msgid "Bad signature"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:173
+msgid "Signing certificate revoked"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:175
+msgid "Signing certificate expired"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:177
+msgid "No public certificate to verify the signature"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:179
+msgid "Signature expired"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:181
+msgid "Certificate missing"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:183
+msgid "CRL missing"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:185
+msgid "CRL too old"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:187
+msgid "Bad policy"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:189
+msgid "System error"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:198
+msgid ""
+"The signature is valid but the trust in the certificate's validity is only "
+"marginal."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:200
+msgid ""
+"The signature is valid and the certificate's validity is fully trusted."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:202
+msgid ""
+"The signature is valid and the certificate's validity is ultimately trusted."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:204
+msgid ""
+"The signature is valid but the certificate's validity is <em>not "
+"trusted</em>."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:206
+msgid "The signature is valid but the certificate's validity is unknown."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:209
+msgid "The signature is valid but the certificate's validity is undefined."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:225 crypto/decryptverifytask.cpp:231
+msgid "Unknown certificate"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:250
+#, kde-format
+msgid "Signed on %1 with unknown certificate %2."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:252
+#, kde-format
+msgid "Signed with unknown certificate %1."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:257
+#, kde-format
+msgctxt "date, key owner, key ID"
+msgid "Signed on %1 by %2 (Key ID: %3)."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:262
+#, kde-format
+msgid "Signed by %1 with certificate %2."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:265
+#, kde-format
+msgid "Signed on %1 with certificate %2."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:266
+#, kde-format
+msgid "Signed with certificate %1."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:277 crypto/signencryptfilestask.cpp:72
+#, kde-format
+msgctxt "Input file --> Output file (rarr is arrow"
+msgid "%1 &rarr; %2"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:347
+msgid "<b>Verification canceled.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:349
+#, kde-format
+msgid "<b>Verification failed: %1.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:355
+msgid "<b>No signatures found.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:359
+#, kde-format
+msgid "<b>Invalid signature.</b>"
+msgid_plural "<b>%1 invalid signatures.</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/decryptverifytask.cpp:363
+#, kde-format
+msgid "<b>Not enough information to check signature validity.</b>"
+msgid_plural "<b>%1 signatures could not be verified.</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/decryptverifytask.cpp:370
+msgid "<b>Signature is valid.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:371
+#, kde-format
+msgid "<b>Signed by %1</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:374
+msgid "certificate"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:373
+#, kde-format
+msgid ""
+"<br/><b>Warning:</b> The sender's mail address is not stored in the %1 used "
+"for signing."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:377
+#, kde-format
+msgid "<b>Valid signature.</b>"
+msgid_plural "<b>%1 valid signatures.</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/decryptverifytask.cpp:379
+msgid ""
+"<br/><b>Warning:</b> The sender's mail address is not stored in the "
+"certificates used for signing."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:390
+msgid "<b>Decryption canceled.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:392
+#, kde-format
+msgid "<b>Decryption failed: %1.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:393
+msgid "<b>Decryption succeeded.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:408
+msgid "The signature is bad."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:410
+msgid "The validity of the signature cannot be verified."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:411
+#, kde-format
+msgid "The signature is invalid: %1"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:430
+msgctxt "separator for a list of e-mail addresses"
+msgid ", "
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:430
+#, kde-format
+msgid ""
+"<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:440
+#, kde-format
+msgid "One unknown recipient."
+msgid_plural "%1 unknown recipients."
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/decryptverifytask.cpp:444
+msgid "Recipient:"
+msgid_plural "Recipients:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/decryptverifytask.cpp:452
+#, kde-format
+msgid "One unknown recipient"
+msgid_plural "%1 unknown recipients"
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/decryptverifytask.cpp:667
+#, kde-format
+msgctxt "label: result example: foo.sig: Verification failed. "
+msgid "%1: %2"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:829 crypto/decryptverifytask.cpp:958
+#, kde-format
+msgid "Decrypting: %1..."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1089
+#, kde-format
+msgid "Verifying: %1..."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1216
+#, kde-format
+msgid "Verifying signature: %1..."
+msgstr ""
+
+#: crypto/signemailcontroller.cpp:179
+#: crypto/signencryptfilescontroller.cpp:276
+#: crypto/encryptemailcontroller.cpp:168
+msgid "User cancel"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:142
+msgid "Archive and Sign Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:144
+#: crypto/gui/signencryptfileswizard.cpp:132
+msgid "Sign Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:149
+msgid "Archive and Encrypt Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:151
+#: crypto/gui/signencryptfileswizard.cpp:133
+msgid "Encrypt Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:155
+msgid "Archive and Sign/Encrypt Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:157
+#: crypto/gui/signencryptfileswizard.cpp:131
+msgid "Sign/Encrypt Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:472
+#, kde-format
+msgid ""
+"Caught unexpected exception in "
+"SignEncryptFilesController::Private::slotWizardOperationPrepared: %1"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:476
+msgid ""
+"Caught unknown exception in "
+"SignEncryptFilesController::Private::slotWizardOperationPrepared"
+msgstr ""
+
+#: crypto/encryptemailtask.cpp:84 crypto/signencryptfilestask.cpp:145
+msgid "Encryption canceled."
+msgstr ""
+
+#: crypto/encryptemailtask.cpp:87
+#, kde-format
+msgid "Encryption failed: %1"
+msgstr ""
+
+#: crypto/encryptemailtask.cpp:89 crypto/signencryptfilestask.cpp:150
+msgid "Encryption succeeded."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:136
+msgctxt "@title:window"
+msgid "Selected Files"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:215
+msgid "No files selected."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:216
+msgid "Selected file:"
+msgid_plural "Selected files:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:219
+msgctxt "@action"
+msgid "More..."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:340
+msgid "Archive files with:"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:342
+msgid "Archive name:"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:344
+msgid "Sign and Encrypt (OpenPGP only)"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:345
+#: newcertificatewizard/newcertificatewizard.cpp:1195
+#: newcertificatewizard/newcertificatewizard.cpp:1219
+msgid "Encrypt"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:346
+#: newcertificatewizard/newcertificatewizard.cpp:1193
+msgid "Sign"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:347
+#: crypto/gui/signerresolvepage.cpp:301
+msgid "Text output (ASCII armor)"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:348
+#: crypto/gui/signerresolvepage.cpp:304
+msgid "Remove unencrypted original file when done"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:351
+msgctxt "@title"
+msgid "What do you want to do?"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:353
+msgctxt "@title"
+msgid "Please select here whether you want to sign or encrypt files."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:434
+msgctxt "base name of an archive file, e.g. archive.zip or archive.tar.gz"
+msgid "archive"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:448
+msgid "This operation is not available for S/MIME"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:493
+msgid "Add"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:494
+msgid "Remove"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:497
+msgctxt "@title"
+msgid "For whom do you want to encrypt?"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:499
+msgctxt "@title"
+msgid ""
+"Please select for whom you want the files to be encrypted. Do not forget to "
+"pick one of your own certificates."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:502
+msgctxt "@action"
+msgid "Encrypt"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:596
+msgctxt "@info"
+msgid ""
+"<para>None of the recipients you are encrypting to seems to be your "
+"own.</para><para>This means that you will not be able to decrypt the data "
+"anymore, once encrypted.</para><para>Do you want to continue, or cancel to "
+"change the recipient selection?</para>"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:599
+#: crypto/gui/newsignencryptfileswizard.cpp:610
+msgctxt "@title:window"
+msgid "Encrypt-To-Self Warning"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:608
+msgctxt "@info"
+msgid ""
+"<para>You have requested the unencrypted data to be removed after "
+"encryption.</para><para>Are you really sure you do not need to access the "
+"data anymore in decrypted form?</para>"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:659
+msgid "Sign with OpenPGP"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:660
+msgid "Sign with S/MIME"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:663
+msgctxt "@title"
+msgid "Who do you want to sign as?"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:665
+msgctxt "@title"
+msgid "Please choose an identity with which to sign the data."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:740
+msgctxt "@action"
+msgid "Sign"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:759
+msgctxt "@action"
+msgid "Sign && Encrypt"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:806
+msgctxt "@title"
+msgid "Results"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:808
+msgctxt "@title"
+msgid "Status and progress of the crypto operations is shown here."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:84
+msgid ""
+"You need to select an OpenPGP signing certificate to perform this operation."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:87
+msgid "You need to select at least one signing certificate to proceed."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:90
+msgid ""
+"Only OpenPGP certificates will be offered for selection because you "
+"specified a combined sign/encrypt operation that is only available for "
+"OpenPGP."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:93
+msgid ""
+"Only OpenPGP certificates will be offered for selection because you only "
+"specified an OpenPGP signing certificate."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:96
+msgid ""
+"Only S/MIME certificates will be offered for selection because you only "
+"specified an S/MIME signing certificate."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:102
+msgid ""
+"You have selected both OpenPGP and S/MIME signing certificate types, thus "
+"two signatures will be created."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:106
+msgid ""
+"If you select both OpenPGP and S/MIME receipient certificates, two encrypted "
+"files will be created: one for OpenPGP recipients, one for S/MIME recipients."
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:101 crypto/gui/resultpage.cpp:104
+msgid "Keep open after operation completed"
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:133 crypto/gui/resultpage.cpp:131
+#, kde-format
+msgid "%1: All operations completed."
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:135 crypto/gui/resultpage.cpp:133
+msgid "All operations completed."
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:158 crypto/gui/resultlistwidget.cpp:223
+#: crypto/gui/resultpage.cpp:149
+#, kde-format
+msgctxt "number, operation description"
+msgid "Operation %1: %2"
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:160 crypto/gui/resultpage.cpp:151
+#, kde-format
+msgctxt "tag( \"OpenPGP\" or \"CMS\"),  operation description"
+msgid "%1: %2"
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:165 crypto/gui/resultpage.cpp:156
+msgid "<b>Results</b>"
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:82
+msgid "You need to select a signing certificate to proceed."
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:88
+#, kde-format
+msgid "You need to select an %1 signing certificate to proceed."
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:90
+#, kde-format
+msgid "You need to select %1 and %2 signing certificates to proceed."
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:118
+msgid "Sign Mail Message"
+msgstr ""
+
+#: crypto/gui/objectspage.cpp:77
+msgid "<b>Objects</b>"
+msgstr ""
+
+#: crypto/gui/objectspage.cpp:87 crypto/gui/resolverecipientspage.cpp:420
+msgid "Remove Selected"
+msgstr ""
+
+#: crypto/gui/objectspage.cpp:99
+msgid "Select File"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:203
+msgid "<i>No certificate selected</i>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:210
+msgid "..."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:401
+msgid "<b>Recipients</b>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:416
+msgid "Add Recipient..."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:435
+msgid "S/MIME"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:450
+msgid ""
+"<b>Warning:</b> None of the selected certificates seem to be your own. You "
+"will not be able to decrypt the encrypted data again."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:567
+msgid "Recipient"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:569
+#, kde-format
+msgctxt "%1 == number"
+msgid "Recipient (%1)"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:602
+#, kde-format
+msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:612
+msgid "Sender"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:85
+msgid "No certificate selected"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:84
+#, kde-format
+msgctxt "%1=protocol (S/Mime, OpenPGP), %2=certificate"
+msgid "Sign using %1: %2"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:282
+msgid "Sign and encrypt (OpenPGP only)"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:288
+msgid "Encrypt only"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:293
+msgid "Sign only"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:298
+msgid "Encryption Options"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:310
+msgid "Signing Options"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:315
+msgid "Signer:"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:330
+msgid "Change Signing Certificates..."
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:489
+msgid "<b>Choose Operation to be Performed</b>"
+msgstr ""
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:79
+msgid "Input file:"
+msgstr ""
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:83
+msgid "&Input file is a detached signature"
+msgstr ""
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:84
+msgid "&Signed data:"
+msgstr ""
+
+#: crypto/gui/wizard.cpp:99
+msgid "&Next"
+msgstr ""
+
+#: crypto/gui/wizard.cpp:137
+msgid "Back"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:207
+msgid "<b>Choose operations to be performed</b>"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:208
+msgid ""
+"Here you can check and, if needed, override the operations Kleopatra "
+"detected for the input given."
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:211
+msgid "&Decrypt/Verify"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:217
+msgid "Create all output files in a single folder"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:218
+msgid "&Output folder:"
+msgstr ""
+
+#: crypto/gui/encryptemailwizard.cpp:52
+msgid "Encrypt Mail Message"
+msgstr ""
+
+#: crypto/gui/signingcertificateselectiondialog.cpp:49
+msgid "Select Signing Certificates"
+msgstr ""
+
+#: crypto/gui/resultitemwidget.cpp:93
+msgid "Show Audit Log"
+msgstr ""
+
+#: crypto/gui/resultitemwidget.cpp:93
+msgid "No Audit Log available"
+msgstr ""
+
+#: crypto/gui/resultitemwidget.cpp:94
+msgid "Hide Details"
+msgstr ""
+
+#: crypto/gui/resultitemwidget.cpp:94
+msgid "Show Details"
+msgstr ""
+
+#: crypto/task.cpp:167
+msgid "Unknown exception in Task::start()"
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:135
+msgid "Signing failed."
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:148
+msgid "Encryption failed."
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:169
+msgid "Signing and encryption succeeded."
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:183
+msgid " Encryption succeeded."
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:195
+#, kde-format
+msgid "%1: <b>Sign/encrypt canceled.</b>"
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:195
+#, kde-format
+msgid " %1: Sign/encrypt failed."
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:196
+#, kde-format
+msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
+msgid "%1: <b>%2</b>"
+msgstr ""
+
+#: crypto/signencryptfilestask.cpp:340
+msgid "Cannot determine protocol for task"
+msgstr ""
+
+#: crypto/encryptemailcontroller.cpp:149
+msgid "Call to EncryptEMailController::protocolAsString() is ambiguous."
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:170
+#, kde-format
+msgid ""
+"Caught unexpected exception in "
+"DecryptVerifyFilesController::Private::slotWizardOperationPrepared: %1"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:174
+msgid ""
+"Caught unknown exception in "
+"DecryptVerifyFilesController::Private::slotWizardOperationPrepared"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:225
+msgid "Decrypt/Verify Files"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:306
+msgid "No usable inputs found"
+msgstr ""
+
+#: kwatchgnupg/aboutdata.cpp:40
+msgid "GnuPG log viewer"
+msgstr ""
+
+#: kwatchgnupg/aboutdata.cpp:50
+msgid "Steffen Hansen"
+msgstr ""
+
+#: kwatchgnupg/aboutdata.cpp:61
+msgid "KWatchGnuPG"
+msgstr ""
+
+#: kwatchgnupg/aboutdata.cpp:63
+msgid "(c) 2004 Klarälvdalens Datakonsult AB\n"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:75
+msgid "Configure KWatchGnuPG"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:90
+msgid "WatchGnuPG"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:102
+msgid "&Executable:"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:111
+msgid "&Socket:"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:120
+msgid "None"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:121
+msgid "Basic"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:122
+msgid "Advanced"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:123
+msgid "Expert"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:124
+msgid "Guru"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:125
+msgid "Default &log level:"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:133
+msgid "Log Window"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:146
+msgctxt "history size spinbox suffix"
+msgid " line"
+msgid_plural " lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:147
+msgid "unlimited"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:148
+msgid "&History size:"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:152
+msgid "Set &Unlimited"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:159
+msgid "Enable &word wrapping"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:103
+#, kde-format
+msgid "[%1] Log cleared"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:110
+msgid "C&lear History"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:141
+#, kde-format
+msgid "[%1] Log stopped"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:156
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please install watchgnupg somewhere in your $PATH.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:158
+#, kde-format
+msgid "[%1] Log started"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:193
+msgid "There are no components available that support logging."
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:199
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:199
+msgid "Try Restart"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:199
+msgid "Do Not Try"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:200
+msgid "====== Restarting logging process ====="
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:203
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:234
+msgid "Save Log to File"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:239
+#, kde-format
+msgid ""
+"The file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:242
+msgid "Overwrite File"
+msgstr ""
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:249
+#, kde-format
+msgid "Could not save file %1: %2"
+msgstr ""
+
+#: kwatchgnupg/tray.cpp:57
+msgid "KWatchGnuPG Log Viewer"
+msgstr ""
+
+#: crlview.cpp:61
+msgid "CRL cache dump:"
+msgstr "CRL क्यास डम्प गर्नुहोस्:"
+
+#: crlview.cpp:71
+msgid "&Update"
+msgstr "अद्यावधिक गर्नुहोस्"
+
+#: crlview.cpp:117
+msgid "Unable to start gpgsm process. Please check your installation."
+msgstr ""
+"gpgsm प्रक्रिया सुरुआत गर्न असमर्थ । कृपया तपाईँको स्थापना जाँच गर्नुहोस् ।"
+
+#: crlview.cpp:117 crlview.cpp:145
+msgid "Certificate Manager Error"
+msgstr "प्रमाणपत्र प्रबन्धक त्रुटि"
+
+#: crlview.cpp:145
+msgid "The GpgSM process ended prematurely because of an unexpected error."
+msgstr "अनपेक्षित त्रुटिका कारणले असमायिक रूपमा GpgSM प्रक्रिया अन्त्य भयो ।"
+
+#: main.cpp:131
+msgid "Performing Self-Check..."
+msgstr ""
+
+#: main.cpp:142
+msgctxt "did not pass"
+msgid "Self-Check Failed"
+msgstr ""
+
+#: main.cpp:145
+msgid "Self-Check Passed"
+msgstr ""
+
+#: main.cpp:160
+msgid "Loading certificate cache..."
+msgstr ""
+
+#: main.cpp:163
+msgid "Certificate cache loaded."
+msgstr ""
+
+#: main.cpp:194
+msgctxt "@info"
+msgid ""
+"<para>The version of the <application>GpgME</application> library you are "
+"running against is older than the one that the "
+"<application>GpgME++</application> library was built "
+"against.</para><para><application>Kleopatra</application> will not function "
+"in this setting.</para><para>Please ask your administrator for help in "
+"resolving this issue.</para>"
+msgstr ""
+
+#: main.cpp:198
+msgctxt "@title"
+msgid "GpgME Too Old"
+msgstr ""
+
+#: main.cpp:273
+msgid "GPG UI Server Error"
+msgstr ""
+
+#: main.cpp:274
+#, kde-format
+msgid ""
+"<qt>The Kleopatra GPG UI Server Module could not be initialized.<br/>The "
+"error given was: <b>%1</b><br/>You can use Kleopatra as a certificate "
+"manager, but cryptographic plugins that rely on a GPG UI Server being "
+"present might not work correctly, or at all.</qt>"
+msgstr ""
+
+#: commands/dumpcrlcachecommand.cpp:87 commands/dumpcertificatecommand.cpp:90
+msgctxt "@action:button Update the log text widget"
+msgid "&Update"
+msgstr ""
+
+#: commands/dumpcrlcachecommand.cpp:226
+msgid "CRL Cache Dump"
+msgstr ""
+
+#: commands/dumpcrlcachecommand.cpp:246
+#: commands/dumpcertificatecommand.cpp:285
+msgid "Unable to start process gpgsm. Please check your installation."
+msgstr ""
+
+#: commands/dumpcrlcachecommand.cpp:248 commands/dumpcrlcachecommand.cpp:271
+#: commands/dumpcrlcachecommand.cpp:276
+msgid "Dump CRL Cache Error"
+msgstr ""
+
+#: commands/dumpcrlcachecommand.cpp:268
+msgid ""
+"The GpgSM process that tried to dump the CRL cache ended prematurely because "
+"of an unexpected error. Please check the output of gpgsm --call-dirmngr "
+"listcrls for details."
+msgstr ""
+
+#: commands/dumpcrlcachecommand.cpp:274
+#, kde-format
+msgid ""
+"An error occurred while trying to dump the CRL cache. The output from GpgSM "
+"was:\n"
+"%1"
+msgstr ""
+
+#: commands/certifycertificatecommand.cpp:183
+msgid ""
+"To certify other certificates, you first need to create an OpenPGP "
+"certificate for yourself. Choose <interface>File->New "
+"Certificate...</interface> to create one."
+msgstr ""
+
+#: commands/certifycertificatecommand.cpp:184
+msgid "Certification Not Possible"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:72
+msgid "Error Learning SmartCard"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:76
+msgid "Finished Learning SmartCard"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to learn the smart card ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to learn the smart card's "
+"certificates.</para> <para>The output from <command>%1</command> was: "
+"<message>%2</message></para>"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:94
+msgid "Smart card certificates successfully learned."
+msgstr ""
+
+#: commands/clearcrlcachecommand.cpp:62 commands/importcrlcommand.cpp:158
+msgid "Clear CRL Cache Error"
+msgstr ""
+
+#: commands/clearcrlcachecommand.cpp:66
+msgid "Clear CRL Cache Finished"
+msgstr ""
+
+#: commands/clearcrlcachecommand.cpp:70
+#, kde-format
+msgid ""
+"The DirMngr process that tried to clear the CRL cache ended prematurely "
+"because of an unexpected error. Please check the output of %1 for details."
+msgstr ""
+
+#: commands/clearcrlcachecommand.cpp:76
+#, kde-format
+msgid ""
+"An error occurred while trying to clear the CRL cache. The output from %1 "
+"was:\n"
+"%2"
+msgstr ""
+
+#: commands/clearcrlcachecommand.cpp:81
+msgid "CRL cache cleared successfully."
+msgstr "CRL क्यास सफलतापूर्वक खाली गरियो ।"
+
+#: commands/encryptclipboardcommand.cpp:144
+#: commands/encryptclipboardcommand.cpp:158
+#: commands/signencryptfilescommand.cpp:232
+#: commands/decryptverifyclipboardcommand.cpp:159
+#: commands/signclipboardcommand.cpp:147 commands/signclipboardcommand.cpp:161
+#: commands/decryptverifyfilescommand.cpp:162
+#, kde-format
+msgid "An error occurred: %1"
+msgstr ""
+
+#: commands/encryptclipboardcommand.cpp:146
+#: commands/encryptclipboardcommand.cpp:160
+msgid "Encrypt Clipboard Error"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:86
+msgctxt "@info"
+msgid ""
+"<para>No OpenPGP directory services have been configured.</para><para>Since "
+"none is configured, <application>Kleopatra</application> will use "
+"<resource>keys.gnupg.net</resource> as the server to export "
+"to.</para><para>You can configure OpenPGP directory servers in "
+"<application>Kleopatra</application>'s configuration dialog.</para><para>Do "
+"you want to continue with <resource>keys.gnupg.net</resource> as the server "
+"to export to?</para>"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:93
+#: commands/exportopenpgpcertstoservercommand.cpp:105
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Export"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:100
+msgctxt "@info"
+msgid ""
+"<para>When OpenPGP certificates have been exported to a public directory "
+"server, it is nearly impossible to remove them again.</para><para>Before "
+"exporting your certificate to a public directory server, make sure that you "
+"have created a revocation certificate so you can revoke the certificate if "
+"needed later.</para><para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:123
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Export Error"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:127
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Export Finished"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:132
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG process that tried to export OpenPGP certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:139
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to export OpenPGP certificates.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:145
+msgctxt "@info"
+msgid "OpenPGP certificates exported successfully."
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:275
+#: commands/lookupcertificatescommand.cpp:280
+#, kde-format
+msgctxt "@title %1:\"OpenPGP\" or \"CMS\""
+msgid "%1 Certificate Server"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:308
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to search on certificate server. The error returned was:\n"
+"%1"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:316
+msgctxt "@info"
+msgid ""
+"<para>The query result has been truncated.</para><para>Either the local or a "
+"remote limit on the maximum number of returned hits has been "
+"exceeded.</para><para>You can try to increase the local limit in the "
+"configuration dialog, but if one of the configured servers is the limiting "
+"factor, you have to refine your search.</para>"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:324
+msgctxt "@title"
+msgid "Result Truncated"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:353
+msgctxt "@info"
+msgid ""
+"<para>You do not have any directory servers configured.</para><para>You need "
+"to configure at least one directory server to search on one.</para><para>You "
+"can configure directory servers here: <interface>Settings->Configure "
+"Kleopatra</interface>.</para>"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:358
+msgctxt "@title"
+msgid "No Directory Servers Configured"
+msgstr ""
+
+#: commands/changepassphrasecommand.cpp:79
+msgctxt "@title:window"
+msgid "Passphrase Change Error"
+msgstr ""
+
+#: commands/changepassphrasecommand.cpp:83
+msgctxt "@title:window"
+msgid "Passphrase Change Finished"
+msgstr ""
+
+#: commands/changepassphrasecommand.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to change the passphrase ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/changepassphrasecommand.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to change the passphrase.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+
+#: commands/changepassphrasecommand.cpp:101
+msgctxt "@info"
+msgid "Passphrase changed successfully."
+msgstr ""
+
+#: commands/changeownertrustcommand.cpp:221
+#, kde-format
+msgid ""
+"<p>An error occurred while trying to change the owner trust for "
+"<b>%1</b>:</p><p>%2</p>"
+msgstr ""
+
+#: commands/changeownertrustcommand.cpp:225
+msgid "Owner Trust Change Error"
+msgstr ""
+
+#: commands/changeownertrustcommand.cpp:230
+msgid "Owner trust changed successfully."
+msgstr ""
+
+#: commands/changeownertrustcommand.cpp:231
+msgid "Owner Trust Change Succeeded"
+msgstr ""
+
+#: commands/gnupgprocesscommand.cpp:141
+#, kde-format
+msgid "Unable to start process %1. Please check your installation."
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:139
+#, kde-format
+msgid "Could not open file %1 for reading"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:139
+#: commands/importcertificatefromfilecommand.cpp:144
+#: commands/importcertificatescommand.cpp:337
+#: commands/importcertificatescommand.cpp:343
+#: commands/importcertificatescommand.cpp:406
+#: commands/importcertificatescommand.cpp:443
+#: commands/importcertificatefromclipboardcommand.cpp:116
+#: commands/importcertificatefromclipboardcommand.cpp:120
+msgid "Certificate Import Failed"
+msgstr "प्रमाणपत्र आयात गर्न असफल भयो"
+
+#: commands/importcertificatefromfilecommand.cpp:144
+#, kde-format
+msgid "Could not determine certificate type of %1."
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:153
+msgid "Certificates"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:154
+msgid "Any files"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:160
+msgid "Select Certificate File"
+msgstr "प्रमाणपत्र फाइल चयन गर्नुहोस्"
+
+#: commands/signencryptfilescommand.cpp:234
+msgid "Sign/Encrypt Files Error"
+msgstr ""
+
+#: commands/signencryptfilescommand.cpp:250
+msgid "Select One or More Files to Sign and/or Encrypt"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:74
+msgctxt "@info"
+msgid ""
+"<para>No OpenPGP directory services have been configured.</para><para>If not "
+"all of the certificates carry the name of their preferred certificate server "
+"(few do), a fallback server is needed to fetch from.</para><para>Since none "
+"is configured, <application>Kleopatra</application> will use "
+"<resource>keys.gnupg.net</resource> as the fallback.</para><para>You can "
+"configure OpenPGP directory servers in Kleopatra's configuration "
+"dialog.</para><para>Do you want to continue with "
+"<resource>keys.gnupg.net</resource> as fallback server?</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:83
+#: commands/refreshopenpgpcertscommand.cpp:96
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:90
+msgctxt "@info"
+msgid ""
+"<para>Refreshing OpenPGP certificates implies downloading all certificates "
+"anew, to check if any of them have been revoked in the "
+"meantime.</para><para>This can put a severe strain on your own as well as "
+"other people's network connections, and can take up to an hour or more to "
+"complete, depending on your network connection, and the number of "
+"certificates to check.</para> <para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:112
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh Error"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:116
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh Finished"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG process that tried to refresh OpenPGP certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:128
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to refresh OpenPGP certificates.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:134
+msgctxt "@info"
+msgid "OpenPGP certificates refreshed successfully."
+msgstr ""
+
+#: commands/setinitialpincommand.cpp:70
+msgctxt "@title"
+msgid "Set Initial Pin"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Imported Certificates from %1"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:216
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Imported certificates from these sources:<br/>%1"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:223
+msgctxt "@title:tab"
+msgid "Imported Certificates"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:236
+#, kde-format
+msgid "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
+msgstr "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
+
+#: commands/importcertificatescommand.cpp:237
+#, kde-format
+msgid "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
+msgstr "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
+
+#: commands/importcertificatescommand.cpp:238
+#, kde-format
+msgid "<tr><th colspan=\"2\" align=\"center\">%1</th></tr>"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:245
+msgid "Total number processed:"
+msgstr "प्रक्रिया गरिएका कूल सङ्ख्या:"
+
+#: commands/importcertificatescommand.cpp:247
+msgid "Imported:"
+msgstr "आयातित:"
+
+#: commands/importcertificatescommand.cpp:250
+msgid "New signatures:"
+msgstr "नयाँ हस्ताक्षर:"
+
+#: commands/importcertificatescommand.cpp:253
+msgid "New user IDs:"
+msgstr "नयाँ प्रयोगकर्ता आईडी:"
+
+#: commands/importcertificatescommand.cpp:256
+msgid "Certificates without user IDs:"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:259
+msgid "New subkeys:"
+msgstr "नयाँ सहायक कुञ्जी:"
+
+#: commands/importcertificatescommand.cpp:262
+msgid "Newly revoked:"
+msgstr "हालै खारेज गरिएका:"
+
+#: commands/importcertificatescommand.cpp:265
+msgid "Not imported:"
+msgstr "आयात नगरिएका:"
+
+#: commands/importcertificatescommand.cpp:268
+msgid "Unchanged:"
+msgstr "अपरिवर्तित:"
+
+#: commands/importcertificatescommand.cpp:271
+msgid "Secret certificates processed:"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:274
+msgid "Secret certificates imported:"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:278
+msgid "Secret certificates <em>not</em> imported:"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:281
+msgid "Secret certificates unchanged:"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:294
+msgid "No imports (should not happen, please report a bug)."
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:298
+#: commands/importcertificatescommand.cpp:303
+#, kde-format
+msgid ""
+"<qt><p>Detailed results of certificate import:</p><table "
+"width=\"100%\">%1</table></qt>"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:300
+#, kde-format
+msgid ""
+"<qt><p>Detailed results of importing %1:</p><table "
+"width=\"100%\">%2</table></qt>"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:304
+msgid "Totals"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:310
+#: commands/importcertificatescommand.cpp:318
+msgid "Certificate Import Result"
+msgstr "प्रमाणपत्र आयात परिणाम"
+
+#: commands/importcertificatescommand.cpp:325
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to import the "
+"certificate:</p><p><b>%1</b></p></qt>"
+msgstr ""
+
+#: commands/importcertificatescommand.cpp:329
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to import the certificate "
+"%1:</p><p><b>%2</b></p></qt>"
+msgstr ""
+"<qt><p>प्रमाणपत्र %1 आयात गर्ने प्रयास गर्दा एउटा त्रुटि उत्पन्न "
+"भयो:</p><p><b>%2</b></p></qt>"
+
+#: commands/importcertificatescommand.cpp:404
+#: commands/importcertificatescommand.cpp:441
+#, kde-format
+msgid ""
+"The type of this certificate (%1) is not supported by this Kleopatra "
+"installation."
+msgstr ""
+
+#: commands/changeexpirycommand.cpp:222
+#, kde-format
+msgid ""
+"<p>An error occurred while trying to change the expiry date for "
+"<b>%1</b>:</p><p>%2</p>"
+msgstr ""
+
+#: commands/changeexpirycommand.cpp:226
+msgid "Expiry Date Change Error"
+msgstr ""
+
+#: commands/changeexpirycommand.cpp:231
+msgid "Expiry date changed successfully."
+msgstr ""
+
+#: commands/changeexpirycommand.cpp:232
+msgid "Expiry Date Change Succeeded"
+msgstr ""
+
+#: commands/decryptverifyclipboardcommand.cpp:144
+msgid ""
+"The clipboard does not appear to contain a signature or encrypted text."
+msgstr ""
+
+#: commands/decryptverifyclipboardcommand.cpp:146
+#: commands/decryptverifyclipboardcommand.cpp:161
+msgid "Decrypt/Verify Clipboard Error"
+msgstr ""
+
+#: commands/importcertificatefromclipboardcommand.cpp:115
+msgid "Clipboard contents do not look like a certificate."
+msgstr ""
+
+#: commands/importcertificatefromclipboardcommand.cpp:120
+msgid "Could not determine certificate type of clipboard contents."
+msgstr ""
+
+#: commands/adduseridcommand.cpp:212
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to add the user-id: "
+"<message>%1</message></para>"
+msgstr ""
+
+#: commands/adduseridcommand.cpp:215
+msgctxt "@title:window"
+msgid "Add User-ID Error"
+msgstr ""
+
+#: commands/adduseridcommand.cpp:220
+msgctxt "@info"
+msgid "User-ID successfully added."
+msgstr ""
+
+#: commands/adduseridcommand.cpp:221
+msgctxt "@title:window"
+msgid "Add User-ID Succeeded"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:62
+msgctxt "@info"
+msgid ""
+"<para>Refreshing X.509 certificates implies downloading CRLs for all "
+"certificates, even if they might otherwise still be valid.</para><para>This "
+"can put a severe strain on your own as well as other people's network "
+"connections, and can take up to an hour or more to complete, depending on "
+"your network connection, and the number of certificates to check.</para> "
+"<para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:68
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:79
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh Error"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:83
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh Finished"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GpgSM process that tried to refresh X.509 certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to refresh X.509 "
+"certificates.</para><para>The output from <command>%1</command> was: "
+"<message>%2</message></para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:101
+msgctxt "@info"
+msgid "X.509 certificates refreshed successfully."
+msgstr ""
+
+#: commands/signclipboardcommand.cpp:149 commands/signclipboardcommand.cpp:163
+msgid "Sign Clipboard Error"
+msgstr ""
+
+#: commands/dumpcertificatecommand.cpp:260
+msgid "Certificate Dump"
+msgstr ""
+
+#: commands/dumpcertificatecommand.cpp:287
+#: commands/dumpcertificatecommand.cpp:311
+#: commands/dumpcertificatecommand.cpp:316
+msgid "Dump Certificate Error"
+msgstr ""
+
+#: commands/dumpcertificatecommand.cpp:307
+#, kde-format
+msgid ""
+"The GpgSM process that tried to dump the certificate ended prematurely "
+"because of an unexpected error. Please check the output of gpgsm --dump-cert "
+"%1 for details."
+msgstr ""
+
+#: commands/dumpcertificatecommand.cpp:314
+#, kde-format
+msgid ""
+"An error occurred while trying to dump the certificate. The output from "
+"GpgSM was:\n"
+"%1"
+msgstr ""
+
+#: commands/decryptverifyfilescommand.cpp:164
+msgid "Decrypt/Verify Files Error"
+msgstr ""
+
+#: commands/decryptverifyfilescommand.cpp:180
+msgid "Select One or More Files to Decrypt and/or Verify"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:98
+msgctxt "@title:window"
+msgid "Delete Certificates"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:163
+msgid ""
+"Neither the OpenPGP nor the CMS backends support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:167
+msgid ""
+"The OpenPGP backend does not support certificate deletion.\n"
+"Check your installation.\n"
+"Only the selected CMS certificates will be deleted."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:174
+#: commands/deletecertificatescommand.cpp:178
+msgid ""
+"The OpenPGP backend does not support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:184
+msgid ""
+"The CMS backend does not support certificate deletion.\n"
+"Check your installation.\n"
+"Only the selected OpenPGP certificates will be deleted."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:200
+#: commands/deletecertificatescommand.cpp:213
+msgid ""
+"The CMS backend does not support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:281
+#: commands/deletecertificatescommand.cpp:346
+msgid "Certificate Deletion Failed"
+msgstr "प्रमाणपत्र मेट्न असफल भयो"
+
+#: commands/deletecertificatescommand.cpp:282
+msgid "Certificate Deletion Problem"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:337
+#, kde-format
+msgid "OpenPGP backend: %1"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:340
+#, kde-format
+msgid "CMS backend: %1"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:342
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to delete the "
+"certificate:</p><p><b>%1</b></p></qt>"
+msgstr ""
+
+#: commands/exportsecretkeycommand.cpp:129
+msgctxt "@title:window"
+msgid "Secret Certificate Export Error"
+msgstr ""
+
+#: commands/exportsecretkeycommand.cpp:133
+msgctxt "@title:window"
+msgid "Secret Certificate Export Finished"
+msgstr ""
+
+#: commands/exportsecretkeycommand.cpp:138
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to export the secret certificate "
+"ended prematurely because of an unexpected error.</para><para>Please check "
+"the output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/exportsecretkeycommand.cpp:145
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to export the secret "
+"certificate.</para> <para>The output from <command>%1</command> was: "
+"<message>%2</message></para>"
+msgstr ""
+
+#: commands/exportsecretkeycommand.cpp:151
+msgctxt "@info"
+msgid "Secret certificate successfully exported."
+msgstr ""
+
+#: commands/importcrlcommand.cpp:67
+msgid "Certificate Revocation Lists (*.crl *.arl *-crl.der *-arl.der)"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:68
+msgid "Select CRL File to Import"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:156
+msgid "Unable to start process dirmngr. Please check your installation."
+msgstr ""
+
+#: commands/importcrlcommand.cpp:175
+msgid ""
+"The GpgSM process that tried to import the CRL file ended prematurely "
+"because of an unexpected error. Please check the output of gpgsm --call-"
+"dirmngr loadcrl &lt;filename&gt; for details."
+msgstr ""
+
+#: commands/importcrlcommand.cpp:178 commands/importcrlcommand.cpp:183
+msgid "Import CRL Error"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:181
+#, kde-format
+msgid ""
+"An error occurred while trying to import the CRL file. The output from gpgsm "
+"was:\n"
+"%1"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:186
+msgid "CRL file imported successfully."
+msgstr "CRL फाइल सफलतापूर्वक आयात गरियो ।"
+
+#: commands/importcrlcommand.cpp:187
+msgid "Import CRL Finished"
+msgstr ""
+
+#: commands/exportcertificatecommand.cpp:200
+msgid "Export Certificates"
+msgstr ""
+
+#: commands/exportcertificatecommand.cpp:203
+msgid "OpenPGP Certificates"
+msgstr ""
+
+#: commands/exportcertificatecommand.cpp:204
+msgid "S/MIME Certificates"
+msgstr ""
+
+#: commands/exportcertificatecommand.cpp:238
+msgid "Exporting certificates..."
+msgstr ""
+
+#: commands/exportcertificatecommand.cpp:249
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to export the "
+"certificate:</p><p><b>%1</b></p></qt>"
+msgstr ""
+"<qt><p>प्रमाणपत्र निर्यात गर्ने प्रयास गर्दा एउटा त्रुटि उत्पन्न "
+"भयो:</p><p><b>%1</b></p></qt>"
+
+#: commands/exportcertificatecommand.cpp:253
+#: commands/exportcertificatecommand.cpp:296
+msgid "Certificate Export Failed"
+msgstr "प्रमाणपत्र निर्यात असफल भयो"
+
+#: commands/exportcertificatecommand.cpp:295
+#, kde-format
+msgid "Could not write to file %1."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:265
+msgid "new email"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:266
+msgid "new dns name"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:267
+msgid "new uri"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:521
+msgctxt "@action"
+msgid "Create Key"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:572
+#, kde-format
+msgid "Could not start certificate creation: %1"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:585
+msgid "Operation canceled."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:586
+#, kde-format
+msgid "Could not create certificate: %1"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:593
+#, kde-format
+msgid ""
+"Certificate created successfully.\n"
+"Fingerprint: %1"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:599
+#, kde-format
+msgid "Could not write output file %1: %2"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:607
+msgid "Certificate created successfully."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:646
+msgctxt "@title"
+msgid "Key Creation Failed"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:647
+msgid ""
+"Key pair creation failed. Please find details about the failure below."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:649
+msgctxt "@title"
+msgid "Key Pair Successfully Created"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:650
+msgid ""
+"Your new key pair was created successfully. Please find details on the "
+"result and some suggested next steps below."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:704
+msgctxt "@title"
+msgid "Save Request"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:705
+msgid "PKCS#10 Requests (*.p10)"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:714
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not copy temporary file <filename>%1</filename> to file "
+"<filename>%2</filename>: <message>%3</message>"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:717
+msgctxt "@title"
+msgid "Error Saving Request"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:721
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Successfully wrote request to <filename>%1</filename>.</para><para>You "
+"should now send the request to the Certification Authority (CA).</para>"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:724
+msgctxt "@title"
+msgid "Request Saved"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:732
+msgid "Please process this certificate."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:733
+msgid ""
+"Please process this certificate and inform the sender about the location to "
+"fetch the resulting certificate.\n"
+"\n"
+"Thanks,\n"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:757
+msgid "My new OpenPGP certificate"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:758
+msgid "Please find attached my new OpenPGP certificate."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:789
+msgctxt "@info"
+msgid ""
+"<para><application>Kleopatra</application> tried to send a mail via your "
+"default mail client.</para><para>Some mail clients are known not to support "
+"attachments when invoked this way.</para><para>If your mail client does not "
+"have an attachment, then drag the <application>Kleopatra</application> icon "
+"and drop it on the message compose window of your mail "
+"client.</para><para>If that does not work, either, save the request to a "
+"file, and then attach that.</para>"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:793
+msgctxt "@title"
+msgid "Sending Mail"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:829
+msgctxt "@info"
+msgid ""
+"This operation will delete the certification request. Please make sure that "
+"you have sent or saved it before proceeding."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:831
+msgctxt "@title"
+msgid "Certification Request About To Be Deleted"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:862
+msgctxt "@title"
+msgid "Certificate Creation Wizard"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:923
+msgid "Comment"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:938
+#, kde-format
+msgctxt "Format string for the labels in the \"Your Personal Data\" page"
+msgid "%1 (%2):"
+msgstr "%1 (%2):"
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:26
+#. i18n: ectx: property (text), widget (QLabel, nameRequiredLB)
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:43
+#. i18n: ectx: property (text), widget (QLabel, emailRequiredLB)
+#: newcertificatewizard/newcertificatewizard.cpp:1019 rc.cpp:255 rc.cpp:261
+msgid "(required)"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:60
+#. i18n: ectx: property (text), widget (QLabel, commentRequiredLB)
+#: newcertificatewizard/newcertificatewizard.cpp:1019 rc.cpp:267
+msgid "(optional)"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1198
+#: dialogs/certifycertificatedialog.cpp:158
+msgid "Certify"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1200
+msgid "Authenticate"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1250
+msgid "Key Type:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1252
+#: newcertificatewizard/newcertificatewizard.cpp:1254
+msgid "Key Strength:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1254
+#: newcertificatewizard/newcertificatewizard.cpp:1266
+msgid "default"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1257
+msgid "Key Usage:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1257
+#: newcertificatewizard/newcertificatewizard.cpp:1259
+#: newcertificatewizard/newcertificatewizard.cpp:1267
+msgctxt "separator for key usages"
+msgid ",&nbsp;"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1259
+msgid "Certificate Usage:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1262
+msgid "Subkey Type:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1264
+#: newcertificatewizard/newcertificatewizard.cpp:1266
+msgid "Subkey Strength:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1267
+msgid "Subkey Usage:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1270
+msgid "Valid Until:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1271
+msgid "Email Address:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1273
+msgid "Real Name:"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:50
+#. i18n: ectx: property (text), widget (QLabel, commentLB)
+#: newcertificatewizard/newcertificatewizard.cpp:1275 rc.cpp:264
+msgid "Comment:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1277
+msgid "Subject-DN:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1279
+msgid "Add. Email Address:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1281
+msgid "DNS Name:"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1283
+msgid "URI:"
+msgstr ""
+
+#: view/searchbar.cpp:90
+msgid "&Find:"
+msgstr ""
+
+#: view/tabwidget.cpp:385
+msgid "New Tab"
+msgstr ""
+
+#: view/tabwidget.cpp:385
+msgid "Open a new tab"
+msgstr ""
+
+#: view/tabwidget.cpp:386
+msgid "CTRL+SHIFT+N"
+msgstr ""
+
+#: view/tabwidget.cpp:392
+msgid "Rename Tab..."
+msgstr ""
+
+#: view/tabwidget.cpp:392
+msgid "Rename this tab"
+msgstr ""
+
+#: view/tabwidget.cpp:393
+msgid "CTRL+SHIFT+R"
+msgstr ""
+
+#: view/tabwidget.cpp:394
+msgid "Duplicate Tab"
+msgstr ""
+
+#: view/tabwidget.cpp:394
+msgid "Duplicate this tab"
+msgstr ""
+
+#: view/tabwidget.cpp:395
+msgid "CTRL+SHIFT+D"
+msgstr ""
+
+#: view/tabwidget.cpp:396
+msgid "Close Tab"
+msgstr ""
+
+#: view/tabwidget.cpp:396
+msgid "Close this tab"
+msgstr ""
+
+#: view/tabwidget.cpp:397
+msgid "CTRL+SHIFT+W"
+msgstr ""
+
+#: view/tabwidget.cpp:398
+msgid "Move Tab Left"
+msgstr ""
+
+#: view/tabwidget.cpp:399
+msgid "CTRL+SHIFT+LEFT"
+msgstr ""
+
+#: view/tabwidget.cpp:400
+msgid "Move Tab Right"
+msgstr ""
+
+#: view/tabwidget.cpp:401
+msgid "CTRL+SHIFT+RIGHT"
+msgstr ""
+
+#: view/tabwidget.cpp:402
+msgid "Hierarchical Certificate List"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:244
+#. i18n: ectx: property (text), widget (QPushButton, expandAllCertificationsPB)
+#: view/tabwidget.cpp:404 rc.cpp:682
+msgid "Expand All"
+msgstr "सबै विस्तार गर्नुहोस्"
+
+#: view/tabwidget.cpp:405
+msgid "CTRL+."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:254
+#. i18n: ectx: property (text), widget (QPushButton, collapseAllCertificationsPB)
+#: view/tabwidget.cpp:406 rc.cpp:685
+msgid "Collapse All"
+msgstr "सबै संक्षिप्त गर्नुहोस्"
+
+#: view/tabwidget.cpp:407
+msgid "CTRL+,"
+msgstr ""
+
+#: view/tabwidget.cpp:529
+msgid "Rename Tab"
+msgstr ""
+
+#: view/tabwidget.cpp:529
+msgid "New tab title:"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:110
+msgid "Please select one or more of the following certificates:"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:111
+msgid "Please select one of the following certificates:"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:148
+msgid "Reload"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:149
+msgid "Lookup..."
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:150
+msgid "New..."
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:152
+msgctxt "@info:tooltip"
+msgid "Lookup certificates on server"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:153
+msgctxt "@info:tooltip"
+msgid "Refresh certificate list"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:154
+msgctxt "@info:tooltip"
+msgid "Create a new certificate"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:180
+msgid "Certificate Selection"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:94
+msgid "These are the certificates you have selected for deletion:"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:96
+msgid ""
+"These certificates will be deleted even though you did "
+"<emphasis>not</emphasis><nl> explicitly select them (<a "
+"href=\"whatsthis://\">Why?</a>):"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:117
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Why do you want to delete more certificates than I "
+"selected?</title><para>When you delete CA certificates (both root CAs and "
+"intermediate CAs), the certificates issued by them will also be "
+"deleted.</para><para>This can be nicely seen in "
+"<application>Kleopatra</application>'s hierarchical view mode: In this mode, "
+"if you delete a certificate that has children, those children will also be "
+"deleted. Think of CA certificates as folders containing other certificates: "
+"When you delete the folder, you delete its contents, too.</para>"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:129
+msgctxt "@action:button"
+msgid "Delete"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:189
+msgid ""
+"The certificate to be deleted is your own. It contains private key material, "
+"which is needed to decrypt past communication encrypted to the certificate, "
+"and should therefore not be deleted."
+msgid_plural ""
+"All of the certificates to be deleted are your own. They contain private key "
+"material, which is needed to decrypt past communication encrypted to the "
+"certificate, and should therefore not be deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/deletecertificatesdialog.cpp:203
+msgid ""
+"One of the certificates to be deleted is your own. It contains private key "
+"material, which is needed to decrypt past communication encrypted to the "
+"certificate, and should therefore not be deleted."
+msgid_plural ""
+"Some of the certificates to be deleted are your own. They contain private "
+"key material, which is needed to decrypt past communication encrypted to the "
+"certificate, and should therefore not be deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/deletecertificatesdialog.cpp:218
+msgid "Secret Certificate Deletion"
+msgstr ""
+
+#: dialogs/exportcertificatesdialog.cpp:67
+msgid "Export"
+msgstr ""
+
+#: dialogs/exportcertificatesdialog.cpp:71
+msgid " OpenPGP export file:"
+msgstr ""
+
+#: dialogs/exportcertificatesdialog.cpp:77
+msgid "S/MIME export file:"
+msgstr ""
+
+#: dialogs/setinitialpindialog.cpp:89
+msgctxt "@info"
+msgid ""
+"No NullPin found. <warning>If this PIN was not set by you personally, the "
+"card might have been tampered with.</warning>"
+msgstr ""
+
+#: dialogs/setinitialpindialog.cpp:94
+msgctxt "@info"
+msgid "Canceled setting PIN."
+msgstr ""
+
+#: dialogs/setinitialpindialog.cpp:97
+#, kde-format
+msgctxt "@info"
+msgid "There was an error setting the PIN: <message>%1</message>."
+msgstr ""
+
+#: dialogs/setinitialpindialog.cpp:100
+msgctxt "@info"
+msgid "PIN set successfully."
+msgstr ""
+
+#: dialogs/lookupcertificatesdialog.cpp:120
+msgid "Import"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:230
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while loading the certifications: "
+"<message>%1</message></para>"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:233
+msgctxt "@title"
+msgid "Certifications Loading Failed"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:256
+msgid "Please wait while generating the dump..."
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:334
+msgid "(please wait while certifications are being loaded)"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:335
+msgid "Load Certifications (may take a while)"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:361
+#, kde-format
+msgid "Issuer Certificate Not Found (%1)"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:417
+msgctxt "@title"
+msgid "Subkeys"
+msgstr ""
+
+#: dialogs/ownertrustdialog.cpp:55
+msgid "(unknown certificate)"
+msgstr ""
+
+#: dialogs/ownertrustdialog.cpp:102
+#, kde-format
+msgctxt "@title"
+msgid "Change Trust Level of %1"
+msgstr ""
+
+#: dialogs/ownertrustdialog.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid ""
+"How much do you trust certifications made by <b>%1</b> to correctly verify "
+"authenticity of certificates?"
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:129
+msgctxt "@info"
+msgid "<interface>Real name</interface> is required, but missing."
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:131
+msgctxt "@info"
+msgid "<interface>Real name</interface> must be at least 5 characters long."
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:133
+msgctxt "@info"
+msgid "<interface>EMail address</interface> is required, but missing."
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:135
+msgctxt "@info"
+msgid "<interface>EMail address</interface> is incomplete."
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:137
+msgctxt "@info"
+msgid "<interface>EMail address</interface> is invalid."
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:139
+msgctxt "@info"
+msgid "<interface>Comment</interface> contains invalid characters."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:117
+msgid "<b>Step 1:</b> Please select the user IDs you wish to certify."
+msgstr ""
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:44
+#. i18n: ectx: property (text), widget (QLabel, singleKeyLabel)
+#: dialogs/certifycertificatedialog.cpp:171 rc.cpp:489
+#, kde-format, no-c-format
+msgid "Certification will be performed using certificate %1."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:201
+msgid "Signed user IDs:"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:204
+msgid "<b>Summary:</b>"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:208
+msgid "Check level:"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:211
+msgid "Selected secret certificate:"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:230
+msgid "Default certificate"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:234
+msgid "No statement made"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:237
+msgid "Not checked"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:240
+msgid "Casually checked"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:243
+msgid "Thoroughly checked"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:258
+msgid ""
+"The certificate was not certified because it was already certified by the "
+"same certificate."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:260
+#, kde-format
+msgid "The certificate could not be certified. <b>Error</b>: %1"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:262
+msgid "Certification canceled."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:264
+msgid "Certification successful."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:333
+#, kde-format
+msgctxt "arg is name, email of certificate holder"
+msgid "Certify Certificate: %1"
+msgstr ""
+
+#: dialogs/exportsecretkeydialog.cpp:103
+msgid "Secret Key Files"
+msgstr ""
+
+#: dialogs/exportsecretkeydialog.cpp:124
+#, kde-format
+msgctxt "@info"
+msgid "Please select export options for %1:"
+msgstr ""
+
+#: dialogs/exportsecretkeydialog.cpp:138
+msgid "Secret Key Files (*.pem *.p12 *.gpg *.asc *.pgp)"
+msgstr ""
+
+#: dialogs/exportsecretkeydialog.cpp:206
+msgctxt "@info"
+msgid "You have to enter an output filename."
+msgstr ""
+
+#: dialogs/exportsecretkeydialog.cpp:207 dialogs/exportsecretkeydialog.cpp:216
+msgctxt "@title"
+msgid "Incomplete data"
+msgstr ""
+
+#: dialogs/exportsecretkeydialog.cpp:215
+msgctxt "@info"
+msgid "You have to choose a passphrase character set."
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:94
+msgid "Passed"
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:100
+msgid "Skipped"
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:117
+msgid "Test Name"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, resultGB)
+#: dialogs/selftestdialog.cpp:118 rc.cpp:276
+msgid "Result"
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:173
+msgid "(select test first)"
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:213
+msgid "Rerun Tests"
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:218
+msgid "Continue"
+msgstr ""
+
+#: kleopatraapplication.cpp:90
+msgid "Run UI server only, hide main window"
+msgstr ""
+
+#: kleopatraapplication.cpp:91
+msgid "Use OpenPGP for the following operation"
+msgstr ""
+
+#: kleopatraapplication.cpp:92
+msgid "Use CMS (X.509, S/MIME) for the following operation"
+msgstr ""
+
+#: kleopatraapplication.cpp:93
+msgid "Import certificate file(s)"
+msgstr ""
+
+#: kleopatraapplication.cpp:94
+msgid "Encrypt file(s)"
+msgstr ""
+
+#: kleopatraapplication.cpp:95
+msgid "Sign file(s)"
+msgstr ""
+
+#: kleopatraapplication.cpp:96
+msgid "Encrypt and/or sign file(s)"
+msgstr ""
+
+#: kleopatraapplication.cpp:97
+msgid "Decrypt file(s)"
+msgstr ""
+
+#: kleopatraapplication.cpp:98
+msgid "Verify file/signature"
+msgstr ""
+
+#: kleopatraapplication.cpp:99
+msgid "Decrypt and/or verify file(s)"
+msgstr ""
+
+#: kleopatraapplication.cpp:107
+msgid "Location of the socket the ui server is listening on"
+msgstr ""
+
+#: kleopatraapplication.cpp:114
+msgid "File(s) to process"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:234
+msgid "Parse error on gpgconf --list-config output:"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:239
+#, kde-format
+msgid "gpgconf --list-config: Unknown component: %1"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:244
+#, kde-format
+msgid "gpgconf --list-config: Unknown entry: %1:%2"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:250
+#, kde-format
+msgid "gpgconf --list-config: Invalid entry: value must start with '\"': %1"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:283
+msgid "Parse error on gpgconf --list-components. output:"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:311
+msgid "gpgconf not found or cannot be started"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:313
+msgid "gpgconf terminated unexpectedly"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:315
+msgid "timeout while executing gpgconf"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:317
+msgid "error while writing to gpgconf"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:319
+msgid "error while reading from gpgconf"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:322
+msgid "Unknown error while executing gpgconf"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:345
+msgctxt "as in \"verbosity level\""
+msgid "Level"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:345
+msgid "Set/Unset"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:347
+msgid "String List"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:347
+msgid "String"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:349
+msgid "List of Integers"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:349
+msgid "Integer"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:351
+msgid "List of Unsigned Integers"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:351
+msgid "Unsigned Integer "
+msgstr ""
+
+#: kgpgconf/configuration.cpp:353
+msgid "Path List"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:353
+msgid "Path"
+msgstr "मार्ग"
+
+#: kgpgconf/configuration.cpp:355
+msgid "List of URLs"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:355
+msgid "URL"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:357
+msgid "List of LDAP URLs"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:357
+msgid "LDAP URL"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:359
+msgid "Directory Path List"
+msgstr ""
+
+#: kgpgconf/configuration.cpp:359
+msgid "Directory Path"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: kwatchgnupg/kwatchgnupgui.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: kleopatra.rc:5
+#. i18n: ectx: Menu (file)
+#: kgpgconf/mainwindow.cpp:67 rc.cpp:3 rc.cpp:201 rc.cpp:207
+msgid "&File"
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:57
+#. i18n: ectx: property (text), widget (QPushButton, saveAsPB)
+#: kgpgconf/mainwindow.cpp:68 rc.cpp:588
+msgid "Save As..."
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:70
+msgid "Quit"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:86
+msgid "Setup Error"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:86
+#, kde-format
+msgid ""
+"KGpgConf could not execute gpgconf.exe.\n"
+"\n"
+"Error: %1\n"
+"Error Code: %2"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:91
+msgid "Parsing Error"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:91 kgpgconf/mainwindow.cpp:96
+#, kde-format
+msgid ""
+"An error occurred while reading the current configuration.\n"
+"\n"
+"Error: %1"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:96
+msgid "Error"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:213 kgpgconf/mainwindow.cpp:232
+msgid "Write Error"
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:213
+#, kde-format
+msgid ""
+"Could not open file %1 for writing. You might not have the permission to "
+"write to that file."
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:232
+#, kde-format
+msgid "Error while writing to file %1."
+msgstr ""
+
+#: kgpgconf/mainwindow.cpp:238
+msgid "Save As"
+msgstr ""
+
+#: mainwindow.cpp:140
+#, kde-format
+msgctxt "Quit [ApplicationName]"
+msgid "&Quit %1"
+msgstr ""
+
+#: mainwindow.cpp:146
+msgid "Only &Close Window"
+msgstr ""
+
+#: mainwindow.cpp:178
+#, kde-format
+msgid ""
+"%1 may be used by other applications as a service.\n"
+"You may instead want to close this window without exiting %1."
+msgstr ""
+
+#: mainwindow.cpp:180
+msgid "Really Quit?"
+msgstr ""
+
+#: mainwindow.cpp:274
+msgid ""
+"Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
+"installation."
+msgstr ""
+
+#: mainwindow.cpp:276
+msgid "Error Starting KWatchGnuPG"
+msgstr ""
+
+#: mainwindow.cpp:281
+msgid ""
+"Could not start the GnuPG Administrative Console (kgpgconf). Please check "
+"your installation."
+msgstr ""
+
+#: mainwindow.cpp:283
+msgid "Error Starting KGpgConf"
+msgstr ""
+
+#: mainwindow.cpp:394
+msgid "New Certificate..."
+msgstr ""
+
+#: mainwindow.cpp:396
+msgid "Export Certificates..."
+msgstr "प्रमाणपत्र निर्यात गर्नुहोस्..."
+
+#: mainwindow.cpp:398
+msgid "Export Certificates to Server..."
+msgstr ""
+
+#: mainwindow.cpp:400
+msgid "Export Secret Certificate..."
+msgstr ""
+
+#: mainwindow.cpp:402
+msgid "Lookup Certificates on Server..."
+msgstr ""
+
+#: mainwindow.cpp:404
+msgid "Import Certificates..."
+msgstr "प्रमाणपत्र आयात गर्नुहोस्..."
+
+#: mainwindow.cpp:406
+msgid "Decrypt/Verify Files..."
+msgstr ""
+
+#: mainwindow.cpp:408
+msgid "Sign/Encrypt Files..."
+msgstr ""
+
+#: mainwindow.cpp:411
+msgid "Redisplay"
+msgstr ""
+
+#: mainwindow.cpp:413
+msgid "Stop Operation"
+msgstr "सञ्चालन रोक्नुहोस्"
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, CertificateDetailsDialog)
+#: mainwindow.cpp:415 rc.cpp:630
+msgid "Certificate Details"
+msgstr ""
+
+#: mainwindow.cpp:418
+msgid "Delete"
+msgstr "मेट्नुहोस्"
+
+#: mainwindow.cpp:420
+msgid "Certify Certificate..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:60
+#. i18n: ectx: property (text), widget (QPushButton, changeExpiryDatePB)
+#: mainwindow.cpp:422 rc.cpp:645
+msgid "Change Expiry Date..."
+msgstr ""
+
+#: mainwindow.cpp:424
+msgid "Change Owner Trust..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:40
+#. i18n: ectx: property (text), widget (QPushButton, changePassphrasePB)
+#: mainwindow.cpp:426 rc.cpp:639
+msgid "Change Passphrase..."
+msgstr ""
+
+#: mainwindow.cpp:428
+msgid "Add User-ID..."
+msgstr ""
+
+#: mainwindow.cpp:430
+msgid "Dump Certificate"
+msgstr ""
+
+#: mainwindow.cpp:433
+msgid "GnuPG Log Viewer"
+msgstr ""
+
+#: mainwindow.cpp:436
+msgid "GnuPG Administrative Console"
+msgstr ""
+
+#: mainwindow.cpp:439
+msgid "Refresh X.509 Certificates"
+msgstr ""
+
+#: mainwindow.cpp:441
+msgid "Refresh OpenPGP Certificates"
+msgstr ""
+
+#: mainwindow.cpp:444
+msgid "Clear CRL Cache"
+msgstr ""
+
+#: mainwindow.cpp:446
+msgid "Dump CRL Cache"
+msgstr ""
+
+#: mainwindow.cpp:449
+msgid "Import CRL From File..."
+msgstr ""
+
+#: mainwindow.cpp:452
+msgid "Configure GnuPG Backend..."
+msgstr ""
+
+#: mainwindow.cpp:456
+msgid "Perform Self-Test"
+msgstr ""
+
+#: mainwindow.cpp:462
+msgid "About Gpg4win"
+msgstr ""
+
+#: mainwindow.cpp:517
+msgid "Could not configure the cryptography backend (gpgconf tool not found)"
+msgstr ""
+
+#: mainwindow.cpp:517
+msgid "Configuration Error"
+msgstr ""
+
+#: mainwindow.cpp:549
+msgid ""
+"There are still some background operations ongoing. These will be terminated "
+"when closing the window. Proceed?"
+msgstr ""
+
+#: mainwindow.cpp:552
+msgid "Ongoing Background Tasks"
+msgstr ""
+
+#: mainwindow.cpp:633
+msgid "Sign/Encrypt..."
+msgstr ""
+
+#: mainwindow.cpp:638
+msgid "Import Certificates"
+msgstr ""
+
+#: mainwindow.cpp:639
+msgid "Import CRLs"
+msgstr ""
+
+#: mainwindow.cpp:646
+msgid "Cancel"
+msgstr ""
+
+#: tests/test_useridlistmodels.cpp:158
+msgid "UserIDListModel Test"
+msgstr ""
+
+#: tests/test_useridlistmodels.cpp:162
+msgid "OpenPGP certificate to look up"
+msgstr ""
+
+#: tests/test_useridlistmodels.cpp:163
+msgid "X.509 certificate to look up"
+msgstr ""
+
+#: tests/kleo_test.h:47
+msgid "qttest"
+msgstr ""
+
+#: tests/test_keylistmodels.cpp:90
+msgid "FlatKeyListModel Test"
+msgstr ""
+
+#: tests/test_keylistmodels.cpp:94
+msgid "Perform flat certificate listing"
+msgstr ""
+
+#: tests/test_keylistmodels.cpp:95
+msgid "Perform hierarchical certificate listing"
+msgstr ""
+
+#: tests/test_keylistmodels.cpp:96
+msgid "Do not list SMIME certificates"
+msgstr ""
+
+#: tests/test_verificationresultdialog.cpp:79
+msgid "VerificationResultDialog Test"
+msgstr ""
+
+#: tests/test_verificationresultdialog.cpp:84
+msgid "Signature file"
+msgstr ""
+
+#: tests/test_verificationresultdialog.cpp:85
+msgid "Data file"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:61
+msgctxt "@title"
+msgid "UiServer Connectivity"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:79 selftest/gpgagentcheck.cpp:102
+msgid "not reachable"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid "Could not connect to UiServer: <message>%1</message>"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:84
+msgctxt "@info"
+msgid ""
+"<para>Check that your firewall is not set to block local connections (allow "
+"connections to <resource>localhost</resource> or "
+"<resource>127.0.0.1</resource>).</para>"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:88
+msgid "multiple instances"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:90
+#, kde-format
+msgctxt "@info"
+msgid ""
+"It seems another <application>Kleopatra</application> is running (with "
+"process-id %1)"
+msgstr ""
+
+#: selftest/uiservercheck.cpp:93
+msgctxt "@info"
+msgid ""
+"Quit any other running instances of <application>Kleopatra</application>."
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:64
+msgctxt "@title"
+msgid "Gpg-Agent Connectivity"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:74
+msgid "GpgME library too old"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:76
+msgctxt "@info"
+msgid ""
+"Either the GpgME library itself is too old, or the GpgME++ library was "
+"compiled against an older GpgME that did not support connecting to gpg-agent."
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:80
+msgctxt "@info"
+msgid ""
+"Upgrade to <application>gpgme</application> 1.2.0 or higher, and ensure that "
+"gpgme++ was compiled against it."
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:87
+msgid "GpgME does not support gpg-agent"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:89
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The <application>GpgME</application> library is new enough to support "
+"<application>gpg-agent</application>, but does not seem to do so in this "
+"installation.</para><para>The error returned was: "
+"<message>%1</message>.</para>"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:104
+#, kde-format
+msgctxt "@info"
+msgid "Could not connect to GpgAgent: <message>%1</message>"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:107
+msgctxt "@info"
+msgid ""
+"<para>Check that gpg-agent is running and that the "
+"<environment>GPG_AGENT_INFO</environment> variable is set and up-to-"
+"date.</para>"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:111
+msgid "unexpected error"
+msgstr ""
+
+#: selftest/gpgagentcheck.cpp:113
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Unexpected error while asking <application>gpg-agent</application> for "
+"its version.</para><para>The error returned was: "
+"<message>%1</message>.</para>"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:61
+#, kde-format
+msgctxt "@title"
+msgid "%1 Configuration Check"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:115
+msgid "The process terminated prematurely"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:120
+msgctxt "self-test did not pass"
+msgid "Failed"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:122
+#, kde-format
+msgid ""
+"There was an error executing the GnuPG configuration self-check for %2:\n"
+"  %1\n"
+"You might want to execute \"gpgconf %3\" on the command line.\n"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:127
+msgid "Diagnostics:"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:132
+msgctxt "self-check did not pass"
+msgid "Failed"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:135
+#, kde-format
+msgctxt "Self-test did not pass"
+msgid ""
+"The GnuPG configuration self-check failed.\n"
+"\n"
+"Error code: %1\n"
+"Diagnostics:"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:140
+#, kde-format
+msgctxt "self-check did not pass"
+msgid ""
+"The GnuPG configuration self-check failed with error code %1.\n"
+"No output was received."
+msgstr ""
+
+#: selftest/enginecheck.cpp:71
+msgctxt "@title"
+msgid "GPG (OpenPGP Backend) installation"
+msgstr ""
+
+#: selftest/enginecheck.cpp:72
+msgctxt "@title"
+msgid "GpgSM (S/MIME Backend) installation"
+msgstr ""
+
+#: selftest/enginecheck.cpp:73
+msgctxt "@title"
+msgid "GpgConf (Configuration) installation"
+msgstr ""
+
+#: selftest/enginecheck.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>A problem was detected with the <application>%1</application> "
+"backend.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:103
+msgid "not supported"
+msgstr ""
+
+#: selftest/enginecheck.cpp:105
+msgctxt "@info"
+msgid ""
+"<para>It seems that the <icode>gpgme</icode> library was compiled without "
+"support for this backend.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:108
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Replace the <icode>gpgme</icode> library with a version compiled with "
+"<application>%1</application> support.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:112
+msgid "not properly installed"
+msgstr ""
+
+#: selftest/enginecheck.cpp:114
+#, kde-format
+msgctxt "@info"
+msgid "<para>Backend <command>%1</command> is not installed properly.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:116
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Please check the output of <command>%1 --version</command> "
+"manually.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:119
+msgid "too old"
+msgstr ""
+
+#: selftest/enginecheck.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Backend <command>%1</command> is installed in version %2, but at least "
+"version %3 is required.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:127 selftest/enginecheck.cpp:203
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Install <application>%1</application> version %2 or higher.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:130
+msgid "unknown problem"
+msgstr ""
+
+#: selftest/enginecheck.cpp:132
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Make sure <application>%1</application> is installed and in "
+"<envar>PATH</envar>.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:200
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para><application>%1</application> v%2.%3.%4 is required for this test, but "
+"only %5 is installed.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:208
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para><application>%1</application> is required for this test, but does not "
+"seem available.</para><para>See tests further up for more information.</para>"
+msgstr ""
+
+#: selftest/enginecheck.cpp:212
+#, kde-format
+msgctxt "@info %1: test name"
+msgid "<para>See \"%1\" above.</para>"
+msgstr ""
+
+#: selftest/registrycheck.cpp:60
+msgctxt "@title"
+msgid "Windows Registry"
+msgstr ""
+
+#: selftest/registrycheck.cpp:72
+msgid "Obsolete registry entries found"
+msgstr ""
+
+#: selftest/registrycheck.cpp:76
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Kleopatra detected an obsolete registry key (<resource>%1\\"
+"%2</resource>), added by either a previous "
+"<application>Gpg4win</application> version or applications such as "
+"<application>WinPT</application> or "
+"<application>EnigMail</application>.</para><para>Keeping the entry might "
+"lead to an old GnuPG backend being used.</para>"
+msgstr ""
+
+#: selftest/registrycheck.cpp:82
+#, kde-format
+msgctxt "@info"
+msgid "<para>Delete registry key <resource>%1\\%2</resource>.</para>"
+msgstr ""
+
+#: selftest/registrycheck.cpp:99
+#, kde-format
+msgctxt "@info"
+msgid "Could not delete the registry key <resource>%1\\%2</resource>"
+msgstr ""
+
+#: selftest/registrycheck.cpp:100
+msgctxt "@title"
+msgid "Error Deleting Registry Key"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:22
+#. i18n: ectx: Menu (view)
+#: rc.cpp:6 rc.cpp:210
+msgid "&View"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:34
+#. i18n: ectx: Menu (certMenu)
+#. i18n: file: kleopatra.rc:97
+#. i18n: ectx: Menu (listview_popup)
+#. i18n: file: kleopatra.rc:34
+#. i18n: ectx: Menu (certMenu)
+#. i18n: file: kleopatra.rc:97
+#. i18n: ectx: Menu (listview_popup)
+#: rc.cpp:9 rc.cpp:30 rc.cpp:213 rc.cpp:234
+msgid "&Certificates"
+msgstr "प्रमाणपत्र"
+
+#. i18n: file: kleopatra.rc:46
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:12 rc.cpp:216
+msgid "&Tools"
+msgstr "उपकरण"
+
+#. i18n: file: kleopatra.rc:60
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:15 rc.cpp:219
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:64
+#. i18n: ectx: Menu (window)
+#: rc.cpp:18 rc.cpp:222
+msgid "&Window"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:75
+#. i18n: ectx: Menu (help)
+#: rc.cpp:21 rc.cpp:225
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: kwatchgnupg/kwatchgnupgui.rc:13
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: kleopatra.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:24 rc.cpp:204 rc.cpp:228
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: kleopatra.rc:92
+#. i18n: ectx: ToolBar (searchToolBar)
+#: rc.cpp:27 rc.cpp:231
+msgid "Search Toolbar"
+msgstr "उपकरणपट्टी खोजी गर्नुहोस्"
+
+#: rc.cpp:31
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:32
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#. i18n: file: conf/appearanceconfigwidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearanceConfigWidget)
+#: rc.cpp:35
+msgid "Color && Font Configuration"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:38
+msgid "General"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:34
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:41
+msgid "Tooltips"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:40
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipValidityCheckBox)
+#: rc.cpp:44
+msgid "Show validity"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:47
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipOwnerCheckBox)
+#: rc.cpp:47
+msgid "Show owner information"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipDetailsCheckBox)
+#. i18n: file: kcfg/tooltippreferences.kcfg:19
+#. i18n: ectx: label, entry (ShowCertificateDetails), group (Tooltip)
+#: rc.cpp:50 rc.cpp:739
+msgid "Show certificate details"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:99
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:53
+msgid "Certificate Filters"
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:113
+#. i18n: ectx: property (text), widget (QPushButton, iconButton)
+#: rc.cpp:56
+msgid "Set &Icon..."
+msgstr ""
+
+#. i18n: file: conf/appearanceconfigwidget.ui:123
+#. i18n: ectx: property (text), widget (QPushButton, foregroundButton)
+#: rc.cpp:59
+msgid "Set &Text Color..."
+msgstr "पाठ रङ सेट गर्नुहोस्..."
+
+#. i18n: file: conf/appearanceconfigwidget.ui:133
+#. i18n: ectx: property (text), widget (QPushButton, backgroundButton)
+#: rc.cpp:62
+msgid "Set &Background Color..."
+msgstr "पृष्ठभूमि रङ सेट गर्नुहोस्..."
+
+#. i18n: file: conf/appearanceconfigwidget.ui:143
+#. i18n: ectx: property (text), widget (QPushButton, fontButton)
+#: rc.cpp:65
+msgid "Set F&ont..."
+msgstr "फन्ट सेट गर्नुहोस्..."
+
+#. i18n: file: conf/appearanceconfigwidget.ui:153
+#. i18n: ectx: property (text), widget (QCheckBox, italicCB)
+#: rc.cpp:68
+msgid "Italic"
+msgstr "छड्के"
+
+#. i18n: file: conf/appearanceconfigwidget.ui:163
+#. i18n: ectx: property (text), widget (QCheckBox, boldCB)
+#: rc.cpp:71
+msgid "Bold"
+msgstr "बाक्लो"
+
+#. i18n: file: conf/appearanceconfigwidget.ui:173
+#. i18n: ectx: property (text), widget (QCheckBox, strikeoutCB)
+#: rc.cpp:74
+msgid "Strikeout"
+msgstr "स्ट्राइकआउट"
+
+#. i18n: file: conf/appearanceconfigwidget.ui:199
+#. i18n: ectx: property (text), widget (QPushButton, defaultLookPB)
+#: rc.cpp:77
+msgid "Default Appearance"
+msgstr "पूर्वनिर्धारित दृश्य"
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:18
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, intervalRefreshCB)
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:31
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, intervalRefreshSB)
+#. i18n: file: kcfg/smimevalidationpreferences.kcfg:7
+#. i18n: ectx: whatsthis, entry (RefreshInterval), group (SMime Validation)
+#: rc.cpp:80 rc.cpp:86 rc.cpp:706
+msgid ""
+"This option enables interval checking of certificate validity. You can also "
+"choose the checking interval (in hours). Note that validation is perfomed "
+"implicitly whenever significant files in ~/.gnupg change. This option "
+"therefore only affects external factors of certificate validity."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:21
+#. i18n: ectx: property (text), widget (QCheckBox, intervalRefreshCB)
+#: rc.cpp:83
+msgid "Check certificate validity every"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:37
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, intervalRefreshSB)
+#: rc.cpp:89
+msgid "hour"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:40
+#. i18n: ectx: property (suffix), widget (QSpinBox, intervalRefreshSB)
+#: rc.cpp:92
+msgid " hours"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:68
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, CRLRB)
+#: rc.cpp:95
+msgid ""
+"If this option is selected, S/MIME certificates are validated using "
+"Certificate Revocation Lists (CRLs)."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, CRLRB)
+#: rc.cpp:98
+msgid "Validate certificates using CRLs"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:81
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, OCSPRB)
+#: rc.cpp:101
+msgid ""
+"If this option is selected, S/MIME certificates are validated online using "
+"the Online Certificates Status Protocol (OCSP). Fill in the URL of the OCSP "
+"responder below."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:84
+#. i18n: ectx: property (text), widget (QRadioButton, OCSPRB)
+#: rc.cpp:104
+msgid "Validate certificates online (OCSP)"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:94
+#. i18n: ectx: property (title), widget (QGroupBox, OCSPGroupBox)
+#: rc.cpp:107
+msgid "Online Certificate Validation"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:100
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:110
+msgid "OCSP responder URL:"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:110
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, OCSPResponderURL)
+#: rc.cpp:113
+msgid ""
+"Enter here the address of the server for online validation of certificates "
+"(OCSP responder). The URL is usually starting with http://."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:117
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:116
+msgid "OCSP responder signature:"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreServiceURLCB)
+#: rc.cpp:119
+msgid "Ignore service URL of certificates"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:140
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, doNotCheckCertPolicyCB)
+#: rc.cpp:122
+msgid ""
+"By default GnuPG uses the file ~/.gnupg/policies.txt to check if a "
+"certificate policy is allowed. If this option is selected, policies are not "
+"checked."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, doNotCheckCertPolicyCB)
+#: rc.cpp:125
+msgid "Do not check certificate policies"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:150
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, neverConsultCB)
+#: rc.cpp:128
+msgid ""
+"If this option is checked, Certificate Revocation Lists are never used to "
+"validate S/MIME certificates."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:153
+#. i18n: ectx: property (text), widget (QCheckBox, neverConsultCB)
+#: rc.cpp:131
+msgid "Never consult a CRL"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:160
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fetchMissingCB)
+#: rc.cpp:134
+msgid ""
+"If this option is checked, missing issuer certificates are fetched when "
+"necessary (this applies to both validation methods, CRLs and OCSP)."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:163
+#. i18n: ectx: property (text), widget (QCheckBox, fetchMissingCB)
+#: rc.cpp:137
+msgid "Fetch missing issuer certificates"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:179
+#. i18n: ectx: attribute (title), widget (QWidget, tabHTTP)
+#: rc.cpp:140
+msgid "&HTTP Requests"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:185
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableHTTPCB)
+#: rc.cpp:143
+msgid "Entirely disables the use of HTTP for S/MIME."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:188
+#. i18n: ectx: property (text), widget (QCheckBox, disableHTTPCB)
+#: rc.cpp:146
+msgid "Do not perform any HTTP requests"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:195
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreHTTPDPCB)
+#: rc.cpp:149
+msgid ""
+"When looking for the location of a CRL, the to-be-tested certificate usually "
+"contains what are known as \"CRL Distribution Point\" (DP) entries, which "
+"are URLs describing the way to access the URL. The first found DP entry is "
+"used.  With this option all entries using the HTTP scheme are ignored when "
+"looking for a suitable DP."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:198
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreHTTPDPCB)
+#: rc.cpp:152
+msgid "Ignore HTTP CRL distribution point of certificates"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:205
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, honorHTTPProxyRB)
+#: rc.cpp:155
+msgid ""
+"If this option is selected, the value of the HTTP proxy shown on the right "
+"(which comes from the environment variable http_proxy) will be used for any "
+"HTTP request."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:208
+#. i18n: ectx: property (text), widget (QRadioButton, honorHTTPProxyRB)
+#: rc.cpp:158
+msgid "Use system HTTP proxy:"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:225
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomHTTPProxyRB)
+#: rc.cpp:164
+msgid "Use this proxy for HTTP requests: "
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:232
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, customHTTPProxy)
+#: rc.cpp:167
+msgid ""
+"Enter here the location of your HTTP Proxy, which will be used for all HTTP "
+"requests relating to S/MIME. The syntax is host:port, for instance "
+"myproxy.nowhere.com:3128."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:261
+#. i18n: ectx: attribute (title), widget (QWidget, tabLDAP)
+#: rc.cpp:170
+msgid "&LDAP Requests"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:267
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableLDAPCB)
+#: rc.cpp:173
+msgid "Entirely disables the use of LDAP for S/MIME."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:270
+#. i18n: ectx: property (text), widget (QCheckBox, disableLDAPCB)
+#: rc.cpp:176
+msgid "Do not perform any LDAP requests"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:277
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreLDAPDPCB)
+#: rc.cpp:179
+msgid ""
+"When looking for the location of a CRL, the to-be-tested certificate usually "
+"contains what are known as \"CRL Distribution Point\" (DP) entries, which "
+"are URLs describing the way to access the URL. The first found DP entry is "
+"used.  With this option all entries using the LDAP scheme are ignored when "
+"looking for a suitable DP."
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:280
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreLDAPDPCB)
+#: rc.cpp:182
+msgid "Ignore LDAP CRL distribution point of certificates"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:287
+#. i18n: ectx: property (text), widget (QLabel, customLDAPLabel)
+#: rc.cpp:185
+msgid "Primary host for LDAP requests:"
+msgstr ""
+
+#. i18n: file: conf/smimevalidationconfigurationwidget.ui:298
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, customLDAPProxy)
+#: rc.cpp:188
+msgid ""
+"Entering a LDAP server here will make all LDAP requests go to that server "
+"first. More precisely, this setting overrides any specified host and port "
+"part in a LDAP URL and will also be used if host and port have been omitted "
+"from the URL. Other LDAP servers will be used only if the connection to the "
+"\"proxy\" failed.\n"
+"The syntax is \"HOST\" or \"HOST:PORT\". If PORT is omitted, port 389 "
+"(standard LDAP port) is used."
+msgstr ""
+
+#. i18n: file: crypto/gui/signingcertificateselectionwidget.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, rememberCO)
+#: rc.cpp:192
+msgid "Remember these as default for future operations"
+msgstr ""
+
+#. i18n: file: crypto/gui/signingcertificateselectionwidget.ui:57
+#. i18n: ectx: property (text), widget (QLabel, pgpLabel)
+#: rc.cpp:195
+msgid "OpenPGP Signing Certificate:"
+msgstr ""
+
+#. i18n: file: crypto/gui/signingcertificateselectionwidget.ui:67
+#. i18n: ectx: property (text), widget (QLabel, cmsLabel)
+#: rc.cpp:198
+msgid "S/MIME Signing Certificate:"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/overviewpage.ui:5
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::OverviewPage)
+#: rc.cpp:237
+msgctxt "@title"
+msgid "Review Certificate Parameters"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/overviewpage.ui:8
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::OverviewPage)
+#: rc.cpp:240
+msgid ""
+"Please review the certificate parameters before proceeding to create the "
+"certificate."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/overviewpage.ui:21
+#. i18n: ectx: property (text), widget (QCheckBox, showAllDetailsCB)
+#: rc.cpp:243
+msgid "Show all details"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:5
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::EnterDetailsPage)
+#: rc.cpp:246
+msgctxt "@title"
+msgid "Enter Details"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:8
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::EnterDetailsPage)
+#: rc.cpp:249
+msgid ""
+"Please enter your personal details below. If you want more control over the "
+"certificate parameters, click on the Advanced Settings button."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:16
+#. i18n: ectx: property (text), widget (QLabel, nameLB)
+#: rc.cpp:252
+msgid "Real name:"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:33
+#. i18n: ectx: property (text), widget (QLabel, emailLB)
+#: rc.cpp:258
+msgid "EMail address:"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, addEmailToDnCB)
+#: rc.cpp:270
+msgid "Add email address to DN (only needed for broken CAs)"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/enterdetailspage.ui:117
+#. i18n: ectx: property (text), widget (QPushButton, advancedPB)
+#: rc.cpp:273
+msgid "Advanced Settings..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:28
+#. i18n: ectx: property (toolTip), widget (Kleo::DragQueen, dragQueen)
+#: rc.cpp:279
+msgid ""
+"Drag this icon to your mail application's composer to attach the request to "
+"a mail."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:41
+#. i18n: ectx: property (text), widget (QPushButton, restartWizardPB)
+#: rc.cpp:282
+msgid "Restart This Wizard (Keeps Your Parameters)"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:48
+#. i18n: ectx: property (title), widget (QGroupBox, nextStepsGB)
+#: rc.cpp:285
+msgid "Next Steps"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:54
+#. i18n: ectx: property (text), widget (QPushButton, saveRequestToFilePB)
+#: rc.cpp:288
+msgid "Save Request to File..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:61
+#. i18n: ectx: property (text), widget (QPushButton, sendRequestByEMailPB)
+#: rc.cpp:291
+msgid "Send Request by Email..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:68
+#. i18n: ectx: property (text), widget (QPushButton, makeBackupPB)
+#: rc.cpp:294
+msgid "Make Backup of Your Certificate..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:75
+#. i18n: ectx: property (text), widget (QPushButton, sendCertificateByEMailPB)
+#: rc.cpp:297
+msgid "Send Certificate by Email..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:82
+#. i18n: ectx: property (text), widget (QPushButton, uploadToKeyserverPB)
+#: rc.cpp:300
+msgid "Upload Certificate to Directory Service..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:89
+#. i18n: ectx: property (text), widget (QPushButton, createRevocationRequestPB)
+#: rc.cpp:303
+msgid "Create Revocation Request..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, createSigningCertificatePB)
+#: rc.cpp:306
+msgid "Create Signing Certificate With Same Parameters"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/resultpage.ui:103
+#. i18n: ectx: property (text), widget (QPushButton, createEncryptionCertificatePB)
+#: rc.cpp:309
+msgid "Create Encryption Certificate With Same Parameters"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/chooseprotocolpage.ui:13
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::ChooseProtocolPage)
+#: rc.cpp:312
+msgctxt "@title"
+msgid "Choose Certificate Format"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/chooseprotocolpage.ui:16
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::ChooseProtocolPage)
+#: rc.cpp:315
+msgid "Please choose which type of certificate you want to create. "
+msgstr ""
+
+#. i18n: file: newcertificatewizard/chooseprotocolpage.ui:25
+#. i18n: ectx: property (text), widget (QCommandLinkButton, pgpCLB)
+#: rc.cpp:318
+msgid "Create a personal OpenPGP key pair"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/chooseprotocolpage.ui:34
+#. i18n: ectx: property (description), widget (QCommandLinkButton, pgpCLB)
+#: rc.cpp:321
+msgid ""
+"OpenPGP key pairs are created locally, and certified by your friends and "
+"acquaintances. There is no central certification authority; instead, every "
+"individual creates a personal Web of Trust by certifying other users' key "
+"pairs with their own certificate."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/chooseprotocolpage.ui:41
+#. i18n: ectx: property (text), widget (QCommandLinkButton, x509CLB)
+#: rc.cpp:324
+msgid "Create a personal X.509 key pair and certification request "
+msgstr ""
+
+#. i18n: file: newcertificatewizard/chooseprotocolpage.ui:50
+#. i18n: ectx: property (description), widget (QCommandLinkButton, x509CLB)
+#: rc.cpp:327
+msgid ""
+"X.509 key pairs are created locally, but certified centrally by a "
+"certification authority (CA). CAs can certify other CAs, creating a central, "
+"hierarchical chain of trust."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/keycreationpage.ui:5
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::KeyCreationPage)
+#: rc.cpp:330
+msgctxt "@title"
+msgid "Creating Key..."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/keycreationpage.ui:8
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::KeyCreationPage)
+#: rc.cpp:333
+msgid "Your key is being created."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/keycreationpage.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:336
+msgid ""
+"The process of creating a key requires large amounts of random numbers. To "
+"foster this process, you can use the entry field below to enter some "
+"gibberish. The text itself does not matter - only the inter-character "
+"timing. You can also move this window around with your mouse, or start some "
+"disk-intensive application."
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, Kleo::NewCertificateUi::AdvancedSettingsDialog)
+#: rc.cpp:339
+msgid "Advanced Settings"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, personalTab)
+#: rc.cpp:342
+msgid "Personal Details"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:34
+#. i18n: ectx: property (title), widget (QGroupBox, uidGB)
+#: rc.cpp:345
+msgid "Additional User-IDs"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:46
+#. i18n: ectx: property (title), widget (QGroupBox, emailGB)
+#: rc.cpp:348
+msgid "EMail Addresses"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:58
+#. i18n: ectx: property (title), widget (QGroupBox, dnsGB)
+#: rc.cpp:351
+msgid "DNS Names"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:70
+#. i18n: ectx: property (title), widget (QGroupBox, uriGB)
+#: rc.cpp:354
+msgid "URIs"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:91
+#. i18n: ectx: attribute (title), widget (QWidget, technicalTab)
+#. i18n: file: dialogs/certificatedetailsdialog.ui:287
+#. i18n: ectx: attribute (title), widget (QWidget, detailsTab)
+#: rc.cpp:357 rc.cpp:688
+msgid "Technical Details"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:97
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:360
+msgid "Key Material"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:103
+#. i18n: ectx: property (text), widget (QRadioButton, rsaRB)
+#: rc.cpp:363
+msgid "RSA"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:126
+#. i18n: ectx: property (text), widget (QRadioButton, dsaRB)
+#: rc.cpp:366
+msgid "DSA"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, elgCB)
+#: rc.cpp:369
+msgid "+ Elgamal"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:147
+#. i18n: ectx: property (text), item, widget (QComboBox, elgKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, rsaKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:218
+#. i18n: ectx: property (text), item, widget (QComboBox, dsaVersionCB)
+#: rc.cpp:372 rc.cpp:390 rc.cpp:408
+msgid "Backend Default"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:152
+#. i18n: ectx: property (text), item, widget (QComboBox, elgKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, rsaKeyStrengthCB)
+#: rc.cpp:375 rc.cpp:393
+msgid "1024 Bits"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:157
+#. i18n: ectx: property (text), item, widget (QComboBox, elgKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, rsaKeyStrengthCB)
+#: rc.cpp:378 rc.cpp:396
+msgid "1536 Bits"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:162
+#. i18n: ectx: property (text), item, widget (QComboBox, elgKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:196
+#. i18n: ectx: property (text), item, widget (QComboBox, rsaKeyStrengthCB)
+#: rc.cpp:381 rc.cpp:399
+msgid "2048 Bits"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:167
+#. i18n: ectx: property (text), item, widget (QComboBox, elgKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:201
+#. i18n: ectx: property (text), item, widget (QComboBox, rsaKeyStrengthCB)
+#: rc.cpp:384 rc.cpp:402
+msgid "3072 Bits"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:172
+#. i18n: ectx: property (text), item, widget (QComboBox, elgKeyStrengthCB)
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:206
+#. i18n: ectx: property (text), item, widget (QComboBox, rsaKeyStrengthCB)
+#: rc.cpp:387 rc.cpp:405
+msgid "4096 Bits"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:223
+#. i18n: ectx: property (text), item, widget (QComboBox, dsaVersionCB)
+#: rc.cpp:411
+msgid "v1 (1024 Bits)"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:228
+#. i18n: ectx: property (text), item, widget (QComboBox, dsaVersionCB)
+#: rc.cpp:414
+msgid "v2 (2048 Bits)"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:255
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:417
+msgid "Certificate Usage"
+msgstr "प्रमाणपत्र उपयोग"
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:263
+#. i18n: ectx: property (text), widget (QCheckBox, expiryCB)
+#: rc.cpp:420
+msgid "Valid until:"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:288
+#. i18n: ectx: property (text), widget (QCheckBox, certificationCB)
+#: rc.cpp:423
+msgid "Certification"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:295
+#. i18n: ectx: property (text), widget (QCheckBox, signingCB)
+#: rc.cpp:426
+msgid "Signing"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:305
+#. i18n: ectx: property (text), widget (QCheckBox, encryptionCB)
+#: rc.cpp:429
+msgid "Encryption"
+msgstr ""
+
+#. i18n: file: newcertificatewizard/advancedsettingsdialog.ui:315
+#. i18n: ectx: property (text), widget (QCheckBox, authenticationCB)
+#: rc.cpp:432
+msgid "Authentication"
+msgstr ""
+
+#. i18n: file: dialogs/setinitialpindialog.ui:13
+#. i18n: ectx: property (text), widget (QLabel, mainLB)
+#: rc.cpp:435
+msgid ""
+"<p>On this SmartCard, there is space for two certificates:\n"
+"<ol>\n"
+"<li>A normal certificate</li>\n"
+"<li>A special certificate for making <em>qualified signatures</em> according "
+"to the German Signaturgesetz</li>\n"
+"</ol>\n"
+"You need to set initial PINs for both of them.</p>"
+msgstr ""
+
+#. i18n: file: dialogs/setinitialpindialog.ui:27
+#. i18n: ectx: property (text), widget (QLabel, nksLB)
+#: rc.cpp:443
+msgid "Step 1: Set the initial PIN for the first certificate (\"NKS\"):"
+msgstr ""
+
+#. i18n: file: dialogs/setinitialpindialog.ui:34
+#. i18n: ectx: property (text), widget (QPushButton, nksPB)
+#: rc.cpp:446
+msgid "Set Initial PIN (NKS)"
+msgstr ""
+
+#. i18n: file: dialogs/setinitialpindialog.ui:71
+#. i18n: ectx: property (text), widget (QLabel, sigGLB)
+#: rc.cpp:449
+msgid ""
+"Step 2: Set the initial PIN for the qualified signature certificate "
+"(\"SigG\"):"
+msgstr ""
+
+#. i18n: file: dialogs/setinitialpindialog.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, sigGPB)
+#: rc.cpp:452
+msgid "Set Initial PIN (SigG)"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, Kleo::Dialogs::ExpiryDialog)
+#: rc.cpp:455
+msgid "Change Certificate Date of Expiry"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:458
+msgid "Please select when to expire this certificate:"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, neverRB)
+#: rc.cpp:461
+msgid "Never"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:38
+#. i18n: ectx: property (text), widget (QRadioButton, inRB)
+#: rc.cpp:464
+msgid "In"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:62
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: rc.cpp:467
+msgid "Days"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:67
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: rc.cpp:470
+msgid "Weeks"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:72
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: rc.cpp:473
+msgid "Months"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:77
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: rc.cpp:476
+msgid "Years"
+msgstr ""
+
+#. i18n: file: dialogs/expirydialog.ui:100
+#. i18n: ectx: property (text), widget (QRadioButton, onRB)
+#: rc.cpp:479
+msgid "On this day:"
+msgstr ""
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:482
+msgid "<b>Step 2:</b> Choose how to certify."
+msgstr ""
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:30
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:485
+msgid "Choose which of your certificates to sign with:"
+msgstr ""
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:60
+#. i18n: ectx: property (text), widget (QRadioButton, localSignatureRB)
+#: rc.cpp:492
+msgid "Certify only for myself"
+msgstr ""
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:70
+#. i18n: ectx: property (text), widget (QRadioButton, exportableSignatureRB)
+#: rc.cpp:495
+msgid "Certify for everyone to see"
+msgstr ""
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, sendToServerCB)
+#: rc.cpp:498
+msgid "Send certified certificate to server afterwards"
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:501
+msgid ""
+"<b>Step 2:</b> How thoroughly have you checked that this certificate "
+"actually belongs to the person it claims it is from?"
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, checkLevelNotCheckedRB)
+#: rc.cpp:504
+msgid "I have not checked at all"
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:52
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:507
+msgid "Describe semantics here..."
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:62
+#. i18n: ectx: property (text), widget (QRadioButton, checkLevelCasualRB)
+#: rc.cpp:510
+msgid "I have checked casually"
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:88
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:513
+msgid ""
+"Choose this if you know the person, and have asked them whether this was "
+"their certificate, but you have not verified they are actually in possession "
+"of the secret certificate."
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, checkLevelThoroughlyRB)
+#: rc.cpp:516
+msgid "I have checked very thoroughly"
+msgstr ""
+
+#. i18n: file: dialogs/selectchecklevelwidget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:519
+msgid ""
+"Choose this if you have, for instance, checked the ID card of the person, "
+"and have verified that they are in possession of the secret key (e.g. by "
+"sending them encrypted mail and asking for it to be decrypted)."
+msgstr ""
+
+#. i18n: file: dialogs/exportsecretkeydialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, ExportSecretKeyDialog)
+#: rc.cpp:522
+msgid "Export Secret Certificate"
+msgstr ""
+
+#. i18n: file: dialogs/exportsecretkeydialog.ui:26
+#. i18n: ectx: property (text), widget (QLabel, outputFileLB)
+#: rc.cpp:525
+msgid "Output file:"
+msgstr ""
+
+#. i18n: file: dialogs/exportsecretkeydialog.ui:36
+#. i18n: ectx: property (text), widget (QLabel, charsetLB)
+#: rc.cpp:528
+msgid "Passphrase charset:"
+msgstr ""
+
+#. i18n: file: dialogs/exportsecretkeydialog.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, armorCB)
+#: rc.cpp:531
+msgid "ASCII armor"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:28
+#. i18n: ectx: property (text), widget (QRadioButton, unknownRB)
+#: rc.cpp:534
+msgid "I do not know"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:537
+msgid "<i>(unknown trust)</i>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:74
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:540
+msgid ""
+"<font size=\"-1\">Choose this if you have no opinion about the "
+"trustworthyness of the certificate's owner.<br>Certifications at this trust "
+"level are ignored when checking the validity of OpenPGP certificates.</font>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:88
+#. i18n: ectx: property (text), widget (QRadioButton, neverRB)
+#: rc.cpp:543
+msgid "I do NOT trust them"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:98
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:546
+msgid "<i>(never trust)</i>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:131
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:549
+msgid ""
+"<font size=\"-1\">Choose this if you explicitly do <em>not</em> trust the "
+"certificate owner, e.g. because you have knowledge of him certifying without "
+"checking or without the certificate owner's consent.<br>Certifications at "
+"this trust level are ignored when checking the validity of OpenPGP "
+"certificates.</font>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:145
+#. i18n: ectx: property (text), widget (QRadioButton, marginalRB)
+#: rc.cpp:552
+msgid "I believe checks are casual"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:155
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:555
+msgid "<i>(marginal trust)</i>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:558
+msgid ""
+"<font size=\"-1\">Choose this if you trust certifications are not done "
+"blindly, but not very accuratly, either.<br>Certificates will only become "
+"valid with multiple certifications (typically three) at this trust level. "
+"This is usually a good choice.</font>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:202
+#. i18n: ectx: property (text), widget (QRadioButton, fullRB)
+#: rc.cpp:561
+msgid "I believe checks are very accurate"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:212
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:564
+msgid "<i>(full trust)</i>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:245
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:567
+msgid ""
+"<font size=\"-1\">Choose this if you trust certifications are done very "
+"accurately.<br>Certificates will become valid with just a single "
+"certification at this trust level, so assign this much trust with "
+"care.</font>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:262
+#. i18n: ectx: property (text), widget (QRadioButton, ultimateRB)
+#: rc.cpp:570
+msgid "This is my certificate"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:272
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:573
+msgid "<i>(ultimate trust)</i>"
+msgstr ""
+
+#. i18n: file: dialogs/ownertrustdialog.ui:305
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:576
+msgid ""
+"<font size=\"-1\">Choose this if and only if this is your certificate. This "
+"is the default if the secret key is available, but if you imported this "
+"certificate, you might need to adjust the trust level "
+"yourself.<br>Certificates will become valid with just a single certification "
+"at this trust level.</font>"
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, LookupCertificatesDialog)
+#: rc.cpp:579
+msgid "Certificate Server Certificate Lookup"
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:24
+#. i18n: ectx: property (text), widget (QPushButton, findPB)
+#: rc.cpp:582
+msgid "Search"
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:44
+#. i18n: ectx: property (text), widget (QPushButton, detailsPB)
+#: rc.cpp:585
+msgid "Details..."
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:70
+#. i18n: ectx: property (text), widget (QPushButton, selectAllPB)
+#: rc.cpp:591
+msgid "Select All"
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, deselectAllPB)
+#: rc.cpp:594
+msgid "Deselect All"
+msgstr ""
+
+#. i18n: file: dialogs/lookupcertificatesdialog.ui:106
+#. i18n: ectx: property (text), widget (QLabel, findLB)
+#: rc.cpp:597
+msgid "Find:"
+msgstr ""
+
+#. i18n: file: dialogs/adduseriddialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, AddUserIDDialog)
+#: rc.cpp:600
+msgid "Add New User-ID"
+msgstr ""
+
+#. i18n: file: dialogs/adduseriddialog.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:603
+msgid "&Real name:"
+msgstr ""
+
+#. i18n: file: dialogs/adduseriddialog.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:606
+msgid "&EMail address:"
+msgstr ""
+
+#. i18n: file: dialogs/adduseriddialog.ui:45
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:609
+msgid "Co&mment (optional):"
+msgstr ""
+
+#. i18n: file: dialogs/adduseriddialog.ui:65
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:612
+msgid "This is how the new User-ID will be stored in the certificate:"
+msgstr ""
+
+#. i18n: file: dialogs/selftestdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelfTestDialog)
+#: rc.cpp:615
+msgid "Kleopatra Self-Test Results"
+msgstr ""
+
+#. i18n: file: dialogs/selftestdialog.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:618
+msgctxt "@info"
+msgid ""
+"<para>These are the results of the Kleopatra self-test suite. Details are "
+"available in tooltips.</para><para>Note that all but the first failure might "
+"be due to prior tests failing.</para>"
+msgstr ""
+
+#. i18n: file: dialogs/selftestdialog.ui:62
+#. i18n: ectx: property (title), widget (QGroupBox, proposedCorrectiveActionGB)
+#: rc.cpp:621
+msgid "Proposed Corrective Action"
+msgstr ""
+
+#. i18n: file: dialogs/selftestdialog.ui:124
+#. i18n: ectx: property (text), widget (QPushButton, doItPB)
+#: rc.cpp:624
+msgid "Do It"
+msgstr ""
+
+#. i18n: file: dialogs/selftestdialog.ui:137
+#. i18n: ectx: property (text), widget (QCheckBox, runAtStartUpCB)
+#: rc.cpp:627
+msgid "Run these tests at startup"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, overviewTab)
+#: rc.cpp:633
+msgid "Overview"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, changeTrustLevelPB)
+#: rc.cpp:642
+msgid "Trust Certifications Made by This Certificate..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:70
+#. i18n: ectx: property (text), widget (QPushButton, revokeCertificatePB)
+#: rc.cpp:648
+msgid "Revoke This Certificate..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:651
+msgid "Photo"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:128
+#. i18n: ectx: property (text), widget (QLabel, photoLB)
+#: rc.cpp:654
+msgid ""
+"<p>At the moment, Kleopatra does not support photos in certificates. It has "
+"no support for adding, nor for displaying them. This is for the following "
+"reasons:</p>\n"
+"<ul>\n"
+"<li>Photos give a false sense of security.</li>\n"
+"<li>Photos increase the size of certificates.</li>\n"
+"</ul>"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:153
+#. i18n: ectx: attribute (title), widget (QWidget, certificationsTab)
+#: rc.cpp:661
+msgid "User-IDs && Certifications"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:173
+#. i18n: ectx: property (title), widget (QGroupBox, userIDsActionsGB)
+#: rc.cpp:664
+msgid "User-IDs"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:179
+#. i18n: ectx: property (text), widget (QPushButton, addUserIDPB)
+#: rc.cpp:667
+msgid "Add..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:189
+#. i18n: ectx: property (text), widget (QPushButton, revokeUserIDPB)
+#. i18n: file: dialogs/certificatedetailsdialog.ui:218
+#. i18n: ectx: property (text), widget (QPushButton, revokeCertificationPB)
+#: rc.cpp:670 rc.cpp:679
+msgid "Revoke..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:199
+#. i18n: ectx: property (text), widget (QPushButton, certifyUserIDPB)
+#: rc.cpp:673
+msgid "Certify..."
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:212
+#. i18n: ectx: property (title), widget (QGroupBox, certificationsActionGB)
+#: rc.cpp:676
+msgid "Certifications"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:328
+#. i18n: ectx: attribute (title), widget (QWidget, chainTab)
+#: rc.cpp:691
+msgid "Chain"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:341
+#. i18n: ectx: property (text), widget (QTreeWidget, chainTW)
+#: rc.cpp:694
+msgid "1"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:358
+#. i18n: ectx: attribute (title), widget (QWidget, dumpTab)
+#: rc.cpp:697
+msgid "Dump"
+msgstr ""
+
+#. i18n: file: dialogs/certificatedetailsdialog.ui:364
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:700
+msgid ""
+"This is a dump of all information the backend has about this certificate:"
+msgstr ""
+
+#. i18n: file: kcfg/smimevalidationpreferences.kcfg:6
+#. i18n: ectx: label, entry (RefreshInterval), group (SMime Validation)
+#: rc.cpp:703
+msgid "Certificate refresh interval (in hours). Zero (0) disables."
+msgstr ""
+
+#. i18n: file: kcfg/emailoperationspreferences.kcfg:10
+#. i18n: ectx: label, entry (QuickSignEMail), group (EMailOperations)
+#: rc.cpp:709
+msgid "Quick Sign EMail"
+msgstr ""
+
+#. i18n: file: kcfg/emailoperationspreferences.kcfg:11
+#. i18n: ectx: whatsthis, entry (QuickSignEMail), group (EMailOperations)
+#: rc.cpp:712
+msgid ""
+"Minimize the number of steps when signing emails, use preset defaults unless "
+"problems occur."
+msgstr ""
+
+#. i18n: file: kcfg/emailoperationspreferences.kcfg:15
+#. i18n: ectx: label, entry (QuickEncryptEMail), group (EMailOperations)
+#: rc.cpp:715
+msgid "Quick Encrypt EMail"
+msgstr ""
+
+#. i18n: file: kcfg/emailoperationspreferences.kcfg:16
+#. i18n: ectx: whatsthis, entry (QuickEncryptEMail), group (EMailOperations)
+#: rc.cpp:718
+msgid ""
+"Minimize the number of steps when encrypting emails, use preset defaults "
+"unless problems occur."
+msgstr ""
+
+#. i18n: file: kcfg/emailoperationspreferences.kcfg:20
+#. i18n: ectx: label, entry (DecryptVerifyPopupGeometry), group (EMailOperations)
+#: rc.cpp:721
+msgid "Decrypt/Verify Popup Geometry"
+msgstr ""
+
+#. i18n: file: kcfg/emailoperationspreferences.kcfg:21
+#. i18n: ectx: whatsthis, entry (DecryptVerifyPopupGeometry), group (EMailOperations)
+#: rc.cpp:724
+msgid ""
+"The remembered size and position of the Decrypt/Verify Result Popup used by "
+"clients which do not support inline display of D/V results, such as MS "
+"Outlook."
+msgstr ""
+
+#. i18n: file: kcfg/tooltippreferences.kcfg:9
+#. i18n: ectx: label, entry (ShowValidity), group (Tooltip)
+#: rc.cpp:727
+msgid "Show certificate validity"
+msgstr ""
+
+#. i18n: file: kcfg/tooltippreferences.kcfg:10
+#. i18n: ectx: whatsthis, entry (ShowValidity), group (Tooltip)
+#: rc.cpp:730
+msgid ""
+"Show validity information for certificates in tooltip, such as whether the "
+"certificate is expired or revoked."
+msgstr ""
+
+#. i18n: file: kcfg/tooltippreferences.kcfg:14
+#. i18n: ectx: label, entry (ShowOwnerInformation), group (Tooltip)
+#: rc.cpp:733
+msgid "Show certificate owner information"
+msgstr ""
+
+#. i18n: file: kcfg/tooltippreferences.kcfg:15
+#. i18n: ectx: whatsthis, entry (ShowOwnerInformation), group (Tooltip)
+#: rc.cpp:736
+msgid ""
+"Show owner information for certificates in tooltip, such as User IDs, "
+"subject and issuers."
+msgstr ""
+
+#. i18n: file: kcfg/tooltippreferences.kcfg:20
+#. i18n: ectx: whatsthis, entry (ShowCertificateDetails), group (Tooltip)
+#: rc.cpp:742
+msgid ""
+"Show more certificate details, such as fingerprint, key length and "
+"expiration dates"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:17
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:745
+msgid "Option"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:22
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:748
+msgid "Impose"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:38
+#. i18n: ectx: property (text), widget (QLabel, componentLabelLabel)
+#: rc.cpp:751
+msgid "Component:"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:62
+#. i18n: ectx: property (text), widget (QLabel, optionLabelLabel)
+#: rc.cpp:754
+msgid "Option:"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:89
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabelLabel)
+#: rc.cpp:757
+msgid "Description:"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:122
+#. i18n: ectx: property (text), widget (QLabel, typeLabelLabel)
+#: rc.cpp:760
+msgid "Type:"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:147
+#. i18n: ectx: property (text), widget (QRadioButton, useDefaultRB)
+#: rc.cpp:763
+msgid "Reset user settings to built-in default"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:157
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomRB)
+#: rc.cpp:766
+msgid "Custom value:"
+msgstr ""
+
+#. i18n: file: kgpgconf/mainwidget.ui:177
+#. i18n: ectx: property (text), widget (QCheckBox, readOnlyBox)
+#: rc.cpp:769
+msgid "Impose setting on all users"
+msgstr ""

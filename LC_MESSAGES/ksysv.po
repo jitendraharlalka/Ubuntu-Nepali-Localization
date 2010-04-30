@@ -1,0 +1,1064 @@
+# translation of ksysv.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksysv\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 15:28+0000\n"
+"PO-Revision-Date: 2009-07-16 09:36+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:39+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: IOCore.cpp:59
+#, kde-format
+msgid ""
+"<error>FAILED</error> to remove <cmd>%1</cmd> from <cmd>%2</cmd>: \"%3\"<br/>"
+msgstr ""
+"<cmd>%1</cmd> लाई <cmd>%2</cmd>बाट हटाउन <error>असफल</error>: \"%3\"<br/>"
+
+#: IOCore.cpp:63
+#, kde-format
+msgid "FAILED to remove %1 from %2: \"%3\"\n"
+msgstr "%1 लाई %2 बाट हटाउन असफल: \"%3\"\n"
+
+#: IOCore.cpp:70
+#, kde-format
+msgid "removed <cmd>%1</cmd> from <cmd>%2</cmd><br/>"
+msgstr "<cmd>%1</cmd> लाई <cmd>%2</cmd><br/> बाट हटाइयो"
+
+#: IOCore.cpp:74
+#, kde-format
+msgid "removed %1 from %2\n"
+msgstr "%1 बाट %2 हटाइयो\n"
+
+#: IOCore.cpp:103
+#, kde-format
+msgid "created <cmd>%1</cmd> in <cmd>%2</cmd><br/>"
+msgstr "<cmd>%1</cmd> लाई <cmd>%2</cmd>मा सिर्जना गरियो<br/>"
+
+#: IOCore.cpp:104
+#, kde-format
+msgid "created %1 in %2\n"
+msgstr "%1 लाई %2 मा सिर्जना गरियो\n"
+
+#: IOCore.cpp:108
+#, kde-format
+msgid ""
+"<error>FAILED</error> to create <cmd>%1</cmd> in <cmd>%2</cmd>: \"%3\"<br/>"
+msgstr ""
+"<cmd>%1</cmd> लाई <cmd>%2</cmd> मा सिर्जना गर्न <error>असफल</error>: "
+"\"%3\"<br/>"
+
+#: IOCore.cpp:113
+#, kde-format
+msgid "FAILED to create %1 in %2: \"%3\"\n"
+msgstr "%1 लाई %2 मा सिर्जना गर्न असफल: \"%3\"\n"
+
+#. i18n: file: ksysvui.rc:73
+#. i18n: ectx: Menu (item_menu)
+#. i18n: file: ksysvui.rc:92
+#. i18n: ectx: Menu (list_menu)
+#: OldView.cpp:91 OldView.cpp:93 rc.cpp:102 rc.cpp:108
+msgid "Runlevel Menu"
+msgstr "रनलेभल मेनु"
+
+#. i18n: file: ksysvui.rc:82
+#. i18n: ectx: Menu (script_menu)
+#: OldView.cpp:95 rc.cpp:105
+msgid "Services Menu"
+msgstr "सेवा मेनु"
+
+#: OldView.cpp:195
+msgid ""
+"&Available\n"
+"Services"
+msgstr ""
+"उपलब्ध\n"
+"सेवा"
+
+#: OldView.cpp:200
+msgid ""
+"<p>These are the <img src=\"small|exec\"/> <strong>services</strong> "
+"available on your computer. To start a service, drag it onto the "
+"<em>Start</em> section of a runlevel.</p><p>To stop one, do the same for the "
+"<em>Stop</em> section.</p>"
+msgstr ""
+"<p>यी <img src=\"small|exec\"/> <strong>सेवा</strong> तपाईँको कम्प्युटरमा "
+"उपलब्ध छन् । कार्य सरु गर्न, यसलाई रनलेभलको <em>सुरु</em> खण्डमा तान्नुहोस् "
+"।</p><p>बन्द गर्न, यहि कार्य <em>बन्द</em> खण्डमा गर्नुहोस् ।</p>"
+
+#: OldView.cpp:244
+msgid ""
+"<p>You can drag services from a runlevel onto the <img src=\"small|trash\"/> "
+"<strong>trashcan</strong> to delete them from that runlevel.</p><p>The "
+"<strong>Undo command</strong> can be used to restore deleted entries.</p>"
+msgstr ""
+"<p>तपाईँले रनलेभलमा कार्य मेट्न तिनलाई रनलेभलबाट <img src=\"small|trash\"/> "
+"<strong>रद्दीटोकरी</strong>मा तान्न सक्नुहुन्छ ।</p><p> मेटिएका प्रविष्टि "
+"पुन: भण्डारण गर्न <strong>पूर्वावस्थामा फर्काउने आदेश</strong> प्रयोग गर्न "
+"सकिन्छ ।</p>"
+
+#: OldView.cpp:256
+#, kde-format
+msgid "Runlevel &%1"
+msgstr "रनलेभल %1"
+
+#: OldView.cpp:258
+#, kde-format
+msgid "Runlevel %1"
+msgstr "रनलेभल %1"
+
+#: OldView.cpp:262
+#, kde-format
+msgid ""
+"<p>These are the services <strong>started</strong> in runlevel %1.</p><p>The "
+"number shown on the left of the <img src=\"user|ksysv_start\"/> icon "
+"determines the order in which the services are started. You can arrange them "
+"via drag and drop, as long as a suitable <em>sorting number</em> can be "
+"generated.</p><p>If that's not possible, you have to change the number "
+"manually via the <strong>Properties dialog box</strong>.</p>"
+msgstr ""
+"<p>यी रनलेभल %1 मा <strong>सुरु गरिएका</strong> सेवा हुन् ।</p><p> <img "
+"src=\"user|ksysv_start\"/> प्रतिमाको बायाँतिर देखाएका नम्बरले कार्यको "
+"सुरुआतको क्रम निर्धारण गर्छ । तपाईँले तिनलाई तान्ने र राख्ने गरेर मिलाउन "
+"सक्नुहुन्छ, उपयुक्त हुने जति लामो <em>क्रमबद्ध सङ्ख्या</em> मा उत्पन्न गर्न "
+"सकिन्छ ।</p><p>यदि त्यो सम्भव नभएमा, तपाईँले <strong>विशेषता सम्वाद "
+"बाकस</strong> बाट नम्बर म्यानुअली परिवर्तन गर्नुपर्छ ।</p>"
+
+#: OldView.cpp:270
+msgid "Start"
+msgstr "सुरु"
+
+#: OldView.cpp:278
+msgid "Stop"
+msgstr "रोक्नुहोस्"
+
+#: OldView.cpp:280
+#, kde-format
+msgid ""
+"<p>These are the services <strong>stopped</strong> in runlevel %1.</p><p>The "
+"number shown on the left of the <img src=\"user|ksysv_stop\"/> icon "
+"determines the order in which the services are stopped. You can arrange them "
+"via drag and drop, as long as a suitable <em>sorting number</em> can be "
+"generated.</p><p>If that's not possible, you have to change the number "
+"manually via the <strong>Properties dialog box</strong>.</p>"
+msgstr ""
+"<p>यी रनलेभल %1 <strong>रोकिएका</strong> कार्य हुन् ।</p><p> <img "
+"src=\"user|ksysv_stop\"/> प्रतिमाको बायाँतिर देखिएका नम्बरले कार्य रोकिने "
+"क्रमको निर्धारण गर्छ । तपाईँले तिनलाई तान्ने र राख्ने गरेर मिलाउन "
+"सक्नुहुन्छ, उपयुक्त हुनेसम्म लामो हुने गरि <em>क्रमबद्धता सङ्ख्या</em> "
+"उत्पन्न गर्न सकिन्छ ।</p><p>यदि त्यो सम्भव नभएमा, तपाईँले <strong>विशेषता "
+"सम्वाद बाकस</strong> म्यानुअली परिवर्तन गर्नुपर्छ ।</p>"
+
+#: OldView.cpp:355
+#, kde-format
+msgid ""
+"Drag here to start services\n"
+"when entering runlevel %1"
+msgstr ""
+"रनलेभल %1 प्रविष्ट गर्दा\n"
+"कार्य सुरु गर्न यहाँ तान्नुहोस्"
+
+#: OldView.cpp:357
+#, kde-format
+msgid ""
+"Drag here to stop services\n"
+"when entering runlevel %1"
+msgstr ""
+"रनलेभल %1 प्रविष्ट गर्दा\n"
+"कार्य बन्द गर्न यहाँ तान्नुहोस्"
+
+#: OldView.cpp:416
+msgid "The services available on your computer"
+msgstr "तपाईँको कम्प्युटरमा सेवा उपलब्ध छन्"
+
+#: OldView.cpp:476
+msgid "<vip>WRITING CONFIGURATION</vip>"
+msgstr "<vip>लेखन कन्फिगरेसन</vip>"
+
+#: OldView.cpp:477
+msgid "** WRITING CONFIGURATION **"
+msgstr "** लेखन कन्फिगरेसन **"
+
+#: OldView.cpp:481
+#, kde-format
+msgid "<rl>RUNLEVEL %1</rl>"
+msgstr "<rl>रनलेभल %1</rl>"
+
+#: OldView.cpp:482
+#, kde-format
+msgid "** RUNLEVEL %1 **"
+msgstr "** रनलेभल %1 **"
+
+#: OldView.cpp:618
+#, kde-format
+msgid "** <stop>Stopping</stop> <cmd>%1</cmd> **<br/>"
+msgstr "** <stop>रोक्दैछ</stop> <cmd>%1</cmd> **<br/>"
+
+#: OldView.cpp:619
+#, kde-format
+msgid "** Stopping %1 **"
+msgstr "** %1 रोक्दैछ **"
+
+#: OldView.cpp:624
+msgid " stop"
+msgstr " रोक्नुहोस्"
+
+#: OldView.cpp:644
+#, kde-format
+msgid "** <start>Starting</start> <cmd>%1</cmd> **<br/>"
+msgstr "** <start>सुरु</start> <cmd>%1</cmd> **<br/>"
+
+#: OldView.cpp:645
+#, kde-format
+msgid "** Starting %1 **"
+msgstr "** %1 सुरु गर्दैछ **"
+
+#: OldView.cpp:650
+msgid " start"
+msgstr " सुरु गर्नुहोस्"
+
+#: OldView.cpp:684
+#, kde-format
+msgid "** Re-starting <cmd>%1</cmd> **</br>"
+msgstr "** पुन: सुरु गर्दैछ <cmd>%1</cmd> **</br>"
+
+#: OldView.cpp:685
+#, kde-format
+msgid "** Re-starting %1 **"
+msgstr "** %1 पुन: सुरु गर्दैछ **"
+
+#: OldView.cpp:690
+msgid " restart"
+msgstr " पुन: सुरु गर्नुहोस्"
+
+#: OldView.cpp:940
+#, kde-format
+msgid ""
+"<p>You have specified that your system's init scripts are located in the "
+"folder <tt><b>%1</b></tt>, but this folder does not exist. You probably "
+"selected the wrong distribution during configuration.</p> <p>If you "
+"reconfigure %2, it may be possible to fix the problem. If you choose to "
+"reconfigure, you should shut down the application and the configuration "
+"wizard will appear the next time %3 is run. If you choose not to "
+"reconfigure, you will not be able to view or edit your system's init "
+"configuration.</p><p>Would you like to reconfigure %4?</p>"
+msgstr ""
+"<p>तपाईँले आफ्नो प्रणालीको सुरुआत स्क्रिप्ट <tt><b>%1</b></tt> मा भएको "
+"निर्दिष्ट गर्नुभएकोछ, तर यो फोल्डर अवस्थित छैन । तपाईँले कन्फिगरेसन गर्दा "
+"सम्भवत: गलत वितरण चयन गर्नुभएको छ ।</p> <p>तपाईँले %2 पुन: कन्फिगर गरेमा, यो "
+"समस्या समाधान गर्न सम्भव हुन सक्छ । तपाईँले पुन: कन्फिगर गर्न रोजेमा, "
+"अनुप्रयोग बन्द गर्नुपर्छ र पछिल्लो समयमा %3 चलेको बेलामा कन्फिगरेसन विजार्ज "
+"देखापर्नेछ । तपाईँले पुन: कन्फिगर नगर्न रोजेमा, तपाईँको प्रणली सुरुआत "
+"कन्फिगरेसन हेर्न वा सम्पादन गर्न सक्नुहुने छैन ।</p><p> तपाईँ %4 लाई पुन: "
+"कन्फिगर गर्न चाहनुहुन्छ ?</p>"
+
+#: OldView.cpp:957
+msgid "Folder Does Not Exist"
+msgstr "फोल्डर अवस्थित छैन"
+
+#: OldView.cpp:957
+msgid "Reconfigure"
+msgstr "पुन: कन्फिगर गर्नुहोस्"
+
+#: OldView.cpp:957
+msgid "Do Not Reconfigure"
+msgstr "पुन: कन्फिगर नगर्नुहोस्"
+
+#: OldView.cpp:968
+#, kde-format
+msgid ""
+"<p>You do not have the right permissions to edit your system's init "
+"configuration. However, you are free to browse the runlevels.</p><p>If you "
+"really want to edit the configuration, either <strong>restart</strong> %1 "
+"<strong>as root</strong> (or another privileged user), or ask your sysadmin "
+"to install %2 <em>suid</em> or <em>sgid</em>.</p><p>The latter way is not "
+"recommended though, due to security issues.</p>"
+msgstr ""
+"<p>तपाईँलाई प्रणालीको सुरुआत कन्फिगरेसन सम्पादन गर्न उचित अधिकार छैन । "
+"तापनि, तपाईँ रनलेभल ब्राउज गर्न स्वतन्त्र हुनुहुन्छ ।</p><p>यदि तपाईँले "
+"वास्तवमै कन्फिगरेसन सम्पादन गर्न चाहेमा, यात <strong>रूटमा</strong> %1 "
+"<strong> पुन: सुरु गर्नुहोस्</strong> (वा अन्य बिशेषाधिकार प्रयोगकर्ता), वा "
+"%2 स्थापना गर्ने <em>suid</em> वा <em>sgid</em> प्रणाली प्रशासकसँग "
+"सोध्नुहोस् ।</p><p>सूरक्षा विषयका कारणले, पछिल्लो तरिका सिफारिस गरिने छैन "
+"।</p>"
+
+#: OldView.cpp:980
+msgid "Insufficient Permissions"
+msgstr "अपर्याप्त अनुमति"
+
+#: OldView.cpp:1032
+msgid "&Other..."
+msgstr "अन्य..."
+
+#: PreferencesDialog.cpp:34
+msgid "Configure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#. i18n: file: lookandfeelconfig.ui:18
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: PreferencesDialog.cpp:43 rc.cpp:111
+msgid "Look & Feel"
+msgstr "हर्नुहोस् र अनुभव गर्नुहोस्"
+
+#. i18n: file: configwizard.ui:300
+#. i18n: ectx: attribute, widget
+#: PreferencesDialog.cpp:71 rc.cpp:48
+msgid "Paths"
+msgstr "मार्ग"
+
+#. i18n: file: miscconfig.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: PreferencesDialog.cpp:81 rc.cpp:190
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#: PreferencesDialog.cpp:81
+msgid "Settings Not Fitting Anywhere Else"
+msgstr "सेटिङ कतै पनि फिट छैन"
+
+#: PreferencesDialog.cpp:145
+msgid ""
+"The service folder you specified does not exist.\n"
+"You can continue if you want to, or you can click Cancel to select a new "
+"folder."
+msgstr ""
+"तपाईँले निर्दिष्ट गरेको कार्य फोल्डर अवस्थित छैन ।\n"
+"तपाईँले चाहेमा जारी राख्न चाहनुहुन्छ, वा नयाँ फोल्डर चयन गर्न रद्द क्लिक "
+"गर्न सक्नुहुन्छ ।"
+
+#: PreferencesDialog.cpp:150 PreferencesDialog.cpp:161
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: PreferencesDialog.cpp:156
+msgid ""
+"The runlevel folder you specified does not exist.\n"
+"You can continue if you want to, or you can click Cancel to select a new "
+"folder."
+msgstr ""
+"तपाईँले निर्दिष्ट गरेको रनलेभल फोल्डर अवस्थित छैन ।\n"
+"तपाईँले चाहेमा जारी राख्न चाहनुहुन्छ, वा नयाँ फोल्डर चयन गर्न रद्द क्लिक "
+"गर्न सक्नुहुन्छ ।"
+
+#: Properties.cpp:59
+msgid "&Service"
+msgstr "सेवा"
+
+#: Properties.cpp:67
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: Properties.cpp:74
+msgid "Actions"
+msgstr "कार्य"
+
+#. i18n: file: ksysvui.rc:17
+#. i18n: ectx: Menu (edit)
+#: Properties.cpp:75 rc.cpp:87
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#: Properties.cpp:81
+msgid "&Start"
+msgstr "सुरु"
+
+#: Properties.cpp:84
+msgid "S&top"
+msgstr "रोक्नुहोस्"
+
+#: Properties.cpp:87
+msgid "&Restart"
+msgstr "फेरि सुरु गर्नुहोस्"
+
+#: Properties.cpp:138
+msgid "&Entry"
+msgstr "प्रविष्टि"
+
+#: Properties.cpp:143
+msgid "&Name:"
+msgstr "नाम:"
+
+#: Properties.cpp:148
+msgid "&Points to service:"
+msgstr "सेवालाई दर्शाउछ:"
+
+#: Properties.cpp:154
+msgid "&Sorting number:"
+msgstr "क्रमबद्ध नम्बर:"
+
+#: RunlevelAuthIcon.cpp:45
+msgid "Editing disabled - please check your permissions"
+msgstr "सम्पादन अक्षम पारियो - कृपया तपाईँको अनुमति जाँच गर्नुहोस्"
+
+#: RunlevelAuthIcon.cpp:46 kauthicon.cpp:100
+msgid "Editing enabled"
+msgstr "सम्पादन सक्षम पारियो"
+
+#: TopWidget.cpp:123
+msgid "Start Service"
+msgstr "सेवा सुरु गर्नुहोस्"
+
+#: TopWidget.cpp:124
+msgid "&Choose which service to start:"
+msgstr "सुरु गर्नुपर्ने सेवा रोज्नुहोस्:"
+
+#: TopWidget.cpp:126
+msgid "Stop Service"
+msgstr "सेवा रोक्नुहोस्"
+
+#: TopWidget.cpp:127
+msgid "&Choose which service to stop:"
+msgstr "रोक्नुपर्ने सेवा रोज्नुहोस्:"
+
+#: TopWidget.cpp:129
+msgid "Restart Service"
+msgstr "सेवा पुन: सुरु गर्नुहोस्"
+
+#: TopWidget.cpp:130
+msgid "&Choose which service to restart:"
+msgstr "पुन: सुरु गर्नुपर्ने सेवा रोज्नुहोस्:"
+
+#: TopWidget.cpp:132
+msgid "Edit Service"
+msgstr "सेवा सम्पादन गर्नुहोस्"
+
+#: TopWidget.cpp:133
+msgid "&Choose which service to edit:"
+msgstr "सम्पादन गर्नुपर्ने सेवा रोज्नुहोस्:"
+
+#: TopWidget.cpp:220
+msgid "Re&vert Configuration"
+msgstr "कन्फिगरेसन पछाडि फर्काउनुहोस्"
+
+#: TopWidget.cpp:223
+msgid "&Open..."
+msgstr "खोल्नुहोस्..."
+
+#: TopWidget.cpp:226
+msgid "&Save Configuration"
+msgstr "कन्फिगरेसन बचत गर्नुहोस्"
+
+#: TopWidget.cpp:231
+msgid "Save &Log..."
+msgstr "लग बचत गर्नुहोस्..."
+
+#: TopWidget.cpp:239
+msgid "&Print Log..."
+msgstr "लग मुद्रण गर्नुहोस्..."
+
+#: TopWidget.cpp:255
+msgid "P&roperties"
+msgstr "गुण"
+
+#: TopWidget.cpp:259
+msgid "&Open"
+msgstr "खोल्नुहोस्"
+
+#: TopWidget.cpp:263
+msgid "Open &With"
+msgstr "यससँग खोल्नुहोस्"
+
+#: TopWidget.cpp:272
+msgid "Show &Log"
+msgstr "लग देखाउनुहोस्"
+
+#: TopWidget.cpp:275
+msgid "Hide &Log"
+msgstr "लग लुकाउनुहोस्"
+
+#: TopWidget.cpp:278
+msgid "&Start Service..."
+msgstr "सेवा सुरु गर्नुहोस्..."
+
+#: TopWidget.cpp:282
+msgid "&Stop Service..."
+msgstr "सेवा रोक्नुहोस्..."
+
+#: TopWidget.cpp:286
+msgid "&Restart Service..."
+msgstr "सेवा पुन: सुरु गर्नुहोस्..."
+
+#: TopWidget.cpp:290
+msgid "&Edit Service..."
+msgstr "सेवा सम्पादन गर्नुहोस्..."
+
+#: TopWidget.cpp:304
+msgid "There are unsaved changes. Are you sure you want to quit?"
+msgstr ""
+"त्यहाँ बचत नगरिएका परिवर्तन छन् । तपाईँ अन्त्य गर्नेमा निश्चिन्त हुनुहुन्छ ?"
+
+#: TopWidget.cpp:305
+msgid "Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: TopWidget.cpp:318
+msgid "Do you really want to revert all unsaved changes?"
+msgstr "तपाईँ वास्तवमै सबै बचत नगरिएका परिवर्तन पछाडि फर्काउन चाहनुहुन्छ ?"
+
+#: TopWidget.cpp:319
+msgid "Revert Configuration"
+msgstr "कन्फिगरेसन पछाडि फर्काउनुहोस्"
+
+#: TopWidget.cpp:320
+msgid "&Revert"
+msgstr "पछाडि फर्काउनहोस्"
+
+#: TopWidget.cpp:331
+msgid ""
+"You're about to save the changes made to your init configuration. Wrong "
+"settings can make your system hang on startup.\n"
+"Do you wish to continue?"
+msgstr ""
+"तपाईँको सुरुआत कन्फिगरेसनमा गरेका परिवर्तन बचत गर्दै हुनुहुन्छ । गलत सेटिङले "
+"तपाईँको प्रणालीको सुरुआतमा ह्याङ बनाउन सक्छ ।\n"
+"तपाईँ जारी राख्न चाहनुहुन्छ?"
+
+#: TopWidget.cpp:335
+msgid "Save Configuration"
+msgstr "कन्फिगरेसन बचत गर्नुहोस्"
+
+#: TopWidget.cpp:403
+msgid ""
+"<p>Click on the checkboxes to <strong>show</strong> or <strong>hide</strong> "
+"runlevels.</p> <p>The list of currently visible runlevels is saved when you "
+"use the <strong>Save Options command</strong>.</p>"
+msgstr ""
+"<p>रनलेभल <strong>देखाउन</strong> वा <strong>लुकाउन</strong> जाँच बाकसमा "
+"क्लिक गर्नुहोस् ।</p> <p>तपाईँले <strong>बचत विकल्प आदेश</strong> प्रयोग "
+"गर्दा हालै देखिने रनलेभलको सूची बचत हुन्छ ।</p>"
+
+#: TopWidget.cpp:407
+msgid "Show only the selected runlevels"
+msgstr "चयन गरिएका रनलेभल मात्र देखाउनुहोस्"
+
+#: TopWidget.cpp:409
+msgid "Show runlevels:"
+msgstr "रनलेभल देखाउनुहोस्:"
+
+#: TopWidget.cpp:427
+#, kde-format
+msgid ""
+"<p>If the lock is closed <img src=\"user|ksysv_locked\"/>, you do not have "
+"the right <strong>permissions</strong> to edit the init "
+"configuration.</p><p>Either restart %1 as root (or another more privileged "
+"user), or ask your sysadmin to install %2 <em>suid</em> or "
+"<em>sgid</em>.</p><p>The latter way is <strong>not</strong> recommended "
+"though, due to security issues.</p>"
+msgstr ""
+
+#: TopWidget.cpp:571
+msgid " Changed"
+msgstr " परिवर्तित"
+
+#: TopWidget.cpp:775
+msgid "<h1>KDE Sys-V Init Editor Log</h1>"
+msgstr "<h1>KDE Sys-V Init सम्पादक लग/h1>"
+
+#: TopWidget.cpp:785
+#, kde-format
+msgid "<h3>Printed on %1</h3><br/><br/>"
+msgstr "<h3> %1 मा मुद्रण गरिएको</h3><br/><br/>"
+
+#: TopWidget.cpp:838
+msgid ""
+"<p>Unable to generate a valid sorting number for this position. This means "
+"that there was no number available between the two adjacent services, and "
+"the service did not fit in lexically.</p><p>Please adjust the sorting "
+"numbers manually via the <strong>Properties dialog box</strong>.</p>"
+msgstr ""
+"<p>यो स्थानका लागि वैध क्रमबद्ध नम्बर उत्पन्न गर्न असक्षम । यसको अर्थ दुई "
+"निकटवर्ती सेवाको बिचमा नम्बर उपलब्ध छैन र सेवा शाब्दिक रूपमा ठीक नभएको भन्ने "
+"हुन्छ ।</p><p>कृपया <strong>विशेषता संवाद बाकस</strong> हुँदै क्रमबद्ध नम्बर "
+"म्यानुअली समायोजन गर्नुहोस् ।</p>"
+
+#: TopWidget.cpp:845
+msgid "Unable to Generate Sorting Number"
+msgstr "क्रमबद्ध नम्बर उत्पन्न गर्न असफल"
+
+#: TopWidget.cpp:849
+msgid "Unable to generate sorting number. Please change manually."
+msgstr ""
+"क्रमबद्ध नम्बर उत्पन्न गर्न असफल । कृपया म्यानुअली परिवर्तन गर्नुहोस् ।"
+
+#: TopWidget.cpp:1063
+msgid "Configuration package saved successfully."
+msgstr "कन्फिगरेसन प्याकेज सफलतापूर्वक बचत गरियो ।"
+
+#: TopWidget.cpp:1093
+msgid "Configuration package loaded successfully."
+msgstr "कन्फिगरेसन प्याकेज सफलतापूर्वक लोड गरियो ।"
+
+#: kauthicon.cpp:99
+msgid "Editing disabled"
+msgstr "सम्पादन अक्षम पारियो"
+
+#: ksv_core.cpp:42
+msgid "No description available."
+msgstr "वर्णन उपलब्ध छैन ।"
+
+#: ksv_core.cpp:162
+msgid " log files"
+msgstr " लग फाइल"
+
+#: ksv_core.cpp:170
+msgid "Saved Init Configurations"
+msgstr "सुरुआत कन्फिगरेसन बचत गरियो"
+
+#: ksvdraglist.cpp:339
+msgid "No."
+msgstr "होइन ।"
+
+#: ksvdraglist.cpp:343
+msgid "Name"
+msgstr "नाम"
+
+#: ksvdraglist.cpp:355 ksvdraglist.cpp:359 ksvdraglist.cpp:362
+msgid "Drag Menu"
+msgstr "तान्ने मेनु"
+
+#: main.cpp:66
+msgid "SysV-Init Editor"
+msgstr "SysV सुरुआत सम्पादक"
+
+#: main.cpp:67
+msgid "Editor for Sys-V like init configurations"
+msgstr "Sys-V जस्तो सुरुआत कन्फिगरेसनका लागि सम्पादक"
+
+#: main.cpp:69
+msgid "Copyright (c) 1997-2000, Peter Putzer."
+msgstr "प्रतिलिपि अधिकार (c) १९९७-२०००, पिटर पुट्जर ।"
+
+#: main.cpp:70
+msgid ""
+"Similar to Red Hat's\"tksysv\", but SysV-Init Editor allows\n"
+"drag-and-drop, as well as keyboard use."
+msgstr ""
+"रेड ह्याटको \"tksysv\" सँग समान छ, तर SysV सुरुआत सम्पादकले\n"
+"तान्न र राख्न, साथै कुञ्जीपाटी प्रयोग गर्न अनुमति दिन्छ ।"
+
+#: main.cpp:73
+msgid "Peter Putzer"
+msgstr "पिटर पुट्जर"
+
+#: main.cpp:73
+msgid "Main developer"
+msgstr "मुख्य विकासकर्ता"
+
+#. i18n: file: configwizard.ui:22
+#. i18n: ectx: property, widget
+#: rc.cpp:3
+msgid "Configuration Wizard"
+msgstr "कन्फिगरेसन विजार्ड"
+
+#. i18n: file: configwizard.ui:38
+#. i18n: ectx: attribute, widget
+#: rc.cpp:6
+msgid "Operating System"
+msgstr "सञ्चालन प्रणाली"
+
+#. i18n: file: configwizard.ui:57
+#. i18n: ectx: property, widget
+#: rc.cpp:9
+msgid "<h3>What Operating System do you use?</h3>"
+msgstr "<h3>तपाईँ कुन सञ्चालन प्रणाली प्रयोग गर्नुहुन्छ ?</h3>"
+
+#. i18n: file: configwizard.ui:90
+#. i18n: ectx: property, widget
+#: rc.cpp:12
+msgid "Choose Your Operating System"
+msgstr "तपाईँले सञ्चालन प्रणाली रोज्नुहोस्"
+
+#. i18n: file: configwizard.ui:109
+#. i18n: ectx: property, widget
+#: rc.cpp:15
+msgid "&Linux"
+msgstr "लिनक्स"
+
+#. i18n: file: configwizard.ui:120
+#. i18n: ectx: property, widget
+#. i18n: file: configwizard.ui:264
+#. i18n: ectx: property, widget
+#: rc.cpp:18 rc.cpp:45
+msgid "&Other"
+msgstr "अन्य"
+
+#. i18n: file: configwizard.ui:156
+#. i18n: ectx: attribute, widget
+#: rc.cpp:21
+msgid "Distribution"
+msgstr "वितरण"
+
+#. i18n: file: configwizard.ui:175
+#. i18n: ectx: property, widget
+#: rc.cpp:24
+msgid "Choose Your Distribution"
+msgstr "तपाईँको वितरण रोज्नुहोस्"
+
+#. i18n: file: configwizard.ui:194
+#. i18n: ectx: property, widget
+#: rc.cpp:27
+msgid "&Debian GNU/Linux"
+msgstr "डेबियन जीएनयू/लिनक्स"
+
+#. i18n: file: configwizard.ui:209
+#. i18n: ectx: property, widget
+#: rc.cpp:30
+msgid "&Red Hat Linux"
+msgstr "रेड ह्याट लिनक्स"
+
+#. i18n: file: configwizard.ui:220
+#. i18n: ectx: property, widget
+#: rc.cpp:33
+msgid "&SuSE Linux"
+msgstr "SuSE लिनक्स"
+
+#. i18n: file: configwizard.ui:231
+#. i18n: ectx: property, widget
+#: rc.cpp:36
+msgid "&Mandrake Linux"
+msgstr "म्यानड्राक लिनक्स"
+
+#. i18n: file: configwizard.ui:242
+#. i18n: ectx: property, widget
+#: rc.cpp:39
+msgid "&Corel Linux OS"
+msgstr "कोरल लिनक्स OS"
+
+#. i18n: file: configwizard.ui:253
+#. i18n: ectx: property, widget
+#: rc.cpp:42
+msgid "Conec&tiva Linux"
+msgstr "कनेक्टिभा लिनक्स"
+
+#. i18n: file: configwizard.ui:340
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:65
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:51 rc.cpp:211
+msgid "&Service path:"
+msgstr "सेवा मार्ग:"
+
+#. i18n: file: configwizard.ui:388
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:107
+#. i18n: ectx: property (toolTip), widget (KLineEdit)
+#: rc.cpp:54 rc.cpp:214
+msgid "Enter the path to the folder containing the services"
+msgstr "सेवा समाविष्ट फोल्डरमा मार्ग प्रविष्ट गर्नुहोस्"
+
+#. i18n: file: configwizard.ui:399
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:115
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:57 rc.cpp:217
+msgid "&Browse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#. i18n: file: configwizard.ui:403
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:118
+#. i18n: ectx: property (toolTip), widget (QPushButton)
+#: rc.cpp:60 rc.cpp:220
+msgid "Select the folder containing the services"
+msgstr "सेवा समाविष्ट फोल्डर चयन गर्नुहोस्"
+
+#. i18n: file: configwizard.ui:462
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:169
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:63 rc.cpp:223
+msgid "&Runlevel path:"
+msgstr "रनलेभल मार्ग:"
+
+#. i18n: file: configwizard.ui:510
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:211
+#. i18n: ectx: property (toolTip), widget (KLineEdit)
+#: rc.cpp:66 rc.cpp:226
+msgid "Enter the path to the folder containing the runlevel folders"
+msgstr "रनलेभल फोल्डर समाविष्ट फोल्डरमा मार्ग प्रविष्ट गर्नुहोस्"
+
+#. i18n: file: configwizard.ui:521
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:219
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:69 rc.cpp:229
+msgid "Br&owse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#. i18n: file: configwizard.ui:525
+#. i18n: ectx: property, widget
+#. i18n: file: pathconfig.ui:222
+#. i18n: ectx: property (toolTip), widget (QPushButton)
+#: rc.cpp:72 rc.cpp:232
+msgid "Select the folder containing the runlevel folders "
+msgstr "रनलेभल फोल्डर समाविष्ट फोल्डर चयन गर्नुहोस् "
+
+#. i18n: file: configwizard.ui:563
+#. i18n: ectx: attribute, widget
+#: rc.cpp:75
+msgid "Configuration Complete"
+msgstr "कन्फिगरेसन समाप्त"
+
+#. i18n: file: configwizard.ui:585
+#. i18n: ectx: property, widget
+#: rc.cpp:78
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>\n"
+"You have finished the initial configuration of SysV-Init Editor. "
+"<b>Press</b> the button labeled <b>Finish</b> to start editing your init-"
+"configuration.\n"
+"</p>"
+msgstr ""
+"<h1>बधाइ छ!</h1>\n"
+"<p>\n"
+"तपाईँले SysV-Init सम्पादकको सुरुआत कन्फिगरेसन समाप्त गर्नुभयो । तपाईँको "
+"सुरुआत कन्फिगरेसन सम्पादन सुरु गर्न <b>समाप्त</b> लेबुल गरिएको बटन "
+"<b>थिच्नुहोस्</b> ।\n"
+"</p>"
+
+#. i18n: file: ksysvui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:84
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: ksysvui.rc:28
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:90
+msgid "&Tools"
+msgstr "उपकरण"
+
+#. i18n: file: ksysvui.rc:36
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:93
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: ksysvui.rc:47
+#. i18n: ectx: Menu (help)
+#: rc.cpp:96
+msgid "&Help"
+msgstr "मद्दत"
+
+#. i18n: file: ksysvui.rc:59
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:99
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: lookandfeelconfig.ui:39
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:114
+msgid "Fonts"
+msgstr "फन्ट"
+
+#. i18n: file: lookandfeelconfig.ui:70
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:117
+msgid "C&hoose..."
+msgstr "रोज्नुहोस्..."
+
+#. i18n: file: lookandfeelconfig.ui:98
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: file: lookandfeelconfig.ui:126
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:120 rc.cpp:123
+msgid "dummy-font"
+msgstr "डमी-फन्ट"
+
+#. i18n: file: lookandfeelconfig.ui:134
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:126
+msgid "Services:"
+msgstr "सेवा:"
+
+#. i18n: file: lookandfeelconfig.ui:150
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:129
+msgid "Sorting numbers:"
+msgstr "क्रमबद्ध नम्बर:"
+
+#. i18n: file: lookandfeelconfig.ui:166
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:132
+msgid "&Choose..."
+msgstr "रोज्नुहोस्..."
+
+#. i18n: file: lookandfeelconfig.ui:203
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:135
+msgid "Colors"
+msgstr "रङ"
+
+#. i18n: file: lookandfeelconfig.ui:251
+#. i18n: ectx: property (text), widget (KColorButton)
+#. i18n: file: lookandfeelconfig.ui:299
+#. i18n: ectx: property (text), widget (KColorButton)
+#. i18n: file: lookandfeelconfig.ui:347
+#. i18n: ectx: property (text), widget (KColorButton)
+#. i18n: file: lookandfeelconfig.ui:379
+#. i18n: ectx: property (text), widget (KColorButton)
+#: rc.cpp:138 rc.cpp:151 rc.cpp:164 rc.cpp:174
+msgid "Dummy"
+msgstr "डमी"
+
+#. i18n: file: lookandfeelconfig.ui:254
+#. i18n: ectx: property (toolTip), widget (KColorButton)
+#: rc.cpp:141
+msgid "Choose a color for changed services"
+msgstr "परिवर्तन गरिएका सेवाका लागि रङ रोज्नुहोस्"
+
+#. i18n: file: lookandfeelconfig.ui:258
+#. i18n: ectx: property (whatsThis), widget (KColorButton)
+#: rc.cpp:144
+msgid ""
+"<p>Use the <strong>Select Color dialog box</strong> to pick a text color for "
+"<em>services that have been changed</em> (either order/sorting number or "
+"name).</p>\n"
+"<p>Changed service entries will be distinguished by this color.</p>"
+msgstr ""
+"<p> <em>परिवर्तन गरिएका सेवाका</em> लागि पाठ रङ छनोट गर्न <strong>चयन रङ "
+"संवाद बाकस</strong> प्रयोग गर्नुहोस् (क्रम/क्रमबद्ध नम्बर वा नाम) ।</p>\n"
+"<p>परिवर्तन गरिएका कार्य प्रविष्टि रङद्वारा छुट्ट्याइने छन् ।</p>"
+
+#. i18n: file: lookandfeelconfig.ui:266
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:148
+msgid "&Changed:"
+msgstr "परिवर्तित:"
+
+#. i18n: file: lookandfeelconfig.ui:302
+#. i18n: ectx: property (toolTip), widget (KColorButton)
+#: rc.cpp:154
+msgid "Choose a color for service new to a runlevel"
+msgstr "रनलेभलमा नयाँ सेवाका लागि रङ रोज्नुहोस्"
+
+#. i18n: file: lookandfeelconfig.ui:306
+#. i18n: ectx: property (whatsThis), widget (KColorButton)
+#: rc.cpp:157
+msgid ""
+"<p>Use the <strong>Select Color dialog box</strong> to pick a text color for "
+"<em>services new to a runlevel</em>.</p>\n"
+"<p>New service entries will be distinguished by this color.</p>"
+msgstr ""
+"<p> <em>रनलेभलमा नयाँ सेवा</em> का लागि पाठ रङ छनोट गर्न <strong>रङ संवाद "
+"बाकस चयन</strong> प्रयोग गर्नुहोस् ।</p>\n"
+"<p>नयाँ सेवा प्रविष्टि यो रङद्वारा छुट्ट्याइन्छन् ।</p>"
+
+#. i18n: file: lookandfeelconfig.ui:314
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:161
+msgid "&New:"
+msgstr "नयाँ:"
+
+#. i18n: file: lookandfeelconfig.ui:350
+#. i18n: ectx: property (toolTip), widget (KColorButton)
+#: rc.cpp:167
+msgid "Choose a color for changed services that are selected"
+msgstr "चयन गरिएका परिवर्तित सेवाका लागि रङ रोज्नुहोस्"
+
+#. i18n: file: lookandfeelconfig.ui:354
+#. i18n: ectx: property (whatsThis), widget (KColorButton)
+#: rc.cpp:170
+msgid ""
+"<p>Use the <strong>Select Color dialog box</strong> to pick a selected text "
+"color for <em>services that have been changed</em> (either order/sorting "
+"number or name).</p>\n"
+"<p>Changed service entries will be distinguished by this color while they "
+"are selected.</p>"
+msgstr ""
+"<p><em>परिवर्तन गरिएका सेवा</em>का लागि चयन गरिएका पाठ रङ छनोट गर्न "
+"<strong>चयन रङ संवाद बाकस</strong> प्रयोग गर्नुहोस् (क्रम/क्रमबद्ध नम्बर वा "
+"नाम) ।</p>\n"
+"<p>परिवर्तन गरिएका सेवा प्रविष्टि तीनलाई चयन गरेको बेलामा यो रङद्वारा "
+"छुट्ट्याइन्छन् ।</p>"
+
+#. i18n: file: lookandfeelconfig.ui:382
+#. i18n: ectx: property (toolTip), widget (KColorButton)
+#: rc.cpp:177
+msgid "Choose a color for services new to a runlevel that are selected"
+msgstr "रनलेभलमा चयन गरिएका नयाच सेवाका लागि रङ रोज्नुहोस्"
+
+#. i18n: file: lookandfeelconfig.ui:386
+#. i18n: ectx: property (whatsThis), widget (KColorButton)
+#: rc.cpp:180
+msgid ""
+"<p>Use the <strong>Select Color dialog box</strong> to pick a selected text "
+"color for <em>services new to a runlevel</em>.</p>\n"
+"<p>New service entries will be distinguished by this color while they are "
+"selected.</p>"
+msgstr ""
+"<p><em>रनलेभलमा नयाँ सेवा</em> का लागि चयन गरिएको पाठ रङ छनोट गर्न "
+"<strong>चयन रङ संवाद बाकस</strong> प्रयोग गर्नुहोस् ।</p>\n"
+"<p>नयाँ सेवा प्रविष्टि चयन गरेको बेलामा यो रङद्वारा छुट्ट्याइन्छन् ।</p>"
+
+#. i18n: file: lookandfeelconfig.ui:394
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:184
+msgid "New && &selected:"
+msgstr "नयाँ चयन:"
+
+#. i18n: file: lookandfeelconfig.ui:410
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:187
+msgid "Changed && s&elected:"
+msgstr "परिवर्तित र चयन गरिएको:"
+
+#. i18n: file: miscconfig.ui:38
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:193
+msgid "Informational Messages"
+msgstr "सूचना सन्देश"
+
+#. i18n: file: miscconfig.ui:73
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:196
+msgid "Show all messages again:"
+msgstr "सबै सन्देश फेरि देखाउनुहोस्:"
+
+#. i18n: file: miscconfig.ui:98
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:199
+msgid "&Show All"
+msgstr "सबै देखाउनुहोस्"
+
+#. i18n: file: miscconfig.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:202
+msgid "&Warn if not allowed to write configuration"
+msgstr "यदि कन्फिगरेसन लेख्न अनुमति नभएमा चेतावनी दिनुहोस्"
+
+#. i18n: file: miscconfig.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:205
+msgid "Warn &if unable to generate a sorting number"
+msgstr "यदि क्रमबद्ध नम्बर उत्पन्न गर्न असफल भएमा चेतावनी दिनुहोस्"
+
+#. i18n: file: pathconfig.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: rc.cpp:208
+msgid "Path Configuration"
+msgstr "मार्ग कन्फिगरेसन"
+
+#: rc.cpp:233
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:234
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#: trash.cpp:60 trash.cpp:61
+msgid "Drag here to remove services"
+msgstr "सेवा हटाउन यहाँ तान्नुहोस्"

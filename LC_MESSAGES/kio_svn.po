@@ -1,0 +1,311 @@
+# translation of kio_svn.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_svn\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 19:08+0000\n"
+"PO-Revision-Date: 2009-07-16 09:54+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:06+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr " ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,"
+
+#. i18n: file: svnhelper/subversioncheckout.ui:36
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: svnhelper/subversionswitch.ui:36
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:5 rc.cpp:20
+msgid "Revision (0 for HEAD):"
+msgstr ""
+
+#. i18n: file: svnhelper/subversionlog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, Subversion_Log)
+#: rc.cpp:8
+msgid "Subversion Log"
+msgstr ""
+
+#. i18n: file: svnhelper/subversionlog.ui:59
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#. i18n: file: svnhelper/subversiondiff.ui:56
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#. i18n: file: ksvnd/commitdlg.ui:49
+#. i18n: ectx: property (text), widget (QPushButton, pushButton1)
+#: rc.cpp:11 rc.cpp:17 rc.cpp:26
+msgid "&OK"
+msgstr ""
+
+#. i18n: file: svnhelper/subversiondiff.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, Subversion_Diff)
+#: rc.cpp:14
+msgid "Subversion Diff"
+msgstr ""
+
+#. i18n: file: ksvnd/commitdlg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, CommitDlg)
+#: rc.cpp:23
+msgid "Log Message"
+msgstr ""
+
+#. i18n: file: ksvnd/commitdlg.ui:56
+#. i18n: ectx: property (text), widget (QPushButton, pushButton2)
+#: rc.cpp:29
+msgid "&Cancel"
+msgstr ""
+
+#: svn.cpp:233
+#, kde-format
+msgid "Looking for %1..."
+msgstr "%1 का लागि हेर्दैछ..."
+
+#: svn.cpp:343
+msgid "For reasons of safety, directories are not yet supported."
+msgstr ""
+
+#: svn.cpp:1198
+msgid "Nothing to commit."
+msgstr "कमिट गर्न केही छैन ।"
+
+#: svn.cpp:1200
+#, kde-format
+msgid "Committed revision %1."
+msgstr "कमिट गरिएको संशोधन %1 ।"
+
+#: svn.cpp:1453
+#, kde-format
+msgid "A (bin) %1"
+msgstr "A (bin) %1"
+
+#: svn.cpp:1455 svn.cpp:1487
+#, kde-format
+msgid "A %1"
+msgstr "A %1"
+
+#: svn.cpp:1461 svn.cpp:1483
+#, kde-format
+msgid "D %1"
+msgstr "D %1"
+
+#: svn.cpp:1464
+#, kde-format
+msgid "Restored %1."
+msgstr "पूर्वावस्थामा ल्याइएको %1 ।"
+
+#: svn.cpp:1467
+#, kde-format
+msgid "Reverted %1."
+msgstr "फर्काइएको %1 ।"
+
+#: svn.cpp:1470
+#, kde-format
+msgid ""
+"Failed to revert %1.\n"
+"Try updating instead."
+msgstr ""
+"%1 फर्काउन असफल भयो ।\n"
+"सट्टामा अद्यावधिक गर्ने प्रयास गर्नुहोस् ।"
+
+#: svn.cpp:1473
+#, kde-format
+msgid "Resolved conflicted state of %1."
+msgstr "%1 को प्रतिकूल स्थिति समाधन भयो ।"
+
+#: svn.cpp:1477
+#, kde-format
+msgid "Skipped missing target %1."
+msgstr "हराएको लक्ष्य %1 फड्काइयो ।"
+
+#: svn.cpp:1479
+#, kde-format
+msgid "Skipped  %1."
+msgstr "%1 फड्काइयो ।"
+
+#: svn.cpp:1532
+#, kde-format
+msgid "Exported external at revision %1."
+msgstr "संशोधन %1 मा बाह्य निर्यात गरियो ।"
+
+#: svn.cpp:1534
+#, kde-format
+msgid "Exported revision %1."
+msgstr "संशोधन %1 निर्यात गरियो ।"
+
+#: svn.cpp:1537
+#, kde-format
+msgid "Checked out external at revision %1."
+msgstr "संशोधन %1 मा बाह्य जाँच गरियो ।"
+
+#: svn.cpp:1539
+#, kde-format
+msgid "Checked out revision %1."
+msgstr "संशोधन %1 जाँच गरियो ।"
+
+#: svn.cpp:1543
+#, kde-format
+msgid "Updated external to revision %1."
+msgstr "संशोधन %1 मा बाह्य अद्यावधिक गरियो ।"
+
+#: svn.cpp:1545
+#, kde-format
+msgid "Updated to revision %1."
+msgstr "संशोधन %1 मा अद्यावधिक गरियो ।"
+
+#: svn.cpp:1548
+#, kde-format
+msgid "External at revision %1."
+msgstr "सशोधन %1 मा बाह्य ।"
+
+#: svn.cpp:1550
+#, kde-format
+msgid "At revision %1."
+msgstr "संशोधन %1 ।"
+
+#: svn.cpp:1556
+msgid "External export complete."
+msgstr "बाह्य निर्यात समाप्त भयो ।"
+
+#: svn.cpp:1558
+msgid "Export complete."
+msgstr "निर्यात पूरा भयो ।"
+
+#: svn.cpp:1561
+msgid "External checkout complete."
+msgstr "बाह्य जाँच पूरा भयो ।"
+
+#: svn.cpp:1563
+msgid "Checkout complete."
+msgstr "जाँच पूरा भयो ।"
+
+#: svn.cpp:1566
+msgid "External update complete."
+msgstr "बाह्या अद्यावधिक पूरा भयो ।"
+
+#: svn.cpp:1568
+msgid "Update complete."
+msgstr "अद्यावधिक पूरा भयो ।"
+
+#: svn.cpp:1578
+#, kde-format
+msgid "Fetching external item into %1."
+msgstr "%1 मा बाह्य वस्तु तान्दै ।"
+
+#: svn.cpp:1582
+#, kde-format
+msgid "Status against revision: %1."
+msgstr "संशोधन विरूद्ध वस्तुस्थिति: %1 ।"
+
+#: svn.cpp:1585
+#, kde-format
+msgid "Performing status on external item at %1."
+msgstr "%1 भित्र बाह्य वस्तुमा वस्तुस्थिति सम्पादन गर्दै ।"
+
+#: svn.cpp:1588
+#, kde-format
+msgid "Sending %1"
+msgstr "%1 पठाउँदै"
+
+#: svn.cpp:1592
+#, kde-format
+msgid "Adding (bin) %1."
+msgstr "(बिन) %1 थप्दै ।"
+
+#: svn.cpp:1594
+#, kde-format
+msgid "Adding %1."
+msgstr "%1 थप्दै ।"
+
+#: svn.cpp:1598
+#, kde-format
+msgid "Deleting %1."
+msgstr "%1 मेट्दै ।"
+
+#: svn.cpp:1601
+#, kde-format
+msgid "Replacing %1."
+msgstr "%1 प्रतिस्थापन गर्दै ।"
+
+#: svn.cpp:1606
+msgid "Transmitting file data "
+msgstr "फाइल डेटा स्थान्तरण गर्दै "
+
+#: ksvnd/ksvnd.cpp:381 svnhelper/kio_svn_helper.cpp:312
+msgid "Subversion"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:48
+msgid "Subversion Checkout"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:70
+msgid "Subversion Switch"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:284
+msgid "Request not recognized - it might not be implemented yet."
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:284
+msgid "Feature Not Implemented"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:320
+msgid "Subversion Helper"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:320
+msgid "KDE frontend for SVN"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:327
+msgid "Update given URL"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:329
+msgid "Commit given URL"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:331
+msgid "Checkout in given directory"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:333
+msgid "Add given URL to the working copy"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:335
+msgid "Delete given URL from the working copy"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:337
+msgid "Switch given working copy to another branch"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:339
+msgid "Revert local changes"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:341
+msgid "Merge changes between two branches"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:343
+msgid "Show locally made changements with diff"
+msgstr ""
+
+#: svnhelper/kio_svn_helper.cpp:345
+msgid "URL to update/commit/add/delete from Subversion"
+msgstr ""

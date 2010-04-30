@@ -1,0 +1,198 @@
+# translation of k3bsetup.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-09 03:10+0000\n"
+"PO-Revision-Date: 2008-08-19 19:28+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:11+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr ""
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr ""
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr ""
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+
+#: k3bsetup.cpp:149
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+
+#: k3bsetup.cpp:192
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr ""
+
+#: k3bsetup.cpp:232
+msgid "Cannot run worker."
+msgstr ""
+
+#: k3bsetup.cpp:242
+msgid "Following devices and programs could not be updated:"
+msgstr ""
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "कुनै परिवर्तन छैन"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "यन्त्र"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "यन्त्र नोड"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "अनुमति"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr ""
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "कार्यक्रम"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "संस्करण"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "मार्ग"
+
+#. i18n: file: base_k3bsetup.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:3
+msgid "Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: base_k3bsetup.ui:31
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkUseBurningGroup)
+#: rc.cpp:6
+msgid ""
+"<p>If this option is checked, only the users in the specified group will be "
+"able to burn CDs and DVDs, since only they will have access to the devices "
+"and the CD recording programs used by K3b.</p>\n"
+"<p>Otherwise all users on the system have access to the devices and to all "
+"K3b functionality."
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने, प्रयोगकर्ताहरूले K3b द्वारा प्रयोग गरिएको "
+"सीडी रेकर्डिङ कार्यक्रम र यन्त्रमा पहुँच गर्दा सम्म मात्र, उनीहरूले "
+"निर्दिष्ट गरिएको समूहमा सीडीहरू र डीभीडीहरू बर्न गर्न सक्षम हुनेछन् ।</p>\n"
+"<p>अन्यथा प्रणालीमा सबै प्रयोगकर्ताहरू यन्त्रमा र सबै K3b कार्यात्मकतामा "
+"पहुँच हुनेछन् ।"
+
+#. i18n: file: base_k3bsetup.ui:34
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkUseBurningGroup)
+#: rc.cpp:10
+msgid "Use burning group:"
+msgstr "बर्निङ समूह प्रयोग गर्नुहोस्:"
+
+#. i18n: file: base_k3bsetup.ui:44
+#. i18n: ectx: property (text), widget (KLineEdit, m_editBurningGroup)
+#: rc.cpp:13
+msgid "burning"
+msgstr "बर्न गर्दै"
+
+#. i18n: file: base_k3bsetup.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:16
+msgid "Users allowed to burn (separated by space):"
+msgstr ""
+"(खाली स्थानद्वारा विभाजन गरिएको) बर्न गर्न प्रयोगकर्तालाई अनुमति दिइयो:"
+
+#. i18n: file: base_k3bsetup.ui:104
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:19
+msgid "Devices"
+msgstr "यन्त्रहरू"
+
+#. i18n: file: base_k3bsetup.ui:110
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:22
+msgid "Check the devices whose permissions you want to be changed"
+msgstr ""
+"यन्त्रहरू जाँच गर्नुहोस् जसको अनुमतिहरू तपाईँ परिवर्तन गर्न चाहनुहुन्छ"
+
+#. i18n: file: base_k3bsetup.ui:133
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:25
+msgid "External Programs"
+msgstr "बाह्य कार्यक्रम"
+
+#. i18n: file: base_k3bsetup.ui:143
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:28
+msgid "Found Programs"
+msgstr "कार्यक्रम फेला पर्यो"
+
+#. i18n: file: base_k3bsetup.ui:149
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:31
+msgid "Check the programs whose permissions you want to be changed"
+msgstr ""
+"कार्यक्रम जाँच गर्नुहोस् जसको अनुमतिहरू तपाईँ परिवर्तन गर्न चाहनुहुन्छ"
+
+#. i18n: file: base_k3bsetup.ui:170
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: base_k3bsetup.ui:176
+#. i18n: ectx: property (title), widget (KEditListBox, m_editSearchPath)
+#: rc.cpp:34 rc.cpp:37
+msgid "Search Path"
+msgstr "मार्ग खोजी गर्नुहोस्"
+
+#. i18n: file: base_k3bsetup.ui:186
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:40
+msgid ""
+"<qt><b>Hint:</b> to force K3b to use another than the default name for the "
+"executable specify it in the search path.</qt>"
+msgstr ""
+"<qt><b> सङ्केत:</b> कार्यान्वयनयोग्यका लागि पूर्वानिर्धारित नाम भन्दा अर्को "
+"प्रयोग गर्न K3b लाई जोड दिन यसलाई खोजी मार्गमा निर्दिष्ट गर्नुहोस् ।</qt>"
+
+#: rc.cpp:41
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:42
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com,,,"

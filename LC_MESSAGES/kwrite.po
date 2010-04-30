@@ -1,0 +1,423 @@
+# translation of kwrite.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwrite\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:59+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:07+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kwritemain.cpp:71 kwritemain.cpp:486
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+
+#: kwritemain.cpp:150
+msgid "Use this command to close the current document"
+msgstr ""
+
+#: kwritemain.cpp:154
+msgid "Use this command to create a new document"
+msgstr "नयाँ कागजात सिर्जना गर्न यो आदेश प्रयोग गर्नुहोस्"
+
+#: kwritemain.cpp:156
+msgid "Use this command to open an existing document for editing"
+msgstr "सम्पादनका लागि अवस्थित कागजात खोल्न यो आदेश प्रयोग गर्नुहोस्"
+
+#: kwritemain.cpp:160
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"यसले तपाईँले हालै खोलेका फाइल सूचीवद्ध गर्दछ, र तिनलाई फेरि सजिलै खोल्न "
+"अनुमति दिन्छ ।"
+
+#: kwritemain.cpp:164
+msgid "&New Window"
+msgstr "नयाँ सञ्झ्याल"
+
+#: kwritemain.cpp:166
+msgid "Create another view containing the current document"
+msgstr "हालको कागजात समाविष्ट अर्को दृश्य सिर्जना गर्नुहोस्"
+
+#: kwritemain.cpp:169
+msgid "Close the current document view"
+msgstr "हालको कागजात दृश्य बन्द गर्नुहोस्"
+
+#: kwritemain.cpp:176
+msgid "Use this command to show or hide the view's statusbar"
+msgstr "दृश्यको स्थितिपट्टी देखाउन वा लुकाउन यो आदेश प्रयोग गर्नुहोस्"
+
+#: kwritemain.cpp:178
+msgid "Sho&w Path"
+msgstr "मार्ग देखाउनुहोस्"
+
+#: kwritemain.cpp:181
+msgid "Show the complete document path in the window caption"
+msgstr "सञ्झ्याल क्याप्सनमा पूरा कागजात मार्ग देखाउनुहोस्"
+
+#: kwritemain.cpp:184
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "अनुप्रयोगको कुञ्जीपाटी सर्टकट कार्य कन्फिगर गर्नुहोस् ।"
+
+#: kwritemain.cpp:188
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "उपकरणपट्टी(हरू) मा कुन वस्तु देखिनु पर्दछ कन्फिगर गर्नुहोस् ।"
+
+#: kwritemain.cpp:191
+msgid "&About Editor Component"
+msgstr "सम्पादक अवयवका बारेमा"
+
+#: kwritemain.cpp:200 kwritemain.cpp:550
+#, kde-format
+msgctxt "@info:status Statusbar label for cursor line and column position"
+msgid " Line: %1 Col: %2 "
+msgstr ""
+
+#: kwritemain.cpp:211
+msgid " INS "
+msgstr " INS "
+
+#: kwritemain.cpp:215 kwritemain.cpp:557
+msgctxt "@info:status Statusbar label for line selection mode"
+msgid " LINE "
+msgstr ""
+
+#: kwritemain.cpp:267
+msgid "Open File"
+msgstr "फाइल खोल्नुहोस्"
+
+#: kwritemain.cpp:282
+msgid ""
+"The file given could not be read; check whether it exists or is readable for "
+"the current user."
+msgstr ""
+
+#: kwritemain.cpp:556
+msgctxt "@info:status Statusbar label for block selection mode"
+msgid " BLOCK "
+msgstr ""
+
+#: kwritemain.cpp:601
+msgid "Untitled"
+msgstr "शीर्षक विहिन"
+
+#: kwritemain.cpp:638
+msgid "KWrite"
+msgstr "केडीई राइट"
+
+#: kwritemain.cpp:640
+msgid "KWrite - Text Editor"
+msgstr "केडीई राइट - पाठ सम्पादक"
+
+#: kwritemain.cpp:641
+msgid "(c) 2000-2005 The Kate Authors"
+msgstr "(c) २०००-२००४ केट लेखक"
+
+#: kwritemain.cpp:642
+msgid "Christoph Cullmann"
+msgstr "क्रिस्टोफ कुलम्यान"
+
+#: kwritemain.cpp:642
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: kwritemain.cpp:643
+msgid "Anders Lund"
+msgstr "एन्डेर्स लुन्द"
+
+#: kwritemain.cpp:643 kwritemain.cpp:644 kwritemain.cpp:645 kwritemain.cpp:651
+msgid "Core Developer"
+msgstr "मुख्य विकासकर्ता"
+
+#: kwritemain.cpp:644
+msgid "Joseph Wenninger"
+msgstr "जोसेफ वेनिन्जर"
+
+#: kwritemain.cpp:645
+msgid "Hamish Rodda"
+msgstr "हामिस रोडा"
+
+#: kwritemain.cpp:646
+msgid "Dominik Haumann"
+msgstr "डोमिनक हउम्यान"
+
+#: kwritemain.cpp:646
+msgid "Developer & Highlight wizard"
+msgstr "विकासकर्ता र हाइलाइट विजार्ड"
+
+#: kwritemain.cpp:647
+msgid "Waldo Bastian"
+msgstr "वाल्डो वास्टियन"
+
+#: kwritemain.cpp:647
+msgid "The cool buffersystem"
+msgstr "कुल बफर प्रणाली"
+
+#: kwritemain.cpp:648
+msgid "Charles Samuels"
+msgstr "चार्ल्स स्यामुयल"
+
+#: kwritemain.cpp:648
+msgid "The Editing Commands"
+msgstr "सम्पादन आदेश"
+
+#: kwritemain.cpp:649
+msgid "Matt Newell"
+msgstr "म्याट नेवेल"
+
+#: kwritemain.cpp:649
+msgctxt ""
+"Credit text for someone that did testing and some other similar things"
+msgid "Testing, ..."
+msgstr ""
+
+#: kwritemain.cpp:650
+msgid "Michael Bartl"
+msgstr "माइकल वार्ट्ल"
+
+#: kwritemain.cpp:650
+msgid "Former Core Developer"
+msgstr "अघिल्लो मूख्य विकासकर्ता"
+
+#: kwritemain.cpp:651
+msgid "Michael McCallum"
+msgstr "माइकल म्याकालुम"
+
+#: kwritemain.cpp:652
+msgid "Jochen Wilhemly"
+msgstr "जोचेन विल्हेम्ली"
+
+#: kwritemain.cpp:652
+msgid "KWrite Author"
+msgstr "केडीई राइट लेखक"
+
+#: kwritemain.cpp:653
+msgid "Michael Koch"
+msgstr "माइकल कोच"
+
+#: kwritemain.cpp:653
+msgid "KWrite port to KParts"
+msgstr "केडीई राइट पोर्टलाई केडीई भागमा"
+
+#: kwritemain.cpp:654
+msgid "Christian Gebauer"
+msgstr "क्रिस्टियन गेबाउर"
+
+#: kwritemain.cpp:655
+msgid "Simon Hausmann"
+msgstr "सिमोन हसम्यान"
+
+#: kwritemain.cpp:656
+msgid "Glen Parker"
+msgstr "ग्लेन पार्कर"
+
+#: kwritemain.cpp:656
+msgid "KWrite Undo History, Kspell integration"
+msgstr "केडीई राइट पूर्वस्थितिमा फर्काएको इतिहास, केडीई स्पेल इन्टिग्रेसन"
+
+#: kwritemain.cpp:657
+msgid "Scott Manson"
+msgstr "स्कट मानसन"
+
+#: kwritemain.cpp:657
+msgid "KWrite XML Syntax highlighting support"
+msgstr "केडीई राइट एक्सएमएल वाक्य संरचना हाइलाइटिङ समर्थन"
+
+#: kwritemain.cpp:658
+msgid "John Firebaugh"
+msgstr "जोन फायरबघ"
+
+#: kwritemain.cpp:658
+msgid "Patches and more"
+msgstr "प्याचे र अरू धेरै"
+
+#: kwritemain.cpp:660
+msgid "Matteo Merli"
+msgstr "माटेओ मेर्लि"
+
+#: kwritemain.cpp:660
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr "RPM Spec फाइल, पर्ल, डिफ र अरूका लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:661
+msgid "Rocky Scaletta"
+msgstr "रकि स्कालेटा"
+
+#: kwritemain.cpp:661
+msgid "Highlighting for VHDL"
+msgstr "VHDL का लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:662
+msgid "Yury Lebedev"
+msgstr "युरि लेबेडेभ"
+
+#: kwritemain.cpp:662
+msgid "Highlighting for SQL"
+msgstr "SQL का लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:663
+msgid "Chris Ross"
+msgstr "क्रिस रोस"
+
+#: kwritemain.cpp:663
+msgid "Highlighting for Ferite"
+msgstr "फिराइटका लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:664
+msgid "Nick Roux"
+msgstr "निक रुक्स"
+
+#: kwritemain.cpp:664
+msgid "Highlighting for ILERPG"
+msgstr "ILERPG का लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:665
+msgid "Carsten Niehaus"
+msgstr "कार्सटेन निहाउस"
+
+#: kwritemain.cpp:665
+msgid "Highlighting for LaTeX"
+msgstr "LaTeX का लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:666
+msgid "Per Wigren"
+msgstr "पर विग्रेन"
+
+#: kwritemain.cpp:666
+msgid "Highlighting for Makefiles, Python"
+msgstr "मेकफाइल, पाइथोनका लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:667
+msgid "Jan Fritz"
+msgstr "जन फ्रिट्ज"
+
+#: kwritemain.cpp:667
+msgid "Highlighting for Python"
+msgstr "पाइथोनका लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:668
+msgid "Daniel Naber"
+msgstr "डानिअल न्याबर"
+
+#: kwritemain.cpp:669
+msgid "Roland Pabel"
+msgstr "रोलान्ड पाबेल"
+
+#: kwritemain.cpp:669
+msgid "Highlighting for Scheme"
+msgstr "योजनाका लागि हाइलाइटिङ"
+
+#: kwritemain.cpp:670
+msgid "Cristi Dumitrescu"
+msgstr "क्रिस्टि डुमिट्रेस्कु"
+
+#: kwritemain.cpp:670
+msgid "PHP Keyword/Datatype list"
+msgstr "PHP शब्दकुञ्जी/डेटा प्रकार सूची"
+
+#: kwritemain.cpp:671
+msgid "Carsten Pfeiffer"
+msgstr "कार्स्टेन पिफिफर"
+
+#: kwritemain.cpp:671
+msgctxt "Credit text for someone that helped a lot"
+msgid "Very nice help"
+msgstr ""
+
+#: kwritemain.cpp:672
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "योगदान गरेका र मैले उल्लेख गर्न भुलेका सबै मानिस"
+
+#: kwritemain.cpp:679
+msgid "Read the contents of stdin"
+msgstr "stdin को सामाग्री पढ्नुहोस्"
+
+#: kwritemain.cpp:680
+msgid "Set encoding for the file to open"
+msgstr "फाइल खोल्नका लागि सङ्केतन सेट गर्नुहोस्"
+
+#: kwritemain.cpp:681
+msgid "Navigate to this line"
+msgstr "यो लाइनलाई नेभिगेट गर्नुहोस्"
+
+#: kwritemain.cpp:682
+msgid "Navigate to this column"
+msgstr "यो स्तम्भलाई नेभिगेट गर्नुहोस्"
+
+#: kwritemain.cpp:683
+msgid "Document to open"
+msgstr "खोलिने कागजात"
+
+#: kwritemain.cpp:770
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "फाइल '%1' खोल्न सक्दैन: यो सामान्य फाइल होइन, यो एउटा फोल्डर हो ।"
+
+#: kwritemain.cpp:789
+msgid "Choose Editor Component"
+msgstr "सम्पादक अवयव रोज्नुहोस्"
+
+#. i18n: file: kwriteui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: kwriteui.rc:27
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#. i18n: file: kwriteui.rc:39
+#. i18n: ectx: Menu (view)
+#: rc.cpp:9
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: kwriteui.rc:45
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:12
+msgid "&Tools"
+msgstr "उपकरण"
+
+#. i18n: file: kwriteui.rc:51
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:15
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: kwriteui.rc:62
+#. i18n: ectx: Menu (help)
+#: rc.cpp:18
+msgid "&Help"
+msgstr "मद्दत"
+
+#. i18n: file: kwriteui.rc:67
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"

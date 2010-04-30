@@ -1,0 +1,151 @@
+# translation of kio_man.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Ishwor sharma <sharmabeeshwar@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_man\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-16 21:53+0000\n"
+"PO-Revision-Date: 2009-07-16 09:55+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:11+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kio_man.cpp:493
+#, kde-format
+msgid ""
+"No man page matching to %1 found.<br /><br />Check that you have not "
+"mistyped the name of the page that you want.<br />Check that you have typed "
+"the name using the correct upper and lower case characters.<br />If "
+"everything looks correct, then you may need to improve the search path for "
+"man pages; either using the environment variable MANPATH or using a matching "
+"file in the /etc directory."
+msgstr ""
+
+#: kio_man.cpp:525
+#, kde-format
+msgid "Open of %1 failed."
+msgstr "%1 खोल्न असफल"
+
+#: kio_man.cpp:619 kio_man.cpp:637
+msgid "Man output"
+msgstr "म्यान निर्गत"
+
+#: kio_man.cpp:623
+msgid "<h1>KDE Man Viewer Error</h1>"
+msgstr ""
+
+#: kio_man.cpp:641
+msgid "There is more than one matching man page."
+msgstr "त्यहाँ एउटा भन्दा बढी मिल्ने म्यान पृष्ठ छ ।"
+
+#: kio_man.cpp:652
+msgid ""
+"Note: if you read a man page in your language, be aware it can contain some "
+"mistakes or be obsolete. In case of doubt, you should have a look at the "
+"English version."
+msgstr ""
+"द्रष्टव्य: यदि तपाईँ आफ्नै भाषामा म्यान पृष्ठ पढ्नु हुन्छ भने, सावधान "
+"हुनुहोस् यसमा केही गल्तिहरू र केही असुविधा हुन सक्दछ । विरोधाभास भएमा, "
+"तपाईँले अङ्ग्रेजी संस्करणमा हेर्न सक्नुहुन्छ ।"
+
+#: kio_man.cpp:729
+msgid "User Commands"
+msgstr "प्रयोगकर्ता आदेश"
+
+#: kio_man.cpp:731
+msgid "System Calls"
+msgstr "प्रणाली बोलवट"
+
+#: kio_man.cpp:733
+msgid "Subroutines"
+msgstr "उप कार्यतालिका"
+
+#: kio_man.cpp:735
+msgid "Perl Modules"
+msgstr "पर्ल मोड्युल"
+
+#: kio_man.cpp:737
+msgid "Network Functions"
+msgstr "सञ्जाल प्रकार्य"
+
+#: kio_man.cpp:739
+msgid "Devices"
+msgstr "यन्त्र"
+
+#: kio_man.cpp:741
+msgid "File Formats"
+msgstr "फाइल ढाँचा"
+
+#: kio_man.cpp:743
+msgid "Games"
+msgstr "खेल"
+
+#: kio_man.cpp:745
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#: kio_man.cpp:747
+msgid "System Administration"
+msgstr "प्रणाली प्रशासन"
+
+#: kio_man.cpp:749
+msgid "Kernel"
+msgstr "कर्नेल"
+
+#: kio_man.cpp:751
+msgid "Local Documentation"
+msgstr "स्थानीय मिसिलीकरण"
+
+#: kio_man.cpp:753
+msgid "New"
+msgstr "नयाँ"
+
+#: kio_man.cpp:788 kio_man.cpp:792 kio_man.cpp:1218
+msgid "UNIX Manual Index"
+msgstr "युनिक्स म्यानुअल अनुक्रमणिका"
+
+#: kio_man.cpp:807
+#, kde-format
+msgid "Section %1"
+msgstr ""
+
+#: kio_man.cpp:1223
+#, kde-format
+msgid "Index for Section %1: %2"
+msgstr "%1 सेक्सनका लागि अनुक्रमणिका: %2"
+
+#: kio_man.cpp:1228
+msgid "Generating Index"
+msgstr "अनुक्रमणिका उत्पन्न गर्दैछ"
+
+#: kio_man.cpp:1563
+msgid ""
+"Could not find the sgml2roff program on your system. Please install it, if "
+"necessary, and extend the search path by adjusting the environment variable "
+"PATH before starting KDE."
+msgstr ""
+"तपाईँ को प्रणालीमा sgml2roff कार्यक्रम फेला पर्न सकेन । यदि आवश्यक भए कृपया "
+"यसलाई स्थापना गर्नुहोस् र केडीई सुरु गर्नु अघि परिवेश चल PATH संयोजनद्वारा "
+"खोजि कार्य विस्तार गर्नुहोस् ।"
+
+#: kmanpart.cpp:65
+msgid "KMan"
+msgstr "केडीई म्यान"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "इश्वर शर्मा, श्यामकृष्ण बल, ,Launchpad Contributions:"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sharmabeeshwar@gmail.com shyamkrishna_bal@yahoo.com,,"

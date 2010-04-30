@@ -1,0 +1,124 @@
+# translation of kcmview1394.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmview1394\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2008-10-07 15:42+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:55+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. i18n: file: view1394widget.ui:20
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:3
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: view1394widget.ui:31
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:6
+msgid "GUID"
+msgstr "GUID"
+
+#. i18n: file: view1394widget.ui:42
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:9
+msgid "Local"
+msgstr "स्थानीय"
+
+#. i18n: file: view1394widget.ui:53
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:12
+msgid "IRM"
+msgstr "IRM"
+
+#. i18n: file: view1394widget.ui:64
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:15
+msgid "CRM"
+msgstr "CRM"
+
+#. i18n: file: view1394widget.ui:75
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:18
+msgid "ISO"
+msgstr "ISO"
+
+#. i18n: file: view1394widget.ui:86
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:21
+msgid "BM"
+msgstr "BM"
+
+#. i18n: file: view1394widget.ui:97
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:24
+msgid "PM"
+msgstr "PM"
+
+#. i18n: file: view1394widget.ui:108
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:27
+msgid "Acc"
+msgstr "Acc"
+
+#. i18n: file: view1394widget.ui:119
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:30
+msgid "Speed"
+msgstr "गति"
+
+#. i18n: file: view1394widget.ui:130
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: rc.cpp:33
+msgid "Vendor"
+msgstr "विक्रेता"
+
+#. i18n: file: view1394widget.ui:165
+#. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
+#: rc.cpp:36
+msgid "Generate 1394 Bus Reset"
+msgstr "१३९४ बस रिसेट सिर्जना गर्नुहोस्"
+
+#: view1394.cpp:66
+msgid ""
+"<qt>Here you can see some information about your IEEE 1394 configuration. "
+"The meaning of the columns:<ul><li><b>Name</b>: port or node name, the "
+"number can change with each bus reset</li><li><b>GUID</b>: the 64 bit GUID "
+"of the node</li><li><b>Local</b>: checked if the node is an IEEE 1394 port "
+"of your computer</li><li><b>IRM</b>: checked if the node is isochronous "
+"resource manager capable</li><li><b>CRM</b>: checked if the node is cycle "
+"master capable</li><li><b>ISO</b>: checked if the node supports isochronous "
+"transfers</li><li><b>BM</b>: checked if the node is bus manager "
+"capable</li><li><b>PM</b>: checked if the node is power management "
+"capable</li><li><b>Acc</b>: the cycle clock accuracy of the node, valid from "
+"0 to 100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: "
+"the vendor of the device</li></ul></qt>"
+msgstr ""
+
+#: view1394.cpp:200
+#, kde-format
+msgid "Port %1:\"%2\""
+msgstr "पोर्ट %1:\"%2\""
+
+#: view1394.cpp:214
+#, kde-format
+msgid "Node %1"
+msgstr "नोड %1"
+
+#: view1394.cpp:217
+msgid "Not ready"
+msgstr "तयार छैन"
+
+#: view1394.cpp:312
+msgid "Unknown"
+msgstr "अज्ञात"

@@ -1,0 +1,202 @@
+# translation of kmines.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2010-04-23 15:54+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:02+0000\n"
+
+#: main.cpp:29
+msgid "KMines is a classic minesweeper game"
+msgstr ""
+
+#: main.cpp:33
+msgid "KMines"
+msgstr "केडीई बारुद"
+
+#: main.cpp:36
+msgid "Nicolas Hadacek"
+msgstr "निकोलस हाडासेक"
+
+#: main.cpp:37
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:38
+msgid "Mauricio Piacentini"
+msgstr ""
+
+#: main.cpp:39
+msgid "Code refactoring and SVG support. Current maintainer"
+msgstr ""
+
+#: main.cpp:41
+msgid "Dmitry Suzdalev"
+msgstr ""
+
+#: main.cpp:42
+msgid "Rewrite to use QGraphicsView framework. Current maintainer"
+msgstr ""
+
+#: main.cpp:44
+msgid "Andreas Zehender"
+msgstr "एन्ड्रेज जेहेन्डर"
+
+#: main.cpp:44
+msgid "Smiley pixmaps"
+msgstr "स्माइली पिक्सम्याप"
+
+#: main.cpp:45
+msgid "Mikhail Kourinny"
+msgstr "मिखाली कोर्नी"
+
+#: main.cpp:45
+msgid "Solver/Adviser"
+msgstr "समाधानकर्ता/सल्लाहकार"
+
+#: main.cpp:46
+msgid "Thomas Capricelli"
+msgstr "थोमस क्याप्रिसेली"
+
+#: main.cpp:46
+msgid "Magic reveal mode"
+msgstr "जादू प्रकट मोड"
+
+#: mainwindow.cpp:90
+msgid "Mines: 0/0"
+msgstr "बारुद: ०/०"
+
+#: mainwindow.cpp:91 mainwindow.cpp:171
+msgid "Time: 00:00"
+msgstr "समय: ००:००"
+
+#: mainwindow.cpp:122
+#, kde-format
+msgid "Mines: %1/%2"
+msgstr ""
+
+#: mainwindow.cpp:188
+msgid "Custom"
+msgstr "अनुकूलन"
+
+#: mainwindow.cpp:205
+#, kde-format
+msgid "Time: %1"
+msgstr "समय: %1"
+
+#: mainwindow.cpp:232
+msgid "General"
+msgstr "साधारण"
+
+#: mainwindow.cpp:233
+msgid "Theme"
+msgstr "विषयवस्तु"
+
+#: mainwindow.cpp:234
+msgid "Custom Game"
+msgstr "अनुकूलन खेल"
+
+#: mainwindow.cpp:253
+#, kde-format
+msgid "Failed to load \"%1\" theme. Please check your installation."
+msgstr ""
+
+#. i18n: file: customgame.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Width:"
+msgstr "चौडाइ:"
+
+#. i18n: file: customgame.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6
+msgid "Height:"
+msgstr "उचाइ:"
+
+#. i18n: file: customgame.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:9
+msgid "Mines:"
+msgstr ""
+
+#. i18n: file: generalopts.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuestionMarks)
+#: rc.cpp:12
+msgid "Use '?' marks"
+msgstr "'?' चिन्ह प्रयोग गर्नुहोस्"
+
+#. i18n: file: kmines.kcfg:10
+#. i18n: ectx: label, entry (UseQuestionMarks), group (General)
+#: rc.cpp:15
+msgid "Whether the \"unsure\" marker may be used."
+msgstr ""
+
+#. i18n: file: kmines.kcfg:14
+#. i18n: ectx: label, entry (Theme), group (General)
+#: rc.cpp:18
+msgid "The graphical theme to be used."
+msgstr "प्रयोग गरिने ग्राफिकल विषयवस्तु"
+
+#. i18n: file: kmines.kcfg:19
+#. i18n: ectx: label, entry (CustomWidth), group (Options)
+#: rc.cpp:21
+msgid "The width of the playing field."
+msgstr "खेल्ने स्थानको चौडाइ ।"
+
+#. i18n: file: kmines.kcfg:25
+#. i18n: ectx: label, entry (CustomHeight), group (Options)
+#: rc.cpp:24
+msgid "The height of the playing field."
+msgstr "खेल्ने स्थानको उचाइ ।"
+
+#. i18n: file: kmines.kcfg:31
+#. i18n: ectx: label, entry (CustomMines), group (Options)
+#: rc.cpp:27
+msgid "The number of mines in the playing field."
+msgstr "खेल्ने स्थानमा बारुदका सङ्ख्या ।"
+
+#. i18n: file: kmines.kcfg:35
+#. i18n: ectx: label, entry (level), group (Options)
+#: rc.cpp:30
+msgid "The difficulty level."
+msgstr "कठिन स्तर ।"
+
+#. i18n: file: kminesui.rc:12
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:33
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:34
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, जितेन्द्र हरलालका, Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:35
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, jitendra@otrc.gov.np,,"
+
+#: scene.cpp:101
+msgid "Game is paused."
+msgstr "खेल पज गरिएको छ ।"
+
+#: scene.cpp:109
+msgid "Congratulations! You have won!"
+msgstr "बधाइ छ! तपाईँले जित्नुभएको छ !"
+
+#: scene.cpp:111
+msgid "You have lost."
+msgstr "तपाईँ हार्नुभएको छ ।"

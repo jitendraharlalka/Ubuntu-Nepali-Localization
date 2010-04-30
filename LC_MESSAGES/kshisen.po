@@ -1,0 +1,385 @@
+# translation of kshisen.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kshisen\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2008-10-07 17:41+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:31+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/app.cpp:93 src/app.cpp:331
+msgid "Select a tile"
+msgstr "टायल चयन गर्नुहोस्"
+
+#: src/app.cpp:96
+msgid "Time: 0:00:00"
+msgstr "समय: ०:००:००"
+
+#: src/app.cpp:99
+msgid "Removed: 0/0"
+msgstr "हटाइएका: ०/०"
+
+#: src/app.cpp:102
+msgid "Cheat mode"
+msgstr "छल्ने मोड"
+
+#: src/app.cpp:121
+msgid "Play Sounds"
+msgstr ""
+
+#: src/app.cpp:242
+msgid "No more moves possible!"
+msgstr "अब चाल्न सम्भव छैन!"
+
+#: src/app.cpp:242 src/app.cpp:265 src/app.cpp:273
+msgid "End of Game"
+msgstr "खेलको अन्त्य"
+
+#: src/app.cpp:245
+#, kde-format
+msgctxt "time string: hh:mm:ss"
+msgid "%1:%2:%3"
+msgstr ""
+
+#. i18n: file: src/settings.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Gravity)
+#: src/app.cpp:254 src/app.cpp:363 rc.cpp:8
+msgid "Gravity"
+msgstr "गुरुत्व"
+
+#: src/app.cpp:257
+msgid "Yes"
+msgstr ""
+
+#: src/app.cpp:259
+msgid "No"
+msgstr ""
+
+#: src/app.cpp:264
+msgid ""
+"\n"
+"You could have been in the highscores\n"
+"if you did not use Undo or Hint.\n"
+"Try without them next time."
+msgstr ""
+
+#: src/app.cpp:268
+msgid ""
+"Congratulations!\n"
+"You made it into the hall of fame."
+msgstr ""
+
+#: src/app.cpp:272
+#, kde-format
+msgctxt "%1 - time string like hh:mm:ss"
+msgid "You made it in %1"
+msgstr ""
+
+#: src/app.cpp:291
+msgid "(Paused) "
+msgstr "(पज गरिएको) "
+
+#: src/app.cpp:287
+#, kde-format
+msgid "Your time: %1:%2:%3 %4"
+msgstr ""
+
+#: src/app.cpp:302
+#, kde-format
+msgid "Removed: %1/%2 "
+msgstr ""
+
+#: src/app.cpp:336
+msgid "Select a matching tile"
+msgstr "मिल्दो टायल चयन गर्नुहोस्"
+
+#: src/app.cpp:341
+msgid "Select the move you want by clicking on the blue line"
+msgstr "निलो रेखामा क्लिक गरेर तपाईँले चाहेको चाल चयन गर्नुहोस्"
+
+#: src/app.cpp:346
+msgid "This tile did not match the one you selected"
+msgstr "यो चाल तपाईँले चयन गरेको एकसँग मिलेन"
+
+#: src/app.cpp:351
+msgid "You cannot make this move"
+msgstr "तपाईँले यो चाल चाल्न सक्नुहुदैँन"
+
+#: src/app.cpp:380
+msgid "General"
+msgstr "साधारण"
+
+#: src/board.cpp:661
+msgid ""
+"Game Paused\n"
+"Click to resume game."
+msgstr ""
+
+#: src/board.cpp:663
+msgid ""
+"Game Over\n"
+"Click to start a new game."
+msgstr ""
+
+#: src/main.cpp:36
+msgid "A KDE game similar to Mahjongg"
+msgstr "माहजोङ्ग जस्तै एउटा केडीई खेल"
+
+#: src/main.cpp:40
+msgid "Shisen-Sho"
+msgstr "सिसेन-सो"
+
+#: src/main.cpp:42
+msgid "(c) 1997, Mario Weilguni"
+msgstr "(c) 1997, मारियो वेल्गुनी"
+
+#: src/main.cpp:43
+msgid "Frederik Schwarzer"
+msgstr ""
+
+#: src/main.cpp:43
+msgid "Current Maintainer"
+msgstr "हालको मर्मतकर्ता"
+
+#: src/main.cpp:44
+msgid "Dave Corrie"
+msgstr "डेभ कोरी"
+
+#: src/main.cpp:44
+msgid "Former Maintainer"
+msgstr ""
+
+#: src/main.cpp:45
+msgid "Mario Weilguni"
+msgstr "मारियो वेल्गुनी"
+
+#: src/main.cpp:45
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: src/main.cpp:46
+msgid "Mauricio Piacentini"
+msgstr "माउरिसिओ पियासेन्टिनि"
+
+#: src/main.cpp:46
+msgid "KMahjonggLib integration for KDE4"
+msgstr "केडीई४ का लागि केडीई माहाजोङ्ग Lib एकिकरण"
+
+#: src/main.cpp:47
+msgid "Jason Lane"
+msgstr "जासोन लेन"
+
+#: src/main.cpp:47
+msgid ""
+"Added 'tiles removed' counter<br/>Tile smooth-scaling and window resizing"
+msgstr ""
+
+#: src/main.cpp:48
+msgid "Thanks also to everyone who should be listed here but is not!"
+msgstr "यहाँ सूचीबद्ध गरिनु पर्ने तर नभएका सबैलाई धन्यवाद!"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com,,,"
+
+#. i18n: file: src/settings.ui:23
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Gravity)
+#: rc.cpp:5
+msgid ""
+"<b>Gravity</b><p>Checking this makes the game even harder: If a tile is "
+"removed, all tiles lying above it will fall down one step.</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:33
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Solvable)
+#: rc.cpp:11
+msgid ""
+"<b>Allow unsolvable games</b><p>If checked, you run the risk of being "
+"presented with games that are impossible to solve.</p><p>Note: Even if not "
+"checked, you will fail to complete a game if you remove the tiles in the "
+"wrong order!</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Solvable)
+#: rc.cpp:14
+msgid "Allow unsolvable games"
+msgstr "समाधान गर्न नसकिने खेललाई अनुमति दिनुहोस्"
+
+#. i18n: file: src/settings.ui:43
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ChineseStyle)
+#: rc.cpp:17
+msgid ""
+"<b>Use Chinese style: any flower match any flower, any season match any "
+"season</b><p>Use the traditional rules for matching the tiles. Previous "
+"version of the game used to allow only exact tiles matches, which is "
+"inconsistent with Mah-jongg rules. It is recommended to keep this option "
+"checked.</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChineseStyle)
+#: rc.cpp:20
+msgid ""
+"Use Chinese style: any flower match any flower, any season match any season"
+msgstr ""
+"चिनियाँ शैली प्रयोग गर्नुहोस्: फुलसँग सबै फुल मिल्छन्, ऋतुसँग सबै ऋतु मिल्छन्"
+
+#. i18n: file: src/settings.ui:53
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TilesCanSlide)
+#: rc.cpp:23
+msgid ""
+"<b>Tiles can slide, but you can connect only in 2 lines instead of "
+"3</b><p>This option changes the rules to the point where it almost becomes a "
+"completely different game. When it is active, you can only remove the tiles "
+"if they can be connected by a line consisting of only two segments instead "
+"of the customary three. However, you are allowed to slide the tiles on the "
+"board, if the row or column where they are placed has some empty space. To "
+"make a sliding move, you have to click on the tile containing the column or "
+"row that can slide, and then on the matching tile. If there are two possible "
+"sliding moves, you will have to click on one of the two connecting lines to "
+"choose your preferred move.</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TilesCanSlide)
+#: rc.cpp:26
+msgid "Tiles can slide, but you can connect only in 2 lines instead of 3"
+msgstr ""
+"टायल स्लाइड हुन सक्छन्, तर तपाईँले तीन को सट्टामा २ लाइनमा जडान गर्न "
+"सक्नुहुन्छ"
+
+#. i18n: file: src/settings.ui:63
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, difficulty_groupBox)
+#: rc.cpp:29
+msgid ""
+"<b>Board Difficulty</b><p>The slider controls the difficulty of the board "
+"from Easy to Hard.</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:66
+#. i18n: ectx: property (title), widget (QGroupBox, difficulty_groupBox)
+#: rc.cpp:32
+msgid "Board Difficulty"
+msgstr "कठिन बोर्ड"
+
+#. i18n: file: src/settings.ui:97
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:35
+msgid "Easy"
+msgstr "सजिलो"
+
+#. i18n: file: src/settings.ui:104
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:38
+msgid "Hard"
+msgstr "कठिन"
+
+#. i18n: file: src/settings.ui:117
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, speed_groupBox)
+#: rc.cpp:41
+msgid ""
+"<b>Piece Removal Speed</b><p>Adjusting this slider alters the speed at which "
+"the pieces are removed from the screen after a match has been made.</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:120
+#. i18n: ectx: property (title), widget (QGroupBox, speed_groupBox)
+#: rc.cpp:44
+msgid "Piece Removal Speed"
+msgstr "टुक्रा हटाउने गति"
+
+#. i18n: file: src/settings.ui:132
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:47
+msgid "Fast"
+msgstr "छिटो"
+
+#. i18n: file: src/settings.ui:142
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:50
+msgid "Slow"
+msgstr "ढिलो"
+
+#. i18n: file: src/settings.ui:171
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, size_groupBox)
+#: rc.cpp:53
+msgid ""
+"<b>Board Size</b><p>This slider allows you to change the number of tiles on "
+"the board. The more tiles you have, the harder (and longer) the game will "
+"be.</p>"
+msgstr ""
+
+#. i18n: file: src/settings.ui:174
+#. i18n: ectx: property (title), widget (QGroupBox, size_groupBox)
+#: rc.cpp:56
+msgid "Board Size"
+msgstr ""
+
+#. i18n: file: src/settings.ui:186
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: rc.cpp:59
+msgid "30x16"
+msgstr "३०x१६"
+
+#. i18n: file: src/settings.ui:196
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#: rc.cpp:62
+msgid "26x14"
+msgstr "२६x१४"
+
+#. i18n: file: src/settings.ui:206
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: rc.cpp:65
+msgid "24x12"
+msgstr "२४x१२"
+
+#. i18n: file: src/settings.ui:216
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: rc.cpp:68
+msgid "18x8"
+msgstr "१८x८"
+
+#. i18n: file: src/settings.ui:226
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: rc.cpp:71
+msgid "16x9"
+msgstr "१६x९"
+
+#. i18n: file: src/settings.ui:236
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: rc.cpp:74
+msgid "14x6"
+msgstr "१४x६"
+
+#. i18n: file: src/kshisen.kcfg:9
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: rc.cpp:77
+msgid "The tile set to use."
+msgstr ""
+
+#. i18n: file: src/kshisen.kcfg:12
+#. i18n: ectx: label, entry (Background), group (General)
+#: rc.cpp:80
+msgid "The background to use."
+msgstr "प्रयोग गरिने पृष्ठभूमि ।"
+
+#. i18n: file: src/kshisenui.rc:13
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:83
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"

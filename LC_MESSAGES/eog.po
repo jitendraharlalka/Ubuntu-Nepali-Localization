@@ -1,0 +1,1443 @@
+# translation of eog.gnome-2-20.ne.po to Nepali
+# This file is distributed under the same license as the eog package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Pawan Chitrakar <pawan@nplinux.org> , 2004.
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Jyotshna Shrestha <jyotshna@mpp.org.np>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Kapil Timilsina <lipak21@gmail.com>, 2005.
+# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Mahesh Subedi <submanesh@hotmail.com>, 2006.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: eog.gnome-2-20.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-09 23:15+0000\n"
+"PO-Revision-Date: 2010-04-21 21:02+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:42+0000\n"
+
+#. Translaters: This string is for a toggle to display a toolbar.
+#. * The name of the toolbar is automatically computed from the widgets
+#. * on the toolbar, and is placed at the %s. Note the _ before the %s
+#. * which is used to add mnemonics. We know that this is likely to
+#. * produce duplicates, but don't worry about it. If your language
+#. * normally has a mnemonic at the start, please use the _. If not,
+#. * please remove.
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:934
+#, c-format
+msgid "Show “_%s”"
+msgstr "“_%s” देखाउनुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1397
+msgid "_Move on Toolbar"
+msgstr "_उपकरणपट्टीमा सार्नुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1398
+msgid "Move the selected item on the toolbar"
+msgstr "चयन गरिएको वस्तु उपकरणपट्टीमा सार्नुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1399
+msgid "_Remove from Toolbar"
+msgstr "_उपकरणपट्टीबाट हटाउनुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1400
+msgid "Remove the selected item from the toolbar"
+msgstr "उपकरणपट्टीबाट चयन गरिएको वस्तु हटाउनुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1401
+msgid "_Delete Toolbar"
+msgstr "_उपकरणपट्टी मेट्नुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1402
+msgid "Remove the selected toolbar"
+msgstr "चयन गरिएको उपकरणपट्टी हटाउनुहोस्"
+
+#: ../cut-n-paste/toolbar-editor/egg-toolbar-editor.c:485
+msgid "Separator"
+msgstr "विभाजक"
+
+#: ../cut-n-paste/totem-screensaver/totem-scrsaver.c:115
+msgid "Running in fullscreen mode"
+msgstr "पूरा पर्दा मोडमा चलिरहेको"
+
+#: ../plugins/fullscreen/fullscreen.eog-plugin.desktop.in.h:1
+msgid "Activate fullscreen mode with double-click"
+msgstr ""
+
+#: ../plugins/fullscreen/fullscreen.eog-plugin.desktop.in.h:2
+msgid "Fullscreen with double-click"
+msgstr ""
+
+#: ../plugins/reload/reload.eog-plugin.desktop.in.h:1
+#: ../plugins/reload/eog-reload-plugin.c:45
+msgid "Reload Image"
+msgstr ""
+
+#: ../plugins/reload/reload.eog-plugin.desktop.in.h:2
+#: ../plugins/reload/eog-reload-plugin.c:47
+msgid "Reload current image"
+msgstr ""
+
+#: ../plugins/statusbar-date/statusbar-date.eog-plugin.desktop.in.h:1
+msgid "Date in statusbar"
+msgstr ""
+
+#: ../plugins/statusbar-date/statusbar-date.eog-plugin.desktop.in.h:2
+msgid "Shows the image date in the window statusbar"
+msgstr ""
+
+#: ../data/eog.desktop.in.in.h:1
+msgid "Browse and rotate images"
+msgstr "छविहरू ब्राउज गर्नुहोस् र घुमाउनुहोस्"
+
+#: ../data/eog.desktop.in.in.h:2
+msgid "Image Viewer"
+msgstr "चित्र दर्शक"
+
+#: ../data/eog-image-properties-dialog.ui.h:1
+msgid "Aperture Value:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:2
+msgid "Author:"
+msgstr "लेखक:"
+
+#: ../data/eog-image-properties-dialog.ui.h:3
+msgid "Bytes:"
+msgstr "बाइट:"
+
+#: ../data/eog-image-properties-dialog.ui.h:4
+msgid "Camera Model:"
+msgstr "क्यामरा मोडल:"
+
+#: ../data/eog-image-properties-dialog.ui.h:5
+msgid "Copyright:"
+msgstr "प्रतिलिपि अधिकार:"
+
+#: ../data/eog-image-properties-dialog.ui.h:6
+msgid "Date/Time:"
+msgstr "मिति/समय:"
+
+#: ../data/eog-image-properties-dialog.ui.h:7
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: ../data/eog-image-properties-dialog.ui.h:8
+msgid "Details"
+msgstr "विवरण"
+
+#: ../data/eog-image-properties-dialog.ui.h:9
+msgid "Exposure Time:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:10
+msgid "Flash:"
+msgstr "फ्ल्यास:"
+
+#: ../data/eog-image-properties-dialog.ui.h:11
+msgid "Focal Length:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:12
+msgid "General"
+msgstr "साधारण"
+
+#: ../data/eog-image-properties-dialog.ui.h:13
+msgid "Height:"
+msgstr "उचाइ:"
+
+#: ../data/eog-image-properties-dialog.ui.h:14
+msgid "ISO Speed Rating:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:15
+msgid "Image Properties"
+msgstr "छवि गुण"
+
+#: ../data/eog-image-properties-dialog.ui.h:16
+msgid "Keywords:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:17
+msgid "Location:"
+msgstr "स्थान:"
+
+#: ../data/eog-image-properties-dialog.ui.h:18
+msgid "Metadata"
+msgstr "मेटाडाटा"
+
+#: ../data/eog-image-properties-dialog.ui.h:19
+msgid "Metering Mode:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:20
+msgid "Name:"
+msgstr "नाम:"
+
+#: ../data/eog-image-properties-dialog.ui.h:21
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: ../data/eog-image-properties-dialog.ui.h:22
+msgid "Width:"
+msgstr "चौडाइ:"
+
+#: ../data/eog-image-properties-dialog.ui.h:23
+msgid "_Next"
+msgstr "_पछिल्लो"
+
+#: ../data/eog-image-properties-dialog.ui.h:24
+msgid "_Previous"
+msgstr "_अघिल्लो"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:2
+#, no-c-format
+msgid "<b>%f:</b> original filename"
+msgstr "<b>%f:</b> वास्तविक फाइल नाम"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:4
+#, no-c-format
+msgid "<b>%n:</b> counter"
+msgstr ""
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:5
+msgid "Choose a folder"
+msgstr "एउटा फोल्डर रोज्नुहोस्"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:6
+msgid "Destination folder:"
+msgstr "गन्तब्य फोल्डर:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:7
+msgid "File Name Preview"
+msgstr ""
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:8
+msgid "File Path Specifications"
+msgstr ""
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:9
+msgid "Filename format:"
+msgstr "फाइल नाम ढाँचा:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:10
+msgid "Options"
+msgstr "विकल्पहरु"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:11
+msgid "Rename from:"
+msgstr "यसबाट पुन:नामाकरण गर्नुहोस्:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:12
+msgid "Replace spaces with underscores"
+msgstr "अन्डरस्कोरद्वारा खालीठाँउहरू प्रतिस्थापन गर्नुहोस्"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:13
+msgid "Save As"
+msgstr "...नाममा बचत गर्नुस"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:14
+msgid "Start counter at:"
+msgstr ": मा काउन्टर सुरु गर्नुहोस्"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:15
+msgid "To:"
+msgstr "लाई:"
+
+#: ../data/eog-preferences-dialog.ui.h:1
+msgid "As _background"
+msgstr "पृष्ठभुमि जस्तै"
+
+#: ../data/eog-preferences-dialog.ui.h:2
+msgid "As check _pattern"
+msgstr "जाँच्ने तरिका जस्तै"
+
+#: ../data/eog-preferences-dialog.ui.h:3
+msgid "As custom c_olor:"
+msgstr "अनुकुलन रंग जस्तै:"
+
+#: ../data/eog-preferences-dialog.ui.h:4
+msgid "Color for Transparent Areas"
+msgstr "पारदर्सि क्षेत्रको लागि रङ्ग"
+
+#: ../data/eog-preferences-dialog.ui.h:5
+msgid "E_xpand images to fit screen"
+msgstr "पर्दामा ठीक गर्न छवि विस्तार गर्नुहोस्"
+
+#: ../data/eog-preferences-dialog.ui.h:6
+msgid "Eye of GNOME Preferences"
+msgstr "जिनोम आँखाको प्राथमिकता"
+
+#: ../data/eog-preferences-dialog.ui.h:7
+msgid "Image Enhancements"
+msgstr ""
+
+#: ../data/eog-preferences-dialog.ui.h:8
+msgid "Image View"
+msgstr "छवि दृष्य"
+
+#: ../data/eog-preferences-dialog.ui.h:9
+msgid "Image Zoom"
+msgstr "फोटो जुम"
+
+#: ../data/eog-preferences-dialog.ui.h:10
+msgid "Plugins"
+msgstr "प्लगइन"
+
+#: ../data/eog-preferences-dialog.ui.h:11
+msgid "Sequence"
+msgstr ""
+
+#: ../data/eog-preferences-dialog.ui.h:12
+msgid "Slideshow"
+msgstr "स्लाइड प्रर्दशन"
+
+#: ../data/eog-preferences-dialog.ui.h:13
+msgid "Smooth images when zoomed-_in"
+msgstr ""
+
+#: ../data/eog-preferences-dialog.ui.h:14
+msgid "Smooth images when zoomed-_out"
+msgstr ""
+
+#: ../data/eog-preferences-dialog.ui.h:15
+msgid "Transparent Parts"
+msgstr "पारदर्शी अंशहरु"
+
+#: ../data/eog-preferences-dialog.ui.h:16
+msgid "_Automatic orientation"
+msgstr "_स्वाचालित अभिमुखिकरण"
+
+#: ../data/eog-preferences-dialog.ui.h:17
+msgid "_Loop sequence"
+msgstr "अंकुस अनुक्रम"
+
+#: ../data/eog-preferences-dialog.ui.h:18
+msgid "_Switch image after:"
+msgstr ":पछि छवि स्विच गर्नुहोस्"
+
+#: ../data/eog-preferences-dialog.ui.h:19
+msgid "seconds"
+msgstr "दोस्रोहरु"
+
+#: ../data/eog.schemas.in.h:1
+msgid ""
+"A value greater than 0 determines the seconds an image stays on screen until "
+"the next one is shown automatically. Zero disables the automatic browsing."
+msgstr ""
+"० भन्दा ठूलो मानले छवि पर्दामा अर्को स्वचालित तरिकाले नदेखाएसम्म केहि "
+"सेकेण्ड रहिरहन्छ । शून्यले स्वचालित रूपमा ब्राउज अक्षम पार्दछ।"
+
+#: ../data/eog.schemas.in.h:2
+msgid "Active plugins"
+msgstr "सक्रिय प्लगइन"
+
+#: ../data/eog.schemas.in.h:4
+#, no-c-format
+msgid "Allow zoom greater than 100% initially"
+msgstr "पहिले १००% भन्दा ठुलो दृष्य घटबढ गर्ने अनुमति दिनु"
+
+#: ../data/eog.schemas.in.h:5
+msgid "Automatic orientation"
+msgstr "स्वाचालित अभिमुखिकरण"
+
+#: ../data/eog.schemas.in.h:6
+msgid "Delay in seconds until showing the next image"
+msgstr "अर्को चित्र देखाउन्जेल साम्ममा दोस्रो मा ढिलो हुन्छ"
+
+#: ../data/eog.schemas.in.h:7
+msgid ""
+"Determines how transparency should be indicated. Valid values are "
+"CHECK_PATTERN, COLOR and NONE. If COLOR is choosen, then the trans_color key "
+"determines the used color value."
+msgstr ""
+"पारदर्शीलाई कसरी संकेत गरिन्छ भनेर तोक्दछ। मान्य मानहरू CHECK_PATTERN, COLOR "
+"र NONE हो । यदि COLOR रोजिएको छ भने, पार्दर्शी रंग कुन्जिले प्रयोग गरिएको "
+"रंग मान तोक्दछ ।"
+
+#: ../data/eog.schemas.in.h:8
+msgid "Extrapolate Image"
+msgstr ""
+
+#: ../data/eog.schemas.in.h:9
+msgid ""
+"If activated Eye of GNOME wont ask for confirmation when moving images to "
+"the trash. It will still ask if any of the files cannot be moved to the "
+"trash and would be deleted instead."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:10
+msgid ""
+"If activated and no image is loaded in the active window, the file chooser "
+"will display the user's pictures folder using the XDG special user "
+"directories. If deactivated or the pictures folder has not been set up it "
+"will show the current working directory."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:11
+msgid ""
+"If activated the detailed metadata list in the properties dialog will be "
+"moved to its own page in the dialog. This should make the dialog more usable "
+"on smaller screens, e.g. as used by netbooks. If disabled the widget will be "
+"embedded on the \"Metadata\" page."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:12
+msgid ""
+"If the transparency key has the value COLOR, then this key determines the "
+"color which is used for indicating transparency."
+msgstr ""
+"यदि पारदर्शि कि संग मुल्यको रंग छ भने यो किले रंग देखाउछ जुन पारदर्शिता "
+"देखाउन प्रयोग गरियो"
+
+#: ../data/eog.schemas.in.h:13
+msgid ""
+"If this is set to FALSE small images will not be stretched to fit into the "
+"screen initially."
+msgstr ""
+"यदि यो गलत मिलाइयो भने शुरुवाति पर्दाभित्र साना तस्विरहरु मिल्नलाइ तन्कने "
+"छैनन्"
+
+#: ../data/eog.schemas.in.h:14
+msgid ""
+"Image collection pane position. Set to 0 for bottom; 1 for left; 2 for top; "
+"3 for right."
+msgstr ""
+"छवि सङ्कलन फलक स्थिति । तलका लागि ०; वायाँको लागि १; माथिको लागि २; दायाँको "
+"लागि ३ सेट गर्नुहोस् ।"
+
+#: ../data/eog.schemas.in.h:15
+msgid "Interpolate Image"
+msgstr "चित्र बेढंग संग भित्र हाल्नु"
+
+#: ../data/eog.schemas.in.h:16
+msgid ""
+"List of active plugins. It doesn't contain the \"Location\" of the active "
+"plugins. See the .eog-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"सक्रिय प्लगइनको सूची । यसले सक्रिय लगइनको \"स्थान\" समावेश गर्दैन ।दिएको "
+"प्लगइनको \"स्थान\" प्राप्त गर्न .eog-plugin फाइल हेर्नुहोस् ।"
+
+#: ../data/eog.schemas.in.h:17
+msgid "Loop through the image sequence"
+msgstr "तस्बिर सिक्वेन्सबाट सिक्रि"
+
+#: ../data/eog.schemas.in.h:18
+msgid "Scroll wheel zoom"
+msgstr "स्क्रोल चक्र जुम"
+
+#: ../data/eog.schemas.in.h:19
+msgid "Show/Hide the image collection pane scroll buttons."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:20
+msgid "Show/Hide the image collection pane."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:21
+msgid "Show/Hide the window side pane."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:22
+msgid "Show/Hide the window statusbar."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:23
+msgid "Show/Hide the window toolbar."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:25
+#, no-c-format
+msgid ""
+"The multiplier to be applied when using the mouse scroll wheel for zooming. "
+"This value defines the zooming step used for each scroll event. For example, "
+"0.05 results in a 5% zoom increment for each scroll event and 1.00 result in "
+"a 100% zoom increment."
+msgstr ""
+"जुम गर्नका लागि माउस स्क्रोल चक्र प्रयोग गर्दा लागू गरिनुपर्ने गुणक । यो "
+"मानले प्रत्येक स्क्रोल घटनाका लागि प्रयोग गरिने जुमका चरणहरू परिभाषित गर्दछ "
+"। उद्दाहरणका लागि, ०.०५ ले प्रत्येक स्क्रोल घटनाका लागि ५% जुम बढोत्तरीमा "
+"परिणाम दिन्छ र १.०० ले १००% जुम बढोत्तरीमा परिणाम दिन्छ ।"
+
+#: ../data/eog.schemas.in.h:26
+msgid "Transparency color"
+msgstr "पारदर्शी रङ्ग"
+
+#: ../data/eog.schemas.in.h:27
+msgid "Transparency indicator"
+msgstr "पारदर्शी संकेतकर्ता"
+
+#: ../data/eog.schemas.in.h:28
+msgid "Trash images without asking"
+msgstr ""
+
+#: ../data/eog.schemas.in.h:29
+msgid ""
+"Whether the file chooser should show the user's pictures folder if no images "
+"are loaded."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:30
+msgid "Whether the image collection pane should be resizable."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:31
+msgid ""
+"Whether the image should be extrapolated on zoom-in. This leads to blurry "
+"quality and is somewhat slower than non-extrapolated images."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:32
+msgid ""
+"Whether the image should be interpolated on zoom-out. This leads to better "
+"quality but is somewhat slower than non interpolated images."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:33
+msgid ""
+"Whether the image should be rotated automatically based on EXIF orientation."
+msgstr "या छवि EXIF अभिमुखिकरणमा आधारित स्वाचालित रुपमा घुमाइएको हुनुपर्दछ ।"
+
+#: ../data/eog.schemas.in.h:34
+msgid ""
+"Whether the metadata list in the properties dialog should have its own page."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:35
+msgid "Whether the scroll wheel should be used for zooming."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:36
+msgid "Whether the sequence of images should be shown in an endless loop."
+msgstr ""
+
+#: ../data/eog.schemas.in.h:37
+msgid "Zoom multiplier"
+msgstr "जुम गुणक"
+
+#: ../src/eog-close-confirmation-dialog.c:159
+msgid "Close _without Saving"
+msgstr "बचत नगरी बन्द गर्नुहोस्"
+
+#: ../src/eog-close-confirmation-dialog.c:193
+msgid "Question"
+msgstr "प्रश्न"
+
+#: ../src/eog-close-confirmation-dialog.c:374
+msgid "If you don't save, your changes will be lost."
+msgstr "तपाईले बचत गर्नुभएन भने तपाईका परिवर्तनहरु हराउनेछन्।"
+
+#: ../src/eog-close-confirmation-dialog.c:409
+#, c-format
+msgid "Save changes to image \"%s\" before closing?"
+msgstr "बन्द गर्नुभन्दा पहिले फोटो \"%s\" मा परिवर्तन बचत गर्ने?"
+
+#: ../src/eog-close-confirmation-dialog.c:604
+#, c-format
+msgid "There is %d image with unsaved changes. Save changes before closing?"
+msgid_plural "There are %d images with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/eog-close-confirmation-dialog.c:621
+msgid "S_elect the images you want to save:"
+msgstr ""
+
+#. Secondary label
+#: ../src/eog-close-confirmation-dialog.c:639
+msgid "If you don't save, all your changes will be lost."
+msgstr ""
+
+#: ../src/eog-file-chooser.c:128
+msgid "File format is unknown or unsupported"
+msgstr "फाइल ढाँचा अज्ञात वा असमर्थित छ"
+
+#: ../src/eog-file-chooser.c:133
+msgid ""
+"Eye of GNOME could not determine a supported writable file format based on "
+"the filename."
+msgstr ""
+"जिनोमको आँखाले फाइलनाममा आधारित एउटा समर्थित लेखनयोग्य फाइल ढाँचा निर्धारण "
+"गर्न सकेन ।"
+
+#: ../src/eog-file-chooser.c:134
+msgid "Please try a different file extension like .png or .jpg."
+msgstr "कृपया एउटा फरक फाइल विस्तार प्रयास गर्नुहोस् जस्तै .png or .jpg ।"
+
+#: ../src/eog-file-chooser.c:166
+msgid "All Files"
+msgstr "सबै लेखपत्रहरु"
+
+#: ../src/eog-file-chooser.c:171
+msgid "All Images"
+msgstr "सबै चित्रहरु"
+
+#. Filter name: First description then file extension, eg. "The PNG-Format (*.png)".
+#: ../src/eog-file-chooser.c:192
+#, c-format
+msgid "%s (*.%s)"
+msgstr "%s (*.%s)"
+
+#. Pixel size of image: width x height in pixel
+#: ../src/eog-file-chooser.c:288 ../src/eog-properties-dialog.c:137
+#: ../src/eog-properties-dialog.c:139 ../src/eog-thumb-view.c:379
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "पिक्सेल"
+msgstr[1] "पिक्सेल"
+
+#: ../src/eog-file-chooser.c:437
+msgid "Load Image"
+msgstr "चित्र लोड गर"
+
+#: ../src/eog-file-chooser.c:445
+msgid "Save Image"
+msgstr "चित्र बचत गर"
+
+#: ../src/eog-file-chooser.c:453
+msgid "Open Folder"
+msgstr "फईलपत्र खोल"
+
+#: ../src/eog-image.c:579
+#, c-format
+msgid "Transformation on unloaded image."
+msgstr "अनलोड गरेको छविमा रुपान्तर ।"
+
+#: ../src/eog-image.c:607
+#, c-format
+msgid "Transformation failed."
+msgstr "रूपान्तरण असफल भयो ।"
+
+#: ../src/eog-image.c:1011
+#, c-format
+msgid "EXIF not supported for this file format."
+msgstr "यो फाइल ढाँचाकोलागि EXIF असमर्थित भयो ।"
+
+#: ../src/eog-image.c:1134
+#, c-format
+msgid "Image loading failed."
+msgstr "छवि लोड गराइ असफल भयो ।"
+
+#: ../src/eog-image.c:1539 ../src/eog-image.c:1641
+#, c-format
+msgid "No image loaded."
+msgstr "चित्रहरु लोड गरिएका छैनन्"
+
+#: ../src/eog-image.c:1549 ../src/eog-image.c:1653
+#, c-format
+msgid "Temporary file creation failed."
+msgstr "अस्थायी फाइल सिर्जना गर्दा असफल भयो ।"
+
+#: ../src/eog-image-jpeg.c:361
+#, c-format
+msgid "Couldn't create temporary file for saving: %s"
+msgstr "%s बचत गर्नको लागि अस्थाई लरखपत्र निर्माण गर्न सकिएन"
+
+#: ../src/eog-image-jpeg.c:380
+#, c-format
+msgid "Couldn't allocate memory for loading JPEG file"
+msgstr "जेपिईजि लेखपत्रको लागि स्मरणशक्ति स्थापित गर्न सकिएन"
+
+#: ../src/eog-exif-details.c:68
+msgid "Camera"
+msgstr "क्यामेरा"
+
+#: ../src/eog-exif-details.c:69
+msgid "Image Data"
+msgstr "चित्र तथ्याङ्क"
+
+#: ../src/eog-exif-details.c:70
+msgid "Image Taking Conditions"
+msgstr "चित्रले लिईरहेको अवस्था"
+
+#: ../src/eog-exif-details.c:71
+msgid "Maker Note"
+msgstr "नोट निर्माता"
+
+#: ../src/eog-exif-details.c:72
+msgid "Other"
+msgstr "अर्को"
+
+#: ../src/eog-exif-details.c:74
+msgid "XMP Exif"
+msgstr "XMP Exif"
+
+#: ../src/eog-exif-details.c:75
+msgid "XMP IPTC"
+msgstr "XMP IPTC"
+
+#: ../src/eog-exif-details.c:76
+msgid "XMP Rights Management"
+msgstr "XMP अधिकार व्यवस्थापन"
+
+#: ../src/eog-exif-details.c:77
+msgid "XMP Other"
+msgstr "XMP अन्य"
+
+#: ../src/eog-exif-details.c:251
+msgid "Tag"
+msgstr "मार्का/छाप"
+
+#: ../src/eog-exif-details.c:258
+msgid "Value"
+msgstr "मुल्य"
+
+#. A strftime-formatted string, to display the date the image was taken.
+#: ../src/eog-exif-util.c:113 ../src/eog-exif-util.c:153
+msgid "%a, %d %B %Y  %X"
+msgstr "%a, %d %B %Y  %X"
+
+#. A strftime-formatted string, to display the date the image was taken, for the case we don't have the time.
+#: ../src/eog-exif-util.c:147
+msgid "%a, %d %B %Y"
+msgstr "%a, %d %B %Y"
+
+#: ../src/eog-error-message-area.c:107
+msgid "_Retry"
+msgstr "पुन: प्रयास गर्नुहोस्"
+
+#: ../src/eog-error-message-area.c:141
+#, c-format
+msgid "Could not load image '%s'."
+msgstr "'%s' छवि लोड गर्न सकेन ।"
+
+#: ../src/eog-error-message-area.c:175
+#, c-format
+msgid "No images found in '%s'."
+msgstr "'%s' मा छवि फेला परेन ।"
+
+#: ../src/eog-error-message-area.c:182
+msgid "The given locations contain no images."
+msgstr "दिएको स्थानले कुनै छवि समावेश गर्दैन ।"
+
+#: ../src/eog-print.c:197
+msgid "Image Settings"
+msgstr "छवि सेटिङ"
+
+#: ../src/eog-print-image-setup.c:834
+msgid "Image"
+msgstr "फोटो"
+
+#: ../src/eog-print-image-setup.c:835
+msgid "The image whose printing properties will be set up"
+msgstr ""
+
+#: ../src/eog-print-image-setup.c:841
+msgid "Page Setup"
+msgstr "पृष्ठ सेटअप"
+
+#: ../src/eog-print-image-setup.c:842
+msgid "The information for the page where the image will be printed"
+msgstr "छवि मुद्रण गरिने पृष्ठका लागि सूचना"
+
+#: ../src/eog-print-image-setup.c:870
+msgid "Position"
+msgstr "स्थिति"
+
+#: ../src/eog-print-image-setup.c:875
+msgid "_Left:"
+msgstr "_बायाँ:"
+
+#: ../src/eog-print-image-setup.c:876
+msgid "_Right:"
+msgstr "_दायाँ:"
+
+#: ../src/eog-print-image-setup.c:877
+msgid "_Top:"
+msgstr "_माथि:"
+
+#: ../src/eog-print-image-setup.c:878
+msgid "_Bottom:"
+msgstr "_तल:"
+
+#: ../src/eog-print-image-setup.c:880
+msgid "C_enter:"
+msgstr "केन्द्र:"
+
+#: ../src/eog-print-image-setup.c:885
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: ../src/eog-print-image-setup.c:887
+msgid "Horizontal"
+msgstr "तेर्सो"
+
+#: ../src/eog-print-image-setup.c:889
+msgid "Vertical"
+msgstr "ठाडो"
+
+#: ../src/eog-print-image-setup.c:891
+msgid "Both"
+msgstr "दुवै"
+
+#: ../src/eog-print-image-setup.c:907
+msgid "Size"
+msgstr "साइज"
+
+#: ../src/eog-print-image-setup.c:912
+msgid "_Width:"
+msgstr "_चौडाइ:"
+
+#: ../src/eog-print-image-setup.c:914
+msgid "_Height:"
+msgstr "_उचाइ:"
+
+#: ../src/eog-print-image-setup.c:917
+msgid "_Scaling:"
+msgstr "_मापन:"
+
+#: ../src/eog-print-image-setup.c:930
+msgid "_Unit:"
+msgstr "_ईकाइ:"
+
+#: ../src/eog-print-image-setup.c:935
+msgid "Millimeters"
+msgstr "मिलिमिटर"
+
+#: ../src/eog-print-image-setup.c:937
+msgid "Inches"
+msgstr "इन्च"
+
+#: ../src/eog-print-image-setup.c:967
+msgid "Preview"
+msgstr "पुर्वावलोकन"
+
+#: ../src/eog-properties-dialog.c:154
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#. TRANSLATORS: This is the actual focal length used when
+#. the image was taken.
+#: ../src/eog-properties-dialog.c:232
+#, c-format
+msgid "%.1f (lens)"
+msgstr "%.1f (लेन्स)"
+
+#. Print as float to get a similar look as above.
+#. TRANSLATORS: This is the equivalent focal length assuming
+#. a 35mm film camera.
+#: ../src/eog-properties-dialog.c:243
+#, c-format
+msgid "%.1f (35mm film)"
+msgstr "%.1f (३५ मिलिमिटर फिल्म)"
+
+#: ../src/eog-save-as-dialog-helper.c:161
+msgid "as is"
+msgstr "जस्तै छ"
+
+#. Translators: This string is displayed in the statusbar.
+#. * The first token is the image number, the second is total image
+#. * count.
+#. *
+#. * Translate to "%Id" if you want to use localized digits, or
+#. * translate to "%d" otherwise.
+#. *
+#. * Note that translating this doesn't guarantee that you get localized
+#. * digits. That needs support from your system and locale definition
+#. * too.
+#: ../src/eog-statusbar.c:125
+#, c-format
+msgid "%d / %d"
+msgstr "%d / %d"
+
+#: ../src/eog-thumb-view.c:407
+msgid "Taken on"
+msgstr "लिइएको"
+
+#: ../src/eog-uri-converter.c:984
+#, c-format
+msgid "At least two file names are equal."
+msgstr "घटिमा दुई फाइल नामहरू उस्तै छन् ।"
+
+#: ../src/eog-util.c:68
+msgid "Could not display help for Eye of GNOME"
+msgstr "%s जोनोम को आँखाको लागि सहयोहि देखाउन सकेन."
+
+#: ../src/eog-util.c:116
+msgid " (invalid Unicode)"
+msgstr " (अमान्य युनिकोड)"
+
+#. Translators: This is the string displayed in the statusbar
+#. * The tokens are from left to right:
+#. * - image width
+#. * - image height
+#. * - image size in bytes
+#. * - zoom in percent
+#: ../src/eog-window.c:774
+#, c-format
+msgid "%i × %i pixel  %s    %i%%"
+msgid_plural "%i × %i pixels  %s    %i%%"
+msgstr[0] "%i × %i पिक्सेल  %s    %i%%"
+msgstr[1] "%i × %i पिकसेल  %s    %i%%"
+
+#: ../src/eog-window.c:1192
+#, c-format
+msgid "Use \"%s\" to open the selected image"
+msgstr "चयन गरिएको छवि खोल्न \"%s\" प्रयोग गर्नुहोस्"
+
+#. Translators: This string is displayed in the statusbar
+#. * while saving images. The tokens are from left to right:
+#. * - the original filename
+#. * - the current image's position in the queue
+#. * - the total number of images queued for saving
+#: ../src/eog-window.c:1342
+#, c-format
+msgid "Saving image \"%s\" (%u/%u)"
+msgstr ""
+
+#: ../src/eog-window.c:1684
+#, c-format
+msgid "Loading image \"%s\""
+msgstr "\"%s\" छवि लोड गर्दै"
+
+#: ../src/eog-window.c:2384
+#, c-format
+msgid ""
+"Error printing file:\n"
+"%s"
+msgstr ""
+"फाइल मुद्रण गर्दा त्रुटि:\n"
+"%s"
+
+#: ../src/eog-window.c:2636
+msgid "Toolbar Editor"
+msgstr "उपकरणपट्टी सम्पादक"
+
+#: ../src/eog-window.c:2639
+msgid "_Reset to Default"
+msgstr ""
+
+#: ../src/eog-window.c:2725
+msgid "translator-credits"
+msgstr ""
+"Mahesh subedi <mahesh@mpp.org.np>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  KU https://launchpad.net/~info-ku\n"
+"  Mahesh Subedi https://launchpad.net/~submanesh"
+
+#: ../src/eog-window.c:2728
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+msgstr ""
+"यो कार्यक्रम स्वतन्त्र सफ्टवेयर हो; तपाईँले स्वतन्त्र सफ्टवेयर संस्थाद्वारा "
+"प्रकाशन गरिएको GNU General Public License अन्तर्गत; या लाइसेन्सको संस्करण २ "
+"वा (तपाईँको विकल्पमा) कुनै पछाडिको संस्करणमा यसलाई पुन:वितरण गर्न र/वा यसलाई "
+"परिमार्जन गर्न सक्नुहुन्छ ।\n"
+
+#: ../src/eog-window.c:2732
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+msgstr ""
+"यो कार्यक्रम उपयोगी हुन्छ भन्ने आशामा तर वारेन्टीबिना; यहाँसम्म कि कुनै "
+"ब्यापारिक उपलक्षित वारेन्टी बिना वा कुनै विशेष उदेश्यबिना नै वितरण गरिएको छ "
+"।  अरु विस्तृत विवरणका लागि GNU General Public License हेर्नुहोस् ।\n"
+
+#: ../src/eog-window.c:2736
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+"तपाईँले यो कार्क्रम सँगै GNU General Public License को प्रतिलिपि प्राप्त "
+"गरेको हुनुपर्दछ; यदि नभएमा, स्वतन्त्र सफ्टवेयर संस्था, Inc., 59 Temple Place "
+"- Suite 330, Boston, MA 02111-1307, USA लाई लेख्नुहोस् ।"
+
+#: ../src/eog-window.c:2749
+msgid "Eye of GNOME"
+msgstr "जिनोमको आँखा"
+
+#: ../src/eog-window.c:2752
+msgid "The GNOME image viewer."
+msgstr "जिनोम छवि दर्शक ।"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/eog-window.c:2878
+#, c-format
+msgid ""
+"The image \"%s\" has been set as Desktop Background.\n"
+"Would you like to modify its appearance?"
+msgstr ""
+
+#: ../src/eog-window.c:3278
+msgid "Saving image locally…"
+msgstr ""
+
+#: ../src/eog-window.c:3360
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"\"%s\" to the trash?"
+msgstr ""
+"के तपाईँ साच्चै नै\n"
+"\"%s\"  छवि रद्दि टोकरीमा सार्न चाहनुहुन्छ?"
+
+#: ../src/eog-window.c:3363
+#, c-format
+msgid ""
+"A trash for \"%s\" couldn't be found. Do you want to remove this image "
+"permanently?"
+msgstr ""
+
+#: ../src/eog-window.c:3368
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"the selected image to the trash?"
+msgid_plural ""
+"Are you sure you want to move\n"
+"the %d selected images to the trash?"
+msgstr[0] ""
+"के तपाईँ साच्चै नै \n"
+"चयन गरेको छवि रद्दिटोकरीमा सार्न चाहनुहुन्छ?"
+msgstr[1] ""
+"के तपाईँ साच्चै नै \n"
+"चयन गरेको %d छवि रद्दि टोकरीमा सार्न चाहनुहुन्छ?"
+
+#: ../src/eog-window.c:3373
+msgid ""
+"Some of the selected images can't be moved to the trash and will be removed "
+"permanently. Are you sure you want to proceed?"
+msgstr ""
+
+#: ../src/eog-window.c:3390 ../src/eog-window.c:3832 ../src/eog-window.c:3856
+msgid "Move to _Trash"
+msgstr "रद्दि टोकरीमा सार्नुहोस्"
+
+#: ../src/eog-window.c:3392
+msgid "_Do not ask again during this session"
+msgstr ""
+
+#: ../src/eog-window.c:3437 ../src/eog-window.c:3451
+#, c-format
+msgid "Couldn't access trash."
+msgstr "रद्दिटोकरी पहुँच गर्न सकिएन ।"
+
+#: ../src/eog-window.c:3459
+#, c-format
+msgid "Couldn't delete file"
+msgstr "फाइल मेटाउन सकेन"
+
+#: ../src/eog-window.c:3530
+#, c-format
+msgid "Error on deleting image %s"
+msgstr "छवि %s मेट्ने क्रममा त्रुटि"
+
+#: ../src/eog-window.c:3752
+msgid "_File"
+msgstr "_लेखपत्र"
+
+#: ../src/eog-window.c:3753
+msgid "_Edit"
+msgstr "_सम्पादन गर्नु"
+
+#: ../src/eog-window.c:3754
+msgid "_View"
+msgstr "_द्रिष्य"
+
+#: ../src/eog-window.c:3755
+msgid "_Image"
+msgstr "सबै छविहरू"
+
+#: ../src/eog-window.c:3756
+msgid "_Go"
+msgstr "जानुहोस्"
+
+#: ../src/eog-window.c:3757
+msgid "_Tools"
+msgstr "_उपकरणपट्टी"
+
+#: ../src/eog-window.c:3758
+msgid "_Help"
+msgstr "_सहयोग"
+
+#: ../src/eog-window.c:3760
+msgid "_Open…"
+msgstr "_खोल्नुहोस्..."
+
+#: ../src/eog-window.c:3761
+msgid "Open a file"
+msgstr "लेखपत्र खोल"
+
+#: ../src/eog-window.c:3763
+msgid "_Close"
+msgstr "_बन्द गर्नु"
+
+#: ../src/eog-window.c:3764
+msgid "Close window"
+msgstr "द्वार बन्दगर"
+
+#: ../src/eog-window.c:3766
+msgid "T_oolbar"
+msgstr "उपकरणपट्टी"
+
+#: ../src/eog-window.c:3767
+msgid "Edit the application toolbar"
+msgstr "अनुप्रयोग उपकरणपट्टी सम्पादन गर्नुहोस्"
+
+#: ../src/eog-window.c:3769
+msgid "Prefere_nces"
+msgstr "प्रथमिकिकरण"
+
+#: ../src/eog-window.c:3770
+msgid "Preferences for Eye of GNOME"
+msgstr "जिनोमको आँखाको लागि प्रातमिकिकरण"
+
+#: ../src/eog-window.c:3772
+msgid "_Contents"
+msgstr "बिषय वस्तु हरु"
+
+#: ../src/eog-window.c:3773
+msgid "Help on this application"
+msgstr "यस अनुप्रयोगमा मद्दत गर्नुहोस्"
+
+#: ../src/eog-window.c:3775 ../src/eog-plugin-manager.c:505
+msgid "_About"
+msgstr "_बारेमा"
+
+#: ../src/eog-window.c:3776
+msgid "About this application"
+msgstr "यो अनुरोधपत्रको बारेमा"
+
+#: ../src/eog-window.c:3781
+msgid "_Toolbar"
+msgstr "औजारबार"
+
+#: ../src/eog-window.c:3782
+msgid "Changes the visibility of the toolbar in the current window"
+msgstr "बिद्यमान द्वारमा चित्राङ्कित शिर्षरेखाको द्रिष्यातमक परिबर्तन गर"
+
+#: ../src/eog-window.c:3784
+msgid "_Statusbar"
+msgstr "तहबार"
+
+#: ../src/eog-window.c:3785
+msgid "Changes the visibility of the statusbar in the current window"
+msgstr "बिद्यमान द्वारमा स्टाटसबारको द्रिष्यातमक परिबर्तन गर"
+
+#: ../src/eog-window.c:3787
+msgid "_Image Collection"
+msgstr "छवि संङ्कलन"
+
+#: ../src/eog-window.c:3788
+msgid ""
+"Changes the visibility of the image collection pane in the current window"
+msgstr "हालको सञ्झ्यालमा छवि सङ्कलन फलकको दृष्यात्मकता परिवर्तन गर्नुहोस् ।"
+
+#: ../src/eog-window.c:3790
+msgid "Side _Pane"
+msgstr "साइड _फलक"
+
+#: ../src/eog-window.c:3791
+msgid "Changes the visibility of the side pane in the current window"
+msgstr "हालको सञ्झ्यालमा साइड फलकको पारदर्शिता परिवर्तन गर्नुहोस्"
+
+#: ../src/eog-window.c:3796
+msgid "_Save"
+msgstr "बचत"
+
+#: ../src/eog-window.c:3797
+msgid "Save changes in currently selected images"
+msgstr ""
+
+#: ../src/eog-window.c:3799
+msgid "Open _with"
+msgstr "यससँग _खोल्नुहोस्"
+
+#: ../src/eog-window.c:3800
+msgid "Open the selected image with a different application"
+msgstr "छानिएको फोटो अर्को सफ्टवेयरसँग खोल्नुहोस्"
+
+#: ../src/eog-window.c:3802
+msgid "Save _As…"
+msgstr ""
+
+#: ../src/eog-window.c:3803
+msgid "Save the selected images with a different name"
+msgstr ""
+
+#: ../src/eog-window.c:3806
+msgid "Set up the page properties for printing"
+msgstr ""
+
+#: ../src/eog-window.c:3808
+msgid "_Print…"
+msgstr "मुद्रण..."
+
+#: ../src/eog-window.c:3809
+msgid "Print the selected image"
+msgstr "छानिएको फोटो मुद्रण गर्नुहोस्"
+
+#: ../src/eog-window.c:3811
+msgid "Prope_rties"
+msgstr "गुण"
+
+#: ../src/eog-window.c:3812
+msgid "Show the properties and metadata of the selected image"
+msgstr ""
+
+#: ../src/eog-window.c:3814
+msgid "_Undo"
+msgstr "अघिकै कायम गर"
+
+#: ../src/eog-window.c:3815
+msgid "Undo the last change in the image"
+msgstr ""
+
+#: ../src/eog-window.c:3817
+msgid "Flip _Horizontal"
+msgstr "क्षितिजिय हलुका स्पर्ष गर्नु"
+
+#: ../src/eog-window.c:3818
+msgid "Mirror the image horizontally"
+msgstr ""
+
+#: ../src/eog-window.c:3820
+msgid "Flip _Vertical"
+msgstr "ठाडो हलुका स्पर्ष गर्नु"
+
+#: ../src/eog-window.c:3821
+msgid "Mirror the image vertically"
+msgstr ""
+
+#: ../src/eog-window.c:3823
+msgid "_Rotate Clockwise"
+msgstr "घडिको दिसाबाट घमाउनु"
+
+#: ../src/eog-window.c:3824
+msgid "Rotate the image 90 degrees to the right"
+msgstr "फोटो दाँयातिर ९० डिग्रीले घुमाउनुहोस्"
+
+#: ../src/eog-window.c:3826
+msgid "Rotate Counterc_lockwise"
+msgstr "घडीको बिपरित दिशामा घुमाउनुहोस्"
+
+#: ../src/eog-window.c:3827
+msgid "Rotate the image 90 degrees to the left"
+msgstr "फोटो बाँयातिर ९० डिग्रीले घुमाउनुहोस्"
+
+#: ../src/eog-window.c:3829
+msgid "Set as _Desktop Background"
+msgstr ""
+
+#: ../src/eog-window.c:3830
+msgid "Set the selected image as the desktop background"
+msgstr ""
+
+#: ../src/eog-window.c:3833
+msgid "Move the selected image to the trash folder"
+msgstr ""
+
+#: ../src/eog-window.c:3835 ../src/eog-window.c:3847 ../src/eog-window.c:3850
+msgid "_Zoom In"
+msgstr "जुम बढाउनुहोस्"
+
+#: ../src/eog-window.c:3836 ../src/eog-window.c:3848
+msgid "Enlarge the image"
+msgstr "फोटो ठूलो पार्नुहोस्"
+
+#: ../src/eog-window.c:3838 ../src/eog-window.c:3853
+msgid "Zoom _Out"
+msgstr "जुम घटाउनुहोस्"
+
+#: ../src/eog-window.c:3839 ../src/eog-window.c:3851 ../src/eog-window.c:3854
+msgid "Shrink the image"
+msgstr ""
+
+#: ../src/eog-window.c:3841
+msgid "_Normal Size"
+msgstr "_साधारण आकार"
+
+#: ../src/eog-window.c:3842
+msgid "Show the image at its normal size"
+msgstr ""
+
+#: ../src/eog-window.c:3844
+msgid "Best _Fit"
+msgstr "सर्वोत्तम _उपयुक्त"
+
+#: ../src/eog-window.c:3845
+msgid "Fit the image to the window"
+msgstr ""
+
+#: ../src/eog-window.c:3862
+msgid "_Fullscreen"
+msgstr ""
+
+#: ../src/eog-window.c:3863
+msgid "Show the current image in fullscreen mode"
+msgstr ""
+
+#: ../src/eog-window.c:3868 ../src/eog-window.c:3883
+msgid "_Previous Image"
+msgstr "अघिल्लो फोटो"
+
+#: ../src/eog-window.c:3869
+msgid "Go to the previous image of the collection"
+msgstr "सङ्कलनको अघिल्लो फोटोमा जानुहोस्"
+
+#: ../src/eog-window.c:3871
+msgid "_Next Image"
+msgstr "पछिल्लो फोटो"
+
+#: ../src/eog-window.c:3872
+msgid "Go to the next image of the collection"
+msgstr "सङ्कलनको पछिल्लो फोटोमा जानुहोस्"
+
+#: ../src/eog-window.c:3874 ../src/eog-window.c:3886
+msgid "_First Image"
+msgstr "पहिलो फोटो"
+
+#: ../src/eog-window.c:3875
+msgid "Go to the first image of the collection"
+msgstr "सङ्कलनको पहिलो फोटोमा जानुहोस्"
+
+#: ../src/eog-window.c:3877 ../src/eog-window.c:3889
+msgid "_Last Image"
+msgstr "अन्तिम फोटो"
+
+#: ../src/eog-window.c:3878
+msgid "Go to the last image of the collection"
+msgstr "सङ्कलनको अन्तिम फोटोमा जानुहोस्"
+
+#: ../src/eog-window.c:3880
+msgid "_Random Image"
+msgstr ""
+
+#: ../src/eog-window.c:3881
+msgid "Go to a random image of the collection"
+msgstr ""
+
+#: ../src/eog-window.c:3895
+msgid "_Slideshow"
+msgstr "स्लाइड देखाउ"
+
+#: ../src/eog-window.c:3896
+msgid "Start a slideshow view of the images"
+msgstr ""
+
+#: ../src/eog-window.c:3962
+msgid "Previous"
+msgstr "अघिल्लो"
+
+#: ../src/eog-window.c:3966
+msgid "Next"
+msgstr "पछिल्लो"
+
+#: ../src/eog-window.c:3970
+msgid "Right"
+msgstr "दाहिने"
+
+#: ../src/eog-window.c:3973
+msgid "Left"
+msgstr "देब्रे"
+
+#: ../src/eog-window.c:3976
+msgid "In"
+msgstr "भित्र"
+
+#: ../src/eog-window.c:3979
+msgid "Out"
+msgstr "बाहिर"
+
+#: ../src/eog-window.c:3982
+msgid "Normal"
+msgstr "साधारण"
+
+#: ../src/eog-window.c:3985
+msgid "Fit"
+msgstr "उपयुक्त"
+
+#: ../src/eog-window.c:3988
+msgid "Collection"
+msgstr "संङ्कलन"
+
+#: ../src/eog-window.c:3991
+msgctxt "action (to trash)"
+msgid "Trash"
+msgstr ""
+
+#: ../src/eog-plugin-manager.c:51
+msgid "Plugin"
+msgstr "प्लगइन"
+
+#: ../src/eog-plugin-manager.c:52
+msgid "Enabled"
+msgstr "सक्षम पारियो"
+
+#: ../src/eog-plugin-manager.c:513
+msgid "C_onfigure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#: ../src/eog-plugin-manager.c:523
+msgid "A_ctivate"
+msgstr "सक्रिय बनाउनुहोस्"
+
+#: ../src/eog-plugin-manager.c:535
+msgid "Ac_tivate All"
+msgstr "सबै सक्रिय बनाउनुहोस्"
+
+#: ../src/eog-plugin-manager.c:540
+msgid "_Deactivate All"
+msgstr "_सबै निष्क्रिय बनाउनुहोस्"
+
+#: ../src/eog-plugin-manager.c:834
+msgid "Active _Plugins:"
+msgstr "प्लगइन सक्रिय पार्नुहोस्:"
+
+#: ../src/eog-plugin-manager.c:863
+msgid "_About Plugin"
+msgstr "_प्लगइनको बारेमा"
+
+#: ../src/eog-plugin-manager.c:870
+msgid "C_onfigure Plugin"
+msgstr "प्लगइन कन्फिगर गर्नुहोस्"
+
+#: ../src/main.c:63
+msgid "Open in fullscreen mode"
+msgstr "पूरा पर्दा मोडमा खोल्नुहोस्"
+
+#: ../src/main.c:64
+msgid "Disable image collection"
+msgstr "छवि संङ्कलन असक्षम पार्नुहोस्"
+
+#: ../src/main.c:65
+msgid "Open in slideshow mode"
+msgstr ""
+
+#: ../src/main.c:67
+msgid "Start a new instance instead of reusing an existing one"
+msgstr ""
+
+#: ../src/main.c:69
+msgid "[FILE…]"
+msgstr "[FILE…]"
+
+#. I18N: The '%s' is replaced with eog's command name.
+#: ../src/main.c:195
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr ""
+
+#: ../src/main.c:233
+msgid "Eye of GNOME Image Viewer"
+msgstr "जिनोम छवि दर्शकको आँखा"

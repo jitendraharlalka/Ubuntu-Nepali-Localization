@@ -1,0 +1,2459 @@
+# translation of kontact.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kontact\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:45+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:30+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, shyamkrishna_bal@yahoo.com,,,"
+
+#. i18n: file: src/kontact.kcfg:11
+#. i18n: ectx: tooltip, entry (ActivePlugin), group (View)
+#. i18n: file: src/kontact.kcfg:12
+#. i18n: ectx: whatsthis, entry (ActivePlugin), group (View)
+#: rc.cpp:5 rc.cpp:8
+msgid "The currently active plugin"
+msgstr ""
+
+#. i18n: file: src/kontact.kcfg:16
+#. i18n: ectx: label, entry (ForceStartupPlugin), group (View)
+#: rc.cpp:11
+msgid "Always start with plugin:"
+msgstr ""
+
+#. i18n: file: src/kontact.kcfg:17
+#. i18n: ectx: tooltip, entry (ForceStartupPlugin), group (View)
+#: rc.cpp:14
+msgid "Set the initial plugin on each start"
+msgstr ""
+
+#. i18n: file: src/kontact.kcfg:18
+#. i18n: ectx: whatsthis, entry (ForceStartupPlugin), group (View)
+#: rc.cpp:17
+msgid ""
+"Usually Kontact will come up with the plugin used before shutdown. Check "
+"this box if you would like the specified plugin to come up on start instead."
+msgstr ""
+
+#. i18n: file: plugins/knotes/knotes_part.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: src/kontactui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:22 rc.cpp:541
+msgid "&File"
+msgstr ""
+
+#. i18n: file: plugins/knotes/knotes_part.rc:8
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:25
+msgid "&Edit"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:16
+#. i18n: ectx: property (windowTitle), widget (QWidget, SDSummaryConfig_Base)
+#: rc.cpp:28
+msgid "Special Dates Summary Configuration"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysGroup)
+#: rc.cpp:31
+msgid "Show Special Dates Starting"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:28
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:34
+msgid "Show special occasions for today only"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:31
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:37
+msgid ""
+"Check this box if you want to see special occasions occurring on this date "
+"only."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:34
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:153
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:34
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:40 rc.cpp:211 rc.cpp:367 rc.cpp:445
+msgid "&Today only"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:44
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:43
+msgid "Show special occasions starting within the next month"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:47
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:46
+msgid ""
+"Check this box if you want to see special occasions that start sometime "
+"during the next 31 days."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:169
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:42
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:49 rc.cpp:220 rc.cpp:376 rc.cpp:454
+msgid "Within the next &month (31 days)"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:65
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:52
+msgid "Select the days for showing upcoming special occasions"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:68
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:55
+msgid ""
+"Check this box if you want to specify the number of days in the future for "
+"upcoming special occasions."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:190
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:63
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:74
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:58 rc.cpp:229 rc.cpp:385 rc.cpp:463
+msgid "Within the &next:"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:84
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mCustomDays)
+#: rc.cpp:61
+msgid "Set the number of days to show upcoming special occasions"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:87
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mCustomDays)
+#: rc.cpp:64
+msgid ""
+"Use this spinbox to set the number of days to show upcoming special "
+"occasions up to one year in the future."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:90
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:209
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:82
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:93
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#: rc.cpp:67 rc.cpp:238 rc.cpp:394 rc.cpp:472
+msgid "1 day"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:93
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:212
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:85
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:96
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#: rc.cpp:70 rc.cpp:241 rc.cpp:397 rc.cpp:475
+msgctxt "days to show in summary"
+msgid " days"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:130
+#. i18n: ectx: property (title), widget (QGroupBox, mShowFromCalGroup)
+#: rc.cpp:73
+msgid "Show These Special Dates From Your Calendar"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:136
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowBirthdaysFromCalBox)
+#: rc.cpp:76
+msgid "Show birthdays from your calendar"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:139
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowBirthdaysFromCalBox)
+#: rc.cpp:79
+msgid ""
+"Enable this option to include birthdays from your calendar in the upcoming "
+"special occasions summary. Typically, these are events with the \"Birthday\" "
+"category."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:142
+#. i18n: ectx: property (text), widget (QCheckBox, mShowBirthdaysFromCalBox)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:134
+#. i18n: ectx: property (text), widget (QCheckBox, mShowBirthdaysFromCal)
+#: rc.cpp:82 rc.cpp:409
+msgid "Show &birthdays"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:152
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAnniversariesFromCalBox)
+#: rc.cpp:85
+msgid "Show anniversaries from your calendar"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:155
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowAnniversariesFromCalBox)
+#: rc.cpp:88
+msgid ""
+"Enable this option to include anniversaries from your calendar in the "
+"upcoming special occasions summary. Typically, these are events with the "
+"\"Anniversary\" category."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:158
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAnniversariesFromCalBox)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:147
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAnniversariesFromCal)
+#: rc.cpp:91 rc.cpp:418
+msgid "Show &anniversaries"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:168
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowHolidaysFromCalBox)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:450
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHolidaysCal)
+#: rc.cpp:94 rc.cpp:337
+msgid "Show holidays from your calendar"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:171
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowHolidaysFromCalBox)
+#: rc.cpp:97
+msgid ""
+"Enable this option to include holidays from your calendar in the upcoming "
+"special occasions summary. These are events from your configured holiday "
+"region, or events with the \"Holiday\" category."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:174
+#. i18n: ectx: property (text), widget (QCheckBox, mShowHolidaysFromCalBox)
+#: rc.cpp:100
+msgid "Show &holidays"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:184
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowSpecialsFromCalBox)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:466
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mSpecialOccasionsCal)
+#: rc.cpp:103 rc.cpp:346
+msgid "Show special occasions from your calendar"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:187
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowSpecialsFromCalBox)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:469
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mSpecialOccasionsCal)
+#: rc.cpp:106 rc.cpp:349
+msgid ""
+"Enable this option to include events from your calendar with the \"special "
+"occasion\" category."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:190
+#. i18n: ectx: property (text), widget (QCheckBox, mShowSpecialsFromCalBox)
+#: rc.cpp:109
+msgid "Show s&pecial occasions"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:203
+#. i18n: ectx: property (title), widget (QGroupBox, mShowFromKABButtonGroup)
+#: rc.cpp:112
+msgid "Show These Special Dates From Your Contact List"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:209
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowBirthdaysFromKABBox)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:418
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mBirthdayConList)
+#: rc.cpp:115 rc.cpp:319
+msgid "Show birthdays from your address book"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:212
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowBirthdaysFromKABBox)
+#: rc.cpp:118
+msgid ""
+"Enable this option to include birthdays from your address book in the "
+"upcoming special occasions summary."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:215
+#. i18n: ectx: property (text), widget (QCheckBox, mShowBirthdaysFromKABBox)
+#: rc.cpp:121
+msgid "Show birth&days"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:225
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAnniversariesFromKABBox)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:434
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mAnniversariesConList)
+#: rc.cpp:124 rc.cpp:328
+msgid "Show anniversaries from your address book"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:228
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowAnniversariesFromKABBox)
+#: rc.cpp:127
+msgid ""
+"Enable this option to include anniversaries from your address book in the "
+"upcoming special occasions summary."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:231
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAnniversariesFromKABBox)
+#: rc.cpp:130
+msgid "Show anni&versaries"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:244
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:157
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:216
+#. i18n: ectx: property (title), widget (QGroupBox, mGroupwareGroup)
+#: rc.cpp:133 rc.cpp:421 rc.cpp:526
+msgid "Groupware Settings"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:250
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMineOnly)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:253
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMyEventsOnly)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:163
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMineOnly)
+#: rc.cpp:136 rc.cpp:244 rc.cpp:424
+msgid "Show events belonging to my calendars only"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:253
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMineOnly)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:256
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMyEventsOnly)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:166
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMineOnly)
+#: rc.cpp:139 rc.cpp:247 rc.cpp:427
+msgid ""
+"Check this box if you want the summary to show events belonging to your "
+"calendars only."
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:256
+#. i18n: ectx: property (text), widget (QCheckBox, mShowMineOnly)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:259
+#. i18n: ectx: property (text), widget (QCheckBox, mShowMyEventsOnly)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:169
+#. i18n: ectx: property (text), widget (QCheckBox, mShowMineOnly)
+#: rc.cpp:142 rc.cpp:250 rc.cpp:430
+msgid "Show &my events only"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:16
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlannerSummaryConfig_Base)
+#: rc.cpp:145
+msgid "Planner Summary Configuration"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:26
+#. i18n: ectx: attribute (title), widget (QWidget, GeneralTab)
+#: rc.cpp:148
+msgctxt "general settings"
+msgid "General"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:32
+#. i18n: ectx: property (title), widget (QGroupBox, mGeneralBox)
+#: rc.cpp:151
+msgid "General Configuration"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:38
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowRecurrence)
+#: rc.cpp:154
+msgid "Show an icon indicating a recurring item"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:41
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowRecurrence)
+#: rc.cpp:157
+msgid ""
+"Check this box if you want to see an icon that indicates an event or to-do "
+"is recurring."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:44
+#. i18n: ectx: property (text), widget (QCheckBox, mShowRecurrence)
+#: rc.cpp:160
+msgid "Show recurrence icon"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:54
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowReminder)
+#: rc.cpp:163
+msgid "Show an icon indicating the item has a reminder"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:57
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowReminder)
+#: rc.cpp:166
+msgid ""
+"Check this box if you want to see an icon indicating that the event or to-do "
+"has a reminder."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, mShowReminder)
+#: rc.cpp:169
+msgid "Show reminder icon"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:70
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mUnderline)
+#: rc.cpp:172
+msgid "Underline links in descriptions"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:73
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mUnderline)
+#: rc.cpp:175
+msgid "Check this box if you want URL links to be underlined."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:76
+#. i18n: ectx: property (text), widget (QCheckBox, mUnderline)
+#: rc.cpp:178
+msgid "Underline links"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:86
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mTodo)
+#: rc.cpp:181
+msgid "Show to-dos in the summary"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:89
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mTodo)
+#: rc.cpp:184
+msgid "Check this box if you want to see to-dos in the summary."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, mTodo)
+#: rc.cpp:187
+msgid "Show To-dos in planner"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:102
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mSd)
+#: rc.cpp:190
+msgid "Show special dates in the summary"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:105
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mSd)
+#: rc.cpp:193
+msgid "Check this box if you want to see special dates in the summary."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox, mSd)
+#: rc.cpp:196
+msgid "Show special dates in planner"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:135
+#. i18n: ectx: attribute (title), widget (QWidget, CalendarTab)
+#: rc.cpp:199
+msgid "Events"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:141
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysGroup)
+#: rc.cpp:202
+msgid "Show Calendar Events"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:147
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:20
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:205 rc.cpp:361
+msgid "Show events for today only"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:150
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:23
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:208 rc.cpp:364
+msgid "Check this box if you want to see events occurring on this date only."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:163
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:36
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:214 rc.cpp:370
+msgid "Show events starting within the next month"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:166
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:39
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:217 rc.cpp:373
+msgid ""
+"Check this box if you want to see events that start sometime during the next "
+"31 days."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:184
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:57
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:223 rc.cpp:379
+msgid "Select the days for showing upcoming events"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:187
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:60
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:226 rc.cpp:382
+msgid ""
+"Check this box if you want to specify the number of days in the future for "
+"upcoming events."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:203
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:76
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mCustomDays)
+#: rc.cpp:232 rc.cpp:388
+msgid "Set the number of days to show upcoming events"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:206
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:79
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mCustomDays)
+#: rc.cpp:235 rc.cpp:391
+msgid ""
+"Use this spinbox to set the number of days to show upcoming events up to 1 "
+"year in the future."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:283
+#. i18n: ectx: attribute (title), widget (QWidget, TodoTab)
+#: rc.cpp:253
+msgid "To-dos"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:289
+#. i18n: ectx: property (title), widget (QGroupBox, mHideGroup)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:133
+#. i18n: ectx: property (title), widget (QGroupBox, mHideGroup)
+#: rc.cpp:256 rc.cpp:478
+msgid "Hide Following To-do Types"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:295
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideCompletedBox)
+#: rc.cpp:259
+msgid "Hide completed to-dos"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:298
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideCompletedBox)
+#: rc.cpp:262
+msgid ""
+"Check this box if you do not want to see to-dos that have already been "
+"completed."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:301
+#. i18n: ectx: property (text), widget (QCheckBox, mHideCompletedBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:145
+#. i18n: ectx: property (text), widget (QCheckBox, mHideCompletedBox)
+#: rc.cpp:265 rc.cpp:487
+msgid "&Completed"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:311
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideOpenEndedBox)
+#: rc.cpp:268
+msgid "Hide to-dos without a due date"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:314
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideOpenEndedBox)
+#: rc.cpp:271
+msgid "Check this box if you do not want to see open-ended to-dos."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:317
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOpenEndedBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:161
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOpenEndedBox)
+#: rc.cpp:274 rc.cpp:496
+msgid "&Open-ended (no due date)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:327
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideUnstartedBox)
+#: rc.cpp:277
+msgid "Hide unstarted to-dos"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:330
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideUnstartedBox)
+#: rc.cpp:280
+msgid ""
+"Check this box if you do not want to see to-dos with a start date in the "
+"future."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:333
+#. i18n: ectx: property (text), widget (QCheckBox, mHideUnstartedBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:177
+#. i18n: ectx: property (text), widget (QCheckBox, mHideUnstartedBox)
+#: rc.cpp:283 rc.cpp:505
+msgid "&Unstarted (start date is in the future)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:340
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideInProgressBox)
+#: rc.cpp:286
+msgid "Hide in-progress to-dos"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:343
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideInProgressBox)
+#: rc.cpp:289
+msgid ""
+"Check this box if you do not want to see to-dos that have been started but "
+"are not yet completed."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:346
+#. i18n: ectx: property (text), widget (QCheckBox, mHideInProgressBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:190
+#. i18n: ectx: property (text), widget (QCheckBox, mHideInProgressBox)
+#: rc.cpp:292 rc.cpp:514
+msgid "&In-progress (started but not completed)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:353
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideOverdueBox)
+#: rc.cpp:295
+msgid "Hide overdue to-dos"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:356
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideOverdueBox)
+#: rc.cpp:298
+msgid ""
+"Check this box if you do not want to see to-dos that are past their due date "
+"but have not yet been completed."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:359
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOverdueBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:206
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOverdueBox)
+#: rc.cpp:301 rc.cpp:523
+msgid "Over&due (not completed and beyond due-date)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:373
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMyTodosOnly)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:222
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMineOnly)
+#: rc.cpp:304 rc.cpp:529
+msgid "Show To-dos belonging to my calendars only"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:376
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMyTodosOnly)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:225
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMineOnly)
+#: rc.cpp:307 rc.cpp:532
+msgid ""
+"Check this box if you want the summary to show To-dos belonging to your "
+"calendars only."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:379
+#. i18n: ectx: property (text), widget (QCheckBox, mShowMyTodosOnly)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:228
+#. i18n: ectx: property (text), widget (QCheckBox, mShowMineOnly)
+#: rc.cpp:310 rc.cpp:535
+msgid "Show &my To-dos only"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:403
+#. i18n: ectx: attribute (title), widget (QWidget, SdTab)
+#: rc.cpp:313
+msgid "Special Dates"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:409
+#. i18n: ectx: property (title), widget (QGroupBox, mSdBox)
+#: rc.cpp:316
+msgid "Show these Special Dates"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:421
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mBirthdayConList)
+#: rc.cpp:322
+msgid ""
+"Enable this option to include birthdays from your address book in the "
+"planner summary."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:424
+#. i18n: ectx: property (text), widget (QCheckBox, mBirthdayConList)
+#: rc.cpp:325
+msgid "Show birthdays from address book"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:437
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mAnniversariesConList)
+#: rc.cpp:331
+msgid ""
+"Enable this option to include anniversaries from your address book in the "
+"planner summary."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:440
+#. i18n: ectx: property (text), widget (QCheckBox, mAnniversariesConList)
+#: rc.cpp:334
+msgid "Show anniversaries from address book"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:453
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHolidaysCal)
+#: rc.cpp:340
+msgid ""
+"Enable this option to include holidays from your calendar in the planner "
+"summary. These are events from your configured holiday region, or events "
+"with the \"Holiday\" category."
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:456
+#. i18n: ectx: property (text), widget (QCheckBox, mHolidaysCal)
+#: rc.cpp:343
+msgid "Show holidays from calendar"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:472
+#. i18n: ectx: property (text), widget (QCheckBox, mSpecialOccasionsCal)
+#: rc.cpp:352
+msgid "Show special occasions from calendar"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:8
+#. i18n: ectx: property (windowTitle), widget (QWidget, ApptSummaryConfig_Base)
+#: rc.cpp:355
+msgid "Event Summary Configuration"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:14
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysButtonGroup)
+#: rc.cpp:358
+msgid "Show Upcoming Events Starting"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:122
+#. i18n: ectx: property (title), widget (QGroupBox, mShowButtonGroup)
+#: rc.cpp:400
+msgid "Show These Upcoming Events From Your Calendar"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:128
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowBirthdaysFromCal)
+#: rc.cpp:403
+msgid ""
+"Show birthdays from your calendar when also using the Birthday resource"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:131
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowBirthdaysFromCal)
+#: rc.cpp:406
+msgid ""
+"Enable this option to include birthdays from your calendar in the upcoming "
+"events summary. This option is only available if you are using the Birthdays "
+"resource in your calendar."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:141
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAnniversariesFromCal)
+#: rc.cpp:412
+msgid ""
+"Shows anniversaries from your calendar when using the Birthdays resource"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:144
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowAnniversariesFromCal)
+#: rc.cpp:415
+msgid ""
+"Enable this option to include anniversaries from your calendar in the "
+"upcoming events summary. This option is only available if you are using the "
+"Birthdays resource in your calendar."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:16
+#. i18n: ectx: property (windowTitle), widget (QWidget, TodoSummaryConfig_Base)
+#: rc.cpp:433
+msgid "To-do Summary Configuration"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysGroup)
+#: rc.cpp:436
+msgid "Show To-dos Due"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:28
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:439
+msgid "Show To-dos due today only"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:31
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:442
+msgid "Check this box if you want to see To-dos due on this date only."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:44
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:448
+msgid "Show To-dos due within the next month"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:47
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:451
+msgid ""
+"Check this box if you want to see To-dos that are due sometime during the "
+"next 31 days."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:65
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:457
+msgid "Select the days for showing pending To-dos"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:71
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:460
+msgid ""
+"Check this box if you want specify the number of days in the future for "
+"pending To-dos."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:87
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mCustomDays)
+#: rc.cpp:466
+msgid "Set the number of days to show pending To-dos"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:90
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mCustomDays)
+#: rc.cpp:469
+msgid ""
+"Use this spinbox to set the number of days to show pending To-dos up to 1 "
+"year in the future."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:139
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideCompletedBox)
+#: rc.cpp:481
+msgid "Hide completed To-dos"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:142
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideCompletedBox)
+#: rc.cpp:484
+msgid ""
+"Check this box if you do not want to see To-dos that have already been "
+"completed."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:155
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideOpenEndedBox)
+#: rc.cpp:490
+msgid "Hide To-dos without a due date"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:158
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideOpenEndedBox)
+#: rc.cpp:493
+msgid "Check this box if you do not want to see open-ended To-dos."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:171
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideUnstartedBox)
+#: rc.cpp:499
+msgid "Hide unstarted To-dos"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:174
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideUnstartedBox)
+#: rc.cpp:502
+msgid ""
+"Check this box if you do not want to see To-dos with a start date in the "
+"future."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:184
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideInProgressBox)
+#: rc.cpp:508
+msgid "Hide in-progress To-dos"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:187
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideInProgressBox)
+#: rc.cpp:511
+msgid ""
+"Check this box if you do not want to see To-dos that have been started but "
+"are not yet completed."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:197
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mHideOverdueBox)
+#: rc.cpp:517
+msgid "Hide overdue To-dos"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:203
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mHideOverdueBox)
+#: rc.cpp:520
+msgid ""
+"Check this box if you do not want to see To-dos that are past their due date "
+"but have not yet been completed."
+msgstr ""
+
+#. i18n: file: plugins/summary/kontactsummary_part.rc:5
+#. i18n: ectx: Menu (settings)
+#. i18n: file: src/kontactui.rc:16
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:538 rc.cpp:544
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: src/kontactui.rc:24
+#. i18n: ectx: Menu (help)
+#: rc.cpp:547
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: src/kontactui.rc:29
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:550
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: src/kontactui.rc:34
+#. i18n: ectx: ToolBar (navigatorToolBar)
+#: rc.cpp:553
+msgid "Navigator"
+msgstr ""
+
+#: src/aboutdialog.cpp:43
+msgid "About Kontact"
+msgstr "सम्पर्कका बारेमा"
+
+#: src/aboutdialog.cpp:49
+msgid "Kontact Container"
+msgstr "सम्पर्क राख्ने"
+
+#: src/aboutdialog.cpp:92
+msgid "No about information available."
+msgstr "उपलब्ध सूचनाको बारेमा हैन ।"
+
+#: src/aboutdialog.cpp:101
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: src/aboutdialog.cpp:130
+msgid "<p><b>Authors:</b></p>"
+msgstr "<p><b>लेखक:</b></p>"
+
+#: src/aboutdialog.cpp:143
+msgid "<p><b>Thanks to:</b></p>"
+msgstr "<p><b>धन्यवाद:</b></p>"
+
+#: src/aboutdialog.cpp:156
+msgid "<p><b>Translators:</b></p>"
+msgstr "<p><b>अनुवादक:</b></p>"
+
+#: src/aboutdialog.cpp:284
+#, kde-format
+msgid "%1 License"
+msgstr "%1 इजाजतपत्र"
+
+#: src/iconsidepane.cpp:248
+msgctxt "@action:inmenu"
+msgid "Show Icons Only"
+msgstr ""
+
+#: src/iconsidepane.cpp:254
+msgctxt "@info:status"
+msgid "Show sidebar items with icons and without text"
+msgstr ""
+
+#: src/iconsidepane.cpp:257
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want the sidebar items to have icons without text."
+msgstr ""
+
+#: src/iconsidepane.cpp:260
+msgctxt "@action:inmenu"
+msgid "Show Text Only"
+msgstr ""
+
+#: src/iconsidepane.cpp:266
+msgctxt "@info:status"
+msgid "Show sidebar items with text and without icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:269
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want the sidebar items to have text without icons."
+msgstr ""
+
+#: src/iconsidepane.cpp:272
+msgctxt "@action:inmenu"
+msgid "Show Icons && Text"
+msgstr ""
+
+#: src/iconsidepane.cpp:278
+msgctxt "@info:status"
+msgid "Show sidebar items with icons and text"
+msgstr ""
+
+#: src/iconsidepane.cpp:281
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want the sidebar items to have icons and text."
+msgstr ""
+
+#: src/iconsidepane.cpp:289
+msgctxt "@action:inmenu"
+msgid "Big Icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:295
+msgctxt "@info:status"
+msgid "Show large size sidebar icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:298
+msgctxt "@info:whatsthis"
+msgid "Choose this option if you want the sidebar icons to be extra big."
+msgstr ""
+
+#: src/iconsidepane.cpp:301
+msgctxt "@action:inmenu"
+msgid "Normal Icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:307
+msgctxt "@info:status"
+msgid "Show normal size sidebar icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:310
+msgctxt "@info:whatsthis"
+msgid "Choose this option if you want the sidebar icons to be normal size."
+msgstr ""
+
+#: src/iconsidepane.cpp:313
+msgctxt "@action:inmenu"
+msgid "Small Icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:319
+msgctxt "@info:status"
+msgid "Show small size sidebar icons"
+msgstr ""
+
+#: src/iconsidepane.cpp:322
+msgctxt "@info:whatsthis"
+msgid "Choose this option if you want the sidebar icons to be extra small."
+msgstr ""
+
+#: src/kcmkontact.cpp:97
+msgctxt "@title"
+msgid "KDE Kontact"
+msgstr ""
+
+#: src/kcmkontact.cpp:101
+msgctxt "@info:credit"
+msgid "(c), 2003 Cornelius Schumacher"
+msgstr ""
+
+#: src/kcmkontact.cpp:103
+msgctxt "@info:credit"
+msgid "Cornelius Schumacher"
+msgstr ""
+
+#: src/kcmkontact.cpp:104 src/kcmkontact.cpp:107
+#: plugins/knotes/knotes_plugin.cpp:117
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr ""
+
+#: src/kcmkontact.cpp:106 plugins/knotes/knotes_plugin.cpp:116
+msgctxt "@info:credit"
+msgid "Tobias Koenig"
+msgstr ""
+
+#: src/kcmkontact.cpp:118
+msgctxt "@info:tooltip"
+msgid "Select the initial plugin to use on each start"
+msgstr ""
+
+#: src/kcmkontact.cpp:121
+msgctxt "@info:whatsthis"
+msgid ""
+"Select the plugin from this drop down list to be used as the initial plugin "
+"each time Kontact is started. Otherwise, Kontact will restore the last "
+"active plugin from the previous usage."
+msgstr ""
+
+#: src/main.cpp:50
+msgid "KDE personal information manager"
+msgstr "केडीई व्यक्तिगत सूचना प्रबन्धक"
+
+#: src/main.cpp:111
+msgid "Start with a specific Kontact module"
+msgstr "निर्दिष्ट सम्पर्क मोडयुलबाट सुरु गर्नुहोस्"
+
+#: src/main.cpp:112
+msgid "Start in iconified (minimized) mode"
+msgstr "प्रतिमामय (सानो गरिएको) मोडमा सुरु गर्नुहोस्"
+
+#: src/main.cpp:113
+msgid "List all possible modules and exit"
+msgstr "सबै सम्भाव्य मोडयुल सूचिबद्ध गर्नुहोस् र अन्त्य गर्नुहोस्"
+
+#: src/main.cpp:164
+msgid "Kontact"
+msgstr "सम्पर्क"
+
+#: src/main.cpp:166
+msgid "(C) 2001-2009 The Kontact developers"
+msgstr ""
+
+#: src/main.cpp:169 plugins/korganizer/kcmapptsummary.cpp:168
+#: plugins/korganizer/kcmtodosummary.cpp:164
+#: plugins/planner/kcmplanner.cpp:244 plugins/planner/plannerplugin.cpp:61
+#: plugins/specialdates/kcmsdsummary.cpp:180
+#: plugins/specialdates/specialdates_plugin.cpp:61
+msgid "Allen Winter"
+msgstr "एलेन विन्टर"
+
+#: src/main.cpp:170
+msgid "Rafael Fernández López"
+msgstr ""
+
+#: src/main.cpp:171
+msgid "Daniel Molkentin"
+msgstr "डानिएल मोल्केन्टिन"
+
+#: src/main.cpp:172
+msgid "Don Sanders"
+msgstr "डन सान्डर"
+
+#: src/main.cpp:173 plugins/summary/summaryview_plugin.cpp:126
+msgid "Cornelius Schumacher"
+msgstr "कर्नेलस सुमाकर"
+
+#: src/main.cpp:174
+msgid "Tobias König"
+msgstr "टोबियास कोनिङ"
+
+#: src/main.cpp:175
+msgid "David Faure"
+msgstr "डेभिड फाउर"
+
+#: src/main.cpp:176
+msgid "Ingo Klöcker"
+msgstr "इङ्गो क्लकर"
+
+#: src/main.cpp:177
+msgid "Sven Lüppken"
+msgstr "स्भेन लुप्केन"
+
+#: src/main.cpp:178
+msgid "Zack Rusin"
+msgstr "ज्याक रुसिन"
+
+#: src/main.cpp:179
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "म्याथियास होएल्जर क्लुपफेल"
+
+#: src/main.cpp:180
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: src/mainwindow.cpp:327
+msgctxt "@item:intext"
+msgid "Loading Kontact..."
+msgstr ""
+
+#: src/mainwindow.cpp:326
+#, kde-format
+msgctxt "@item"
+msgid ""
+"<h2 style='text-align:center; margin-top: 0px; margin-bottom: 0px'>%1</h2>"
+msgstr ""
+
+#: src/mainwindow.cpp:338
+msgctxt "@info:status"
+msgid " Initializing..."
+msgstr ""
+
+#: src/mainwindow.cpp:364
+msgctxt "@item:intext"
+msgid "KDE Kontact"
+msgstr ""
+
+#: src/mainwindow.cpp:365
+msgctxt "@item:intext"
+msgid "Get Organized!"
+msgstr ""
+
+#: src/mainwindow.cpp:366
+msgctxt "@item:intext"
+msgid "The KDE Personal Information Management Suite"
+msgstr ""
+
+#: src/mainwindow.cpp:409
+msgctxt "@title:menu create new pim items (message,calendar,to-do,etc.)"
+msgid "New"
+msgstr ""
+
+#: src/mainwindow.cpp:431
+msgctxt "@title:menu synchronize pim items (message,calendar,to-do,etc.)"
+msgid "Sync"
+msgstr ""
+
+#: src/mainwindow.cpp:439
+msgctxt "@action:inmenu"
+msgid "Configure Kontact..."
+msgstr ""
+
+#: src/mainwindow.cpp:441
+msgctxt "@info:status"
+msgid "Configure Kontact"
+msgstr ""
+
+#: src/mainwindow.cpp:444
+msgctxt "@info:whatsthis"
+msgid "You will be presented with a dialog where you can configure Kontact."
+msgstr ""
+
+#: src/mainwindow.cpp:450
+msgctxt "@action:inmenu"
+msgid "&Kontact Introduction"
+msgstr ""
+
+#: src/mainwindow.cpp:452
+msgctxt "@info:status"
+msgid "Show the Kontact Introduction page"
+msgstr ""
+
+#: src/mainwindow.cpp:455
+msgctxt "@info:whatsthis"
+msgid "Choose this option to see the Kontact Introduction page."
+msgstr ""
+
+#: src/mainwindow.cpp:461
+msgctxt "@action:inmenu"
+msgid "&Tip of the Day"
+msgstr ""
+
+#: src/mainwindow.cpp:463
+msgctxt "@info:status"
+msgid "Show the Tip-of-the-Day dialog"
+msgstr ""
+
+#: src/mainwindow.cpp:466
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog showing small tips to help you use this "
+"program more effectively."
+msgstr ""
+
+#: src/mainwindow.cpp:663
+#, kde-format
+msgctxt "@info:status"
+msgid "Plugin %1"
+msgstr ""
+
+#: src/mainwindow.cpp:666
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switch to plugin %1"
+msgstr ""
+
+#: src/mainwindow.cpp:766
+msgctxt "@info:status"
+msgid "Application is running standalone. Foregrounding..."
+msgstr ""
+
+#: src/mainwindow.cpp:785
+#, kde-format
+msgctxt "@info"
+msgid "Cannot load part for %1."
+msgstr ""
+
+#: src/mainwindow.cpp:854
+#, kde-format
+msgctxt "@title:window Plugin dependent window title"
+msgid "%1 - Kontact"
+msgstr ""
+
+#: src/mainwindow.cpp:1185
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<h2 style='text-align:center; margin-top: 0px;'>Welcome to Kontact %1</h2><p "
+"align=\"center\">%2</p><table align=\"center\"><tr><td><a href=\"%3\"><img "
+"width=\"%4\" height=\"%5\" src=\"%6\" /></a></td><td><a "
+"href=\"%7\">%8</a><br /><span "
+"id=\"subtext\"><nobr>%9</nobr></span></td></tr><tr><td><a href=\"%10\"><img "
+"width=\"%11\" height=\"%12\" src=\"%13\" /></a></td><td><a "
+"href=\"%14\">%15</a><br /><span "
+"id=\"subtext\"><nobr>%16</nobr></span></td></tr><tr><td><a href=\"%17\"><img "
+"width=\"%18\" height=\"%19\" src=\"%20\" /></a></td><td><a "
+"href=\"%21\">%22</a><br /><span "
+"id=\"subtext\"><nobr>%23</nobr></span></td></tr></table><p style=\"margin-"
+"bottom: 0px\"> <a href=\"%24\">Skip this introduction</a></p>"
+msgstr ""
+
+#: src/mainwindow.cpp:1198
+msgctxt "@item:intext"
+msgid ""
+"Kontact handles your e-mail, address book, calendar, to-do list and more."
+msgstr ""
+
+#: src/mainwindow.cpp:1204
+msgctxt "@item:intext"
+msgid "Read Manual"
+msgstr ""
+
+#: src/mainwindow.cpp:1205
+msgctxt "@item:intext"
+msgid "Learn more about Kontact and its components"
+msgstr ""
+
+#: src/mainwindow.cpp:1211
+msgctxt "@item:intext"
+msgid "Visit Kontact Website"
+msgstr ""
+
+#: src/mainwindow.cpp:1212
+msgctxt "@item:intext"
+msgid "Access online resources and tutorials"
+msgstr ""
+
+#: src/mainwindow.cpp:1218
+msgctxt "@item:intext"
+msgid "Configure Kontact as Groupware Client"
+msgstr ""
+
+#: src/mainwindow.cpp:1219
+msgctxt "@item:intext"
+msgid "Prepare Kontact for use in corporate networks"
+msgstr ""
+
+#: plugins/akregator/akregator_plugin.cpp:46
+msgctxt "@action:inmenu"
+msgid "New Feed..."
+msgstr ""
+
+#: plugins/akregator/akregator_plugin.cpp:50
+msgctxt "@info:status"
+msgid "Create a new feed"
+msgstr ""
+
+#: plugins/akregator/akregator_plugin.cpp:53
+msgctxt "@info:whatsthis"
+msgid "You will be presented with a dialog where you can add a new feed."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:43
+msgctxt "@action:inmenu"
+msgid "New Contact..."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:48
+msgctxt "@info:status"
+msgid "Create a new contact"
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:51
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new contact."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:56
+msgctxt "@action:inmenu"
+msgid "New Contact Group..."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:61
+msgctxt "@info:status"
+msgid "Create a new contact group"
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:64
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new contact group."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:69
+msgctxt "@action:inmenu"
+msgid "Sync Contacts"
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:73
+msgctxt "@info:status"
+msgid "Synchronize groupware contacts"
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:76
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware contacts."
+msgstr ""
+
+#: plugins/kjots/kjots_plugin.cpp:44
+msgctxt "@action:inmenu"
+msgid "New KJots Page"
+msgstr ""
+
+#: plugins/kjots/kjots_plugin.cpp:48
+msgctxt "@info:status"
+msgid "Create a new jots page"
+msgstr ""
+
+#: plugins/kjots/kjots_plugin.cpp:51
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new jots page."
+msgstr ""
+
+#: plugins/kjots/kjots_plugin.cpp:56
+msgctxt "@action:inmenu"
+msgid "New KJots Book"
+msgstr ""
+
+#: plugins/kjots/kjots_plugin.cpp:60
+msgctxt "@info:status"
+msgid "Create a new jots book"
+msgstr ""
+
+#: plugins/kjots/kjots_plugin.cpp:63
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new jots book."
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:65
+msgid "kcmkmailsummary"
+msgstr "kcmkmailsummary"
+
+#: plugins/kmail/kcmkmailsummary.cpp:66
+msgid "Mail Summary Configuration Dialog"
+msgstr "पत्र सारांश कन्फिगरेसन संवाद"
+
+#: plugins/kmail/kcmkmailsummary.cpp:68
+msgid "(c) 2004 Tobias Koenig"
+msgstr "(c) 2004 टोबियास कोइनिङ"
+
+#: plugins/kmail/kcmkmailsummary.cpp:70
+#: plugins/korganizer/kcmapptsummary.cpp:167
+#: plugins/korganizer/kcmtodosummary.cpp:162
+#: plugins/planner/kcmplanner.cpp:243 plugins/planner/plannerplugin.cpp:63
+#: plugins/specialdates/kcmsdsummary.cpp:181
+#: plugins/specialdates/specialdates_plugin.cpp:63
+#: plugins/summary/kcmkontactsummary.cpp:119
+#: plugins/summary/summaryview_plugin.cpp:128
+msgid "Tobias Koenig"
+msgstr "टोबियास कोइनिङ"
+
+#: plugins/kmail/kcmkmailsummary.cpp:87
+msgid "Summary"
+msgstr "सारांश"
+
+#: plugins/kmail/kcmkmailsummary.cpp:89
+msgid "Show full path for folders"
+msgstr "फोल्डरका लागि पूरा मार्ग देखाउनुहोस्"
+
+#: plugins/kmail/kcmkmailsummary.cpp:91
+msgctxt "@info:tooltip"
+msgid "Show full path for each folder"
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:94
+msgctxt "@info:whatsthis"
+msgid ""
+"Enable this option if you want to see the full path for each folder listed "
+"in the summary. If this option is not enabled, then only the base folder "
+"path will be shown."
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:114
+msgctxt "prefix for local folders"
+msgid "Local"
+msgstr "स्थानीय"
+
+#: plugins/kmail/kmail_plugin.cpp:58
+msgctxt "@action:inmenu"
+msgid "New Message..."
+msgstr ""
+
+#: plugins/kmail/kmail_plugin.cpp:62
+msgctxt "@info:status"
+msgid "Create a new mail message"
+msgstr ""
+
+#: plugins/kmail/kmail_plugin.cpp:65
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create and send a new "
+"email message."
+msgstr ""
+
+#: plugins/kmail/kmail_plugin.cpp:72
+msgctxt "@action:inmenu"
+msgid "Sync Mail"
+msgstr ""
+
+#: plugins/kmail/kmail_plugin.cpp:74
+msgctxt "@info:status"
+msgid "Synchronize groupware mail"
+msgstr ""
+
+#: plugins/kmail/kmail_plugin.cpp:77
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware email."
+msgstr ""
+
+#: plugins/kmail/summarywidget.cpp:55
+msgid "New Messages"
+msgstr "नयाँ सन्देश"
+
+#: plugins/kmail/summarywidget.cpp:198
+#, kde-format
+msgctxt "%1: number of unread messages %2: total number of messages"
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: plugins/kmail/summarywidget.cpp:204
+#, kde-format
+msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
+msgstr ""
+
+#: plugins/kmail/summarywidget.cpp:219
+msgid "No unread messages in your monitored folders"
+msgstr "तपाईँको अनुगमन गरिएको फोल्डरमा कुनै नपढिएको सन्देश छैन"
+
+#: plugins/kmail/summarywidget.cpp:236
+#, kde-format
+msgid "Open Folder: \"%1\""
+msgstr "फोल्डर खोल्नुहोस्: \"%1\""
+
+#: plugins/knode/knode_plugin.cpp:45
+msgctxt "@action:inmenu"
+msgid "New Article..."
+msgstr ""
+
+#: plugins/knode/knode_plugin.cpp:49
+msgctxt "@info:status"
+msgid "Create a new Usenet article"
+msgstr ""
+
+#: plugins/knode/knode_plugin.cpp:52
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new article to "
+"post on Usenet."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:72
+msgctxt "@action:inmenu create new popup note"
+msgid "&New"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:77
+msgctxt "@info:status"
+msgid "Create a new popup note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:80
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can add a new popup note."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:83
+msgctxt "@action:inmenu"
+msgid "Edit..."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:87
+msgctxt "@info:status"
+msgid "Edit popup note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:90
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can modify an existing popup "
+"note."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:93
+msgctxt "@action:inmenu"
+msgid "Rename..."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:97
+msgctxt "@info:status"
+msgid "Rename popup note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:100
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can rename an existing popup "
+"note."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:103
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:108
+msgctxt "@info:status"
+msgid "Delete popup note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:111
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be prompted if you really want to permanently remove the selected "
+"popup note."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:115
+msgctxt "@action:inmenu"
+msgid "Print Selected Notes..."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:120
+msgctxt "@info:status"
+msgid "Print popup note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:123
+msgctxt "@info:whatsthis"
+msgid "You will be prompted to print the selected popup note."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:185
+msgctxt "@info"
+msgid "To print notes, first select the notes to print from the list."
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:186
+msgctxt "@title:window"
+msgid "Print Popup Notes"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:266 plugins/knotes/knotes_part.cpp:346
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to delete this note?"
+msgid_plural "Do you really want to delete these %1 notes?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/knotes/knotes_part.cpp:268 plugins/knotes/knotes_part.cpp:348
+msgctxt "@title:window"
+msgid "Confirm Delete"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:446
+msgctxt "@title:window"
+msgid "Rename Popup Note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:447
+msgctxt "@label:textbox"
+msgid "New Name:"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:56
+msgctxt "@action:inmenu"
+msgid "New Popup Note..."
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:61
+msgctxt "@info:status"
+msgid "Create new popup note"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:64
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new popup note."
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:69
+msgctxt "@action:inmenu"
+msgid "Sync Popup Notes"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:73
+msgctxt "@info:status"
+msgid "Synchronize groupware notes"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:76
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware notes."
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:107
+msgctxt "@title"
+msgid "KNotes"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:109
+msgctxt "@title"
+msgid "Popup Notes"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:111
+msgctxt "@info:credit"
+msgid "(c) 2003-2004 The Kontact developers"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:113
+msgctxt "@info:credit"
+msgid "Michael Brade"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:114
+msgctxt "@info:credit"
+msgid "Current Maintainer"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:155
+#: plugins/korganizer/korganizerplugin.cpp:202
+#: plugins/korganizer/todoplugin.cpp:207
+msgctxt "@item"
+msgid "Meeting"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:167
+#: plugins/korganizer/korganizerplugin.cpp:217
+#: plugins/korganizer/todoplugin.cpp:222
+#, kde-format
+msgctxt "@item"
+msgid "Note: %1"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:176
+msgctxt "@item"
+msgid "New Note"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:186
+#: plugins/korganizer/korganizerplugin.cpp:241
+#: plugins/korganizer/todoplugin.cpp:245
+msgctxt "@info"
+msgid "Dropping multiple mails is not supported."
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:189
+#: plugins/korganizer/korganizerplugin.cpp:244
+#: plugins/korganizer/todoplugin.cpp:248
+#, kde-format
+msgctxt "@item"
+msgid ""
+"From: %1\n"
+"To: %2\n"
+"Subject: %3"
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:192
+#: plugins/korganizer/korganizerplugin.cpp:253
+#: plugins/korganizer/todoplugin.cpp:257
+#, kde-format
+msgctxt "@item"
+msgid "Mail: %1"
+msgstr ""
+
+#: plugins/knotes/summarywidget.cpp:49
+msgid "Popup Notes"
+msgstr ""
+
+#: plugins/knotes/summarywidget.cpp:117
+msgid "No Notes Available"
+msgstr "कुनै द्रष्टब्य उपलब्ध छैन"
+
+#: plugins/knotes/summarywidget.cpp:142
+#, kde-format
+msgid "Read Popup Note: \"%1\""
+msgstr ""
+
+#: plugins/korganizer/apptsummarywidget.cpp:54
+msgid "Upcoming Events"
+msgstr "आउँदो घटना"
+
+#: plugins/korganizer/apptsummarywidget.cpp:214
+#, kde-format
+msgid "No upcoming events starting within the next day"
+msgid_plural "No upcoming events starting within the next %1 days"
+msgstr[0] "पछिल्लो दिन भित्रमा कुनै आउँदो घटना सुरु हुँदैन"
+msgstr[1] "पछिल्लो %1 दिनभित्रमा कुनै आउँदो घटना सुरु हुँदैन"
+
+#: plugins/korganizer/apptsummarywidget.cpp:246
+#: plugins/planner/planner.cpp:800
+msgid "&Edit Appointment..."
+msgstr "नियुक्ति सम्पादन गर्नुहोस्..."
+
+#: plugins/korganizer/apptsummarywidget.cpp:247
+#: plugins/planner/planner.cpp:801
+msgid "&Delete Appointment"
+msgstr "नियुक्ति मेट्नुहोस्"
+
+#: plugins/korganizer/apptsummarywidget.cpp:264
+#, kde-format
+msgid "Edit Event: \"%1\""
+msgstr "घटना सम्पादन गर्नुहोस्: \"%1\""
+
+#: plugins/korganizer/journalplugin.cpp:48
+msgctxt "@action:inmenu"
+msgid "New Journal..."
+msgstr ""
+
+#: plugins/korganizer/journalplugin.cpp:52
+msgctxt "@info:status"
+msgid "Create a new journal"
+msgstr ""
+
+#: plugins/korganizer/journalplugin.cpp:55
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new journal entry."
+msgstr ""
+
+#: plugins/korganizer/journalplugin.cpp:62
+msgctxt "@action:inmenu"
+msgid "Sync Journal"
+msgstr ""
+
+#: plugins/korganizer/journalplugin.cpp:65
+msgctxt "@info:status"
+msgid "Synchronize groupware journal"
+msgstr ""
+
+#: plugins/korganizer/journalplugin.cpp:68
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware journal entries."
+msgstr ""
+
+#: plugins/korganizer/kcmapptsummary.cpp:83
+#: plugins/korganizer/kcmtodosummary.cpp:76 plugins/planner/kcmplanner.cpp:90
+#: plugins/specialdates/kcmsdsummary.cpp:82
+msgid " day"
+msgid_plural " days"
+msgstr[0] " दिन"
+msgstr[1] " दिन"
+
+#: plugins/korganizer/kcmapptsummary.cpp:162
+msgid "kcmapptsummary"
+msgstr "kcmsdsummary"
+
+#: plugins/korganizer/kcmapptsummary.cpp:163
+msgid "Upcoming Events Configuration Dialog"
+msgstr "आउँदो घटना कन्फिगरेसन संवाद"
+
+#: plugins/korganizer/kcmapptsummary.cpp:165
+#: plugins/korganizer/kcmtodosummary.cpp:160
+msgid "(c) 2003 - 2004 Tobias Koenig"
+msgstr "(c) २००३-२००४ टोबियास कोएनिङ"
+
+#: plugins/korganizer/kcmtodosummary.cpp:157
+msgid "kcmtodosummary"
+msgstr "kcmsdsummary"
+
+#: plugins/korganizer/kcmtodosummary.cpp:158
+msgid "Pending To-dos Configuration Dialog"
+msgstr "विचाराधिन गर्नुपर्ने कन्फिगरेसन संवाद"
+
+#: plugins/korganizer/korganizerplugin.cpp:63
+msgctxt "@action:inmenu"
+msgid "New Event..."
+msgstr ""
+
+#: plugins/korganizer/korganizerplugin.cpp:67
+msgctxt "@info:status"
+msgid "Create a new event"
+msgstr ""
+
+#: plugins/korganizer/korganizerplugin.cpp:70
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new event item."
+msgstr ""
+
+#: plugins/korganizer/korganizerplugin.cpp:76
+msgctxt "@action:inmenu"
+msgid "Sync Calendar"
+msgstr ""
+
+#: plugins/korganizer/korganizerplugin.cpp:79
+msgctxt "@info:status"
+msgid "Synchronize groupware calendar"
+msgstr ""
+
+#: plugins/korganizer/korganizerplugin.cpp:82
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware events."
+msgstr ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:54
+#: plugins/specialdates/sdsummarywidget.cpp:298
+msgid "BIRTHDAY"
+msgstr "जन्मदिन"
+
+#: plugins/korganizer/summaryeventinfo.cpp:58
+#: plugins/specialdates/sdsummarywidget.cpp:314
+msgid "ANNIVERSARY"
+msgstr "वार्षिकोत्सव"
+
+#: plugins/korganizer/summaryeventinfo.cpp:185
+msgctxt "the appointment is today"
+msgid "Today"
+msgstr ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:189
+msgctxt "the appointment is tomorrow"
+msgid "Tomorrow"
+msgstr ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:211
+#: plugins/korganizer/todosummarywidget.cpp:223
+#: plugins/specialdates/sdsummarywidget.cpp:487
+#, kde-format
+msgid "in 1 day"
+msgid_plural "in %1 days"
+msgstr[0] "1 दिनमा"
+msgstr[1] "%1 दिनमा"
+
+#: plugins/korganizer/summaryeventinfo.cpp:224
+msgctxt "eg. in 1 hour 2 minutes"
+msgid "in "
+msgstr ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:228
+#, kde-format
+msgctxt "use abbreviation for hour to keep the text short"
+msgid "1 hr"
+msgid_plural "%1 hrs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:235
+#, kde-format
+msgctxt "use abbreviation for minute to keep the text short"
+msgid "1 min"
+msgid_plural "%1 mins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:238
+#: plugins/specialdates/sdsummarywidget.cpp:485
+msgid "now"
+msgstr "अहिले"
+
+#: plugins/korganizer/summaryeventinfo.cpp:241
+msgid "all day"
+msgstr ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:271 plugins/planner/planner.cpp:526
+#, kde-format
+msgctxt "Time from - to"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: plugins/korganizer/summaryeventinfo.cpp:289
+#, kde-format
+msgctxt "next occurrence"
+msgid "Next: %1"
+msgstr ""
+
+#: plugins/korganizer/todoplugin.cpp:62
+msgctxt "@action:inmenu"
+msgid "New To-do..."
+msgstr ""
+
+#: plugins/korganizer/todoplugin.cpp:66
+msgctxt "@info:status"
+msgid "Create a new to-do"
+msgstr ""
+
+#: plugins/korganizer/todoplugin.cpp:69
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new to-do item."
+msgstr ""
+
+#: plugins/korganizer/todoplugin.cpp:75
+msgctxt "@action:inmenu"
+msgid "Sync To-do List"
+msgstr ""
+
+#: plugins/korganizer/todoplugin.cpp:77
+msgctxt "@info:status"
+msgid "Synchronize groupware to-do list"
+msgstr ""
+
+#: plugins/korganizer/todoplugin.cpp:80
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware to-do list."
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:57
+msgid "Pending To-dos"
+msgstr "विचाराधिन गर्नु पर्ने कार्य"
+
+#: plugins/korganizer/todosummarywidget.cpp:201
+msgctxt "the to-do is due today"
+msgid "Today"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:203
+msgctxt "the to-do is due tomorrow"
+msgid "Tomorrow"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:225
+#, kde-format
+msgid "1 day ago"
+msgid_plural "%1 days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/korganizer/todosummarywidget.cpp:227
+msgctxt "the to-do is due"
+msgid "due"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:284
+#, kde-format
+msgid "No pending to-dos due within the next day"
+msgid_plural "No pending to-dos due within the next %1 days"
+msgstr[0] "पछिल्लो दिन भित्रमा म्याद नाघ्ने विचाराधिन गर्नुपर्ने कार्य छैन"
+msgstr[1] "पछिल्ला %1 दिन भित्रमा विचाराधिन गर्नुपर्ने कार्य छैन"
+
+#: plugins/korganizer/todosummarywidget.cpp:326
+#: plugins/planner/planner.cpp:862
+msgid "&Edit To-do..."
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:327
+#: plugins/planner/planner.cpp:863
+msgid "&Delete To-do"
+msgstr "गर्नु पर्ने कार्य मेट्नुहोस्"
+
+#: plugins/korganizer/todosummarywidget.cpp:332
+#: plugins/planner/planner.cpp:868
+msgid "&Mark To-do Completed"
+msgstr "समाप्त भएका गर्नु पर्ने कार्यमा चिनो लगाउनुहोस्"
+
+#: plugins/korganizer/todosummarywidget.cpp:352
+#: plugins/planner/planner.cpp:960
+#, kde-format
+msgid "Edit To-do: \"%1\""
+msgstr "गर्नुपर्ने कार्य सम्पादन गर्नुहोस: \"%1\""
+
+#: plugins/korganizer/todosummarywidget.cpp:380
+msgid "open-ended"
+msgstr "खुला-समाप्त"
+
+#: plugins/korganizer/todosummarywidget.cpp:383
+msgctxt "the to-do is overdue"
+msgid "overdue"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:386
+msgctxt "the to-do starts today"
+msgid "starts today"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:390
+msgctxt "the to-do has not been started yet"
+msgid "not-started"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:392
+msgctxt "the to-do is completed"
+msgid "completed"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:394
+msgctxt "the to-do is in-progress"
+msgid "in-progress "
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:399
+msgctxt "Separator for status like this: overdue, completed"
+msgid ","
+msgstr ""
+
+#: plugins/ktimetracker/ktimetracker_plugin.cpp:45
+msgctxt "@action:inmenu"
+msgid "New Task"
+msgstr ""
+
+#: plugins/ktimetracker/ktimetracker_plugin.cpp:49
+msgctxt "@info:status"
+msgid "Create a new time tracker"
+msgstr ""
+
+#: plugins/ktimetracker/ktimetracker_plugin.cpp:52
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create and start a new "
+"time tracker."
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:240
+msgid "kcmplanner"
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:240
+msgid "Planner Summary Configuration Dialog"
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:241
+msgid "(c) 2007-2008 Oral Timocin"
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:245 plugins/planner/plannerplugin.cpp:65
+msgid "Oral Timocin"
+msgstr ""
+
+#: plugins/planner/planner.cpp:92
+msgid "Planner"
+msgstr ""
+
+#: plugins/planner/planner.cpp:181
+msgctxt "today"
+msgid "Today"
+msgstr ""
+
+#: plugins/planner/planner.cpp:185
+msgctxt "tomorrow"
+msgid "Tomorrow"
+msgstr ""
+
+#: plugins/planner/planner.cpp:227
+#, kde-format
+msgid "No appointments pending within the next day"
+msgid_plural "No appointments pending within the next %1 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/planner/planner.cpp:333 plugins/planner/planner.cpp:361
+#: plugins/planner/planner.cpp:384 plugins/planner/planner.cpp:834
+msgctxt "to-do is overdue"
+msgid "overdue"
+msgstr ""
+
+#: plugins/planner/planner.cpp:719
+#: plugins/specialdates/sdsummarywidget.cpp:498
+msgid "Birthday"
+msgstr "जन्मदिन"
+
+#: plugins/planner/planner.cpp:722
+#: plugins/specialdates/sdsummarywidget.cpp:501
+msgid "Anniversary"
+msgstr "वार्षिकोत्सव"
+
+#: plugins/planner/planner.cpp:725
+#: plugins/specialdates/sdsummarywidget.cpp:504
+msgid "Holiday"
+msgstr "बिदा"
+
+#: plugins/planner/planner.cpp:728
+#: plugins/specialdates/sdsummarywidget.cpp:507
+msgid "Special Occasion"
+msgstr "विशेष अवसर"
+
+#: plugins/planner/planner.cpp:769
+#: plugins/specialdates/sdsummarywidget.cpp:549
+#, kde-format
+msgid "one year"
+msgid_plural "%1 years"
+msgstr[0] "एक वर्ष"
+msgstr[1] "%1 वर्ष"
+
+#: plugins/planner/planner.cpp:817
+#, kde-format
+msgid "Edit Appointment: \"%1\""
+msgstr ""
+
+#: plugins/planner/planner.cpp:841
+msgctxt "work on to-do is in progress"
+msgid "in progress"
+msgstr ""
+
+#: plugins/planner/planner.cpp:846
+msgctxt "to-do starts today"
+msgid "starts today"
+msgstr ""
+
+#: plugins/planner/planner.cpp:851
+msgctxt "to-do due today"
+msgid "due today"
+msgstr ""
+
+#: plugins/planner/planner.cpp:854
+msgctxt "to-do is completed"
+msgid "completed"
+msgstr ""
+
+#: plugins/planner/planner.cpp:912 plugins/planner/planner.cpp:913
+#: plugins/planner/planner.cpp:914 plugins/planner/planner.cpp:915
+#: plugins/planner/planner.cpp:916 plugins/planner/planner.cpp:917
+#: plugins/planner/planner.cpp:918 plugins/planner/planner.cpp:919
+#: plugins/planner/planner.cpp:920 plugins/planner/planner.cpp:921
+#: plugins/planner/planner.cpp:922
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: plugins/planner/plannerplugin.cpp:56
+msgid "Planner Summary"
+msgstr ""
+
+#: plugins/planner/plannerplugin.cpp:58
+msgid "Kontact Planner Summary"
+msgstr ""
+
+#: plugins/planner/plannerplugin.cpp:60
+#: plugins/specialdates/specialdates_plugin.cpp:60
+msgid "(c) 2004-2005 The KDE PIM Team"
+msgstr "(c) २००४-२००५ केडीई PIM समूह"
+
+#: plugins/planner/plannerplugin.cpp:62
+#: plugins/specialdates/specialdates_plugin.cpp:62
+msgid "Current Maintainer"
+msgstr "हालको मर्मतकर्ता"
+
+#: plugins/specialdates/kcmsdsummary.cpp:175
+msgid "kcmsdsummary"
+msgstr "kcmsdsummary"
+
+#: plugins/specialdates/kcmsdsummary.cpp:176
+msgid "Upcoming Special Dates Configuration Dialog"
+msgstr "आउँदो विशेष मिति कन्फिगरेसन संवाद"
+
+#: plugins/specialdates/kcmsdsummary.cpp:178
+msgid "(c) 2004-2006 Allen Winter"
+msgstr "(c) २००४-२००६ एलेन विन्टर"
+
+#: plugins/specialdates/sdsummarywidget.cpp:94
+msgid "Upcoming Special Dates"
+msgstr "आउँदो विशेष मिति"
+
+#: plugins/specialdates/sdsummarywidget.cpp:330
+msgid "HOLIDAY"
+msgstr "बिदा"
+
+#: plugins/specialdates/sdsummarywidget.cpp:348
+msgid "SPECIAL OCCASION"
+msgstr "विशेष अवसर"
+
+#: plugins/specialdates/sdsummarywidget.cpp:458
+msgctxt "the special day is today"
+msgid "Today"
+msgstr ""
+
+#: plugins/specialdates/sdsummarywidget.cpp:460
+msgctxt "the special day is tomorrow"
+msgid "Tomorrow"
+msgstr ""
+
+#: plugins/specialdates/sdsummarywidget.cpp:560
+#, kde-format
+msgid "No special dates within the next 1 day"
+msgid_plural "No special dates pending within the next %1 days"
+msgstr[0] "पछिल्लो 1 दिनभित्र कुनै विशेष मिति छैन"
+msgstr[1] "पछिल्लो %1 दिनभित्र कुनै विशेष मिति छैन"
+
+#: plugins/specialdates/sdsummarywidget.cpp:615
+msgid "Send &Mail"
+msgstr "मेल पठाउनुहोस्"
+
+#: plugins/specialdates/sdsummarywidget.cpp:618
+msgid "View &Contact"
+msgstr "सम्पर्क हेर्नुहोस्"
+
+#: plugins/specialdates/sdsummarywidget.cpp:633
+#, kde-format
+msgid "Mail to:\"%1\""
+msgstr "यसमा मेल पठाउनुहोस्:\"%1\""
+
+#: plugins/specialdates/specialdates_plugin.cpp:56
+msgid "Special Dates Summary"
+msgstr "विशेष मिति सारांश"
+
+#: plugins/specialdates/specialdates_plugin.cpp:58
+msgid "Kontact Special Dates Summary"
+msgstr "सम्पर्क विशेष मिति सारांश"
+
+#: plugins/summary/kcmkontactsummary.cpp:86
+msgctxt "@title:column plugin name"
+msgid "Summary Plugin Name"
+msgstr ""
+
+#: plugins/summary/kcmkontactsummary.cpp:102
+msgid "Select the plugin summaries to show on the summary page."
+msgstr ""
+
+#: plugins/summary/kcmkontactsummary.cpp:114
+msgid "kontactsummary"
+msgstr "kontactsummary"
+
+#: plugins/summary/kcmkontactsummary.cpp:115
+msgid "KDE Kontact Summary"
+msgstr "केडीई सम्पर्क सारांश"
+
+#: plugins/summary/kcmkontactsummary.cpp:117
+msgid "(c), 2004 Tobias Koenig"
+msgstr "(c), २००४ टोबियास कोइनिङ"
+
+#: plugins/summary/summaryview_part.cpp:70
+msgid "&Configure Summary View..."
+msgstr "सारांश दृश्य कन्फिगर गर्नुहोस्..."
+
+#: plugins/summary/summaryview_part.cpp:73
+msgid "Configure the summary view"
+msgstr ""
+
+#: plugins/summary/summaryview_part.cpp:76
+msgctxt "@info:whatsthis"
+msgid ""
+"Choosing this will show a dialog where you can select which summaries you "
+"want to see and also allow you to configure the summaries to your liking."
+msgstr ""
+
+#: plugins/summary/summaryview_part.cpp:123
+#, kde-format
+msgid "Summary for %1"
+msgstr "%1 का लागि सारांश"
+
+#: plugins/summary/summaryview_part.cpp:391
+msgid "What's next?"
+msgstr "पछिल्लो के हो ?"
+
+#: plugins/summary/summaryview_plugin.cpp:45
+msgid "Sync All"
+msgstr ""
+
+#: plugins/summary/summaryview_plugin.cpp:57
+msgctxt "@action:inmenu sync everything"
+msgid "All"
+msgstr ""
+
+#: plugins/summary/summaryview_plugin.cpp:73
+msgctxt "sync everything"
+msgid "All"
+msgstr ""
+
+#: plugins/summary/summaryview_plugin.cpp:118
+msgid "Kontact Summary"
+msgstr "सम्पर्क सारांश"
+
+#: plugins/summary/summaryview_plugin.cpp:120
+msgid "Kontact Summary View"
+msgstr "सम्पर्क सारांश दृश्य"
+
+#: plugins/summary/summaryview_plugin.cpp:122
+msgid "(c) 2003 The Kontact developers"
+msgstr "(c) २००३ सम्पर्क विकासकर्ता"
+
+#: plugins/summary/summaryview_plugin.cpp:124
+msgid "Sven Lueppken"
+msgstr "स्भेन लुपकेन"
+
+#: plugins/knotes/knotes_part_p.h:123
+msgctxt "@title:window"
+msgid "Edit Popup Note"
+msgstr ""
+
+#: plugins/knotes/knotes_part_p.h:142
+msgctxt "@label popup note name"
+msgid "Name:"
+msgstr ""

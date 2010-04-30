@@ -1,0 +1,426 @@
+# translation of kcmkwincompositing.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwincompositing\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:56+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:39+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ktimerdialog.cpp:167
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] "१ सेकेन्ड बाँकी:"
+msgstr[1] "%1 सेकेन्ड बाँकी:"
+
+#: main.cpp:56
+msgid "Confirm Desktop Effects Change"
+msgstr "डेस्कटप प्रभाव परिवर्तन यकिन गर्नुहोस्"
+
+#: main.cpp:60
+msgid "&Accept Configuration"
+msgstr "कन्फिगरेसन स्वीकार गर्नुहोस्"
+
+#: main.cpp:61
+msgid "&Return to Previous Configuration"
+msgstr "अघिल्लो कन्फिगरेसनमा फर्कनुहोस्"
+
+#: main.cpp:63
+msgid ""
+"Desktop effects settings have changed.\n"
+"Do you want to keep the new settings?\n"
+"They will be automatically reverted in 10 seconds."
+msgstr ""
+"डेस्कटप प्रभाव सेटिङ परिवर्तन गरिएको छ ।\n"
+"तपाईँ नयाँ सेटिङ राख्न चाहनुहुन्छ ?\n"
+"तिनीहरू स्वचालित रूपमा १० सेकेन्डमा उल्टिनेछन् ।"
+
+#: main.cpp:158
+msgid "Compositing is not supported on your system."
+msgstr "तपाईँको प्रणालीमा मिश्रण समर्थन गर्दैन ।"
+
+#: main.cpp:168
+msgid "kcmkwincompositing"
+msgstr "kcmkwincompositing"
+
+#: main.cpp:169
+msgid "KWin Desktop Effects Configuration Module"
+msgstr "केडीई विन डेस्कटप प्रभाव कन्फिगरेसन मोड्युल"
+
+#: main.cpp:170
+msgid "(c) 2007 Rivo Laks"
+msgstr "(c) २००७ रिभो लाक्स"
+
+#: main.cpp:171
+msgid "Rivo Laks"
+msgstr "रिभो लाक्स"
+
+#: main.cpp:202 main.cpp:208
+msgid "No Effect"
+msgstr ""
+
+#: main.cpp:240
+msgid ""
+"Failed to activate desktop effects using the given configuration options. "
+"Settings will be reverted to their previous values.\n"
+"\n"
+"Check your X configuration. You may also consider changing advanced options, "
+"especially changing the compositing type."
+msgstr ""
+
+#: main.cpp:283
+msgid "Appearance"
+msgstr "देखावट"
+
+#: main.cpp:284
+msgid "Accessibility"
+msgstr "पहुँचता"
+
+#: main.cpp:285
+msgid "Focus"
+msgstr ""
+
+#: main.cpp:286
+msgid "Window Management"
+msgstr "सञ्झ्याल व्यवस्थापन"
+
+#: main.cpp:287
+msgid "Candy"
+msgstr ""
+
+#: main.cpp:288
+msgid "Demos"
+msgstr "डेमोस"
+
+#: main.cpp:289
+msgid "Tests"
+msgstr "परीक्षण"
+
+#: main.cpp:290
+msgid "Tools"
+msgstr ""
+
+#: main.cpp:387
+msgid "Compositing is active"
+msgstr ""
+
+#: main.cpp:388
+msgid "Suspend Compositing"
+msgstr ""
+
+#: main.cpp:393
+msgid "Compositing is temporarily disabled"
+msgstr ""
+
+#: main.cpp:394 main.cpp:402
+msgid "Resume Compositing"
+msgstr ""
+
+#: main.cpp:401
+msgid "Compositing is disabled"
+msgstr ""
+
+#: main.cpp:657
+msgid ""
+"Your settings have been saved but as KDE is currently running in failsafe "
+"mode desktop effects cannot be enabled at this time.\n"
+"\n"
+"Please exit failsafe mode to enable desktop effects."
+msgstr ""
+
+#: main.cpp:698
+msgid "The following effects could not be activated:"
+msgstr ""
+
+#: main.cpp:760
+msgid "<h1>Desktop Effects</h1>"
+msgstr "<h1> डेस्कटप प्रभाव</h1>"
+
+#. i18n: file: main.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:3 rc.cpp:135
+msgid "General"
+msgstr "सामान्य"
+
+#. i18n: file: main.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, useCompositing)
+#: rc.cpp:6 rc.cpp:138
+msgctxt "@option:check"
+msgid "Enable desktop effects"
+msgstr ""
+
+#. i18n: file: main.ui:46
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:9 rc.cpp:141
+msgid "Common Settings"
+msgstr ""
+
+#. i18n: file: main.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, effectWinManagement)
+#: rc.cpp:12 rc.cpp:144
+msgid "Improved window management"
+msgstr "सुधार गरिएको सञ्झ्याल प्रबन्ध"
+
+#. i18n: file: main.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, effectShadows)
+#: rc.cpp:15 rc.cpp:147
+msgid "Shadows"
+msgstr "छायाँ"
+
+#. i18n: file: main.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, effectAnimations)
+#: rc.cpp:18 rc.cpp:150
+msgid "Various animations"
+msgstr "विभिन्न एनिमेसन"
+
+#. i18n: file: main.ui:98
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21 rc.cpp:153
+msgid ""
+"You can find more effects, as well as effect-specific settings, in the \"All "
+"Effects\" tab above."
+msgstr ""
+
+#. i18n: file: main.ui:108
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:24 rc.cpp:156
+msgid "Effect for window switching:"
+msgstr ""
+
+#. i18n: file: main.ui:131
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:27 rc.cpp:159
+msgid "Effect for desktop switching:"
+msgstr ""
+
+#. i18n: file: main.ui:180
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:30 rc.cpp:162
+msgid "Instant"
+msgstr ""
+
+#. i18n: file: main.ui:185
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:33 rc.cpp:165
+msgid "Very Fast"
+msgstr ""
+
+#. i18n: file: main.ui:190
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:36 rc.cpp:168
+msgid "Fast"
+msgstr ""
+
+#. i18n: file: main.ui:195
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:39 rc.cpp:171
+msgid "Normal"
+msgstr ""
+
+#. i18n: file: main.ui:200
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:42 rc.cpp:174
+msgid "Slow"
+msgstr ""
+
+#. i18n: file: main.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:45 rc.cpp:177
+msgid "Very Slow"
+msgstr ""
+
+#. i18n: file: main.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:48 rc.cpp:180
+msgid "Extremely Slow"
+msgstr ""
+
+#. i18n: file: main.ui:218
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:51 rc.cpp:183
+msgid "Animation speed:"
+msgstr ""
+
+#. i18n: file: main.ui:234
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:54 rc.cpp:186
+msgid "Compositing State"
+msgstr ""
+
+#. i18n: file: main.ui:294
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:57 rc.cpp:189
+msgid "All Effects"
+msgstr "सबै प्रभाव"
+
+#. i18n: file: main.ui:300
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:60 rc.cpp:192
+msgid ""
+"Hint: To find out or configure how to activate an effect, look at the "
+"effect's settings."
+msgstr ""
+
+#. i18n: file: main.ui:321
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:63 rc.cpp:195
+msgid "Advanced"
+msgstr ""
+
+#. i18n: file: main.ui:333
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:66 rc.cpp:198
+msgid "Compositing type:"
+msgstr "मिश्रण प्रकार:"
+
+#. i18n: file: main.ui:353
+#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
+#: rc.cpp:69 rc.cpp:201
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: file: main.ui:358
+#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
+#: rc.cpp:72 rc.cpp:204
+msgid "XRender"
+msgstr "XRender"
+
+#. i18n: file: main.ui:372
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:75 rc.cpp:207
+msgid "Keep window thumbnails:"
+msgstr ""
+
+#. i18n: file: main.ui:392
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:78 rc.cpp:210
+msgid "Always (Breaks minimization)"
+msgstr ""
+
+#. i18n: file: main.ui:397
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:81 rc.cpp:213
+msgid "Only for Shown Windows"
+msgstr ""
+
+#. i18n: file: main.ui:402
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:84 rc.cpp:216
+msgid "Never"
+msgstr ""
+
+#. i18n: file: main.ui:411
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableChecks)
+#: rc.cpp:87 rc.cpp:219
+msgid ""
+"Enabling this option allows compositing to be activated even if some of the "
+"internal checks fail. Doing so may make the whole desktop unusable and its "
+"use is not recommened. Use only if KWin refuses to activate compositing on a "
+"system that should be capable of compositing.\n"
+msgstr ""
+
+#. i18n: file: main.ui:414
+#. i18n: ectx: property (text), widget (QCheckBox, disableChecks)
+#: rc.cpp:91 rc.cpp:223
+msgid "Disable functionality checks"
+msgstr ""
+
+#. i18n: file: main.ui:421
+#. i18n: ectx: property (title), widget (QGroupBox, glGroup)
+#: rc.cpp:94 rc.cpp:226
+msgid "OpenGL Options"
+msgstr "ओपनजीएल विकल्प"
+
+#. i18n: file: main.ui:433
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:97 rc.cpp:229
+msgid "OpenGL mode:"
+msgstr "OpenGL मोड:"
+
+#. i18n: file: main.ui:453
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:100 rc.cpp:232
+msgid "Texture From Pixmap"
+msgstr "पिक्सम्यापबाट मिलावट"
+
+#. i18n: file: main.ui:458
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:103 rc.cpp:235
+msgid "Shared Memory"
+msgstr "बाँडिएको स्मृति"
+
+#. i18n: file: main.ui:463
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:106 rc.cpp:238
+msgid "Fallback"
+msgstr "फलब्याक"
+
+#. i18n: file: main.ui:477
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:109 rc.cpp:241
+msgid "Texture filter:"
+msgstr "बनावट फिल्टर:"
+
+#. i18n: file: main.ui:497
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:112 rc.cpp:244
+msgid "Nearest (fastest)"
+msgstr "सबभन्दा नजिक (सबभन्दा छिटो)"
+
+#. i18n: file: main.ui:502
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:115 rc.cpp:247
+msgid "Bilinear"
+msgstr "द्वि-रेखिय"
+
+#. i18n: file: main.ui:507
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:118 rc.cpp:250
+msgid "Trilinear (best quality)"
+msgstr "त्रि-रेखिय (उत्तम गुणस्तर)"
+
+#. i18n: file: main.ui:515
+#. i18n: ectx: property (text), widget (QCheckBox, glDirect)
+#: rc.cpp:121 rc.cpp:253
+msgid "Enable direct rendering"
+msgstr ""
+
+#. i18n: file: main.ui:525
+#. i18n: ectx: property (text), widget (QCheckBox, glVSync)
+#: rc.cpp:124 rc.cpp:256
+msgid "Use VSync"
+msgstr "VSync प्रयोग गर्नुहोस्"
+
+#. i18n: file: main.ui:538
+#. i18n: ectx: property (title), widget (QGroupBox, xrenderGroup)
+#: rc.cpp:127 rc.cpp:259
+msgid "XRender Options"
+msgstr "एक्स रेन्डर विकल्प"
+
+#. i18n: file: main.ui:544
+#. i18n: ectx: property (text), widget (QCheckBox, xrenderSmoothScale)
+#: rc.cpp:130 rc.cpp:262
+msgid "Smooth scaling (slower)"
+msgstr "महीन मापन (ढिलो)"
+
+#: rc.cpp:131
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:132
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"

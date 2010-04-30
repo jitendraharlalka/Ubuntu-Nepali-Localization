@@ -1,0 +1,676 @@
+# translation of kiten.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kiten\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 10:11+0000\n"
+"PO-Revision-Date: 2010-04-10 20:02+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:16+0000\n"
+
+#: lib/dictDeinflect/dictFileDeinflect.cpp:72
+msgid ""
+"Verb deinflection information not found, so verb deinflection cannot be "
+"used."
+msgstr ""
+"काल डिइन्फ्लेक्सन सूचना फेला परेन त्यसैले काल डिइन्फ्लेक्सन प्रयोग गर्न "
+"सकिदैन ।"
+
+#: lib/dictDeinflect/dictFileDeinflect.cpp:83
+msgid ""
+"Verb deinflection information could not be loaded, so verb deinflection "
+"cannot be used."
+msgstr ""
+"काल डिइन्फ्लेक्सन सूचना लोड गर्न सकेन त्यसैले काल डिइन्फ्लेक्सन प्रयोग गर्न "
+"सकिदैन ।"
+
+#: lib/dictDeinflect/entryDeinflect.h:40
+#, kde-format
+msgid "Possible de-conjugation %1 as %2"
+msgstr ""
+
+#: lib/Entry.cpp:74
+msgid "; "
+msgstr "; "
+
+#: lib/dictKanjidic/entryKanjidic.cpp:54
+msgid "In names: "
+msgstr "नाम: "
+
+#: lib/dictKanjidic/entryKanjidic.cpp:58
+msgid "As radical: "
+msgstr "मूल शब्द: "
+
+#: lib/EntryList.cpp:81
+msgid "From Dictionary:"
+msgstr ""
+
+#: lib/dictEdict/dictFilePreferenceDialog.cpp:42
+msgid "&Available Fields:"
+msgstr ""
+
+#: lib/dictEdict/entryEdict.cpp:220
+msgctxt "This must be a single word"
+msgid "Noun"
+msgstr "नाम"
+
+#: lib/dictEdict/entryEdict.cpp:221
+msgctxt "This must be a single word"
+msgid "Verb"
+msgstr "क्रिया"
+
+#: lib/dictEdict/entryEdict.cpp:222
+msgctxt "This must be a single word"
+msgid "Adjective"
+msgstr "विशेषण"
+
+#: lib/dictEdict/entryEdict.cpp:223
+msgctxt "This must be a single word"
+msgid "Adverb"
+msgstr "क्रियाविशेषण"
+
+#: lib/dictEdict/entryEdict.cpp:224
+msgctxt "This must be a single word"
+msgid "Particle"
+msgstr ""
+
+#: lib/dictEdict/entryEdict.cpp:225
+msgctxt ""
+"This is a technical japanese linguist's term... and probably should not be "
+"translated(except possibly in far-eastern languages), this must be a single "
+"word"
+msgid "Ichidan"
+msgstr ""
+
+#: lib/dictEdict/entryEdict.cpp:226
+msgctxt ""
+"This is a technical japanese linguist's term... and probably should not be "
+"translated, this must be a single word"
+msgid "Godan"
+msgstr ""
+
+#: lib/kromajiedit.cpp:47
+msgid ""
+"Romaji information file not installed, so Romaji conversion cannot be used."
+msgstr ""
+"रोमाजी जानकारी फाइल स्थापना गरेको छैन त्यसैले रोमाजी रूपान्तरण प्रयोग गर्न "
+"सकिदैन ।"
+
+#: lib/kromajiedit.cpp:55
+msgid ""
+"Romaji information could not be loaded, so Romaji conversion cannot be used."
+msgstr ""
+"रोमाजी जानकारी फाइल लोड गर्न सकेन त्यसैले रोमाजी रूपान्तरण प्रयोग गर्न "
+"सकिदैन ।"
+
+#: lib/kromajiedit.cpp:266
+msgctxt "@option:radio selects english translation"
+msgid "English"
+msgstr "अङ्ग्रेजी"
+
+#: lib/kromajiedit.cpp:274
+msgctxt "@option:radio selects japanese translation"
+msgid "Kana"
+msgstr "काना"
+
+#: app/main.cpp:41
+msgid "Kiten"
+msgstr "किटेन"
+
+#: app/main.cpp:41
+msgid "Japanese Reference Tool"
+msgstr "जापानी सन्दर्भ उपकरण"
+
+#: app/main.cpp:42
+msgid "(c) 2001-2004, Jason Katz-Brown"
+msgstr "(c) 2001-2004, जासोन काज-ब्रोन"
+
+#: app/main.cpp:45
+msgid "Jason Katz-Brown"
+msgstr "जासोन काज-ब्राउन"
+
+#: app/main.cpp:45
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: app/main.cpp:46
+msgid "Jim Breen"
+msgstr "जिम ब्रीन"
+
+#: app/main.cpp:46
+msgid ""
+"Wrote xjdic, of which Kiten borrows code, and the xjdic index file "
+"generator.\n"
+"Also is main author of edict and kanjidic, which Kiten essentially require."
+msgstr ""
+"xjdic लेख्यो, जसको किटन ब्राउज सङ्केत, र xjdic अनुक्रमाणिका फाइल "
+"सिर्जनाकर्ता ।\n"
+"तथा edict र kanjidic को मुख्य लेखक पनि, जुन अनिवार्य आवश्यक छ ।"
+
+#: app/main.cpp:47
+msgid "Neil Stevens"
+msgstr "नेल स्टेभन्स्"
+
+#: app/main.cpp:47
+msgid "Code simplification, UI suggestions."
+msgstr "सङ्केत सरलता, UI सुझाबहरू ।"
+
+#: app/main.cpp:48
+msgid "David Vignoni"
+msgstr "डेभिड भिगनोनी"
+
+#: app/main.cpp:48
+msgid "svg icon"
+msgstr "svg प्रतिमा"
+
+#: app/main.cpp:49
+msgid "Paul Temple"
+msgstr "पउल मन्दिर"
+
+#: app/main.cpp:49
+msgid "Porting to KConfig XT, bug fixing"
+msgstr "केडीई कन्फिग XT मा पोर्ट गर्दै, ग समाधान"
+
+#: app/main.cpp:50 radselect/main.cpp:36
+msgid "Joseph Kerian"
+msgstr "जोसेफ केरियन"
+
+#: app/main.cpp:50
+msgid "KDE4 rewrite"
+msgstr "केडीई ४ पुन: लेख्नुहोस्"
+
+#: app/configuredialog.cpp:56
+msgid "Dictionaries"
+msgstr "शब्दकोश"
+
+#. i18n: file: app/configsearching.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigSearching)
+#: app/configuredialog.cpp:62 rc.cpp:104
+msgid "Searching"
+msgstr "खोजी गर्दै"
+
+#. i18n: file: app/configlearn.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigLearn)
+#: app/configuredialog.cpp:66 rc.cpp:83
+msgid "Learn"
+msgstr "सिक्नुहोस्"
+
+#: app/configuredialog.cpp:71
+msgid "Font"
+msgstr "फन्ट"
+
+#: app/configuredialog.cpp:73
+msgctxt "@title:group the settings for the dictionary display"
+msgid "Display"
+msgstr "प्रदर्शन गर्नुहोस्"
+
+#: app/configuredialog.cpp:75
+msgid "Results Sorting"
+msgstr "नतिजा क्रमबद्ध गर्दै"
+
+#: app/searchStringInput.cpp:44
+msgid "Deinflect Verbs/Adjectives"
+msgstr ""
+
+#: app/searchStringInput.cpp:47
+msgid "&Filter Out Rare"
+msgstr ""
+
+#: app/searchStringInput.cpp:50
+msgid "Match Type"
+msgstr ""
+
+#: app/searchStringInput.cpp:51
+msgid "Exact Match"
+msgstr ""
+
+#: app/searchStringInput.cpp:52
+msgid "Match Beginning"
+msgstr "शुरुवात मिलान गर्नुहोस्"
+
+#: app/searchStringInput.cpp:53
+msgid "Match Anywhere"
+msgstr ""
+
+#: app/searchStringInput.cpp:71
+msgid "Focus input field"
+msgstr ""
+
+#: app/searchStringInput.cpp:74
+msgid "Search Bar"
+msgstr "खोजीपट्टी"
+
+#: app/kiten.cpp:157
+msgid "Radical Selector"
+msgstr ""
+
+#. i18n: file: app/kitenui.rc:15
+#. i18n: ectx: Menu (search)
+#: app/kiten.cpp:166 rc.cpp:122
+msgid "S&earch"
+msgstr "खोजी"
+
+#: app/kiten.cpp:178
+msgid "&Automatically Search Clipboard Selections"
+msgstr "स्वचालित रूपमा क्लिपबोर्ड चयनहरू खोजी गर्नुहोस्"
+
+#: app/kiten.cpp:181
+msgid "Search &in Results"
+msgstr "नतिजामा खोजी गर्नुहोस्"
+
+#: app/kiten.cpp:188
+msgid "Focus result view"
+msgstr ""
+
+#: app/kiten.cpp:201
+msgid "On The Spo&t Search"
+msgstr "स्थलगत खोजी"
+
+#: app/kiten.cpp:216
+msgid "Export List"
+msgstr "निर्यात सूची"
+
+#: app/kiten.cpp:247
+msgid "Initialising Dictionaries"
+msgstr "शब्दकोश सुरुआत गर्दै"
+
+#: app/kiten.cpp:258
+msgid "Welcome to Kiten"
+msgstr "किटेनमा स्वागत छ"
+
+#: app/kiten.cpp:338 app/kiten.cpp:397
+msgid "Searching..."
+msgstr "खोजी गर्दैछ..."
+
+#: app/kiten.cpp:414
+#, kde-format
+msgid "Found 1 result"
+msgid_plural "Found %1 results"
+msgstr[0] "१ परिणाम फेला पर्यो"
+msgstr[1] "%1 परिणामहरु फेला परे"
+
+#: app/kiten.cpp:416
+msgid "No results found"
+msgstr "कुनै नतिजा फेला परेन"
+
+#: radselect/radselectview.cpp:54
+msgid ""
+"Kanji radical information does not seem to be installed (file "
+"kiten/radkfile), this file is required for this app to function"
+msgstr ""
+"कान्जीको मौलिक जानकारी स्थापना भएको जस्तो देखिँदैन (फाइल किटेन/र्याडकेफाइल), "
+"यो फाइल प्रकार्य गर्न यो अनुप्रयोगका लागि आवश्यक छ"
+
+#: radselect/radselectview.cpp:64
+msgid "Min"
+msgstr "न्यून"
+
+#: radselect/radselectview.cpp:65
+msgid "Max"
+msgstr "अधिक"
+
+#: radselect/radselectview.cpp:105
+msgctxt "@item:inlist all matches should be found"
+msgid "(ALL"
+msgstr "(सबै"
+
+#: radselect/main.cpp:28
+msgid "A KDE Application"
+msgstr "केडीई अनुप्रयोग"
+
+#: radselect/main.cpp:33
+msgid "kitenradselect"
+msgstr "kitenradselect"
+
+#: radselect/main.cpp:35
+msgid "(C) 2005 Joseph Kerian"
+msgstr "(C) 2005 जोसेफ केरियन"
+
+#: radselect/main.cpp:42
+msgid "Initial Search String from Kiten"
+msgstr "किटेनबाट सुरुआत खोजी स्ट्रिङ"
+
+#: radselect/radselect.cpp:134
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: radselect/radselectbuttongrid.cpp:117
+msgid "No Radicals Selected"
+msgstr "मूल शब्दहरू चयन गरिएको छैन"
+
+#: radselect/radselectbuttongrid.cpp:148
+msgid "Selected Radicals: "
+msgstr "चयन गरिएका मूल शब्द: "
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Mahesh Subedi, श्यामकृष्ण बल, ,Launchpad Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, shyamkrishna_bal@yahoo.com,,,"
+
+#. i18n: file: app/kiten.kcfg:10
+#. i18n: ectx: label, entry (dictionary_list), group (dict_config_types)
+#: rc.cpp:5
+msgid "List of dictionary Types, used internally, do not touch"
+msgstr "नछुएको, आन्तरीक रूपमा प्रयोग गरिएका, शब्दकोश प्रकारहरूको सूची"
+
+#. i18n: file: app/kiten.kcfg:25
+#. i18n: ectx: label, entry (edict__NAMES), group (dicts_edict)
+#: rc.cpp:8
+msgid "Edict dictionary files"
+msgstr "आज्ञापत्र शब्दकोश फाइल"
+
+#. i18n: file: app/kiten.kcfg:28
+#. i18n: ectx: label, entry (edict__useGlobal), group (dicts_edict)
+#: rc.cpp:11
+msgid "Use preinstalled edict"
+msgstr "पूर्व स्थापित आज्ञापत्र प्रयोग गर्नुहोस्"
+
+#. i18n: file: app/kiten.kcfg:32
+#. i18n: ectx: label, entry (edict__displayFields), group (dicts_edict)
+#. i18n: file: app/kiten.kcfg:46
+#. i18n: ectx: label, entry (kanjidic__displayFields), group (dicts_kanjidic)
+#. i18n: file: app/kiten.kcfg:60
+#. i18n: ectx: label, entry (deinflect__displayFields), group (dicts_deinflect)
+#: rc.cpp:14 rc.cpp:23 rc.cpp:32
+msgid "Set of fields to display for this dictionary type"
+msgstr "यो शब्दकोश प्रकारका लागि प्रदर्शन गर्न फाँटको सेट"
+
+#. i18n: file: app/kiten.kcfg:39
+#. i18n: ectx: label, entry (kanjidic__NAMES), group (dicts_kanjidic)
+#: rc.cpp:17
+msgid "Kanjidic dictionary files"
+msgstr "खान्जीडिक शब्दकोश फाइल"
+
+#. i18n: file: app/kiten.kcfg:42
+#. i18n: ectx: label, entry (kanjidic__useGlobal), group (dicts_kanjidic)
+#. i18n: file: app/kiten.kcfg:56
+#. i18n: ectx: label, entry (deinflect__useGlobal), group (dicts_deinflect)
+#: rc.cpp:20 rc.cpp:29
+msgid "Use preinstalled kanjidic"
+msgstr "पूर्व स्थापित खान्जीडिक प्रयोग गर्नुहोस्"
+
+#. i18n: file: app/kiten.kcfg:53
+#. i18n: ectx: label, entry (deinflect__NAMES), group (dicts_deinflect)
+#: rc.cpp:26
+msgid "Deinflect Dictionary Files"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:67
+#. i18n: ectx: label, entry, group (Searching Options)
+#: rc.cpp:35
+msgid "Do we search for \"jiten\" on startup"
+msgstr "हामी सुरुआतमा \"जिटेन\" का लागि खोजी गर्छौ"
+
+#. i18n: file: app/kiten.kcfg:71
+#. i18n: ectx: label, entry, group (Searching Options)
+#: rc.cpp:38
+msgid "Case sensitive searches"
+msgstr "केस संवेदनशील खोजी"
+
+#. i18n: file: app/kiten.kcfg:77
+#. i18n: ectx: label, entry, group (Sorting)
+#: rc.cpp:41
+msgid "Enable Sorting By Dictionary"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:81
+#. i18n: ectx: label, entry, group (Sorting)
+#: rc.cpp:44
+msgid "What order do we sort the dictionaries in?"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:85
+#. i18n: ectx: label, entry, group (Sorting)
+#: rc.cpp:47
+msgid "What order do we sort the fields in?"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:105
+#. i18n: ectx: label, entry, group (app)
+#: rc.cpp:50
+msgid "Limit search results to \"common\" entries only?"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:109
+#. i18n: ectx: label, entry, group (app)
+#: rc.cpp:53
+msgid ""
+"The the users last type of search, 0=Exact, 1=Match Start, 2=Match Anywhere"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:113
+#. i18n: ectx: label, entry, group (app)
+#: rc.cpp:56
+msgid ""
+"Limit the user's word-type choices? 0:Any, Verb, Noun, Adjective, Adverb"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:117
+#. i18n: ectx: label, entry, group (app)
+#: rc.cpp:59
+msgid "Automatically search for clipboard entries?"
+msgstr ""
+
+#. i18n: file: app/kiten.kcfg:121
+#. i18n: ectx: label, entry, group (app)
+#: rc.cpp:62
+msgid "Enable the Deinflection checker?"
+msgstr ""
+
+#. i18n: file: app/configdictselect.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, configDictSelect)
+#: rc.cpp:65
+msgid "Dictionary Selector"
+msgstr "शब्दकोश छनौटकर्ता"
+
+#. i18n: file: app/configdictselect.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, __useGlobal)
+#: rc.cpp:68
+msgid "Use prei&nstalled dict"
+msgstr "पूर्व स्थापित शब्दकोश प्रयोग गर्नुहोस्"
+
+#. i18n: file: app/configdictselect.ui:56
+#. i18n: ectx: property (text), widget (QTreeWidget, fileList)
+#: rc.cpp:71
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: app/configdictselect.ui:67
+#. i18n: ectx: property (text), widget (QTreeWidget, fileList)
+#: rc.cpp:74
+msgid "File"
+msgstr "फाइल"
+
+#. i18n: file: app/configdictselect.ui:86
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:77
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: app/configdictselect.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, delButton)
+#: rc.cpp:80
+msgid "Delete"
+msgstr "मेट्नुहोस्"
+
+#. i18n: file: app/configlearn.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:86
+msgid ""
+"Learn mode is disabled in this version of kiten. There are several excellent "
+"open source flashcard programs available, such as Parley in kde-edu (and "
+"probably in your distro's repositories), and the anki project "
+"(http://www.ichi2.net/anki)"
+msgstr ""
+
+#. i18n: file: app/configsorting.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, configSorting)
+#: rc.cpp:89
+msgid "sorting"
+msgstr "क्रमबद्ध गर्दै"
+
+#. i18n: file: app/configsorting.ui:21
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_dictionary_enable)
+#: rc.cpp:92
+msgid "Sort Se&arch Results By Dictionary"
+msgstr "शब्दकोश अनुसार खोजी नतिजा क्रमबद्ध गर्नुहोस्"
+
+#. i18n: file: app/configsorting.ui:28
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, dictionary_order)
+#: rc.cpp:95
+msgid "Dicti&onaries Available:"
+msgstr "उपलब्ध शब्दकोश:"
+
+#. i18n: file: app/configsorting.ui:31
+#. i18n: ectx: property (selectedLabel), widget (KActionSelector, dictionary_order)
+#: rc.cpp:98
+msgid "Displa&y First:"
+msgstr "पहिलो प्रदर्शन:"
+
+#. i18n: file: app/configsorting.ui:48
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, field_order)
+#: rc.cpp:101
+msgid "Fields to Sort &By:"
+msgstr "यसद्वारा क्रमबद्ध गर्नुपर्ने फाँट:"
+
+#. i18n: file: app/configsearching.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_initialSearch)
+#: rc.cpp:107
+msgid "Search for \"jiten\" on startup"
+msgstr "सुरुआतमा \"जिटेन\" का लागि खोजी"
+
+#. i18n: file: app/configfont.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigFont)
+#: rc.cpp:110
+msgid "Fonts"
+msgstr "फन्ट"
+
+#. i18n: file: app/configfont.ui:21
+#. i18n: ectx: property (text), widget (QLabel, Listview_mainentry_label)
+#: rc.cpp:113
+msgid "Main Font"
+msgstr "मुख्य फन्ट"
+
+#. i18n: file: app/configfont.ui:28
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_font)
+#: rc.cpp:116
+msgid "漢字 かな romaji"
+msgstr "漢字 かな रोमाजी"
+
+#. i18n: file: app/kitenui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:119
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: app/kitenui.rc:32
+#. i18n: ectx: ToolBar (mainToolbar)
+#: rc.cpp:125
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: app/kitenui.rc:42
+#. i18n: ectx: ToolBar (extraToolbar)
+#: rc.cpp:128
+msgid "Extra Toolbar"
+msgstr ""
+
+#. i18n: file: app/kitenui.rc:46
+#. i18n: ectx: ToolBar (searchToolbar)
+#: rc.cpp:131
+msgid "Search Toolbar"
+msgstr ""
+
+#. i18n: file: radselect/radselectprefdialog.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, radselectprefdialog)
+#: rc.cpp:134
+msgid "Preferences"
+msgstr "प्राथमिकता"
+
+#. i18n: file: radselect/radselectprefdialog.ui:24
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_closeOnSearch)
+#: rc.cpp:137
+msgid "Close radselect when you press search"
+msgstr "तपाईँले 'खोजी गर्नुहोस्' बटन थिच्दा मूल चयन बन्द गर्नुहोस्"
+
+#. i18n: file: radselect/radselectprefdialog.ui:36
+#. i18n: ectx: property (text), widget (QLabel, fontSize_label)
+#: rc.cpp:140
+msgid "Button Font:"
+msgstr "बटन फन्ट:"
+
+#. i18n: file: radselect/radselectprefdialog.ui:39
+#. i18n: ectx: property (toolTip), widget (QLabel, fontSize_label)
+#. i18n: file: radselect/radselectprefdialog.ui:52
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_font)
+#: rc.cpp:143 rc.cpp:152
+msgid "The font for the main kanji/kana entry in list view"
+msgstr "सूची दृश्यमा मुख्य कान्जी/कानाका लागि फन्ट"
+
+#. i18n: file: radselect/radselectprefdialog.ui:42
+#. i18n: ectx: property (whatsThis), widget (QLabel, fontSize_label)
+#. i18n: file: radselect/radselectprefdialog.ui:55
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_font)
+#: rc.cpp:146 rc.cpp:155
+msgid "Use this to adjust the button font"
+msgstr "बटन फन्ट समायोजन गर्न यो प्रयोग गर्नुहोस्"
+
+#. i18n: file: radselect/radselectprefdialog.ui:49
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_font)
+#: rc.cpp:149
+msgid "漢字 かな"
+msgstr "漢字 かな"
+
+#. i18n: file: radselect/radical_selector.ui:23
+#. i18n: ectx: property (windowTitle), widget (QWidget, radical_selector)
+#: rc.cpp:158
+msgid "RadicalSelector"
+msgstr "मौलिक चयनकर्ता"
+
+#. i18n: file: radselect/radical_selector.ui:43
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:161
+msgid "Results"
+msgstr "नतिजा"
+
+#. i18n: file: radselect/radical_selector.ui:104
+#. i18n: ectx: property (text), widget (QLabel, strokes_label_2)
+#: rc.cpp:164
+msgid "Strokes:"
+msgstr "स्ट्रोक:"
+
+#. i18n: file: radselect/radical_selector.ui:126
+#. i18n: ectx: property (text), widget (QLabel, strokes_label)
+#: rc.cpp:167
+msgid " - "
+msgstr " - "
+
+#. i18n: file: radselect/radical_selector.ui:172
+#. i18n: ectx: property (text), widget (QPushButton, clear_button)
+#: rc.cpp:170
+msgid "Clear"
+msgstr "खाली गर्नुहोस्"
+
+#. i18n: file: radselect/radselectconfig.kcfg:11
+#. i18n: ectx: label, entry, group (Options)
+#: rc.cpp:173
+msgid "Do we close this program when searching?"
+msgstr "खोजी गर्दा हामी यो कार्यक्रम बन्द गर्छौ ?"

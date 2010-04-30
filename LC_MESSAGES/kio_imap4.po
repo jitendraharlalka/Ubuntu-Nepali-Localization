@@ -1,0 +1,199 @@
+# translation of kio_imap4.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_imap4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:21+0000\n"
+"PO-Revision-Date: 2008-10-07 14:42+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:46+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: imap4.cpp:615
+#, kde-format
+msgid "Message from %1 while processing '%2': %3"
+msgstr "प्रक्रिया '%2' गर्दा %1 बाट सन्देश: %3"
+
+#: imap4.cpp:617
+#, kde-format
+msgid "Message from %1: %2"
+msgstr "%1 बाट सन्देश: %2"
+
+#: imap4.cpp:941
+#, kde-format
+msgid ""
+"The following folder will be created on the server: %1 What do you want to "
+"store in this folder?"
+msgstr ""
+"सर्भरमा निम्न फोल्डर सिर्जना गरिन्छन्: %1 तपाईँ यो फोल्डरमा के भण्डारण गर्न "
+"चाहनुहुन्छ ?"
+
+#: imap4.cpp:943
+msgid "Create Folder"
+msgstr "फोल्डर सिर्जना गर्नुहोस्"
+
+#: imap4.cpp:944
+msgid "&Messages"
+msgstr "सन्देश"
+
+#: imap4.cpp:944
+msgid "&Subfolders"
+msgstr "सहायक फोल्डर"
+
+#: imap4.cpp:1278
+#, kde-format
+msgid "Unsubscribe of folder %1 failed. The server returned: %2"
+msgstr "फोल्डर %1 को सदस्यता हटाउन असफल भयो । सर्भरले यो फर्कायो: %2"
+
+#: imap4.cpp:1299
+#, kde-format
+msgid "Subscribe of folder %1 failed. The server returned: %2"
+msgstr "फोल्डर %1 को सदस्यता लिन असफल भयो । सर्भरले यो फर्कायो: %2"
+
+#: imap4.cpp:1368
+#, kde-format
+msgid "Changing the flags of message %1 failed with %2."
+msgstr "सन्देश %1 को झण्डा %2 सँग परिवर्तन गर्दा असफल भयो ।"
+
+#: imap4.cpp:1380
+#, kde-format
+msgid "Silent Changing the flags of message %1 failed with %2."
+msgstr "सन्देश %1 को झण्डा %2 सँग स्थिर परिवर्तन गर्दा असफल भयो ।"
+
+#: imap4.cpp:1412
+#, kde-format
+msgid "Changing the flags of message %1 failed."
+msgstr ""
+
+#: imap4.cpp:1457
+#, kde-format
+msgid ""
+"Setting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr ""
+"प्रयोगकर्ता %2 का लागि %1 फोल्डरमा पहुँच नियन्त्रण सूची सेट गर्न असफल भयो । "
+"सर्भरले फिर्ता पठायो: %3"
+
+#: imap4.cpp:1476
+#, kde-format
+msgid ""
+"Deleting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr ""
+"प्रयोगकर्ता %2 का लागि फोल्डर %1 मा पहुँच नियन्त्रण सूची मेट्न असफल भयो । "
+"सर्भरले फिर्ता पठायो: %3"
+
+#: imap4.cpp:1493 imap4.cpp:1520
+#, kde-format
+msgid ""
+"Retrieving the Access Control List on folder %1 failed. The server returned: "
+"%2"
+msgstr ""
+"फोल्डर %1 मा पहुँच नियन्त्रण सूची पुन: प्राप्त गर्न असफल भयो । सर्भरले यो "
+"फर्कायो: %2"
+
+#: imap4.cpp:1554
+#, kde-format
+msgid "Searching of folder %1 failed. The server returned: %2"
+msgstr "फोल्डर %1 को खोजी असफल भयो । सर्भरले यो फर्कायो: %2"
+
+#: imap4.cpp:1589
+#, kde-format
+msgid "Custom command %1:%2 failed. The server returned: %3"
+msgstr ""
+
+#: imap4.cpp:1669
+#, kde-format
+msgid ""
+"Setting the annotation %1 on folder %2  failed. The server returned: %3"
+msgstr ""
+"फोल्डर %2  मा एनोटेसन %1 सेटिङ गर्न असफल भयो । सर्भरले यो फर्कायो: %3"
+
+#: imap4.cpp:1693
+#, kde-format
+msgid ""
+"Retrieving the annotation %1 on folder %2 failed. The server returned: %3"
+msgstr ""
+"फोल्डर %2 मा एनोटेसन %1 पुन: प्राप्त गर्न असफल भयो । सर्भरले यो फर्कायो: %3"
+
+#: imap4.cpp:1730
+#, kde-format
+msgid ""
+"Retrieving the quota root information on folder %1 failed. The server "
+"returned: %2"
+msgstr ""
+"फोल्डर %1 मा कोटा मूल जानकारी पुन: प्राप्त गर्न असफल भयो । सर्भरले यो "
+"फर्कायो: %2"
+
+#: imap4.cpp:1786 imap4.cpp:1854
+msgid "Unable to close mailbox."
+msgstr "पत्रमञ्जूषा बन्द गर्न असमर्थ ।"
+
+#: imap4.cpp:1884
+#, kde-format
+msgid "Unable to get information about folder %1. The server replied: %2"
+msgstr ""
+"फोल्डर %1 का बारेमा सूचना प्राप्त गर्न असमर्थ । सर्भरले यो जवाफ दियो: %2"
+
+#: imap4.cpp:2041
+#, kde-format
+msgid ""
+"The server %1 supports neither IMAP4 nor IMAP4rev1.\n"
+"It identified itself with: %2"
+msgstr ""
+"सर्भर %1 ले नत IMAP4 न IMAP4rev1 समर्थन गर्दछ ।\n"
+"यो आफैसँग परिचित भयो: %2"
+
+#: imap4.cpp:2052
+msgid ""
+"The server does not support TLS.\n"
+"Disable this security feature to connect unencrypted."
+msgstr ""
+"सर्भरले TLS समर्थन गर्दैन ।\n"
+"गुप्तिकरण नगरिएका जडान गर्न यो सुरक्षा विशेषता अक्षम पार्नुहोस् ।"
+
+#: imap4.cpp:2076
+msgid "Starting TLS failed."
+msgstr "TLS सुरुआत गर्न असफल भयो ।"
+
+#: imap4.cpp:2086
+#, kde-format
+msgid "The authentication method %1 is not supported by the server."
+msgstr "सर्भरले प्रमाणीकरण विधि %1 समर्थन गरेको छैन ।"
+
+#: imap4.cpp:2113
+msgid "Username and password for your IMAP account:"
+msgstr "तपाईँको IMAP खाताका लागि प्रयोगकर्ता नाम र पासवर्ड:"
+
+#: imap4.cpp:2127
+#, kde-format
+msgid ""
+"Unable to login. Probably the password is wrong.\n"
+"The server %1 replied:\n"
+"%2"
+msgstr ""
+"लगइन गर्न असमर्थ । सम्भवत: पासवर्ड गलत छ ।\n"
+"सर्भर %1 ले जवाफ दियो:\n"
+"%2"
+
+#: imap4.cpp:2133
+#, kde-format
+msgid ""
+"Unable to authenticate via %1.\n"
+"The server %2 replied:\n"
+"%3"
+msgstr ""
+"%1 बाट प्रमाणीकरण हुन असमर्थ ।\n"
+"सर्भर %2 ले जवाफ दियो:\n"
+"%3"
+
+#: imap4.cpp:2623
+#, kde-format
+msgid "Unable to open folder %1. The server replied: %2"
+msgstr "फोल्डर  %1 खोल्न असमर्थ । सर्भरले जवाफ दियो: %2"

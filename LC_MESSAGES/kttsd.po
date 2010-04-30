@@ -1,0 +1,1273 @@
+# translation of kttsd.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kttsd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 11:26+0000\n"
+"PO-Revision-Date: 2010-04-22 13:59+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:23+0000\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, जितेन्द्र हरलालका, Launchpad Contributions:"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, jitendra@otrc.gov.np,"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:18
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:5
+msgid "&Name"
+msgstr "नाम"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:62
+#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
+#: rc.cpp:8 libkttsd/selectlanguagedlg.cpp:56 libkttsd/talkerlistmodel.cpp:132
+msgid "Language"
+msgstr "भाषा"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:67
+#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
+#: rc.cpp:11 libkttsd/talkerlistmodel.cpp:133
+msgid "Synthesizer"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:14
+msgid "Voice &Type"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:86
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:17
+msgid "Male 1"
+msgstr "पुरुष १"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:91
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:20 libkttsd/talkercode.cpp:149
+msgid "Male 2"
+msgstr "पुरुष २"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:96
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:23 libkttsd/talkercode.cpp:150
+msgid "Male 3"
+msgstr "पुरुष ३"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:101
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:26
+msgid "Female 1"
+msgstr "महिला १"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:106
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:29 libkttsd/talkercode.cpp:152
+msgid "Female 2"
+msgstr "महिला २"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:111
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:32 libkttsd/talkercode.cpp:153
+msgid "Female 3"
+msgstr "महिला ३"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:35
+msgid "Male Child"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceComboBox)
+#: rc.cpp:38
+msgid "Female Child"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:41
+msgid "&Speed"
+msgstr "गति"
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:175
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:44
+msgid "&Pitch"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/addtalkerwidget.ui:221
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:47
+msgid "&Volume"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:34
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:50
+msgctxt "General, as title of window"
+msgid "General"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, kttsdVersion)
+#: rc.cpp:53 kcmkttsmgr/kcmkttsmgr.cpp:1193
+msgid "KTTSD not running"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:81
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoexitMgrCheckBox)
+#: rc.cpp:56
+msgid ""
+"When checked, and KTTSMgr was automatically started when speech began, "
+"automatically exits when speech has finished.  Does not automatically exit "
+"if KTTSMgr was started manually or started from the System Settings."
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:84
+#. i18n: ectx: property (text), widget (QCheckBox, autoexitMgrCheckBox)
+#: rc.cpp:59
+msgid "E&xit when speaking is finished"
+msgstr "वाचन समाप्त गरेपछि निस्कनुहोस्"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:96
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autostartMgrCheckBox)
+#: rc.cpp:62
+msgid ""
+"When checked, if KTTSMgr is not already running and speech begins, starts "
+"KTTSMgr and displays an icon in the system tray.  <em>Note</em>: KTTSMgr "
+"only automatically starts for text jobs having 5 sentences or more."
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:99
+#. i18n: ectx: property (text), widget (QCheckBox, autostartMgrCheckBox)
+#: rc.cpp:65
+msgid "Sta&rt minimized in system tray when speaking"
+msgstr "वाचन गर्दा प्रणाली ट्रेमा न्यूनतम पारिएको सुरु गर्नुहोस्"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:109
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, enableKttsdCheckBox)
+#: rc.cpp:68
+msgid "Check to start the KTTS Daemon and enable Text-to-Speech."
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:112
+#. i18n: ectx: property (text), widget (QCheckBox, enableKttsdCheckBox)
+#: rc.cpp:71
+msgid "&Enable Text-to-Speech System (KTTSD)"
+msgstr "पाठवाट संवाद प्रणाली सक्षम पार्छ (KTTSD)"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:120
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: rc.cpp:74
+msgid "Talkers"
+msgstr ""
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:134
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addTalkerButton)
+#: rc.cpp:77
+msgid "Click to add and configure a new Talker (speech synthesizer)."
+msgstr "नयाँ वक्ता (वाचन सिन्थेसाइजर) थप्न र कन्फिगर गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:137
+#. i18n: ectx: property (text), widget (KPushButton, addTalkerButton)
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:252
+#. i18n: ectx: property (text), widget (KPushButton, addFilterButton)
+#: rc.cpp:80 rc.cpp:107
+msgid "Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:150
+#. i18n: ectx: property (text), widget (KPushButton, higherTalkerPriorityButton)
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:268
+#. i18n: ectx: property (text), widget (KPushButton, higherFilterPriorityButton)
+#: rc.cpp:83 rc.cpp:113
+msgid "U&p"
+msgstr "माथि"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:163
+#. i18n: ectx: property (text), widget (KPushButton, lowerTalkerPriorityButton)
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:284
+#. i18n: ectx: property (text), widget (KPushButton, lowerFilterPriorityButton)
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:291
+#. i18n: ectx: property (text), widget (QPushButton, downButton)
+#: rc.cpp:86 rc.cpp:119 rc.cpp:242
+msgid "Do&wn"
+msgstr "तल"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:179
+#. i18n: ectx: property (whatsThis), widget (KPushButton, configureTalkerButton)
+#: rc.cpp:89
+msgid "Click to configure options for the highlighted Talker."
+msgstr "हाइलाइट गरिएका वक्ताका लागि कन्फिगर विकल्पमा क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:182
+#. i18n: ectx: property (text), widget (KPushButton, configureTalkerButton)
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:303
+#. i18n: ectx: property (text), widget (KPushButton, configureFilterButton)
+#: rc.cpp:92 rc.cpp:125
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:198
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeTalkerButton)
+#: rc.cpp:95
+msgid "Click to remove the highlighted Talker."
+msgstr "हाइलाइट गरिएका वक्ता हटाउन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:201
+#. i18n: ectx: property (text), widget (KPushButton, removeTalkerButton)
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:322
+#. i18n: ectx: property (text), widget (KPushButton, removeFilterButton)
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:333
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:98 rc.cpp:131 rc.cpp:254
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:230
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: rc.cpp:101
+msgid "Filters"
+msgstr "फिल्टर"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:249
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addFilterButton)
+#: rc.cpp:104
+msgid "Click to add and configure a new Filter."
+msgstr "नयाँ फिल्टर थप्न र कन्फिगर गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:265
+#. i18n: ectx: property (whatsThis), widget (KPushButton, higherFilterPriorityButton)
+#: rc.cpp:110
+msgid ""
+"Click to move selected filter up in the list.  Filters higher in the list "
+"are applied first."
+msgstr ""
+"सूचीमा चयन गरिएको फिल्टर माथि सार्न क्लिक गर्नुहोस् ।  सूचीका उच्च स्थानका "
+"फिल्टर पहिला लागू गरिन्छ ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:281
+#. i18n: ectx: property (whatsThis), widget (KPushButton, lowerFilterPriorityButton)
+#: rc.cpp:116
+msgid ""
+"Click to move a filter down in the list.  Filters lower in the list are "
+"applied last."
+msgstr ""
+"सूचीमा चयन गरिएको फिल्टर तल सार्न क्लिक गर्नुहोस् ।  सूचीका तलका फिल्टर "
+"अन्तिममा लागू गरिन्छ ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:300
+#. i18n: ectx: property (whatsThis), widget (KPushButton, configureFilterButton)
+#: rc.cpp:122
+msgid "Click to configure options for the highlighted Filter."
+msgstr "हाइलाइट गरिएका फिल्टरका लागि विकल्प कन्फिगर गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kcmkttsmgr/kcmkttsmgrwidget.ui:319
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeFilterButton)
+#: rc.cpp:128
+msgid "Click to remove the highlighted Filter."
+msgstr "हाइलाइट गरिएको फिल्टर हटाउन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: libkttsd/selecttalkerwidget.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, SelectTalkerWidget)
+#: rc.cpp:134 libkttsd/selecttalkerdlg.h:59
+#: filters/talkerchooser/talkerchooserconf.cpp:220
+msgid "Select Talker"
+msgstr "वक्ता चयन गर्नुहोस्"
+
+#. i18n: file: libkttsd/selecttalkerwidget.ui:58
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useDefaultRadioButton)
+#: rc.cpp:137
+msgid ""
+"When checked, will use the default Talker, which is the topmost Talker "
+"listed in the Talkers tab."
+msgstr ""
+"चिनो गरिएमा, पूर्वनिर्धारित वक्ता प्रयोग गरिने छ, जुन वक्ता ट्याबमा सूचीकृत "
+"गरिएको माथिल्लो वक्ता हो ।"
+
+#. i18n: file: libkttsd/selecttalkerwidget.ui:61
+#. i18n: ectx: property (text), widget (QRadioButton, useDefaultRadioButton)
+#: rc.cpp:140
+msgid "&Use default Talker"
+msgstr "पूर्वनिर्धारित वक्ता प्रयोग गर्नुहोस्"
+
+#. i18n: file: libkttsd/selecttalkerwidget.ui:68
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useSpecificTalkerRadioButton)
+#: rc.cpp:143
+msgid ""
+"When checked, will use the specific Talker (if it is still configured), "
+"otherwise the Talker most closely matching."
+msgstr ""
+"चिनो गरिएमा, निर्दिष्ट वक्ता प्रयोग गरिनेछ (यो अझैसम्म पनि कन्फिगर गरिएको "
+"भएमा), अन्यथा सबैभन्दा नजिकको मिल्ने वक्ता प्रयोग गरिनेछ ।"
+
+#. i18n: file: libkttsd/selecttalkerwidget.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, useSpecificTalkerRadioButton)
+#: rc.cpp:146
+msgid "Use specific &Talker"
+msgstr "निर्दिष्ट वक्ता प्रयोग गर्नुहोस्"
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, typeGroupBox)
+#: rc.cpp:149
+msgid "&Type"
+msgstr "टाइप"
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:35
+#. i18n: ectx: property (text), widget (QRadioButton, wordRadioButton)
+#: rc.cpp:152
+msgid "&Word"
+msgstr "शब्द"
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:45
+#. i18n: ectx: property (text), widget (QRadioButton, regexpRadioButton)
+#: rc.cpp:155
+msgid "Regular &expression"
+msgstr "नियमित अभिव्यक्ति"
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:63
+#. i18n: ectx: property (text), widget (QLabel, matchLabel)
+#: rc.cpp:158
+msgid "&Match:"
+msgstr "मिल्दो:"
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:76
+#. i18n: ectx: property (text), widget (QLabel, substLabel)
+#: rc.cpp:161
+msgid "&Replace with:"
+msgstr "यससँग प्रतिस्थापन गर्नुहोस्:"
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:119
+#. i18n: ectx: property (text), widget (KPushButton, matchButton)
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:143
+#. i18n: ectx: property (text), widget (KPushButton, languageBrowseButton)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:143
+#. i18n: ectx: property (text), widget (KPushButton, reEditorButton)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:206
+#. i18n: ectx: property (text), widget (KPushButton, talkerButton)
+#: rc.cpp:164 rc.cpp:203 rc.cpp:305 rc.cpp:323
+msgid "..."
+msgstr "..."
+
+#. i18n: file: filters/stringreplacer/editreplacementwidget.ui:133
+#. i18n: ectx: property (text), widget (QCheckBox, matchCaseCheckBox)
+#: rc.cpp:167
+msgid "Match &case"
+msgstr "केस मिलाउनुहोस्"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, StringReplacerConfWidget)
+#: rc.cpp:170
+msgid "Configure String Replacer"
+msgstr "स्ट्रिङ प्रतिस्थापक कन्फिगर गर्नुहोस्"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:35
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:35
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#: rc.cpp:173 rc.cpp:272
+msgctxt "What's this text"
+msgid "Enter any name you like for this filter."
+msgstr "यो फिल्टरका लागि तपाईँले मन पराएको कुनै नाम हाल्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:38
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:38
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:92
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: rc.cpp:176 rc.cpp:275 rc.cpp:359
+msgid "&Name:"
+msgstr "नाम:"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:51
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameLineEdit)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:51
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameLineEdit)
+#: rc.cpp:179 rc.cpp:278
+msgid "Enter any name you like for this filter."
+msgstr "यो फिल्टरका लागि तपाईँले मन पराएको कुनै नाम प्रविष्ट गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:60
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, applyGroupBox)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:60
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, applyGroupBox)
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:139
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, applyGroupBox)
+#: rc.cpp:182 rc.cpp:281 rc.cpp:374
+msgid "These settings determines when the filter is applied to text."
+msgstr "यी सेटिङले पाठमा फिल्टर लागू हुने बेला निर्धारण गर्छ ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:80
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: rc.cpp:185
+msgctxt "What's this text"
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank the filter applies to all "
+"text jobs of any language."
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:83
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: rc.cpp:188
+msgid "Lan&guage is:"
+msgstr "भाषा:"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:96
+#. i18n: ectx: property (whatsThis), widget (QLabel, appIdLabel)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:99
+#. i18n: ectx: property (whatsThis), widget (QLabel, appIdLabel)
+#: rc.cpp:191 rc.cpp:293
+msgid ""
+"Enter a D-Bus Application ID.  This filter will only apply to text jobs "
+"queued by that application.  You may enter more than one ID separated by "
+"commas.  If blank, this filter applies to text jobs queued by all "
+"applications.  Tip: Use kdcop from the command line to get the Application "
+"IDs of running applications.  Example: \"konversation, kvirc,ksirc,kopete\""
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:99
+#. i18n: ectx: property (text), widget (QLabel, appIdLabel)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:102
+#. i18n: ectx: property (text), widget (QLabel, appIdLabel)
+#: rc.cpp:194 rc.cpp:296
+msgid "Application &ID contains:"
+msgstr "अनुप्रयोग आईडीमा समावेश हुने:"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:133
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, languageLineEdit)
+#: rc.cpp:197
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank the filter applies to all "
+"text jobs of any language."
+msgstr ""
+"यो फिल्टर निर्दिष्ट गरिएका भाषाको पाठ कार्यमा लागू गरिनेछ ।  तपाईँले ब्राउज "
+"बटन क्लिक गरेर एक भन्दा बढी भाषा चयन गर्न सक्नुहुनेछ र Ctrl-clicking गरेर "
+"सूचीमा एक भन्दा बढी प्राप्त गर्न सक्नुहुन्छ ।  यदि खाली भएमा कुनै पनि भाषाका "
+"सबै पाठ कार्यमा फिल्टर लागू हुनेछ ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:140
+#. i18n: ectx: property (whatsThis), widget (KPushButton, languageBrowseButton)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:140
+#. i18n: ectx: property (whatsThis), widget (KPushButton, reEditorButton)
+#: rc.cpp:200 rc.cpp:302
+msgid ""
+"Click to select one or more languages.  This filter will be applied to text "
+"jobs of those languages."
+msgstr ""
+"एक भन्दा बढी भाषा चयन गर्न क्लिक गर्नुहोस् ।  यो फिल्टर ति भाषाको पाठ "
+"कार्यमा लागू गरिनेछ ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:152
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, appIdLineEdit)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:152
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, appIdLineEdit)
+#: rc.cpp:206 rc.cpp:308
+msgid ""
+"<qt>Enter a D-Bus Application ID.  This filter will only apply to text jobs "
+"queued by that application.  You may enter more than one ID separated by "
+"commas.  Use <b>knotify</b> to match all messages sent as KDE notifications. "
+" If blank, this filter applies to text jobs queued by all applications.  "
+"Tip: Use kdcop from the command line to get the Application IDs of running "
+"applications.  Example: \"konversation, kvirc,ksirc,kopete\"</qt>"
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:180
+#. i18n: ectx: property (whatsThis), widget (KPushButton, loadButton)
+#: rc.cpp:209
+msgid "Click to load a word list from a file."
+msgstr "फाइलबाट शब्द सूची लोड गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:183
+#. i18n: ectx: property (text), widget (KPushButton, loadButton)
+#: rc.cpp:212
+msgctxt "Load a word list from a file"
+msgid "Load"
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:198
+#. i18n: ectx: property (whatsThis), widget (KPushButton, saveButton)
+#: rc.cpp:215
+msgid "Click to save word list to a file."
+msgstr "फाइलमा शब्दसूची बचत गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:201
+#. i18n: ectx: property (text), widget (KPushButton, saveButton)
+#: rc.cpp:218
+msgid "&Save"
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:216
+#. i18n: ectx: property (whatsThis), widget (KPushButton, clearButton)
+#: rc.cpp:221
+msgid "Click to empty the word list."
+msgstr "शब्द सूची खाली गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:219
+#. i18n: ectx: property (text), widget (KPushButton, clearButton)
+#: rc.cpp:224
+msgctxt "Clear the word list"
+msgid "Clear"
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:252
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addButton)
+#: rc.cpp:227
+msgid "Click to add another word or regular expression to the list."
+msgstr "सूचीमा अन्य शब्द वा नियमित अभिव्यक्ति थप्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:255
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: rc.cpp:230
+msgid "&Add"
+msgstr ""
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:270
+#. i18n: ectx: property (whatsThis), widget (QPushButton, upButton)
+#: rc.cpp:233
+msgid ""
+"Click to move selected word up in the list.  Words higher in the list are "
+"applied first."
+msgstr ""
+"सूचीमा चयन गरिएको शब्द माथि सार्न क्लिक गर्नुहोस् ।  उच्च स्थानमा रहेका शब्द "
+"पहिला लागू गरिन्छ ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:273
+#. i18n: ectx: property (text), widget (QPushButton, upButton)
+#: rc.cpp:236
+msgid "&Up"
+msgstr "माथि"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:288
+#. i18n: ectx: property (whatsThis), widget (QPushButton, downButton)
+#: rc.cpp:239
+msgid ""
+"Click to move a word down in the list.  Words lower in the list are applied "
+"last."
+msgstr ""
+"सूचीमा चयन गरिएको शब्द तल सार्न क्लिक गर्नुहोस् ।  तल्लो स्थानमा रहेका शब्द "
+"अन्त्यमा लागू गरिन्छ ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:309
+#. i18n: ectx: property (whatsThis), widget (KPushButton, editButton)
+#: rc.cpp:245
+msgid "Click to modify an existing word or regular expression in the list."
+msgstr ""
+"सूचीमा अवस्थित शब्द वा नियमित अभिव्यक्ति परिमार्जन गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:312
+#. i18n: ectx: property (text), widget (KPushButton, editButton)
+#: rc.cpp:248
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:330
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeButton)
+#: rc.cpp:251
+msgid "Click to remove a word or regular expression from the list."
+msgstr "सूचीबाट शब्द वा नियमित अभिव्यक्ति हटाउन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:371
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: rc.cpp:257
+msgid "Type"
+msgstr "टाइप"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:376
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: rc.cpp:260
+msgid "Match Case"
+msgstr "केस मिलाउनुहोस्"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:381
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: rc.cpp:263
+msgid "Match"
+msgstr "मिलाउनुहोस्"
+
+#. i18n: file: filters/stringreplacer/stringreplacerconfwidget.ui:386
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: rc.cpp:266
+msgid "Replace With"
+msgstr "यससँग प्रतिस्थापन गर्नुहोस्"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, TalkerChooserConfWidget)
+#: rc.cpp:269
+msgid "Configure Talker Chooser"
+msgstr "वक्ता चयनकर्ता कन्फिगर गर्नुहोस्"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:63
+#. i18n: ectx: property (title), widget (QGroupBox, applyGroupBox)
+#: rc.cpp:284
+msgid "&Apply This Filter When"
+msgstr "फिल्टर लागू गर्ने समय"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:83
+#. i18n: ectx: property (whatsThis), widget (QLabel, reLabel)
+#: rc.cpp:287
+msgctxt "What's this text"
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank, the filter applies to all "
+"text jobs of any language."
+msgstr ""
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:86
+#. i18n: ectx: property (text), widget (QLabel, reLabel)
+#: rc.cpp:290
+msgid "Te&xt contains:"
+msgstr "पाठ समावेश हुने:"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:133
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, reLineEdit)
+#: rc.cpp:299
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank, the filter applies to all "
+"text jobs of any language."
+msgstr ""
+"यो फिल्टर निर्दिष्ट गरिएको भाषाको पाठ कार्यमा लागू गरिने छ ।  तपाईँले ब्राउज "
+"बटन क्लिक गरेर एक भन्दा बढी भाषा चयन गर्न सक्नुहुन्छ र सूचीमा एक भन्दा बढी "
+"प्राप्त गर्न Ctrl-clicking गर्न सक्नुहुन्छ ।  यदि खाली स्थान भएमा, फिल्टर "
+"कुनै पनि भाषाको सबै पाठ कार्यमा लागू हुन्छ ।"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:180
+#. i18n: ectx: property (whatsThis), widget (QLabel, talkerLabel)
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:196
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, talkerLineEdit)
+#: rc.cpp:311 rc.cpp:317
+msgid ""
+"The new Talker that will be used when the conditions above are met.  The "
+"default Talker is the topmost in the Talkers tab.  Click the button to "
+"choose a Talker."
+msgstr ""
+"माथिका सर्त पुरा हुदाँ प्रयोग गरिने नयाँ वक्ता ।  पूर्वनिर्धारित वक्ता वक्ता "
+"ट्याबको सबैभन्दा माथिल्लो वक्ता हो ।  वक्ता रोज्न बटन क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:183
+#. i18n: ectx: property (text), widget (QLabel, talkerLabel)
+#: rc.cpp:314
+msgid "&Talker:"
+msgstr "वक्ता:"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:203
+#. i18n: ectx: property (whatsThis), widget (KPushButton, talkerButton)
+#: rc.cpp:320
+msgid "Click to select a Talker."
+msgstr "वक्ता चयन गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:231
+#. i18n: ectx: property (whatsThis), widget (KPushButton, loadButton)
+#: rc.cpp:326
+msgid "Click to load a Talker Chooser configuration from a file."
+msgstr "फाइलबाट वक्ता रोज्ने कन्फिगरेसन लोड गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:234
+#. i18n: ectx: property (text), widget (KPushButton, loadButton)
+#: rc.cpp:329
+msgid "&Load..."
+msgstr "लोड गर्नुहोस्..."
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:249
+#. i18n: ectx: property (whatsThis), widget (KPushButton, saveButton)
+#: rc.cpp:332
+msgid "Click to save this Talker Chooser to a file."
+msgstr "फाइलमा यो वक्ता चयनकर्ता बचत गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:252
+#. i18n: ectx: property (text), widget (KPushButton, saveButton)
+#: rc.cpp:335
+msgid "&Save..."
+msgstr "बचत गर्नुहोस्..."
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:267
+#. i18n: ectx: property (whatsThis), widget (KPushButton, clearButton)
+#: rc.cpp:338
+msgid "Click to clear everything."
+msgstr "सबै खाली गर्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: filters/talkerchooser/talkerchooserconfwidget.ui:270
+#. i18n: ectx: property (text), widget (KPushButton, clearButton)
+#: rc.cpp:341
+msgid "Cl&ear"
+msgstr "खाली गर्नुहोस्"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XmlTransformerConfWidget)
+#: rc.cpp:344
+msgid "Configure XML Transformer"
+msgstr "एक्सएमएल रुपान्तरकर्ता कन्फिगर गर्नुहोस्"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:42
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameLineEdit)
+#: rc.cpp:347
+msgid "Enter any descriptive name you like for this filter."
+msgstr ""
+"तपाईँले यो फिल्टरका लागि मनपर्ने कुनै पनि वर्णनात्मक नाम प्रविष्ट गर्नुहोस् ।"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:57
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, xsltPath)
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:105
+#. i18n: ectx: property (whatsThis), widget (QLabel, xsltLabel)
+#: rc.cpp:350 rc.cpp:362
+msgid ""
+"Enter the full path to an XML Style Language - Transforms (XSLT) stylesheet "
+"file.  XSLT files usually end with extension .xsl."
+msgstr ""
+"एउटा एक्सएमएल शैली भाषालाई पुरा मार्ग प्रविष्ट गर्नुहोस् - शैलीपाना फाइल "
+"(एक्सएडएलटी ) रुपान्तरण गर्छ ।  एक्स एड एल टी फाइल सधै विस्तार .xsl मा "
+"अन्त्य हुन्छ ।"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:72
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, xsltprocPath)
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:121
+#. i18n: ectx: property (whatsThis), widget (QLabel, xsltprocLabel)
+#: rc.cpp:353 rc.cpp:368
+msgid ""
+"Enter the path to the xsltproc executable program.  If it is in the PATH "
+"environment variable, just enter \"xsltproc\"."
+msgstr ""
+"xsltproc कार्यान्वयनयोग्य कार्यक्रममा मार्ग प्रविष्ट गर्नुहोस् ।  यदि यो "
+"परिवेश चल मार्गमा भएमा, केवल \"xsltproc\" मात्र प्रविष्ट गर्नुहोस् ।"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:89
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#: rc.cpp:356
+msgctxt "What's this text"
+msgid "Enter any descriptive name you like for this filter."
+msgstr ""
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:108
+#. i18n: ectx: property (text), widget (QLabel, xsltLabel)
+#: rc.cpp:365
+msgid "&XSLT file:"
+msgstr "एक्सएडएलटी  फाइल:"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, xsltprocLabel)
+#: rc.cpp:371
+msgid "xsltproc &executable:"
+msgstr "कार्यान्वयनयोग्य xsltproc:"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:142
+#. i18n: ectx: property (title), widget (QGroupBox, applyGroupBox)
+#: rc.cpp:377
+msgid "Apply This &Filter When"
+msgstr "समयमा यो फिल्टर लागू गर्नुहोस्"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:170
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, rootElementLineEdit)
+#: rc.cpp:380
+msgid ""
+"This filter will be applied only to text having the specified XML root "
+"element.  If blank, applies to all text.  You may enter more than one root "
+"element separated by commas.  Example: \"html\"."
+msgstr ""
+"यो फिल्टर निर्दिष्ट गरिएको एक्सएमएल मूल तत्व भएको पाठमा मात्र लागू गरिने छ । "
+" यदि खाली भएमा, सबै पाठमा लागू गरिन्छ ।  तपाईँले एकभन्दा बढी मूल तत्व "
+"अल्पविरामद्वारा विभाजित गर्न सक्नुहुन्छ ।  उदाहरण: \"html\" ।"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:185
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, doctypeLineEdit)
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:233
+#. i18n: ectx: property (whatsThis), widget (QLabel, doctypeLabel)
+#: rc.cpp:383 rc.cpp:395
+msgid ""
+"This filter will be applied only to text having the specified DOCTYPE "
+"specification.  If blank, applies to all text.  You may enter more than one "
+"DOCTYPE separated by commas.  Example: \"xhtml\"."
+msgstr ""
+"यो फिल्टर निर्दिष्ट गरिएका DOCTYPE विशेष विवरण भएका पाठमा मात्र लागू गरिनेछ "
+"।  यदि खाली स्थान भएमा, सबै पाठमा लागू हुन्छ । तपाईँले एक भन्दा बढी DOCTYPE "
+"अल्पविरामद्वारा विभाजित गरेर प्रविष्ट गर्न सक्नुहुन्छ ।  उदाहरण: \"xhtml\"."
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:200
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, appIdLineEdit)
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:249
+#. i18n: ectx: property (whatsThis), widget (QLabel, appIdLabel)
+#: rc.cpp:386 rc.cpp:401
+msgid ""
+"<qt>Enter a D-Bus Application ID.  This filter will only apply to text "
+"queued by that application.  You may enter more than one ID separated by "
+"commas.  Use <b>knotify</b> to match all messages sent as KDE notifications. "
+" If blank, this filter applies to text queued by all applications.  Tip: Use "
+"kdcop from the command line to get the Application IDs of running "
+"applications.  Example: \"konversation, kvirc,ksirc,kopete\"</qt>"
+msgstr ""
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:217
+#. i18n: ectx: property (whatsThis), widget (QLabel, rootElementLabel)
+#: rc.cpp:389
+msgctxt "What's this text"
+msgid ""
+"This filter will be applied only to text having the specified XML root "
+"element.  If blank, applies to all text.  You may enter more than one root "
+"element separated by commas.  Example: \"html\"."
+msgstr ""
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:220
+#. i18n: ectx: property (text), widget (QLabel, rootElementLabel)
+#: rc.cpp:392
+msgid "&Root element is:"
+msgstr "मूल तत्व:"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:236
+#. i18n: ectx: property (text), widget (QLabel, doctypeLabel)
+#: rc.cpp:398
+msgid "or DOC&TYPE is:"
+msgstr "DOCTYPE:"
+
+#. i18n: file: filters/xmltransformer/xmltransformerconfwidget.ui:252
+#. i18n: ectx: property (text), widget (QLabel, appIdLabel)
+#: rc.cpp:404
+msgid "and Application &ID contains:"
+msgstr "र अनुप्रयोग आईडी समावेश गर्दछ:"
+
+#: filters/main.cpp:18
+msgid "testfilter"
+msgstr "परीक्षण फिल्टर"
+
+#: filters/main.cpp:19
+msgid "A utility for testing KTTSD filter plugins."
+msgstr "केडीई टीटीएसडी फिल्टर प्लगइन परीक्षणका लागि एउटा युटिलिटी ।"
+
+#: filters/main.cpp:20
+msgid "Copyright 2005, Gary Cramblitt &lt;garycramblitt@comcast.net&gt;"
+msgstr ""
+
+#: filters/main.cpp:21 kcmkttsmgr/kcmkttsmgr.cpp:689 kttsd/main.cpp:46
+#: kttsmgr/kttsmgr.cpp:55
+msgid "Gary Cramblitt"
+msgstr "गैरी क्रेमब्लिट (Gary Cramblitt)"
+
+#: filters/main.cpp:21 kcmkttsmgr/kcmkttsmgr.cpp:689 kttsmgr/kttsmgr.cpp:55
+msgid "Maintainer"
+msgstr "सम्भारकर्ता"
+
+#: filters/main.cpp:27
+msgid "Name of a KTTSD filter plugin (required)"
+msgstr "केडीई टीटीएसडी फिल्टर प्लगइनको नाम (आवश्यक)"
+
+#: filters/main.cpp:29
+msgid "Talker code passed to filter"
+msgstr "फिल्टरमा पास गरिएको वक्ता सङ्केत"
+
+#: filters/main.cpp:31
+msgid "DCOP application ID passed to filter"
+msgstr "फिल्टरमा पास गरिएको डीसीओपी अनुप्रयोग आईडी"
+
+#: filters/main.cpp:33
+msgid "Config file group name passed to filter"
+msgstr ""
+
+#: filters/main.cpp:34
+msgid "Display list of available Filter PlugIns and exit"
+msgstr "उपलब्ध फिल्टर प्लगइनको सूची प्रदर्शन गर्नुहोस् र बाहिर निस्कनुहोस्"
+
+#: filters/main.cpp:36
+msgid "Display tabs as \\t, otherwise they are removed"
+msgstr "ट्याब \\t का रुपमा प्रदर्शन गर्नुहोस्, अन्यथा तीनलाई हटाइन्छ"
+
+#: filters/main.cpp:37
+msgid "Display list of available filter plugins and exit"
+msgstr "उपलब्ध फिल्टर प्लगइनको सूची प्रदर्शन गर्नुहोस् र बाहिर निस्कनुहोस्"
+
+#: kcmkttsmgr/addtalker.cpp:49
+msgid "Add Talker"
+msgstr "वक्ता थप्नुहोस्"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:164 kcmkttsmgr/kcmkttsmgr.cpp:821
+msgid "Filter"
+msgstr "फिल्टर"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:620
+msgid ""
+"You have made changes to the configuration but have not saved them yet.  "
+"Click Apply to save the changes or Cancel to abandon the changes."
+msgstr ""
+"तपाईँले कन्फिगरेसनमा परिवर्तन गर्नुभयो तर अहिलेसम्म बचत गर्नुभएको छैन ।  "
+"परिवर्तन बचत गर्न 'लागू गर्नुहोस्' क्लिक गर्नुहोस् वा परिवर्तन छोड्न 'रद्द "
+"गर्नुहोस्' क्लिक गर्नुहोस् ।"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:676
+msgid ""
+"<h1>Text-to-Speech</h1><p>This is the configuration for the text-to-speech D-"
+"Bus service</p><p>This allows other applications to access text-to-speech "
+"resources</p><p>Be sure to configure a default language for the language you "
+"are using as this will be the language used by most of the applications</p>"
+msgstr ""
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:684 kttsd/main.cpp:41
+msgid "kttsd"
+msgstr "kttsd"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:684
+msgid "KCMKttsMgr"
+msgstr "केसीएम केडीई पाठ वाचक प्रबन्धक"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:686
+msgid "(c) 2002, José Pablo Ezequiel Fernández"
+msgstr "(c) २००२, जोड पाब्लो इजिक्वेइल फर्नान्डिज"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:688 kttsd/main.cpp:44 kttsmgr/kttsmgr.cpp:54
+msgid "José Pablo Ezequiel Fernández"
+msgstr ""
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:688
+msgid "Author"
+msgstr "लेखक"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:690 kttsd/main.cpp:48 kttsmgr/kttsmgr.cpp:57
+msgid "Olaf Schmidt"
+msgstr ""
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:690 kcmkttsmgr/kcmkttsmgr.cpp:691
+#: kttsd/main.cpp:47 kttsd/main.cpp:48 kttsd/main.cpp:49
+#: kttsmgr/kttsmgr.cpp:56 kttsmgr/kttsmgr.cpp:57 kttsmgr/kttsmgr.cpp:58
+msgid "Contributor"
+msgstr "सहयोगी"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:691 kttsd/main.cpp:49 kttsmgr/kttsmgr.cpp:58
+msgid "Paul Giannaros"
+msgstr ""
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:820
+msgid "Select Filter"
+msgstr "फिल्टर चयन गर्नुहोस्"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:1127
+msgid "Jobs"
+msgstr ""
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:1151
+#, kde-format
+msgid "KTTSD Version: %1"
+msgstr ""
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:1365
+msgid "Filter Configuration"
+msgstr "फिल्टर कन्फिगरेसन"
+
+#: kttsd/kspeech.cpp:422 kttsmgr/kttsmgr.cpp:333
+msgid "KDE Text-to-Speech"
+msgstr "केडीई पाठ वाचक"
+
+#: kttsd/main.cpp:42
+msgid "Text-to-speech synthesis daemon"
+msgstr ""
+
+#: kttsd/main.cpp:43 kttsmgr/kttsmgr.cpp:53
+msgid "(C) 2002, José Pablo Ezequiel Fernández"
+msgstr ""
+
+#: kttsd/main.cpp:44 kttsmgr/kttsmgr.cpp:54
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: kttsd/main.cpp:45
+msgid "Jeremy Whiting"
+msgstr ""
+
+#: kttsd/main.cpp:45
+msgid "Current Maintainer"
+msgstr "हालको सम्भारकर्ता"
+
+#: kttsd/main.cpp:46
+msgid "Previous Maintainer"
+msgstr ""
+
+#: kttsd/main.cpp:47 kttsmgr/kttsmgr.cpp:56
+msgid "Gunnar Schmi Dt"
+msgstr ""
+
+#: kttsd/main.cpp:50 kttsmgr/kttsmgr.cpp:59
+msgid "Jorge Luis Arzola"
+msgstr ""
+
+#: kttsd/main.cpp:50 kttsd/main.cpp:51 kttsmgr/kttsmgr.cpp:59
+#: kttsmgr/kttsmgr.cpp:60
+msgid "Testing"
+msgstr "परीक्षण गर्दै"
+
+#: kttsd/main.cpp:51 kttsmgr/kttsmgr.cpp:60
+msgid "David Powell"
+msgstr "डेबिड पावेल (David Powell)"
+
+#: kttsmgr/kttsmgr.cpp:51
+msgid "KTTSMgr"
+msgstr "केडीई पाठ वाचक प्रबन्धक"
+
+#: kttsmgr/kttsmgr.cpp:52 kttsmgr/kttsmgr.cpp:164
+msgid "Text-to-Speech Manager"
+msgstr "पाठ वाचक प्रबन्धक"
+
+#: kttsmgr/kttsmgr.cpp:69
+msgid "Exit when speaking is finished"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:121
+msgid "&Stop/Delete"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:124
+msgid "&Pause"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:127
+msgid "&Resume"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:130
+msgid "R&epeat"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:134
+msgid "Spea&k Clipboard Contents"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:137
+msgid "&Configure"
+msgstr "कन्फिगर"
+
+#: kttsmgr/kttsmgr.cpp:141
+msgid "KTTS &Handbook"
+msgstr "केडीई टीटीएस हातेपुस्तक"
+
+#: kttsmgr/kttsmgr.cpp:144
+msgid "&About KTTSMgr"
+msgstr "KTTSMgr बारेमा"
+
+#: kttsmgr/kttsmgr.cpp:238
+msgid "Queued"
+msgstr "लामबद्ध गरिएको"
+
+#: kttsmgr/kttsmgr.cpp:239
+msgctxt "Waiting for an action"
+msgid "Waiting"
+msgstr ""
+
+#: kttsmgr/kttsmgr.cpp:240
+msgid "Speaking"
+msgstr "वाचन"
+
+#: kttsmgr/kttsmgr.cpp:241
+msgid "Paused"
+msgstr "पज गरिएको"
+
+#: kttsmgr/kttsmgr.cpp:242
+msgctxt "Finished the job"
+msgid "Finished"
+msgstr "समाप्त भयो"
+
+#: kttsmgr/kttsmgr.cpp:243
+msgctxt "State is unknown"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: kttsmgr/kttsmgr.cpp:250
+msgid "Text-to-Speech System is not running"
+msgstr "पाठ वाचक प्रणाली चलेको छैन"
+
+#: kttsmgr/kttsmgr.cpp:253
+#, kde-format
+msgid "1 job"
+msgid_plural "%1 jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kttsmgr/kttsmgr.cpp:263
+#, kde-format
+msgid ", current job %1 at sentence %2 of %3 sentences"
+msgstr ", वाक्य %3 को %2 वाक्यमा हालको कार्य %1"
+
+#: libkttsd/selectlanguagedlg.cpp:57
+msgid "Code"
+msgstr "सङ्केत"
+
+#: libkttsd/talkercode.cpp:140
+msgctxt "Default language code"
+msgid "default"
+msgstr "पूर्वनिर्धारित"
+
+#: libkttsd/talkercode.cpp:148
+msgctxt "The name of the first Male voice"
+msgid "Male 1"
+msgstr "पुरुष १"
+
+#: libkttsd/talkercode.cpp:151
+msgctxt "The name of the first Female voice"
+msgid "Female 1"
+msgstr "महिला १"
+
+#: libkttsd/talkercode.cpp:154
+msgctxt "The name of the male child voice"
+msgid "Boy"
+msgstr "केटा"
+
+#: libkttsd/talkercode.cpp:155
+msgctxt "The name of the female child voice"
+msgid "Girl"
+msgstr "केटी"
+
+#: libkttsd/talkercode.cpp:157
+msgctxt ""
+"Somehow user has gotten a voice type that is not valid, i.e. not Male1, "
+"Male2, etc."
+msgid "Invalid voice type"
+msgstr ""
+
+#: libkttsd/talkercode.cpp:234
+msgctxt "Other language"
+msgid "Other"
+msgstr "अन्य"
+
+#: libkttsd/talkercode.cpp:244
+msgctxt "full country name"
+msgid "United States of America"
+msgstr "संयुक्त राज्य अमेरिका"
+
+#: libkttsd/talkercode.cpp:245
+msgctxt "abbreviated country name"
+msgid "USA"
+msgstr "यू एस ए"
+
+#: libkttsd/talkercode.cpp:246
+msgctxt "full country name"
+msgid "United Kingdom"
+msgstr "संयुक्त अधिराज्य"
+
+#: libkttsd/talkercode.cpp:247
+msgctxt "abbreviated country name"
+msgid "UK"
+msgstr "यू के"
+
+#: libkttsd/talkerlistmodel.cpp:131
+msgid "Name"
+msgstr "नाम"
+
+#: libkttsd/talkerlistmodel.cpp:134
+msgid "Voice Type"
+msgstr ""
+
+#: libkttsd/talkerlistmodel.cpp:135
+msgctxt "Volume of noise"
+msgid "Volume"
+msgstr ""
+
+#: libkttsd/talkerlistmodel.cpp:136
+msgid "Speed"
+msgstr "गति"
+
+#: libkttsd/talkerlistmodel.cpp:137
+msgid "Pitch"
+msgstr ""
+
+#: libkttsd/selectlanguagedlg.h:66
+msgid "Select Language"
+msgstr "भाषा चयन गर्नुहोस्"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:147
+msgid "Unable to open file."
+msgstr "फाइल खोल्न असक्षम"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:153
+msgid "File not in proper XML format."
+msgstr "फाइल ठीक एक्सएमएल ढाँचामा छैन ।"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:236
+#: filters/stringreplacer/stringreplacerconf.cpp:608
+msgctxt "Abbreviation for 'Regular Expression'"
+msgid "RegExp"
+msgstr "नियमित अभिव्यक्ति"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:236
+#: filters/stringreplacer/stringreplacerconf.cpp:332
+#: filters/stringreplacer/stringreplacerconf.cpp:421
+#: filters/stringreplacer/stringreplacerconf.cpp:576
+#: filters/stringreplacer/stringreplacerconf.cpp:606
+msgid "Word"
+msgstr "शब्द"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:239
+#: filters/stringreplacer/stringreplacerconf.cpp:338
+#: filters/stringreplacer/stringreplacerconf.cpp:581
+#: filters/stringreplacer/stringreplacerconf.cpp:609
+msgctxt "Yes or no"
+msgid "Yes"
+msgstr "हो"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:239
+#: filters/stringreplacer/stringreplacerconf.cpp:609
+msgctxt "Yes or no"
+msgid "No"
+msgstr "होइन"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:287
+msgid "Unable to open file "
+msgstr "फाइल खोल्न असक्षम "
+
+#: filters/stringreplacer/stringreplacerconf.cpp:376
+#: filters/stringreplacer/stringreplacerconf.cpp:411
+msgid "String Replacer"
+msgstr "स्ट्रिङ प्रतिस्थापक"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:409
+#: filters/stringreplacer/stringreplacerconf.cpp:450
+#: filters/stringreplacer/stringreplacerconf.cpp:454
+msgid "Multiple Languages"
+msgstr "बहुविध भाषा"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:422
+msgctxt "Abbreviation for 'Regular Expresion'"
+msgid "RegExp"
+msgstr ""
+
+#: filters/stringreplacer/stringreplacerconf.cpp:424
+msgid "Error"
+msgstr "त्रुटि"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:431
+msgid "Select Languages"
+msgstr "भाषा चयन गर्नुहोस्"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:597
+msgid "Edit String Replacement"
+msgstr "स्ट्रिङ प्रतिस्थापक सम्पादन गर्नुहोस्"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:702
+#: filters/stringreplacer/stringreplacerconf.cpp:718
+msgid "Error Opening File"
+msgstr "फाइल खोल्दा त्रुटि"
+
+#: filters/talkerchooser/talkerchooserconf.cpp:159
+msgid "Talker Chooser"
+msgstr "वक्ता चयनकर्ता"
+
+#: filters/xmltransformer/xmltransformerconf.cpp:138
+msgid "XML Transformer"
+msgstr "एक्सएमएल रुपान्तरक"

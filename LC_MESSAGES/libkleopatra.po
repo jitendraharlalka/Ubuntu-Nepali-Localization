@@ -1,0 +1,1085 @@
+# translation of libkleopatra.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkleopatra\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:45+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:04+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com,,,"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, AddDirectoryServiceDialog)
+#: rc.cpp:5
+msgid "Add or Change Directory Service"
+msgstr "डाइरेक्टरी सेवा थप्नुहोस् वा परिवर्तन गर्नुहोस्"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:25
+#. i18n: ectx: property (text), widget (QLabel, serverNameLA)
+#: rc.cpp:8
+msgid "&Server name:"
+msgstr "सर्भर नाम:"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:38
+#. i18n: ectx: property (text), widget (QLineEdit, portED)
+#: rc.cpp:11
+msgid "389"
+msgstr "३८९"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:48
+#. i18n: ectx: property (text), widget (QLabel, usernameLA)
+#: rc.cpp:14
+msgid "&User name (optional):"
+msgstr "प्रयोगकर्ता नाम (वैकल्पिक):"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:74
+#. i18n: ectx: property (text), widget (QLabel, passwordLA)
+#: rc.cpp:17
+msgid "Pass&word (optional):"
+msgstr "पासवर्ड (वैकल्पिक):"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:84
+#. i18n: ectx: property (text), widget (QPushButton, PushButton3)
+#: rc.cpp:20
+msgid "&OK"
+msgstr ""
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, PushButton4)
+#: rc.cpp:23
+msgid "&Cancel"
+msgstr ""
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:140
+#. i18n: ectx: property (text), widget (QLabel, descriptionLA)
+#: rc.cpp:26
+msgid "&Base DN:"
+msgstr "आधार डीएन:"
+
+#. i18n: file: ui/adddirectoryservicedialog.ui:150
+#. i18n: ectx: property (text), widget (QLabel, portLA)
+#: rc.cpp:29
+msgid "&Port:"
+msgstr "पोर्ट:"
+
+#. i18n: file: ui/directoryserviceswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, DirectoryServicesWidget)
+#: rc.cpp:32
+msgid "Directory Services Configuration"
+msgstr "डाइरेक्टरी सेवा कन्फिगरेसन"
+
+#. i18n: file: ui/directoryserviceswidget.ui:25
+#. i18n: ectx: property (text), widget (QLabel, x500LA)
+#: rc.cpp:35
+msgid "Directory services:"
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:34
+#. i18n: ectx: property (whatsThis), widget (QTreeView, treeView)
+#: rc.cpp:38
+msgid ""
+"This is a list of all directory services that are configured for use with "
+"X.509 and OpenPGP."
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:61
+#. i18n: ectx: property (toolTip), widget (QToolButton, newTB)
+#: rc.cpp:41
+msgid "Click to add a service"
+msgstr "सेवा थप्न क्लिक गर्नुहोस्"
+
+#. i18n: file: ui/directoryserviceswidget.ui:64
+#. i18n: ectx: property (whatsThis), widget (QToolButton, newTB)
+#: rc.cpp:44
+msgid ""
+"Click this button to create a new directory service entry as a clone of the "
+"currently selected one (or with default values, if no other is selected). "
+"You can then configure details in the table on the left hand."
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:67
+#. i18n: ectx: property (text), widget (QToolButton, newTB)
+#: rc.cpp:47
+msgid "New"
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:83
+#. i18n: ectx: property (toolTip), widget (QToolButton, deleteTB)
+#: rc.cpp:50
+msgid "Click to remove the currently selected service"
+msgstr "हालै चयन गरेको सेवा हटाउन क्लिक गर्नुहोस्"
+
+#. i18n: file: ui/directoryserviceswidget.ui:86
+#. i18n: ectx: property (whatsThis), widget (QToolButton, deleteTB)
+#: rc.cpp:53
+msgid ""
+"Click this button to remove the currently selected directory service. The "
+"change will only take effect once you acknowledge the main configuration "
+"dialog."
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:89
+#. i18n: ectx: property (text), widget (QToolButton, deleteTB)
+#: rc.cpp:56
+msgid "Delete"
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:119
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showUserAndPasswordCB)
+#: rc.cpp:59
+msgid ""
+"Use this option to switch display of username and password information on or "
+"off in the above table."
+msgstr ""
+
+#. i18n: file: ui/directoryserviceswidget.ui:122
+#. i18n: ectx: property (text), widget (QCheckBox, showUserAndPasswordCB)
+#: rc.cpp:62
+msgid "Show user and password information"
+msgstr ""
+
+#: kleo/cryptobackendfactory.cpp:173
+#, kde-format
+msgid "While scanning for %1 support in backend %2:"
+msgstr "%2 ब्याकइन्डमा %1 समर्थनका लागि स्क्यानिङ गर्दा:"
+
+#: kleo/cryptplugwrapper.cpp:490
+msgid "(Unknown Protocol)"
+msgstr "(अज्ञात प्रोटोकल)"
+
+#: kleo/cryptplugwrapper.cpp:523
+#, kde-format
+msgid "Error while initializing plugin \"%1\""
+msgstr "\"%1\" प्लगइन थालनी गर्दा त्रुटि"
+
+#: kleo/dn.cpp:454
+msgid "Common name"
+msgstr "साझा नाम"
+
+#: kleo/dn.cpp:455
+msgid "Surname"
+msgstr "थर"
+
+#: kleo/dn.cpp:456
+msgid "Given name"
+msgstr "दिएको नाम"
+
+#: kleo/dn.cpp:457
+msgid "Location"
+msgstr "स्थान"
+
+#: kleo/dn.cpp:458
+msgid "Title"
+msgstr "शीर्षक"
+
+#: kleo/dn.cpp:459
+msgid "Organizational unit"
+msgstr "सङ्गठनात्मक एकाइ"
+
+#: kleo/dn.cpp:460
+msgid "Organization"
+msgstr "सङ्गठन"
+
+#: kleo/dn.cpp:461
+msgid "Postal code"
+msgstr "हुलाकी कोड"
+
+#: kleo/dn.cpp:462
+msgid "Country code"
+msgstr "देश कोड"
+
+#: kleo/dn.cpp:463
+msgid "State or province"
+msgstr "राज्य वा प्रदेश"
+
+#: kleo/dn.cpp:464
+msgid "Domain component"
+msgstr "डोमेन अवयव"
+
+#: kleo/dn.cpp:465
+msgid "Business category"
+msgstr "व्यवसायिक कोटी"
+
+#: kleo/dn.cpp:466
+msgid "Email address"
+msgstr "इमेल ठेगाना"
+
+#: kleo/dn.cpp:467
+msgid "Mail address"
+msgstr "मेल ठेगाना"
+
+#: kleo/dn.cpp:468
+msgid "Mobile phone number"
+msgstr "मोबाइल फोन नम्बर"
+
+#: kleo/dn.cpp:469
+msgid "Telephone number"
+msgstr "टेलिफोन नम्बर"
+
+#: kleo/dn.cpp:470
+msgid "Fax number"
+msgstr "फ्याक्स नम्बर"
+
+#: kleo/dn.cpp:471
+msgid "Street address"
+msgstr "गल्ली ठेगाना"
+
+#: kleo/dn.cpp:472
+msgid "Unique ID"
+msgstr "अद्वितिय आईडी"
+
+#: kleo/enum.cpp:46
+msgid "Inline OpenPGP (deprecated)"
+msgstr "इनलाइन ओपन पीजीपी (डेप्रिकेटेड)"
+
+#: kleo/enum.cpp:49
+msgid "OpenPGP/MIME"
+msgstr "ओपन पीजीपी/माइम"
+
+#: kleo/enum.cpp:52 ui/backendconfigwidget.cpp:145
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: kleo/enum.cpp:55
+msgid "S/MIME Opaque"
+msgstr "S/MIME अपारदर्शी"
+
+#: kleo/enum.cpp:80
+msgid "Any"
+msgstr "कुनै"
+
+#: kleo/enum.cpp:142
+msgid "Never Encrypt"
+msgstr "गुप्तिकरण नगर्नुहोस्"
+
+#: kleo/enum.cpp:144
+msgid "Always Encrypt"
+msgstr "सधै गुप्तिकरण गर्नुहोस्"
+
+#: kleo/enum.cpp:146
+msgid "Always Encrypt If Possible"
+msgstr "यदि सम्भव भए सधै गुप्तिकरण गर्नुहोस्"
+
+#: kleo/enum.cpp:148 kleo/enum.cpp:200
+msgid "Ask"
+msgstr "सोध्नुहोस्"
+
+#: kleo/enum.cpp:150 kleo/enum.cpp:202
+msgid "Ask Whenever Possible"
+msgstr "सम्भव भए सोध्नुहोस्"
+
+#: kleo/enum.cpp:152
+msgctxt "no specific preference"
+msgid "<placeholder>none</placeholder>"
+msgstr ""
+
+#: kleo/enum.cpp:194
+msgid "Never Sign"
+msgstr "कहिल्यै साइन नगर्नुहोस्"
+
+#: kleo/enum.cpp:196
+msgid "Always Sign"
+msgstr "सधै साइन गर्नुहोस्"
+
+#: kleo/enum.cpp:198
+msgid "Always Sign If Possible"
+msgstr "यदि सम्भव भए साइन गर्नुहोस्"
+
+#: kleo/enum.cpp:204
+msgctxt "no specific preference"
+msgid "<none>"
+msgstr "<none>"
+
+#: kleo/hierarchicalkeylistjob.cpp:131 kleo/multideletejob.cpp:91
+#, kde-format
+msgctxt "progress info: \"%1 of %2\""
+msgid "%1/%2"
+msgstr "%1/%2"
+
+#: kleo/keyfiltermanager.cpp:82
+msgid "All Certificates"
+msgstr ""
+
+#: kleo/keyfiltermanager.cpp:96
+msgid "My Certificates"
+msgstr ""
+
+#: kleo/keyfiltermanager.cpp:113
+msgid "Trusted Certificates"
+msgstr ""
+
+#: kleo/keyfiltermanager.cpp:129
+msgid "Other Certificates"
+msgstr ""
+
+#: ui/backendconfigwidget.cpp:146 ui/directoryserviceswidget.cpp:634
+msgid "OpenPGP"
+msgstr "ओपन पीजीपी"
+
+#: ui/backendconfigwidget.cpp:148
+msgid "failed"
+msgstr "असफल"
+
+#: ui/backendconfigwidget.cpp:150
+#, kde-format
+msgctxt ""
+"Items in Kleo::BackendConfigWidget listview (1: protocol; 2: implementation "
+"name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: ui/backendconfigwidget.cpp:211
+msgid "Available Backends"
+msgstr "उपलब्ध ब्याकइन्ड"
+
+#: ui/backendconfigwidget.cpp:225
+msgid "Confi&gure..."
+msgstr "कन्फिगर गर्नुहोस्..."
+
+#: ui/backendconfigwidget.cpp:232
+msgid "Rescan"
+msgstr "पुन: स्क्यान गर्नुहोस्"
+
+#: ui/backendconfigwidget.cpp:301
+msgid "The following problems where encountered during scanning:"
+msgstr "स्क्यानिङ गर्दा निम्न समस्या देखा पर्यो:"
+
+#: ui/backendconfigwidget.cpp:302
+msgctxt "@title:window Results of the scanning"
+msgid "Scan Results"
+msgstr ""
+
+#: ui/cryptoconfigdialog.cpp:40
+msgid "Configure GnuPG Backend"
+msgstr ""
+
+#: ui/cryptoconfigdialog.cpp:44
+msgid "&Reset"
+msgstr "रिसेट गर्नुहोस्"
+
+#: ui/cryptoconfigmodule.cpp:130
+msgid "GpgConf Error"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:178
+#, kde-format
+msgid ""
+"The gpgconf tool used to provide the information for this dialog does not "
+"seem to be installed properly. It did not return any components. Try running "
+"\"%1\" on the command line for more information."
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:440
+msgctxt ""
+"Translate this to 'yes' or 'no' (use the English words!) depending on "
+"whether your language uses Sentence style capitalisation in GUI labels (yes) "
+"or not (no). Context: We get some backend strings in that have the wrong "
+"capitalizaion (in English, at least) so we need to force the first character "
+"to upper-case. It is this behaviour you can control for your language with "
+"this translation."
+msgid "yes"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:489
+msgid "None (no debugging at all)"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:490
+msgid "Basic (some basic debug messages)"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:491
+msgid "Advanced (more verbose debug messages)"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:492
+msgid "Expert (even more detailed messages)"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:493
+msgid "Guru (all of the debug messages you can get)"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:502
+msgid "Set the debugging level to"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:827
+msgid "Show..."
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:827 ui/cryptoconfigmodule.cpp:896
+msgid "Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: ui/cryptoconfigmodule.cpp:859
+msgid "Configure LDAP Servers"
+msgstr "LDAP सर्भर कन्फिगर गर्नुहोस्"
+
+#: ui/cryptoconfigmodule.cpp:881
+msgid "No server configured yet"
+msgstr "अहिले सम्म सर्भर कन्फिगर गरेको छैन"
+
+#: ui/cryptoconfigmodule.cpp:883
+#, kde-format
+msgid "1 server configured"
+msgid_plural "%1 servers configured"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/cryptoconfigmodule.cpp:900
+msgid "Use keyserver at"
+msgstr ""
+
+#: ui/cryptoconfigmodule.cpp:976
+msgid "Configure Keyservers"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:64
+msgctxt "default server name, keep it a valid domain name, ie. no spaces"
+msgid "server"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:85
+msgid "hkp"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:86
+msgid "http"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:87
+msgid "https"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:88
+msgid "ftp"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:89
+msgid "ftps"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:90
+msgid "ldap"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:91
+msgid "ldaps"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:507
+msgctxt "New X.509 Directory Server"
+msgid "X.509"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:508
+msgctxt "New OpenPGP Directory Server"
+msgid "OpenPGP"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:627
+msgid "Scheme"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:628
+msgid "Server Name"
+msgstr "सर्भर नाम"
+
+#: ui/directoryserviceswidget.cpp:629
+msgid "Server Port"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:630
+msgid "Base DN"
+msgstr "आधार डीएन"
+
+#: ui/directoryserviceswidget.cpp:631
+msgid "User Name"
+msgstr "प्रयोगकर्ता नाम"
+
+#: ui/directoryserviceswidget.cpp:632
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: ui/directoryserviceswidget.cpp:633
+msgid "X.509"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:653
+msgid "(read-only)"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:655
+#, kde-format
+msgctxt "amended tooltip; %1: original tooltip"
+msgid "%1 (read-only)"
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:837
+msgid ""
+"Select the access protocol (scheme) that the directory service is available "
+"through."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:839
+msgid ""
+"Enter the name or IP address of the server hosting the directory service."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:841
+msgid ""
+"<b>(Optional, the default is fine in most cases)</b> Pick the port number "
+"the directory service is listening on."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:844
+msgid ""
+"<b>(Only for LDAP)</b> Enter the base DN for this LDAP server to limit "
+"searches to only that subtree of the directory."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:847
+msgid "<b>(Optional)</b> Enter your user name here, if needed."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:849
+msgid ""
+"<b>(Optional, not recommended)</b> Enter your password here, if needed. Note "
+"that the password will be saved in the clear in a config file in your home "
+"directory."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:853
+msgid ""
+"Check this column if this directory service is providing S/MIME (X.509) "
+"certificates."
+msgstr ""
+
+#: ui/directoryserviceswidget.cpp:855
+msgid ""
+"Check this column if this directory service is providing OpenPGP "
+"certificates."
+msgstr ""
+
+#: ui/dnattributeorderconfigwidget.cpp:71
+msgid "Description"
+msgstr "वर्णन"
+
+#: ui/dnattributeorderconfigwidget.cpp:89
+msgid "Available attributes:"
+msgstr "उपलब्ध विशेषता:"
+
+#: ui/dnattributeorderconfigwidget.cpp:90
+msgid "Current attribute order:"
+msgstr "हालको विशेषता क्रम:"
+
+#: ui/dnattributeorderconfigwidget.cpp:111
+msgid "All others"
+msgstr "सबै अन्य"
+
+#: ui/dnattributeorderconfigwidget.cpp:126
+msgid "Move to top"
+msgstr "माथि सार्नुहोस्"
+
+#: ui/dnattributeorderconfigwidget.cpp:127
+msgid "Move one up"
+msgstr "एक चरण माथि सार्नुहोस्"
+
+#: ui/dnattributeorderconfigwidget.cpp:128
+msgid "Remove from current attribute order"
+msgstr "हालको विशेषता क्रमबाट हटाउनुहोस्"
+
+#: ui/dnattributeorderconfigwidget.cpp:129
+msgid "Add to current attribute order"
+msgstr "हालको विशेषता क्रममा थप्नुहोस्"
+
+#: ui/dnattributeorderconfigwidget.cpp:130
+msgid "Move one down"
+msgstr "एक चरण तल सार्नुहोस्"
+
+#: ui/dnattributeorderconfigwidget.cpp:131
+msgid "Move to bottom"
+msgstr "तल सार्नुहोस्"
+
+#: ui/keyapprovaldialog.cpp:86
+msgid "<placeholder>none</placeholder>"
+msgstr ""
+
+#: ui/keyapprovaldialog.cpp:87
+msgid "Never Encrypt with This Key"
+msgstr "यो कुञ्जी कहिल्यै गुप्तिकरण नगर्नुहोस्"
+
+#: ui/keyapprovaldialog.cpp:88
+msgid "Always Encrypt with This Key"
+msgstr "यो कुञ्जी सधै गुप्तिकरण गर्नुहोस्"
+
+#: ui/keyapprovaldialog.cpp:89
+msgid "Encrypt Whenever Encryption is Possible"
+msgstr "गुप्तिकरण सम्भव हुँदा गुप्तिकरण गर्नुहोस्"
+
+#: ui/keyapprovaldialog.cpp:90
+msgid "Always Ask"
+msgstr "सधै सोध्नुहोस्"
+
+#: ui/keyapprovaldialog.cpp:91
+msgid "Ask Whenever Encryption is Possible"
+msgstr "गुप्तिकरण सम्भव हुँदा सोध्नुहोस्"
+
+#: ui/keyapprovaldialog.cpp:112
+msgid "Encryption Key Approval"
+msgstr "गुप्तिकरण कुञ्जी सहमति"
+
+#: ui/keyapprovaldialog.cpp:124
+msgid "The following keys will be used for encryption:"
+msgstr "निम्न कुञ्जीहरू गुप्तिकरणका लागि प्रयोग गरिनेछ:"
+
+#: ui/keyapprovaldialog.cpp:144
+msgid "Your keys:"
+msgstr "तपाईँको कुञ्जी:"
+
+#: ui/keyapprovaldialog.cpp:156
+msgid "Recipient:"
+msgstr "प्रापक:"
+
+#: ui/keyapprovaldialog.cpp:161
+msgid "Encryption keys:"
+msgstr "गुप्तिकरण कुञ्जी:"
+
+#: ui/keyapprovaldialog.cpp:168
+msgid "Encryption preference:"
+msgstr "गुप्तिकरण प्राथमिकता:"
+
+#: ui/keyrequester.cpp:123
+msgid "Clear"
+msgstr ""
+
+#: ui/keyrequester.cpp:126
+msgid "Change..."
+msgstr "परिवर्तन गर्नुहोस्..."
+
+#: ui/keyrequester.cpp:219 ui/keyselectiondialog.cpp:227
+msgid "<placeholder>unknown</placeholder>"
+msgstr ""
+
+#: ui/keyrequester.cpp:231 ui/keyselectiondialog.cpp:551
+#: backends/qgpgme/qgpgmekeylistjob.cpp:148
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while fetching the keys from the "
+"backend:</p><p><b>%1</b></p></qt>"
+msgstr ""
+"<qt><p>ब्याकइन्डबाट कुञ्जी ल्याउदा त्रुटि उत्पन्न "
+"भयो:</p><p><b>%1</b></p></qt>"
+
+#: ui/keyrequester.cpp:236 ui/keyrequester.cpp:265 ui/keyrequester.cpp:289
+#: ui/keyselectiondialog.cpp:524 ui/keyselectiondialog.cpp:556
+msgid "Key Listing Failed"
+msgstr "कुञ्जी सूचीकरण असफल"
+
+#: ui/keyrequester.cpp:263
+msgid ""
+"The OpenPGP backend does not support listing keys. Check your installation."
+msgstr ""
+"ओपन पीजीपी ब्याकइन्डले सूचीकरण कुञ्जी समर्थन गर्दैन । तपाईँको स्थापना जाँच "
+"गर्नुहोस् ।"
+
+#: ui/keyrequester.cpp:287
+msgid ""
+"The S/MIME backend does not support listing keys. Check your installation."
+msgstr ""
+"S/MIME ब्याकइन्डले सूचीकरण कुञ्जी समर्थन गर्दैन । तपाईँको स्थापना जाँच "
+"गर्नुहोस् ।"
+
+#: ui/keyrequester.cpp:392
+msgid "OpenPGP Key Selection"
+msgstr "ओपन पीजीपी कुञ्जी चयन"
+
+#: ui/keyrequester.cpp:393
+msgid "Please select an OpenPGP key to use."
+msgstr "कृपया ओपन पीजीपी कुञ्जी प्रयोग गर्न चयन गर्नुहोस् ।"
+
+#: ui/keyrequester.cpp:395
+msgid "S/MIME Key Selection"
+msgstr "S/MIME कुञ्जी चयन"
+
+#: ui/keyrequester.cpp:396
+msgid "Please select an S/MIME key to use."
+msgstr "कृपया S/MIME कुञ्जी प्रयोग गर्न चयन गर्नुहोस् ।"
+
+#: ui/keyrequester.cpp:398
+msgid "Key Selection"
+msgstr "कुञ्जी चयन"
+
+#: ui/keyrequester.cpp:399
+msgid "Please select an (OpenPGP or S/MIME) key to use."
+msgstr "कृपया (ओपन पीजीपी वा S/MIME) कुञ्जी प्रयोग गर्न चयन गर्नुहोस् ।"
+
+#: ui/keyselectiondialog.cpp:203
+msgid "Key ID"
+msgstr "कुञ्जीआईडी"
+
+#: ui/keyselectiondialog.cpp:204
+msgid "User ID"
+msgstr "प्रयोगकर्ता आईडी"
+
+#: ui/keyselectiondialog.cpp:248
+msgid "never"
+msgstr "कहिल्यै"
+
+#: ui/keyselectiondialog.cpp:255 ui/keyselectiondialog.cpp:257
+#: ui/keyselectiondialog.cpp:264 ui/keyselectiondialog.cpp:266
+#: ui/keyselectiondialog.cpp:267 backends/qgpgme/qgpgmebackend.cpp:86
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: ui/keyselectiondialog.cpp:251
+#, kde-format
+msgid ""
+"OpenPGP key for %1\n"
+"Created: %2\n"
+"Expiry: %3\n"
+"Fingerprint: %4"
+msgstr ""
+"%1 का लागि ओपन पीजीपी\n"
+"सिर्जना: %2\n"
+"म्याद समाप्त: %3\n"
+"औँठाछाप: %4"
+
+#: ui/keyselectiondialog.cpp:259
+#, kde-format
+msgid ""
+"S/MIME key for %1\n"
+"Created: %2\n"
+"Expiry: %3\n"
+"Fingerprint: %4\n"
+"Issuer: %5"
+msgstr ""
+"%1 का लागि S/MIME कुञ्जी\n"
+"सिर्जना: %2\n"
+"म्याद समाप्त: %3\n"
+"औँठाछाप: %4\n"
+"प्रकाशक: %5"
+
+#: ui/keyselectiondialog.cpp:378
+msgid "&Search for:"
+msgstr "यसका लागि खोजी गर्नुहोस्:"
+
+#: ui/keyselectiondialog.cpp:401
+msgid "&Remember choice"
+msgstr "छनोट सम्झनुहोस्"
+
+#: ui/keyselectiondialog.cpp:404
+msgid ""
+"<qt><p>If you check this box your choice will be stored and you will not be "
+"asked again.</p></qt>"
+msgstr ""
+"<qt><p>यदि तपाईँले चेक गर्नुभएमा तपाईँको छनोट भण्डारण गरिन्छ र फेरि सोधिदैन "
+"।</p></qt>"
+
+#: ui/keyselectiondialog.cpp:420
+msgid "&Reread Keys"
+msgstr "कुञ्जी पुन: पढ्नुहोस्"
+
+#: ui/keyselectiondialog.cpp:421
+msgid "&Start Certificate Manager"
+msgstr ""
+
+#: ui/keyselectiondialog.cpp:522
+msgid "No backends found for listing keys. Check your installation."
+msgstr ""
+"सूचीकरण कुञ्जीका लागि ब्याकइन्ड फेला परेन । तपाईँको स्थापना जाँच गर्नुहोस् ।"
+
+#: ui/keyselectiondialog.cpp:540
+msgid "Could not start certificate manager; please check your installation."
+msgstr ""
+
+#: ui/keyselectiondialog.cpp:542
+msgid "Certificate Manager Error"
+msgstr ""
+
+#: ui/keyselectiondialog.cpp:589
+msgid "Checking selected keys..."
+msgstr "चयन गरेको कुञ्जी जाँच गर्दैछ..."
+
+#: ui/keyselectiondialog.cpp:589
+msgid "Fetching keys..."
+msgstr "कुञ्जी ल्याउदैछ..."
+
+#: ui/keyselectiondialog.cpp:613
+#, kde-format
+msgid ""
+"<qt>One backend returned truncated output.<p>Not all available keys are "
+"shown</p></qt>"
+msgid_plural ""
+"<qt>%1 backends returned truncated output.<p>Not all available keys are "
+"shown</p></qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/keyselectiondialog.cpp:618
+msgid "Key List Result"
+msgstr "कुञ्जी सूची परिणाम"
+
+#: ui/keyselectiondialog.cpp:725
+msgid "Recheck Key"
+msgstr "कुञ्जी पुन: जाँच गर्नुहोस्"
+
+#: ui/messagebox.cpp:66
+msgid "&Save to Disk..."
+msgstr ""
+
+#: ui/messagebox.cpp:70
+msgid "&Copy to Clipboard"
+msgstr ""
+
+#: ui/messagebox.cpp:70
+msgid "Copy Audit Log to Clipboard"
+msgstr ""
+
+#: ui/messagebox.cpp:74
+msgid "&Show Audit Log"
+msgstr ""
+
+#: ui/messagebox.cpp:84
+msgid "View GnuPG Audit Log"
+msgstr ""
+
+#: ui/messagebox.cpp:112 ui/messagebox.cpp:114
+msgid "Choose File to Save GnuPG Audit Log to"
+msgstr ""
+
+#: ui/messagebox.cpp:137
+#, kde-format
+msgid "Could not save to file \"%1\": %2"
+msgstr ""
+
+#: ui/messagebox.cpp:139
+msgid "File Save Error"
+msgstr ""
+
+#: ui/messagebox.cpp:155
+msgid "Your system does not have support for GnuPG Audit Logs"
+msgstr ""
+
+#: ui/messagebox.cpp:156
+msgid "System Error"
+msgstr ""
+
+#: ui/messagebox.cpp:163
+#, kde-format
+msgid ""
+"An error occurred while trying to retrieve the GnuPG Audit Log:\n"
+"%1"
+msgstr ""
+
+#: ui/messagebox.cpp:165
+msgid "GnuPG Audit Log Error"
+msgstr ""
+
+#: ui/messagebox.cpp:172
+msgid "No GnuPG Audit Log available for this operation."
+msgstr ""
+
+#: ui/messagebox.cpp:173
+msgid "No GnuPG Audit Log"
+msgstr ""
+
+#: ui/messagebox.cpp:190 ui/messagebox.cpp:195
+msgid "GnuPG Audit Log Viewer"
+msgstr ""
+
+#: ui/messagebox.cpp:200
+#, kde-format
+msgid "Signing failed: %1"
+msgstr "साइनिङ असफल: %1"
+
+#: ui/messagebox.cpp:201
+msgid "Signing successful"
+msgstr ""
+
+#: ui/messagebox.cpp:210 backends/chiasmus/chiasmusjob.cpp:206
+#, kde-format
+msgid "Encryption failed: %1"
+msgstr "गुप्तिकरण असफल: %1"
+
+#: ui/messagebox.cpp:211
+msgid "Encryption successful"
+msgstr ""
+
+#: ui/messagebox.cpp:228
+msgid "Signing Result"
+msgstr ""
+
+#: ui/messagebox.cpp:238
+msgid "Signing Error"
+msgstr ""
+
+#: ui/messagebox.cpp:248 ui/messagebox.cpp:268
+msgid "Encryption Result"
+msgstr ""
+
+#: ui/messagebox.cpp:258 ui/messagebox.cpp:278
+msgid "Encryption Error"
+msgstr ""
+
+#: ui/progressdialog.cpp:87
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: backends/chiasmus/chiasmusbackend.cpp:264
+msgid "General"
+msgstr "साधारण"
+
+#: backends/chiasmus/chiasmusbackend.cpp:319
+#: backends/chiasmus/chiasmusbackend.cpp:417
+msgid "Chiasmus"
+msgstr "व्यतिक्रम"
+
+#: backends/chiasmus/chiasmusbackend.cpp:364
+msgid "Chiasmus command line tool"
+msgstr "व्यतिक्रम आदेश रेखा उपकरण"
+
+#: backends/chiasmus/chiasmusbackend.cpp:437
+#: backends/chiasmus/chiasmusbackend.cpp:443
+#: backends/chiasmus/chiasmusbackend.cpp:472
+#: backends/qgpgme/qgpgmebackend.cpp:351
+#, kde-format
+msgid "Unsupported protocol \"%1\""
+msgstr "असमर्थित प्रोटोकल \"%1\""
+
+#: backends/chiasmus/chiasmusbackend.cpp:459
+#, kde-format
+msgid "File \"%1\" does not exist or is not executable."
+msgstr "\"%1\" फाइल अवस्थित छैन वा कार्यान्वयन योग्य छैन ।"
+
+#: backends/chiasmus/chiasmusjob.cpp:164
+msgid "Output from chiasmus"
+msgstr "व्यतिक्रमबाट निर्गत"
+
+#: backends/chiasmus/chiasmusjob.cpp:207
+#, kde-format
+msgid "Decryption failed: %1"
+msgstr "गुप्तिकरण उल्टाउन असफल: %1"
+
+#: backends/chiasmus/chiasmusjob.cpp:209
+#, kde-format
+msgid ""
+"The following was received on stderr:\n"
+"%1"
+msgstr ""
+"stderr मा निम्न प्राप्त भयो:\n"
+"%1"
+
+#: backends/chiasmus/chiasmuslibrary.cpp:75
+#: backends/chiasmus/chiasmuslibrary.cpp:84
+#, kde-format
+msgid "Failed to load %1: %2"
+msgstr "%1: %2 लोड गर्न असफल"
+
+#: backends/chiasmus/chiasmuslibrary.cpp:85
+msgid "Library does not contain the symbol \"Chiasmus\"."
+msgstr "लाइब्रेरीले \"व्यतिक्रम\" प्रतिक समावेश गर्दैन ।"
+
+#: backends/chiasmus/obtainkeysjob.cpp:95
+#, kde-format
+msgid "Scanning directory %1..."
+msgstr "%1 डाइरेक्टरी स्क्यानिङ गर्दैछ..."
+
+#: backends/qgpgme/qgpgmebackend.cpp:305
+msgid "GpgME"
+msgstr "GpgME"
+
+#: backends/qgpgme/qgpgmebackend.cpp:325
+#, kde-format
+msgid "GPGME was compiled without support for %1."
+msgstr "GPGME लाई %1 बाहेकको समर्थनका लागि कम्पाइल गरिएको छ ।"
+
+#: backends/qgpgme/qgpgmebackend.cpp:327
+#, kde-format
+msgid "Engine %1 is not installed properly."
+msgstr "%1 इन्जिन राम्रोसँग स्थापना गरेको छैन ।"
+
+#: backends/qgpgme/qgpgmebackend.cpp:329
+#, kde-format
+msgid "Engine %1 version %2 installed, but at least version %3 is required."
+msgstr ""
+"%1 इन्जिन %2 संस्करण स्थापना गरेको छैन, तर कम्तिमा %3 संस्करण आवश्यक पर्दछ ।"
+
+#: backends/qgpgme/qgpgmebackend.cpp:333
+#, kde-format
+msgid "Unknown problem with engine for protocol %1."
+msgstr "%1 प्रोटोकलका लागि इन्जिनसँग अज्ञात समस्या छ ।"
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:111
+msgid "program terminated unexpectedly"
+msgstr ""
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:113
+msgid "program not found or cannot be started"
+msgstr ""
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:116
+#, kde-format
+msgid "<qt>Failed to execute gpgconf:<p>%1</p></qt>"
+msgstr ""
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:366
+msgid ""
+"Could not start gpgconf.\n"
+"Check that gpgconf is in the PATH and that it can be started."
+msgstr ""
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:372
+#, kde-format
+msgid "Error from gpgconf while saving configuration: %1"
+msgstr "कन्फिगरेसन बचत गर्दा gpgconf बाट त्रुटि आयो: %1"
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:50
+msgid "Generating DSA key..."
+msgstr "DSA कुञ्जी उत्पन्न गर्दैछ..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:54
+msgid "Generating ElGamal key..."
+msgstr "ElGamal कुञ्जी उत्पन्न गर्दैछ..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:59
+msgid "Searching for a large prime number..."
+msgstr "ठूलो प्राइम नम्बरको खोजी गर्दैछ..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:63
+msgid ""
+"Waiting for new entropy from random number generator (you might want to "
+"exercise the harddisks or move the mouse)..."
+msgstr ""
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:67
+msgid "Please wait..."
+msgstr "कृपया प्रतिक्षा गर्नुहोस्..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:71
+msgid ""
+"Starting gpg-agent (you should consider starting a global instance "
+"instead)..."
+msgstr ""
+"gpg-अभिकर्ता सुरु गर्दैछ (तपाईँले यसको साटोमा विश्वव्यापी दृष्टान्त सुरु "
+"गर्ने विचार गर्न सक्नुहुन्छ)..."

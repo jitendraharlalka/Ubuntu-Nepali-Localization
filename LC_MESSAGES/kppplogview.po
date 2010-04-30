@@ -1,0 +1,285 @@
+# translation of kppplogview.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Ishwor Sharma <sharmabeeshwar@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kppplogview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-18 05:54+0000\n"
+"PO-Revision-Date: 2009-07-16 09:49+0000\n"
+"Last-Translator: Ishwor Sharma <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:23+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: export.cpp:39
+msgid "CSV"
+msgstr "CSV"
+
+#: export.cpp:40
+msgid ""
+"Export to a text file, using semicolons as separators.<p></p>Can be used for "
+"spreadsheet programs like <i>KSpread</i>."
+msgstr ""
+"अल्पविरामलाई विभाजकको रूपमा प्रयोग गरेर, पाठ फाइलमा निर्यात गर्नुहोस्। "
+"<p></p>स्प्रेडसिट कार्यक्रमका लागि जस्तै <i>के स्प्रेड</i> प्रयोग गर्न "
+"सकिन्छ।"
+
+#: export.cpp:42
+msgid "HTML"
+msgstr "HTML"
+
+#: export.cpp:43
+msgid ""
+"Export to a HTML Page.<p></p>Can be used for easy exchange over the "
+"<i>Internet</i>."
+msgstr ""
+"HTML पृष्ठमा निर्यात गर्नुहोस्।<p></p>सजिलो विनिमयका लागि "
+"<i>इन्टरनेट</i>माथि प्रयोग गर्न सकिन्छ।"
+
+#: export.cpp:56
+msgid "Export Wizard for kPPP Logs"
+msgstr "के पी पी पी लगका लागि विजार्ड निर्यात गर्नुहोस्"
+
+#: export.cpp:65
+msgid "List with possible output formats"
+msgstr "सम्भाव्य निर्गत ढाँचासँगै सूचित गर्नुहोस्"
+
+#: export.cpp:78
+msgid "<qt><b>Please choose the output format on the left side.</b></qt>"
+msgstr "<qt><b>कृपया बायाँपट्टि निर्गत ढाँचा छनोट गर्नुहोस्।</b></qt>"
+
+#: export.cpp:82
+msgid "Selection of Filetype"
+msgstr "फाइल प्रकारको चयन"
+
+#: export.cpp:90
+msgid "Filename:"
+msgstr "फाइलको नाम:"
+
+#: export.cpp:94
+msgid "[No file selected]"
+msgstr "[फाइल चयन गरिएको छैन]"
+
+#: export.cpp:100
+msgid "&Select File..."
+msgstr "फाइल चयन गर्नुहोस्..."
+
+#: export.cpp:102
+msgid "Select the filename of the exported output file"
+msgstr "निर्यात गरिएको निर्गत फाइलको फाइलनाम चयन गर्नुहोस्"
+
+#: export.cpp:107
+msgid "Selection of Filename"
+msgstr "फाइलनामको चयन"
+
+#: export.cpp:125
+msgid "File Format"
+msgstr "फाइल ढाँचा"
+
+#: export.cpp:139
+msgid "Please Choose File"
+msgstr "कृपया फाइल रोज्नुहोस्"
+
+#: export.cpp:223
+#, kde-format
+msgid "Connection log for %1"
+msgstr "%1 का लागि जडान लग"
+
+#: log.cpp:57
+msgid "Loading log files"
+msgstr "लग फाइल लोड गर्दैछ"
+
+#: main.cpp:37
+msgid "KPPP log viewer"
+msgstr "के पी पी पी लग दृश्यकर्ता"
+
+#: main.cpp:49 main.cpp:97
+msgid "KPPP Log Viewer"
+msgstr "के पी पी पी लग दृश्यकर्ता"
+
+#: main.cpp:57
+msgid "Monthly Log"
+msgstr "मासिक लग"
+
+#: main.cpp:69
+msgid "&File"
+msgstr "फाइल"
+
+#: main.cpp:99
+msgid "(c) 1999-2002, The KPPP Developers"
+msgstr "(c) 1999-2002, के पी पी पी विकासकर्ता"
+
+#: main.cpp:100
+msgid "Bernd Wuebben"
+msgstr "बेरन्ड वेब्बेन"
+
+#: main.cpp:101
+msgid "Mario Weilguni"
+msgstr "मारीओ वेलीगूनी"
+
+#: main.cpp:102
+msgid "Harri Porten"
+msgstr "हर्री पोर्टेन"
+
+#: main.cpp:108
+msgid "Run in KPPP mode"
+msgstr "के पी पी पी मोडमा चलाउनुहोस्"
+
+#: monthly.cpp:42 monthly.cpp:58
+#, kde-format
+msgid "%1 KiB"
+msgstr ""
+
+#: monthly.cpp:44 monthly.cpp:60
+#, kde-format
+msgid "%1 MiB"
+msgstr ""
+
+#: monthly.cpp:68 monthly.cpp:92
+#, kde-format, no-c-format
+msgid "%1s"
+msgstr "%1s"
+
+#: monthly.cpp:71 monthly.cpp:95
+#, kde-format, no-c-format
+msgid "%1m %2s"
+msgstr "%1m %2s"
+
+#: monthly.cpp:74 monthly.cpp:98
+#, kde-format, no-c-format
+msgid "%1h %2m %3s"
+msgstr "%1h %2m %3s"
+
+#: monthly.cpp:183 monthly.cpp:209 monthly.cpp:500
+msgid "Connection"
+msgstr "जडान"
+
+#: monthly.cpp:184 monthly.cpp:500
+msgid "Day"
+msgstr "दिन"
+
+#: monthly.cpp:185 monthly.cpp:500
+msgid "From"
+msgstr "बाट"
+
+#: monthly.cpp:186 monthly.cpp:500
+msgid "Until"
+msgstr "सम्म"
+
+#: monthly.cpp:187 monthly.cpp:210 monthly.cpp:501
+msgid "Duration"
+msgstr "अवधि"
+
+#: monthly.cpp:188 monthly.cpp:211 monthly.cpp:501
+msgid "Costs"
+msgstr "खर्च"
+
+#: monthly.cpp:189 monthly.cpp:212 monthly.cpp:501
+msgid "Bytes In"
+msgstr "बाइट बढाउनुहोस्"
+
+#: monthly.cpp:190 monthly.cpp:213 monthly.cpp:501
+msgid "Bytes Out"
+msgstr "बाइट घटाउनुहोस्"
+
+#: monthly.cpp:235
+msgid "All Connections"
+msgstr "सबै जडान"
+
+#: monthly.cpp:240
+msgid "&Prev Month"
+msgstr "अघिल्लो महिना"
+
+#: monthly.cpp:241
+msgid "&Next Month"
+msgstr "पछिल्लो महिना"
+
+#: monthly.cpp:242
+msgid "C&urrent Month"
+msgstr "हालको महिना"
+
+#: monthly.cpp:243
+msgid "&Export..."
+msgstr "निर्यात..."
+
+#: monthly.cpp:268
+msgid "Statistics:"
+msgstr "तथ्याङ्क:"
+
+#: monthly.cpp:342 monthly.cpp:347 monthly.cpp:352 monthly.cpp:374
+#: monthly.cpp:379 monthly.cpp:384 monthly.cpp:409 monthly.cpp:414
+#: monthly.cpp:552 monthly.cpp:557 monthly.cpp:562 monthly.cpp:588
+#: monthly.cpp:593 monthly.cpp:614 monthly.cpp:619 monthly.cpp:624
+#: monthly.cpp:706 monthly.cpp:711 monthly.cpp:716
+msgid "n/a"
+msgstr "n/a"
+
+#: monthly.cpp:395 monthly.cpp:725
+#, kde-format
+msgid "Selection (%1 connection)"
+msgid_plural "Selection (%1 connections)"
+msgstr[0] "चयन (%1 जडान)"
+msgstr[1] "चयन (%1 जडान)"
+
+#: monthly.cpp:399 monthly.cpp:636
+#, kde-format
+msgid "%1 connection"
+msgid_plural "%1 connections"
+msgstr[0] "%1 जडान"
+msgstr[1] "%1 जडान"
+
+#: monthly.cpp:425
+msgid "Monthly estimates"
+msgstr "मासिक अनुमान"
+
+#: monthly.cpp:433
+#, kde-format
+msgid "Connection log for %1 %2"
+msgstr "%1 %2 का लागि लग जडान"
+
+#: monthly.cpp:438
+#, kde-format
+msgid "No connection log for %1 %2 available"
+msgstr "%1 %2 का लागि कुनै जडान लग उपलब्ध छैन"
+
+#: monthly.cpp:482
+msgid "A document with this name already exists."
+msgstr "यो नामको कागजात पहिल्यै अवस्थित छ।"
+
+#: monthly.cpp:482
+msgid "Overwrite file?"
+msgstr "फाइल अधिलेखन गर्नुहुन्छ?"
+
+#: monthly.cpp:494
+msgid "An error occurred while trying to open this file"
+msgstr "यो फाइल खोल्ने प्रयास गर्दा एउटा त्रुटि देखापर्यो"
+
+#: monthly.cpp:494 monthly.cpp:642
+msgid "Sorry"
+msgstr "माफ गर्नुहोस्"
+
+#: monthly.cpp:606
+#, kde-format
+msgid "Monthly estimates (%1)"
+msgstr "मासिक अनुमान (%1)"
+
+#: monthly.cpp:642
+msgid "An error occurred while trying to write to this file."
+msgstr "यो फाइलमा लेख्ने प्रयास गर्दा त्रुटि देखापर्यो ।"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Ishwor Sharma"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,,"

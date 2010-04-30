@@ -1,0 +1,277 @@
+# translation of kcm_krfb.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_krfb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-18 05:54+0000\n"
+"PO-Revision-Date: 2010-04-16 11:18+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:50+0000\n"
+
+#: kcm_krfb.cpp:60
+msgid "Desktop Sharing Control Module"
+msgstr "डेस्कटप साझेदारी नियन्त्रण मोड्युल"
+
+#: kcm_krfb.cpp:62
+msgid "Configure desktop sharing"
+msgstr "Configure desktop sharing"
+
+#: kcm_krfb.cpp:63
+msgid "(c) 2002, Tim Jansen\n"
+msgstr "(c) २००२, टिम जानसेन (Tim Jansen)\n"
+
+#: kcm_krfb.cpp:65
+msgid "Tim Jansen"
+msgstr "टिम जानसेन (Tim Jansen)"
+
+#: kcm_krfb.cpp:91
+msgid "You have no open invitation."
+msgstr "तपाईँसँग खुल्ला निमन्त्रणा छैन ।"
+
+#: kcm_krfb.cpp:93
+#, kde-format
+msgid "Open invitations: %1"
+msgstr "निमन्त्रणा खोल्नुहोस्: %1"
+
+#: kcm_krfb.cpp:162
+msgid ""
+"<h1>Desktop Sharing</h1> This module allows you to configure the KDE desktop "
+"sharing."
+msgstr ""
+"<h1>डेस्कटप साझेदारी</h1> यो मोड्युलले तपाईँलाई केडीई डेस्कटप साझेदारी "
+"कन्फिगर गर्न अनुमति दिन्छ ।"
+
+#. i18n: file: configurationwidget.ui:37
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:3
+msgid "Acc&ess"
+msgstr "पहुँच"
+
+#. i18n: file: configurationwidget.ui:54
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:6
+msgid "Invitations"
+msgstr "निमन्त्रणा"
+
+#. i18n: file: configurationwidget.ui:74
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:9
+msgid "You have no open invitations."
+msgstr "तपाईँसँग खुल्ला निमन्त्रणा छैन ।"
+
+#. i18n: file: configurationwidget.ui:90
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:12
+msgid "Create && &Manage Invitations..."
+msgstr "निमन्त्रणा सिर्जना र प्रबन्ध गर्नुहोस्..."
+
+#. i18n: file: configurationwidget.ui:93
+#. i18n: ectx: property (whatsThis), widget (QPushButton)
+#: rc.cpp:15
+msgid "Click to view or delete the open invitations."
+msgstr "खुल्ला निमन्त्रणा हेर्न वा मेट्न क्लिक गर्नुहोस् ।"
+
+#. i18n: file: configurationwidget.ui:111
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:18
+msgid "Uninvited Connections"
+msgstr "निमन्त्रणा नगरिएको जडान"
+
+#. i18n: file: configurationwidget.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:21
+msgid "Allow &uninvited connections"
+msgstr "निमन्त्रणा नगरिएको जडान अनुमति दिनुहोस्"
+
+#. i18n: file: configurationwidget.ui:134
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:24
+msgid ""
+"Select this option to allow connecting without inviting. This is useful if "
+"you want to access your desktop remotely."
+msgstr ""
+"निमन्त्रणा बिना जडान अनुमति दिन यो विकल्प चयन गर्नुहोस् । यदि तपाईँले "
+"तपाईँको डेस्कटप टाढैबाट पहुँच गर्न चाहनुभयो भने यो उपयोगी हुन्छ ।"
+
+#. i18n: file: configurationwidget.ui:142
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:27
+msgid "Announce service &on the network"
+msgstr "सञ्जालमा सेवा घोषणा गर्नुहोस्"
+
+#. i18n: file: configurationwidget.ui:148
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:30
+msgid ""
+"If you allow uninvited connections and enable this option, Desktop Sharing "
+"will announce the service and your identity on the local network, so people "
+"can find you and your computer."
+msgstr ""
+"यदि तपाईँले निमन्त्रणा नगरिएको जडान अनुमति दिनुभयो र यो विकल्प सक्षम "
+"पार्नुभयो भने, डेस्कटप साझेदारीले स्थानीय सञ्जालमा सेवा र तपाईँको परिचय "
+"जानकारी गराउँनेछ, जसले गर्दा मानिसले तपाईँ र तपाईँको कम्प्युटरलाई फेला पार्न "
+"सक्छन् ।"
+
+#. i18n: file: configurationwidget.ui:156
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:33
+msgid "Confirm uninvited connections &before accepting"
+msgstr "स्वीकार गर्नु अघि निमन्त्रणा नगरिएको जडान यकीन गर्नुहोस्"
+
+#. i18n: file: configurationwidget.ui:159
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:36
+msgid ""
+"If enabled, a dialog will appear when somebody attempts to connect, asking "
+"you whether you want to accept the connection."
+msgstr ""
+"यदि सक्षम पारियो भने, यदि कसैले जडान गर्ने प्रयास गर्यो भने संवाद देखिनेछ, "
+"तपाईँलाई जडान स्वीकार गर्नुहुन्छ कि हुन्न भनेर सोध्नेछ ।"
+
+#. i18n: file: configurationwidget.ui:167
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:39
+msgid "A&llow uninvited connections to control the desktop"
+msgstr "डेस्कटप नियन्त्रण गर्न निमन्त्रणा नगरिएको जडान अनुमति दिनुहोस्"
+
+#. i18n: file: configurationwidget.ui:170
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:42
+msgid ""
+"Enable this option to allow uninvited user to control your desktop (using "
+"mouse and keyboard)."
+msgstr ""
+"(माउस र कुञ्जीपाटी प्रयोग गरेर) तपाईँको डेस्कटप नियन्त्रण गर्न निमन्त्रणा "
+"नगरिएको प्रयोगकर्ता अनुमति दिन यो विकल्प सक्षम पार्नुहोस् ।"
+
+#. i18n: file: configurationwidget.ui:216
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:45
+msgid "Pass&word:"
+msgstr "पासवर्ड:"
+
+#. i18n: file: configurationwidget.ui:233
+#. i18n: ectx: property (whatsThis), widget (QLineEdit)
+#: rc.cpp:48
+msgid ""
+"If you allow uninvited connections, it is highly recommended to set a "
+"password in order to protect your computer from unauthorized access."
+msgstr ""
+"यदि तपाईँले निमन्त्रणा नगरिएको जडानलाई अनुमति दिनुभयो भने, आधिकीकरण प्राप्त "
+"नभएको पहुँचबाट तपाईँको कम्प्युटर सुरक्षित राख्न पासवर्ड सेट गर्न जोरदार "
+"सिफारिस गरिन्छ ।"
+
+#. i18n: file: configurationwidget.ui:264
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:51
+msgid "&Session"
+msgstr "सत्र"
+
+#. i18n: file: configurationwidget.ui:281
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:54
+msgid "Session Preferences"
+msgstr "सत्र प्राथमिकता"
+
+#. i18n: file: configurationwidget.ui:298
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:57
+msgid "Always disable &background image"
+msgstr "सधै पृष्ठभूमि छवि अक्षम पार्नुहोस्"
+
+#. i18n: file: configurationwidget.ui:304
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:60
+msgid ""
+"Check this option to always disable the background image during a remote "
+"session. Otherwise the client decides whether the background will be enabled "
+"or disabled."
+msgstr ""
+"टाढाको सत्र हुँदा पृष्ठभूमि छवि सधै अक्षम पार्न यो विकल्प चिनो गर्नुहोस् । "
+"अन्यथा क्लाइन्टले पृष्ठभूमि सक्षम पार्ने कि अक्षम पार्ने भन्ने निर्णय गर्दछ ।"
+
+#. i18n: file: configurationwidget.ui:333
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:63
+msgid "&Network"
+msgstr "सञ्जाल"
+
+#. i18n: file: configurationwidget.ui:350
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:66
+msgid "Network Port"
+msgstr "सञ्जाल पोर्ट"
+
+#. i18n: file: configurationwidget.ui:367
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:69
+msgid "Assi&gn port automatically"
+msgstr "स्वचालित रूपमा पोर्ट मानाङ्कन गर्नुहोस्"
+
+#. i18n: file: configurationwidget.ui:373
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:72
+msgid ""
+"Check this option to assign the network port automatically. This is "
+"recommended unless your network setup requires you to use a fixed port, for "
+"example because of a firewall."
+msgstr ""
+"सञ्जाल पोर्ट स्वचालित रूपमा मानाङ्कन गर्न यो विकल्प चिनो गर्नुहोस् । तपाईँको "
+"सञ्जाल सेटअपले स्थिर पोर्ट प्रयोग गर्न आवश्यक ठाने पनि यो सिफारिस गरिएको छ, "
+"उदाहरणका लागि फायरवालको कारण ।"
+
+#. i18n: file: configurationwidget.ui:404
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:75
+msgid "P&ort:"
+msgstr "पोर्ट:"
+
+#. i18n: file: configurationwidget.ui:424
+#. i18n: ectx: property (toolTip), widget (KIntNumInput)
+#: rc.cpp:78
+msgid "Enter the TCP port number here"
+msgstr "यहाँ टीसीपी पोर्ट नम्बर प्रविष्ट गर्नुहोस्"
+
+#. i18n: file: configurationwidget.ui:428
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput)
+#: rc.cpp:81
+msgid ""
+"Use this field to set a static port number for the desktop sharing service. "
+"Note that if the port is already in use the Desktop Sharing service will not "
+"be accessible until you free it. It is recommended to assign the port "
+"automatically unless you know what you are doing.\n"
+"Most VNC clients use a display number instead of the actual port. This "
+"display number is the offset to port 5900, so port 5901 has the display "
+"number 1."
+msgstr ""
+"डेस्कटप साझेदार सेवाका लागि स्थिर पोर्ट नम्बर सेट गर्न यो फाँट प्रयोग "
+"गर्नुहोस् । याद गर्नुहोस् कि यदि पोर्ट पहिले नै डेस्कटप साझेदारी सेवामा "
+"प्रयोग गरिएको छ भने त्यसलाई नहटाएसम्म पहुँचयोग्य हुने छैन । तपाईँलाई आफु के "
+"गरिरहेको छ भन्ने थाहा नभए स्वचालित रूपमा पोर्ट मानाङ्कन गर्न सिफारिस गरिन्छ "
+"।\n"
+"धेरैजसो भीएनसी क्लाइन्टले वास्तविक पोर्टको सट्टा प्रदर्शन नम्बर प्रयोग गर्दछ "
+"। यो प्रदर्शन सङ्ख्या पोर्ट ५९०० सम्म अफसेट गरिएको छ, त्यसैले पोर्ट ५९०१ सँग "
+"प्रदर्शन सङ्ख्या १ छ ।"
+
+#: rc.cpp:83
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, जितेन्द्र हरलालका ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:84
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"Shyam krishna bal<shyamkrishna_bal@yahoo.com>, Jitendra "
+"Harlalka<jitendra@otrc.gov.np>,,"

@@ -1,0 +1,247 @@
+# English translations for l package.
+# Copyright (C) 2007 This_file_is_part_of_KDE
+# This file is distributed under the same license as the l package.
+# Automatically generated, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n-kde4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:58+0000\n"
+"Last-Translator: Jonathan Riddell <jriddell@ubuntu.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:37+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: clock.cpp:216
+msgid "Appearance"
+msgstr ""
+
+#: clock.cpp:373
+#, kde-format
+msgctxt ""
+"@label Short date: %1 day in the month, %2 short month name, %3 year"
+msgid "%1 %2 %3"
+msgstr ""
+
+#: clock.cpp:377
+#, kde-format
+msgctxt "@label Short date: %1 day in the month, %2 short month name"
+msgid "%1 %2"
+msgstr ""
+
+#: clock.cpp:385
+#, kde-format
+msgctxt "@label Day of the week with date: %1 short day name, %2 short date"
+msgid "%1, %2"
+msgstr ""
+
+#: clock.cpp:392
+#, kde-format
+msgctxt ""
+"@label Date with currentTimezone: %1 day of the week with date, %2 "
+"currentTimezone"
+msgid "%1 %2"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3 rc.cpp:99
+msgid "Font style:"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:49
+#. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontBold)
+#: rc.cpp:6 rc.cpp:102
+msgid "Check if you want the font in bold"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:52
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontBold)
+#: rc.cpp:9 rc.cpp:105
+msgid "When this is checked, the clock font will be bold."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, plainClockFontBold)
+#: rc.cpp:12 rc.cpp:108
+msgid "&Bold"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:62
+#. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontItalic)
+#: rc.cpp:15 rc.cpp:111
+msgid "Check if you want the font in italic"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:65
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontItalic)
+#: rc.cpp:18 rc.cpp:114
+msgid "When this is checked, the clock font will be in italic."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, plainClockFontItalic)
+#: rc.cpp:21 rc.cpp:117
+msgid "&Italic"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:91
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:24 rc.cpp:120
+msgid "Font color:"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:110
+#. i18n: ectx: property (toolTip), widget (QRadioButton, useThemeColor)
+#: rc.cpp:27 rc.cpp:123
+msgid "Use current desktop theme color"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:113
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useThemeColor)
+#: rc.cpp:30 rc.cpp:126
+msgid ""
+"This is default. The clock will get its font color from the current desktop "
+"theme."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:116
+#. i18n: ectx: property (text), widget (QRadioButton, useThemeColor)
+#: rc.cpp:33 rc.cpp:129
+msgid "Use theme color"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:134
+#. i18n: ectx: property (toolTip), widget (QRadioButton, useCustomColor)
+#: rc.cpp:36 rc.cpp:132
+msgid "Choose your own font color"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:137
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useCustomColor)
+#: rc.cpp:39 rc.cpp:135
+msgid ""
+"When checked you can choose a custom color for the clock font by clicking on "
+"the color widget on the right."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:140
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomColor)
+#: rc.cpp:42 rc.cpp:138
+msgid "Use custom color:"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:150
+#. i18n: ectx: property (toolTip), widget (KColorButton, plainClockColor)
+#: rc.cpp:45 rc.cpp:141
+msgid "Color chooser"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:153
+#. i18n: ectx: property (whatsThis), widget (KColorButton, plainClockColor)
+#: rc.cpp:48 rc.cpp:144
+msgid ""
+"Click on this button and the KDE standard color dialog will show. You can "
+"then choose the new color you want for your clock."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:177
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showDate)
+#: rc.cpp:51 rc.cpp:147
+msgid "Display the date of the day"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:226
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showDay)
+#: rc.cpp:54 rc.cpp:150
+msgid "Display day of the week"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:229
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showDay)
+#: rc.cpp:57 rc.cpp:153
+msgid "Add the day of the week to the date display."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:232
+#. i18n: ectx: property (text), widget (QCheckBox, showDay)
+#: rc.cpp:60 rc.cpp:156
+msgid "Show day of the &week"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:258
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showYear)
+#: rc.cpp:63 rc.cpp:159
+msgid "Display the current year"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:261
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showYear)
+#: rc.cpp:66 rc.cpp:162
+msgid "Add the year to the date string."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:264
+#. i18n: ectx: property (text), widget (QCheckBox, showYear)
+#: rc.cpp:69 rc.cpp:165
+msgid "Show &year"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:291
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showTimeZone)
+#: rc.cpp:72 rc.cpp:168
+msgid "Display the time zone name"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:294
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showTimeZone)
+#: rc.cpp:75 rc.cpp:171
+msgid "Display the time zone name under the time."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:321
+#. i18n: ectx: property (toolTip), widget (QCheckBox, secondsCheckbox)
+#: rc.cpp:78 rc.cpp:174
+msgid "Show the seconds"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:324
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, secondsCheckbox)
+#: rc.cpp:81 rc.cpp:177
+msgid "Check this if you want to show the seconds."
+msgstr ""
+
+#. i18n: file: clockConfig.ui:368
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:84 rc.cpp:180
+msgid "Font"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:381
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:87 rc.cpp:183
+msgid "Information"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:404
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:90 rc.cpp:186
+msgid "Show time zone:"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:417
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:93 rc.cpp:189
+msgid "Show seconds:"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:430
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:96 rc.cpp:192
+msgid "Show date:"
+msgstr ""

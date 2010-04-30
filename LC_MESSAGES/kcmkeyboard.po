@@ -1,0 +1,150 @@
+# translation of kcmkeyboard.po to Nepali
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2008-10-07 15:39+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:15+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. i18n: file: kcmmiscwidget.ui:17
+#. i18n: ectx: property (whatsThis), widget (KButtonGroup, numlockGroup)
+#: rc.cpp:3 rc.cpp:52
+msgid ""
+"If supported, this option allows you to setup the state of NumLock after KDE "
+"startup.<p>You can configure NumLock to be turned on or off, or configure "
+"KDE not to set NumLock state."
+msgstr ""
+
+#. i18n: file: kcmmiscwidget.ui:20
+#. i18n: ectx: property (title), widget (KButtonGroup, numlockGroup)
+#: rc.cpp:6 rc.cpp:55
+msgid "NumLock on KDE Startup"
+msgstr "केडीई सुरुआतमा नमलक"
+
+#. i18n: file: kcmmiscwidget.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#: rc.cpp:9 rc.cpp:58
+msgid "T&urn on"
+msgstr "खोल्नुहोस्"
+
+#. i18n: file: kcmmiscwidget.ui:33
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_2)
+#: rc.cpp:12 rc.cpp:61
+msgid "Turn o&ff"
+msgstr "बन्द गर्नुहोस्"
+
+#. i18n: file: kcmmiscwidget.ui:40
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_3)
+#: rc.cpp:15 rc.cpp:64
+msgid "Leave unchan&ged"
+msgstr "अपरिवर्तित छोड्नुहोस्"
+
+#. i18n: file: kcmmiscwidget.ui:50
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:18 rc.cpp:67
+msgid "Keyboard Repeat"
+msgstr "कुञ्जीपाटी दोहोर्याउनुहोस्"
+
+#. i18n: file: kcmmiscwidget.ui:56
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, repeatBox)
+#: rc.cpp:21 rc.cpp:70
+msgid ""
+"If you check this option, pressing and holding down a key emits the same "
+"character over and over again. For example, pressing and holding down the "
+"Tab key will have the same effect as that of pressing that key several times "
+"in succession: Tab characters continue to be emitted until you release the "
+"key."
+msgstr ""
+"यदि तपाईँले यो विकल्प जाँच गर्नुभयो भने, कुञ्जी थिच्दा वा समात्दा एउटै "
+"क्यारेक्टर माथि दोहोर्याइ तेहर्याइ छोड्दछ । उदाहरणका लागि, ट्याब कुञ्जी "
+"थिच्दा वा समात्दा उही प्रभाव पर्नेछ जुन सो कुञ्जी विभिन्न पटक थिच्दा "
+"अनुक्रममा हुन्छ । तपाईँले कुञ्जी नछोडे सम्म ट्याब क्यारेक्टरले निकालिन जारी "
+"राख्दछ ।"
+
+#. i18n: file: kcmmiscwidget.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, repeatBox)
+#: rc.cpp:24 rc.cpp:73
+msgid "&Enable keyboard repeat"
+msgstr "कुञ्जीपाटी दोहोर्याइ सक्षम पार्नुहोस्"
+
+#. i18n: file: kcmmiscwidget.ui:75
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: rc.cpp:27 rc.cpp:76
+msgid "&Delay:"
+msgstr "विलम्ब:"
+
+#. i18n: file: kcmmiscwidget.ui:85
+#. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
+#. i18n: file: kcmmiscwidget.ui:113
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, delay)
+#. i18n: file: kcmmiscwidget.ui:85
+#. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
+#. i18n: file: kcmmiscwidget.ui:113
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, delay)
+#: rc.cpp:30 rc.cpp:33 rc.cpp:79 rc.cpp:82
+msgid ""
+"If supported, this option allows you to set the delay after which a pressed "
+"key will start generating keycodes. The 'Repeat rate' option controls the "
+"frequency of these keycodes."
+msgstr ""
+"यदि समर्थित छ भने, यो विकल्पले तपाईँलाई थिचिएको कुञ्जीले कुञ्जी कोडहरू "
+"सिर्जना गर्न सुरु गरेपछि विलम्ब सेट गर्न अनुमति दिन्छ । 'दोहोर्याइ दर' "
+"विकल्पले यी कुञ्जी कोडहरूको सोपानुक्रम नियन्त्रेण गर्दछ ।"
+
+#. i18n: file: kcmmiscwidget.ui:126
+#. i18n: ectx: property (text), widget (QLabel, lblRate)
+#: rc.cpp:36 rc.cpp:85
+msgid "&Rate:"
+msgstr "दर:"
+
+#. i18n: file: kcmmiscwidget.ui:136
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#. i18n: file: kcmmiscwidget.ui:164
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, rate)
+#. i18n: file: kcmmiscwidget.ui:136
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#. i18n: file: kcmmiscwidget.ui:164
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, rate)
+#: rc.cpp:39 rc.cpp:42 rc.cpp:88 rc.cpp:91
+msgid ""
+"If supported, this option allows you to set the rate at which keycodes are "
+"generated while a key is pressed."
+msgstr ""
+"यदि समर्थित छ भने, यो विकल्पले तपाईँलाई कुञ्जी थिच्दा कुञ्जी कोडहरू सिर्जना "
+"भएको दर सेट गर्न अनुमति दिन्छ ।"
+
+#. i18n: file: kcmmiscwidget.ui:176
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1)
+#: rc.cpp:46 rc.cpp:95
+#, no-c-format
+msgid ""
+"If supported, this option allows you to hear audible clicks from your "
+"computer's speakers when you press the keys on your keyboard. This might be "
+"useful if your keyboard does not have mechanical keys, or if the sound that "
+"the keys make is very soft.<p>You can change the loudness of the key click "
+"feedback by dragging the slider button or by clicking the up/down arrows on "
+"the spin box. Setting the volume to 0% turns off the key click."
+msgstr ""
+"यदि समर्थित छ भने, यो विकल्पले तपाईँलाई आफ्नो कुञ्जीपाटीमा कुञ्जीहरू थिच्दा "
+"तपाईँको कम्प्युटरको स्पिकरबाट श्रब्य क्लिकहरू सुन्न अनुमति दिन्छ । यदि "
+"तपाईँको कुञ्जीपाटीसँग यांत्रिक कुञ्जीहरू छन् भने, वा यदि ध्वनिलाई कुञ्जीले "
+"धेरै नरम बनाएको छ भने यो उपयोगी हुन सक्छ ।<p> तपाईँ स्लाइडर बटन तानेर कुञ्जी "
+"वा स्पिन बाकसमा माथिल्लो/तल्लो बाँण क्लिक गरेर कुञ्जी क्लिक पृष्ठपोषणको उच्च "
+"आवाज परिवर्तन गर्न सक्नुहुन्छ । 0% मा भोल्युम सेट गर्नाले कुञ्जी क्लिक बन्द "
+"हुन्छ ।"
+
+#. i18n: file: kcmmiscwidget.ui:179
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:49 rc.cpp:98
+msgid "Key click &volume:"
+msgstr "कुञ्जी क्लिक भोल्युम:"

@@ -1,0 +1,105 @@
+# translation of kappfinder.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kappfinder\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2008-10-07 16:27+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: main.cpp:27
+msgid "KDE's application finder"
+msgstr "केडीई अनुप्रयोग प्रापक"
+
+#: main.cpp:31 toplevel.cpp:50
+msgid "KAppfinder"
+msgstr "केडीई अनुप्रयोग प्रापक"
+
+#: main.cpp:33
+msgid "(c) 1998-2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 1998-2000, माथियस होयलजर-क्ल्युपफेल"
+
+#: main.cpp:34
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "माथियस होयलजर-क्ल्युपफेल"
+
+#: main.cpp:35
+msgid "Tobias Koenig"
+msgstr "टोबियस कोइनिग"
+
+#: main.cpp:40
+msgid "Install .desktop files into directory <dir>"
+msgstr ".desktop फाइल डाइरेक्टरीमा स्थापना गर्नुहोस् ।<dir>"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np shyamkrishna_bal@yahoo.com,,,"
+
+#: toplevel.cpp:58
+msgid ""
+"The application finder looks for non-KDE applications on your system and "
+"adds them to the KDE menu system. Click 'Scan' to begin, select the desired "
+"applications and then click 'Apply'."
+msgstr ""
+"अनुप्रयोग प्रापकले तपाईँको प्रणालीमा KDE बाहेकका अनुप्रयोग खोज्दछ र "
+"तीनिहरूलाई KDE मेनु प्रणालीमा थप्दछ । सुरु गर्न 'स्क्यान' क्लिक गर्नुहोस्, "
+"अपेक्षित अनुप्रयोगहरू चयन गर्नुहोस् र त्यसपछि 'लागू गर्नुहोस्' क्लिक "
+"गर्नुहोस् ।"
+
+#: toplevel.cpp:67
+msgid "Application"
+msgstr "अनुप्रयोग"
+
+#: toplevel.cpp:67
+msgid "Description"
+msgstr "वर्णन"
+
+#: toplevel.cpp:67
+msgid "Command"
+msgstr "आदेश"
+
+#: toplevel.cpp:77
+msgid "Summary:"
+msgstr "सारांश:"
+
+#: toplevel.cpp:79
+msgid "Scan"
+msgstr "स्क्यान गर्नुहोस्"
+
+#: toplevel.cpp:80
+msgid "Select All"
+msgstr "सबै चयन गर्नुहोस्"
+
+#: toplevel.cpp:81
+msgid "Unselect All"
+msgstr "सबै चयन हटाउनुहोस्"
+
+#: toplevel.cpp:238
+#, kde-format
+msgid "Summary: %1 application found"
+msgid_plural "Summary: %1 applications found"
+msgstr[0] "सारांश: %1 अनुप्रयोग फेला पारियो"
+msgstr[1] "सारांश: %1 अनुप्रयोग फेला पारियो"
+
+#: toplevel.cpp:281
+#, kde-format
+msgid "%1 application was added to the KDE menu system."
+msgid_plural "%1 applications were added to the KDE menu system."
+msgstr[0] "%1 अनुप्रयोग केडीई मेनु प्रणालीमा थपिएको थियो ।"
+msgstr[1] "%1 अनुप्रयोगहरू केडीई मेनु प्रणालीमा थपिएको थियो ।"

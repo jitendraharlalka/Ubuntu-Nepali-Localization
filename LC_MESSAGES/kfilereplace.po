@@ -1,0 +1,1295 @@
+# Nepali translation for kdewebdev
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdewebdev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdewebdev\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-10 19:08+0000\n"
+"PO-Revision-Date: 2010-04-25 13:03+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:38+0000\n"
+
+#: configurationclasses.cpp:168
+#, kde-format
+msgid " Line:%3,Col:%4 - \"%1\" -> \"%2\""
+msgstr " लाइन:%3,स्तम्भ:%4 - \"%1\" -> \"%2\""
+
+#: kfilereplace.cpp:51
+msgid "Could not load the KFileReplace part."
+msgstr ""
+
+#: kfilereplace.cpp:58
+msgid "Could not find the KFileReplace part."
+msgstr "केडीई फाइल बदल्ने भाग फेला पार्न सकेन ।"
+
+#: kfilereplacelib.cpp:100
+#, kde-format
+msgid "1 byte"
+msgid_plural "%1 bytes"
+msgstr[0] "१ बाइट"
+msgstr[1] "%1 बाइट"
+
+#: kfilereplacelib.cpp:106
+#, kde-format
+msgid "%1 KB"
+msgstr "%1 किलो बाइट"
+
+#: kfilereplacelib.cpp:112
+#, kde-format
+msgid "%1 MB"
+msgstr "%1 मेगा बाइट"
+
+#: kfilereplacelib.cpp:118
+#, kde-format
+msgid "%1 GB"
+msgstr "%1 गेगा बाइट"
+
+#: kfilereplacelib.cpp:141
+#, kde-format
+msgid ""
+"<qt>Cannot open the file <b>%1</b> and load the string list. This file seems "
+"not to be a valid old kfr file or it is broken.</qt>"
+msgstr ""
+"<qt>फाइल <b>%1</b> खोल्न सकिदैन र स्ट्रिङ सूची लोड गर्दछ । यो वैध पुरानो kfr "
+"फाइल नभएको वा बिग्रेको देखिन्छ ।</qt>"
+
+#: kfilereplacelib.cpp:159 kfilereplacelib.cpp:173 kfilereplacelib.cpp:179
+msgid "Cannot read data."
+msgstr "डेटा पढ्न सकिदैन ।"
+
+#: kfilereplacelib.cpp:166
+msgid "Out of memory."
+msgstr "स्मृति भन्दा बाहिर ।"
+
+#: kfilereplacepart.cpp:110
+msgid "Ready."
+msgstr "तयार"
+
+#: kfilereplacepart.cpp:159
+msgid "Search completed."
+msgstr "खोजी समाप्त"
+
+#: kfilereplacepart.cpp:172
+#, kde-format
+msgid ""
+"<qt>You have selected <b>%1</b> as the encoding of the files.<br />Selecting "
+"the correct encoding is very important as if you have files that have some "
+"other encoding than the selected one, after a replace you may damage those "
+"files.<br /><br />In case you do not know the encoding of your files, select "
+"<i>utf8</i> and <b>enable</b> the creation of backup files. This setting "
+"will autodetect <i>utf8</i> and <i>utf16</i> files, but the changed files "
+"will be converted to <i>utf8</i>.</qt>"
+msgstr ""
+
+#: kfilereplacepart.cpp:172
+msgid "File Encoding Warning"
+msgstr "फाइल सङ्केतन गर्दा चेतावनी"
+
+#: kfilereplacepart.cpp:181
+msgid "Replacing files (simulation)..."
+msgstr "फाइल (सिमुलेसन) बदल्दैछ..."
+
+#: kfilereplacepart.cpp:182
+msgid "Replaced strings (simulation)"
+msgstr "बदलिएका स्ट्रिङ (सिमुलेसन)"
+
+#: kfilereplacepart.cpp:186
+msgid "Replacing files..."
+msgstr "फाइलहरू बदल्दैछ..."
+
+#: kfilereplacepart.cpp:187
+msgid "Replaced strings"
+msgstr "बदलिएका स्ट्रिङ"
+
+#: kfilereplacepart.cpp:241
+msgid "Stopping..."
+msgstr "बन्द गर्दैछ..."
+
+#: kfilereplacepart.cpp:255
+msgid "There are no results to save: the result list is empty."
+msgstr "त्याहाँ बचत गर्नका लागि परिणाम छैनन्: परिणाम सूची खाली छ ।"
+
+#: kfilereplacepart.cpp:259
+msgid "Files"
+msgstr "फाइल"
+
+#: kfilereplacepart.cpp:259
+msgid "Save Report"
+msgstr "प्रतिवेदन बचत गर्नुहोस्"
+
+#: kfilereplacepart.cpp:269
+#, kde-format
+msgid "<qt>A folder or a file named <b>%1</b> already exists.</qt>"
+msgstr ""
+"<qt>एउटा <b>%1</b> नाम गरिएको फाइल वा फोल्डर पहिले नै अवस्थित छ ।</qt>"
+
+#: kfilereplacepart.cpp:277
+#, kde-format
+msgid "<qt>Cannot create the <b>%1</b> folder.</qt>"
+msgstr "<qt>फोल्डर <b>%1</b> सिर्जना गर्न सकिदैन ।</qt>"
+
+#: kfilereplacepart.cpp:356
+msgid "KFileReplace strings"
+msgstr "बदलिने केडीई फाइल स्ट्रिङ"
+
+#: kfilereplacepart.cpp:356 kfilereplaceview.cpp:435
+msgid "All Files"
+msgstr "सबै फाइल"
+
+#: kfilereplacepart.cpp:357
+msgid "Load Strings From File"
+msgstr "फाइलबाट स्ट्रिङ लोड गर्नुहोस्"
+
+#: kfilereplacepart.cpp:390
+msgid "Cannot open folders."
+msgstr "फोल्डरहरू खोल्न सकिदैन ।"
+
+#: kfilereplacepart.cpp:523
+msgid "KFileReplacePart"
+msgstr "बदलिने केडीई फाइल भाग"
+
+#: kfilereplacepart.cpp:525
+msgid "Batch search and replace tool."
+msgstr "समूह खोजी गर्नुहोस् र उपकरण बदल्नुहोस् ।"
+
+#: kfilereplacepart.cpp:527
+msgid ""
+"(C) 1999-2002 Fran�is Dupoux\n"
+"(C) 2003-2004 Andras Mantia\n"
+"(C) 2004 Emiliano Gulmini"
+msgstr ""
+
+#: kfilereplacepart.cpp:527 main.cpp:32
+msgid "Part of the KDEWebDev module."
+msgstr "केडीई वेब डेभ मोड्युलको भाग ।"
+
+#: kfilereplacepart.cpp:528
+msgid "Fran�is Dupoux"
+msgstr ""
+
+#: kfilereplacepart.cpp:529 main.cpp:38
+msgid "Original author of the KFileReplace tool"
+msgstr "केडीई फाइल बदल्ने उपकरणको मौलिक लेखक"
+
+#: kfilereplacepart.cpp:531 main.cpp:36
+msgid "Emiliano Gulmini"
+msgstr "एमिलियानो गुलमिनी (Emiliano Gulmini)"
+
+#: kfilereplacepart.cpp:532 main.cpp:36
+msgid "Current maintainer, code cleaner and rewriter"
+msgstr "हालको सम्भारकर्ता, कोड क्लिनर र पुन: लेखनकर्ता"
+
+#: kfilereplacepart.cpp:534 main.cpp:35
+msgid "Andras Mantia"
+msgstr "एनड्रास मेनटिया (Andras Mantia)"
+
+#: kfilereplacepart.cpp:535
+msgid "Co-maintainer, KPart creator"
+msgstr "सह-सम्भारकर्ता, केडीई भाग सर्जक"
+
+#: kfilereplacepart.cpp:537
+msgid "Heiko Goller"
+msgstr "हेइको गोलर (Heiko Goller)"
+
+#: kfilereplacepart.cpp:538
+msgid "Original german translator"
+msgstr "मौलिक जर्मनी अनुवादक"
+
+#: kfilereplacepart.cpp:548
+msgid "Sorry, currently the KFileReplace part works only for local files."
+msgstr ""
+"माफ गर्नुहोस्, हाल केडीई फाइल बदल्ने भागले स्थानीय फाइलहरूमा मात्र कार्य "
+"गर्दछ ।"
+
+#: kfilereplacepart.cpp:548
+msgid "Non Local File"
+msgstr "स्थानीय फाइल बाहेक"
+
+#: kfilereplacepart.cpp:582
+msgid "Customize Search/Replace Session..."
+msgstr "खोजी/बदल्ने सत्र अनुकूलन गर्नुहोस्..."
+
+#: kfilereplacepart.cpp:585
+msgid "&Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: kfilereplacepart.cpp:588
+msgid "S&imulate"
+msgstr "नक्कल गर्नुहोस्"
+
+#: kfilereplacepart.cpp:591
+msgid "&Replace"
+msgstr "बदल्नुहोस्"
+
+#: kfilereplacepart.cpp:594
+msgid "Sto&p"
+msgstr "रोक्नुहोस्"
+
+#: kfilereplacepart.cpp:597
+msgid "Cre&ate Report File..."
+msgstr "प्रतिवेदन फाइल सिर्जना गर्नुहोस्..."
+
+#: kfilereplacepart.cpp:602
+msgid "&Add String..."
+msgstr "स्ट्रिङ थप्नुहोस्..."
+
+#: kfilereplacepart.cpp:606
+msgid "&Delete String"
+msgstr "स्ट्रिङ मेट्नुहोस्"
+
+#: kfilereplacepart.cpp:609
+msgid "&Empty Strings List"
+msgstr "खाली स्ट्रिङको सूची"
+
+#: kfilereplacepart.cpp:612
+msgid "Edit Selected String..."
+msgstr "चयन गरिएका स्ट्रिङ सम्पादन गर्नुहोस्..."
+
+#: kfilereplacepart.cpp:615
+msgid "&Save Strings List to File..."
+msgstr "फाइलमा स्ट्रिङको सूची बचत गर्नुहोस्..."
+
+#: kfilereplacepart.cpp:618
+msgid "&Load Strings List From File..."
+msgstr "फाइलबाट स्ट्रिङ सूची लोड गर्नुहोस्..."
+
+#: kfilereplacepart.cpp:622
+msgid "&Load Recent Strings Files"
+msgstr "हालका स्ट्रिङ फाइलहरू लोड गर्नुहोस्"
+
+#: kfilereplacepart.cpp:626
+msgid "&Invert Current String (search <--> replace)"
+msgstr "हालका स्ट्रिङ उल्टो बनाउनुहोस् (खोज्नुहोस् <--> बदल्नुहोस्)"
+
+#: kfilereplacepart.cpp:629
+msgid "&Invert All Strings (search <--> replace)"
+msgstr "सबै स्ट्रिङ उल्टो बनाउनुहोस् (खोजी गर्नुहोस् <--> बदल्नुहोस्)"
+
+#: kfilereplacepart.cpp:634
+msgid "&Include Sub-Folders"
+msgstr "सहायक-फोल्डर समावेश गर्नुहोस्"
+
+#: kfilereplacepart.cpp:637
+msgid "Create &Backup Files"
+msgstr "जगेडा फाइल सिर्जना गर्नुहोस्"
+
+#: kfilereplacepart.cpp:640
+msgid "Case &Sensitive"
+msgstr "केस सम्वेदनशीलता"
+
+#: kfilereplacepart.cpp:643
+msgid "Enable Commands &in Replace String: [$command:option$]"
+msgstr "स्ट्रिङ बदल्दा आदेश सक्षम पार्नुहोस्: [आदेश:विकल्प]"
+
+#: kfilereplacepart.cpp:646
+msgid "Enable &Regular Expressions"
+msgstr "नियमित अभिव्यक्ति सक्षम पार्नुहोस्"
+
+#: kfilereplacepart.cpp:649
+msgid "Configure &KFileReplace..."
+msgstr "केडीई फाइल बदल्ने कन्फिगर गर्नुहोस्..."
+
+#: kfilereplacepart.cpp:654 kfilereplaceview.cpp:541
+msgid "&Properties"
+msgstr "विशेषताहरू"
+
+#: kfilereplacepart.cpp:657 kfilereplaceview.cpp:513
+msgid "&Open"
+msgstr "खोल्नुहोस्"
+
+#: kfilereplacepart.cpp:663 kfilereplaceview.cpp:526
+msgid "&Edit in Quanta"
+msgstr "क्वान्टामा सम्पादन गर्नुहोस्"
+
+#: kfilereplacepart.cpp:667 kfilereplaceview.cpp:532
+msgid "Open Parent &Folder"
+msgstr "प्रमूल फोल्डर खोल्नुहोस्"
+
+#: kfilereplacepart.cpp:670 kfilereplaceview.cpp:536
+msgid "&Delete"
+msgstr ""
+
+#: kfilereplacepart.cpp:673
+msgid "E&xpand Tree"
+msgstr "ट्री विस्तार गर्नुहोस्"
+
+#: kfilereplacepart.cpp:676
+msgid "&Reduce Tree"
+msgstr "ट्री घटाउनुहोस्"
+
+#: kfilereplacepart.cpp:679
+msgid "&About KFileReplace"
+msgstr "केडीई फाइल बदल्ने बारेमा"
+
+#: kfilereplacepart.cpp:682
+msgid "KFileReplace &Handbook"
+msgstr "केडीई फाइल बदल्ने हातेपुस्तक"
+
+#: kfilereplacepart.cpp:685
+msgid "&Report Bug"
+msgstr "त्रुटि प्रतिवेदन गर्नुहोस्"
+
+#: kfilereplacepart.cpp:1090 kfilereplacepart.cpp:1179
+#: kfilereplacepart.cpp:1399
+#, kde-format
+msgid "<qt>Cannot open file <b>%1</b> for reading.</qt>"
+msgstr "<qt>पढ्नका लागि फाइल <b>%1</b> खोल्न सकिदैन ।</qt>"
+
+#: kfilereplacepart.cpp:1130 kfilereplacepart.cpp:1208
+#, kde-format
+msgid "<qt>Cannot open file <b>%1</b> for writing.</qt>"
+msgstr "<qt>लेख्नका लागि फाइल <b>%1</b> खोल्न सकिदैन ।</qt>"
+
+#: kfilereplacepart.cpp:1265
+#, kde-format
+msgid ""
+"<qt>Do you want to replace the string <b>%1</b> with the string "
+"<b>%2</b>?</qt>"
+msgstr ""
+"<qt>के तपाईँले स्ट्रिङ <b>%1</b> लाई स्ट्रिङ <b>%2</b> सँग बदल्न "
+"चाहनुहुन्छ?</qt>"
+
+#: kfilereplacepart.cpp:1266
+msgid "Confirm Replace"
+msgstr "बदल्न यकीन गर्नुहोस्"
+
+#: kfilereplacepart.cpp:1267
+msgid "Replace"
+msgstr ""
+
+#: kfilereplacepart.cpp:1268
+msgid "Do Not Replace"
+msgstr "नबदल्नुहोस्"
+
+#: kfilereplacepart.cpp:1470 kfilereplacepart.cpp:1510
+#, kde-format
+msgid " Line:%2, Col:%3 - \"%1\""
+msgstr " लाइन:%2, स्तम्भ:%3 - \"%1\""
+
+#: kfilereplacepart.cpp:1576
+#, kde-format
+msgid "<qt>Cannot open the file <b>%1</b> and load the string list.</qt>"
+msgstr "<qt>फाइल <b>%1</b> खोल्न र स्ट्रिङ सूची लोड गर्न सकिदैन ।</qt>"
+
+#: kfilereplacepart.cpp:1584
+#, kde-format
+msgid ""
+"<qt>File <b>%1</b> seems not to be written in new kfr format. Remember that "
+"the old kfr format will be soon abandoned. You can convert your old rules "
+"files by simply saving them with kfilereplace.</qt>"
+msgstr ""
+"<qt>फाइल <b>%1</b> नयाँ kfr ढाँचामा लेख्न नसकिने देखिन्छ । याद गर्नुहोस् "
+"पुरानो kfr ढाँचा चाडैनै परित्याग गरिने छ । तपाईँले पुराना नियम फाइलहरू केवल "
+"केडीई फाइल बदल्नेमा बचत गरेर रुपान्तरण गर्न सक्नुहुन्छ ।</qt>"
+
+#: kfilereplacepart.cpp:1584 kfilereplacepart.cpp:1604
+msgid "Warning"
+msgstr ""
+
+#: kfilereplacepart.cpp:1604
+#, kde-format
+msgid ""
+"<qt>The format of kfr files has been changed; attempting to load <b>%1</b>. "
+"Please see the KFilereplace manual for details. Do you want to load a search-"
+"and-replace list of strings?</qt>"
+msgstr ""
+"<qt> <b>%1</b> लोड गर्न प्रयास गर्दा: kfr फाइलको ढाँचा परिवर्तन भएको छ । "
+"कृपया विस्तृत विवरणका लागि केडीई फाइल बदल्ने म्यानुअल हेर्नुहोस् । के तपाईँ "
+"खोज्ने र बदल्ने स्ट्रिङको सूची लोड गर्न चाहनुहुन्छ ?</qt>"
+
+#: kfilereplacepart.cpp:1604
+msgid "Load"
+msgstr "लोड गर्नुहोस्"
+
+#: kfilereplacepart.cpp:1604
+msgid "Do Not Load"
+msgstr "लोड नगर्नुहोस्"
+
+#: kfilereplacepart.cpp:1693
+msgid "There are no strings to search and replace."
+msgstr "त्यहाँ खोज्न र बदल्नका लागि स्ट्रिङहरू छैनन् ।"
+
+#: kfilereplacepart.cpp:1706
+#, kde-format
+msgid "<qt>The main folder of the project <b>%1</b> does not exist.</qt>"
+msgstr "<qt>परियोजना <b>%1</b> को मुख्य फोल्डर अवस्थित छैन ।</qt>"
+
+#: kfilereplacepart.cpp:1714
+#, kde-format
+msgid ""
+"<qt>Access denied in the main folder of the project:<br /><b>%1</b></qt>"
+msgstr ""
+
+#: kfilereplaceview.cpp:123
+#, kde-format
+msgid ""
+"<qt>Cannot invert string <b>%1</b>, because the search string would be "
+"empty.</qt>"
+msgstr ""
+"<qt>खोजी स्ट्रिङ खाली हुने हुनाले, स्ट्रिङ <b>%1</b> उल्टो पार्न सकिदैन "
+"।</qt>"
+
+#: kfilereplaceview.cpp:291
+#, kde-format
+msgid "Do you really want to delete %1?"
+msgstr "के तपाईँ वास्तवमै %1 मेट्न चाहनुहुन्छ ?"
+
+#: kfilereplaceview.cpp:411
+msgid "No strings to save as the list is empty."
+msgstr "सूची खाली भएको हुनाले स्ट्रिङ बचत गर्नु पर्दैन ।"
+
+#: kfilereplaceview.cpp:435
+msgid "KFileReplace Strings"
+msgstr "केडीई फाइल बदल्ने स्ट्रिङ"
+
+#: kfilereplaceview.cpp:436
+msgid "Save Strings to File"
+msgstr "फाइलमा स्ट्रिङहरू बचत गर्नुहोस्"
+
+#: kfilereplaceview.cpp:447
+#, kde-format
+msgid "File %1 cannot be saved."
+msgstr "फाइल %1 बचत गर्न सकिने छैन ।"
+
+#: kfilereplaceview.cpp:518
+msgid "Open &With..."
+msgstr "यससँग खोल्नुहोस्..."
+
+#: knewprojectdlg.cpp:97
+msgid "Project Directory"
+msgstr "परियोजना डाइरेक्टरी"
+
+#: knewprojectdlg.cpp:119
+msgid ""
+"You must fill the combo boxes (location and filter) before continuing."
+msgstr ""
+"तपाईँले निरन्तर गर्नु भन्दा पहिले कम्बो बाकसहरू (स्थान र फिल्टर) भर्नुपर्छ ।"
+
+#: knewprojectdlg.cpp:127
+msgid "Some edit boxes are empty in the <b>Owner</b> page."
+msgstr "<b>मालिक</b> पृष्ठमा केही सम्पादन बाकसहरू खाली छन् ।"
+
+#: knewprojectdlg.cpp:137
+msgid "The minimum size is greater than the maximum size."
+msgstr "न्युनतम साइज अधिकतम साइज भन्दा ठूलो छ ।"
+
+#: main.cpp:25
+msgid "Batch search and replace tool"
+msgstr "समूह खोज्ने र बदल्ने उपकरण"
+
+#: main.cpp:31
+msgid "KFileReplace"
+msgstr "केडीई फाइल बदल्ने"
+
+#: main.cpp:32
+msgid ""
+"(C) 2004-2005 Andras Mantia\n"
+"(C) 2004-2005 Emiliano Gulmini\n"
+"(C) 1999-2002 Francois Dupoux"
+msgstr ""
+
+#: main.cpp:35
+msgid "Shell author, KPart creator, co-maintainer"
+msgstr "शेल लेखक, केडीई भाग सर्जक, सह-सम्भारकर्ता"
+
+#: main.cpp:37
+msgid "Francois Dupou"
+msgstr ""
+
+#: main.cpp:44
+msgid "Starting folder"
+msgstr "पहिलाको फोल्डर"
+
+#. i18n: file: kaddstringdlgs.ui:16
+#. i18n: ectx: property (caption), widget (QDialog)
+#: rc.cpp:3
+msgid "Insert Searching/Replacing Strings"
+msgstr "खोज्ने/बदल्ने स्ट्रिङ घुसाउनुहोस्"
+
+#. i18n: file: kaddstringdlgs.ui:38
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:6
+msgid "Choose String Adding Mode"
+msgstr "स्ट्रिङ थप्ने मोड रोज्नुहोस्"
+
+#. i18n: file: kaddstringdlgs.ui:52
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:9
+msgid "Search and replace mode"
+msgstr "खोज्ने र बदल्ने मोड"
+
+#. i18n: file: kaddstringdlgs.ui:63
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: rc.cpp:13
+msgid "Search only mode"
+msgstr "खोज्ने मात्र मोड"
+
+#. i18n: file: kaddstringdlgs.ui:106
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:16
+msgid "Search for:"
+msgstr "यसको खोजी गर्नुहोस्:"
+
+#. i18n: file: kaddstringdlgs.ui:135
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:19
+msgid "Replace with:"
+msgstr "यससँग बदल्नुहोस्:"
+
+#. i18n: file: kaddstringdlgs.ui:270
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: kaddstringdlgs.ui:311
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: kfilereplaceviewwdg.ui:306
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: kfilereplaceviewwdg.ui:361
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:24 rc.cpp:27 rc.cpp:108 rc.cpp:114
+msgid "Search For"
+msgstr "यसको खोजी गर्नुहोस्"
+
+#. i18n: file: kaddstringdlgs.ui:322
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: kfilereplaceviewwdg.ui:317
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:30 rc.cpp:111
+msgid "Replace With"
+msgstr "यससँग बदल्नुहोस्"
+
+#. i18n: file: kaddstringdlgs.ui:365
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: kfilereplacepartui.rc:47
+#. i18n: ectx: Menu (help)
+#. i18n: file: knewprojectdlgs.ui:64
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: koptionsdlgs.ui:271
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:33 rc.cpp:57 rc.cpp:138 rc.cpp:334
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: kaddstringdlgs.ui:398
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: koptionsdlgs.ui:304
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:36 rc.cpp:340
+msgid "&OK"
+msgstr ""
+
+#. i18n: file: kaddstringdlgs.ui:406
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: knewprojectdlgs.ui:128
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: koptionsdlgs.ui:312
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:39 rc.cpp:149 rc.cpp:343
+msgid "&Cancel"
+msgstr ""
+
+#. i18n: file: kfilereplacepartui.rc:4
+#. i18n: ectx: Menu (kfilerepace)
+#. i18n: file: kfilereplaceui.rc:7
+#. i18n: ectx: Menu (kfilerepace)
+#: rc.cpp:42 rc.cpp:66
+msgid "Search/&Replace"
+msgstr "खोज्नुहोस्/बदल्नुहोस्"
+
+#. i18n: file: kfilereplacepartui.rc:11
+#. i18n: ectx: Menu (strings)
+#: rc.cpp:45
+msgid "&Strings"
+msgstr "स्ट्रिङ"
+
+#. i18n: file: kfilereplacepartui.rc:24
+#. i18n: ectx: Menu (results)
+#: rc.cpp:48
+msgid "&Results"
+msgstr "परिणाम"
+
+#. i18n: file: kfilereplacepartui.rc:36
+#. i18n: ectx: Menu (options)
+#: rc.cpp:51
+msgid "&Options"
+msgstr ""
+
+#. i18n: file: kfilereplacepartui.rc:44
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:54
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kfilereplacepartui.rc:55
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:60
+msgid "KFileReplace Main Toolbar"
+msgstr "केडीई फाइल बदल्ने मुख्य उपरकण"
+
+#. i18n: file: kfilereplaceui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:63
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kfilereplaceviewwdg.ui:58
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: kfilereplaceviewwdg.ui:181
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: knewprojectdlgs.ui:423
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#. i18n: file: knewprojectdlgs.ui:495
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:69 rc.cpp:90 rc.cpp:213 rc.cpp:231 report.cpp:116
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: kfilereplaceviewwdg.ui:69
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: kfilereplaceviewwdg.ui:192
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:72 rc.cpp:93 report.cpp:117
+msgid "Folder"
+msgstr "फोल्डर"
+
+#. i18n: file: kfilereplaceviewwdg.ui:80
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:75 report.cpp:124
+msgid "Old Size"
+msgstr "पुरानो साइज"
+
+#. i18n: file: kfilereplaceviewwdg.ui:91
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:78 report.cpp:125
+msgid "New Size"
+msgstr "नयाँ साइज"
+
+#. i18n: file: kfilereplaceviewwdg.ui:102
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:81 report.cpp:56
+msgid "Replaced Strings"
+msgstr "बदलिएका स्ट्रिङ"
+
+#. i18n: file: kfilereplaceviewwdg.ui:113
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: kfilereplaceviewwdg.ui:225
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:84 rc.cpp:102 report.cpp:128
+msgid "Owner User"
+msgstr "मालिक प्रयोगकर्ता"
+
+#. i18n: file: kfilereplaceviewwdg.ui:124
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: kfilereplaceviewwdg.ui:236
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:87 rc.cpp:105 report.cpp:129
+msgid "Owner Group"
+msgstr "मालिक समूह"
+
+#. i18n: file: kfilereplaceviewwdg.ui:203
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:96 report.cpp:120
+msgid "Size"
+msgstr "साइज"
+
+#. i18n: file: kfilereplaceviewwdg.ui:214
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rc.cpp:99
+msgid "Found Strings"
+msgstr "फेला परिएका स्ट्रिङ"
+
+#. i18n: file: kfilereplaceviewwdg.ui:427
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: rc.cpp:117
+msgid "Green means ready"
+msgstr "हरियको अर्थ तयार"
+
+#. i18n: file: kfilereplaceviewwdg.ui:430
+#. i18n: ectx: property (whatsThis), widget (KLed)
+#: rc.cpp:120
+msgid "Ready"
+msgstr "तयार"
+
+#. i18n: file: kfilereplaceviewwdg.ui:454
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: rc.cpp:123
+msgid "Yellow means wait while sorting list"
+msgstr "पहेँलोको अर्थ सूची क्रमबद्ध गर्दा प्रतिक्षा गर्नुहोस्"
+
+#. i18n: file: kfilereplaceviewwdg.ui:457
+#. i18n: ectx: property (whatsThis), widget (KLed)
+#: rc.cpp:126
+msgid "Please wait while sorting list"
+msgstr "कृपया सूची क्रमबद्द गर्दा प्रतिक्षा गर्नुहोस्"
+
+#. i18n: file: kfilereplaceviewwdg.ui:478
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: rc.cpp:129
+msgid "Red means scanning files"
+msgstr "रातोको अर्थ फाइल स्क्यान गर्दैछ"
+
+#. i18n: file: kfilereplaceviewwdg.ui:513
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:132
+msgid "Scanned files:"
+msgstr "स्क्यान गरिएका फाइलहरू:"
+
+#. i18n: file: knewprojectdlgs.ui:16
+#. i18n: ectx: property (caption), widget (QDialog)
+#: rc.cpp:135
+msgid "Search & Replace in Files"
+msgstr "फाइलमा खोजी गर्नुहोस् र बदल्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:89
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:141
+msgid "Search Now"
+msgstr "अहिले खोजी गर्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:103
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:145
+msgid "Search Later"
+msgstr "पछि खोजी गर्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:142
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:152
+msgid "&General"
+msgstr "साधारण"
+
+#. i18n: file: knewprojectdlgs.ui:153
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:155
+msgid "Startup Folder Options"
+msgstr "सुरुआत फोल्डर विकल्प"
+
+#. i18n: file: knewprojectdlgs.ui:164
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:158
+msgid "Filter:"
+msgstr "फिल्टर:"
+
+#. i18n: file: knewprojectdlgs.ui:175
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:161
+msgid "Location:"
+msgstr "स्थान:"
+
+#. i18n: file: knewprojectdlgs.ui:209
+#. i18n: ectx: property (whatsThis), widget (KComboBox)
+#: rc.cpp:164
+msgid "Insert a search path here. You can use the search path button."
+msgstr ""
+"यहाँ खोज्ने बाटो घुसाउनुहोस् । तपाईँले बाटो खोज्नुहोस् बटन प्रयोग गर्न "
+"सक्नुहुन्छ ।"
+
+#. i18n: file: knewprojectdlgs.ui:256
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:170
+msgid "&Include subfolders"
+msgstr "सहायक फोल्डरहरू समावेश गर्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:269
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:173
+msgid "Search/Replace Strings"
+msgstr "खोज्ने/बदल्ने स्ट्रिङ"
+
+#. i18n: file: knewprojectdlgs.ui:290
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:176
+msgid "Search:"
+msgstr "खोजी गर्नुहोस्:"
+
+#. i18n: file: knewprojectdlgs.ui:298
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:179
+msgid "Replace:"
+msgstr "बदल्नुहोस्:"
+
+#. i18n: file: knewprojectdlgs.ui:308
+#. i18n: ectx: property (title), widget (QGroupBox)
+#. i18n: file: koptionsdlgs.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:182 rc.cpp:279
+msgid "General Options"
+msgstr "साधारण विकल्प"
+
+#. i18n: file: knewprojectdlgs.ui:322
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:185
+msgid "Enable &regular expressions"
+msgstr "नियमित अभिव्यक्तिहरू सक्षम पार्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:330
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:188
+msgid "Do &backup copy instead of overwrite"
+msgstr "अधिलेखन गर्नुको साटोमा जगेडा प्रतिलिपि गर्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:338
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:191
+msgid "&Case sensitive"
+msgstr "केस सम्वेदनशिलता"
+
+#. i18n: file: knewprojectdlgs.ui:346
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:194
+msgid "Enable co&mmands in the replace string"
+msgstr "बदल्ने स्ट्रिङमा आदेश सक्षम पार्नुहोस्"
+
+#. i18n: file: knewprojectdlgs.ui:354
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: file: koptionsdlgs.ui:67
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:197 rc.cpp:286
+msgid "Backup copy suffix:"
+msgstr "जगेड प्रतिलिपि प्रत्यय:"
+
+#. i18n: file: knewprojectdlgs.ui:383
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: file: koptionsdlgs.ui:132
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:201 rc.cpp:307
+msgid "Encoding of the files:"
+msgstr "फाइलहरूको सङ्केतन:"
+
+#. i18n: file: knewprojectdlgs.ui:395
+#. i18n: ectx: attribute (title), widget (QWidget)
+#. i18n: file: koptionsdlgs.ui:157
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:204 rc.cpp:310
+msgid "&Advanced"
+msgstr "उन्नत"
+
+#. i18n: file: knewprojectdlgs.ui:406
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:207
+msgid "Ownership Filtering"
+msgstr "स्वामित्व फिल्टरिङ"
+
+#. i18n: file: knewprojectdlgs.ui:417
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:210
+msgid "User: "
+msgstr "प्रयोगकर्ता: "
+
+#. i18n: file: knewprojectdlgs.ui:428
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#. i18n: file: knewprojectdlgs.ui:500
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:216 rc.cpp:234
+msgid "ID (Number)"
+msgstr "आईडी(नम्बर)"
+
+#. i18n: file: knewprojectdlgs.ui:447
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#. i18n: file: knewprojectdlgs.ui:471
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:219 rc.cpp:225
+msgid "Equals To"
+msgstr "यससँग बराबर"
+
+#. i18n: file: knewprojectdlgs.ui:452
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#. i18n: file: knewprojectdlgs.ui:476
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:222 rc.cpp:228
+msgid "Is Not"
+msgstr "छैन"
+
+#. i18n: file: knewprojectdlgs.ui:521
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:237
+msgid "Group:"
+msgstr "समूह:"
+
+#. i18n: file: knewprojectdlgs.ui:547
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:240
+msgid "Access Date Filtering"
+msgstr "पहुँच मिति फिल्टरिङ"
+
+#. i18n: file: knewprojectdlgs.ui:574
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:243
+msgid "Dates valid for:"
+msgstr "वैध हुने मिति:"
+
+#. i18n: file: knewprojectdlgs.ui:582
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:246
+msgid "Accessed after:"
+msgstr "पहुँच प्राप्ति पछि:"
+
+#. i18n: file: knewprojectdlgs.ui:590
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:249
+msgid "Accessed before: "
+msgstr "पहुँच प्राप्त पहिला: "
+
+#. i18n: file: knewprojectdlgs.ui:606
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:252
+msgid "Last Writing Access"
+msgstr "लेख्ने अन्तिम पहुँच"
+
+#. i18n: file: knewprojectdlgs.ui:611
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:255
+msgid "Last Reading Access"
+msgstr "पढ्ने अन्तिम पहुँच"
+
+#. i18n: file: knewprojectdlgs.ui:716
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:258
+msgid "Size Filtering"
+msgstr "साइज फिल्टरिङ"
+
+#. i18n: file: knewprojectdlgs.ui:743
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:261
+msgid "Minimum si&ze:"
+msgstr "न्युनतम साइज:"
+
+#. i18n: file: knewprojectdlgs.ui:751
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:264
+msgid "Maximum size:"
+msgstr "अधिकतम साइज:"
+
+#. i18n: file: knewprojectdlgs.ui:801
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: file: knewprojectdlgs.ui:809
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:267 rc.cpp:270
+msgid "KB"
+msgstr "किलो बाइट"
+
+#. i18n: file: koptionsdlgs.ui:16
+#. i18n: ectx: property (caption), widget (QDialog)
+#: rc.cpp:273
+msgid "Options"
+msgstr ""
+
+#. i18n: file: koptionsdlgs.ui:34
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:276
+msgid "General"
+msgstr "साधारण"
+
+#. i18n: file: koptionsdlgs.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:282
+msgid "Enable commands in replace strings"
+msgstr "बदल्ने स्ट्रिङमा आदेश सक्षम पार्नुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:83
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:290
+msgid "Notif&y on errors"
+msgstr "त्रुटि हुदा सूचीत गर्नुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:91
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:293
+msgid "Case sensitive"
+msgstr "केस सम्वेदनशिलता"
+
+#. i18n: file: koptionsdlgs.ui:102
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:297
+msgid "Recursive (search/replace in all sub folders)"
+msgstr "दोहोरिने (सबै सहायक फोल्डरमा खोज्ने/बदल्ने)"
+
+#. i18n: file: koptionsdlgs.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:301
+msgid "Enable regular e&xpressions"
+msgstr "नियमित अभिव्यक्तिहरू सक्षम पार्नुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:124
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:304
+msgid "Do &backup copy"
+msgstr "जगेडा प्रतिलिपि गर्नुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:168
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:313
+msgid "Advanced Options"
+msgstr "उन्नत विकल्प"
+
+#. i18n: file: koptionsdlgs.ui:179
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:316
+msgid "Ignore hidden files and folders"
+msgstr "लुकेका फाइल र फोल्डरहरू उपेक्षा गर्नुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:187
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:319
+msgid "Follow s&ymbolic links"
+msgstr "साङ्केतिक लिङ्क पछ्याउनुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:322
+msgid "When searching, stop on first string found (faster but no details)"
+msgstr ""
+"खोजी गर्दा, पहिलो स्ट्रिङ फेला पार्ने बेलामा रोक्नुहोस् (छिटो तर विस्तृत "
+"विवरण छैन)"
+
+#. i18n: file: koptionsdlgs.ui:206
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:325
+msgid "Do not show file if no strings are found or replaced"
+msgstr "स्ट्रिङहरू फेला नपरेको वा नबदलेको बेलामा फाइल नदेखाउनुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:242
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:328
+msgid "Show confirmation dialog"
+msgstr "यकीन संवाद देखाउनुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:255
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:331
+msgid "Confirm before replace each string"
+msgstr "प्रत्येक स्ट्रिङ बदल्नु भन्दा पहिला यकीन गर्नुहोस्"
+
+#. i18n: file: koptionsdlgs.ui:296
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:337
+msgid "&Default Values"
+msgstr "पूर्वनिर्धारित मान"
+
+#: rc.cpp:344
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:345
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#: report.cpp:43 report.cpp:196
+#, kde-format
+msgid "<qt>Cannot open the file <b>%1</b>.</qt>"
+msgstr "<qt>फाइल <b>%1</b> खोल्न सकिदैन ।</qt>"
+
+#: report.cpp:57
+msgid "Replace with"
+msgstr "यससँग बदल्नुहोस्"
+
+#: report.cpp:61
+msgid "Total number occurrences"
+msgstr "घटनाको कूल सङ्ख्या"
+
+#: report.cpp:62
+msgid "-"
+msgstr "-"
+
+#: report.cpp:70
+msgid "KFileReplace Report"
+msgstr "केडीई फाइल बदल्ने प्रतिवेदन"
+
+#: report.cpp:75
+msgid "Searching/Replacing Strings Table"
+msgstr "खोज्ने/बदल्ने स्ट्रिङ तालिका"
+
+#: report.cpp:78
+msgid "Search for"
+msgstr "यसको खोजी गर्नुहोस्"
+
+#: report.cpp:113
+msgid "Results Table"
+msgstr "परिणाम तालिका"
+
+#: report.cpp:203
+msgid "Created by"
+msgstr "यसद्वारा सिर्जना गरिएको"
+
+#: report.cpp:205
+msgid "date"
+msgstr "मिति"
+
+#: report.cpp:207
+msgid "Total occurrences"
+msgstr "कूल घटना"
+
+#: whatthis.h:29
+msgid ""
+"Shows the statistics of your operations. Note that the columns content "
+"changes depending on what kind of operation you are performing."
+msgstr ""
+"तपाईँका कार्यको तथ्याङ्क देखाउछ । याद गर्नुहोस् तपाईँले सम्पादन गरेको "
+"कार्यको प्रकार अनुरुप स्तम्भ सामाग्री परिवर्तन हुन्छ ।"
+
+#: whatthis.h:31
+msgid ""
+"Shows a list of strings to search for (and if you specified it, a list of "
+"strings to replace with). Use the \"add strings\" dialog to edit your string "
+"list or double click on a string."
+msgstr ""
+"खोजी गर्नका लागि स्ट्रिङको सूची देखाउछ (र यदि तपाईँले यससँग बदल्न "
+"स्ट्रिङहरूको सूची निर्दिष्ट गरेमा) । तपाईँका स्ट्रिङ सूची सम्पादन गर्न "
+"\"स्ट्रिङहरू थप्नुहोस्\" संवाद प्रयोग गर्नुहोस् वा स्ट्रिङमा डबल क्लिक "
+"गर्नुहोस् ।"
+
+#: whatthis.h:34
+msgid ""
+"Base folder for operations of search/replace. Insert path string here by "
+"hand or use the search button."
+msgstr ""
+"खोज्ने/बदल्नेको सञ्चालनका लागि आधार फोल्डर । यहाँ हातले बाटो स्ट्रिङ "
+"घुसाउनुहोस् वा खोज्नुहोस् बाटन क्लिक गर्नुहोस् ।"
+
+#: whatthis.h:36
+msgid "Shell-like wildcards. Example: \"*.html;*.txt;*.xml\"."
+msgstr "शेल जस्तो वाइल्ड कार्डहरू । उदाहरण: \"*.html;*.txt;*.xml\""
+
+#: whatthis.h:38
+msgid ""
+"Insert the minimum file size you want to search, or leave it unchecked if "
+"you do not want a minimum size limit."
+msgstr ""
+
+#: whatthis.h:40
+msgid ""
+"Insert the maximum file size you want to search, or leave it unchecked if "
+"you do not want a maximum size limit."
+msgstr ""
+
+#: whatthis.h:42
+msgid ""
+"Insert the minimum value for file access date that you want to search, or "
+"leave it unchecked if you do not want a minimum limit."
+msgstr ""
+
+#: whatthis.h:44
+msgid ""
+"Insert the maximum value for file access date that you want to search, or "
+"leave it unchecked if you do not want a maximum limit."
+msgstr ""
+
+#: whatthis.h:46
+msgid ""
+"Select  \"writing\" if you want to use the date of the last modification, or "
+" \"reading\" to use the date of the last access."
+msgstr ""
+
+#: whatthis.h:48
+msgid "Minimum value for access date."
+msgstr "पहुँच मितिको लागि न्युनतम मान ।"
+
+#: whatthis.h:50
+msgid "Maximum value for access date."
+msgstr "पहुँच मितिका लागि अधिकतम मान ।"
+
+#: whatthis.h:52
+msgid "Insert here the string to search for."
+msgstr "खोज्नका लागि यहाँ स्ट्रिङ घुसाउनुहोस् ।"
+
+#: whatthis.h:54
+msgid "Insert here the string to replace with."
+msgstr "यससँग बदल्नका लागि यहाँ स्ट्रिङ घुसाउनुहोस् ।"
+
+#: whatthis.h:57
+msgid "Enable this option if your search is case sensitive."
+msgstr "यदि तपाईँको खोजी केस सम्वेदनशील छ भने यो विकल्प सक्षम पार्नुहोस् ।"
+
+#: whatthis.h:59
+msgid "Enable this option to search in sub folders too."
+msgstr "सहायक फोल्डरमा पनि खोजी गर्नका लागि यो विकल्प सक्षम पार्नुहोस् ।"
+
+#: whatthis.h:61
+msgid ""
+"Enable this option when you are searching for a string and you are only "
+"interested to know if the string is present or not in the current file."
+msgstr ""
+"तपाईँले स्ट्रिङको खोजी गर्दा र हालको फाइलमा स्ट्रिङ प्रस्तुत भएको वा नभएको "
+"पहिचान गर्न इच्छुक भएमा मात्र यो विकल्प सक्षम पार्नुहोस् ।"
+
+#: whatthis.h:65
+msgid ""
+"If set, then if kfilereplace encounters a symbolic link it treats it like a "
+"normal folder or file."
+msgstr ""
+
+#: whatthis.h:67
+msgid "Enable this option to ignore hidden files or folders."
+msgstr ""
+"लुकेका फाइल वा फोल्डर उपेक्षा गर्नका लागि यो विकल्प सक्षम पार्नुहोस् ।"
+
+#: whatthis.h:69
+msgid ""
+"If this option is enabled, KFR will show even the names of the files in "
+"which no string has been found or replaced."
+msgstr ""
+"यदि यो विकल्प सक्षम पारिएमा, केआरएफले स्ट्रिङ फेला नपरेका वा नबदलिएका फाइलको "
+"नाम पनि देखउनेछ ।"
+
+#: whatthis.h:71
+msgid ""
+"Allows you to apply Qt-like regular expressions on the search string. Note "
+"that a complex regular expression could affect speed performance."
+msgstr ""
+
+#: whatthis.h:73
+msgid ""
+"Enable \"commands\". For example: if search string is \"user\" and replace "
+"string is the command \"[$user:uid$]\", KFR will substitute \"user\" with "
+"the uid of the user."
+msgstr ""
+"\"आदेश\" सक्षम पार्नुहोस् । उदाहरणका लागि: यदि खोजी स्ट्रिङ \"प्रयोगकर्ता\" "
+"र बदल्ने स्ट्रिङ आदेश \"[$user:uid$]\" छ भने, केआरएफले प्रयोगकर्ताको "
+"यूआईडीसँग \"प्रयोगकर्ता\" प्रतिस्थापन गर्नेछ ।"
+
+#: whatthis.h:75
+msgid "Enable this option if you want leave original files untouched."
+msgstr ""
+"यदि तपाईँ मौलिक फाइल नचलाईकन छोड्न चाहनुहुन्छ भने यो विकल्प सक्षम पार्नुहोस् "
+"।"
+
+#: whatthis.h:77
+msgid ""
+"Enable this option if you want to be asked for single string replacement "
+"confirmation."
+msgstr ""
+"यदि तपाईँ एकल स्ट्रिङ प्रतिस्थापन गर्दा यकीनका लागि सोध्न चाहनुहुन्छ भने यो "
+"विकल्प सक्षम पार्नुहोस् ।"
+
+#: whatthis.h:80
+msgid ""
+"Enable this option to perform replacing as a simulation, i.e. without making "
+"any changes to files."
+msgstr ""
+
+#: whatthis.h:93
+msgid "Select search-only mode."
+msgstr "खोज्ने मात्र मोड चयन गर्नुहोस् ।"
+
+#: whatthis.h:95
+msgid "Select search-and-replace mode."
+msgstr "खोज्ने-र-बदल्ने मोड चयन गर्नुहोस् ।"
+
+#: whatthis.h:97
+msgid "Insert here a string you want search for."
+msgstr "तपाईँले खोज्न चाहेको स्ट्रिङ यहाँ घुसाउनुहोस् ।"
+
+#: whatthis.h:99
+msgid ""
+"Insert here the string that KFR will use to replace the search string."
+msgstr "केएफआरले खोजी स्ट्रिङ बदल्न प्रयोग गर्ने स्ट्रिङ यहाँ घुसाउनुहोस् ।"

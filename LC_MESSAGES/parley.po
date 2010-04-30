@@ -1,0 +1,4279 @@
+# translation of parley.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006, 2007.
+# Shiva Pokharel <shiva@mpp.org.np>, 2007.
+# Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: parley\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 10:12+0000\n"
+"PO-Revision-Date: 2010-04-08 13:15+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:20+0000\n"
+
+#: src/parleydocument.cpp:118 src/editor/editor.cpp:583
+#, kde-format
+msgctxt "@title:window document properties"
+msgid "Properties for %1"
+msgstr "%1 का लागि गुण"
+
+#: src/parleydocument.cpp:168
+msgid "Open in practice &mode"
+msgstr ""
+
+#: src/parleydocument.cpp:170
+msgid "Open Vocabulary Collection"
+msgstr ""
+
+#: src/parleydocument.cpp:223
+msgid "Open Downloaded Vocabulary Collection"
+msgstr ""
+
+#: src/parleydocument.cpp:233 src/parleymainwindow.cpp:136
+#: src/export/exportdialog.cpp:107
+msgid "Untitled"
+msgstr "शीर्षकविहिन"
+
+#: src/parleydocument.cpp:249 src/parleydocument.cpp:299
+#, kde-format
+msgid "Writing file \"%1\" resulted in an error: %2"
+msgstr "लेखिएको फाइल \"%1\" को नतिजामा एउटा त्रुटि देखायो: %2"
+
+#: src/parleydocument.cpp:250 src/parleydocument.cpp:300
+msgid "Save File"
+msgstr "फाइल बचत गर्नुहोस्"
+
+#: src/parleydocument.cpp:268
+msgid "Save Vocabulary As"
+msgstr "यस रूपमा शब्द सूची बचत गर्नुहोस्"
+
+#: src/parleydocument.cpp:277
+#, kde-format
+msgid ""
+"<qt>The file<p><b>%1</b></p>already exists. Do you want to overwrite it?</qt>"
+msgstr ""
+"<qt>फाइल<br><b>%1</b><br>पहिल्यै अवस्थित छ । तपाईँ यसलाई अधिलेखन गर्न "
+"चाहनुहुन्छ?</qt>"
+
+#: src/parleydocument.cpp:283
+#, kde-format
+msgctxt "@info:status saving a file"
+msgid "Saving %1"
+msgstr "%1 बचत गर्दै"
+
+#: src/parleydocument.cpp:307 src/vocabulary/wordtypeview.cpp:69
+msgid "Noun"
+msgstr "नाम"
+
+#: src/parleydocument.cpp:311
+msgid "Masculine"
+msgstr "पुलिङ्ग"
+
+#: src/parleydocument.cpp:314
+msgid "Feminine"
+msgstr "स्त्रीलिङ्ग"
+
+#: src/parleydocument.cpp:317
+msgid "Neuter"
+msgstr "तटस्थ"
+
+#: src/parleydocument.cpp:321 src/vocabulary/wordtypeview.cpp:118
+msgid "Verb"
+msgstr "क्रिया"
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:116
+#. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
+#: src/parleydocument.cpp:325 src/vocabulary/wordtypeview.cpp:101 rc.cpp:1434
+msgid "Adjective"
+msgstr "विशेषण"
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:123
+#. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
+#: src/parleydocument.cpp:329 src/vocabulary/wordtypeview.cpp:109 rc.cpp:1437
+msgid "Adverb"
+msgstr "क्रियाविशेषण"
+
+#. i18n: file: src/settings/documentproperties.ui:221
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
+#: src/parleydocument.cpp:343 rc.cpp:1038
+msgid "Public Domain"
+msgstr ""
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:126
+#. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
+#. i18n: file: src/settings/documentproperties.ui:167
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#. i18n: file: src/settings/documentproperties.ui:237
+#. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
+#: src/parleydocument.cpp:344 rc.cpp:674 rc.cpp:1013 rc.cpp:1044
+msgid "Languages"
+msgstr "भाषा"
+
+#: src/parleydocument.cpp:352
+msgid "A Second Language"
+msgstr "दोस्रो भाषा"
+
+#: src/parleydocument.cpp:355
+msgid "Lesson 1"
+msgstr "पाठ १"
+
+#: src/parleydocument.cpp:359
+msgid "Box 7 (best)"
+msgstr "बाक्स ७ (उत्कृष्ट)"
+
+#: src/parleydocument.cpp:360
+msgid "Box 6"
+msgstr "बाक्स ६"
+
+#: src/parleydocument.cpp:361
+msgid "Box 5"
+msgstr "बाक्स ५"
+
+#: src/parleydocument.cpp:362
+msgid "Box 4"
+msgstr "बाक्स ४"
+
+#: src/parleydocument.cpp:363
+msgid "Box 3"
+msgstr "बाक्स ३"
+
+#: src/parleydocument.cpp:364
+msgid "Box 2"
+msgstr "बाक्स २"
+
+#: src/parleydocument.cpp:365
+msgid "Box 1 (lowest)"
+msgstr "बाक्स १ (तल्लो)"
+
+#: src/editor/editor.cpp:134
+msgid "Lessons"
+msgstr "पाठहरु"
+
+#: src/editor/editor.cpp:147
+msgid ""
+"Right click to add, delete, or rename lessons. \n"
+"With the checkboxes you can select which lessons you want to practice. \n"
+"Only checked lessons [x] will be asked in the tests!"
+msgstr ""
+"पाठहरू थप्न, मेट्न, वा पुन: नामकरण गर्न दायाँ क्लिक गर्नुहोस् । \n"
+"जाँच बाकसहरूसँग तपाईँ कुन पाठ अभ्यास गर्ने चयन गर्न सक्नुहुन्छ ।\n"
+"जाँच गरिएका पाठहरू मात्र [x] परीक्षामा सोधिनेछ!"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:160
+#. i18n: ectx: property (text), widget (QTreeWidget, PracticeWordTypesTreeWidget)
+#: src/editor/editor.cpp:162 rc.cpp:590
+msgid "Word Types"
+msgstr "शब्द प्रकार"
+
+#: src/editor/editor.cpp:189
+msgid "Grade Boxes"
+msgstr ""
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:92
+#. i18n: ectx: property (text), widget (QRadioButton, ConjugationRadio)
+#: src/editor/editor.cpp:212 rc.cpp:662
+msgid "Conjugation"
+msgstr "संयोजन"
+
+#: src/editor/editor.cpp:240
+msgid "Comparison forms"
+msgstr ""
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:44
+#. i18n: ectx: property (text), widget (QRadioButton, MultipleChoiceRadio)
+#: src/editor/editor.cpp:253 src/practiceold/MCQueryDlg.cpp:42 rc.cpp:644
+msgid "Multiple Choice"
+msgstr "बहुँविध छनौट"
+
+#. i18n: file: src/entry-dialogs/synonymwidget.ui:16
+#. i18n: ectx: property (text), widget (QLabel, synonymLabel)
+#: src/editor/editor.cpp:265 rc.cpp:1404
+msgid "Synonyms"
+msgstr "पर्यायवाची"
+
+#: src/editor/editor.cpp:276
+msgid "Antonyms"
+msgstr "विपरीतार्थ"
+
+#: src/editor/editor.cpp:287
+msgid "False Friends"
+msgstr ""
+
+#: src/editor/editor.cpp:299
+msgid "Phonetic Symbols"
+msgstr ""
+
+#: src/editor/editor.cpp:311
+msgid "Image"
+msgstr "फोटो"
+
+#: src/editor/editor.cpp:323
+msgid "Summary"
+msgstr "सारांश"
+
+#: src/editor/editor.cpp:337
+msgid "Sound"
+msgstr ""
+
+#: src/editor/editor.cpp:349
+msgid "Internet"
+msgstr "इन्टरनेट"
+
+#: src/editor/editor.cpp:377
+msgid "&Upload Vocabulary Document..."
+msgstr ""
+
+#: src/editor/editor.cpp:378
+msgid "Share the current vocabulary collection with other users."
+msgstr ""
+
+#: src/editor/editor.cpp:387
+msgid "&Languages..."
+msgstr "भाषा..."
+
+#: src/editor/editor.cpp:388
+msgid ""
+"Edit which languages are in the collection and their grammar properties."
+msgstr ""
+
+#: src/editor/editor.cpp:397
+msgid "Remove Grades"
+msgstr ""
+
+#: src/editor/editor.cpp:399
+msgid "Remove all grades from the current document"
+msgstr ""
+
+#: src/editor/editor.cpp:406
+msgid "Show Entries from Child Lessons"
+msgstr ""
+
+#: src/editor/editor.cpp:408
+msgid "Enable to also see the entries of child lessons in each lesson."
+msgstr ""
+
+#: src/editor/editor.cpp:414
+msgid "Automatic Translation"
+msgstr "स्वाचालित अनुवाद"
+
+#. i18n: file: src/settings/parley.kcfg:46
+#. i18n: ectx: label, entry (AutomaticTranslation), group (General)
+#: src/editor/editor.cpp:416 rc.cpp:1167
+msgid "Enable automatic translation of the lesson entries."
+msgstr ""
+
+#: src/editor/editor.cpp:422
+msgid "Start Practice..."
+msgstr "अभ्यास सुरु गर्नुहोस्..."
+
+#: src/editor/editor.cpp:424
+msgid "Start a test"
+msgstr "जाँच शुरु गर्नुहोस्"
+
+#: src/editor/editor.cpp:433
+msgid "Configure Practice..."
+msgstr "अभ्यास कन्फिगर गर्नुहोस्..."
+
+#: src/editor/editor.cpp:435
+msgid "Change practice settings"
+msgstr "अभ्यास सेटिङ परिवर्तन गर्नुहोस्"
+
+#: src/editor/editor.cpp:444
+msgid "&Statistics..."
+msgstr "तथ्याङ्क..."
+
+#: src/editor/editor.cpp:446
+msgid "Show statistics for the current collection"
+msgstr "वर्तमान संग्रहका लागि तथ्याङ्क देखाउनुहोस्"
+
+#: src/editor/editor.cpp:452
+msgid "Show Se&arch"
+msgstr "खोजी देखाउनुहोस्"
+
+#: src/editor/editor.cpp:454
+msgid "Toggle display of the search bar"
+msgstr "खोजीपट्टीको प्रदर्शन टगल गर्नुहोस्"
+
+#: src/editor/editor.cpp:466
+msgid "&Script Manager"
+msgstr "स्क्रिप्ट व्यवस्थापक"
+
+#: src/editor/editor.cpp:501
+msgid "Enter search terms here"
+msgstr "यहाँ खोजी सर्तहरू प्रविष्ट गर्नुहोस्"
+
+#: src/editor/editor.cpp:505
+msgid "S&earch:"
+msgstr "खोजी:"
+
+#: src/parleymainwindow.cpp:241
+msgid ""
+"Vocabulary is modified.\n"
+"\n"
+"Save file before exit?\n"
+msgstr ""
+"शब्द सूची परिमार्जन गरिएको छ ।\n"
+"\n"
+"अन्त्य गर्नु अघि फाइल बचत गर्नुहुन्छ ?\n"
+
+#: src/parleymainwindow.cpp:275
+msgid "Creates a new vocabulary collection"
+msgstr ""
+
+#: src/parleymainwindow.cpp:280
+msgid "Opens an existing vocabulary collection"
+msgstr ""
+
+#: src/parleymainwindow.cpp:284
+msgid "Download New Vocabularies..."
+msgstr ""
+
+#: src/parleymainwindow.cpp:286
+msgid "Downloads new vocabulary collections"
+msgstr ""
+
+#: src/parleymainwindow.cpp:293
+msgid "Open &Downloaded Vocabularies..."
+msgstr ""
+
+#: src/parleymainwindow.cpp:295
+msgid "Open downloaded vocabulary collections"
+msgstr ""
+
+#: src/parleymainwindow.cpp:314
+msgid "Save the active vocabulary collection"
+msgstr ""
+
+#: src/parleymainwindow.cpp:320
+msgid "Save the active vocabulary collection with a different name"
+msgstr ""
+
+#: src/parleymainwindow.cpp:334
+msgid "&Export..."
+msgstr "निर्यात"
+
+#: src/parleymainwindow.cpp:337
+msgid "Export to HTML or CSV"
+msgstr "HTML वा CSV मा निर्यात गर्नुहोस्"
+
+#: src/parleymainwindow.cpp:344
+msgid "&Properties..."
+msgstr "गुण..."
+
+#: src/parleymainwindow.cpp:347
+msgid "Edit document properties"
+msgstr "कागजात गुण सम्पादन गर्नुहोस्"
+
+#: src/parleymainwindow.cpp:352
+msgid "Close the current collection"
+msgstr "वर्तमान संग्रह बन्द गर्नुहोस्"
+
+#: src/parleymainwindow.cpp:357
+msgid "Quit Parley"
+msgstr "पार्ले अन्त्य गर्नुहोस्"
+
+#: src/parleymainwindow.cpp:363
+msgid "Show the configuration dialog"
+msgstr "कन्फिगरेसन संवाद देखाउनुहोस्"
+
+#: src/statistics-dialogs/statisticsmodel.cpp:31
+#, kde-format
+msgctxt "Grade in language, table header"
+msgid "Grade (%1)"
+msgstr ""
+
+#: src/statistics-dialogs/StatisticsDialog.cpp:44
+#: src/statistics-dialogs/StatisticsDialog.cpp:48
+#: src/practiceold/entryfilter.cpp:117
+msgid "Start Practice"
+msgstr "अभ्यास सुरु गर्नुहोस्"
+
+#: src/statistics-dialogs/StatisticsDialog.cpp:49
+msgid "Configure Practice"
+msgstr "अभ्यास कन्फिगर गर्नुहोस्"
+
+#: src/statistics-dialogs/StatisticsDialog.cpp:49
+msgid "Configure practice settings"
+msgstr "अभ्यास सेटिङ कन्फिगर गर्नुहोस्"
+
+#: src/statistics-dialogs/StatisticsDialog.cpp:50
+msgid "Select the lessons to practice:"
+msgstr "अभ्यासका लागि पाठहरु छान्नुहोस्:"
+
+#: src/statistics-dialogs/StatisticsDialog.cpp:54
+msgid "Document Statistics"
+msgstr "कागजात तथ्याङ्क"
+
+#: src/statistics-dialogs/StatisticsDialog.cpp:56
+msgid "Average grades for each lesson:"
+msgstr ""
+
+#: src/statistics-dialogs/lessonstatistics.cpp:87
+msgid "Remove &Grades"
+msgstr ""
+
+#: src/statistics-dialogs/lessonstatistics.cpp:89
+msgid "Remove all grades from this lesson"
+msgstr ""
+
+#. i18n: file: src/editor/editorui.rc:12
+#. i18n: ectx: Menu (edit)
+#: src/welcomescreen/buttondelegate.cpp:42 rc.cpp:23
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#. i18n: file: src/editor/editorui.rc:60
+#. i18n: ectx: Menu (learning)
+#: src/welcomescreen/buttondelegate.cpp:45 rc.cpp:32
+msgid "&Practice"
+msgstr "अभ्यास"
+
+#: src/main.cpp:36
+msgid "Vocabulary Trainer"
+msgstr "शब्द सूची प्रशिक्षक"
+
+#. i18n: file: src/welcomescreen/welcomescreen.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, WelcomeScreen)
+#: src/main.cpp:40 rc.cpp:47
+msgid "Parley"
+msgstr "पार्ले"
+
+#: src/main.cpp:44
+msgid ""
+"© 1999-2002\tEwald Arnold\n"
+"© 2001-2002\tThe KDE team\n"
+"© 2004-2007\tPeter Hedlund\n"
+"© 2007-2008\tFrederik Gladhorn\n"
+msgstr ""
+
+#: src/main.cpp:48
+msgid "Helps you train your vocabulary"
+msgstr "तपाईँलाई तपाईँको शब्द सूची प्रशिक्षण गर्न मद्दत गर्दछ"
+
+#: src/main.cpp:52
+msgid "Frederik Gladhorn"
+msgstr "फ्रेड्रिक ग्लाडहोर्न"
+
+#: src/main.cpp:53
+msgid "Current Maintainer"
+msgstr "हालको सम्भारकर्ता"
+
+#: src/main.cpp:56
+msgid "David Capel"
+msgstr ""
+
+#: src/main.cpp:57
+msgid "Practice Dialogs"
+msgstr ""
+
+#: src/main.cpp:60
+msgid "Avgoustinos Kadis"
+msgstr ""
+
+#: src/main.cpp:61
+msgid "Scripting"
+msgstr ""
+
+#: src/main.cpp:64
+msgid "Peter Hedlund"
+msgstr "पिटर हेडलुन्ड"
+
+#: src/main.cpp:65
+msgid "Countless fixes, former maintainer, port to KDE4"
+msgstr "गणनाविहिन स्थिरता, अघिल्ला सम्भारकर्ता, KDE4 मा पोर्ट"
+
+#: src/main.cpp:68
+msgid "Ewald Arnold"
+msgstr "इवाल्ड अर्नोल्ड"
+
+#: src/main.cpp:68
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: src/main.cpp:73
+msgid "Lee Olson"
+msgstr "ली ओल्सन"
+
+#: src/main.cpp:74
+msgid "Artwork and Oxygen Icons"
+msgstr ""
+
+#: src/main.cpp:76
+msgid "Anne-Marie Mahfouf"
+msgstr "एन्ने-म्यारी महफउफ"
+
+#: src/main.cpp:77
+msgid "Port to KConfig XT"
+msgstr "KConfig XT मा पोर्ट"
+
+#: src/main.cpp:79
+msgid "Jeremy Whiting"
+msgstr "जेरेमी वाइटिङ"
+
+#: src/main.cpp:80
+msgid "Rewriting the kvtml library for KDE4"
+msgstr "KDE4 का लागि kvtml लाइब्रेरी पुन: लेखन गर्दै"
+
+#: src/main.cpp:82
+msgid "Markus Büchele"
+msgstr "मार्कस बुचेले"
+
+#: src/main.cpp:83
+msgid "Bug reports and testing on the way to KDE4"
+msgstr "KDE4 को मार्गमा बग प्रतिवेदनहरू र परीक्षण"
+
+#: src/main.cpp:85
+msgid "Ramona Knapp"
+msgstr "रामोना कन्या"
+
+#: src/main.cpp:86
+msgid "Conceived the name Parley"
+msgstr "पार्ले नाम विचार गरियो"
+
+#: src/main.cpp:92
+msgid "Start practice instead of editor"
+msgstr ""
+
+#: src/main.cpp:93
+msgid "+[file]"
+msgstr "+[file]"
+
+#: src/main.cpp:93
+msgid "Document file to open"
+msgstr "खोल्नका लागि कागजात फाइल"
+
+#: src/practiceold/entryfilter.cpp:92 src/practiceold/testentrymanager.cpp:65
+msgid ""
+"The vocabulary document contains no entries that can be used for the chosen "
+"type of practice."
+msgstr ""
+
+#: src/practiceold/entryfilter.cpp:100
+msgid ""
+"The vocabulary document contains no articles for the current language. "
+"Please add some in the Edit->Grammar menu."
+msgstr ""
+
+#: src/practiceold/practicesummarydialog.cpp:28
+msgid "Practice Summary"
+msgstr "अभ्यास सारांश"
+
+#: src/practiceold/VerbQueryDlg.cpp:37
+msgid "Verb Training"
+msgstr "क्रिया प्रशिक्षण"
+
+#: src/practiceold/VerbQueryDlg.cpp:401
+#, kde-format
+msgid "Current tense is: %1"
+msgstr "हालको काल: %1"
+
+#: src/practiceold/AdjQueryDlg.cpp:35
+msgid "Comparison Training"
+msgstr "तुलनात्मक प्रशिक्षण"
+
+#: src/practiceold/vocabularypractice.cpp:111
+msgid ""
+"The test dialog was not answered several times in a row.\n"
+"It is assumed that there is currently nobody in front of the screen, and for "
+"that reason the practice is stopped."
+msgstr ""
+"परीक्षण संवादलाई पङ्क्तिमा धेरै पटक सम्म जवाफ दिइएन ।\n"
+"हाल त्यहाँ पर्दाको अगाडि कोही पनि छैन भन्ने मानिएको छ, र त्यो कारणका लागि "
+"अभ्यास रोकिएको छ ।"
+
+#: src/practiceold/vocabularypractice.cpp:115
+msgid "Stopping Test"
+msgstr "परीक्षण रोक्दै"
+
+#: src/practiceold/mixedletterpracticedialog.cpp:28
+msgid "Image Practice"
+msgstr "छवि अभ्यास"
+
+#: src/practiceold/practicedialog.cpp:70
+#, kde-format
+msgctxt "@popupmessage"
+msgid ""
+"Either the language set up is incorrect or no spellchecker was installed for "
+"%1 (%2)."
+msgstr ""
+
+#: src/practiceold/practicedialog.cpp:70 src/vocabulary/vocabularyview.cpp:399
+msgctxt "@title of a popup"
+msgid "No Spell Checker Available"
+msgstr ""
+
+#: src/practiceold/writtenpracticedialog.cpp:47
+msgid "Written Practice"
+msgstr "लिखित अभ्यास"
+
+#: src/practiceold/writtenpracticedialog.cpp:170
+msgid "<font color=\"#188C18\">You are right!</font>"
+msgstr "<font color=\"#188C18\">तपाईँ सही हुनुहुन्छ!</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:173
+msgid "<font color=\"#222978\">Watch your capitalization!</font>"
+msgstr "<font color=\"#222978\">तपाईँको ठूलो अक्षर हेर्नुहोस्!</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:176
+msgid ""
+"<font color=\"#8C1818\">I think you made a spelling mistake. But the word is "
+"right.</font>"
+msgstr ""
+"<font color=\"#8C1818\">मलाई तपाईँले हिज्जे गलत र्नुभए जस्तो लाग्यो । तर "
+"शब्द सही छ ।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:179
+msgid "<font color=\"#8C1818\">You made a mistake.</font>"
+msgstr "<font color=\"#8C1818\">तपाईँले गल्ति गर्नुभयो ।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:182
+msgid "<font color=\"#222978\">Your accentuation was wrong.</font>"
+msgstr "<font color=\"#222978\">तपाईँको प्रबलन गलत छ ।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:185
+msgid "<font color=\"#222978\">The article is wrong.</font>"
+msgstr "<font color=\"#222978\">लेख गलत छ ।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:188
+msgid "<font color=\"#222978\">The article is missing.</font>"
+msgstr "<font color=\"#222978\">लेख हराइरहेको छ ।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:191
+msgid "<font color=\"#8C1818\">Watch out! This is a false friend!</font>"
+msgstr "<font color=\"#8C1818\">बाहिर हेर्नुहोस्! यो गलत साथी हो!</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:194
+msgid "<font color=\"#8C1818\">Great, you entered a synonym.</font>"
+msgstr ""
+"<font color=\"#8C1818\">उत्तम, तपाईँले पर्यायवाची प्रविष्ट गर्नुभयो ।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:197
+msgid ""
+"<font color=\"#8C8C18\">Please enter something for me to check.</font>"
+msgstr ""
+"<font color=\"#8C8C18\">कृपया मलाई जाँच्नका लागि केही प्रविष्ट गर्नुहोस् "
+"।</font>"
+
+#: src/practiceold/writtenpracticedialog.cpp:200
+msgid ""
+"<font color=\"#8C1818\">I know that word, but are you sure it is the right "
+"one here?</font>"
+msgstr ""
+
+#: src/practiceold/writtenpracticedialog.cpp:204
+msgid "There is a mistake."
+msgstr "त्यहाँ गल्ति छ ।"
+
+#: src/practiceold/writtenpracticedialog.cpp:231
+msgid "The answer was wrong."
+msgstr "तपाईँको जवाफ गलत छ ।"
+
+#: src/practiceold/writtenpracticedialog.cpp:394
+#: src/practiceold/MCQueryDlg.cpp:227
+msgid "Well done, you knew the correct answer."
+msgstr "राम्रो गर्नुभयो, तपाईँले सही जवाफ थाहा पाउनुभयो ।"
+
+#: src/practiceold/ArtQueryDlg.cpp:36
+msgctxt "@title:window"
+msgid "Article Training"
+msgstr "लेख प्रशिक्षण"
+
+#: src/practiceold/ArtQueryDlg.cpp:112
+msgctxt "@label the gender of the word: masculine"
+msgid "&masculine"
+msgstr "पुलिङ्ग"
+
+#: src/practiceold/ArtQueryDlg.cpp:113
+msgctxt "@label the gender of the word: feminine"
+msgid "&feminine"
+msgstr "स्त्रीलिङ्ग"
+
+#: src/practiceold/ArtQueryDlg.cpp:114
+msgctxt "@label the gender of the word: neuter"
+msgid "&neuter"
+msgstr "तटस्थ"
+
+#: src/practiceold/ArtQueryDlg.cpp:125
+msgctxt "@label the gender of the word: masculine"
+msgid "&masculine:\t"
+msgstr "पुलिङ्ग:"
+
+#: src/practiceold/ArtQueryDlg.cpp:135
+msgctxt "@label the gender of the word: feminine"
+msgid "&feminine:\t"
+msgstr "स्त्रीलिङ्ग:"
+
+#: src/practiceold/ArtQueryDlg.cpp:148
+msgctxt "@label the gender of the word: neuter"
+msgid "&neuter:\t"
+msgstr "तटस्थ:"
+
+#: src/practiceold/MCQueryDlg.cpp:240
+msgid "Your answer was wrong."
+msgstr "तपाईँको जवाफ गलत छ ।"
+
+#: src/practiceold/SimpleQueryDlg.cpp:90
+#: src/practiceold/SimpleQueryDlg.cpp:102
+msgid "Expression"
+msgstr "अभिव्यक्ति"
+
+#: src/practiceold/SimpleQueryDlg.cpp:91
+msgid "Enter the synonym:"
+msgstr "पर्यायवाची शब्द प्रविष्ट गर्नुहोस्:"
+
+#: src/practiceold/SimpleQueryDlg.cpp:92
+msgid "Synonym Training"
+msgstr "पर्यायवाची शब्द प्रशिक्षण"
+
+#: src/practiceold/SimpleQueryDlg.cpp:103
+msgid "Enter the antonym:"
+msgstr "विपरीतार्थ शब्द प्रविष्ट गर्नुहोस्:"
+
+#: src/practiceold/SimpleQueryDlg.cpp:104
+msgid "Antonym Training"
+msgstr "विपरीतार्थ शब्द प्रशिक्षण"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, ParaphraseRadio)
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/practiceold/SimpleQueryDlg.cpp:113
+#: src/vocabulary/vocabularymodel.cpp:304 rc.cpp:653 rc.cpp:1521
+msgid "Paraphrase"
+msgstr "व्याख्या"
+
+#: src/practiceold/SimpleQueryDlg.cpp:114
+msgid "Enter the word:"
+msgstr "शब्द प्रविष्ट गर्नुहोस्:"
+
+#: src/practiceold/SimpleQueryDlg.cpp:115
+msgid "Paraphrase Training"
+msgstr "व्याख्या प्रशिक्षण"
+
+#: src/practiceold/SimpleQueryDlg.cpp:123
+msgid "Example sentence"
+msgstr "उदाहरण वाक्य"
+
+#: src/practiceold/SimpleQueryDlg.cpp:124
+msgid "Fill in the missing word:"
+msgstr "हराएको शब्दमा भर्नुहोस्:"
+
+#: src/practiceold/SimpleQueryDlg.cpp:125
+msgid "Example Training"
+msgstr "उदाहरण प्रशिक्षण"
+
+#: src/configure-practice/configurepracticedialog.cpp:32
+msgctxt "@title:window"
+msgid "Configure Practice"
+msgstr "अभ्यास कन्फिगर गर्नुहोस्"
+
+#: src/configure-practice/configurepracticedialog.cpp:37
+msgctxt "@title:group"
+msgid "Practice"
+msgstr "अभ्यास"
+
+#: src/configure-practice/configurepracticedialog.cpp:37
+msgid "Practice options"
+msgstr "अभ्यास विकल्प"
+
+#: src/configure-practice/configurepracticedialog.cpp:40
+msgctxt ""
+"@title:group vocabulary can be set to be blocked for a certain amount of time"
+msgid "Blocking"
+msgstr "रोक्दै"
+
+#: src/configure-practice/configurepracticedialog.cpp:40
+msgid "Blocking Settings"
+msgstr "सेटिङ रोक्दै"
+
+#: src/configure-practice/configurepracticedialog.cpp:43
+msgctxt ""
+"@title:group ignore vocabulary based on some properties like word type"
+msgid "Thresholds"
+msgstr "थ्रेसहोल्ड"
+
+#: src/configure-practice/configurepracticedialog.cpp:43
+msgid "Threshold Settings"
+msgstr "थ्रेसहोल्ड सेटिङ"
+
+#: src/configure-practice/configurepracticedialog.cpp:46
+msgctxt ""
+"@title:group Configure advanced settings for practicing vocabulary, short "
+"title in config dialog."
+msgid "Advanced"
+msgstr "उन्नत"
+
+#: src/configure-practice/configurepracticedialog.cpp:46
+msgctxt "Configure advanced settings for practicing vocabulary."
+msgid "Advanced Practice Settings"
+msgstr "उन्नत अभ्यास सेटिङ"
+
+#: src/configure-practice/blockoptions.cpp:43
+msgid "Do not Care"
+msgstr "वास्ता नगर्नुहोस्"
+
+#: src/configure-practice/blockoptions.cpp:46
+msgid "30 Min"
+msgstr "३० मिनेट"
+
+#: src/configure-practice/blockoptions.cpp:47
+msgid "1 Hour"
+msgstr "१ घण्टा"
+
+#: src/configure-practice/blockoptions.cpp:48
+msgid "2 Hours"
+msgstr "२ घण्टा"
+
+#: src/configure-practice/blockoptions.cpp:49
+msgid "4 Hours"
+msgstr "४ घण्टा"
+
+#: src/configure-practice/blockoptions.cpp:50
+msgid "8 Hours"
+msgstr "८ घण्टा"
+
+#: src/configure-practice/blockoptions.cpp:51
+msgid "12 Hours"
+msgstr "१२ घण्टा"
+
+#: src/configure-practice/blockoptions.cpp:52
+msgid "18 Hours"
+msgstr "१८ घण्टा"
+
+#: src/configure-practice/blockoptions.cpp:54
+msgid "1 Day"
+msgstr "१ दिन"
+
+#: src/configure-practice/blockoptions.cpp:55
+msgid "2 Days"
+msgstr "२ दिन"
+
+#: src/configure-practice/blockoptions.cpp:56
+msgid "3 Days"
+msgstr "३ दिन"
+
+#: src/configure-practice/blockoptions.cpp:57
+msgid "4 Days"
+msgstr "४ दिन"
+
+#: src/configure-practice/blockoptions.cpp:58
+msgid "5 Days"
+msgstr "५ दिन"
+
+#: src/configure-practice/blockoptions.cpp:59
+msgid "6 Days"
+msgstr "६ दिन"
+
+#: src/configure-practice/blockoptions.cpp:61
+msgid "1 Week"
+msgstr "१ हप्ता"
+
+#: src/configure-practice/blockoptions.cpp:62
+msgid "2 Weeks"
+msgstr "२ हप्ता"
+
+#: src/configure-practice/blockoptions.cpp:63
+msgid "3 Weeks"
+msgstr "३ हप्ता"
+
+#: src/configure-practice/blockoptions.cpp:64
+msgid "4 Weeks"
+msgstr "४ हप्ता"
+
+#: src/configure-practice/blockoptions.cpp:66
+msgid "1 Month"
+msgstr "१ महिना"
+
+#: src/configure-practice/blockoptions.cpp:67
+msgid "2 Months"
+msgstr "२ महिना"
+
+#: src/configure-practice/blockoptions.cpp:68
+msgid "3 Months"
+msgstr "३ महिना"
+
+#: src/configure-practice/blockoptions.cpp:69
+msgid "4 Months"
+msgstr "४ महिना"
+
+#: src/configure-practice/blockoptions.cpp:70
+msgid "5 Months"
+msgstr "५ महिना"
+
+#: src/configure-practice/blockoptions.cpp:71
+msgid "6 Months"
+msgstr "६ महिना"
+
+#: src/configure-practice/blockoptions.cpp:72
+msgid "10 Months"
+msgstr "१० महिना"
+
+#: src/configure-practice/blockoptions.cpp:73
+msgid "12 Months"
+msgstr "१२ महिना"
+
+#: src/configure-practice/blockoptions.cpp:244
+msgid "Illogical blocking times.\n"
+msgstr "अयथार्थ बन्द समय ।\n"
+
+#: src/configure-practice/blockoptions.cpp:246
+#: src/configure-practice/blockoptions.cpp:262
+#, kde-format
+msgid "The time for level %1 should be lower than the time for level %2.\n"
+msgstr "तह %1 का लागि समय, तह %2 का लागि भन्दा सानो हुनेछ ।\n"
+
+#: src/configure-practice/blockoptions.cpp:260
+msgid ""
+"\n"
+"Illogical expiration times.\n"
+msgstr ""
+"\n"
+"अयथार्थ समाप्ति समय ।\n"
+
+#: src/configure-practice/blockoptions.cpp:279
+msgid ""
+"\n"
+"Illogical blocking vs. expiration times.\n"
+msgstr ""
+"\n"
+"अयथार्थ बन्द/समाप्ति समय ।\n"
+
+#: src/configure-practice/blockoptions.cpp:281
+#, kde-format
+msgid ""
+"The blocking time at level %1 should be lower than the expiration time.\n"
+msgstr "तह %1 मा बन्द समय समाप्ति समय भन्दा कम हुनेछ ।\n"
+
+#: src/configure-practice/blockoptions.cpp:287
+msgid "Illogical Values"
+msgstr "अयथार्थ मान"
+
+#: src/configure-practice/configurepracticewidget.cpp:67
+msgid "No options"
+msgstr "विकल्प छैन"
+
+#. i18n: file: src/export/exportdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
+#: src/export/exportdialog.cpp:46 rc.cpp:695
+msgid "Export"
+msgstr "निर्यात"
+
+#: src/export/exportdialog.cpp:72
+msgid "HTML document"
+msgstr ""
+
+#: src/export/exportdialog.cpp:110
+msgid "Export As"
+msgstr ""
+
+#: src/vocabulary/vocabularycolumnsdialog.cpp:51
+msgid "Vocabulary Columns"
+msgstr ""
+
+#: src/vocabulary/vocabularycolumnsdialog.cpp:60
+msgid "Enable/Disable the columns for each language"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:36
+msgid "New"
+msgstr "नयाँ"
+
+#: src/vocabulary/wordtypeview.cpp:38
+msgid "Add a new word type to your document"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:44
+msgid "Rename"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:46
+msgid "Rename the selected word type"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:52
+msgid "Delete Word Type"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:54
+msgid "Delete the selected word type."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:60
+msgctxt ""
+"Let the user select what grammatical meaning is connected to a word type "
+"(nouns have gender, verbs conjugations etc)"
+msgid "Grammar"
+msgstr "व्याकरण"
+
+#: src/vocabulary/wordtypeview.cpp:62
+msgid "To let Parley know the grammatical meaning of a word type."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:71
+msgid "This word type folder contains nouns."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:77
+msgid "Masculine Noun"
+msgstr "पुलिङ्ग नाम"
+
+#: src/vocabulary/wordtypeview.cpp:79
+msgid "This word type folder contains masculine nouns."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:85
+msgid "Feminine Noun"
+msgstr "स्त्रीलिङ्ग नाम"
+
+#: src/vocabulary/wordtypeview.cpp:87
+msgid "This word type folder contains feminine nouns."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:93
+msgid "Neuter Noun"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:95
+msgid "This word type folder contains neuter nouns."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:103
+msgid "This word type folder contains adjectives."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:111
+msgid "This word type folder contains adverbs."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:120
+msgid "This word type folder contains verbs."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:126
+msgid "No Special Type"
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:129
+msgid "This word type folder contains no word type with special meaning."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:232
+msgid "The root word type cannot be deleted."
+msgstr ""
+
+#: src/vocabulary/wordtypeview.cpp:241
+#, kde-format
+msgid ""
+"There is a word left with this word type. It will lose its type. Continue?"
+msgid_plural ""
+"There are %1 words left with this word type. They will lose their word type. "
+"Continue?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vocabulary/lessonview.cpp:32
+msgid "New Lesson"
+msgstr "नयाँ पाठ"
+
+#: src/vocabulary/lessonview.cpp:34
+msgid "Add a new lesson to your document"
+msgstr "तपाईँको कागजातमा नयाँ पाठ थप्नुहोस्"
+
+#: src/vocabulary/lessonview.cpp:40
+msgid "Rename Lesson"
+msgstr "पाठको पुन: नामकरण गर्नुहोस्"
+
+#: src/vocabulary/lessonview.cpp:42
+msgid "Rename the selected lesson"
+msgstr "चयन गरिएका पाठ पुन: नामकरण गर्नुहोस्"
+
+#: src/vocabulary/lessonview.cpp:48
+msgid "Delete Lesson"
+msgstr "पाठ मेट्नुहोस्"
+
+#: src/vocabulary/lessonview.cpp:50
+msgid "Delete the selected lesson."
+msgstr "चयन गरिएका पाठ मेट्नुहोस् ।"
+
+#: src/vocabulary/lessonview.cpp:56
+msgid "Split Lesson into Smaller Lessons"
+msgstr "पाठलाई स-साना पाठमा विभाजन गर्नुहोस्"
+
+#: src/vocabulary/lessonview.cpp:58
+msgid "Make multiple smaller lessons out of one big lesson."
+msgstr "एउटा ठूलो पाठ मध्यबाट बहुँविध साना पाठहरू बनाउँनुहोस् ।"
+
+#: src/vocabulary/lessonview.cpp:131 src/vocabulary/leitnerview.cpp:117
+msgid "The root lesson cannot be deleted."
+msgstr ""
+
+#: src/vocabulary/lessonview.cpp:140 src/vocabulary/leitnerview.cpp:126
+#, kde-format
+msgid "There is %1 word left in this lesson. Do you want to delete it?"
+msgid_plural ""
+"There are %1 words left in this lesson. Do you want to delete them?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vocabulary/lessonview.cpp:154
+msgid "Entries per Lesson"
+msgstr "प्रति पाठ प्रविष्टि"
+
+#: src/vocabulary/lessonview.cpp:154
+msgid ""
+"The lesson will be split into smaller lessons. How many entries in each "
+"lesson do you want?"
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:83
+msgid "&Add New Entry"
+msgstr "नयाँ प्रविष्टि थप्नुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:86
+msgid "Append a new row to the vocabulary"
+msgstr "शब्द सूचीमा नयाँ पङ्क्ति थप्नुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:94
+msgid "&Delete Entry"
+msgstr "प्रविष्टि मेट्नुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:97
+msgid "Delete the selected rows"
+msgstr "चयन गरिएका पङ्क्ति मेट्नुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:107
+msgid "Copy"
+msgstr "प्रतिलिपि बनाउँनुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:113
+msgid "Cut"
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:119
+msgid "Paste"
+msgstr "टाँस्नुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:125
+msgid "Select all rows"
+msgstr "सबै पङ्क्ति चयन गर्नुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:130
+msgid "Deselect all rows"
+msgstr "सबै पङ्क्ति चयनबाट हटाउनुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:138
+msgid "Vocabulary Columns..."
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:139
+msgid "Toggle display of individual vocabulary columns"
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:249
+#, kde-format
+msgid "Do you really want to delete the selected entry?"
+msgid_plural "Do you really want to delete the selected %1 entries?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vocabulary/vocabularyview.cpp:249
+msgid "Delete"
+msgstr "मेटाउनुहोस्"
+
+#: src/vocabulary/vocabularyview.cpp:399
+#, kde-format
+msgctxt "@popupmessage"
+msgid ""
+"Either the language set up is incorrect or no spellchecker was installed for "
+"this locale: %1."
+msgstr ""
+
+#: src/vocabulary/basiccontainermodel.cpp:133
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: src/vocabulary/lessonmodel.cpp:60
+#, kde-format
+msgctxt "display of the name of the vocabulary collection"
+msgid "Collection: %1"
+msgstr ""
+
+#: src/vocabulary/vocabularymodel.cpp:197
+msgid "You can drag and drop words onto their word type."
+msgstr ""
+
+#: src/vocabulary/vocabularymodel.cpp:199
+msgid "Enable the synonym view to edit synonyms."
+msgstr ""
+
+#: src/vocabulary/vocabularymodel.cpp:201
+msgid "Enable the antonym view to edit antonyms."
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/vocabulary/vocabularymodel.cpp:292 rc.cpp:1515
+msgid "Pronunciation"
+msgstr "उच्चारण"
+
+#: src/vocabulary/vocabularymodel.cpp:294
+msgid "Word Type"
+msgstr ""
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:99
+#. i18n: ectx: property (text), widget (QRadioButton, SynonymRadio)
+#. i18n: file: src/entry-dialogs/synonymwidget.ui:26
+#. i18n: ectx: property (text), widget (QPushButton, synonymButton)
+#: src/vocabulary/vocabularymodel.cpp:296 rc.cpp:665 rc.cpp:1407
+msgid "Synonym"
+msgstr "पर्यायवाची शब्द"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:106
+#. i18n: ectx: property (text), widget (QRadioButton, AntonymRadio)
+#: src/vocabulary/vocabularymodel.cpp:298 rc.cpp:668
+msgid "Antonym"
+msgstr "विपरीतार्थ शब्द"
+
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/vocabulary/vocabularymodel.cpp:300 rc.cpp:1518
+msgid "Example"
+msgstr "उदाहरण"
+
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/vocabulary/vocabularymodel.cpp:302 rc.cpp:1524
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: src/vocabulary/vocabularymodel.cpp:323
+msgid "Please use Edit -> Languages to set up your document."
+msgstr ""
+
+#: src/vocabulary/vocabularymodel.cpp:323
+msgid "No Languages Defined"
+msgstr ""
+
+#: src/vocabulary/vocabularymodel.cpp:328
+msgid "Select a lesson before adding vocabulary."
+msgstr ""
+
+#: src/vocabulary/vocabularymodel.cpp:328
+msgid "No Lesson Selected"
+msgstr "कुनै पाठ छानिएको छैन"
+
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/vocabulary/containermodel.cpp:171 rc.cpp:1509
+msgid "Lesson"
+msgstr "पाठ"
+
+#: src/vocabulary/containermodel.cpp:179
+msgid "Number of entries in this lesson."
+msgstr ""
+
+#: src/settings/languagepropertiespage.cpp:79
+msgid "without name"
+msgstr "नाम विहिन"
+
+#: src/settings/languagepropertiespage.cpp:90
+msgid "No icon"
+msgstr "प्रतिमा छैन"
+
+#: src/settings/languagepropertiespage.cpp:377
+#: src/settings/languagepropertiespage.cpp:399
+msgid "Tense Name"
+msgstr "कालको नाम"
+
+#: src/settings/languagepropertiespage.cpp:377
+#: src/settings/languagepropertiespage.cpp:399
+msgid "Enter name of tense:"
+msgstr "कालको नाम हाल्नुहोस्:"
+
+#: src/settings/languagepropertiespage.cpp:428
+msgid ""
+"The selected user defined tense could not be deleted\n"
+"because it is in use."
+msgstr ""
+"यो प्रयोगकर्ताले परिभाषित गरेको काल मेट्न सकेन\n"
+"किनभने यो प्रयोगमा छैन ।"
+
+#: src/settings/languagepropertiespage.cpp:428
+msgid "Deleting Tense Description"
+msgstr "काल वर्णन मेट्दै"
+
+#: src/settings/parleyprefs.cpp:38
+msgctxt "title:window general settings"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/settings/parleyprefs.cpp:38
+msgid "General Settings"
+msgstr "सामान्य सेटिङ"
+
+#: src/settings/parleyprefs.cpp:41
+msgid "View"
+msgstr "दृश्य"
+
+#: src/settings/parleyprefs.cpp:41
+msgid "View Settings"
+msgstr "दृश्य सेटिङ"
+
+#: src/settings/languageproperties.cpp:27
+msgid "Edit Languages"
+msgstr "भाषाहरू सम्पादन गर्नुहोस्"
+
+#: src/settings/languageproperties.cpp:31
+msgid "Add language"
+msgstr "भाषा थप्नुहोस्"
+
+#: src/settings/languageproperties.cpp:33
+msgid "Remove language"
+msgstr "भाषा हटाउनुहोस्"
+
+#: src/settings/languageproperties.cpp:48
+msgid "New Language"
+msgstr ""
+
+#: src/settings/languageproperties.cpp:60
+#, kde-format
+msgctxt "Edit language properties"
+msgid "Properties for %1"
+msgstr "%1 का लागि गुण"
+
+#: src/settings/languageproperties.cpp:94
+#, kde-format
+msgid "Really delete language: %1?"
+msgstr "साँच्चिकै भाषा मेट्न चाहनुहुन्छ: %1?"
+
+#: src/settings/languageproperties.cpp:94
+msgid "Remove Language"
+msgstr "भाषा हटाउनुहोस्"
+
+#: src/settings/generaloptions.cpp:60
+msgctxt "CSV separator"
+msgid ";"
+msgstr ";"
+
+#: src/settings/generaloptions.cpp:61
+msgctxt "CSV separator"
+msgid "#"
+msgstr "#"
+
+#: src/settings/generaloptions.cpp:62
+msgctxt "CSV separator"
+msgid "!"
+msgstr "!"
+
+#: src/settings/generaloptions.cpp:63
+msgctxt "CSV separator"
+msgid "|"
+msgstr "|"
+
+#: src/settings/generaloptions.cpp:64
+msgctxt "CSV separator"
+msgid ","
+msgstr ","
+
+#: src/settings/generaloptions.cpp:65
+msgctxt "CSV separator: tabulator"
+msgid "TAB"
+msgstr "TAB"
+
+#: src/settings/generaloptions.cpp:66
+msgctxt "CSV separator"
+msgid ">= 2 SPACES"
+msgstr ">= 2 SPACES"
+
+#: src/settings/generaloptions.cpp:67
+msgctxt "CSV separator"
+msgid " : "
+msgstr " : "
+
+#: src/settings/generaloptions.cpp:68
+msgctxt "CSV separator"
+msgid " :: "
+msgstr " :: "
+
+#: src/entry-dialogs/synonymwidget.cpp:59
+msgid "Select Synonyms"
+msgstr "पर्यायवाची छान्नुहोस्"
+
+#: src/entry-dialogs/synonymwidget.cpp:65
+#, kde-format
+msgid "%1 and %2 are not Synonyms"
+msgstr "%1 र %2 पर्यायवाची होइनन्"
+
+#: src/entry-dialogs/synonymwidget.cpp:67
+#, kde-format
+msgid "%1 and %2 are Synonyms"
+msgstr "%1 र %2 पर्यायवाची हुन्"
+
+#: src/entry-dialogs/synonymwidget.cpp:72
+#, kde-format
+msgid "%1 and %2 are not Antonyms"
+msgstr "%1 र %2 विपरितार्थक होइनन्"
+
+#: src/entry-dialogs/synonymwidget.cpp:74
+#, kde-format
+msgid "%1 and %2 are Antonyms"
+msgstr "%1 र %2 विपरितार्थक हुन्"
+
+#: src/entry-dialogs/synonymwidget.cpp:79
+#, kde-format
+msgid "%1 and %2 are not False Friends"
+msgstr ""
+
+#: src/entry-dialogs/synonymwidget.cpp:81
+#, kde-format
+msgid "%1 and %2 are False Friends"
+msgstr ""
+
+#: src/entry-dialogs/synonymwidget.cpp:90
+#, kde-format
+msgctxt "Title for a list of synonyms for a word"
+msgid "Synonyms of %1:"
+msgstr "%1 को पर्यायवाची:"
+
+#: src/entry-dialogs/synonymwidget.cpp:93
+#, kde-format
+msgctxt "Title for a list of antonyms (opposites) for a word"
+msgid "Antonyms of %1:"
+msgstr "%1 को विपरितार्थक:"
+
+#: src/entry-dialogs/synonymwidget.cpp:96
+#, kde-format
+msgctxt ""
+"Title for a list of false friend (things that sound similar but have "
+"different meanings) for a word"
+msgid "False Friends of %1:"
+msgstr ""
+
+#: src/entry-dialogs/conjugationwidget.cpp:135
+#, kde-format
+msgid "\"%1\" is a verb"
+msgstr "\"%1\" क्रिया हो"
+
+#: src/entry-dialogs/conjugationwidget.cpp:170
+msgid "Could not determine word type of verbs"
+msgstr ""
+
+#: src/entry-dialogs/imagechooserwidget.cpp:49
+msgctxt "@label image preview is empty"
+msgid "No Preview"
+msgstr ""
+
+#: src/entry-dialogs/imagechooserwidget.cpp:60
+msgctxt "@label image preview is empty"
+msgid "No Image"
+msgstr "छवि छैन"
+
+#: src/entry-dialogs/comparisonwidget.cpp:86
+msgid "Could not determine word type of adjectives"
+msgstr ""
+
+#: src/entry-dialogs/comparisonwidget.cpp:105
+msgid "Could not determine word type of adverbs"
+msgstr ""
+
+#: src/entry-dialogs/FromToEntryPage.cpp:160
+#, kde-format
+msgid "Grades from %1 to %2"
+msgstr "%1 बाट %2 सम्म श्रेणी गर्दछ"
+
+#: src/entry-dialogs/declensionwidget.cpp:140
+#, kde-format
+msgid "\"%1\" is a noun"
+msgstr "\"%1\" नाम हो"
+
+#: src/entry-dialogs/declensionwidget.cpp:165
+msgid "Could not determine word type of nouns"
+msgstr ""
+
+#: src/scripts/scriptmanager.cpp:131
+#, kde-format
+msgid "A script could not be activated and has been disabled."
+msgid_plural "%1 scripts could not be activated and have been disabled."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/scripts/scriptmanager.cpp:131
+msgid ""
+"This probably means that there are errors in the script or that the required "
+"packages are not installed."
+msgstr ""
+
+#: src/scripts/scriptmanager.cpp:133
+msgid "Script Activation"
+msgstr ""
+
+#: src/scripts/script.cpp:54
+msgid "The script file does not exist."
+msgstr ""
+
+#: src/scripts/script.cpp:86
+#, kde-format
+msgid "Error in file %1 at line %2:"
+msgstr ""
+
+#: src/scripts/script.cpp:88
+msgctxt "debug information in error message"
+msgid "Backtrace:"
+msgstr ""
+
+#: src/scripts/scriptdialog.cpp:35
+msgid "Script Dialog"
+msgstr ""
+
+#: plasmoid/parley_plasma.cpp:174
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasmoid/parley_plasma.cpp:178
+msgid "*.kvtml|Vocabulary Collections"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"जितेन्द्र हरलालका, श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna "
+"Bal"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Jitendra Harlalka<jitendra@otrc.gov.np>,balshyam24@yahoo.com,,,"
+
+#. i18n: file: plugins/google_images.ui:49
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:5
+msgid "Give a keyword to search for an image related to it:"
+msgstr ""
+
+#. i18n: file: plugins/google_images.ui:61
+#. i18n: ectx: property (text), widget (QPushButton, searchButton)
+#: rc.cpp:8
+msgid "Search"
+msgstr "खोजी गर्नुहोस्"
+
+#. i18n: file: plugins/google_images.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, freeImageCheckBox)
+#: rc.cpp:11
+msgid "Free images only (creative commons, gpl, ...)"
+msgstr ""
+
+#. i18n: file: plugins/google_images.ui:103
+#. i18n: ectx: property (text), widget (QPushButton, previousButton)
+#: rc.cpp:14
+msgid "Previous"
+msgstr "अघिल्लो"
+
+#. i18n: file: plugins/google_images.ui:116
+#. i18n: ectx: property (text), widget (QPushButton, nextButton)
+#: rc.cpp:17
+msgid "Next"
+msgstr "पछिल्लो"
+
+#. i18n: file: src/editor/editorui.rc:7
+#. i18n: ectx: Menu (file)
+#: rc.cpp:20
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: src/editor/editorui.rc:24
+#. i18n: ectx: Menu (view)
+#: rc.cpp:26
+msgid "&View"
+msgstr ""
+
+#. i18n: file: src/editor/editorui.rc:50
+#. i18n: ectx: Menu (lesson)
+#: rc.cpp:29
+msgid "&Lesson"
+msgstr "पाठ"
+
+#. i18n: file: src/editor/editorui.rc:67
+#. i18n: ectx: Menu (scripts)
+#: rc.cpp:35
+msgid "&Scripts"
+msgstr "स्क्रिप्टहरू"
+
+#. i18n: file: src/editor/editorui.rc:76
+#. i18n: ectx: ToolBar (editorToolBar)
+#: rc.cpp:38
+msgid "Editor Toolbar"
+msgstr ""
+
+#. i18n: file: src/parleyui.rc:19
+#. i18n: ectx: Menu (help)
+#: rc.cpp:41
+msgid "&Help"
+msgstr "सहायता"
+
+#. i18n: file: src/parleyui.rc:24
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:44
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: src/welcomescreen/welcomescreen.ui:19
+#. i18n: ectx: property (text), widget (QLabel, headingLabel)
+#: rc.cpp:50
+msgid "<h1>Parley</h1>"
+msgstr ""
+
+#. i18n: file: src/welcomescreen/welcomescreen.ui:26
+#. i18n: ectx: property (text), widget (KPushButton, newButton)
+#: rc.cpp:53
+msgid "Create a New Collection"
+msgstr "नयाँ संग्रह निर्माण गर्नुहोस्"
+
+#. i18n: file: src/welcomescreen/welcomescreen.ui:43
+#. i18n: ectx: property (text), widget (KPushButton, openButton)
+#: rc.cpp:56
+msgid "Open an Existing Collection"
+msgstr "विद्यमान संग्रह खोल्नुहोस्"
+
+#. i18n: file: src/welcomescreen/welcomescreen.ui:50
+#. i18n: ectx: property (text), widget (KPushButton, ghnsButton)
+#: rc.cpp:59
+msgid "Download New Collections"
+msgstr "नयाँ संग्रहहरु डाउनलोड गर्नुहोस्"
+
+#. i18n: file: src/welcomescreen/welcomescreen.ui:73
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
+#: rc.cpp:62
+msgid "Last Opened Collections"
+msgstr ""
+
+#. i18n: file: src/practiceold/showsolutionwidget.ui:53
+#. i18n: ectx: property (text), widget (QLabel, dividerLabel)
+#: rc.cpp:66
+msgid " - "
+msgstr " - "
+
+#. i18n: file: src/practiceold/showsolutionwidget.ui:109
+#. i18n: ectx: property (text), widget (QPushButton, playQuestionSoundButton)
+#. i18n: file: src/practiceold/showsolutionwidget.ui:162
+#. i18n: ectx: property (text), widget (QPushButton, playSolutionSoundButton)
+#: rc.cpp:70 rc.cpp:73
+msgctxt "Listen to the vocabulary entry (sound)"
+msgid "Play"
+msgstr "प्ले गर्नुहोस्"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:43
+#. i18n: ectx: property (text), widget (QLabel, queryLabel)
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:83
+#. i18n: ectx: property (text), widget (QLabel, instructionLabel)
+#. i18n: file: src/settings/optionlistform.ui:19
+#. i18n: ectx: property (windowTitle), widget (QWidget, OptionListForm)
+#. i18n: file: src/settings/documentproperties.ui:19
+#. i18n: ectx: property (windowTitle), widget (QWidget, DocumentProperties)
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:25
+#. i18n: ectx: property (windowTitle), widget (QWidget, DeclensionWidget)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:25
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConjugationWidget)
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, FromToEntryPageForm)
+#: rc.cpp:76 rc.cpp:79 rc.cpp:827 rc.cpp:977 rc.cpp:1365 rc.cpp:1440
+#: rc.cpp:1527
+msgid "-"
+msgstr "-"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:141
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:122
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:299
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:231
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:491
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:120
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:481
+#. i18n: ectx: property (title), widget (QGroupBox, progressgroup)
+#: rc.cpp:82 rc.cpp:124 rc.cpp:178 rc.cpp:217 rc.cpp:311 rc.cpp:335 rc.cpp:386
+msgid "Progress"
+msgstr "प्रगति"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:172
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:154
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:331
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:255
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:515
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:134
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:493
+#. i18n: ectx: property (text), widget (QLabel, countlabel)
+#: rc.cpp:85 rc.cpp:127 rc.cpp:181 rc.cpp:220 rc.cpp:314 rc.cpp:338 rc.cpp:389
+msgid "Count:"
+msgstr "गणना गर्नुहोस्:"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:188
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:170
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:347
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:271
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:531
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:150
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:506
+#. i18n: ectx: property (text), widget (QLabel, timelabel)
+#: rc.cpp:88 rc.cpp:130 rc.cpp:184 rc.cpp:223 rc.cpp:317 rc.cpp:341 rc.cpp:392
+msgid "Time:"
+msgstr "समय:"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:201
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:189
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:360
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:284
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:544
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:163
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:522
+#. i18n: ectx: property (text), widget (QLabel, Cyclelabel)
+#: rc.cpp:91 rc.cpp:133 rc.cpp:187 rc.cpp:226 rc.cpp:320 rc.cpp:344 rc.cpp:395
+msgid "Cycle:"
+msgstr "चक्र:"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:238
+#. i18n: ectx: property (text), widget (QPushButton, know_it)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:226
+#. i18n: ectx: property (text), widget (QPushButton, know_it)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:256
+#. i18n: ectx: property (text), widget (QPushButton, know_it)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:190
+#. i18n: ectx: property (text), widget (QPushButton, know_it)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:450
+#. i18n: ectx: property (text), widget (QPushButton, know_it)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:256
+#. i18n: ectx: property (text), widget (QPushButton, know_it)
+#: rc.cpp:94 rc.cpp:136 rc.cpp:172 rc.cpp:208 rc.cpp:302 rc.cpp:362
+msgid "Skip (I &Know It)"
+msgstr "फड्काउनुहोस् (मलाई यो थाहा छ)"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:251
+#. i18n: ectx: property (text), widget (QPushButton, dont_know)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:252
+#. i18n: ectx: property (text), widget (QPushButton, dont_know)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:269
+#. i18n: ectx: property (text), widget (QPushButton, dont_know)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:216
+#. i18n: ectx: property (text), widget (QPushButton, dont_know)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:463
+#. i18n: ectx: property (text), widget (QPushButton, dont_know)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:269
+#. i18n: ectx: property (text), widget (QPushButton, dont_know)
+#: rc.cpp:97 rc.cpp:142 rc.cpp:175 rc.cpp:214 rc.cpp:305 rc.cpp:365
+msgid "Skip (Do &Not Know)"
+msgstr "फड्काउनुहोस् (थाहा छैन)"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:264
+#. i18n: ectx: property (text), widget (QPushButton, show_all)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:239
+#. i18n: ectx: property (text), widget (QPushButton, show_all)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:243
+#. i18n: ectx: property (text), widget (QPushButton, show_all)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:203
+#. i18n: ectx: property (text), widget (QPushButton, show_all)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:437
+#. i18n: ectx: property (text), widget (QPushButton, show_all)
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:79
+#. i18n: ectx: property (text), widget (QPushButton, showSolutionButton)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:200
+#. i18n: ectx: property (text), widget (QPushButton, show_all)
+#: rc.cpp:100 rc.cpp:139 rc.cpp:169 rc.cpp:211 rc.cpp:299 rc.cpp:329
+#: rc.cpp:356
+msgid "Show &Solution"
+msgstr "समाधान देखाउनुहोस्"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:277
+#. i18n: ectx: property (text), widget (QPushButton, show_more)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:181
+#. i18n: ectx: property (text), widget (QPushButton, show_more)
+#: rc.cpp:103 rc.cpp:353
+msgid "Show &More"
+msgstr "धेरै देखाउनुहोस्"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:290
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:177
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:476
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:228
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#: rc.cpp:106 rc.cpp:205 rc.cpp:308 rc.cpp:359
+msgid "&Verify"
+msgstr "रूजु गर्नुहोस्"
+
+#. i18n: file: src/practiceold/SimpleQueryDlgForm.ui:314
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:292
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:432
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:322
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:603
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:232
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:562
+#. i18n: ectx: property (text), widget (QPushButton, stopPracticeButton)
+#: rc.cpp:109 rc.cpp:145 rc.cpp:190 rc.cpp:229 rc.cpp:323 rc.cpp:347
+#: rc.cpp:398
+msgid "&Stop Practice"
+msgstr "अभ्यास रोक्नुहोस्"
+
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:46
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:112
+msgid "Select the correct article for this noun:"
+msgstr "यो नामका लागि सही लेख चयन गर्नुहोस्:"
+
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:84
+#. i18n: ectx: property (text), widget (QRadioButton, maleRadio)
+#: rc.cpp:115
+msgid "&male"
+msgstr "पुरुष"
+
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, femaleRadio)
+#: rc.cpp:118
+msgid "&female"
+msgstr "महिला"
+
+#. i18n: file: src/practiceold/ArtQueryDlgForm.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, neutralRadio)
+#: rc.cpp:121
+msgid "&neutral"
+msgstr "तटस्थ"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:46
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:148
+msgid "Select the correct translation:"
+msgstr "सही अनुवाद चयन गर्नुहोस्:"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:103
+#. i18n: ectx: property (text), widget (QRadioButton, choiceRadioButton1)
+#: rc.cpp:151
+msgid "1"
+msgstr "१"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:127
+#. i18n: ectx: property (text), widget (QRadioButton, choiceRadioButton2)
+#: rc.cpp:154
+msgid "2"
+msgstr "२"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:151
+#. i18n: ectx: property (text), widget (QRadioButton, choiceRadioButton3)
+#: rc.cpp:157
+msgid "3"
+msgstr "३"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:175
+#. i18n: ectx: property (text), widget (QRadioButton, choiceRadioButton4)
+#: rc.cpp:160
+msgid "4"
+msgstr "४"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:199
+#. i18n: ectx: property (text), widget (QRadioButton, choiceRadioButton5)
+#: rc.cpp:163
+msgid "5"
+msgstr "५"
+
+#. i18n: file: src/practiceold/MCQueryDlgForm.ui:230
+#. i18n: ectx: property (text), widget (QPushButton, continueButton)
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:301
+#. i18n: ectx: property (text), widget (QPushButton, continueButton)
+#: rc.cpp:166 rc.cpp:368
+msgid "&Continue"
+msgstr "जारी राख्नुहोस्"
+
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:46
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:193
+msgid "Fill in the missing comparison expressions:"
+msgstr "हराइरहेको तुलनात्मक अभिव्यक्ति भर्नुहोस्:"
+
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:55
+#. i18n: ectx: property (text), widget (QLabel, lev1Label)
+#: rc.cpp:196
+msgctxt ""
+"Comparison form of adjective - the normal form of the adjective (good)"
+msgid "&Absolute"
+msgstr "सुनिश्चित"
+
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:78
+#. i18n: ectx: property (text), widget (QLabel, lev2Label)
+#: rc.cpp:199
+msgctxt "comparison form of adjectives - comparison form (better)"
+msgid "&Comparative"
+msgstr "तुलनात्मक"
+
+#. i18n: file: src/practiceold/AdjQueryDlgForm.ui:101
+#. i18n: ectx: property (text), widget (QLabel, lev3Label)
+#: rc.cpp:202
+msgctxt "comparison of adjectives - (best)"
+msgid "&Superlative"
+msgstr "सर्वोत्कृष्ट"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:37
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:232
+msgid "Verb:"
+msgstr "क्रिया:"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:53
+#. i18n: ectx: property (text), widget (QLabel, verbNameLabel)
+#: rc.cpp:235
+msgid "verb name"
+msgstr "क्रिया नाम"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:81
+#. i18n: ectx: property (text), widget (QLabel, lab1)
+#: rc.cpp:238
+msgid "Enter the correct conjugation forms."
+msgstr "सही संयोजन फाराम प्रविष्ट गर्नुहोस् ।"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:105
+#. i18n: ectx: property (text), widget (QLabel, instructionLabel)
+#: rc.cpp:242
+#, kde-format, no-c-format
+msgid "Current tense is %1."
+msgstr "हालको काल %1 हो ।"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, singularGroupBox)
+#. i18n: file: src/settings/languagepropertiespage.ui:342
+#. i18n: ectx: property (text), widget (QLabel, male_label_3)
+#. i18n: file: src/settings/languagepropertiespage.ui:456
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:186
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:102
+#. i18n: ectx: property (title), widget (QGroupBox, singularGroupBox)
+#: rc.cpp:245 rc.cpp:764 rc.cpp:779 rc.cpp:1395 rc.cpp:1452
+msgid "Singular"
+msgstr "एकबचन"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:124
+#. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:213
+#. i18n: ectx: property (text), widget (QLabel, pluralFirstPersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:319
+#. i18n: ectx: property (text), widget (QLabel, dualFirstPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:108
+#. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:197
+#. i18n: ectx: property (text), widget (QLabel, dualFirstPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:286
+#. i18n: ectx: property (text), widget (QLabel, pluralFirstPersonLabel)
+#: rc.cpp:248 rc.cpp:266 rc.cpp:284 rc.cpp:1455 rc.cpp:1473 rc.cpp:1491
+msgid "First"
+msgstr "पहिलो"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:140
+#. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:229
+#. i18n: ectx: property (text), widget (QLabel, pluralSecondPersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:335
+#. i18n: ectx: property (text), widget (QLabel, dualSecondPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:213
+#. i18n: ectx: property (text), widget (QLabel, dualSecondPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:302
+#. i18n: ectx: property (text), widget (QLabel, pluralSecondPersonLabel)
+#: rc.cpp:251 rc.cpp:269 rc.cpp:287 rc.cpp:1458 rc.cpp:1476 rc.cpp:1494
+msgid "Second"
+msgstr "दोस्रो"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:156
+#. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:245
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdMalePersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:351
+#. i18n: ectx: property (text), widget (QLabel, dualThirdMalePersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:140
+#. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:229
+#. i18n: ectx: property (text), widget (QLabel, dualThirdMalePersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:318
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdMalePersonLabel)
+#: rc.cpp:254 rc.cpp:272 rc.cpp:290 rc.cpp:1461 rc.cpp:1479 rc.cpp:1497
+msgid "Third Male"
+msgstr "तेस्रो पुरूष"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:172
+#. i18n: ectx: property (text), widget (QLabel, singularThirdFemalePersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:261
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdFemalePersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:367
+#. i18n: ectx: property (text), widget (QLabel, dualThirdFemalePersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:156
+#. i18n: ectx: property (text), widget (QLabel, singularThirdFemalePersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:245
+#. i18n: ectx: property (text), widget (QLabel, dualThirdFemalePersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:334
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdFemalePersonLabel)
+#: rc.cpp:257 rc.cpp:275 rc.cpp:293 rc.cpp:1464 rc.cpp:1482 rc.cpp:1500
+msgid "Third Female"
+msgstr "तेस्रो महिला"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:188
+#. i18n: ectx: property (text), widget (QLabel, singularThirdNeutralPersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:277
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdNeutralPersonLabel)
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:383
+#. i18n: ectx: property (text), widget (QLabel, dualThirdNeutralPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:172
+#. i18n: ectx: property (text), widget (QLabel, singularThirdNeutralPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:261
+#. i18n: ectx: property (text), widget (QLabel, dualThirdNeutralPersonLabel)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:350
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdNeutralPersonLabel)
+#: rc.cpp:260 rc.cpp:278 rc.cpp:296 rc.cpp:1467 rc.cpp:1485 rc.cpp:1503
+msgid "Third Neutral"
+msgstr "तेस्रो तटस्थ"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:207
+#. i18n: ectx: property (title), widget (QGroupBox, pluralGroupBox)
+#. i18n: file: src/settings/languagepropertiespage.ui:355
+#. i18n: ectx: property (text), widget (QLabel, male_label_4)
+#. i18n: file: src/settings/languagepropertiespage.ui:470
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:200
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:280
+#. i18n: ectx: property (title), widget (QGroupBox, pluralGroupBox)
+#: rc.cpp:263 rc.cpp:767 rc.cpp:785 rc.cpp:1401 rc.cpp:1488
+msgid "Plural"
+msgstr "बहुवचन"
+
+#. i18n: file: src/practiceold/VerbQueryDlgForm.ui:313
+#. i18n: ectx: property (title), widget (QGroupBox, dualGroupBox)
+#. i18n: file: src/settings/languagepropertiespage.ui:463
+#. i18n: ectx: property (text), widget (QLabel, dualLabel)
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:193
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:191
+#. i18n: ectx: property (title), widget (QGroupBox, dualGroupBox)
+#: rc.cpp:281 rc.cpp:782 rc.cpp:1398 rc.cpp:1470
+msgid "Dual"
+msgstr "द्व"
+
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:55
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:326
+msgid "Can you order the letters?"
+msgstr "तपाईँ अक्षरहरू क्रममा राख्न सक्नुहुन्छ ?"
+
+#. i18n: file: src/practiceold/mixedletterpracticedialog.ui:92
+#. i18n: ectx: property (text), widget (QPushButton, verifySolutionButton)
+#: rc.cpp:332
+msgid "Verify"
+msgstr "रूजु गर्नुहोस्"
+
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:103
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:350
+msgid "Enter the correct translation:"
+msgstr "सही अनुवाद प्रविष्ट गर्नुहोस्:"
+
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:327
+#. i18n: ectx: property (text), widget (QPushButton, countAsRightButton)
+#: rc.cpp:371
+msgid "Count as &Right"
+msgstr ""
+
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:356
+#. i18n: ectx: property (title), widget (QGroupBox, hintGroupBox)
+#: rc.cpp:374
+msgid "Hints"
+msgstr "सङ्केत"
+
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:362
+#. i18n: ectx: property (text), widget (QCheckBox, falsefriendCheckBox)
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:95
+#. i18n: ectx: property (text), widget (QLabel, fauxami_label)
+#: rc.cpp:377 rc.cpp:1536
+msgid "&False friend:"
+msgstr "गलत साथी:"
+
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:382
+#. i18n: ectx: property (text), widget (QCheckBox, commentCheckBox)
+#. i18n: file: src/settings/documentproperties.ui:115
+#. i18n: ectx: property (text), widget (QLabel, label_remark)
+#: rc.cpp:380 rc.cpp:1001
+msgid "&Comment:"
+msgstr "टिप्पणी:"
+
+#. i18n: file: src/practiceold/writtenpracticedialog.ui:402
+#. i18n: ectx: property (text), widget (QCheckBox, typeCheckBox)
+#: rc.cpp:383
+msgid "T&ype:"
+msgstr "प्रकार:"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/settings/languagepropertiespage.ui:20
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:401 rc.cpp:719
+msgid "General"
+msgstr "सामान्य"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:404
+msgid "Total:"
+msgstr "जम्मा:"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:45
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:407
+msgid "Answered correctly (first attempt):"
+msgstr "सही रूपमा जवाफ दिनुहोस् (पहिलो प्रयास):"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:72
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:410
+msgid "Wrong answer:"
+msgstr "गलत जवाफ:"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:99
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:413
+msgid "Not answered:"
+msgstr "उत्तर दिएको छैन:"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:126
+#. i18n: ectx: property (text), widget (QLabel, skipKnownLabel)
+#: rc.cpp:416
+msgid "Skipped:"
+msgstr "फड्काइयो:"
+
+#. i18n: file: src/practiceold/practicesummarywidget.ui:153
+#. i18n: ectx: property (text), widget (QLabel, skipUnknownLabel)
+#: rc.cpp:419
+msgid "Postponed:"
+msgstr "सारियो:"
+
+#. i18n: file: src/practiceold/entryfilter.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:422
+msgid ""
+"<p>Your selection of vocabulary for the practice is empty.</p><p>Below you "
+"can choose to ignore some of your configuration settings to start a practice "
+"anyway.</p>"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:425
+msgid "Ignore Configuration for:"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, lessonCheckBox)
+#: rc.cpp:428
+msgid "Ignore Lessons"
+msgstr "पाठहरु बेवास्ता गर्नुहोस्"
+
+#. i18n: file: src/practiceold/entryfilter.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, wordTypeCheckBox)
+#: rc.cpp:432
+msgid "Ignore Word Types"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, blockedCheckBox)
+#: rc.cpp:436
+msgid "Ignore Blocked"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, timesWrongCheckBox)
+#: rc.cpp:440
+msgid "Ignore Times Answered Incorrectly"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:112
+#. i18n: ectx: property (text), widget (QCheckBox, timesPracticedCheckBox)
+#: rc.cpp:444
+msgid "Ignore Times Practiced"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, minMaxGradeCheckBox)
+#: rc.cpp:448
+msgid "Ignore Minimum/Maximum Grade"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:152
+#. i18n: ectx: property (text), widget (QLabel, lessonLabel_2)
+#: rc.cpp:452
+msgid "Words"
+msgstr "शब्दहरू"
+
+#. i18n: file: src/practiceold/entryfilter.ui:167
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:455
+msgid "Total number of entries:"
+msgstr ""
+
+#. i18n: file: src/practiceold/entryfilter.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:459
+msgid "Resulting number of words to practice:"
+msgstr ""
+
+#. i18n: file: src/configure-practice/conjugationoptionswidget.ui:38
+#. i18n: ectx: property (text), widget (QTreeWidget, tenseSelectionTreeWidget)
+#. i18n: file: src/settings/languagepropertiespage.ui:695
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:463 rc.cpp:815
+msgid "Tenses"
+msgstr "काल"
+
+#. i18n: file: src/configure-practice/conjugationoptionswidget.ui:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:466
+msgid ""
+"You have not defined any tenses.\n"
+"Use Edit->Languages to configure the tenses in the document and add "
+"conjugation forms to the verbs you want to practice."
+msgstr ""
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:470
+msgid "General Options"
+msgstr "साधरण विकल्प"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:22
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AltLearn)
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:25
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AltLearn)
+#: rc.cpp:473 rc.cpp:476
+msgid ""
+"By checking this, you will use the Leitner method of learning which requires "
+"you to answer correctly to each question 3 times in a row. "
+msgstr ""
+"यो जाँच गर्नाले, तपाईँले लेइटनरको पढ्ने विधि प्रयोग गर्नुहुनेछ जसलाई तपाईँले "
+"पङ्क्तिमा रहेको प्रश्नको ४ पटक सही उत्तर दिनुपर्नेछ । "
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AltLearn)
+#: rc.cpp:479
+msgid "&Require 3 consecutive correct answers to count as right"
+msgstr "सही रूपमा गणना गर्न ३ क्रमागत सही उत्तरको आवश्यक पर्दछ"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:40
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMore)
+#: rc.cpp:482
+msgid "Enable the Show More button on the Random Query screen"
+msgstr "अनियमित क्वेरी पर्दामा धेरै बटन देखाउने सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:43
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMore)
+#: rc.cpp:485
+msgid ""
+"When this is checked, you will be able to use a Show More button which allow "
+"you to get the next letter in your answer in the query. If this is "
+"unchecked, the Show More button will not be enabled, you will not be able to "
+"use it."
+msgstr ""
+"यदि यो जाँचिएको छ भने, तपाईँ धेरै बटन देखाउने प्रयोग गर्न सक्षम हुनुहुनेछ "
+"जसले तपाईँलाई क्वेरीमा तपाईँको जवाफको पछिल्लो अक्षर प्राप्त गर्न अनुमति "
+"दिन्छ । यदि यो जाँचिएको छैन भने, धेरै बटन देकाउने सक्षम हुने छैन, तपाईँ यो "
+"प्रयोग गर्न सक्षम हुनुहुने छैन ।"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMore)
+#: rc.cpp:488
+msgid "Enable S&how More button"
+msgstr "धेरै बटन देखाउने सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
+#: rc.cpp:491
+msgid "Enable Sound"
+msgstr "ध्वनि सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:63
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SkipKnownEnabled)
+#: rc.cpp:494
+msgid "Enable the I Know It button on the Random Query screen"
+msgstr "अनियमित क्वेरी पर्दामा मलाई यो थाह छ बटन सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:66
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_SkipKnownEnabled)
+#: rc.cpp:497
+msgid ""
+"If this is checked, the I Know button will be available. It allows you to "
+"tell the query that you know the result without writing it or having it "
+"checked. This is available by default. If you uncheck this, the I Know "
+"button will not be available."
+msgstr ""
+"यदि यो जाँच गरियो भने, मलाई थाह छ बटन उपलब्ध हुनेछ । यसले तपाईँलाई क्वेरी "
+"भन्न अनुमति दिनेछ जुन तपाईँले यसलाई नलेखी वा जाँच नगरी नतिजा थाह पाउनुहुन्छ "
+"। यो पूर्वानिर्धारण अनुसार उपलब्ध छ । यदि यसलाई जाँच गर्नुभएन भने, मलाई थाह "
+"छैन बटन उपलब्ध हुने छैन ।"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:69
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SkipKnownEnabled)
+#: rc.cpp:500
+msgid "Enable Skip (I Know it) &button"
+msgstr "फड्काउने (मलाई थाहा छ) बटन सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:76
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeImagesEnabled)
+#: rc.cpp:503
+msgid "Enable Images"
+msgstr "छविहरू सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:83
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CountSynonymsAsCorrect)
+#: rc.cpp:506
+msgid "Accept synonyms as correct"
+msgstr "सही रूपमा पर्यायवाची शब्द स्वीकार गर्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:93
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SwapDirection)
+#: rc.cpp:509
+msgid "S&wap direction randomly"
+msgstr "अनियमित रूपमा स्वाप दिशा"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:100
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TestOrderLesson)
+#: rc.cpp:512
+msgid ""
+"When practicing, new words will be chosen loosely in lesson order if this is "
+"selected.  Otherwise, they will be chosen completely at random."
+msgstr ""
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:103
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TestOrderLesson)
+#: rc.cpp:515
+msgid "&Practice in lesson order"
+msgstr "पाठ क्रममा अभ्यास गर्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:110
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHints)
+#: rc.cpp:518
+msgid "Enable Hints"
+msgstr ""
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:121
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:134
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_TestNumberOfEntries)
+#: rc.cpp:521 rc.cpp:527
+msgid ""
+"The number of times vocabulary will show up repeatedly until it is answered "
+"correctly."
+msgstr ""
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:124
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:524
+msgid "&Active entries during practice:"
+msgstr "अभ्यास गर्दा प्रविष्टिहरू सक्रिय पार्नुहोस्:"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:170
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowSolutionAfterAnswer)
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:180
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_ShowSolutionAfterAnswerTime)
+#: rc.cpp:530 rc.cpp:536
+msgid "After the answer was given the solution will be shown for this long"
+msgstr "उत्तर दिए पछि समाधान यो लामोका लागि देखाइनेछ"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:173
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSolutionAfterAnswer)
+#: rc.cpp:533
+msgid "&Show solution after answering:"
+msgstr "जवाफ दिएपछि समाधान देखाउँनुहोस्:"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:183
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_ShowSolutionAfterAnswerTime)
+#: rc.cpp:539
+msgid "unlimited"
+msgstr "असीमीत"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:186
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_ShowSolutionAfterAnswerTime)
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:279
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_PracticeTimeoutTimePerAnswer)
+#: rc.cpp:542 rc.cpp:566
+msgctxt "Seconds (suffix)"
+msgid "s"
+msgstr "s"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:217
+#. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_PracticeTimeout)
+#: rc.cpp:545
+msgid ""
+"If a time limit is set, an answer has to have been given within the time set "
+"when practicing."
+msgstr ""
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:220
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_PracticeTimeout)
+#: rc.cpp:548
+msgid "&Time Limit in Tests"
+msgstr "परीक्षणहरूमा समय सीमा"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:244
+#. i18n: ectx: property (text), widget (QRadioButton, ShowSolutionRadio)
+#: rc.cpp:551
+msgid "&Show solution"
+msgstr "समाधान देखाउनुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:251
+#. i18n: ectx: property (text), widget (QRadioButton, ContinueRadio)
+#: rc.cpp:554
+msgid "&Continue after timeout"
+msgstr "समय समाप्ति पछि जारी राख्नुहोस्"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:263
+#. i18n: ectx: property (text), widget (QLabel, label_mqtime)
+#: rc.cpp:557
+msgid "Limit:"
+msgstr "सीमा:"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:273
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_PracticeTimeoutTimePerAnswer)
+#: rc.cpp:560
+msgid "Set the maximum time allowed per answer."
+msgstr "प्रति उत्तर अनुमति दिएको अधिक्तम समय सेट गर्नुहोस् ।"
+
+#. i18n: file: src/configure-practice/advancedpracticeoptions.ui:276
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_PracticeTimeoutTimePerAnswer)
+#: rc.cpp:563
+msgid "Set here the maximum time you want to allow per answer."
+msgstr "तपाईँले प्रति उत्तर दिन चाहनुभएको अधिक्तम समय यहाँ सेट गर्नुहोस् ।"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:569
+msgid "Only practice vocabulary that fulfills the following conditions:"
+msgstr "निम्न सर्तहरू पूरा गर्ने शब्दसूची मात्र अभ्यास गर्नुहोस्:"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:572
+msgid "At least"
+msgstr "कम्तिमा"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:575
+msgid "At most"
+msgstr "बढीमा"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:578
+msgid "Grade"
+msgstr "श्रेणी"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:52
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:581
+msgid "Times practiced"
+msgstr "पटक अभ्यास गरियो"
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:79
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:584
+msgid "Answered incorrectly"
+msgstr ""
+
+#. i18n: file: src/configure-practice/thresholdoptions.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WordTypesInPracticeEnabled)
+#: rc.cpp:587
+msgid "Enable word type selection"
+msgstr "शब्द प्रकार चयन सक्षम पार्नुहोस्"
+
+#. i18n: file: src/configure-practice/comparisonoptionswidget.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdjective)
+#: rc.cpp:593
+msgid "Include Adjectives"
+msgstr "विशेषण समावेश गर्नुहोस्"
+
+#. i18n: file: src/configure-practice/comparisonoptionswidget.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdverb)
+#: rc.cpp:596
+msgid "Include Adverbs"
+msgstr "क्रिया विशेषण समावेश गर्नुहोस्"
+
+#. i18n: file: src/configure-practice/flashcardsoptionswidget.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsFrontImage)
+#: rc.cpp:599
+msgid "Show images on the front of flashcard"
+msgstr ""
+
+#. i18n: file: src/configure-practice/flashcardsoptionswidget.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsBackImage)
+#: rc.cpp:602
+msgid "Show images on the back of flashcard"
+msgstr ""
+
+#. i18n: file: src/configure-practice/blockoptions.ui:40
+#. i18n: ectx: property (text), widget (QLabel, l_lev2)
+#. i18n: file: src/settings/viewoptionsbase.ui:324
+#. i18n: ectx: property (text), widget (QLabel, l_lev2)
+#: rc.cpp:605 rc.cpp:941
+msgid "Level &2:"
+msgstr "तह २:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:53
+#. i18n: ectx: property (text), widget (QLabel, l_lev5)
+#. i18n: file: src/settings/viewoptionsbase.ui:201
+#. i18n: ectx: property (text), widget (QLabel, l_lev5)
+#: rc.cpp:608 rc.cpp:896
+msgid "Level &5:"
+msgstr "तह ५:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:63
+#. i18n: ectx: property (text), widget (QLabel, l_lev6)
+#. i18n: file: src/settings/viewoptionsbase.ui:160
+#. i18n: ectx: property (text), widget (QLabel, l_lev6)
+#: rc.cpp:611 rc.cpp:881
+msgid "Level &6:"
+msgstr "तह ६:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Expire)
+#: rc.cpp:614
+msgid "E&xpiring"
+msgstr "समय समाप्त हुँदै"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Block)
+#: rc.cpp:617
+msgid "Bl&ocking"
+msgstr "बन्द गर्दै"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:118
+#. i18n: ectx: property (text), widget (QLabel, l_lev4)
+#. i18n: file: src/settings/viewoptionsbase.ui:242
+#. i18n: ectx: property (text), widget (QLabel, l_lev4)
+#: rc.cpp:620 rc.cpp:911
+msgid "Level &4:"
+msgstr "तह ४:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:128
+#. i18n: ectx: property (text), widget (QLabel, l_lev7)
+#. i18n: file: src/settings/viewoptionsbase.ui:119
+#. i18n: ectx: property (text), widget (QLabel, l_lev7)
+#: rc.cpp:623 rc.cpp:866
+msgid "Level &7:"
+msgstr "तह ७:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:150
+#. i18n: ectx: property (text), widget (QLabel, l_lev1)
+#. i18n: file: src/settings/viewoptionsbase.ui:365
+#. i18n: ectx: property (text), widget (QLabel, l_lev1)
+#: rc.cpp:626 rc.cpp:956
+msgid "Level &1:"
+msgstr "तह १:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:192
+#. i18n: ectx: property (text), widget (QLabel, l_lev3)
+#. i18n: file: src/settings/viewoptionsbase.ui:283
+#. i18n: ectx: property (text), widget (QLabel, l_lev3)
+#: rc.cpp:629 rc.cpp:926
+msgid "Level &3:"
+msgstr "तह ३:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:218
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:632
+msgid "Do not practice vocabulary that has been asked within:"
+msgstr "यस भित्र सोधिएको शब्दसूची अभ्यास नगर्नुहोस्:"
+
+#. i18n: file: src/configure-practice/blockoptions.ui:228
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:635
+msgid "Vocabulary drops one grade after this much time:"
+msgstr "शब्दसूचीले यति धेरै समय पछि एक श्रेणी छोड्छ:"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:18
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_TestType)
+#: rc.cpp:638
+msgid "Type of Test"
+msgstr "परीक्षणको प्रकार"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:37
+#. i18n: ectx: property (text), widget (QRadioButton, MixedLettersRadio)
+#: rc.cpp:641
+msgid "Mixed Letters"
+msgstr "मिश्रित गरिएको अक्षर"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:54
+#. i18n: ectx: property (text), widget (QRadioButton, WrittenRadio)
+#: rc.cpp:647
+msgid "Written"
+msgstr "लिखित"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:64
+#. i18n: ectx: property (text), widget (QRadioButton, ExampleRadio)
+#: rc.cpp:650
+msgid "Example Sentences"
+msgstr "उदाहरण वाक्य"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:78
+#. i18n: ectx: property (text), widget (QRadioButton, ArticleRadio)
+#: rc.cpp:656
+msgid "Article Training"
+msgstr "लेख प्रशिक्षण"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:85
+#. i18n: ectx: property (text), widget (QRadioButton, ComparisonRadio)
+#: rc.cpp:659
+msgid "Comparison"
+msgstr "तुलना"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:117
+#. i18n: ectx: property (title), widget (QGroupBox, OptionsGroupBox)
+#: rc.cpp:671
+msgid "Options"
+msgstr "विकल्प"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:134
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:677
+msgctxt "the language that is shown to the user in a test"
+msgid "From"
+msgstr "बाट"
+
+#. i18n: file: src/configure-practice/configurepracticewidget.ui:141
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:680
+msgctxt "the language to which the user translates to in a test"
+msgid "To"
+msgstr "सम्म"
+
+#. i18n: file: src/configure-practice/writtenpracticeoptionswidget.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
+#: rc.cpp:683
+msgid "Ignore accent mistakes"
+msgstr "उच्चारण चिन्ह गल्तिहरू उपेक्षा गर्नुहोस्"
+
+#. i18n: file: src/configure-practice/writtenpracticeoptionswidget.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
+#: rc.cpp:686
+msgid "Ignore capitalization mistakes"
+msgstr "ठूला अक्षर गल्तिहरू उपेक्षा गर्नुहोस्"
+
+#. i18n: file: src/configure-practice/multiplechoiceoptionswidget.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
+#: rc.cpp:689
+msgid "Use choices of the same word type"
+msgstr ""
+
+#. i18n: file: src/configure-practice/multiplechoiceoptionswidget.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:692
+msgid "Number of choices"
+msgstr ""
+
+#. i18n: file: src/export/exportdialog.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:698
+msgid "Export Options"
+msgstr "विकल्पहरु निर्यात गर्नुहोस्"
+
+#. i18n: file: src/export/exportdialog.ui:25
+#. i18n: ectx: property (text), widget (QRadioButton, tableRadio)
+#: rc.cpp:701
+msgid "List"
+msgstr "सूची"
+
+#. i18n: file: src/export/exportdialog.ui:35
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:704
+msgid "A vocabulary list."
+msgstr ""
+
+#. i18n: file: src/export/exportdialog.ui:42
+#. i18n: ectx: property (text), widget (QRadioButton, flashCardRadio)
+#: rc.cpp:707
+msgid "Flash Cards"
+msgstr ""
+
+#. i18n: file: src/export/exportdialog.ui:49
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:710
+msgid "Front and back sides for printing learning cards."
+msgstr ""
+
+#. i18n: file: src/export/exportdialog.ui:59
+#. i18n: ectx: property (text), widget (QRadioButton, csvRadio)
+#: rc.cpp:713
+msgid "CSV"
+msgstr "CSV"
+
+#. i18n: file: src/export/exportdialog.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:716
+msgid "Comma separated values"
+msgstr ""
+
+#. i18n: file: src/settings/languagepropertiespage.ui:26
+#. i18n: ectx: property (text), widget (QLabel, localeSelectionLabel)
+#: rc.cpp:722
+msgid "Language:"
+msgstr "भाषा:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:39
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: rc.cpp:725
+msgid "Name:"
+msgstr "नाम:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:55
+#. i18n: ectx: property (text), widget (QLabel, iconSelectionLabel)
+#: rc.cpp:728
+msgid "Flag:"
+msgstr "झण्डा:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:68
+#. i18n: ectx: property (text), widget (QLabel, keyboardLayoutLabel)
+#: rc.cpp:731
+msgid "Keyboard layout:"
+msgstr "कुञ्जीपाटी सजावट:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
+#: rc.cpp:734
+msgid "&Download Grammar"
+msgstr ""
+
+#. i18n: file: src/settings/languagepropertiespage.ui:105
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:737
+msgid "Articles"
+msgstr "लेख"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:117
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#. i18n: file: src/settings/languagepropertiespage.ui:374
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#: rc.cpp:740 rc.cpp:770
+msgid "Definite"
+msgstr "निश्चित"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:124
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#. i18n: file: src/settings/languagepropertiespage.ui:381
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#: rc.cpp:743 rc.cpp:773
+msgid "Indefinite"
+msgstr "अनिश्चित"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:131
+#. i18n: ectx: property (text), widget (QLabel, male_label)
+#. i18n: file: src/settings/languagepropertiespage.ui:329
+#. i18n: ectx: property (text), widget (QLabel, male_label_2)
+#: rc.cpp:746 rc.cpp:761
+msgid "&Male:"
+msgstr "पुरुष:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:154
+#. i18n: ectx: property (text), widget (QLabel, female_label)
+#. i18n: file: src/settings/languagepropertiespage.ui:316
+#. i18n: ectx: property (text), widget (QLabel, female_label_2)
+#: rc.cpp:749 rc.cpp:758
+msgid "&Female:"
+msgstr "महिला:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:187
+#. i18n: ectx: property (text), widget (QLabel, natural_label)
+#. i18n: file: src/settings/languagepropertiespage.ui:303
+#. i18n: ectx: property (text), widget (QLabel, natural_label_2)
+#: rc.cpp:752 rc.cpp:755
+msgid "&Neutral:"
+msgstr "तटस्थ:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:421
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:776
+msgid "Personal Pronouns"
+msgstr "व्यक्तिगत उपनाम"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:477
+#. i18n: ectx: property (text), widget (QLabel, pers1_label)
+#: rc.cpp:788
+msgid "&1. Person:"
+msgstr "१. व्यक्ति:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:513
+#. i18n: ectx: property (text), widget (QLabel, pers2_label)
+#: rc.cpp:791
+msgid "&2. Person:"
+msgstr "२. व्यक्ति:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:549
+#. i18n: ectx: property (text), widget (QLabel, pers3_label)
+#: rc.cpp:794
+msgid "3. Person:"
+msgstr "३. व्यक्ति:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:559
+#. i18n: ectx: property (text), widget (QLabel, male_c_label)
+#: rc.cpp:797
+msgid "M&ale:"
+msgstr "पुरुष:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:595
+#. i18n: ectx: property (text), widget (QLabel, female_c_label)
+#: rc.cpp:800
+msgid "F&emale:"
+msgstr "महिला:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:631
+#. i18n: ectx: property (text), widget (QLabel, natural_c_label)
+#: rc.cpp:803
+msgid "Neu&ter:"
+msgstr "तटस्थ:"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:667
+#. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
+#: rc.cpp:806
+msgid "Dual conjugations"
+msgstr "द्व संयोजन"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:674
+#. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
+#: rc.cpp:809
+msgid "A neutral conjugation form exists"
+msgstr "एउटा तटस्थ संयोजन फाराम अवस्थित छ"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:687
+#. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
+#: rc.cpp:812
+msgid "Male/female have different conjugations"
+msgstr "पुरुष/महिलासँग विभिन्न संयोजनहरू हुन्छन्"
+
+#. i18n: file: src/settings/languagepropertiespage.ui:722
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#. i18n: file: src/settings/optionlistform.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#: rc.cpp:818 rc.cpp:830
+msgid "&New..."
+msgstr "नयाँ..."
+
+#. i18n: file: src/settings/languagepropertiespage.ui:735
+#. i18n: ectx: property (text), widget (QPushButton, modifyButton)
+#. i18n: file: src/settings/optionlistform.ui:78
+#. i18n: ectx: property (text), widget (QPushButton, modifyButton)
+#: rc.cpp:821 rc.cpp:833
+msgid "&Modify..."
+msgstr "परिमार्जन गर्नुहोस्..."
+
+#. i18n: file: src/settings/languagepropertiespage.ui:748
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#. i18n: file: src/settings/optionlistform.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: rc.cpp:824 rc.cpp:836
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#. i18n: file: src/settings/optionlistform.ui:124
+#. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
+#: rc.cpp:839
+msgid "&Clean Up"
+msgstr "खाली गर्नुहोस्"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:46
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_IPAFont)
+#: rc.cpp:842
+msgid ""
+"Specify which font to use for displaying pronunciations using phonetic "
+"symbols."
+msgstr ""
+"फोनेटिक प्रतिक प्रयोग गरेर उच्चारण प्रदर्शन गर्नका लागि कुन फन्ट प्रयोग "
+"गर्ने निर्दिष्ट गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:53
+#. i18n: ectx: property (text), widget (QLabel, IPAFontLabel)
+#: rc.cpp:845
+msgid "&IPA font:"
+msgstr "आईपीए फन्ट:"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:66
+#. i18n: ectx: property (text), widget (QLabel, TableFontLabel)
+#: rc.cpp:848
+msgid "&Table font:"
+msgstr "तालिका फन्ट:"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:79
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_TableFont)
+#: rc.cpp:851
+msgid "Specify which font to use for editing of the main table."
+msgstr ""
+"मुख्य तालिकामा सम्पादनका लागि कुन फन्ट प्रयोग गर्ने निर्दिष्ट गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:94
+#. i18n: ectx: property (title), widget (QGroupBox, gradegroup)
+#: rc.cpp:854
+msgid "Grade Colors"
+msgstr "श्रेणी रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:100
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseGradeColors)
+#. i18n: file: src/settings/viewoptionsbase.ui:103
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseGradeColors)
+#: rc.cpp:857 rc.cpp:860
+msgid ""
+"If it is unchecked, you will just have black on white for the grades; if it "
+"is checked, the colors below will be chosen."
+msgstr ""
+"यदि यो जाँचिएको छैन भने, तपाईँसँग श्रेणीका लागि कालो र सेतो मात्र "
+"हुनुपर्नेछ; यदि यो जाँचिएको छ भने, तलको रङ छनौट हुनेछ ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:106
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseGradeColors)
+#: rc.cpp:863
+msgid "&Use colors"
+msgstr "रङ प्रयोग गर्नुहोस्"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:138
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor7)
+#: rc.cpp:869
+msgid "Color for the grade 7"
+msgstr "श्रेणी ७ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:141
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor7)
+#: rc.cpp:872
+msgid "Click here to change the color for grade 7."
+msgstr "श्रेणी ७ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:144
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor7)
+#: rc.cpp:875
+msgid "&7"
+msgstr "७"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:147
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor7)
+#: rc.cpp:878
+msgid "Alt+7"
+msgstr "Alt+7"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:179
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor6)
+#: rc.cpp:884
+msgid "Color for the grade 6"
+msgstr "श्रेणी ६ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:182
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor6)
+#: rc.cpp:887
+msgid "Click here to change the color for grade 6."
+msgstr "श्रेणी ६ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:185
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor6)
+#: rc.cpp:890
+msgid "&6"
+msgstr "६"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:188
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor6)
+#: rc.cpp:893
+msgid "Alt+6"
+msgstr "Alt+6"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:220
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor5)
+#: rc.cpp:899
+msgid "Color for the grade 5"
+msgstr "श्रेणी ५ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:223
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor5)
+#: rc.cpp:902
+msgid "Click here to change the color for grade 5."
+msgstr "श्रेणी ५ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:226
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor5)
+#: rc.cpp:905
+msgid "&5"
+msgstr "५"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:229
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor5)
+#: rc.cpp:908
+msgid "Alt+5"
+msgstr "Alt+5"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:261
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor4)
+#: rc.cpp:914
+msgid "Color for the grade 4"
+msgstr "श्रेणी ४ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:264
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor4)
+#: rc.cpp:917
+msgid "Click here to change the color for grade 4."
+msgstr "श्रेणी ४ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:267
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor4)
+#: rc.cpp:920
+msgid "&4"
+msgstr "४"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:270
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor4)
+#: rc.cpp:923
+msgid "Alt+4"
+msgstr "Alt+4"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:302
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor3)
+#: rc.cpp:929
+msgid "Color for the grade 3"
+msgstr "श्रेणी ३ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:305
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor3)
+#: rc.cpp:932
+msgid "Click here to change the color for grade 3."
+msgstr "श्रेणी ३ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:308
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor3)
+#: rc.cpp:935
+msgid "&3"
+msgstr "३"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:311
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor3)
+#: rc.cpp:938
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:343
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor2)
+#: rc.cpp:944
+msgid "Color for the grade 2"
+msgstr "श्रेणी २ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:346
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor2)
+#: rc.cpp:947
+msgid "Click here to change the color for grade 2."
+msgstr "श्रेणी २ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:349
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor2)
+#: rc.cpp:950
+msgid "&2"
+msgstr "२"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:352
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor2)
+#: rc.cpp:953
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:384
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor1)
+#: rc.cpp:959
+msgid "Color for the grade 1"
+msgstr "श्रेणी १ का लागि रङ"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:387
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor1)
+#: rc.cpp:962
+msgid "Click here to change the color for grade 1."
+msgstr "श्रेणी १ का लागि रङ परिवर्तन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:390
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor1)
+#: rc.cpp:965
+msgid "&1"
+msgstr "१"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:393
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor1)
+#: rc.cpp:968
+msgid "Alt+1"
+msgstr "Alt+1"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:406
+#. i18n: ectx: property (text), widget (QLabel, l_lev0)
+#: rc.cpp:971
+msgid "Not &practiced:"
+msgstr "अभ्यास गरिएको छैन:"
+
+#. i18n: file: src/settings/viewoptionsbase.ui:425
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor0)
+#: rc.cpp:974
+msgid "&N"
+msgstr "N"
+
+#. i18n: file: src/settings/documentproperties.ui:25
+#. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
+#: rc.cpp:980
+msgid "General Document Properties"
+msgstr "सामन्य कागजात गुण"
+
+#. i18n: file: src/settings/documentproperties.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label_title)
+#: rc.cpp:983
+msgid "&Title:"
+msgstr "शीर्षक:"
+
+#. i18n: file: src/settings/documentproperties.ui:56
+#. i18n: ectx: property (toolTip), widget (KLineEdit, titleLineEdit)
+#. i18n: file: src/settings/documentproperties.ui:82
+#. i18n: ectx: property (toolTip), widget (KLineEdit, authorLineEdit)
+#: rc.cpp:986 rc.cpp:992
+msgid "A title for your document."
+msgstr "तपाईँको कागजातका लागि शीर्षक ।"
+
+#. i18n: file: src/settings/documentproperties.ui:63
+#. i18n: ectx: property (text), widget (QLabel, label_author)
+#: rc.cpp:989
+msgid "&Author:"
+msgstr ""
+
+#. i18n: file: src/settings/documentproperties.ui:89
+#. i18n: ectx: property (text), widget (QLabel, label_author_2)
+#: rc.cpp:995
+msgid "&Email:"
+msgstr ""
+
+#. i18n: file: src/settings/documentproperties.ui:108
+#. i18n: ectx: property (toolTip), widget (KLineEdit, contactLineEdit)
+#: rc.cpp:998
+msgid "A way to contact you (email or a webpage)."
+msgstr ""
+
+#. i18n: file: src/settings/documentproperties.ui:134
+#. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
+#: rc.cpp:1004
+msgid "Any additional information."
+msgstr "कुनै अतिरिक्त जानकारी ।"
+
+#. i18n: file: src/settings/documentproperties.ui:147
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:1007
+msgid "Cat&egory"
+msgstr "कोटि"
+
+#. i18n: file: src/settings/documentproperties.ui:160
+#. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
+#: rc.cpp:1010
+msgid "A general category into which your document belongs."
+msgstr "साधरण कोटि जहाँ तपाईँको कागजात छ ।"
+
+#. i18n: file: src/settings/documentproperties.ui:172
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: rc.cpp:1016
+msgid "Music"
+msgstr "सङ्गीत"
+
+#. i18n: file: src/settings/documentproperties.ui:177
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: rc.cpp:1019
+msgid "Geography"
+msgstr "भूगोल"
+
+#. i18n: file: src/settings/documentproperties.ui:182
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: rc.cpp:1022
+msgid "Anatomy"
+msgstr "एनाटोमी"
+
+#. i18n: file: src/settings/documentproperties.ui:187
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: rc.cpp:1025
+msgid "History"
+msgstr "इतिहास"
+
+#. i18n: file: src/settings/documentproperties.ui:192
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: rc.cpp:1028
+msgid "Test Preparation"
+msgstr "परीक्षण तयारी"
+
+#. i18n: file: src/settings/documentproperties.ui:200
+#. i18n: ectx: property (text), widget (QLabel, label_license)
+#: rc.cpp:1031
+msgid "&License:"
+msgstr "इजाजत पत्र:"
+
+#. i18n: file: src/settings/documentproperties.ui:214
+#. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
+#: rc.cpp:1034
+msgid ""
+"The license under which your document will be.\n"
+"If you consider contributing your file to KDE in the future, an appropriate "
+"license is required."
+msgstr ""
+"तपाईँको कागजात अन्तर्गतको इजाजतपत्र ।\n"
+"यदि तपाईँ भविष्यमा केडीईलाई तपाईँको फाइल योगदान गर्ने कुरा सोच्नुहुन्छ भने, "
+"एउटा उपयुक्त इजाजतपत्र आवश्यक हुन्छ ।"
+
+#. i18n: file: src/settings/documentproperties.ui:226
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
+#: rc.cpp:1041
+msgid "GPLv2+ (GNU General Public License version 2 or later)"
+msgstr ""
+
+#. i18n: file: src/settings/documentproperties.ui:243
+#. i18n: ectx: property (text), widget (QLabel, label_language_1)
+#: rc.cpp:1047
+msgid "&First language:"
+msgstr "पहिलो भाषा:"
+
+#. i18n: file: src/settings/documentproperties.ui:269
+#. i18n: ectx: property (text), widget (QLabel, label_language_2)
+#: rc.cpp:1050
+msgid "&Second language:"
+msgstr "दोस्रो भाषा:"
+
+#. i18n: file: src/settings/documentproperties.ui:298
+#. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
+#: rc.cpp:1053
+msgid "&Setup Grammar Details"
+msgstr ""
+
+#. i18n: file: src/settings/documentproperties.ui:308
+#. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
+#: rc.cpp:1056
+msgctxt "Attept to download grammar properties for the selected languages"
+msgid "Download Grammar"
+msgstr "व्याकरण डाउनलोड गर्नुहोस्"
+
+#. i18n: file: src/settings/documentsettings.kcfg:11
+#. i18n: ectx: label, entry (ConjugationTenses), group (Document $(fileurl))
+#. i18n: file: src/settings/documentsettings.kcfg:12
+#. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Document $(fileurl))
+#. i18n: file: src/settings/languagesettings.kcfg:21
+#. i18n: ectx: label, entry (ConjugationTenses), group (Locale $(locale))
+#. i18n: file: src/settings/languagesettings.kcfg:22
+#. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Locale $(locale))
+#: rc.cpp:1059 rc.cpp:1062 rc.cpp:1131 rc.cpp:1134
+msgid "Selected tenses for conjugation practice."
+msgstr ""
+
+#. i18n: file: src/settings/documentsettings.kcfg:16
+#. i18n: ectx: label, entry (VisibleColumns), group (Document $(fileurl))
+#. i18n: file: src/settings/documentsettings.kcfg:17
+#. i18n: ectx: whatsthis, entry (VisibleColumns), group (Document $(fileurl))
+#. i18n: file: src/settings/languagesettings.kcfg:26
+#. i18n: ectx: label, entry (VisibleColumns), group (Locale $(locale))
+#. i18n: file: src/settings/languagesettings.kcfg:27
+#. i18n: ectx: whatsthis, entry (VisibleColumns), group (Locale $(locale))
+#: rc.cpp:1065 rc.cpp:1068 rc.cpp:1137 rc.cpp:1140
+msgid "Visible columns in the main editor window."
+msgstr ""
+
+#. i18n: file: src/settings/generaloptionsbase.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:1071
+msgid "Open/Save"
+msgstr "खोल्नुहोस्/बचत गर्नुहोस्"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:23
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
+#: rc.cpp:1074
+msgid "Always open the collection that was active when quitting Parley"
+msgstr ""
+
+#. i18n: file: src/settings/generaloptionsbase.ui:26
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
+#: rc.cpp:1077
+msgid ""
+"When this option is checked, the last active collection will be loaded "
+"automatically when starting Parley instead of showing the welcome screen."
+msgstr ""
+
+#. i18n: file: src/settings/generaloptionsbase.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
+#: rc.cpp:1080
+msgid "Always load the last opened collection on start"
+msgstr ""
+
+#. i18n: file: src/settings/generaloptionsbase.ui:39
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSave)
+#. i18n: file: src/settings/generaloptionsbase.ui:60
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoBackup)
+#: rc.cpp:1083 rc.cpp:1092
+msgid "Allow automatic saving of your work"
+msgstr "तपाईँको कामको स्वचालित बचत अनुमति दिनुहोस्"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:42
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
+#. i18n: file: src/settings/generaloptionsbase.ui:63
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoBackup)
+#: rc.cpp:1086 rc.cpp:1095
+msgid "Your work will be automatically saved if you check this option"
+msgstr ""
+"यदि तपाईँले यो विकल्प जाँच गर्नुभयो भने तपाईँको कार्य स्वचालित रूपमा बचत "
+"हुनेछ"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
+#: rc.cpp:1089
+msgid "&Save vocabularies automatically on close and quit"
+msgstr ""
+"बन्द गर्नुहोस् र अन्त्य गर्नुहोसमा स्वचालित रूपमा शब्द सूची बचत गर्नुहोस्"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
+#: rc.cpp:1098
+msgid "&Create a backup every"
+msgstr "हरेक जगेडा सिर्जना गर्नुहोस्"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:89
+#. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
+#: rc.cpp:1101
+msgid "minutes"
+msgstr "मिनेट"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_sep)
+#: rc.cpp:1104
+msgid "Sep&arator for text file import/export (CSV):"
+msgstr "पाठ फाइल आयात/निर्यात (सीएसभी) का लागि विभाजक:"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:119
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
+#: rc.cpp:1107
+msgid ""
+"Choose which separator you want to use to separate your data when importing "
+"and exporting text."
+msgstr ""
+"पाठ आयात र निर्यात गर्दा तपाईँको डेटा विभाजन गर्न कुन विभाजक प्रयोग गर्न "
+"चाहनुहुन्छ रोज्नुहोस् ।"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:122
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
+#: rc.cpp:1110
+msgid ""
+"Choose the separator to use to divide the parts of an expression when "
+"importing or exporting data as text."
+msgstr ""
+"पाठको रूपमा डेटा आयात र निर्यात गर्दा एउटा अभिव्यक्तिको भाग विभाजन गर्न "
+"प्रयोग गरिने विभाजक रोज्नुहोस् ।"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:147
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:1113
+msgid "Editing"
+msgstr "सम्पादन गर्दै"
+
+#. i18n: file: src/settings/generaloptionsbase.ui:165
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
+#: rc.cpp:1116
+msgid "&Append new rows automatically when editing"
+msgstr ""
+
+#. i18n: file: src/settings/languagesettings.kcfg:11
+#. i18n: ectx: label, entry (Icon), group (Locale $(locale))
+#: rc.cpp:1119
+msgid "Icon for an identifier"
+msgstr ""
+
+#. i18n: file: src/settings/languagesettings.kcfg:12
+#. i18n: ectx: whatsthis, entry (Icon), group (Locale $(locale))
+#: rc.cpp:1122
+msgid "The icon shown for the identifier (locale)"
+msgstr ""
+
+#. i18n: file: src/settings/languagesettings.kcfg:16
+#. i18n: ectx: label, entry (KeyboardLayout), group (Locale $(locale))
+#. i18n: file: src/settings/languagesettings.kcfg:17
+#. i18n: ectx: whatsthis, entry (KeyboardLayout), group (Locale $(locale))
+#: rc.cpp:1125 rc.cpp:1128
+msgid "Keyboard layout for this locale"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:11
+#. i18n: ectx: label, entry (NumPreSetting), group (General)
+#: rc.cpp:1143
+msgid "Number of stored setting profiles"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:15
+#. i18n: ectx: label, entry (SmartAppend), group (General)
+#: rc.cpp:1146
+msgid ""
+"If true, when using the entry dialog, new rows will be appended as needed"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:19
+#. i18n: ectx: label, entry (Separator), group (General)
+#: rc.cpp:1149
+msgid ""
+"This sets the separator used when copying/pasting text, default is Tab"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:23
+#. i18n: ectx: label, entry (EntriesPerLesson), group (General)
+#: rc.cpp:1152
+msgid "The number of entries per lesson"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:27
+#. i18n: ectx: label, entry (AutoOpenLast), group (General)
+#: rc.cpp:1155
+msgid ""
+"If true, on each application start the last opened file will be loaded"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:31
+#. i18n: ectx: label, entry (AutoSave), group (General)
+#: rc.cpp:1158
+msgid "If true, vocabularies are automatically saved on close and exit"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:38
+#. i18n: ectx: label, entry (AutoBackup), group (General)
+#: rc.cpp:1161
+msgid "If true, a backup is saved every BackupTime minutes"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:42
+#. i18n: ectx: label, entry (BackupTime), group (General)
+#: rc.cpp:1164
+msgid "Time interval between two automatic backups"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:53
+#. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
+#: rc.cpp:1170
+msgid "Show images on the front of the flashcard."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:57
+#. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
+#: rc.cpp:1173
+msgid "Show images on the back of the flashcard."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:61
+#. i18n: ectx: label, entry (Theme), group (PracticeOptions)
+#: rc.cpp:1176
+msgid "Practice theme to use"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:65
+#. i18n: ectx: label, entry (Block), group (PracticeOptions)
+#: rc.cpp:1179
+msgid "In Blocking Query Tab Dialog, if checked then the Query is blocked"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:69
+#. i18n: ectx: label, entry (Expire), group (PracticeOptions)
+#: rc.cpp:1182
+msgid ""
+"In Blocking Query Tab Dialog, if checked then the Query accepts an expiring "
+"time"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:73
+#. i18n: ectx: label, entry (AltLearn), group (PracticeOptions)
+#: rc.cpp:1185
+msgid "Use the Leitner learning method"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:77
+#. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
+#: rc.cpp:1188
+msgid ""
+"Append new vocabulary in a test in order of their lessons. Note that this "
+"will not be a hard transition, but a slow mix from one lesson to the next."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:81
+#. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
+#: rc.cpp:1191
+msgid ""
+"The number of entries that are practiced at the same time. If one of these "
+"is answered correctly another entry will be appended."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:85
+#. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
+#: rc.cpp:1194
+msgid "Swap direction randomly"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:90
+#. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
+#: rc.cpp:1197
+msgid "Limit the time for the user to answer in a test."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:94
+#. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
+#: rc.cpp:1200
+msgid ""
+"Show - show the solution after the given time; Continue - go to the next "
+"question after the given time."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:102
+#. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group (PracticeOptions)
+#: rc.cpp:1203
+msgid "Maximum time allowed to answer."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:107
+#. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
+#: rc.cpp:1206
+msgid "Enable suggestion lists in written practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:111
+#. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
+#: rc.cpp:1209
+msgid "Enable the showing of hints."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:115
+#. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
+#: rc.cpp:1212
+msgid "Count answers as right when only the accentuation is wrong."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:119
+#. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group (PracticeOptions)
+#: rc.cpp:1215
+msgid "Count answers as right when only the capitalization is wrong."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:124
+#. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
+#: rc.cpp:1218
+msgid "Split translations in written practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:128
+#. i18n: ectx: label, entry (Periods), group (PracticeOptions)
+#: rc.cpp:1221
+msgid "Split translations at periods."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:132
+#. i18n: ectx: label, entry (Colons), group (PracticeOptions)
+#: rc.cpp:1224
+msgid "Split translations at colons."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:136
+#. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
+#: rc.cpp:1227
+msgid "Split translations at semicolons."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:140
+#. i18n: ectx: label, entry (Commas), group (PracticeOptions)
+#: rc.cpp:1230
+msgid "Split translations at commas."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:146
+#. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
+#: rc.cpp:1233
+msgid ""
+"Enable Show More button to reveal parts of the solution in written practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:150
+#. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
+#: rc.cpp:1236
+msgid "Enable Skip (I Know It) button in written practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:154
+#. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
+#: rc.cpp:1239
+msgid ""
+"When the synonym instead of the word was entered, does it count as correct?"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:158
+#. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
+#: rc.cpp:1242
+msgid "Enable image display in the practice dialogs."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:162
+#. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
+#: rc.cpp:1245
+msgid "Enable sound playback in the practice dialogs."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:166
+#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
+#: rc.cpp:1248
+msgid ""
+"Use the same word type as the solution for the incorrect answers in a "
+"multiple choice practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:170
+#. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
+#: rc.cpp:1251
+msgid ""
+"How many answers are provided for a multiple choice question, including the "
+"correct answer."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:177
+#. i18n: ectx: label, entry (ShowSearch), group (Appearance)
+#: rc.cpp:1254
+msgid "Toggle display of the search bar."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:182
+#. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
+#: rc.cpp:1257
+msgid "When enabled a lesson also shows entries from its sublessons."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:187
+#. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
+#: rc.cpp:1260
+msgid "Show/hide the lesson column."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:192
+#. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
+#: rc.cpp:1263
+msgid "Show/hide the active column."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:197
+#. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
+#: rc.cpp:1266
+msgid "Select which lessons are displayed for editing"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:207
+#. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
+#: rc.cpp:1269
+msgid "How the main window is divided."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:211
+#. i18n: ectx: label, entry (TableFont), group (Appearance)
+#: rc.cpp:1272
+msgid "The font used in the vocabulary table"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:215
+#. i18n: ectx: label, entry (IPAFont), group (Appearance)
+#: rc.cpp:1275
+msgid "The font used for phonetics"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:219
+#. i18n: ectx: label, entry (CurrentCol), group (Appearance)
+#: rc.cpp:1278
+msgid "Currently selected column"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:223
+#. i18n: ectx: label, entry (CurrentRow), group (Appearance)
+#: rc.cpp:1281
+msgid "Currently selected row"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:227
+#. i18n: ectx: label, entry (UseGradeColors), group (Appearance)
+#: rc.cpp:1284
+msgid "Use your own colors"
+msgstr "आफ्नै रङ प्रयोग गर्नुहोस्"
+
+#. i18n: file: src/settings/parley.kcfg:232
+#. i18n: ectx: label, entry (GradeColor$(Number)), group (Appearance)
+#: rc.cpp:1287
+msgid "Colors used to display different grades"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:247
+#. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
+#: rc.cpp:1290
+msgid ""
+"The entry must have been asked at least this often to be included in the "
+"practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:251
+#. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
+#: rc.cpp:1293
+msgid ""
+"The entry must have been asked at most this often to be included in the "
+"practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:256
+#. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
+#: rc.cpp:1296
+msgid ""
+"The entry must have been answered incorrectly at least this often to be "
+"included in the practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:260
+#. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
+#: rc.cpp:1299
+msgid ""
+"The entry must have been answered incorrectly at most this often to be "
+"included in the practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:265
+#. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
+#: rc.cpp:1302
+msgid ""
+"The entry must have at least this grade to be included in the practice "
+"(0..7)."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:269
+#. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
+#: rc.cpp:1305
+msgid ""
+"The entry must have at most this grade to be included in the practice (0..7)."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:273
+#. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
+#: rc.cpp:1308
+msgid "Only selected word types will be included in practice."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:277
+#. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
+#. i18n: file: src/settings/parley.kcfg:278
+#. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
+#: rc.cpp:1311 rc.cpp:1314
+msgid "Selected word types for practices."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:281
+#. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
+#. i18n: file: src/settings/parley.kcfg:282
+#. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
+#: rc.cpp:1317 rc.cpp:1320
+msgid "Selected sub word types for practices."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:288
+#. i18n: ectx: label, entry (QuestionLanguage), group (PracticeManager)
+#: rc.cpp:1323
+msgid "The language that is displayed in a test."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:292
+#. i18n: ectx: label, entry (SolutionLanguage), group (PracticeManager)
+#: rc.cpp:1326
+msgid "The language in which the user has to answer."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:297
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
+#: rc.cpp:1329
+msgid "Show the solution after an answer was given."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:301
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
+#: rc.cpp:1332
+msgid "The time the solution is shown (seconds). 0 is unlimited."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:318
+#. i18n: ectx: label, entry (TestType), group (PracticeManager)
+#: rc.cpp:1335
+msgid "The test type that is currently selected."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:322
+#. i18n: ectx: label, entry (ComparisonIncludeAdjective), group (PracticeManager)
+#: rc.cpp:1338
+msgid "In a comparison forms test, include adjectives."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:326
+#. i18n: ectx: label, entry (ComparisonIncludeAdverb), group (PracticeManager)
+#: rc.cpp:1341
+msgid "In a comparison forms test, include adverbs."
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:333
+#. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
+#: rc.cpp:1344
+msgid "Amount of time different grades should be blocked"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:344
+#. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
+#: rc.cpp:1347
+msgid "Amount of time after which different grades should expire"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:356
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: rc.cpp:1350
+msgid "The Providers path for Parley"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:360
+#. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
+#: rc.cpp:1353
+msgid "The command used to start a downloaded vocabulary"
+msgstr ""
+
+#. i18n: file: src/settings/parley.kcfg:364
+#. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
+#: rc.cpp:1356
+msgid "The folder where downloaded vocabularies are saved by default"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/audiowidget.ui:18
+#. i18n: ectx: property (text), widget (QPushButton, playButton)
+#: rc.cpp:1359
+msgid "Play"
+msgstr "प्ले गर्नुहोस्"
+
+#. i18n: file: src/entry-dialogs/audiowidget.ui:25
+#. i18n: ectx: property (text), widget (QPushButton, recordButton)
+#: rc.cpp:1362
+msgid "Record"
+msgstr "रेकर्ड गर्नुहोस्"
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, makeNounButton)
+#: rc.cpp:1368
+msgid "Turn the selected word into a noun."
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:44
+#. i18n: ectx: property (title), widget (QGroupBox, declensionGroupBox)
+#: rc.cpp:1371
+msgid "Declension Forms"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:50
+#. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
+#: rc.cpp:1374
+msgctxt "one of the seven cases (grammatical)"
+msgid "Nominative"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:72
+#. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
+#: rc.cpp:1377
+msgctxt "one of the seven cases (grammatical)"
+msgid "Genitive"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:91
+#. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
+#: rc.cpp:1380
+msgctxt "one of the seven cases (grammatical)"
+msgid "Dative"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:110
+#. i18n: ectx: property (text), widget (QLabel, singularThirdFemalePersonLabel)
+#: rc.cpp:1383
+msgctxt "one of the seven cases (grammatical)"
+msgid "Accusative"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, singularThirdNeutralPersonLabel)
+#: rc.cpp:1386
+msgctxt "one of the seven cases (grammatical)"
+msgid "Ablative"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:148
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:1389
+msgctxt "one of the seven cases (grammatical)"
+msgid "Locative"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/declensionwidget.ui:167
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:1392
+msgctxt "one of the seven cases (grammatical)"
+msgid "Vocative"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/multiplechoicewidget.ui:21
+#. i18n: ectx: property (text), widget (QPushButton, addChoiceButton)
+#: rc.cpp:1410
+msgid "Add"
+msgstr "थप्नुहोस्"
+
+#. i18n: file: src/entry-dialogs/multiplechoicewidget.ui:28
+#. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
+#: rc.cpp:1413
+msgid "Remove"
+msgstr "हटाउनुहोस्"
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:24
+#. i18n: ectx: property (toolTip), widget (QLabel, absoluteLabel)
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:56
+#. i18n: ectx: property (toolTip), widget (QLabel, comparativeLabel)
+#: rc.cpp:1416 rc.cpp:1422
+msgid "The comparative is used to compare nouns or verbs (faster)"
+msgstr "तुलनात्मक (द्रुतर) नाम वा क्रिया तुलना गर्न प्रयोग गरिन्छ"
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:27
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
+#: rc.cpp:1419
+msgid "Absolute:"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:59
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
+#: rc.cpp:1425
+msgid "Comparative:"
+msgstr "तुलनात्मक:"
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:88
+#. i18n: ectx: property (toolTip), widget (QLabel, superlativeLabel)
+#: rc.cpp:1428
+msgid "The superlative (fastest)"
+msgstr "सर्वोकृष्ठ (सबभन्दा छिटो)"
+
+#. i18n: file: src/entry-dialogs/comparisonwidget.ui:91
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
+#: rc.cpp:1431
+msgid "Superlative:"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, makeVerbButton)
+#: rc.cpp:1443
+msgid "Turn the selected word into a verb."
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:52
+#. i18n: ectx: property (text), widget (QLabel, tenselabel)
+#: rc.cpp:1446
+msgid "&Tense:"
+msgstr "काल:"
+
+#. i18n: file: src/entry-dialogs/conjugationwidget.ui:68
+#. i18n: ectx: property (text), widget (QPushButton, nextTenseButton)
+#: rc.cpp:1449
+msgid "Ne&xt"
+msgstr "पछिल्लो"
+
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:16
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: rc.cpp:1506
+msgid "Language"
+msgstr "भाषा"
+
+#. i18n: file: src/entry-dialogs/summarywordwidget.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:1512
+msgid "Word type"
+msgstr "शब्द प्रकार"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, direc_label)
+#: rc.cpp:1530
+msgid "Properties From Original"
+msgstr "मौलिकबाट गुण"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:72
+#. i18n: ectx: property (text), widget (QLabel, grade_label)
+#: rc.cpp:1533
+msgid "&Grade:"
+msgstr "श्रेणी:"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:110
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
+#: rc.cpp:1539
+msgid "Practice &Counts"
+msgstr "गणनाहरू अभ्यास गर्नुहोस्"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:142
+#. i18n: ectx: property (text), widget (QLabel, bcount_label)
+#: rc.cpp:1542
+msgid "&Wrong:"
+msgstr "गलत:"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:155
+#. i18n: ectx: property (text), widget (QLabel, qcount_label)
+#: rc.cpp:1545
+msgid "Tot&al:"
+msgstr "जम्मा:"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:171
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: rc.cpp:1548
+msgid "&Last Practiced"
+msgstr "अन्तिम अभ्यास गरियो"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:183
+#. i18n: ectx: property (text), widget (QPushButton, never)
+#: rc.cpp:1551
+msgid "&Never"
+msgstr "कहिले पनि होइन"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:190
+#. i18n: ectx: property (text), widget (QPushButton, today)
+#: rc.cpp:1554
+msgid "T&oday"
+msgstr "आज"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:206
+#. i18n: ectx: property (toolTip), widget (QDateEdit, queryDateEdit)
+#: rc.cpp:1557
+msgid "The date this expression was last practiced"
+msgstr "यो अभिव्यक्ति अन्तिममा अभ्यास गरिएको मिति"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:209
+#. i18n: ectx: property (specialValueText), widget (QDateEdit, queryDateEdit)
+#: rc.cpp:1560
+msgid "Not Practiced Yet"
+msgstr "अहिले सम्म अभ्यास गरिएको छैन"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:229
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, queryDateEdit)
+#: rc.cpp:1563
+msgid "dd.MM.yyyy"
+msgstr "dd.MM.yyyy"
+
+#. i18n: file: src/entry-dialogs/FromToEntryPageForm.ui:260
+#. i18n: ectx: property (text), widget (QPushButton, resetGradesButton)
+#: rc.cpp:1566
+msgid "&Reset Grades"
+msgstr "श्रेणी रिसेट गर्नुहोस्"
+
+#. i18n: file: src/entry-dialogs/browserwidget.ui:18
+#. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
+#: rc.cpp:1569
+msgid "Lookup Current"
+msgstr ""
+
+#. i18n: file: src/entry-dialogs/browserwidget.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, followTableCheckBox)
+#: rc.cpp:1572
+msgid "Follow Table"
+msgstr ""
+
+#. i18n: file: plasmoid/config.ui:18
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:1575
+msgid "Vocabulary collection:"
+msgstr ""
+
+#. i18n: file: plasmoid/config.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:1578
+msgid "Language Selection"
+msgstr "भाषा छनौट"
+
+#. i18n: file: plasmoid/config.ui:38
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:1581
+msgid "Top:"
+msgstr "माथि:"
+
+#. i18n: file: plasmoid/config.ui:45
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:1584
+msgid "Bottom:"
+msgstr "तल:"
+
+#. i18n: file: plasmoid/config.ui:81
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:1587
+msgid "Solution"
+msgstr "समाधान"
+
+#. i18n: file: plasmoid/config.ui:87
+#. i18n: ectx: property (text), widget (QRadioButton, solutionOnHover)
+#: rc.cpp:1590
+msgid "Reveal solution when mouse cursor is over the widget"
+msgstr ""
+
+#. i18n: file: plasmoid/config.ui:97
+#. i18n: ectx: property (text), widget (QRadioButton, solutionAlways)
+#: rc.cpp:1593
+msgid "Always show the solution"
+msgstr "सधै समाधान देखाउनुहोस्"
+
+#. i18n: file: plasmoid/config.ui:112
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:1596
+msgid "Update interval:"
+msgstr "अद्यावधिक अवधि:"
+
+#. i18n: file: plasmoid/config.ui:153
+#. i18n: ectx: property (text), widget (KPushButton, fontSelectButton)
+#: rc.cpp:1599
+msgid "Select Font..."
+msgstr "फन्ट छान्नुहोस्..."
+
+#: tips.cpp:3
+msgid ""
+"<p>You are running a version of Parley that has not officially been released "
+"yet.</p>\n"
+"<p>Please be aware that this version might be unstable, crash or forget to "
+"save your changes.</p>\n"
+"<p>Please report any issues that you encounter to improve Parley! <a "
+"href=\"http://bugs.kde.org\">http://bugs.kde.org</a></p>\n"
+msgstr ""
+
+#: tips.cpp:10
+msgid ""
+"<p>Parley enables you to edit many additional properties of the words you "
+"enter.</p>\n"
+"<p>Use \"Settings\" -> \"Tools\" to enable different tools that will help "
+"you set additional information for your vocabulary. These include images, "
+"sound, word types and many more. Choose the ones you like.</p>\n"
+msgstr ""
+
+#: tips.cpp:16
+msgid ""
+"<p>To <em>search</em> for a word, simply type it into the search bar.</p>\n"
+msgstr ""
+
+#: tips.cpp:21
+msgid ""
+"<p>If you do not want to see the answer again after pressing enter when "
+"practicing, you can configure Parley to directly skip to the next "
+"entry.</p>\n"
+"<p>You can even choose to display the answer for a fixed amount of time. Use "
+"\"Configure Practice...\" -> \"Advanced\" -> \"Show solution after "
+"answering\".</p>\n"
+msgstr ""
+
+#: tips.cpp:27
+msgid ""
+"<p>If you want to see all words of a certain word type (e.g. nouns), simply "
+"select the word type in the list.</p>\n"
+"<p>To show the word type list, use \"Settings\" -> \"Tools\" -> \"Word "
+"Types\" in the menu.</p>\n"
+msgstr ""
+
+#: tips.cpp:33
+msgid ""
+"<p>You can drag and drop your lessons to change their order or even make a "
+"lesson a child of another lesson.</p>\n"
+msgstr ""
+
+#: tips.cpp:38
+msgid ""
+"<p>You can simply drag a word into the word types list to change its "
+"type.</p>\n"
+"<p>You can even select multiple words at the same time.</p>\n"
+msgstr ""
+
+#: tips.cpp:44
+msgid ""
+"<p><em>Setting Images</em></p>\n"
+"<p>A fast way to set an image for a word is to simply drop it onto the image "
+"dock.</p>\n"
+msgstr ""
+
+#: tips.cpp:50
+msgid ""
+"<p><em>Word Types</em></p>\n"
+"<p>You can set a special tag to some word types to let Parley know their "
+"grammatical meaning.</p>\n"
+"<p>For verbs for example you can then enter conjugations.</p>\n"
+msgstr ""
+
+#: tips.cpp:57
+msgid ""
+"<p><em>Multiple Choice</em></p>\n"
+"<p>For some vocabularies multiple choice tests work best. You can add "
+"choices to a word that will always be displayed in Multiple Choice mode. "
+"Otherwise random choices are generated from the other entries in the "
+"document. (Use the Multiple Choice tool for that.)</p>\n"
+msgstr ""
+
+#: tips.cpp:63
+msgid ""
+"<p>Want to enter pronunciation symbols quickly? <em>Double-click</em> the "
+"symbol you need to directly add it.</p>\n"
+msgstr ""
+
+#: tips.cpp:68
+msgid ""
+"<p>You can use the \"Download New Vocabulary\" dialog or visit the website "
+"listing many vocabulary documents:\n"
+"<a "
+"href=\"http://edu.kde.org/contrib/kvtml2.php\">http://edu.kde.org/contrib/kvt"
+"ml2.php</a>.</p>\n"
+msgstr ""
+
+#: plugins/google_images.py:46
+msgid ""
+"Error: ui file not found.\n"
+"Check your installation."
+msgstr ""
+
+#: plugins/google_images.py:46 plugins/google_images.py:243
+#: plugins/google_images.py:249
+msgid "Fetch Image"
+msgstr ""
+
+#: plugins/google_images.py:243
+msgid ""
+"No Selection:\n"
+"Select a word to fetch an image for it"
+msgstr ""
+
+#: plugins/google_images.py:250
+msgid "Fetches an image for the selected translation"
+msgstr ""

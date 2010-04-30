@@ -1,0 +1,210 @@
+# translation of kio_smtp.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_smtp\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:21+0000\n"
+"PO-Revision-Date: 2008-10-07 14:39+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: command.cpp:135
+msgid ""
+"The server rejected both EHLO and HELO commands as unknown or "
+"unimplemented.\n"
+"Please contact the server's system administrator."
+msgstr ""
+"सर्भरले EHLO र HELO आदेशलाई अज्ञात वा कार्यान्वयन नभएको रूपमा दुवैलाई "
+"अस्वीकार गर्यो ।\n"
+"कृपया सर्भरको प्रणाली प्रशासकसँग सम्पर्क गर्नुहोस् ।"
+
+#: command.cpp:149
+#, kde-format
+msgid ""
+"Unexpected server response to %1 command.\n"
+"%2"
+msgstr ""
+"%1 आदेशमा सर्भरले अनपेक्षित प्रतिक्रिया दियो ।\n"
+"%2"
+
+#: command.cpp:169
+msgid ""
+"Your SMTP server does not support TLS. Disable TLS, if you want to connect "
+"without encryption."
+msgstr ""
+"तपाईँको STMP सर्भरले TLS लाई समर्थन गर्दैन । यदि तपाईँ गुप्तिकरण बिना जडान "
+"गर्न चाहनुहुन्छ भने, TLS अक्षम पार्नुहोस् ।"
+
+#: command.cpp:180
+msgid ""
+"Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
+"You can disable TLS in KDE using the crypto settings module."
+msgstr ""
+"तपाईँको SMTP सर्भरले TLS समर्थन गर्न दावी गर्दछ, तर सम्झौता असफल भयो ।\n"
+"तपाईँ केडीई मा क्रिप्टो सेटिङ मोड्युल प्रयोग गरेर TLS अक्षम पार्न सक्नुहुन्छ "
+"।"
+
+#: command.cpp:185
+msgid "Connection Failed"
+msgstr "जडान असफल भयो"
+
+#: command.cpp:192
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "प्रमाणीकरणको बेला एउटा त्रुटि देखापर्यो: %1"
+
+#: command.cpp:258
+msgid "No authentication details supplied."
+msgstr "कुनै पनि प्रमाणीकरण विवरण दिएको छैन ।"
+
+#: command.cpp:350
+msgid "Choose a different authentication method."
+msgstr ""
+
+#: command.cpp:352
+#, kde-format
+msgid "Your SMTP server does not support %1."
+msgstr ""
+
+#: command.cpp:353
+msgid "Your SMTP server does not support (unspecified method)."
+msgstr ""
+
+#: command.cpp:358
+#, kde-format
+msgid ""
+"Your SMTP server does not support authentication.\n"
+"%1"
+msgstr ""
+
+#: command.cpp:362
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"%1"
+msgstr ""
+"प्रमाणीकरण असफल\n"
+"पासवर्ड गलत भएको हुन सक्दछ\n"
+"%1"
+
+#: command.cpp:500
+msgid "Could not read data from application."
+msgstr "अनुप्रयोगबाट डाटा पढ्न सकेन ।"
+
+#: command.cpp:517
+#, kde-format
+msgid ""
+"The message content was not accepted.\n"
+"%1"
+msgstr ""
+"सन्देश सामग्री अस्वीकार गरियो ।\n"
+"%1"
+
+#: response.cpp:103
+#, kde-format
+msgid ""
+"The server responded:\n"
+"%1"
+msgstr ""
+"सर्भरले प्रतिक्रिया दियो:\n"
+"%1"
+
+#: response.cpp:105
+#, kde-format
+msgid "The server responded: \"%1\""
+msgstr "सर्भरले प्रतिक्रिया दियो: \"%1\""
+
+#: response.cpp:107
+msgid "This is a temporary failure. You may try again later."
+msgstr "यो अस्थायी असफलता हो । तपाईँ पुन: प्रयास गर्न सक्नुहुन्छ ।"
+
+#: smtp.cpp:133
+msgid "The application sent an invalid request."
+msgstr "अनुप्रयोगले एउटा अवैध अनुरोध पठायो ।"
+
+#: smtp.cpp:195
+msgid "The sender address is missing."
+msgstr "प्रेषक ठेगाना छुटेको छ ।"
+
+#: smtp.cpp:203
+#, kde-format
+msgid "SMTPProtocol::smtp_open failed (%1)"
+msgstr "SMTP प्रोटोकल::smtp_open असफल भयो (%1)"
+
+#: smtp.cpp:211
+#, kde-format
+msgid ""
+"Your server (%1) does not support sending of 8-bit messages.\n"
+"Please use base64 or quoted-printable encoding."
+msgstr ""
+
+#: smtp.cpp:257
+msgid "Writing to socket failed."
+msgstr "सकेटमा लेख्न असफल भयो ।"
+
+#: smtp.cpp:295
+#, kde-format
+msgid "Invalid SMTP response (%1) received."
+msgstr "अवैध SMTP प्रतिक्रिया (%1) प्राप्त भयो ।"
+
+#: smtp.cpp:497
+#, kde-format
+msgid ""
+"The server (%1) did not accept the connection.\n"
+"%2"
+msgstr ""
+
+#: smtp.cpp:562
+msgid "Username and password for your SMTP account:"
+msgstr "तपाईँको SMTP खाताका लागि प्रयोगकर्ता नाम र पासवर्ड:"
+
+#: transactionstate.cpp:50
+#, kde-format
+msgid ""
+"The server did not accept a blank sender address.\n"
+"%1"
+msgstr ""
+"सर्भरले खाली प्रेषक ठेगाना स्वीकार गरेन ।\n"
+"%1"
+
+#: transactionstate.cpp:53
+#, kde-format
+msgid ""
+"The server did not accept the sender address \"%1\".\n"
+"%2"
+msgstr ""
+"सर्भरले \"%1\" प्रेषक ठेगाना स्वीकार गरेन ।\n"
+"%2"
+
+#: transactionstate.cpp:98
+#, kde-format
+msgid ""
+"Message sending failed since the following recipients were rejected by the "
+"server:\n"
+"%1"
+msgstr ""
+"सर्भरले निम्न प्रापकहरू अस्वीकार गरेकोले सन्देश पठाउन असफल भयो:\n"
+"%1"
+
+#: transactionstate.cpp:103
+#, kde-format
+msgid ""
+"The attempt to start sending the message content failed.\n"
+"%1"
+msgstr ""
+"सन्देश सामग्री पठाउन सुरु गर्ने प्रयास असफल भयो ।\n"
+"%1"
+
+#: transactionstate.cpp:107
+msgid "Unhandled error condition. Please send a bug report."
+msgstr "ह्यान्डल नगरिएको त्रुटि स्थिति । कृपया बग प्रतिवेदन पठाउनुहोस् ।"

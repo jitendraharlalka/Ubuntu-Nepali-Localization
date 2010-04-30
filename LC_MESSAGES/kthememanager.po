@@ -1,0 +1,259 @@
+# translation of kthememanager.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kthememanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:59+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:23+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: knewthemedlg.cpp:31
+msgid "New Theme"
+msgstr "नयाँ विषयवस्तु"
+
+#: kthememanager.cpp:62
+msgid "KDE Theme Manager"
+msgstr "केडीई विषयवस्तु प्रबन्धक"
+
+#: kthememanager.cpp:63 kthememanager.cpp:69
+msgid ""
+"This control module handles installing, removing and creating visual KDE "
+"themes."
+msgstr ""
+"यो नियन्त्रण मोड्युलले दृश्यात्मक केडीई विषयवस्तुहरू स्थापना, हटाइ र सिर्जना "
+"ह्यान्डल गर्दछ ।"
+
+#: kthememanager.cpp:65
+msgid "(c) 2003, 2004 Lukáš Tinkl"
+msgstr "(c) 2003, 2004 लुकास टिन्कल"
+
+#: kthememanager.cpp:265
+msgid "Theme Files"
+msgstr "विषयवस्तु फाइल"
+
+#: kthememanager.cpp:266
+msgid "Select Theme File"
+msgstr "विषयवस्तु फाइल चयन गर्नुहोस्"
+
+#: kthememanager.cpp:300
+#, kde-format
+msgid "Do you really want to remove the theme <b>%1</b>?"
+msgstr "तपाईँ साँच्चै<b>%1</b> विषयवस्तु हटाउन चाहनुहुन्छ ?"
+
+#: kthememanager.cpp:301
+msgid "Remove Theme"
+msgstr "विषयवस्तु हटाउनुहोस्"
+
+#: kthememanager.cpp:323
+msgid "My Theme"
+msgstr "मेरो विषयवस्तु"
+
+#: kthememanager.cpp:334
+#, kde-format
+msgid "Theme %1 already exists."
+msgstr "%1 विषयवस्तु पहिले नै अवस्थित छ ।"
+
+#: kthememanager.cpp:354
+#, kde-format
+msgctxt "%1 is theme archive name"
+msgid "Your theme has been successfully created in %1."
+msgstr ""
+
+#: kthememanager.cpp:355
+msgid "Theme Created"
+msgstr "विषयवस्तु सिर्जना गरियो"
+
+#: kthememanager.cpp:357
+msgid "An error occurred while creating your theme."
+msgstr "तपाईँको विषयवस्तु सिर्जना गर्दा त्रुटि देखा पर्यो ।"
+
+#: kthememanager.cpp:358
+msgid "Theme Not Created"
+msgstr "विषयवस्तु सिर्जना गरिएन"
+
+#: kthememanager.cpp:385
+msgid "This theme does not contain a preview."
+msgstr "यो विषयवस्तुले पूर्वावलोकन समावेश गर्दैन ।"
+
+#: kthememanager.cpp:389
+#, kde-format
+msgid "Author: %1<br />Email: %2<br />Version: %3<br />Homepage: %4"
+msgstr "लेखक: %1<br />इमेल: %2<br>संस्करण: %3<br>गृहपृष्ठ: %4"
+
+#. i18n: file: kthemedlg.ui:34
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:3 rc.cpp:84
+msgid "Choose your visual KDE theme:"
+msgstr "तपाईँको दृश्यात्मक केडीई विषयवस्तु छनोट गर्नुहोस्:"
+
+#. i18n: file: kthemedlg.ui:60
+#. i18n: ectx: property (text), widget (KUrlLabel, lbGet)
+#: rc.cpp:6 rc.cpp:87
+msgid "Get new themes..."
+msgstr "नयाँ विषयवस्तु प्राप्त गर्नुहोस्..."
+
+#. i18n: file: kthemedlg.ui:66
+#. i18n: ectx: property (tipText), widget (KUrlLabel, lbGet)
+#: rc.cpp:10 rc.cpp:91
+msgid "Go to the KDE themes website"
+msgstr "केडीई विषयवस्तुको वेबसाइटमा जानुहोस्"
+
+#. i18n: file: kthemedlg.ui:102
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: rc.cpp:13 rc.cpp:94
+msgid "&Remove Theme"
+msgstr "विषयवस्तु हटाउनुहोस्"
+
+#. i18n: file: kthemedlg.ui:109
+#. i18n: ectx: property (text), widget (QPushButton, btnCreate)
+#: rc.cpp:16 rc.cpp:97
+msgid "Create &New Theme..."
+msgstr "नयाँ विषयवस्तु सिर्जना गर्नुहोस्..."
+
+#. i18n: file: kthemedlg.ui:116
+#. i18n: ectx: property (text), widget (QPushButton, btnInstall)
+#: rc.cpp:19 rc.cpp:100
+msgid "&Install New Theme..."
+msgstr "नयाँ विषयवस्तु स्थापना गर्नुहोस्..."
+
+#. i18n: file: kthemedlg.ui:136
+#. i18n: ectx: property (text), widget (Q3ListView, lvThemes)
+#: rc.cpp:22 rc.cpp:103
+msgid "Theme"
+msgstr "विषयवस्तु"
+
+#. i18n: file: kthemedlg.ui:162
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:25 rc.cpp:106
+msgid "Customize your theme:"
+msgstr "तपाईँको विषयवस्तु अनुकूलन गर्नुहोस्:"
+
+#. i18n: file: kthemedlg.ui:198
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnBackground)
+#: rc.cpp:28 rc.cpp:109
+msgid "Customize the desktop background"
+msgstr "डेस्कटप पृष्ठभूमि अनुकूलन गर्नुहोस्"
+
+#. i18n: file: kthemedlg.ui:201
+#. i18n: ectx: property (text), widget (QToolButton, btnBackground)
+#: rc.cpp:31 rc.cpp:112
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#. i18n: file: kthemedlg.ui:229
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnColors)
+#: rc.cpp:34 rc.cpp:115
+msgid "Customize colors"
+msgstr "रङ अनुकूलन गर्नुहोस्"
+
+#. i18n: file: kthemedlg.ui:232
+#. i18n: ectx: property (text), widget (QToolButton, btnColors)
+#: rc.cpp:37 rc.cpp:118
+msgid "Colors"
+msgstr "रङ"
+
+#. i18n: file: kthemedlg.ui:260
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnStyle)
+#: rc.cpp:40 rc.cpp:121
+msgid "Customize the widget style"
+msgstr "विजेट शैली अनुकूलन गर्नुहोस्"
+
+#. i18n: file: kthemedlg.ui:263
+#. i18n: ectx: property (text), widget (QToolButton, btnStyle)
+#: rc.cpp:43 rc.cpp:124
+msgid "Style"
+msgstr "शैली"
+
+#. i18n: file: kthemedlg.ui:291
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnIcons)
+#: rc.cpp:46 rc.cpp:127
+msgid "Customize the icon theme"
+msgstr "प्रतिमा विषयवस्तु अनुकूलन गर्नुहोस्"
+
+#. i18n: file: kthemedlg.ui:294
+#. i18n: ectx: property (text), widget (QToolButton, btnIcons)
+#: rc.cpp:49 rc.cpp:130
+msgid "Icons"
+msgstr "प्रतिमा"
+
+#. i18n: file: kthemedlg.ui:322
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnFonts)
+#: rc.cpp:52 rc.cpp:133
+msgid "Customize the font theme"
+msgstr "फन्ट विषयवस्तु अनुकूलन गर्नुहोस्"
+
+#. i18n: file: kthemedlg.ui:325
+#. i18n: ectx: property (text), widget (QToolButton, btnFonts)
+#: rc.cpp:55 rc.cpp:136
+msgid "Fonts"
+msgstr "फन्ट"
+
+#. i18n: file: kthemedlg.ui:353
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnSaver)
+#: rc.cpp:58 rc.cpp:139
+msgid "Customize the screen saver"
+msgstr "स्क्रिनसेभर अनुकूलन गर्नुहोस्"
+
+#. i18n: file: kthemedlg.ui:356
+#. i18n: ectx: property (text), widget (QToolButton, btnSaver)
+#: rc.cpp:61 rc.cpp:142
+msgid "Screen Saver"
+msgstr "स्क्रिनसेभर"
+
+#. i18n: file: newthemewidget.ui:17
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:64 rc.cpp:145
+msgid "&Theme name:"
+msgstr "विषयवस्तु नाम:"
+
+#. i18n: file: newthemewidget.ui:33
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:67 rc.cpp:148
+msgid "&Author:"
+msgstr "लेखक:"
+
+#. i18n: file: newthemewidget.ui:49
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:70 rc.cpp:151
+msgid "&Email:"
+msgstr "इमेल:"
+
+#. i18n: file: newthemewidget.ui:65
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:73 rc.cpp:154
+msgid "&Homepage:"
+msgstr "गृहपृष्ठ:"
+
+#. i18n: file: newthemewidget.ui:93
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:76 rc.cpp:157
+msgid "Co&mment:"
+msgstr "टिप्पणी:"
+
+#. i18n: file: newthemewidget.ui:115
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:79 rc.cpp:160
+msgid "&Version:"
+msgstr "संस्करण:"
+
+#: rc.cpp:80
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:81
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com,,,"

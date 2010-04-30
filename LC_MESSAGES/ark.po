@@ -1,0 +1,898 @@
+# translation of ark.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: ark\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 23:08+0000\n"
+"PO-Revision-Date: 2010-04-21 18:45+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:04+0000\n"
+
+#: app/extractHereDndPlugin.cpp:69 kerfuffle/extractiondialog.cpp:111
+msgid "Extract here"
+msgstr ""
+
+#: app/main.cpp:41
+msgid "Ark"
+msgstr "आर्क"
+
+#: app/main.cpp:42
+msgid "KDE Archiving tool"
+msgstr "KDE सङ्ग्रहण उपकरण"
+
+#: app/main.cpp:44
+msgid "(c) 1997-2009, The Various Ark Developers"
+msgstr ""
+
+#: app/main.cpp:49
+msgid "Harald Hvaal"
+msgstr ""
+
+#: app/main.cpp:50 app/main.cpp:53
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: app/main.cpp:52
+msgid "Raphael Kubo da Costa"
+msgstr ""
+
+#: app/main.cpp:55
+msgid "Henrique Pinto"
+msgstr "हेन्रिक पिन्टो"
+
+#: app/main.cpp:56
+msgid "Former Maintainer"
+msgstr ""
+
+#: app/main.cpp:58
+msgid "Helio Chissini de Castro"
+msgstr "हेलिओ चिसिनि डि क्यास्ट्रो"
+
+#: app/main.cpp:59
+msgid "Former maintainer"
+msgstr "अघिल्लो मर्मतकर्ता"
+
+#: app/main.cpp:61
+msgid "Georg Robbers"
+msgstr "जर्ज रोबर्स"
+
+#: app/main.cpp:64
+msgid "Roberto Selbach Teixeira"
+msgstr "रोबेर्टो सेल्बाच ताइक्सेरा"
+
+#: app/main.cpp:67
+msgid "Francois-Xavier Duranceau"
+msgstr "फ्राङ्कोइस-जेभियर दुरानसियु"
+
+#: app/main.cpp:70
+msgid "Emily Ezust (Corel Corporation)"
+msgstr "एमिली एजस्ट (कोरेल कर्पोरेसन)"
+
+#: app/main.cpp:73
+msgid "Michael Jarrett (Corel Corporation)"
+msgstr "माइकल ज्यारेट (कोरेल कर्पोरेसन)"
+
+#: app/main.cpp:76
+msgid "Robert Palmbos"
+msgstr "रोबर्ट पालम्बोस"
+
+#: app/main.cpp:80
+msgid "Bryce Corkins"
+msgstr "ब्रायिस कोर्किन्स"
+
+#: app/main.cpp:81
+msgid "Icons"
+msgstr "प्रतिमा"
+
+#: app/main.cpp:83
+msgid "Liam Smit"
+msgstr "लिआम स्मित"
+
+#: app/main.cpp:84
+msgid "Ideas, help with the icons"
+msgstr "प्रतिमासँग विचार, मद्दत"
+
+#: app/main.cpp:86
+msgid "Andrew Smith"
+msgstr ""
+
+#: app/main.cpp:87
+msgid "bkisofs code"
+msgstr ""
+
+#: app/main.cpp:94
+msgid "URL of an archive to be opened"
+msgstr ""
+
+#: app/main.cpp:95
+msgid ""
+"Show a dialog for specifying the options for the operation (extract/add)"
+msgstr ""
+
+#: app/main.cpp:96
+msgid ""
+"Destination folder to extract to. Defaults to current path if not specified."
+msgstr ""
+
+#: app/main.cpp:97
+msgid "Options for adding files"
+msgstr "फाइल थप्नका लागि विकल्प"
+
+#: app/main.cpp:98
+msgid ""
+"Query the user for an archive filename and add specified files to it. Quit "
+"when finished."
+msgstr ""
+
+#: app/main.cpp:99
+msgid ""
+"Add the specified files to 'filename'. Create archive if it does not exist. "
+"Quit when finished."
+msgstr ""
+
+#: app/main.cpp:100
+msgid ""
+"Change the current dir to the first entry and add all other entries relative "
+"to this one."
+msgstr ""
+
+#: app/main.cpp:101
+msgid ""
+"Automatically choose a filename, with the selected suffix (for example rar, "
+"tar.gz, zip or any other supported types)"
+msgstr ""
+
+#: app/main.cpp:102
+msgid "Options for batch extraction:"
+msgstr ""
+
+#: app/main.cpp:103
+msgid ""
+"Use the batch interface instead of the usual dialog. This option is implied "
+"if more than one url is specified."
+msgstr ""
+
+#: app/main.cpp:104
+msgid ""
+"The destination argument will be set to the path of the first file supplied."
+msgstr ""
+
+#: app/main.cpp:105
+msgid ""
+"Archive contents will be read, and if detected to not be a single folder "
+"archive, a subfolder by the name of the archive will be created."
+msgstr ""
+
+#: app/mainwindow.cpp:126
+msgid "Unable to find Ark's KPart component, please check your installation."
+msgstr ""
+
+#: app/mainwindow.cpp:149
+msgctxt "action, to open an archive"
+msgid "Open"
+msgstr "खोल्नुहोस्"
+
+#: app/mainwindow.cpp:150
+msgid ""
+"Click to open an archive, click and hold to open a recently-opened archive"
+msgstr ""
+
+#: app/mainwindow.cpp:151
+msgid "Open an archive"
+msgstr ""
+
+#: kerfuffle/adddialog.cpp:61
+msgid "Compress to Archive"
+msgstr ""
+
+#: kerfuffle/addtoarchive.cpp:130
+msgid "No input files were given."
+msgstr ""
+
+#: kerfuffle/addtoarchive.cpp:140
+msgid ""
+"You need to either supply a filename for the archive or a suffix (such as "
+"rar, tar.gz) with the --autofilename argument."
+msgstr ""
+
+#: kerfuffle/addtoarchive.cpp:174
+msgid ""
+"Failed to create the new archive. Permissions might not be sufficient."
+msgstr ""
+
+#: kerfuffle/batchextract.cpp:134 kerfuffle/batchextract.cpp:187
+msgid "Extracting file..."
+msgstr ""
+
+#: kerfuffle/batchextract.cpp:135 kerfuffle/batchextract.cpp:188
+msgid "Source archive"
+msgstr ""
+
+#: kerfuffle/batchextract.cpp:136 kerfuffle/batchextract.cpp:189
+msgid "Destination"
+msgstr "गन्तव्य"
+
+#: kerfuffle/batchextract.cpp:149
+msgid "The following files could not be extracted:"
+msgstr ""
+
+#: kerfuffle/batchextract.cpp:165
+msgid "There was an error during extraction."
+msgstr ""
+
+#: kerfuffle/cliinterface.cpp:490 kerfuffle/cliinterface.cpp:510
+msgid "Incorrect password."
+msgstr "गलत पासवर्ड ।"
+
+#: kerfuffle/cliinterface.cpp:498 kerfuffle/cliinterface.cpp:518
+msgid "Extraction failed because of an unexpected error."
+msgstr ""
+
+#: kerfuffle/cliinterface.cpp:536
+#, kde-format
+msgid "Failed to locate program '%1' in PATH."
+msgstr ""
+
+#: kerfuffle/cliinterface.cpp:541
+#, kde-format
+msgid "Found program '%1', but failed to initialize the process."
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:60
+msgctxt "@title:window"
+msgid "Extract"
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:96
+msgid "Extract multiple archives"
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:102
+msgid "The subfolder name may not contain the character '/'."
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:111
+#, kde-format
+msgid ""
+"The folder '%1' already exists. Are you sure you want to extract here?"
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:111
+msgid "Folder exists"
+msgstr "फोल्डर विद्यमान छ"
+
+#: kerfuffle/extractiondialog.cpp:111 part/part.cpp:343 part/part.cpp:721
+msgid "Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: kerfuffle/extractiondialog.cpp:120 kerfuffle/extractiondialog.cpp:126
+#, kde-format
+msgid "The folder <b>%1</b> could not be created."
+msgstr "फोल्डर <b>%1</b> निर्माण गर्न सकिएन् ।"
+
+#: kerfuffle/extractiondialog.cpp:121
+#, kde-format
+msgid "<b>%1</b> already exists, but is not a folder."
+msgstr "<b>%1</b> पहिले देखि विद्यमान छ, तर फोल्डर होइन ।"
+
+#: kerfuffle/extractiondialog.cpp:127
+msgid "Please check your permissions to create it."
+msgstr ""
+
+#: kerfuffle/jobs.cpp:131
+msgid "Loading archive..."
+msgstr ""
+
+#: kerfuffle/jobs.cpp:194
+msgid "Extracting all files"
+msgstr ""
+
+#: kerfuffle/jobs.cpp:196
+#, kde-format
+msgid "Extracting one file"
+msgid_plural "Extracting %1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kerfuffle/jobs.cpp:231
+#, kde-format
+msgid "Adding a file"
+msgid_plural "Adding %1 files"
+msgstr[0] "फाइल थप्दै"
+msgstr[1] "%1 फाइल थप्दै"
+
+#: kerfuffle/jobs.cpp:254
+#, kde-format
+msgid "Deleting a file from the archive"
+msgid_plural "Deleting %1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kerfuffle/queries.cpp:93
+msgid "File already exists"
+msgstr "फाइल पहिले देखि विद्यमान छ"
+
+#: kerfuffle/queries.cpp:168
+#, kde-format
+msgid ""
+"The archive '%1' is password protected. Please enter the password to extract "
+"the file."
+msgstr ""
+
+#: kerfuffle/queries.cpp:171
+msgid "Incorrect password, please try again."
+msgstr "गलत पासवर्ड; कृपया पुन: प्रयास गर्नुहोस् ।"
+
+#: part/archivemodel.cpp:299
+msgctxt "Name of a file inside an archive"
+msgid "Name"
+msgstr "नाम"
+
+#: part/archivemodel.cpp:301
+msgctxt "Uncompressed size of a file inside an archive"
+msgid "Size"
+msgstr "साइज"
+
+#: part/archivemodel.cpp:303
+msgctxt "Compressed size of a file inside an archive"
+msgid "Compressed"
+msgstr ""
+
+#: part/archivemodel.cpp:305
+msgctxt "Compression rate of file"
+msgid "Rate"
+msgstr "दर"
+
+#: part/archivemodel.cpp:307
+msgctxt "File's owner username"
+msgid "Owner"
+msgstr "मालिक"
+
+#: part/archivemodel.cpp:309
+msgctxt "File's group"
+msgid "Group"
+msgstr "समूह"
+
+#: part/archivemodel.cpp:311
+msgctxt "File permissions"
+msgid "Mode"
+msgstr "मोड"
+
+#: part/archivemodel.cpp:313
+msgctxt "CRC hash code"
+msgid "CRC"
+msgstr ""
+
+#: part/archivemodel.cpp:315
+msgctxt "Compression method"
+msgid "Method"
+msgstr "तरिका"
+
+#: part/archivemodel.cpp:318
+msgctxt "File version"
+msgid "Version"
+msgstr "संस्करण"
+
+#: part/archivemodel.cpp:320
+msgctxt "Timestamp"
+msgid "Date"
+msgstr "मिति"
+
+#: part/archivemodel.cpp:322
+msgctxt "File comment"
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: part/archivemodel.cpp:324
+msgctxt "Unnamed column"
+msgid "??"
+msgstr "??"
+
+#: part/arkviewer.cpp:60
+msgid "Closing preview"
+msgstr ""
+
+#: part/arkviewer.cpp:61
+msgid "Please wait while the preview is being closed..."
+msgstr ""
+
+#: part/arkviewer.cpp:79 part/arkviewer.cpp:86
+msgid "The internal viewer cannot preview this file."
+msgstr ""
+
+#: part/infopanel.cpp:67
+msgid "No archive loaded"
+msgstr ""
+
+#: part/infopanel.cpp:111
+#, kde-format
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "एउटा वस्तु"
+msgstr[1] "%1 वस्तुहरु"
+
+#: part/infopanel.cpp:113
+msgid "Symbolic Link"
+msgstr ""
+
+#: part/infopanel.cpp:118
+msgid "Unknown size"
+msgstr "अज्ञात साइज"
+
+#: part/infopanel.cpp:140
+#, kde-format
+msgid "One file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "एउटा फाइल छानियो"
+msgstr[1] "%1 फाइलहरु छानिए"
+
+#: part/infopanel.cpp:188
+#, kde-format
+msgid "<b>Type:</b> %1<br/>"
+msgstr "<b>प्रकार:</b> %1<br/>"
+
+#: part/infopanel.cpp:191
+#, kde-format
+msgid "<b>Owner:</b> %1<br/>"
+msgstr "<b>मालिक:</b> %1<br/>"
+
+#: part/infopanel.cpp:195
+#, kde-format
+msgid "<b>Group:</b> %1<br/>"
+msgstr "<b>समूह:</b> %1<br/>"
+
+#: part/infopanel.cpp:199
+#, kde-format
+msgid "<b>Target:</b> %1<br/>"
+msgstr "<b>लक्ष्य:</b> %1<br/>"
+
+#: part/infopanel.cpp:203
+msgid "<b>Password protected:</b> Yes<br/>"
+msgstr "<b>पासवर्ड सुरक्षित:</b> हो<br/>"
+
+#: part/jobtracker.cpp:107
+msgid "Operation finished."
+msgstr "कार्य समाप्त ।"
+
+#: part/part.cpp:211
+msgid "Show information panel"
+msgstr ""
+
+#: part/part.cpp:220
+msgctxt "to preview a file inside an archive"
+msgid "Pre&view"
+msgstr ""
+
+#: part/part.cpp:222
+msgid "Click to preview the selected file"
+msgstr ""
+
+#: part/part.cpp:227
+msgid "E&xtract"
+msgstr ""
+
+#: part/part.cpp:229
+msgid ""
+"Click to open an extraction dialog, where you can choose to extract either "
+"all files or just the selected ones"
+msgstr ""
+
+#: part/part.cpp:236
+msgid "Add &File..."
+msgstr "फाइल थप्नुहोस्..."
+
+#: part/part.cpp:237
+msgid "Click to add files to the archive"
+msgstr ""
+
+#: part/part.cpp:243
+msgid "Add Fo&lder..."
+msgstr "फोल्डर थप्नुहोस्..."
+
+#: part/part.cpp:244
+msgid "Click to add a folder to the archive"
+msgstr ""
+
+#: part/part.cpp:250
+msgid "De&lete"
+msgstr "मेटाउनुहोस्"
+
+#: part/part.cpp:252
+msgid "Click to delete the selected files"
+msgstr "छानिएका फाइलहरु मेटाउन क्लिक गर्नुहोस्"
+
+#: part/part.cpp:273
+msgid "Recent folders"
+msgstr "हालका फोल्डरहरु"
+
+#: part/part.cpp:277
+msgid "Quick Extract To..."
+msgstr ""
+
+#: part/part.cpp:334
+msgid "ArkPart"
+msgstr ""
+
+#: part/part.cpp:343
+#, kde-format
+msgid "The file '%1' already exists. Would you like to open it instead?"
+msgstr ""
+
+#: part/part.cpp:343
+msgid "File Exists"
+msgstr "फाइल विद्यमान छ"
+
+#: part/part.cpp:343
+msgid "Open File"
+msgstr "फाइल खोल्नुहोस्"
+
+#: part/part.cpp:350
+#, kde-format
+msgid "Error opening archive: the file '%1' was not found."
+msgstr ""
+
+#: part/part.cpp:350 part/part.cpp:394 part/part.cpp:430
+msgid "Error Opening Archive"
+msgstr ""
+
+#: part/part.cpp:380
+msgid "Unable to Determine Archive Type"
+msgstr ""
+
+#: part/part.cpp:381
+msgid ""
+"Ark was unable to determine the archive type of the filename.\n"
+"\n"
+"Please choose the correct archive type below."
+msgstr ""
+
+#: part/part.cpp:394
+#, kde-format
+msgid ""
+"Ark was not able to open the archive '%1'. No library capable of handling "
+"the file was found."
+msgstr ""
+
+#: part/part.cpp:430
+#, kde-format
+msgid "Reading the archive '%1' failed with the error '%2'"
+msgstr ""
+
+#: part/part.cpp:686
+msgid "Add Files"
+msgstr "फाइलहरु थप्नुहोस्"
+
+#: part/part.cpp:694
+msgid "Add Folder"
+msgstr "फोल्डर थप्नुहोस्"
+
+#: part/part.cpp:721
+msgid "Deleting these files is not undoable. Are you sure you want to do this?"
+msgstr ""
+
+#: part/part.cpp:721
+msgid "Delete files"
+msgstr "फाइलहरु मेटाउनुहोस्"
+
+#: part/part.cpp:762
+#, kde-format
+msgid ""
+"A file named <b>%1</b> already exists. Are you sure you want to overwrite "
+"it?"
+msgstr ""
+
+#: part/part.cpp:764
+msgid "Overwrite"
+msgstr ""
+
+#: part/part.cpp:776
+#, kde-format
+msgid ""
+"The file <b>%1</b> cannot be copied to the specified location. The archive "
+"does not exist anymore."
+msgstr ""
+
+#: part/part.cpp:788
+#, kde-format
+msgid ""
+"The archive could not be saved as <b>%1</b>. Try to save it in another "
+"location."
+msgstr ""
+
+#: plugins/bk/bkplugin.cpp:72
+#, kde-format
+msgid "Could not extract '%1'"
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:64
+#: plugins/karchiveplugin/karchiveplugin.cpp:74
+#, kde-format
+msgid "Could not open the archive '%1' for reading"
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:82
+#, kde-format
+msgid "File '%1' not found in the archive"
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:151
+#, kde-format
+msgid "Could not open the archive '%1' for writing."
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:168
+#, kde-format
+msgid "Could not add the directory %1 to the archive"
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:176
+#, kde-format
+msgid "Could not add the file %1 to the archive."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:78
+#, kde-format
+msgid "Could not open the file '%1', libarchive cannot handle it."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:94
+#, kde-format
+msgid "The archive reading failed with message: %1"
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:137
+#, kde-format
+msgid "Unable to open the file '%1', libarchive cannot handle it."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:177
+msgid ""
+"This archive contains archive entries with absolute paths, which are not yet "
+"supported by ark."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:314
+#: plugins/libarchive/libarchivehandler.cpp:467
+msgid "The archive reader could not be initialized."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:322
+#: plugins/libarchive/libarchivehandler.cpp:475
+msgid "The source file could not be read."
+msgstr "स्रोत फाइल पढ्न सकिएन् ।"
+
+#: plugins/libarchive/libarchivehandler.cpp:330
+#: plugins/libarchive/libarchivehandler.cpp:482
+msgid "The archive writer could not be initialized."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:353
+#: plugins/libarchive/libarchivehandler.cpp:377
+#: plugins/libarchive/libarchivehandler.cpp:505
+#, kde-format
+msgid "Setting compression failed with the error '%1'"
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:358
+#, kde-format
+msgid "Setting format failed with the error '%1'"
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:373
+#: plugins/libarchive/libarchivehandler.cpp:500
+#, kde-format
+msgid "The compression type '%1' is not supported by Ark."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:384
+#: plugins/libarchive/libarchivehandler.cpp:511
+#, kde-format
+msgid "Opening the archive for writing failed with error message '%1'"
+msgstr ""
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:66
+#, kde-format
+msgid "Ark could not extract %1."
+msgstr ""
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:74
+#, kde-format
+msgid "Ark could not open %1 for extraction."
+msgstr ""
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:88
+#, kde-format
+msgid "There was an error while reading %1 during extraction."
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, नारायण कुमार मगर, जितेन्द्र हरलालका "
+",Launchpad Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"lipak21@gmail.com, shyamkrishna_bal@yahoo.com, narayan@mpp.org.np, "
+"jitendra@otrc.gov.np,,"
+
+#. i18n: file: part/ark_part.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:5
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: part/ark_part.rc:9
+#. i18n: ectx: Menu (action)
+#: rc.cpp:8
+msgid "&Action"
+msgstr "कार्य"
+
+#. i18n: file: part/ark_part.rc:17
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:11
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: app/arkui.rc:13
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:14
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: part/infopanel.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
+#: rc.cpp:17
+msgid "Information Panel"
+msgstr ""
+
+#. i18n: file: part/infopanel.ui:42
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, fileName)
+#: rc.cpp:20
+msgid "KSqueezedTextLabel"
+msgstr ""
+
+#. i18n: file: part/infopanel.ui:58
+#. i18n: ectx: property (text), widget (QLabel, additionalInfo)
+#: rc.cpp:23
+msgid "Unknown file type"
+msgstr "अज्ञात फाइल प्रकार"
+
+#. i18n: file: part/infopanel.ui:75
+#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
+#: rc.cpp:26
+msgid "Metadata Label"
+msgstr "मेटाडाटा लेबल"
+
+#. i18n: file: part/infopanel.ui:95
+#. i18n: ectx: property (text), widget (QLabel, actionsLabel)
+#: rc.cpp:29
+msgid "ActionsLabel"
+msgstr ""
+
+#. i18n: file: part/jobtracker.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
+#: rc.cpp:32
+msgid "Job Tracker"
+msgstr ""
+
+#. i18n: file: part/jobtracker.ui:43
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#: rc.cpp:35
+msgid "<b>Job Description</b>"
+msgstr ""
+
+#. i18n: file: part/jobtracker.ui:62
+#. i18n: ectx: property (text), widget (QLabel, informationLabel)
+#: rc.cpp:38
+msgid "Some Information about the job"
+msgstr ""
+
+#. i18n: file: kerfuffle/adddialog.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
+#: rc.cpp:41
+msgid "Files/Folders to Compress"
+msgstr ""
+
+#. i18n: file: kerfuffle/adddialog.ui:92
+#. i18n: ectx: property (title), widget (QGroupBox, groupExtraOptions)
+#: rc.cpp:44
+msgid "Extra Compression Options"
+msgstr ""
+
+#. i18n: file: kerfuffle/adddialog.ui:99
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:47
+msgid ""
+"Easter egg for the developers:\n"
+"This is where future versions will have extra compression options for the "
+"various compression interfaces."
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExtractionDialog)
+#: rc.cpp:51
+msgid "Extraction Dialog"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:69
+#. i18n: ectx: property (text), widget (QLabel, extractAllLabel)
+#: rc.cpp:54
+msgid "Extract All Files"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:78
+#. i18n: ectx: property (title), widget (QGroupBox, singleFolderGroup)
+#: rc.cpp:57
+msgid "&Extraction into subfolder:"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:112
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:60
+msgid "Options"
+msgstr "विकल्पहरु"
+
+#. i18n: file: kerfuffle/extractiondialog.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, openFolderCheckBox)
+#: rc.cpp:63
+msgid "Open &destination folder after extraction"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:138
+#. i18n: ectx: property (text), widget (QCheckBox, preservePaths)
+#: rc.cpp:66
+msgid "&Preserve paths when extracting"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:145
+#. i18n: ectx: property (text), widget (QCheckBox, autoSubfolders)
+#: rc.cpp:69
+msgid "&Automatically create subfolders"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:161
+#. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
+#: rc.cpp:72
+msgctxt "@title:group"
+msgid "Extract"
+msgstr ""
+
+#. i18n: file: kerfuffle/extractiondialog.ui:179
+#. i18n: ectx: property (text), widget (QRadioButton, selectedFilesButton)
+#: rc.cpp:75
+msgid "&Selected files only"
+msgstr "छानिएका फाइलहरु मात्रै"
+
+#. i18n: file: kerfuffle/extractiondialog.ui:195
+#. i18n: ectx: property (text), widget (QRadioButton, allFilesButton)
+#: rc.cpp:78
+msgid "All &files"
+msgstr "सबै फाइलहरु"
+
+#. i18n: file: kerfuffle/ark.kcfg:9
+#. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
+#: rc.cpp:81
+msgid "Open destination folder after extraction"
+msgstr ""
+
+#. i18n: file: kerfuffle/ark.kcfg:13
+#. i18n: ectx: label, entry (preservePaths), group (Extraction)
+#: rc.cpp:84
+msgid "Preserve paths when extracting"
+msgstr ""

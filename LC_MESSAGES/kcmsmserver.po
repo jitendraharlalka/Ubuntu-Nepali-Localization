@@ -1,0 +1,158 @@
+# translation of kcmsmserver.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:54+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kcmsmserver.cpp:52
+msgid ""
+"<h1>Session Manager</h1> You can configure the session manager here. This "
+"includes options such as whether or not the session exit (logout) should be "
+"confirmed, whether the session should be restored again when logging in and "
+"whether the computer should be automatically shut down after session exit by "
+"default."
+msgstr ""
+"<h1>सत्र प्रबन्धक</h1> तपाईँ यहाँ सत्र प्रबन्धक कन्फिगर गर्न सक्नुहुन्छ । "
+"यसले यी विकल्प समावेश गर्दछ जस्तै सत्रको अन्त्य (लगआउट) निश्चित हुन्छ या "
+"हुँदैन, लग इन गर्दा सत्र फेरि पूर्वावस्थामा जान्छ या जाँदैन र "
+"पूर्वानिर्धारित रूपमा सत्रको अन्त्य पछि कम्प्युटर स्वचालित रूपमा बन्द हुन्छ "
+"या हुँदैन ।"
+
+#. i18n: file: smserverconfigdlg.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, topBox)
+#: rc.cpp:3 rc.cpp:55
+msgid "General"
+msgstr "सामान्य"
+
+#. i18n: file: smserverconfigdlg.ui:23
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#: rc.cpp:6 rc.cpp:58
+msgid ""
+"Check this option if you want the session manager to display a logout "
+"confirmation dialog box."
+msgstr ""
+"यदि तपाईँ लगआउट यकीन संवाद बाकस प्रदर्शन गर्न सत्र प्रबन्धक चाहनुहुन्छ भने "
+"यो विकल्प चिनो लगाउनुहोस् ।"
+
+#. i18n: file: smserverconfigdlg.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#: rc.cpp:9 rc.cpp:61
+msgid "Conf&irm logout"
+msgstr "लगआउट यकीन गर्नुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#: rc.cpp:12 rc.cpp:64
+msgid "O&ffer shutdown options"
+msgstr "बन्द विकल्प प्रस्ताव गर्नुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:43
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
+#: rc.cpp:15 rc.cpp:67
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+"यहाँ तपाईँ लगआउट हुँदा पूर्वानिर्धारित रूपमा के हुन्छ भन्ने रोज्न सक्नुहुन्छ "
+"। यदि तपाईँले केडीई मार्फत लग गर्नुभयो भने, मात्र यसको अर्थ हुन्छ ।"
+
+#. i18n: file: smserverconfigdlg.ui:46
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: rc.cpp:18 rc.cpp:70
+msgid "Default Leave Option"
+msgstr ""
+
+#. i18n: file: smserverconfigdlg.ui:52
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: rc.cpp:21 rc.cpp:73
+msgid "&End current session"
+msgstr "हालको सत्र अन्त्य गर्नुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:59
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: rc.cpp:24 rc.cpp:76
+msgid "&Turn off computer"
+msgstr "कम्प्युटर बन्द गर्नुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: rc.cpp:27 rc.cpp:79
+msgid "&Restart computer"
+msgstr "कम्प्युटर पुन: सुरु गर्नुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:80
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: rc.cpp:30 rc.cpp:82
+msgid ""
+"<ul>\n"
+"<li><b>Restore previous session:</b> Will save all applications running on "
+"exit and restore them when they next start up</li>\n"
+"<li><b>Restore manually saved session: </b> Allows the session to be saved "
+"at any time via \"Save Session\" in the K-Menu. This means the currently "
+"started applications will reappear when they next start up.</li>\n"
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
+"with an empty desktop on next start.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><b>अघिल्लो सत्र पूर्वावस्थामा ल्याउनुहोस्:</b> ले 'अन्त्य गर्नुहोस्' "
+"चलाइरहको सबै अनुप्रयोगहरू बचत गर्दछ र पछिल्लो सुरुआत हुँदा तिनीहरूलाई "
+"पूर्वावस्थामा ल्याउनुहोस्</li>\n"
+"<li><b>म्यानुअल तरिकाले बचत गरिएको सत्र पूर्वावस्थामा ल्याउनुहोस्: </b> के-"
+"मेनुमा \"सत्र बचत गर्नुहोस्\" मार्फत कुनै समयमा सत्रहरू बचत गर्न अनुमति "
+"दिनुहोस् । यसको मतलब हालै सुरु गरिएको अनुप्रयोगहरू पछिल्लो सुरुआत हुँदा पुन: "
+"देखा पर्छ ।</li>\n"
+"<li><b>एउटा खाली सत्रसँग सुरु गर्नुहोस्:</b> केही पनि बचत नगर्नुहोस् । "
+"पछिल्लो सुरुआतमा एउटा खाली डेस्कटपसँग माथि आउँछ ।</li>\n"
+"</ul>"
+
+#. i18n: file: smserverconfigdlg.ui:83
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
+#: rc.cpp:37 rc.cpp:89
+msgid "On Login"
+msgstr "लगइनमा"
+
+#. i18n: file: smserverconfigdlg.ui:89
+#. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
+#: rc.cpp:40 rc.cpp:92
+msgid "Restore &previous session"
+msgstr "अघिल्लो सत्र पूर्वावस्थामा ल्याउनुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:96
+#. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
+#: rc.cpp:43 rc.cpp:95
+msgid "Restore &manually saved session"
+msgstr "म्यानुअल तरिकाले बचत गरिएको सत्र पूर्वावस्थामा ल्याउनुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:103
+#. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
+#: rc.cpp:46 rc.cpp:98
+msgid "Start with an empty &session"
+msgstr "एउटा खाली सत्रसँग सुरु गर्नुहोस्"
+
+#. i18n: file: smserverconfigdlg.ui:110
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:49 rc.cpp:101
+msgid "Applications to be e&xcluded from sessions:"
+msgstr "सत्रबाट असामाहित गरिने अनुप्रयोग:"
+
+#. i18n: file: smserverconfigdlg.ui:123
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, excludeLineedit)
+#: rc.cpp:52 rc.cpp:104
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""

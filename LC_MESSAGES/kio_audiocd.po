@@ -1,0 +1,104 @@
+# translation of kio_audiocd.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_audiocd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 12:09+0000\n"
+"PO-Revision-Date: 2008-10-07 15:17+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:28+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: audiocd.cpp:79
+msgid "Protocol name"
+msgstr "प्रोटोकल नाम"
+
+#: audiocd.cpp:80 audiocd.cpp:81
+msgid "Socket name"
+msgstr "सकेट नाम"
+
+#: audiocd.cpp:108
+msgid "Information"
+msgstr ""
+
+#: audiocd.cpp:109
+msgid "Full CD"
+msgstr "पूरा सीडी"
+
+#: audiocd.cpp:269
+msgid ""
+"You cannot specify a host with this protocol. Please use the audiocd:/ "
+"format instead."
+msgstr ""
+"तपाईँले यो प्रोटोकलद्वारा होस्ट निर्दिष्ट गर्न सक्नुहुन्न । कृपया सट्टामा "
+"अडियो सीडी:/ ढाँचा प्रयोग गर्नुहोस् ।"
+
+#: audiocd.cpp:765
+msgid ""
+"Device does not have read permissions for this account.  Check the read "
+"permissions on the device."
+msgstr ""
+
+#: audiocd.cpp:767
+msgid ""
+"Device does not have write permissions for this account.  Check the write "
+"permissions on the device."
+msgstr ""
+
+#: audiocd.cpp:771
+msgid ""
+"Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as "
+"yourself (not root). Do you see a track list? If not, make sure you have "
+"permission to access the CD device. If you are using SCSI emulation "
+"(possible if you have an IDE CD writer) then make sure you check that you "
+"have read and write permissions on the generic SCSI device, which is "
+"probably /dev/sg0, /dev/sg1, etc.. If it still does not work, try typing "
+"audiocd:/?device=/dev/sg0 (or similar) to tell kio_audiocd which device your "
+"CD-ROM is."
+msgstr ""
+"अज्ञात त्रुटि । यदि तपाईँको ड्राइभमा सीडी छ भने (मूलको रूपमा होइन) आफै "
+"cdparanoia -vsQ चलाउने प्रयास गर्नुहोस् । तपाईँले ट्रयाक सूची हेर्नुभयो ? "
+"यदि छैन भने, तपाईँसँग सीडी यन्त्र पहुँच गर्ने अनुमति छ भन्ने निश्चित "
+"गर्नुहोस् । यदि तपाईँ एस सी एस आई यंत्रानुकरण प्रयोग गरिरहनु भएको छ भने "
+"(तपाईँसँग आईडी ई सीडी राइटर भए सम्भव छ) त्यसपछि जेनेरिक एस सी एस आई यन्त्रमा "
+"पढ्ने र लेख्ने अनुमति छ भन्ने निश्चित गर्नुहोस्, जुन सम्भवत /dev/sg0, "
+"/dev/sg1, इत्यादि हुन सक्छ । यदि यसले अझै काम गरेको छैन भने, kio_audiocd लाई "
+"तपाईँको कुन यन्त्र सीडी रोम हो भन्न audiocd:/?device=/dev/sg0 (वा उस्तै) "
+"टाइप गरेर प्रयास गर्नुहोस् ।"
+
+#: audiocd.cpp:845
+msgid "AudioCD: Disk damage detected on this track, risk of data corruption."
+msgstr ""
+"अडियो सीडी: यो ट्रयाकमा पत्ता लगाइएको डिस्क नष्ट भयो, डेटा दूषितको जोखिम"
+
+#: audiocd.cpp:851
+#, kde-format
+msgid "Error reading audio data for %1 from the CD"
+msgstr "सीडी बाट %1 का लागि अडियो डेटा पढ्दा त्रुटि"
+
+#: audiocd.cpp:861 audiocd.cpp:939
+#, kde-format
+msgid "Could not read %1: encoding failed"
+msgstr ""
+
+#: audiocd.cpp:1066
+#, kde-format
+msgid "Track %1"
+msgstr "ट्रयाक %1"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,"

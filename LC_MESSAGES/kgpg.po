@@ -1,0 +1,3595 @@
+# translation of kgpg.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kgpg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 23:08+0000\n"
+"PO-Revision-Date: 2009-07-16 10:16+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:29+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: detailedconsole.cpp:31
+msgctxt "see kdeui/dialogs/kmessagebox.cpp"
+msgid "Sorry"
+msgstr ""
+
+#: detailedconsole.cpp:47
+msgid "Details"
+msgstr "विस्तृत"
+
+#: detailedconsole.cpp:58
+msgid "Info"
+msgstr "जानकारी"
+
+#: keyinfodialog.cpp:186 keyinfodialog.cpp:566
+msgid "Key properties"
+msgstr ""
+
+#. i18n: file: newkey.ui:91
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: keyinfodialog.cpp:205 rc.cpp:544
+msgid "Key ID:"
+msgstr "कुञ्जी आईडी:"
+
+#: keyinfodialog.cpp:206
+msgid "Comment:"
+msgstr "टिप्पणी:"
+
+#: keyinfodialog.cpp:207
+msgid "Creation:"
+msgstr "सिर्जना:"
+
+#: keyinfodialog.cpp:208 kgpgkeygenerate.cpp:66
+msgid "Expiration:"
+msgstr "समाप्ति:"
+
+#: keyinfodialog.cpp:209
+msgid "Trust:"
+msgstr "विश्वास:"
+
+#: keyinfodialog.cpp:210
+msgid "Owner trust:"
+msgstr "मालिकको विश्वास:"
+
+#: keyinfodialog.cpp:211
+msgid "Algorithm:"
+msgstr "अल्गोरिदम:"
+
+#: keyinfodialog.cpp:212
+msgid "Length:"
+msgstr "लम्बाइ:"
+
+#: keyinfodialog.cpp:223
+msgid "I do not know"
+msgstr ""
+
+#: keyinfodialog.cpp:224
+msgid "I do NOT trust"
+msgstr ""
+
+#: keyinfodialog.cpp:225 core/convert.cpp:51
+msgid "Marginally"
+msgstr "सीमान्तता"
+
+#: keyinfodialog.cpp:226 core/convert.cpp:52
+msgid "Fully"
+msgstr "पूर्ण"
+
+#: keyinfodialog.cpp:227 core/convert.cpp:53
+msgid "Ultimately"
+msgstr "अन्तिममा"
+
+#: keyinfodialog.cpp:274
+msgid "Photo"
+msgstr ""
+
+#: keyinfodialog.cpp:275
+msgid "No Photo"
+msgstr "फोटो छैन"
+
+#: keyinfodialog.cpp:283
+msgid ""
+"<qt><b>Photo:</b><p>A photo can be included with a public key for extra "
+"security. The photo can be used as an additional method of authenticating "
+"the key. However, it should not be relied upon as the only form of "
+"authentication.</p></qt>"
+msgstr ""
+
+#: keyinfodialog.cpp:298
+msgid "Disable key"
+msgstr "कुञ्जी अक्षम पार्नुहोस्"
+
+#: keyinfodialog.cpp:302
+msgid "Change Expiration..."
+msgstr "म्याद समाप्ति परिवर्तन गर्नुहोस्..."
+
+#: keyinfodialog.cpp:303
+msgid "Change Passphrase..."
+msgstr "पासफ्रेज परिवर्तन गर्नुहोस्..."
+
+#: keyinfodialog.cpp:332
+msgid "Fingerprint"
+msgstr ""
+
+#: keyinfodialog.cpp:373
+msgid ""
+"<qt>The requested key is not present in the keyring anymore.<br />Perhaps it "
+"was deleted by another application</qt>"
+msgstr ""
+
+#: keyinfodialog.cpp:373
+msgid "Key not found"
+msgstr ""
+
+#: keyinfodialog.cpp:387
+msgctxt "no email address"
+msgid "none"
+msgstr ""
+
+#: keyinfodialog.cpp:402
+msgid ""
+"<qt>The left part is the algorithm used by the <b>signature</b> key. The "
+"right part is the algorithm used by the <b>encryption</b> key.</qt>"
+msgstr ""
+
+#: keyinfodialog.cpp:408
+msgid ""
+"<qt>The left part is the size of the <b>signature</b> key. The right part is "
+"the size of the <b>encryption</b> key.</qt>"
+msgstr ""
+
+#: keyinfodialog.cpp:412
+msgctxt "no key comment"
+msgid "none"
+msgstr ""
+
+#: keyinfodialog.cpp:520
+msgid "Passphrase for the key was changed"
+msgstr "कुञ्जीका लागि पासफ्रेज परिवर्तन गरियो"
+
+#: keyinfodialog.cpp:523
+msgid "Bad old passphrase, the passphrase for the key was not changed"
+msgstr "खराब पुरानो पासफ्रेज, कुञ्जीका लागि पासफ्रेज परिवर्तन गरिएको थिएन"
+
+#: keyinfodialog.cpp:523
+msgid "Could not change passphrase"
+msgstr "पासफ्रेज परिवर्तन गर्न सकेन"
+
+#: keyinfodialog.cpp:528
+msgid ""
+"KGpg was unable to change the passphrase.<br />Please see the detailed log "
+"for more information."
+msgstr ""
+
+#: keyinfodialog.cpp:566
+msgid "Changing key properties failed."
+msgstr ""
+
+#: keyservers.cpp:51
+msgid "Key Server"
+msgstr "कुञ्जी सर्भर"
+
+#: keyservers.cpp:107 keyservers.cpp:177
+msgid "You must enter a search string."
+msgstr "तपाईँले खोजी स्ट्रिङ प्रविष्ट गर्नैपर्दछ ।"
+
+#: keyservers.cpp:165
+msgid "Upload to keyserver finished without errors"
+msgstr ""
+
+#: keyservers.cpp:167
+msgid "Upload to keyserver failed"
+msgstr ""
+
+#: keyservers.cpp:192 keysmanager.cpp:1352
+msgid "Import Key From Keyserver"
+msgid_plural "Import Keys From Keyserver"
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: file: keyserver.ui:144
+#. i18n: ectx: property (text), widget (QPushButton, Buttonimport)
+#: keyservers.cpp:197 rc.cpp:324 editor/kgpgtextedit.cpp:377
+msgid "&Import"
+msgstr "आयात गर्नुहोस्"
+
+#: keyservers.cpp:202
+msgid "Connecting to the server..."
+msgstr "सर्भरमा जडान गर्दैछ..."
+
+#: keyservers.cpp:293
+#, kde-format
+msgid "Found 1 matching key"
+msgid_plural "Found %1 matching keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keyservers.cpp:343
+msgid "You must choose a key."
+msgstr "तपाईँले कुञ्जी छनोट गर्नैपर्दछ ।"
+
+#: keysmanager.cpp:129
+msgid "Key Management"
+msgstr "कुञ्जी व्यवस्थापन"
+
+#: keysmanager.cpp:138
+msgid "&Open Editor"
+msgstr "सम्पादक खोल्नुहोस्"
+
+#: keysmanager.cpp:142
+msgid "&Key Server Dialog"
+msgstr "कुञ्जी सर्भर संवाद"
+
+#: keysmanager.cpp:148 selectpublickeydialog.cpp:139
+msgid "&Go to Default Key"
+msgstr "पूर्वनिर्धारित कुञ्जीमा जानुहोस्"
+
+#: keysmanager.cpp:170
+msgid "Tip of the &Day"
+msgstr "आजको टिप"
+
+#: keysmanager.cpp:174
+msgid "View GnuPG Manual"
+msgstr "GnuPG म्यानुअल हेर्नुहोस्"
+
+#: keysmanager.cpp:180
+msgid "&Refresh List"
+msgstr "सूची ताजा पार्नुहोस्"
+
+#: keysmanager.cpp:186
+msgid "&Show Only Secret Keys"
+msgstr ""
+
+#: keysmanager.cpp:191
+msgid "Show &Long Key Id"
+msgstr ""
+
+#: keysmanager.cpp:197
+msgid "K&ey Properties"
+msgstr ""
+
+#: keysmanager.cpp:202
+msgid "Edit Key in &Terminal"
+msgstr "टर्मिनलमा कुञ्जी सम्पादन गर्नुहोस्"
+
+#: keysmanager.cpp:208
+msgid "&Generate Key Pair..."
+msgstr "कुञ्जी जोडी उत्पन्न गर्नुहोस्..."
+
+#: keysmanager.cpp:219
+msgid "&Import Key..."
+msgstr "कुञ्जी आयात गर्नुहोस्..."
+
+#: keysmanager.cpp:225
+msgid "&Create New Contact in Address Book"
+msgstr "ठेगाना पुस्तकमा नयाँ सम्पर्क सिर्जना गर्नुहोस्"
+
+#: keysmanager.cpp:233
+msgid "&Edit Group..."
+msgstr ""
+
+#: keysmanager.cpp:237
+msgid "&Delete Group"
+msgstr "समूह मेट्नुहोस्"
+
+#: keysmanager.cpp:247
+msgid "Set as De&fault Key"
+msgstr "पूर्वनिर्धारित कुञ्जीको रूपमा सेट गर्नुहोस्"
+
+#: keysmanager.cpp:250
+msgid "&Add Photo..."
+msgstr ""
+
+#: keysmanager.cpp:253
+msgid "&Add User Id..."
+msgstr ""
+
+#: keysmanager.cpp:256
+msgid "Export Secret Key..."
+msgstr "गुप्त कुञ्जी निर्यात गर्नुहोस्..."
+
+#: keysmanager.cpp:259
+msgid "Delete Key Pair"
+msgstr "कुञ्जी जोडी मेट्नुहोस्"
+
+#: keysmanager.cpp:263
+msgid "Revoke Key..."
+msgstr "कुञ्जी खारेज गर्नुहोस्..."
+
+#: keysmanager.cpp:266
+msgid "&Regenerate Public Key"
+msgstr "सार्वजनिक कुञ्जी पुन: उत्पन्न गर्नुहोस्"
+
+#: keysmanager.cpp:272
+msgid "Set User Id as &Primary"
+msgstr ""
+
+#: keysmanager.cpp:276
+msgid "&Open Photo"
+msgstr "फोटो खोल्नुहोस्"
+
+#: keysmanager.cpp:280
+msgid "&Delete Photo"
+msgstr "फोटो मेट्नुहोस्"
+
+#: keysmanager.cpp:288
+msgid "Import &Missing Signatures From Keyserver"
+msgstr "कुञ्जी सर्भरबाट हराइरहेको हस्ताक्षर आयात गर्नुहोस्"
+
+#: keysmanager.cpp:304 model/kgpgitemmodel.cpp:285
+msgid "Trust"
+msgstr "विश्वास"
+
+#: keysmanager.cpp:307 model/kgpgitemmodel.cpp:286
+msgid "Size"
+msgstr "साइज"
+
+#: keysmanager.cpp:310 model/kgpgitemmodel.cpp:288
+msgid "Creation"
+msgstr "सिर्जना"
+
+#: keysmanager.cpp:313 model/kgpgitemmodel.cpp:287
+msgid "Expiration"
+msgstr "म्याद समाप्ति"
+
+#: keysmanager.cpp:318
+msgid "&Photo ID's"
+msgstr "फोटो आईडी"
+
+#. i18n: file: conf_misc.ui:139
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SignMenu)
+#. i18n: file: conf_misc.ui:178
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DecryptMenu)
+#: keysmanager.cpp:322 rc.cpp:155 rc.cpp:169
+msgid "Disable"
+msgstr "अक्षम पार्नुहोस्"
+
+#: keysmanager.cpp:323
+msgctxt "small picture"
+msgid "Small"
+msgstr ""
+
+#: keysmanager.cpp:324
+msgctxt "medium picture"
+msgid "Medium"
+msgstr ""
+
+#: keysmanager.cpp:325
+msgctxt "large picture"
+msgid "Large"
+msgstr ""
+
+#: keysmanager.cpp:329
+msgid "Minimum &Trust"
+msgstr ""
+
+#: keysmanager.cpp:332
+msgctxt "no filter: show all keys"
+msgid "&None"
+msgstr ""
+
+#: keysmanager.cpp:333
+msgctxt "show only active keys"
+msgid "&Active"
+msgstr ""
+
+#: keysmanager.cpp:334
+msgctxt "show only keys with at least marginal trust"
+msgid "&Marginal"
+msgstr ""
+
+#: keysmanager.cpp:335
+msgctxt "show only keys with at least full trust"
+msgid "&Full"
+msgstr ""
+
+#: keysmanager.cpp:336
+msgctxt "show only ultimately trusted keys"
+msgid "&Ultimate"
+msgstr ""
+
+#. i18n: file: searchres.ui:28
+#. i18n: ectx: property (text), widget (QLabel, filterEditLabel)
+#: keysmanager.cpp:436 rc.cpp:570
+msgid "Search:"
+msgstr ""
+
+#: keysmanager.cpp:446
+msgctxt ""
+"Name of the action that is a search line, shown for example in the toolbar "
+"configuration dialog"
+msgid "Search Line"
+msgstr ""
+
+#: keysmanager.cpp:451
+msgctxt "Name of the action that gives the focus to the search line"
+msgid "Focus Search Line"
+msgstr ""
+
+#: keysmanager.cpp:472
+msgid "00000 Keys, 000 Groups"
+msgstr "00000 कुञ्जी, 000 समूह"
+
+#: keysmanager.cpp:499
+msgid ""
+"Another key generation operation is still in progress.\n"
+"Please wait a moment until this operation is complete."
+msgstr ""
+
+#: keysmanager.cpp:500 keysmanager.cpp:525 keysmanager.cpp:574
+msgid "Generating new key pair"
+msgstr "नयाँ कुञ्जी जोडी उत्पन्न गर्दैछ"
+
+#: keysmanager.cpp:526
+msgid "Can not start \"konsole\" application for expert mode."
+msgstr ""
+
+#: keysmanager.cpp:567 keysmanager.cpp:2546
+msgctxt "Application ready for user input"
+msgid "Ready"
+msgstr ""
+
+#: keysmanager.cpp:578
+msgid "Bad passphrase. Cannot generate a new key pair."
+msgstr "खराब पासफ्रेज । नयाँ कुञ्जी उत्पन्न गर्न सक्दैन ।"
+
+#: keysmanager.cpp:581
+msgid "Aborted by the user. Cannot generate a new key pair."
+msgstr ""
+"प्रयोगकर्ताद्वारा परित्याग गरियो । नयाँ कुञ्जी जोडी उत्पन्न गर्न सक्दैन ।"
+
+#: keysmanager.cpp:584
+msgid "The email address is not valid. Cannot generate a new key pair."
+msgstr "इमेल ठेगाना वैध छैन । नयाँ कुञ्जी जोडी उत्पन्न गर्न सक्दैन ।"
+
+#: keysmanager.cpp:587
+msgid "The name is not accepted by gpg. Cannot generate a new key pair."
+msgstr ""
+
+#. i18n: file: newkey.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, newKey)
+#: keysmanager.cpp:593 rc.cpp:527
+msgid "New Key Pair Created"
+msgstr "नयाँ कुञ्जी जोडी सिर्जना गरियो"
+
+#: keysmanager.cpp:633 keysmanager.cpp:637
+msgid "backup copy"
+msgstr "जगेडा प्रति"
+
+#: keysmanager.cpp:643
+msgid "gpg process did not finish. Cannot generate a new key pair."
+msgstr ""
+
+#: keysmanager.cpp:751
+msgid "You can only refresh primary keys. Please check your selection."
+msgstr ""
+"तपाईँले प्राथमिक कुञ्जी मात्र ताजा पार्न सक्नुहुन्छ । कृपया तपाईँको चयन जाँच "
+"गर्नुहोस् ।"
+
+#: keysmanager.cpp:864
+msgid ""
+"Another operation is still in progress.\n"
+"Please wait a moment until this operation is complete."
+msgstr ""
+
+#: keysmanager.cpp:864 keysmanager.cpp:869
+msgid "Add New User Id"
+msgstr "नयाँ प्रयोगकर्ता आईडी थप्नुहोस्"
+
+#: keysmanager.cpp:904
+msgid ""
+"The image must be a JPEG file. Remember that the image is stored within your "
+"public key, so if you use a very large picture, your key will become very "
+"large as well. An image size of around 240x288 is a good size to use."
+msgstr ""
+
+#: keysmanager.cpp:936
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete Photo id <b>%1</b><br/>from key <b>%2 "
+"&lt;%3&gt;</b>?</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1037
+#, kde-format
+msgid "<qt>Search string '<b>%1</b>' not found.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1110
+msgid "Unable to contact the address book. Please check your installation."
+msgstr ""
+"ठेगाना पुस्तकमा सम्पर्क गर्न अक्षम । कृपया तपाईँको स्थापना जाँच गर्नुहोस् ।"
+
+#: keysmanager.cpp:1171
+msgid "Public Key"
+msgstr "सार्वजनिक कुञ्जी"
+
+#: keysmanager.cpp:1174
+msgid "Sub Key"
+msgstr "सहायक कुञ्जी"
+
+#: keysmanager.cpp:1177
+msgid "Secret Key Pair"
+msgstr "गुप्त कुञ्जी जोडी"
+
+#: keysmanager.cpp:1180
+msgid "Key Group"
+msgstr "कुञ्जी समूह"
+
+#: keysmanager.cpp:1183
+msgid "Signature"
+msgstr "हस्ताक्षर"
+
+#: keysmanager.cpp:1186
+msgid "User ID"
+msgstr "प्रयोगकर्ता आईडी"
+
+#: keysmanager.cpp:1189
+msgid "Revocation Signature"
+msgstr "खारेजी हस्ताक्षर"
+
+#: keysmanager.cpp:1192
+msgid "Photo ID"
+msgstr "फोटो आईडी"
+
+#: keysmanager.cpp:1195
+msgid "Orphaned Secret Key"
+msgstr "छुट्टयाइएको गुप्त कुञ्जी"
+
+#: keysmanager.cpp:1200
+msgid "Group member"
+msgstr ""
+
+#: keysmanager.cpp:1301
+msgid "&Sign User ID ..."
+msgid_plural "&Sign User IDs ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1302
+msgid "E&xport Public Key..."
+msgid_plural "E&xport Public Keys..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1303
+msgid "&Refresh Key From Keyserver"
+msgid_plural "&Refresh Keys From Keyserver"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1304
+msgid "&Create Group with Selected Key..."
+msgid_plural "&Create Group with Selected Keys..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1305
+msgid "&Sign Key..."
+msgid_plural "&Sign Keys..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1306
+msgid "&Delete User ID"
+msgid_plural "&Delete User IDs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1354
+msgid "Delete Sign&ature"
+msgid_plural "Delete Sign&atures"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1375
+msgid "&Delete Key"
+msgid_plural "&Delete Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1399
+msgid "Create Revocation Certificate"
+msgstr "खारेजी प्रमाणपत्र सिर्जना गर्नुहोस्"
+
+#: keysmanager.cpp:1405 keysmanager.cpp:1800
+#, kde-format
+msgctxt "<Name> (<Email>) ID: <KeyId>"
+msgid "%1 (%2) ID: %3"
+msgstr ""
+
+#: keysmanager.cpp:1448
+msgid ""
+"<qt>Secret keys <b>should not</b> be saved in an unsafe place.<br/>If "
+"someone else can access this file, encryption with this key will be "
+"compromised.<br/>Continue key export?</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1460
+msgid "Export PRIVATE KEY As"
+msgstr "यस रूपमा व्यक्तिगत कुञ्जी निर्यात गर्नुहोस्"
+
+#: keysmanager.cpp:1478
+#, kde-format
+msgid ""
+"<qt>Your <b>private</b> key \"%1\" was successfully exported "
+"to<br/>%2.<br/><b>Do not</b> leave it in an insecure place.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1481
+msgid ""
+"Your secret key could not be exported.\n"
+"Check the key."
+msgstr ""
+"तपाईँको गुप्त कुञ्जी निर्यात गर्न सकेन ।\n"
+"कुञ्जी जाँच गर्नुहोस् ।"
+
+#: keysmanager.cpp:1514
+msgid "Public Key Export"
+msgstr "सार्वजनिक कुञ्जी निर्यात"
+
+#: keysmanager.cpp:1531 editor/kgpgeditor.cpp:504
+msgid "Save File"
+msgstr "फाइल बचत गर्नुहोस्"
+
+#: keysmanager.cpp:1595
+#, kde-format
+msgid "<qt>The public key was successfully exported to<br/>%2</qt>"
+msgid_plural ""
+"<qt>The %1 public keys were successfully exported to<br/>%2</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:1599 keysmanager.cpp:1614 keysmanager.cpp:1628
+msgid ""
+"Your public key could not be exported\n"
+"Check the key."
+msgstr ""
+"तपाईँको सार्वजनिक कुञ्जी निर्यात गर्न सकेन ।\n"
+"कुञ्जी जाँच गर्नुहोस् ।"
+
+#: keysmanager.cpp:1652
+msgid ""
+"<qt>A viewer for JPEG images is not specified.<br/>Please check your "
+"installation.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1652
+msgid "Show photo"
+msgstr ""
+
+#: keysmanager.cpp:1737
+msgid ""
+"<p>This key is an orphaned secret key (secret key without public key.) It is "
+"currently not usable.</p><p>Would you like to regenerate the public key?</p>"
+msgstr ""
+
+#: keysmanager.cpp:1738
+msgid "Generate"
+msgstr "उत्पन्न गर्नुहोस्"
+
+#: keysmanager.cpp:1738
+msgid "Do Not Generate"
+msgstr "उत्पन्न नगर्नुहोस्"
+
+#: keysmanager.cpp:1768
+#, kde-format
+msgid "<qt>Are you sure you want to delete group <b>%1</b> ?</qt>"
+msgstr "<qt>तपाईँ समूह मेट्न<b>%1</b>निश्चित हुनुहुन्छ ?</qt>"
+
+#: keysmanager.cpp:1768 keysmanager.cpp:2356
+msgid "Delete"
+msgstr "मेट्नुहोस्"
+
+#: keysmanager.cpp:1791
+msgid ""
+"<qt>You cannot create a group containing signatures, subkeys or other "
+"groups.</qt>"
+msgstr ""
+"<qt>तपाईँले हस्ताक्षर समाविष्ट समूह, सहायक कुञ्जी वा अन्य समूह सिर्जना गर्न "
+"सक्नुहुन्न ।</qt>"
+
+#: keysmanager.cpp:1805
+msgid "Create New Group"
+msgstr "नयाँ समूह सिर्जना गर्नुहोस्"
+
+#: keysmanager.cpp:1806
+msgctxt "Enter the name of the group you are creating now"
+msgid "Enter new group name:"
+msgstr ""
+
+#: keysmanager.cpp:1812
+msgid ""
+"Following keys are not valid or not trusted and will not be added to the "
+"group:"
+msgstr "निम्न कुञ्जीहरू वैध छैन वा विश्वासिलो छैन र समूहमा थप गरिने छैन:"
+
+#: keysmanager.cpp:1821
+#, kde-format
+msgid ""
+"<qt>No valid or trusted key was selected. The group <b>%1</b> will not be "
+"created.</qt>"
+msgstr ""
+"<qt>वैध वा विश्वासिलो कुञ्जी चयन गरिएको थिएन । समूह<b>%1</b> सिर्जना गरिने "
+"छैन ।</qt>"
+
+#: keysmanager.cpp:1833
+msgid "Group Properties"
+msgstr "समूह गुण"
+
+#: keysmanager.cpp:1866
+msgid "You can only sign primary keys. Please check your selection."
+msgstr ""
+"तपाईँले प्राथमिक कुञ्जी मात्र साइन गर्न सक्नुहुन्छ । कृपया तपाईँको चयन जाँच "
+"गर्नुहोस् ।"
+
+#: keysmanager.cpp:1875
+#, kde-format
+msgid ""
+"<qt>You are about to sign key:<br /><br />%1<br />ID: %2<br />Fingerprint: "
+"<br /><b>%3</b>.<br /><br />You should check the key fingerprint by phoning "
+"or meeting the key owner to be sure that someone is not trying to intercept "
+"your communications.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1879
+#, kde-format
+msgid ""
+"<qt>You are about to sign key:<br /><br />%1 (%2)<br />ID: %3<br "
+"/>Fingerprint: <br /><b>%4</b>.<br /><br />You should check the key "
+"fingerprint by phoning or meeting the key owner to be sure that someone is "
+"not trying to intercept your communications.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1893 keysmanager.cpp:1970 kgpgfirstassistant.cpp:279
+#: model/keylistproxymodel.cpp:100
+#, kde-format
+msgctxt "Name: ID"
+msgid "%1: %2"
+msgstr ""
+
+#: keysmanager.cpp:1895 keysmanager.cpp:1973 kgpgfirstassistant.cpp:281
+#, kde-format
+msgctxt "Name (Email): ID"
+msgid "%1 (%2): %3"
+msgstr ""
+
+#: keysmanager.cpp:1901
+msgid ""
+"<qt>You are about to sign the following keys in one pass.<br/><b>If you have "
+"not carefully checked all fingerprints, the security of your communications "
+"may be compromised.</b></qt>"
+msgstr ""
+
+#: keysmanager.cpp:1936
+msgid ""
+"You can only sign user ids and photo ids. Please check your selection."
+msgstr ""
+
+#: keysmanager.cpp:1950
+#, kde-format
+msgid ""
+"<qt>You are about to sign user id:<br /><br />%1<br />ID: %2<br "
+"/>Fingerprint: <br /><b>%3</b>.<br /><br />You should check the key "
+"fingerprint by phoning or meeting the key owner to be sure that someone is "
+"not trying to intercept your communications.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1954
+#, kde-format
+msgid ""
+"<qt>You are about to sign user id:<br /><br />%1 (%2)<br />ID: %3<br "
+"/>Fingerprint: <br /><b>%4</b>.<br /><br />You should check the key "
+"fingerprint by phoning or meeting the key owner to be sure that someone is "
+"not trying to intercept your communications.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:1979
+msgid ""
+"<qt>You are about to sign the following user ids in one pass.<br/><b>If you "
+"have not carefully checked all fingerprints, the security of your "
+"communications may be compromised.</b></qt>"
+msgstr ""
+
+#: keysmanager.cpp:2048
+#, kde-format
+msgid "<qt>Bad passphrase, key <b>%1 (%2)</b> not signed.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:2052
+#, kde-format
+msgid "<qt>The key <b>%1 (%2)</b> is already signed.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:2057
+#, kde-format
+msgid ""
+"<qt>Signing key <b>%1</b> with key <b>%2</b> failed.<br />Do you want to try "
+"signing the key in console mode?</qt>"
+msgstr ""
+
+#: keysmanager.cpp:2125
+msgid "All signatures for this key are already in your keyring"
+msgid_plural "All signatures for this keys are already in your keyring"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:2214
+msgid "Edit key manually to delete a self-signature."
+msgstr "आफ्नो हस्ताक्षर मेट्न कुञ्जी म्यानुअल तरिकाले सम्पादन गर्नुहोस् ।"
+
+#: keysmanager.cpp:2218
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete signature<br /><b>%1</b><br />from user "
+"id <b>%2</b><br />of key: <b>%3</b>?</qt>"
+msgstr ""
+
+#: keysmanager.cpp:2237
+msgid "Requested operation was unsuccessful, please edit the key manually."
+msgstr ""
+"अनुरोध गरिएको सञ्चालन असफल भयो, कृपया कुञ्जी म्यानुअल तरिकाले सम्पादन "
+"गर्नुहोस् ।"
+
+#: keysmanager.cpp:2280
+#, kde-format
+msgid "<qt>Cannot open file <b>%1</b> for printing...</qt>"
+msgstr "<qt>मुद्रणका लागि <b>%1</b> फाइल खोल्न सकिदैन...</qt>"
+
+#: keysmanager.cpp:2309
+msgid ""
+"<qt>The key you are deleting is a member of the following key group. Do you "
+"want to remove it from this group?</qt>"
+msgid_plural ""
+"<qt>The key you are deleting is a member of the following key groups. Do you "
+"want to remove it from these groups?</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: keysmanager.cpp:2313 keysmanager.cpp:2363 keysmanager.cpp:2378
+#: keysmanager.cpp:2381 keysmanager.cpp:2391 keysmanager.cpp:2403
+#: keysmanager.cpp:2413
+msgid "Delete key"
+msgstr ""
+
+#: keysmanager.cpp:2354
+#, kde-format
+msgid ""
+"<p>Delete <b>secret</b> key pair <b>%1</b>?</p>Deleting this key pair means "
+"you will never be able to decrypt files encrypted with this key again."
+msgstr ""
+
+#: keysmanager.cpp:2363 keysmanager.cpp:2391
+msgid ""
+"Another key delete operation is still in progress.\n"
+"Please wait a moment until this operation is complete."
+msgstr ""
+
+#: keysmanager.cpp:2378
+#, kde-format
+msgid "Key <b>%1</b> deleted."
+msgstr ""
+
+#: keysmanager.cpp:2381
+#, kde-format
+msgid "Deleting key <b>%1</b> failed."
+msgstr ""
+
+#: keysmanager.cpp:2403
+#, kde-format
+msgid "Can not delete key <b>%1</b> while it is edited in terminal."
+msgstr ""
+
+#: keysmanager.cpp:2413
+msgid ""
+"You have selected items that are not keys. They can not be deleted with this "
+"menu entry."
+msgstr ""
+
+#: keysmanager.cpp:2435
+#, kde-format
+msgid ""
+"<qt>The following are secret key pairs:<br/><b>%1</b><br/>They will not be "
+"deleted.</qt>"
+msgstr ""
+
+#: keysmanager.cpp:2443
+#, kde-format
+msgid "<qt><b>Delete the following public key?</b></qt>"
+msgid_plural "<qt><b>Delete the following %1 public keys?</b></qt>"
+msgstr[0] "<qt><b>निम्न सार्वजनिक कुञ्जी मेट्नुहुन्छ ?</b></qt>"
+msgstr[1] "<qt><b>निम्न %1 सार्वजनिक कुज्जी मेट्नुहुन्छ ?</b></qt>"
+
+#: keysmanager.cpp:2473 keysmanager.cpp:2532
+msgid "Key Import"
+msgstr "कुञ्जी आयात"
+
+#: keysmanager.cpp:2480
+msgid "Open File"
+msgstr "फाइल खोल्नुहोस्"
+
+#: keysmanager.cpp:2515
+msgid "Importing..."
+msgstr "आयात गर्दैछ..."
+
+#: keysmanager.cpp:2532
+msgid ""
+"Key importing failed. Please see the detailed log for more information."
+msgstr ""
+
+#: keysmanager.cpp:2598
+msgid "KGpg - encryption tool"
+msgstr "KGpg - गुप्तिकरण उपकरण"
+
+#: keysmanager.cpp:2619
+msgid "Ke&y Manager"
+msgstr ""
+
+#: keysmanager.cpp:2623
+msgid "&Encrypt Clipboard"
+msgstr "क्लिपबोर्ड गुप्तिकरण गर्नुहोस्"
+
+#: keysmanager.cpp:2626
+msgid "&Decrypt Clipboard"
+msgstr "क्लिपबोर्ड गुप्तिकरण उल्टाउनुहोस्"
+
+#: keysmanager.cpp:2629
+msgid "&Sign/Verify Clipboard"
+msgstr "क्लिपबोर्ड साइन/रुजु गर्नुहोस्"
+
+#: keysmanager.cpp:2661 keysmanager.cpp:2720 keysmanager.cpp:2738
+msgid "Clipboard is empty."
+msgstr "क्लिपबोर्ड खाली छ ।"
+
+#: keysmanager.cpp:2710
+msgid "Text successfully encrypted."
+msgstr ""
+
+#: keytreeview.cpp:167
+#, kde-format
+msgid "<p>Do you want to import file <b>%1</b> into your key ring?</p>"
+msgstr "<p>तपाईँको कुञ्जी रिङमा <b>%1</b> फाइल आयात गर्न चाहनुहुन्छ ?</p>"
+
+#. i18n: file: keyserver.ui:32
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: keytreeview.cpp:168 kgpgtextinterface.cpp:628 rc.cpp:298
+msgid "Import"
+msgstr "आयात गर्नुहोस्"
+
+#: keytreeview.cpp:169 kgpgtextinterface.cpp:628
+msgid "Do Not Import"
+msgstr "आयात नगर्नुहोस्"
+
+#: kgpg.cpp:91
+#, kde-format
+msgid ""
+"<qt>The use of <b>GnuPG Agent</b> is enabled in GnuPG's configuration file "
+"(%1).<br />However, the agent does not seem to be running. This could result "
+"in problems with signing/decryption.<br />Please disable GnuPG Agent from "
+"KGpg settings, or fix the agent.</qt>"
+msgstr ""
+
+#: kgpg.cpp:128
+msgid ""
+"Unable to perform requested operation.\n"
+"Please select only one folder, or several files, but do not mix files and "
+"folders."
+msgstr ""
+"अनुरोध गरिएको सञ्चालन कार्यसम्पादन गर्न अक्षम ।\n"
+"कृपया एउटा मात्र फोल्डर वा धेरै फाइल चयन गर्नुहोस् तर फाइल र फोल्डर मिश्रण "
+"नगर्नुहोस् ।"
+
+#: kgpg.cpp:143
+msgid "Cannot decrypt and show folder."
+msgstr "गुप्तिकरण उल्टाउन र फोल्डर देखाउन सकिदैन ।"
+
+#: kgpg.cpp:148
+msgid "Cannot sign folder."
+msgstr "फोल्डर साइन गर्न सक्दैन ।"
+
+#: kgpg.cpp:153
+msgid "Cannot verify folder."
+msgstr "फोल्डर रूजु गर्न सक्दैन ।"
+
+#: kgpgexternalactions.cpp:76
+#, kde-format
+msgid ""
+"<qt>KGpg will now create a temporary archive file:<br /><b>%1</b> to process "
+"the encryption. The file will be deleted after the encryption is "
+"finished.</qt>"
+msgstr ""
+
+#: kgpgexternalactions.cpp:77
+msgid "Temporary File Creation"
+msgstr "अस्थायी फाइल सिर्जना"
+
+#: kgpgexternalactions.cpp:85
+msgid "Compression method for archive:"
+msgstr "सङ्ग्रहका लागि सङ्कुचन विधि:"
+
+#: kgpgexternalactions.cpp:88
+msgid "Zip"
+msgstr "जिप"
+
+#: kgpgexternalactions.cpp:89
+msgid "Gzip"
+msgstr "Gzip"
+
+#: kgpgexternalactions.cpp:90
+msgid "Bzip2"
+msgstr "Bzip2"
+
+#: kgpgexternalactions.cpp:91
+msgid "Tar"
+msgstr ""
+
+#: kgpgexternalactions.cpp:156 kgpgexternalactions.cpp:340 kgpglibrary.cpp:112
+#: editor/kgpgeditor.cpp:525
+msgid "File Already Exists"
+msgstr "फाइल पहिल्यै अवस्थित छ"
+
+#: kgpgexternalactions.cpp:169
+msgid "Processing folder compression and encryption"
+msgstr "प्रक्रियागत फोल्डर सङ्कुचन र गुप्तिकरण"
+
+#: kgpgexternalactions.cpp:169 kgpglibrary.cpp:191
+msgid "Please wait..."
+msgstr "कृपया प्रतिक्षा गर्नुहोस्..."
+
+#: kgpgexternalactions.cpp:197
+msgid "Unable to create temporary file"
+msgstr "अस्थायी फाइल सिर्जना गर्न अक्षम"
+
+#: kgpgexternalactions.cpp:370
+msgid "Decryption of this file failed:"
+msgid_plural "Decryption of these files failed:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kgpgexternalactions.cpp:372 editor/kgpgtextedit.cpp:302
+#: editor/kgpgtextedit.cpp:341
+msgid "Decryption failed."
+msgstr "गुप्तिकरण उल्टाउन असफल ।"
+
+#: kgpgexternalactions.cpp:401
+msgid ""
+"<qt>You have not set a path to your GnuPG config file.<br />This may cause "
+"some surprising results in KGpg's execution.<br />Would you like to start "
+"KGpg's assistant to fix this problem?</qt>"
+msgstr ""
+
+#: kgpgexternalactions.cpp:402
+msgid "Start Assistant"
+msgstr ""
+
+#: kgpgexternalactions.cpp:402
+msgid "Do Not Start"
+msgstr "सुरु नगर्नुहोस्"
+
+#: kgpgfirstassistant.cpp:41
+msgid "KGpg Assistant"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:66
+msgid ""
+"This assistant will first setup some basic configuration options required "
+"for KGpg to work properly. Next, it will allow you to create your own key "
+"pair, enabling you to encrypt your files and emails."
+msgstr ""
+
+#: kgpgfirstassistant.cpp:74
+msgid "Welcome to the KGpg Assistant"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:86
+msgid "KGpg needs to know which GnuPG binary to use."
+msgstr ""
+
+#: kgpgfirstassistant.cpp:93 kgpgfirstassistant.cpp:126
+msgid ""
+"Unless you want to try some unusual settings, just click on the \"next\" "
+"button."
+msgstr ""
+"तपाईँले केही असमान्य सेटिङ चाहनु भएसम्म\"पछिल्लो\" बटनमा क्लिक गर्नुहोस् ।"
+
+#: kgpgfirstassistant.cpp:107
+msgctxt "search filter for gpg binary"
+msgid ""
+"gpg|GnuPG binary\n"
+"*|All files"
+msgstr ""
+
+#. i18n: file: conf_gpg.ui:107
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: kgpgfirstassistant.cpp:115 rc.cpp:101
+msgid "GnuPG Binary"
+msgstr "GnuPG बाइनरी"
+
+#: kgpgfirstassistant.cpp:133
+msgid "KGpg needs to know where your GnuPG configuration file is stored."
+msgstr ""
+"KGpg लाई तपाईँको GnuPG कन्फिगरेसन फाइल भण्डारण भएको स्थान थाहा हुन पर्दछ ।"
+
+#: kgpgfirstassistant.cpp:148
+msgid "Path to your GnuPG configuration file:"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:162
+msgid "Configuration File"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:173
+msgid "Your default key:"
+msgstr "तपाईँको पूर्वनिर्धारित कुञ्जी:"
+
+#: kgpgfirstassistant.cpp:192
+msgid "Default Key"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:214
+msgid "Generate new key"
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:126
+#. i18n: ectx: label, entry (AutoStart), group (User Interface)
+#: kgpgfirstassistant.cpp:224 rc.cpp:434
+msgid "Start KGpg automatically at KDE startup."
+msgstr "केडीई सुरुआतमा स्वचालित रूपमा KGpg सुरु गर्नुहोस् ।"
+
+#: kgpgfirstassistant.cpp:228
+msgid "Done"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:240
+msgid ""
+"<qt><b>The GnuPG configuration file was not found</b>. Should KGpg try to "
+"create a config file ?</qt>"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:240
+msgid "Create Config"
+msgstr "कन्फिग सिर्जना गर्नुहोस्"
+
+#: kgpgfirstassistant.cpp:240
+msgid "Do Not Create"
+msgstr "सिर्जना नगर्नुहोस्"
+
+#: kgpgfirstassistant.cpp:249
+msgid "<qt><b>The GnuPG configuration file was not found</b>.</qt>"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:293
+#, kde-format
+msgid "Your GnuPG binary is: %1"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:309 kgpgfirstassistant.cpp:365
+#, kde-format
+msgid "You have GnuPG version: %1"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:312
+#, kde-format
+msgid "Your default key is: %1"
+msgstr ""
+
+#: kgpgfirstassistant.cpp:363
+#, kde-format
+msgid ""
+"Your GnuPG version seems to be older than 1.2.0 (%1). Photo Id's and Key "
+"Groups will not work properly. Please consider upgrading GnuPG "
+"(http://gnupg.org)."
+msgstr ""
+
+#: kgpginterface.cpp:415 kgpgtextinterface.cpp:108
+#: transactions/kgpgtransaction.cpp:184
+msgid " or "
+msgstr " वा "
+
+#: kgpginterface.cpp:607
+msgid "An error occurred while scanning your keyring"
+msgstr ""
+
+#: kgpginterface.cpp:862
+msgid "Creation of the revocation certificate failed..."
+msgstr "खारेजी प्रमाणपत्रको सिर्जना असफल..."
+
+#: kgpginterface.cpp:893
+#, kde-format
+msgid "<qt>Enter passphrase for <b>%1</b>:</qt>"
+msgstr "<qt><b>%1</b> का लागि पासफ्रेज प्रविष्ट गर्नुहोस्:</qt>"
+
+#: kgpgkeygenerate.cpp:41
+msgid "Key Generation"
+msgstr "कुञ्जी उत्पति"
+
+#: kgpgkeygenerate.cpp:44
+msgid "&Expert Mode"
+msgstr "सिपालु मोड"
+
+#: kgpgkeygenerate.cpp:45
+msgid "Go to Expert Mode"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:50
+msgid "Generate Key Pair"
+msgstr "कुञ्जी जोडी उत्पन्न गर्नुहोस्"
+
+#: kgpgkeygenerate.cpp:52
+msgctxt "Name of key owner"
+msgid "&Name:"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:58
+msgctxt "Email address of key owner"
+msgid "E&mail:"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:62
+msgid "Commen&t (optional):"
+msgstr "टिप्पणी (वैकल्पिक):"
+
+#: kgpgkeygenerate.cpp:79
+msgctxt "Key will not expire"
+msgid "Never"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:80
+msgid "Days"
+msgstr "दिन"
+
+#: kgpgkeygenerate.cpp:81
+msgid "Weeks"
+msgstr "हप्ता"
+
+#: kgpgkeygenerate.cpp:82
+msgid "Months"
+msgstr "महिना"
+
+#: kgpgkeygenerate.cpp:83
+msgid "Years"
+msgstr "वर्ष"
+
+#: kgpgkeygenerate.cpp:87
+msgid "&Key size:"
+msgstr "कुञ्जी साइज:"
+
+#: kgpgkeygenerate.cpp:89
+msgid "768"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:90
+msgid "1024"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:91
+msgid "2048"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:92
+msgid "4096"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:97
+msgid "&Algorithm:"
+msgstr "अल्गोरिदम:"
+
+#: kgpgkeygenerate.cpp:99 core/convert.cpp:39
+msgctxt "Encryption algorithm"
+msgid "DSA & ElGamal"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:100 core/convert.cpp:36
+msgctxt "Encryption algorithm"
+msgid "RSA"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:146
+msgid "You must give a name."
+msgstr "तपाईँले नाम दिनु पर्दछ ।"
+
+#: kgpgkeygenerate.cpp:152
+msgid "The name must have at least 5 characters"
+msgstr "नाम कम्तिमा ५ क्यारेक्टरको हुनुपर्छ"
+
+#: kgpgkeygenerate.cpp:158
+msgid "The name must not start with a digit"
+msgstr ""
+
+#: kgpgkeygenerate.cpp:165
+msgid "You are about to create a key with no email address"
+msgstr "तपाईँले इमेल ठेगाना बिनाको कुञ्जी सिर्जना गर्न लाग्नुभएको छ"
+
+#: kgpgkeygenerate.cpp:172
+msgid "Email address not valid"
+msgstr "इमेल ठेगाना वैध छैन"
+
+#: kgpglibrary.cpp:98
+msgid "You have not chosen an encryption key."
+msgstr "तपाईँले गुप्तिकरण कुञ्जी छनोट गर्नुभएको छैन ।"
+
+#: kgpglibrary.cpp:124
+#, kde-format
+msgid "<p><b>Encrypting </b>%2</p>"
+msgid_plural "<p><b>%1 Files left.</b><br /><b>Encrypting </b>%2</p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kgpglibrary.cpp:154
+msgid "<p><b>Process halted</b>.<br />Not all files were encrypted.</p>"
+msgstr ""
+
+#: kgpglibrary.cpp:188
+#, kde-format
+msgid "Decrypting %1"
+msgstr "%1 गुप्तिकरण उल्टाउँदैछ"
+
+#: kgpglibrary.cpp:191
+msgid "Processing decryption"
+msgstr "गुप्तिकरण उल्टाउने प्रक्रिया गर्दैछ"
+
+#. i18n: file: conf_encryption.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, Encryption)
+#: kgpgoptions.cpp:86 rc.cpp:19
+msgid "Encryption"
+msgstr "गुप्तिकरण"
+
+#: kgpgoptions.cpp:87
+msgid "Decryption"
+msgstr "गुप्तिकरण उल्टाउनुहोस्"
+
+#: kgpgoptions.cpp:88
+msgid "Appearance"
+msgstr "देखावट"
+
+#: kgpgoptions.cpp:89
+msgid "GnuPG Settings"
+msgstr "GnuPG सेटिङ"
+
+#: kgpgoptions.cpp:90
+msgid "Key Servers"
+msgstr "कुञ्जी सर्भर"
+
+#: kgpgoptions.cpp:91
+msgid "Misc"
+msgstr "विविध"
+
+#: kgpgoptions.cpp:126
+msgid "New GnuPG Home Location"
+msgstr "नयाँ GnuPG गृह स्थान"
+
+#: kgpgoptions.cpp:139
+msgid ""
+"No configuration file was found in the selected location.\n"
+"Do you want to create it now ?\n"
+"\n"
+"Without configuration file, neither KGpg nor Gnupg will work properly."
+msgstr ""
+"चयन गरिएको स्थानमा कुनै कन्फिगरेसन फाइल फेला परेन ।\n"
+"तपाईँले अहिले यसलाई सिर्जना गर्न चाहनुहुन्छ ?\n"
+"\n"
+"कन्फिगरेसन फाइल बिना, नत KGpg नत Gnupg ले राम्रोसँग काम गर्नेछ ।"
+
+#: kgpgoptions.cpp:140
+msgid "No Configuration File Found"
+msgstr "कन्फिगरेसन फाइल फेला परेन"
+
+#: kgpgoptions.cpp:141
+msgid "Create"
+msgstr "सिर्जना गर्नुहोस्"
+
+#: kgpgoptions.cpp:142
+msgid "Ignore"
+msgstr "उपेक्षा गर्नुहोस्"
+
+#: kgpgoptions.cpp:156
+msgid ""
+"Cannot create configuration file. Please check if destination media is "
+"mounted and if you have write access."
+msgstr ""
+"कन्फिगरेसन फाइल सिर्जना गर्न सक्दैन । कृपया गन्तव्य मिडिया माउन्ट गरिएको र "
+"यदि तपाईँसँग लेख्न पहुँच छ भने जाँच गर्नुहोस् ।"
+
+#: kgpgoptions.cpp:179
+msgid "Key server URLs may not contain whitespace."
+msgstr "कुञ्जी सर्भर URLs सेतो खालीस्थान समावेश नगर्न सक्छ ।"
+
+#: kgpgoptions.cpp:184
+msgid "Key server already in the list."
+msgstr ""
+
+#: kgpgoptions.cpp:193
+msgid "Add New Key Server"
+msgstr "नयाँ कुञ्जी सर्भर थप्नुहोस्"
+
+#: kgpgoptions.cpp:193 kgpgoptions.cpp:248
+msgid "Server URL:"
+msgstr "सर्भर URL:"
+
+#: kgpgoptions.cpp:248
+msgid "Edit Key Server"
+msgstr "कुञ्जी सर्भर सम्पादन गर्नुहोस्"
+
+#: kgpgoptions.cpp:252 kgpgoptions.cpp:273 kgpgoptions.cpp:317
+#: kgpgoptions.cpp:334
+#, kde-format
+msgctxt "Mark default keyserver in GUI"
+msgid "%1 (Default)"
+msgstr ""
+
+#: kgpgoptions.cpp:269
+msgctxt "Mark default keyserver in GUI"
+msgid "(Default)"
+msgstr ""
+
+#: kgpgoptions.cpp:463 kgpgoptions.cpp:464
+msgctxt "no key available"
+msgid "none"
+msgstr ""
+
+#: kgpgoptions.cpp:498
+msgid "Decrypt File"
+msgstr "फाइल गुप्तिकरण उल्टाउनुहोस्"
+
+#: kgpgoptions.cpp:515
+msgid "Sign File"
+msgstr "फाइल साइन गर्नुहोस्"
+
+#: kgpgoptions.cpp:562 kgpgoptions.cpp:601
+msgctxt "Remove default marker from GUI if it is there"
+msgid "(Default)"
+msgstr ""
+
+#: kgpgtextinterface.cpp:92
+msgid "Enter passphrase (symmetrical encryption)"
+msgstr "पासफ्रेज (सममित गुप्तिकरण) प्रविष्ट गर्नुहोस्"
+
+#: kgpgtextinterface.cpp:106 core/KGpgRefNode.cpp:126
+#: transactions/kgpgtransaction.cpp:260
+msgid "[No user id found]"
+msgstr "[प्रयोगकर्ता आईडी फेला परेन]"
+
+#: kgpgtextinterface.cpp:112
+msgid "<p><b>No user id found</b>. Trying all secret keys.</p>"
+msgstr ""
+
+#: kgpgtextinterface.cpp:114 transactions/kgpgtransaction.cpp:265
+#, kde-format
+msgid "<p><b>Bad passphrase</b>. You have 1 try left.</p>"
+msgid_plural "<p><b>Bad passphrase</b>. You have %1 tries left.</p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kgpgtextinterface.cpp:117
+msgid "Enter passphrase"
+msgstr ""
+
+#: kgpgtextinterface.cpp:119 transactions/kgpgtransaction.cpp:267
+#, kde-format
+msgid "Enter passphrase for <b>%1</b>"
+msgstr "<b>%1</b> का लागि पासफ्रेज प्रविष्ट गर्नुहोस्"
+
+#: kgpgtextinterface.cpp:308
+msgid "Bad MDC detected. The encrypted text has been manipulated."
+msgstr "खराब MDC पत्ता लाग्यो । गुप्तिकरण गरिएको पाठ मिलाइएको छ ।"
+
+#: kgpgtextinterface.cpp:400 kgpgtextinterface.cpp:594
+#: kgpgtextinterface.cpp:622
+msgid "No signature found."
+msgstr "हस्ताक्षर फेला परेन ।"
+
+#: kgpgtextinterface.cpp:597
+#, kde-format
+msgid "<qt>Good signature from:<br /><b>%1</b><br />Key ID: %2<br /></qt>"
+msgstr ""
+
+#: kgpgtextinterface.cpp:602
+#, kde-format
+msgid ""
+"<qt><b>BAD signature</b> from:<br /> %1<br />Key id: %2<br /><br /><b>The "
+"file is corrupted</b><br /></qt>"
+msgstr ""
+
+#: kgpgtextinterface.cpp:609
+msgid "<qt>The signature is valid, but the key is untrusted<br /></qt>"
+msgstr ""
+
+#: kgpgtextinterface.cpp:611
+msgid ""
+"<qt>The signature is valid, and the key is ultimately trusted<br /></qt>"
+msgstr ""
+
+#: kgpgtextinterface.cpp:627 editor/kgpgtextedit.cpp:384
+#, kde-format
+msgid ""
+"<qt><b>Missing signature:</b><br />Key id: %1<br /><br />Do you want to "
+"import this key from a keyserver?</qt>"
+msgstr ""
+
+#: main.cpp:28
+msgid ""
+"KGpg - simple gui for gpg\n"
+"\n"
+"KGpg was designed to make gpg very easy to use.\n"
+"I tried to make it as secure as possible.\n"
+"Hope you enjoy it."
+msgstr ""
+
+#: main.cpp:34
+msgid "KGpg"
+msgstr "KGpg"
+
+#: main.cpp:34
+msgid "(C) 2003 Jean-Baptiste Mardelle"
+msgstr "(C) 2003 जियन-बाप्टिस्टे मार्डेले"
+
+#: main.cpp:35
+msgid "Jean-Baptiste Mardelle"
+msgstr "जियन-बाप्टिस्टे मार्डेले"
+
+#: main.cpp:35
+msgid "Author and former maintainer"
+msgstr ""
+
+#: main.cpp:36
+msgid "Jimmy Gilles"
+msgstr "जिम्मी गिलेस"
+
+#: main.cpp:37
+msgid "Rolf Eike Beer"
+msgstr "रोल्फ आइके बियर"
+
+#: main.cpp:37
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:42
+msgid "Encrypt file"
+msgstr "फाइल गुप्तिकरण गर्नुहोस्"
+
+#: main.cpp:43
+msgid "Open key manager"
+msgstr "कुञ्जी प्रबन्धक खोल्नुहोस्"
+
+#: main.cpp:44
+msgid "Open editor"
+msgstr ""
+
+#: main.cpp:45
+msgid "Show encrypted file"
+msgstr "गुप्तिकरण गरिएको फाइल देखाउनुहोस्"
+
+#: main.cpp:46
+msgid "Sign file"
+msgstr "फाइल साइन गर्नुहोस्"
+
+#: main.cpp:47
+msgid "Verify signature"
+msgstr "हस्ताक्षर रूजु गर्नुहोस्"
+
+#: main.cpp:48
+msgid "File to open"
+msgstr "खोल्नु पर्ने फाइल"
+
+#. i18n: file: adduid.ui:16
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:3
+msgid "Name (minimum 5 characters):"
+msgstr "नाम (न्यूनतम ५ क्यारेक्टर):"
+
+#. i18n: file: adduid.ui:29
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: newkey.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:6 rc.cpp:540
+msgid "Email:"
+msgstr "इमेल:"
+
+#. i18n: file: adduid.ui:42
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:9
+msgid "Comment (optional):"
+msgstr "टिप्पणी (वैकल्पिक):"
+
+#. i18n: file: conf_decryption.ui:52
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_4_2)
+#: rc.cpp:12
+msgid ""
+"<qt><b>Custom Decryption Command:</b><br />\n"
+"<p>This option allows the user to specify a custom command to be executed by "
+"GPG when decryption occurs. (This is recommended for advanced users "
+"only).</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_decryption.ui:55
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: rc.cpp:16
+msgid "Custom decryption command:"
+msgstr "अनुकूल गुप्तिकरण उल्टाउने आदेश:"
+
+#. i18n: file: conf_encryption.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpCompatibility)
+#: rc.cpp:22
+msgid "PGP 6 compatibility"
+msgstr "PGP 6 अनुकुलता"
+
+#. i18n: file: conf_encryption.ui:27
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PgpCompatibility)
+#: rc.cpp:25
+msgid ""
+"<qt><b>PGP 6 compatibility:</b><br /> \n"
+"<p>Checking this option forces GnuPG to output encrypted packets that are as "
+"compliant with PGP (Pretty Good Privacy) 6 standards as possible thus "
+"allowing GnuPG users to inter operate with PGP 6 users.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:40
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AsciiArmor)
+#: rc.cpp:29 selectpublickeydialog.cpp:96
+msgid "ASCII armored encryption"
+msgstr "ASCII आर्मोरेड गुप्तिकरण"
+
+#. i18n: file: conf_encryption.ui:44
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AsciiArmor)
+#: rc.cpp:32
+msgid ""
+"<qt><b>ASCII armored encryption:</b> <br /> \n"
+"<p>Checking this option outputs all encrypted files in a format that can be "
+"opened by a text editor and as such the output is suitable for placing in "
+"the body of an e-mail message.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpExtension)
+#: rc.cpp:36
+msgid "Use *.pgp extension for encrypted files"
+msgstr "गुप्तिकरण गरिएको फाइलका लागि  *.pgp विस्तार प्रयोग गर्नुहोस्"
+
+#. i18n: file: conf_encryption.ui:55
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PgpExtension)
+#: rc.cpp:39
+msgid ""
+"<qt><b>Use *.pgp extension for encrypted files:</b><br />\n"
+"<p>Checking this option will append a .pgp extension to all encrypted files "
+"instead of a .gpg extension. This option will maintain compatibility with "
+"users of PGP (Pretty Good Privacy) software.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUserID)
+#: rc.cpp:43 selectpublickeydialog.cpp:107
+msgid "Hide user id"
+msgstr "प्रयोगकर्ता आईडी लुकाउनुहोस्"
+
+#. i18n: file: conf_encryption.ui:66
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideUserID)
+#: rc.cpp:46
+msgid ""
+"<qt><b>Hide user ID:</b><br /> \n"
+"<p>Checking this option will remove the keyid of the recipient from all "
+"encrypted packets. The advantage: traffic analysis of the encrypted packets "
+"cannot be performed as easily because the recipient is unknown. The "
+"disadvantage: the receiver of the encrypted packets is forced to try all "
+"secret keys before being able to decrypt the packets. This can be a lengthy "
+"process depending on the number of secret keys the receiver holds.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:89
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
+#: rc.cpp:50
+msgid "Custom encryption command:"
+msgstr "अनुकूल गुप्तिकरण आदेश:"
+
+#. i18n: file: conf_encryption.ui:93
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
+#: rc.cpp:53
+msgid ""
+"<qt><b>Custom encryption command:</b><br />\n"
+"<p>When activated, an entry field will be shown in the key selection dialog, "
+"enabling you to enter a custom command for encryption. This option is "
+"recommended for experienced users only.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:137
+#. i18n: ectx: property (text), widget (QCheckBox, encrypt_to_always)
+#: rc.cpp:57
+msgid "Always encrypt with:"
+msgstr "यससँग सधै गुप्तिकरण गर्नुहोस्:"
+
+#. i18n: file: conf_encryption.ui:141
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, encrypt_to_always)
+#: rc.cpp:60
+msgid ""
+"<qt><b>Always encrypt with:</b><br />\n"
+"<p>This ensures all files/messages will also be encrypted with the chosen "
+"key. However, if the \"Encrypt files with:\" option is selected that chosen "
+"key will override the \"Always encrypt with:\" selection.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:148
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EncryptFilesTo)
+#: rc.cpp:64
+msgid "Encrypt files with:"
+msgstr "यससँग फाइल गुप्तिकरण गर्नुहोस्:"
+
+#. i18n: file: conf_encryption.ui:152
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EncryptFilesTo)
+#: rc.cpp:67
+msgid ""
+"<qt><b>Encrypt files with:</b><br />\n"
+"<p>Checking this option and selecting a key will force any file encryption "
+"operation to use the selected key. KGpg will not query for a recipient and "
+"the default key will be bypassed.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_encryption.ui:159
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowUntrustedKeys)
+#: rc.cpp:71 selectpublickeydialog.cpp:101
+msgid "Allow encryption with untrusted keys"
+msgstr "अविश्वासिलो कुज्जीसँग गुप्तिकरण अनुमति दिनुहोस्"
+
+#. i18n: file: conf_encryption.ui:163
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowUntrustedKeys)
+#: rc.cpp:74
+msgid ""
+"<qt><b>Allow encryption with untrusted keys:</b><br />\n"
+"<p>When importing a public key, the key is usually marked as untrusted and "
+"as such cannot be used unless it is signed by the default key (thus making "
+"it 'trusted'). Checking this box enables any key to be used even if it is "
+"untrusted.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_gpg.ui:15
+#. i18n: ectx: property (whatsThis), widget (QWidget, GPGConf)
+#: rc.cpp:78
+msgid ""
+"<qt><b>Global Settings:</b><br />\n"
+"<p></p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: conf_gpg.ui:21
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:83
+msgid "GnuPG Home"
+msgstr "GnuPG गृह"
+
+#. i18n: file: conf_gpg.ui:29
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2)
+#: rc.cpp:86
+msgid "Home location:"
+msgstr "गृह स्थान:"
+
+#. i18n: file: conf_gpg.ui:35
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_5_2)
+#: rc.cpp:89
+msgid ""
+"<b>Home Location</b><p>This is the directory where GnuPG stores its "
+"configuration and the keyrings. If you have not changed it this is usually "
+"<em>~/.gnupg/</em></p>"
+msgstr ""
+
+#. i18n: file: conf_gpg.ui:42
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2_2)
+#: rc.cpp:92
+msgid "Configuration file:"
+msgstr "कन्फिगरेसन फाइल:"
+
+#. i18n: file: conf_gpg.ui:48
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_5_2_2)
+#: rc.cpp:95
+msgid ""
+"<b>Configuration File</b><p>This is the name of the configuration file in "
+"the directory specified above. The default is <em>gnupg.conf</em> while "
+"older versions of GnuPG used <em>options</em>.</p>"
+msgstr ""
+
+#. i18n: file: conf_gpg.ui:95
+#. i18n: ectx: property (text), widget (QPushButton, changeHome)
+#: rc.cpp:98
+msgid "Change..."
+msgstr "परिवर्तन गर्नुहोस्..."
+
+#. i18n: file: conf_gpg.ui:113
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_6_2)
+#: rc.cpp:104
+msgid "Program path:"
+msgstr "कार्यक्रम मार्ग:"
+
+#. i18n: file: conf_gpg.ui:119
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_6_2)
+#: rc.cpp:107
+msgid ""
+"<b>Program path</b><p>This is the program that will be called for all GnuPG "
+"operations. The default of <em>gpg</em> will work on most systems.</p>"
+msgstr ""
+
+#. i18n: file: conf_gpg.ui:156
+#. i18n: ectx: property (text), widget (QCheckBox, use_agent)
+#: rc.cpp:110
+msgid "Use GnuPG agent"
+msgstr "GnuPG अभिकर्ता प्रयोग गर्नुहोस्"
+
+#. i18n: file: conf_gpg.ui:159
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, use_agent)
+#: rc.cpp:113
+msgid ""
+"<b>Use GnuPG agent</b><p>The GnuPG agent stores the passwords for your "
+"secret keys in memory for a limited amount of time. If you use your secret "
+"key again while it is cached you do not have to enter it again. This is less "
+"secure than typing it every time.</p>"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:24
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:116
+msgid "Global Settings"
+msgstr "विश्वव्यापी सेटिङ"
+
+#. i18n: file: conf_misc.ui:33
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoStart)
+#: rc.cpp:119
+msgid ""
+"<qt><b>Start KGpg automatically at KDE startup:</b><br />\n"
+"<p>If checked KGpg will start automatically each time that KDE starts "
+"up.</p></qt>"
+msgstr ""
+"<qt><b>केडीई सुरुआतमा स्वचालित रूपमा KGpg सुरु गर्नुहोस्:</b><br />\n"
+"<p>यदि जाँच गरिएमा केडीई सुरु हुँदा प्रत्येक पटक KGpg स्वचालित रूपमा सुरु "
+"हुनेछ ।</p></qt>"
+
+#. i18n: file: conf_misc.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
+#: rc.cpp:123
+msgid "Start KGpg automatically at login"
+msgstr "लगइन हुँदा स्वचालित रूपमा KGpg सुरु गर्नुहोस्"
+
+#. i18n: file: conf_misc.ui:53
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseMouseSelection)
+#: rc.cpp:126
+msgid ""
+"<qt><b>Use mouse selection instead of clipboard:</b><br />\n"
+"<p>If checked, clipboard operations in KGpg will use the selection "
+"clipboard, that means highlighting a text to copy, and middle button (or "
+"right+left together) to paste. If this option is not checked, the clipboard "
+"will work with Key shortcuts (Ctrl-c, Ctrl-v).</p></qt> "
+msgstr ""
+
+#. i18n: file: conf_misc.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMouseSelection)
+#: rc.cpp:130
+msgid "Use mouse selection instead of clipboard"
+msgstr "क्लिपबोर्डको सट्टामा माउस चयन प्रयोग गर्नुहोस्"
+
+#. i18n: file: conf_misc.ui:70
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_RemoteFileWarn)
+#: rc.cpp:133
+msgid ""
+"<qt><b>Display warning before creating temporary files:</b><br />\n"
+"<p></p></qt>"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:74
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemoteFileWarn)
+#: rc.cpp:137
+msgid ""
+"Display warning before creating temporary files\n"
+"(only occurs on remote files operations)"
+msgstr ""
+"अस्थायी फाइल सिर्जना गर्नु अघि चेतावनी प्रर्दशन गर्नुहोस्\n"
+"(टाढाको फाइल सञ्चालनमा मात्र हुन्छ)"
+
+#. i18n: file: conf_misc.ui:97
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: rc.cpp:141
+msgid "Applet && Menus"
+msgstr "एप्लेट र मेनु"
+
+#. i18n: file: conf_misc.ui:103
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox11)
+#: rc.cpp:144
+msgid "Konqueror Service Menus"
+msgstr "कनक्वेरर सेवा मेनु"
+
+#. i18n: file: conf_misc.ui:119
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#: rc.cpp:147
+msgid ""
+"<qt><b>Sign file service menu:</b><br />\n"
+"<p></p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:122
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:152
+msgid "Sign file service menu:"
+msgstr "फाइल सेवा मेनु साइन गर्नुहोस्:"
+
+#. i18n: file: conf_misc.ui:144
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SignMenu)
+#. i18n: file: conf_misc.ui:183
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DecryptMenu)
+#: rc.cpp:158 rc.cpp:172
+msgid "Enable with All Files"
+msgstr "सबै फाइलसँग सक्षम पार्नुहोस्"
+
+#. i18n: file: conf_misc.ui:164
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_3)
+#: rc.cpp:161
+msgid ""
+"<qt><b>Decrypt file service menu:</b><br />\n"
+"<p></p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:167
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:166
+msgid "Decrypt file service menu:"
+msgstr "फाइल सेवा मेनु गुप्तिकरणबाट हटाउनुहोस्:"
+
+#. i18n: file: conf_misc.ui:188
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DecryptMenu)
+#: rc.cpp:175
+msgid "Enable with Encrypted Files"
+msgstr "गुप्तिकरण गरिएको फाइलसँग सक्षम पार्नुहोस्"
+
+#. i18n: file: conf_misc.ui:201
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:178
+msgid "System Tray Applet"
+msgstr "प्रणाली ट्रे एप्लेट"
+
+#. i18n: file: conf_misc.ui:208
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowSystray)
+#: rc.cpp:181
+msgid ""
+"<qt><b>Show system tray icon:</b><br />\n"
+"<p>If checked KGpg will minimize to an icon in the system tray.</p></qt>"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:211
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSystray)
+#: rc.cpp:185
+msgid "Show system tray icon"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:223
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:188
+msgid "Left mouse click opens:"
+msgstr ""
+
+#. i18n: file: conf_misc.ui:240
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftClick)
+#: rc.cpp:191
+msgid "Key Manager"
+msgstr "कुञ्जी प्रबन्धक"
+
+#. i18n: file: conf_misc.ui:245
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftClick)
+#. i18n: file: conf_misc.ui:272
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:194 rc.cpp:197 editor/kgpgeditor.cpp:506
+msgid "Editor"
+msgstr "सम्पादक"
+
+#. i18n: file: conf_misc.ui:280
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:200
+msgid "Recent files"
+msgstr ""
+
+#. i18n: file: conf_servers.ui:29
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: rc.cpp:203
+msgid ""
+"<b>INFORMATION</b>:\n"
+"Only the default server will be stored in GnuPG's configuration file,\n"
+"all others will be stored for use by KGpg only."
+msgstr ""
+"<b>सूचना</b>:\n"
+"केबल पूर्वनिर्धारित सर्भर मात्र GnuPG को कन्फिगरेसन फाइलमा भण्डारण गरिनेछ,\n"
+"अरू सबै KGpg द्वारा प्रयोगका लागि मात्र भण्डारण गरिनेछ ।"
+
+#. i18n: file: conf_servers.ui:39
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseProxy)
+#: rc.cpp:208
+msgid "Honor HTTP proxy when available"
+msgstr "उपलब्ध हुँदा HTTP प्रोक्सीलाई सम्मान गर्नुहोस्"
+
+#. i18n: file: conf_servers.ui:50
+#. i18n: ectx: property (text), widget (KPushButton, server_default)
+#: rc.cpp:211
+msgid "&Set as Default"
+msgstr "पूर्वनिर्धारित रूपमा सेट गर्नुहोस्"
+
+#. i18n: file: conf_servers.ui:57
+#. i18n: ectx: property (text), widget (KPushButton, server_add)
+#: rc.cpp:214
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: conf_servers.ui:67
+#. i18n: ectx: property (text), widget (KPushButton, server_del)
+#: rc.cpp:217
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#. i18n: file: conf_servers.ui:74
+#. i18n: ectx: property (text), widget (KPushButton, server_edit)
+#: rc.cpp:220
+msgid "&Edit..."
+msgstr ""
+
+#. i18n: file: conf_ui2.ui:32
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:223
+msgid "Key Colors"
+msgstr "कुञ्जी रङ"
+
+#. i18n: file: conf_ui2.ui:42
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#: rc.cpp:226
+msgid "Ultimately trusted keys:"
+msgstr "अन्तिममा विश्वास गरिएको कुञ्जी:"
+
+#. i18n: file: conf_ui2.ui:52
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: rc.cpp:229
+msgid "Trusted keys:"
+msgstr "विश्वासिलो कुञ्जी:"
+
+#. i18n: file: conf_ui2.ui:62
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#: rc.cpp:232
+msgid "Marginally trusted keys:"
+msgstr "सिमान्तमा विश्वास गरिएको कुञ्जी"
+
+#. i18n: file: conf_ui2.ui:72
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
+#: rc.cpp:235
+msgid "Expired keys:"
+msgstr "म्याद सकिएको कुञ्जी:"
+
+#. i18n: file: conf_ui2.ui:82
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: rc.cpp:238
+msgid "Revoked keys:"
+msgstr "खारेज गरिएको कुञ्जी:"
+
+#. i18n: file: conf_ui2.ui:92
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3_3)
+#: rc.cpp:241
+msgid "Unknown keys:"
+msgstr "अज्ञात कुञ्जी:"
+
+#. i18n: file: conf_ui2.ui:102
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: rc.cpp:244
+msgid "Disabled keys:"
+msgstr "अक्षम पारिएको कुञ्जी:"
+
+#. i18n: file: conf_ui2.ui:225
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: rc.cpp:247
+msgid "Editor Font"
+msgstr "सम्पादक फन्ट"
+
+#. i18n: file: groupedit.ui:22
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:250
+msgid "Available Trusted Keys"
+msgstr "उपलब्ध विश्वासिलो कुञ्जी"
+
+#. i18n: file: groupedit.ui:51
+#. i18n: ectx: property (text), widget (QTableView, availableKeys)
+#. i18n: file: groupedit.ui:135
+#. i18n: ectx: property (text), widget (QTableView, groupKeys)
+#: rc.cpp:253 rc.cpp:265 model/kgpgitemmodel.cpp:283
+#: model/kgpgsearchresultmodel.cpp:323
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: groupedit.ui:56
+#. i18n: ectx: property (text), widget (QTableView, availableKeys)
+#. i18n: file: groupedit.ui:140
+#. i18n: ectx: property (text), widget (QTableView, groupKeys)
+#: rc.cpp:256 rc.cpp:268 model/kgpgitemmodel.cpp:284
+#: model/kgpgsearchresultmodel.cpp:325
+msgctxt "@title:column Title of a column of emails"
+msgid "Email"
+msgstr ""
+
+#. i18n: file: groupedit.ui:61
+#. i18n: ectx: property (text), widget (QTableView, availableKeys)
+#. i18n: file: groupedit.ui:145
+#. i18n: ectx: property (text), widget (QTableView, groupKeys)
+#: rc.cpp:259 rc.cpp:271
+msgid "Id"
+msgstr "आईडी"
+
+#. i18n: file: groupedit.ui:77
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel1)
+#: rc.cpp:262
+msgid "Keys in the Group"
+msgstr "समूहमा कुञ्जी"
+
+#. i18n: file: keyexport.ui:34
+#. i18n: ectx: property (text), widget (QRadioButton, checkMail)
+#: rc.cpp:274
+msgctxt "Export a key via email"
+msgid "Email"
+msgstr ""
+
+#. i18n: file: keyexport.ui:41
+#. i18n: ectx: property (text), widget (QRadioButton, checkClipboard)
+#. i18n: file: sourceselect.ui:34
+#. i18n: ectx: property (text), widget (QRadioButton, checkClipboard)
+#: rc.cpp:277 rc.cpp:579
+msgid "Clipboard"
+msgstr "क्लिपबोर्ड"
+
+#. i18n: file: keyexport.ui:51
+#. i18n: ectx: property (text), widget (QRadioButton, checkServer)
+#. i18n: file: keyserver.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: keyserver.ui:176
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:280 rc.cpp:304 rc.cpp:330
+msgid "Key server:"
+msgstr "कुञ्जी सर्भर:"
+
+#. i18n: file: keyexport.ui:65
+#. i18n: ectx: property (text), widget (QRadioButton, checkFile)
+#. i18n: file: sourceselect.ui:43
+#. i18n: ectx: property (text), widget (QRadioButton, checkFile)
+#: rc.cpp:283 rc.cpp:582
+msgid "File:"
+msgstr "फाइल:"
+
+#. i18n: file: keyexport.ui:85
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup3)
+#: rc.cpp:286
+msgid "Export Settings"
+msgstr ""
+
+#. i18n: file: keyexport.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, checkAttrAll)
+#: rc.cpp:289
+msgid "Export everything"
+msgstr ""
+
+#. i18n: file: keyexport.ui:101
+#. i18n: ectx: property (text), widget (QRadioButton, checkAttrPhoto)
+#: rc.cpp:292
+msgid "Do not export attributes (photo ids)"
+msgstr ""
+
+#. i18n: file: keyexport.ui:108
+#. i18n: ectx: property (text), widget (QRadioButton, checkAttrClean)
+#: rc.cpp:295
+msgctxt ""
+"@option:radio Exports the smallest key possible. Maps to export-minimal "
+"option of gpg"
+msgid "Clean key"
+msgstr ""
+
+#. i18n: file: keyserver.ui:38
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#: rc.cpp:301
+msgid ""
+"<qt><b>Key Server:</b><br /> <p>A Key Server is a centralized repository of "
+"PGP/GnuPG keys connected to the Internet which can be conveniently accessed "
+"in order to obtain or deposit keys. Select from the drop down list to "
+"specify which key server should be used.</p> <p>Often these keys are held by "
+"people whom the user has never met and as such the authenticity is dubious "
+"at best. Refer to the GnuPG manual covering \"Web-of-Trust\" relationships "
+"to find out how GnuPG works around the problem of verifying "
+"authenticity.</p> </qt>"
+msgstr ""
+"<qt><b>कुञ्जी सर्भर:</b><br /> <p>कुञ्जी सर्भर भनेको कुञ्जीलाई जम्मा गर्न वा "
+"प्राप्त गर्नका लागि सजिलोसँग पहुँच गर्ने सकिने इन्टरनेटमा जडान "
+"गरिएकोPGP/GnuPG कुञ्जीको केन्द्रिकृत भण्डार हो । कुन कुञ्जी सर्भर प्रयोग "
+"गरिनु पर्छ निर्दिष्ट गर्न ड्रप डाउन सूचीबाट चयन गर्नुहोस् ।</p> <p>जहिल्यै "
+"पनि यि कुञ्जीहरू त्यस्ता मानिसहरूद्वारा जसलाई प्रयोगकर्ताले कहिल्यै नभेटेको "
+"र आधिकारिक्ता अस्पष्ट भएका जस्तैले राखिएका हुन्छन् । आधिकारिक्ता रुजुमा "
+"समस्या आउँदा GnuPG ले कसरी काम गर्छ फेला पार्न GnuPG म्यानुअल आवरण\"Web-of-"
+"Trust\" सम्बन्धमा सन्दर्भ देखाउनुहोस् ।</p> </qt>"
+
+#. i18n: file: keyserver.ui:52
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kCBimportks)
+#: rc.cpp:307
+msgid ""
+"<b>Key Server Drop Down Dialog:</b>\n"
+"Allows the user to select the Key Server which will be used to import "
+"PGP/GnuPG keys into the local keyring."
+msgstr ""
+"<b>कुञ्जी सर्भर ड्रप डाउन संवाद:</b>\n"
+"प्रयोगकर्तालाई स्थानीय किरिङमा PGP/GnuPG कुञ्जी आयात गर्न प्रयोग गरिने "
+"कुञ्जी सर्भर चयन गर्न अनुमति दिन्छ ।"
+
+#. i18n: file: keyserver.ui:60
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#: rc.cpp:311
+msgid ""
+"<qt><b>Text to search or ID of the key to import:</b><br />\n"
+"<p>There are multiple ways to search for a key, you can use a text or "
+"partial text search (example: entering Phil or Zimmerman will bring up all "
+"keys in which Phil or Zimmerman shows up) or you can search by the ID's of "
+"the key. Key ID's are strings of letters and numbers that uniquely identify "
+"a key (example: searching for 0xED7585F4 would bring up the key associated "
+"with that ID).</p></qt>"
+msgstr ""
+
+#. i18n: file: keyserver.ui:69
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:315
+msgid "Text to search or ID of the key to import:"
+msgstr "खोजी गर्नुपर्ने पाठ वा आयात गर्नुपर्ने कुञ्जीको आईडी:"
+
+#. i18n: file: keyserver.ui:91
+#. i18n: ectx: property (text), widget (QCheckBox, cBproxyI)
+#. i18n: file: keyserver.ui:221
+#. i18n: ectx: property (text), widget (QCheckBox, cBproxyE)
+#: rc.cpp:318 rc.cpp:343
+msgid "Honor HTTP proxy:"
+msgstr "HTTP प्रोक्सी सम्मान गर्नुहोस्:"
+
+#. i18n: file: keyserver.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, Buttonsearch)
+#: rc.cpp:321
+msgid "&Search"
+msgstr "खोजी गर्नुहोस्"
+
+#. i18n: file: keyserver.ui:170
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:327
+msgid "Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#. i18n: file: keyserver.ui:190
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#: rc.cpp:333
+msgid ""
+"<qt><b>Key to be exported:</b><br />\n"
+"<p>This allows the user to specify the key from the drop down list that will "
+"be exported to the key server selected.</p></qt>"
+msgstr ""
+
+#. i18n: file: keyserver.ui:193
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:337
+msgid "Key to be exported:"
+msgstr "निर्यात गरिनु पर्ने कुञ्जी:"
+
+#. i18n: file: keyserver.ui:206
+#. i18n: ectx: property (text), widget (QCheckBox, exportAttributes)
+#: rc.cpp:340
+msgid "Export attributes (photo id)"
+msgstr "निर्यात विशेषता (फोटो आईडी)"
+
+#. i18n: file: keyserver.ui:265
+#. i18n: ectx: property (whatsThis), widget (QPushButton, Buttonexport)
+#: rc.cpp:346
+msgid ""
+"<qt><b>Export:</b><br />\n"
+"<p>Pushing this button will export the specified key to the specified "
+"server.</p></qt>"
+msgstr ""
+
+#. i18n: file: keyserver.ui:268
+#. i18n: ectx: property (text), widget (QPushButton, Buttonexport)
+#: rc.cpp:350
+msgid "&Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#. i18n: file: keysmanager.rc:6
+#. i18n: ectx: Menu (managekeys)
+#: rc.cpp:353 rc.cpp:602
+msgid "&Keys"
+msgstr "कुञ्जी"
+
+#. i18n: file: keysmanager.rc:23
+#. i18n: ectx: Menu (view)
+#. i18n: file: editor/kgpgeditor.rc:13
+#. i18n: ectx: Menu (view)
+#. i18n: file: keysmanager.rc:23
+#. i18n: ectx: Menu (view)
+#: rc.cpp:356 rc.cpp:593 rc.cpp:605
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: keysmanager.rc:28
+#. i18n: ectx: Menu (show_details)
+#: rc.cpp:359 rc.cpp:608
+msgid "&Show Details"
+msgstr "विस्तृत देखाउनुहोस्"
+
+#. i18n: file: keysmanager.rc:40
+#. i18n: ectx: Menu (groups)
+#: rc.cpp:362 rc.cpp:611
+msgid "&Groups"
+msgstr "समूह"
+
+#. i18n: file: kgpg.kcfg:12
+#. i18n: ectx: label, entry (CustomDecrypt), group (Decryption)
+#: rc.cpp:365
+msgid "Custom decryption command."
+msgstr "अनुकूल गुप्तिकरण उल्टाउने आदेश ।"
+
+#. i18n: file: kgpg.kcfg:18
+#. i18n: ectx: label, entry (CustomEncryptionOptions), group (Encryption)
+#: rc.cpp:368
+msgid "Custom encryption options"
+msgstr "अनुकूल गुप्तिकरण विकल्प"
+
+#. i18n: file: kgpg.kcfg:21
+#. i18n: ectx: label, entry (AllowCustomEncryptionOptions), group (Encryption)
+#: rc.cpp:371
+msgid "Allow custom encryption options"
+msgstr "अनुकूल गुप्तिकरण विकल्प अनुमति दिनुहोस्"
+
+#. i18n: file: kgpg.kcfg:25
+#. i18n: ectx: label, entry (FileEncryptionKey), group (Encryption)
+#: rc.cpp:374
+msgid "File encryption key."
+msgstr "फाइल गुप्तिकरण कुञ्जी ।"
+
+#. i18n: file: kgpg.kcfg:28
+#. i18n: ectx: label, entry (EncryptFilesTo), group (Encryption)
+#: rc.cpp:377
+msgid "Encrypt files"
+msgstr "फाइल गुप्तिकरण गर्नुहोस्"
+
+#. i18n: file: kgpg.kcfg:32
+#. i18n: ectx: label, entry (AsciiArmor), group (Encryption)
+#: rc.cpp:380
+msgid "Use ASCII armored encryption."
+msgstr "ASCII आर्मोरेड गुप्तिकरण प्रयोग गर्नुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:36
+#. i18n: ectx: label, entry (AllowUntrustedKeys), group (Encryption)
+#: rc.cpp:383
+msgid "Allow encryption with untrusted keys."
+msgstr "अविश्वासिलो कुञ्जीसँग गुप्तिकरण अनुमति दिनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:40
+#. i18n: ectx: label, entry (HideUserID), group (Encryption)
+#: rc.cpp:386
+msgid "Hide the user ID."
+msgstr "प्रयोगकर्ता आईडी लुकाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:44
+#. i18n: ectx: label, entry (PgpCompatibility), group (Encryption)
+#: rc.cpp:389
+msgid "Enable PGP 6 compatibility."
+msgstr "PGP 6 अनुकूलता सक्षम पार्नुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:48
+#. i18n: ectx: label, entry (PgpExtension), group (Encryption)
+#: rc.cpp:392
+msgid "Use *.pgp extension for encrypted files."
+msgstr "गुप्तिकरण गरिएको फाइलका लागि *.pgp विस्तार प्रयोग गर्नुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:55
+#. i18n: ectx: label, entry (GpgConfigPath), group (GPG Settings)
+#: rc.cpp:395
+msgid "The path of the gpg configuration file."
+msgstr "gpg कन्फिगरेसन फाइलको मार्ग ।"
+
+#. i18n: file: kgpg.kcfg:58
+#. i18n: ectx: label, entry (GpgBinaryPath), group (GPG Settings)
+#: rc.cpp:398
+msgid "The path of the gpg binary used by KGpg."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:62
+#. i18n: ectx: label, entry (Groups), group (GPG Settings)
+#: rc.cpp:401
+msgid "GPG groups"
+msgstr "GPG समूह"
+
+#. i18n: file: kgpg.kcfg:77
+#. i18n: ectx: label, entry (FirstRun), group (General Options)
+#: rc.cpp:404
+msgid "Is the first time the application runs."
+msgstr "अनुप्रयोग चलाएको पहिलो पटक हो ।"
+
+#. i18n: file: kgpg.kcfg:81
+#. i18n: ectx: label, entry (EditorGeometry), group (General Options)
+#: rc.cpp:407
+msgid "The size of the editor window."
+msgstr "सम्पादक सञ्झ्यालको साइज ।"
+
+#. i18n: file: kgpg.kcfg:84
+#. i18n: ectx: label, entry (ShowTrust), group (General Options)
+#: rc.cpp:410
+msgid "Show the trust value in key manager."
+msgstr "कुञ्जी प्रबन्धकमा विश्वास मान देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:88
+#. i18n: ectx: label, entry (ShowExpi), group (General Options)
+#: rc.cpp:413
+msgid "Show the expiration value in key manager."
+msgstr "कुञ्जी प्रबन्धकमा म्याद समाप्ति मान देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:92
+#. i18n: ectx: label, entry (ShowSize), group (General Options)
+#: rc.cpp:416
+msgid "Show the size value in key manager."
+msgstr "कुञ्जी प्रबन्धकमा साइज मान देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:96
+#. i18n: ectx: label, entry (ShowCreat), group (General Options)
+#: rc.cpp:419
+msgid "Show the creation value in key manager."
+msgstr "कुञ्जी प्रबन्धकमा सिर्जना मान देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:100
+#. i18n: ectx: label, entry (ShowSecret), group (General Options)
+#: rc.cpp:422
+msgid "Show only secret keys in key manager."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:104
+#. i18n: ectx: label, entry (ShowLongKeyId), group (General Options)
+#: rc.cpp:425
+msgid "Show long key id in key manager."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:108
+#. i18n: ectx: label, entry (TrustLevel), group (General Options)
+#: rc.cpp:428
+msgid "Show only keys with at least that trust level in key manager."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:122
+#. i18n: ectx: label, entry (UseMouseSelection), group (User Interface)
+#: rc.cpp:431
+msgid "Use the mouse selection instead of the clipboard."
+msgstr "क्लिपबोर्डको सट्टामा माउस चयन प्रयोग गर्नुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:130
+#. i18n: ectx: label, entry (RemoteFileWarn), group (User Interface)
+#: rc.cpp:437
+msgid ""
+"Display a warning before creating temporary files during remote file "
+"operations."
+msgstr ""
+"टाढाको फाइल सञ्चालनको समयमा अस्थायी फाइल सिर्जना गर्नु अघि चेतावनी प्रर्दशन "
+"गर्नुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:134
+#. i18n: ectx: label, entry (LeftClick), group (User Interface)
+#: rc.cpp:440
+msgid "Choose default left-click behavior"
+msgstr "पूर्वनिर्धारित बायाँ क्लिक व्यवहार छनोट गर्नुहोस्"
+
+#. i18n: file: kgpg.kcfg:141
+#. i18n: ectx: label, entry (EncryptedDropEvent), group (User Interface)
+#: rc.cpp:443
+msgid "Handle encrypted drops"
+msgstr "गुप्तिकरण गरिएको ड्रप ह्यन्डल गर्नुहोस्"
+
+#. i18n: file: kgpg.kcfg:149
+#. i18n: ectx: label, entry (UnencryptedDropEvent), group (User Interface)
+#: rc.cpp:446
+msgid "Handle unencrypted drops"
+msgstr "गुप्तिकरण नगरिएको ड्रप ह्यान्डल गर्नुहोस्"
+
+#. i18n: file: kgpg.kcfg:157
+#. i18n: ectx: label, entry (SignMenu), group (User Interface)
+#: rc.cpp:449
+msgid "Show the \"sign file\" service menu."
+msgstr "\"साइन फाइल\" सेवा मेनु देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:165
+#. i18n: ectx: label, entry (DecryptMenu), group (User Interface)
+#: rc.cpp:452
+msgid "Show the \"decrypt file\" service menu."
+msgstr "\"फाइल गुप्तिकरण उल्टाउनुहोस्\" सेवा मेनु देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:174
+#. i18n: ectx: label, entry (ShowSystray), group (User Interface)
+#: rc.cpp:455
+msgid "Show the systray icon"
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:178
+#. i18n: ectx: label, entry (RecentFiles), group (User Interface)
+#: rc.cpp:458
+msgid "The number of recently opened files shown in the editor menu."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:185
+#. i18n: ectx: label, entry (ShowTipOfDay), group (TipOfDay)
+#: rc.cpp:461
+msgid "Show tip of the day."
+msgstr "आजको टिप देखाउनुहोस् ।"
+
+#. i18n: file: kgpg.kcfg:192
+#. i18n: ectx: label, entry (ColorGood), group (Key Colors)
+#: rc.cpp:464
+msgid "Color used for trusted keys."
+msgstr "विश्वासिलो कुञ्जीका लागि प्रयोग गरिएको रङ ।"
+
+#. i18n: file: kgpg.kcfg:196
+#. i18n: ectx: label, entry (ColorRev), group (Key Colors)
+#: rc.cpp:467
+msgid "Color used for revoked keys."
+msgstr "खारेज गरिएको कुञ्जीका लागि प्रयोग गरिएको रङ ।"
+
+#. i18n: file: kgpg.kcfg:200
+#. i18n: ectx: label, entry (ColorUnknown), group (Key Colors)
+#: rc.cpp:470
+msgid "Color used for unknown keys."
+msgstr "अज्ञात कुञ्जीका लागि प्रयोग गरिएको रङ ।"
+
+#. i18n: file: kgpg.kcfg:204
+#. i18n: ectx: label, entry (ColorBad), group (Key Colors)
+#: rc.cpp:473
+msgid "Color used for untrusted keys."
+msgstr "अविश्वासिलो कुञ्जीका लागि प्रयोग गरिएको रङ ।"
+
+#. i18n: file: kgpg.kcfg:208
+#. i18n: ectx: label, entry (ColorUltimate), group (Key Colors)
+#: rc.cpp:476
+msgid "Color used for ultimately trusted keys."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:212
+#. i18n: ectx: label, entry (ColorMarginal), group (Key Colors)
+#: rc.cpp:479
+msgid "Color used for marginally trusted keys."
+msgstr "सिमान्तमा विश्वास गरिएको कुञ्जीका लागि प्रयोग गरिएको रङ ।"
+
+#. i18n: file: kgpg.kcfg:216
+#. i18n: ectx: label, entry (ColorExpired), group (Key Colors)
+#: rc.cpp:482
+msgid "Color used for expired keys."
+msgstr "म्याद समाप्त भएको कुञ्जीका लागि प्रयोग गरिएको रङ ।"
+
+#. i18n: file: kgpg.kcfg:223
+#. i18n: ectx: label, entry (Font), group (Text Font)
+#: rc.cpp:485
+msgid "Font"
+msgstr "फन्ट"
+
+#. i18n: file: kgpg.kcfg:234
+#. i18n: ectx: label, entry (KeyServers), group (Servers)
+#: rc.cpp:488
+msgid ""
+"Key servers used by KGpg. The first server in the list is the default server."
+msgstr ""
+
+#. i18n: file: kgpg.kcfg:241
+#. i18n: ectx: label, entry (UseProxy), group (Key Servers)
+#: rc.cpp:491
+msgid "Use HTTP proxy when available."
+msgstr "उपलब्ध हुँदा HTTP प्रोक्सी प्रयोग गर्नुहोस् ।"
+
+#. i18n: file: kgpgrevokewidget.ui:18
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:494
+msgid "Create revocation certificate for"
+msgstr "यसका लागि खारेजी प्रमाणपत्र सिर्जना गर्नुहोस्"
+
+#. i18n: file: kgpgrevokewidget.ui:28
+#. i18n: ectx: property (text), widget (QLabel, keyID)
+#: rc.cpp:497
+msgid "key id"
+msgstr "कुञ्जीआईडी"
+
+#. i18n: file: kgpgrevokewidget.ui:45
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:500
+msgid "Reason for revocation:"
+msgstr "खारेजीका लागि कारण:"
+
+#. i18n: file: kgpgrevokewidget.ui:56
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBox1)
+#: rc.cpp:503
+msgid "No Reason"
+msgstr "कारण छैन"
+
+#. i18n: file: kgpgrevokewidget.ui:61
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBox1)
+#: rc.cpp:506
+msgid "Key Has Been Compromised"
+msgstr "कुञ्जी मिलाइएको छ"
+
+#. i18n: file: kgpgrevokewidget.ui:66
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBox1)
+#: rc.cpp:509
+msgid "Key is Superseded"
+msgstr "कुञ्जी अधिक्रमण गरिएको छ"
+
+#. i18n: file: kgpgrevokewidget.ui:71
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBox1)
+#: rc.cpp:512
+msgid "Key is No Longer Used"
+msgstr "कुञ्जी लामो प्रयोग भएको छैन"
+
+#. i18n: file: kgpgrevokewidget.ui:81
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:515
+msgid "Description:"
+msgstr "वर्णन:"
+
+#. i18n: file: kgpgrevokewidget.ui:96
+#. i18n: ectx: property (text), widget (QCheckBox, cbSave)
+#: rc.cpp:518
+msgid "Save certificate:"
+msgstr "प्रमाणपत्र बचत गर्नुहोस्:"
+
+#. i18n: file: kgpgrevokewidget.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, cbPrint)
+#: rc.cpp:521
+msgid "Print certificate"
+msgstr "प्रमाणपत्र मुद्रण गर्नुहोस्"
+
+#. i18n: file: kgpgrevokewidget.ui:121
+#. i18n: ectx: property (text), widget (QCheckBox, cbImport)
+#: rc.cpp:524
+msgid "Import into keyring"
+msgstr "किरिङमा आयात गर्नुहोस्"
+
+#. i18n: file: newkey.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:530
+msgid "New Key Created"
+msgstr "नयाँ कुञ्जी सिर्जना गरियो"
+
+#. i18n: file: newkey.ui:25
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:533
+msgid "You have successfully created the following key:"
+msgstr "तपाईँले निम्न कुञ्जीहरू सफलता पूर्वक सिर्जना गर्नुभएको छ:"
+
+#. i18n: file: newkey.ui:37
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:536
+msgid "Name:"
+msgstr "नाम:"
+
+#. i18n: file: newkey.ui:115
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:548
+msgid "Fingerprint:"
+msgstr "औठाछाप:"
+
+#. i18n: file: newkey.ui:136
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, CBdefault)
+#: rc.cpp:551
+msgid ""
+"<qt><b>Set as your default key:</b><br />\n"
+"<p>Checking this option sets the newly created key pair as the default key "
+"pair.</p></qt>"
+msgstr ""
+
+#. i18n: file: newkey.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, CBdefault)
+#: rc.cpp:555
+msgid "Set as your default key"
+msgstr "तपाईँको पूर्वनिर्धारित कुञ्जीको रूपमा सेट गर्नुहोस्"
+
+#. i18n: file: newkey.ui:151
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:558
+msgid "Revocation Certificate"
+msgstr "खारेजी प्रमाणपत्र"
+
+#. i18n: file: newkey.ui:157
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:561
+msgid ""
+"It is recommended to save or print a revocation certificate in case your key "
+"is compromised."
+msgstr ""
+"यदि तपाईँको कुञ्जी सम्झौता गरेको अवस्थमा खारेजी प्रमाणपत्रलाई मुद्रण गर्न वा "
+"बचत गर्न सिफारिश गरिन्छ ।"
+
+#. i18n: file: newkey.ui:169
+#. i18n: ectx: property (text), widget (QCheckBox, CBsave)
+#: rc.cpp:564
+msgid "Save as:"
+msgstr "यस रूपमा बचत गर्नुहोस्:"
+
+#. i18n: file: newkey.ui:185
+#. i18n: ectx: property (text), widget (QCheckBox, CBprint)
+#: rc.cpp:567
+msgid "Print"
+msgstr "मुद्रण गर्नुहोस्"
+
+#. i18n: file: searchres.ui:57
+#. i18n: ectx: property (text), widget (QTreeView, kLVsearch)
+#: rc.cpp:573
+msgid "Keys"
+msgstr "कुञ्जी"
+
+#. i18n: file: searchres.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:576
+msgid "Key to import:"
+msgstr "आयत गर्नु पर्ने कुञ्जी:"
+
+#. i18n: file: sourceselect.ui:67
+#. i18n: ectx: property (text), widget (QRadioButton, checkServer)
+#: rc.cpp:585
+msgid "Keyserver:"
+msgstr ""
+
+#. i18n: file: sourceselect.ui:80
+#. i18n: ectx: property (toolTip), widget (KLineEdit, keyIds)
+#: rc.cpp:588
+msgid ""
+"Enter the ids or fingerprints of the keys to import as space separated list."
+msgstr ""
+
+#: rc.cpp:589
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Mahesh Subedi, श्यामकृष्ण बल, नारायण कुमार मगर, ,Launchpad "
+"Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:590
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"submanesh@gmail.com, shyamkrishna_bal@yahoo.com, narayan@mpp.org.np,,,"
+
+#. i18n: file: editor/kgpgeditor.rc:18
+#. i18n: ectx: Menu (signature)
+#: rc.cpp:596
+msgid "Si&gnature"
+msgstr "हस्ताक्षर"
+
+#. i18n: file: editor/kgpgeditor.rc:25
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:599
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#: selectexpirydate.cpp:27
+msgid "Choose New Expiration"
+msgstr "नयाँ म्याद समाप्ति छनोट गर्नुहोस्"
+
+#: selectexpirydate.cpp:33
+msgctxt "Key has unlimited lifetime"
+msgid "Unlimited"
+msgstr ""
+
+#: selectpublickeydialog.cpp:45
+msgid "O&ptions"
+msgstr "विकल्प"
+
+#: selectpublickeydialog.cpp:52
+msgid "Select Public Key"
+msgstr "सार्वजनिक कुञ्जी चयन गर्नुहोस्"
+
+#: selectpublickeydialog.cpp:55
+#, kde-format
+msgid "Select Public Key for %1"
+msgstr "%1 का लागि सार्वजनिक कुञ्जी चयन गर्नुहोस्"
+
+#: selectpublickeydialog.cpp:58
+#, kde-format
+msgid "Select Public Key for %2 and one more file"
+msgid_plural "Select Public Key for %2 and %1 more files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: selectpublickeydialog.cpp:67
+msgid "&Search: "
+msgstr "खोजी: "
+
+#: selectpublickeydialog.cpp:84
+msgid ""
+"<b>Public keys list</b>: select the key that will be used for encryption."
+msgstr ""
+"<b>सार्वजनिक कुञ्जी सूची</b>: कुञ्जी चयन गर्नुहोस् जुन गुप्तिकरणका लागि "
+"प्रयोग गरिने छ ।"
+
+#: selectpublickeydialog.cpp:98
+msgid ""
+"<b>ASCII encryption</b>: makes it possible to open the encrypted "
+"file/message in a text editor"
+msgstr ""
+"<b>ASCII गुप्तिकरण</b>: पाठ सम्पादकमा गुप्तिकरण गरिएको फाइल/सन्देश खोल्न "
+"यसले सम्भव बनाउँदछ ।"
+
+#: selectpublickeydialog.cpp:103
+msgid ""
+"<b>Allow encryption with untrusted keys</b>: when you import a public key, "
+"it is usually marked as untrusted and you cannot use it unless you sign it "
+"in order to make it 'trusted'. Checking this box enables you to use any key, "
+"even if it has not be signed."
+msgstr ""
+"<b>अविश्वासिलो कुञ्जीसँग गप्तिकरण अनुमति दिनुहोस्</b>: जब तपाईँले सार्वजनिक "
+"कुञ्जी आयात गर्नुहुन्छ, यसलाई प्रायजसो अविश्वासिलो रूपमा चिन्ह लगाइन्छ र "
+"यसलाई 'विश्वासिलो' बनाउनका निम्ति साइन नगरिकन प्रयोग गर्न सक्नुहुन्न । यदि "
+"यसलाई साइन गरिएको छैन भने पनि, यो बाकसमा जाँच गर्नाले तपाईँले कुनै कुञ्जी "
+"प्रयोग गर्न सक्षम पार्दछ ।"
+
+#: selectpublickeydialog.cpp:109
+msgid ""
+"<b>Hide user ID</b>: Do not put the keyid into encrypted packets. This "
+"option hides the receiver of the message and is a countermeasure against "
+"traffic analysis. It may slow down the decryption process because all "
+"available secret keys are tried."
+msgstr ""
+"<b>प्रयोगकर्ता आईडी लुकाउनुहोस्</b>: गुप्तिकरण गरिएको प्याकेटमा कुञ्जीआईडी "
+"नराख्नुहोस् । यो विकल्पले सन्देशको प्रापकलाई लुकाउँदछ र यो ट्राफिक विश्लेषण "
+"विरुद्धको विपरित नाप हो । यसले गुप्तिकरण उल्ट्याउने प्रक्रियालाई ढिला गर्न "
+"सक्दछ किनभने सबै उपलब्ध गुप्त कुञ्जीहरू प्रयास गरिएका छन् ।"
+
+#: selectpublickeydialog.cpp:113
+msgid "Symmetrical encryption"
+msgstr "सममित गुप्तिकरण"
+
+#: selectpublickeydialog.cpp:114
+msgid ""
+"<b>Symmetrical encryption</b>: encryption does not use keys. You just need "
+"to give a password to encrypt/decrypt the file"
+msgstr ""
+"<b>सममित गुप्तिकरण</b>: गुप्तिकरणले कुञ्जी प्रयोग गर्दैन । तपाईँले फाइल "
+"गुप्तिकरण गर्न/गुप्तिकरण उल्ट्याउन पासवर्ड दिन आवश्यक हुन्छ"
+
+#: selectpublickeydialog.cpp:128
+msgid "Custom option:"
+msgstr "अनुकूल विकल्प:"
+
+#: selectpublickeydialog.cpp:132
+msgid ""
+"<b>Custom option</b>: for experienced users only, allows you to enter a gpg "
+"command line option, like: '--armor'"
+msgstr ""
+"<b>अनुकूल विकल्प</b>: अनुभवि प्रयोगकर्ताका लागि मात्र, तपाईँलाई gpg आदेश "
+"रेखा विकल्प जस्तै : '--armor' प्रविष्ट गर्न अनुमति दिन्छ"
+
+#: selectsecretkey.cpp:32
+msgid "Private Key List"
+msgstr "व्यक्तिगत कुञ्जी सूची"
+
+#: selectsecretkey.cpp:37
+msgid "Choose secret key for signing:"
+msgstr "साइनिङका लाग गुप्त कुञ्जी छनोट गर्नुहोस्:"
+
+#: selectsecretkey.cpp:53
+#, kde-format
+msgid ""
+"How carefully have you checked that the key really belongs to the person "
+"with whom you wish to communicate:"
+msgid_plural ""
+"How carefully have you checked that the %1 keys really belong to the people "
+"with whom you wish to communicate:"
+msgstr[0] ""
+"तपाईँले सञ्चार गर्न चाहनुभएको व्यक्तिको नै कुञ्जी हो भनेर कति सावधानीपूर्वक "
+"जाँच गर्नुभएको छ:"
+msgstr[1] ""
+"तपाईँले सञ्चार गर्न चाहनुभएको व्यक्तिको नै %1 कुञ्जी हो भनेर कति "
+"सावधानीपूर्वक जाँच गर्नुभएको छ:"
+
+#: selectsecretkey.cpp:60
+msgid "I Will Not Answer"
+msgstr "म उत्तर दिने छैन"
+
+#: selectsecretkey.cpp:61
+msgid "I Have Not Checked at All"
+msgstr "मैले सबै जाँच गरेको छैन"
+
+#: selectsecretkey.cpp:62
+msgid "I Have Done Casual Checking"
+msgstr "मैले आकस्मिक जाँच गरेको छु"
+
+#: selectsecretkey.cpp:63
+msgid "I Have Done Very Careful Checking"
+msgstr "मैले धेरै सावधानीपूर्वक जाँच गरेको छु"
+
+#: selectsecretkey.cpp:65
+msgid "Local signature (cannot be exported)"
+msgstr "स्थानीय हस्ताक्षर (निर्यात गर्न सकिँदैन)"
+
+#: selectsecretkey.cpp:66
+msgid "Do not sign all user id's (open terminal)"
+msgstr "सबै प्रयोगकर्ता आईडी साइन नगर्नुहोस् (टर्मिनल खोल्नुहोस्)"
+
+#: tips.cpp:3
+msgid ""
+"<p>If you want to decrypt a text file, simply drag and drop it into the "
+"editor window. KGpg will do the rest. Even remote files can be dropped.</p>\n"
+"<p>Drag a public key into the editor window and kgpg will automatically "
+"import it if you want.</p>\n"
+msgstr ""
+
+#: tips.cpp:9
+msgid ""
+"<p>The easiest way to encrypt a file: simply right click on the file, and "
+"you have an encrypt option in the contextual menu.\n"
+"This works in <strong>konqueror</strong> or on your Desktop!</p>\n"
+msgstr ""
+"<p>फाइल गुप्तिकरण गर्ने सब भन्दा सजिलो तरिका: फाइलमा दायाँ क्लिक गर्नुहोस् र "
+"तपाईँसँग प्रसङ्ग मेनुमा गुप्तिकरण विकल्प हुन्छ । यसले "
+"<strong>कनक्वेरर</strong> वा तपाईँको डेस्कटपमा काम गर्दछ !</p>\n"
+
+#: tips.cpp:15
+msgid ""
+"<p>If you want to encrypt a message for several persons, just select several "
+"encryption keys by pressing the &quot;Ctrl&quot; key.</p>\n"
+msgstr ""
+
+#: tips.cpp:20
+msgid ""
+"<p><strong>You do not know anything about encryption?</strong><br>\n"
+"No problem, simply create yourself a key pair in the key management window. "
+"Then, export your public key and mail it to your friends.<br>\n"
+"Ask them to do the same and import their public keys. Finally, to send an "
+"encrypted message, type it in the KGpg editor, then click "
+"&quot;encrypt&quot;. Choose\n"
+"your friend key and click &quot;encrypt&quot; again. The message will be "
+"encrypted, ready to be sent by email.</p>\n"
+msgstr ""
+
+#: tips.cpp:28
+msgid ""
+"<p>To perform an operation on a key, open the key management window and "
+"right click on the key. A popup menu with all available options will "
+"appear.</p>\n"
+msgstr ""
+
+#: tips.cpp:33
+msgid ""
+"<p>Decrypt a file with a single mouse click on it. You will then be prompted "
+"for password, and then that is it!</p>\n"
+msgstr ""
+
+#: tips.cpp:38
+msgid ""
+"<p>If you only want to open the key manager, type this in the command line "
+"prompt: <pre>kgpg -k</pre>\n"
+"The editor can be reached by: <pre>kgpg -d</pre></p>\n"
+msgstr ""
+
+#: tips.cpp:44
+msgid ""
+"<p>To open a file in the KGpg's editor and immediately decrypt it type: "
+"<pre>kgpg -s filename</pre></p>\n"
+msgstr ""
+
+#: tips.cpp:49
+msgid ""
+"<p>If you want to change the password or expiration of a secret key simply "
+"double click on it to get the key properties dialog.</p>\n"
+msgstr ""
+
+#: tips.cpp:54
+msgid ""
+"<p>You can reach your default key by pressing &quot;Ctrl+Home&quot; in the "
+"key manager.</p>\n"
+msgstr ""
+
+#: tips.cpp:59
+msgid ""
+"<p>The number of signatures is shown as a tooltip if you hover the mouse on "
+"the size column in key manager. A key has to be expanded once for this to "
+"work.</p>\n"
+msgstr ""
+
+#: core/KGpgGroupNode.cpp:70
+#, kde-format
+msgid "1 key"
+msgid_plural "%1 keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/KGpgKeyNode.cpp:81
+#, kde-format
+msgctxt "size of signing key / size of encryption key"
+msgid "%1 / %2"
+msgstr ""
+
+#: core/KGpgKeyNode.cpp:187 core/KGpgSignableNode.cpp:48
+#, kde-format
+msgid "1 signature"
+msgid_plural "%1 signatures"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/KGpgNode.cpp:56
+#, kde-format
+msgctxt "Name of uid (comment)"
+msgid "%1 (%2)"
+msgstr ""
+
+#: core/KGpgSignNode.cpp:63
+#, kde-format
+msgid "%1 [local signature]"
+msgstr ""
+
+#: core/KGpgSubkeyNode.cpp:74
+#, kde-format
+msgid "%1 subkey"
+msgstr "%1 सहायक कुञ्जी"
+
+#: core/KGpgUatNode.cpp:43
+msgid "Photo id"
+msgstr "फोटो आईडी"
+
+#: core/convert.cpp:37
+msgctxt "Encryption algorithm"
+msgid "DSA"
+msgstr ""
+
+#: core/convert.cpp:38
+msgctxt "Encryption algorithm"
+msgid "ElGamal"
+msgstr ""
+
+#: core/convert.cpp:41
+msgctxt "Unknown algorithm"
+msgid "Unknown"
+msgstr ""
+
+#: core/convert.cpp:49
+msgid "Do not Know"
+msgstr ""
+
+#: core/convert.cpp:50
+msgid "Do NOT Trust"
+msgstr ""
+
+#: core/convert.cpp:55
+msgctxt "Unknown trust in key owner"
+msgid "Unknown"
+msgstr ""
+
+#: core/convert.cpp:63
+msgctxt "Invalid key"
+msgid "Invalid"
+msgstr ""
+
+#: core/convert.cpp:64
+msgctxt "Disabled key"
+msgid "Disabled"
+msgstr ""
+
+#: core/convert.cpp:65
+msgid "Revoked"
+msgstr ""
+
+#: core/convert.cpp:66
+msgctxt "Expired key"
+msgid "Expired"
+msgstr ""
+
+#: core/convert.cpp:67
+msgctxt "Undefined key trust"
+msgid "Undefined"
+msgstr ""
+
+#: core/convert.cpp:68
+msgctxt "No trust in key"
+msgid "None"
+msgstr ""
+
+#: core/convert.cpp:69
+msgctxt "Marginal trust in key"
+msgid "Marginal"
+msgstr ""
+
+#: core/convert.cpp:70
+msgctxt "Full trust in key"
+msgid "Full"
+msgstr ""
+
+#: core/convert.cpp:71
+msgctxt "Ultimate trust in key"
+msgid "Ultimate"
+msgstr ""
+
+#: core/convert.cpp:73
+msgctxt "Unknown trust in key"
+msgid "Unknown"
+msgstr ""
+
+#: core/kgpgkey.cpp:504
+msgctxt "Unlimited key lifetime"
+msgid "Unlimited"
+msgstr ""
+
+#: editor/kgpgeditor.cpp:89 editor/kgpgeditor.cpp:246
+#: editor/kgpgeditor.cpp:723 editor/kgpgeditor.cpp:752
+msgid "Untitled"
+msgstr "शीर्षक नभएको"
+
+#: editor/kgpgeditor.cpp:187
+msgid "&Encrypt File..."
+msgstr "फाइल गुप्तिकरण गर्नुहोस्..."
+
+#: editor/kgpgeditor.cpp:191
+msgid "&Decrypt File..."
+msgstr "फाइल गुप्तिकरण उल्टाउनुहोस्..."
+
+#: editor/kgpgeditor.cpp:195
+msgid "&Open Key Manager"
+msgstr "कुञ्जी प्रबन्धक खोल्नुहोस्"
+
+#: editor/kgpgeditor.cpp:198
+msgid "&Generate Signature..."
+msgstr "हस्ताक्षर उत्पन्न गर्नुहोस्..."
+
+#: editor/kgpgeditor.cpp:202
+msgid "&Verify Signature..."
+msgstr "हस्ताक्षर रूजु गर्नुहोस्..."
+
+#: editor/kgpgeditor.cpp:205
+msgid "&Check MD5 Sum..."
+msgstr "MD5 योगफल जाँच गर्नुहोस्..."
+
+#: editor/kgpgeditor.cpp:209
+msgid "&Unicode (utf-8) Encoding"
+msgstr "युनिकोड (utf-8) सङ्केतन"
+
+#: editor/kgpgeditor.cpp:216
+msgid "En&crypt"
+msgstr "गुप्तिकरण गर्नुहोस्"
+
+#: editor/kgpgeditor.cpp:221
+msgid "&Decrypt"
+msgstr "गुप्तिकरण उल्टाउनुहोस्"
+
+#: editor/kgpgeditor.cpp:226
+msgid "S&ign/Verify"
+msgstr "साइन/रूजु गर्नुहोस्"
+
+#: editor/kgpgeditor.cpp:250
+#, kde-format
+msgid ""
+"The document \"%1\" has changed.\n"
+"Do you want to save it?"
+msgstr ""
+"\"%1\" कागजात परिवर्तन भएको छ । \n"
+" तपाईँ यसलाई बचत गर्न चाहानुहुन्छ?"
+
+#: editor/kgpgeditor.cpp:251
+msgid "Close the document"
+msgstr "कागजात बन्द गर्नुहोस्"
+
+#: editor/kgpgeditor.cpp:298
+msgid ""
+"The document could not been saved, as the selected encoding cannot encode "
+"every unicode character in it."
+msgstr ""
+"चयन गरिएको सङ्केतनले यसमा प्रत्येक युनिकोड क्यारेक्टर सङ्केतन गर्न नसके "
+"जस्तै कागजात बचत गर्न सकेन ।"
+
+#: editor/kgpgeditor.cpp:307 editor/kgpgeditor.cpp:326
+msgid ""
+"The document could not be saved, please check your permissions and disk "
+"space."
+msgstr ""
+"कागजात बचत गर्न सकेन, कृपया तपाईँको अनुमति र डिस्क खाली स्थान जाँच गर्नुहोस् "
+"।"
+
+#: editor/kgpgeditor.cpp:352 editor/kgpgeditor.cpp:362
+#, kde-format
+msgid "Overwrite existing file %1?"
+msgstr "अवस्थित %1 फाइल अधिलेखन गर्नुहुन्छ ?"
+
+#: editor/kgpgeditor.cpp:473 editor/kgpgeditor.cpp:481
+#: editor/kgpgeditor.cpp:619 editor/kgpgeditor.cpp:660
+#: editor/kgpgeditor.cpp:693
+msgid "*|All Files"
+msgstr "*|सबै फाइल"
+
+#: editor/kgpgeditor.cpp:473
+msgid "Open File to Encode"
+msgstr "सङ्केतन गर्न फाइल खोल्नुहोस्"
+
+#: editor/kgpgeditor.cpp:481
+msgid "Open File to Decode"
+msgstr "डिकोड गर्न फाइल खोल्नुहोस्"
+
+#: editor/kgpgeditor.cpp:495
+msgid "Decrypt File To"
+msgstr "यसमा फाइल गुप्तिकरण उल्टाउनुहोस्"
+
+#: editor/kgpgeditor.cpp:619
+msgid "Open File to Sign"
+msgstr "साइन गर्न फाइल खोल्नुहोस्"
+
+#: editor/kgpgeditor.cpp:660 editor/kgpgeditor.cpp:693
+msgid "Open File to Verify"
+msgstr "रूजु गर्न फाइल खोल्नुहोस्"
+
+#: editor/kgpgmd5widget.cpp:28
+msgid "MD5 Checksum"
+msgstr "MD5 चेकसम"
+
+#: editor/kgpgmd5widget.cpp:31
+msgid "Compare MD5 with Clipboard"
+msgstr "MD5 लाई क्लिपबोर्डसँग तुलना गर्नुहोस्"
+
+#: editor/kgpgmd5widget.cpp:46
+#, kde-format
+msgid "MD5 sum for <b>%1</b> is:"
+msgstr "<b>%1</b> का लागि MD5 योगफल:"
+
+#: editor/kgpgmd5widget.cpp:59
+msgid "<b>Unknown status</b>"
+msgstr "<b>अज्ञात वस्तुस्थिति</b>"
+
+#: editor/kgpgmd5widget.cpp:84
+msgid "Clipboard content is not a MD5 sum."
+msgstr "क्लिपबोर्ड सामग्री MD5 योगफल होइन ।"
+
+#: editor/kgpgmd5widget.cpp:88
+msgid "<b>Correct checksum</b>, file is ok."
+msgstr "<b>चेकसम सुधार गर्नुहोस्</b>, फाइल ठीक छ ।"
+
+#: editor/kgpgmd5widget.cpp:94
+msgid "<b>Wrong checksum, <em>file corrupted</em></b>"
+msgstr ""
+
+#: editor/kgpgtextedit.cpp:85
+msgid ""
+"<qt><b>Remote file dropped</b>.<br />The remote file will now be copied to a "
+"temporary file to process requested operation. This temporary file will be "
+"deleted after operation.</qt>"
+msgstr ""
+
+#: editor/kgpgtextedit.cpp:90
+msgid "Could not download file."
+msgstr "फाइल डाउनलोड गर्न सकेन ।"
+
+#: editor/kgpgtextedit.cpp:224
+msgid "Unable to read file."
+msgstr "फाइल पढ्न अक्षम ।"
+
+#: editor/kgpgtextedit.cpp:261
+msgid ""
+"<qt>This file is a <b>public</b> key.\n"
+"Please use kgpg key management to import it.</qt>"
+msgstr ""
+
+#: editor/kgpgtextedit.cpp:264
+msgid ""
+"<qt>This file is a <b>private</b> key.\n"
+"Please use kgpg key management to import it.</qt>"
+msgstr ""
+
+#: editor/kgpgtextedit.cpp:313
+msgid "Encryption failed."
+msgstr "गुप्तिकरण असफल ।"
+
+#: editor/kgpgtextedit.cpp:349
+msgid "Signing not possible: bad passphrase or missing key"
+msgstr "साइनिङ सम्भव छैन: खराब पासफ्रेज वा हराइरहेको कुञ्जी"
+
+#: editor/kgpgtextedit.cpp:378
+msgid "Import key in your list"
+msgstr "तपाईँको सूचीमा कुञ्जी आयात गर्नुहोस्"
+
+#: editor/kgpgtextedit.cpp:381
+msgid "Do &Not Import"
+msgstr "आयात नगर्नुहोस्"
+
+#: editor/kgpgtextedit.cpp:382
+msgid "Will not import this key in your list"
+msgstr "यो कुञ्जी तपाईँको सूचीमा आयत हुने छैन"
+
+#: editor/kgpgtextedit.cpp:384
+msgid "Missing Key"
+msgstr "हराइरहेको कुञ्जी"
+
+#: model/keylistproxymodel.cpp:95
+#, kde-format
+msgctxt "ID: Name"
+msgid "%1: %2"
+msgstr ""
+
+#: model/keylistproxymodel.cpp:97
+#, kde-format
+msgctxt "ID: Name <Email>"
+msgid "%1: %2 &lt;%3&gt;"
+msgstr ""
+
+#: model/keylistproxymodel.cpp:102
+#, kde-format
+msgctxt "Name <Email>: ID"
+msgid "%1 &lt;%2&gt;: %3"
+msgstr ""
+
+#: model/kgpgitemmodel.cpp:198 model/kgpgitemmodel.cpp:201
+#, kde-format
+msgid "1 Key"
+msgid_plural "%1 Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: model/kgpgitemmodel.cpp:202
+#, kde-format
+msgid "1 Group"
+msgid_plural "%1 Groups"
+msgstr[0] ""
+msgstr[1] ""
+
+#: model/kgpgitemmodel.cpp:204
+#, kde-format
+msgctxt "%1 = something like 7 keys, %2 = something like 2 groups"
+msgid "%1, %2"
+msgstr ""
+
+#: model/kgpgitemmodel.cpp:289
+msgid "ID"
+msgstr "आईडी"
+
+#: model/kgpgsearchresultmodel.cpp:217
+#, kde-format
+msgctxt ""
+"example: ID abc123xy, 1024-bit RSA key, created Jan 12 2009, revoked"
+msgid "ID %1, %2-bit %3 key, created %4, revoked"
+msgstr ""
+
+#: model/kgpgsearchresultmodel.cpp:222
+#, kde-format
+msgctxt "example: ID abc123xy, 1024-bit RSA key, created Jan 12 2009"
+msgid "ID %1, %2-bit %3 key, created %4"
+msgstr ""
+
+#: transactions/kgpgaddphoto.cpp:41
+msgid "This image is very large. Use it anyway?"
+msgstr "यो छवि धरै ठूलो छ । जसरी भए पनि यसको प्रयोग गर्नुहुन्छ ?"
+
+#: transactions/kgpgaddphoto.cpp:41
+msgid "Use Anyway"
+msgstr "जसरी भए पनि प्रयोग गर्नुहोस्"
+
+#: transactions/kgpgaddphoto.cpp:41
+msgid "Do Not Use"
+msgstr "प्रयोग नगर्नुहोस्"
+
+#: transactions/kgpgchangepass.cpp:61
+#, kde-format
+msgid "Enter old passphrase for <b>%1</b>"
+msgstr "<b>%1</b> का लागि पुरानो पासफ्रेज प्रविष्ट गर्नुहोस्"
+
+#: transactions/kgpgchangepass.cpp:64
+#, kde-format
+msgid ""
+"<qt>Enter new passphrase for <b>%1</b><br />If you forget this passphrase "
+"all your encrypted files and messages will be inaccessible.</qt>"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:58
+#, kde-format
+msgid "Generating New Key for %1"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:94
+#, kde-format
+msgid ""
+"<p><b>Enter passphrase for %1 &lt;%2&gt;</b>:<br />Passphrase should include "
+"non alphanumeric characters and random sequences.</p>"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:96
+#, kde-format
+msgid ""
+"<p><b>Enter passphrase for %1</b>:<br />Passphrase should include non "
+"alphanumeric characters and random sequences.</p>"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:110
+msgid "Generating Key"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:122
+msgid "Generating prime numbers"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:124
+msgid "Generating DSA key"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:126
+msgid "Generating ElGamal key"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:128
+msgid "Waiting for entropy"
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:133
+msgid ""
+"The entropy pool ran empty. The key generation process is stalled until "
+"enough entropy is present. You can generate entropy e.g. by moving the mouse "
+"or typing at the keyboard. The easiest way is by using another application "
+"until the key generation continues."
+msgstr ""
+
+#: transactions/kgpggeneratekey.cpp:159
+#, kde-format
+msgid "Key %1 generated"
+msgstr ""
+
+#: transactions/kgpgimport.cpp:204
+msgid ""
+"The import result string has an unsupported format.<br />Please see the "
+"detailed log for more information."
+msgstr ""
+
+#: transactions/kgpgimport.cpp:206
+#, kde-format
+msgid "<qt>%1 key processed.</qt>"
+msgid_plural "<qt>%1 keys processed.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:209
+#, kde-format
+msgid "<qt><br />One key without ID.</qt>"
+msgid_plural "<qt><br />%1 keys without ID.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:211
+#, kde-format
+msgid "<qt><br /><b>One key imported:</b></qt>"
+msgid_plural "<qt><br /><b>%1 keys imported:</b></qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:213
+#, kde-format
+msgid "<qt><br />One RSA key imported.</qt>"
+msgid_plural "<qt><br />%1 RSA keys imported.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:215
+#, kde-format
+msgid "<qt><br />One key unchanged.</qt>"
+msgid_plural "<qt><br />%1 keys unchanged.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:217
+#, kde-format
+msgid "<qt><br />One user ID imported.</qt>"
+msgid_plural "<qt><br />%1 user IDs imported.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:219
+#, kde-format
+msgid "<qt><br />One subkey imported.</qt>"
+msgid_plural "<qt><br />%1 subkeys imported.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:221
+#, kde-format
+msgid "<qt><br />One signature imported.</qt>"
+msgid_plural "<qt><br />%1 signatures imported.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:223
+#, kde-format
+msgid "<qt><br />One revocation certificate imported.</qt>"
+msgid_plural "<qt><br />%1 revocation certificates imported.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:225
+#, kde-format
+msgid "<qt><br />One secret key processed.</qt>"
+msgid_plural "<qt><br />%1 secret keys processed.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:227
+#, kde-format
+msgid "<qt><br /><b>One secret key imported.</b></qt>"
+msgid_plural "<qt><br /><b>%1 secret keys imported.</b></qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:229
+#, kde-format
+msgid "<qt><br />One secret key unchanged.</qt>"
+msgid_plural "<qt><br />%1 secret keys unchanged.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:231
+#, kde-format
+msgid "<qt><br />One secret key not imported.</qt>"
+msgid_plural "<qt><br />%1 secret keys not imported.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:234
+msgid ""
+"<qt><br /><b>You have imported a secret key.</b> <br />Please note that "
+"imported secret keys are not trusted by default.<br />To fully use this "
+"secret key for signing and encryption, you must edit the key (double click "
+"on it) and set its trust to Full or Ultimate.</qt>"
+msgstr ""
+
+#: transactions/kgpgimport.cpp:241
+msgid ""
+"No key imported.<br />Please see the detailed log for more information."
+msgstr ""
+
+#: transactions/kgpgimport.cpp:278
+msgid "New Key"
+msgid_plural "New Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:281
+msgid "Key with new User Id"
+msgid_plural "Keys with new User Ids"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:284
+msgid "Key with new Signatures"
+msgid_plural "Keys with new Signatures"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:287
+msgid "Key with new Subkeys"
+msgid_plural "Keys with new Subkeys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:290
+msgid "New Private Key"
+msgid_plural "New Private Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgimport.cpp:307
+msgid "Unchanged Key"
+msgid_plural "Unchanged Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: transactions/kgpgkeyservertransaction.cpp:93
+msgid "Keyserver"
+msgstr ""
+
+#: transactions/kgpgkeyservertransaction.cpp:93
+msgid "<b>Connecting to the server...</b>"
+msgstr "<b>सर्भरमा जडान गर्दैछ...</b>"
+
+#: transactions/kgpgtransaction.cpp:128
+msgid "Requesting Passphrase"
+msgstr ""
+
+#: transactions/kgpgtransactionjob.cpp:39
+msgctxt "Job is started up"
+msgid "Startup"
+msgstr ""
+
+#: transactions/kgpgtransactionjob.cpp:65
+msgctxt "State of operation as in status"
+msgid "State"
+msgstr ""

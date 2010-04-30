@@ -1,0 +1,206 @@
+# translation of libksieve.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libksieve\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2008-10-09 06:31+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:47+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: shared/error.cpp:110
+msgid "Parse error: Carriage Return (CR) without Line Feed (LF)"
+msgstr "पद वर्णन त्रुटि: रेखा भरण (एलएफ) बिना क्यारिज फिर्ता (सीआर)"
+
+#: shared/error.cpp:113
+msgid ""
+"Parse error: Unquoted Slash ('/') without Asterisk ('*'). Broken Comment?"
+msgstr ""
+"पद वर्णन त्रुटि: एस्टेरिक ('*') बिनाको अनकोटेड स्ल्यास ('/') । बिग्रेको "
+"टिप्पणी ?"
+
+#: shared/error.cpp:117
+msgid "Parse error: Illegal Character"
+msgstr "पद वर्णन त्रुटि: गैरकानुनी क्यारेक्टर"
+
+#: shared/error.cpp:120
+msgid "Parse error: Unexpected Character, probably a missing space?"
+msgstr ""
+"पद वर्णन त्रुटि: अनपेक्षित क्यारेक्टर, सम्भवत: खाली स्थान हराइरहेको छ ?"
+
+#: shared/error.cpp:123
+msgid "Parse error: Tag Name has leading Digits"
+msgstr "पद वर्णन त्रुटि: ट्याग नाम अगाडि दशमलव छ ।"
+
+#: shared/error.cpp:126
+msgid ""
+"Parse error: Only whitespace and #comments may follow \"text:\" on the same "
+"line"
+msgstr ""
+"पद वर्णन त्रुटि: केवल सेतो खाली स्थान र #टिप्पणीले मात्र उही रेखामा \"पाठ:\" "
+"अनुशरण गरेको हुन सक्छ"
+
+#: shared/error.cpp:130
+#, kde-format
+msgid "Parse error: Number out of Range (must be smaller than %1)"
+msgstr "पद वर्णन त्रुटि: सङ्ख्या दायरा भन्दा बाहिर (%1 भन्दा सानो हुनुपर्दछ)"
+
+#: shared/error.cpp:133
+msgid "Parse error: Invalid UTF-8 sequence"
+msgstr "पद वर्णन त्रुटि: अवैध UTF-8 अनुक्रम"
+
+#: shared/error.cpp:136
+msgid ""
+"Parse error: Premature end of Multiline String (did you forget the '.'?)"
+msgstr ""
+"पद वर्णन त्रुटि: बहुविध रेखा स्ट्रिङको असामयिक अन्त्य (तपाईँले '.' "
+"बिर्सनुभयो ?)"
+
+#: shared/error.cpp:139
+msgid "Parse error: Premature end of Quoted String (missing closing '\"')"
+msgstr ""
+"पद वर्णन त्रुटि: उद्वरण स्ट्रिङको असामयिक अन्त्य ( '\"' बन्द गर्ने छुटेको छ)"
+
+#: shared/error.cpp:142
+msgid "Parse error: Premature end of String List (missing closing ']')"
+msgstr ""
+"पद वर्णन त्रुटि: स्ट्रिङ सूचीको असामयिक अन्त्य (']' बन्द गर्ने छुटेको छ)"
+
+#: shared/error.cpp:145
+msgid "Parse error: Premature end of Test List (missing closing ')')"
+msgstr ""
+"पद वर्णन त्रुटि: परीक्षण सूचीको असामयिक अन्त्य (')' बन्द गर्ने छुटेको छ)"
+
+#: shared/error.cpp:148
+msgid "Parse error: Premature end of Block (missing closing '}')"
+msgstr "पद वर्णन त्रुटि: खण्डको असामयिक अन्त्य ('}' बन्द गर्ने छुटेको छ)"
+
+#: shared/error.cpp:151
+msgid "Parse error: Missing Whitespace"
+msgstr "पद वर्णन त्रुटि: सेतो खाली स्थान छुटेको छ"
+
+#: shared/error.cpp:154
+msgid "Parse error: Missing ';' or Block"
+msgstr "पद वर्णन त्रुटि: ';' वा ब्लक छुटेको छ"
+
+#: shared/error.cpp:157
+msgid "Parse error: Expected ';' or '{', got something else"
+msgstr "पद वर्णन त्रुटि: ';' वा '{' अपेक्षा गरेको हो तर अरू नै प्राप्त भयो"
+
+#: shared/error.cpp:160 shared/error.cpp:175
+msgid "Parse error: Expected Command, got something else"
+msgstr "पद वर्णन त्रुटि: आदेश अपेक्षा गरेको हो, अरू नै प्राप्त भयो"
+
+#: shared/error.cpp:163
+msgid "Parse error: Trailing, Leading or Duplicate Commas in String List"
+msgstr ""
+"पद वर्णन त्रुटि: स्ट्रिङ सूचीमा पछाडि, अगाडि वा नक्कल अल्पविरामहरू छन्"
+
+#: shared/error.cpp:166
+msgid "Parse error: Trailing, Leading or Duplicate Commas in Test List"
+msgstr "पद वर्णन त्रुटि: परीक्षण सूचीमा पछाडि, अगाडि, वा नक्कल अल्पविराम छन्"
+
+#: shared/error.cpp:169
+msgid "Parse error: Missing ',' between Strings in String List"
+msgstr "पद वर्णन त्रुटि: स्ट्रिङ र स्ट्रिङ सूचीको बिचमा ',' छुटेको छ"
+
+#: shared/error.cpp:172
+msgid "Parse error: Missing ',' between Tests in Test List"
+msgstr "पद वर्णन त्रुटि: परीक्षण र परीक्षण सूचीको बिचमा ',' छुटेको छ"
+
+#: shared/error.cpp:178
+msgid "Parse error: Only Strings allowed in String Lists"
+msgstr "पद वर्णन त्रुटि: स्ट्रिङ सूचीमा स्ट्रिङलाई मात्र अनुमति छ"
+
+#: shared/error.cpp:181
+msgid "Parse error: Only Tests allowed in Test Lists"
+msgstr "पद वर्णन त्रुटि: परीक्षण सूचीमा परीक्षणहरूलाई मात्र अनुमति छ"
+
+#: shared/error.cpp:186
+msgid "\"require\" must be first command"
+msgstr "\"require\" पहिलो आदेश हुनुपर्दछ"
+
+#: shared/error.cpp:189
+#, kde-format
+msgid "\"require\" missing for command \"%1\""
+msgstr "\"%1\" आदेशमा \"require\" छुटेको छ"
+
+#: shared/error.cpp:192
+#, kde-format
+msgid "\"require\" missing for test \"%1\""
+msgstr "\"%1\" परीक्षणका लागि \"require\" छुटेको छ"
+
+#: shared/error.cpp:195
+#, kde-format
+msgid "\"require\" missing for comparator \"%1\""
+msgstr "\"%1\" तुलनाका लागि \"require\" छुटेको छ"
+
+#: shared/error.cpp:198
+#, kde-format
+msgid "Command \"%1\" not supported"
+msgstr "\"%1\" आदेश समर्थन गर्दैन"
+
+#: shared/error.cpp:201
+#, kde-format
+msgid "Test \"%1\" not supported"
+msgstr "\"%1\" परीक्षण समर्थन गर्दैन"
+
+#: shared/error.cpp:204
+#, kde-format
+msgid "Comparator \"%1\" not supported"
+msgstr "\"%1\" तुलनाकारी समर्थन गर्दैन"
+
+#: shared/error.cpp:207
+#, kde-format
+msgid "Site Policy Limit Violation: Test nesting too deep (max. %1)"
+msgstr "साइट नीति सीमा उल्लघन: नेस्टिङ गहिराई परीक्षण (अधिकतम %1)"
+
+#: shared/error.cpp:210
+#, kde-format
+msgid "Site Policy Limit Violation: Block nesting too deep (max. %1)"
+msgstr "साइट नीति सीमा उल्लघन: गहिराईमा नेस्टिङ निषेध (अधिकतम %1)"
+
+#: shared/error.cpp:213
+#, kde-format
+msgid "Invalid Argument \"%1\" to \"%2\""
+msgstr "\"%2\" मा \"%1\" अवैध तर्क"
+
+#: shared/error.cpp:216
+#, kde-format
+msgid "Conflicting Arguments: \"%1\" and \"%2\""
+msgstr "बाझिएका तर्क: \"%1\" र \"%2\""
+
+#: shared/error.cpp:219
+#, kde-format
+msgid "Argument \"%1\" Repeated"
+msgstr "\"%1\" तर्क दोहोरियो"
+
+#: shared/error.cpp:222
+#, kde-format
+msgid "Command \"%1\" violates command ordering constraints"
+msgstr "\"%1\" आदेशले आदेश क्रम अवरोध उल्लघन गर्दछ"
+
+#: shared/error.cpp:227
+#, kde-format
+msgid "Incompatible Actions \"%1\" and \"%2\" requested"
+msgstr "नमिल्दो कार्य \"%1\" र \"%2\" अनुरोध गरियो"
+
+#: shared/error.cpp:230
+msgid "Mail Loop detected"
+msgstr "मेल लुप पत्ता लाग्यो"
+
+#: shared/error.cpp:233
+#, kde-format
+msgid "Site Policy Limit Violation: Too many Actions requested (max. %1)"
+msgstr "साइट नीति सीमा उल्लघन: धेरै कार्य अनुरोध गरियो (अधिकतम %1)"
+
+#: shared/error.cpp:236
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"

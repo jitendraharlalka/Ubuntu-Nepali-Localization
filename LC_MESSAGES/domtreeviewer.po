@@ -1,0 +1,448 @@
+# translation of domtreeviewer.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: domtreeviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-12 23:08+0000\n"
+"PO-Revision-Date: 2010-04-05 16:51+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:43+0000\n"
+
+#: domtreecommands.cpp:33
+msgid "No error"
+msgstr "त्रुटि छैन"
+
+#: domtreecommands.cpp:34
+msgid "Index size exceeded"
+msgstr "अनुक्रमणिका साइज विस्तार गरियो"
+
+#: domtreecommands.cpp:35
+msgid "DOMString size exceeded"
+msgstr "डम स्ट्रिङ साइज विस्तार गरियो"
+
+#: domtreecommands.cpp:36
+msgid "Hierarchy request error"
+msgstr "सोपानक्रम अनुरोध त्रुटि"
+
+#: domtreecommands.cpp:37
+msgid "Wrong document"
+msgstr "गलत कागजात"
+
+#: domtreecommands.cpp:38
+msgid "Invalid character"
+msgstr "अमान्य क्यारेक्टर"
+
+#: domtreecommands.cpp:39
+msgid "No data allowed"
+msgstr "डेटा अनुमति छैन"
+
+#: domtreecommands.cpp:40
+msgid "No modification allowed"
+msgstr "कुनै परिमार्जन अनुमति छैन"
+
+#: domtreecommands.cpp:41
+msgid "Not found"
+msgstr "फेला परेन"
+
+#: domtreecommands.cpp:42
+msgid "Not supported"
+msgstr "समर्थित छैन"
+
+#: domtreecommands.cpp:43
+msgid "Attribute in use"
+msgstr "प्रयोग भएको विशेषता"
+
+#: domtreecommands.cpp:44
+msgid "Invalid state"
+msgstr "अवैध स्थिति"
+
+#: domtreecommands.cpp:45
+msgid "Syntax error"
+msgstr "वाक्य संरचना त्रुटि"
+
+#: domtreecommands.cpp:46
+msgid "Invalid modification"
+msgstr "अवैध परिमार्जन"
+
+#: domtreecommands.cpp:47
+msgid "Namespace error"
+msgstr "नामस्थान त्रुटि"
+
+#: domtreecommands.cpp:48
+msgid "Invalid access"
+msgstr "अवैध पहुँच"
+
+#: domtreecommands.cpp:56
+#, kde-format
+msgid "Unknown Exception %1"
+msgstr "अज्ञात अपवाद %1"
+
+#: domtreecommands.cpp:296
+msgid "Add attribute"
+msgstr "विशेषता थप्नुहोस्"
+
+#: domtreecommands.cpp:326
+msgid "Change attribute value"
+msgstr "विशेषता मान परिवर्तन गर्नुहोस्"
+
+#: domtreecommands.cpp:357
+msgid "Remove attribute"
+msgstr "विशेषता हटाउनुहोस्"
+
+#: domtreecommands.cpp:389
+msgid "Rename attribute"
+msgstr "विशेषता पुन: नामकरण गर्नुहोस्"
+
+#: domtreecommands.cpp:425
+msgid "Change textual content"
+msgstr "पाठ्य सामग्री परिवर्तन गर्नुहोस्"
+
+#: domtreecommands.cpp:487
+msgid "Insert node"
+msgstr "नोड घुसाउनुहोस्"
+
+#: domtreecommands.cpp:515
+msgid "Remove node"
+msgstr "नोड हटाउनुहोस्"
+
+#: domtreecommands.cpp:561
+msgid "Move node"
+msgstr "नोड सार्नुहोस्"
+
+#: domtreeview.cpp:70
+msgid "Edit Element"
+msgstr "तत्व सम्पादन गर्नुहोस्"
+
+#: domtreeview.cpp:72 domtreeview.cpp:92
+msgid "&Append as Child"
+msgstr "शाखाको रूपमा थप्नुहोस्"
+
+#: domtreeview.cpp:73 domtreeview.cpp:93
+msgid "Insert &Before Current"
+msgstr "हालको अघि घुसाउनुहोस्"
+
+#: domtreeview.cpp:90
+msgid "Edit Text"
+msgstr "पाठ सम्पादन गर्नुहोस्"
+
+#: domtreeview.cpp:110
+msgid "Edit Attribute"
+msgstr "विशेषता सम्पादन गर्नुहोस्"
+
+#: domtreeview.cpp:172
+#, kde-format
+msgid "DOM Tree for %1"
+msgstr "%1 का लागि डम ट्री"
+
+#. i18n: file: domtreeviewbase.ui:115
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listView)
+#: domtreeview.cpp:172 rc.cpp:18
+msgid "DOM Tree"
+msgstr "डम ट्री"
+
+#: domtreeview.cpp:513
+msgid "Move Nodes"
+msgstr "नोडहरू सार्नुहोस्"
+
+#: domtreeview.cpp:579
+msgid "Save DOM Tree as HTML"
+msgstr "एचटीएमएलको रूपमा डम बचत गर्नुहोस्"
+
+#: domtreeview.cpp:584
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: domtreeview.cpp:585
+#, kde-format
+msgid ""
+"Do you really want to overwrite: \n"
+"%1?"
+msgstr ""
+"तपाईँ साच्चिकै अधिलेखन गर्न चाहनुहुन्छ: \n"
+"%1?"
+
+#: domtreeview.cpp:586
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: domtreeview.cpp:599
+msgid "Unable to Open File"
+msgstr "फाइल खोल्न असक्षम भयो"
+
+#: domtreeview.cpp:600
+#, kde-format
+msgid ""
+"Unable to open \n"
+" %1 \n"
+" for writing"
+msgstr ""
+"लेख्नका लागि \n"
+" %1 \n"
+"खोल्न असक्षम भयो"
+
+#: domtreeview.cpp:604
+msgid "Invalid URL"
+msgstr "अवैध यूआरएल"
+
+#: domtreeview.cpp:605
+#, kde-format
+msgid ""
+"This URL \n"
+" %1 \n"
+" is not valid."
+msgstr ""
+"यो यूआरएल \n"
+" %1 \n"
+"वैध छैन ।"
+
+#: domtreeview.cpp:822
+msgid "Delete Nodes"
+msgstr "नोडहरू मेट्नुहोस्"
+
+#: domtreeview.cpp:1033
+msgid "<Click to add>"
+msgstr "<Click to add>"
+
+#: domtreeview.cpp:1365
+msgid "Delete Attributes"
+msgstr "विशेषताहरू मेट्नुहोस्"
+
+#: domtreewindow.cpp:62
+msgid "Message Log"
+msgstr "सन्देश लग"
+
+#: domtreewindow.cpp:161
+msgid "Pure DOM Tree"
+msgstr ""
+
+#: domtreewindow.cpp:167
+msgid "Show DOM Attributes"
+msgstr ""
+
+#: domtreewindow.cpp:174
+msgid "Highlight HTML"
+msgstr ""
+
+#: domtreewindow.cpp:182
+msgid "Show Message Log"
+msgstr "सन्देश लग देखाउनुहोस्"
+
+#: domtreewindow.cpp:194
+msgid "Expand"
+msgstr "विस्तार गर्नुहोस्"
+
+#: domtreewindow.cpp:197
+msgid "Increase expansion level"
+msgstr "विस्तार तह बढाउनुहोस्"
+
+#: domtreewindow.cpp:200
+msgid "Collapse"
+msgstr "संक्षिप्त गर्नुहोस्"
+
+#: domtreewindow.cpp:203
+msgid "Decrease expansion level"
+msgstr "विस्तार तह घटाउनुहोस्"
+
+#: domtreewindow.cpp:209 domtreewindow.cpp:227
+msgid "&Delete"
+msgstr "मेटाउनुहोस्"
+
+#: domtreewindow.cpp:212
+msgid "Delete nodes"
+msgstr "नोडहरू मेट्नुहोस्"
+
+#: domtreewindow.cpp:217
+msgid "New &Element..."
+msgstr ""
+
+#: domtreewindow.cpp:221
+msgid "New &Text Node..."
+msgstr ""
+
+#: domtreewindow.cpp:230
+msgid "Delete attributes"
+msgstr "विशेषताहरू मेट्नुहोस्"
+
+#: plugin_domtreeviewer.cpp:24
+msgid "Show &DOM Tree"
+msgstr "डम ट्री देखाउनुहोस्"
+
+#. i18n: file: attributeeditwidget.ui:24
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:3
+msgid "Attribute &name:"
+msgstr "विशेषता नाम:"
+
+#. i18n: file: attributeeditwidget.ui:42
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:6
+msgid "Attribute &value:"
+msgstr "विशेषता मान:"
+
+#. i18n: file: domtreeviewbase.ui:19
+#. i18n: ectx: property (windowTitle), widget (QWidget, DOMTreeViewBase)
+#: rc.cpp:9
+msgid "DOM Tree Viewer"
+msgstr "डम ट्री द्रष्टा"
+
+#. i18n: file: domtreeviewbase.ui:61
+#. i18n: ectx: property (text), widget (KPushButton, messageListBtn)
+#: rc.cpp:12
+msgid "&List"
+msgstr "सूची"
+
+#. i18n: file: domtreeviewbase.ui:92
+#. i18n: ectx: property (text), widget (KPushButton, messageHideBtn)
+#: rc.cpp:15
+msgid "H&ide"
+msgstr "लुकाउनुहोस्"
+
+#. i18n: file: domtreeviewbase.ui:127
+#. i18n: ectx: attribute (title), widget (QWidget, domTab)
+#: rc.cpp:21
+msgid "DOM Node"
+msgstr ""
+
+#. i18n: file: domtreeviewbase.ui:138
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: rc.cpp:24
+msgid "Node &value:"
+msgstr "नोड मान:"
+
+#. i18n: file: domtreeviewbase.ui:151
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: rc.cpp:27
+msgid "Node &type:"
+msgstr "नोड प्रकार:"
+
+#. i18n: file: domtreeviewbase.ui:164
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:30
+msgid "Namespace &URI:"
+msgstr "नामस्थान यूआरआई:"
+
+#. i18n: file: domtreeviewbase.ui:177
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:33
+msgid "Node &name:"
+msgstr "नोड नाम:"
+
+#. i18n: file: domtreeviewbase.ui:249
+#. i18n: ectx: property (text), widget (QTreeWidget, nodeAttributes)
+#: rc.cpp:36
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: domtreeviewbase.ui:254
+#. i18n: ectx: property (text), widget (QTreeWidget, nodeAttributes)
+#. i18n: file: domtreeviewbase.ui:344
+#. i18n: ectx: property (text), widget (QTreeWidget, cssProperties)
+#: rc.cpp:39 rc.cpp:51
+msgid "Value"
+msgstr "मान"
+
+#. i18n: file: domtreeviewbase.ui:287
+#. i18n: ectx: property (text), widget (QPushButton, applyContent)
+#: rc.cpp:42
+msgid "Appl&y"
+msgstr "लागू गर्नुहोस्"
+
+#. i18n: file: domtreeviewbase.ui:320
+#. i18n: ectx: attribute (title), widget (QWidget, cssTab)
+#: rc.cpp:45
+msgid "Computed Style"
+msgstr ""
+
+#. i18n: file: domtreeviewbase.ui:339
+#. i18n: ectx: property (text), widget (QTreeWidget, cssProperties)
+#: rc.cpp:48
+msgid "Property"
+msgstr ""
+
+#. i18n: file: domtreeviewbase.ui:353
+#. i18n: ectx: attribute (title), widget (QWidget, styleSheetsTab)
+#: rc.cpp:54
+msgid "Stylesheets"
+msgstr ""
+
+#. i18n: file: domtreeviewbase.ui:366
+#. i18n: ectx: property (text), widget (QTreeWidget, styleSheetsTree)
+#: rc.cpp:57
+msgid "1"
+msgstr "१"
+
+#. i18n: file: domtreeviewerui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:60
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: domtreeviewerui.rc:6
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:63
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#. i18n: file: domtreeviewerui.rc:8
+#. i18n: ectx: Menu (view)
+#: rc.cpp:66
+msgid "&View"
+msgstr ""
+
+#. i18n: file: domtreeviewerui.rc:19
+#. i18n: ectx: Menu (go)
+#: rc.cpp:69
+msgid "&Go"
+msgstr "जानुहोस्"
+
+#. i18n: file: domtreeviewerui.rc:23
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:72
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: domtreeviewerui.rc:25
+#. i18n: ectx: ToolBar (treeToolBar)
+#: rc.cpp:75
+msgid "Tree Toolbar"
+msgstr "ट्री उपकरणपट्टी"
+
+#. i18n: file: elementeditwidget.ui:24
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:78
+msgid "Element &name:"
+msgstr "तत्व नाम:"
+
+#. i18n: file: elementeditwidget.ui:47
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:81
+msgid "Element &namespace:"
+msgstr "तत्व नामस्थान:"
+
+#. i18n: file: plugin_domtreeviewer.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:84
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: plugin_domtreeviewer.rc:8
+#. i18n: ectx: ToolBar (extraToolBar)
+#: rc.cpp:87
+msgid "Extra Toolbar"
+msgstr "अतिरिक्त उपकरणपट्टी"
+
+#. i18n: file: texteditwidget.ui:19
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:90
+msgid "Edit &text for text node:"
+msgstr "पाठ नोडका लागि पाठ सम्पादन गर्नुहोस्:"

@@ -1,0 +1,1682 @@
+# translation of kformdesigner.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kformdesigner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 08:47+0000\n"
+"PO-Revision-Date: 2009-07-07 19:01+0000\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:24+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:3 rc.cpp:24 rc.cpp:57 rc.cpp:63 rc.cpp:84
+msgid "&Widgets"
+msgstr "विजेट"
+
+#: rc.cpp:6 rc.cpp:27 rc.cpp:60 rc.cpp:66 rc.cpp:87
+msgid "&Format"
+msgstr "ढाँचा"
+
+#: rc.cpp:12 rc.cpp:33 rc.cpp:72 rc.cpp:93
+msgid "Containers"
+msgstr "कन्टेनर"
+
+#: rc.cpp:15 rc.cpp:36 rc.cpp:75 rc.cpp:96
+msgid "Widgets"
+msgstr "विजेट"
+
+#: rc.cpp:18 rc.cpp:39 rc.cpp:78 rc.cpp:99
+msgid "Tools Toolbar"
+msgstr "उपकरण उपकरणपट्टी"
+
+#: rc.cpp:21 rc.cpp:42 rc.cpp:81 rc.cpp:102
+msgid "Format Toolbar"
+msgstr "ढाँचा उपकरणपट्टी"
+
+#: formmanager.cpp:872 widgetpropertyset.cpp:256
+msgid "Multiple Widgets"
+msgstr "बहु विजेट"
+
+#: widgetpropertyset.cpp:679
+msgid ""
+"Could not rename widget \"%1\" to \"%2\" because \"%3\" is not a valid name "
+"(identifier) for a widget.\n"
+msgstr ""
+"\"%1\" to \"%2\" विजेट पुन: नामकरण गर्न सकिँदैन किनभने \"%3\" विजेटका लागि "
+"वैध नाम (परिचायक) होइन।\n"
+
+#: widgetpropertyset.cpp:690
+msgid ""
+"Could not rename widget \"%1\" to \"%2\" because a widget with the name "
+"\"%3\" already exists.\n"
+msgstr ""
+"\"%1\" देखि \"%2\" सम्म विजेट पुन: नामकरण गर्न सकिँदैन किनभने \"%3\" सँगको "
+"विजेट नाम पहिले नै अवस्थित छ ।\n"
+
+#: widgetpropertyset.cpp:803
+msgid ""
+"_: Translators: please keep this string short (less than 20 chars)\n"
+"Hor. Alignment"
+msgstr "तेर्सो पङ्क्तिबद्वता"
+
+#: widgetpropertyset.cpp:804
+msgid "Horizontal Alignment"
+msgstr "तेर्सो पङ्क्तिबद्वता"
+
+#: widgetpropertyset.cpp:825
+msgid ""
+"_: Translators: please keep this string short (less than 20 chars)\n"
+"Ver. Alignment"
+msgstr "ठाडो पङ्क्तिबद्वता"
+
+#: widgetpropertyset.cpp:826
+msgid "Vertical Alignment"
+msgstr "ठाडो पङ्क्तिबद्वता"
+
+#: widgetpropertyset.cpp:840
+msgid "Word Break"
+msgstr "शब्द बिच्छेद"
+
+#: widgetpropertyset.cpp:909
+msgid "Container's Layout"
+msgstr "कन्टेनरको सजावट"
+
+#: widgetpropertyset.cpp:915
+msgid "Layout Margin"
+msgstr "सजावट सीमान्त"
+
+#: widgetpropertyset.cpp:922
+msgid "Layout Spacing"
+msgstr "सजावट खाली ठाउँ"
+
+#: objecttreeview.cpp:170 widgetpropertyset.cpp:996
+msgid "Name"
+msgstr "नाम"
+
+#: editlistviewdialog.cpp:110 widgetpropertyset.cpp:997
+msgid "Caption"
+msgstr "क्याप्सन"
+
+#: widgetpropertyset.cpp:998
+msgid "Text"
+msgstr "पाठ"
+
+#: widgetpropertyset.cpp:999
+msgid "Background Pixmap"
+msgstr "पृष्ठभूमि पिक्सम्याप"
+
+#: widgetpropertyset.cpp:1000
+msgid "Enabled"
+msgstr "सक्षम गरियो"
+
+#: widgetpropertyset.cpp:1001
+msgid "Geometry"
+msgstr "ज्यामिती"
+
+#: widgetpropertyset.cpp:1002
+msgid "Size Policy"
+msgstr "साइज नीति"
+
+#: widgetpropertyset.cpp:1003
+msgid "Minimum Size"
+msgstr "न्यूनतम साइज"
+
+#: widgetpropertyset.cpp:1004
+msgid "Maximum Size"
+msgstr "अधिकतम साइज"
+
+#: widgetpropertyset.cpp:1006
+msgid "Cursor"
+msgstr "कर्सर"
+
+#: widgetpropertyset.cpp:1007
+msgid "Foreground Color"
+msgstr "अग्रभूमि रङ"
+
+#: widgetpropertyset.cpp:1008
+msgid "Background Color"
+msgstr "पृष्ठभूमि रङ"
+
+#: widgetpropertyset.cpp:1009
+msgid "Focus Policy"
+msgstr "फोकस नीति"
+
+#: widgetpropertyset.cpp:1010
+msgid "Margin"
+msgstr "सीमान्त"
+
+#: widgetpropertyset.cpp:1011
+msgid "Read Only"
+msgstr "पढ्ने मात्र"
+
+#: factories/containerfactory.cpp:408 widgetpropertyset.cpp:1013
+msgid "Frame"
+msgstr "फ्रेम"
+
+#: widgetpropertyset.cpp:1014
+msgid "Frame Width"
+msgstr "फ्रेम चौडाइ"
+
+#: widgetpropertyset.cpp:1015
+msgid "Mid Frame Width"
+msgstr "मिड फ्रेम चौडाइ"
+
+#: widgetpropertyset.cpp:1016
+msgid "Frame Shape"
+msgstr "फ्रेम आकार"
+
+#: widgetpropertyset.cpp:1017
+msgid "Frame Shadow"
+msgstr "फ्रेम छाँया"
+
+#: widgetpropertyset.cpp:1019
+msgid "Vertical ScrollBar"
+msgstr "ठाडो स्क्रोलपट्टी"
+
+#: widgetpropertyset.cpp:1020
+msgid "Horizontal ScrollBar"
+msgstr "तेर्सो स्क्रोलपट्टी"
+
+#: widgetpropertyset.cpp:1022
+msgid "No Background"
+msgstr "पृष्ठभूमि छैन"
+
+#: widgetpropertyset.cpp:1023
+msgid "Palette Foreground"
+msgstr "रङ मिलान अग्रभूमि"
+
+#: widgetpropertyset.cpp:1024
+msgid ""
+"_: Auto (HINT: for AutoText)\n"
+"Auto"
+msgstr "स्वत:"
+
+#: widgetpropertyset.cpp:1026
+msgid ""
+"_: Auto (HINT: for Align)\n"
+"Auto"
+msgstr "स्वत:"
+
+#: widgetpropertyset.cpp:1027
+msgid ""
+"_: Left (HINT: for Align)\n"
+"Left"
+msgstr "बायाँ"
+
+#: widgetpropertyset.cpp:1028
+msgid ""
+"_: Right (HINT: for Align)\n"
+"Right"
+msgstr "दायाँ"
+
+#: widgetpropertyset.cpp:1029 widgetpropertyset.cpp:1031
+msgid ""
+"_: Center (HINT: for Align)\n"
+"Center"
+msgstr "केन्द्र"
+
+#: widgetpropertyset.cpp:1030
+msgid ""
+"_: Justify (HINT: for Align)\n"
+"Justify"
+msgstr "समरेखन"
+
+#: widgetpropertyset.cpp:1032
+msgid ""
+"_: Top (HINT: for Align)\n"
+"Top"
+msgstr "माथि"
+
+#: widgetpropertyset.cpp:1033
+msgid ""
+"_: Bottom (HINT: for Align)\n"
+"Bottom"
+msgstr "तल"
+
+#: widgetpropertyset.cpp:1035
+msgid ""
+"_: No Frame (HINT: for Frame Shape)\n"
+"No Frame"
+msgstr "फ्रेम नभएको"
+
+#: widgetpropertyset.cpp:1036
+msgid ""
+"_: Box (HINT: for Frame Shape)\n"
+"Box"
+msgstr "बाकस"
+
+#: widgetpropertyset.cpp:1037
+msgid ""
+"_: Panel (HINT: for Frame Shape)\n"
+"Panel"
+msgstr "प्यानल"
+
+#: widgetpropertyset.cpp:1038
+msgid ""
+"_: Windows Panel (HINT: for Frame Shape)\n"
+"Windows Panel"
+msgstr "विन्डोज प्यानल"
+
+#: widgetpropertyset.cpp:1039
+msgid ""
+"_: Horiz. Line (HINT: for Frame Shape)\n"
+"Horiz. Line"
+msgstr "तेर्सो रेखा"
+
+#: widgetpropertyset.cpp:1040
+msgid ""
+"_: Vertical Line (HINT: for Frame Shape)\n"
+"Vertical Line"
+msgstr "ठाडो रेखा"
+
+#: widgetpropertyset.cpp:1041
+msgid ""
+"_: Styled (HINT: for Frame Shape)\n"
+"Styled"
+msgstr "शैली बनाइएको"
+
+#: widgetpropertyset.cpp:1042
+msgid ""
+"_: Popup (HINT: for Frame Shape)\n"
+"Popup"
+msgstr "पपअप"
+
+#: widgetpropertyset.cpp:1043
+msgid ""
+"_: Menu Bar (HINT: for Frame Shape)\n"
+"Menu Bar"
+msgstr "मेनुपट्टी"
+
+#: widgetpropertyset.cpp:1044
+msgid ""
+"_: Toolbar (HINT: for Frame Shape)\n"
+"Toolbar"
+msgstr "उपकरणपट्टी"
+
+#: widgetpropertyset.cpp:1045
+msgid ""
+"_: Text Box (HINT: for Frame Shape)\n"
+"Text Box"
+msgstr "पाठ बाकस"
+
+#: widgetpropertyset.cpp:1046
+msgid ""
+"_: Tab Widget (HINT: for Frame Shape)\n"
+"Tab Widget"
+msgstr "ट्याब विजेट"
+
+#: widgetpropertyset.cpp:1047
+msgid ""
+"_: Group Box (HINT: for Frame Shape)\n"
+"Group Box"
+msgstr "समूह बाकस"
+
+#: widgetpropertyset.cpp:1049
+msgid ""
+"_: Plain (HINT: for Frame Shadow)\n"
+"Plain"
+msgstr "सादा"
+
+#: widgetpropertyset.cpp:1050
+msgid ""
+"_: Raised (HINT: for Frame Shadow)\n"
+"Raised"
+msgstr "उठाइएको"
+
+#: widgetpropertyset.cpp:1051
+msgid ""
+"_: Sunken (HINT: for Frame Shadow)\n"
+"Sunken"
+msgstr "सन्केन"
+
+#: widgetpropertyset.cpp:1052
+msgid ""
+"_: for Frame Shadow\n"
+"Internal"
+msgstr "आन्तरिक"
+
+#: widgetpropertyset.cpp:1054
+msgid ""
+"_: No Focus (HINT: for Focus)\n"
+"No Focus"
+msgstr "फोकस छैन"
+
+#: widgetpropertyset.cpp:1055
+msgid ""
+"_: Tab (HINT: for Focus)\n"
+"Tab"
+msgstr "ट्याब"
+
+#: widgetpropertyset.cpp:1056
+msgid ""
+"_: Click (HINT: for Focus)\n"
+"Click"
+msgstr "क्लिक"
+
+#: widgetpropertyset.cpp:1057
+msgid ""
+"_: Tab/Click (HINT: for Focus)\n"
+"Tab/Click"
+msgstr "ट्याब/क्लिक"
+
+#: widgetpropertyset.cpp:1058
+msgid ""
+"_: Tab/Click/MouseWheel (HINT: for Focus)\n"
+"Tab/Click/MouseWheel"
+msgstr "ट्याब/क्लिक/माउस ह्विल"
+
+#: widgetpropertyset.cpp:1060
+msgid "Auto"
+msgstr "स्वत:"
+
+#: widgetpropertyset.cpp:1061
+msgid "Always Off"
+msgstr "सधै बन्द"
+
+#: widgetpropertyset.cpp:1062
+msgid "Always On"
+msgstr "सधै खुला"
+
+#: widgetfactory.cpp:317
+msgid "Edit List of Items"
+msgstr "वस्तुहरूको सूची सम्पादन गर्नुहोस्"
+
+#: widgetfactory.cpp:320
+#, c-format
+msgid "Contents of %1"
+msgstr "%1 का सामग्री"
+
+#: connectiondialog.cpp:49 kdevelop_plugin/kfd_kdev_part.cpp:216
+#: test/kfd_part.cpp:220
+msgid "Edit Form Connections"
+msgstr "फारम जडानहरू सम्पादन गर्नुहोस्"
+
+#: connectiondialog.cpp:81
+msgid "&New Connection"
+msgstr "नयाँ जडान"
+
+#: connectiondialog.cpp:86
+msgid "&Remove Connection"
+msgstr "जडान हटाउनुहोस्"
+
+#: connectiondialog.cpp:104
+msgid "OK?"
+msgstr "ठीक छ ?"
+
+#: connectiondialog.cpp:107
+msgid "Connection correctness"
+msgstr "जडान शुद्वता"
+
+#: connectiondialog.cpp:110
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: connectiondialog.cpp:115
+msgid "Signal"
+msgstr "सङ्केत"
+
+#: connectiondialog.cpp:120
+msgid "Receiver"
+msgstr "प्रापक"
+
+#: connectiondialog.cpp:124
+msgid "Slot"
+msgstr "खाँचा"
+
+#: connectiondialog.cpp:337
+msgid "<qt>You have not selected item: <b>%1</b>.</qt>"
+msgstr "<qt>तपाईंले वस्तु चयन गर्नुभएको छैन: <b>%1</b>।</q>"
+
+#: connectiondialog.cpp:351
+msgid "The signal/slot arguments are not compatible."
+msgstr "सङ्केत/खाँचा तर्कहरू अनुकूल छैन।"
+
+#: connectiondialog.cpp:409
+msgid "Do you want to delete this connection ?"
+msgstr "के तपाईं यो जडान मेट्न चाहनुहुन्छ ?"
+
+#: connectiondialog.cpp:409
+msgid "&Delete Connection"
+msgstr "जडान मेट्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:91 test/kfd_part.cpp:120
+msgid "Form Designer Part"
+msgstr "फारम डिजाइनर अंश"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:158 test/kfd_part.cpp:158
+msgid "Objects"
+msgstr "वस्तु"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:211 test/kfd_part.cpp:215
+msgid "Clear Widget Contents"
+msgstr "विजेट सामग्री खाली गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:212 test/kfd_part.cpp:216
+msgid "Delete Widget"
+msgstr "विजेट मेटाउनुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:213 test/kfd_part.cpp:217
+msgid "Preview Form"
+msgstr "फारम पूर्वावलोकन गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:214 tabstopdialog.cpp:41
+#: test/kfd_part.cpp:218
+msgid "Edit Tab Order"
+msgstr "ट्याब क्रम सम्पादन गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:215 test/kfd_part.cpp:219
+msgid "Edit Pixmap Collection"
+msgstr "पिक्सम्याप संकलन सम्पादन गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:218
+msgid "Lay Out Widgets &Horizontally"
+msgstr "विजेट तेर्सो गरी सजावट गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:219
+msgid "Lay Out Widgets &Vertically"
+msgstr "विजेट ठाडो गरी सजावट गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:220
+msgid "Lay Out Widgets in &Grid"
+msgstr "ग्रीडमा विजेट सजावट गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:221
+msgid "&Break Layout"
+msgstr "बिच्छेद सजावट"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:223 test/kfd_part.cpp:240
+msgid "Bring Widget to Front"
+msgstr "विजेटलाई अगाडि ल्याउनुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:224 test/kfd_part.cpp:241
+msgid "Send Widget to Back"
+msgstr "विजेटलाई पछाडि पठाउनुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:226 test/kfd_part.cpp:243
+msgid "Align Widgets' Positions"
+msgstr "विजेटको स्थान पङ्क्तिबद्व गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:227 test/kfd_part.cpp:244
+msgid "To Left"
+msgstr "बायाँपट्टि"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:228 test/kfd_part.cpp:245
+msgid "To Right"
+msgstr "दायाँपट्टियामा"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:229 test/kfd_part.cpp:246
+msgid "To Top"
+msgstr "माथि"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:230 test/kfd_part.cpp:247
+msgid "To Bottom"
+msgstr "तल"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:231 kdevelop_plugin/kfd_kdev_part.cpp:235
+#: test/kfd_part.cpp:248 test/kfd_part.cpp:252
+msgid "To Grid"
+msgstr "ग्रीडमा"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:233 test/kfd_part.cpp:250
+msgid "Adjust Widgets' Sizes"
+msgstr "विजेटको साइजहरू समायोजन गर्नुहोस्"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:234 test/kfd_part.cpp:251
+msgid "To Fit"
+msgstr "ठीक पार्न"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:236 test/kfd_part.cpp:253
+msgid "To Shortest"
+msgstr "अति छोटोका लागि"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:237 test/kfd_part.cpp:254
+msgid "To Tallest"
+msgstr "अग्लोलाई"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:238 test/kfd_part.cpp:255
+msgid "To Narrowest"
+msgstr "नजिकका लागि"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:239 test/kfd_part.cpp:256
+msgid "To Widest"
+msgstr "फराकिलोका लागि"
+
+#: factories/stdwidgetfactory.cpp:111 form.cpp:134
+#: kdevelop_plugin/kfd_kdev_part.cpp:261 test/kfd_part.cpp:280
+msgid "Form"
+msgstr "फारम"
+
+#: formIO.cpp:110 formIO.cpp:281 kdevelop_plugin/kfd_kdev_part.cpp:279
+#: kdevelop_plugin/kfd_kdev_part.cpp:314 test/kfd_part.cpp:299
+#: test/kfd_part.cpp:334
+msgid "*.ui|Qt Designer UI Files"
+msgstr "*.ui|Qt डिजाइनर यूआई फाइल"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:325 test/kfd_part.cpp:346
+msgid ""
+"The form \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"फारम \"%1\" परिमार्जित गरीयो।\n"
+"के तपाईं आफ्नो परिवर्तनहरू बचत गर्न चाहनुहुन्छ या तिनीहरूलाई छोड्न "
+"चाहनुहुन्छ?"
+
+#: kdevelop_plugin/kfd_kdev_part.cpp:327 test/kfd_part.cpp:348
+msgid "Close Form"
+msgstr "फारम बन्द गर्नुहोस्"
+
+#: commands.cpp:142
+msgid "Change \"%1\" property for multiple widgets"
+msgstr "\"%1\" प्राथमिकता बहु विजेटहरूका लागि परिवर्तन गर्नुहोस्"
+
+#: commands.cpp:144
+msgid "Change \"%1\" property for widget \"%2\""
+msgstr "\"%1\" प्राथमिकता \"%2\" विजेटका लागि परिवर्तन गर्नुहोस्"
+
+#: commands.cpp:212
+msgid "Move multiple widgets"
+msgstr "बहु विजेटहरू सार्नुहोस्"
+
+#: commands.cpp:353
+msgid "Align Widgets to Grid"
+msgstr "ग्रीडमा विजेटहरू पङ्क्तिबद्ध गर्नुहोस्"
+
+#: commands.cpp:355
+msgid "Align Widgets to Left"
+msgstr "बायाँपट्टि विजेटहरू पङ्क्तिबद्ध गर्नुहोस्"
+
+#: commands.cpp:357
+msgid "Align Widgets to Right"
+msgstr "दायाँपट्टि विजेटहरू पङ्क्तिबद्ध गर्नुहोस्"
+
+#: commands.cpp:359
+msgid "Align Widgets to Top"
+msgstr "माथिपट्टि विजेटहरू पङ्क्तिबद्व गर्नुहोस्"
+
+#: commands.cpp:361
+msgid "Align Widgets to Bottom"
+msgstr "तल विजेटहरू पङ्क्तिबद्व गर्नुहोस्"
+
+#: commands.cpp:590
+msgid "Resize Widgets to Grid"
+msgstr "ग्रीडमा विजेटहरू रिसाइज गर्नुहोस्"
+
+#: commands.cpp:592
+msgid "Resize Widgets to Fit Contents"
+msgstr "सामग्रीलाई ठीक पार्न विजेटहरू रिसाइज गर्नुहोस्"
+
+#: commands.cpp:594
+msgid "Resize Widgets to Narrowest"
+msgstr "नजिकका लागि विजेटहरू रिसाइज गर्नुहोस्"
+
+#: commands.cpp:596
+msgid "Resize Widgets to Widest"
+msgstr "फराकिलोमा विजेट रिसाइज गर्नुहोस्"
+
+#: commands.cpp:598
+msgid "Resize Widgets to Shortest"
+msgstr "नजिकका लागि विजेटहरू रिसाइज गर्नुहोस्"
+
+#: commands.cpp:600
+msgid "Resize Widgets to Tallest"
+msgstr "अग्लोका लागि विजेट रिसाइज गर्नुहोस्"
+
+#: commands.cpp:658
+msgid "Change layout of widget \"%1\""
+msgstr "विजेट \"%1\" का लागि सजावट परिवर्तन गर्नुहोस्"
+
+#: commands.cpp:742
+msgid ""
+"Could not insert widget of type \"%1\". A problem with widget's creation "
+"encountered."
+msgstr ""
+"\"%1\" प्रकारको विजेट घुसाउन सकिँदैन । विजेटका सिर्जनामा एउटा समस्या भेटियो ।"
+
+#: commands.cpp:833
+msgid "Insert widget \"%1\""
+msgstr "\"%1\" विजेट घुसाउनुहोस्"
+
+#: commands.cpp:835
+msgid "Insert widget"
+msgstr "विजेट घुसाउनुहोस्"
+
+#: commands.cpp:986
+msgid "Group Widgets Horizontally"
+msgstr "तेर्सो रूपमा विजेटहरू समूह गर्नुहोस्"
+
+#: commands.cpp:988
+msgid "Group Widgets Vertically"
+msgstr "ठाडो रूपमा विजेट समूह गर्नुहोस्"
+
+#: commands.cpp:990
+msgid "Group Widgets in a Grid"
+msgstr "ग्रीडमा विजेट समूह गर्नुहोस्"
+
+#: commands.cpp:992
+msgid "Group Widgets Horizontally in a Splitter"
+msgstr "स्प्लिटरमा तेर्सो रूपमा विजेट समूह गर्नुहोस्"
+
+#: commands.cpp:994
+msgid "Group Widgets Vertically in a Splitter"
+msgstr "स्प्लिटरमा ठाडो गरी विजेट समूह गर्नुहोस्"
+
+#: commands.cpp:996
+msgid "Group Widgets By Rows"
+msgstr "पङ्क्तिद्वारा विजेट समूह गर्नुहोस्"
+
+#: commands.cpp:998
+msgid "Group Widgets Vertically By Columns"
+msgstr "स्तम्भद्वारा ठाडो रूपमा विजेट समूह गर्नुहोस्"
+
+#: commands.cpp:1000
+msgid "Group widgets"
+msgstr "विजेट समूहबद्ध गर्नुहोस्"
+
+#: commands.cpp:1044
+msgid "Break Layout: \"%1\""
+msgstr "विच्छेदित सजावट: \"%1\""
+
+#: commands.cpp:1472
+msgid "Delete widget"
+msgstr "विजेट मेट्नुहोस्"
+
+#: test/kfd_part.cpp:222
+msgid "Group Widgets"
+msgstr "समूह विजेटहरू"
+
+#: test/kfd_part.cpp:223
+msgid "&Horizontally"
+msgstr "तेर्सो गरी"
+
+#: test/kfd_part.cpp:224
+msgid "&Vertically"
+msgstr "ठाडो गरी"
+
+#: test/kfd_part.cpp:225
+msgid "In &Grid"
+msgstr "ग्रीडमा"
+
+#: test/kfd_part.cpp:226
+msgid "By &Rows"
+msgstr "पङ्क्ति द्वारा"
+
+#: test/kfd_part.cpp:227
+msgid "By &Columns"
+msgstr "स्तम्भ द्वारा"
+
+#: test/kfd_part.cpp:228
+msgid "Horizontally in &Splitter"
+msgstr "स्प्लिटरमा तेर्सो गरी"
+
+#: test/kfd_part.cpp:229
+msgid "Verti&cally in Splitter"
+msgstr "स्प्लिटरमा तेर्सो गरी"
+
+#: test/kfd_part.cpp:230
+msgid "&Ungroup Widgets"
+msgstr "विजेटहरूलाई समूहबाट हटाउनुहोस्"
+
+#: test/kfd_mainwindow.cpp:53
+msgid ""
+"Could not find the KFormDesigner part. Please check your installation."
+msgstr ""
+"केडीई फारम डिजाइनर अंश फेला पार्न सकिएन । कृपया तपाईंको स्थपना जाँच "
+"गर्नुहोस् ।"
+
+#: test/main.cpp:28 test/main.cpp:40
+msgid "KFormDesigner"
+msgstr "केडीई फाराम डिजाइनर"
+
+#: test/main.cpp:34
+msgid "Document to open"
+msgstr "खोल्नका लागि कागजात"
+
+#: factories/stdwidgetfactory.cpp:475 richtextdialog.cpp:37
+msgid "Edit Rich Text"
+msgstr "रिच टेक्स्ट सम्पादन गर्नुहोस्"
+
+#: richtextdialog.cpp:57
+msgid "Bold"
+msgstr "बाक्लो"
+
+#: richtextdialog.cpp:59
+msgid "Underline"
+msgstr "अधोरेखा"
+
+#: richtextdialog.cpp:65
+msgid "Superscript"
+msgstr "सुपरस्क्रिप्ट"
+
+#: richtextdialog.cpp:66
+msgid "Subscript"
+msgstr "सबस्क्रिप्ट"
+
+#: richtextdialog.cpp:72
+msgid "Left Align"
+msgstr "बायाँ पङ्क्तिबद्व"
+
+#: richtextdialog.cpp:75
+msgid "Centered"
+msgstr "केन्द्रित"
+
+#: richtextdialog.cpp:78
+msgid "Right Align"
+msgstr "दायाँ पङ्क्तिबद्व"
+
+#: richtextdialog.cpp:81
+msgid "Justified"
+msgstr "समरेखन गरीएको"
+
+#: objecttreeview.cpp:171
+msgid ""
+"_: Widget's type\n"
+"Type"
+msgstr "प्रकार"
+
+#: editlistviewdialog.cpp:43 factories/stdwidgetfactory.cpp:480
+msgid "Edit Listview Contents"
+msgstr "सूचीदृश्य सामग्रीहरू सम्पादन गर्नुहोस्"
+
+#: editlistviewdialog.cpp:45
+msgid "Columns"
+msgstr "स्तम्भहरू"
+
+#: editlistviewdialog.cpp:55 editlistviewdialog.cpp:123
+msgid "&Add Item"
+msgstr "वस्तु थप्नुहोस्"
+
+#: editlistviewdialog.cpp:62
+msgid "New &Subitem"
+msgstr "नयाँ उप वस्तु"
+
+#: editlistviewdialog.cpp:69 editlistviewdialog.cpp:130
+msgid "&Remove Item"
+msgstr "वस्तु हटाउनुहोस्"
+
+#: editlistviewdialog.cpp:76 editlistviewdialog.cpp:137
+msgid "Move Item &Up"
+msgstr "वस्तु माथि सार्नुहोस्"
+
+#: editlistviewdialog.cpp:83 editlistviewdialog.cpp:144
+msgid "Move Item &Down"
+msgstr "वस्तु तल सार्नुहोस्"
+
+#: editlistviewdialog.cpp:112
+msgid "Clickable"
+msgstr "क्लिक गर्न योग्य"
+
+#: editlistviewdialog.cpp:113
+msgid "Resizable"
+msgstr "रिसाइज गर्न योग्य"
+
+#: editlistviewdialog.cpp:114
+msgid "Full Width"
+msgstr "पूरा चौडाइ"
+
+#: editlistviewdialog.cpp:273 editlistviewdialog.cpp:274
+msgid "New Column"
+msgstr "नयाँ स्तम्भ"
+
+#: editlistviewdialog.cpp:417
+msgid "New Item"
+msgstr "नयाँ वस्तु"
+
+#: editlistviewdialog.cpp:430
+msgid "Sub Item"
+msgstr "उप वस्तु"
+
+#: _translatorinfo.cpp:1 _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3 _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com,,,submanesh@gmail.com"
+
+#: form.cpp:368
+msgid "Renaming widget \"%1\" to \"%2\" failed."
+msgstr "बाँकी विजेट \"%1\" to \"%2\" असफल भयो।"
+
+#: widgetlibrary.cpp:733
+msgid ""
+"_: Insert Horizontal Widget\n"
+"Insert Horizontal"
+msgstr "तेर्सो रूपमा घुसाउनुहोस्"
+
+#: widgetlibrary.cpp:739
+msgid ""
+"_: Insert Vertical Widget\n"
+"Insert Vertical"
+msgstr "ठाडो रूपमा घुसाउनुहोस्"
+
+#: widgetlibrary.cpp:742
+#, c-format
+msgid "Insert Widget: %1"
+msgstr "विजेट: %1 घुसाउनुहोस्"
+
+#: formmanager.cpp:204
+msgid "Connect Signals/Slots"
+msgstr "सङ्केत/खाँचाहरू जडान गर्नुहोस्"
+
+#: formmanager.cpp:213
+msgid "Pointer"
+msgstr "सूचक"
+
+#: formmanager.cpp:219
+msgid "Snap to Grid"
+msgstr "ग्रीडमा सटाउनुहोस्"
+
+#: formmanager.cpp:225
+msgid "Style"
+msgstr "शैली"
+
+#: formmanager.cpp:245
+msgid "Set the current view style."
+msgstr "हालको दृश्य शैली सेट गर्नुहोस् ।"
+
+#: formmanager.cpp:791
+msgid "Signals"
+msgstr "सङ्केतहरू"
+
+#: formmanager.cpp:812
+msgid "Slots"
+msgstr "खाँचा"
+
+#: formmanager.cpp:866
+msgid "%1 : Form"
+msgstr "%1 : फारम"
+
+#: formmanager.cpp:909
+msgid "No Buddy"
+msgstr "साथी छैन"
+
+#: formmanager.cpp:924
+msgid "Choose Buddy..."
+msgstr "साथी छनोट गर्नुहोस्..."
+
+#: formmanager.cpp:945
+msgid "Events"
+msgstr "घटना"
+
+#: formmanager.cpp:1118
+msgid ""
+"<b>Cannot create the layout.</b>\n"
+"All selected widgets must have the same parent."
+msgstr ""
+"<b>सजावट सिर्जना गर्न सकिँदैन।</b>\n"
+"सबै चयन गरिएका विजेटहरूसँग समान प्यारेन्ट हुनुपर्दछ।"
+
+#: formmanager.cpp:1430
+msgid "Form's UI Code"
+msgstr "फारमको युआई कोड"
+
+#: formmanager.cpp:1437
+msgid "Current"
+msgstr "हालको"
+
+#: formmanager.cpp:1445
+msgid "Original"
+msgstr "मौलिक"
+
+#: factories/containerfactory.cpp:259
+#, c-format
+msgid "Page %1"
+msgstr "पृष्ठ %1"
+
+#: factories/containerfactory.cpp:312 factories/containerfactory.cpp:663
+#: factories/containerfactory.cpp:682
+msgid "Add Page"
+msgstr "पृष्ठ थप्नुहोस्"
+
+#: factories/containerfactory.cpp:361
+msgid "Button Group"
+msgstr "बटन समूह"
+
+#: factories/containerfactory.cpp:363
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"buttonGroup"
+msgstr "बटन समूह"
+
+#: factories/containerfactory.cpp:364
+msgid "A simple container to group buttons"
+msgstr "बटन समूह गर्न साधारण कन्टेनर"
+
+#: factories/containerfactory.cpp:379
+msgid "Tab Widget"
+msgstr "ट्याब विजेट"
+
+#: factories/containerfactory.cpp:381
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"tabWidget"
+msgstr "ट्याब विजेट"
+
+#: factories/containerfactory.cpp:382
+msgid "A widget to display multiple pages using tabs"
+msgstr "ट्याबहरू प्रयोग गरेर बहु पृष्ठहरू प्रदर्शन गर्न विजेट"
+
+#: factories/containerfactory.cpp:389
+msgid "Basic container"
+msgstr "आधारभूत कन्टेनर"
+
+#: factories/containerfactory.cpp:391
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"container"
+msgstr "कन्टेनर"
+
+#: factories/containerfactory.cpp:392
+msgid "An empty container with no frame"
+msgstr "फ्रेम बिनाको एउटा खाली कन्टेनर"
+
+#: factories/containerfactory.cpp:399
+msgid "Group Box"
+msgstr "समूह बाकस"
+
+#: factories/containerfactory.cpp:401
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"groupBox"
+msgstr "समूह बाकस"
+
+#: factories/containerfactory.cpp:402
+msgid "A container to group some widgets"
+msgstr "केही विजेट समूह गर्न कन्टेनर"
+
+#: factories/containerfactory.cpp:410
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"frame"
+msgstr "फ्रेम"
+
+#: factories/containerfactory.cpp:411
+msgid "A simple frame container"
+msgstr "साधारण फ्रेम कन्टेनर"
+
+#: factories/containerfactory.cpp:417
+msgid "Widget Stack"
+msgstr "विजेट थाक"
+
+#: factories/containerfactory.cpp:419
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"widgetStack"
+msgstr "विजेट थाक"
+
+#: factories/containerfactory.cpp:420
+msgid "A container with multiple pages"
+msgstr "बहु पृष्ठहरू सहित कन्टेनर"
+
+#: factories/containerfactory.cpp:426
+msgid "Horizontal Box"
+msgstr "तेर्सो बाकस"
+
+#: factories/containerfactory.cpp:428
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"horizontalBox"
+msgstr "तेर्सो बाकस"
+
+#: factories/containerfactory.cpp:429
+msgid "A simple container to group widgets horizontally"
+msgstr "विजेटहरू तेस्रो रूपमा समूह गर्न साधारण कन्टेनर"
+
+#: factories/containerfactory.cpp:435
+msgid "Vertical Box"
+msgstr "ठाडो बाकस"
+
+#: factories/containerfactory.cpp:437
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"verticalBox"
+msgstr "ठाडो बाकस"
+
+#: factories/containerfactory.cpp:438
+msgid "A simple container to group widgets vertically"
+msgstr "विजेट ठाडो रूपमा समूह गर्न साधारण कन्टेनर"
+
+#: factories/containerfactory.cpp:444
+msgid "Grid Box"
+msgstr "ग्रीड बाकस"
+
+#: factories/containerfactory.cpp:446
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"gridBox"
+msgstr "ग्रीड बाकस"
+
+#: factories/containerfactory.cpp:447
+msgid "A simple container to group widgets in a grid"
+msgstr "ग्रीडमा विजेट समूह गर्न साधारण कन्टेनर"
+
+#: factories/containerfactory.cpp:455
+msgid "Splitter"
+msgstr "स्प्लिटर"
+
+#: factories/containerfactory.cpp:457
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"splitter"
+msgstr "स्प्लिटर"
+
+#: factories/containerfactory.cpp:458
+msgid "A container that enables user to resize its children"
+msgstr "प्रयोगकर्तालाई यसको शाखा रिसाइज गर्न सक्षम पार्ने कन्टेनर"
+
+#: factories/containerfactory.cpp:465
+msgid "Row Layout"
+msgstr "पङ्क्ति सजावट"
+
+#: factories/containerfactory.cpp:467
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"rowLayout"
+msgstr "पङ्क्ति सजावट"
+
+#: factories/containerfactory.cpp:468
+msgid "A simple container to group widgets by rows"
+msgstr "पङ्क्तिद्वारा विजेट समूह गर्न साधारण कन्टेनर"
+
+#: factories/containerfactory.cpp:475
+msgid "Column Layout"
+msgstr "स्तम्भ सजावट"
+
+#: factories/containerfactory.cpp:477
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"columnLayout"
+msgstr "स्तम्भ सजावट"
+
+#: factories/containerfactory.cpp:478
+msgid "A simple container to group widgets by columns"
+msgstr "स्तम्भद्वारा विजेट समूह गर्न साधारण कन्टेनर"
+
+#: factories/containerfactory.cpp:484
+msgid "Sub Form"
+msgstr "उप फारम"
+
+#: factories/containerfactory.cpp:486
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"subForm"
+msgstr "उपफारम"
+
+#: factories/containerfactory.cpp:487
+msgid "A form widget included in another Form"
+msgstr "अर्को फारममा समावेश भएको फारम विजेट"
+
+#: factories/containerfactory.cpp:492
+msgid "Title"
+msgstr "शीर्षक"
+
+#: factories/containerfactory.cpp:493 factories/stdwidgetfactory.cpp:323
+msgid "Flat"
+msgstr "समतल"
+
+#: factories/containerfactory.cpp:496 factories/containerfactory.cpp:500
+#: factories/containerfactory.cpp:501
+msgid "Tab Position"
+msgstr "ट्याब स्थिति"
+
+#: factories/containerfactory.cpp:497
+msgid "Current Page"
+msgstr "हालको पृष्ठ"
+
+#: factories/containerfactory.cpp:498
+msgid "Tab Shape"
+msgstr "ट्याब आकार"
+
+#: factories/containerfactory.cpp:503
+msgid ""
+"_: for Tab Shape\n"
+"Rounded"
+msgstr "घुमाउरो"
+
+#: factories/containerfactory.cpp:504
+msgid ""
+"_: for Tab Shape\n"
+"Triangular"
+msgstr "त्रिकोणात्मक"
+
+#: factories/containerfactory.cpp:664
+msgid "Rename Page..."
+msgstr "पृष्ठ पुन: नामकरण गर्नुहोस्..."
+
+#: factories/containerfactory.cpp:665 factories/containerfactory.cpp:684
+msgid "Remove Page"
+msgstr "पृष्ठ हटाउनुहोस्"
+
+#: factories/containerfactory.cpp:689
+msgid "Jump to Next Page"
+msgstr "पछिल्लो पृष्ठमा जानुहोस्"
+
+#: factories/containerfactory.cpp:693
+msgid "Jump to Previous Page"
+msgstr "अघिल्लो पृष्ठमा जानुहोस्"
+
+#: factories/containerfactory.cpp:859
+msgid "New Page Title"
+msgstr "नयाँ पृष्ठ शीर्षक"
+
+#: factories/containerfactory.cpp:859
+msgid "Enter a new title for the current page:"
+msgstr "हालको पृष्ठका लागि नयाँ शीर्षक प्रविष्ट गर्नुहोस्:"
+
+#: factories/stdwidgetfactory.cpp:113
+msgid ""
+"_: This string will be used to name widgets of this class. It must _not_ "
+"contain white spaces and non latin1 characters.\n"
+"form"
+msgstr "फारम"
+
+#: factories/stdwidgetfactory.cpp:114
+msgid "A simple form widget"
+msgstr "साधारण फारम विजेट"
+
+#: factories/stdwidgetfactory.cpp:120
+msgid "Custom Widget"
+msgstr "अनुकूल विजेट"
+
+#: factories/stdwidgetfactory.cpp:122
+msgid ""
+"_: This string will be used to name widgets of this class. It must _not_ "
+"contain white spaces and non latin1 characters.\n"
+"customWidget"
+msgstr "अनुकूल विजेट"
+
+#: factories/stdwidgetfactory.cpp:123
+msgid "A custom or non-supported widget"
+msgstr "अनुकूल वा असमर्थित विजेट"
+
+#: factories/stdwidgetfactory.cpp:129
+msgid "Text Label"
+msgstr "पाठ लेबुल"
+
+#: factories/stdwidgetfactory.cpp:131
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"label"
+msgstr "लेबुल"
+
+#: factories/stdwidgetfactory.cpp:132
+msgid "A widget to display text"
+msgstr "पाठ प्रदर्शन गर्न विजेट"
+
+#: factories/stdwidgetfactory.cpp:138
+msgid "Picture Label"
+msgstr "तस्विर लेबुल"
+
+#: factories/stdwidgetfactory.cpp:143
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"picture"
+msgstr "तस्विर"
+
+#: factories/stdwidgetfactory.cpp:144
+msgid "A widget to display pictures"
+msgstr "तस्विर प्रदर्शन गर्ने विजेट"
+
+#: factories/stdwidgetfactory.cpp:152
+msgid "Line Edit"
+msgstr "रेखा सम्पादन"
+
+#: factories/stdwidgetfactory.cpp:154
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"lineEdit"
+msgstr "रेखा सम्पादन"
+
+#: factories/stdwidgetfactory.cpp:155
+msgid "A widget to input text"
+msgstr "पाठ आगत गर्न विजेट"
+
+#: factories/stdwidgetfactory.cpp:161
+msgid "Spring"
+msgstr "स्प्रिङ"
+
+#: factories/stdwidgetfactory.cpp:163
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"spring"
+msgstr "स्प्रिङ"
+
+#: factories/stdwidgetfactory.cpp:164
+msgid "A spring to place between widgets"
+msgstr "विजेटहरूका बीच राख्नका लागि स्प्रिङ"
+
+#: factories/stdwidgetfactory.cpp:172
+msgid "Push Button"
+msgstr "बटन थिच्नुहोस्"
+
+#: factories/stdwidgetfactory.cpp:174
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"button"
+msgstr "बटन"
+
+#: factories/stdwidgetfactory.cpp:175
+msgid "A simple push button to execute actions"
+msgstr "कार्य कार्यन्वयन गर्न साधारण दवाब बटन"
+
+#: factories/stdwidgetfactory.cpp:181
+msgid "Option Button"
+msgstr "विकल्प बटन"
+
+#: factories/stdwidgetfactory.cpp:183
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"optionButton"
+msgstr "विकल्प बटन"
+
+#: factories/stdwidgetfactory.cpp:184
+msgid "An option button with text or pixmap label"
+msgstr "पाठ वा पिक्सम्याप लेबुलसँग एउटा विकल्प बटन"
+
+#: factories/stdwidgetfactory.cpp:190
+msgid "Check Box"
+msgstr "जाँच बाकस"
+
+#: factories/stdwidgetfactory.cpp:192
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"checkBox"
+msgstr "जाँच बाकस"
+
+#: factories/stdwidgetfactory.cpp:193
+msgid "A check box with text or pixmap label"
+msgstr "पाठ वा पिक्सम्याप लेबुल सहितको जाँच बाकस"
+
+#: factories/stdwidgetfactory.cpp:201
+msgid "Spin Box"
+msgstr "स्पिन बाकस"
+
+#: factories/stdwidgetfactory.cpp:203
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"spinBox"
+msgstr "स्पिन बाकस"
+
+#: factories/stdwidgetfactory.cpp:204
+msgid "A spin box widget"
+msgstr "स्पिन बाकस विजेट"
+
+#: factories/stdwidgetfactory.cpp:212
+msgid "Combo Box"
+msgstr "कम्बो बाकस"
+
+#: factories/stdwidgetfactory.cpp:214
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"comboBox"
+msgstr "कम्बो बाकस"
+
+#: factories/stdwidgetfactory.cpp:215
+msgid "A combo box widget"
+msgstr "कम्बो बाकस विजेट"
+
+#: factories/stdwidgetfactory.cpp:223
+msgid "List Box"
+msgstr "सूची बाकस"
+
+#: factories/stdwidgetfactory.cpp:225
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"listBox"
+msgstr "सूची बाकस"
+
+#: factories/stdwidgetfactory.cpp:226
+msgid "A simple list widget"
+msgstr "साधारण सूची विजेट"
+
+#: factories/stdwidgetfactory.cpp:234
+msgid "Text Editor"
+msgstr "पाठ सम्पादक"
+
+#: factories/stdwidgetfactory.cpp:236
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"textEditor"
+msgstr "पाठ सम्पादक"
+
+#: factories/stdwidgetfactory.cpp:237
+msgid "A simple single-page rich text editor"
+msgstr "सामान्य एकल-पृष्ठ रिच पाठ सम्पादक"
+
+#: factories/stdwidgetfactory.cpp:245
+msgid "List View"
+msgstr "सूची दृश्य"
+
+#: factories/stdwidgetfactory.cpp:247
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"listView"
+msgstr "सूची दृश्य"
+
+#: factories/stdwidgetfactory.cpp:248
+msgid "A list (or tree) widget"
+msgstr "सूची (वा ट्री) विजेट"
+
+#: factories/stdwidgetfactory.cpp:254
+msgid "Slider"
+msgstr "स्लाइडर"
+
+#: factories/stdwidgetfactory.cpp:256
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"slider"
+msgstr "स्लाइडर"
+
+#: factories/stdwidgetfactory.cpp:257
+msgid "An horizontal slider"
+msgstr "एउटा तेर्सो स्लाइडर"
+
+#: factories/stdwidgetfactory.cpp:265
+msgid "Progress Bar"
+msgstr "प्रगतिपट्टी"
+
+#: factories/stdwidgetfactory.cpp:267
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"progressBar"
+msgstr "प्रगतिपट्टी"
+
+#: factories/stdwidgetfactory.cpp:268
+msgid "A progress indicator widget"
+msgstr "प्रगति सूचक विजेट"
+
+#: factories/stdwidgetfactory.cpp:274
+msgid "Line"
+msgstr "रेखा"
+
+#: factories/stdwidgetfactory.cpp:276
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"line"
+msgstr "रेखा"
+
+#: factories/stdwidgetfactory.cpp:277
+msgid "A line to be used as a separator"
+msgstr "विभाजकको रूपमा प्रयोग गर्नुपर्ने रेखा"
+
+#: factories/stdwidgetfactory.cpp:287
+msgid "Date Widget"
+msgstr "मिति विजेट"
+
+#: factories/stdwidgetfactory.cpp:289
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"dateWidget"
+msgstr "मिति विजेट"
+
+#: factories/stdwidgetfactory.cpp:290
+msgid "A widget to input and display a date"
+msgstr "मिति आगत र प्रदर्शन गर्न विजेट"
+
+#: factories/stdwidgetfactory.cpp:300
+msgid "Time Widget"
+msgstr "समय विजेट"
+
+#: factories/stdwidgetfactory.cpp:302
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"timeWidget"
+msgstr "समय विजेट"
+
+#: factories/stdwidgetfactory.cpp:303
+msgid "A widget to input and display a time"
+msgstr "समय आगत र प्रदर्शन गर्न विजेट"
+
+#: factories/stdwidgetfactory.cpp:313
+msgid "Date/Time Widget"
+msgstr "मिति/समय विजेट"
+
+#: factories/stdwidgetfactory.cpp:315
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It "
+"must _not_ contain white spaces and non latin1 characters.\n"
+"dateTimeWidget"
+msgstr "मितिसमय विजेट"
+
+#: factories/stdwidgetfactory.cpp:316
+msgid "A widget to input and display a time and a date"
+msgstr "समय र मिति आगत र प्रदर्शन गर्ने विजेट"
+
+#: factories/stdwidgetfactory.cpp:319
+msgid "Toggle"
+msgstr "टगल"
+
+#: factories/stdwidgetfactory.cpp:320
+msgid "Auto Repeat"
+msgstr "स्वत: दोहोर्याउनुहोस्"
+
+#: factories/stdwidgetfactory.cpp:321
+msgid "Auto Default"
+msgstr "स्वत: पूर्वनिर्धारित"
+
+#: factories/stdwidgetfactory.cpp:325
+msgid ""
+"_: Echo mode for Line Edit widget eg. Normal, NoEcho, Password\n"
+"Echo Mode"
+msgstr "प्रतिध्वनि मोड"
+
+#: factories/stdwidgetfactory.cpp:326
+msgid "Indent"
+msgstr "इन्डेन्ट"
+
+#: factories/stdwidgetfactory.cpp:330
+msgid ""
+"_: Checked checkbox\n"
+"Checked"
+msgstr "जाँच गरीएको"
+
+#: factories/stdwidgetfactory.cpp:331
+msgid ""
+"_: Tristate checkbox\n"
+"Tristate"
+msgstr "त्रि अवस्था"
+
+#: factories/stdwidgetfactory.cpp:334
+msgid ""
+"_: For Echo Mode\n"
+"Normal"
+msgstr "साधारण"
+
+#: factories/stdwidgetfactory.cpp:335
+msgid ""
+"_: For Echo Mode\n"
+"No Echo"
+msgstr "प्रतिध्वनि नभएको"
+
+#: factories/stdwidgetfactory.cpp:336
+msgid ""
+"_: For Echo Mode\n"
+"Password"
+msgstr "पासवर्ड"
+
+#: factories/stdwidgetfactory.cpp:339
+msgid "Size Type"
+msgstr "साइज प्रकार"
+
+#: factories/stdwidgetfactory.cpp:342
+msgid "Text Format"
+msgstr "पाठ ढाँचा"
+
+#: factories/stdwidgetfactory.cpp:343
+msgid ""
+"_: For Text Format\n"
+"Plain"
+msgstr "सादा"
+
+#: factories/stdwidgetfactory.cpp:344
+msgid ""
+"_: For Text Format\n"
+"Hypertext"
+msgstr "हाइपरटेक्स्ट"
+
+#: factories/stdwidgetfactory.cpp:345
+msgid ""
+"_: For Text Format\n"
+"Auto"
+msgstr "स्वत:"
+
+#: factories/stdwidgetfactory.cpp:346
+msgid ""
+"_: For Text Format\n"
+"Log"
+msgstr "लग"
+
+#: factories/stdwidgetfactory.cpp:349
+msgid "Tab Stop Width"
+msgstr "ट्याब रोकाइ चौडाइ"
+
+#: factories/stdwidgetfactory.cpp:350
+msgid "Tab Changes Focus"
+msgstr "ट्याबले फोकस परिवर्तन गर्दछ"
+
+#: factories/stdwidgetfactory.cpp:351
+msgid "Word Wrap Policy"
+msgstr "शब्द बेराइ नीति"
+
+#: factories/stdwidgetfactory.cpp:352
+msgid ""
+"_: For Word Wrap Policy\n"
+"At Word Boundary"
+msgstr "शब्द दायरामा"
+
+#: factories/stdwidgetfactory.cpp:353
+msgid ""
+"_: For Word Wrap Policy\n"
+"Anywhere"
+msgstr "कहीँ पनि"
+
+#: factories/stdwidgetfactory.cpp:354
+msgid ""
+"_: For Word Wrap Policy\n"
+"At Word Boundary If Possible"
+msgstr "सम्भव भएमा शब्द दायरामा"
+
+#: factories/stdwidgetfactory.cpp:355
+msgid "Word Wrapping"
+msgstr "शब्द बेराइ"
+
+#: factories/stdwidgetfactory.cpp:356
+msgid "Word Wrap Position"
+msgstr "शब्द बेर्ने स्थिति"
+
+#: factories/stdwidgetfactory.cpp:357
+msgid ""
+"_: For Word Wrap Position\n"
+"None"
+msgstr "कुनै पनि होइन"
+
+#: factories/stdwidgetfactory.cpp:358
+msgid ""
+"_: For Word Wrap Position\n"
+"Widget's Width"
+msgstr "विजेटको चौडाइ"
+
+#: factories/stdwidgetfactory.cpp:359
+msgid ""
+"_: For Word Wrap Position\n"
+"In Pixels"
+msgstr "पिक्सेलमा"
+
+#: factories/stdwidgetfactory.cpp:360
+msgid ""
+"_: For Word Wrap Position\n"
+"In Columns"
+msgstr "स्तम्भमा"
+
+#: factories/stdwidgetfactory.cpp:361
+msgid "Links Underlined"
+msgstr "लिङ्कहरू अधोरेखा गरीयो"
+
+#: factories/stdwidgetfactory.cpp:367
+msgid "Insert &Horizontal Line"
+msgstr "तेर्सो गरी रेखा घुसाउनुहोस्"
+
+#: factories/stdwidgetfactory.cpp:368
+msgid "Insert &Vertical Line"
+msgstr "ठाडो गरी रेखा घुसाउनुहोस्"
+
+#: factories/stdwidgetfactory.cpp:372
+msgid "Insert &Horizontal Spring"
+msgstr "तेर्सो स्प्रिङ घुसाउनुहोस्"
+
+#: factories/stdwidgetfactory.cpp:373
+msgid "Insert &Vertical Spring"
+msgstr "ठाडो स्प्रिङ घुसाउनुहोस्"
+
+#: factories/stdwidgetfactory.cpp:424
+msgid "Column 1"
+msgstr "स्तम्भ १"
+
+#: factories/stdwidgetfactory.cpp:977
+msgid ""
+"_: default indent value\n"
+"default"
+msgstr "पूर्वनिर्धारित"
+
+#: tabstopdialog.cpp:59
+msgid "Move Up"
+msgstr "माथि सार्नुहोस्"
+
+#: tabstopdialog.cpp:60
+msgid "Move widget up"
+msgstr "विजेट माथि सार्नुहोस्"
+
+#: tabstopdialog.cpp:64
+msgid "Move Down"
+msgstr "तल सार्नुहोस्"
+
+#: tabstopdialog.cpp:65
+msgid "Move widget down"
+msgstr "विजेट तल सार्नुहोस्"
+
+#: tabstopdialog.cpp:70
+msgid "Handle tab order automatically"
+msgstr "ट्याब क्रम स्वचालित रूपमा ह्यान्डल गर्नुहोस्"

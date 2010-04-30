@@ -1,0 +1,208 @@
+# translation of kcmcddb.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcddb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 12:09+0000\n"
+"PO-Revision-Date: 2009-07-16 09:52+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: cddbconfigwidget.cpp:55
+msgid "Cache Locations"
+msgstr "क्यास स्थान"
+
+#: cddbconfigwidget.cpp:82
+msgid "Could not fetch mirror list."
+msgstr "मिरर सूची तान्न सकेन ।"
+
+#: cddbconfigwidget.cpp:82
+msgid "Could Not Fetch"
+msgstr "तान्न सकेन"
+
+#: cddbconfigwidget.cpp:86
+msgid "Select mirror"
+msgstr "मिरर चयन गर्नुहोस्"
+
+#: cddbconfigwidget.cpp:87
+msgid "Select one of these mirrors"
+msgstr "यी मिरर मध्ये एउटा रोज्नुहोस्"
+
+#. i18n: file: cddbconfigwidget.ui:129
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FreedbLookupTransport)
+#. i18n: file: cddbconfigwidget.ui:179
+#. i18n: ectx: property (text), widget (QRadioButton, httpButton)
+#: cddbconfigwidget.cpp:104 rc.cpp:42 rc.cpp:57
+msgid "HTTP"
+msgstr "एचटीटीपी"
+
+#. i18n: file: cddbconfigwidget.ui:124
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FreedbLookupTransport)
+#: cddbconfigwidget.cpp:106 rc.cpp:39
+msgid "CDDB"
+msgstr "सीडीडीबी"
+
+#: kcmcddb.cpp:62
+msgid ""
+"CDDB is used to get information like artist, title and song-names in CD's"
+msgstr ""
+"सीडीडीबी सीडीमा सूचना प्राप्त गर्न प्रयोग गरिन्छ जस्तै कलाकार, शीर्षक र गीत-"
+"नाम"
+
+#: kcmcddb.cpp:90
+msgid ""
+"freedb has been set to use HTTP for submissions because the email details "
+"you have entered are incomplete. Please review your email settings and try "
+"again."
+msgstr ""
+"फ्रि डी बी दाखिलाका लागि एचटीटीपी प्रयोग गर्न सेट गरियो किनभने तपाईँले "
+"प्रविष्ट गर्नुभएको इमेल विवरण अपूर्ण छ । कृपया तपाईँको इमेल सेटिङ "
+"पूर्वावलोकन गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: kcmcddb.cpp:93
+msgid "Incorrect Email Settings"
+msgstr "अशुद्ध इमेल सेटिङ"
+
+#. i18n: file: cddbconfigwidget.ui:7
+#. i18n: ectx: property (windowTitle), widget (QWidget, CDDBConfigWidgetBase)
+#: rc.cpp:3
+msgid "CDDB Settings"
+msgstr "सीडीडीबी सेटिङ"
+
+#. i18n: file: cddbconfigwidget.ui:20
+#. i18n: ectx: attribute (title), widget (QWidget, tabLookup)
+#: rc.cpp:6
+msgid "&Lookup"
+msgstr "हेराइ"
+
+#. i18n: file: cddbconfigwidget.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MusicBrainzLookupEnabled)
+#: rc.cpp:9
+msgid "Enable MusicBrainz lookup"
+msgstr ""
+
+#. i18n: file: cddbconfigwidget.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FreedbLookupEnabled)
+#: rc.cpp:12
+msgid "Enable freedb lookup"
+msgstr ""
+
+#. i18n: file: cddbconfigwidget.ui:40
+#. i18n: ectx: property (title), widget (QGroupBox, freedbServerBox)
+#: rc.cpp:15
+msgid "Freedb Server"
+msgstr ""
+
+#. i18n: file: cddbconfigwidget.ui:46
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: rc.cpp:18
+msgid "Freedb server:"
+msgstr ""
+
+#. i18n: file: cddbconfigwidget.ui:64
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_hostname)
+#: rc.cpp:21
+msgid "Name of CDDB server which will be used to look up CD information."
+msgstr "सीडी जानकारी हेर्न प्रयोग गरिने सीडीडीबी सर्भरको नाम"
+
+#. i18n: file: cddbconfigwidget.ui:67
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_hostname)
+#: rc.cpp:24
+msgid "freedb.freedb.org"
+msgstr "freedb.freedb.org"
+
+#. i18n: file: cddbconfigwidget.ui:80
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#. i18n: file: cddbconfigwidget.ui:209
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: cddbconfigwidget.ui:242
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:27 rc.cpp:63 rc.cpp:69
+msgid "Port:"
+msgstr "पोर्ट:"
+
+#. i18n: file: cddbconfigwidget.ui:93
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_port)
+#: rc.cpp:30
+msgid "Port to connect to on CDDB server."
+msgstr "सीडीडीबी सर्भरमा जडान गर्न पोर्ट गर्नुहोस् ।"
+
+#. i18n: file: cddbconfigwidget.ui:108
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#: rc.cpp:33
+msgid "&Transport:"
+msgstr "पारवाहन:"
+
+#. i18n: file: cddbconfigwidget.ui:120
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_FreedbLookupTransport)
+#: rc.cpp:36
+msgid "Type of lookup which should be tried at the CDDB server."
+msgstr "सीडीडीबी सर्भरमा प्रयास गरिने हेराइको प्रकार ।"
+
+#. i18n: file: cddbconfigwidget.ui:137
+#. i18n: ectx: property (text), widget (KPushButton, mirrorListButton)
+#: rc.cpp:45
+msgid "Show &Mirror List"
+msgstr "मिरर सूची देखाउनुहोस्"
+
+#. i18n: file: cddbconfigwidget.ui:153
+#. i18n: ectx: attribute (title), widget (QWidget, tabSubmit)
+#: rc.cpp:48
+msgid "&Submit"
+msgstr "पेश गर्नुहोस्"
+
+#. i18n: file: cddbconfigwidget.ui:161
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:51
+msgid "Email address:"
+msgstr "इमेल ठेगाना:"
+
+#. i18n: file: cddbconfigwidget.ui:173
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_FreedbSubmitTransport)
+#: rc.cpp:54
+msgid "Submit Method"
+msgstr "विधि पेश गर्नुहोस्"
+
+#. i18n: file: cddbconfigwidget.ui:189
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:60
+msgid "Server:"
+msgstr "सर्भर:"
+
+#. i18n: file: cddbconfigwidget.ui:221
+#. i18n: ectx: property (text), widget (QRadioButton, smtpButton)
+#: rc.cpp:66
+msgid "SMTP (Email)"
+msgstr "एसएमटीपी (इमेल)"
+
+#. i18n: file: cddbconfigwidget.ui:267
+#. i18n: ectx: property (text), widget (QCheckBox, needsAuthenticationBox)
+#: rc.cpp:72
+msgid "Server needs authentication"
+msgstr "सर्भरलाई प्रमाणीकरणको आवश्यक पर्दछ"
+
+#. i18n: file: cddbconfigwidget.ui:287
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
+#: rc.cpp:75
+msgid "Reply-To:"
+msgstr "यसलाई जवाफ दिनुहोस्:"
+
+#. i18n: file: cddbconfigwidget.ui:300
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:78
+msgid "SMTP server:"
+msgstr "एसएमटीपी सर्भर:"
+
+#. i18n: file: cddbconfigwidget.ui:307
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:81
+msgid "Username:"
+msgstr "प्रयोगकर्ता नाम:"

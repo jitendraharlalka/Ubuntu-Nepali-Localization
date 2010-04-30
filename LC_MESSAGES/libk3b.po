@@ -1,0 +1,3759 @@
+# translation of libk3b.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libk3b\n"
+"Report-Msgid-Bugs-To: <info@mpp.org.np>\n"
+"POT-Creation-Date: 2010-02-09 03:10+0000\n"
+"PO-Revision-Date: 2008-08-19 19:27+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: jobs/k3bdatatrackreader.cpp:149 jobs/k3bdatatrackreader.cpp:183
+#: jobs/k3baudiosessionreadingjob.cpp:150
+#, kde-format
+msgid "Could not open device %1"
+msgstr "यन्त्र खोल्न सकेन %1"
+
+#: jobs/k3bdatatrackreader.cpp:178
+msgid "Unable to open libdvdcss."
+msgstr "libdvdcss खोल्न असक्षम भयो ।"
+
+#: jobs/k3bdatatrackreader.cpp:187
+msgid "Retrieving all CSS keys. This might take a while."
+msgstr "सबै सीएसएस कुञ्जीहरू पुन: प्राप्त गर्दै । यसले केही समय लिन सक्छ ।"
+
+#: jobs/k3bdatatrackreader.cpp:190
+msgid "Failed to retrieve all CSS keys."
+msgstr "सबै सीएसएस कुञ्जीहरू पुन: प्राप्त गर्न असफल भयो ।"
+
+#: jobs/k3bdatatrackreader.cpp:191
+msgid "Video DVD decryption failed."
+msgstr ""
+
+#: jobs/k3bdatatrackreader.cpp:215
+msgid "No support for reading formless Mode2 sectors."
+msgstr "फर्मविहिन मोड२ सेक्टर पढ्नका लागि कुनै समर्थन छैन ।"
+
+#: jobs/k3bdatatrackreader.cpp:217
+msgid "Unsupported sector type."
+msgstr "असमर्थित सेक्टर प्रकार ।"
+
+#: jobs/k3bdatatrackreader.cpp:224
+#, kde-format
+msgid "Reading with sector size %1."
+msgstr "सेक्टर साइज %1 सँग पढ्दै ।"
+
+#: jobs/k3bdatatrackreader.cpp:240 jobs/k3bdvdcopyjob.cpp:355
+#: jobs/k3baudiosessionreadingjob.cpp:209
+#, kde-format
+msgid "Unable to open '%1' for writing."
+msgstr "लेख्नका लागि '%1' खोल्न असक्षम भयो ।"
+
+#: jobs/k3bdatatrackreader.cpp:271 jobs/k3bdatatrackreader.cpp:446
+#, kde-format
+msgid "Error while reading sector %1."
+msgstr "सेक्टर %1 पढ्दा त्रुटि ।"
+
+#: jobs/k3bdatatrackreader.cpp:353
+#, kde-format
+msgid "Ignored %1 erroneous sector."
+msgid_plural "Ignored a total of %1 erroneous sectors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobs/k3bdatatrackreader.cpp:422
+#, kde-format
+msgid "Problem while reading. Retrying from sector %1."
+msgstr "पढ्दा त्रुटि । सेक्टर %1 बाट पुन: प्रयास गर्दै ।"
+
+#: jobs/k3bdatatrackreader.cpp:438
+#, kde-format
+msgid "Ignoring read error in sector %1."
+msgstr "सेक्टर %1 मा पढ्ने त्रुटि उपेक्षा गर्दै ।"
+
+#: jobs/k3bclonejob.cpp:88 jobs/k3bdvdformattingjob.cpp:463
+#: jobs/k3bcdda2wavreader.cpp:97 jobs/k3bdvdbooktypejob.cpp:287
+#: jobs/k3breadcdreader.cpp:106 projects/k3bcdrdaowriter.cpp:450
+#: projects/k3bcdrecordwriter.cpp:214 projects/datacd/k3bmsinfofetcher.cpp:56
+#: projects/datacd/k3bmsinfofetcher.cpp:92 projects/k3bgrowisofswriter.cpp:156
+#: projects/videocd/k3bvcdjob.cpp:204
+#, kde-format
+msgid "Could not find %1 executable."
+msgstr "कार्यान्वयनयोग्य %1 फेला पार्न सकेन ।"
+
+#: jobs/k3bclonejob.cpp:94
+#, kde-format
+msgid "Cdrecord version %1 does not have cloning support."
+msgstr "सीडी रेकर्ड संस्करण %1 सँग क्लोनिङ समर्थन छैन ।"
+
+#: jobs/k3bclonejob.cpp:102
+msgid "No device set."
+msgstr "कुनै यन्त्र सेट छैन ।"
+
+#: jobs/k3bclonejob.cpp:111
+#, kde-format
+msgid "CD writer %1 (%2) does not support cloning."
+msgstr ""
+
+#: jobs/k3bclonejob.cpp:144
+msgid "Reading clone image"
+msgstr "क्लोन छवि पढ्दै"
+
+#: jobs/k3bclonejob.cpp:225 projects/datacd/k3bdatajob.cpp:471
+#: projects/videocd/k3bvcdjob.cpp:466
+#, kde-format
+msgid "Writing Track %1 of %2"
+msgstr "%2 को ट्रयाक %1 लेख्दै"
+
+#: jobs/k3bclonejob.cpp:242
+#, kde-format
+msgid "Successfully written clone copy %1."
+msgstr ""
+
+#: jobs/k3bclonejob.cpp:290
+msgid "Successfully read disk."
+msgstr "डिस्क सफलतापूर्वक पढियो ।"
+
+#: jobs/k3bclonejob.cpp:302
+msgid "Failed to read disk completely in clone mode."
+msgstr ""
+
+#: jobs/k3bclonejob.cpp:309
+msgid "Error while reading disk."
+msgstr "डिस्क पढ्दा त्रुटि ।"
+
+#: jobs/k3bclonejob.cpp:335
+msgid "Simulating clone copy"
+msgstr "क्लोन प्रतिलिपि नक्कल गर्दै"
+
+#: jobs/k3bclonejob.cpp:337
+#, kde-format
+msgid "Writing clone copy %1"
+msgstr ""
+
+#: jobs/k3bclonejob.cpp:346 jobs/k3bcdcopyjob.cpp:1122
+msgid "Removing image files."
+msgstr "छवि फाइल हटाउँदै ।"
+
+#: jobs/k3bclonejob.cpp:358
+msgid "Creating Clone Image"
+msgstr "क्लोन छवि सिर्जना गर्दै"
+
+#: jobs/k3bclonejob.cpp:361
+msgid "Simulating Clone Image"
+msgstr "क्लोन छवि नक्कल गर्दै"
+
+#: jobs/k3bclonejob.cpp:363
+msgid "Burning Clone Image"
+msgstr "क्लोन छवि बर्न गर्दै"
+
+#: jobs/k3bclonejob.cpp:366
+msgid "Simulating CD Cloning"
+msgstr "सीडी क्लोनिङ नक्कल गर्दै"
+
+#: jobs/k3bclonejob.cpp:368
+msgid "Cloning CD"
+msgstr "सीडी क्लोन गर्दै"
+
+#: jobs/k3bclonejob.cpp:374
+#, kde-format
+msgid "Creating 1 clone copy"
+msgid_plural "Creating %1 clone copies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobs/k3bdvdcopyjob.cpp:122 jobs/k3bcdcopyjob.cpp:162
+msgid "Checking Source Medium"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:127
+#, kde-format
+msgid "K3b does not support writing on-the-fly with growisofs %1."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:129
+msgid "Disabling on-the-fly writing."
+msgstr "फ्लाइ लेखनमा अक्षम पार्दै"
+
+#: jobs/k3bdvdcopyjob.cpp:132 jobs/k3bcdcopyjob.cpp:165
+msgid "Waiting for source medium"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:144 jobs/k3bcdcopyjob.cpp:175
+msgid "Checking source medium"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:164
+msgid "No source medium found."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:183
+msgid "Found encrypted DVD."
+msgstr "गुप्तिकृत डीभीडी फेला पर्यो ।"
+
+#: jobs/k3bdvdcopyjob.cpp:199
+msgid "Cannot copy encrypted DVDs."
+msgstr "गुप्तिकृत डीभीडीहरू प्रतिलिपि गर्न सकिँदैन ।"
+
+#: jobs/k3bdvdcopyjob.cpp:235
+msgid "The writer does not support writing Double Layer DVDs."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:242
+msgid "This growisofs version does not support writing Double Layer DVDs."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:259
+msgid "K3b does not support copying multi-session DVD or Blu-ray disks."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:282
+msgid "K3b relies on the size saved in the ISO9660 header."
+msgstr "K3b ISO9660 हेडरमा बचत गरिएको साइजमा आश्रित हुन्छ ।"
+
+#: jobs/k3bdvdcopyjob.cpp:283
+msgid ""
+"This might result in a corrupt copy if the source was mastered with buggy "
+"software."
+msgstr ""
+"यदि स्रोत बग्गी सफ्टवेयरबाट मास्टर गरिएको छ भने यसले दूषित प्रतिलिपिको नतिजा "
+"दिन सक्छ ।"
+
+#: jobs/k3bdvdcopyjob.cpp:290 jobs/k3bverificationjob.cpp:133
+#: jobs/k3bverificationjob.cpp:348
+msgid "Unable to determine the ISO9660 filesystem size."
+msgstr "ISO9660 फाइलप्रणाली साइज निर्धारण गर्न असक्षम भयो ।"
+
+#: jobs/k3bdvdcopyjob.cpp:299
+msgid "K3b does not support copying DVD-RAM."
+msgstr "K3b ले डीभीडी र्याम प्रतिलिपि गर्न समर्थन गर्दैन ।"
+
+#: jobs/k3bdvdcopyjob.cpp:305
+msgid "Unsupported media type."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:318 jobs/k3bcdcopyjob.cpp:583
+#, kde-format
+msgid "Do you want to overwrite %1?"
+msgstr "तपाईँ %1 अधिलेखन चाहनुहुन्छ ?"
+
+#: jobs/k3bdvdcopyjob.cpp:319 jobs/k3bcdcopyjob.cpp:584
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: jobs/k3bdvdcopyjob.cpp:323 jobs/k3bcdcopyjob.cpp:542
+#: jobs/k3bcdcopyjob.cpp:588
+msgid "Specified an unusable temporary path. Using default."
+msgstr ""
+"एउटा अनुपयोगी अस्थायी मार्ग निर्दिष्ट गरियो । पूर्वनिर्धाण प्रयोग गर्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:328 jobs/k3bcdcopyjob.cpp:593
+#, kde-format
+msgid "Writing image file to %1."
+msgstr "%1 मा छवि फाइल लेख्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:329
+msgid "Reading source medium."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:339 jobs/k3bcdcopyjob.cpp:319
+#, kde-format
+msgid "Unable to determine free space in temporary folder '%1'."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:346 jobs/k3bcdcopyjob.cpp:325
+msgid "Not enough space left in temporary folder."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:363 jobs/k3bcdcopyjob.cpp:334
+msgid "Unmounting source medium"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:368
+msgid "Creating image"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:374
+msgid "Simulating copy"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:376 jobs/k3bdvdcopyjob.cpp:591
+#: jobs/k3bdvdcopyjob.cpp:681 jobs/k3bdvdcopyjob.cpp:741
+#, kde-format
+msgid "Writing copy %1"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:378 jobs/k3bdvdcopyjob.cpp:593
+msgid "Writing copy"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:568
+msgid "Successfully read source medium."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:580
+msgid "K3b was unable to eject the source medium. Please do so manually."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:641
+#, kde-format
+msgid "Successfully written copy %1."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:664
+#, kde-format
+msgid "Verifying copy %1"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:666
+msgid "Verifying copy"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:676 jobs/k3biso9660imagewritingjob.cpp:155
+msgid "K3b was unable to eject the written medium. Please do so manually."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:804
+#, kde-format
+msgid "Unsupported media type: %1"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:827 jobs/k3bdvdcopyjob.cpp:920
+#: projects/datacd/k3bdatajob.cpp:832 projects/datacd/k3bdatajob.cpp:949
+#, kde-format
+msgid ""
+"%1 media do not support write simulation. Do you really want to continue? "
+"The disc will actually be written to."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:830 jobs/k3bdvdcopyjob.cpp:923
+#: projects/datacd/k3bdatajob.cpp:835 projects/datacd/k3bdatajob.cpp:952
+#, kde-format
+msgid "No Simulation with %1"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:836
+msgid "Writing DVD copy"
+msgstr "डीभीडी प्रतिलिपि लेख्दै"
+
+#: jobs/k3bdvdcopyjob.cpp:840
+msgid "Writing mode ignored when writing DVD+R(W) media."
+msgstr "DVD+R(W) मिडिया लेख्दा लेख्ने मोड उपेक्षा गरियो ।"
+
+#: jobs/k3bdvdcopyjob.cpp:842 jobs/k3bdvdcopyjob.cpp:932
+#: jobs/k3bmetawriter.cpp:854 jobs/k3bmetawriter.cpp:863
+#: projects/datacd/k3bdatajob.cpp:857 projects/datacd/k3bdatajob.cpp:975
+#, kde-format
+msgid "Writing %1."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:850 jobs/k3bmetawriter.cpp:506
+#: projects/datacd/k3bdatajob.cpp:865
+#, kde-format
+msgid ""
+"Your writer (%1 %2) does not support simulation with DVD-R(W) media. Do you "
+"really want to continue? The media will actually be written to."
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:855 jobs/k3bmetawriter.cpp:511
+#: projects/datacd/k3bdatajob.cpp:870
+msgid "No Simulation with DVD-R(W)"
+msgstr "DVD-R(W) सँग कुनै नक्कल छैन"
+
+#: jobs/k3bdvdcopyjob.cpp:876 jobs/k3bmetawriter.cpp:850
+#: projects/datacd/k3bdatajob.cpp:884
+msgid "Writing DVD-RW in restricted overwrite mode."
+msgstr "प्रतिबन्धित अधिलेखन मोडमा DVD-RW लेख्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:884
+msgid "Writing DVD-RW in DAO mode."
+msgstr "DAO मोडमा DVD-RW लेख्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:888
+msgid "Writing DVD-RW in incremental mode."
+msgstr "बढोत्तरित मोडमा DVD-RW लेख्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:897 jobs/k3bmetawriter.cpp:443
+#: jobs/k3bmetawriter.cpp:492 projects/datacd/k3bdatajob.cpp:925
+msgid "Restricted Overwrite is not possible with DVD-R media."
+msgstr "DVD-R मिडियासँग प्रतिबन्धित अधिलेखन सम्भव छैन ।"
+
+#: jobs/k3bdvdcopyjob.cpp:902 jobs/k3bmetawriter.cpp:856
+#: projects/datacd/k3bdatajob.cpp:901 projects/datacd/k3bdatajob.cpp:918
+#, kde-format
+msgid "Writing %1 in DAO mode."
+msgstr "DAO मोडमा %1 लेख्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:906 jobs/k3bmetawriter.cpp:858
+#: projects/datacd/k3bdatajob.cpp:927
+#, kde-format
+msgid "Writing %1 in incremental mode."
+msgstr "बढोत्तरित मोडमा %1 लेख्दै ।"
+
+#: jobs/k3bdvdcopyjob.cpp:929
+msgid "Writing BD copy"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:945 projects/datacd/k3bdatajob.cpp:1031
+#, kde-format
+msgid "Removed image file %1"
+msgstr "हटाइएको छवि फाइल %1"
+
+#: jobs/k3bdvdcopyjob.cpp:953
+msgid "Creating Image"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:957
+msgid "Copying DVD or BD On-The-Fly"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:959
+msgid "Copying DVD or BD"
+msgstr ""
+
+#: jobs/k3bdvdcopyjob.cpp:966 jobs/k3bcdcopyjob.cpp:1230
+#, kde-format
+msgid "Creating 1 copy"
+msgid_plural "Creating %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobs/k3bverificationjob.cpp:109 jobs/k3bcdcopyjob.cpp:1044
+#: projects/mixedcd/k3bmixedjob.cpp:533
+msgid "Need to reload medium to return to proper state."
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:231
+msgid "no tracks added"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:230 jobs/k3bverificationjob.cpp:271
+#: jobs/k3bverificationjob.cpp:294
+#, kde-format
+msgid "Internal Error: Verification job improperly initialized (%1)"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:236
+msgid "Checking medium"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:254 jobs/k3bcdcopyjob.cpp:1101
+#: projects/k3bcdrecordwriter.cpp:765 projects/mixedcd/k3bmixedjob.cpp:568
+msgid "Please reload the medium and press 'ok'"
+msgstr "कृपया माध्यम पुन: लोड गर्नुहोस् र 'ठीक छ' थिच्नुहोस्"
+
+#: jobs/k3bverificationjob.cpp:255 jobs/k3bcdcopyjob.cpp:1102
+msgid "Failed to reload the medium"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:272 jobs/k3bverificationjob.cpp:295
+#, kde-format
+msgid "specified track number '%1' not found on medium"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:316
+#, kde-format
+msgid "Verifying track %1"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:384
+#, kde-format
+msgid "Written data in track %1 differs from original."
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:388
+msgid "Written data verified."
+msgstr ""
+
+#: jobs/k3biso9660imagewritingjob.cpp:90 projects/mixedcd/k3bmixedjob.cpp:222
+#: projects/datacd/k3bdatajob.cpp:150 projects/audiocd/k3baudiojob.cpp:156
+msgid "Preparing data"
+msgstr "डेटा तयार गर्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:93
+#, kde-format
+msgid "Could not find image %1"
+msgstr "छवि फेला पार्न सकेन %1"
+
+#: jobs/k3biso9660imagewritingjob.cpp:139 projects/datacd/k3bdatajob.cpp:524
+msgid "Verifying written data"
+msgstr "लेखिएको डेटा रूजू गर्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:141
+#, kde-format
+msgid "Verifying written copy %1 of %2"
+msgstr "%2 को लेखिएको प्रतिलिपि %1 रूजू गर्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:214
+msgid "Writing image"
+msgstr "छवि लेख्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:216
+#, kde-format
+msgid "Writing copy %1 of %2"
+msgstr "%2 प्रतिलिपि %1 लेख्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:235
+msgid "Waiting for medium"
+msgstr ""
+
+#: jobs/k3biso9660imagewritingjob.cpp:342
+msgid "Simulating ISO9660 Image"
+msgstr "ISO9660 छवि नक्कल गर्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:344
+msgid "Burning ISO9660 Image"
+msgstr "ISO9660 छवि बर्न गर्दै"
+
+#: jobs/k3biso9660imagewritingjob.cpp:346 jobs/k3bbinimagewritingjob.cpp:212
+#, kde-format
+msgid " - %1 Copy"
+msgid_plural " - %1 Copies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobs/k3bcdcopyjob.cpp:203
+msgid "K3b does not copy CDs containing multiple data tracks."
+msgstr ""
+"K3b ले बहुविध डेटा ट्रयाकहरू समाविष्ट गरेको सीडीहरू प्रतिलिपि गर्दैन ।"
+
+#: jobs/k3bcdcopyjob.cpp:207
+msgid "Copying Multisession Data CD."
+msgstr "बहुसत्रिय डेटा सीडी प्रतिलिपि गर्दै ।"
+
+#: jobs/k3bcdcopyjob.cpp:209
+msgid "Copying Data CD."
+msgstr "डेटा सीडी प्रतिलिपि गर्दै ।"
+
+#: jobs/k3bcdcopyjob.cpp:215
+msgid "K3b can only copy CD-Extra mixed mode CDs."
+msgstr "K3b ले मात्र सीडी-अतिरिक्त मिश्रित मोड सीडीहरू प्रतिलिपि गर्न सक्छ ।"
+
+#: jobs/k3bcdcopyjob.cpp:219
+msgid "Copying Enhanced Audio CD (CD-Extra)."
+msgstr "विस्तारित अडियो सीडी (सीडी-अतिरिक्त) प्रतिलिपि गर्दै ।"
+
+#: jobs/k3bcdcopyjob.cpp:224
+msgid "Copying Audio CD."
+msgstr "अडियो सीडी प्रतिलिपि गर्दै ।"
+
+#: jobs/k3bcdcopyjob.cpp:229
+msgid "The source disk is empty."
+msgstr "स्रोत डिस्क खाली छ ।"
+
+#: jobs/k3bcdcopyjob.cpp:271
+msgid "K3b needs cdrecord 2.01a12 or newer to copy Mode2 data tracks."
+msgstr ""
+"K3b लाई मोड२ डेटा ट्रयाक प्रतिलिपि गर्न सीडी रेकर्ड 2.01a12 वा नयाँ आवश्यक "
+"पर्दछ ।"
+
+#: jobs/k3bcdcopyjob.cpp:283
+msgid ""
+"You will only be able to copy the first session in raw writing mode. "
+"Continue anyway?"
+msgstr ""
+"तपाईँले कच्चा लेखन मोडमा पहिलो सत्र मात्र प्रतिलिपि गर्नुपर्नेछ । जे भए पनि "
+"जारी राख्नुहुन्छ ?"
+
+#: jobs/k3bcdcopyjob.cpp:285
+msgid "Multisession CD"
+msgstr "बहुसत्रिय सीडी"
+
+#: jobs/k3bcdcopyjob.cpp:290
+msgid "Only copying first session."
+msgstr "पहिलो सत्र मात्र प्रतिलिपि गर्दै ।"
+
+#: jobs/k3bcdcopyjob.cpp:363
+msgid "Unable to read Table of contents"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:371
+msgid "Searching CD-TEXT"
+msgstr "सीडी-पाठ खोजी गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:385
+#, kde-format
+msgid "Found CD-TEXT (%1 - %2)."
+msgstr "सीडी-पाठ फेला पर्यो (%1 - %2) ।"
+
+#: jobs/k3bcdcopyjob.cpp:390
+msgid "Found corrupted CD-TEXT. Ignoring it."
+msgstr "दूषित सीडी-पाठ फेला पर्यो । यसलाई उपेक्षा गर्दै ।"
+
+#: jobs/k3bcdcopyjob.cpp:395
+msgid "No CD-TEXT found."
+msgstr "कुनै सीडी-पाठ फेला परेन ।"
+
+#: jobs/k3bcdcopyjob.cpp:406
+msgid "Querying Cddb"
+msgstr "सीडीडीबी क्वेरी गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:427
+#, kde-format
+msgid "Found Cddb entry (%1 - %2)."
+msgstr "सीडीडी प्रविष्टि फेला पर्यो (%1 - %2) ।"
+
+#: jobs/k3bcdcopyjob.cpp:450
+msgid "No Cddb entry found."
+msgstr "कुनै सीडीडीबी प्रविष्टि फेला परेन ।"
+
+#: jobs/k3bcdcopyjob.cpp:453
+#, kde-format
+msgid "Cddb error (%1)."
+msgstr "सीडीडीबी त्रुटि (%1) ।"
+
+#: jobs/k3bcdcopyjob.cpp:469
+#, kde-format
+msgid ""
+"Found CD-TEXT (%1 - %2) and Cddb (%3 - %4) entries. Which one should be used "
+"to generate the CD-TEXT on the new CD?"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:475
+msgid "CD-TEXT"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:476
+msgid "Use CD-TEXT data"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:477
+msgid "Use Cddb entry"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:483 projects/k3bcdrdaowriter.cpp:523
+#: projects/k3bcdrecordwriter.cpp:448 projects/k3bgrowisofswriter.cpp:355
+msgid "Preparing write process..."
+msgstr "लेख्ने प्रक्रिया तयार गरिँदैछ..."
+
+#: jobs/k3bcdcopyjob.cpp:553 projects/videodvd/k3bvideodvdimager.cpp:112
+#: projects/videodvd/k3bvideodvdimager.cpp:118
+#, kde-format
+msgid "Unable to create temporary folder '%1'."
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:560
+#, kde-format
+msgid "Using temporary folder %1."
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:609
+#, kde-format
+msgid "Reading Session %1"
+msgstr "सत्र %1 पढ्दै"
+
+#: jobs/k3bcdcopyjob.cpp:611
+msgid "Reading Source Medium"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:614 jobs/k3bcdcopyjob.cpp:1203
+#, kde-format
+msgid "Reading track %1 of %2"
+msgstr "%2 को ट्रयाक %1 पढ्दै"
+
+#: jobs/k3bcdcopyjob.cpp:707
+#, kde-format
+msgid "Simulating Session %1"
+msgstr "सत्र %1 नक्कल गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:709
+#, kde-format
+msgid "Writing Copy %1 (Session %2)"
+msgstr "प्रतिलिपि %1 (सत्र %2) लेख्दै"
+
+#: jobs/k3bcdcopyjob.cpp:711
+#, kde-format
+msgid "Writing Copy (Session %1)"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:715 projects/k3bcdrdaowriter.cpp:564
+#: projects/k3bcdrdaowriter.cpp:580 projects/k3bcdrecordwriter.cpp:474
+#: projects/mixedcd/k3bmixedjob.cpp:1017 projects/datacd/k3bdatajob.cpp:440
+#: projects/k3bgrowisofswriter.cpp:380 projects/audiocd/k3baudiojob.cpp:656
+msgid "Simulating"
+msgstr "नक्कल गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:717 projects/mixedcd/k3bmixedjob.cpp:1019
+#: projects/datacd/k3bdatajob.cpp:442 projects/audiocd/k3baudiojob.cpp:658
+#, kde-format
+msgid "Writing Copy %1"
+msgstr "प्रतिलिपि %1 लेख्दै"
+
+#: jobs/k3bcdcopyjob.cpp:719
+msgid "Writing Copy"
+msgstr "प्रतिलिपि लेख्दै"
+
+#: jobs/k3bcdcopyjob.cpp:723 jobs/k3bdvdbooktypejob.cpp:114
+#: projects/mixedcd/k3bmixedjob.cpp:1026 projects/audiocd/k3baudiojob.cpp:663
+msgid "Waiting for media"
+msgstr "मिडियाका लागि पर्खदै"
+
+#: jobs/k3bcdcopyjob.cpp:863 jobs/k3bmetawriter.cpp:469
+#: projects/audiocd/k3baudiojob.cpp:303
+msgid "It is not possible to write CD-Text in TAO mode."
+msgstr "TAO मोडमा सीडी-पाठ लेख्न सम्भव छैन ।"
+
+#: jobs/k3bcdcopyjob.cpp:982
+#, kde-format
+msgid "Successfully read session %1."
+msgstr "सत्र %1 सफलतापूर्वक पढियो ।"
+
+#: jobs/k3bcdcopyjob.cpp:984
+msgid "Successfully read source disk."
+msgstr "स्रोत डिस्क सफलतापूर्वक पढियो ।"
+
+#: jobs/k3bcdcopyjob.cpp:999
+msgid "K3b was unable to eject the source disk. Please do so manually."
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:1016
+#, kde-format
+msgid "Error while reading session %1."
+msgstr "सत्र %1 पढ्दा त्रुटि ।"
+
+#: jobs/k3bcdcopyjob.cpp:1045
+msgid "Reloading the medium"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:1063 projects/mixedcd/k3bmixedjob.cpp:547
+#: projects/datacd/k3bdatajob.cpp:533 projects/videocd/k3bvcdjob.cpp:506
+#: projects/audiocd/k3baudiojob.cpp:425
+msgid "K3b was unable to eject the written disk. Please do so manually."
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:1116 projects/audiocd/k3baudiojob.cpp:701
+msgid "Removing temporary files."
+msgstr "अस्थायी फाइल हटाउँदै ।"
+
+#: jobs/k3bcdcopyjob.cpp:1181 jobs/k3bcdcopyjob.cpp:1183
+#: jobs/k3bcdcopyjob.cpp:1186 jobs/k3bcdcopyjob.cpp:1188
+#: jobs/k3bbinimagewritingjob.cpp:204
+#, kde-format
+msgid "Writing track %1 of %2"
+msgstr "%2 को ट्रयाक %1 लेख्दै"
+
+#: jobs/k3bcdcopyjob.cpp:1211
+msgid "Creating CD Image"
+msgstr "सीडी छवि सिर्जना गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:1215
+msgid "Simulating CD Copy On-The-Fly"
+msgstr "फ्लाइमा सीडी प्रतिलिपि नक्कल गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:1217
+msgid "Simulating CD Copy"
+msgstr "सीडी प्रतिलिपि नक्कल गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:1221
+msgid "Copying CD On-The-Fly"
+msgstr "फ्लाइमा सीडी प्रतिलिपि गर्दै"
+
+#: jobs/k3bcdcopyjob.cpp:1223
+msgid "Copying CD"
+msgstr "सीडी प्रतिलिपि गर्दै"
+
+#: jobs/k3baudiosessionreadingjob.cpp:142
+msgid "Could not load libcdparanoia."
+msgstr "libcdparanoia लोड गर्न सकेन ।"
+
+#: jobs/k3baudiosessionreadingjob.cpp:156
+msgid "Error while initializing audio ripping."
+msgstr "अडियो रिपिङ सुरु गर्दा त्रुटि ।"
+
+#: jobs/k3baudiosessionreadingjob.cpp:243
+#, kde-format
+msgid "Unrecoverable error while ripping track %1."
+msgstr "ट्रयाक %1 रिप गर्दा पुन: प्राप्ति अयोग्य त्रुटि ।"
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:90
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:125
+#, kde-format
+msgid "%1 executable could not be found."
+msgstr ""
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:96
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:131
+#, kde-format
+msgid "%1 version %2 is too old."
+msgstr ""
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:106
+#: jobs/k3bdvdformattingjob.cpp:470
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:141
+#: projects/k3bcdrdaowriter.cpp:458 projects/k3bcdrecordwriter.cpp:430
+#: projects/datacd/k3bmkisofshandler.cpp:62
+#: projects/k3bgrowisofswriter.cpp:170 projects/videocd/k3bvcdjob.cpp:222
+#: projects/audiocd/k3baudionormalizejob.cpp:62
+#, kde-format
+msgid "Using %1 %2 - Copyright (C) %3"
+msgstr "%1 %2 प्रयोग गर्दै - प्रतिलिपिअधिकार (सी) %3"
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:111
+#, kde-format
+msgid "Analysing Title %1 of Video DVD %2"
+msgstr ""
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:181
+#: jobs/k3bdvdformattingjob.cpp:504
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:379 jobs/k3bcdda2wavreader.cpp:136
+#: jobs/k3bdvdbooktypejob.cpp:335 projects/k3bcdrdaowriter.cpp:552
+#: projects/k3bcdrecordwriter.cpp:468 projects/datacd/k3bisoimager.cpp:307
+#: projects/datacd/k3bisoimager.cpp:449 projects/k3bgrowisofswriter.cpp:375
+#: projects/videocd/k3bvcdjob.cpp:258
+#, kde-format
+msgid "Could not start %1."
+msgstr "%1 सुरु गर्न सकेन ।"
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:185
+#, kde-format
+msgid "Analysing Chapter %1 of %2"
+msgstr ""
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:262
+msgid ""
+"Ignoring clipping values of last chapter due to its short playback time."
+msgstr ""
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:278
+#: jobs/k3bdvdformattingjob.cpp:271
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:475 jobs/k3bcdda2wavreader.cpp:241
+#: jobs/k3bdvdbooktypejob.cpp:192 projects/k3bcdrdaowriter.cpp:752
+#: projects/k3bcdrecordwriter.cpp:926 projects/datacd/k3bisoimager.cpp:171
+#: projects/videocd/k3bvcdjob.cpp:358
+#: projects/audiocd/k3baudionormalizejob.cpp:186
+#, kde-format
+msgid "%1 returned an unknown error (code %2)."
+msgstr "%1 ले एउटा अज्ञात त्रुटि (कोड %2) फर्कायो ।"
+
+#: jobs/k3bvideodvdtitledetectclippingjob.cpp:281
+#: jobs/k3bdvdformattingjob.cpp:273
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:478 jobs/k3bdvdbooktypejob.cpp:194
+#: projects/datacd/k3bisoimager.cpp:173 projects/videocd/k3bvcdjob.cpp:360
+#: projects/audiocd/k3baudionormalizejob.cpp:188
+msgid "Please send me an email with the last output."
+msgstr "अन्तिम नतिजासँगै कृपया मलाई एउटा मेल पठाउनुहोस् ।"
+
+#: jobs/k3bdvdformattingjob.cpp:101
+msgid "Formatting disc"
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:108 jobs/k3bblankingjob.cpp:168
+msgid "Quick Format"
+msgstr "द्रुत ढाँचा"
+
+#: jobs/k3bdvdformattingjob.cpp:123 jobs/k3bdvdbooktypejob.cpp:103
+msgid "No device set"
+msgstr "कुनै यन्त्र सेट छैन"
+
+#: jobs/k3bdvdformattingjob.cpp:131 projects/k3bcdrdaowriter.cpp:535
+#: projects/k3bcdrecordwriter.cpp:452 projects/k3bgrowisofswriter.cpp:359
+msgid "Unmounting medium"
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:143
+#, kde-format
+msgid "Please insert a rewritable DVD medium into drive<p><b>%1 %2 (%3)</b>."
+msgstr ""
+"कृपया ड्राइभ <p><b>%1 %2 (%3)</b> मा पुन: लेखनयोग्य डीभीडी घुसाउँनुहोस् ।"
+
+#: jobs/k3bdvdformattingjob.cpp:153 jobs/k3bdvdbooktypejob.cpp:128
+msgid "Checking media..."
+msgstr "मिडिया जाँच गरिँदैछ..."
+
+#: jobs/k3bdvdformattingjob.cpp:154 jobs/k3bdvdbooktypejob.cpp:129
+msgid "Checking media"
+msgstr "मिडिया जाँच गर्दै"
+
+#: jobs/k3bdvdformattingjob.cpp:261
+msgid "Formatting successfully completed"
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:264
+msgid "Do not be concerned with the progress stopping before 100%."
+msgstr "१००% भन्दा अगाडि प्रगति रोकाइसँग सम्बन्ध नराख्नुहोस् ।"
+
+#: jobs/k3bdvdformattingjob.cpp:265
+msgid "The formatting will continue in the background during writing."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:279 jobs/k3bcdda2wavreader.cpp:247
+#: jobs/k3bdvdbooktypejob.cpp:200 projects/videocd/k3bvcdjob.cpp:366
+#: projects/audiocd/k3baudionormalizejob.cpp:198
+#, kde-format
+msgid "%1 did not exit cleanly."
+msgstr "%1 राम्रो सँग निस्केको छैन ।"
+
+#: jobs/k3bdvdformattingjob.cpp:290
+msgid "Ejecting medium..."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:302 projects/k3babstractwriter.cpp:87
+msgid "Unable to eject medium."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:321 jobs/k3bdvdbooktypejob.cpp:270
+msgid "Unable to determine media state."
+msgstr "मिडिया स्थिति निर्धारण गर्न असक्षम भयो ।"
+
+#: jobs/k3bdvdformattingjob.cpp:342
+#, kde-format
+msgid "Found %1 medium."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:346
+msgid "No rewritable DVD or BD medium found. Unable to format."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:371 jobs/k3bdvdformattingjob.cpp:421
+#, kde-format
+msgid "No need to format %1 media more than once."
+msgstr "एक पटक भन्दा बढी %1 मिडिया ढाँछाबद्ध गर्न आवश्यक छैन ।"
+
+#: jobs/k3bdvdformattingjob.cpp:373 jobs/k3bdvdformattingjob.cpp:423
+msgid "It may simply be overwritten."
+msgstr "यो साधारण रूपमा अधिलेखन गर्न सकिन्छ ।"
+
+#: jobs/k3bdvdformattingjob.cpp:376 jobs/k3bdvdformattingjob.cpp:415
+#: jobs/k3bdvdformattingjob.cpp:426
+msgid "Forcing formatting anyway."
+msgstr "जसरी पनि ढाँचा गर्न बल गर्ने ।"
+
+#: jobs/k3bdvdformattingjob.cpp:377
+#, kde-format
+msgid "It is not recommended to force formatting of %1 media."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:379
+msgid "After 10-20 reformats the media might become unusable."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:388
+#, kde-format
+msgid "Formatting %1 medium"
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:399
+#, kde-format
+msgid "Formatted in %1 mode."
+msgstr "%1 मोडमा ढाँचाबद्ध गरिएको ।"
+
+#: jobs/k3bdvdformattingjob.cpp:413
+msgid "Media is already empty."
+msgstr "मिडिया पहिल्यै खाली छ ।"
+
+#: jobs/k3bdvdformattingjob.cpp:440
+#, kde-format
+msgid "Formatting DVD-RW in %1 mode."
+msgstr "%1 मोडमा DVD+RW ढाँचाबद्ध गर्दै ।"
+
+#: jobs/k3bdvdformattingjob.cpp:447
+msgid ""
+"Unable to determine the current formatting state of the DVD-RW medium."
+msgstr ""
+
+#: jobs/k3bdvdformattingjob.cpp:509
+msgid "Formatting"
+msgstr "ढाँचा"
+
+#: jobs/k3bmetawriter.cpp:304 projects/datacd/k3bdatajob.cpp:790
+#: projects/datacd/k3bdatajob.cpp:813
+#, kde-format
+msgid "Cannot write %1 media using %2. Falling back to default application."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:310
+msgid "DVD and Blu-ray tracks can only be written in MODE1."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:329
+msgid ""
+"Missing Blu-ray support in cdrecord and growisofs. Please update the system."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:425 projects/audiocd/k3baudiojob.cpp:253
+msgid "Track lengths below 4 seconds violate the Red Book standard."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:457 projects/mixedcd/k3bmixedjob.cpp:1239
+#: projects/audiocd/k3baudiojob.cpp:291
+msgid "On-the-fly writing with cdrecord < 2.01a13 not supported."
+msgstr "फ्लाइमा cdrecord <2.01a13 सँग लेखन समर्थन गर्दैन ।"
+
+#: jobs/k3bmetawriter.cpp:464 projects/mixedcd/k3bmixedjob.cpp:1245
+#: projects/audiocd/k3baudiojob.cpp:298
+#, kde-format
+msgid "Cdrecord %1 does not support CD-Text writing."
+msgstr "cdrecord %1 ले सीडी-पाठ लेखन समर्थन गर्दैन ।"
+
+#: jobs/k3bmetawriter.cpp:476 projects/datacd/k3bdatajob.cpp:908
+#, kde-format
+msgid ""
+"Your writer (%1 %2) does not support Incremental Streaming with %3 media. "
+"Multisession will not be possible. Continue anyway?"
+msgstr ""
+"तपाईँको राइटर (%1 %2) ले %3 मिडियासँग बढोत्तरित प्रवाह समर्थन गर्दैन । "
+"बहुसत्र सम्भव हुनेछैन । जे भए पनि जारी राख्नुहुन्छ ?"
+
+#: jobs/k3bmetawriter.cpp:481 projects/datacd/k3bdatajob.cpp:913
+msgid "No Incremental Streaming"
+msgstr "कुनै बढोत्तरित प्रवाह छैन"
+
+#: jobs/k3bmetawriter.cpp:497
+msgid ""
+"DVD+R(W) media do not support write simulation. Do you really want to "
+"continue? The media will actually be written to."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:500
+msgid "No Simulation with DVD+R(W)"
+msgstr "DVD+R(W) सँग कुनै नक्कल छैन"
+
+#: jobs/k3bmetawriter.cpp:526 projects/datacd/k3bdatajob.cpp:1061
+msgid "Most writers do not support writing multisession CDs in DAO mode."
+msgstr "धेरैजसो राइटरहरूले DAO मोडमा बहुसत्रिय सीडीहरू लेख्न समर्थन गर्दैन ।"
+
+#: jobs/k3bmetawriter.cpp:810
+msgid "Writing CD in Session At Once mode."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:812
+msgid "Writing CD in Track At Once mode."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:814
+msgid "Writing CD in Raw mode."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:817
+msgid "Appending session to CD"
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:824
+msgid "Writing rewritable CD in Session At Once mode."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:826
+msgid "Writing rewritable CD in Track At Once mode."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:828
+msgid "Writing rewritable CD in Raw mode."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:831
+msgid "Appending session to rewritable CD."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:838
+msgid "Growing ISO9660 filesystem on DVD+RW."
+msgstr "DVD+RW मा ISO9660 फाइलप्रणाली वृद्धि गर्दै ।"
+
+#: jobs/k3bmetawriter.cpp:840 projects/datacd/k3bdatajob.cpp:887
+msgid "Growing ISO9660 filesystem on DVD-RW in restricted overwrite mode."
+msgstr ""
+"प्रतिबन्धित अधिलेखन मोड भित्र DVD-RW मा ISO9660 फाइलप्रणाली वृद्धि गर्दै ।"
+
+#: jobs/k3bmetawriter.cpp:842
+msgid "Appending session to DVD+R."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:844
+msgid "Appending session to Double Layer DVD+R."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:846
+#, kde-format
+msgid "Appending session to %1."
+msgstr ""
+
+#: jobs/k3bmetawriter.cpp:852
+msgid "Writing Double Layer DVD+R."
+msgstr "दोहोरो तह DVD+R लेख्दै ।"
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:157
+#, kde-format
+msgid "Unable to create folder '%1'"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:161
+#, kde-format
+msgid "Invalid filename: '%1'"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:172
+#, kde-format
+msgid "Transcoding title %1 from Video DVD %2"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:197
+#, kde-format
+msgid "Invalid Video codec set: %1"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:220
+#, kde-format
+msgid "Invalid Audio codec set: %1"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:361
+#, kde-format
+msgid "Resizing picture of title %1 to %2x%3"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:384
+msgid "Single-pass Encoding"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:386
+msgid "Two-pass Encoding: First Pass"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:388
+msgid "Two-pass Encoding: Second Pass"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:412
+#, kde-format
+msgid "Removing incomplete video file '%1'"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:486
+#, kde-format
+msgid "Execution of %1 failed."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:487
+msgid "Please consult the debugging output for details."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:518
+msgid "AC3 (Stereo)"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:520
+msgid "AC3 (Pass-through)"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:522
+msgid "MPEG1 Layer III"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:533
+msgid "MPEG4 (FFMPEG)"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:535
+msgid "XviD"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:546
+msgid ""
+"FFmpeg is an open-source project trying to support most video and audio "
+"codecs used these days. Its subproject libavcodec forms the basis for "
+"multimedia players such as xine or mplayer."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:550
+msgid ""
+"FFmpeg contains an implementation of the MPEG-4 video encoding standard "
+"which produces high quality results."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:553
+msgid ""
+"XviD is a free and open source MPEG-4 video codec. XviD was created by a "
+"group of volunteer programmers after the OpenDivX source was closed in July "
+"2001."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:556
+msgid ""
+"XviD features MPEG-4 Advanced Profile settings such as b-frames, global and "
+"quarter pixel motion compensation, lumi masking, trellis quantization, and "
+"H.263, MPEG and custom quantization matrices."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:560
+msgid ""
+"XviD is a primary competitor of DivX (XviD being DivX spelled backwards). "
+"While DivX is closed source and may only run on Windows, Mac OS and Linux, "
+"XviD is open source and can potentially run on any platform."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:564
+msgid "(Description taken from the Wikipedia article)"
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:574
+msgid ""
+"AC3, better known as Dolby Digital is standardized as ATSC A/52. It contains "
+"up to 6 total channels of sound."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:579
+msgid ""
+"With this setting K3b will create a two-channel stereo Dolby Digital audio "
+"stream."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:583
+msgid ""
+"With this setting K3b will use the Dolby Digital audio stream from the "
+"source DVD without changing it."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:585
+msgid "Use this setting to preserve 5.1 channel sound from the DVD."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:587
+msgid ""
+"MPEG1 Layer III is better known as MP3 and is the most used lossy audio "
+"format."
+msgstr ""
+
+#: jobs/k3bvideodvdtitletranscodingjob.cpp:588
+msgid ""
+"With this setting K3b will create a two-channel stereo MPEG1 Layer III audio "
+"stream."
+msgstr ""
+
+#: jobs/k3baudiocuefilewritingjob.cpp:113
+msgid "Writing Audio Cue File"
+msgstr "अडियो क्यु फाइल लेख्दै"
+
+#: jobs/k3baudiocuefilewritingjob.cpp:196
+msgid "Analysing the audio file failed. Corrupt file?"
+msgstr "अडियो फाइलको विश्लेषण असफल भयो । फाइल दूषित गर्नुहुन्छ ?"
+
+#: jobs/k3baudiocuefilewritingjob.cpp:264
+msgid "Analysing the audio file"
+msgstr "अडियो फाइल विश्लेषण गर्दै"
+
+#: jobs/k3baudiocuefilewritingjob.cpp:265
+#, kde-format
+msgid "Analysing %1"
+msgstr "%1 विश्लेषण गर्दै"
+
+#: jobs/k3baudiocuefilewritingjob.cpp:272
+#, kde-format
+msgid "Unable to handle '%1' due to an unsupported format."
+msgstr "एउटा असमर्थित ढाँचाको कारणले '%1' ह्यान्डल गर्न असक्षम भयो ।"
+
+#: jobs/k3baudiocuefilewritingjob.cpp:277
+#, kde-format
+msgid "No valid audio cue file: '%1'"
+msgstr "कुनै वैध अडियो क्यु फाइल छैन: '%1'"
+
+#: jobs/k3bblankingjob.cpp:74 jobs/k3bblankingjob.cpp:161
+msgid "Erasing CD-RW"
+msgstr ""
+
+#: jobs/k3bblankingjob.cpp:75
+msgid "When erasing a CD-RW no progress information is available."
+msgstr ""
+
+#: jobs/k3bblankingjob.cpp:114
+#, kde-format
+msgid "Please insert a rewritable CD medium into drive<p><b>%1 %2 (%3)</b>."
+msgstr ""
+"कृपया ड्राइभ <p><b>%1 %2 (%3)</b> मा पुन: लेखनयोग्य सीडी माध्यम घुसाउँनुहोस् "
+"।"
+
+#: jobs/k3bblankingjob.cpp:151
+msgid "Blanking error "
+msgstr "खाली गर्दा त्रुटि "
+
+#: jobs/k3bblankingjob.cpp:152
+msgid "Sorry, no error handling yet."
+msgstr "माफ गर्नुहोस्, अहिले सम्म कुनै त्रुटि ह्यान्डल गरिएको छैन ।"
+
+#: jobs/k3bdvdbooktypejob.cpp:85
+msgid "Changing DVD Booktype"
+msgstr ""
+
+#: jobs/k3bdvdbooktypejob.cpp:118
+#, kde-format
+msgid ""
+"Please insert an empty DVD+R or a DVD+RW medium into drive<p><b>%1 %2 "
+"(%3)</b>."
+msgstr ""
+"कृपया ड्राइभ <p><b>%1 %2 (%3)</b> मा एउटा खाली DVD+R वा DVD+RW माध्यम "
+"घुसाउनुहोस् ।"
+
+#: jobs/k3bdvdbooktypejob.cpp:188
+msgid "Booktype successfully changed"
+msgstr "पुस्तकप्रकार सफलतापूर्वक परिवर्तन गरियो"
+
+#: jobs/k3bdvdbooktypejob.cpp:217
+msgid "Ejecting DVD..."
+msgstr "डीभीडी निकालिदैछ..."
+
+#: jobs/k3bdvdbooktypejob.cpp:234
+msgid "Unable to eject media."
+msgstr "मिडिया निकाल्न असक्षम भयो ।"
+
+#: jobs/k3bdvdbooktypejob.cpp:257
+msgid "Cannot change booktype on non-empty DVD+R media."
+msgstr "खाली नभएको DVD+R मिडियामा पुस्तकप्रकार परिवर्तन गर्न सकिँदैन ।"
+
+#: jobs/k3bdvdbooktypejob.cpp:265
+msgid "No DVD+R(W) media found."
+msgstr "DVD+R(W) मिडिया फेला परेन ।"
+
+#: jobs/k3bdvdbooktypejob.cpp:340
+msgid "Changing Booktype"
+msgstr "पुस्तकप्रकार परिवर्तन गर्दै"
+
+#: jobs/k3bbinimagewritingjob.cpp:60
+msgid "Write Binary Image"
+msgstr "बाइनरी छवि लेख्नुहोस्"
+
+#: jobs/k3bbinimagewritingjob.cpp:188
+#, kde-format
+msgid "%1 copy successfully created"
+msgid_plural "%1 copies successfully created"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobs/k3bbinimagewritingjob.cpp:210
+msgid "Writing cue/bin Image"
+msgstr "क्यु/बिन छवि लेख्दै"
+
+#: jobs/k3breadcdreader.cpp:123
+#, kde-format
+msgid "Using readcd %1 instead of default version for clone support."
+msgstr ""
+"क्लोन समर्थनका लागि पूर्वानिर्धारित संस्करणको सट्टा पढ्ने सीडी %1 प्रयोग "
+"गर्दै ।"
+
+#: jobs/k3breadcdreader.cpp:130
+msgid "Could not find readcd executable with cloning support."
+msgstr "क्लोनिङ समर्थनसँग कार्यान्वयनयोग्य पढ्ने सीडी फेला पार्न सकेन ।"
+
+#: jobs/k3breadcdreader.cpp:163 jobs/k3breadcdreader.cpp:164
+#, kde-format
+msgid "Writing image to %1."
+msgstr "%1 मा छवि लेख्दै ।"
+
+#: jobs/k3breadcdreader.cpp:206
+msgid "Could not start readcd."
+msgstr "पढ्ने सीडी सुरु गर्न सकेन ।"
+
+#: jobs/k3breadcdreader.cpp:262
+msgid "Cannot read source disk."
+msgstr "स्रोत डिस्क पढ्न सकिँदैन ।"
+
+#: jobs/k3breadcdreader.cpp:274
+#, kde-format
+msgid "Retrying from sector %1."
+msgstr "सेक्टर %1 बाट पुन: प्रयास गर्दै ।"
+
+#: jobs/k3breadcdreader.cpp:289
+#, kde-format
+msgid "Uncorrected error in sector %1"
+msgstr "सेक्टर %1 मा नसुधारिएको त्रुटि"
+
+#: jobs/k3breadcdreader.cpp:292
+#, kde-format
+msgid "Corrected error in sector %1"
+msgstr "सेक्टर %1 मा सुधारिएको त्रुटि"
+
+#: jobs/k3breadcdreader.cpp:312
+#, kde-format
+msgid "%1 returned error: %2"
+msgstr "%1 ले त्रुटि फर्कायो: %2"
+
+#: jobs/k3breadcdreader.cpp:317
+msgid "Readcd exited abnormally."
+msgstr "पढ्ने सीडी असामन्य रूपमा अन्त्य भयो ।"
+
+#: videodvd/k3bvideodvd.cpp:284
+msgid "AC3"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:286
+msgid "MPEG1"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:288
+msgid "MPEG2 Extended"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:290
+msgid "LPCM"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:292
+msgid "DTS"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:294
+msgid "unknown audio format"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:303 videodvd/k3bvideodvd.cpp:335
+#: projects/videocd/k3bvcdtrack.cpp:227
+msgid "Unspecified"
+msgstr "निर्दिष्ट नगरिएको"
+
+#: videodvd/k3bvideodvd.cpp:305
+msgid "Normal"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:307
+msgid "For the visually impaired"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:309
+msgid "Director's comments 1"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:311
+msgid "Director's comments 2"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:313
+msgid "unknown audio code extension"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:322
+msgid "RLE"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:324
+msgid "Extended"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:326
+msgid "unknown coding mode"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:337
+msgid "Caption with normal size characters"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:339
+msgid "Caption with bigger size characters"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:341
+msgid "Caption for children"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:343
+msgid "Closed caption with normal size characters"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:345
+msgid "Closed caption with bigger size characters"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:347
+msgid "Closed caption for children"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:349
+msgid "Forced caption"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:351
+msgid "Director's comments with normal size characters"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:353
+msgid "Director's comments with bigger size characters"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:355
+msgid "Director's comments for children"
+msgstr ""
+
+#: videodvd/k3bvideodvd.cpp:357
+msgid "unknown code extension"
+msgstr ""
+
+#: core/k3bglobals.cpp:359
+msgid "Auto"
+msgstr "स्वत"
+
+#: plugin/k3baudioencoder.cpp:52
+msgctxt "plugin type"
+msgid "Audio Encoder"
+msgstr ""
+
+#: plugin/k3baudioencoder.cpp:175
+msgid "An unknown error occurred."
+msgstr ""
+
+#: plugin/k3bpluginmanager.cpp:195
+#, kde-format
+msgid "No settings available for plugin %1."
+msgstr "प्लगइन %1 का लागि कुनै सेटिङ उपलब्ध छैन ।"
+
+#: plugin/k3baudiodecoder.cpp:597
+msgctxt "plugin type"
+msgid "Audio Decoder"
+msgstr ""
+
+#: plugin/k3bprojectplugin.cpp:26
+msgctxt "plugin type"
+msgid "Project plugin"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:269
+#, kde-format
+msgid "Cdrdao %1 does not support disabling burnfree."
+msgstr "cdrdao %1 ले बर्नफ्रि अक्षम पार्न समर्थन गर्दैन ।"
+
+#: projects/k3bcdrdaowriter.cpp:274 projects/k3bcdrecordwriter.cpp:330
+msgid "'Force unsafe operations' enabled."
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:293
+#, kde-format
+msgid "Cdrdao %1 does not support overburning."
+msgstr "cdrdao %1 ले ओभरबर्निङ समर्थन गर्दैन ।"
+
+#: projects/k3bcdrdaowriter.cpp:494
+msgid "Could not backup tocfile."
+msgstr "सी फाइलमा जगेडा गर्न सकेन ।"
+
+#: projects/k3bcdrdaowriter.cpp:520
+msgid "Preparing read process..."
+msgstr "पढ्ने प्रक्रिया तयार गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:526
+msgid "Preparing copy process..."
+msgstr "प्रतिलिपि प्रक्रिया तयार गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:529
+msgid "Preparing blanking process..."
+msgstr "खाली गर्ने प्रक्रिया तयार गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:562
+#, c-format, kde-format
+msgid "Starting DAO simulation at %1x speed..."
+msgstr "%1x गतिमा DAO नक्कल सुरु गर्दैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:568
+#, c-format, kde-format
+msgid "Starting DAO writing at %1x speed..."
+msgstr "%1x गतिमा DAO लेखन सुरु गर्दैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:569 projects/k3bcdrecordwriter.cpp:486
+#: projects/datacd/k3bdatajob.cpp:444 projects/k3bgrowisofswriter.cpp:385
+#: projects/audiocd/k3baudiojob.cpp:660
+msgid "Writing"
+msgstr "लेख्दै"
+
+#: projects/k3bcdrdaowriter.cpp:573
+msgid "Starting reading..."
+msgstr "पढ्न सुरु गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:574
+msgid "Reading"
+msgstr "पढ्दै"
+
+#: projects/k3bcdrdaowriter.cpp:579
+#, c-format, kde-format
+msgid "Starting simulation copy at %1x speed..."
+msgstr "%1x गतिमा नक्कली प्रतिलिपि सुरु गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:584
+#, c-format, kde-format
+msgid "Starting copy at %1x speed..."
+msgstr "%1x गतिमा प्रतिलिपि सुरु गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:585
+msgid "Copying"
+msgstr "प्रतिलिपि गर्दै"
+
+#: projects/k3bcdrdaowriter.cpp:589
+msgid "Starting blanking..."
+msgstr "खाली गर्ने सुरु गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:590
+msgid "Blanking"
+msgstr "खाली गर्दै"
+
+#: projects/k3bcdrdaowriter.cpp:701
+#, kde-format
+msgid ""
+"Due to a bug in cdrdao the toc/cue file %1 has been deleted. K3b was unable "
+"to restore it from the backup %2."
+msgstr ""
+"cdrdao मा बग भएको कारणले गर्दा टक/क्यु फाइल %1 मेटियो । K3b ले यसलाई जगेडा "
+"%2 बाट पुन: भण्डारण गर्न असक्षम भयो ।"
+
+#: projects/k3bcdrdaowriter.cpp:724 projects/k3bcdrecordwriter.cpp:823
+#: projects/k3bgrowisofswriter.cpp:535
+msgid "Simulation successfully completed"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:729
+msgid "Reading successfully completed"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:732 projects/k3bcdrecordwriter.cpp:825
+#: projects/k3bgrowisofswriter.cpp:537
+msgid "Writing successfully completed"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:735
+msgid "Copying successfully completed"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:738
+msgid "Blanking successfully completed"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:744 projects/k3bcdrecordwriter.cpp:829
+#: projects/k3bgrowisofswriter.cpp:530
+#, kde-format
+msgid "Average overall write speed: %1 KB/s (%2x)"
+msgstr "औसत समग्र लेखन गति: %1 KB/s (%2x)"
+
+#: projects/k3bcdrdaowriter.cpp:754
+msgid "Please include the debugging output in your problem report."
+msgstr ""
+"कृपया तपाईँको समस्या प्रतिवेदनमा त्रुटिमोचन निर्गात समावेश गर्नुहोस् ।"
+
+#: projects/k3bcdrdaowriter.cpp:763 projects/k3bcdrecordwriter.cpp:946
+#: projects/datacd/k3bisoimager.cpp:181
+#, kde-format
+msgid "%1 crashed."
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:779 projects/k3bcdrecordwriter.cpp:706
+#, c-format, kde-format
+msgid "Medium or burner does not support writing at %1x speed"
+msgstr ""
+
+#: projects/k3bcdrdaowriter.cpp:780
+#, c-format, kde-format
+msgid "Switching down burn speed to %1x"
+msgstr "%1x मा बर्न गति तल स्विच गर्दै"
+
+#: projects/k3bcdrdaowriter.cpp:810
+msgid "Executing Power calibration"
+msgstr "शक्ति क्यालिब्रेशन कार्यान्वयन गर्दै"
+
+#: projects/k3bcdrdaowriter.cpp:814
+msgid "Power calibration successful"
+msgstr "शक्ति क्यालिब्रेशन सफल भयो"
+
+#: projects/k3bcdrdaowriter.cpp:815
+msgid "Preparing burn process..."
+msgstr "बर्न प्रक्रिया तयार गरिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:819
+msgid "Flushing cache"
+msgstr "क्यास फैलाउँदै"
+
+#: projects/k3bcdrdaowriter.cpp:823
+msgid "Writing CD-Text lead-in..."
+msgstr "सीडी-पाठ लिड-इन लेखिँदैछ..."
+
+#: projects/k3bcdrdaowriter.cpp:827
+msgid "Turning BURN-Proof on"
+msgstr "यसमा बर्न-प्रुफ घुमाइदैछ"
+
+#: projects/k3bcdrdaowriter.cpp:835
+msgid "Found ISRC code"
+msgstr "ISRC कोड फेला पर्यो"
+
+#: projects/k3bcdrdaowriter.cpp:839
+#, kde-format
+msgid "Found pregap: %1"
+msgstr "पूर्वखाली फेला पर्यो: %1"
+
+#: projects/k3bcdrdaowriter.cpp:852
+msgid "No cdrdao driver found."
+msgstr "कुनै cdrdao ड्राइभर फेला परेन ।"
+
+#: projects/k3bcdrdaowriter.cpp:853
+msgid "Please select one manually in the device settings."
+msgstr "कृपया यन्त्र सेटिङमा म्यानुअल तरिकाले एउटा चयन गर्नुहोस् ।"
+
+#: projects/k3bcdrdaowriter.cpp:854
+msgid "For most current drives this would be 'generic-mmc'."
+msgstr "भर्खरैको ड्राइभका लागि यो 'जेनेरिक-एमएमसी' हुन सक्छ ।"
+
+#: projects/k3bcdrdaowriter.cpp:863
+msgid "Device not ready, waiting."
+msgstr "यन्त्र तयार छैन, प्रतिक्षा गर्दै ।"
+
+#: projects/k3bcdrdaowriter.cpp:867
+msgid "Cue sheet not accepted."
+msgstr "क्यु पाना स्वीकार गरिएन ।"
+
+#: projects/k3bcdrdaowriter.cpp:872 projects/k3bcdrecordwriter.cpp:651
+#, kde-format
+msgid "No valid %1 option: %2"
+msgstr "कुनै वैध %1 विकल्प छैन: %2"
+
+#: projects/k3bcdrdaowriter.cpp:877 projects/k3bgrowisofshandler.cpp:238
+#: projects/k3bcdrecordwriter.cpp:848 projects/mixedcd/k3bmixedjob.cpp:1045
+msgid "Data does not fit on disk."
+msgstr "डेटा डिस्कमा मिलेन ।"
+
+#: projects/k3bcdrdaowriter.cpp:879 projects/k3bcdrecordwriter.cpp:850
+msgid "Enable overburning in the advanced K3b settings to burn anyway."
+msgstr "जसरी पनि बर्न गर्न उन्नत K3b सेटिङमा ओभरबर्निङ सक्षम पार्नुहोस् ।"
+
+#: projects/k3bcdrdaowriter.cpp:964
+msgid "Writing leadin "
+msgstr "लिडइन लेख्दै "
+
+#: projects/k3bcdrdaowriter.cpp:970
+msgid "Writing leadout "
+msgstr "लिडआउट लेख्दै "
+
+#: projects/movixcd/k3bmovixdoc.cpp:92
+msgid "Enter New Filename"
+msgstr "नयाँ फाइलनाम प्रविष्ट गर्नुहोस्"
+
+#: projects/movixcd/k3bmovixdoc.cpp:93
+msgid "A file with that name already exists. Please enter a new name:"
+msgstr ""
+"त्यो फाइलको नाम पहिल्यै अवस्थित छ । कृपया नयाँ नाम प्रविष्ट गर्नुहोस्:"
+
+#: projects/movixcd/k3bmovixdoc.cpp:180
+#, kde-format
+msgid ""
+"Could not rename subtitle file. File with requested name %1 already exists."
+msgstr ""
+"उपशीर्षक फाइल पुन: नामकरण गर्न सकेन । अनुरोधित नाम %1 सँगको फाइल पहिल्यै "
+"अवस्थित छ ।"
+
+#: projects/movixcd/k3bmovixdocpreparer.cpp:134
+msgid "Could not find a valid eMovix installation."
+msgstr "वैध इमोभिक्स स्थापना फेला पार्न सकेन ।"
+
+#: projects/movixcd/k3bmovixdocpreparer.cpp:207
+#: projects/movixcd/k3bmovixprogram.cpp:187
+#: projects/movixcd/k3bmovixprogram.cpp:219
+#: projects/movixcd/k3bmovixprogram.cpp:254
+#: projects/movixcd/k3bmovixprogram.cpp:266
+#: projects/movixcd/k3bmovixprogram.cpp:275
+#: projects/movixcd/k3bmovixprogram.cpp:284
+#: projects/movixcd/k3bmovixprogram.cpp:291
+#: projects/movixcd/k3bmovixprogram.cpp:325
+#: projects/movixcd/k3bmovixprogram.cpp:327
+#: projects/movixcd/k3bmovixprogram.cpp:329
+#: projects/movixcd/k3bmovixprogram.cpp:331
+msgid "default"
+msgstr "पूर्वनिर्धारित"
+
+#: projects/movixcd/k3bmovixdocpreparer.cpp:314
+#: projects/movixcd/k3bmovixprogram.cpp:199
+#: projects/movixcd/k3bmovixprogram.cpp:243
+msgid "none"
+msgstr "कुनै पनि होइन"
+
+#: projects/movixcd/k3bmovixjob.cpp:116
+msgid "Writing eMovix Project"
+msgstr ""
+
+#: projects/movixcd/k3bmovixjob.cpp:118
+#, kde-format
+msgid "Writing eMovix Project (%1)"
+msgstr ""
+
+#: projects/movixcd/k3bmovixjob.cpp:124
+#, kde-format
+msgid "1 file (%2) and about 8 MB eMovix data"
+msgid_plural "%1 files (%2) and about 8 MB eMovix data"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/movixcd/k3bmovixjob.cpp:128
+#: projects/videodvd/k3bvideodvdjob.cpp:69
+#: projects/mixedcd/k3bmixedjob.cpp:1366 projects/videocd/k3bvcdjob.cpp:580
+#: projects/audiocd/k3baudiojob.cpp:866
+#, kde-format
+msgid " - %1 copy"
+msgid_plural " - %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/k3bgrowisofshandler.cpp:83
+msgid "OPC failed. Please try writing speed 1x."
+msgstr "ओपीसी असफल भयो । कृपया लेखन गति 1x प्रयास गर्नुहोस्"
+
+#: projects/k3bgrowisofshandler.cpp:88
+msgid "Please try again with writing mode DAO."
+msgstr "कृपया लेखन मोड DAO सँग फेरि प्रयास गर्नुहोस् ।"
+
+#: projects/k3bgrowisofshandler.cpp:101 projects/k3bcdrecordwriter.cpp:643
+#: projects/mixedcd/k3bmixedjob.cpp:1042
+msgid "Trying to write more than the official disk capacity"
+msgstr "अफिसल डिस्क क्षमता भन्दा बढी लेख्ने प्रयास गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:124
+msgid "Flushing Cache"
+msgstr "क्याश फेलाउँदै"
+
+#: projects/k3bgrowisofshandler.cpp:125
+msgid "Flushing the cache may take some time."
+msgstr "क्याश फैलाउँदा केही समय लाग्न सक्छ ।"
+
+#: projects/k3bgrowisofshandler.cpp:134
+msgid "Closing Track"
+msgstr "ट्रयाक बन्द गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:137
+msgid "Closing Disk"
+msgstr "डिस्क बन्द गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:140 projects/k3bgrowisofshandler.cpp:147
+#: projects/k3bgrowisofshandler.cpp:148 projects/k3bcdrecordwriter.cpp:738
+msgid "Closing Session"
+msgstr "सत्र बन्द गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:143 projects/k3bgrowisofshandler.cpp:144
+msgid "Updating RMA"
+msgstr "RMA अद्यावधिक गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:151
+msgid "Writing Lead-out"
+msgstr "लिड-आउट लेख्दै"
+
+#: projects/k3bgrowisofshandler.cpp:152
+msgid "Writing the lead-out may take some time."
+msgstr "लिड-आउट लेख्दा केही समय लिन सक्छ ।"
+
+#: projects/k3bgrowisofshandler.cpp:155
+msgid "Removing reference to lead-out."
+msgstr "लिड-आउटमा सन्दर्भ हटाउँदै ।"
+
+#: projects/k3bgrowisofshandler.cpp:158
+msgid "Modifying ISO9660 volume descriptor"
+msgstr "ISO9660 भोल्युम वर्णनकर्ता परिमार्जन गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:165
+msgid "Writing mode Incremental Streaming not available"
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:166
+msgid "Engaging DAO"
+msgstr "DAO व्यस्त गर्दै"
+
+#: projects/k3bgrowisofshandler.cpp:178
+#, kde-format
+msgid "Writing speed: %1 KB/s (%2x)"
+msgstr "लेखन गति: %1 KB/s (%2x)"
+
+#: projects/k3bgrowisofshandler.cpp:229
+msgid "K3b detected a problem with the medium."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:230
+msgid ""
+"Please try another brand of media, preferably one explicitly recommended by "
+"your writer's vendor."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:231
+msgid "Report the problem if it persists anyway."
+msgstr "यदि यो जसरी पनि रहन्छ भने समस्या प्रतिवेदन गर्नुहोस् ।"
+
+#: projects/k3bgrowisofshandler.cpp:236 projects/k3bcdrecordwriter.cpp:846
+msgid "Data did not fit on disk."
+msgstr "डेटा डिस्कमा मिलेन ।"
+
+#: projects/k3bgrowisofshandler.cpp:242
+msgid "Unable to set writing speed."
+msgstr "लेखन गति सेट गर्न असक्षम भयो ।"
+
+#: projects/k3bgrowisofshandler.cpp:243
+msgid "Please try again with the 'ignore speed' setting."
+msgstr "कृपया 'उपेक्षा गति' सेटिङसँग फेरि प्रयास गर्नुहोस् ।"
+
+#: projects/k3bgrowisofshandler.cpp:247
+msgid "Optimum Power Calibration failed."
+msgstr "अधिक्तम शक्ति कैलीब्रेशन असफल भयो ।"
+
+#: projects/k3bgrowisofshandler.cpp:248
+msgid ""
+"Try adding '-use-the-force-luke=noopc' to the growisofs user parameters in "
+"the K3b settings."
+msgstr ""
+"K3b सेटिङमा growisofs प्रयोगकर्ता परिमितिमा '-use-the-force-luke=noopc' थपेर "
+"प्रयास गर्नुहोस् ।"
+
+#: projects/k3bgrowisofshandler.cpp:253
+msgid "Unable to allocate software buffer."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:254
+msgid "This error is caused by the low memorylocked resource limit."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:255
+msgid "It can be solved by issuing the command 'ulimit -l unlimited'..."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:256
+msgid ""
+"...or by lowering the used software buffer size in the advanced K3b settings."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:260
+msgid "Write error"
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:276
+#, kde-format
+msgid "Fatal error at startup: %1"
+msgstr "सुरुआतमा घातक त्रुटि: %1"
+
+#: projects/k3bgrowisofshandler.cpp:284
+msgid "Warning at exit: (1)"
+msgstr "निस्कनेमा चेतावनी: (1)"
+
+#: projects/k3bgrowisofshandler.cpp:285
+msgid "Most likely mkisofs failed in some way."
+msgstr "प्राय गरेर mkisofs कुनै तरीकाले असफल भयो ।"
+
+#: projects/k3bgrowisofshandler.cpp:288
+#, kde-format
+msgid "Fatal error during recording: %1"
+msgstr "रेकर्ड गर्दा घातक त्रुटि: %1"
+
+#: projects/videodvd/k3bvideodvdjob.cpp:54
+msgid "Creating Video DVD Image File"
+msgstr "भिडियो डीभीडी छवि फाइल सिर्जना गर्दै"
+
+#: projects/videodvd/k3bvideodvdjob.cpp:57
+msgid "Writing Video DVD"
+msgstr "भिडियो डीभीडी लेख्दै"
+
+#: projects/videodvd/k3bvideodvdjob.cpp:67
+#, kde-format
+msgid "ISO9660/Udf Filesystem (Size: %1)"
+msgstr "ISO9660/Udf फाइलप्रणाली (साइज: %1)"
+
+#: projects/videodvd/k3bvideodvdimager.cpp:124
+#, kde-format
+msgid "Found invalid entry in the VIDEO_TS folder (%1)."
+msgstr "VIDEO_TS फोल्डर (%1) मा अवैध प्रविष्टि फेला पर्यो ।"
+
+#: projects/videodvd/k3bvideodvdimager.cpp:131
+#, kde-format
+msgid "Unable to link temporary file in folder %1."
+msgstr "फोल्डर %1 मा अस्थायी फाइल लिङ्क गर्न असक्षम भयो ।"
+
+#: projects/videodvd/k3bvideodvdimager.cpp:214
+msgid "The project does not contain all necessary Video DVD files."
+msgstr ""
+
+#: projects/videodvd/k3bvideodvdimager.cpp:215
+msgid ""
+"The resulting DVD will most likely not be playable on a Hifi DVD player."
+msgstr ""
+"नतिजा दिने डीभीडी हिफि डीभीडी प्लेयरमा प्राय गरेर बजाउनयोग्य हुने छैन ।"
+
+#: projects/k3bcdrecordwriter.cpp:261
+#, kde-format
+msgid "Cdrecord version %1 does not support Blu-ray writing."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:285
+msgid "Writer does not support disk at once (DAO) recording"
+msgstr "राइटरले एकपटकको (DAO) रेकर्डिङमा डिस्क समर्थन गर्दैन"
+
+#: projects/k3bcdrecordwriter.cpp:296
+msgid "Writer does not support raw writing."
+msgstr "राइटरले कच्चा लेखन समर्थन गर्दैन ।"
+
+#: projects/k3bcdrecordwriter.cpp:305
+#, kde-format
+msgid "Cdrecord does not support writing %1 media."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:325
+msgid "Writer does not support buffer underrun free recording (Burnfree)"
+msgstr "राइटरले बफर अन्डररन फ्रि रेकर्डिङ (बर्नफ्रि) समर्थन गर्दैन"
+
+#: projects/k3bcdrecordwriter.cpp:364
+#, kde-format
+msgid "Failed to write temporary file '%1'"
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:384
+#, kde-format
+msgid "Cdrecord %1 does not support overburning."
+msgstr "cdrecord %1 ले ओभरबर्निङ समर्थन गर्दैन ।"
+
+#: projects/k3bcdrecordwriter.cpp:476
+#, c-format, kde-format
+msgid "Starting simulation at %1x speed..."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:480
+#, kde-format
+msgid "Starting %1 simulation at %2x speed..."
+msgstr "%2x गतिमा %1 नक्कल सुरु गर्दैछ..."
+
+#: projects/k3bcdrecordwriter.cpp:488
+#, c-format, kde-format
+msgid "Starting writing at %1x speed..."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:492
+#, kde-format
+msgid "Starting %1 writing at %2x speed..."
+msgstr "%2x गतिमा %1 लेखन सुरु गर्दैछ..."
+
+#: projects/k3bcdrecordwriter.cpp:589 projects/k3bgrowisofswriter.cpp:449
+msgid "Writing data"
+msgstr "डेटा लेख्दै"
+
+#: projects/k3bcdrecordwriter.cpp:618
+msgid "DAO (Disk At Once) recording not supported with this writer"
+msgstr "यो राइटरसँग DAO (डिस्क एकपटक) रेकर्डिङ समर्थित छैन"
+
+#: projects/k3bcdrecordwriter.cpp:619
+msgid "Please choose TAO (Track At Once) and try again"
+msgstr "कृपया TAO (ट्याक एकपटक) छनौट गर्नुहोस् र फेरि प्रयास गर्नुहोस्"
+
+#: projects/k3bcdrecordwriter.cpp:622
+msgid "RAW recording not supported with this writer"
+msgstr "यो राइटरसँग कच्चा रेकर्डिङ समर्थित छैन"
+
+#: projects/k3bcdrecordwriter.cpp:625
+msgid "Input/output error. Not necessarily serious."
+msgstr "आगत/निर्गात त्रुटि । गम्भीर आवश्यकीय छैन ।"
+
+#: projects/k3bcdrecordwriter.cpp:634
+msgid "Reloading of medium required"
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:678
+msgid "Only session 1 will be cloned."
+msgstr "सत्र १ मात्र क्लोन गरिनेछ ।"
+
+#: projects/k3bcdrecordwriter.cpp:681
+msgid "Unable to fixate the disk."
+msgstr "डिस्कलाई फिक्सेट गर्न असक्षम भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:708
+#, c-format, kde-format
+msgid "Switching burn speed up to %1x"
+msgstr "%1x मा गति बढाउँन बर्न स्विच गर्दै"
+
+#: projects/k3bcdrecordwriter.cpp:710
+#, c-format, kde-format
+msgid "Switching burn speed down to %1x"
+msgstr "%1x मा गति घटाउँन बर्न स्विच गर्दै"
+
+#: projects/k3bcdrecordwriter.cpp:722
+msgid "Starting disc write"
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:742
+msgid "Writing Leadin"
+msgstr "लिडइन लेख्दै"
+
+#: projects/k3bcdrecordwriter.cpp:745
+msgid "Writing Leadout"
+msgstr "लिडआउट लेख्दै"
+
+#: projects/k3bcdrecordwriter.cpp:748
+msgid "Writing pregap"
+msgstr "पूर्वखाली लेख्दै"
+
+#: projects/k3bcdrecordwriter.cpp:751
+msgid "Performing Optimum Power Calibration"
+msgstr "अधिक्तम शक्ति क्यालिब्रेसन सम्पादन गर्दै"
+
+#: projects/k3bcdrecordwriter.cpp:754
+msgid "Sending CUE sheet"
+msgstr "क्यु पाना पठाउँदै"
+
+#: projects/k3bcdrecordwriter.cpp:757
+msgid "Enabled Burnfree"
+msgstr "बर्नफ्रि सक्षम पारियो"
+
+#: projects/k3bcdrecordwriter.cpp:760
+msgid "Disabled Burnfree"
+msgstr "बर्नफ्रि असक्षम पारियो"
+
+#: projects/k3bcdrecordwriter.cpp:766 projects/mixedcd/k3bmixedjob.cpp:569
+msgid "Unable to close the tray"
+msgstr "ट्रे बन्द गर्न असक्षम भयो"
+
+#: projects/k3bcdrecordwriter.cpp:776
+#, kde-format
+msgid "Burnfree was used once."
+msgid_plural "Burnfree was used %1 times."
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/k3bcdrecordwriter.cpp:782
+#, kde-format
+msgid "Buffer was low once."
+msgid_plural "Buffer was low %1 times."
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/k3bcdrecordwriter.cpp:821
+msgid "Erasing successfully completed"
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:857
+#, kde-format
+msgid "%1 could not reserve shared memory segment of requested size."
+msgstr "%1 ले अनुरोध गरिएको साइजको साझेदारी स्मृति खण्ड सञ्चित गर्न सकेन ।"
+
+#: projects/k3bcdrecordwriter.cpp:858
+msgid "Probably you chose a too large buffer size."
+msgstr "सम्भवत तपाईँले अति ठूलो बफर साइज रोज्नुभयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:861
+msgid "OPC failed. Probably the writer does not like the medium."
+msgstr "ओपीसी असफल भयो । सम्भवत राइटरले माध्यम मन पराएन ।"
+
+#: projects/k3bcdrecordwriter.cpp:864
+#, kde-format
+msgid "Unable to set write speed to %1."
+msgstr "%1 मा लेख्ने गति सेट गर्न असक्षम भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:865
+msgid "Probably this is lower than your writer's lowest writing speed."
+msgstr "सम्भवत यो तपाईँको राइटरको न्यून लेखन गति भन्दा पनि कम छ ।"
+
+#: projects/k3bcdrecordwriter.cpp:868
+msgid "Unable to send CUE sheet."
+msgstr "क्यु पाना पठाउँन असक्षम भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:870 projects/k3bcdrecordwriter.cpp:911
+#: projects/k3bcdrecordwriter.cpp:931
+msgid "Sometimes using TAO writing mode solves this issue."
+msgstr "कहिल्यैकाहीँ TAO लेख्न मोड प्रयोग गरेर यो मामला समाधान गर्दछ ।"
+
+#: projects/k3bcdrecordwriter.cpp:873
+msgid "Unable to open new session."
+msgstr "नयाँ सत्र खोल्न असक्षम भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:874
+msgid "Probably a problem with the medium."
+msgstr "सम्भवत माध्यमसँग समस्या छ ।"
+
+#: projects/k3bcdrecordwriter.cpp:877
+msgid "The disk might still be readable."
+msgstr "डिस्क अझै पनि पढ्नयोग्य हुन सक्छ ।"
+
+#: projects/k3bcdrecordwriter.cpp:879
+msgid "Try DAO writing mode."
+msgstr "DAO लेखन मोड प्रयास गर्नुहोस् ।"
+
+#: projects/k3bcdrecordwriter.cpp:882
+#, kde-format
+msgid "%1 has no permission to open the device."
+msgstr "%1 सँग यन्त्र खोल्न अनुमति छैन ।"
+
+#: projects/k3bcdrecordwriter.cpp:884
+msgid "You may use K3bsetup to solve this problem."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:888
+msgid "Probably a buffer underrun occurred."
+msgstr "सम्भवत बफर अन्डररन उत्पन्न भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:890
+msgid "Please enable Burnfree or choose a lower burning speed."
+msgstr "कृपया बर्नफ्रि सक्षम पार्नुहोस् वा न्यून बर्न गति रोज्नुहोस् ।"
+
+#: projects/k3bcdrecordwriter.cpp:892
+msgid "Please choose a lower burning speed."
+msgstr "कृपया न्यून बर्न गति रोज्नुहोस् ।"
+
+#: projects/k3bcdrecordwriter.cpp:895
+msgid "Found a high-speed medium not suitable for the writer being used."
+msgstr ""
+"राइटरलाई प्रयोग गर्नको निम्ति उच्च गति मध्यम अनुपयुक्त भएको फेला पर्यो ।"
+
+#: projects/k3bcdrecordwriter.cpp:896 projects/k3bcdrecordwriter.cpp:900
+msgid "Use the 'force unsafe operations' option to ignore this."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:899
+msgid "Found a low-speed medium not suitable for the writer being used."
+msgstr ""
+"राइटरलाई प्रयोग गर्नका निम्ति न्यून गति माध्यम अनुपयुक्त फेला पर्यो ।"
+
+#: projects/k3bcdrecordwriter.cpp:903
+msgid "Most likely the burning failed due to low-quality media."
+msgstr "न्यून गुणस्तर मिडियाको कारणले गर्दा प्राय गरेर बर्निङ असफल भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:906
+msgid ""
+"Another application is blocking the device (most likely automounting)."
+msgstr ""
+"अर्को अनुप्रोगले यन्त्र (प्राय गरेर स्वत: माउन्ट गर्ने) बन्द गरिरहेको छ ।"
+
+#: projects/k3bcdrecordwriter.cpp:909
+msgid "A write error occurred."
+msgstr "एउटा लेख्ने त्रुटि उत्पन्न भयो ।"
+
+#: projects/k3bcdrecordwriter.cpp:914
+msgid "Some drives do not support all erase types."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:915
+msgid "Try again using 'Complete' erasing."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:922
+msgid ""
+"Since kernel version 2.6.8 cdrecord cannot use SCSI transport when running "
+"suid root anymore."
+msgstr ""
+"सुइड रूट भन्दा अरू बढी चलाउँदा सम्म कर्नल संस्करण २.६.८ cdrecord ले SCSI "
+"ट्रान्सपोर्ट प्रयोग गर्दैन ।"
+
+#: projects/k3bcdrecordwriter.cpp:923
+msgid ""
+"You may use K3b::Setup to solve this problem or remove the suid bit manually."
+msgstr ""
+
+#: projects/k3bcdrecordwriter.cpp:934
+msgid "If you are running an unpatched cdrecord version..."
+msgstr "यदि तपाईँ एउटा प्याच नगरिएको cdrecord संस्करण चलाइरहनु भएको छ भने..."
+
+#: projects/k3bcdrecordwriter.cpp:935
+msgid "...and this error also occurs with high quality media..."
+msgstr "...र यो त्रुटि पनि उच्च गुणस्तर मिडियासँग उत्पन्न हुन्छ..."
+
+#: projects/k3bcdrecordwriter.cpp:936
+msgid "...and the K3b FAQ does not help you..."
+msgstr "...र K3b FAQ ले तपाईँलाई मद्दत गर्दैन..."
+
+#: projects/k3bcdrecordwriter.cpp:937
+msgid "...please include the debugging output in your problem report."
+msgstr ""
+"...कृपया तपाईँको समस्या प्रतिवेदनमा त्रुटिमोचन निर्गात समावेश गर्नुहोस् ।"
+
+#: projects/k3babstractwriter.cpp:56
+msgid "Unlocking drive..."
+msgstr "ड्राइभ अनलक गर्दैछ..."
+
+#: projects/k3babstractwriter.cpp:70
+msgid "Could not unlock drive."
+msgstr ""
+
+#: projects/k3babstractwriter.cpp:73
+msgid "Ejecting Medium"
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:188
+#: projects/datacd/k3bdatapreparationjob.cpp:184
+#: projects/audiocd/k3baudiojob.cpp:175
+msgid ""
+"The following files could not be found. Do you want to remove them from the "
+"project and continue without adding them to the image?"
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:191
+#: projects/datacd/k3bdatapreparationjob.cpp:148
+#: projects/datacd/k3bdatapreparationjob.cpp:172
+#: projects/datacd/k3bdatapreparationjob.cpp:187
+#: projects/datacd/k3bdatapreparationjob.cpp:209
+#: projects/audiocd/k3baudiojob.cpp:178
+msgid "Warning"
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:192
+#: projects/datacd/k3bdatapreparationjob.cpp:188
+#: projects/audiocd/k3baudiojob.cpp:179
+msgid "Remove missing files and continue"
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:193
+#: projects/datacd/k3bdatapreparationjob.cpp:174
+#: projects/datacd/k3bdatapreparationjob.cpp:189
+#: projects/datacd/k3bdatapreparationjob.cpp:211
+#: projects/audiocd/k3baudiojob.cpp:180
+msgid "Cancel and go back"
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:211 projects/audiocd/k3baudiojob.cpp:198
+msgid "Please add files to your project first."
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:246 projects/audiocd/k3baudiojob.cpp:313
+msgid "Determining maximum writing speed"
+msgstr "अधिक्तम लेख्ने गति निर्धारण गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:277
+#, kde-format
+msgid "Creating audio image files in %1"
+msgstr "%1 मा अडियो छवि फाइल सिर्जना गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:294 projects/mixedcd/k3bmixedjob.cpp:508
+msgid "Creating audio image files"
+msgstr "अडियो छवि फाइल सिर्जना गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:334 projects/audiocd/k3baudiojob.cpp:365
+msgid "Unable to determine maximum speed for some reason. Ignoring."
+msgstr "केही कारणले उपेक्षा गरिरहेका लागि अधिक्तम गति निर्धारण गर्न सकेन ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:383 projects/audiocd/k3baudiojob.cpp:393
+msgid "Writing canceled."
+msgstr "लेखन रद्द गरियो ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:482
+msgid "Error while creating ISO image."
+msgstr "ISO छवि सिर्जना गर्दा त्रुटि ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:497
+msgid "ISO image successfully created."
+msgstr "ISO छवि सफलतापूर्वक सिर्जना गरियो ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:582 projects/audiocd/k3baudiojob.cpp:455
+msgid "Error while decoding audio tracks."
+msgstr "अडियो ट्रयाकमा सङ्केतन हटाउँदा त्रुटि ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:598
+msgid "Audio images successfully created."
+msgstr "अडियो छविहरू सफलतापूर्वक सिर्जना गरियो ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:622 projects/audiocd/k3baudiojob.cpp:487
+#, kde-format
+msgid "Decoding audio track %1 of %2%3"
+msgstr ""
+
+#: projects/mixedcd/k3bmixedjob.cpp:642 projects/mixedcd/k3bmixedjob.cpp:683
+#: projects/audiocd/k3baudiojob.cpp:554
+msgid "IO Error"
+msgstr "आगत निर्गात त्रुटि"
+
+#: projects/mixedcd/k3bmixedjob.cpp:885 projects/audiocd/k3baudiojob.cpp:595
+#, kde-format
+msgid "Writing track %1 of %2%3"
+msgstr "%2%3 को ट्रयाक %1 लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:895
+msgid "ISO9660 data"
+msgstr "ISO9660 डेटा"
+
+#: projects/mixedcd/k3bmixedjob.cpp:892
+#, kde-format
+msgid "Writing track %1 of %2 (%3)"
+msgstr "%2 (%3) को ट्रयाक %1 लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1001
+msgid "Simulating second session"
+msgstr "दोस्रो सत्र नक्कल गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1003
+#, kde-format
+msgid "Writing second session of copy %1"
+msgstr "दोस्रो सत्रको प्रतिलिपि %1 लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1005
+msgid "Writing second session"
+msgstr "दोस्रो सत्र लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1009
+msgid "Simulating first session"
+msgstr "पहिलो सत्र नक्कल गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1011
+#, kde-format
+msgid "Writing first session of copy %1"
+msgstr "पहिलो सत्र को प्रतिलिपि %1 लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1013
+msgid "Writing first session"
+msgstr "पहिलो सत्र लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1091
+msgid "Creating ISO image file"
+msgstr "ISO छवि फाइल सिर्जना गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1092 projects/mixedcd/k3bmixedjob.cpp:1093
+#, kde-format
+msgid "Creating ISO image in %1"
+msgstr "%1 मा ISO छवि सिर्जना गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1103 projects/datacd/k3bdatajob.cpp:219
+#: projects/audiocd/k3baudioimager.cpp:116
+#, kde-format
+msgid "Could not open %1 for writing"
+msgstr "लेख्नका लागि %1 खोल्न सकेन"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1133
+msgid "Removing buffer files."
+msgstr "बफर फाइलहरू हटाउँदै ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1138
+#, kde-format
+msgid "Could not delete file %1."
+msgstr "%1 फाइल मेट्न सकेन ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1248
+msgid "It is not possible to write CD-Text in TAO mode. Try DAO or RAW."
+msgstr ""
+"TAO मोडमा सीडी-पाठ लेख्न सम्भव छैन । DAO वा RAW मा प्रयास गर्नुहोस् ।"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1280 projects/audiocd/k3baudiojob.cpp:735
+msgid "Normalizing volume levels"
+msgstr "भोल्युम तहहरू सामान्यकरण गर्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1345
+msgid "Writing Enhanced Audio CD"
+msgstr "विस्तार गरिएको अडियो सीडी लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1350
+msgid "Writing Mixed Mode CD"
+msgstr "मिश्रित मोड सीडी लेख्दै"
+
+#: projects/mixedcd/k3bmixedjob.cpp:1360
+#, kde-format
+msgctxt "%2 is of form XX:YY:ZZ, no pluralization needed"
+msgid "1 track (%2 minutes audio data, %3 ISO9660 data)"
+msgid_plural "%1 tracks (%2 minutes audio data, %3 ISO9660 data)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/datacd/k3bisooptions.cpp:30
+msgctxt ""
+"This is the default volume identifier of a data project created by K3b. The "
+"string should not be longer than 16 characters to avoid warnings regarding "
+"Joiliet extensions which induce this restriction."
+msgid "K3b data project"
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:226
+msgid "Creating image file"
+msgstr "छवि फाइल सिर्जना गर्दै"
+
+#: projects/datacd/k3bdatajob.cpp:227
+msgid "Track 1 of 1"
+msgstr "१ को ट्रयाक १"
+
+#: projects/datacd/k3bdatajob.cpp:228
+#, kde-format
+msgid "Creating image file in %1"
+msgstr "%1 मा छवि फाइल सिर्जना गर्दै"
+
+#: projects/datacd/k3bdatajob.cpp:386
+#, kde-format
+msgid "Image successfully created in %1"
+msgstr "%1 मा छवि सफलतापूर्वक सिर्जना गरियो"
+
+#: projects/datacd/k3bdatajob.cpp:393 tools/k3bmd5job.cpp:101
+#, kde-format
+msgid "Could not open file %1"
+msgstr "फाइल %1 खोल्न सकेन"
+
+#: projects/datacd/k3bdatajob.cpp:406
+msgid "Error while creating ISO image"
+msgstr "ISO छवि सिर्जना गर्दा त्रुटि"
+
+#: projects/datacd/k3bdatajob.cpp:708
+msgid "Internal Error: No medium type fits. This project cannot be burned."
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:712
+msgid "Waiting for a medium"
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:736
+#, kde-format
+msgid "Writing %1"
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:753
+msgid "Unable to determine the last track's datamode. Using default."
+msgstr ""
+"अन्तिम ट्रयाकको डेटामोड निर्धारन गर्न असक्षम भयो । पूर्वनिर्धारित प्रयोग "
+"गर्दै ।"
+
+#: projects/datacd/k3bdatajob.cpp:843 projects/datacd/k3bdatajob.cpp:960
+#, kde-format
+msgid "Writing mode ignored when writing %1 media."
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:855 projects/datacd/k3bdatajob.cpp:973
+#, kde-format
+msgid "Growing ISO9660 filesystem on %1."
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:985
+msgid "Creating Data Image File"
+msgstr "डेटा छवि फाइल सिर्जना गर्दै"
+
+#: projects/datacd/k3bdatajob.cpp:989
+msgid "Writing Data Project"
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:995
+msgid "Writing Multisession Project"
+msgstr ""
+
+#: projects/datacd/k3bdatajob.cpp:1009
+#, kde-format
+msgid "ISO9660 Filesystem (Size: %2) - %1 copy"
+msgid_plural "ISO9660 Filesystem (Size: %2) - %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/datacd/k3bdatajob.cpp:1014
+#, kde-format
+msgid "ISO9660 Filesystem (Size: %1)"
+msgstr "ISO9660 फाइलप्रणाली (साइज: %1)"
+
+#: projects/datacd/k3bmkisofshandler.cpp:73
+msgid "Mkisofs executable not found."
+msgstr "कार्यान्वयनयोग्य Mkisofs फेला परेन ।"
+
+#: projects/datacd/k3bmkisofshandler.cpp:87
+#, kde-format
+msgid "Read error from file '%1'"
+msgstr "फाइल '%1' बाट त्रुटि पढ्नुहोस्"
+
+#: projects/datacd/k3bmkisofshandler.cpp:92
+msgid "Used version of mkisofs does not have large file support."
+msgstr ""
+
+#: projects/datacd/k3bmkisofshandler.cpp:93
+msgid "Files bigger than 2 GB cannot be handled."
+msgstr ""
+
+#: projects/datacd/k3bmkisofshandler.cpp:106
+#, kde-format
+msgid "Encountered an incorrectly encoded filename '%1'"
+msgstr "एउटा नसुधारिएको सङ्केतन गरिएको फाइलनाम '%1' भेट भयो"
+
+#: projects/datacd/k3bmkisofshandler.cpp:108
+msgid ""
+"This may be caused by a system update which changed the local character set."
+msgstr ""
+"यो प्रणाली अद्यावधिक गर्नाले हुन सक्छ जसले स्थानीय क्यारेक्टर सेट परिवर्तन "
+"गर्यो ।"
+
+#: projects/datacd/k3bmkisofshandler.cpp:109
+msgid ""
+"You may use convmv (http://j3e.de/linux/convmv/) to fix the filename "
+"encoding."
+msgstr ""
+"तपाईँले फाइलनाम सङ्केतन निश्चित गर्न convmv (http://j3e.de/linux/convmv/) "
+"प्रयोग गर्न सक्नुहुन्छ ।"
+
+#: projects/datacd/k3bmkisofshandler.cpp:113
+msgid "The boot image has an invalid size."
+msgstr ""
+
+#: projects/datacd/k3bmkisofshandler.cpp:117
+msgid "The boot image contains multiple partitions.."
+msgstr ""
+
+#: projects/datacd/k3bmkisofshandler.cpp:118
+msgid "A hard-disk boot image has to contain a single partition."
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:102
+#, kde-format
+msgid "<em>%1</em> renamed to <em>%2</em>"
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:142
+#, kde-format
+msgid ""
+"Some filenames need to be shortened due to the %1 char restriction of the "
+"Joliet extensions. If the Joliet extensions are disabled filenames do not "
+"have to be shortened but long filenames will not be available on Windows "
+"systems."
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:149
+msgid "Shorten Filenames"
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:150
+msgid "Disable Joliet extensions"
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:167
+#, kde-format
+msgid ""
+"The Joliet extensions (which are needed for long filenames on Windows "
+"systems) restrict the length of the volume descriptor (the name of the "
+"filesystem) to %1 characters. The selected descriptor '%2' is longer than "
+"that. Do you want it to be cut or do you want to go back and change it "
+"manually?"
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:173
+msgid "Cut volume descriptor in the Joliet tree"
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:205
+msgid ""
+"K3b is not able to follow symbolic links to folders after they have been "
+"added to the project. Do you want to continue without writing the symbolic "
+"links to the image?"
+msgstr ""
+
+#: projects/datacd/k3bdatapreparationjob.cpp:210
+msgid "Discard symbolic links to folders"
+msgstr ""
+
+#: projects/datacd/k3bbootitem.cpp:30
+msgid "El Torito Boot image"
+msgstr "El टोरिटो बूट छवि"
+
+#: projects/datacd/k3bdatadoc.cpp:1182 projects/videocd/k3bvcddoc.cpp:412
+#: projects/audiocd/k3baudiodoc.cpp:926
+msgid "Could not find the following files:"
+msgstr "निम्न फाइलहरू फेला पार्न सकेन:"
+
+#: projects/datacd/k3bdatadoc.cpp:1183 projects/videocd/k3bvcddoc.cpp:413
+#: projects/audiocd/k3baudiodoc.cpp:928
+msgid "Not Found"
+msgstr "फेला परेन"
+
+#: projects/datacd/k3bdatadoc.cpp:1188
+msgid "No permission to read the following files:"
+msgstr "निम्न फाइलहरू पढ्न कुनै अनुमति छैन:"
+
+#: projects/datacd/k3bdatadoc.cpp:1189
+msgid "No Read Permission"
+msgstr "पढ्ने अनुमति छैन"
+
+#: projects/datacd/k3bdatadoc.cpp:1342 projects/datacd/k3bdatadoc.cpp:1355
+msgid "From previous session"
+msgstr "अघिल्लो सत्रबाट"
+
+#: projects/datacd/k3bdatadoc.cpp:1461
+msgid "El Torito boot catalog file"
+msgstr "El टोरिटो बूट विवरणिका फाइल"
+
+#: projects/datacd/k3bdatadoc.cpp:1462
+msgid "Boot catalog"
+msgstr "बूट विवरणिका"
+
+#: projects/datacd/k3bdatamultisessionparameterjob.cpp:91
+msgid "Searching for old session"
+msgstr "पुरानो सत्रका लागि खोजी गर्दै"
+
+#: projects/datacd/k3bdatamultisessionparameterjob.cpp:227
+#, kde-format
+msgid ""
+"No medium inserted or an empty medium in %1. Cannot continue multisession "
+"disk."
+msgstr ""
+
+#: projects/datacd/k3bdatamultisessionparameterjob.cpp:252
+#: projects/datacd/k3bmsinfofetcher.cpp:152
+#, kde-format
+msgid "Could not open Iso9660 filesystem in %1."
+msgstr ""
+
+#: projects/datacd/k3bmsinfofetcher.cpp:52
+msgid "Searching previous session"
+msgstr "अघिल्लो सत्र खोजी गर्दै"
+
+#: projects/datacd/k3bmsinfofetcher.cpp:164
+msgid "Could not determine next writable address."
+msgstr ""
+
+#: projects/datacd/k3bmsinfofetcher.cpp:180
+#, kde-format
+msgid "Could not start %1"
+msgstr ""
+
+#: projects/datacd/k3bmsinfofetcher.cpp:210
+msgid "Could not retrieve multisession information from disk."
+msgstr "डिस्कबाट बहुसत्रिय जानकारी पुन: प्राप्त गर्न सकेन ।"
+
+#: projects/datacd/k3bmsinfofetcher.cpp:211
+msgid "The disk is either empty or not appendable."
+msgstr "डिस्क या त खाली छैन वा थप्नयोग्य छैन ।"
+
+#: projects/datacd/k3bisoimager.cpp:162
+msgid ""
+"Due to a bug in mkisofs <= 1.15a40, K3b is unable to handle filenames that "
+"contain more than one backslash:"
+msgstr ""
+"mkisofs <= 1.15a40 मा बगको कारणले, K3b फाइलनाम ह्यान्डल गर्न असक्षम छ जसले "
+"एउटा भन्दा बढी ब्लाकस्लास समाविष्ट गर्दछ:"
+
+#: projects/datacd/k3bisoimager.cpp:372
+msgid "Could not determine size of resulting image file."
+msgstr "नतिजा गर्ने छवि फाइलको साइज निर्धारण गर्न सकेन ।"
+
+#: projects/datacd/k3bisoimager.cpp:525
+msgid "No volume id specified. Using default."
+msgstr ""
+"कुनै भोल्युम आईडी निर्दिष्ट गरिएको छैन । पूर्वानिर्धारित प्रयोग गर्दै ।"
+
+#: projects/datacd/k3bisoimager.cpp:618
+#, kde-format
+msgid "Found files bigger than 4 GB. K3b needs at least %1 to continue."
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:626
+msgid ""
+"Found files bigger than 2 GB. These files will only be fully accessible if "
+"mounted with UDF."
+msgstr ""
+"२ जीबी भन्दा ठूलो फाइल फेला पर्यो । यदि यूडीएफसँग माउन्ट भएमा मात्रै यी "
+"फाइलहरु पूरा रूपमा पहुँचयोग्य हुनेछ ।"
+
+#: projects/datacd/k3bisoimager.cpp:637
+msgid "Enabling UDF extension."
+msgstr "यूडीएफ विस्तार सक्षम पार्दै ।"
+
+#: projects/datacd/k3bisoimager.cpp:682
+msgid "Setting iso level to 3 to support files bigger than 4 GB."
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:771
+#, kde-format
+msgid "Could not follow link %1 to non-existing file %2. Skipping..."
+msgstr ""
+"लिङ्क %1 लाई अवस्थित नरहेको फाइल %2 मा अनुसरण गर्न सकेन । फड्काइदैछ..."
+
+#: projects/datacd/k3bisoimager.cpp:775
+#, kde-format
+msgid ""
+"Ignoring link %1 to folder %2. K3b is unable to follow links to folders."
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:783
+#, kde-format
+msgid "Could not find file %1. Skipping..."
+msgstr "फाइल %1 फेला पार्न सकेन । फड्काइदैछ..."
+
+#: projects/datacd/k3bisoimager.cpp:787
+#, kde-format
+msgid "Could not read file %1. Skipping..."
+msgstr "फाइल %1 पढ्न सकेन । फड्काइदैछ..."
+
+#: projects/datacd/k3bisoimager.cpp:837
+#, kde-format
+msgid "Failed to backup boot image file %1"
+msgstr "बूट छवि फाइल %1 जगेडा गर्न असफल भयो"
+
+#: projects/datacd/k3bisoimager.cpp:993 projects/datacd/k3bisoimager.cpp:1003
+#: projects/datacd/k3bisoimager.cpp:1010 projects/datacd/k3bisoimager.cpp:1016
+msgid "Could not write temporary file"
+msgstr "अस्थायी फाइल लेख्न सकेन"
+
+#: projects/datacd/k3bisoimager.cpp:997
+msgid "No files to be written."
+msgstr "लेख्नका लागि कुनै फाइल छैन ।"
+
+#: projects/k3bgrowisofswriter.cpp:161
+#, kde-format
+msgid "Growisofs version %1 is too old. K3b needs at least version 5.10."
+msgstr ""
+"Growisofs संस्करण %1 अति पुरानो हो । K3b लाई कम्तिमा संस्करण ५.१० को "
+"आवश्यकता पर्दछ ।"
+
+#: projects/k3bgrowisofswriter.cpp:175
+#, kde-format
+msgid ""
+"Growisofs version %1 does not feature a software buffer which may result in "
+"an unstable burn process."
+msgstr ""
+
+#: projects/k3bgrowisofswriter.cpp:228
+#, kde-format
+msgid "Could not open file %1."
+msgstr "फाइल %1 खुल्न सकेन ।"
+
+#: projects/k3bgrowisofswriter.cpp:381
+msgid "Starting simulation..."
+msgstr "नक्कल सुरु गरिँदैछ..."
+
+#: projects/k3bgrowisofswriter.cpp:386
+msgid "Starting disc write..."
+msgstr ""
+
+#: projects/videocd/k3bvcddoc.cpp:213
+msgid "VCD"
+msgstr "भीसीडी"
+
+#: projects/videocd/k3bvcddoc.cpp:210 projects/videocd/k3bvcddoc.cpp:220
+#, kde-format
+msgid ""
+"K3b will create a %1 image from the given MPEG files, but these files must "
+"already be in %1 format. K3b does not yet resample MPEG files."
+msgstr ""
+
+#: projects/videocd/k3bvcddoc.cpp:214 projects/videocd/k3bvcddoc.cpp:227
+#: projects/videocd/k3bvcddoc.cpp:256
+msgid "Information"
+msgstr ""
+
+#: projects/videocd/k3bvcddoc.cpp:223
+msgid "SVCD"
+msgstr "एसभीसीडी"
+
+#: projects/videocd/k3bvcddoc.cpp:225
+msgid ""
+"Note: Forcing MPEG2 as VCD is not supported by some standalone DVD players."
+msgstr ""
+"द्रष्टब्य: भीसीडीको रूपमा MPEG2 लाई जोर गर्दा केही स्टान्डालोन डीभीडी "
+"प्लेयरहरूले समर्थन गर्दैन ।"
+
+#: projects/videocd/k3bvcddoc.cpp:228
+msgid "Force VCD"
+msgstr ""
+
+#: projects/videocd/k3bvcddoc.cpp:229
+msgid "Do not force VCD"
+msgstr ""
+
+#: projects/videocd/k3bvcddoc.cpp:242
+msgid ""
+"You cannot mix MPEG1 and MPEG2 video files.\n"
+"Please start a new Project for this filetype.\n"
+"Resample not implemented in K3b yet."
+msgstr ""
+"तपाईँले MPEG1 र MPEG2 भिडियो फाइलहरू मिश्रण गर्न सक्नुहुन्न ।\n"
+"कृपया यो फाइल प्रकारको लागि नयाँ परियोजना सुरु गर्नुहोस् ।\n"
+"K3b मा अहिले सम्म पनि पुन: नमूना कार्यान्वयन गरिएको छैन ।"
+
+#: projects/videocd/k3bvcddoc.cpp:243
+msgid "Wrong File Type for This Project"
+msgstr "यो परियोजनाका लागि गलत फाइल प्रकार"
+
+#: projects/videocd/k3bvcddoc.cpp:254
+msgid ""
+"PBC (Playback control) enabled.\n"
+"Videoplayers can not reach Segments (Mpeg Still Pictures) without Playback "
+"control ."
+msgstr ""
+"पीबीसी (प्लेब्याक कन्ट्रोल) सक्षम पारियो ।\n"
+"भिडियो प्लेयर प्लेब्याक कन्ट्रोल बिना खण्ड (Mpeg स्थिर तस्वीर) मा पुग्न "
+"सक्दैन ।"
+
+#: projects/videocd/k3bvcddoc.cpp:286
+msgid "Only MPEG1 and MPEG2 video files are supported.\n"
+msgstr "MPEG1 र MPEG2 मात्र भिडियो फाइलहरू समर्थित छैन ।\n"
+
+#: projects/videocd/k3bvcddoc.cpp:287
+msgid "Wrong File Format"
+msgstr "गलत फाइल ढाँचा"
+
+#: projects/videocd/mpeginfo/k3bmpeginfo.cpp:69
+#, kde-format
+msgid "File %1 is empty."
+msgstr "फाइल %1 खाली छ ।"
+
+#: projects/videocd/mpeginfo/k3bmpeginfo.cpp:103
+msgid ""
+"This looks like an elementary video stream but a multiplexed program stream "
+"was required."
+msgstr ""
+
+#: projects/videocd/mpeginfo/k3bmpeginfo.cpp:108
+msgid ""
+"This looks like an elementary audio stream but a multiplexed program stream "
+"was required."
+msgstr ""
+
+#: projects/videocd/mpeginfo/k3bmpeginfo.cpp:113
+msgid ""
+"This looks like a RIFF header but a plain multiplexed program stream was "
+"required."
+msgstr ""
+"यो RIFF हेडर जस्तो देखिन्छ तर खाली बहुसङ्केतित कार्यक्रम प्रवाह आवश्यक थियो ।"
+
+#: projects/videocd/k3bvcdjob.cpp:124 projects/videocd/k3bvcdjob.cpp:478
+#, kde-format
+msgid "Removing Binary file %1"
+msgstr "बाइनरी फाइल %1 हटाउँदै"
+
+#: projects/videocd/k3bvcdjob.cpp:134 projects/videocd/k3bvcdjob.cpp:488
+#, kde-format
+msgid "Removing Cue file %1"
+msgstr "क्यु फाइल %1 हटाउँदै"
+
+#: projects/videocd/k3bvcdjob.cpp:184
+msgid "Could not write correct XML-file."
+msgstr "सही XML-फाइल लेख्न सकेन ।"
+
+#: projects/videocd/k3bvcdjob.cpp:192 projects/audiocd/k3baudiojob.cpp:349
+msgid "Creating image files"
+msgstr "छवि फाइलहरू सिर्जना गर्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:200
+msgid "Creating Cue/Bin files ..."
+msgstr "क्यु/बिन फाइलहरू सिर्जना गरिँदैछ ..."
+
+#: projects/videocd/k3bvcdjob.cpp:205
+#, kde-format
+msgid "To create VideoCDs you must install VcdImager Version %1."
+msgstr ""
+"भिडियो सीडीहरू सिर्जना गर्न तपाईँले VcdImager संस्करण %1 स्थापना गर्नुपर्छ ।"
+
+#: projects/videocd/k3bvcdjob.cpp:206 projects/videocd/k3bvcdjob.cpp:215
+msgid ""
+"You can find this on your distribution disks or download it from "
+"http://www.vcdimager.org"
+msgstr ""
+"तपाईँ यो तपाईँको वितरण डिस्कहरूमा फेला पार्न सक्नुहुन्छ "
+"वाhttp://www.vcdimager.org बाट डाउनलोड गर्न सक्नुहुन्छ"
+
+#: projects/videocd/k3bvcdjob.cpp:214
+#, kde-format
+msgid "%1 executable too old: need version %2 or greater."
+msgstr ""
+"%1 कार्यान्वयनयोग्य अति पुरानो हो: संस्करण %2 वा त्यो भन्दा ठूलो आवश्यक "
+"पर्दछ    ।"
+
+#: projects/videocd/k3bvcdjob.cpp:296
+#, kde-format
+msgid "Scanning video file %1 of %2 (%3)"
+msgstr "%2 (%3) को स्क्यानिङ् भिडियो फाइल %1"
+
+#: projects/videocd/k3bvcdjob.cpp:332
+#, kde-format
+msgid "Creating Image for track %1"
+msgstr "ट्रयाक %1 का लागि छवि सिर्जना गर्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:354
+msgid "Cue/Bin files successfully created."
+msgstr "क्यु/बिन फाइल सफलतापूर्वक सिर्जना गरियो ।"
+
+#: projects/videocd/k3bvcdjob.cpp:397
+#, kde-format
+msgid "Writing Copy %1 of %2"
+msgstr "%2 को प्रतिलिपि %1 लेख्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:523
+#, kde-format
+msgid "One or more BCD fields out of range for %1"
+msgstr "%1 का लागि दायरा बाहिरको एउटा वा अरू धेरै बीसीडी फाँटहरू"
+
+#: projects/videocd/k3bvcdjob.cpp:526
+msgid ""
+"From now on, scan information data errors will not be reported anymore"
+msgstr "यहाँबाट, स्क्यान सूचना डेटा त्रुटिहरू अरू धेरै प्रतिवेदन गरिने छैन"
+
+#: projects/videocd/k3bvcdjob.cpp:527
+msgid ""
+"Consider enabling the 'update scan offsets' option, if it is not enabled "
+"already."
+msgstr ""
+"यदि यो पहिल्यै सक्षम पारिएको छैन भने, 'स्क्यान अफसेट अद्यावधिक गर्ने' विकल्प "
+"सक्षम पार्न विचार गर्नुहोस् ।"
+
+#: projects/videocd/k3bvcdjob.cpp:534
+#, kde-format
+msgid "APS' pts seems out of order (actual pts %1, last seen pts %2)"
+msgstr ""
+"APS' pts क्रम भन्दा बाहिर देखिन्छ (वास्तविक pts %1, अन्तिममा देखिएको pts %2)"
+
+#: projects/videocd/k3bvcdjob.cpp:535
+msgid "Ignoring this aps"
+msgstr "यो aps उपेक्षा गर्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:543
+#, kde-format
+msgid "Bad packet at packet #%1 (stream byte offset %2)"
+msgstr "प्याकेट #%1 मा खराब प्याकेट (प्रवाह बाइट अफसेट %2)"
+
+#: projects/videocd/k3bvcdjob.cpp:550
+#, kde-format
+msgid "The remaining byte of the stream will be ignored."
+msgid_plural "The remaining %1 bytes of the stream will be ignored."
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/videocd/k3bvcdjob.cpp:552
+msgid "An unknown number of remaining stream bytes will be ignored."
+msgstr ""
+
+#: projects/videocd/k3bvcdjob.cpp:561
+msgid "Writing Video CD (Version 1.1)"
+msgstr "भिडियो सीडी (संस्करण १.१) लेख्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:563
+msgid "Writing Video CD (Version 2.0)"
+msgstr "भिडियो सीडी (संस्करण २.०) लेख्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:565
+msgid "Writing Super Video CD"
+msgstr "सुपर भिडियो सीडी लेख्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:567
+msgid "Writing High-Quality Video CD"
+msgstr "उच्च गुणस्तर भिडियो सीडी लेख्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:569
+msgid "Writing Video CD"
+msgstr "भिडियो सीडी लेख्दै"
+
+#: projects/videocd/k3bvcdjob.cpp:576
+#, kde-format
+msgid "1 MPEG (%2)"
+msgid_plural "%1 MPEGs (%2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/videocd/k3bvcdtrack.cpp:163 projects/videocd/k3bvcdtrack.cpp:173
+#: projects/videocd/k3bvcdtrack.cpp:186 projects/videocd/k3bvcdtrack.cpp:199
+#: projects/videocd/k3bvcdtrack.cpp:234 projects/videocd/k3bvcdtrack.cpp:262
+#: projects/videocd/k3bvcdtrack.cpp:275 projects/videocd/k3bvcdtrack.cpp:288
+#: projects/videocd/k3bvcdtrack.cpp:301 projects/videocd/k3bvcdtrack.cpp:313
+#: projects/videocd/k3bvcdtrack.cpp:330 projects/videocd/k3bvcdtrack.cpp:352
+#: projects/videocd/k3bvcdtrack.cpp:415
+msgid "n/a"
+msgstr "n/a"
+
+#: projects/videocd/k3bvcdtrack.cpp:194 projects/videocd/k3bvcdtrack.cpp:283
+#, kde-format
+msgid "1 bit/s"
+msgid_plural "%1 bits/s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/videocd/k3bvcdtrack.cpp:211
+msgid "Component"
+msgstr "अवयव"
+
+#: projects/videocd/k3bvcdtrack.cpp:296
+#, kde-format
+msgid "%1 Hz"
+msgstr "%1 Hz"
+
+#: projects/videocd/k3bvcdtrack.cpp:323 projects/videocd/k3bvcdtrack.cpp:325
+msgid "original"
+msgstr "मौलिक"
+
+#: projects/videocd/k3bvcdtrack.cpp:323 projects/videocd/k3bvcdtrack.cpp:325
+msgid "duplicate"
+msgstr "नक्कली"
+
+#: projects/videocd/k3bvcdtrack.cpp:339
+msgid "Motion Picture"
+msgstr "चल पिक्चर"
+
+#: projects/videocd/k3bvcdtrack.cpp:341
+msgid "Still Picture"
+msgstr "स्थिर पिक्चर"
+
+#: projects/videocd/k3bvcdtrack.cpp:348
+#, kde-format
+msgid "Layer %1"
+msgstr "तह %1"
+
+#: projects/videocd/k3bvcdtrack.cpp:382
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: projects/videocd/k3bvcdtrack.cpp:383
+msgid "invalid"
+msgstr "अवैध"
+
+#: projects/videocd/k3bvcdtrack.cpp:389
+msgid "stereo"
+msgstr "स्टेरियो"
+
+#: projects/videocd/k3bvcdtrack.cpp:390
+msgid "joint stereo"
+msgstr "संयुक्त स्टेरियो"
+
+#: projects/videocd/k3bvcdtrack.cpp:391 projects/videocd/k3bvcdtrack.cpp:396
+msgid "dual channel"
+msgstr "द्वैध च्यानल"
+
+#: projects/videocd/k3bvcdtrack.cpp:392
+msgid "single channel"
+msgstr "एकल च्यानल"
+
+#: projects/videocd/k3bvcdtrack.cpp:397
+msgid "surround sound"
+msgstr "घेरिएको ध्वनि"
+
+#: projects/audiocd/k3baudionormalizejob.cpp:56
+msgid "Could not find normalize-audio executable."
+msgstr ""
+
+#: projects/audiocd/k3baudionormalizejob.cpp:84
+msgid "Could not start normalize-audio."
+msgstr ""
+
+#: projects/audiocd/k3baudionormalizejob.cpp:124
+#, kde-format
+msgid "Track %1 is already normalized."
+msgstr "ट्रयाक %1 पहिल्यै सामान्यकरण गरिएको छ ।"
+
+#: projects/audiocd/k3baudionormalizejob.cpp:130
+#, kde-format
+msgid "Adjusting volume level for track %1 of %2"
+msgstr "%2 को ट्रयाक %1 का लागि भोल्युम तह समायोजन गर्दै"
+
+#: projects/audiocd/k3baudionormalizejob.cpp:138
+#, kde-format
+msgid "Computing level for track %1 of %2"
+msgstr "%2 को ट्रयाक %1 का लागि तह गणना गर्दै"
+
+#: projects/audiocd/k3baudionormalizejob.cpp:181
+msgid "Successfully normalized all tracks."
+msgstr "सबै ट्रयाक सफलतापूर्वक सामान्यकरण गरियो ।"
+
+#: projects/audiocd/k3baudionormalizejob.cpp:189
+msgid "Error while normalizing tracks."
+msgstr "ट्रयाक सामान्यकरण गर्दा त्रुटि ।"
+
+#: projects/audiocd/k3baudiodoc.cpp:938
+msgid ""
+"<p>Unable to handle the following files due to an unsupported format:<p>You "
+"may manually convert these audio files to wave using another application "
+"supporting the audio format and then add the wave files to the K3b project."
+msgstr ""
+
+#: projects/audiocd/k3baudiodoc.cpp:943
+msgid "Unsupported Format"
+msgstr "असमर्थित ढाँचा"
+
+#: projects/audiocd/k3brawaudiodatasource.cpp:82
+msgid "Raw Audio CD Image"
+msgstr ""
+
+#: projects/audiocd/k3baudiojob.cpp:204
+msgid "Unable to write on-the-fly with these audio sources."
+msgstr "यी अडियो स्रोतसँग फाइलमा लेख्न असक्षम भयो ।"
+
+#: projects/audiocd/k3baudiojob.cpp:348
+#, kde-format
+msgid "Creating image files in %1"
+msgstr "%1 मा छवि फाइल सिर्जना गर्दै"
+
+#: projects/audiocd/k3baudiojob.cpp:463
+msgid "Successfully decoded all tracks."
+msgstr "सबै ट्रयाकहरू सफलतापूर्वक सङ्केतनबाट हटाइयो ।"
+
+#: projects/audiocd/k3baudiojob.cpp:505
+msgid "IO Error. Most likely no space left on harddisk."
+msgstr ""
+
+#: projects/audiocd/k3baudiojob.cpp:852
+msgid "Writing Audio CD"
+msgstr "अडियो सीडी लेख्दै"
+
+#: projects/audiocd/k3baudiojob.cpp:862
+#, kde-format
+msgctxt "%2 is of form XX:YY:ZZ, no pluralization needed"
+msgid "1 track (%2 minutes)"
+msgid_plural "%1 tracks (%2 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: projects/audiocd/k3baudioimager.cpp:101
+#, kde-format
+msgid "Unable to seek in track %1."
+msgstr "ट्रयाक %1 मा खोजी गर्न असक्षम भयो ।"
+
+#: projects/audiocd/k3baudioimager.cpp:154
+#, kde-format
+msgid "Error while decoding track %1."
+msgstr "ट्रयाक %1 सङ्केतनबाट हटाउँदा त्रुटि ।"
+
+#: projects/audiocd/k3baudiocdtracksource.cpp:105
+#, kde-format
+msgid "Please insert Audio CD %1%2"
+msgstr "कृपया अडियो सीडी %1%2 घुसाउँनुहोस्"
+
+#: projects/audiocd/k3baudiocdtracksource.cpp:253
+msgid "CD Track"
+msgstr "सीडी ट्रयाक"
+
+#: projects/audiocd/k3baudiocdtracksource.cpp:259
+#, kde-format
+msgid "Track %1 from Audio CD %2"
+msgstr "अडियो सीडी %2 बाट ट्रयाक %1"
+
+#: projects/audiocd/k3baudiozerodata.cpp:59
+msgid "Silence"
+msgstr "मौन"
+
+#: tools/k3bcddb.cpp:44
+msgid "Multiple CDDB Entries Found"
+msgstr ""
+
+#: tools/k3bcddb.cpp:49
+msgid "K3b found multiple or inexact CDDB entries. Please select one."
+msgstr ""
+
+#: tools/k3bmediacache.cpp:139 tools/k3bmediacache.cpp:379
+msgid "CDDB Lookup"
+msgstr ""
+
+#: tools/k3bprogressdialog.cpp:85
+msgid "Disk successfully erased. Please reload the disk."
+msgstr "डिस्क सफलतापूर्वक मेटियो । कृपया डिस्क पुन: लोड गर्नुहोस् ।"
+
+#: tools/k3bprogressdialog.cpp:87
+msgid "K3b was unable to erase the disk."
+msgstr "K3b डिस्क मेट्न असक्षम भयो ।"
+
+#: tools/k3bdevicemodel.cpp:138
+msgid "Analyzing medium..."
+msgstr ""
+
+#: tools/k3bdeviceselectiondialog.cpp:45
+msgid "Device Selection"
+msgstr "यन्त्र चयन"
+
+#: tools/k3bdeviceselectiondialog.cpp:51
+msgid "Please select a device:"
+msgstr "कृपया यन्त्र चयन गर्नुहोस्:"
+
+#: tools/k3bmedium.cpp:294
+msgid "Audio CD"
+msgstr ""
+
+#: tools/k3bmedium.cpp:297
+msgid "Mixed CD"
+msgstr ""
+
+#: tools/k3bmedium.cpp:301
+msgid "Video DVD"
+msgstr ""
+
+#: tools/k3bmedium.cpp:304
+msgid "Video CD"
+msgstr ""
+
+#: tools/k3bmedium.cpp:307
+#, kde-format
+msgid "Appendable Data %1"
+msgstr ""
+
+#: tools/k3bmedium.cpp:310
+#, kde-format
+msgid "Complete Data %1"
+msgstr ""
+
+#: tools/k3bmedium.cpp:314
+msgid "Empty"
+msgstr ""
+
+#: tools/k3bmedium.cpp:327
+msgid "No medium information"
+msgstr ""
+
+#: tools/k3bmedium.cpp:331
+msgid "No medium present"
+msgstr ""
+
+#: tools/k3bmedium.cpp:335
+#, kde-format
+msgid "Empty %1 medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:376
+#, kde-format
+msgid "Appendable %1 medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:379
+#, kde-format
+msgid "Complete %1 medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:396
+#, kde-format
+msgid "%1 in 1 track"
+msgid_plural "%1 in %2 tracks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tools/k3bmedium.cpp:400
+#, kde-format
+msgid " and %1 session"
+msgid_plural " and %1 sessions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tools/k3bmedium.cpp:405
+#, kde-format
+msgid "Free space: %1"
+msgstr ""
+
+#: tools/k3bmedium.cpp:409
+#, kde-format
+msgid "Capacity: %1"
+msgstr ""
+
+#: tools/k3bmedium.cpp:589
+#, kde-format
+msgid "Please insert an empty medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:591
+msgid "Please insert an empty medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:595
+#, kde-format
+msgid "Please insert an empty DVD or Blu-ray medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:597
+msgid "Please insert an empty DVD or Blu-ray medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:601
+#, kde-format
+msgid "Please insert an empty Blu-ray medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:603
+msgid "Please insert an empty Blu-ray medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:607
+#, kde-format
+msgid "Please insert an empty CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:609
+msgid "Please insert an empty CD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:613
+#, kde-format
+msgid "Please insert an empty DVD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:615
+msgid "Please insert an empty DVD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:619
+#, kde-format
+msgid "Please insert an empty DVD-DL medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:621
+msgid "Please insert an empty DVD-DL medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:625
+#, kde-format
+msgid ""
+"Please insert an empty medium of size %1 or larger into drive<p><b>%2</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:628
+#, kde-format
+msgid "Please insert an empty medium of size %1 or larger"
+msgstr ""
+
+#: tools/k3bmedium.cpp:634
+#, kde-format
+msgid "Please insert an empty or appendable medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:636
+msgid "Please insert an empty or appendable medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:640
+#, kde-format
+msgid ""
+"Please insert an empty or appendable DVD or Blu-ray medium into "
+"drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:642
+msgid "Please insert an empty or appendable DVD or Blu-ray medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:646
+#, kde-format
+msgid ""
+"Please insert an empty or appendable Blu-ray medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:648
+msgid "Please insert an empty or appendable Blu-ray medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:652
+#, kde-format
+msgid "Please insert an empty or appendable CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:654
+msgid "Please insert an empty or appendable CD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:658
+#, kde-format
+msgid ""
+"Please insert an empty or appendable DVD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:660
+msgid "Please insert an empty or appendable DVD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:664
+#, kde-format
+msgid ""
+"Please insert an empty or appendable DVD-DL medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:666
+msgid "Please insert an empty or appendable DVD-DL medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:672
+#, kde-format
+msgid "Please insert a non-empty medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:674
+msgid "Please insert a non-empty medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:678
+#, kde-format
+msgid "Please insert a non-empty rewritable medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:680
+msgid "Please insert a non-empty rewritable medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:686
+#, kde-format
+msgid "Please insert a rewritable medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:688
+msgid "Please insert a rewritable medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:694 tools/k3bmedium.cpp:740
+#, kde-format
+msgid "Please insert a suitable medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:696 tools/k3bmedium.cpp:742
+msgid "Please insert a suitable medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:709
+#, kde-format
+msgid "Please insert a Video CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:711
+msgid "Please insert a Video CD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:715
+#, kde-format
+msgid "Please insert a Video DVD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:717
+msgid "Please insert a Video DVD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:721
+#, kde-format
+msgid "Please insert a Mixed Mode CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:723
+msgid "Please insert a Mixed Mode CD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:727
+#, kde-format
+msgid "Please insert an Audio CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:729
+msgid "Please insert an Audio CD medium"
+msgstr ""
+
+#: tools/k3bmedium.cpp:733
+#, kde-format
+msgid "Please insert a Data medium into drive<p><b>%1</b>"
+msgstr ""
+
+#: tools/k3bmedium.cpp:735
+msgid "Please insert a Data medium"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:28
+msgid "Simulate"
+msgstr "नक्कल गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:29
+msgid ""
+"<p>If this option is checked K3b will perform all writing steps with the "
+"laser turned off.<p>This is useful, for example, to test a higher writing "
+"speed or whether your system is able to write on-the-fly.<p><b>Caution:</b> "
+"DVD+R(W) does not support simulated writing."
+msgstr ""
+"<p>यदि यो विकल्प जाँच गरियो भने K3b ले बन्द गरिएको लेजरसँग सबै लेखन चरणहरू "
+"सम्पादन गर्नेछ ।<p> उदाहरणका लागि, उच्च लेखन गति परीक्षण गर्न वा तपाईँको "
+"प्रणालीले फ्लाइमा लेख्छ या लेख्दैन परीक्षण गर्न यो उपयुक्त हुन्छ "
+"।<p><b>सावधान:</b> DVD+R(W) ले नक्कल गरिएको लेखन समर्थन गर्दैन ।"
+
+#: tools/k3bstdguiitems.cpp:34
+msgid "Only simulate the writing process"
+msgstr "लेख्ने प्रक्रिया मात्र नक्कल गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:40
+msgid "Disk at once"
+msgstr "डिस्क एकपटकमा"
+
+#: tools/k3bstdguiitems.cpp:41
+msgid ""
+"<p>If this option is checked, K3b will write the CD in 'disk at once' mode "
+"as compared to 'track at once' (TAO).<p>It is always recommended to use DAO "
+"where possible.<p><b>Caution:</b> Track pregaps with a length other than 2 "
+"seconds are only supported in DAO mode."
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने, K3b ले 'ट्रयाक एकपटकमा' (TAO) मा तुलना "
+"गरिएको जस्तै 'डिस्क एकपटकमा' मोडमा सीडी लेख्नेछ । <p> यसलाई सम्भव भएसम्म सधै "
+"DAO प्रयोग गर्न सिफारिस गरिन्छ । <p><b>सावधान:</b> ट्रयाकले २ सेकेन्ड भन्दा "
+"अन्य लम्बाइसँग गरेको पूर्वग्याप मात्र DAO मोडमा समर्थित हुन्छ ।"
+
+#: tools/k3bstdguiitems.cpp:46
+msgid "Write in disk at once mode"
+msgstr "डिस्क एकपटक मोडमा लेख्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:52
+msgid "Use Burnfree"
+msgstr "निशुल्क बर्न प्रयोग गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:53
+msgid "Enable Burnfree (or Just Link) to avoid buffer underruns"
+msgstr ""
+"बफर अन्डररन त्याग्न (वा मात्र लिङ्क गर्न) निशुल्क बर्न सक्षम पार्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:54
+msgid ""
+"<p>If this option is checked, K3b enables <em>Burnfree</em> (or <em>Just "
+"Link</em>). This is a feature of the CD writer which avoids buffer "
+"underruns.<p>Without <em>burnfree</em>, if the writer cannot get any more "
+"data a buffer underrun would occur, since the writer needs a constant stream "
+"of data to write the CD.<p>With <em>burnfree</em> the writer can "
+"<em>mark</em> the current position of the laser and get back to it when the "
+"buffer is filled again; but, since this means having little data gaps on the "
+"CD, <b>it is highly recommended to always choose an appropriate writing "
+"speed to prevent the usage of burnfree, especially for audio CDs</b> (in the "
+"worst case one would hear the gap).<p><em>Burnfree</em> was formerly known "
+"as <em>Burnproof</em>, but has since been renamed when it became part of the "
+"MMC standard."
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:73
+msgid "Only create image"
+msgstr "छवि मात्र सिर्जना गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:74
+msgid ""
+"<p>If this option is checked, K3b will only create an image and not do any "
+"actual writing.<p>The image can later be written to a CD/DVD with most "
+"current writing programs (including K3b of course)."
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने, K3b ले एउटा छवि मात्र सिर्जना गर्नेछ र "
+"कुनै वास्तविक लेखन गर्दैन । <p> छवि पछि (K3b समावेश भएको) अति ताजा लेखन "
+"कार्यक्रमसँग सीडी/डीभीडी मा लेखिन सक्छ ।"
+
+#: tools/k3bstdguiitems.cpp:78
+msgid "Only create an image"
+msgstr "एउटा छवि मात्र सिर्जना गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:84
+msgid "Create image"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:85
+msgid ""
+"<p>If this option is checked, K3b will create an image before writing the "
+"files to the CD/DVD. Otherwise the data will be written <em>on-the-fly</em>, "
+"i.e. no intermediate image will be created.<p><b>Caution:</b> Although "
+"writing on-the-fly should work on most systems, make sure the data is sent "
+"to the writer fast enough."
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:90 tools/k3bstdguiitems.cpp:112
+msgid "<p>It is recommended to try a simulation first."
+msgstr "<p> पहिले नक्कली प्रयास गर्न सिफारिस गरिन्छ ।"
+
+#: tools/k3bstdguiitems.cpp:91
+msgid "Cache the data to be written on the harddisk"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:97
+msgid "Remove image"
+msgstr "छवि हटाउनुहोस्"
+
+#: tools/k3bstdguiitems.cpp:98
+msgid ""
+"<p>If this option is checked, K3b will remove any created images after the "
+"writing has finished.<p>Uncheck this if you want to keep the images."
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने, K3b ले लेखन समाप्त भएपछि कुनै सिर्जित "
+"छविहरू हटाउनेछ । <p> यदि तपाईँ यो छवि राख्न चाहनुहुन्छ भने यसलाई जाँचबाट "
+"हटाउनुहोस् ।"
+
+#: tools/k3bstdguiitems.cpp:101
+msgid "Remove images from disk when finished"
+msgstr "समाप्त भएपछि डिस्कबाट छविहरू हटाउनुहोस्"
+
+#: tools/k3bstdguiitems.cpp:107
+msgid "On the fly"
+msgstr "फ्लाइमा"
+
+#: tools/k3bstdguiitems.cpp:108
+msgid ""
+"<p>If this option is checked, K3b will not create an image first but write "
+"the files directly to the CD/DVD.<p><b>Caution:</b> Although this should "
+"work on most systems, make sure the data is sent to the writer fast enough."
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने, K3b ले पहिले एउटा छवि सिर्जना गर्नेछैन तर "
+"सीडी/डीभीडी मा सीधै फाइल लेख्नेछ । <p><b>सावधान:</b> यसले धेरैजसो प्रणालीमा "
+"काम गरेता पनि, डेटा राइटरमा चाँडो पठाइयो भन्ने निश्चित गर्नुहोस् ।"
+
+#: tools/k3bstdguiitems.cpp:113
+msgid "Write files directly to CD/DVD without creating an image"
+msgstr "एउटा छवि सिर्जना नगरी सीडी/डीभीडी मा सीधै फाइलहरू लेख्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:119
+msgid "Write CD-TEXT"
+msgstr "सीडी-पाठ लेख्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:120
+msgid "Create CD-TEXT entries"
+msgstr "सीडी-पाठ प्रविष्टिहरू सिर्जना गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:121
+msgid ""
+"<p>If this option is checked K3b uses some otherwise-unused space on the "
+"audio CD to store additional information, such as the artist's name, or the "
+"CD title.<p>CD-TEXT is an extension to the audio CD standard introduced by "
+"Sony.<p>CD-TEXT will only be usable on CD players that support this "
+"extension (mostly car CD players).<p>Since a CD-TEXT-enhanced CD will work "
+"in any CD player it is never a bad idea to enable this (if you specify CD-"
+"TEXT data.)"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:140
+msgid "Set the paranoia level for reading audio CDs"
+msgstr "अडियो सीडी पढ्नका लागि ठूलो तह सेट गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:141
+msgid ""
+"<p>Sets the correction mode for digital audio extraction.<ul><li>0: No "
+"checking, data is copied directly from the drive. <li>1: Perform overlapped "
+"reading to avoid jitter.</li><li>2: Like 1 but with additional checks of the "
+"read audio data.</li><li>3: Like 2 but with additional scratch detection and "
+"repair.</li></ul><p><b>The extraction speed reduces from 0 to 3.</b>"
+msgstr ""
+"<p>डिजिटल अडियो निष्कर्षणका लागि सुधारिएको मोड सेट गर्दछ ।<ul><li>0: जाँच "
+"गरिरहेको छैन, डेटा सीधै ड्राइभबाट प्रतिलिपि गरिएको हो । <li>1: जिट्टर "
+"त्याग्न ओभरल्याप गरिएको पढाई सम्पादन गर्नुहोस् । </li><li>2: जस्तै १ तर "
+"पढ्ने अडियो डेटाको अतिरिक्त जाँचहरू ।</li><li>3: जस्तै २ तर अतिरिक्त कोरिएको "
+"पत्ता लगाउने र मर्मतसँग ।</li></ul><p><b>निष्कर्षण गति ० बाट ३ सम्म घट्दछ "
+"।</b>"
+
+#: tools/k3bstdguiitems.cpp:153
+msgid "Start multisession CD"
+msgstr "बहुसत्रिय सीडी सुरु गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:154
+msgid "Do not close the disk to allow additional sessions to be added later"
+msgstr "पछि थपिने गरी अतिरिक्त सत्रहरू अनुमति दिन डिस्क बन्द नगर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:155
+msgid ""
+"<p>If this option is checked K3b will not close the CD, and will write a "
+"temporary table of contents.</p><p>This allows further sessions to be "
+"appended to the CD later.</p>"
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने K3b ले सीडी बन्द गर्ने छैन, र अस्थायी "
+"विषयवस्तु लेख्नेछ । </p><p>यसले पछि सीडीमा अगाडि सत्रहरू थपिन अनुमति दिन्छ "
+"।</p>"
+
+#: tools/k3bstdguiitems.cpp:164
+msgid "Normalize volume levels"
+msgstr "भोल्युम तहहरू सामान्यकरण गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:165
+msgid "Adjust the volume levels of all tracks"
+msgstr "सबै ट्रयाकको भोल्युम तहहरू समायोजन गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:166
+msgid ""
+"<p>If this option is checked K3b will adjust the volume of all tracks to a "
+"standard level. This is useful for things like creating mixes, where "
+"different recording levels on different albums can cause the volume to vary "
+"greatly from song to song.<p><b>Be aware that K3b currently does not support "
+"normalizing when writing on the fly.</b>"
+msgstr ""
+"<p> यदि यो विकल्प जाँच गरियो भने K3b ले सबै ट्रयाकको भोल्युम तह मानक स्तरम "
+"समायोजन गर्नेछ । यो मिश्रणहरू सिर्जना गर्न उपयोगी हुन्छ, जहाँ फरक एल्बमहरूमा "
+"फरक रेकर्डिङ तहहरूले गीतबाट गीतमा भोल्युममा ठूलो भिन्नता देखाउँदछ । "
+"<p><b>सावधान रहनुहोस् कि K3b ले हालै फ्लाईमा लेख्दा सामान्यकरणमा समर्थन "
+"गर्दन ।</b>"
+
+#: tools/k3bstdguiitems.cpp:178
+msgid "Verify written data"
+msgstr "लिखित डेटा रूजू गर्नुहोस्"
+
+#: tools/k3bstdguiitems.cpp:179
+msgid "Compare original with written data"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:180
+msgid ""
+"<p>If this option is checked, then after successfully writing the disk K3b "
+"will compare the original source data with the written data to verify that "
+"the disk has been written correctly."
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:190
+msgid "Ignore read errors"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:191
+msgid "Skip unreadable audio sectors"
+msgstr ""
+
+#: tools/k3bstdguiitems.cpp:192
+msgid ""
+"<p>If this option is checked and K3b is not able to read an audio sector "
+"from the source CD it will be replaced with zeros on the resulting "
+"copy.<p>Since audio CD Player are able to interpolate small errors in the "
+"data it is no problem to let K3b skip unreadable sectors."
+msgstr ""
+
+#: tools/k3bmd5job.cpp:94
+#, kde-format
+msgid "Could not find file %1"
+msgstr "फाइल %1 फेला पार्न सकेन"
+
+#: tools/k3bmd5job.cpp:239
+#, kde-format
+msgid "Error while reading from file %1"
+msgstr "फाइल %1 बाट पढ्दा त्रुटि"

@@ -1,0 +1,187 @@
+# translation of kio_trash.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_trash\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-16 21:53+0000\n"
+"PO-Revision-Date: 2009-07-16 09:59+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:18+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kio_trash_win.cpp:228 kio_trash.cpp:140
+msgid "This file is already in the trash bin."
+msgstr "यो फाइल पहिल्यै रद्दीटोकरीमा छ ।"
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr ""
+
+#: kio_trash_win.cpp:252 kio_trash.cpp:228
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
+
+#: kcmtrash.cpp:120
+msgid "Byte"
+msgstr ""
+
+#: kcmtrash.cpp:122
+msgid "KByte"
+msgstr ""
+
+#: kcmtrash.cpp:126
+msgid "MByte"
+msgstr ""
+
+#: kcmtrash.cpp:130
+msgid "GByte"
+msgstr ""
+
+#: kcmtrash.cpp:134
+msgid "TByte"
+msgstr ""
+
+#: kcmtrash.cpp:139
+#, kde-format
+msgctxt ""
+"%1 is amount of disk space, %2 the unit, KBytes, MBytes, GBytes, TBytes, etc."
+msgid "(%1 %2)"
+msgstr ""
+
+#: kcmtrash.cpp:178 kcmtrash.cpp:278
+msgid " day"
+msgid_plural " days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kcmtrash.cpp:269
+msgid "Delete files older than:"
+msgstr ""
+
+#: kcmtrash.cpp:271
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check this box to allow <b>automatic deletion</b> of files that are "
+"older than the value specified. Leave this disabled to <b>not</b> "
+"automatically delete any items after a certain timespan</para>"
+msgstr ""
+
+#: kcmtrash.cpp:280
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Set the number of days that files can remain in the trash. Any files "
+"older than this will be automatically deleted.</para>"
+msgstr ""
+
+#: kcmtrash.cpp:287
+msgid "Limit to maximum size"
+msgstr ""
+
+#: kcmtrash.cpp:289
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check this box to limit the trash to the maximum amount of disk space "
+"that you specify below. Otherwise, it will be unlimited.</para>"
+msgstr ""
+
+#: kcmtrash.cpp:300
+msgid "Maximum size:"
+msgstr ""
+
+#: kcmtrash.cpp:309
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the maximum percent of disk space that will be used for the "
+"trash.</para>"
+msgstr ""
+
+#: kcmtrash.cpp:314
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the calculated amount of disk space that will be allowed for "
+"the trash, the maximum.</para>"
+msgstr ""
+
+#: kcmtrash.cpp:317
+msgid "When limit reached:"
+msgstr ""
+
+#: kcmtrash.cpp:321
+msgid "Warn Me"
+msgstr ""
+
+#: kcmtrash.cpp:322
+msgid "Delete Oldest Files From Trash"
+msgstr ""
+
+#: kcmtrash.cpp:323
+msgid "Delete Biggest Files From Trash"
+msgstr ""
+
+#: kcmtrash.cpp:325
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>When the size limit is reached, it will prefer to delete the type of "
+"files that you specify, first. If this is set to warn you, it will do so "
+"instead of automatically deleting files.</para>"
+msgstr ""
+
+#: trashimpl.cpp:1116
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+
+#: trashimpl.cpp:1127
+msgid "The file is too large to be trashed."
+msgstr ""
+
+#: ktrash.cpp:32
+msgid "ktrash"
+msgstr "केडीई रद्दीटोकरी"
+
+#: ktrash.cpp:34
+msgid ""
+"Helper program to handle the KDE trash can\n"
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
+msgstr ""
+
+#: ktrash.cpp:38
+msgid "Empty the contents of the trash"
+msgstr "रद्दीटोकरीको सामग्री खाली गर्नुहोस्"
+
+#: ktrash.cpp:40
+msgid "Restore a trashed file to its original location"
+msgstr "रद्दीटोकरीको फाइलहरू तिनको मौलिक स्थानमा ल्याउनुहोस् ।"
+
+#: ktrash.cpp:42
+msgid "Ignored"
+msgstr "उपेक्षित"
+
+#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
+#: kio_trash.cpp:505 kio_trash.cpp:517
+#, kde-format
+msgid "Malformed URL %1"
+msgstr "विकृत यूआरएल %1"
+
+#: kio_trash.cpp:111
+#, kde-format
+msgid ""
+"The directory %1 does not exist anymore, so it is not possible to restore "
+"this item to its original location. You can either recreate that directory "
+"and use the restore operation again, or drag the item anywhere else to "
+"restore it."
+msgstr ""
+"%1 डाइरेक्टरी अब अवस्थित रहने छैन, त्यसैले यो वस्तुलाई यसको मौलिक स्थानमा "
+"लैजान सम्भव छैन । तपाईँ या त त्यो डाइरेक्टरी पुन: सिर्जना गरेर फेरि "
+"पूर्वावस्थामा लाने सञ्चालन प्रयोग गर्न सक्नुहुन्छ वा यसलाई अन्य कुनै स्थानमा "
+"पूर्वावस्थामा लैजान वस्तु तान्न सक्नुहुन्छ ।"

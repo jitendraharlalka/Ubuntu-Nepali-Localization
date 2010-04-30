@@ -1,0 +1,174 @@
+# translation of irkick.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: irkick\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 23:08+0000\n"
+"PO-Revision-Date: 2010-04-06 15:21+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:43+0000\n"
+
+#: irkick.cpp:102
+msgid ""
+"A connection to the infrared system has been made. Remote controls may now "
+"be available."
+msgstr ""
+"अवरक्त प्रणालीसँग जडान बनाइएको छ । टाढाको नियन्त्रण अब उपलब्ध हुन सक्दछ ।"
+
+#: irkick.cpp:115
+msgid ""
+"The infrared system has severed its connection. Remote controls are no "
+"longer available."
+msgstr ""
+"अवरक्त प्रणालीसँग यसको पृथक जडान छ । टाढाको नियन्त्रण अब लामो समयसम्म उपलब्ध "
+"छैन ।"
+
+#: irkick.cpp:129
+msgid "Resetting all modes."
+msgstr "सबै मोडहरू रिसेट गर्दै ।"
+
+#: irkick.cpp:172
+msgid "KDE Lirc Server: "
+msgstr "केडिइ LIRC सर्भर:"
+
+#: irkick.cpp:176 irkick.cpp:181
+msgctxt "The state of kdelirc"
+msgid "Stopped"
+msgstr "रोकियो"
+
+#: irkick.cpp:177
+msgid "Lirc daemon is currently not available."
+msgstr ""
+
+#: irkick.cpp:182
+msgid "No infra-red remote controls found."
+msgstr ""
+
+#: irkick.cpp:185
+msgctxt "The state of kdelirc"
+msgid "Ready"
+msgstr "तयार"
+
+#: irkick.cpp:189 irkick.cpp:212
+msgid "Master"
+msgstr ""
+
+#: irkick.cpp:201
+msgid "&Configure..."
+msgstr "कन्फिगर..."
+
+#: irkick.cpp:210
+msgid "Switch mode to"
+msgstr ""
+
+#: irkick.cpp:226
+msgid "&Help"
+msgstr "सहायता"
+
+#: irkick.cpp:227
+msgid "&About"
+msgstr "_बारे"
+
+#: irkick.cpp:272
+msgctxt "Default mode in notification"
+msgid "Default"
+msgstr "पूर्वनिर्धारित"
+
+#: irkick.cpp:272
+#, kde-format
+msgid "Mode switched to %1"
+msgstr "मोड %1 मा परिवर्तन गरियो"
+
+#: main.cpp:37
+msgid "IRKick"
+msgstr "IRKick"
+
+#: main.cpp:37
+msgid "The KDE Infrared Remote Control Server"
+msgstr "KDE अवरक्त टाढाको नियन्त्रण सर्भर"
+
+#: main.cpp:37
+msgid "(c) 2003, Gav Wood"
+msgstr "(c) 2003, गाभ वुड"
+
+#: main.cpp:37
+msgid "Control your desktop with your remote."
+msgstr "रिमोर्ट मार्फत आफ्नो डेस्कटप नियन्त्रण गर्नुहोस्।"
+
+#: main.cpp:38
+msgid "Gav Wood"
+msgstr "गाभ वुड (Gav Wood)"
+
+#: main.cpp:38
+msgid "Author"
+msgstr "लेखक"
+
+#: main.cpp:39
+msgid "Malte Starostik"
+msgstr "माल्टे स्टारोस्तिक"
+
+#: main.cpp:39
+msgid "Original LIRC interface code"
+msgstr "मौलिक LIRC इन्टरफेस सङ्केत"
+
+#: main.cpp:40
+msgid "Dirk Ziegelmeier"
+msgstr "डिर्क जिगेल्मेइर"
+
+#: main.cpp:40
+msgid "Ideas, concept code"
+msgstr "विचार, धारणा सङ्केत"
+
+#: main.cpp:41
+msgid "Zsolt Rizsanyi"
+msgstr "ज्सोल्ट रिज्सान्यि"
+
+#: main.cpp:41
+msgid "Random patches"
+msgstr "अनियमित प्याच"
+
+#: main.cpp:42
+msgid "Antonio Larrosa Jiménez"
+msgstr "एन्टोनिओ लार्रोसा जिमेनेज"
+
+#: main.cpp:42
+msgid "Ideas"
+msgstr "विचार"
+
+#: main.cpp:43
+msgid "Michael Zanetti"
+msgstr "माइकल जनेटि (Michael Zanetti)"
+
+#: main.cpp:43 main.cpp:44
+msgid "KDE4-Port and refactoring"
+msgstr ""
+
+#: main.cpp:44
+msgid "Frank Scheffold"
+msgstr "फ्रेन्क सहेपफोल्ड (Frank Scheffold)"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Jitendra Harlalka, Kapil Timilsina, श्यामकृष्ण बल, नारायण कुमार मगर, "
+",Launchpad Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"jitendra@otrc.gov.np, lipak21@gmail.com, shyamkrishna_bal@yahoo.com, "
+"narayan@mpp.org.np,,,"

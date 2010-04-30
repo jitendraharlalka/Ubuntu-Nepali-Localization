@@ -1,0 +1,3945 @@
+# translation of knode.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: knode\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:45+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:54+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: aboutdata.cpp:30
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: aboutdata.cpp:31 aboutdata.cpp:32
+msgid "Former maintainer"
+msgstr "अघिल्लो मर्मतकर्ता"
+
+#: aboutdata.cpp:46 knjobdata.cpp:155
+msgid "KNode"
+msgstr "केडीई नोड"
+
+#: aboutdata.cpp:48
+msgid "A newsreader for KDE"
+msgstr "केडीईका लागि एउटा समाचार वाचक"
+
+#: aboutdata.cpp:50
+msgid "Copyright (c) 1999-2009 the KNode authors"
+msgstr ""
+
+#: aboutdata.cpp:59
+msgid "Jakob Schroeter"
+msgstr "ज्याकोब स्क्रोयेटर"
+
+#: articlewidget.cpp:158
+msgid "F&ind in Article..."
+msgstr "लेखमा फेला पार्नुहोस्..."
+
+#: articlewidget.cpp:160
+msgid "&View Source"
+msgstr "स्रोत हेर्नुहोस्"
+
+#: articlewidget.cpp:165
+msgid "&Followup to Newsgroup..."
+msgstr "समचार समूहलाई अनुसरण गर्नुहोस्..."
+
+#: articlewidget.cpp:170
+msgid "Reply by E&mail..."
+msgstr "इमेल मार्फत जवाफ पठाउनुहोस्..."
+
+#: articlewidget.cpp:175
+msgid "Forw&ard by Email..."
+msgstr "इमेल मार्फत फरवार्ड गर्नुहोस्..."
+
+#: articlewidget.cpp:179
+msgctxt "article"
+msgid "&Cancel Article"
+msgstr "लेख रद्द गर्नुहोस्"
+
+#: articlewidget.cpp:182
+msgid "S&upersede Article"
+msgstr "लेख हटाउनुहोस्"
+
+#: articlewidget.cpp:185
+msgid "U&se Fixed Font"
+msgstr "निश्चित फन्ट प्रयोग गर्नुहोस्"
+
+#: articlewidget.cpp:189
+msgid "Fancy Formatting"
+msgstr ""
+
+#: articlewidget.cpp:194
+msgid "&Unscramble (Rot 13)"
+msgstr "अनस्क्र्याम्बल (Rot 13)"
+
+#: articlewidget.cpp:201
+msgid "&Headers"
+msgstr "हेडर"
+
+#: articlewidget.cpp:203
+msgid "&Fancy Headers"
+msgstr "आकर्षक हेडर"
+
+#: articlewidget.cpp:208
+msgid "&Standard Headers"
+msgstr "मानक हेडर"
+
+#: articlewidget.cpp:213
+msgid "&All Headers"
+msgstr "सबै हेडर"
+
+#: articlewidget.cpp:220
+msgid "&Attachments"
+msgstr "सङ्लग्नता"
+
+#: articlewidget.cpp:222
+msgid "&As Icon"
+msgstr "प्रतिमाका रूपमा"
+
+#: articlewidget.cpp:227
+msgid "&Inline"
+msgstr "इनलाइन"
+
+#: articlewidget.cpp:232
+msgid "&Hide"
+msgstr "लुकाउनुहोस्"
+
+#: articlewidget.cpp:238
+msgid "Set chars&et"
+msgstr ""
+
+#: articlewidget.cpp:241 articlewidget.cpp:1416
+msgctxt "@item default character set"
+msgid "Default"
+msgstr ""
+
+#: articlewidget.cpp:246
+msgid "Set charset"
+msgstr ""
+
+#: articlewidget.cpp:252
+msgid "&Open URL"
+msgstr "URL खोल्नुहोस्"
+
+#: articlewidget.cpp:256
+msgid "&Copy Link Address"
+msgstr "लिङ्क ठेगाना प्रतिलिपि गर्नुहोस्"
+
+#: articlewidget.cpp:260
+msgid "&Bookmark This Link"
+msgstr "यस लिङ्कलाई पुस्तकचिनो लगाउनुहोस्"
+
+#: articlewidget.cpp:263
+msgid "&Add to Address Book"
+msgstr "ठेगाना पुस्तिकामा थप्नुहोस्"
+
+#: articlewidget.cpp:266
+msgid "&Open in Address Book"
+msgstr "ठेगाना पुस्तिकामा खोल्नुहोस्"
+
+#: articlewidget.cpp:270
+msgid "&Open Attachment"
+msgstr "सङ्लग्नता खोल्नुहोस्"
+
+#: articlewidget.cpp:274
+msgid "&Save Attachment As..."
+msgstr "यस रूपमा सङ्लग्नताका बचत गर्नुहोस्..."
+
+#: articlewidget.cpp:400
+msgid "Unable to load the article."
+msgstr "लेख लोड गर्न असमर्थ ।"
+
+#: articlewidget.cpp:432
+msgid "The article contains no data."
+msgstr "लेखमा कुनै डेटा समावेश छैन ।"
+
+#: articlewidget.cpp:468
+msgid "Unknown charset. Default charset is used instead."
+msgstr "अज्ञात चारसेट । साटोमा पूर्वनिर्धारित चारसेट प्रयोग गरिन्छ ।"
+
+#: articlewidget.cpp:528
+msgid ""
+"<br /><b>This article has the MIME type &quot;message/partial&quot;, which "
+"KNode cannot handle yet.<br />Meanwhile you can save the article as a text "
+"file and reassemble it by hand.</b>"
+msgstr ""
+
+#: articlewidget.cpp:544
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a "
+"href=\"knode:showHTML\">by clicking here</a>."
+msgstr ""
+"<b>द्रष्टव्य:</b> यो HTML सन्देश हो । सुरक्षाका कारणले, केवल अपूर्ण HTML "
+"सङ्केत मात्र देखाइएकोछ । तपाईँले यो सन्देशको प्रेषकलाई विश्वास गरेपछि यो "
+"सन्देशका लागि ढाँचाबद्ध गरिएका HTML प्रदर्शन यहाँ <a "
+"href=\"knode:showHTML\">क्लिक गरेर सक्रिय पार्न सक्नुहुन्छ</a> ।"
+
+#: articlewidget.cpp:589
+msgid "An error occurred."
+msgstr "एउटा त्रुटि उत्पन्न भयो ।"
+
+#: articlewidget.cpp:708
+msgid "References:"
+msgstr "सन्दर्भ:"
+
+#: articlewidget.cpp:791
+#, kde-format
+msgid "Message was signed with unknown key 0x%1."
+msgstr "अज्ञात कुञ्जी 0x%1 द्वारा सन्देश चिनो लगाइएको थियो ।"
+
+#: articlewidget.cpp:794
+msgid "The validity of the signature cannot be verified."
+msgstr "हस्ताक्षरको वैद्यता रुजु गर्न सकिँदैन ।"
+
+#: articlewidget.cpp:812
+#, kde-format
+msgid "Message was signed by %1 (Key ID: 0x%2)."
+msgstr "सन्देश %1 (कुञ्जी आईडी: 0x%2) द्वारा चिनो लगाइएको थियो ।"
+
+#: articlewidget.cpp:816
+#, kde-format
+msgid "Message was signed by %1."
+msgstr "सन्देश %1 द्वारा चिनो लगाइएको थियो ।"
+
+#: articlewidget.cpp:826
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr "हस्ताक्षर वैद्य छ, तर कुञ्जीको वैद्यता अज्ञात छ ।"
+
+#: articlewidget.cpp:830
+msgid "The signature is valid and the key is marginally trusted."
+msgstr "हस्ताक्षर वैद्य छ र कुञ्जी आंशिक विश्वासिलो छ ।"
+
+#: articlewidget.cpp:834
+msgid "The signature is valid and the key is fully trusted."
+msgstr "हस्ताक्षर वैद्य छ र कुञ्जी पूर्ण विश्वासिलो छ ।"
+
+#: articlewidget.cpp:838
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr "हस्ताक्षर वैद्य छ र कुञ्जी अतिनै विश्वासिलो छ ।"
+
+#: articlewidget.cpp:842
+msgid "The signature is valid, but the key is untrusted."
+msgstr "हस्ताक्षर वैद्य छ, तर कुञ्जी अविश्वाशिलो छ ।"
+
+#: articlewidget.cpp:846
+msgid "Warning: The signature is bad."
+msgstr "चेतावनी: हस्ताक्षर गलत छ ।"
+
+#: articlewidget.cpp:863
+msgid "End of signed message"
+msgstr "चिनो लगाएका सन्देशको अन्त्य"
+
+#: articlewidget.cpp:879
+msgid "unnamed"
+msgstr "बेनामी"
+
+#: articlewidget.cpp:1078
+#, kde-format
+msgid ""
+"An error occurred while downloading the article source:\n"
+"%1"
+msgstr ""
+"लेख स्रोत डाउनलोड गर्दा एउटा त्रुटि उत्पन्न भयो:\n"
+"%1"
+
+#: articlewidget.cpp:1434 kncomposer.cpp:1302
+msgid "Select Charset"
+msgstr "चारसेट चयन गर्नुहोस्"
+
+#: headerview.cpp:48 knarticlefactory.cpp:321 knfilterconfigwidget.cpp:36
+msgid "Subject"
+msgstr "विषय"
+
+#: headerview.cpp:49 headerview.cpp:435 knarticlefactory.cpp:322
+#: knfilterconfigwidget.cpp:38
+msgid "From"
+msgstr "बाट"
+
+#: headerview.cpp:50 headerview.cpp:80 knfilterconfigwidget.cpp:63
+msgid "Score"
+msgstr "प्राप्ताङ्क"
+
+#: headerview.cpp:51 knfilterconfigwidget.cpp:67
+msgid "Lines"
+msgstr "लाइन"
+
+#: headerview.cpp:52 headerview.cpp:225 knarticlefactory.cpp:323
+msgid "Date"
+msgstr "मिति"
+
+#: headerview.cpp:77
+msgid "View Columns"
+msgstr "स्तम्भ हेर्नुहोस्"
+
+#: headerview.cpp:79
+msgid "Line Count"
+msgstr "रेखा गणना गर्नुहोस्"
+
+#: headerview.cpp:223
+msgid "Date (thread changed)"
+msgstr "मिति (थ्रेड परिवर्तन गरियो)"
+
+#: headerview.cpp:443
+msgid "Newsgroups / To"
+msgstr "समचार समूह / लाई"
+
+#: knaccountmanager.cpp:128
+msgid "Cannot create a folder for this account."
+msgstr "यस खाताका लागि फोल्डर सिर्जना गर्न सकिँदैन ।"
+
+#: knaccountmanager.cpp:143
+msgid ""
+"This account cannot be deleted since there are some unsent messages for it."
+msgstr "खातामा नपठाएका केही सन्देश रहेसम्म यस खातालाई मेट्न सकिँदैन ।"
+
+#: knaccountmanager.cpp:146
+msgid "Do you really want to delete this account?"
+msgstr "तपाईँ वास्तवमै यस खातालाई मेट्न चाहनुहुन्छ ?"
+
+#. i18n: file: nntpaccountlistwidget_base.ui:69
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: knaccountmanager.cpp:146 knarticlemanager.cpp:586 knconfigwidgets.cpp:1023
+#: knfiltermanager.cpp:261 knmainwidget.cpp:1588 knmainwidget.cpp:1639
+#: rc.cpp:381
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#: knaccountmanager.cpp:151
+msgid ""
+"At least one group of this account is currently in use.\n"
+"The account cannot be deleted at the moment."
+msgstr ""
+"कम्तिमा पनि यस खाताको एउटा समूह प्रयोगमा छ ।\n"
+"यो क्षणमा खाता मेट्न सकिँदैन ।"
+
+#: knarticlecollection.cpp:53
+msgid ""
+"Memory allocation failed.\n"
+"You should close this application now\n"
+"to avoid data loss."
+msgstr ""
+"स्मृति बाँटफाट असफल भयो ।\n"
+"तपाईँले डेटा हराउन नदिन अहिले\n"
+"यस अनुप्रयोगलाई बन्द गर्नुपर्छ ।"
+
+#: knarticlefactory.cpp:153
+msgid ""
+"The author has requested a reply by email instead\n"
+"of a followup to the newsgroup. (Followup-To: poster)\n"
+"Do you want to reply in public anyway?"
+msgstr ""
+"लेखकले समचार समूहलाई अनुगमनको साटोमा\n"
+"इमेल मार्फत एउटा जवाफ अनुरोध गरेको छ ।(यसलाई अनुगमन गर्नुहोस्: पोस्टर)\n"
+"तपाईँ फेरि पनि सार्वजनिक रूपमा जवाफ दिन चाहनुहुन्छ ?"
+
+#: knarticlefactory.cpp:153
+msgid "Reply Public"
+msgstr "सार्वजनिक जवाफ दिनुहोस्"
+
+#: knarticlefactory.cpp:153
+msgid "Reply by Email"
+msgstr "इमेल मार्फत जवाफ दिनुहोस्"
+
+#: knarticlefactory.cpp:201
+msgid ""
+"The author requested a mail copy of your reply. (Mail-Copies-To header)"
+msgstr ""
+"तपाईँको जवाफका लागि लेखकले एउटा मेल प्रतिलिपि अनुरोध गरेको छ । (हेडरलाई मेल "
+"प्रतिहरू)"
+
+#: knarticlefactory.cpp:292
+msgid ""
+"This article contains attachments. Do you want them to be forwarded as well?"
+msgstr ""
+"यो लेखले सङ्लग्नता समावेश गर्छ । तपाईँ तिनीहरूलाई यस्तै रूपमा पठाउन "
+"चाहनुहुन्छ ?"
+
+#: knarticlefactory.cpp:292
+msgid "Forward"
+msgstr "फरवार्ड गर्नुहोस्"
+
+#: knarticlefactory.cpp:292
+msgid "Do Not Forward"
+msgstr "फरवार्ड नगर्नुहोस्"
+
+#: knarticlefactory.cpp:319
+msgid "Forwarded message (begin)"
+msgstr "पठाइएको सन्देश (सुरुआत)"
+
+#: knarticlefactory.cpp:324
+msgid "Newsgroup"
+msgstr "समाचार समूह"
+
+#: knarticlefactory.cpp:330
+msgid "Forwarded message (end)"
+msgstr "पठाइएको सन्देश (अन्त्य)"
+
+#: knarticlefactory.cpp:366
+msgid "Do you really want to cancel this article?"
+msgstr "तपाईँ वास्तवमै यो लेख रद्द गर्न चाहनुहुन्छ ?"
+
+#: knarticlefactory.cpp:366
+msgid "Cancel Article"
+msgstr "लेख रद्द गर्नुहोस्"
+
+#: knarticlefactory.cpp:370
+msgid ""
+"Do you want to send the cancel\n"
+"message now or later?"
+msgstr ""
+"तपाईँले रद्द गरिएको सन्देश\n"
+"अहिले वा पछि पठाउन चाहनुहुन्छ ?"
+
+#: knarticlefactory.cpp:370
+msgid "Question"
+msgstr "प्रश्न"
+
+#: knarticlefactory.cpp:370
+msgid "&Now"
+msgstr "अहिले"
+
+#: knarticlefactory.cpp:370
+msgid "&Later"
+msgstr "पछि"
+
+#: knarticlefactory.cpp:385 knarticlefactory.cpp:463 kncomposer.cpp:1536
+msgid "You have no valid news accounts configured."
+msgstr "तपाईँसँग कन्फिगर गरिएका वैद्य समाचार खाता छैनन् ।"
+
+#: knarticlefactory.cpp:447
+msgid "Do you really want to supersede this article?"
+msgstr "तपाईँ वास्तवमै यो लेख हटाउन चाहनुहुन्छ ?"
+
+#: knarticlefactory.cpp:447
+msgid "Supersede"
+msgstr "हटाउनुहोस्"
+
+#: knarticlefactory.cpp:582
+msgid "This article cannot be edited."
+msgstr "यो लेख सम्पादन गर्न सकिँदैन ।"
+
+#: knarticlefactory.cpp:611 knarticlefactory.cpp:911
+#, kde-format
+msgid ""
+"<qt>The signature generator program produced the following output:<br /><br "
+"/>%1</qt>"
+msgstr ""
+
+#: knarticlefactory.cpp:637
+msgid "Article has already been sent."
+msgstr "लेख पहिला नै पठाइएको छ ।"
+
+#: knarticlefactory.cpp:654
+msgid "Unable to load article."
+msgstr "लेख लोड गर्न असमर्थ ।"
+
+#: knarticlefactory.cpp:679
+msgid "Unable to load the outbox-folder."
+msgstr "प्रेषण-मञ्जूषा फोल्डर लोड गर्न असमर्थ ।"
+
+#: knarticlefactory.cpp:742
+msgid ""
+"You canceled the article posting. The unsent articles are stored in the "
+"\"Outbox\" folder."
+msgstr ""
+
+#: knarticlefactory.cpp:789
+msgid ""
+"Please set a hostname for the generation\n"
+"of the message-id or disable it."
+msgstr ""
+"कृपया सन्देश आईडीको उत्पन्न गर्न वा यसलाई अक्षम पार्नका लागि होस्ट नाम सेट "
+"गर्नुहोस् ।"
+
+#: knarticlefactory.cpp:833
+msgid ""
+"Please enter a valid email address at the identity tab of the account "
+"configuration dialog."
+msgstr ""
+"कृपया खाता कन्फिगरेसन संवादको परिचय ट्याबमा वैद्य इमेल ठेगाना प्रविष्ट "
+"गर्नुहोस् ।"
+
+#: knarticlefactory.cpp:836
+msgid ""
+"Please enter a valid email address at the identity section of the "
+"configuration dialog."
+msgstr ""
+"कृपया कन्फिगरेसन संवादको परिचय खण्डमा वैद्य इमेल ठेगाना प्रविष्ट गर्नुहोस् ।"
+
+#: knarticlefactory.cpp:931
+msgid "Emails cannot be canceled or superseded."
+msgstr "इमेल रद्द गर्न वा हटाउन सकिँदैन ।"
+
+#: knarticlefactory.cpp:937
+msgid "Cancel messages cannot be canceled or superseded."
+msgstr "रद्द गरिएका सन्देश रद्द गर्न वा हटाउन सकिँदैन ।"
+
+#: knarticlefactory.cpp:942
+msgid "Only sent articles can be canceled or superseded."
+msgstr "पठाइएका सन्देश मात्र रद्द गर्न वा हटाउन सकिन्छ ।"
+
+#: knarticlefactory.cpp:947
+msgid "This article has already been canceled or superseded."
+msgstr "यो लेख पहिला नै रद्द गरिएको वा हटाइएको छ ।"
+
+#: knarticlefactory.cpp:954
+msgid ""
+"This article cannot be canceled or superseded,\n"
+"because its message-id has not been created by KNode.\n"
+"But you can look for your article in the newsgroup\n"
+"and cancel (or supersede) it there."
+msgstr ""
+"यो लेख रद्द गर्न वा हटाउन सकिँदैन,\n"
+"कनभने यसको सन्देश आईडी केडीई नोडद्वारा सिर्जना गरिएको छैन ।\n"
+"तर तपाईँले लेख समाचार समूहमा हेर्न सक्नुहुन्छ\n"
+"र यसलाई त्यहाँ रद्द (वा अलग गर्न) सक्नुहुन्छ ।"
+
+#: knarticlefactory.cpp:988
+msgid ""
+"This article does not appear to be from you.\n"
+"You can only cancel or supersede your own articles."
+msgstr ""
+"यो लेख तपाईँबाट देखिदैन ।\n"
+"तपाईँले आफ्ना लेख रद्द गर्न वा हटाउन मात्र सक्नुहुन्छ ।"
+
+#: knarticlefactory.cpp:993
+msgid ""
+"You have to download the article body\n"
+"before you can cancel or supersede the article."
+msgstr ""
+"तपाईँले लेख रद्द र हटाउनु भन्दा पहिले\n"
+"लेख मुख्य भाग डाउनलोड गर्नुपर्छ ।"
+
+#: knarticlefactory.cpp:1087
+msgid "Errors While Sending"
+msgstr "पठाउँदा त्रुटि"
+
+#: knarticlefactory.cpp:1093
+msgid "Errors occurred while sending these articles:"
+msgstr "यी लेख पठाउँदा त्रुटि उत्पन्न भयो:"
+
+#: knarticlefactory.cpp:1094
+msgid "The unsent articles are stored in the \"Outbox\" folder."
+msgstr "नपठाइएका लेख \"प्रेषण-मञ्जूषा\" फोल्डरमा भण्डारण गरिएका छन् ।"
+
+#: knarticlefactory.cpp:1124
+msgid "<b>Error message:</b><br />"
+msgstr ""
+
+#: knarticlefilter.cpp:34
+msgctxt "default filter name"
+msgid "all"
+msgstr "सबै"
+
+#: knarticlefilter.cpp:35
+msgctxt "default filter name"
+msgid "unread"
+msgstr "नपढिएका"
+
+#: knarticlefilter.cpp:36
+msgctxt "default filter name"
+msgid "new"
+msgstr "नयाँ"
+
+#: knarticlefilter.cpp:37
+msgctxt "default filter name"
+msgid "watched"
+msgstr "हेरिएका"
+
+#: knarticlefilter.cpp:38
+msgctxt "default filter name"
+msgid "threads with unread"
+msgstr "नपढिएकामा थ्रेड"
+
+#: knarticlefilter.cpp:39
+msgctxt "default filter name"
+msgid "threads with new"
+msgstr "नयाँ थ्रेड"
+
+#: knarticlefilter.cpp:40
+msgctxt "default filter name"
+msgid "own articles"
+msgstr "आफ्नो लेख"
+
+#: knarticlefilter.cpp:41
+msgctxt "default filter name"
+msgid "threads with own articles"
+msgstr "आफ्ना लेखसँगका थ्रेड"
+
+#: knarticlemanager.cpp:83
+msgid "Save Attachment"
+msgstr "सङ्लग्नता बचत गर्नुहोस्"
+
+#: knarticlemanager.cpp:107
+msgid "Save Article"
+msgstr "लेख बचत गर्नुहोस्"
+
+#: knarticlemanager.cpp:190
+msgid " Creating list..."
+msgstr " सूची सिर्जना गर्दैछ..."
+
+#: knarticlemanager.cpp:580 kngroup.cpp:478
+msgid "no subject"
+msgstr "विषयवस्तु छैन"
+
+#: knarticlemanager.cpp:585
+msgid "Do you really want to delete these articles?"
+msgstr "तपाईँ वास्तवमै यी लेख मेट्न चाहनुहुन्छ ?"
+
+#: knarticlemanager.cpp:586
+msgid "Delete Articles"
+msgstr "लेख मेट्नुहोस्"
+
+#: knarticlemanager.cpp:923
+#, kde-format
+msgid ""
+"The article you requested is not available on your news server.<br />You "
+"could try to get it from <a "
+"href=\"http://groups.google.com/groups?selm=%1\">groups.google.com</a>."
+msgstr ""
+
+#: knarticlemanager.cpp:1011 kngroupbrowser.cpp:426 kngroupbrowser.cpp:439
+#: knmainwidget.cpp:326
+msgid " (moderated)"
+msgstr " (सामान्यकृत)"
+
+#: knarticlemanager.cpp:1013
+#, kde-format
+msgid " %1: %2 new , %3 displayed"
+msgstr " %1: %2 नयाँ , %3 प्रदर्शित"
+
+#: knarticlemanager.cpp:1017
+#, kde-format
+msgid " Filter: %1"
+msgstr " फिल्टर: %1"
+
+#: knarticlemanager.cpp:1026
+#, kde-format
+msgid " %1: %2 displayed"
+msgstr " %1: %2 प्रदर्शित"
+
+#: kncleanup.cpp:62
+#, kde-format
+msgid "Deleting expired articles in <b>%1</b>"
+msgstr "<b>%1</b> मा म्याद समाप्त भएका लेख मेट्दैछ"
+
+#: kncleanup.cpp:68
+#, kde-format
+msgid "Compacting folder <b>%1</b>"
+msgstr "फोल्डर <b>%1</b> सङ्कुचन गर्दैछ"
+
+#: kncleanup.cpp:190
+#, kde-format
+msgid "<b>%1</b><br />expired: %2<br />left: %3"
+msgstr ""
+
+#: kncleanup.cpp:257
+msgid "Cleaning Up"
+msgstr "खाली गर्दैछ"
+
+#: kncleanup.cpp:267
+msgid "Cleaning up. Please wait..."
+msgstr "खाली गर्दैछ । कृपया प्रतिक्षा गर्नुहोस्..."
+
+#: kncollectionview.cpp:84 knconfigwidgets.cpp:1126 kngroupbrowser.cpp:94
+msgid "Name"
+msgstr "नाम"
+
+#: kncollectionview.cpp:85
+msgid "Unread"
+msgstr "नपढेको"
+
+#: kncollectionview.cpp:86
+msgid "Total"
+msgstr "कूल"
+
+#: kncomposer.cpp:89
+msgid "Edit Recent Addresses..."
+msgstr "हालैका ठेगाना सम्पादन गर्नुहोस्..."
+
+#: kncomposer.cpp:220
+msgid "&Send Now"
+msgstr "अहिले पठाउनुहोस्"
+
+#: kncomposer.cpp:226
+msgid "Send &Later"
+msgstr "पछि पठाउनुहोस्"
+
+#: kncomposer.cpp:231
+msgid "Save as &Draft"
+msgstr "ड्राफ्टका रूपमा बचत गर्नुहोस्"
+
+#: kncomposer.cpp:236
+msgid "D&elete"
+msgstr "मेट्नुहोस्"
+
+#: kncomposer.cpp:253
+msgid "Paste as &Quotation"
+msgstr "उद्धरणका रूपमा टाँस्नुहोस्"
+
+#: kncomposer.cpp:265
+msgid "Append &Signature"
+msgstr "हस्ताक्षर थप्नुहोस्"
+
+#: kncomposer.cpp:269
+msgid "&Insert File..."
+msgstr "फाइल घुसाउनुहोस्..."
+
+#: kncomposer.cpp:273
+msgid "Insert File (in a &box)..."
+msgstr "फाइल (बाकसमा) घुसाउनुहोस्..."
+
+#: kncomposer.cpp:278
+msgid "Attach &File..."
+msgstr "फाइल सङ्लग्न गर्नुहोस्..."
+
+#: kncomposer.cpp:282
+msgid "Sign Article with &PGP"
+msgstr "PGP ले लेखमा चिनो लगाउनुहोस्"
+
+#: kncomposer.cpp:286 kncomposerview.cpp:229
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#: kncomposer.cpp:290 kncomposerview.cpp:234
+msgid "&Properties"
+msgstr "गुण"
+
+#: kncomposer.cpp:297
+msgid "Send &News Article"
+msgstr "समाचार लेख पठाउनुहोस्"
+
+#: kncomposer.cpp:302
+msgid "Send E&mail"
+msgstr "इमेल पठाउनुहोस्"
+
+#: kncomposer.cpp:307
+msgid "Set &Charset"
+msgstr "चारसेट सेट गर्नुहोस्"
+
+#: kncomposer.cpp:314
+msgid "Set Charset"
+msgstr "चारसेट सेट गर्नुहोस्"
+
+#: kncomposer.cpp:320
+msgid "&Word Wrap"
+msgstr "शब्द बेराई"
+
+#: kncomposer.cpp:323
+msgid "&Automatic Spellchecking"
+msgstr ""
+
+#: kncomposer.cpp:335
+msgid "Add &Quote Characters"
+msgstr "उद्धरण क्यारेक्टर थप्नुहोस्"
+
+#: kncomposer.cpp:339
+msgid "&Remove Quote Characters"
+msgstr "उद्धरण क्यारेक्टर हटाउनुहोस्"
+
+#: kncomposer.cpp:343
+msgid "Add &Box"
+msgstr "बाकस थप्नुहोस्"
+
+#: kncomposer.cpp:347
+msgid "Re&move Box"
+msgstr "बाकस हटाउनुहोस्"
+
+#: kncomposer.cpp:351
+msgid "Get &Original Text (not re-wrapped)"
+msgstr "मौलिक पाठ प्राप्त गर्नुहोस् (फेरि नबेरिएको)"
+
+#: kncomposer.cpp:357
+msgid "S&cramble (Rot 13)"
+msgstr "सक्र्याम्बल (Rot 13)"
+
+#: kncomposer.cpp:364
+msgid "Start &External Editor"
+msgstr "बाह्य सम्पादक सुरुआत गर्नुहोस्"
+
+#: kncomposer.cpp:601 kncomposer.cpp:608 kncomposer.cpp:1259
+msgid "<posted & mailed>"
+msgstr "<posted & mailed>"
+
+#: kncomposer.cpp:604 kncomposer.cpp:1260
+msgid ""
+"<posted & mailed>\n"
+"\n"
+msgstr ""
+"<posted & mailed>\n"
+"\n"
+
+#: kncomposer.cpp:627
+msgid "Please enter a subject."
+msgstr "कृपया विषयवस्तु प्रविष्ट गर्नुहोस् ।"
+
+#: kncomposer.cpp:635
+msgid "Please enter a newsgroup."
+msgstr "कृपया एउटा समाचार समूह प्रविष्ट गर्नुहोस् ।"
+
+#: kncomposer.cpp:644
+msgid ""
+"You are crossposting to more than 12 newsgroups.\n"
+"Please remove all newsgroups in which your article is off-topic."
+msgstr ""
+"तपाईँले १२ भन्दा बढी समाचार समूहलाई क्रस पोस्टिङ गर्दै हुनुहुन्छ ।\n"
+"तपाईँको लेख सान्दर्भिक नभएको समाचार समूह हटाउनुहोस् ।"
+
+#: kncomposer.cpp:649
+msgid ""
+"You are crossposting to more than five newsgroups.\n"
+"Please reconsider whether this is really useful\n"
+"and remove groups in which your article is off-topic.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"तपाईँले ५ भन्दा बढी समाचार समूहलाई क्रस पोस्टिङ गर्दै हुनुहुन्छ ।\n"
+"कृपया यो वास्तवमै उपयोगी छ वा छैन पुनर्विचार गर्नुहोस्\n"
+"र तपाईँको लेख सान्दर्भिक नभएका समूह हटाउनुहोस् ।\n"
+"तपाईँ लेख पुन: सम्पादन गर्न वा जसरी पनि यसलाई पठाउन चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:650 kncomposer.cpp:659 kncomposer.cpp:671 kncomposer.cpp:741
+#: kncomposer.cpp:755 kncomposer.cpp:761
+msgid "&Send"
+msgstr "पठाउनुहोस्"
+
+#: kncomposer.cpp:650 kncomposer.cpp:659 kncomposer.cpp:671 kncomposer.cpp:741
+#: kncomposer.cpp:756 kncomposer.cpp:761
+msgctxt "edit article"
+msgid "&Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: kncomposer.cpp:655
+msgid ""
+"You are crossposting to more than two newsgroups.\n"
+"Please use the \"Followup-To\" header to direct the replies to your article "
+"into one group.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"तपाईँले २ भन्दा बढी समाचार समूहलाई क्रस पोस्टिङ गर्दै हुनुहुन्छ ।\n"
+"कृपया एउटा समूहलाई तपाईँको लेखको जवाफ निर्देशन गर्न हेडर \"लाई अनुगमन "
+"गर्नुहोस्\" प्रयोग गर्नुहोस् ।\n"
+"तपाईँ लेख पुन: सम्पादन गर्न वा जसरी पनि यसलाई पठाउन चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:665
+msgid ""
+"You are directing replies to more than 12 newsgroups.\n"
+"Please remove some newsgroups from the \"Followup-To\" header."
+msgstr ""
+"तपाईँले १२ भन्दा बढी समूहमा जवाफ निर्देशित गर्दै हुनुहुन्छ ।\n"
+"कृपया हेडर \"लाई अनुगमन गर्नुहोस्\" बाट केही समचार समूह हटाउनुहोस् ।"
+
+#: kncomposer.cpp:670
+msgid ""
+"You are directing replies to more than five newsgroups.\n"
+"Please reconsider whether this is really useful.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"तपाईँले ५ भन्दा बढी समाचार समूहमा जवाफ डाइरेक्टिङ गर्दै हुनुहुन्छ ।\n"
+"कृपया यो वास्तवमै उपयोगी भएको वा नभएको पुनर्विचार गर्नुहोस् ।\n"
+"तपाईँ लेख पुन: सम्पादन गर्न वा जसरी पनि यसलाई पठाउन चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:677
+msgid "Please enter the email address."
+msgstr "कृपया इमेल ठेगाना प्रविष्ट गर्नुहोस् ।"
+
+#: kncomposer.cpp:729
+msgid ""
+"Your message contains characters which are not included\n"
+"in the \"us-ascii\" character set; please choose\n"
+"a suitable character set from the \"Options\" menu."
+msgstr ""
+"तपाईँको सन्देशले\n"
+"\"us-ascii\" क्यारेक्टर सेटमा समावेश नगरिएका क्यारेक्टर समावेश गर्छ; कृपया\n"
+"\"विकल्प\" मेनुबाट एउटा उपयुक्त क्यारेक्टर सेट रोज्नुहोस् ।"
+
+#: kncomposer.cpp:734
+msgid "You cannot post an empty message."
+msgstr "तपाईँले एउटा खाली सन्देश पोष्ट गर्न सक्नुहुन्न ।"
+
+#: kncomposer.cpp:740
+msgid ""
+"Your article seems to consist entirely of quoted text;\n"
+"do you want to re-edit the article or send it anyway?"
+msgstr ""
+"तपाईँको लेख सम्पूर्ण उद्धरण गरिएको पाठसँग मिल्ने देखिन्छ;\n"
+"तपाईँ लेख पुन: सम्पादन गर्न वा जसरी पनि यसलाई पठाउन चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:745
+msgid ""
+"You cannot post an article consisting\n"
+"entirely of quoted text."
+msgstr ""
+"तपाईँले सम्पूर्ण उद्धरण गरिएको पाठसँग\n"
+"मिल्ने लेख सामेल गर्न सक्नुहुदैन ।"
+
+#: kncomposer.cpp:753
+msgid ""
+"Your article contains lines longer than 80 characters.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"तपाईँको लेखमा ८० क्यारेक्टर भन्दा लामा लाइन समावेश हुन्छन् ।\n"
+"तपाईँ लेख पुन: सम्पादन गर्न वा जसरी पनि यसलाई पठाउन चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:760
+msgid ""
+"Your signature is more than 8 lines long.\n"
+"You should shorten it to match the widely accepted limit of 4 lines.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"तपाईँको हस्ताक्षर ८ लाइन भन्दा बढी लामो छ ।\n"
+"तपाईँले जताततै स्वीकार गरिएको ४ लाइनको दायरासँग मिलाउन यसलाई छोट्याउनु पर्छ "
+"।\n"
+"तपाईँ लेख पुन: सम्पादन गर्न वा जसरी पनि यसलाई पठाउन चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:765
+msgid ""
+"Your signature exceeds the widely-accepted limit of 4 lines:\n"
+"please consider shortening your signature;\n"
+"otherwise, you will probably annoy your readers."
+msgstr ""
+"तपाईँको हस्ताक्षर चारैतिर स्वीकार गरिएको ४ लाइनको दायरा भन्दा बढी छ:\n"
+"कृपया तपाईँको हस्ताक्षर छोट्याउन विचार गर्नुहोस्;\n"
+"अन्यथा, तपाईँका पाठकलाई तपाईँले निराश पार्नुहुनेछ ।"
+
+#: kncomposer.cpp:787
+msgid ""
+"You have not configured your preferred signing key yet;\n"
+"please specify it in the global identity configuration,\n"
+"in the account properties or in the group properties.\n"
+"The article will be sent unsigned."
+msgstr ""
+"तपाईँले अहिलेसम्म रुचाएका साइनिङ कुञ्जी कन्फिगर गर्नु भएको छैन;\n"
+"कृपया यसलाई विश्वब्यापी परिचय कन्फिगरेसनमा,\n"
+"खाता गुणमा वा समूह गुणमा निर्दिष्ट गर्नुहोस् ।\n"
+"लेख चिन्ह नलगाइकन पठाइनेछ ।"
+
+#: kncomposer.cpp:794
+msgid "Send Unsigned"
+msgstr "चिन्ह नलगाई पठाउनुहोस्"
+
+#: kncomposer.cpp:959
+msgid "Do you want to save this article in the draft folder?"
+msgstr "तपाईँ यो लेख ड्राफ्ट फोल्डरमा बचत गर्न चाहनुहुन्छ ?"
+
+#: kncomposer.cpp:1093
+msgid "Insert File"
+msgstr "फाइल घुसाउनुहोस्"
+
+#: kncomposer.cpp:1172
+msgid "Attach File"
+msgstr "फाइल सङ्लग्न गर्नुहोस्"
+
+#: kncomposer.cpp:1248
+msgid ""
+"The poster does not want a mail copy of your reply (Mail-Copies-To: "
+"nobody);\n"
+"please respect their request."
+msgstr ""
+"पोष्टरले तपाईँको जवाफको मेल प्रति चाहदैन (मेल कसैलाई पनि: प्रतिलिपि "
+"नगर्नुहोस्);\n"
+"कृपया तिनीहरूका अनुरोधलाई सम्मान गर्नुहोस् ।"
+
+#: kncomposer.cpp:1249
+msgid "&Send Copy"
+msgstr "प्रतिलिपि पठाउनुहोस्"
+
+#: kncomposer.cpp:1327
+msgid "This will replace all text you have written."
+msgstr "यसले तपाईँले लेखेका सबै पाठ बदल्ने छ ।"
+
+#: kncomposer.cpp:1341
+msgid ""
+"No editor configured.\n"
+"Please do this in the settings dialog."
+msgstr ""
+"सम्पादक कन्फिगर गरिएको छैन ।\n"
+"कृपया सेटिङ संवादमा यो कार्य गर्नुहोस् ।"
+
+#: kncomposer.cpp:1391
+msgid ""
+"Unable to start external editor.\n"
+"Please check your configuration in the settings dialog."
+msgstr ""
+"बाह्य सम्पादक सुरु गर्न असमर्थ ।\n"
+"कृपया तपाईँको कन्फिगरेसन सेटिङ संवादमा जाँच गर्नुहोस् ।"
+
+#: kncomposer.cpp:1408
+msgid "News Article"
+msgstr "समाचार शीर्षक"
+
+#: kncomposer.cpp:1410
+msgid "Email"
+msgstr "इमेल"
+
+#: kncomposer.cpp:1412
+msgid "News Article & Email"
+msgstr "समाचार लेख र इमेल"
+
+#: kncomposer.cpp:1416
+msgid " OVR "
+msgstr " OVR "
+
+#: kncomposer.cpp:1418
+msgid " INS "
+msgstr " INS "
+
+#: kncomposer.cpp:1420
+#, kde-format
+msgid " Type: %1 "
+msgstr " प्रकार: %1 "
+
+#: kncomposer.cpp:1421
+#, kde-format
+msgid " Charset: %1 "
+msgstr " चारसेट: %1 "
+
+#: kncomposer.cpp:1423 kncomposer.cpp:1430
+#, kde-format
+msgid " Column: %1 "
+msgstr " स्तम्भ: %1 "
+
+#: kncomposer.cpp:1424 kncomposer.cpp:1431
+#, kde-format
+msgid " Line: %1 "
+msgstr " लाइन: %1 "
+
+#: kncomposer.cpp:1474
+msgid "No Subject"
+msgstr "कुनै विषय छैन"
+
+#: kncomposer.cpp:1689
+msgid ""
+"ISpell could not be started.\n"
+"Please make sure you have ISpell properly configured and in your PATH."
+msgstr ""
+"आई स्पेल सुरुआत गर्न सक्दैन ।\n"
+"कृपया आई स्पेल उचित तरिकाले कन्फिगर गरेको र तपाईँको बाटोमा भएकोमा निश्चित "
+"हुनुहोस् ।"
+
+#: kncomposer.cpp:1694
+msgid "ISpell seems to have crashed."
+msgstr "आई स्पेल क्र्यास भएको जस्तो देखिन्छ ।"
+
+#: kncomposer.cpp:1701
+msgid "No misspellings encountered."
+msgstr "गलत हिज्जे देखापरेको छैन ।"
+
+#: kncomposer.cpp:1764 kncomposer.cpp:1827
+msgid "File"
+msgstr "फाइल"
+
+#: kncomposer.cpp:1765
+msgid "Type"
+msgstr "प्रकार"
+
+#: kncomposer.cpp:1766
+msgid "Size"
+msgstr "साइज"
+
+#: kncomposer.cpp:1767 kngroupbrowser.cpp:95
+msgid "Description"
+msgstr "वर्णन"
+
+#: kncomposer.cpp:1768
+msgid "Encoding"
+msgstr "सङ्केतन"
+
+#: kncomposer.cpp:1820
+msgid "Attachment Properties"
+msgstr "सङ्लग्नता गुण"
+
+#. i18n: file: nntpaccountdialog_base.ui:193
+#. i18n: ectx: property (text), widget (QLabel, mNameLabel)
+#: kncomposer.cpp:1833 rc.cpp:366
+msgid "Name:"
+msgstr "नाम:"
+
+#: kncomposer.cpp:1835
+msgid "Size:"
+msgstr "साइज:"
+
+#: kncomposer.cpp:1842
+msgid "Mime"
+msgstr "माइम"
+
+#: kncomposer.cpp:1851
+msgid "&Mime-Type:"
+msgstr "माइम प्रकार:"
+
+#: kncomposer.cpp:1858
+msgid "&Description:"
+msgstr "वर्णन:"
+
+#: kncomposer.cpp:1875
+msgid "&Encoding:"
+msgstr "सङ्केतन:"
+
+#: kncomposer.cpp:1910
+msgid ""
+"You have set an invalid mime-type.\n"
+"Please change it."
+msgstr ""
+"तपाईँले एउटा अवैद्य माइम प्रकार सेट गर्नुभएकोछ ।\n"
+"कृपया यसलाई परिवर्तन गर्नुहोस् ।"
+
+#: kncomposer.cpp:1915
+msgid ""
+"You have changed the mime-type of this non-textual attachment\n"
+"to text. This might cause an error while loading or encoding the file.\n"
+"Proceed?"
+msgstr ""
+"तपाईँले पाठमा यो पाठ-विहिन सङ्लग्नताको\n"
+"माइम प्रकार परिवर्तन गर्नुभएको छ । यसको कारणले फाइल लोडिङ वा सङ्केतनमा "
+"त्रुटि हुन सक्छ ।\n"
+"अगाडि बढ्नुहुन्छ ?"
+
+#: kncomposerview.cpp:51
+msgid "T&o:"
+msgstr "लाई:"
+
+#: kncomposerview.cpp:53
+msgid "&Browse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#: kncomposerview.cpp:63
+msgid "&Groups:"
+msgstr "समूह:"
+
+#: kncomposerview.cpp:65
+msgid "B&rowse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#: kncomposerview.cpp:75
+msgid "Follo&wup-To:"
+msgstr "यसलाई अनुसरण गर्नुहोस्:"
+
+#: kncomposerview.cpp:84
+msgid "S&ubject:"
+msgstr "विषय:"
+
+#: kncomposerview.cpp:100
+msgid ""
+"You are currently editing the article body\n"
+"in an external editor. To continue, you have\n"
+"to close the external editor."
+msgstr ""
+
+#: kncomposerview.cpp:101
+msgid "&Kill External Editor"
+msgstr "बाह्य सम्पादक नष्ट गर्नुहोस्"
+
+#: kncomposerview.cpp:225
+msgid "A&dd..."
+msgstr "थप्नुहोस्..."
+
+#: knconfig.cpp:134
+msgid "Cannot open the signature file."
+msgstr "हस्ताक्षर फाइल खोल्न सकिँदैन ।"
+
+#: knconfig.cpp:152
+msgid "Cannot run the signature generator."
+msgstr "हस्ताक्षर सर्जक चलाउन सकिँदैन ।"
+
+#: knconfigpages.cpp:103
+msgid "Newsgroup Servers"
+msgstr "समाचार समूह सर्भर"
+
+#: knconfigpages.cpp:105
+msgid "Mail Server (SMTP)"
+msgstr "मेल सर्भर (SMTP)"
+
+#. i18n: file: postnewscomposerwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: postnewstechnicalwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: knconfigpages.cpp:139 rc.cpp:387 rc.cpp:428
+msgid "General"
+msgstr "साधारण"
+
+#: knconfigpages.cpp:140
+msgid "Navigation"
+msgstr "नेभिगेसन"
+
+#: knconfigpages.cpp:141
+msgid "Scoring"
+msgstr "स्कोर"
+
+#: knconfigpages.cpp:142
+msgid "Filters"
+msgstr "फिल्टर"
+
+#: knconfigpages.cpp:143
+msgid "Headers"
+msgstr "हेडर"
+
+#: knconfigpages.cpp:144
+msgid "Viewer"
+msgstr "दर्शक"
+
+#: knconfigpages.cpp:164
+msgid "Technical"
+msgstr "प्राविधिक"
+
+#. i18n: file: knode.kcfg:359
+#. i18n: ectx: label, entry (composerFont), group (VISUAL_APPEARANCE)
+#: knconfigpages.cpp:165 rc.cpp:279
+msgid "Composer"
+msgstr "कम्पोजर"
+
+#: knconfigpages.cpp:166
+msgid "Spelling"
+msgstr "हिज्जे"
+
+#: knconfigwidgets.cpp:75
+msgctxt "@label:textbox Name of the user in a message"
+msgid "&Name:"
+msgstr ""
+
+#: knconfigwidgets.cpp:79
+msgid ""
+"<qt><p>Your name as it will appear to others reading your "
+"articles.</p><p>Ex: <b>John Stuart Masterson III</b>.</p></qt>"
+msgstr ""
+"<qt><p>अरूले तपाईँको लेख पढ्दा देखिने तपाईँको नाम ।</p><p>जस्तै: <b>जोन "
+"स्टर्ट मास्टर्सन III</b> ।</p></qt>"
+
+#: knconfigwidgets.cpp:86
+msgid "Organi&zation:"
+msgstr "सङ्गठन:"
+
+#: knconfigwidgets.cpp:90
+msgid ""
+"<qt><p>The name of the organization you work for.</p><p>Ex: <b>KNode, "
+"Inc</b>.</p></qt>"
+msgstr ""
+"<qt><p>तपाईँले काम गर्ने सङ्गठनको नाम ।</p><p>Ex: <b>केडीई नोड, "
+"Inc</b>.</p></qt>"
+
+#: knconfigwidgets.cpp:97
+msgid "Email a&ddress:"
+msgstr "इमेल ठेगाना:"
+
+#: knconfigwidgets.cpp:101
+msgid ""
+"<qt><p>Your email address as it will appear to others reading your "
+"articles</p><p>Ex: <b>nospam@please.com</b>.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:108
+msgid "&Reply-to address:"
+msgstr "ठेगानामा जवाफ पठाउनुहोस्:"
+
+#: knconfigwidgets.cpp:112
+msgid ""
+"<qt><p>When someone reply to your article by email, this is the address the "
+"message will be sent. If you fill in this field, please do it with a real "
+"email address.</p><p>Ex: <b>john@example.com</b>.</p></qt>"
+msgstr ""
+"<qt><p>तपाईँको लेखलाई कसैले इमेल मार्फत जवाफ दिएमा, यो सन्देश पठाइने ठेगाना "
+"हुनेछ । तपाईँले यो फिल्डरमा भर्नुहुन्छ भने, कृपया वास्तविक इमेल ठेगानाले "
+"भर्नुहोस् ।</p><p>जस्तै: <b>john@example.com</b>।</p></qt>"
+
+#: knconfigwidgets.cpp:120
+msgid "&Mail-copies-to:"
+msgstr "यसमा मेल प्रतिलिपि गर्नुहोस्:"
+
+#: knconfigwidgets.cpp:127
+msgctxt "@action:button Change signing key"
+msgid "Chan&ge..."
+msgstr ""
+
+#: knconfigwidgets.cpp:128
+msgid "Your OpenPGP Key"
+msgstr "तपाईँको OpenPGP कुञ्जी"
+
+#: knconfigwidgets.cpp:129
+msgid "Select the OpenPGP key which should be used for signing articles."
+msgstr ""
+"लेख साइनिङ गर्नका लागि प्रयोग गर्नुपर्ने OpenPGP कुञ्जी चयन गर्नुहोस् ।"
+
+#: knconfigwidgets.cpp:131
+msgid "Signing ke&y:"
+msgstr "साइनिङ कुञ्जी:"
+
+#: knconfigwidgets.cpp:135
+msgid ""
+"<qt><p>The OpenPGP key you choose here will be used to sign your "
+"articles.</p></qt>"
+msgstr ""
+"<qt><p>यहाँ चयन गरेका OpenPGP कुञ्जी तपाईँका लेखमा चिन्ह लगाउन प्रयोग "
+"गरिन्छन् ।</p></qt>"
+
+#: knconfigwidgets.cpp:146
+msgid "&Use a signature from file"
+msgstr "फाइलबाट हस्ताक्षर प्रयोग गर्नुहोस्"
+
+#: knconfigwidgets.cpp:150
+msgid ""
+"<qt><p>Mark this to let KNode read the signature from a file.</p></qt>"
+msgstr ""
+"<qt><p>फाइलबाट केडीई नोडलाई हस्ताक्षर पढ्न दिन यसमा चिन्ह लगाउनुहोस् "
+"।</p></qt>"
+
+#: knconfigwidgets.cpp:153
+msgid "Signature &file:"
+msgstr "हस्ताक्षर फाइल:"
+
+#: knconfigwidgets.cpp:159
+msgid ""
+"<qt><p>The file from which the signature will be read.</p><p>Ex: "
+"<b>/home/robt/.sig</b>.</p></qt>"
+msgstr ""
+"<qt><p>हस्ताक्षर पढिने फाइल ।</p><p>जस्तै: <b>/home/robt/.sig</b>।</p></qt>"
+
+#: knconfigwidgets.cpp:164
+msgctxt "@action:button Choose a file that contains a signature for messages"
+msgid "Choo&se..."
+msgstr ""
+
+#: knconfigwidgets.cpp:168
+msgctxt "@action:button Launch the edit of the signature file"
+msgid "&Edit File"
+msgstr ""
+
+#: knconfigwidgets.cpp:173
+msgid "&The file is a program"
+msgstr "फाइल कार्यक्रम हो"
+
+#: knconfigwidgets.cpp:175
+msgid ""
+"<qt><p>Mark this option if the signature will be generated by a "
+"program</p><p>Ex: <b>/home/robt/gensig.sh</b>.</p></qt>"
+msgstr ""
+"<qt><p>कार्यक्रमद्वारा हस्ताक्षर सिर्जना गरिने भएमा यो विकल्पमा चिनो "
+"लगाउनुहोस्</p><p>जस्तै: <b>/home/robt/gensig.sh</b> ।</p></qt>"
+
+#: knconfigwidgets.cpp:180
+msgid "Specify signature &below"
+msgstr "तल हस्ताक्षर निर्दिष्ट गर्नुहोस्"
+
+#: knconfigwidgets.cpp:263
+msgid "Choose Signature"
+msgstr "हस्ताक्षर रोज्नुहोस्"
+
+#: knconfigwidgets.cpp:274
+msgid "You must specify a filename."
+msgstr "तपाईँले फाइलनाम निर्दिष्ट गर्नुपर्छ ।"
+
+#: knconfigwidgets.cpp:280
+msgid "You have specified a folder."
+msgstr "तपाईँले फोल्डर निर्दिष्ट गर्नुभएको छ ।"
+
+#: knconfigwidgets.cpp:385
+#, kde-format
+msgid "Server: %1"
+msgstr "सर्भर: %1"
+
+#: knconfigwidgets.cpp:386
+#, kde-format
+msgid "Port: %1"
+msgstr "पोर्ट: %1"
+
+#: knconfigwidgets.cpp:388
+msgid "Server: "
+msgstr "सर्भर: "
+
+#: knconfigwidgets.cpp:389
+msgid "Port: "
+msgstr "पोर्ट: "
+
+#: knconfigwidgets.cpp:445 knfilterdialog.cpp:41
+#, kde-format
+msgid "Properties of %1"
+msgstr "%1 का गुण"
+
+#: knconfigwidgets.cpp:447
+msgid "New Account"
+msgstr "नयाँ खाता"
+
+#: knconfigwidgets.cpp:454
+msgid "Ser&ver"
+msgstr "सर्भर"
+
+#: knconfigwidgets.cpp:502
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: knconfigwidgets.cpp:506
+msgid "&Identity"
+msgstr "परिचय"
+
+#: knconfigwidgets.cpp:510
+msgid "&Cleanup"
+msgstr "खाली गर्नुहोस्"
+
+#: knconfigwidgets.cpp:544
+msgid ""
+"Please enter an arbitrary name for the account and the\n"
+"hostname of the news server."
+msgstr ""
+"कृपया खाताका लागि स्वेच्छिक नाम र त्यसपछि\n"
+"समाचार सर्भरको होस्ट नाम प्रविष्ट गर्नुहोस् ।"
+
+#: knconfigwidgets.cpp:658
+msgid "&Use custom colors"
+msgstr "अनुकूल रङ प्रयोग गर्नुहोस्"
+
+#: knconfigwidgets.cpp:663
+msgctxt "@action:button Run a color selection dialog"
+msgid "Cha&nge..."
+msgstr ""
+
+#: knconfigwidgets.cpp:673
+msgid "Use custom &fonts"
+msgstr "अनुकूल फन्ट प्रयोग गर्नुहोस्"
+
+#: knconfigwidgets.cpp:678
+msgctxt "@action:button Run a font selection dialog"
+msgid "Chang&e..."
+msgstr ""
+
+#: knconfigwidgets.cpp:926
+msgctxt "@action:button Add a new message header field (open dialog)"
+msgid "&Add..."
+msgstr ""
+
+#: knconfigwidgets.cpp:930
+msgctxt "@action:button Delete a message header field"
+msgid "&Delete"
+msgstr ""
+
+#: knconfigwidgets.cpp:934 knconfigwidgets.cpp:1277
+msgctxt "modify something"
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: knconfigwidgets.cpp:938
+msgctxt "@action:button Move an element of a list up"
+msgid "&Up"
+msgstr ""
+
+#: knconfigwidgets.cpp:942
+msgctxt "@action:button Move an element of a list down"
+msgid "Do&wn"
+msgstr ""
+
+#: knconfigwidgets.cpp:1023
+msgid "Really delete this header?"
+msgstr "वास्तवमै यो हेडर मेट्नुहुन्छ ?"
+
+#: knconfigwidgets.cpp:1094
+msgid "Header Properties"
+msgstr "हेडर गुण"
+
+#: knconfigwidgets.cpp:1110
+msgctxt "@label:textbox Edition of a message header name"
+msgid "H&eader:"
+msgstr ""
+
+#: knconfigwidgets.cpp:1118
+msgctxt ""
+"@label:textbox Edition of the displayed name in the UI of a message header"
+msgid "Displayed na&me:"
+msgstr ""
+
+#: knconfigwidgets.cpp:1133
+msgid "&Large"
+msgstr "ठूलो"
+
+#: knconfigwidgets.cpp:1134
+msgid "&Bold"
+msgstr "बाक्लो"
+
+#: knconfigwidgets.cpp:1135
+msgid "&Italic"
+msgstr "छड्के"
+
+#: knconfigwidgets.cpp:1136
+msgid "&Underlined"
+msgstr "अधोरेखा"
+
+#: knconfigwidgets.cpp:1142
+msgid "Value"
+msgstr "मान"
+
+#: knconfigwidgets.cpp:1149
+msgid "L&arge"
+msgstr "ठूलो"
+
+#: knconfigwidgets.cpp:1150
+msgid "Bol&d"
+msgstr "बाक्लो"
+
+#: knconfigwidgets.cpp:1151
+msgid "I&talic"
+msgstr "छड्के"
+
+#: knconfigwidgets.cpp:1152
+msgid "U&nderlined"
+msgstr "अधोरेखित"
+
+#: knconfigwidgets.cpp:1232
+msgid "Default score for &ignored threads:"
+msgstr "उपेक्षित थ्रेडका लागि पूर्वनिर्धारित प्राप्ताङ्क:"
+
+#: knconfigwidgets.cpp:1239
+msgid "Default score for &watched threads:"
+msgstr "हेरिएका थ्रेडका लागि पूर्वनिर्धारित प्राप्ताङ्क:"
+
+#: knconfigwidgets.cpp:1265
+msgctxt "@title"
+msgid "&Filters:"
+msgstr ""
+
+#: knconfigwidgets.cpp:1273
+msgctxt "@action:button Add a new filter"
+msgid "&Add..."
+msgstr ""
+
+#: knconfigwidgets.cpp:1281
+msgctxt "@action:button Copy a filter"
+msgid "Co&py..."
+msgstr ""
+
+#: knconfigwidgets.cpp:1285
+msgctxt "@action:button Delete a filter"
+msgid "&Delete"
+msgstr ""
+
+#: knconfigwidgets.cpp:1292
+msgctxt "@title"
+msgid "&Menu:"
+msgstr ""
+
+#: knconfigwidgets.cpp:1299
+msgctxt "@action:button move something up in a list"
+msgid "&Up"
+msgstr ""
+
+#: knconfigwidgets.cpp:1303
+msgctxt "@action:button move something down in a list"
+msgid "Do&wn"
+msgstr ""
+
+#: knconfigwidgets.cpp:1307
+msgctxt "@action:button"
+msgid ""
+"Add\n"
+"&Separator"
+msgstr ""
+
+#: knconfigwidgets.cpp:1311
+msgctxt "@action:button"
+msgid ""
+"&Remove\n"
+"Separator"
+msgstr ""
+
+#: knconfigwidgets.cpp:1533
+msgid "Allow 8-bit"
+msgstr "8-bit अनुमति दिनुहोस्"
+
+#: knconfigwidgets.cpp:1534
+msgid "7-bit (Quoted-Printable)"
+msgstr "7-bit (उद्धरण गरिएको‍-मुद्रणयोग्य)"
+
+#: knconfigwidgets.cpp:1634
+msgid "Additional Header"
+msgstr "अतिरिक्त हेडर"
+
+#: knconfigwidgets.cpp:1755
+msgid "&Use global cleanup configuration"
+msgstr "विश्वब्यापी क्लिनअप कन्फिगरेसन प्रयोग गर्नुहोस्"
+
+#: knconfigwidgets.cpp:1760
+msgid "Newsgroup Cleanup Settings"
+msgstr "समाचार समूह क्लिनअप सेटिङ"
+
+#: knconfigwidgets.cpp:1768
+msgid "&Expire old articles automatically"
+msgstr "पुराना लेख स्वत: खारेज गर्नुहोस्"
+
+#: knconfigwidgets.cpp:1773 knconfigwidgets.cpp:1783 knconfigwidgets.cpp:1791
+#: knconfigwidgets.cpp:1871
+msgid " day"
+msgid_plural " days"
+msgstr[0] " दिन"
+msgstr[1] " दिन"
+
+#: knconfigwidgets.cpp:1774
+msgid "&Purge groups every:"
+msgstr "प्रत्येक समूहमा शुद्धीकरण गर्नुहोस्:"
+
+#: knconfigwidgets.cpp:1784
+msgid "&Keep read articles:"
+msgstr "पढिने लेख राख्नुहोस्:"
+
+#: knconfigwidgets.cpp:1792
+msgid "Keep u&nread articles:"
+msgstr "नपढिएका लेख राख्नुहोस्:"
+
+#: knconfigwidgets.cpp:1798
+msgid "&Remove articles that are not available on the server"
+msgstr "सर्भरमा उपलब्ध नभएका लेख हटाउनुहोस्"
+
+#: knconfigwidgets.cpp:1802
+msgid "Preser&ve threads"
+msgstr "थ्रेड संरक्षण गर्नुहोस्"
+
+#: knconfigwidgets.cpp:1858
+msgid "Folders"
+msgstr "फोल्डर"
+
+#: knconfigwidgets.cpp:1866
+msgid "Co&mpact folders automatically"
+msgstr "फोल्डर स्वचालित रूपमा सङ्कुचन गर्नुहोस्"
+
+#: knconfigwidgets.cpp:1872
+msgid "P&urge folders every:"
+msgstr "प्रत्येक फोल्डर शुद्धीकरण गर्नुहोस्:"
+
+#: knconvert.cpp:54
+msgid "Conversion"
+msgstr "रुपान्तरण"
+
+#: knconvert.cpp:65
+msgid "Start Conversion..."
+msgstr "रुपान्तरण सुरु गर्नुहोस्..."
+
+#: knconvert.cpp:82
+#, kde-format
+msgid ""
+"<b>Congratulations, you have upgraded to KNode version %1.</b><br "
+"/>Unfortunately this version uses a different format for some data-files, so "
+"in order to keep your existing data it is necessary to convert it first. "
+"This is now done automatically by KNode. If you want to, a backup of your "
+"existing data will be created before the conversion starts."
+msgstr ""
+
+#: knconvert.cpp:89
+msgid "Create backup of old data"
+msgstr "पुराना डेटाको जगेडा सिर्जना गर्नुहोस्"
+
+#: knconvert.cpp:93
+msgid "Save backup in:"
+msgstr "यसमा जगेडा बचत गर्नुहोस्:"
+
+#: knconvert.cpp:99
+msgid "Browse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#: knconvert.cpp:108
+msgid "<b>Converting, please wait...</b>"
+msgstr "<b>रुपान्तरण गर्दैछ, कृपया प्रतिक्षा गर्नुहोस्...</b>"
+
+#: knconvert.cpp:120
+msgid "Processed tasks:"
+msgstr "कार्य अगाडि बढाइयो:"
+
+#: knconvert.cpp:147
+msgid ""
+"<b>Some errors occurred during the conversion.</b><br />You should now "
+"examine the log to find out what went wrong."
+msgstr ""
+
+#: knconvert.cpp:151
+msgid ""
+"<b>The conversion was successful.</b><br />Have a lot of fun with this new "
+"version of KNode. ;-)"
+msgstr ""
+
+#: knconvert.cpp:154
+msgid "Start KNode"
+msgstr "केडीई नोड सुरुआत गर्नुहोस्"
+
+#: knconvert.cpp:183
+msgid "Please select a valid backup path."
+msgstr "कृपया वैद्य जगेडा मार्ग चयन गर्नुहोस् ।"
+
+#: knconvert.cpp:226
+msgid "<b>The backup failed</b>; do you want to continue anyway?"
+msgstr "<b>जगेडा राख्न असफल</b>; तपाईँ जसरी पनि निरन्तर गर्न चाहनुहुन्छ ?"
+
+#: knconvert.cpp:238
+#, kde-format
+msgid "created backup of the old data-files in %1"
+msgstr "%1 मा पुराना डेटा फाइलको जगेडा सिर्जना गरियो"
+
+#: knconvert.cpp:240
+msgid "backup failed."
+msgstr "जगेडा राख्न असफल ।"
+
+#: knconvert.cpp:263
+msgid "conversion of folder \"Drafts\" to version 0.4 failed."
+msgstr "फोल्डर \"ड्राफ्ट\" लाई संस्करण ०.४ मा रुपान्तरण गर्न असफल भयो ।"
+
+#: knconvert.cpp:266
+msgid "converted folder \"Drafts\" to version 0.4"
+msgstr "फोल्डर \"ड्राफ्ट\" संस्करण ०.४ मा रुपान्तरण गरियो"
+
+#: knconvert.cpp:270
+msgid "nothing to be done for folder \"Drafts\""
+msgstr "फोल्डर \"ड्राफ्ट\" का लागि केही पनि गर्नु पर्दैन"
+
+#: knconvert.cpp:277
+msgid "conversion of folder \"Outbox\" to version 0.4 failed."
+msgstr ""
+"फोल्डर \"प्रेषण-मञ्जूषा\" लाई संस्करण ०.४ मा रुपान्तरण गर्न असफल भयो ।"
+
+#: knconvert.cpp:280
+msgid "converted folder \"Outbox\" to version 0.4"
+msgstr "फोल्डर \"प्रेषण-मञ्जूषा\" लाई संस्करण ०.४ मा रुपान्तरण गरियो"
+
+#: knconvert.cpp:284
+msgid "nothing to be done for folder \"Outbox\""
+msgstr "फोल्डर \"प्रेषण-मञ्जूषा\" का लागि केही पनि गरिने छैन"
+
+#: knconvert.cpp:291
+msgid "conversion of folder \"Sent\" to version 0.4 failed."
+msgstr "फोल्डर \"पठाउनुहोस्\" लाई संस्करण ०.४ मा रुपान्तरण गर्न असफल भयो ।"
+
+#: knconvert.cpp:294
+msgid "converted folder \"Sent\" to version 0.4"
+msgstr "फोल्डर \"पठाउनुहोस्\" लाई संस्करण ०.४ मा रुपान्तरण गरियो"
+
+#: knconvert.cpp:298
+msgid "nothing to be done for folder \"Sent\""
+msgstr "फोल्डर \"पठाउनुहोस्\" का लागि केही पनि गर्नुपर्ने छैन"
+
+#: kndisplayedheader.cpp:28
+msgctxt "collection of article headers"
+msgid "Approved"
+msgstr "प्रमाणित"
+
+#: kndisplayedheader.cpp:29
+msgctxt "collection of article headers"
+msgid "Content-Transfer-Encoding"
+msgstr "सामाग्री स्थानान्तरण सङ्केतन"
+
+#: kndisplayedheader.cpp:30
+msgctxt "collection of article headers"
+msgid "Content-Type"
+msgstr "सामाग्री प्रकार"
+
+#: kndisplayedheader.cpp:31
+msgctxt "collection of article headers"
+msgid "Control"
+msgstr "नियन्त्रण"
+
+#: kndisplayedheader.cpp:32
+msgctxt "collection of article headers"
+msgid "Date"
+msgstr "मिति"
+
+#: kndisplayedheader.cpp:33
+msgctxt "collection of article headers"
+msgid "Distribution"
+msgstr "वितरण"
+
+#: kndisplayedheader.cpp:34
+msgctxt "collection of article headers"
+msgid "Expires"
+msgstr "म्याद समाप्त"
+
+#: kndisplayedheader.cpp:35
+msgctxt "collection of article headers"
+msgid "Followup-To"
+msgstr "यसलाई अनुसरण गर्नुहोस्"
+
+#: kndisplayedheader.cpp:36
+msgctxt "collection of article headers"
+msgid "From"
+msgstr "बाट"
+
+#: kndisplayedheader.cpp:37
+msgctxt "collection of article headers"
+msgid "Lines"
+msgstr "लाइन"
+
+#: kndisplayedheader.cpp:38
+msgctxt "collection of article headers"
+msgid "Mail-Copies-To"
+msgstr "यसमा मेल प्रतिलिपि गर्नुहोस्"
+
+#: kndisplayedheader.cpp:39
+msgctxt "collection of article headers"
+msgid "Message-ID"
+msgstr "सन्देश आईडी"
+
+#: kndisplayedheader.cpp:40
+msgctxt "collection of article headers"
+msgid "Mime-Version"
+msgstr "माइम संस्करण"
+
+#: kndisplayedheader.cpp:41
+msgctxt "collection of article headers"
+msgid "NNTP-Posting-Host"
+msgstr "NNTP पोस्टिङ होस्ट"
+
+#: kndisplayedheader.cpp:42
+msgctxt "collection of article headers"
+msgid "Newsgroups"
+msgstr "समाचार समूह"
+
+#: kndisplayedheader.cpp:43
+msgctxt "collection of article headers"
+msgid "Organization"
+msgstr "सङ्गठन"
+
+#: kndisplayedheader.cpp:44
+msgctxt "collection of article headers"
+msgid "Path"
+msgstr "मार्ग"
+
+#: kndisplayedheader.cpp:45
+msgctxt "collection of article headers"
+msgid "References"
+msgstr "सन्दर्भ"
+
+#: kndisplayedheader.cpp:46
+msgctxt "collection of article headers"
+msgid "Reply-To"
+msgstr "यसलाई जवाफ पठाउनुहोस्"
+
+#: kndisplayedheader.cpp:47
+msgctxt "collection of article headers"
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: kndisplayedheader.cpp:48
+msgctxt "collection of article headers"
+msgid "Subject"
+msgstr "विषय"
+
+#: kndisplayedheader.cpp:49
+msgctxt "collection of article headers"
+msgid "Supersedes"
+msgstr "हटाउछ"
+
+#: kndisplayedheader.cpp:50
+msgctxt "collection of article headers"
+msgid "To"
+msgstr "लाई"
+
+#: kndisplayedheader.cpp:51
+msgctxt "collection of article headers"
+msgid "User-Agent"
+msgstr "प्रयोगकर्ता-अभिकर्ता"
+
+#: kndisplayedheader.cpp:52
+msgctxt "collection of article headers"
+msgid "X-Mailer"
+msgstr "X-मेलर"
+
+#: kndisplayedheader.cpp:53
+msgctxt "collection of article headers"
+msgid "X-Newsreader"
+msgstr "X-समाचार वाचक"
+
+#: kndisplayedheader.cpp:54
+msgctxt "collection of article headers"
+msgid "X-No-Archive"
+msgstr "X-सङ्ग्रह छैन"
+
+#: kndisplayedheader.cpp:55
+msgctxt "collection of article headers"
+msgid "XRef"
+msgstr "XRef"
+
+#: kndisplayedheader.cpp:57
+msgctxt "collection of article headers"
+msgid "Groups"
+msgstr "समूह"
+
+#: knfilterconfigwidget.cpp:40
+msgid ""
+"The following placeholders are supported:\n"
+"%MYNAME=own name, %MYEMAIL=own email address"
+msgstr ""
+"निम्न प्लेसहोल्डर समर्थन गरिन्छन्:\n"
+"%MYNAME=आफ्नो नाम, %MYEMAIL=आफ्नो इमेल ठेगाना"
+
+#: knfilterconfigwidget.cpp:43
+msgid "Subject && &From"
+msgstr "यस विषयबाट"
+
+#: knfilterconfigwidget.cpp:49
+msgid "Message-ID"
+msgstr "सन्देश आईडी"
+
+#: knfilterconfigwidget.cpp:51
+msgid "References"
+msgstr "सन्दर्भ"
+
+#: knfilterconfigwidget.cpp:54
+msgid "M&essage-IDs"
+msgstr "सन्देश आईडी"
+
+#: knfilterconfigwidget.cpp:57
+msgid "&Status"
+msgstr "स्थिति"
+
+#: knfilterconfigwidget.cpp:65
+msgid "Age"
+msgstr "उमेर"
+
+#: knfilterconfigwidget.cpp:65
+msgid " days"
+msgstr " दिन"
+
+#: knfilterconfigwidget.cpp:70
+msgid "&Additional"
+msgstr "अतिरिक्त"
+
+#: knfilterdialog.cpp:39
+msgid "New Filter"
+msgstr "नयाँ फिल्टर"
+
+#: knfilterdialog.cpp:50
+msgid "Na&me:"
+msgstr "नाम:"
+
+#: knfilterdialog.cpp:53
+msgid "Single Articles"
+msgstr "एकल लेख"
+
+#: knfilterdialog.cpp:54
+msgid "Whole Threads"
+msgstr "सम्पूर्ण थ्रेड"
+
+#: knfilterdialog.cpp:55
+msgid "Apply o&n:"
+msgstr "यसमा लागू गर्नुहोस्:"
+
+#: knfilterdialog.cpp:57
+msgid "Sho&w in menu"
+msgstr "मेनुमा देखाउनुहोस्"
+
+#: knfilterdialog.cpp:115
+msgid "Please provide a name for this filter."
+msgstr "कृपया यो फिल्टरका लागि नाम दिनुहोस् ।"
+
+#: knfilterdialog.cpp:118
+msgid ""
+"A filter with this name exists already.\n"
+"Please choose a different name."
+msgstr ""
+"यो नामको फिल्टर पहिले नै अवस्थित छ ।\n"
+"कृपया फरक नाम रोज्नुहोस् ।"
+
+#: knfiltermanager.cpp:261
+msgid "Do you really want to delete this filter?"
+msgstr "तपाईँ वास्तवमै यो फिल्टर मेट्न चाहनुहुन्छ ?"
+
+#: knfiltermanager.cpp:344
+msgid "ERROR: no such filter."
+msgstr "त्रुटि: त्यस्तो फिल्टर छैन ।"
+
+#: knfiltermanager.cpp:368
+msgid "Select Filter"
+msgstr "फिल्टर चयन गर्नुहोस्"
+
+#: knfolder.cpp:197
+msgid " Loading folder..."
+msgstr " फोल्डर लोडिङ गर्दैछ..."
+
+#: knfoldermanager.cpp:46
+msgid "Local Folders"
+msgstr "स्थानीय फोल्डर"
+
+#: knfoldermanager.cpp:50
+msgid "Drafts"
+msgstr "ड्राफ्ट"
+
+#: knfoldermanager.cpp:54
+msgid "Outbox"
+msgstr "प्रेषण-मञ्जूषा"
+
+#: knfoldermanager.cpp:58
+msgid "Sent"
+msgstr "पठाउनुहोस्"
+
+#: knfoldermanager.cpp:88
+msgid "Cannot load index-file."
+msgstr "अनुक्रमणिका फाइल लोड गर्न सकिँदैन ।"
+
+#: knfoldermanager.cpp:143
+msgid "New folder"
+msgstr "नयाँ फोल्डर"
+
+#: knfoldermanager.cpp:307
+msgid "Import MBox Folder"
+msgstr "MBox फोल्डर आयात गर्नुहोस्"
+
+#: knfoldermanager.cpp:316
+msgid " Importing articles..."
+msgstr " लेख आयात गर्दैछ..."
+
+#: knfoldermanager.cpp:380
+msgid " Storing articles..."
+msgstr " लेख भण्डारण गर्दैछ..."
+
+#: knfoldermanager.cpp:407
+msgid "Export Folder"
+msgstr "फोल्डर निर्यात गर्नुहोस्"
+
+#: knfoldermanager.cpp:411
+msgid " Exporting articles..."
+msgstr " लेख निर्यात गर्दैछ..."
+
+#: kngroup.cpp:949
+msgid " Scoring..."
+msgstr " स्कोरिङ..."
+
+#: kngroup.cpp:996
+msgid " Reorganizing headers..."
+msgstr " हेडर पुन: सङ्गठन गर्दैछ..."
+
+#: kngroup.cpp:1099
+#, kde-format
+msgid "Cannot load saved headers: %1"
+msgstr "बचत गरिएका हेडर: %1 लोड गर्न सकिँदैन"
+
+#: kngroupbrowser.cpp:58
+msgid "S&earch:"
+msgstr "खोजी गर्नुहोस्:"
+
+#: kngroupbrowser.cpp:61
+msgid "Disable &tree view"
+msgstr "ट्री दृश्य अक्षम पार्नुहोस्"
+
+#: kngroupbrowser.cpp:63
+msgid "&Subscribed only"
+msgstr "सदस्यलाई मात्र"
+
+#: kngroupbrowser.cpp:65
+msgid "&New only"
+msgstr "नयाँ मात्र"
+
+#: kngroupbrowser.cpp:73
+msgid "Loading groups..."
+msgstr "समूह लोड गर्दैछ..."
+
+#: kngroupbrowser.cpp:372
+#, kde-format
+msgid "Groups on %1: (%2 displayed)"
+msgstr "%1 का समूह: (प्रदर्शित %2)"
+
+#: kngroupbrowser.cpp:425 kngroupbrowser.cpp:438
+msgid "moderated"
+msgstr "सामान्यकृत"
+
+#: kngroupdialog.cpp:38
+msgid "Subscribe to Newsgroups"
+msgstr "समाचार समूहमा सदस्यता लिनुहोस्"
+
+#: kngroupdialog.cpp:38
+msgid "New &List"
+msgstr "नयाँ सूची"
+
+#: kngroupdialog.cpp:38
+msgid "New &Groups..."
+msgstr "नयाँ समूह..."
+
+#: kngroupdialog.cpp:40
+msgid "Current changes:"
+msgstr "हालका परिवर्तन:"
+
+#: kngroupdialog.cpp:42
+msgid "Subscribe To"
+msgstr "यसमा सदस्यता दिनुहोस्"
+
+#: kngroupdialog.cpp:44
+msgid "Unsubscribe From"
+msgstr "यसबाट सदस्यता हटाउनुहोस्"
+
+#: kngroupdialog.cpp:142
+msgid ""
+"You have subscribed to a moderated newsgroup.\n"
+"Your articles will not appear in the group immediately.\n"
+"They have to go through a moderation process."
+msgstr ""
+"तपाईँले सामान्यकृत समाचार समूहको सदस्यता प्राप्त गर्नुभएको छ ।\n"
+"तपाईँको लेख तत्काल समूहमा देखिने छैन ।\n"
+"तिनीहरू सामान्यकरण प्रक्रियाबाट जानुपर्छ ।"
+
+#: kngroupdialog.cpp:276
+msgid "Downloading groups..."
+msgstr "समूह डाउनलोड गर्दैछ..."
+
+#: kngroupdialog.cpp:288
+msgid "New Groups"
+msgstr "नयाँ समूह"
+
+#: kngroupdialog.cpp:291
+msgid "Check for New Groups"
+msgstr "नयाँ समूहका लागि जाँच गर्नुहोस्"
+
+#: kngroupdialog.cpp:295
+msgid "Created since last check:"
+msgstr "अन्तिम जाँच देखि सिर्जना गरियो:"
+
+#: kngroupdialog.cpp:303
+msgid "Created since this date:"
+msgstr "यस मिति देखि सिर्जना गरियो:"
+
+#: kngroupdialog.cpp:321
+msgid "Checking for new groups..."
+msgstr "नयाँ समूहका लागि जाँच गर्दैछ..."
+
+#: kngroupmanager.cpp:424
+msgid ""
+"Do you really want to unsubscribe\n"
+"from these groups?"
+msgstr ""
+"तपाईँ वास्तवमै यी समूहबाट सदस्यता\n"
+"हटाउन चाहनुहुन्छ ?"
+
+#: kngroupmanager.cpp:425 knmainwidget.cpp:1513
+msgid "Unsubscribe"
+msgstr "सदस्यता हटाउनुहोस्"
+
+#: kngroupmanager.cpp:465
+#, kde-format
+msgid ""
+"The group \"%1\" is being updated currently.\n"
+"It is not possible to unsubscribe from it at the moment."
+msgstr ""
+"समूह \"%1\" अहिले अद्यावधिक गरिदैछ ।\n"
+"यो क्षणमा यसलाई सदस्यताबाट हटाउन सम्भव छैन ।"
+
+#: kngroupmanager.cpp:531
+msgid ""
+"This group cannot be expired because it is currently being updated.\n"
+" Please try again later."
+msgstr ""
+"यो समूहलाई खारेज गर्न सकिँदैन किनभने यो अहिले अद्यावधिक भइरहेको छ ।\n"
+" कृपया पछि प्रयास गर्नुहोस् ।"
+
+#: kngroupmanager.cpp:647
+#, kde-format
+msgid ""
+"The group %1 does not appear to exist anymore on the server.\n"
+"You may unsubscribe."
+msgstr ""
+
+#: kngroupmanager.cpp:670
+msgid ""
+"You do not have any groups for this account;\n"
+"do you want to fetch a current list?"
+msgstr ""
+"तपाईँसँग यस खाताका लागि कुनै पनि समूह छैनन्;\n"
+"तपाईँ हालको सूची तान्न चाहनुहुन्छ ?"
+
+#: kngroupmanager.cpp:670
+msgid "Fetch List"
+msgstr "तान्ने सूची"
+
+#: kngroupmanager.cpp:670
+msgid "Do Not Fetch"
+msgstr "नतान्नुहोस्"
+
+#: kngrouppropdlg.cpp:43
+#, kde-format
+msgctxt "@title:window %1=newsgroup name"
+msgid "Properties of %1"
+msgstr ""
+
+#: kngrouppropdlg.cpp:50
+msgctxt "@title:tab"
+msgid "General"
+msgstr ""
+
+#: kngrouppropdlg.cpp:55
+msgctxt "@title:group"
+msgid "Settings"
+msgstr ""
+
+#: kngrouppropdlg.cpp:66
+msgctxt "@label:textbox Alternative name of a newsgroup"
+msgid "Nickname:"
+msgstr ""
+
+#: kngrouppropdlg.cpp:71
+msgctxt "@label:listbox"
+msgid "Use different default charset:"
+msgstr ""
+
+#: kngrouppropdlg.cpp:88
+msgctxt "@title:group"
+msgid "Description"
+msgstr ""
+
+#: kngrouppropdlg.cpp:96
+msgctxt "@label name of a newsgroup"
+msgid "Name:"
+msgstr ""
+
+#: kngrouppropdlg.cpp:101
+msgctxt "@label description of a newsgroup"
+msgid "Description:"
+msgstr ""
+
+#: kngrouppropdlg.cpp:106
+msgctxt "@label status of posting to a newsgroup"
+msgid "Status:"
+msgstr ""
+
+#: kngrouppropdlg.cpp:110
+msgctxt "posting status"
+msgid "unknown"
+msgstr ""
+
+#: kngrouppropdlg.cpp:112
+msgid "posting forbidden"
+msgstr "पोष्टिङ निषेध गरिएको छ"
+
+#: kngrouppropdlg.cpp:114
+msgid "posting allowed"
+msgstr "पोस्टिङ स्वीकृत गरिएको छ"
+
+#: kngrouppropdlg.cpp:116
+msgctxt "posting status"
+msgid "moderated"
+msgstr ""
+
+#: kngrouppropdlg.cpp:126
+msgctxt "@title:group"
+msgid "Statistics"
+msgstr ""
+
+#: kngrouppropdlg.cpp:134
+msgid "Articles:"
+msgstr "लेख:"
+
+#: kngrouppropdlg.cpp:139
+msgid "Unread articles:"
+msgstr "नपढिएका लेख:"
+
+#: kngrouppropdlg.cpp:144
+msgid "New articles:"
+msgstr "नयाँ लेख:"
+
+#: kngrouppropdlg.cpp:149
+msgid "Threads with unread articles:"
+msgstr "नपढिएका लेख सहितका थ्रेड:"
+
+#: kngrouppropdlg.cpp:154
+msgid "Threads with new articles:"
+msgstr "नयाँ लेख सहितका थ्रेड:"
+
+#: kngrouppropdlg.cpp:166
+msgctxt "@title:tab"
+msgid "Identity"
+msgstr ""
+
+#: kngrouppropdlg.cpp:170
+msgctxt "@title:tab"
+msgid "Cleanup"
+msgstr ""
+
+#: kngroupselectdialog.cpp:27
+msgid "Select Destinations"
+msgstr "गन्तव्य चयन गर्नुहोस्"
+
+#: kngroupselectdialog.cpp:33
+msgid "Groups for this article:"
+msgstr "यस लेखका लागि समूह:"
+
+#: kngroupselectdialog.cpp:103
+msgid ""
+"You are crossposting to a moderated newsgroup.\n"
+"Please be aware that your article will not appear in any group\n"
+"until it has been approved by the moderators of the moderated group."
+msgstr ""
+"तपाईँ सामान्यकृत समाचार समूहमा क्रस पोस्टिङ गर्दै हुनुहुन्छ ।\n"
+"कृपया सावधान हुनुहोस् तपाईँको लेख\n"
+"सामान्यकृत समूहको मोडरेटरले प्रमाणित नगरेसम्म कुनै पनि समूहमा देखिने छैन ।"
+
+#: knjobdata.cpp:157
+msgid "Sending message"
+msgstr "सन्देश पठाउदैछ"
+
+#: knjobdata.cpp:166 scheduler.cpp:206
+msgid "Waiting..."
+msgstr "प्रतिक्षा गर्दैछ..."
+
+#: knmainwidget.cpp:141
+msgid "&Search:"
+msgstr "खोजी गर्नुहोस्:"
+
+#: knmainwidget.cpp:297
+msgid " Ready"
+msgstr " तयार"
+
+#: knmainwidget.cpp:322
+msgid "KDE News Reader"
+msgstr "केडीई समाचार वाचक"
+
+#: knmainwidget.cpp:515
+msgid "&Next Article"
+msgstr "पछिल्लो लेख"
+
+#: knmainwidget.cpp:516
+msgid "Go to next article"
+msgstr "पछिल्लो लेखमा जानुहोस्"
+
+#: knmainwidget.cpp:521
+msgid "&Previous Article"
+msgstr "अघिल्लो लेख"
+
+#: knmainwidget.cpp:523
+msgid "Go to previous article"
+msgstr "अघिल्लो लेखमा जानुहोस्"
+
+#: knmainwidget.cpp:528
+msgid "Next Unread &Article"
+msgstr "पछिल्लो नपढिएको लेख"
+
+#: knmainwidget.cpp:534
+msgid "Next Unread &Thread"
+msgstr "पछिल्लो नपढिएको थ्रेड"
+
+#: knmainwidget.cpp:540
+msgid "Ne&xt Group"
+msgstr "पछिल्लो समूह"
+
+#: knmainwidget.cpp:546
+msgid "Pre&vious Group"
+msgstr "अघिल्लो समूह"
+
+#: knmainwidget.cpp:551
+msgid "Read &Through Articles"
+msgstr "लेखमा पढ्नुहोस्"
+
+#: knmainwidget.cpp:556
+msgid "Focus on Next Folder"
+msgstr "पछिल्लो फोल्डरमा फोकस गर्नुहोस्"
+
+#: knmainwidget.cpp:561
+msgid "Focus on Previous Folder"
+msgstr "अघिल्लो फोल्डरमा फोकस गर्नुहोस्"
+
+#: knmainwidget.cpp:566
+msgid "Select Folder with Focus"
+msgstr "फोकस गरिएको फोल्डर चयन गर्नुहोस्"
+
+#: knmainwidget.cpp:571
+msgid "Focus on Next Article"
+msgstr "पछिल्लो लेखमा फोकस गर्नुहोस्"
+
+#: knmainwidget.cpp:576
+msgid "Focus on Previous Article"
+msgstr "अघिल्लो लेखमा फोकस गर्नुहोस्"
+
+#: knmainwidget.cpp:581
+msgid "Select Article with Focus"
+msgstr "फोकस भएको लेख चयन गर्नुहोस्"
+
+#: knmainwidget.cpp:588
+msgid "Account &Properties"
+msgstr "खाता गुण"
+
+#: knmainwidget.cpp:593
+msgid "&Rename Account"
+msgstr "खाता पुन: नामकरण गर्नुहोस्"
+
+#: knmainwidget.cpp:598
+msgid "&Subscribe to Newsgroups..."
+msgstr "समाचार समूहमा सदस्य बन्नुहोस्..."
+
+#: knmainwidget.cpp:602
+msgid "&Expire All Groups"
+msgstr "सबै समूह खारेज गर्नुहोस्"
+
+#: knmainwidget.cpp:607
+msgid "&Get New Articles in All Groups"
+msgstr "सबै समूहका नयाँ लेख प्राप्त गर्नुहोस्"
+
+#: knmainwidget.cpp:612
+msgid "&Get New Articles in All Accounts"
+msgstr "सबै खातामा नयाँ लेख प्राप्त गर्नुहोस्"
+
+#: knmainwidget.cpp:617
+msgid "&Delete Account"
+msgstr "खाता मेट्नुहोस्"
+
+#: knmainwidget.cpp:622
+msgid "&Post to Newsgroup..."
+msgstr "समाचार समूहमा पोस्ट गर्नुहोस्..."
+
+#: knmainwidget.cpp:629
+msgid "Group &Properties"
+msgstr "समूह गुण"
+
+#: knmainwidget.cpp:634
+msgid "Rename &Group"
+msgstr "समूह पुन: नामकरण गर्नुहोस्"
+
+#: knmainwidget.cpp:639
+msgid "&Get New Articles"
+msgstr "नयाँ लेख प्राप्त गर्नुहोस्"
+
+#: knmainwidget.cpp:643
+msgid "E&xpire Group"
+msgstr "समूह खारेज गर्नुहोस्"
+
+#: knmainwidget.cpp:647
+msgid "Re&organize Group"
+msgstr "समूह पुन: सङ्गठित गर्नुहोस्"
+
+#: knmainwidget.cpp:652
+msgid "&Unsubscribe From Group"
+msgstr "समूहबाट सदस्यता हटाउनुहोस्"
+
+#: knmainwidget.cpp:657
+msgid "Mark All as &Read"
+msgstr "सबैलाई पढेको रूपमा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:661
+msgid "Mark All as U&nread"
+msgstr "सबैलाई नपढेको रूपमा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:665
+msgid "Mark Last as Unr&ead..."
+msgstr "अन्तिमलाई नपढेको रूपमा चिनो लगाउनुहोस्..."
+
+#: knmainwidget.cpp:670
+msgid "&Configure KNode..."
+msgstr "केडीई नोड कन्फिगर गर्नुहोस्..."
+
+#: knmainwidget.cpp:676
+msgid "&New Folder"
+msgstr "नयाँ फोल्डर"
+
+#: knmainwidget.cpp:681
+msgid "New &Subfolder"
+msgstr "नयाँ उप-फोल्डर"
+
+#: knmainwidget.cpp:686
+msgid "&Delete Folder"
+msgstr "फोल्डर मेट्नुहोस्"
+
+#: knmainwidget.cpp:691
+msgid "&Rename Folder"
+msgstr "फोल्डर पुन: नामकरण गर्नुहोस्"
+
+#: knmainwidget.cpp:695
+msgid "C&ompact Folder"
+msgstr "फोल्डर सङ्कुचन गर्नुहोस्"
+
+#: knmainwidget.cpp:699
+msgid "Co&mpact All Folders"
+msgstr "सबै फोल्डर सङ्कुचन गर्नुहोस्"
+
+#: knmainwidget.cpp:703
+msgid "&Empty Folder"
+msgstr "फोल्डर खाली गर्नुहोस्"
+
+#: knmainwidget.cpp:707
+msgid "&Import MBox Folder..."
+msgstr "MBox फोल्डर आयात गर्नुहोस्..."
+
+#: knmainwidget.cpp:711
+msgid "E&xport as MBox Folder..."
+msgstr "MBox फोल्डरका रूपमा निर्यात गर्नुहोस्..."
+
+#: knmainwidget.cpp:716
+msgid "S&ort"
+msgstr "क्रमबद्ध गर्नुहोस्"
+
+#: knmainwidget.cpp:718
+msgid "By &Subject"
+msgstr "विषय अनुरूप"
+
+#: knmainwidget.cpp:719
+msgid "By S&ender"
+msgstr "प्रेषक अनुरूप"
+
+#: knmainwidget.cpp:720
+msgid "By S&core"
+msgstr "प्राप्ताङ्क अनुसार"
+
+#: knmainwidget.cpp:721
+msgid "By &Lines"
+msgstr "लाईन अनुरूप"
+
+#: knmainwidget.cpp:722
+msgid "By &Date"
+msgstr "मिति अनुरूप"
+
+#: knmainwidget.cpp:728
+msgid "Sort"
+msgstr "क्रमबद्ध गर्नुहोस्"
+
+#: knmainwidget.cpp:732
+msgid "&Filter"
+msgstr "फिल्टर"
+
+#: knmainwidget.cpp:737
+msgid "Filter"
+msgstr "फिल्टर"
+
+#: knmainwidget.cpp:742
+msgid "&Search Articles..."
+msgstr "लेख खोजी गर्नुहोस्..."
+
+#: knmainwidget.cpp:748
+msgid "&Refresh List"
+msgstr "सूची ताजा पार्नुहोस्"
+
+#: knmainwidget.cpp:753
+msgid "&Collapse All Threads"
+msgstr "सबै थ्रेड संक्षिप्त गर्नुहोस्"
+
+#: knmainwidget.cpp:757
+msgid "E&xpand All Threads"
+msgstr "सबै थ्रेड विस्तार गर्नुहोस्"
+
+#: knmainwidget.cpp:761
+msgid "&Toggle Subthread"
+msgstr "उप-थ्रेड टगल गर्नुहोस्"
+
+#: knmainwidget.cpp:766
+msgid "Show T&hreads"
+msgstr "थ्रेड देखाउनुहोस्"
+
+#: knmainwidget.cpp:768
+msgid "Hide T&hreads"
+msgstr "थ्रेड लुकाउनुहोस्"
+
+#: knmainwidget.cpp:775
+msgid "Mark as &Read"
+msgstr "पढेको रूपमा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:781
+msgid "Mar&k as Unread"
+msgstr "नपढिएको रूपमा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:786
+msgid "Mark &Thread as Read"
+msgstr "थ्रेडलाई पढेको रूपमा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:791
+msgid "Mark T&hread as Unread"
+msgstr "थ्रेडलाई नपढेको रूपमा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:797
+msgid "Open in Own &Window"
+msgstr "आफ्नो सञ्झ्यालमा खोल्नुहोस्"
+
+#: knmainwidget.cpp:804
+msgid "&Edit Scoring Rules..."
+msgstr "प्राप्ताङ्क नियम सम्पादन गर्नुहोस्..."
+
+#: knmainwidget.cpp:809
+msgid "Recalculate &Scores"
+msgstr "प्राप्ताङ्क पुन: गणना गर्नुहोस्"
+
+#: knmainwidget.cpp:813
+msgid "&Lower Score for Author..."
+msgstr "लेखकका लागि न्यून प्राप्ताङ्क..."
+
+#: knmainwidget.cpp:818
+msgid "&Raise Score for Author..."
+msgstr "लेखकका लागि प्राप्ताङ्क बढाउनुहोस्..."
+
+#: knmainwidget.cpp:824
+msgid "&Ignore Thread"
+msgstr "थ्रेड उपेक्षा गर्नुहोस्"
+
+#: knmainwidget.cpp:830
+msgid "&Watch Thread"
+msgstr "थ्रेड हेर्नुहोस्"
+
+#: knmainwidget.cpp:837
+msgid "Sen&d Pending Messages"
+msgstr "विचाराधीन सन्देश पठाउनुहोस्"
+
+#: knmainwidget.cpp:842
+msgid "&Delete Article"
+msgstr "लेख मेट्नुहोस्"
+
+#: knmainwidget.cpp:848
+msgid "Send &Now"
+msgstr "अहिले पठाउनुहोस्"
+
+#: knmainwidget.cpp:853
+msgctxt "edit article"
+msgid "&Edit Article..."
+msgstr "लेख सम्पादन गर्नुहोस्..."
+
+#: knmainwidget.cpp:860
+msgid "Stop &Network"
+msgstr "सञ्जाल रोक्नुहोस्"
+
+#: knmainwidget.cpp:865
+msgid "&Fetch Article with ID..."
+msgstr "आईडीबाट लेख तान्नुहोस्..."
+
+#: knmainwidget.cpp:870
+msgid "Show Quick Search"
+msgstr "छिटो खोजी देखाउनुहोस्"
+
+#: knmainwidget.cpp:872
+msgid "Hide Quick Search"
+msgstr "छिटो खोजी लुकाउनुहोस्"
+
+#: knmainwidget.cpp:945
+msgid ""
+"KNode is currently sending articles. If you quit now you might lose these "
+"articles.\n"
+"Do you want to quit anyway?"
+msgstr ""
+
+#: knmainwidget.cpp:1513
+#, kde-format
+msgid "Do you really want to unsubscribe from %1?"
+msgstr "तपाईँ वास्तवमै %1 बाट सदस्यता हटाउन चाहनुहुन्छ ?"
+
+#: knmainwidget.cpp:1543
+msgid "Mark Last as Unread"
+msgstr "नपढिएको रूपमा अन्तिममा चिनो लगाउनुहोस्"
+
+#: knmainwidget.cpp:1544
+msgid "Enter how many articles should be marked unread:"
+msgstr "नपढेका रूपमा कति लेखमा चिनो लगाउने प्रविष्ट गर्नुहोस्:"
+
+#: knmainwidget.cpp:1585
+msgid "You cannot delete a standard folder."
+msgstr "तपाईँले मानक फोल्डर मेट्न सक्नुहुन्न ।"
+
+#: knmainwidget.cpp:1588
+msgid "Do you really want to delete this folder and all its children?"
+msgstr "तपाईँले यो फोल्डर र यसका सबै शाखा साँच्चीकै मेट्न चाहनुहुन्छ ?"
+
+#: knmainwidget.cpp:1592
+msgid ""
+"This folder cannot be deleted because some of\n"
+" its articles are currently in use."
+msgstr ""
+"यसका केही लेख प्रयोगमा भएकाले यो फोल्डरलाई अहिले \n"
+" मेट्न सकिँदैन ।"
+
+#: knmainwidget.cpp:1605
+msgid "You cannot rename a standard folder."
+msgstr "तपाईँले मानक फोल्डर पुन: नामकरण गर्न सक्नुहुदैन ।"
+
+#: knmainwidget.cpp:1635
+msgid ""
+"This folder cannot be emptied at the moment\n"
+"because some of its articles are currently in use."
+msgstr ""
+"यसका केही लेख हाल प्रयोगमा भएकाले\n"
+"यो फोल्डर अहिले खाली गर्न सकिँदैन ।"
+
+#: knmainwidget.cpp:1639
+#, kde-format
+msgid "Do you really want to delete all articles in %1?"
+msgstr "तपाईँ साँच्चीकै %1 का सबै लेख मेट्न चाहनुहुन्छ ?"
+
+#: knmainwidget.cpp:1674
+msgid "Select Sort Column"
+msgstr "स्तम्भ क्रमबद्धता चयन गर्नुहोस्"
+
+#: knmainwidget.cpp:1997
+msgid "Fetch Article with ID"
+msgstr "लेखलाई आईडीसँग तान्नुहोस्"
+
+#: knmainwidget.cpp:2003
+msgid "&Message-ID:"
+msgstr "सन्देश आईडी:"
+
+#: knmainwidget.cpp:2008
+msgid "&Fetch"
+msgstr "तान्नुहोस्"
+
+#: knsearchdialog.cpp:32
+msgid "Find Articles"
+msgstr "लेख फेला पार्नुहोस्"
+
+#: knsearchdialog.cpp:39
+msgid "&Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: knsearchdialog.cpp:40
+msgid "C&lear"
+msgstr "खाली गर्नुहोस्"
+
+#: knsearchdialog.cpp:49
+msgid "Sho&w complete threads"
+msgstr "सम्पूर्ण थ्रेड देखाउनुहोस्"
+
+#: knserverinfo.cpp:94
+#, kde-format
+msgid ""
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, KNode can store the password in its configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"केडीई वालेट उपलब्ध छैन । तपाईँका पासवर्ड प्रबन्ध गर्नका लागि केडीई वालेट "
+"प्रयोग गर्न कडाइका साथ सिफारिस गरिएको छ ।\n"
+"तापनि, साटोमा केडीई नोडले पासवर्ड आफ्नो कन्फिगरेसन फाइलमा भण्डारण गर्न सक्छ "
+"। पासवर्ड भ्रामक ढाँचामा भण्डारण गरिन्छ, तर कन्फिगरेसन फाइलमा पहुँच प्राप्त "
+"गरिएको भएमा गुप्तिकरण हटाउने प्रयासबाट सुरक्षित ठानिने छैन ।\n"
+"तपाईँ कन्फिगेसन फाइलमा सर्भर '%1' का लागि पासवर्ड भण्डारण गर्न चाहनुहुन्छ ?"
+
+#: knserverinfo.cpp:102
+msgid "KWallet Not Available"
+msgstr "केडीई वालेट उपलब्ध छैन"
+
+#: knserverinfo.cpp:103
+msgid "Store Password"
+msgstr "पासवर्ड भण्डारण गर्नुहोस्"
+
+#: knserverinfo.cpp:104
+msgid "Do Not Store Password"
+msgstr "पासवर्ड भण्डारण नगर्नुहोस्"
+
+#: knsourceviewwindow.cpp:38
+msgid "Article Source"
+msgstr "लेख स्रोत"
+
+#: knstatusfilter.cpp:111
+msgid "Is read:"
+msgstr "पढिएको हो:"
+
+#: knstatusfilter.cpp:112
+msgid "Is new:"
+msgstr "नयाँ हो:"
+
+#: knstatusfilter.cpp:113
+msgid "Has unread followups:"
+msgstr "नपढिएको अद्यावधिक छ:"
+
+#: knstatusfilter.cpp:114
+msgid "Has new followups:"
+msgstr "नयाँ अद्यावधिक छ:"
+
+#: knstatusfilter.cpp:213
+msgid "True"
+msgstr "ठीक"
+
+#: knstatusfilter.cpp:214
+msgid "False"
+msgstr "गलत"
+
+#: knstringfilter.cpp:103
+msgid "Does Contain"
+msgstr "समाविष्ट गर्छ"
+
+#: knstringfilter.cpp:104
+msgid "Does NOT Contain"
+msgstr "समाविष्ट गर्दैन"
+
+#: knstringfilter.cpp:108
+msgid "Regular expression"
+msgstr "नियमित अभिव्यक्ति"
+
+#: mailsendjob.cpp:39
+msgid "Could not create mail transport job."
+msgstr "मेल सवारी कार्य सिर्जना गर्न सकेन ।"
+
+#: nntpjobs.cpp:100 nntpjobs.cpp:128
+msgid "Loading group list from disk..."
+msgstr "डिस्कबाट समूह सूची लोडिङ..."
+
+#: nntpjobs.cpp:102 nntpjobs.cpp:131
+msgid "Unable to read the group list file"
+msgstr "समूह सूची फाइल पढ्न असमर्थ"
+
+#: nntpjobs.cpp:108
+msgid "Writing group list to disk..."
+msgstr "डिस्कमा समूह सूची लेखन..."
+
+#: nntpjobs.cpp:111
+msgid "Unable to write the group list file"
+msgstr "समूह सूची फाइल लेख्न असमर्थ"
+
+#: nntpjobs.cpp:182
+msgid "Sorting..."
+msgstr "क्रमबद्ध गर्दैछ..."
+
+#. i18n: file: kncomposerui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: knodeui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: knreaderui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:288 rc.cpp:321
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: kncomposerui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: knodeui.rc:15
+#. i18n: ectx: Menu (edit)
+#. i18n: file: knreaderui.rc:11
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:291 rc.cpp:324
+msgid "&Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#. i18n: file: kncomposerui.rc:27
+#. i18n: ectx: Menu (attach)
+#: rc.cpp:9
+msgid "&Attach"
+msgstr "सङ्लग्न"
+
+#. i18n: file: kncomposerui.rc:33
+#. i18n: ectx: Menu (options)
+#: rc.cpp:12
+msgid "Optio&ns"
+msgstr "विकल्प"
+
+#. i18n: file: kncomposerui.rc:42
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:15
+msgid "&Tools"
+msgstr "उपकरण"
+
+#. i18n: file: kncomposerui.rc:57
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: knodeui.rc:131
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: knreaderui.rc:38
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:18 rc.cpp:318 rc.cpp:333
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: kncomposerui.rc:99
+#. i18n: ectx: Menu (spell)
+#: rc.cpp:21
+msgid "Spell Result"
+msgstr "हिज्जे परिणाम"
+
+#. i18n: file: knode.kcfg:13
+#. i18n: ectx: label, entry (autoCheckGroups), group (READNEWS)
+#: rc.cpp:24
+msgid "Check for new articles automatically"
+msgstr "नयाँ लेखका लागि स्वचालित रूपमा जाँच गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:17
+#. i18n: ectx: label, entry (maxToFetch), group (READNEWS)
+#: rc.cpp:27
+msgid "Maximum number of articles to fetch"
+msgstr "तान्नका लागि लेखका अधिकतम सङ्ख्या"
+
+#. i18n: file: knode.kcfg:21
+#. i18n: ectx: label, entry (autoMark), group (READNEWS)
+#: rc.cpp:30
+msgid "Automatically mark articles as read"
+msgstr "लेखलाई पढेका रूपमा स्वचालित रूपमा चिनो लगाउनुहोस्"
+
+#. i18n: file: knode.kcfg:25
+#. i18n: ectx: label, entry (autoMarkSeconds), group (READNEWS)
+#: rc.cpp:33
+msgid "Mark article as read after"
+msgstr "पढिएपछि लेखमा चिनो लगाउनुहोस्"
+
+#. i18n: file: knode.kcfg:29
+#. i18n: ectx: label, entry (markCrossposts), group (READNEWS)
+#: rc.cpp:36
+msgid "Mark crossposted articles as read"
+msgstr "पढेका रूपमा क्रसपोस्टेड लेखमा चिनो लगाउनुहोस्"
+
+#. i18n: file: knode.kcfg:33
+#. i18n: ectx: label, entry (smartScrolling), group (READNEWS)
+#: rc.cpp:39
+msgid "Smart scrolling"
+msgstr "छरितो स्क्रोलिङ"
+
+#. i18n: file: knode.kcfg:37
+#. i18n: ectx: label, entry (totalExpandThreads), group (READNEWS)
+#: rc.cpp:42
+msgid "Show whole thread on expanding"
+msgstr "विस्तार गर्दा सम्पूर्ण थ्रेड देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:41
+#. i18n: ectx: label, entry (defaultToExpandedThreads), group (READNEWS)
+#: rc.cpp:45
+msgid "Default to expanded threads"
+msgstr "विस्तार गरिएका थ्रेडलाई पूर्वनिर्धारण गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:45
+#. i18n: ectx: label, entry (showLines), group (READNEWS)
+#: rc.cpp:48
+msgid "Show line count column"
+msgstr "रेखा गणना स्तम्भ देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:49
+#. i18n: ectx: label, entry (showScore), group (READNEWS)
+#: rc.cpp:51
+msgid "Show score column"
+msgstr "प्राप्ताङ्क स्तम्भ देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:53
+#. i18n: ectx: label, entry (showUnread), group (READNEWS)
+#: rc.cpp:54
+msgid "Show unread count in thread"
+msgstr "थ्रेडमा नपढिएका सङ्ख्या देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:57
+#. i18n: ectx: label, entry (showThreads), group (READNEWS)
+#: rc.cpp:57
+msgid "Show Threads"
+msgstr "थ्रेड देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:63
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#. i18n: file: readnewsgeneralwidget_base.ui:168
+#. i18n: ectx: property (text), widget (QRadioButton, mStandardDateFormat)
+#: rc.cpp:60 rc.cpp:507
+msgid "Standard format"
+msgstr "मानक ढाँचा"
+
+#. i18n: file: knode.kcfg:66
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#. i18n: file: readnewsgeneralwidget_base.ui:189
+#. i18n: ectx: property (text), widget (QRadioButton, mLocalizedDateFormat)
+#: rc.cpp:63 rc.cpp:513
+msgid "Localized format"
+msgstr "स्थानीयकृत ढाँचा"
+
+#. i18n: file: knode.kcfg:69
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#. i18n: file: readnewsgeneralwidget_base.ui:175
+#. i18n: ectx: property (text), widget (QRadioButton, mFancyDateFormat)
+#: rc.cpp:66 rc.cpp:510
+msgid "Fancy format"
+msgstr "आकर्षक ढाँचा"
+
+#. i18n: file: knode.kcfg:72
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: rc.cpp:69
+msgid "ISO format"
+msgstr "ISO ढाँचा"
+
+#. i18n: file: knode.kcfg:75
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: rc.cpp:72
+msgid "Custom format"
+msgstr "अनुकूल ढाँचा"
+
+#. i18n: file: knode.kcfg:78
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: rc.cpp:75
+msgid "Date format"
+msgstr "मिति ढाँचा"
+
+#. i18n: file: knode.kcfg:82
+#. i18n: ectx: label, entry (customDateFormat), group (READNEWS)
+#: rc.cpp:78
+msgid "Custom date format"
+msgstr "अनुकूल मिति ढाँचा"
+
+#. i18n: file: knode.kcfg:112
+#. i18n: ectx: whatsthis, entry (customDateFormat), group (READNEWS)
+#: rc.cpp:81
+msgid ""
+"<!-- taken from KMail -->\n"
+"<qt><p><strong>These expressions may be used for the date:</strong></p>\n"
+"<ul>\n"
+"<li>d - the day as a number without a leading zero (1-31)</li>\n"
+"<li>dd - the day as a number with a leading zero (01-31)</li>\n"
+"<li>ddd - the abbreviated day name (Mon - Sun)</li>\n"
+"<li>dddd - the long day name (Monday - Sunday)</li>\n"
+"<li>M - the month as a number without a leading zero (1-12)</li>\n"
+"<li>MM - the month as a number with a leading zero (01-12)</li>\n"
+"<li>MMM - the abbreviated month name (Jan - Dec)</li>\n"
+"<li>MMMM - the long month name (January - December)</li>\n"
+"<li>yy - the year as a two digit number (00-99)</li>\n"
+"<li>yyyy - the year as a four digit number (0000-9999)</li>\n"
+"</ul>\n"
+"<p><strong>These expressions may be used for the time:</strong></p>\n"
+"<ul>\n"
+"<li>h - the hour without a leading zero (0-23 or 1-12 if AM/PM "
+"display)</li>\n"
+"<li>hh - the hour with a leading zero (00-23 or 01-12 if AM/PM "
+"display)</li>\n"
+"<li>m - the minutes without a leading zero (0-59)</li>\n"
+"<li>mm - the minutes with a leading zero (00-59)</li>\n"
+"<li>s - the seconds without a leading zero (0-59)</li>\n"
+"<li>ss - the seconds with a leading zero (00-59)</li>\n"
+"<li>z - the milliseconds without leading zeroes (0-999)</li>\n"
+"<li>zzz - the milliseconds with leading zeroes (000-999)</li>\n"
+"<li>AP - switch to AM/PM display. AP will be replaced by either \"AM\" or "
+"\"PM\".</li>\n"
+"<li>ap - switch to AM/PM display. ap will be replaced by either \"am\" or "
+"\"pm\".</li>\n"
+"<li>Z - time zone in numeric form (-0500)</li>\n"
+"</ul>\n"
+"<p><strong>All other input characters will be ignored.</strong></p></qt>\n"
+"      "
+msgstr ""
+"<!-- केडीई मेलबाट लिइएको -->\n"
+"<qt><p><strong>यी अभिव्यक्ति मितिका लागि प्रयोग गर्न सकिन्छ:</strong></p>\n"
+"<ul>\n"
+"<li>d - शून्यले लिडिङ नगरेको नम्बरका रूपमा दिन (१-३१)</li>\n"
+"<li>dd - शून्यले लिडिङ गरेको नम्बरका रूपमा दिन (०१-३१)</li>\n"
+"<li>ddd - दिनको संक्षिप्त पारिएको नाम (सोम - आइत)</li>\n"
+"<li>dddd - दिनको पूरा नाम (सोमबार - आइतबार)</li>\n"
+"<li>M - शून्यले लिडिङ नगरेको नम्बरका रूपमा महिना (१-१२)</li>\n"
+"<li>MM - शून्यले लिडिङ गरेको नम्बरका रूपमा महिना (०१-१२)</li>\n"
+"<li>MMM - महिनाको संक्षिप्त पारिएको नाम (जन - डिसे)</li>\n"
+"<li>MMMM - महिनाको पूरा नाम (जनवरी - डिसेटम्बर)</li>\n"
+"<li>yy - दुइ अङ्कको नम्बरका रूपमा वर्ष (००-९९)</li>\n"
+"<li>yyyy - चार अङ्क नम्बरका रूपमा वर्ष (००००-९९९९)</li>\n"
+"</ul>\n"
+"<p><strong>यी अभिव्यक्ति समयका लागि प्रयोग हुन सक्छन्:</strong></p>\n"
+"<ul>\n"
+"<li>h - शून्यले लिडिङ नगरेको घन्टा (०-२३ वा यदि पूर्वान्ह/अपरान्ह प्रदर्शन "
+"गर्ने भएमा १-१२)</li>\n"
+"<li>hh - शून्यले लिडिङ गरेको घन्टा (००-२३ वा यदि पूर्वान्ह/अपरान्ह प्रदर्शन "
+"भएमा ०१-१२)</li>\n"
+"<li>m - शून्यले लिडिङ नगरेको मिनेट (०-५९)</li>\n"
+"<li>mm - शून्यले लिडिङ गरेको मिनेट (००-५९)</li>\n"
+"<li>s - शून्यले लिडिङ नगरेको सेकेन्ड (०-५९)</li>\n"
+"<li>ss - शून्यले लिडिङ गरेको सेकेन्ड (००-५९)</li>\n"
+"<li>z - शून्यले लिडिङ नगरेको मिलिसकेन्ड (०-९९९)</li>\n"
+"<li>zzz - शून्यले लिडिङ गरेको मिलिसेकेन्ड (०००-९९९)</li>\n"
+"<li>AP - पूर्वान्ह/अपरान्ह प्रदर्शन गर्न स्विच गर्नुहोस् । AP लाई यात \"AM\" "
+"वा \"PM\" मा बदलिन्छ ।</li>\n"
+"<li>ap - पूर्वान्ह/अपरान्ह प्रदर्शन गर्न स्वीच गर्नुहोस् । ap लाई यात \"am\" "
+"वा \"pm\" मा बदलिन्छ ।</li>\n"
+"<li>Z - सङ्ख्यात्मक रूपमा समय क्षेत्र (-०५००)</li>\n"
+"</ul>\n"
+"<p><strong>अन्य सबै आगत क्यारेक्टर उपेक्षा गरिन्छन् ।</strong></p></qt>\n"
+"      "
+
+#. i18n: file: knode.kcfg:116
+#. i18n: ectx: label, entry (rewrapBody), group (READNEWS)
+#: rc.cpp:113
+msgid "Rewrap text when necessary"
+msgstr "आवश्यक भएमा पाठ फेरि बेर्नुहोस्"
+
+#. i18n: file: knode.kcfg:120
+#. i18n: ectx: label, entry (removeTrailingNewlines), group (READNEWS)
+#: rc.cpp:116
+msgid "Remove trailing empty lines"
+msgstr "ट्रेलिङ खाली लाइन हटाउनुहोस्"
+
+#. i18n: file: knode.kcfg:124
+#. i18n: ectx: label, entry (showSignature), group (READNEWS)
+#: rc.cpp:119
+msgid "Show signature"
+msgstr "हस्ताक्षर देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:128
+#. i18n: ectx: label, entry (interpretFormatTags), group (READNEWS)
+#: rc.cpp:122
+msgid "Interpret emoticons and other formatting"
+msgstr ""
+
+#. i18n: file: knode.kcfg:132
+#. i18n: ectx: label, entry (quoteCharacters), group (READNEWS)
+#: rc.cpp:125
+msgid "Recognized quote characters"
+msgstr "पहिचान गरिएका उद्धरण क्यारेक्टर"
+
+#. i18n: file: knode.kcfg:136
+#. i18n: ectx: label, entry (openAttachmentsOnClick), group (READNEWS)
+#: rc.cpp:128
+msgid "Open attachments on click"
+msgstr "क्लिक गर्दा सङ्लग्नता खोल्नुहोस्"
+
+#. i18n: file: knode.kcfg:140
+#. i18n: ectx: label, entry (showAlternativeContents), group (READNEWS)
+#: rc.cpp:131
+msgid "Show alternative contents as attachments"
+msgstr "सङ्ग्नताका रूपमा वैकल्पिक सामाग्री देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:144
+#. i18n: ectx: label, entry (useFixedFont), group (READNEWS)
+#: rc.cpp:134
+msgid "Use fixed font"
+msgstr "निश्चित फन्ट प्रयोग गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:148
+#. i18n: ectx: label, entry (showRefBar), group (READNEWS)
+#. i18n: file: readnewsviewerwidget_base.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRefBar)
+#: rc.cpp:137 rc.cpp:558
+msgid "Show reference bar"
+msgstr "सन्दर्भ पट्टी देखाउनुहोस्"
+
+#. i18n: file: knode.kcfg:152
+#. i18n: ectx: label, entry (alwaysShowHTML), group (READNEWS)
+#. i18n: file: readnewsviewerwidget_base.ui:120
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowHTML)
+#: rc.cpp:140 rc.cpp:579
+msgid "Prefer HTML to plain text"
+msgstr "सादा पाठलाई HTML पेश गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:156
+#. i18n: ectx: label, entry (allowExternalReferences), group (READNEWS)
+#. i18n: file: readnewsviewerwidget_base.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowExternalReferences)
+#: rc.cpp:143 rc.cpp:582
+msgid "Allow external references in HTML"
+msgstr ""
+
+#. i18n: file: knode.kcfg:163
+#. i18n: ectx: label, entry (markAllReadGoNext), group (READNEWS_NAVIGATION)
+#: rc.cpp:146
+msgid "Mark group as read goes to next group"
+msgstr "समूहलाई पढिएको रूपमा चिनो लगाउदा पछिल्लो समूहमा जान्छ"
+
+#. i18n: file: knode.kcfg:168
+#. i18n: ectx: label, entry (markThreadReadGoNext), group (READNEWS_NAVIGATION)
+#: rc.cpp:150
+msgid "Mark thread as read goes to next unread thread"
+msgstr "थ्रेडलाई पढिएको रूपमा चिनो लगाउदा पछिल्लो नपढिएको थ्रेडमा जान्छ"
+
+#. i18n: file: knode.kcfg:172
+#. i18n: ectx: label, entry (markThreadReadCloseThread), group (READNEWS_NAVIGATION)
+#: rc.cpp:153
+msgid "Mark thread as read closes the current thread"
+msgstr "थ्रेडलाई पढिएको रूपमा चिनो लगाउदा हालको थ्रेड बन्द गर्दछ"
+
+#. i18n: file: knode.kcfg:176
+#. i18n: ectx: label, entry (ignoreThreadGoNext), group (READNEWS_NAVIGATION)
+#: rc.cpp:156
+msgid "Ignore thread goes to the next unread thread"
+msgstr "थ्रेडलाई उपेक्षा गर्दा पछिल्लो नपढिएको थ्रेडमा जान्छ"
+
+#. i18n: file: knode.kcfg:180
+#. i18n: ectx: label, entry (ignoreThreadCloseThread), group (READNEWS_NAVIGATION)
+#: rc.cpp:159
+msgid "Ignore thread closes the current thread"
+msgstr "थ्रेडलाई उपेक्षा गर्दा हालको थ्रेड बन्द गर्दछ"
+
+#. i18n: file: knode.kcfg:184
+#. i18n: ectx: label, entry (leaveGroupMarkAsRead), group (READNEWS_NAVIGATION)
+#: rc.cpp:162
+msgid "Leaving a group marks all articles as read"
+msgstr "समूहलाई छोड्दा सबै लेखलाई पढेका रूपमा चिनो लगाउछ"
+
+#. i18n: file: knode.kcfg:191
+#. i18n: ectx: label, entry (ignoredThreshold), group (SCORING)
+#: rc.cpp:165
+msgid "Default score for ignored threads"
+msgstr "उपेक्षित थ्रेडका लागि पूर्वनिर्धारित प्राप्ताङ्क"
+
+#. i18n: file: knode.kcfg:195
+#. i18n: ectx: label, entry (watchedThreshold), group (SCORING)
+#: rc.cpp:168
+msgid "Default score for watched threads"
+msgstr "हेरिएका थ्रेडका लागि पूर्वनिर्धारित प्राप्ताङ्क"
+
+#. i18n: file: knode.kcfg:202
+#. i18n: ectx: label, entry (collCacheSize), group (CACHE)
+#: rc.cpp:171
+msgid "Cache size for headers"
+msgstr "हेडरका लागि क्यास साइज"
+
+#. i18n: file: knode.kcfg:206
+#. i18n: ectx: label, entry (artCacheSize), group (CACHE)
+#: rc.cpp:174
+msgid "Cache size for articles"
+msgstr "लेखका लागि क्यास साइज"
+
+#. i18n: file: knode.kcfg:214
+#. i18n: ectx: label, entry (UseOwnCharset), group (POSTNEWS)
+#: rc.cpp:177
+msgid "Use own default charset when replying"
+msgstr "जवाफ दिदा आफ्नो पूर्वनिर्धारित चारसेट प्रयोग गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:218
+#. i18n: ectx: label, entry (hostname), group (POSTNEWS)
+#: rc.cpp:180
+msgid "Host name used to generate the message ID."
+msgstr ""
+
+#. i18n: file: knode.kcfg:221
+#. i18n: ectx: label, entry (generateMessageID), group (POSTNEWS)
+#: rc.cpp:183
+msgid "Generate message-id"
+msgstr "सन्देश आईडी उत्पन्न गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:225
+#. i18n: ectx: label, entry (noUserAgent), group (POSTNEWS)
+#: rc.cpp:186
+msgid "Do not add the \"User-Agent\" identification header"
+msgstr "\"प्रयोगकर्ता-अभिकर्ता\" परिचय हेडर नथप्नुहोस्"
+
+#. i18n: file: knode.kcfg:229
+#. i18n: ectx: label, entry (useExternalMailer), group (POSTNEWS)
+#: rc.cpp:189
+msgid "Use external mailer"
+msgstr "बाह्य मेलर प्रयोग गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:233
+#. i18n: ectx: label, entry (allow8BitBody), group (POSTNEWS)
+#: rc.cpp:192
+msgid "Allow 8-bit encoding"
+msgstr "8-बिट सङ्केतन स्वीकार गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:237
+#. i18n: ectx: label, entry (Charset), group (POSTNEWS)
+#: rc.cpp:195
+msgid "Charset"
+msgstr "चारसेट"
+
+#. i18n: file: knode.kcfg:241
+#. i18n: ectx: label, entry (wordWrap), group (POSTNEWS)
+#: rc.cpp:198
+msgid "Word wrap at column"
+msgstr "स्तम्भमा शब्द बेराइ"
+
+#. i18n: file: knode.kcfg:245
+#. i18n: ectx: label, entry (autoSpellChecking), group (POSTNEWS)
+#: rc.cpp:201
+msgid "Automatic Spellchecking"
+msgstr ""
+
+#. i18n: file: knode.kcfg:249
+#. i18n: ectx: label, entry (maxLineLength), group (POSTNEWS)
+#: rc.cpp:204
+msgid "Maximum line length if word wrap is enabled"
+msgstr "शब्द बेराइ सक्षम पार्दाको अधिकतम लाइन लम्बाइ"
+
+#. i18n: file: knode.kcfg:253
+#. i18n: ectx: label, entry (appendOwnSignature), group (POSTNEWS)
+#: rc.cpp:207
+msgid "Append own signature automatically"
+msgstr "आफ्नो हस्ताक्षर स्वचालित रूपमा थप्नुहोस्"
+
+#. i18n: file: knode.kcfg:257
+#. i18n: ectx: label, entry (rewrap), group (POSTNEWS)
+#: rc.cpp:210
+msgid "Rewrap quoted text automatically"
+msgstr "उद्धरण गरिएको पाठ स्वचालित रूपमा फेरि बर्नुहोस्"
+
+#. i18n: file: knode.kcfg:261
+#. i18n: ectx: label, entry (includeSignature), group (POSTNEWS)
+#: rc.cpp:213
+msgid "Include the original author's signature in replies"
+msgstr "जवाफमा मौलिक लेखकको हस्ताक्षर सम्मिलित गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:265
+#. i18n: ectx: label, entry (cursorOnTop), group (POSTNEWS)
+#: rc.cpp:216
+msgid "Put the cursor below the introduction phrase"
+msgstr "परिचय वाक्यांशको तल कर्सर राख्नुहोस्"
+
+#. i18n: file: knode.kcfg:269
+#. i18n: ectx: label, entry (useExternalEditor), group (POSTNEWS)
+#: rc.cpp:219
+msgid "Start external editor automatically"
+msgstr "बाह्य सम्पादक स्वचालित रूपमा सुरुआत गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:273
+#. i18n: ectx: label, entry (Intro), group (POSTNEWS)
+#: rc.cpp:222
+msgid "Introduction phrase"
+msgstr "परिचय वाक्यांश"
+
+#. i18n: file: knode.kcfg:277
+#. i18n: ectx: label, entry (externalEditor), group (POSTNEWS)
+#: rc.cpp:225
+msgid "Path to external editor"
+msgstr "बाह्य सम्पादकलाई मार्ग"
+
+#. i18n: file: knode.kcfg:285
+#. i18n: ectx: label, entry (useCustomColors), group (VISUAL_APPEARANCE)
+#: rc.cpp:228
+msgid "Use custom colors"
+msgstr "अनुकूल रङ प्रयोग गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:289
+#. i18n: ectx: label, entry (backgroundColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:231
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#. i18n: file: knode.kcfg:293
+#. i18n: ectx: label, entry (alternateBackgroundColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:234
+msgid "Alternate Background"
+msgstr "वैकल्पिक पृष्ठभूमि"
+
+#. i18n: file: knode.kcfg:297
+#. i18n: ectx: label, entry (textColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:237
+msgid "Normal Text"
+msgstr "सामान्य पाठ"
+
+#. i18n: file: knode.kcfg:307
+#. i18n: ectx: label, entry (linkColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:240
+msgid "Link"
+msgstr "लिङ्क"
+
+#. i18n: file: knode.kcfg:311
+#. i18n: ectx: label, entry (readThreadColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:243
+msgid "Read Thread"
+msgstr "थ्रेड पढ्नुहोस्"
+
+#. i18n: file: knode.kcfg:315
+#. i18n: ectx: label, entry (unreadThreadColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:246
+msgid "Unread Thread"
+msgstr "थ्रेड पढ्नबाट हटाउनुहोस्"
+
+#. i18n: file: knode.kcfg:319
+#. i18n: ectx: label, entry (readArticleColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:249
+msgid "Read Article"
+msgstr "लेख पढ्नुहोस्"
+
+#. i18n: file: knode.kcfg:323
+#. i18n: ectx: label, entry (unreadArticleColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:252
+msgid "Unread Article"
+msgstr "लेख पढ्नबाट हटाउनुहोस्"
+
+#. i18n: file: knode.kcfg:327
+#. i18n: ectx: label, entry (signOkKeyOkColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:255
+msgid "Valid Signature with Trusted Key"
+msgstr "विश्वाशिला कुञ्जीसँग वैद्य हस्ताक्षर"
+
+#. i18n: file: knode.kcfg:331
+#. i18n: ectx: label, entry (signOkKeyBadColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:258
+msgid "Valid Signature with Untrusted Key"
+msgstr "अविश्वाशिला कुञ्जीसँग वैद्य हस्ताक्षर"
+
+#. i18n: file: knode.kcfg:335
+#. i18n: ectx: label, entry (signWarnColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:261
+msgid "Unchecked Signature"
+msgstr "जाँच नगरिएका हस्ताक्षर"
+
+#. i18n: file: knode.kcfg:339
+#. i18n: ectx: label, entry (signErrColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:264
+msgid "Bad Signature"
+msgstr "गलत हस्ताक्षर"
+
+#. i18n: file: knode.kcfg:343
+#. i18n: ectx: label, entry (htmlWarningColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:267
+msgid "HTML Message Warning"
+msgstr "HTML सन्देश चेतावनी"
+
+#. i18n: file: knode.kcfg:348
+#. i18n: ectx: label, entry (useCustomFonts), group (VISUAL_APPEARANCE)
+#: rc.cpp:270
+msgid "Use custom fonts"
+msgstr "अनुकूल फन्ट प्रयोग गर्नुहोस्"
+
+#. i18n: file: knode.kcfg:352
+#. i18n: ectx: label, entry (articleFont), group (VISUAL_APPEARANCE)
+#: rc.cpp:273
+msgid "Article Body"
+msgstr "लेख मुख्य भाग"
+
+#. i18n: file: knode.kcfg:355
+#. i18n: ectx: label, entry (articleFixedFont), group (VISUAL_APPEARANCE)
+#: rc.cpp:276
+msgid "Article Body (Fixed)"
+msgstr "लेख मुख्य भाग (निश्चित)"
+
+#. i18n: file: knode.kcfg:363
+#. i18n: ectx: label, entry (groupListFont), group (VISUAL_APPEARANCE)
+#: rc.cpp:282
+msgid "Group List"
+msgstr "समूह सूची"
+
+#. i18n: file: knode.kcfg:366
+#. i18n: ectx: label, entry (articleListFont), group (VISUAL_APPEARANCE)
+#. i18n: file: readnewsgeneralwidget_base.ui:105
+#. i18n: ectx: property (title), widget (QGroupBox, articleListBox)
+#: rc.cpp:285 rc.cpp:483
+msgid "Article List"
+msgstr "लेख सूची"
+
+#. i18n: file: knodeui.rc:24
+#. i18n: ectx: Menu (view)
+#. i18n: file: knreaderui.rc:16
+#. i18n: ectx: Menu (view)
+#: rc.cpp:294 rc.cpp:327
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: knodeui.rc:45
+#. i18n: ectx: Menu (go)
+#: rc.cpp:297
+msgid "&Go"
+msgstr "जानुहोस्"
+
+#. i18n: file: knodeui.rc:55
+#. i18n: ectx: Menu (account)
+#: rc.cpp:300
+msgid "A&ccount"
+msgstr "खाता"
+
+#. i18n: file: knodeui.rc:64
+#. i18n: ectx: Menu (group)
+#: rc.cpp:303
+msgid "G&roup"
+msgstr "समूह"
+
+#. i18n: file: knodeui.rc:77
+#. i18n: ectx: Menu (folder)
+#: rc.cpp:306
+msgid "Fol&der"
+msgstr "फोल्डर"
+
+#. i18n: file: knodeui.rc:91
+#. i18n: ectx: Menu (article)
+#. i18n: file: knreaderui.rc:28
+#. i18n: ectx: Menu (article)
+#: rc.cpp:309 rc.cpp:330
+msgid "&Article"
+msgstr "लेख"
+
+#. i18n: file: knodeui.rc:111
+#. i18n: ectx: Menu (scoring)
+#: rc.cpp:312
+msgid "Sc&oring"
+msgstr "प्राप्ताङ्क"
+
+#. i18n: file: knodeui.rc:121
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:315
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: nntpaccountdialog_base.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, mIntervalChecking)
+#: rc.cpp:336
+msgid "Enable &interval news checking"
+msgstr "समाचार जाँच अन्तराल सक्षम पार्नुहोस्"
+
+#. i18n: file: nntpaccountdialog_base.ui:62
+#. i18n: ectx: property (text), widget (QLabel, mIntervalLabel)
+#: rc.cpp:339
+msgid "Check inter&val:"
+msgstr "अन्तराल जाँच गर्नुहोस्:"
+
+#. i18n: file: nntpaccountdialog_base.ui:85
+#. i18n: ectx: property (text), widget (QCheckBox, mFetchDesc)
+#: rc.cpp:342
+msgid "Fetch group descriptions"
+msgstr "समूह वर्णन तान्नुहोस्"
+
+#. i18n: file: nntpaccountdialog_base.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, mLogin)
+#: rc.cpp:345
+msgid "Server requires &authentication"
+msgstr "सर्भरलाई प्रमाणीकरण आवश्यक हुन्छ"
+
+#. i18n: file: nntpaccountdialog_base.ui:125
+#. i18n: ectx: property (text), widget (QLabel, mPasswordLabel)
+#: rc.cpp:348
+msgid "Pass&word:"
+msgstr "पासवर्ड:"
+
+#. i18n: file: nntpaccountdialog_base.ui:138
+#. i18n: ectx: property (text), widget (QLabel, mUserLabel)
+#: rc.cpp:351
+msgid "&User:"
+msgstr "प्रयोगकर्ता:"
+
+#. i18n: file: nntpaccountdialog_base.ui:148
+#. i18n: ectx: property (title), widget (QGroupBox, mEncGroup)
+#: rc.cpp:354
+msgid "Encryption"
+msgstr "गुप्तिकरण"
+
+#. i18n: file: nntpaccountdialog_base.ui:160
+#. i18n: ectx: property (text), widget (QRadioButton, mEncNone)
+#: rc.cpp:357
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#. i18n: file: nntpaccountdialog_base.ui:170
+#. i18n: ectx: property (text), widget (QRadioButton, mEncSSL)
+#: rc.cpp:360
+msgid "SSL"
+msgstr "SSL"
+
+#. i18n: file: nntpaccountdialog_base.ui:180
+#. i18n: ectx: property (text), widget (QRadioButton, mEncTLS)
+#: rc.cpp:363
+msgid "TLS"
+msgstr "TLS"
+
+#. i18n: file: nntpaccountdialog_base.ui:203
+#. i18n: ectx: property (text), widget (QLabel, mServerLabel)
+#: rc.cpp:369
+msgid "&Server:"
+msgstr "सर्भर:"
+
+#. i18n: file: nntpaccountdialog_base.ui:213
+#. i18n: ectx: property (text), widget (QLabel, mPortLabel)
+#: rc.cpp:372
+msgid "&Port:"
+msgstr "पोर्ट:"
+
+#. i18n: file: nntpaccountlistwidget_base.ui:55
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#. i18n: file: postnewstechnicalwidget_base.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#: rc.cpp:375 rc.cpp:458
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#. i18n: file: nntpaccountlistwidget_base.ui:62
+#. i18n: ectx: property (text), widget (QPushButton, mEditButton)
+#. i18n: file: postnewstechnicalwidget_base.ui:120
+#. i18n: ectx: property (text), widget (QPushButton, mEditButton)
+#: rc.cpp:378 rc.cpp:452
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#. i18n: file: nntpaccountlistwidget_base.ui:76
+#. i18n: ectx: property (text), widget (QPushButton, mSubscribeButton)
+#: rc.cpp:384
+msgid "&Subscribe..."
+msgstr "सदस्य बन्नुहोस्..."
+
+#. i18n: file: postnewscomposerwidget_base.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wordWrap)
+#: rc.cpp:390
+msgid "Word &wrap at column:"
+msgstr "स्तम्भमा शब्द बेराई:"
+
+#. i18n: file: postnewscomposerwidget_base.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_appendOwnSignature)
+#: rc.cpp:393
+msgid "Appe&nd signature automatically"
+msgstr "हस्ताक्षर स्वचालित रूपमा थप्नुहोस्"
+
+#. i18n: file: postnewscomposerwidget_base.ui:55
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:396
+msgid "Reply"
+msgstr "जवाफ दिनुहोस्"
+
+#. i18n: file: postnewscomposerwidget_base.ui:72
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: rc.cpp:399
+msgid "&Introduction phrase:"
+msgstr "परिचय वाक्यांश:"
+
+#. i18n: file: postnewscomposerwidget_base.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: rc.cpp:403
+#, no-c-format
+msgid ""
+"<qt>Placeholders: <b>%NAME</b>=sender's name, <b>%EMAIL</b>=sender's "
+"address,<br><b>%DATE</b>=date, <b>%MSID</b>=message-id, "
+"<b>%MSIDX</b>=message-id without angle brackets, <b>%GROUP</b>=group name, "
+"<b>%L</b>=line break</qt>"
+msgstr ""
+"<qt>प्लेसहोल्डर: <b>%NAME</b>=प्रेषकको नाम, <b>%EMAIL</b>=प्रेषकको "
+"ठेगाना,<br><b>%DATE</b>=मिति, <b>%MSID</b>=सन्देश आईडी, <b>%MSIDX</b>=कोणीय "
+"कोष्ठक नभएको सन्देश आईडी, <b>%GROUP</b>=समूह नाम, <b>%L</b>=लाइन "
+"विच्छेदन</qt>"
+
+#. i18n: file: postnewscomposerwidget_base.ui:102
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrap)
+#: rc.cpp:406
+msgid "Rewrap quoted te&xt automatically"
+msgstr "उद्धरण गरिएका पाठ स्वचालित रूपमा पुन: बर्नुहोस्"
+
+#. i18n: file: postnewscomposerwidget_base.ui:109
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_includeSignature)
+#: rc.cpp:409
+msgid "Include the a&uthor's signature"
+msgstr "लेखकको हस्ताक्षर सम्मिलित गर्नुहोस्"
+
+#. i18n: file: postnewscomposerwidget_base.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_cursorOnTop)
+#: rc.cpp:412
+msgid "Put the cursor &below the introduction phrase"
+msgstr "परिचय वाक्यांश तल कर्सर राख्नुहोस्"
+
+#. i18n: file: postnewscomposerwidget_base.ui:128
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:415
+msgid "External Editor"
+msgstr "बाह्य सम्पादक"
+
+#. i18n: file: postnewscomposerwidget_base.ui:140
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useExternalEditor)
+#: rc.cpp:418
+msgid "Start exte&rnal editor automatically"
+msgstr "बाह्य सम्पादक स्वचालित रूपमा सुरुआत गर्नुहोस्"
+
+#. i18n: file: postnewscomposerwidget_base.ui:147
+#. i18n: ectx: property (text), widget (QLabel, label4)
+#: rc.cpp:422
+#, no-c-format
+msgid "<qt><b>%f</b> will be replaced with the filename to edit</qt>"
+msgstr "<qt><b>%f</b> सम्पादन गरिने फाइलनामसँग बदलिन्छ</qt>"
+
+#. i18n: file: postnewscomposerwidget_base.ui:161
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#: rc.cpp:425
+msgid "Specify editor:"
+msgstr "सम्पादक निर्दिष्ट गर्नुहोस्:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_generateMessageID)
+#: rc.cpp:431
+msgid "&Generate message-id"
+msgstr "सन्देश आईडी उत्पन्न गर्नुहोस्"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:52
+#. i18n: ectx: property (text), widget (QLabel, mHostLabel)
+#: rc.cpp:434
+msgid "Ho&st name:"
+msgstr "होस्ट नाम:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:437
+msgid "Enco&ding:"
+msgstr "सङ्केतन:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseOwnCharset)
+#: rc.cpp:440
+msgid "Use o&wn default charset when replying"
+msgstr "जवाफ दिदा आफ्नो पूर्वनिर्धारित चारसेट प्रयोग गर्नुहोस्"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:443
+msgid "Cha&rset:"
+msgstr "चारसेट:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:98
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:446
+msgid "Header"
+msgstr "हेडर"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_noUserAgent)
+#: rc.cpp:449
+msgid "Do not add the \"&User-Agent\" identification header"
+msgstr "\"प्रयोगकर्ता-अभिकर्ता\" परिचय हेडर नथप्नुहोस्"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: rc.cpp:455
+msgid "Dele&te"
+msgstr "मेट्नुहोस्"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:141
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:462
+#, no-c-format
+msgid ""
+"<qt>Placeholders for replies: <b>%NAME</b>=sender's name, "
+"<b>%EMAIL</b>=sender's address</qt>"
+msgstr ""
+"<qt>जवाफका लागि प्लेसहोल्डर: <b>%NAME</b>=प्रेषकको नाम, "
+"<b>%EMAIL</b>=प्रेषकको ठेगाना</qt>"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, articleHandlingBox)
+#: rc.cpp:465
+msgid "Article Handling"
+msgstr "लेख ह्यान्डलिङ"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:44
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCheckGroups)
+#: rc.cpp:468
+msgid "Check for new articles a&utomatically"
+msgstr "नयाँ लेखको स्वचालित रूपमा जाँच गर्नुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:471
+msgid "&Maximum number of articles to fetch:"
+msgstr "तानिने लेखको अधिकतम सङ्ख्या:"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:73
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoMark)
+#: rc.cpp:474
+msgid "Mar&k article as read after:"
+msgstr "पढेपछि लेखमा चिनो लगाउनुहोस्:"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:83
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_autoMarkSeconds)
+#: rc.cpp:477
+msgid "sec"
+msgstr "सेकेन्ड"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markCrossposts)
+#: rc.cpp:480
+msgid "Mark c&rossposted articles as read"
+msgstr "पढिएका रूपमा क्रसस्पोटेड लेखलाई चिनो लगाउनुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:117
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_defaultToExpandedThreads)
+#: rc.cpp:486
+msgid "Default to e&xpanded threads"
+msgstr "विस्तार गरिएका थ्रेडलाई पूर्वनिर्धारण गर्नुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:124
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_smartScrolling)
+#: rc.cpp:489
+msgid "Smart scrolli&ng"
+msgstr "छरितो स्क्रोलिङ"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_totalExpandThreads)
+#: rc.cpp:492
+msgid "Show &whole thread on expanding"
+msgstr "विस्तार गर्दा सम्पूर्ण थ्रेड देखाउनुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:138
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showScore)
+#: rc.cpp:495
+msgid "Show article &score"
+msgstr "लेख स्रोत देखाउनुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:145
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showLines)
+#: rc.cpp:498
+msgid "Show &line count"
+msgstr "रेखा गणना देखाउनुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showUnread)
+#: rc.cpp:501
+msgid "Show unread count in &thread"
+msgstr "थ्रेडमा नपढिएका सङ्ख्या देखाउनुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:162
+#. i18n: ectx: property (title), widget (QGroupBox, dateFormatBox)
+#: rc.cpp:504
+msgid "Date Display"
+msgstr "मिति प्रदर्शन गर्नुहोस्"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:196
+#. i18n: ectx: property (text), widget (QRadioButton, mCustomDateFormat)
+#: rc.cpp:516
+msgid "Custom format (Shift+F1 for help):"
+msgstr "अनुकूल ढाँचा (Shift+F1 for help):"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, markAllReadBox)
+#: rc.cpp:519
+msgid "\"Mark All as Read\" Triggers Following Actions"
+msgstr "\"पढेको रूपमा सबैलाई चिनो लगाउनुहोस्\" ले निम्न कार्य ट्रिगर गर्छ"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markAllReadGoNext)
+#: rc.cpp:522
+msgid "&Switch to the next group"
+msgstr "पछिल्लो समूहमा स्विच गर्नुहोस्"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, markThreadReadBox)
+#: rc.cpp:525
+msgid "\"Mark Thread as Read\" Triggers Following Actions"
+msgstr "\"पढेको रूपमा थ्रेडलाई चिनो लगाउनुहोस्\" ले निम्न कार्य ट्रिगर गर्छ"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadCloseThread)
+#: rc.cpp:528
+msgid "Clos&e the current thread"
+msgstr "हालको थ्रेड बन्द गर्नुहोस्"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadGoNext)
+#: rc.cpp:531
+msgid "Go &to the next unread thread"
+msgstr "नपढिएको पछिल्लो थ्रेडमा जानुहोस्"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:74
+#. i18n: ectx: property (title), widget (QGroupBox, ignoreThreadBox)
+#: rc.cpp:534
+msgid "\"Ignore Thread\" Triggers Following Actions"
+msgstr "\"थ्रेड उपेक्षा गर्नुहोस्\" ले निम्न कार्य ट्रिगर गर्छ"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:86
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadCloseThread)
+#: rc.cpp:537
+msgid "Close the cu&rrent thread"
+msgstr "हालको थ्रेड बन्द गर्नुहोस्"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:93
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadGoNext)
+#: rc.cpp:540
+msgid "Go to the next &unread thread"
+msgstr "नपढिएको पछिल्लो थ्रेडमा जानुहोस्"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:103
+#. i18n: ectx: property (title), widget (QGroupBox, leaveGroupBox)
+#: rc.cpp:543
+msgid "Leaving Group Triggers Following Actions"
+msgstr ""
+
+#. i18n: file: readnewsnavigationwidget_base.ui:115
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_leaveGroupMarkAsRead)
+#: rc.cpp:546
+msgid "Mark all articles as read"
+msgstr "सबै लेखलाई पढेको रूपमा चिनो लगाउनुहोस्"
+
+#. i18n: file: readnewsviewerwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, appearanceBox)
+#: rc.cpp:549
+msgid "Appearance"
+msgstr "देखावट"
+
+#. i18n: file: readnewsviewerwidget_base.ui:38
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:552
+msgid "Recognized q&uote characters:"
+msgstr "पहिचान गरिएको उद्धरण क्यारेक्टर:"
+
+#. i18n: file: readnewsviewerwidget_base.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeTrailingNewlines)
+#: rc.cpp:555
+msgid "Re&move trailing empty lines"
+msgstr "ट्रेलिङ खाली लाइन हटाउनुहोस्"
+
+#. i18n: file: readnewsviewerwidget_base.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSignature)
+#: rc.cpp:561
+msgid "Show sig&nature"
+msgstr "हस्ताक्षर देखाउनुहोस्"
+
+#. i18n: file: readnewsviewerwidget_base.ui:69
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrapBody)
+#: rc.cpp:564
+msgid "Re&wrap text when necessary"
+msgstr "आवश्यक भएमा पाठ पुन: बेर्नुहोस्"
+
+#. i18n: file: readnewsviewerwidget_base.ui:79
+#. i18n: ectx: property (title), widget (QGroupBox, attachmentBox)
+#: rc.cpp:567
+msgid "Attachments"
+msgstr "सङ्लग्नता"
+
+#. i18n: file: readnewsviewerwidget_base.ui:91
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openAttachmentsOnClick)
+#: rc.cpp:570
+msgid "Open a&ttachments on click"
+msgstr "क्लिक गर्दा सङ्लग्नता खोल्नुहोस्"
+
+#. i18n: file: readnewsviewerwidget_base.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAlternativeContents)
+#: rc.cpp:573
+msgid "Show alternati&ve contents as attachments"
+msgstr "सङ्ग्नताका रूपमा वैकल्पिक सामाग्री देखाउनुहोस्"
+
+#. i18n: file: readnewsviewerwidget_base.ui:108
+#. i18n: ectx: property (title), widget (QGroupBox, securityBox)
+#: rc.cpp:576
+msgid "Security"
+msgstr "सुरक्षा"
+
+#: rc.cpp:583
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:584
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, shyamkrishna_bal@yahoo.com,,,"
+
+#: scheduler.cpp:50
+msgid "Internal Error: No account set for this job."
+msgstr "आन्तरिक त्रुटि: यस कार्यका लागि खाता सेट गरिएको छैन ।"
+
+#: scheduler.cpp:64
+msgid "Waiting for KWallet..."
+msgstr "केडीई वालेटलाई प्रतिक्षा गर्दैछ..."
+
+#: scheduler.cpp:177
+msgid ""
+"You need to supply a username and a\n"
+"password to access this server"
+msgstr ""
+"तपाईँले यो सर्भरमा पहुँच प्राप्त गर्न प्रयोगकर्ता नाम\n"
+"र पासवर्ड दिनु आवश्यक छ"
+
+#: scheduler.cpp:178
+msgid "Authentication Failed"
+msgstr "प्रमाणिकरण असफल भयो"
+
+#: scheduler.cpp:178
+msgid "Server:"
+msgstr "सर्भर:"
+
+#: settings.cpp:27
+msgid "Quoted Text - First level"
+msgstr "उद्धरण गरिएको पाठ - पहिलो चरण"
+
+#: settings.cpp:28
+msgid "Quoted Text - Second level"
+msgstr "उद्धरण गरिएको पाठ - दोस्रो चरण"
+
+#: settings.cpp:29
+msgid "Quoted Text - Third level"
+msgstr "उद्धरण गरिएको पाठ - तेस्रो चरण"
+
+#: utilities.cpp:70
+#, kde-format
+msgid ""
+"<qt>A file named <b>%1</b> already exists.<br />Do you want to replace "
+"it?</qt>"
+msgstr ""
+
+#: utilities.cpp:71
+msgid "&Replace"
+msgstr "बदल्नुहोस्"
+
+#: utilities.cpp:346
+msgid ""
+"Unable to load/save configuration.\n"
+"Wrong permissions on home folder?\n"
+"You should close KNode now to avoid data loss."
+msgstr ""
+"कन्फिगरेसन लोड/बचत गर्न असमर्थ ।\n"
+"गृह फोल्डरमा गलत अनुमति छन् ?\n"
+"तपाईँले डेटा क्षति हटाउन केडीई नोड बन्द गर्नुपर्छ ।"
+
+#: utilities.cpp:352
+msgid "Unable to load/save file."
+msgstr "फाइल लोड/बचत गर्न असमर्थ ।"
+
+#: utilities.cpp:358
+msgid "Unable to save remote file."
+msgstr "टाढाको फाइल बचत गर्न असमर्थ ।"
+
+#: utilities.cpp:364
+msgid "Unable to create temporary file."
+msgstr "अस्थायी फाइल सिर्जना गर्न असमर्थ ।"
+
+#: knode_options.h:25
+msgid "A 'news://server/group' URL"
+msgstr "एउटा 'news://server/group' URL"

@@ -1,0 +1,223 @@
+# translation of kio_sieve.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:21+0000\n"
+"PO-Revision-Date: 2009-07-16 09:49+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 03:58+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: sieve.cpp:328
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "%1 मा जडान गर्दैछ..."
+
+#: sieve.cpp:331
+msgid "The connection to the server was lost."
+msgstr "सर्भरको जडान छुटेको थियो ।"
+
+#: sieve.cpp:343
+msgid "Server identification failed."
+msgstr "सर्भर पहिचान गर्न असफल भयो ।"
+
+#: sieve.cpp:350
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr ""
+
+#: sieve.cpp:357
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+
+#: sieve.cpp:359
+msgid "Server Does Not Advertise TLS"
+msgstr ""
+
+#: sieve.cpp:359
+msgid "&Start TLS nonetheless"
+msgstr ""
+
+#: sieve.cpp:359
+msgid "&Cancel"
+msgstr ""
+
+#: sieve.cpp:361
+msgid "TLS encryption requested, but not supported by server."
+msgstr ""
+
+#: sieve.cpp:384
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+
+#: sieve.cpp:386
+msgid "Connection Failed"
+msgstr ""
+
+#: sieve.cpp:393
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+
+#: sieve.cpp:403
+msgid "Authenticating user..."
+msgstr "प्रयोगकर्ता प्रमाणीकरण गर्दैछ..."
+
+#: sieve.cpp:406
+msgid "Authentication failed."
+msgstr "प्रमाणीकरण असफल भयो ।"
+
+#: sieve.cpp:468
+msgctxt "special command completed"
+msgid "Done."
+msgstr ""
+
+#: sieve.cpp:480
+msgid "Activating script..."
+msgstr "स्क्रिप्ट सक्रिय पार्दैछ..."
+
+#: sieve.cpp:496
+msgid "There was an error activating the script."
+msgstr "स्क्रिप्ट सक्रिय पार्दा त्यहाँ एउटा त्रुटि थियो ।"
+
+#: sieve.cpp:514
+msgid "There was an error deactivating the script."
+msgstr "स्क्रिप्ट निस्क्रिय पार्दा त्यहाँ एउटा त्रुटि थियो ।"
+
+#: sieve.cpp:542
+msgid "Sending data..."
+msgstr "डेटा पठाउदैछ..."
+
+#: sieve.cpp:559
+msgid "KIO data supply error."
+msgstr "KIO डेटा वितरणमा त्रुटि ।"
+
+#: sieve.cpp:608 sieve.cpp:1128
+msgid "Network error."
+msgstr "सञ्जाल त्रुटि ।"
+
+#: sieve.cpp:619
+msgid "Verifying upload completion..."
+msgstr "अनलोड समापन रुजु गर्दैछ..."
+
+#: sieve.cpp:645 sieve.cpp:653
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"स्क्रिप्ट सफलतापूर्वक अनलोड गर्न सकेन ।\n"
+"यो सम्भवत: स्क्रिप्टमा त्रुटिका कारणले हुन सक्छ ।\n"
+"सर्भरले प्रतिक्रिया दियो:\n"
+"%1"
+
+#: sieve.cpp:658 sieve.cpp:663
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"स्क्रिप्ट सफलतापूर्वक अनलोड गर्न सकेन ।\n"
+"स्क्रिप्टमा त्रुटि हुन सक्छ ।"
+
+#: sieve.cpp:670
+msgctxt "data upload complete"
+msgid "Done."
+msgstr ""
+
+#: sieve.cpp:698
+msgid "Retrieving data..."
+msgstr "डेटा पुन: प्राप्त गर्दैछ..."
+
+#: sieve.cpp:747
+msgid "Finishing up..."
+msgstr "फिनिसिङ गर्दैछ..."
+
+#: sieve.cpp:755
+msgid ""
+"A protocol error occurred while trying to negotiate script downloading."
+msgstr ""
+"स्क्रिप्ट डाउनलोडिङ गर्ने प्रयास गर्दा एउटा प्रोटोकल त्रुटि उत्पन्न भयो ।"
+
+#: sieve.cpp:760
+msgctxt "data retrival complete"
+msgid "Done."
+msgstr ""
+
+#: sieve.cpp:767
+msgid "Folders are not supported."
+msgstr "फोल्डर समर्थन गरिएका छैनन् ।"
+
+#: sieve.cpp:775
+msgid "Deleting file..."
+msgstr "फाइल मेट्दैछ..."
+
+#: sieve.cpp:790
+msgid "The server would not delete the file."
+msgstr "सर्भरले फाइल मेट्ने छैन ।"
+
+#: sieve.cpp:794
+msgctxt "file removal complete"
+msgid "Done."
+msgstr ""
+
+#: sieve.cpp:809
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr ""
+"कुनै वस्तुलाई chmod गर्न सकिँदैन तर 0700 (सक्रिय) वा 0600 (निस्क्रिय "
+"स्क्रिप्ट) हुनुपर्दछ ।"
+
+#: sieve.cpp:965
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "प्रमाणीकरण गर्दा एउटा त्रुटि उत्पन्न भयो: %1"
+
+#: sieve.cpp:989
+msgid "Sieve Authentication Details"
+msgstr "प्रमाणीकरण विवरण छान्नुहोस्"
+
+#: sieve.cpp:990
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"कृपया तपाईँको छनौट खाताका लागि प्रमाणीकरण विस्तृत विवरण प्रविष्ट गर्नुहोस् "
+"(सधैँ तपाईँको इमेल पासवर्डसँग समान हुन्छ):"
+
+#: sieve.cpp:1060
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"प्रमाणीकरण गर्दा एउटा प्रोटोकल त्रुटि उत्पन्न भयो ।\n"
+"%1 मा फरक प्रमाणीकरण बिधि रोज्नुहोस् ।"
+
+#: sieve.cpp:1098
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"प्रमाणीकरण असफल भयो ।\n"
+"पासवर्ड गलत हुन सक्छ ।\n"
+"सर्भरले प्रतिक्रिया दियो:\n"
+"%1"
+
+#: sieve.cpp:1179
+msgid "A protocol error occurred."
+msgstr "एउटा प्रोटोकल त्रुटि उत्पन्न भयो ।"

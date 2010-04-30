@@ -1,0 +1,106 @@
+# Nepali translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-15 19:22+0000\n"
+"PO-Revision-Date: 2010-04-06 15:41+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:48+0000\n"
+
+#: ../data/GNOME_IndicatorApplet.server.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr ""
+
+#: ../data/GNOME_IndicatorApplet.server.in.in.h:2 ../src/applet-main.c:484
+msgid "Indicator Applet"
+msgstr "सूचक एप्पलेट"
+
+#: ../data/GNOME_IndicatorAppletComplete.server.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr ""
+
+#: ../data/GNOME_IndicatorAppletComplete.server.in.in.h:2
+#: ../src/applet-main.c:490
+msgid "Indicator Applet Complete"
+msgstr ""
+
+#: ../data/GNOME_FastUserSwitchApplet.server.in.in.h:1
+#: ../src/applet-main.c:371
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+
+#: ../data/GNOME_FastUserSwitchApplet.server.in.in.h:2
+#: ../src/applet-main.c:487
+msgid "Indicator Applet Session"
+msgstr ""
+
+#: ../data/indicator-applet.schemas.in.h:1
+#, fuzzy
+msgid "Building up install directories. Need a dummy value."
+msgstr "इन्सटल डाइरेक्टरीहरु निर्माण गर्दै। डमी मान चाहिन्छ।"
+
+#: ../data/indicator-applet.schemas.in.h:2
+msgid "Setting up basic GConf"
+msgstr ""
+
+#: ../src/applet-main.c:352
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"यो प्रोग्राम स्वतन्त्र सफ्टवेयर हो: तपाई यसलाई पुन: वितरण गर्न सक्नुहुन्छ "
+"र/अथवा स्वतन्त्र सफ्टवेयर संस्थानद्वारा प्रकाशित जीनयू सामान्य सर्वसाधारण "
+"लाइसेंस संस्करण ३ का सर्त अनुसार परिवर्तन गर्न सक्नुहुन्छ।"
+
+#: ../src/applet-main.c:355
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+
+#: ../src/applet-main.c:359
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"तपाईले यो प्रोग्रामसित जीनयू सामान्य सर्वसाधारण लाइसेंसको प्रतिलिपि पाएको "
+"हुनुपर्छ। यदि होइन भने, <http://www.gnu.org/licenses/> हेर्नुहोस्।"
+
+#: ../src/applet-main.c:373
+msgid "An applet to hold all of the system indicators."
+msgstr ""
+
+#: ../src/applet-main.c:378
+msgid "translator-credits"
+msgstr ""
+"Jitendra Harlalka <jitendra@otrc.gov.np>\n"
+"Launchpad Contributions:\n"
+"  Rabi Poudyal https://launchpad.net/~rabipoudel"
+
+#: ../src/applet-main.c:382
+msgid "Indicator Applet Website"
+msgstr ""
+
+#: ../src/applet-main.c:457
+msgid "_About"
+msgstr "बारेमा (_A)"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:581
+msgid "No Indicators"
+msgstr ""

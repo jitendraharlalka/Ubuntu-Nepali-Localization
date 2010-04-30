@@ -1,0 +1,752 @@
+# translation of krfb.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Ishwor Sharma <sharmabeeshwar@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: krfb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-18 05:54+0000\n"
+"PO-Revision-Date: 2009-07-16 09:51+0000\n"
+"Last-Translator: Ishwor Sharma <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:26+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: connectioncontroller.cpp:111
+#, kde-format
+msgid "Refused uninvited connection attempt from %1"
+msgstr ""
+
+#: connectioncontroller.cpp:122
+#, kde-format
+msgid "Accepted uninvited connection from %1"
+msgstr "%1 बाट निमन्त्रणा नगरिएको जडान स्वीकार गरियो"
+
+#: connectioncontroller.cpp:130
+#, kde-format
+msgid "Received connection from %1, on hold (waiting for confirmation)"
+msgstr "%1 बाट जडान प्राप्त भयो, होल्डमा (यकीनका लागि प्रतिक्षा गर्दैछ)"
+
+#: connectioncontroller.cpp:173 connectioncontroller.cpp:177
+#, kde-format
+msgid "Failed login attempt from %1: wrong password"
+msgstr "%1 बाट लगइन प्रयास असफल भयो: गलत पासवर्ड"
+
+#: connectiondialog.cpp:32
+msgid "New Connection"
+msgstr "नयाँ जडान"
+
+#: connectiondialog.cpp:45
+msgid "Accept Connection"
+msgstr "जडान स्वीकार गर्नुहोस्"
+
+#: connectiondialog.cpp:49
+msgid "Refuse Connection"
+msgstr "जडान अस्वीकार गर्नुहोस्"
+
+#: invitedialog.cpp:34 manageinvitationsdialog.cpp:57
+msgid "Invitation"
+msgstr "निमन्त्रणा"
+
+#. i18n: file: invitewidget.ui:125
+#. i18n: ectx: property (text), widget (QPushButton, btnManageInvite)
+#: invitedialog.cpp:72 rc.cpp:61
+#, kde-format, no-c-format
+msgid "&Manage Invitations (%1)..."
+msgstr "निमन्त्रणा (%1) प्रबन्ध गर्नुहोस्..."
+
+#: invitedialog.cpp:78
+msgid ""
+"An invitation creates a one-time password that allows the receiver to "
+"connect to your desktop.\n"
+"It is valid for only one successful connection and will expire after an hour "
+"if it has not been used. \n"
+"When somebody connects to your computer a dialog will appear and ask you for "
+"permission.\n"
+" The connection will not be established before you accept it. In this dialog "
+"you can also\n"
+" restrict the other person to view your desktop only, without the ability to "
+"move your\n"
+" mouse pointer or press keys.\n"
+"If you want to create a permanent password for Desktop Sharing, allow "
+"'Uninvited Connections' \n"
+"in the configuration."
+msgstr ""
+"निमन्त्रणाले तपाइँको डेस्कटपमा प्रापकलाई जडान गर्नको लागि अनुमति दिने एक-"
+"समयको पासवर्ड सिर्जना गर्दछ।\n"
+"यो एउटा सफल जडानकोलागि वैध छ र यदि यो प्रयो गरीएको छैन भने एक घण्टा पछि "
+"यस्को अवधि समाप्त हुनेछ।\n"
+"कसैले तपाइँको कम्पूटरलाई जडानगर्दा सम्वाद देखापर्छ र तपाइँलाई तेस्ले "
+"अनुमतिको कुरा सोध्छ\n"
+"तपाइँले यो स्विकार गर्नु अघि जडान स्थापना भैसकेको हुने छैन। तपाइँ यो "
+"सम्वादमा तपाइँको डेस्कटप मात्र हेर्नकोलागि अन्य व्यक्तिहरूलाई सीमित पनि गर्न "
+"सक्नुहुन्छ र बिना क्षमता तपाइँको माउस सुचक लाई सार्नुहोस् वा कुञ्जी प्रेस "
+"गर्नुहोस्।\n"
+"यदि तपाइँ डेस्कटप साझेदारीको लागि एउटा स्थायी पासवर्ड सिर्जना गर्न "
+"चाहानुहुन्छ भने,कन्फिगरेसनमा'निमन्त्रणा नगरीएको जडान' लाईअनुमति दिनुहोस्।"
+
+#: krfbserver.cpp:194 krfbserver.cpp:214
+#, kde-format
+msgid "%1@%2 (shared desktop)"
+msgstr "%1@%2 (साझेदार गरिएको डेस्कटप)"
+
+#: krfbserver.cpp:207
+msgid "Address already in use"
+msgstr ""
+
+#: krfbserver.cpp:302
+msgid ""
+"Your X11 Server does not support the required XTest extension version 2.2. "
+"Sharing your desktop is not possible."
+msgstr ""
+"तपाईँको X11 सर्भरले आवश्यक X परीक्षण विस्तार संस्करण २.२ समर्थन गर्दैन । "
+"तपाईँको डेस्कटप साझेदारी सम्भव छैन ।"
+
+#: krfbserver.cpp:303
+msgid "Desktop Sharing Error"
+msgstr "डेस्कटप साझेदारी त्रुटि"
+
+#: main.cpp:40
+msgid "VNC-compatible server to share KDE desktops"
+msgstr "केडीई डेस्कटप साझेदार गर्न भीएनसी-मिल्दोजुल्दो सर्भर"
+
+#: main.cpp:46
+msgid "Desktop Sharing"
+msgstr "डेस्कटप साझेदारी"
+
+#: main.cpp:48
+msgid ""
+"(c) 2007, Alessandro Praduroux\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2001, Johannes E. Schindelin\n"
+"(c) 2000, heXoNet Support GmbH, D-66424 Homburg\n"
+"(c) 2000-2001, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+msgstr ""
+
+#: main.cpp:55
+msgid "Alessandro Praduroux"
+msgstr "एलेसन्डरो प्राडुरक्स"
+
+#: main.cpp:55
+msgid "KDE4 porting"
+msgstr "केडीई ४ पोर्ट"
+
+#: main.cpp:56
+msgid "Tim Jansen"
+msgstr "टिम जन्सेन"
+
+#: main.cpp:57
+msgid "Ian Reinhart Geiser"
+msgstr "इअन रिन्हार्ट गिजर"
+
+#: main.cpp:57
+msgid "DCOP interface"
+msgstr "डिसिओपि इन्टरफेस"
+
+#: main.cpp:58
+msgid "Johannes E. Schindelin"
+msgstr "जोहानेस इ.स्किनड्लिन"
+
+#: main.cpp:59
+msgid "libvncserver"
+msgstr "libvncserver"
+
+#: main.cpp:60
+msgid "Const Kaplinsky"
+msgstr "कन्स्ट कप्लिन्स्काइ"
+
+#: main.cpp:61
+msgid "TightVNC encoder"
+msgstr "कसिलो भीएनसी सङ्केतक"
+
+#: main.cpp:62
+msgid "Tridia Corporation"
+msgstr "ट्रिडिया कर्पोरेसन"
+
+#: main.cpp:63
+msgid "ZLib encoder"
+msgstr "ZLib सङ्केतक"
+
+#: main.cpp:64
+msgid "AT&T Laboratories Boston"
+msgstr ""
+
+#: main.cpp:65
+msgid "original VNC encoders and protocol design"
+msgstr "मौलिक भीएनसी सङ्केतक र प्रोटोकल डिजाइन"
+
+#: main.cpp:67
+msgid "Jens Wagner (heXoNet Support GmbH)"
+msgstr "जेन्स वागनर (heXoNet समर्थन GmbH)"
+
+#: main.cpp:68
+msgid "X11 update scanner, original code base"
+msgstr "X11 अद्यावधिक स्क्यानर, मौलिक कोड आधार"
+
+#: main.cpp:70
+msgid "Jason Spisak"
+msgstr "जसोन स्पीसक"
+
+#: main.cpp:71
+msgid "Connection side image"
+msgstr "जडान साइड छवि"
+
+#: main.cpp:73
+msgid "Karl Vogel"
+msgstr "कार्ल भोगेल"
+
+#: main.cpp:74
+msgid "KDesktop background deactivation"
+msgstr "केडीई डेस्कटप पृष्ठभूमि निस्क्रियता"
+
+#: main.cpp:78
+msgid "Do not show the invitations management dialog at startup"
+msgstr ""
+
+#: manageinvitationsdialog.cpp:95
+msgid ""
+"An invitation creates a one-time password that allows the receiver to "
+"connect to your desktop.\n"
+"It is valid for only one successful connection and will expire after an hour "
+"if it has not been used. \n"
+"When somebody connects to your computer a dialog will appear and ask you for "
+"permission.\n"
+"The connection will not be established before you accept it. In this dialog "
+"you can also\n"
+"restrict the other person to view your desktop only, without the ability to "
+"move your\n"
+"mouse pointer or press keys.\n"
+"If you want to create a permanent password for Desktop Sharing, allow "
+"'Uninvited Connections' \n"
+"in the configuration."
+msgstr ""
+"निमन्त्रणाले तपाइँको डेस्कटपमा प्रापकलाई जडान गर्नको लागि अनुमति दिने एक-"
+"समयको पासवर्ड सिर्जना गर्दछ।\n"
+"यो एउटा सफल जडानकोलागि वैध छ र यदि यो प्रयो गरीएको छैन भने एक घण्टा पछि "
+"यस्को अवधि समाप्त हुनेछ।\n"
+"कसैले तपाइँको कम्पूटरलाई जडानगर्दा सम्वाद देखापर्छ र तपाइँलाई तेस्ले "
+"अनुमतिको कुरा सोध्छ\n"
+"तपाइँले यो स्विकार गर्नु अघि जडान स्थापना भैसकेको हुने छैन। तपाइँ यो "
+"सम्वादमा तपाइँको डेस्कटप मात्र हेर्नकोलागि अन्य व्यक्तिहरूलाई सीमित पनि गर्न "
+"सक्नुहुन्छ र बिना क्षमता तपाइँको माउस सुचक लाई सार्नुहोस् वा कुञ्जी प्रेस "
+"गर्नुहोस्।\n"
+"यदि तपाइँ डेस्कटप साझेदारीको लागि एउटा स्थायी पासवर्ड सिर्जना गर्न "
+"चाहानुहुन्छ भने,कन्फिगरेसनमा'निमन्त्रणा नगरीएको जडान' लाईअनुमति दिनुहोस्।"
+
+#: manageinvitationsdialog.cpp:117
+msgid ""
+"When sending an invitation by email, note that everybody who reads this "
+"email will be able to connect to your computer for one hour, or until the "
+"first successful connection took place, whichever comes first. \n"
+"You should either encrypt the email or at least send it only in a secure "
+"network, but not over the Internet."
+msgstr ""
+"इमेलबाट एउटा निमन्त्रणा पठाउँदा, याद गर्नुहोस् कि यो इमेल पढ्नेले एक घण्टाका "
+"लागि, वा पहिलो सफल जडान नभएसम्म पहिले आउने जोसुकेले तपाईँको कम्प्युटरमा जडान "
+"गर्न सक्षम हुनेछ ।\n"
+"तपाईँले कम्तिमा इमेल गुप्तिकरण गर्न वा यसलाई सुरक्षित सञ्जालमा राख्नुपर्दछ "
+"तर इन्टरनेटमा होइन ।"
+
+#: manageinvitationsdialog.cpp:122
+msgid "Send Invitation via Email"
+msgstr "इमेल मार्फत निमन्त्रणा पठाउनुहोस्"
+
+#: manageinvitationsdialog.cpp:143
+msgid "Desktop Sharing (VNC) invitation"
+msgstr "डेस्कटप साझेदारी (VNC) निमन्त्रणा"
+
+#: manageinvitationsdialog.cpp:144
+#, kde-format
+msgid ""
+"You have been invited to a VNC session. If you have the KDE Remote Desktop "
+"Connection installed, just click on the link below.\n"
+"\n"
+"%1\n"
+"\n"
+"Otherwise you can use any VNC client with the following parameters:\n"
+"\n"
+"Host: %2:%3\n"
+"Password: %4\n"
+"\n"
+"For security reasons this invitation will expire at %5 (%6)."
+msgstr ""
+
+#: manageinvitationsdialog.cpp:182
+msgid "Network"
+msgstr "नेटवर्क"
+
+#: manageinvitationsdialog.cpp:183
+msgid "Security"
+msgstr "सुरक्षा"
+
+#: manageinvitationsdialog.cpp:192
+msgid "<qt>Are you sure you want to delete all invitations?</qt>"
+msgstr "<qt>निश्चित तपाइँ सम्पूर्ण निमन्त्रणाहरू मेटाउन चाहानुहुन्छ?</qt>"
+
+#: manageinvitationsdialog.cpp:193 manageinvitationsdialog.cpp:209
+msgid "Confirm delete Invitations"
+msgstr "सबै निमन्त्रणा मेटाउन यकिन गर्नुहोस्"
+
+#: manageinvitationsdialog.cpp:208
+msgid "<qt>Are you sure you want to delete this invitation?</qt>"
+msgstr "<qt>निश्चित तपाइँ यो निमन्त्रणा मेटाउन चाहानुहुन्छ?</qt>"
+
+#: personalinvitedialog.cpp:35
+msgid "Personal Invitation"
+msgstr "व्यक्तिगत निमन्त्रणा"
+
+#: personalinvitedialog.cpp:87
+msgid ""
+"Desktop Sharing uses the VNC protocol. You can use any VNC client to "
+"connect. \n"
+"In KDE the client is called 'Remote Desktop Connection'. Enter the host "
+"information\n"
+"into the client and it will connect.."
+msgstr ""
+"डेस्कटप साझेदारीले भीएनसी प्रोटोकल प्रयोग गर्दछ। तपाइँ जडान गर्नकोलागि कुनै "
+"भीएनसी क्लाइन्ट प्रयोग गर्न सक्छ। \n"
+"केडीईमा क्लाइन्टले 'टाढाको डेस्कटप जडान' कल गर्छ। क्लाइन्ट भित्र होस्ट "
+"सूचना\n"
+"प्रविष्ट गर्नुहोस् र यो जडान हुनेछ..."
+
+#: personalinvitedialog.cpp:92
+msgid ""
+"This field contains the address of your computer and the display number, "
+"separated by a colon.\n"
+"The address is just a hint - you can use any address that can reach your "
+"computer. \n"
+"Desktop Sharing tries to guess your address from your network configuration, "
+"but does\n"
+"not always succeed in doing so. If your computer is behind a firewall it may "
+"have a\n"
+"different address or be unreachable for other computers."
+msgstr ""
+"यो फाँटले तपाइँको कम्प्यूटरको ठेगाना समावेश गर्दछ र प्रदर्शन नम्बर बिराम "
+"चिन्हद्वारा छुट्याएको छ।\n"
+"ठेगाना सङ्केत मात्र हो - तपाइँ कम्प्यूटरलाई पुग्न सक्ने कुनै ठेगानाको लागि "
+"प्रयोग गर्न सक्नुहुन्छ। \n"
+"डेस्कटप साझेदारीले तपाइँको नेटवर्क कन्फिगरेसनबाट तपाइँको ठेगाना\n"
+"अनुमान गर्नकोलागि प्रयास गर्दछ, तर तेस्तो गर्न संधै असफल हुन्छ। यदि तपाइँको "
+"कम्प्यूटर फायरवाल पछाडि हुन्छ भने यो अन्य कम्प्यूटरहरूको लागि पहुँचयोग्य "
+"हुँदैन वा फरक ठेगाना हुन सक्छन्।"
+
+#. i18n: file: configsecurity.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUninvitedConnections)
+#: rc.cpp:3
+msgid "Allow uninvited connections"
+msgstr "निमन्त्रणा नगरिएको जडान अनुमति दिनुहोस्"
+
+#. i18n: file: configsecurity.ui:24
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
+#: rc.cpp:6
+msgid "Allow remote connections to control your desktop"
+msgstr "तपाइँको डेस्कटप नियन्त्रण गर्न टाढाको जडान अनुमति दिनुहोस्"
+
+#. i18n: file: configsecurity.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_askOnConnect)
+#: rc.cpp:9
+msgid "Ask before accepting connections"
+msgstr ""
+
+#. i18n: file: configsecurity.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid "Uninvited connections password:"
+msgstr ""
+
+#. i18n: file: configtcp.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_publishService)
+#. i18n: file: krfb.kcfg:16
+#. i18n: ectx: label, entry (publishService), group (TCP)
+#: rc.cpp:15 rc.cpp:70
+msgid "Announce the service on the local network"
+msgstr "स्थानिय नेटवर्कमा सेवा घोषणा गर्नुहोस्"
+
+#. i18n: file: configtcp.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
+#: rc.cpp:18
+msgid "Use default port"
+msgstr "पूर्वनिर्धारित पोर्ट प्रयोग गर्नुहोस्"
+
+#. i18n: file: configtcp.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21
+msgid "Listening port:"
+msgstr ""
+
+#. i18n: file: connectionwidget.ui:47
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:24
+msgid "Attention"
+msgstr "सावधान"
+
+#. i18n: file: connectionwidget.ui:72
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: rc.cpp:27
+msgid ""
+"Somebody is requesting a connection to your computer. Granting this will "
+"allow the remote user to watch your desktop. "
+msgstr ""
+"कोही मानिस तपाईँको कम्प्युटरमा जडान गर्न अनुरोध गरिरहेको छ । यसलाई स्वीकार "
+"गर्नाले तपाईँको डेस्कटपमा टाढाको प्रयोगकर्तालाई अनुमति दिनेछ । "
+
+#. i18n: file: connectionwidget.ui:102
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:30
+msgid "Remote system:"
+msgstr "टाढाको प्रणाली:"
+
+#. i18n: file: connectionwidget.ui:118
+#. i18n: ectx: property (text), widget (QLabel, remoteHost)
+#: rc.cpp:33
+msgid "123.234.123.234"
+msgstr "१२३.२३४.१२३.२३४"
+
+#. i18n: file: connectionwidget.ui:136
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
+#: rc.cpp:36
+msgid ""
+"If you turn this option on, the remote user can enter keystrokes and use "
+"your mouse pointer. This gives them full control over your computer, so be "
+"careful. When the option is disabled the remote user can only watch your "
+"screen."
+msgstr ""
+"यदि तपाईँले यो विकल्प खोल्नुभयो भने, टाढाको प्रयोगकर्ताले कुञ्जी स्ट्रोक "
+"प्रविष्ट गर्न सक्छ र तपाईँको माउस सूचक प्रयोग गर्न सक्छ। यसले तिनीहरूलाई "
+"तपाईँको कम्प्युटर माथि पूरा नियन्त्रण दिन्छ, त्यसैले सावधान हुनुहोस्। विकल्प "
+"अक्षम पार्दा टाढाको प्रयोगकर्ताले तपाईँको पर्दा मात्र हेर्न सक्छ।"
+
+#. i18n: file: connectionwidget.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
+#: rc.cpp:39
+msgid "Allow remote user to &control keyboard and mouse"
+msgstr ""
+"टाढाको प्रयोगकर्तालाई कुञ्जीपाटी र माउस नियन्त्रण गर्न अनुमति दिनुहोस्"
+
+#. i18n: file: invitewidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#. i18n: file: manageinvitations.ui:25
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:42 rc.cpp:91
+msgid "Welcome to KDE Desktop Sharing"
+msgstr "केडीई डेस्कटप साझेदारीमा स्वागत छ"
+
+#. i18n: file: invitewidget.ui:50
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: rc.cpp:45
+msgid ""
+"KDE Desktop Sharing allows you to invite somebody at a remote location to "
+"watch and possibly control your desktop. <a href=\"whatsthis\">More about "
+"invitations...</a>"
+msgstr ""
+
+#. i18n: file: invitewidget.ui:105
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateInvite)
+#: rc.cpp:48
+msgid ""
+"Create a new invitation and display the connection data. Use this option if "
+"you want to invite somebody personally, for example, to give the connection "
+"data over the phone."
+msgstr ""
+"नयाँ निमन्त्रणा सिर्जना गर्नुहोस् र जडान डेटा प्रदर्शन गर्नुहोस् । यदि तपाईँ "
+"व्यक्तिगत रूपमा कसैलाई निमन्त्रणा गर्न चाहनुहुन्छ भने यो विकल्प प्रयोग "
+"गर्नुहोस्, उदाहरणका लागि, फोनमा जडान डेटा दिन ।"
+
+#. i18n: file: invitewidget.ui:108
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateInvite)
+#: rc.cpp:51
+msgid "Create &Personal Invitation..."
+msgstr "व्यक्तिगत निमन्त्रणा सिर्जना गर्नुहोस्..."
+
+#. i18n: file: invitewidget.ui:115
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEmailInvite)
+#: rc.cpp:54
+msgid ""
+"This button will start your email application with a pre-configured text "
+"that explains to the recipient how to connect to your computer. "
+msgstr ""
+"यो बटनले पूर्व-कन्फिगर गरिएको पाठसँग तपाईँको इमेल अनुप्रयोग सुरु गर्नेछ जसले "
+"तपाईँको कम्प्युटरमा कसरी जडान गर्ने भन्ने बारे प्रापकलाई व्याख्या गर्दछ । "
+
+#. i18n: file: invitewidget.ui:118
+#. i18n: ectx: property (text), widget (QPushButton, btnEmailInvite)
+#: rc.cpp:57
+msgid "Invite via &Email..."
+msgstr "इमेल मार्फत निमन्त्रणा गर्नुहोस्..."
+
+#. i18n: file: krfb.kcfg:8
+#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
+#: rc.cpp:64
+msgid "Use the default port for VNC (5900)"
+msgstr "भीएनसी (५९००)को लागि पूर्वनिर्धारित पोर्ट प्रयोग गर्नुहोस्"
+
+#. i18n: file: krfb.kcfg:12
+#. i18n: ectx: label, entry (port), group (TCP)
+#: rc.cpp:67
+msgid "This is the port on which krfb will listen."
+msgstr ""
+
+#. i18n: file: krfb.kcfg:22
+#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
+#: rc.cpp:73
+msgid "Allow remote connections to manage the desktop."
+msgstr "डेस्कटप व्यवस्था गर्नको लागि टाढाको जडानलाई अनुमति दिनुहोस्।"
+
+#. i18n: file: krfb.kcfg:26
+#. i18n: ectx: label, entry (askOnConnect), group (Security)
+#: rc.cpp:76
+msgid "Ask before allowing a remote connection."
+msgstr "टाढाको जडानलाई अनुमति दिनुअघि सोध्नुहोस्।"
+
+#. i18n: file: krfb.kcfg:30
+#. i18n: ectx: label, entry (allowUninvitedConnections), group (Security)
+#: rc.cpp:79
+msgid "Allow connections without an invitation."
+msgstr "निमन्त्रणा बिना नै जडानलाई अनुमति दिनुहोस्।"
+
+#. i18n: file: krfb.kcfg:34
+#. i18n: ectx: label, entry (uninvitedConnectionPassword), group (Security)
+#: rc.cpp:82
+msgid "Password for uninvited connections."
+msgstr "निमन्त्रणा नगरिएको जडानको लागि पासवर्ड।"
+
+#. i18n: file: krfb.kcfg:39
+#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
+#: rc.cpp:85
+msgid "Preferred Frame Buffer Plugin"
+msgstr ""
+
+#. i18n: file: manageinvitations.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ManageInvitationsDialog)
+#: rc.cpp:88
+msgid "Manage Invitations - Desktop Sharing"
+msgstr "निमन्त्रणा - डेस्कटप साझेदारी प्रबन्ध गर्नुहोस्"
+
+#. i18n: file: manageinvitations.ui:38
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: rc.cpp:94
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">KDE Desktop Sharing allows "
+"you to invite somebody at a remote location to watch and possibly control "
+"your desktop. <a href=\"whatsthis\">More about "
+"invitations...</a></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { सेतो-खालि स्थान: पूर्व-बेराई; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> केडीई डेस्कटप साझेदारीले "
+"तपाइँको डेस्कटपलाई उपयुक्त तवरले नियन्त्रण गर्न र हेर्नको लागि तपाइँलाई "
+"टाढाको स्थानमा कसैलाई निमन्त्रणा गर्दछ।<a href=\"whatsthis\">निमन्त्रणाहरूको "
+"लागि अझ बढी...</a></p></body></html>"
+
+#. i18n: file: manageinvitations.ui:95
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: rc.cpp:100
+msgid "Creation Time"
+msgstr ""
+
+#. i18n: file: manageinvitations.ui:100
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: rc.cpp:103
+msgid "Expire Time"
+msgstr "समाप्ति समय"
+
+#. i18n: file: manageinvitations.ui:124
+#. i18n: ectx: property (toolTip), widget (QPushButton, newPersonalInvitationButton)
+#: rc.cpp:106
+msgid "Create a new personal invitation..."
+msgstr "नयाँ व्यक्तिगत निमन्त्रणा सिर्जना गर्नुहोस्..."
+
+#. i18n: file: manageinvitations.ui:127
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newPersonalInvitationButton)
+#: rc.cpp:109
+msgid "Click this button to create a new personal invitation."
+msgstr "नयाँ व्यक्तिगत निमन्त्रणा सिर्जना गर्न यो बटन क्लिक गर्नुहोस्।"
+
+#. i18n: file: manageinvitations.ui:130
+#. i18n: ectx: property (text), widget (QPushButton, newPersonalInvitationButton)
+#: rc.cpp:112
+msgid "New &Personal Invitation..."
+msgstr "नयाँ व्यक्तिगत निमन्त्रणा..."
+
+#. i18n: file: manageinvitations.ui:137
+#. i18n: ectx: property (toolTip), widget (QPushButton, newEmailInvitationButton)
+#: rc.cpp:115
+msgid "Send a new invitation via email..."
+msgstr "इमेल मार्फत नयाँ निमन्त्रणा पठाउनुहोस्..."
+
+#. i18n: file: manageinvitations.ui:140
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newEmailInvitationButton)
+#: rc.cpp:118
+msgid "Click this button to send a new invitation via email."
+msgstr "इमेल मार्फत नयाँ निमन्त्रणा पठाउन यो बटन क्लिक गर्नुहोस्।"
+
+#. i18n: file: manageinvitations.ui:143
+#. i18n: ectx: property (text), widget (QPushButton, newEmailInvitationButton)
+#: rc.cpp:121
+msgid "&New Email Invitation..."
+msgstr "नयाँ इमेल निमन्त्रणा..."
+
+#. i18n: file: manageinvitations.ui:153
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
+#: rc.cpp:124
+msgid "Delete all invitations"
+msgstr "सबै निमन्त्रणा मेट्नुहोस्"
+
+#. i18n: file: manageinvitations.ui:156
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
+#: rc.cpp:127
+msgid "Deletes all open invitations."
+msgstr "सबै खुल्ला निमन्त्रणा मेट्दछ।"
+
+#. i18n: file: manageinvitations.ui:159
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: rc.cpp:130
+msgid "Delete All"
+msgstr "सवै मेट्नुहोस्"
+
+#. i18n: file: manageinvitations.ui:169
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteOneButton)
+#: rc.cpp:133
+msgid "Delete the selected invitation"
+msgstr "चयन गरिएको निमन्त्रणा मेट्नुहोस्"
+
+#. i18n: file: manageinvitations.ui:172
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteOneButton)
+#: rc.cpp:136
+msgid ""
+"Delete the selected invitation. The invited person will not be able to "
+"connect using this invitation anymore."
+msgstr ""
+"चयन गरिएको निमन्त्रणा मेट्नुहोस् । आमन्त्रित व्यक्तिले यो निमन्त्रणा भन्दा "
+"बढी प्रयोग गरेर जडान गर्न सक्नेछैन।"
+
+#. i18n: file: manageinvitations.ui:175
+#. i18n: ectx: property (text), widget (QPushButton, deleteOneButton)
+#: rc.cpp:139
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#. i18n: file: personalinvitewidget.ui:47
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: rc.cpp:142
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Personal Invitation</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Give the information below "
+"to the person that you want to invite (<a href=\"htc\">how to connect</a>). "
+"Note that everybody who gets the password can connect, so be "
+"careful.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { sसेतो-खालिस्थान: पूर्व-बेराई; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">व्यक्तिगत निमन्त्रणा</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">तपाइँले निमन्त्रणा गर्न "
+"चाहानुभएको व्यक्ति लाई तल सूचना दिनुहोस्(<a href=\"htc\">कसरी जडान "
+"गर्ने</a>). कसैले पासवर्ड पाएर जडान गर्न सक्छ भन्ने कुरा दर्शाउँछ  त्यसैले "
+"होसियारी रहनुहोस्</p></body></html>"
+
+#. i18n: file: personalinvitewidget.ui:81
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel5)
+#: rc.cpp:149
+msgid "<b>Host:</b>"
+msgstr "<b>होस्ट:</b>"
+
+#. i18n: file: personalinvitewidget.ui:116
+#. i18n: ectx: property (text), widget (QLabel, hostHelpLabel)
+#: rc.cpp:152
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a "
+"href=\"help\">Help</a></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { सेतो-खालिस्थान: पूर्व-बेराई; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a "
+"href=\"help\">मद्दत</a></p></body></html>"
+
+#. i18n: file: personalinvitewidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel6)
+#: rc.cpp:158
+msgid "<b>Password:</b>"
+msgstr "<b>पासवर्ड:</b>"
+
+#. i18n: file: personalinvitewidget.ui:161
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel7)
+#: rc.cpp:161
+msgid "<b>Expiration time:</b>"
+msgstr "<b>समाप्ति समय:</b>"
+
+#: rc.cpp:162
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Ishwor Sharma"
+
+#: rc.cpp:163
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>,,,"
+
+#: trayicon.cpp:39 trayicon.cpp:91
+msgid "Desktop Sharing - disconnected"
+msgstr "डेस्कटप साझेदारी - विच्छेदन गरियो"
+
+#: trayicon.cpp:48
+msgid "Enable Remote Control"
+msgstr "टाढाको नियन्त्रण सक्षम पार्नुहोस्"
+
+#: trayicon.cpp:49
+msgid "Disable Remote Control"
+msgstr "टाढाको नियन्त्रण अक्षम पार्नुहोस्"
+
+#: trayicon.cpp:79
+#, kde-format
+msgid "The remote user %1 is now connected."
+msgstr ""
+
+#: trayicon.cpp:81
+#, kde-format
+msgid "Desktop Sharing - connected with %1"
+msgstr "डेस्कटप साझेदारी - %1 सँग जडान गरियो"
+
+#: trayicon.cpp:93
+msgid "The remote user has closed the connection."
+msgstr "टाढाको प्रयोगकर्ताले जडान बन्द गर्यो ।"

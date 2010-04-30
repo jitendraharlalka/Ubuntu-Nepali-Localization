@@ -1,0 +1,1437 @@
+# translation of apt_po.po to Nepali
+# Mahesh Subedi <submanesh@hotmail.com>, 2006.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+# Shiva Pokharel <pokharelshiva@hotmail.com>, 2006.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: apt_po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-18 03:34+0000\n"
+"PO-Revision-Date: 2010-04-22 13:19+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:04+0000\n"
+
+#: methods/cdrom.cc:199
+#, c-format
+msgid "Unable to read the cdrom database %s"
+msgstr "सिडी रोम डेटाबेस पढ्न असक्षम %s"
+
+#: methods/cdrom.cc:208
+msgid ""
+"Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update "
+"cannot be used to add new CD-ROMs"
+msgstr ""
+"कृपया APT ले यो सिडी रोमलाई चिन्नको लागि apt-cdrom प्रयोग गर्नुहोस् । apt-"
+"get अद्यावधिक नयाँ सिडी रोमहरू थप्नको लागि प्रयोग गरिदैन"
+
+#: methods/cdrom.cc:218
+msgid "Wrong CD-ROM"
+msgstr "गलत सिडी रोम"
+
+#: methods/cdrom.cc:245
+#, c-format
+msgid "Unable to unmount the CD-ROM in %s, it may still be in use."
+msgstr ""
+"%s मा सिडी रोम अनमाउन्ट गर्न असक्षम भयो, यो अहिले प्रयोगमा हुन सक्छ ।"
+
+#: methods/cdrom.cc:250
+msgid "Disk not found."
+msgstr "डिस्क फेला परेन ।"
+
+#: methods/cdrom.cc:258 methods/file.cc:79 methods/rsh.cc:264
+msgid "File not found"
+msgstr "फाइल फेला परेन"
+
+#: methods/copy.cc:43 methods/gzip.cc:141 methods/gzip.cc:150
+#: methods/rred.cc:483 methods/rred.cc:492
+msgid "Failed to stat"
+msgstr "स्थिर गर्न असफल भयो"
+
+#: methods/copy.cc:80 methods/gzip.cc:147 methods/rred.cc:489
+msgid "Failed to set modification time"
+msgstr "परिमार्जन समय सेट असफल भयो"
+
+#: methods/file.cc:44
+msgid "Invalid URI, local URIS must not start with //"
+msgstr "अवैध URl, स्थानिय URIS // संग सुरू हुन सक्दैन"
+
+#. Login must be before getpeername otherwise dante won't work.
+#: methods/ftp.cc:168
+msgid "Logging in"
+msgstr "लगइन भइरहेछ"
+
+#: methods/ftp.cc:174
+msgid "Unable to determine the peer name"
+msgstr "समान नाम निर्धारण गर्न असक्षम भयो"
+
+#: methods/ftp.cc:179
+msgid "Unable to determine the local name"
+msgstr "स्थानिय नाम निर्धारण गर्न असक्षम भयो"
+
+#: methods/ftp.cc:210 methods/ftp.cc:238
+#, c-format
+msgid "The server refused the connection and said: %s"
+msgstr "सर्भरले जडान अस्वीकार गर्यो र भन्यो: %s"
+
+#: methods/ftp.cc:216
+#, c-format
+msgid "USER failed, server said: %s"
+msgstr "प्रयोगकर्ता असफल भयो, सर्भरले भन्यो: %s"
+
+#: methods/ftp.cc:223
+#, c-format
+msgid "PASS failed, server said: %s"
+msgstr "पास असफल भयो, सर्भरले भन्यो: %s"
+
+#: methods/ftp.cc:243
+msgid ""
+"A proxy server was specified but no login script, Acquire::ftp::ProxyLogin "
+"is empty."
+msgstr ""
+"प्रोक्सी सर्भर निर्दिष्ट गरियो तर कुनै स्क्रिफ्ट लगइन भएन, "
+"Acquire::ftp::ProxyLogin  खाली छ ।"
+
+#: methods/ftp.cc:271
+#, c-format
+msgid "Login script command '%s' failed, server said: %s"
+msgstr "लगइन स्क्रिफ्ट आदेश '%s' असफल भयो, सर्भरले भन्यो: %s"
+
+#: methods/ftp.cc:297
+#, c-format
+msgid "TYPE failed, server said: %s"
+msgstr "टाइप असफल भयो: %s"
+
+#: methods/ftp.cc:335 methods/ftp.cc:446 methods/rsh.cc:183 methods/rsh.cc:226
+msgid "Connection timeout"
+msgstr "जडान समय सकियो"
+
+#: methods/ftp.cc:341
+msgid "Server closed the connection"
+msgstr "सर्भरले जडान बन्द गर्यो"
+
+#: methods/ftp.cc:344 apt-pkg/contrib/fileutl.cc:667 methods/rsh.cc:190
+msgid "Read error"
+msgstr "त्रुटि पढ्नुहोस्"
+
+#: methods/ftp.cc:351 methods/rsh.cc:197
+msgid "A response overflowed the buffer."
+msgstr "एउटा प्रतिक्रियाले बफर अधिप्रवाह गर्यो"
+
+#: methods/ftp.cc:368 methods/ftp.cc:380
+msgid "Protocol corruption"
+msgstr "प्रोटोकल दूषित"
+
+#: methods/ftp.cc:452 apt-pkg/contrib/fileutl.cc:706 methods/rsh.cc:232
+msgid "Write error"
+msgstr "त्रुटि लेख्नुहोस्"
+
+#: methods/ftp.cc:693 methods/ftp.cc:699 methods/ftp.cc:735
+msgid "Could not create a socket"
+msgstr "एउटा सकेट सिर्जना गर्न सकेन"
+
+#: methods/ftp.cc:704
+msgid "Could not connect data socket, connection timed out"
+msgstr "डेटा सकेट जडान गर्न सकिएन, जडान समय सकियो"
+
+#: methods/ftp.cc:708 methods/connect.cc:111
+msgid "Failed"
+msgstr "असफल भयो"
+
+#: methods/ftp.cc:710
+msgid "Could not connect passive socket."
+msgstr "निस्क्रिय सकेट जडान गर्न सकिएन"
+
+#: methods/ftp.cc:728
+msgid "getaddrinfo was unable to get a listening socket"
+msgstr "getaddrinfo सुन्ने सकेट प्राप्त गर्न असक्षम भयो"
+
+#: methods/ftp.cc:742
+msgid "Could not bind a socket"
+msgstr "सकेट बाँध्न सकिएन"
+
+#: methods/ftp.cc:746
+msgid "Could not listen on the socket"
+msgstr "सकेटमा सुन्न सकिएन"
+
+#: methods/ftp.cc:753
+msgid "Could not determine the socket's name"
+msgstr "सकेट नाम निर्धारण गर्न सकिएन"
+
+#: methods/ftp.cc:785
+msgid "Unable to send PORT command"
+msgstr "पोर्ट आदेश पठाउन असक्षम भयो"
+
+#: methods/ftp.cc:795
+#, c-format
+msgid "Unknown address family %u (AF_*)"
+msgstr "अज्ञात ठेगाना परिवार %u (AF_*)"
+
+#: methods/ftp.cc:804
+#, c-format
+msgid "EPRT failed, server said: %s"
+msgstr "EPRT असफल भयो, सर्भरले भन्यो: %s"
+
+#: methods/ftp.cc:824
+msgid "Data socket connect timed out"
+msgstr "डेटा सकेटको जडान समय सकियो"
+
+#: methods/ftp.cc:831
+msgid "Unable to accept connection"
+msgstr "जडान स्वीकार गर्न असक्षम भयो"
+
+#: methods/ftp.cc:870 methods/http.cc:1005 methods/rsh.cc:303
+msgid "Problem hashing file"
+msgstr "समस्या द्रुतान्वेषण फाइल"
+
+#: methods/ftp.cc:883
+#, c-format
+msgid "Unable to fetch file, server said '%s'"
+msgstr "फाइल तान्न असक्षम भयो, सर्भरले भन्यो '%s'"
+
+#: methods/ftp.cc:898 methods/rsh.cc:322
+msgid "Data socket timed out"
+msgstr "डेटा सकेट समय सकियो"
+
+#: methods/ftp.cc:928
+#, c-format
+msgid "Data transfer failed, server said '%s'"
+msgstr "डेटा स्थान्तरण असफल भयो, सर्भरले भन्यो '%s'"
+
+#. Get the files information
+#: methods/ftp.cc:1005
+msgid "Query"
+msgstr "क्वेरी"
+
+#: methods/ftp.cc:1117
+msgid "Unable to invoke "
+msgstr "आह्वान गर्न असक्षम भयो "
+
+#: methods/connect.cc:71
+#, c-format
+msgid "Connecting to %s (%s)"
+msgstr "%s (%s) मा जडान गरिदैछ"
+
+#: methods/connect.cc:82
+#, c-format
+msgid "[IP: %s %s]"
+msgstr "[IP: %s %s]"
+
+#: methods/connect.cc:89
+#, c-format
+msgid "Could not create a socket for %s (f=%u t=%u p=%u)"
+msgstr "%s (f=%u t=%u p=%u) को लागि सकेट सिर्जना गर्न सकिएन"
+
+#: methods/connect.cc:95
+#, c-format
+msgid "Cannot initiate the connection to %s:%s (%s)."
+msgstr "%s:%s (%s) मा जडान सुरुवात गर्न सकेन"
+
+#: methods/connect.cc:103
+#, c-format
+msgid "Could not connect to %s:%s (%s), connection timed out"
+msgstr "%s:%s (%s) मा जडान गर्न सकिएन, जडान समय सकियो"
+
+#: methods/connect.cc:118
+#, c-format
+msgid "Could not connect to %s:%s (%s)."
+msgstr "%s:%s (%s) मा जडान गर्न सकिएन ।"
+
+#. We say this mainly because the pause here is for the
+#. ssh connection that is still going
+#: methods/connect.cc:146 methods/rsh.cc:425
+#, c-format
+msgid "Connecting to %s"
+msgstr "%s मा जडान गरिदैछ"
+
+#: methods/connect.cc:165 methods/connect.cc:184
+#, c-format
+msgid "Could not resolve '%s'"
+msgstr "'%s' हल गर्न सकिएन"
+
+#: methods/connect.cc:190
+#, c-format
+msgid "Temporary failure resolving '%s'"
+msgstr "'%s' हल गर्दा अस्थायी असफल"
+
+#: methods/connect.cc:193
+#, c-format
+msgid "Something wicked happened resolving '%s:%s' (%i - %s)"
+msgstr ""
+
+#: methods/connect.cc:240
+#, c-format
+msgid "Unable to connect to %s:%s:"
+msgstr ""
+
+#. TRANSLATOR: %s is the trusted keyring parts directory
+#: methods/gpgv.cc:78
+#, c-format
+msgid "No keyring installed in %s."
+msgstr ""
+
+#: methods/gpgv.cc:104
+msgid "E: Too many keyrings should be passed to gpgv. Exiting."
+msgstr ""
+
+#: methods/gpgv.cc:121
+msgid "E: Argument list from Acquire::gpgv::Options too long. Exiting."
+msgstr "E: प्राप्त गर्नेबाट तर्क सूचि::gpgv::अति लामो विकल्पहरू अवस्थित छ ।"
+
+#: methods/gpgv.cc:237
+msgid ""
+"Internal error: Good signature, but could not determine key fingerprint?!"
+msgstr ""
+"आन्तरिक त्रुटि: असल हस्ताक्षर, तर कुञ्जी औठाछाप निर्धारण गर्न सकिएन?!"
+
+#: methods/gpgv.cc:242
+msgid "At least one invalid signature was encountered."
+msgstr "कम्तिमा एउटा अवैध हस्ताक्षर विरोध भयो ।"
+
+#: methods/gpgv.cc:246
+#, c-format
+msgid "Could not execute '%s' to verify signature (is gpgv installed?)"
+msgstr ""
+"हस्ताक्षर रूजू गर्न '%s' कार्यन्वयन गर्न सकिएन (के gpgv स्थापना भयो?)"
+
+#: methods/gpgv.cc:251
+msgid "Unknown error executing gpgv"
+msgstr "gpgv कार्यन्वयन गर्दा अज्ञात त्रुटि"
+
+#: methods/gpgv.cc:285 methods/gpgv.cc:292
+msgid "The following signatures were invalid:\n"
+msgstr "निम्न हस्ताक्षरहरू अवैध छन्:\n"
+
+#: methods/gpgv.cc:299
+msgid ""
+"The following signatures couldn't be verified because the public key is not "
+"available:\n"
+msgstr ""
+"निम्न हस्ताक्षरहरू रूजू हुन सक्दैन किन भने सार्वजनिक कुञ्जी उपलब्ध छैन:\n"
+
+#: methods/gzip.cc:64
+#, c-format
+msgid "Couldn't open pipe for %s"
+msgstr "%s को लागि पाइप खोल्न सकिएन"
+
+#: methods/gzip.cc:109
+#, c-format
+msgid "Read error from %s process"
+msgstr "%s प्रक्रियाबाट त्रुटि पढ्नुहोस्"
+
+#: methods/http.cc:385
+msgid "Waiting for headers"
+msgstr "हेडरहरुको लागि पर्खिदैछ"
+
+#: methods/http.cc:531
+#, c-format
+msgid "Got a single header line over %u chars"
+msgstr "%u chars माथि एकल हेडर लाइन प्राप्त गर्नुहोस्"
+
+#: methods/http.cc:539
+msgid "Bad header line"
+msgstr "खराब हेडर लाइन"
+
+#: methods/http.cc:558 methods/http.cc:565
+msgid "The HTTP server sent an invalid reply header"
+msgstr "HTTP सर्भरले अवैध जवाफ हेडर पठायो"
+
+#: methods/http.cc:594
+msgid "The HTTP server sent an invalid Content-Length header"
+msgstr "HTTP सर्भरले अवैध सामग्री-लम्बाई हेडर पठायो"
+
+#: methods/http.cc:609
+msgid "The HTTP server sent an invalid Content-Range header"
+msgstr "HTTP सर्भरले अवैध सामग्री-दायरा हेडर पठायो"
+
+#: methods/http.cc:611
+msgid "This HTTP server has broken range support"
+msgstr "HTTP सर्भर संग भाँचिएको दायरा समर्थन छ"
+
+#: methods/http.cc:635
+msgid "Unknown date format"
+msgstr "अज्ञात मिति ढाँचा"
+
+#: methods/http.cc:793
+msgid "Select failed"
+msgstr "असफल चयन गर्नुहोस्"
+
+#: methods/http.cc:798
+msgid "Connection timed out"
+msgstr "जडान समय सकियो"
+
+#: methods/http.cc:821
+msgid "Error writing to output file"
+msgstr "निर्गात फाइलमा त्रुटि लेखिदैछ"
+
+#: methods/http.cc:852
+msgid "Error writing to file"
+msgstr "फाइलमा त्रुटि लेखिदैछ"
+
+#: methods/http.cc:880
+msgid "Error writing to the file"
+msgstr "फाइलमा त्रुटि लेखिदैछ"
+
+#: methods/http.cc:894
+msgid "Error reading from server. Remote end closed connection"
+msgstr "सर्भरबाट त्रुटि पढिदैछ । दूर गन्तब्य बन्द जडान"
+
+#: methods/http.cc:896
+msgid "Error reading from server"
+msgstr "सर्भरबाट त्रुटि पढिदैछ"
+
+#: methods/http.cc:990 apt-pkg/contrib/mmap.cc:215
+msgid "Failed to truncate file"
+msgstr ""
+
+#: methods/http.cc:1159
+msgid "Bad header data"
+msgstr "खराब हेडर डेटा"
+
+#: methods/http.cc:1176 methods/http.cc:1231
+msgid "Connection failed"
+msgstr "जडान असफल भयो"
+
+#: methods/http.cc:1323
+msgid "Internal error"
+msgstr "आन्तरिक त्रुटि"
+
+#: apt-pkg/contrib/mmap.cc:76
+msgid "Can't mmap an empty file"
+msgstr "एउटा खाली फाइल mmap बनाउन सकिएन"
+
+#: apt-pkg/contrib/mmap.cc:81 apt-pkg/contrib/mmap.cc:187
+#, c-format
+msgid "Couldn't make mmap of %lu bytes"
+msgstr "%lu बाइटहरुको mmap बनाउन सकिएन"
+
+#: apt-pkg/contrib/mmap.cc:234
+#, c-format
+msgid ""
+"Dynamic MMap ran out of room. Please increase the size of APT::Cache-Limit. "
+"Current value: %lu. (man 5 apt.conf)"
+msgstr ""
+
+#. d means days, h means hours, min means minutes, s means seconds
+#: apt-pkg/contrib/strutl.cc:363
+#, c-format
+msgid "%lid %lih %limin %lis"
+msgstr "%lid %lih %limin %lis"
+
+#. h means hours, min means minutes, s means seconds
+#: apt-pkg/contrib/strutl.cc:370
+#, c-format
+msgid "%lih %limin %lis"
+msgstr "%lih %limin %lis"
+
+#. min means minutes, s means seconds
+#: apt-pkg/contrib/strutl.cc:377
+#, c-format
+msgid "%limin %lis"
+msgstr "%limin %lis"
+
+#. s means seconds
+#: apt-pkg/contrib/strutl.cc:382
+#, c-format
+msgid "%lis"
+msgstr "%lis"
+
+#: apt-pkg/contrib/strutl.cc:1057
+#, c-format
+msgid "Selection %s not found"
+msgstr "चयन %s फेला पार्न सकिएन"
+
+#: apt-pkg/contrib/configuration.cc:452
+#, c-format
+msgid "Unrecognized type abbreviation: '%c'"
+msgstr "नचिनिएको टाइप संक्षिप्त रुप: '%c'"
+
+#: apt-pkg/contrib/configuration.cc:510
+#, c-format
+msgid "Opening configuration file %s"
+msgstr "कनफिगरेसन फाइल खोलिदैछ %s"
+
+#: apt-pkg/contrib/configuration.cc:678
+#, c-format
+msgid "Syntax error %s:%u: Block starts with no name."
+msgstr "वाक्य संरचना त्रुटि %s:%u: बन्द कुनै नाम बिना सुरू हुन्छ ।"
+
+#: apt-pkg/contrib/configuration.cc:697
+#, c-format
+msgid "Syntax error %s:%u: Malformed tag"
+msgstr "वाक्य संरचना त्रुटि %s:%u: वैरुप गरिएको ट्याग"
+
+#: apt-pkg/contrib/configuration.cc:714
+#, c-format
+msgid "Syntax error %s:%u: Extra junk after value"
+msgstr "वाक्य संरचना त्रुटि %s:%u: मान पछाडि अतिरिक्त जंक"
+
+#: apt-pkg/contrib/configuration.cc:754
+#, c-format
+msgid "Syntax error %s:%u: Directives can only be done at the top level"
+msgstr "वाक्य संरचना त्रुटि %s:%u: निर्देशनहरू माथिल्लो तहबाट मात्र हुन्छ"
+
+#: apt-pkg/contrib/configuration.cc:761
+#, c-format
+msgid "Syntax error %s:%u: Too many nested includes"
+msgstr "वाक्य संरचना त्रुटि %s:%u: अति धेरै नेस्टेड समावेश गर्दछ"
+
+#: apt-pkg/contrib/configuration.cc:765 apt-pkg/contrib/configuration.cc:770
+#, c-format
+msgid "Syntax error %s:%u: Included from here"
+msgstr "वाक्य संरचना त्रुटि %s:%u: यहाँ बाट समावेश गरेको"
+
+#: apt-pkg/contrib/configuration.cc:774
+#, c-format
+msgid "Syntax error %s:%u: Unsupported directive '%s'"
+msgstr "वाक्य संरचना त्रुटि %s:%u: समर्थन नभएको डाइरेक्टिभ '%s'"
+
+#: apt-pkg/contrib/configuration.cc:825
+#, c-format
+msgid "Syntax error %s:%u: Extra junk at end of file"
+msgstr "वाक्य संरचना त्रुटि %s:%u:फाइलको अन्त्यमा अतिरिक्त जंक"
+
+#: apt-pkg/contrib/progress.cc:153
+#, c-format
+msgid "%c%s... Error!"
+msgstr "%c%s... त्रुटि!"
+
+#: apt-pkg/contrib/progress.cc:155
+#, c-format
+msgid "%c%s... Done"
+msgstr "%c%s... गरियो"
+
+#: apt-pkg/contrib/cmndline.cc:77
+#, c-format
+msgid "Command line option '%c' [from %s] is not known."
+msgstr "आदेश लाइन विकल्प '%c' [%s बाट] ज्ञात छैन ।"
+
+#: apt-pkg/contrib/cmndline.cc:103 apt-pkg/contrib/cmndline.cc:111
+#: apt-pkg/contrib/cmndline.cc:119
+#, c-format
+msgid "Command line option %s is not understood"
+msgstr "आदेश लाइन विकल्प %s बुझिएन"
+
+#: apt-pkg/contrib/cmndline.cc:124
+#, c-format
+msgid "Command line option %s is not boolean"
+msgstr "आदेश लाइन विकल्प %s बूलियन छैन"
+
+#: apt-pkg/contrib/cmndline.cc:163 apt-pkg/contrib/cmndline.cc:184
+#, c-format
+msgid "Option %s requires an argument."
+msgstr "विकल्प %s लाई एउटा तर्कको आवश्यकता पर्दछ ।"
+
+#: apt-pkg/contrib/cmndline.cc:198 apt-pkg/contrib/cmndline.cc:204
+#, c-format
+msgid "Option %s: Configuration item specification must have an =<val>."
+msgstr "विकल्प %s: कनफिगरेसन वस्तु विशिष्टिकरण संग एउटा =<val> हुनुपर्छ ।"
+
+#: apt-pkg/contrib/cmndline.cc:234
+#, c-format
+msgid "Option %s requires an integer argument, not '%s'"
+msgstr "विकल्प  %s लाई एउटा इन्टिजर तर्कको आवश्यक पर्दछ, '%s' होइन"
+
+#: apt-pkg/contrib/cmndline.cc:265
+#, c-format
+msgid "Option '%s' is too long"
+msgstr "विकल्प '%s' अति लामो छ"
+
+#: apt-pkg/contrib/cmndline.cc:298
+#, c-format
+msgid "Sense %s is not understood, try true or false."
+msgstr "अर्थ %s बुझिएन, सत्य वा झूठो प्रयास गर्नुहोस् ।"
+
+#: apt-pkg/contrib/cmndline.cc:348
+#, c-format
+msgid "Invalid operation %s"
+msgstr "अवैध सञ्चालन  %s"
+
+#: apt-pkg/contrib/cdromutl.cc:52
+#, c-format
+msgid "Unable to stat the mount point %s"
+msgstr "माउन्ट बिन्दु %s स्थिर गर्न असक्षम"
+
+#: apt-pkg/contrib/cdromutl.cc:162 apt-pkg/contrib/cdromutl.cc:196
+#: apt-pkg/acquire.cc:425 apt-pkg/acquire.cc:450 apt-pkg/clean.cc:39
+#: methods/mirror.cc:91
+#, c-format
+msgid "Unable to change to %s"
+msgstr "%s मा परिवर्तन गर्न असक्षम"
+
+#. Only warn if there are no sources.list.d.
+#. Only warn if there is no sources.list file.
+#: apt-pkg/contrib/cdromutl.cc:166 apt-pkg/contrib/fileutl.cc:240
+#: apt-pkg/sourcelist.cc:159 apt-pkg/sourcelist.cc:165 apt-pkg/acquire.cc:419
+#: apt-pkg/init.cc:93 apt-pkg/init.cc:101 apt-pkg/clean.cc:33
+#: apt-pkg/policy.cc:279 methods/mirror.cc:85
+#, c-format
+msgid "Unable to read %s"
+msgstr "%s पढ्न असफल भयो"
+
+#: apt-pkg/contrib/cdromutl.cc:204
+msgid "Failed to stat the cdrom"
+msgstr "सिडी रोम स्थिर गर्न असफल भयो"
+
+#: apt-pkg/contrib/fileutl.cc:151
+#, c-format
+msgid "Not using locking for read only lock file %s"
+msgstr ""
+"ताल्चा मारिएको फाइल मात्र पढ्नको लागि ताल्चा मार्न प्रयोग गरिएको छैन %s"
+
+#: apt-pkg/contrib/fileutl.cc:156
+#, c-format
+msgid "Could not open lock file %s"
+msgstr "ताल्चा मारिएको फाइल खोल्न सकिएन %s"
+
+#: apt-pkg/contrib/fileutl.cc:174
+#, c-format
+msgid "Not using locking for nfs mounted lock file %s"
+msgstr "nfs माउन्ट गरिएको लक फाइलको लागि लक प्रयोग गरिएको छैन %s"
+
+#: apt-pkg/contrib/fileutl.cc:178
+#, c-format
+msgid "Could not get lock %s"
+msgstr "ताल्चा प्राप्त गर्न सकिएन %s"
+
+#: apt-pkg/contrib/fileutl.cc:568
+#, c-format
+msgid "Waited for %s but it wasn't there"
+msgstr "%s को लागि पर्खिरहेको तर यो त्यहाँ छैन"
+
+#: apt-pkg/contrib/fileutl.cc:580
+#, c-format
+msgid "Sub-process %s received a segmentation fault."
+msgstr "सहायक प्रक्रिया %s ले खण्डिकरण गल्ति प्राप्त भयो ।"
+
+#: apt-pkg/contrib/fileutl.cc:582
+#, c-format
+msgid "Sub-process %s received signal %u."
+msgstr ""
+
+#: apt-pkg/contrib/fileutl.cc:586
+#, c-format
+msgid "Sub-process %s returned an error code (%u)"
+msgstr "सहायक प्रक्रिया %s ले एउटा त्रुटि कोड फर्कायो (%u)"
+
+#: apt-pkg/contrib/fileutl.cc:588
+#, c-format
+msgid "Sub-process %s exited unexpectedly"
+msgstr "सहायक प्रक्रिया %s अनपेक्षित बन्द भयो"
+
+#: apt-pkg/contrib/fileutl.cc:632
+#, c-format
+msgid "Could not open file %s"
+msgstr "फाइल %s खोल्न सकिएन"
+
+#: apt-pkg/contrib/fileutl.cc:688
+#, c-format
+msgid "read, still have %lu to read but none left"
+msgstr "पड्नुहोस्, अहिले सम्म %lu पढ्न छ तर कुनै बाँकी छैन"
+
+#: apt-pkg/contrib/fileutl.cc:718
+#, c-format
+msgid "write, still have %lu to write but couldn't"
+msgstr "लेख्नुहोस्, अहिले सम्म %lu लेख्न छ तर सकिदैन"
+
+#: apt-pkg/contrib/fileutl.cc:793
+msgid "Problem closing the file"
+msgstr "फाइल बन्द गर्दा समस्या"
+
+#: apt-pkg/contrib/fileutl.cc:799
+msgid "Problem unlinking the file"
+msgstr "फाइल अनलिङ्क गर्दा समस्या"
+
+#: apt-pkg/contrib/fileutl.cc:810
+msgid "Problem syncing the file"
+msgstr "फाइल गुप्तिकरण गर्दा समस्या"
+
+#: apt-pkg/pkgcache.cc:132
+msgid "Empty package cache"
+msgstr "खाली प्याकेज क्यास"
+
+#: apt-pkg/pkgcache.cc:138
+msgid "The package cache file is corrupted"
+msgstr "प्याकेज क्यास फाइल दूषित भयो"
+
+#: apt-pkg/pkgcache.cc:143
+msgid "The package cache file is an incompatible version"
+msgstr "प्याकेज क्यास फाइल एउटा अमिल्दो संस्करण हो"
+
+#: apt-pkg/pkgcache.cc:148
+#, c-format
+msgid "This APT does not support the versioning system '%s'"
+msgstr "यो APT ले संस्करण प्रणालीलाई समर्थन गर्दैन '%s'"
+
+#: apt-pkg/pkgcache.cc:153
+msgid "The package cache was built for a different architecture"
+msgstr "प्याकेज क्यास विभिन्न वास्तुकलाको लागि निर्माण भएको हो"
+
+#: apt-pkg/pkgcache.cc:224
+msgid "Depends"
+msgstr "आधारित"
+
+#: apt-pkg/pkgcache.cc:224
+msgid "PreDepends"
+msgstr "पुन:आधारित"
+
+#: apt-pkg/pkgcache.cc:224
+msgid "Suggests"
+msgstr "सुझाव दिन्छ"
+
+#: apt-pkg/pkgcache.cc:225
+msgid "Recommends"
+msgstr "सिफारिस गर्दछ"
+
+#: apt-pkg/pkgcache.cc:225
+msgid "Conflicts"
+msgstr "द्वन्दहरू"
+
+#: apt-pkg/pkgcache.cc:225
+msgid "Replaces"
+msgstr "बदल्छ"
+
+#: apt-pkg/pkgcache.cc:226
+msgid "Obsoletes"
+msgstr "वेकायमहरू"
+
+#: apt-pkg/pkgcache.cc:226
+msgid "Breaks"
+msgstr ""
+
+#: apt-pkg/pkgcache.cc:226
+msgid "Enhances"
+msgstr ""
+
+#: apt-pkg/pkgcache.cc:237
+msgid "important"
+msgstr "महत्वपूर्ण"
+
+#: apt-pkg/pkgcache.cc:237
+msgid "required"
+msgstr "आवश्यक"
+
+#: apt-pkg/pkgcache.cc:237
+msgid "standard"
+msgstr "मानक"
+
+#: apt-pkg/pkgcache.cc:238
+msgid "optional"
+msgstr "वैकल्पिक"
+
+#: apt-pkg/pkgcache.cc:238
+msgid "extra"
+msgstr "अतिरिक्त"
+
+#: apt-pkg/depcache.cc:123 apt-pkg/depcache.cc:152
+msgid "Building dependency tree"
+msgstr "निर्भरता ट्री निर्माण गरिदैछ"
+
+#: apt-pkg/depcache.cc:124
+msgid "Candidate versions"
+msgstr "उमेद्वार संस्करणहरू"
+
+#: apt-pkg/depcache.cc:153
+msgid "Dependency generation"
+msgstr "निर्भरता सिर्जना"
+
+#: apt-pkg/depcache.cc:173 apt-pkg/depcache.cc:193 apt-pkg/depcache.cc:197
+msgid "Reading state information"
+msgstr ""
+
+#: apt-pkg/depcache.cc:223
+#, c-format
+msgid "Failed to open StateFile %s"
+msgstr ""
+
+#: apt-pkg/depcache.cc:229
+#, c-format
+msgid "Failed to write temporary StateFile %s"
+msgstr ""
+
+#: apt-pkg/tagfile.cc:102
+#, c-format
+msgid "Unable to parse package file %s (1)"
+msgstr "प्याकेज फाइल पद वर्णन गर्न असक्षम %s (१)"
+
+#: apt-pkg/tagfile.cc:189
+#, c-format
+msgid "Unable to parse package file %s (2)"
+msgstr "प्याकेज फाइल पद वर्णन गर्न असक्षम %s (२)"
+
+#: apt-pkg/sourcelist.cc:83
+#, c-format
+msgid "Malformed line %lu in source list %s (URI)"
+msgstr "वैरुप्य लाइन %lu स्रोत सूचिमा %s (URI)"
+
+#: apt-pkg/sourcelist.cc:85
+#, c-format
+msgid "Malformed line %lu in source list %s (dist)"
+msgstr "वैरुप्य लाइन %lu स्रोत सूचिमा %s (dist)"
+
+#: apt-pkg/sourcelist.cc:88
+#, c-format
+msgid "Malformed line %lu in source list %s (URI parse)"
+msgstr "वैरुप्य लाइन %lu स्रोत सूचिमा %s (URI पद वर्णन)"
+
+#: apt-pkg/sourcelist.cc:94
+#, c-format
+msgid "Malformed line %lu in source list %s (absolute dist)"
+msgstr "वैरुप्य लाइन %lu स्रोत सूचिमा %s (पूर्ण dist)"
+
+#: apt-pkg/sourcelist.cc:101
+#, c-format
+msgid "Malformed line %lu in source list %s (dist parse)"
+msgstr "वैरुप्य लाइन %lu स्रोत सूचिमा %s (dist पद वर्णन )"
+
+#: apt-pkg/sourcelist.cc:199
+#, c-format
+msgid "Opening %s"
+msgstr "%s खोलिदैछ"
+
+#: apt-pkg/sourcelist.cc:216 apt-pkg/cdrom.cc:445
+#, c-format
+msgid "Line %u too long in source list %s."
+msgstr "लाइन %u स्रोत सूचि %s मा अति लामो छ ।"
+
+#: apt-pkg/sourcelist.cc:236
+#, c-format
+msgid "Malformed line %u in source list %s (type)"
+msgstr "वैरुप्य लाइन %u स्रोत सूचिमा %s (प्रकार)"
+
+#: apt-pkg/sourcelist.cc:240
+#, c-format
+msgid "Type '%s' is not known on line %u in source list %s"
+msgstr "स्रोत सूची %s भित्र %u लाइनमा टाइप '%s' ज्ञात छैन"
+
+#: apt-pkg/sourcelist.cc:248 apt-pkg/sourcelist.cc:251
+#, c-format
+msgid "Malformed line %u in source list %s (vendor id)"
+msgstr "वैरुप्य लाइन %u स्रोत सूचिमा %s (बिक्रता आइडी)"
+
+#: apt-pkg/packagemanager.cc:324 apt-pkg/packagemanager.cc:586
+#, c-format
+msgid ""
+"Could not perform immediate configuration on '%s'.Please see man 5 apt.conf "
+"under APT::Immediate-Configure for details. (%d)"
+msgstr ""
+
+#: apt-pkg/packagemanager.cc:440
+#, c-format
+msgid ""
+"This installation run will require temporarily removing the essential "
+"package %s due to a Conflicts/Pre-Depends loop. This is often bad, but if "
+"you really want to do it, activate the APT::Force-LoopBreak option."
+msgstr ""
+"द्वन्द/पुन-आधारित लूपको कारणले गर्दा स्थापना चलाउनको लागि अस्थायी रुपमा "
+"प्याकेज %s हटाउनु पर्नेछ । यो प्राय नराम्रो हो, तर यदि तपाईँ यो साँच्चै गर्न "
+"चाहनुहुन्छ भने, APT::Force-LoopBreak विकल्प सक्रिय गर्नुहोस् ।"
+
+#: apt-pkg/packagemanager.cc:478
+#, c-format
+msgid ""
+"Could not perform immediate configuration on already unpacked '%s'.Please "
+"see man 5 apt.conf under APT::Immediate-Configure for details."
+msgstr ""
+
+#: apt-pkg/pkgrecords.cc:32
+#, c-format
+msgid "Index file type '%s' is not supported"
+msgstr "अनुक्रमणिका फाइल प्रकार '%s' समर्थित छैन"
+
+#: apt-pkg/algorithms.cc:248
+#, c-format
+msgid ""
+"The package %s needs to be reinstalled, but I can't find an archive for it."
+msgstr ""
+"प्याकेज %s पुन:स्थापना हुन चाहन्छ, तर यसको लागि मैले एउटा संग्रह फेला पार्न "
+"सकिन ।"
+
+#: apt-pkg/algorithms.cc:1138
+msgid ""
+"Error, pkgProblemResolver::Resolve generated breaks, this may be caused by "
+"held packages."
+msgstr ""
+"त्रुटि, pkgProblemResolver:: समाधानले विच्छेदन सिर्जना गर्दछ, यो भइरहेको "
+"प्याकेजहरुको कारणले गर्दा हो ।"
+
+#: apt-pkg/algorithms.cc:1140
+msgid "Unable to correct problems, you have held broken packages."
+msgstr "समस्याहरू सुधार्न असक्षम भयो, तपाईँले प्याकेजहरु भाँच्नुभयो ।"
+
+#: apt-pkg/algorithms.cc:1388
+#, c-format
+msgid "Failed to fetch %s  %s\n"
+msgstr "%s  %s तान्न असफल भयो\n"
+
+#: apt-pkg/algorithms.cc:1414 apt-pkg/algorithms.cc:1416
+msgid ""
+"Some index files failed to download, they have been ignored, or old ones "
+"used instead."
+msgstr ""
+"केही अनुक्रमणिका फाइलहरू डाउनलोड गर्न असफल भयो, तिनीहरू उपेक्षित भए, वा "
+"सट्टामा पुरानो एउटा प्रयोग गरियो ।"
+
+#: apt-pkg/acquire.cc:60
+#, c-format
+msgid "Lists directory %spartial is missing."
+msgstr "आंशिक सूचिहरुको डाइरेक्ट्री %s हराइरहेछ ।"
+
+#: apt-pkg/acquire.cc:64
+#, c-format
+msgid "Archive directory %spartial is missing."
+msgstr "आंशिक संग्रह डाइरेक्ट्री %s हराइरहेछ ।"
+
+#. only show the ETA if it makes sense
+#. two days
+#: apt-pkg/acquire.cc:826
+#, c-format
+msgid "Retrieving file %li of %li (%s remaining)"
+msgstr "%li को %li फाइल पुन:प्राप्त गरिदैछ (%s बाँकी छ)"
+
+#: apt-pkg/acquire.cc:828
+#, c-format
+msgid "Retrieving file %li of %li"
+msgstr "%li को %li फाइल पुन:प्राप्त गरिदैछ"
+
+#: apt-pkg/acquire-worker.cc:110
+#, c-format
+msgid "The method driver %s could not be found."
+msgstr "विधि ड्राइभर %s फेला पार्न सकिएन ।"
+
+#: apt-pkg/acquire-worker.cc:159
+#, c-format
+msgid "Method %s did not start correctly"
+msgstr "विधि %s सही रुपले सुरू हुन सकेन"
+
+#: apt-pkg/acquire-worker.cc:413
+#, c-format
+msgid ""
+"Please insert the disc labeled: '%s' in the drive '%s' and press enter."
+msgstr ""
+"कृपया डिस्क लेबुल: '%s' ड्राइभ '%s'मा घुसउनुहोस् र इन्टर थिच्नुहोस् ।"
+
+#: apt-pkg/init.cc:136
+#, c-format
+msgid "Packaging system '%s' is not supported"
+msgstr "प्याकिङ्ग प्रणाली '%s' समर्थित छैन"
+
+#: apt-pkg/init.cc:152
+msgid "Unable to determine a suitable packaging system type"
+msgstr "उपयुक्त प्याकिङ्ग प्रणाली प्रकार निर्धारन गर्न असक्षम भयो"
+
+#: apt-pkg/clean.cc:56
+#, c-format
+msgid "Unable to stat %s."
+msgstr "%s स्थिर गर्न असक्षम भयो ।"
+
+#: apt-pkg/srcrecords.cc:44
+msgid "You must put some 'source' URIs in your sources.list"
+msgstr "तपाईँको स्रोत सूचिमा केही 'source' URIs राख्नुहोस्"
+
+#: apt-pkg/cachefile.cc:65
+msgid "The list of sources could not be read."
+msgstr "स्रोतहरुको सूचि पढ्न सकिएन ।"
+
+#: apt-pkg/cachefile.cc:71
+msgid "The package lists or status file could not be parsed or opened."
+msgstr "प्याकेज सूचीहरू वा वस्तुस्थिति फाइल पद वर्णन गर्न वा खोल्न सकिएन ।"
+
+#: apt-pkg/cachefile.cc:75
+msgid "You may want to run apt-get update to correct these problems"
+msgstr "यो समस्याहरू सुधार्न तपाईँ apt-get अद्यावधिक चलाउन चाहनुहुन्छ"
+
+#: apt-pkg/policy.cc:316
+#, c-format
+msgid "Invalid record in the preferences file %s, no Package header"
+msgstr ""
+
+#: apt-pkg/policy.cc:338
+#, c-format
+msgid "Did not understand pin type %s"
+msgstr "पिन टाइप %s बुझ्न सकिएन"
+
+#: apt-pkg/policy.cc:346
+msgid "No priority (or zero) specified for pin"
+msgstr "पिनको लागि कुनै प्राथमिकता (वा शून्य) निर्दिष्ट छैन"
+
+#: apt-pkg/pkgcachegen.cc:74
+msgid "Cache has an incompatible versioning system"
+msgstr "क्यास संग एउटा नमिल्दो संस्करण प्रणाली छ"
+
+#: apt-pkg/pkgcachegen.cc:117
+#, c-format
+msgid "Error occurred while processing %s (NewPackage)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (नयाँ प्याकेज)"
+
+#: apt-pkg/pkgcachegen.cc:132
+#, c-format
+msgid "Error occurred while processing %s (UsePackage1)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (प्याकेज १ प्रयोग गर्नुहोस्)"
+
+#: apt-pkg/pkgcachegen.cc:166
+#, c-format
+msgid "Error occurred while processing %s (NewFileDesc1)"
+msgstr ""
+
+#: apt-pkg/pkgcachegen.cc:191
+#, c-format
+msgid "Error occurred while processing %s (UsePackage2)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (प्याकेज २ प्रयोग गर्नुहोस्)"
+
+#: apt-pkg/pkgcachegen.cc:195
+#, c-format
+msgid "Error occurred while processing %s (NewFileVer1)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (नयाँ फाइल संस्करण १)"
+
+#: apt-pkg/pkgcachegen.cc:226
+#, c-format
+msgid "Error occurred while processing %s (NewVersion1)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (नयाँ संस्करण १)"
+
+#: apt-pkg/pkgcachegen.cc:230
+#, c-format
+msgid "Error occurred while processing %s (UsePackage3)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (प्याकेज ३ प्रयोग गर्नुहोस्)"
+
+#: apt-pkg/pkgcachegen.cc:234
+#, c-format
+msgid "Error occurred while processing %s (NewVersion2)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (नयाँ संस्करण २)"
+
+#: apt-pkg/pkgcachegen.cc:258
+#, c-format
+msgid "Error occurred while processing %s (NewFileDesc2)"
+msgstr ""
+
+#: apt-pkg/pkgcachegen.cc:264
+msgid "Wow, you exceeded the number of package names this APT is capable of."
+msgstr ""
+"वाऊ, APT ले सक्षम गरेको प्याकेज नामहरुको नम्बरलाई तपाईँले उछिन्नुभयो ।"
+
+#: apt-pkg/pkgcachegen.cc:267
+msgid "Wow, you exceeded the number of versions this APT is capable of."
+msgstr "वाऊ, APT ले सक्षम गरेको संस्करणहरुको नम्बरलाई तपाईँले उछिन्नुभयो ।"
+
+#: apt-pkg/pkgcachegen.cc:270
+msgid "Wow, you exceeded the number of descriptions this APT is capable of."
+msgstr ""
+
+#: apt-pkg/pkgcachegen.cc:273
+msgid "Wow, you exceeded the number of dependencies this APT is capable of."
+msgstr "वाऊ, APT ले सक्षम गरेको निर्भरताहरुको नम्बरलाई तपाईँले उछिन्नुभयो ।"
+
+#: apt-pkg/pkgcachegen.cc:301
+#, c-format
+msgid "Error occurred while processing %s (FindPkg)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (pkg फेला पार्नुहोस् )"
+
+#: apt-pkg/pkgcachegen.cc:314
+#, c-format
+msgid "Error occurred while processing %s (CollectFileProvides)"
+msgstr "%s प्रक्रिया गर्दा त्रुटि देखा पर्यो (संकलन फाइलले उपलब्ध गर्दछ)"
+
+#: apt-pkg/pkgcachegen.cc:320
+#, c-format
+msgid "Package %s %s was not found while processing file dependencies"
+msgstr "फाइल निर्भरताहरू प्रक्रिया गर्दा प्याकेज %s %s फेला परेन"
+
+#: apt-pkg/pkgcachegen.cc:706
+#, c-format
+msgid "Couldn't stat source package list %s"
+msgstr "स्रोत प्याकेज सूची %s स्थिर गर्न सकिएन"
+
+#. Build the status cache
+#: apt-pkg/pkgcachegen.cc:793 apt-pkg/pkgcachegen.cc:865
+#: apt-pkg/pkgcachegen.cc:870 apt-pkg/pkgcachegen.cc:1008
+msgid "Reading package lists"
+msgstr "प्याकेज सूचिहरू पढिदैछ"
+
+#: apt-pkg/pkgcachegen.cc:808
+msgid "Collecting File Provides"
+msgstr "फाइल उपलब्धताहरू संकलन गरिदैछ"
+
+#: apt-pkg/pkgcachegen.cc:863
+#, c-format
+msgid "Unable to write to %s"
+msgstr "%s मा लेख्न असक्षम"
+
+#: apt-pkg/pkgcachegen.cc:952 apt-pkg/pkgcachegen.cc:959
+msgid "IO Error saving source cache"
+msgstr "स्रोत क्यास बचत गर्दा IO त्रुटि"
+
+#: apt-pkg/acquire-item.cc:135
+#, c-format
+msgid "rename failed, %s (%s -> %s)."
+msgstr "पुन:नामकरण असफल गरियो, %s (%s -> %s) ।"
+
+#: apt-pkg/acquire-item.cc:481
+msgid "MD5Sum mismatch"
+msgstr "MD5Sum मेल भएन"
+
+#: apt-pkg/acquire-item.cc:734 apt-pkg/acquire-item.cc:1499
+msgid "Hash Sum mismatch"
+msgstr ""
+
+#: apt-pkg/acquire-item.cc:1194
+msgid "There is no public key available for the following key IDs:\n"
+msgstr "निम्न कुञ्जी IDs को लागि कुनै सार्वजनिक कुञ्जी उपलब्ध छैन:\n"
+
+#: apt-pkg/acquire-item.cc:1267
+#, c-format
+msgid ""
+"A error occurred during the signature verification. The repository is not "
+"updated and the previous index files will be used.GPG error: %s: %s\n"
+msgstr ""
+
+#: apt-pkg/acquire-item.cc:1276
+#, c-format
+msgid "GPG error: %s: %s"
+msgstr ""
+
+#: apt-pkg/acquire-item.cc:1304
+#, c-format
+msgid ""
+"I wasn't able to locate a file for the %s package. This might mean you need "
+"to manually fix this package. (due to missing arch)"
+msgstr ""
+"%s प्याकेजको लागि मैले फाइल स्थित गर्न सकिन । यसको मतलब तपाईँले म्यानुल्ली "
+"यो प्याकेज निश्चित गर्नुहोस् । (arch हराएरहेको कारणले)"
+
+#: apt-pkg/acquire-item.cc:1363
+#, c-format
+msgid ""
+"I wasn't able to locate file for the %s package. This might mean you need to "
+"manually fix this package."
+msgstr ""
+"%s प्याकेजको लागि मैले फाइल स्थित गर्न सकिन । यसको मतलब तपाईँले म्यानुल्ली "
+"यो प्याकेज निश्चित गर्नुहोस् ।"
+
+#: apt-pkg/acquire-item.cc:1404
+#, c-format
+msgid ""
+"The package index files are corrupted. No Filename: field for package %s."
+msgstr ""
+"प्याकेज अनुक्रमणिका फाइलहरू दूषित भए । प्याकेज %s को लागि कुनै फाइलनाम: फाँट "
+"छैन ।"
+
+#: apt-pkg/acquire-item.cc:1491
+msgid "Size mismatch"
+msgstr "साइज मेल खाएन"
+
+#: apt-pkg/indexrecords.cc:40
+#, c-format
+msgid "Unable to parse Release file %s"
+msgstr ""
+
+#: apt-pkg/indexrecords.cc:47
+#, c-format
+msgid "No sections in Release file %s"
+msgstr ""
+
+#: apt-pkg/indexrecords.cc:81
+#, c-format
+msgid "No Hash entry in Release file %s"
+msgstr ""
+
+#: apt-pkg/vendorlist.cc:66
+#, c-format
+msgid "Vendor block %s contains no fingerprint"
+msgstr "बिक्रता ब्ल्क %s ले कुनै औठाछाप समाविष्ट गर्दैन"
+
+#: apt-pkg/cdrom.cc:525
+#, c-format
+msgid ""
+"Using CD-ROM mount point %s\n"
+"Mounting CD-ROM\n"
+msgstr ""
+"सिडी रोम माउन्ट विन्दु प्रयोग गरिदैछ %s\n"
+"सिडी रोम माउन्ट गरिदैछ\n"
+
+#: apt-pkg/cdrom.cc:534 apt-pkg/cdrom.cc:622
+msgid "Identifying.. "
+msgstr "परिचय गराइदैछ.. "
+
+#: apt-pkg/cdrom.cc:559
+#, c-format
+msgid "Stored label: %s\n"
+msgstr "लेबुल भण्डारण गर्नुहोस्:%s\n"
+
+#: apt-pkg/cdrom.cc:566 apt-pkg/cdrom.cc:834
+msgid "Unmounting CD-ROM...\n"
+msgstr ""
+
+#: apt-pkg/cdrom.cc:585
+#, c-format
+msgid "Using CD-ROM mount point %s\n"
+msgstr "सिडी रोम माउन्ट विन्दु प्रयोग गरिदैछ %s\n"
+
+#: apt-pkg/cdrom.cc:603
+msgid "Unmounting CD-ROM\n"
+msgstr "सिडी रोम अनमाउन्ट गरिदैछ\n"
+
+#: apt-pkg/cdrom.cc:607
+msgid "Waiting for disc...\n"
+msgstr "डिस्को लागि पर्खिदै...\n"
+
+#. Mount the new CDROM
+#: apt-pkg/cdrom.cc:615
+msgid "Mounting CD-ROM...\n"
+msgstr "सिडी रोम माउन्ट गरिदै...\n"
+
+#: apt-pkg/cdrom.cc:633
+msgid "Scanning disc for index files..\n"
+msgstr "अनुक्रमणिका फाइलहरुको लागि डिस्क स्क्यान गरिदैछ...\n"
+
+#: apt-pkg/cdrom.cc:673
+#, c-format
+msgid ""
+"Found %zu package indexes, %zu source indexes, %zu translation indexes and "
+"%zu signatures\n"
+msgstr ""
+
+#: apt-pkg/cdrom.cc:684
+msgid ""
+"Unable to locate any package files, perhaps this is not a Debian Disc or the "
+"wrong architecture?"
+msgstr ""
+
+#: apt-pkg/cdrom.cc:710
+#, c-format
+msgid "Found label '%s'\n"
+msgstr "लेबल '%s' फेला पर्यो\n"
+
+#: apt-pkg/cdrom.cc:739
+msgid "That is not a valid name, try again.\n"
+msgstr "त्यो वैध नाम होइन, फेरी प्रयास गर्नुहोस् ।\n"
+
+#: apt-pkg/cdrom.cc:755
+#, c-format
+msgid ""
+"This disc is called: \n"
+"'%s'\n"
+msgstr ""
+"यो डिस्कको नाम:\n"
+"'%s'\n"
+
+#: apt-pkg/cdrom.cc:759
+msgid "Copying package lists..."
+msgstr "प्यकेज सूचिहरू प्रतिलिपी गरिदैछ..."
+
+#: apt-pkg/cdrom.cc:785
+msgid "Writing new source list\n"
+msgstr "नयाँ स्रोत सूचि लेखिदैछ\n"
+
+#: apt-pkg/cdrom.cc:794
+msgid "Source list entries for this disc are:\n"
+msgstr "यो डिस्कको लागि स्रोत सूचि प्रविष्टिहरू:\n"
+
+#: apt-pkg/indexcopy.cc:263 apt-pkg/indexcopy.cc:835
+#, c-format
+msgid "Wrote %i records.\n"
+msgstr "%i रेकर्डहरू लेखियो ।\n"
+
+#: apt-pkg/indexcopy.cc:265 apt-pkg/indexcopy.cc:837
+#, c-format
+msgid "Wrote %i records with %i missing files.\n"
+msgstr "हराइरहेको फाइल %i हरू संगै %i रेकर्डहरू लेख्नुहोस् ।\n"
+
+#: apt-pkg/indexcopy.cc:268 apt-pkg/indexcopy.cc:840
+#, c-format
+msgid "Wrote %i records with %i mismatched files\n"
+msgstr "मेल नखाएका फाइल %i हरू संगै %i रेकर्डहरू लेख्नुहोस् ।\n"
+
+#: apt-pkg/indexcopy.cc:271 apt-pkg/indexcopy.cc:843
+#, c-format
+msgid "Wrote %i records with %i missing files and %i mismatched files\n"
+msgstr ""
+"हराइरहेको फाइल %i हरू र मेल नखाएका फाइल %i हरू संगै %i रेकर्डहरू लेख्नुहोस् "
+"।\n"
+
+#: apt-pkg/indexcopy.cc:530
+#, c-format
+msgid "Skipping nonexistent file %s"
+msgstr ""
+
+#: apt-pkg/indexcopy.cc:536
+#, c-format
+msgid "Can't find authentication record for: %s"
+msgstr ""
+
+#: apt-pkg/indexcopy.cc:542
+#, c-format
+msgid "Hash mismatch for: %s"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:51
+#, c-format
+msgid "Installing %s"
+msgstr "%s इन्सटल गर्दै"
+
+#: apt-pkg/deb/dpkgpm.cc:52 apt-pkg/deb/dpkgpm.cc:732
+#, c-format
+msgid "Configuring %s"
+msgstr "%s कनफिगर गरिदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:53 apt-pkg/deb/dpkgpm.cc:739
+#, c-format
+msgid "Removing %s"
+msgstr "%s हटाइदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:54
+#, c-format
+msgid "Completely removing %s"
+msgstr "%s पूर्ण रुपले हटाउँदै"
+
+#: apt-pkg/deb/dpkgpm.cc:55
+#, c-format
+msgid "Running post-installation trigger %s"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:580
+#, c-format
+msgid "Directory '%s' missing"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:595
+#, c-format
+msgid "Could not open file '%s'"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:725
+#, c-format
+msgid "Preparing %s"
+msgstr "%s तयार गरिदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:726
+#, c-format
+msgid "Unpacking %s"
+msgstr "%s अनप्याक गरिदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:731
+#, c-format
+msgid "Preparing to configure %s"
+msgstr "%s कनफिगर गर्न तयार गरिदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:733
+#, c-format
+msgid "Installed %s"
+msgstr "%s स्थापना भयो"
+
+#: apt-pkg/deb/dpkgpm.cc:738
+#, c-format
+msgid "Preparing for removal of %s"
+msgstr "%s हटाउन तयार गरिदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:740
+#, c-format
+msgid "Removed %s"
+msgstr "%s हट्यो"
+
+#: apt-pkg/deb/dpkgpm.cc:745
+#, c-format
+msgid "Preparing to completely remove %s"
+msgstr "%s पूर्ण रुपले हटाउन तयार गरिदैछ"
+
+#: apt-pkg/deb/dpkgpm.cc:746
+#, c-format
+msgid "Completely removed %s"
+msgstr "%s पूर्ण रुपले हट्यो"
+
+#: apt-pkg/deb/dpkgpm.cc:950
+msgid "Can not write log, openpty() failed (/dev/pts not mounted?)\n"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:980
+msgid "Running dpkg"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:1193
+msgid "No apport report written because MaxReports is reached already"
+msgstr ""
+
+#. check if its not a follow up error
+#: apt-pkg/deb/dpkgpm.cc:1198
+msgid "dependency problems - leaving unconfigured"
+msgstr "निर्भरता समस्याहरू - कन्फिगरेसन नगरेको छोड्दै"
+
+#: apt-pkg/deb/dpkgpm.cc:1200
+msgid ""
+"No apport report written because the error message indicates its a followup "
+"error from a previous failure."
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:1206
+msgid ""
+"No apport report written because the error message indicates a disk full "
+"error"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:1212
+msgid ""
+"No apport report written because the error message indicates a out of memory "
+"error"
+msgstr ""
+
+#: apt-pkg/deb/dpkgpm.cc:1219
+msgid ""
+"No apport report written because the error message indicates a dpkg I/O error"
+msgstr ""
+
+#: apt-pkg/deb/debsystem.cc:69
+#, c-format
+msgid ""
+"Unable to lock the administration directory (%s), is another process using "
+"it?"
+msgstr ""
+
+#: apt-pkg/deb/debsystem.cc:72
+#, c-format
+msgid "Unable to lock the administration directory (%s), are you root?"
+msgstr ""
+
+#: apt-pkg/deb/debsystem.cc:81
+msgid ""
+"dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to "
+"correct the problem. "
+msgstr ""
+
+#: apt-pkg/deb/debsystem.cc:99
+msgid "Not locked"
+msgstr ""
+
+#. FIXME: fallback to a default mirror here instead
+#. and provide a config option to define that default
+#: methods/mirror.cc:172
+#, c-format
+msgid "No mirror file '%s' found "
+msgstr ""
+
+#: methods/rred.cc:465
+#, c-format
+msgid ""
+"Could not patch %s with mmap and with file operation usage - the patch seems "
+"to be corrupt."
+msgstr ""
+
+#: methods/rred.cc:470
+#, c-format
+msgid ""
+"Could not patch %s with mmap (but no mmap specific fail) - the patch seems "
+"to be corrupt."
+msgstr ""
+
+#: methods/rsh.cc:91
+msgid "Failed to create IPC pipe to subprocess"
+msgstr "सहायक प्रक्रियामा IPC पाइप सिर्जना गर्न असफल"
+
+#: methods/rsh.cc:330
+msgid "Connection closed prematurely"
+msgstr "जडान असमायिक बन्द भयो"

@@ -1,0 +1,281 @@
+# translation of audiocd_encoder_vorbis.po to Nepali
+# Ishwor Sharma <sharmabeeshwar@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: audiocd_encoder_vorbis\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 12:09+0000\n"
+"PO-Revision-Date: 2008-10-07 15:13+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:10
+#. i18n: ectx: label, entry (vorbis_enc_method), group (Vorbis)
+#: rc.cpp:3
+msgid "Vorbis Encoding Quality or Bitrate"
+msgstr "भर्बिस सङ्केतन गुणस्तर वा बिटरेट"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:15
+#. i18n: ectx: label, entry (set_vorbis_min_br), group (Vorbis)
+#: rc.cpp:6
+msgid "Minimal bitrate specified"
+msgstr "न्यूनतम बिटरेट निर्दिष्ट गरियो"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:19
+#. i18n: ectx: label, entry (set_vorbis_max_br), group (Vorbis)
+#: rc.cpp:9
+msgid "Maximal bitrate specified"
+msgstr "अधिकतम बिटरेट निर्दिष्ट गरियो"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:23
+#. i18n: ectx: label, entry (set_vorbis_nominal_br), group (Vorbis)
+#: rc.cpp:12
+msgid "Average bitrate specified"
+msgstr "औसत बिटरेट निर्दिष्ट गरियो"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:28
+#. i18n: ectx: label, entry (vorbis_comments), group (Vorbis)
+#: rc.cpp:15
+msgid "Add Comments"
+msgstr "टिप्पणी थप्नुहोस्"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:32
+#. i18n: ectx: label, entry (vorbis_quality), group (Vorbis)
+#: rc.cpp:18
+msgid "Quality"
+msgstr "गुणस्तर"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:39
+#. i18n: ectx: label, entry (vorbis_min_br), group (Vorbis)
+#: rc.cpp:21
+msgid "Minimal bitrate"
+msgstr "न्युनतम बिटरेट"
+
+#. i18n: file: audiocd_vorbis_encoder.kcfg:46
+#. i18n: ectx: label, entry (vorbis_max_br), group (Vorbis)
+#. i18n: file: audiocd_vorbis_encoder.kcfg:53
+#. i18n: ectx: label, entry (vorbis_nominal_br), group (Vorbis)
+#. i18n: file: audiocd_vorbis_encoder.kcfg:61
+#. i18n: ectx: label, entry (vorbis_nominal_br), group (Vorbis)
+#: rc.cpp:24 rc.cpp:27 rc.cpp:30
+msgid "maximal bitrate"
+msgstr "अधिकतम बिटरेट"
+
+#. i18n: file: encodervorbisconfig.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_vorbis_enc_method)
+#: rc.cpp:33
+msgid "&Encoding Method"
+msgstr "सङ्केतन विधि"
+
+#. i18n: file: encodervorbisconfig.ui:22
+#. i18n: ectx: property (text), widget (QRadioButton, vorbis_enc_quality)
+#: rc.cpp:36
+msgid "Quality based"
+msgstr "गुणस्तरमा आधारित"
+
+#. i18n: file: encodervorbisconfig.ui:32
+#. i18n: ectx: property (text), widget (QRadioButton, vorbis_enc_bitrate)
+#: rc.cpp:39
+msgid "Bitrate based"
+msgstr "बिटरेटमा आधारित"
+
+#. i18n: file: encodervorbisconfig.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, vorbis_bitrate_settings)
+#: rc.cpp:42
+msgid "Vorbis Bitrate Settings"
+msgstr "भर्बिस बिटरेट सेटिङ"
+
+#. i18n: file: encodervorbisconfig.ui:58
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:138
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:45 rc.cpp:87
+msgid "32 kbs"
+msgstr "३२ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:63
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:143
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:48 rc.cpp:90
+msgid "40 kbs"
+msgstr "४० kbs"
+
+#. i18n: file: encodervorbisconfig.ui:68
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:148
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:51 rc.cpp:93
+msgid "48 kbs"
+msgstr "४८ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:73
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:153
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:54 rc.cpp:96
+msgid "56 kbs"
+msgstr "५६ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:78
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:158
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:57 rc.cpp:99
+msgid "64 kbs"
+msgstr "६४ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:83
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:163
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:60 rc.cpp:102
+msgid "80 kbs"
+msgstr "८० kbs"
+
+#. i18n: file: encodervorbisconfig.ui:88
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:168
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:63 rc.cpp:105
+msgid "96 kbs"
+msgstr "९६ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:173
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:66 rc.cpp:108
+msgid "112 kbs"
+msgstr "११२ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:98
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:178
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#. i18n: file: encodervorbisconfig.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_nominal_br)
+#: rc.cpp:69 rc.cpp:111 rc.cpp:135
+msgid "128 kbs"
+msgstr "१२८ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:103
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:183
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#. i18n: file: encodervorbisconfig.ui:240
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_nominal_br)
+#: rc.cpp:72 rc.cpp:114 rc.cpp:138
+msgid "160 kbs"
+msgstr "१६० kbs"
+
+#. i18n: file: encodervorbisconfig.ui:108
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:188
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#. i18n: file: encodervorbisconfig.ui:245
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_nominal_br)
+#: rc.cpp:75 rc.cpp:117 rc.cpp:141
+msgid "192 kbs"
+msgstr "१९२ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:113
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:193
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#: rc.cpp:78 rc.cpp:120
+msgid "224 kbs"
+msgstr "२२४ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:118
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:198
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#. i18n: file: encodervorbisconfig.ui:250
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_nominal_br)
+#: rc.cpp:81 rc.cpp:123 rc.cpp:144
+msgid "256 kbs"
+msgstr "२५६ kbs"
+
+#. i18n: file: encodervorbisconfig.ui:123
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_min_br)
+#. i18n: file: encodervorbisconfig.ui:203
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_max_br)
+#. i18n: file: encodervorbisconfig.ui:255
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vorbis_nominal_br)
+#: rc.cpp:84 rc.cpp:126 rc.cpp:147
+msgid "350 kbs"
+msgstr "३५० kbs"
+
+#. i18n: file: encodervorbisconfig.ui:214
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_set_vorbis_min_br)
+#: rc.cpp:129
+msgid "M&inimal bitrate:"
+msgstr "न्यूनतम बिटरेट:"
+
+#. i18n: file: encodervorbisconfig.ui:224
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_set_vorbis_max_br)
+#: rc.cpp:132
+msgid "Ma&ximal bitrate:"
+msgstr "अधिकतम बिटरेट:"
+
+#. i18n: file: encodervorbisconfig.ui:263
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_set_vorbis_nominal_br)
+#: rc.cpp:150
+msgid "A&verage bitrate:"
+msgstr "औसत बिटरेट:"
+
+#. i18n: file: encodervorbisconfig.ui:276
+#. i18n: ectx: property (title), widget (QGroupBox, vorbis_quality_settings)
+#: rc.cpp:153
+msgid "Vorbis &Quality Setting"
+msgstr "भर्बिस गुणस्तर सेटिङ"
+
+#. i18n: file: encodervorbisconfig.ui:279
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, vorbis_quality_settings)
+#: rc.cpp:156
+msgid ""
+"You can set the quality of the encoded stream here. A higher value implies a "
+"higher quality but encodes slower."
+msgstr ""
+"यहाँ तपाईँ सङ्केतन गरिएको प्रवाहको गुणस्तर सेट गर्न सक्नुहुन्छ । एउटा उच्च "
+"मानले उच्च गुणलाई सूचित गर्दछ तर सङ्केतन ढिला हुन्छ ।"
+
+#. i18n: file: encodervorbisconfig.ui:297
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, kcfg_vorbis_quality)
+#: rc.cpp:159
+msgid "Higher is better but slower"
+msgstr "उच्च ठीक हुन्छ तर ढिलो छ"
+
+#. i18n: file: encodervorbisconfig.ui:307
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox193)
+#: rc.cpp:162
+msgid "Options"
+msgstr "विकल्प"
+
+#. i18n: file: encodervorbisconfig.ui:316
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_vorbis_comments)
+#: rc.cpp:165
+msgid "Add &track information"
+msgstr "ट्र्याक सूचना थप्नुहोस्"
+
+#. i18n: file: encodervorbisconfig.ui:319
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_vorbis_comments)
+#: rc.cpp:168
+msgid ""
+"Add a description of the song to the file header. This makes it easy for the "
+"user to get advanced song information shown by his media player. You can get "
+"this information automatically via the Internet. Look at the <i>\"CDDB "
+"Retrieval\"</i> control module for details."
+msgstr ""
+"फाइल हेडरमा गीतको विवरण थप्नुहोस् । यसले मिडिया प्लेयरद्वारा देखाउने उन्नत "
+"गीतको सूचना प्राप्त गर्न प्रयोगकर्ताका लागि सजिलो बनाउँदछ । तपाईँले "
+"इन्टरनेटबाट स्वचालित रूपमा सूचना प्राप्त गर्न सक्नुहुन्छ । विस्तृत विवरणका "
+"लागि <i>\"CDDB पुन: प्राप्ति\"</i> मा हेर्नुहोस् ।"

@@ -1,0 +1,298 @@
+# translation of kreversi.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kreversi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2010-04-25 16:23+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:10+0000\n"
+
+#: highscores.cpp:48
+msgid "Very Easy"
+msgstr "ज्यादै सजिलो"
+
+#: highscores.cpp:48
+msgid "Easy"
+msgstr "सजिलो"
+
+#: highscores.cpp:48 mainwindow.cpp:143
+msgid "Normal"
+msgstr "सामान्य"
+
+#: highscores.cpp:49
+msgid "Hard"
+msgstr "कठिन"
+
+#: highscores.cpp:49
+msgid "Very Hard"
+msgstr "धेरै कठिन"
+
+#: highscores.cpp:49
+msgid "Unbeatable"
+msgstr "हराउन नसकिने"
+
+#: highscores.cpp:49
+msgid "Champion"
+msgstr "विजेता"
+
+#: kreversiscene.cpp:521
+msgid "Computer can not move. It is your turn again."
+msgstr ""
+
+#: kreversiscene.cpp:529
+msgid "You can not perform any move. Computer takes next turn now."
+msgstr ""
+
+#: main.cpp:34
+msgid "KDE Reversi Board Game"
+msgstr "केडीई रिभर्सी बोर्ड खेल"
+
+#: main.cpp:38
+msgid "KReversi"
+msgstr "केडीई रिभर्सी"
+
+#: main.cpp:40
+msgid ""
+"(c) 1997-2000, Mario Weilguni\n"
+"(c) 2004-2006, Inge Wallin\n"
+"(c) 2006, Dmitry Suzdalev"
+msgstr ""
+"(c) 1997-2000, मारियो वेल्गुनी\n"
+"(c) 2004-2006, इन्गे वालिन\n"
+"(c) 2006, डिमिट्री सुज्डालेभ"
+
+#: main.cpp:42
+msgid "Mario Weilguni"
+msgstr "मारिओ वेल्गुनी"
+
+#: main.cpp:42 main.cpp:43
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:43
+msgid "Inge Wallin"
+msgstr "इन्गे वालिन"
+
+#: main.cpp:44
+msgid "Dmitry Suzdalev"
+msgstr "डिमिट्रि सुज्डालेभ"
+
+#: main.cpp:44
+msgid "Game rewrite for KDE4. Current maintainer."
+msgstr "केडीई४ का लागि पुन: लेखिएको खेल । हालको मर्मतकर्ता ।"
+
+#: main.cpp:45
+msgid "Simon Hürlimann"
+msgstr "सिमोन हुर्लिम्यान"
+
+#: main.cpp:45
+msgid "Action refactoring"
+msgstr "रिफ्याक्टरिङ कार्य"
+
+#: main.cpp:46
+msgid "Mats Luthman"
+msgstr "म्याट्स लुथम्यान"
+
+#: main.cpp:46
+msgid "Game engine, ported from his JAVA applet."
+msgstr "खेल इन्जिन पोर्ट गरिएको जाभा एप्लेटको मालिक ।"
+
+#: main.cpp:47
+msgid "Arne Klaassen"
+msgstr "आर्ने काल्ससन"
+
+#: main.cpp:47
+msgid "Original raytraced chips."
+msgstr "मौलिक रेट्रेसिङ चिप्स ।"
+
+#: main.cpp:48
+msgid "Mauricio Piacentini"
+msgstr "माउरिसिओ पियासेन्टिनि"
+
+#: main.cpp:48
+msgid "Vector chips and background for KDE4."
+msgstr "केडीई४ का लागि भेक्टर चिप्स र पृष्ठभूमि ।"
+
+#: main.cpp:53
+msgid "Start with demo game playing"
+msgstr "प्रदर्शन खेल खेलेर सुरु गर्नुहोस्"
+
+#: mainwindow.cpp:59
+msgid "Blue"
+msgstr "निलो"
+
+#: mainwindow.cpp:59
+msgid "Red"
+msgstr "रातो"
+
+#: mainwindow.cpp:61
+msgid "Black"
+msgstr "कालो"
+
+#: mainwindow.cpp:61
+msgid "White"
+msgstr "सेतो"
+
+#: mainwindow.cpp:79 mainwindow.cpp:320 mainwindow.cpp:388
+msgid "Your turn."
+msgstr "तपाईँको पालो ।"
+
+#: mainwindow.cpp:80 mainwindow.cpp:449
+#, kde-format
+msgid "You: %1"
+msgstr "तपाईँ: %1"
+
+#: mainwindow.cpp:81 mainwindow.cpp:450
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: mainwindow.cpp:94
+msgid "Move History"
+msgstr "चाल इतिहास"
+
+#: mainwindow.cpp:126
+msgid "Players && Seats"
+msgstr ""
+
+#: mainwindow.cpp:131
+msgid "Show Last Move"
+msgstr "अन्तिम चाल देखाउनुहोस्"
+
+#: mainwindow.cpp:135
+msgid "Show Legal Moves"
+msgstr "वैध चाल देखाउनुहोस्"
+
+#: mainwindow.cpp:139
+msgid "Animation Speed"
+msgstr "एनिमेसन गति"
+
+#: mainwindow.cpp:143
+msgid "Slow"
+msgstr "ढिलो"
+
+#: mainwindow.cpp:143
+msgid "Fast"
+msgstr "छिटो"
+
+#: mainwindow.cpp:156
+msgid "Use Colored Chips"
+msgstr "रङ लगाइएका चिप्स प्रयोग गर्नुहोस्"
+
+#: mainwindow.cpp:161
+msgid "Show Move History"
+msgstr "चाल इतिहास देखाउनुहोस्"
+
+#: mainwindow.cpp:285
+msgid "Online game"
+msgstr "अनलाइन खेल"
+
+#: mainwindow.cpp:338
+msgid "GAME OVER"
+msgstr "खेल समाप्त"
+
+#: mainwindow.cpp:350
+msgid "Game is drawn!"
+msgstr "खेल बराबर भएको छ!"
+
+#: mainwindow.cpp:355
+msgid "You win!"
+msgstr "तपाईँले जित्नुभयो!"
+
+#: mainwindow.cpp:360
+msgid "You have lost!"
+msgstr "तपाईँ खेल हार्नु भयो!"
+
+#: mainwindow.cpp:364
+#, kde-format
+msgid ""
+"\n"
+"You: %1"
+msgstr ""
+"\n"
+"तपाइँ: %1"
+
+#: mainwindow.cpp:365
+#, kde-format
+msgid ""
+"\n"
+"%1: %2"
+msgstr ""
+"\n"
+"%1: %2"
+
+#: mainwindow.cpp:367
+msgid "Game over"
+msgstr "खेल समाप्त ।"
+
+#: mainwindow.cpp:455
+msgid "Opponent"
+msgstr "बिरोधी"
+
+#: mainwindow.cpp:455
+msgid "Computer"
+msgstr "कम्प्युटर"
+
+#. i18n: file: kreversi.kcfg:9
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: rc.cpp:3
+msgid "The speed of the animations."
+msgstr "एनिमेसनको गति ।"
+
+#. i18n: file: kreversi.kcfg:18
+#. i18n: ectx: label, entry (CompetitiveGameChoice), group (Game)
+#: rc.cpp:6
+msgid "Whether to play competitively in contrast to casually."
+msgstr "अचानक रुपबाट व्यतिरेकमा प्रतिस्पर्धा गरेर खेल्ने या नखेल्ने ।"
+
+#. i18n: file: kreversi.kcfg:22
+#. i18n: ectx: label, entry (level), group (Game)
+#: rc.cpp:9
+msgid "Difficulty level"
+msgstr ""
+
+#. i18n: file: kreversi.kcfg:26
+#. i18n: ectx: label, entry (UseColoredChips), group (Game)
+#: rc.cpp:12
+msgid "Whether to use colored chips instead of black and white ones."
+msgstr ""
+"कालो वा सेतो कुनै एक चिप्सको साटोमा रङ लगाइएको चिप्स प्रयोग गर्ने वा नगर्ने ।"
+
+#. i18n: file: kreversiui.rc:13
+#. i18n: ectx: Menu (view)
+#: rc.cpp:15
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: kreversiui.rc:18
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:18
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: kreversiui.rc:25
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com,,,"

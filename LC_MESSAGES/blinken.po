@@ -1,0 +1,230 @@
+# translation of blinken.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: blinken\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 10:11+0000\n"
+"PO-Revision-Date: 2010-04-07 17:41+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:19+0000\n"
+
+#: blinken.cpp:74
+msgctxt ""
+"If the Steve font that is used by Blinken by default to show status messages "
+"does not support any of the characters of your language, please translate "
+"that message to 1 and KDE standard font will be used to show the texts, if "
+"not translate it to 0"
+msgid "0"
+msgstr "०"
+
+#: blinken.cpp:214
+msgid "Sounds"
+msgstr "ध्वनि"
+
+#: blinken.cpp:215
+msgid "Font"
+msgstr "फन्ट"
+
+#: blinken.cpp:257
+msgctxt "@action:button Start a new game"
+msgid "Start"
+msgstr "सुरु गर्नुहोस्"
+
+#: blinken.cpp:269
+msgid "Restart"
+msgstr "फेरि सुरु गर्नुहोस्"
+
+#: blinken.cpp:447
+msgid "Enter Your Name"
+msgstr "तपाईँको नाम प्रविष्ट गर्नुहोस्"
+
+#: blinken.cpp:447
+msgctxt "@label:textbox refers to the user's name"
+msgid "Name:"
+msgstr "नाम:"
+
+#: blinken.cpp:737
+msgid "Restart the game"
+msgstr "खेल फेरि सुरु गर्नुहोस्"
+
+#: blinken.cpp:739
+msgid "Quit Blinken"
+msgstr "झिम्किने अन्त्य गर्नुहोस्"
+
+#: blinken.cpp:740
+msgid "View Highscore Table"
+msgstr "उच्च प्राप्ताङ्क तालिका हेर्नुहोस्"
+
+#: blinken.cpp:745
+msgid "Show Settings"
+msgstr "सेटिङ देखाउनुहोस्"
+
+#: blinken.cpp:746
+msgid "Hide Settings"
+msgstr "सेटिङ लुकाउनुहोस्"
+
+#: blinken.cpp:749
+msgid "2nd Level"
+msgstr "दोस्रो स्तर"
+
+#: blinken.cpp:750
+msgid "1st Level"
+msgstr "पहिलो स्तर"
+
+#: blinken.cpp:751
+msgid "Random Level"
+msgstr "अनियमित स्तर"
+
+#: blinken.cpp:752
+msgid "Press the key for this button"
+msgstr "यो बटनका लागि कुञ्जी थिच्नुहोस्"
+
+#: blinken.cpp:753
+msgid "Click any button to change its key"
+msgstr "यसको कुञ्जी परिवर्तन गर्न कुनै बटन क्लिक गर्नुहोस्"
+
+#: blinken.cpp:759
+msgid "Press Start to begin"
+msgstr "सुरुआत गर्न 'सुरु गर्नुहोस्' बटन थिच्नुहोस्"
+
+#: blinken.cpp:763
+msgid "Set the Difficulty Level..."
+msgstr "कठिनता स्तर सेट गर्नुहोस्..."
+
+#: blinken.cpp:768
+msgid "Next sequence in 3..."
+msgstr "३ मा पछिल्लो अनुक्रम..."
+
+#: blinken.cpp:773
+msgid "Next sequence in 3, 2..."
+msgstr "३, २ मा पछिल्लो अनुक्रम..."
+
+#: blinken.cpp:774
+msgid "Next sequence in 2..."
+msgstr "२ मा पछिल्लो अनुक्रम..."
+
+#: blinken.cpp:779
+msgid "Next sequence in 3, 2, 1..."
+msgstr "३, २, १ मा पछिल्लो अनुक्रम..."
+
+#: blinken.cpp:780
+msgid "Next sequence in 2, 1..."
+msgstr "२, १ मा पछिल्लो अनुक्रम..."
+
+#: blinken.cpp:785
+msgid "Remember this sequence..."
+msgstr "यो अनुक्रम सम्झनुहोस्..."
+
+#: blinken.cpp:790
+msgid "Repeat the sequence"
+msgstr "अनुक्रम दोहोर्याउनुहोस्"
+
+#: blinken.cpp:806
+msgid "2"
+msgstr "२"
+
+#: blinken.cpp:807
+msgid "1"
+msgstr "१"
+
+#: blinken.cpp:808
+msgid "?"
+msgstr "?"
+
+#: blinken.cpp:812
+msgctxt "@label:chooser which level is currently being played"
+msgid "Level"
+msgstr "स्तर"
+
+#: highscoredialog.cpp:137
+msgctxt "@title:window the highest scores for each level are shown"
+msgid "Highscores"
+msgstr "उच्च प्राप्ताङ्क"
+
+#: highscoredialog.cpp:152 highscoredialog.cpp:153
+#, kde-format
+msgctxt "@title:group level high scores"
+msgid "Level %1"
+msgid_plural "Level %1"
+msgstr[0] "स्तर %1"
+msgstr[1] "स्तर %1"
+
+#: highscoredialog.cpp:154
+msgctxt "@title:group all other level high scores"
+msgid "Level ?"
+msgstr "स्तर ?"
+
+#: main.cpp:24
+msgid "Blinken"
+msgstr "झिम्केको"
+
+#: main.cpp:24
+msgid "A memory enhancement game"
+msgstr "स्मृति बढाउने खेल"
+
+#: main.cpp:24
+msgid ""
+"© 2005-2007 Albert Astals Cid\n"
+"© 2005-2007 Danny Allen"
+msgstr ""
+"© २००५-२००७ अल्बर्ट एस्टाल्स सिड\n"
+"© २००५-२००७ डेनी एलेन"
+
+#: main.cpp:25
+msgid "Albert Astals Cid"
+msgstr "अल्बर्ट एस्टाल्स सिड"
+
+#: main.cpp:25
+msgid "Coding"
+msgstr "सङ्केतन"
+
+#: main.cpp:26
+msgid "Danny Allen"
+msgstr "ड्यानी एलेन"
+
+#: main.cpp:26
+msgid "Design, Graphics and Sounds"
+msgstr "डिजाइन, ग्राफिक्स र ध्वनि"
+
+#: main.cpp:27
+msgid "Steve Jordi"
+msgstr "स्टेभ जोर्डी"
+
+#: main.cpp:27
+msgid "GPL'ed his 'Steve' font so that we could use it"
+msgstr "हामिले प्रयोग गर्न सक्ने गरि उसको 'स्टेभ' फन्ट GPL गरियो ।"
+
+#. i18n: file: blinken.kcfg:9
+#. i18n: ectx: label, entry (playSounds), group (general)
+#: rc.cpp:3
+msgid "Play sounds"
+msgstr "ध्वनि बजाउनुहोस्"
+
+#. i18n: file: blinken.kcfg:13
+#. i18n: ectx: label, entry (customFont), group (general)
+#: rc.cpp:6
+msgid "Use custom font for status text"
+msgstr "वस्तुस्थिति पाठका लागि अनुकूल फन्ट प्रयोग गर्नुहोस्"
+
+#: rc.cpp:7
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:8
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, shyamkrishna_bal@yahoo.com,,,"

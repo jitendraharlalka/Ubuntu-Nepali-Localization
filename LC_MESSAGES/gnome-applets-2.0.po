@@ -1,0 +1,3558 @@
+# translation of gnome-applets.gnome-2-20.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Kapil Timilsina <lipak21@gmail.com>, 2005.
+# Jyotshna Shrestha <shresthajyo@hotmail.com>, 2005.
+# Bishnu Adhikari <bsn_adk@hotmail.com>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@hotmail.com>, 2006.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-applets.gnome-2-20.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-25 00:55+0000\n"
+"PO-Revision-Date: 2010-04-15 17:52+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:48+0000\n"
+
+#: ../accessx-status/GNOME_AccessxApplet.xml.h:1
+#: ../battstat/GNOME_BattstatApplet.xml.h:1
+#: ../charpick/GNOME_CharpickerApplet.xml.h:1
+#: ../cpufreq/GNOME_CPUFreqApplet.xml.h:1
+#: ../drivemount/GNOME_DriveMountApplet.xml.h:1
+#: ../geyes/GNOME_GeyesApplet.xml.h:1 ../gweather/GNOME_GWeatherApplet.xml.h:1
+#: ../invest-applet/data/Invest_Applet.xml.h:1
+#: ../mini-commander/src/GNOME_MiniCommanderApplet.xml.h:1
+#: ../mixer/GNOME_MixerApplet.xml.h:2 ../modemlights/GNOME_ModemLights.xml.h:1
+#: ../multiload/GNOME_MultiloadApplet.xml.h:1
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:2
+#: ../trashapplet/GNOME_Panel_TrashApplet.xml.h:1
+msgid "_About"
+msgstr "_बारेमा"
+
+#: ../accessx-status/GNOME_AccessxApplet.xml.h:2
+#: ../battstat/GNOME_BattstatApplet.xml.h:2
+#: ../charpick/GNOME_CharpickerApplet.xml.h:2
+#: ../cpufreq/GNOME_CPUFreqApplet.xml.h:2
+#: ../drivemount/GNOME_DriveMountApplet.xml.h:2
+#: ../geyes/GNOME_GeyesApplet.xml.h:2 ../gweather/GNOME_GWeatherApplet.xml.h:3
+#: ../mini-commander/src/GNOME_MiniCommanderApplet.xml.h:2
+#: ../mixer/GNOME_MixerApplet.xml.h:3 ../modemlights/GNOME_ModemLights.xml.h:4
+#: ../multiload/GNOME_MultiloadApplet.xml.h:2
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:4
+#: ../trashapplet/GNOME_Panel_TrashApplet.xml.h:3
+msgid "_Help"
+msgstr "_मद्दत"
+
+#: ../accessx-status/GNOME_AccessxApplet.xml.h:3
+msgid "_Keyboard Accessibility Preferences"
+msgstr "_कुञ्जीपाटी पहुँचता प्राथमिकताहरू"
+
+#: ../accessx-status/GNOME_AccessxStatusApplet.server.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "पहुँच-X वस्तुस्थिति एप्पलेट फ्याक्ट्री"
+
+#: ../accessx-status/GNOME_AccessxStatusApplet.server.in.in.h:2
+#: ../accessx-status/applet.c:1322
+msgid "Keyboard Accessibility Status"
+msgstr "कुञ्जीपाटी उपलब्धता वस्तुस्थिति"
+
+#: ../accessx-status/GNOME_AccessxStatusApplet.server.in.in.h:3
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "कुञ्जीपाटी पहुँचता वस्तुस्थिति एप्लेट कारखाना"
+
+#: ../accessx-status/GNOME_AccessxStatusApplet.server.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "कीबोर्ड सुलभता विशेषताको वस्तुस्थिति देखाउँछ"
+
+#: ../accessx-status/applet.c:137
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "पहुँच-X विशेषता जस्तै ल्याचेड सुधारकको अवस्था देखाउँछ"
+
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#. "documenters",        documenters,
+#: ../accessx-status/applet.c:142 ../battstat/battstat_applet.c:1246
+#: ../charpick/charpick.c:611 ../cpufreq/src/cpufreq-applet.c:611
+#: ../drivemount/drivemount.c:117 ../geyes/geyes.c:195
+#: ../gweather/gweather-about.c:55 ../invest-applet/invest/about.py:32
+#: ../mini-commander/src/about.c:54 ../mixer/applet.c:1430
+#: ../modemlights/modem-applet.c:1025 ../multiload/main.c:62
+#: ../stickynotes/stickynotes_applet_callbacks.c:384
+#: ../trashapplet/src/trashapplet.c:432
+msgid "translator-credits"
+msgstr ""
+"Mahesh Subedi <submanesh@hotmail.com> Shiva Pokharel "
+"<pokharelshiva@hotmail.com> Shyam Krishna Bal <shyamkrishna_bal@yahoo.com> "
+"Narayan Kumar Magar <narayan@mpp.org.np>, Jitendra Harlalka "
+"<jitendra@otrc.gov.np>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Bijay Rai https://launchpad.net/~beejoy\n"
+"  Rabi Poudyal https://launchpad.net/~rabipoudel\n"
+"  thomay https://launchpad.net/~thomasshrestha"
+
+#: ../accessx-status/applet.c:168
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "मद्दत प्रदर्शक शुरुवात गर्दा त्रुटी भेटियो: %s"
+
+#: ../accessx-status/applet.c:218
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "कुञ्जीपाटी प्राथमिकता सम्वाद सुरू गर्दा त्रुटि थियो: %s"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite article
+#: ../accessx-status/applet.c:468 ../accessx-status/applet.c:506
+msgid "a"
+msgstr "क"
+
+#: ../accessx-status/applet.c:975 ../accessx-status/applet.c:1048
+#: ../accessx-status/applet.c:1117 ../accessx-status/applet.c:1325
+msgid "AccessX Status"
+msgstr "पहुँच-X वस्तुस्थिति"
+
+#: ../accessx-status/applet.c:976 ../accessx-status/applet.c:1118
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "सुलभता विशेषताहरू प्रयोग हुँदाको कीबोर्डको स्थिति देखाँउछ"
+
+#: ../accessx-status/applet.c:1010
+msgid "XKB Extension is not enabled"
+msgstr "एक्सकेबी (XKB) विस्तार सक्षम छैन"
+
+#: ../accessx-status/applet.c:1015
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: ../accessx-status/applet.c:1023
+#, c-format
+msgid "Error: %s"
+msgstr "त्रुटि: %s"
+
+#: ../accessx-status/applet.c:1327
+msgid "Displays current state of keyboard accessibility features"
+msgstr "कीबोर्ड सुलभता विशेषताहरूको चालु अवस्था देखाउँछ"
+
+#: ../battstat/GNOME_BattstatApplet.server.in.in.h:1
+#: ../battstat/battstat_applet.c:1610 ../battstat/battstat_applet.c:1663
+#: ../null_applet/null_applet.c:48
+msgid "Battery Charge Monitor"
+msgstr "ब्याट्री चार्ज मोनिटर"
+
+#: ../battstat/GNOME_BattstatApplet.server.in.in.h:2
+msgid "Battstat Factory"
+msgstr "ब्याट्स्ट्याट फ्याक्ट्री"
+
+#: ../battstat/GNOME_BattstatApplet.server.in.in.h:3
+#: ../battstat/battstat_applet.c:1664
+msgid "Monitor a laptop's remaining power"
+msgstr "ल्यापटपको बाँकी रहेको पावर अनुगमन गर्नुहोस्"
+
+#: ../battstat/GNOME_BattstatApplet.xml.h:3
+#: ../charpick/GNOME_CharpickerApplet.xml.h:3
+#: ../cpufreq/GNOME_CPUFreqApplet.xml.h:3 ../geyes/GNOME_GeyesApplet.xml.h:3
+#: ../gweather/GNOME_GWeatherApplet.xml.h:4
+#: ../invest-applet/data/Invest_Applet.xml.h:2
+#: ../mini-commander/src/GNOME_MiniCommanderApplet.xml.h:3
+#: ../mixer/GNOME_MixerApplet.xml.h:5
+#: ../multiload/GNOME_MultiloadApplet.xml.h:4
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:7
+msgid "_Preferences"
+msgstr "अभिरुचीहरू (_P)"
+
+#: ../battstat/battstat_applet.c:67
+msgid "System is running on AC power"
+msgstr "प्रणाली AC शक्त्तिमा चलिरहेको छ"
+
+#: ../battstat/battstat_applet.c:68
+msgid "System is running on battery power"
+msgstr "प्रणाली ब्याट्री शक्त्तिमा चलिरहेको छ"
+
+#: ../battstat/battstat_applet.c:370
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "ब्याट्री चार्ज गरियो (%d%%)"
+
+#: ../battstat/battstat_applet.c:372
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "अज्ञात समय (%d%%) बाँकी"
+
+#: ../battstat/battstat_applet.c:374
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "अज्ञात समय (%d%%) चार्ज नभएसम्म"
+
+#: ../battstat/battstat_applet.c:379
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "%d मिनेट (%d%%) बाँकी"
+msgstr[1] "%d मिनेट (%d%%) बाँकी"
+
+#: ../battstat/battstat_applet.c:384
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "%d मिनेट चार्ज सम्म (%d%%)"
+msgstr[1] "%d मिनेटहरु चार्ज सम्म (%d%%)"
+
+#: ../battstat/battstat_applet.c:390
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "%d घण्टा (%d%%) बाँकी"
+msgstr[1] "%d घण्टाहरू (%d%%) बाँकी"
+
+#: ../battstat/battstat_applet.c:395
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "%d घण्टा चार्ज हुँदै (%d%%)"
+msgstr[1] "%d घण्टाहरु चार्ज हुँदै (%d%%)"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:402
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "%d %s %d %s (%d%%) बाँकी"
+
+#: ../battstat/battstat_applet.c:403 ../battstat/battstat_applet.c:410
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "घण्टा"
+msgstr[1] "घण्टाहरु"
+
+#: ../battstat/battstat_applet.c:404 ../battstat/battstat_applet.c:411
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "मिनेट"
+msgstr[1] "मिनेट्स"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:409
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s चार्ज्ड भैरहेको छ (%d%%)"
+
+#: ../battstat/battstat_applet.c:423
+msgid "Battery Monitor"
+msgstr "ब्याट्री मनिटर"
+
+#: ../battstat/battstat_applet.c:433 ../battstat/battstat_applet.c:493
+msgid "Your battery is now fully recharged"
+msgstr "तपाईको ब्याट्री अब पूरा चार्ज भएको छ"
+
+#: ../battstat/battstat_applet.c:469 ../battstat/battstat_applet.c:625
+msgid "Battery Notice"
+msgstr "ब्याट्री सूचना"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:570
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "तपाईँसँग ब्याट्रीको कुल क्षमताको %d%% बाँकी छ ।"
+
+#: ../battstat/battstat_applet.c:576
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] ""
+"तपाईँसँग ब्याट्री क्षमताको %d मिनेट बाँकी छ (कुल क्षमताको %d%% ) ।"
+msgstr[1] "तपाईँसँग ब्याट्री क्षमताको %d मिनेट बाँकी छ (कुल क्षमताको %d%% )"
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:588
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"तपाईँको कार्य हराउनबाट रोक्नलाई:\n"
+" • बाह्य पावरमा तपाईँको ल्यापटप प्लग गर्नुहोस्, वा\n"
+" • खुला कागजातहरू बचत गर्नुहोस् र तपाईँको ल्यापटप बन्द गर्नुहोस् ।"
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:596
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"तपाईँको कार्य हराउनबाट रोक्नलाई:\n"
+" • पावर बचत गर्न तपाईँको ल्यापटप निलम्बन गर्नुहोस्,\n"
+" • बाह्य पावरमा तपाईँको ल्यापटप प्लग गर्नुहोस्, वा\n"
+" •खुला कागजातहरू बचत गर्नुहोस् र तपाईँको ल्यापटप बन्द गर्नुहोस् ।"
+
+#: ../battstat/battstat_applet.c:604
+msgid "Your battery is running low"
+msgstr "तपाईको ब्याट्री कम दौडिरहेको छ"
+
+#: ../battstat/battstat_applet.c:701
+msgid "No battery present"
+msgstr "ब्याट्री उपस्थिति छैन"
+
+#: ../battstat/battstat_applet.c:704
+msgid "Battery status unknown"
+msgstr "ब्याट्रीको वस्तुस्थिति अज्ञात"
+
+#: ../battstat/battstat_applet.c:863
+msgid "N/A"
+msgstr "एन/ए"
+
+#: ../battstat/battstat_applet.c:1193 ../drivemount/drivemount.c:142
+#: ../geyes/geyes.c:346 ../geyes/themes.c:244 ../gweather/gweather-applet.c:72
+#: ../gweather/gweather-pref.c:748 ../mini-commander/src/preferences.c:366
+#: ../stickynotes/stickynotes_applet_callbacks.c:349
+#: ../stickynotes/stickynotes_applet_callbacks.c:559
+#: ../trashapplet/src/trashapplet.c:398
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "सहायता प्रदर्शनमा क्रुटि भेटियो : %s"
+
+#: ../battstat/battstat_applet.c:1233
+msgid "This utility shows the status of your laptop battery."
+msgstr "यो युटिलिटिले तपाईको ल्यापटपको ब्याट्रीको स्थिति देखाउँछ"
+
+#. true
+#: ../battstat/battstat_applet.c:1235
+msgid "HAL backend enabled."
+msgstr "HAL ब्याकइन्ड सक्षम पारियो ।"
+
+#. false
+#: ../battstat/battstat_applet.c:1236
+msgid "Legacy (non-HAL) backend enabled."
+msgstr "विरासत (non-HAL) ब्याकइन्ड सक्षम पारियो ।"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "(shows single image for status and charge)"
+msgstr ""
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "(two images: one for status, one for charge)"
+msgstr ""
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "Appearance"
+msgstr "देखिएको"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "Battery Charge Monitor Preferences"
+msgstr "ब्याट्री चार्ज मोनिटर प्राथमिकताहरु"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "Notifications"
+msgstr ""
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "Show _percentage remaining"
+msgstr "प्रतिशत बाँकी देखाउनुस"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "Show _time remaining"
+msgstr "समय बाँकी देखाउनुस"
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "_Compact view"
+msgstr "सङ्कुचित दृश्य"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "_Expanded view"
+msgstr "विस्तारित दृश्य"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "_Notify when battery is fully recharged"
+msgstr "ब्याट्री पूरा रिचार्ज भएपछि सूचित गर्नुहोस्"
+
+#: ../battstat/battstat_applet.ui.h:11
+msgid "_Show time/percentage:"
+msgstr "समय/प्रतिशत देखाउनुहोस:"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Warn when battery charge drops to:"
+msgstr "ब्याट्री चार्ज कम भएमा चेतावनी दिनुहोस्:"
+
+#: ../battstat/battstat-hal.c:343 ../battstat/battstat-hal.c:368
+msgid "HAL error"
+msgstr ""
+
+#: ../battstat/battstat-hal.c:343
+msgid "Could not create libhal_ctx"
+msgstr ""
+
+#: ../battstat/battstat-hal.c:368
+msgid "No batteries found"
+msgstr "कुनै ब्याट्री फेला परेन"
+
+#: ../battstat/battstat-hal.c:417
+#, c-format
+msgid "Unable to initialise HAL: %s: %s"
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:1
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:2
+msgid "Beep for warnings"
+msgstr "चेतावनीका लागि विप गरौं"
+
+#: ../battstat/battstat.schemas.in.h:3
+msgid "Beep when displaying a warning."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:4
+msgid "Drain from top"
+msgstr "माथिबाट खाली गरौं"
+
+#: ../battstat/battstat.schemas.in.h:5
+msgid "Full Battery Notification"
+msgstr "ब्याट्री पूराको सूचना"
+
+#: ../battstat/battstat.schemas.in.h:6
+msgid "Low Battery Notification"
+msgstr "ब्याट्री कमको सूचना"
+
+#: ../battstat/battstat.schemas.in.h:7
+msgid "Notify user when the battery is full."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:8
+msgid "Notify user when the battery is low."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:9
+msgid "Red value level"
+msgstr "रातो मान तह"
+
+#: ../battstat/battstat.schemas.in.h:10
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr ""
+"ब्याट्रीको मिटर ब्याट्रीको माथीबाट झरिरहेको देखाउनुहोस् । परम्परागत ब्याट्री "
+"दृश्यका लागि मात्र कार्यन्वयन गरिएको ।"
+
+#: ../battstat/battstat.schemas.in.h:11
+msgid "Show the horizontal battery"
+msgstr "तेर्सो ब्याट्री देखाउनुहोस्"
+
+#: ../battstat/battstat.schemas.in.h:12
+msgid "Show the time/percent label"
+msgstr "समय/प्रतिशतको लेबुल देखाउनुहोस्"
+
+#: ../battstat/battstat.schemas.in.h:13
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:15
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr ""
+"ब्याट्रीको तह जसको मुनि ब्याट्री रातो रङ्गमा प्रदर्शन भएको छ । मान पनि जहाँ "
+"कम ब्याट्री चेतावनीप्रदर्शित भएको छ ।"
+
+#: ../battstat/battstat.schemas.in.h:16
+msgid "Upright (small) battery"
+msgstr "ठाडो(सानो) ब्याट्री"
+
+#: ../battstat/battstat.schemas.in.h:17
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr ""
+
+#: ../battstat/battstat.schemas.in.h:18
+msgid "Warn on low time rather than low percentage"
+msgstr "न्यून प्रतिशत भन्दा न्यून समयमा चेतावनी दिनुहोस्"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#. 
+#: ../battstat/properties.c:315
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#. 
+#: ../battstat/properties.c:321
+msgid "Minutes Remaining"
+msgstr "बाँकी मिनेट"
+
+#: ../battstat/sounds/battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "ब्याट्री स्थिति युटिलिटि"
+
+#: ../battstat/sounds/battstat_applet.soundlist.in.h:2
+msgid "Battery fully re-charged"
+msgstr "ब्याट्री पूरा रिचार्ज्ड"
+
+#: ../battstat/sounds/battstat_applet.soundlist.in.h:3
+msgid "Battery power low"
+msgstr "ब्याट्री पावर न्यून"
+
+#: ../charpick/GNOME_CharpickerApplet.server.in.in.h:1
+#: ../charpick/charpick.c:741 ../charpick/charpick.c:753
+#: ../charpick/properties.c:452
+msgid "Character Palette"
+msgstr "क्यारेक्टर रङदानी"
+
+#: ../charpick/GNOME_CharpickerApplet.server.in.in.h:2
+msgid "Charpicker Applet Factory"
+msgstr "चार्पिकर एप्लेट फ्याक्ट्री"
+
+#: ../charpick/GNOME_CharpickerApplet.server.in.in.h:3
+#: ../charpick/charpick.c:741
+msgid "Insert characters"
+msgstr "क्यारेक्टर्स घुसाउनुहोस"
+
+#: ../charpick/charpick.c:436
+msgid "Available palettes"
+msgstr "रङदानी उपलब्ध"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#. 
+#: ../charpick/charpick.c:483
+#, c-format
+msgid "Insert \"%s\""
+msgstr "\"%s\" घुसाउनुहोस्"
+
+#: ../charpick/charpick.c:486
+msgid "Insert special character"
+msgstr "स्पेसल क्यारेक्टर घुसाउनुहोस"
+
+#: ../charpick/charpick.c:490
+#, c-format
+msgid "insert special character %s"
+msgstr "स्पेसल क्यारेक्टर घुसाउनुहोस %s"
+
+#: ../charpick/charpick.c:606
+msgid ""
+"Gnome Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr ""
+"जिनोम प्यानल एप्लेट छानिएका अनौठा क्यारेक्टर मेरो होइन किबोर्ड. रिलिज्ड "
+"अन्डर जि एन यु जेनरल पब्लिक लाइसेन्स."
+
+#: ../charpick/charpick.schemas.in.h:1
+msgid "Characters shown on applet startup"
+msgstr "क्यारेक्टर्स एप्लेट स्टार्टअपमा देखाइएको"
+
+#: ../charpick/charpick.schemas.in.h:2
+msgid "DEPRECATED - Characters shown on applet startup"
+msgstr "डेप्रेकेटेड - क्यारेक्टर्स एप्लेट स्टार्टअपमा देखाइएको"
+
+#: ../charpick/charpick.schemas.in.h:3 ../charpick/properties.c:379
+msgid "List of available palettes"
+msgstr "रङदानी सूची को उपलब्ध"
+
+#: ../charpick/charpick.schemas.in.h:4
+msgid "List of strings containing the available palettes."
+msgstr ""
+
+#: ../charpick/charpick.schemas.in.h:5
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr ""
+"प्रयोगकर्ताले अन्तिम प्रयोग गरेको एप्लेटको स्ट्रिङ. यो स्ट्रिङ प्रयोगकर्ताले "
+"एप्लेट शुरु गर्दा प्रदर्शन हुन्छ"
+
+#: ../charpick/properties.c:28
+msgid "_Edit"
+msgstr "-सम्पादन"
+
+#: ../charpick/properties.c:117
+msgid "_Palette:"
+msgstr "_रङदानी"
+
+#: ../charpick/properties.c:125
+msgid "Palette entry"
+msgstr "रङदानी छिर्नु"
+
+#: ../charpick/properties.c:126
+msgid "Modify a palette by adding or removing characters"
+msgstr "क्यारेक्टर जोडेर अथवा हटाएर रङदानीको परिमार्जन गर्नुस"
+
+#: ../charpick/properties.c:240
+msgid "Add Palette"
+msgstr "रङदानी जोड्नुस"
+
+#: ../charpick/properties.c:277
+msgid "Edit Palette"
+msgstr "रङदानी सम्पादन"
+
+#: ../charpick/properties.c:378
+msgid "Palettes list"
+msgstr "रङदानीहरुको सूची"
+
+#: ../charpick/properties.c:457
+msgid "_Palettes:"
+msgstr "_रङदानीहरु:"
+
+#: ../charpick/properties.c:473
+msgid "Add button"
+msgstr "बटन जोड्नुस"
+
+#: ../charpick/properties.c:474
+msgid "Click to add a new palette"
+msgstr "नयाँ रङदानी जोड्न क्लिक गर्नुस"
+
+#: ../charpick/properties.c:481
+msgid "Edit button"
+msgstr "बटन सम्पादन"
+
+#: ../charpick/properties.c:482
+msgid "Click to edit the selected palette"
+msgstr "छानिएको रङदानी मेटाउन क्लिक गर्नुस"
+
+#: ../charpick/properties.c:489
+msgid "Delete button"
+msgstr "बटन मेट्नुस"
+
+#: ../charpick/properties.c:490
+msgid "Click to delete the selected palette"
+msgstr "छानिएको रङदानी मेटाउन क्लिक गर्नुस"
+
+#: ../charpick/properties.c:542
+msgid "Character Palette Preferences"
+msgstr "क्यारेक्टर रङदानी प्राथमिकताहरु"
+
+#: ../cpufreq/GNOME_CPUFreqApplet.server.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:943 ../cpufreq/src/cpufreq-applet.c:999
+msgid "CPU Frequency Scaling Monitor"
+msgstr "सीपि यु तीब्रता स्केलिङ मोनिटर"
+
+#: ../cpufreq/GNOME_CPUFreqApplet.server.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "सीपि यु मोनिटर तीब्रता स्केलिङ"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:1
+msgid ""
+"A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+"एउटा ० मानको अर्थ cpu आवृति देखाउन, १ आवृति र एकाईहरू देखाउन, र २ आवृतिको "
+"सट्टामा प्रतिशत देखाउनका लागि हो ।"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:2
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in "
+"graphic and text mode."
+msgstr ""
+"एउटा ० मानको अर्थ एप्लेट ग्राफिक मोडमा (पिक्सम्याप मात्र) देखाउन, १ एप्लेट "
+"पाठ मोडमा देखाउन (पिक्सम्याप नदेखाउन) र २ एप्लेट ग्राफिक र पाठ मोद देखाउनका "
+"लागि हो ।"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:3
+msgid "CPU to Monitor"
+msgstr "सीपि यु देखि मोनिटर"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:4
+msgid "Mode to show cpu usage"
+msgstr "सीपि यु प्रयोग मोड देखाउनुस"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:5
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr ""
+"सीपि युलाई मोनिटरमा सेट गर्नुस एकल प्रोसेसर प्रणालीमा तपाईले परिवर्तन गर्नु "
+"पर्दैन"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:6
+msgid "The type of text to display (if the text is enabled)."
+msgstr "( पाठ सक्षम पारिन्छ भने) प्रदर्शन गर्नका लागि पाठको प्रकार ।"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "सीपि यु तीब्रता मोनिटर प्राथमिकताहरु"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Display Settings"
+msgstr ""
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "Monitor Settings"
+msgstr ""
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Show CPU frequency as _frequency"
+msgstr "सीपि यु तीब्रता देखाउनुस सक्दो _तीब्रता"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "Show CPU frequency as _percentage"
+msgstr "सीपि यु तीब्रता देखाउनुस सक्दो _प्रतिशत"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show frequency _units"
+msgstr "आवृत्ति देखाउनुस _एकाइ"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "_Appearance:"
+msgstr "देखावट:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "_Monitored CPU:"
+msgstr "सीपि यु:मोनिटर्ड"
+
+#: ../cpufreq/src/cpufreq-applet.c:578 ../cpufreq/src/cpufreq-prefs.c:478
+msgid "Could not open help document"
+msgstr "सहयोग कागजात खोल्न सकिएन"
+
+#: ../cpufreq/src/cpufreq-applet.c:606
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "यो युटिलिटिले हालको सीपि यु तीब्रता स्केलिङ देखाउँछ"
+
+#: ../cpufreq/src/cpufreq-applet.c:1000
+msgid "This utility shows the current CPU Frequency"
+msgstr "यो युटिलिटिले हालको सीपि यु तीब्रता देखाउँछ"
+
+#: ../cpufreq/src/cpufreq-prefs.c:613
+msgid "Graphic"
+msgstr "ग्राफिक"
+
+#: ../cpufreq/src/cpufreq-prefs.c:618
+msgid "Text"
+msgstr "पाठ"
+
+#: ../cpufreq/src/cpufreq-prefs.c:623
+msgid "Graphic and Text"
+msgstr "ग्राफिक र पाठ"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:117
+msgid "Frequency Scaling Unsupported"
+msgstr "तीब्रता स्केलिङ सहारा गर्दैन"
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user, because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#. 
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "सीपि यु तीब्रता स्केलिङ सहारा गर्दैन"
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr ""
+"तपाईले तपाईको मेसिनको तीब्रतालाई परिमार्जन गर्न सक्नुहुन्न.  तपाईको मेसिन "
+"पक्कै मिसकिन्फगर अथवा हार्डवेयरले सीपि यु तीब्रता स्केलिङ सहारा गर्दछ"
+
+#: ../cpufreq/src/cpufreq-selector/org.gnome.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr ""
+
+#: ../cpufreq/src/cpufreq-selector/org.gnome.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr ""
+
+#: ../drivemount/GNOME_DriveMountApplet.server.in.in.h:1
+#: ../drivemount/drivemount.c:169 ../drivemount/drivemount.c:201
+msgid "Disk Mounter"
+msgstr "डिस्क माउन्टर"
+
+#: ../drivemount/GNOME_DriveMountApplet.server.in.in.h:2
+msgid "Drive Mount Applet Factory"
+msgstr "ड्राइभ माउन्ट एप्लेट फ्याक्ट्री"
+
+#: ../drivemount/GNOME_DriveMountApplet.server.in.in.h:3
+msgid "Factory for drive mount applet"
+msgstr "फ्याक्ट्री ड्राइभ माउन्ट एप्लेटको लागि"
+
+#: ../drivemount/GNOME_DriveMountApplet.server.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "माउन्ट लोकल डिस्क र यन्त्र"
+
+#: ../drivemount/drive-button.c:338 ../drivemount/drive-button.c:351
+msgid "(mounted)"
+msgstr "(माउन्ट भयो)"
+
+#: ../drivemount/drive-button.c:340
+msgid "(not mounted)"
+msgstr "(माउन्ट भएन)"
+
+#: ../drivemount/drive-button.c:552
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "'%s' कार्यन्वयन गर्न सकिँदैन"
+
+#: ../drivemount/drive-button.c:875
+msgid "_Play DVD"
+msgstr "DVD बजाउनुहोस्"
+
+#: ../drivemount/drive-button.c:879
+msgid "_Play CD"
+msgstr "CD बजाउनुहोस्"
+
+#: ../drivemount/drive-button.c:882
+#, c-format
+msgid "_Open %s"
+msgstr "_खोल %s"
+
+#: ../drivemount/drive-button.c:891
+#, c-format
+msgid "Un_mount %s"
+msgstr "अन_माउन्ट %s"
+
+#: ../drivemount/drive-button.c:898
+#, c-format
+msgid "_Mount %s"
+msgstr "_माउन्ट %s"
+
+#: ../drivemount/drive-button.c:906
+#, c-format
+msgid "_Eject %s"
+msgstr "_निकाल %s"
+
+#: ../drivemount/drivemount.c:114
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "एप्लेट माउन्टिङ र अनमाउन्टिङ ब्लक आवाजहरु."
+
+#: ../drivemount/drivemount.schemas.in.h:1
+msgid "Interval timeout to check mount point status"
+msgstr "अन्तराल टायमआउट माउन्ट बिन्दु स्थिति चेक गर्न"
+
+#: ../drivemount/drivemount.schemas.in.h:2
+msgid "Time in seconds between status updates"
+msgstr "समय सेकेन्डहरु बीचमा स्थिति अद्यावधिक गर्नुस"
+
+#: ../geyes/GNOME_GeyesApplet.server.in.in.h:1
+msgid "A set of eyeballs for your panel"
+msgstr "आइबल्स तपाईको प्यानलमा ब्यवस्थापन गर्न"
+
+#: ../geyes/GNOME_GeyesApplet.server.in.in.h:2 ../geyes/geyes.c:385
+#: ../geyes/geyes.c:415 ../geyes/geyes.c:417
+msgid "Eyes"
+msgstr ""
+
+#: ../geyes/GNOME_GeyesApplet.server.in.in.h:3
+msgid "Geyes Applet Factory"
+msgstr "जेयेस एप्लेट फ्याक्ट्री"
+
+#: ../geyes/geyes.c:190
+msgid "A goofy set of eyes for the GNOME panel. They follow your mouse."
+msgstr ""
+
+#: ../geyes/geyes.c:418
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "आँखा माउसको सूचक दिशामा हेर्छ"
+
+#: ../geyes/geyes.schemas.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "निर्देशिका जहाँ विषयबस्तु अवस्थित छ"
+
+#: ../geyes/themes.c:127
+msgid "Can not launch the eyes applet."
+msgstr "आँखाको एप्लेट सुरुवात गर्न सकिएन"
+
+#: ../geyes/themes.c:128
+msgid "There was a fatal error while trying to load the theme."
+msgstr "विषयबस्तु लोड गर्दा फ्याटल गल्ती भेटियो"
+
+#: ../geyes/themes.c:304
+msgid "Geyes Preferences"
+msgstr "जेयेस प्राथमिकताहरु"
+
+#: ../geyes/themes.c:338
+msgid "Themes"
+msgstr "विषयहरु"
+
+#: ../geyes/themes.c:359
+msgid "_Select a theme:"
+msgstr "_एउटा विषय छान्नुहोस्"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:1 ../gkb-new/xmodmap.sun/base.xml.in.h:1
+msgid "Alt+Control changes layout."
+msgstr "Alt+नियन्त्रणको लेआउट परिवर्तन"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:2 ../gkb-new/xmodmap.sun/base.xml.in.h:2
+msgid "Alt+Shift changes layout."
+msgstr "Alt+Shift ले लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:3
+msgid "Arabic keymap"
+msgstr "अरबी कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:4
+msgid "Armenian"
+msgstr "आर्मेनियाली"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:5
+msgid "Basque"
+msgstr "बास्क्यु"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:6
+msgid "Belgian"
+msgstr "बेल्जियन"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:7 ../gkb-new/xmodmap.sun/base.xml.in.h:6
+msgid "Both Alt keys together change layout."
+msgstr "दुबै Alt कुञ्जीहरु दुबैले लेआउट परिवर्तन गर्द"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:8 ../gkb-new/xmodmap.sun/base.xml.in.h:7
+msgid "Both Ctrl keys together change layout."
+msgstr "दुबै Ctrl कुञ्जीले लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:9 ../gkb-new/xmodmap.sun/base.xml.in.h:8
+msgid "Both Shift keys together change layout."
+msgstr "दुबै Shift कुञ्जीले लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:10
+msgid "Brazil Portuguese keymap"
+msgstr "ब्राजिल पोर्चुगिज कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:11
+msgid "Bulgarian Cyrillic"
+msgstr "बल्गेरियन सिरिलिक"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:12
+msgid "Bulgarian keymap"
+msgstr "बल्गेरियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:13 ../gkb-new/xmodmap.sun/base.xml.in.h:16
+msgid "CapsLock key changes layout."
+msgstr "CapsLock कुञ्जीले लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:14 ../gkb-new/xmodmap.sun/base.xml.in.h:17
+msgid "Control+Shift changes layout."
+msgstr "Control+Shift लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:15
+msgid "Czech keymap"
+msgstr "चेक कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:16
+msgid "Danish keymap"
+msgstr "डेनिस कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:17
+msgid "Dutch keymap"
+msgstr "डच कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:18
+msgid "English keymap"
+msgstr "अंग्रेजी कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:19
+msgid "Estonian keymap"
+msgstr "एस्टोनियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:20
+msgid "Finnish keymap"
+msgstr "फिन्नीस कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:21
+msgid "French Swiss"
+msgstr "फ्रेन्च (स्वीस)"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:22
+msgid "French Swiss keymap"
+msgstr "फ्रेन्च (स्वीस) कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:23
+msgid "French keymap"
+msgstr "फ्रेन्च कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:24
+msgid "French-Canadian 105-key"
+msgstr "फ्रेन्च-क्यानाडियन १०५-कुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:25
+msgid "GB 102-key"
+msgstr "जीवी १०२-कुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:26
+msgid "GB 105-key"
+msgstr "जीवी १०५-कुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:27 ../gkb-new/xmodmap.sun/base.xml.in.h:27
+msgid "Generic Keyboard"
+msgstr "जेनेरिक कीबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:28
+msgid "Georgian Latin"
+msgstr "जर्जीयाली ल्याटिन"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:29
+msgid "Georgian Russian layout"
+msgstr "जर्जीयन रसियन लेआउट"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:30
+msgid "Georgian keymap"
+msgstr "जर्जीयाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:31
+msgid "German"
+msgstr "जर्मन"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:32
+msgid "German Swiss with Euro"
+msgstr "जर्मन स्विस सँग युरो"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:33
+msgid "German keymap"
+msgstr "जर्मन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:34
+msgid "Greek keymap"
+msgstr "ग्रीक कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:35
+msgid "Hebrew keymap"
+msgstr "हिब्रु कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:36
+msgid "Hungarian 101-key latin 1"
+msgstr "हन्गेरियन १०१-कुञ्जी ल्याटिन १"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:37
+msgid "Hungarian 101-key latin 2"
+msgstr "हन्गेरियन १०१-कुञ्जी ल्याटिन २"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:38
+msgid "Hungarian 105-key latin 1"
+msgstr "हन्गेरियन १०५-कुञ्जी ल्याटिन १"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:39
+msgid "Hungarian 105-key latin 2"
+msgstr "हन्गेरियन १०५-कुञ्जी ल्याटिन २"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:40
+msgid "Hungarian PC/AT 101 keyboard"
+msgstr "हन्गेरियन पिसि/एटि १०१ किबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:41
+msgid "Hungarian latin1"
+msgstr "हन्गेरियन ल्याटिन१"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:42
+msgid "Icelandic keymap"
+msgstr "आइसलान्डीक कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:43
+msgid "Italian keymap"
+msgstr "ईटाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:44
+msgid "Japanese keymap"
+msgstr "जापनिज कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:45
+msgid "Lao keymap"
+msgstr "लाऔ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:46 ../gkb-new/xmodmap.sun/base.xml.in.h:41
+msgid "Layout shift behavior"
+msgstr "सजावटले व्यवहार परिवर्तन गर्दछ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:47 ../gkb-new/xmodmap.sun/base.xml.in.h:42
+msgid "Left Alt key changes layout."
+msgstr "देब्रे Alt कुञ्जी लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:48 ../gkb-new/xmodmap.sun/base.xml.in.h:43
+msgid "Left Ctrl key changes group."
+msgstr "देब्रे Ctrl कुञ्जी समूह परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:49 ../gkb-new/xmodmap.sun/base.xml.in.h:44
+msgid "Left Shift key changes group."
+msgstr "देब्रे Shift कुञ्जी समूह परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:50 ../gkb-new/xmodmap.sun/base.xml.in.h:45
+msgid "Left Win-key changes layout."
+msgstr "देब्रे Win कुञ्जी समूह परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:51
+msgid "Lithuanian keymap"
+msgstr "लिथुवानियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:52
+msgid "Macedonian"
+msgstr "म्यासिडोनियाली"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:53 ../gkb-new/xmodmap.sun/base.xml.in.h:48
+msgid "Menu key changes layout."
+msgstr "मेनू.कुञ्जी लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:54
+msgid "Mongolian alt keymap"
+msgstr "मंगोलियन alt कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:55
+msgid "Mongolian keymap"
+msgstr "मंगोलियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:56
+msgid "Mongolian phonetic keymap"
+msgstr "मंगोलियाली फोनेटिक कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:57
+msgid "Norwegian"
+msgstr "नर्वेजीयाली"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:58
+msgid "Plain Russian keymap"
+msgstr "सादा रसियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:59
+msgid "Polish"
+msgstr "पोलिस"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:60
+msgid "Polish deadkeys"
+msgstr "पोलिस डेडकुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:61
+msgid "Portugal"
+msgstr "पोर्चुगल"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:62
+msgid "Portugal Deadkeys"
+msgstr "पोर्चुगल डेडकुञ्जीहरु"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:63
+msgid "Portuguese keymap"
+msgstr "पोर्चुगाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:64 ../gkb-new/xmodmap.sun/base.xml.in.h:53
+msgid "Right Alt key changes layout."
+msgstr "दाहिने Alt कुञ्जी लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:65 ../gkb-new/xmodmap.sun/base.xml.in.h:54
+msgid "Right Ctrl key changes group."
+msgstr "दाहिने Ctrl कुञ्जी समूह परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:66 ../gkb-new/xmodmap.sun/base.xml.in.h:55
+msgid "Right Shift key changes group."
+msgstr "दाहिने Shift कुञ्जी समूह परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:67 ../gkb-new/xmodmap.sun/base.xml.in.h:56
+msgid "Right Win-key changes layout."
+msgstr "दाहिने Win-कुञ्जी लेआउट परिवर्तन गर्छ."
+
+#: ../gkb-new/xmodmap/base.xml.in.h:68
+msgid "Russian Cyrillic"
+msgstr "रसियाली सिरिलिक"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:69
+msgid "Russian keymap"
+msgstr "रसियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:70
+msgid "Serbian keymap"
+msgstr "सर्बियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:71 ../gkb-new/xmodmap.sun/base.xml.in.h:60
+msgid "Shift+CapsLock changes layout."
+msgstr "Shift+CapsLock लेआउट परिवर्तन गर्छ"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:72
+msgid "Slovak keymap"
+msgstr "स्लोभ्याक कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:73
+msgid "Slovenian"
+msgstr "स्लोभेनियाली"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:74
+msgid "Slovenian keymap"
+msgstr "स्लोभेनियाली कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:75
+msgid "Spanish keymap"
+msgstr "स्पेनिस कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:76
+msgid "Sun (!not PC!) type5 Hungarian latin 2"
+msgstr "सन (!पिसि होइन!) प्रकार५ हङ्गेरियन ल्याटिन २"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:77
+msgid "Swedish"
+msgstr "स्विडिश"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:78
+msgid "Swedish keymap"
+msgstr "स्विडिश कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:79
+msgid "Swiss keymap"
+msgstr "स्विस कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:80
+msgid "Thai"
+msgstr "थाई"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:81
+msgid "Thai Kedmanee"
+msgstr "थाई केडमानी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:82
+msgid "Thai keymap"
+msgstr "थाई कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:83
+msgid "Turkish \"F\" keyboard"
+msgstr "टर्कीस एफ किबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:84
+msgid "Turkish \"Q\" keyboard"
+msgstr "टर्कीस क्वू किबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:85
+msgid "Turkish keymap"
+msgstr "टर्कीस कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:86
+msgid "UK 105-key"
+msgstr "यु के १०५-कुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:87
+msgid "UK PC/AT keyboard"
+msgstr "यु के पिसि/एटि किबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:88
+msgid "US 101-key keyboard"
+msgstr "यु एस १०१-कुञ्जी किबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:89
+msgid "US 105-key keyboard (with windows keys)"
+msgstr "यु एस १०५-कुञ्जी किबोर्ड (विन्डो कुञ्जी सँग)"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:90
+msgid "US 84-key"
+msgstr "यु एस ८४-कुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:91
+msgid "US DEC 450"
+msgstr "यु एस डि इ सि ४५०"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:92
+msgid "US IBM RS/6000"
+msgstr "यु एस आइ बि एम आर एस/६०००"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:93
+msgid "US International"
+msgstr "यु एस अन्तराष्ट्रिय"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:94
+msgid "US Macintosh"
+msgstr "यु एस म्याकिनटोस"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:95
+msgid "US PC/AT 101 keyboard"
+msgstr "यु एस पिसि/एटि १०१ किबोर्ड"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:96
+msgid "US Silicon Graphics 101-key"
+msgstr "यु एस सिलिकन ग्राफिक्स १०१-कुञ्जी"
+
+#: ../gkb-new/xmodmap/base.xml.in.h:97
+msgid "US Sun type5"
+msgstr "यु एस सन प्रकार५"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:3
+msgid "Armenian Sun keymap"
+msgstr "आर्मेनियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:4
+msgid "Azerbaijani Turkish Sun keymap"
+msgstr "अजरबैजानीयाली टर्कीस सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:5
+msgid "Belarusian Sun keymap"
+msgstr "बेलारुसी सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:9
+msgid "Brazil Portuguese Sun USB keymap"
+msgstr "ब्राजिल पोर्चुगिज सन युएसबि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:10
+msgid "Brazil Portuguese Sun keymap"
+msgstr "ब्राजिल पोर्चुगिज सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:11
+msgid "British Sun Type-4 keymap"
+msgstr "ब्रिटिश सन प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:12
+msgid "British Sun USB keymap"
+msgstr "ब्रिटिश सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:13
+msgid "British Sun keymap"
+msgstr "ब्रिटिश सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:14
+msgid "Bulgarian Sun keymap"
+msgstr "बल्गेरियन सन कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:15
+msgid "Canadian Sun keymap"
+msgstr "क्यानाडियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:18
+msgid "Czech Sun keymap"
+msgstr "चेक सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:19
+msgid "Danish Sun Type-4 keymap"
+msgstr "डेनिस सन प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:20
+msgid "Danish Sun USB keymap"
+msgstr "डेनिस सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:21
+msgid "Danish Sun keymap"
+msgstr "डेनिस सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:22
+msgid "Dutch Sun keymap"
+msgstr "डच सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:23
+msgid "Estonian Sun keymap"
+msgstr "एस्टोनियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:24
+msgid "Finnish Sun keymap"
+msgstr "फिन्नीस सन कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:25
+msgid "French Sun USB keymap"
+msgstr "फ्रेन्च सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:26
+msgid "French Sun keymap"
+msgstr "फ्रेन्च सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:28
+msgid "German Sun Type-4 keymap"
+msgstr "जर्मन सन प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:29
+msgid "German Sun USB keymap"
+msgstr "जर्मन सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:30
+msgid "German Sun keymap"
+msgstr "जर्मन सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:31
+msgid "Hebrew Sun keymap"
+msgstr "हिब्रु सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:32
+msgid "Hungarian latin2 Sun keymap"
+msgstr "हन्गेरियन ल्याटिन२ सन् कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:33
+msgid "Hungarian type5 latin 1 keymap"
+msgstr "हन्गेरियन प्रकार५ ल्याटिन १ कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:34
+msgid "Icelandic Sun keymap"
+msgstr "आइसलान्डीक सन् कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:35
+msgid "Italian Sun Type-4 keymap"
+msgstr "ईटाली सन् प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:36
+msgid "Italian Sun USB keymap"
+msgstr "ईटालीयन सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:37
+msgid "Italian Sun keymap"
+msgstr "इटालीयाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:38
+msgid "Japanese Sun Type-4 keymap"
+msgstr "जापनिज सन् प्रकार-४ कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:39
+msgid "Japanese Sun keymap"
+msgstr "जापनिज सन कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:40
+msgid "Latvian Sun keymap"
+msgstr "लात्भियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:46
+msgid "Lithuanian Sun keymap"
+msgstr "लिथुवानियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:47
+msgid "Macedonian Sun keymap"
+msgstr "म्यासिडोनियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:49
+msgid "Norwegian Sun keymap"
+msgstr "नर्वेजीयाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:50
+msgid "Polish Sun keymap"
+msgstr "पोलिश सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:51
+msgid "Portuguese Sun Type-4 keymap"
+msgstr "पोर्चुगिज सन प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:52
+msgid "Portuguese Sun keymap"
+msgstr "पोर्चुगिज सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:57
+msgid "Romanian Sun keymap"
+msgstr "रोमानियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:58
+msgid "Russian Sun keymap"
+msgstr "रसियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:59
+msgid "Serbian Sun standard keymap"
+msgstr "सर्बियाली सन मानक कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:61
+msgid "Slovak Sun keymap"
+msgstr "स्लोभाक सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:62
+msgid "Slovenian Sun keymap"
+msgstr "स्लोभेनियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:63
+msgid "Spanish Sun Type-4 keymap"
+msgstr "स्पेनिस सन प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:64
+msgid "Spanish Sun USB keymap"
+msgstr "स्पेनिस सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:65
+msgid "Spanish Sun keymap"
+msgstr "स्पेनिस सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:66
+msgid "Swedish Sun Type-4 keymap"
+msgstr "स्विडिस सन प्रकार-४ कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:67
+msgid "Swedish Sun USB keymap"
+msgstr "स्विडिस सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:68
+msgid "Swedish Sun keymap"
+msgstr "स्विडिस सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:69
+msgid "Swiss German Sun keymap"
+msgstr "स्विस जर्मन सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:70
+msgid "Thai Sun keymap"
+msgstr "थाई सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:71
+msgid "Turkish Sun keymap"
+msgstr "टर्कीस सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:72
+msgid "US Sun Type-4 keymap"
+msgstr "यु एस सन प्रकार-४ कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:73
+msgid "US Sun USB keymap"
+msgstr "यु एस सन यु एस बि कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:74
+msgid "US Sun type5 keymap"
+msgstr "यु एस सन प्रकार५ कुञ्जीम्याप"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:75
+msgid "Ukrainian Sun keymap"
+msgstr "युक्रेनियाली सन कुञ्जीमानचित्र"
+
+#: ../gkb-new/xmodmap.sun/base.xml.in.h:76
+msgid "Vietnamese Sun keymap"
+msgstr "भियतनामी सन कुञ्जीमानचित्र"
+
+#: ../gweather/GNOME_GWeatherApplet.xml.h:2
+msgid "_Details"
+msgstr "_विवरणहरु"
+
+#: ../gweather/GNOME_GWeatherApplet.xml.h:5 ../gweather/gweather-dialog.c:215
+msgid "_Update"
+msgstr "अपडेट"
+
+#: ../gweather/GNOME_GWeatherApplet_Factory.server.in.in.h:1
+msgid "Factory for creating the weather applet."
+msgstr "मौसम एप्लेट निर्माणमा फ्याक्ट्री"
+
+#: ../gweather/GNOME_GWeatherApplet_Factory.server.in.in.h:2
+msgid "Gweather Applet Factory"
+msgstr "जिवेदर एप्लेट फ्याक्ट्री"
+
+#: ../gweather/GNOME_GWeatherApplet_Factory.server.in.in.h:3
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "हालको मौसम स्थिति, र भविष्यवाणीको लागि मोनिटर"
+
+#: ../gweather/GNOME_GWeatherApplet_Factory.server.in.in.h:4
+#: ../gweather/gweather-applet.c:324
+msgid "Weather Report"
+msgstr "मौसम प्रतिवेदन"
+
+#: ../gweather/gweather-about.c:50
+msgid "© 1999-2005 by S. Papadimitriou and others"
+msgstr "© १९९९-२००५ पापाडिमिट्रियु र अरुहरु बाट"
+
+#: ../gweather/gweather-about.c:51
+msgid "A panel application for monitoring local weather conditions."
+msgstr "मोनिटरिङ लोकल मौसमको स्थितिको लागि प्यानल अनुप्रयोग"
+
+#: ../gweather/gweather-applet.c:342 ../gweather/gweather-applet.c:346
+msgid "GNOME Weather"
+msgstr "जिनोम मौसम"
+
+#: ../gweather/gweather-applet.c:447
+msgid "Weather Forecast"
+msgstr "मौसम पूर्वानुमान"
+
+#: ../gweather/gweather-applet.c:459
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr ""
+"शहर: %s\n"
+"आकाश: %s\n"
+"तापक्रम: %s"
+
+#: ../gweather/gweather-applet.c:509
+msgid "Updating..."
+msgstr "अपडेटिङ..."
+
+#: ../gweather/gweather-dialog.c:213
+msgid "Details"
+msgstr "विस्त्रित"
+
+#: ../gweather/gweather-dialog.c:256
+msgid "City:"
+msgstr "शहर:"
+
+#: ../gweather/gweather-dialog.c:264
+msgid "Last update:"
+msgstr "अन्तिम अपडेट:"
+
+#: ../gweather/gweather-dialog.c:272
+msgid "Conditions:"
+msgstr "सर्तहरु:"
+
+#: ../gweather/gweather-dialog.c:280
+msgid "Sky:"
+msgstr "आकाश:"
+
+#: ../gweather/gweather-dialog.c:288
+msgid "Temperature:"
+msgstr "तापक्रम:"
+
+#: ../gweather/gweather-dialog.c:296
+msgid "Feels like:"
+msgstr "जस्तो ठान्नु:"
+
+#: ../gweather/gweather-dialog.c:304
+msgid "Dew point:"
+msgstr "ओसबिन्दु:"
+
+#: ../gweather/gweather-dialog.c:312
+msgid "Relative humidity:"
+msgstr "सापेक्षिक आर्द्रता:"
+
+#: ../gweather/gweather-dialog.c:320
+msgid "Wind:"
+msgstr "हावा:"
+
+#: ../gweather/gweather-dialog.c:328
+msgid "Pressure:"
+msgstr "चाप:"
+
+#: ../gweather/gweather-dialog.c:336
+msgid "Visibility:"
+msgstr "दृश्यात्मकता:"
+
+#: ../gweather/gweather-dialog.c:344
+msgid "Sunrise:"
+msgstr "सुर्योदय:"
+
+#: ../gweather/gweather-dialog.c:352
+msgid "Sunset:"
+msgstr "सूर्यास्त:"
+
+#: ../gweather/gweather-dialog.c:486
+msgid "Current Conditions"
+msgstr "हालको सर्तहरु"
+
+#: ../gweather/gweather-dialog.c:503
+msgid "Forecast Report"
+msgstr "पूर्वानुमान प्रतिवेदन"
+
+#: ../gweather/gweather-dialog.c:503
+msgid "See the ForeCast Details"
+msgstr "भविष्यवाणी बिस्त्रित हेर्नुस"
+
+#: ../gweather/gweather-dialog.c:513
+msgid "Forecast"
+msgstr "पूर्वानुमान"
+
+#: ../gweather/gweather-dialog.c:521
+msgid "Radar Map"
+msgstr "राडार मानचित्र"
+
+#: ../gweather/gweather-dialog.c:552
+msgid "_Visit Weather.com"
+msgstr "वेदर डट कम जानुस"
+
+#: ../gweather/gweather-dialog.c:553
+msgid "Visit Weather.com"
+msgstr "वेदर डट कम जानुस"
+
+#: ../gweather/gweather-dialog.c:553
+msgid "Click to Enter Weather.com"
+msgstr "वेदर डट कम प्रवेश गर्न क्लिक गर्नुस"
+
+#: ../gweather/gweather-dialog.c:638
+msgid "Forecast not currently available for this location."
+msgstr "भविष्यवाणी स्थानमा हाललाई उपलब्ध भएन"
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../gweather/gweather-pref.c:171
+msgid "Location view"
+msgstr "स्थान अवलोकन"
+
+#: ../gweather/gweather-pref.c:171
+msgid "Select Location from the list"
+msgstr "स्थान सूचीबाट छनौट गर्नुस"
+
+#: ../gweather/gweather-pref.c:172
+msgid "Update spin button"
+msgstr "अपडेट स्पिन बटन"
+
+#: ../gweather/gweather-pref.c:172
+msgid "Spinbutton for updating"
+msgstr "स्पिन बटन अद्यावधिक हुँदै छ"
+
+#: ../gweather/gweather-pref.c:173
+msgid "Address Entry"
+msgstr "ठेगाना प्रविष्टि"
+
+#: ../gweather/gweather-pref.c:173
+msgid "Enter the URL"
+msgstr "भित्र पस्नुहोला युआरएल"
+
+#: ../gweather/gweather-pref.c:317
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr ""
+"स्थान XML डाटाबेस लोड गर्न असफल भयो । कृपया यसलाई बगको रूपमा प्रतिवेदन "
+"गर्नुहोस् ।"
+
+#: ../gweather/gweather-pref.c:807
+msgid "Weather Preferences"
+msgstr "मौसम प्राथमिकताहरु"
+
+#: ../gweather/gweather-pref.c:839 ../gweather/gweather-pref.c:1024
+msgid "_Automatically update every:"
+msgstr "_स्वचालित तरिकाले सबै अपडेट गर्नुस:"
+
+#. 
+#. * Units settings page.
+#. 
+#. Temperature Unit
+#: ../gweather/gweather-pref.c:852
+msgid "_Temperature unit:"
+msgstr "_चाप एकाइ:"
+
+#: ../gweather/gweather-pref.c:861 ../gweather/gweather-pref.c:881
+#: ../gweather/gweather-pref.c:907 ../gweather/gweather-pref.c:935
+msgid "Default"
+msgstr "पूर्वनिर्धारित"
+
+#: ../gweather/gweather-pref.c:862
+msgid "Kelvin"
+msgstr "केल्भिन"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../gweather/gweather-pref.c:864
+msgid "Celsius"
+msgstr "सेल्सियस"
+
+#: ../gweather/gweather-pref.c:865
+msgid "Fahrenheit"
+msgstr "फरेनहाइट"
+
+#. Speed Unit
+#: ../gweather/gweather-pref.c:872
+msgid "_Wind speed unit:"
+msgstr "_हावा गति एकाइ:"
+
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../gweather/gweather-pref.c:883
+msgid "m/s"
+msgstr "m/s"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../gweather/gweather-pref.c:885
+msgid "km/h"
+msgstr "km/h"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../gweather/gweather-pref.c:887
+msgid "mph"
+msgstr "एमपि एच"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../gweather/gweather-pref.c:889
+msgid "knots"
+msgstr "नट्स"
+
+#: ../gweather/gweather-pref.c:891
+msgid "Beaufort scale"
+msgstr "बोफोर्ट स्केल"
+
+#. Pressure Unit
+#: ../gweather/gweather-pref.c:898
+msgid "_Pressure unit:"
+msgstr "_चाप एकाइ:"
+
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../gweather/gweather-pref.c:909
+msgid "kPa"
+msgstr "के पिए"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../gweather/gweather-pref.c:911
+msgid "hPa"
+msgstr "एच पिए"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../gweather/gweather-pref.c:913
+msgid "mb"
+msgstr "एम बि"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../gweather/gweather-pref.c:915
+msgid "mmHg"
+msgstr "एमएम एचजि"
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../gweather/gweather-pref.c:917
+msgid "inHg"
+msgstr "ईन एचजि"
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../gweather/gweather-pref.c:919
+msgid "atm"
+msgstr "atm"
+
+#. Distance Unit
+#: ../gweather/gweather-pref.c:926
+msgid "_Visibility unit:"
+msgstr "_दृश्यात्मक एकाइ:"
+
+#. TRANSLATOR: The distance unit "meters"
+#: ../gweather/gweather-pref.c:937
+msgid "meters"
+msgstr "मिटर्स"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../gweather/gweather-pref.c:939
+msgid "km"
+msgstr "किलोमिटर"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../gweather/gweather-pref.c:941
+msgid "miles"
+msgstr "माइल्स"
+
+#: ../gweather/gweather-pref.c:975
+msgid "Enable _radar map"
+msgstr "सक्षम_राडार नक्सा"
+
+#: ../gweather/gweather-pref.c:989
+msgid "Use _custom address for radar map"
+msgstr "अनुकूलन ठेगानाको लागि राडार नक्सा प्रयोग गर्नुहोस"
+
+#: ../gweather/gweather-pref.c:1006
+msgid "A_ddress:"
+msgstr "ए_ड्रेस:"
+
+#: ../gweather/gweather-pref.c:1020
+msgid "Update"
+msgstr "अपडेट"
+
+#: ../gweather/gweather-pref.c:1044
+msgid "minutes"
+msgstr "मिनेटहरु"
+
+#: ../gweather/gweather-pref.c:1060
+msgid "Display"
+msgstr "प्रदर्शन"
+
+#: ../gweather/gweather-pref.c:1075
+#: ../mini-commander/src/mini-commander.ui.h:9
+msgid "General"
+msgstr "साधारण"
+
+#: ../gweather/gweather-pref.c:1088
+msgid "_Select a location:"
+msgstr "_छनोट स्थान:"
+
+#: ../gweather/gweather-pref.c:1113
+msgid "_Find:"
+msgstr "फेला पार्नुहोस्:"
+
+#: ../gweather/gweather-pref.c:1120
+msgid "Find _Next"
+msgstr "पछिल्लो फेला पार्नुहोस्"
+
+#: ../gweather/gweather-pref.c:1142
+msgid "Location"
+msgstr "स्थान"
+
+#: ../invest-applet/data/Invest_Applet.server.in.in.h:1
+#: ../invest-applet/invest/about.py:20
+msgid "Invest"
+msgstr "लगानी गर्नुहोस्"
+
+#: ../invest-applet/data/Invest_Applet.server.in.in.h:2
+#: ../invest-applet/invest/about.py:23
+msgid "Track your invested money."
+msgstr "तपाईँले लगानी गर्नुभएको पैसालाई ट्रयाकमा ल्याउनुहोस् ।"
+
+#: ../invest-applet/data/Invest_Applet.xml.h:3
+msgid "_Refresh"
+msgstr "ताजा पार्नुहोस्"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+msgid "1 Year"
+msgstr "१ वर्ष"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "10"
+msgstr "१०"
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "100"
+msgstr "१००"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "20"
+msgstr "२०"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "200"
+msgstr "२००"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "3 Months"
+msgstr "३ महिना"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "5"
+msgstr "५"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+msgid "5 Days"
+msgstr "५ दिन"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "5 Years"
+msgstr "५ वर्ष"
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "50"
+msgstr "५०"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "6 Months"
+msgstr "६ महिना"
+
+#: ../invest-applet/data/financialchart.ui.h:12
+msgid "Auto _refresh"
+msgstr "स्वत: ताजा पार्नुहोस्"
+
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Bollinger"
+msgstr "बोल्लीङ्गर"
+
+#: ../invest-applet/data/financialchart.ui.h:14
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "<b>Yahoo!</b> बाट चित्रपट डाउन लोड गर्दै"
+
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "एक्सपोनेन्शल चल औसत: "
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "Fast stoch"
+msgstr "द्रुत स्टच"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+#: ../invest-applet/invest/chart.py:107
+msgid "Financial Chart"
+msgstr "वित्तीय चित्रपट"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "Indicators: "
+msgstr "सूचकहरू: "
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "MFI"
+msgstr "MFI"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "Maximum"
+msgstr "अधिकतम"
+
+#: ../invest-applet/data/financialchart.ui.h:22
+msgid "Moving average: "
+msgstr "चल औसत: "
+
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "छाएको: "
+
+#: ../invest-applet/data/financialchart.ui.h:24
+msgid "ROC"
+msgstr "ROC"
+
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "RSI"
+msgstr "RSI"
+
+#: ../invest-applet/data/financialchart.ui.h:26
+msgid "SAR"
+msgstr "SAR"
+
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "Slow stoch"
+msgstr "सुस्त स्टच"
+
+#: ../invest-applet/data/financialchart.ui.h:28
+msgid "Splits"
+msgstr "विभाजन गर्दछ"
+
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Today"
+msgstr "आज"
+
+#: ../invest-applet/data/financialchart.ui.h:30
+msgid "Vol"
+msgstr "Vol"
+
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#: ../invest-applet/data/financialchart.ui.h:32
+msgid "Volumes"
+msgstr "परमाण"
+
+#: ../invest-applet/data/financialchart.ui.h:34
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "_Graph style: "
+msgstr "ग्राफ शैली: "
+
+#: ../invest-applet/data/financialchart.ui.h:36
+msgid "_Options"
+msgstr "विकल्पहरू"
+
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "_Ticker symbol: "
+msgstr "टिकर प्रतीक: "
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr ""
+"<i><small><b>द्रष्टव्य:</b> उद्धरणहरू कम्तिमा पनि १५ मिनट ढिला छन् ।\n"
+"<b>स्रोत: </b> याहू!</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Invest Preferences"
+msgstr "प्राथमिकताहरू लगानी गर्नुहोस्"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid "Stocks"
+msgstr ""
+
+#: ../invest-applet/data/prefs-dialog.ui.h:5
+msgid "label"
+msgstr "लेबल"
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:49
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr ""
+
+#: ../invest-applet/invest/applet.py:54
+msgid "<b>No stock quotes are currently available</b>"
+msgstr ""
+
+#: ../invest-applet/invest/applet.py:55
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr ""
+
+#: ../invest-applet/invest/chart.py:156
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "वित्तीय चित्रपट - %s"
+
+#: ../invest-applet/invest/chart.py:223
+msgid "Opening Chart"
+msgstr "चित्रपट खोल्दै"
+
+#: ../invest-applet/invest/chart.py:238
+msgid "Chart downloaded"
+msgstr ""
+
+#: ../invest-applet/invest/chart.py:240
+msgid "Chart could not be downloaded"
+msgstr ""
+
+#: ../invest-applet/invest/invest-applet.py:41
+msgid "Invest Applet"
+msgstr "एप्लेट लगानी गर्नुहोस्"
+
+#: ../invest-applet/invest/preferences.py:24
+msgid "Symbol"
+msgstr "प्रतीक"
+
+#: ../invest-applet/invest/preferences.py:24
+msgid "Label"
+msgstr "लेबल"
+
+#: ../invest-applet/invest/preferences.py:24
+msgid "Amount"
+msgstr "रकम"
+
+#: ../invest-applet/invest/preferences.py:24
+msgid "Price"
+msgstr "मूल्य"
+
+#: ../invest-applet/invest/preferences.py:24
+msgid "Commission"
+msgstr "कमिशन"
+
+#: ../invest-applet/invest/quotes.py:92
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr ""
+
+#: ../invest-applet/invest/quotes.py:94 ../invest-applet/invest/quotes.py:107
+#, python-format
+msgid "Updated at %s"
+msgstr ""
+
+#. Translators: This is share-market jargon. It is the percentage change in the price of a stock. The %% gets changed to a single percent sign and the %+.2f gets replaced with the value of the change.
+#: ../invest-applet/invest/quotes.py:103
+#, python-format
+msgid "Quotes average change %%: %+.2f%%"
+msgstr ""
+
+#. Translators: This is share-market jargon. It refers to the total difference between the current price and purchase price for all the shares put together. i.e. How much money would be earned if they were sold right now.
+#: ../invest-applet/invest/quotes.py:106
+#, python-format
+msgid "Positions balance: %+.2f"
+msgstr ""
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE, VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:53
+msgid "Ticker"
+msgstr ""
+
+#: ../invest-applet/invest/widgets.py:53
+msgid "Last"
+msgstr "अन्तिम"
+
+#: ../invest-applet/invest/widgets.py:53
+msgid "Change %"
+msgstr "परिवर्तन %"
+
+#: ../invest-applet/invest/widgets.py:53
+msgid "Chart"
+msgstr ""
+
+#: ../invest-applet/invest/widgets.py:53
+msgid "Gain"
+msgstr ""
+
+#: ../invest-applet/invest/widgets.py:53
+msgid "Gain %"
+msgstr ""
+
+#: ../mini-commander/GNOME_MiniCommanderApplet.server.in.h:1
+msgid "Deskbar (formerly Mini-Commander)"
+msgstr "डेस्कपट्टी (औपचारिक रूपमा सानो-आदेशकर्ता)"
+
+#: ../mini-commander/GNOME_MiniCommanderApplet.server.in.h:2
+msgid "Deskbar (transparent upgrade from Mini-Commander)"
+msgstr "डेस्कपट्टी (सानो-आदेशकर्ताबाट पारदर्शी स्तरवृद्धी)"
+
+#: ../mini-commander/src/GNOME_MiniCommanderApplet.server.in.in.h:1
+#: ../mini-commander/src/mini-commander_applet.c:355
+msgid "Command Line"
+msgstr "आदेश रेखा"
+
+#: ../mini-commander/src/GNOME_MiniCommanderApplet.server.in.in.h:2
+msgid "Mini-Commander"
+msgstr "सानो-आदेश कर्ता"
+
+#: ../mini-commander/src/GNOME_MiniCommanderApplet.server.in.in.h:3
+msgid "MiniCommander Applet Factory"
+msgstr "सानो आदेश कर्ता एप्लेट फ्याक्ट्री"
+
+#: ../mini-commander/src/about.c:49
+msgid ""
+"This GNOME applet adds a command line to the panel. It features command "
+"completion, command history, and changeable macros."
+msgstr ""
+"यो जिनोम एप्लेटले आदेश रेखा देखि प्यानलसम्म जोड्दछ. यो आदेश कम्प्लिसन, आदेश "
+"इतिहास, र परिवर्तित म्याक्रोज चिन्ह प्रस्तुत गर्दछ"
+
+#: ../mini-commander/src/command_line.c:345
+msgid "No items in history"
+msgstr "इतिहासमा कुनै चीजहरु छैन"
+
+#. build file select dialog
+#: ../mini-commander/src/command_line.c:469
+msgid "Start program"
+msgstr "प्रोग्राम शुरु"
+
+#: ../mini-commander/src/command_line.c:522
+msgid "Command line"
+msgstr "आदेश रेखा"
+
+#: ../mini-commander/src/command_line.c:523
+msgid "Type a command here and Gnome will execute it for you"
+msgstr "आदेश यहाँ टाइप गर्नुस जिनोमले कार्यान्वयन गरिदिन्छ"
+
+#: ../mini-commander/src/mc-install-default-macros.c:80
+#, c-format
+msgid "Cannot get schema for %s: %s"
+msgstr "स्किमा पाउन सकिएन %s: %s"
+
+#: ../mini-commander/src/mc-install-default-macros.c:111
+#, c-format
+msgid "Cannot set schema for %s: %s"
+msgstr "स्किमा %s: %s को लागि सेट गर्न सकिएन"
+
+#: ../mini-commander/src/mc-install-default-macros.c:117
+#, c-format
+msgid "Set default list value for %s\n"
+msgstr "पूर्व निर्धारित सूचीको मान  %s को लागि सेट गर्न सकिएन\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:129
+#, c-format
+msgid ""
+"GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr ""
+"जीकन्फ_अपाङ्ग_फाइल निर्माण_रूपरेखा_जडान एउटा समूह हो जडान रूपरेखा होइन\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:137
+#, c-format
+msgid "Must set the GCONF_CONFIG_SOURCE environment variable\n"
+msgstr "जीकन्फ_कन्फिग_स्रोत वातावरण विविधता जडान हुनुपर्छ\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:154
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "समायोजन स्रोतको सुविधा प्राप्त भएन: %s\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:169
+#, c-format
+msgid "Error syncing config data: %s"
+msgstr "%s डाटा ढाँचामा सिङ्किङ समस्या"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:1
+msgid "List of GConfValue entries containing strings for the macro commands."
+msgstr "म्याक्रो आदेशहरुको लागि स्ट्रिङ सहित जिकन्फ मानको सूची"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:2
+msgid "List of GConfValue entries containing strings for the macro patterns."
+msgstr "बान्की आदेशहरुको लागि स्ट्रिङ सहित जिकन्फ मानको सूची"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:3
+#: ../mini-commander/src/mini-commander.schemas.in.h:10
+msgid "Macro command list"
+msgstr "म्याक्रो आदेश सूची"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:4
+#: ../mini-commander/src/mini-commander.schemas.in.h:11
+msgid "Macro pattern list"
+msgstr "म्याक्रो बान्की सूची"
+
+#: ../mini-commander/src/mini-commander.ui.h:1
+msgid "Add New Macro"
+msgstr "नयाँ म्याक्रो जोड्नुस"
+
+#: ../mini-commander/src/mini-commander.ui.h:2
+msgid "Auto Completion"
+msgstr ""
+
+#: ../mini-commander/src/mini-commander.ui.h:3
+msgid "Co_mmand:"
+msgstr "आ_देश"
+
+#: ../mini-commander/src/mini-commander.ui.h:4 ../multiload/properties.c:571
+msgid "Colors"
+msgstr "_रंगहरु"
+
+#: ../mini-commander/src/mini-commander.ui.h:5
+msgid "Command Line Preferences"
+msgstr "आदेश रेखा प्राथमिकताहरु"
+
+#: ../mini-commander/src/mini-commander.ui.h:6
+msgid "Command line _background:"
+msgstr "आदेश रेखा _पृष्ठभूमि:"
+
+#: ../mini-commander/src/mini-commander.ui.h:7
+msgid "Command line _foreground:"
+msgstr "आदेश रेखा _अग्रभूमि"
+
+#: ../mini-commander/src/mini-commander.ui.h:8
+msgid "E_nable history-based auto completion"
+msgstr "स्वत: कम्प्लिसन इतिहास-आधार सक्षम पार्नुहोस"
+
+#: ../mini-commander/src/mini-commander.ui.h:10
+msgid "Macros"
+msgstr "म्याक्रोस्"
+
+#: ../mini-commander/src/mini-commander.ui.h:11
+msgid "Pick a color"
+msgstr "एउटा रङ्ग छान्नुहोस्"
+
+#: ../mini-commander/src/mini-commander.ui.h:12
+msgid "Size"
+msgstr "साइज"
+
+#: ../mini-commander/src/mini-commander.ui.h:13
+msgid "_Add Macro..."
+msgstr "_म्याक्रो जोड्नुस..."
+
+#: ../mini-commander/src/mini-commander.ui.h:14
+msgid "_Delete Macro"
+msgstr "_म्याक्रो मेट्नुस"
+
+#: ../mini-commander/src/mini-commander.ui.h:15
+msgid "_Macros:"
+msgstr "_म्याक्रोस:"
+
+#: ../mini-commander/src/mini-commander.ui.h:16
+msgid "_Pattern:"
+msgstr "_नमुना:"
+
+#: ../mini-commander/src/mini-commander.ui.h:17
+msgid "_Use default theme colors"
+msgstr "_पूर्व निर्धारित बिषयवस्तु प्रयोग गर्नुस"
+
+#: ../mini-commander/src/mini-commander.ui.h:18
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "_Width:"
+msgstr "_चौडाइ:"
+
+#: ../mini-commander/src/mini-commander.ui.h:19 ../multiload/properties.c:526
+msgid "pixels"
+msgstr "पिक्सेलहरू"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:1
+msgid ""
+"Attempt to autocomplete a command from the history of commands entered."
+msgstr "इतिहासको प्रवेशित आदेशहरुबाट स्वत: पूर्ण आदेशमा प्रविष्ट गराउनुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:2
+msgid "Background color, blue component"
+msgstr "पृष्ठभूमि रङ्ग, निलो अवयव"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:3
+msgid "Background color, green component"
+msgstr "पृष्ठभूमि रङ्ग, हरियो अवयव"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:4
+msgid "Background color, red component"
+msgstr "पृष्ठभूमि रङ्ग, रातो अवयव"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:5
+msgid "Foreground color, blue component"
+msgstr "अग्रभूमि रङ्ग, निलो अवयव"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:6
+msgid "Foreground color, green component"
+msgstr "अग्रभूमि रङ्ग, हरियो अवयव"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:7
+msgid "Foreground color, red component"
+msgstr "अग्रभूमि रङ्ग, रातो अवयव"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:8
+msgid "History list"
+msgstr "इतिहास सूची"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:9
+msgid "List of GConfValue entries containing strings for history entries."
+msgstr "इतिहास प्रवेशितको लागि स्ट्रिङ्स सहित जिकन्फ मानको सूची"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:12
+msgid "Not used anymore"
+msgstr "धेरै प्रयोगमा छैन"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:13
+msgid "Perform history autocompletion"
+msgstr "इतिहास स्वत: सम्पादन गर्नुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:14
+msgid "Show a frame surrounding the applet."
+msgstr "एप्लेटको सेरोफेरोको फ्रेम देखाउनुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:15
+msgid "Show a handle so the applet can be detached from the panel."
+msgstr "ह्यान्डल देखाउनुस किनकि एप्लेटले प्यानलबाट डिट्याच्ड गर्न मिल्छ"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:16
+msgid "Show frame"
+msgstr "फ्रेम देखाउनुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:17
+msgid "Show handle"
+msgstr "ह्यान्डल देखाउनुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:18
+msgid "The blue component of the background color."
+msgstr "निलो अवयव पृष्ठभूमिको रङ्ग"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:19
+msgid "The blue component of the foreground color."
+msgstr "निलो अवयव अग्रभूमि रङ्ग"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:20
+msgid "The green component of the background color."
+msgstr "हरियो अवयव पृष्ठभूमिको रङ्ग"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:21
+msgid "The green component of the foreground color."
+msgstr "हरियो अवयव पृअग्रभूमि रङ्ग"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:22
+msgid "The red component of the background color."
+msgstr "रातो अवयव पृष्ठभूमिको रङ्ग"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:23
+msgid "The red component of the foreground color."
+msgstr "रातो अवयव अग्रभूमिको रङ्ग"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:24
+msgid ""
+"This per-applet key is deprecated in favour of the global key, "
+"/schemas/apps/mini-commander-global/macro_patterns."
+msgstr ""
+"ग्लोबल कुञ्जी, /स्किमास्/एप्स अनुकुल बिरुद्व पर्-एप्लेट कुञ्जी सानो-"
+"आदेशकर्ता-ग्लोबल/म्याक्रो_प्याटर्न्स"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:25
+msgid "Use the default theme colors"
+msgstr "पूर्व निर्धारित रङ्ग प्रयोग गर्नुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:26
+msgid "Use theme colors instead of custom ones."
+msgstr "अनुकूलन रङ्गको सट्टा बिषयवस्तु रङ्ग प्रयोग गर्नुस"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:27
+msgid "Width"
+msgstr "चौडाइ"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:28
+msgid "Width of the applet"
+msgstr "एप्लेटको चौडाइ"
+
+#: ../mini-commander/src/mini-commander_applet.c:238
+#: ../mini-commander/src/mini-commander_applet.c:242
+msgid "Browser"
+msgstr "ब्राउजर"
+
+#: ../mini-commander/src/mini-commander_applet.c:243
+msgid "Click this button to start the browser"
+msgstr "ब्राउजर शुरु गर्न यो बटन क्लिक गर्नुस"
+
+#: ../mini-commander/src/mini-commander_applet.c:256
+#: ../mini-commander/src/mini-commander_applet.c:260
+msgid "History"
+msgstr "इतिहास"
+
+#: ../mini-commander/src/mini-commander_applet.c:261
+msgid "Click this button for the list of previous commands"
+msgstr "अघिल्लो सूची आदेशहरुको लागि यो बटन क्लिक गर्नुस"
+
+#: ../mini-commander/src/mini-commander_applet.c:340
+msgid "Command line has been disabled by your system administrator"
+msgstr "ब्यवस्थापक प्रणालीबाट आदेश रेखा अक्षम भयो"
+
+#: ../mini-commander/src/mini-commander_applet.c:402
+msgid "Mini-Commander applet"
+msgstr "सानो-आदेश एप्लेट"
+
+#: ../mini-commander/src/mini-commander_applet.c:403
+msgid "This applet adds a command line to the panel"
+msgstr "यो एप्लेटले आदेश रेखा प्यानलमा जोड्दछ"
+
+#: ../mini-commander/src/preferences.c:401
+msgid "You must specify a pattern"
+msgstr "तपाईले प्याटर्नलाई रोज्नु पर्छ"
+
+#: ../mini-commander/src/preferences.c:405
+msgid "You must specify a pattern and a command"
+msgstr "तपाईले प्याटर्न र आदेशलाई रोज्नु पर्छ"
+
+#: ../mini-commander/src/preferences.c:406
+msgid "You must specify a command"
+msgstr "तपाईले आदेशलाई रोज्नु पर्छ"
+
+#: ../mini-commander/src/preferences.c:409
+msgid "You may not specify duplicate patterns"
+msgstr "तपाईले नक्कली प्याटर्न्सलाई रोज्नु हुँदैन"
+
+#: ../mini-commander/src/preferences.c:773
+msgid "Pattern"
+msgstr "प्याटर्न"
+
+#: ../mini-commander/src/preferences.c:783
+msgid "Command"
+msgstr "आदेश"
+
+#: ../mixer/GNOME_MixerApplet.server.in.in.h:1
+#: ../null_applet/GNOME_MixerApplet.server.in.h:1
+msgid "Adjust the sound volume"
+msgstr "ध्वनि आयतन समायोजन गर्नुस"
+
+#. tooltip over applet
+#: ../mixer/GNOME_MixerApplet.server.in.in.h:2 ../mixer/applet.c:203
+#: ../mixer/applet.c:224 ../null_applet/null_applet.c:44
+#: ../null_applet/null_applet.c:46
+msgid "Volume Control"
+msgstr "ध्वनि नियन्त्रक"
+
+#: ../mixer/GNOME_MixerApplet.xml.h:1
+msgid "Mu_te"
+msgstr "मौन"
+
+#: ../mixer/GNOME_MixerApplet.xml.h:4
+msgid "_Open Volume Control"
+msgstr "_आवाज नियन्त्रण खोल्नुस"
+
+#: ../mixer/applet.c:187
+msgid "Volume Applet"
+msgstr "आवाज एप्लेट"
+
+#: ../mixer/applet.c:542
+msgid ""
+"The volume control did not find any elements and/or devices to control. This "
+"means either that you don't have the right GStreamer plugins installed, or "
+"that you don't have a sound card configured."
+msgstr ""
+"भोल्युम नियन्त्रणले नियन्त्रण गर्नलाई कुनै तत्वहरू र/वा यन्त्रहरू फेला पारेन "
+"। यसको मतलव या तपाईँसँग सही GStreamer प्लगिनहरू स्थापना भएको छैन, वा "
+"तपाईँसँग कन्फिगर भएको ध्वनि कार्ड छैन ।"
+
+#: ../mixer/applet.c:546
+msgid ""
+"You can remove the volume control from the panel by right-clicking the "
+"speaker icon on the panel and selecting \"Remove From Panel\" from the menu."
+msgstr ""
+"तपाईँले प्यानलमा स्पिकर प्रतिमालाई दाँया क्लिक गरेर र मेनुबाट \"प्यानलबाट "
+"हटाउनुहोस्\" चयन गरेर प्यानलबाट भोल्युम नियन्त्रण हटाउन सक्नुहुन्छ ।"
+
+#: ../mixer/applet.c:714
+#, c-format
+msgid "Failed to start Volume Control: %s"
+msgstr "असफल आवाज नियन्त्रण: %s"
+
+#: ../mixer/applet.c:1164
+#, c-format
+msgid "%s: muted"
+msgstr "%s: मौन पारिएको"
+
+#. Translator comment: I'm not all too sure if this makes sense
+#. * to mark as a translation, but anyway. The string is a list of
+#. * selected tracks, the number is the volume in percent. You
+#. * most likely want to keep this as-is.
+#: ../mixer/applet.c:1170
+#, c-format
+msgid "%s: %d%%"
+msgstr "%s: %d%%"
+
+#: ../mixer/applet.c:1408
+#, c-format
+msgid "Failed to display help: %s"
+msgstr "सहयोग प्रदर्शन असफल: %s"
+
+#: ../mixer/applet.c:1421
+msgid "Volume control for your GNOME Panel."
+msgstr "तपाईँको जिनोम प्यानलका लागि भोल्युम नियन्त्रण ।"
+
+#: ../mixer/applet.c:1422
+msgid "Using GStreamer 0.10."
+msgstr "GStreamer ०.१० प्रयोग गर्दै"
+
+#: ../mixer/dock.c:218
+msgid "Mute"
+msgstr "मौन"
+
+#: ../mixer/dock.c:224
+msgid "Volume Control..."
+msgstr ""
+
+#: ../mixer/load.c:86
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "अज्ञात %d ध्वनि नियन्त्रक"
+
+#: ../mixer/mixer.schemas.in.h:1
+msgid "Channel controlled by applet. Only for OSS setups"
+msgstr "ओ एस एस सेटअपको लागि च्यानल नियन्त्रण एप्लेटबाट"
+
+#: ../mixer/mixer.schemas.in.h:2
+msgid "Saved mute state"
+msgstr "चुप राज्य बचत"
+
+#: ../mixer/mixer.schemas.in.h:3
+msgid "Saved volume to restore on startup"
+msgstr "आयतन स्टार्टअपलाई पूर्वास्थामा ल्याउनुहोस"
+
+#. make window look cute
+#: ../mixer/preferences.c:90
+msgid "Volume Control Preferences"
+msgstr "धवनि नियन्त्रकको प्राथमिकताहरु"
+
+#: ../mixer/preferences.c:103
+msgid "Select the device and track to control."
+msgstr "ट्र्याकलाई कन्ट्रोल गर्न यन्त्र छान्नुस"
+
+#: ../modemlights/GNOME_ModemLights.server.in.in.h:1
+msgid "Activate and monitor a dial-up network connection"
+msgstr "सन्झाल जडानहरु डायल-अप सक्रिय र मार्ग दर्शन गर्नुहोस"
+
+#: ../modemlights/GNOME_ModemLights.server.in.in.h:2
+#: ../modemlights/modem-applet.c:178 ../null_applet/null_applet.c:50
+msgid "Modem Monitor"
+msgstr "मोडेम मोनिटर"
+
+#: ../modemlights/GNOME_ModemLights.xml.h:2
+msgid "_Activate"
+msgstr "_सक्रिय गर्नुहोस"
+
+#: ../modemlights/GNOME_ModemLights.xml.h:3
+msgid "_Deactivate"
+msgstr "_निस्क्रिय"
+
+#: ../modemlights/GNOME_ModemLights.xml.h:5
+msgid "_Properties"
+msgstr "_गुणहरु"
+
+#: ../modemlights/modem-applet.c:708
+msgid "Connection active, but could not get connection time"
+msgstr "जडान सक्रिय छ, तर जडान समय प्राप्त गर्न सकिएन"
+
+#: ../modemlights/modem-applet.c:724
+#, c-format
+msgid "Time connected: %.1d:%.2d"
+msgstr "समय जडित: %.1d:%.2d"
+
+#: ../modemlights/modem-applet.c:728
+msgid "Not connected"
+msgstr "जडान छैन"
+
+#: ../modemlights/modem-applet.c:750
+msgid ""
+"To connect to your Internet service provider, you need administrator "
+"privileges"
+msgstr ""
+"तपाईँको इन्टरनेट सेवा प्रदायकलाई जडान गर्न, तपाईँलाई प्रशासक अधिकार चाहिन्छ"
+
+#: ../modemlights/modem-applet.c:751
+msgid ""
+"To disconnect from your Internet service provider, you need administrator "
+"privileges"
+msgstr ""
+"तपाईँको इन्टरनेट सेवा प्रदायकबाट जडान विच्छेद गर्न, तपाईँलाई प्रशासक अधिकार "
+"चाहिन्छ"
+
+#: ../modemlights/modem-applet.c:826
+msgid "The entered password is invalid"
+msgstr "प्रविष्टि गरिएको पासवर्ड अवैध छ"
+
+#: ../modemlights/modem-applet.c:828
+msgid ""
+"Check that you have typed it correctly and that you haven't activated the "
+"\"caps lock\" key"
+msgstr ""
+"तपाईँले यो सही रूपमा टाइप गर्नु भएको र तपाईँले \"क्याप्स लक\" कुञ्जी सक्रिय "
+"पार्नु भएको छैन भनी जाँच गर्नुहोस्"
+
+#: ../modemlights/modem-applet.c:930
+msgid "Do you want to connect?"
+msgstr "तपाईँ जडान गर्न चाहनु हुन्छ?"
+
+#: ../modemlights/modem-applet.c:931
+msgid "Do you want to disconnect?"
+msgstr "तपाईँ जडान बिच्छेद गर्न चाहनुहुन्छ?"
+
+#: ../modemlights/modem-applet.c:940
+msgid "C_onnect"
+msgstr "जडान गर्नुहोस्"
+
+#: ../modemlights/modem-applet.c:940
+msgid "_Disconnect"
+msgstr "जडान विच्छेद गर्नुहोस्"
+
+#: ../modemlights/modem-applet.c:996
+msgid "Could not launch network configuration tool"
+msgstr "सन्झाल कन्फिगरेसन उपकरण सुरुवात गर्न सकिँदैन"
+
+#: ../modemlights/modem-applet.c:998
+msgid ""
+"Check that it's installed in the correct path and that it has the correct "
+"permissions"
+msgstr ""
+"तपाईले स्थापना गर्नु भएको सहि दिशा र सहि अनुमतिहरु ठिक छ कि छैन जाँच्नुस"
+
+#: ../modemlights/modem-applet.c:1022
+msgid "Applet for activating and monitoring a dial-up network connection."
+msgstr "एप्लेट सक्रिय र निर्देशन डायल-अप सन्झाल जडानहरुको लागि"
+
+#: ../modemlights/modemlights.ui.h:1
+msgid "Connecting with Internet Service Provider"
+msgstr ""
+
+#: ../modemlights/modemlights.ui.h:2
+msgid "Enter password"
+msgstr "पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../modemlights/modemlights.ui.h:3
+msgid "Password:"
+msgstr "पासवर्ड:"
+
+#: ../modemlights/modemlights.ui.h:4
+msgid "Root password required"
+msgstr "रुट पासवर्ड आवश्यक छ"
+
+#: ../multiload/GNOME_MultiLoadApplet_Factory.server.in.in.h:1
+msgid "A system load indicator"
+msgstr "प्रणाली लोड सूचक"
+
+#: ../multiload/GNOME_MultiLoadApplet_Factory.server.in.in.h:2
+#: ../multiload/main.c:496
+msgid "System Monitor"
+msgstr "प्रणाली मोनिटर"
+
+#: ../multiload/GNOME_MultiloadApplet.xml.h:3
+msgid "_Open System Monitor"
+msgstr "प्रणाली मोनिटर खोल्नुस"
+
+#: ../multiload/main.c:57
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr ""
+"प्रणाली लोड मोनिटर प्रदर्शन ग्राफ सिपि युको लागि, राम, र स्वाप स्पेस प्रयोग "
+"जोड सञ्झाल ट्राफिकको लागि"
+
+#: ../multiload/main.c:126
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "त्यहाँ कार्यावयन गल्ती छन '%s': %s"
+
+#: ../multiload/main.c:288 ../multiload/properties.c:596
+msgid "Processor"
+msgstr "प्रशासक"
+
+#: ../multiload/main.c:290 ../multiload/properties.c:604
+msgid "Memory"
+msgstr "स्मृति"
+
+#: ../multiload/main.c:292 ../multiload/properties.c:612
+msgid "Network"
+msgstr "नेटवर्क"
+
+#: ../multiload/main.c:294 ../multiload/properties.c:619
+msgid "Swap Space"
+msgstr ""
+
+#: ../multiload/main.c:296 ../multiload/main.c:378
+msgid "Load Average"
+msgstr "औसत लोड गर्नुहोस्"
+
+#: ../multiload/main.c:298
+msgid "Disk"
+msgstr "चक्का"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#. 
+#: ../multiload/main.c:317
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr ""
+"%s:\n"
+"%u%% कार्यक्रमहरूद्धारा प्रयोगमा\n"
+"%u%% क्यासको रूपमा प्रयोगमा"
+
+#: ../multiload/main.c:325
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "प्रणाली लोड औसत %0.02f छ"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:333
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr ""
+
+#: ../multiload/main.c:349
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] ""
+"%s:\n"
+"%u%% प्रयोगमा"
+msgstr[1] ""
+"%s:\n"
+"%u%% प्रयोगमा"
+
+#: ../multiload/main.c:374
+msgid "CPU Load"
+msgstr "सीपि यु लोड"
+
+#: ../multiload/main.c:375
+msgid "Memory Load"
+msgstr "स्मृति लोड"
+
+#: ../multiload/main.c:376
+msgid "Net Load"
+msgstr "नेट लोड"
+
+#: ../multiload/main.c:377
+msgid "Swap Load"
+msgstr "स्वाप लोड"
+
+#: ../multiload/main.c:379
+msgid "Disk Load"
+msgstr "चक्का लोड"
+
+#: ../multiload/multiload.schemas.in.h:1
+msgid "Applet refresh rate in milliseconds"
+msgstr "एप्लेट ताजा गर्नुहोस् दर मिलिसेकेन्डहरु"
+
+#: ../multiload/multiload.schemas.in.h:2
+msgid "Background color for disk load graph"
+msgstr "पृष्ठभूमि रङ्ग चक्का ग्राफ लोडको लागि"
+
+#: ../multiload/multiload.schemas.in.h:3
+msgid "CPU graph background color"
+msgstr "सीपि यु ग्राफ पृष्ठभूमि रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:4
+msgid "Enable CPU load graph"
+msgstr "सिपि यु लोड ग्राफ सक्षम पार्नुहोस"
+
+#: ../multiload/multiload.schemas.in.h:5
+msgid "Enable disk load graph"
+msgstr "चक्का लोड ग्राफ सक्षम पार्नुहोस"
+
+#: ../multiload/multiload.schemas.in.h:6
+msgid "Enable load average graph"
+msgstr "लोड औसत ग्राफ सक्षम पार्नुहोस्"
+
+#: ../multiload/multiload.schemas.in.h:7
+msgid "Enable memory load graph"
+msgstr "स्मृति लोड ग्राफ सक्षम पार्नुहोस्"
+
+#: ../multiload/multiload.schemas.in.h:8
+msgid "Enable network load graph"
+msgstr "सन्झाल लोड ग्राफ सक्षम पार्नुहोस"
+
+#: ../multiload/multiload.schemas.in.h:9
+msgid "Enable swap load graph"
+msgstr "स्वाप लोड ग्राफ सक्षम पार्नुहोस"
+
+#: ../multiload/multiload.schemas.in.h:10
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr ""
+"तेर्सो प्यानहरुका लागि, ग्राफको चौडाइ पिक्सेलहरु ठाडो प्यानल्स, यो "
+"ग्राफहरुको उचाइ हो"
+
+#: ../multiload/multiload.schemas.in.h:11
+msgid "Graph color for buffer memory"
+msgstr "बफर स्मृतिको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:12
+msgid "Graph color for cached memory"
+msgstr "क्याचेड स्मृतिको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:13
+msgid "Graph color for disk read"
+msgstr "चक्का रिडको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:14
+msgid "Graph color for disk write"
+msgstr "चक्का लेखनको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:15
+msgid "Graph color for input network activity"
+msgstr ""
+
+#: ../multiload/multiload.schemas.in.h:16
+msgid "Graph color for iowait related CPU activity"
+msgstr "आयोवेट सम्बन्धित सक्रिय सीपि युको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:17
+msgid "Graph color for load average"
+msgstr "औसत लोडको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:18
+msgid "Graph color for loopback network usage"
+msgstr ""
+
+#: ../multiload/multiload.schemas.in.h:19
+msgid "Graph color for nice-related CPU activity"
+msgstr "नाइस-सम्बन्धित सीपि यु सक्रियको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:20
+msgid "Graph color for output network activity"
+msgstr ""
+
+#: ../multiload/multiload.schemas.in.h:21
+msgid "Graph color for shared memory"
+msgstr "साझा स्मृतिको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:22
+msgid "Graph color for system-related CPU activity"
+msgstr "सीपि यु सक्रिय प्रणाली सम्बन्धितको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:23
+msgid "Graph color for user-related CPU activity"
+msgstr "सीपि यु सक्रिय प्रयोगकर्ताको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:24
+msgid "Graph color for user-related memory usage"
+msgstr "स्मृति प्रयोग प्रयोगकर्ता-सम्बन्धितको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:25
+msgid "Graph color for user-related swap usage"
+msgstr "स्वाप प्रयोग प्रयोगकर्ता-सम्बन्धितको लागि ग्राफ रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:26
+msgid "Graph size"
+msgstr "ग्राफ आकार"
+
+#: ../multiload/multiload.schemas.in.h:27
+msgid "Load graph background color"
+msgstr "ग्राफ पृष्ठभूमि रङ्ग लोड गर्नुस"
+
+#: ../multiload/multiload.schemas.in.h:28
+msgid "Memory graph background color"
+msgstr "स्मृति ग्राफ पृष्ठभूमि रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:29
+msgid "Network graph background color"
+msgstr "सञ्जाल ग्राफ पृष्ठभूमि रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:30
+msgid "Swap graph background color"
+msgstr "स्वाप ग्राफ पृष्ठभूमि रङ्ग"
+
+#: ../multiload/multiload.schemas.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr ""
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s/सेकेन्ड"
+
+#: ../multiload/properties.c:357
+msgid "Monitored Resources"
+msgstr "मोनिटर्ड श्रोतहरु"
+
+#: ../multiload/properties.c:382
+msgid "_Processor"
+msgstr "_ब्यवस्थापक"
+
+#: ../multiload/properties.c:395
+msgid "_Memory"
+msgstr "_स्मृति"
+
+#: ../multiload/properties.c:408
+msgid "_Network"
+msgstr "_सञ्जाल"
+
+#: ../multiload/properties.c:421
+msgid "S_wap Space"
+msgstr "एस_वाप् खालीस्थान"
+
+#: ../multiload/properties.c:434
+msgid "_Load"
+msgstr "_लोड"
+
+#: ../multiload/properties.c:447
+msgid "_Harddisk"
+msgstr "_हार्डडिस्क"
+
+#: ../multiload/properties.c:463
+msgid "Options"
+msgstr "विकल्पहरु"
+
+#: ../multiload/properties.c:493
+msgid "System m_onitor width: "
+msgstr "प्रणाली मोनिटर चौडाई: "
+
+#: ../multiload/properties.c:495
+msgid "System m_onitor height: "
+msgstr "प्रणाली मोनिटर उचाइ: "
+
+#: ../multiload/properties.c:534
+msgid "Sys_tem monitor update interval: "
+msgstr "प्रणाली मोनिटर अपडेट अन्तराल "
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "मिलिसेकेन्डहरु"
+
+#: ../multiload/properties.c:598 ../multiload/properties.c:606
+msgid "_User"
+msgstr "_प्रयोगकर्ता"
+
+#: ../multiload/properties.c:599
+msgid "S_ystem"
+msgstr "प्र_णाली"
+
+#: ../multiload/properties.c:600
+msgid "N_ice"
+msgstr "ना_इस"
+
+#: ../multiload/properties.c:601
+msgid "I_OWait"
+msgstr "आइ_ओवेट"
+
+#: ../multiload/properties.c:602
+msgid "I_dle"
+msgstr "आइ_डल"
+
+#: ../multiload/properties.c:607
+msgid "Sh_ared"
+msgstr "सा_झा"
+
+#: ../multiload/properties.c:608
+msgid "_Buffers"
+msgstr "_बफर्स"
+
+#: ../multiload/properties.c:609
+msgid "Cach_ed"
+msgstr "क्याच्_एड"
+
+#: ../multiload/properties.c:610
+msgid "F_ree"
+msgstr "मु_क्त"
+
+#: ../multiload/properties.c:614
+msgid "_In"
+msgstr ""
+
+#: ../multiload/properties.c:615
+msgid "_Out"
+msgstr ""
+
+#: ../multiload/properties.c:616
+msgid "_Local"
+msgstr ""
+
+#: ../multiload/properties.c:617 ../multiload/properties.c:627
+#: ../multiload/properties.c:633
+msgid "_Background"
+msgstr "_पृष्ठभूमि"
+
+#: ../multiload/properties.c:621
+msgid "_Used"
+msgstr "_प्रयोग गरिएको"
+
+#: ../multiload/properties.c:622
+msgid "_Free"
+msgstr "_मुक्त"
+
+#: ../multiload/properties.c:624
+msgid "Load"
+msgstr "लोड"
+
+#: ../multiload/properties.c:626
+msgid "_Average"
+msgstr "_औसत"
+
+#: ../multiload/properties.c:629
+msgid "Harddisk"
+msgstr "हार्डडिस्क"
+
+#: ../multiload/properties.c:631
+msgid "_Read"
+msgstr "_पढ"
+
+#: ../multiload/properties.c:632
+msgid "_Write"
+msgstr "_लेख"
+
+#: ../multiload/properties.c:658
+msgid "System Monitor Preferences"
+msgstr "सिस्टम मोनिटर प्राथमिकताहरु"
+
+#: ../null_applet/GNOME_CDPlayerApplet.server.in.h:1
+msgid "CD Player (Deprecated)"
+msgstr "सिडि प्लेयर (बिरुद्व)"
+
+#: ../null_applet/GNOME_CDPlayerApplet.server.in.h:2
+msgid "Panel applet for playing audio CDs"
+msgstr "प्यानल एप्लेट अडियो सिडिहरु बजाउनको लागि"
+
+#: ../null_applet/GNOME_MailcheckApplet_Factory.server.in.h:1
+msgid "Alert you when new mail arrives"
+msgstr "नयाँ मेल आउँदा सतर्कता जनाउनुस"
+
+#: ../null_applet/GNOME_MailcheckApplet_Factory.server.in.h:2
+msgid "Inbox Monitor (Deprecated)"
+msgstr "प्राप्तिमञ्जूषा मोनिटर (बिरुद्व)"
+
+#: ../null_applet/GNOME_MixerApplet.server.in.h:2
+msgid "Volume Control (Deprecated)"
+msgstr ""
+
+#: ../null_applet/GNOME_NullApplet_Factory.server.in.in.h:1
+msgid "Factory for deprecating applets"
+msgstr "अनुरोध एप्लेट फ्याक्ट्रीको लागि"
+
+#: ../null_applet/GNOME_NullApplet_Factory.server.in.in.h:2
+msgid "Null Applet Factory"
+msgstr "खारिज एप्लेट फ्याक्ट्री"
+
+#: ../null_applet/GNOME_Panel_WirelessApplet.server.in.h:1
+msgid "Monitor the quality of a wireless network link"
+msgstr "मोनिटर ताररहित सम्बन्ध सन्झालको गुण"
+
+#: ../null_applet/GNOME_Panel_WirelessApplet.server.in.h:2
+msgid "Wireless Link Monitor"
+msgstr "ताररहित सम्बन्ध मोनिटर"
+
+#: ../null_applet/null_applet.c:40
+msgid "Inbox Monitor"
+msgstr ""
+
+#: ../null_applet/null_applet.c:42
+msgid "CD Player"
+msgstr "सिडी प्लेयर"
+
+#: ../stickynotes/data/GNOME_StickyNotesApplet.server.in.h:1
+msgid "Tomboy (ne Stickynotes)"
+msgstr "टोमब्वाइ (ने स्टिकिनोट्स)"
+
+#: ../stickynotes/data/GNOME_StickyNotesApplet.server.in.h:2
+msgid "Tomboy (transparent upgrade from stickynotes)"
+msgstr "टोमब्ववाइ (स्टिकिनोट्सबाट पारदर्शी स्तरवृद्धी)"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.server.in.in.h:1
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "बाक्लो टिप्पणी डेस्कटपमा बनाउनुहोस, हेर्नुस, र निर्वाह गर्नुस"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.server.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:130
+#: ../stickynotes/stickynotes_applet.c:402
+msgid "Sticky Notes"
+msgstr "बाक्लो टिप्पणीहरु"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.server.in.in.h:3
+msgid "Sticky Notes Applet Factory"
+msgstr "बाक्लो टिप्पणी एप्लेट फ्याक्ट्री"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:1
+msgid "Hi_de Notes"
+msgstr "द्रष्टव्यहरू लुकाउनुहोस्"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:3
+msgid "_Delete Notes"
+msgstr "टिप्पणीहरु मेट्नुस"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:5
+msgid "_Lock Notes"
+msgstr "टिप्पणीहरु ताला लगाउनुस"
+
+#: ../stickynotes/GNOME_StickyNotesApplet.xml.h:6
+msgid "_New Note"
+msgstr "_नयाँ टिप्पणी"
+
+#: ../stickynotes/stickynotes.c:635
+msgid "This note is locked."
+msgstr "यो टिप्पणीमा ताल्चा लगाइएको छ"
+
+#: ../stickynotes/stickynotes.c:639
+msgid "This note is unlocked."
+msgstr "यो टिप्पणीमा ताल्चा लगाइएको छैन"
+
+#: ../stickynotes/stickynotes.ui.h:1
+msgid "Behavior"
+msgstr "व्यवहार"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "Choose a base color to use for all sticky notes"
+msgstr "तह रङ्ग छान्नुस बाक्लो टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "Choose a color for the note"
+msgstr "टिप्पणीको लागि रङ्ग छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:4
+msgid "Choose a font for the note"
+msgstr "टिप्पणीको लागि फन्ट छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Choose a font to use for all sticky notes"
+msgstr "सबै बाक्लो टिप्पणीहरुको लागि फन्ट छान्नुहोस"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Choose if notes are visible on all workspaces"
+msgstr "टिप्पणी कार्यखुलाहरु देखिन्छन् भने छान्नुसन् भने  खुला"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose if the default style is forced on all notes"
+msgstr "पूर्व निर्धारित तरिका टिप्पणीमा दबबा छ भने छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Close note"
+msgstr "टिप्पणी बन्द गर्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "Default Note Properties"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Delete all sticky notes?"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Delete this sticky note?"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font C_olor:"
+msgstr "फन्टको रङ:"
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Font Co_lor:"
+msgstr "फन्टको रङ:"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Force _default color and font on notes"
+msgstr "पूर्व निर्धारित रङ्ग र फन्ट टिप्पणीहरुलाई दबाब दिनुस"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "H_eight:"
+msgstr "उचाइ:"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Lock/Unlock note"
+msgstr "ताल्चा खुला/बन्द टिप्पणी"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Note C_olor:"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "Note _Color:"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "Pick a color for the sticky note"
+msgstr "बाक्लो टिप्पणीको लागि रङ्ग छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Pick a default sticky note color"
+msgstr "पूर्व निर्धारित बाक्लो टिप्पणी रङ्ग छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Pick a default sticky note font"
+msgstr "पूर्व निर्धारित बाक्लो टिप्पणी फन्ट छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Pick a font for the sticky note"
+msgstr "बाक्लो टिप्पणीको लागि फन्ट छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Properties"
+msgstr "गुणहरु"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Resize note"
+msgstr "पुन:आकार टिप्पणी"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "Specify a title for the note"
+msgstr "टिप्पणीको शिर्षक छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "पूर्व निर्धारित उचाइ (पिक्सेलमा) नयाँ टिप्पणी छान्नुसनयाँ"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "पूर्व निर्धारित चौडाई (पिक्सेलमा) नयाँ टिप्पणी छान्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "Sticky Note"
+msgstr "बाक्लो/च्यापच्यापे टिप्पणीपणी"
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Sticky Note Properties"
+msgstr "बाक्लो टिप्पणी सम्पतिहरु"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "Sticky Notes Preferences"
+msgstr "बाक्लो टिप्पणी प्राथमिकताहरु"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "This cannot be undone."
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Use co_lor from the system theme"
+msgstr "प्रणाली बिषयवस्तुबाट रङ्ग प्रयोग गर्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Use default co_lor"
+msgstr "पूर्व निर्धारित रङ्ग प्रयोग गर्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Use default fo_nt"
+msgstr "पूर्व निर्धारित फन्ट प्रयोग गर्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Use fo_nt from the system theme"
+msgstr "प्रणाली बिषयवस्तुबाट फन्ट प्रयोग गर्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "_Delete All"
+msgstr "सबै मेट्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "_Font:"
+msgstr "फन्ट:"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "_Put notes on all workspaces"
+msgstr "सबै कार्यस्थानहरुमा टिप्पणी राख्नुस"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "_Title:"
+msgstr "_शिर्षक:"
+
+#: ../stickynotes/stickynotes.schemas.in.h:1
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr ""
+"पूर्व निर्धारितबाट, बाक्लो टिप्पणी निर्मित हुँदा हालको मिति र शिर्षक दिइन्छ. "
+"यो बान्की प्रयोग हुन्छ, जायज स्ट्रिफटाइम जुनै पनि पदच्छेद हुन्छ"
+
+#: ../stickynotes/stickynotes.schemas.in.h:2
+msgid "Date format of note's title"
+msgstr "मिति बान्की टिप्पणीको शिर्षक"
+
+#: ../stickynotes/stickynotes.schemas.in.h:3
+msgid "Default color for font"
+msgstr "पूर्वनिर्धारित रङ्ग फन्टको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:4
+msgid "Default color for new notes"
+msgstr "पूर्वनिर्धारित रङ्ग नयाँ टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:5
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr ""
+"पूर्वनिर्धारित रङ्ग नयाँ बाक्लो टिप्पणीको लागि. यो एच टि एम एल हेक्समा "
+"हुनुपर्छ स्पेसिफिकेसन, उदाहरणको लागि \"#30FF50\"."
+
+#: ../stickynotes/stickynotes.schemas.in.h:6
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr ""
+"पूर्वनिर्धारित रङ्ग नयाँ बाक्लो टिप्पणीको लागि. यो एच टि एम एल हेक्समा "
+"हुनुपर्छ स्पेसिफिकेसन, उदाहरणको लागि \"#000000\"."
+
+#: ../stickynotes/stickynotes.schemas.in.h:7
+msgid "Default font for new notes"
+msgstr "पूर्वनिर्धारित फन्ट नयाँ टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:8
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr ""
+
+#: ../stickynotes/stickynotes.schemas.in.h:9
+msgid "Default height for new notes"
+msgstr "पूर्वनिर्धारित उचाइ नयाँ टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:10
+msgid "Default height for new sticky notes in pixels."
+msgstr "पूर्वनिर्धारित उचाइ पिक्सेलको नयाँ बाक्लो टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:11
+msgid "Default width for new notes"
+msgstr "पूर्वनिर्धारित चौडाई नयाँ टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:12
+msgid "Default width for new sticky notes in pixels."
+msgstr "पूर्वनिर्धारित चौडाई पिक्सेलको नयाँ बाक्लो टिप्पणीहरुको लागि"
+
+#: ../stickynotes/stickynotes.schemas.in.h:13
+msgid "Empty notes are always deleted without confirmation."
+msgstr ""
+
+#: ../stickynotes/stickynotes.schemas.in.h:14
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr ""
+"यदि यो छनोट असमर्थ छ भने, बिषयवस्तु रङ्ग पूर्व निर्धारित रङ्ग बाक्लो "
+"टिप्पणीहरुको लागि प्रयोग हुन्छ"
+
+#: ../stickynotes/stickynotes.schemas.in.h:15
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr ""
+"यदि यो छनोट असमर्थ छ भने, बिषयवस्तु रङ्ग पूर्व निर्धारित फन्ट बाक्लो "
+"टिप्पणीहरुको लागि प्रयोग हुन्छ"
+
+#: ../stickynotes/stickynotes.schemas.in.h:16
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr ""
+"यदि यो छनोट सक्षम छ भने, बिषयवस्तुको रङ्ग र फन्ट्स निर्दिष्ट ब्यक्त्तित्व "
+"टिप्पणीहरु हटाइन्छ"
+
+#: ../stickynotes/stickynotes.schemas.in.h:17
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr ""
+"बाक्लो/च्यापच्यापे टिप्पणीहरु यदि ताल्चा लगाइएको वा नलगाइएको भए तोक्नुस"
+
+#: ../stickynotes/stickynotes.schemas.in.h:18
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr ""
+"कार्यस्थान डेस्कटपमा बाक्लो/च्यापच्यापे टिप्पणीहरु देखिन्छन भने तोक्नुस"
+
+#: ../stickynotes/stickynotes.schemas.in.h:19
+msgid "Sticky notes' locked state"
+msgstr "बाक्लो टिप्पणीहरु' ताल्चा लगाइएको राज्य"
+
+#: ../stickynotes/stickynotes.schemas.in.h:20
+msgid "Sticky notes' workspace stickyness"
+msgstr "बाक्लो टिप्पणीहरु' कार्यस्थान स्टिकिनेस"
+
+#: ../stickynotes/stickynotes.schemas.in.h:21
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "टिप्पणी मेटाउँदा सूचना सोध्नुस वा नसोध्नुस"
+
+#: ../stickynotes/stickynotes.schemas.in.h:22
+msgid "Whether to force the default color and font on all notes"
+msgstr ""
+"कि त पूर्व निर्धारित रङ्ग फन्ट तथा सबै टिप्पणीहरुमा दबाब दिनुस वा नदिनुस"
+
+#: ../stickynotes/stickynotes.schemas.in.h:23
+msgid "Whether to use the default system color"
+msgstr "पूर्व निर्धारित प्रणाली रङ्ग प्रयोग"
+
+#: ../stickynotes/stickynotes.schemas.in.h:24
+msgid "Whether to use the default system font"
+msgstr "पूर्व निर्धारित प्रणाली फन्ट प्रयोग"
+
+#: ../stickynotes/stickynotes_applet.c:580
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d टिप्पणी"
+msgstr[1] "%d टिप्पणीहरु"
+
+#: ../stickynotes/stickynotes_applet.c:581
+msgid "Show sticky notes"
+msgstr "स्टिकिनोटहरू देखाउनुहोस्"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:380
+msgid "Sticky Notes for the GNOME Desktop Environment"
+msgstr "जिनोम डेस्कटप वातावरणको लागि बाक्लो टिप्पणी"
+
+#: ../trashapplet/GNOME_Panel_TrashApplet.server.in.in.h:1
+msgid "Go to Trash"
+msgstr "रद्दीटोकरीमा जानुस"
+
+#: ../trashapplet/GNOME_Panel_TrashApplet.server.in.in.h:2
+msgid "Trash"
+msgstr "रद्दीटोकरी"
+
+#: ../trashapplet/GNOME_Panel_TrashApplet.xml.h:2
+#: ../trashapplet/src/trash-empty.c:351
+msgid "_Empty Trash"
+msgstr "रद्दीटोकरी _खाली गर्नुस"
+
+#: ../trashapplet/GNOME_Panel_TrashApplet.xml.h:4
+msgid "_Open Trash"
+msgstr ""
+
+#: ../trashapplet/src/trashapplet.c:124
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "%d रद्दीटोकरीमा चीज"
+msgstr[1] "%d रद्दीटोकरीमा चिजहरु"
+
+#: ../trashapplet/src/trashapplet.c:132
+msgid "No Items in Trash"
+msgstr "रद्दीटोकरीमा कुनै चीज छैन"
+
+#: ../trashapplet/src/trashapplet.c:376
+#, c-format
+msgid ""
+"Error while spawning nautilus:\n"
+"%s"
+msgstr ""
+"स्पनिङ्ग नउटिलसमा गल्ती:\n"
+"%s"
+
+#: ../trashapplet/src/trashapplet.c:427
+msgid ""
+"A GNOME trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr ""
+"जिनोम रद्दीटोरी बीन जुन तपाईको प्यानलमा बसेको छ. तपाईले यो प्रयोग गरेर "
+"रद्दीटोकरी हेर्न सक्नुहुन्छ वा चीजहरु लगेर रद्दीटोरीमा राख्न सक्नुहुन्छ"
+
+#: ../trashapplet/src/trashapplet.c:452
+msgid "Delete Immediately?"
+msgstr "तुरुन्तै मेट्नुहुन्छ?"
+
+#: ../trashapplet/src/trashapplet.c:482
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "रद्दीटोकरीमा आइटम लग्न सकिएन के तपाई मेट्न चाहनु हुन्छ?"
+
+#: ../trashapplet/src/trashapplet.c:487
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "रद्दीटोकरीमा केहि चीजहरु राख्न सकिएन के तपाई मेट्न चाहनु हुन्छ?"
+
+#: ../trashapplet/src/trashapplet.c:614
+msgid "Trash Applet"
+msgstr "रद्दीटोकरी एप्लेट"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:81
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "हटाउदै गरेको वस्तु %s को %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:107
+#, c-format
+msgid "Removing: %s"
+msgstr "%s हटाउँदै"
+
+#: ../trashapplet/src/trash-empty.c:330
+msgid "Empty all of the items from the trash?"
+msgstr "के सबै चीजहरु रद्दीटोकरीबाट मेट्न चाहनु हुन्छ?"
+
+#: ../trashapplet/src/trash-empty.c:337
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr ""
+"यदि तपाईले रद्दीटोकरी खाली गर्नुहुन्छ भने, यसमा भएको सबै चिजहरु सधैँको लागि "
+"मेटन सक्छ. कृपया तपाईले ती चीजहरुलाई छुट्टै मेट्न सक्नु हुन्छ भन्ने मनन "
+"गर्नुहोस"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "रद्दीटोकरी खाली गर्दै"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "बाट:"

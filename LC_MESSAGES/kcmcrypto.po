@@ -1,0 +1,905 @@
+# translation of kcmcrypto.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcrypto\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 12:38+0000\n"
+"PO-Revision-Date: 2009-07-16 09:37+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:54+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: certexport.cpp:49
+msgid "X509 Certificate Export"
+msgstr "X509 प्रमाणपत्र निर्यात"
+
+#: certexport.cpp:51
+msgid "Format"
+msgstr "ढाँचा"
+
+#: certexport.cpp:53
+msgid "&PEM"
+msgstr "PEM"
+
+#: certexport.cpp:55
+msgid "&Netscape"
+msgstr "नेटस्केप"
+
+#: certexport.cpp:57
+msgid "&DER/ASN1"
+msgstr "DER/ASN1"
+
+#: certexport.cpp:59
+msgid "&Text"
+msgstr "पाठ"
+
+#: certexport.cpp:64
+msgid "Filename:"
+msgstr "फाइलनाम:"
+
+#: certexport.cpp:75
+msgid "&Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#: certexport.cpp:80
+msgid "&Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: certexport.cpp:103
+msgid "Internal error. Please report to kfm-devel@kde.org."
+msgstr "आन्तरिक त्रुटि । कृपया kfm-devel@kde.org मा प्रतिवेदन गर्नुहोस् ।"
+
+#: certexport.cpp:103 certexport.cpp:118 certexport.cpp:126 crypto.cpp:841
+#: crypto.cpp:1294 crypto.cpp:1323 crypto.cpp:1340 crypto.cpp:1342
+#: crypto.cpp:1533 crypto.cpp:1550 crypto.cpp:1605 crypto.cpp:1644
+#: crypto.cpp:1646 crypto.cpp:1856 crypto.cpp:1876 crypto.cpp:1940
+#: crypto.cpp:1947 crypto.cpp:1963 crypto.cpp:2016
+msgid "SSL"
+msgstr "SSL"
+
+#: certexport.cpp:118
+msgid "Error converting the certificate into the requested format."
+msgstr "प्रमाणपत्र अनुरोध गरिएको ढाँचामा रुपान्तरण गर्दा त्रुटि ।"
+
+#: certexport.cpp:126
+msgid "Error opening file for output."
+msgstr "निर्गतका लागि फाइल खोल्दा त्रुटि ।"
+
+#: crypto.cpp:109
+#, kde-format
+msgid "%1 (%2 of %3 bits)"
+msgstr "%1 (%2 बिट, %3 बिटको)"
+
+#: crypto.cpp:229
+msgid ""
+"<h1>Crypto</h1> This module allows you to configure SSL for use with most "
+"KDE applications, as well as manage your personal certificates and the known "
+"certificate authorities."
+msgstr ""
+"<h1>Crypto</h1> यो मोड्युलले धेरै जसो केडीई अनुप्रयोग प्रयोग गर्नका लागि SSL "
+"कन्फिगर गर्न, त्यस्तै तपाईँको व्यक्तिगत प्रमाणपत्र र थाहा भएका प्रमाणपत्र "
+"अधिकार प्रबन्ध गर्न तपाईँलाई अनुमति दिन्छ ।"
+
+#: crypto.cpp:238
+msgid "KCMCrypto"
+msgstr "KCMCrypto"
+
+#: crypto.cpp:239
+msgid "KDE Crypto Control Module"
+msgstr "केडीई क्रिप्टो नियन्त्रण मोड्युल"
+
+#: crypto.cpp:240
+msgid "(c) 2000 - 2001 George Staikos"
+msgstr "(c) २००० - २००१  जर्ज स्टाइकस"
+
+#: crypto.cpp:241
+msgid "George Staikos"
+msgstr "जर्ज स्टाइकस"
+
+#: crypto.cpp:242
+msgid "Carsten Pfeiffer"
+msgstr "कार्स्टेन पिफिफर"
+
+#: crypto.cpp:273
+msgid "SSL Ciphers to Use"
+msgstr "SSLv2 सिफर प्रयोग गर्न"
+
+#: crypto.cpp:274
+msgid ""
+"Select the ciphers you wish to enable when using the SSL protocol. The "
+"actual protocol used will be negotiated with the server at connection time."
+msgstr ""
+"तपाईँले SSL प्रोटोकल प्रयोग गर्ने बेलामा सक्षम पार्न चाहेको सिफर चयन "
+"गर्नुहोस् । जडान समयमा सर्भरसँग प्रयोग गरिएको वास्तविक प्रोटोकलले सम्झौता "
+"गर्नेछ ।"
+
+#: crypto.cpp:290
+msgid "Cipher Wizard"
+msgstr "सिफर विजार्ड"
+
+#: crypto.cpp:295
+msgid "Strong Ciphers Only"
+msgstr "कडा सिफर मात्र"
+
+#: crypto.cpp:296
+msgid "Export Ciphers Only"
+msgstr "निर्यात सिफर मात्र"
+
+#: crypto.cpp:297
+msgid "Enable All"
+msgstr "सबै सक्षम पार्नुहोस्"
+
+#: crypto.cpp:299
+msgid ""
+"<qt>Use these preconfigurations to more easily configure the SSL encryption "
+"settings. You can choose among the following modes:<ul><li><b>Strong Ciphers "
+"Only:</b> Select only the strong (&gt;= 128 bit) encryption "
+"ciphers.</li><li><b>Export Ciphers Only:</b> Select only the weak ciphers "
+"(&lt;= 56 bit).</li><li><b>Enable All:</b> Select all SSL ciphers and "
+"methods.</li></ul></qt>"
+msgstr ""
+
+#: crypto.cpp:316
+msgid "Warn on &entering SSL mode"
+msgstr "प्रविष्टि SSL मोडमा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:319
+msgid "If selected, you will be notified when entering an SSL enabled site"
+msgstr ""
+"चयन गरिएमा, सक्षम पारिएको SSL साइटमा प्रविष्टि गर्ने बेलामा तपाईँ सूचीत "
+"हुनुहुनेछ ।"
+
+#: crypto.cpp:323
+msgid "Warn on &leaving SSL mode"
+msgstr "SSL मोड छोड्दा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:326
+msgid "If selected, you will be notified when leaving an SSL based site."
+msgstr ""
+"यदि चयन गरिएमा, SSL मा आधारित साइट छोड्ने बेलामा तपाईँ सूचीत हुनुहुनेछ ।"
+
+#: crypto.cpp:330
+msgid "Warn on sending &unencrypted data"
+msgstr "गुप्तिकरण नगरिएका डेटा पठाउँदा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:333
+msgid ""
+"If selected, you will be notified before sending unencrypted data via a web "
+"browser."
+msgstr ""
+"यदि चयन गरिएमा, गुप्तीकरण नगरिएका डेटा वेब ब्राउजर हुदैँ पठाउँनु भन्दा पहिले "
+"तपाईँ सुचीत हुनुहुनेछ ।"
+
+#: crypto.cpp:338
+msgid "Warn on &mixed SSL/non-SSL pages"
+msgstr "मिश्रित SSL/SSL बाहेकका पृष्ठहरूमा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:341
+msgid ""
+"If selected, you will be notified if you view a page that has both encrypted "
+"and non-encrypted parts."
+msgstr ""
+"यदि चयन गरिएमा, तपाईँले गुप्तीकरण र गुप्तीकरण नगरिएका दुबै भागहरू भएको "
+"पृष्ठहरू देख्नुभएमा तपाईँ सूचीत हुनुहुनेछ ।"
+
+#: crypto.cpp:354
+msgid "Path to OpenSSL Shared Libraries"
+msgstr "खुला SSL साझेदारी गरिएका लाइब्रेरीलाई मार्ग"
+
+#: crypto.cpp:361
+msgid "&Test"
+msgstr "परीक्षण"
+
+#: crypto.cpp:372
+msgid "Use EGD"
+msgstr "EGD प्रयोग गर्नुहोस्"
+
+#: crypto.cpp:374
+msgid "Use entropy file"
+msgstr "इन्ट्रोपी फाइल प्रयोग गर्नुहोस्"
+
+#: crypto.cpp:381 crypto.cpp:2260
+msgid "Path to EGD:"
+msgstr "EGD लाई मार्ग:"
+
+#: crypto.cpp:388
+msgid ""
+"If selected, OpenSSL will be asked to use the entropy gathering daemon (EGD) "
+"for initializing the pseudo-random number generator."
+msgstr ""
+"यदि चयन गरिएमा, खुला SSL ले कृत्रिम अनियमित सङ्ख्या उत्पादक सुरु गर्नका लागि "
+"इन्ट्रोपी समेट्ने डेइमन (EGD) प्रयोग गर्न सोध्नेछ ।"
+
+#: crypto.cpp:391
+msgid ""
+"If selected, OpenSSL will be asked to use the given file as entropy for "
+"initializing the pseudo-random number generator."
+msgstr ""
+"यदि चयन गरिएमा, खुला SSL ले कृत्रिम अनियमित सङ्ख्या उत्पादक सुरु गर्नका लागि "
+"इन्ट्रोपीको रुपमा दिइएको फाइल प्रयोग गर्न सोध्नेछ ।"
+
+#: crypto.cpp:394
+msgid ""
+"Enter the path to the socket created by the entropy gathering daemon (or the "
+"entropy file) here."
+msgstr ""
+"यहाँ इन्ट्रोपी समेट्ने डेइमन (वा इन्ट्रोपी फाइल) द्वारा सिर्जना गरिएको "
+"सकेटमा मार्ग प्रविष्टि गर्नुहोस् ।"
+
+#: crypto.cpp:397
+msgid "Click here to browse for the EGD socket file."
+msgstr "EGD सकेट फाइलमा ब्राउज गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#: crypto.cpp:418
+msgid ""
+"This list box shows which certificates of yours KDE knows about. You can "
+"easily manage them from here."
+msgstr ""
+"यो सूची बाकसले तपाईँको KDE बारेमा कुन प्रमाण पत्रले थाहा पाउँछ देखाउँछ । "
+"तपाईँले यहाँबाट तीनिहरूलाई सजिलै व्यवस्थापन गर्न सक्नुहुन्छ ।"
+
+#: crypto.cpp:423 crypto.cpp:604 crypto.cpp:740
+msgid "Common Name"
+msgstr "साझा नाम"
+
+#: crypto.cpp:423
+msgid "Email Address"
+msgstr "इमेल ठेगाना"
+
+#: crypto.cpp:431 crypto.cpp:743
+msgid "I&mport..."
+msgstr "आयात गर्नुहोस्..."
+
+#: crypto.cpp:435 crypto.cpp:609
+msgid "&Export..."
+msgstr "निर्यात गर्नुहोस्..."
+
+#: crypto.cpp:440 crypto.cpp:559
+msgid "Remo&ve"
+msgstr "हटाउनुहोस्"
+
+#: crypto.cpp:445
+msgid "&Unlock"
+msgstr "ताल्चा खोल्नुहोस्"
+
+#: crypto.cpp:450
+msgid "Verif&y"
+msgstr "रूजु गर्नुहोस्"
+
+#: crypto.cpp:455
+msgid "Chan&ge Password..."
+msgstr "पासवर्ड परिवर्तन गर्नुहोस्..."
+
+#: crypto.cpp:470 crypto.cpp:644
+msgid "This is the information known about the owner of the certificate."
+msgstr "यो प्रमाणपत्रको स्वामीको बारेमा थाहा भएको सूचना हो ।"
+
+#: crypto.cpp:471 crypto.cpp:646
+msgid "This is the information known about the issuer of the certificate."
+msgstr "यो प्रमाणपत्रको वितरकका बारेमा थाहा भएको सूचना हो ।"
+
+#: crypto.cpp:477 crypto.cpp:649
+msgid "Valid from:"
+msgstr "यसबाट वैद्य:"
+
+#: crypto.cpp:478 crypto.cpp:650
+msgid "Valid until:"
+msgstr "यससम्म वैद्य:"
+
+#: crypto.cpp:479 crypto.cpp:659
+msgid "The certificate is valid starting at this date."
+msgstr "प्रमाणपत्र यो मितिको सुरुदेखि वैध छ ।"
+
+#: crypto.cpp:480 crypto.cpp:661
+msgid "The certificate is valid until this date."
+msgstr "प्रमाणपत्र यो मितिसम्म वैध छ ।"
+
+#: crypto.cpp:483 crypto.cpp:709 crypto.cpp:774
+msgid "MD5 digest:"
+msgstr "MD5 सङ्ग्रह:"
+
+#: crypto.cpp:484 crypto.cpp:712 crypto.cpp:777
+msgid "A hash of the certificate used to identify it quickly."
+msgstr "यसलाई छिटो पहिचान गर्न प्रयोग गरिएको प्रमाणपत्रको ह्यास"
+
+#: crypto.cpp:487
+msgid "On SSL Connection..."
+msgstr "SSL जडानमा..."
+
+#: crypto.cpp:488
+msgid "&Use default certificate"
+msgstr "पूर्वनिर्धारित प्रमाणपत्र प्रयोग गर्नुहोस्"
+
+#: crypto.cpp:489
+msgid "&List upon connection"
+msgstr "जडानको सूची"
+
+#: crypto.cpp:490
+msgid "&Do not use certificates"
+msgstr "प्रमाणपत्र प्रयोग नगर्नुहोस्"
+
+#: crypto.cpp:494 crypto.cpp:578 crypto.cpp:716 crypto.cpp:781
+msgid ""
+"SSL certificates cannot be managed because this module was not linked with "
+"OpenSSL."
+msgstr ""
+"SSL प्रमाणपत्रहरू व्यवस्थापन गर्न सकिने छैन किनभने यो मोड्युल खुला SSL मा "
+"लिङ्क गरिएको थिएन ।"
+
+#: crypto.cpp:510
+msgid "Default Action"
+msgstr "पूर्वनिर्धारित कार्य"
+
+#: crypto.cpp:513
+msgid "&Send"
+msgstr "पठाउँनुहोस्"
+
+#: crypto.cpp:516 crypto.cpp:700
+msgid "&Prompt"
+msgstr "छिटो"
+
+#: crypto.cpp:519
+msgid "Do &not send"
+msgstr "नपठाउँनुहोस्"
+
+#: crypto.cpp:524
+msgid "Default certificate:"
+msgstr "पूर्वनिर्धारित प्रमाणपत्र:"
+
+#: crypto.cpp:530
+msgid "Host authentication:"
+msgstr "होस्ट प्रमाणीकरण:"
+
+#: crypto.cpp:535
+msgid "Host"
+msgstr "होस्ट"
+
+#: crypto.cpp:535
+msgid "Certificate"
+msgstr "प्रमाणपत्र"
+
+#: crypto.cpp:535 crypto.cpp:691
+msgid "Policy"
+msgstr "नीति"
+
+#: crypto.cpp:536
+msgid "Host:"
+msgstr "होस्ट"
+
+#: crypto.cpp:537
+msgid "Certificate:"
+msgstr "प्रमाणपत्र:"
+
+#: crypto.cpp:544
+msgid "Action"
+msgstr "कार्य"
+
+#: crypto.cpp:547 crypto.h:184
+msgid "Send"
+msgstr "पठाउँनुहोस्"
+
+#: crypto.cpp:550 crypto.h:190
+msgid "Prompt"
+msgstr "तुरुन्त"
+
+#: crypto.cpp:553
+msgid "Do not send"
+msgstr "नपठाउँनुहोस्"
+
+#: crypto.cpp:558
+msgid "Ne&w"
+msgstr "नयाँ"
+
+#: crypto.cpp:601
+msgid ""
+"This list box shows which site and person certificates KDE knows about. You "
+"can easily manage them from here."
+msgstr ""
+"यो सूची बाकसले KDE ले थाहा पाउने साइट र व्यक्ति प्रमाणपत्रहरू बारेमा देखाउँछ "
+"। तपाईँले तीनिहरूलाई यहाँबाट सजिलैसँग व्यवस्थापन गर्न सक्नुहुन्छ ।"
+
+#: crypto.cpp:604 crypto.cpp:738
+msgid "Organization"
+msgstr "सङ्गठन"
+
+#: crypto.cpp:612
+msgid ""
+"This button allows you to export the selected certificate to a file of "
+"various formats."
+msgstr ""
+"यो बटनले तपाईँलाई विभिन्न ढाँचाहरूको फाइलमा चयन गरिएका प्रमाणपत्र निर्यात "
+"गर्न आदेश दिन्छ ।"
+
+#: crypto.cpp:616 crypto.cpp:747 crypto.cpp:822
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#: crypto.cpp:619
+msgid ""
+"This button removes the selected certificate from the certificate cache."
+msgstr "यो बटनले प्रमाणपत्र क्यासबाट चयन गरिएका प्रमाणपत्र हटाउँछ ।"
+
+#: crypto.cpp:623
+msgid "&Verify"
+msgstr "रुजु गर्नुहोस्"
+
+#: crypto.cpp:626
+msgid "This button tests the selected certificate for validity."
+msgstr "यो बटनले वैधताका लागि चयन गरिएका प्रमाणपत्र परीक्षण गर्छ ।"
+
+#: crypto.cpp:664
+msgid "Cache"
+msgstr "क्यास"
+
+#: crypto.cpp:667
+msgid "Permanentl&y"
+msgstr "स्थायी रुपमा"
+
+#: crypto.cpp:670
+msgid "&Until"
+msgstr "सम्म"
+
+#: crypto.cpp:684
+msgid "Select here to make the cache entry permanent."
+msgstr "क्यास प्रविष्टि स्थायी बनाउन यहाँ चयन गर्नुहोस् ।"
+
+#: crypto.cpp:686
+msgid "Select here to make the cache entry temporary."
+msgstr "क्यास प्रविष्टि अस्थायी बनाउन यहाँ चयन गर्नुहोस् ।"
+
+#: crypto.cpp:688
+msgid "The date and time until the certificate cache entry should expire."
+msgstr "प्रमाणपत्र क्यास प्रविष्टि म्याद समाप्त हुने मिति र समय"
+
+#: crypto.cpp:694
+msgid "Accep&t"
+msgstr "स्वीकार"
+
+#: crypto.cpp:697
+msgid "Re&ject"
+msgstr "अस्वीकार"
+
+#: crypto.cpp:706
+msgid "Select this to always accept this certificate."
+msgstr "सधैँ यो प्रमाणपत्र स्वीकार गर्न यो चयन गर्नुहोस् ।"
+
+#: crypto.cpp:707
+msgid "Select this to always reject this certificate."
+msgstr "सधैँ यो प्रमाणपत्र अस्वीकार गर्न यो चयन गर्नुहोस् ।"
+
+#: crypto.cpp:708
+msgid ""
+"Select this if you wish to be prompted for action when receiving this "
+"certificate."
+msgstr ""
+"यदि तपाईँ यो प्रमाणपत्र प्राप्त गर्दा कार्य शिघ्र गर्न चाहनुहुन्छ भने यो चयन "
+"गर्नुहोस् ।"
+
+#: crypto.cpp:733
+msgid ""
+"This list box shows which certificate authorities KDE knows about. You can "
+"easily manage them from here."
+msgstr ""
+"यो सूची बाकसले कुन प्रमाणपत्र अधिकारहरूको बारेमा KDE ले थाहा पाउँछ देखाउँछ । "
+"तपाईँले यहाँबाट तीनिहरूलाई सजिलै व्यवस्थापन गर्न सक्नुहुन्छ ।"
+
+#: crypto.cpp:739
+msgid "Organizational Unit"
+msgstr "सङ्गठनात्मक एकाइ"
+
+#: crypto.cpp:752
+msgid "Res&tore"
+msgstr "पूर्वावस्थामा ल्याउनुहोस्"
+
+#: crypto.cpp:762
+msgid "Accept for site signing"
+msgstr "साइट साइनिङका लागि स्वीकार गर्नुहोस्"
+
+#: crypto.cpp:763
+msgid "Accept for email signing"
+msgstr "इमेल साइनिङका लागि स्वीकार गर्नुहोस्"
+
+#: crypto.cpp:764
+msgid "Accept for code signing"
+msgstr "सङ्केत साइनिङका लागि स्वीकार गर्नुहोस्"
+
+#: crypto.cpp:796
+msgid "Warn on &self-signed certificates or unknown CA's"
+msgstr "स्वत: चिन्ह प्रमाणपत्र वा अज्ञात CA मा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:798
+msgid "Warn on &expired certificates"
+msgstr "म्याद समाप्त भएका प्रमाणपत्रमा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:800
+msgid "Warn on re&voked certificates"
+msgstr "रद्द गरिएका प्रमाणपत्रमा चेतावनी दिनुहोस्"
+
+#: crypto.cpp:810
+msgid ""
+"This list box shows which sites you have decided to accept a certificate "
+"from even though the certificate might fail the validation procedure."
+msgstr ""
+"यो सूची बाकसले तपाईँले यसबाट प्रमाणपत्र स्वीकार गर्नका लागि कुन साइट निश्चय "
+"गर्नुभयो देखाउँछ ता पनि प्रमाणपत्र वैधता विधि असफल हुन सक्छ ।"
+
+#: crypto.cpp:818
+msgid "&Add"
+msgstr "थप्नुहोस्"
+
+#: crypto.cpp:831
+msgid ""
+"These options are not configurable because this module was not linked with "
+"OpenSSL."
+msgstr ""
+"यि विकल्पहरू कन्फिगर योग्य छैनन् किनभे यो मोड्युल खुला SSL मा लिङ्क गरिएको "
+"थिएन ।"
+
+#: crypto.cpp:843 crypto.cpp:2240 crypto.cpp:2248 crypto.cpp:2252
+msgid "OpenSSL"
+msgstr "खुला SSL"
+
+#: crypto.cpp:845
+msgid "Your Certificates"
+msgstr "तपाईँको प्रमाणपत्र"
+
+#: crypto.cpp:846
+msgid "Authentication"
+msgstr "प्रमाणीकरण"
+
+#: crypto.cpp:847
+msgid "Peer SSL Certificates"
+msgstr "समान SSL प्रमाणपत्र"
+
+#: crypto.cpp:848
+msgid "SSL Signers"
+msgstr "SSL हस्ताक्षरकर्ता"
+
+#: crypto.cpp:851
+msgid "Validation Options"
+msgstr "वैधता विकल्प"
+
+#: crypto.cpp:1061
+msgid "If you do not select at least one cipher, SSL will not work."
+msgstr "यदि तपाईँले कम्तिमा एउटा सिफर चयन नगरेमा, SSL ले काम गर्ने छैन ।"
+
+#: crypto.cpp:1063
+msgid "SSL Ciphers"
+msgstr "SSL सिफर"
+
+#: crypto.cpp:1293
+msgid "Could not open the certificate."
+msgstr "प्रमाणपत्र खोल्न सकेन ।"
+
+#: crypto.cpp:1323
+msgid "Error obtaining the certificate."
+msgstr "प्रमाणपत्र प्राप्त गर्दा त्रुटि"
+
+#: crypto.cpp:1340 crypto.cpp:1644
+msgid "This certificate passed the verification tests successfully."
+msgstr "प्रमाणपत्र रुजू परीक्षण सफलतापूर्वक पुरा भयो ।"
+
+#: crypto.cpp:1342 crypto.cpp:1646
+msgid ""
+"This certificate has failed the tests and should be considered invalid."
+msgstr "यो प्रमाणपत्र परीक्षणमा असफल भएको छ र अवैध ठहर्याइने छ ।"
+
+#: crypto.cpp:1525
+msgid "Certificate Password"
+msgstr "प्रमाणपत्र पासवर्ड"
+
+#: crypto.cpp:1526
+msgid "Certificate password"
+msgstr "प्रमाणपत्र पासवर्ड"
+
+#: crypto.cpp:1533
+msgid "The certificate file could not be loaded. Try a different password?"
+msgstr "प्रमाणपत्र फाइल लोड गर्न सकिने छैन । फरक पासवर्ड प्रयास गर्नुहुन्छ ?"
+
+#: crypto.cpp:1533
+msgid "Try"
+msgstr "प्रयास गर्नुहोस्"
+
+#: crypto.cpp:1533
+msgid "Do Not Try"
+msgstr "प्रयास नगर्नुहोस्"
+
+#: crypto.cpp:1550
+msgid ""
+"A certificate with that name already exists. Are you sure that you wish to "
+"replace it?"
+msgstr ""
+"त्यो नामको प्रमाणपत्र पहिलेनै अवस्थित छ । तपाईँ यसलाई बदल्नका लागि  यकिन "
+"हुनुहुन्छ?"
+
+#: crypto.cpp:1550
+msgid "Replace"
+msgstr "बदल्नुहोस्"
+
+#: crypto.cpp:1584 crypto.cpp:1620 crypto.cpp:1673
+msgid "Enter the certificate password:"
+msgstr "प्रमाणपत्र पासवर्ड प्रविष्ट गर्नुहोस्:"
+
+#: crypto.cpp:1585 crypto.cpp:1621 crypto.cpp:1674 crypto.cpp:1784
+#, kde-format
+msgid "Password For '%1'"
+msgstr "'%1' का लागि पासवर्ड"
+
+#: crypto.cpp:1594 crypto.cpp:1631 crypto.cpp:1684 crypto.cpp:1793
+msgid "Decoding failed. Please try again:"
+msgstr "सङ्केतन हटाउन असफल भयो । कृपया पुन: प्रयास गर्नुहोस्:"
+
+#: crypto.cpp:1605
+msgid "Export failed."
+msgstr "निर्यात असफल भयो"
+
+#: crypto.cpp:1783
+msgid "Enter the OLD password for the certificate:"
+msgstr "प्रमाणपत्रका लागि पुरानो पासवर्ड प्रविष्ट गर्नुहोस्:"
+
+#: crypto.cpp:1801
+msgid "Enter the new certificate password"
+msgstr "नयाँ प्रमाणपत्र पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: crypto.cpp:1853 crypto.cpp:1946
+msgid "This is not a signer certificate."
+msgstr "यो हस्ताक्षरकर्ता प्रमाणपत्र होइन ।"
+
+#: crypto.cpp:1873 crypto.cpp:1962
+msgid "You already have this signer certificate installed."
+msgstr "यो प्रमाणपत्र स्थापित गरिएको हस्ताक्षरी तपाईँसँग पहिलेनै छ ।"
+
+#: crypto.cpp:1939
+msgid "The certificate file could not be loaded."
+msgstr "प्रमाणपत्र फाइल लोड गर्न सकिने छैन ।"
+
+#: crypto.cpp:1995
+msgid "Do you want to make this certificate available to KMail as well?"
+msgstr ""
+"तपाईँ यो प्रमाणपत्र केडीई मेलमा राम्रोसँग प्राप्त हुने बनाउन चाहनुहुन्छ ?"
+
+#: crypto.cpp:1995
+msgid "Make Available"
+msgstr "उपलब्ध गर्नुहोस्"
+
+#: crypto.cpp:1995
+msgid "Do Not Make Available"
+msgstr "उपलब्ध नगर्नुहोस्"
+
+#: crypto.cpp:1998
+msgid ""
+"Could not execute Kleopatra. You might have to install or update the kdepim "
+"package."
+msgstr ""
+"केडीई लियोपत्र कार्यान्वयन हुन सकेन । तपाईँले kdepim प्याकेज अद्यावधिक वा "
+"स्थापना गर्नु पर्न सक्छ ।"
+
+#: crypto.cpp:2016
+msgid ""
+"This will revert your certificate signers database to the KDE default.\n"
+"This operation cannot be undone.\n"
+"Are you sure you wish to continue?"
+msgstr ""
+"यसले पूर्वनिर्धारित केडीई मा तपाईँको प्रमाणपत्र हस्ताक्षरी डेटाबेस पछाडि "
+"फर्काउँनेछ ।\n"
+"यो सञ्चालन पूर्वस्थितिमा फर्काउँन सकिँदैन ।\n"
+"तपाईँ निरन्तर गर्नमा निश्चिन्त हुनुहुन्छ ?"
+
+#: crypto.cpp:2016
+msgid "Revert"
+msgstr "पछाडि फर्कनुहोस्"
+
+#: crypto.cpp:2238 crypto.cpp:2246
+msgid "Failed to load OpenSSL."
+msgstr "खुला SSL लोड गर्न असफल ।"
+
+#: crypto.cpp:2239
+msgid "libssl was not found or successfully loaded."
+msgstr "libssl फेला परेको थिएन वा सफलतापूर्वक लोड भएको थियो ।"
+
+#: crypto.cpp:2247
+msgid "libcrypto was not found or successfully loaded."
+msgstr "libcrypto फेला परेको थिएन वा सफलतापूर्वक लोड भएको थियो ।"
+
+#: crypto.cpp:2252
+msgid "OpenSSL was successfully loaded."
+msgstr "खुला SSL सफलतापूर्वक लोड भएको थियो ।"
+
+#: crypto.cpp:2271
+msgid "Path to entropy file:"
+msgstr "इन्ट्रोपी फाइललाई मार्ग:"
+
+#: crypto.cpp:2284
+msgid "Personal SSL"
+msgstr "व्यक्तिगत SSL"
+
+#: crypto.cpp:2285
+msgid "Server SSL"
+msgstr "सर्भर SSL"
+
+#: crypto.cpp:2286
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: crypto.cpp:2287
+msgid "PGP"
+msgstr "PGP"
+
+#: crypto.cpp:2288
+msgid "GPG"
+msgstr "GPG"
+
+#: crypto.cpp:2289
+msgid "SSL Personal Request"
+msgstr "SSL व्यक्तिगत अनुरोध"
+
+#: crypto.cpp:2290
+msgid "SSL Server Request"
+msgstr "SSL सर्भर अनुरोध"
+
+#: crypto.cpp:2291
+msgid "Netscape SSL"
+msgstr "नेटस्केप SSL"
+
+#: crypto.cpp:2292
+msgctxt "Server certificate authority"
+msgid "Server CA"
+msgstr "सर्भर CA"
+
+#: crypto.cpp:2293
+msgctxt "Personal certificate authority"
+msgid "Personal CA"
+msgstr "व्यक्तिगत CA"
+
+#: crypto.cpp:2294
+msgctxt "Secure MIME certificate authority"
+msgid "S/MIME CA"
+msgstr "S/MIME CA"
+
+#: crypto.cpp:2355
+msgctxt "No Certificates on List"
+msgid "None"
+msgstr ""
+
+#: kdatetimedlg.cpp:46
+msgctxt "Select Time and Date"
+msgid "Date & Time Selector"
+msgstr ""
+
+#: kdatetimedlg.cpp:51
+msgctxt "Set Hours of Time"
+msgid "Hour:"
+msgstr ""
+
+#: kdatetimedlg.cpp:57
+msgctxt "Set Minutes of Time"
+msgid "Minute:"
+msgstr ""
+
+#: kdatetimedlg.cpp:63
+msgctxt "Set Seconds of Time"
+msgid "Second:"
+msgstr ""
+
+#. i18n: file: certgen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, D_GenCert)
+#: rc.cpp:3
+msgid "Certificate Creation Wizard"
+msgstr "प्रमाणपत्र सिर्जना विजार्ड"
+
+#. i18n: file: certgen.ui:22
+#. i18n: ectx: property (text), widget (QLabel, T_CertType)
+#: rc.cpp:6
+msgid "Certificate type:"
+msgstr "प्रमाणपत्र प्रकार:"
+
+#. i18n: file: certgen.ui:32
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:9
+msgid "Passphrase:"
+msgstr "पासफ्रेज:"
+
+#. i18n: file: certgen.ui:49
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: rc.cpp:12
+msgid "Passphrase (verify):"
+msgstr "पासफ्रेज (रूजु गर्नुहोस्):"
+
+#. i18n: file: certgen.ui:69
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:15
+msgid "Country code:"
+msgstr "देशको कोड:"
+
+#. i18n: file: certgen.ui:83
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: rc.cpp:18
+msgid "State or province (in full):"
+msgstr "(पूरा) राज्य वा प्रदेश:"
+
+#. i18n: file: certgen.ui:97
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:21
+msgid "City:"
+msgstr "शहर:"
+
+#. i18n: file: certgen.ui:111
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:24
+msgid "Organization name:"
+msgstr "सङ्गठन नाम:"
+
+#. i18n: file: certgen.ui:125
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: rc.cpp:27
+msgid "Organizational unit/group:"
+msgstr "सङ्गठनात्मक एकाइ/समूह:"
+
+#. i18n: file: certgen.ui:139
+#. i18n: ectx: property (text), widget (QLabel, TextLabel8)
+#: rc.cpp:30
+msgid "Full hostname of the server:"
+msgstr "सर्भरको पूरा होस्टनाम:"
+
+#. i18n: file: certgen.ui:153
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#: rc.cpp:33
+msgid "Email address:"
+msgstr "इमेल ठेगाना:"
+
+#. i18n: file: certgen.ui:167
+#. i18n: ectx: property (text), widget (QLabel, TextLabel10)
+#: rc.cpp:36
+msgid "Days valid:"
+msgstr "वैध दिन:"
+
+#. i18n: file: certgen.ui:191
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: rc.cpp:39
+msgid "Self sign"
+msgstr "आफै साइन गर्नुहोस्"
+
+#. i18n: file: certgen.ui:201
+#. i18n: ectx: property (text), widget (QLabel, TextLabel11)
+#: rc.cpp:42
+msgid "Digest:"
+msgstr "डाइजेस्ट:"
+
+#. i18n: file: certgen.ui:211
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12)
+#: rc.cpp:45
+msgid "Alias:"
+msgstr "उपनाम:"
+
+#. i18n: file: certgen.ui:221
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox2)
+#: rc.cpp:48
+msgid "Use DSA instead of RSA"
+msgstr "RSA को सट्टा DSA प्रयोग गर्नुहोस्"
+
+#. i18n: file: certgen.ui:228
+#. i18n: ectx: property (text), widget (QLabel, TextLabel13)
+#: rc.cpp:51
+msgid "Bit strength:"
+msgstr "बिट शक्ति:"
+
+#: rc.cpp:52
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:53
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, shyamkrishna_bal@yahoo.com,,,"
+
+#: crypto.h:187
+msgid "Don't Send"
+msgstr ""

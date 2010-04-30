@@ -1,0 +1,1833 @@
+# translation of kcalc.po to Nepali
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcalc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 23:08+0000\n"
+"PO-Revision-Date: 2009-07-16 10:15+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:06+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kcalc.cpp:67
+msgid "KDE Calculator"
+msgstr "केडीई क्याल्कुलेटर"
+
+#: kcalc.cpp:120
+msgid "&Constants"
+msgstr "स्थिर"
+
+#: kcalc.cpp:192
+msgid "&Statistic Buttons"
+msgstr "तथ्याङ्क बटन"
+
+#: kcalc.cpp:198
+msgid "Science/&Engineering Buttons"
+msgstr "विज्ञान/इन्जिनियरिङ्ग बटन"
+
+#: kcalc.cpp:204
+msgid "&Logic Buttons"
+msgstr "न्यायिक बटन"
+
+#: kcalc.cpp:210
+msgid "&Constants Buttons"
+msgstr "स्थिर बटन"
+
+#: kcalc.cpp:216
+msgid "&Show All"
+msgstr "सबै देखाउनुहोस्"
+
+#: kcalc.cpp:220
+msgid "&Hide All"
+msgstr "सबै लुकाउनुहोस्"
+
+#: kcalc.cpp:224
+msgid "Show B&it Edit"
+msgstr ""
+
+#: kcalc.cpp:355
+msgctxt "Add display to memory"
+msgid "M+"
+msgstr ""
+
+#: kcalc.cpp:355
+msgid "Add display to memory"
+msgstr "स्मृतिमा प्रदर्शन थप्नुहोस्"
+
+#: kcalc.cpp:356
+msgctxt "Subtract from memory"
+msgid "M-"
+msgstr ""
+
+#: kcalc.cpp:356
+msgid "Subtract from memory"
+msgstr "स्मृतिबाट घटाउनुहोस्"
+
+#. i18n: file: kcalc.ui:552
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbRoot)
+#: kcalc.cpp:383 rc.cpp:521
+msgid "Square root"
+msgstr "वर्गमूल"
+
+#: kcalc.cpp:384
+msgid "Cube root"
+msgstr "घन मुल"
+
+#: kcalc.cpp:491
+msgctxt "Sine"
+msgid "Sin"
+msgstr ""
+
+#. i18n: file: kcalc.ui:220
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbSin)
+#: kcalc.cpp:491 rc.cpp:323
+msgid "Sine"
+msgstr "साइन"
+
+#: kcalc.cpp:492
+msgctxt "Arc sine"
+msgid "Asin"
+msgstr ""
+
+#: kcalc.cpp:492
+msgid "Arc sine"
+msgstr "चाप साइन"
+
+#: kcalc.cpp:493
+msgctxt "Hyperbolic sine"
+msgid "Sinh"
+msgstr ""
+
+#: kcalc.cpp:493
+msgid "Hyperbolic sine"
+msgstr "हाइपरबोलिक साइन"
+
+#: kcalc.cpp:495
+msgctxt "Inverse hyperbolic sine"
+msgid "Asinh"
+msgstr ""
+
+#: kcalc.cpp:495
+msgid "Inverse hyperbolic sine"
+msgstr "हाइपरबोलिक साइन उल्टाउनुहोस्"
+
+#: kcalc.cpp:502
+msgctxt "Cosine"
+msgid "Cos"
+msgstr ""
+
+#. i18n: file: kcalc.ui:286
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbCos)
+#: kcalc.cpp:502 rc.cpp:365
+msgid "Cosine"
+msgstr "कोसाइन"
+
+#: kcalc.cpp:503
+msgctxt "Arc cosine"
+msgid "Acos"
+msgstr ""
+
+#: kcalc.cpp:503
+msgid "Arc cosine"
+msgstr "चाप कोसाइन"
+
+#: kcalc.cpp:504
+msgctxt "Hyperbolic cosine"
+msgid "Cosh"
+msgstr ""
+
+#: kcalc.cpp:504
+msgid "Hyperbolic cosine"
+msgstr "हाइपरबोलिक कोसाइन"
+
+#: kcalc.cpp:506
+msgctxt "Inverse hyperbolic cosine"
+msgid "Acosh"
+msgstr ""
+
+#: kcalc.cpp:506
+msgid "Inverse hyperbolic cosine"
+msgstr "हाइपरबोलिक कोसाइन उल्टाउनुहोस्"
+
+#: kcalc.cpp:513
+msgctxt "Tangent"
+msgid "Tan"
+msgstr ""
+
+#. i18n: file: kcalc.ui:349
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbTan)
+#: kcalc.cpp:513 rc.cpp:404
+msgid "Tangent"
+msgstr "ट्यान्जेन्ट"
+
+#: kcalc.cpp:514
+msgctxt "Arc tangent"
+msgid "Atan"
+msgstr ""
+
+#: kcalc.cpp:514
+msgid "Arc tangent"
+msgstr "चाप ट्यान्जेन्ट"
+
+#: kcalc.cpp:515
+msgctxt "Hyperbolic tangent"
+msgid "Tanh"
+msgstr ""
+
+#: kcalc.cpp:515
+msgid "Hyperbolic tangent"
+msgstr "हाइपरबोलिक ट्यान्जेन्ट"
+
+#: kcalc.cpp:517
+msgctxt "Inverse hyperbolic tangent"
+msgid "Atanh"
+msgstr ""
+
+#: kcalc.cpp:517
+msgid "Inverse hyperbolic tangent"
+msgstr "हाइपरबोलिक ट्यान्जेन्ट उल्टाउनुहोस्"
+
+#: kcalc.cpp:524
+msgctxt "Logarithm to base 10"
+msgid "Log"
+msgstr ""
+
+#. i18n: file: kcalc.ui:415
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbLog)
+#: kcalc.cpp:524 rc.cpp:446
+msgid "Logarithm to base 10"
+msgstr "आधार १० मा लोगारिदम"
+
+#: kcalc.cpp:525
+msgctxt "10 to the power of x"
+msgid "10<sup>x</sup>"
+msgstr ""
+
+#: kcalc.cpp:525
+msgid "10 to the power of x"
+msgstr "x को पावर 10"
+
+#: kcalc.cpp:531
+msgctxt "Natural log"
+msgid "Ln"
+msgstr ""
+
+#. i18n: file: kcalc.ui:478
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbLn)
+#: kcalc.cpp:531 rc.cpp:485
+msgid "Natural log"
+msgstr "प्राकृतिक लग"
+
+#: kcalc.cpp:532
+msgctxt "Exponential function"
+msgid "e<sup>x</sup>"
+msgstr ""
+
+#: kcalc.cpp:532
+msgid "Exponential function"
+msgstr "घातांक प्रकार्य"
+
+#: kcalc.cpp:548
+msgctxt "Number of data entered"
+msgid "N"
+msgstr ""
+
+#. i18n: file: kcalc.ui:144
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbNData)
+#: kcalc.cpp:548 rc.cpp:278
+msgid "Number of data entered"
+msgstr "प्रविष्ट गरिएको डेटाको सङ्ख्या"
+
+#: kcalc.cpp:550
+msgid "Sum of all data items"
+msgstr "सबै डेटा वस्तुको योगफल"
+
+#: kcalc.cpp:557
+msgctxt "Mean"
+msgid "Mea"
+msgstr ""
+
+#. i18n: file: kcalc.ui:210
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMean)
+#: kcalc.cpp:557 rc.cpp:317
+msgid "Mean"
+msgstr "मध्यक"
+
+#: kcalc.cpp:560
+msgid "Sum of all data items squared"
+msgstr "वर्ग गरिएको सबै डेटा वस्तुको योगफल"
+
+#. i18n: file: kcalc.ui:276
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbSd)
+#: kcalc.cpp:568 rc.cpp:359
+msgid "Standard deviation"
+msgstr "स्ट्यान्डर्ड डेभियसन"
+
+#: kcalc.cpp:570
+msgid "Sample standard deviation"
+msgstr "नमूना स्ट्यान्डर्ड डेभियसन"
+
+#: kcalc.cpp:581
+msgctxt "Enter data"
+msgid "Dat"
+msgstr ""
+
+#. i18n: file: kcalc.ui:402
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbDat)
+#: kcalc.cpp:581 rc.cpp:437
+msgid "Enter data"
+msgstr "डेटा प्रविष्ट गर्नुहोस्"
+
+#: kcalc.cpp:582
+msgctxt "Delete last data item"
+msgid "CDat"
+msgstr ""
+
+#: kcalc.cpp:582
+msgid "Delete last data item"
+msgstr "अन्तिम डेटा वस्तु मेट्नुहोस्"
+
+#: kcalc.cpp:648
+msgctxt "Modulo"
+msgid "Mod"
+msgstr ""
+
+#. i18n: file: kcalc.ui:180
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMod)
+#: kcalc.cpp:648 rc.cpp:299
+msgid "Modulo"
+msgstr "मोड्युल"
+
+#: kcalc.cpp:649
+msgctxt "Integer division"
+msgid "IntDiv"
+msgstr ""
+
+#: kcalc.cpp:649
+msgid "Integer division"
+msgstr "इन्टिजर भाग"
+
+#: kcalc.cpp:657
+msgctxt "Reciprocal"
+msgid "1/x"
+msgstr ""
+
+#. i18n: file: kcalc.ui:243
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbReci)
+#: kcalc.cpp:657 rc.cpp:338
+msgid "Reciprocal"
+msgstr "पारस्परिक"
+
+#: kcalc.cpp:658
+msgctxt "n Choose m"
+msgid "nCm"
+msgstr ""
+
+#: kcalc.cpp:658
+msgid "n Choose m"
+msgstr "र m रोज्नुहोस्"
+
+#: kcalc.cpp:665
+msgctxt "Factorial"
+msgid "x!"
+msgstr ""
+
+#. i18n: file: kcalc.ui:309
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbFactorial)
+#: kcalc.cpp:665 rc.cpp:380
+msgid "Factorial"
+msgstr "क्रमगुणन"
+
+#: kcalc.cpp:671
+msgctxt "Square"
+msgid "x<sup>2</sup>"
+msgstr ""
+
+#. i18n: file: kcalc.ui:372
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbSquare)
+#: kcalc.cpp:671 rc.cpp:419
+msgid "Square"
+msgstr "वर्ग"
+
+#: kcalc.cpp:672
+msgctxt "Third power"
+msgid "x<sup>3</sup>"
+msgstr ""
+
+#: kcalc.cpp:672
+msgid "Third power"
+msgstr "तेस्रो शक्ति"
+
+#: kcalc.cpp:681
+msgctxt "x to the power of y"
+msgid "x<sup>y</sup>"
+msgstr ""
+
+#. i18n: file: kcalc.ui:438
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbPower)
+#: kcalc.cpp:681 rc.cpp:461
+msgid "x to the power of y"
+msgstr "y को पावर x"
+
+#: kcalc.cpp:682
+msgctxt "x to the power of 1/y"
+msgid "x<sup>1/y</sup>"
+msgstr ""
+
+#: kcalc.cpp:682
+msgid "x to the power of 1/y"
+msgstr "1/y को पावर x"
+
+#. i18n: file: kcalc.ui:501
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbEE)
+#: kcalc.cpp:691 rc.cpp:500
+msgid "Exponent"
+msgstr "घातांक"
+
+#: kcalc.cpp:1009 kcalc.cpp:1010
+msgid "M"
+msgstr ""
+
+#: kcalc.cpp:1414
+msgid "Last stat item erased"
+msgstr "अन्तिम तथ्याङ्क वस्तु मेटियो"
+
+#: kcalc.cpp:1425
+msgid "Stat mem cleared"
+msgstr "तथ्याङ्क स्मृति खाली गरियो"
+
+#. i18n: file: general.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, General)
+#: kcalc.cpp:1473 rc.cpp:69
+msgid "General"
+msgstr "सामान्य"
+
+#: kcalc.cpp:1473
+msgid "General Settings"
+msgstr "सामान्य सेटिङ"
+
+#: kcalc.cpp:1478
+msgid "Font"
+msgstr "फन्ट"
+
+#: kcalc.cpp:1478
+msgid "Select Display Font"
+msgstr "प्रदर्शन फन्ट चयन गर्नुहोस्"
+
+#: kcalc.cpp:1483
+msgid "Colors"
+msgstr "रङ"
+
+#: kcalc.cpp:1483
+msgid "Button & Display Colors"
+msgstr "बटन र प्रदर्शन रङ"
+
+#. i18n: file: constants.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, Constants)
+#. i18n: file: constants.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, constantsBox)
+#: kcalc.cpp:1532 rc.cpp:33 rc.cpp:36
+msgid "Constants"
+msgstr "स्थिर"
+
+#: kcalc.cpp:1532
+msgid "Define Constants"
+msgstr ""
+
+#. i18n: file: kcalc.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, KCalculator)
+#: kcalc.cpp:1956 rc.cpp:239
+msgid "KCalc"
+msgstr "केडीई क्याल्क"
+
+#: kcalc.cpp:1960
+msgid ""
+"(c) 2000-2008, The KDE Team\n"
+"(c) 2003-2005, Klaus Niederkrüger\n"
+"(c) 1996-2000, Bernd Johannes Wuebben"
+msgstr ""
+
+#: kcalc.cpp:1967
+msgid "Klaus Niederkrüger"
+msgstr "क्लाउस निडरक्रुजर"
+
+#: kcalc.cpp:1968
+msgid "Bernd Johannes Wuebben"
+msgstr "बर्न्ड जोहन्नेस उइबेन"
+
+#: kcalc.cpp:1969
+msgid "Evan Teran"
+msgstr "एभान टेरान"
+
+#: kcalc.cpp:1970
+msgid "Espen Sand"
+msgstr "एस्पेन सान्ड"
+
+#: kcalc.cpp:1971
+msgid "Chris Howells"
+msgstr "क्रिस होवेल्स्"
+
+#: kcalc.cpp:1972
+msgid "Aaron J. Seigo"
+msgstr "आरोन जे. सेइगो"
+
+#: kcalc.cpp:1973
+msgid "Charles Samuels"
+msgstr "चर्ल्स स्यामुएल्स्"
+
+#: kcalc.cpp:1975
+msgid "René Mérou"
+msgstr "रेने मेरौ"
+
+#: kcalc.cpp:1976
+msgid "Michel Marti"
+msgstr "मिचेल मार्टि"
+
+#: kcalc.cpp:1977
+msgid "David Johnson"
+msgstr ""
+
+#: kcalc.cpp:1977
+msgid "Maintainer"
+msgstr ""
+
+#: kcalc_const_button.cpp:32 kcalc_const_button.cpp:44
+msgctxt "Write display data into memory"
+msgid "Store"
+msgstr ""
+
+#: kcalc_const_button.cpp:32 kcalc_const_button.cpp:44
+msgid "Write display data into memory"
+msgstr "स्मृतिमा प्रदर्शन डेटा लेख्नुहोस्"
+
+#: kcalc_const_button.cpp:76
+msgid "Set Name"
+msgstr "नाम सेट गर्नुहोस्"
+
+#: kcalc_const_button.cpp:79
+msgid "Choose From List"
+msgstr "सूचीबाट छनोट गर्नुहोस्"
+
+#: kcalc_const_button.cpp:92
+msgid "New Name for Constant"
+msgstr "स्थिरका लागि नयाँ नाम"
+
+#: kcalc_const_button.cpp:92
+msgid "New name:"
+msgstr "नयाँ नाम:"
+
+#: kcalc_const_menu.cpp:91
+msgid "Mathematics"
+msgstr "गणित"
+
+#: kcalc_const_menu.cpp:92
+msgid "Electromagnetism"
+msgstr "इलेक्ट्रोम्याग्निटिजम"
+
+#: kcalc_const_menu.cpp:93
+msgid "Atomic && Nuclear"
+msgstr "पारमाणविक र आणविक"
+
+#: kcalc_const_menu.cpp:94
+msgid "Thermodynamics"
+msgstr "थर्मोडाइनामिक"
+
+#: kcalc_const_menu.cpp:95
+msgid "Gravitation"
+msgstr "गुरुत्वकार्षण"
+
+#. i18n: file: colors.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, displayColorsBox)
+#: rc.cpp:3
+msgid "Display Colors"
+msgstr "रङ प्रदर्शन गर्नुहोस्"
+
+#. i18n: file: colors.ui:24
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:6
+msgid "&Foreground:"
+msgstr "अग्रभूमि:"
+
+#. i18n: file: colors.ui:51
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:9
+msgid "&Background:"
+msgstr "पृष्ठभूमि:"
+
+#. i18n: file: colors.ui:96
+#. i18n: ectx: property (title), widget (QGroupBox, buttonColorsBox)
+#: rc.cpp:12
+msgid "Button Colors"
+msgstr "बटन रङ"
+
+#. i18n: file: colors.ui:104
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:15
+msgid "&Functions:"
+msgstr "प्रकार्य:"
+
+#. i18n: file: colors.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:18
+msgid "St&atistic functions:"
+msgstr "तथ्याङ्क प्रकार्य:"
+
+#. i18n: file: colors.ui:144
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:21
+msgid "He&xadecimals:"
+msgstr "हेक्साडेसिमल:"
+
+#. i18n: file: colors.ui:164
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:24
+msgid "&Numbers:"
+msgstr "सङ्ख्या:"
+
+#. i18n: file: colors.ui:184
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: rc.cpp:27
+msgid "&Memory:"
+msgstr "स्मृति:"
+
+#. i18n: file: colors.ui:204
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: rc.cpp:30
+msgid "O&perations:"
+msgstr "सञ्चालनहरू:"
+
+#. i18n: file: constants.ui:39
+#. i18n: ectx: property (text), widget (QPushButton, pushButton0)
+#. i18n: file: constants.ui:60
+#. i18n: ectx: property (text), widget (QPushButton, pushButton1)
+#. i18n: file: constants.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, pushButton2)
+#. i18n: file: constants.ui:102
+#. i18n: ectx: property (text), widget (QPushButton, pushButton3)
+#. i18n: file: constants.ui:123
+#. i18n: ectx: property (text), widget (QPushButton, pushButton4)
+#. i18n: file: constants.ui:144
+#. i18n: ectx: property (text), widget (QPushButton, pushButton5)
+#: rc.cpp:39 rc.cpp:42 rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+msgid "Predefined"
+msgstr "पूर्वपरिभाषित"
+
+#. i18n: file: fonts.ui:21
+#. i18n: ectx: property (text), widget (QLabel, buttonlabel)
+#: rc.cpp:57
+msgid "&Button font:"
+msgstr ""
+
+#. i18n: file: fonts.ui:34
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_ButtonFont)
+#: rc.cpp:60
+msgid "The font to use for the buttons"
+msgstr ""
+
+#. i18n: file: fonts.ui:41
+#. i18n: ectx: property (text), widget (QLabel, displaylabel)
+#: rc.cpp:63
+msgid "&Display font:"
+msgstr ""
+
+#. i18n: file: fonts.ui:54
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_DisplayFont)
+#: rc.cpp:66
+msgid "The font to use in the display"
+msgstr ""
+
+#. i18n: file: general.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, precisionGroupBox)
+#: rc.cpp:72
+msgid "Precision"
+msgstr "सूक्ष्मता"
+
+#. i18n: file: general.ui:27
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:75
+msgid "&Maximum number of digits:"
+msgstr "अङ्कका अधिकतम सङ्ख्या:"
+
+#. i18n: file: general.ui:40
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_Precision)
+#: rc.cpp:78
+msgid "Maximum number of digits displayed"
+msgstr ""
+
+#. i18n: file: general.ui:43
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Precision)
+#: rc.cpp:81
+msgid ""
+"KCalc can compute with many more digits than the number that fits on the "
+"display. This setting gives the maximum number of digits displayed, before "
+"KCalc starts using scientific notation, i.e. notation of the type 2.34e12."
+msgstr ""
+
+#. i18n: file: general.ui:50
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Fixed)
+#: rc.cpp:84
+msgid "Whether to use fixed decimal places"
+msgstr ""
+
+#. i18n: file: general.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Fixed)
+#: rc.cpp:87
+msgid "Set &decimal precision"
+msgstr "दशमलव सूक्ष्मता सेट गर्नुहोस्"
+
+#. i18n: file: general.ui:63
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_FixedPrecision)
+#: rc.cpp:90
+msgid "Number of fixed decimal digits"
+msgstr ""
+
+#. i18n: file: general.ui:88
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:93
+msgid "Numbers"
+msgstr ""
+
+#. i18n: file: general.ui:94
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_GroupDigits)
+#: rc.cpp:96
+msgid "Whether to group digits"
+msgstr ""
+
+#. i18n: file: general.ui:97
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GroupDigits)
+#: rc.cpp:99
+msgid "Group digits"
+msgstr "समूह अङ्कहरू"
+
+#. i18n: file: general.ui:107
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TwosComplement)
+#: rc.cpp:102
+msgid "Whether to use Two's Complement for non-decimal numbers"
+msgstr ""
+
+#. i18n: file: general.ui:110
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TwosComplement)
+#: rc.cpp:105
+msgid ""
+"Select to use Two's Complement notation for Binary, Octal and Hexidecimal "
+"numbers. This is a common notation to represent negative numbers for non-"
+"decimal numbers in computers."
+msgstr ""
+
+#. i18n: file: general.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TwosComplement)
+#: rc.cpp:108
+msgid "Two's complement"
+msgstr ""
+
+#. i18n: file: general.ui:126
+#. i18n: ectx: property (title), widget (QGroupBox, miscGroupBox)
+#: rc.cpp:111
+msgid "Misc"
+msgstr "विविध"
+
+#. i18n: file: general.ui:132
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Beep)
+#: rc.cpp:114
+msgid "Whether to beep on error"
+msgstr ""
+
+#. i18n: file: general.ui:135
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Beep)
+#: rc.cpp:117
+msgid "&Beep on error"
+msgstr "त्रुटिमा बीप"
+
+#. i18n: file: general.ui:145
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CaptionResult)
+#: rc.cpp:120
+msgid "Whether to show the result in the window title"
+msgstr ""
+
+#. i18n: file: general.ui:148
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CaptionResult)
+#: rc.cpp:123
+msgid "Show &result in window title"
+msgstr "सञ्झ्याल शीर्षकमा परिणाम देखाउनुहोस्"
+
+#. i18n: file: kcalc.kcfg:13
+#. i18n: ectx: label, entry (ForeColor), group (Colors)
+#: rc.cpp:126
+msgid "The foreground color of the display."
+msgstr "प्रदर्शनको अग्रभूमि रङ ।"
+
+#. i18n: file: kcalc.kcfg:19
+#. i18n: ectx: label, entry (BackColor), group (Colors)
+#: rc.cpp:129
+msgid "The background color of the display."
+msgstr "प्रदर्शनको पृष्ठभूमि रङ ।"
+
+#. i18n: file: kcalc.kcfg:24
+#. i18n: ectx: label, entry (NumberButtonsColor), group (Colors)
+#: rc.cpp:132
+msgid "The color of number buttons."
+msgstr "सङ्ख्या बटनको रङ ।"
+
+#. i18n: file: kcalc.kcfg:30
+#. i18n: ectx: label, entry (FunctionButtonsColor), group (Colors)
+#: rc.cpp:135
+msgid "The color of function buttons."
+msgstr "प्रकार्य बटनका रङ ।"
+
+#. i18n: file: kcalc.kcfg:34
+#. i18n: ectx: label, entry (StatButtonsColor), group (Colors)
+#: rc.cpp:138
+msgid "The color of statistical buttons."
+msgstr "तथ्याङ्किय बटनका रङ ।"
+
+#. i18n: file: kcalc.kcfg:38
+#. i18n: ectx: label, entry (HexButtonsColor), group (Colors)
+#: rc.cpp:141
+msgid "The color of hex buttons."
+msgstr "हेक्स बटनका रङ ।"
+
+#. i18n: file: kcalc.kcfg:42
+#. i18n: ectx: label, entry (MemoryButtonsColor), group (Colors)
+#: rc.cpp:144
+msgid "The color of memory buttons."
+msgstr "स्मृति बटनका रङ ।"
+
+#. i18n: file: kcalc.kcfg:46
+#. i18n: ectx: label, entry (OperationButtonsColor), group (Colors)
+#: rc.cpp:147
+msgid "The color of operation buttons."
+msgstr "सञ्चालन बटनका रङ ।"
+
+#. i18n: file: kcalc.kcfg:52
+#. i18n: ectx: label, entry (ButtonFont), group (Font)
+#: rc.cpp:150
+msgid "The font to use for the buttons."
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:56
+#. i18n: ectx: label, entry (DisplayFont), group (Font)
+#: rc.cpp:153
+msgid "The font to use in the display."
+msgstr "प्रदर्शनमा प्रयोग गर्न फन्ट ।"
+
+#. i18n: file: kcalc.kcfg:62
+#. i18n: ectx: label, entry (Precision), group (Precision)
+#: rc.cpp:156
+msgid "Maximum number of digits displayed."
+msgstr "प्रदर्शित अङ्कका अधिकतम सङ्ख्या ।"
+
+#. i18n: file: kcalc.kcfg:68
+#. i18n: ectx: whatsthis, entry (Precision), group (Precision)
+#: rc.cpp:159
+msgid ""
+"\n"
+"\tKCalc can compute with many more digits than the number that\n"
+"\tfits on the display. This setting gives the maximum number of\n"
+"\tdigits displayed, before KCalc starts using scientific notation,\n"
+"\ti.e. notation of the type 2.34e12.\n"
+"      "
+msgstr ""
+"\n"
+"\tकेडीई क्याल्कले सङ्ख्या भन्दा थुप्रै बढी अङ्कसँग गणना गर्न सक्दछ जुन\n"
+"\tप्रदर्शनमा ठिक हुन्छ । यो सेटिङले\n"
+"\tवैज्ञानिक नोटेसन, \n"
+"\tजस्तै 2.34e12 प्रकारको नोटेसन प्रयोग गरेर केडीई क्याल्कले सुरु गर्नु अगाडि "
+"प्रदर्शित अङ्कको अधिकतम सङ्ख्या दिन्छ ।\n"
+"      "
+
+#. i18n: file: kcalc.kcfg:74
+#. i18n: ectx: label, entry (FixedPrecision), group (Precision)
+#: rc.cpp:167
+msgid "Number of fixed decimal digits."
+msgstr "स्थिर दशमलव अङ्कका सङ्ख्या ।"
+
+#. i18n: file: kcalc.kcfg:78
+#. i18n: ectx: label, entry (Fixed), group (Precision)
+#: rc.cpp:170
+msgid "Whether to use fixed decimal places."
+msgstr "स्थिर दशमलव स्थान प्रयोग गर्ने या नगर्ने ।"
+
+#. i18n: file: kcalc.kcfg:84
+#. i18n: ectx: label, entry (Beep), group (General)
+#: rc.cpp:173
+msgid "Whether to beep on error."
+msgstr "त्रुटिमा बीप गर्ने या नगर्ने ।"
+
+#. i18n: file: kcalc.kcfg:88
+#. i18n: ectx: label, entry (CaptionResult), group (General)
+#: rc.cpp:176
+msgid "Whether to show the result in the window title."
+msgstr "सञ्झ्याल शीर्षकमा परिणाम देखाउने या नदेखाउने ।"
+
+#. i18n: file: kcalc.kcfg:92
+#. i18n: ectx: label, entry (GroupDigits), group (General)
+#: rc.cpp:179
+msgid "Whether to group digits."
+msgstr "अङ्क समूह गर्ने या नगर्ने ।"
+
+#. i18n: file: kcalc.kcfg:96
+#. i18n: ectx: label, entry (TwosComplement), group (General)
+#: rc.cpp:182
+msgid "Whether to use Two's Complement for non-decimal numbers."
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:101
+#. i18n: ectx: whatsthis, entry (TwosComplement), group (General)
+#: rc.cpp:185
+msgid ""
+"\n"
+"        Select to use Two's Complement notation for Binary, Octal\n"
+"        and Hexidecimal numbers. This is a common notation to represent\n"
+"        negative numbers in computers.\n"
+"      "
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:105
+#. i18n: ectx: label, entry (ShowBitset), group (General)
+#: rc.cpp:192
+msgid "Whether to show the bit edit widget."
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:109
+#. i18n: ectx: label, entry (ShowStat), group (General)
+#: rc.cpp:195
+msgid "Whether to show statistical buttons."
+msgstr "तथ्याङ्किय बटन देखाउने या नदेखाउने ।"
+
+#. i18n: file: kcalc.kcfg:114
+#. i18n: ectx: label, entry (ShowScientific), group (General)
+#: rc.cpp:198
+msgid ""
+"Whether to show buttons with functions used in science/engineering,\n"
+"\t     like exp, log, sin, etc."
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:118
+#. i18n: ectx: label, entry (ShowLogic), group (General)
+#: rc.cpp:202
+msgid "Whether to show logic buttons."
+msgstr "न्यायिक बटन देखाउने या नदेखाउने ।"
+
+#. i18n: file: kcalc.kcfg:122
+#. i18n: ectx: label, entry (ShowConstants), group (General)
+#: rc.cpp:205
+msgid "Whether to show constant buttons."
+msgstr "स्थिर बटन देखाउने या नदेखाउने ।"
+
+#. i18n: file: kcalc.kcfg:126
+#. i18n: ectx: label, entry (AngleMode), group (General)
+#: rc.cpp:208
+msgid "Degrees, radians or grads"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:130
+#. i18n: ectx: label, entry (BaseMode), group (General)
+#: rc.cpp:211
+msgid "Numeric base"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:136
+#. i18n: ectx: label, entry (nameConstant$(ConstIndex)), group (UserConstants)
+#: rc.cpp:214
+msgid "Name of the user programmable constants."
+msgstr "प्रयोगकर्ता कार्यक्रमयोग्य स्थिरका नाम ।"
+
+#. i18n: file: kcalc.kcfg:155
+#. i18n: ectx: label, entry (valueConstant$(ConstIndex)), group (UserConstants)
+#: rc.cpp:217
+msgid "List of user programmable constants"
+msgstr "प्रयोगकर्ता कार्यक्रमयोग्य स्थिरका सूची"
+
+#. i18n: file: kcalc.kcfg:146
+#: rc.cpp:225
+msgctxt "Name of the user programmable constant"
+msgid "C1"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:147
+#: rc.cpp:227
+msgctxt "Name of the user programmable constant"
+msgid "C2"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:148
+#: rc.cpp:229
+msgctxt "Name of the user programmable constant"
+msgid "C3"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:149
+#: rc.cpp:231
+msgctxt "Name of the user programmable constant"
+msgid "C4"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:150
+#: rc.cpp:233
+msgctxt "Name of the user programmable constant"
+msgid "C5"
+msgstr ""
+
+#. i18n: file: kcalc.kcfg:151
+#: rc.cpp:235
+msgctxt "Name of the user programmable constant"
+msgid "C6"
+msgstr ""
+
+#. i18n: file: kcalc.ui:35
+#. i18n: ectx: property (toolTip), widget (KCalcBitset, mBitset)
+#: rc.cpp:242
+msgid "Click on a Bit to toggle it."
+msgstr "यसलाई टगल गर्न बिटमा क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kcalc.ui:44
+#. i18n: ectx: property (text), widget (QRadioButton, degRadio)
+#: rc.cpp:245
+msgid "Deg"
+msgstr ""
+
+#. i18n: file: kcalc.ui:51
+#. i18n: ectx: property (text), widget (QRadioButton, radRadio)
+#: rc.cpp:248
+msgid "Rad"
+msgstr ""
+
+#. i18n: file: kcalc.ui:58
+#. i18n: ectx: property (text), widget (QRadioButton, gradRadio)
+#: rc.cpp:251
+msgid "Grad"
+msgstr ""
+
+#. i18n: file: kcalc.ui:78
+#. i18n: ectx: property (toolTip), widget (QRadioButton, hexRadio)
+#: rc.cpp:254
+msgid "Switch base to hexadecimal."
+msgstr "हेक्साडेसिमलमा आधार स्विच गर्नुहोस् ।"
+
+#. i18n: file: kcalc.ui:81
+#. i18n: ectx: property (text), widget (QRadioButton, hexRadio)
+#: rc.cpp:257
+msgid "He&x"
+msgstr "हेक्साडेसिमल"
+
+#. i18n: file: kcalc.ui:88
+#. i18n: ectx: property (toolTip), widget (QRadioButton, decRadio)
+#: rc.cpp:260
+msgid "Switch base to decimal."
+msgstr "दशमलवमा आधार स्विच गर्नुहोस् ।"
+
+#. i18n: file: kcalc.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, decRadio)
+#: rc.cpp:263
+msgid "&Dec"
+msgstr "दशमलव"
+
+#. i18n: file: kcalc.ui:98
+#. i18n: ectx: property (toolTip), widget (QRadioButton, octRadio)
+#: rc.cpp:266
+msgid "Switch base to octal."
+msgstr "अक्टलमा आधार स्विच गर्नुहोस् ।"
+
+#. i18n: file: kcalc.ui:101
+#. i18n: ectx: property (text), widget (QRadioButton, octRadio)
+#: rc.cpp:269
+msgid "&Oct"
+msgstr "अक्टल"
+
+#. i18n: file: kcalc.ui:108
+#. i18n: ectx: property (toolTip), widget (QRadioButton, binRadio)
+#: rc.cpp:272
+msgid "Switch base to binary."
+msgstr "बाइनरीमा आधार स्विच गर्नुहोस् ।"
+
+#. i18n: file: kcalc.ui:111
+#. i18n: ectx: property (text), widget (QRadioButton, binRadio)
+#: rc.cpp:275
+msgid "&Bin"
+msgstr "बाइनरी"
+
+#. i18n: file: kcalc.ui:147
+#. i18n: ectx: property (text), widget (KCalcButton, pbNData)
+#. i18n: file: kcalc.ui:484
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbLn)
+#: rc.cpp:281 rc.cpp:491
+msgid "N"
+msgstr ""
+
+#. i18n: file: kcalc.ui:154
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbHyp)
+#: rc.cpp:284
+msgid "Hyperbolic mode"
+msgstr "हाइपरबोलिक मोड"
+
+#. i18n: file: kcalc.ui:157
+#. i18n: ectx: property (text), widget (KCalcButton, pbHyp)
+#: rc.cpp:287
+msgid "Hyp"
+msgstr ""
+
+#. i18n: file: kcalc.ui:160
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbHyp)
+#: rc.cpp:290
+msgid "H"
+msgstr ""
+
+#. i18n: file: kcalc.ui:170
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbAND)
+#: rc.cpp:293
+msgid "Bitwise AND"
+msgstr "बिटवाइज AND"
+
+#. i18n: file: kcalc.ui:173
+#. i18n: ectx: property (text), widget (KCalcButton, pbAND)
+#: rc.cpp:296
+msgid "AND"
+msgstr ""
+
+#. i18n: file: kcalc.ui:183
+#. i18n: ectx: property (text), widget (KCalcButton, pbMod)
+#: rc.cpp:302
+msgid "Mod"
+msgstr ""
+
+#. i18n: file: kcalc.ui:190
+#. i18n: ectx: property (text), widget (KCalcButton, pbA)
+#. i18n: file: kcalc.ui:193
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbA)
+#: rc.cpp:305 rc.cpp:308
+msgid "A"
+msgstr ""
+
+#. i18n: file: kcalc.ui:200
+#. i18n: ectx: property (text), widget (KCalcConstButton, pbC1)
+#: rc.cpp:311
+msgid "C1"
+msgstr "C1"
+
+#. i18n: file: kcalc.ui:203
+#. i18n: ectx: property (shortcut), widget (KCalcConstButton, pbC1)
+#: rc.cpp:314
+msgid "Alt+1"
+msgstr ""
+
+#. i18n: file: kcalc.ui:213
+#. i18n: ectx: property (text), widget (KCalcButton, pbMean)
+#: rc.cpp:320
+msgid "Mea"
+msgstr ""
+
+#. i18n: file: kcalc.ui:223
+#. i18n: ectx: property (text), widget (KCalcButton, pbSin)
+#: rc.cpp:326
+msgid "Sin"
+msgstr ""
+
+#. i18n: file: kcalc.ui:226
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbSin)
+#: rc.cpp:329
+msgid "S"
+msgstr ""
+
+#. i18n: file: kcalc.ui:233
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbOR)
+#: rc.cpp:332
+msgid "Bitwise OR"
+msgstr "बिटवाइज OR"
+
+#. i18n: file: kcalc.ui:236
+#. i18n: ectx: property (text), widget (KCalcButton, pbOR)
+#: rc.cpp:335
+msgid "OR"
+msgstr ""
+
+#. i18n: file: kcalc.ui:246
+#. i18n: ectx: property (text), widget (KCalcButton, pbReci)
+#: rc.cpp:341
+msgid "1/X"
+msgstr ""
+
+#. i18n: file: kcalc.ui:249
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbReci)
+#: rc.cpp:344
+msgid "R"
+msgstr ""
+
+#. i18n: file: kcalc.ui:256
+#. i18n: ectx: property (text), widget (KCalcButton, pbB)
+#. i18n: file: kcalc.ui:259
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbB)
+#: rc.cpp:347 rc.cpp:350
+msgid "B"
+msgstr ""
+
+#. i18n: file: kcalc.ui:266
+#. i18n: ectx: property (text), widget (KCalcConstButton, pbC2)
+#: rc.cpp:353
+msgid "C2"
+msgstr "C2"
+
+#. i18n: file: kcalc.ui:269
+#. i18n: ectx: property (shortcut), widget (KCalcConstButton, pbC2)
+#: rc.cpp:356
+msgid "Alt+2"
+msgstr ""
+
+#. i18n: file: kcalc.ui:279
+#. i18n: ectx: property (text), widget (KCalcButton, pbSd)
+#: rc.cpp:362
+msgid "SD"
+msgstr ""
+
+#. i18n: file: kcalc.ui:289
+#. i18n: ectx: property (text), widget (KCalcButton, pbCos)
+#: rc.cpp:368
+msgid "Cos"
+msgstr ""
+
+#. i18n: file: kcalc.ui:292
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbCos)
+#. i18n: file: kcalc.ui:319
+#. i18n: ectx: property (text), widget (KCalcButton, pbC)
+#. i18n: file: kcalc.ui:322
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbC)
+#. i18n: file: kcalc.ui:843
+#. i18n: ectx: property (text), widget (KCalcButton, pbClear)
+#: rc.cpp:371 rc.cpp:386 rc.cpp:389 rc.cpp:635
+msgid "C"
+msgstr ""
+
+#. i18n: file: kcalc.ui:299
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbXOR)
+#: rc.cpp:374
+msgid "Bitwise XOR"
+msgstr "बिटवाइज XOR"
+
+#. i18n: file: kcalc.ui:302
+#. i18n: ectx: property (text), widget (KCalcButton, pbXOR)
+#: rc.cpp:377
+msgid "XOR"
+msgstr ""
+
+#. i18n: file: kcalc.ui:312
+#. i18n: ectx: property (text), widget (KCalcButton, pbFactorial)
+#: rc.cpp:383
+msgid "x!"
+msgstr ""
+
+#. i18n: file: kcalc.ui:329
+#. i18n: ectx: property (text), widget (KCalcConstButton, pbC3)
+#: rc.cpp:392
+msgid "C3"
+msgstr "C3"
+
+#. i18n: file: kcalc.ui:332
+#. i18n: ectx: property (shortcut), widget (KCalcConstButton, pbC3)
+#: rc.cpp:395
+msgid "Alt+3"
+msgstr ""
+
+#. i18n: file: kcalc.ui:339
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMed)
+#: rc.cpp:398
+msgid "Median"
+msgstr "मध्यिका"
+
+#. i18n: file: kcalc.ui:342
+#. i18n: ectx: property (text), widget (KCalcButton, pbMed)
+#: rc.cpp:401
+msgid "Med"
+msgstr ""
+
+#. i18n: file: kcalc.ui:352
+#. i18n: ectx: property (text), widget (KCalcButton, pbTan)
+#: rc.cpp:407
+msgid "Tan"
+msgstr ""
+
+#. i18n: file: kcalc.ui:355
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbTan)
+#: rc.cpp:410
+msgid "T"
+msgstr ""
+
+#. i18n: file: kcalc.ui:362
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbLsh)
+#: rc.cpp:413
+msgid "Left bit shift"
+msgstr "बाँया बिट सिफ्ट"
+
+#. i18n: file: kcalc.ui:365
+#. i18n: ectx: property (text), widget (KCalcButton, pbLsh)
+#: rc.cpp:416
+msgid "Lsh"
+msgstr ""
+
+#. i18n: file: kcalc.ui:375
+#. i18n: ectx: property (text), widget (KCalcButton, pbSquare)
+#: rc.cpp:422
+msgid "x2"
+msgstr ""
+
+#. i18n: file: kcalc.ui:382
+#. i18n: ectx: property (text), widget (KCalcButton, pbD)
+#. i18n: file: kcalc.ui:385
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbD)
+#. i18n: file: kcalc.ui:408
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbDat)
+#: rc.cpp:425 rc.cpp:428 rc.cpp:443
+msgid "D"
+msgstr ""
+
+#. i18n: file: kcalc.ui:392
+#. i18n: ectx: property (text), widget (KCalcConstButton, pbC4)
+#: rc.cpp:431
+msgid "C4"
+msgstr "C4"
+
+#. i18n: file: kcalc.ui:395
+#. i18n: ectx: property (shortcut), widget (KCalcConstButton, pbC4)
+#: rc.cpp:434
+msgid "Alt+4"
+msgstr ""
+
+#. i18n: file: kcalc.ui:405
+#. i18n: ectx: property (text), widget (KCalcButton, pbDat)
+#: rc.cpp:440
+msgid "Dat"
+msgstr ""
+
+#. i18n: file: kcalc.ui:418
+#. i18n: ectx: property (text), widget (KCalcButton, pbLog)
+#: rc.cpp:449
+msgid "Log"
+msgstr ""
+
+#. i18n: file: kcalc.ui:421
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbLog)
+#: rc.cpp:452
+msgid "L"
+msgstr ""
+
+#. i18n: file: kcalc.ui:428
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbRsh)
+#: rc.cpp:455
+msgid "Right bit shift"
+msgstr "दाँया बिट सिफ्ट"
+
+#. i18n: file: kcalc.ui:431
+#. i18n: ectx: property (text), widget (KCalcButton, pbRsh)
+#: rc.cpp:458
+msgid "Rsh"
+msgstr ""
+
+#. i18n: file: kcalc.ui:441
+#. i18n: ectx: property (text), widget (KCalcButton, pbPower)
+#: rc.cpp:464
+msgid "pow"
+msgstr ""
+
+#. i18n: file: kcalc.ui:448
+#. i18n: ectx: property (text), widget (KCalcButton, pbE)
+#. i18n: file: kcalc.ui:451
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbE)
+#. i18n: file: kcalc.ui:507
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbEE)
+#: rc.cpp:467 rc.cpp:470 rc.cpp:506
+msgid "E"
+msgstr ""
+
+#. i18n: file: kcalc.ui:458
+#. i18n: ectx: property (text), widget (KCalcConstButton, pbC5)
+#: rc.cpp:473
+msgid "C5"
+msgstr "C5"
+
+#. i18n: file: kcalc.ui:461
+#. i18n: ectx: property (shortcut), widget (KCalcConstButton, pbC5)
+#: rc.cpp:476
+msgid "Alt+5"
+msgstr ""
+
+#. i18n: file: kcalc.ui:468
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbCSt)
+#: rc.cpp:479
+msgid "Clear data store"
+msgstr "डेटा सङ्ग्रह खाली गर्नुहोस्"
+
+#. i18n: file: kcalc.ui:471
+#. i18n: ectx: property (text), widget (KCalcButton, pbCSt)
+#: rc.cpp:482
+msgid "CSt"
+msgstr ""
+
+#. i18n: file: kcalc.ui:481
+#. i18n: ectx: property (text), widget (KCalcButton, pbLn)
+#: rc.cpp:488
+msgid "Ln"
+msgstr ""
+
+#. i18n: file: kcalc.ui:491
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbCmp)
+#: rc.cpp:494
+msgid "One's complement"
+msgstr "एकको पूरक"
+
+#. i18n: file: kcalc.ui:494
+#. i18n: ectx: property (text), widget (KCalcButton, pbCmp)
+#: rc.cpp:497
+msgid "Cmp"
+msgstr ""
+
+#. i18n: file: kcalc.ui:504
+#. i18n: ectx: property (text), widget (KCalcButton, pbEE)
+#: rc.cpp:503
+msgid "EXP"
+msgstr ""
+
+#. i18n: file: kcalc.ui:514
+#. i18n: ectx: property (text), widget (KCalcButton, pbF)
+#. i18n: file: kcalc.ui:517
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbF)
+#: rc.cpp:509 rc.cpp:512
+msgid "F"
+msgstr ""
+
+#. i18n: file: kcalc.ui:524
+#. i18n: ectx: property (text), widget (KCalcConstButton, pbC6)
+#: rc.cpp:515
+msgid "C6"
+msgstr "C6"
+
+#. i18n: file: kcalc.ui:527
+#. i18n: ectx: property (shortcut), widget (KCalcConstButton, pbC6)
+#: rc.cpp:518
+msgid "Alt+6"
+msgstr ""
+
+#. i18n: file: kcalc.ui:555
+#. i18n: ectx: property (text), widget (KCalcButton, pbRoot)
+#: rc.cpp:524
+msgid "sr"
+msgstr ""
+
+#. i18n: file: kcalc.ui:568
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbDivision)
+#: rc.cpp:527
+msgid "Division"
+msgstr "भाग"
+
+#. i18n: file: kcalc.ui:571
+#. i18n: ectx: property (text), widget (KCalcButton, pbDivision)
+#: rc.cpp:530
+msgid "/"
+msgstr ""
+
+#. i18n: file: kcalc.ui:584
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMultiplication)
+#: rc.cpp:533
+msgid "Multiplication"
+msgstr "गुणन"
+
+#. i18n: file: kcalc.ui:587
+#. i18n: ectx: property (text), widget (KCalcButton, pbMultiplication)
+#: rc.cpp:536
+msgid "X"
+msgstr ""
+
+#. i18n: file: kcalc.ui:600
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMinus)
+#: rc.cpp:539
+msgid "Minus"
+msgstr ""
+
+#. i18n: file: kcalc.ui:603
+#. i18n: ectx: property (text), widget (KCalcButton, pbMinus)
+#: rc.cpp:542
+msgctxt "- calculator button"
+msgid "-"
+msgstr ""
+
+#. i18n: file: kcalc.ui:616
+#. i18n: ectx: property (text), widget (KCalcButton, pb7)
+#. i18n: file: kcalc.ui:619
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb7)
+#: rc.cpp:545 rc.cpp:548
+msgid "7"
+msgstr ""
+
+#. i18n: file: kcalc.ui:632
+#. i18n: ectx: property (text), widget (KCalcButton, pb8)
+#. i18n: file: kcalc.ui:635
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb8)
+#: rc.cpp:551 rc.cpp:554
+msgid "8"
+msgstr ""
+
+#. i18n: file: kcalc.ui:648
+#. i18n: ectx: property (text), widget (KCalcButton, pb9)
+#. i18n: file: kcalc.ui:651
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb9)
+#: rc.cpp:557 rc.cpp:560
+msgid "9"
+msgstr ""
+
+#. i18n: file: kcalc.ui:664
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbPlus)
+#: rc.cpp:563
+msgid "Plus"
+msgstr ""
+
+#. i18n: file: kcalc.ui:667
+#. i18n: ectx: property (text), widget (KCalcButton, pbPlus)
+#: rc.cpp:566
+msgctxt "+ calculator button"
+msgid "+"
+msgstr ""
+
+#. i18n: file: kcalc.ui:680
+#. i18n: ectx: property (text), widget (KCalcButton, pb4)
+#. i18n: file: kcalc.ui:683
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb4)
+#: rc.cpp:569 rc.cpp:572
+msgid "4"
+msgstr ""
+
+#. i18n: file: kcalc.ui:696
+#. i18n: ectx: property (text), widget (KCalcButton, pb5)
+#. i18n: file: kcalc.ui:699
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb5)
+#: rc.cpp:575 rc.cpp:578
+msgid "5"
+msgstr ""
+
+#. i18n: file: kcalc.ui:712
+#. i18n: ectx: property (text), widget (KCalcButton, pb6)
+#. i18n: file: kcalc.ui:715
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb6)
+#: rc.cpp:581 rc.cpp:584
+msgid "6"
+msgstr ""
+
+#. i18n: file: kcalc.ui:728
+#. i18n: ectx: property (text), widget (KCalcButton, pb1)
+#. i18n: file: kcalc.ui:731
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb1)
+#: rc.cpp:587 rc.cpp:590
+msgid "1"
+msgstr ""
+
+#. i18n: file: kcalc.ui:744
+#. i18n: ectx: property (text), widget (KCalcButton, pb2)
+#. i18n: file: kcalc.ui:747
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb2)
+#: rc.cpp:593 rc.cpp:596
+msgid "2"
+msgstr ""
+
+#. i18n: file: kcalc.ui:760
+#. i18n: ectx: property (text), widget (KCalcButton, pb3)
+#. i18n: file: kcalc.ui:763
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb3)
+#: rc.cpp:599 rc.cpp:602
+msgid "3"
+msgstr ""
+
+#. i18n: file: kcalc.ui:776
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbEqual)
+#: rc.cpp:605
+msgid "Result"
+msgstr "परिणाम"
+
+#. i18n: file: kcalc.ui:779
+#. i18n: ectx: property (text), widget (KCalcButton, pbEqual)
+#: rc.cpp:608
+msgctxt "= calculator button"
+msgid "="
+msgstr ""
+
+#. i18n: file: kcalc.ui:786
+#. i18n: ectx: property (text), widget (KCalcButton, pb0)
+#. i18n: file: kcalc.ui:789
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pb0)
+#: rc.cpp:611 rc.cpp:614
+msgid "0"
+msgstr ""
+
+#. i18n: file: kcalc.ui:802
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbPeriod)
+#: rc.cpp:617
+msgid "Decimal point"
+msgstr "दशमलव बिन्दु"
+
+#. i18n: file: kcalc.ui:805
+#. i18n: ectx: property (text), widget (KCalcButton, pbPeriod)
+#: rc.cpp:620
+msgctxt ". calculator button"
+msgid "."
+msgstr ""
+
+#. i18n: file: kcalc.ui:824
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbInv)
+#: rc.cpp:623
+msgid "Inverse mode"
+msgstr "उल्टो मोड"
+
+#. i18n: file: kcalc.ui:827
+#. i18n: ectx: property (text), widget (KCalcButton, pbInv)
+#: rc.cpp:626
+msgid "Inv"
+msgstr ""
+
+#. i18n: file: kcalc.ui:830
+#. i18n: ectx: property (shortcut), widget (KCalcButton, pbInv)
+#: rc.cpp:629
+msgid "I"
+msgstr ""
+
+#. i18n: file: kcalc.ui:840
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbClear)
+#: rc.cpp:632
+msgid "Clear"
+msgstr "खाली गर्नुहोस्"
+
+#. i18n: file: kcalc.ui:850
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbAllClear)
+#: rc.cpp:638
+msgid "Clear all"
+msgstr "सबै खाली गर्नुहोस्"
+
+#. i18n: file: kcalc.ui:853
+#. i18n: ectx: property (text), widget (KCalcButton, pbAllClear)
+#: rc.cpp:641
+msgid "AC"
+msgstr ""
+
+#. i18n: file: kcalc.ui:860
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbParenOpen)
+#: rc.cpp:644
+msgid "Open parenthesis"
+msgstr ""
+
+#. i18n: file: kcalc.ui:863
+#. i18n: ectx: property (text), widget (KCalcButton, pbParenOpen)
+#: rc.cpp:647
+msgctxt "( calculator button"
+msgid "("
+msgstr ""
+
+#. i18n: file: kcalc.ui:870
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbParenClose)
+#: rc.cpp:650
+msgid "Close parenthesis"
+msgstr ""
+
+#. i18n: file: kcalc.ui:873
+#. i18n: ectx: property (text), widget (KCalcButton, pbParenClose)
+#: rc.cpp:653
+msgctxt ") calculator button"
+msgid ")"
+msgstr ""
+
+#. i18n: file: kcalc.ui:880
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMemRecall)
+#: rc.cpp:656
+msgid "Memory recall"
+msgstr "स्मृति पुन: स्मरण"
+
+#. i18n: file: kcalc.ui:883
+#. i18n: ectx: property (text), widget (KCalcButton, pbMemRecall)
+#: rc.cpp:659
+msgid "MR"
+msgstr ""
+
+#. i18n: file: kcalc.ui:890
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMemClear)
+#: rc.cpp:662
+msgid "Memory clear"
+msgstr ""
+
+#. i18n: file: kcalc.ui:893
+#. i18n: ectx: property (text), widget (KCalcButton, pbMemClear)
+#: rc.cpp:665
+msgid "MC"
+msgstr ""
+
+#. i18n: file: kcalc.ui:900
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMemPlusMinus)
+#: rc.cpp:668
+msgid "Add to memory"
+msgstr ""
+
+#. i18n: file: kcalc.ui:903
+#. i18n: ectx: property (text), widget (KCalcButton, pbMemPlusMinus)
+#: rc.cpp:671
+msgid "M+"
+msgstr ""
+
+#. i18n: file: kcalc.ui:910
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbMemStore)
+#: rc.cpp:674
+msgid "Memory store"
+msgstr "स्मृति सङ्ग्रह"
+
+#. i18n: file: kcalc.ui:913
+#. i18n: ectx: property (text), widget (KCalcButton, pbMemStore)
+#: rc.cpp:677
+msgid "MS"
+msgstr ""
+
+#. i18n: file: kcalc.ui:920
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbPercent)
+#: rc.cpp:680
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#. i18n: file: kcalc.ui:923
+#. i18n: ectx: property (text), widget (KCalcButton, pbPercent)
+#: rc.cpp:684
+#, no-c-format
+msgid "%"
+msgstr ""
+
+#. i18n: file: kcalc.ui:930
+#. i18n: ectx: property (toolTip), widget (KCalcButton, pbPlusMinus)
+#: rc.cpp:687
+msgid "Change sign"
+msgstr "सङ्केत परिवर्तन गर्नुहोस्"
+
+#. i18n: file: kcalc.ui:933
+#. i18n: ectx: property (text), widget (KCalcButton, pbPlusMinus)
+#: rc.cpp:690
+msgid "+/-"
+msgstr ""
+
+#. i18n: file: kcalcui.rc:4
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:693
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#: rc.cpp:694
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बलन नारायण कुमार मगर, ,Launchpad "
+"Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:695
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com, narayan@mpp.org.np,,,"
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:3
+#: rc.cpp:698
+msgid "Pi"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:7
+#: rc.cpp:701
+msgid "Euler Number"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:11
+#: rc.cpp:704
+msgid "Golden Ratio"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:15
+#: rc.cpp:707
+msgid "Light Speed"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:19
+#: rc.cpp:710
+msgid "Planck's Constant"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:23
+#: rc.cpp:713
+msgid "Gravitational Constant"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:27
+#: rc.cpp:716
+msgid "Earth Acceleration"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:31
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:35
+#: rc.cpp:719 rc.cpp:722
+msgid "Elementary Charge"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:39
+#: rc.cpp:725
+msgid "Impedance of Vacuum"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:43
+#: rc.cpp:728
+msgid "Fine-Structure Constant"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:48
+#: rc.cpp:731
+msgid "Permeability of Vacuum"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:52
+#: rc.cpp:734
+msgid "Permittivity of Vacuum"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:56
+#: rc.cpp:737
+msgid "Boltzmann Constant"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:61
+#: rc.cpp:740
+msgid "Atomic Mass Unit"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:65
+#: rc.cpp:743
+msgid "Molar Gas Constant"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:69
+#: rc.cpp:746
+msgid "Stefan-Boltzmann Constant"
+msgstr ""
+
+#. i18n: tag constant attribute name
+#. i18n: file: scienceconstants.xml:73
+#: rc.cpp:749
+msgid "Avogadro's Number"
+msgstr ""

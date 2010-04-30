@@ -1,0 +1,1452 @@
+# translation of gnome-media.HEAD.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Jyotshna Shrestha <shresthajyo@hotmail.com>, 2005.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Bishnu Adhikari <bsn_adk@hotmail.com>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-media.HEAD.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-12 13:04+0000\n"
+"PO-Revision-Date: 2010-04-05 23:25+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:09+0000\n"
+
+#: ../gnome-volume-control/data/gnome-volume-control-applet.desktop.in.h:1
+msgid "Show desktop volume control"
+msgstr ""
+
+#: ../gnome-volume-control/data/gnome-volume-control-applet.desktop.in.h:2
+#: ../gst-mixer/gnome-volume-control.desktop.in.in.h:2
+#: ../gst-mixer/src/window.c:269 ../gst-mixer/src/window.c:270
+msgid "Volume Control"
+msgstr "भोल्युम नियन्त्रण"
+
+#: ../gnome-volume-control/data/gnome-volume-control.desktop.in.in.h:1
+#: ../gst-mixer/gnome-volume-control.desktop.in.in.h:1
+msgid "Change sound volume and sound events"
+msgstr ""
+
+#: ../gnome-volume-control/data/gnome-volume-control.desktop.in.in.h:2
+msgid "Sound"
+msgstr ""
+
+#: ../gnome-volume-control/src/applet-main.c:49
+#: ../gnome-volume-control/src/dialog-main.c:155
+msgid "Enable debugging code"
+msgstr ""
+
+#: ../gnome-volume-control/src/applet-main.c:50
+#: ../gnome-volume-control/src/dialog-main.c:156
+msgid "Version of this application"
+msgstr ""
+
+#: ../gnome-volume-control/src/applet-main.c:62
+msgid " - GNOME Volume Control Applet"
+msgstr ""
+
+#: ../gnome-volume-control/src/dialog-main.c:124
+msgid "Waiting for sound system to respond"
+msgstr ""
+
+#: ../gnome-volume-control/src/dialog-main.c:154 ../gst-mixer/src/main.c:39
+msgid "Startup page"
+msgstr ""
+
+#: ../gnome-volume-control/src/dialog-main.c:168
+msgid " - GNOME Volume Control"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-applet.c:273
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1830
+msgid "Output"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-applet.c:277
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1744
+msgid "Input"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:108
+msgctxt "balance"
+msgid "Left"
+msgstr "बायाँ"
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:109
+msgctxt "balance"
+msgid "Right"
+msgstr "दायाँ"
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:112
+msgctxt "balance"
+msgid "Rear"
+msgstr "पछाडि"
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:113
+msgctxt "balance"
+msgid "Front"
+msgstr "अगाडि"
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:116
+msgctxt "balance"
+msgid "Minimum"
+msgstr "न्यूनतम"
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:117
+msgctxt "balance"
+msgid "Maximum"
+msgstr "अधिकतम"
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:291
+msgid "_Balance:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:294
+msgid "_Fade:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-balance-bar.c:297
+msgid "_Subwoofer:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-channel-bar.c:592
+msgctxt "volume"
+msgid "100%"
+msgstr "१००%"
+
+#: ../gnome-volume-control/src/gvc-channel-bar.c:596
+msgctxt "volume"
+msgid "Unamplified"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-channel-bar.c:852
+msgid "Mute"
+msgstr "मौन"
+
+#: ../gnome-volume-control/src/gvc-combo-box.c:148
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1494
+msgid "_Profile:"
+msgstr ""
+
+#. translators:
+#. * The device has been disabled
+#: ../gnome-volume-control/src/gvc-mixer-control.c:991
+#: ../sound-theme/gvc-sound-theme-editor.c:896
+#: ../sound-theme/gvc-sound-theme-editor.c:992
+msgid "Disabled"
+msgstr ""
+
+#. translators:
+#. * The number of sound outputs on a particular device
+#: ../gnome-volume-control/src/gvc-mixer-control.c:998
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators:
+#. * The number of sound inputs on a particular device
+#: ../gnome-volume-control/src/gvc-mixer-control.c:1008
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gnome-volume-control/src/gvc-mixer-control.c:1304
+msgid "System Sounds"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:305
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:564
+msgid "Co_nnector:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:510
+msgid "Peak detect"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1423
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1576
+#: ../sound-theme/gvc-sound-theme-chooser.c:865
+msgid "Name"
+msgstr "नाम"
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1428
+msgid "Device"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1650
+msgid "_Output volume: "
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1681
+msgid "Sound Effects"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1688
+msgid "_Alert volume: "
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1701
+msgid "Hardware"
+msgstr "हार्डवेयर"
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1706
+msgid "C_hoose a device to configure:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1733
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1862
+msgid "Settings for the selected device:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1751
+msgid "_Input volume: "
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1774
+msgid "Input level:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1800
+msgid "C_hoose a device for sound input:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1835
+msgid "C_hoose a device for sound output:"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1873
+msgid "Applications"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:1877
+msgid "No application is currently playing or recording audio."
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-mixer-dialog.c:2001
+#: ../sound-theme/gvc-sound-theme-chooser.c:730
+#: ../sound-theme/gvc-sound-theme-chooser.c:742
+#: ../sound-theme/gvc-sound-theme-chooser.c:754
+#: ../sound-theme/gvc-sound-theme-editor.c:561
+#: ../sound-theme/gvc-sound-theme-editor.c:950
+msgid "Sound Preferences"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-stream-status-icon.c:232
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-stream-status-icon.c:255
+msgid "_Mute"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-stream-status-icon.c:264
+msgid "_Sound Preferences"
+msgstr ""
+
+#: ../gnome-volume-control/src/gvc-stream-status-icon.c:448
+msgid "Muted"
+msgstr ""
+
+#: ../grecord/gnome-sound-recorder.desktop.in.in.h:1
+msgid "Record sound clips"
+msgstr "ध्वनि क्लिप रेकर्ड गर्नुहोस्"
+
+#: ../grecord/gnome-sound-recorder.desktop.in.in.h:2
+#: ../grecord/src/gsr-window.c:1240
+msgid "Sound Recorder"
+msgstr "ध्वनि रेकर्डर"
+
+#. Translator comment: default trackname is 'untitled', which
+#. * has as effect that the user cannot save to this file. The
+#. * 'save' action will open the save-as dialog instead to give
+#. * a proper filename. See gnome-record.c:94.
+#: ../grecord/src/gnome-recorder.c:142 ../grecord/src/gsr-window.c:1743
+#: ../grecord/src/gsr-window.c:2696
+msgid "Untitled"
+msgstr "शीर्षक विहिन"
+
+#: ../grecord/src/gnome-recorder.c:144 ../grecord/src/gsr-window.c:1745
+#, c-format
+msgid "Untitled-%d"
+msgstr "शीर्षक विहिन-%d"
+
+#: ../grecord/src/gsr-window.c:195
+#, c-format
+msgid ""
+"Could not create the GStreamer %s element.\n"
+"Please install the '%s' plug-in from the '%s' module.\n"
+"Verify that the installation is correct by running\n"
+"    gst-inspect-0.10 %s\n"
+"and then restart gnome-sound-recorder."
+msgstr ""
+"GStreamer %s तत्व सिर्जना गर्न सकेन ।\n"
+"कृपया '%s' मोडयुलबाट '%s' प्लगइन स्थापना गर्नुहोस् ।\n"
+"    gst-inspect-0.10 %s\n"
+"चलाएर स्थापना ठीक छ या छैन रुजु गर्नुहोस्\n"
+"र त्यसपछि जिनोम-ध्वनि-रेकर्डर पुन: सुरु गर्नुहोस् ।"
+
+#: ../grecord/src/gsr-window.c:211
+msgid ""
+"Please verify its settings.\n"
+"You may be missing the necessary plug-ins."
+msgstr ""
+"कृपया यसको सेटिङ रुजु गर्नुहोस् ।\n"
+"तपाईँले आवश्यक प्लगइन हराइरहनु भएको हुनसक्छ ।"
+
+#: ../grecord/src/gsr-window.c:296
+#, c-format
+msgid "%ld minute"
+msgid_plural "%ld minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../grecord/src/gsr-window.c:297
+#, c-format
+msgid "%ld hour"
+msgid_plural "%ld hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../grecord/src/gsr-window.c:298
+#, c-format
+msgid "%ld second"
+msgid_plural "%ld seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: the format is "X hours, X minutes and X seconds"
+#: ../grecord/src/gsr-window.c:305
+#, c-format
+msgid "%s, %s and %s"
+msgstr ""
+
+#. Translators: the format is "X hours and X minutes"
+#. Translators: the format is "X minutes and X seconds"
+#: ../grecord/src/gsr-window.c:311 ../grecord/src/gsr-window.c:319
+#: ../grecord/src/gsr-window.c:330
+#, c-format
+msgid "%s and %s"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:373
+msgid "Open a File"
+msgstr "फाइल खोल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:450
+#, c-format
+msgid ""
+"Unable to load file:\n"
+"%s"
+msgstr ""
+"फाइल लोड गर्न अक्षम:\n"
+"%s"
+
+#: ../grecord/src/gsr-window.c:596 ../grecord/src/gsr-window.c:1542
+#: ../grecord/src/gsr-window.c:1802 ../grecord/src/gsr-window.c:2507
+msgid "Ready"
+msgstr "तयार"
+
+#. Add replace button
+#: ../grecord/src/gsr-window.c:649
+msgid "_Replace"
+msgstr "बदल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:666
+#, c-format
+msgid ""
+"A file named \"%s\" already exists. \n"
+"Do you want to replace it with the one you are saving?"
+msgstr ""
+"\"%s\" नाम भएको फाइल पहिले नै अवस्थित छ । \n"
+"तपाईँले यसलाई बचत गर्नुभएको कुनै एकसँग बदल्न चाहनुहुन्छ ?"
+
+#: ../grecord/src/gsr-window.c:714
+#, c-format
+msgid "Could not save the file \"%s\""
+msgstr "फाइल \" %s\" बचत गर्न सकेन"
+
+#: ../grecord/src/gsr-window.c:734
+msgid "Save file as"
+msgstr "यस रूपमा फाइल बचत गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:828
+#, c-format
+msgid "%s is not installed in the path."
+msgstr "यस मार्गमा %s स्थापना गरिएको छैन ।"
+
+#: ../grecord/src/gsr-window.c:837
+#, c-format
+msgid "There was an error starting %s: %s"
+msgstr "%s सुरु गर्दा एउटा त्रुटि भयो: %s"
+
+#: ../grecord/src/gsr-window.c:866
+msgid "Save recording before closing?"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:867
+msgid "Save recording?"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:871
+msgid "Close _without Saving"
+msgstr "बचत नगरी बन्द गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:872
+msgid "Continue _without Saving"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:882
+msgid "Question"
+msgstr "प्रश्न"
+
+#: ../grecord/src/gsr-window.c:989
+#, c-format
+msgid "%s (Has not been saved)"
+msgstr "%s (बचत गरिएको छैन)"
+
+#: ../grecord/src/gsr-window.c:1005
+#, c-format
+msgid "%s (%llu byte)"
+msgid_plural "%s (%llu bytes)"
+msgstr[0] "%s (%llu बाइट)"
+msgstr[1] "%s (%llu बाइट)"
+
+#: ../grecord/src/gsr-window.c:1009
+msgid "Unknown size"
+msgstr "अज्ञात साइज"
+
+#  Attempts to get length ran out.
+#. Attempts to get length ran out.
+#: ../grecord/src/gsr-window.c:1018 ../grecord/src/gsr-window.c:1028
+#: ../grecord/src/gsr-window.c:1044 ../grecord/src/gsr-window.c:1053
+#: ../grecord/src/gsr-window.c:1410
+#: ../gstreamer-properties/gstreamer-properties.c:303
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ../grecord/src/gsr-window.c:1030
+#, c-format
+msgid "%.1f kHz"
+msgstr "%.1f kHz"
+
+#: ../grecord/src/gsr-window.c:1038
+#, c-format
+msgid "%.0f kb/s"
+msgstr "%.0f kb/s"
+
+#: ../grecord/src/gsr-window.c:1041
+#, c-format
+msgid "%.0f kb/s (Estimated)"
+msgstr "%.0f kb/s (अनुमानित)"
+
+#: ../grecord/src/gsr-window.c:1056
+msgid "1 (mono)"
+msgstr "१ (मोनो)"
+
+#: ../grecord/src/gsr-window.c:1059
+msgid "2 (stereo)"
+msgstr "२ (स्टेरियो)"
+
+#: ../grecord/src/gsr-window.c:1086
+#, c-format
+msgid "%s Information"
+msgstr "%s सूचना"
+
+#: ../grecord/src/gsr-window.c:1110 ../grecord/src/gsr-window.c:2419
+msgid "File Information"
+msgstr "फाइल सूचना"
+
+#: ../grecord/src/gsr-window.c:1125
+msgid "Folder:"
+msgstr "फोल्डर:"
+
+#: ../grecord/src/gsr-window.c:1131 ../grecord/src/gsr-window.c:2426
+msgid "Filename:"
+msgstr "फाइल नाम:"
+
+#: ../grecord/src/gsr-window.c:1137
+msgid "File size:"
+msgstr "फाइल साइज:"
+
+#: ../grecord/src/gsr-window.c:1146
+msgid "Audio Information"
+msgstr "अडियो सूचना"
+
+#: ../grecord/src/gsr-window.c:1161
+msgid "File duration:"
+msgstr "फाइल अवधि:"
+
+#: ../grecord/src/gsr-window.c:1167
+msgid "Number of channels:"
+msgstr "च्यानलको सङ्ख्या:"
+
+#: ../grecord/src/gsr-window.c:1173
+msgid "Sample rate:"
+msgstr "नमूना दर:"
+
+#: ../grecord/src/gsr-window.c:1179
+msgid "Bit rate:"
+msgstr "बीट दर:"
+
+#: ../grecord/src/gsr-window.c:1243
+msgid ""
+"A sound recorder for GNOME\n"
+" gnome-multimedia@gnome.org"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:1514
+msgid "Playing..."
+msgstr "चल्दैछ..."
+
+#: ../grecord/src/gsr-window.c:1646
+msgid "GConf audio output"
+msgstr "GConf अडियो निर्गत"
+
+#: ../grecord/src/gsr-window.c:1655 ../gst-mixer/src/misc.c:62
+msgid "Playback"
+msgstr "प्लेब्याक"
+
+#: ../grecord/src/gsr-window.c:1734
+msgid "Recording..."
+msgstr "रेकर्डिङ..."
+
+#: ../grecord/src/gsr-window.c:1824
+msgid "GConf audio recording"
+msgstr "GConf अडियो रेकर्डिङ"
+
+#: ../grecord/src/gsr-window.c:1833
+msgid ""
+"Your audio capture settings are invalid. Please correct them with the "
+"\"Sound Preferences\" under the System-Preferences menu."
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:2005
+msgid "file output"
+msgstr "फाइल निर्गत"
+
+#: ../grecord/src/gsr-window.c:2023
+msgid "level"
+msgstr "स्तर"
+
+#: ../grecord/src/gsr-window.c:2047
+#, c-format
+msgid "Could not parse the '%s' audio profile. "
+msgstr "'%s' अडियो प्रोफाइल पद वर्णन गर्न सकेन । "
+
+#: ../grecord/src/gsr-window.c:2064
+#, c-format
+msgid "Could not capture using the '%s' audio profile. "
+msgstr "'%s' अडियो प्रोफाइल प्रयोग गरेर क्यापचर गर्न सकेन । "
+
+#: ../grecord/src/gsr-window.c:2073
+#, c-format
+msgid "Could not write to a file using the '%s' audio profile. "
+msgstr "'%s' अडियो प्रोफाइल प्रयोग गरेर फाइलमा लेख्न सकेन । "
+
+#. File menu.
+#: ../grecord/src/gsr-window.c:2127
+msgid "_File"
+msgstr "फाइल"
+
+#: ../grecord/src/gsr-window.c:2129
+msgid "Create a new sample"
+msgstr "नयाँ नमूना सिर्जना गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2131
+msgid "Open a file"
+msgstr "फाइल खोल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2133
+msgid "Save the current file"
+msgstr "हालको फाइल बचत गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2135
+msgid "Save the current file with a different name"
+msgstr "फरक नामसँग हालको फाइल बचत गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2136
+msgid "Open Volu_me Control"
+msgstr "भोल्युम नियन्त्रण खोल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2137
+msgid "Open the audio mixer"
+msgstr "अडियो मिश्रक खोल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2139
+msgid "Show information about the current file"
+msgstr "हालको फाइलका बारेमा सूचना देखाउनुहोस्"
+
+#: ../grecord/src/gsr-window.c:2141
+msgid "Close the current file"
+msgstr "हालको फाइल बन्द गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2143
+msgid "Quit the program"
+msgstr "कार्यक्रम अन्त्य गर्नुहोस्"
+
+#. Control menu
+#: ../grecord/src/gsr-window.c:2146
+msgid "_Control"
+msgstr "नियन्त्रण गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2148
+msgid "Record sound"
+msgstr "ध्वनि रेकर्ड गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2150
+msgid "Play sound"
+msgstr "ध्वनि बजाउनुहोस्"
+
+#: ../grecord/src/gsr-window.c:2152
+msgid "Stop sound"
+msgstr "ध्वनि बन्द गर्नुहोस्"
+
+#. Help menu
+#: ../grecord/src/gsr-window.c:2155
+msgid "_Help"
+msgstr "मद्दत"
+
+#: ../grecord/src/gsr-window.c:2156
+msgid "Contents"
+msgstr "सामग्री"
+
+#: ../grecord/src/gsr-window.c:2157
+msgid "Open the manual"
+msgstr "म्यानुअल खोल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2159
+msgid "About this application"
+msgstr "यस अनुप्रयोगका बारेमा"
+
+#: ../grecord/src/gsr-window.c:2281
+msgid "Could not load ui.xml. The program may be not properly installed"
+msgstr "ui.xml लोड गर्न सकेन । कार्यक्रम राम्रोसँग स्थापना नभएको हुनसक्छ"
+
+#: ../grecord/src/gsr-window.c:2308
+msgid "Open"
+msgstr "खोल्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2310
+msgid "Save"
+msgstr "बचत गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2312
+msgid "Save As"
+msgstr "यस रूपमा बचत गर्नुहोस्"
+
+#: ../grecord/src/gsr-window.c:2368
+msgid "Record from _input:"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:2386
+msgid "_Record as:"
+msgstr ""
+
+#: ../grecord/src/gsr-window.c:2433
+msgid "<none>"
+msgstr "<none>"
+
+#: ../grecord/src/gsr-window.c:2447
+msgid "Length:"
+msgstr "लम्बाइ:"
+
+#: ../grecord/src/gsr-window.c:2485
+msgid "Level:"
+msgstr ""
+
+#. Translators: this is the window title, %s is the currently open file's name or Untitled
+#: ../grecord/src/gsr-window.c:2580
+#, c-format
+msgid "%s - Sound Recorder"
+msgstr ""
+
+#: ../gst-mixer/gnome-volume-control.schemas.in.h:1
+msgid "Height of the Window"
+msgstr "सञ्झ्यालको उचाइ"
+
+#: ../gst-mixer/gnome-volume-control.schemas.in.h:2
+msgid "Height of the Window to be displayed"
+msgstr "प्रदर्शित गर्नुपर्ने सञ्झ्यालको उचाइ"
+
+#: ../gst-mixer/gnome-volume-control.schemas.in.h:3
+msgid "Width of the Window"
+msgstr "सञ्झ्यालको चौडाइ"
+
+#: ../gst-mixer/gnome-volume-control.schemas.in.h:4
+msgid "Width of the Window to be displayed"
+msgstr "प्रदर्शित गर्नुपर्ने सञ्झ्यालको चौडाइ"
+
+#: ../gst-mixer/src/element.c:495
+msgid "Sound Theme"
+msgstr ""
+
+#: ../gst-mixer/src/main.c:82
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "अज्ञात %d भोल्युम नियन्त्रण"
+
+#: ../gst-mixer/src/main.c:159
+msgid "No volume control GStreamer plugins and/or devices found."
+msgstr "कुनै भोल्युम नियन्त्रण GStreamer प्लगइन र/वा यन्त्र फेला परेन ।"
+
+#: ../gst-mixer/src/misc.c:64
+msgid "Recording"
+msgstr "रेकर्डिङ"
+
+#: ../gst-mixer/src/misc.c:66
+msgid "Switches"
+msgstr "स्विच"
+
+#: ../gst-mixer/src/misc.c:68
+msgid "Options"
+msgstr "विकल्प"
+
+#. make window look cute
+#: ../gst-mixer/src/preferences.c:107
+msgid "Volume Control Preferences"
+msgstr "भोल्युम नियन्त्रण प्राथमिकता"
+
+#: ../gst-mixer/src/preferences.c:120
+msgid "_Select mixers to be visible:"
+msgstr ""
+
+#: ../gst-mixer/src/track.c:295
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#. mute button
+#: ../gst-mixer/src/track.c:339
+#, c-format
+msgid "Mute/unmute %s"
+msgstr "%s म्युट गर्नुहोस्/म्युट नगर्नुहोस्"
+
+#: ../gst-mixer/src/track.c:356
+#, c-format
+msgid "Track %s: mute"
+msgstr "ट्र्याक %s: म्युट गर्नुहोस्"
+
+#. only the record button here
+#: ../gst-mixer/src/track.c:433
+#, c-format
+msgid "Toggle audio recording from %s"
+msgstr "%s बाट अडियो रेकर्डिङ टगल गर्नुहोस्"
+
+#: ../gst-mixer/src/track.c:449
+#, c-format
+msgid "Track %s: audio recording"
+msgstr "ट्र्याक %s: अडियो रेकर्डिङ"
+
+#: ../gst-mixer/src/track.c:562
+#, c-format
+msgid "%s Option Selection"
+msgstr "%s विकल्प चयन"
+
+#: ../gst-mixer/src/volume.c:108
+#, c-format
+msgid "Track %s"
+msgstr "ट्र्याक %s"
+
+#: ../gst-mixer/src/volume.c:111
+#, c-format
+msgid "Channel %d of track %s"
+msgstr "च्यानल %d को ट्र्याक %s"
+
+#: ../gst-mixer/src/volume.c:114
+#, c-format
+msgid "Track %s, channel %d"
+msgstr "ट्र्याक %s, च्यानल %d"
+
+#: ../gst-mixer/src/volume.c:134
+#, c-format
+msgid "Lock channels for %s together"
+msgstr "%s का लागि च्यानल एकैसाथ ताल्चा लगाउनुहोस्"
+
+#: ../gst-mixer/src/volume.c:152
+#, c-format
+msgid "Track %s: lock channels together"
+msgstr "ट्र्याक %s: च्यानल एकैसाथ ताल्चा लगाउनुहोस्"
+
+#: ../gst-mixer/src/volume.c:197
+msgid "mono"
+msgstr "मोनो"
+
+#: ../gst-mixer/src/volume.c:199
+msgid "left"
+msgstr "बायाँ"
+
+#: ../gst-mixer/src/volume.c:199
+msgid "right"
+msgstr "दायाँ"
+
+#: ../gst-mixer/src/volume.c:202
+msgid "front left"
+msgstr "अगाडि बायाँ"
+
+#: ../gst-mixer/src/volume.c:203
+msgid "front right"
+msgstr "अगाडि दायाँ"
+
+#: ../gst-mixer/src/volume.c:204
+msgid "rear left"
+msgstr "थोरै बायाँ"
+
+#: ../gst-mixer/src/volume.c:205
+msgid "rear right"
+msgstr "थोरै दायाँ"
+
+#: ../gst-mixer/src/volume.c:206
+msgid "front center"
+msgstr "अगाडि बीचमा"
+
+#. Translators: This is the name of a surround sound channel. It
+#. * stands for "Low-Frequency Effects". If you're not sure that
+#. * this has an established and different translation in your
+#. * language, leave it unchanged.
+#: ../gst-mixer/src/volume.c:211
+msgid "LFE"
+msgstr "LFE"
+
+#: ../gst-mixer/src/volume.c:212
+msgid "side left"
+msgstr "बायाँ किनारा"
+
+#: ../gst-mixer/src/volume.c:213
+msgid "side right"
+msgstr "दायाँ किनारा"
+
+#: ../gst-mixer/src/volume.c:214
+msgid "unknown"
+msgstr "अज्ञात"
+
+#. Here, we can actually tell people that this
+#. * is a slider that will change channel X.
+#: ../gst-mixer/src/volume.c:220
+#, c-format
+msgid "Volume of %s channel on %s"
+msgstr "%s मा %s च्यानलको भोल्युम"
+
+#: ../gst-mixer/src/window.c:133
+msgid "A GNOME/GStreamer-based volume control application"
+msgstr "एउटा जिनोम/जिस्ट्रिमरमा आधारित भोल्युम नियन्त्रण अनुप्रयोग"
+
+#: ../gst-mixer/src/window.c:136
+msgid "translator-credits"
+msgstr ""
+"Bishnu Adhikari<bsn_adk@hotmail.com> Shyam krishna "
+"bal<shyamkrishna_bal@yahoo.com> Mahesh Subedi<submanesh@gmail.com>, Nabin "
+"Gautam <nabingautam2001@yahoo.com>"
+
+#. change window title
+#: ../gst-mixer/src/window.c:173
+#, c-format
+msgid "Volume Control: %s"
+msgstr "भोल्युम नियन्त्रण: %s"
+
+#: ../gst-mixer/src/window.c:378
+msgid "_Device: "
+msgstr ""
+
+#. set tooltips
+#: ../gst-mixer/src/window.c:417
+msgid "Control volume on a different device"
+msgstr "फरक यन्त्रमा भोल्युम नियन्त्रण गर्नुहोस्"
+
+#: ../gstreamer-properties/gstreamer-properties.c:206
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#. Element does not support setting devices
+#: ../gstreamer-properties/gstreamer-properties.c:248
+msgid "Unsupported"
+msgstr "असमर्थित"
+
+#: ../gstreamer-properties/gstreamer-properties.c:270
+#: ../sound-theme/gvc-sound-theme-chooser.c:841
+#: ../sound-theme/gvc-sound-theme-editor.c:892
+#: ../sound-theme/gvc-sound-theme-editor.c:996
+msgid "Default"
+msgstr "पूर्वनिर्धारित"
+
+#: ../gstreamer-properties/gstreamer-properties.c:627
+msgid "Failure instantiating main window"
+msgstr "मुख्य सञ्झ्याल दृष्टान्त गर्दा असफल"
+
+#: ../gstreamer-properties/gstreamer-properties.c:680
+msgid "Failed to load UI file; please check your installation."
+msgstr ""
+
+#: ../gstreamer-properties/gstreamer-properties.desktop.in.in.h:1
+msgid "Configure defaults for GStreamer applications"
+msgstr "जिस्ट्रिमर अनुप्रयोगका लागि पूर्वनिर्धारण कन्फिगर गर्नुहोस्"
+
+#: ../gstreamer-properties/gstreamer-properties.desktop.in.in.h:2
+msgid "Multimedia Systems Selector"
+msgstr "मल्टिमिडिया प्रणाली चयनकर्ता"
+
+#: ../gstreamer-properties/pipeline-constants.c:52
+#: ../gstreamer-properties/pipeline-constants.c:86
+msgid "Autodetect"
+msgstr "स्वत: पत्ता लगाउनुहोस्"
+
+#: ../gstreamer-properties/pipeline-constants.c:54
+#: ../gstreamer-properties/pipeline-constants.c:117
+msgid "ALSA - Advanced Linux Sound Architecture"
+msgstr "ALSA - उन्नत लिनक्स ध्वनि संरचना"
+
+#: ../gstreamer-properties/pipeline-constants.c:69
+msgid "Artsd - ART Sound Daemon"
+msgstr "Artsd - ART ध्वनि डेइमोन"
+
+#: ../gstreamer-properties/pipeline-constants.c:71
+#: ../gstreamer-properties/pipeline-constants.c:119
+msgid "ESD - Enlightenment Sound Daemon"
+msgstr "ESD - प्रबोधन ध्वनि डेइमोन"
+
+#: ../gstreamer-properties/pipeline-constants.c:77
+#: ../gstreamer-properties/pipeline-constants.c:126
+msgid "OSS - Open Sound System"
+msgstr "OSS - खुला ध्वनि प्रणाली"
+
+#: ../gstreamer-properties/pipeline-constants.c:79
+#: ../gstreamer-properties/pipeline-constants.c:128
+msgid "PulseAudio Sound Server"
+msgstr "पल्स अडियो साउन्ड सर्भर"
+
+#: ../gstreamer-properties/pipeline-constants.c:81
+#: ../gstreamer-properties/pipeline-constants.c:112
+#: ../gstreamer-properties/pipeline-constants.c:136
+#: ../gstreamer-properties/pipeline-constants.c:151
+#: ../sound-theme/gvc-sound-theme-chooser.c:620
+#: ../sound-theme/gvc-sound-theme-editor.c:706
+#: ../sound-theme/gvc-sound-theme-editor.c:760
+#: ../sound-theme/sound-theme-file-utils.c:292
+msgid "Custom"
+msgstr "अनुकूल"
+
+#: ../gstreamer-properties/pipeline-constants.c:104
+msgid "OpenGL"
+msgstr ""
+
+#: ../gstreamer-properties/pipeline-constants.c:106
+msgid "SDL - Simple DirectMedia Layer"
+msgstr "SDL - सामान्य मिडिया तह"
+
+#: ../gstreamer-properties/pipeline-constants.c:108
+msgid "X Window System (No Xv)"
+msgstr "X विन्डो प्रणाली (No Xv)"
+
+#: ../gstreamer-properties/pipeline-constants.c:110
+msgid "X Window System (X11/XShm/Xv)"
+msgstr "X विन्डो प्रणाली (X11/XShm/Xv)"
+
+#. Note: using triangle instead of sine for test sound so we
+#. * can test the vorbis encoder as well (otherwise it'd compress too well)
+#: ../gstreamer-properties/pipeline-constants.c:132
+msgid "Test Sound"
+msgstr "ध्वनि परीक्षण गर्नुहोस्"
+
+#: ../gstreamer-properties/pipeline-constants.c:134
+msgid "Silence"
+msgstr "मौन"
+
+#: ../gstreamer-properties/pipeline-constants.c:141
+msgid "MJPEG (e.g. Zoran v4l device)"
+msgstr "MJPEG (जस्तै, जोरन v4l यन्त्र)"
+
+#: ../gstreamer-properties/pipeline-constants.c:143
+msgid "QCAM"
+msgstr "QCAM"
+
+#: ../gstreamer-properties/pipeline-constants.c:145
+msgid "Test Input"
+msgstr "आगत परीक्षण"
+
+#: ../gstreamer-properties/pipeline-constants.c:147
+msgid "Video for Linux (v4l)"
+msgstr "लिनक्सका लागि भिडियो (v4l)"
+
+#: ../gstreamer-properties/pipeline-constants.c:149
+msgid "Video for Linux 2 (v4l2)"
+msgstr "लिनक्स २ का लागि भिडियो (v4l2)"
+
+#: ../gstreamer-properties/pipeline-tests.c:176
+#, c-format
+msgid "Failed to construct test pipeline for '%s'"
+msgstr "'%s' का लागि परीक्षण पाइप लाइन निर्माण गर्न असफल"
+
+#: ../profiles/audio-profile-edit.c:122 ../profiles/audio-profiles-edit.c:538
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "मद्दत प्रदर्शन गर्दा एउटा त्रुटि भयो: %s"
+
+#: ../profiles/audio-profile-edit.c:335
+#, c-format
+msgid "Editing profile \"%s\""
+msgstr "\"%s\" प्रोफाइल सम्पादन"
+
+#: ../profiles/audio-profile.c:92
+msgid "<no name>"
+msgstr "<no name>"
+
+#: ../profiles/audio-profile.c:93 ../profiles/audio-profile.c:1002
+msgid "<no description>"
+msgstr "<no description>"
+
+#: ../profiles/audio-profile.c:208
+#, c-format
+msgid "There was an error getting the list of gm_audio profiles. (%s)\n"
+msgstr "gm-अडियो प्रोफाइलको सूची प्राप्त गर्दा एउटा त्रुटि थियो । (%s)\n"
+
+#: ../profiles/audio-profile.c:709
+#, c-format
+msgid ""
+"There was an error subscribing to notification of audio profile list "
+"changes. (%s)\n"
+msgstr ""
+"अडियो प्रोफाइल सूची परिवर्तनको सूचनामा सदस्यता लिदा त्रुटि थियो । (%s)\n"
+
+#: ../profiles/audio-profile.c:912
+#, c-format
+msgid "There was an error forgetting profile path %s. (%s)\n"
+msgstr "प्रोफाइल मार्ग %s बिर्सनाले त्रुटि । (%s)\n"
+
+#: ../profiles/audio-profiles-edit.c:87
+msgid "_Edit"
+msgstr "सम्पादन"
+
+#. the first argument will never be used since we only run for count > 1
+#: ../profiles/audio-profiles-edit.c:465
+#, c-format
+msgid "Delete this profile?\n"
+msgid_plural "Delete these %d profiles?\n"
+msgstr[0] "प्रोफाइल मेट्नुहुन्छ ?\n"
+msgstr[1] "%d प्रोफाइल मेट्नुहुन्छ ?\n"
+
+#: ../profiles/audio-profiles-edit.c:484
+#, c-format
+msgid "Delete profile \"%s\"?"
+msgstr "\"%s\" प्रोफाइल मेट्नुहन्छ ?"
+
+#: ../profiles/audio-profiles-edit.c:506
+msgid "Delete Profile"
+msgstr "प्रोफाइल मेट्नुहोस्"
+
+#: ../profiles/audio-profiles-edit.c:599
+msgid "Edit GNOME Audio Profiles"
+msgstr "जिनोम अडियो प्रोफाइल सम्पादन गर्नुहोस्"
+
+#: ../profiles/audio-profiles-edit.c:648
+msgid "_Profiles:"
+msgstr "प्रोफाइल:"
+
+#: ../profiles/audio-profiles-edit.c:832
+#, c-format
+msgid "You already have a profile called \"%s\""
+msgstr "तपाईँसँग \"%s\" नाम भएको प्रोफाइल पहिले नै छ"
+
+#: ../profiles/audio-profiles-edit.c:857
+#, c-format
+msgid "GConf Error (FIXME): %s\n"
+msgstr "GConf त्रुटि (FIXME): %s\n"
+
+#: ../profiles/gmp-util.c:68
+#, c-format
+msgid ""
+"The file \"%s\" is missing. This indicates that the application is installed "
+"incorrectly, so the dialog can't be displayed."
+msgstr ""
+"\"%s\"फाइल हराइरहेको छ । यसले यो अनुप्रयोग गलत तरिकाले स्थापित गरिएको छ "
+"भन्ने देखाउछ, त्यसैले यस संवादलाई प्रदर्शन गर्न सकिँदैन ।"
+
+#: ../profiles/gnome-audio-profiles-properties.c:54
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+
+#: ../profiles/gnome-audio-profiles.glade2.h:1
+msgid "Edit Audio Profile"
+msgstr "अडियो प्रोफाइल सम्पादन गर्नुहोस्"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:2
+msgid "New Profile"
+msgstr "नयाँ प्रोफाइल"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:3
+msgid "Profile _description:"
+msgstr "प्रोफाइल वर्णन:"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:4
+msgid "_Active?"
+msgstr "सक्रिय पार्नुहुन्छ ?"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:5
+msgid "_Create"
+msgstr "सिर्जना गर्नुहोस्"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:6
+msgid "_File extension:"
+msgstr "फाइल विस्तार:"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:7
+msgid "_GStreamer pipeline:"
+msgstr "जिस्ट्रिमर पाइप लाइन:"
+
+#: ../profiles/gnome-audio-profiles.glade2.h:8
+msgid "_Profile name:"
+msgstr "प्रोफाइल नाम:"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:1
+msgid "A description for the audio profile"
+msgstr "अडियो प्रोफाइलका लागि विवरण"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:2
+msgid ""
+"A description of the profile, containing more information and describing "
+"when to use this profile."
+msgstr ""
+"बढी सूचना र प्रोफाइल कहिले प्रयोग गर्ने वर्णन समाविष्ट, प्रोफाइलको वर्णन ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:3
+msgid ""
+"A filename extension to be used when storing files encoded with this profile."
+msgstr ""
+"यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम "
+"विस्तार ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:4
+msgid "A partial GStreamer pipeline to use for this profile."
+msgstr "यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:5
+msgid "A short name for the audio profile"
+msgstr "अडियो प्रोफाइलका लागि एउटा छोटो नाम"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:6
+msgid ""
+"A short name for the audio profile, to be used in selections and uniquely "
+"identifying the profile."
+msgstr ""
+"प्रोफाइललाई अद्वितिय रूपमा पहिचान गर्न र चयनमा प्रयोग गरिने, अडियो "
+"प्रोफाइलका लागि छोटो नाम ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:7
+msgid "CD Quality, AAC"
+msgstr "सीडी गुणस्तर, AAC"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:8
+msgid "CD Quality, Lossless"
+msgstr "सीडी गुणस्तर, नोक्सान रहित"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:9
+msgid "CD Quality, Lossy"
+msgstr "सीडी गुणस्तर, नोक्सान मुलक"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:10
+msgid "CD Quality, MP2"
+msgstr "सीडी गुणस्तर, MP2"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:11
+msgid "CD Quality, MP3"
+msgstr "सीडी गुणस्तर, MP3"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:12
+msgid ""
+"List of audio recording profiles. The list contains strings naming "
+"subdirectories relative to /system/gstreamer/@GST_MAJORMINOR@/audio/profiles."
+msgstr ""
+"अडियो रेकर्ड गर्ने प्रोफाइलको सूची। यस सूचिले "
+"/system/gstreamer/@GST_MAJORMINOR@/audio/profiles सँग सम्बन्धित उप-"
+"डाइरेक्ट्रीका नाम भएका स्ट्रिङ समावेश गर्दछ ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:13
+msgid "List of profiles"
+msgstr "प्रोफाइलको सूची"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:14
+msgid "The default file extension for this profile"
+msgstr "यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:15
+msgid "The partial GStreamer pipeline used"
+msgstr "प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:16
+msgid ""
+"Used for converting to CD-quality audio, but with a lossless compression "
+"codec. Use this if you later want to edit the file or burn it to CD."
+msgstr ""
+"सीडी-गुणस्तर अडियोमा रुपान्तरण गर्नका लागि, तर कोडेकको नोक्सानरहित "
+"सङ्कुचनसँग प्रयोग गरिन्छ । यदि तपाईँ पछि फाइल सम्पादन गर्न वा सीडीमा बचत "
+"गर्न चाहनुहुन्छ भने यसको प्रयोग गर्नुहोस् ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:17
+msgid ""
+"Used for converting to CD-quality audio, but with a lossy compression codec. "
+"Use this for CD extraction and radio recordings."
+msgstr ""
+"सीडी गुणस्तर अडियोमा रूपान्तरण गर्नका लागि, तर नोक्सान हुने सङ्कुचन कोडेकसँग "
+"प्रयोग गरिन्छ । यसलाई सीडी उद्धरण र रेडियो रेकर्डिङका लागि प्रयोग गर्नुहोस् ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:18
+msgid ""
+"Used for converting to CD-quality audio, but with the lossy AAC codec. Use "
+"this for preparing files for copying to devices that only support the AAC "
+"codec. Note that using this format may be illegal in your jurisdiction; "
+"contact your lawyer for advice."
+msgstr ""
+"सीडी गुणस्तर अडियोमा रुपान्तरण गर्नका लागि, तर हराउन सक्ने AAC कोडेकसँग "
+"प्रयोग गरिन्छ । यसलाई AAC कोडेक मात्र समर्थन गर्ने यन्त्रमा प्रतिलिपि गर्नका "
+"लागि फाइल तयार गर्न प्रयोग गर्नुहोस् । याद गर्नुहोस् यस ढाँचाको प्रयोग गर्नु "
+"तपाईँको अधिकार क्षेत्रमा अवैध हुन्छ; सुझावका लागि तपाईँको वकिललाई सम्पर्क "
+"गर्नुहोस् ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:19
+msgid ""
+"Used for converting to CD-quality audio, but with the lossy MP2 codec. Use "
+"this for preparing files for copying to devices that only support the MP2 "
+"codec. Note that using this format may be illegal in your jurisdiction; "
+"contact your lawyer for advice."
+msgstr ""
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:20
+msgid ""
+"Used for converting to CD-quality audio, but with the lossy MP3 codec. Use "
+"this for preparing files for copying to devices that only support the MP3 "
+"codec. Note that using this format may be illegal in your jurisdiction; "
+"contact your lawyer for advice."
+msgstr ""
+"सीडी गुणस्तर अडियोमा रुपान्तरण गर्नका लागि, तर नोक्सान हुनसक्ने MP3 कोडेकसँग "
+"प्रयोग गरिन्छ । यसलाई MP3 कोडेक मात्र समर्थन गर्ने यन्त्रमा प्रतिलिपि गर्नका "
+"लागि फाइल तयार गर्न प्रयोग गर्नुहोस् । याद गर्नुहोस् यस ढाँचाको प्रयोग गर्नु "
+"तपाईँको अधिकार क्षेत्रमा अवैध हुन्छ; सुझावका लागि तपाईँको वकिलको सम्पर्क "
+"गर्नुहोस् ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:21
+msgid ""
+"Used for converting to lossless voice-quality audio. Use this for recording "
+"and editing speech."
+msgstr ""
+"नोक्सान रहित ध्वनी-गुणस्तर अडियोमा रूपान्तरण गर्न प्रयोग गरिन्छ । यसलाई वाचन "
+"रेकर्ड गर्न वा सम्पादन गर्न प्रयोग गर्नुहोस् ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:22
+msgid ""
+"Used for converting to lossy voice-quality audio. Use this for recording "
+"speech that doesn't need to be edited."
+msgstr ""
+"नोक्सानमुलक ध्वनी-गुणस्तर अडियोमा रूपान्तरण गर्नका लागि प्रयोग गरिन्छ । "
+"सम्पादन गर्नु नपर्ने वाचन रेकर्ड गर्नका लागि यसको प्रयोग गर्नुहोस् ।"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:23
+msgid "Voice, Lossless"
+msgstr "आवाज, नोक्सानरहित"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:24
+msgid "Voice, Lossy"
+msgstr "आवाज, नोक्सानमुलक"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:25
+msgid "Whether or not this profile is to be used"
+msgstr "यस प्रोफाइलको प्रयोग गरिन्छ या गरिदैँन"
+
+#: ../profiles/gnome-audio-profiles.schemas.in.in.h:26
+msgid "Whether or not to use and display this profile."
+msgstr "यस प्रोफाइललाई प्रयोग र प्रदर्शन गर्ने या नगर्ने ।"
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:322
+#: ../sound-theme/gvc-sound-theme-editor.c:523
+msgid "No sounds"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:444
+msgid "Built-in"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:733
+#: ../sound-theme/gvc-sound-theme-chooser.c:744
+#: ../sound-theme/gvc-sound-theme-chooser.c:756
+#: ../sound-theme/gvc-sound-theme-editor.c:563
+#: ../sound-theme/gvc-sound-theme-editor.c:952
+msgid "Testing event sound"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:842
+msgid "From theme"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:872
+msgid "Type"
+msgstr "प्रकार"
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:1085
+msgid "Sound _theme:"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:1093
+msgid "C_hoose an alert sound:"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-chooser.c:1124
+msgid "Enable _window and button sounds"
+msgstr ""
+
+#. Bell
+#: ../sound-theme/gvc-sound-theme-editor.c:76
+msgctxt "Sound event"
+msgid "Alert sound"
+msgstr ""
+
+#. Windows and buttons
+#: ../sound-theme/gvc-sound-theme-editor.c:78
+msgctxt "Sound event"
+msgid "Windows and Buttons"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:79
+msgctxt "Sound event"
+msgid "Button clicked"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:80
+msgctxt "Sound event"
+msgid "Toggle button clicked"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:81
+msgctxt "Sound event"
+msgid "Window maximized"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:82
+msgctxt "Sound event"
+msgid "Window unmaximized"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:83
+msgctxt "Sound event"
+msgid "Window minimised"
+msgstr ""
+
+#. Desktop
+#: ../sound-theme/gvc-sound-theme-editor.c:85
+msgctxt "Sound event"
+msgid "Desktop"
+msgstr "डेस्कटप"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:86
+msgctxt "Sound event"
+msgid "Login"
+msgstr "लगइन"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:87
+msgctxt "Sound event"
+msgid "Logout"
+msgstr "लगआउट"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:88
+msgctxt "Sound event"
+msgid "New e-mail"
+msgstr "नयाँ इ-मेल"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:89
+msgctxt "Sound event"
+msgid "Empty trash"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:90
+msgctxt "Sound event"
+msgid "Long action completed (download, CD burning, etc.)"
+msgstr ""
+
+#. Alerts?
+#: ../sound-theme/gvc-sound-theme-editor.c:92
+msgctxt "Sound event"
+msgid "Alerts"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:93
+msgctxt "Sound event"
+msgid "Information or question"
+msgstr "जानकारी वा प्रश्न"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:94
+msgctxt "Sound event"
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:95
+msgctxt "Sound event"
+msgid "Error"
+msgstr "त्रुटि"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:96
+msgctxt "Sound event"
+msgid "Battery warning"
+msgstr "ब्याट्रि चेतावनी"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:593
+msgid "Select Sound File"
+msgstr "ध्वनि फाइल छान्नुहोस्"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:604
+msgid "Sound files"
+msgstr "ध्वनि फाइलहरु"
+
+#: ../sound-theme/gvc-sound-theme-editor.c:900
+msgid "Custom..."
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:1310
+msgid "Sound Theme:"
+msgstr ""
+
+#: ../sound-theme/gvc-sound-theme-editor.c:1338
+msgid "Enable window and button sounds"
+msgstr ""
+
+#. Translators: This is the name of an audio file that sounds like the bark of a dog.
+#. You might want to translate it into the equivalent words of your language.
+#: ../sound-theme/sounds/gnome-sounds-default.xml.in.in.h:3
+msgid "Bark"
+msgstr ""
+
+#. Translators: This is the name of an audio file that sounds like a water drip.
+#. You might want to translate it into the equivalent words of your language.
+#: ../sound-theme/sounds/gnome-sounds-default.xml.in.in.h:6
+msgid "Drip"
+msgstr ""
+
+#. Translators: This is the name of an audio file that sounds like tapping glass.
+#. You might want to translate it into the equivalent words of your language.
+#: ../sound-theme/sounds/gnome-sounds-default.xml.in.in.h:9
+msgid "Glass"
+msgstr ""
+
+#. Translators: This is the name of an audio file that sounds sort of like a submarine sonar ping.
+#. You might want to translate it into the equivalent words of your language.
+#: ../sound-theme/sounds/gnome-sounds-default.xml.in.in.h:12
+msgid "Sonar"
+msgstr ""

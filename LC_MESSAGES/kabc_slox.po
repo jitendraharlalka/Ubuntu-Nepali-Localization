@@ -1,0 +1,195 @@
+# translation of kabc_slox.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kabc_slox\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2008-10-09 06:31+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 07:22+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kabcresourceslox.cpp:219
+msgid "Downloading contacts"
+msgstr "सम्पर्क डाउनलोड गर्दैछ"
+
+#: kabcresourceslox.cpp:533
+msgid "Uploading contacts"
+msgstr "सम्पर्कमा अनलोड गर्दैछ"
+
+#: kabcresourcesloxconfig.cpp:52
+msgid "URL:"
+msgstr "यूआरएल:"
+
+#: kabcresourcesloxconfig.cpp:58 kcalresourcesloxconfig.cpp:61
+msgid "User:"
+msgstr "प्रयोगकर्ता:"
+
+#: kabcresourcesloxconfig.cpp:64 kcalresourcesloxconfig.cpp:67
+msgid "Password:"
+msgstr "पासवर्ड:"
+
+#. i18n: file: kresources_kabc_slox.kcfg:19
+#. i18n: ectx: label, entry (UseLastSync), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:25
+#. i18n: ectx: label, entry (UseLastSync), group (General)
+#: kabcresourcesloxconfig.cpp:71 kcalresourcesloxconfig.cpp:74 rc.cpp:12
+#: rc.cpp:36
+msgid "Only load data since last sync"
+msgstr "अन्तिम समक्रमण देखिका लगत मात्र लोड गर्दछ"
+
+#: kabcresourcesloxconfig.cpp:75
+msgid "Select Folder..."
+msgstr "फोल्डर चयन गर्नुहोस्..."
+
+#: kcalresourceslox.cpp:178
+#, kde-format
+msgid "Non-http protocol: '%1'"
+msgstr "http विहिन प्रोटोकल: '%1'"
+
+#: kcalresourceslox.cpp:233
+msgid "Downloading events"
+msgstr "घटना डाउनलोड गर्दैछ"
+
+#: kcalresourceslox.cpp:278
+msgid "Downloading to-dos"
+msgstr "गर्नुपर्ने कार्य डाउनलोड गर्दैछ"
+
+#: kcalresourceslox.cpp:396
+msgid "Uploading incidence"
+msgstr "इन्सिडेन्स अनलोड गर्दैछ"
+
+#: kcalresourceslox.cpp:1248
+msgid "Added"
+msgstr "थपिएको"
+
+#: kcalresourceslox.cpp:1249
+msgid "Changed"
+msgstr "परिवर्तित"
+
+#: kcalresourceslox.cpp:1250
+msgid "Deleted"
+msgstr "मटिएको"
+
+#: kcalresourcesloxconfig.cpp:54
+msgid "Download from:"
+msgstr "यसबाट डाउनलोड गर्नुहोस्:"
+
+#: kcalresourcesloxconfig.cpp:78
+msgid "Calendar Folder..."
+msgstr "क्यालेन्डर फोल्डर..."
+
+#: kcalresourcesloxconfig.cpp:82
+msgid "Task Folder..."
+msgstr "कार्य फोल्डर..."
+
+#. i18n: file: kresources_kabc_slox.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#: rc.cpp:3 rc.cpp:21
+msgid "Base Url"
+msgstr "आधार यूआरएल"
+
+#. i18n: file: kresources_kabc_slox.kcfg:13
+#. i18n: ectx: label, entry (User), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:13
+#. i18n: ectx: label, entry (User), group (General)
+#: rc.cpp:6 rc.cpp:24
+msgid "User Name"
+msgstr "प्रयोगकर्ता नाम"
+
+#. i18n: file: kresources_kabc_slox.kcfg:16
+#. i18n: ectx: label, entry (Password), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:16
+#. i18n: ectx: label, entry (Password), group (General)
+#: rc.cpp:9 rc.cpp:27
+msgid "Password"
+msgstr "पासवर्ड"
+
+#. i18n: file: kresources_kabc_slox.kcfg:23
+#. i18n: ectx: label, entry (FolderId), group (General)
+#: rc.cpp:15 sloxfolderdialog.cpp:43
+msgid "Folder ID"
+msgstr "फोल्डर आईडी"
+
+#. i18n: file: kresources_kabc_slox.kcfg:27
+#. i18n: ectx: label, entry (LastSync), group (General)
+#: rc.cpp:18
+msgid "Last Sync"
+msgstr "अन्तिम समक्रमण"
+
+#. i18n: file: kresources_kcal_slox.kcfg:19
+#. i18n: ectx: label, entry (LastEventSync), group (General)
+#: rc.cpp:30
+msgid "Last Event Sync"
+msgstr "अन्तिम घटना समक्रमण"
+
+#. i18n: file: kresources_kcal_slox.kcfg:22
+#. i18n: ectx: label, entry (LastTodoSync), group (General)
+#: rc.cpp:33
+msgid "Last To-do Sync"
+msgstr "अन्त्यमा गर्नुपर्ने कार्यको समक्रमण"
+
+#. i18n: file: kresources_kcal_slox.kcfg:29
+#. i18n: ectx: label, entry (CalendarFolderId), group (General)
+#: rc.cpp:39
+msgid "Calendar Folder"
+msgstr "क्यालेन्डर फोल्डर"
+
+#. i18n: file: kresources_kcal_slox.kcfg:33
+#. i18n: ectx: label, entry (TaskFolderId), group (General)
+#: rc.cpp:42
+msgid "Task Folder"
+msgstr "कार्य फोल्डर"
+
+#: rc.cpp:43
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:44
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#: sloxfolder.cpp:45
+msgid "Global Address Book"
+msgstr ""
+
+#: sloxfolder.cpp:47
+msgid "Internal Address Book"
+msgstr ""
+
+#: sloxfolderdialog.cpp:35
+msgid "Select Folder"
+msgstr "फोल्डर चयन गर्नुहोस्"
+
+#: sloxfolderdialog.cpp:38
+msgid "Reload"
+msgstr "रिलोड गर्नुहोस्"
+
+#: sloxfolderdialog.cpp:42
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: sloxfoldermanager.cpp:163
+msgid "Private Folder"
+msgstr "व्यक्तिगत फोल्डर"
+
+#: sloxfoldermanager.cpp:165
+msgid "Public Folder"
+msgstr "सार्वजनिक फोल्डर"
+
+#: sloxfoldermanager.cpp:167
+msgid "Shared Folder"
+msgstr "साझेदारी फोल्डर"
+
+#: sloxfoldermanager.cpp:169
+msgid "System Folder"
+msgstr "प्रणाली फोल्डर"

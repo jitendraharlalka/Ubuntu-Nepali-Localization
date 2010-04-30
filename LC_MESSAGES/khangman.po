@@ -1,0 +1,781 @@
+# translation of khangman.po to Nepali
+# Mahesh Subedi <submanesh@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: khangman\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 10:11+0000\n"
+"PO-Revision-Date: 2010-04-25 12:09+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:08+0000\n"
+
+#: data.i18n:2
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr ""
+"अनुवादकहरूसँग खेलका शब्दहरू अनुवाद गर्नलाई\n"
+"अवसर छ ।\n"
+"त्यो कसरी गर्ने भन्ने अरू धेरै जानकारीका लागि खाङ्गम्यानको\n"
+"स्रोत डाइरेक्टरी भित्र README.languages फाइल हेर्नुहोस् ।\n"
+"(तपाईँले शव्दहरू अनुवाद गरिसके पछि\n"
+"यो सन्देशलाई \"DONE\" को रूपमा अनुवाद गर्नुहोस्; अन्यथा रिमाइन्डरको रूपमा "
+"यसलाई अनुवाद नगरी छोड्नुहोस्)"
+
+#: khangmanview.cpp:73
+msgid "G&uess"
+msgstr "अनुमान गर्नुहोस्"
+
+#: khangmanview.cpp:77
+msgid "&Play again"
+msgstr "फेरि खेल्नुहोस्"
+
+#: khangmanview.cpp:318
+msgid "Misses"
+msgstr "छुटेको"
+
+#: khangmanview.cpp:347
+msgid "Hint"
+msgstr "सङ्केत"
+
+#: khangmanview.cpp:375
+#, kde-format
+msgid "You lost. The word was \"%1\"."
+msgstr "तपाईँ पराजित हुनुभयो । शब्द \"%1\" थियो ।"
+
+#: khangmanview.cpp:375
+msgid "Congratulations! You won!"
+msgstr "बधाइ छ! तपाईँले जित्नुभयो!"
+
+#: khangmanview.cpp:504
+msgid "This letter has already been guessed."
+msgstr "यो अक्षर पहिल्यै अनुमान गरिएको छ ।"
+
+#: khangmanview.cpp:586
+#, kde-format
+msgid ""
+"File $KDEDIR/share/apps/kvtml/%1/%2 not found.\n"
+"Please check your installation."
+msgstr ""
+"फाइल $KDEDIR/share/apps/kvtml/%1/%2 फेला परेन ।\n"
+"कृपया इन्सटल प्रक्रिया जाँच गर्नुहोस् ।"
+
+#: khangmanview.cpp:590 khangman.cpp:414
+msgid "Error"
+msgstr "त्रुटि"
+
+#: khangmanview.cpp:714
+#, kde-format
+msgid "Wins: %1"
+msgstr "जित्छ: %1"
+
+#: khangmanview.cpp:715 khangman.cpp:532
+#, kde-format
+msgid "Losses: %1"
+msgstr "हार्छ: %1"
+
+#: main.cpp:34
+msgid "Classical hangman game for KDE"
+msgstr "केडीईका लागि उत्तम ह्याङ्म्यान खेल"
+
+#: main.cpp:38
+msgid "KHangMan"
+msgstr "केडीई ह्याङ्म्यान"
+
+#: main.cpp:40
+msgid "(c) 2001-2009, Anne-Marie Mahfouf"
+msgstr ""
+
+#: main.cpp:42
+msgid "Primoz Anzur"
+msgstr "प्रिमोज अन्जुर"
+
+#: main.cpp:42
+msgid "Previous maintainer"
+msgstr "अघिल्लो सम्भारकर्ता"
+
+#: main.cpp:47
+msgid "Anne-Marie Mahfouf"
+msgstr "अन्ने-मेरी महफाउफ"
+
+#: main.cpp:47
+msgid "Current maintainer, author"
+msgstr "हालको सम्भारकर्ता, लेखक"
+
+#: main.cpp:48
+msgid "Stefan Böhmann"
+msgstr "स्टेफन बोहमान"
+
+#: main.cpp:49 main.cpp:94 main.cpp:96 main.cpp:98
+msgid "Coding help"
+msgstr "सङ्केतन मद्दत"
+
+#: main.cpp:50
+msgid "Stefan Asserhäll"
+msgstr "स्टेफन एस्सरहल"
+
+#: main.cpp:51
+msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
+msgstr "स्विडिश डेटा फाइल, सङ्केतन मद्दत, पारदर्शी तस्वीर र i18n समाधान"
+
+#: main.cpp:53
+msgid "eXParTaKus"
+msgstr "एक्सपर टाकुस"
+
+#: main.cpp:54
+msgid "Spanish data files"
+msgstr "स्पेनिस डेटा फाइल"
+
+#: main.cpp:55
+msgid "Erik Kjær Pedersenn"
+msgstr "इरिक कजायर पेडेरसेन"
+
+#: main.cpp:56
+msgid "Danish data files"
+msgstr "डेनिश डेटा फाइल"
+
+#: main.cpp:57
+msgid "Niko Lewman"
+msgstr "निको लेम्यान"
+
+#: main.cpp:58
+msgid "Finnish data files"
+msgstr "फिनिश डेटा फाइल"
+
+#: main.cpp:59
+msgid "João Sebastião de Oliveira Bueno"
+msgstr "जाओ सेबास्टियाओ डे ओलिभेयरा बुयनो"
+
+#: main.cpp:60
+msgid "Brazilian Portuguese data files"
+msgstr "ब्राजिली पुर्चुगिज डेटा फाइल"
+
+#: main.cpp:61
+msgid "Antoni Bella"
+msgstr "एन्टोनी बेल्ला"
+
+#: main.cpp:62
+msgid "Catalan data files"
+msgstr "कातालान डेटा फाइल"
+
+#: main.cpp:63
+msgid "Giovanni Venturi"
+msgstr "जियोभानी भेन्टुरी"
+
+#: main.cpp:64
+msgid "Italian data files"
+msgstr "इटालियन डेटा फाइल"
+
+#: main.cpp:65
+msgid "Rinse"
+msgstr "रिन्ज"
+
+#: main.cpp:66
+msgid "Dutch data files"
+msgstr "डच डेटा फाइल"
+
+#: main.cpp:67
+msgid "Lukáš Tinkl"
+msgstr "लुकास टिङ्गल"
+
+#: main.cpp:68
+msgid "Czech data files"
+msgstr "चेक डेटा फाइल"
+
+#: main.cpp:69
+msgid "Tamas Szanto"
+msgstr "टमास सजान्टो"
+
+#: main.cpp:70
+msgid "Hungarian data files"
+msgstr "हङ्गेरियन डेटा फाइल"
+
+#: main.cpp:71
+msgid "Torger Åge Sinnes"
+msgstr "टोर्गर एज सिन्नेस"
+
+#: main.cpp:72
+msgid "Norwegian (Bokmål) data files"
+msgstr "नर्वेली (Bokmål) डेटा फाइल"
+
+#: main.cpp:73
+msgid "Roger Kovacs"
+msgstr "रोगर कोभाक्स"
+
+#: main.cpp:74
+msgid "Tajik data files"
+msgstr "ताजिक डेटा फाइल"
+
+#: main.cpp:75
+msgid "Chusslove Illich"
+msgstr "चुसस्लोभ इलिच"
+
+#: main.cpp:76
+msgid "Serbian (Cyrillic and Latin) data files"
+msgstr "सर्बियाली (सिरिलिक र ल्याटिन) डेटा फाइल"
+
+#: main.cpp:77
+msgid "Jure Repinc"
+msgstr "जुरे रिपिङ्क"
+
+#: main.cpp:78
+msgid "Slovenian data files"
+msgstr "स्लोभेनियाली डेटा फाइल"
+
+#: main.cpp:79
+msgid "Pedro Morais"
+msgstr "पेड्रो मोराइस"
+
+#: main.cpp:80
+msgid "Portuguese data files"
+msgstr "पोर्चुगाली डेटा फाइल"
+
+#: main.cpp:81
+msgid "Gaute Hvoslef Kvalnes"
+msgstr "गाउटे हभोस्लेफ कभाल्नेस"
+
+#: main.cpp:82
+msgid "Norwegian (Nynorsk) data files"
+msgstr "नर्वेली (Nynorsk) डेटा फाइल"
+
+#: main.cpp:83
+msgid "Mehmet Özel"
+msgstr "मेहमेट ओजेल"
+
+#: main.cpp:84
+msgid "Turkish data files"
+msgstr "टर्किश डेटा फाइल"
+
+#: main.cpp:85
+msgid "Черепанов Андрей"
+msgstr "Черепанов Андрей"
+
+#: main.cpp:86
+msgid "Russian data files"
+msgstr "रसियन डेटा फाइल"
+
+#: main.cpp:87
+msgid "Radostin Radnev"
+msgstr "राडोस्टिन राडनेभ"
+
+#: main.cpp:88
+msgid "Bulgarian data files"
+msgstr "बुल्गेरियाली डेटा फाइल"
+
+#: main.cpp:89
+msgid "Kevin Patrick Scannell"
+msgstr "केभिन प्याट्रिक स्कानेल"
+
+#: main.cpp:90
+msgid "Irish (Gaelic) data files"
+msgstr "आइरिस (गेलिक) डेटा फाइल"
+
+#: main.cpp:91
+msgid "Matt Howe"
+msgstr "माट्ट होवी"
+
+#: main.cpp:92
+msgid "Softer Hangman Pictures"
+msgstr "सफ्टर ह्याङ्म्यान तस्वीर"
+
+#: main.cpp:93
+msgid "Benjamin Meyer"
+msgstr "बेन्जामिन मेयर"
+
+#: main.cpp:95
+msgid "Robert Gogolok"
+msgstr "रोबर्ट गोगोलोक"
+
+#: main.cpp:97
+msgid "Lubos Lunàk"
+msgstr "लुबोस लुनाक"
+
+#: main.cpp:99
+msgid "Albert Astals Cid"
+msgstr "अल्बर्ट एस्टल्स सिड"
+
+#: main.cpp:100
+msgid "Coding help, fixed a lot of things"
+msgstr "सङ्केतन मद्दत, धेरै कुरा स्थिर गरियो"
+
+#: main.cpp:101
+msgid "Peter Hedlund"
+msgstr "पेटर हेडलुन्ड"
+
+#: main.cpp:102
+msgid "Code for generating icons for the characters toolbar"
+msgstr "क्यारेक्टर उपकरणपट्टीका लागि प्रतिमा उत्पन्न गर्न सङ्केत"
+
+#: main.cpp:103
+msgid "Inge Wallin"
+msgstr "इन्ज वालिन"
+
+#: main.cpp:104
+msgid "Code cleaning"
+msgstr "सङ्केत सफाइ"
+
+#: khmtheme.cpp:49
+msgid "Sea Theme"
+msgstr "सामुद्रिक विषयवस्तु"
+
+#: khmtheme.cpp:123
+msgid "Desert Theme"
+msgstr "मरूभूमि विषयवस्तु"
+
+#: khangman.cpp:91
+msgid "Play with a new word"
+msgstr "नयाँ शब्दसँग खेल्नुहोस्"
+
+#: khangman.cpp:94
+msgid "Opens an existing vocabulary document"
+msgstr ""
+
+#: khangman.cpp:97
+msgid "&Show Hint"
+msgstr "सङ्केत देखाउनुहोस्"
+
+#: khangman.cpp:98
+msgid "Show/Hide the hint to help guessing the word"
+msgstr "शब्द अनुमानमा मद्दत गर्नलाई सङ्केत देखाउनुहोस्/लुकाउनुहोस्"
+
+#: khangman.cpp:106
+msgid "&Get Words in New Language..."
+msgstr "नयाँ भाषामा शब्द प्राप्त गर्नुहोस्"
+
+#: khangman.cpp:114
+msgid "&Category"
+msgstr "कोटि"
+
+#: khangman.cpp:117
+msgid "Choose the category"
+msgstr "कोटि रोज्नुहोस्"
+
+#: khangman.cpp:118
+msgid "Choose the category of words"
+msgstr "शब्दहरूको कोटि रोज्नुहोस्"
+
+#: khangman.cpp:121
+msgid "&Language"
+msgstr "भाषा"
+
+#: khangman.cpp:126 khangman.cpp:127
+msgid "Choose the language"
+msgstr "भाषा रोज्नुहोस्"
+
+#: khangman.cpp:132
+msgid "L&ook"
+msgstr "हेर्नुहोस्"
+
+#: khangman.cpp:137 khangman.cpp:138
+msgid "Choose the look and feel"
+msgstr "खोजी छनौट गर्नुहोस् र महशुस गर्नुहोस्"
+
+#: khangman.cpp:238
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: khangman.cpp:338
+msgid "General"
+msgstr "साधारण"
+
+#: khangman.cpp:343
+msgid "Languages"
+msgstr "भाषा"
+
+#. i18n: file: timerui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: khangman.cpp:348 rc.cpp:143 rc.cpp:143
+msgid "Timers"
+msgstr "समय सूचक"
+
+#: khangman.cpp:411
+#, kde-format
+msgid ""
+"File '%1' not found.\n"
+"Please reinstall '%2'. Going back to English."
+msgstr ""
+"'%1' फाइल फेला परेन ।\n"
+"कृपया अङ्ग्रेजीमा पुन: गएर '%2'. पुन: स्थापना गर्नुहोस् ।"
+
+#. i18n: file: languageui.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: khangman.cpp:522 rc.cpp:137 rc.cpp:137
+msgid "Type accented letters"
+msgstr "उच्चारण गरिएको अक्षर टाइप गर्नुहोस्"
+
+#: khangman.cpp:538
+msgid "Open Vocabulary Document"
+msgstr "खुल्ला शब्दावली कागजात"
+
+#: timer.cpp:37 timer.cpp:45
+#, kde-format
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "१ सेकेन्ड"
+msgstr[1] "%1 सेकेन्ड"
+
+#. i18n: file: advanced.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox6)
+#. i18n: file: languageui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: advanced.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox6)
+#. i18n: file: languageui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:3 rc.cpp:127 rc.cpp:3 rc.cpp:127
+msgid "Spanish, Portuguese, Catalan"
+msgstr "स्पेनिश, पोर्चुगाली, कातालान"
+
+#. i18n: file: advanced.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:6 rc.cpp:6
+msgid "Type accented &letters"
+msgstr "उच्चारण गरिएको अक्षर टाइप गर्नुहोस्"
+
+#. i18n: file: advanced.ui:51
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:25
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: advanced.ui:51
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:25
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:9 rc.cpp:130 rc.cpp:9 rc.cpp:130
+msgid ""
+"If this is checked, you have to type accented letters yourself (i.e. they "
+"are differentiated from the corresponding unaccented letter)."
+msgstr ""
+"यदि यो जाँच गरिएको छ भने, तपाईँले उच्चारण चिन्ह लगाइएको अक्षरहरू आफैले टाइप "
+"गर्नुपर्दछ (जस्तै, संगत उच्चारण चिन्ह नलगाइएको अक्षरको आधारमा तिनीहरू फरक "
+"हुन्छ) ।"
+
+#. i18n: file: advanced.ui:55
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:29
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: advanced.ui:55
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:29
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:12 rc.cpp:133 rc.cpp:12 rc.cpp:133
+msgid ""
+"If this is <b>disabled</b>, the selected language does not support it. If "
+"this is <b>enabled</b> and if you check it, then you should type accented "
+"letters on their own. If it is not checked, accented letters will be "
+"displayed with normal letters (default).<br>\n"
+"For example, in Catalan, if this is unchecked and you type \"o\", the o and ò "
+"will be displayed in the word <b>xenofòbia</b>. If this option is checked, "
+"when you type \"o\", only \"o\" will be displayed and you will have to type \"ò\" "
+"for this letter to be displayed."
+msgstr ""
+"यदि यो <b>अक्षम पारिएमा</b>, चयन गरिएको भाषाले यसलाई समर्थन गर्दैन । यदि यो "
+"<b>सक्षम पारिएमा</b> र यदि तपाईँले यसलाई जाँच गर्नुभएमा, त्यसपछि तपाईँले "
+"तिनीहरूको आफ्नैमा उच्चारण चिन्ह लगाइएको अक्षरहरू टाइप गर्नुपर्दछ । यदि यो "
+"जाँच गरिएको छैन भने, उच्चारण चिन्ह लगाइएको अक्षरहरू सामान्य अक्षरहरूमा "
+"प्रदर्शित हुनेछन् (पूर्वनिर्धारित) ।<br>\n"
+"उदाहरणका लागि, कातालानमा, यदि यो जाँच गरिएको छैन र तपाईँले \"o\" टाइप "
+"गर्नुभएमा, o र ò शब्द <b>जेनोफोबिया</b> मा प्रदर्शित हुनेछ । यदि यो विकल्प "
+"जाँच गरिएमा, तपाईँले \"o\", टाइप गर्दा, केबल \"o\" मात्र प्रदर्शित हुनेछ र "
+"तपाईँले यो अक्षर प्रदर्शित गर्नका लागि \"ò\" टाइप गर्नुपर्नेछ ।"
+
+#. i18n: file: advanced.ui:73
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: rc.cpp:16 rc.cpp:16
+msgid "German"
+msgstr "जर्मन"
+
+#. i18n: file: advanced.ui:85
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UpperCase)
+#: rc.cpp:19 rc.cpp:19
+msgid "Play in upper case letters"
+msgstr "ठूला अक्षरमा खेल्नुहोस्"
+
+#. i18n: file: advanced.ui:88
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UpperCase)
+#: rc.cpp:22 rc.cpp:22
+msgid "If checked, the word will be displayed all in upper case letters"
+msgstr "यदि जाँच गरिएमा, शब्द सबै ठूला अक्षरमा प्रदर्शन गरिनेछ"
+
+#. i18n: file: advanced.ui:92
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UpperCase)
+#: rc.cpp:25 rc.cpp:25
+msgid ""
+"If this is checked, the word will be displayed in upper case letters, even "
+"if you enter them in lower case. If this is unchecked (default), the word "
+"will be in lower case.<br>\n"
+"This setting is currently only available for the German language."
+msgstr ""
+"यदि यो जाँच गरिएको छ भने, तपाईँले साना वर्णमा प्रविष्ट गर्नुभए पनि, शब्द "
+"ठूला वर्णमा प्रदर्शित हुनेछ । यदि यो जाँच गरिएको छैन भने (पूर्वनिर्धारित "
+"रूपमा), शब्द सानो वर्णमा हुनेछ । <br>\n"
+"यो सेटिङ हाल जर्मन भाषाका लागि मात्र उपलब्ध छ ।"
+
+#. i18n: file: generalui.ui:14
+#. i18n: ectx: property (toolTip), widget (QWidget, generalui)
+#: rc.cpp:29 rc.cpp:29
+msgid "Here you can choose settings for all languages."
+msgstr "यहाँ तपाईँले सबै भाषाहरूका लागि सेटिङ रोज्न सक्नुहुन्छ ।"
+
+#. i18n: file: generalui.ui:22
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OneLetter)
+#. i18n: file: khangman.kcfg:48
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#. i18n: file: generalui.ui:22
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OneLetter)
+#. i18n: file: khangman.kcfg:48
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#: rc.cpp:32 rc.cpp:75 rc.cpp:32 rc.cpp:75
+msgid ""
+"Check this if you do not want to discover each instance of the same letter."
+msgstr ""
+"यदि तपाईँ एउटै अक्षरको प्रत्येक दृष्टान्त आविष्कार गर्न चाहनुहुन्न भने यसलाई "
+"जाँच गर्नुहोस् ।"
+
+#. i18n: file: generalui.ui:28
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_OneLetter)
+#: rc.cpp:35 rc.cpp:35
+msgid ""
+"If you check this box, only the first letter will be written if the letter "
+"is found in several places in the word. Then you have to rechoose the same "
+"letter, to replace the second instance in the word until there are no more "
+"instances of this letter.\n"
+"For example, the word to guess is \"potato\". If this option is unchecked, "
+"when you try \"o\", the two instances of \"o\" in the word will be discovered at "
+"the same time. If this is checked, you will need to try \"o\" twice.\n"
+"\n"
+"Default is that for one letter typed, all instances of that letter in the "
+"word are discovered."
+msgstr ""
+"यदि तपाईँले यो बाकस जाँच गर्नुभएमा, यो अक्षर शब्दको धेरै स्थानमा फेला "
+"पारिएमा पहिलो अक्षर मात्र लेखिन्छ । त्यसपछि शब्दमा दोस्रो दृष्टान्त "
+"प्रतिस्थापन गर्न त्यहाँ यो अक्षरको अरू धेरै दृष्टान्तहरू नभए सम्म तपाईँले यो "
+"अक्षर पुन: रोज्नु पर्दछ ।\n"
+"उदाहरणका लागि, अनुमान गर्नु पर्ने शब्द \"potato\" छ । यदि यो विकल्प जाँच "
+"गरिएको छैन भने,तपाईँले \"o\" प्रयास गर्दा, शब्दमा \"o\" को दुईवटा दृष्टान्तहरू "
+"उही समयमा देखिनेछ । यदि यो जाँच गरिएमा, तपाईँले \"o\" दुईपटक प्रयास गर्न "
+"आवश्यक हुन्छ ।\n"
+"\n"
+"टाइप गरिएको एउटा अक्षरका लागि त्यो शब्दमा देखिएका सबै दृष्टान्तहरू "
+"पूर्वानिर्धारित हुन्छ ।"
+
+#. i18n: file: generalui.ui:31
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_OneLetter)
+#: rc.cpp:41 rc.cpp:41
+msgid "Require more guesses for duplicate letters"
+msgstr "अक्षर नक्कल गर्नलाई बढी अनुमान आवश्यक हुन्छ"
+
+#. i18n: file: generalui.ui:38
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableAnimations)
+#: rc.cpp:44 rc.cpp:44
+msgid "Enable animations"
+msgstr "एनिमेसनहरू सक्षम पार्नुहोस्"
+
+#. i18n: file: generalui.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Hint)
+#: rc.cpp:47 rc.cpp:47
+msgid "Enable hints globally"
+msgstr ""
+
+#. i18n: file: generalui.ui:52
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:50 rc.cpp:50
+msgid "Sounds"
+msgstr "ध्वनि"
+
+#. i18n: file: generalui.ui:58
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Sound)
+#. i18n: file: khangman.kcfg:56
+#. i18n: ectx: label, entry (Sound), group (General)
+#. i18n: file: generalui.ui:58
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Sound)
+#. i18n: file: khangman.kcfg:56
+#. i18n: ectx: label, entry (Sound), group (General)
+#: rc.cpp:53 rc.cpp:81 rc.cpp:53 rc.cpp:81
+msgid "If checked, sounds will be played for New Game and Win Game"
+msgstr "यदि जाँच गरिएमा, नयाँ खेला र वीन खेलका लागि ध्वनी बजाइनेछ"
+
+#. i18n: file: generalui.ui:62
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Sound)
+#: rc.cpp:56 rc.cpp:56
+msgid ""
+"If this box is checked, you will have some sounds played for each new game "
+"and when you win a game. If this is not checked, there will be no sound in "
+"KHangMan.\n"
+"Default is no sound."
+msgstr ""
+"यदि यो बाकस जाँच गरिएको छ भने, तपाईँले खेल जित्नु हुँदा र प्रत्येक नयाँ "
+"खेलका लागि केही ध्वनीहरू बजाउनुहुनेछ । यदि यो जाँच गरिएको छैन भने, त्यहाँ "
+"KHangMan मा ध्वनी हुने छैन ।\n"
+"पूर्वनिर्धारितमा ध्वनी हुँदैन ।"
+
+#. i18n: file: generalui.ui:65
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Sound)
+#: rc.cpp:60 rc.cpp:60
+msgid "Enable sounds"
+msgstr "ध्वनि सक्षम पार्नुहोस्"
+
+#. i18n: file: khangman.kcfg:10
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
+#: rc.cpp:63 rc.cpp:63
+msgid "Level"
+msgstr "स्तर"
+
+#. i18n: file: khangman.kcfg:17
+#. i18n: ectx: label, entry (ShowCharToolbar), group (Language)
+#: rc.cpp:66 rc.cpp:66
+msgid "Show the characters toolbar"
+msgstr "क्यारेक्टर उपकरणपट्टी देखाउनुहोस्"
+
+#. i18n: file: khangman.kcfg:21
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
+#: rc.cpp:69 rc.cpp:69
+msgid "The language selected by the user"
+msgstr "प्रयोगकर्ताले चयन गरेको भाषा"
+
+#. i18n: file: khangman.kcfg:37
+#. i18n: ectx: label, entry (Mode), group (Look)
+#: rc.cpp:72 rc.cpp:72
+msgid "Background theme"
+msgstr "पृष्ठभूमि विषयवस्तु"
+
+#. i18n: file: khangman.kcfg:52
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
+#: rc.cpp:78 rc.cpp:78
+msgid "Enable Animations"
+msgstr "एनिमेसनहरू सक्षम पार्नुहोस्"
+
+#. i18n: file: khangman.kcfg:61
+#. i18n: ectx: label, entry (Hint), group (General)
+#: rc.cpp:84 rc.cpp:84
+msgid ""
+"If checked, hints will always been displayed. If this is not checked "
+"(default) \n"
+"            hints will be displayed only per word when the user chooses to "
+"show the hint."
+msgstr ""
+
+#. i18n: file: khangman.kcfg:65
+#. i18n: ectx: label, entry (MissedTimer), group (General)
+#. i18n: file: timerui.ui:41
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_MissedTimer)
+#. i18n: file: khangman.kcfg:65
+#. i18n: ectx: label, entry (MissedTimer), group (General)
+#. i18n: file: timerui.ui:41
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_MissedTimer)
+#: rc.cpp:88 rc.cpp:149 rc.cpp:88 rc.cpp:149
+msgid "Time during which the \"Already Guessed\" tooltip is displayed."
+msgstr "\"पहिल्यै अनुमान गरिएको\" टूलटिप प्रदर्शित हुने समयावधि ।"
+
+#. i18n: file: khangman.kcfg:72
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
+#: rc.cpp:91 rc.cpp:91
+msgid "Type accented letters separately from normal letters"
+msgstr "सामान्य अक्षरबाट छुट्याइएका उच्चारण गरिएका अक्षर टाइप गर्नुहोस्"
+
+#. i18n: file: khangman.kcfg:79
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: rc.cpp:94 rc.cpp:94
+msgid "The Providers path for KHangMan"
+msgstr "केडीई ह्याङ्गम्यानका लागि प्रदायकको मार्ग"
+
+#. i18n: file: khangmanui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:106 rc.cpp:106
+msgid "&Game"
+msgstr "खेल"
+
+#. i18n: file: khangmanui.rc:19
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:109 rc.cpp:109
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: khangmanui.rc:30
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:112 rc.cpp:112
+msgid "Main"
+msgstr "मुख्य"
+
+#. i18n: file: khangmanui.rc:38
+#. i18n: ectx: ToolBar (specialCharToolBar)
+#: rc.cpp:115 rc.cpp:115
+msgid "Special Characters"
+msgstr "विशेष क्यारेक्टर"
+
+#. i18n: file: khangmanui.rc:41
+#. i18n: ectx: ToolBar (themeToolBar)
+#: rc.cpp:118 rc.cpp:118
+msgid "Look"
+msgstr ""
+
+#. i18n: file: khangmanui.rc:45
+#. i18n: ectx: ToolBar (languageToolBar)
+#: rc.cpp:121 rc.cpp:121
+msgid "Language"
+msgstr "भाषा"
+
+#. i18n: file: languageui.ui:13
+#. i18n: ectx: property (toolTip), widget (QWidget, languageui)
+#: rc.cpp:124 rc.cpp:124
+msgid "Here you can choose special settings for some languages."
+msgstr "यहाँ तपाईँलाई केही भाषाहरूका लागि विशेष सेटिङहरू रोज्न सक्नुहुन्छ ।"
+
+#. i18n: file: timerui.ui:16
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
+#: rc.cpp:140 rc.cpp:140
+msgid ""
+"Here you can set the display times for hints and the \"Already Guessed\" "
+"tooltip."
+msgstr ""
+"यहाँ तपाईँले सङ्केतहरू र \"पहिल्यै अनुमान गरिएका\" टूलटिप प्रदर्शन समय सेट "
+"गर्न सक्नुहुन्छ ।"
+
+#. i18n: file: timerui.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:146 rc.cpp:146
+msgid "Time for displaying the <b>Already Guessed Letter</b> tooltip:"
+msgstr ""
+
+#. i18n: file: timerui.ui:44
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_MissedTimer)
+#: rc.cpp:152 rc.cpp:152
+msgid ""
+"You can set the time for displaying the \"Already Guessed\" tooltip after you "
+"tried a letter that was already guessed. Default is 1 second but younger "
+"children might need longer time to be able to understand they are trying a "
+"letter that was already guessed."
+msgstr ""
+"तपाईँले पहिल्यै अनुमान गरिएको अक्षर प्रयास गरेपछि \"पहिल्यै अनुमान गरिएको\" "
+"टूलटिप प्रर्दशन गर्नका लागि समय सेट गर्न सक्नुहुन्छ । पूर्वनिर्धारित १ "
+"सेकेन्ड छ तर साना केटाकेटीलाई पहिल्यै अनुमान गरिएको अक्षर बुझ्ने प्रयास गर्न "
+"केही लामो समय आवश्यक पर्न सक्दछ ।"
+
+#: rc.cpp:153 rc.cpp:153
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Mahesh Subedi, श्यामकृष्ण बल, जितेन्द्र हरलालका ,Launchpad "
+"Contributions:,Narayan Kumar Magar"
+
+#: rc.cpp:154 rc.cpp:154
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, shyamkrishna_bal@yahoo.com, jitendra@otrc.gov.np,,"

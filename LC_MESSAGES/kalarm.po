@@ -1,0 +1,5633 @@
+# translation of kalarm.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kalarm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2010-04-20 19:10+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:56+0000\n"
+
+#: latecancel.cpp:37
+msgctxt "@option:check"
+msgid "Cancel if late"
+msgstr "ढिला भयो भने रद्द गर्ने"
+
+#: latecancel.cpp:38
+msgctxt "@option:check"
+msgid "Auto-close window after this time"
+msgstr ""
+
+#: latecancel.cpp:39
+msgctxt "@option:check"
+msgid "Auto-close window after late-cancellation time"
+msgstr ""
+
+#: latecancel.cpp:49
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>If checked, the alarm will be canceled if it cannot be triggered "
+"within the specified period after its scheduled time. Possible reasons for "
+"not triggering include your being logged off, X not running, or "
+"<application>KAlarm</application> not running.</para><para>If unchecked, the "
+"alarm will be triggered at the first opportunity after its scheduled time, "
+"regardless of how late it is.</para>"
+msgstr ""
+
+#: latecancel.cpp:75
+msgctxt "@option:check Cancel if late by 10 minutes"
+msgid "Cancel if late by"
+msgstr ""
+
+#: latecancel.cpp:76
+msgctxt "@info:whatsthis"
+msgid "Enter how late will cause the alarm to be canceled"
+msgstr ""
+
+#: latecancel.cpp:88
+msgctxt "@info:whatsthis"
+msgid ""
+"Automatically close the alarm window after the expiry of the late-"
+"cancellation period"
+msgstr ""
+
+#: templatedlg.cpp:67
+msgctxt "@title:window"
+msgid "Alarm Templates"
+msgstr ""
+
+#: templatedlg.cpp:83 templatelistview.cpp:37
+msgctxt "@info:whatsthis"
+msgid "The list of alarm templates"
+msgstr ""
+
+#: templatedlg.cpp:91
+msgctxt "@action:button"
+msgid "New"
+msgstr "नयाँ"
+
+#: templatedlg.cpp:92
+msgctxt "@action"
+msgid "New"
+msgstr "नयाँ"
+
+#: templatedlg.cpp:95
+msgctxt "@info:whatsthis"
+msgid "Create a new alarm template"
+msgstr "नयाँ अलार्म टेम्पलेट निर्माण गर्नुहोस्"
+
+#: templatedlg.cpp:98 resourceselector.cpp:106
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "सम्पादन..."
+
+#: templatedlg.cpp:100
+msgctxt "@info:whatsthis"
+msgid "Edit the currently highlighted alarm template"
+msgstr ""
+
+#: templatedlg.cpp:103
+msgctxt "@action:button"
+msgid "Copy"
+msgstr ""
+
+#: templatedlg.cpp:105
+msgctxt "@info:whatsthis"
+msgid ""
+"Create a new alarm template based on a copy of the currently highlighted "
+"template"
+msgstr ""
+
+#: templatedlg.cpp:108 recurrenceedit.cpp:360
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "मेटाउनुहोस्"
+
+#: templatedlg.cpp:110
+msgctxt "@info:whatsthis"
+msgid "Delete the currently highlighted alarm template"
+msgstr ""
+
+#: templatedlg.cpp:183
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to delete the selected alarm template?"
+msgid_plural "Do you really want to delete the %1 selected alarm templates?"
+msgstr[0] "के तपाई साँच्चिकै छानिएको अलार्म टेम्पलेट मेटाउन चाहनुहुन्छ?"
+msgstr[1] "के तपाई साँच्चिकै छानिएका %1 अलार्म टेम्पलेटहरु मेटाउन चाहनुहुन्छ?"
+
+#: templatedlg.cpp:185
+msgctxt "@title:window"
+msgid "Delete Alarm Template"
+msgid_plural "Delete Alarm Templates"
+msgstr[0] "अलार्म टेम्पलेट मेटाउनुहोस्"
+msgstr[1] "अलार्म टेम्पलेटहरु मेटाउनुहोस्"
+
+#: templatedlg.cpp:186 mainwindow.cpp:742
+msgctxt "@action:button"
+msgid "&Delete"
+msgstr "मेटाउनुहोस्"
+
+#: reminder.cpp:41
+msgctxt "@option:check"
+msgid "Reminder for first recurrence only"
+msgstr ""
+
+#: reminder.cpp:54
+msgctxt "@option:check"
+msgid "Reminder:"
+msgstr ""
+
+#: reminder.cpp:54
+msgctxt "@label"
+msgid "in advance"
+msgstr ""
+
+#: reminder.cpp:70
+msgctxt "@info:whatsthis"
+msgid ""
+"Display the reminder only before the first time the alarm is scheduled"
+msgstr ""
+
+#: newalarmaction.cpp:46
+msgctxt "@item:inmenu"
+msgid "&Display Alarm Template"
+msgstr ""
+
+#: newalarmaction.cpp:46
+msgctxt "@action"
+msgid "New Display Alarm"
+msgstr ""
+
+#: newalarmaction.cpp:49
+msgctxt "@item:inmenu"
+msgid "&Command Alarm Template"
+msgstr ""
+
+#: newalarmaction.cpp:49
+msgctxt "@action"
+msgid "New Command Alarm"
+msgstr "नयाँ कमान्ड अलार्म"
+
+#: newalarmaction.cpp:52
+msgctxt "@item:inmenu"
+msgid "&Email Alarm Template"
+msgstr "इमेल अलार्म टेम्पलेट"
+
+#: newalarmaction.cpp:52
+msgctxt "@action"
+msgid "New Email Alarm"
+msgstr "नयाँ इमेल अलार्म"
+
+#: newalarmaction.cpp:55
+msgctxt "@item:inmenu"
+msgid "&Audio Alarm Template"
+msgstr ""
+
+#: newalarmaction.cpp:55
+msgctxt "@action"
+msgid "New Audio Alarm"
+msgstr "नयाँ अडियो अलार्म"
+
+#: specialactions.cpp:48
+msgctxt "@action:button"
+msgid "Special Actions..."
+msgstr ""
+
+#: specialactions.cpp:55
+msgctxt "@info:whatsthis"
+msgid "Specify actions to execute before and after the alarm is displayed."
+msgstr ""
+
+#: specialactions.cpp:105
+msgctxt "@title:window"
+msgid "Special Alarm Actions"
+msgstr ""
+
+#: specialactions.cpp:163
+msgctxt "@title:group"
+msgid "Pre-Alarm Action"
+msgstr ""
+
+#: specialactions.cpp:173 specialactions.cpp:199
+msgctxt "@label:textbox"
+msgid "Command:"
+msgstr ""
+
+#: specialactions.cpp:178
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter a shell command to execute before the alarm is "
+"displayed.</para><para>Note that it is executed only when the alarm proper "
+"is displayed, not when a reminder or deferred alarm is "
+"displayed.</para><para><note>KAlarm will wait for the command to complete "
+"before displaying the alarm.</note></para>"
+msgstr ""
+
+#: specialactions.cpp:184
+msgctxt "@option:check"
+msgid "Cancel alarm on error"
+msgstr ""
+
+#: specialactions.cpp:185
+msgctxt "@info:whatsthis"
+msgid ""
+"Cancel the alarm if the pre-alarm command fails, i.e. do not display the "
+"alarm or execute any post-alarm action command."
+msgstr ""
+
+#: specialactions.cpp:189
+msgctxt "@title:group"
+msgid "Post-Alarm Action"
+msgstr ""
+
+#: specialactions.cpp:203
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter a shell command to execute after the alarm window is "
+"closed.</para><para>Note that it is not executed after closing a reminder "
+"window. If you defer the alarm, it is not executed until the alarm is "
+"finally acknowledged or closed.</para>"
+msgstr ""
+
+#: cal/kaeventdata.cpp:2346
+msgctxt "@info/plain Brief form of 'At Login'"
+msgid "Login"
+msgstr "लगइन"
+
+#: cal/kaeventdata.cpp:2346
+msgctxt "@info/plain"
+msgid "At login"
+msgstr ""
+
+#: cal/kaeventdata.cpp:2354 cal/kaeventdata.cpp:2392
+#, kde-format
+msgctxt "@info/plain"
+msgid "1 Minute"
+msgid_plural "%1 Minutes"
+msgstr[0] "१  मिनेट"
+msgstr[1] "%1  मिनेट"
+
+#: cal/kaeventdata.cpp:2356 cal/kaeventdata.cpp:2394
+#, kde-format
+msgctxt "@info/plain"
+msgid "1 Hour"
+msgid_plural "%1 Hours"
+msgstr[0] "१ घण्टा"
+msgstr[1] "%1 घण्टा"
+
+#: cal/kaeventdata.cpp:2360 cal/kaeventdata.cpp:2396
+#, kde-format
+msgctxt "@info/plain Hours and minutes"
+msgid "%1h %2m"
+msgstr "%1h %2m"
+
+#: cal/kaeventdata.cpp:2363 cal/kaeventdata.cpp:2400
+#, kde-format
+msgctxt "@info/plain"
+msgid "1 Day"
+msgid_plural "%1 Days"
+msgstr[0] "१ दिन"
+msgstr[1] "%1 दिन"
+
+#: cal/kaeventdata.cpp:2365 cal/kaeventdata.cpp:2401
+#, kde-format
+msgctxt "@info/plain"
+msgid "1 Week"
+msgid_plural "%1 Weeks"
+msgstr[0] "१ हप्ता"
+msgstr[1] "%1 हप्ता"
+
+#: cal/kaeventdata.cpp:2367
+#, kde-format
+msgctxt "@info/plain"
+msgid "1 Month"
+msgid_plural "%1 Months"
+msgstr[0] "१ महिना"
+msgstr[1] "%1 महिना"
+
+#: cal/kaeventdata.cpp:2369
+#, kde-format
+msgctxt "@info/plain"
+msgid "1 Year"
+msgid_plural "%1 Years"
+msgstr[0] "१ वर्ष"
+msgstr[1] "%1 वर्ष"
+
+#: cal/kaeventdata.cpp:2375
+msgctxt "@info/plain No recurrence"
+msgid "None"
+msgstr ""
+
+#: cal/kaeventdata.cpp:2403
+msgctxt "@info/plain No repetition"
+msgid "None"
+msgstr ""
+
+#: cal/alarmtext.cpp:330
+msgctxt "@info/plain 'From' email address"
+msgid "From:"
+msgstr ""
+
+#: cal/alarmtext.cpp:331
+msgctxt "@info/plain Email addressee"
+msgid "To:"
+msgstr ""
+
+#: cal/alarmtext.cpp:332
+msgctxt "@info/plain Copy-to in email headers"
+msgid "Cc:"
+msgstr ""
+
+#: cal/alarmtext.cpp:333
+msgctxt "@info/plain"
+msgid "Date:"
+msgstr "मिति:"
+
+#: cal/alarmtext.cpp:334
+msgctxt "@info/plain Email subject"
+msgid "Subject:"
+msgstr "विषय:"
+
+#: cal/alarmtext.cpp:336
+msgctxt "@info/plain Todo calendar item's title field"
+msgid "To-do:"
+msgstr ""
+
+#: cal/alarmtext.cpp:337
+msgctxt "@info/plain Todo calendar item's location field"
+msgid "Location:"
+msgstr "स्थान:"
+
+#: cal/alarmtext.cpp:338
+msgctxt "@info/plain Todo calendar item's due date/time"
+msgid "Due:"
+msgstr ""
+
+#: eventlistview.cpp:47
+msgctxt "@info:whatsthis"
+msgid "List of scheduled alarms"
+msgstr ""
+
+#: resources/alarmresources.cpp:133
+msgctxt "@info/plain"
+msgid "Active Alarms"
+msgstr "सक्रिय अलार्महरु"
+
+#: resources/alarmresources.cpp:138
+msgctxt "@info/plain"
+msgid "Alarm Templates"
+msgstr "अलार्म टेम्पलेटहरु"
+
+#: resources/alarmresources.cpp:143
+msgctxt "@info/plain"
+msgid "Archived Alarms"
+msgstr ""
+
+#: resources/alarmresources.cpp:157
+#, kde-format
+msgctxt "@info"
+msgid "%1: invalid calendar file name: <filename>%2</filename>"
+msgstr ""
+
+#: resources/alarmresources.cpp:165
+#, kde-format
+msgctxt "@info"
+msgid "%1: file name not permitted: <filename>%2</filename>"
+msgstr ""
+
+#: resources/resourcewidget.cpp:53
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Calendar <resource>%1</resource> cannot be made writable since it either was "
+"not created by <application>KAlarm</application>, or was created by a newer "
+"version of <application>KAlarm</application>"
+msgstr ""
+
+#: resources/resourcelocaldir.cpp:476
+msgctxt "@info/plain Directory in filesystem"
+msgid "Directory"
+msgstr "डाइरेक्टरी"
+
+#: resources/resourcelocaldirwidget.cpp:39
+#: resources/resourcelocalwidget.cpp:40
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "स्थान:"
+
+#: resources/resourceremotewidget.cpp:42
+msgctxt "@label:textbox"
+msgid "Download from:"
+msgstr ""
+
+#: resources/resourceremotewidget.cpp:48
+msgctxt "@label:textbox"
+msgid "Upload to:"
+msgstr ""
+
+#: resources/resourceremotewidget.cpp:94
+msgctxt "@info"
+msgid ""
+"You have specified no upload URL: the alarm calendar will be read-only."
+msgstr ""
+
+#: resources/resourceremote.cpp:363
+msgctxt "@info/plain"
+msgid "URL"
+msgstr "URL"
+
+#: resources/resourcelocal.cpp:266
+msgctxt "@info/plain"
+msgid "File"
+msgstr "फाइल"
+
+#: resources/alarmresource.cpp:327
+msgctxt "@info/plain"
+msgid "Active alarms"
+msgstr "सक्रिय अलार्महरु"
+
+#: resources/alarmresource.cpp:328
+msgctxt "@info/plain"
+msgid "Archived alarms"
+msgstr ""
+
+#: resources/alarmresource.cpp:329
+msgctxt "@info/plain"
+msgid "Alarm templates"
+msgstr "अलार्म टेम्पलेटहरु"
+
+#: resources/alarmresource.cpp:332 resourcemodelview.cpp:114
+msgctxt "@info/plain"
+msgid "Read-only"
+msgstr ""
+
+#: resources/alarmresource.cpp:332
+msgctxt "@info/plain"
+msgid "Read-write"
+msgstr ""
+
+#: resources/alarmresource.cpp:333
+msgctxt "@info/plain"
+msgid "Enabled"
+msgstr ""
+
+#: resources/alarmresource.cpp:333 resourcemodelview.cpp:113
+msgctxt "@info/plain"
+msgid "Disabled"
+msgstr ""
+
+#: resources/alarmresource.cpp:334
+msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
+msgid "Yes"
+msgstr "हो"
+
+#: resources/alarmresource.cpp:334
+msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
+msgid "No"
+msgstr "होइन"
+
+#: resources/alarmresource.cpp:336
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<title>%1</title><para>Calendar type: %2<nl/>Contents: %3<nl/>%4: <filename>"
+"%5</filename><nl/>Permissions: %6<nl/>Status: %7<nl/>Default calendar: %"
+"8</para>"
+msgstr ""
+
+#: resources/resourcelocalwidget.cpp:43 alarmcalendar.cpp:569
+#: alarmcalendar.cpp:714
+msgctxt "@info/plain"
+msgid "Calendar Files"
+msgstr ""
+
+#: eventlistmodel.cpp:307
+msgctxt "@info:tooltip"
+msgid "Command execution failed"
+msgstr ""
+
+#: eventlistmodel.cpp:309
+msgctxt "@info:tooltip"
+msgid "Pre-alarm action execution failed"
+msgstr ""
+
+#: eventlistmodel.cpp:311
+msgctxt "@info:tooltip"
+msgid "Post-alarm action execution failed"
+msgstr ""
+
+#: eventlistmodel.cpp:313
+msgctxt "@info:tooltip"
+msgid "Pre- and post-alarm action execution failed"
+msgstr ""
+
+#: eventlistmodel.cpp:357
+msgctxt "@title:column"
+msgid "Time"
+msgstr "समय"
+
+#: eventlistmodel.cpp:359
+msgctxt "@title:column"
+msgid "Time To"
+msgstr ""
+
+#: eventlistmodel.cpp:361
+msgctxt "@title:column"
+msgid "Repeat"
+msgstr ""
+
+#: eventlistmodel.cpp:367
+msgctxt "@title:column"
+msgid "Message, File or Command"
+msgstr ""
+
+#: eventlistmodel.cpp:369
+msgctxt "@title:column Template name"
+msgid "Name"
+msgstr "नाम"
+
+#: eventlistmodel.cpp:825 eventlistmodel.cpp:863
+msgctxt "@info/plain Alarm never occurs"
+msgid "Never"
+msgstr "कहिले पनि होइन"
+
+#: eventlistmodel.cpp:869
+#, kde-format, no-c-format
+msgctxt "@info/plain n days"
+msgid "%1d"
+msgstr "%1d"
+
+#: eventlistmodel.cpp:878
+#, kde-format
+msgctxt "@info/plain hours:minutes"
+msgid "%1:%2"
+msgstr "%1:%2"
+
+#: eventlistmodel.cpp:881
+#, kde-format
+msgctxt "@info/plain days hours:minutes"
+msgid "%1d %2:%3"
+msgstr "%1d %2:%3"
+
+#: eventlistmodel.cpp:965
+msgctxt "@info:whatsthis"
+msgid "Next scheduled date and time of the alarm"
+msgstr ""
+
+#: eventlistmodel.cpp:967
+msgctxt "@info:whatsthis"
+msgid "How long until the next scheduled trigger of the alarm"
+msgstr ""
+
+#: eventlistmodel.cpp:969
+msgctxt "@info:whatsthis"
+msgid "How often the alarm recurs"
+msgstr ""
+
+#: eventlistmodel.cpp:971
+msgctxt "@info:whatsthis"
+msgid "Background color of alarm message"
+msgstr ""
+
+#: eventlistmodel.cpp:973
+msgctxt "@info:whatsthis"
+msgid "Alarm type (message, file, command or email)"
+msgstr ""
+
+#: eventlistmodel.cpp:975
+msgctxt "@info:whatsthis"
+msgid ""
+"Alarm message text, URL of text file to display, command to execute, or "
+"email subject line"
+msgstr ""
+
+#: eventlistmodel.cpp:977
+msgctxt "@info:whatsthis"
+msgid "Name of the alarm template"
+msgstr "अलार्म टेम्पलेटको नाम"
+
+#: soundpicker.cpp:49
+msgctxt "@label:listbox Listbox providing audio options"
+msgid "Sound:"
+msgstr ""
+
+#: soundpicker.cpp:50
+msgctxt "@item:inlistbox No sound"
+msgid "None"
+msgstr ""
+
+#: soundpicker.cpp:51
+msgctxt "@item:inlistbox"
+msgid "Beep"
+msgstr ""
+
+#: soundpicker.cpp:52
+msgctxt "@item:inlistbox"
+msgid "Speak"
+msgstr "बोल्नुहोस्"
+
+#: soundpicker.cpp:53
+msgctxt "@item:inlistbox"
+msgid "Sound file"
+msgstr ""
+
+#: soundpicker.cpp:97
+msgctxt "@info:tooltip"
+msgid "Configure sound file"
+msgstr ""
+
+#: soundpicker.cpp:98
+msgctxt "@info:whatsthis"
+msgid "Configure a sound file to play when the alarm is displayed."
+msgstr ""
+
+#: soundpicker.cpp:131
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<interface>%1</interface>: the message is displayed silently."
+msgstr ""
+
+#: soundpicker.cpp:132
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<interface>%1</interface>: a simple beep is sounded."
+msgstr ""
+
+#: soundpicker.cpp:133
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<interface>%1</interface>: an audio file is played. You will be prompted to "
+"choose the file and set play options."
+msgstr ""
+
+#: soundpicker.cpp:137
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<interface>%1</interface>: the message text is spoken."
+msgstr ""
+
+#: soundpicker.cpp:139
+#, kde-format
+msgctxt "@info:whatsthis Combination of multiple whatsthis items"
+msgid ""
+"<para>Choose a sound to play when the message is "
+"displayed:<list><item>%1</item><item>%2</item><item>%3</item><item>%4</item><"
+"/list></para>"
+msgstr ""
+
+#: soundpicker.cpp:147
+#, kde-format
+msgctxt "@info:whatsthis Combination of multiple whatsthis items"
+msgid ""
+"<para>Choose a sound to play when the message is "
+"displayed:<list><item>%1</item><item>%2</item><item>%3</item></list></para>"
+msgstr ""
+
+#: soundpicker.cpp:265
+msgctxt "@title:window"
+msgid "Sound File"
+msgstr ""
+
+#: soundpicker.cpp:329
+msgctxt "@title:window"
+msgid "Choose Sound File"
+msgstr ""
+
+#: sounddlg.cpp:52
+msgctxt "@option:check"
+msgid "Repeat"
+msgstr "दोहोर्याउनुहोस्"
+
+#: sounddlg.cpp:146
+msgctxt "@label"
+msgid "Sound file:"
+msgstr ""
+
+#: sounddlg.cpp:160 sounddlg.cpp:415
+msgctxt "@info:tooltip"
+msgid "Test the sound"
+msgstr ""
+
+#: sounddlg.cpp:161 sounddlg.cpp:416
+msgctxt "@info:whatsthis"
+msgid "Play the selected sound file."
+msgstr ""
+
+#: sounddlg.cpp:167
+msgctxt "@info:whatsthis"
+msgid "Enter the name or URL of a sound file to play."
+msgstr ""
+
+#: sounddlg.cpp:178 editdlgtypes.cpp:188 editdlgtypes.cpp:781
+msgctxt "@info:tooltip"
+msgid "Choose a file"
+msgstr "फाइल रोज्नुहोस्"
+
+#: sounddlg.cpp:179
+msgctxt "@info:whatsthis"
+msgid "Select a sound file to play."
+msgstr ""
+
+#: sounddlg.cpp:193
+msgctxt "@info:whatsthis"
+msgid ""
+"If checked, the sound file will be played repeatedly for as long as the "
+"message is displayed."
+msgstr ""
+
+#: sounddlg.cpp:199
+msgctxt "@title:group Sound volume"
+msgid "Volume"
+msgstr "भोल्युम"
+
+#: sounddlg.cpp:214
+msgctxt "@option:check"
+msgid "Set volume"
+msgstr ""
+
+#: sounddlg.cpp:217
+msgctxt "@info:whatsthis"
+msgid "Select to choose the volume for playing the sound file."
+msgstr ""
+
+#: sounddlg.cpp:224
+msgctxt "@info:whatsthis"
+msgid "Choose the volume for playing the sound file."
+msgstr ""
+
+#: sounddlg.cpp:229
+msgctxt "@option:check"
+msgid "Fade"
+msgstr ""
+
+#: sounddlg.cpp:232
+msgctxt "@info:whatsthis"
+msgid "Select to fade the volume when the sound file first starts to play."
+msgstr ""
+
+#: sounddlg.cpp:240
+msgctxt "@label:spinbox Time period over which to fade the sound"
+msgid "Fade time:"
+msgstr ""
+
+#: sounddlg.cpp:247
+msgctxt "@label"
+msgid "seconds"
+msgstr "सेकेन्ड"
+
+#: sounddlg.cpp:249
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter how many seconds to fade the sound before reaching the set volume."
+msgstr ""
+
+#: sounddlg.cpp:256
+msgctxt "@label:slider"
+msgid "Initial volume:"
+msgstr ""
+
+#: sounddlg.cpp:264
+msgctxt "@info:whatsthis"
+msgid "Choose the initial volume for playing the sound file."
+msgstr ""
+
+#: sounddlg.cpp:402 messagewin.cpp:690
+msgctxt "@info:tooltip"
+msgid "Stop sound"
+msgstr ""
+
+#: sounddlg.cpp:403 messagewin.cpp:691
+msgctxt "@info:whatsthis"
+msgid "Stop playing the sound"
+msgstr ""
+
+#: birthdaydlg.cpp:66
+msgctxt "@title:window"
+msgid "Import Birthdays From KAddressBook"
+msgstr ""
+
+#: birthdaydlg.cpp:81
+msgctxt "@info/plain"
+msgid "Birthday: "
+msgstr "जन्मदिन:"
+
+#: birthdaydlg.cpp:84
+msgctxt "@title:group"
+msgid "Alarm Text"
+msgstr "अलार्म पाठ"
+
+#: birthdaydlg.cpp:89 prefdlg.cpp:1623
+msgctxt "@label:textbox"
+msgid "Prefix:"
+msgstr ""
+
+#: birthdaydlg.cpp:97
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter text to appear before the person's name in the alarm message, "
+"including any necessary trailing spaces."
+msgstr ""
+
+#: birthdaydlg.cpp:101
+msgctxt "@label:textbox"
+msgid "Suffix:"
+msgstr ""
+
+#: birthdaydlg.cpp:109
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter text to appear after the person's name in the alarm message, including "
+"any necessary leading spaces."
+msgstr ""
+
+#: birthdaydlg.cpp:113
+msgctxt "@title:group"
+msgid "Select Birthdays"
+msgstr "जन्मदिनहरु छान्नुहोस्"
+
+#: birthdaydlg.cpp:149
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Select birthdays to set alarms for.<nl/>This list shows all birthdays "
+"in <application>KAddressBook</application> except those for which alarms "
+"already exist.</para><para>You can select multiple birthdays at one time by "
+"dragging the mouse over the list, or by clicking the mouse while pressing "
+"Ctrl or Shift.</para>"
+msgstr ""
+
+#: birthdaydlg.cpp:155
+msgctxt "@title:group"
+msgid "Alarm Configuration"
+msgstr "अलार्म कन्फिगरेसन"
+
+#: birthdaydlg.cpp:178
+msgctxt "@info:whatsthis"
+msgid "Check to display a reminder in advance of the birthday."
+msgstr ""
+
+#: birthdaydlg.cpp:179
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the number of days before each birthday to display a reminder. This is "
+"in addition to the alarm which is displayed on the birthday."
+msgstr ""
+
+#: birthdaydlg.cpp:217 recurrenceedit.cpp:176
+msgctxt "@action:button"
+msgid "Sub-Repetition"
+msgstr ""
+
+#: birthdaydlg.cpp:220
+msgctxt "@info:whatsthis"
+msgid "Set up an additional alarm repetition"
+msgstr ""
+
+#: autostart/autostart.cpp:44
+msgid "KAlarm Autostart"
+msgstr ""
+
+#: autostart/autostart.cpp:45
+msgid "KAlarm autostart at login"
+msgstr ""
+
+#: autostart/autostart.cpp:46
+msgid "Copyright 2001,2008 David Jarvie"
+msgstr ""
+
+#: autostart/autostart.cpp:48 main.cpp:41
+msgid "David Jarvie"
+msgstr "डेभिड जार्भे"
+
+#: autostart/autostart.cpp:48
+msgid "Maintainer"
+msgstr "सम्भारकर्ता"
+
+#: autostart/autostart.cpp:53
+msgid "Application to autostart"
+msgstr ""
+
+#: autostart/autostart.cpp:54
+msgid "Command line arguments"
+msgstr ""
+
+#: calendarcompat.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Calendar <resource>%1</resource> is in an old format "
+"(<application>KAlarm</application> version %2), and will be read-only unless "
+"you choose to update it to the current format."
+msgstr ""
+
+#: calendarcompat.cpp:96
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
+"<application>KAlarm</application> format, and will be read-only unless you "
+"choose to update them to the current format."
+msgstr ""
+
+#: calendarcompat.cpp:99
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>%1</para><para><warning>Do not update the calendar if it is shared "
+"with other users who run an older version of "
+"<application>KAlarm</application>. If you do so, they may be unable to use "
+"it any more.</warning></para><para>Do you wish to update the calendar?</para>"
+msgstr ""
+
+#: lib/timeperiod.cpp:37
+msgctxt "@item:inlistbox Time units"
+msgid "minutes"
+msgstr "मिनेट"
+
+#: lib/timeperiod.cpp:38
+msgctxt "@item:inlistbox Time units"
+msgid "hours/minutes"
+msgstr "घन्टा/मिनेट"
+
+#: lib/timeperiod.cpp:39
+msgctxt "@item:inlistbox Time units"
+msgid "days"
+msgstr "दिन"
+
+#: lib/timeperiod.cpp:40
+msgctxt "@item:inlistbox Time units"
+msgid "weeks"
+msgstr "हप्ता"
+
+#: lib/timeedit.cpp:177
+msgctxt "@item:inlistbox Morning, as in 2am"
+msgid "am"
+msgstr ""
+
+#: lib/timeedit.cpp:196
+msgctxt "@item:inlistbox Afternoon, as in 2pm"
+msgid "pm"
+msgstr ""
+
+#: lib/timespinbox.cpp:77
+msgctxt "@info:whatsthis"
+msgid ""
+"Press the Shift key while clicking the spin buttons to adjust the time by a "
+"larger step (6 hours / 5 minutes)."
+msgstr ""
+
+#: lib/dateedit.cpp:65
+#, kde-format
+msgctxt "@info"
+msgid "Date cannot be earlier than %1"
+msgstr ""
+
+#: lib/dateedit.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid "Date cannot be later than %1"
+msgstr ""
+
+#: lib/dateedit.cpp:83
+msgctxt "@info/plain"
+msgid "today"
+msgstr "आज"
+
+#: lib/filedialog.cpp:60
+msgctxt "@option:check"
+msgid "Append to existing file"
+msgstr ""
+
+#: lib/shellprocess.cpp:158
+msgctxt "@info"
+msgid "Failed to execute command (shell access not authorized)"
+msgstr ""
+
+#: lib/shellprocess.cpp:161
+msgctxt "@info"
+msgid "Failed to execute command"
+msgstr ""
+
+#: lib/shellprocess.cpp:163
+msgctxt "@info"
+msgid "Command execution error"
+msgstr ""
+
+#: lib/shellprocess.cpp:166
+#, kde-format
+msgctxt "@info"
+msgid "Command exit code: %1"
+msgstr ""
+
+#: lib/kalocale.cpp:51
+msgctxt "@option Name of the weekday"
+msgid "Monday"
+msgstr "सोमबार"
+
+#: lib/kalocale.cpp:52
+msgctxt "@option Name of the weekday"
+msgid "Tuesday"
+msgstr "मंगलबार"
+
+#: lib/kalocale.cpp:53
+msgctxt "@option Name of the weekday"
+msgid "Wednesday"
+msgstr "बुधबार"
+
+#: lib/kalocale.cpp:54
+msgctxt "@option Name of the weekday"
+msgid "Thursday"
+msgstr "बिहिबार"
+
+#: lib/kalocale.cpp:55
+msgctxt "@option Name of the weekday"
+msgid "Friday"
+msgstr "शुक्रबार"
+
+#: lib/kalocale.cpp:56
+msgctxt "@option Name of the weekday"
+msgid "Saturday"
+msgstr "शनिबार"
+
+#: lib/kalocale.cpp:57
+msgctxt "@option Name of the weekday"
+msgid "Sunday"
+msgstr "आइतबार"
+
+#: resourcemodelview.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4, %5"
+msgstr ""
+
+#: resourcemodelview.cpp:123
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4"
+msgstr ""
+
+#: resourcemodelview.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1<nl/>%2: <filename>%3</filename>"
+msgstr ""
+
+#: resourcemodelview.cpp:416
+msgctxt "@info"
+msgid "You cannot disable your default active alarm calendar."
+msgstr ""
+
+#: resourcemodelview.cpp:425
+msgctxt "@info"
+msgid ""
+"You cannot disable your default archived alarm calendar while expired alarms "
+"are configured to be kept."
+msgstr ""
+
+#: resourcemodelview.cpp:430
+msgctxt "@info"
+msgid "Do you really want to disable your default calendar?"
+msgstr ""
+
+#: kamail.cpp:84
+msgctxt "@info/plain"
+msgid ""
+"A 'From' email address must be configured in order to execute email alarms."
+msgstr ""
+
+#: kamail.cpp:87
+msgctxt ""
+"@info/plain KMail folder name: this should be translated the same as in kmail"
+msgid "sent-mail"
+msgstr ""
+
+#: kamail.cpp:119
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid 'From' email address.<nl/>Email identity <resource>%1</resource> not "
+"found"
+msgstr ""
+
+#: kamail.cpp:125
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid 'From' email address.<nl/>Email identity <resource>%1</resource> has "
+"no email address"
+msgstr ""
+
+#: kamail.cpp:136
+msgctxt "@info"
+msgid ""
+"<para>No 'From' email address is configured (no default email identity "
+"found)</para><para>Please set it in <application>KMail</application> or in "
+"the <application>KAlarm</application> Configuration dialog.</para>"
+msgstr ""
+
+#: kamail.cpp:141
+msgctxt "@info"
+msgid ""
+"<para>No 'From' email address is configured.</para><para>Please set it in "
+"the KDE System Settings or in the <application>KAlarm</application> "
+"Configuration dialog.</para>"
+msgstr ""
+
+#: kamail.cpp:146
+msgctxt "@info"
+msgid ""
+"<para>No 'From' email address is configured.</para><para>Please set it in "
+"the <application>KAlarm</application> Configuration dialog.</para>"
+msgstr ""
+
+#: kamail.cpp:193
+#, kde-format
+msgctxt "@info"
+msgid ""
+"No mail transport configured for email identity <resource>%1</resource>"
+msgstr ""
+
+#: kamail.cpp:202
+msgctxt "@info"
+msgid "Unable to create mail transport job"
+msgstr ""
+
+#: kamail.cpp:254
+msgctxt "@info"
+msgid "Emails may not have been sent"
+msgstr ""
+
+#: kamail.cpp:255
+msgctxt "@info"
+msgid "Program error"
+msgstr "प्रोग्राम त्रुटि"
+
+#: kamail.cpp:335
+msgctxt "@info"
+msgid "Error calling <application>KMail</application>"
+msgstr ""
+
+#: kamail.cpp:420
+#, kde-format
+msgctxt "@info"
+msgid "Error attaching file: <filename>%1</filename>"
+msgstr ""
+
+#: kamail.cpp:425
+#, kde-format
+msgctxt "@info"
+msgid "Attachment not found: <filename>%1</filename>"
+msgstr ""
+
+#: kamail.cpp:500
+msgctxt "@info"
+msgid "An email has been queued to be sent"
+msgstr ""
+
+#: kamail.cpp:663
+msgctxt "@info"
+msgid "Failed to send email"
+msgstr "इमेल पठाउन असफल भयो"
+
+#: kamail.cpp:664
+msgctxt "@info"
+msgid "Error sending email"
+msgstr "इमेल पठाउँदा त्रुटि"
+
+#: kamail.cpp:665
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Error copying sent email to <application>KMail</application> <resource>%"
+"1</resource> folder"
+msgstr ""
+
+#: resourceselector.cpp:73
+msgctxt "@title:group"
+msgid "Calendars"
+msgstr ""
+
+#: resourceselector.cpp:77
+msgctxt "@item:inlistbox"
+msgid "Active Alarms"
+msgstr "सक्रिय अलार्महरु"
+
+#: resourceselector.cpp:78
+msgctxt "@item:inlistbox"
+msgid "Archived Alarms"
+msgstr ""
+
+#: resourceselector.cpp:79
+msgctxt "@item:inlistbox"
+msgid "Alarm Templates"
+msgstr ""
+
+#: resourceselector.cpp:81
+msgctxt "@info:whatsthis"
+msgid "Choose which type of data to show alarm calendars for"
+msgstr ""
+
+#: resourceselector.cpp:95
+msgctxt "@info:whatsthis"
+msgid ""
+"List of available calendars of the selected type. The checked state shows "
+"whether a calendar is enabled (checked) or disabled (unchecked). The default "
+"calendar is shown in bold."
+msgstr ""
+
+#: resourceselector.cpp:105 editdlgtypes.cpp:1123
+msgctxt "@action:button"
+msgid "Add..."
+msgstr "थप्नुहोस्..."
+
+#: resourceselector.cpp:107 editdlgtypes.cpp:1128
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "हटाउनुहोस्"
+
+#: resourceselector.cpp:111
+msgctxt "@info:whatsthis"
+msgid "Edit the highlighted calendar"
+msgstr ""
+
+#: resourceselector.cpp:112
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Remove the highlighted calendar from the list.</para><para>The "
+"calendar itself is left intact, and may subsequently be reinstated in the "
+"list if desired.</para>"
+msgstr ""
+
+#: resourceselector.cpp:138
+msgctxt "@info:tooltip"
+msgid "Add a new active alarm calendar"
+msgstr ""
+
+#: resourceselector.cpp:142
+msgctxt "@info:tooltip"
+msgid "Add a new archived alarm calendar"
+msgstr ""
+
+#: resourceselector.cpp:146
+msgctxt "@info:tooltip"
+msgid "Add a new alarm template calendar"
+msgstr ""
+
+#: resourceselector.cpp:162 resourceconfigdialog.cpp:47
+msgctxt "@title:window"
+msgid "Calendar Configuration"
+msgstr ""
+
+#: resourceselector.cpp:163
+msgctxt "@info"
+msgid "Select storage type of new calendar:"
+msgstr ""
+
+#: resourceselector.cpp:170
+#, kde-format
+msgctxt "@info"
+msgid "Unable to create calendar of type <resource>%1</resource>."
+msgstr ""
+
+#: resourceselector.cpp:173
+#, kde-format
+msgctxt "@info/plain"
+msgid "%1 calendar"
+msgstr ""
+
+#: resourceselector.cpp:218
+msgctxt "@info"
+msgid "You cannot make your default active alarm calendar read-only."
+msgstr ""
+
+#: resourceselector.cpp:225
+msgctxt "@info"
+msgid ""
+"You cannot make your default archived alarm calendar read-only while expired "
+"alarms are configured to be kept."
+msgstr ""
+
+#: resourceselector.cpp:229
+msgctxt "@info"
+msgid "Do you really want to make your default calendar read-only?"
+msgstr ""
+
+#: resourceselector.cpp:252
+msgctxt "@info"
+msgid "You cannot remove your default active alarm calendar."
+msgstr ""
+
+#: resourceselector.cpp:259
+msgctxt "@info"
+msgid ""
+"You cannot remove your default archived alarm calendar while expired alarms "
+"are configured to be kept."
+msgstr ""
+
+#: resourceselector.cpp:264
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove your default calendar (<resource>%1</resource>) "
+"from the list?"
+msgstr ""
+
+#: resourceselector.cpp:265
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove the calendar <resource>%1</resource> from the "
+"list?"
+msgstr ""
+
+#: resourceselector.cpp:297
+msgctxt "@action Reload calendar"
+msgid "Re&load"
+msgstr ""
+
+#: resourceselector.cpp:300
+msgctxt "@action"
+msgid "&Save"
+msgstr ""
+
+#: resourceselector.cpp:303
+msgctxt "@action"
+msgid "Show &Details"
+msgstr ""
+
+#: resourceselector.cpp:306
+msgctxt "@action"
+msgid "Set &Color..."
+msgstr ""
+
+#: resourceselector.cpp:309
+msgctxt "@action"
+msgid "Clear C&olor"
+msgstr ""
+
+#: resourceselector.cpp:312 mainwindow.cpp:462
+msgctxt "@action"
+msgid "&Edit..."
+msgstr ""
+
+#: resourceselector.cpp:315
+msgctxt "@action"
+msgid "&Remove"
+msgstr ""
+
+#: resourceselector.cpp:321
+msgctxt "@action"
+msgid "&Add..."
+msgstr ""
+
+#: resourceselector.cpp:324
+msgctxt "@action"
+msgid "Im&port..."
+msgstr "आयात..."
+
+#: resourceselector.cpp:327 mainwindow.cpp:530
+msgctxt "@action"
+msgid "E&xport..."
+msgstr "निर्यात..."
+
+#: resourceselector.cpp:384
+msgctxt "@action"
+msgid "Use as &Default for Active Alarms"
+msgstr ""
+
+#: resourceselector.cpp:385
+msgctxt "@action"
+msgid "Use as &Default for Archived Alarms"
+msgstr ""
+
+#: resourceselector.cpp:386
+msgctxt "@action"
+msgid "Use as &Default for Alarm Templates"
+msgstr ""
+
+#: find.cpp:127
+msgctxt "@title:group"
+msgid "Alarm Type"
+msgstr "अलार्म प्रकार"
+
+#: find.cpp:135
+msgctxt "@option:check Alarm type"
+msgid "Active"
+msgstr "सक्रिय"
+
+#: find.cpp:137
+msgctxt "@info:whatsthis"
+msgid "Check to include active alarms in the search."
+msgstr ""
+
+#: find.cpp:140
+msgctxt "@option:check Alarm type"
+msgid "Archived"
+msgstr ""
+
+#: find.cpp:142
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to include archived alarms in the search. This option is only "
+"available if archived alarms are currently being displayed."
+msgstr ""
+
+#: find.cpp:150
+msgctxt "@option:check Alarm action = text display"
+msgid "Text"
+msgstr "पाठ"
+
+#: find.cpp:152
+msgctxt "@info:whatsthis"
+msgid "Check to include text message alarms in the search."
+msgstr ""
+
+#: find.cpp:155
+msgctxt "@option:check Alarm action = file display"
+msgid "File"
+msgstr "फाइल"
+
+#: find.cpp:157
+msgctxt "@info:whatsthis"
+msgid "Check to include file alarms in the search."
+msgstr ""
+
+#: find.cpp:160
+msgctxt "@option:check Alarm action"
+msgid "Command"
+msgstr ""
+
+#: find.cpp:162
+msgctxt "@info:whatsthis"
+msgid "Check to include command alarms in the search."
+msgstr ""
+
+#: find.cpp:165
+msgctxt "@option:check Alarm action"
+msgid "Email"
+msgstr "इमेल"
+
+#: find.cpp:167
+msgctxt "@info:whatsthis"
+msgid "Check to include email alarms in the search."
+msgstr ""
+
+#: find.cpp:170
+msgctxt "@option:check Alarm action"
+msgid "Audio"
+msgstr "अडियो"
+
+#: find.cpp:172
+msgctxt "@info:whatsthis"
+msgid "Check to include audio alarms in the search."
+msgstr ""
+
+#: find.cpp:257
+msgctxt "@info"
+msgid "No alarm types are selected to search"
+msgstr "खोजीका लागि कुनै अलार्म प्रकार छानिएका छैनन्"
+
+#: find.cpp:399
+msgctxt "@info"
+msgid ""
+"<para>End of alarm list reached.</para><para>Continue from the "
+"beginning?</para>"
+msgstr ""
+
+#: find.cpp:400
+msgctxt "@info"
+msgid ""
+"<para>Beginning of alarm list reached.</para><para>Continue from the "
+"end?</para>"
+msgstr ""
+
+#: alarmcalendar.cpp:274 alarmcalendar.cpp:600
+#, kde-format
+msgctxt "@info"
+msgid "Cannot download calendar: <filename>%1</filename>"
+msgstr ""
+
+#: alarmcalendar.cpp:289
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Error loading "
+"calendar:</para><para><filename>%1</filename></para><para>Please fix or "
+"delete the file.</para>"
+msgstr ""
+
+#: alarmcalendar.cpp:352
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save calendar to <filename>%1</filename>"
+msgstr ""
+
+#: alarmcalendar.cpp:361
+#, kde-format
+msgctxt "@info"
+msgid "Cannot upload calendar to <filename>%1</filename>"
+msgstr ""
+
+#: alarmcalendar.cpp:591 alarmcalendar.cpp:612
+#, kde-format
+msgctxt "@info"
+msgid "Could not load calendar <filename>%1</filename>."
+msgstr ""
+
+#: alarmcalendar.cpp:715
+msgctxt "@title:window"
+msgid "Choose Export Calendar"
+msgstr ""
+
+#: alarmcalendar.cpp:737
+#, kde-format
+msgctxt "@info"
+msgid "Error loading calendar to append to:<nl/><filename>%1</filename>"
+msgstr ""
+
+#: alarmcalendar.cpp:772
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save new calendar to:<nl/><filename>%1</filename>"
+msgstr ""
+
+#: alarmcalendar.cpp:778
+#, kde-format
+msgctxt "@info"
+msgid "Cannot upload new calendar to:<nl/><filename>%1</filename>"
+msgstr ""
+
+#: main.cpp:37
+msgid "KAlarm"
+msgstr "केडीई संसूचक"
+
+#: main.cpp:38
+msgid "Personal alarm message, command and email scheduler for KDE"
+msgstr "केडीई का लागि व्यक्तिगत संसूचक सन्देश, आदेश र इमेल अनुसूचक"
+
+#: main.cpp:40
+msgid "Copyright 2001-2009, David Jarvie"
+msgstr "प्रतिलिपि अधिकार २००१-२००९, डेविड जार्भी (David Jarvie)"
+
+#: main.cpp:48
+msgid "Prompt for confirmation when alarm is acknowledged"
+msgstr "संसूचक स्वीकृत भएमा तुरुन्त यकीन गर्नुहोस्"
+
+#: main.cpp:50
+msgid "Attach file to email (repeat as needed)"
+msgstr "इमेलमा फाइल सङ्लग्न गर्नुहोस् (आवश्यक भएमा दोहोर्याउनुहोस्)"
+
+#: main.cpp:51
+msgid "Auto-close alarm window after --late-cancel period"
+msgstr "पछिल्लो रद्द अवधि पछि संसूचक सञ्झ्याल स्वत: बन्द गर्नुहोस्"
+
+#: main.cpp:52
+msgid "Blind copy email to self"
+msgstr "आफ्नै स्थानमा गुप्त प्रतिलिपि गर्नुहोस्"
+
+#: main.cpp:54
+msgid "Beep when message is displayed"
+msgstr "सन्देश प्रदर्शित हुदा बिप गर्नुहोस्"
+
+#: main.cpp:57
+msgid "Message background color (name or hex 0xRRGGBB)"
+msgstr "सन्देश पृष्ठभूमि रङ (नाम वा hex 0xRRGGBB)"
+
+#: main.cpp:60
+msgid "Message foreground color (name or hex 0xRRGGBB)"
+msgstr "सन्देश अग्रभूमि रङ (नाम वा hex 0xRRGGBB)"
+
+#: main.cpp:61
+msgid "Cancel alarm with the specified event ID"
+msgstr "निर्दिष्ट गरिएको घटना आईडी मा संसूचक रद्द गर्नुहोस्"
+
+#: main.cpp:63
+msgid "Disable the alarm"
+msgstr "संसूचक अक्षम पार्नुहोस्"
+
+#: main.cpp:65
+msgid "Execute a shell command line"
+msgstr "शेल आदेश लाइन कार्यान्वयन गर्नुहोस्"
+
+#: main.cpp:67
+msgid "Command line to generate alarm message text"
+msgstr ""
+
+#: main.cpp:68
+msgid "Display the alarm edit dialog to edit the specified alarm"
+msgstr ""
+"निर्दिष्ट गरिएको संसूचक सम्पादन गर्न संसूचक सम्पादन संवाद प्रर्दशन गर्नुहोस्"
+
+#: main.cpp:69
+msgid "Display the alarm edit dialog to edit a new display alarm"
+msgstr ""
+
+#: main.cpp:70
+msgid "Display the alarm edit dialog to edit a new command alarm"
+msgstr ""
+
+#: main.cpp:71
+msgid "Display the alarm edit dialog to edit a new email alarm"
+msgstr ""
+
+#: main.cpp:72
+msgid "Display the alarm edit dialog to edit a new audio alarm"
+msgstr ""
+
+#: main.cpp:73
+msgid "Display the alarm edit dialog, preset with a template"
+msgstr "टेम्प्लेटसँग प्रिसेट संसूचक सम्पादन संवाद प्रर्दशन गर्नुहोस्"
+
+#: main.cpp:75
+msgid "File to display"
+msgstr "प्रदर्शन गरिने फाइल"
+
+#: main.cpp:77
+msgid "KMail identity to use as sender of email"
+msgstr "इमेलको प्रेषकका रूपमा प्रयोग गरिने केडीई मेल परिचय"
+
+#: main.cpp:79
+msgid "Interval between alarm repetitions"
+msgstr "संसूचक दोहोर्याई बीचमा अन्तराल"
+
+#: main.cpp:81
+msgid "Show alarm as an event in KOrganizer"
+msgstr "केडीई आयोजकमा घटनाको रूपमा संसूचक देखाउनुहोस्"
+
+#: main.cpp:83
+msgid "Cancel alarm if more than 'period' late when triggered"
+msgstr "ट्रिगर गर्दा 'अवधि' भन्दा धेरै ढीला भएमा संसूचक रद्द गर्नुहोस्"
+
+#: main.cpp:85
+msgid "Repeat alarm at every login"
+msgstr "प्रत्येक लगइनमा संसूचक दोहोर्याउनुहोस्"
+
+#: main.cpp:87
+msgid "Send an email to the given address (repeat as needed)"
+msgstr "दिएको ठेगानामा इमेल पठाउनुहोस् (आवश्यकता अनुसार दोहोर्याउनुहोस्)"
+
+#: main.cpp:89
+msgid "Audio file to play once"
+msgstr "एक पटक प्ले गरिने अडियो फाइल"
+
+#: main.cpp:91
+msgid "Audio file to play repeatedly"
+msgstr "दोहोर्याएर प्ले गरिने अडियो फाइल"
+
+#: main.cpp:92
+msgid "Specify alarm recurrence using iCalendar syntax"
+msgstr ""
+"आई क्यालेन्डर वाक्य संरचना प्रयोग गरेर संसूचक पुनरावृत्ति निर्दिष्ट गर्नुहोस्"
+
+#: main.cpp:94
+msgid "Display reminder in advance of alarm"
+msgstr "संसूचकको अगाडि सचेतक प्रदर्शन गर्नुहोस्"
+
+#: main.cpp:95
+msgid "Display reminder once, before first alarm recurrence"
+msgstr "पहिलो संसूचक पुनरावृत्ति अगाडि, सचेतक एक पटक प्रदर्शन गर्नुहोस्"
+
+#: main.cpp:97
+msgid "Number of times to repeat alarm (including initial occasion)"
+msgstr "संसूचक दोहोरिने समय (सुरुआत घटना समावेश गरेर)"
+
+#: main.cpp:99
+msgid "Speak the message when it is displayed"
+msgstr "सन्देश प्रदर्शित हुदा वाचन गर्नुहोस्"
+
+#: main.cpp:101
+msgid "Email subject line"
+msgstr "इमेल वस्तु लाइन"
+
+#: main.cpp:103
+msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
+msgstr ""
+
+#: main.cpp:106
+msgid ""
+"Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgstr ""
+"संसूचक [[[yyyy-]mm-]dd-]hh:mm [TZ], वा मिति yyyy-mm-dd [TZ] समयमा ट्रिगर "
+"गर्नुहोस्"
+
+#: main.cpp:107
+msgid "Display system tray icon"
+msgstr "प्रणाली ट्रे प्रतिमा प्रदर्शन गर्नुहोस्"
+
+#: main.cpp:108
+msgid "Trigger alarm with the specified event ID"
+msgstr "निर्दिष्ट गरिएको घटना आईडी मा संसूचक ट्रिगर गर्नुहोस्"
+
+#: main.cpp:110
+msgid ""
+"Repeat until time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgstr ""
+"समय [[[yyyy-]mm-]dd-]hh:mm [TZ], वा मिति yyyy-mm-dd [TZ] सम्म दोहोर्याउनुहोस्"
+
+#: main.cpp:112
+msgid "Volume to play audio file"
+msgstr "अडियो फाइल प्ले गर्न भोल्युम"
+
+#: main.cpp:113
+msgid "Message text to display"
+msgstr "प्रदर्शन गरिने सन्देश पाठ"
+
+#: templatepickdlg.cpp:44
+msgctxt "@title:window"
+msgid "Choose Alarm Template"
+msgstr ""
+
+#: templatepickdlg.cpp:65
+msgctxt "@info:whatsthis"
+msgid "Select a template to base the new alarm on."
+msgstr ""
+
+#: akonadi/kalarmresource.cpp:44
+msgctxt "Filedialog filter for *.ics *.ical"
+msgid "KAlarm Calendar File"
+msgstr ""
+
+#: akonadi/kalarmresource.cpp:74
+#, kde-format
+msgid "Event with uid '%1' not found."
+msgstr ""
+
+#: akonadi/kalarmresource.cpp:80 akonadi/kalarmresource.cpp:88
+#, kde-format
+msgid "Event with uid '%1' contains no usable alarms."
+msgstr ""
+
+#: akonadi/kalarmresource.cpp:126
+#, kde-format
+msgid "Item ID %1 differs from payload ID %2."
+msgstr ""
+
+#: undo.cpp:398
+msgctxt "@info/plain"
+msgid "Alarm not found"
+msgstr ""
+
+#: undo.cpp:399
+msgctxt "@info/plain"
+msgid "Error recreating alarm"
+msgstr ""
+
+#: undo.cpp:400
+msgctxt "@info/plain"
+msgid "Error recreating alarm template"
+msgstr ""
+
+#: undo.cpp:401
+msgctxt "@info/plain"
+msgid "Cannot reactivate archived alarm"
+msgstr ""
+
+#: undo.cpp:402
+msgctxt "@info/plain"
+msgid "Program error"
+msgstr ""
+
+#: undo.cpp:403
+msgctxt "@info/plain"
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: undo.cpp:405
+#, kde-format
+msgctxt "@info Undo-action: message"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: undo.cpp:642
+msgctxt "@info/plain Action to create a new alarm"
+msgid "New alarm"
+msgstr ""
+
+#: undo.cpp:644
+msgctxt "@info/plain Action to delete an alarm"
+msgid "Delete alarm"
+msgstr ""
+
+#: undo.cpp:647
+msgctxt "@info/plain Action to create a new alarm template"
+msgid "New template"
+msgstr "नयाँ टेम्पलेट"
+
+#: undo.cpp:649
+msgctxt "@info/plain Action to delete an alarm template"
+msgid "Delete template"
+msgstr "टेम्पलेट मेटाउनुहोस्"
+
+#: undo.cpp:651
+msgctxt "@info/plain"
+msgid "Delete archived alarm"
+msgstr ""
+
+#: undo.cpp:866
+msgctxt "@info/plain"
+msgid "Create multiple alarms"
+msgstr ""
+
+#: undo.cpp:960
+msgctxt "@info/plain Action to edit an alarm"
+msgid "Edit alarm"
+msgstr ""
+
+#: undo.cpp:962
+msgctxt "@info/plain Action to edit an alarm template"
+msgid "Edit template"
+msgstr ""
+
+#: undo.cpp:1125
+msgctxt "@info/plain"
+msgid "Delete multiple alarms"
+msgstr ""
+
+#: undo.cpp:1127
+msgctxt "@info/plain"
+msgid "Delete multiple templates"
+msgstr ""
+
+#: undo.cpp:1134
+msgctxt "@info/plain"
+msgid "Delete multiple archived alarms"
+msgstr ""
+
+#: undo.cpp:1177 undo.cpp:1221
+msgctxt "@info/plain"
+msgid "Reactivate alarm"
+msgstr ""
+
+#: undo.cpp:1244
+msgctxt "@info/plain"
+msgid "Reactivate multiple alarms"
+msgstr ""
+
+#: repetitionbutton.cpp:83
+msgctxt "@title:window"
+msgid "Alarm Sub-Repetition"
+msgstr ""
+
+#: repetitionbutton.cpp:161
+msgctxt "@option:check Repeat every 10 minutes"
+msgid "Repeat every"
+msgstr ""
+
+#: repetitionbutton.cpp:162
+msgctxt "@info:whatsthis"
+msgid ""
+"Instead of the alarm triggering just once at each recurrence, checking this "
+"option makes the alarm trigger multiple times at each recurrence."
+msgstr ""
+
+#: repetitionbutton.cpp:164
+msgctxt "@info:whatsthis"
+msgid "Enter the time between repetitions of the alarm"
+msgstr ""
+
+#: repetitionbutton.cpp:182
+msgctxt "@option:radio"
+msgid "Number of repetitions:"
+msgstr ""
+
+#: repetitionbutton.cpp:184
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to specify the number of times the alarm should repeat after each "
+"recurrence"
+msgstr ""
+
+#: repetitionbutton.cpp:192
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the number of times to trigger the alarm after its initial occurrence"
+msgstr ""
+
+#: repetitionbutton.cpp:200
+msgctxt "@option:radio"
+msgid "Duration:"
+msgstr ""
+
+#: repetitionbutton.cpp:202
+msgctxt "@info:whatsthis"
+msgid "Check to specify how long the alarm is to be repeated"
+msgstr ""
+
+#: repetitionbutton.cpp:208
+msgctxt "@info:whatsthis"
+msgid "Enter the length of time to repeat the alarm"
+msgstr ""
+
+#: traywindow.cpp:80
+msgctxt "@info"
+msgid "Cannot load system tray icon."
+msgstr ""
+
+#: traywindow.cpp:109
+msgctxt "@action"
+msgid "&New Alarm"
+msgstr ""
+
+#: traywindow.cpp:114
+msgctxt "@action"
+msgid "New Alarm From &Template"
+msgstr ""
+
+#: traywindow.cpp:281
+#, kde-format
+msgctxt "@info:tooltip 'KAlarm - disabled'"
+msgid "%1 - disabled"
+msgstr ""
+
+#: traywindow.cpp:283
+#, kde-format
+msgctxt "@info:tooltip Brief: some alarms are disabled"
+msgid "%1<nl/>(Some alarms disabled)%2"
+msgstr ""
+
+#: traywindow.cpp:285
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1%2"
+msgstr ""
+
+#: traywindow.cpp:333
+#, kde-format
+msgctxt "@info/plain prefix + hours:minutes"
+msgid "(%1%2:%3)"
+msgstr ""
+
+#: traywindow.cpp:335
+#, kde-format
+msgctxt "@info/plain prefix + hours:minutes"
+msgid "%1%2:%3"
+msgstr ""
+
+#: fontcolourbutton.cpp:43
+msgctxt "@action:button"
+msgid "Font && Color..."
+msgstr ""
+
+#: fontcolourbutton.cpp:47
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the font, and foreground and background color, for the alarm message."
+msgstr ""
+
+#: fontcolourbutton.cpp:71
+msgctxt "@title:window"
+msgid "Choose Alarm Font & Color"
+msgstr ""
+
+#: editdlgtypes.cpp:83
+msgctxt "@title:window"
+msgid "Choose Log File"
+msgstr ""
+
+#: editdlgtypes.cpp:96
+msgctxt "@option:check"
+msgid "Confirm acknowledgment"
+msgstr ""
+
+#: editdlgtypes.cpp:132
+msgctxt "@title:window"
+msgid "New Display Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:132
+msgctxt "@title:window"
+msgid "Edit Display Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:133
+msgctxt "@title:window"
+msgid "New Display Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:133
+msgctxt "@title:window"
+msgid "Edit Display Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:145
+msgctxt "@label:listbox"
+msgid "Display type:"
+msgstr ""
+
+#: editdlgtypes.cpp:148
+msgctxt "@item:inlistbox"
+msgid "Text message"
+msgstr ""
+
+#: editdlgtypes.cpp:149
+msgctxt "@item:inlistbox"
+msgid "File contents"
+msgstr ""
+
+#: editdlgtypes.cpp:150
+msgctxt "@item:inlistbox"
+msgid "Command output"
+msgstr ""
+
+#: editdlgtypes.cpp:159
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Select what the alarm should "
+"display:<list><item><interface>%1</interface>: the alarm will display the "
+"text message you type in.</item><item><interface>%2</interface>: the alarm "
+"will display the contents of a text or image "
+"file.</item><item><interface>%3</interface>: the alarm will display the "
+"output from a command.</item></list></para>"
+msgstr ""
+
+#: editdlgtypes.cpp:170
+msgctxt "@info:whatsthis"
+msgid "Enter the text of the alarm message. It may be multi-line."
+msgstr ""
+
+#: editdlgtypes.cpp:180
+msgctxt "@info:whatsthis"
+msgid "Enter the name or URL of a text or image file to display."
+msgstr ""
+
+#: editdlgtypes.cpp:189
+msgctxt "@info:whatsthis"
+msgid "Select a text or image file to display."
+msgstr ""
+
+#: editdlgtypes.cpp:237
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter how long in advance of the main alarm to display a reminder alarm."
+msgstr ""
+
+#: editdlgtypes.cpp:238
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to additionally display a reminder in advance of the main alarm "
+"time(s)."
+msgstr ""
+
+#: editdlgtypes.cpp:239
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter how long in advance of the main alarm to display a reminder "
+"alarm.</para><para>%1</para>"
+msgstr ""
+
+#: editdlgtypes.cpp:249
+msgctxt "@info:whatsthis"
+msgid "Check to be prompted for confirmation when you acknowledge the alarm."
+msgstr ""
+
+#: editdlgtypes.cpp:589
+msgctxt "@info:whatsthis"
+msgid "Display the alarm message now"
+msgstr ""
+
+#: editdlgtypes.cpp:600
+msgctxt "@info:whatsthis"
+msgid "Display the file now"
+msgstr ""
+
+#: editdlgtypes.cpp:612
+msgctxt "@info:whatsthis"
+msgid "Display the command output now"
+msgstr ""
+
+#: editdlgtypes.cpp:626
+msgctxt "@title:window"
+msgid "Choose Text or Image File to Display"
+msgstr ""
+
+#: editdlgtypes.cpp:701
+msgctxt "@option:check"
+msgid "Enter a script"
+msgstr ""
+
+#: editdlgtypes.cpp:702
+msgctxt "@option:radio"
+msgid "Execute in terminal window"
+msgstr ""
+
+#: editdlgtypes.cpp:703
+msgctxt "@option:check"
+msgid "Execute in terminal window"
+msgstr ""
+
+#: editdlgtypes.cpp:733
+msgctxt "@title:window"
+msgid "New Command Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:733
+msgctxt "@title:window"
+msgid "Edit Command Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:734
+msgctxt "@title:window"
+msgid "New Command Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:734
+msgctxt "@title:window"
+msgid "Edit Command Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:742
+msgctxt "@info:whatsthis"
+msgid "Execute the specified command now"
+msgstr ""
+
+#: editdlgtypes.cpp:751
+msgctxt "@title:group"
+msgid "Command Output"
+msgstr ""
+
+#: editdlgtypes.cpp:762
+msgctxt "@info:whatsthis"
+msgid "Check to execute the command in a terminal window"
+msgstr ""
+
+#: editdlgtypes.cpp:772
+msgctxt "@info:whatsthis"
+msgid "Enter the name or path of the log file."
+msgstr ""
+
+#: editdlgtypes.cpp:782
+msgctxt "@info:whatsthis"
+msgid "Select a log file."
+msgstr ""
+
+#: editdlgtypes.cpp:785
+msgctxt "@option:radio"
+msgid "Log to file"
+msgstr ""
+
+#: editdlgtypes.cpp:787
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to log the command output to a local file. The output will be appended "
+"to any existing contents of the file."
+msgstr ""
+
+#: editdlgtypes.cpp:794
+msgctxt "@option:radio"
+msgid "Discard"
+msgstr ""
+
+#: editdlgtypes.cpp:796
+msgctxt "@info:whatsthis"
+msgid "Check to discard command output."
+msgstr ""
+
+#: editdlgtypes.cpp:948
+msgctxt "@info"
+msgid ""
+"Log file must be the name or path of a local file, with write permission."
+msgstr ""
+
+#: editdlgtypes.cpp:965
+#, kde-format
+msgctxt "@info"
+msgid "Command executed: <icode>%1</icode>"
+msgstr ""
+
+#: editdlgtypes.cpp:999
+msgctxt "@option:check"
+msgid "Copy email to self"
+msgstr ""
+
+#: editdlgtypes.cpp:1031
+msgctxt "@title:window"
+msgid "New Email Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:1031
+msgctxt "@title:window"
+msgid "Edit Email Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:1032
+msgctxt "@title:window"
+msgid "New Email Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:1032
+msgctxt "@title:window"
+msgid "Edit Email Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:1040
+msgctxt "@info:whatsthis"
+msgid "Send the email to the specified addressees now"
+msgstr ""
+
+#: editdlgtypes.cpp:1051
+msgctxt "@label:listbox 'From' email address"
+msgid "From:"
+msgstr ""
+
+#: editdlgtypes.cpp:1058
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email identity, used to identify you as the sender when sending email "
+"alarms."
+msgstr ""
+
+#: editdlgtypes.cpp:1064
+msgctxt "@label:textbox Email addressee"
+msgid "To:"
+msgstr ""
+
+#: editdlgtypes.cpp:1070
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the addresses of the email recipients. Separate multiple addresses by "
+"commas or semicolons."
+msgstr ""
+
+#: editdlgtypes.cpp:1080
+msgctxt "@info:tooltip"
+msgid "Open address book"
+msgstr ""
+
+#: editdlgtypes.cpp:1081
+msgctxt "@info:whatsthis"
+msgid "Select email addresses from your address book."
+msgstr ""
+
+#: editdlgtypes.cpp:1085
+msgctxt "@label:textbox Email subject"
+msgid "Subject:"
+msgstr ""
+
+#: editdlgtypes.cpp:1092
+msgctxt "@info:whatsthis"
+msgid "Enter the email subject."
+msgstr ""
+
+#: editdlgtypes.cpp:1098
+msgctxt "@info:whatsthis"
+msgid "Enter the email message."
+msgstr ""
+
+#: editdlgtypes.cpp:1106
+msgctxt "@label:listbox"
+msgid "Attachments:"
+msgstr ""
+
+#: editdlgtypes.cpp:1119
+msgctxt "@info:whatsthis"
+msgid "Files to send as attachments to the email."
+msgstr ""
+
+#: editdlgtypes.cpp:1125
+msgctxt "@info:whatsthis"
+msgid "Add an attachment to the email."
+msgstr ""
+
+#: editdlgtypes.cpp:1130
+msgctxt "@info:whatsthis"
+msgid "Remove the highlighted attachment from the email."
+msgstr ""
+
+#: editdlgtypes.cpp:1136
+msgctxt "@info:whatsthis"
+msgid "If checked, the email will be blind copied to you."
+msgstr ""
+
+#: editdlgtypes.cpp:1312
+#, kde-format
+msgctxt "@info"
+msgid "Invalid email address: <email>%1</email>"
+msgstr ""
+
+#: editdlgtypes.cpp:1319
+msgctxt "@info"
+msgid "No email address specified"
+msgstr ""
+
+#: editdlgtypes.cpp:1336
+#, kde-format
+msgctxt "@info"
+msgid "Invalid email attachment: <filename>%1</filename>"
+msgstr ""
+
+#: editdlgtypes.cpp:1340
+msgctxt "@info"
+msgid ""
+"Do you really want to send the email now to the specified recipient(s)?"
+msgstr ""
+
+#: editdlgtypes.cpp:1341
+msgctxt "@action:button"
+msgid "Confirm Email"
+msgstr ""
+
+#: editdlgtypes.cpp:1341
+msgctxt "@action:button"
+msgid "Send"
+msgstr ""
+
+#: editdlgtypes.cpp:1356
+#, kde-format
+msgctxt "@info"
+msgid "Email sent to:<nl/>%1<nl/>Bcc: <email>%2</email>"
+msgstr ""
+
+#: editdlgtypes.cpp:1359
+#, kde-format
+msgctxt "@info"
+msgid "Email sent to:<nl/>%1"
+msgstr ""
+
+#: editdlgtypes.cpp:1384
+msgctxt "@title:window"
+msgid "Choose File to Attach"
+msgstr ""
+
+#: editdlgtypes.cpp:1457
+msgctxt "@title:window"
+msgid "New Audio Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:1457
+msgctxt "@title:window"
+msgid "Edit Audio Alarm Template"
+msgstr ""
+
+#: editdlgtypes.cpp:1458
+msgctxt "@title:window"
+msgid "New Audio Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:1458
+msgctxt "@title:window"
+msgid "Edit Audio Alarm"
+msgstr ""
+
+#: editdlgtypes.cpp:1600
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to enter the contents of a script instead of a shell command line"
+msgstr ""
+
+#: editdlgtypes.cpp:1606
+msgctxt "@info:whatsthis"
+msgid "Enter a shell command to execute."
+msgstr ""
+
+#: editdlgtypes.cpp:1611
+msgctxt "@info:whatsthis"
+msgid "Enter the contents of a script to execute"
+msgstr ""
+
+#: editdlgtypes.cpp:1667
+msgctxt "@info"
+msgid "Please enter a command or script to execute"
+msgstr ""
+
+#: messagewin.cpp:377
+msgctxt "@title:window"
+msgid "Reminder"
+msgstr ""
+
+#: messagewin.cpp:377 messagewin.cpp:791
+msgctxt "@title:window"
+msgid "Message"
+msgstr ""
+
+#: messagewin.cpp:395
+msgctxt "@info:whatsthis"
+msgid ""
+"The scheduled date/time for the message (as opposed to the actual time of "
+"display)."
+msgstr ""
+
+#: messagewin.cpp:402
+msgctxt "@info"
+msgid "Reminder"
+msgstr ""
+
+#: messagewin.cpp:426
+msgctxt "@info:whatsthis"
+msgid "The file whose contents are displayed below"
+msgstr ""
+
+#: messagewin.cpp:482
+msgctxt "@info:whatsthis"
+msgid "The contents of the file to be displayed"
+msgstr ""
+
+#: messagewin.cpp:490
+msgctxt "@info"
+msgid "File is a folder"
+msgstr ""
+
+#: messagewin.cpp:490
+msgctxt "@info"
+msgid "Failed to open file"
+msgstr ""
+
+#: messagewin.cpp:490
+msgctxt "@info"
+msgid "File not found"
+msgstr ""
+
+#: messagewin.cpp:510
+msgctxt "@info:whatsthis"
+msgid "The alarm message"
+msgstr ""
+
+#: messagewin.cpp:537
+msgctxt "@info:whatsthis"
+msgid "The output of the alarm's command"
+msgstr ""
+
+#: messagewin.cpp:579
+msgctxt "@info:whatsthis"
+msgid "The email to send"
+msgstr ""
+
+#: messagewin.cpp:585
+msgctxt "@info Email addressee"
+msgid "To:"
+msgstr ""
+
+#: messagewin.cpp:592
+msgctxt "@info Email subject"
+msgid "Subject:"
+msgstr ""
+
+#: messagewin.cpp:618
+msgctxt "@title:window"
+msgid "Error"
+msgstr ""
+
+#: messagewin.cpp:638
+msgctxt "@option:check"
+msgid "Do not display this error message again for this alarm"
+msgstr ""
+
+#: messagewin.cpp:657
+msgctxt "@info:whatsthis"
+msgid "Acknowledge the alarm"
+msgstr ""
+
+#: messagewin.cpp:662
+msgctxt "@action:button"
+msgid "&Edit..."
+msgstr ""
+
+#: messagewin.cpp:667
+msgctxt "@info:whatsthis"
+msgid "Edit the alarm."
+msgstr ""
+
+#: messagewin.cpp:671
+msgctxt "@action:button"
+msgid "&Defer..."
+msgstr ""
+
+#: messagewin.cpp:676
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Defer the alarm until later.</para><para>You will be prompted to "
+"specify when the alarm should be redisplayed.</para>"
+msgstr ""
+
+#: messagewin.cpp:705
+msgctxt "@info:tooltip Locate this email in KMail"
+msgid "Locate in <application>KMail</application>"
+msgstr ""
+
+#: messagewin.cpp:706
+msgctxt "@info:whatsthis"
+msgid "Locate and highlight this email in <application>KMail</application>"
+msgstr ""
+
+#: messagewin.cpp:715
+msgctxt "@info:tooltip"
+msgid "Activate <application>KAlarm</application>"
+msgstr ""
+
+#: messagewin.cpp:716
+msgctxt "@info:whatsthis"
+msgid "Activate <application>KAlarm</application>"
+msgstr ""
+
+#: messagewin.cpp:865
+msgctxt "@info"
+msgid "Today"
+msgstr ""
+
+#: messagewin.cpp:867
+#, kde-format
+msgctxt "@info"
+msgid "Tomorrow"
+msgid_plural "in %1 days' time"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagewin.cpp:869
+#, kde-format
+msgctxt "@info"
+msgid "in 1 week's time"
+msgid_plural "in %1 weeks' time"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagewin.cpp:883
+#, kde-format
+msgctxt "@info"
+msgid "in 1 minute's time"
+msgid_plural "in %1 minutes' time"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagewin.cpp:885
+#, kde-format
+msgctxt "@info"
+msgid "in 1 hour's time"
+msgid_plural "in %1 hours' time"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagewin.cpp:887
+#, kde-format
+msgctxt "@info"
+msgid "in 1 hour 1 minute's time"
+msgid_plural "in %1 hours 1 minute's time"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagewin.cpp:889
+#, kde-format
+msgctxt "@info"
+msgid "in 1 hour %2 minutes' time"
+msgid_plural "in %1 hours %2 minutes' time"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagewin.cpp:1305 messagewin.cpp:1315
+msgctxt "@info"
+msgid "Unable to speak message"
+msgstr ""
+
+#: messagewin.cpp:1315
+msgctxt "@info"
+msgid "D-Bus call say() failed"
+msgstr ""
+
+#: messagewin.cpp:1451
+#, kde-format
+msgctxt "@info"
+msgid "Cannot open audio file: <filename>%1</filename>"
+msgstr ""
+
+#: messagewin.cpp:1525
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Error playing audio file: <filename>%1</filename></para><para>%2</para>"
+msgstr ""
+
+#: messagewin.cpp:1849
+msgctxt "@info"
+msgid "Do you really want to acknowledge this alarm?"
+msgstr ""
+
+#: messagewin.cpp:1850
+msgctxt "@action:button"
+msgid "Acknowledge Alarm"
+msgstr ""
+
+#: messagewin.cpp:1850
+msgctxt "@action:button"
+msgid "Acknowledge"
+msgstr ""
+
+#: messagewin.cpp:1897
+msgctxt "@info"
+msgid "Unable to locate this email in <application>KMail</application>"
+msgstr ""
+
+#: messagewin.cpp:2088
+msgctxt "@info"
+msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
+msgstr ""
+
+#: editdlg.cpp:96
+#, kde-format
+msgctxt "@title:tab"
+msgid "Recurrence - [%1]"
+msgstr ""
+
+#: editdlg.cpp:101
+msgctxt "@option:check"
+msgid "Show in KOrganizer"
+msgstr ""
+
+#: editdlg.cpp:214
+msgctxt "@title:window"
+msgid "Alarm Template [read-only]"
+msgstr ""
+
+#: editdlg.cpp:215
+msgctxt "@title:window"
+msgid "Archived Alarm [read-only]"
+msgstr ""
+
+#: editdlg.cpp:216
+msgctxt "@title:window"
+msgid "Alarm [read-only]"
+msgstr ""
+
+#: editdlg.cpp:222
+msgctxt "@action:button"
+msgid "Load Template..."
+msgstr ""
+
+#: editdlg.cpp:236
+msgctxt "@label:textbox"
+msgid "Template name:"
+msgstr ""
+
+#: editdlg.cpp:242
+msgctxt "@info:whatsthis"
+msgid "Enter the name of the alarm template"
+msgstr ""
+
+#: editdlg.cpp:249
+msgctxt "@title:tab"
+msgid "Alarm"
+msgstr ""
+
+#: editdlg.cpp:273
+msgctxt "@title:group"
+msgid "Action"
+msgstr ""
+
+#: editdlg.cpp:284
+msgctxt "@title:group"
+msgid "Deferred Alarm"
+msgstr ""
+
+#: editdlg.cpp:289
+msgctxt "@label"
+msgid "Deferred to:"
+msgstr ""
+
+#: editdlg.cpp:295
+msgctxt "@action:button"
+msgid "Change..."
+msgstr ""
+
+#: editdlg.cpp:298
+msgctxt "@info:whatsthis"
+msgid "Change the alarm's deferred time, or cancel the deferral"
+msgstr ""
+
+#: editdlg.cpp:310 editdlg.cpp:377
+msgctxt "@title:group"
+msgid "Time"
+msgstr ""
+
+#: editdlg.cpp:319
+msgctxt "@option:radio"
+msgid "Default time"
+msgstr ""
+
+#: editdlg.cpp:322
+msgctxt "@info:whatsthis"
+msgid ""
+"Do not specify a start time for alarms based on this template. The normal "
+"default start time will be used."
+msgstr ""
+
+#: editdlg.cpp:330
+msgctxt "@option:radio"
+msgid "Time:"
+msgstr ""
+
+#: editdlg.cpp:333
+msgctxt "@info:whatsthis"
+msgid "Specify a start time for alarms based on this template."
+msgstr ""
+
+#: editdlg.cpp:339
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter the start time for alarms based on this "
+"template.</para><para>%1</para>"
+msgstr ""
+
+#: editdlg.cpp:346
+msgctxt "@option:radio"
+msgid "Date only"
+msgstr ""
+
+#: editdlg.cpp:349
+msgctxt "@info:whatsthis"
+msgid ""
+"Set the <interface>Any time</interface> option for alarms based on this "
+"template."
+msgstr ""
+
+#: editdlg.cpp:356 alarmtimewidget.cpp:149
+msgctxt "@option:radio"
+msgid "Time from now:"
+msgstr ""
+
+#: editdlg.cpp:360
+msgctxt "@info:whatsthis"
+msgid ""
+"Set alarms based on this template to start after the specified time interval "
+"from when the alarm is created."
+msgstr ""
+
+#: editdlg.cpp:368 alarmtimewidget.cpp:160
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>%1</para><para>%2</para>"
+msgstr ""
+
+#: editdlg.cpp:426
+msgctxt "@info:whatsthis"
+msgid "Check to copy the alarm into KOrganizer's calendar"
+msgstr ""
+
+#: editdlg.cpp:430
+msgctxt "@info:whatsthis"
+msgid "Schedule the alarm at the specified time."
+msgstr ""
+
+#: editdlg.cpp:920
+msgctxt "@info"
+msgid "You must enter a name for the alarm template"
+msgstr ""
+
+#: editdlg.cpp:924
+msgctxt "@info"
+msgid "Template name is already in use"
+msgstr ""
+
+#: editdlg.cpp:970
+#, kde-format
+msgctxt "@info The parameter is a date value"
+msgid ""
+"The start date does not match the alarm's recurrence pattern, so it will be "
+"adjusted to the date of the next recurrence (%1)."
+msgstr ""
+
+#: editdlg.cpp:974
+#, kde-format
+msgctxt "@info The parameter is a date/time value"
+msgid ""
+"The start date/time does not match the alarm's recurrence pattern, so it "
+"will be adjusted to the date/time of the next recurrence (%1)."
+msgstr ""
+
+#: editdlg.cpp:996
+msgctxt "@info"
+msgid "Recurrence has already expired"
+msgstr ""
+
+#: editdlg.cpp:1001
+msgctxt "@info"
+msgid "The alarm will never occur during working hours"
+msgstr ""
+
+#: editdlg.cpp:1030
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Reminder period must be less than the recurrence interval, unless "
+"<interface>%1</interface> is checked."
+msgstr ""
+
+#: editdlg.cpp:1045
+msgctxt "@info"
+msgid ""
+"The duration of a repetition within the recurrence must be less than the "
+"recurrence interval minus any reminder period"
+msgstr ""
+
+#: editdlg.cpp:1052
+msgctxt "@info"
+msgid ""
+"For a repetition within the recurrence, its period must be in units of days "
+"or weeks for a date-only alarm"
+msgstr ""
+
+#: editdlg.cpp:1085
+msgctxt "@info"
+msgid "You must select a calendar to save the alarm in"
+msgstr ""
+
+#: editdlg.cpp:1166
+msgctxt "@action:button"
+msgid "Less Options <<"
+msgstr ""
+
+#: editdlg.cpp:1171
+msgctxt "@action:button"
+msgid "More Options >>"
+msgstr ""
+
+#: alarmtimewidget.cpp:51
+msgctxt "@info/plain"
+msgid ""
+"Enter the length of time (in hours and minutes) after the current time to "
+"schedule the alarm."
+msgstr ""
+
+#: alarmtimewidget.cpp:83
+msgctxt "@info/plain"
+msgid ""
+"If a recurrence is configured, the start date/time will be adjusted to the "
+"first recurrence on or after the entered date/time."
+msgstr ""
+
+#: alarmtimewidget.cpp:86
+msgctxt "@info/plain"
+msgid ""
+"This uses KAlarm's default time zone, set in the Configuration dialog."
+msgstr ""
+
+#: alarmtimewidget.cpp:107
+msgctxt "@option:radio"
+msgid "Defer to date/time:"
+msgstr ""
+
+#: alarmtimewidget.cpp:107
+msgctxt "@option:radio"
+msgid "At date/time:"
+msgstr ""
+
+#: alarmtimewidget.cpp:109
+msgctxt "@info:whatsthis"
+msgid "Reschedule the alarm to the specified date and time."
+msgstr ""
+
+#: alarmtimewidget.cpp:110
+msgctxt "@info:whatsthis"
+msgid "Specify the date, or date and time, to schedule the alarm."
+msgstr ""
+
+#: alarmtimewidget.cpp:117
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>Enter the date to schedule the alarm.</para><para>%1</para>"
+msgstr ""
+
+#: alarmtimewidget.cpp:128
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter the time to schedule the "
+"alarm.</para><para>%1</para><para>%2</para>"
+msgstr ""
+
+#: alarmtimewidget.cpp:141 recurrenceedit.cpp:292
+msgctxt "@option:check"
+msgid "Any time"
+msgstr ""
+
+#: alarmtimewidget.cpp:145
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to specify only a date (without a time) for the alarm. The alarm will "
+"trigger at the first opportunity on the selected date."
+msgstr ""
+
+#: alarmtimewidget.cpp:149
+msgctxt "@option:radio"
+msgid "Defer for time interval:"
+msgstr ""
+
+#: alarmtimewidget.cpp:151
+msgctxt "@info:whatsthis"
+msgid "Reschedule the alarm for the specified time interval after now."
+msgstr ""
+
+#: alarmtimewidget.cpp:152
+msgctxt "@info:whatsthis"
+msgid "Schedule the alarm after the specified time interval from now."
+msgstr ""
+
+#: alarmtimewidget.cpp:161
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>%1</para><para>%2</para><para>%3</para>"
+msgstr ""
+
+#: alarmtimewidget.cpp:191
+msgctxt "@action:button"
+msgid "Time Zone..."
+msgstr ""
+
+#: alarmtimewidget.cpp:194
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose a time zone for this alarm which is different from the default time "
+"zone set in KAlarm's configuration dialog."
+msgstr ""
+
+#: alarmtimewidget.cpp:208 prefdlg.cpp:603
+msgctxt "@label:listbox"
+msgid "Time zone:"
+msgstr ""
+
+#: alarmtimewidget.cpp:212
+msgctxt "@info:whatsthis"
+msgid "Select the time zone to use for this alarm."
+msgstr ""
+
+#: alarmtimewidget.cpp:217
+msgctxt "@option:check"
+msgid "Ignore time zone"
+msgstr ""
+
+#: alarmtimewidget.cpp:220
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check to use the local computer time, ignoring time "
+"zones.</para><para>You are recommended not to use this option if the alarm "
+"has a recurrence specified in hours/minutes. If you do, the alarm may occur "
+"at unexpected times after daylight saving time shifts.</para>"
+msgstr ""
+
+#: alarmtimewidget.cpp:292 alarmtimewidget.cpp:318
+msgctxt "@info"
+msgid "Invalid time"
+msgstr ""
+
+#: alarmtimewidget.cpp:311
+msgctxt "@info"
+msgid "Invalid date"
+msgstr ""
+
+#: alarmtimewidget.cpp:332
+msgctxt "@info"
+msgid "Alarm date has already expired"
+msgstr ""
+
+#: alarmtimewidget.cpp:344
+msgctxt "@info"
+msgid "Alarm time has already expired"
+msgstr ""
+
+#: fontcolour.cpp:71
+msgctxt "@label:listbox"
+msgid "Foreground color:"
+msgstr ""
+
+#: fontcolour.cpp:76
+msgctxt "@info:whatsthis"
+msgid "Select the alarm message foreground color"
+msgstr ""
+
+#: fontcolour.cpp:84
+msgctxt "@label:listbox"
+msgid "Background color:"
+msgstr ""
+
+#: fontcolour.cpp:89
+msgctxt "@info:whatsthis"
+msgid "Select the alarm message background color"
+msgstr ""
+
+#: fontcolour.cpp:97
+msgctxt "@option:check"
+msgid "Use default font"
+msgstr ""
+
+#: fontcolour.cpp:100
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to use the default font current at the time the alarm is displayed."
+msgstr ""
+
+#: prefdlg.cpp:145
+msgctxt "@title:window"
+msgid "Configure"
+msgstr ""
+
+#: prefdlg.cpp:153
+msgctxt "@title:tab General preferences"
+msgid "General"
+msgstr ""
+
+#: prefdlg.cpp:154
+msgctxt "@title General preferences"
+msgid "General"
+msgstr ""
+
+#: prefdlg.cpp:159
+msgctxt "@title:tab"
+msgid "Time & Date"
+msgstr ""
+
+#: prefdlg.cpp:160
+msgctxt "@title"
+msgid "Time and Date"
+msgstr ""
+
+#: prefdlg.cpp:165
+msgctxt "@title:tab"
+msgid "Storage"
+msgstr ""
+
+#: prefdlg.cpp:166
+msgctxt "@title"
+msgid "Alarm Storage"
+msgstr ""
+
+#: prefdlg.cpp:171
+msgctxt "@title:tab Email preferences"
+msgid "Email"
+msgstr ""
+
+#: prefdlg.cpp:172
+msgctxt "@title"
+msgid "Email Alarm Settings"
+msgstr ""
+
+#: prefdlg.cpp:177
+msgctxt "@title:tab"
+msgid "View"
+msgstr ""
+
+#: prefdlg.cpp:178
+msgctxt "@title"
+msgid "View Settings"
+msgstr ""
+
+#: prefdlg.cpp:183
+msgctxt "@title:tab"
+msgid "Edit"
+msgstr ""
+
+#: prefdlg.cpp:184
+msgctxt "@title"
+msgid "Default Alarm Edit Settings"
+msgstr ""
+
+#: prefdlg.cpp:260
+msgctxt "@info"
+msgid ""
+"Reset all tabs to their default values, or only reset the current tab?"
+msgstr ""
+
+#: prefdlg.cpp:262
+msgctxt "@action:button Reset ALL tabs"
+msgid "&All"
+msgstr ""
+
+#: prefdlg.cpp:263
+msgctxt "@action:button Reset the CURRENT tab"
+msgid "C&urrent"
+msgstr ""
+
+#: prefdlg.cpp:407
+msgctxt "@title:group"
+msgid "Run Mode"
+msgstr ""
+
+#: prefdlg.cpp:413
+msgctxt "@option:check"
+msgid "Start at login"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:89
+#. i18n: ectx: whatsthis, entry (AutoStart), group (General)
+#: prefdlg.cpp:416 rc.cpp:48 rc.cpp:417
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Automatically start <application>KAlarm</application> whenever you "
+"start KDE.</para><para>This option should always be checked unless you "
+"intend to discontinue use of <application>KAlarm</application>.</para>"
+msgstr ""
+
+#: prefdlg.cpp:420
+msgctxt "@option:check"
+msgid "Warn before quitting"
+msgstr ""
+
+#: prefdlg.cpp:421
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to display a warning prompt before quitting "
+"<application>KAlarm</application>."
+msgstr ""
+
+#: prefdlg.cpp:429
+msgctxt "@option:check"
+msgid "Confirm alarm deletions"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:355
+#. i18n: ectx: whatsthis, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
+#: prefdlg.cpp:431 rc.cpp:346 rc.cpp:715
+msgctxt "@info:whatsthis"
+msgid "Check to be prompted for confirmation each time you delete an alarm."
+msgstr ""
+
+#: prefdlg.cpp:439
+msgctxt "@label:spinbox"
+msgid "Default defer time interval:"
+msgstr ""
+
+#: prefdlg.cpp:443
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the default time interval (hours & minutes) to defer alarms, used by "
+"the Defer Alarm dialog."
+msgstr ""
+
+#: prefdlg.cpp:449
+msgctxt "@title:group"
+msgid "Terminal for Command Alarms"
+msgstr ""
+
+#: prefdlg.cpp:450
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose which application to use when a command alarm is executed in a "
+"terminal window"
+msgstr ""
+
+#: prefdlg.cpp:476
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to execute command alarms in a terminal window by <icode>%1</icode>"
+msgstr ""
+
+#: prefdlg.cpp:485
+msgctxt "@option:radio Other terminal window command"
+msgid "Other:"
+msgstr ""
+
+#: prefdlg.cpp:495
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the full command line needed to execute a command in your chosen "
+"terminal window. By default the alarm's command string will be appended to "
+"what you enter here. See the <application>KAlarm</application> Handbook for "
+"details of special codes to tailor the command line."
+msgstr ""
+
+#: prefdlg.cpp:541
+#, kde-format
+msgctxt "@info"
+msgid "Command to invoke terminal window not found: <command>%1</command>"
+msgstr ""
+
+#: prefdlg.cpp:578
+msgctxt "@info"
+msgid ""
+"You should not uncheck this option unless you intend to discontinue use of "
+"<application>KAlarm</application>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:58
+#. i18n: ectx: whatsthis, entry (Base_TimeZone), group (General)
+#: prefdlg.cpp:616 rc.cpp:12 rc.cpp:381
+msgctxt "@info:whatsthis"
+msgid ""
+"Select the time zone which <application>KAlarm</application> should use as "
+"its default for displaying and entering dates and times."
+msgstr ""
+
+#: prefdlg.cpp:628
+msgctxt "@label:listbox"
+msgid "Holiday region:"
+msgstr ""
+
+#: prefdlg.cpp:635
+msgctxt "@info:whatsthis"
+msgid "Select which holiday region to use"
+msgstr ""
+
+#: prefdlg.cpp:655
+msgctxt "@item:inlistbox Do not use holidays"
+msgid "(None)"
+msgstr ""
+
+#: prefdlg.cpp:664
+msgctxt "@label:spinbox"
+msgid "Start of day for date-only alarms:"
+msgstr ""
+
+#: prefdlg.cpp:669
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>The earliest time of day at which a date-only alarm will be "
+"triggered.</para><para>%1</para>"
+msgstr ""
+
+#: prefdlg.cpp:675
+msgctxt "@title:group"
+msgid "Working Hours"
+msgstr ""
+
+#: prefdlg.cpp:692
+msgctxt "@info:whatsthis"
+msgid "Check the days in the week which are work days"
+msgstr ""
+
+#: prefdlg.cpp:700
+msgctxt "@label:spinbox"
+msgid "Daily start time:"
+msgstr ""
+
+#: prefdlg.cpp:705
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>Enter the start time of the working day.</para><para>%1</para>"
+msgstr ""
+
+#: prefdlg.cpp:715
+msgctxt "@label:spinbox"
+msgid "Daily end time:"
+msgstr ""
+
+#: prefdlg.cpp:720
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>Enter the end time of the working day.</para><para>%1</para>"
+msgstr ""
+
+#: prefdlg.cpp:726
+msgctxt "@title:group"
+msgid "KOrganizer"
+msgstr ""
+
+#: prefdlg.cpp:737
+msgctxt "@label:spinbox"
+msgid "KOrganizer event duration:"
+msgstr ""
+
+#: prefdlg.cpp:742
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter the event duration in hours and minutes, for alarms which are "
+"copied to KOrganizer.</para><para>%1</para>"
+msgstr ""
+
+#: prefdlg.cpp:841
+msgctxt "@title:group"
+msgid "New Alarms && Templates"
+msgstr ""
+
+#: prefdlg.cpp:847
+msgctxt "@option:radio"
+msgid "Store in default calendar"
+msgstr ""
+
+#: prefdlg.cpp:849
+msgctxt "@info:whatsthis"
+msgid ""
+"Add all new alarms and alarm templates to the default calendars, without "
+"prompting."
+msgstr ""
+
+#: prefdlg.cpp:851
+msgctxt "@option:radio"
+msgid "Prompt for which calendar to store in"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:99
+#. i18n: ectx: whatsthis, entry (AskResource), group (General)
+#: prefdlg.cpp:854 rc.cpp:60 rc.cpp:429
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>When saving a new alarm or alarm template, prompt for which calendar "
+"to store it in, if there is more than one active calendar.</para><para>Note "
+"that archived alarms are always stored in the default archived alarm "
+"calendar.</para>"
+msgstr ""
+
+#: prefdlg.cpp:859
+msgctxt "@title:group"
+msgid "Archived Alarms"
+msgstr ""
+
+#: prefdlg.cpp:865
+msgctxt "@option:check"
+msgid "Keep alarms after expiry"
+msgstr ""
+
+#: prefdlg.cpp:868
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to archive alarms after expiry or deletion (except deleted alarms "
+"which were never triggered)."
+msgstr ""
+
+#: prefdlg.cpp:874
+msgctxt "@option:check"
+msgid "Discard archived alarms after:"
+msgstr ""
+
+#: prefdlg.cpp:881
+msgctxt "@label Time unit for user-entered number"
+msgid "days"
+msgstr ""
+
+#: prefdlg.cpp:884
+msgctxt "@info:whatsthis"
+msgid ""
+"Uncheck to store archived alarms indefinitely. Check to enter how long "
+"archived alarms should be stored."
+msgstr ""
+
+#: prefdlg.cpp:887
+msgctxt "@action:button"
+msgid "Clear Archived Alarms"
+msgstr ""
+
+#: prefdlg.cpp:891
+msgctxt "@info:whatsthis"
+msgid "Delete all existing archived alarms."
+msgstr ""
+
+#: prefdlg.cpp:892
+msgctxt "@info:whatsthis"
+msgid ""
+"Delete all existing archived alarms (from the default archived alarm "
+"calendar only)."
+msgstr ""
+
+#: prefdlg.cpp:936
+msgctxt "@info"
+msgid ""
+"<para>A default calendar is required in order to archive alarms, but none is "
+"currently enabled.</para><para>If you wish to keep expired alarms, please "
+"first use the calendars view to select a default archived alarms "
+"calendar.</para>"
+msgstr ""
+
+#: prefdlg.cpp:952
+msgctxt "@info"
+msgid "Do you really want to delete all archived alarms?"
+msgstr ""
+
+#: prefdlg.cpp:953
+msgctxt "@info"
+msgid ""
+"Do you really want to delete all alarms in the default archived alarm "
+"calendar?"
+msgstr ""
+
+#: prefdlg.cpp:972
+msgctxt "@label"
+msgid "Email client:"
+msgstr ""
+
+#: prefdlg.cpp:974
+msgctxt "@option:radio"
+msgid "KMail"
+msgstr ""
+
+#: prefdlg.cpp:975
+msgctxt "@option:radio"
+msgid "Sendmail"
+msgstr ""
+
+#: prefdlg.cpp:985
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Choose how to send email when an email alarm is "
+"triggered.<list><item><interface>%1</interface>: The email is sent "
+"automatically via <application>KMail</application>. "
+"<application>KMail</application> is started first if "
+"necessary.</item><item><interface>%2</interface>: The email is sent "
+"automatically. This option will only work if your system is configured to "
+"use <application>sendmail</application> or a sendmail compatible mail "
+"transport agent.</item></list></para>"
+msgstr ""
+
+#: prefdlg.cpp:993
+#, kde-format
+msgctxt "@option:check"
+msgid ""
+"Copy sent emails into <application>KMail</application>'s "
+"<resource>%1</resource> folder"
+msgstr ""
+
+#: prefdlg.cpp:994
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"After sending an email, store a copy in <application>KMail</application>'s "
+"<resource>%1</resource> folder"
+msgstr ""
+
+#: prefdlg.cpp:1000
+msgctxt "@option:check"
+msgid "Notify when remote emails are queued"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:360
+#. i18n: ectx: whatsthis, entry (Base_EmailQueuedNotify), group (Notification Messages)
+#: prefdlg.cpp:1002 rc.cpp:352 rc.cpp:721
+msgctxt "@info:whatsthis"
+msgid ""
+"Display a notification message whenever an email alarm has queued an email "
+"for sending to a remote system. This could be useful if, for example, you "
+"have a dial-up connection, so that you can then ensure that the email is "
+"actually transmitted."
+msgstr ""
+
+#: prefdlg.cpp:1008
+msgctxt "@title:group"
+msgid "Your Email Address"
+msgstr ""
+
+#: prefdlg.cpp:1015
+msgctxt "@label 'From' email address"
+msgid "From:"
+msgstr ""
+
+#: prefdlg.cpp:1027
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email address, used to identify you as the sender when sending email "
+"alarms."
+msgstr ""
+
+#: prefdlg.cpp:1034 prefdlg.cpp:1070
+msgctxt "@option:radio"
+msgid "Use address from System Settings"
+msgstr ""
+
+#: prefdlg.cpp:1037
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to use the email address set in KDE System Settings, to identify you "
+"as the sender when sending email alarms."
+msgstr ""
+
+#: prefdlg.cpp:1041
+msgctxt "@option:radio"
+msgid "Use <application>KMail</application> identities"
+msgstr ""
+
+#: prefdlg.cpp:1044
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to use <application>KMail</application>'s email identities to identify "
+"you as the sender when sending email alarms. For existing email alarms, "
+"<application>KMail</application>'s default identity will be used. For new "
+"email alarms, you will be able to pick which of "
+"<application>KMail</application>'s identities to use."
+msgstr ""
+
+#: prefdlg.cpp:1051
+msgctxt "@label 'Bcc' email address"
+msgid "Bcc:"
+msgstr ""
+
+#: prefdlg.cpp:1062
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email address, used for blind copying email alarms to yourself. If you "
+"want blind copies to be sent to your account on the computer which "
+"<application>KAlarm</application> runs on, you can simply enter your user "
+"login name."
+msgstr ""
+
+#: prefdlg.cpp:1073
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to use the email address set in KDE System Settings, for blind copying "
+"email alarms to yourself."
+msgstr ""
+
+#: prefdlg.cpp:1157
+msgctxt "@info/plain"
+msgid "No valid 'Bcc' email address is specified."
+msgstr ""
+
+#: prefdlg.cpp:1164
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>%1</para><para>Are you sure you want to save your changes?</para>"
+msgstr ""
+
+#: prefdlg.cpp:1170
+#, kde-format
+msgctxt "@info"
+msgid "No email address is currently set in KDE System Settings. %1"
+msgstr ""
+
+#: prefdlg.cpp:1175
+#, kde-format
+msgctxt "@info"
+msgid "No <application>KMail</application> identities currently exist. %1"
+msgstr ""
+
+#: prefdlg.cpp:1193
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The default setting for <interface>%1</interface> in the alarm edit dialog."
+msgstr ""
+
+#: prefdlg.cpp:1200 prefdlg.cpp:1563
+msgctxt "@title:tab"
+msgid "General"
+msgstr ""
+
+#: prefdlg.cpp:1204
+msgctxt "@title:tab"
+msgid "Alarm Types"
+msgstr ""
+
+#: prefdlg.cpp:1208
+msgctxt "@title:tab"
+msgid "Font && Color"
+msgstr ""
+
+#: prefdlg.cpp:1229
+msgctxt "@label:listbox"
+msgid "Recurrence:"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:300
+#. i18n: ectx: whatsthis, entry (DefaultRecurPeriod), group (Defaults)
+#: prefdlg.cpp:1242 rc.cpp:283 rc.cpp:652
+msgctxt "@info:whatsthis"
+msgid "The default setting for the recurrence rule in the alarm edit dialog."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:313
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: prefdlg.cpp:1249 rc.cpp:295 rc.cpp:664
+msgctxt "@label"
+msgid "In non-leap years, repeat yearly February 29th alarms on:"
+msgstr ""
+
+#: prefdlg.cpp:1258
+msgctxt "@option:radio"
+msgid "February 2&8th"
+msgstr ""
+
+#: prefdlg.cpp:1261
+msgctxt "@option:radio"
+msgid "March &1st"
+msgstr ""
+
+#: prefdlg.cpp:1264
+msgctxt "@option:radio"
+msgid "Do not repeat"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:314
+#. i18n: ectx: whatsthis, entry (DefaultFeb29Type), group (Defaults)
+#: prefdlg.cpp:1269 rc.cpp:298 rc.cpp:667
+msgctxt "@info:whatsthis"
+msgid ""
+"For yearly recurrences, choose what date, if any, alarms due on February "
+"29th should occur in non-leap years.<note>The next scheduled occurrence of "
+"existing alarms is not re-evaluated when you change this setting.</note>"
+msgstr ""
+
+#: prefdlg.cpp:1277
+msgctxt "@title:group"
+msgid "Display Alarms"
+msgstr ""
+
+#: prefdlg.cpp:1296
+msgctxt "@label:listbox"
+msgid "Reminder units:"
+msgstr ""
+
+#: prefdlg.cpp:1298
+msgctxt "@item:inlistbox"
+msgid "Minutes"
+msgstr ""
+
+#: prefdlg.cpp:1299
+msgctxt "@item:inlistbox"
+msgid "Hours/Minutes"
+msgstr ""
+
+#: prefdlg.cpp:1302
+msgctxt "@info:whatsthis"
+msgid ""
+"The default units for the reminder in the alarm edit dialog, for alarms due "
+"soon."
+msgstr ""
+
+#: prefdlg.cpp:1309
+msgctxt "@title:group Audio options group"
+msgid "Sound"
+msgstr ""
+
+#: prefdlg.cpp:1328
+msgctxt "@option:check"
+msgid "Repeat sound file"
+msgstr ""
+
+#: prefdlg.cpp:1331
+#, kde-format
+msgctxt "@info:whatsthis sound file 'Repeat' checkbox"
+msgid ""
+"The default setting for sound file <interface>%1</interface> in the alarm "
+"edit dialog."
+msgstr ""
+
+#: prefdlg.cpp:1337
+msgctxt "@label:textbox"
+msgid "Sound file:"
+msgstr ""
+
+#: prefdlg.cpp:1345
+msgctxt "@info:tooltip"
+msgid "Choose a sound file"
+msgstr ""
+
+#: prefdlg.cpp:1346
+msgctxt "@info:whatsthis"
+msgid "Enter the default sound file to use in the alarm edit dialog."
+msgstr ""
+
+#: prefdlg.cpp:1352
+msgctxt "@title:group"
+msgid "Command Alarms"
+msgstr ""
+
+#: prefdlg.cpp:1372
+msgctxt "@title:group"
+msgid "Email Alarms"
+msgstr ""
+
+#: prefdlg.cpp:1388
+msgctxt "@title:group"
+msgid "Message Font && Color"
+msgstr ""
+
+#: prefdlg.cpp:1546
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You must enter a sound file when <interface>%1</interface> is selected as "
+"the default sound type"
+msgstr ""
+
+#: prefdlg.cpp:1567
+msgctxt "@title:tab"
+msgid "Alarm Windows"
+msgstr ""
+
+#: prefdlg.cpp:1572
+msgctxt "@option:check"
+msgid "Show in system tray"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:83
+#. i18n: ectx: whatsthis, entry (ShowInSystemTray), group (General)
+#: prefdlg.cpp:1574 rc.cpp:42 rc.cpp:411
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check to show <application>KAlarm</application>'s icon in the system "
+"tray. Showing it in the system tray provides easy access and a status "
+"indication.</para>"
+msgstr ""
+
+#: prefdlg.cpp:1579
+msgctxt "@title:group"
+msgid "System Tray Tooltip"
+msgstr ""
+
+#: prefdlg.cpp:1587
+msgctxt "@option:check"
+msgid "Show next &24 hours' alarms"
+msgstr ""
+
+#: prefdlg.cpp:1591
+msgctxt "@info:whatsthis"
+msgid ""
+"Specify whether to include in the system tray tooltip, a summary of alarms "
+"due in the next 24 hours."
+msgstr ""
+
+#: prefdlg.cpp:1597
+msgctxt "@option:check"
+msgid "Maximum number of alarms to show:"
+msgstr ""
+
+#: prefdlg.cpp:1604
+msgctxt "@info:whatsthis"
+msgid ""
+"Uncheck to display all of the next 24 hours' alarms in the system tray "
+"tooltip. Check to enter an upper limit on the number to be displayed."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:131
+#. i18n: ectx: whatsthis, entry (ShowTooltipAlarmTime), group (General)
+#: prefdlg.cpp:1611 rc.cpp:92 rc.cpp:461
+msgctxt "@info:whatsthis"
+msgid ""
+"Specify whether to show in the system tray tooltip, the time at which each "
+"alarm is due."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:136
+#. i18n: ectx: whatsthis, entry (ShowTooltipTimeToAlarm), group (General)
+#: prefdlg.cpp:1617 rc.cpp:98 rc.cpp:467
+msgctxt "@info:whatsthis"
+msgid ""
+"Specify whether to show in the system tray tooltip, how long until each "
+"alarm is due."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:141
+#. i18n: ectx: whatsthis, entry (TooltipTimeToPrefix), group (General)
+#: prefdlg.cpp:1626 rc.cpp:104 rc.cpp:473
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the text to be displayed in front of the time until the alarm, in the "
+"system tray tooltip."
+msgstr ""
+
+#: prefdlg.cpp:1631
+msgctxt "@title:group"
+msgid "Alarm List"
+msgstr ""
+
+#: prefdlg.cpp:1642
+msgctxt "@label:listbox"
+msgid "Disabled alarm color:"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:198
+#. i18n: ectx: whatsthis, entry (DisabledColour), group (General)
+#: prefdlg.cpp:1646 rc.cpp:170 rc.cpp:539
+msgctxt "@info:whatsthis"
+msgid "Choose the text color in the alarm list for disabled alarms."
+msgstr ""
+
+#: prefdlg.cpp:1652
+msgctxt "@label:listbox"
+msgid "Archived alarm color:"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:204
+#. i18n: ectx: whatsthis, entry (ArchivedColour), group (General)
+#: prefdlg.cpp:1656 rc.cpp:176 rc.cpp:545
+msgctxt "@info:whatsthis"
+msgid "Choose the text color in the alarm list for archived alarms."
+msgstr ""
+
+#: prefdlg.cpp:1663
+msgctxt "@title:group"
+msgid "Alarm Message Windows"
+msgstr ""
+
+#: prefdlg.cpp:1673
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Choose how to reduce the chance of alarm messages being accidentally "
+"acknowledged:<list><item>Position alarm message windows as far as possible "
+"from the current mouse cursor location, or</item><item>Position alarm "
+"message windows in the center of the screen, but disable buttons for a short "
+"time after the window is displayed.</item></list></para>"
+msgstr ""
+
+#: prefdlg.cpp:1676
+msgctxt "@option:radio"
+msgid "Position windows far from mouse cursor"
+msgstr ""
+
+#: prefdlg.cpp:1680
+msgctxt "@option:radio"
+msgid "Center windows, delay activating window buttons"
+msgstr ""
+
+#: prefdlg.cpp:1690
+msgctxt "@label:spinbox"
+msgid "Button activation delay (seconds):"
+msgstr ""
+
+#: prefdlg.cpp:1695
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter how long its buttons should remain disabled after the alarm message "
+"window is shown."
+msgstr ""
+
+#: prefdlg.cpp:1701
+msgctxt "@option:check"
+msgid "Message windows have a title bar and take keyboard focus"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:105
+#. i18n: ectx: whatsthis, entry (ModalMessages), group (General)
+#: prefdlg.cpp:1704 rc.cpp:66 rc.cpp:435
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify the characteristics of alarm message windows:<list><item>If "
+"checked, the window is a normal window with a title bar, which grabs "
+"keyboard input when it is displayed.</item><item>If unchecked, the window "
+"does not interfere with your typing when it is displayed, but it has no "
+"title bar and cannot be moved or resized.</item></list></para>"
+msgstr ""
+
+#: mainwindow.cpp:112
+msgctxt "@action"
+msgid "Show &Alarm Times"
+msgstr ""
+
+#: mainwindow.cpp:113
+msgctxt "@option:check"
+msgid "Show alarm time"
+msgstr ""
+
+#: mainwindow.cpp:114
+msgctxt "@action"
+msgid "Show Time t&o Alarms"
+msgstr ""
+
+#: mainwindow.cpp:115
+msgctxt "@option:check"
+msgid "Show time until alarm"
+msgstr ""
+
+#: mainwindow.cpp:402
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failure to create menus (perhaps <filename>%1</filename> missing or "
+"corrupted)"
+msgstr ""
+
+#: mainwindow.cpp:423
+msgctxt "@action"
+msgid "&Templates..."
+msgstr ""
+
+#: mainwindow.cpp:427
+msgctxt "@action"
+msgid "&New"
+msgstr ""
+
+#: mainwindow.cpp:450
+msgctxt "@action"
+msgid "New &From Template"
+msgstr ""
+
+#: mainwindow.cpp:453
+msgctxt "@action"
+msgid "Create Tem&plate..."
+msgstr ""
+
+#: mainwindow.cpp:457
+msgctxt "@action"
+msgid "&Copy..."
+msgstr ""
+
+#: mainwindow.cpp:467
+msgctxt "@action"
+msgid "&Delete"
+msgstr ""
+
+#: mainwindow.cpp:473
+msgctxt "@action"
+msgid "Delete Without Confirmation"
+msgstr ""
+
+#: mainwindow.cpp:478
+msgctxt "@action"
+msgid "Reac&tivate"
+msgstr ""
+
+#: mainwindow.cpp:501
+msgctxt "@action"
+msgid "Show Archi&ved Alarms"
+msgstr ""
+
+#: mainwindow.cpp:506
+msgctxt "@action"
+msgid "Show in System &Tray"
+msgstr ""
+
+#: mainwindow.cpp:510
+msgctxt "@action"
+msgid "Show &Calendars"
+msgstr ""
+
+#: mainwindow.cpp:518
+msgctxt "@action"
+msgid "Import &Alarms..."
+msgstr ""
+
+#: mainwindow.cpp:522
+msgctxt "@action"
+msgid "Import &Birthdays..."
+msgstr ""
+
+#: mainwindow.cpp:526
+msgctxt "@action"
+msgid "E&xport Selected Alarms..."
+msgstr ""
+
+#: mainwindow.cpp:534
+msgctxt "@action"
+msgid "&Refresh Alarms"
+msgstr ""
+
+#: mainwindow.cpp:739
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to delete the selected alarm?"
+msgid_plural "Do you really want to delete the %1 selected alarms?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mainwindow.cpp:741
+msgctxt "@title:window"
+msgid "Delete Alarm"
+msgid_plural "Delete Alarms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mainwindow.cpp:837
+msgctxt "@info:tooltip"
+msgid "Hide Archived Alarms"
+msgstr ""
+
+#: mainwindow.cpp:838
+msgctxt "@info:tooltip"
+msgid "Show Archived Alarms"
+msgstr ""
+
+#: mainwindow.cpp:897
+msgctxt "@info"
+msgid "Import birthdays"
+msgstr ""
+
+#: mainwindow.cpp:1067
+#, kde-format
+msgctxt "@action Undo/Redo [action]"
+msgid "%1 %2"
+msgstr ""
+
+#: mainwindow.cpp:1068
+#, kde-format
+msgctxt "@action Undo [action]: message"
+msgid "%1 %2: %3"
+msgstr ""
+
+#: mainwindow.cpp:1344
+msgctxt "@item:inlistbox"
+msgid "Display Alarm"
+msgstr ""
+
+#: mainwindow.cpp:1346
+msgctxt "@item:inlistbox"
+msgid "Email Alarm"
+msgstr ""
+
+#: mainwindow.cpp:1348
+msgctxt "@item:inlistbox"
+msgid "Command Alarm"
+msgstr ""
+
+#: mainwindow.cpp:1350
+msgctxt "@title:window"
+msgid "Alarm Type"
+msgstr ""
+
+#: mainwindow.cpp:1351
+msgctxt "@info"
+msgid "Choose alarm type to create:"
+msgstr ""
+
+#: mainwindow.cpp:1480
+msgctxt "@action"
+msgid "Ena&ble"
+msgstr ""
+
+#: mainwindow.cpp:1480
+msgctxt "@action"
+msgid "Disa&ble"
+msgstr ""
+
+#: deferdlg.cpp:46
+msgctxt "@title:window"
+msgid "Defer Alarm"
+msgstr ""
+
+#: deferdlg.cpp:48
+msgctxt "@action:button"
+msgid "Cancel Deferral"
+msgstr ""
+
+#: deferdlg.cpp:67
+msgctxt "@info:whatsthis"
+msgid "Defer the alarm until the specified time."
+msgstr ""
+
+#: deferdlg.cpp:68
+msgctxt "@info:whatsthis"
+msgid "Cancel the deferred alarm. This does not affect future recurrences."
+msgstr ""
+
+#: deferdlg.cpp:100
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer past the alarm's next sub-repetition (currently %1)"
+msgstr ""
+
+#: deferdlg.cpp:104
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer past the alarm's next recurrence (currently %1)"
+msgstr ""
+
+#: deferdlg.cpp:108
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer past the alarm's next reminder (currently %1)"
+msgstr ""
+
+#: deferdlg.cpp:112
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer reminder past the main alarm time (%1)"
+msgstr ""
+
+#: commandoptions.cpp:184
+#, kde-format
+msgctxt "@info:shell"
+msgid "<icode>%1</icode>: invalid email address"
+msgstr ""
+
+#: commandoptions.cpp:290 commandoptions.cpp:306 commandoptions.cpp:379
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid <icode>%1</icode> parameter for date-only alarm"
+msgstr ""
+
+#: commandoptions.cpp:294
+#, kde-format
+msgctxt "@info:shell"
+msgid "<icode>%1</icode> earlier than <icode>%2</icode>"
+msgstr ""
+
+#: commandoptions.cpp:315
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Invalid <icode>%1</icode> and <icode>%2</icode> parameters: repetition is "
+"longer than <icode>%3</icode> interval"
+msgstr ""
+
+#: commandoptions.cpp:365
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"<icode>%1</icode> requires speech synthesis to be configured using KTTSD"
+msgstr ""
+
+#: commandoptions.cpp:462
+msgctxt "@info:shell"
+msgid ": option(s) only valid with an appropriate action option or message"
+msgstr ""
+
+#: commandoptions.cpp:482
+msgctxt "@info:shell"
+msgid ""
+"\n"
+"Use --help to get a list of available command line options.\n"
+msgstr ""
+
+#: commandoptions.cpp:511
+#, kde-format
+msgctxt "@info:shell"
+msgid "<icode>%1</icode> requires <icode>%2</icode>"
+msgstr ""
+
+#: commandoptions.cpp:513
+#, kde-format
+msgctxt "@info:shell"
+msgid "<icode>%1</icode> requires <icode>%2</icode> or <icode>%3</icode>"
+msgstr ""
+
+#: commandoptions.cpp:518
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid <icode>%1</icode> parameter"
+msgstr ""
+
+#: commandoptions.cpp:529
+#, kde-format
+msgctxt "@info:shell"
+msgid "<icode>%1</icode> incompatible with <icode>%2</icode>"
+msgstr ""
+
+#: resourceconfigdialog.cpp:60
+msgctxt "@title:group"
+msgid "General Settings"
+msgstr ""
+
+#: resourceconfigdialog.cpp:62
+msgctxt "@label:textbox Calendar name"
+msgid "Name:"
+msgstr ""
+
+#: resourceconfigdialog.cpp:67
+msgctxt "@option:check"
+msgid "Read-only"
+msgstr ""
+
+#: resourceconfigdialog.cpp:80
+#, kde-format
+msgctxt "@title:group"
+msgid "<resource>%1</resource> Calendar Settings"
+msgstr ""
+
+#: resourceconfigdialog.cpp:122
+msgctxt "@info"
+msgid "Please enter a calendar name."
+msgstr ""
+
+#: fontcolour.h:39
+msgid "Requested font"
+msgstr "अनुरोध गरिएका फन्ट"
+
+#: recurrenceedit.cpp:76
+msgctxt "@item:inlistbox Recurrence type"
+msgid "No Recurrence"
+msgstr ""
+
+#: recurrenceedit.cpp:77
+msgctxt "@item:inlistbox Recurrence type"
+msgid "At Login"
+msgstr ""
+
+#: recurrenceedit.cpp:78
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Hourly/Minutely"
+msgstr ""
+
+#: recurrenceedit.cpp:79
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Daily"
+msgstr ""
+
+#: recurrenceedit.cpp:80
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Weekly"
+msgstr ""
+
+#: recurrenceedit.cpp:81
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Monthly"
+msgstr ""
+
+#: recurrenceedit.cpp:82
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Yearly"
+msgstr ""
+
+#: recurrenceedit.cpp:108
+msgctxt "@title:group"
+msgid "Recurrence Rule"
+msgstr ""
+
+#: recurrenceedit.cpp:126
+msgctxt "@info:whatsthis"
+msgid "Do not repeat the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:134
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Trigger the alarm at the specified date/time and at every login until "
+"then.</para><para>Note that it will also be triggered any time "
+"<application>KAlarm</application> is restarted.</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:142
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at hourly/minutely intervals"
+msgstr ""
+
+#: recurrenceedit.cpp:149
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at daily intervals"
+msgstr ""
+
+#: recurrenceedit.cpp:156
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at weekly intervals"
+msgstr ""
+
+#: recurrenceedit.cpp:163
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at monthly intervals"
+msgstr ""
+
+#: recurrenceedit.cpp:170
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at annual intervals"
+msgstr ""
+
+#: recurrenceedit.cpp:180
+msgctxt "@info:whatsthis"
+msgid ""
+"Set up a repetition within the recurrence, to trigger the alarm multiple "
+"times each time the recurrence is due."
+msgstr ""
+
+#: recurrenceedit.cpp:228
+msgctxt "@title:group"
+msgid "Recurrence End"
+msgstr ""
+
+#: recurrenceedit.cpp:237
+msgctxt "@option:radio"
+msgid "No end"
+msgstr ""
+
+#: recurrenceedit.cpp:240
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm indefinitely"
+msgstr ""
+
+#: recurrenceedit.cpp:248
+msgctxt "@option:radio"
+msgid "End after:"
+msgstr ""
+
+#: recurrenceedit.cpp:250
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm for the number of times specified"
+msgstr ""
+
+#: recurrenceedit.cpp:257
+msgctxt "@info:whatsthis"
+msgid "Enter the total number of times to trigger the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:261
+msgctxt "@label"
+msgid "occurrence(s)"
+msgstr ""
+
+#: recurrenceedit.cpp:273
+msgctxt "@option:radio"
+msgid "End by:"
+msgstr ""
+
+#: recurrenceedit.cpp:276
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Repeat the alarm until the date/time specified.</para><para><note>This "
+"applies to the main recurrence only. It does not limit any sub-repetition "
+"which will occur regardless after the last main recurrence.</note></para>"
+msgstr ""
+
+#: recurrenceedit.cpp:281
+msgctxt "@info/plain"
+msgid "This uses the same time zone as the start time."
+msgstr ""
+
+#: recurrenceedit.cpp:283
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>Enter the last date to repeat the alarm.</para><para>%1</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:290
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter the last time to repeat the "
+"alarm.</para><para>%1</para><para>%2</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:295
+msgctxt "@info:whatsthis"
+msgid ""
+"Stop repeating the alarm after your first login on or after the specified "
+"end date"
+msgstr ""
+
+#: recurrenceedit.cpp:313
+msgctxt "@title:group"
+msgid "Exceptions"
+msgstr ""
+
+#: recurrenceedit.cpp:324
+msgctxt "@info:whatsthis"
+msgid "The list of exceptions, i.e. dates/times excluded from the recurrence"
+msgstr ""
+
+#: recurrenceedit.cpp:342
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a date to insert in the exceptions list. Use in conjunction with the "
+"Add or Change button below."
+msgstr ""
+
+#: recurrenceedit.cpp:349
+msgctxt "@action:button"
+msgid "Add"
+msgstr ""
+
+#: recurrenceedit.cpp:350
+msgctxt "@info:whatsthis"
+msgid "Add the date entered above to the exceptions list"
+msgstr ""
+
+#: recurrenceedit.cpp:354
+msgctxt "@action:button"
+msgid "Change"
+msgstr ""
+
+#: recurrenceedit.cpp:356
+msgctxt "@info:whatsthis"
+msgid ""
+"Replace the currently highlighted item in the exceptions list with the date "
+"entered above"
+msgstr ""
+
+#: recurrenceedit.cpp:361
+msgctxt "@info:whatsthis"
+msgid "Remove the currently highlighted item from the exceptions list"
+msgstr ""
+
+#: recurrenceedit.cpp:368
+msgctxt "@option:check"
+msgid "Exclude holidays"
+msgstr ""
+
+#: recurrenceedit.cpp:371
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Do not trigger the alarm on holidays.</para><para>You can specify your "
+"holiday region in the Configuration dialog.</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:376
+msgctxt "@option:check"
+msgid "Only during working time"
+msgstr ""
+
+#: recurrenceedit.cpp:379
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Only execute the alarm during working hours, on working "
+"days.</para><para>You can specify working days and hours in the "
+"Configuration dialog.</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:422
+msgctxt "@info"
+msgid "End date is earlier than start date"
+msgstr ""
+
+#: recurrenceedit.cpp:423
+msgctxt "@info"
+msgid "End date/time is earlier than start date/time"
+msgstr ""
+
+#: recurrenceedit.cpp:693
+msgctxt "@info Date cannot be earlier than start date"
+msgid "start date"
+msgstr ""
+
+#: recurrenceedit.cpp:1112
+msgctxt "@label:spinbox"
+msgid "Recur e&very"
+msgstr ""
+
+#: recurrenceedit.cpp:1181
+msgctxt "@label Time units for user-entered numbers"
+msgid "hours:minutes"
+msgstr ""
+
+#: recurrenceedit.cpp:1182
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the number of hours and minutes between repetitions of the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1202
+msgctxt "@label On: Tuesday"
+msgid "O&n:"
+msgstr ""
+
+#: recurrenceedit.cpp:1283
+msgctxt "@info"
+msgid "No day selected"
+msgstr ""
+
+#: recurrenceedit.cpp:1312
+msgctxt "@label Time unit for user-entered number"
+msgid "day(s)"
+msgstr ""
+
+#: recurrenceedit.cpp:1313
+msgctxt "@info:whatsthis"
+msgid "Enter the number of days between repetitions of the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1314
+msgctxt "@info:whatsthis"
+msgid "Select the days of the week on which the alarm is allowed to occur"
+msgstr ""
+
+#: recurrenceedit.cpp:1325
+msgctxt "@label Time unit for user-entered number"
+msgid "week(s)"
+msgstr ""
+
+#: recurrenceedit.cpp:1326
+msgctxt "@info:whatsthis"
+msgid "Enter the number of weeks between repetitions of the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1327
+msgctxt "@info:whatsthis"
+msgid "Select the days of the week on which to repeat the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1350
+msgctxt "@option:radio On day number in the month"
+msgid "O&n day"
+msgstr ""
+
+#: recurrenceedit.cpp:1354
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm on the selected day of the month"
+msgstr ""
+
+#: recurrenceedit.cpp:1361
+msgctxt "@item:inlistbox Last day of month"
+msgid "Last"
+msgstr ""
+
+#: recurrenceedit.cpp:1364
+msgctxt "@info:whatsthis"
+msgid "Select the day of the month on which to repeat the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1378
+msgctxt "@option:radio On the 1st Tuesday"
+msgid "On t&he"
+msgstr ""
+
+#: recurrenceedit.cpp:1382
+msgctxt "@info:whatsthis"
+msgid ""
+"Repeat the alarm on one day of the week, in the selected week of the month"
+msgstr ""
+
+#: recurrenceedit.cpp:1386
+msgctxt "@item:inlistbox"
+msgid "1st"
+msgstr ""
+
+#: recurrenceedit.cpp:1387
+msgctxt "@item:inlistbox"
+msgid "2nd"
+msgstr ""
+
+#: recurrenceedit.cpp:1388
+msgctxt "@item:inlistbox"
+msgid "3rd"
+msgstr ""
+
+#: recurrenceedit.cpp:1389
+msgctxt "@item:inlistbox"
+msgid "4th"
+msgstr ""
+
+#: recurrenceedit.cpp:1390
+msgctxt "@item:inlistbox"
+msgid "5th"
+msgstr ""
+
+#: recurrenceedit.cpp:1391
+msgctxt "@item:inlistbox Last Monday in March"
+msgid "Last"
+msgstr ""
+
+#: recurrenceedit.cpp:1392
+msgctxt "@item:inlistbox"
+msgid "2nd Last"
+msgstr ""
+
+#: recurrenceedit.cpp:1393
+msgctxt "@item:inlistbox"
+msgid "3rd Last"
+msgstr ""
+
+#: recurrenceedit.cpp:1394
+msgctxt "@item:inlistbox"
+msgid "4th Last"
+msgstr ""
+
+#: recurrenceedit.cpp:1395
+msgctxt "@item:inlistbox"
+msgid "5th Last"
+msgstr ""
+
+#: recurrenceedit.cpp:1398
+msgctxt "@item:inlistbox Every (Monday...) in month"
+msgid "Every"
+msgstr ""
+
+#: recurrenceedit.cpp:1401
+msgctxt "@info:whatsthis"
+msgid "Select the week of the month in which to repeat the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1416
+msgctxt "@info:whatsthis"
+msgid "Select the day of the week on which to repeat the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1539
+msgctxt "@label Time unit for user-entered number"
+msgid "month(s)"
+msgstr ""
+
+#: recurrenceedit.cpp:1540
+msgctxt "@info:whatsthis"
+msgid "Enter the number of months between repetitions of the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1551
+msgctxt "@label Time unit for user-entered number"
+msgid "year(s)"
+msgstr ""
+
+#: recurrenceedit.cpp:1552
+msgctxt "@info:whatsthis"
+msgid "Enter the number of years between repetitions of the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1559
+msgctxt "@label List of months to select"
+msgid "Months:"
+msgstr ""
+
+#: recurrenceedit.cpp:1581
+msgctxt "@info:whatsthis"
+msgid "Select the months of the year in which to repeat the alarm"
+msgstr ""
+
+#: recurrenceedit.cpp:1590
+msgctxt "@label:listbox"
+msgid "February 2&9th alarm in non-leap years:"
+msgstr ""
+
+#: recurrenceedit.cpp:1594
+msgctxt "@item:inlistbox No date"
+msgid "None"
+msgstr ""
+
+#: recurrenceedit.cpp:1595
+msgctxt "@item:inlistbox 1st March (short form)"
+msgid "1 Mar"
+msgstr ""
+
+#: recurrenceedit.cpp:1596
+msgctxt "@item:inlistbox 28th February (short form)"
+msgid "28 Feb"
+msgstr ""
+
+#: recurrenceedit.cpp:1602
+msgctxt "@info:whatsthis"
+msgid ""
+"Select which date, if any, the February 29th alarm should trigger in non-"
+"leap years"
+msgstr ""
+
+#: recurrenceedit.cpp:1686
+msgctxt "@info"
+msgid "No month selected"
+msgstr ""
+
+#: functions.cpp:156
+msgctxt "@action"
+msgid "Enable &Alarms"
+msgstr ""
+
+#: functions.cpp:169
+msgctxt "@action"
+msgid "Stop Play"
+msgstr ""
+
+#: functions.cpp:182
+msgctxt "@action"
+msgid "Spread Windows"
+msgstr ""
+
+#: functions.cpp:819
+msgctxt "@info"
+msgid "Error saving alarms"
+msgstr ""
+
+#: functions.cpp:820
+msgctxt "@info"
+msgid "Error saving alarm"
+msgstr ""
+
+#: functions.cpp:823
+msgctxt "@info"
+msgid "Error deleting alarms"
+msgstr ""
+
+#: functions.cpp:824
+msgctxt "@info"
+msgid "Error deleting alarm"
+msgstr ""
+
+#: functions.cpp:827
+msgctxt "@info"
+msgid "Error saving reactivated alarms"
+msgstr ""
+
+#: functions.cpp:828
+msgctxt "@info"
+msgid "Error saving reactivated alarm"
+msgstr ""
+
+#: functions.cpp:831
+msgctxt "@info"
+msgid "Error saving alarm templates"
+msgstr ""
+
+#: functions.cpp:832
+msgctxt "@info"
+msgid "Error saving alarm template"
+msgstr ""
+
+#: functions.cpp:851
+msgctxt "@info"
+msgid "Unable to show alarms in KOrganizer"
+msgstr ""
+
+#: functions.cpp:852
+msgctxt "@info"
+msgid "Unable to show alarm in KOrganizer"
+msgstr ""
+
+#: functions.cpp:855
+msgctxt "@info"
+msgid "Unable to update alarm in KOrganizer"
+msgstr ""
+
+#: functions.cpp:858
+msgctxt "@info"
+msgid "Unable to delete alarms from KOrganizer"
+msgstr ""
+
+#: functions.cpp:859
+msgctxt "@info"
+msgid "Unable to delete alarm from KOrganizer"
+msgstr ""
+
+#: functions.cpp:866
+#, kde-format
+msgctxt "@info"
+msgid "<para>%1</para><para>(KOrganizer not fully started)</para>"
+msgstr ""
+
+#: functions.cpp:868
+#, kde-format
+msgctxt "@info"
+msgid "<para>%1</para><para>(Error communicating with KOrganizer)</para>"
+msgstr ""
+
+#: functions.cpp:1012
+msgctxt "@info"
+msgid "You must enable a template calendar to save the template in"
+msgstr ""
+
+#: functions.cpp:1193
+#, kde-format
+msgctxt "@info Please set the 'From' email address..."
+msgid ""
+"<para>%1</para><para>Please set it in the Configuration dialog.</para>"
+msgstr ""
+
+#: functions.cpp:1197
+msgctxt "@info"
+msgid ""
+"<para>Alarms are currently disabled.</para><para>Do you want to enable "
+"alarms now?</para>"
+msgstr ""
+
+#: functions.cpp:1198
+msgctxt "@action:button"
+msgid "Enable"
+msgstr ""
+
+#: functions.cpp:1198
+msgctxt "@action:button"
+msgid "Keep Disabled"
+msgstr ""
+
+#: functions.cpp:1265
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Unable to start <application>KMail</application><nl/>(<message>%1</message>)"
+msgstr ""
+
+#: functions.cpp:1543
+msgctxt "@info"
+msgid "Please select a file to display"
+msgstr ""
+
+#: functions.cpp:1545
+msgctxt "@info"
+msgid "Please select a file to play"
+msgstr ""
+
+#: functions.cpp:1551
+#, kde-format
+msgctxt "@info"
+msgid "<filename>%1</filename> is a folder"
+msgstr ""
+
+#: functions.cpp:1553
+#, kde-format
+msgctxt "@info"
+msgid "<filename>%1</filename> not found"
+msgstr ""
+
+#: functions.cpp:1554
+#, kde-format
+msgctxt "@info"
+msgid "<filename>%1</filename> is not readable"
+msgstr ""
+
+#: functions.cpp:1555
+#, kde-format
+msgctxt "@info"
+msgid "<filename>%1</filename> appears not to be a text or image file"
+msgstr ""
+
+#: kalarmapp.cpp:317
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"<icode>%1</icode>: Event <resource>%2</resource> not found, or not editable"
+msgstr ""
+
+#: kalarmapp.cpp:528
+msgctxt "@info"
+msgid ""
+"Quitting will disable alarms (once any alarm message windows are closed)."
+msgstr ""
+
+#: kalarmapp.cpp:1704
+msgctxt "@info"
+msgid "Error creating temporary script file"
+msgstr ""
+
+#: kalarmapp.cpp:1790
+msgctxt "@info"
+msgid "Pre-alarm action:"
+msgstr ""
+
+#: kalarmapp.cpp:1796
+msgctxt "@info"
+msgid "Post-alarm action:"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:53
+#. i18n: ectx: label, entry (Version), group (General)
+#: rc.cpp:3 rc.cpp:372
+msgctxt "@label"
+msgid "KAlarm version"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:54
+#. i18n: ectx: whatsthis, entry (Version), group (General)
+#: rc.cpp:6 rc.cpp:375
+msgctxt "@info:whatsthis"
+msgid "KAlarm version which wrote this file."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:57
+#. i18n: ectx: label, entry (Base_TimeZone), group (General)
+#: rc.cpp:9 rc.cpp:378
+msgctxt "@label"
+msgid "Time zone"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:62
+#. i18n: ectx: label, entry (Base_HolidayRegion), group (General)
+#: rc.cpp:15 rc.cpp:384
+msgctxt "@label"
+msgid "Holiday region"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:63
+#. i18n: ectx: whatsthis, entry (Base_HolidayRegion), group (General)
+#: rc.cpp:18 rc.cpp:387
+msgctxt "@info:whatsthis"
+msgid "Select the holiday region to use."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:67
+#. i18n: ectx: label, entry (DefaultFgColour), group (General)
+#: rc.cpp:21 rc.cpp:390
+msgctxt "@label"
+msgid "Foreground color"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:68
+#. i18n: ectx: whatsthis, entry (DefaultFgColour), group (General)
+#: rc.cpp:24 rc.cpp:393
+msgctxt "@info:whatsthis"
+msgid "Default foreground color for alarm message windows."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:72
+#. i18n: ectx: label, entry (DefaultBgColour), group (General)
+#: rc.cpp:27 rc.cpp:396
+msgctxt "@label"
+msgid "Background color"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:73
+#. i18n: ectx: whatsthis, entry (DefaultBgColour), group (General)
+#: rc.cpp:30 rc.cpp:399
+msgctxt "@info:whatsthis"
+msgid "Default background color for alarm message windows."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:77
+#. i18n: ectx: label, entry (MessageFont), group (General)
+#: rc.cpp:33 rc.cpp:402
+msgctxt "@label"
+msgid "Message font"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:78
+#. i18n: ectx: whatsthis, entry (MessageFont), group (General)
+#: rc.cpp:36 rc.cpp:405
+msgctxt "@info:whatsthis"
+msgid "Default font for displaying alarm messages."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:82
+#. i18n: ectx: label, entry (ShowInSystemTray), group (General)
+#: rc.cpp:39 rc.cpp:408
+msgctxt "@label"
+msgid "Show in system tray"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:88
+#. i18n: ectx: label, entry (AutoStart), group (General)
+#: rc.cpp:45 rc.cpp:414
+msgctxt "@label"
+msgid "Start at login"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:93
+#. i18n: ectx: label, entry (DefaultDeferTime), group (General)
+#: rc.cpp:51 rc.cpp:420
+msgctxt "@label"
+msgid "Default defer time interval"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:94
+#. i18n: ectx: whatsthis, entry (DefaultDeferTime), group (General)
+#: rc.cpp:54 rc.cpp:423
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the default time interval (in minutes) to defer alarms, used by the "
+"Defer Alarm dialog."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:98
+#. i18n: ectx: label, entry (AskResource), group (General)
+#: rc.cpp:57 rc.cpp:426
+msgctxt "@label"
+msgid "Prompt for which calendar to store in"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:104
+#. i18n: ectx: label, entry (ModalMessages), group (General)
+#: rc.cpp:63 rc.cpp:432
+msgctxt "@label"
+msgid "Message windows have a title bar and take keyboard focus"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:109
+#. i18n: ectx: label, entry (MessageButtonDelay), group (General)
+#: rc.cpp:69 rc.cpp:438
+msgctxt "@label"
+msgid "Delay before message window buttons are enabled"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:114
+#. i18n: ectx: whatsthis, entry (MessageButtonDelay), group (General)
+#: rc.cpp:72 rc.cpp:441
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify the positioning of alarm message windows, and the delay in "
+"seconds after a window shows until its buttons are enabled.\n"
+"        <list><item>0 to position message windows as far from the cursor as "
+"possible with no enable delay.</item>\n"
+"        <item>> 0 to position in center of screen and specify delay before "
+"enabling buttons.</item>\n"
+"        <item>-1 for no special positioning and no enable "
+"delay.</item></list></para>\n"
+"      "
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:120
+#. i18n: ectx: label, entry (TooltipAlarmCount), group (General)
+#: rc.cpp:79 rc.cpp:448
+msgctxt "@label"
+msgid "Number of alarms to show in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:125
+#. i18n: ectx: whatsthis, entry (TooltipAlarmCount), group (General)
+#: rc.cpp:82 rc.cpp:451
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>How many alarms due in the next 24 hours to show in the system tray "
+"tooltip:\n"
+"        <list><item>0 to display none</item>\n"
+"        <item>-1 to display all</item>\n"
+"        <item>>0 to set a limit.</item></list></para>\n"
+"      "
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:130
+#. i18n: ectx: label, entry (ShowTooltipAlarmTime), group (General)
+#: rc.cpp:89 rc.cpp:458
+msgctxt "@label"
+msgid "Show alarm times in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:135
+#. i18n: ectx: label, entry (ShowTooltipTimeToAlarm), group (General)
+#: rc.cpp:95 rc.cpp:464
+msgctxt "@label"
+msgid "Show time to alarms in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:140
+#. i18n: ectx: label, entry (TooltipTimeToPrefix), group (General)
+#: rc.cpp:101 rc.cpp:470
+msgctxt "@label"
+msgid "Time-to-alarm prefix in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:145
+#. i18n: ectx: label, entry (EmailClient), group (General)
+#: rc.cpp:107 rc.cpp:476
+msgctxt "@label"
+msgid "Email client"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:146
+#. i18n: ectx: whatsthis, entry (EmailClient), group (General)
+#: rc.cpp:110 rc.cpp:479
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>How to send email when an email alarm is triggered.<list><item>KMail: "
+"The email is sent automatically via <application>KMail</application>. "
+"<application>KMail</application> is started first if "
+"necessary.</item><item>Sendmail: The email is sent automatically. This "
+"option will only work if your system is configured to use "
+"<application>sendmail</application> or a sendmail compatible mail transport "
+"agent.</item></list></para>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:148
+#. i18n: ectx: label, entry (EmailClient), group (General)
+#: rc.cpp:113 rc.cpp:482
+msgctxt "@option"
+msgid "Sendmail"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:149
+#. i18n: ectx: label, entry (EmailClient), group (General)
+#: rc.cpp:116 rc.cpp:485
+msgctxt "@option"
+msgid "KMail"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:154
+#. i18n: ectx: label, entry (Base_EmailCopyToKMail), group (General)
+#: rc.cpp:119 rc.cpp:488
+msgctxt "@label"
+msgid "Whether to copy sent emails into KMail's Sent folder."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:155
+#. i18n: ectx: whatsthis, entry (Base_EmailCopyToKMail), group (General)
+#: rc.cpp:122 rc.cpp:491
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether after sending an email to store a copy in KMail's sent-mail folder. "
+"Only applies when sendmail is selected as the email client."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:159
+#. i18n: ectx: label, entry (Base_EmailFrom), group (General)
+#: rc.cpp:125 rc.cpp:494
+msgctxt "@label"
+msgid "'From' email address"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:160
+#. i18n: ectx: whatsthis, entry (Base_EmailFrom), group (General)
+#: rc.cpp:128 rc.cpp:497
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email address, used to identify you as the sender when sending email "
+"alarms. Enter \"@SystemSettings\" to use the email address set in System "
+"Settings, \"@KMail\" to allow choice of KMail identities, or enter the "
+"actual email address otherwise."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:164
+#. i18n: ectx: label, entry (Base_EmailBccAddress), group (General)
+#: rc.cpp:131 rc.cpp:500
+msgctxt "@label"
+msgid "'Bcc' email address"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:165
+#. i18n: ectx: whatsthis, entry (Base_EmailBccAddress), group (General)
+#: rc.cpp:134 rc.cpp:503
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email address, used for blind copying email alarms to yourself. If you "
+"want blind copies to be sent to your account on the computer which KAlarm "
+"runs on, you can simply enter your user login name. Enter "
+"\"@SystemSettings\" to use the email address set in System Settings, or "
+"enter the actual email address otherwise."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:169
+#. i18n: ectx: label, entry (Base_CmdXTermCommand), group (General)
+#: rc.cpp:137 rc.cpp:506
+msgctxt "@label"
+msgid "Terminal for command alarms"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:170
+#. i18n: ectx: whatsthis, entry (Base_CmdXTermCommand), group (General)
+#: rc.cpp:140 rc.cpp:509
+msgctxt "@info:whatsthis"
+msgid ""
+"Command line to execute command alarms in a terminal window, including "
+"special codes described in the KAlarm handbook."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:173
+#. i18n: ectx: label, entry (Base_StartOfDay), group (General)
+#: rc.cpp:143 rc.cpp:512
+msgctxt "@label"
+msgid "Start of day for date-only alarms"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:174
+#. i18n: ectx: whatsthis, entry (Base_StartOfDay), group (General)
+#: rc.cpp:146 rc.cpp:515
+msgctxt "@info:whatsthis"
+msgid ""
+"The earliest time of day at which a date-only alarm will be triggered."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:179
+#. i18n: ectx: label, entry (Base_WorkDayStart), group (General)
+#: rc.cpp:149 rc.cpp:518
+msgctxt "@label"
+msgid "Start time of working day"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:180
+#. i18n: ectx: whatsthis, entry (Base_WorkDayStart), group (General)
+#: rc.cpp:152 rc.cpp:521
+msgctxt "@info:whatsthis"
+msgid "The start time of the working day."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:185
+#. i18n: ectx: label, entry (Base_WorkDayEnd), group (General)
+#: rc.cpp:155 rc.cpp:524
+msgctxt "@label"
+msgid "End time of working day"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:186
+#. i18n: ectx: whatsthis, entry (Base_WorkDayEnd), group (General)
+#: rc.cpp:158 rc.cpp:527
+msgctxt "@info:whatsthis"
+msgid "The end time of the working day."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:191
+#. i18n: ectx: label, entry (Base_WorkDays), group (General)
+#: rc.cpp:161 rc.cpp:530
+msgctxt "@label"
+msgid "Working days"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:192
+#. i18n: ectx: whatsthis, entry (Base_WorkDays), group (General)
+#: rc.cpp:164 rc.cpp:533
+msgctxt "@info:whatsthis"
+msgid ""
+"OR'ed bits indicating which days of the week are work days, 1 = Monday ... "
+"64 = Sunday."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:197
+#. i18n: ectx: label, entry (DisabledColour), group (General)
+#: rc.cpp:167 rc.cpp:536
+msgctxt "@label"
+msgid "Disabled alarm color"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:203
+#. i18n: ectx: label, entry (ArchivedColour), group (General)
+#: rc.cpp:173 rc.cpp:542
+msgctxt "@label"
+msgid "Archived alarm color"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:209
+#. i18n: ectx: label, entry (ArchivedKeepDays), group (General)
+#: rc.cpp:179 rc.cpp:548
+msgctxt "@label"
+msgid "Days to keep expired alarms"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:214
+#. i18n: ectx: whatsthis, entry (ArchivedKeepDays), group (General)
+#: rc.cpp:182 rc.cpp:551
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify how many days to keep alarms after they expire or are deleted "
+"(except deleted alarms which were never triggered):\n"
+"        <list><item>0 to not keep</item>\n"
+"        <item>-1 to keep indefinitely</item>\n"
+"        <item>>0 number of days to keep.</item></list></para>\n"
+"      "
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:220
+#. i18n: ectx: label, entry (KOrgEventDuration), group (General)
+#: rc.cpp:189 rc.cpp:558
+msgctxt "@label"
+msgid "KOrganizer event duration"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:221
+#. i18n: ectx: whatsthis, entry (KOrgEventDuration), group (General)
+#: rc.cpp:192 rc.cpp:561
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the event duration in minutes, for alarms which are copied to "
+"KOrganizer."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:227
+#. i18n: ectx: label, entry (DefaultLateCancel), group (Defaults)
+#: rc.cpp:195 rc.cpp:564
+msgctxt "@label"
+msgid "Cancel if late (minutes)"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:228
+#. i18n: ectx: whatsthis, entry (DefaultLateCancel), group (Defaults)
+#: rc.cpp:198 rc.cpp:567
+msgctxt "@info:whatsthis"
+msgid ""
+"Default value in the alarm edit dialog for late cancellation time (in "
+"minutes). 0 for no late cancellation, >0 how many minutes before cancelling."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:233
+#. i18n: ectx: label, entry (DefaultAutoClose), group (Defaults)
+#: rc.cpp:201 rc.cpp:570
+msgctxt "@label"
+msgid "Auto-close window after late-cancellation time"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:234
+#. i18n: ectx: whatsthis, entry (DefaultAutoClose), group (Defaults)
+#: rc.cpp:204 rc.cpp:573
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for \"auto close if late\"."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:238
+#. i18n: ectx: label, entry (DefaultConfirmAck), group (Defaults)
+#: rc.cpp:207 rc.cpp:576
+msgctxt "@label"
+msgid "Confirm acknowledgement"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:239
+#. i18n: ectx: whatsthis, entry (DefaultConfirmAck), group (Defaults)
+#: rc.cpp:210 rc.cpp:579
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting in the alarm edit dialog for \"confirm alarm "
+"acknowledgement\"."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:243
+#. i18n: ectx: label, entry (DefaultCopyToKOrganizer), group (Defaults)
+#: rc.cpp:213 rc.cpp:582
+msgctxt "@label"
+msgid "Show in KOrganizer"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:244
+#. i18n: ectx: whatsthis, entry (DefaultCopyToKOrganizer), group (Defaults)
+#: rc.cpp:216 rc.cpp:585
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for \"show in KOrganizer\"."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:248
+#. i18n: ectx: label, entry (DefaultSoundType), group (Defaults)
+#: rc.cpp:219 rc.cpp:588
+msgctxt "@label Label for audio options"
+msgid "Sound"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:249
+#. i18n: ectx: whatsthis, entry (DefaultSoundType), group (Defaults)
+#: rc.cpp:222 rc.cpp:591
+msgctxt "@info:whatsthis"
+msgid "Default sound type in the alarm edit dialog."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:253
+#. i18n: ectx: label, entry (DefaultSoundType), group (Defaults)
+#: rc.cpp:225 rc.cpp:594
+msgctxt "@option"
+msgid "Play File"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:259
+#. i18n: ectx: label, entry (DefaultSoundFile), group (Defaults)
+#: rc.cpp:228 rc.cpp:597
+msgctxt "@label"
+msgid "Sound file"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:260
+#. i18n: ectx: whatsthis, entry (DefaultSoundFile), group (Defaults)
+#: rc.cpp:231 rc.cpp:600
+msgctxt "@info:whatsthis"
+msgid "Default sound file path in the alarm edit dialog."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:263
+#. i18n: ectx: label, entry (Base_DefaultSoundVolume), group (Defaults)
+#: rc.cpp:234 rc.cpp:603
+msgctxt "@label"
+msgid "Sound volume"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:264
+#. i18n: ectx: whatsthis, entry (Base_DefaultSoundVolume), group (Defaults)
+#: rc.cpp:238 rc.cpp:607
+#, no-c-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Default sound volume in the alarm edit dialog. -1 to deselect volume, or 0 - "
+"100 %"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:270
+#. i18n: ectx: label, entry (DefaultSoundRepeat), group (Defaults)
+#: rc.cpp:241 rc.cpp:610
+msgctxt "@label"
+msgid "Repeat sound file"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:271
+#. i18n: ectx: whatsthis, entry (DefaultSoundRepeat), group (Defaults)
+#: rc.cpp:244 rc.cpp:613
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for sound repetition."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:275
+#. i18n: ectx: label, entry (DefaultCmdScript), group (Defaults)
+#: rc.cpp:247 rc.cpp:616
+msgctxt "@label"
+msgid "Enter script"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:276
+#. i18n: ectx: whatsthis, entry (DefaultCmdScript), group (Defaults)
+#: rc.cpp:250 rc.cpp:619
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for command script entry."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:280
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:253 rc.cpp:622
+msgctxt "@label"
+msgid "Command output"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:281
+#. i18n: ectx: whatsthis, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:256 rc.cpp:625
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting in the alarm edit dialog for where to send command alarm "
+"output."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:283
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:259 rc.cpp:628
+msgctxt "@option"
+msgid "Discard Output"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:284
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:262 rc.cpp:631
+msgctxt "@option"
+msgid "Log To File"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:285
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:265 rc.cpp:634
+msgctxt "@option"
+msgid "Execute in terminal window"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:290
+#. i18n: ectx: label, entry (DefaultCmdLogFile), group (Defaults)
+#: rc.cpp:268 rc.cpp:637
+msgctxt "@label"
+msgid "Log file"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:291
+#. i18n: ectx: whatsthis, entry (DefaultCmdLogFile), group (Defaults)
+#: rc.cpp:271 rc.cpp:640
+msgctxt "@info:whatsthis"
+msgid "Default log file path for command alarms in the alarm edit dialog."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:294
+#. i18n: ectx: label, entry (DefaultEmailBcc), group (Defaults)
+#: rc.cpp:274 rc.cpp:643
+msgctxt "@label"
+msgid "Copy email to self"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:295
+#. i18n: ectx: whatsthis, entry (DefaultEmailBcc), group (Defaults)
+#: rc.cpp:277 rc.cpp:646
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting in the alarm edit dialog for blind copying emails to self."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:299
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:280 rc.cpp:649
+msgctxt "@label"
+msgid "Recurrence period"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:302
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:286 rc.cpp:655
+msgctxt "@option"
+msgid "No recurrence"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:303
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:289 rc.cpp:658
+msgctxt "@option"
+msgid "At login"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:304
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:292 rc.cpp:661
+msgctxt "@option"
+msgid "Hourly/minutely"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:316
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:301 rc.cpp:670
+msgctxt "@option"
+msgid "February 28th"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:317
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:304 rc.cpp:673
+msgctxt "@option"
+msgid "March 1st"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:318
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:307 rc.cpp:676
+msgctxt "@option"
+msgid "Do not repeat"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:324
+#. i18n: ectx: label, entry (DefaultReminderUnits), group (Defaults)
+#: rc.cpp:310 rc.cpp:679
+msgctxt "@label"
+msgid "Reminder units"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:325
+#. i18n: ectx: whatsthis, entry (DefaultReminderUnits), group (Defaults)
+#: rc.cpp:313 rc.cpp:682
+msgctxt "@info:whatsthis"
+msgid "Default reminder time units in the alarm edit dialog."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:328
+#. i18n: ectx: label, entry (DefaultReminderUnits), group (Defaults)
+#: rc.cpp:316 rc.cpp:685
+msgctxt "@option"
+msgid "Hours/Minutes"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:333
+#. i18n: ectx: label, entry (DefaultPreAction), group (Defaults)
+#: rc.cpp:319 rc.cpp:688
+msgctxt "@label"
+msgid "Pre-alarm action"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:334
+#. i18n: ectx: whatsthis, entry (DefaultPreAction), group (Defaults)
+#: rc.cpp:322 rc.cpp:691
+msgctxt "@info:whatsthis"
+msgid "Default command to execute before displaying alarms."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:337
+#. i18n: ectx: label, entry (DefaultCancelOnPreActionError), group (Defaults)
+#: rc.cpp:325 rc.cpp:694
+msgctxt "@label"
+msgid "Cancel alarm on pre-alarm action error"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:338
+#. i18n: ectx: whatsthis, entry (DefaultCancelOnPreActionError), group (Defaults)
+#: rc.cpp:328 rc.cpp:697
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting for whether to cancel the alarm if the pre-alarm action "
+"command fails."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:342
+#. i18n: ectx: label, entry (DefaultPostAction), group (Defaults)
+#: rc.cpp:331 rc.cpp:700
+msgctxt "@label"
+msgid "Post-alarm action"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:343
+#. i18n: ectx: whatsthis, entry (DefaultPostAction), group (Defaults)
+#: rc.cpp:334 rc.cpp:703
+msgctxt "@info:whatsthis"
+msgid "Default command to execute after alarm message windows are closed."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:349
+#. i18n: ectx: label, entry (Base_QuitWarn), group (Notification Messages)
+#: rc.cpp:337 rc.cpp:706
+msgctxt "@label"
+msgid "Warn before quitting"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:350
+#. i18n: ectx: whatsthis, entry (Base_QuitWarn), group (Notification Messages)
+#: rc.cpp:340 rc.cpp:709
+msgctxt "@info:whatsthis"
+msgid "Whether to suppress a warning prompt before quitting KAlarm."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:354
+#. i18n: ectx: label, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
+#: rc.cpp:343 rc.cpp:712
+msgctxt "@label"
+msgid "Confirm alarm deletions"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:359
+#. i18n: ectx: label, entry (Base_EmailQueuedNotify), group (Notification Messages)
+#: rc.cpp:349 rc.cpp:718
+msgctxt "@label"
+msgid "Notify when remote emails are queued"
+msgstr ""
+
+#. i18n: file: kalarmui.rc:23
+#. i18n: ectx: Menu (file)
+#: rc.cpp:355 rc.cpp:733
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: kalarmui.rc:36
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:358 rc.cpp:736
+msgid "&Edit"
+msgstr ""
+
+#. i18n: file: kalarmui.rc:51
+#. i18n: ectx: Menu (view)
+#: rc.cpp:361 rc.cpp:739
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: kalarmui.rc:62
+#. i18n: ectx: Menu (actions)
+#: rc.cpp:364 rc.cpp:742
+msgid "&Actions"
+msgstr "कार्य"
+
+#. i18n: file: kalarmui.rc:72
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:367 rc.cpp:745
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#: rc.cpp:368
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:369
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#. i18n: file: akonadi/kalarmresource.kcfg:9
+#. i18n: ectx: label, entry (Path), group (General)
+#: rc.cpp:724
+msgid "Path to KAlarm calendar file."
+msgstr ""
+
+#. i18n: file: akonadi/kalarmresource.kcfg:13
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: rc.cpp:727
+msgid "Do not change the actual backend data."
+msgstr ""
+
+#. i18n: file: akonadi/kalarmresource.kcfg:17
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: rc.cpp:730
+msgid "Monitor file for changes."
+msgstr ""

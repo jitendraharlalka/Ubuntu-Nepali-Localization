@@ -1,0 +1,207 @@
+# translation of kwatchgnupg.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwatchgnupg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:46+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: aboutdata.cpp:40
+msgid "GnuPG log viewer"
+msgstr "GnuPG लग दर्शक"
+
+#: aboutdata.cpp:50
+msgid "Steffen Hansen"
+msgstr ""
+
+#: aboutdata.cpp:50
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: aboutdata.cpp:61
+msgid "KWatchGnuPG"
+msgstr "KWatchGnuPG"
+
+#: aboutdata.cpp:63
+msgid "(c) 2004 Klarälvdalens Datakonsult AB\n"
+msgstr ""
+
+#: kwatchgnupgconfig.cpp:75
+msgid "Configure KWatchGnuPG"
+msgstr "KWatchGnuPG कन्फिगर गर्नुहोस्"
+
+#: kwatchgnupgconfig.cpp:90
+msgid "WatchGnuPG"
+msgstr "WatchGnuPG"
+
+#: kwatchgnupgconfig.cpp:102
+msgid "&Executable:"
+msgstr "कार्यान्वयन योग्य:"
+
+#: kwatchgnupgconfig.cpp:111
+msgid "&Socket:"
+msgstr "सकेट:"
+
+#: kwatchgnupgconfig.cpp:120
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: kwatchgnupgconfig.cpp:121
+msgid "Basic"
+msgstr "आधारभूत"
+
+#: kwatchgnupgconfig.cpp:122
+msgid "Advanced"
+msgstr "उन्नत"
+
+#: kwatchgnupgconfig.cpp:123
+msgid "Expert"
+msgstr "विशेषज्ञ"
+
+#: kwatchgnupgconfig.cpp:124
+msgid "Guru"
+msgstr "गुरु"
+
+#: kwatchgnupgconfig.cpp:125
+msgid "Default &log level:"
+msgstr "पूर्वानिर्धारित लग स्तर:"
+
+#: kwatchgnupgconfig.cpp:133
+msgid "Log Window"
+msgstr "लग सञ्झ्याल"
+
+#: kwatchgnupgconfig.cpp:146
+msgctxt "history size spinbox suffix"
+msgid " line"
+msgid_plural " lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kwatchgnupgconfig.cpp:147
+msgid "unlimited"
+msgstr "असीमित"
+
+#: kwatchgnupgconfig.cpp:148
+msgid "&History size:"
+msgstr "इतिहास साइज:"
+
+#: kwatchgnupgconfig.cpp:152
+msgid "Set &Unlimited"
+msgstr "असीमित सेट गर्नुहोस्"
+
+#: kwatchgnupgconfig.cpp:159
+msgid "Enable &word wrapping"
+msgstr "शब्द बेराइ सक्षम पार्नुहोस्"
+
+#: kwatchgnupgmainwin.cpp:103
+#, kde-format
+msgid "[%1] Log cleared"
+msgstr ""
+
+#: kwatchgnupgmainwin.cpp:110
+msgid "C&lear History"
+msgstr "इतिहास खाली गर्नुहोस्"
+
+#: kwatchgnupgmainwin.cpp:141
+#, kde-format
+msgid "[%1] Log stopped"
+msgstr ""
+
+#: kwatchgnupgmainwin.cpp:156
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please install watchgnupg somewhere in your $PATH.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+
+#: kwatchgnupgmainwin.cpp:158
+#, kde-format
+msgid "[%1] Log started"
+msgstr ""
+
+#: kwatchgnupgmainwin.cpp:193
+msgid "There are no components available that support logging."
+msgstr "त्यहाँ लगिङ समर्थन गर्ने कुनै अवयव उपलब्ध छैनन् ।"
+
+#: kwatchgnupgmainwin.cpp:199
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr ""
+"watchgnupg लगिङ प्रक्रिया समाप्त भयो ।\n"
+"तपाईँ यसलाई पुन: सुरुआत गर्न चाहनुहुन्छ ?"
+
+#: kwatchgnupgmainwin.cpp:199
+msgid "Try Restart"
+msgstr "पुन: सुरुआत प्रयास गर्नुहोस्"
+
+#: kwatchgnupgmainwin.cpp:199
+msgid "Do Not Try"
+msgstr "प्रयास नगर्नुहोस्"
+
+#: kwatchgnupgmainwin.cpp:200
+msgid "====== Restarting logging process ====="
+msgstr "====== लगिङ प्रक्रिया पुन: सुरुआत गरिदैछ ====="
+
+#: kwatchgnupgmainwin.cpp:203
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+
+#: kwatchgnupgmainwin.cpp:234
+msgid "Save Log to File"
+msgstr "फाइलमा लग बचत गर्नुहोस्"
+
+#: kwatchgnupgmainwin.cpp:239
+#, kde-format
+msgid ""
+"The file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"\"%1\" नामकरण गरिएको फाइल पहिल्यै अवस्थित छ । तपाई यसलाई अधिलेखन गर्न "
+"निश्चित हुनुहुन्छ ?"
+
+#: kwatchgnupgmainwin.cpp:242
+msgid "Overwrite File"
+msgstr "फाइल अधिलेखन गर्नुहोस्"
+
+#: kwatchgnupgmainwin.cpp:249
+#, kde-format
+msgid "Could not save file %1: %2"
+msgstr ""
+
+#. i18n: file: kwatchgnupgui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kwatchgnupgui.rc:13
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:6
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:7
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:8
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com,,,"
+
+#: tray.cpp:57
+msgid "KWatchGnuPG Log Viewer"
+msgstr "KWatchGnuPG लग दर्शक"

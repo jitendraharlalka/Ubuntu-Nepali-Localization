@@ -1,0 +1,621 @@
+# translation of kmailcvt.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmailcvt\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2008-10-09 06:33+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kmailcvt.cpp:32
+msgid "KMailCVT Import Tool"
+msgstr "KMailCVT आयात उपकरण"
+
+#: kmailcvt.cpp:36
+msgid "Step 1: Select Filter"
+msgstr "चरण १: फिल्टर चयन गर्नुहोस्"
+
+#: kmailcvt.cpp:41
+msgid "Step 2: Importing..."
+msgstr "चरण २: आयात गर्दैछ..."
+
+#: kmailcvt.cpp:86
+msgid "Import in progress"
+msgstr "आयात प्रगतिमा"
+
+#: kmailcvt.cpp:89
+msgid "Import finished"
+msgstr "आयात समाप्त"
+
+#: filter_outlook.cxx:26
+msgid "Import Outlook Emails"
+msgstr "आउटलुक इमेल आयात गर्नुहोस्"
+
+#: filter_outlook.cxx:28
+msgid ""
+"<p><b>Outlook email import filter</b></p><p>This filter will import mails "
+"from a Outlook pst-file. You will need to locate the folder where the pst-"
+"file has been stored by searching for .pst files under: <i>C:\\Documents and "
+"Settings</i> in Windows 2000 or later</p><p><b>Note:</b> Emails will be "
+"imported into a folder named after the account they came from, prefixed with "
+"OUTLOOK-</p>"
+msgstr ""
+"<p><b>आउटलुक इमेल आयात फिल्टर</b></p><p>यो फिल्टरले आउटलुक pst फाइलबाट मेल "
+"आयात गर्नेछ । तपाईँले pst फाइल भण्डारण गरिएको ठाउमा .pst फाइल: विन्डोज २००० "
+"वा पछिको <i>C:\\कागजात र सेटिङ</i> मा खोजेर फोल्डर तोक्नु आवश्यक "
+"हुन्छ</p><p><b>टिप्पणी:</b> इमेललाई तिनीहरू आएको खाताको, OUTLOOK उपसर्ग भएका "
+"नाम दिए पछि फोल्डरमा आयात गरिन्छन्</p>"
+
+#: filter_outlook.cxx:42 filter_kmail_maildir.cxx:55
+#: filter_evolution_v2.cxx:63 filter_thebat.cxx:59 filter_plain.cxx:42
+#: filter_oe.cxx:57 filter_pmail.cxx:52 filter_thunderbird.cxx:63
+#: filter_sylpheed.cxx:54 filter_evolution.cxx:56 filter_opera.cxx:159
+msgid "No directory selected."
+msgstr "डाइरेक्टरी चयन गरिएको छैन ।"
+
+#: filter_outlook.cxx:43 filter_plain.cxx:49 filter_pmail.cxx:57
+#: filter_opera.cxx:174
+msgid "Counting files..."
+msgstr "फाइल गणना गर्दैछ..."
+
+#: filter_outlook.cxx:44
+msgid "Counting mail..."
+msgstr "मेल गणना गर्दैछ..."
+
+#: filter_outlook.cxx:45
+msgctxt "'directories' means directories on hard disc, not email-folders."
+msgid "Counting directories..."
+msgstr ""
+
+#: filter_outlook.cxx:46
+msgctxt "'folders' means email-folders, not folders on disc."
+msgid "Counting folders..."
+msgstr ""
+
+#: filter_outlook.cxx:47 filter_plain.cxx:53 filter_opera.cxx:65
+msgid "Importing new mail files..."
+msgstr "नयाँ मेल फाइल आयात गर्दैछ..."
+
+#: filter_outlook.cxx:48 filter_kmail_maildir.cxx:62
+#: filter_evolution_v2.cxx:70 filter_thebat.cxx:66 filter_thunderbird.cxx:70
+#: filter_sylpheed.cxx:61 filter_evolution.cxx:63 filter_opera.cxx:166
+msgid "No files found for import."
+msgstr "आयात गर्नका लागि फाइल फेला परेका छैनन् ।"
+
+#: filter_outlook.cxx:55 filter_mailapp.cxx:65 filter_evolution.cxx:144
+#: filter_opera.cxx:72 filter_mbox.cxx:59
+#, kde-format
+msgid "Importing emails from %1..."
+msgstr "%1 बाट इमेल आयात गर्दैछ..."
+
+#: filter_outlook.cxx:56 filter_kmail_maildir.cxx:83
+#: filter_evolution_v2.cxx:100 filter_thebat.cxx:83 filter_plain.cxx:80
+#: filter_thunderbird.cxx:99 filter_sylpheed.cxx:78 filter_evolution.cxx:194
+#: filter_opera.cxx:130
+#, kde-format
+msgid "1 duplicate message not imported"
+msgid_plural "%1 duplicate messages not imported"
+msgstr[0] "1 नक्कली सन्देश आयात गरिएको छैन"
+msgstr[1] "%1 नक्कली सन्देश आयात गरिएका छैनन्"
+
+#: filter_outlook.cxx:57 filter_mailapp.cxx:57 filter_evolution_v2.cxx:161
+#: filter_lnotes.cxx:87 filter_thebat.cxx:149 filter_pmail.cxx:162
+#: filter_pmail.cxx:230 filter_pmail.cxx:248 filter_pmail.cxx:287
+#: filter_thunderbird.cxx:160 filter_evolution.cxx:123 filter_opera.cxx:70
+#: filter_mbox.cxx:53
+#, kde-format
+msgid "Unable to open %1, skipping"
+msgstr "%1 खोल्न असमर्थ, फड्किदैछ"
+
+#: kselfilterpage.cpp:80
+#, kde-format
+msgid "<p><i>Written by %1.</i></p>"
+msgstr "<p><i>%1 द्वारा लेखिएको ।</i></p>"
+
+#: filter_kmail_maildir.cxx:25
+msgid "Import KMail Maildirs and Folder Structure"
+msgstr "केडीई मेल Maildirs र फोल्डर संरचना आयात गर्नुहोस्"
+
+#: filter_kmail_maildir.cxx:27
+msgid ""
+"<p><b>KMail import filter</b></p><p>Select the base directory of the KMail "
+"mailfolder you want to import.</p><p><b>Note:</b> Never select your current "
+"local KMail maildir (usually ~/Mail or ~/.kde/share/apps/kmail/mail ): in "
+"this case, KMailCVT may become stuck in a continuous loop. </p><p>This "
+"filter does not import KMail mailfolders with mbox files.</p><p>Since it is "
+"possible to recreate the folder structure, the folders will be stored under: "
+"\"KMail-Import\" in your local folder.</p>"
+msgstr ""
+"<p><b>केडीई मेल आयात फिल्टर</b></p><p>तपाईँले आयात गर्न चाहेको केडीई मेल मेल "
+"फोल्डरको आधार डाइरेक्टरी चयन गर्नुहोस् ।</p><p><b>द्रष्टव्य:</b> कहिल्यै पनि "
+"तपाईँको हालको स्थानीय केडीई मेल maildir (usually ~/Mail वा "
+"~/.kde/share/apps/kmail/mail ) चयन नगर्नुहोस्: यो अवस्थामा, KMailCVT जारी "
+"लूपमा टासिएको हुन सक्छ । </p><p>यो फिल्टरले केडीई मेल मेल फोल्डरसँग mbox "
+"फाइल आयात गर्दैन ।</p><p>फोल्डर संरचना पुन: सिर्जना गर्न सम्भव भएदेखि, "
+"फोल्डर: तपाईँको स्थानीय फोल्डरको \"केडीई मेल आयात गर्नुहोस्\" मा भण्डारण "
+"गरिन्छन् ।</p>"
+
+#: filter_kmail_maildir.cxx:81 filter_mailapp.cxx:114
+#: filter_evolution_v2.cxx:98 filter_thebat.cxx:81 filter_plain.cxx:78
+#: filter_pmail.cxx:75 filter_thunderbird.cxx:97 filter_sylpheed.cxx:76
+#: filter_evolution.cxx:75 filter_opera.cxx:128 filter_mbox.cxx:135
+#, kde-format
+msgid "Finished importing emails from %1"
+msgstr "%1 बाट इमेल आयात कार्य समाप्त"
+
+#: filter_kmail_maildir.cxx:85 filter_mailapp.cxx:123
+#: filter_evolution_v2.cxx:102 filter_thebat.cxx:85 filter_plain.cxx:82
+#: filter_oe.cxx:99 filter_thunderbird.cxx:102 filter_sylpheed.cxx:80
+#: filter_opera.cxx:183 filter_mbox.cxx:141
+msgid "Finished import, canceled by user."
+msgstr "आयात समाप्त, प्रयोगकर्ताद्वारा रद्द गरियो ।"
+
+#: filter_kmail_maildir.cxx:155 filter_thebat.cxx:197 filter_sylpheed.cxx:139
+#, kde-format
+msgid "Import folder %1..."
+msgstr "फोल्डर %1 आयात गर्नुहोस्..."
+
+#: filter_kmail_maildir.cxx:163 filter_kmail_maildir.cxx:168
+#: filter_plain.cxx:65 filter_plain.cxx:69 filter_sylpheed.cxx:152
+#: filter_sylpheed.cxx:157
+#, kde-format
+msgid "Could not import %1"
+msgstr "%1 आयात गर्न सकेन"
+
+#: filter_mailapp.cxx:31
+msgid "Import From OS X Mail"
+msgstr "OS X मेलबाट आयात गर्नुहोस्"
+
+#: filter_mailapp.cxx:33
+msgid ""
+"<p><b>OS X Mail Import Filter</b></p><p>This filter imports e-mails from the "
+"Mail client in Apple Mac OS X.</p>"
+msgstr ""
+"<p><b>OS X आयात फिल्टर</b></p><p>यो फिल्टरले इमेललाई मेल क्लाइन्टबाट Apple "
+"Mac OS X मा आयात गर्छ ।</p>"
+
+#: filter_mailapp.cxx:116 filter_mbox.cxx:137
+#, kde-format
+msgid "1 duplicate message not imported to folder %2 in KMail"
+msgid_plural "%1 duplicate messages not imported to folder %2 in KMail"
+msgstr[0] "केडीई मेलको %2 फोल्डरमा 1 नक्कली सन्देश आयात गरिएको छैन"
+msgstr[1] "केडीई मेलको %2 फोल्डरमा %1 नक्कली सन्देश आयात गरिएका छैनन्"
+
+#: filter_evolution_v2.cxx:27
+msgid "Import Evolution 2.x Local Mails and Folder Structure"
+msgstr "इभोल्युसन 2.x स्थानीय मेल र फोल्डर संरचना आयात गर्नुहोस्"
+
+#: filter_evolution_v2.cxx:29
+msgid ""
+"<p><b>Evolution 2.x import filter</b></p><p>Select the base directory of "
+"your local Evolution mailfolder (usually "
+"~/.evolution/mail/local/).</p><p><b>Note:</b> Never choose a Folder which "
+"<u>does not</u> contain mbox-files (for example a maildir): if you do, you "
+"will get many new folders.</p><p>Since it is possible to recreate the folder "
+"structure, the folders will be stored under: \"Evolution-Import\".</p>"
+msgstr ""
+"<p><b>इभोल्युसन 2.x आयात फिल्टर</b></p><p>तपाईँको स्थानीय इभोल्युसन मेल "
+"फोल्डरको आधार डाइरेक्टरी चयन गर्नुहोस् (usually ~/.evolution/mail/local/) "
+"।</p><p><b>द्रष्टव्य:</b> mbox फाइल समावेश<u>नगर्ने</u> फोल्डर कहिल्यै चयन "
+"नगर्नुहोस् (उदाहरणका लागि, एउटा maildir): तपाईँले यो कार्य गरेमा, तपाईँले "
+"धेरै नयाँ फोल्डर प्राप्त गर्न सक्नुहुनेछ ।</p><p>फोल्डर संरचना पुन: सिर्जना "
+"गर्न सम्भव छ भने, फोल्डर: \"इभोल्युसन आयात गर्नुहोस्\" मा भण्डारण गरिन्छन् "
+"।</p>"
+
+#: filter_evolution_v2.cxx:93 filter_evolution_v2.cxx:130
+#: filter_thunderbird.cxx:92 filter_thunderbird.cxx:128
+#, kde-format
+msgid "Start import file %1..."
+msgstr "फाइल %1 आयात गर्न सुरु गर्नुहोस्..."
+
+#: filter_kmail_archive.cxx:24
+msgid "Import KMail Archive File"
+msgstr ""
+
+#: filter_kmail_archive.cxx:26
+msgid ""
+"<p><b>KMail Archive File Import Filter</b></p><p>This filter will import "
+"archives files previously exported by KMail.</p><p>Archive files contain a "
+"complete folder subtree compressed into a single file.</p>"
+msgstr ""
+
+#: filter_lnotes.cxx:29
+msgid "Import Lotus Notes Emails"
+msgstr "लोटस टिपोट इमेल आयात गर्नुहोस्"
+
+#: filter_lnotes.cxx:31
+msgid ""
+"<p><b>Lotus Notes Structured Text mail import filter</b></p><p>This filter "
+"will import Structure Text files from an exported Lotus Notes email client "
+"into KMail. Use this filter if you want to import mails from Lotus or other "
+"mailers that use Lotus Notes' Structured Text format.</p><p><b>Note:</b> "
+"Since it is possible to recreate the folder structure, the imported messages "
+"will be stored in subfolders named by the files they came from under: "
+"\"LNotes-Import\" in your local folder.</p>"
+msgstr ""
+
+#: filter_lnotes.cxx:54
+msgid "All Files (*)"
+msgstr "सबै फाइल (*)"
+
+#: filter_lnotes.cxx:63
+#, kde-format
+msgid "Importing emails from %1"
+msgstr "%1 बाट इमेल आयात"
+
+#: filter_lnotes.cxx:107 filter_pmail.cxx:272
+#, kde-format
+msgid "Message %1"
+msgstr "सन्देश %1"
+
+#: filter_thebat.cxx:31
+msgid "Import The Bat! Mails and Folder Structure"
+msgstr "ब्याट ! मेल र फोल्डर संरचना आयात गर्नुहोस्"
+
+#: filter_thebat.cxx:33
+msgid ""
+"<p><b>The Bat! import filter</b></p><p>Select the base directory of the 'The "
+"Bat!' local mailfolder you want to import.</p><p><b>Note:</b> This filter "
+"imports the *.tbb-files from 'The Bat!' local folder, e.g. from POP "
+"accounts, and not from IMAP/DIMAP accounts.</p><p>Since it is possible to "
+"recreate the folder structure, the folders will be stored under: \"TheBat-"
+"Import\" in your local account.</p>"
+msgstr ""
+"<p><b>ब्याट! आयात फिल्टर</b></p><p>तपाईँले आयात गर्न चाहेको 'ब्याट!' स्थनीय "
+"मेल फोल्डरको आधार डाइरेक्टरी चयन गर्नुहोस् ।</p><p><b>द्रष्टव्य:</b> यो "
+"फिल्टरले 'ब्याट' स्थानीय फोल्डरबाट *.tbb फाइल, जस्तै: POP खाताबाट आयात गर्छ, "
+"र IMAP/DIMAP खाताबाट आयात गर्दैन ।</p><p>फोल्डर संरचना पुन: सिर्जना गर्न "
+"सम्भव भए देखि, फोल्डर तपाईँको स्थानीय खाताको: \"ब्याट आयात गर्नुहोस्\" मा "
+"भण्डारण गरिन्छ ।</p>"
+
+#: main.cpp:28
+msgid "KMailCVT"
+msgstr "KMailCVT"
+
+#: main.cpp:29
+msgid "KMail Import Filters"
+msgstr "केडीई मेल आयात फिल्टर"
+
+#: main.cpp:30
+msgid "(c) 2000-2009, The KMailCVT developers"
+msgstr ""
+
+#: main.cpp:31
+msgid "Hans Dijkema"
+msgstr "हान्स डिज्केमा"
+
+#: main.cpp:31
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:32
+msgid "Danny Kukawka"
+msgstr "डेनी कुकावका"
+
+#: main.cpp:32
+msgid "Maintainer & New filters"
+msgstr "मर्मतकर्ता र नयाँ फिल्टर"
+
+#: main.cpp:33
+msgid "Laurence Anderson"
+msgstr "लाउरेन्स एन्डर्सन"
+
+#: main.cpp:33 main.cpp:34
+msgid "New GUI & cleanups"
+msgstr "नयाँ GUI र क्लिनअप"
+
+#: main.cpp:34
+msgid "Daniel Molkentin"
+msgstr "डानिएल मोल्केन्टिन"
+
+#: filter_plain.cxx:25
+msgid "Import Plain Text Emails"
+msgstr "सादा पाठ इमेल आयात गर्नुहोस्"
+
+#: filter_plain.cxx:27
+msgid ""
+"<p>Select the directory containing the emails on your system. The emails are "
+"placed in a folder with the same name as the directory they were in, "
+"prefixed by PLAIN-</p><p>This filter will import all .msg, .eml and .txt "
+"emails.</p>"
+msgstr ""
+"<p>तपाईँको प्रणालीमा इमेल समाविष्ट डाइरेक्टरी चयन गर्नुहोस् । इमेललाई "
+"डाइरेक्टरीमा भएको नाममा, PLAIN उपसर्ग राखिएका फोल्डरमा राखिन्छन् </p><p>यो "
+"फिल्टरले all .msg, .eml र .txt इमेल आयात गर्नेछ ।</p>"
+
+#: filter_oe.cxx:37
+msgid "Import Outlook Express Emails"
+msgstr "आउटलुक एक्सप्रेस इमेल आयात गर्नुहोस्"
+
+#: filter_oe.cxx:39
+msgid ""
+"<p><b>Outlook Express 4/5/6 import filter</b></p><p>You will need to locate "
+"the folder where the mailbox has been stored by searching for .dbx or .mbx "
+"files under <ul><li><i>C:\\Windows\\Application Data</i> in Windows "
+"9x</li><li><i>Documents and Settings</i> in Windows 2000 or "
+"later</li></ul></p><p><b>Note:</b> Since it is possible to recreate the "
+"folder structure, the folders from Outlook Express 5 and 6 will be stored "
+"under: \"OE-Import\" in your local folder.</p>"
+msgstr ""
+
+#: filter_oe.cxx:64
+#, kde-format
+msgid "No Outlook Express mailboxes found in directory %1."
+msgstr "डाइरेक्टरी %1 मा आउटलुक एक्सप्रेस पत्र-मञ्जूषा फेला परेन ।"
+
+#: filter_oe.cxx:79
+msgid "Import folder structure..."
+msgstr "फोल्डर संरचना आयात गर्नुहोस्..."
+
+#: filter_oe.cxx:98
+msgid "Finished importing Outlook Express emails"
+msgstr "आउटलुक एक्सप्रेस इमेल आयात कार्य समाप्त"
+
+#: filter_oe.cxx:116
+#, kde-format
+msgid "Unable to open mailbox %1"
+msgstr "पत्र-मञ्जूषा %1 खोल्न असमर्थ"
+
+#: filter_oe.cxx:127
+#, kde-format
+msgid "Importing OE4 Mailbox %1"
+msgstr "OE4 पत्र-मञ्जूषा %1 आयात"
+
+#: filter_oe.cxx:141
+#, kde-format
+msgid "Importing OE5+ Mailbox %1"
+msgstr "OE5+ पत्र-मञ्जूषा %1 आयात"
+
+#: filter_oe.cxx:147
+#, kde-format
+msgid "Importing OE5+ Folder file %1"
+msgstr "OE5+ फोल्डर फाइल %1 आयात"
+
+#: filter_pmail.cxx:28
+msgid "Import Folders From Pegasus-Mail"
+msgstr "पेगासस मेलबाट फोल्डर आयात गर्नुहोस्"
+
+#: filter_pmail.cxx:30
+msgid ""
+"<p>Select the Pegasus-Mail directory on your system (containing *.CNM, *.PMM "
+"and *.MBX files). On many systems this is stored in C:\\pmail\\mail or C:\\"
+"pmail\\mail\\admin</p><p><b>Note:</b> Since it is possible to recreate the "
+"folder structure, the folders will be stored under: \"PegasusMail-"
+"Import\".</p>"
+msgstr ""
+"<p>तपाईँको प्रणालीमा पेगासस मेल डाइरेक्टरी चयन गर्नुहोस् (*.CNM, *.PMM and "
+"*.MBX फाइल समावेश गरेर) । धेरै प्रणालीमा यो C:\\pmail\\mail वा C:\\pmail\\"
+"mail\\admin</p> मा भण्डारण गरिन्छ<p><b>द्रष्टव्य:</b> फोल्डर संरचना पुन: "
+"सिर्जना गर्न सम्भव भए देखि, फोल्डर: \"पेगासस मेल आयात गर्नुहोस्\" मा भण्डारण "
+"गरिन्छन् ।</p>"
+
+#: filter_pmail.cxx:65
+msgid ""
+"Cannot parse the folder structure; continuing import without subfolder "
+"support."
+msgstr ""
+"फोल्डर संरचना पद वर्णन गर्न सकिँदैन; सब-फोल्डरको समर्थन बिना आयात जारी "
+"राख्नुहोस् ।"
+
+#: filter_pmail.cxx:68
+msgid "Importing new mail files ('.cnm')..."
+msgstr "नयाँ मेल फाइल ('.cnm') आयात गर्दैछ..."
+
+#: filter_pmail.cxx:70
+msgid "Importing mail folders ('.pmm')..."
+msgstr "मेल फोल्डर ('.pmm') आयात गर्दैछ..."
+
+#: filter_pmail.cxx:72
+msgid "Importing 'UNIX' mail folders ('.mbx')..."
+msgstr "'यूनिक्स' मेल फोल्डर ('.mbx') आयात गर्दैछ..."
+
+#: filter_pmail.cxx:172 filter_pmail.cxx:250
+#, kde-format
+msgid "Importing %1"
+msgstr "%1 को आयात"
+
+#: filter_pmail.cxx:283
+msgid "Parsing the folder structure..."
+msgstr "फोल्डर संरचना पद वर्णन गर्दैछ..."
+
+#: filter_thunderbird.cxx:27
+msgid "Import Thunderbird/Mozilla Local Mails and Folder Structure"
+msgstr "थन्डरबर्ड/मोजिला स्थानीय मेल र फोल्डर संरचना आयात गर्नुहोस्"
+
+#: filter_thunderbird.cxx:29
+msgid ""
+"<p><b>Thunderbird/Mozilla import filter</b></p><p>Select your base "
+"Thunderbird/Mozilla mailfolder (usually ~/.thunderbird/*.default/Mail/Local "
+"Folders/).</p><p><b>Note:</b> Never choose a Folder which <u>does not</u> "
+"contain mbox-files (for example, a maildir): if you do, you will get many "
+"new folders.</p><p>Since it is possible to recreate the folder structure, "
+"the folders will be stored under: \"Thunderbird-Import\".</p>"
+msgstr ""
+"<p><b>थन्डरबर्ड/मोजिला आयात फिल्टर</b></p><p>तपाईँको आधार थन्डरबर्ड/मोजिला "
+"मेल फोल्डर (usually ~/.thunderbird/*.default/Mail/Local Folders/) चयन "
+"गर्नुहोस् ।</p><p><b>द्रष्टव्य:</b> mbox- फाइल समावेश <u>नगर्ने</u> फोल्डर "
+"नरोज्नुहोस् (उदाहरणका लागि, एउटा maildir): तपाईँले त्यसो गरेमा, तपाईँले धेरै "
+"नयाँ फोल्डर प्राप्त गर्न सक्नुहुनेछ ।</p><p>फोल्डर संरचना पुन: सिर्जना गर्ने "
+"सम्भावना भएदेखि, फोल्डर: \"थन्डरबर्ड आयात गर्नुहोस्\" मा भण्डारण गरिन्छन् "
+"।</p>"
+
+#: filter_sylpheed.cxx:26
+msgid "Import Sylpheed Maildirs and Folder Structure"
+msgstr "सायलफिड मेल डाइरेक्टरी र फोल्डर संरचना आयात गर्नुहोस्"
+
+#: filter_sylpheed.cxx:28
+msgid ""
+"<p><b>Sylpheed import filter</b></p><p>Select the base directory of the "
+"Sylpheed mailfolder you want to import (usually: ~/Mail ).</p><p>Since it is "
+"possible to recreate the folder structure, the folders will be stored under: "
+"\"Sylpheed-Import\" in your local folder.</p><p>This filter also recreates "
+"the status of message, e.g. new or forwarded.</p>"
+msgstr ""
+
+#: filter_evolution.cxx:30
+msgid "Import Evolution 1.x Local Mails and Folder Structure"
+msgstr "इभोल्युसन 1.x स्थानीय मेल र फोल्डर संरचना आयात गर्नुहोस्"
+
+#: filter_evolution.cxx:32
+msgid ""
+"<p><b>Evolution 1.x import filter</b></p><p>Select the base directory of "
+"Evolution's mails (usually ~/evolution/local).</p><p>Since it is possible to "
+"recreate the folder structure, the folders will be stored under: \"Evolution-"
+"Import\".</p>"
+msgstr ""
+"<p><b>इभोल्युसन 1.x आयात फिल्टर</b></p><p> इभोल्युसनको मेलको आधार डाइरेक्टरी "
+"चयन गर्नुहोस् (usually ~/evolution/local) ।</p><p>फोल्डर संरचना पुन: सिर्जना "
+"गर्न सम्भव भए देखि, फोल्डर: \"इभोल्युसन आयात गर्नुहोस्\" मा भण्डारण गरिन्छन् "
+"।</p>"
+
+#: filter_opera.cxx:27
+msgid "Import Opera Emails"
+msgstr "ओपेरा इमेल आयात गर्नुहोस्"
+
+#: filter_opera.cxx:29
+msgid ""
+"<p><b>Opera email import filter</b></p><p>This filter will import mails from "
+"Opera mail folder. Use this filter if you want to import all mails within a "
+"account in the Opera maildir.</p><p>Select the directory of the account "
+"(usually ~/.opera/mail/store/account*).</p><p><b>Note:</b> Emails will be "
+"imported into a folder named after the account they came from, prefixed with "
+"OPERA-</p>"
+msgstr ""
+"<p><b>ओपेरा इमेल आयात फिल्टर</b></p><p>यो फिल्टरले ओपेरा मेल फोल्डरबाट मेल "
+"आयात गर्नेछ । तपाईँले ओपेरा मेल डाइरेक्टरीका खाताका सबै मेल आयात गर्न "
+"चाहनुहुन्छ भने यो फिल्टर प्रयोग गर्नुहोस् ।</p><p>खाताको डाइरेक्टरी चयन "
+"गर्नुहोस्(usually ~/.opera/mail/store/account*) ।</p><p><b>द्रष्टव्य:</b> "
+"इमेल तिनीहरू आएका खाताको, ओपेरा उपसर्ग भएका, नाम दिएपछि फोल्डरमा आयात "
+"गरिन्छन्</p>"
+
+#: filter_mbox.cxx:27
+msgid "Import mbox Files (UNIX, Evolution)"
+msgstr "mbox फाइल आयात गर्नुहोस् (युनिक्स, इभोल्युसन)"
+
+#: filter_mbox.cxx:29
+msgid ""
+"<p><b>mbox import filter</b></p><p>This filter will import mbox files into "
+"KMail. Use this filter if you want to import mails from Ximian Evolution or "
+"other mailers that use this traditional UNIX format.</p><p><b>Note:</b> "
+"Emails will be imported into folders named after the file they came from, "
+"prefixed with MBOX-</p>"
+msgstr ""
+"<p><b>mbox आयात फिल्टर</b></p><p>यो फिल्टरले केडीई मेलमा mbox आयात गर्नेछ । "
+"तपाईँले Ximian इभोल्युसन वा अन्य परम्परागत युनिक्स ढाँचा प्रयोग गर्ने "
+"मेलरबाट मेल आयात गर्न चाहनुहुन्छ भने यो फिल्टर प्रयोग गर्नुहोस् "
+"।</p><p><b>द्रष्टव्य:</b> इमेल तिनीहरू आएको फोल्डरको, MBOX उपसर्ग भएका, नाम "
+"दिएपछि आयात गरिन्छन्</p>"
+
+#: filter_mbox.cxx:47
+msgid "mbox Files (*)"
+msgstr "mbox फाइल (*)"
+
+#: filters.cxx:146 filters.cxx:186 filters.cxx:219
+#, kde-format
+msgid ""
+"<b>Fatal:</b> Unable to start KMail for D-Bus communication: %1; %2<br "
+"/>Make sure <i>kmail</i> is installed."
+msgstr ""
+
+#: filters.cxx:154 filters.cxx:194
+#, kde-format
+msgid "Cannot make folder %1 in KMail"
+msgstr "केडीई मेलमा फोल्डर %1 सिर्जना गर्न सकिँदैन"
+
+#: filters.cxx:157 filters.cxx:197
+#, kde-format
+msgid "Cannot add message to folder %1 in KMail"
+msgstr "केडीई मेलको फोल्डर %1 मा सन्देश थप्न सकिँदैन"
+
+#: filters.cxx:163 filters.cxx:200
+#, kde-format
+msgid "Error while adding message to folder %1 in KMail"
+msgstr "केडीई मेलको फोल्डर %1 मा सन्देश थप्दा त्रुटि"
+
+#. i18n: file: kimportpagedlg.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:3
+msgid "From:"
+msgstr "बाट:"
+
+#. i18n: file: kimportpagedlg.ui:88
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:6
+msgid "To:"
+msgstr "लाई:"
+
+#. i18n: file: kimportpagedlg.ui:98
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:9
+msgid "Current:"
+msgstr "हाल:"
+
+#. i18n: file: kimportpagedlg.ui:108
+#. i18n: ectx: property (text), widget (QLabel, _textStatus)
+#: rc.cpp:12
+msgid "Importing in progress..."
+msgstr "आयात प्रगतिमा छ..."
+
+#. i18n: file: kimportpagedlg.ui:129
+#. i18n: ectx: property (text), widget (QLabel, _current)
+#. i18n: file: kimportpagedlg.ui:147
+#. i18n: ectx: property (text), widget (QLabel, _to)
+#. i18n: file: kimportpagedlg.ui:175
+#. i18n: ectx: property (text), widget (QLabel, _from)
+#: rc.cpp:15 rc.cpp:18 rc.cpp:24
+msgid "..."
+msgstr "..."
+
+#. i18n: file: kimportpagedlg.ui:157
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:21
+msgid "Total:"
+msgstr "कूल:"
+
+#. i18n: file: kimportpagedlg.ui:196
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:27
+msgid "Click 'Back' to import more emails or contacts"
+msgstr "अरू इमेल र सम्पर्क आयात गर्न 'पछाडि' बटनमा क्लिक गर्नुहोस्"
+
+#. i18n: file: kselfilterpagedlg.ui:84
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:30
+msgid ""
+"<b>Welcome to KMailCVT - The KMail Import Tool</b>\n"
+"<br><br>\n"
+"This program will help you import your email from your previous email "
+"program into KMail.<br><br><br><br>\n"
+" Please select the program you would like to import from, then click 'Next'."
+msgstr ""
+"<b>KMailCVT मा स्वागत छ - केडीई मेलले उपकरण आयात गर्छ</b>\n"
+"<br><br>\n"
+"यो कार्यक्रमले तपाईँको अघिल्लो इमेल कार्यक्रमबाट केडीई मेलमा इमेल आयात गर्न "
+"मद्दत गर्नेछ ।<br><br><br><br>\n"
+" कृपया तपाईँले यसबाट आयात गर्ने चाहने कार्यक्रम चयन गर्नुहोस्, त्यसपछि "
+"'पछिल्लो' बटनमा क्लिक गर्नुहोस् ।"
+
+#. i18n: file: kselfilterpagedlg.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, remDupMsg)
+#: rc.cpp:36
+msgid "Remove &duplicate messages during import"
+msgstr "आयात गर्दा नक्कली सन्देश हटाउनुहोस्"
+
+#: rc.cpp:37
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:38
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, shyamkrishna_bal@yahoo.com,,,"

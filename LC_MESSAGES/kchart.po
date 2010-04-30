@@ -1,0 +1,1787 @@
+# translation of kchart.po to Nepali
+# Ishwor Sharma <sharmabeeshwar@gmail.com>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kchart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-08 11:25+0000\n"
+"PO-Revision-Date: 2009-07-07 18:48+0000\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: csvimportdialog.cc:59 kchart_view.cc:672
+msgid "Import Data"
+msgstr "डेटा आयात गर्नुहोस्"
+
+#: csvimportdialog.cc:63
+msgid ""
+"_: Descriptive encoding name\n"
+"Recommended ( %1 )"
+msgstr "सिफारिस गरियो ( %1 )"
+
+#: csvimportdialog.cc:64
+msgid ""
+"_: Descriptive encoding name\n"
+"Locale ( %1 )"
+msgstr "स्थानीयता ( %1 )"
+
+#: csvimportdialog.cc:67
+msgid ""
+"_: Descriptive encoding name\n"
+"Other ( %1 )"
+msgstr "अन्य ( %1 )"
+
+#: csvimportdialog.cc:73 csvimportdialog.cc:382 csvimportdialog.cc:418
+msgid "Text"
+msgstr "पाठ"
+
+#: csvimportdialog.cc:74 csvimportdialog.cc:420
+msgid "Number"
+msgstr "सङ्ख्या"
+
+#: csvimportdialog.cc:77 csvimportdialog.cc:426
+msgid "Decimal Comma Number"
+msgstr "दशमलव अल्पविराम सङ्ख्या"
+
+#: csvimportdialog.cc:78 csvimportdialog.cc:428
+msgid "Decimal Point Number"
+msgstr "दशमलव बिन्दु सङ्ख्या"
+
+#: csvimportdialog.cc:422
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: csvimportdialog.cc:424
+msgid "Date"
+msgstr "मिति"
+
+#: csvimportdialog.cc:541 kchartBackgroundPixmapConfigPage.cc:96
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: csvimportdialog.cc:568
+msgid ""
+"Please check the ranges you specified. The start value must be lower than "
+"the end value."
+msgstr ""
+"कृपया तपाईँले निर्दिष्ट गर्नुभएका दायराहरू जाँच गर्नुहोस् । सुरुआतको मान "
+"अन्त्यमान भन्दा कम हुनुपर्दछ ।"
+
+#: csvimportdialog.cc:614
+#, c-format
+msgid "Cannot find encoding: %1"
+msgstr "सङ्केतन फेला पार्न सकिदैन: %1"
+
+#: kchartBackgroundPixmapConfigPage.cc:54
+msgid ""
+"On this page, you can select colors or images to be displayed behind the "
+"different areas. You can also select whether the images should be stretched "
+"or scaled or centered or used as background tiles."
+msgstr ""
+"यो पृष्ठमा, तपाईँले फरक फरक क्षेत्रहरूको मुनि रङहरू वा छविहरू प्रदर्शन "
+"गर्नका लागि चयन गर्न सक्नुहुन्छ । तपाईँ पृष्ठभूमि टायलको रूपमा छविहरू "
+"फैलाउने वा मापन गर्ने वा केन्द्रित गर्ने चयन गर्न पनि सक्नुहुन्छ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:73
+msgid "&Background color:"
+msgstr "पृष्ठभूमि रङ:"
+
+#: kchartBackgroundPixmapConfigPage.cc:78
+msgid ""
+"Here you set the color in which the background of the chart is painted."
+msgstr "यहाँ तपाईँ चित्रपटको पृष्ठभूमिमा रङगाउनु भएको रङ सेट गर्नुभयो ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:84
+msgid "Background wallpaper:"
+msgstr "पृष्ठभूमि वालपेपर:"
+
+#: kchartBackgroundPixmapConfigPage.cc:89
+msgid ""
+"You can select a background image from this list. Initially, the installed "
+"KDE wallpapers will be offered. If you do not find what you are looking for "
+"here, you can select any image file by clicking on the <i>Browse</i> button "
+"below."
+msgstr ""
+"तपाईँ यो सूचीबाट पृष्ठभूमि छवि चयन गर्न सक्नुहुन्छ । सुरुआतमा, स्थापना "
+"गरिएको KDE वालपेपरलाई प्रस्ताव गरिनेछ । यदि तपाईँले यहाँ हेरिरहनु भएको केही "
+"फेला पार्नु भएन भने, तपाईँले बटनको तल <i>ब्राउज</i>मा क्लिक गरेर कुनै छवि "
+"फाइल चयन गर्न सक्नुहुन्छ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:99
+msgid "&Browse..."
+msgstr "ब्राउज गर्नुहोस्..."
+
+#: kchartBackgroundPixmapConfigPage.cc:100
+msgid ""
+"Click this button to select a background image not yet present in the list "
+"above. "
+msgstr ""
+"अहिले माथिको सूची नभएको पृष्ठभूमि छवि चयन गर्न यो बटनमा क्लिक गर्नुहोस् । "
+
+#: kchartBackgroundPixmapConfigPage.cc:106
+msgid ""
+"This area will always display the currently selected background image. Note "
+"that the image will be scaled and thus might have a different ratio than it "
+"originally had."
+msgstr ""
+"यो क्षेत्रले हालै चयन गरिएको पृष्ठभूमि छवि सधैं प्रदर्शन गर्नेछ । याद "
+"गर्नुहोस् कि छवि मापन गरिनेछ जसले गर्दा यससँग भएको मौलिक अनुपात भन्दा भिन्नै "
+"अनुपात हुन सक्नेछ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:116
+msgid "Wallpaper Configuration"
+msgstr "वालपेपर कन्फिगरेसन"
+
+#: kchartBackgroundPixmapConfigPage.cc:117
+msgid ""
+"In this box, you can set various settings that control how the background "
+"image is displayed."
+msgstr ""
+"यो बाकसमा, तपाईँ धेरै प्रकारका सेटिङहरू सेट गर्न सक्नुहुन्छ जसले पृष्ठभूमि "
+"छवि कसरी प्रदर्शित गर्ने भन्ने नियन्त्रण गर्दछ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:126
+#, no-c-format
+msgid "&Intensity in %:"
+msgstr "% मा तिब्रता :"
+
+#: kchartBackgroundPixmapConfigPage.cc:130
+#, no-c-format
+msgid ""
+"Here you can select how much the image should be brightened up so that it "
+"does not disturb the selected area too much.<br> Different images require "
+"different settings, but 25% is a good value to start with."
+msgstr ""
+"यहाँ तपाईँले छविमा कति चम्किलोपन ल्याउने भन्ने कुरा चयन गर्न सक्नुहुन्छ जसले "
+"गर्दा चयन गरिएको क्षेत्रलाई यसले कुनै अवरोध गर्दैन ।<br>विभिन्न प्रकारका "
+"छविहरूलाई विभिन्न सेटिङहरू आवश्यक पार्दछ, तर सुरु गर्नका लागि २५% उत्तम मान "
+"हो ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:139
+msgid "Stretched"
+msgstr "फैलाएको"
+
+#: kchartBackgroundPixmapConfigPage.cc:141
+msgid ""
+"If you check this box, the selected image will be scaled to fit the total "
+"size of the selected area. Image ratio will be adjusted to match the area "
+"size and height if necessary."
+msgstr ""
+"यदि तपाईँ यो बाकस जाँच गर्नुभयो भने, चयन गरिएको छवि चयन गरिएको क्षेत्रको "
+"जम्मा साइजमा ठीकसँग मापन गरिनेछ । छवि अनुपात यदि आवश्ययक भएमा क्षेत्र साइज र "
+"उचाइ मिलाउन समायोजन गरिनेछ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:146
+msgid "Scaled"
+msgstr "मापन गरिएको"
+
+#: kchartBackgroundPixmapConfigPage.cc:148
+msgid ""
+"If you check this box, the selected image will be scaled to match the height "
+"or width of the selected area - whichever is reached first."
+msgstr ""
+"यदि तपाईँले यो बाकस जाँच गर्नुभयो भने, चयन गरिएको छविले पहिले पुग्नेलाई - "
+"चयन गरिएको क्षेत्रको उचाइ र चौडाइ मिलाउन मापन गरिनेछ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:151
+msgid "Centered"
+msgstr "केन्द्रित"
+
+#: kchartBackgroundPixmapConfigPage.cc:153
+msgid ""
+"If you check this box, the selected image will be centered over the selected "
+"area. If the image is larger then the area, you will only see the middle "
+"part of it."
+msgstr ""
+"यदि तपाईँ यो बाकस जाँच गर्नुभयो भने, चयन गरिएको छवि चयन गरिएको क्षेत्र माथि "
+"केन्द्रित हुनेछ । यदि छवि क्षेत्र भन्दा ठूलो छ भने, तपाईँले यसको बीच भाग "
+"मात्र देख्नुहुनेछ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:158
+msgid "Tiled"
+msgstr "टायल गरिएको"
+
+#: kchartBackgroundPixmapConfigPage.cc:160
+msgid ""
+"If you check this box, the selected image will be used as a background tile. "
+"If the image is larger then the selected area, you will only see the upper "
+"left part of it."
+msgstr ""
+"यदि तपाईँ यो बाकस जाँच गर्नुभयो भने, चयन गरिएको छविले पृष्ठभूमि टायलको "
+"स्वरूपमा प्रयोग गर्नेछ । यदि छवि चयन गरिएको क्षेत्र भन्दा ठूलो छ भने, "
+"तपाईँले यसको माथिल्लो बायाँ भाग मात्र देख्नुहुनेछ ।"
+
+#: kchartBackgroundPixmapConfigPage.cc:278
+msgid "Outermost Region"
+msgstr "सबैभन्दा बाहिरको क्षेत्र"
+
+#: kchartBackgroundPixmapConfigPage.cc:279
+msgid "Innermost Region"
+msgstr "सबै भन्दा भित्री क्षेत्र"
+
+#: kchartBackgroundPixmapConfigPage.cc:280
+msgid "Header+Title+Subtitle"
+msgstr "हेडर+शीर्षक+उपशीर्षक"
+
+#: kchartBackgroundPixmapConfigPage.cc:281
+msgid "Footers"
+msgstr "फुटरहरू"
+
+#: kchartBackgroundPixmapConfigPage.cc:282
+msgid "Data+Axes+Legend"
+msgstr "डेटा+अक्ष+लिजेण्ड"
+
+#: kchartBackgroundPixmapConfigPage.cc:283
+msgid "Data+Axes"
+msgstr "डेटा+अक्षहरू"
+
+#: kchartBackgroundPixmapConfigPage.cc:284 kchartWizard.cc:31
+msgid "Data"
+msgstr "डेटा"
+
+#: kchartBackgroundPixmapConfigPage.cc:285 kchartConfigDialog.cc:104
+#: kchartConfigDialog.cc:152 kchartParameterConfigPage.cc:89
+msgid "Legend"
+msgstr "लिजेण्ड"
+
+#: kchartBackgroundPixmapConfigPage.cc:286
+msgid "Left Axis"
+msgstr "बायाँ अक्ष"
+
+#: kchartBackgroundPixmapConfigPage.cc:287
+msgid "Bottom Axis"
+msgstr "तलको अक्ष"
+
+#: kchartBackgroundPixmapConfigPage.cc:288
+msgid "Right Axis"
+msgstr "दायाँ अक्ष"
+
+#: kchartBackgroundPixmapConfigPage.cc:289
+msgid "Header A"
+msgstr "हेडर A"
+
+#: kchartBackgroundPixmapConfigPage.cc:290
+msgid "Header B"
+msgstr "हेडर B"
+
+#: kchartBackgroundPixmapConfigPage.cc:291
+msgid "Header C"
+msgstr "हेडर C"
+
+#: kchartBackgroundPixmapConfigPage.cc:292
+msgid "Title A"
+msgstr "शीर्षक A"
+
+#: kchartBackgroundPixmapConfigPage.cc:293
+msgid "Title B"
+msgstr "शीर्षक B"
+
+#: kchartBackgroundPixmapConfigPage.cc:294
+msgid "Title C"
+msgstr "शीर्षक C"
+
+#: kchartBackgroundPixmapConfigPage.cc:295
+msgid "Subtitle A"
+msgstr "उप-शीर्षक A"
+
+#: kchartBackgroundPixmapConfigPage.cc:296
+msgid "Subtitle B"
+msgstr "उप-शीर्षक B"
+
+#: kchartBackgroundPixmapConfigPage.cc:297
+msgid "Subtitle C"
+msgstr "उप-शीर्षक C"
+
+#: kchartBackgroundPixmapConfigPage.cc:298
+msgid "Footer 1 A"
+msgstr "फुटर १ A"
+
+#: kchartBackgroundPixmapConfigPage.cc:299
+msgid "Footer 1 B"
+msgstr "फुटर १ B"
+
+#: kchartBackgroundPixmapConfigPage.cc:300
+msgid "Footer 1 C"
+msgstr "फुटर १ C"
+
+#: kchartBackgroundPixmapConfigPage.cc:301
+msgid "Footer 2 A"
+msgstr "फुटर २ A"
+
+#: kchartBackgroundPixmapConfigPage.cc:302
+msgid "Footer 2 B"
+msgstr "फुटर २ B"
+
+#: kchartBackgroundPixmapConfigPage.cc:303
+msgid "Footer 2 C"
+msgstr "फुटर २ C"
+
+#: kchartBackgroundPixmapConfigPage.cc:304
+msgid "Footer 3 A"
+msgstr "फुटर ३ A"
+
+#: kchartBackgroundPixmapConfigPage.cc:305
+msgid "Footer 3 B"
+msgstr "फुटर ३ B"
+
+#: kchartBackgroundPixmapConfigPage.cc:306
+msgid "Footer 3 C"
+msgstr "फुटर ३ C"
+
+#: kchartColorConfigPage.cc:47
+msgid ""
+"This page lets you configure the colors in which your chart is displayed. "
+"Each part of the chart can be assigned a different color."
+msgstr ""
+"यो पृष्ठले तपाईँको प्रदर्शन भएको चित्रपटमा रङ कन्फिगर गर्न अनुमति दिन्छ । "
+"चित्रपटको प्रत्येक भाग विभिन्न रङमा मानाङ्कन गरिएको हुन सक्छ ।"
+
+#: kchartColorConfigPage.cc:53
+msgid "Colors"
+msgstr "रङ"
+
+#: kchartColorConfigPage.cc:74
+msgid "&Line color:"
+msgstr "रेखा रङ:"
+
+#: kchartColorConfigPage.cc:75
+msgid "This is the color that is used for drawing lines like axes."
+msgstr "यो रेखा कोर्नका लागि प्रयोग गरिने रङ हो जस्तै अक्ष ।"
+
+#: kchartColorConfigPage.cc:76
+msgid "&Grid color:"
+msgstr "ग्रिड रङ:"
+
+#: kchartColorConfigPage.cc:77
+msgid ""
+"Here you can configure the color that is used for the chart grid. Of course, "
+"this setting will only take effect if grid drawing is turned on."
+msgstr ""
+"यहाँ तपाईँ चित्रपट ग्रीडका लागि प्रयोग गरिएको रङ कन्फिगर गर्न सक्नुहुन्छ । "
+"वास्तवमै, यदि ग्रिड रेखाचित्र खोलिएको छ भने यो सेटिङले प्रभाव लिनेछ ।"
+
+#: kchartColorConfigPage.cc:80
+msgid "&X-title color:"
+msgstr "X-शीर्षक रङ:"
+
+#: kchartColorConfigPage.cc:81
+msgid "This color is used for displaying titles for the X (horizontal) axis."
+msgstr ""
+"यो रङ X (तेर्सो) अक्षका लागि प्रदर्शन गरिरहेको टायलका लागि प्रयोग गरिन्छ ।"
+
+#: kchartColorConfigPage.cc:83
+msgid "&Y-title color:"
+msgstr "Y-शीर्षक रङ:"
+
+#: kchartColorConfigPage.cc:84
+msgid "This color is used for displaying titles for the Y (vertical) axis."
+msgstr ""
+"यो रङ Y (ठाडो) अक्षका लागि प्रदर्शन गरिरहेको टायलका लागि प्रयोग गरिन्छ ।"
+
+#: kchartColorConfigPage.cc:87
+msgid "Y-title color (2nd axis):"
+msgstr "Y-शीर्षक रङ (दोस्रो अक्ष):"
+
+#: kchartColorConfigPage.cc:88
+msgid ""
+"This color is used for displaying titles for the second Y (vertical) axis. "
+"It only takes effect if the chart is configured to have a second Y axis."
+msgstr ""
+"यो रङ दोस्रो Y (ठाडो) अक्षका लागि प्रदर्शन गरिरहेको टायलहरूका लागि प्रयोग "
+"गरिन्छ । यदि चित्रपट दोस्रो Y अक्ष हुनका लागि कन्फिगर गरिन्छ भने मात्र यसले "
+"प्रभाव लिनेछ ।"
+
+#: kchartColorConfigPage.cc:92
+msgid "X-label color:"
+msgstr "X-लेबुल रङ:"
+
+#: kchartColorConfigPage.cc:93
+msgid ""
+"Here you can configure the color that is used for labeling the X "
+"(horizontal) axis"
+msgstr ""
+"यहाँ तपाईँ X (तेर्सो) अक्ष लेबुलिङ गर्नका लागि प्रयोग गरिएको रङ कन्फिगर गर्न "
+"सक्नुहुन्छ"
+
+#: kchartColorConfigPage.cc:95
+msgid "Y-label color:"
+msgstr "Y-लेबुल रङ:"
+
+#: kchartColorConfigPage.cc:96
+msgid ""
+"Here you can configure the color that is used for labeling the Y (vertical) "
+"axis"
+msgstr ""
+"यहाँ तपाईँले Y (ठाडो) अक्ष लेबुलिङ्ग गर्नका लागि प्रयोग गरिएको रङ कन्फिगर "
+"गर्न सक्नुहुन्छ"
+
+#: kchartColorConfigPage.cc:99
+msgid "Y-label color (2nd axis):"
+msgstr "Y-लेबुल रङ (दोस्रो अक्ष):"
+
+#: kchartColorConfigPage.cc:100
+msgid ""
+"Here you can configure the color that is used for labeling the second Y "
+"(vertical) axis. Of course, this setting only takes effect if the chart is "
+"configured to have two vertical axes."
+msgstr ""
+"यहाँ तपाईँले दोस्रो Y (ठाडो) अक्ष लेबुलिङ्ग गर्नका लागि प्रयोग गरिएको रङ "
+"कन्फिगर गर्न सक्नुहुन्छ । वास्तवमै, यदि चित्रपटसँग दुईवटा ठाडो अक्ष भएकोमा "
+"कन्फिगर गरिएको छ भने मात्र यो सेटिङले प्रभाव लिन्छ ।"
+
+#: kchartColorConfigPage.cc:105
+msgid "X-line color:"
+msgstr "X-रेखा रङ:"
+
+#: kchartColorConfigPage.cc:106
+msgid "Here you can configure the line color of the X (horizontal) axis"
+msgstr "यहाँ तपाईँले X (तेर्सो) अक्षको रेखाको रङ कन्फिगर गर्न सक्नुहुन्छ"
+
+#: kchartColorConfigPage.cc:107
+msgid "Y-line color:"
+msgstr "Y-रेखा रङ:"
+
+#: kchartColorConfigPage.cc:108
+msgid "Here you can configure the line color of the Y (vertical) axis"
+msgstr "यहाँ तपाईँ Y (ठाडो) अक्षको रेखाको रङ कन्फिगर गर्न सक्नुहुन्छ"
+
+#: kchartColorConfigPage.cc:110
+msgid "Y-line color (2nd axis):"
+msgstr "Y-रेखा रङ (दोस्रो अक्ष):"
+
+#: kchartColorConfigPage.cc:111
+msgid ""
+"Here you can configure the line color of the second Y (vertical) axis. Of "
+"course, this setting only takes effect if the chart is configured to have "
+"two vertical axes."
+msgstr ""
+"यहाँ तपाईँले दोस्रो Y (ठाडो) अक्षको रेखाको रङ कन्फिगर गर्न सक्नुहुन्छ । "
+"वास्तवमै, यदि चित्रपटसँग दुईवटा ठाडो अक्ष भएको मा कन्फिगर गरिन्छ भने मात्र "
+"यो सेटिङले प्रभाव लिन्छ ।"
+
+#: kchartColorConfigPage.cc:116
+msgid "X-Zero-line color:"
+msgstr "X-शून्य-रेखा रङ:"
+
+#: kchartColorConfigPage.cc:117
+msgid ""
+"Here you can configure the zero-line's color of the X (horizontal) axis. Of "
+"course, this setting only takes effect if the abscissa is displaying a Zero-"
+"line."
+msgstr ""
+"यहाँ तपाईँले X (तेर्सो) अक्षको शून्य- रेखाको रङ कन्फिगर गर्न सक्नुहुन्छ । "
+"यदि abscissa ले शून्य- रेखा प्रदर्शन गरिरहेको छ भने निश्चयनै यो सेटिङ्ले "
+"प्रभाव मात्र लिन्छ ।"
+
+#: kchartColorConfigPage.cc:120
+msgid "Y-Zero-line color:"
+msgstr "Y-शून्य-रेखा रङ:"
+
+#: kchartColorConfigPage.cc:121
+msgid "Here you can configure the zero-line's color of the Y (vertical) axis"
+msgstr "यहाँ तपाईँले Y (ठाडो) अक्षको शून्य रेखाको रङ कन्फिगर गर्न सक्नुहुन्छ"
+
+#: kchartColorConfigPage.cc:123
+msgid "Y-Zero-line color (2nd axis):"
+msgstr "Y-शून्य-रेखा रङ (दोस्रो अक्ष):"
+
+#: kchartColorConfigPage.cc:124
+msgid ""
+"Here you can configure the color that is used for the Zero-line of the "
+"second Y (vertical) axis. Of course, this setting only takes effect if the "
+"chart is configured to have two vertical axes."
+msgstr ""
+"यहाँ तपाईँले दोस्रो Y (ठाडो) अक्षको शून्य-रेखाका लागि प्रयोग गरिएको रङ "
+"कन्फिगर गर्न सक्नुहुन्छ । वास्तवमै, यदि चित्रपट दुईवटा ठाडो अक्ष भएको मा "
+"कन्फिगर गरिएको छ भने मात्र यो सेटिङले प्रभाव लिनेछ ।"
+
+#: kchartColorConfigPage.cc:134
+msgid ""
+"Choose a row/column in the list on the left and change its color using this "
+"button."
+msgstr ""
+"बायाँपट्टि सूचीमा पङ्क्ति/स्तम्भ रोज्नुहोस् र यो बटन प्रयोग गरेर यसको रङ "
+"परिवर्तन गर्नुहोस् ।"
+
+#: kchartColorConfigPage.cc:194
+#, c-format
+msgid "Series %1"
+msgstr "श्रृङ्खला %1"
+
+#: kchartComboConfigPage.cc:45
+msgid "HLC Style"
+msgstr "HLC शैली"
+
+#: kchartComboConfigPage.cc:49
+msgid "Diamond"
+msgstr "हीरा"
+
+#: kchartComboConfigPage.cc:51
+msgid "Close connected"
+msgstr "जडान गरिएको बन्द गर्नुहोस्"
+
+#: kchartComboConfigPage.cc:53
+msgid "Connecting"
+msgstr "जडान गर्दै"
+
+#: kchartComboConfigPage.cc:55
+msgid "Icap"
+msgstr "आइक्याप"
+
+#: kchartConfigDialog.cc:77
+msgid "Chart Setup"
+msgstr "चित्रपट सेटअप"
+
+#: kchartConfigDialog.cc:81 kchartConfigDialog.cc:109
+msgid "&Data"
+msgstr "डेटा"
+
+#: kchartConfigDialog.cc:88 kchartConfigDialog.cc:148
+msgid "Header/Footer"
+msgstr "हेडर/फुटर"
+
+#: kchartConfigDialog.cc:92 kchartConfigDialog.cc:163
+msgid "&Colors"
+msgstr "रङ"
+
+#: kchartConfigDialog.cc:96 kchartConfigDialog.cc:166
+msgid "&Font"
+msgstr "फन्ट"
+
+#: kchartConfigDialog.cc:100 kchartConfigDialog.cc:170
+msgid "&Background"
+msgstr "पृष्ठभूमि"
+
+#: kchartConfigDialog.cc:117 kchartWizardSelectChartTypePage.cc:60
+msgid "Bar"
+msgstr "पट्टी"
+
+#: kchartConfigDialog.cc:121 kchartConfigDialog.cc:126
+msgid "Line"
+msgstr "रेखा"
+
+#: kchartConfigDialog.cc:133 kchart_view.cc:116
+msgid "&Pie"
+msgstr "वृतांश"
+
+#: kchartConfigDialog.cc:137
+msgid "&Piedata"
+msgstr "वृतांशडेटा"
+
+#: kchartConfigDialog.cc:142 kchart_view.cc:126
+msgid "&Polar"
+msgstr "ध्रुविय"
+
+#: kchartConfigDialog.cc:159
+msgid "&Axes"
+msgstr "अक्षहरू"
+
+#: kchartConfigDialog.cc:428
+msgid "Chart &Sub-type"
+msgstr "चित्रपट उप-प्रकार"
+
+#: kchartDataConfigPage.cc:66 kchartWizardSelectDataFormatPage.cc:39
+msgid "Data Area"
+msgstr "डेटा क्षेत्र"
+
+#: kchartDataConfigPage.cc:71 kchartWizardSelectDataFormatPage.cc:42
+msgid "Area: "
+msgstr "क्षेत्र: "
+
+#: kchartDataConfigPage.cc:75 kchartDataEditor.cc:200
+#: kchartWizardSelectDataFormatPage.cc:47
+msgid "First row as label"
+msgstr "लेबुल जस्तो पहिलो पङ्क्ति"
+
+#: kchartDataConfigPage.cc:76 kchartDataEditor.cc:201
+#: kchartWizardSelectDataFormatPage.cc:48
+msgid "First column as label"
+msgstr "लेबुल जस्तो पहिलो स्तम्भ"
+
+#: kchartDataConfigPage.cc:82 kchartWizardSelectDataFormatPage.cc:51
+msgid "Data Format"
+msgstr "डेटा ढाँचा"
+
+#: kchartDataConfigPage.cc:84 kchartWizardSelectDataFormatPage.cc:53
+msgid "Data in rows"
+msgstr "पङ्क्तिहरूमा डेटा"
+
+#: kchartDataConfigPage.cc:87 kchartWizardSelectDataFormatPage.cc:56
+msgid "Data in columns"
+msgstr "स्तम्भहरूमा डेटा"
+
+#: kchartDataConfigPage.cc:92
+msgid ""
+"This configuration page can be used to swap the interpretation of rows and "
+"columns."
+msgstr ""
+"यो कन्फिगरेसन पृष्ठ पङ्क्ति र स्तम्भको व्याख्या साटासाट गर्नका लागि प्रयोग "
+"गरिएको हुन सक्छ ।"
+
+#: kchartDataConfigPage.cc:93
+msgid ""
+"By default one row is considered to be a data set and each column holds the "
+"individual values of the data series. This sets the data in rows on your "
+"chart."
+msgstr ""
+"पूर्वनिर्धारित रूपमा एउटा पङ्क्ति डेटा सेटको रूपमा विचार गरिन्छ र हरेक "
+"स्तम्भले डेटा श्रेणीको व्यक्तिगत मान समात्दछ । यसले तपाईँको चित्रपटमा "
+"पङ्क्ति भित्र डेटा सेट गर्दछ ।"
+
+#: kchartDataConfigPage.cc:95
+msgid ""
+"Here you can choose to have each column hold one data set. Note that the "
+"values are not really swapped but only their interpretation."
+msgstr ""
+"यहाँ तपाईँले हरेक स्तम्भले एउटा डेटा सेट समात्न रोज्न सक्नुहुन्छ । याद "
+"गर्नुहोस् कि मानहरू वास्तिक रूपमा स्वाप भएको छैन तर तिनीहरूको व्याख्या मात्र "
+"हो ।"
+
+#: kchartDataEditor.cc:167
+msgid "KChart Data Editor"
+msgstr "केडीई चित्रपट डेटा सम्पादक"
+
+#: kchartDataEditor.cc:185
+msgid "# Rows:"
+msgstr "# पङ्क्ति:"
+
+#: kchartDataEditor.cc:192
+msgid "# Columns:"
+msgstr "# स्तम्भ:"
+
+#: kchartDataEditor.cc:328
+msgid ""
+"<p><b>Sets the number of rows in the data table.</b><br><br>Each row "
+"represents one data set.</p>"
+msgstr ""
+"<p><b>डेटा तालिकामा पङ्क्तिहरूको नम्बर सेट गर्दछ ।</b><br><br>प्रत्येक "
+"पङ्क्तिले एउटा डेटा सेट प्रस्तुत गर्दछ ।</p>"
+
+#: kchartDataEditor.cc:330
+msgid "Number of active data rows"
+msgstr "सक्रिय डेटा पङ्क्तिहरूको सङ्ख्या"
+
+#: kchartDataEditor.cc:335
+msgid ""
+"<p><b>Sets the number of columns in the data table.</b><br><br>The number of "
+"columns defines the number of data values in each data set (row).</p>"
+msgstr ""
+"<p><b>डेटा तालिकामा स्तम्भहरूको नम्बर सेट गर्दछ ।</b><br><br>स्तम्भहरूको "
+"नम्बरले प्रत्येक डेटा सेट (पङ्क्ति)मा डेटा मानहरूको नम्बर परिभाषा गर्दछ ।</p>"
+
+#: kchartDataEditor.cc:337
+msgid "Number of active data columns"
+msgstr "सक्रिय डेटा स्तम्भहरूको सङ्ख्या"
+
+#: kchartDataEditor.cc:342
+msgid "Chart data table."
+msgstr "चित्रपट डेटा तालिका ।"
+
+#: kchartDataEditor.cc:364
+msgid ""
+"<p>This table contains the data for the chart.<br><br> Each row is one data "
+"set of values. The name of such a data set can be changed in the column "
+"header (on the left) of the table. In a line diagram each row is one line. "
+"In a ring diagram each row is one slice. <br><br> Each column represents one "
+"value of each data set. Just like rows you can also change the name of each "
+"value in the column headers (at the top) of the table.  In a bar diagram the "
+"number of columns defines the number of value sets.  In a ring diagram each "
+"column is one ring.</p>"
+msgstr ""
+"<p>यो तालिकाले चित्रपटका लागि डेटा समावेश गर्दछ।<br><br> प्रत्येक पङ्क्ति "
+"मानहरूको एउटा डेटा सेट हो ।  त्यस्तो प्रकारको डेटा सेटको नामले तालिकाको "
+"स्तम्भ हेडर (बायाँ) मा परिवर्तन गरी दिएको हुन सक्छ । रेखा चित्रमा प्रत्येक "
+"पङ्क्तिमा एउटा रेखा हुन्छ । रिङ रेखाचित्रमा प्रत्येक पङ्क्तिको एउटा टुक्रा "
+"हुन्छ ।<br><br>प्रत्येक स्तम्भले प्रत्येक डेटा सेटको एक मान प्रस्तुत गर्दछ । "
+"तपाईँ तालिकाको स्तम्भ हेडरहरू (माथि) मा प्रत्येक मानको नाम परिवर्तन गर्न पनि "
+"सक्नुहुन्छ । बार डायग्राममा स्तम्भहरूको सङ्ख्याले मान सेटहरूको नम्बर "
+"परिभाषित गर्दछ । रिङ रेखा चित्रमा प्रत्येक स्तम्भ एउटा रिङ हो ।</p>"
+
+#: kchartDataEditor.cc:375
+msgid "Insert row"
+msgstr "पङ्क्ति घुसाउनुहोस्"
+
+#: kchartDataEditor.cc:376
+msgid "Delete row"
+msgstr "पङ्क्ति मेट्नुहोस्"
+
+#: kchartDataEditor.cc:377
+msgid "Insert column"
+msgstr "स्तम्भ घुसाउनुहोस्"
+
+#: kchartDataEditor.cc:378
+msgid "Delete column"
+msgstr "स्तम्भ मेट्नुहोस्"
+
+#: kchartDataEditor.cc:684
+msgid ""
+"You are about to shrink the data table and remove some values. This will "
+"lead to loss of existing data in the table and/or the headers.\n"
+"\n"
+"This message will not be shown again if you click Continue"
+msgstr ""
+"तपाईँ डेटा तालिका सङ्कुचित गर्दै र केही मानहरू हटाउदै हुनुहुन्छ । यसले "
+"तालिका र / वा हेडरहरूमा अवस्थित डेटाको नोक्सान पुर्याउने विशेष भूमिका खेल्ने "
+"छ।\n"
+"\n"
+"यदि तपाईँ 'जारी राख्नुहोस्' क्लिक गर्नुभयो भने यो सन्देश फेरि देखिनेछैन"
+
+#: kchartDataEditor.cc:809
+msgid "Column Name"
+msgstr "स्तम्भ नाम"
+
+#: kchartDataEditor.cc:810
+msgid "Type a new column name:"
+msgstr "नयाँ स्तम्भ नाम टाइप गर्नुहोस्:"
+
+#: kchartDataEditor.cc:827
+msgid "Row Name"
+msgstr "पङ्क्ति नाम"
+
+#: kchartDataEditor.cc:828
+msgid "Type a new row name:"
+msgstr "नयाँ पङ्क्ति नाम टाइप गर्नुहोस्:"
+
+#: kchartFontConfigPage.cc:98 kchartHeaderFooterConfigPage.cc:58
+#: kchartHeaderFooterConfigPage.cc:75 kchartHeaderFooterConfigPage.cc:92
+#: kchartWizardLabelsLegendPage.cc:54 kchartWizardLabelsLegendPage.cc:72
+#: kchartWizardLabelsLegendPage.cc:95 kchartWizardLabelsLegendPage.cc:119
+#: kchartWizardLabelsLegendPage.cc:145 kchartWizardLabelsLegendPage.cc:160
+#: kchartWizardSetupAxesPage.cc:164
+msgid "Font..."
+msgstr "फन्ट..."
+
+#: kchartFontConfigPage.cc:99
+msgid ""
+"Select an item in the list above and click on this button to display the KDE "
+"font dialog in order to choose a new font for this item."
+msgstr ""
+"माथिको सूचीमा एउटा वस्तु चयन गर्नुहोस् र यो वस्तुका लागि नयाँ फन्ट रोज्न र  "
+"KDE फन्ट प्रदर्शन गर्न यो बटनमा क्लिक गर्नुहोस् ।"
+
+#: kchartFontConfigPage.cc:126 kchartFontConfigPage.cc:145
+msgid "X-Title"
+msgstr "X-शीर्षक"
+
+#: kchartFontConfigPage.cc:127 kchartFontConfigPage.cc:148
+msgid "Y-Title"
+msgstr "Y-शीर्षक"
+
+#: kchartFontConfigPage.cc:128 kchartFontConfigPage.cc:151
+msgid "X-Axis"
+msgstr "X-अक्ष"
+
+#: kchartFontConfigPage.cc:129 kchartFontConfigPage.cc:154
+msgid "Y-Axis"
+msgstr "Y-अक्ष"
+
+#: kchartFontConfigPage.cc:130 kchartFontConfigPage.cc:157
+msgid "All Axes"
+msgstr "सबै अक्षहरू"
+
+#: kchartFontConfigPage.cc:133 kchartFontConfigPage.cc:159
+msgid "Label"
+msgstr "लेबुल"
+
+#: kchartHeaderFooterConfigPage.cc:46 kchartLegendConfigPage.cc:62
+#: kchartWizardLabelsLegendPage.cc:45
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: kchartHeaderFooterConfigPage.cc:47 kchartHeaderFooterConfigPage.cc:51
+msgid ""
+"Write here the title of your chart if you want one. The title will be "
+"centered on top above your chart."
+msgstr ""
+"यदि तपाईँ एउटा चाहानुहुन्छ भने तपाईँको चित्रपटको शीर्षक यहाँ लेख्नुहोस् । "
+"शीर्षक तपाईँको चित्रपटको माथि केन्द्रित हुनेछ ।"
+
+#: kchartHeaderFooterConfigPage.cc:55
+msgid "Click on this button to choose the color for the title font."
+msgstr "शीर्षक फन्टका लागि रङ रोज्न यो बटनमा क्लिक गर्नुहोस् ।"
+
+#: kchartHeaderFooterConfigPage.cc:59
+msgid ""
+"Click on this button to choose the font family, style and size for the title."
+msgstr ""
+"शीर्षकका लागि फन्ट परिवार, शैली र साइज रोज्न यो बटन क्लिक गर्नुहोस् ।"
+
+#: kchartHeaderFooterConfigPage.cc:63
+msgid "Subtitle:"
+msgstr "उपशीर्षक:"
+
+#: kchartHeaderFooterConfigPage.cc:64 kchartHeaderFooterConfigPage.cc:68
+#: kchartHeaderFooterConfigPage.cc:85
+msgid ""
+"Write here the subtitle of your chart if you want one. The subtitle will be "
+"centered on top just below the title."
+msgstr ""
+"यदि तपाईँ एउटा चाहानुहुन्छ भने तपाईँको चित्रपटको उपशीर्षक यहाँ लेख्नुहोस् । "
+"उपशीर्षक शीर्षकको ठीक मुनि माथि केन्द्रमा हुनेछ ।"
+
+#: kchartHeaderFooterConfigPage.cc:72
+msgid "Click on this button to choose the color for the subtitle font."
+msgstr "उपशीर्षक फन्टका लागि रङ रोज्न यो बटनमा क्लिक गर्नुहोस् ।"
+
+#: kchartHeaderFooterConfigPage.cc:76
+msgid ""
+"Click on this button to choose the font family, style and size for the "
+"subtitle."
+msgstr ""
+"उपशीर्षकका लागि फन्ट परिवार, शैली र साइज रोज्नका लागि यो बटनमा क्लिक "
+"गर्नुहोस् ।"
+
+#: kchartHeaderFooterConfigPage.cc:80
+msgid "Footer:"
+msgstr "फुटर:"
+
+#: kchartHeaderFooterConfigPage.cc:81
+msgid ""
+"Write here the footer of your chart if you want one. The footer will be "
+"centered at the bottom just below your chart."
+msgstr ""
+"यदि तपाईँ एउटा चाहानुहुन्छ भने तपाईँको चित्रपटको फुटर यहाँ लेख्नुहोस् । फुटर "
+"तल तपाईँको चित्रपटको ठीक मुनि तल केन्द्रित हुनेछ ।"
+
+#: kchartHeaderFooterConfigPage.cc:89
+msgid "Click on this button to choose the color for the footer font."
+msgstr "फुटरको फन्टका लागि रङ रोज्न यो बटनमा क्लिक गर्नुहोस् ।"
+
+#: kchartHeaderFooterConfigPage.cc:93
+msgid ""
+"Click on this button to choose the font family, style and size for the "
+"footer."
+msgstr ""
+"फुटरका लागि फन्ट परिवार, शैली र साइज रोज्न यो बटनमा क्लिक गर्नुहोस् ।"
+
+#: kchartLegendConfigPage.cc:55
+msgid "General"
+msgstr "सामान्य"
+
+#: kchartLegendConfigPage.cc:63
+msgid ""
+"Write here the title of the legend, which is displayed at the top of the "
+"legend box."
+msgstr "लिजेन्ड बाकसको माथि प्रदर्शन हुने लिजेन्डको शीर्षक यहाँ लेख्नुहोस् ।"
+
+#: kchartLegendConfigPage.cc:70
+msgid "Legend Position"
+msgstr "लिजेन्ड स्थिति"
+
+#: kchartLegendConfigPage.cc:71
+msgid ""
+"<qt>Choose the location of the legend on the chart by clicking a location "
+"button.\n"
+"Use the central button to <b>hide</b> the legend.</qt>"
+msgstr ""
+"<qt>स्थान बटन क्लिक गरेर चित्रपटमा लिजेन्डको स्थान छनौट गर्नुहोस् ।\n"
+"<b>लिजेन्ड</b>लुकाउन केन्द्रको बटन प्रयोग गर्नुहोस् ।</qt>"
+
+#: kchartLegendConfigPage.cc:79
+msgid "Top-Left"
+msgstr "माथि-बायाँ"
+
+#: kchartLegendConfigPage.cc:80
+msgid "Top-Left-Top"
+msgstr "माथि-बायाँ-माथि"
+
+#: kchartLegendConfigPage.cc:82
+msgid "Top-Right-Top"
+msgstr "माथि-दायाँ-माथि"
+
+#: kchartLegendConfigPage.cc:83
+msgid "Top-Right"
+msgstr "माथि-दायाँ"
+
+#: kchartLegendConfigPage.cc:85
+msgid "Top-Left-Left"
+msgstr "माथि-बायाँ-बायाँ"
+
+#: kchartLegendConfigPage.cc:86
+msgid "Top-Right-Right"
+msgstr "माथि-दायाँ-दायाँ"
+
+#: kchartLegendConfigPage.cc:89
+msgid "No Legend"
+msgstr "लिजेन्ड हैन"
+
+#: kchartLegendConfigPage.cc:92
+msgid "Bottom-Left-Left"
+msgstr "तल-बायाँ-बायाँ"
+
+#: kchartLegendConfigPage.cc:93
+msgid "Bottom-Right-Right"
+msgstr "तल-दायाँ-दायाँ"
+
+#: kchartLegendConfigPage.cc:95
+msgid "Bottom-Left"
+msgstr "तल-बायाँ"
+
+#: kchartLegendConfigPage.cc:96
+msgid "Bottom-Left-Bottom"
+msgstr "तल-बायाँ-तल"
+
+#: kchartLegendConfigPage.cc:98
+msgid "Bottom-Right-Bottom"
+msgstr "तल-दायाँ-तल"
+
+#: kchartLegendConfigPage.cc:99
+msgid "Bottom-Right"
+msgstr "तल-दायाँ"
+
+#: kchartLegendConfigPage.cc:106
+msgid ""
+"This Font box can be used to set different fonts for the legend title and "
+"the individual entries."
+msgstr ""
+"यो फन्ट बाकस लिजेन्ड शीर्षक र व्यक्तिगत प्रविष्टिहरूका लागि विभिन्न फन्टहरू "
+"सेट गर्न प्रयोग गरिएको हुन सक्छ ।"
+
+#: kchartLegendConfigPage.cc:114
+msgid "Legend title font:"
+msgstr "लिजेन्ड शीर्षक फन्ट:"
+
+#: kchartLegendConfigPage.cc:117 kchartLegendConfigPage.cc:124
+msgid "Select Font..."
+msgstr "फन्ट चयन गर्नुहोस्..."
+
+#: kchartLegendConfigPage.cc:118
+msgid ""
+"Click here to display the KDE font chooser dialog. You will be able to "
+"change the font family, style and size for the legend title."
+msgstr ""
+"KDE फन्ट छनौटकर्ता संवाद प्रदर्शन गर्न यहाँ क्लिक गर्नुहोस् । तपाईँ लिजेन्ड "
+"शीर्षकका लागि फन्ट परिवार, शैली र साइज परिवर्तन गर्न सक्षम हुनुहुनेछ ।"
+
+#: kchartLegendConfigPage.cc:121
+msgid "Legend text font:"
+msgstr "लिजेन्ड पाठ फन्ट:"
+
+#: kchartLegendConfigPage.cc:125
+msgid ""
+"Click here to display the KDE font chooser dialog. You will be able to "
+"change the font family, style and size for the legend text."
+msgstr ""
+"KDE फन्ट छनौटकर्ता संवाद प्रदर्शन गर्न यहाँ क्लिक गर्नुहोस् । तपाईँ लिजेन्ड "
+"पाठका लागि फन्ट परिवार, शैली र साइज परिवर्तन गर्न सक्षम हुनुहुनेछ ।"
+
+#: kchartLegendConfigPage.cc:135
+msgid ""
+"Select, if the legend's items should be drawn next to each other, or below "
+"each other."
+msgstr ""
+"यदि लिजेन्डका वस्तुहरू एक अर्कामा अघिल्तिर ,वा तल रेखाङ्कन गर्नै पर्दछ भने "
+"चयन गर्नुहोस् ।"
+
+#: kchartLegendConfigPage.cc:141
+msgid "Vertically"
+msgstr "ठाडो रूपमा"
+
+#: kchartLegendConfigPage.cc:142
+msgid "Horizontally"
+msgstr "तेर्सो रूपमा"
+
+#: kchartLegendConfigPage.cc:146
+msgid "Color"
+msgstr "रङ"
+
+#: kchartLegendConfigPage.cc:147
+msgid ""
+"This Color box can be used to set different colors for the legend title and "
+"text."
+msgstr ""
+"यो रङको बाकस लिजेन्ड शीर्षक र पाठका लागि विभिन्न रङहरू सेट गर्न प्रयोग "
+"गरिएको हुन सक्छ ।"
+
+#: kchartLegendConfigPage.cc:154
+msgid "Legend title color:"
+msgstr "लिजेन्ड शीर्षक रङ:"
+
+#: kchartLegendConfigPage.cc:158
+msgid ""
+"Click here to display the KDE Select Color dialog. You will be able to "
+"change the color for the legend title."
+msgstr ""
+"KDE चयन गर्ने रङ संवाद प्रदर्शन गर्न यहाँ क्लिक गर्नुहोस् । लिजेन्ड शीर्षकका "
+"लागि रङ परिवर्तन गर्न तपाईँ सक्षम हुनुहुनेछ ।"
+
+#: kchartLegendConfigPage.cc:162
+msgid "Legend text color:"
+msgstr "लिजेन्ड पाठ रङ:"
+
+#: kchartLegendConfigPage.cc:166
+msgid ""
+"Click here to display the KDE Select Color dialog. You will be able to "
+"change the color for the legend text."
+msgstr ""
+"KDE ले चयन गर्ने संवाद प्रदर्शन गर्न यहाँ क्लिक गर्नुहोस्। तपाईँ लिजेन्ड "
+"पाठका लागि रङ परिवर्तन गर्न सक्षम हुनुहुनेछ ।"
+
+#: kchartLegendConfigPage.cc:170
+msgid "Legend frame color:"
+msgstr "लिजेन्ड फ्रेम रङ:"
+
+#: kchartLegendConfigPage.cc:174
+msgid ""
+"Click here to display the KDE Select Color dialog. You will be able to "
+"change the color for the legend frame."
+msgstr ""
+"KDE ले चयन गर्ने रङ संवाद प्रदर्शनका लागि यहाँ क्लिक गर्नुहोस् । तपाईँ "
+"लिजेन्ड फ्रेमका लागि रङ परिवर्तन गर्न सक्षम हुनुहुनेछ ।"
+
+#: kchartLine3dConfigPage.cc:45
+msgid "3D lines"
+msgstr "त्रि-आयामिक रेखाहरू"
+
+#: kchartLine3dConfigPage.cc:53 kchartParameterPolarConfigPage.cc:61
+msgid "Line width:"
+msgstr "रेखा चौडाइ:"
+
+#: kchartLine3dConfigPage.cc:56
+msgid "You can set here the line width for your chart. Default is 1."
+msgstr ""
+"तपाईँ यहाँ तपाईँको चित्रपटका लागि रेखाको चौडाइ सेट गर्न सक्नुहुन्छ । १ "
+"पूर्वनिर्धारित हो।"
+
+#: kchartLine3dConfigPage.cc:59
+msgid "Line markers"
+msgstr "रेखा मार्कर"
+
+#: kchartLine3dConfigPage.cc:60
+msgid "Check this option if you want to add dots on your chart as markers."
+msgstr ""
+"यदि तपाईँ थोप्लाहरूलाई तपाईँको चित्रपटमा मार्करको रूपमा थप्न चाहानुहुन्छ भने "
+"यो विकल्प जाँच गर्नुहोस् ।"
+
+#: kchartLine3dConfigPage.cc:65 kchartParameterPieConfigPage.cc:57
+msgid "Draw shadow color"
+msgstr "छायाँ रङ कोर्नुहोस्"
+
+#: kchartLine3dConfigPage.cc:68
+msgid "Rotation around the X-axis in degrees:"
+msgstr "डिग्रीहरूमा X-अक्ष वरिपरि परिक्रमण:"
+
+#: kchartLine3dConfigPage.cc:77
+msgid "Rotation around the Y-axis in degrees:"
+msgstr "डिग्रीहरूमा Y-अक्ष वरिपरि परिक्रमण:"
+
+#: kchartLine3dConfigPage.cc:86 kchartParameter3dConfigPage.cc:75
+msgid "Depth:"
+msgstr "गहिराइ:"
+
+#: kchartPageLayout.cc:34
+msgid "Page Layout"
+msgstr "पृष्ठ सजावट"
+
+#: kchartPageLayout.cc:40
+msgid "Margins"
+msgstr "सीमान्तहरू"
+
+#: kchartPageLayout.cc:52
+msgid "&Reset"
+msgstr "रिसेट गर्नुहोस्"
+
+#: kchartPageLayout.cc:56
+msgid "Left:"
+msgstr "बायाँ:"
+
+#: kchartPageLayout.cc:63
+msgid "Right:"
+msgstr "दायाँ:"
+
+#: kchartPageLayout.cc:70
+msgid "Top:"
+msgstr "माथि:"
+
+#: kchartPageLayout.cc:77
+msgid "Bottom:"
+msgstr "तल:"
+
+#: kchartParameter3dConfigPage.cc:45
+msgid "3D Parameters"
+msgstr "त्रि-आयामिक परिमितिहरू"
+
+#: kchartParameter3dConfigPage.cc:54
+msgid "3D bar"
+msgstr "त्रि-आयामिक पट्टी"
+
+#: kchartParameter3dConfigPage.cc:55
+msgid ""
+"If checked, this will enable 3D mode for viewing the bars. You can then add "
+"a shadow and set the angle and depth for 3D."
+msgstr ""
+"यदि तपाईँले जाँच गर्नु भयो भने, यसले पट्टीहरू हेर्नका लागि त्रि-आयामिक मोड "
+"सक्षम बनाउनेछ । तपाईँ त्यसपछि छायाँ थप्न र कोण तथा त्रि-आयामिकका लागि गहिराइ "
+"सेट गर्न सक्नुहुन्छ ।"
+
+#: kchartParameter3dConfigPage.cc:62
+msgid "Draw dark shadow"
+msgstr "गाढा छायाँ कोर्नुहोस्"
+
+#: kchartParameter3dConfigPage.cc:63
+msgid "If checked, this will add a dark shadow on the 3D bars."
+msgstr ""
+"यदि जाँच गर्नुभयो भने, यसले त्रि-आयामिक पट्टीहरूमा गाढा छायाँ थप्नेछ ।"
+
+#: kchartParameter3dConfigPage.cc:66
+msgid "Angle:"
+msgstr "कोण:"
+
+#: kchartParameter3dConfigPage.cc:71
+msgid ""
+"You can set here the angle for the 3D effect from 0 to 90. 90 will give you "
+"flat bars without any 3D effect.\n"
+"Default is 45."
+msgstr ""
+"तपाईँ यहाँ ० बाट ९० सम्म त्रि-आयामिक प्रभावका लागि कोण सेट गर्न सक्नुहुन्छ । "
+"९० ले तपाईँलाई कुनै पनि त्रि-आयामिक असर बिनाको समतल पट्टीहरू दिन्छ ।\n"
+"४५ पूर्वनिर्धारित हो ।"
+
+#: kchartParameter3dConfigPage.cc:80
+msgid ""
+"You can set here the depth of the 3D effect from 0 to 2. 0 will give you no "
+"depth at all.\n"
+"Default is 1."
+msgstr ""
+"तपाईँ यहाँ ० बाट २ सम्म त्रि-आयामिक प्रभावका गहिराइ सेट गर्न सक्नुहुन्छ । ० "
+"ले तपाईँलाई सबैमा गहिराइ दिदैन ।\n"
+"१ पूर्वनिर्धारित हो ।"
+
+#: kchartParameterConfigPage.cc:54
+msgid "Parameters"
+msgstr "परिमितिहरू"
+
+#: kchartParameterConfigPage.cc:59
+msgid "Grid"
+msgstr "ग्रीड"
+
+#: kchartParameterConfigPage.cc:60
+msgid ""
+"If this is checked, the grid is shown. If you uncheck this option, the grid "
+"will not be displayed anymore."
+msgstr ""
+"यदि यो जाँच गरियो भने, ग्रीड देखिन्छ । यदि तपाईँले यो विकल्प जाँच गर्नुहुन्न "
+"भने, ग्रीड प्रदर्शित हुने छैन ।"
+
+#: kchartParameterConfigPage.cc:64
+msgid "Y-axis"
+msgstr "Y-अक्ष"
+
+#: kchartParameterConfigPage.cc:65
+msgid ""
+"If this is checked, the Y-axis is shown. If you uncheck this option, the Y-"
+"axis and the Y grid lines will not be displayed anymore."
+msgstr ""
+"यदि यो जाँच गरियो भने, Y-अक्ष देखिन्छ । यदि तपाईँ यो विकल्पलाई जाँच "
+"गर्नुहुन्न भने, Y-अक्ष र Y-ग्रीड रेखाहरू प्रदर्शित हुने छैन ।"
+
+#: kchartParameterConfigPage.cc:70
+msgid "X-axis"
+msgstr "X-अक्ष"
+
+#: kchartParameterConfigPage.cc:71
+msgid ""
+"If this is checked, the X-axis is shown. If you uncheck this option, the X-"
+"axis and the X grid lines will not be displayed anymore."
+msgstr ""
+"यदि यो जाँच गरियो भने, X-अक्ष देखिन्छ । यदि तपाईँ यो विकल्प जाँच गर्नुहुन्न "
+"भने, X-अक्ष र X-ग्रीड रेखाहरू प्रदर्शित हुने छैनन् ।"
+
+#: kchartParameterConfigPage.cc:77
+msgid "Has X-label"
+msgstr "X-लेबुल छ"
+
+#: kchartParameterConfigPage.cc:80
+msgid "Y-axis 2"
+msgstr "Y-अक्ष २"
+
+#: kchartParameterConfigPage.cc:85
+msgid "Line marker"
+msgstr "रेखा मार्कर"
+
+#: kchartParameterConfigPage.cc:95
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: kchartParameterConfigPage.cc:104 kchartWizardLabelsLegendPage.cc:62
+msgid "X-title:"
+msgstr "X-शीर्षक:"
+
+#: kchartParameterConfigPage.cc:107 kchartWizardLabelsLegendPage.cc:84
+msgid "Y-title:"
+msgstr "Y-शीर्षक:"
+
+#: kchartParameterConfigPage.cc:112
+msgid ""
+"Write the title for the X-axis here, if you want a title. The color for this "
+"title is set in the Colors tab, in the same dialog, and the font is set in "
+"the Font tab."
+msgstr ""
+"यदि तपाईँ यहाँ X-अक्षका लागि एउटा शीर्षक चाहानुहुन्छ भने शीर्षक लेख्नुहोस् । "
+"उही संवादमा, यो शीर्षकका लागि रङ रङ ट्याबमा सेट हुन्छ, र फन्ट ट्याबमा फन्ट "
+"सेट हुन्छ ।"
+
+#: kchartParameterConfigPage.cc:115
+msgid ""
+"Write the title for the Y-axis here, if you want a title. The color for this "
+"title is set in the Colors tab, in the same dialog, and the font is set in "
+"the Font tab."
+msgstr ""
+"यदि तपाईँ शीर्षक चाहनुहुन्छ भने, यहाँ Y-अक्षका लागि शीर्षक लेख्नुहोस् । उही "
+"संवादमा, यो शीर्षकका लागि रङ रङ ट्याबमा सेट हुन्छ, र फन्ट फन्ट ट्याबमा सेट "
+"हुन्छ ।"
+
+#: kchartParameterConfigPage.cc:119
+msgid "Scale Types"
+msgstr "मापन प्रकार"
+
+#: kchartParameterConfigPage.cc:120
+msgid "Linear scale"
+msgstr "रेखात्मक मापन"
+
+#: kchartParameterConfigPage.cc:121
+msgid "This sets the Y-axis to be linear. This is default."
+msgstr "यसले रेखात्मक बनाउन Y-अक्षले सेट गर्दछ । यो पूर्वनिर्धारित हो ।"
+
+#: kchartParameterConfigPage.cc:122
+msgid "Logarithmic scale"
+msgstr "लघुगणकिय मापन"
+
+#: kchartParameterConfigPage.cc:123
+msgid "This sets the Y-axis to be logarithmic."
+msgstr "यसले लघुगणकिय बनाउन Y-अक्षले सेट गर्दछ ।"
+
+#: kchartParameterConfigPage.cc:127
+msgid "Precision for Numerical Left Axis"
+msgstr "संख्यात्मक बायाँ अक्षका लागि सूक्ष्मता"
+
+#: kchartParameterConfigPage.cc:129
+msgid "Automatic precision"
+msgstr "स्वचालित सूक्ष्मता"
+
+#: kchartParameterConfigPage.cc:130
+msgid ""
+"This sets the precision as automatic which means that KChart decides what "
+"precision to apply."
+msgstr ""
+"यसले स्वचालित रूपले सूक्ष्मता सेट गर्दछ जसको अर्थ केडीई चित्रपटले के "
+"सूक्ष्मता लागू गर्ने भन्ने निर्णय गर्दछ ।"
+
+#: kchartParameterConfigPage.cc:132
+msgid "Decimal precision:"
+msgstr "दशमलव सूक्ष्मता:"
+
+#: kchartParameterConfigPage.cc:133
+msgid ""
+"This sets the Y-axis precision. For example, if you choose a precision of 2, "
+"the value 5 will be displayed as 5.00 alongside the Y-axis."
+msgstr ""
+"यसले Y-अक्ष सूक्ष्मता सेट गर्दछ । उदाहरणका लागि, यदि तपाईँ २ को सूक्ष्मता "
+"रोज्नुहुन्छ भने, मान ५ Y-अक्षको साथ ५.००को रूपमा प्रदर्शित हुनेछ ।"
+
+#: kchartParameterConfigPage.cc:137
+msgid ""
+"Set the precision you want to display for the Y-axis, if you choose Decimal "
+"precision. The range is 0 to 15; 2 being the default."
+msgstr ""
+"यदि तपाईँले दशमलब सूक्ष्मता रोज्नुभयो भने, Y-अक्षका लागि तपाईँले प्रदर्शन "
+"गर्न चाहनुभएको सूक्ष्मता सेट गर्नुहोस् । दायरा ० र १५ बीचमा छ; २ "
+"पूर्वानिर्धारित हो ।"
+
+#: kchartParameterConfigPage.cc:141 kchartWizardSetupAxesPage.cc:152
+msgid "Y-label format:"
+msgstr "Y-लेबुल ढाँचा:"
+
+#: kchartParameterConfigPage.cc:149 kchartWizardLabelsLegendPage.cc:108
+msgid "Y-title 2:"
+msgstr "Y-शीर्षक २:"
+
+#: kchartParameterConfigPage.cc:156
+msgid "Y-label format 2:"
+msgstr "Y-लेबुल ढाँचा २:"
+
+#: kchartParameterPieConfigPage.cc:52 kchartParameterPolarConfigPage.cc:49
+msgid "Parameter"
+msgstr "परिमिति"
+
+#: kchartParameterPieConfigPage.cc:55
+msgid "Pie 3D"
+msgstr "वृत्तांश त्रि-आयामिक"
+
+#: kchartParameterPieConfigPage.cc:56
+msgid "Uncheck this option if you do not want a 3D effect for your pie."
+msgstr ""
+"यदि तपाईँ तपाईँको वृत्तांशका लागि त्रि-आयामिक असर पार्न चाहानुहुन्न भने यो "
+"विकल्प जाँच नगर्नुहोस् ।"
+
+#: kchartParameterPieConfigPage.cc:58
+msgid "Uncheck this option if you do not want a shadow color on a 3D pie."
+msgstr ""
+"यदि तपाईँ त्रि-आयामिक वृत्तांशमा छायाँ रङ पार्न चाहानुहुन्न भने यो विकल्प "
+"जाँच नगर्नुहोस् ।"
+
+#: kchartParameterPieConfigPage.cc:60 kchartPieConfigPage.cc:76
+msgid "Explode factor (%):"
+msgstr "फुट्ने तत्व (%):"
+
+#: kchartParameterPieConfigPage.cc:62
+msgid ""
+"This will place gaps between the segments of your pie. Default is 0 which "
+"means the pie is a whole."
+msgstr ""
+"यसले तपाईँको वृत्तांशका खण्डहरू बीच भएका फरक स्थितिमा ल्याउने छ । वृत्तांश "
+"पूरै हो भन्ने जानाउने ० पूर्वनिर्धारित हो ।"
+
+#: kchartParameterPieConfigPage.cc:64
+msgid "Start angle:"
+msgstr "कोण सुरु गर्नुहोस्:"
+
+#: kchartParameterPieConfigPage.cc:66
+msgid "This will set the orientation of your pie. Default is 0."
+msgstr ""
+"यसले तपाईँको वृत्तांशको पृष्ठविन्यास सेट गर्ने छ । ० पूर्वनिर्धारित हो ।"
+
+#: kchartParameterPieConfigPage.cc:68
+msgid "3D-depth:"
+msgstr "त्रि-आयामिक गहिराइ:"
+
+#: kchartParameterPieConfigPage.cc:70
+msgid ""
+"Set the depth from 0 to 40 of the 3D effect, if you have checked Pie 3D. "
+"Default is 20."
+msgstr ""
+"यदि तपाईँले वृत्तांश त्रि-आयामिक जाँच गर्नुभएको छ भने, त्रि-आयामिक असरको ० "
+"बाट ४० सम्म गहिराइ सेट गर्नुहोस् । २० पूर्वनिर्धारित हो ।"
+
+#: kchartParameterPolarConfigPage.cc:52
+msgid "Polar marker"
+msgstr "ध्रुवीय मार्कर"
+
+#: kchartParameterPolarConfigPage.cc:53
+msgid ""
+"If this is checked, the polar markers are shown; otherwise they are not."
+msgstr ""
+"यदि यो जाँच गरियो भने, ध्रुवीय मार्करहरू देखिनेछन्: अन्यथा तिनीहरू हुँदैनन ।"
+
+#: kchartParameterPolarConfigPage.cc:54
+msgid "Show circular label"
+msgstr "वृत्ताकार लेबुल देखाउनुहोस्"
+
+#: kchartParameterPolarConfigPage.cc:55
+msgid "Toggle the circular label display."
+msgstr "वृत्ताकार लेबुल प्रदर्शन टगल गर्नुहोस् ।"
+
+#: kchartParameterPolarConfigPage.cc:57
+msgid "Zero degree position:"
+msgstr "शून्य डिग्रि स्थिति:"
+
+#: kchartParameterPolarConfigPage.cc:59
+msgid ""
+"Set the position for the X axis (horizontal) from -359 to 359. Default is 0."
+msgstr ""
+"-३५९ बाट ३५९ सम्म X अक्ष (तेर्सो) का लागि स्थिति सेट गर्नुहोस् । ० "
+"पूर्वनिर्धारित हो ।"
+
+#: kchartParameterPolarConfigPage.cc:63
+msgid "Set the width for the chart lines. 0 is default and is the thinnest."
+msgstr ""
+"चित्रपट रेखाहरूका लागि चौडाइ सेट गर्नुहोस् । ० पूर्वनिर्धारित हो र सबभन्दा "
+"पातलो छ ।"
+
+#: kchartPieConfigPage.cc:55
+msgid "Hide Piece"
+msgstr "टुक्रा लुकाउनुहोस्"
+
+#: kchartPieConfigPage.cc:58
+msgid "Column active:"
+msgstr "स्तम्भ सक्रिय:"
+
+#: kchartPieConfigPage.cc:68
+msgid "Move piece to:"
+msgstr "यसमा टुक्रा सार्नुहोस्:"
+
+#: kchartPrinterDlg.cc:39
+msgid "KChart Options"
+msgstr "केडीई चित्रपट विकल्पहरू"
+
+#: kchartPrinterDlg.cc:54
+msgid "Print Size"
+msgstr "मुद्रण साइज"
+
+#: kchartPrinterDlg.cc:55
+msgid "Width: "
+msgstr "चौडाइ: "
+
+#: kchartPrinterDlg.cc:57
+msgid "Height: "
+msgstr "उचाइ: "
+
+#: kchartSubTypeChartPage.cc:50 kchartSubTypeChartPage.cc:129
+#: kchartSubTypeChartPage.cc:210 kchartSubTypeChartPage.cc:303
+#: kchartSubTypeChartPage.cc:382
+msgid "Sub-type"
+msgstr "उप-प्रकार"
+
+#: kchartSubTypeChartPage.cc:51 kchartSubTypeChartPage.cc:130
+#: kchartSubTypeChartPage.cc:211 kchartSubTypeChartPage.cc:304
+#: kchartSubTypeChartPage.cc:383
+msgid ""
+"Select the desired sub-type of a chart. The available sub-types depend on "
+"the chart type. Some chart types have no sub-type at all, in which case this "
+"configuration page is not shown."
+msgstr ""
+"चित्रपटले चाहेको उप-प्रकार चयन गर्नुहोस् । उपलव्ध उप-प्रकारहरू चित्रपट "
+"प्रकारमा निर्भर हुन्छ । केही चित्रपट प्रकारहरूको सबैमा उप-प्रकार हुँदैनन्, "
+"त्यस्तो अवस्थामा यो कन्फिगरेसन पृष्ठ देखिदैन ।"
+
+#: kchartSubTypeChartPage.cc:53 kchartSubTypeChartPage.cc:132
+#: kchartSubTypeChartPage.cc:215 kchartSubTypeChartPage.cc:306
+#: kchartSubTypeChartPage.cc:385 kchartWizardSelectChartSubTypePage.cc:49
+msgid "Normal"
+msgstr "सामान्य"
+
+#: kchartSubTypeChartPage.cc:55 kchartWizardSelectChartSubTypePage.cc:183
+msgid "HiLoClose"
+msgstr "HiLoClose"
+
+#: kchartSubTypeChartPage.cc:57 kchartWizardSelectChartSubTypePage.cc:184
+msgid "HiLoOpenClose"
+msgstr "HiLoOpenClose"
+
+#: kchartSubTypeChartPage.cc:63 kchartSubTypeChartPage.cc:142
+#: kchartSubTypeChartPage.cc:233 kchartSubTypeChartPage.cc:316
+#: kchartSubTypeChartPage.cc:395
+msgid "Example"
+msgstr "उदाहरण"
+
+#: kchartSubTypeChartPage.cc:64 kchartSubTypeChartPage.cc:143
+#: kchartSubTypeChartPage.cc:234 kchartSubTypeChartPage.cc:317
+#: kchartSubTypeChartPage.cc:396
+msgid "Preview the sub-type you choose."
+msgstr "तपाईँले रोजेको उप-प्रकारको पूर्वावलोकन गर्नुहोस् ।"
+
+#: kchartSubTypeChartPage.cc:134 kchartSubTypeChartPage.cc:217
+#: kchartSubTypeChartPage.cc:308 kchartSubTypeChartPage.cc:387
+#: kchartWizardSelectChartSubTypePage.cc:50
+#: kchartWizardSelectChartSubTypePage.cc:188
+msgid "Stacked"
+msgstr "थाक राखिएको"
+
+#: kchartSubTypeChartPage.cc:136 kchartSubTypeChartPage.cc:219
+#: kchartSubTypeChartPage.cc:310 kchartSubTypeChartPage.cc:389
+#: kchartWizardSelectChartSubTypePage.cc:51
+#: kchartWizardSelectChartSubTypePage.cc:189
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#: kchartSubTypeChartPage.cc:227 kchartWizardSelectChartSubTypePage.cc:54
+msgid "Number of lines: "
+msgstr "रेखाहरूको सङ्ख्या: "
+
+#: kchartWizard.cc:37
+msgid "Select Chart Type"
+msgstr "चित्रपट प्रकार चयन गर्नुहोस्"
+
+#: kchartWizard.cc:44
+msgid "Select Chart Sub-type"
+msgstr "चित्रपट उप-प्रकार चयन गर्नुहोस्"
+
+#: kchartWizard.cc:50
+msgid "Labels & Legend"
+msgstr "लेबुलहरू र लिजेन्ड"
+
+#: kchartWizard.cc:56
+msgid "Setup Axes"
+msgstr "अक्षहरू सेटअप गर्नुहोस्"
+
+#: kchartWizardLabelsLegendPage.cc:136
+msgid "Legend title:"
+msgstr "लिजेन्ड शीर्षक:"
+
+#: kchartWizardLabelsLegendPage.cc:155
+msgid "Legend text:"
+msgstr "लिजेन्ड पाठ:"
+
+#: kchartWizardSelectChartSubTypePage.cc:45
+msgid "Chart Sub Type"
+msgstr "चित्रपट उप-प्रकार"
+
+#: kchartWizardSelectChartTypePage.cc:61
+msgid "Lines"
+msgstr "रेखाहरू"
+
+#: kchartWizardSelectChartTypePage.cc:62
+msgid "Area"
+msgstr "क्षेत्र"
+
+#: kchartWizardSelectChartTypePage.cc:64
+msgid "Bars & Lines"
+msgstr "पट्टी र रेखा"
+
+#: kchartWizardSelectChartTypePage.cc:67
+msgid "Hi-Lo-Close"
+msgstr "Hi-Lo-Close"
+
+#: kchartWizardSelectChartTypePage.cc:68
+msgid "Box & Whisker "
+msgstr "बाकस र ह्विस्कर "
+
+#: kchartWizardSelectChartTypePage.cc:72
+msgid "Pie"
+msgstr "वृत्तांश"
+
+#: kchartWizardSelectChartTypePage.cc:73
+msgid "Ring"
+msgstr "रिङ"
+
+#: kchartWizardSelectChartTypePage.cc:74
+msgid "Polar"
+msgstr "ध्रुवीय"
+
+#: kchartWizardSelectDataFormatPage.cc:62
+msgid ""
+"\n"
+"If the selected data area does not match the data you want,\n"
+"select the data now.\n"
+"\n"
+"Include cells that you want to use as row and column labels,\n"
+"if you want them in the chart.\n"
+msgstr ""
+"\n"
+"यदि चयन गरिएका डेटा क्षेत्र तपाईँले चाहेको डेटा सँग मिल्दैन भने,\n"
+"अब डेटा चयन गर्नुहोस्।\n"
+"\n"
+"यदि तपाईँ तिनीहरूलाई चित्रपटमा राख्न चाहानुहुन्छ भने,\n"
+"तपाईँले पङ्क्तिको स्वरूपमा र स्तम्भ लेबुलको स्वरूपमा प्रयोग गर्न चाहानु भएको "
+"कक्षहरू समावेश गर्नुहोस्।\n"
+
+#: kchartWizardSetupAxesPage.cc:44
+msgid "Grid Lines"
+msgstr "ग्रीड रेखाहरू"
+
+#: kchartWizardSetupAxesPage.cc:45
+msgid "X axis:"
+msgstr "X अक्ष:"
+
+#: kchartWizardSetupAxesPage.cc:46
+msgid "Y axis:"
+msgstr "Y अक्ष:"
+
+#: kchartWizardSetupAxesPage.cc:59
+msgid "Border:"
+msgstr "किनारा:"
+
+#: kchartWizardSetupAxesPage.cc:82
+msgid "Angle 3D:"
+msgstr "कोण त्रि-आयामिक:"
+
+#: kchartWizardSetupAxesPage.cc:89
+msgid "Depth 3D:"
+msgstr "गहिराइ त्रि-आयामिक:"
+
+#: kchartWizardSetupAxesPage.cc:112
+msgid "Y interval:"
+msgstr "Y अन्तराल:"
+
+#: kchartWizardSetupAxesPage.cc:124
+msgid "Y min:"
+msgstr "Y न्यूनतम:"
+
+#: kchartWizardSetupAxesPage.cc:134
+msgid "Y max:"
+msgstr "Y अधिकतम:"
+
+#: kchartWizardSetupAxesPage.cc:176
+msgid "Y-label 2 format:"
+msgstr "Y-लेबुल २ ढाँचा:"
+
+#: kchartWizardSetupDataPage.cc:29
+msgid "Rows"
+msgstr "पङ्क्तिहरू"
+
+#: kchartWizardSetupDataPage.cc:36
+msgid "Columns"
+msgstr "स्तम्भहरू"
+
+#: kchartWizardSetupDataPage.cc:45
+msgid "Data is in:"
+msgstr "डेटा भित्र छ:"
+
+#: kchartWizardSetupDataPage.cc:59
+msgid "Use first row as description"
+msgstr "वर्णनको रूपमा पहिलो पङ्क्ति प्रयोग गर्नुहोस्"
+
+#: kchartWizardSetupDataPage.cc:71
+msgid "Use first column as description"
+msgstr "वर्णनको रूपमा पहिलो स्तम्भ प्रयोग गर्नुहोस्"
+
+#: kchart_params.cc:255
+#, c-format
+msgid "Unknown chart type %1"
+msgstr "अज्ञात चित्रपट प्रकार %1"
+
+#: kchart_part.cc:228
+#, c-format
+msgid "Column %1"
+msgstr "स्तम्भ %1"
+
+#: kchart_part.cc:233
+#, c-format
+msgid "Row %1"
+msgstr "पङ्क्ति %1"
+
+#: kchart_part.cc:979
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "अवैध OASIS खुल्ला कागजात फाइल। कार्यालय: को मुख्य ट्याग फेला परेन ।"
+
+#: kchart_part.cc:995
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr ""
+"अवैध OASIS खुल्ला कागजात फाइल। कार्यालय: मुख्य भाग भित्र ट्याग फेला परेन ।"
+
+#: kchart_part.cc:997
+msgid ""
+"This document is not a chart, but %1. Please try opening it with the "
+"appropriate application."
+msgstr ""
+"यो कागजात चित्रपट होइन, तर %1. कृपया  यसलाई उपयुक्त अनुप्रयोगका साथ खोल्न "
+"प्रयास गर्नुहोस्।"
+
+#: kchart_part.cc:1005
+msgid "Invalid OASIS OpenDocument file. No chart:chart tag found."
+msgstr "अवैध OASIS खुल्ला कागजात फाइल। चित्रपट छैन: चित्रपट ट्याग फेला परेन।"
+
+#: kchart_view.cc:67
+msgid "Import Data..."
+msgstr "डेटा आयात गर्नुहोस्..."
+
+#: kchart_view.cc:73
+msgid "&Create Template From Document..."
+msgstr "कागजातबाट टेम्प्लेट सिर्जना गर्नुहस्..."
+
+#: kchart_view.cc:77
+msgid "Customize with &Wizard..."
+msgstr "विजार्डद्वारा अनुकूलन गर्नुहोस्..."
+
+#: kchart_view.cc:81
+msgid "Edit &Data..."
+msgstr "डेटा सम्पादन गर्नुहोस्..."
+
+#: kchart_view.cc:84
+msgid "&Chart..."
+msgstr "चित्रपट..."
+
+#: kchart_view.cc:90
+msgid "&Bar"
+msgstr "पट्टी"
+
+#: kchart_view.cc:96
+msgid "&Line"
+msgstr "रेखा"
+
+#: kchart_view.cc:101
+msgid "&Area"
+msgstr "क्षेत्र"
+
+#: kchart_view.cc:106
+msgid "&HiLo"
+msgstr "HiLo"
+
+#: kchart_view.cc:111
+msgid "Bo&x && Whiskers"
+msgstr "बाकस र ह्विस्करहरू"
+
+#: kchart_view.cc:121
+msgid "&Ring"
+msgstr "रिङ"
+
+#: kchart_view.cc:132
+msgid "&Colors..."
+msgstr "रङहरू..."
+
+#: kchart_view.cc:136
+msgid "&Font..."
+msgstr "फन्ट..."
+
+#: kchart_view.cc:140
+msgid "&Background..."
+msgstr "पृष्ठभूमि..."
+
+#: kchart_view.cc:144
+msgid "&Legend..."
+msgstr "लिजेन्ड..."
+
+#: kchart_view.cc:148
+msgid "Chart &Sub-type..."
+msgstr "चित्रपट र उप-प्रकार..."
+
+#: kchart_view.cc:152
+msgid "&Data Format..."
+msgstr "डेटा ढाँचा..."
+
+#: kchart_view.cc:156
+msgid "&Header && Footer..."
+msgstr "हेडर र फुटर..."
+
+#: kchart_view.cc:160
+msgid "Page Layout..."
+msgstr "पृष्ठ सजावट..."
+
+#: kchart_view.cc:680
+msgid "The file %1 could not be read."
+msgstr "फाइल %1 पढ्न सकेन ।"
+
+#: main.cc:32
+msgid "File to open"
+msgstr "खोल्नका लागि फाइल"
+
+#: kchart_aboutdata.h:30
+msgid "KOffice Chart Generator"
+msgstr "केडीई कार्यालय चित्रपट सर्जक"
+
+#: kchart_aboutdata.h:36
+msgid "KChart"
+msgstr "केडीई चित्रपट"
+
+#: kchart_aboutdata.h:38
+msgid "(c) 1998-2006, Kalle Dalheimer and Klarälvdalens Datakonsult AB"
+msgstr "(c) 1998-2006, काले डालहेइमेर र केलराल्भडालेन्स डेटाकनसल्ट AB"
+
+#: kchart_aboutdata.h:39
+msgid ""
+"The drawing engine which forms the base of KChart\n"
+"is also available as a commercial product\n"
+"from Klarälvdalens Datakonsult AB.\n"
+"Contact info@klaralvdalens-datakonsult.se\n"
+"for more information."
+msgstr ""
+"रेखाचित्र इन्जिन जसले केडीई चित्रपटको आधार निर्माण गर्दछ\n"
+"जुन केलराल्भडालेन्स डेटाकन्सल्ट AB बाट व्यपारिक उत्पादनको रूपमा\n"
+"पनि उपलब्ध हुन्छ ।\n"
+"अरू धेरै जानकारीका लागि  info@klaralvdalens-datakonsult.se\n"
+"मा सम्पर्क गर्नुहोस् ।"
+
+#: kchart_aboutdata.h:45
+msgid "Created chart preview images, toolbar icons"
+msgstr "सिर्जना गरिएको चित्रपट पूर्ववलोकन छविहरू, उपकरणपट्टी प्रतिमाहरू"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+"Ishwor Sharma, श्यामकृष्ण बल, ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+"sharmabeeshwar@gmail.com shyamkrishna_bal@yahoo.com,,,submanesh@gmail.com"

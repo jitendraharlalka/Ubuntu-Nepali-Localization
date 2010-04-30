@@ -1,0 +1,112 @@
+# translation of kcmenergy.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmenergy\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-26 04:49+0000\n"
+"PO-Revision-Date: 2008-10-07 16:18+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:17+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: energy.cpp:155
+msgid ""
+"<h1>Display Power Control</h1> <p>If your display supports power saving "
+"features, you can configure them using this module.</p> <p>There are three "
+"levels of power saving: standby, suspend, and off. The greater the level of "
+"power saving, the longer it takes for the display to return to an active "
+"state.</p> <p>To wake up the display from a power saving mode, you can make "
+"a small movement with the mouse, or press a key that is not likely to cause "
+"any unintentional side-effects, for example, the \"Shift\" key.</p>"
+msgstr ""
+"<h1>शक्ति नियन्त्रण प्रदर्शन गर्नुहोस्</h1> <p> यदि तपाईँको प्रदर्शनले शक्ति "
+"बचत आकृतिहरू समर्थन गर्छ भने, यो मोड्युल प्रयोग गरेर तीनिहरूलाई कन्फिगर गर्न "
+"सक्नुहुन्छ ।</p> <p> शक्ति बचतका तीन स्तरहरू छन्: स्ट्यान्डबाई, निलम्बन, र "
+"बन्द । शक्ति बचतको ठूलो स्तरले प्रदर्शनका लागि सक्रिय अवस्थामा फर्कन लामो "
+"लिन्छ ।</p> <p> शक्ति बचत मोडबाट प्रदर्शन चालु गराउका लागि, तपाईँले माउसमा "
+"थोरै चाल ल्याउन, वा कुनै पनि बेमतलबी प्रभावहरूको कारण हुन नसक्ने एउटा कुञ्जी "
+"थिच्न सक्नुहुन्छ, उदाहरणका लागि, \"शिफ्ट\" कुञ्जी ।</p>"
+
+#: energy.cpp:177
+msgid "&Enable display power management"
+msgstr "शक्ति व्यवस्थापन प्रदर्शन गर्न सक्षम पार्नुहोस्"
+
+#: energy.cpp:180
+msgid ""
+"Check this option to enable the power saving features of your display."
+msgstr ""
+"तपाईँको प्रदर्शनको शक्ति व्यवस्थापन आकृति सक्षम पार्न यो विकल्प जाँच "
+"गर्नुहोस् ।"
+
+#: energy.cpp:183
+msgid "Your display does not support power saving."
+msgstr "तपाईँको प्रदर्शनले शक्ति बचत समर्थन गर्दैन ।"
+
+#: energy.cpp:191
+msgid "Learn more about the Energy Star program"
+msgstr "इनर्जी स्टार कार्यक्रमको बारेमा अझै जान्नुहोस्"
+
+#: energy.cpp:201
+msgid "&Standby after:"
+msgstr "स्ट्यान्डवाई अगाडिको समय :"
+
+#: energy.cpp:203 energy.cpp:214 energy.cpp:226
+msgid " min"
+msgstr " मिनेट"
+
+#: energy.cpp:204
+msgctxt "Disables display entering standby mode after x min"
+msgid "Disabled"
+msgstr ""
+
+#: energy.cpp:207
+msgid ""
+"Choose the period of inactivity after which the display should enter "
+"\"standby\" mode. This is the first level of power saving."
+msgstr ""
+"निस्क्रियताको समय रोज्नुहोस् त्यसपछि प्रदर्शनले \"स्ट्यान्डबाई\" मोड "
+"प्रविष्ट गर्नुपर्छ । यो शक्ति बचतको पहिलो स्तर हो ।"
+
+#: energy.cpp:212
+msgid "S&uspend after:"
+msgstr "निलम्बन अगाडिको समय:"
+
+#: energy.cpp:215
+msgctxt "Disables display entering suspend mode after x min"
+msgid "Disabled"
+msgstr ""
+
+#: energy.cpp:218
+msgid ""
+"Choose the period of inactivity after which the display should enter "
+"\"suspend\" mode. This is the second level of power saving, but may not be "
+"different from the first level for some displays."
+msgstr ""
+"निस्क्रियताको समय रोज्नुहोस् त्यसपछि प्रदर्शनले \"स्ट्यान्डबाई\" मोड "
+"प्रविष्ट गर्नुपर्छ । यो शक्ति बचतको दोस्रो स्तर हो, तर केही प्रदर्शनमा पहिलो "
+"स्तरसँग फरक नहुन सक्छ ।"
+
+#: energy.cpp:224
+msgid "&Power off after:"
+msgstr "कम्प्युटर बन्द गर्नु अगाडिको समय:"
+
+#: energy.cpp:227
+msgctxt "Disables display being turned off after x min"
+msgid "Disabled"
+msgstr ""
+
+#: energy.cpp:230
+msgid ""
+"Choose the period of inactivity after which the display should be powered "
+"off. This is the greatest level of power saving that can be achieved while "
+"the display is still physically turned on."
+msgstr ""
+"प्रदर्शन शक्ति बन्द हुने निस्क्रियताको समय रोज्नुहोस् । यो शक्ति बचतको "
+"सबैभन्दा ठूलो स्तर हो यो प्रदर्शन भौतिक रुपमा सुरु रहेसम्म प्राप्त हुन सक्छ ।"

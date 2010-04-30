@@ -1,0 +1,457 @@
+# translation of kmahjongg.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmahjongg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2010-04-25 16:16+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:08+0000\n"
+
+#: Editor.cpp:81
+msgid "Edit Board Layout"
+msgstr "बोर्ड सजावट सम्पादन गर्नुहोस्"
+
+#: Editor.cpp:116
+msgid "New board"
+msgstr "नयाँ बोर्ड"
+
+#: Editor.cpp:122
+msgid "Open board"
+msgstr "बोर्ड खोल्नुहोस्"
+
+#: Editor.cpp:128
+msgid "Save board"
+msgstr "बोर्ड बचत गर्नुहोस्"
+
+#: Editor.cpp:139
+msgid "Select"
+msgstr "चयन गर्नुहोस्"
+
+#: Editor.cpp:145
+msgid "Cut"
+msgstr "काट्नुहोस्"
+
+#: Editor.cpp:150
+msgid "Copy"
+msgstr "प्रतिलिपि गर्नुहोस्"
+
+#: Editor.cpp:155
+msgid "Paste"
+msgstr "टाँस्नुहोस्"
+
+#: Editor.cpp:162
+msgid "Move tiles"
+msgstr "टायल सार्नुहोस्"
+
+#: Editor.cpp:165
+msgid "Add tiles"
+msgstr "टायल थप्नुहोस्"
+
+#: Editor.cpp:168
+msgid "Remove tiles"
+msgstr "टायल हटाउनुहोस्"
+
+#: Editor.cpp:190
+msgid "Shift left"
+msgstr "Shift left"
+
+#: Editor.cpp:196
+msgid "Shift up"
+msgstr "Shift up"
+
+#: Editor.cpp:202
+msgid "Shift down"
+msgstr "Shift down"
+
+#: Editor.cpp:208
+msgid "Shift right"
+msgstr "Shift right"
+
+#: Editor.cpp:294
+#, kde-format
+msgid "Tiles: %1 Pos: %2,%3,%4"
+msgstr "टायल: %1 स्थान: %2,%3,%4"
+
+#: Editor.cpp:306 Editor.cpp:338
+msgid ""
+"*.layout|Board Layout (*.layout)\n"
+"*|All Files"
+msgstr ""
+"*.layout|बोर्ड सजावट (*.layout)\n"
+"*|सबै फाइल"
+
+#: Editor.cpp:309
+msgid "Open Board Layout"
+msgstr "बोर्ड सजावट खोल्नुहोस्"
+
+#: Editor.cpp:341 Editor.cpp:360
+msgid "Save Board Layout"
+msgstr "बोर्ड सजावट बचत गर्नुहोस्"
+
+#: Editor.cpp:348 kmahjongg.cpp:562
+msgid "Only saving to local files currently supported."
+msgstr "हाल समर्थित स्थानीय फाइलमा मात्र बचत गर्नुहोस् ।"
+
+#: Editor.cpp:357
+msgid "A file with that name already exists. Do you wish to overwrite it?"
+msgstr ""
+"यो नामको फाइल पहिल्यै अवस्थित छ । तपाईँले यसलाई अधिलेखन गर्न चाहनुहुन्छ?"
+
+#: Editor.cpp:384
+msgid "The board has been modified. Would you like to save the changes?"
+msgstr "बोर्ड परिमार्जन गरिएको छ । तपाईँ परिवर्तन बचत गर्न चाहनुहुन्छ?"
+
+#: Editor.cpp:392
+msgid "Save failed. Aborting operation."
+msgstr "बचत असफल भयो । सञ्चालन परित्याग गरिदैछ ।"
+
+#: boardwidget.cpp:411
+msgid "Undo operation done successfully."
+msgstr "पूर्वस्थितिमा फर्काउने काम सफलतापूर्वक सम्पन्न भयो ।"
+
+#: boardwidget.cpp:415
+msgid "What do you want to undo? You have done nothing!"
+msgstr ""
+"तपाईँले पूर्वस्थितिमा फर्काउन के गर्न चाहनुहुन्छ? तपाईँले केही पनि गर्नु "
+"भएको छैन!"
+
+#: boardwidget.cpp:434
+msgid "Sorry, you have lost the game."
+msgstr "माफ गर्नुहोस्, तपाईँले खेल हार्नु भएको छ ।"
+
+#: boardwidget.cpp:479
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "डेमो मोड । रोक्नका लागि माउस बटन क्लिक गर्नुहोस् ।"
+
+#: boardwidget.cpp:488
+msgid "Now it is you again."
+msgstr "अब फेरि यो तपाईँ हो ।"
+
+#: boardwidget.cpp:511
+msgid "Your computer has lost the game."
+msgstr "तपाईँको कम्प्युटरले खेल हारेको छ ।"
+
+#: boardwidget.cpp:606
+msgid "Congratulations. You have won!"
+msgstr "बधाइ छ । तपाईँले जित्नु भयो!"
+
+#: boardwidget.cpp:653
+msgid "Calculating new game..."
+msgstr "नयाँ खेल गणना गर्दैछ..."
+
+#: boardwidget.cpp:658
+msgid "Error converting board information!"
+msgstr "बोर्ड जानकारी रुपान्तरण गर्दा त्रुटि!"
+
+#: boardwidget.cpp:684
+msgid "Ready. Now it is your turn."
+msgstr "तयार । अब तपाईँको पालो हो ।"
+
+#: boardwidget.cpp:692
+msgid "Error generating new game!"
+msgstr "नयाँ खेल उत्पन्न गर्दा त्रुटि!"
+
+#: boardwidget.cpp:856
+msgid "Game over: You have no moves left."
+msgstr "खेल समाप्त: तपाईँका लागि चाल बाँकी छैन ।"
+
+#: kmahjongg.cpp:148
+msgid "New Numbered Game..."
+msgstr "नयाँ क्रमाङ्कन गरिएको खेल..."
+
+#: kmahjongg.cpp:155
+msgid "Shu&ffle"
+msgstr "अनियमित"
+
+#: kmahjongg.cpp:159
+msgid "Rotate View Counterclockwise"
+msgstr ""
+
+#: kmahjongg.cpp:163
+msgid "Rotate View Clockwise"
+msgstr "दृश्य घडिको दिशामा घुमाउनुहोस्"
+
+#: kmahjongg.cpp:191
+msgid "Time: 0:00:00"
+msgstr "समय: ०:००:००"
+
+#: kmahjongg.cpp:198
+msgid "Removed: 0000/0000"
+msgstr "हटाइएका: ००००/००००"
+
+#: kmahjongg.cpp:205
+msgid "Game: 000000000000000000000"
+msgstr "खेल: ०००००००००००००००००००००"
+
+#: kmahjongg.cpp:218
+msgid "Time: "
+msgstr "समय: "
+
+#: kmahjongg.cpp:236
+msgid "New Game"
+msgstr "नयाँ खेल"
+
+#: kmahjongg.cpp:236
+msgid "Enter game number:"
+msgstr "खेल नम्बर प्रविष्ट गर्नुहोस्:"
+
+#: kmahjongg.cpp:266
+msgid "General"
+msgstr "साधारण"
+
+#: kmahjongg.cpp:267
+msgid "Board Layout"
+msgstr ""
+
+#: kmahjongg.cpp:364
+msgid "You have won!"
+msgstr "तपाईँले जित्नु भयो!"
+
+#: kmahjongg.cpp:405
+#, kde-format
+msgid "Game number: %1"
+msgstr "खेल नम्बर: %1"
+
+#: kmahjongg.cpp:415
+#, kde-format
+msgid "Removed: %1/%2  Combinations left: %3"
+msgstr "हटाइयो: %1/%2  संयोजन बाँकी रह्यो: %3"
+
+#: kmahjongg.cpp:481
+msgid "Load Game"
+msgstr "खेल लोड गर्नुहोस्"
+
+#: kmahjongg.cpp:493
+msgid "Could not read from file. Aborting."
+msgstr "फाइलबाट पढ्न सकेन । अन्त्य गर्दै ।"
+
+#: kmahjongg.cpp:503
+msgid "File is not a KMahjongg game."
+msgstr ""
+
+#: kmahjongg.cpp:516
+msgid "File format not recognized."
+msgstr "फाइल ढाँचा चिन्न सकिएन् ।"
+
+#: kmahjongg.cpp:553
+msgid "Save Game"
+msgstr "खेल बचत गर्नुहोस्"
+
+#: kmahjongg.cpp:570
+msgid "Could not write saved game."
+msgstr ""
+
+#: main.cpp:29
+msgid "Mahjongg Solitaire for KDE"
+msgstr "केडीईका लागि माहजोङ्ग सोलिटेयर"
+
+#: main.cpp:33
+msgid "KMahjongg"
+msgstr "केडीई माहजोङ्ग"
+
+#: main.cpp:35
+msgid ""
+"(c) 1997, Mathias Mueller\n"
+"(c) 2006, Mauricio Piacentini"
+msgstr ""
+"(c) 1997, माथिहास मेलर\n"
+"(c) 2006, माउरिसिओ पियासेन्टिनि"
+
+#: main.cpp:36
+msgid "Mathias Mueller"
+msgstr "म्याथिहास मेलर"
+
+#: main.cpp:36
+msgid "Original Author"
+msgstr "मौलिक लेखक"
+
+#: main.cpp:37
+msgid "Mauricio Piacentini"
+msgstr "माउरिसिओ पियासेन्टिनि"
+
+#: main.cpp:37
+msgid "Current maintainer"
+msgstr "हालको मर्मतकर्ता"
+
+#: main.cpp:38
+msgid "Albert Astals Cid"
+msgstr "अल्बर्ट एस्टल्स सिड"
+
+#: main.cpp:38
+msgid "Bug fixes"
+msgstr "त्रुटि समाधान गर्दछ"
+
+#: main.cpp:39
+msgid "David Black"
+msgstr "डेभिड ब्ल्याक"
+
+#: main.cpp:39
+msgid "KDE 3 rewrite and Extension"
+msgstr "केडीई ३ पुनर्लेखन र विस्तार"
+
+#: main.cpp:40
+msgid "Michael Haertjens"
+msgstr "माइकल हार्टजेन्स"
+
+#: main.cpp:40
+msgid ""
+"Solvable game generation\n"
+"based on algorithm by Michael Meeks in GNOME mahjongg"
+msgstr ""
+"जिनोम माहजोङ्गमा माइकल मिकद्वारा एलगोरिदममा आधारित\n"
+"समाधान योग्य खेल संस्करण"
+
+#: main.cpp:41
+msgid "Raquel Ravanini"
+msgstr "राक्वेल राभानिनि"
+
+#: main.cpp:41
+msgid "SVG Tileset for KDE4"
+msgstr "केडीई४ का लागि SVG टायलसेट"
+
+#: main.cpp:42
+msgid "Richard Lohman"
+msgstr "रिचार्ड लोम्यान"
+
+#: main.cpp:42
+msgid "Tile set contributor and current web page maintainer"
+msgstr "टायल सेट सहयोगि र हालको वेब पृष्ठ मर्मतकर्ता"
+
+#: main.cpp:43
+msgid "Osvaldo Stark"
+msgstr "ओस्भाल्डो स्टार्क"
+
+#: main.cpp:43
+msgid "Tile set contributor and original web page maintainer"
+msgstr "टायल सेट सहयोगि र मौलिक वेब पृष्ठ मर्मतकर्ता"
+
+#: main.cpp:44
+msgid "Benjamin Meyer"
+msgstr "बेन्जामिन मेयर"
+
+#: main.cpp:44
+msgid "Code cleanup"
+msgstr "सङ्केत सफाइ"
+
+#. i18n: file: gametype.ui:48
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: rc.cpp:3
+msgid "&Get New Layouts"
+msgstr ""
+
+#. i18n: file: gametype.ui:57
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:6
+msgid "Preview"
+msgstr ""
+
+#. i18n: file: gametype.ui:99
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:9
+msgid "Layout Details"
+msgstr ""
+
+#. i18n: file: gametype.ui:137
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: rc.cpp:12
+msgid "Author:"
+msgstr "लेखक:"
+
+#. i18n: file: gametype.ui:147
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: rc.cpp:15
+msgid "Contact:"
+msgstr "सम्पर्क:"
+
+#. i18n: file: gametype.ui:157
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: rc.cpp:18
+msgid "Description:"
+msgstr "वर्णन:"
+
+#. i18n: file: kmahjongg.kcfg:9
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: rc.cpp:21
+msgid "The tile-set to use."
+msgstr "प्रयोग गरिने टायल सेट ।"
+
+#. i18n: file: kmahjongg.kcfg:12
+#. i18n: ectx: label, entry (Background), group (General)
+#: rc.cpp:24
+msgid "The background to use."
+msgstr "प्रयोग गरिने पृष्ठभूमि ।"
+
+#. i18n: file: kmahjongg.kcfg:15
+#. i18n: ectx: label, entry (Layout), group (General)
+#: rc.cpp:27
+msgid "The layout of the tiles."
+msgstr "टायलको सजावट ।"
+
+#. i18n: file: kmahjongg.kcfg:21
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: rc.cpp:30
+msgid "Whether all games should be solvable."
+msgstr "सबै खेल समाधान योग्य हुन्छन् या हुदैनन् ।"
+
+#. i18n: file: kmahjongg.kcfg:25
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: rc.cpp:33
+msgid "Whether matching tiles are shown."
+msgstr "मिल्दा टायल देखाइने छन् वा छैनन् ।"
+
+#. i18n: file: kmahjonggui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:36
+msgid "&Game"
+msgstr "खेल"
+
+#. i18n: file: kmahjonggui.rc:13
+#. i18n: ectx: Menu (move)
+#: rc.cpp:39
+msgid "&Move"
+msgstr "चाल"
+
+#. i18n: file: kmahjonggui.rc:16
+#. i18n: ectx: Menu (view)
+#: rc.cpp:42
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: kmahjonggui.rc:22
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:45
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: settings.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
+#: rc.cpp:48
+msgid "Blink matching tiles when first one is selected"
+msgstr ""
+
+#. i18n: file: settings.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
+#: rc.cpp:51
+msgid "Generate solvable games"
+msgstr "समाधान योग्य खेल उत्पन्न गर्नुहोस्"
+
+#: rc.cpp:52
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, Jitendra Harlalka, Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:53
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com, jitendra@otrc.gov.np,,"

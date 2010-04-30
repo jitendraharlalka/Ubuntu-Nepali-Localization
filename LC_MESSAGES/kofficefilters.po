@@ -1,0 +1,1861 @@
+# translation of kofficefilters.po to Nepali
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kofficefilters\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 08:47+0000\n"
+"PO-Revision-Date: 2009-07-07 19:00+0000\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:24+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:3 rc.cpp:66 rc.cpp:319 rc.cpp:514
+msgid "Encoding"
+msgstr "सङ्केतन"
+
+#: rc.cpp:6 rc.cpp:69 rc.cpp:367 rc.cpp:385 rc.cpp:403
+msgid "E&ncoding:"
+msgstr "सङ्केतन:"
+
+#: rc.cpp:9
+msgid "Common"
+msgstr "साझा"
+
+#: rc.cpp:12 rc.cpp:108
+msgid "Delimiter"
+msgstr "डेलिमिटर"
+
+#: rc.cpp:15 rc.cpp:111
+msgid "Comma"
+msgstr "अल्पविराम"
+
+#: rc.cpp:18 rc.cpp:114
+msgid "Semicolon"
+msgstr "अर्धविराम"
+
+#: rc.cpp:21 rc.cpp:117
+msgid "Tabulator"
+msgstr "ट्याबुलेटर"
+
+#: rc.cpp:24 rc.cpp:120
+msgid "Space"
+msgstr "खाली स्थान"
+
+#: rc.cpp:27
+msgid "Other"
+msgstr "अन्य"
+
+#: rc.cpp:30
+msgid "Ignore duplicate delimiters"
+msgstr "नक्कली डेलिमिटर उपेक्षा गर्नुहोस्"
+
+#: rc.cpp:33
+msgid "Text&quote:"
+msgstr "पाठ उद्धरण:"
+
+#: rc.cpp:36
+msgid "&Format:"
+msgstr "ढाँचा:"
+
+#: rc.cpp:39 rc.cpp:132
+msgid "\""
+msgstr "\""
+
+#: rc.cpp:42 rc.cpp:135
+msgid "'"
+msgstr "'"
+
+#: kspread/csv/csvdialog.cpp:543 rc.cpp:45 rc.cpp:723 rc.cpp:753
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: rc.cpp:48
+msgid "Ranges"
+msgstr "दायरा"
+
+#: rc.cpp:51 rc.cpp:57
+msgid "to"
+msgstr "लाई"
+
+#: rc.cpp:54
+msgid "Import lines:"
+msgstr "रेखाहरू आयात गर्नुहोस्:"
+
+#: rc.cpp:60
+msgid "Import columns:"
+msgstr "स्तम्भहरू आयात गर्नुहोस्:"
+
+#: rc.cpp:63
+msgid "Update"
+msgstr "अद्यावधिक गर्नुहोस्"
+
+#: rc.cpp:72 rc.cpp:388
+msgid "End of Line"
+msgstr "रेखाको समाप्ति"
+
+#: rc.cpp:75 rc.cpp:391
+msgid "&UNIX style (recommended; line feed only)"
+msgstr "युनिक्स शैली (सिफारिस गरिएको; लाइन फेड मात्र)"
+
+#: rc.cpp:78 rc.cpp:394
+msgid "&Windows style (carriage return and line feed)"
+msgstr "सञ्झ्याल शैली (वाहन फिर्ता र लाइन फेड)"
+
+#: rc.cpp:81 rc.cpp:397
+msgid "&MacOS style (carriage return only)"
+msgstr "म्याक्रोस शैली (वाहन फिर्ता मात्र)"
+
+#: rc.cpp:84
+msgid "Sheets"
+msgstr "पाना"
+
+#: rc.cpp:87
+msgid "Available Sheets"
+msgstr "उपलब्ध पाना"
+
+#: rc.cpp:90
+msgid "Select sheets to export:"
+msgstr "निर्यात गर्न पानाहरू चयन गर्नुहोस्:"
+
+#: rc.cpp:93
+msgid "Delimiter Line"
+msgstr "डिलिमिटर रेखा"
+
+#: rc.cpp:96
+msgid "********<SHEETNAME>********"
+msgstr "********<SHEETNAME>********"
+
+#: rc.cpp:99
+msgid "<SHEETNAME> gets replaced by the name of the next sheet."
+msgstr "<SHEETNAME> पछिल्लो पानाको नामद्वारा प्रतिस्थापन गर्दछ ।"
+
+#: rc.cpp:102
+msgid "Print delimiter line above every sheet"
+msgstr "हरेक पाना माथि डेलिमिटर रेखा मुद्रण गर्नुहोस्"
+
+#: rc.cpp:105 rc.cpp:126
+msgid "Cells"
+msgstr "कक्ष"
+
+#: rc.cpp:123
+msgid "Other:"
+msgstr "अन्य:"
+
+#: rc.cpp:129
+msgid "Quotes:"
+msgstr "उद्वरण:"
+
+#: rc.cpp:139
+msgid "Export selection only"
+msgstr "चयन मात्र निर्यात गर्नुहोस्"
+
+#: rc.cpp:142
+msgid "KSpread Kexi Import Filter"
+msgstr "केडीई स्प्रेड केक्सी आयात फिल्टर"
+
+#: rc.cpp:146
+msgid ""
+"The Insert Calendar dialog lets you set the dates of the calendar you want "
+"to insert. When you have choosen the desired dates, simply press the Insert "
+"button to insert the calendar into the spreadsheet, starting at the cell you "
+"have currently selected."
+msgstr ""
+"घुसाने पात्रो संवादले तपाईँले घुसाउन चाहनुभएको पात्रोको मिति सेट गर्न दिन्छ "
+"। तपाईँले हालै चयन गर्नुभएको शेलको सुरूआतमा, आवश्यक मिति छनोट गरेपछि "
+"स्प्रेडसिटमा पात्रो घुसाउन 'घुसाउनुहोस्' बटन थिच्नुहोस् ।"
+
+#: rc.cpp:149
+msgid "Table/Query"
+msgstr "तालिका/क्वेरि"
+
+#: rc.cpp:152
+msgid "Type"
+msgstr "प्रकार"
+
+#: rc.cpp:155
+msgid "Name"
+msgstr "नाम"
+
+#: rc.cpp:158
+msgid "Custom quer&y"
+msgstr "अनुकूल क्वेरि"
+
+#: rc.cpp:161
+msgid "Data Conversion"
+msgstr "डेटा रूपान्तरण"
+
+#: rc.cpp:165
+msgid "&Let KSpread choose"
+msgstr "केडीई स्प्रेडसिट छनोट गर्नुहोस्"
+
+#: rc.cpp:168
+msgid "Text (faster)"
+msgstr "पाठ (छिटो)"
+
+#: rc.cpp:172
+msgid "&Open"
+msgstr "खोल्नुहोस्"
+
+#: rc.cpp:175
+msgid "Insert the calendar at the currently selected cell."
+msgstr "हालै चयन गरेको शेलमा पात्रो घुसाउनुहोस्"
+
+#: rc.cpp:178
+msgid ""
+"A new calendar will be inserted starting at the currently selected cell."
+msgstr "हालै चयन गरेको शेलको सुरूआतमा नयाँ पात्रो घुसाइन्छ ।"
+
+#: rc.cpp:184
+msgid "Don't insert a calendar."
+msgstr "पात्रो नघुसाउनुहोस्"
+
+#: rc.cpp:187
+msgid ""
+"Quits the dialog and does not insert a calendar. Use this to cancel this "
+"operation."
+msgstr ""
+"संवाद अन्त्य हुन्छ र पात्रो घुसाउदैन । यो सञ्चालन रद्द गर्न यसको प्रयोग "
+"गर्नुहोस् ।"
+
+#: rc.cpp:190
+msgid "En&coding:"
+msgstr "सङ्केतन:"
+
+#: rc.cpp:193
+msgid ""
+"With this option you can define the encoding of the HTML file. The "
+"recommended encoding (UTF8) is selected as default."
+msgstr ""
+"यो विकल्पद्वारा तपाईँ एचटीएमएल फाइलको सङ्केतन परिभाषा गर्न सक्नुहुन्छ । "
+"सिफारिस गरिएको सङ्केतन (UTF8) पूर्वानिर्धारणको रूपमा चयन गरिएको छ ।"
+
+#: rc.cpp:196
+msgid "Sheet Selection"
+msgstr "पाना चयन"
+
+#: rc.cpp:199
+msgid "Select &All"
+msgstr "सबै चयन गर्नुहोस्"
+
+#: rc.cpp:202 rc.cpp:208
+msgid "Click here to select all sheets in the list."
+msgstr "सूचीमा सबै पानाहरू चयन गर्न यहाँ क्लिक गर्नुहोस् ।"
+
+#: rc.cpp:205
+msgid "Desele&ct All"
+msgstr "सबै चयनबाट हटाउनुहोस्"
+
+#: rc.cpp:211
+msgid "Use &separate files for each table"
+msgstr "हरेक तालिकाका लागि अलग अलग फाइल प्रयोग गर्नुहोस्"
+
+#: rc.cpp:214
+msgid ""
+"This option will make the HTML export filter generate a new page for each "
+"sheet. If you disable this option, all sheets are written on one page."
+msgstr ""
+"यो विकल्पले हरेक पानाका लागि नयाँ पृष्ठ सिर्जना गर्न एचटीएमएल निर्यात फिल्टर "
+"बनाउँनेछ । यदि तपाईँले यो विकल्प अक्षम गर्नुभयो भने, सबै पानाहरू एउटा "
+"पृष्ठमा लेखिएका हुन्छन् ।"
+
+#: rc.cpp:217
+msgid "Style"
+msgstr "शैली"
+
+#: rc.cpp:220
+msgid "Use &default style"
+msgstr "पूर्वानिर्धारित शैली प्रयोग गर्नुहोस्"
+
+#: rc.cpp:223
+msgid ""
+"Select this option to use the default fonts and colors for the HTML page."
+msgstr ""
+"एचटीएमएल पृष्ठका लागि पूर्वानिर्धारित फन्ट र रङ प्रयोग गर्न यो विकल्प चयन "
+"गर्नुहोस् ।"
+
+#: rc.cpp:226
+msgid "Use &external stylesheet:"
+msgstr "बाह्य शैलीपाना प्रयोग गर्नुहोस्:"
+
+#: rc.cpp:229
+msgid ""
+"Select this option to specify a separate stylesheet for the HTML page. You "
+"can select or type on in the field below."
+msgstr ""
+"एचटीएमएल पृष्ठका लागि अलग शैलीपाना निर्दिष्ट गर्न यो विकल्प चयन गर्नुहोस् । "
+"तपाईँको तलको फिल्डमा चयन गर्न वा टाइप गर्न सक्नुहुन्छ ।"
+
+#: rc.cpp:232
+msgid ""
+"In this field you can enter an URL for your stylesheet. It is possible to "
+"point to a stylesheet on disk, or to somewhere on the Internet."
+msgstr ""
+"यो फिल्डमा तपाईँ तपाईँको शैलीपानाका लागि एउटा यू आर एल प्रविष्ट गर्न "
+"सक्नुहुन्छ । डिस्क भित्र शैलीपानामा, वा इन्टरनेटमा कहीं पनि सूचक गर्न सम्भव "
+"छ ।"
+
+#: rc.cpp:235
+msgid "Layout"
+msgstr "सजावट"
+
+#: rc.cpp:238
+msgid "Use &borders"
+msgstr "किनारा प्रयोग गर्नुहोस्"
+
+#: rc.cpp:241
+msgid "Use this option to enable or disable borders around the cells."
+msgstr ""
+"कक्ष वरिपरि किनारा सक्षम गर्न वा अक्षम गर्न यो विकल्प प्रयोग गर्नुहोस् ।"
+
+#: rc.cpp:244
+msgid "Pi&xels between cells:"
+msgstr "कक्षहरू बीच पिक्सेल:"
+
+#: rc.cpp:247 rc.cpp:250
+msgid ""
+"Use this option to define how many pixels there should be between the cells. "
+"This effect is better visible if you check <b>Use borders</b> too."
+msgstr ""
+"कक्षहरू बीच कति पिक्सेल रहन्छ भन्ने परिभाषित गर्न यो विकल्प प्रयोग गर्नुहोस् "
+"। यदि तपाईँले <b>किनारा प्रयोग गर्नुहोस्</b> पनि जाँच गर्नुभयो भने यो प्रभाव "
+"उत्तम दृश्यात्मक हुनेछ ।"
+
+#: rc.cpp:253 rc.cpp:448
+msgid "Latex Export Filter Configuration"
+msgstr "ल्याटेक्स निर्यात फिल्टर कन्फिगरेसन"
+
+#: rc.cpp:256 rc.cpp:451
+msgid "Document"
+msgstr "कागजात"
+
+#: kword/latex/import/lateximportdia.cc:68 rc.cpp:259 rc.cpp:454
+msgid "Document Style"
+msgstr "कागजात शैली"
+
+#: kword/latex/import/lateximportdia.cc:77 rc.cpp:262 rc.cpp:457
+msgid "KWord style"
+msgstr "केडीई शब्द शैली"
+
+#: kword/latex/import/lateximportdia.cc:74 rc.cpp:265 rc.cpp:460
+msgid "Latex style"
+msgstr "ल्याटेक्स शैली"
+
+#: kword/latex/import/lateximportdia.cc:112 rc.cpp:268 rc.cpp:406 rc.cpp:463
+msgid "Document Type"
+msgstr "कागजात प्रकार"
+
+#: rc.cpp:271 rc.cpp:466
+msgid "Independent document"
+msgstr "स्वतन्त्र कागजात"
+
+#: rc.cpp:274 rc.cpp:469
+msgid "The document will be able to be compiled alone."
+msgstr "कागजात एक्लै संकलन गर्न सक्षम हुनेछ ।"
+
+#: rc.cpp:277 rc.cpp:472
+msgid ""
+"The document will be generated as a full latex document since all the "
+"include will be generated before the \\begin[document} and \\end{document} "
+"commands."
+msgstr ""
+"सबै समाविष्ट कागजात \\begin[document} र \\end{document} आदेश अघि सिर्जना "
+"हुने भएता पनि कागजात पूरा ल्याटेक्स कागजातको रूपमा सिर्जना हुनेछ ।"
+
+#: rc.cpp:280 rc.cpp:475
+msgid "Document to include"
+msgstr "समावेश गर्नुपर्ने कागजात"
+
+#: rc.cpp:283 rc.cpp:478
+msgid "Do not generate either the latex header or the document environment."
+msgstr "ल्याटेक्स हेडर वा कागजात परिवेश कुनै पनि सिर्जना नगर्नुहोस् ।"
+
+#: rc.cpp:286 rc.cpp:481
+msgid ""
+"The document will be generated as a latex document which will have to be "
+"included in a main latex document. It will allow you to generate several "
+"little files for each chapter of your document."
+msgstr ""
+"कागजात ल्याटेक्स कागजातको रूपमा सिर्जना गरिनेछ जुन मुख्य ल्याटेक्स कागजातमा "
+"समावेश गर्नुपर्नेछ । यसले तपाईँलाई तपाईँको कागजातका लागि हरेक अध्यायमा "
+"विभिन्न साना फाइलहरू सिर्जना गर्न अनुमति दिन्छ ।"
+
+#: rc.cpp:289 rc.cpp:484
+msgid "Document class:"
+msgstr "कागजात वर्ग:"
+
+#: rc.cpp:292 rc.cpp:487 rc.cpp:650 rc.cpp:784
+msgid "Quality:"
+msgstr "गुणस्तर:"
+
+#: rc.cpp:295 rc.cpp:490
+msgid "Default font size:"
+msgstr "पूर्वानिर्धारित फन्ट साइज:"
+
+#: rc.cpp:298 rc.cpp:493
+msgid "Final"
+msgstr "अन्तिम"
+
+#: rc.cpp:301 rc.cpp:496
+msgid "Draft"
+msgstr "ड्राफ्ट"
+
+#: rc.cpp:304 rc.cpp:499
+msgid "Pictures"
+msgstr "तस्विर"
+
+#: rc.cpp:307 rc.cpp:502
+msgid "This directory will contains the eps pictures of your document."
+msgstr "यो डाइरेक्टरीले तपाईँको कागजातको ईपीएस तस्विर समाविष्ट गर्नेछ ।"
+
+#: rc.cpp:310 rc.cpp:505
+msgid "Convert the pictures"
+msgstr "तस्विर रूपान्तरण गर्नुहोस्"
+
+#: rc.cpp:313 rc.cpp:508
+msgid "Pictures directory:"
+msgstr "तस्विर डाइरेक्टरी:"
+
+#: kword/latex/import/lateximportdia.cc:90 rc.cpp:316 rc.cpp:322 rc.cpp:511
+#: rc.cpp:517
+msgid "Language"
+msgstr "भाषा"
+
+#: rc.cpp:334 rc.cpp:529
+msgid "Export informations about author"
+msgstr "लेखकको बारेमा जानकारी निर्यात गर्नुहोस्"
+
+#: rc.cpp:337 rc.cpp:532
+msgid "Add a table of content"
+msgstr "विषयवस्तु थप्नुहोस्"
+
+#: rc.cpp:340 rc.cpp:535
+msgid "Notes"
+msgstr "द्रष्टब्य"
+
+#: rc.cpp:343 rc.cpp:538
+msgid "Don't export"
+msgstr "निर्यात नगर्नुहोस्"
+
+#: rc.cpp:346 rc.cpp:541
+msgid "Export notes in comments"
+msgstr "टिप्पणीहरूमा द्रष्टब्य निर्यात गर्नुहोस्"
+
+#: rc.cpp:349 rc.cpp:544
+msgid "Export notes in margin notes"
+msgstr "सीमान्त द्रष्टब्यमा द्रष्टब्य निर्यात"
+
+#: rc.cpp:355 rc.cpp:550
+msgid "F1"
+msgstr "F1"
+
+#: rc.cpp:364
+msgid "Plain Text Import Dialog"
+msgstr "खाली पाठ आयात संवाद"
+
+#: rc.cpp:370
+msgid "End of Paragraph"
+msgstr "अनुच्छेदको समाप्ति"
+
+#: rc.cpp:373
+msgid "&As is: At the end of line"
+msgstr "यसप्रकारमा: रेखाको समाप्तिमा"
+
+#: rc.cpp:376
+msgid "&Sentence: If the end of line is the end of a sentence"
+msgstr "वाक्य: यदि रेखाको समाप्ति वाक्यको समाप्ति भएमा"
+
+#: rc.cpp:379
+msgid "Old &method: If the line is empty or has less than 40 characters"
+msgstr "पुरानो विधि: यदि रेखा खाली छ वा ४० क्यारेक्टर भन्दा कम भएमा"
+
+#: rc.cpp:382
+msgid "Plain Text Export Dialog"
+msgstr "खाली पाठ निर्यात संवाद"
+
+#: rc.cpp:400
+msgid "HTML Export Dialog"
+msgstr "एचटीएमएल निर्यात संवाद"
+
+#: rc.cpp:409
+msgid "&HTML 4.01"
+msgstr "HTML ४.०१"
+
+#: rc.cpp:412
+msgid "HTML 4.01 (For older HTML user agents) "
+msgstr "एचटीएमएल ४.०१ (पुराना एचटीएमएल प्रयोगकर्ता अभिकर्ताका लागि) "
+
+#: rc.cpp:415
+msgid "&XHTML 1.0"
+msgstr "XHTML १.०"
+
+#: rc.cpp:418
+msgid "XHTML 1.0"
+msgstr "XHTML १.०"
+
+#: rc.cpp:421
+msgid "Mode"
+msgstr "मोड"
+
+#: rc.cpp:424
+msgid "L&ight: Convert to strict (X)HTML"
+msgstr "प्रकाश: तीक्षण (X)HTML मा रूपन्तर गर्नुहोस्"
+
+#: rc.cpp:427
+msgid ""
+"Convert mainly the document structure (Recommended for exporting to browsers "
+"with limited capabilities)"
+msgstr ""
+"मुख्य गरेर कागजात बनौट रूपान्तरण गर्नुहोस् (सीमित दक्षतासँग ब्राउजरमा "
+"निर्यात गर्नका लागि सिफारिस गरिएको)"
+
+#: rc.cpp:430
+msgid "&Basic: Convert to transitional (X)HTML"
+msgstr "आधारभूत: परिवर्ती (X)HTML मा रूपान्तरण गर्नुहोस्"
+
+#: rc.cpp:433
+msgid ""
+"Convert most of the document (Recommended for re-importing in KWord or for "
+"exporting to older browsers)"
+msgstr ""
+"धेरैजसो कागजात रूपान्तरण गर्नुहोस् (केडीई शब्दमा पुन:आयात गर्न वा पुरानो "
+"ब्राउजरमा निर्यात गर्नका लागि सिफारिस गरिएको)"
+
+#: rc.cpp:436
+msgid "&Enhanced: Convert to (X)HTML with CSS"
+msgstr "अधिक गरिएको: CSS सँग (X)HTML मा रूपान्तरण गर्नुहोस्"
+
+#: rc.cpp:439
+msgid ""
+"Convert as much as possible of the KWord document (Recommended for exporting "
+"to other modern word processors or to modern browsers)"
+msgstr ""
+"केडीई शब्द कागजातको सम्भव भएसम्म रूपान्तरण गर्नुहोस् (अन्य आधुनिक शब्द "
+"प्रोसेसर वा आधुनिक ब्राउजरका लागि सिफारिस गरिएको)"
+
+#: rc.cpp:442
+msgid "Use external CSS sheet:"
+msgstr "बाह्य सीएसएस पाना प्रयोग गर्नुहोस्:"
+
+#: rc.cpp:445
+msgid "Enter the location of the CSS file in this field"
+msgstr "यो फिल्डमा सीएसएस फाइलको स्थान प्रविष्ट गर्नुहोस्"
+
+#: rc.cpp:559
+msgid "MS Write Import Dialog"
+msgstr "एमएस राइट आयात संवाद"
+
+#: rc.cpp:562
+msgid "&Encoding"
+msgstr "सङ्केतन"
+
+#: rc.cpp:565
+msgid ""
+"Select the encoding of the Write document.<br><br>Try the Default  Encoding "
+"(CP 1252), if unsure."
+msgstr ""
+"लेख्ने कागजातको सङ्केतन चयन गर्नुहोस् । <br><br> यदि अनिश्चित भए, "
+"पूर्वानिर्धारित सङ्केतन (CP १२५२) प्रयास गर्नुहोस् ।"
+
+#: rc.cpp:568
+msgid "&Other encoding:"
+msgstr "अन्य सङ्केतन:"
+
+#: rc.cpp:571
+msgid "&Default encoding (CP 1252)"
+msgstr "पूर्वानिर्धारण सङ्केतन (सीपी १२५२)"
+
+#: rc.cpp:574
+msgid ""
+"Most Write documents are stored using this encoding (also known as windows-"
+"1252).<br><br>Select this if unsure."
+msgstr ""
+"धेरैजसो लेखिएका कागजातहरू यो सङ्केतन प्रयोग गरेर भण्डारण गरिएका हुन्छन् "
+"(विन्डोज- १२५२ पनि भनिन्छ) । <br><br> यदि निश्चित नभए यो चयन गर्नुहोस् ।"
+
+#: rc.cpp:577
+msgid "&Advanced"
+msgstr "उन्नत"
+
+#: rc.cpp:580
+msgid ""
+"These advanced options allow you to fine-tune the importing of formatting "
+"information. They compensate for differences between KWord and MS Write by "
+"adding extra formatting information (not found in the original document), to "
+"try to make the imported document look as close to the original as "
+"possible.<br><br>It is safe to use the defaults, if unsure."
+msgstr ""
+"आयात गरिएका कागजातलाई सम्भव भएसम्म नजिकबाट हेर्न सक्ने बनाउन, यी उन्नत "
+"विकल्पहरूले ढाँचा सूचनाको आयात उत्तम-ट्यून गर्न अनुमति दिन्छ । तिनीहरूले "
+"अतिरिक्त ढाँचा सूचना थपेर केडीई शब्द र एम एस बीच भिन्नताहरूका लागि पूर्ती "
+"गर्यो (जुन मौलिक कागजातमा फेला परेन) ।<br><br>यदि निश्चित नभएमा, "
+"पूर्वानिर्धारणहरू प्रयोग गर्न सुरक्षित हुन्छ ।"
+
+#: rc.cpp:583
+msgid "Compensate for &linespacing differences"
+msgstr "रेखा खालीस्थान भिन्नताहरूका लागि क्षतिपूर्ती गर्नुहोस्"
+
+#: rc.cpp:587
+msgid ""
+"Try to simulate Write's linespacing by adding some spaces before each "
+"paragraph."
+msgstr ""
+"हरेक अनुच्छेदको अघि केही खाली स्थानहरू थपेर लेखिएको रेखा खाली स्थान नक्कल "
+"गर्ने प्रयास गर्नुहोस् ।"
+
+#: rc.cpp:590
+msgid "Enable &image positioning"
+msgstr "छवि स्थिति सक्षम गर्नुहोस्"
+
+#: rc.cpp:593
+msgid "Use paragraph indentation to position images."
+msgstr "स्थिति छविमा अनुच्छेद इन्डेन्टेसन प्रयोग गर्नुहोस् ।"
+
+#: rc.cpp:596
+msgid "Options of Your PNG"
+msgstr "तपाईँको पीएनजीको विकल्प"
+
+#: rc.cpp:599 rc.cpp:799 rc.cpp:848
+msgid "Compress:"
+msgstr "संकुचन:"
+
+#: rc.cpp:602 rc.cpp:802 rc.cpp:851
+msgid "Note: the compression level does not change the quality of the result"
+msgstr "द्रष्टब्य: संकुचन स्तरले नतिजाको गुणस्तर परिवर्तन गर्न सक्दैन"
+
+#: rc.cpp:605 rc.cpp:805 rc.cpp:854
+msgid ""
+"<p>Adjust the compression time. Better compression takes longer.\n"
+"<br>Note: the compression level does not change the quality of the "
+"result.</p>"
+msgstr ""
+"<p>संकुचन समय समायोजन गर्नुहोस् । उत्तम संकुचनले लामो समय लिन्छ ।\n"
+"<br>द्रष्टब्य: संकुचन स्तरले नतिजाको गुणस्तर परिवर्तन गर्न सक्दैन ।</p>"
+
+#: rc.cpp:609 rc.cpp:809 rc.cpp:858
+msgid "Note: the compression level doesn't change the quality of the result"
+msgstr "द्रष्टब्य: संकुचन स्तरले नतिजाको गुणस्तर परिवर्तन गर्न सक्दैन"
+
+#: rc.cpp:612 rc.cpp:619 rc.cpp:626 rc.cpp:812 rc.cpp:819 rc.cpp:826
+#: rc.cpp:861 rc.cpp:868 rc.cpp:875
+msgid ""
+"<p>Adjust the compression time. Better compression takes longer.\n"
+"<br>Note: the compression level doesn't change the quality of the result.</p>"
+msgstr ""
+"<p>संकुचन समय समायोजन गर्नुहोस् । उत्तम संकुचनले लामो समय लिन्छ ।\n"
+"<br>द्रष्टब्य: संकुचन स्तरले नतिजाको गुणस्तर परिवर्तन गर्न सक्दैन ।</p>"
+
+#: rc.cpp:616 rc.cpp:816 rc.cpp:865
+msgid "Fast"
+msgstr "छिटो"
+
+#: rc.cpp:623 rc.cpp:823 rc.cpp:872
+msgid "Small"
+msgstr "सानो"
+
+#: rc.cpp:630
+msgid "Interlacing"
+msgstr "अन्तरग्रथित"
+
+#: rc.cpp:633
+msgid "Use interlacing when publishing on the Internet"
+msgstr "इन्टरनेटमा प्रकाशन गर्दा अन्तरग्रथित प्रयोग गर्नुहोस्"
+
+#: rc.cpp:636
+msgid ""
+"<p>Interlacing is useful if you intend to publish your image on the "
+"Internet.<br>\n"
+"Enabling interlacing will cause the image to be displayed by the browser "
+"even while downloading.</p>"
+msgstr ""
+"<p>यदि तपाईँ आफ्नो छवि इन्टरनेटमा प्रकाशन गर्न चाहनुहुन्छ भने अन्तरग्रथित "
+"उपयोगी हुनेछ ।<br>\n"
+"अन्तरग्रथित सक्षम गर्नाले डाउनलोड गर्दा पनि ब्राउजरद्वारा छवि प्रदर्शन हुनेछ "
+"।</p>"
+
+#: rc.cpp:640
+msgid "Store alpha channel (transparency)"
+msgstr "अल्फा च्यानल (पारदर्शीता) भण्डारण गर्नुहोस्"
+
+#: rc.cpp:643
+msgid "Disable to get smaller files if your image has no transparency"
+msgstr ""
+"यदि तपाईँको छवि पारदर्शी छैन भने सानो फाइल प्राप्त गर्ना अक्षम गर्नुहोस्"
+
+#: rc.cpp:646
+msgid ""
+"<p>The Portable Network Graphics (PNG) file format allows transparency in "
+"your image to be stored by saving an alpha channel.\n"
+"You can uncheck the box if you are not using transparency and you want to "
+"make the resulting file smaller .<br>Always saving the alpha channel is "
+"recommended.</p>"
+msgstr ""
+"<p>चलायमान सञ्जाल ग्राफिक्स (पी एन जी) फाइल ढाँचाले अल्फा च्यानल बचत गरेर "
+"तपाईँको छविमा भण्डारण हुन पारदर्शीतालाई अनुमति दिन्छ ।\n"
+"यदि तपाईँले पारदर्शीता प्रयोग गरिरहनु भएको छैन र तपाईँले नतिजा फाइल सानो "
+"बनाउन चाहनुहुन्छ भने बाकस अनचेक गर्न सक्नुहुन्छ ।<br>अल्फा च्यानल बचत गर्नका "
+"लागि सधै सिफारिस गरिन्छ ।</p>"
+
+#: rc.cpp:653 rc.cpp:787
+msgid ""
+"These settings determine how much information is lost during compression"
+msgstr "यी सेटिङले संकुचन गर्दा कति सूचना हरायो भन्ने निर्धारण गर्दछ"
+
+#: rc.cpp:656 rc.cpp:790
+msgid "Smallest"
+msgstr "सबैभन्दा सानो"
+
+#: rc.cpp:659 rc.cpp:793
+msgid "Best"
+msgstr "उत्तम"
+
+#: rc.cpp:662
+msgid "Pr&ogressive"
+msgstr "क्रमिक"
+
+#: rc.cpp:665
+msgid "Use progressive when publishing on the Internet"
+msgstr "इन्टरनेटमा प्रकाशन गर्दा क्रमिक प्रयोग गर्नुहोस्"
+
+#: rc.cpp:668
+msgid ""
+"<p>Progressive is useful if you intend to publish your image on the "
+"Internet.<br>\n"
+"Enabling progressive will cause the image to be displayed by the browser "
+"even while downloading.</p>"
+msgstr ""
+"<p>यदि तपाईँ इन्टरनेटमा आफ्नो छवि प्रकाशन गर्न चाहनुहुन्छ भने क्रमिक उपयोगी "
+"हुन्छ ।<br>\n"
+"क्रमिक सक्षम गर्नाले डाउनलोड गर्दा पनि ब्राउजरद्वारा छवि प्रदर्शन हुनेछ ।</p>"
+
+#: rc.cpp:672
+msgid "PDFImportWidget"
+msgstr "पीडीएफ आयात विजेट"
+
+#: rc.cpp:675
+msgid "Dimensions"
+msgstr "आयाम"
+
+#: rc.cpp:678
+msgid "Resolution:"
+msgstr "रिजोल्युशन:"
+
+#: rc.cpp:681
+msgid "Vertical:"
+msgstr "ठाडो:"
+
+#: rc.cpp:684 rc.cpp:690
+msgid "Dots/inch"
+msgstr "थोप्ला/इन्च"
+
+#: rc.cpp:687
+msgid "Horizontal:"
+msgstr "तेर्सो:"
+
+#: rc.cpp:693
+msgid "Size:"
+msgstr "साइज:"
+
+#: libdialogfilter/exportsizedia.cpp:87 rc.cpp:696
+msgid "Width:"
+msgstr "चौडाइ:"
+
+#: libdialogfilter/exportsizedia.cpp:90 rc.cpp:699
+msgid "Height:"
+msgstr "उचाइ:"
+
+#: rc.cpp:702
+msgid "Pages"
+msgstr "पृष्ठ"
+
+#: rc.cpp:705
+msgid "&All pages"
+msgstr "सबै पृष्ठ"
+
+#: rc.cpp:708
+msgid "&First page"
+msgstr "पहिलो पृष्ठ"
+
+#: rc.cpp:711
+msgid "&Selection of page"
+msgstr "पृष्ठको चयन"
+
+#: rc.cpp:714
+msgid "Options of Your TIFF"
+msgstr "तपाईँको टिफको विकल्प"
+
+#: rc.cpp:717
+msgid "TIFF Options"
+msgstr "टिफ विकल्प"
+
+#: rc.cpp:720
+msgid "Compression type:"
+msgstr "संकुचन प्रकार:"
+
+#: rc.cpp:726
+msgid "JPEG DCT Compression"
+msgstr "JPEG DCT संकुचन"
+
+#: rc.cpp:729
+msgid "Deflate (ZIP)"
+msgstr "डिफ्लेट (ZIP)"
+
+#: rc.cpp:732
+msgid "Lempel-Ziv & Welch (LZW)"
+msgstr "Lempel-Ziv  Welch (LZW)"
+
+#: rc.cpp:735
+msgid "Leadtools JPEG2000"
+msgstr "प्रमुख उपकरण JPEG2000"
+
+#: rc.cpp:738
+msgid "CCITT Modified Huffman RLE"
+msgstr "CCITT परिमार्जीत Huffman RLE"
+
+#: rc.cpp:741
+msgid "CCITT Group 3 Fax Encoding"
+msgstr "CCITT समूह ३ फयाक्स सङ्केतन"
+
+#: rc.cpp:744
+msgid "CCITT Group 4 Fax Encoding"
+msgstr "CCITT समूह ४ फ्याक्स सङ्केतन"
+
+#: rc.cpp:747
+msgid "Pixar Log"
+msgstr "पिक्सार लग"
+
+#: rc.cpp:750
+msgid "Predictor:"
+msgstr "भविष्यवक्ता:"
+
+#: rc.cpp:756
+msgid "Horizontal Differencing"
+msgstr "तेर्सो भिन्नता"
+
+#: rc.cpp:759
+msgid "Floating Point Horizontal Differencing"
+msgstr "उत्प्लवान बिन्दु तेर्सो भिन्नता"
+
+#: rc.cpp:762
+msgid ""
+"Using a predictor can improve the compression (mostly for LZW and deflate)"
+msgstr ""
+"भविष्यवेता प्रयोग गर्नाले संकुचन सुधार गर्न सकिन्छ (खास गरेर एलजेटडब्लु र "
+"डिफ्लेटका लागि)"
+
+#: rc.cpp:765
+msgid "Store alpha &channel (transparency)"
+msgstr "अल्फा च्यानल (पारदर्शीता) भण्डारण गर्नुहोस्"
+
+#: rc.cpp:768
+msgid "Disable to get smaller files if your image has no transparancy"
+msgstr ""
+"यदि तपाईँको छवि पारदर्शीता छैन भने सबैभन्दा सानो फाइल प्राप्त गर्ना अक्षम "
+"गर्नुहोस्"
+
+#: rc.cpp:771
+msgid ""
+"<p>The Portable Network Graphics (PNG) file format allows transparancy in "
+"your image to be stored by saving an alpha channel.\n"
+"You can uncheck the box if you are not using transparancy and you want to "
+"make the resulting file smaller .<br>Always saving the alpha channel is "
+"recommended.</p>"
+msgstr ""
+"<p>पोर्टयोग्य सञ्जाल ग्राफिक्स (पी एन जी) फाइल ढाँचाले एउटा अल्फा च्यानल बचत "
+"गरेर भण्डारण गर्नका लागि तपाईँको छविमा पारदर्शीता अनुमति दिन्छ ।\n"
+"यदि तपाईँले पारदर्शीता प्रयोग गरिरहनु भएको छ भने तपाईँ बाकस जाँच नगर्न "
+"सक्नुहुन्छ र तपाईँले नतिजा फाइल सबैभन्दा सानो बनाउँनुपर्छ ।<br>अल्फा च्यानल "
+"सधै बचत गर्न सिफारिस गरिएको छ ।</p>"
+
+#: rc.cpp:775
+msgid "Flatten the &image"
+msgstr "छवि चेप्ट्याउनुहोस्"
+
+#: rc.cpp:778
+msgid ""
+"This option will merge all layers. It is advisable to check this option, "
+"otherwise other applications might not be able to read your file correctly."
+msgstr ""
+"यो विकल्पले सबै तहहरू विस्तार गर्नेछ । यो विकल्प जाँच गर्ना सुझाव दिइन्छ, "
+"अन्यथा अन्य अनुप्रयोगहरूले तपाईँ फाइल सही तरिकाले पढ्न सक्ने छैन ।"
+
+#: rc.cpp:781
+msgid "JPEG Compression Options"
+msgstr "जेपीईजी संकुचन विकल्प"
+
+#: rc.cpp:796
+msgid "Deflate Compression Options"
+msgstr "डिफ्लेट संकुचन विकल्प"
+
+#: rc.cpp:830
+msgid "CCITT Group 3 fax encoding Options"
+msgstr "CCITT समूह ३ फ्याक्स सङ्केतन विकल्प"
+
+#: rc.cpp:833
+msgid "Fax mode:"
+msgstr "फ्याक्स मोड:"
+
+#: rc.cpp:836
+msgid "Classic"
+msgstr "शास्त्रीय"
+
+#: rc.cpp:839
+msgid "No RTC"
+msgstr "आरटीसी छैन"
+
+#: rc.cpp:842
+msgid "No EOL"
+msgstr "ईओएल छैन"
+
+#: rc.cpp:845
+msgid "Pixar Log Compression Options"
+msgstr "पिक्सार लग संकुचन विकल्प"
+
+#: rc.cpp:879
+msgid "&Update Preview"
+msgstr "पूर्वावलोकन अद्यावधिक गर्नुहोस्"
+
+#: rc.cpp:882
+msgid "Color Settings"
+msgstr "रङ सेटिङ"
+
+#: rc.cpp:885
+msgid "Blackpoint:"
+msgstr "कालो बिन्दु:"
+
+#: rc.cpp:888
+msgid "Red multiplier:"
+msgstr "रातो गुणक:"
+
+#: rc.cpp:891
+msgid "Blue multiplier:"
+msgstr "नीलो गुणक:"
+
+#: rc.cpp:894
+msgid "Brightness. 1.0 is default"
+msgstr "चम्किलोपन । १.० पूर्वावलोकन हो"
+
+#: rc.cpp:897
+msgid "&White Balance"
+msgstr "सेतो सन्तुलन"
+
+#: rc.cpp:900
+msgid "White card in sunlight"
+msgstr "सूर्य प्रकाशमा सेतो कार्ड"
+
+#: rc.cpp:903
+msgid "Automatic"
+msgstr "स्वाचालित"
+
+#: rc.cpp:907
+msgid ""
+"Automatic color balance. The default is to use a fixed color balance based "
+"on a white card photographed in sunlight."
+msgstr ""
+"स्वचालित रङ सन्तुलन । पूर्वानिर्धारण सूर्य प्रकाशमा फोटोग्राफ गरिएको सेतो "
+"कार्डमा आधारित स्थिर रङ सन्तुलन हो ।"
+
+#: rc.cpp:910
+msgid "From camera"
+msgstr "क्यामेराबाट"
+
+#: rc.cpp:914
+msgid ""
+"\n"
+" Use the color balance specified by the camera. If this cannot be found, "
+"dcraw prints a warning and reverts to the default. "
+msgstr ""
+"\n"
+" क्यामेराद्वारा निर्दिष्ट गरिएको रङ सन्तुलन प्रयोग गर्नुहोस् । यदि यो फेला "
+"परेन भने, डीक्रले चेतावनी मुद्रण गर्दछ र पूर्वानिर्धारणमा उल्टयाउँछ । "
+
+#: rc.cpp:918
+msgid "Brightness:"
+msgstr "चम्किलोपन:"
+
+#: rc.cpp:921
+msgid "Colorspace"
+msgstr "रङ खाली स्थान"
+
+#: rc.cpp:924
+msgid "&Document mode"
+msgstr "कागजात मोड"
+
+#: rc.cpp:927
+msgid "&RGB"
+msgstr "RGB"
+
+#: rc.cpp:930
+msgid "Channel Depth"
+msgstr "च्यानल गहिराइ"
+
+#: rc.cpp:933
+msgid "&16 bits per channel"
+msgstr "१६ बिट प्रति च्यानल"
+
+#: rc.cpp:936
+msgid "Alt+1"
+msgstr "Alt+1"
+
+#: rc.cpp:939
+msgid "&8 bits per channel"
+msgstr "८ बिट प्रति च्यानल"
+
+#: rc.cpp:942
+msgid "Alt+8"
+msgstr "Alt+8"
+
+#: rc.cpp:945
+msgid "&Interpolate RGB as four colors"
+msgstr "चार रङको रूपमा आर जी बी प्रक्षेपण गर्नुहोस्"
+
+#: rc.cpp:948
+msgid ""
+"Interpolate RGB as four colors. This blurs the image a little, but it "
+"eliminates false 2x2 mesh patterns. "
+msgstr ""
+"चार रङको रूपमा आरजीबी प्रक्षेपण गर्नुहोस् । यसले छवि थोरै अस्पष्ट गर्दछ, तर "
+"गलत २x२ जाली बान्कीहरू हटाउँदछ । "
+
+#: rc.cpp:951
+msgid "Clip colors to prevent pink highlights"
+msgstr "गुलाबी हाइलाइटहरू हटाउन रङ क्लिप गर्नुहोस्"
+
+#: rc.cpp:955
+msgid ""
+"By default, dcraw clips all colors to prevent pink hues in the highlights. "
+"Combine this option with -b 0.25 to leave the image data completely "
+"unclipped."
+msgstr ""
+"पूर्वानिर्धारण अनुसार, डीक्रले हाइलाइटमा गुलाबी रङ हटाउन सबै रङ क्लिप गर्दछ "
+"। अनक्लिप गरिएको सम्पूर्ण छवि डेटा छोड्न -b 0.25 सँग यो विकल्प संयोजन "
+"गर्नुहोस् ।"
+
+#: rc.cpp:960
+msgid "Use camera raw colors, not sRGB"
+msgstr "क्यामेरा कच्चा रङ प्रयोग गर्नुहोस्, sRGB होइन"
+
+#: rc.cpp:963 rc.cpp:981 xsltfilter/export/xsltexportdia.cc:57
+msgid "Export XSLT Configuration"
+msgstr "एक्सएसएलटी कन्फिगरेसन निर्यात गर्नुहोस्"
+
+#: rc.cpp:966 rc.cpp:984
+msgid "Common xslt Files"
+msgstr "साझा एक्सएसएलटी फाइल"
+
+#: rc.cpp:969 rc.cpp:987
+msgid "Personal xslt Files"
+msgstr "व्यक्तिगत एक्सएसएलटी फाइल"
+
+#: rc.cpp:972 rc.cpp:990
+msgid "Choose..."
+msgstr "रोज्नुहोस्..."
+
+#: rc.cpp:999
+msgid "Page:"
+msgstr "पृष्ठ:"
+
+#: rc.cpp:1002
+msgid "Area to export:"
+msgstr "निर्यात क्षेत्र:"
+
+#: rc.cpp:1005
+msgid "Bitmap DPI:"
+msgstr "बिटम्याप DPI:"
+
+#: rc.cpp:1008 rc.cpp:1035
+msgid "Set the resolution of the resulting bitmap image"
+msgstr "परिणाम बिटम्याप छविको रिज्योलुसन सेट गर्नुहोस्"
+
+#: rc.cpp:1011
+msgid "Margin (Pixels):"
+msgstr "सीमान्त (पिक्सेल):"
+
+#: rc.cpp:1014
+msgid "72"
+msgstr "७२"
+
+#: rc.cpp:1017
+msgid "96"
+msgstr "९६"
+
+#: rc.cpp:1020
+msgid "150"
+msgstr "१५०"
+
+#: rc.cpp:1023
+msgid "300"
+msgstr "३००"
+
+#: rc.cpp:1026
+msgid "600"
+msgstr "६००"
+
+#: rc.cpp:1029
+msgid "720"
+msgstr "७२०"
+
+#: rc.cpp:1032
+msgid "1200"
+msgstr "१२००"
+
+#: rc.cpp:1038
+msgid "Objects on Page"
+msgstr "पृष्ठमा वस्तु"
+
+#: rc.cpp:1041
+msgid "Complete Page"
+msgstr "सम्पूर्ण पृष्ठ"
+
+#: kchart/bmp/bmpexport.cpp:64 kchart/jpeg/jpegexport.cpp:64
+#: kchart/mng/mngexport.cpp:64 kchart/png/pngexport.cpp:68
+#: kchart/svg/svgexport.cc:85 kchart/xbm/xbmexport.cpp:64
+#: kchart/xpm/xpmexport.cpp:64 kformula/latex/latexexport.cc:71
+#: kformula/mathml/mathmlexport.cc:71 kformula/png/pngexportdia.cc:237
+#: kformula/svg/svgexport.cc:92 kpresenter/bmp/bmpexport.cpp:69
+#: kpresenter/jpeg/jpegexport.cpp:70 kpresenter/mng/mngexport.cpp:66
+#: kpresenter/png/pngexport.cpp:70 kpresenter/svg/svgexport.cc:90
+#: kpresenter/xbm/xbmexport.cpp:66 kpresenter/xpm/xpmexport.cpp:66
+#: libdialogfilter/exportsizedia.cpp:264
+msgid "Failed to write file."
+msgstr "फाइल लेख्न असफल भयो ।"
+
+#: kchart/svg/svgexport.cc:59 kchart/svg/svgexport.cc:72
+#: kchart/svg/svgexport.cc:86 kformula/svg/svgexport.cc:62
+#: kformula/svg/svgexport.cc:79 kformula/svg/svgexport.cc:93
+#: kpresenter/svg/svgexport.cc:91
+msgid "SVG Export Error"
+msgstr "एसभीजी निर्यात त्रुटि"
+
+#: kchart/xbm/xbmexport.cpp:65 kpresenter/xbm/xbmexport.cpp:67
+msgid "Xbm Export Error"
+msgstr "एक्सबीएम त्रुटि"
+
+#: kchart/png/pngexport.cpp:69 kformula/png/pngexport.cc:57
+#: kformula/png/pngexport.cc:64 kformula/png/pngexportdia.cc:237
+#: kpresenter/png/pngexport.cpp:71 libdialogfilter/exportsizedia.cpp:264
+msgid "PNG Export Error"
+msgstr "पीएनजी निर्यात त्रुटि"
+
+#: kpresenter/kword/kprkword.cc:94
+msgid "Slide Title"
+msgstr "स्लाइड शीर्षक"
+
+#: kchart/jpeg/jpegexport.cpp:65 kpresenter/jpeg/jpegexport.cpp:71
+msgid "JPEG Export Error"
+msgstr "जेपीईजी निर्यात त्रुटि"
+
+#: kchart/mng/mngexport.cpp:65 kpresenter/mng/mngexport.cpp:67
+msgid "MNG Export Error"
+msgstr "एमएनजी निर्यात त्रुटि"
+
+#: kchart/bmp/bmpexport.cpp:65 kpresenter/bmp/bmpexport.cpp:70
+msgid "BMP Export Error"
+msgstr "बीपीएम निर्यात त्रुटि"
+
+#: kchart/xpm/xpmexport.cpp:65 kpresenter/xpm/xpmexport.cpp:67
+msgid "Xpm Export Error"
+msgstr "एक्सपीएम निर्यात त्रुटि"
+
+#: kspread/csv/csvdialog.cpp:63 kspread/csv/csvexportdialog.cpp:60
+#: kword/ascii/ExportDialog.cc:44 kword/ascii/ImportDialog.cc:44
+#: kword/html/export/ExportDialog.cc:49
+msgid ""
+"_: Descriptive encoding name\n"
+"Recommended ( %1 )"
+msgstr "सिफारिस गरिएको ( %1 )"
+
+#: kspread/csv/csvdialog.cpp:64 kspread/csv/csvexportdialog.cpp:61
+#: kword/ascii/ExportDialog.cc:45 kword/ascii/ImportDialog.cc:45
+#: kword/html/export/ExportDialog.cc:50
+msgid ""
+"_: Descriptive encoding name\n"
+"Locale ( %1 )"
+msgstr "लोकेल (%1)"
+
+#: kspread/csv/csvdialog.cpp:67 kspread/csv/csvexportdialog.cpp:64
+#: kword/ascii/ExportDialog.cc:48 kword/ascii/ImportDialog.cc:48
+msgid ""
+"_: Descriptive encoding name\n"
+"Other ( %1 )"
+msgstr "अन्य ( %1 )"
+
+#: kspread/csv/csvdialog.cpp:73 kspread/csv/csvdialog.cpp:355
+#: kspread/csv/csvdialog.cpp:415
+msgid "Text"
+msgstr "पाठ"
+
+#: kspread/csv/csvdialog.cpp:74 kspread/csv/csvdialog.cpp:417
+msgid "Number"
+msgstr "सङ्ख्या"
+
+#: kspread/csv/csvdialog.cpp:75 kspread/csv/csvdialog.cpp:419
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: kspread/csv/csvdialog.cpp:76 kspread/csv/csvdialog.cpp:421
+msgid "Date"
+msgstr "मिति"
+
+#: kspread/csv/csvdialog.cpp:77 kspread/csv/csvdialog.cpp:423
+msgid "Decimal Comma Number"
+msgstr "दशमलब अल्पविराम सङ्ख्या"
+
+#: kspread/csv/csvdialog.cpp:78 kspread/csv/csvdialog.cpp:425
+msgid "Decimal Point Number"
+msgstr "दशमलब बिन्दु सङ्ख्या"
+
+#: kspread/csv/csvdialog.cpp:570
+msgid ""
+"Please check the ranges you specified. The start value must be lower than "
+"the end value."
+msgstr ""
+"कृपया तपाईँले निर्दिष्ट गर्नुभएको दायराहरू जाँच गर्नुहोस् । सुरुको मान "
+"अन्तिमको मान भन्दा सानो हुनुपर्छ ।"
+
+#: kspread/csv/csvdialog.cpp:616 kspread/csv/csvexportdialog.cpp:309
+#: kword/ascii/ExportDialog.cc:88 kword/ascii/ImportDialog.cc:87
+#: kword/html/export/ExportDialog.cc:109
+#, c-format
+msgid "Cannot find encoding: %1"
+msgstr "सङ्केतन: %1 फेला पार्न सकिएन"
+
+#: kspread/csv/csvexport.cc:310
+msgid "<SHEETNAME>"
+msgstr "<SHEETNAME>"
+
+#: kspread/csv/csvimport.cc:93
+msgid "CSV filter cannot open input file - please report."
+msgstr "सीएसभी फिल्टरले आगत फाइल खोल्न सकेन - कृपया प्रतिवेदन गर्नुहोस् ।"
+
+#: kspread/qpro/qproimport.cc:133
+msgid "QPRO filter cannot open input file - please report."
+msgstr "QPRO फिल्टरले आगत फाइल खोल्न सक्दैन - कृपया प्रतिवेदन गर्नुहोस् ।"
+
+#: kspread/qpro/qproimport.cc:246
+msgid ""
+"Unable to open password protected files.\n"
+"The password algorithm has not been published"
+msgstr ""
+"पासवर्ड सुरक्षित फाइलहरू खोल्न अक्षम भयो ।\n"
+"पासवर्ड एलगोरिदम प्रकाशन गरिएको छैन"
+
+#: kspread/opencalc/opencalcexport.cc:1016
+msgid "Page "
+msgstr "पृष्ठ "
+
+#: kspread/opencalc/opencalcimport.cc:1456
+msgid "The file seems to be corrupt. Skipping a table."
+msgstr "फाइल अनुपोगी जस्तो देखिन्छ । तालिका फड्काइदैछ ।"
+
+#: kspread/opencalc/opencalcimport.cc:1469
+msgid "Skipping a table."
+msgstr "तालिका फड्काइदैछ ।"
+
+#: kspread/opencalc/opencalcimport.cc:2291
+#: kword/oowriter/oowriterimport.cc:598
+msgid ""
+"This document was created with OpenOffice.org version '%1'. This filter was "
+"written for version 1.0. Reading this file could cause strange behavior, "
+"crashes or incorrect display of the data. Do you want to continue converting "
+"the document?"
+msgstr ""
+"यो कागजात ओपनअफिस.ओर्ग संस्करण '%1' सँग सिर्जना गरिएको थियो । यो फाइल "
+"पढ्नाले अनौठो व्यवहार देखाउनु सक्छ, जस्तै डेटाको विन्याश वा गलत प्रदर्शन । "
+"तपाईँ कागजात रूपान्तरण जारी राख्न चाहनुहुन्छ ?"
+
+#: kspread/opencalc/opencalcimport.cc:2293
+#: kword/oowriter/oowriterimport.cc:600
+msgid "Unsupported document version"
+msgstr "समर्थन नगरिएको कागजात संस्करण"
+
+#: kspread/kexi/kspread_kexiimportdialog.cc:129
+msgid "No file specified"
+msgstr "निर्दिष्ट गरेको फाइल छैन"
+
+#: kspread/kexi/kspread_kexiimportdialog.cc:138
+msgid "Error creating connection"
+msgstr "जडान सिर्जना गर्दा त्रुटि"
+
+#: kspread/kexi/kspread_kexiimportdialog.cc:144
+msgid "Error connecting to database"
+msgstr "डाटाबेसमा जडान गर्दा त्रुटि"
+
+#: kspread/kexi/kspread_kexiimportdialog.cc:151
+msgid "Error using database"
+msgstr "डाटाबेस प्रयोग गर्दा त्रुटि"
+
+#: kspread/kexi/kspread_kexiimport.cc:154
+msgid "Cant find sheet"
+msgstr "पाना फेला पार्न सकिदैन"
+
+#: kspread/kexi/kspread_kexiimport.cc:184
+msgid "Your query was invalid or not a SELECT query"
+msgstr "तपाईँको क्वेरि अवैध छ वा क्वेरि चयन भएको छैन"
+
+#: kspread/kexi/kspread_kexiimport.cc:223
+msgid "Error executing query"
+msgstr "क्वेरि कार्यान्वयन गर्दा त्रुटि"
+
+#: kspread/html/exportdialog.cc:36
+msgid "Export Sheet to HTML"
+msgstr "एचटीएमएलमा निर्यात पाना"
+
+#: kspread/html/exportdialog.cc:46
+msgid "Recommended: UTF-8"
+msgstr "सिफारिस गरिएको: UTF-8"
+
+#: kspread/html/exportdialog.cc:47
+msgid "Locale (%1)"
+msgstr "लोकेल (%1)"
+
+#: kspread/dbase/dbaseimport.cc:63
+msgid "File format is not supported."
+msgstr "फाइल ढाँचा समर्थन गरिएको छैन ।"
+
+#: kspread/dbase/dbaseimport.cc:69
+msgid "Could not read from file."
+msgstr "फाइलबाट पढ्न सकिएन ।"
+
+#: kword/rtf/import/rtfimport.cpp:337
+msgid "The file cannot be loaded, as it cannot be opened."
+msgstr "फाइल खुल्न नसकेको जस्तै, लोड हुन सकेन ।"
+
+#: kword/rtf/import/rtfimport.cpp:338 kword/rtf/import/rtfimport.cpp:355
+#: kword/rtf/import/rtfimport.cpp:372 kword/rtf/import/rtfimport.cpp:388
+#: kword/rtf/import/rtfimport.cpp:407 kword/rtf/import/rtfimport.cpp:426
+#: kword/rtf/import/rtfimport.cpp:443
+msgid "KWord's RTF Import Filter"
+msgstr "केडीई शब्दको आरटीएफ आयात फिल्टर"
+
+#: kword/rtf/import/rtfimport.cpp:354
+msgid "The file cannot be loaded, as it seems not to be an RTF document."
+msgstr "फाइल एउटा आरटीएफ कागजात नदेखिए जस्तै, लोड हुन सकेन ।"
+
+#: kword/rtf/import/rtfimport.cpp:371
+msgid ""
+"The document cannot be loaded, as it seems not to follow the RTF syntax."
+msgstr "कागजातले आरटीएफ वाक्य संरचना अनुसरण नगरे जस्तै, लोड हुन सकेन ।"
+
+#: kword/rtf/import/rtfimport.cpp:387
+msgid ""
+"The RTF (Rich Text Format) document has an unexpected version number: %1. "
+"Continuing might result in an erroneous conversion. Do you want to continue?"
+msgstr ""
+"आर टी एफ (रिच पाठ ढाँचा) कागजातसँग एउटा अनपेक्षित संस्करण सङ्ख्या छ: %1 । "
+"जारी गर्नाले एउटा भ्रमात्मक वार्तालापमा नतिजा गर्न सक्छ । तपाईँ जारी राक्न "
+"सक्नुहुन्छ ?"
+
+#: kword/rtf/import/rtfimport.cpp:406
+msgid ""
+"The PWD (PocketWord's Rich Text Format) document has an unexpected version "
+"number: %1. Continuing might result in an erroneous conversion. Do you want "
+"to continue?"
+msgstr ""
+"पीडब्लुडी (पकेटवल्डको रिच पाठ ढाँचा) कागजातसँग एउटा अनपेक्षित संस्करण छ: %1 "
+"। जारी राख्नाले एउटा भ्रमात्मक वार्तालापमा नतिजा गर्न सक्छ । तपाईँ जारि "
+"राक्न चाहनुहुन्छ ?"
+
+#: kword/rtf/import/rtfimport.cpp:425
+msgid ""
+"The URTF (\"Unicode Rich Text Format\") document has an unexpected version "
+"number: %1. Continuing might result in an erroneous conversion. Do you want "
+"to continue?"
+msgstr ""
+"यूआरटीएफ (\"युनिकोड रिच पाठ ढाँचा\") कागजातसँग एउटा अनपेक्षित संस्करण "
+"सङ्ख्या छ: %1 । जारी राख्नाले एउटा भ्रमात्मक वार्तालापमा नतिजा हुन सक्छ । "
+"तपाईँ जारी राख्न चाहनुहुन्छ ?"
+
+#: kword/rtf/import/rtfimport.cpp:442
+#, c-format
+msgid ""
+"The RTF document cannot be loaded, as it has an unexpected first keyword: \\"
+"%1."
+msgstr ""
+"आरटीएफ कागजातसँग एउटा अनपेक्षित पहिलो कुञ्जीपाटी भएजस्तै, लोड हुन सकदैन;\\%1 "
+"."
+
+#: kword/msword/conversion.cpp:382 kword/oowriter/conversion.cc:106
+msgid "Odd Pages Header"
+msgstr "बिजोर पृष्ठ हेडर"
+
+#: kword/oowriter/conversion.cc:106
+msgid "Header"
+msgstr "हेडर"
+
+#: kword/msword/conversion.cpp:380 kword/oowriter/conversion.cc:108
+msgid "Even Pages Header"
+msgstr "जोर पृष्ठ हेडर"
+
+#: kword/msword/conversion.cpp:386 kword/oowriter/conversion.cc:110
+msgid "Odd Pages Footer"
+msgstr "बिजोर पृष्ठ फुटर"
+
+#: kword/oowriter/conversion.cc:110
+msgid "Footer"
+msgstr "फुटर"
+
+#: kword/msword/conversion.cpp:384 kword/oowriter/conversion.cc:112
+msgid "Even Pages Footer"
+msgstr "जोर पृष्ठ फुटर"
+
+#: kword/oowriter/ExportFilter.cc:1209
+#, c-format
+msgid ""
+"_: Object name\n"
+"Table %1"
+msgstr "तालिका %1"
+
+#: kword/oowriter/ExportFilter.cc:1211
+#, c-format
+msgid ""
+"_: Object name\n"
+"Table Frame %1"
+msgstr "तालिका फ्रेम %1"
+
+#: kword/oowriter/ExportFilter.cc:1588
+msgid ""
+"_: Pseudo-author for annotations\n"
+"KWord 1.3"
+msgstr "केडीई शब्द १.३"
+
+#: kword/oowriter/oowriterimport.cc:135
+msgid "Main Text Frameset"
+msgstr "मुख्य पाठ फ्रेमसेट"
+
+#: kword/abiword/abiwordimport.cc:1213 kword/oowriter/oowriterimport.cc:2305
+msgid ""
+"_: Frameset name\n"
+"Table %3, row %1, column %2"
+msgstr "तालिका %3, पङ्क्ति %1, स्तम्भ %2"
+
+#: kword/ascii/ImportDialog.cc:37
+msgid "KWord's Plain Text Import Filter"
+msgstr "केडीई शब्दको खाली पाठ आयात फिल्टर"
+
+#: kword/ascii/ExportDialog.cc:37
+msgid "KWord's Plain Text Export Filter"
+msgstr "केडीई शब्दको खाली पाठ निर्यात फिल्टर"
+
+#: kword/pdf/data.cpp:30
+#, c-format
+msgid "Body Frameset #%1"
+msgstr "बडी फ्रेमसेट #%1"
+
+#: kword/pdf/data.cpp:30
+#, c-format
+msgid "Header Frameset #%1"
+msgstr "हेडर फ्रेमसेट #%1"
+
+#: kword/pdf/data.cpp:31
+#, c-format
+msgid "Footer Frameset #%1"
+msgstr "फुटर फ्रेमसेट #%1"
+
+#: kword/pdf/data.cpp:119
+#, c-format
+msgid "Text Frameset %1"
+msgstr "पाठ फ्रेमसेट %1"
+
+#: kword/msword/texthandler.cpp:184 kword/pdf/data.cpp:120
+#, c-format
+msgid "Picture %1"
+msgstr "तस्विर %1"
+
+#: kword/pdf/pdfimport.cpp:80
+msgid "PDF Import"
+msgstr "पीडीएफ आयात"
+
+#: kword/pdf/pdfimport.cpp:81
+msgid "Initializing..."
+msgstr "सुरुआत गरिँदैछ..."
+
+#: kword/pdf/pdfimport.cpp:112
+msgid "First pass: page #%1..."
+msgstr "पहिलो पास: पृष्ठ #%1..."
+
+#: kword/pdf/pdfimport.cpp:113
+msgid "Second pass: page #%1..."
+msgstr "दोस्रो पास: पृष्ठ #%1..."
+
+#: kword/pdf/dialog.cpp:118
+msgid "KWord's PDF Import Filter"
+msgstr "केडीई शब्दको पीडीएफ आयात फिल्टर"
+
+#: kword/pdf/dialog.cpp:127
+msgid "Page Selection"
+msgstr "पृष्ठ चयन"
+
+#: kword/pdf/dialog.cpp:131
+msgid "All (%1 pages)"
+msgstr "सबै (%1 पृष्ठ)"
+
+#: kword/pdf/dialog.cpp:135
+msgid "Range:"
+msgstr "दायरा:"
+
+#: kword/pdf/dialog.cpp:143
+msgid "Import images"
+msgstr "आयात छवि"
+
+#: kword/pdf/dialog.cpp:146
+msgid "\"Smart\" mode"
+msgstr "\"स्मार्ट\" मोड"
+
+#: kword/pdf/dialog.cpp:149
+msgid ""
+"Removes returns and hyphens at end of line. Also tries to compute the "
+"paragraph alignment. Note that the layout of some pages can get messed up."
+msgstr ""
+"रेखाको समाप्तिमा फर्काउने र हाइफेन हटाउँदछ । अनुच्छेद पङ्क्तिबद्धता गणना "
+"गर्न पनि प्रयास गर्दछ । द्रष्टब्य यो छ कि केही पृष्ठहरुको सजावट गडबडी हुन "
+"सक्छ ।"
+
+#: kword/pdf/dialog.cpp:156
+msgid "Passwords"
+msgstr "पासवर्ड"
+
+#: kword/pdf/dialog.cpp:160
+msgid "Owner:"
+msgstr "स्वामित्व:"
+
+#: kword/pdf/dialog.cpp:163
+msgid "User:"
+msgstr "प्रयोगकर्ता:"
+
+#: kword/abiword/abiwordimport.cc:530
+#, c-format
+msgid ""
+"_: Frameset name\n"
+"Picture %1"
+msgstr "तस्विर %1"
+
+#: kword/abiword/abiwordimport.cc:1130 kword/msword/texthandler.cpp:163
+#, c-format
+msgid "Table %1"
+msgstr "तालिका %1"
+
+#: kword/abiword/abiwordimport.cc:1640
+msgid ""
+"An error has occurred while parsing the AbiWord file.\n"
+"At line: %1, column %2\n"
+"Error message: %3"
+msgstr ""
+"ए वी आई वर्ड फाइल पद वर्णन गर्दा एउटा त्रुटि देखापर्यो ।\n"
+"रेखामा: %1, स्तम्भ %2\n"
+"त्रुटि सन्देश: %3"
+
+#: kword/abiword/abiwordimport.cc:1643 kword/abiword/abiwordimport.cc:1829
+#: kword/abiword/abiwordimport.cc:1843 kword/abiword/abiwordimport.cc:1857
+msgid "AbiWord Import Filter"
+msgstr "एवीआई वर्ड आयात फिल्टर"
+
+#: kword/abiword/abiwordimport.cc:1707
+msgid ""
+"_: Frameset name\n"
+"Main Text Frameset"
+msgstr "मुख्य पाठ फ्रेमसेट"
+
+#: kword/abiword/abiwordimport.cc:1828
+#, c-format
+msgid "An error occurred during the load of the AbiWord file: %1"
+msgstr "एवीआई वर्ड फाइल लोड गर्दा एउटा त्रुटि देखापर्यो: %1"
+
+#: kword/abiword/abiwordimport.cc:1843
+msgid "Unable to save document information."
+msgstr "कागजात सूचना बचत गर्न अक्षम भयो ।"
+
+#: kword/abiword/abiwordimport.cc:1857
+msgid "Unable to save main document."
+msgstr "मुख्य कागजात बचत गर्न अक्षम भयो ।"
+
+#: kword/abiword/ImportField.cc:29
+#, c-format
+msgid ""
+"_: Frameset name\n"
+"Footnote %1"
+msgstr "पादटिप्पणी %1"
+
+#: kword/html/export/ExportFilter.cc:599
+msgid "Untitled Document"
+msgstr "शीर्षक नदिएको कागजात"
+
+#: kword/html/export/ExportDialog.cc:41
+msgid "KWord's HTML Export Filter"
+msgstr "केडीई शब्दको एचटीएमएल निर्यात फिल्टर"
+
+#: kword/latex/import/lateximportdia.cc:48
+msgid "Latex Import Filter Parameters"
+msgstr "ल्याटेक्स आयात फिल्टर परिमिति"
+
+#: kword/latex/import/lateximportdia.cc:95
+msgid "Unicode"
+msgstr "युनिकोड"
+
+#: kword/latex/import/lateximportdia.cc:98
+msgid "latin1"
+msgstr "ल्याटिन१"
+
+#: kword/latex/import/lateximportdia.cc:117
+msgid "New document"
+msgstr "नयाँ कागजात"
+
+#: kword/latex/import/lateximportdia.cc:120
+msgid "Embedded document"
+msgstr "सम्मिलित कागजात"
+
+#: kword/mswrite/ImportDialog.cc:39
+msgid "KWord's MS Write Import Filter"
+msgstr "केडीई शब्दको एमएस लेख्ने आयात फिल्टर"
+
+#: kword/libexport/KWEFKWordLeader.cc:1282
+msgid ""
+"An error has occurred while parsing the KWord file.\n"
+"At line: %1, column %2\n"
+"Error message: %3"
+msgstr ""
+"केडीई शब्द फाइल पद वर्णन गर्दा एउटा त्रुटि देखापर्यो ।\n"
+"रेखामा: %1, स्तम्भ %2\n"
+"त्रुटि सन्देश: %3"
+
+#: kword/libexport/KWEFKWordLeader.cc:1284
+msgid "KWord Export Filter Library"
+msgstr "केडीई शब्द निर्यात फिल्टर लाइब्रेरी"
+
+#: kword/msword/conversion.cpp:388
+msgid "First Page Header"
+msgstr "पहिलो पृष्ठ हेडर"
+
+#: kword/msword/conversion.cpp:390
+msgid "First Page Footer"
+msgstr "पहिलो पृष्ठ फुटर"
+
+#: kword/msword/document.cpp:331 kword/msword/texthandler.cpp:126
+#, c-format
+msgid "Endnote %1"
+msgstr "अन्त्यटिप्पणी %1"
+
+#: kword/msword/document.cpp:334 kword/msword/texthandler.cpp:129
+#, c-format
+msgid "Footnote %1"
+msgstr "पादटिप्पणी %1"
+
+#: kword/msword/document.cpp:355
+msgid ""
+"_: Table_Name Cell row,column\n"
+"%1 Cell %2,%3"
+msgstr "%1 कक्ष %2,%3"
+
+#: kchart/libimageexport/imageexport.cpp:53 kchart/svg/svgexport.cc:58
+#: kformula/latex/latexexport.cc:57 kformula/mathml/mathmlexport.cc:57
+#: kformula/png/pngexport.cc:57 kformula/svg/svgexport.cc:61
+#: kivio/imageexport/kivio_imageexport.cpp:93
+msgid "Failed to read data."
+msgstr "डेटा पढ्न असफल भयो ।"
+
+#: kchart/libimageexport/imageexport.cpp:66 kchart/svg/svgexport.cc:71
+#: kformula/latex/latexexport.cc:64 kformula/mathml/mathmlexport.cc:64
+#: kformula/png/pngexport.cc:64 kformula/svg/svgexport.cc:78
+#: kivio/imageexport/kivio_imageexport.cpp:104
+msgid "Malformed XML data."
+msgstr "विकृत एक्सएमएल डेटा ।"
+
+#: kformula/png/pngexportdia.cc:43
+msgid "PNG Export Filter Parameters"
+msgstr "पीएनजी निर्यात फिल्टर परिमिति"
+
+#: kformula/png/pngexportdia.cc:182 libdialogfilter/exportsizedia.cpp:82
+msgid "Keep ratio"
+msgstr "अनुपात राख्नुहोस्"
+
+#: kformula/png/pngexportdia.cc:202
+msgid "Height (%)"
+msgstr "उचाइ (%)"
+
+#: kformula/png/pngexportdia.cc:204
+msgid "Width (%)"
+msgstr "चौडा (%)"
+
+#: kformula/mathml/mathmlexport.cc:57 kformula/mathml/mathmlexport.cc:64
+#: kformula/mathml/mathmlexport.cc:71
+msgid "MathML Export Error"
+msgstr "MathML निर्यात त्रुटि"
+
+#: kformula/mathml/mathmlimport.cc:57
+msgid "Unable to open output file."
+msgstr "निर्गत फाइल खोल्न अक्षम भयो ।"
+
+#: kformula/mathml/mathmlimport.cc:57 kformula/mathml/mathmlimport.cc:71
+#: kformula/mathml/mathmlimport.cc:87 kformula/mathml/mathmlimport.cc:102
+msgid "MathML Import Error"
+msgstr "MathML आयात त्रुटि"
+
+#: kformula/mathml/mathmlimport.cc:71
+#, c-format
+msgid "Failed to open input file: %1"
+msgstr "आगत फाइल खोल्न असफल भयो: %1"
+
+#: kformula/mathml/mathmlimport.cc:86
+msgid ""
+"Parsing error in MathML file %4 at line %1, column %2\n"
+"Error message: %3"
+msgstr ""
+"पङ्क्ति %1, स्तम्भ %2 भित्र MathML फाइल %4 मा पद वर्णन त्रुटि\n"
+"त्रुटि सन्देश: %3"
+
+#: kformula/mathml/mathmlimport.cc:102
+msgid "Failed to write formula."
+msgstr "सूत्र लेख्न असफल भयो ।"
+
+#: kformula/latex/latexexport.cc:57 kformula/latex/latexexport.cc:64
+#: kformula/latex/latexexport.cc:71
+msgid "LaTeX Export Error"
+msgstr "ल्याटेक्स निर्यात त्रुटि"
+
+#: krita/jpeg/kis_jpeg_converter.cc:76 krita/png/kis_png_converter.cc:65
+#: krita/tiff/kis_tiff_writer_visitor.cpp:66
+msgid "Cannot export images in %1.\n"
+msgstr "%1 मा छवि निर्यात गर्न सकिँदैन ।\n"
+
+#: krita/png/kis_png_export.cc:69
+msgid "PNG Export Options"
+msgstr "पीएनजी निर्यात विकल्प"
+
+#: krita/gmagick/kis_image_magick_converter.cc:417
+#: krita/magick/kis_image_magick_converter.cc:363
+msgid "Importing..."
+msgstr "आयात गरिँदैछ..."
+
+#: krita/gmagick/kis_image_magick_converter.cc:898
+#: krita/magick/kis_image_magick_converter.cc:843
+msgid "Saving..."
+msgstr "बचत हुँदैछ..."
+
+#: krita/gmagick/kis_image_magick_converter.cc:925
+#: krita/gmagick/kis_image_magick_converter.cc:949
+#: krita/gmagick/kis_image_magick_converter.cc:955
+#: krita/gmagick/kis_image_magick_converter.cc:975
+#: krita/magick/kis_image_magick_converter.cc:870
+#: krita/magick/kis_image_magick_converter.cc:894
+#: krita/magick/kis_image_magick_converter.cc:900
+#: krita/magick/kis_image_magick_converter.cc:920
+msgid "Loading..."
+msgstr "लोड हुँदैछ..."
+
+#: krita/gmagick/kis_image_magick_converter.cc:1055
+#: krita/gmagick/kis_image_magick_converter.cc:1135
+#: krita/magick/kis_image_magick_converter.cc:1000
+#: krita/magick/kis_image_magick_converter.cc:1080
+msgid "All Images"
+msgstr "सबै छविहरू"
+
+#: krita/openexr/kis_openexr_export.cpp:101
+msgid ""
+"The image is using an unsupported color space. Please convert to 16-bit "
+"floating point RGB/Alpha before saving in the OpenEXR format."
+msgstr ""
+"छविले एउटा समर्थन नगरेको रङ खाली स्थान प्रयोग गरिरहेको छ । कृपया खुल्ला EXR "
+"ढाँचा बचत गर्नु अघि १६-बिट उत्प्लवान बिन्दु RGB/Alpha मा रूपान्तरण गर्नुहोस् "
+"।"
+
+#: krita/jpeg/kis_jpeg_export.cc:96
+msgid "JPEG Export Options"
+msgstr "JPEG निर्यात विकल्प"
+
+#: krita/pdf/kis_pdf_import.cpp:101
+msgid "A password is required to read that pdf"
+msgstr "त्यो पीडीएफ पढ्नका लागि पासवर्डको आवश्यक पर्दछ"
+
+#: krita/pdf/kis_pdf_import.cpp:111
+msgid "PDF Import Options"
+msgstr "पीडीएफ आयात विकल्प"
+
+#: krita/pdf/kis_pdf_import.cpp:144
+#, c-format
+msgid "Page %1"
+msgstr "पृष्ठ %1"
+
+#: krita/tiff/kis_dlg_options_tiff.cpp:34
+msgid "TIFF Export Options"
+msgstr "TIFF निर्यात विकल्प"
+
+#: krita/raw/kis_raw_import.cpp:432
+msgid ""
+"Cannot convert RAW files because the dcraw executable could not be started."
+msgstr ""
+"कच्चा फाइलहरू रूपान्तर गर्न सकिँदैन किन भने कार्यान्वयनयोग्य dcraw सुरु गर्न "
+"सकिएन ।"
+
+#: krita/raw/kis_raw_import.cpp:470
+msgid "Error: Dcraw cannot load this image. Message: "
+msgstr "त्रुटि: Dcraw ले यो छवि लोड गर्न सक्दैन । सन्देश: "
+
+#: xsltfilter/import/xsltimportdia.cc:54
+msgid "Import XSLT Configuration"
+msgstr "एक्सएसएलटी कन्फिगरेसन आयात गर्नुहोस्"
+
+#: xsltfilter/export/xsltexportdia.cc:144
+#: xsltfilter/import/xsltimportdia.cc:141
+msgid "Open Document"
+msgstr "कागजात खोल्नुहोस्"
+
+#: _translatorinfo.cpp:1 _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr " ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3 _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ",,submanesh@gmail.com"
+
+#: libdialogfilter/exportsizedia.cpp:42
+msgid "Export Filter Parameters"
+msgstr "फिल्टर परिमिति निर्यात गर्नुहोस्"
+
+#: libdialogfilter/exportsizedia.cpp:99
+msgid "Width (%):"
+msgstr "चौडा (%):"
+
+#: libdialogfilter/exportsizedia.cpp:102
+msgid "Height (%):"
+msgstr "उचाइ (%):"
+
+#: karbon/eps/epsexportdlg.cc:33
+msgid "EPS Export"
+msgstr "ईपीएस निर्यात"
+
+#: karbon/eps/epsexportdlg.cc:41
+msgid "PostScript level 1"
+msgstr "पोस्टस्क्रिप्ट तह १"
+
+#: karbon/eps/epsexportdlg.cc:42
+msgid "PostScript level 2"
+msgstr "पोस्टस्क्रिप्ट तह २"
+
+#: karbon/eps/epsexportdlg.cc:43
+msgid "PostScript level 3"
+msgstr "पोस्टस्क्रिप्ट तह ३"
+
+#: karbon/eps/epsexportdlg.cc:45
+msgid "Export hidden layers"
+msgstr "लुकाइएको तह निर्यात गर्नुहोस्"
+
+#: kchart/libimageexport/imageexport.cpp:54
+#: kchart/libimageexport/imageexport.cpp:67
+#: kivio/imageexport/kivio_imageexport.cpp:93
+#: kivio/imageexport/kivio_imageexport.cpp:104
+msgid "Export Error"
+msgstr "निर्यात त्रुटि"
+
+#: kivio/imageexport/kivio_imageexportdialog.cpp:35
+msgid "Export to Image"
+msgstr "छविमा निर्यात"

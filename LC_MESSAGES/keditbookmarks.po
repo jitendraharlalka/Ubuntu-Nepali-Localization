@@ -1,0 +1,632 @@
+# translation of keditbookmarks.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: keditbookmarks\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2008-10-07 16:55+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 03:42+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: main.cpp:66
+#, kde-format
+msgid ""
+"Another instance of %1 is already running. Do you really want to open "
+"another instance or continue work in the same instance?\n"
+"Please note that, unfortunately, duplicate views are read-only."
+msgstr ""
+
+#: main.cpp:69
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: main.cpp:70
+msgid "Run Another"
+msgstr "अर्को चलाउनुहोस्"
+
+#: main.cpp:71
+msgid "Continue in Same"
+msgstr "उसैमा जारी राख्नुहोस्"
+
+#: main.cpp:94
+msgid "Bookmark Editor"
+msgstr "पुस्तकचिनो सम्पादक"
+
+#: main.cpp:95
+msgid "Bookmark Organizer and Editor"
+msgstr "पुस्तकचिनो आयोजक र सम्पादक"
+
+#: main.cpp:97
+msgid "Copyright 2000-2007, KDE developers"
+msgstr "प्रतिलिपिअधिकार 2000-2007, केडीई विकासकर्ता"
+
+#: main.cpp:98
+msgid "David Faure"
+msgstr "डेभिड फाउर"
+
+#: main.cpp:98
+msgid "Initial author"
+msgstr "सुरूको लेखक"
+
+#: main.cpp:99
+msgid "Alexander Kellett"
+msgstr "अलेक्जेन्डर केलेट"
+
+#: main.cpp:99
+msgid "Author"
+msgstr "लेखक"
+
+#: main.cpp:106
+msgid "Import bookmarks from a file in Mozilla format"
+msgstr "मोजिला ढाँचामा फाइलबाट पुस्तकचिनो आयात गर्नुहोस्"
+
+#: main.cpp:107
+msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
+msgstr "नेटस्केप (4.x र पहिलाका) ढाँचामा फाइलबाट पुस्तकचिनो आयात गर्नुहोस्"
+
+#: main.cpp:108
+msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
+msgstr ""
+"इन्टरनेट एक्सप्लोररको मनपर्ने ढाँचामा फाइलबाट पुस्तकचिनो आयात गर्नुहोस्"
+
+#: main.cpp:109
+msgid "Import bookmarks from a file in Opera format"
+msgstr "ओपेरा ढाँचामा फाइलबाट पुस्तकचिनो आयात गर्नुहोस्"
+
+#: main.cpp:110
+msgid "Export bookmarks to a file in Mozilla format"
+msgstr "मोजिला ढाँचामा फाइलमा पुस्तकचिनो निर्यात गर्नुहोस्"
+
+#: main.cpp:111
+msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
+msgstr ""
+"नेटस्केप (4.x र द्रुत) ढाँचामा फाइलमा पुस्तकचिनोलाई निर्यात गर्नुहोस्"
+
+#: main.cpp:112
+msgid "Export bookmarks to a file in a printable HTML format"
+msgstr "मुद्रणयोग्य एचटीएमएल ढाँचामा फाइलमा पुस्तकचिनो निर्यात गर्नुहोस्"
+
+#: main.cpp:113
+msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
+msgstr ""
+"इन्टरनेट एक्सप्लोररको मनपर्ने ढाँचामा फाइलमा पुस्तकचिनो निर्यात गर्नुहोस्"
+
+#: main.cpp:114
+msgid "Export bookmarks to a file in Opera format"
+msgstr "ओपेरा ढाँचामा फाइलमा पुस्तकचिनो निर्यात गर्नुहोस्"
+
+#: main.cpp:115
+msgid "Open at the given position in the bookmarks file"
+msgstr "पुस्तकचिनो भित्र दिएको स्थितिमा फाइल खोल्नुहोस्"
+
+#: main.cpp:116
+msgid "Set the user-readable caption, for example \"Konsole\""
+msgstr ""
+
+#: main.cpp:117
+msgid "Hide all browser related functions"
+msgstr "ब्राउजरसँग सम्बन्धित सबै प्रकार्य लुकाउनुहोस्"
+
+#: main.cpp:118
+msgid ""
+"A unique name that represents this bookmark collection, usually the "
+"kinstance name.\n"
+"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+"KFileDialog bookmarks, etc.\n"
+"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
+msgstr ""
+
+#: main.cpp:121
+msgid "File to edit"
+msgstr "सम्पादन गर्नुपर्ने फाइल"
+
+#: main.cpp:159
+msgid "You may only specify a single --export option."
+msgstr "तपाईँले एकल --निर्यात विकल्प मात्र निर्दिष्ट गर्नुपर्नेछ ।"
+
+#: main.cpp:164
+msgid "You may only specify a single --import option."
+msgstr "तपाईँले एकल --आयात विकल्प मात्र निर्दिष्ट गर्नुपर्नेछ ।"
+
+#: exporters.cpp:48
+msgid "My Bookmarks"
+msgstr "मेरो पुस्तकचिनो"
+
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr "केडीई पुस्तकचिनो समिश्रण"
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+"प्रयोकर्ताको पुस्तकचिनोमा तेस्रो पक्षले स्थापना गरेका पुस्तकचिनो गाँभ्दछ"
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr "प्रतिलिपिअधिकार © २००५ फ्रेरिच राबे"
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr "फ्रेरिच राबे"
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "मौलिक लेखक"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr "अतिरिक्त पुस्तकचिनो स्क्यान गर्नका लागि डाइरेक्टरी"
+
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:36 rc.cpp:68 rc.cpp:89
+msgid "&File"
+msgstr "फाइल"
+
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:45 rc.cpp:71 rc.cpp:98
+msgid "&Edit"
+msgstr "सम्पादन"
+
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#: rc.cpp:9 rc.cpp:48 rc.cpp:74 rc.cpp:101
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#: rc.cpp:12 rc.cpp:51 rc.cpp:77 rc.cpp:104
+msgid "&Folder"
+msgstr "फोल्डर"
+
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#: rc.cpp:15 rc.cpp:54 rc.cpp:80 rc.cpp:107
+msgid "&Bookmark"
+msgstr "पुस्तकचिनो"
+
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:18 rc.cpp:60 rc.cpp:83 rc.cpp:113
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21 rc.cpp:63 rc.cpp:86 rc.cpp:116
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: keditbookmarksui.rc:10
+#. i18n: ectx: Menu (import)
+#: rc.cpp:39 rc.cpp:92
+msgid "&Import"
+msgstr "आयात गर्नुहोस्"
+
+#. i18n: file: keditbookmarksui.rc:20
+#. i18n: ectx: Menu (export)
+#: rc.cpp:42 rc.cpp:95
+msgid "&Export"
+msgstr "निर्यात गर्नुहोस्"
+
+#. i18n: file: keditbookmarksui.rc:66
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:57 rc.cpp:110
+msgid "&Tools"
+msgstr "उपकरण"
+
+#: rc.cpp:64
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:,Shyam Krishna Bal"
+
+#: rc.cpp:65
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,,"
+
+#: commands.cpp:117
+msgid "Insert Separator"
+msgstr "विभाजक घुसाउनुहोस्"
+
+#: commands.cpp:126
+msgid "Create Bookmark"
+msgstr "पुस्तकचिनो सिर्जना गर्नुहोस्"
+
+#: commands.cpp:135
+msgid "Create Folder"
+msgstr "फोल्डर सिर्जना गर्नुहोस्"
+
+#: commands.cpp:144
+#, kde-format
+msgid "Copy %1"
+msgstr "प्रतिलिपि %1"
+
+#: commands.cpp:233
+msgid "Icon Change"
+msgstr ""
+
+#: commands.cpp:235
+msgid "Title Change"
+msgstr ""
+
+#: commands.cpp:237
+msgid "URL Change"
+msgstr ""
+
+#: commands.cpp:239
+msgid "Comment Change"
+msgstr ""
+
+#: commands.cpp:445
+#, kde-format
+msgid "Move %1"
+msgstr "%1 सार्नुहोस्"
+
+#: commands.cpp:557
+msgid "Set as Bookmark Toolbar"
+msgstr "पुस्तकचिनो उपकरणपट्टीका रूपमा सेट गर्नुहोस्"
+
+#: commands.cpp:593
+msgid "Copy Items"
+msgstr "वस्तु प्रतिलिपि गर्नुहोस्"
+
+#: commands.cpp:594
+msgid "Move Items"
+msgstr "वस्तु सार्नुहोस्"
+
+#: testlink.cpp:107
+msgid "Checking..."
+msgstr "जाँच गर्दैछ..."
+
+#: testlink.cpp:130 favicons.cpp:81
+msgid "OK"
+msgstr ""
+
+#: importers.cpp:55
+#, kde-format
+msgid "Import %1 Bookmarks"
+msgstr "%1 पुस्तकचिनो आयात गर्नुहोस्"
+
+#: importers.cpp:59
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "%1 पुस्तकचिनो"
+
+#: importers.cpp:89
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+"हालका सबै पुस्तकचिनो नयाँ सहायक फोल्डरको रूपमा आयात गर्नुहुन्छ वा "
+"प्रतिस्थापन गर्नुहुन्छ ?"
+
+#: importers.cpp:90
+#, kde-format
+msgid "%1 Import"
+msgstr "%1 आयात"
+
+#: importers.cpp:91
+msgid "As New Folder"
+msgstr "नयाँ फोल्डरको रूपमा"
+
+#: importers.cpp:91
+msgid "Replace"
+msgstr "बदल्नुहोस्"
+
+#: importers.cpp:201
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|गेलियन पुस्तकचिनो फाइल (*.xbel)"
+
+#: importers.cpp:210
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|केडीई पुस्तकचिनो फाइल (*.xml)"
+
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "खोजी स्तम्भ"
+
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "सबै दृश्यात्मक स्तम्भ"
+
+#: kebsearchline.cpp:285
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "स्तम्भ नम्बर. %1"
+
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "खोजी:"
+
+#: bookmarkinfo.cpp:254
+msgid "Name:"
+msgstr "नाम:"
+
+#: bookmarkinfo.cpp:262
+msgid "Location:"
+msgstr "स्थान:"
+
+#: bookmarkinfo.cpp:270
+msgid "Comment:"
+msgstr "टिप्पणी:"
+
+#: bookmarkinfo.cpp:277
+msgid "First viewed:"
+msgstr "पहिले हेरिएको:"
+
+#: bookmarkinfo.cpp:280
+msgid "Viewed last:"
+msgstr "अन्तिममा हेरिएको:"
+
+#: bookmarkinfo.cpp:283
+msgid "Times visited:"
+msgstr "भ्रमण गरेको समय:"
+
+#: actionsimpl.cpp:92
+msgid "&Delete"
+msgstr "मेट्नुहोस्"
+
+#: actionsimpl.cpp:98
+msgid "Rename"
+msgstr "पुन: नामकरण गर्नुहोस्"
+
+#: actionsimpl.cpp:104
+msgid "C&hange URL"
+msgstr "यूआरएल परिवर्तन गर्नुहोस्"
+
+#: actionsimpl.cpp:110
+msgid "C&hange Comment"
+msgstr "टिप्पणी परिवर्तन गर्नुहोस्"
+
+#: actionsimpl.cpp:116
+msgid "Chan&ge Icon..."
+msgstr "प्रतिमा परिवर्तन गर्नुहोस्..."
+
+#: actionsimpl.cpp:120
+msgid "Update Favicon"
+msgstr "फेभिकन अद्यावधिक गर्नुहोस्"
+
+#: actionsimpl.cpp:124 actionsimpl.cpp:491
+msgid "Recursive Sort"
+msgstr "उल्टो क्रमबद्ध गर्नुहोस्"
+
+#: actionsimpl.cpp:129
+msgid "&New Folder..."
+msgstr "नयाँ फोल्डर..."
+
+#: actionsimpl.cpp:135
+msgid "&New Bookmark"
+msgstr "नयाँ पुस्तकचिनो"
+
+#: actionsimpl.cpp:139
+msgid "&Insert Separator"
+msgstr "विभाजक घुसाउनुहोस्"
+
+#: actionsimpl.cpp:144
+msgid "&Sort Alphabetically"
+msgstr "वर्णानुक्रम अनुसार क्रमबद्ध गर्नुहोस्"
+
+#: actionsimpl.cpp:149
+msgid "Set as T&oolbar Folder"
+msgstr "उपकरणपट्टी फोल्डरको रूपमा सेट गर्नुहोस्"
+
+#: actionsimpl.cpp:153
+msgid "&Expand All Folders"
+msgstr "सबै फोल्डर विस्तार गर्नुहोस्"
+
+#: actionsimpl.cpp:157
+msgid "Collapse &All Folders"
+msgstr "सबै फोल्डर संक्षिप्त गर्नुहोस्"
+
+#: actionsimpl.cpp:162
+msgid "&Open in Konqueror"
+msgstr "कन्क्वेररमा खोल्नुहोस्"
+
+#: actionsimpl.cpp:167
+msgid "Check &Status"
+msgstr "वस्तुस्थिति जाँच्नुहोस्"
+
+#: actionsimpl.cpp:171
+msgid "Check Status: &All"
+msgstr "सबै: वस्तुस्थिति जाँच्नुहोस्"
+
+#: actionsimpl.cpp:175
+msgid "Update All &Favicons"
+msgstr "सबै फेभिकन अद्यावधिक गर्नुहोस्"
+
+#: actionsimpl.cpp:179
+msgid "Cancel &Checks"
+msgstr "जाँच रद्द गर्नुहोस्"
+
+#: actionsimpl.cpp:183
+msgid "Cancel &Favicon Updates"
+msgstr "फेभिकन अद्यावधिक रद्द गर्नुहोस्"
+
+#: actionsimpl.cpp:189
+msgid "Import &Netscape Bookmarks..."
+msgstr "नेटस्केप पुस्तकचिनो आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:195
+msgid "Import &Opera Bookmarks..."
+msgstr "ओपेरा पुस्तकचिनो आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:200
+msgid "Import All &Crash Sessions as Bookmarks..."
+msgstr "पुस्तकचिनोको रूपमा सबै क्र्यास सत्र आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:205
+msgid "Import &Galeon Bookmarks..."
+msgstr "गेलियन पुस्तकचिनो आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:211
+msgid "Import &KDE 2 or KDE 3 Bookmarks..."
+msgstr "केडीई २ वा केडीई ३ पुस्तकचिनोहरू आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:217
+msgid "Import &Internet Explorer Bookmarks..."
+msgstr "इन्टरनेट एक्प्लोरर पुस्तकचिनोहरू आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:223
+msgid "Import &Mozilla Bookmarks..."
+msgstr "मोजिला पुस्तकचिनो आयात गर्नुहोस्..."
+
+#: actionsimpl.cpp:228
+msgid "Export &Netscape Bookmarks"
+msgstr "नेटस्केप पुस्तकचिनोमा निर्यात गर्नुहोस्"
+
+#: actionsimpl.cpp:233
+msgid "Export &Opera Bookmarks..."
+msgstr "ओपेरा पुस्तकचिनो निर्यात गर्नुहोस्..."
+
+#: actionsimpl.cpp:238
+msgid "Export &HTML Bookmarks..."
+msgstr "एचटीएमएल पुस्तकचिनो निर्यात गर्नुहोस्..."
+
+#: actionsimpl.cpp:242
+msgid "Export &Internet Explorer Bookmarks..."
+msgstr "इन्टरनेट एक्सप्लोरर पुस्तकचिनो निर्यात गर्नुहोस्..."
+
+#: actionsimpl.cpp:247
+msgid "Export &Mozilla Bookmarks..."
+msgstr "मोजिला पुस्तकचिनो निर्यात गर्नुहोस्..."
+
+#: actionsimpl.cpp:285
+msgid "*.html|HTML Bookmark Listing"
+msgstr "*.html|HTML पुस्तकचिनो सूची"
+
+#: actionsimpl.cpp:329
+msgid "Cut Items"
+msgstr "वस्तु काट्नुहोस्"
+
+#: actionsimpl.cpp:354
+msgid "Paste"
+msgstr "टाँस्नुहोस्"
+
+#: actionsimpl.cpp:364
+msgid "Create New Bookmark Folder"
+msgstr "नयाँ पुस्तकचिनो फोल्डर सिर्जना गर्नुहोस्"
+
+#: actionsimpl.cpp:365
+msgid "New folder:"
+msgstr "नयाँ फोल्डर:"
+
+#: actionsimpl.cpp:505
+msgid "Sort Alphabetically"
+msgstr "वर्णानुक्रम अनुसार क्रमबद्ध गर्नुहोस्"
+
+#: actionsimpl.cpp:513
+msgid "Delete Items"
+msgstr "वस्तु मेट्नुहोस्"
+
+#: bookmarkmodel.cpp:86
+msgid "Bookmarks"
+msgstr "पुस्तकचिनो"
+
+#: bookmarkmodel.cpp:184
+msgid "Bookmark"
+msgstr "पुस्तकचिनो"
+
+#: bookmarkmodel.cpp:186
+msgid "URL"
+msgstr "यूआरएल"
+
+#: bookmarkmodel.cpp:188
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: bookmarkmodel.cpp:190
+msgid "Status"
+msgstr "वस्तुस्थिति"
+
+#: importers.h:101
+msgid "Galeon"
+msgstr "गेलियन"
+
+#: importers.h:111
+msgid "KDE"
+msgstr "केडीई"
+
+#: importers.h:132
+msgid "Netscape"
+msgstr "नेटस्केप"
+
+#: importers.h:142
+msgid "Mozilla"
+msgstr "मोजिला"
+
+#: importers.h:152
+msgid "IE"
+msgstr "IE"
+
+#: importers.h:164
+msgid "Opera"
+msgstr "ओपेरा"
+
+#: importers.h:176
+msgid "Crashes"
+msgstr "क्र्यास"
+
+#: favicons.cpp:81
+msgid "No favicon found"
+msgstr ""
+
+#: favicons.cpp:93
+msgid "Updating favicon..."
+msgstr ""
+
+#: favicons.cpp:102
+msgid "Local file"
+msgstr ""

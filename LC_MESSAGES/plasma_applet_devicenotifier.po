@@ -1,0 +1,120 @@
+# English translations for l package.
+# Copyright (C) 2007 This_file_is_part_of_KDE
+# This file is distributed under the same license as the l package.
+# Automatically generated, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n-kde4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:57+0000\n"
+"Last-Translator: Jonathan Riddell <jriddell@ubuntu.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:53+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: deviceitem.cpp:271
+msgid "Click to safely remove this device from the computer."
+msgstr ""
+
+#: deviceitem.cpp:272
+msgid "Device is plugged in and can be accessed by applications."
+msgstr ""
+
+#: deviceitem.cpp:274
+msgid "Click to access this device from other applications."
+msgstr ""
+
+#: deviceitem.cpp:275
+msgid "Device is plugged in, but not mounted for access yet."
+msgstr ""
+
+#: deviceitem.cpp:366
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr ""
+
+#: devicenotifier.cpp:197
+#, kde-format
+msgid "1 action for this device"
+msgid_plural "%1 actions for this device"
+msgstr[0] ""
+msgstr[1] ""
+
+#: devicenotifier.cpp:266
+msgid "No devices plugged in"
+msgstr ""
+
+#: devicenotifier.cpp:270
+#, kde-format
+msgid "Last plugged in device: %1"
+msgstr ""
+
+#: devicenotifier.cpp:372
+msgctxt "General options page"
+msgid "General"
+msgstr ""
+
+#: notifierdialog.cpp:65
+msgid "Show hidden devices"
+msgstr ""
+
+#: notifierdialog.cpp:513
+msgid ""
+"Could not unmount the device.\n"
+"One or more files on this device are open within an application."
+msgstr ""
+
+#: notifierdialog.cpp:532
+msgid ""
+"Cannot eject the disc.\n"
+"One or more files on this disc are open within an application."
+msgstr ""
+
+#: notifierdialog.cpp:547
+msgid "Cannot mount the disc."
+msgstr ""
+
+#: notifierdialog.cpp:756
+#, kde-format
+msgctxt "Hide a device"
+msgid "Hide %1"
+msgstr ""
+
+#: notifierdialog.cpp:820
+msgid "No devices plugged in."
+msgstr ""
+
+#: notifierdialog.cpp:822
+msgid "Devices recently plugged in:"
+msgstr ""
+
+#. i18n: file: configurationpage.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:3 rc.cpp:15
+msgid "Display:"
+msgstr ""
+
+#. i18n: file: configurationpage.ui:37
+#. i18n: ectx: property (text), item, widget (KComboBox, showDevices)
+#: rc.cpp:6 rc.cpp:18
+msgid "Removable devices only"
+msgstr ""
+
+#. i18n: file: configurationpage.ui:42
+#. i18n: ectx: property (text), item, widget (KComboBox, showDevices)
+#: rc.cpp:9 rc.cpp:21
+msgid "Non-removable devices only"
+msgstr ""
+
+#. i18n: file: configurationpage.ui:47
+#. i18n: ectx: property (text), item, widget (KComboBox, showDevices)
+#: rc.cpp:12 rc.cpp:24
+msgid "All devices"
+msgstr ""

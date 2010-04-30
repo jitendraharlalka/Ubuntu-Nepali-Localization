@@ -1,0 +1,1314 @@
+# translation of kmouth.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmouth\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 11:26+0000\n"
+"PO-Revision-Date: 2009-07-16 09:38+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: texttospeechconfigurationwidget.cpp:48
+#: wordcompletion/dictionarycreationwizard.cpp:100
+msgctxt "Local characterset"
+msgid "Local"
+msgstr ""
+
+#: texttospeechconfigurationwidget.cpp:51
+msgctxt "Latin1 characterset"
+msgid "Latin1"
+msgstr ""
+
+#: texttospeechconfigurationwidget.cpp:52
+#: wordcompletion/dictionarycreationwizard.cpp:104
+msgid "Unicode"
+msgstr "यूनिकोड"
+
+#: phrasebook/phrasetree.cpp:471
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to %2.\n"
+"Please choose a unique key combination."
+msgstr ""
+"'%1'कुञ्जी संयोजन पहिले नै %2 मा बाँडफाँड गरिएको छ ।\n"
+"कृपया अद्वितिय कुञ्जी संयोजन रोज्नुहोस् ।"
+
+#: phrasebook/phrasetree.cpp:493
+#, kde-format
+msgid "the standard \"%1\" action"
+msgstr "मानक \"%1\" कार्य"
+
+#: phrasebook/phrasetree.cpp:494
+msgid "Conflict with Standard Application Shortcut"
+msgstr "मानक अनुप्रयोग सर्टकटमा द्वन्द्व"
+
+#: phrasebook/phrasetree.cpp:511
+#, kde-format
+msgid "the global \"%1\" action"
+msgstr "विश्वव्यापी \"%1\" कार्य"
+
+#: phrasebook/phrasetree.cpp:512
+msgid "Conflict with Global Shortcuts"
+msgstr "विश्वव्यापी सर्टकटमा द्वन्द्व"
+
+#: phrasebook/phrasetree.cpp:527
+msgid "an other phrase"
+msgstr "अन्य वाक्यांश"
+
+#: phrasebook/phrasetree.cpp:528
+msgid "Key Conflict"
+msgstr "कुञ्जी द्वन्द्व"
+
+#: phrasebook/phrasebookdialog.cpp:143
+#, kde-format
+msgid " (%2 of 1 book selected)"
+msgid_plural " (%2 of %1 books selected)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: phrasebook/phrasebookdialog.cpp:157
+msgid "Please decide which phrase books you need:"
+msgstr "कृपया तपाईँलाई आवश्यक वाक्यांश पुस्तक निश्चय गर्नुहोस्:"
+
+#: phrasebook/phrasebookdialog.cpp:166
+msgid "Book"
+msgstr "पुस्तक"
+
+#: phrasebook/phrasebookdialog.cpp:262
+msgid ""
+"By clicking on this button you can select the keyboard shortcut associated "
+"with the selected phrase."
+msgstr ""
+"यो बटनमा क्लिक गरेर तपाईँले चयन गरिएको वाक्यांशसँग सम्बन्धित सर्टकट "
+"कुञ्जीपाटी चयन गर्न सक्नुहुन्छ ।"
+
+#: phrasebook/phrasebookdialog.cpp:284
+msgid "Phrase Book"
+msgstr "वाक्यांश पुस्तक"
+
+#: phrasebook/phrasebookdialog.cpp:325
+msgid "Phrase"
+msgstr "वाक्यांश"
+
+#: phrasebook/phrasebookdialog.cpp:326
+msgid "Shortcut"
+msgstr "सर्टकट"
+
+#: phrasebook/phrasebookdialog.cpp:330
+msgid ""
+"This list contains the current phrase book in a tree structure. You can "
+"select and modify individual phrases and sub phrase books"
+msgstr ""
+"यो सूचीले हालको वाक्यांश पुस्तक ट्री संरचनामा समावेश गर्छ । तपाईँले "
+"व्यक्तिगत वाक्यांश र सहायक वाक्यांश पुस्तक चयन गर्न र परिमार्जन गर्न "
+"सक्नुहुन्छ ।"
+
+#: phrasebook/phrasebookdialog.cpp:352
+msgid "&New Phrase"
+msgstr "नयाँ वाक्यांश"
+
+#: phrasebook/phrasebookdialog.cpp:354 phrasebook/phrasebookdialog.cpp:355
+msgid "Adds a new phrase"
+msgstr "नयाँ वाक्यांश थप्दछ"
+
+#: phrasebook/phrasebookdialog.cpp:359
+msgid "New Phrase &Book"
+msgstr "नयाँ वाक्यांश पुस्तक"
+
+#: phrasebook/phrasebookdialog.cpp:361 phrasebook/phrasebookdialog.cpp:362
+msgid ""
+"Adds a new phrase book into which other books and phrases can be placed"
+msgstr "अन्य पुस्तक वा वाक्यांश राख्न सकिने ठाउँमा नया वाक्यांश पुस्तक थप्दछ"
+
+#: phrasebook/phrasebookdialog.cpp:365 phrasebook/phrasebookdialog.cpp:366
+msgid "Saves the phrase book onto the hard disk"
+msgstr "हार्डडिस्कमा वाक्यांश पुस्तक बचत गर्छ"
+
+#: phrasebook/phrasebookdialog.cpp:370 phrasebook/phrasebookdialog.cpp:375
+msgid "&Import..."
+msgstr "आयात..."
+
+#: phrasebook/phrasebookdialog.cpp:372 phrasebook/phrasebookdialog.cpp:373
+#: phrasebook/phrasebookdialog.cpp:378 phrasebook/phrasebookdialog.cpp:379
+msgid "Imports a file and adds its contents to the phrase book"
+msgstr "फाइल आयात गर्छ र यसका सामाग्रीलाई वाक्यांश पुस्तकमा थप्दछ"
+
+#: phrasebook/phrasebookdialog.cpp:383
+msgid "I&mport Standard Phrase Book"
+msgstr "मानक वाक्यांश पुस्तक आयात गर्नुहोस्"
+
+#: phrasebook/phrasebookdialog.cpp:384 phrasebook/phrasebookdialog.cpp:385
+msgid ""
+"Imports a standard phrase book and adds its contents to the phrase book"
+msgstr ""
+"मानक वाक्यांश पुस्तक आयात गर्छ र यसका सामाग्री वाक्यांश पुस्तकमा थप्दछ"
+
+#: phrasebook/phrasebookdialog.cpp:389
+msgid "&Export..."
+msgstr "निर्यात..."
+
+#: phrasebook/phrasebookdialog.cpp:391 phrasebook/phrasebookdialog.cpp:392
+msgid ""
+"Exports the currently selected phrase(s) or phrase book(s) into a file"
+msgstr ""
+"हालै चयन गरिएका वाक्यांश(हरू) वा वाक्यांश पुस्तक(हरू) फाइलमा निर्यात गर्छ"
+
+#: phrasebook/phrasebookdialog.cpp:395 phrasebook/phrasebookdialog.cpp:396
+msgid "Prints the currently selected phrase(s) or phrase book(s)"
+msgstr "हालै चयन गरिएका वाक्यांश(हरू) वा वाक्यांश पुस्तक(हरू) मुद्रण गर्छ"
+
+#: phrasebook/phrasebookdialog.cpp:399 phrasebook/phrasebookdialog.cpp:400
+msgid "Closes the window"
+msgstr "सञ्झ्याल बन्द गर्दछ"
+
+#: phrasebook/phrasebookdialog.cpp:404 phrasebook/phrasebookdialog.cpp:405
+msgid ""
+"Cuts the currently selected entries from the phrase book and puts it to the "
+"clipboard"
+msgstr ""
+"हालै चयन गरिएका प्रविष्टि वाक्यांश पुस्तकबाट काट्छ र यसलाई क्लिपबोर्डमा राख्छ"
+
+#: phrasebook/phrasebookdialog.cpp:408 phrasebook/phrasebookdialog.cpp:409
+msgid ""
+"Copies the currently selected entry from the phrase book to the clipboard"
+msgstr ""
+"हालै चयन गरिएका प्रविष्टि वाक्यांश पुस्तकबाट क्लिपबोर्डमा प्रतिलिपि गर्छ"
+
+#: phrasebook/phrasebookdialog.cpp:412 phrasebook/phrasebookdialog.cpp:413
+#: kmouth.cpp:149
+msgid "Pastes the clipboard contents to actual position"
+msgstr "क्लिपबोर्ड सामाग्री वास्तविक स्थितिमा टाँस्दछ"
+
+#: phrasebook/phrasebookdialog.cpp:417 kmouth.cpp:201
+msgid "&Delete"
+msgstr ""
+
+#: phrasebook/phrasebookdialog.cpp:419 phrasebook/phrasebookdialog.cpp:420
+msgid "Deletes the selected entries from the phrase book"
+msgstr "वाक्यांश पुस्तकमा चयन गरिएका प्रविष्टि मेट्छ"
+
+#. i18n: file: phrasebook/buttonboxui.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: phrasebook/phrasebookdialog.cpp:542 phrasebook/phrasebookdialog.cpp:556
+#: rc.cpp:214
+msgid "Text of the &phrase:"
+msgstr "वाक्यांशको पाठ:"
+
+#: phrasebook/phrasebookdialog.cpp:580
+msgid "Name of the &phrase book:"
+msgstr "वाक्यांश पुस्तकको नाम:"
+
+#: phrasebook/phrasebookdialog.cpp:599
+msgid ""
+"<qt>There are unsaved changes.<br />Do you want to apply the changes before "
+"closing the \"phrase book\" window or discard the changes?</qt>"
+msgstr ""
+
+#: phrasebook/phrasebookdialog.cpp:600
+msgid "Closing \"Phrase Book\" Window"
+msgstr "\"वाक्यांश पुस्तक\" सञ्झ्याल बन्द"
+
+#: phrasebook/phrasebookdialog.cpp:660
+#, kde-format
+msgid ""
+"In order to use the '%1' key as a shortcut, it must be combined with the "
+"Win, Alt, Ctrl, and/or Shift keys."
+msgstr ""
+"'%1' कुञ्जीलाई सर्टकटका रुपमा प्रयोग गर्न, यसलाई Win, Alt, Ctrl, र/वा Shift "
+"keys मा जडान गरिएको हुनुपर्नेछ ।"
+
+#: phrasebook/phrasebookdialog.cpp:663
+msgid "Invalid Shortcut Key"
+msgstr "अवैद्य सर्टकट कुञ्जी"
+
+#: phrasebook/phrasebookdialog.cpp:760
+msgid "(New Phrase Book)"
+msgstr "(नयाँ वाक्यांश पुस्तक)"
+
+#: phrasebook/phrasebookdialog.cpp:771
+msgid "(New Phrase)"
+msgstr "(नयाँ वाक्यांश)"
+
+#: phrasebook/phrasebookdialog.cpp:788 phrasebook/phrasebook.cpp:263
+msgid ""
+"*.phrasebook|Phrase Books (*.phrasebook)\n"
+"*.txt|Plain Text Files (*.txt)\n"
+"*|All Files"
+msgstr ""
+"वाक्यांश पुस्तक (*.वाक्यांश पुस्तक)\n"
+"सादा पाठ फाइल (*.txt)\n"
+"सबै फाइल"
+
+#: phrasebook/phrasebookdialog.cpp:788
+msgid "Import Phrasebook"
+msgstr "वाक्यांश पुस्तक आयात गर्नुहोस्"
+
+#: phrasebook/phrasebookdialog.cpp:799 phraselist.cpp:480
+#, kde-format
+msgid ""
+"There was an error loading file\n"
+"%1"
+msgstr ""
+"फाइल लोड गर्दा त्रुटि थियो\n"
+"%1"
+
+#: phrasebook/phrasebookdialog.cpp:808
+msgid "Export Phrase Book"
+msgstr "वाक्यांश पुस्तक निर्यात गर्नुहोस्"
+
+#: phrasebook/phrasebookdialog.cpp:809 phraselist.cpp:454
+#, kde-format
+msgid ""
+"There was an error saving file\n"
+"%1"
+msgstr ""
+"फाइल बचत गर्दा त्रुटि थियो\n"
+"%1"
+
+#: phrasebook/phrasebook.cpp:265
+msgid ""
+"*.txt|Plain Text Files (*.txt)\n"
+"*.phrasebook|Phrase Books (*.phrasebook)\n"
+"*|All Files"
+msgstr ""
+"सादा पाठ फाइल (*.txt)\n"
+"वाक्यांश पुस्तक (*.वाक्यांश पुस्तक)\n"
+"सबै फाइल"
+
+#: phrasebook/phrasebook.cpp:283 wordcompletion/wordcompletionwidget.cpp:259
+#, kde-format
+msgid "The file %1 already exists. Do you want to overwrite it?"
+msgstr "%1 फाइल पहिले नै अवस्थित छ । तपाईँ यसमा अधिलेखन गर्न चाहनुहुन्छ ?"
+
+#: phrasebook/phrasebook.cpp:284 wordcompletion/wordcompletionwidget.cpp:260
+msgid "File Exists"
+msgstr "फाइल अवस्थित छ"
+
+#: phrasebook/phrasebook.cpp:284 wordcompletion/wordcompletionwidget.cpp:260
+msgid "&Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: phrasebook/phrasebook.cpp:295
+#, kde-format
+msgid ""
+"Your chosen filename <i>%1</i> has a different extension than "
+"<i>.phrasebook</i>. Do you wish to add <i>.phrasebook</i> to the filename?"
+msgstr ""
+"तपाईँले रोजेको फाइलनाम <i>%1</i> मा <i>.phrasebook</i> मा भन्दा फरक विस्तार "
+"छन् । तपाईँ फाइलनाममा <i>.phrasebook</i> थाप्न चाहनुहुन्छ?"
+
+#: phrasebook/phrasebook.cpp:296 phrasebook/phrasebook.cpp:312
+msgid "File Extension"
+msgstr "फाइल विस्तार"
+
+#: phrasebook/phrasebook.cpp:296
+msgid "Add"
+msgstr ""
+
+#: phrasebook/phrasebook.cpp:296
+msgid "Do Not Add"
+msgstr "नथप्नुहोस्"
+
+#: phrasebook/phrasebook.cpp:311
+#, kde-format
+msgid ""
+"Your chosen filename <i>%1</i> has the extension <i>.phrasebook</i>. Do you "
+"wish to save in phrasebook format?"
+msgstr ""
+"तपाईँले रोजेको <i>%1</i> फाइलनाममा <i>.phrasebook</i> छन् । तपाईँ वाक्यांश "
+"पुस्तक ढाँचामा बचत गर्न चाहनुहुन्छ?"
+
+#: phrasebook/phrasebook.cpp:312
+msgid "As Phrasebook"
+msgstr "वाक्यांश पुस्तक जस्तै"
+
+#: phrasebook/phrasebook.cpp:312
+msgid "As Plain Text"
+msgstr "सादा पाठ जस्तै"
+
+#: phraselist.cpp:60
+msgid ""
+"This list contains the history of spoken sentences. You can select sentences "
+"and press the speak button for re-speaking."
+msgstr ""
+"यो सूचीले इतिहासमा वाचन गरिएका वाक्य समावेश गर्छ । तपाईँले वाक्य चयन गर्न र "
+"पुन: वाचन गर्नका लागि वाचन बटन थिच्न सक्नुहुन्छ ।"
+
+#: phraselist.cpp:78
+msgid ""
+"Into this edit field you can type a phrase. Click on the speak button in "
+"order to speak the entered phrase."
+msgstr ""
+"यो सम्पादन फिल्डमा तपाईँले वाक्यांश लेख्न सक्नुहुन्छ । प्रविष्ट गरिएका "
+"वाक्यांश वाचन गर्नका लागि वाचन बटनमा क्लिक गर्नुहोस् ।"
+
+#: phraselist.cpp:83 kmouth.cpp:194
+msgid "&Speak"
+msgstr "बोल्नुहोस्"
+
+#: phraselist.cpp:86 kmouth.cpp:157
+msgid ""
+"Speaks the currently active sentence(s). If there is some text in the edit "
+"field it is spoken. Otherwise the selected sentences in the history (if any) "
+"are spoken."
+msgstr ""
+"हालै सक्रिय पारिएका वाक्य(हरू) बोल्दछ । यदि सम्पादन फिल्डमा केही पाठ भएमा यो "
+"बोलिने छ । अन्यथा इतिहासमा चयन गरिएका वाक्य (यदि भएमा) बोलिने छ ।"
+
+#: phraselist.cpp:453
+msgid "Save As"
+msgstr ""
+
+#: phraselist.cpp:459
+msgid ""
+"*|All Files\n"
+"*.phrasebook|Phrase Books (*.phrasebook)\n"
+"*.txt|Plain Text Files (*.txt)"
+msgstr ""
+"*|सबै फाइल\n"
+"*.phrasebook|वाक्यांश पुस्तक (*.phrasebook)\n"
+"*.txt|सादा पाठ फाइल (*.txt)"
+
+#: phraselist.cpp:459
+msgid "Open File as History"
+msgstr "इतिहासको रुपमा फाइल खोल्नुहोस्"
+
+#: optionsdialog.cpp:120
+msgid "Configuration"
+msgstr ""
+
+#: optionsdialog.cpp:133
+msgid "&Preferences"
+msgstr "प्राथमिकता"
+
+#: optionsdialog.cpp:137
+msgid "&Text-to-Speech"
+msgstr "पाठ वाचक"
+
+#: optionsdialog.cpp:139 optionsdialog.cpp:140
+msgid "General Options"
+msgstr "साधारण विकल्प"
+
+#: optionsdialog.cpp:145 optionsdialog.cpp:146 configwizard.cpp:103
+msgid "Word Completion"
+msgstr "शब्द समाप्ति"
+
+#: optionsdialog.cpp:152
+msgid "KTTSD Speech Service"
+msgstr "KTTSD संवाद सेवा"
+
+#: optionsdialog.cpp:154
+msgid "KDE Text-to-Speech Daemon Configuration"
+msgstr "केडीई पाठ वाचक डेइमन कन्फिगरेसन"
+
+#: configwizard.cpp:38
+msgid "Initial Configuration - KMouth"
+msgstr "सुरुआत कन्फिगरेसन - केडीई माउथ"
+
+#: configwizard.cpp:57
+msgid "Text-to-Speech Configuration"
+msgstr "पाठ वाचक कन्फिगरेसन"
+
+#: configwizard.cpp:71
+msgid "Initial Phrase Book"
+msgstr "सुरुको वाक्यांश पुस्तक"
+
+#: main.cpp:28
+msgid "A type-and-say front end for speech synthesizers"
+msgstr "संवाद सिन्थेसाइजरका लागि टाइप-एन्ड-से फ्रन्टइन्ड"
+
+#: main.cpp:35
+msgid "KMouth"
+msgstr "केडीई माउथ"
+
+#: main.cpp:37
+msgid "(c) 2002/2003, Gunnar Schmi Dt"
+msgstr ""
+
+#: main.cpp:38
+msgid "Gunnar Schmi Dt"
+msgstr ""
+
+#: main.cpp:42
+msgid "History file to open"
+msgstr "खोल्नका लागि इतिहास फाइल"
+
+#: main.cpp:45
+msgid "Olaf Schmidt"
+msgstr ""
+
+#: main.cpp:45
+msgid "Tips, extended phrase books"
+msgstr "टिप, विस्तारित वाक्यांश पुस्तक"
+
+#: wordcompletion/wordlist.cpp:114
+msgid "Creating Word List"
+msgstr "शब्द सूची सिर्जना गर्दैछ"
+
+#: wordcompletion/wordlist.cpp:114 wordcompletion/wordlist.cpp:296
+msgid "Parsing the KDE documentation..."
+msgstr "केडीई मिसिलीकरण पद वर्णन गर्दैछ..."
+
+#: wordcompletion/wordlist.cpp:243
+msgid "Merging dictionaries..."
+msgstr "शब्दकोश गाभ्दैछ..."
+
+#: wordcompletion/wordlist.cpp:314
+msgid "Parsing file..."
+msgstr "फाइल पद वर्णन गर्दैछ..."
+
+#: wordcompletion/wordlist.cpp:325
+msgid "Parsing directory..."
+msgstr "शब्दकोश पद वर्णन गर्दैछ..."
+
+#: wordcompletion/wordlist.cpp:517
+msgid "Performing spell check..."
+msgstr "हिज्जे परीक्षण सम्पादन गर्दैछ..."
+
+#: wordcompletion/dictionarycreationwizard.cpp:49
+msgid "Source of New Dictionary (1)"
+msgstr "नयाँ शब्दकोशको स्रोत (१)"
+
+#: wordcompletion/dictionarycreationwizard.cpp:54
+#: wordcompletion/dictionarycreationwizard.cpp:58
+#: wordcompletion/dictionarycreationwizard.cpp:66
+#: wordcompletion/dictionarycreationwizard.cpp:71
+#: wordcompletion/dictionarycreationwizard.cpp:116
+#: wordcompletion/dictionarycreationwizard.cpp:132
+#: wordcompletion/dictionarycreationwizard.cpp:141
+#: wordcompletion/dictionarycreationwizard.cpp:150
+msgid "Source of New Dictionary (2)"
+msgstr "नयाँ शब्दकोशको स्रोत (२)"
+
+#: wordcompletion/dictionarycreationwizard.cpp:59
+msgctxt "In which directory is the file located?"
+msgid "&Directory:"
+msgstr ""
+
+#: wordcompletion/dictionarycreationwizard.cpp:60
+#: wordcompletion/dictionarycreationwizard.cpp:62
+msgid ""
+"With this input field you specify which directory you want to load for "
+"creating the new dictionary."
+msgstr ""
+"यो आगत फिल्डमा तपाईँले नयाँ शब्दकोश सिर्जना गर्दा लोड गर्न चाहनुभएको "
+"डाइरेक्टरी निर्दिष्ट गर्नुहुन्छ ।"
+
+#: wordcompletion/dictionarycreationwizard.cpp:103
+msgctxt "Latin characterset"
+msgid "Latin1"
+msgstr ""
+
+#: wordcompletion/dictionarycreationwizard.cpp:237
+msgid "Merge result"
+msgstr "गाभेको नतिजा"
+
+#: wordcompletion/dictionarycreationwizard.cpp:240
+msgctxt "In the sense of a blank word list"
+msgid "Empty list"
+msgstr "खाली सूची"
+
+#: wordcompletion/dictionarycreationwizard.cpp:249
+msgid "KDE Documentation"
+msgstr "केडीई मिसिलीकरण"
+
+#: wordcompletion/dictionarycreationwizard.cpp:371
+msgctxt "Default dictionary"
+msgid "Default"
+msgstr ""
+
+#: wordcompletion/wordcompletionwidget.cpp:75
+#: wordcompletion/wordcompletionwidget.cpp:144
+#: wordcompletion/wordcompletionwidget.cpp:208
+msgid "without name"
+msgstr "नाम बिना"
+
+#: wordcompletion/wordcompletionwidget.cpp:254
+msgid "Export Dictionary"
+msgstr "शब्दकोश निर्यात गर्नुहोस्"
+
+#. i18n: file: kmouthui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:96
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kmouthui.rc:11
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:99
+msgid "&Edit"
+msgstr ""
+
+#. i18n: file: kmouthui.rc:14
+#. i18n: ectx: Menu (phrasebooks)
+#: rc.cpp:9 rc.cpp:102
+msgid "&Phrase Books"
+msgstr "वाक्यांश पुस्तक"
+
+#. i18n: file: kmouthui.rc:17
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12 rc.cpp:105
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: preferencesui.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, PreferencesUI)
+#: rc.cpp:15 rc.cpp:108
+msgid "Preferences"
+msgstr "प्राथमिकता"
+
+#. i18n: file: preferencesui.ui:49
+#. i18n: ectx: property (whatsThis), widget (QLabel, speakLabel)
+#. i18n: file: preferencesui.ui:62
+#. i18n: ectx: property (whatsThis), widget (KComboBox, speakCombo)
+#. i18n: file: preferencesui.ui:49
+#. i18n: ectx: property (whatsThis), widget (QLabel, speakLabel)
+#. i18n: file: preferencesui.ui:62
+#. i18n: ectx: property (whatsThis), widget (KComboBox, speakCombo)
+#: rc.cpp:18 rc.cpp:24 rc.cpp:111 rc.cpp:117
+msgid ""
+"This combo box specifies whether selected phrases of the phrase book are "
+"immediately spoken or just inserted into the edit field."
+msgstr ""
+"यो कम्बो बाकसले वाक्यांश पुस्तकको चयन गरिएका वाक्यांश तुरुन्त वाचन गरिन्छ वा "
+"केबल सम्पादन फिल्डमा घुसाइन्छ भनेर निर्दिष्ट गर्छ ।"
+
+#. i18n: file: preferencesui.ui:52
+#. i18n: ectx: property (text), widget (QLabel, speakLabel)
+#: rc.cpp:21 rc.cpp:114
+msgid "&Selection of phrases in the phrase book:"
+msgstr "वाक्यांश पुस्तिकामा वाक्यांशको चयन:"
+
+#. i18n: file: preferencesui.ui:66
+#. i18n: ectx: property (text), item, widget (KComboBox, speakCombo)
+#: rc.cpp:27 rc.cpp:120
+msgid "Speak Immediately"
+msgstr "तुरुन्त वाचन गर्नुहोस्"
+
+#. i18n: file: preferencesui.ui:71
+#. i18n: ectx: property (text), item, widget (KComboBox, speakCombo)
+#: rc.cpp:30 rc.cpp:123
+msgid "Insert Into Edit Field"
+msgstr "सम्पादन फिल्डमा घुसाउनुहोस्"
+
+#. i18n: file: preferencesui.ui:97
+#. i18n: ectx: property (whatsThis), widget (QLabel, closeLabel)
+#. i18n: file: preferencesui.ui:110
+#. i18n: ectx: property (whatsThis), widget (KComboBox, closeCombo)
+#. i18n: file: preferencesui.ui:97
+#. i18n: ectx: property (whatsThis), widget (QLabel, closeLabel)
+#. i18n: file: preferencesui.ui:110
+#. i18n: ectx: property (whatsThis), widget (KComboBox, closeCombo)
+#: rc.cpp:33 rc.cpp:39 rc.cpp:126 rc.cpp:132
+msgid ""
+"This combo box specifies whether the phrase book is automatically saved when "
+"the edit window is closed."
+msgstr ""
+"यो कम्बो बाकसले सम्पादन सञ्झ्याल बन्द गर्दा वाक्यांश पुस्तक स्वत: बचत हुने "
+"वा नहुने निर्दिष्ट गर्छ ।"
+
+#. i18n: file: preferencesui.ui:100
+#. i18n: ectx: property (text), widget (QLabel, closeLabel)
+#: rc.cpp:36 rc.cpp:129
+msgid "Closing the phrase &book edit window:"
+msgstr "वाक्यांश पुस्तक सम्पादन सञ्झ्याल बन्द:"
+
+#. i18n: file: preferencesui.ui:114
+#. i18n: ectx: property (text), item, widget (KComboBox, closeCombo)
+#: rc.cpp:42 rc.cpp:135
+msgid "Save Phrase Book"
+msgstr "वाक्यांश पुस्तक बचत गर्नुहोस्"
+
+#. i18n: file: preferencesui.ui:119
+#. i18n: ectx: property (text), item, widget (KComboBox, closeCombo)
+#: rc.cpp:45 rc.cpp:138
+msgid "Discard Changes"
+msgstr "परिवर्तनहरू छोड्नुहोस्"
+
+#. i18n: file: preferencesui.ui:124
+#. i18n: ectx: property (text), item, widget (KComboBox, closeCombo)
+#: rc.cpp:48 rc.cpp:141
+msgid "Ask Whether to Save"
+msgstr "बचत गर्ने वा नगर्ने सोध्नुहोस्"
+
+#. i18n: file: texttospeechconfigurationui.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, texttospeechconfigurationui)
+#: rc.cpp:51 rc.cpp:144
+msgid "Text-to-Speech"
+msgstr "पाठ वाचक"
+
+#. i18n: file: texttospeechconfigurationui.ui:41
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: rc.cpp:54 rc.cpp:147
+msgid "C&ommand for speaking texts:"
+msgstr "पाठ वाचनका लागि आदेश"
+
+#. i18n: file: texttospeechconfigurationui.ui:51
+#. i18n: ectx: property (whatsThis), widget (QLabel, urlLabel)
+#. i18n: file: texttospeechconfigurationui.ui:70
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlReq)
+#. i18n: file: texttospeechconfigurationui.ui:51
+#. i18n: ectx: property (whatsThis), widget (QLabel, urlLabel)
+#. i18n: file: texttospeechconfigurationui.ui:70
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlReq)
+#: rc.cpp:58 rc.cpp:66 rc.cpp:151 rc.cpp:159
+#, no-c-format
+msgid ""
+"This field specifies both the command used for speaking texts and its "
+"parameters. KMouth knows the following placeholders:\n"
+"%t -- the text that should be spoken\n"
+"%f -- the name of a file containing the text\n"
+"%l -- the language code\n"
+"%% -- a percent sign"
+msgstr ""
+"यो फिल्डले वाचन पाठ र यसका परिमिति दुबैका लागि प्रयोग हुने आदेश निर्दिष्ट "
+"गर्छ । केडीई माउथले निम्न प्लेसहोल्डर पहिचान गर्छ:\n"
+"%t -- वाचन गर्नुपर्ने पाठ\n"
+"%f -- पाठ सामवेश भएको फाइलको नाम\n"
+"%l -- भाषा सङ्केत\n"
+"%% -- प्रतिशत चिन्ह"
+
+#. i18n: file: texttospeechconfigurationui.ui:95
+#. i18n: ectx: property (text), widget (QLabel, characterCodingLabel)
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:46
+#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
+#: rc.cpp:73 rc.cpp:166 rc.cpp:226
+msgid "Character &encoding:"
+msgstr "क्यारेक्टर सङ्केतन:"
+
+#. i18n: file: texttospeechconfigurationui.ui:101
+#. i18n: ectx: property (whatsThis), widget (QLabel, characterCodingLabel)
+#. i18n: file: texttospeechconfigurationui.ui:108
+#. i18n: ectx: property (whatsThis), widget (KComboBox, characterCodingBox)
+#. i18n: file: texttospeechconfigurationui.ui:101
+#. i18n: ectx: property (whatsThis), widget (QLabel, characterCodingLabel)
+#. i18n: file: texttospeechconfigurationui.ui:108
+#. i18n: ectx: property (whatsThis), widget (KComboBox, characterCodingBox)
+#: rc.cpp:76 rc.cpp:79 rc.cpp:169 rc.cpp:172
+msgid ""
+"This combo box specifies which character encoding is used for passing the "
+"text."
+msgstr ""
+"यो कम्बो बाकसले पाठलाई पास गर्नका लागि प्रयोग गर्ने सङ्केतन निर्दिष्ट गर्छ ।"
+
+#. i18n: file: texttospeechconfigurationui.ui:117
+#. i18n: ectx: property (text), widget (QCheckBox, stdInButton)
+#: rc.cpp:82 rc.cpp:175
+msgid "Send the data as standard &input"
+msgstr "मानक आगतका रुपमा डेटा पठाउनुहोस्"
+
+#. i18n: file: texttospeechconfigurationui.ui:120
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, stdInButton)
+#: rc.cpp:85 rc.cpp:178
+msgid ""
+"This check box specifies whether the text is sent as standard input to the "
+"speech synthesizer."
+msgstr ""
+"यो जाँच बाकसले वाचन सिन्थेसाइजर मानक आगतका रुपमा पाठ पठाएको नपठाएको "
+"निर्दिष्ट गर्छ ।"
+
+#. i18n: file: texttospeechconfigurationui.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, useKttsd)
+#: rc.cpp:88 rc.cpp:181
+msgid "&Use KTTSD speech service if possible"
+msgstr "यदि सम्भव भएमा KTTSD वाचन सेवा प्रयोग गर्नुहोस्"
+
+#. i18n: file: texttospeechconfigurationui.ui:130
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useKttsd)
+#: rc.cpp:91 rc.cpp:184
+msgid ""
+"This check box specifies KMouth tries to use the KTTSD speech service prior "
+"to calling the speech synthesizer directly. The KTTSD speech service is a "
+"KDE daemon which gives KDE applications a standardized interface for speech "
+"synthesis and is currently developed in CVS."
+msgstr ""
+"यो जाँच बाकसले वाचन सिन्थेसाइजर प्रत्यक्ष रुपमा कल गर्नु भन्दा पहिले KTTSD "
+"वाचन सेवा प्रयोग गर्न केडीई माउथको प्रयास निर्दिष्ट गर्छ । KTTSD वाचन हालै "
+"सी भी एस मा विकास गरिएको र वाचन सिन्थेसिसका लागि केडीई अनुप्रयोगको मानक "
+"इन्टरफेस दिने केडीई डेइमन हो ।"
+
+#: rc.cpp:92
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:93
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#. i18n: file: phrasebook/buttonboxui.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ButtonBoxUI)
+#: rc.cpp:187
+msgid "Currently Selected Phrase or Phrase Book"
+msgstr "हालै चयन गरिएको वाक्यांश वा वाक्यांश पुस्तक"
+
+#. i18n: file: phrasebook/buttonboxui.ui:25
+#. i18n: ectx: property (title), widget (QGroupBox, phrasebox)
+#: rc.cpp:190
+msgid "&Currently Selected Phrase or Phrase Book"
+msgstr "हालै चयन गरिएको वाक्यांश वा वाक्यांश पुस्तक"
+
+#. i18n: file: phrasebook/buttonboxui.ui:40
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lineEdit)
+#. i18n: file: phrasebook/buttonboxui.ui:74
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel)
+#: rc.cpp:193 rc.cpp:211
+msgid ""
+"With this line edit you define the name of a sub-phrasebook or the contents "
+"of a phrase."
+msgstr ""
+"यो लाइन सम्पादनमा तपाईँले सहायक वाक्यांश पुस्तक वा वाक्यांशको सामाग्री "
+"परिभाषित गर्नुहोस् ।"
+
+#. i18n: file: phrasebook/buttonboxui.ui:47
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, noKey)
+#: rc.cpp:196
+msgid ""
+"If you select this option then the selected phrase will not be reachable by "
+"a keyboard shortcut."
+msgstr ""
+"तपाईँले यो विकल्प चयन गरेपछि चयन गरिएको वाक्यांश कुञ्जिपाटी सर्टकटद्वारा "
+"पहुँचयोग्य हुनेछैन ।"
+
+#. i18n: file: phrasebook/buttonboxui.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, noKey)
+#: rc.cpp:199
+msgid "&None"
+msgstr "कुनै होइन"
+
+#. i18n: file: phrasebook/buttonboxui.ui:57
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, customKey)
+#: rc.cpp:202
+msgid ""
+"If you select this option then the selected phrase will be reachable by a "
+"keyboard shortcut. You can change the shortcut with the button next to this "
+"option."
+msgstr ""
+"तपाईँले यो विकल्प चयन गरेपछि चयन गरिएको वाक्यांश कुञ्जिपाटी सर्टकटद्वारा "
+"पहुँचयोग्य हुनेछ । तपाईँले यो विकल्पमा पछिल्लो बटनले सर्टकट परिवर्तन गर्न "
+"सक्नुहुन्छ ।"
+
+#. i18n: file: phrasebook/buttonboxui.ui:60
+#. i18n: ectx: property (text), widget (QRadioButton, customKey)
+#: rc.cpp:205
+msgid "C&ustom"
+msgstr "अनुकूल"
+
+#. i18n: file: phrasebook/buttonboxui.ui:67
+#. i18n: ectx: property (text), widget (QLabel, shortcutLabel)
+#: rc.cpp:208
+msgid "Shortcut for the phrase:"
+msgstr "वाक्यांशका लागि सर्टकट:"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:22
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, spellCheckBox)
+#: rc.cpp:217
+msgid ""
+"If you select this check box the words are spell-checked before they are "
+"inserted into the new dictionary."
+msgstr ""
+"तपाईँले यो जाँच बाकस चयन गरेमा शब्दहरू नयाँ शब्दकोशमा घुसाउनु भन्दा पहिले "
+"हिज्जे परीक्षण गरिन्छन् ।"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, spellCheckBox)
+#. i18n: file: wordcompletion/kdedocsourceui.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, spellCheckBox)
+#: rc.cpp:220 rc.cpp:289
+msgid "C&ompare to OpenOffice.org dictionary:"
+msgstr ""
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:43
+#. i18n: ectx: property (whatsThis), widget (QLabel, encodingLabel)
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:100
+#. i18n: ectx: property (whatsThis), widget (KComboBox, encodingCombo)
+#: rc.cpp:223 rc.cpp:238
+msgid ""
+"With this combo box you select the character encoding used to load text "
+"files. This combo box is not used for XML files or for dictionary files."
+msgstr ""
+"यो कम्बोबाकसमा तपाईँले पाठ फाइल लोड गर्न प्रयोग गरिएको सङ्केतन क्यारेक्टर "
+"चयन गर्नुहोस् । यो कम्बोबाकस XML फाइल वा शब्दकोश फाइलका लागि प्रयोग गरिने "
+"छैन ।"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:64
+#. i18n: ectx: property (whatsThis), widget (QLabel, urlLabel)
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:85
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, url)
+#: rc.cpp:229 rc.cpp:235
+msgid ""
+"With this input field you specify which file you want to load for creating "
+"the new dictionary."
+msgstr ""
+"यो आगत फिल्डमा तपाईँले नयाँ शब्दकोश सिर्जना गर्नका लागि लोड गर्न चाहेको फाइल "
+"निर्दिष्ट गर्नुहुनेछ ।"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:67
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: rc.cpp:232
+msgid "&Filename:"
+msgstr "फाइलनाम:"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:118
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, ooDictURL)
+#. i18n: file: wordcompletion/kdedocsourceui.ui:44
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, ooDictURL)
+#: rc.cpp:241 rc.cpp:292
+msgid ""
+"With this input field you select the OpenOffice.org directory that will be "
+"used to spellcheck the words of the new dictionary."
+msgstr ""
+"यो आगत फिल्डमा तपाईँले नयाँ शब्दकोशमा हिज्जे परीक्षण गर्न प्रयोग गरिने "
+"OpenOffice.org डाइरेक्टरी चयन गर्नुहोस् ।"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:136
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: rc.cpp:244
+msgid ""
+"With this combo box you decide which language should be associated with the "
+"new dictionary."
+msgstr ""
+"यो कम्बो बाकसमा तपाईँले नयाँ शब्दकोशमा हुने भाषा निर्णय गर्न सक्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/creationsourcedetailsui.ui:139
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#. i18n: file: wordcompletion/kdedocsourceui.ui:67
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#. i18n: file: wordcompletion/wordcompletionui.ui:51
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: rc.cpp:247 rc.cpp:298 rc.cpp:307
+msgid "&Language:"
+msgstr "भाषा:"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:16
+#. i18n: ectx: property (text), widget (QRadioButton, createButton)
+#: rc.cpp:250
+msgid "C&reate new dictionary:"
+msgstr "नयाँ शब्दकोश सिर्जना गर्नुहोस्:"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:22
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, createButton)
+#: rc.cpp:253
+msgid ""
+"If you select this box a new dictionary is created by either loading a "
+"dictionary file or by counting the individual words in a text."
+msgstr ""
+"तपाईँले यो बाकस चयन गरेमा शब्दकोश फाइल लोड वा पाठमा व्यक्तिगत शब्द गणना गरे "
+"अनुरुप एउटा नयाँ शब्दकोश सिर्जना गरिने छ ।"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:29
+#. i18n: ectx: property (text), widget (QRadioButton, mergeButton)
+#: rc.cpp:256
+msgid "&Merge dictionaries"
+msgstr "शब्दकोशहरू गाभ्नुहोस्"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:32
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mergeButton)
+#: rc.cpp:259
+msgid ""
+"If you select this box a new dictionary is created by merging existing "
+"dictionaries."
+msgstr ""
+"तपाईँले यो बाकस चयन गरेमा अवस्थित शब्दकोश गाभेर नयाँ शब्दकोश सिर्जना गरिनेछ ।"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, fileButton)
+#: rc.cpp:262
+msgid "From &file"
+msgstr "फाइलबाट"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:53
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, fileButton)
+#: rc.cpp:265
+msgid ""
+"If you select this box a new dictionary is created by loading a file. You "
+"may either select an XML file, a standard text file or a file containing a "
+"word completion dictionary. If you select a standard text file or an XML "
+"file the frequentness of the individual words is detected by simply counting "
+"the occurrences of each word."
+msgstr ""
+"तपाईँले यो बाकस चयन गरेमा फाइल लोड गरेर एउटा नयाँ शब्दकोश सिर्जना गरिने छ । "
+"तपाईँले XML फाइल, एउटा मानक पाठ फाइल वा शब्द समाप्ति शब्दकोश चयन गर्न "
+"सक्नुहुनेछ । यदि तपाईँले मानक पाठ फाइल वा XML फाइल चयन गरेमा व्यक्तिगत "
+"शब्दको पुनरावृत्ती केवल प्रत्येक शब्दका घटना गणना गरेर पत्ता लगाइन्छ ।"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, kdeDocButton)
+#: rc.cpp:268
+msgid "From &KDE documentation"
+msgstr "केडीई मिसिलीकरणबाट"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:77
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kdeDocButton)
+#: rc.cpp:271
+msgid ""
+"If you select this box a new dictionary is created by parsing the KDE "
+"documentation. The frequentness of the individual words is detect by simply "
+"counting the occurrences of each word."
+msgstr ""
+"तपाईँले यो बाकस चयन गरेमा केडीई मिसिलीकरण पद वर्णन गरे अनुरुप नयाँ शब्दकोश "
+"सिर्जना गरिन्छ । व्यक्तिगत शब्दको पुनरावृत्ती केबल प्रत्येक शब्दका घटना गणना "
+"गरेर पत्ता लगाइन्छ ।"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:95
+#. i18n: ectx: property (text), widget (QRadioButton, directoryButton)
+#: rc.cpp:274
+msgid "From f&older"
+msgstr "फोल्डरबाट"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:98
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, directoryButton)
+#: rc.cpp:277
+msgid ""
+"If you select this box a new dictionary is created by loading all files in a "
+"folder and its subdirectories."
+msgstr ""
+"तपाईँले यो बाकस चयन गरेमा फोल्डर र यसका सहायक डाइरेक्टरीमा सबै फाइल लोड गरेर "
+"नयाँ शब्दकोश सिर्जना गरिनेछ ।"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:121
+#. i18n: ectx: property (text), widget (QRadioButton, emptyButton)
+#: rc.cpp:280
+msgid "Create an &empty wordlist"
+msgstr "एउट खाली शब्दसूची सिर्जना गर्नुहोस्"
+
+#. i18n: file: wordcompletion/creationsourceui.ui:124
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, emptyButton)
+#: rc.cpp:283
+msgid ""
+"If you select this box a blank dictionary without any entries is created. As "
+"KMouth automatically adds newly typed words to the dictionaries it will "
+"learn your vocabulary with the time."
+msgstr ""
+"तपाईँले यो बाकस चयन गरेमा कुनै पनि प्रविष्टि सिर्जना नगरिएको एउटा खाली "
+"शब्दकोश सिर्जना गरिने छ । केडीई माउथले स्वचालित रुपमा नयाँ टाइप गरिएका शब्द "
+"शब्दकोशमा थप्दछ ।"
+
+#. i18n: file: wordcompletion/kdedocsourceui.ui:22
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, spellCheckBox)
+#: rc.cpp:286
+msgid ""
+"If you select this check box the words from the KDE documentation are spell-"
+"checked before they are inserted into the new dictionary."
+msgstr ""
+"तपाईँले यो जाँच बाकस चयन गरेमा नयाँ शब्दकोशमा घुसाउनु भन्दा पहिले केडीई "
+"मिसिलीकरणबाट हिज्जे परीक्षण गरिन्छ ।"
+
+#. i18n: file: wordcompletion/kdedocsourceui.ui:64
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: rc.cpp:295
+msgid ""
+"With this combo box you select which of the installed languages is used for "
+"creating the new dictionary. KMouth will only parse documentation files of "
+"this language."
+msgstr ""
+"यो कम्बो बाकसमा तपाईँले नयाँ शब्दकोश सिर्जना गर्नका लागि स्थापना गरिएको भाषा "
+"प्रयोग गर्नलाई कुनै चयन गर्न सक्नुहुन्छ । केडीई माउथले यो भाषाको मिसिलीकरण "
+"मात्र पद वर्णन गर्नेछ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:33
+#. i18n: ectx: property (title), widget (QGroupBox, selectedDictionaryDetails)
+#: rc.cpp:301
+msgid "&Selected Dictionary"
+msgstr "चयन गरिएको शब्दकोश"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:48
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: rc.cpp:304
+msgid ""
+"With this combo box you select the language associated with the selected "
+"dictionary."
+msgstr ""
+"यो कम्बो बाकसमा तपाईँले चयन गरिएका शब्दकोशसँग सम्बन्धित भाषा चयन गर्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:61
+#. i18n: ectx: property (whatsThis), widget (QLabel, dictionaryNameLabel)
+#. i18n: file: wordcompletion/wordcompletionui.ui:74
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, dictionaryName)
+#: rc.cpp:310 rc.cpp:316
+msgid ""
+"With this input field you specify the name of the selected dictionary."
+msgstr ""
+"यो आगत फिल्डमा तपाईँले चयन गरिएका शब्दकोशको नाम निर्दिष्ट गर्नुहोस् ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:64
+#. i18n: ectx: property (text), widget (QLabel, dictionaryNameLabel)
+#: rc.cpp:313
+msgid "&Name:"
+msgstr "नाम:"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:100
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addButton)
+#: rc.cpp:319
+msgid ""
+"With this button you can add a new dictionary to the list of available "
+"dictionaries."
+msgstr ""
+"यो बटनले तपाईँले उपलब्ध शब्दकोशको सूचीमा नयाँ शब्दकोश थप्न सक्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:103
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: rc.cpp:322
+msgid "Add D&ictionary..."
+msgstr "शब्दकोश थप्नुहोस्..."
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:121
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteButton)
+#: rc.cpp:325
+msgid "With this button you delete the selected dictionary."
+msgstr "यो बटनले तपाईँले चयन गरिएका शब्दकोश मट्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:124
+#. i18n: ectx: property (text), widget (KPushButton, deleteButton)
+#: rc.cpp:328
+msgid "&Delete Dictionary"
+msgstr "शब्दकोश मेट्नुहोस्"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:142
+#. i18n: ectx: property (whatsThis), widget (KPushButton, moveUpButton)
+#: rc.cpp:331
+msgid "With this button you move the selected dictionary up."
+msgstr "यो बटनले तपाईँले चयन गरिएका शब्दकोश माथि सार्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:145
+#. i18n: ectx: property (text), widget (KPushButton, moveUpButton)
+#: rc.cpp:334
+msgid "Move &Up"
+msgstr "माथि सार्नुहोस्"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:163
+#. i18n: ectx: property (whatsThis), widget (KPushButton, moveDownButton)
+#: rc.cpp:337
+msgid "With this button you move the selected dictionary down."
+msgstr "यो बटनले तपाईँले चयन गरिएका शब्दकोश तल सार्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:166
+#. i18n: ectx: property (text), widget (KPushButton, moveDownButton)
+#: rc.cpp:340
+msgid "&Move Down"
+msgstr "तल सार्नुहोस्"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:184
+#. i18n: ectx: property (whatsThis), widget (KPushButton, exportButton)
+#: rc.cpp:343
+msgid "With this button you export the selected dictionary to a file."
+msgstr "यो बटनले तपाईँले चयन गरिएको शब्दकोश फाइलमा निर्यात गर्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:187
+#. i18n: ectx: property (text), widget (KPushButton, exportButton)
+#: rc.cpp:346
+msgid "&Export Dictionary..."
+msgstr "शब्दकोश निर्यात गर्नुहोस्..."
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:212
+#. i18n: ectx: property (whatsThis), widget (K3ListView, dictionaryList)
+#: rc.cpp:349
+msgid ""
+"This list contains all available dictionaries for the word completion. "
+"KMouth will display a combo box next to the edit field in the main window if "
+"this list contains more than one dictionary. You can use this combo box in "
+"order to select the dictionary that actually gets used for the word "
+"completion."
+msgstr ""
+"यो सूचीले शब्द समाप्तिका लागि उपलब्ध सबै सूची समावेश गर्छ । यदि यो सूचिले एक "
+"भन्दा बढी शब्दकोश समावेश गरेमा केडीई माउथले सम्पादन फिल्डमा अर्को कम्बोबाकस "
+"प्रदर्शन गर्नेछ । तपाईँले यो कम्बोबाकसलाई शब्द समाप्तिका लागि प्रयोग गरिने "
+"प्राप्त शब्दकोश चयन गर्न प्रयोग गर्न सक्नुहुन्छ ।"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:219
+#. i18n: ectx: property (text), widget (K3ListView, dictionaryList)
+#: rc.cpp:352
+msgid "Dictionary"
+msgstr "शब्दकोश"
+
+#. i18n: file: wordcompletion/wordcompletionui.ui:224
+#. i18n: ectx: property (text), widget (K3ListView, dictionaryList)
+#: rc.cpp:355
+msgid "Language"
+msgstr "भाषा"
+
+#: kmouth.cpp:113
+msgid "&Open as History..."
+msgstr "इतिहासको रूपमा खोल्नुहोस्..."
+
+#: kmouth.cpp:116 kmouth.cpp:117
+msgid "Opens an existing file as history"
+msgstr "इतिहासको रूपमा अवस्थित फाइल खोल्छ"
+
+#: kmouth.cpp:121
+msgid "Save &History As..."
+msgstr "यस रूपमा इतिहास बचत गर्नुहोस्..."
+
+#: kmouth.cpp:124 kmouth.cpp:125
+msgid "Saves the actual history as..."
+msgstr "यस रूपमा वास्तविक इतिहास बचत गर्छ..."
+
+#: kmouth.cpp:129
+msgid "&Print History..."
+msgstr "मुद्रण इतिहास..."
+
+#: kmouth.cpp:132 kmouth.cpp:133
+msgid "Prints out the actual history"
+msgstr "वास्तविक इतिहास मुद्रण गर्छ"
+
+#: kmouth.cpp:136 kmouth.cpp:137
+msgid "Quits the application"
+msgstr "अनुप्रयोग नष्ट गर्छ"
+
+#: kmouth.cpp:141
+msgid "Cuts the selected section and puts it to the clipboard"
+msgstr "चयन गरिएको खण्ड काट्छ र यसलाई क्लिपबोर्डमा राख्छ"
+
+#: kmouth.cpp:142
+msgid ""
+"Cuts the selected section and puts it to the clipboard. If there is some "
+"text selected in the edit field it is placed it on the clipboard. Otherwise "
+"the selected sentences in the history (if any) are placed on the clipboard."
+msgstr ""
+"चयन गरिएको खण्ड काट्छ र यसलाई क्लिपबोर्डमा राख्दछ । यदि सम्पादन फिल्डमा केही "
+"पाठ चयन गरिएको छ भने यसलाई क्लिपबोर्ड माथि राखिन्छ । अन्यथा इतिहासमा चयन "
+"गरिएका (यदि भएमा) वाक्य क्लिपबोर्डमा राखिन्छ ।"
+
+#: kmouth.cpp:145
+msgid "Copies the selected section to the clipboard"
+msgstr "चयन गरिएको खण्ड क्लिपबोर्डमा प्रतिलिपि गर्छ"
+
+#: kmouth.cpp:146
+msgid ""
+"Copies the selected section to the clipboard. If there is some text selected "
+"in the edit field it is copied to the clipboard. Otherwise the selected "
+"sentences in the history (if any) are copied to the clipboard."
+msgstr ""
+"चयन गरिएका खण्ड क्लिपबोर्डमा प्रतिलिपि गर्छ । यदि सम्पादन फिल्डमा केही पाठ "
+"चयन गरिएको भएमा यसलाई क्लिपबोर्डमा प्रतिलिपि गर्नेछ । अन्यथा इतिहासमा (यदि "
+"भएमा) चयन गरिएका वाक्य क्लिपबोर्डमा प्रतिलिपि हुन्छन् ।"
+
+#: kmouth.cpp:150
+msgid ""
+"Pastes the clipboard contents at the current cursor position into the edit "
+"field."
+msgstr "क्लिपबोर्ड सामाग्री सम्पादन फिल्डको हालको कर्सर स्थितिमा टाँस्दछ ।"
+
+#: kmouth.cpp:154
+msgctxt "Start speaking"
+msgid "&Speak"
+msgstr ""
+
+#: kmouth.cpp:156
+msgid "Speaks the currently active sentence(s)"
+msgstr "हालै सक्रिय पारिएको वाक्य(हरू) बोल्दछ"
+
+#: kmouth.cpp:161
+msgid "&Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: kmouth.cpp:172
+msgid "Show P&hrasebook Bar"
+msgstr "वाक्यांश पुस्तकपट्टी देखाउनुहोस्"
+
+#: kmouth.cpp:174 kmouth.cpp:175
+msgid "Enables/disables the phrasebook bar"
+msgstr "वाक्यांश पुस्तकपट्टी सक्षम/अक्षम पार्छ"
+
+#: kmouth.cpp:178 kmouth.cpp:179
+msgid "Enables/disables the statusbar"
+msgstr "स्थितिपट्टी सक्षम/अक्षम पार्छ"
+
+#: kmouth.cpp:183
+msgid "&Configure KMouth..."
+msgstr "केडीई माउथ कन्फिगर गर्नुहोस्..."
+
+#: kmouth.cpp:185 kmouth.cpp:186
+msgid "Opens the configuration dialog"
+msgstr "कन्फिगरेसन संवाद खोल्छ"
+
+#: kmouth.cpp:195 kmouth.cpp:197
+msgid "Speaks the currently selected phrases in the history"
+msgstr "इतिहासमा हालै चयन गरिएका वाक्यांश बोल्दछ"
+
+#: kmouth.cpp:203 kmouth.cpp:204
+msgid "Deletes the currently selected phrases from the history"
+msgstr "इतिहासमा हालै चयन गरिएका वाक्यांश मेट्दछ"
+
+#: kmouth.cpp:208
+msgid "Cu&t"
+msgstr "काट्नुहोस्"
+
+#: kmouth.cpp:210 kmouth.cpp:211
+msgid ""
+"Cuts the currently selected phrases from the history and puts them to the "
+"clipboard"
+msgstr "इतिहासमा हालै चयन गरिएका वाक्यांश काट्छ र तीनलाई क्लिपबोर्डमा राख्छ"
+
+#: kmouth.cpp:215
+msgid "&Copy"
+msgstr ""
+
+#: kmouth.cpp:217 kmouth.cpp:218
+msgid ""
+"Copies the currently selected phrases from the history to the clipboard"
+msgstr "इतिहासमा हालै चयन गरिएका वाक्यांश क्लिपबोर्डमा प्रतिलिपि गर्छ"
+
+#: kmouth.cpp:221
+msgid "Select &All Entries"
+msgstr "सबै प्रविष्टि चयन गर्नुहोस्"
+
+#: kmouth.cpp:223 kmouth.cpp:224
+msgid "Selects all phrases in the history"
+msgstr "इतिहासका सबै वाक्यांश चयन गर्छ"
+
+#: kmouth.cpp:227
+msgid "D&eselect All Entries"
+msgstr "सबै प्रविष्टि चयनबाट हटाउनुहोस्"
+
+#: kmouth.cpp:229 kmouth.cpp:230
+msgid "Deselects all phrases in the history"
+msgstr "इतिहासका सबै वाक्यांश चयनबाट हटाउछ"
+
+#: kmouth.cpp:244 kmouth.cpp:262 kmouth.cpp:370 kmouth.cpp:378 kmouth.cpp:396
+#: kmouth.cpp:446 kmouth.cpp:463 kmouth.cpp:480 kmouth.cpp:497
+msgctxt "The job is done"
+msgid "Ready."
+msgstr ""
+
+#: kmouth.cpp:259 kmouth.cpp:366
+msgid "Opening file..."
+msgstr "फाइल खुल्दैछ..."
+
+#: kmouth.cpp:374
+msgid "Saving history with a new filename..."
+msgstr "इतिहास नयाँ फाइल नाममा बचत गर्दैछ..."
+
+#: kmouth.cpp:383
+msgid "Printing..."
+msgstr "मुद्रण गर्दैछ..."
+
+#: kmouth.cpp:401
+msgctxt "Shutting down the application"
+msgid "Exiting..."
+msgstr ""
+
+#: kmouth.cpp:439
+msgid "Toggling menubar..."
+msgstr "मेनुपट्टी टगल गर्दैछ..."
+
+#: kmouth.cpp:451
+msgid "Toggling toolbar..."
+msgstr "उपकरणपट्टी टगल गर्दैछ..."
+
+#: kmouth.cpp:468
+msgid "Toggling phrasebook bar..."
+msgstr "वाक्यांश पुस्तकपट्टी टगल गर्दैछ..."
+
+#: kmouth.cpp:485
+msgid "Toggle the statusbar..."
+msgstr "स्थितिपट्टी टगल गर्दैछ..."

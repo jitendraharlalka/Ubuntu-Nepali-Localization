@@ -1,0 +1,684 @@
+# translation of libplasma.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: libplasma\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 12:38+0000\n"
+"PO-Revision-Date: 2010-04-10 20:13+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:19+0000\n"
+
+#: applet.cpp:222
+msgid "Script initialization failed"
+msgstr ""
+
+#: applet.cpp:380
+msgid "Unable to load the widget"
+msgstr ""
+
+#: applet.cpp:618
+msgid "Ok"
+msgstr "ठीक छ"
+
+#: applet.cpp:621 applet.cpp:1057
+msgid "Yes"
+msgstr "हो"
+
+#: applet.cpp:624 applet.cpp:1064
+msgid "No"
+msgstr "होइन"
+
+#: applet.cpp:627 applet.cpp:1071
+msgid "Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+#: applet.cpp:777 applet.cpp:786
+#, kde-format
+msgid "%1 Activity"
+msgstr ""
+
+#: applet.cpp:781
+msgid "Unknown Activity"
+msgstr ""
+
+#: applet.cpp:789
+msgid "Unknown Widget"
+msgstr ""
+
+#: applet.cpp:826 applet.cpp:2150 applet.cpp:2151
+msgctxt "misc category"
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#: applet.cpp:999
+msgid "Configure..."
+msgstr "कन्फिगर गर्नुहोस्..."
+
+#: applet.cpp:1049
+msgid "OK"
+msgstr "ठीक छ"
+
+#: applet.cpp:1426
+#, kde-format
+msgid "Activate %1 Widget"
+msgstr ""
+
+#: applet.cpp:1588
+msgid "Widget Settings"
+msgstr ""
+
+#: applet.cpp:1595
+msgid "Remove this Widget"
+msgstr ""
+
+#: applet.cpp:1602
+msgid "Run the associated application"
+msgstr ""
+
+#: applet.cpp:1727
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: applet.cpp:1727
+#, kde-format
+msgid "%1 Settings"
+msgstr "%1 सेटिङ"
+
+#: applet.cpp:1756
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Settings"
+msgstr "%1 सेटिङ"
+
+#: applet.cpp:1764
+msgid "Accessibility"
+msgstr ""
+
+#: applet.cpp:1765
+msgid "Application Launchers"
+msgstr ""
+
+#: applet.cpp:1766
+msgid "Astronomy"
+msgstr "खगोल विद्या"
+
+#: applet.cpp:1767
+msgid "Date and Time"
+msgstr "मिति र समय"
+
+#: applet.cpp:1768
+msgid "Development Tools"
+msgstr ""
+
+#: applet.cpp:1769
+msgid "Education"
+msgstr "शिक्षा"
+
+#: applet.cpp:1770
+msgid "Environment and Weather"
+msgstr "वातावरण र हावापानी"
+
+#: applet.cpp:1771
+msgid "Examples"
+msgstr ""
+
+#: applet.cpp:1772
+msgid "File System"
+msgstr ""
+
+#: applet.cpp:1773
+msgid "Fun and Games"
+msgstr ""
+
+#: applet.cpp:1774
+msgid "Graphics"
+msgstr ""
+
+#: applet.cpp:1775
+msgid "Language"
+msgstr ""
+
+#: applet.cpp:1776
+msgid "Mapping"
+msgstr ""
+
+#: applet.cpp:1777
+msgid "Miscellaneous"
+msgstr ""
+
+#: applet.cpp:1778
+msgid "Multimedia"
+msgstr ""
+
+#: applet.cpp:1779
+msgid "Online Services"
+msgstr ""
+
+#: applet.cpp:1780
+msgid "System Information"
+msgstr ""
+
+#: applet.cpp:1781
+msgid "Utilities"
+msgstr ""
+
+#: applet.cpp:1782
+msgid "Windows and Tasks"
+msgstr ""
+
+#: applet.cpp:1825
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#: applet.cpp:1843 applet.cpp:1886 package.cpp:581
+#, kde-format
+msgctxt ""
+"%1 is the name of a plasmoid, %2 the name of the machine that plasmoid is "
+"published on"
+msgid "%1 on %2"
+msgstr ""
+
+#: applet.cpp:1852
+msgid "Share"
+msgstr ""
+
+#: applet.cpp:2587
+#, kde-format
+msgctxt "Package file, name of the widget"
+msgid "Could not locate the %1 package required for the %2 widget."
+msgstr ""
+
+#: applet.cpp:2607
+#, kde-format
+msgctxt ""
+"API or programming language the widget was written in, name of the widget"
+msgid "Could not create a %1 ScriptEngine for the %2 widget."
+msgstr ""
+
+#: applet.cpp:2612
+#, kde-format
+msgctxt "Package file, name of the widget"
+msgid "Could not open the %1 package required for the %2 widget."
+msgstr ""
+
+#: applet.cpp:2633 containment.cpp:172
+#, kde-format
+msgctxt "%1 is the name of the applet"
+msgid "Remove this %1"
+msgstr ""
+
+#: applet.cpp:2638 containment.cpp:177
+#, kde-format
+msgctxt "%1 is the name of the applet"
+msgid "%1 Settings"
+msgstr ""
+
+#: applet.cpp:2789
+msgid "This object could not be created."
+msgstr "यो वस्तु सिर्जना गर्न सक्ने छैन ।"
+
+#: applet.cpp:2791
+#, kde-format
+msgid ""
+"This object could not be created for the following reason:<p><b>%1</b></p>"
+msgstr ""
+
+#: containment.cpp:284
+msgid "Remove this panel"
+msgstr ""
+
+#: containment.cpp:286
+msgid "Remove this activity"
+msgstr ""
+
+#: containment.cpp:292
+msgid "Activity Settings"
+msgstr ""
+
+#: containment.cpp:298
+msgid "Add Widgets..."
+msgstr ""
+
+#: containment.cpp:304
+msgid "Next Widget"
+msgstr ""
+
+#: containment.cpp:310
+msgid "Previous Widget"
+msgstr ""
+
+#: containment.cpp:317
+msgid "Zoom In"
+msgstr ""
+
+#: containment.cpp:660
+msgid "This menu needs to be configured"
+msgstr ""
+
+#: containment.cpp:703
+#, kde-format
+msgctxt "%1 is the name of the containment"
+msgid "%1 Options"
+msgstr ""
+
+#: containment.cpp:1333
+msgid "Fetching file type..."
+msgstr ""
+
+#: containment.cpp:1514
+msgid "Widgets"
+msgstr ""
+
+#: containment.cpp:1527
+msgid "Icon"
+msgstr ""
+
+#: containment.cpp:1531
+msgid "Wallpaper"
+msgstr ""
+
+#: containment.cpp:2087
+#, kde-format
+msgctxt "%1 is the name of the containment"
+msgid "Do you really want to remove this %1?"
+msgstr ""
+
+#: containment.cpp:2088
+#, kde-format
+msgctxt "@title:window %1 is the name of the containment"
+msgid "Remove %1"
+msgstr ""
+
+#: containment.cpp:2278
+#, kde-format
+msgid "Could not find requested component: %1"
+msgstr ""
+
+#: containment.cpp:2509
+msgid "This plugin needs to be configured"
+msgstr ""
+
+#: containmentactions.cpp:142
+msgid "Unknown ContainmentActions"
+msgstr ""
+
+#: corona.cpp:92 corona.cpp:735
+msgid "Lock Widgets"
+msgstr ""
+
+#: corona.cpp:103
+msgid "Shortcut Settings"
+msgstr ""
+
+#: corona.cpp:735
+msgid "Unlock Widgets"
+msgstr ""
+
+#: dataengine.cpp:508 dataengine.cpp:514
+msgid "Unnamed"
+msgstr ""
+
+#: glapplet.cpp:76 glapplet.cpp:87
+msgid "This system does not support OpenGL widgets."
+msgstr ""
+
+#: glapplet.cpp:184
+msgid "Your machine does not support OpenGL widgets."
+msgstr ""
+
+#. i18n: file: private/pinpairing.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid ""
+"Enter a password below. Enter the same password on the device to which you "
+"are trying to connect."
+msgstr ""
+
+#. i18n: file: private/pinpairing.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, allServicesCheckbox)
+#: rc.cpp:6
+msgid "Allow this user access to any service"
+msgstr ""
+
+#. i18n: file: private/pinpairing.ui:71
+#. i18n: ectx: property (text), widget (QCheckBox, persistentCheckbox)
+#: rc.cpp:9
+msgid "Remember this user"
+msgstr ""
+
+#. i18n: file: private/publish.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid ""
+"Sharing a widget on the network allows you to access this widget from "
+"another computer as a remote control."
+msgstr ""
+
+#. i18n: file: private/publish.ui:27
+#. i18n: ectx: property (text), widget (QCheckBox, publishCheckbox)
+#: rc.cpp:15
+msgid "Share this widget on the network"
+msgstr ""
+
+#. i18n: file: private/publish.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, allUsersCheckbox)
+#: rc.cpp:18
+msgid "Allow everybody to freely access this widget"
+msgstr ""
+
+#: runnersyntax.cpp:103
+msgid "search term"
+msgstr ""
+
+#: wallpaper.cpp:184
+msgid "Unknown Wallpaper"
+msgstr ""
+
+#: packagestructure.h:85
+msgctxt "A non-functional package"
+msgid "Invalid"
+msgstr ""
+
+#: private/joliemessagehelper_p.h:57
+msgctxt "Error message, access to a remote service failed."
+msgid "Invalid token."
+msgstr ""
+
+#: private/joliemessagehelper_p.h:60
+msgctxt "Error message, access to a remote service failed."
+msgid "Matching password required."
+msgstr ""
+
+#: private/joliemessagehelper_p.h:63
+msgctxt "Error message, access to a remote service failed."
+msgid "Access denied."
+msgstr ""
+
+#: private/joliemessagehelper_p.h:65
+msgid "Unknown error."
+msgstr ""
+
+#: private/service_p.h:56
+msgctxt "Error message, tried to start an invalid service"
+msgid "Invalid (null) service, can not perform any operations."
+msgstr ""
+
+#: extenders/extendergroup.cpp:50
+msgid "Show this group."
+msgstr ""
+
+#: extenders/extendergroup.cpp:56
+msgid "Hide this group."
+msgstr ""
+
+#: extenders/extenderitem.cpp:990
+msgid "Expand this widget"
+msgstr ""
+
+#: extenders/extenderitem.cpp:1011
+msgid "Collapse this widget"
+msgstr ""
+
+#: private/associatedapplicationmanager.cpp:115
+msgid ""
+"There was an error attempting to exec the associated application with this "
+"widget."
+msgstr ""
+
+#: private/desktoptoolbox.cpp:256
+msgid "Tool Box"
+msgstr ""
+
+#: private/desktoptoolbox.cpp:257
+#, kde-format
+msgid ""
+"Click to access configuration options and controls, or to add more widgets "
+"to the %1."
+msgstr ""
+
+#: private/packages.cpp:42 private/packages.cpp:168
+msgid "Images"
+msgstr "छवि"
+
+#: private/packages.cpp:47 tests/packagestructuretest.cpp:99
+#: tests/packagestructuretest.cpp:123
+msgid "Configuration Definitions"
+msgstr "कन्फिगरेसन परिभाषा"
+
+#: private/packages.cpp:53
+msgid "User Interface"
+msgstr ""
+
+#: private/packages.cpp:56
+msgid "Executable Scripts"
+msgstr "कार्यान्वयनयोग्य स्क्रिप्ट"
+
+#: private/packages.cpp:61
+msgid "Translations"
+msgstr ""
+
+#: private/packages.cpp:63
+msgid "Main Config UI File"
+msgstr "मुख्य कन्फिगरेसन UI फाइल"
+
+#: private/packages.cpp:64
+msgid "Configuration XML file"
+msgstr "कन्फिगरेसन XML फाइल"
+
+#: private/packages.cpp:65 private/packages.cpp:81
+#: tests/packagestructuretest.cpp:100 tests/packagestructuretest.cpp:124
+msgid "Main Script File"
+msgstr "मुख्य स्क्रिप्ट फाइल"
+
+#: private/packages.cpp:66
+msgid "Default configuration"
+msgstr ""
+
+#: private/packages.cpp:101
+msgid "Images for dialogs"
+msgstr ""
+
+#: private/packages.cpp:103
+msgid "Generic dialog background"
+msgstr "जेनेरिक संवाद पृष्ठभूमि"
+
+#: private/packages.cpp:105
+msgid "Theme for the logout dialog"
+msgstr ""
+
+#: private/packages.cpp:107
+msgid "Wallpaper packages"
+msgstr ""
+
+#: private/packages.cpp:109 private/packages.cpp:140
+msgid "Images for widgets"
+msgstr ""
+
+#: private/packages.cpp:111
+msgid "Background image for widgets"
+msgstr ""
+
+#: private/packages.cpp:113
+msgid "Analog clock face"
+msgstr "एनालग घडी देखावट"
+
+#: private/packages.cpp:115
+msgid "Background image for panels"
+msgstr ""
+
+#: private/packages.cpp:117
+msgid "Background for graphing widgets"
+msgstr "ग्राफिङ विजेटका लागि पृष्ठभूमि"
+
+#: private/packages.cpp:119
+msgid "Background image for tooltips"
+msgstr ""
+
+#: private/packages.cpp:121
+msgid "Opaque images for dialogs"
+msgstr ""
+
+#: private/packages.cpp:123
+msgid "Opaque generic dialog background"
+msgstr ""
+
+#: private/packages.cpp:125
+msgid "Opaque theme for the logout dialog"
+msgstr ""
+
+#: private/packages.cpp:127
+msgid "Opaque images for widgets"
+msgstr ""
+
+#: private/packages.cpp:129
+msgid "Opaque background image for panels"
+msgstr ""
+
+#: private/packages.cpp:131
+msgid "Opaque background image for tooltips"
+msgstr ""
+
+#: private/packages.cpp:134
+msgid "Low color images for dialogs"
+msgstr ""
+
+#: private/packages.cpp:136
+msgid "Low color generic dialog background"
+msgstr ""
+
+#: private/packages.cpp:138
+msgid "Low color theme for the logout dialog"
+msgstr ""
+
+#: private/packages.cpp:142
+msgid "Low color background image for widgets"
+msgstr ""
+
+#: private/packages.cpp:144
+msgid "Low color analog clock face"
+msgstr ""
+
+#: private/packages.cpp:146
+msgid "Low color background image for panels"
+msgstr ""
+
+#: private/packages.cpp:148
+msgid "Low color background for graphing widgets"
+msgstr ""
+
+#: private/packages.cpp:150
+msgid "Low color background image for tooltips"
+msgstr ""
+
+#: private/packages.cpp:152
+msgid "KColorScheme configuration file"
+msgstr ""
+
+#: private/packages.cpp:170
+msgid "Screenshot"
+msgstr ""
+
+#: private/packages.cpp:204 private/packages.cpp:259
+msgid "Recommended wallpaper file"
+msgstr ""
+
+#: private/paneltoolbox.cpp:251
+msgid "Panel Tool Box"
+msgstr ""
+
+#: private/paneltoolbox.cpp:252
+msgid ""
+"Click to access size, location and hiding controls as well as to add new "
+"widgets to the panel."
+msgstr ""
+
+#: private/pinpairingdialog.cpp:44
+msgid "Incoming connection request"
+msgstr ""
+
+#: private/pinpairingdialog.cpp:49
+msgid "Connect with remote widget"
+msgstr ""
+
+#: private/remoteservicejob.cpp:119
+msgid "Job no longer valid, operation is not enabled."
+msgstr ""
+
+#: private/remoteservicejob.cpp:129
+msgid "Job no longer valid, invalid parameters."
+msgstr ""
+
+#: private/remoteservicejob.cpp:172
+msgid "Timeout."
+msgstr ""
+
+#: remote/accessappletjob.cpp:80
+#, kde-format
+msgid "The \"%1\" widget is not installed."
+msgstr ""
+
+#: remote/accessappletjob.cpp:94
+msgid "Server sent an invalid plasmoid package."
+msgstr ""
+
+#: remote/accessappletjob.cpp:124
+msgid "Timeout"
+msgstr ""
+
+#: remote/accessappletjob.cpp:160
+msgid ""
+"Your system does not provide support for the 'remote widgets' feature. "
+"Access Failed."
+msgstr ""
+
+#: remote/authorizationrule.cpp:98
+#, kde-format
+msgid "Allow everybody access to %1."
+msgstr ""
+
+#: remote/authorizationrule.cpp:100
+#, kde-format
+msgid "Deny everybody access to %1"
+msgstr ""
+
+#: remote/authorizationrule.cpp:102
+#, kde-format
+msgid "Allow %1 access to all services."
+msgstr ""
+
+#: remote/authorizationrule.cpp:104
+#, kde-format
+msgid "Deny %1 access to all services."
+msgstr ""
+
+#: remote/authorizationrule.cpp:106
+#, kde-format
+msgid "Allow access to %1, by %2."
+msgstr ""
+
+#: remote/authorizationrule.cpp:108
+#, kde-format
+msgid "Deny access to %1, by %2."
+msgstr ""
+
+#: remote/authorizationrule.cpp:110
+#, kde-format
+msgid "Allow access to %1, by %2?"
+msgstr ""
+
+#: remote/clientpinrequest.cpp:57
+#, kde-format
+msgid "You have requested access to the %1 hosted at %2."
+msgstr ""

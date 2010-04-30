@@ -1,0 +1,117 @@
+# translation of kio_floppy.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Ishwor sharma <sharmabeeshwar@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_floppy\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-16 21:53+0000\n"
+"PO-Revision-Date: 2008-10-07 15:48+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:02+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kio_floppy.cpp:198
+#, kde-format
+msgid ""
+"Could not access drive %1.\n"
+"The drive is still busy.\n"
+"Wait until it is inactive and then try again."
+msgstr ""
+"%1 ड्राइभ पहुँच गर्न सकिंदैन ।\n"
+"ड्राइभ अहिले व्यस्त छ ।\n"
+"निस्क्रिय रहेसम्म प्रतिक्षा गर्नुहोस् र त्यसपछि पुन: प्रयास गर्नुहोस् ।"
+
+#: kio_floppy.cpp:202 kio_floppy.cpp:1114
+#, kde-format
+msgid ""
+"Could not write to file %1.\n"
+"The disk in drive %2 is probably full."
+msgstr ""
+"%1 फाइलमा लेख्न सकिंदैन।\n"
+"%2 ड्राइभमा डिस्क सम्भवत: भरि छ ।"
+
+#: kio_floppy.cpp:212
+#, kde-format
+msgid ""
+"Could not access %1.\n"
+"There is probably no disk in the drive %2"
+msgstr ""
+"%1 पहुँच गर्न सकिंदैन।\n"
+"त्यहाँ सम्भवत: %2 ड्राइभमा डिस्क छैन"
+
+#: kio_floppy.cpp:216
+#, kde-format
+msgid ""
+"Could not access %1.\n"
+"There is probably no disk in the drive %2 or you do not have enough "
+"permissions to access the drive."
+msgstr ""
+"%1 पहुँच गर्न सकिंदैन।\n"
+"त्यहाँ सम्भवत: %2 ड्राइभमा डिस्क छैन वा तपाईँसँग ड्राइभलाई पहुँच गर्ने पूर्ण "
+"अनुमति छैन ।"
+
+#: kio_floppy.cpp:220
+#, kde-format
+msgid ""
+"Could not access %1.\n"
+"The drive %2 is not supported."
+msgstr ""
+"%1 पहुँच गर्न सकिंदैन ।\n"
+"%2 ड्राइभ समर्थित छैन ।"
+
+#: kio_floppy.cpp:225
+#, kde-format
+msgid ""
+"Could not access %1.\n"
+"Make sure the floppy in drive %2 is a DOS-formatted floppy disk \n"
+"and that the permissions of the device file (e.g. /dev/fd0) are set "
+"correctly (e.g. rwxrwxrwx)."
+msgstr ""
+"%1 पहुँच गर्न सकेन ।\n"
+"ड्राइभ %2 को फ्लपि DOS- ढाँचाको फ्लपि डिस्क भएको र\n"
+"र त्यो यन्त्र फाइलको (उदाहरणका लागि /dev/fd0) अनुमति ठीकसँग सेट (उदाहरणको "
+"लागि rwxrwxrwx) छन् भन्नेमा यकीन गर्नुहोस् ।"
+
+#: kio_floppy.cpp:229
+#, kde-format
+msgid ""
+"Could not access %1.\n"
+"The disk in drive %2 is probably not a DOS-formatted floppy disk."
+msgstr ""
+"%1 पहुँच गर्न सकेन ।\n"
+"संभवत: ड्राइभ %2 मा DOS-ढाँचाको फ्लपी डिस्क छैन ।"
+
+#: kio_floppy.cpp:233
+#, kde-format
+msgid ""
+"Access denied.\n"
+"Could not write to %1.\n"
+"The disk in drive %2 is probably write-protected."
+msgstr ""
+"पहुँच अस्वीकार गर्यो ।\n"
+"%1 मा लेख्न सकिदैन ।\n"
+"ड्राइभ %2 मा डिस्क संभवत: लेख्न सुरक्षित छ ।"
+
+#: kio_floppy.cpp:242
+#, kde-format
+msgid ""
+"Could not read boot sector for %1.\n"
+"There is probably not any disk in drive %2."
+msgstr ""
+"%1 का लागि बुट सेक्टर पढ्न सकिंदैन ।\n"
+"संभवत: ड्राइभ %2 मा कुनै डिस्क छैन ।"
+
+#: kio_floppy.cpp:365
+#, kde-format
+msgid ""
+"Could not start program \"%1\".\n"
+"Ensure that the mtools package is installed correctly on your system."
+msgstr ""
+"\"%1\" कार्यक्रम सुरु गर्न सकिंदैन ।\n"
+"तपाईँको प्रणालीमा एम टुल प्याकेज स्थापना गरेकोमा यकीन गर्नुहोस् ।"

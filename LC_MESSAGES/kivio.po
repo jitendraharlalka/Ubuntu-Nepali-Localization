@@ -1,0 +1,2575 @@
+# translation of kivio.po to Nepali
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kivio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 08:47+0000\n"
+"PO-Revision-Date: 2010-04-25 16:20+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:01+0000\n"
+
+#: rc.cpp:3
+msgid "Kivio::StencilTextEditor"
+msgstr "Kivio::स्टेन्सिल पाठ सम्पादक"
+
+#: rc.cpp:7
+msgid "Bold"
+msgstr "बाक्लो"
+
+#: rc.cpp:10
+msgid "6"
+msgstr "६"
+
+#: rc.cpp:13
+msgid "7"
+msgstr "७"
+
+#: rc.cpp:16
+msgid "8"
+msgstr "८"
+
+#: rc.cpp:19
+msgid "9"
+msgstr "९"
+
+#: rc.cpp:22
+msgid "10"
+msgstr "१०"
+
+#: rc.cpp:25
+msgid "11"
+msgstr "११"
+
+#: rc.cpp:28
+msgid "12"
+msgstr "१२"
+
+#: rc.cpp:31
+msgid "14"
+msgstr "१४"
+
+#: rc.cpp:34
+msgid "16"
+msgstr "१६"
+
+#: rc.cpp:37
+msgid "18"
+msgstr "१८"
+
+#: rc.cpp:40
+msgid "20"
+msgstr "२०"
+
+#: rc.cpp:43
+msgid "22"
+msgstr "२२"
+
+#: rc.cpp:46
+msgid "24"
+msgstr "२४"
+
+#: rc.cpp:49
+msgid "26"
+msgstr "२६"
+
+#: rc.cpp:52
+msgid "28"
+msgstr "२८"
+
+#: rc.cpp:55
+msgid "36"
+msgstr "३६"
+
+#: rc.cpp:58
+msgid "48"
+msgstr "४८"
+
+#: rc.cpp:61
+msgid "72"
+msgstr "७२"
+
+#: rc.cpp:65
+msgid "Italics"
+msgstr "छड्के"
+
+#: rc.cpp:69
+msgid "Underline"
+msgstr "अधोरेखा"
+
+#: rc.cpp:74
+msgid "Horizontal Alignment"
+msgstr "तेर्सो पङ्क्तिबद्धता"
+
+#: rc.cpp:78
+msgid "Vertical Alignment"
+msgstr "ठाडो पङ्क्तिबद्धता"
+
+#: rc.cpp:81
+msgid "&Zoom Tool"
+msgstr "जुम उपकरण"
+
+#: rc.cpp:84
+msgid "Zoom Tool"
+msgstr "उपकरण जुम गर्नुहोस्"
+
+#: rc.cpp:105
+msgid "P&age"
+msgstr "पृष्ठ"
+
+#: rc.cpp:108
+msgid "F&ormat"
+msgstr "ढाँचा"
+
+#: rc.cpp:120
+msgid "Tools"
+msgstr "उपकरण"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:35 rc.cpp:123
+msgid "Text Format"
+msgstr "पाठ ढाँचा"
+
+#: rc.cpp:126
+msgid "Format"
+msgstr "ढाँचाबद्ध गर्नुहोस्"
+
+#: rc.cpp:132
+msgid "&Selected stencils"
+msgstr "चयन गरिएका स्टेन्सिल"
+
+#: rc.cpp:135
+msgid "Export the selected stencils on the current page"
+msgstr "हालको पृष्ठमा चयन गरिएका स्टेन्सिल निर्यात गर्नुहोस्"
+
+#: rc.cpp:138
+msgid ""
+"<b>Selected Stencils</b><br>\n"
+"Export only the selected stencils to file."
+msgstr ""
+"<b>चयन गरिएका स्टेन्सिल</b><br>\n"
+"फाइलमा चयन गरिएका स्टेन्सिल मात्र निर्यात गर्नुहोस् ।"
+
+#: rc.cpp:142
+msgid "&All stencils"
+msgstr "सबै स्टेन्सिल"
+
+#: rc.cpp:145
+msgid "Export all stencils on the current page"
+msgstr "हालको पृष्ठमा सबै स्टेन्सिल निर्यात गर्नुहोस्"
+
+#: rc.cpp:148
+msgid ""
+"<b>All Stencils</b><br>\n"
+"This will cause the entire page to be exported to the file. This means that "
+"<i>all</i> stencils will be exported."
+msgstr ""
+"<b>सबै स्टेन्सिल</b><br>\n"
+"यसले फाइलमा सम्पूर्ण पृष्ठ निर्यात गर्नेछ । यसको मतलब<i>सबै</i> स्टेन्सिल "
+"निर्यात गरिनेछ ।"
+
+#: rc.cpp:152
+msgid "C&rop picture to edges"
+msgstr "किनारामा तस्विर काँटछाँट गर्नुहोस्"
+
+#: rc.cpp:155
+msgid "Don't export extra blank space to file"
+msgstr "फाइलमा अतिरिक्त खाली स्थान निर्यात नगर्नुहोस्"
+
+#: rc.cpp:158
+msgid ""
+"<b>Crop picture to edges</b><br>\n"
+"This will eliminate all blank portions of the drawing. The picture will only "
+"be as large as the stencils it contains. If your stencils are located in the "
+"upper right corner of the page, then only the upper right corner will be "
+"exported."
+msgstr ""
+"<b>किनारामा तस्विर काँटछाँट गर्नुहोस्</b><br>\n"
+"यसले रेखाचित्रका सबै खाली भाग हटाउनेछ । तस्विर यसले समाविष्ट गरेको भन्दा "
+"स्टेन्सिलको रूपमा ठूलो हुनेछ । यदि तपाईँको स्टेन्सिल पृष्ठको दायाँ कुना माथि "
+"अवस्थित छ भने, माथिल्लो दायाँ कुना मात्र निर्यात गरिनेछ ।"
+
+#: rc.cpp:162
+msgid "&Quality:"
+msgstr "गुणस्तर:"
+
+#: rc.cpp:165
+msgid "The higher the quality, the more space the file takes up."
+msgstr "अधिक्तम गुणस्तरले, फाइलको धेरै खाली स्थान लिन्छ ।"
+
+#: rc.cpp:168
+msgid ""
+"<b>Quality</b><br>\n"
+"Not all file formats use this. But for those that do, this affects the "
+"quality of the image that gets exported. 100 is the maximum quality. The "
+"higher the number, the better the picture looks. The downside is the higher "
+"the number, the larger the filesize."
+msgstr ""
+"<b>गुणस्तर</b><br>\n"
+"यसले सबै फाइल ढाँचा प्रयोग गर्दैन । तर त्यसका लागि, यसले निर्यात गरिने छविको "
+"गुणस्तरलाई प्रभाव पार्न सक्छ । अधिक्तम सङ्ख्याले, उत्तम तस्विर देखाउँछ । "
+"तलतिर चाहिँ अधिक्तम सङ्ख्या, अधिक्तम फाइलसाइज छ ।"
+
+#: rc.cpp:172
+msgid "An optional border of whitespace around the page, in pixels"
+msgstr "पिक्सेलमा, पृष्ठको वरिपरि सेतो खाली स्थानको एउटा वैकल्पिक किनारा"
+
+#: rc.cpp:175
+msgid ""
+"<b>Border</b><br>\n"
+"Places a blank border around the edges of the image. This can be used if for "
+"one reason or another, the stencils don't fit into the export page with a 0-"
+"pixel border (default)."
+msgstr ""
+"<b>किनारा</b><br>\n"
+"छविको किनारा वरिपरि खाली किनारा राख्दछ । यदि एउटा वा अन्य कारण भए यो प्रयोग "
+"गर्न सकिन्छ, स्टेन्सिल (पूर्वानिर्धारित) ०-पिक्सेल किनारासँग निर्यात पृष्ठमा "
+"ठीक हुँदैन ।"
+
+#: rc.cpp:179
+msgid "&Border:"
+msgstr "किनारा:"
+
+#: rc.cpp:184
+#, no-c-format
+msgid "Zoom In 25%"
+msgstr "२५% जुम बढाउनुहोस्"
+
+#: rc.cpp:189
+#, no-c-format
+msgid "Zoom Out 25%"
+msgstr "२५% जुम घटाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:368 rc.cpp:195
+msgid "Protection"
+msgstr "सुरक्षा"
+
+#: rc.cpp:201
+msgid "Toggles the ability to change the width of the selected stencils"
+msgstr "चयन गरिएका स्टेन्सिलहरूको चौडा परिवर्तन गर्न सक्षमता टगल गर्दछ"
+
+#: rc.cpp:204
+msgid "Hei&ght"
+msgstr "उचाइ"
+
+#: rc.cpp:207
+msgid "Toggles the ability to change the height of the selected stencils"
+msgstr "चयन गरिएका स्टेन्सिलका उचाइ परिवर्तन गर्न सक्षमता टगल गर्दछ"
+
+#: rc.cpp:210
+msgid "&Aspect ratio"
+msgstr "आकृति अनुपात"
+
+#: rc.cpp:213
+msgid ""
+"Toggles the ability to change the aspect ratio of the selected stencils"
+msgstr "चयन गरिएका स्टेन्सिलका आकृति अनुपात परिवर्तन गर्न सक्षमता टगल गर्दछ"
+
+#: rc.cpp:216
+msgid "&X position"
+msgstr "एक्स स्थिति"
+
+#: rc.cpp:219
+msgid ""
+"Toggles the ability to protect the x position of the selected stencils"
+msgstr "चयन गरिएका स्टेन्सिलका एक्स स्थिति सुरक्षित गर्न सक्षमता टगल गर्दछ"
+
+#: rc.cpp:222
+msgid "&Y position"
+msgstr "वाइ स्थिति"
+
+#: rc.cpp:225
+msgid ""
+"Toggles the ability to protect the y position of the selected stencils"
+msgstr "चयन गरिएका स्टेन्सिलका वाइ स्थिति सुरक्षित गर्न सक्षमता टगल गर्दछ"
+
+#: rc.cpp:228
+msgid "Deletio&n"
+msgstr "मेटाइ"
+
+#: rc.cpp:231
+msgid "Toggles the ability to delete the selected stencils"
+msgstr "चयन गरिएका स्टेन्सिल मेट्न सक्षमता टगल गर्दछ"
+
+#: rc.cpp:234
+msgid "&Align"
+msgstr "पङ्क्तिबद्ध गर्नुहोस्"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:65 rc.cpp:240 rc.cpp:301
+msgid "&Left"
+msgstr "बायाँ"
+
+#: rc.cpp:243 rc.cpp:310
+msgid "Ce&nter"
+msgstr "केन्द्र"
+
+#: rc.cpp:246 rc.cpp:313
+msgid "N&one"
+msgstr "कुनै पनि होइन"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:67 rc.cpp:249 rc.cpp:307
+msgid "&Right"
+msgstr "दायाँ"
+
+#: rc.cpp:252
+msgid "Center of &page"
+msgstr "पृष्ठको केन्द्र"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:60 rc.cpp:258 rc.cpp:283
+msgid "&Top"
+msgstr "माथि"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:66 rc.cpp:261 rc.cpp:286
+msgid "C&enter"
+msgstr "केन्द्र"
+
+#: rc.cpp:264 rc.cpp:289
+msgid "&None"
+msgstr "कुनै पनि होइन"
+
+#: rc.cpp:270
+msgid "&Distribute"
+msgstr "वितरण गर्नुहोस्"
+
+#: rc.cpp:274
+msgid "E&xtent of selection"
+msgstr "चयनको विस्तार"
+
+#: rc.cpp:277
+msgid "Extent of pa&ge"
+msgstr "पृष्ठको विस्तार"
+
+#: rc.cpp:292
+msgid "&Spacing"
+msgstr "खाली स्थान"
+
+#: rc.cpp:304
+msgid "S&pacing"
+msgstr "खाली स्थान"
+
+#: rc.cpp:316 rc.cpp:319
+msgid "Stencil Set"
+msgstr "स्टेन्सिल सेट"
+
+#: rc.cpp:322
+msgid "No Selection"
+msgstr "कुनै चयन छैन"
+
+#: rc.cpp:325
+msgid "This is a preview of the stencils contained in the set"
+msgstr "यो सेटमा समाविष्ट भएको स्टेन्सिलको पूर्वावलोकन हो"
+
+#: rc.cpp:328
+msgid "&Add to Document"
+msgstr "कागजातमा थप्नुहोस्"
+
+#: rc.cpp:329 rc.cpp:330
+msgid ""
+"_: Stencils\n"
+"Text"
+msgstr "पाठ"
+
+#: rc.cpp:331 rc.cpp:362
+msgid ""
+"_: Stencils\n"
+"Process"
+msgstr "प्रक्रिया"
+
+#: rc.cpp:332
+msgid ""
+"_: Stencils\n"
+"Process shape"
+msgstr "प्रक्रिया आकार"
+
+#: rc.cpp:333
+msgid ""
+"_: Stencils\n"
+"Flowcharting Shapes"
+msgstr "प्रवाहचित्रपट आकार"
+
+#: rc.cpp:334
+msgid ""
+"_: Stencils\n"
+"Source or Sink"
+msgstr "स्रोत वा सिंक"
+
+#: rc.cpp:335
+msgid ""
+"_: Stencils\n"
+"Source or Sink shape"
+msgstr "स्रोत वा सिंक आकार"
+
+#: rc.cpp:336
+msgid ""
+"_: Stencils\n"
+"Data Store"
+msgstr "डेटा भण्डारण"
+
+#: rc.cpp:337
+msgid ""
+"_: Stencils\n"
+"Data Store shape"
+msgstr "डेटा भण्डारण आकार"
+
+#: rc.cpp:338
+msgid ""
+"_: Stencils\n"
+"Database"
+msgstr "डाटाबेस"
+
+#: rc.cpp:339
+msgid ""
+"_: Stencils\n"
+"Database shape"
+msgstr "डाटाबेस आकार"
+
+#: rc.cpp:340
+msgid ""
+"_: Stencils\n"
+"Connector"
+msgstr "योजक"
+
+#: rc.cpp:341
+msgid ""
+"_: Stencils\n"
+"Logical Connection Point"
+msgstr "लोजिकल जडान बिन्दु"
+
+#: rc.cpp:342
+msgid ""
+"_: Stencils\n"
+"Inverter"
+msgstr "अंर्तवर्तक"
+
+#: rc.cpp:343
+msgid ""
+"_: Stencils\n"
+"Logical Inverter Gate"
+msgstr "लोजिकल अंर्तवर्तक द्वार"
+
+#: rc.cpp:344
+msgid ""
+"_: Stencils\n"
+"Not"
+msgstr "नट"
+
+#: rc.cpp:345
+msgid ""
+"_: Stencils\n"
+"Logical Not Gate"
+msgstr "लोजिकल नट द्वार"
+
+#: rc.cpp:346
+msgid ""
+"_: Stencils\n"
+"Xor"
+msgstr "Xor"
+
+#: rc.cpp:347
+msgid ""
+"_: Stencils\n"
+"Logical Xor Gate"
+msgstr "लोजिकल Xor द्वार"
+
+#: rc.cpp:348
+msgid ""
+"_: Stencils\n"
+"And"
+msgstr "र"
+
+#: rc.cpp:349
+msgid ""
+"_: Stencils\n"
+"Logical And Gate"
+msgstr "लोजिकल र द्वार"
+
+#: rc.cpp:350
+msgid ""
+"_: Stencils\n"
+"Nand"
+msgstr "नान्ड"
+
+#: rc.cpp:351
+msgid ""
+"_: Stencils\n"
+"Logical Nand Gate"
+msgstr "लोजिकल नान्ड द्वार"
+
+#: rc.cpp:352
+msgid ""
+"_: Stencils\n"
+"Or"
+msgstr "वा"
+
+#: rc.cpp:353
+msgid ""
+"_: Stencils\n"
+"Logical Or Gate"
+msgstr "लोजिकल वा द्वार"
+
+#: rc.cpp:354
+msgid ""
+"_: Stencils\n"
+"Logic Shapes"
+msgstr "लोजिक आकार"
+
+#: rc.cpp:355
+msgid ""
+"_: Stencils\n"
+"Buffer"
+msgstr "बफर"
+
+#: rc.cpp:356
+msgid ""
+"_: Stencils\n"
+"Logical Buffer Gate"
+msgstr "लोजिकल बफर द्वार"
+
+#: rc.cpp:357
+msgid ""
+"_: Stencils\n"
+"Nor"
+msgstr "या"
+
+#: rc.cpp:358
+msgid ""
+"_: Stencils\n"
+"Logical Nor Gate"
+msgstr "लोजिकल या द्वार"
+
+#: rc.cpp:359
+msgid ""
+"_: Stencils\n"
+"Flowcharting Collections"
+msgstr "प्रभाह चित्रपट सङ्कलन"
+
+#: rc.cpp:360
+msgid ""
+"_: Stencils\n"
+"Data"
+msgstr "डेटा"
+
+#: rc.cpp:361
+msgid ""
+"_: Stencils\n"
+"Data shape for flowcharting"
+msgstr "प्रवाहचित्रपटका लागि डेटा आकार"
+
+#: rc.cpp:363
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting process shape"
+msgstr "आधारभूत प्रवाहचित्रपट प्रक्रिया आकार"
+
+#: rc.cpp:364
+msgid ""
+"_: Stencils\n"
+"Document"
+msgstr "कागजात"
+
+#: rc.cpp:365
+msgid ""
+"_: Stencils\n"
+"Flowcharting Document Stencil"
+msgstr "प्रवाहचित्रपट कागजात स्टेन्सिल"
+
+#: rc.cpp:366
+msgid ""
+"_: Stencils\n"
+"Loop Limit"
+msgstr "लूप सीमा"
+
+#: rc.cpp:367
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting loop limit shape"
+msgstr "आधारभूत प्रभाहचित्रपट लूप सीमा आकार"
+
+#: rc.cpp:368
+msgid ""
+"_: Stencils\n"
+"Paper Tape"
+msgstr "कागज फिता"
+
+#: rc.cpp:369
+msgid ""
+"_: Stencils\n"
+"Flowcharting Paper Tape Stencil"
+msgstr "प्रभाहचित्रपट कागज फिता स्टेन्सिल"
+
+#: rc.cpp:370
+msgid ""
+"_: Stencils\n"
+"Display"
+msgstr "प्रदर्शन गर्नुहोस्"
+
+#: rc.cpp:371
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting display shape"
+msgstr "आधारभूत प्रभाहचित्रपट प्रदर्शन आकार"
+
+#: rc.cpp:372
+msgid ""
+"_: Stencils\n"
+"Preparation"
+msgstr "तयारी"
+
+#: rc.cpp:373
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting preparation shape"
+msgstr "आधारभूत प्रभाहचित्रपट तयारी आकार"
+
+#: rc.cpp:374
+msgid ""
+"_: Stencils\n"
+"Terminator"
+msgstr "टर्मिनेटर"
+
+#: rc.cpp:375
+msgid ""
+"_: Stencils\n"
+"Terminator shape"
+msgstr "टर्मिनेटर आकार"
+
+#: rc.cpp:376
+msgid ""
+"_: Stencils\n"
+"Basic Flowcharting Shapes"
+msgstr "आधारभूत प्रभावचित्रपट आकार"
+
+#: rc.cpp:377
+msgid ""
+"_: Stencils\n"
+"Stored Data"
+msgstr "भण्डारण गरिएका डेटा"
+
+#: rc.cpp:378
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting stored data shape"
+msgstr "आधारभूत प्रवाहचित्रपट भण्डारण गरिएको डेटा आकार"
+
+#: rc.cpp:379
+msgid ""
+"_: Stencils\n"
+"Direct Data"
+msgstr "प्रत्यक्ष डेटा"
+
+#: rc.cpp:380
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting direct data shape"
+msgstr "आधारभूत प्रभाहचित्रपट प्रत्यक्ष डेटा आकार"
+
+#: rc.cpp:381 rc.cpp:382
+msgid ""
+"_: Stencils\n"
+"Sequential Data"
+msgstr "क्रमिक डेटा"
+
+#: rc.cpp:383
+msgid ""
+"_: Stencils\n"
+"Manual Input"
+msgstr "म्यानुअल आगत"
+
+#: rc.cpp:384
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting manual input shape"
+msgstr "आधारभूत प्रभाहचित्रपट म्यानुअल आगत आकार"
+
+#: rc.cpp:385
+msgid ""
+"_: Stencils\n"
+"Card"
+msgstr "कार्ड"
+
+#: rc.cpp:386
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting card shape"
+msgstr "आधारभूत प्रभाहचित्रपट कार्ड आकार"
+
+#: rc.cpp:387
+msgid ""
+"_: Stencils\n"
+"Decision"
+msgstr "निर्णय"
+
+#: rc.cpp:388
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting decision shape"
+msgstr "आधारभूत प्रभाहचित्रपट निर्णय आकार"
+
+#: rc.cpp:389
+msgid ""
+"_: Stencils\n"
+"Predefined Process"
+msgstr "पूर्व परिभाषित प्रक्रिया"
+
+#: rc.cpp:390
+msgid ""
+"_: Stencils\n"
+"Predefined process shape"
+msgstr "पूर्व परिभाषित प्रक्रिया आकार"
+
+#: rc.cpp:391
+msgid ""
+"_: Stencils\n"
+"Internal Storage"
+msgstr "आन्तरीक भण्डारण"
+
+#: rc.cpp:392
+msgid ""
+"_: Stencils\n"
+"Internal storage shape"
+msgstr "आन्तरीक भण्डारण आकार"
+
+#: rc.cpp:393 rc.cpp:394
+msgid ""
+"_: Stencils\n"
+"Off-Page Reference"
+msgstr "बन्द पृष्ठ सन्दर्भ"
+
+#: rc.cpp:395 rc.cpp:396
+msgid ""
+"_: Stencils\n"
+"On-Page Reference"
+msgstr "खुल्ला पृष्ठ सन्दर्भ"
+
+#: rc.cpp:397
+msgid ""
+"_: Stencils\n"
+"Manual Operation"
+msgstr "म्यानुअल सञ्चालन"
+
+#: rc.cpp:398
+msgid ""
+"_: Stencils\n"
+"Basic flowcharting manual operation shape"
+msgstr "आधारभूत प्रभाहचित्रपट म्यानुअल सञ्चालन आकार"
+
+#: rc.cpp:399 rc.cpp:400
+msgid ""
+"_: Stencils\n"
+"Blue Collar Worker"
+msgstr "नीलो कलर कामदार"
+
+#: rc.cpp:401 rc.cpp:402
+msgid ""
+"_: Stencils\n"
+"White Collar Worker"
+msgstr "सेतो कलर कामदार"
+
+#: rc.cpp:403
+msgid ""
+"_: Stencils\n"
+"Woman Shape"
+msgstr "स्वास्नीमान्छे आकार"
+
+#: rc.cpp:404 rc.cpp:410
+msgid ""
+"_: Stencils\n"
+"Woman shape"
+msgstr "स्वास्नीमान्छे आकार"
+
+#: rc.cpp:405
+msgid ""
+"_: Stencils\n"
+"Good"
+msgstr "राम्रो"
+
+#: rc.cpp:406
+msgid ""
+"_: Stencils\n"
+"Good shape"
+msgstr "राम्रो आकार"
+
+#: rc.cpp:407 rc.cpp:408
+msgid ""
+"_: Stencils\n"
+"Group"
+msgstr "समूह"
+
+#: rc.cpp:409
+msgid ""
+"_: Stencils\n"
+"Woman"
+msgstr "स्वास्नीमान्छे"
+
+#: rc.cpp:411
+msgid ""
+"_: Stencils\n"
+"People Shapes"
+msgstr "मान्छे आकार"
+
+#: rc.cpp:412
+msgid ""
+"_: Stencils\n"
+"Man"
+msgstr "मान्छे"
+
+#: rc.cpp:413
+msgid ""
+"_: Stencils\n"
+"Man shape"
+msgstr "मान्छे आकार"
+
+#: rc.cpp:414
+msgid ""
+"_: Stencils\n"
+"Bad"
+msgstr "खराब"
+
+#: rc.cpp:415
+msgid ""
+"_: Stencils\n"
+"Bad shape"
+msgstr "खराब आकार"
+
+#: rc.cpp:416
+msgid ""
+"_: Stencils\n"
+"Transport Shapes"
+msgstr "ढुवानी आकार"
+
+#: rc.cpp:417
+msgid ""
+"_: Stencils\n"
+"Truck"
+msgstr "व्यापार"
+
+#: rc.cpp:418
+msgid ""
+"_: Stencils\n"
+"Truck shape"
+msgstr "व्यापार आकार"
+
+#: rc.cpp:419
+msgid ""
+"_: Stencils\n"
+"Miscellaneous Collections"
+msgstr "विविध सङ्कलन"
+
+#: rc.cpp:420
+msgid ""
+"_: Stencils\n"
+"Multiple Arrow 2"
+msgstr "बहुँविध बाँण २"
+
+#: rc.cpp:421
+msgid ""
+"_: Stencils\n"
+"Multiple Arrow shape 2"
+msgstr "बहुँविध बाँण आकार २"
+
+#: rc.cpp:422
+msgid ""
+"_: Stencils\n"
+"Sun Arrow"
+msgstr "सूर्य बाँण"
+
+#: rc.cpp:423
+msgid ""
+"_: Stencils\n"
+"Sun Arrow shape"
+msgstr "सूर्य बाँण आकार"
+
+#: rc.cpp:424
+msgid ""
+"_: Stencils\n"
+"Arrow Shapes"
+msgstr "बाँण आकार"
+
+#: rc.cpp:425
+msgid ""
+"_: Stencils\n"
+"Multiple Arrow 1"
+msgstr "बहुँविध बाँण १"
+
+#: rc.cpp:426
+msgid ""
+"_: Stencils\n"
+"Multiple Arrow shape 1"
+msgstr "बहुँविध बाँण आकार १"
+
+#: rc.cpp:427
+msgid ""
+"_: Stencils\n"
+"Multiple Arrow 3"
+msgstr "बहुँविध बाँण ३"
+
+#: rc.cpp:428
+msgid ""
+"_: Stencils\n"
+"Multiple Arrow shape 3"
+msgstr "बहुँविध बाँण आकार ३"
+
+#: rc.cpp:429
+msgid ""
+"_: Stencils\n"
+"Arrow"
+msgstr "बाँण"
+
+#: rc.cpp:430
+msgid ""
+"_: Stencils\n"
+"Arrow shape"
+msgstr "बाँण आकार"
+
+#: rc.cpp:431 rc.cpp:432
+msgid ""
+"_: Stencils\n"
+"Large office building"
+msgstr "ठूलो अफिस भवन"
+
+#: rc.cpp:433
+msgid ""
+"_: Stencils\n"
+"House"
+msgstr "घर"
+
+#: rc.cpp:434
+msgid ""
+"_: Stencils\n"
+"House shape"
+msgstr "घर आकार"
+
+#: rc.cpp:435
+msgid ""
+"_: Stencils\n"
+"Building Shapes"
+msgstr "भवन आकार"
+
+#: rc.cpp:436
+msgid ""
+"_: Stencils\n"
+"Factory"
+msgstr "कारखाना"
+
+#: rc.cpp:437
+msgid ""
+"_: Stencils\n"
+"Factory shape"
+msgstr "कारखाना आकार"
+
+#: rc.cpp:438 rc.cpp:439
+msgid ""
+"_: Stencils\n"
+"block"
+msgstr "बन्द गर्नुहोस्"
+
+#: rc.cpp:440 rc.cpp:441
+msgid ""
+"_: Stencils\n"
+"choice-add"
+msgstr "छनौट थप्नुहोस्"
+
+#: rc.cpp:442 rc.cpp:443
+msgid ""
+"_: Stencils\n"
+"conditional-head1"
+msgstr "ससर्त शीर्ष१"
+
+#: rc.cpp:444 rc.cpp:445
+msgid ""
+"_: Stencils\n"
+"box"
+msgstr "बाकस"
+
+#: rc.cpp:446
+msgid ""
+"_: Stencils\n"
+"Nassi Shneiderman Diagram Shapes"
+msgstr "नासी नेइदरमेन रेखाचित्र आकार"
+
+#: rc.cpp:447 rc.cpp:448
+msgid ""
+"_: Stencils\n"
+"headloop"
+msgstr "हेडलुप"
+
+#: rc.cpp:449 rc.cpp:450
+msgid ""
+"_: Stencils\n"
+"exit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: rc.cpp:451 rc.cpp:452
+msgid ""
+"_: Stencils\n"
+"conditional-head2"
+msgstr "ससर्त शीर्ष२"
+
+#: rc.cpp:453 rc.cpp:454
+msgid ""
+"_: Stencils\n"
+"statement"
+msgstr "विवरण"
+
+#: rc.cpp:455 rc.cpp:456
+msgid ""
+"_: Stencils\n"
+"choice"
+msgstr "छनौट"
+
+#: rc.cpp:457 rc.cpp:458
+msgid ""
+"_: Stencils\n"
+"conditional"
+msgstr "ससर्त"
+
+#: rc.cpp:459 rc.cpp:460
+msgid ""
+"_: Stencils\n"
+"footloop"
+msgstr "फुटलुप"
+
+#: rc.cpp:461 rc.cpp:462
+msgid ""
+"_: Stencils\n"
+"call"
+msgstr "कल"
+
+#: rc.cpp:463
+msgid ""
+"_: Stencils\n"
+"Weak Entity"
+msgstr "निर्बल अस्तित्व"
+
+#: rc.cpp:464
+msgid ""
+"_: Stencils\n"
+"Weak Entity shape used in ER diagrams"
+msgstr "ईआर रेखाचित्रमा प्रयोग गरिएका निर्बल अस्तित्व आकार"
+
+#: rc.cpp:465
+msgid ""
+"_: Stencils\n"
+"Multivalued Attribute"
+msgstr "बहुँमान राखिएको विशेषता"
+
+#: rc.cpp:466
+msgid ""
+"_: Stencils\n"
+"Multivalued Attribute shape used in ER diagrams"
+msgstr "ई आर रेखाचित्रमा प्रयोग गरिएका बहुमान राखिएको विशेषता"
+
+#: rc.cpp:467 rc.cpp:474
+msgid ""
+"_: Stencils\n"
+"Relationship"
+msgstr "सम्बन्ध"
+
+#: rc.cpp:468 rc.cpp:475
+msgid ""
+"_: Stencils\n"
+"Relationship shape used in ER diagrams"
+msgstr "ई आर रेखाचित्रमा प्रयोग गरिएका सम्बन्ध आकार"
+
+#: rc.cpp:469
+msgid ""
+"_: Stencils\n"
+"Derived Attribute"
+msgstr "व्युत्पन्न विशेषता"
+
+#: rc.cpp:470
+msgid ""
+"_: Stencils\n"
+"Derived Attribute shape used in ER diagrams"
+msgstr "ईआर रेखाचित्रमा प्रयोग गरिएका व्युत्पन्न विशेषता"
+
+#: rc.cpp:471
+msgid ""
+"_: Stencils\n"
+"Entity"
+msgstr "अस्तित्व"
+
+#: rc.cpp:472
+msgid ""
+"_: Stencils\n"
+"Entity shape used in ER diagrams"
+msgstr "ईआर रेखाचित्रमा प्रयोग गरिएका अस्तित्व आकार"
+
+#: rc.cpp:473
+msgid ""
+"_: Stencils\n"
+"Entity Relationship"
+msgstr "अस्तित्व सम्बन्ध"
+
+#: rc.cpp:476
+msgid ""
+"_: Stencils\n"
+"Attribute"
+msgstr "विशेषता"
+
+#: rc.cpp:477
+msgid ""
+"_: Stencils\n"
+"Attribute shape used in ER diagrams"
+msgstr "ईआर रेखाचित्रमा प्रयोग गरिएका विशेषता आकार"
+
+#: rc.cpp:478
+msgid ""
+"_: Stencils\n"
+"Circuit"
+msgstr "परिपथ"
+
+#: rc.cpp:479
+msgid ""
+"_: Stencils\n"
+"Pneumatic"
+msgstr "वायवीय"
+
+#: rc.cpp:480
+msgid ""
+"_: Stencils\n"
+"Contact"
+msgstr "सम्पर्क"
+
+#: rc.cpp:481
+msgid ""
+"_: Stencils\n"
+"SDL"
+msgstr "SDL"
+
+#: rc.cpp:482
+msgid ""
+"_: Stencils\n"
+"MSE"
+msgstr "MSE"
+
+#: rc.cpp:483
+msgid ""
+"_: Stencils\n"
+"Jigsaw"
+msgstr "जिकसअ"
+
+#: rc.cpp:484
+msgid ""
+"_: Stencils\n"
+"Civil"
+msgstr "सिभिल"
+
+#: rc.cpp:485
+msgid ""
+"_: Stencils\n"
+"Assorted"
+msgstr "वर्णानुसार मिलाइएको"
+
+#: rc.cpp:486
+msgid ""
+"_: Stencils\n"
+"Electric"
+msgstr "विद्युतिय"
+
+#: rc.cpp:487
+msgid ""
+"_: Stencils\n"
+"Dia Shapes Collections"
+msgstr "डीआईए आकार सङ्कलन"
+
+#: rc.cpp:488
+msgid ""
+"_: Stencils\n"
+"Sybase"
+msgstr "साइबेस"
+
+#: rc.cpp:489
+msgid ""
+"_: Stencils\n"
+"Cisco"
+msgstr "सिस्को"
+
+#: rc.cpp:490
+msgid ""
+"_: Stencils\n"
+"Network"
+msgstr "सञ्जाल"
+
+#: rc.cpp:491 rc.cpp:492
+msgid ""
+"_: Stencils\n"
+"Proxy"
+msgstr "प्रोक्सी"
+
+#: rc.cpp:493
+msgid ""
+"_: Stencils\n"
+"Terminal 2D"
+msgstr "द्वि-आयामिक टर्मिनल"
+
+#: rc.cpp:494
+msgid ""
+"_: Stencils\n"
+"X Terminal"
+msgstr "एक्स टर्मिनल"
+
+#: rc.cpp:495 rc.cpp:496
+msgid ""
+"_: Stencils\n"
+"Workstation 3D"
+msgstr "त्रि-आयामिक कार्यस्थान"
+
+#: rc.cpp:497 rc.cpp:498
+msgid ""
+"_: Stencils\n"
+"Mini-tower Desktop PC 2D"
+msgstr "मिनी-टावर डेस्कटप पी सी द्वि-आयामिक"
+
+#: rc.cpp:499 rc.cpp:500
+msgid ""
+"_: Stencils\n"
+"Printer 1"
+msgstr "मुद्रक १"
+
+#: rc.cpp:501 rc.cpp:502
+msgid ""
+"_: Stencils\n"
+"Notebook"
+msgstr "नोटबुक"
+
+#: rc.cpp:503
+msgid ""
+"_: Stencils\n"
+"Floppy Disk"
+msgstr "फ्लपी डिस्क"
+
+#: rc.cpp:504
+msgid ""
+"_: Stencils\n"
+"Floppy Disk shape"
+msgstr "फ्लपी डिस्क आकार"
+
+#: rc.cpp:505
+msgid ""
+"_: Stencils\n"
+"Computer Hardware"
+msgstr "कम्प्युटर हार्डवेयर"
+
+#: rc.cpp:506 rc.cpp:507
+msgid ""
+"_: Stencils\n"
+"PCI card"
+msgstr "पीसीआई कार्ड"
+
+#: rc.cpp:508 rc.cpp:509
+msgid ""
+"_: Stencils\n"
+"Rack"
+msgstr "र्याक"
+
+#: rc.cpp:510 rc.cpp:511
+msgid ""
+"_: Stencils\n"
+"Mini-tower Desktop PC 3D"
+msgstr "मिनी-टावर डेस्कटप पीसी त्रि-आयामिक"
+
+#: rc.cpp:512 rc.cpp:513
+msgid ""
+"_: Stencils\n"
+"Keyboard"
+msgstr "कुञ्जीपाटी"
+
+#: rc.cpp:514 rc.cpp:515
+msgid ""
+"_: Stencils\n"
+"Desktop PC 2D"
+msgstr "डेस्कटप पीसी द्वि-आयामिक"
+
+#: rc.cpp:516 rc.cpp:517
+msgid ""
+"_: Stencils\n"
+"Desktop PC 3D"
+msgstr "डेस्कटप पीसी त्रि आयामिक"
+
+#: rc.cpp:518 rc.cpp:519
+msgid ""
+"_: Stencils\n"
+"Terminal"
+msgstr "टर्मिनल"
+
+#: rc.cpp:520 rc.cpp:521
+msgid ""
+"_: Stencils\n"
+"Printer 2"
+msgstr "मुद्रक २"
+
+#: rc.cpp:522 rc.cpp:523
+msgid ""
+"_: Stencils\n"
+"HDD"
+msgstr "एचडीडी"
+
+#: rc.cpp:524 rc.cpp:525
+msgid ""
+"_: Stencils\n"
+"CD-ROM"
+msgstr "सीडी रोम"
+
+#: rc.cpp:526 rc.cpp:527
+msgid ""
+"_: Stencils\n"
+"Cell Phone"
+msgstr "सेल फोन"
+
+#: rc.cpp:528
+msgid ""
+"_: Stencils\n"
+"Miscellaneous Hardware"
+msgstr "विविध हार्डवेयर"
+
+#: rc.cpp:529
+msgid ""
+"_: Stencils\n"
+"Key"
+msgstr "कुञ्जी"
+
+#: rc.cpp:530
+msgid ""
+"_: Stencils\n"
+"Key shape"
+msgstr "कुञ्जी आकार"
+
+#: rc.cpp:531
+msgid ""
+"_: Stencils\n"
+"Hardware Collections"
+msgstr "हार्डवेयर सङ्ग्रह"
+
+#: rc.cpp:532 rc.cpp:533
+msgid ""
+"_: Stencils\n"
+"Interface"
+msgstr "इन्टरफेस"
+
+#: rc.cpp:534 rc.cpp:536 rc.cpp:537
+msgid ""
+"_: Stencils\n"
+"Class"
+msgstr "वर्ग"
+
+#: rc.cpp:535
+msgid ""
+"_: Stencils\n"
+"ClassConceptual"
+msgstr "वर्ग अवधारणात्मक"
+
+#: rc.cpp:538
+msgid ""
+"_: Stencils\n"
+"Class Diagram Shapes"
+msgstr "वर्ग रेखाचित्र आकार"
+
+#: rc.cpp:539
+msgid ""
+"_: Stencils\n"
+"Template Class"
+msgstr "टेम्प्लेट वर्ग"
+
+#: rc.cpp:540
+msgid ""
+"_: Stencils\n"
+"TemplateClass"
+msgstr "टेम्प्लेट वर्ग"
+
+#: rc.cpp:541 rc.cpp:542
+msgid ""
+"_: Stencils\n"
+"Note"
+msgstr "द्रष्टब्य"
+
+#: rc.cpp:543
+msgid ""
+"_: Stencils\n"
+"Branch & Merge"
+msgstr "शाखा र विस्तार"
+
+#: rc.cpp:544
+msgid ""
+"_: Stencils\n"
+"Branch and Merge"
+msgstr "शाखा र विस्तार"
+
+#: rc.cpp:545
+msgid ""
+"_: Stencils\n"
+"Fork & Join"
+msgstr "काटा र जडान"
+
+#: rc.cpp:546
+msgid ""
+"_: Stencils\n"
+"Fork and Join"
+msgstr "काटा र जडान"
+
+#: rc.cpp:547 rc.cpp:548
+msgid ""
+"_: Stencils\n"
+"Start"
+msgstr "सुरु गर्नुहोस्"
+
+#: rc.cpp:549 rc.cpp:550
+msgid ""
+"_: Stencils\n"
+"End"
+msgstr "अन्त गर्नुहोस्"
+
+#: rc.cpp:551
+msgid ""
+"_: Stencils\n"
+"Activity Diagram Shapes"
+msgstr "क्रियाकलाप रेखाचित्र आकार"
+
+#: rc.cpp:552 rc.cpp:553
+msgid ""
+"_: Stencils\n"
+"Activity"
+msgstr "क्रियाकलाप"
+
+#: rc.cpp:554
+msgid ""
+"_: Stencils\n"
+"UML Collections"
+msgstr "यूएमएल सङ्कलन"
+
+#: rc.cpp:555 rc.cpp:563 rc.cpp:564
+msgid ""
+"_: Stencils\n"
+"Belgium"
+msgstr "बेल्जियम"
+
+#: rc.cpp:556
+msgid ""
+"_: Stencils\n"
+"Map of Belgium"
+msgstr "बेल्जियमको नक्सा"
+
+#: rc.cpp:557
+msgid ""
+"_: Stencils\n"
+"Maps"
+msgstr "नक्सा"
+
+#: rc.cpp:558
+msgid ""
+"_: Stencils\n"
+"Europe"
+msgstr "युरोप"
+
+#: rc.cpp:559
+msgid ""
+"_: Stencils\n"
+"Map of Europe"
+msgstr "युरोपको नक्सा"
+
+#: rc.cpp:560
+msgid ""
+"_: Stencils\n"
+"Geographic Collections"
+msgstr "भौगोलिक सङ्कलन"
+
+#: rc.cpp:561 rc.cpp:562
+msgid ""
+"_: Stencils\n"
+"Ireland"
+msgstr "आयरल्यान्ड"
+
+#: rc.cpp:565 rc.cpp:566
+msgid ""
+"_: Stencils\n"
+"Germany"
+msgstr "जर्मनी"
+
+#: rc.cpp:567 rc.cpp:568
+msgid ""
+"_: Stencils\n"
+"Netherlands"
+msgstr "नेदरल्यान्ड"
+
+#: rc.cpp:569 rc.cpp:570
+msgid ""
+"_: Stencils\n"
+"Sweden"
+msgstr "स्विडेन"
+
+#: rc.cpp:571 rc.cpp:572
+msgid ""
+"_: Stencils\n"
+"United States of America"
+msgstr "संयुक्त राज्य अमेरिका"
+
+#: rc.cpp:573 rc.cpp:574
+msgid ""
+"_: Stencils\n"
+"Luxembourg"
+msgstr "लक्जेम्बर्ग"
+
+#: rc.cpp:575 rc.cpp:576
+msgid ""
+"_: Stencils\n"
+"Italy"
+msgstr "इटाली"
+
+#: rc.cpp:577 rc.cpp:578
+msgid ""
+"_: Stencils\n"
+"Switzerland"
+msgstr "स्वीजरल्यान्ड"
+
+#: rc.cpp:579 rc.cpp:580
+msgid ""
+"_: Stencils\n"
+"Japan"
+msgstr "जापान"
+
+#: rc.cpp:581 rc.cpp:582
+msgid ""
+"_: Stencils\n"
+"Norway"
+msgstr "नर्वे"
+
+#: rc.cpp:583
+msgid ""
+"_: Stencils\n"
+"Flags"
+msgstr "ध्वजा"
+
+#: rc.cpp:584 rc.cpp:585
+msgid ""
+"_: Stencils\n"
+"Greece"
+msgstr "ग्रिस"
+
+#: rc.cpp:586 rc.cpp:587
+msgid ""
+"_: Stencils\n"
+"France"
+msgstr "फ्रान्स"
+
+#: rc.cpp:588 rc.cpp:589
+msgid ""
+"_: Stencils\n"
+"Iceland"
+msgstr "आइसल्यान्ड"
+
+#: rc.cpp:590 rc.cpp:591
+msgid ""
+"_: Stencils\n"
+"Austria"
+msgstr "अष्ट्रिया"
+
+#: rc.cpp:592 rc.cpp:593
+msgid ""
+"_: Stencils\n"
+"Poland"
+msgstr "पोल्यान्ड"
+
+#: rc.cpp:594 rc.cpp:595
+msgid ""
+"_: Stencils\n"
+"Great Britain"
+msgstr "ग्रेट ब्रिटेन"
+
+#: rc.cpp:596 rc.cpp:597
+msgid ""
+"_: Stencils\n"
+"Finland"
+msgstr "फिनल्यान्ड"
+
+#: plugins/kivioconnectortool/tool_connector.cpp:59
+#: plugins/kiviosmlconnector/tool_connector.cpp:47
+msgid "Polyline Connector"
+msgstr "पोलिलाइन योजक"
+
+#: plugins/kiviotexttool/stenciltexteditor.cpp:52
+msgid "Align Left"
+msgstr "बाँया पंक्तिबद्ध गर्नुहोस"
+
+#: plugins/kiviotexttool/stenciltexteditor.cpp:53
+msgid "Align Center"
+msgstr "केन्द्र पंक्तिबद्ध गर्नुहोस"
+
+#: plugins/kiviotexttool/stenciltexteditor.cpp:54
+msgid "Align Right"
+msgstr "दाँया पङ्क्तिबद्व गर्नुहोस्"
+
+#: plugins/kiviotexttool/stenciltexteditor.cpp:61
+msgid "Align Top"
+msgstr "माथि पङ्क्तिबद्ध गर्नुहोस्"
+
+#: plugins/kiviotexttool/stenciltexteditor.cpp:62
+msgid "Align Vertical Center"
+msgstr "ठाडो केन्द्र पंक्तिबद्ध गर्नुहोस"
+
+#: plugins/kiviotexttool/stenciltexteditor.cpp:63
+msgid "Align Bottom"
+msgstr "तल पंक्तिबद्ध गर्नुहोस"
+
+#: plugins/kiviotexttool/tool_text.cpp:51
+msgid "Text Tool"
+msgstr "पाठ उपकरण"
+
+#: plugins/kiviotexttool/tool_text.cpp:271
+#: plugins/kiviotexttool/tool_text.cpp:360
+msgid "Edit Text"
+msgstr "पाठ सम्पादन गर्नुहोस्"
+
+#: plugins/kiviotexttool/tool_text.cpp:280
+#: plugins/kiviotexttool/tool_text.cpp:369
+msgid "Change Stencil Text and Formatting"
+msgstr "स्टेन्सिल पाठ र ढाँचा परिवर्तन गर्नुहोस्"
+
+#: plugins/kiviotexttool/tool_text.cpp:297
+#: plugins/kiviotexttool/tool_text.cpp:375
+msgid "Change Stencil Text"
+msgstr "स्टेन्सिल पाठ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1183 kiviopart/kivio_view.cpp:1185
+#: kiviopart/kivio_view.cpp:1214 kiviopart/kivio_view.cpp:1216
+#: kiviopart/kivio_view.cpp:1244 kiviopart/kivio_view.cpp:1245
+#: kiviopart/kivio_view.cpp:1265 kiviopart/kivio_view.cpp:1273
+#: kiviopart/kivio_view.cpp:1275 kiviopart/kivio_view.cpp:1302
+#: kiviopart/kivio_view.cpp:1304 plugins/kiviotexttool/tool_text.cpp:305
+#: plugins/kiviotexttool/tool_text.cpp:385
+msgid "Change Stencil Font"
+msgstr "स्टेन्सिल फन्ट परिवर्तन गर्नुहोस्"
+
+#: plugins/kiviotexttool/tool_text.cpp:313
+#: plugins/kiviotexttool/tool_text.cpp:395
+msgid "Change Stencil Text Color"
+msgstr "स्टेन्सिल पाठ रङ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1571 kiviopart/kivio_view.cpp:1577
+#: plugins/kiviotexttool/tool_text.cpp:322
+#: plugins/kiviotexttool/tool_text.cpp:407
+msgid "Change Stencil Horizontal Alignment"
+msgstr "स्टेन्सिल तेर्सो पङ्क्तिबद्धता परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1599 kiviopart/kivio_view.cpp:1605
+#: plugins/kiviotexttool/tool_text.cpp:330
+#: plugins/kiviotexttool/tool_text.cpp:418
+msgid "Change Stencil Vertical Alignment"
+msgstr "स्टेन्सिल ठाडो पङ्क्तिबद्धता परिवर्तन गर्नुहोस्"
+
+#: plugins/kivioconnectortool/tool_connector.cpp:52
+msgid "Straight Connector"
+msgstr "सिधा योजक"
+
+#: plugins/kivioconnectortool/tool_connector.cpp:367
+msgid "Left mouse button to start drawing, right to end drawing."
+msgstr "रेखाचित्र सुरु गर्न बायाँ माउस बटन, दायाँबाट अन्तिम रेखाचित्र ।"
+
+#: plugins/kiviotargettool/kiviotargettool.cpp:37
+#: plugins/kiviotargettool/kiviotargettool.cpp:75
+msgid "Add Connector Target"
+msgstr "योजक लक्ष्य थप्नुहोस्"
+
+#: plugins/kivioselecttool/tool_select.cpp:57
+msgid "&Select"
+msgstr "चयन गर्नुहोस्"
+
+#: plugins/kivioselecttool/tool_select.cpp:60
+msgid "&Edit Text..."
+msgstr "पाठ सम्पादन गर्नुहोस्..."
+
+#: plugins/kivioselecttool/tool_select.cpp:62
+msgid "Format &Stencils && Connectors..."
+msgstr "स्टेन्सिल र योजकहरू ढाँचाबद्ध गर्नुहोस्..."
+
+#: plugins/kivioselecttool/tool_select.cpp:64
+msgid "Format &Arrowheads..."
+msgstr "बाँणशीर्षहरू ढाँचाबद्ध गर्नुहोस्..."
+
+#: kiviopart/kivio_page.cpp:1117 kiviopart/kivio_page.cpp:1154
+#: kiviopart/kivio_page.cpp:1164 kiviopart/kivio_page.cpp:1176
+#: kiviopart/kivio_page.cpp:1416 kiviopart/kivio_page.cpp:1421
+#: kiviopart/kivio_view.cpp:1677 plugins/kivioselecttool/tool_select.cpp:1022
+#: plugins/kivioselecttool/tool_select.cpp:1030
+msgid "Move Stencil"
+msgstr "स्टेन्सिल सार्नुहोस्"
+
+#: plugins/kivioselecttool/tool_select.cpp:1061
+msgid "Move Connector Point"
+msgstr "योजक बिन्दु सार्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1660 plugins/kivioselecttool/tool_select.cpp:1087
+msgid "Resize Stencil"
+msgstr "स्टेन्सिल रिसाइज गर्नुहोस्"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:44
+msgid "By pressing this button you can zoom in on a specific area."
+msgstr "यो बटन थिचेर तपाईँ निर्दिष्ट क्षेत्रमा जुम गर्न सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:45
+msgid "&Pan Document"
+msgstr "प्यान कागजात"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:46
+msgid "You can drag the document by using the mouse."
+msgstr "तपाईँ यो माउस प्रयोग गरेर कागजात तान्न सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:54
+msgid "Zoom &Level"
+msgstr "जुम स्तर"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:55
+msgid ""
+"This allows you to zoom in or out of a document. You can either choose one "
+"of the predefined zoomfactors or enter a new zoomfactor (in percent)."
+msgstr ""
+"यसले तपाईँलाई कागजातको जुम घटाउने कि बढाउने अनुमति दिन्छ । तपाईँ एउटा "
+"पूर्वपरिभाषित जुम तत्व रोज्न सक्नुहुन्छ या (प्रतिशतमा) नयाँ जुम तत्व "
+"प्रविष्ट गर्न सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:60
+msgid "You can zoom in on the document by pressing this button."
+msgstr "तपाईँ यो बटन थिचेर कागजातमा जुम बढाउन सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:63
+msgid "By pressing this button you can zoom out of the document."
+msgstr "तपाईँ यो बटन थिचेर कागजातमा जुम घटाउनु सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:65
+msgid "Zoom Width"
+msgstr "जुम चौडाइ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:66
+msgid "You can zoom the document that it fits into the window width."
+msgstr ""
+"यदि कागजात सञ्झ्यालको चौडाइसँग मिल्छ भने तपाईँ कागजात जुम गर्न सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:69
+msgid "Zoom Height"
+msgstr "जुम उचाइ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:70
+msgid "You can zoom the document that it fits into the window height."
+msgstr ""
+"यदि कागजात सञ्झ्यालको उचाइसँग मिल्छ भने तपाईँ कागजात जुम गर्न सक्नुहुन्छ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:73
+msgid "Zoom Page"
+msgstr "जुम पृष्ठ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:74
+msgid "The Zoom Page button shows the entire page."
+msgstr "जुम पृष्ठ बटनले पूरै पृष्ठ देखाउँछ ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:77
+msgid "Zoom Selected"
+msgstr "जुम चयन गरियो"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:78
+msgid ""
+"By pressing this button you zoom in on the document, so that all "
+"<b>selected</b> objects are visible."
+msgstr ""
+"यो बटन थिचेर तपाईँ कागजातमा जुम बढाउनुभयो, त्यसैले त्यो सबै <b>चयन "
+"गरिएका</b> वस्तुहरू दृश्यात्मक छन् ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:81
+msgid "Zoom All Objects"
+msgstr "सबै वस्तुहरू जुम गर्नुहोस्"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:82
+msgid ""
+"You are able to zoom in on the document, so that all objects are visible by "
+"pressing this button."
+msgstr ""
+"तपाईँ कागजातमा जुम बढाउन सक्षम हुनुहुन्छ, त्यसैले सबै वस्तुहरू यो बटन थिचेर "
+"दृश्यात्मक भएका छन् ।"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:222
+msgid "Hold Shift to zoom out."
+msgstr "जुम घटाउनु शिफ्ट सामत्नुहोस् ।"
+
+#: kiviopart/kiviosdk/kivio_layer.cpp:47
+msgid "Untitled Layer"
+msgstr "शीर्षक विहिन तह"
+
+#: kiviopart/kivio_icon_view.cpp:64
+msgid ""
+"_: untitled stencil\n"
+"Untitled"
+msgstr "शीर्षक विहिन"
+
+#: kiviopart/kivioarrowheadaction.cpp:51
+msgid "Arrowhead at Origin"
+msgstr "उत्पत्तिमा बाँणशीर्ष"
+
+#: kiviopart/kivioarrowheadaction.cpp:52
+msgid "Arrowhead at End"
+msgstr "समाप्तिमा बाँणशीर्ष"
+
+#: kiviopart/kivioarrowheadaction.cpp:171
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:121
+msgid ""
+"_: no line end\n"
+"None"
+msgstr "कुनै पनि होइन"
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:19
+msgid "X:"
+msgstr "X:"
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:20
+msgid "Y:"
+msgstr "Y:"
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:21
+msgid "Width:"
+msgstr "चौडाइ:"
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:22
+msgid "Height:"
+msgstr "उचाइ:"
+
+#: kiviopart/kivio_page.cpp:99
+msgid "Layer 1"
+msgstr "तह १"
+
+#: kiviopart/kivio_page.cpp:532
+msgid "Add Stencil"
+msgstr "स्टेन्सिल थप्नुहोस्"
+
+#: kiviopart/kivio_page.cpp:691
+msgid ""
+"One of the selected stencils has protection from deletion and cannot be "
+"deleted."
+msgstr "चयन गरिएका एउटा स्टेन्सिललाई मेटाइबाट सुरक्षा छ र मेट्न सकिँदैन ।"
+
+#: kiviopart/kivio_page.cpp:692
+msgid "Protection From Deletion"
+msgstr "मेटाइबाट सुरक्षा"
+
+#: kiviopart/kivio_page.cpp:702 kiviopart/kivio_page.cpp:706
+msgid "Remove Stencil"
+msgstr "स्टेन्सिल हटाउनुहोस्"
+
+#: kiviopart/kivio_page.cpp:765 kiviopart/kivio_view.cpp:398
+msgid "Group Selection"
+msgstr "समूह चयन"
+
+#: kiviopart/kivio_page.cpp:774 kiviopart/kivio_page.cpp:808
+#: kiviopart/kivio_view.cpp:400
+msgid "Ungroup"
+msgstr "समूहबाट हटाउनुहोस्"
+
+#: kiviopart/kivio_page.cpp:975
+msgid ""
+"One of the stencils has protection from deletion. You cannot cut or delete "
+"this stencil."
+msgstr ""
+"स्टेन्सिल मध्ये एउटालाई मेटाइबाट सुरक्षा छ । तपाईँले यो स्टेन्सिल काट्नु वा "
+"मेटाउनु सक्नुहुन्न ।"
+
+#: kiviopart/kivio_page.cpp:975
+msgid "Protection From Delete"
+msgstr "मेट्नुबाट सुरक्षा"
+
+#: kiviopart/kivio_page.cpp:1072 kiviopart/ui/kivio_layer_panel.cpp:79
+msgid "Remove Layer"
+msgstr "तह हटाउनुहोस्"
+
+#: kiviopart/kiviostencilsetaction.cpp:180
+msgid "Show Stencil Set Chooser"
+msgstr "स्टन्सिल सेट छनौटकर्ता देखाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:156
+msgid ""
+"_: %1 current page, %2 total number of pages\n"
+"Page %1/%2"
+msgstr "पृष्ठ %1/%2"
+
+#: kiviopart/kivio_view.cpp:166
+msgid ""
+"_: %1 x coord, %2 y coord, %3 and %4 the unit\n"
+"X: %1 %3 Y: %2 %4"
+msgstr "X: %1 %3 Y: %2 %4"
+
+#: kiviopart/kivio_view.cpp:340
+msgid "Geometry"
+msgstr "ज्यामितिय"
+
+#: kiviopart/kivio_view.cpp:354
+msgid "Overview"
+msgstr "सिंहावलोकन"
+
+#: kiviopart/kivio_view.cpp:361
+msgid "Layers"
+msgstr "तह"
+
+#: kiviopart/kivio_view.cpp:375
+msgid "Objects"
+msgstr "वस्तु"
+
+#: kiviopart/kivio_view.cpp:381
+msgid "Add Stencil Set"
+msgstr "स्टेन्सिल सेट थप्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:387
+msgid "Align && Distribute..."
+msgstr "पङ्क्तिबद्ध गर्नुहोस् र वितरण गर्नुहोस्..."
+
+#: kiviopart/kivio_view.cpp:399
+msgid "Group selected objects into a single stencil"
+msgstr "एकल स्टेन्सिलमा चयन गरिएका वस्तुहरू समूह गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:401
+msgid "Break up a selected group stencil"
+msgstr "चयन गरिएका समूह स्टेन्सिल विच्छेदन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:403
+msgid "Bring to Front"
+msgstr "अगाडि ल्याउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:404
+msgid "Send to Back"
+msgstr "पछाडि पठाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:406
+msgid "&Text..."
+msgstr "पाठ..."
+
+#: kiviopart/kivio_view.cpp:409
+msgid "&Stencils && Connectors..."
+msgstr "स्टेन्सिल र योजकहरू..."
+
+#: kiviopart/kivio_view.cpp:412
+msgid "&Arrowheads..."
+msgstr "बाँणशीर्ष..."
+
+#: kiviopart/kivio_view.cpp:414 kiviopart/kivio_view.cpp:515
+msgid ""
+"Arrowheads allow you to add an arrow to the beginning and/or end of a line."
+msgstr ""
+"बाँणशीर्षले तपाईँको रेखाको अन्त्य र/वा सुरुआतमा एउटा बाँण थप्न अनुमति दिन्छ ।"
+
+#: kiviopart/kivio_view.cpp:417
+msgid "Line Color"
+msgstr "रेखा रङ"
+
+#: kiviopart/kivio_view.cpp:418
+msgid ""
+"The line color allows you to choose a color for the lines of the stencils."
+msgstr ""
+"रेखा रङले स्टेन्सिलको रेखाहरूका लागि रङ रोज्न तपाईँलाई अनुमति दिन्छ ।"
+
+#: kiviopart/kivio_view.cpp:420
+msgid "Fill Color"
+msgstr "रङ भर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:421
+msgid ""
+"You can choose a color for the background of a stencil by using this button."
+msgstr ""
+"तपाईँ यो बटन प्रयोग गरेर स्टेन्सिलको पृष्ठभूमिका लागि रङ रोज्न सक्नुहुन्छ ।"
+
+#: kiviopart/kivio_view.cpp:425
+msgid "Font Family"
+msgstr "फन्ट परिवार"
+
+#: kiviopart/kivio_view.cpp:433
+msgid "Text Color"
+msgstr "पाठ रङ"
+
+#: kiviopart/kivio_view.cpp:436
+msgid "Toggle Bold Text"
+msgstr "बाक्लो पाठ टगल गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:439
+msgid "Toggle Italics Text"
+msgstr "छड्के पाठ टगल गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:442
+msgid "Toggle Underline Text"
+msgstr "अधोरेखा पाठ टगल गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:445
+msgid "Align &Left"
+msgstr "बायाँ पङ्क्तिबद्ध गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:449
+msgid "Align &Center"
+msgstr "केन्द्र पङ्क्तिबद्ध गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:454
+msgid "Align &Right"
+msgstr "दायाँ पङ्क्तिबद्ध गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:458
+msgid "Superscript"
+msgstr "सुपरस्क्रिप्ट"
+
+#: kiviopart/kivio_view.cpp:462
+msgid "Subscript"
+msgstr "सबस्क्रिप्ट"
+
+#: kiviopart/kivio_view.cpp:467
+msgid "Line Width"
+msgstr "रेखा चौडाइ"
+
+#: kiviopart/kivio_view.cpp:472
+msgid "Line Style"
+msgstr "रेखा शैली"
+
+#: kiviopart/kivio_view.cpp:475
+msgid "Page Layout..."
+msgstr "पृष्ठ सजावट..."
+
+#: kiviopart/kivio_view.cpp:476 kiviopart/kivio_view.cpp:708
+msgid "Insert Page"
+msgstr "पृष्ठ घुसाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:477 kiviopart/kivio_view.cpp:804
+#: kiviopart/kivio_view.cpp:808 kiviopart/kivio_view.cpp:812
+msgid "Remove Page"
+msgstr "पृष्ठ हटाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:479
+msgid "Rename Page..."
+msgstr "पृष्ठ पुन: नामकरण गर्नुहोस्..."
+
+#: kiviopart/kivio_view.cpp:481
+msgid "Show Page..."
+msgstr "पृष्ठ देखाउनुहोस्..."
+
+#: kiviopart/kivio_view.cpp:482 kiviopart/kivio_view.cpp:730
+msgid "Hide Page"
+msgstr "पृष्ठ लुकाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:484
+msgid "Show Page Margins"
+msgstr "पृष्ठ सीमान्त देखाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:487
+msgid "Hide Page Margins"
+msgstr "पृष्ठ सीमान्त लुकाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:490
+msgid "Show Rulers"
+msgstr "रूलरहरू देखाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:493
+msgid "Hide Rulers"
+msgstr "रूलरहरू लुकाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:497
+msgid "Show Grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:500
+msgid "Hide Grid"
+msgstr "ग्रिड लुकाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:503
+msgid "Snap Grid"
+msgstr "ग्रिड सटाउनुहोस्"
+
+#: kiviopart/kivio_view.cpp:507
+msgid "Guide Lines"
+msgstr "मार्गदर्शक रेखा"
+
+#: kiviopart/kivio_view.cpp:509
+msgid "Add Guide Line..."
+msgstr "मार्गदर्शक रेखा थप्नुहोस्..."
+
+#: kiviopart/kivio_view.cpp:514
+msgid "Arrowheads"
+msgstr "बाँणशीर्ष"
+
+#: kiviopart/kivio_view.cpp:521
+msgid "Install Stencil Set..."
+msgstr "स्टेन्सिल सेट स्थापना गर्नुहोस्..."
+
+#: kiviopart/kivio_view.cpp:620 kiviopart/kivio_view.cpp:645
+msgid "Rename Page"
+msgstr "पृष्ठ पुन: नामकरण गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:621
+msgid "Enter page name:"
+msgstr "पृष्ठ नाम प्रविष्ट गर्नुहोस्:"
+
+#: kiviopart/kivio_view.cpp:629
+msgid "Page name cannot be empty."
+msgstr "पृष्ठ नाम खाली गर्न सकिँदैन ।"
+
+#: kiviopart/kivio_view.cpp:630 kiviopart/kivio_view.cpp:641
+msgid "Change Page Name"
+msgstr "पृष्ठ नाम परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:640
+msgid "This name is already used."
+msgstr "यो नाम पहिल्यै प्रयोग गरिएको छ ।"
+
+#: kiviopart/kivio_view.cpp:721
+msgid "You cannot hide the last visible page."
+msgstr "तपाईँले अन्तिम दृश्यात्मक पृष्ठ हटाउन सक्नुहुन्न ।"
+
+#: kiviopart/kivio_view.cpp:794
+msgid "Change Page Layout"
+msgstr "पृष्ठ सजावट परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:804
+msgid "You cannot delete the only page of the document."
+msgstr "तपाईँले कागजातको पृष्ठ मात्र मेट्न सक्नुहुन्न ।"
+
+#: kiviopart/kivio_view.cpp:808
+msgid ""
+"You are going to remove the active page.\n"
+"Do you want to continue?"
+msgstr ""
+"तपाईँ सक्रिय पृष्ठ हटाउन गइरहनु भएको छ ।\n"
+"तपाईँ जारी राख्न चाहनुहुन्छ ?"
+
+#: kiviopart/kivio_view.cpp:967
+msgid "Change Foreground Color"
+msgstr "अग्रभूमि रङ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:975
+msgid "Change Fg Color"
+msgstr "एफजी रङ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:998
+msgid "Change Background Color"
+msgstr "पृष्ठभूमि रङ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1007
+msgid "Change Bg Color"
+msgstr "बीजी रङ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1032 kiviopart/kivio_view.cpp:1040
+msgid "Change Text Color"
+msgstr "पाठ रङ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1064 kiviopart/kivio_view.cpp:1071
+msgid "Change Line Width"
+msgstr "रेखा चौडाइ परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1098 kiviopart/kivio_view.cpp:1105
+msgid "Change Line Style"
+msgstr "रेखा शैली परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1451
+msgid "Change Begin Arrow"
+msgstr "सुरुको बाँण परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1458 kiviopart/kivio_view.cpp:1490
+msgid "Change Arrow"
+msgstr "बाँण परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1483
+msgid "Change End Arrow"
+msgstr "अन्तिम बाँण परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1515
+msgid "Change Size of Begin Arrow"
+msgstr "सुरु बाँणको साइज परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1521 kiviopart/kivio_view.cpp:1545
+#: kiviopart/kivio_view.cpp:1551
+msgid "Change Size of End Arrow"
+msgstr "अन्तिम बाँणको साइज परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1690
+msgid "Change Stencil Rotation"
+msgstr "स्टेन्सिल परिक्रमण परिवर्तन गर्नुहोस्"
+
+#: kiviopart/kivio_view.cpp:1845
+msgid "X: %1 %3 Y: %2 %4"
+msgstr "X: %1 %3 Y: %2 %4"
+
+#: kiviopart/kivio_view.cpp:2192
+msgid "Page %1/%2"
+msgstr "पृष्ठ %1/%2"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:40
+msgid "Arrowhead Format"
+msgstr "बाँणशीर्ष ढाँचा"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:55
+msgid "<b>Arrowhead at Origin</b>"
+msgstr "<b>उत्पतिमा बाँणशीर्ष</b>"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:59
+msgid "&Type:"
+msgstr "प्रकार:"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:63
+msgid "&Width:"
+msgstr "चौडाइ:"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:66
+msgid "&Length:"
+msgstr "लम्बाई:"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:73
+msgid "<b>Arrowhead at End</b>"
+msgstr "<b>अन्त्यमा बाँणशीर्ष</b>"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:76
+msgid "T&ype:"
+msgstr "प्रकार:"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:80
+msgid "W&idth:"
+msgstr "चौडाइ:"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:83
+msgid "L&ength:"
+msgstr "लम्बाइ:"
+
+#: kiviopart/ui/export_page_dialog.cpp:13
+msgid "Export Page"
+msgstr "पृष्ठ निर्यात गर्नुहोस्"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:36
+msgid "Stencil & Connector Format"
+msgstr "स्टेन्सिल र योजक ढाँचा"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:48
+msgid "Line &width:"
+msgstr "रेखा चौडाइ:"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:51
+msgid "Line &color:"
+msgstr "रेखा रङ:"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:54
+msgid "Line &style:"
+msgstr "रेखा शैली"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:58
+msgid "Line &end style:"
+msgstr "रेखा समाप्ति शैली:"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:62
+msgid "&Fill color:"
+msgstr "रङ भर्नुहोस्:"
+
+#: kiviopart/ui/kiviostencilformatdlg.cpp:65
+msgid "F&ill style:"
+msgstr "शैली भर्नुहोस्:"
+
+#: kiviopart/ui/kivio_protection_panel.cpp:53
+#: kiviopart/ui/kivio_protection_panel.cpp:58
+#: kiviopart/ui/kivio_protection_panel.cpp:79
+#: kiviopart/ui/kivio_protection_panel.cpp:85
+#: kiviopart/ui/kivio_protection_panel.cpp:106
+#: kiviopart/ui/kivio_protection_panel.cpp:112
+#: kiviopart/ui/kivio_protection_panel.cpp:133
+#: kiviopart/ui/kivio_protection_panel.cpp:139
+#: kiviopart/ui/kivio_protection_panel.cpp:160
+#: kiviopart/ui/kivio_protection_panel.cpp:166
+#: kiviopart/ui/kivio_protection_panel.cpp:188
+#: kiviopart/ui/kivio_protection_panel.cpp:194
+msgid "Change Protection Attribute"
+msgstr "सुरक्षा विशेषता परिवर्तन गर्नुहोस्"
+
+#: kiviopart/ui/objectlistpalette.cpp:54
+msgid "Group"
+msgstr "समूह"
+
+#: kiviopart/ui/objectlistpalette.cpp:58
+msgid "Connector"
+msgstr "योजक"
+
+#: kiviopart/ui/objectlistpalette.cpp:62
+msgid "Text Area"
+msgstr "पाठ क्षेत्र"
+
+#: kiviopart/ui/objectlistpalette.cpp:67
+msgid "Stencil"
+msgstr "स्टेन्सिल"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:74 kiviopart/ui/objectlistpalette.cpp:95
+msgid "Name"
+msgstr "नाम"
+
+#: kiviopart/ui/objectlistpalette.cpp:96
+msgid "Type"
+msgstr "प्रकार"
+
+#: kiviopart/ui/kivioaligndialog.cpp:32
+msgid "Align & Distribute"
+msgstr "पङ्क्तिबद्ध गर्नुहोस् र वितरण गर्नुहोस्"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:91
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:100
+msgid "Page Settings"
+msgstr "पृष्ठ सेटिङ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:109
+msgid "Default &units:"
+msgstr "पूर्वानिर्धारित एकाई:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:114
+msgid "Default layout:"
+msgstr "पूर्वानिर्धारित सजावट:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:120
+#: kiviopart/ui/kiviooptionsdialog.cpp:129
+msgid "Change..."
+msgstr "परिवर्तन गर्नुहोस्..."
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:123
+msgid "Default font:"
+msgstr "पूर्वानिर्धारित फन्ट:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:132
+msgid "Show page &margins"
+msgstr "पृष्ठ सीमान्तहरू देखाउनुहोस्"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:134
+msgid "Show page &rulers"
+msgstr "पृष्ठ रूलर देखाउनुहोस्"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:158
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:158
+msgid "Grid Settings"
+msgstr "ग्रिड सेटिङ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:170
+msgid "Show &grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:172
+msgid "Snap to g&rid"
+msgstr "ग्रिडमा सटाउनुहोस्"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:174
+msgid "Grid &color:"
+msgstr "ग्रिड रङ:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:178
+msgid "&Horizontal:"
+msgstr "तेर्सो:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:182
+msgid "&Vertical:"
+msgstr "ठाडो:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:186
+msgid "Snap Distance"
+msgstr "दूरी सटाउनुहोस्"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:187
+msgid "H&orizontal:"
+msgstr "तेर्सो:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:191
+msgid "V&ertical:"
+msgstr "ठाडो:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:263
+msgid "Format: %1, Width: %2 %4, Height: %3 %5"
+msgstr "ढाँचा: %1, चौडाइ: %2 %4, उचाइ: %3 %5"
+
+#: kiviopart/ui/addstencilsetdialog.cpp:28
+msgid "Stencil Sets"
+msgstr "स्टेन्सिल सेट"
+
+#: kiviopart/ui/layerlisttooltip.cpp:54
+msgid "Visible: "
+msgstr "दृश्यात्मक: "
+
+#: kiviopart/ui/layerlisttooltip.cpp:55
+msgid "Printable: "
+msgstr "मुद्रणयोग्य: "
+
+#: kiviopart/ui/layerlisttooltip.cpp:56
+msgid "Editable: "
+msgstr "सम्पादनयोग्य: "
+
+#: kiviopart/ui/layerlisttooltip.cpp:57
+msgid "Connectable: "
+msgstr "जडानयोग्य: "
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:47
+msgid "Text color:"
+msgstr "पाठ रङ:"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:58
+msgid "Position"
+msgstr "स्थिति"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:61
+msgid "&Center"
+msgstr "केन्द्र"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:69
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:72
+msgid "Editable"
+msgstr "सम्पादनयोग्य"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:73
+msgid "Connect"
+msgstr "जडान गर्नुहोस्"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:78
+msgid "New Layer"
+msgstr "नयाँ तह"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:80
+#: kiviopart/ui/kivio_layer_panel.cpp:159
+#: kiviopart/ui/kivio_layer_panel.cpp:164
+msgid "Rename Layer"
+msgstr "तह पुन: नामकरण गर्नुहोस्"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:81
+msgid "Move Layer Up"
+msgstr "माथिल्लो तह सार्नुहोस्"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:82
+msgid "Move Layer Down"
+msgstr "तल्लो तह सार्नुहोस्"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:121
+#, c-format
+msgid "Layer %1"
+msgstr "तह %1"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:127
+msgid "Add Layer"
+msgstr "तह थप्नुहोस्"
+
+#: kiviopart/ui/kivio_layer_panel.cpp:160
+msgid "Layer name:"
+msgstr "तह नाम:"
+
+#: kiviopart/main.cpp:30
+msgid "File to open"
+msgstr "खोल्नुपर्ने फाइल"
+
+#: kiviopart/kivio_zoomaction.cpp:32 kiviopart/kivio_zoomaction.cpp:33
+#: kiviopart/kivio_zoomaction.cpp:34 kiviopart/kivio_zoomaction.cpp:35
+#: kiviopart/kivio_zoomaction.cpp:36 kiviopart/kivio_zoomaction.cpp:37
+#: kiviopart/kivio_zoomaction.cpp:38 kiviopart/kivio_zoomaction.cpp:39
+#: kiviopart/kivio_zoomaction.cpp:40 kiviopart/kivio_zoomaction.cpp:41
+#: kiviopart/kivio_zoomaction.cpp:42 kiviopart/kivio_zoomaction.cpp:43
+#: kiviopart/kivio_zoomaction.cpp:87 kiviopart/kivio_zoomaction.cpp:89
+#: kiviopart/kivio_zoomaction.cpp:94
+msgid "%1%"
+msgstr "%1%"
+
+#: kiviopart/kivio_doc.cpp:424
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr "अवैध OASIS कागजात । कुनै अफिस:बडी ट्याग फेला परेन ।"
+
+#: kiviopart/kivio_doc.cpp:433
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr "अवैध OASIS कागजात । कुनै अफिस:रेखाचित्र ट्याग फेला परेन ।"
+
+#: kiviopart/kivio_doc.cpp:629
+#, c-format
+msgid "Page%1"
+msgstr "पृष्ठ%1"
+
+#: kiviopart/kivio_dlg_pageshow.cpp:37
+msgid "Show Page"
+msgstr "पृष्ठ देखाउनुहोस्"
+
+#: kiviopart/kivio_dlg_pageshow.cpp:48
+msgid "Select hidden page to show:"
+msgstr "देखाउनुका लागि लुकाइएका पृष्ठ चयन गर्नुहोस्:"
+
+#: kiviopart/kiviostencilsetinstaller.cpp:44
+msgid "Install Stencil Set"
+msgstr "स्टेन्सिल सेट स्थापना गर्नुहोस्"
+
+#: kiviopart/kiviostencilsetinstaller.cpp:52
+msgid "&Install"
+msgstr "स्थापना गर्नुहोस्"
+
+#: kiviopart/kiviostencilsetinstaller.cpp:77
+#, c-format
+msgid "Could not find the stencil set archive %1."
+msgstr "स्टेन्सिल सेट सङ्ग्रह %1 फेला पार्न सकिएन ।"
+
+#: kiviopart/kiviostencilsetinstaller.cpp:88
+msgid "The file is not a valid stencil set archive."
+msgstr "फाइल वैध स्टेन्सिल सेट सङ्ग्रह होइन ।"
+
+#: kiviopart/kiviostencilsetinstaller.cpp:95
+msgid "The stencil set archive installed without errors."
+msgstr "स्टेन्सिल सेट सङ्ग्रह त्रुटि बिना स्थापना भएको छ ।"
+
+#: kiviopart/kiviostencilsetinstaller.cpp:97
+msgid "The entire archive could not be installed successfully."
+msgstr "सम्पूर्ण सङ्ग्रह सफलतापूर्वक स्थापना हुन सकेन ।"
+
+#: _translatorinfo.cpp:1 _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3 _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+"Shyam krishna bal<shyamkrishna_bal@hotmail.com>,,,submanesh@gmail.com"
+
+#: kiviopart/kivio_aboutdata.h:28
+msgid "KOffice Flowchart And Diagram Tool"
+msgstr "के अफिस प्रभाहचित्रपट र रेखाचित्र उपकरण"
+
+#: kiviopart/kivio_aboutdata.h:33
+msgid "Kivio"
+msgstr "किभियो"
+
+#: kiviopart/kivio_aboutdata.h:35
+msgid "(C) 2000-2006, The Kivio Team"
+msgstr "(C) 2000-2006, किभियो समूह"
+
+#: kiviopart/kivio_aboutdata.h:37
+msgid "Maintainer"
+msgstr "सञ्भारकर्ता"
+
+#: kiviopart/kivio_aboutdata.h:38 kiviopart/kivio_aboutdata.h:39
+msgid "Development"
+msgstr "विकास"
+
+#: kiviopart/kivio_aboutdata.h:40
+msgid "Development/Documentation"
+msgstr "विकास/मिसिलिकरण"
+
+#: kiviopart/kivio_aboutdata.h:41
+msgid "Artwork (stencils and icons)"
+msgstr "चित्रकला (स्टेन्सिल र प्रतिमा)"
+
+#: kiviopart/kivio_aboutdata.h:42
+msgid "Nassi Schneiderman stencils"
+msgstr "नासी नेइडरमेन स्टेन्सिल"
+
+#: kiviopart/kivio_aboutdata.h:43
+msgid "Initial idea, development and basic stencil sets."
+msgstr "सुरुको विचार, विकास र आधारभूत स्टेन्सिल सेट ।"
+
+#: kiviopart/kivio_aboutdata.h:44
+msgid "Development and additional stencil sets."
+msgstr "विकास र थप स्टेन्सिल सेट ।"

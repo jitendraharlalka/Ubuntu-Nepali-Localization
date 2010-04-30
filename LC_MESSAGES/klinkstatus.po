@@ -1,0 +1,1434 @@
+# Nepali translation for kdewebdev
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdewebdev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdewebdev\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-10 19:08+0000\n"
+"PO-Revision-Date: 2009-12-24 07:09+0000\n"
+"Last-Translator: Launchpad Translations Administrators "
+"<rosetta@launchpad.net>\n"
+"Language-Team: Nepali <ne@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:39+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: klinkstatus_part.cpp:52
+msgid "A Link Checker"
+msgstr "लिङ्क परीक्षक"
+
+#: klinkstatus_part.cpp:134
+msgid "Check"
+msgstr "जाँच गर्नुहोस्"
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:74
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: klinkstatus_part.cpp:135 rc.cpp:372
+msgid "Results"
+msgstr "परिणाम"
+
+#: klinkstatus_part.cpp:136
+msgid "Identification"
+msgstr "पहिचान"
+
+#: klinkstatus_part.cpp:138
+msgid "Configure the way KLinkstatus reports itself"
+msgstr "केडीई लिङ्क स्थितिले आफैँले प्रतिवेदन गर्ने तरिका कन्फिगर गर्नुहोस्"
+
+#: klinkstatus_part.cpp:139 pim/pimconfigdialog.cpp:50
+#: pim/pimconfigdialog.cpp:51
+msgid "Mail Transport"
+msgstr ""
+
+#: klinkstatus_part.cpp:168 main.cpp:37
+msgid "KLinkStatus"
+msgstr "केडीई लिङ्क स्थिति"
+
+#: klinkstatus_part.cpp:175
+msgid "KLinkStatus Part"
+msgstr "केडीई लिङ्क स्थिति भाग"
+
+#: klinkstatus_part.cpp:177
+msgid "(C) 2004 Paulo Moura Guedes"
+msgstr ""
+
+#: klinkstatus_part.cpp:179 main.cpp:41
+msgid "Paulo Moura Guedes"
+msgstr ""
+
+#: klinkstatus_part.cpp:181 main.cpp:43
+msgid "Manuel Menezes de Sequeira"
+msgstr ""
+
+#: klinkstatus_part.cpp:182 main.cpp:44
+msgid "Gonçalo Silva"
+msgstr ""
+
+#: klinkstatus_part.cpp:183 main.cpp:45
+msgid "Nuno Monteiro"
+msgstr ""
+
+#: klinkstatus_part.cpp:184 main.cpp:46
+msgid "Eric Laffoon"
+msgstr ""
+
+#: klinkstatus_part.cpp:185 main.cpp:47
+msgid "Andras Mantia"
+msgstr ""
+
+#: klinkstatus_part.cpp:186 main.cpp:48
+msgid "Michal Rudolf"
+msgstr ""
+
+#: klinkstatus_part.cpp:187 main.cpp:49
+msgid "Mathieu Kooiman"
+msgstr ""
+
+#: klinkstatus_part.cpp:188 main.cpp:50
+msgid "Jens Herden"
+msgstr ""
+
+#: klinkstatus.cpp:79
+msgid ""
+"Could not find the KLinkStatus part; did you configure with '--"
+"prefix=/$KDEDIR' and perform 'make install'?"
+msgstr ""
+"केडीई लिङ्क स्थिति भाग फेला पार्न सकेन; तपाईँले '--prefix=/$KDEDIR' सँग "
+"कन्फिगर र 'स्थापना गर्नुहोस्' सम्पादन गर्नुभयो ?"
+
+#: ui/documentrootdialog.cpp:36
+msgid "Choose a Document Root"
+msgstr ""
+
+#: ui/documentrootdialog.cpp:46
+msgid ""
+"As you are using a protocol other than HTTP, \n"
+"there is no way to guess where the document root is, \n"
+"in order to resolve relative URLs like the ones started with \"/\".\n"
+"\n"
+"Please specify one:"
+msgstr ""
+
+#: ui/unreferreddocumentswidget.cpp:75
+msgid "Delete checked Documents"
+msgstr ""
+
+#: ui/unreferreddocumentswidget.cpp:77
+msgid "Delete All Documents"
+msgstr ""
+
+#: ui/unreferreddocumentswidget.cpp:134
+msgid ""
+"Cannot crawl through directories using HTTP.\n"
+"\n"
+"Try using file, ftp, sftp or fish, for example."
+msgstr ""
+
+#: ui/unreferreddocumentswidget.cpp:145
+msgid "Crawling folders..."
+msgstr ""
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:153
+#. i18n: ectx: property (text), widget (QLabel, progressLabel)
+#. i18n: file: ui/sessionwidgetbase.ui:420
+#. i18n: ectx: property (text), widget (QLabel, textlabel_progressbar)
+#: ui/unreferreddocumentswidget.cpp:185 ui/unreferreddocumentswidget.cpp:202
+#: ui/sessionwidget.cpp:500 rc.cpp:77 rc.cpp:171
+msgid "Ready"
+msgstr "तयार"
+
+#: ui/unreferreddocumentswidget.cpp:191
+msgid "Matching results..."
+msgstr ""
+
+#: ui/treeview.cpp:347 ui/treeview.cpp:368
+msgid "Invalid URL."
+msgstr "अवैध यूआरएल"
+
+#: ui/treeview.cpp:356
+msgid "ROOT URL."
+msgstr "मूल यूआरएल"
+
+#. i18n: file: klinkstatus_part.rc:40
+#. i18n: ectx: Menu (recheck)
+#: ui/treeview.cpp:376 rc.cpp:18 rc.cpp:315
+msgid "Recheck"
+msgstr ""
+
+#: ui/treeview.cpp:382 ui/treeview.cpp:397
+msgid "Edit Referrer"
+msgstr ""
+
+#: ui/treeview.cpp:386
+msgid "All"
+msgstr "सबै"
+
+#: ui/treeview.cpp:402
+msgid "Open URL"
+msgstr "यूआरएल खोल्नुहोस्"
+
+#: ui/treeview.cpp:404
+msgid "Open Referrer URL"
+msgstr "रिफरर यूआरएल खोल्नुहोस्"
+
+#: ui/treeview.cpp:409
+msgid "Copy URL"
+msgstr "यूआरएल प्रतिलिपि गर्नुहोस्"
+
+#: ui/treeview.cpp:411
+msgid "Copy Referrer URL"
+msgstr "रिफरर यूआरएल प्रतिलिपि गर्नुहोस्"
+
+#: ui/treeview.cpp:413
+msgid "Copy Cell Text"
+msgstr "कक्ष पाठ प्रतिलिपि गर्नुहोस्"
+
+#: ui/resultview.cpp:146
+msgid "Javascript not supported"
+msgstr "असमर्थित जाभा स्क्रिप्ट"
+
+#: ui/sessionwidget.cpp:262 ui/sessionwidget.cpp:427 ui/sessionwidget.cpp:652
+#: ui/sessionwidget.cpp:657 ui/sessionwidget.cpp:663 ui/sessionwidget.cpp:814
+#: ui/sessionwidget.cpp:951
+msgid "Checking..."
+msgstr "जाँच गर्दैछ..."
+
+#: ui/sessionwidget.cpp:387
+msgid "Cowardly refusing to check an empty URL."
+msgstr "निश्चित नभएर खाली यूआरएल चेक गर्न अस्वीकार गर्यो ।"
+
+#: ui/sessionwidget.cpp:428 ui/sessionwidget.cpp:533 ui/sessionwidget.cpp:952
+msgid "Stopped"
+msgstr "रोकियो"
+
+#: ui/sessionwidget.cpp:520
+msgid "Finished checking"
+msgstr ""
+
+#: ui/sessionwidget.cpp:560
+msgid "Paused"
+msgstr ""
+
+#: ui/sessionwidget.cpp:653 ui/sessionwidget.cpp:656
+msgid "Adding level..."
+msgstr "स्तर थप्दैछ..."
+
+#: ui/sessionwidget.cpp:824
+msgid "Resuming"
+msgstr ""
+
+#: ui/sessionwidget.cpp:885
+msgid "Export Results as HTML"
+msgstr "एचटीएमएलका रुपमा परिणाम निर्यात गर्नुहोस्"
+
+#: ui/sessionwidget.cpp:910
+msgid "Create XML Site Map"
+msgstr ""
+
+#: ui/sessionwidget.cpp:927
+msgid ""
+"Use a protocol other than HTTP, e.g. file, ftp, sftp, fish, etc., so the "
+"files can be saved."
+msgstr ""
+
+#: ui/sessionwidget.cpp:940
+msgid "Checking"
+msgstr ""
+
+#: ui/sessionwidget.cpp:968
+msgid "Done rechecking "
+msgstr ""
+
+#: ui/resultssearchbar.cpp:79
+msgid "S&earch:"
+msgstr "खोजी:"
+
+#: ui/resultssearchbar.cpp:93
+msgid "Status:"
+msgstr "स्थिति:"
+
+#: ui/resultssearchbar.cpp:106
+msgid "All Links"
+msgstr "सबै लिङ्कहरू"
+
+#: ui/resultssearchbar.cpp:107
+msgid "Good Links"
+msgstr "उत्तम लिङ्क"
+
+#: ui/resultssearchbar.cpp:108
+msgid "Broken Links"
+msgstr "छुटेको लिङ्क"
+
+#: ui/resultssearchbar.cpp:109
+msgid "Malformed Links"
+msgstr "विकृत लिङ्क"
+
+#: ui/resultssearchbar.cpp:110
+msgid "Undetermined Links"
+msgstr "निर्धारण नगरिएका लिङ्क"
+
+#: ui/resultssearchbar.cpp:115
+msgid "Clear filter"
+msgstr "फिल्टर खाली गर्नुहोस्"
+
+#: ui/resultssearchbar.cpp:116
+msgid "Enter the terms to filter the result link list"
+msgstr "परिणाम लिङ्क सूची फिल्टर गर्न सर्तहरू प्रविष्ट गर्नहोस्"
+
+#: ui/resultssearchbar.cpp:117
+msgid "Choose what kind of link status to show in result list"
+msgstr "परिणाम सूचीमा कस्तो प्रकारको लिङ्क वस्तुस्थिति देखाउने रोज्नुहोस्"
+
+#: ui/trayicon.cpp:47
+msgid "KLinkStatus - Link Checker"
+msgstr ""
+
+#: ui/tabwidgetsession.cpp:58
+msgid "Open new tab"
+msgstr "नयाँ ट्याब खोल्नुहोस्"
+
+#: ui/tabwidgetsession.cpp:66
+msgid "Close the current tab"
+msgstr "हालको ट्याब बन्द गर्नुहोस्"
+
+#: ui/tabwidgetsession.cpp:126
+msgid "Session"
+msgstr "सत्र"
+
+#: ui/httppostdialog.cpp:36
+msgid "Login Input"
+msgstr ""
+
+#: engine/linkchecker.cpp:216 engine/linkchecker.cpp:235
+#: engine/linkchecker.cpp:439 engine/linkchecker.cpp:462
+#: engine/linkchecker.cpp:622 engine/linkchecker.cpp:696
+#: engine/linkchecker.cpp:729
+msgid "OK"
+msgstr ""
+
+#: engine/linkchecker.cpp:455
+msgid "No Content"
+msgstr ""
+
+#: engine/linkchecker.cpp:523
+msgid "redirection"
+msgstr ""
+
+#: actionmanager.cpp:99
+msgid "New Session"
+msgstr ""
+
+#: actionmanager.cpp:105
+msgid "Open URL..."
+msgstr "यूआरएल खोल्नुहोस्..."
+
+#: actionmanager.cpp:112
+msgid "Close Session"
+msgstr ""
+
+#: actionmanager.cpp:118
+msgid "Download New Stylesheets..."
+msgstr ""
+
+#: actionmanager.cpp:125
+msgid "Configure KLinkStatus..."
+msgstr "केडीई लिङ्क स्थिति कन्फिगर गर्नुहोस्..."
+
+#: actionmanager.cpp:132
+msgid "About KLinkStatus"
+msgstr "केडीई लिङ्क स्थितिका बारेमा"
+
+#: actionmanager.cpp:137 actionmanager.cpp:139
+msgid "&Report Bug..."
+msgstr "बग प्रतिवेदन गर्नुहोस्..."
+
+#: actionmanager.cpp:157
+msgid "All..."
+msgstr ""
+
+#: actionmanager.cpp:162
+msgid "Broken..."
+msgstr ""
+
+#: actionmanager.cpp:167
+msgid "Create Site Map..."
+msgstr ""
+
+#: actionmanager.cpp:176
+msgid "&Follow Last Link"
+msgstr ""
+
+#: actionmanager.cpp:177
+msgid "Follow last Link checked (slower)"
+msgstr ""
+
+#: actionmanager.cpp:186
+msgid "&Hide Search Panel"
+msgstr "खोजी प्यानल लुकाउनुहोस्"
+
+#: actionmanager.cpp:193
+msgid "&Reset Search Options"
+msgstr "खोजी विकल्प रिसेट गर्नुहोस्"
+
+#: actionmanager.cpp:198
+msgid "&Disable Updates on Results Table"
+msgstr ""
+
+#: actionmanager.cpp:199
+msgid "Disable Updates on Results Table (faster)"
+msgstr ""
+
+#: actionmanager.cpp:209
+msgid "&Start Search"
+msgstr "खोजी सुरु गर्नुहोस्"
+
+#: actionmanager.cpp:215
+msgid "&Pause Search"
+msgstr "खोजी पज गर्नुहोस्"
+
+#: actionmanager.cpp:221
+msgid "St&op Search"
+msgstr "खोजी रोक्नुहोस्"
+
+#: actionmanager.cpp:227
+msgid "Search in Background"
+msgstr ""
+
+#: actionmanager.cpp:231
+msgid "Check Links in background and update results when finished (faster)"
+msgstr ""
+
+#: actionmanager.cpp:234
+msgid "&Broken Links"
+msgstr ""
+
+#: actionmanager.cpp:240
+msgid "&Displayed Links"
+msgstr ""
+
+#: actionmanager.cpp:246
+msgid "&Unreferred Documents..."
+msgstr ""
+
+#: actionmanager.cpp:254
+msgid "&Fix All..."
+msgstr ""
+
+#: actionmanager.cpp:262
+msgid "Check Links"
+msgstr ""
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:120
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: actionmanager.cpp:268 rc.cpp:71
+msgid "Unreferred Documents"
+msgstr ""
+
+#: actionmanager.cpp:274
+msgid "Previous View"
+msgstr ""
+
+#: actionmanager.cpp:280
+msgid "Next View"
+msgstr ""
+
+#: actionmanager.cpp:286
+msgid "Previous Session"
+msgstr ""
+
+#: actionmanager.cpp:292
+msgid "Next Session"
+msgstr ""
+
+#: actionmanager.cpp:300 actionmanager.cpp:303
+msgid "Change View"
+msgstr ""
+
+#: plugins/automation/automationpart.cpp:82
+msgid "Schedule Link Checks..."
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:61
+msgid "Configure Site check Automation"
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:65
+msgid "New..."
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:67
+msgid "Remove"
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:98
+msgid "empty"
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:133
+#, kde-format
+msgid "Could not delete configuration file %1"
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:153
+msgid "Recurring Check Name"
+msgstr ""
+
+#: plugins/scripting/scriptingpart.cpp:69
+msgid "Edit Script Actions..."
+msgstr ""
+
+#: plugins/scripting/scriptingpart.cpp:73
+msgid "Reset Script Actions..."
+msgstr ""
+
+#: main.cpp:31
+msgid ""
+"A Link Checker.\n"
+"\n"
+"KLinkStatus belongs to the kdewebdev module from KDE."
+msgstr ""
+"लिङ्क परीक्षक\n"
+"\n"
+"केडीई लिङ्क स्थिति केडीईको kdewebdev मोड्युलमा हुन्छ ।"
+
+#: main.cpp:38
+msgid "(C) 2004-2008 Paulo Moura Guedes"
+msgstr ""
+
+#: main.cpp:51
+msgid "Helge Hielscher"
+msgstr ""
+
+#: main.cpp:56
+msgid "Document to open"
+msgstr "खोल्नका लागि कागजात"
+
+#: pim/pimconfigdialog.cpp:45
+msgid "Configure PIM information"
+msgstr ""
+
+#: pim/pimconfigdialog.cpp:57 pim/pimconfigdialog.cpp:58
+msgid "User Information"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: klinkstatus_shell.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: klinkstatus_part.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: klinkstatus_shell.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:39 rc.cpp:300 rc.cpp:336
+msgid "&File"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:10
+#. i18n: ectx: Menu (file_export_html)
+#: rc.cpp:6 rc.cpp:303
+msgid "Export to HTML"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:20
+#. i18n: ectx: Menu (settings)
+#. i18n: file: klinkstatus_shell.rc:31
+#. i18n: ectx: Menu (settings)
+#. i18n: file: klinkstatus_part.rc:20
+#. i18n: ectx: Menu (settings)
+#. i18n: file: klinkstatus_shell.rc:31
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:9 rc.cpp:57 rc.cpp:306 rc.cpp:354
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: klinkstatus_shell.rc:11
+#. i18n: ectx: Menu (view)
+#. i18n: file: klinkstatus_part.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: klinkstatus_shell.rc:11
+#. i18n: ectx: Menu (view)
+#: rc.cpp:12 rc.cpp:42 rc.cpp:309 rc.cpp:339
+msgid "&View"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:33
+#. i18n: ectx: Menu (search)
+#. i18n: file: klinkstatus_shell.rc:15
+#. i18n: ectx: Menu (search)
+#. i18n: file: klinkstatus_part.rc:33
+#. i18n: ectx: Menu (search)
+#. i18n: file: klinkstatus_shell.rc:15
+#. i18n: ectx: Menu (search)
+#: rc.cpp:15 rc.cpp:45 rc.cpp:312 rc.cpp:342
+msgid "S&earch"
+msgstr "खोजी गर्नुहोस्"
+
+#. i18n: file: klinkstatus_part.rc:48
+#. i18n: ectx: Menu (validate)
+#. i18n: file: klinkstatus_shell.rc:19
+#. i18n: ectx: Menu (validate)
+#. i18n: file: klinkstatus_part.rc:48
+#. i18n: ectx: Menu (validate)
+#. i18n: file: klinkstatus_shell.rc:19
+#. i18n: ectx: Menu (validate)
+#: rc.cpp:21 rc.cpp:48 rc.cpp:318 rc.cpp:345
+msgid "&Validate"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:53
+#. i18n: ectx: Menu (manual_validation)
+#: rc.cpp:24 rc.cpp:321
+msgid "Manual Fix"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:60
+#. i18n: ectx: Menu (window)
+#. i18n: file: klinkstatus_shell.rc:27
+#. i18n: ectx: Menu (window)
+#. i18n: file: klinkstatus_part.rc:60
+#. i18n: ectx: Menu (window)
+#. i18n: file: klinkstatus_shell.rc:27
+#. i18n: ectx: Menu (window)
+#: rc.cpp:27 rc.cpp:54 rc.cpp:324 rc.cpp:351
+msgid "&Window"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:64
+#. i18n: ectx: Menu (navigation)
+#: rc.cpp:30 rc.cpp:327
+msgid "Navigation"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:76
+#. i18n: ectx: Menu (help)
+#: rc.cpp:33 rc.cpp:330
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: klinkstatus_part.rc:84
+#. i18n: ectx: ToolBar (linksToolBar)
+#: rc.cpp:36 rc.cpp:333
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: klinkstatus_shell.rc:23
+#. i18n: ectx: Menu (tools)
+#. i18n: file: plugins/automation/klinkstatus_automation.rc:4
+#. i18n: ectx: Menu (tools)
+#. i18n: file: plugins/scripting/scripting.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:51 rc.cpp:348 rc.cpp:408 rc.cpp:411
+msgid "&Tools"
+msgstr ""
+
+#: rc.cpp:58
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:59
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, UnreferredDocumentsWidget)
+#: rc.cpp:62
+msgid "Unreferred DocumentsWidget"
+msgstr ""
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: ui/sessionwidgetbase.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, searchGroupBox)
+#: rc.cpp:65 rc.cpp:141
+msgid "Search"
+msgstr "खोजी गर्नुहोस्"
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:48
+#. i18n: ectx: property (text), widget (QLabel, textlabel_url)
+#: rc.cpp:68
+msgid "Base Folder:"
+msgstr ""
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:132
+#. i18n: ectx: property (clickMessage), widget (KListWidgetSearchLine, documentSearchLine)
+#: rc.cpp:74
+msgid "Filter Documents..."
+msgstr ""
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:208
+#. i18n: ectx: property (toolTip), widget (QLabel, elapsedTimeLabel)
+#. i18n: file: ui/unreferreddocumentswidget.ui:239
+#. i18n: ectx: property (toolTip), widget (QLabel, elapsedTimeValueLabel)
+#. i18n: file: ui/sessionwidgetbase.ui:505
+#. i18n: ectx: property (toolTip), widget (QLabel, textlabel_elapsed_time)
+#: rc.cpp:80 rc.cpp:86 rc.cpp:180
+msgid "hh:mm:ss"
+msgstr ""
+
+#. i18n: file: ui/unreferreddocumentswidget.ui:211
+#. i18n: ectx: property (text), widget (QLabel, elapsedTimeLabel)
+#. i18n: file: ui/sessionwidgetbase.ui:508
+#. i18n: ectx: property (text), widget (QLabel, textlabel_elapsed_time)
+#: rc.cpp:83 rc.cpp:183
+msgid "Elapsed time: "
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:89
+msgid "Domain"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:92
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">URL to send to the HTTP "
+"POST request, e.g. '<span style=\" font-family:'Courier New,courier';\">POST "
+"</span><span style=\" font-family:'Courier New,courier'; font-"
+"weight:600;\">/login/login</span><span style=\" font-family:'Courier "
+"New,courier';\"> HTTP/1.1</span>'. Should be the same as the action "
+"attribute in the form element, e.g.: '<a name=\"line163\"></a><span style=\" "
+"font-family:'Courier New,courier';\">&lt;</span><span style=\" font-"
+"family:'Courier New,courier';\">form "
+"action=\"/login/login\"&gt;</span></p></body></html>"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:89
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:99
+msgid "POST URL"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:106
+#. i18n: ectx: property (toolTip), widget (KLineEdit, lineeditPostUrl)
+#. i18n: file: ui/httppostwidgetui.ui:113
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lineeditPostUrl)
+#: rc.cpp:102 rc.cpp:109
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">URL to send to the HTTP "
+"POST request, e.g. 'POST <span style=\" font-"
+"weight:600;\">/login/login</span></p></body></html>"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:143
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:116
+msgid "POST Data"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:153
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:119
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Insert the fields to send "
+"to the POST request. Typically, the keys are <span style=\" font-"
+"weight:600;\">user</span>, <span style=\" font-weight:600;\">password</span> "
+"and <span style=\" font-weight:600;\">button</span> 'name' attributes in the "
+"<span style=\" font-weight:600;\">input</span> elements inside the form "
+"definition</p></body></html>"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:179
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: ui/httppostwidgetui.ui:260
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidgetPostData)
+#: rc.cpp:126 rc.cpp:135
+msgid "Key"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:206
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: ui/httppostwidgetui.ui:265
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidgetPostData)
+#: rc.cpp:129 rc.cpp:138
+msgid "Value"
+msgstr ""
+
+#. i18n: file: ui/httppostwidgetui.ui:229
+#. i18n: ectx: property (text), widget (KPushButton, buttonAdd)
+#: rc.cpp:132
+msgid "Add"
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:65
+#. i18n: ectx: property (text), widget (QLabel, textlabel_url)
+#: rc.cpp:144
+msgid "URL:"
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:129
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxLogin)
+#: rc.cpp:147
+msgid "Cookie based authentication, only possible with HTTP based protocol."
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxLogin)
+#: rc.cpp:150
+msgid "Login"
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:174
+#. i18n: ectx: property (text), widget (QLabel, Depth)
+#. i18n: file: ui/settings/configsearchdialog.ui:267
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2_2)
+#: rc.cpp:153 rc.cpp:231
+msgid "Depth:"
+msgstr "गहिराइ:"
+
+#. i18n: file: ui/sessionwidgetbase.ui:199
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinbox_depth)
+#. i18n: file: ui/settings/configsearchdialog.ui:289
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_Depth)
+#. i18n: file: plugins/automation/automationconfigpageui.ui:155
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_Depth)
+#: rc.cpp:156 rc.cpp:234 rc.cpp:396
+msgid "Unlimited"
+msgstr "असीमित"
+
+#. i18n: file: ui/sessionwidgetbase.ui:224
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_subdirs_only)
+#: rc.cpp:159
+msgid "Do &not check parent folders"
+msgstr "प्रमूल फोल्डर जाँच नगर्नुहोस्"
+
+#. i18n: file: ui/sessionwidgetbase.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_external_links)
+#: rc.cpp:162
+msgid "Chec&k external links"
+msgstr "बाह्य लिङ्क जाँच गर्नुहोस्"
+
+#. i18n: file: ui/sessionwidgetbase.ui:317
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:165
+msgid "Do not check regular expression:"
+msgstr "नियमित अभिव्यक्ति जाँच नगर्नुहोस्:"
+
+#. i18n: file: ui/sessionwidgetbase.ui:404
+#. i18n: ectx: property (text), widget (TreeView, tree_view)
+#: rc.cpp:168
+msgid "1"
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:449
+#. i18n: ectx: property (text), widget (QLabel, label_checked_links)
+#: rc.cpp:174
+msgid "Checked Links:"
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:483
+#. i18n: ectx: property (text), widget (KLineEdit, textedit_checked_links)
+#: rc.cpp:177
+msgid "0"
+msgstr ""
+
+#. i18n: file: ui/sessionwidgetbase.ui:542
+#. i18n: ectx: property (text), widget (KLineEdit, textedit_elapsed_time_value)
+#: rc.cpp:186
+msgid "00:00:00"
+msgstr ""
+
+#. i18n: file: ui/settings/configresultsdialog.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:189
+msgid "View"
+msgstr ""
+
+#. i18n: file: ui/settings/configresultsdialog.ui:36
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_DisplayTreeView)
+#: rc.cpp:192
+msgid "Tree"
+msgstr "ट्री"
+
+#. i18n: file: ui/settings/configresultsdialog.ui:43
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_DisplayFlatView)
+#: rc.cpp:195
+msgid "Flat (faster)"
+msgstr ""
+
+#. i18n: file: ui/settings/configresultsdialog.ui:68
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup13_2)
+#: rc.cpp:198
+msgid "Misc"
+msgstr "विविध"
+
+#. i18n: file: ui/settings/configresultsdialog.ui:80
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FollowLastLinkChecked)
+#: rc.cpp:201
+msgid "Follow Last Link Checked"
+msgstr "जाँचिएको अन्तिम लिङ्क अनुगमन गर्नुहोस्"
+
+#. i18n: file: ui/settings/configresultsdialog.ui:103
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:204
+msgid "Export Results"
+msgstr ""
+
+#. i18n: file: ui/settings/configresultsdialog.ui:109
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:207
+msgid "Preferred Style Sheet:"
+msgstr ""
+
+#. i18n: file: ui/settings/configsearchdialog.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:210
+msgid "Network"
+msgstr "सञ्जाल"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:119
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:213
+msgid "Number of simultaneous connections:"
+msgstr "समकालीन जडानका सङ्ख्या:"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:135
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: rc.cpp:216
+msgid "Timeout in seconds:"
+msgstr "समय समाप्त सेकेन्डमा:"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:148
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:219
+msgid "Input"
+msgstr "आगत"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:198
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckExternalLinks)
+#: rc.cpp:222
+msgid "Check external links"
+msgstr "बाह्य लिङ्क जाँच गर्नुहोस्"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:214
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:225
+msgid "Number of items in URL history:"
+msgstr "यूआरएल इतिहासमा वस्तुहरूको सङ्ख्या:"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:224
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckParentFolders)
+#: rc.cpp:228
+msgid "Check parent folders"
+msgstr "प्रमूल फोल्डर चेक गर्नुहोस्"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:301
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:237
+msgid "Quanta"
+msgstr "क्वान्टा"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:322
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseQuantaUrlPreviewPrefix)
+#: rc.cpp:240
+msgid ""
+"Check this one if you want to use Quanta's project preview prefix in the URL "
+"to check"
+msgstr ""
+"यदि तपाईँले जाँच गर्न यूआरएलमा क्वान्टाको परियोजना पूर्वावलोकन उपसर्ग प्रयोग "
+"गर्न चाहनुहुन्छ भने यो जाँच गर्नुहोस्"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:325
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuantaUrlPreviewPrefix)
+#: rc.cpp:243
+msgid "Use preview prefix"
+msgstr "पूर्वावलोकन उपसर्ग प्रयोग गर्नुहोस्"
+
+#. i18n: file: ui/settings/configsearchdialog.ui:338
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberCheckSettings)
+#: rc.cpp:246
+msgid "Remember settings when exit"
+msgstr "बाहिरिदा सेटिङ याद गर्नुहोस्"
+
+#. i18n: file: ui/settings/configidentificationdialogui.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:249
+msgid "HTTP Identification"
+msgstr ""
+
+#. i18n: file: ui/settings/configidentificationdialogui.ui:34
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SendIdentification)
+#: rc.cpp:252
+msgid "Send Identification"
+msgstr "पहिचान पठाउनुहोस्"
+
+#. i18n: file: ui/settings/configidentificationdialogui.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:255
+msgid "User-Agent"
+msgstr "प्रयोगकर्ता-अभिकर्ता"
+
+#. i18n: file: ui/settings/configidentificationdialogui.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, buttonDefault)
+#: rc.cpp:258
+msgid "Default"
+msgstr ""
+
+#. i18n: file: ui/settings/configidentificationdialogui.ui:124
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup)
+#: rc.cpp:261
+msgid "Identity"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:8
+#. i18n: ectx: label, entry, group (Scheduling)
+#: rc.cpp:264
+msgid "Name of the configuration, e.g. kdewebdev"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:13
+#. i18n: ectx: label, entry, group (Scheduling)
+#: rc.cpp:267
+msgid "Periodicity of the check"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:18
+#. i18n: ectx: label, entry, group (Scheduling)
+#: rc.cpp:270
+msgid "Hour in which the task will be executed"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:28
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: rc.cpp:273
+msgid "URL of the site to check"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:33
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: rc.cpp:276
+msgid ""
+"For protocols different than HTTP, specify the root of your files, e.g. "
+"'/var/www'"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:38
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: rc.cpp:279
+msgid "Depth of recursive search, -1 is unlimited"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:43
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: rc.cpp:282
+msgid "Whether to check links in parent folders"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:48
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: rc.cpp:285
+msgid "Whether to check external links"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:53
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: rc.cpp:288
+msgid "The URLs that match the regexp will not be checked"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:62
+#. i18n: ectx: label, entry, group (Results)
+#: rc.cpp:291
+msgid "Whether to include only broken links in the result"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:67
+#. i18n: ectx: label, entry, group (Results)
+#: rc.cpp:294
+msgid "The directory where the results will be saved"
+msgstr ""
+
+#. i18n: file: engine/automationconfig.kcfg:72
+#. i18n: ectx: label, entry, group (Results)
+#: rc.cpp:297
+msgid "The e-mail address to where results will be emailed"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:357
+msgid "Scheduling"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:360
+msgid "Name"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:47
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:363
+msgid "Periodicity"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:366
+msgid "Hour"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:64
+#. i18n: ectx: property (inputMask), widget (KLineEdit, kcfg_Hour)
+#: rc.cpp:369
+msgid "00:00; "
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:80
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_BrokenLinksOnly)
+#: rc.cpp:375
+msgid "Show Broken Links Only"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: rc.cpp:378
+msgid "Results Folder"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:97
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: rc.cpp:381
+msgid "E-Mail Recipient"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:110
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:384
+msgid "Search Options"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:116
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:387
+msgid "URL"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:126
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:390
+msgid "Document Root"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:136
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:393
+msgid "Depth"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:168
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckParentFolders)
+#: rc.cpp:399
+msgid "Check Parent Folders"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:175
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckExternalLinks)
+#: rc.cpp:402
+msgid "Check External Links"
+msgstr ""
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:182
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RegularExpression)
+#: rc.cpp:405
+msgid "Do not check Regular Expression"
+msgstr ""
+
+#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:18
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:414
+msgid "Links Checked"
+msgstr ""
+
+#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:47
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:417
+msgid "Status"
+msgstr ""
+
+#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:420
+msgid "Good"
+msgstr ""
+
+#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:78
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:423
+msgid "Broken"
+msgstr ""
+
+#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:426
+msgid "Undetermined"
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:8
+#. i18n: ectx: label, entry, group (pim)
+#: rc.cpp:429
+msgid "Whether to use the system real name and e-mail"
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:13
+#. i18n: ectx: label, entry, group (pim)
+#: rc.cpp:432
+msgid "The name associated to the user"
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:18
+#. i18n: ectx: label, entry, group (pim)
+#: rc.cpp:435
+msgid "The email associated to the user"
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:27
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:438
+msgid "Maximum number of entries in the combo url."
+msgstr "कम्बो यूआरएलमा प्रविष्टिको अधिकतम सङ्ख्या ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:32
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:441
+msgid "Maximum number of simultaneous connections."
+msgstr "समकालीन जडानका अधिकतम सङ्ख्या ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:37
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:444
+msgid "Timeout on getting an URL."
+msgstr "यूआरएल प्राप्त गर्दा समय समाप्त ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:42
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:447
+msgid "History of combo url."
+msgstr "कम्बो यूआरएलको इतिहास ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:46
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:450
+msgid "Maximum depth to check."
+msgstr "जाँच गर्न अधिकतम गहिराई ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:51
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:453
+msgid "Whether to check parent folders."
+msgstr "प्रमूल फोल्डर जाँच गर्ने वा नगर्ने ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:56
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:456
+msgid "Whether to check external links."
+msgstr "बाह्य लिङ्क जाँच गर्ने वा नगर्ने ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:61
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:459
+msgid ""
+"Whether to remember the check settings like depth, and so on, on exit."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:66
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:462
+msgid ""
+"Whether preview prefix in Quanta project is used to set the URL to check."
+msgstr ""
+"यूआरएल सेट गर्दा जाँच गर्न क्वान्टा परियोजनामा पूर्वावलोकन उपसर्ग प्रयोग "
+"गर्ने वा नगर्ने ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:71
+#. i18n: ectx: label, entry, group (klinkstatus)
+#. i18n: file: cfg/klinkstatus.kcfg:76
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:465 rc.cpp:468
+msgid "Whether to display a tree view or a flat view in the results view."
+msgstr ""
+"परिणाम दृश्यमा ट्री दृश्य वा फ्ल्याट दृश्य प्रदर्शन गर्ने वा नगर्ने ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:81
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:471
+msgid ""
+"Whether to automatically adjust the width of the result columns (Not used)."
+msgstr ""
+"परिणाम स्तम्भको (प्रयोग नगरिएको) चौडाइ स्वत: समायोन गर्ने वा नगर्ने ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:86
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:474
+msgid ""
+"Whether the viewport of the result view should follow the last link checked."
+msgstr ""
+"परिणाम दृश्यको दृश्यपोर्टले अन्त्यमा चेक गरिएको लिङ्क अनुगमन गर्छ वा गर्दैन ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:91
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:477
+msgid "Whether to send an User-Agent in HTTP requests."
+msgstr "एचटीटीपी अनुरोधमा प्रयोगकर्ता-अभिकर्ता पठाउने वा नपठाउने ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:96
+#. i18n: ectx: label, entry (UserAgent), group (klinkstatus)
+#: rc.cpp:480
+msgid "Defines the HTTP User-Agent to send."
+msgstr "पठाउन एचटीटीपी प्रयोगकर्ता-अभिकर्ता परिभाषित गर्दछ ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:100
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:483
+msgid ""
+"Whether the user can see if the markup is valid by showing a column with an "
+"icon indicator."
+msgstr ""
+"यदि प्रतिमा सूचक स्तम्भमा मार्कअप वैधता देखाउदा प्रयोगकर्ताले देख्न सक्छ वा "
+"सक्दैन ।"
+
+#. i18n: file: cfg/klinkstatus.kcfg:105
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: rc.cpp:486
+msgid "Available Stylesheets for exporting the results in HTML"
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:110
+#. i18n: ectx: label, entry (PreferedStylesheet), group (klinkstatus)
+#: rc.cpp:489
+msgid "Defines the stylesheet to use when exporting results to HTML"
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:119
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:492
+msgid ""
+"This option specifies the number of spaces Tidy uses to indent content, when "
+"indentation is enabled."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:124
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:495
+msgid "Whether to do line wrapping."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:129
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:498
+msgid ""
+"This option specifies the right margin Tidy uses for line wrapping. Tidy "
+"tries to wrap lines so that they do not exceed this length."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:134
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:501
+msgid ""
+"This option specifies if Tidy should output tag names in upper case. The "
+"default is no, which results in lower case tag names, except for XML input, "
+"where the original case is preserved."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:139
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:504
+msgid ""
+"This option specifies if Tidy should output attribute names in upper case. "
+"The default is no, which results in lower case attribute names, except for "
+"XML input, where the original case is preserved."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:146
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:507
+msgid ""
+"This option specifies the DOCTYPE declaration generated by Tidy. If set to "
+"\"omit\" the output won't contain a DOCTYPE declaration. If set to \"auto\" "
+"(the default) Tidy will use an educated guess based upon the contents of the "
+"document. If set to \"strict\", Tidy will set the DOCTYPE to the strict DTD. "
+"If set to \"loose\", the DOCTYPE is set to the loose (transitional) DTD. "
+"Alternatively, you can supply a string for the formal public identifier "
+"(FPI).\n"
+"            "
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:151
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:511
+msgid ""
+"This option specifies if Tidy should pretty print output, writing it as well-"
+"formed XML. Any entities not defined in XML 1.0 will be written as numeric "
+"entities to allow them to be parsed by a XML parser. The original case of "
+"tags and attributes will be preserved, regardless of other options."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:156
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:514
+msgid ""
+"This option specifies if Tidy should strip out surplus presentational tags "
+"and attributes replacing them by style rules and structural markup as "
+"appropriate. It works well on the HTML saved by Microsoft Office products."
+msgstr ""
+
+#. i18n: file: cfg/klinkstatus.kcfg:161
+#. i18n: ectx: label, entry, group (tidy)
+#: rc.cpp:517
+msgid ""
+"This option specifies the character encoding Tidy uses for both the input "
+"and output."
+msgstr ""
+
+#. i18n: file: pim/identitywidgetui.ui:19
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSystemIdentity)
+#: rc.cpp:520
+msgid "Use System Identity"
+msgstr ""
+
+#. i18n: file: pim/identitywidgetui.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:523
+msgid "Real name"
+msgstr ""
+
+#. i18n: file: pim/identitywidgetui.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:526
+msgid "E-Mail address"
+msgstr ""

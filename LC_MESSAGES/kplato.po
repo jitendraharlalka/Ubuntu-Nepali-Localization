@@ -1,0 +1,1648 @@
+# translation of kplato.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kplato\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 08:47+0000\n"
+"PO-Revision-Date: 2009-07-07 19:00+0000\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:25+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: rc.cpp:12
+msgid "&Project"
+msgstr "परियोजना"
+
+#: rc.cpp:15
+msgid "&Calculate"
+msgstr "गणना गर्नुहोस्"
+
+#: rc.cpp:27
+msgid "Project"
+msgstr "परियोजना"
+
+#: rc.cpp:30
+msgid "Report"
+msgstr "प्रतिवेदन"
+
+#: rc.cpp:36
+msgid "AccountsPanelBase"
+msgstr "खाताको प्यानल आधार"
+
+#: rc.cpp:39
+msgid "Default account:"
+msgstr "पूर्वनिर्धारित खाता:"
+
+#: kptaccountsview.cc:121 rc.cpp:42
+msgid "Account"
+msgstr "खाता"
+
+#: kptdoublelistviewbase.cc:366 rc.cpp:45
+msgid "Description"
+msgstr "वर्णन"
+
+#: rc.cpp:48 rc.cpp:767
+msgid "&New"
+msgstr "नयाँ"
+
+#: rc.cpp:51
+msgid "New &Sub-Account"
+msgstr "नयाँ सहायक खाता"
+
+#: rc.cpp:57
+msgid "AccountsviewConfigurePanelBase"
+msgstr "खाताको दृश्य कन्फिगर प्यानल आधार"
+
+#: rc.cpp:60
+msgid "Cut-off date:"
+msgstr "सकिएको मिति:"
+
+#: rc.cpp:63
+msgid "Periodicity:"
+msgstr "आवधिकता:"
+
+#: kptaccountsview.cc:217 rc.cpp:66
+msgid "Cumulative"
+msgstr "बढोत्तरी"
+
+#: rc.cpp:69
+msgid "CalendarListPanel"
+msgstr "क्यालेन्डर सूची प्यानल"
+
+#: rc.cpp:75
+msgid "New"
+msgstr "नयाँ"
+
+#: kptresourceview.cc:391 rc.cpp:78
+msgid "Calendar Name"
+msgstr "क्यान्डेलर नाम"
+
+#: rc.cpp:81
+msgid "Parent calendar:"
+msgstr "प्यारेन्ट क्यालेन्डर:"
+
+#: rc.cpp:85
+msgid "Calculation"
+msgstr "गणना"
+
+#: rc.cpp:88
+msgid "Manual"
+msgstr "म्यानुअल"
+
+#: rc.cpp:91
+msgid "Immediate on change"
+msgstr "तुरुन्त परिवर्तन"
+
+#: rc.cpp:94
+msgid "Constraints"
+msgstr "अवरोध"
+
+#: rc.cpp:97
+msgid "Allow overbooking of resources"
+msgstr "संसाधनको ओभर बुकिङ अनुमति दिनुहोस्"
+
+#: rc.cpp:101 rc.cpp:395 rc.cpp:475
+msgid "Responsible:"
+msgstr "उत्तरदायी:"
+
+#: rc.cpp:104 rc.cpp:109 rc.cpp:398 rc.cpp:413 rc.cpp:478 rc.cpp:493
+msgid ""
+"The person responsible for this task.\n"
+"\n"
+"This is not limited to persons available in a resource group but can be "
+"anyone. You can even directly access your address book with the Choose "
+"button."
+msgstr ""
+"यो कार्यका लागि व्यक्ति उत्तरदायी छ ।\n"
+"\n"
+"संसाधन समूहमा उपलब्ध व्यक्ति सीमित गरिएको छैन तर जो कोही पनि हुनसक्छ । तापनि "
+"बटन छनौट गरेर तपाईँको ठेगाना पुस्तकमा प्रत्यक्ष पहुँच प्राप्त गर्न "
+"सक्नुहुन्छ ।"
+
+#: rc.cpp:114 rc.cpp:418 rc.cpp:498 rc.cpp:720
+msgid "Choose..."
+msgstr "रोज्नुहोस्..."
+
+#: rc.cpp:118 rc.cpp:121 rc.cpp:422 rc.cpp:502 rc.cpp:505
+msgid "Insert a person from your address book."
+msgstr "तपाईँको ठेगाना पुस्तिकाबाट एउटा व्यक्ति घुसाउनुहोस्"
+
+#: rc.cpp:124 rc.cpp:508
+msgid "Timing"
+msgstr "समय"
+
+#: rc.cpp:127 rc.cpp:511
+msgid ""
+"Scheduling Configuration. These settings affect the actual scheduling of the "
+"task.\n"
+"\n"
+"The estimation can be either effort based or duration based. If it is effort "
+"based, the final duration will depend on the resources assigned to the task. "
+"For duration based estimation, the assigned resources don't affect the fixed "
+"duration of the task, but only the costs."
+msgstr ""
+"कन्फिगरेसन तालिकिकरण । यी सेटिङले कार्यका वास्तविक तालिकालाई प्रभाव पार्छन् "
+"।\n"
+"\n"
+"अनुमान प्रयत्नमा आधारित वा अवधिमा आधारित हुनसक्छ । यदि यो प्रयत्नमा आधारित "
+"भएमा, अन्तिम अवधि कार्यमा मानाङ्कन गरिएको संसाधनमा आधारित हुनेछ । अवधिमा "
+"आधारित अनुमानमा, मानाङ्कन गरिएको संसाधनले कार्यको स्थिर अवधिलाई प्रभाव "
+"पार्दैन, तर लागतमा प्रभाव पार्छ ।"
+
+#: rc.cpp:132 rc.cpp:557
+msgid "Effort"
+msgstr "प्रयास"
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:31
+#: rc.cpp:135 rc.cpp:560 rc.cpp:880
+msgid "Duration"
+msgstr "अवधि"
+
+#: kptprojectdialog.cc:94 rc.cpp:138 rc.cpp:516
+msgid "As Soon as Possible"
+msgstr "सम्भव भएसम्म छिटो"
+
+#: kptprojectdialog.cc:98 rc.cpp:141 rc.cpp:519
+msgid "As Late as Possible"
+msgstr "सम्भव भएसम्म ढिलो"
+
+#: rc.cpp:144 rc.cpp:360 rc.cpp:522
+msgid "Must Start On"
+msgstr "सुरु गर्नु पर्छ"
+
+#: rc.cpp:147 rc.cpp:525
+msgid "Must Finish On"
+msgstr "अन्त्य गर्नु पर्छ"
+
+#: rc.cpp:150 rc.cpp:528
+msgid "Start Not Earlier Than"
+msgstr "यो भन्दा छिटो सुरु नगर्नुहोस्"
+
+#: rc.cpp:153 rc.cpp:531
+msgid "Finish Not Later Than"
+msgstr "यो भन्दा ढिलो अन्त्य नगर्नुहोस्"
+
+#: rc.cpp:156 rc.cpp:534
+msgid "Fixed Interval"
+msgstr "स्थिर अन्तराल"
+
+#: rc.cpp:159 rc.cpp:537
+msgid "Schedule:"
+msgstr "तालिका:"
+
+#: rc.cpp:162 rc.cpp:554
+msgid "Estimate:"
+msgstr "अनुमान:"
+
+#: rc.cpp:165 rc.cpp:540
+msgid "Optimistic:"
+msgstr "आशावादी:"
+
+#: kptresourceview.cc:397 rc.cpp:169 rc.cpp:176 rc.cpp:544 rc.cpp:551
+#: rc.cpp:745
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: rc.cpp:172 rc.cpp:547
+msgid "Pessimistic:"
+msgstr "निराशावादी:"
+
+#: rc.cpp:179 rc.cpp:425 rc.cpp:593
+msgid "Note:"
+msgstr "द्रष्टव्य:"
+
+#: rc.cpp:182
+msgid "DurationWidget"
+msgstr "अवधि विजेट"
+
+#: rc.cpp:185
+msgid "Use whole numbers or decimal fractions"
+msgstr "सम्पूर्ण सङ्ख्या वा दशमलव भिन्न प्रयोग गर्नुहोस्"
+
+#: rc.cpp:189
+msgid "0"
+msgstr "0"
+
+#: rc.cpp:192
+msgid "d"
+msgstr "d"
+
+#: rc.cpp:195 rc.cpp:210
+msgid ":"
+msgstr ":"
+
+#: rc.cpp:198 rc.cpp:204 rc.cpp:213
+msgid "00"
+msgstr "00"
+
+#: rc.cpp:201
+msgid "h"
+msgstr "h"
+
+#: rc.cpp:207
+msgid "m"
+msgstr "m"
+
+#: rc.cpp:216
+msgid "s"
+msgstr "s"
+
+#: rc.cpp:219
+msgid "."
+msgstr "."
+
+#: rc.cpp:222
+msgid "000"
+msgstr "000"
+
+#: rc.cpp:225
+msgid "ms"
+msgstr "ms"
+
+#: kptcalendareditbase.cc:130 rc.cpp:228
+msgid "CalendarEditBase"
+msgstr "क्यालेन्डर सम्पादन आधार"
+
+#: kptcalendareditbase.cc:87 kptcalendareditbase.cc:135 rc.cpp:231
+msgid "Work Interval"
+msgstr "कार्य अन्तराल"
+
+#: kptcalendareditbase.cc:137 rc.cpp:237
+msgid "Add Interval"
+msgstr "अन्तराल थप्नुहोस्"
+
+#: rc.cpp:240
+msgid "ProjectPanelBase"
+msgstr "ProjectPanelBase"
+
+#: rc.cpp:243 rc.cpp:249
+msgid "The project leader."
+msgstr "परियोजना प्रबन्धक ।"
+
+#: rc.cpp:246
+msgid "&Leader:"
+msgstr "अगुवा:"
+
+#: rc.cpp:252 rc.cpp:258
+msgid "The project name."
+msgstr "परियोजना नाम ।"
+
+#: rc.cpp:255
+msgid "N&ame:"
+msgstr "नाम:"
+
+#: rc.cpp:262
+msgid "<p align=\"right\"></p>ID:"
+msgstr "<p align=\"right\"></p> आईडी:"
+
+#: rc.cpp:265 rc.cpp:274
+msgid "The unique project identification"
+msgstr "अद्वितिय परियोजना पहिचान"
+
+#: rc.cpp:268 rc.cpp:339
+msgid "&Choose..."
+msgstr "रोज्नुहोस्..."
+
+#: rc.cpp:271
+msgid "Choose a project leader from your address book."
+msgstr "तपाईँको ठेगाना पुस्तकबाट परियोजना अगुवा रोज्नुहोस् ।"
+
+#: rc.cpp:277 rc.cpp:378 rc.cpp:458
+msgid "WBS:"
+msgstr "WBS:"
+
+#: kptmainprojectpanel.cc:62 rc.cpp:280 rc.cpp:342
+msgid "Scheduling"
+msgstr "तालिका"
+
+#: rc.cpp:283
+msgid ""
+"Here you define when the project shall start or end.\n"
+"\n"
+"If start time is defined, the project is scheduled forward from this time. "
+"When the project has been calculated, end time shows when the project is "
+"planned to end.\n"
+"If end time is defined, the project is scheduled backwards from this time. "
+"When the project has been calculated, start time shows when the project must "
+"start in order to finish in time."
+msgstr ""
+"तपाईँले यहाँ परियोजना सुरु वा अन्त्य हुदाँ परिभाषित गर्नुहोस् ।\n"
+"\n"
+"सुरु समय परिभाषित भएमा, यो समयबाट परियोजना तालिका आगाडि बढाइन्छ । परियोजना "
+"गणना गरिएको हुदाँ, परियोजना अन्त्य योजना बनाउदा अन्त्य हुने समय देखिन्छ ।\n"
+"यदि अन्त्य समय परिभाषित भएमा, हालको समयबाट परियोजना पछाडितिर तालिकिकरण "
+"गरिन्छ । परियोजना गणना गरिएको बेलामा, समयमा परियोजना समाप्त गर्न सुरु "
+"गर्नुपर्ने समय देखाउछ ।"
+
+#: rc.cpp:289
+msgid "Define when the project shall start."
+msgstr "परियोजना कहिले सुरु हुनेछ परिभाषित गर्नुहोस् ।"
+
+#: rc.cpp:292
+msgid "Define when the project shall end."
+msgstr "परियोजना कहिले अन्त्य हुनेछ परिभाषित गर्नुहोस् ।"
+
+#: rc.cpp:295
+msgid "End date:"
+msgstr "अन्त्य मिति:"
+
+#: rc.cpp:298
+msgid "Select this to schedule the project backward from end time."
+msgstr "परियोजना अन्त्य समय पछाडितिरबाट तालिकिकरण गर्न यो चयन गर्नुहोस् ।"
+
+#: rc.cpp:301
+msgid "Start date:"
+msgstr "सुरु मिति:"
+
+#: rc.cpp:304
+msgid "Select this to schedule the project forward from start time."
+msgstr "परियोजना सुरु समयबाट अगाडि तालिककरण गर्न यो चयन गर्नुहोस् ।"
+
+#: rc.cpp:307 rc.cpp:372 rc.cpp:596
+msgid "&Project notes and summary:"
+msgstr "परियोजना द्रष्टव्य र सारांश:"
+
+#: rc.cpp:310 rc.cpp:315
+msgid ""
+"Various notes associated with the project or a project summary.\n"
+"\n"
+"Here you can enter any additional text you want to be stored with the "
+"project. This can for example be a short summary of the project or various "
+"notes."
+msgstr ""
+"परियोजना वा परियोजना सारांशसँग सम्बन्धित विभिन्न द्रष्टव्य ।\n"
+"\n"
+"तपाईँले यहाँ परियोजनासँग भण्डारण गर्न चाहेका अतिरिक्त पाठ प्रविष्ट गर्न "
+"सक्नुहुन्छ । यो परियोजनाको छोटो सारांश वा विभिन्न द्रष्टव्यका लागि उदाहरण "
+"हुनसक्छ ।"
+
+#: rc.cpp:320
+msgid "MilestoneProgressPanelBase"
+msgstr "माइलस्टोन प्रगति प्यानल आधार"
+
+#: rc.cpp:323
+msgid "Finished"
+msgstr "समाप्त भयो"
+
+#: kpttaskdialog.cc:41 rc.cpp:326
+msgid "&General"
+msgstr "सामान्य"
+
+#: rc.cpp:330
+msgid ""
+"Give a name to the project to identify it. Example can be 'rewrite explorer' "
+"or 'housing project C2'"
+msgstr ""
+"परियोजना पहिचान गर्न यसमा नाम दिनुहोस् । उदाहरण: 'अन्वेषक पुन: लेख्नुहोस्' "
+"वा 'हाउजिङ परियोजना C2' हुनसक्छ"
+
+#: rc.cpp:333
+msgid "Project &leader:"
+msgstr "परियोजना प्रबन्धक:"
+
+#: rc.cpp:336
+msgid "Project n&ame:"
+msgstr "परियोजना नाम:"
+
+#: rc.cpp:345
+msgid ""
+"The scheduling type will influence how variable times events are placed"
+msgstr "तालिका प्रकारले चल समय स्थापना गरिएका घटना तरिकालाई प्रभावित पार्नेछ"
+
+#: rc.cpp:348
+msgid "ASAP"
+msgstr "ASAP"
+
+#: rc.cpp:351
+msgid "ALAP"
+msgstr "ALAP"
+
+#: rc.cpp:354
+msgid "Start Not Earlier Then"
+msgstr "यो भन्दा पहिला सुरु नगर्नुहोस्"
+
+#: rc.cpp:357
+msgid "Finish Not Later Then"
+msgstr "यो भन्दा ढिलो अन्त्य नगर्नुहोस्"
+
+#: rc.cpp:363
+msgid "Starting Date"
+msgstr "सुरु मिति"
+
+#: rc.cpp:366
+msgid "Specify time:"
+msgstr "समय निर्दिष्ट गर्नुहोस्:"
+
+#: rc.cpp:369
+msgid "&Notes"
+msgstr "द्रष्टव्य"
+
+#: rc.cpp:375
+msgid "SummaryTaskGeneralPanelBase"
+msgstr "सारांश कार्य सामान्य प्यानल आधार"
+
+#: rc.cpp:381 rc.cpp:461
+msgid "Work Breakdown Structure"
+msgstr "कार्य भङ्ग गर्ने संरचना"
+
+#: rc.cpp:384 rc.cpp:464
+msgid ""
+"The Work Breakdown Structure introduces numbering for all tasks in the "
+"project, according to the task structure.\n"
+"\n"
+"The WBS code is auto-generated; simply choose Generate WBS Code from the "
+"Tools menu to generate the WBS code for the project."
+msgstr ""
+"कार्य भङ्ग गर्ने संरचनाले परियोजनामा कार्य संरचना अनुसार, सबै कार्यका लागि "
+"क्रमाङ्कन परिचित गराउँदछ ।\n"
+"\n"
+"WBS सङ्केत स्वत: उत्पन्न हुनेछ: परियोजनाका लागि WBS सङ्केत उत्पन्न गर्न केवल "
+"उपकरण मेनुबाट WBS सङ्केत रोज्नुहोस् ।"
+
+#: rc.cpp:389 rc.cpp:469 rc.cpp:708
+msgid "Name:"
+msgstr "नाम:"
+
+#: rc.cpp:392 rc.cpp:410 rc.cpp:472 rc.cpp:490
+msgid "The name of the Task."
+msgstr "कार्यको नाम ।"
+
+#: rc.cpp:404 rc.cpp:484
+msgid "Task id:"
+msgstr "कार्यको आईडी:"
+
+#: rc.cpp:407 rc.cpp:487
+msgid "This is the unique identifier for this task."
+msgstr "यो कार्यका लागि यो अद्वितिय पहिचायक हो ।"
+
+#: rc.cpp:428
+msgid "TaskCostPanelBase"
+msgstr "कार्य लागत प्यानल आधार"
+
+#: rc.cpp:431
+msgid "Running"
+msgstr "चलिरहेको"
+
+#: rc.cpp:434 rc.cpp:443 rc.cpp:449
+msgid "Account:"
+msgstr "खाता:"
+
+#: rc.cpp:437
+msgid "Startup"
+msgstr "सुरुआत"
+
+#: rc.cpp:440 rc.cpp:452
+msgid "Cost:"
+msgstr "लागत:"
+
+#: rc.cpp:446
+msgid "Shutdown"
+msgstr "बन्द गर्नुहोस्"
+
+#: rc.cpp:455
+msgid "TaskGeneralPanelBase"
+msgstr "कार्यको सामान्य प्यानल आधार"
+
+#: kptaccountspanel.cc:168 kptcalendarlistdialog.cc:302
+#: kptrequestresourcespanel.cc:116 kptrequestresourcespanel.cc:117
+#: kptresourcedialog.cc:142 kptresourceview.cc:494 kpttaskcostpanel.cc:42
+#: rc.cpp:563
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: rc.cpp:566
+msgid "Low"
+msgstr "न्यून"
+
+#: rc.cpp:569
+msgid "High"
+msgstr "उच्च"
+
+#: rc.cpp:572 rc.cpp:584
+msgid ""
+"Risk controles the PERT distribution used when calculating the actual "
+"estimate for this task."
+msgstr ""
+"यो कार्यका लागि वास्तविक अनुमान गणना गर्दा प्रयोग गरिएको PERT वितरणले जोखीम "
+"नियन्त्रण गर्छ ।"
+
+#: rc.cpp:575 rc.cpp:587
+msgid ""
+"<p>Risk controles the PERT distribution used when calculating the actual "
+"estimate for the task.\n"
+"<b>None</b> means the Expected estimate is used as is.\n"
+"<b>Low risk</b> means that a normal distribution is used.\n"
+"<b>High risk</b> means that the estimate will be slightly pessimistic "
+"compared to Low risk.</p>"
+msgstr ""
+"<p>कार्यका लागि वास्तविक अनुमान गणना गर्दा प्रयोग गरिएको PERT वितरणले जोखिम "
+"नियन्त्रण गर्छ ।\n"
+"<b>कुनै पनि होइन</b> यसको अर्थ अपेक्षित अनुमान जस्ताको तस्तै प्रयोग गरिन्छ "
+"।\n"
+"<b>न्यून जोखीम</b> यसको अर्थ सामान्य वितरण प्रयोग गरिएको छ ।\n"
+"<b>उच्च जोखीम</b> यसको अर्थ अनुमान न्यून जोखीमका दाजोमा केही निराशावादी "
+"हुनेछ ।</p>"
+
+#: rc.cpp:581
+msgid "Risk:"
+msgstr "जोखिम:"
+
+#: rc.cpp:599
+msgid "TaskProgressPanelBase"
+msgstr "कार्य प्रगति प्यानल आधार"
+
+#: rc.cpp:602
+msgid "Started:"
+msgstr "सुरु गरियो:"
+
+#: rc.cpp:606
+msgid "Finished:"
+msgstr "समाप्त:"
+
+#: rc.cpp:611
+msgid "Percent completed:"
+msgstr "प्रतिशत समाप्त:"
+
+#: rc.cpp:614
+msgid "Remaining effort:"
+msgstr "बाँकी प्रयास:"
+
+#: rc.cpp:617
+msgid "Actual effort:"
+msgstr "वास्तविक प्रयास:"
+
+#: rc.cpp:620
+msgid "Scheduled"
+msgstr "तालिकिकरण गरिएको"
+
+#: rc.cpp:623
+msgid "Start:"
+msgstr "सुरु:"
+
+#: rc.cpp:626
+msgid "Finish:"
+msgstr "समाप्त:"
+
+#: rc.cpp:629
+msgid "Effort:"
+msgstr "प्रयास:"
+
+#: rc.cpp:632
+msgid "TaskResourcesPanelBase"
+msgstr "कार्य संसाधान प्यानल आधार"
+
+#: rc.cpp:635
+msgid "Group"
+msgstr "समूह"
+
+#: rc.cpp:638
+msgid "Max. Units"
+msgstr "अधिकतम एकाई"
+
+#: rc.cpp:641
+msgid "Assign resources:"
+msgstr "संसाधन मानाङ्कन गर्नुहोस्:"
+
+#: kpttaskappointmentsview.cc:63 rc.cpp:644 rc.cpp:773
+msgid "Resource"
+msgstr "संसाधन"
+
+#: rc.cpp:647
+msgid "WBSDefinitionPanelBase"
+msgstr "WBS परिभाषा प्यानल आधार"
+
+#: rc.cpp:653
+msgid "Code:"
+msgstr "सङ्केत:"
+
+#: rc.cpp:656
+msgid "Separator:"
+msgstr "विभाजक:"
+
+#: rc.cpp:659
+msgid "Use Levels"
+msgstr "प्रयोग स्तर"
+
+#: rc.cpp:662
+msgid "Code"
+msgstr "सङ्केत"
+
+#: rc.cpp:665
+msgid "Separator"
+msgstr "विभाजक"
+
+#: rc.cpp:671
+msgid "Add Level"
+msgstr "स्तर थप्नुहोस्"
+
+#: rc.cpp:674
+msgid "RelationPanel"
+msgstr "सापेक्षिक प्यानल"
+
+#: rc.cpp:678
+msgid "From:"
+msgstr "बाट:"
+
+#: rc.cpp:681
+msgid "To:"
+msgstr "लाई:"
+
+#: rc.cpp:684
+msgid "Task 1"
+msgstr "कार्य १"
+
+#: rc.cpp:687
+msgid "Task 2"
+msgstr "कार्य २"
+
+#: rc.cpp:690
+msgid "Relationship Type"
+msgstr "सम्बन्ध प्रकार"
+
+#: rc.cpp:693
+msgid "Finish-Start"
+msgstr "अन्त्य-सुरु"
+
+#: rc.cpp:696
+msgid "Finish-Finish"
+msgstr "अन्त्य-अन्त्य"
+
+#: rc.cpp:699
+msgid "Start-Start"
+msgstr "सुरु-सुरु"
+
+#: rc.cpp:702
+msgid "Lag:"
+msgstr "ल्याग:"
+
+#: rc.cpp:705
+msgid "ResourceDialogBase"
+msgstr "संसाधान संवाद आधार"
+
+#: rc.cpp:711
+msgid "Initials:"
+msgstr "सुरुआत:"
+
+#: rc.cpp:715
+msgid "<p align=\"right\">Email:</p>"
+msgstr "<p align=\"right\">इमेल:</p>"
+
+#: rc.cpp:723
+msgid "Choose resource from addressbook"
+msgstr "ठेगाना पुस्तकबाट संसाधन रोज्नुहोस्"
+
+#: rc.cpp:726
+msgid "Resource type:"
+msgstr "संसाधन प्रकार:"
+
+#: kptresourceview.cc:483 rc.cpp:729
+msgid "Work"
+msgstr "कार्य"
+
+#: kptresourceview.cc:486 rc.cpp:732
+msgid "Material"
+msgstr "सामग्री"
+
+#: rc.cpp:735
+msgid "<p align=\"right\">Calendar:</p>"
+msgstr "<p align=\"right\">क्यालेन्डर:</p>"
+
+#: rc.cpp:738
+msgid "Available:"
+msgstr "उपलब्ध:"
+
+#: rc.cpp:741
+msgid "<p align=\"right\">From:</p>"
+msgstr "<p align=\"right\">बाट:</p>"
+
+#: rc.cpp:748
+msgid "<p align=\"right\">Until:</p>"
+msgstr "<p align=\"right\">सम्म:</p>"
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:40
+#: rc.cpp:751 rc.cpp:883
+msgid "Cost"
+msgstr "लागत"
+
+#: rc.cpp:754
+msgid "Hourly rate:"
+msgstr "घण्टा दर:"
+
+#: rc.cpp:757
+msgid "Overtime rate:"
+msgstr "ओभरटाइम दर:"
+
+#: rc.cpp:761
+msgid "ResourcesPanelBase"
+msgstr "संसाधान प्यानल आधार"
+
+#: rc.cpp:764
+msgid "Resource Group"
+msgstr "संसाधन समूह"
+
+#: rc.cpp:776
+msgid "New..."
+msgstr "नयाँ..."
+
+#: kptview.cc:269 rc.cpp:779
+msgid "Edit..."
+msgstr "सम्पादन गर्नुहोस्..."
+
+#: rc.cpp:787
+msgid "StandardWorktime"
+msgstr "मानक कार्य समय"
+
+#: rc.cpp:790
+msgid ""
+"These values are used when you estimate the effort needed to complete a task."
+msgstr ""
+"तपाईँले कार्य समाप्त गर्न आवश्यक प्रयास अनुमान गर्दा यी मान प्रयोग गरिन्छ ।"
+
+#: rc.cpp:793
+msgid "Hours per day:"
+msgstr "घण्टा प्रति दिन:"
+
+#: rc.cpp:796
+msgid "Hours per month:"
+msgstr "घण्टा प्रति महिना:"
+
+#: rc.cpp:799
+msgid "Hours per week:"
+msgstr "घण्टा प्रति हप्ता:"
+
+#: rc.cpp:802
+msgid "Number of working hours in a normal month."
+msgstr "सामान्य महिनामा कार्य गर्ने घण्टा नम्बर ।"
+
+#: rc.cpp:805
+msgid "Number of working hours in a normal day."
+msgstr "सामान्य दिनमा कार्य गर्ने घण्टा नम्बर ।"
+
+#: rc.cpp:808
+msgid "Number of working hours in a normal year."
+msgstr "सामान्य बर्षमा कार्य गर्ने घण्टा नम्बर ।"
+
+#: rc.cpp:811
+msgid "Number of working hours in a normal week."
+msgstr "सामान्य हप्तामा कार्य गर्ने घण्टा नम्बर ।"
+
+#: rc.cpp:814
+msgid "Hours per year:"
+msgstr "घण्टा प्रति वर्ष:"
+
+#: rc.cpp:817
+msgid "Working Hours"
+msgstr "कार्यअवधि"
+
+#: rc.cpp:820
+msgid "Define standard weekly working hours."
+msgstr "हप्तामा कार्य गर्ने मानक घण्टा परिभाषित गर्नुहोस् ।"
+
+#: rc.cpp:823
+msgid ""
+"The working hours defined here will be used\n"
+"when there is no calendar defined for a resource."
+msgstr ""
+"संसाधनका लागि क्यालेन्डर परिभाषित नगरिएको बेलामा यहाँ परिभाषित गरिएको\n"
+"कार्यअवधि प्रयोग हुनेछ ।"
+
+#: rc.cpp:827
+msgid "Weekday"
+msgstr "हप्तादिन"
+
+#: rc.cpp:830
+msgid "Hours"
+msgstr "घण्टा"
+
+#: kptcalendaredit.cc:202 kptcalendaredit.cc:251 rc.cpp:834
+msgid "Non-working"
+msgstr "कार्य नगर्ने"
+
+#: kptcalendaredit.cc:203 kptcalendaredit.cc:252 rc.cpp:837
+msgid "Working"
+msgstr "कार्य"
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:11
+#: rc.cpp:844
+msgid "List of Resources"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:23
+#: rc.cpp:847 rc.cpp:886
+msgid "Project name:"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:32
+#: rc.cpp:850
+msgid "Project manager:"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:82
+#: rc.cpp:853
+msgid "Resource group:"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:94
+#: kptdoublelistviewbase.cc:362 kptresourceview.cc:383 rc.cpp:856 rc.cpp:877
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:103
+#: rc.cpp:859
+msgid "E-mail address"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:112
+#: rc.cpp:862
+msgid "Availability"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:121
+#: rc.cpp:865
+msgid "Rate"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:130
+#: rc.cpp:868
+msgid "Overtime"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/resourcelist.ktf:215
+#: rc.cpp:871 rc.cpp:901
+msgid "Page:"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:10
+#: rc.cpp:874
+msgid "List of Tasks"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:58
+#: rc.cpp:889
+msgid "Start"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:67
+#: rc.cpp:892
+msgid "Project leader:"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:76
+#: rc.cpp:895
+msgid "WBS"
+msgstr ""
+
+#. i18n: tag Label attribute Text
+#. i18n: file: reports/tasklist.ktf:103
+#: rc.cpp:898
+msgid "Responsible"
+msgstr ""
+
+#: kptaccountsdialog.cc:30
+msgid "Edit Accounts"
+msgstr "खाता सम्पादन गर्नुहोस्"
+
+#: kptaccountspanel.cc:313 kptaccountspanel.cc:320
+msgid "Modify Accounts"
+msgstr "खाता परिमार्जन गर्नुहोस्"
+
+#: kptaccountsview.cc:104
+msgid "Day"
+msgstr "दिन"
+
+#: kptaccountsview.cc:104
+msgid "Week"
+msgstr "हप्ता"
+
+#: kptaccountsview.cc:104
+msgid "Month"
+msgstr "महिना"
+
+#: kptaccountsview.cc:115
+msgid "Configure..."
+msgstr "कन्फिगर..."
+
+#: kptaccountsview.cc:219
+#, c-format
+msgid "Cut-off date:%1"
+msgstr "सकिएको मिति:%1"
+
+#: kptaccountsview.cc:220
+#, c-format
+msgid "Periodicity:%1"
+msgstr "आवधिकता:%1"
+
+#: kptaccountsview.cc:263
+msgid ""
+"_: <week>-<year>\n"
+"%1-%2"
+msgstr "%1-%2"
+
+#: kptaccountsviewconfigdialog.cc:37
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: kptcalendar.cc:951
+msgid "Base"
+msgstr "आधार"
+
+#: kptcalendaredit.cc:201 kptcalendaredit.cc:250 kptresourceview.cc:489
+msgid "Undefined"
+msgstr "परिभाषित नगरिएको"
+
+#: kptcalendarlistdialog.cc:167
+msgid "Calendar's Settings"
+msgstr "क्यालेन्डरको सेटिङ"
+
+#: kptcalendarlistdialog.cc:217
+msgid "Modify Calendars"
+msgstr "क्यालेन्डर परिमार्जन गर्नुहोस्"
+
+#: kptcalendarpanel.cc:87
+msgid "Next year"
+msgstr "पछिल्लो वर्ष"
+
+#: kptcalendarpanel.cc:88
+msgid "Previous year"
+msgstr "अघिल्लो वर्ष"
+
+#: kptcalendarpanel.cc:89
+msgid "Next month"
+msgstr "पछिल्लो महिना"
+
+#: kptcalendarpanel.cc:90
+msgid "Previous month"
+msgstr "अघिल्लो महिना"
+
+#: kptcalendarpanel.cc:91
+msgid "Select a week"
+msgstr "एउटा हप्ता चयन गर्नुहोस्"
+
+#: kptcalendarpanel.cc:92
+msgid "Select a month"
+msgstr "एउटा महिना चयन गर्नुहोस्"
+
+#: kptcalendarpanel.cc:93
+msgid "Select a year"
+msgstr "वर्ष चयन गर्नुहोस्"
+
+#: kptcalendarpanel.cc:199
+msgid "Week XX"
+msgstr "हप्ता XX"
+
+#: kptcalendarpanel.cc:212 kptcalendarpanel.cc:245
+#, c-format
+msgid "Week %1"
+msgstr "हप्ता %1"
+
+#: kptcanvasitem.cc:711 kptcanvasitem.cc:792 kptcanvasitem.cc:874
+#, c-format
+msgid "From: %1"
+msgstr "बाट: %1"
+
+#: kptcanvasitem.cc:712 kptcanvasitem.cc:793 kptcanvasitem.cc:875
+#, c-format
+msgid "To: %1"
+msgstr "लाई: %1"
+
+#: kptcanvasitem.cc:714 kptcanvasitem.cc:795 kptcanvasitem.cc:877
+#, c-format
+msgid "Lag:  %1"
+msgstr "ल्याग:  %1"
+
+#: kptconfigdialog.cc:49
+msgid "Configure KPlato"
+msgstr "केडीई प्लाटो कन्फिगर गर्नुहोस्"
+
+#: kptconfigdialog.cc:58
+msgid "Task Defaults"
+msgstr "कार्य पूर्वानिर्धारण"
+
+#: kptdoublelistviewbase.cc:363 kptresourceappointmentsview.cc:106
+msgid "Total"
+msgstr "जम्मा"
+
+#: kptduration.cc:159
+msgid ""
+"_: <hours>h:<minutes>m\n"
+"%1h:%2m"
+msgstr "%1h:%2m"
+
+#: kptduration.cc:177
+msgid ""
+"_: <days>d <hours>h:<minutes>m\n"
+"%1d %2h:%3m"
+msgstr "%1d %2h:%3m"
+
+#: kptganttview.cc:108
+msgid ""
+"_: Work Breakdown Structure\n"
+"WBS"
+msgstr "WBS"
+
+#: kptganttview.cc:505 kptganttview.cc:585 kptganttview.cc:687
+#, c-format
+msgid "Name: %1"
+msgstr "नाम: %1"
+
+#: kptganttview.cc:507 kptganttview.cc:587
+#, c-format
+msgid "Start: %1"
+msgstr "सुरुआत: %1"
+
+#: kptganttview.cc:508 kptganttview.cc:588
+#, c-format
+msgid "End: %1"
+msgstr "अन्त्य: %1"
+
+#: kptganttview.cc:512 kptganttview.cc:604 kptganttview.cc:702 kptview.cc:1244
+msgid "Not scheduled"
+msgstr "तालिकिकरण नगरिएको"
+
+#: kptganttview.cc:590
+msgid "Completion: %1%"
+msgstr "समाप्ति: %1%"
+
+#: kptganttview.cc:593 kptganttview.cc:692
+#, c-format
+msgid "Float: %1"
+msgstr "उत्प्लावन: %1"
+
+#: kptganttview.cc:596 kptganttview.cc:695
+msgid "Critical path"
+msgstr "असामान्य बाटो"
+
+#: kptganttview.cc:598 kptganttview.cc:697
+msgid "Critical"
+msgstr "असामान्य"
+
+#: kptganttview.cc:608
+msgid "No resource assigned"
+msgstr "संसाधन मानाङ्कन गरिएको छैन"
+
+#: kptganttview.cc:612
+msgid "Resource not available"
+msgstr "संसाधन उपलब्ध छैन"
+
+#: kptganttview.cc:616 kptganttview.cc:706
+msgid "Scheduling conflict"
+msgstr "तालिकिकरणमा द्वन्द"
+
+#: kptganttview.cc:620
+msgid "Requested effort could not be met"
+msgstr "अनुरोध गरे अनुरुप हुन सकेन"
+
+#: kptganttview.cc:626
+#, c-format
+msgid ""
+"_: arg: list of resources\n"
+"Resource overbooked: %1"
+msgstr "संसाधन बढि संरक्षण भयो: %1"
+
+#: kptganttview.cc:689
+#, c-format
+msgid "Time: %1"
+msgstr "समय: %1"
+
+#: kptganttview.cc:1114 kptpertcanvas.cc:378
+msgid "Cannot link these nodes"
+msgstr "यी नोड लिङ्क गर्न सकिदैन"
+
+#: kptmainprojectdialog.cc:35 kptprojectdialog.cc:48
+msgid "Project Settings"
+msgstr "परियोजना सेटिङ"
+
+#: kptmainprojectdialog.cc:56 kptmainprojectpanel.cc:103
+msgid "Modify main project"
+msgstr "मुख्य परियोजना परिमार्जन गर्नुहोस्"
+
+#: kptmainprojectpanel.cc:65
+msgid "Scheduling (%1)"
+msgstr "तालिका (%1)"
+
+#: kptmainprojectpanel.cc:94
+msgid "Project id must be unique"
+msgstr "परियोजना आईडी अद्वितिय हुनुपर्छ"
+
+#: kptmilestoneprogressdialog.cc:32
+msgid "Milestone Progress"
+msgstr "माइलस्टोन प्रगतिमा"
+
+#: kptmilestoneprogressdialog.cc:48
+msgid "Modify Milestone Progress"
+msgstr "माइलस्टोन प्रगति परिमार्जन गर्नुहोस्"
+
+#: kptmilestoneprogresspanel.cc:62 kpttaskprogresspanel.cc:103
+msgid "Modify progress"
+msgstr "परिमार्जन प्रगति"
+
+#: kptpart.cc:196
+msgid "Invalid document. No mimetype specified."
+msgstr "अवैद्य कागजात । माइमप्रकार निर्दिष्ट गरिएको छैन ।"
+
+#: kptpart.cc:201
+#, c-format
+msgid ""
+"Invalid document. Expected mimetype application/x-vnd.kde.kplato, got %1"
+msgstr ""
+"अवैद्य कागजात । अपेक्षित माइम टाइप अनुप्रयोग/x-vnd.kde.kplato, प्राप्त भयो %1"
+
+#: kptpart.cc:207
+msgid ""
+"This document was created with a newer version of KPlato (syntax version: "
+"%1)\n"
+"Opening it in this version of KPlato will lose some information."
+msgstr ""
+"यो कागजात केडीई प्लाटो को नयाँ संस्करणमा सिर्जना गरिएको थयो (वाक्य संरचना "
+"संस्करण: %1)\n"
+"यसलाई केडीई प्लाटो को यो संस्करणमा खोल्दा केही सूचना हराउने छ ।"
+
+#: kptpart.cc:209
+msgid "File-Format Mismatch"
+msgstr "फाइल ढाँचा मिलेन"
+
+#: kptproject.cc:86 kptview.cc:596
+msgid "Standard"
+msgstr "मानक"
+
+#: kptprojectdialog.cc:53 kptresourcesdialog.cc:36 kptview.cc:187
+#: kptview.cc:201
+msgid "Resources"
+msgstr "संसाधन"
+
+#: kptprojectdialog.cc:95
+msgid ""
+"Place all events at the earliest possible moment permitted in the schedule"
+msgstr ""
+"तालिकार्या स्वीकार भए अनुसार सबैभन्दा पहिलो सम्भावित क्षणमा सबै घटना "
+"राख्नुहोस्"
+
+#: kptprojectdialog.cc:99
+msgid ""
+"Place all events at the last possible moment permitted in the schedule"
+msgstr ""
+"तालिकार्या स्वीकार भए अनुसार सम्भावित अन्तिम क्षणमा सबै घटना राख्नुहोस्"
+
+#: kptprojectdialog.cc:102
+msgid "Start not Earlier then"
+msgstr "यसभन्दा पहिला सुरु नगर्नुहोस"
+
+#: kptprojectdialog.cc:106
+msgid "Finish not Later then"
+msgstr "यसभन्दा पछि अन्त्य नगर्नुहोस्"
+
+#: kptprojectdialog.cc:110
+msgid "Must Start on"
+msgstr "सुरुआत गर्नुपर्छ"
+
+#: kptrelationdialog.cc:46
+msgid "Add Relationship"
+msgstr "सम्बन्ध थप्नुहोस्"
+
+#: kptrelationdialog.cc:57 kpttaskdefaultpanel.cc:75 kpttaskgeneralpanel.cc:87
+msgid ""
+"_: days\n"
+"d"
+msgstr "दिन"
+
+#: kptrelationdialog.cc:58 kpttaskdefaultpanel.cc:76 kpttaskgeneralpanel.cc:88
+msgid ""
+"_: hours\n"
+"h"
+msgstr "घण्टा"
+
+#: kptrelationdialog.cc:59 kpttaskdefaultpanel.cc:77 kpttaskgeneralpanel.cc:89
+msgid ""
+"_: minutes\n"
+"m"
+msgstr "मिनेट"
+
+#: kptrelationdialog.cc:69 kptview.cc:945
+msgid "Add Relation"
+msgstr "सम्बन्ध थप्नुहोस्"
+
+#: kptrelationdialog.cc:74
+msgid "You must select a relationship type"
+msgstr "तपाईँले सम्बन्ध प्रकार चयन गर्नुपर्छ"
+
+#: kptrelationdialog.cc:92
+msgid "Edit Relationship"
+msgstr "सम्बन्ध सम्पादन गर्नुहोस्"
+
+#: kptrelationdialog.cc:109 kptrelationdialog.cc:114
+msgid "Modify Relation"
+msgstr "सम्बन्ध परिमार्जन गर्नुहोस्"
+
+#: kptreportview.cc:183
+msgid "Report Template"
+msgstr "प्रतिवेदन टेम्प्लेट"
+
+#: kptreportview.cc:424
+msgid "Cannot find report template file!"
+msgstr "प्रतिवेदन टेम्प्लेट फाइल फेला पार्न सकिदैन!"
+
+#: kptreportview.cc:425 kptreportview.cc:432 kptreportview.cc:441
+#: kptreportview.cc:458 kptreportview.cc:465 kptreportview.cc:479
+msgid "Generate Report"
+msgstr "प्रतिवेदन सिर्जना गर्नुहोस्"
+
+#: kptreportview.cc:431 kptreportview.cc:457
+msgid "Cannot open report template file!"
+msgstr "प्रतिवेदन टेम्प्लेट फाइल खोल्न सकिदैन!"
+
+#: kptreportview.cc:440
+msgid "Cannot read report template file!"
+msgstr "प्रतिवेदन टेम्प्लेट फाइल पढ्न सकिदैन!"
+
+#: kptreportview.cc:464
+msgid "Cannot find the proper report template file!"
+msgstr "उचित प्रतिवेदन टेम्प्लेट फाइल फेला पार्न सकिदैन!"
+
+#: kptreportview.cc:661
+#, c-format
+msgid "Malformed template filename: %1"
+msgstr "विकृत टेम्प्लेट फाइल नाम: %1"
+
+#: kptreportview.cc:668
+#, c-format
+msgid "Unable to download template file: %1"
+msgstr "टेम्प्लेट फाइल डाउनलोड गर्न असफल: %1"
+
+#: kptresourceappointmentsview.cc:78
+msgid "Task"
+msgstr "कार्य"
+
+#: kptresourceappointmentsview.cc:109
+msgid "Available"
+msgstr "उपलब्ध"
+
+#: kptresourcedialog.cc:122
+msgid "Resource Settings"
+msgstr "संसाधन सेटिङ"
+
+#: kptresourcedialog.cc:195
+msgid "Modify Resource"
+msgstr "संसाधन परिमार्जन गर्नुहोस्"
+
+#: kptresourcesdialog.cc:60
+msgid "Modify resources"
+msgstr "संसाधन परिमार्जन गर्नुहोस्"
+
+#: kptresourcespanel.cc:316
+msgid ""
+"Resources belong to resource groups, select the group first to add a new "
+"resource to"
+msgstr ""
+"संसाधन समूहमा स्वामित्व भएका संसाधन, यसमा नयाँ संसाधन थप्न पहिला समूह "
+"थप्नुहोस्"
+
+#: kptresourceview.cc:385
+msgid "Type"
+msgstr "प्रकार"
+
+#: kptresourceview.cc:387
+msgid "Initials"
+msgstr "सुरुआत"
+
+#: kptresourceview.cc:389
+msgid "Email"
+msgstr "इमेल"
+
+#: kptresourceview.cc:393
+msgid "Available From"
+msgstr "यसबाट उपलब्ध"
+
+#: kptresourceview.cc:395
+msgid "Available Until"
+msgstr "यहाँसम्म उपलब्ध"
+
+#: kptresourceview.cc:399
+msgid "Normal Rate"
+msgstr "सामान्य दर"
+
+#: kptresourceview.cc:401
+msgid "Overtime Rate"
+msgstr "ओभरटाइम दर"
+
+#: kptschedule.cc:101 kptschedule.cc:106 kptview.cc:180 kptview.cc:227
+#: kptview.cc:1250
+msgid "Expected"
+msgstr "अपेक्षित"
+
+#: kptschedule.cc:103 kptview.cc:182 kptview.cc:230 kptview.cc:1253
+msgid "Optimistic"
+msgstr "आशावादी"
+
+#: kptschedule.cc:105 kptview.cc:184 kptview.cc:233 kptview.cc:1256
+msgid "Pessimistic"
+msgstr "निराशावादी"
+
+#: kptstandardworktimedialog.cc:96
+msgid "Standard Worktime"
+msgstr "मानक कार्यअवधि"
+
+#: kptstandardworktimedialog.cc:112
+msgid "Modify Standard Worktime"
+msgstr "मानक कार्यअवधि पारिमार्जन गर्नुहोस्"
+
+#: kptsummarytaskdialog.cc:34
+msgid "Summary Task Settings"
+msgstr "कार्य सेटिङ सारांश"
+
+#: kptsummarytaskdialog.cc:45
+msgid "Modify Summary Task"
+msgstr "कार्य सारांश परिमार्जन गर्नुहस्"
+
+#: kptsummarytaskgeneralpanel.cc:79 kpttaskdialog.cc:60
+#: kpttaskgeneralpanel.cc:113
+msgid "Modify Task"
+msgstr "कार्य परिमार्जन गर्नुहोस्"
+
+#: kptsummarytaskgeneralpanel.cc:108 kpttaskgeneralpanel.cc:186
+msgid "Task id must be unique"
+msgstr "कार्य आईडी अद्वितिय हुनुपर्छ"
+
+#: kpttaskcostpanel.cc:80
+msgid "Modify Task Cost"
+msgstr "कार्य लागत परिमार्जन गर्नुहोस्"
+
+#: kpttaskdefaultpanel.cc:101
+msgid "Modify Default Task"
+msgstr "पूर्वनिर्धारित कार्य परिमार्जन गर्नुहोस्"
+
+#: kpttaskdialog.cc:36
+msgid "Task Settings"
+msgstr "कार्य सेटिङ"
+
+#: kpttaskdialog.cc:44
+msgid "&Resources"
+msgstr "संसाधन"
+
+#: kpttaskdialog.cc:47
+msgid "&Cost"
+msgstr "लागत"
+
+#: kpttaskprogressdialog.cc:32
+msgid "Task Progress"
+msgstr "कार्य प्रगति"
+
+#: kpttaskprogressdialog.cc:48
+msgid "Modify Task Progress"
+msgstr "कार्य प्रगतिमा परिमार्जन गर्नुहोस्"
+
+#: kpttaskprogresspanel.cc:65 kpttaskprogresspanel.cc:72
+#: kpttaskprogresspanel.cc:80
+msgid ""
+"_: day\n"
+"d"
+msgstr "दिन"
+
+#: kpttaskprogresspanel.cc:66 kpttaskprogresspanel.cc:73
+#: kpttaskprogresspanel.cc:81
+msgid ""
+"_: hour\n"
+"h"
+msgstr "घण्टा"
+
+#: kpttaskprogresspanel.cc:67 kpttaskprogresspanel.cc:74
+#: kpttaskprogresspanel.cc:82
+msgid ""
+"_: minute\n"
+"m"
+msgstr "मिनेट"
+
+#: kptview.cc:167 kptview.cc:862
+msgid "Indent Task"
+msgstr "इन्डेण्ट कार्य"
+
+#: kptview.cc:169 kptview.cc:876
+msgid "Unindent Task"
+msgstr "इन्डेण्ट नगरिएको कार्य"
+
+#: kptview.cc:171
+msgid "Move Up"
+msgstr "माथि सार्नुहोस्"
+
+#: kptview.cc:173
+msgid "Move Down"
+msgstr "तल सार्नुहोस्"
+
+#: kptview.cc:177
+msgid "Gantt"
+msgstr "गान्ट"
+
+#: kptview.cc:188
+msgid "Task Name"
+msgstr "कार्य नाम"
+
+#: kptview.cc:189
+msgid "Task Links"
+msgstr "कार्य लिङ्क"
+
+#: kptview.cc:190
+msgid "Progress"
+msgstr "प्रगति"
+
+#: kptview.cc:191
+msgid "Float"
+msgstr "उत्प्लावन"
+
+#: kptview.cc:192
+msgid "Critical Tasks"
+msgstr "असामान्य कार्य"
+
+#: kptview.cc:193
+msgid "Critical Path"
+msgstr "असामान्य बाटो"
+
+#: kptview.cc:197 kptview.cc:203
+msgid "Show Allocations"
+msgstr "बाँडफाँट देखाउनुहोस्"
+
+#: kptview.cc:199
+msgid "Network"
+msgstr "सञ्जाल"
+
+#: kptview.cc:205
+msgid "Accounts"
+msgstr "खाता"
+
+#: kptview.cc:210
+msgid "Task..."
+msgstr "कार्य..."
+
+#: kptview.cc:212
+msgid "Sub-Task..."
+msgstr "सहायक कार्य..."
+
+#: kptview.cc:214
+msgid "Milestone..."
+msgstr "माइलस्टोन..."
+
+#: kptview.cc:218
+msgid "Edit Main Project..."
+msgstr "मुख्य परियोजना सम्पादन गर्नुहोस्..."
+
+#: kptview.cc:219
+msgid "Edit Standard Worktime..."
+msgstr "मानक कार्यअवधि सम्पादन गर्नुहोस्..."
+
+#: kptview.cc:220
+msgid "Edit Calendar..."
+msgstr "क्यालेन्डर सम्पादन गर्नुहोस्..."
+
+#: kptview.cc:221
+msgid "Edit Accounts..."
+msgstr "खाता सम्पादन गर्नुहोस्..."
+
+#: kptview.cc:222
+msgid "Edit Resources..."
+msgstr "संसाधन सम्पादन गर्नुहोस्..."
+
+#: kptview.cc:224 kptview.cc:586 kptview.cc:594 kptview.cc:596
+msgid "Calculate"
+msgstr "गणना गर्नुहोस्"
+
+#: kptview.cc:254
+msgid "Define WBS Pattern..."
+msgstr "WBS बाँन्की परिभाषित गर्नुहोस्..."
+
+#: kptview.cc:257
+msgid "Generate WBS Code"
+msgstr "WBS सङ्केत सिर्जना गर्नुहोस्"
+
+#: kptview.cc:265
+msgid "Configure KPlato..."
+msgstr "केडीई प्लाटो कन्फिगर गर्नुहोस्..."
+
+#: kptview.cc:271
+msgid "Progress..."
+msgstr "प्रगति..."
+
+#: kptview.cc:273 kptview.cc:840
+msgid "Delete Task"
+msgstr "कार्य मेट्नुहोस्"
+
+#: kptview.cc:276
+msgid "Edit Resource..."
+msgstr "संसाधन सम्पादन गर्नुहोस्..."
+
+#: kptview.cc:289
+msgid "Export Gantt"
+msgstr "गान्ट निर्यात गर्नुहोस्"
+
+#: kptview.cc:586
+msgid "Progress information will be deleted if the project is recalculated."
+msgstr "यदि परियोजना पुन: गणना गरिएमा प्रगति सूचना मेटिनेछ ।"
+
+#: kptview.cc:624
+msgid "Add Subtask"
+msgstr "सहायक कार्य थप्नुहोस्"
+
+#: kptview.cc:646
+msgid "Add Task"
+msgstr "कार्य थप्नुहोस्"
+
+#: kptview.cc:669
+msgid "Add Milestone"
+msgstr "माइलस्टोन थप्नुहोस्"
+
+#: kptview.cc:898
+msgid "Move Task Up"
+msgstr "कार्य माथि सार्नुहोस्"
+
+#: kptview.cc:919
+msgid "Move Task Down"
+msgstr "कार्य तल सार्नुहोस्"
+
+#: kptview.cc:956
+msgid "Delete Relation"
+msgstr "सम्बन्ध मेट्नुहोस्"
+
+#: kptview.cc:1106
+msgid "Modify Name"
+msgstr "नाम परिमार्जन गर्नुहोस्"
+
+#: kptwbsdefinition.cc:40
+msgid "Number"
+msgstr "नम्बर"
+
+#: kptwbsdefinition.cc:41
+msgid "Roman, Upper Case"
+msgstr "रोमन, ठूलो वर्ण"
+
+#: kptwbsdefinition.cc:42
+msgid "Roman, Lower Case"
+msgstr "रोमन, सानो वर्ण"
+
+#: kptwbsdefinition.cc:43
+msgid "Letter, Upper Case"
+msgstr "अक्षर, ठूलो वर्ण"
+
+#: kptwbsdefinition.cc:44
+msgid "Letter, Lower Case"
+msgstr "अक्षर, सानो वर्ण"
+
+#: kptwbsdefinitiondialog.cc:33
+msgid "WBS Definition"
+msgstr "WBS परिभाषा"
+
+#: kptwbsdefinitiondialog.cc:45 kptwbsdefinitionpanel.cc:84
+msgid "Modify WBS Definition"
+msgstr "WBS परिभाषा परिमार्जन गर्नुहोस्"
+
+#: main.cc:32
+msgid "File to open"
+msgstr "खोल्नुपर्ने फाइल"
+
+#: kptaboutdata.h:30
+msgid "KPlato - KDE Planning Tool"
+msgstr "केडीई प्लाटो - KDE योजना उपकरण"
+
+#: kptaboutdata.h:35
+msgid "KPlato"
+msgstr "केडीई प्लाटो"
+
+#: kptaboutdata.h:37
+msgid "(c) 1998-2006, The KPlato Team"
+msgstr "(c) 1998-2006, केडीई प्लाटो समूह"
+
+#: kptaboutdata.h:43
+msgid "Application icon for kplato"
+msgstr "केडीई प्लाटो का लागि प्रतिमा अनुप्रयोग"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल, ,Launchpad Contributions:,Mahesh Subedi"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "nabin@mpp.org.np, shyamkrishna_bal@yahoo.com,,,submanesh@gmail.com"

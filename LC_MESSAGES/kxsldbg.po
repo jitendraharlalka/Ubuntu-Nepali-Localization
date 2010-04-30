@@ -1,0 +1,2159 @@
+# Nepali translation for kdewebdev
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdewebdev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdewebdev\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 15:40+0000\n"
+"PO-Revision-Date: 2009-12-24 07:12+0000\n"
+"Last-Translator: Launchpad Translations Administrators "
+"<rosetta@launchpad.net>\n"
+"Language-Team: Nepali <ne@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:41+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: xsldbgmain.cpp:54
+msgid "A KDE console application for xsldbg, an XSLT debugger"
+msgstr "xsldbg का लागि एउटा केडीई कन्सोल अनुप्रयोग, एउटा XSLT त्रुटिमोचक"
+
+#: xsldbgmain.cpp:80
+#, kde-format
+msgid "Using libxml %1, libxslt %2 and libexslt %3\n"
+msgstr "libxml %1, libxslt %2 र libexslt %3 प्रयोग\n"
+
+#: xsldbgmain.cpp:81
+#, kde-format
+msgid "xsldbg was compiled against libxml %1, libxslt %2 and libexslt %3\n"
+msgstr ""
+"xsldbg लाई libxml %1, libxslt %2 र libexslt %3 को बिरुद्धमा कम्पाइल गरिएको "
+"थियो\n"
+
+#: xsldbgmain.cpp:82
+#, kde-format
+msgid "libxslt %1 was compiled against libxml %2\n"
+msgstr "libxslt %1 लाई libxml %2 को बिरुद्धमा कम्पाइल गरिएको थियो\n"
+
+#: xsldbgmain.cpp:83
+#, kde-format
+msgid "libexslt %1 was compiled against libxml %2\n"
+msgstr "libexslt %1 लाई libxml %2 का बिरुद्धमा कम्पाइल गरिएको थियो\n"
+
+#: xsldbgmain.cpp:86
+msgid "Xsldbg"
+msgstr "Xsldbg"
+
+#: xsldbgmain.cpp:86 main.cpp:25
+msgid "(C) 2003 Keith Isdale"
+msgstr ""
+
+#: xsldbgmain.cpp:87 main.cpp:26 kxsldbgpart/kxsldbg_part.cpp:309
+msgid "Keith Isdale"
+msgstr ""
+
+#: xsldbgmain.cpp:91
+msgid "Start a shell"
+msgstr "शेल सुरुआत गर्नुहोस्"
+
+#: xsldbgmain.cpp:92
+msgid "Path to change into before loading files"
+msgstr "फाइलहरू लोड गर्नुभन्दा पहिला परिवर्तन गर्नुपर्ने मार्ग"
+
+#: xsldbgmain.cpp:93
+msgid "Add a parameter named <name> and value <value> to XSL environment"
+msgstr "XSL परिवेशमा <name> नाम र <value> मान भएको परिमिति थप्नुहोस्"
+
+#: xsldbgmain.cpp:94
+msgid "Use ISO 639 language code specified; for example en_US"
+msgstr ""
+"निर्दिष्ट गरिएको ISO 639 भाषा कोड प्रयोग गर्नुहोस्; उदाहरणका लागि en_US"
+
+#: xsldbgmain.cpp:95
+msgid "Save to a given file. See output command documentation"
+msgstr "दिएको फाइलमा बचत गर्नुहोस् । निर्गत आदेश मिशिलिकरण हेर्नुहोस्"
+
+#: xsldbgmain.cpp:96
+msgid "Show the version of libxml and libxslt used"
+msgstr "libxml र libxslt को प्रयोग गरिएको संस्करण देखाउनुहोस्"
+
+#: xsldbgmain.cpp:97
+msgid "Show logs of what is happening"
+msgstr "पछि आइपर्ने कार्यहरू देखाउनुहोस्"
+
+#: xsldbgmain.cpp:98
+msgid "Display the time used"
+msgstr "प्रयोग गरिएको समय प्रदर्शन गर्नुहोस्"
+
+#: xsldbgmain.cpp:99
+msgid "Run the transformation 20 times"
+msgstr "रुपान्तरण २० पटक चलाउनुहोस्"
+
+#: xsldbgmain.cpp:100
+msgid "Automatically load/save configuration."
+msgstr ""
+
+#: xsldbgmain.cpp:102
+msgid "Dump the tree of the result instead"
+msgstr "यसको साटोमा परिणामको ट्रि सञ्चित गर्नुहोस्"
+
+#: xsldbgmain.cpp:104
+msgid "Disable the DTD loading phase"
+msgstr "DTD लोडिङ चरण अक्षम पार्नुहोस्"
+
+#: xsldbgmain.cpp:105
+msgid "Disable the output of the result"
+msgstr "परिणामको निर्गत अक्षम पार्नुहोस्"
+
+#: xsldbgmain.cpp:106
+msgid "Increase the maximum depth"
+msgstr "अधिकतम गाढापन बढाउनुहोस्"
+
+#: xsldbgmain.cpp:108
+msgid "The input document is(are) an HTML file(s)"
+msgstr "आगत कागजात HTML फाइल(हरू) हो(हुन्)"
+
+#: xsldbgmain.cpp:111
+msgid "The input document is SGML docbook"
+msgstr "आगत कागजात SGML docbook हो"
+
+#: xsldbgmain.cpp:113
+msgid "Disable the fetching DTDs or entities over network"
+msgstr "सञ्जालमा DTDs वा वस्तुहरू तनाई अक्षम पार्नुहोस्"
+
+#: xsldbgmain.cpp:115
+msgid "Use the catalogs from $SGML_CATALOG_FILES"
+msgstr "$SGML_CATALOG_FILES बाट विवरणिका प्रयोग गर्नुहोस्"
+
+#: xsldbgmain.cpp:118
+msgid "Disable XInclude processing on document input"
+msgstr "कागजात आगतमा XInclude प्रक्रिया अक्षम पार्नुहोस्"
+
+#: xsldbgmain.cpp:120
+msgid "Print profiling information"
+msgstr ""
+
+#: xsldbgmain.cpp:121
+msgid "Do not run gdb compatibility mode and print less information"
+msgstr ""
+
+#: xsldbgmain.cpp:122
+msgid "Detect and use encodings in the stylesheet"
+msgstr "शैलीपानामा सङ्केतन पत्ता लगाउनुहोस् र प्रयोग गर्नुहोस्"
+
+#: xsldbgmain.cpp:123
+msgid "Treat command line input as encoded in UTF-8"
+msgstr "UTF-8 मा सङ्केतन गरिए अनुरुप आदेश लाइन आगत व्यवहार गर्नुहोस्"
+
+#: xsldbgmain.cpp:124
+msgid "Use HTML output when generating search reports"
+msgstr "खोजी प्रतिवेदन उत्पन्न गर्दा HTML निर्गत प्रयोग गर्नुहोस्"
+
+#: xsldbgmain.cpp:125
+msgid ""
+"Print all error messages to stdout, normally error messages go to stderr"
+msgstr ""
+"stdout मा सबै त्रुटि सन्देश मुद्रण गर्नुहोस्, सामान्यतया त्रुटि सन्देश "
+"stderr मा जान्छ"
+
+#: xsldbgmain.cpp:126
+msgid ""
+"Disable the automatic restarting of execution when current processing pass "
+"is complete"
+msgstr ""
+"हालको पास प्रक्रिया समाप्त हुँदा कार्यान्वयनको स्वचालित पुन: सुरुआत अक्षम "
+"पार्नुहोस् ।"
+
+#: xsldbgmain.cpp:127 main.cpp:30
+msgid "XSL script to run"
+msgstr "चलाउनका लागि एक्सएसएल स्क्रिप्ट"
+
+#: xsldbgmain.cpp:128 main.cpp:31
+msgid "XML data to be transformed"
+msgstr "प्रसारित हुने एक्सएमएल डाटा"
+
+#: main.cpp:20
+msgid "A KDE KPart Application for xsldbg, an XSLT debugger"
+msgstr ""
+"xsldbg का लागि एउटा केडीई केडीईभाग अनुप्रयोग, एउटा एक्सएसएलटी त्रुटिमोचक"
+
+#: main.cpp:25
+msgid "KXSLDbg"
+msgstr "KXSLDbg"
+
+#: main.cpp:32
+msgid "File to save results to"
+msgstr "परिणामलाई बचत गर्ने फाइल"
+
+#: kxsldbg.cpp:83
+msgid "Could not create our part."
+msgstr ""
+
+#: kxsldbg.cpp:91
+msgid "Could not find our part."
+msgstr "हाम्रो भाग फेला पार्न सकेन ।"
+
+#: kxsldbg.cpp:176
+#, kde-format
+msgid "File: %1  Line: %2  Col: %3"
+msgstr "फाइल: %1  लाइन: %2  स्तम्भ: %3"
+
+#: kxsldbgpart/xsldbgvariablesimpl.cpp:87
+msgid "Local"
+msgstr "स्थानीय"
+
+#: kxsldbgpart/xsldbgvariablesimpl.cpp:89
+msgid "Global"
+msgstr "बिश्वब्यापी"
+
+#: kxsldbgpart/kxsldbg_part.cpp:99 kxsldbgpart/kxsldbg_part.cpp:673
+msgid "Goto XPath"
+msgstr "XPath मा जानुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, expressionButton)
+#: kxsldbgpart/kxsldbg_part.cpp:107 rc.cpp:41
+msgid "Evaluate"
+msgstr "मुल्याङ्कन"
+
+#: kxsldbgpart/kxsldbg_part.cpp:122
+msgid "Configure Editor..."
+msgstr "सम्पादक कन्फिगर गर्नुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:126
+msgid "Configure..."
+msgstr "कन्फिगर गर्नुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:132
+msgid "Inspect..."
+msgstr "निरीक्षण गर्नुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:140
+msgid "Run"
+msgstr "चलाउनुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:147
+msgid "Continue"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:154
+msgid "Step"
+msgstr "चरण"
+
+#: kxsldbgpart/kxsldbg_part.cpp:160
+msgid "Next"
+msgstr "पछिल्लो"
+
+#: kxsldbgpart/kxsldbg_part.cpp:165
+msgid "Step Up"
+msgstr "माथि जानुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:170
+msgid "Step Down"
+msgstr "तल जानुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:176
+msgid "Break"
+msgstr "विच्छेद गर्नुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:181
+msgid "Enable/Disable"
+msgstr "सक्षम/अक्षम पार्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:258
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:336
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: kxsldbgpart/kxsldbg_part.cpp:186 rc.cpp:140 rc.cpp:326
+msgid "Delete"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:191
+msgid "&Source"
+msgstr "स्रोत"
+
+#: kxsldbgpart/kxsldbg_part.cpp:196
+msgid "&Data"
+msgstr "डाटा"
+
+#: kxsldbgpart/kxsldbg_part.cpp:201
+msgid "&Output"
+msgstr "निर्गत"
+
+#: kxsldbgpart/kxsldbg_part.cpp:206
+msgid "Reload"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:212
+msgid "Walk Through Stylesheet..."
+msgstr "शैलीपाना हुँदै जानुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:216
+msgid "Stop Wal&king Through Stylesheet"
+msgstr "शैलीपाना हुँदै जाँदा रोकिनुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:220
+msgid "Tr&ace Execution of Stylesheet"
+msgstr "शैलीपानाको पदचिन्ह कार्यान्वयन"
+
+#: kxsldbgpart/kxsldbg_part.cpp:224
+msgid "Stop Tracing of Stylesheet"
+msgstr "शैलीपानाको पदचिन्ह रोक्नुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:229
+msgid "&Evaluate Expression..."
+msgstr "अभिव्यक्ति मुल्याङ्कन गर्नुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:234
+msgid "Goto &XPath..."
+msgstr "XPath मा जानुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:239
+msgid "Lookup SystemID..."
+msgstr "प्रणाली आईडी खोज्नुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:243
+msgid "Lookup PublicID..."
+msgstr "साझा आईडी खोज्नुहोस्..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:247
+msgid "Quit"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:308
+msgid "KXsldbgPart"
+msgstr "KXsldbgPart"
+
+#: kxsldbgpart/kxsldbg_part.cpp:410
+msgid "Debugger Not Ready"
+msgstr "त्रुटिमोचक तयार छैन"
+
+#: kxsldbgpart/kxsldbg_part.cpp:411
+msgid "Configure and start the debugger first."
+msgstr "पहिला त्रुटिमोचक कन्फिगर गर्नुहोस् र सुरु गर्नुहोस् ।"
+
+#: kxsldbgpart/kxsldbg_part.cpp:427
+msgid "Lookup SystemID"
+msgstr "प्रणाली आईडी खोज्नुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:428
+msgid "Please enter SystemID to find:"
+msgstr "कृपया फेला पार्न प्रणाली आईडी प्रविष्ट गर्नुहोस्:"
+
+#: kxsldbgpart/kxsldbg_part.cpp:451
+msgid "Lookup PublicID"
+msgstr "साझा आईडी खोज्नुहोस्"
+
+#: kxsldbgpart/kxsldbg_part.cpp:452
+msgid "Please enter PublicID to find:"
+msgstr "कृपया फेला पार्न साझा आईडी प्रविष्ट गर्नुहोस्:"
+
+#: kxsldbgpart/kxsldbg_part.cpp:665
+msgid "Evaluate Expression"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:665 kxsldbgpart/kxsldbg_part.cpp:673
+msgid "XPath:"
+msgstr "XPath:"
+
+#: kxsldbgpart/kxsldbg_part.cpp:756 kxsldbgpart/libxsldbg/xsldbg.cpp:522
+msgid "Error: Too many file names supplied via command line.\n"
+msgstr "त्रुटि: आदेश लाइनबाट अति धेरै फाइल नामहरू वितरण ।\n"
+
+#: kxsldbgpart/kxsldbg_part.cpp:829
+msgid "SystemID or PublicID Resolution Result"
+msgstr "प्रणाली आईडी वा साझा आईडी रिज्योलुसन परिणाम"
+
+#: kxsldbgpart/kxsldbg_part.cpp:830
+#, kde-format
+msgid ""
+"SystemID or PublicID has been resolved to\n"
+".%1"
+msgstr ""
+"प्रणाली आईडी वा साझा आईडी\n"
+".%1 मा बिश्लेषण गरिएको छ"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:131
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:215
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:342
+#, kde-format
+msgid "Error: XPath %1 results in an empty Node Set.\n"
+msgstr "त्रुटि: XPath %1 परिणाम खाली नोड सेटमा छ ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:158
+#, kde-format
+msgid ""
+"Information: Temporarily setting document's encoding to UTF-8. Previously "
+"was %1.\n"
+msgstr "सूचना: UTF-8 मा अस्थायी सेटिङ कागजातको सङ्केतन । अगाडी %1 थियो ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:201
+#, kde-format
+msgid "Error: Unable to save temporary results to %1.\n"
+msgstr "त्रुटि: %1 मा अस्थायी परिणाम बचत गर्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:223
+msgid "NULL string value supplied."
+msgstr "शून्य स्ट्रिङ मान वितरण ।"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:234
+msgid "Unable to convert XPath to string."
+msgstr "XPath मा स्ट्रिङ रुपान्तरण गर्न असमर्थ ।"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:317
+msgid ""
+"Warning: Unable to print expression. No stylesheet was properly loaded.\n"
+msgstr ""
+"चेतावनी: अभिव्यक्ति मुद्रण गर्न असमर्थ । शैलीपाना ठीक तरिकाले लोड गरिएको "
+"थिएन ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:369
+#, kde-format
+msgid " Global %1\n"
+msgstr " बिश्वब्यापी %1\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:372
+msgid " Global "
+msgstr " बिश्वब्यापी "
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:375
+#, kde-format
+msgid " Global = %1\n"
+msgstr " Global = %1\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:378
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:381
+#, kde-format
+msgid ""
+" Global = %1\n"
+"%2"
+msgstr ""
+" Global = %1\n"
+"%2"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:381
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:506
+msgid "Warning: No value assigned to variable.\n"
+msgstr "चेतावनी: चललाई मान मानाङ्कन गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:422
+msgid ""
+"Error: Debugger has no files loaded or libxslt has not reached a template.\n"
+"Try reloading files or taking more steps.\n"
+msgstr ""
+"त्रुटि:त्रुटिमोचकले फाइल लोड गरेको छैन वा libxslt टेम्प्लेटमा पुगेको छैन ।\n"
+"फाइल पुन: लोड गर्ने प्रयास गर्नुहोस् वा धेरै चरण लिनुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:459
+msgid ""
+"Error: Libxslt has not initialized variables yet; try stepping to a "
+"template.\n"
+msgstr ""
+"त्रुटि: Libxslt ले हालसम्म चलहरू सुरुआत गरेको छैन;; टेम्प्लेटमा जाने प्रयास "
+"गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:494
+#, kde-format
+msgid " Local %1"
+msgstr " स्थानीय %1"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:497
+msgid " Local "
+msgstr " स्थानीय "
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:500
+#, kde-format
+msgid " Local = %1\n"
+msgstr " Local = %1\n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:503
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:506
+#, kde-format
+msgid ""
+" Local = %1\n"
+"%2"
+msgstr ""
+" Local = %1\n"
+"%2"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:521
+msgid ""
+"Error: Libxslt has not initialized variables yet; try stepping past the "
+"xsl:param elements in the template.\n"
+msgstr ""
+"त्रुटि: Libxslt ले हालसम्म चलहरू सुरुआत गरेको छैन; टेम्प्लेटमा xsl:param "
+"तत्वहरू पहिला लैजाने प्रयास गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/utils.cpp:95
+msgid "Error: Unmatched quotes in input.\n"
+msgstr "त्रुटि: आगतमा नमिलेका उद्धरण ।\n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:41
+msgid "Failed to add parameter"
+msgstr "परिमिति थप्न असफल"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:45
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:54
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:73
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:84
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1637
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1650
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1797
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:202
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:218
+#, kde-format
+msgid "Error: Invalid arguments for the command %1.\n"
+msgstr "त्रुटि: आदेश %1 का लागि अबैध तर्क ।\n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:69
+msgid "Failed to delete parameter"
+msgstr "परिमिति मेट्न असफल"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:81
+#, kde-format
+msgid "Error: Unable to find parameter %1.\n"
+msgstr "त्रुटि: परिमित %1 फेला पार्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:106
+msgid "Unable to print parameters"
+msgstr "परिमिति मुद्रण गर्न असमर्थ"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:120
+#, kde-format
+msgid " Parameter %1 %2=\"%3\"\n"
+msgstr " Parameter %1 %2=\"%3\"\n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:125
+msgid ""
+"\n"
+"No parameters present.\n"
+msgstr ""
+"\n"
+"परिमिति प्रस्तुत छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:45
+msgid "Error: No path to documentation; aborting searching.\n"
+msgstr "त्रुटि: मिशिलिकरणका लागि मार्ग छैन; खोजी परित्याग गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:47
+msgid "Error: Error in value of USE_DOCS_MACRO; look at Makefile.am.\n"
+msgstr ""
+"त्रुटि: USE_DOCS_MACRO को मानमा त्रुटि; Makefile.am. मा हेर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:49
+#, kde-format
+msgid ""
+"Error: Required environment variable %1 not set to the directory of xsldbg "
+"documentation.\n"
+msgstr ""
+"त्रुटि: xsldbg मिशिलिकरणको डाइरेक्टरीमा आवश्यक परिवेश चल %1 पेश गरिएको छैन "
+"।\n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:55
+msgid "Error: Stylesheet not valid, files not loaded yet?\n"
+msgstr "त्रुटि: शैलीपाना बैध छैन, फाइल अहिलेसम्म लोड गरेको छैन?\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:411
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:74
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:299
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:697
+msgid "Error: Debugger has no files loaded. Try reloading files.\n"
+msgstr ""
+"त्रुटि: त्रुटिमोचकले फाइल लोड गरेको छैन । फाइल पुन: लोड गर्ने प्रयास "
+"गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:433
+#, kde-format
+msgid "Error: The XSLT template named \"%1\" was not found.\n"
+msgstr "त्रुटि: \"%1\" नाम गरेको  XSLT टेम्प्लेट फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:436
+#, kde-format
+msgid " template: \"%1\"\n"
+msgstr " टेम्प्लेट: \"%1\"\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:461
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:467
+msgid "Error: Unable to cd. No stylesheet loaded.\n"
+msgstr "त्रुटि: cd गर्न असमर्थ । शैलीपाना लोड गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:464
+#, kde-format
+msgid "Error: Unknown arguments to the command %1.\n"
+msgstr "त्रुटि: आदेश %1 लाई अज्ञात तर्क ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:486
+#, kde-format
+msgid "Error: Invalid arguments to the command %1.\n"
+msgstr "त्रुटि: आदेश %1 लाई अबैध तर्क ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:507
+#, kde-format
+msgid "Warning: XPath %2 is a Node Set with %1 child."
+msgid_plural "Warning: XPath %2 is a Node Set with %1 children."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:509
+#, kde-format
+msgid "Warning: XPath %1 is an empty Node Set.\n"
+msgstr "चेतावनी: XPath %1 खाली नोड सेट हो ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:518
+#, kde-format
+msgid "Error: XPath %1 was not found.\n"
+msgstr "त्रुटि: XPath %1 फेला परेको थिएन ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:562
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:565
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:596
+#, kde-format
+msgid "#%1 template: \"%2\" mode: \"%3\""
+msgstr "#%1 टेम्प्लेट: \"%2\" मोड: \"%3\""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:567
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:584
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:599
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:652
+#, kde-format
+msgid " in file \"%1\" at line %2\n"
+msgstr " \"%1\" फाइलको %2 लाइनमा\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:569
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:603
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:989
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1092
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:191
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:277
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:909
+#: kxsldbgpart/libxsldbg/files_unix.cpp:53
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:109
+#: kxsldbgpart/libxsldbg/files.cpp:1047 kxsldbgpart/libxsldbg/xsldbg.cpp:442
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:965 kxsldbgpart/libxsldbg/search.cpp:106
+#: kxsldbgpart/libxsldbg/search.cpp:899 kxsldbgpart/libxsldbg/search.cpp:951
+#: kxsldbgpart/libxsldbg/search.cpp:1001 kxsldbgpart/libxsldbg/search.cpp:1042
+#: kxsldbgpart/libxsldbg/search.cpp:1080 kxsldbgpart/libxsldbg/search.cpp:1124
+#: kxsldbgpart/libxsldbg/search.cpp:1159
+msgid "Error: Out of memory.\n"
+msgstr "त्रुटि: स्मृति बाहिर ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:582
+#, kde-format
+msgid "#%1 template: \"LIBXSLT_DEFAULT\" mode: \"\""
+msgstr "#%1 टेम्प्लेट: \"LIBXSLT_DEFAULT\" मोड: \"\""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:625
+msgid "\tNo items in call stack.\n"
+msgstr "\tकल स्ट्याकमा वस्तु छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:648
+#, kde-format
+msgid "#%1 template: \"%2\""
+msgstr "#%1 टेम्प्लेट: \"%2\""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:823
+msgid "Information: Updating search database. This may take a while...\n"
+msgstr "सूचना: खोजी डाटाबेस अद्यावधिक गर्दैछ । यसले केही समय लिन सक्छ ...\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:826
+msgid "Information: Looking for breakpoints.\n"
+msgstr "सूचना: विच्छेद बिन्दु खोज्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:828
+msgid "Information: Looking for imports and top-level stylesheets.\n"
+msgstr "सूचना: आयात र माथिल्लो-स्तरका शैलीपानाहरूका लागि खोजी गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:830
+msgid "Information: Looking for xsl:includes.\n"
+msgstr "सूचना: xsl:समाविष्टको खोजी गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:832
+msgid "Information: Looking for templates.\n"
+msgstr "सूचना: टेम्प्लेटहरूको खोजी गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:834
+msgid "Information: Looking for global variables.\n"
+msgstr "सूचना: बिश्वब्यापी चलहरूका लागि खोजी गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:836
+msgid "Information: Looking for local variables.\n"
+msgstr "सूचना: स्थानीय चलहरू खोजी गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:838
+msgid "Information: Formatting output.\n"
+msgstr "सूचना: निर्गत ढाँचाबद्ध गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:892
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:894
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:900
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:902
+#, kde-format
+msgid ""
+"\n"
+"Reached template: \"%1\" mode: \"%2\"\n"
+msgstr ""
+"\n"
+"टेम्प्लेट प्राप्त गर्यो: \"%1\" मोड: \"%2\"\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1047
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1840
+#, kde-format
+msgid "Breakpoint for file \"%1\" at line %2.\n"
+msgstr "फाइल \"%1\" को %2 लाइनका लागि विच्छेद बिन्दु ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1049
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1842
+#, kde-format
+msgid "Breakpoint at text node in file \"%1\".\n"
+msgstr "फाइल \"%1\" को पाठ नोडमा विच्छेद बिन्दु ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1212
+msgid ""
+"Unable to print local help. Online help can be found at "
+"http://xsldbg.sourceforge.net/docs/index.html.\n"
+msgstr ""
+"स्थानीय मद्दत फाइल मुद्रण गर्न असमर्थ । अनलाइन मद्दत "
+"http://xsldbg.sourceforge.net/docs/index.html. मा प्राप्त गर्न सकिनेछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1365
+msgid ""
+"\n"
+"No breakpoints are set for the file.\n"
+msgstr ""
+"\n"
+"फाइलका लागि विच्छेद बिन्दु सेट गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1367
+#, kde-format
+msgid "\tTotal of %1 breakpoint present."
+msgid_plural "\tTotal of %1 breakpoints present."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1386
+msgid "Error: Unable to delete breakpoint.\n"
+msgstr "त्रुटि: बिच्छेद बिन्दु मेट्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1408
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1428
+msgid "Error: Unable to enable/disable breakpoint.\n"
+msgstr "त्रुटि: बिच्छेद बिन्दु सक्षम/अक्षम पार्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1461
+#, kde-format
+msgid " in file \"%1\" at line %2"
+msgstr " \"%1\" फाइलको %2 लाइनमा"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1469
+msgid "Error: Unable to print working directory.\n"
+msgstr "त्रुटि: कार्य डाइरेक्टरी मुद्रण गर्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1489
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1511
+msgid "Error: Need to use the run command first.\n"
+msgstr "त्रुटि: पहिला चलाउने आदेश प्रयोग गर्न आवश्यक हुन्छ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1546
+msgid "Load of source deferred. Use the run command.\n"
+msgstr "स्रोतको लोड स्थगित गरियो । चलाउने आदेश प्रयोग गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1584
+msgid "Load of data file deferred. Use the run command.\n"
+msgstr "डाटा फाइलको लोड स्थगित गरियो । चलाउने आदेश प्रयोग गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1660
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1668
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1676
+#, kde-format
+msgid "Warning: The %1 command is disabled.\n"
+msgstr "चेतावनी: %1 आदेश अक्षम पारयो ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1732
+#, kde-format
+msgid "Opening terminal %1.\n"
+msgstr "टर्मिनल %1 खुल्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1748
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:43
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:178
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:222
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:112
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:115
+#, kde-format
+msgid "Error: Missing arguments for the command %1.\n"
+msgstr "त्रुटि: आदेश %1 का लागि तर्क छुटेको छ ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1752
+#, kde-format
+msgid "Warning: The %1 command is disabled\n"
+msgstr "चेतावनी: %1 आदेश अक्षम पारियो ।\n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1829
+#, kde-format
+msgid "Error: Unknown command %1. Try help.\n"
+msgstr "त्रुटि: अज्ञात आदेश %1. मद्दत प्रयास गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:45
+#: kxsldbgpart/libxsldbg/help_unix.cpp:51
+msgid "xsldbg version"
+msgstr "xsldbg संस्करण"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:46
+#: kxsldbgpart/libxsldbg/help_unix.cpp:52
+msgid "Help document version"
+msgstr "मद्दत कागजात संस्करण"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:47
+#: kxsldbgpart/libxsldbg/help_unix.cpp:53
+msgid "Help not found for command"
+msgstr "आदेशका लागि मद्दत फेला परेन"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:85
+#, kde-format
+msgid ""
+"Error: Unable to display help. Help files not found in %1 or xsldbg not "
+"found in path.\n"
+msgstr ""
+"त्रुटि: मद्दत प्रदर्शन गर्न असमर्थ । मद्दत फाइल %1 मा फेला परेन वा मार्गमा "
+"xsldbg फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:88
+msgid "Error: Unable to find xsldbg or help files.\n"
+msgstr "त्रुटि: xsldbg वा मद्दत फाइल फेला पार्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:93
+msgid "Error: Unable to print help file.\n"
+msgstr "त्रुटि: मद्दत फाइल मुद्रण गर्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:98
+msgid "Error: No path to documentation; aborting help.\n"
+msgstr "त्रुटि: मिशिलिकरण गर्ने मार्ग छैन; मद्दत परित्याग गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/options.cpp:114 kxsldbgpart/libxsldbg/options.cpp:139
+#, kde-format
+msgid "Error: Option %1 is not a valid boolean/integer option.\n"
+msgstr "त्रुटि: विकल्प %1 बैध बुलिएन/इन्टिजर विकल्प हैन ।\n"
+
+#: kxsldbgpart/libxsldbg/options.cpp:162 kxsldbgpart/libxsldbg/options.cpp:188
+#, kde-format
+msgid "Error: Option %1 is not a valid string xsldbg option.\n"
+msgstr "त्रुटि: विकल्प %1 बैध स्ट्रिङ xsldbg विकल्प हैन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:71
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:292
+msgid "Failed to add breakpoint."
+msgstr "विच्छेदबिन्दु थप्न असफल ।"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:90
+#, kde-format
+msgid "Error: Unable to parse %1 as a number of frames.\n"
+msgstr "त्रुटि: फ्रेमका नम्बर अनुरुप %1 पदवर्णन गर्न सकेन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:119
+msgid "Error: Stylesheet is not valid or file is not loaded.\n"
+msgstr "त्रुटि: शैलीपाना बैध छैन वा फाइल लोड गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:159
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:183
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:261
+#, kde-format
+msgid ""
+"Warning: Breakpoint for file \"%1\" at line %2 does not seem to be valid.\n"
+msgstr ""
+"चेतावनी: फाइल \"%1\" का लागि %2 लाइनमा विच्छेद बिन्दु बैध नहुने देखिन्छ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:181
+#, kde-format
+msgid "Error: Unable to find a stylesheet file whose name contains %1.\n"
+msgstr "त्रुटि: %1 नाम भएको शैलीपाना फाइल फेला पार्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:208
+msgid "Error: Data file is invalid. Try the run command first.\n"
+msgstr "त्रुटि: डाटा फाइल अबैध छ । पहिला चलाउने आदेश प्रयास गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:263
+#, kde-format
+msgid "Error: Unable to find a data file whose name contains %1.\n"
+msgstr "त्रुटि: %1 नाम भएको डाटा फाइल फेला पार्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:322
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:624
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:718
+#, kde-format
+msgid "Error: Unable to parse %1 as a line number.\n"
+msgstr "त्रुटि: लाइन नम्बरका रुपमा %1 पदवर्णन गर्न सकेन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:358
+msgid "Error: Unable to find the added breakpoint."
+msgstr "त्रुटि: थप गरिएको विच्छेद बिन्दु फेला पार्न असमर्थ ।"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:364
+#: kxsldbgpart/libxsldbg/trace_cmds.cpp:53
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:115
+#: kxsldbgpart/libxsldbg/search.cpp:401
+#, kde-format
+msgid "Error: Invalid arguments to command %1.\n"
+msgstr "त्रुटि: आदेश %1 लाई अबैध तर्क ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:466
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:643
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:737
+#, kde-format
+msgid "Error: Invalid arguments for command %1.\n"
+msgstr "त्रुटि: आदेश %1 का लागि अमान्य तर्क ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:535
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:832
+#, kde-format
+msgid ""
+"Information: Breakpoint validation has caused breakpoint %1 to be re-"
+"created.\n"
+msgstr ""
+"सूचना: विच्छेद बिन्दु प्रमाणीकरणका कारणले %1 पुन: सिर्जना गर्नुपर्नेछ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:542
+#, kde-format
+msgid "Warning: Breakpoint exits for file \"%1\" at line %2.\n"
+msgstr "चेतावनी: फाइल \"%1\" को %2 लाइनमा विच्छेद बिन्दु अवस्थित छ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:565
+msgid "Error: No templates found or unable to add breakpoint.\n"
+msgstr "त्रुटि: टेम्प्लेट फेला परेन वा विच्छेद बिन्दु थप्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:570
+#, kde-format
+msgid "Information: Added %1 new breakpoint."
+msgid_plural "Information: Added %1 new breakpoints."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:590
+#, kde-format
+msgid "Error: Failed to add breakpoint for file \"%1\" at line %2.\n"
+msgstr "त्रुटि: फाइल \"%1\" का लागि %2 लाइनमा विच्छेद बिन्दु थप्न असफल ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:592
+msgid "Error: Failed to add breakpoint.\n"
+msgstr "त्रुटि: विच्छेद बिन्दु थप्न असफल ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:606
+msgid "Failed to delete breakpoint."
+msgstr "विच्छेद बिन्दु मेट्न असफल ।"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:635
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:731
+#, kde-format
+msgid "Error: Breakpoint does not exist for file \"%1\" at line %2.\n"
+msgstr "त्रुटि: फाइल \"%1\" को %2 लाइनमा विच्छेद बिन्दु अवस्थित छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:656
+#, kde-format
+msgid "Error: Unable to delete breakpoint %1.\n"
+msgstr "त्रुटि: विच्छेदबिन्दु %1 मेट्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:659
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:753
+#, kde-format
+msgid "Error: Breakpoint %1 does not exist.\n"
+msgstr "त्रुटि: विच्छेद बिन्दु %1 अवस्थित छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:666
+#, kde-format
+msgid "Error: Unable to delete breakpoint at template %1.\n"
+msgstr "त्रुटि: टेम्प्लेट %1 मा विच्छेद बिन्दु मेट्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:669
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:760
+#, kde-format
+msgid "Error: Breakpoint at template \"%1\" does not exist.\n"
+msgstr "त्रुटि: टेम्प्लेट \"%1\" मा विच्छेद बिन्दु अवस्थित छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:694
+msgid "Failed to enable/disable breakpoint."
+msgstr "विच्छेद बिन्दु सक्षम/अक्षम पार्न असफल ।"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:750
+#, kde-format
+msgid "Error: Unable to enable/disable breakpoint %1.\n"
+msgstr "त्रुटि: विच्छेद बिन्दु %1 सक्षम/अक्षम पार्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:836
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:873
+#, kde-format
+msgid "Warning: Validation of breakpoint %1 failed.\n"
+msgstr "चेतावनी: विच्छेद बिन्दु %1 को प्रमाणीकरण असफल ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:862
+msgid ""
+"Information: Breakpoint validation has caused one or more breakpoints to be "
+"re-created.\n"
+msgstr ""
+"सूचना: विच्छेद बिन्दु प्रमाणीकरणका कारणले एक भन्दा धेरै विच्छेद बिन्दु पुन: "
+"सिर्जना गर्नुपर्नेछ ।\n"
+
+#: kxsldbgpart/libxsldbg/debug.cpp:101
+msgid ""
+"Error: XSLT source and XML data are empty. Cannot enter the debugger.\n"
+msgstr ""
+"त्रुटि: XSLT स्रोत र XML डाटा खाली छन् । त्रुटिमोचक प्रविष्ट गर्न सकिँदैन ।\n"
+
+#: kxsldbgpart/libxsldbg/files_unix.cpp:59
+msgid "Error: USER environment variable is not set.\n"
+msgstr "त्रुटि: प्रयोगकर्ता परिवेश चल सेट गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/files_unix.cpp:117
+msgid ""
+"Error: The value of the option docspath or searchresultspath is empty. See "
+"help on setoption or options command for more information.\n"
+msgstr ""
+"त्रुटि: docspath वा searchresultspath विकल्पको मान खाली छ । धेरै जानकारीका "
+"लागि सेट विकल्प वा विकल्प आदेशको मद्दतमा हेर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/trace_cmds.cpp:54
+msgid "Warning: Assuming normal speed.\n"
+msgstr "चेतावनी: सामान्य गति अनुमान ।\n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:40
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:151
+msgid "Error: Stylesheet is not valid.\n"
+msgstr "त्रुटि: शैलीपाना बैध छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:103
+msgid ""
+"Error: Cannot change a variable that does not use the select attribute.\n"
+msgstr "त्रुटि: चयन बिशेषता प्रयोग नगर्ने चल परिवर्तन गर्न सकिदैन ।\n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:106
+#, kde-format
+msgid "Error: Variable %1 was not found.\n"
+msgstr "त्रुटि: चल %1 फेला परेको थिएन ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:181 kxsldbgpart/libxsldbg/files.cpp:204
+#, kde-format
+msgid "Error: Unable to open terminal %1.\n"
+msgstr "त्रुटि: टर्मिनल %1 खोल्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:184
+msgid "Error: Did not previously open terminal.\n"
+msgstr "त्रुटि: टर्मिल पहिले खोलिएको थिएन ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:424 kxsldbgpart/libxsldbg/files.cpp:439
+#, kde-format
+msgid "Error: Unable to change to directory %1.\n"
+msgstr "त्रुटि: डाइरेक्टरी %1 परिवर्तन गर्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:443
+#, kde-format
+msgid "Changed to directory %1.\n"
+msgstr "डाइरेक्टरी %1 मा परिवर्तन गरियो ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:460
+#, kde-format
+msgid "Setting XML Data file name to %1.\n"
+msgstr "%1 फाइलनाममा एक्सएमएल डाटा सेटिङ ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:472
+#, kde-format
+msgid "Setting stylesheet file name to %1.\n"
+msgstr "%1 फाइलनाममा शैलीपान सेटिङ ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:486
+#, kde-format
+msgid "Setting stylesheet base path to %1.\n"
+msgstr "%1 मा शैलिपाना आधार मार्ग सेटिङ ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:501
+msgid "Missing file name.\n"
+msgstr "छुटेको फाइलनाम ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:863 kxsldbgpart/libxsldbg/files.cpp:889
+msgid "Encoding of text failed.\n"
+msgstr "पाठको सङ्केतन गर्न असफल ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:913
+#, kde-format
+msgid "Unable to initialize encoding %1."
+msgstr "सङ्केतन %1 सुरुआत गर्न असक्षम ।"
+
+#: kxsldbgpart/libxsldbg/files.cpp:917
+#, kde-format
+msgid "Invalid encoding %1.\n"
+msgstr "अवैध सङ्केतन %1 ।\n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:962
+msgid " ----- more ---- \n"
+msgstr " ----- more ---- \n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:1057
+#, kde-format
+msgid "Error: Unable to convert %1 to local file name.\n"
+msgstr "त्रुटि: स्थानीय फाइलनाममा %1 रुपान्तरण गर्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:55
+#, kde-format
+msgid "Error: No command processor available for shell command \"%1\".\n"
+msgstr "त्रुटि: शेल आदेशका लागि आदेश प्रोसेसर उपलब्द छैन \"%1\" ।\n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:60
+#, kde-format
+msgid "Information: Starting shell command \"%1\".\n"
+msgstr "सूचना: शेल आदेश \"%1\" सुरु ।\n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:75
+msgid "Information: Finished shell command.\n"
+msgstr "सूचना: शेल आदेश समाप्त ।\n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:79
+#, kde-format
+msgid "Error: Unable to run command. System error %1.\n"
+msgstr "त्रुटि: आदेश चलाउन असमर्थ । प्रणाली त्रुटि %1 ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:256
+#, kde-format
+msgid "%1 took %2 ms to complete.\n"
+msgstr "%1 ले समाप्त गर्न %2 लियो ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:276
+msgid "Warning: Too many libxslt parameters provided.\n"
+msgstr ""
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:296
+#, kde-format
+msgid "XInclude processing %1."
+msgstr "XInclude प्रक्रिया %1 ।"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:334 kxsldbgpart/libxsldbg/xsldbg.cpp:380
+#, kde-format
+msgid "Error: Unable to write temporary results to %1.\n"
+msgstr "त्रुटि: अस्थायी परिणाम %1 मा लेख्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:344
+#, kde-format
+msgid "Applying stylesheet %1 time"
+msgid_plural "Applying stylesheet %1 times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:347
+msgid "Applying stylesheet"
+msgstr "शैलीपाना लागू"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:405 kxsldbgpart/libxsldbg/xsldbg.cpp:421
+msgid "Saving result"
+msgstr "परिणाम बचत"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:408
+msgid "Warning: Generating non-standard output XHTML.\n"
+msgstr "चेतावनी: मान्य नहुने XHTML निर्गत उत्पन्न ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:423
+#, kde-format
+msgid "Warning: Unsupported, non-standard output method %1.\n"
+msgstr "चेतावनी: असमर्थित, मान्य नहुने निर्गत बिधि %1 ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:439
+msgid "Running stylesheet and saving result"
+msgstr "शैलीपाना चलिराखेको छ र परिणाम बचत गर्दैछ"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:446
+#, kde-format
+msgid "Error: Unable to save results of transformation to file %1.\n"
+msgstr "त्रुटि: फाइल %1 मा रुपान्तरणका परिणाम बचत गर्न असक्षम ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:490 kxsldbgpart/libxsldbg/xsldbg.cpp:830
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:854 kxsldbgpart/libxsldbg/xsldbg.cpp:915
+msgid "Fatal error: Aborting debugger due to an unrecoverable error.\n"
+msgstr ""
+"घातक त्रुटि: पुन: प्राप्त गर्न नसकिने त्रुटिका कारणले त्रुटिमोचक परित्याग "
+"गर्दैछ ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:507
+#, kde-format
+msgid "Error: Unable to determine expanded file name for %1\n"
+msgstr ""
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:625
+#, kde-format
+msgid "Warning: Unable to add libxslt parameter %1.\n"
+msgstr ""
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:627 kxsldbgpart/libxsldbg/xsldbg.cpp:631
+#, kde-format
+msgid ""
+"Error: Argument \"%1\" to --param is not in the format <name>:<value>.\n"
+msgstr "त्रुटि: तर्क \"%1\" to --param ढाँचा <name>:<value> मा छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:687
+msgid ""
+"\n"
+"Starting stylesheet\n"
+"\n"
+msgstr ""
+"\n"
+"सुरुआत शैलीपाना\n"
+"\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:698
+msgid "Error: No XSLT source file supplied.\n"
+msgstr "त्रुटि: XSLT स्रोत फाइल वितरण गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:701
+msgid "Error: No XML data file supplied.\n"
+msgstr "त्रुटि: XML डाटा फाइल वितरण गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:738
+msgid ""
+"\n"
+"Debugger never received control.\n"
+msgstr ""
+"\n"
+"त्रुटिमोचकलाई कहल्यै पनि नियन्त्रण गर्न सकिँदैन ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:743
+msgid ""
+"\n"
+"Finished stylesheet\n"
+"\n"
+msgstr ""
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:800
+msgid ""
+"Going to the command shell; not all xsldbg commands will work as not all "
+"needed have been loaded.\n"
+msgstr ""
+"आदेश शेलाम जाँदैछ; सबै xsldbg आदेशले कार्य गर्दैन त्यस्तै सबै आवश्यक लोड "
+"गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:849
+#, kde-format
+msgid "Parsing stylesheet %1"
+msgstr "शैलीपाना %1 पदवर्णन गर्दैछ"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:851
+#, kde-format
+msgid "Error: Cannot parse file %1.\n"
+msgstr "त्रुटि: फाइल %1 पदवर्णन गर्न सकिँदैन ।\n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:913 kxsldbgpart/libxsldbg/xsldbg.cpp:947
+#, kde-format
+msgid "Error: Unable to parse file %1.\n"
+msgstr "त्रुटि: फाइल %1 पदवर्णन गर्न असमर्थ ।\n"
+
+#: kxsldbgpart/libxsldbg/search.cpp:335
+#, kde-format
+msgid ""
+"Error: Unable to write search Database to file %1. Try setting the "
+"\"searchresultspath\" option to a writable path.\n"
+msgstr ""
+"त्रुटि: फाइल %1 मा खोजी डेटाबेस लेख्न असमर्थ । लेख्नेयोग्य मार्गका लागि "
+"\"searchresultspath\" विकल्प सेटिङ गर्ने प्रयास गर्नुहोस् ।\n"
+
+#: kxsldbgpart/libxsldbg/search.cpp:399
+#, kde-format
+msgid "Information: Transformed %1 using %2 and saved to %3.\n"
+msgstr "सूचना: %2 प्रयोग गरेर %1 लाई %3 मा बचत गरियो ।\n"
+
+#: kxsldbgpart/libxsldbg/search.cpp:574
+#, kde-format
+msgid "Error: XSLT template named \"%1\" was not found.\n"
+msgstr "त्रुटि: \"%1\" नाम गरेको XSLT टेम्प्लेट फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:432
+msgid "disabled"
+msgstr "अक्षम"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:433
+msgid "enabled"
+msgstr "सक्षम"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:452
+#, kde-format
+msgid ""
+"Breakpoint %1 %2 for template: \"%3\" mode: \"%4\" in file \"%5\" at line %6"
+msgstr ""
+"टेम्प्लेटका लागि विच्छेद बिन्दु %1 %2: \"%3\" मोड: \"%4\" फाइलको \"%5\" "
+"लाइनमा %6"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:454
+#, kde-format
+msgid "Breakpoint %1 %2 for template: \"%3\" mode: \"%4\""
+msgstr "टेम्प्लेटका लागि विच्छेद बिन्दु %1 %2: \"%3\" मोड: \"%4\""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:120
+#, kde-format
+msgid " template: \"%1\" mode: \"%2\" in file \"%3\" at line %4\n"
+msgstr " टेम्प्लेट: \"%1\" मोड: \"%2\" फाइलको \"%3\" लाइनमा %4\n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:193
+msgid "\tNo XSLT templates found.\n"
+msgstr "\tXSLT टेम्प्लेट फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:195
+#, kde-format
+msgid "\tTotal of %1 XSLT template found"
+msgid_plural "\tTotal of %1 XSLT templates found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:196
+#, kde-format
+msgid "\tTotal of %1 XSLT template printed"
+msgid_plural "\tTotal of %1 XSLT templates printed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:218
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:237
+#, kde-format
+msgid " Stylesheet %1\n"
+msgstr " शैलीपान %1\n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:262
+#, kde-format
+msgid "\tTotal of %1 XSLT stylesheet found."
+msgid_plural "\tTotal of %1 XSLT stylesheets found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:265
+msgid "\tNo XSLT stylesheets found.\n"
+msgstr "\tXSLT शैलीपाना फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:66
+#, kde-format
+msgid "Entity %1 "
+msgstr "वस्तु %1 "
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:73
+msgid "No external General Parsed entities present.\n"
+msgstr "बाह्य साधारण पदवर्णन गरिएका वस्तुहरू प्रस्तुत गरिएको छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:75
+#, kde-format
+msgid "\tTotal of %1 entity found."
+msgid_plural "\tTotal of %1 entities found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:106
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:114
+#, kde-format
+msgid "SystemID \"%1\" was not found in current catalog.\n"
+msgstr "हालको विवरणिकामा SystemID \"%1\" फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:110
+#, kde-format
+msgid "SystemID \"%1\" maps to: \"%2\"\n"
+msgstr "\"%1\" प्रणाली आईडी: \"%2\" सँग मिल्छ\n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:143
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:151
+#, kde-format
+msgid "PublicID \"%1\" was not found in current catalog.\n"
+msgstr "हालको कोटिमा PublicID \"%1\" फेला परेन ।\n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:147
+#, kde-format
+msgid "PublicID \"%1\" maps to: \"%2\"\n"
+msgstr "PublicID \"%1\" maps to: \"%2\"\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:83
+#, kde-format
+msgid "Error: Unable to parse %1 as an option value.\n"
+msgstr "त्रुटि: विकल्प मानका रुपमा %1 पद वर्णन गर्न सकेन ।\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:99
+#, kde-format
+msgid ""
+"Information: The new value for option '%1' will not be applied until the run "
+"command is used.\n"
+msgstr ""
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:109
+#, kde-format
+msgid "Error: Unknown option name %1.\n"
+msgstr "त्रुटि: अज्ञात विकल्प नाम %1 ।\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:140
+#, kde-format
+msgid "Option %1 = %2\n"
+msgstr "Option %1 = %2\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:146
+#, kde-format
+msgid "Option %1 = \"%2\"\n"
+msgstr "Option %1 = \"%2\"\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:149
+#, kde-format
+msgid "Option %1 = \"\"\n"
+msgstr "Option %1 = \"\"\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:180
+msgid "\tNo expression watches set.\n"
+msgstr "\tआकृतिले सेट हेर्दैन ।\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:187
+#, kde-format
+msgid " WatchExpression %1 "
+msgstr " WatchExpression %1 "
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:204
+#, kde-format
+msgid ""
+"Error: Unable to add watch expression \"%1\". It already has been added or "
+"it cannot be watched.\n"
+msgstr ""
+"त्रुटि: हेर्ने आकृति \"%1\" थप्न सकेन । यो पहिलेनै थपिएको छ वा हेर्न सकिने "
+"छैन ।\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:220
+#, kde-format
+msgid "Error: Unable to parse %1 as a watchID.\n"
+msgstr "त्रुटि: watchID अनुरुप %1 लाई पदवर्णन गर्न सकेन ।\n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:225
+#, kde-format
+msgid "Error: Watch expression %1 does not exist.\n"
+msgstr "त्रुटि: हेराई आकृति %1 अवस्थित छैन ।\n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:191
+msgid "\t\"XSL source\" \n"
+msgstr "\t\"XSL स्रोत\" \n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:193
+msgid "\t\"XML data\" \n"
+msgstr "\t\"XML डाटा\" \n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:195
+msgid "\t\"Output file\" \n"
+msgstr "\t\"निर्गत फाइल\" \n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:197
+msgid "Missing values for \n"
+msgstr "यसका लागि छुटेका मान \n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:201
+msgid "Output file is the same as either XSL Source or XML Data file\n"
+msgstr "निर्गत फाइल या XSL स्रोत वा XML डाटा फाइल जस्तै छ\n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:294
+msgctxt "variable name"
+msgid "Name"
+msgstr ""
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:294
+msgctxt "variable value"
+msgid "Value"
+msgstr ""
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:316
+msgid "Choose XSL Source to Debug"
+msgstr "त्रुटि सच्याउन XSL स्रोत रोज्नुहोस्"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:328
+msgid "Choose XML Data to Debug"
+msgstr "त्रुटि सच्याउन XML डाटा रोज्नुहोस्"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:339
+msgid "Choose Output File for XSL Transformation"
+msgstr "XSL रुपान्तरणका लागि निर्गत फाइल रोज्नुहोस्"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:352
+msgid "Choose working directory for XSL Transformation"
+msgstr ""
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:380
+msgid "Unable to delete a LibXSLT parameter"
+msgstr ""
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:381
+msgid "Select a LibXSLT parameter before trying to delete a parameter"
+msgstr ""
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:390
+msgid "Suspect Configuration"
+msgstr "शंकास्पद कन्फिगरेसन"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:394
+msgid "Incomplete or Invalid Configuration"
+msgstr "अपुर्ण वा अबैध कन्फिगरेसन"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:68
+msgid "xsldbg Output"
+msgstr "xsldbg निर्गत"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:69
+msgid ""
+"\t\txsldbg output capture ready\n"
+"\n"
+msgstr ""
+"\t\txsldbg निर्गत समात्न तयार\n"
+"\n"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:84
+msgid "Result of evaluation"
+msgstr "मुल्याङ्कनको परिणाम"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:101
+msgid "Request Failed "
+msgstr "अनुरोध असफल "
+
+#: kxsldbgpart/xsldbginspector.cpp:65
+msgid "Xsldbg Inspector"
+msgstr "Xsldbg निरीक्षक"
+
+#: kxsldbgpart/xsldbginspector.cpp:73
+msgid "Breakpoints"
+msgstr "विच्छेदन बिन्दु"
+
+#: kxsldbgpart/xsldbginspector.cpp:79
+msgid "Variables"
+msgstr "चलहरू"
+
+#: kxsldbgpart/xsldbginspector.cpp:85
+msgid "CallStack"
+msgstr "कलस्ट्याक"
+
+#: kxsldbgpart/xsldbginspector.cpp:91
+msgid "Templates"
+msgstr "टेम्प्लेटहरू"
+
+#: kxsldbgpart/xsldbginspector.cpp:97
+msgid "Sources"
+msgstr "स्रोतहरू"
+
+#: kxsldbgpart/xsldbginspector.cpp:103
+msgid "Entities"
+msgstr "वस्तुहरू"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:90
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:99
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:122
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:127
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:150
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:155
+#: kxsldbgpart/xsldbgdebugger.cpp:286 kxsldbgpart/xsldbgdebugger.cpp:306
+#: kxsldbgpart/xsldbgdebugger.cpp:324 kxsldbgpart/xsldbgdebugger.cpp:344
+#: kxsldbgpart/xsldbgdebugger.cpp:364 kxsldbgpart/xsldbgdebugger.cpp:383
+msgid "Operation Failed"
+msgstr "सञ्चालन असफल"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:91
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:123
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:151
+msgid "A line number was provided without a file name."
+msgstr "फाइल नाम बिना लाइन नम्बर उपलब्ध गर्यो ।"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:100
+msgid "No details provided or an invalid line number was supplied."
+msgstr "विस्तृत विवरण उपलब्ध छैन वा अवैध लाइन नम्बर वितरण गरिएको थियो ।"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:128
+msgid "No details provided or an invalid line or ID was supplied."
+msgstr "विस्तृत विवरण उपलब्ध छैन वा अवैध लाइन वा आईडी वितरण गरिएको थियो ।"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:156
+msgid "No details provided."
+msgstr "विस्तृत विवरण उपलब्ध छैन ।"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:58
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:267 rc.cpp:107
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:269
+msgid "Disabled"
+msgstr "अक्षम"
+
+#: kxsldbgpart/xsldbgdebugger.cpp:287 kxsldbgpart/xsldbgdebugger.cpp:307
+#: kxsldbgpart/xsldbgdebugger.cpp:325 kxsldbgpart/xsldbgdebugger.cpp:345
+#: kxsldbgpart/xsldbgdebugger.cpp:365 kxsldbgpart/xsldbgdebugger.cpp:384
+msgid "Cannot set/edit breakpoints on the output file."
+msgstr "निर्गत फाइलमा विच्छेद बिन्दु सेट/सम्पादन गर्न सकिँदैन ।"
+
+#. i18n: file: kxsldbg_shell.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:17
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kxsldbg_shell.rc:9
+#. i18n: ectx: Menu (debug)
+#. i18n: file: kxsldbgpart/kxsldbg_part.rc:4
+#. i18n: ectx: Menu (debug)
+#: rc.cpp:6 rc.cpp:20 rc.cpp:173
+msgid "Debug"
+msgstr "त्रुटि सच्याउनुहोस्"
+
+#. i18n: file: kxsldbg_shell.rc:11
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kxsldbgpart/kxsldbg_part.rc:34
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:9 rc.cpp:23 rc.cpp:176
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kxsldbg_shell.rc:25
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:12 rc.cpp:26
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:13
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:14
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgVariables)
+#: rc.cpp:29
+msgid "Xsldbg Variables"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:58
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:32
+msgid "Expression:"
+msgstr "अभिव्यक्ति:"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:68
+#. i18n: ectx: property (toolTip), widget (QLineEdit, expressionEdit)
+#: rc.cpp:35
+msgid "Enter a valid XPath expression"
+msgstr "बैध XPath अभिव्यक्ति प्रविष्ट गर्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:93
+#. i18n: ectx: property (toolTip), widget (QPushButton, expressionButton)
+#: rc.cpp:38
+msgid "Result of evaluation will appear in message window"
+msgstr "मुल्याङ्कनक परिणाम सन्देश सञ्झ्यालमा देखिने छ"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:128
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:38
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:27
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#: rc.cpp:44 rc.cpp:95 rc.cpp:339
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:133
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#: rc.cpp:47
+msgid "Template Context"
+msgstr "टेम्प्लेट सन्दर्भ"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:138
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#: rc.cpp:50
+msgid "Type"
+msgstr "प्रकार"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:143
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#: rc.cpp:53
+msgid "XPath"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:148
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:30
+#. i18n: ectx: property (text), widget (QTableWidget, sourcesView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:48
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:32
+#. i18n: ectx: property (text), widget (QTableWidget, callstackView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:37
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#: rc.cpp:56 rc.cpp:80 rc.cpp:101 rc.cpp:212 rc.cpp:345
+msgid "File Name"
+msgstr "फाइल नाम"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:153
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:53
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:37
+#. i18n: ectx: property (text), widget (QTableWidget, callstackView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:42
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#: rc.cpp:59 rc.cpp:104 rc.cpp:215 rc.cpp:348
+msgid "Line Number"
+msgstr "लाइन नम्बर"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:163
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:62
+msgid "Variable Expression:"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:186
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:65
+msgid "Variable Type:"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:201
+#. i18n: ectx: property (toolTip), widget (QPushButton, setExpressionButton)
+#: rc.cpp:68
+msgid "Set the selection for variable "
+msgstr "चलका लागि चयन सेट गर्नुहोस् "
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:204
+#. i18n: ectx: property (text), widget (QPushButton, setExpressionButton)
+#: rc.cpp:71
+msgid "Set Expression"
+msgstr "अभिव्यक्ति सेट गर्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:213
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:74
+msgid "Variable Name:"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgSources)
+#: rc.cpp:77
+msgid "Xsldbg Source Files"
+msgstr "Xsldbg स्रोत फाइलहरू"
+
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:35
+#. i18n: ectx: property (text), widget (QTableWidget, sourcesView)
+#: rc.cpp:83
+msgid "Parent File"
+msgstr "प्रमूल फाइल"
+
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:40
+#. i18n: ectx: property (text), widget (QTableWidget, sourcesView)
+#: rc.cpp:86
+msgid "Parent Line Number"
+msgstr "प्रमूल लाइन नम्बर"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgBreakpoints)
+#: rc.cpp:89
+msgid "Xsldbg Breakpoints"
+msgstr "Xsldbg विच्छेद बिन्दुहरू"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:33
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: rc.cpp:92
+msgid "ID"
+msgstr "आईडी"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:43
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:32
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#: rc.cpp:98 rc.cpp:342
+msgid "Mode"
+msgstr "मोड"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:66
+#. i18n: ectx: property (text), widget (QLabel, idLabel)
+#: rc.cpp:110
+msgid "ID:"
+msgstr "आईडी:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:90
+#. i18n: ectx: property (toolTip), widget (QLineEdit, idEdit)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:215
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineNumberEdit)
+#: rc.cpp:113 rc.cpp:134
+msgid "Must be positive"
+msgstr "धनात्मक हुनुपर्छ"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:128
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:116
+msgid "Name:"
+msgstr "नाम:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:138
+#. i18n: ectx: property (toolTip), widget (QLineEdit, templateNameEdit)
+#: rc.cpp:119
+msgid "Template name or match name to look for"
+msgstr "टेम्प्लेट नाम वा मिल्दो नाम खोज्न"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:145
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:122
+msgid "Mode:"
+msgstr "मोड:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:174
+#. i18n: ectx: property (text), widget (QLabel, sourceFileLabel)
+#: rc.cpp:125
+msgid "File Name:"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:184
+#. i18n: ectx: property (toolTip), widget (QLineEdit, sourceFileEdit)
+#: rc.cpp:128
+msgid "You don't need to specify directory for file name"
+msgstr "तपाईँले फाइल नामका लागि डाइरेक्टरी निर्दिष्ट गर्नु पर्दैन"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:191
+#. i18n: ectx: property (text), widget (QLabel, lineNumberLabel)
+#: rc.cpp:131
+msgid "Line number:"
+msgstr "लाइन नम्बर:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:255
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: rc.cpp:137
+msgid "Delete breakpoint using ID"
+msgstr "आईडी प्रयोग गरेर विच्छेद बिन्दु मेट्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:265
+#. i18n: ectx: property (toolTip), widget (QPushButton, PushButton5)
+#: rc.cpp:143
+msgid "Clear entered text"
+msgstr "प्रवेश गरिएको पाठ खाली गर्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:268
+#. i18n: ectx: property (text), widget (QPushButton, PushButton5)
+#: rc.cpp:146
+msgid "Clear"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:275
+#. i18n: ectx: property (toolTip), widget (QPushButton, addAllButton)
+#: rc.cpp:149
+msgid "Add breakpoint on all templates found"
+msgstr "फेला परेका सबै टेम्प्लेटमा विच्छेद बिन्दु थप्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:278
+#. i18n: ectx: property (text), widget (QPushButton, addAllButton)
+#: rc.cpp:152
+msgid "Add All"
+msgstr "सबै थप्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:285
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
+#: rc.cpp:155
+msgid "Delete all breakpoints"
+msgstr "सबै विच्छेद बिन्दु मेट्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:288
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: rc.cpp:158
+msgid "Delete All"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:295
+#. i18n: ectx: property (toolTip), widget (QPushButton, enableButton)
+#: rc.cpp:161
+msgid "Enable breakpoint using ID"
+msgstr "आईडी प्रयोग गरेर विच्छेद बिन्दु सक्षम पार्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:298
+#. i18n: ectx: property (text), widget (QPushButton, enableButton)
+#: rc.cpp:164
+msgid "Enable"
+msgstr "सक्षम पार्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:305
+#. i18n: ectx: property (toolTip), widget (QPushButton, addButton)
+#: rc.cpp:167
+msgid "Add breakpoint using file name with line number or a template name"
+msgstr ""
+"लाइन नम्बर वा टेम्प्लेट नामसँग फाइल नाम प्रयोग गरेर विच्छेद बिन्दु थप्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:308
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:320
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:170 rc.cpp:320
+msgid "Add"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgentities.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgEntities)
+#: rc.cpp:179
+msgid "Xsldbg Entities"
+msgstr "Xsldbg वस्तुहरू"
+
+#. i18n: file: kxsldbgpart/xsldbgentities.ui:27
+#. i18n: ectx: property (text), widget (QTableWidget, entitiesView)
+#: rc.cpp:182
+msgid "PublicID"
+msgstr "साझा आईडी"
+
+#. i18n: file: kxsldbgpart/xsldbgentities.ui:32
+#. i18n: ectx: property (text), widget (QTableWidget, entitiesView)
+#: rc.cpp:185
+msgid "SystemID"
+msgstr "प्रणाली आईडी"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, XsldbgWalkSpeed)
+#: rc.cpp:188
+msgid "Configure xsldbg's Walk Speed"
+msgstr "xsldbg's हिँडाई गति कन्फिगर गर्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:41
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:191
+msgid ""
+"Change the speed at which xsldbg walks through execution of the stylesheet."
+msgstr "शैलीपानाको कार्यान्वयनमा xsldbg को हिँडाई गति परिवर्तन गर्नुहोस् ।"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:78
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:194
+msgid "Slow"
+msgstr "ढिलो"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:104
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:197
+msgid "Fast"
+msgstr "छिटो"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:156
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#. i18n: file: kxsldbgpart/xsldbgmsgdialog.ui:111
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: rc.cpp:200 rc.cpp:333
+msgid "&OK"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:179
+#. i18n: ectx: property (text), widget (QPushButton, PushButton2)
+#: rc.cpp:203
+msgid "&Cancel"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgCallStack)
+#: rc.cpp:206
+msgid "Xsldbg Callstack"
+msgstr "Xsldbg कलस्ट्याक"
+
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:27
+#. i18n: ectx: property (text), widget (QTableWidget, callstackView)
+#: rc.cpp:209
+msgid "Frame# Template Name"
+msgstr "फ्रेम# टेम्प्लेट नाम"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgConfig)
+#: rc.cpp:218
+msgid "KXsldbg Configuration"
+msgstr "KXsldbg कन्फिगरेसन"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:34
+#. i18n: ectx: property (text), widget (QLabel, xslSourceLabel)
+#: rc.cpp:221
+msgid "XSL source:"
+msgstr "XSL स्रोत:"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:47
+#. i18n: ectx: property (toolTip), widget (QLineEdit, xslSourceEdit)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:80
+#. i18n: ectx: property (toolTip), widget (QLineEdit, xmlDataEdit)
+#: rc.cpp:224 rc.cpp:233
+msgid "URI can have a prefix of ~, file:/, http:// or ftp://"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:60
+#. i18n: ectx: property (text), widget (QPushButton, xslSourceButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, xmlDataButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:126
+#. i18n: ectx: property (text), widget (QPushButton, outputFileButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:159
+#. i18n: ectx: property (text), widget (QPushButton, workDirButton)
+#: rc.cpp:227 rc.cpp:236 rc.cpp:245 rc.cpp:254
+msgid "..."
+msgstr "..."
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:67
+#. i18n: ectx: property (text), widget (QLabel, xmlSourceLabel)
+#: rc.cpp:230
+msgid "XML data:"
+msgstr "XML डाटा:"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:100
+#. i18n: ectx: property (text), widget (QLabel, outputFileLabel)
+#: rc.cpp:239
+msgid "Output file:"
+msgstr "निर्गत फाइल:"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:113
+#. i18n: ectx: property (toolTip), widget (QLineEdit, outputFileEdit)
+#: rc.cpp:242
+msgid "URI can have a prefix of ~, file:/"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:133
+#. i18n: ectx: property (text), widget (QLabel, workDirLabel)
+#: rc.cpp:248
+msgid "Work dir:"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:146
+#. i18n: ectx: property (toolTip), widget (QLineEdit, workDirEdit)
+#: rc.cpp:251
+msgid "The directory to change into prior to loading files"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:174
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:257
+msgid "Options"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:182
+#. i18n: ectx: property (toolTip), widget (QCheckBox, catalogsChkBox)
+#: rc.cpp:260
+msgid "use catalogs from $SGML_CATALOGS_FILES"
+msgstr "$SGML_CATALOGS_FILES बाट विवरणिका प्रयोग गर्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:185
+#. i18n: ectx: property (text), widget (QCheckBox, catalogsChkBox)
+#: rc.cpp:263
+msgid "catalogs"
+msgstr "विवरणिका"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:192
+#. i18n: ectx: property (toolTip), widget (QCheckBox, htmlChkBox)
+#: rc.cpp:266
+msgid "the input document is(are) an HTML file(s)"
+msgstr "आगत कागजात HTML फाइल(हरू) हो (हुन्)"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox, htmlChkBox)
+#: rc.cpp:269
+msgid "html"
+msgstr "html"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:202
+#. i18n: ectx: property (toolTip), widget (QCheckBox, docbookChkBox)
+#: rc.cpp:272
+msgid "the input document is SGML docbook"
+msgstr "आगत कागजात SGML docbook हो"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:205
+#. i18n: ectx: property (text), widget (QCheckBox, docbookChkBox)
+#: rc.cpp:275
+msgid "docbook"
+msgstr "docbook"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:212
+#. i18n: ectx: property (toolTip), widget (QCheckBox, debugChkBox)
+#: rc.cpp:278
+msgid ""
+"If the \"out\" option is selected and the \"dump\" option is selected dump "
+"the XML tree to the xsldbg output capture window"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:215
+#. i18n: ectx: property (text), widget (QCheckBox, debugChkBox)
+#: rc.cpp:281
+msgid "debug"
+msgstr "त्रुटि सच्याउनुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:222
+#. i18n: ectx: property (toolTip), widget (QCheckBox, netChkBox)
+#: rc.cpp:284
+msgid "enables fetching of DTDs or entities over network"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:225
+#. i18n: ectx: property (text), widget (QCheckBox, netChkBox)
+#: rc.cpp:287
+msgid "net"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:232
+#. i18n: ectx: property (toolTip), widget (QCheckBox, validChkBox)
+#: rc.cpp:290
+msgid "perform the DTD loading phase"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:235
+#. i18n: ectx: property (text), widget (QCheckBox, validChkBox)
+#: rc.cpp:293
+msgid "valid"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:242
+#. i18n: ectx: property (toolTip), widget (QCheckBox, outChkBox)
+#: rc.cpp:296
+msgid "Output the results to 'Output file'"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:245
+#. i18n: ectx: property (text), widget (QCheckBox, outChkBox)
+#: rc.cpp:299
+msgid "out"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:252
+#. i18n: ectx: property (toolTip), widget (QCheckBox, profileChkBox)
+#: rc.cpp:302
+msgid "print profiling information"
+msgstr "प्रोफाइलिङ सूचना मुद्रण गर्नुहोस्"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:255
+#. i18n: ectx: property (text), widget (QCheckBox, profileChkBox)
+#: rc.cpp:305
+msgid "profile"
+msgstr "प्रोफाइल"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:262
+#. i18n: ectx: property (toolTip), widget (QCheckBox, timingChkBox)
+#: rc.cpp:308
+msgid "display the time used"
+msgstr "प्रयोग गरिएको समय प्रदर्शन गर्दछ"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:265
+#. i18n: ectx: property (text), widget (QCheckBox, timingChkBox)
+#: rc.cpp:311
+msgid "timing"
+msgstr "समय"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:277
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:314
+msgid "LibXSLT Parameters"
+msgstr "LibXSLT परिमितिहरू"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:317
+#. i18n: ectx: property (toolTip), widget (QPushButton, addButton)
+#: rc.cpp:317
+msgid "Add an empty parameter to the list"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:333
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: rc.cpp:323
+msgid "Delete the selected parameter"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgmsgdialog.ui:21
+#. i18n: ectx: property (windowTitle), widget (QDialog, XsldbgMsgDialog)
+#: rc.cpp:329
+msgid "Message Dialog"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgTemplates)
+#: rc.cpp:336
+msgid "Xsldbg Templates"
+msgstr "Xsldbg टेम्प्लेटहरू"

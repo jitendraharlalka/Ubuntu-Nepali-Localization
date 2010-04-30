@@ -1,0 +1,130 @@
+# translation of kdepasswd.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# shyam krishna ball <shyam@mpp.org.np>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepasswd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-11 20:37+0000\n"
+"PO-Revision-Date: 2008-10-07 16:08+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 02:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kdepasswd.cpp:41
+msgid "KDE passwd"
+msgstr "केडीई पासवर्ड"
+
+#: kdepasswd.cpp:42
+msgid "Changes a UNIX password."
+msgstr "युनिक्स पासवर्ड परिवर्तन गर्दछ ।"
+
+#: kdepasswd.cpp:43
+msgid "Copyright (c) 2000 Geert Jansen"
+msgstr "प्रतिलिपिअधिकार (c) 2000 गियर्ट जानसेन"
+
+#: kdepasswd.cpp:44
+msgid "Geert Jansen"
+msgstr "गियर्ट जानसेन"
+
+#: kdepasswd.cpp:44
+msgid "Maintainer"
+msgstr "मर्मतकर्ता"
+
+#: kdepasswd.cpp:51
+msgid "Change password of this user"
+msgstr "यो प्रयोगकर्ताको पासवर्ड परिवर्तन गर्नुहोस्"
+
+#: kdepasswd.cpp:74
+msgid "You need to be root to change the password of other users."
+msgstr "अन्य प्रयोगकर्ताको पासवर्ड परिवर्तन गर्न तपाईँ रूट हुन आवश्यक छ ।"
+
+#: passwddlg.cpp:34 passwddlg.cpp:101
+msgid "Change Password"
+msgstr "पासवर्ड परिवर्तन गर्नुहोस्"
+
+#: passwddlg.cpp:35
+msgid "Please enter your current password:"
+msgstr "कृपया तपाईँको हालको पासवर्ड प्रविष्ट गर्नुहोस्:"
+
+#: passwddlg.cpp:55 passwddlg.cpp:179
+msgid "Conversation with 'passwd' failed."
+msgstr "पासवर्ड सहितको वार्तालाप असफल भयो ।"
+
+#: passwddlg.cpp:65
+msgid "Could not find the program 'passwd'."
+msgstr "कार्यक्रमको पासवर्ड फेला पार्न सकिएन ।"
+
+#: passwddlg.cpp:70
+msgid "Incorrect password. Please try again."
+msgstr "गलत पासवर्ड । कृपया फेरि प्रयास गर्नुहोस् ।"
+
+#: passwddlg.cpp:74
+msgid ""
+"Internal error: illegal return value from PasswdProcess::checkCurrent."
+msgstr "आन्तरिक त्रुटि: पासवर्ड प्रक्रियाबाट अवैध फर्किएको मान ।"
+
+#: passwddlg.cpp:103
+msgid "Please enter your new password:"
+msgstr "कृपया तपाईँको नयाँ पासवर्ड प्रविष्ट गर्नुहोस्:"
+
+#: passwddlg.cpp:105
+#, kde-format
+msgid "Please enter the new password for user <b>%1</b>:"
+msgstr "कृपया प्रयोगकर्ता <b>%1</b> का लागि नयाँ पासवर्ड प्रविष्ट गर्नुहोस्:"
+
+#: passwddlg.cpp:127
+msgid ""
+"Your password is longer than 8 characters. On some systems, this can cause "
+"problems. You can truncate the password to 8 characters, or leave it as it "
+"is."
+msgstr ""
+"तपाईँको पासवर्ड ८ क्यारेक्टर भन्दा लामो छ । यो प्रणालीमा, यसले समस्या "
+"उत्पन्न गर्न सक्छ । तपाईँले पासवर्डलाई ८ क्यारेक्टरमा छोट्याउन सक्नुहुन्छ वा "
+"यसलाई जस्ताको तस्तै छोड्नुहोस् ।"
+
+#: passwddlg.cpp:130
+msgid ""
+"The password is longer than 8 characters. On some systems, this can cause "
+"problems. You can truncate the password to 8 characters, or leave it as it "
+"is."
+msgstr ""
+"तपाईँको पासवर्ड ८ क्यारेक्टर भन्दा लामो छ । मेरो प्रणालीमा, यसले समस्या "
+"उत्पन्न गर्न सक्छ । तपाईँले पासवर्डलाई ८ क्यारेक्टरमा छोट्याउन सक्नुहुन्छ वा "
+"यसलाई जस्ताको तस्तै छोड्नुहोस् ।"
+
+#: passwddlg.cpp:134
+msgid "Password Too Long"
+msgstr "पासवर्ड लामो भयो"
+
+#: passwddlg.cpp:135
+msgid "Truncate"
+msgstr "छोड्नुहोस्"
+
+#: passwddlg.cpp:136
+msgid "Use as Is"
+msgstr "यस्तो प्रयोग गर्नुहोस्"
+
+#: passwddlg.cpp:158
+msgid "Your password has been changed."
+msgstr "तपाईँको पासवर्ड परिवर्तन भयो ।"
+
+#: passwddlg.cpp:168
+msgid "Your password has not been changed."
+msgstr "तपाईँको पासवर्ड परिवर्तन भयो ।"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np, Shyam krishna bal<shyam@mpp.org.np>,,,"

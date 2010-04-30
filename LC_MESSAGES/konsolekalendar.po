@@ -1,0 +1,537 @@
+# translation of konsolekalendar.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: konsolekalendar\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-19 03:52+0000\n"
+"PO-Revision-Date: 2009-07-16 09:45+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:41+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: konsolekalendar.cpp:85
+#, kde-format
+msgid "Create Calendar &lt;Dry Run&gt;: %1"
+msgstr ""
+
+#: konsolekalendar.cpp:94
+#, kde-format
+msgid "Create Calendar &lt;Verbose&gt;: %1"
+msgstr ""
+
+#: konsolekalendar.cpp:115
+msgid "View Events &lt;Dry Run&gt;:"
+msgstr ""
+
+#: konsolekalendar.cpp:140
+msgid "View Event &lt;Verbose&gt;:"
+msgstr ""
+
+#: konsolekalendar.cpp:238
+msgid "Sorry, export to HTML by UID is not supported yet"
+msgstr ""
+"माफ गर्नुहोस्, UID द्वारा HTML मा गरिएको निर्यात अहिले सम्म समर्थन गरेको छैन"
+
+#: konsolekalendar.cpp:261
+msgid "Events:"
+msgstr "घटना:"
+
+#: konsolekalendar.cpp:265
+#, kde-format
+msgid "Events: %1"
+msgstr "घटना: %1"
+
+#: konsolekalendar.cpp:268
+#, kde-format
+msgid "Events: %1 - %2"
+msgstr "घटना: %1 - %2"
+
+#: konsolekalendar.cpp:420 konsolekalendaradd.cpp:142
+#: konsolekalendarchange.cpp:132 konsolekalendarchange.cpp:162
+#: konsolekalendardelete.cpp:95
+#, kde-format
+msgid "  What:  %1"
+msgstr "  के:  %1"
+
+#: konsolekalendar.cpp:424 konsolekalendaradd.cpp:146
+#: konsolekalendarchange.cpp:137 konsolekalendarchange.cpp:166
+#: konsolekalendardelete.cpp:99
+#, kde-format
+msgid "  Begin: %1"
+msgstr "  सुरु: %1"
+
+#: konsolekalendar.cpp:428 konsolekalendaradd.cpp:150
+#: konsolekalendarchange.cpp:142 konsolekalendarchange.cpp:170
+#: konsolekalendardelete.cpp:103
+#, kde-format
+msgid "  End:   %1"
+msgstr "  अन्त्य:   %1"
+
+#: konsolekalendar.cpp:433 konsolekalendaradd.cpp:155
+msgid "  No Time Associated with Event"
+msgstr "  यो घटनासँग कुनै समय सम्बन्धित छैन"
+
+#: konsolekalendar.cpp:437 konsolekalendaradd.cpp:159
+#: konsolekalendarchange.cpp:147 konsolekalendarchange.cpp:174
+#: konsolekalendardelete.cpp:107
+#, kde-format
+msgid "  Desc:  %1"
+msgstr "  वर्णन:  %1"
+
+#: konsolekalendar.cpp:441 konsolekalendaradd.cpp:163
+#: konsolekalendarchange.cpp:151 konsolekalendarchange.cpp:178
+#: konsolekalendardelete.cpp:111
+#, kde-format
+msgid "  Location:  %1"
+msgstr "  स्थान:  %1"
+
+#: konsolekalendaradd.cpp:73
+msgid "Insert Event &lt;Dry Run&gt;:"
+msgstr ""
+
+#: konsolekalendaradd.cpp:78
+msgid "Insert Event &lt;Verbose&gt;:"
+msgstr ""
+
+#: konsolekalendaradd.cpp:94
+#, kde-format
+msgid "Success: \"%1\" inserted"
+msgstr "सफलता: \"%1\" घुसाइयो"
+
+#: konsolekalendaradd.cpp:101
+#, kde-format
+msgid "Failure: \"%1\" not inserted"
+msgstr "असफलता: \"%1\" घुसाइएको छैन"
+
+#: konsolekalendarchange.cpp:65
+msgid "Change Event &lt;Dry Run&gt;:"
+msgstr ""
+
+#: konsolekalendarchange.cpp:69 konsolekalendarchange.cpp:81
+msgid "To Event &lt;Dry Run&gt;:"
+msgstr ""
+
+#: konsolekalendarchange.cpp:77
+msgid "Change Event &lt;Verbose&gt;:"
+msgstr ""
+
+#: konsolekalendarchange.cpp:112
+#, kde-format
+msgid "Success: \"%1\" changed"
+msgstr "सफलता: \"%1\" परिवर्तन गरियो"
+
+#: konsolekalendarchange.cpp:116
+#, kde-format
+msgid "Failure: \"%1\" not changed"
+msgstr "असफलता: \"%1\" परिवर्तन भएन"
+
+#: konsolekalendarchange.cpp:128 konsolekalendarchange.cpp:158
+#: konsolekalendardelete.cpp:92
+#, kde-format
+msgid "  UID:   %1"
+msgstr "  UID:   %1"
+
+#: konsolekalendardelete.cpp:64
+msgid "Delete Event &lt;Dry Run&gt;:"
+msgstr ""
+
+#: konsolekalendardelete.cpp:72
+msgid "Delete Event &lt;Verbose&gt;:"
+msgstr ""
+
+#: konsolekalendardelete.cpp:78
+#, kde-format
+msgid "Success: \"%1\" deleted"
+msgstr "सफलता: \"%1\" मेटियो"
+
+#: konsolekalendarexports.cpp:79
+msgid "Date:"
+msgstr "मिति:"
+
+#: konsolekalendarexports.cpp:94
+msgid "Summary:"
+msgstr "सारांश:"
+
+#: konsolekalendarexports.cpp:102
+msgid "(no summary available)"
+msgstr "(सारांश उपलब्ध छैन)"
+
+#: konsolekalendarexports.cpp:107
+msgid "Location:"
+msgstr "स्थान:"
+
+#: konsolekalendarexports.cpp:115
+msgid "(no location available)"
+msgstr "(स्थान उपलब्ध छैन)"
+
+#: konsolekalendarexports.cpp:120
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: konsolekalendarexports.cpp:128
+msgid "(no description available)"
+msgstr "(वर्णन उपलब्ध छैन)"
+
+#: konsolekalendarexports.cpp:133
+msgid "UID:"
+msgstr "UID:"
+
+#: konsolekalendarexports.cpp:171
+msgid "[all day]\t"
+msgstr "[सबै दिन]\t"
+
+#: konsolekalendarexports.cpp:227
+msgid ","
+msgstr ","
+
+#: konsolekalendarexports.cpp:228
+msgid "\""
+msgstr "\""
+
+#: main.cpp:80
+msgid "(c) 2002-2009, Tuukka Pasanen and Allen Winter"
+msgstr ""
+
+#: main.cpp:87
+msgid "Allen Winter"
+msgstr "एलेन विन्टर"
+
+#: main.cpp:88
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:93
+msgid "Tuukka Pasanen"
+msgstr "टुक्का पासानेन"
+
+#: main.cpp:94
+msgid "Author"
+msgstr "लेखक"
+
+#: main.cpp:103
+msgid "Print helpful runtime messages"
+msgstr "सहयोगी रनटाइम सन्देश मुद्रण गर्नुहोस्"
+
+#: main.cpp:105
+msgid "Print what would have been done, but do not execute"
+msgstr "के हुनेछ मुद्रण गर्नुहोस्, तर कार्यान्वयन नगर्नुहोस्"
+
+#: main.cpp:107
+msgid "Allow calendars which might need an interactive user interface"
+msgstr ""
+
+#: main.cpp:109
+msgid "Specify which calendar you want to use"
+msgstr "तपाईँ कुन क्यालेन्डर प्रयोग गर्न चाहनुहुन्छ निर्दिष्ट गर्नुहोस्"
+
+#: main.cpp:111
+msgid "Incidence types (these options can be combined):"
+msgstr "इन्सिडेन्स प्रकार (यी विकल्प संयोजन गर्न सकिन्छ):"
+
+#: main.cpp:113
+msgid "  Operate for Events only (Default)"
+msgstr "  घटनाको लागि मात्र सञ्चालन गर्नुहोस् (पूर्वनिर्धारित)"
+
+#: main.cpp:115
+msgid "  Operate for To-dos only [NOT WORKING YET]"
+msgstr ""
+"  गर्नु पर्ने कार्यका लागि मात्र सञ्चालन गर्नुहोस् [अहिलेसम्म काम नगरेका]"
+
+#: main.cpp:117
+msgid "  Operate for Journals only [NOT WORKING YET]"
+msgstr "  पत्रिकाको लागि मात्र सञ्चालन गर्नुहोस् [अहिलेसम्म काम नगरेका]"
+
+#: main.cpp:119
+msgid "Major operation modes:"
+msgstr "मुख्य सञ्चालन मोड:"
+
+#: main.cpp:121
+msgid "  Print incidences in specified export format"
+msgstr "  निर्दिष्ट गरिएको निर्यात ढाँचामा इन्सिडेन्स मुद्रण गर्नुहोस्"
+
+#: main.cpp:123
+msgid "  Insert an incidence into the calendar"
+msgstr "  क्यालेन्डरमा एउटा इन्सिडेन्स घुसाउनुहोस्"
+
+#: main.cpp:125
+msgid "  Modify an existing incidence"
+msgstr "  एउटा अवस्थित इन्सिडेन्स परिमार्जन गर्नुहोस्"
+
+#: main.cpp:127
+msgid "  Remove an existing incidence"
+msgstr "  एउटा अवस्थित इन्सिडेन्स हटाउनुहोस्"
+
+#: main.cpp:129
+msgid "  Create new calendar file if one does not exist"
+msgstr "  यदि एउटा अवस्थित छैन भने नयाँ क्यालेन्डर फाइल सिर्जना गर्नुहोस्"
+
+#: main.cpp:131
+msgid "  Import this calendar to main calendar"
+msgstr "  मुख्य क्यालेन्डरमा यो क्यालेन्डर आयात गर्नुहोस्"
+
+#: main.cpp:133
+msgid "Operation modifiers:"
+msgstr "सञ्चालन परिमार्जक:"
+
+#: main.cpp:135
+msgid "  View all calendar entries, ignoring date/time options"
+msgstr "  मिति/समय विकल्प उपेक्षा गरेर, सबै क्यालेन्डर प्रविष्टि हेर्नुहोस्"
+
+#: main.cpp:137
+msgid "  View next activity in calendar"
+msgstr "  क्यालेन्डरमा पछिल्लो क्रियाकलाप हेर्नुहोस्"
+
+#: main.cpp:139
+msgid "  From start date show next # days' activities"
+msgstr "  सुरु मितिबाट पछिल्लो # दिनको क्रियाकलाप देखाउनुहोस्"
+
+#: main.cpp:141
+msgid "  Incidence Unique-string identifier"
+msgstr "  इन्सिडेन्स अद्वितिय-स्ट्रिङ पहिचायक"
+
+#: main.cpp:143
+msgid "  Start from this day [YYYY-MM-DD]"
+msgstr "  यो दिनबाट सुरु गर्नुहोस् [वर्ष-महिना-दिन]"
+
+#: main.cpp:145
+msgid "  Start from this time [HH:MM:SS]"
+msgstr "  यो समयबाट सुरु गर्नुहोस् [घण्टा:मिनेट:सेकेन्ड]"
+
+#: main.cpp:147
+msgid "  End at this day [YYYY-MM-DD]"
+msgstr "  यो दिनमा समाप्त गर्नुहोस् [वर्ष-महिना-दिन]"
+
+#: main.cpp:149
+msgid "  End at this time [HH:MM:SS]"
+msgstr "  यो समयमा अन्त्य गर्नुहोस् [घण्टा:मिनेट:सेकेन्ड]"
+
+#: main.cpp:151
+msgid " Start from this time [secs since epoch]"
+msgstr " यो समयबाट सुरु गर्नुहोस् [इपोच देखिको सेकेन्ड]"
+
+#: main.cpp:153
+msgid "  End at this time [secs since epoch]"
+msgstr "  यो समयमा अन्त्य गर्नुहोस् [इपोच देखिको सेकेन्ड]"
+
+#: main.cpp:155
+msgid "  Add summary to incidence (for add/change modes)"
+msgstr "  इन्सिडेन्समा सारांश थप्नुहोस् (मोड थप्न/परिवर्तन गर्नका लागि)"
+
+#: main.cpp:157
+msgid "Add description to incidence (for add/change modes)"
+msgstr "इन्सिडेन्स वर्णन थप्नुहोस् (मोड थप्न/परिवर्तन गर्नका लागि)"
+
+#: main.cpp:159
+msgid "  Add location to incidence (for add/change modes)"
+msgstr "  इन्सिडेन्समा स्थान थप्नुहोस् (मोड थप्न/परिवर्तनका लागि)"
+
+#: main.cpp:161
+msgid "Export options:"
+msgstr "विकल्प निर्यात गर्नुहोस्:"
+
+#: main.cpp:163
+msgid "Export file type (Default: text)"
+msgstr "फाइल प्रकार निर्यात गर्नुहोस् (पूर्वानिर्धारित: पाठ)"
+
+#: main.cpp:165
+msgid "Export to file (Default: stdout)"
+msgstr "फाइलमा निर्यात गर्नुहोस् (पूर्वानिर्धारित: stdout)"
+
+#: main.cpp:167
+msgid "  Print list of export types supported and exit"
+msgstr "  समर्थित निर्यात प्रकारको सूची मुद्रण गर्नुहोस् र बाहिरिनुहोस्"
+
+#: main.cpp:169
+msgid ""
+"Examples:\n"
+"  konsolekalendar --view\n"
+"  konsolekalendar --add --date 2003-06-04 --time 10:00 --end-time 12:00 \\\n"
+"                  --summary \"Doctor Visit\" --description \"Get My Head "
+"Examined\"\n"
+"  konsolekalendar --delete --uid KOrganizer-1740326.803"
+msgstr ""
+"उदाहरण:\n"
+"  konsolekalendar --view\n"
+"  konsolekalendar --add --date 2003-06-04 --time 10:00 --end-time 12:00 \\\n"
+"                  --summary \"Doctor Visit\" --description \"Get My Head "
+"Examined\"\n"
+"  konsolekalendar --delete --uid KOrganizer-1740326.803"
+
+#: main.cpp:177
+msgid ""
+"For more information visit the program home page at:\n"
+"  http://pim.kde.org/components/konsolekalendar.php"
+msgstr ""
+"धेरै जानकारीका लागि:\n"
+"  http://pim.kde.org/components/konsolekalendar.php को गृहपृष्ठ कार्यक्रम "
+"हेर्नुहोस्"
+
+#: main.cpp:229
+#, kde-format
+msgid "%1 supports these export formats:"
+msgstr "%1 ले यी निर्यात ढाँचा समर्थन गर्दछ:"
+
+#: main.cpp:232
+#, kde-format
+msgctxt "the default export format"
+msgid "  %1 [Default]"
+msgstr ""
+
+#: main.cpp:235
+#, kde-format
+msgctxt "short text export"
+msgid "  %1 (like %2, but more compact)"
+msgstr ""
+
+#: main.cpp:238
+#, kde-format
+msgctxt "HTML export"
+msgid "  %1"
+msgstr ""
+
+#: main.cpp:241
+#, kde-format
+msgctxt "HTMLmonth export"
+msgid "  %1 (like %2, but in a month view)"
+msgstr ""
+
+#: main.cpp:244
+#, kde-format
+msgctxt "comma-separated values export"
+msgid "  %1 (Comma-Separated Values)"
+msgstr ""
+
+#: main.cpp:261
+msgid "Sorry, To-dos are not working yet."
+msgstr "माफ गर्नुहोस्, अहिलेसम्म गर्नु पर्ने कार्य गरिएको छैन ।"
+
+#: main.cpp:268
+msgid "Sorry, Journals are not working yet."
+msgstr "माफ गर्नुहोस्, अहिलेसम्म जर्नलले कार्य गरेको छैन ।"
+
+#: main.cpp:303
+#, kde-format
+msgid "Invalid Export Type Specified: %1"
+msgstr "अवैध निर्यात प्रकार निर्दिष्ट गरियो: %1"
+
+#: main.cpp:450
+#, kde-format
+msgid "Invalid Start Date Specified: %1"
+msgstr "अवैध सुरु मिति निर्दिष्ट गरियो: %1"
+
+#: main.cpp:477
+#, kde-format
+msgid "Invalid Start Time Specified: %1"
+msgstr "अवैध सुरु समय निर्दिष्ट गरियो: %1"
+
+#: main.cpp:503
+#, kde-format
+msgid "Invalid End Date Specified: %1"
+msgstr "अवैध अन्त्य मिति निर्दिष्ट गरियो: %1"
+
+#: main.cpp:525
+#, kde-format
+msgid "Invalid Date Count Specified: %1"
+msgstr "अवैध मिति गणना निर्दिष्ट गरियो: %1"
+
+#: main.cpp:554
+#, kde-format
+msgid "Invalid End Time Specified: %1"
+msgstr "अवैध समाप्ति समय निर्दिष्ट गरियो: %1"
+
+#: main.cpp:647
+#, kde-format
+msgid "Attempting to create a remote file %1"
+msgstr "टाँढाको फाइल %1 सिर्जना गर्ने प्रयास"
+
+#: main.cpp:653
+#, kde-format
+msgid "Calendar %1 already exists"
+msgstr "क्यालेन्डर %1 पहिले नै अवस्थित छ"
+
+#: main.cpp:661
+#, kde-format
+msgid "Calendar %1 successfully created"
+msgstr "क्यालेन्डर %1 सफलतापूर्वक सिर्जना गरियो"
+
+#: main.cpp:666
+#, kde-format
+msgid "Unable to create calendar: %1"
+msgstr "क्यालेन्डर सिर्जना गर्न असफल: %1"
+
+#: main.cpp:674
+#, kde-format
+msgid "Calendar file not found %1"
+msgstr "क्यालेन्डर फाइलले %1 फेला पारेन"
+
+#: main.cpp:677
+msgid "Try --create to create new calendar file"
+msgstr "नयाँ क्यालेन्डर फाइल सिर्जना गर्न सिर्जना --प्रयास गर्नुहोस्"
+
+#: main.cpp:689 stdcalendar.cpp:90
+msgid "Active Calendar"
+msgstr "सक्रिय क्यालेन्डर"
+
+#: main.cpp:814
+msgid ""
+"Only 1 operation mode (view, add, change, delete, create) permitted at any "
+"one time"
+msgstr ""
+"१ मात्र सञ्चालन मोड (हेर्नुहोस्, थप्नुहोस्, परिवर्तन गर्नुहोस्, मेट्नुहोस्, "
+"सिर्जना गर्नुहोस्) कुनै एउटा समयमा अनुमति दिइयो"
+
+#: main.cpp:822
+msgid "Ending Date/Time occurs before the Starting Date/Time"
+msgstr "समाप्त मिति/समय सुरु मिति/समय भन्दा अघि देखा पर्दछ"
+
+#: main.cpp:843
+#, kde-format
+msgid "Calendar %1 successfully imported"
+msgstr "क्यालेन्डर %1 सफलतापूर्वक आयात गरियो"
+
+#: main.cpp:848
+#, kde-format
+msgid "Unable to import calendar: %1"
+msgstr "क्यालेन्डर आयात गर्न अक्षम: %1"
+
+#: main.cpp:862
+msgid "Attempting to insert an event that already exists"
+msgstr "पहिले नै अवस्थित रहेको एउटा घटना घुसाउने प्रयास"
+
+#: main.cpp:872 main.cpp:890
+msgid "Missing event UID: use --uid command line option"
+msgstr "घटना UID हराइरहेको छ: --uid आदेश रेखा विकल्प प्रयोग गर्नुहोस्"
+
+#: main.cpp:878
+msgid "No such event UID: change event failed"
+msgstr "त्यस्तो घटना UID होइन: घटना परिवर्तन गर्न असफल भयो"
+
+#: main.cpp:896
+msgid "No such event UID: delete event failed"
+msgstr "त्यस्तो घटना UID होइन: घटना मेट्न आसफल भयो"
+
+#: main.cpp:908
+#, kde-format
+msgid "Cannot open specified export file: %1"
+msgstr "निर्दिष्ट गरिएको निर्यात फाइल खोल्न सकिँदैन: %1"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल,Nabin Gautam, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com, nabin@mpp.org.np,,,"
+
+#: stdcalendar.cpp:95
+msgid "Default Calendar"
+msgstr "पूर्वानिर्धारित क्यालेन्डर"

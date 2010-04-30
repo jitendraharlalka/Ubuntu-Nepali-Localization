@@ -1,0 +1,347 @@
+# Nepali translation for kdetoys
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdetoys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# jitendra <jitendra@otrc.gov.np>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdetoys\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-11 18:29+0000\n"
+"PO-Revision-Date: 2010-04-22 13:29+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
+"X-Launchpad-Export-Date: 2010-02-21 08:43+0000\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ishwor Sharma, जितेन्द्र हरलालका, Launchpad Contributions:"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sharmabeeshwar@gmail.com, jitendra@otrc.gov.np,"
+
+#. i18n: file: src/timeedit.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, TimeEditWidget)
+#: rc.cpp:5 src/main.cpp:68 src/tea.cpp:41 src/timeedit.cpp:52
+#: src/timeedit.cpp:112
+msgid "Anonymous Tea"
+msgstr "बेनामी चिया"
+
+#. i18n: file: src/timeedit.ui:32
+#. i18n: ectx: property (text), widget (QLabel, minutesLabel_2)
+#: rc.cpp:8
+msgid "Tea time:"
+msgstr "चिया समय:"
+
+#. i18n: file: src/timeedit.ui:52
+#. i18n: ectx: property (text), widget (QLabel, minutesLabel)
+#. i18n: file: src/settings.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:11 rc.cpp:33
+msgid "min"
+msgstr "मिनेट"
+
+#. i18n: file: src/timeedit.ui:66
+#. i18n: ectx: property (text), widget (QLabel, secondsLabel)
+#. i18n: file: src/settings.ui:176
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:14 rc.cpp:36
+msgid "sec"
+msgstr "सेकेन्ड"
+
+#. i18n: file: src/settings.ui:18
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup1)
+#: rc.cpp:17
+msgid "Tea List"
+msgstr "चिया सूची"
+
+#. i18n: file: src/settings.ui:122
+#. i18n: ectx: property (title), widget (QGroupBox, teaPropertiesGroup)
+#: rc.cpp:24
+msgid "Tea Properties"
+msgstr "चिया गुण"
+
+#. i18n: file: src/settings.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:27 src/tealistmodel.cpp:113
+msgid "Name"
+msgstr "नाम"
+
+#. i18n: file: src/settings.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:30 src/tealistmodel.cpp:113
+msgid "Time"
+msgstr "समय"
+
+#. i18n: file: src/settings.ui:199
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup2)
+#: rc.cpp:39
+msgid "Action"
+msgstr "कार्य"
+
+#. i18n: file: src/settings.ui:207
+#. i18n: ectx: property (text), widget (QCheckBox, notificationCheckBox)
+#: rc.cpp:42
+msgid "Notification"
+msgstr "सूचना"
+
+#. i18n: file: src/settings.ui:220
+#. i18n: ectx: property (text), widget (KPushButton, notificationButton)
+#: rc.cpp:45
+msgid "Configure &Notifications..."
+msgstr ""
+
+#. i18n: file: src/settings.ui:248
+#. i18n: ectx: property (text), widget (QCheckBox, popupCheckBox)
+#: rc.cpp:48
+msgid "Popup"
+msgstr "पपअप"
+
+#. i18n: file: src/settings.ui:279
+#. i18n: ectx: property (text), widget (QCheckBox, autohideCheckBox)
+#: rc.cpp:51
+msgid "Auto hide popup after"
+msgstr ""
+
+#. i18n: file: src/settings.ui:328
+#. i18n: ectx: property (text), widget (QCheckBox, reminderCheckBox)
+#: rc.cpp:54
+msgid "Reminder every"
+msgstr ""
+
+#. i18n: file: src/settings.ui:378
+#. i18n: ectx: property (text), widget (QCheckBox, visualizeCheckBox)
+#: rc.cpp:57
+msgid "Visualize progress in icon tray"
+msgstr "प्रतिमा ट्रेमा दृश्ययात्मक प्रगति"
+
+#: src/main.cpp:36
+msgid "KTeaTime"
+msgstr "केचिया समय"
+
+#: src/main.cpp:37
+msgid "KDE utility for making a fine cup of tea."
+msgstr ""
+
+#: src/main.cpp:39
+msgid ""
+"(c) 1998-1999, Matthias Hoelzer-Kluepfel\n"
+" (c) 2002-2003, Martin Willers\n"
+" (c) 2007-2009, Stefan Böhmann"
+msgstr ""
+
+#: src/main.cpp:45
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr ""
+
+#: src/main.cpp:46
+msgid "Martin Willers"
+msgstr ""
+
+#: src/main.cpp:47
+msgid "Stefan Böhmann"
+msgstr ""
+
+#: src/main.cpp:48
+msgid "Daniel Teske"
+msgstr ""
+
+#: src/main.cpp:48
+msgid "Many patches"
+msgstr ""
+
+#: src/main.cpp:54
+msgid "Start a new tea with this time."
+msgstr ""
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Use this name for the tea started with %1."
+msgstr ""
+
+#: src/settings.cpp:50
+msgid "Configure Tea Cooker"
+msgstr "चिया बनाउने कन्फिगर गर्नुहोस्"
+
+#: src/settings.cpp:55
+msgid "Save changes and close dialog."
+msgstr ""
+
+#: src/settings.cpp:56
+msgid "Close dialog without saving changes."
+msgstr ""
+
+#: src/settings.cpp:57
+msgid "Show help page for this dialog."
+msgstr ""
+
+#: src/settings.cpp:91
+msgctxt "Auto hide popup after"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "  सेकेन्ड"
+msgstr[1] "  सेकेन्ड"
+
+#: src/settings.cpp:92
+msgctxt "Reminder every"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "  सेकेन्ड"
+msgstr[1] "  सेकेन्ड"
+
+#: src/tea.cpp:77
+#, kde-format
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] "%1 वर्ष"
+msgstr[1] "%1 वर्ष"
+
+#: src/tea.cpp:80
+#, kde-format
+msgid "%1 a"
+msgid_plural "%1 a"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tea.cpp:90
+#, kde-format
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 दिन"
+msgstr[1] "%1 दिन"
+
+#: src/tea.cpp:93
+#, kde-format
+msgid "%1 d"
+msgid_plural "%1 d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tea.cpp:103
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 घन्टा"
+msgstr[1] "%1 घन्टा"
+
+#: src/tea.cpp:106
+#, kde-format
+msgid "%1 h"
+msgid_plural "%1 h"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tea.cpp:116
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 मिनेट"
+msgstr[1] "%1 मिनेट"
+
+#: src/tea.cpp:119
+#, kde-format
+msgid "%1 min"
+msgid_plural "%1 min"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tea.cpp:129
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 सेकेन्ड"
+msgstr[1] "%1 सेकेन्ड"
+
+#: src/tea.cpp:132
+#, kde-format
+msgid "%1 s"
+msgid_plural "%1 s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tealistmodel.cpp:81
+msgid " ("
+msgstr " ("
+
+#: src/tealistmodel.cpp:83
+msgid ")"
+msgstr ")"
+
+#: src/tealistmodel.cpp:126
+msgid "Unnamed Tea"
+msgstr ""
+
+#: src/timeedit.cpp:54
+msgid "Start a new anonymous tea with the time configured in this dialog."
+msgstr ""
+
+#: src/timeedit.cpp:55
+msgid "Close this dialog without starting a new tea."
+msgstr ""
+
+#: src/toplevel.cpp:59
+msgid "Unknown Tea"
+msgstr ""
+
+#: src/toplevel.cpp:66
+msgid "Black Tea"
+msgstr "कालो चिया"
+
+#: src/toplevel.cpp:67
+msgid "Earl Grey"
+msgstr "हल्का खैरो"
+
+#: src/toplevel.cpp:68
+msgid "Fruit Tea"
+msgstr "फलफूलको चिया"
+
+#: src/toplevel.cpp:77
+msgid "&Stop"
+msgstr "रोक्नुहोस्"
+
+#: src/toplevel.cpp:82
+msgid "&Configure..."
+msgstr "कन्फिगर गर्नुहोस्..."
+
+#: src/toplevel.cpp:85
+msgid "&Anonymous..."
+msgstr "बेनामी..."
+
+#: src/toplevel.cpp:138 src/toplevel.cpp:139 src/toplevel.cpp:265
+msgid "The Tea Cooker"
+msgstr "चिया बनाउने"
+
+#: src/toplevel.cpp:138
+msgid "No steeping tea."
+msgstr ""
+
+#: src/toplevel.cpp:185
+#, kde-format
+msgctxt "%1 - name of the tea, %2 - the predefined time for the tea"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/toplevel.cpp:270
+#, kde-format
+msgid "%1 is now ready!"
+msgstr ""
+
+#: src/toplevel.cpp:293
+#, kde-format
+msgid "%1 is ready since %2!"
+msgstr ""
+
+#: src/toplevel.cpp:307 src/toplevel.cpp:308
+#, kde-format
+msgctxt "%1 is the time, %2 is the name of the tea"
+msgid "%1 left for %2."
+msgstr ""

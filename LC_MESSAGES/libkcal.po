@@ -1,0 +1,2270 @@
+# translation of libkcal.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkcal\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:21+0000\n"
+"PO-Revision-Date: 2009-07-16 09:49+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:44+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: attendee.cpp:137
+msgctxt "@item event, to-do or journal needs action"
+msgid "Needs Action"
+msgstr ""
+
+#: attendee.cpp:140
+msgctxt "@item event, to-do or journal accepted"
+msgid "Accepted"
+msgstr ""
+
+#: attendee.cpp:143
+msgctxt "@item event, to-do or journal declined"
+msgid "Declined"
+msgstr ""
+
+#: attendee.cpp:146
+msgctxt "@item event or to-do tentatively accepted"
+msgid "Tentative"
+msgstr ""
+
+#: attendee.cpp:149
+msgctxt "@item event or to-do delegated"
+msgid "Delegated"
+msgstr ""
+
+#: attendee.cpp:152
+msgctxt "@item to-do completed"
+msgid "Completed"
+msgstr ""
+
+#: attendee.cpp:155
+msgctxt "@item to-do in process of being completed"
+msgid "In Process"
+msgstr ""
+
+#: attendee.cpp:158
+msgctxt "@item event or to-do status unknown"
+msgid "Unknown"
+msgstr ""
+
+#: attendee.cpp:206
+msgctxt "@item chairperson"
+msgid "Chair"
+msgstr ""
+
+#: attendee.cpp:210
+msgctxt "@item participation is required"
+msgid "Participant"
+msgstr ""
+
+#: attendee.cpp:213
+msgctxt "@item participation is optional"
+msgid "Optional Participant"
+msgstr ""
+
+#: attendee.cpp:216
+msgctxt "@item non-participant copied for information"
+msgid "Observer"
+msgstr ""
+
+#: calendar.cpp:71
+msgid "Unknown Name"
+msgstr "अज्ञात नाम"
+
+#: calendar.cpp:72
+msgid "unknown@nowhere"
+msgstr "unknown@nowhere"
+
+#: confirmsavedialog.cpp:51
+msgid "Confirm Save"
+msgstr "बचत यकीन गर्नुहोस्"
+
+#: confirmsavedialog.cpp:61
+#, kde-format
+msgid "You have requested to save the following objects to '%1':"
+msgstr "तपाईँले '%1' मा निम्न वस्तु बचत गर्न अनुरोध गर्नुभयो:"
+
+#: confirmsavedialog.cpp:66
+msgid "Operation"
+msgstr "सञ्चालन"
+
+#: confirmsavedialog.cpp:67
+msgid "Type"
+msgstr "प्रकार"
+
+#: confirmsavedialog.cpp:68
+msgid "Summary"
+msgstr "सारांश"
+
+#: confirmsavedialog.cpp:69
+msgid "UID"
+msgstr "UID"
+
+#: exceptions.cpp:55
+#, kde-format
+msgid "%1 Error"
+msgstr "%1 त्रुटि"
+
+#: exceptions.cpp:90
+msgid "Load Error"
+msgstr "त्रुटि लोड गर्नुहोस्"
+
+#: exceptions.cpp:93
+msgid "Save Error"
+msgstr "त्रुटि बचत गर्नुहोस्"
+
+#: exceptions.cpp:96
+msgid "Parse Error in libical"
+msgstr "लिबिकलमा त्रुटि पद वर्णन गर्नुहोस्"
+
+#: exceptions.cpp:99
+msgid "Parse Error in libkcal"
+msgstr "लिबकलमा त्रुटि पद वर्णन गर्नुहोस्"
+
+#: exceptions.cpp:102
+msgid "No calendar component found."
+msgstr "कुनै क्यालेन्डर अवयव फेला परेन ।"
+
+#: exceptions.cpp:105
+msgid "vCalendar Version 1.0 detected."
+msgstr "भी क्यालेन्डर संस्करण १.० पत्ता लाग्यो ।"
+
+#: exceptions.cpp:108
+msgid "iCalendar Version 2.0 detected."
+msgstr "आईक्यालेन्डर संस्करण २.० पत्ता लाग्यो ।"
+
+#: exceptions.cpp:111
+msgid "Unknown calendar format detected."
+msgstr ""
+
+#: exceptions.cpp:114
+msgid "Restriction violation"
+msgstr "सीमा भङ्ग"
+
+#: htmlexport.cpp:184
+#, kde-format
+msgctxt "@title month and year"
+msgid "%1 %2"
+msgstr ""
+
+#: htmlexport.cpp:263
+msgctxt "@title:column event start time"
+msgid "Start Time"
+msgstr ""
+
+#: htmlexport.cpp:265
+msgctxt "@title:column event end time"
+msgid "End Time"
+msgstr ""
+
+#: htmlexport.cpp:267
+msgctxt "@title:column event description"
+msgid "Event"
+msgstr ""
+
+#: htmlexport.cpp:270
+msgctxt "@title:column event locatin"
+msgid "Location"
+msgstr ""
+
+#: htmlexport.cpp:275
+msgctxt "@title:column event categories"
+msgid "Categories"
+msgstr ""
+
+#: htmlexport.cpp:280
+msgctxt "@title:column event attendees"
+msgid "Attendees"
+msgstr ""
+
+#: htmlexport.cpp:401
+msgctxt "@title:column"
+msgid "To-do"
+msgstr ""
+
+#: htmlexport.cpp:402
+msgctxt "@title:column to-do priority"
+msgid "Priority"
+msgstr ""
+
+#: htmlexport.cpp:404
+msgctxt "@title:column to-do percent completed"
+msgid "Completed"
+msgstr ""
+
+#: htmlexport.cpp:406
+msgctxt "@title:column to-do due date"
+msgid "Due Date"
+msgstr ""
+
+#: htmlexport.cpp:410
+msgctxt "@title:column to-do location"
+msgid "Location"
+msgstr ""
+
+#: htmlexport.cpp:414
+msgctxt "@title:column to-do categories"
+msgid "Categories"
+msgstr ""
+
+#: htmlexport.cpp:418
+msgctxt "@title:column to-do attendees"
+msgid "Attendees"
+msgstr ""
+
+#: htmlexport.cpp:440
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos of: "
+msgstr ""
+
+#: htmlexport.cpp:495
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos"
+msgstr ""
+
+#: htmlexport.cpp:513
+#, kde-format
+msgctxt "@info/plain to-do percent complete"
+msgid "%1 %"
+msgstr ""
+
+#: htmlexport.cpp:677
+msgctxt "@info/plain"
+msgid "This page was created "
+msgstr ""
+
+#: htmlexport.cpp:686
+#, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link>"
+msgstr ""
+
+#: htmlexport.cpp:690
+#, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link>"
+msgstr ""
+
+#: htmlexport.cpp:696
+#, kde-format
+msgctxt "@info/plain page creator name only"
+msgid "by %1 "
+msgstr ""
+
+#: htmlexport.cpp:702
+#, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr ""
+
+#: htmlexport.cpp:706
+#, kde-format
+msgctxt "@info/plain page credit name only"
+msgid "with %1"
+msgstr ""
+
+#: htmlexport.cpp:773
+#, kde-format
+msgctxt "@info/plain holiday by date and name"
+msgid "%1, %2"
+msgstr ""
+
+#: icalformat.cpp:128
+#, kde-format
+msgid "Error saving to '%1'."
+msgstr "'%1' मा बचत गर्दा त्रुटि ।"
+
+#: icalformat.cpp:139
+#, kde-format
+msgid "Could not save '%1'"
+msgstr "'%1' बचत गर्न सकेन"
+
+#: icalformat.cpp:284
+msgid "libical error"
+msgstr "लिबिकल त्रुटि"
+
+#: icalformat_p.cpp:2423
+msgid "No VERSION property found"
+msgstr ""
+
+#: icalformat_p.cpp:2430
+msgid "Expected iCalendar, got vCalendar format"
+msgstr ""
+
+#: icalformat_p.cpp:2436
+msgid "Expected iCalendar, got unknown format"
+msgstr ""
+
+#: incidence.cpp:800
+msgctxt "@item event is tentative"
+msgid "Tentative"
+msgstr ""
+
+#: incidence.cpp:802
+msgctxt "@item event is definite"
+msgid "Confirmed"
+msgstr ""
+
+#: incidence.cpp:804
+msgctxt "@item to-do is complete"
+msgid "Completed"
+msgstr ""
+
+#: incidence.cpp:806
+msgctxt "@item to-do needs action"
+msgid "Needs-Action"
+msgstr ""
+
+#: incidence.cpp:808
+msgctxt "@item event orto-do is canceled; journal is removed"
+msgid "Canceled"
+msgstr ""
+
+#: incidence.cpp:810
+msgctxt "@item to-do is in process"
+msgid "In-Process"
+msgstr ""
+
+#: incidence.cpp:812
+msgctxt "@item journal is in draft form"
+msgid "Draft"
+msgstr ""
+
+#: incidence.cpp:814
+msgctxt "@item journal is in final form"
+msgid "Final"
+msgstr ""
+
+#: incidence.cpp:846
+msgctxt "@item incidence access if for everyone"
+msgid "Public"
+msgstr ""
+
+#: incidence.cpp:848
+msgctxt "@item incidence access is by owner only"
+msgid "Private"
+msgstr ""
+
+#: incidence.cpp:850
+msgctxt "@item incidence access is by owner and a controlled group"
+msgid "Confidential"
+msgstr ""
+
+#: incidenceformatter.cpp:211
+msgid "Organizer:"
+msgstr ""
+
+#: incidenceformatter.cpp:221
+msgid "Attendees:"
+msgstr ""
+
+#: incidenceformatter.cpp:232 incidenceformatter.cpp:1688
+#, kde-format
+msgid " (delegated by %1)"
+msgstr ""
+
+#: incidenceformatter.cpp:235 incidenceformatter.cpp:1691
+#, kde-format
+msgid " (delegated to %1)"
+msgstr ""
+
+#: incidenceformatter.cpp:259
+msgid "Show mail"
+msgstr ""
+
+#: incidenceformatter.cpp:282
+#, kde-format
+msgid "Creation date: %1"
+msgstr ""
+
+#: incidenceformatter.cpp:399 incidenceformatter.cpp:555
+#: incidenceformatter.cpp:684
+msgid "Calendar:"
+msgstr ""
+
+#: incidenceformatter.cpp:407 incidenceformatter.cpp:563
+#: resourcelocalconfig.cpp:67 resourcelocaldirconfig.cpp:61
+msgid "Location:"
+msgstr "स्थान:"
+
+#: incidenceformatter.cpp:432 incidenceformatter.cpp:439
+#: incidenceformatter.cpp:447 incidenceformatter.cpp:467
+#: incidenceformatter.cpp:691 incidenceformatter.cpp:1177
+#: incidenceformatter.cpp:1314
+msgid "Date:"
+msgstr "मिति:"
+
+#: incidenceformatter.cpp:434 incidenceformatter.cpp:449
+#: incidenceformatter.cpp:457
+#, kde-format
+msgctxt "<beginTime> - <endTime>"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: incidenceformatter.cpp:441 incidenceformatter.cpp:469
+#, kde-format
+msgctxt "date as string"
+msgid "%1"
+msgstr "%1"
+
+#: incidenceformatter.cpp:454 incidenceformatter.cpp:1179
+msgid "Time:"
+msgstr ""
+
+#: incidenceformatter.cpp:479
+msgid "Anniversary:"
+msgstr ""
+
+#: incidenceformatter.cpp:481
+msgid "Birthday:"
+msgstr ""
+
+#: incidenceformatter.cpp:491 incidenceformatter.cpp:604
+#: incidenceformatter.cpp:699 incidenceformatter.cpp:1108
+#: incidenceformatter.cpp:1315
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: incidenceformatter.cpp:500 incidenceformatter.cpp:613
+#: incidenceformatter.cpp:708
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:509 incidenceformatter.cpp:639
+msgctxt "next occurrence"
+msgid "Next:"
+msgstr ""
+
+#: incidenceformatter.cpp:513 incidenceformatter.cpp:642
+msgctxt "no date"
+msgid "none"
+msgstr ""
+
+#: incidenceformatter.cpp:526 incidenceformatter.cpp:655
+msgid "Attachment:"
+msgid_plural "Attachments:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:577
+msgctxt "to-do start date/time"
+msgid "Start:"
+msgstr ""
+
+#: incidenceformatter.cpp:594
+msgctxt "to-do due date/time"
+msgid "Due:"
+msgstr ""
+
+#: incidenceformatter.cpp:620
+msgid "Priority:"
+msgstr ""
+
+#: incidenceformatter.cpp:625
+msgid "Unspecified"
+msgstr "निर्दिष्ट नगरिएको"
+
+#: incidenceformatter.cpp:632
+msgctxt "percent completed"
+msgid "Completed:"
+msgstr ""
+
+#: incidenceformatter.cpp:633
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: incidenceformatter.cpp:731 incidenceformatter.cpp:2452
+#, kde-format
+msgid "Free/Busy information for %1"
+msgstr "%1 का लागि निशुल्क/व्यस्त सूचना"
+
+#: incidenceformatter.cpp:734
+#, kde-format
+msgid "Busy times in date range %1 - %2:"
+msgstr "मिति दायरा %1 - %2 मा व्यस्त समय:"
+
+#: incidenceformatter.cpp:742
+msgctxt "tag for busy periods list"
+msgid "Busy:"
+msgstr ""
+
+#: incidenceformatter.cpp:751 incidenceformatter.cpp:1346
+#, kde-format
+msgctxt "hours part of duration"
+msgid "1 hour "
+msgid_plural "%1 hours "
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:755
+#, kde-format
+msgctxt "minutes part duration"
+msgid "1 minute "
+msgid_plural "%1 minutes "
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:759 incidenceformatter.cpp:1354
+#, kde-format
+msgctxt "seconds part of duration"
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:761 incidenceformatter.cpp:1357
+#, kde-format
+msgctxt "startDate for duration"
+msgid "%1 for %2"
+msgstr "%2 का लागि %1"
+
+#: incidenceformatter.cpp:767 incidenceformatter.cpp:1363
+#, kde-format
+msgctxt "date, fromTime - toTime "
+msgid "%1, %2 - %3"
+msgstr "%1, %2 - %3"
+
+#: incidenceformatter.cpp:772 incidenceformatter.cpp:1368
+#, kde-format
+msgctxt "fromDateTime - toDateTime"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: incidenceformatter.cpp:893
+#, kde-format
+msgctxt "%1: Start Date, %2: Start Time"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: incidenceformatter.cpp:897
+#, kde-format
+msgctxt "%1: Start Date"
+msgid "%1 (all day)"
+msgstr ""
+
+#: incidenceformatter.cpp:908
+#, kde-format
+msgctxt "%1: End Date, %2: End Time"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: incidenceformatter.cpp:912
+#, kde-format
+msgctxt "%1: End Date"
+msgid "%1 (all day)"
+msgstr ""
+
+#: incidenceformatter.cpp:999
+msgid "Your response is requested"
+msgstr ""
+
+#: incidenceformatter.cpp:1001
+msgid "A response is not necessary"
+msgstr ""
+
+#: incidenceformatter.cpp:1118
+msgid "Comments:"
+msgstr ""
+
+#: incidenceformatter.cpp:1143 incidenceformatter.cpp:1245
+#: incidenceformatter.cpp:1298
+msgid "Summary unspecified"
+msgstr "सारांश निर्दिष्ट नगरिएको छैन"
+
+#: incidenceformatter.cpp:1155 incidenceformatter.cpp:1257
+msgid "Location unspecified"
+msgstr "स्थान निर्दिष्ट गरिएको छैन"
+
+#: incidenceformatter.cpp:1172 incidenceformatter.cpp:1274
+msgid "What:"
+msgstr "के:"
+
+#: incidenceformatter.cpp:1173 incidenceformatter.cpp:1275
+msgid "Where:"
+msgstr "कहाँ:"
+
+#: incidenceformatter.cpp:1185
+msgctxt "starting date"
+msgid "From:"
+msgstr ""
+
+#: incidenceformatter.cpp:1188
+msgctxt "starting time"
+msgid "At:"
+msgstr ""
+
+#: incidenceformatter.cpp:1192 incidenceformatter.cpp:1199
+msgctxt "ending date"
+msgid "To:"
+msgstr ""
+
+#: incidenceformatter.cpp:1195
+msgctxt "ending time"
+msgid "At:"
+msgstr ""
+
+#: incidenceformatter.cpp:1200
+msgid "no end date specified"
+msgstr ""
+
+#: incidenceformatter.cpp:1210
+#, kde-format
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:1216
+#, kde-format
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:1222
+#, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:1225
+msgid "Duration:"
+msgstr "अवधि:"
+
+#: incidenceformatter.cpp:1229
+msgid "Recurrence:"
+msgstr ""
+
+#: incidenceformatter.cpp:1278
+msgid "Start Date:"
+msgstr ""
+
+#: incidenceformatter.cpp:1281 incidenceformatter.cpp:1283
+msgid "Due Date:"
+msgstr ""
+
+#: incidenceformatter.cpp:1283
+msgctxt "no to-do due date"
+msgid "None"
+msgstr ""
+
+#: incidenceformatter.cpp:1299
+msgid "Description unspecified"
+msgstr "वर्णन निर्दिष्ट गरिएको छैन"
+
+#: incidenceformatter.cpp:1313
+msgid "Summary:"
+msgstr "सारांश:"
+
+#: incidenceformatter.cpp:1331
+msgid "Person:"
+msgstr "व्यक्ति:"
+
+#: incidenceformatter.cpp:1332
+msgid "Start date:"
+msgstr "सुरु मिति:"
+
+#: incidenceformatter.cpp:1333
+msgid "End date:"
+msgstr "अन्त्य मिति:"
+
+#: incidenceformatter.cpp:1350
+#, kde-format
+msgctxt "minutes part of duration"
+msgid "1 minute"
+msgid_plural "%1 minutes "
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:1391
+msgid "This event has been published"
+msgstr "यो घटना प्रकाशन भएको छ"
+
+#: incidenceformatter.cpp:1394
+msgid "This invitation has been updated"
+msgstr ""
+
+#: incidenceformatter.cpp:1397
+msgid "I sent this invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1400
+#, kde-format
+msgid "You received an invitation from %1"
+msgstr ""
+
+#: incidenceformatter.cpp:1403
+msgid "You received an invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1407
+msgid "This invitation was refreshed"
+msgstr "यो निमन्त्रणा ताजा गरिएको थियो"
+
+#: incidenceformatter.cpp:1409
+msgid "This invitation has been canceled"
+msgstr ""
+
+#: incidenceformatter.cpp:1411
+msgid "Addition to the invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1429
+msgid "Sender"
+msgstr ""
+
+#: incidenceformatter.cpp:1440
+#, kde-format
+msgid "%1 indicates this invitation still needs some action"
+msgstr ""
+
+#: incidenceformatter.cpp:1443
+#, kde-format
+msgid "%1 accepts this invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1445
+#, kde-format
+msgid "%1 accepts this invitation on behalf of %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1450
+#, kde-format
+msgid "%1 tentatively accepts this invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1452
+#, kde-format
+msgid "%1 tentatively accepts this invitation on behalf of %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1457
+#, kde-format
+msgid "%1 declines this invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1459
+#, kde-format
+msgid "%1 declines this invitation on behalf of %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1470
+#, kde-format
+msgid "%1 has delegated this invitation to %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1472
+#, kde-format
+msgid "%1 has delegated this invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1476
+msgid "This invitation is now completed"
+msgstr ""
+
+#: incidenceformatter.cpp:1478
+#, kde-format
+msgid "%1 is still processing the invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1480
+msgid "Unknown response to this invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1485 incidenceformatter.cpp:1561
+#: incidenceformatter.cpp:1622 incidenceformatter.cpp:1652
+msgid "Sender makes this counter proposal"
+msgstr "प्रेषकले यसको विपरित प्रस्तावना बनाउदछ"
+
+#: incidenceformatter.cpp:1487 incidenceformatter.cpp:1563
+#: incidenceformatter.cpp:1624 incidenceformatter.cpp:1654
+msgid "Sender declines the counter proposal"
+msgstr "प्रेषकले विपरित प्रस्तावना घटाउदछ"
+
+#: incidenceformatter.cpp:1489
+msgid "Error: Event iTIP message with unknown method"
+msgstr ""
+
+#: incidenceformatter.cpp:1503
+msgid "This to-do has been published"
+msgstr ""
+
+#: incidenceformatter.cpp:1506
+msgid "This to-do has been updated"
+msgstr ""
+
+#: incidenceformatter.cpp:1508
+msgid "You have been assigned this to-do"
+msgstr ""
+
+#: incidenceformatter.cpp:1511
+msgid "This to-do was refreshed"
+msgstr ""
+
+#: incidenceformatter.cpp:1513
+msgid "This to-do was canceled"
+msgstr ""
+
+#: incidenceformatter.cpp:1515
+msgid "Addition to the to-do"
+msgstr ""
+
+#: incidenceformatter.cpp:1531
+msgid "Sender indicates this to-do assignment still needs some action"
+msgstr ""
+
+#: incidenceformatter.cpp:1533
+msgid "Sender accepts this to-do"
+msgstr ""
+
+#: incidenceformatter.cpp:1535
+msgid "Sender tentatively accepts this to-do"
+msgstr ""
+
+#: incidenceformatter.cpp:1537
+msgid "Sender declines this to-do"
+msgstr ""
+
+#: incidenceformatter.cpp:1546
+#, kde-format
+msgid "Sender has delegated this request for the to-do to %1"
+msgstr ""
+
+#: incidenceformatter.cpp:1548
+msgid "Sender has delegated this request for the to-do "
+msgstr ""
+
+#: incidenceformatter.cpp:1552
+msgid "The request for this to-do is now completed"
+msgstr ""
+
+#: incidenceformatter.cpp:1554 incidenceformatter.cpp:1615
+msgid "Sender is still processing the invitation"
+msgstr "प्रेषकले निमन्त्रणा अझै प्रक्रिया गरिरहेको छ"
+
+#: incidenceformatter.cpp:1556
+msgid "Unknown response to this to-do"
+msgstr ""
+
+#: incidenceformatter.cpp:1565
+msgid "Error: To-do iTIP message with unknown method"
+msgstr ""
+
+#: incidenceformatter.cpp:1579
+msgid "This journal has been published"
+msgstr "यो जर्नल प्रकाशन गरिएको छ"
+
+#: incidenceformatter.cpp:1581
+msgid "You have been assigned this journal"
+msgstr "तपाईँले यो जर्नल मानाङ्कन गर्नुभएको छ"
+
+#: incidenceformatter.cpp:1583
+msgid "This journal was refreshed"
+msgstr "यो जर्नल ताजा गरिएको थियो"
+
+#: incidenceformatter.cpp:1585
+msgid "This journal was canceled"
+msgstr "यो जर्नल रद्द गरिएको थियो"
+
+#: incidenceformatter.cpp:1587
+msgid "Addition to the journal"
+msgstr "जर्नलमा थप"
+
+#: incidenceformatter.cpp:1603
+msgid "Sender indicates this journal assignment still needs some action"
+msgstr "प्रेषकले यो जर्नल कार्यमा अझै केही कार्य आवश्यक भएको इङ्कित गर्दछ"
+
+#: incidenceformatter.cpp:1605
+msgid "Sender accepts this journal"
+msgstr "प्रेषकले यो जर्नल स्वीकार गर्दछ"
+
+#: incidenceformatter.cpp:1607
+msgid "Sender tentatively accepts this journal"
+msgstr "प्रेषकले परीक्षार्थ रूपमा यो जर्नल स्वीकार गर्दछ"
+
+#: incidenceformatter.cpp:1609
+msgid "Sender declines this journal"
+msgstr "प्रेषकले यो जर्नल घटाउदछ"
+
+#: incidenceformatter.cpp:1611
+msgid "Sender has delegated this request for the journal"
+msgstr "प्रेषकले जर्नलका लागि यो अनुरोध प्रत्यायोजन गर्यो"
+
+#: incidenceformatter.cpp:1613
+msgid "The request for this journal is now completed"
+msgstr "यो जर्नलका लागि अनुरोध अहिले पूरा भएको छ"
+
+#: incidenceformatter.cpp:1617
+msgid "Unknown response to this journal"
+msgstr "यो जर्नलमा अज्ञात प्रतिक्रिया"
+
+#: incidenceformatter.cpp:1626
+msgid "Error: Journal iTIP message with unknown method"
+msgstr ""
+
+#: incidenceformatter.cpp:1640
+msgid "This free/busy list has been published"
+msgstr "यो निशुल्क/व्यस्त सूची प्रकाश गरियो"
+
+#: incidenceformatter.cpp:1642
+msgid "The free/busy list has been requested"
+msgstr "निशुल्क/व्यस्त सूची अनुरोध गरियो"
+
+#: incidenceformatter.cpp:1644
+msgid "This free/busy list was refreshed"
+msgstr "निशुल्क/व्यस्त सूची ताजा गरिएको थियो"
+
+#: incidenceformatter.cpp:1646
+msgid "This free/busy list was canceled"
+msgstr "निशुल्क/व्यस्त सूची रद्द गरिएको थियो"
+
+#: incidenceformatter.cpp:1648
+msgid "Addition to the free/busy list"
+msgstr "निशुल्क/व्यस्त सूचीमा थप"
+
+#: incidenceformatter.cpp:1650
+msgid "Reply to the free/busy list"
+msgstr ""
+
+#: incidenceformatter.cpp:1656
+msgid "Error: Free/Busy iTIP message with unknown method"
+msgstr ""
+
+#: incidenceformatter.cpp:1670
+msgid "Invitation List"
+msgstr ""
+
+#: incidenceformatter.cpp:1702
+msgctxt "no attendees"
+msgid "None"
+msgstr ""
+
+#: incidenceformatter.cpp:1717
+msgid "Attached Documents:"
+msgstr ""
+
+#: incidenceformatter.cpp:1886
+#, kde-format
+msgid "The invitation starting time has been changed from %1 to %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1891
+#, kde-format
+msgid "The invitation ending time has been changed from %1 to %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1903
+#, kde-format
+msgid "The summary has been changed to: \"%1\""
+msgstr ""
+
+#: incidenceformatter.cpp:1908
+#, kde-format
+msgid "The location has been changed to: \"%1\""
+msgstr ""
+
+#: incidenceformatter.cpp:1913
+#, kde-format
+msgid "The description has been changed to: \"%1\""
+msgstr ""
+
+#: incidenceformatter.cpp:1923
+#, kde-format
+msgid "Attendee %1 has been added"
+msgstr ""
+
+#: incidenceformatter.cpp:1926
+#, kde-format
+msgid "The status of attendee %1 has been changed to: %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1936
+#, kde-format
+msgid "Attendee %1 has been removed"
+msgstr ""
+
+#: incidenceformatter.cpp:2050
+msgid ""
+"<p align=\"left\">The following changes have been made by the organizer:</p>"
+msgstr ""
+
+#: incidenceformatter.cpp:2078
+#, kde-format
+msgid "Your response has already been recorded [%1]"
+msgstr ""
+
+#: incidenceformatter.cpp:2082
+msgid "This invitation was declined"
+msgstr ""
+
+#: incidenceformatter.cpp:2084
+msgid "This invitation was accepted"
+msgstr ""
+
+#: incidenceformatter.cpp:2106
+msgid "[Record invitation in my to-do list]"
+msgstr ""
+
+#: incidenceformatter.cpp:2108
+msgid "[Record invitation in my calendar]"
+msgstr ""
+
+#: incidenceformatter.cpp:2118
+msgctxt "accept invitation"
+msgid "Accept"
+msgstr ""
+
+#: incidenceformatter.cpp:2125
+msgctxt "Accept invitation conditionally"
+msgid "Accept cond."
+msgstr ""
+
+#: incidenceformatter.cpp:2134
+msgctxt "invitation counter proposal"
+msgid "Counter proposal"
+msgstr ""
+
+#: incidenceformatter.cpp:2143
+msgctxt "decline invitation"
+msgid "Decline"
+msgstr ""
+
+#: incidenceformatter.cpp:2152
+msgctxt "delegate inviation to another"
+msgid "Delegate"
+msgstr ""
+
+#: incidenceformatter.cpp:2159
+msgctxt "forward request to another"
+msgid "Forward"
+msgstr ""
+
+#: incidenceformatter.cpp:2167
+msgctxt "look for scheduling conflicts"
+msgid "Check my calendar"
+msgstr ""
+
+#: incidenceformatter.cpp:2180
+msgid "Remove invitation from my to-do list"
+msgstr ""
+
+#: incidenceformatter.cpp:2183
+msgid "Remove invitation from my calendar"
+msgstr ""
+
+#: incidenceformatter.cpp:2201
+msgid "The response has already been recorded"
+msgstr ""
+
+#: incidenceformatter.cpp:2206
+msgid "[Record response in my to-do list]"
+msgstr ""
+
+#: incidenceformatter.cpp:2208
+msgid "[Record response in my calendar]"
+msgstr ""
+
+#: incidenceformatter.cpp:2218
+msgid "Accept"
+msgstr ""
+
+#: incidenceformatter.cpp:2222
+msgid "Decline"
+msgstr ""
+
+#: incidenceformatter.cpp:2226
+msgid "Check my calendar"
+msgstr ""
+
+#: incidenceformatter.cpp:2341
+#, kde-format
+msgctxt "Event start"
+msgid "<i>From:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2344
+#, kde-format
+msgctxt "Event end"
+msgid "<i>To:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2349 incidenceformatter.cpp:2413
+#, kde-format
+msgid "<i>Date:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2356
+#, kde-format
+msgctxt "time for event"
+msgid "<i>Time:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2361
+#, kde-format
+msgctxt "time range for event"
+msgid "<i>Time:</i> %1 - %2"
+msgstr ""
+
+#: incidenceformatter.cpp:2382
+#, kde-format
+msgid "<i>Start:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2393
+#, kde-format
+msgid "<i>Due:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2398
+#, kde-format
+msgid "<i>Completed:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2401
+#, kde-format
+msgctxt "percent complete"
+msgid "%1% completed"
+msgstr ""
+
+#: incidenceformatter.cpp:2423 incidenceformatter.cpp:2426
+#, kde-format
+msgid "<i>Period start:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2470
+#, kde-format
+msgid "<i>Calendar:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2478
+#, kde-format
+msgid "<i>Location:</i> %1"
+msgstr ""
+
+#: incidenceformatter.cpp:2491
+msgid "<i>Description:</i>"
+msgstr ""
+
+#: incidenceformatter.cpp:2537
+#, kde-format
+msgid "Summary: %1\n"
+msgstr "सारांश: %1\n"
+
+#: incidenceformatter.cpp:2540
+#, kde-format
+msgid "Organizer: %1\n"
+msgstr "आयोजक: %1\n"
+
+#: incidenceformatter.cpp:2543
+#, kde-format
+msgid "Location: %1\n"
+msgstr "स्थान: %1\n"
+
+#: incidenceformatter.cpp:2574
+msgid "This is a Free Busy Object"
+msgstr "यो निशुल्क व्यस्त वस्तु हो"
+
+#: incidenceformatter.cpp:2585
+msgctxt "no recurrence"
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: incidenceformatter.cpp:2586
+msgctxt "event recurs by minutes"
+msgid "Minutely"
+msgstr ""
+
+#: incidenceformatter.cpp:2587
+msgctxt "event recurs by hours"
+msgid "Hourly"
+msgstr ""
+
+#: incidenceformatter.cpp:2588
+msgctxt "event recurs by days"
+msgid "Daily"
+msgstr ""
+
+#: incidenceformatter.cpp:2589
+msgctxt "event recurs by weeks"
+msgid "Weekly"
+msgstr ""
+
+#: incidenceformatter.cpp:2590
+msgctxt "event recurs same position (e.g. first monday) each month"
+msgid "Monthly Same Position"
+msgstr ""
+
+#: incidenceformatter.cpp:2591
+msgctxt "event recurs same day each month"
+msgid "Monthly Same Day"
+msgstr ""
+
+#: incidenceformatter.cpp:2592
+msgctxt "event recurs same month each year"
+msgid "Yearly Same Month"
+msgstr ""
+
+#: incidenceformatter.cpp:2593
+msgctxt "event recurs same day each year"
+msgid "Yearly Same Day"
+msgstr ""
+
+#: incidenceformatter.cpp:2594
+msgctxt "event recurs same position (e.g. first monday) each year"
+msgid "Yearly Same Position"
+msgstr ""
+
+#: incidenceformatter.cpp:2598 incidenceformatter.cpp:2645
+#, kde-format
+msgid "Start Date: %1\n"
+msgstr "सुरु मिति: %1\n"
+
+#: incidenceformatter.cpp:2600 incidenceformatter.cpp:2647
+#, kde-format
+msgid "Start Time: %1\n"
+msgstr "सुरु समय: %1\n"
+
+#: incidenceformatter.cpp:2603
+#, kde-format
+msgid "End Date: %1\n"
+msgstr "समाप्त मिति: %1\n"
+
+#: incidenceformatter.cpp:2606
+#, kde-format
+msgid "End Time: %1\n"
+msgstr "समाप्त समय: %1\n"
+
+#: incidenceformatter.cpp:2611
+#, kde-format
+msgid "Recurs: %1\n"
+msgstr "दोहोरिन्छ: %1\n"
+
+#: incidenceformatter.cpp:2612
+#, kde-format
+msgid "Frequency: %1\n"
+msgstr "आवृत्ति: %1\n"
+
+#: incidenceformatter.cpp:2615
+#, kde-format
+msgid "Repeats once"
+msgid_plural "Repeats %1 times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2626
+#, kde-format
+msgid "Repeat until: %1\n"
+msgstr "यहाँसम्म दोहोर्याउनुहोस्: %1\n"
+
+#: incidenceformatter.cpp:2628
+msgid "Repeats forever\n"
+msgstr "सधै दोहोर्याउदछ\n"
+
+#: incidenceformatter.cpp:2635 incidenceformatter.cpp:2658
+#, kde-format
+msgid ""
+"Details:\n"
+"%1\n"
+msgstr ""
+"विवरण:\n"
+"%1\n"
+
+#: incidenceformatter.cpp:2651
+#, kde-format
+msgid "Due Date: %1\n"
+msgstr "देयमिति: %1\n"
+
+#: incidenceformatter.cpp:2653
+#, kde-format
+msgid "Due Time: %1\n"
+msgstr "देय समय: %1\n"
+
+#: incidenceformatter.cpp:2666
+#, kde-format
+msgid "Date: %1\n"
+msgstr "मिति: %1\n"
+
+#: incidenceformatter.cpp:2668
+#, kde-format
+msgid "Time: %1\n"
+msgstr "समय: %1\n"
+
+#: incidenceformatter.cpp:2671
+#, kde-format
+msgid ""
+"Text of the journal:\n"
+"%1\n"
+msgstr ""
+"जर्नलको पाठ:\n"
+"%1\n"
+
+#: incidenceformatter.cpp:2716 incidenceformatter.cpp:2789
+msgid "No recurrence"
+msgstr ""
+
+#: incidenceformatter.cpp:2719
+msgid "31st Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2720
+msgid "30th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2721
+msgid "29th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2722
+msgid "28th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2723
+msgid "27th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2724
+msgid "26th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2725
+msgid "25th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2726
+msgid "24th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2727
+msgid "23rd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2728
+msgid "22nd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2729
+msgid "21st Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2730
+msgid "20th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2731
+msgid "19th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2732
+msgid "18th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2733
+msgid "17th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2734
+msgid "16th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2735
+msgid "15th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2736
+msgid "14th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2737
+msgid "13th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2738
+msgid "12th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2739
+msgid "11th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2740
+msgid "10th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2741
+msgid "9th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2742
+msgid "8th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2743
+msgid "7th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2744
+msgid "6th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2745
+msgid "5th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2746
+msgid "4th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2747
+msgid "3rd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2748
+msgid "2nd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2749
+msgctxt "last day of the month"
+msgid "Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2750
+msgctxt "unknown day of the month"
+msgid "unknown"
+msgstr ""
+
+#: incidenceformatter.cpp:2751
+msgid "1st"
+msgstr ""
+
+#: incidenceformatter.cpp:2752
+msgid "2nd"
+msgstr ""
+
+#: incidenceformatter.cpp:2753
+msgid "3rd"
+msgstr ""
+
+#: incidenceformatter.cpp:2754
+msgid "4th"
+msgstr ""
+
+#: incidenceformatter.cpp:2755
+msgid "5th"
+msgstr ""
+
+#: incidenceformatter.cpp:2756
+msgid "6th"
+msgstr ""
+
+#: incidenceformatter.cpp:2757
+msgid "7th"
+msgstr ""
+
+#: incidenceformatter.cpp:2758
+msgid "8th"
+msgstr ""
+
+#: incidenceformatter.cpp:2759
+msgid "9th"
+msgstr ""
+
+#: incidenceformatter.cpp:2760
+msgid "10th"
+msgstr ""
+
+#: incidenceformatter.cpp:2761
+msgid "11th"
+msgstr ""
+
+#: incidenceformatter.cpp:2762
+msgid "12th"
+msgstr ""
+
+#: incidenceformatter.cpp:2763
+msgid "13th"
+msgstr ""
+
+#: incidenceformatter.cpp:2764
+msgid "14th"
+msgstr ""
+
+#: incidenceformatter.cpp:2765
+msgid "15th"
+msgstr ""
+
+#: incidenceformatter.cpp:2766
+msgid "16th"
+msgstr ""
+
+#: incidenceformatter.cpp:2767
+msgid "17th"
+msgstr ""
+
+#: incidenceformatter.cpp:2768
+msgid "18th"
+msgstr ""
+
+#: incidenceformatter.cpp:2769
+msgid "19th"
+msgstr ""
+
+#: incidenceformatter.cpp:2770
+msgid "20th"
+msgstr ""
+
+#: incidenceformatter.cpp:2771
+msgid "21st"
+msgstr ""
+
+#: incidenceformatter.cpp:2772
+msgid "22nd"
+msgstr ""
+
+#: incidenceformatter.cpp:2773
+msgid "23rd"
+msgstr ""
+
+#: incidenceformatter.cpp:2774
+msgid "24th"
+msgstr ""
+
+#: incidenceformatter.cpp:2775
+msgid "25th"
+msgstr ""
+
+#: incidenceformatter.cpp:2776
+msgid "26th"
+msgstr ""
+
+#: incidenceformatter.cpp:2777
+msgid "27th"
+msgstr ""
+
+#: incidenceformatter.cpp:2778
+msgid "28th"
+msgstr ""
+
+#: incidenceformatter.cpp:2779
+msgid "29th"
+msgstr ""
+
+#: incidenceformatter.cpp:2780
+msgid "30th"
+msgstr ""
+
+#: incidenceformatter.cpp:2781
+msgid "31st"
+msgstr ""
+
+#: incidenceformatter.cpp:2792
+#, kde-format
+msgid "Recurs every minute until %2"
+msgid_plural "Recurs every %1 minutes until %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2797 incidenceformatter.cpp:2811
+#: incidenceformatter.cpp:2824 incidenceformatter.cpp:2853
+#: incidenceformatter.cpp:2877 incidenceformatter.cpp:2901
+#: incidenceformatter.cpp:2926 incidenceformatter.cpp:2967
+#: incidenceformatter.cpp:2993
+#, kde-format
+msgctxt "number of occurrences"
+msgid " (<numid>%1</numid> occurrences)"
+msgstr ""
+
+#: incidenceformatter.cpp:2802
+#, kde-format
+msgid "Recurs every minute"
+msgid_plural "Recurs every %1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2806
+#, kde-format
+msgid "Recurs hourly until %2"
+msgid_plural "Recurs every %1 hours until %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2816
+#, kde-format
+msgid "Recurs hourly"
+msgid_plural "Recurs every %1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2819
+#, kde-format
+msgid "Recurs daily until %2"
+msgid_plural "Recurs every %1 days until %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2829
+#, kde-format
+msgid "Recurs daily"
+msgid_plural "Recurs every %1 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2836
+msgctxt "separator for list of days"
+msgid ", "
+msgstr ""
+
+#: incidenceformatter.cpp:2844
+msgctxt "Recurs weekly on no days"
+msgid "no days"
+msgstr ""
+
+#: incidenceformatter.cpp:2848
+#, kde-format
+msgctxt "Recurs weekly on [list of days] until end-date"
+msgid "Recurs weekly on %2 until %3"
+msgid_plural "Recurs every <numid>%1</numid> weeks on %2 until %3"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2859
+#, kde-format
+msgctxt "Recurs weekly on [list of days]"
+msgid "Recurs weekly on %2"
+msgid_plural "Recurs every <numid>%1</numid> weeks on %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2869
+#, kde-format
+msgctxt ""
+"Recurs every N months on the [2nd|3rd|...] weekdayname until end-date"
+msgid "Recurs every month on the %2 %3 until %4"
+msgid_plural "Recurs every <numid>%1</numid> months on the %2 %3 until %4"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2883
+#, kde-format
+msgctxt "Recurs every N months on the [2nd|3rd|...] weekdayname"
+msgid "Recurs every month on the %2 %3"
+msgid_plural "Recurs every %1 months on the %2 %3"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2894
+#, kde-format
+msgctxt "Recurs monthly on the [1st|2nd|...] day until end-date"
+msgid "Recurs monthly on the %2 day until %3"
+msgid_plural "Recurs every %1 months on the %2 day until %3"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2907
+#, kde-format
+msgctxt "Recurs monthly on the [1st|2nd|...] day"
+msgid "Recurs monthly on the %2 day"
+msgid_plural "Recurs every <numid>%1</numid> month on the %2 day"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2918
+#, kde-format
+msgctxt "Recurs Every N years on month-name [1st|2nd|...] until end-date"
+msgid "Recurs yearly on %2 %3 until %4"
+msgid_plural "Recurs every %1 years on %2 %3 until %4"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2934
+#, kde-format
+msgctxt "Recurs Every N years on month-name [1st|2nd|...]"
+msgid "Recurs yearly on %2 %3"
+msgid_plural "Recurs every %1 years on %2 %3"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2943 incidenceformatter.cpp:2949
+#, kde-format
+msgctxt "Recurs Every year on month-name [1st|2nd|...]"
+msgid "Recurs yearly on %1 %2"
+msgstr ""
+
+#: incidenceformatter.cpp:2959
+#, kde-format
+msgctxt "Recurs every N years on day N until end-date"
+msgid "Recurs every year on day <numid>%2</numid> until %3"
+msgid_plural ""
+"Recurs every <numid>%1</numid> years on day <numid>%2</numid> until %3"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2973
+#, kde-format
+msgctxt "Recurs every N YEAR[S] on day N"
+msgid "Recurs every year on day <numid>%2</numid>"
+msgid_plural "Recurs every <numid>%1</numid> years on day <numid>%2</numid>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:2983
+#, kde-format
+msgctxt ""
+"Every N years on the [2nd|3rd|...] weekdayname of monthname until end-date"
+msgid "Every year on the %2 %3 of %4 until %5"
+msgid_plural "Every <numid>%1</numid> years on the %2 %3 of %4 until %5"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:3000
+#, kde-format
+msgctxt "Every N years on the [2nd|3rd|...] weekdayname of monthname"
+msgid "Every year on the %2 %3 of %4"
+msgid_plural "Every <numid>%1</numid> years on the %2 %3 of %4"
+msgstr[0] ""
+msgstr[1] ""
+
+#: incidenceformatter.cpp:3008
+msgid "Incidence recurs"
+msgstr ""
+
+#: kresult.cpp:144
+msgid "Ok"
+msgstr ""
+
+#: kresult.cpp:146
+msgid "In progress"
+msgstr ""
+
+#: kresult.cpp:150
+msgid "Not an error"
+msgstr ""
+
+#: kresult.cpp:152
+msgid "Error"
+msgstr ""
+
+#: kresult.cpp:154
+msgid "Invalid URL"
+msgstr ""
+
+#: kresult.cpp:156
+msgid "Connection failed"
+msgstr ""
+
+#: kresult.cpp:158
+msgid "Write error"
+msgstr ""
+
+#: kresult.cpp:160
+msgid "Read error"
+msgstr ""
+
+#: kresult.cpp:162
+msgid "Wrong Parameter"
+msgstr ""
+
+#: kresult.cpp:164
+msgid "Parse Error"
+msgstr ""
+
+#: kresult.cpp:166
+msgid "Wrong revision of schema"
+msgstr ""
+
+#: qtopiaformat.cpp:327
+#, kde-format
+msgid "Could not open file '%1'"
+msgstr "फाइल '%1' खोल्न सकेन"
+
+#. i18n: file: htmlexportsettings.kcfg:13
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:3
+msgid "Full name of the calendar owner"
+msgstr "क्यालेन्डर स्वामित्वकर्ताको पूरा नाम"
+
+#. i18n: file: htmlexportsettings.kcfg:14
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:6
+msgid "WhatsThis text for FullName setting"
+msgstr "पूरा नाम सेटिङका लागि यो के पाठ हो"
+
+#. i18n: file: htmlexportsettings.kcfg:17
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:9
+msgid "Email of the calendar owner"
+msgstr "क्यालेन्डर स्वामित्वकर्ताको इमेल"
+
+#. i18n: file: htmlexportsettings.kcfg:18
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:12
+msgid "WhatsThis text for Email setting"
+msgstr "इमेल सेटिङका लागि यो के पाठ हो"
+
+#. i18n: file: htmlexportsettings.kcfg:21
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:15
+msgid "Creator application"
+msgstr "सर्जक अनुप्रयोग"
+
+#. i18n: file: htmlexportsettings.kcfg:22
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:18
+msgid "Creator application of the calendar"
+msgstr "क्यालेन्डरको सर्जक अनुप्रयोग"
+
+#. i18n: file: htmlexportsettings.kcfg:25
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:21
+msgid "Creator URL"
+msgstr "सर्जक यूआरएल"
+
+#. i18n: file: htmlexportsettings.kcfg:26
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:24
+msgid "URL of the creator application of the calendar."
+msgstr "क्यालेन्डरको सर्जक अनुप्रयोगको यूआरएल ।"
+
+#. i18n: file: htmlexportsettings.kcfg:30
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:27
+msgid "Page Title"
+msgstr "पृष्ठ शीर्षक"
+
+#. i18n: file: htmlexportsettings.kcfg:35
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:30
+msgid "Date start"
+msgstr "मिति सुरु"
+
+#. i18n: file: htmlexportsettings.kcfg:36
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:33
+msgid "First day of the range that shall be exported to HTML."
+msgstr "एचटीएमएल मा निर्यात गर्न सकिने दायराको पहिलो दिन ।"
+
+#. i18n: file: htmlexportsettings.kcfg:39
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:36
+msgid "Date end"
+msgstr "समय समाप्त"
+
+#. i18n: file: htmlexportsettings.kcfg:40
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:39
+msgid "Last day of the range that shall be exported to HTML."
+msgstr "एचटीएमएल मा निर्यात गर्न सकिने दायराको अन्तिम दिन ।"
+
+#. i18n: file: htmlexportsettings.kcfg:44
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:42
+msgid "Output filename"
+msgstr "निर्गत फाइलनाम"
+
+#. i18n: file: htmlexportsettings.kcfg:45
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:45
+msgid "The output file name for the HTML export."
+msgstr "एचटीएमएल निर्यातका लागि निर्गत फाइलनाम ।"
+
+#. i18n: file: htmlexportsettings.kcfg:49
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:48
+msgid "Style sheet"
+msgstr "शैली पाना"
+
+#. i18n: file: htmlexportsettings.kcfg:50
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:51
+msgid ""
+"CSS style sheet to be used by the final HTML page. This string contains the "
+"actual contents of the CSS, not a path to the style sheet."
+msgstr ""
+"अन्तिम एचटीएमएल पृष्ठद्वारा प्रयोग गरिने सीएसएस शैली पाना । यो स्ट्रिङले "
+"सीएसएस को वास्तविक सामग्री समाविष्ट गर्दछ, तर शैली पानामा मार्ग होइन ।"
+
+#. i18n: file: htmlexportsettings.kcfg:54
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:54
+msgid "Exclude private incidences from the export"
+msgstr "निर्यातबाट व्यक्तिगत भार हटाउदछ"
+
+#. i18n: file: htmlexportsettings.kcfg:58
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:57
+msgid "Exclude confidential incidences from the export"
+msgstr "निर्यातबाट गोप्य भार हटाउदछ"
+
+#. i18n: file: htmlexportsettings.kcfg:66
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: rc.cpp:60
+msgid "Export events as list"
+msgstr "सूचीको रूपमा घटना निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:70
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: rc.cpp:63
+msgid "Export in month view"
+msgstr "महिना दृश्यमा निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:74
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: rc.cpp:66
+msgid "Export in week view"
+msgstr "साप्तहिक दृश्यमा निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:78
+#. i18n: ectx: label, entry (EventTitle), group ($(application)-Events)
+#: rc.cpp:69
+msgid "Title of the calendar"
+msgstr "क्यालेन्डरको शीर्षक"
+
+#. i18n: file: htmlexportsettings.kcfg:83
+#. i18n: ectx: label, entry (EventLocation), group ($(application)-Events)
+#: rc.cpp:72
+msgid "Export location of the events"
+msgstr "घटनाको स्थान निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:87
+#. i18n: ectx: label, entry (EventCategories), group ($(application)-Events)
+#: rc.cpp:75
+msgid "Export categories of the events"
+msgstr "घटनाको कोटि निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:91
+#. i18n: ectx: label, entry (EventAttendees), group ($(application)-Events)
+#: rc.cpp:78
+msgid "Export attendees of the events"
+msgstr "घटनाका सहभागि निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:99
+#. i18n: ectx: label, entry, group ($(application)-Todos)
+#: rc.cpp:81
+msgid "Export to-do list"
+msgstr "गर्नुपर्ने कार्य सूची निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:103
+#. i18n: ectx: label, entry, group ($(application)-Todos)
+#: rc.cpp:84
+msgid "Title of the to-do list"
+msgstr "गर्नुपर्ने कार्य सूचीको शीर्षक"
+
+#. i18n: file: htmlexportsettings.kcfg:108
+#. i18n: ectx: label, entry (TaskDueDate), group ($(application)-Todos)
+#: rc.cpp:87
+msgid "Export due dates of the to-dos"
+msgstr "गर्नुपर्ने कार्यहरूको देयमिति निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:112
+#. i18n: ectx: label, entry (TaskLocation), group ($(application)-Todos)
+#: rc.cpp:90
+msgid "Export location of the to-dos"
+msgstr "गर्नुपर्नेकार्यहरूको स्थान निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:116
+#. i18n: ectx: label, entry (TaskCategories), group ($(application)-Todos)
+#: rc.cpp:93
+msgid "Export categories of the to-dos"
+msgstr "गर्नुपर्ने कार्यहरूको कोटि निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:120
+#. i18n: ectx: label, entry (TaskAttendees), group ($(application)-Todos)
+#: rc.cpp:96
+msgid "Export attendees of the to-dos"
+msgstr "गर्नुपर्ने कार्यहरूको उपस्थिति निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:128
+#. i18n: ectx: label, entry, group ($(application)-Journals)
+#. i18n: file: htmlexportsettings.kcfg:139
+#. i18n: ectx: label, entry, group ($(application)-FreeBusy)
+#: rc.cpp:99 rc.cpp:105
+msgid "Export journals"
+msgstr "जर्नल निर्यात गर्नुहोस्"
+
+#. i18n: file: htmlexportsettings.kcfg:132
+#. i18n: ectx: label, entry, group ($(application)-Journals)
+#: rc.cpp:102
+msgid "Title of the journal list"
+msgstr "जर्नल सूचीको शीर्षक"
+
+#. i18n: file: htmlexportsettings.kcfg:143
+#. i18n: ectx: label, entry (FreeBusyTitle), group ($(application)-FreeBusy)
+#: rc.cpp:108
+msgid "Title of the free/busy list"
+msgstr "निशुल्क/व्यस्त सूचीको शीर्षक"
+
+#: rc.cpp:109
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:110
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com,,,"
+
+#: resourcecached.cpp:860
+#, kde-format
+msgid "Last loaded: %1"
+msgstr "अन्त्यमा लोड गरियो: %1"
+
+#: resourcecached.cpp:865
+#, kde-format
+msgid "Last saved: %1"
+msgstr "अन्त्यमा बचत गरियो: %1"
+
+#: resourcecachedconfig.cpp:69
+msgctxt "@title:group"
+msgid "Automatic Reload"
+msgstr ""
+
+#: resourcecachedconfig.cpp:73
+msgctxt "@option:radio never reload the cache"
+msgid "Never"
+msgstr ""
+
+#: resourcecachedconfig.cpp:76
+msgctxt "@option:radio reload the cache on startup"
+msgid "On startup"
+msgstr ""
+
+#: resourcecachedconfig.cpp:80
+msgctxt "@option:radio reload the cache at regular intervals"
+msgid "Regular interval"
+msgstr ""
+
+#: resourcecachedconfig.cpp:90 resourcecachedconfig.cpp:158
+msgctxt "@label:spinbox"
+msgid "Interval in minutes:"
+msgstr ""
+
+#: resourcecachedconfig.cpp:135
+msgctxt "@title:group"
+msgid "Automatic Save"
+msgstr ""
+
+#: resourcecachedconfig.cpp:140
+msgctxt "@option:radio never save the cache automatically"
+msgid "Never"
+msgstr ""
+
+#: resourcecachedconfig.cpp:143
+msgctxt "@option:radio save the cache on exit"
+msgid "On exit"
+msgstr ""
+
+#: resourcecachedconfig.cpp:147
+msgctxt "@option:radio save the cache at regular intervals"
+msgid "Regular interval"
+msgstr ""
+
+#: resourcecachedconfig.cpp:166
+msgctxt "@option:radio save the cache after some delay"
+msgid "Delayed after changes"
+msgstr ""
+
+#: resourcecachedconfig.cpp:170
+msgctxt "@option:radio save the cache after every modification"
+msgid "On every change"
+msgstr ""
+
+#: resourcecalendar.cpp:89
+#, kde-format
+msgid "Type: %1"
+msgstr "प्रकार: %1"
+
+#: resourcecalendar.cpp:196
+#, kde-format
+msgid "Error while loading %1.\n"
+msgstr "%1 लोड गर्दा त्रुटि ।\n"
+
+#: resourcecalendar.cpp:264
+#, kde-format
+msgid "Error while saving %1.\n"
+msgstr "%1 बचत गर्दा त्रुटि ।\n"
+
+#: resourcelocalconfig.cpp:69
+msgid "*.ics *.vcs|Calendar Files"
+msgstr ""
+
+#: resourcelocalconfig.cpp:73
+msgid "Calendar Format"
+msgstr "क्यालेन्डर ढाँचा"
+
+#: resourcelocalconfig.cpp:75
+msgid "iCalendar"
+msgstr "आइक्यालेन्डर"
+
+#: resourcelocalconfig.cpp:76
+msgid "vCalendar"
+msgstr "भीक्यालेन्डर"
+
+#: resourcelocalconfig.cpp:126
+#, kde-format
+msgid ""
+"You did not specify a URL for this resource. Therefore, the resource will be "
+"saved in %1. It is still possible to change this location by editing the "
+"resource properties."
+msgstr ""
+"तपाईँले यो संसाधानका लागि यूआरएल निर्दिष्ट गर्नुभएन । त्यसैले, संसाधान %1 मा "
+"बचत गरिनेछ । संसाधान गुण सम्पादन गरेर यो स्थान परिवर्तन गर्न अझै सम्भव छ ।"
+
+#: scheduler.cpp:86
+msgctxt "@item new message posting"
+msgid "New Message Publish"
+msgstr ""
+
+#: scheduler.cpp:88
+msgctxt "@item updated message"
+msgid "Updated Message Published"
+msgstr ""
+
+#: scheduler.cpp:90
+msgctxt "@item obsolete status"
+msgid "Obsolete"
+msgstr ""
+
+#: scheduler.cpp:92
+msgctxt "@item request new message posting"
+msgid "Request New Message"
+msgstr ""
+
+#: scheduler.cpp:94
+msgctxt "@item request updated posting"
+msgid "Request Updated Message"
+msgstr ""
+
+#: scheduler.cpp:96
+#, kde-format
+msgctxt "@item unknown status"
+msgid "Unknown Status: %1"
+msgstr ""
+
+#: scheduler.cpp:205
+msgctxt "@item event, to-do, journal or freebusy posting"
+msgid "Publish"
+msgstr ""
+
+#: scheduler.cpp:207
+msgctxt "@item event, to-do or freebusy scheduling requests"
+msgid "Request"
+msgstr ""
+
+#: scheduler.cpp:209
+msgctxt "@item event, to-do or freebusy reply to request"
+msgid "Reply"
+msgstr ""
+
+#: scheduler.cpp:212
+msgctxt "@item event, to-do or journal additional property request"
+msgid "Add"
+msgstr ""
+
+#: scheduler.cpp:214
+msgctxt "@item event, to-do or journal cancellation notice"
+msgid "Cancel"
+msgstr ""
+
+#: scheduler.cpp:216
+msgctxt "@item event or to-do description update request"
+msgid "Refresh"
+msgstr ""
+
+#: scheduler.cpp:218
+msgctxt "@item event or to-do submit counter proposal"
+msgid "Counter"
+msgstr ""
+
+#: scheduler.cpp:220
+msgctxt "@item event or to-do decline a counter proposal"
+msgid "Decline Counter"
+msgstr ""
+
+#: scheduler.cpp:222
+msgctxt "@item no method"
+msgid "Unknown"
+msgstr ""
+
+#: scheduler.cpp:370
+msgctxt "@info"
+msgid ""
+"The event, to-do or journal to be updated could not be found. Maybe it has "
+"already been deleted, or the calendar that contains it is disabled. Press "
+"'Store' to create a new one or 'Throw away' to discard this update."
+msgstr ""
+
+#: scheduler.cpp:374
+msgctxt "@title"
+msgid "Discard this update?"
+msgstr ""
+
+#: scheduler.cpp:375
+msgctxt "@option"
+msgid "Store"
+msgstr ""
+
+#: scheduler.cpp:376
+msgctxt "@option"
+msgid "Throw away"
+msgstr ""
+
+#: scheduler.cpp:469
+msgctxt "@info"
+msgid ""
+"The event or task could not be removed from your calendar. Maybe it has "
+"already been deleted or is not owned by you. Or it might belong to a read-"
+"only or disabled calendar."
+msgstr ""
+
+#: scheduler.cpp:506
+msgctxt "@info"
+msgid ""
+"The event or task to be canceled could not be removed from your calendar. "
+"Maybe it has already been deleted or is not owned by you. Or it might belong "
+"to a read-only or disabled calendar."
+msgstr ""
+
+#: scheduler.cpp:586
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 but was not invited."
+msgstr ""
+
+#: scheduler.cpp:590
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 on behalf of %3."
+msgstr ""
+
+#: scheduler.cpp:595
+msgctxt "@title"
+msgid "Uninvited attendee"
+msgstr ""
+
+#: scheduler.cpp:596
+msgctxt "@option"
+msgid "Accept Attendance"
+msgstr ""
+
+#: scheduler.cpp:597
+msgctxt "@option"
+msgid "Reject Attendance"
+msgstr ""
+
+#: scheduler.cpp:602
+msgctxt "@info"
+msgid "The organizer rejected your attendance at this meeting."
+msgstr ""

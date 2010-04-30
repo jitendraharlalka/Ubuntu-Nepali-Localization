@@ -1,0 +1,1325 @@
+# translation of kdat.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdat\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 15:28+0000\n"
+"PO-Revision-Date: 2008-10-07 13:23+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 06:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ArchiveInfoWidget.cpp:44 BackupProfileWidget.cpp:45
+msgid "Archive name:"
+msgstr "सङ्ग्रह नाम:"
+
+#: ArchiveInfoWidget.cpp:45 FileInfoWidget.cpp:45 TapeInfoWidget.cpp:49
+msgid "Created on:"
+msgstr "सिर्जित मिति:"
+
+#: ArchiveInfoWidget.cpp:46 FileInfoWidget.cpp:48 TapeFileInfoWidget.cpp:40
+msgid "Size:"
+msgstr "साइज:"
+
+#: BackupDlg.cpp:85 BackupDlg.cpp:86
+msgid "KDat: Backup"
+msgstr "केडीई ड्याट: जगेडा"
+
+#: BackupDlg.cpp:101 IndexDlg.cpp:78 VerifyDlg.cpp:97
+msgid "Elapsed time:"
+msgstr "व्यतित समय:"
+
+#: BackupDlg.cpp:104 BackupDlg.cpp:110 IndexDlg.cpp:81 VerifyDlg.cpp:100
+#: VerifyDlg.cpp:106
+msgid "00:00:00"
+msgstr "००:००:००"
+
+#: BackupDlg.cpp:107 VerifyDlg.cpp:103
+msgid "Time remaining:"
+msgstr "बाँकी समय:"
+
+#: BackupDlg.cpp:113 VerifyDlg.cpp:109
+msgid "Total KiB:"
+msgstr ""
+
+#: BackupDlg.cpp:119
+msgid "KiB written:"
+msgstr ""
+
+#: BackupDlg.cpp:122 IndexDlg.cpp:93 VerifyDlg.cpp:118
+msgid "0KiB"
+msgstr ""
+
+#: BackupDlg.cpp:125 IndexDlg.cpp:102 VerifyDlg.cpp:121
+msgid "Transfer rate:"
+msgstr "स्थानान्तरण दर:"
+
+#: BackupDlg.cpp:128 IndexDlg.cpp:105 VerifyDlg.cpp:124
+msgid "0KiB/min"
+msgstr ""
+
+#: BackupDlg.cpp:131 IndexDlg.cpp:96 VerifyDlg.cpp:129
+msgid "Files:"
+msgstr "फाइल:"
+
+#: BackupDlg.cpp:134 IndexDlg.cpp:87 IndexDlg.cpp:99 IndexDlg.cpp:111
+msgid "0"
+msgstr "०"
+
+#: BackupDlg.cpp:137
+msgid "Backup log:"
+msgstr "जगेडा लग:"
+
+#: BackupDlg.cpp:144 IndexDlg.cpp:121
+msgid "Save Log..."
+msgstr "लग बचत गर्नुहोस्..."
+
+#: BackupDlg.cpp:285
+msgid "No files to back up. Aborting."
+msgstr "जगेडामा फाइल छैन । परित्याग गर्दैछ ।"
+
+#: BackupDlg.cpp:348
+msgid "*** Write failed, giving up."
+msgstr "*** लेख्न असफल भयो, छोड्दैछ ।"
+
+#: BackupDlg.cpp:418 BackupDlg.cpp:430 IndexDlg.cpp:351 VerifyDlg.cpp:401
+#: VerifyDlg.cpp:413
+#, kde-format
+msgctxt "Hours:minutes:seconds"
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#: BackupDlg.cpp:439 IndexDlg.cpp:360 VerifyDlg.cpp:422
+#, kde-format
+msgid "%1/min"
+msgstr "%1/मिनेट"
+
+#: BackupOptDlg.cpp:38 BackupOptDlg.cpp:39
+msgid "KDat: Backup Options"
+msgstr "केडीई ड्याट: जगेडा विकल्प"
+
+#: BackupProfileInfoWidget.cpp:45
+msgid "Backup profile name:"
+msgstr "जगेडा प्रोफाइल नाम:"
+
+#: BackupProfileInfoWidget.cpp:56
+msgid "Files >>"
+msgstr "फाइल >>"
+
+#: BackupProfileInfoWidget.cpp:59
+msgid "<< Files"
+msgstr "<< फाइल"
+
+#: BackupProfileWidget.cpp:43 KDatMainWindow.cpp:163 KDatMainWindow.cpp:491
+msgid "Backup"
+msgstr "जगेडा"
+
+#: BackupProfileWidget.cpp:51
+msgid "Working folder:"
+msgstr "कार्य फोल्डर:"
+
+#: BackupProfileWidget.cpp:57
+msgid "Backup files:"
+msgstr "जगेडा फाइल:"
+
+#: BackupProfileWidget.cpp:63
+msgid "Tar Options"
+msgstr "टार विकल्प"
+
+#: BackupProfileWidget.cpp:65
+msgid "Stay on one filesystem"
+msgstr "एउटा फाइल प्रणालीमा रहनुहोस्"
+
+#: BackupProfileWidget.cpp:68
+msgid "GNU listed incremental"
+msgstr "जीएनयू सूचीकृत बढोत्तरि"
+
+#: BackupProfileWidget.cpp:72
+msgid "Snapshot file:"
+msgstr "स्न्यापसट फाइल:"
+
+#: BackupProfileWidget.cpp:78
+msgid "Remove snapshot file before backup"
+msgstr "जगेडाभन्दा पहिले स्न्यापसट फाइल हटाउनुहोस्"
+
+#: ErrorHandler.cpp:50
+msgid ""
+" caught.\n"
+"Exit the program from File->Quit or do \"kill -9 <pid>\" if you like.\n"
+msgstr ""
+" समातियो । ।\n"
+"फाइल->अन्त्य गर्नुहोसबाट कार्यक्रमलाई निकाल्नुहोस् वा तपाईँलाई इच्छा लागेमा "
+"\"kill -9 <pid>\" गर्नुहोस् ।\n"
+
+#: ErrorHandler.cpp:54
+msgid ""
+"You can dump core by selecting the \"Abort\" button.\n"
+"Please notify the maintainer (see Help->About KDat)."
+msgstr ""
+"तपाईँले \"परित्याग गर्नुहोस्\" बटन चयन गरेर कोर डम्प गर्न सक्नुहुन्छ ।\n"
+"कृपया मर्मतकर्तालाई सूचीत गर्नुहोस् (मद्दत हेर्नुहोस्->केडीई ड्याट बारेमा) ।"
+
+#: ErrorHandler.cpp:61
+msgid "An Error Signal was Received"
+msgstr "त्रुटि सङ्केत प्राप्त भयो"
+
+#: ErrorHandler.cpp:68
+msgid "SIGHUP signal (\"Hangup (POSIX)\")"
+msgstr "SIGHUP सङ्केत (\"ह्यान्ङ्गअप (POSIX)\")"
+
+#: ErrorHandler.cpp:76
+msgid "SIGINT signal (\"Interrupt (ANSI)\")"
+msgstr "SIGINT सङ्केत (\"रोकावट (ANSI)\")"
+
+#: ErrorHandler.cpp:84
+msgid "SIGFPE signal (\"Floating-point exception (ANSI)\")"
+msgstr "SIGFPE सङ्केत (\"फ्लोटिङ बिन्दु अपवाद (ANSI)\")"
+
+#: ErrorHandler.cpp:92
+msgid "SIGSEGV signal (\"Segmentation violation (ANSI)\")"
+msgstr "SIGSEGV सङ्केत (\"खण्डिकरण खण्डन (ANSI)\")"
+
+#: ErrorHandler.cpp:101
+msgid "SIGTERM signal (\"Termination (ANSI)\")"
+msgstr "SIGTERM सङ्केत (\"समाप्ति (ANSI)\")"
+
+#: FileInfoWidget.cpp:44 TapeFileInfoWidget.cpp:38
+msgid "File name:"
+msgstr "फाइल नाम:"
+
+#: FileInfoWidget.cpp:46 TapeFileInfoWidget.cpp:39 TapeInfoWidget.cpp:50
+msgid "Last modified:"
+msgstr "पछिल्लो परिमार्जन:"
+
+#: FileInfoWidget.cpp:47
+msgid "Last accessed:"
+msgstr "पछिल्लो पहुँच:"
+
+#: FileInfoWidget.cpp:49
+msgid "Owner:"
+msgstr "मालिक:"
+
+#: FileInfoWidget.cpp:50
+msgid "Group:"
+msgstr "समूह:"
+
+#: FormatOptDlg.cpp:42 FormatOptDlg.cpp:43
+msgid "KDat: Format Options"
+msgstr "केडीई ड्याट: ढाँचा विकल्प"
+
+#: FormatOptDlg.cpp:45 TapeInfoWidget.cpp:46
+msgid "Tape name:"
+msgstr "टेप नाम:"
+
+#: FormatOptDlg.cpp:46 TapeInfoWidget.cpp:47
+msgid "Tape size:"
+msgstr "टेप साइज:"
+
+#: IndexDlg.cpp:65 IndexDlg.cpp:66
+msgid "KDat: Index"
+msgstr "केडीई ड्याट: अनुक्रमणिका"
+
+#: IndexDlg.cpp:84
+msgid "Archives:"
+msgstr "सङ्ग्रह:"
+
+#: IndexDlg.cpp:90 VerifyDlg.cpp:115
+msgid "KiB read:"
+msgstr ""
+
+#: IndexDlg.cpp:108
+msgid "Total files:"
+msgstr "कूल फाइल:"
+
+#: IndexDlg.cpp:114
+msgid "Index log:"
+msgstr "अनुक्रमणिका लग:"
+
+#: IndexDlg.cpp:126
+msgid "Abort"
+msgstr "परित्याग गर्नुहोस्"
+
+#: IndexDlg.cpp:239
+msgid "Rewinding tape."
+msgstr "टेप रिवाइन्ड गर्दैछ ।"
+
+#: IndexDlg.cpp:241
+msgid "Cannot rewind tape. Indexing aborted."
+msgstr "टेप रिवाइन्ड गर्न सकिँदैन । अनुक्रमण परित्याग गरियो ।"
+
+#: IndexDlg.cpp:245
+msgid "Cannot rewind tape."
+msgstr "टेप रिवाइन्ड गर्न सकिँदैन ।"
+
+#: IndexDlg.cpp:251
+msgid "Failed to skip tape ID. Indexing aborted."
+msgstr "टेप आईडी फड्काउन असफल भयो । अनुक्रमण परित्याग गरियो ।"
+
+#: IndexDlg.cpp:255
+msgid "Failed to skip tape ID."
+msgstr "टेप आईडी फड्काउन असफल भयो ।"
+
+#: IndexDlg.cpp:284
+#, kde-format
+msgid "Indexing archive %1."
+msgstr "अनुक्रमण सङ्ग्रह %1"
+
+#: IndexDlg.cpp:287
+#, kde-format
+msgid "Archive %1"
+msgstr "सङ्ग्रह %1"
+
+#: IndexDlg.cpp:336
+msgid "Reindexed Tape"
+msgstr "पुन: अनुक्रमण गरिएको टेप"
+
+#: KDatMainWindow.cpp:95 KDatMainWindow.cpp:96 KDatMainWindow.cpp:1238
+msgid "KDat: <no tape>"
+msgstr "केडीई ड्याट: <no tape>"
+
+#: KDatMainWindow.cpp:100 KDatMainWindow.cpp:136 KDatMainWindow.cpp:250
+#: KDatMainWindow.cpp:1292
+msgid "Mount Tape"
+msgstr "टेप माउन्ट गर्नुहोस्"
+
+#: KDatMainWindow.cpp:101 KDatMainWindow.cpp:137
+msgid "Recreate Tape Index"
+msgstr "टेप अनुक्रमणिका पुन: सिर्जना गर्नुहोस्"
+
+#: KDatMainWindow.cpp:103 KDatMainWindow.cpp:143
+msgid "Format Tape..."
+msgstr "टेप ढाँचाबद्ध गर्नुहोस्..."
+
+#: KDatMainWindow.cpp:106 KDatMainWindow.cpp:112 KDatMainWindow.cpp:140
+#: KDatMainWindow.cpp:780 KDatMainWindow.cpp:794
+msgid "Delete Archive"
+msgstr "सङ्ग्रह मेट्नुहोस्"
+
+#: KDatMainWindow.cpp:109 KDatMainWindow.cpp:115 KDatMainWindow.cpp:135
+msgid "Verify..."
+msgstr "रूजु गर्नुहोस्..."
+
+#: KDatMainWindow.cpp:110 KDatMainWindow.cpp:116 KDatMainWindow.cpp:134
+msgid "Restore..."
+msgstr "पुर्वावस्थामा ल्याउनुहोस्..."
+
+#: KDatMainWindow.cpp:119 KDatMainWindow.cpp:128 KDatMainWindow.cpp:133
+msgid "Backup..."
+msgstr "जगेडा..."
+
+#: KDatMainWindow.cpp:122 KDatMainWindow.cpp:828
+msgid "Delete Tape Index"
+msgstr "टेप अनुक्रमणिका मेट्नुहोस्"
+
+#: KDatMainWindow.cpp:125 KDatMainWindow.cpp:138
+msgid "Create Backup Profile"
+msgstr "जगेडा प्रोफाइल सिर्जना गर्नुहोस्"
+
+#: KDatMainWindow.cpp:130 KDatMainWindow.cpp:142 KDatMainWindow.cpp:950
+msgid "Delete Backup Profile"
+msgstr "जगेडा प्रोफाइल मेट्नुहोस्"
+
+#: KDatMainWindow.cpp:141
+msgid "Delete Index"
+msgstr "अनुक्रमणिका मेट्नुहोस्"
+
+#: KDatMainWindow.cpp:145
+msgid "&Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: KDatMainWindow.cpp:148
+msgid "Configure KDat..."
+msgstr "केडीई ड्याट कन्फिगर गर्नुहोस्..."
+
+#: KDatMainWindow.cpp:151
+msgid "&File"
+msgstr "फाइल"
+
+#: KDatMainWindow.cpp:152
+msgid "&Settings"
+msgstr "सेटिङ"
+
+#: KDatMainWindow.cpp:154
+#, kde-format
+msgid ""
+"KDat Version %1\n"
+"\n"
+"KDat is a tar-based tape archiver.\n"
+"\n"
+"Copyright (c) 1998-2000 Sean Vyain\n"
+"Copyright (c) 2001-2002 Lawrence Widman\n"
+"kdat@cardiothink.com"
+msgstr ""
+"केडीई ड्याट संस्करण %1\n"
+"\n"
+"केडीई ड्याट, टारमा आधारित टेप सङ्ग्रह हो ।\n"
+"\n"
+"प्रतिलिपिअधिकार (c) १९९८-२००० सेन भियन\n"
+"प्रतिलिपिअधिकार (c) २००१-२००२ लरेन्स विडम्यान\n"
+"kdat@cardiothink.com"
+
+#: KDatMainWindow.cpp:155
+msgid "&Help"
+msgstr "मद्दत"
+
+#: KDatMainWindow.cpp:159
+msgid "Mount/unmount tape"
+msgstr "टेप माउन्ट/अनमाउन्ट गर्नुहोस्"
+
+#: KDatMainWindow.cpp:165
+msgid "Restore"
+msgstr "पूर्वावस्थामा ल्याउनुहोस्"
+
+#: KDatMainWindow.cpp:167
+msgid "Verify"
+msgstr "रूजु गर्नुहोस्"
+
+#: KDatMainWindow.cpp:172
+msgid "Ready."
+msgstr "तयार गर्नुहोस् ।"
+
+#: KDatMainWindow.cpp:247 KDatMainWindow.cpp:1289
+msgid "Unmount Tape"
+msgstr "टेप अनमाउन्ट गर्नुहोस्"
+
+#. i18n changes.  But, the program isn't very usable without this information.  Thanks. LEW
+#. (later today):  now the program works correctly!  Why?  Beats me!
+#: KDatMainWindow.cpp:418
+#, kde-format
+msgid ""
+"KDat will dump your files properly to tape, but may not be able\n"
+"to restore them. To restore your files by hand, you need to know\n"
+"the name of the *non-rewinding* version of your tape device %1.\n"
+msgstr ""
+"केडीई ड्याटले टेपमा तपाईँका फाइल सहि तरिकाले डम्प गर्छ, तर तिनलाई पुन: "
+"भण्डारण गर्न\n"
+"सक्षम हुने छैन । फाइल म्यानुअली भण्डारण गर्न, तपाईँले टेप यन्त्र %1 को\n"
+"*रिवाइन्ड गर्न नसकिने* संस्करणको नाम जान्न आवश्यक हुन्छ ।\n"
+
+#: KDatMainWindow.cpp:422
+#, kde-format
+msgid ""
+"For example, if your device is /dev/st0, the non-rewinding version\n"
+"is /dev/nst0. If your device name does not look like that, type\n"
+"\"ls -l %1\" in a terminal window to see the real name of your\n"
+"tape drive. Substitute that name for /dev/nst0 below.\n"
+"Open a terminal window and type the following:\n"
+"  tar tfv /dev/nst0; tar tfv /dev/nst0\n"
+"  tar xfv /dev/nst0\n"
+"The third call to \"tar\" will retrieve your data into your\n"
+"current directory. Please let us know if this happens to you.\n"
+" - KDat Maintenance Team\n"
+msgstr ""
+
+#: KDatMainWindow.cpp:448
+#, kde-format
+msgid "Archive created on %1"
+msgstr "%1 मा सिर्जना गरिएको सङ्ग्रह"
+
+#: KDatMainWindow.cpp:466
+msgid "Performing backup..."
+msgstr "जगेडा सम्पादन गर्दैछ..."
+
+#: KDatMainWindow.cpp:471 KDatMainWindow.cpp:493
+msgid "Backup canceled."
+msgstr "जगेडा रद्द गरियो ।"
+
+#: KDatMainWindow.cpp:485
+#, kde-format
+msgid ""
+"WARNING: The estimated archive size is %1 KiB but the tape has only %2 KiB "
+"of space.\n"
+"Back up anyway?"
+msgstr ""
+
+#: KDatMainWindow.cpp:500 TapeDrive.cpp:524 TapeDrive.cpp:545
+msgid "Rewinding tape..."
+msgstr "टेप रिवाइन्डिङ गर्दैछ..."
+
+#: KDatMainWindow.cpp:503
+msgid ""
+"Cannot rewind tape.\n"
+"Backup aborted."
+msgstr ""
+"टेप रिवाइन्ड गर्न सकिँदैन ।\n"
+"जगेडा परित्याग गरियो ।"
+
+#: KDatMainWindow.cpp:504 KDatMainWindow.cpp:515
+msgid "Backup Error"
+msgstr "जगेडा त्रुटि"
+
+#: KDatMainWindow.cpp:505 KDatMainWindow.cpp:516 KDatMainWindow.cpp:536
+msgid "Backup aborted."
+msgstr "जगेडा परित्याग गरियो ।"
+
+#: KDatMainWindow.cpp:511
+msgid "Skipping to end of tape..."
+msgstr "टेपको अन्त्यमा फड्काउदैछ..."
+
+#: KDatMainWindow.cpp:514
+msgid ""
+"Cannot get to end of tape.\n"
+"Backup aborted."
+msgstr ""
+"टेपको अन्त्य फेला पार्न सकिँदैन\n"
+"जगेडा परित्याग गरियो ।"
+
+#: KDatMainWindow.cpp:520
+msgid "Backup in progress..."
+msgstr "जगेडा प्रगतिमा छ..."
+
+#: KDatMainWindow.cpp:534
+msgid "Backup complete."
+msgstr "जगेडा समाप्त ।"
+
+#: KDatMainWindow.cpp:666
+msgid "Restore in progress..."
+msgstr "पुर्वावस्थामा ल्याउने प्रगतिमा..."
+
+#: KDatMainWindow.cpp:668
+msgid "Verify in progress..."
+msgstr "रूजु प्रगतिमा..."
+
+#: KDatMainWindow.cpp:675
+msgid "Restore complete."
+msgstr "पुर्वावस्थामा ल्याउन समाप्त ।"
+
+#: KDatMainWindow.cpp:677
+msgid "Verify complete."
+msgstr "रुजु समाप्त ।"
+
+#: KDatMainWindow.cpp:681
+msgid "Restore aborted."
+msgstr "पुर्वावस्थामा ल्याउन परित्याग गरियो ।"
+
+#: KDatMainWindow.cpp:683
+msgid "Verify aborted."
+msgstr "रूजु परित्याग गरियो ।"
+
+#: KDatMainWindow.cpp:694 KDatMainWindow.cpp:844
+#, kde-format
+msgid ""
+"There appears to be no tape in the drive %1. Please\n"
+"check \"Edit->Preferences\" to make sure the\n"
+"correct device is selected as the tape drive (e.g.\n"
+"/dev/st0). If you hear the tape drive moving, wait\n"
+"until it stops and then try mounting it again."
+msgstr ""
+"%1 ड्राइभमा टेप नभएको जस्तो देखिन्छ । कृपया\n"
+"ठीक यन्त्रको रूपमा टेप ड्राइभ चयन गरिएको निश्चिन्त हुन\n"
+"\"सम्पादन->प्राथमिकता\" जाँच गर्नुहोस्\n"
+"(जस्तै:\n"
+"/dev/st0) । यदि तपाईँले टेप ड्राइभ चलेको सुन्नुभएको छ भने, यो बन्द नभएसम्म "
+"प्रतिक्षा गर्नुहोस्\n"
+"र त्यसपछि यसलाई पुन: माउन्ट गर्ने प्रयास गर्नुहोस् ।"
+
+#: KDatMainWindow.cpp:722
+msgid "The current tape index will be overwritten, continue?"
+msgstr "हालको टेप अनुक्रमणिका अधिलेखन हुनेछ, जारी राख्न चाहनुहुन्छ?"
+
+#: KDatMainWindow.cpp:723
+msgid "Index Tape"
+msgstr "अनुक्रमणिका टेप"
+
+#: KDatMainWindow.cpp:723
+msgid "Overwrite"
+msgstr "अधिलेखन"
+
+#: KDatMainWindow.cpp:729 KDatMainWindow.cpp:1234
+#, kde-format
+msgid "KDat: %1"
+msgstr "केडीई ड्याट: %1"
+
+#: KDatMainWindow.cpp:733
+msgid "Index complete."
+msgstr "अनुक्रमणिका समाप्त ।"
+
+#: KDatMainWindow.cpp:735
+msgid "Index aborted."
+msgstr "अनुक्रमणिका परित्याग गरियो ।"
+
+#: KDatMainWindow.cpp:744
+msgid ""
+"No archive is selected.\n"
+"In order to delete an archive, the archive to be deleted must be selected in "
+"the tree first."
+msgstr ""
+"सङ्ग्रह चयन गरिएको छैन ।\n"
+"सङ्ग्रह मेट्नका लागि, मेटिने सङ्ग्रह ट्रीमा पहिला चयन गरिएको हुनुपर्छ ।"
+
+#: KDatMainWindow.cpp:778
+#, kde-format
+msgid ""
+"An archive cannot be removed from the middle of the tape. If\n"
+"the archive '%1' is deleted then\n"
+"the following archives will also be deleted:\n"
+"%2\n"
+"\n"
+"Delete all listed archives?"
+msgstr ""
+"टेपको बीचबाट एउटा सङ्ग्रह हटाउन सकिँदैन । यदि\n"
+"सङ्ग्रह '%1' मेटिएको भएमा त्यसपछि\n"
+"निम्न सङ्ग्रह पनि मेटिनेछ:\n"
+"%2\n"
+"\n"
+"सबै सूचीकृत सङ्ग्रह मेट्नुहुन्छ?"
+
+#: KDatMainWindow.cpp:780
+msgid "Delete All"
+msgstr "सबै मेेट्नुहोस्"
+
+#: KDatMainWindow.cpp:783
+msgid "Archives deleted."
+msgstr "सङ्ग्रह मेटियो ।"
+
+#: KDatMainWindow.cpp:792
+#, kde-format
+msgid "Really delete the archive '%1'?"
+msgstr "साँच्चिक्कै '%1' सङ्ग्रह मेट्नुहुन्छ ?"
+
+#: KDatMainWindow.cpp:794 KDatMainWindow.cpp:828 KDatMainWindow.cpp:950
+msgid "Delete"
+msgstr "मेट्नुहोस्"
+
+#: KDatMainWindow.cpp:797
+msgid "Archive deleted."
+msgstr "सङ्ग्रह मेटियो ।"
+
+#: KDatMainWindow.cpp:810
+msgid ""
+"No tape index is selected.\n"
+"In order to delete a tape index, the tape index to be deleted must be "
+"selected in the tree first."
+msgstr ""
+"टेप अनुक्रमणिका चयन गरिएको छैन ।\n"
+"टेप अनुक्रमणिका मेट्नका लागि, मेट्नु पर्ने टेप अनुक्रमणिका पहिलो ट्रीमा चयन "
+"गरिएको हुनुपर्छ ।"
+
+#: KDatMainWindow.cpp:819
+msgid ""
+"Tape is still mounted. The index for a mounted tape cannot be deleted.\n"
+"Unmount the tape and try again."
+msgstr ""
+"टेप अहिले पनि माउन्ट छ । माउन्ट गरिएको टेपका लागि अनुक्रमणिका मेट्न सकिँदैन "
+"।\n"
+"टेप अनमाउन्ट गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: KDatMainWindow.cpp:826
+#, kde-format
+msgid "Really delete the index for '%1'?"
+msgstr "वास्तवमै '%1' का लागि अनुक्रमणिका मेट्नुहुन्छ ?"
+
+#: KDatMainWindow.cpp:831
+msgid "Tape index deleted."
+msgstr "टेप अनुक्रमणिका मेटियो ।"
+
+#: KDatMainWindow.cpp:857
+msgid ""
+"The tape in the drive is write protected.\n"
+"Please disable write protection and try again."
+msgstr ""
+"ड्राइभको टेपमा लेख्न सुरक्षीत छ\n"
+"कृपया लेखन सुरक्षा अक्षम पार्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: KDatMainWindow.cpp:862
+msgid ""
+"All data currently on the tape will be lost.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"हाल टेपमा भएका सबै डेटा हराउने छन् ।\n"
+"तपाईँ जारी राख्न निश्चिन्त हुनुहुन्छ ?"
+
+#: KDatMainWindow.cpp:864
+msgid "Format Tape"
+msgstr "टेप ढाँचाबद्ध गर्नुहोस्"
+
+#: KDatMainWindow.cpp:864 KDatMainWindow.cpp:1005
+msgid "Format"
+msgstr "ढाँचा"
+
+#: KDatMainWindow.cpp:867
+#, kde-format
+msgid "Tape created on %1"
+msgstr "%1 मा सिर्जना गरिएको टेप"
+
+#: KDatMainWindow.cpp:883
+msgid "Formatting tape..."
+msgstr "टेप ढाँचाबद्ध गर्दैछ..."
+
+#: KDatMainWindow.cpp:886
+msgid "Format complete."
+msgstr "ढाँचा समाप्त भयो ।"
+
+#: KDatMainWindow.cpp:900
+#, kde-format
+msgid "Backup Profile %1"
+msgstr "जगेडा प्रोफाइल %1"
+
+#: KDatMainWindow.cpp:918
+msgid "Archive"
+msgstr "सङ्ग्रह"
+
+#: KDatMainWindow.cpp:939
+msgid ""
+"In order to delete a backup profile, the backup profile to be deleted must "
+"be selected in the tree first."
+msgstr ""
+"जगेडा प्रोफाइल मेट्नका लागि, मेट्नु पर्ने जगेडा प्रोफाइल पहिला ट्रीमा चयन "
+"गरिएको हुनुपर्छ ।"
+
+#: KDatMainWindow.cpp:948
+#, kde-format
+msgid "Really delete backup profile '%1'?"
+msgstr "वास्तवमै जगेडा प्रोफाइल '%1' मेट्नुहुन्छ ?"
+
+#: KDatMainWindow.cpp:953
+msgid "Backup profile deleted."
+msgstr "जगेडा प्रोफाइल मेटियो ।"
+
+#: KDatMainWindow.cpp:991
+msgid "Tape unmounted."
+msgstr "टेप अनमाउन्ट गरियो ।"
+
+#: KDatMainWindow.cpp:995
+msgid "Reading tape header..."
+msgstr "टेप हेडर पढ्दैछ..."
+
+#: KDatMainWindow.cpp:1002
+msgid "This tape has not been formatted by KDat."
+msgstr "यो टेप केडीई ड्याटद्वारा ढाँचाबद्ध गरिएको छैन ।"
+
+#: KDatMainWindow.cpp:1005
+msgid ""
+"This tape has not been formatted by KDat.\n"
+"\n"
+"Would you like to format it now?"
+msgstr ""
+"यो टेप केडीई ड्याटद्वारा ढाँचाबद्ध गरिएको छैन ।\n"
+"\n"
+"तपाईँ यसलाई अहिले ढाँचाबद्ध गर्न चाहनुहुन्छ ?"
+
+#: KDatMainWindow.cpp:1005
+msgid "Do Not Format"
+msgstr "ढाँचाबद्ध नगर्नुहोस्"
+
+#: KDatMainWindow.cpp:1017
+msgid "Tape mounted."
+msgstr "टेप माउन्ट गरियो ।"
+
+#: KDatMainWindow.cpp:1104
+#, kde-format
+msgid "Estimating backup size: %1, %2"
+msgstr "अनुमानित जगेडा साइज: %1, %2"
+
+#: KDatMainWindow.cpp:1239
+msgid "KDat: <no tape >"
+msgstr "केडीई ड्याट: <no tape >"
+
+#: KDatMainWindow.cpp:1329
+msgid ""
+"Click \"CANCEL\" to stop the backup process.\n"
+"For example, you may quickly see that the size of\n"
+"the files you selected will exceed the size of the\n"
+"backup tape, and may then decide to stop and remove\n"
+"some files from your list of files to backup.\n"
+"\n"
+"Click \"Continue\" to remove this message while\n"
+"continuing the backup."
+msgstr ""
+"जगेडा प्रक्रिया रोक्न \"रद्द गर्नुहोस्\" बटनमा क्लिक गर्नुहोस् ।\n"
+"उदाहरणका लागि, तपाईँले चयन गरेका फाइल जगेडा टेपको साइजभन्दा\n"
+"ठूलो हुन्छ वा हुँदैन चाडैँ हेर्न\n"
+"सक्नुहुन्छ र त्यसपछि तपाईँको फाइलको सूचीबाट जगेडामा केही फाइल हटाउने वा "
+"रोक्ने निर्णय गर्न सक्नुहुन्छ ।\n"
+"\n"
+"जगेडा जारी राख्दा यो सन्देश\n"
+"हटाउन \"जारी राख्नुहोस्\" बटनमा क्लिक गर्नुहोस् ।"
+
+#: KDatMainWindow.cpp:1336
+msgid "Stop estimating backup size"
+msgstr "अनुमानित जगेडा साइज रोक्नुहोस्"
+
+#: LoggerWidget.cpp:65
+msgid "Log file exists, overwrite?"
+msgstr "लग फाइल अवस्थित छ, अधिलेखन गर्नुहुन्छ ?"
+
+#: LoggerWidget.cpp:66
+msgid "KDat: Save Log"
+msgstr "केडीई ड्याट: लग बचत गर्नुहोस्"
+
+#: LoggerWidget.cpp:67
+msgid "&Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: Node.cpp:1194 Node.cpp:1264
+msgid "<no tape>"
+msgstr "<no tape>"
+
+#: Node.cpp:1344
+msgid "Tape Indexes"
+msgstr "टेप अनुक्रमणिका"
+
+#: Node.cpp:1479
+msgid "Backup Profiles"
+msgstr "जगेडा प्रोफाइल"
+
+#: OptionsDlg.cpp:37
+msgid "Options"
+msgstr "विकल्प"
+
+#: Tape.cpp:44
+msgid "New Tape"
+msgstr "नयाँ टेप"
+
+#: Tape.cpp:78 TapeDrive.cpp:225
+msgid "Rewinding tape failed."
+msgstr "टेप रिवाइन्ड गर्न असफल भयो ।"
+
+#: Tape.cpp:78 Tape.cpp:84 Tape.cpp:93 Tape.cpp:100 Tape.cpp:107 Tape.cpp:115
+msgid "Format Failed"
+msgstr "ढाँचाबद्ध गर्न असफल भयो"
+
+#: Tape.cpp:84
+msgid "Cannot set tape block size."
+msgstr "टेप खण्ड साइज सेट गर्न सकिँदैन ।"
+
+#: Tape.cpp:93
+msgid "Writing magic string failed."
+msgstr "म्याजिक स्ट्रिङ लेख्न असफल भयो ।"
+
+#: Tape.cpp:100
+msgid "Writing version number failed."
+msgstr "संस्करण नम्बर लेख्न असफल भयो ।"
+
+#: Tape.cpp:107
+msgid "Writing tape ID length failed."
+msgstr "टेप आईडी लम्बाइ लेख्न असफल भयो ।"
+
+#: Tape.cpp:115
+msgid "Writing tape ID failed."
+msgstr "टेप आईडी लेख्न असफल भयो ।"
+
+#: Tape.cpp:160
+msgid ""
+"No index file was found for this tape.\n"
+"Recreate the index from tape?"
+msgstr ""
+"यो टेपका लागि अनुक्रमणिका फाइल फेला परेन ।\n"
+"टेपबाट अनुक्रमणिका पुन: सिर्जना गर्नुहुन्छ ?"
+
+#: Tape.cpp:162 Tape.cpp:226
+msgid "Tape Index"
+msgstr "टेप अनुक्रमणिका"
+
+#: Tape.cpp:163
+msgid "Recreate"
+msgstr "पुन: सिर्जना गर्नुहोस्"
+
+#: Tape.cpp:184 TapeDrive.cpp:245
+msgid "Reading version number failed."
+msgstr "संस्करण नम्बर पढ्न असफल भयो ।"
+
+#: Tape.cpp:185 Tape.cpp:621 Tape.cpp:627 Tape.cpp:633 Tape.cpp:640
+#: Tape.cpp:647 Tape.cpp:655 Tape.cpp:662 Tape.cpp:670 Tape.cpp:678
+#: Tape.cpp:685 Tape.cpp:692 Tape.cpp:705 Tape.cpp:717 Tape.cpp:725
+#: Tape.cpp:732 Tape.cpp:739 Tape.cpp:768 Tape.cpp:774 Tape.cpp:780
+#: Tape.cpp:787 Tape.cpp:794 Tape.cpp:802 Tape.cpp:809 Tape.cpp:830
+#: Tape.cpp:836 Tape.cpp:873 Tape.cpp:879
+msgid "Index File Error"
+msgstr "अनुक्रमणिका फाइल त्रुटि"
+
+#: Tape.cpp:225
+#, kde-format
+msgid ""
+"The tape index file format is version %1. The index cannot be read by this "
+"version of KDat. Perhaps the tape index file was created by a newer version "
+"of KDat?"
+msgstr ""
+"टेप अनुक्रमणिका फाइल ढाँचा संस्करण %1 हो । अनुक्रमणिका केडीई ड्याटको यो "
+"संस्करणबाट पढ्न सकिँदैन । सम्भवत: टेप अनुक्रमणिका केडीई ड्याटको नयाँ "
+"संस्करणबाट सिर्जना गरिएको थियो ?"
+
+#: Tape.cpp:382
+#, kde-format
+msgid "Error during fseek #1 while accessing archive: \"%1\": %2"
+msgstr ""
+
+#: Tape.cpp:384 Tape.cpp:394 Tape.cpp:404 Tape.cpp:414 Tape.cpp:426
+msgid "File Access Error"
+msgstr "फाइल पहुँच त्रुटि"
+
+#: Tape.cpp:392
+#, kde-format
+msgid "Error while accessing string #1 in archive: \"%1\": %2"
+msgstr ""
+
+#: Tape.cpp:402
+#, kde-format
+msgid "Error while accessing string #2 in archive: \"%1\": %2"
+msgstr ""
+
+#: Tape.cpp:412
+#, kde-format
+msgid "Error during fseek #2 while accessing archive: \"%1\": %2"
+msgstr ""
+
+#: Tape.cpp:423
+msgid "Error while updating archive name: "
+msgstr "सङ्ग्रह नाम अद्यावधिक गर्दा त्रुटि: "
+
+#: Tape.cpp:621 Tape.cpp:768 Tape.cpp:830 Tape.cpp:873 TapeDrive.cpp:262
+msgid "Reading tape ID failed."
+msgstr "टेप आईडी पढ्न असफल भयो ।"
+
+#: Tape.cpp:627 Tape.cpp:774 Tape.cpp:836 Tape.cpp:879
+msgid "Tape ID on tape does not match tape ID in index file."
+msgstr "अनुक्रमणिका फाइलमा भएको टेप आईडी, टेपको टेप आईडीसँग मिल्दैन ।"
+
+#: Tape.cpp:633 Tape.cpp:780
+msgid "Reading creation time failed."
+msgstr "सिर्जना समय पढ्न असफल भयो ।"
+
+#: Tape.cpp:640 Tape.cpp:787
+msgid "Reading modification time failed."
+msgstr "परिमार्जन समय पढ्न असफल भयो ।"
+
+#: Tape.cpp:647 Tape.cpp:794
+msgid "Reading tape name failed."
+msgstr "टेपनाम पढ्न असफल भयो ।"
+
+#: Tape.cpp:655 Tape.cpp:802
+msgid "Reading tape size failed."
+msgstr "टेप साइज पढ्न असफल भयो ।"
+
+#: Tape.cpp:662 Tape.cpp:809
+msgid "Reading archive count failed."
+msgstr "सङ्ग्रह गणना गर्न असफल भयो ।"
+
+#: Tape.cpp:670
+msgid "Reading archive name failed."
+msgstr "सङ्ग्रहनाम पढ्न असफल भयो ।"
+
+#: Tape.cpp:678
+msgid "Reading archive time stamp failed."
+msgstr "सङ्ग्रह टाइम स्ट्याम्प पढ्न असफल भयो ।"
+
+#: Tape.cpp:685
+msgid "Reading archive start block failed."
+msgstr "सङ्ग्रहको सुरु खण्ड पढ्न असफल भयो ।"
+
+#: Tape.cpp:692
+msgid "Reading archive end block failed."
+msgstr "सङ्ग्रहको अन्तिम खण्ड पढ्न असफल भयो ।"
+
+#: Tape.cpp:705
+msgid "Reading archive file count failed."
+msgstr "सङ्ग्रह फाइल गणना पढ्न असफल भयो ।"
+
+#: Tape.cpp:717
+msgid "Reading file name failed."
+msgstr "फाइलनाम पढन् असफल भयो ।"
+
+#: Tape.cpp:725
+msgid "Reading file size failed."
+msgstr "फाइल साइज पढ्न असफल भयो ।"
+
+#: Tape.cpp:732
+msgid "Reading file modification time failed."
+msgstr "फाइल परिमार्जन समय पढ्न असफल भयो ।"
+
+#: Tape.cpp:739
+msgid "Reading file record number failed."
+msgstr "फाइल रेकर्ड नम्बर पढ्न असफल भयो ।"
+
+#: TapeDrive.cpp:191
+msgid "Tape mounted readonly."
+msgstr "टेपलाई पढ्न सकिने गरी माउन्ट गरियो ।"
+
+#: TapeDrive.cpp:193
+msgid "Tape mounted read/write."
+msgstr "टेपलाई पढ्न/लेख्न सकिने गरी माउन्ट गरियो ।"
+
+#: TapeDrive.cpp:230
+msgid "Reading magic string..."
+msgstr "म्याजिक स्ट्रिङ पढ्दैछ..."
+
+#: TapeDrive.cpp:233
+msgid "Reading magic string failed."
+msgstr "म्याजिक स्ट्रिङ पढ्न असफल भयो ।"
+
+#: TapeDrive.cpp:242
+msgid "Reading version number..."
+msgstr "संस्करण नम्बर पढ्दैछ..."
+
+#: TapeDrive.cpp:250
+msgid ""
+"Tape was formatted by a more recent version of KDat. Consider upgrading."
+msgstr ""
+"टेप केडीई ड्याटको हालैको संस्करणद्वारा ढाँचाबद्ध गरिएको थियो । स्तरबृद्धि "
+"गर्दा ध्यान दिनुहोस् ।"
+
+#: TapeDrive.cpp:254
+msgid "Reading tape ID..."
+msgstr "टेप आईडी पढ्दैछ..."
+
+#: TapeDrive.cpp:257
+msgid "Reading tape ID length failed."
+msgstr "टेप आईडी लम्बाइ पढ्न असफल भयो ।"
+
+#: TapeDrive.cpp:519
+msgid "Skipping to archive..."
+msgstr "सङ्ग्रहमा फड्काउदैछ..."
+
+#: TapeDrive.cpp:541
+msgid "Skipping to block..."
+msgstr "खण्डमा फड्काउदैछ..."
+
+#: TapeFileInfoWidget.cpp:41
+msgid "Start record:"
+msgstr "रेकर्ड सुरु गर्नुहोस:"
+
+#: TapeFileInfoWidget.cpp:42
+msgid "End record:"
+msgstr "रेकर्ड अन्त्य गर्नुहोस्:"
+
+#: TapeInfoWidget.cpp:48
+msgid "Tape ID:"
+msgstr "टेप आईडी:"
+
+#: TapeInfoWidget.cpp:51
+msgid "Archive count:"
+msgstr "सङ्ग्रह गणना:"
+
+#: TapeInfoWidget.cpp:52
+msgid "Space used:"
+msgstr "उपयोग खाली स्थान:"
+
+#: VerifyDlg.cpp:76 VerifyDlg.cpp:77
+msgid "KDat: Restore"
+msgstr "केडीई ड्याट: पूर्वावस्थामा ल्याउनुहोस्"
+
+#: VerifyDlg.cpp:79 VerifyDlg.cpp:80
+msgid "KDat: Verify"
+msgstr "केडीई ड्याट: रूजु गर्नुहोस्"
+
+#: VerifyDlg.cpp:132
+msgid "Differences:"
+msgstr "फरक:"
+
+#: VerifyDlg.cpp:140
+msgid "Restore log:"
+msgstr "लग पूर्वावस्थामा ल्याउनुहोस्:"
+
+#: VerifyDlg.cpp:142
+msgid "Verify log:"
+msgstr "लग रूजु गर्नुहोस्:"
+
+#: VerifyDlg.cpp:150
+msgid "&Save Log..."
+msgstr "लग बचत गर्नुहोस्..."
+
+#: VerifyDlg.cpp:155
+msgid "&Abort"
+msgstr "परित्याग गर्नुहोस्"
+
+#: VerifyDlg.cpp:350
+msgid "failed while reading tape data.\n"
+msgstr "टेप डेटा पढ्न असफल भयो ।\n"
+
+#: VerifyOptDlg.cpp:43 VerifyOptDlg.cpp:44
+msgid "KDat: Restore Options"
+msgstr "केडीई ड्याट: पूर्वावस्थामा ल्याउने विकल्प"
+
+#: VerifyOptDlg.cpp:46 VerifyOptDlg.cpp:47
+msgid "KDat: Verify Options"
+msgstr "केडीई ड्याट: रूजु विकल्प"
+
+#: VerifyOptDlg.cpp:52
+msgid "Restore to folder:"
+msgstr "फोल्डरलाई पूर्वावस्थामा ल्याउनुहोस्:"
+
+#: VerifyOptDlg.cpp:54
+msgid "Verify in folder:"
+msgstr "फोल्डरमा रूजु गर्नुहोस्:"
+
+#. i18n: file: OptionsDlgWidget.ui:136
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: OptionsDlgWidget.ui:166
+#. i18n: ectx: property (text), widget (KPushButton)
+#: VerifyOptDlg.cpp:62 rc.cpp:31 rc.cpp:43
+msgid "..."
+msgstr "..."
+
+#: VerifyOptDlg.cpp:67
+msgid "Restore files:"
+msgstr "फाइल पूर्वावस्थामा ल्याउनुहोस्:"
+
+#: VerifyOptDlg.cpp:69
+msgid "Verify files:"
+msgstr "फाइल रूजु गर्नुहोस्:"
+
+#: main.cpp:40
+msgid "tar-based DAT archiver for KDE"
+msgstr "केडीई सङ्ग्रहका लागि टारमा आधारित DAT"
+
+#: main.cpp:47
+msgid "KDat"
+msgstr "केडीई ड्याट"
+
+#: main.cpp:49
+msgid "(c) 1999-2000, Sean Vyain; 2001-2002 Lawrence Widman"
+msgstr "(c) १९९९०-२०००, सेन भायन, २००१-२००२ लरेन्स विडम्यान"
+
+#: main.cpp:58
+msgid "Cannot allocate memory in kdat"
+msgstr ""
+
+#: main.cpp:75
+msgid "Lawrence Widman"
+msgstr "लरेन्स विडम्यान"
+
+#. i18n: file: OptionsDlgWidget.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: rc.cpp:3
+msgid "Options Widget"
+msgstr "विकल्प विजेट"
+
+#. i18n: file: OptionsDlgWidget.ui:53
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox)
+#: rc.cpp:6
+msgid ""
+"This setting determines the capacity that KDat assumes your backup tapes to "
+"be.  This is used when formatting the tapes."
+msgstr ""
+"यो सेटिङले केडीई ड्याटद्वारा तपाईँको जगेडा टेपमा हुनुपर्ने अनुमान गरेको "
+"क्षमता निर्धारण गर्छ ।  यो टेप ढाँचाबद्ध गर्दा प्रयोग गरिन्छ ।"
+
+#. i18n: file: OptionsDlgWidget.ui:67
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox)
+#: rc.cpp:9
+msgid ""
+"Tape drives read and write data in individual blocks.  This setting controls "
+"the size of each block, and should be set to your tape drive's block size.  "
+"For floppy tape drives this should be set to <b>10240</b> bytes."
+msgstr ""
+"टेप ड्राइभले व्यक्तिगत खण्डमा लगत पढ्ने र लेख्ने गर्छ ।  यो सेटिङले प्रत्येक "
+"खण्डको साइज नियन्त्रण गर्छ र तपाईँको ड्राइभको खण्ड साइजमा सेट भएको "
+"हुनुपर्नेछ ।  फ्लपी टेपका लागि यो <b>१०२४०</b> बाइटमा सेट हुनुपर्नेछ ।"
+
+#. i18n: file: OptionsDlgWidget.ui:73
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:12
+msgid "MB"
+msgstr "मेगाबाइट"
+
+#. i18n: file: OptionsDlgWidget.ui:78
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:15
+msgid "GB"
+msgstr "गिगाबाइट"
+
+#. i18n: file: OptionsDlgWidget.ui:88
+#. i18n: ectx: property (whatsThis), item, widget (KComboBox)
+#: rc.cpp:19
+msgid ""
+"This option chooses whether the default tape size to the left is in "
+"megabytes (MB) or gigabytes (GB)."
+msgstr ""
+"यो विकल्पले बायाँतिर पूर्वनिर्धारित टेप साइज मेगाबाइट (MB) वा गिगाबाइट (GB) "
+"मा राख्ने रोज्दछ ।"
+
+#. i18n: file: OptionsDlgWidget.ui:96
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:22
+msgid "bytes"
+msgstr "बाइट"
+
+#. i18n: file: OptionsDlgWidget.ui:104
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:25
+msgid "Tape block size:"
+msgstr "टेप खण्ड साइज:"
+
+#. i18n: file: OptionsDlgWidget.ui:115
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:28
+msgid "Default tape size:"
+msgstr "पूर्वनिर्धारित टेप साइज:"
+
+#. i18n: file: OptionsDlgWidget.ui:139
+#. i18n: ectx: property (toolTip), widget (KPushButton)
+#: rc.cpp:34
+msgid "Browse for the tar command."
+msgstr "टार आदेशका लागि ब्राउज गर्नुहोस् ।"
+
+#. i18n: file: OptionsDlgWidget.ui:147
+#. i18n: ectx: property (whatsThis), widget (KLineEdit)
+#: rc.cpp:37
+msgid ""
+"The location in the filesystem of the <em>non-rewinding</em> tape device.  "
+"The default is <b>/dev/tape</b>."
+msgstr ""
+"<em>रिवाइन्ड नहुने</em> टेप यन्त्रको फाइल प्रणालीमा स्थान ।  पूर्वनिर्धारित "
+"<b>/dev/tape</b> हो ।"
+
+#. i18n: file: OptionsDlgWidget.ui:155
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:40
+msgid "Tar command:"
+msgstr "टार आदेश:"
+
+#. i18n: file: OptionsDlgWidget.ui:169
+#. i18n: ectx: property (toolTip), widget (KPushButton)
+#: rc.cpp:46
+msgid "Browse for the tape device."
+msgstr "टेप यन्त्रका लागि ब्राउज गर्नुहोस् ।"
+
+#. i18n: file: OptionsDlgWidget.ui:177
+#. i18n: ectx: property (whatsThis), widget (KLineEdit)
+#: rc.cpp:49
+msgid ""
+"This setting controls the command that KDat uses to perform the tape backup. "
+" The full path should be given.  The default is <b>tar</b>."
+msgstr ""
+"यो सेटिङले टेप ब्याकअप सम्पादन गर्न केडीई ड्याटले प्रयोग गर्ने आदेश "
+"नियन्त्रण गर्छ ।  पूरा मार्ग दिएको हुनुपर्छ ।  पूर्वनिर्धारित <b>टार</b> हो ।"
+
+#. i18n: file: OptionsDlgWidget.ui:185
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:52
+msgid "Tape device:"
+msgstr "टेप यन्त्र:"
+
+#. i18n: file: OptionsDlgWidget.ui:198
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:55
+msgid "Tape Drive Options"
+msgstr "टेप यन्त्र विकल्प"
+
+#. i18n: file: OptionsDlgWidget.ui:209
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:58
+msgid "Load tape on mount"
+msgstr "माउन्ट गर्दा टेप लोड गर्नुहोस्"
+
+#. i18n: file: OptionsDlgWidget.ui:212
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:61
+msgid "<qt>Issue an <tt>mtload</tt> command prior to mounting the tape.</qt>"
+msgstr ""
+"<qt>टेप माउन्ट गर्नुभन्दा पहिला एउटा <tt>mtload</tt> आदेश जारी गर्छ ।</qt>"
+
+#. i18n: file: OptionsDlgWidget.ui:217
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:64
+msgid ""
+"This command issues an <tt>mtload</tt> command to the tape device before "
+"trying to mount it.\n"
+"\n"
+"This is required by some tape drives."
+msgstr ""
+"यो आदेशले यसलाई माउन्ट गर्न प्रयास गर्नु पहिले टेप यन्त्रमा <tt>mtload</tt> "
+"आदेश जारी गर्छ ।\n"
+"\n"
+"यो केही टेप ड्राइभमा आवश्यक हुन्छ ।"
+
+#. i18n: file: OptionsDlgWidget.ui:225
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:69
+msgid "Lock tape drive on mount"
+msgstr "माउन्ट गर्दा टेप ड्राइभमा ताल्चा लगाउनुहोस्"
+
+#. i18n: file: OptionsDlgWidget.ui:228
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:72
+msgid "Disable the eject button after mounting the tape."
+msgstr "टेप माउन्ट गरि सकेपछि 'निकाल्नुहोस्' बटन अक्षम पार्नुहोस् ।"
+
+#. i18n: file: OptionsDlgWidget.ui:233
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:75
+msgid ""
+"This option makes KDat try to disable the eject button on the tape drive "
+"after the tape has been mounted.\n"
+"\n"
+"This doesn't work for all tape drives."
+msgstr ""
+"यो विकल्पले टेप माउन्ट गरिसके पछि टेप ड्राइभमा 'निकाल्नुहोस्' बटन अक्षम "
+"पार्ने प्रयास गर्ने केडीई ड्याट बनाउँछ ।\n"
+"\n"
+"यसले सबै टेप ड्राइभमा कार्य गर्दैन ।"
+
+#. i18n: file: OptionsDlgWidget.ui:241
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:80
+msgid "Eject tape on unmount"
+msgstr "अनमाउन्ट गरेर टेप निकाल्नुहोस्"
+
+#. i18n: file: OptionsDlgWidget.ui:244
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:83
+msgid ""
+"Try to eject the tape after it is unmounted.  Do not use this for ftape."
+msgstr ""
+
+#. i18n: file: OptionsDlgWidget.ui:249
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:86
+msgid ""
+"Try to eject the tape after it has been unmounted.\n"
+"\n"
+"This option should not be used for floppy-tape drives."
+msgstr ""
+"यो अनमाउन्ट गरिसकेपछि टेप बाहिर निकाल्ने प्रयास गर्नुहोस् ।\n"
+"\n"
+"यो विकल्प फ्लपी टेप यन्त्रका लागि प्रयोग गरिने छैन ।"
+
+#. i18n: file: OptionsDlgWidget.ui:257
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:91
+msgid "Variable block size"
+msgstr "चल खण्ड साइज"
+
+#. i18n: file: OptionsDlgWidget.ui:260
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:94
+msgid "Enable variable-block size support in the tape drive."
+msgstr "टेप ड्राइभमा समर्थन गर्ने चल खण्ड साइज सक्षम पार्नुहोस् ।"
+
+#. i18n: file: OptionsDlgWidget.ui:265
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:97
+msgid ""
+"Some tape drives support different sizes of the data block.  With this "
+"option, KDat will attempt to enable that support.\n"
+"\n"
+"You must still specify the block size."
+msgstr ""
+"केही टेप ड्राइभले डेटा खण्डका फरक साइज समर्थन गर्छन् ।  यो विकल्पमा, केडीई "
+"ड्याटले त्यो समर्थन सक्षम पार्न प्रयास गर्नेछ ।\n"
+"\n"
+"तपाईँले अझैपनि खण्ड साइज निर्दिष्ट गर्नुपर्छ ।"
+
+#: rc.cpp:100
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, ,Launchpad Contributions:"
+
+#: rc.cpp:101
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,,"
+
+#: OptionsDlgWidget.ui.h:26
+msgid "Only local files are supported"
+msgstr ""
+
+#: OptionsDlgWidget.ui.h:43
+msgid "Only local files are currently supported"
+msgstr ""

@@ -1,0 +1,141 @@
+# translation of ksystraycmd.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Kapil Timilsina <lipak21@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksystraycmd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2008-10-07 16:08+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 04:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ksystraycmd.cpp:80
+#, kde-format
+msgid "No window matching pattern '%1' and no command specified.\n"
+msgstr "'%1' मिल्दो बाँन्की सञ्झ्याल छैन र आदेश निर्दिष्ट गरिएको छैन ।\n"
+
+#: ksystraycmd.cpp:87
+msgid "KSysTrayCmd: K3ShellProcess cannot find a shell."
+msgstr "KSysTrayCmd: K3ShellProcess ले शेल फेला पार्न सकेन ।"
+
+#: ksystraycmd.cpp:247 main.cpp:26
+msgid "KSysTrayCmd"
+msgstr "KSysTrayCmd"
+
+#: ksystraycmd.cpp:248
+msgid "&Hide"
+msgstr "लुकाउनुहोस्"
+
+#: ksystraycmd.cpp:248
+msgid "&Restore"
+msgstr "पूर्वावस्थामा ल्याउनुहोस्"
+
+#: ksystraycmd.cpp:249
+msgid "&Undock"
+msgstr "अनडक गर्नुहोस्"
+
+#: ksystraycmd.cpp:250
+msgid "&Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: main.cpp:28
+msgid "Allows any application to be kept in the system tray"
+msgstr "प्रणाली ट्रेमा राख्नका लागि कुनै अनुप्रयोगलाई अनुमति दिन्छ"
+
+#: main.cpp:30
+msgid "(C) 2001-2002 Richard Moore (rich@kde.org)"
+msgstr "(C) 2001-2002 रिचार्ड मोर (rich@kde.org)"
+
+#: main.cpp:31
+msgid "Richard Moore"
+msgstr "रिचार्ड मोर"
+
+#: main.cpp:36
+msgid "Command to execute"
+msgstr "कार्यान्वयनका लागि आदेश"
+
+#: main.cpp:38
+msgid ""
+"A regular expression matching the window title\n"
+"If you do not specify one, then the very first window\n"
+"to appear will be taken - not recommended."
+msgstr ""
+"सञ्झ्याल शीर्षक मिल्दो नियमित अभिव्यक्ति\n"
+"यदि तपाईँले एउटा निर्दिष्ट गर्नुभएन भने, पहिलो सञ्झ्यालको प्रर्दशन\n"
+"सिफारिश नगरिएको रूपमा लिइन्छ ।"
+
+#: main.cpp:41
+msgid ""
+"The window id of the target window\n"
+"Specifies the id of the window to use. If the id starts with 0x\n"
+"it is assumed to be in hex."
+msgstr ""
+"लक्षित सञ्झ्यालको सञ्झ्याल आईडी ले\n"
+"प्रयोग गर्ने सञ्झ्यालको आईडी निर्दिष्ट गर्दछ । यदि आईडी 0x बाट सुरु भयो भने\n"
+"यसलाई हेक्सको रूपमा लिइन्छ ।"
+
+#: main.cpp:44
+msgid "Hide the window to the tray on startup"
+msgstr "सुरुआतमा ट्रेको सञ्झ्याल लुकाउनुहोस्"
+
+#: main.cpp:45
+msgid ""
+"Wait until we are told to show the window before\n"
+"executing the command"
+msgstr ""
+"आदेश कार्यान्वयन गर्नु पहिले हामिले सञ्झ्याल देखाउन \n"
+"नभनेसम्म प्रतिक्षा गर्नुहोस् ।"
+
+#: main.cpp:47
+msgid "Sets the initial tooltip for the tray icon"
+msgstr "ट्रे प्रतिमाका लागि प्रथमाक्षर उपकरणटीप सेट गर्दछ"
+
+#: main.cpp:48
+msgid ""
+"Keep the tray icon even if the client exits. This option\n"
+"has no effect unless startonshow is specified."
+msgstr ""
+"क्लाइन्ट अन्त्य भए पनि ट्रे प्रतिमा राख्नुहोस् । स्टार्टअनसो निर्दिष्ट नगरे "
+"सम्म यो विकल्पसँग\n"
+"कुनै प्रभाव हुदैन ।"
+
+#: main.cpp:50
+msgid ""
+"Use ksystraycmd's icon instead of the window's icon in the systray\n"
+"(should be used with --icon to specify ksystraycmd icon)"
+msgstr ""
+
+#: main.cpp:52
+msgid "Try to keep the window above other windows"
+msgstr "अन्य सञ्झ्यालहरूको माथि सञ्झ्याल राख्न प्रयास गर्नुहोस्"
+
+#: main.cpp:53
+msgid ""
+"Quit the client when we are told to hide the window.\n"
+"This has no effect unless startonshow is specified and implies keeprunning."
+msgstr ""
+"हामीले सञ्झ्याल लुकाउन भन्दा क्लाइन्ट अन्त्य गर्नुहोस् ।\n"
+"स्टार्टअनसो निर्दिष्ट र किपरनिङ लागू नगरेसम्म यसको कुनै प्रभाव हुदैन ।"
+
+#: main.cpp:91
+msgid "No command or window specified"
+msgstr "आदेश वा सञ्झ्याल निर्दिष्ट गरिएको छैन"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kapil Timilsina, श्यामकृष्ण बल, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lipak21@gmail.com, shyamkrishna_bal@yahoo.com,,,"

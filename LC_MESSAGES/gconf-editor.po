@@ -1,0 +1,477 @@
+# translation of gconf-editor.HEAD.ne.po to Nepali
+# Nepali Translation Project.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pawan Chitrakar <pawan@nplinux.org>, 2005.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gconf-editor.HEAD.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-04 15:12+0000\n"
+"PO-Revision-Date: 2009-11-06 16:14+0000\n"
+"Last-Translator: Narayan Kumar Magar <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 05:37+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: NEPAL\n"
+"X-Poedit-Language: Nepali\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:395
+#: ../src/gconf-editor-window.c:397 ../src/gconf-editor-window.c:875
+#: ../src/gconf-editor-window.c:1371
+msgid "Configuration Editor"
+msgstr "कन्फिगरेसन सम्पादक"
+
+#: ../data/gconf-editor.desktop.in.in.h:2
+msgid "Directly edit your entire configuration database"
+msgstr "तपाईँको सम्पूर्ण कन्फिगरेसन डाटावेश प्रतक्ष रूपमा सम्पादन गर्नुहोस्"
+
+#: ../data/gconf-editor.schemas.in.h:1
+msgid "Bookmarks"
+msgstr "पुस्तकचिनोहरू"
+
+#: ../data/gconf-editor.schemas.in.h:2
+msgid "gconf-editor folder bookmarks"
+msgstr "जिकन्फ-सम्पादक फोल्डर पुस्तकचिनोहरू"
+
+#: ../src/gconf-bookmarks-dialog.c:202
+msgid "Edit Bookmarks"
+msgstr "पुस्तकचिनोहरू सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-cell-renderer.c:144 ../src/gconf-cell-renderer.c:341
+msgid "<no value>"
+msgstr "<no value>"
+
+#: ../src/gconf-editor-window.c:361
+#, c-format
+msgid "Couldn't display help: %s"
+msgstr "मद्दत प्रदर्शन गर्न सकेन: %s"
+
+#: ../src/gconf-editor-window.c:401
+msgid "An editor for the GConf configuration system."
+msgstr "जिकन्फ कन्फिगरेसन प्रणालीका लागि एउटा सम्पादक ।"
+
+#: ../src/gconf-editor-window.c:404
+msgid "translator-credits"
+msgstr ""
+"Narayan Kumar Magar (narayan@mpp.prg.np)\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Manoj Duwady https://launchpad.net/~duwady"
+
+#: ../src/gconf-editor-window.c:431
+#, c-format
+msgid ""
+"Couldn't unset key. Error was:\n"
+"%s"
+msgstr ""
+"कुञ्जी सेटबाट हटाउन सकेन । यो त्रुटि थियो:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:456
+#, c-format
+msgid ""
+"Could not create key. The error is:\n"
+"%s"
+msgstr ""
+"कुञ्जी सिर्जना गर्न सकेन । यो त्रुटि छ:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:538
+#, c-format
+msgid ""
+"Could not change key value. Error message:\n"
+"%s"
+msgstr ""
+"कुञ्जी मान परिवर्तन गर्न सकेन । त्रुटिको सन्देश:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:570
+msgid ""
+"Currently pairs and schemas can't be edited. This will be changed in a later "
+"version."
+msgstr ""
+"हालका जोडीहरु र रूपरेखाहरू सम्पादन गर्न सकिँदैन । यो पछिल्लो संस्करणमा "
+"परिवर्तित हुनेछ ।"
+
+#: ../src/gconf-editor-window.c:649
+#, c-format
+msgid ""
+"Could not set value. Error was:\n"
+"%s"
+msgstr ""
+"मूल्य दिन सकिएन. गल्ती थियो: \n"
+"%s"
+
+#: ../src/gconf-editor-window.c:685 ../src/gconf-editor-window.c:729
+#, c-format
+msgid ""
+"Could not sync value. Error was:\n"
+"%s"
+msgstr ""
+"मानलाई समक्रमण गर्न सकेन । यो त्रुटि थियो:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:741
+msgid "_File"
+msgstr "फाइल"
+
+#: ../src/gconf-editor-window.c:742
+msgid "_Edit"
+msgstr "सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:743
+msgid "_Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:744
+msgid "_Bookmarks"
+msgstr "पुस्तकचिनोहरू"
+
+#: ../src/gconf-editor-window.c:745
+msgid "_Help"
+msgstr "मद्दत"
+
+#: ../src/gconf-editor-window.c:747
+msgid "New _Settings Window"
+msgstr "नयाँ सेटिङ सञ्झ्याल"
+
+#: ../src/gconf-editor-window.c:748
+msgid "Open a new Configuration Editor window editing current settings"
+msgstr "हालको सेटिङ सम्पादन गर्दा एउटा नयाँ कन्फिगरेसन सम्पादक खोल्नुहोस्"
+
+#: ../src/gconf-editor-window.c:750
+msgid "New _Defaults Window"
+msgstr "नयाँ पूर्वनिर्धारित सञ्झ्याल"
+
+#: ../src/gconf-editor-window.c:751
+msgid ""
+"Open a new Configuration Editor window editing system default settings"
+msgstr ""
+"प्रणाली पूर्वनिर्धारित सेटिङ सम्पादन गर्दा एउटा नयाँ कन्फिगरेसन सम्पादक "
+"खोल्नुहोस्"
+
+#: ../src/gconf-editor-window.c:753
+msgid "New _Mandatory Window"
+msgstr "नयाँ अनिवार्य सञ्झ्याल"
+
+#: ../src/gconf-editor-window.c:754
+msgid ""
+"Open a new Configuration Editor window editing system mandatory settings"
+msgstr ""
+"प्रणाली अनिवार्य सेटिङ सम्पादन गर्दा एउटा नयाँ कन्फिगरेसन सम्पादक खोल्नुहोस्"
+
+#: ../src/gconf-editor-window.c:756
+msgid "_Close Window"
+msgstr "सञ्झ्याल बन्द गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:756
+msgid "Close this window"
+msgstr "यो सञ्झ्याल बन्द गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:758
+msgid "_Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:758
+msgid "Quit the Configuration Editor"
+msgstr "कन्फिगरेसन सम्पादक अन्त्य गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:761
+msgid "_Copy Key Name"
+msgstr "कुञ्जी नाम प्रतिलिपि बनाउनुहोस्"
+
+#: ../src/gconf-editor-window.c:761
+msgid "Copy the name of the selected key"
+msgstr "चयन गरिएको कुञ्जीको नाम प्रतिलिपि बनाउनुहोस्"
+
+#: ../src/gconf-editor-window.c:763
+msgid "_Find..."
+msgstr "फेला पार्नुहोस्..."
+
+#: ../src/gconf-editor-window.c:763
+msgid "Find patterns in keys and values"
+msgstr "कुञ्जी र मानहरूमा बान्की फेला पार्नुहोस्"
+
+#: ../src/gconf-editor-window.c:765
+msgid "_List Recent Keys"
+msgstr "हालैका कुञ्जीहरू सूचीबद्ध गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:765
+msgid "Show recently modified keys"
+msgstr "हालै परिमार्जन गरिएको कुञ्जीहरू देखाउनुहोस्"
+
+#: ../src/gconf-editor-window.c:768
+msgid "_Add Bookmark"
+msgstr "पुस्तकचिनो थप्नुहोस्"
+
+#: ../src/gconf-editor-window.c:768
+msgid "Add a bookmark to the selected directory"
+msgstr "चयन गरिएको डाइरेक्टरीमा एउटा पुस्तकचिनो थप्नुहोस्"
+
+#: ../src/gconf-editor-window.c:770
+msgid "_Edit Bookmarks"
+msgstr "पुस्तकचिनोहरू सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:770
+msgid "Edit the bookmarks"
+msgstr "पुस्तकचिनोहरू सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:773
+msgid "_Contents"
+msgstr "विषयसूचीहरू"
+
+#: ../src/gconf-editor-window.c:773
+msgid "Open the help contents for the Configuration Editor"
+msgstr "कन्फिगरेसन सम्पादकको लागि मद्दत विषयसूचीहरू खोल्नुहोस्"
+
+#: ../src/gconf-editor-window.c:775
+msgid "_About"
+msgstr "बारेमा"
+
+#: ../src/gconf-editor-window.c:775
+msgid "Show the about dialog for the Configuration Editor"
+msgstr "कन्फिगरेसन सम्पादकको लागि संवाद बारेमा देखाउनुहोस्"
+
+#: ../src/gconf-editor-window.c:778
+msgid "_New Key..."
+msgstr "नयाँ कुञ्जी..."
+
+#: ../src/gconf-editor-window.c:778
+msgid "Create a new key"
+msgstr "एउटा नयाँ कुञ्जी सिर्जना गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:780
+msgid "_Edit Key..."
+msgstr "कुञ्जी सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:780
+msgid "Edit the selected key"
+msgstr "चयन गरिएको कुञ्जी सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:782
+msgid "_Unset Key"
+msgstr "कुञ्जी सेटबाट हटाउनुहोस्"
+
+#: ../src/gconf-editor-window.c:782
+msgid "Unset the selected key"
+msgstr "चयन गरिएको कुञ्जी सेटबाट हटाउनुहोस्"
+
+#: ../src/gconf-editor-window.c:784
+msgid "Set as _Default"
+msgstr "पूर्वनिर्धारित रूपमा सेट गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:784
+msgid "Set the selected key to be the default"
+msgstr "पूर्वनिर्धारित रूपमा हुनलाई चयन गरिएको कुञ्जी सेट गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:786
+msgid "Set as _Mandatory"
+msgstr "अनिवार्य जस्तै सेट गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:786
+msgid "Set the selected key to the mandatory"
+msgstr "अनिवार्यमा चयन गरिएको कुञ्जी सेट गर्नुहोस्"
+
+#: ../src/gconf-editor-window.c:869
+msgid "Configuration Editor (Default settings)"
+msgstr "कन्फिगरेसन सम्पादक (पूर्वनिर्धारित सेटिङ)"
+
+#: ../src/gconf-editor-window.c:872 ../src/gconf-editor-window.c:1368
+msgid "Configuration Editor (Mandatory settings)"
+msgstr "कन्फिगरेसन सम्पादक (अनिवार्य सेटिङ)"
+
+#: ../src/gconf-editor-window.c:1117 ../src/gconf-editor-window.c:1118
+#: ../src/gconf-editor-window.c:1119 ../src/gconf-editor-window.c:1120
+#: ../src/gconf-editor-window.c:1149 ../src/gconf-editor-window.c:1157
+#: ../src/gconf-editor-window.c:1166 ../src/gconf-editor-window.c:1717
+#: ../src/gconf-editor-window.c:1729 ../src/gconf-editor-window.c:1741
+#: ../src/gconf-editor-window.c:1756
+msgid "(None)"
+msgstr "(कुनै पनि होइन)"
+
+#: ../src/gconf-editor-window.c:1327 ../src/gconf-editor-window.c:1337
+#, c-format
+msgid ""
+"Cannot create GConf engine. Error was:\n"
+"%s"
+msgstr ""
+"जिकन्फ इन्जिन सिर्जना गर्न सकेन । यो त्रुटि थियो:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:1365
+msgid "Configuration Editor (Defaults settings)"
+msgstr "कन्फिगरेसन सम्पादक (पूर्वनिर्धारित सेटिङ)"
+
+#: ../src/gconf-editor-window.c:1613
+msgid "Name"
+msgstr "नाम"
+
+#: ../src/gconf-editor-window.c:1637
+msgid "Value"
+msgstr "मान"
+
+#: ../src/gconf-editor-window.c:1664
+msgid "Key Documentation"
+msgstr "कुञ्जी मिसिलिकरण"
+
+#: ../src/gconf-editor-window.c:1693 ../src/gconf-key-editor.c:606
+msgid "This key is not writable"
+msgstr "यो कुञ्जी लेखनयोग्य छैन"
+
+#: ../src/gconf-editor-window.c:1706
+msgid "This key has no schema"
+msgstr "यो कुञ्जीसँग रूपरेखा छैन"
+
+#: ../src/gconf-editor-window.c:1711
+msgid "Key name:"
+msgstr "कुञ्जी नाम:"
+
+#: ../src/gconf-editor-window.c:1724
+msgid "Key owner:"
+msgstr "कुञ्जी मालिक:"
+
+#: ../src/gconf-editor-window.c:1736
+msgid "Short description:"
+msgstr "छोटो वर्णन:"
+
+#: ../src/gconf-editor-window.c:1749
+msgid "Long description:"
+msgstr "लामो वर्णन:"
+
+#: ../src/gconf-key-editor.c:87
+msgid "T_rue"
+msgstr "सत्य"
+
+#: ../src/gconf-key-editor.c:90 ../src/gconf-key-editor.c:244
+#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:637
+msgid "_False"
+msgstr "झूटोो"
+
+#. These have to be ordered so the EDIT_ enum matches the
+#. * menu indices
+#. 
+#. These have to be ordered so the EDIT_ enum matches the
+#. * combobox indices
+#. 
+#: ../src/gconf-key-editor.c:125 ../src/gconf-key-editor.c:155
+msgid "Integer"
+msgstr "इन्टिजर"
+
+#: ../src/gconf-key-editor.c:126 ../src/gconf-key-editor.c:156
+msgid "Boolean"
+msgstr "बूलेन"
+
+#: ../src/gconf-key-editor.c:127 ../src/gconf-key-editor.c:157
+msgid "String"
+msgstr "स्ट्रिङ"
+
+#. Translators: this refers to "Floating point":
+#. * see http://en.wikipedia.org/wiki/Floating_point
+#. 
+#: ../src/gconf-key-editor.c:131
+msgid "Float"
+msgstr "उत्प्लावन गर्नुहोस्"
+
+#: ../src/gconf-key-editor.c:132
+msgid "List"
+msgstr "सूची"
+
+#: ../src/gconf-key-editor.c:219
+msgid "Add New List Entry"
+msgstr "नयाँ सूची प्रविष्टि थप्नुहोस्"
+
+#: ../src/gconf-key-editor.c:235
+msgid "_New list value:"
+msgstr "नयाँ सूची मान:"
+
+#: ../src/gconf-key-editor.c:321
+msgid "Edit List Entry"
+msgstr "सूची प्रविष्टि सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-key-editor.c:337
+msgid "_Edit list value:"
+msgstr "सूचीबद्ध मान सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-key-editor.c:558
+msgid "Path:"
+msgstr "मार्ग:"
+
+#: ../src/gconf-key-editor.c:569
+msgid "_Name:"
+msgstr "नाम:"
+
+#: ../src/gconf-key-editor.c:581
+msgid "_Type:"
+msgstr "प्रकार:"
+
+#: ../src/gconf-key-editor.c:618 ../src/gconf-key-editor.c:636
+#: ../src/gconf-key-editor.c:655 ../src/gconf-key-editor.c:672
+msgid "_Value:"
+msgstr "मान:"
+
+#: ../src/gconf-key-editor.c:694
+msgid "List _type:"
+msgstr "सूची प्रकार:"
+
+#: ../src/gconf-key-editor.c:702
+msgid "_Values:"
+msgstr "मानहरू:"
+
+#: ../src/gconf-key-editor.c:804
+msgid "New Key"
+msgstr "नयाँ कुञ्जी"
+
+#: ../src/gconf-key-editor.c:808
+msgid "Edit Key"
+msgstr "कुञ्जी सम्पादन गर्नुहोस्"
+
+#: ../src/gconf-search-dialog.c:60
+msgid "Pattern not found"
+msgstr "बान्की फेला परेन"
+
+#: ../src/gconf-search-dialog.c:142
+msgid "Find"
+msgstr "फेला पार्नुहोस्"
+
+#: ../src/gconf-search-dialog.c:144
+msgid "_Search for: "
+msgstr "यसका लागि खोजी गर्नुहोस्: "
+
+#: ../src/gconf-search-dialog.c:165
+msgid "Search also in key _names"
+msgstr "कुञ्जी नामहरूमा पनि खोजी गर्नुहोस्"
+
+#: ../src/gconf-search-dialog.c:168
+msgid "Search also in key _values"
+msgstr "कुञ्जी मानहरूमा पनि खोजी गर्नुहोस्"
+
+#: ../src/gedit-output-window.c:347
+msgid "Close the output window"
+msgstr "निर्गत सञ्झ्याल बन्द गर्नुहोस्"
+
+#: ../src/gedit-output-window.c:382
+msgid "Copy selected lines"
+msgstr "चयन गरिएको हरफहरू प्रतिलिपि बनाउनुहोस्"
+
+#: ../src/gedit-output-window.c:399
+msgid "Clear the output window"
+msgstr "निर्गत सञ्झ्याल खाली गर्नुहोस्"
+
+#: ../src/gedit-output-window.c:438
+msgid "Output Lines"
+msgstr "निर्गत रेखाहरू"
+
+#: ../src/main.c:69
+msgid "[KEY]"
+msgstr "[KEY]"
+
+#: ../src/main.c:77
+msgid "- Directly edit your entire configuration database"
+msgstr "तपाईँको सम्पूर्ण कन्फिगरेसन डाटावेस प्रतक्षरूपमा सम्पादन गर्नुहोस्"

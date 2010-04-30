@@ -1,0 +1,307 @@
+# translation of kjumpingcube.po to Nepali
+# Mahesh Subedi <submanesh@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kjumpingcube\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 13:44+0000\n"
+"PO-Revision-Date: 2009-07-16 10:14+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 22:29+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: kjumpingcube.cpp:78
+msgid "Current player:"
+msgstr "हालको खेलाडी:"
+
+#: kjumpingcube.cpp:109
+msgid "Stop"
+msgstr ""
+
+#: kjumpingcube.cpp:110
+msgid "Force the computer to move immediately"
+msgstr ""
+
+#: kjumpingcube.cpp:112
+msgid ""
+"Stop the computer's calculation of its current move and force it to move "
+"immediately"
+msgstr ""
+
+#: kjumpingcube.cpp:129
+msgid "New Game"
+msgstr "नयाँ खेल"
+
+#: kjumpingcube.cpp:155
+#, kde-format
+msgid ""
+"The file %1 exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"%1 फाइल अवस्थित छ ।\n"
+"तपाईँले यसमा अधिलेखन गर्न चाहनुहुन्छ?"
+
+#: kjumpingcube.cpp:157
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: kjumpingcube.cpp:178
+#, kde-format
+msgid "game saved as %1"
+msgstr "%1 को रुपमा खेल बचत गरियो"
+
+#: kjumpingcube.cpp:183
+#, kde-format
+msgid ""
+"There was an error in saving file\n"
+"%1"
+msgstr ""
+"फाइल बचत गर्दा त्यहाँ त्रुटि थियो\n"
+"%1"
+
+#: kjumpingcube.cpp:199
+#, kde-format
+msgid "The file %1 does not exist!"
+msgstr "%1 फाइल अवस्थित छैन!"
+
+#: kjumpingcube.cpp:213
+#, kde-format
+msgid "The file %1 is not a KJumpingCube gamefile!"
+msgstr "%1 फाइल केडीई जम्पिङ क्युब खेल फाइल होइन!"
+
+#: kjumpingcube.cpp:228
+#, kde-format
+msgid ""
+"There was an error loading file\n"
+"%1"
+msgstr ""
+"फाइल लोड गर्दा त्यहाँ त्रुटि थियो\n"
+"%1"
+
+#: kjumpingcube.cpp:239
+msgid "stopped activity"
+msgstr "क्रियाकलाप रोकियो"
+
+#: kjumpingcube.cpp:262
+#, kde-format
+msgid "Winner is Player %1!"
+msgstr "विजेता खेलाडी %1 हो!"
+
+#: kjumpingcube.cpp:263
+msgid "Winner"
+msgstr "विजेता"
+
+#: kjumpingcube.cpp:279
+msgid "Performing move."
+msgstr "चाल चल्दैछ ।"
+
+#: kjumpingcube.cpp:285
+msgid "Computing next move."
+msgstr "पछिल्लो चाल गणना गर्दैछ ।"
+
+#: kjumpingcube.cpp:297
+msgid "General"
+msgstr "साधारण"
+
+#: main.cpp:32
+msgid "Tactical one or two player game"
+msgstr "कुशल एक वा दुई खेलाडीको खेल"
+
+#: main.cpp:36
+msgid "KJumpingCube"
+msgstr "केडीई जम्पिङ क्युब"
+
+#: main.cpp:38
+msgid "(c) 1998-2000, Matthias Kiefer"
+msgstr "(c) 1998-2000, माथिहास केइफर"
+
+#: main.cpp:40
+msgid "Matthias Kiefer"
+msgstr "माथिहास केइफर"
+
+#: main.cpp:41
+msgid "Benjamin Meyer"
+msgstr "बेन्जामिन मेयर"
+
+#: main.cpp:41
+msgid "Various improvements"
+msgstr "विविध सुधार"
+
+#: main.cpp:42
+msgid "Ian Wadham"
+msgstr ""
+
+#: main.cpp:43
+msgid "Upgrade to KDE4 and SVG artwork support."
+msgstr ""
+
+#: main.cpp:45
+msgid "Eugene Trounev"
+msgstr ""
+
+#: main.cpp:46
+msgid "Graphics for KDE 4.0 version."
+msgstr ""
+
+#. i18n: file: kjumpingcube.kcfg:9
+#. i18n: ectx: label, entry (Color0), group (Game)
+#: rc.cpp:3
+msgid "Color of neutral cubes."
+msgstr "तटस्थ क्युबको रङ ।"
+
+#. i18n: file: kjumpingcube.kcfg:13
+#. i18n: ectx: label, entry (Color1), group (Game)
+#: rc.cpp:6
+msgid "Color of player 1."
+msgstr "खेलाडी १ को रङ ।"
+
+#. i18n: file: kjumpingcube.kcfg:17
+#. i18n: ectx: label, entry (Color2), group (Game)
+#: rc.cpp:9
+msgid "Color of player 2."
+msgstr "खेलाडी २ को रङ ।"
+
+#. i18n: file: kjumpingcube.kcfg:21
+#. i18n: ectx: label, entry (CubeDim), group (Game)
+#: rc.cpp:12
+msgid "Size of the playing field."
+msgstr "खेल्ने स्थानको साइज ।"
+
+#. i18n: file: kjumpingcube.kcfg:30
+#. i18n: ectx: label, entry (Skill), group (Game)
+#: rc.cpp:15
+msgid "Skill of the computer player."
+msgstr "कम्प्युटर खेलाडीको दक्षता ।"
+
+#. i18n: file: kjumpingcube.kcfg:34
+#. i18n: ectx: label, entry (ComputerPlayer1), group (Game)
+#: rc.cpp:18
+msgid "Whether player 1 is played by the computer."
+msgstr "खेलाडी १ को रुपमा कम्प्युटरले खेलेको छ या छैन ।"
+
+#. i18n: file: kjumpingcube.kcfg:38
+#. i18n: ectx: label, entry (ComputerPlayer2), group (Game)
+#: rc.cpp:21
+msgid "Whether player 2 is played by the computer."
+msgstr "खेलाडी २ को रुपमा कम्प्युटरले खेलेको छ या छैन ।"
+
+#. i18n: file: kjumpingcubeui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:24
+msgid "&Game"
+msgstr "खेल"
+
+#. i18n: file: kjumpingcubeui.rc:15
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:27
+msgid "Main Toolbar"
+msgstr "मुख्य उपकरणपट्टी"
+
+#. i18n: file: settings.ui:58
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: rc.cpp:30
+msgid "Players' Colors"
+msgstr ""
+
+#. i18n: file: settings.ui:82
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_Color2)
+#. i18n: file: settings.ui:89
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_Color1)
+#. i18n: file: settings.ui:110
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_Color0)
+#: rc.cpp:33 rc.cpp:36 rc.cpp:45
+msgid "PushButton"
+msgstr "धकेल्ने बटन"
+
+#. i18n: file: settings.ui:96
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:39
+msgid "Player 2:"
+msgstr "खेलाडी २:"
+
+#. i18n: file: settings.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:42
+msgid "Player 1:"
+msgstr "खेलाडी १:"
+
+#. i18n: file: settings.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:48
+msgid "Neutral:"
+msgstr "तटस्थ:"
+
+#. i18n: file: settings.ui:127
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:51
+msgid "Computer Skill"
+msgstr "कम्प्युटरको क्षमता"
+
+#. i18n: file: settings.ui:151
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:54
+msgid "Average"
+msgstr "औसत"
+
+#. i18n: file: settings.ui:161
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:57
+msgid "Expert"
+msgstr "दक्ष"
+
+#. i18n: file: settings.ui:171
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:60
+msgid "Beginner"
+msgstr "प्रारम्भिक"
+
+#. i18n: file: settings.ui:200
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:63
+msgid "Board Size"
+msgstr "बोर्ड साइज"
+
+#. i18n: file: settings.ui:224
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:66
+msgid "10x10"
+msgstr "१०x१०"
+
+#. i18n: file: settings.ui:234
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:69
+msgid "5x5"
+msgstr "५x५"
+
+#. i18n: file: settings.ui:269
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:72
+msgid "Computer Plays"
+msgstr "कम्प्युटरले खेल्छ"
+
+#. i18n: file: settings.ui:290
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComputerPlayer1)
+#: rc.cpp:75
+msgid "Player 1"
+msgstr "खेलाडी १"
+
+#. i18n: file: settings.ui:297
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComputerPlayer2)
+#: rc.cpp:78
+msgid "Player 2"
+msgstr "खेलाडी २"
+
+#: rc.cpp:79
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mahesh Subedi, ,Launchpad Contributions:,Nabin Gautam"
+
+#: rc.cpp:80
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "submanesh@gmail.com,,,"

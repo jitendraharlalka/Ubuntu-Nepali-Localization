@@ -1,0 +1,138 @@
+# translation of solidshell.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: solidshell\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-17 00:37+0000\n"
+"PO-Revision-Date: 2009-07-16 09:57+0000\n"
+"Last-Translator: Shyam Krishna Bal <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-21 00:16+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: solid-powermanagement.cpp:49
+msgid "solid-powermanagement"
+msgstr ""
+
+#: solid-powermanagement.cpp:51
+msgid ""
+"KDE tool for querying and controlling your power management options from the "
+"command line"
+msgstr ""
+
+#: solid-powermanagement.cpp:163
+msgid "Syntax Error: Not enough arguments"
+msgstr "वाक्य संरचना त्रुटि: पर्याप्त तर्क छैन"
+
+#: solid-powermanagement.cpp:169
+msgid "Syntax Error: Too many arguments"
+msgstr "वाक्य संरचना त्रुटि: अति धेरै तर्क"
+
+#: solid-powermanagement.cpp:181
+msgid "Show available commands"
+msgstr ""
+
+#: solid-powermanagement.cpp:183
+msgid "Command (see --commands)"
+msgstr "आदेश (--आदेश हेर्नुहोस्)"
+
+#: solid-powermanagement.cpp:185
+msgid "Arguments for command"
+msgstr "आदेशका लागि तर्क"
+
+#: solid-powermanagement.cpp:197
+msgid "Syntax:"
+msgstr "वाक्य संरचना:"
+
+#: solid-powermanagement.cpp:200
+msgid ""
+"             # List a particular set of information regarding power "
+"management.\n"
+"             # - If the 'suspend' option is specified, give the list of "
+"suspend\n"
+"             # methods supported by the system\n"
+"             # - If the 'scheme' option is specified, give the list of\n"
+"             # power management schemes supported by this system\n"
+"             # - If the 'cpufreq' option is specified, give the list of\n"
+"             # supported CPU frequency policies\n"
+msgstr ""
+
+#: solid-powermanagement.cpp:209
+msgid ""
+"             # Set power management options of the system.\n"
+"             # - If the 'scheme' option is specified, the power management\n"
+"             # scheme set corresponds to 'value'\n"
+"             # - If the 'cpufreq' option is specified, the CPU frequency "
+"policy\n"
+"             # set corresponds to 'value'\n"
+msgstr ""
+"             # प्रणालीको शक्ति व्वस्थापन विकल्प सेट गर्नुहोस् ।\n"
+"             # - यदि 'योजना' विकल्प निर्दिष्ट गरिएको छ भने, शक्ति प्रबन्ध\n"
+"             # योजना सेटले 'मान' सङ्केत गर्दछ\n"
+"             # - यदि 'cpufreq' विकल्प निर्दिष्ट छ भने, CPU आवृत्तिनीति\n"
+"             # सेटले 'मान' लाई सङ्केत गर्दछ\n"
+
+#: solid-powermanagement.cpp:216
+msgid "             # Suspend the computer using the given 'method'.\n"
+msgstr ""
+"             # कम्प्युटरले प्रयोग गरेको दिएको 'विधि' निलम्बन गर्नुहोस् ।\n"
+
+#: solid-powermanagement.cpp:219
+msgid ""
+"             # Set and get brightness options of the system.\n"
+"             # - If the 'set' option is specified, the brightness is\n"
+"             # set to 'value' (as a percentage)\n"
+"             # - If the 'get' option is specified, the current brightness\n"
+"             # is returned (as a percentage)'\n"
+msgstr ""
+
+#: solid-powermanagement.cpp:270 solid-powermanagement.cpp:289
+#, kde-format
+msgid "Syntax Error: Unknown option '%1'"
+msgstr "वाक्य संरचना त्रुटि: अज्ञात विकल्प '%1'"
+
+#: solid-powermanagement.cpp:306
+#, kde-format
+msgid "Syntax Error: Unknown command '%1'"
+msgstr "वाक्य संरचना त्रुटि: अज्ञात आदेश '%1'"
+
+#: solid-powermanagement.cpp:355
+#, kde-format
+msgid "Unsupported suspend method: %1"
+msgstr "असमर्थित निलम्बन बिधि: %1"
+
+#: solid-powermanagement.cpp:363
+msgid "Error: unsupported operation."
+msgstr ""
+
+#: solid-powermanagement.cpp:374
+#, kde-format
+msgid "Error: %1"
+msgstr "त्रुटि: %1"
+
+#: solid-powermanagement.cpp:411
+#, kde-format
+msgid "Unsupported scheme: %1"
+msgstr "असमर्थित योजना: %1"
+
+#: solid-powermanagement.cpp:498
+#, kde-format
+msgid "Unsupported cpufreq policy: %1"
+msgstr "असमर्थित cpufreq नीति: %1"
+
+#: solid-powermanagement.cpp:529
+#, kde-format
+msgid "Progress: %1%"
+msgstr "प्रगति: %1%"
+
+#: solid-powermanagement.cpp:534
+#, kde-format
+msgid "Info: %1"
+msgstr "सूचना: %1"

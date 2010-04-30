@@ -1,0 +1,611 @@
+# translation of audiocd_encoder_lame.po to Nepali
+# Ishwor Sharma <sharmabeeshwar@gmail.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: audiocd_encoder_lame\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-10 12:09+0000\n"
+"PO-Revision-Date: 2009-07-16 09:52+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-20 23:31+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:11
+#. i18n: ectx: label, entry (bitrate_constant), group (Lame)
+#: rc.cpp:3
+msgid "Constant Bitrate"
+msgstr "अचल बिटरेट"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:15
+#. i18n: ectx: label, entry (bitrate_variable), group (Lame)
+#: rc.cpp:6
+msgid "Variable Bitrate"
+msgstr "चल बिटरेट"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:20
+#. i18n: ectx: label, entry (stereo), group (Lame)
+#: rc.cpp:9
+msgid "Stereo Mode"
+msgstr "स्टेरियो मोड"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:24
+#. i18n: ectx: label, entry (quality), group (Lame)
+#: rc.cpp:12
+msgid "Quality"
+msgstr "गुणस्तर"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:29
+#. i18n: ectx: label, entry (byte_swap), group (Lame)
+#: rc.cpp:15
+msgid "Byte Swap"
+msgstr ""
+
+#. i18n: file: audiocd_lame_encoder.kcfg:40
+#. i18n: ectx: label, entry (copyright), group (Lame)
+#: rc.cpp:18
+msgid "Copyrighted"
+msgstr "प्रतिलिपि अधिकार भएको"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:44
+#. i18n: ectx: label, entry (original), group (Lame)
+#: rc.cpp:21
+msgid "Original"
+msgstr "मौलिक"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:48
+#. i18n: ectx: label, entry (iso), group (Lame)
+#: rc.cpp:24
+msgid "ISO Encoding"
+msgstr "ISO सङ्केतन"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:52
+#. i18n: ectx: label, entry (crc), group (Lame)
+#: rc.cpp:27
+msgid "Error protection"
+msgstr "त्रुटि सुरक्षा"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:56
+#. i18n: ectx: label, entry (id3_tag), group (Lame)
+#: rc.cpp:30
+msgid "Write ID3 Tag"
+msgstr "आईडी ३ ट्याग लेख्नुहोस्"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:62
+#. i18n: ectx: label, entry (cbr_bitrate), group (Lame)
+#. i18n: file: encoderlameconfig.ui:586
+#. i18n: ectx: property (title), widget (QGroupBox, cbr_settings)
+#: rc.cpp:33 rc.cpp:315
+msgid "Constant Bitrate Settings"
+msgstr "अचल बिटरेट सेटिङ"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:70
+#. i18n: ectx: label, entry (vbr_min_br), group (Lame)
+#: rc.cpp:36
+msgid "Minimal bitrate"
+msgstr "न्युनतम बिटरेट"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:74
+#. i18n: ectx: label, entry (vbr_min_hard), group (Lame)
+#: rc.cpp:39
+msgid "Minimal Value is a hard limit"
+msgstr "न्युनतम मान कडा सीमा हो"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:78
+#. i18n: ectx: label, entry (vbr_max_br), group (Lame)
+#: rc.cpp:42
+msgid "Maximal bitrate"
+msgstr "अधिकतम बिटरेट"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:82
+#. i18n: ectx: label, entry (vbr_average_br), group (Lame)
+#: rc.cpp:45
+msgid "Average bitrate"
+msgstr "औसत बिटरेट"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:86
+#. i18n: ectx: label, entry (vbr_xing_tag), group (Lame)
+#: rc.cpp:48
+msgid "Write Xing VBR tag"
+msgstr "Xing VBR ट्याग लेख्नुहोस्"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:91
+#. i18n: ectx: label, entry (vbr_min_brate), group (Lame)
+#: rc.cpp:51
+msgid "Minimal bitrate value"
+msgstr "न्युनतम बिटरेट मान"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:97
+#. i18n: ectx: label, entry (vbr_max_brate), group (Lame)
+#: rc.cpp:54
+msgid "Maximal bitrate value"
+msgstr "अधिकतम बिटरेट मान"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:103
+#. i18n: ectx: label, entry (vbr_mean_brate), group (Lame)
+#: rc.cpp:57
+msgid "Average bitrate value"
+msgstr "औसत बिटरेट मान"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:112
+#. i18n: ectx: label, entry (enable_lowpass), group (Lame)
+#: rc.cpp:60
+msgid "Enable the lowpass filter"
+msgstr ""
+
+#. i18n: file: audiocd_lame_encoder.kcfg:116
+#. i18n: ectx: label, entry (lowfilterfreq), group (Lame)
+#: rc.cpp:63
+msgid "Value of the cutoff frequency for the lowpass filter"
+msgstr ""
+
+#. i18n: file: audiocd_lame_encoder.kcfg:121
+#. i18n: ectx: label, entry (enable_highpass), group (Lame)
+#: rc.cpp:66
+msgid "Enable the highpass filter"
+msgstr ""
+
+#. i18n: file: audiocd_lame_encoder.kcfg:125
+#. i18n: ectx: label, entry (highfilterfreq), group (Lame)
+#: rc.cpp:69
+msgid "Value of the cutoff frequency for the highpass filter"
+msgstr ""
+
+#. i18n: file: audiocd_lame_encoder.kcfg:130
+#. i18n: ectx: label, entry (set_lpf_width), group (Lame)
+#: rc.cpp:72
+msgid "Lowpass filter width"
+msgstr "न्यूनपास फिल्टर चौडाइ"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:134
+#. i18n: ectx: label, entry (lowfilterwidth), group (Lame)
+#: rc.cpp:75
+msgid "Lowpass filter width value"
+msgstr "न्यूनपास फिल्टरको चौडाइ मान"
+
+#. i18n: file: audiocd_lame_encoder.kcfg:139
+#. i18n: ectx: label, entry (set_hpf_width), group (Lame)
+#. i18n: file: audiocd_lame_encoder.kcfg:143
+#. i18n: ectx: label, entry (highfilterwidth), group (Lame)
+#: rc.cpp:78 rc.cpp:81
+msgid "Highpass filter width"
+msgstr "उच्चपास फिल्टर चौडाइ"
+
+#. i18n: file: encoderlameconfig.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
+#: rc.cpp:84
+msgid "Options"
+msgstr "विकल्प"
+
+#. i18n: file: encoderlameconfig.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_copyright)
+#: rc.cpp:87
+msgid "Cop&yrighted"
+msgstr "प्रतिलिपि अधिकार भएको"
+
+#. i18n: file: encoderlameconfig.ui:31
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_copyright)
+#: rc.cpp:90
+msgid "Mark MP3 file as copyrighted"
+msgstr "प्रतिलिपि अधिकार भएको रूपमा MP3 फाइलमा चिन्ह लगाउनुहोस्"
+
+#. i18n: file: encoderlameconfig.ui:34
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_copyright)
+#: rc.cpp:93
+msgid "Mark MP3 file as copyrighted."
+msgstr "प्रतिलिपि अधिकार भएकोको रूपमा MP3 फाइलमा चिन्ह लगाउनुहोस्।"
+
+#. i18n: file: encoderlameconfig.ui:41
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_original)
+#: rc.cpp:96
+msgid "Origi&nal"
+msgstr "मौलिक"
+
+#. i18n: file: encoderlameconfig.ui:47
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_original)
+#: rc.cpp:99
+msgid "Mark MP3 file as an original"
+msgstr "मौलिकको रूपमा MP3 फाइलमा चिन्ह लगाउनुहोस्"
+
+#. i18n: file: encoderlameconfig.ui:50
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_original)
+#: rc.cpp:102
+msgid "Mark MP3 file as an original."
+msgstr "मौलिकको रूपमा MP3 फाइलमा चिन्ह लगाउनुहोस्।"
+
+#. i18n: file: encoderlameconfig.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_iso)
+#: rc.cpp:105
+msgid "&ISO encoding"
+msgstr "ISO सङ्केतन"
+
+#. i18n: file: encoderlameconfig.ui:60
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_iso)
+#: rc.cpp:108
+msgid "Try to use strict ISO encoding"
+msgstr "कडा ISO सङ्केतन प्रयोग गर्न प्रयास गर्नुहोस्"
+
+#. i18n: file: encoderlameconfig.ui:63
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_iso)
+#. i18n: file: encoderlameconfig.ui:380
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_vbr_max_br)
+#: rc.cpp:111 rc.cpp:213
+msgid "This selects the maximal bitrate used for encoding."
+msgstr "यसले सङ्केतनका लागि अधिकतम बिटरेट चयन गर्दछ ।"
+
+#. i18n: file: encoderlameconfig.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_crc)
+#: rc.cpp:114
+msgid "&Error protection"
+msgstr "त्रुटि सुरक्षा"
+
+#. i18n: file: encoderlameconfig.ui:77
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_id3_tag)
+#: rc.cpp:117
+msgid "&Write ID3 tag"
+msgstr "आईडी ३ ट्याग लेख्नुहोस्"
+
+#. i18n: file: encoderlameconfig.ui:83
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_id3_tag)
+#. i18n: file: encoderlameconfig.ui:86
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_id3_tag)
+#: rc.cpp:120 rc.cpp:123
+msgid ""
+"If checked and if cddb support is available, an id3 tag will be appended"
+msgstr "यदि चिनो गरिन्छ र cddb समर्थन उपलव्ध छ भने, आईडी ३ ट्याग थपिन्छ"
+
+#. i18n: file: encoderlameconfig.ui:109
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
+#: rc.cpp:126
+msgid "Encoding Method"
+msgstr "सङ्केतन विधि"
+
+#. i18n: file: encoderlameconfig.ui:117
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#: rc.cpp:129
+msgid "Low"
+msgstr "न्युन"
+
+#. i18n: file: encoderlameconfig.ui:149
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: rc.cpp:132
+msgid "High"
+msgstr "उच्च"
+
+#. i18n: file: encoderlameconfig.ui:161
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:135
+msgid "&Quality:"
+msgstr "गुणस्तर:"
+
+#. i18n: file: encoderlameconfig.ui:177
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_stereo)
+#: rc.cpp:138
+msgid ""
+"This option controls whether MP3 files are recorded with one or two "
+"channels. Note that choosing <i>\"Mono\"</i> reduces file size, but also "
+"kills the stereo signal."
+msgstr ""
+"यो विकल्पले MP3 फाइललाई एक वा दुई च्यानलसँग रेकर्ड गर्ने भनेर नियन्त्रण "
+"गर्दछ । <i>\"मोनो\"</i> रोज्दा यसले फाइल साइज घटाउँछ, तर स्टेरियो सङ्केतलाई "
+"नष्ट गर्दछ भनेर याद राख्नुहोस् ।"
+
+#. i18n: file: encoderlameconfig.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_stereo)
+#: rc.cpp:141
+msgid "Stereo"
+msgstr "स्टेरियो"
+
+#. i18n: file: encoderlameconfig.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_stereo)
+#: rc.cpp:144
+msgid "Joint Stereo"
+msgstr "संयुक्त स्टेरियो"
+
+#. i18n: file: encoderlameconfig.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_stereo)
+#: rc.cpp:147
+msgid "Dual Channel"
+msgstr "ड्युअल च्यानल"
+
+#. i18n: file: encoderlameconfig.ui:196
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_stereo)
+#: rc.cpp:150
+msgid "Mono"
+msgstr "मोनो"
+
+#. i18n: file: encoderlameconfig.ui:204
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_bitrate_constant)
+#: rc.cpp:153
+msgid "Constant bitrate"
+msgstr "अचल बिटरेट"
+
+#. i18n: file: encoderlameconfig.ui:211
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_bitrate_variable)
+#: rc.cpp:156
+msgid "Variable bitrate"
+msgstr "चल बिटरेट"
+
+#. i18n: file: encoderlameconfig.ui:272
+#. i18n: ectx: property (title), widget (QGroupBox, vbr_settings)
+#: rc.cpp:159
+msgid "Variable Bitrate Settings"
+msgstr "चल बिटरेट सेटिङ"
+
+#. i18n: file: encoderlameconfig.ui:284
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_vbr_average_br)
+#: rc.cpp:162
+msgid "Avera&ge bitrate:"
+msgstr ""
+
+#. i18n: file: encoderlameconfig.ui:287
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_vbr_average_br)
+#: rc.cpp:165
+msgid "This selects the average bitrate used for encoding."
+msgstr ""
+
+#. i18n: file: encoderlameconfig.ui:301
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:407
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:510
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:618
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:168 rc.cpp:222 rc.cpp:273 rc.cpp:324
+msgid "32 kbs"
+msgstr "३२ kbs"
+
+#. i18n: file: encoderlameconfig.ui:306
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:412
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:515
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:623
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:171 rc.cpp:225 rc.cpp:276 rc.cpp:327
+msgid "40 kbs"
+msgstr "४० kbs"
+
+#. i18n: file: encoderlameconfig.ui:311
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:417
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:520
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:628
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:174 rc.cpp:228 rc.cpp:279 rc.cpp:330
+msgid "48 kbs"
+msgstr "४८ kbs"
+
+#. i18n: file: encoderlameconfig.ui:316
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:422
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:525
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:633
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:177 rc.cpp:231 rc.cpp:282 rc.cpp:333
+msgid "56 kbs"
+msgstr "५६ kbs"
+
+#. i18n: file: encoderlameconfig.ui:321
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:427
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:530
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:638
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:180 rc.cpp:234 rc.cpp:285 rc.cpp:336
+msgid "64 kbs"
+msgstr "६४ kbs"
+
+#. i18n: file: encoderlameconfig.ui:326
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:432
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:535
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:643
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:183 rc.cpp:237 rc.cpp:288 rc.cpp:339
+msgid "80 kbs"
+msgstr "८० kbs"
+
+#. i18n: file: encoderlameconfig.ui:331
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:437
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:540
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:648
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:186 rc.cpp:240 rc.cpp:291 rc.cpp:342
+msgid "96 kbs"
+msgstr "९६ kbs"
+
+#. i18n: file: encoderlameconfig.ui:336
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:442
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:545
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:653
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:189 rc.cpp:243 rc.cpp:294 rc.cpp:345
+msgid "112 kbs"
+msgstr "११२ kbs"
+
+#. i18n: file: encoderlameconfig.ui:341
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:447
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:550
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:658
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:192 rc.cpp:246 rc.cpp:297 rc.cpp:348
+msgid "128 kbs"
+msgstr "१२८ kbs"
+
+#. i18n: file: encoderlameconfig.ui:346
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:452
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:555
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:663
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:195 rc.cpp:249 rc.cpp:300 rc.cpp:351
+msgid "160 kbs"
+msgstr "१६० kbs"
+
+#. i18n: file: encoderlameconfig.ui:351
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:457
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:560
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:668
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:198 rc.cpp:252 rc.cpp:303 rc.cpp:354
+msgid "192 kbs"
+msgstr "१९२ kbs"
+
+#. i18n: file: encoderlameconfig.ui:356
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:462
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:565
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:673
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:201 rc.cpp:255 rc.cpp:306 rc.cpp:357
+msgid "224 kbs"
+msgstr "२२४ kbs"
+
+#. i18n: file: encoderlameconfig.ui:361
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:467
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:570
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:678
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:204 rc.cpp:258 rc.cpp:309 rc.cpp:360
+msgid "256 kbs"
+msgstr "२५६ kbs"
+
+#. i18n: file: encoderlameconfig.ui:366
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_max_brate)
+#. i18n: file: encoderlameconfig.ui:472
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_mean_brate)
+#. i18n: file: encoderlameconfig.ui:575
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_vbr_min_brate)
+#. i18n: file: encoderlameconfig.ui:683
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:207 rc.cpp:261 rc.cpp:312 rc.cpp:363
+msgid "320 kbs"
+msgstr "३२० kbs"
+
+#. i18n: file: encoderlameconfig.ui:377
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_vbr_max_br)
+#: rc.cpp:210
+msgid "Maximal bi&trate:"
+msgstr "अधिकतम बिटरेट:"
+
+#. i18n: file: encoderlameconfig.ui:387
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_vbr_xing_tag)
+#: rc.cpp:216
+msgid "Write &Xing VBR tag"
+msgstr "Xing VBR ट्याग लेख्नुहोस्"
+
+#. i18n: file: encoderlameconfig.ui:393
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_vbr_xing_tag)
+#: rc.cpp:219
+msgid ""
+"This writes additional information related to VBR as introduced by Xing."
+msgstr ""
+"यसले Xing द्वारा परिचय गराए जस्तै VBR सँग सम्बन्धित थप सूचना लेख्दछ ।"
+
+#. i18n: file: encoderlameconfig.ui:483
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_vbr_min_hard)
+#: rc.cpp:264
+msgid "Minimal &value is a hard limit"
+msgstr "न्युनतम मान कठिन सिमा हो"
+
+#. i18n: file: encoderlameconfig.ui:493
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_vbr_min_br)
+#: rc.cpp:267
+msgid "Minimal &bitrate:"
+msgstr "न्युनतम बिटरेट:"
+
+#. i18n: file: encoderlameconfig.ui:496
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_vbr_min_br)
+#: rc.cpp:270
+msgid "This selects the minimal bitrate used for encoding."
+msgstr "यसले सङ्केतनका लागि प्रयोग गरेको न्युनतम बिटरेट चयन गर्दछ ।"
+
+#. i18n: file: encoderlameconfig.ui:598
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#: rc.cpp:318
+msgid "Bitrate:"
+msgstr "बिटरेट:"
+
+#. i18n: file: encoderlameconfig.ui:614
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_cbr_bitrate)
+#: rc.cpp:321
+msgid ""
+"The higher the bitrate, the better the quality and the larger the file."
+msgstr "उच्च बिटरेट हुँदा गुणस्तर राम्रो र फाइल लामो हुन्छ ।"
+
+#. i18n: file: encoderlameconfig.ui:694
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox83_2)
+#: rc.cpp:366
+msgid "Filter Settings"
+msgstr "फिल्टर सेटिङ"
+
+#. i18n: file: encoderlameconfig.ui:709
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enable_lowpass)
+#: rc.cpp:369
+msgid "Apply &lowpass filter above"
+msgstr ""
+
+#. i18n: file: encoderlameconfig.ui:719
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_lowfilterfreq)
+#. i18n: file: encoderlameconfig.ui:739
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_highfilterfreq)
+#. i18n: file: encoderlameconfig.ui:762
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_lowfilterwidth)
+#. i18n: file: encoderlameconfig.ui:785
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_highfilterwidth)
+#: rc.cpp:372 rc.cpp:378 rc.cpp:384 rc.cpp:390
+msgid " Hz"
+msgstr " Hz"
+
+#. i18n: file: encoderlameconfig.ui:729
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enable_highpass)
+#: rc.cpp:375
+msgid "Apply &highpass filter below"
+msgstr ""
+
+#. i18n: file: encoderlameconfig.ui:752
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_set_lpf_width)
+#: rc.cpp:381
+msgid "Low&pass filter width"
+msgstr "न्यूनपास फिल्टर चौडाइ"
+
+#. i18n: file: encoderlameconfig.ui:775
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_set_hpf_width)
+#: rc.cpp:387
+msgid "Highpa&ss filter width"
+msgstr "उच्चपास फिल्टर चौडाइ"

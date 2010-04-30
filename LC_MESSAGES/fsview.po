@@ -1,0 +1,374 @@
+# translation of fsview.po to Nepali
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: fsview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-02-12 23:08+0000\n"
+"PO-Revision-Date: 2009-07-10 16:41+0000\n"
+"Last-Translator: Nabin Gautam <Unknown>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-02-21 01:48+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: fsview.cpp:52 fsview.cpp:390
+msgid "Name"
+msgstr "नाम"
+
+#: fsview.cpp:53
+msgid "Size"
+msgstr "साइज"
+
+#: fsview.cpp:54
+msgid "File Count"
+msgstr "फाइल गणना गर्नुहोस्"
+
+#: fsview.cpp:55
+msgid "Directory Count"
+msgstr "डाइरेक्टरी गणना गर्नुहोस्"
+
+#: fsview.cpp:56
+msgid "Last Modified"
+msgstr "अन्तिम परिमार्जित"
+
+#: fsview.cpp:57 fsview.cpp:391
+msgid "Owner"
+msgstr "मालिक"
+
+#: fsview.cpp:58 fsview.cpp:392
+msgid "Group"
+msgstr "समूह"
+
+#: fsview.cpp:59 fsview.cpp:393
+msgid "Mime Type"
+msgstr "माइम प्रकार"
+
+#: fsview.cpp:281
+msgid "Go To"
+msgstr "यसमा जानुहोस्"
+
+#: fsview.cpp:283
+msgid "Go Up"
+msgstr "माथि जानुहोस्"
+
+#: fsview.cpp:285
+msgid "Stop Refresh"
+msgstr "ताजा पार्न रोक्नुहोस्"
+
+#: fsview.cpp:287
+msgid "Refresh"
+msgstr "ताजा पार्नुहोस्"
+
+#: fsview.cpp:290
+#, kde-format
+msgid "Refresh '%1'"
+msgstr "'%1' ताजा पार्नुहोस्"
+
+#: fsview.cpp:293 fsview_part.cpp:131
+msgid "Stop at Depth"
+msgstr "गहिराइमा रोक्नुहोस्"
+
+#: fsview.cpp:295 fsview_part.cpp:128
+msgid "Stop at Area"
+msgstr "क्षेत्रमा रोक्नुहोस्"
+
+#: fsview.cpp:297
+msgid "Stop at Name"
+msgstr "नाममा रोक्नुहोस्"
+
+#: fsview.cpp:303 fsview_part.cpp:138
+msgid "Color Mode"
+msgstr "रङ मोड"
+
+#: fsview.cpp:306 fsview_part.cpp:134
+msgid "Visualization"
+msgstr "दृश्यकरण"
+
+#: fsview.cpp:388
+msgid "None"
+msgstr "कुनै पनि होइन"
+
+#: fsview.cpp:389
+msgid "Depth"
+msgstr "गहिराइ"
+
+#: fsview_part.cpp:82
+#, kde-format
+msgid "Read 1 folder, in %2"
+msgid_plural "Read %1 folders, in %2"
+msgstr[0] "%2 मा, १ फोल्डर पढ्नुहोस्"
+msgstr[1] "%2n मा %1 फोल्डर पढ्नुहोस्"
+
+#: fsview_part.cpp:87
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "१ फोल्डर"
+msgstr[1] "%1 फोल्डर"
+
+#: fsview_part.cpp:96 main.cpp:21
+msgid "FSView"
+msgstr "एफएसदृश्य"
+
+#: fsview_part.cpp:97
+msgid "Filesystem Utilization Viewer"
+msgstr "फाइल प्रणाली उपयोगिता द्रष्टा"
+
+#: fsview_part.cpp:99
+msgid "(c) 2003-2005, Josef Weidendorfer"
+msgstr "(c) 2003-2005, Josef Weidendorfer"
+
+#: fsview_part.cpp:112
+msgid ""
+"<p>This is the FSView plugin, a graphical browsing mode showing filesystem "
+"utilization by using a tree map visualization.</p><p>Note that in this mode, "
+"automatic updating when filesystem changes are made is intentionally "
+"<b>not</b> done.</p><p>For details on usage and options available, see the "
+"online help under menu 'Help/FSView Manual'.</p>"
+msgstr ""
+"<p>यो एफएसदृश्य प्लगइन हो, ट्री म्याप दृश्यकरण प्रयोग गरेर फाइल प्रणाली "
+"उपयोगिता देखाइरहेको ग्राफिकल ब्राउजिङ मोड हो ।</p><p>याद गर्नुहोस् कि यो "
+"मोडमा, फाइलप्रणाली परिवर्तनहरू स्वच्छाले नगर्दा <b>स्वचालित रूपमा</b> "
+"अद्यावधिक भइरहन्छ ।</p><p>उपलब्ध उपयोग र विकल्पमा विस्तृत विवरणका लागि, तल "
+"मेनु 'Help/FSView Manual' अन्तर्गत अनलाइन मद्दत हेर्नुहोस् ।</p>"
+
+#: fsview_part.cpp:144
+msgid "&FSView Manual"
+msgstr "एफएसदृश्य म्यानुअल"
+
+#: fsview_part.cpp:146
+msgid "Show FSView manual"
+msgstr "एफएसदृश्य म्यानुअल देखाउनुहोस्"
+
+#: fsview_part.cpp:147
+msgid "Opens the help browser with the FSView documentation"
+msgstr "एफएसदृश्य मिसिलिकरणसँग मद्दत ब्राउजर खोल्दछ"
+
+#: fsview_part.cpp:187
+msgctxt "@action:inmenu File"
+msgid "Move to Trash"
+msgstr ""
+
+#: fsview_part.cpp:195
+msgctxt "@action:inmenu File"
+msgid "Delete"
+msgstr ""
+
+#: fsview_part.cpp:200
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr ""
+
+#: fsview_part.cpp:204
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr ""
+
+#: fsview_part.cpp:245
+msgid ""
+"FSView intentionally does not support automatic updates when changes are "
+"made to files or directories, currently visible in FSView, from the "
+"outside.\n"
+"For details, see the 'Help/FSView Manual'."
+msgstr ""
+"बाहिरबाट, एफएसदृश्यमा हालै दृश्यात्मक भएको, डाइरेक्टरी वा फाइलमा परिवर्तनहरू "
+"बनाउँदा एफएसदृश्यले स्वेच्छिक स्वचालित अद्यावधिकहरू समर्थन गर्दैन ।\n"
+"विस्तृत विवरणका लागि, 'Help/FSview Manual' हेर्नुहोस् ।"
+
+#: main.cpp:22
+msgid "Filesystem Viewer"
+msgstr "फाइल प्रणाली द्रष्टा"
+
+#: main.cpp:24
+msgid "(c) 2002, Josef Weidendorfer"
+msgstr "(c) 2002, Josef Weidendorfer"
+
+#: main.cpp:28
+msgid "View filesystem starting from this folder"
+msgstr "यो फोल्डरबाट सुरु भएको फाइलप्रणाली हेर्नुहोस्"
+
+#. i18n: file: fsview_part.rc:4
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:3
+msgid "&Edit"
+msgstr ""
+
+#. i18n: file: fsview_part.rc:13
+#. i18n: ectx: Menu (view)
+#: rc.cpp:6
+msgid "&View"
+msgstr "दृश्य"
+
+#. i18n: file: fsview_part.rc:20
+#. i18n: ectx: Menu (help)
+#: rc.cpp:9
+msgid "&Help"
+msgstr "मद्दत"
+
+#: rc.cpp:10
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Arne Goetje,Nabin Gautam"
+
+#: rc.cpp:11
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyamkrishna_bal@yahoo.com,,,arne.goetje@canonical.com,"
+
+#: treemap.cpp:1328
+#, kde-format
+msgid "Text %1"
+msgstr "पाठ %1"
+
+#: treemap.cpp:2860
+msgid "Recursive Bisection"
+msgstr "पुरनावृत्तिक द्विभाजन"
+
+#: treemap.cpp:2861
+msgid "Columns"
+msgstr "स्तम्भहरू"
+
+#: treemap.cpp:2862
+msgid "Rows"
+msgstr "पङ्क्तिहरू"
+
+#: treemap.cpp:2863
+msgid "Always Best"
+msgstr "सधै सबै भन्दा उत्तम"
+
+#: treemap.cpp:2864
+msgid "Best"
+msgstr "सबै भन्दा उत्तम"
+
+#: treemap.cpp:2865
+msgid "Alternate (V)"
+msgstr "विकल्प (भी)"
+
+#: treemap.cpp:2866
+msgid "Alternate (H)"
+msgstr "विकल्प (एच)"
+
+#: treemap.cpp:2867
+msgid "Horizontal"
+msgstr "तेर्सो"
+
+#: treemap.cpp:2868
+msgid "Vertical"
+msgstr "ठाडो"
+
+#: treemap.cpp:2923
+msgid "Nesting"
+msgstr "नेस्टिङ"
+
+#: treemap.cpp:2925
+msgid "Border"
+msgstr "किनारा"
+
+#: treemap.cpp:2926
+msgid "Correct Borders Only"
+msgstr "किनारा मात्र सुधार गर्नुहोस्"
+
+#: treemap.cpp:2928 treemap.cpp:2929 treemap.cpp:2930 treemap.cpp:2931
+#, kde-format
+msgid "Width %1"
+msgstr "चौडाइ %1"
+
+#: treemap.cpp:2938
+msgid "Allow Rotation"
+msgstr "परिक्रमण अनुमति दिनुहोस्"
+
+#: treemap.cpp:2940
+msgid "Shading"
+msgstr "छायाँ पार्दै"
+
+#: treemap.cpp:2953
+msgid "Visible"
+msgstr "दृश्यात्मक"
+
+#: treemap.cpp:2954
+msgid "Take Space From Children"
+msgstr "शाखाबाट खाली स्थान लिनुहोस्"
+
+#: treemap.cpp:2956
+msgid "Top Left"
+msgstr "माथि बायाँ"
+
+#: treemap.cpp:2957
+msgid "Top Center"
+msgstr "माथि केन्द्र"
+
+#: treemap.cpp:2958
+msgid "Top Right"
+msgstr "माथि दायाँ"
+
+#: treemap.cpp:2959
+msgid "Bottom Left"
+msgstr "तल बायाँ"
+
+#: treemap.cpp:2960
+msgid "Bottom Center"
+msgstr "तल केन्द्र"
+
+#: treemap.cpp:2961
+msgid "Bottom Right"
+msgstr "तल दायाँ"
+
+#: treemap.cpp:3038
+#, kde-format
+msgid "No %1 Limit"
+msgstr "%1 सीमा छैन"
+
+#: treemap.cpp:3090
+msgid "No Area Limit"
+msgstr "सीमा क्षेत्र छैन"
+
+#: treemap.cpp:3096
+#, kde-format
+msgid "Area of '%1' (%2)"
+msgstr "'%1' (%2) को क्षेत्र"
+
+#: treemap.cpp:3107 treemap.cpp:3118
+#, kde-format
+msgid "1 Pixel"
+msgid_plural "%1 Pixels"
+msgstr[0] "१ पिक्सेल"
+msgstr[1] "%1 पिक्सेल"
+
+#: treemap.cpp:3122
+#, kde-format
+msgid "Double Area Limit (to %1)"
+msgstr "(%1 मा) डबल क्षेत्र सीमा"
+
+#: treemap.cpp:3124
+#, kde-format
+msgid "Halve Area Limit (to %1)"
+msgstr "(%1 मा) क्षेत्र सीमा छ"
+
+#: treemap.cpp:3155
+msgid "No Depth Limit"
+msgstr "गहिराइ सीमा छैन"
+
+#: treemap.cpp:3161
+#, kde-format
+msgid "Depth of '%1' (%2)"
+msgstr "'%1' (%2) को गहिराइ"
+
+#: treemap.cpp:3172 treemap.cpp:3183
+#, kde-format
+msgid "Depth %1"
+msgstr "गहिराइ %1"
+
+#: treemap.cpp:3187
+#, kde-format
+msgid "Decrement (to %1)"
+msgstr "(%1 मा) ह्रास"
+
+#: treemap.cpp:3189
+#, kde-format
+msgid "Increment (to %1)"
+msgstr "(%1 मा) वृद्धि"
