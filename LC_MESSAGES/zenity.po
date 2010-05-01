@@ -1,40 +1,39 @@
 # translation of zenity.gnome-2-20.ne.po to Nepali
 # Jyotshna Shrestha <shresthajyo@hotmail.com>, 2005.
 # Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: zenity.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-11-06 04:16+0000\n"
-"PO-Revision-Date: 2009-11-06 19:37+0000\n"
-"Last-Translator: Shyam Krishna Bal <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-01 14:21+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-20 22:34+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../src/about.c:64
-msgid ""
-"This program is free software; you can redistribute it and/or modify it "
+msgid "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
-msgstr ""
-"यो कार्यक्रम निशुल्क सफ्टवेयर हो; तपाईँ यसलाई स्वतन्त्र सफ्टवेयर "
+msgstr "यो प्रोग्राम स्वतन्त्र सफ्टवेयर हो; तपाईँ यसलाई स्वतन्त्र सफ्टवेयर "
 "संस्थाद्वारा प्रकाशन गरिएको जीएनयू साधरण सार्वजनिक इजाजतपत्रको शर्त अन्तर्गत "
 "पुन: वितरण र/वा परिमार्जन गर्न सक्नुहुन्छ; यार त इजाजतपत्रको संस्करण २, वा "
 "(विकल्पमा) पछिल्लो कुनै संस्करण ।\n"
 
 #: ../src/about.c:68
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
-msgstr ""
-"यो कार्यक्रम भविष्यमा उपयोगी हुनेछ भन्ने आशामा वितरण गरिएको हो, तर कुनै "
+msgstr "यो कार्यक्रम भविष्यमा उपयोगी हुनेछ भन्ने आशामा वितरण गरिएको हो, तर कुनै "
 "निश्चितता बिना; निश्चित उद्देश्यका लागि मर्कान्टाबिलिटि वा फिट्नेसको लागू "
 "गरेको निश्चितता बिना वितरण गरिएको हो । विस्तृत विवरणका लागि जीएनयू साधरण "
 "सार्वजनिक इजाजतपत्र हेर्नुहोस् ।\n"
@@ -52,20 +51,20 @@ msgstr ""
 #: ../src/about.c:265
 msgid "translator-credits"
 msgstr ""
-"श्यामकृष्ण बल <balshyam24@yahoo.com>\n"
+"श्यामकृष्ण बल <balshyam24@yahoo.com>, जितेन्द्र "
+"हरलालका<jitendra@otrc.gov.np>\n"
 "\n"
 "Launchpad Contributions:\n"
 "  Jyotshna Shrestha https://launchpad.net/~shresthajyo"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
-msgstr "शेल स्क्रिप्टबाट संवाद बाकस प्रदर्शन गर्नुहोस्"
+msgstr "सेल स्क्रिप्टबाट संवाद बाक्स प्रदर्शन गर्नुहोस्"
 
 #: ../src/main.c:94
 #, c-format
 msgid "You must specify a dialog type. See 'zenity --help' for details\n"
-msgstr ""
-"तपाईँले संवाद प्रकार निर्दिष्ट गर्नुपर्छ । विस्तृतका लागि 'zenity --help' "
+msgstr "तपाईँले संवाद प्रकार निर्दिष्ट गर्नुपर्छ । विस्तृतका लागि 'zenity --help' "
 "हेर्नुहोस्\n"
 
 #: ../src/notification.c:138
@@ -75,12 +74,12 @@ msgstr "stdin बाट आदेश पद वर्णन गर्न सक�
 
 #: ../src/notification.c:251 ../src/notification.c:268
 msgid "Zenity notification"
-msgstr "जेनिटि सूचना"
+msgstr "जेनिटी सूचना"
 
 #: ../src/scale.c:56
 #, c-format
 msgid "Maximum value must be greater than minimum value.\n"
-msgstr "अधिक्तम मान न्यूनतम मान भन्दा ठूलो हुनुपर्छ ।\n"
+msgstr "अधिकतम मान न्यूनतम मान भन्दा ठूलो हुनुपर्छ ।\n"
 
 #: ../src/scale.c:63
 #, c-format
@@ -143,7 +142,7 @@ msgstr "प्रश्न"
 
 #: ../src/zenity.ui.h:12
 msgid "Running..."
-msgstr "सञ्चालन भइरहेछ..."
+msgstr "चल्दैछ..."
 
 #: ../src/zenity.ui.h:13
 msgid "Select a date from below."
@@ -167,7 +166,7 @@ msgstr "चेतावनी"
 
 #: ../src/zenity.ui.h:18
 msgid "_Enter new text:"
-msgstr "नयाँ पाठ प्रविष्ट गर्नुहोस्:"
+msgstr "नयाँ पाठ हाल्नुहोस्:"
 
 #: ../src/option.c:120
 msgid "Set the dialog title"
@@ -179,7 +178,7 @@ msgstr "शीर्षक"
 
 #: ../src/option.c:129
 msgid "Set the window icon"
-msgstr "सञ्झ्याल प्रतिमा सेट गर्नुहोस्"
+msgstr "विन्डो आइकन सेट गर्नुहोस्"
 
 #: ../src/option.c:130
 msgid "ICONPATH"
@@ -208,7 +207,7 @@ msgstr "सेकेन्डमा संवाद समाप्ति से
 #. Timeout for closing the dialog
 #: ../src/option.c:158
 msgid "TIMEOUT"
-msgstr ""
+msgstr "समय समाप्त"
 
 #: ../src/option.c:172
 msgid "Display calendar dialog"
@@ -324,12 +323,12 @@ msgstr "यदि फाइलनाम पहिल्यै अवस्थि
 
 #: ../src/option.c:404
 msgid "Sets a filename filter"
-msgstr ""
+msgstr "फाइलनाम फिल्टर सेट गर्दछ"
 
 #. Help for file-filter argument (name and patterns for file selection)
 #: ../src/option.c:406
 msgid "NAME | PATTERN1 PATTERN2 ..."
-msgstr ""
+msgstr "नाम | बाँन्की१ बाँन्की२ ..."
 
 #: ../src/option.c:420
 msgid "Display list dialog"
@@ -421,11 +420,11 @@ msgstr "प्रश्न संवाद प्रदर्शन गर्न
 
 #: ../src/option.c:630
 msgid "Sets the label of the Ok button"
-msgstr ""
+msgstr "ठीक छ बटनको लेबल सेट गर्दछ"
 
 #: ../src/option.c:639
 msgid "Sets the label of the Cancel button"
-msgstr ""
+msgstr "रद्द गर्नुहोस् बटनको लेबल सेट गर्दछ"
 
 #: ../src/option.c:663
 msgid "Display text information dialog"
