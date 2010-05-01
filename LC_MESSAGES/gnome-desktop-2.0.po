@@ -3,21 +3,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-desktop package.
 # Pawan Chitrakar <pawan@nplinux.org>.
-#
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-desktop.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-18 02:25+0000\n"
-"PO-Revision-Date: 2010-02-18 04:47+0000\n"
-"Last-Translator: Narayan Kumar Magar <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-01 13:24+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 01:08+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 "First-Translator: Suman Raj Tiwari <tiwarisuman@hotmail.com>\n"
 
 #: ../gnome-about/gnome-about.desktop.in.in.h:1
@@ -59,11 +61,11 @@ msgstr "वान्डा जिनोम माछा"
 
 #: ../gnome-about/gnome-about.in:567
 msgid "_Open URL"
-msgstr ""
+msgstr "युआरएल खोल्नुहोस्"
 
 #: ../gnome-about/gnome-about.in:574
 msgid "_Copy URL"
-msgstr ""
+msgstr "URL प्रतिलिपि गर्नुहोस्"
 
 #: ../gnome-about/gnome-about.in:826
 msgid "About the GNOME Desktop"
@@ -71,7 +73,7 @@ msgstr "जिनोम डेस्कटपको बारेमा"
 
 #: ../gnome-about/gnome-about.in:859
 msgid "%(name)s: %(value)s"
-msgstr ""
+msgstr "%(name)s: %(value)s"
 
 #: ../gnome-about/gnome-about.in:873
 msgid "Welcome to the GNOME Desktop"
@@ -83,7 +85,7 @@ msgstr "प्रस्तुतकर्ता:"
 
 #: ../gnome-about/gnome-about.in:914
 msgid "<b>%(name)s:</b> %(value)s"
-msgstr ""
+msgstr "<b>%(name)s:</b> %(value)s"
 
 #: ../gnome-about/gnome-about.in:975
 msgid "Version"
@@ -91,7 +93,7 @@ msgstr "संस्करण"
 
 #: ../gnome-about/gnome-about.in:977
 msgid "Distributor"
-msgstr "बितरक"
+msgstr "वितरक"
 
 #: ../gnome-about/gnome-about.in:979
 msgid "Build Date"
@@ -122,8 +124,8 @@ msgstr ""
 #. the translations.
 #: ../gnome-version.xml.in.in.h:6
 msgid ""
-"GNOME is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
+"GNOME is a Free, usable, stable, accessible desktop environment for the "
+"Unix-like family of operating systems."
 msgstr ""
 "सञ्चालन प्रणालीको युनिक्स-जस्तै परिवारका लागि जीनोम स्वतन्त्र, उपयोगी, "
 "स्थायी, पहुँचयोग्य डेस्कटप परिवेश हो ।"
@@ -133,7 +135,7 @@ msgid ""
 "GNOME's focus on usability and accessibility, regular release cycle, and "
 "strong corporate backing make it unique among Free Software desktops."
 msgstr ""
-"निःशुल्क सफ्टवेयर मण्डलाहरूका बीच जिनोम आफ्ना यी विशेषताहरूका कारण बेजोड छ: "
+"स्वतनत्र सफ्टवेयर डेस्कटपका बीच जिनोम आफ्ना यी विशेषताहरूका कारण बेजोड छ: "
 "उपयोगिता र पहुँचमा संकेन्द्रीकरण, नियमित रिलिज चक्र र सशक्त संस्थानहरूको "
 "समर्थन।"
 
@@ -158,11 +160,11 @@ msgstr ""
 
 #: ../libgnome-desktop/display-name.c:262
 msgid "Laptop"
-msgstr ""
+msgstr "ल्यापटप"
 
 #: ../libgnome-desktop/display-name.c:270
 msgid "Unknown"
-msgstr ""
+msgstr "अज्ञात"
 
 #: ../libgnome-desktop/gnome-desktop-item.c:221
 #, c-format
@@ -226,37 +228,37 @@ msgstr "यसको अज्ञात संकेतन: %s"
 
 #: ../libgnome-desktop/gnome-desktop-utils.c:133
 msgid "Cannot find a terminal, using xterm, even if it may not work"
-msgstr ""
+msgstr "टर्मिनल फेला परेन, xterm प्रयोग गर्दै, यद्यपि यसले काम नगर्न सक्छ"
 
 #: ../libgnome-desktop/gnome-rr.c:406
 #, c-format
 msgid "could not get the screen resources (CRTCs, outputs, modes)"
-msgstr ""
+msgstr "स्क्रिन स्रोतहरु (CRTCs,आउटपुट, मोड) पाउन सकेन"
 
 #: ../libgnome-desktop/gnome-rr.c:426
 #, c-format
 msgid "unhandled X error while getting the range of screen sizes"
-msgstr ""
+msgstr "स्क्रिन साइजको विस्तार पाउन खोज्दा अनियन्त्रित X त्रुटि"
 
 #: ../libgnome-desktop/gnome-rr.c:432
 #, c-format
 msgid "could not get the range of screen sizes"
-msgstr ""
+msgstr "स्क्रिन साइजको विस्तार पाउन सकेन्"
 
 #: ../libgnome-desktop/gnome-rr.c:636
 #, c-format
 msgid "RANDR extension version 1.2 or later is not present"
-msgstr ""
+msgstr "RANDR विस्तार संस्करण १.२ वा पछिल्लो उपस्थित छैन्"
 
 #: ../libgnome-desktop/gnome-rr.c:665
 #, c-format
 msgid "RANDR extension is not present"
-msgstr ""
+msgstr "RANDR विस्तार उपस्थित छैन"
 
 #: ../libgnome-desktop/gnome-rr.c:931
 #, c-format
 msgid "could not get information about output %d"
-msgstr ""
+msgstr "आउटपुट %d को बारे जानकारी पाउन सकेन"
 
 #. Translators: the "position", "size", and "maximum"
 #. * words here are not keywords; please translate them
@@ -264,19 +266,21 @@ msgstr ""
 #: ../libgnome-desktop/gnome-rr.c:1269
 #, c-format
 msgid ""
-"requested position/size for CRTC %d is outside the allowed limit: "
-"position=(%d, %d), size=(%d, %d), maximum=(%d, %d)"
+"requested position/size for CRTC %d is outside the allowed limit: position=("
+"%d, %d), size=(%d, %d), maximum=(%d, %d)"
 msgstr ""
+"CRTC %d का लागि अनुरोध गरिएको स्थान/साइज मान्य सीमा बाहिर छ: स्थान=(%d, %d) "
+"साइज=(%d, %d) अधिकतम=(%d, %d)"
 
 #: ../libgnome-desktop/gnome-rr.c:1305
 #, c-format
 msgid "could not set the configuration for CRTC %d"
-msgstr ""
+msgstr "CRTC %d का लागि कन्फिगरेसन स्थापित गर्न सकेन"
 
 #: ../libgnome-desktop/gnome-rr.c:1417
 #, c-format
 msgid "could not get information about CRTC %d"
-msgstr ""
+msgstr "CRTC %d को बारे जानकारी पाउन सकेन"
 
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
@@ -287,11 +291,13 @@ msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
 msgstr ""
+"आवश्यक भर्चुअल साइल उपलब्ध साइजमा अँटदैन: अनुरोध गरिएको=(%d, %d), न्यूनतम=(%"
+"d, %d), अधिकतम=(%d, %d)"
 
 #: ../libgnome-desktop/gnome-rr-config.c:1957
 #, c-format
 msgid "could not find a suitable configuration of screens"
-msgstr ""
+msgstr "स्क्रिनहरुको उपयुक्त कन्फिगरेसन फेला परेन"
 
 #. Keep this string in sync with gnome-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
@@ -301,4 +307,4 @@ msgstr ""
 #. 
 #: ../libgnome-desktop/gnome-rr-labeler.c:210
 msgid "Mirror Screens"
-msgstr ""
+msgstr "स्क्रिन दर्पंण"
