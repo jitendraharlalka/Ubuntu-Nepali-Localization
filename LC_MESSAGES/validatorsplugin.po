@@ -1,44 +1,46 @@
 # translation of validatorsplugin.po to Nepali
 # shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: validatorsplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-02-12 23:08+0000\n"
-"PO-Revision-Date: 2010-02-13 20:22+0000\n"
-"Last-Translator: Nabin Gautam <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-01 11:25+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 02:01+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: plugin_validators.cpp:60
 msgid "Validate Web Page"
-msgstr "वेब पृष्ठ प्रमाणित गर्नुहोस्"
+msgstr "वेब पृष्ठ प्रमाणीकरण गर्नुहोस्"
 
 #: plugin_validators.cpp:131
 msgid "&Validate Web Page"
-msgstr "वेब पृष्ठ प्रमाणित गर्नुहोस्"
+msgstr "वेब पृष्ठ प्रमाणीकरण गर्नुहोस्"
 
 #: plugin_validators.cpp:137
 msgid "Validate HTML (by URI)"
-msgstr ""
+msgstr "HTML प्रमाणीकरण गर्नुहोस् (URI द्वारा)"
 
 #: plugin_validators.cpp:141
 msgid "Validate HTML (by Upload)"
-msgstr ""
+msgstr "HTML प्रमाणीकरण गर्नुहोस् (अपलोड द्वारा)"
 
 #: plugin_validators.cpp:145
 msgid "Validate CSS (by URI)"
-msgstr ""
+msgstr "CSS प्रमाणीकरण गर्नुहोस् (URI द्वारा)"
 
 #: plugin_validators.cpp:149
 msgid "Validate CSS (by Upload)"
-msgstr ""
+msgstr "CSS प्रमाणीकरण गर्नुहोस् (अपलोड द्वारा)"
 
 #: plugin_validators.cpp:154
 msgid "Validate &Links"
@@ -46,23 +48,23 @@ msgstr "लिङ्क प्रमाणित गर्नुहोस्"
 
 #: plugin_validators.cpp:160
 msgid "Validate Page"
-msgstr ""
+msgstr "पृष्ठ प्रमाणीकरण गर्नुहोस्"
 
 #: plugin_validators.cpp:164
 msgid "View Validator Report"
-msgstr ""
+msgstr "प्रमाणीकरणकर्ता प्रतिवेदन हेर्नुहोस्"
 
 #: plugin_validators.cpp:172
 msgid "C&onfigure Validator..."
-msgstr "वैधताकर्ता कन्फिगर गर्नुहोस्..."
+msgstr "प्रमाणीकरणकर्ता कन्फिगर गर्नुहोस्..."
 
 #: plugin_validators.cpp:318 validatorsdialog.cpp:49
 msgid "Remote Validation"
-msgstr ""
+msgstr "सूदुर प्रमाणीकरण"
 
 #: plugin_validators.cpp:325
 msgid "Local Validation"
-msgstr ""
+msgstr "स्थानिय प्रमाणीकरण"
 
 #: plugin_validators.cpp:364 plugin_validators.cpp:385
 #: plugin_validators.cpp:391 plugin_validators.cpp:402
@@ -70,8 +72,8 @@ msgstr ""
 #, kde-format
 msgid "1 error"
 msgid_plural "%1 errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ त्रुटि"
+msgstr[1] "%1 त्रुटि"
 
 #: plugin_validators.cpp:365 plugin_validators.cpp:386
 #: plugin_validators.cpp:392 plugin_validators.cpp:403
@@ -79,26 +81,26 @@ msgstr[1] ""
 #, kde-format
 msgid "1 warning"
 msgid_plural "%1 warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ चेतावनी"
+msgstr[1] "%1 चेतावनी"
 
 #: plugin_validators.cpp:366 plugin_validators.cpp:387
 #: plugin_validators.cpp:404
 #, kde-format
 msgid "1 accessibility warning"
 msgid_plural "%1 accessibility warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ सुगम्यता चेतावनी"
+msgstr[1] "%1 सुगम्यता चेतावनी"
 
 #: plugin_validators.cpp:368
 #, kde-format
 msgctxt "%1 is the error count string, %2 the warning count string"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: plugin_validators.cpp:370
 msgid "HTML tidy results:"
-msgstr ""
+msgstr "HTML सुव्यवस्थित परिणाम:"
 
 #: plugin_validators.cpp:384
 #, kde-format
@@ -106,13 +108,13 @@ msgctxt ""
 "%1 is the error count string, %2 the warning count string, %3 the "
 "accessibility warning string"
 msgid "Page: %1, %2, %3"
-msgstr ""
+msgstr "पृष्ठ: %1, %2, %3"
 
 #: plugin_validators.cpp:390
 #, kde-format
 msgctxt "%1 is the error count string, %2 the warning count string"
 msgid "Page: %1, %2"
-msgstr ""
+msgstr "पृष्ठ: %1, %2"
 
 #: plugin_validators.cpp:400
 #, kde-format
@@ -120,7 +122,7 @@ msgctxt ""
 "%1 is the HTML frame name, %2 is the error count string, %3 the warning "
 "count string, %4 the accessibility warning string"
 msgid "Frame '%1': %2, %3, %4"
-msgstr ""
+msgstr "फ्रेम '%1': %2, %3, %4"
 
 #: plugin_validators.cpp:408
 #, kde-format
@@ -128,7 +130,7 @@ msgctxt ""
 "%1 is the HTML frame name, %2 is the error count string, %3 the warning "
 "count string"
 msgid "Frame '%1': %2, %3"
-msgstr ""
+msgstr "फ्रेम '%1': %2, %3"
 
 #: plugin_validators.cpp:461
 #, kde-format
@@ -147,7 +149,7 @@ msgstr "स्रोत प्रमाणीत गर्न सकिँदै
 #: plugin_validators.cpp:535
 msgid "You cannot validate anything except web pages with this plugin."
 msgstr ""
-"तपाईँले यो वेब प्लगइनद्वारा वेब पृष्ठहरू बाहेक केही पनि प्रमाणित गर्न "
+"तपाईँले यो वेब प्लगइनद्वारा वेब पृष्ठहरू बाहेक केही पनि प्रमाणीकरण गर्न "
 "सक्नुहुन्न ।"
 
 #: plugin_validators.cpp:546
@@ -162,37 +164,37 @@ msgstr ""
 
 #: plugin_validators.cpp:573
 msgid "Validation"
-msgstr ""
+msgstr "प्रमाणीकरण"
 
 #. i18n: file: internalvalidator.ui:18
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3
 msgid "Accessibility validation level:"
-msgstr ""
+msgstr "सुगम्यता प्रमाणीकरण स्तर:"
 
 #. i18n: file: internalvalidator.ui:26
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: rc.cpp:6
 msgid "0 (No check)"
-msgstr ""
+msgstr "० (कुनै जाँच छैन्)"
 
 #. i18n: file: internalvalidator.ui:31
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: rc.cpp:9
 msgid "1"
-msgstr ""
+msgstr "१"
 
 #. i18n: file: internalvalidator.ui:36
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: rc.cpp:12
 msgid "2"
-msgstr ""
+msgstr "२"
 
 #. i18n: file: internalvalidator.ui:41
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: rc.cpp:15
 msgid "3"
-msgstr ""
+msgstr "३"
 
 #. i18n: file: internalvalidator.ui:49
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, runAfterLoading)
@@ -201,12 +203,14 @@ msgid ""
 "If this option is enabled, the internal HTML validator is executed after a "
 "webpage has been loaded."
 msgstr ""
+"यो विकल्प सक्षम पारिएमा, वेबपेज लोड भए पछि आन्तरिक HTML प्रमाणीकरणकर्ता जारी "
+"हुनेछ ।"
 
 #. i18n: file: internalvalidator.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, runAfterLoading)
 #: rc.cpp:21
 msgid "Run after loading"
-msgstr ""
+msgstr "लोड गरेपछि चलाउने"
 
 #. i18n: file: plugin_validators.rc:4
 #. i18n: ectx: Menu (tools)
@@ -260,59 +264,62 @@ msgstr "लिङ्क वैधताकर्ता"
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: rc.cpp:54
 msgid "Frame"
-msgstr ""
+msgstr "फ्रेम"
 
 #. i18n: file: reportwidget.ui:39
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: rc.cpp:57
 msgid "Row"
-msgstr ""
+msgstr "पङक्ति"
 
 #. i18n: file: reportwidget.ui:44
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: rc.cpp:60
 msgid "Column"
-msgstr ""
+msgstr "स्तम्भ"
 
 #. i18n: file: reportwidget.ui:49
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: rc.cpp:63
 msgid "Message"
-msgstr ""
+msgstr "सन्देश"
 
 #: rc.cpp:64
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Arne Goetje,Nabin Gautam"
+msgstr ""
+"श्यामकृष्ण बल, जितेन्द्र हरलालका ,Launchpad Contributions:,Arne Goetje,Nabin "
+"Gautam"
 
 #: rc.cpp:65
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "shyamkrishna_bal@yahoo.com,,,arne.goetje@canonical.com,"
+msgstr ""
+"shyamkrishna_bal@yahoo.com, jitendra@otrc.gov.np,,arne.goetje@canonical.com,"
 
 #: reportdialog.cpp:63
 msgid "Validation Report"
-msgstr ""
+msgstr "प्रमाणीकरण प्रतिवेदन"
 
 #: reportdialog.cpp:77
 msgctxt "Validation status"
 msgid "Error"
-msgstr ""
+msgstr "त्रुटि"
 
 #: reportdialog.cpp:85
 msgctxt "Validation status"
 msgid "Warning"
-msgstr ""
+msgstr "चेतावनी"
 
 #: reportdialog.cpp:93
 msgctxt "Validation status"
 msgid "Accessibility warning"
-msgstr ""
+msgstr "सुगम्यता चेतावनी"
 
 #: validatorsdialog.cpp:35
 msgid "Configure Validator Plugin"
-msgstr ""
+msgstr "वैधताकर्ता प्लगइन कन्फिगर गर्नुहोस्"
 
 #: validatorsdialog.cpp:42
 msgid "Internal Validation"
-msgstr ""
+msgstr "आन्तरिक प्रमाणीकरण"
