@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: f-spot\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-11 01:35+0000\n"
-"PO-Revision-Date: 2010-03-22 02:33+0545\n"
+"PO-Revision-Date: 2010-05-04 11:27+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -682,6 +682,8 @@ msgid ""
 "Cannot connect to a Gallery for which the version is unknown.\n"
 "Please check that you have Remote plugin 1.0.8 or later"
 msgstr ""
+"संस्करण अज्ञात भएको ग्यालरीमा जडान गर्न सक्दैन् ।\n"
+"कृपया तपाईसित सूदुर प्लगइन १.०.८ वा पछिल्लो छ भनेर जाँच्नुहोस्"
 
 #: ../extensions/Exporters/GalleryExport/GalleryExport.cs:391
 msgid "Invalid URL"
@@ -908,6 +910,8 @@ msgid ""
 "The selected album has a limit of {0} pictures,\n"
 "which would be passed with the current selection of {1} images"
 msgstr ""
+"छानिएको एल्बमसित {0} तस्वीरको सीमा छ,\n"
+"जुन {1} फोटोको हालको छनौटले पार गर्ने छ"
 
 #: ../extensions/Exporters/PicasaWebExport/PicasaWebExport.glade.h:3
 msgid "<b>PicasaWeb Export</b>"
@@ -1415,7 +1419,7 @@ msgstr "प्रतिलिपि अधिकार:"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInfoDialog.cs:71
 msgid "Extension Dependencies:"
-msgstr ""
+msgstr "बाहिरी निर्भरताहरु:"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInstallDialog.cs:97
 msgid "All registered repositories"
@@ -1512,7 +1516,7 @@ msgstr "अन्य"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/ManageSitesDialog.cs:52
 msgid "Url"
-msgstr ""
+msgstr "युआरएल"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/Services.cs:61
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/Services.cs:70
@@ -1689,7 +1693,7 @@ msgstr "८ x १०"
 
 #: ../src/Editors/CropEditor.cs:39
 msgid "Square"
-msgstr ""
+msgstr "वर्ग"
 
 #: ../src/Editors/CropEditor.cs:42
 msgid "Crop"
@@ -2014,7 +2018,7 @@ msgstr "वास्तविक साइज (सम्भवत: धेरै 
 
 #: ../src/f-spot.glade.h:64 ../src/UI.Dialog/ui/EditTagDialog.ui.h:4
 msgid "P_arent Tag:"
-msgstr ""
+msgstr "मूल ट्याग:"
 
 #: ../src/f-spot.glade.h:65
 msgid "Pause"
@@ -2195,7 +2199,7 @@ msgstr "मेटाडाटा हटाउनुहोस्"
 
 #: ../src/f-spot.glade.h:116 ../src/UI.Dialog/ui/EditTagDialog.ui.h:6
 msgid "_Tag Name:"
-msgstr ""
+msgstr "ट्यागको नाम:"
 
 #: ../src/f-spot.glade.h:117
 msgid "_Tint:"
@@ -2295,7 +2299,7 @@ msgstr ""
 
 #: ../src/Imaging/Exif.cs:234
 msgid "GPS Directory"
-msgstr ""
+msgstr "जिपिएस डाइरेक्टरी"
 
 #: ../src/Imaging/Exif.cs:236
 msgid "InterOperability Directory"
@@ -2516,7 +2520,7 @@ msgstr "फोटो सम्पादन गर्नुहोस्"
 
 #: ../src/MainWindow.cs:297
 msgid "View and edit a photo"
-msgstr ""
+msgstr "फोटो हेर्नुहोस् र सम्पादन गर्नुहोस्"
 
 #: ../src/MainWindow.cs:302 ../src/SingleView.cs:96
 msgid "Fullscreen"
@@ -3227,21 +3231,22 @@ msgstr "\"{0}\" तस्वीर अद्यावधिक गर्दै"
 
 #: ../src/UI.Dialog/AboutDialog.cs:76
 msgid "Photo management for GNOME"
-msgstr ""
+msgstr "जिनमका लागि फोटो व्यवस्थापन"
 
 #: ../src/UI.Dialog/AboutDialog.cs:77
 msgid "Copyright © 2003-2009 Novell Inc."
-msgstr ""
+msgstr "प्रतिलिपी अधिकार २००३-२००९ नोभेल आइएनसी."
 
 #: ../src/UI.Dialog/AboutDialog.cs:100
 msgid "translator-credits"
 msgstr ""
+"Jitendra Harlalka <jitendra@otrc.gov.np>\n"
 "Launchpad Contributions:\n"
 "  Rabi Poudyal https://launchpad.net/~rabipoudel"
 
 #: ../src/UI.Dialog/AboutDialog.cs:105
 msgid "F-Spot Website"
-msgstr ""
+msgstr "फोटो-स्पट वेबसाइट"
 
 #: ../src/UI.Dialog/AdjustTimeDialog.cs:112
 #: ../src/UI.Dialog/ui/AdjustTimeDialog.ui.h:10
@@ -3473,11 +3478,11 @@ msgstr ""
 
 #: ../src/UI.Dialog/ui/EditTagIconDialog.ui.h:6
 msgid "Edit Tag Icon"
-msgstr ""
+msgstr "ट्याग आइकन सम्पादन गर्नुहोस्"
 
 #: ../src/UI.Dialog/ui/EditTagIconDialog.ui.h:7
 msgid "No _image"
-msgstr ""
+msgstr "कुनै फोटो छैन"
 
 #: ../src/UI.Dialog/ui/EditTagIconDialog.ui.h:8
 msgid "Photo 0 of 0"
@@ -3493,7 +3498,7 @@ msgstr ""
 
 #: ../src/UI.Dialog/ui/PreferenceDialog.ui.h:3
 msgid "F-Spot Preferences"
-msgstr ""
+msgstr "फोटो-स्पट प्राथमिकताहरु"
 
 #: ../src/UI.Dialog/ui/PreferenceDialog.ui.h:4
 msgid "F-Spot appearance:"
@@ -3511,7 +3516,7 @@ msgstr "एउटा फोल्डर छान्नुहोस्"
 
 #: ../src/UI.Dialog/ui/PreferenceDialog.ui.h:8
 msgid "Separately from the image files"
-msgstr ""
+msgstr "फोटो फाइलहरुबाट छुट्टै"
 
 #: ../src/UI.Dialog/ui/PreferenceDialog.ui.h:9
 msgid "Store tags and descriptions for photos:"
@@ -3635,7 +3640,7 @@ msgstr "मितिहरु"
 
 #: ../src/ui/main_window.ui.h:42
 msgid "_Delete Selected Tag"
-msgstr ""
+msgstr "छानिएको ट्याग मेटाउनुहोस्"
 
 #: ../src/ui/main_window.ui.h:43
 msgid "_Delete Version"
@@ -3647,7 +3652,7 @@ msgstr "छानिएको ट्याग सम्पादन गर्न
 
 #: ../src/ui/main_window.ui.h:46
 msgid "_Export to"
-msgstr ""
+msgstr "निर्यात गन्तव्य"
 
 #: ../src/ui/main_window.ui.h:47
 msgid "_Filmstrip"
@@ -3719,7 +3724,7 @@ msgstr "सानो"
 
 #: ../src/ui/main_window.ui.h:69
 msgid "_Tag Icons"
-msgstr ""
+msgstr "ट्याग आइकनहरु"
 
 #: ../src/ui/main_window.ui.h:70
 msgid "_Tags"
@@ -3879,11 +3884,11 @@ msgstr "फोल्डरहरु"
 
 #: ../src/Widgets/FolderTreeView.cs:123
 msgid "Filesystem"
-msgstr ""
+msgstr "फाइल प्रणाली"
 
 #: ../src/Widgets/InfoBox.cs:182
 msgid "Histogram"
-msgstr ""
+msgstr "हिस्टोग्राम"
 
 #: ../src/Widgets/InfoBox.cs:217
 msgid "Date"
@@ -4026,4 +4031,4 @@ msgstr ""
 
 #: ../tools/f-spot-screensaver.desktop.in.h:2
 msgid "F-Spot photos"
-msgstr ""
+msgstr "फोटो-स्पट फोटोहरु"
