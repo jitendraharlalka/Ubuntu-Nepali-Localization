@@ -3,12 +3,13 @@
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
 # Ishwor Sharma <sharmabeeshwar@gmail.com>, 2007.
 # jitendra <jitendra@otrc.gov.np>, 2010.
+# pradeep mahato <prdpmht565@gmail.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-02-19 17:04+0000\n"
-"PO-Revision-Date: 2010-03-28 16:23+0545\n"
+"PO-Revision-Date: 2010-05-04 10:48+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -46,7 +47,7 @@ msgstr ""
 
 #: KNotificationBackend.cpp:119
 msgid "Now playing"
-msgstr ""
+msgstr "अहिले बजाउनुहोस्"
 
 #: firstruntutorial/FirstRunTutorialPage.cpp:56
 #: context/applets/lyrics/LyricsApplet.cpp:98
@@ -72,23 +73,23 @@ msgstr "प्ले गर्दै: %1"
 msgctxt "%1 is number of tracks, %2 is time"
 msgid "%1 track (%2)"
 msgid_plural "%1 tracks (%2)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ट्रयाक  (%2)"
+msgstr[1] "%1 ट्रयकहरु (%2)"
 
 #: statusbar/StatusBar.cpp:326 statusbar/StatusBar.cpp:332
 #, kde-format
 msgid "Total playlist size: %1"
-msgstr ""
+msgstr "जम्मा प्ले सूचीको लम्बाई: %1"
 
 #: statusbar/StatusBar.cpp:327
 #, kde-format
 msgid "Queue size: %1"
-msgstr ""
+msgstr "पंक्ति लम्बाई: %1"
 
 #: statusbar/StatusBar.cpp:328
 #, kde-format
 msgid "Queue length: %1"
-msgstr ""
+msgstr "पंक्ति लम्बाई: %1"
 
 #: statusbar/StatusBar.cpp:340
 #, kde-format
@@ -104,7 +105,7 @@ msgstr ""
 
 #: statusbar/CompoundProgressBar.cpp:73 statusbar/CompoundProgressBar.cpp:163
 msgid "Abort all background tasks"
-msgstr ""
+msgstr "पृष्ठभूमिका सम्पुर्ण कार्यहरु बन्द गर्नुहोस्"
 
 #: ActionClasses.cpp:86
 msgid "Amarok Menu"
@@ -112,7 +113,7 @@ msgstr "अमारोक मेनु"
 
 #: ActionClasses.cpp:164
 msgid "&About Amarok"
-msgstr ""
+msgstr "&अमारोकको बारेमा"
 
 #: ActionClasses.cpp:179 widgets/MainControlsWidget.cpp:70
 msgid "Play/Pause"
@@ -129,12 +130,12 @@ msgstr ""
 #: ActionClasses.cpp:325
 msgctxt "Replay Gain state, as in, disabled"
 msgid "&Off"
-msgstr ""
+msgstr "&अफ"
 
 #: ActionClasses.cpp:325
 msgctxt "Item, as in, music"
 msgid "&Track"
-msgstr ""
+msgstr "ट्रयाक"
 
 #: ActionClasses.cpp:326
 msgid "&Album"
@@ -151,7 +152,7 @@ msgstr ""
 #: ActionClasses.cpp:368
 msgctxt "Equalizer state, as in, disabled"
 msgid "&Off"
-msgstr ""
+msgstr "&अफ"
 
 #: ActionClasses.cpp:419
 msgid "Burn"
@@ -171,15 +172,15 @@ msgstr "रोक्नुहोस्"
 
 #: ActionClasses.cpp:526
 msgid "Stop after current Track"
-msgstr "यो गीत पछि रोक्ने"
+msgstr "यो ट्रयाक पछि रोक्ने"
 
 #: ActionClasses.cpp:541
 msgid "Stop after current track: On"
-msgstr ""
+msgstr "यो ट्रयाक पछि रोक्ने : अन"
 
 #: ActionClasses.cpp:546
 msgid "Stop after current track: Off"
-msgstr ""
+msgstr "यो ट्रयाक पछि रोक्ने : अफ"
 
 #: configdialog/ConfigDialog.cpp:55
 msgctxt "Miscellaneous settings"
@@ -200,11 +201,11 @@ msgstr "सङ्कलन कन्फिगर गर्नुहोस्"
 
 #: configdialog/ConfigDialog.cpp:57
 msgid "Internet Services"
-msgstr ""
+msgstr "ईन्टरनेट सेवा"
 
 #: configdialog/ConfigDialog.cpp:57
 msgid "Configure Services"
-msgstr ""
+msgstr "सेवाहरु कन्फिगर गर्नुहोस्"
 
 #: configdialog/ConfigDialog.cpp:58
 msgid "Playback"
@@ -224,7 +225,7 @@ msgstr ""
 
 #: configdialog/ConfigDialog.cpp:60
 msgid "Database"
-msgstr ""
+msgstr "डाटाबेस"
 
 #: configdialog/ConfigDialog.cpp:60
 msgid "Configure Database"
@@ -232,7 +233,7 @@ msgstr ""
 
 #: configdialog/dialogs/PlaybackConfig.cpp:76
 msgid "Sound System - Amarok"
-msgstr ""
+msgstr "अमरोक"
 
 #: configdialog/dialogs/MediadeviceConfig.cpp:40
 msgid "Media Devices"
@@ -257,12 +258,12 @@ msgctxt ""
 "A default password for insertion into an example SQL command (so as not to "
 "print the real one). To be manually replaced by the user."
 msgid "password"
-msgstr ""
+msgstr "पासवर्ड"
 
 #: context/widgets/ContainmentSelectionLayer.cpp:37
 #: context/containments/oldcontainment/ColumnContainment.cpp:200
 msgid "Zoom In"
-msgstr ""
+msgstr "जुम ठूलो "
 
 #: context/widgets/ToolBoxMenu.cpp:107
 #: context/widgets/appletexplorer/AppletExplorer.cpp:90
@@ -272,7 +273,7 @@ msgstr "मेन्यु लुकाउनुहोस्"
 #: context/widgets/TrackWidget.cpp:39
 msgctxt "Score of a track"
 msgid "Score:"
-msgstr ""
+msgstr "प्राप्ताङ्क"
 
 #: context/widgets/TrackWidget.cpp:138
 #, kde-format
@@ -307,7 +308,7 @@ msgstr "शब्द रचना बचत गर्नुहोस्"
 
 #: context/applets/lyrics/LyricsApplet.cpp:116
 msgid "Reload Lyrics"
-msgstr ""
+msgstr "रिलोड शब्द रचना"
 
 #: context/applets/lyrics/LyricsApplet.cpp:125
 #: context/applets/videoclip/VideoclipApplet.cpp:107
@@ -322,7 +323,7 @@ msgstr ""
 
 #: context/applets/lyrics/LyricsApplet.cpp:250
 msgid "Lyrics : Fetching ..."
-msgstr ""
+msgstr "शब्द रचना : प्राप्त गर्दै ..."
 
 #: context/applets/lyrics/LyricsApplet.cpp:251
 msgid "Lyrics are being fetched."
@@ -378,15 +379,15 @@ msgstr ""
 
 #: context/applets/videoclip/CustomVideoWidget.cpp:83
 msgid "Enter &fullscreen"
-msgstr ""
+msgstr "पुरा स्क्रीन"
 
 #: context/applets/videoclip/CustomVideoWidget.cpp:89
 msgid "E&xit fullscreen"
-msgstr ""
+msgstr "पुरा स्क्रीनबाट बाहिरिनुहोस्"
 
 #: context/applets/videoclip/VideoItemButton.cpp:96
 msgid "&Add to playlist"
-msgstr ""
+msgstr "&प्लेलिष्टमा थप्नुहोस्"
 
 #: context/applets/videoclip/VideoItemButton.cpp:97
 #: context/applets/albums/AlbumsView.cpp:114
@@ -403,7 +404,7 @@ msgstr ""
 
 #: context/applets/playlistinfo/PlaylistInfo.cpp:163
 msgid "Width"
-msgstr ""
+msgstr "चौडाइ"
 
 #: context/applets/songkick/SongkickApplet.cpp:41
 msgid "Songkick Concert Information"
@@ -475,7 +476,7 @@ msgstr ""
 
 #: context/applets/photos/PhotosApplet.cpp:263
 msgid "Photos Settings"
-msgstr ""
+msgstr "तस्बीर सेटिङ"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:84
 msgctxt "What artist is this track by"
@@ -485,12 +486,12 @@ msgstr ""
 #: context/applets/currenttrack/CurrentTrack.cpp:85
 msgctxt "What album is this track on"
 msgid "On"
-msgstr ""
+msgstr "अन"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:133
 #: context/applets/currenttrack/CurrentTrack.cpp:574
 msgid "Play count"
-msgstr ""
+msgstr "प्ले गणना"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:120
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
@@ -512,11 +513,11 @@ msgstr "अन्तिममा बजाएको"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:140
 msgid "Last played"
-msgstr ""
+msgstr "अन्तिममा बजाएको"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:141
 msgid "Favorite tracks"
-msgstr ""
+msgstr "मनपरेका गितहरु"
 
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
@@ -530,11 +531,11 @@ msgstr "विकिपिडिया"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:106
 msgid "Back"
-msgstr ""
+msgstr "पछिल्लो"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:113
 msgid "Forward"
-msgstr ""
+msgstr "अघिल्लो"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:85
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
@@ -584,7 +585,7 @@ msgstr "ट्रयाक"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:148
 msgid "Reload"
-msgstr ""
+msgstr "पुनराख्नुहोस्"
 
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:29
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
@@ -611,7 +612,7 @@ msgstr "विकिपिडिया सेटिङ्"
 #: context/applets/albums/Albums.cpp:66
 #: context/engines/current/CurrentEngine.cpp:158
 msgid "Recently added albums"
-msgstr ""
+msgstr "भर्खर राखिएको एल्बमहरु"
 
 #: context/applets/albums/Albums.cpp:182
 #, kde-format
@@ -641,7 +642,7 @@ msgstr[1] "%1 ट्रयाक"
 #: browsers/playlistbrowser/PodcastModel.cpp:1061
 #: services/lastfm/LastFmTreeView.cpp:112 TrayIcon.cpp:216
 msgid "&Add to Playlist"
-msgstr ""
+msgstr "&प्लेलिष्टमा थप्नुहोस्"
 
 #: context/applets/albums/AlbumsView.cpp:113
 #: browsers/CollectionTreeView.cpp:842 browsers/filebrowser/FileView.cpp:128
@@ -650,7 +651,7 @@ msgstr ""
 #: services/lastfm/LastFmTreeView.cpp:121
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
-msgstr ""
+msgstr "प्ले सूचि बदल्नुहोस्"
 
 #: context/applets/albums/AlbumsView.cpp:115
 #: playlist/view/PlaylistViewCommon.cpp:242
@@ -676,11 +677,11 @@ msgstr ""
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:215
 msgid "Next Group"
-msgstr ""
+msgstr "अर्को समुह"
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:220
 msgid "Previous Group"
-msgstr ""
+msgstr "अघिल्लो समुह"
 
 #: context/containments/verticallayout/VerticalToolbarContainment.cpp:58
 msgid ""
@@ -705,7 +706,7 @@ msgstr ""
 
 #: context/tools/amarokpkg.cpp:80
 msgid "Original author"
-msgstr ""
+msgstr "मौलिक लेखक"
 
 #: context/tools/amarokpkg.cpp:82 main.cpp:45
 msgid "Leo Franchi"
@@ -715,7 +716,7 @@ msgstr "लिओ फ्रेन्चि"
 #: main.cpp:141 main.cpp:153 main.cpp:163 main.cpp:169 main.cpp:171
 #: main.cpp:183 main.cpp:189 main.cpp:191 main.cpp:195 main.cpp:203
 msgid "Developer"
-msgstr ""
+msgstr "विकासकर्ता"
 
 #: context/tools/amarokpkg.cpp:92
 msgid "For install or remove, operates on applets installed for all users."
@@ -749,12 +750,12 @@ msgstr ""
 #: context/tools/amarokpkg.cpp:162
 #, kde-format
 msgid "Successfully removed %1"
-msgstr ""
+msgstr "%1 सफलतापूर्वक हटाईयो"
 
 #: context/tools/amarokpkg.cpp:164
 #, kde-format
 msgid "Removal of %1 failed."
-msgstr ""
+msgstr "हटाउनेमा %1 असफल"
 
 #: context/tools/amarokpkg.cpp:169
 #, kde-format
@@ -781,16 +782,16 @@ msgstr ""
 #: context/engines/videoclip/VideoclipEngine.cpp:212
 #, kde-format
 msgid "Unable to retrieve Youtube information: %1"
-msgstr ""
+msgstr "युट्युबमा जानकारी प्राप्त गर्न असक्षम: %1"
 
 #: context/engines/videoclip/VideoclipEngine.cpp:377
 #, kde-format
 msgid "Unable to retrieve Dailymotion information: %1"
-msgstr ""
+msgstr "डेलिमोसनमा जानकारी प्राप्त गर्न असक्षम: %1"
 
 #: context/engines/videoclip/VideoclipEngine.cpp:708
 msgid "No video clip found..."
-msgstr ""
+msgstr "कुनै भिडियो क्लीप पाईपन"
 
 #: context/engines/current/CurrentEngine.cpp:309
 #, kde-format
@@ -807,7 +808,7 @@ msgstr "मितिहरु"
 
 #: context/engines/photos/PhotosEngine.cpp:190
 msgid "Unable to retrieve from Flickr.com "
-msgstr ""
+msgstr "फिलक्रर डटकमको जानकारी प्राप्त गर्न असक्षम: %1"
 
 #: context/engines/photos/PhotosEngine.cpp:276
 #: context/engines/wikipedia/WikipediaEngine.cpp:143
@@ -824,7 +825,7 @@ msgstr "विकिपिडिया जानकारी प्राप्�
 
 #: context/engines/wikipedia/WikipediaEngine.cpp:403
 msgid "Wikipedia Other Languages: <br/>"
-msgstr ""
+msgstr "विकिपिडिया अन्य भाषा: <br/>"
 
 #: context/toolbar/AppletToolbarAddItem.cpp:47
 msgid "Add Applets..."
@@ -924,11 +925,11 @@ msgstr ""
 
 #: widgets/TokenWithLayout.cpp:242
 msgid "[prefix]"
-msgstr ""
+msgstr "उपसर्ग"
 
 #: widgets/TokenWithLayout.cpp:253
 msgid "[suffix]"
-msgstr ""
+msgstr "प्रत्यय"
 
 #: widgets/TokenDropTarget.cpp:386
 msgid "Drag in and out items from above."
@@ -951,7 +952,7 @@ msgstr ""
 
 #: widgets/ProgressWidget.cpp:47
 msgid "Track Progress"
-msgstr ""
+msgstr "ट्रयाक सफल"
 
 #: widgets/ProgressWidget.cpp:51
 msgid "The amount of time elapsed in current song"
@@ -967,7 +968,7 @@ msgstr ""
 
 #: widgets/VolumeDial.cpp:261 TrayIcon.cpp:142
 msgid "Muted"
-msgstr ""
+msgstr "मौन"
 
 #: widgets/Osd.cpp:135
 msgid "Rating changed"
@@ -976,7 +977,7 @@ msgstr "मूल्याङ्कन वजन गरियो"
 #: widgets/Osd.cpp:151 toolbar/VolumePopupButton.cpp:102
 #: toolbar/VolumePopupButton.cpp:113
 msgid "(muted)"
-msgstr ""
+msgstr "मौन"
 
 #: widgets/Osd.cpp:151 toolbar/VolumePopupButton.cpp:102
 #: toolbar/VolumePopupButton.cpp:113
@@ -986,7 +987,7 @@ msgstr "भोल्युम: %1 %2"
 
 #: widgets/Osd.cpp:213
 msgid "Volume: 100% (muted)"
-msgstr ""
+msgstr "भोल्युम: 100%"
 
 #: widgets/Osd.cpp:443
 msgid ""
@@ -1323,7 +1324,7 @@ msgstr ""
 
 #: widgets/SearchWidget.cpp:80 widgets/SearchWidget.cpp:114
 msgid "Edit filter"
-msgstr ""
+msgstr "फिल्टर सम्पादन गर्नुहोस्"
 
 #: widgets/MainControlsWidget.cpp:62 MainWindow.cpp:827
 msgid "Previous Track"
@@ -1513,7 +1514,7 @@ msgstr "यसद्वारा एल्बम"
 
 #: covermanager/CoverManager.cpp:118
 msgid "All Artists"
-msgstr ""
+msgstr "सबै कलाकारहरु"
 
 #: covermanager/CoverManager.cpp:179
 msgid "All Albums"
@@ -1533,7 +1534,7 @@ msgstr "हराइरहेको आवरण तान्नुहोस्"
 
 #: covermanager/CoverManager.cpp:318
 msgid "Fetching"
-msgstr ""
+msgstr "तान्दैछ"
 
 #: covermanager/CoverManager.cpp:419
 msgid "Loading"
@@ -1634,7 +1635,7 @@ msgstr "%1 - %2"
 
 #: covermanager/CoverManager.cpp:867
 msgid "No Artist"
-msgstr ""
+msgstr "कलाकार छैन"
 
 #: covermanager/CoverFoundDialog.cpp:84
 msgid "Enter Custom Search"
@@ -1642,11 +1643,11 @@ msgstr ""
 
 #: covermanager/CoverFoundDialog.cpp:95
 msgid "Cover size"
-msgstr ""
+msgstr "आवरण साईज"
 
 #: covermanager/CoverFoundDialog.cpp:228
 msgid "Cover Not Found"
-msgstr ""
+msgstr "आवरण फेला परेन"
 
 #: covermanager/CoverFoundDialog.cpp:232
 msgid "Cover Found"
@@ -1785,13 +1786,13 @@ msgstr "०"
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
-msgstr ""
+msgstr "%1 महिना"
 
 #: Amarok.cpp:122
 #, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
-msgstr ""
+msgstr "%1 हप्ता"
 
 #: Amarok.cpp:125
 msgctxt "When this track was last played"
@@ -1802,13 +1803,13 @@ msgstr "भोलि"
 #, kde-format, no-c-format
 msgctxt "d for days"
 msgid "%1d"
-msgstr ""
+msgstr "%1 दिन"
 
 #: Amarok.cpp:134
 #, kde-format
 msgctxt "h for hours"
 msgid "%1h"
-msgstr ""
+msgstr "%1 घन्टा"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:588
 #. i18n: ectx: property (text), widget (QLabel, eqBand2Value)
@@ -1955,17 +1956,17 @@ msgstr ""
 #: collection/sqlcollection/ScanResultProcessor.cpp:194
 msgctxt "Front cover of an album"
 msgid "front"
-msgstr ""
+msgstr "अगाडि"
 
 #: collection/sqlcollection/ScanResultProcessor.cpp:202
 msgctxt "(Front) Cover of an album"
 msgid "cover"
-msgstr ""
+msgstr "आवरण"
 
 #: collection/sqlcollection/ScanResultProcessor.cpp:213
 msgctxt "(Large front) Cover of an album"
 msgid "large"
-msgstr ""
+msgstr "ठूलो"
 
 #: collection/sqlcollection/ScanResultProcessor.cpp:224
 msgctxt "(Front) Cover of an album"
@@ -1996,7 +1997,7 @@ msgstr "फाइल सङ्गठित गर्नुहोस्"
 
 #: collection/sqlcollection/SqlCollectionLocation.cpp:334
 msgid "Organizing tracks"
-msgstr ""
+msgstr "ट्रयाक व्यवस्थापन गर्दै"
 
 #: collection/sqlcollection/SqlCollectionLocation.cpp:336
 msgid "Moving tracks"
@@ -2073,7 +2074,7 @@ msgstr ""
 
 #: collection/audiocd/AudioCdCollection.cpp:74
 msgid "&Eject"
-msgstr ""
+msgstr "निकाल्नुहोस्"
 
 #: collection/audiocd/FormatSelectionDialog.cpp:62
 msgid ""
@@ -2416,7 +2417,7 @@ msgstr ""
 #: collection/umscollection/handler/UmsHandler.cpp:477
 #, kde-format
 msgid "&Configure %1"
-msgstr ""
+msgstr "%1 कन्फिगर गर्नुहोस्"
 
 #: collection/umscollection/handler/UmsHandler.cpp:509
 msgid "Configure USB Mass Storage Device"
@@ -2572,11 +2573,11 @@ msgstr "डन लेइनिर ट्रुथरा जेन्सेन"
 
 #: main.cpp:82
 msgid "Usability"
-msgstr ""
+msgstr "उपयोगीता"
 
 #: main.cpp:84
 msgid "Daniel Caleb Jones"
-msgstr ""
+msgstr "डेनियल केलेव जोन्स (Daniel Caleb Jones)"
 
 #: main.cpp:84
 msgid "Biased playlists"
@@ -2584,7 +2585,7 @@ msgstr ""
 
 #: main.cpp:86
 msgid "Daniel Dewald"
-msgstr ""
+msgstr "डेनियल डिवाल्ड (Daniel Dewald)"
 
 #: main.cpp:86
 msgid "Tag Guesser, Labels"
@@ -2592,7 +2593,7 @@ msgstr ""
 
 #: main.cpp:88
 msgid "Daniel Winter"
-msgstr ""
+msgstr "डेनियल विन्टर (Daniel Winter)"
 
 #: main.cpp:88
 msgid "Nepomuk integration"
@@ -2628,7 +2629,7 @@ msgstr ""
 
 #: main.cpp:99
 msgid "John Atkinson"
-msgstr ""
+msgstr "जोन एटकिन्सन (John Atkinson)"
 
 #: main.cpp:101
 msgid "Kenneth Wesley Wimer II"
@@ -2640,7 +2641,7 @@ msgstr "प्रतिमा"
 
 #: main.cpp:103
 msgid "Kevin Funk"
-msgstr ""
+msgstr "केभिन फन्क (Kevin Funk)"
 
 #: main.cpp:103
 msgid "Developer, Website theme (KRF)"
@@ -2656,7 +2657,7 @@ msgstr ""
 
 #: main.cpp:107
 msgid "Lee Olson"
-msgstr ""
+msgstr "ली ओल्सन (Lee Olson)"
 
 #: main.cpp:107 main.cpp:119
 msgid "Artwork"
@@ -2684,7 +2685,7 @@ msgstr ""
 
 #: main.cpp:115
 msgid "Mikko Caldara"
-msgstr ""
+msgstr "मिको केल्डारा (Mikko Caldara)"
 
 #: main.cpp:115
 msgid "Bug triaging and sanitizing"
@@ -2780,7 +2781,7 @@ msgstr ""
 
 #: main.cpp:143
 msgid "Wade Olson"
-msgstr ""
+msgstr "वेड ओल्सन (Wade Olson)"
 
 #: main.cpp:143
 msgid "Splash screen artist"
@@ -4022,7 +4023,7 @@ msgstr ""
 
 #: amarokurls/BookmarkModel.cpp:86
 msgid "group"
-msgstr ""
+msgstr "समूह"
 
 #. i18n: file: aboutdialog/OcsPersonItem.ui:140
 #. i18n: ectx: property (text), widget (QLabel, m_textLabel)
@@ -4133,7 +4134,7 @@ msgstr "एल्बम"
 #: playlist/PlaylistDefines.h:88
 msgctxt "'Album artist' playlist column name and token for playlist layouts"
 msgid "Album artist"
-msgstr ""
+msgstr "एल्बम कलाकार"
 
 #: playlist/PlaylistDefines.h:89
 msgctxt "'Artist' playlist column name and token for playlist layouts"
@@ -4154,7 +4155,7 @@ msgstr ""
 #: playlist/PlaylistDefines.h:92
 msgctxt "'Comment' playlist column name and token for playlist layouts"
 msgid "Comment"
-msgstr ""
+msgstr "टिप्पणी"
 
 #: playlist/PlaylistDefines.h:93
 msgctxt "'Composer' playlist column name and token for playlist layouts"
@@ -4195,7 +4196,7 @@ msgstr "फाइल साइज"
 #: playlist/PlaylistDefines.h:100
 msgctxt "'Genre' playlist column name and token for playlist layouts"
 msgid "Genre"
-msgstr ""
+msgstr "विधा:"
 
 #: playlist/PlaylistDefines.h:101
 msgctxt ""
@@ -4227,12 +4228,12 @@ msgstr ""
 msgctxt ""
 "'Length' (track length) playlist column name and token for playlist layouts"
 msgid "Length"
-msgstr ""
+msgstr "लम्बाइ"
 
 #: playlist/PlaylistDefines.h:107
 msgctxt "'Mood' playlist column name and token for playlist layouts"
 msgid "Mood"
-msgstr ""
+msgstr "मुड"
 
 #: playlist/PlaylistDefines.h:108
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:72
@@ -4844,7 +4845,7 @@ msgstr ""
 
 #: browsers/CollectionTreeItemModelBase.cpp:575
 msgid "comment"
-msgstr ""
+msgstr "टिप्पणी"
 
 #: browsers/CollectionTreeItemModelBase.cpp:579
 msgid "bitrate"
@@ -6572,7 +6573,7 @@ msgstr ""
 
 #: services/lastfm/meta/LastFmMeta.cpp:106
 msgid "Ctrl+S"
-msgstr ""
+msgstr "Ctrl+S"
 
 #: services/lastfm/meta/LastFmMeta.cpp:107
 msgid "Skip this track"
@@ -6941,7 +6942,7 @@ msgstr ""
 #: MainWindow.cpp:1185
 #, kde-format
 msgid "%1 - %2  ::  %3"
-msgstr ""
+msgstr "%1 - %2  ::  %3"
 
 #: TrayIcon.cpp:217
 msgid "Add && &Play"
@@ -8190,12 +8191,14 @@ msgstr ""
 #: rc.cpp:559
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "श्यामकृष्ण बल, ,Launchpad Contributions:,Shyam Krishna Bal"
+msgstr ""
+"श्यामकृष्ण बल, प्रदिप महतो, जितेन्द्र हरलालका, Launchpad "
+"Contributions:,Shyam Krishna Bal"
 
 #: rc.cpp:560
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "shyamkrishna_bal@yahoo.com,,,"
+msgstr "shyamkrishna_bal@yahoo.com, prdpmht565@gmail.com, jitendra@otrc.gov.np,"
 
 #. i18n: file: configdialog/dialogs/CollectionConfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, CollectionConfig)
@@ -8381,13 +8384,13 @@ msgstr ""
 #. i18n: file: data/DefaultPlaylistLayouts.xml:3
 #: rc.cpp:651 rc.cpp:2678
 msgid "Default"
-msgstr ""
+msgstr "पूर्वनिर्धारित"
 
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:108
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: rc.cpp:654
 msgid "Angry"
-msgstr ""
+msgstr "रिसाएको"
 
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:113
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
@@ -8399,7 +8402,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: rc.cpp:660
 msgid "Happy"
-msgstr ""
+msgstr "खुशी"
 
 #. i18n: file: configdialog/dialogs/DatabaseConfig.ui:9
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseServer)
@@ -8825,19 +8828,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, eqMaxEq)
 #: rc.cpp:1494
 msgid "+ dB"
-msgstr ""
+msgstr "+ dB"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:208
 #. i18n: ectx: property (text), widget (QLabel, eqZero)
 #: rc.cpp:1497
 msgid "0 dB"
-msgstr ""
+msgstr "0 dB"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:248
 #. i18n: ectx: property (text), widget (QLabel, eqMinEq)
 #: rc.cpp:1500
 msgid "- dB"
-msgstr ""
+msgstr "- dB"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:290
 #. i18n: ectx: property (title), widget (QGroupBox, eqPreampGroupBox)
@@ -9234,7 +9237,7 @@ msgstr "गन्तब्य पूर्वावलोकन"
 #. i18n: ectx: property (text), widget (QTableWidget, previewTableWidget)
 #: rc.cpp:1824
 msgid "Original"
-msgstr ""
+msgstr "मौलिक"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:202
 #. i18n: ectx: property (text), widget (QTableWidget, previewTableWidget)
@@ -9378,13 +9381,13 @@ msgstr "तथ्याङ्क"
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
 #: rc.cpp:1902
 msgid "La&bels"
-msgstr "लेबुल"
+msgstr "लेबल"
 
 #. i18n: file: dialogs/TagDialogBase.ui:739
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:1905
 msgid "Label:"
-msgstr "लेबुल:"
+msgstr "लेबल:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:749
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBox_label)
@@ -9851,13 +9854,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:2173
 msgid "Year:"
-msgstr ""
+msgstr "वर्ष:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:557
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: rc.cpp:2176
 msgid "Track:"
-msgstr ""
+msgstr "ट्रयाक:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:564
 #. i18n: ectx: property (text), widget (QLabel, label_10)
@@ -9871,7 +9874,7 @@ msgstr "एल्बम:"
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: rc.cpp:2182
 msgid "Comment:"
-msgstr ""
+msgstr "टिप्पणी:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:578
 #. i18n: ectx: property (text), widget (QLabel, label_12)
@@ -10047,7 +10050,7 @@ msgstr "पोडकास्ट कन्फिगरेसन"
 #. i18n: ectx: property (text), widget (QLabel, m_urlLabel)
 #: rc.cpp:2309
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #. i18n: file: podcasts/sql/PodcastSettingsBase.ui:56
 #. i18n: ectx: property (text), widget (QLabel, m_saveLocationlabel)
@@ -10169,7 +10172,7 @@ msgstr ""
 #: rc.cpp:2378
 msgctxt "prefix to update interval in minutes"
 msgid "every "
-msgstr ""
+msgstr "प्रत्येक  "
 
 #. i18n: file: podcasts/sql/SqlPodcastProviderSettingsWidget.ui:97
 #. i18n: ectx: property (text), widget (QLabel, m_baseDirLabel)
@@ -10230,7 +10233,7 @@ msgstr ""
 #: rc.cpp:2404
 msgctxt "Username for logins to Magnatune"
 msgid "E-mail:"
-msgstr ""
+msgstr "ई-मेल:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:53
 #. i18n: ectx: property (text), widget (KLineEdit, emailEdit)
@@ -10249,6 +10252,17 @@ msgid ""
 "     <property name=\"title\">\n"
 "      <string>Membership options"
 msgstr ""
+"\n"
+"        </property>\n"
+"       </widget>\n"
+"      </item>\n"
+"     </layout>\n"
+"    </widget>\n"
+"   </item>\n"
+"   <item>\n"
+"    <widget class=\"QGroupBox\" name=\"groupBox\">\n"
+"     <property name=\"title\">\n"
+"      <string>सदस्यता विकल्पहरु"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:54
 #. i18n: ectx: item, widget (KLineEdit, emailEdit)
@@ -10257,25 +10271,27 @@ msgid ""
 "Membership options</string>\n"
 "     </property>"
 msgstr ""
+"सदस्यता विकल्पहरु</string>\n"
+"     </property>"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, isMemberCheckbox)
 #: rc.cpp:2424
 msgid "I am a member"
-msgstr ""
+msgstr "म सदस्य हुँ"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:79
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:2427
 msgid "Membership type:"
-msgstr ""
+msgstr "सदस्यता प्रकार:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:2436
 msgctxt "Username for logins to Magnatune"
 msgid "Username:"
-msgstr ""
+msgstr "प्रयोगकर्ता नाम:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:117
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -10289,10 +10305,9 @@ msgstr "पासवर्ड:"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:2442
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
-"type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-"
+"html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:8pt; "
 "font-weight:400; font-style:normal;\">\n"
@@ -10301,9 +10316,8 @@ msgid ""
 "family:'Sans Serif';\">For more information about the Magnatune.com "
 "memberships, and to sign up, go to  </span><a "
 "href=\"http://magnatune.com/compare_plans?referal_id=amarok\"><span style=\" "
-"font-family:'Sans Serif'; text-decoration: underline; "
-"color:#0000ff;\">http://magnatune.com/compare_plans</span></a></p></body></ht"
-"ml>"
+"font-family:'Sans Serif'; text-decoration: underline; color:#0000ff;\">http:/"
+"/magnatune.com/compare_plans</span></a></p></body></html>"
 msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:157
@@ -10435,14 +10449,14 @@ msgstr "भुक्तानी"
 #: rc.cpp:2524
 msgctxt "The name of the person buying songs from magnatune"
 msgid "Name:"
-msgstr ""
+msgstr "नाम:"
 
 #. i18n: file: services/magnatune/MagnatunePurchaseDialogBase.ui:196
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
 #: rc.cpp:2527
 msgctxt "The e-mail address of the user"
 msgid "E-mail:"
-msgstr ""
+msgstr "ई-मेल:"
 
 #. i18n: file: services/magnatune/MagnatunePurchaseDialogBase.ui:209
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
@@ -10583,27 +10597,27 @@ msgstr "रद्द गर्नुहोस्"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:2593
 msgid "Server"
-msgstr ""
+msgstr "सर्भर"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: rc.cpp:2596
 msgctxt "The user-definable name of an Ampache server"
 msgid "Name:"
-msgstr ""
+msgstr "नाम:"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:2599
 msgid "Server:"
-msgstr ""
+msgstr "सर्भर:"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:2602
 msgctxt "The username to use for logins to an Ampache server"
 msgid "Username:"
-msgstr ""
+msgstr "प्रयोगकर्ता नाम:"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:85
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -10615,7 +10629,7 @@ msgstr "सम्पादन गर्नुहोस्"
 #. i18n: ectx: property (text), widget (KPushButton, modifyButton)
 #: rc.cpp:2617
 msgid "Modify"
-msgstr ""
+msgstr "परिवर्तन गर्नुहोस"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -10628,14 +10642,14 @@ msgstr ""
 #: rc.cpp:2623
 msgctxt "The e-mail address for Mp3Tunes logins"
 msgid "E-Mail:"
-msgstr ""
+msgstr "ई-मेल:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:2626
 msgctxt "The Mp3Tunes password"
 msgid "Password:"
-msgstr ""
+msgstr "पासवर्ड:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:42
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableHarmony)
