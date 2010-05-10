@@ -2,30 +2,32 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Jyotsna Shrestha <jyoshrestha@hotmail.com>, 2005.
-#
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: totem.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-26 20:05+0000\n"
-"PO-Revision-Date: 2010-01-29 04:14+0000\n"
-"Last-Translator: Jyotsna Shrestha <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-10 21:46+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 00:37+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../plparse/totem-disc.c:359 ../plparse/totem-disc.c:503
 #, c-format
 msgid "Failed to mount %s."
-msgstr ""
+msgstr "%s माउन्ट गर्न असफल भयो ।"
 
 #: ../plparse/totem-disc.c:392
 #, c-format
 msgid "No media in drive for device '%s'."
-msgstr ""
+msgstr "यन्त्र '%s' का लागि ड्राइभमा कुनै मिडिया छैन ।"
 
 #: ../plparse/totem-disc.c:446
 #, c-format
@@ -34,15 +36,15 @@ msgstr "डिक्स अहिलेसम्म पनि ड्राईभ
 
 #: ../plparse/totem-disc.c:889
 msgid "Audio CD"
-msgstr "ध्वनि सिडि॒"
+msgstr "ध्वनि सिडी"
 
 #: ../plparse/totem-disc.c:891
 msgid "Video CD"
-msgstr "भिडिओ(दृष्य) सिडि"
+msgstr "भिडियो सिडी"
 
 #: ../plparse/totem-disc.c:893
 msgid "DVD"
-msgstr "डिभिडि॒"
+msgstr "डिभीडी"
 
 #: ../plparse/totem-disc.c:895
 msgid "Digital Television"
