@@ -1,86 +1,87 @@
 # translation of file-roller.HEAD.ne.po to Nepali
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Pawan Chitrakar <pawan@nplinux.org>,2004.
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: file-roller.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-09 03:27+0000\n"
-"PO-Revision-Date: 2010-02-09 06:57+0000\n"
-"Last-Translator: Narayan Kumar Magar <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-05 15:50+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 06:18+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../copy-n-paste/eggdesktopfile.c:165
 #, c-format
 msgid "File is not a valid .desktop file"
-msgstr ""
+msgstr "फाइल मान्य .desktop फाइल होइन"
 
 #: ../copy-n-paste/eggdesktopfile.c:188
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
+msgstr "अमान्य desktop फाइल संस्करण '%s'"
 
 #: ../copy-n-paste/eggdesktopfile.c:958
 #, c-format
 msgid "Starting %s"
-msgstr ""
+msgstr "%s शुरु गर्दै"
 
 #: ../copy-n-paste/eggdesktopfile.c:1100
 #, c-format
 msgid "Application does not accept documents on command line"
-msgstr ""
+msgstr "सफ्टवेयरले कमान्ड लाइनमा कागजात स्वीकार गर्दैन"
 
 #: ../copy-n-paste/eggdesktopfile.c:1168
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr ""
+msgstr "चिन्न नसकिएको जारी विकल्प: %d"
 
 #: ../copy-n-paste/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
+msgstr "'प्रकार=लिङ्क' डेस्कटप प्रविष्टिमा कागजात युआरआइ पठाउन सकेन"
 
 #: ../copy-n-paste/eggdesktopfile.c:1392
 #, c-format
 msgid "Not a launchable item"
-msgstr ""
+msgstr "चलाउन योग्य वस्तु होइन"
 
 #: ../copy-n-paste/eggsmclient.c:225
 msgid "Disable connection to session manager"
-msgstr ""
+msgstr "सत्र व्यवस्थापनसँग सम्पर्क अक्षम पार्नुहोस्"
 
 #: ../copy-n-paste/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
-msgstr ""
+msgstr "बचत गरिएको कन्फिगरेसन भएको फाइल व्यक्त गर्नुहोस्"
 
 #: ../copy-n-paste/eggsmclient.c:228
 msgid "FILE"
-msgstr ""
+msgstr "FILE"
 
 #: ../copy-n-paste/eggsmclient.c:231
 msgid "Specify session management ID"
-msgstr ""
+msgstr "सत्र व्यवस्थापन आइडी व्यक्त गर्नुहोस्"
 
 #: ../copy-n-paste/eggsmclient.c:231
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: ../copy-n-paste/eggsmclient.c:252
 msgid "Session management options:"
-msgstr ""
+msgstr "सत्र व्यवस्थापन विकल्पहरु:"
 
 #: ../copy-n-paste/eggsmclient.c:253
 msgid "Show session management options"
-msgstr ""
+msgstr "सत्र व्यवस्थापन विकल्पहरु देखाउनुहोस्"
 
 #: ../data/file-roller.desktop.in.in.h:1 ../src/fr-window.c:1976
 #: ../src/fr-window.c:5379
@@ -110,7 +111,7 @@ msgstr "स्थान"
 #. MB means megabytes
 #: ../data/ui/batch-add-files.ui.h:5 ../data/ui/new.ui.h:2
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: ../data/ui/batch-add-files.ui.h:6 ../data/ui/new.ui.h:3
 msgid "Split into _volumes of"
@@ -123,15 +124,15 @@ msgstr ""
 
 #: ../data/ui/batch-add-files.ui.h:8
 msgid "_Filename:"
-msgstr ""
+msgstr "फाइल नाम:"
 
 #: ../data/ui/batch-add-files.ui.h:9 ../src/fr-window.c:5800
 msgid "_Location:"
-msgstr ""
+msgstr "स्थान:"
 
 #: ../data/ui/batch-add-files.ui.h:10 ../data/ui/new.ui.h:5
 msgid "_Other Options"
-msgstr ""
+msgstr "अन्य विकल्पहरु"
 
 #: ../data/ui/batch-add-files.ui.h:11 ../data/ui/batch-password.ui.h:2
 #: ../data/ui/new.ui.h:6 ../data/ui/password.ui.h:4
@@ -194,7 +195,7 @@ msgstr "पासवर्ड"
 
 #: ../data/ui/update.ui.h:1
 msgid "S_elect the files you want to update:"
-msgstr ""
+msgstr "तपाईले अद्यावधिक गर्न चाहेका फाइलहरु छान्नुहोस्:"
 
 #. secondary text
 #: ../data/ui/update.ui.h:2 ../src/dlg-update.c:182
@@ -210,11 +211,11 @@ msgstr[1] ""
 
 #: ../data/ui/update.ui.h:3
 msgid "_Update"
-msgstr ""
+msgstr "_अद्यावधिक गर्नुहोस्"
 
 #: ../nautilus/nautilus-fileroller.c:313
 msgid "Extract Here"
-msgstr "यहाँ ल्याउनुहोस्"
+msgstr ""
 
 #: ../nautilus/nautilus-fileroller.c:314
 msgid "Extract the selected archive in the current position"
@@ -314,7 +315,7 @@ msgstr ""
 
 #: ../src/actions.c:862
 msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
-msgstr ""
+msgstr "प्रतिलिपि अधिकार 2000-2006 स्वतन्त्र सफ्टवेयर संघ, संस्था ।"
 
 #: ../src/actions.c:863
 msgid "An archive manager for GNOME."
@@ -339,7 +340,7 @@ msgstr "फाइलहरू थप्नुहोस्"
 
 #: ../src/dlg-add-files.c:156 ../src/dlg-add-folder.c:231
 msgid "Add only if _newer"
-msgstr ""
+msgstr "नयाँ भएमा मात्रै थप्नुहोस्"
 
 #: ../src/dlg-add-folder.c:217
 msgid "Add a Folder"
@@ -360,7 +361,7 @@ msgstr "उदाहरण: *.o; *.bak"
 
 #: ../src/dlg-add-folder.c:237
 msgid "Include _files:"
-msgstr ""
+msgstr "फाइलहरू समावेश गर्नुहोस्:"
 
 #: ../src/dlg-add-folder.c:243
 msgid "E_xclude files:"
@@ -368,7 +369,7 @@ msgstr "फाइलहरू समावेश नगर्नुहोस्:
 
 #: ../src/dlg-add-folder.c:249
 msgid "_Exclude folders:"
-msgstr ""
+msgstr "फोल्डरहरू समावेश नगर्नुहोस्:"
 
 #: ../src/dlg-add-folder.c:253
 msgid "_Load Options"
@@ -491,7 +492,7 @@ msgstr "बचत गर्नुहोस्"
 
 #: ../src/dlg-package-installer.c:91
 msgid "There was an internal error trying to search for applications:"
-msgstr ""
+msgstr "सफ्टवेयरहरु खोजी गर्ने प्रयास गर्दा आन्तरिक त्रुटि भयो:"
 
 #: ../src/dlg-package-installer.c:231
 #, c-format
@@ -502,11 +503,11 @@ msgstr ""
 
 #: ../src/dlg-package-installer.c:236
 msgid "Could not open this file type"
-msgstr ""
+msgstr "यो फाइल प्रकार खोल्न सकेन"
 
 #: ../src/dlg-package-installer.c:239
 msgid "_Search Command"
-msgstr ""
+msgstr "खोजी कमान्ड"
 
 #: ../src/dlg-prop.c:106
 msgid "Location:"
@@ -554,15 +555,15 @@ msgstr ""
 #: ../src/eggfileformatchooser.c:236
 #, c-format
 msgid "File _Format: %s"
-msgstr ""
+msgstr "फाइल ढाँचा: %s"
 
 #: ../src/eggfileformatchooser.c:397
 msgid "All Files"
-msgstr ""
+msgstr "सबै फाइल"
 
 #: ../src/eggfileformatchooser.c:398
 msgid "All Supported Files"
-msgstr ""
+msgstr "सबै समर्थित फाइलहरू"
 
 #: ../src/eggfileformatchooser.c:407
 msgid "By Extension"
@@ -570,7 +571,7 @@ msgstr ""
 
 #: ../src/eggfileformatchooser.c:422
 msgid "File Format"
-msgstr ""
+msgstr "फाइल ढाँचा"
 
 #: ../src/eggfileformatchooser.c:440
 msgid "Extension(s)"
@@ -586,11 +587,11 @@ msgstr ""
 
 #: ../src/eggfileformatchooser.c:682
 msgid "File format not recognized"
-msgstr ""
+msgstr "फाइल ढाँचा चिन्न सकिएन्"
 
 #: ../src/fr-archive.c:871
 msgid "File not found."
-msgstr ""
+msgstr "फाइल फेला परेन ।"
 
 #: ../src/fr-archive.c:1934
 msgid "You don't have the right permissions."
@@ -728,7 +729,7 @@ msgstr ""
 
 #: ../src/fr-window.c:2773
 msgid "please wait..."
-msgstr ""
+msgstr "कृपया प्रतिक्षा गर्नुहोस्..."
 
 #: ../src/fr-window.c:2932
 msgid "An error occurred while extracting files."
@@ -761,7 +762,7 @@ msgstr ""
 
 #: ../src/fr-window.c:2965
 msgid "An error occurred."
-msgstr ""
+msgstr "त्रटि भयो ।"
 
 #: ../src/fr-window.c:2971
 msgid "Command not found."
@@ -818,7 +819,7 @@ msgstr "नाम"
 
 #: ../src/fr-window.c:5628
 msgid "Find:"
-msgstr ""
+msgstr "खोजी:"
 
 #: ../src/fr-window.c:5715
 msgid "Close the folders pane"
@@ -1080,7 +1081,7 @@ msgstr "फाइल रोलर"
 
 #: ../src/ui.h:32
 msgid "_File"
-msgstr ""
+msgstr "_फाईल"
 
 #: ../src/ui.h:33
 msgid "_Edit"
@@ -1100,7 +1101,7 @@ msgstr "फाइलहरू मिलाउनुहोस्"
 
 #: ../src/ui.h:37
 msgid "Open _Recent"
-msgstr ""
+msgstr "हालैको खोल्नुहोस्"
 
 #: ../src/ui.h:41
 msgid "Information about the program"
@@ -1236,7 +1237,7 @@ msgstr "सङ्ग्रहले त्रुटिहरू समावि�
 
 #: ../src/ui.h:181 ../src/ui.h:185
 msgid "Open the selected file"
-msgstr ""
+msgstr "छानिएको फाइल खोल्नुहोस"
 
 #: ../src/ui.h:189 ../src/ui.h:193
 msgid "Open the selected folder"
@@ -1324,7 +1325,7 @@ msgstr "प्रकार अनुसार फाइल सूची क्�
 
 #: ../src/ui.h:263
 msgid "by _Date Modified"
-msgstr ""
+msgstr "परिमार्जित मिति द्वारा"
 
 #: ../src/ui.h:264
 msgid "Sort file list by modification time"

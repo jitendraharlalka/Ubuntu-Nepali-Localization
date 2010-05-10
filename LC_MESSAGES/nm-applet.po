@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: network-manager-applet.network-manager-applet-0-6.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-20 22:08+0000\n"
-"PO-Revision-Date: 2010-04-11 19:16+0545\n"
+"PO-Revision-Date: 2010-05-07 14:30+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../nm-applet.desktop.in.h:2
 msgid "Network Manager"
-msgstr ""
+msgstr "नेटवर्क व्यवस्थापक"
 
 #: ../nm-applet.schemas.in.h:1
 msgid "Disable WiFi Create"
@@ -41,8 +41,7 @@ msgid "Disable disconnected notifications"
 msgstr ""
 
 #: ../nm-applet.schemas.in.h:4
-msgid ""
-"Set this to TRUE to disable notifications when connecting to a network."
+msgid "Set this to TRUE to disable notifications when connecting to a network."
 msgstr ""
 
 #: ../nm-applet.schemas.in.h:5
@@ -70,8 +69,7 @@ msgid "Suppress networks available notifications"
 msgstr ""
 
 #: ../nm-applet.schemas.in.h:10
-msgid ""
-"Used to determine whether settings should be migrated to a new version."
+msgid "Used to determine whether settings should be migrated to a new version."
 msgstr ""
 
 #: ../nm-connection-editor.desktop.in.h:1
@@ -155,14 +153,14 @@ msgstr ""
 #: ../src/applet-device-cdma.c:261 ../src/applet-device-gsm.c:260
 #, c-format
 msgid "Mobile Broadband (%s)"
-msgstr ""
+msgstr "मोबाइल ब्रोडब्यान्ड (%s)"
 
 #: ../src/applet-device-cdma.c:263 ../src/applet-device-gsm.c:262
 #: ../src/connection-editor/page-mobile.c:326
 #: ../src/connection-editor/nm-connection-editor.glade.h:6
 #: ../src/connection-editor/nm-connection-list.c:1360
 msgid "Mobile Broadband"
-msgstr ""
+msgstr "मोबाइल ब्रोडब्यान्ड"
 
 #: ../src/applet-device-cdma.c:326
 msgid "You are now connected to the CDMA network."
@@ -170,7 +168,7 @@ msgstr ""
 
 #: ../src/applet-device-cdma.c:496 ../src/applet-device-gsm.c:637
 msgid "Mobile broadband network password"
-msgstr ""
+msgstr "मोबाइल ब्रोडब्यान्ड नेटवर्क पासवर्ड"
 
 #: ../src/applet-device-cdma.c:505 ../src/applet-device-gsm.c:646
 #, c-format
@@ -191,7 +189,7 @@ msgstr ""
 
 #: ../src/applet-device-gsm.c:314
 msgid "GSM network."
-msgstr ""
+msgstr "GSM नेटवर्क ।"
 
 #: ../src/applet-device-gsm.c:577
 msgid "PIN code required"
@@ -199,15 +197,15 @@ msgstr "पिन कोड आवश्यक छ"
 
 #: ../src/applet-device-gsm.c:579
 msgid "PUK code required"
-msgstr ""
+msgstr "PUK कोड आवश्यक छ"
 
 #: ../src/applet-device-gsm.c:588
 msgid "PIN code is needed for the mobile broadband device"
-msgstr ""
+msgstr "मोबाइल ब्रोडब्यान्ड यन्त्रका लागि पिन कोड चाहिन्छ"
 
 #: ../src/applet-device-gsm.c:590
 msgid "PUK code is needed for the mobile broadband device"
-msgstr ""
+msgstr "मोबाइल ब्रोडब्यान्ड यन्त्रका लागि PUK कोड चाहिन्छ"
 
 #: ../src/applet-device-wired.c:63
 msgid "Auto Ethernet"
@@ -267,7 +265,7 @@ msgstr ""
 
 #: ../src/applet-device-wired.c:562
 msgid "DSL authentication"
-msgstr ""
+msgstr "DSL प्रमाणीकरण"
 
 #: ../src/applet-device-wifi.c:88
 msgid "_Connect to Hidden Wireless Network..."
@@ -290,8 +288,8 @@ msgstr ""
 #: ../src/applet-device-wifi.c:710
 msgid "Wireless Network"
 msgid_plural "Wireless Networks"
-msgstr[0] "ताररहित सञ्जाल"
-msgstr[1] "ताररहित सञ्जालहरू"
+msgstr[0] "ताररहित नेटवर्क"
+msgstr[1] "ताररहित नेटवर्क"
 
 #: ../src/applet-device-wifi.c:740
 msgid "wireless is disabled"
@@ -299,7 +297,7 @@ msgstr ""
 
 #: ../src/applet-device-wifi.c:801
 msgid "More networks"
-msgstr ""
+msgstr "अधिक नेटवर्कहरु"
 
 #: ../src/applet-device-wifi.c:1005
 msgid "Wireless Networks Available"
@@ -356,7 +354,7 @@ msgstr "जडान जानकारी प्रदर्शन गर्द
 #: ../src/wireless-dialog.c:925
 #: ../src/wireless-security/wireless-security.c:340
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../src/applet-dialogs.c:86
 msgid "Dynamic WEP"
@@ -365,11 +363,11 @@ msgstr "गतिशील WEP"
 #: ../src/applet-dialogs.c:88 ../src/applet-dialogs.c:189
 #: ../src/applet-dialogs.c:191
 msgid "WPA/WPA2"
-msgstr ""
+msgstr "WPA/WPA2"
 
 #: ../src/applet-dialogs.c:187
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../src/applet-dialogs.c:195 ../src/applet-dialogs.c:204
 #: ../src/connection-editor/page-wireless-security.c:238
@@ -401,12 +399,12 @@ msgstr ""
 #: ../src/applet-dialogs.c:314
 #, c-format
 msgid "GSM (%s)"
-msgstr ""
+msgstr "GSM (%s)"
 
 #: ../src/applet-dialogs.c:316
 #, c-format
 msgid "CDMA (%s)"
-msgstr ""
+msgstr "CDMA (%s)"
 
 #: ../src/applet-dialogs.c:321
 msgid "Interface:"
@@ -426,7 +424,7 @@ msgstr "गति:"
 
 #: ../src/applet-dialogs.c:394
 msgid "Security:"
-msgstr ""
+msgstr "सुरक्षा:"
 
 #: ../src/applet-dialogs.c:416
 msgid "IP Address:"
@@ -466,8 +464,7 @@ msgstr ""
 #: ../src/applet-dialogs.c:673
 msgid ""
 "Notification area applet for managing your network devices and connections."
-msgstr ""
-"तपाईको सञ्जाल यन्त्रहरू र जडानहरू प्रबन्धको लागि सूचना क्षेत्र एप्लेट ।"
+msgstr "तपाईको सञ्जाल यन्त्रहरू र जडानहरू प्रबन्धको लागि सूचना क्षेत्र एप्लेट ।"
 
 #: ../src/applet-dialogs.c:675
 msgid "NetworkManager Website"
@@ -870,7 +867,7 @@ msgstr ""
 
 #: ../src/applet.glade.h:35 ../src/connection-editor/ce-page-mobile.glade.h:16
 msgid "_Type:"
-msgstr ""
+msgstr "प्रकार:"
 
 #: ../src/applet.glade.h:36
 msgid "_User certificate:"
@@ -965,7 +962,7 @@ msgstr ""
 #: ../src/connection-editor/ce-page-ip4.glade.h:15
 #: ../src/connection-editor/ce-page-ip6.glade.h:13
 msgid "_DNS servers:"
-msgstr ""
+msgstr "_DNS सर्भरहरु:"
 
 #: ../src/connection-editor/ce-page-ip4.glade.h:16
 #: ../src/connection-editor/ce-page-ip6.glade.h:14
@@ -1110,15 +1107,15 @@ msgstr ""
 
 #: ../src/connection-editor/ce-page-ppp.glade.h:20
 msgid "_EAP"
-msgstr ""
+msgstr "_EAP"
 
 #: ../src/connection-editor/ce-page-ppp.glade.h:21
 msgid "_MSCHAP"
-msgstr ""
+msgstr "_MSCHAP"
 
 #: ../src/connection-editor/ce-page-ppp.glade.h:22
 msgid "_PAP"
-msgstr ""
+msgstr "_PAP"
 
 #: ../src/connection-editor/ce-page-ppp.glade.h:23
 msgid "_Require 128-bit encryption"
@@ -1248,18 +1245,18 @@ msgstr "निर्माण गर्नुहोस्..."
 #: ../src/connection-editor/page-ip4.c:634
 #: ../src/connection-editor/page-ip6.c:611
 msgid "Address"
-msgstr ""
+msgstr "ठेगाना"
 
 #: ../src/connection-editor/ip4-routes-dialog.c:517
 #: ../src/connection-editor/page-ip4.c:650
 msgid "Netmask"
-msgstr ""
+msgstr "नेटमास्क"
 
 #: ../src/connection-editor/ip4-routes-dialog.c:533
 #: ../src/connection-editor/ip6-routes-dialog.c:491
 #: ../src/connection-editor/page-ip4.c:666
 msgid "Gateway"
-msgstr ""
+msgstr "गेटवे"
 
 #: ../src/connection-editor/ip4-routes-dialog.c:549
 #: ../src/connection-editor/ip6-routes-dialog.c:507
@@ -1280,7 +1277,7 @@ msgstr ""
 #: ../src/connection-editor/nm-connection-editor.glade.h:4
 #: ../src/connection-editor/nm-connection-list.c:1368
 msgid "DSL"
-msgstr ""
+msgstr "DSL"
 
 #: ../src/connection-editor/page-dsl.c:241
 #, c-format
@@ -1365,7 +1362,7 @@ msgstr ""
 #: ../src/connection-editor/page-ip6.c:137
 #: ../src/wireless-security/eap-method.c:196
 msgid "Ignore"
-msgstr ""
+msgstr "बेवास्ता गर्नुहोस्"
 
 #: ../src/connection-editor/page-ip6.c:574
 #, c-format
@@ -1411,7 +1408,7 @@ msgstr ""
 
 #: ../src/connection-editor/page-ppp.c:132
 msgid "EAP"
-msgstr ""
+msgstr "EAP"
 
 #: ../src/connection-editor/page-ppp.c:133
 #: ../src/wireless-security/eap-method-ttls.c:227
@@ -1427,7 +1424,7 @@ msgstr "CHAP"
 #: ../src/wireless-security/eap-method-peap.c:244
 #: ../src/wireless-security/eap-method-ttls.c:257
 msgid "MSCHAPv2"
-msgstr ""
+msgstr "MSCHAPv2"
 
 #: ../src/connection-editor/page-ppp.c:136
 #: ../src/wireless-security/eap-method-ttls.c:242
@@ -1451,18 +1448,18 @@ msgstr ""
 
 #: ../src/connection-editor/page-ppp.c:296
 msgid "PPP Settings"
-msgstr ""
+msgstr "PPP सेटिङ"
 
 #: ../src/connection-editor/page-vpn.c:108
 #: ../src/connection-editor/nm-connection-editor.glade.h:8
 #: ../src/connection-editor/nm-connection-list.c:1364
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 #: ../src/connection-editor/page-vpn.c:119
 #, c-format
 msgid "Could not find VPN plugin service for '%s'."
-msgstr ""
+msgstr "'%s' का लागि VPN प्लगइन सेवा फेला पार्न सकेन ।"
 
 #: ../src/connection-editor/page-vpn.c:213
 #: ../src/connection-editor/nm-connection-list.c:949
@@ -1538,7 +1535,7 @@ msgstr ""
 #: ../src/connection-editor/page-wireless-security.c:311
 #: ../src/wireless-dialog.c:952
 msgid "WPA & WPA2 Personal"
-msgstr ""
+msgstr "WPA र WPA2 व्यक्तिगत"
 
 #: ../src/connection-editor/page-wireless-security.c:325
 #: ../src/wireless-dialog.c:966
@@ -1601,7 +1598,7 @@ msgstr ""
 
 #: ../src/connection-editor/nm-connection-editor.glade.h:1
 msgid "Available to all users"
-msgstr ""
+msgstr "सबै प्रयोगकर्तालाई उपलब्ध"
 
 #: ../src/connection-editor/nm-connection-editor.glade.h:2
 msgid "Connect _automatically"
@@ -1676,7 +1673,7 @@ msgstr ""
 #: ../src/connection-editor/nm-connection-list.c:605
 #: ../src/connection-editor/nm-connection-list.c:720
 msgid "An unknown error ocurred."
-msgstr ""
+msgstr "अज्ञात त्रुटि भयो ।"
 
 #: ../src/connection-editor/nm-connection-list.c:610
 #: ../src/connection-editor/nm-connection-list.c:755
@@ -2087,7 +2084,7 @@ msgstr ""
 
 #: ../src/wireless-security/eap-method-peap.c:259
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #: ../src/wireless-security/eap-method-peap.c:274
 msgid "GTC"

@@ -14,20 +14,22 @@
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: evolution.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-02 02:09+0000\n"
-"PO-Revision-Date: 2010-02-04 02:34+0000\n"
-"Last-Translator: Narayan Kumar Magar <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-07 15:02+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 04:23+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../a11y/addressbook/ea-addressbook-view.c:94
 #: ../a11y/addressbook/ea-addressbook-view.c:103
@@ -674,7 +676,7 @@ msgstr "व्यक्तिगत"
 #: ../addressbook/gui/component/addressbook-component.c:209
 msgctxt "New"
 msgid "_Contact"
-msgstr ""
+msgstr "सम्पर्क"
 
 #: ../addressbook/gui/component/addressbook-component.c:210
 msgid "Create a new contact"
@@ -683,7 +685,7 @@ msgstr "एउटा नयाँ सम्पर्क ठेगाना स�
 #: ../addressbook/gui/component/addressbook-component.c:217
 msgctxt "New"
 msgid "Contact _List"
-msgstr ""
+msgstr "सम्पर्क सूची"
 
 #: ../addressbook/gui/component/addressbook-component.c:218
 msgid "Create a new contact list"
@@ -697,7 +699,7 @@ msgstr "नयाँ ठेगाना पुस्तिका"
 #: ../addressbook/gui/component/addressbook-component.c:225
 msgctxt "New"
 msgid "Address _Book"
-msgstr ""
+msgstr "ठेगाना पुस्तिका"
 
 #: ../addressbook/gui/component/addressbook-component.c:226
 msgid "Create a new address book"
@@ -1473,7 +1475,7 @@ msgstr "समूहगत"
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:178
 #: ../addressbook/gui/widgets/eab-contact-display.c:610
 msgid "Skype"
-msgstr ""
+msgstr "स्काइप"
 
 #. red
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:190
@@ -1624,6 +1626,12 @@ msgid ""
 "Miss\n"
 "Dr."
 msgstr ""
+"\n"
+"श्रीमान्\n"
+"श्रीमति\n"
+"श्री\n"
+"सुश्री\n"
+"डा."
 
 #: ../addressbook/gui/contact-editor/fullname.glade.h:7
 msgid ""
@@ -1659,7 +1667,7 @@ msgstr "प्रत्यय:"
 
 #: ../addressbook/gui/contact-list-editor/contact-list-editor.glade.h:1
 msgid "<b>Members</b>"
-msgstr ""
+msgstr "<b>सदस्यहरु</b>"
 
 #: ../addressbook/gui/contact-list-editor/contact-list-editor.glade.h:2
 #: ../addressbook/gui/contact-list-editor/e-contact-list-editor.c:668
@@ -1671,7 +1679,7 @@ msgstr "सम्पर्क सूची सम्पादक"
 #: ../calendar/gui/e-day-view-time-item.c:812
 #: ../calendar/gui/e-timezone-entry.c:118
 msgid "Select..."
-msgstr ""
+msgstr "छान्नुहोस्..."
 
 #: ../addressbook/gui/contact-list-editor/contact-list-editor.glade.h:4
 msgid "_Hide addresses when sending mail to this list"
@@ -1836,7 +1844,7 @@ msgstr "प्रकार"
 #: ../addressbook/gui/widgets/e-addressbook-view.c:812
 #: ../addressbook/gui/widgets/e-addressbook-view.c:1971
 msgid "Save as vCard..."
-msgstr ""
+msgstr "भि कार्डका रूपमा बचत गर्नुहोस्..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:932
 #: ../calendar/gui/e-calendar-table.c:1594
@@ -1855,7 +1863,7 @@ msgstr "नयाँ सम्पर्क सूची..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:938
 msgid "_Save as vCard..."
-msgstr ""
+msgstr "भि कार्डका रूपमा बचत गर्नुहोस्..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:939
 msgid "_Forward Contact"
@@ -2474,7 +2482,7 @@ msgstr ""
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:148
 msgid "Detailed error message:"
-msgstr ""
+msgstr "विस्तृत त्रुटि सन्देश:"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:171
 msgid ""
@@ -2957,7 +2965,7 @@ msgstr "कार्यसूची लोड गर्दा त्रुटि
 #. For Translators: {0} is specify the backend server
 #: ../calendar/calendar.error.xml.h:44
 msgid "Error on '{0}'"
-msgstr ""
+msgstr "'{0}' मा त्रुटि"
 
 #: ../calendar/calendar.error.xml.h:45
 msgid ""
@@ -2985,7 +2993,7 @@ msgstr ""
 
 #: ../calendar/calendar.error.xml.h:48
 msgid "No response from the server."
-msgstr ""
+msgstr "सर्भरबाट कुनै प्रतिक्रिया छैन"
 
 #: ../calendar/calendar.error.xml.h:49
 msgid "Save Appointment"
@@ -3077,7 +3085,7 @@ msgstr "यो कार्यसूची स्थायी रूपले �
 
 #: ../calendar/calendar.error.xml.h:68
 msgid "Unable to load the calendar"
-msgstr ""
+msgstr "पात्रो लोड गर्न असक्षम"
 
 #: ../calendar/calendar.error.xml.h:69
 msgid "Would you like to save your changes to this appointment?"
@@ -4166,7 +4174,7 @@ msgstr "नयाँ बैठक"
 #: ../calendar/gui/calendar-component.c:1445
 msgctxt "New"
 msgid "M_eeting"
-msgstr ""
+msgstr "बैठक"
 
 #: ../calendar/gui/calendar-component.c:1446
 msgid "Create a new meeting request"
@@ -4192,7 +4200,7 @@ msgstr "नयाँ पात्रो"
 #: ../calendar/gui/calendar-component.c:1461
 msgctxt "New"
 msgid "Cale_ndar"
-msgstr ""
+msgstr "पात्रो"
 
 #: ../calendar/gui/calendar-component.c:1462
 msgid "Create a new calendar"
@@ -4429,6 +4437,8 @@ msgid ""
 "before\n"
 "after"
 msgstr ""
+"पहिले\n"
+"पछि"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:16
 msgid "extra times every"
@@ -4440,6 +4450,9 @@ msgid ""
 "hour(s)\n"
 "day(s)"
 msgstr ""
+"मिनेट\n"
+"घन्टा\n"
+"दिन"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:20
 msgid ""
@@ -4447,6 +4460,9 @@ msgid ""
 "hours\n"
 "days"
 msgstr ""
+"मिनेट\n"
+"घन्टा\n"
+"दिन"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:23
 msgid ""
@@ -4505,11 +4521,11 @@ msgstr "सचेतकका लागि चयन गरिएको पा�
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.c:865
 msgid "Time and date:"
-msgstr ""
+msgstr "समय र मिति:"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.c:866
 msgid "Date only:"
-msgstr ""
+msgstr "मिति मात्रै:"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:1
 msgid "(Shown in a Day View)"
@@ -4639,7 +4655,7 @@ msgstr "आइतवार"
 #: ../calendar/gui/dialogs/recurrence-page.c:1117
 #: ../calendar/gui/e-itip-control.c:732
 msgid "Saturday"
-msgstr "शनीबार"
+msgstr "शनिबार"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:40
 msgid "Sc_roll Month View by a week"
@@ -5065,7 +5081,7 @@ msgstr "सार्वजनिक"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1119
 msgid "Classify as public"
-msgstr "सार्वजनिक रूपमा वर्गिकरण गर्नुहोस्"
+msgstr "सार्वजनिकका रूपमा वर्गिकरण गर्नुहोस्"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1124
 msgid "_Private"
@@ -5073,7 +5089,7 @@ msgstr "निजी"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1126
 msgid "Classify as private"
-msgstr ""
+msgstr "निजीका रुपमा वर्गिकरण गर्नुहोस्"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1131
 msgid "_Confidential"
@@ -5081,7 +5097,7 @@ msgstr "गोप्य"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1133
 msgid "Classify as confidential"
-msgstr ""
+msgstr "गोप्यका रुपमा वर्गिकरण गर्नुहोस्"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1141
 msgid "R_ole Field"
@@ -5615,7 +5631,7 @@ msgstr "चौथो"
 #. 
 #: ../calendar/gui/dialogs/recurrence-page.c:1039
 msgid "fifth"
-msgstr ""
+msgstr "पाँचौ"
 
 #. TRANSLATORS: Entire string is for example: This appointment recurs/Every [x] month(s) on the [last] [Monday] [forever]'
 #. * (dropdown menu options are in [square brackets]). This means that after 'last', either the string 'day' or
@@ -5725,6 +5741,10 @@ msgid ""
 "month(s)\n"
 "year(s)"
 msgstr ""
+"दिन\n"
+"हप्ता\n"
+"महिना\n"
+"वर्ष"
 
 #. TRANSLATORS: Entire string is for example:
 #. 'This appointment recurs/Every[x][day(s)][for][1]occurrences' (combobox options are in [square brackets])
@@ -5767,6 +5787,10 @@ msgid ""
 "Low\n"
 "Undefined"
 msgstr ""
+"उच्च\n"
+"सामान्य\n"
+"कम\n"
+"अपरिभाषित"
 
 #: ../calendar/gui/dialogs/task-details-page.glade.h:7
 msgid ""
@@ -5775,6 +5799,10 @@ msgid ""
 "Completed\n"
 "Canceled"
 msgstr ""
+"शुरु भएको छैन\n"
+"जारी छ\n"
+"समाप्त भयो\n"
+"रद्द भयो"
 
 #: ../calendar/gui/dialogs/task-details-page.glade.h:11
 msgid "P_ercent complete:"
@@ -5934,11 +5962,11 @@ msgstr "अज्ञात ट्रिगर प्रकारका लाग
 
 #: ../calendar/gui/e-attachment-handler-calendar.c:258
 msgid "I_mport"
-msgstr ""
+msgstr "आयात गर्नुहोस्"
 
 #: ../calendar/gui/e-attachment-handler-calendar.c:340
 msgid "Select a Calendar"
-msgstr ""
+msgstr "पात्रो छान्नुहोस्"
 
 #: ../calendar/gui/e-attachment-handler-calendar.c:367
 msgid "Select a Task List"
@@ -6136,7 +6164,7 @@ msgstr "मानाङ्कन गरियो"
 
 #: ../calendar/gui/e-calendar-table.c:338
 msgid "* No Summary *"
-msgstr ""
+msgstr "* कुनै सारांश छैन *"
 
 #. To Translators: It will display "Organiser: NameOfTheUser <email@ofuser.com>"
 #: ../calendar/gui/e-calendar-table.c:374
@@ -6367,7 +6395,7 @@ msgstr "मिति चयन गर्नुहोस्..."
 
 #: ../calendar/gui/e-calendar-view.c:1811
 msgid "Pri_nt..."
-msgstr ""
+msgstr "मुद्रण गर्नुहोस्..."
 
 #: ../calendar/gui/e-calendar-view.c:1821
 msgid "Cop_y to Calendar..."
@@ -6517,7 +6545,7 @@ msgstr "pm"
 #: ../calendar/gui/e-day-view.c:2309
 #, c-format
 msgid "Week %d"
-msgstr ""
+msgstr "हप्ता %d"
 
 #: ../calendar/gui/e-itip-control.c:758
 msgid "Yes. (Complex Recurrence)"
@@ -7645,7 +7673,7 @@ msgstr "सारांश: %s"
 
 #: ../calendar/gui/print.c:2558
 msgid "Attendees: "
-msgstr ""
+msgstr "सहभागीहरू:"
 
 #: ../calendar/gui/print.c:2598
 #, c-format
@@ -7767,15 +7795,15 @@ msgstr "कार्यहरू मुद्रण गर्नुहोस्"
 #: ../calendar/gui/tasktypes.xml.h:2
 #, no-c-format
 msgid "% Completed"
-msgstr ""
+msgstr "% पूरा"
 
 #: ../calendar/gui/tasktypes.xml.h:7
 msgid "Cancelled"
-msgstr ""
+msgstr "रद्द गरियो"
 
 #: ../calendar/gui/tasktypes.xml.h:15
 msgid "In progress"
-msgstr ""
+msgstr "जारी छ"
 
 #: ../calendar/gui/tasktypes.xml.h:28 ../mail/em-filter-i18n.h:35
 msgid "is greater than"
@@ -9437,11 +9465,11 @@ msgstr "पठाउने विकल्पहरू घुसाउनुह�
 
 #: ../composer/e-composer-actions.c:380
 msgid "New _Message"
-msgstr ""
+msgstr "नयाँ सन्देश"
 
 #: ../composer/e-composer-actions.c:382
 msgid "Open New Message window"
-msgstr ""
+msgstr "नयाँ सन्देश विन्डो खोल्नुहोस्"
 
 #: ../composer/e-composer-actions.c:389
 msgid "Character _Encoding"
@@ -9851,7 +9879,7 @@ msgstr "भोलि"
 
 #: ../e-util/e-datetime-format.c:204
 msgid "Yesterday"
-msgstr ""
+msgstr "हिजो"
 
 #: ../e-util/e-datetime-format.c:207
 #, c-format
@@ -9861,7 +9889,7 @@ msgstr ""
 #: ../e-util/e-datetime-format.c:209
 #, c-format
 msgid "%d days ago"
-msgstr ""
+msgstr "%d दिन अघि"
 
 #: ../e-util/e-datetime-format.c:283 ../e-util/e-datetime-format.c:293
 #: ../e-util/e-datetime-format.c:302
@@ -9870,7 +9898,7 @@ msgstr ""
 
 #: ../e-util/e-datetime-format.c:496
 msgid "Format:"
-msgstr ""
+msgstr "ढाँचा:"
 
 #: ../e-util/e-error.c:78 ../e-util/e-error.c:79 ../e-util/e-error.c:121
 msgid "Evolution Error"
@@ -9941,15 +9969,15 @@ msgstr "यो सञ्झ्याल बन्द गर्नुहोस्
 
 #: ../e-util/e-non-intrusive-error-dialog.h:39
 msgid "Error"
-msgstr ""
+msgstr "त्रुटि"
 
 #: ../e-util/e-non-intrusive-error-dialog.h:39
 msgid "Errors"
-msgstr ""
+msgstr "त्रुटिहरु"
 
 #: ../e-util/e-non-intrusive-error-dialog.h:40
 msgid "Warnings and Errors"
-msgstr ""
+msgstr "चेतावनी र त्रुटिहरु"
 
 #: ../e-util/e-non-intrusive-error-dialog.h:41
 msgid "Debug"
@@ -9989,15 +10017,15 @@ msgstr "स्वत:सिर्जना भएको"
 
 #: ../e-util/e-system.error.xml.h:1 ../mail/mail.error.xml.h:19
 msgid "Because \"{1}\"."
-msgstr ""
+msgstr "किनभने \"{1}\"।"
 
 #: ../e-util/e-system.error.xml.h:2
 msgid "Cannot open file \"{0}\"."
-msgstr ""
+msgstr "फाइल \"{0}\" खोल्न सक्दैन ।"
 
 #: ../e-util/e-system.error.xml.h:3
 msgid "Cannot save file \"{0}\"."
-msgstr ""
+msgstr "फाइल \"{0}\" बचत गर्न सक्दैन ।"
 
 #: ../e-util/e-system.error.xml.h:4
 msgid "Do you wish to overwrite it?"
@@ -10049,15 +10077,15 @@ msgstr "पछि"
 
 #: ../e-util/e-util-labels.c:320
 msgid "Label _Name:"
-msgstr ""
+msgstr "लेबलको नाम:"
 
 #: ../e-util/e-util-labels.c:343
 msgid "Edit Label"
-msgstr ""
+msgstr "लेबल सम्पादन गर्नुहोस्"
 
 #: ../e-util/e-util-labels.c:343
 msgid "Add Label"
-msgstr ""
+msgstr "लेबल थप्नुहोस्"
 
 #: ../e-util/e-util-labels.c:362
 msgid "Label name cannot be empty."
@@ -10352,6 +10380,13 @@ msgid ""
 "months\n"
 "years"
 msgstr ""
+"सेकेन्ड\n"
+"मिनेट\n"
+"घन्टा\n"
+"दिन\n"
+"हप्ता\n"
+"महिना\n"
+"वर्ष"
 
 #: ../filter/filter.glade.h:21
 msgid ""
@@ -10589,7 +10624,7 @@ msgstr "परिचय"
 
 #: ../mail/em-account-editor.c:1932 ../mail/mail-config.glade.h:126
 msgid "Receiving Email"
-msgstr "पत्र प्राप्त गर्दै"
+msgstr "इमेल प्राप्त गर्दै"
 
 #: ../mail/em-account-editor.c:2248
 msgid "Check for _new messages every"
@@ -10597,7 +10632,7 @@ msgstr ""
 
 #: ../mail/em-account-editor.c:2256
 msgid "minu_tes"
-msgstr ""
+msgstr "मिनेट"
 
 #: ../mail/em-account-editor.c:2454 ../mail/mail-config.glade.h:137
 msgid "Sending Email"
@@ -11712,7 +11747,7 @@ msgstr ""
 
 #: ../mail/em-mailer-prefs.c:336
 msgid "Header Name:"
-msgstr ""
+msgstr "हेडरको नाम:"
 
 #: ../mail/em-mailer-prefs.c:337
 msgid "Header Value Contains:"
@@ -11729,11 +11764,11 @@ msgstr ""
 
 #: ../mail/em-mailer-prefs.c:465
 msgid "Color"
-msgstr ""
+msgstr "रङ"
 
 #: ../mail/em-mailer-prefs.c:468
 msgid "Tag"
-msgstr ""
+msgstr "ट्याग"
 
 #. May be a better text
 #: ../mail/em-mailer-prefs.c:1063 ../mail/em-mailer-prefs.c:1117
@@ -11900,7 +11935,7 @@ msgstr "कुनै सर्भर चयन गरिएको छैन"
 #: ../mail/em-utils.c:123
 #: ../plugins/attachment-reminder/attachment-reminder.c:129
 msgid "_Do not show this message again."
-msgstr ""
+msgstr "यो संदेश फेरी नदेखाउने ।"
 
 #: ../mail/em-utils.c:319
 msgid "Message Filters"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gedit.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-10 00:02+0000\n"
-"PO-Revision-Date: 2010-03-15 22:50+0545\n"
+"PO-Revision-Date: 2010-05-04 14:07+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -2401,11 +2401,11 @@ msgstr "प्रत्येक चयन गरिएको शब्दको
 
 #: ../plugins/checkupdate/checkupdate.gedit-plugin.desktop.in.h:1
 msgid "Check for latest version of gedit"
-msgstr ""
+msgstr "कापीको नवीनतम संस्करणका लागि जाँच्नुहोस्"
 
 #: ../plugins/checkupdate/checkupdate.gedit-plugin.desktop.in.h:2
 msgid "Check update"
-msgstr "अद्यवधिक जाँच्नुहोस्"
+msgstr "अद्यावधिक जाँच्नुहोस्"
 
 #: ../plugins/checkupdate/gedit-check-update-plugin.c:246
 msgid "There was an error displaying the url."
@@ -2423,13 +2423,15 @@ msgstr "संस्करण बेवास्ता गर्नुहोस�
 
 #: ../plugins/checkupdate/gedit-check-update-plugin.c:332
 msgid "There is a new version of gedit"
-msgstr "जिइडिटको नयाँ संस्करण छ"
+msgstr "कापीको नयाँ संस्करण छ"
 
 #: ../plugins/checkupdate/gedit-check-update-plugin.c:336
 msgid ""
 "You can download the new version of gedit by pressing on the download button "
 "or ignore that version and wait for a new one"
 msgstr ""
+"तपाई कापीको नयाँ संस्करण डाउनलोड बटन थिचेर डाउनलोड गर्न सक्नुहुन्छ वा त्यो "
+"संस्करण बेवास्ता गर्नुहोस् र नयाँका लागि कुर्नुहोस्"
 
 #: ../plugins/checkupdate/gedit-check-update.schemas.in.h:1
 msgid "Version to ignore until the next version is released"
@@ -2450,7 +2452,7 @@ msgstr "कागजात तथ्याङ्क"
 
 #: ../plugins/docinfo/docinfo.ui.h:2
 msgid "0"
-msgstr "0"
+msgstr "०"
 
 #: ../plugins/docinfo/docinfo.ui.h:3
 msgid "<span weight=\"bold\">File Name</span>"
@@ -3232,7 +3234,7 @@ msgstr "यसलाई आयत गर्दा निम्न त्रु�
 
 #: ../plugins/snippets/snippets/Manager.py:783
 msgid "Import successfully completed"
-msgstr ""
+msgstr "आयात सफलतापूर्वक पूरा भयो"
 
 #: ../plugins/snippets/snippets/Manager.py:802
 #: ../plugins/snippets/snippets/Manager.py:888
@@ -3269,13 +3271,12 @@ msgstr "यसलाई निर्यात गर्दा निम्न �
 
 #: ../plugins/snippets/snippets/Manager.py:822
 msgid "Export successfully completed"
-msgstr ""
+msgstr "निर्यात सफलतापूर्वक पूरा भयो"
 
 #. Ask if system snippets should also be exported
 #: ../plugins/snippets/snippets/Manager.py:862
 #: ../plugins/snippets/snippets/Manager.py:929
-msgid ""
-"Do you want to include selected <b>system</b> snippets in your export?"
+msgid "Do you want to include selected <b>system</b> snippets in your export?"
 msgstr ""
 "चयन गरिएको <b>प्रणाली</b> स्निपेटहरू तपाईँको निर्यातमा समावेश गर्न "
 "चाहनुहुन्छ?"
@@ -3447,7 +3448,7 @@ msgstr "हिज्जे जाँच पूरा भयो"
 #, c-format
 msgctxt "language"
 msgid "%s (%s)"
-msgstr ""
+msgstr "%s (%s)"
 
 #. Translators: this refers to an unknown language code
 #. * (one which isn't in our built-in list).
@@ -3456,7 +3457,7 @@ msgstr ""
 #, c-format
 msgctxt "language"
 msgid "Unknown (%s)"
-msgstr ""
+msgstr "अज्ञात (%s)"
 
 #. Translators: this refers the Default language used by the
 #. * spell checker

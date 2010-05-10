@@ -2,24 +2,26 @@
 # Nepali Translation Project.
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
 # Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-keyring.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-19 13:22+0000\n"
-"PO-Revision-Date: 2010-02-19 15:52+0000\n"
-"Last-Translator: Nabin Gautam <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-04 17:01+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 07:32+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: NEPAL\n"
 "X-Poedit-Language: Nepali\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -65,7 +67,7 @@ msgstr ""
 #: ../daemon/dbus/gkd-secret-unlock.c:119 ../daemon/login/gkd-login.c:584
 #: ../pkcs11/secret-store/gck-secret-collection.c:320
 msgid "Unnamed"
-msgstr ""
+msgstr "बेनाम"
 
 #: ../daemon/dbus/gkd-secret-change.c:85
 msgid "Change Keyring Password"
@@ -166,7 +168,7 @@ msgstr ""
 #. TRANSLATORS: This is the display label for the login keyring
 #: ../daemon/login/gkd-login.c:174
 msgid "Login"
-msgstr ""
+msgstr "लगइन"
 
 #: ../daemon/login/gkd-login.c:596
 #, c-format
@@ -175,11 +177,11 @@ msgstr ""
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:294
 msgid "New Password Required"
-msgstr ""
+msgstr "नयाँ पासवर्ड आवश्यक"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:295
 msgid "New password required for secure storage"
-msgstr ""
+msgstr "सुरक्षित भन्डारणका लागि नयाँ पासवर्ड आवश्यक"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:297
 #, c-format
@@ -293,23 +295,23 @@ msgstr "नयाँ पासवर्डको सक्षमता"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:3
 msgid "_Application:"
-msgstr ""
+msgstr "सफ्टवेयर:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:4
 msgid "_Confirm:"
-msgstr ""
+msgstr "यकिन:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:5
 msgid "_Details:"
-msgstr ""
+msgstr "_विवरण:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:6
 msgid "_Name:"
-msgstr ""
+msgstr "नाम:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:7
 msgid "_Old Password:"
-msgstr ""
+msgstr "पुरानो पासवर्ड:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:8
 msgid "_Password:"
@@ -325,19 +327,19 @@ msgstr ""
 
 #: ../egg/egg-oid.c:46
 msgid "Email"
-msgstr ""
+msgstr "इमेल"
 
 #: ../egg/egg-oid.c:54
 msgid "Date of Birth"
-msgstr ""
+msgstr "जन्म मिति"
 
 #: ../egg/egg-oid.c:56
 msgid "Place of Birth"
-msgstr ""
+msgstr "जन्म स्थान"
 
 #: ../egg/egg-oid.c:58
 msgid "Gender"
-msgstr ""
+msgstr "लिङ्ग"
 
 #: ../egg/egg-oid.c:60
 msgid "Country of Citizenship"
@@ -353,7 +355,7 @@ msgstr ""
 
 #: ../egg/egg-oid.c:67
 msgid "Surname"
-msgstr ""
+msgstr "थर"
 
 #: ../egg/egg-oid.c:69 ../gcr/gcr-certificate-basics-widget.ui.h:18
 #: ../gcr/gcr-certificate-details-widget.c:322
@@ -362,7 +364,7 @@ msgstr ""
 
 #: ../egg/egg-oid.c:71
 msgid "Country"
-msgstr ""
+msgstr "देश"
 
 #: ../egg/egg-oid.c:73
 msgid "Locality"
@@ -370,15 +372,15 @@ msgstr ""
 
 #: ../egg/egg-oid.c:75
 msgid "State"
-msgstr ""
+msgstr "प्रान्त"
 
 #: ../egg/egg-oid.c:77
 msgid "Street"
-msgstr ""
+msgstr "गल्ली"
 
 #: ../egg/egg-oid.c:79
 msgid "Organization"
-msgstr ""
+msgstr "सङ्गठन"
 
 #: ../egg/egg-oid.c:81
 msgid "Organizational Unit"
@@ -386,15 +388,15 @@ msgstr ""
 
 #: ../egg/egg-oid.c:83
 msgid "Title"
-msgstr ""
+msgstr "शीर्षक"
 
 #: ../egg/egg-oid.c:85
 msgid "Telephone Number"
-msgstr ""
+msgstr "टेलिफोन नम्बर"
 
 #: ../egg/egg-oid.c:87
 msgid "Given Name"
-msgstr ""
+msgstr "दिइएको नाम"
 
 #: ../egg/egg-oid.c:89
 msgid "Initials"
@@ -452,7 +454,7 @@ msgstr ""
 
 #: ../gcr/gcr-certificate-basics-widget.c:80
 msgid "<i>unknown</i>"
-msgstr ""
+msgstr "<i>अज्ञात</i>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:1
 msgid "<Not Part of Certificate>"
@@ -540,11 +542,11 @@ msgstr ""
 
 #: ../gcr/gcr-certificate-details-widget.c:229
 msgid "Yes"
-msgstr ""
+msgstr "हो"
 
 #: ../gcr/gcr-certificate-details-widget.c:229
 msgid "No"
-msgstr ""
+msgstr "होइन"
 
 #. The subject
 #: ../gcr/gcr-certificate-details-widget.c:303
@@ -577,7 +579,7 @@ msgstr ""
 #: ../gcr/gcr-certificate-details-widget.c:339
 #: ../gcr/gcr-certificate-details-widget.c:355
 msgid "Signature"
-msgstr ""
+msgstr "हस्ताक्षर"
 
 #: ../gcr/gcr-certificate-details-widget.c:343
 msgid "Signature Algorithm"
@@ -623,7 +625,7 @@ msgstr ""
 
 #: ../gcr/gcr-import-dialog.ui.h:3
 msgid "Password:"
-msgstr ""
+msgstr "पासवर्ड:"
 
 #: ../gcr/gcr-unlock-options-widget.ui.h:1
 msgid "Lock this keyring after"
@@ -639,11 +641,11 @@ msgstr ""
 
 #: ../gcr/gcr-unlock-options-widget.ui.h:4
 msgid "minutes"
-msgstr ""
+msgstr "मिनेट"
 
 #: ../gcr/gcr-importer.c:163 ../gcr/gcr-parser.c:1573 ../gp11/gp11-misc.c:98
 msgid "The operation was cancelled"
-msgstr ""
+msgstr "कार्य रद्द गरिएको थिइयो"
 
 #: ../gcr/gcr-importer.c:255
 #, c-format
@@ -697,7 +699,7 @@ msgstr ""
 
 #: ../gcr/gcr-parser.c:199
 msgid "Certificate"
-msgstr ""
+msgstr "प्रमाणपत्र"
 
 #: ../gcr/gcr-parser.c:1576
 msgid "Unrecognized or unsupported data."
@@ -721,7 +723,7 @@ msgstr ""
 
 #: ../gp11/gp11-misc.c:105
 msgid "Internal error"
-msgstr ""
+msgstr "आन्तरिक त्रुटि"
 
 #: ../gp11/gp11-misc.c:107
 msgid "The operation failed"
@@ -877,7 +879,7 @@ msgstr ""
 
 #: ../gp11/gp11-misc.c:183
 msgid "The session is invalid"
-msgstr ""
+msgstr "सत्र अमान्य छ"
 
 #: ../gp11/gp11-misc.c:185
 msgid "The session is read-only"
@@ -937,11 +939,11 @@ msgstr ""
 
 #: ../gp11/gp11-misc.c:213
 msgid "You are already logged in"
-msgstr ""
+msgstr "तपाई पहिलेदेखि लगइन हुनुहुन्छ"
 
 #: ../gp11/gp11-misc.c:215
 msgid "No user has logged in"
-msgstr ""
+msgstr "कुनै प्रयोगकर्ता लगइन भएको छैन"
 
 #: ../gp11/gp11-misc.c:217
 msgid "The user's password or PIN is not set"

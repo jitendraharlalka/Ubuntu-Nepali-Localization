@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: transmission\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-17 03:02+0000\n"
-"PO-Revision-Date: 2010-04-22 16:55+0545\n"
+"PO-Revision-Date: 2010-05-04 15:14+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -65,11 +65,11 @@ msgstr "सन्देश विवरण (_L)"
 
 #: ../gtk/actions.c:95
 msgid "Enable Temporary Speed _Limits"
-msgstr ""
+msgstr "अस्थाइ गति सीमा सक्षम पार्नुहोस्"
 
 #: ../gtk/actions.c:96
 msgid "_Minimal View"
-msgstr "न्यून दृष्य (_M)"
+msgstr "न्यून दृश्य (_M)"
 
 #: ../gtk/actions.c:97
 msgid "Re_verse Sort Order"
@@ -89,7 +89,7 @@ msgstr "उपकरणपट्टी (_T)"
 
 #: ../gtk/actions.c:105
 msgid "_File"
-msgstr ""
+msgstr "फाईल"
 
 #: ../gtk/actions.c:106
 msgid "_Torrent"
@@ -117,11 +117,11 @@ msgstr ""
 
 #: ../gtk/actions.c:112
 msgid "Add _URL..."
-msgstr ""
+msgstr "यूआरएल थप्नुहोस्..."
 
 #: ../gtk/actions.c:112
 msgid "Add URL..."
-msgstr ""
+msgstr "यूआरएल थप्नुहोस्..."
 
 #: ../gtk/actions.c:113 ../gtk/actions.c:114
 msgid "Add a torrent"
@@ -129,7 +129,7 @@ msgstr "टोरेन्ट थप्नुहोस्"
 
 #: ../gtk/actions.c:114
 msgid "_Add File..."
-msgstr ""
+msgstr "फाइल थप्नुहोस्..."
 
 #: ../gtk/actions.c:115
 msgid "_Start"
@@ -274,15 +274,15 @@ msgstr ""
 
 #: ../gtk/add-dialog.c:514
 msgid "Add URL"
-msgstr ""
+msgstr "यूआरएल थप्नुहोस्"
 
 #: ../gtk/add-dialog.c:527
 msgid "Add torrent from URL"
-msgstr ""
+msgstr "यूआरएलबाट टोरेन्ट थप्नुहोस्"
 
 #: ../gtk/add-dialog.c:530
 msgid "_URL"
-msgstr ""
+msgstr "यूआरएल"
 
 #: ../gtk/conf.c:62 ../libtransmission/fdlimit.c:358
 #: ../libtransmission/metainfo.c:99 ../libtransmission/utils.c:608
@@ -299,7 +299,7 @@ msgstr "\"%1$s\": %2$s खोल्न सकिएन"
 #: ../gtk/conf.c:92
 #, c-format
 msgid "%s is already running."
-msgstr ""
+msgstr "%s पहिलेदेखि चलिरहेको छ ।"
 
 #: ../gtk/conf.c:450 ../gtk/conf.c:455
 #, c-format
@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../gtk/details.c:540
 msgid "Downloading"
-msgstr ""
+msgstr "डाउनलोड गर्दै"
 
 #: ../gtk/details.c:541
 msgid "Seeding"
@@ -364,11 +364,11 @@ msgstr ""
 
 #: ../gtk/details.c:542 ../gtk/torrent-cell-renderer.c:181
 msgid "Paused"
-msgstr ""
+msgstr "पज गरिएको"
 
 #: ../gtk/details.c:562 ../gtk/util.c:108 ../libtransmission/utils.c:1322
 msgid "None"
-msgstr ""
+msgstr "कुनै पनि होइन"
 
 #: ../gtk/details.c:563 ../gtk/file-list.c:588
 msgid "Mixed"
@@ -380,26 +380,26 @@ msgstr ""
 
 #: ../gtk/details.c:587
 msgid "Public torrent"
-msgstr ""
+msgstr "सार्वजनिक टोरेन्ट"
 
 #: ../gtk/details.c:610
 #, c-format
 msgid "Created by %1$s"
-msgstr ""
+msgstr "%1$s द्वारा निर्मित"
 
 #: ../gtk/details.c:612
 #, c-format
 msgid "Created on %1$s"
-msgstr ""
+msgstr "%1$s मा निर्मित"
 
 #: ../gtk/details.c:614
 #, c-format
 msgid "Created by %1$s on %2$s"
-msgstr ""
+msgstr "%1$s द्वारा %2$s मा निर्मित"
 
 #: ../gtk/details.c:696
 msgid "Unknown"
-msgstr ""
+msgstr "अज्ञात"
 
 #: ../gtk/details.c:724
 #, c-format
@@ -437,7 +437,7 @@ msgstr ""
 
 #: ../gtk/details.c:869
 msgid "Active now"
-msgstr ""
+msgstr "हाल सक्रिय"
 
 #: ../gtk/details.c:873
 #, c-format
@@ -446,11 +446,11 @@ msgstr ""
 
 #: ../gtk/details.c:892
 msgid "Activity"
-msgstr ""
+msgstr "क्रियाकलाप"
 
 #: ../gtk/details.c:896
 msgid "Torrent size:"
-msgstr ""
+msgstr "टोरेन्ट साइज:"
 
 #: ../gtk/details.c:900
 msgid "Have:"
@@ -462,11 +462,11 @@ msgstr "उपलब्धता:"
 
 #: ../gtk/details.c:908 ../gtk/stats.c:168 ../gtk/stats.c:180
 msgid "Downloaded:"
-msgstr ""
+msgstr "डाउनलोड गरिएको:"
 
 #: ../gtk/details.c:912 ../gtk/stats.c:166 ../gtk/stats.c:178
 msgid "Uploaded:"
-msgstr ""
+msgstr "अपलोड गरिएको:"
 
 #: ../gtk/details.c:916 ../gtk/stats.c:170 ../gtk/stats.c:182
 msgid "Ratio:"
@@ -474,19 +474,19 @@ msgstr "अनुपात:"
 
 #: ../gtk/details.c:920
 msgid "State:"
-msgstr ""
+msgstr "स्थिति:"
 
 #: ../gtk/details.c:924
 msgid "Running time:"
-msgstr ""
+msgstr "चलिरहेको समय:"
 
 #: ../gtk/details.c:928
 msgid "Remaining time:"
-msgstr ""
+msgstr "बाँकी समय:"
 
 #: ../gtk/details.c:932
 msgid "Last activity:"
-msgstr ""
+msgstr "अन्तिम गतिबिधि:"
 
 #: ../gtk/details.c:936
 msgid "Error:"
@@ -514,7 +514,7 @@ msgstr ""
 
 #: ../gtk/details.c:980
 msgid "Comment:"
-msgstr ""
+msgstr "टिप्पणी:"
 
 #: ../gtk/details.c:1012
 msgid "Webseeds"
@@ -550,7 +550,7 @@ msgstr ""
 
 #: ../gtk/details.c:1067
 msgid "Status"
-msgstr ""
+msgstr "स्थिति"
 
 #: ../gtk/details.c:1386
 msgid "Optimistic unchoke"
@@ -598,7 +598,7 @@ msgstr ""
 
 #: ../gtk/details.c:1627 ../gtk/details.c:2086
 msgid "Show _more details"
-msgstr ""
+msgstr "अधिक विवरण देखाउनुहोस्"
 
 #: ../gtk/details.c:1701
 #, c-format
@@ -663,7 +663,7 @@ msgstr ""
 
 #: ../gtk/details.c:2011
 msgid "Edit Trackers"
-msgstr ""
+msgstr "ट्रयाकर सम्पादन गर्नुहोस्"
 
 #: ../gtk/details.c:2023
 msgid "Tracker Announce URLs"
@@ -677,11 +677,11 @@ msgstr ""
 
 #: ../gtk/details.c:2068 ../gtk/details.c:2182
 msgid "Trackers"
-msgstr ""
+msgstr "ट्र्याकर"
 
 #: ../gtk/details.c:2093
 msgid "_Edit Trackers"
-msgstr ""
+msgstr "ट्रयाकर सम्पादन गर्नुहोस्"
 
 #: ../gtk/details.c:2101
 msgid "Show _backup trackers"
@@ -723,7 +723,7 @@ msgstr ""
 
 #: ../gtk/dialogs.c:133
 msgid "_Don't ask me again"
-msgstr ""
+msgstr "मलाई फेरी नसोध्नुहोला ।"
 
 #: ../gtk/dialogs.c:236
 msgid "Remove torrent?"
@@ -740,8 +740,8 @@ msgstr[1] ""
 #: ../gtk/dialogs.c:255
 msgid "This torrent has not finished downloading."
 msgid_plural "These torrents have not finished downloading."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो ट्रयाकरले डाउलोड पूरा सकेको छैन ।"
+msgstr[1] "यी ट्रयाकरले डाउनलोड पूरा सकेका छैनन् ।"
 
 #: ../gtk/dialogs.c:261
 msgid "This torrent is connected to peers."
@@ -758,8 +758,8 @@ msgstr[1] ""
 #: ../gtk/dialogs.c:275
 msgid "One of these torrents has not finished downloading."
 msgid_plural "Some of these torrents have not finished downloading."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यी टोरेन्ट मध्ये एउटाले डाउनलोड सकेको छैन ।"
+msgstr[1] "यी टोरेन्ट मध्ये केहिले डाउनलोड सकेका छैनन् ।"
 
 #: ../gtk/file-list.c:585 ../gtk/util.c:691
 msgid "High"
@@ -843,7 +843,7 @@ msgstr ""
 
 #: ../gtk/main.c:718
 msgid "I _Accept"
-msgstr ""
+msgstr "म स्वीकार गर्दछु"
 
 #: ../gtk/main.c:896
 msgid "<b>Closing Connections</b>"
@@ -855,7 +855,7 @@ msgstr ""
 
 #: ../gtk/main.c:905
 msgid "_Quit Now"
-msgstr ""
+msgstr "अहिले बन्द गर्ने"
 
 #: ../gtk/main.c:1065
 msgid "Couldn't add corrupt torrent"
@@ -891,12 +891,12 @@ msgstr ""
 #: ../gtk/makemeta-ui.c:75
 #, c-format
 msgid "Creating \"%s\""
-msgstr ""
+msgstr "\"%s\" निर्माण गर्दै"
 
 #: ../gtk/makemeta-ui.c:77
 #, c-format
 msgid "Created \"%s\"!"
-msgstr ""
+msgstr "\"%s\" निर्माण भयो!"
 
 #: ../gtk/makemeta-ui.c:79
 #, c-format
@@ -930,11 +930,11 @@ msgstr "नयाँ टोरेन्ट"
 
 #: ../gtk/makemeta-ui.c:183
 msgid "Creating torrent..."
-msgstr ""
+msgstr "टोरेन्ट निर्माण गर्दै..."
 
 #: ../gtk/makemeta-ui.c:292
 msgid "No source selected"
-msgstr ""
+msgstr "कुनै स्रोत छानिएन"
 
 #: ../gtk/makemeta-ui.c:298
 #, c-format
@@ -956,15 +956,15 @@ msgstr ""
 
 #: ../gtk/makemeta-ui.c:410
 msgid "Source F_older:"
-msgstr ""
+msgstr "स्रोत फोल्डर:"
 
 #: ../gtk/makemeta-ui.c:421
 msgid "Source _File:"
-msgstr ""
+msgstr "स्रोत फाइल:"
 
 #: ../gtk/makemeta-ui.c:432
 msgid "<i>No source selected</i>"
-msgstr ""
+msgstr "<i>कुनै स्रोत छानिएन</i>"
 
 #: ../gtk/makemeta-ui.c:436
 msgid "Properties"
@@ -972,11 +972,11 @@ msgstr ""
 
 #: ../gtk/makemeta-ui.c:438
 msgid "_Trackers:"
-msgstr ""
+msgstr "ट्र्याकर:"
 
 #: ../gtk/makemeta-ui.c:460
 msgid "Co_mment:"
-msgstr ""
+msgstr "टिप्पणी:"
 
 #: ../gtk/makemeta-ui.c:469
 msgid "_Private torrent"
@@ -985,11 +985,11 @@ msgstr ""
 #: ../gtk/msgwin.c:84
 #, c-format
 msgid "Couldn't save \"%s\""
-msgstr ""
+msgstr "\"%s\" बचत गर्न सकेन"
 
 #: ../gtk/msgwin.c:135
 msgid "Save Log"
-msgstr ""
+msgstr "लग बचत गर्नुहोस्"
 
 #: ../gtk/msgwin.c:178
 msgid "Error"
@@ -1062,7 +1062,7 @@ msgstr "स्थान"
 
 #: ../gtk/relocate.c:139
 msgid "Torrent _location:"
-msgstr ""
+msgstr "टोरेन्ट स्थान:"
 
 #: ../gtk/relocate.c:140
 msgid "_Move from the current folder"
@@ -1070,7 +1070,7 @@ msgstr ""
 
 #: ../gtk/relocate.c:143
 msgid "Local data is _already there"
-msgstr ""
+msgstr "स्थानीय डाटा पहिलेदेखि छ"
 
 #: ../gtk/stats.c:76 ../gtk/stats.c:175
 #, c-format
@@ -1190,17 +1190,17 @@ msgstr ""
 #: ../gtk/tr-window.c:1165
 #, c-format
 msgid "Ratio: %s"
-msgstr ""
+msgstr "अनुपात: %s"
 
 #: ../gtk/torrent-cell-renderer.c:230
 #, c-format
 msgid "Tracker gave a warning: \"%s\""
-msgstr ""
+msgstr "ट्रयाकरले चेतावनी दियो: \"%s\""
 
 #: ../gtk/torrent-cell-renderer.c:231
 #, c-format
 msgid "Tracker gave an error: \"%s\""
-msgstr ""
+msgstr "ट्रयाकरले त्रुटि दियो: \"%s\""
 
 #: ../gtk/torrent-cell-renderer.c:232
 #, c-format
@@ -1272,7 +1272,7 @@ msgstr ""
 #: ../gtk/tr-icon.c:91 ../gtk/tr-icon.c:106
 #, c-format
 msgid "(Limit: %s)"
-msgstr ""
+msgstr "(सीमा: %s)"
 
 #. %1$s: current upload speed
 #. * %2$s: current upload limit, if any
@@ -1288,7 +1288,7 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:276
 msgid "Adding Torrents"
-msgstr ""
+msgstr "टोरेन्ट थप्दै"
 
 #: ../gtk/tr-prefs.c:279
 msgid "Automatically _add torrents from:"
@@ -1308,11 +1308,11 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:315 ../gtk/tr-prefs.c:1376
 msgid "Limits"
-msgstr ""
+msgstr "सीमाहरु"
 
 #: ../gtk/tr-prefs.c:341 ../gtk/tr-prefs.c:1426
 msgid "Desktop"
-msgstr ""
+msgstr "डेस्कटप"
 
 #: ../gtk/tr-prefs.c:343
 msgid "Inhibit _hibernation when torrents are active"
@@ -1346,7 +1346,7 @@ msgstr[1] ""
 
 #: ../gtk/tr-prefs.c:418
 msgid "<b>Update succeeded!</b>"
-msgstr ""
+msgstr "<b>अद्यावधिक सफल भयो!</b>"
 
 #: ../gtk/tr-prefs.c:433
 msgid "Update Blocklist"
@@ -1374,7 +1374,7 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:522
 msgid "_Update"
-msgstr ""
+msgstr "_अद्यावधिक गर्नुहोस्"
 
 #: ../gtk/tr-prefs.c:532
 msgid "Enable _automatic updates"
@@ -1382,7 +1382,7 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:539 ../gtk/tr-prefs.c:1420
 msgid "Privacy"
-msgstr ""
+msgstr "गोपनीयता"
 
 #: ../gtk/tr-prefs.c:541
 msgid "_Encryption mode:"
@@ -1430,12 +1430,12 @@ msgstr ""
 #. username
 #: ../gtk/tr-prefs.c:804 ../gtk/tr-prefs.c:1019
 msgid "_Username:"
-msgstr ""
+msgstr "प्रयोगकर्ता नाम:"
 
 #. password
 #: ../gtk/tr-prefs.c:811 ../gtk/tr-prefs.c:1025
 msgid "Pass_word:"
-msgstr ""
+msgstr "पासवर्ड:"
 
 #. require authentication
 #: ../gtk/tr-prefs.c:819
@@ -1448,11 +1448,11 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:866
 msgid "Addresses:"
-msgstr ""
+msgstr "ठेगाना:"
 
 #: ../gtk/tr-prefs.c:982 ../gtk/tr-window.c:855
 msgid "Tracker"
-msgstr ""
+msgstr "ट्र्याकर"
 
 #: ../gtk/tr-prefs.c:984
 msgid "Connect to tracker via a pro_xy"
@@ -1488,7 +1488,7 @@ msgstr "आइतबार"
 
 #: ../gtk/tr-prefs.c:1142
 msgid "Monday"
-msgstr ""
+msgstr "सोमबार"
 
 #: ../gtk/tr-prefs.c:1143
 msgid "Tuesday"
@@ -1544,15 +1544,15 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:1291 ../gtk/tr-prefs.c:1357
 msgid "Status unknown"
-msgstr ""
+msgstr "स्थिति अज्ञात"
 
 #: ../gtk/tr-prefs.c:1313
 msgid "Port is <b>open</b>"
-msgstr ""
+msgstr "पोर्ट <b>खुल्ला</b> छ"
 
 #: ../gtk/tr-prefs.c:1313
 msgid "Port is <b>closed</b>"
-msgstr ""
+msgstr "पोर्ट <b>बन्द</b> छ"
 
 #: ../gtk/tr-prefs.c:1327
 msgid "<i>Testing...</i>"
@@ -1592,7 +1592,7 @@ msgstr ""
 
 #: ../gtk/tr-prefs.c:1414
 msgid "Torrents"
-msgstr ""
+msgstr "टोरेन्टहरु"
 
 #: ../gtk/tr-prefs.c:1423
 msgid "Network"
@@ -1670,11 +1670,11 @@ msgstr ""
 
 #: ../gtk/tr-window.c:773
 msgid "Limit Download Speed"
-msgstr ""
+msgstr "डाउनलोड गति सीमित राख्नुहोस्"
 
 #: ../gtk/tr-window.c:777
 msgid "Limit Upload Speed"
-msgstr ""
+msgstr "अपलोड गति सीमित राख्नुहोस्"
 
 #: ../gtk/tr-window.c:784
 msgid "Stop Seeding at Ratio"
@@ -1688,17 +1688,17 @@ msgstr ""
 #. show all torrents
 #: ../gtk/tr-window.c:844
 msgid "A_ll"
-msgstr ""
+msgstr "सबै"
 
 #. show only torrents that have connected peers
 #: ../gtk/tr-window.c:846
 msgid "_Active"
-msgstr ""
+msgstr "सक्रिय"
 
 #. show only torrents that are trying to download
 #: ../gtk/tr-window.c:848
 msgid "_Downloading"
-msgstr ""
+msgstr "डाउनलोड गर्दै "
 
 #. show only torrents that are trying to upload
 #: ../gtk/tr-window.c:850
@@ -1783,29 +1783,29 @@ msgstr ""
 #, c-format
 msgid "%'d day"
 msgid_plural "%'d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d दिन"
+msgstr[1] "%'d दिन"
 
 #: ../gtk/util.c:181
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d घन्टा"
+msgstr[1] "%'d घन्टा"
 
 #: ../gtk/util.c:184
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d मिनेट"
+msgstr[1] "%'d मिनेट"
 
 #: ../gtk/util.c:186
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d सेकेन्ड"
+msgstr[1] "%'d सेकेन्ड"
 
 #: ../gtk/util.c:378
 #, c-format
@@ -1815,7 +1815,7 @@ msgstr ""
 #: ../gtk/util.c:379
 #, c-format
 msgid "The torrent file \"%s\" is already in use."
-msgstr ""
+msgstr "टोरेन्ट फाइल \"%s\" पहिले देखि प्रयोगमा छ ।"
 
 #: ../gtk/util.c:380
 #, c-format
@@ -1850,7 +1850,7 @@ msgstr "अमान्य मेटाडाटा"
 #: ../libtransmission/bencode.c:1644
 #, c-format
 msgid "Saved \"%s\""
-msgstr ""
+msgstr "\"%s\" बचत भयो"
 
 #: ../libtransmission/bencode.c:1649 ../libtransmission/bencode.c:1656
 #: ../libtransmission/blocklist.c:294
@@ -1911,7 +1911,7 @@ msgstr ""
 #: ../libtransmission/natpmp.c:137
 #, c-format
 msgid "Found public address \"%s\""
-msgstr ""
+msgstr "सार्वजनिक ठेगाना \"%s\" फेला पर्यो"
 
 #: ../libtransmission/natpmp.c:172
 #, c-format
@@ -1953,7 +1953,7 @@ msgstr ""
 
 #: ../libtransmission/port-forwarding.c:58
 msgid "Starting"
-msgstr ""
+msgstr "शुरु गर्दै"
 
 #: ../libtransmission/port-forwarding.c:59
 msgid "Forwarded"
@@ -1961,7 +1961,7 @@ msgstr ""
 
 #: ../libtransmission/port-forwarding.c:60
 msgid "Stopping"
-msgstr ""
+msgstr "बन्द गर्दै"
 
 #: ../libtransmission/port-forwarding.c:61
 msgid "Not forwarded"
@@ -2012,11 +2012,11 @@ msgstr "भयो"
 
 #: ../libtransmission/torrent.c:1575
 msgid "Complete"
-msgstr ""
+msgstr "पूरा"
 
 #: ../libtransmission/torrent.c:1578
 msgid "Incomplete"
-msgstr ""
+msgstr "अधुरो"
 
 #: ../libtransmission/upnp.c:26
 msgid "Port Forwarding (UPnP)"
@@ -2030,7 +2030,7 @@ msgstr ""
 #: ../libtransmission/upnp.c:107
 #, c-format
 msgid "Local Address is \"%s\""
-msgstr ""
+msgstr "स्थानीय ठेगाना \"%s\" हो"
 
 #: ../libtransmission/upnp.c:144
 #, c-format

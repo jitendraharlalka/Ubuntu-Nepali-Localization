@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Shiva Pokharel <pokharelshiva@hotmail.com>, 2006.
-#
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: shadow 4.0.17\n"
 "Report-Msgid-Bugs-To: pkg-shadow-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2009-07-24 03:02+0200\n"
-"PO-Revision-Date: 2010-01-26 19:09+0000\n"
-"Last-Translator: Shiva Prasad Pokharel <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-07 14:35+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 02:02+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #, c-format
-msgid ""
-"Multiple entries named '%s' in %s. Please fix this with pwck or grpck.\n"
+msgid "Multiple entries named '%s' in %s. Please fix this with pwck or grpck.\n"
 msgstr ""
 
 #, c-format
@@ -1266,11 +1266,11 @@ msgstr ""
 
 #, c-format
 msgid "user '%s': directory '%s' does not exist\n"
-msgstr ""
+msgstr "प्रयोगकर्ता '%s': डाइरेक्टरी '%s' विद्यमान छैन\n"
 
 #, c-format
 msgid "user '%s': program '%s' does not exist\n"
-msgstr ""
+msgstr "प्रयोगकर्ता '%s': प्रोग्राम '%s' विद्यमान छैन\n"
 
 #, c-format
 msgid "no matching password file entry in %s\n"
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #, c-format
 msgid "%s: Authentication failure\n"
-msgstr ""
+msgstr "%s: प्रमाणीकरण असफल भयो\n"
 
 #, c-format
 msgid "%s: You are not authorized to su at that time\n"
@@ -1597,7 +1597,7 @@ msgstr ""
 
 #, c-format
 msgid "%s: can't create group\n"
-msgstr ""
+msgstr "%s: समूह निर्माण गर्न सक्दैन\n"
 
 #, c-format
 msgid ""
@@ -1692,7 +1692,7 @@ msgstr ""
 
 #, c-format
 msgid "%s: user '%s' already exists in %s\n"
-msgstr ""
+msgstr "%s: प्रयोगकर्ता '%s' %s मा पहिले देखि विद्यमान छ\n"
 
 #, c-format
 msgid "%s: no flags given\n"
@@ -1769,7 +1769,7 @@ msgstr ""
 
 #, c-format
 msgid "%s: failed to remove %s\n"
-msgstr ""
+msgstr "%s: %s लाई हटाउन असफल"
 
 #, c-format
 msgid "%s: %s is unchanged\n"
@@ -1785,7 +1785,7 @@ msgid "Couldn't lock file"
 msgstr "फाइल ताल्चा मार्न सकिदैन"
 
 msgid "Couldn't make backup"
-msgstr "जगेडा बनाउँन सकिदैन"
+msgstr "ब्याकअप बनाउँन सकेन"
 
 #, c-format
 msgid "%s: can't restore %s: %s (your changes are in %s)\n"
