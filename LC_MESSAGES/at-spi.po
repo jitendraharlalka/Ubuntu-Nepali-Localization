@@ -1,21 +1,24 @@
 # Nepali translation of ati-spi
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: ati-spi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-10 16:14+0000\n"
-"PO-Revision-Date: 2009-10-30 19:42+0000\n"
-"Last-Translator: Manoj Duwady <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-13 02:29+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 07:12+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../at-spi.schemas.in.h:1
 msgid "Enable CORBA-based AT-SPI infrastructure"
-msgstr ""
+msgstr "CORBA-आधारित AT-SPI संरचना सक्षम पार्नुहोस्"
 
 #: ../at-spi.schemas.in.h:2
 msgid "GTK+ modules for accessibility support"
@@ -24,14 +27,17 @@ msgstr "पहुँचयोग्य सहयोगका लागी GTK+ m
 #: ../at-spi.schemas.in.h:3
 msgid ""
 "In combination with /desktop/gnome/interface/accessibility, this key is "
-"needed to enable the CORBA-based AT-SPI infrastructure if the CORBA-based AT-"
-"SPI infrastructure has been relocated. It is ignored if the CORBA-based AT-"
-"SPI infrastructure has not been relocated."
+"needed to enable the CORBA-based AT-SPI infrastructure if the CORBA-based "
+"AT-SPI infrastructure has been relocated. It is ignored if the CORBA-based "
+"AT-SPI infrastructure has not been relocated."
 msgstr ""
+"/desktop/gnome/interface/accessibility का साथै, यो की CORBA-आधारित AT-SPI "
+"संरचना सक्षम पार्न चाहिन्छ यदि CORBA-आधारित AT-SPI संरचना पुनर्स्थापित "
+"गरिएको छ । CORBA-आधारित AT-SPI संरचना पुनर्स्थापित नभएमा यसलाई बेवास्ता "
+"गरिन्छ ।"
 
 #: ../at-spi.schemas.in.h:4
-msgid ""
-"This key determines the GTK+ modules to load for accessibility support."
+msgid "This key determines the GTK+ modules to load for accessibility support."
 msgstr "यो चाबीले पहुँचयोग्य सहयोगको लागी चाहिने GTK+ modules को चयन गर्दछ."
 
 #: ../registryd/Accessibility_Registry.server.in.in.h:1
@@ -44,4 +50,4 @@ msgstr "पहुँचयोग्य रजिष्ट्री"
 
 #: ../registryd/at-spi-registryd.desktop.in.in.in.h:1
 msgid "AT SPI Registry"
-msgstr ""
+msgstr "AT SPI रजिष्ट्री"
