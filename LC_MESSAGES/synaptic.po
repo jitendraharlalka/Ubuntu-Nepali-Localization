@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the synaptic package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
 # jitendra <jitendra@otrc.gov.np>, 2010.
+# sushil, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: synaptic\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-18 03:23+0000\n"
-"PO-Revision-Date: 2010-05-05 18:36+0545\n"
-"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
-"Language-Team: Open Technologies Resource Center\n"
+"PO-Revision-Date: 2010-05-13 15:10+0545\n"
+"Last-Translator: sushil\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.0\n"
+"X-Generator: Lokalize 1.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 03:12+0000\n"
 
 #. TRANSLATORS: Alias for the Debian package section "admin"
@@ -32,7 +33,7 @@ msgstr "मूल प्रणाली"
 #. TRANSLATORS: Alias for the Debian package section "cli-mono"
 #: ../common/sections_trans.cc:16
 msgid "Mono/CLI Infrastructure"
-msgstr ""
+msgstr "मोनो संरचना"
 
 #. TRANSLATORS: Alias for the Debian package section "comm"
 #: ../common/sections_trans.cc:18
@@ -72,7 +73,7 @@ msgstr "विद्युतीय"
 #. TRANSLATORS: Alias for the Debian package section "embedded"
 #: ../common/sections_trans.cc:32
 msgid "Embedded Devices"
-msgstr ""
+msgstr "सम्मिलित यन्त्रहरु"
 
 #. TRANSLATORS: Alias for the Debian package section "fonts"
 #: ../common/sections_trans.cc:34
@@ -122,7 +123,7 @@ msgstr "वेव सर्भरहरू"
 #. TRANSLATORS: Alias for the Debian package section "interpreters"
 #: ../common/sections_trans.cc:52
 msgid "Interpreted Computer Languages"
-msgstr ""
+msgstr "अनुवादित कम्प्युटर भाषा "
 
 #. TRANSLATORS: Alias for the Debian package section "java"
 #: ../common/sections_trans.cc:54
@@ -182,7 +183,7 @@ msgstr "नेटवर्किङ"
 #. TRANSLATORS: Alias for the Debian package section "news"
 #: ../common/sections_trans.cc:76
 msgid "Newsgroup"
-msgstr ""
+msgstr "समाचार समूह"
 
 #. TRANSLATORS: Alias for the Debian package section "ocaml"
 #: ../common/sections_trans.cc:78
@@ -197,7 +198,7 @@ msgstr "लाइब्रेरीहरू - पुरानो"
 #. TRANSLATORS: Alias for the Debian package section "otherosfs"
 #: ../common/sections_trans.cc:82
 msgid "Cross Platform"
-msgstr ""
+msgstr "क्रस प्लेटफर्म"
 
 #. TRANSLATORS: Alias for the Debian package section "perl"
 #: ../common/sections_trans.cc:84
@@ -237,7 +238,7 @@ msgstr "मल्टिमिडिया"
 #. TRANSLATORS: Alias for the Debian package section "tex"
 #: ../common/sections_trans.cc:98
 msgid "TeX Authoring"
-msgstr ""
+msgstr "टेक्स कागजात"
 
 #. TRANSLATORS: Alias for the Debian package section "text"
 #: ../common/sections_trans.cc:100
@@ -311,13 +312,13 @@ msgstr "निर्यातमा बन्देज"
 #. TRANSLATORS: Alias for the Debian package section "non free"
 #: ../common/sections_trans.cc:129 ../common/sections_trans.cc:146
 msgid "non free"
-msgstr ""
+msgstr "स्वतन्त्र नभएको"
 
 #. TRANSLATORS: Alias for the Debian package section "contrib"
 #. Free software that depends on non-free software
 #: ../common/sections_trans.cc:132 ../common/sections_trans.cc:150
 msgid "contrib"
-msgstr ""
+msgstr "कन्ट्रिव"
 
 #: ../common/indexcopy.cc:51 ../common/rpmindexcopy.cc:75
 #, c-format
@@ -351,7 +352,7 @@ msgstr "फाइलनाम वा आकार ट्याग पत्त�
 
 #: ../common/indexcopy.cc:485
 msgid "Error parsing file record"
-msgstr ""
+msgstr "फाइल रेकर्द पद वर्णन गर्दा त्रुटि"
 
 #: ../common/rcdscanner.cc:112 ../common/rcdscanner.cc:162
 #, c-format
@@ -412,12 +413,11 @@ msgstr "डिस्कको जाँच गर्दै..."
 
 #: ../common/rcdscanner.cc:316
 msgid "Cleaning package lists..."
-msgstr ""
+msgstr "प्याकेज सूचिहरू सफा गर्दै"
 
 #: ../common/rcdscanner.cc:329
-msgid ""
-"Unable to locate any package files. Perhaps this is not an APT enabled disc."
-msgstr ""
+msgid "Unable to locate any package files. Perhaps this is not an APT enabled disc."
+msgstr "प्याकेज खोज्न असक्षम भयो, सायद APT सक्षम डिस्क होइन होला"
 
 #: ../common/rcdscanner.cc:380
 msgid "Disc not successfully scanned."
@@ -433,11 +433,11 @@ msgstr "डिस्क दर्ता गर्दै..."
 
 #: ../common/rcdscanner.cc:401
 msgid "Copying package lists..."
-msgstr ""
+msgstr "प्याकेज सूचिहरू कपि गर्दै"
 
 #: ../common/rcdscanner.cc:410
 msgid "Writing sources list..."
-msgstr ""
+msgstr "स्रोत सूचि लेखिदैछ"
 
 #: ../common/rcdscanner.cc:425
 msgid "Done!"
@@ -475,7 +475,7 @@ msgstr "त्रुटि: कन्फिगरेसन डाइरेक्
 #: ../common/rconfiguration.cc:147
 #, c-format
 msgid "ERROR: could not create state directory %s"
-msgstr ""
+msgstr "त्रुटि: स्टेट डाइरेक्टरी सिर्जना गर्न सकिएन: %s"
 
 #: ../common/rconfiguration.cc:164
 #, c-format
@@ -523,8 +523,7 @@ msgstr ""
 
 #: ../common/rpackage.cc:206
 msgid "The list of installed files is only available for installed packages"
-msgstr ""
-"प्रतिस्थापित फाइलहरूको सूची प्रतिस्थापित प्याकेजहरूको लागि मात्र प्राप्य छ"
+msgstr "प्रतिस्थापित फाइलहरूको सूची प्रतिस्थापित प्याकेजहरूको लागि मात्र प्राप्य छ"
 
 #: ../common/rpackage.cc:466
 msgid "or dependency"
@@ -539,6 +538,9 @@ msgid ""
 "never uploaded, has been obsoleted or is not available with the contents of "
 "sources.list\n"
 msgstr ""
+"प्याकेज %s को कुनै संस्करण छैन, तर डेटाबेसमा छ। यसको मतलब प्याकेजलाई निर्भरतामा "
+"तोकिएको थियो तर अपलोड गरिएन, र यो पुरानो भईसक्यो अथवा sources.list को सामाग्रीमा "
+"छैन"
 
 #. TRANSLATORS: dependency error message, example:
 #. "apt 0.5.4 but 0.5.3 is to be installed"
@@ -566,14 +568,14 @@ msgstr "\t%s %s तर यो प्रतिस्थापन योग्य 
 #: ../common/rpackage.cc:648
 #, c-format
 msgid "\t%s but it is a virtual package"
-msgstr ""
+msgstr "\t%s तर यो अवास्तविक प्याकेज हो"
 
 #. TRANSLATORS: dependency error message, example:
 #. "Depends: apt but it is a virtual package"
 #: ../common/rpackage.cc:653
 #, c-format
 msgid "%s: %s but it is a virtual package"
-msgstr ""
+msgstr "%s: %s तर यो अवास्तविक प्याकेज हो"
 
 #. TRANSLATORS: dependency error message, example:
 #. "apt but it is not going to be installed"
@@ -595,7 +597,7 @@ msgstr "  वा"
 
 #: ../common/rpackage.cc:1020
 msgid "Invalid record in the preferences file, no Package header"
-msgstr ""
+msgstr "प्राथमिकता फाईलमा अवैध रेकर्ड: प्याकेज हेडर छैन"
 
 #: ../common/rpackage.h:53 ../common/rpackagefilter.cc:48
 msgid "Depends"
@@ -631,12 +633,12 @@ msgstr "बिच्छेद गर्दछ"
 
 #: ../common/rpackage.h:61
 msgid "Enhances"
-msgstr ""
+msgstr "बढाउँदछ"
 
 #. make sure this is always the last member
 #: ../common/rpackage.h:69
 msgid "Dependency of"
-msgstr ""
+msgstr "यसमा निर्भर छ"
 
 #: ../common/rpackagestatus.cc:49
 msgid "Marked for installation"
@@ -669,7 +671,7 @@ msgstr "प्रतिस्थापन नभएको"
 
 #: ../common/rpackagestatus.cc:56
 msgid "Not installed (locked)"
-msgstr ""
+msgstr "प्रतिस्थापन नभएको (ताल्चा लगाइएको)"
 
 #: ../common/rpackagestatus.cc:57 ../common/rpackageview.cc:137
 #: ../gtk/gsynaptic.cc:565 ../gtk/glade/window_filters.glade.h:30
@@ -698,15 +700,15 @@ msgstr "प्रतिस्थापन नभएको (new in repository)"
 msgid ""
 "The list of sources could not be read.\n"
 "Go to the repository dialog to correct the problem."
-msgstr ""
+msgstr "स्रोतहरुको सूचि पढ्न सकिएन, भण्डारको संवादमा गएर सच्याउनुहोस"
 
 #: ../common/rpackagecache.cc:73
 msgid "The package lists or status file could not be parsed or opened."
-msgstr ""
+msgstr "प्याकेज सूचीहरू वा वस्तुस्थिति फाइल पद वर्णन गर्न वा खोल्न सकिएन ।"
 
 #: ../common/rpackagecache.cc:108
 msgid "Internal Error, non-zero counts"
-msgstr ""
+msgstr "आन्तरिक त्रुटि, सुन्ना नभएको गणना"
 
 #: ../common/rpackagefilter.cc:44 ../gtk/rgpreferenceswindow.cc:1046
 #: ../gtk/glade/window_find.glade.h:5
@@ -736,7 +738,7 @@ msgstr "प्रदान गर्दछ"
 
 #: ../common/rpackagefilter.cc:54
 msgid "ReverseDepends"
-msgstr ""
+msgstr "उल्टो निर्भर"
 
 #. Reverse Depends
 #: ../common/rpackagefilter.cc:55 ../common/rpackageview.h:130
@@ -774,7 +776,7 @@ msgstr "प्राथमिकता"
 
 #: ../common/rpackagefilter.cc:65
 msgid "ReducedView"
-msgstr ""
+msgstr "संकुचित दृश्य"
 
 #: ../common/rpackagefilter.cc:66
 msgid "File"
@@ -783,13 +785,13 @@ msgstr "फाइल"
 #: ../common/rpackagefilter.cc:759
 #, c-format
 msgid "Bad regular expression '%s' in ReducedView file."
-msgstr ""
+msgstr "संकुचित दृश्य फाइलमा खराब regular expression '%s'"
 
 #: ../common/rpackagelister.cc:324 ../common/rpackagelister.cc:330
 #: ../common/rpackagelister.cc:340
 #, c-format
 msgid "Internal error opening cache (%d). Please report."
-msgstr ""
+msgstr "क्यास खोल्दा आन्तरिक त्रुटि। कृपया रिपोर्ट गर्नुहोस्।"
 
 #: ../common/rpackagelister.cc:519
 msgid "Unable to correct dependencies"
@@ -805,15 +807,15 @@ msgstr ""
 
 #: ../common/rpackagelister.cc:533
 msgid "Internal Error, AllUpgrade broke stuff. Please report."
-msgstr ""
+msgstr "आन्तरिक त्रुटि,सबै स्तरवृद्धिले गर्दा बिग्रियो। कृपया रिपोर्ट गर्नुहोस्।"
 
 #: ../common/rpackagelister.cc:551
 msgid "dist upgrade Failed"
-msgstr ""
+msgstr "स्तरवृद्धि गर्न असफल भयो"
 
 #: ../common/rpackagelister.cc:1292
 msgid "Unable to lock the list directory"
-msgstr ""
+msgstr "सूचि डाइरेक्ट्री ताल्चा मार्न असफल"
 
 #: ../common/rpackagelister.cc:1328
 msgid ""
@@ -823,7 +825,7 @@ msgstr ""
 
 #: ../common/rpackagelister.cc:1412 ../gtk/rgrepositorywin.cc:356
 msgid "Ignoring invalid record(s) in sources.list file!"
-msgstr ""
+msgstr "sources.list फाइलमा भएको अवैध रेकर्डहरूको उपेक्षा गरिंदै !"
 
 #. TRANSLATORS: Error message after a failed download.
 #. The first %s is the URL and the second
@@ -911,7 +913,7 @@ msgstr ""
 
 #: ../common/rpackagelister.cc:1709
 msgid "Unable to lock the download directory"
-msgstr ""
+msgstr "डाउनलोड डाइरेक्ट्री ताल्चा मार्न असक्षम"
 
 #: ../common/rpackagelister.cc:1793
 #, c-format
@@ -944,8 +946,9 @@ msgid "Search History"
 msgstr "इतिहास खोज गर्नुहोस्"
 
 #: ../common/rpackageview.h:228
+#, fuzzy
 msgid "Custom"
-msgstr ""
+msgstr "अनुकूल"
 
 #: ../common/rpackageview.cc:135
 msgid "Installed (unsupported)"
@@ -990,7 +993,7 @@ msgstr "खोजी गर्दै"
 
 #: ../common/rpackageview.cc:497
 msgid "Search Filter"
-msgstr ""
+msgstr "फिल्टर खोजी गर्नुहोस्"
 
 #: ../common/rpackageview.cc:505
 msgid "Tasks"
@@ -1257,7 +1260,7 @@ msgstr ""
 
 #: ../gtk/rgdebinstallprogress.cc:627
 msgid "A package failed to install.  Trying to recover:"
-msgstr ""
+msgstr "प्याकेज स्थापना गर्न असक्षम भयो । पुन:प्राप्त गर्ने प्रयास गरिदैछ:"
 
 #: ../gtk/rgdebinstallprogress.cc:686 ../gtk/rgdebinstallprogress.cc:689
 msgid "Changes applied"
@@ -1338,8 +1341,9 @@ msgid "Let synaptic pick the best version for you. If unsure use this option. "
 msgstr ""
 
 #: ../gtk/rgpreferenceswindow.cc:1040
+#, fuzzy
 msgid "Visible"
-msgstr ""
+msgstr "दृश्यात्मक"
 
 #: ../gtk/rgpreferenceswindow.cc:1118
 #: ../gtk/glade/window_preferences.glade.h:66
@@ -1382,7 +1386,7 @@ msgstr ""
 
 #: ../gtk/rgfetchprogress.cc:390
 msgid "Queued"
-msgstr ""
+msgstr "लामबद्ध गरिएको"
 
 #: ../gtk/rgfetchprogress.cc:393
 msgid "Done"
@@ -1390,7 +1394,7 @@ msgstr "भयो"
 
 #: ../gtk/rgfetchprogress.cc:396
 msgid "Hit"
-msgstr ""
+msgstr "हिट"
 
 #: ../gtk/rgfetchprogress.cc:399
 msgid "Failed"
@@ -1401,12 +1405,14 @@ msgid "Filters"
 msgstr "फिल्टर"
 
 #: ../gtk/rgfiltermanager.cc:165
+#, fuzzy
 msgid "Field"
-msgstr ""
+msgstr "फिल्ड"
 
 #: ../gtk/rgfiltermanager.cc:172
+#, fuzzy
 msgid "Operator"
-msgstr ""
+msgstr "सञ्चालनकर्ता"
 
 #: ../gtk/rgfiltermanager.cc:750
 #, c-format
@@ -1452,14 +1458,13 @@ msgid "Not found"
 msgstr "फेला परेन"
 
 #: ../gtk/rglogview.cc:284
-msgid ""
-"Expression was found, please see the list on the left for matching entries."
+msgid "Expression was found, please see the list on the left for matching entries."
 msgstr ""
 
 #: ../gtk/rgpkgdetails.cc:151
-#, c-format
+#, fuzzy, c-format
 msgid "%s Properties"
-msgstr ""
+msgstr "%s गुणहरू"
 
 #: ../gtk/rgpkgdetails.cc:210
 msgid "Get Screenshot"
@@ -1547,8 +1552,9 @@ msgstr ""
 
 #. TRANSLATORS: Column header for the column "Status" in the package list
 #: ../gtk/rgmainwindow.cc:938
+#, fuzzy
 msgid "S"
-msgstr ""
+msgstr "%s"
 
 #: ../gtk/rgmainwindow.cc:1059
 msgid "Latest Version"
@@ -1605,9 +1611,10 @@ msgid "Hold Current Version"
 msgstr ""
 
 #: ../gtk/rgmainwindow.cc:1647 ../gtk/glade/window_main.glade.h:37
+#, fuzzy
 #: ../gtk/glade/window_filters.glade.h:57
 msgid "Properties"
-msgstr ""
+msgstr "गुण"
 
 #: ../gtk/rgmainwindow.cc:1659
 msgid "Mark Recommended for Installation"
@@ -1659,7 +1666,7 @@ msgstr[1] ""
 
 #: ../gtk/rgmainwindow.cc:2054
 msgid "Downloading Changelog"
-msgstr ""
+msgstr "परिवर्तनलग डाउनलोड गर्दै"
 
 #: ../gtk/rgmainwindow.cc:2055
 msgid ""
@@ -1688,8 +1695,9 @@ msgid "Can't write %s"
 msgstr ""
 
 #: ../gtk/rgmainwindow.cc:2252
+#, fuzzy
 msgid "Save changes"
-msgstr ""
+msgstr "परिवर्तनहरू बचत गर्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:2259
 msgid "Save full state, not only changes"
@@ -1816,8 +1824,9 @@ msgid "Save script"
 msgstr "स्क्रिप्ट बचत गर्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:3544
+#, fuzzy
 msgid "Select directory"
-msgstr ""
+msgstr "डाइरेक्टरी चयन गर्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:3556
 msgid "Please select a directory"
@@ -1831,8 +1840,9 @@ msgid ""
 msgstr ""
 
 #: ../gtk/rgrepositorywin.cc:124 ../gtk/glade/window_repositories.glade.h:3
+#, fuzzy
 msgid "Repositories"
-msgstr ""
+msgstr "भण्डारहरू..."
 
 #: ../gtk/rgrepositorywin.cc:148
 msgid "Enabled"
@@ -1843,13 +1853,14 @@ msgid "Type"
 msgstr "प्रकार"
 
 #: ../gtk/rgrepositorywin.cc:168 ../gtk/rgvendorswindow.cc:62
+#, fuzzy
 #: ../gtk/rgvendorswindow.cc:80
 msgid "Vendor"
-msgstr ""
+msgstr "विक्रेता"
 
 #: ../gtk/rgrepositorywin.cc:191 ../gtk/glade/window_preferences.glade.h:36
 msgid "Distribution"
-msgstr ""
+msgstr "वितरण"
 
 #: ../gtk/rgrepositorywin.cc:202
 msgid "Section(s)"
@@ -1894,7 +1905,7 @@ msgstr ""
 
 #: ../gtk/rgsummarywindow.cc:200
 msgid "Unchanged"
-msgstr ""
+msgstr "परिवर्तन नहुने"
 
 #: ../gtk/rgsummarywindow.cc:245
 #, c-format
@@ -2035,8 +2046,9 @@ msgid "Setup Vendors"
 msgstr ""
 
 #: ../gtk/rgvendorswindow.cc:62 ../gtk/rgvendorswindow.cc:107
+#, fuzzy
 msgid "FingerPrint"
-msgstr ""
+msgstr "औँठा छाप"
 
 #: ../gtk/rgvendorswindow.cc:128
 msgid "OK"
@@ -2058,9 +2070,10 @@ msgstr "रद्द गर्नुहोस्"
 #. happens when e.g. a package has no installed version (or no
 #. downloadable version)
 #: ../gtk/rggladewindow.cc:110 ../gtk/rggladewindow.cc:128
+#, fuzzy
 #: ../gtk/rggladewindow.cc:191
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../gtk/rgfindwindow.cc:130
 msgid "Find"
@@ -2106,8 +2119,9 @@ msgid "<b>Priority:</b>"
 msgstr "<b>प्राथमिकता:</b>"
 
 #: ../gtk/glade/window_main.glade.h:8 ../gtk/glade/window_details.glade.h:8
+#, fuzzy
 msgid "<b>Section:</b>"
-msgstr ""
+msgstr "सेक्सन"
 
 #: ../gtk/glade/window_main.glade.h:9 ../gtk/glade/window_details.glade.h:9
 msgid "<b>Status:</b>"
@@ -2133,11 +2147,11 @@ msgstr ""
 
 #: ../gtk/glade/window_main.glade.h:14
 msgid "Apply"
-msgstr ""
+msgstr "लागू गर्नुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:15
 msgid "Automatically installed"
-msgstr ""
+msgstr "स्वत: स्थापना भयो"
 
 #: ../gtk/glade/window_main.glade.h:16 ../gtk/glade/window_details.glade.h:11
 msgid "Available versions:"
@@ -2152,10 +2166,11 @@ msgid "Dependants"
 msgstr ""
 
 #: ../gtk/glade/window_main.glade.h:19 ../gtk/glade/window_find.glade.h:1
+#, fuzzy
 #: ../gtk/glade/window_filters.glade.h:18
 #: ../gtk/glade/window_details.glade.h:13 ../gtk/rgfiltermanager.h:73
 msgid "Dependencies"
-msgstr ""
+msgstr "निर्भरता"
 
 #: ../gtk/glade/window_main.glade.h:20 ../gtk/glade/window_details.glade.h:14
 msgid "Dependencies of the Latest Version"
@@ -2222,8 +2237,9 @@ msgid "Reload"
 msgstr "पुन:लोड गर्नुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:41
+#, fuzzy
 msgid "S_earch Results"
-msgstr ""
+msgstr "खोजी परिणाम:"
 
 #: ../gtk/glade/window_main.glade.h:42
 msgid "S_tatus"
@@ -2318,12 +2334,14 @@ msgid "_Force Version..."
 msgstr ""
 
 #: ../gtk/glade/window_main.glade.h:65
+#, fuzzy
 msgid "_Help"
-msgstr ""
+msgstr "मद्दत"
 
 #: ../gtk/glade/window_main.glade.h:66
+#, fuzzy
 msgid "_Hide"
-msgstr ""
+msgstr "लुकाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:67
 msgid "_History"
@@ -2346,8 +2364,9 @@ msgid "_Package"
 msgstr "प्याकेज"
 
 #: ../gtk/glade/window_main.glade.h:72
+#, fuzzy
 msgid "_Properties"
-msgstr ""
+msgstr "गुण"
 
 #: ../gtk/glade/window_main.glade.h:73
 msgid "_Quick Introduction"
@@ -2362,8 +2381,9 @@ msgid "_Read Markings..."
 msgstr ""
 
 #: ../gtk/glade/window_main.glade.h:76
+#, fuzzy
 msgid "_Redo"
-msgstr ""
+msgstr "रिडु गर्नुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:77
 msgid "_Reload Package Information"
@@ -2398,12 +2418,14 @@ msgid "_Text Only"
 msgstr "पाठ मात्र"
 
 #: ../gtk/glade/window_main.glade.h:85
+#, fuzzy
 msgid "_Toolbar"
-msgstr ""
+msgstr "उपकरणपट्टी"
 
 #: ../gtk/glade/window_main.glade.h:86
+#, fuzzy
 msgid "_Undo"
-msgstr ""
+msgstr "पूर्वस्थितिमा फर्काउनुहोस्"
 
 #: ../gtk/glade/window_about.glade.h:1
 msgid ""
@@ -2421,7 +2443,7 @@ msgstr ""
 
 #: ../gtk/glade/window_about.glade.h:7
 msgid "Documented by"
-msgstr ""
+msgstr "द्वारा मिसिलिकृत"
 
 #: ../gtk/glade/window_about.glade.h:8
 msgid ""
@@ -2472,19 +2494,22 @@ msgstr ""
 
 #: ../gtk/glade/window_about.glade.h:32
 msgid "Written by"
-msgstr ""
+msgstr "लेखन"
 
 #: ../gtk/glade/window_about.glade.h:33
 msgid "translators-credits"
-msgstr "Jitendra Harlalka <jitendra@otrc.gov.np>"
+msgstr ""
+"Jitendra Harlalka <jitendra@otrc.gov.np>, Sushil Man Shilpakar <sushil@otrc.gov."
+"np>"
 
 #: ../gtk/glade/window_find.glade.h:2
 msgid "Description and Name"
 msgstr ""
 
 #: ../gtk/glade/window_find.glade.h:3
+#, fuzzy
 msgid "Look in:"
-msgstr ""
+msgstr "यसमा हेर्नुहोस्:"
 
 #: ../gtk/glade/window_find.glade.h:7
 msgid "Search:"
@@ -2520,12 +2545,14 @@ msgid " "
 msgstr ""
 
 #: ../gtk/glade/window_preferences.glade.h:3
+#, fuzzy
 msgid "<b>Appearance</b>"
-msgstr ""
+msgstr "देखावट"
 
 #: ../gtk/glade/window_preferences.glade.h:4
+#, fuzzy
 msgid "<b>Applying Changes</b>"
-msgstr ""
+msgstr "परिवर्तनहरू लागू गरिदै"
 
 #: ../gtk/glade/window_preferences.glade.h:5
 msgid "<b>Colors</b>"
@@ -2602,8 +2629,9 @@ msgid "Automatically"
 msgstr ""
 
 #: ../gtk/glade/window_preferences.glade.h:23
+#, fuzzy
 msgid "Broken:"
-msgstr ""
+msgstr "भाँचिएको"
 
 #: ../gtk/glade/window_preferences.glade.h:24
 msgid "Clicking on the status icon marks the most likely action"
@@ -2696,8 +2724,9 @@ msgid "Keep Configuration"
 msgstr ""
 
 #: ../gtk/glade/window_preferences.glade.h:47
+#, fuzzy
 msgid "Manual proxy configuration"
-msgstr ""
+msgstr "म्यानुअल प्रोक्सी कन्फिगरेसन"
 
 #: ../gtk/glade/window_preferences.glade.h:48
 msgid "Marked for complete removal:"
@@ -2792,8 +2821,9 @@ msgid "System upgrade:"
 msgstr ""
 
 #: ../gtk/glade/window_preferences.glade.h:72
+#, fuzzy
 msgid "Upgradable:"
-msgstr ""
+msgstr "स्तर वृद्धि गर्न सकिने"
 
 #: ../gtk/glade/window_preferences.glade.h:73
 msgid "Use custom application font"
@@ -2864,8 +2894,9 @@ msgid "Value:"
 msgstr "मान:"
 
 #: ../gtk/glade/window_setopt.glade.h:4
+#, fuzzy
 msgid "Variable:"
-msgstr ""
+msgstr "चल"
 
 #: ../gtk/glade/window_summary.glade.h:3
 msgid "<b>Summary</b>"
@@ -2919,8 +2950,9 @@ msgid "<b>Other</b>"
 msgstr "<b>अन्य</b>"
 
 #: ../gtk/glade/window_filters.glade.h:9
+#, fuzzy
 msgid "AND"
-msgstr ""
+msgstr "AND"
 
 #: ../gtk/glade/window_filters.glade.h:10
 msgid "Automatic install"
@@ -2953,7 +2985,7 @@ msgstr "निर्भर प्याकेजहरु"
 
 #: ../gtk/glade/window_filters.glade.h:21
 msgid "Exclude"
-msgstr ""
+msgstr "समावेशबाट हटाउनुहोस्"
 
 #: ../gtk/glade/window_filters.glade.h:22
 msgid "Exclude selected sections"
@@ -2972,8 +3004,9 @@ msgid "For removal"
 msgstr "हटाउनका लागि"
 
 #: ../gtk/glade/window_filters.glade.h:27
+#, fuzzy
 msgid "Include"
-msgstr ""
+msgstr "सम्मिलित गर्नुहोस्"
 
 #: ../gtk/glade/window_filters.glade.h:28
 msgid "Include selected sections only"
@@ -3024,8 +3057,9 @@ msgid "Not marked"
 msgstr "चिनो नलगाइएका"
 
 #: ../gtk/glade/window_filters.glade.h:44
+#, fuzzy
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #: ../gtk/glade/window_filters.glade.h:46
 msgid "Orphaned"
@@ -3066,7 +3100,7 @@ msgstr ""
 #. replaces/obsoletes
 #: ../gtk/glade/window_filters.glade.h:59 ../gtk/rgfiltermanager.h:77
 msgid "Recommendations"
-msgstr ""
+msgstr "सिफारिशहरू"
 
 #: ../gtk/glade/window_filters.glade.h:60
 msgid "Removed packages that have left configuration files on the system"
@@ -3091,7 +3125,7 @@ msgstr "ट्याग"
 
 #: ../gtk/glade/window_filters.glade.h:67
 msgid "Upgradable"
-msgstr ""
+msgstr "स्तर वृद्धि गर्न सकिने"
 
 #: ../gtk/glade/window_filters.glade.h:69
 msgid "Version Number"
@@ -3107,11 +3141,12 @@ msgstr ""
 
 #: ../gtk/glade/window_filters.glade.h:72
 msgid "_Select All"
-msgstr ""
+msgstr "सबै छान्नुहोस"
 
 #: ../gtk/glade/window_repositories.glade.h:2
+#, fuzzy
 msgid "Distribution:"
-msgstr ""
+msgstr "वितरण"
 
 #: ../gtk/glade/window_repositories.glade.h:4
 msgid "Section(s):"
@@ -3122,8 +3157,9 @@ msgid "URI:"
 msgstr "URI:"
 
 #: ../gtk/glade/window_repositories.glade.h:6
+#, fuzzy
 msgid "Vendors..."
-msgstr ""
+msgstr "विक्रेताहरू"
 
 #: ../gtk/glade/window_repositories.glade.h:7
 msgid "deb"
@@ -3220,8 +3256,7 @@ msgid ""
 msgstr ""
 
 #: ../gtk/glade/dialog_welcome.glade.h:10
-msgid ""
-"You can mark packages for installation, upgrade or removal in several ways:"
+msgid "You can mark packages for installation, upgrade or removal in several ways:"
 msgstr ""
 
 #: ../gtk/glade/dialog_welcome.glade.h:11
@@ -3313,11 +3348,12 @@ msgstr "फाइलहरु बीच फरक"
 
 #: ../gtk/glade/dialog_conffile.glade.h:2
 msgid "_Keep"
-msgstr ""
+msgstr "राख्नुहोस्"
 
 #: ../gtk/glade/dialog_conffile.glade.h:3
+#, fuzzy
 msgid "_Replace"
-msgstr ""
+msgstr "बदल्नुहोस्"
 
 #: ../gtk/glade/dialog_change_version.glade.h:1
 msgid "Force version:"
@@ -3460,3 +3496,4 @@ msgstr "एपीटी पंक्ति"
 #: ../gtk/glade/dialog_new_repositroy.glade.h:6
 msgid "_Add Repository"
 msgstr ""
+
