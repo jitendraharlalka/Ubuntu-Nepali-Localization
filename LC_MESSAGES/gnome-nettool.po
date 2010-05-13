@@ -37,11 +37,11 @@ msgstr ""
 #: ../src/callbacks.c:334 ../src/callbacks.c:335
 #: ../src/gnome-nettool.desktop.in.in.h:1
 msgid "Network Tools"
-msgstr "सञ्जाल उपकरण"
+msgstr "नेटवर्क उपकरण"
 
 #: ../src/callbacks.c:337
 msgid "Graphical user interface for common network utilities"
-msgstr "सामान्य सञ्जाल प्रयोजनका लागि ग्राफिकल प्रयोगकर्ता इन्टरफेस"
+msgstr "सामान्य नेटवर्क प्रयोजनका लागि ग्राफिकल प्रयोगकर्ता इन्टरफेस"
 
 #: ../src/callbacks.c:450 ../src/main.c:144 ../src/nettool.c:483
 msgid "Idle"
@@ -52,7 +52,7 @@ msgstr ""
 #: ../src/callbacks.c:455
 #, c-format
 msgid "%s - Network Tools"
-msgstr "%s - सञ्जाल उपकरण"
+msgstr "%s - नेटवर्क उपकरण"
 
 #: ../src/callbacks.c:479
 msgid "Unable to open help file"
@@ -93,7 +93,7 @@ msgstr "<b>प्रसारण तथ्याङ्क</b>"
 
 #: ../src/gnome-nettool.ui.h:10
 msgid "Active Network Services"
-msgstr "सक्रिय सञ्जाल सेवा"
+msgstr "सक्रिय नेटवर्क सेवा"
 
 #: ../src/gnome-nettool.ui.h:11
 msgid "Average:"
@@ -125,7 +125,7 @@ msgstr "यन्त्र"
 
 #: ../src/gnome-nettool.ui.h:18
 msgid "Devices - Network Tools"
-msgstr "यन्त्र - सञ्जाल उपकरण"
+msgstr "यन्त्र - नेटवर्क उपकरण"
 
 #: ../src/gnome-nettool.ui.h:19
 msgid "Display:"
@@ -384,11 +384,11 @@ msgstr "सूचना प्रकार:"
 
 #: ../src/gnome-nettool.ui.h:80
 msgid "_Network address:"
-msgstr "सञ्जाल ठेगाना:"
+msgstr "नेटवर्क ठेगाना:"
 
 #: ../src/gnome-nettool.ui.h:81
 msgid "_Network device:"
-msgstr "सञ्जाल यन्त्र:"
+msgstr "नेटवर्क यन्त्र:"
 
 #: ../src/gnome-nettool.ui.h:82
 msgid "_Tool"
@@ -441,7 +441,7 @@ msgstr "अज्ञात इन्टरफेस"
 
 #: ../src/info.c:165
 msgid "Network Devices Not Found"
-msgstr "सञ्जाल यन्त्र फेला परेन"
+msgstr "नेटवर्क यन्त्र फेला परेन"
 
 #: ../src/info.c:392 ../src/info.c:395
 msgid "Unknown"
@@ -471,7 +471,7 @@ msgstr "असक्षम"
 #: ../src/info.c:573
 #, c-format
 msgid "Network device:\t%s\n"
-msgstr "सञ्जाल यन्त्र:\t%s\n"
+msgstr "नेटवर्क यन्त्र:\t%s\n"
 
 #: ../src/info.c:574
 #, c-format
@@ -565,7 +565,7 @@ msgstr "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
 
 #: ../src/main.c:84
 msgid "Load information for a network device"
-msgstr "सञ्जाल यन्त्रका लागि सूचना लोड गर्नुहोस्"
+msgstr "नेटवर्क यन्त्रका लागि सूचना लोड गर्नुहोस्"
 
 #: ../src/main.c:85
 msgid "DEVICE"
@@ -573,7 +573,7 @@ msgstr "यन्त्र"
 
 #: ../src/main.c:88
 msgid "Send a ping to a network address"
-msgstr "सञ्जाल ठेगानामा पिङ पठाउनुहोस्"
+msgstr "नेटवर्क ठेगानामा पिङ पठाउनुहोस्"
 
 #: ../src/main.c:89 ../src/main.c:97 ../src/main.c:101 ../src/main.c:105
 msgid "HOST"
@@ -592,15 +592,15 @@ msgstr "आदेश"
 
 #: ../src/main.c:96
 msgid "Trace a route to a network address"
-msgstr "सञ्जाल ठेगानामा मार्ग पदचिन्ह"
+msgstr "नेटवर्क ठेगानामा मार्ग पदचिन्ह"
 
 #: ../src/main.c:100
 msgid "Port scan a network address"
-msgstr "पोर्टले सञ्जाल ठेगाना स्क्यान गर्छ"
+msgstr "पोर्टले नेटवर्क ठेगाना स्क्यान गर्छ"
 
 #: ../src/main.c:104
 msgid "Look up a network address"
-msgstr "सञ्जाल ठेगाना हेर्नुहोस्"
+msgstr "नेटवर्क ठेगाना हेर्नुहोस्"
 
 #: ../src/main.c:108
 msgid "Finger command to run"
@@ -612,7 +612,7 @@ msgstr "प्रयोगकर्ता"
 
 #: ../src/main.c:112
 msgid "Perform a whois lookup for a network domain"
-msgstr "सञ्जाल डोमेनका लागि एउटा whois खोजी सम्पादन गर्नुहोस्"
+msgstr "नेटवर्क डोमेनका लागि एउटा whois खोजी सम्पादन गर्नुहोस्"
 
 #: ../src/main.c:113
 msgid "DOMAIN"
@@ -771,12 +771,12 @@ msgstr "इन्टरफेस\tसदस्य\tसमूह\n"
 
 #: ../src/nettool.c:199
 msgid "A network address was not specified"
-msgstr "सञ्जाल ठेगाना निर्दष्ट गरिएको थिएन"
+msgstr "नेटवर्क ठेगाना निर्दष्ट गरिएको थिएन"
 
 #: ../src/nettool.c:200 ../src/nettool.c:209
 msgid "Please enter a valid network address and try again."
 msgstr ""
-"कृपया मान्य सञ्जाल ठेगाना प्रविष्ट गर्नुहोस् र पुन: प्रयास गर्नुहोस् ।"
+"कृपया मान्य नेटवर्क ठेगाना प्रविष्ट गर्नुहोस् र पुन: प्रयास गर्नुहोस् ।"
 
 #: ../src/nettool.c:207
 #, c-format
@@ -950,7 +950,7 @@ msgstr ""
 
 #: ../src/gnome-nettool.desktop.in.in.h:2
 msgid "View information about your network"
-msgstr "तपाईँको सञ्जाल बारेको सूचना हेर्नुहोस्"
+msgstr "तपाईँको नेटवर्क बारेको सूचना हेर्नुहोस्"
 
 #: ../src/finger.c:63
 #, c-format

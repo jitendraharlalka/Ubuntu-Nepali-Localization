@@ -1184,7 +1184,7 @@ msgstr "फाइल खोल्न अक्षम ।"
 
 #: ../finch/gntdebug.c:312 ../finch/gntui.c:103 ../pidgin/gtkdebug.c:689
 msgid "Debug Window"
-msgstr "त्रुटि सच्याउने सञ्झ्याल"
+msgstr "त्रुटि सच्याउने विन्डो"
 
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
@@ -4022,7 +4022,7 @@ msgid ""
 "Notifies in a conversation window when a buddy goes or returns from away or "
 "idle."
 msgstr ""
-"जब साथी टाढा जान्छ वा निष्क्रिय बन्छ वा फर्किन्छ वार्तालाप सञ्झ्यालमा सूचना "
+"जब साथी टाढा जान्छ वा निष्क्रिय बन्छ वा फर्किन्छ वार्तालाप विन्डोमा सूचना "
 "दिन्छ ।"
 
 #: ../libpurple/plugins/tcl/tcl.c:423
@@ -5171,7 +5171,7 @@ msgid ""
 "list:  Display a list of chat rooms on the network. <i>Warning, some servers "
 "may disconnect you upon doing this.</i>"
 msgstr ""
-"सूची:  सञ्जालमा कुराकानी कोठाहरुको सूची प्रदर्शन गर्नुहोस् । <i>चेतावनी, "
+"सूची:  नेटवर्कमा कुराकानी कोठाहरुको सूची प्रदर्शन गर्नुहोस् । <i>चेतावनी, "
 "केही सर्भरहरू तपाईँले कार्य गर्दा गर्दै बिच्छेदन हुन पनि सक्छन् ।</i>"
 
 #: ../libpurple/protocols/irc/parse.c:135
@@ -9230,11 +9230,11 @@ msgstr "आवश्यकता परामितिहरू पास भए
 
 #: ../libpurple/protocols/novell/nmuser.c:1866
 msgid "Unable to write to network"
-msgstr "सञ्जालमा लेख्न अक्षम छ"
+msgstr "नेटवर्कमा लेख्न अक्षम छ"
 
 #: ../libpurple/protocols/novell/nmuser.c:1869
 msgid "Unable to read from network"
-msgstr "सञ्जालबाट पढ्न अक्षम छ"
+msgstr "नेटवर्कबाट पढ्न अक्षम छ"
 
 #: ../libpurple/protocols/novell/nmuser.c:1872
 msgid "Error communicating with server"
@@ -12131,7 +12131,7 @@ msgstr ""
 #: ../libpurple/protocols/silc10/ft.c:338
 #, c-format
 msgid "User %s is not present in the network"
-msgstr "प्रयोगकर्ता %s सञ्जालमा प्रस्तुत भएको छैन"
+msgstr "प्रयोगकर्ता %s नेटवर्कमा प्रस्तुत भएको छैन"
 
 #: ../libpurple/protocols/silc/buddy.c:54
 #: ../libpurple/protocols/silc/buddy.c:111
@@ -12195,7 +12195,7 @@ msgstr "सम्झौता व्याख्या तपाईँबाट 
 #: ../libpurple/protocols/silc10/buddy.c:389
 #: ../libpurple/protocols/silc10/buddy.c:514
 msgid "The remote user is not present in the network any more"
-msgstr "टाढा प्रयोगकर्ता कुनै पनि सञ्जालमा उपस्थित छैन"
+msgstr "टाढा प्रयोगकर्ता कुनै पनि नेटवर्कमा उपस्थित छैन"
 
 #: ../libpurple/protocols/silc/buddy.c:299
 #: ../libpurple/protocols/silc10/buddy.c:295
@@ -12330,7 +12330,7 @@ msgstr "खोल्नुहोस्..."
 #: ../libpurple/protocols/silc10/buddy.c:1081
 #, c-format
 msgid "The %s buddy is not present in the network"
-msgstr "%s साथी सञ्जालमा उपस्थित छैन"
+msgstr "%s साथी नेटवर्कमा उपस्थित छैन"
 
 #: ../libpurple/protocols/silc/buddy.c:1081
 #: ../libpurple/protocols/silc10/buddy.c:1084
@@ -12523,7 +12523,7 @@ msgstr "पासफ्रेज:"
 #: ../libpurple/protocols/silc10/chat.c:80
 #, c-format
 msgid "Channel %s does not exist in the network"
-msgstr "च्यानल %s सञ्जालमा अवस्थित छैन"
+msgstr "च्यानल %s नेटवर्कमा अवस्थित छैन"
 
 #: ../libpurple/protocols/silc/chat.c:82
 #: ../libpurple/protocols/silc/chat.c:177
@@ -13102,7 +13102,7 @@ msgstr ""
 #: ../libpurple/protocols/silc/ops.c:1594
 #: ../libpurple/protocols/silc10/ops.c:1604
 msgid "Network Statistics"
-msgstr "सञ्जाल तथ्याङ्क"
+msgstr "नेटवर्क तथ्याङ्क"
 
 #: ../libpurple/protocols/silc/ops.c:1602
 #: ../libpurple/protocols/silc/ops.c:1607
@@ -13440,7 +13440,7 @@ msgstr ""
 #: ../libpurple/protocols/silc10/silc.c:1120
 #, c-format
 msgid "User <I>%s</I> is not present in the network"
-msgstr "प्रयोगकर्ता <I>%s</I> सञ्जालमा उपस्थित छैन"
+msgstr "प्रयोगकर्ता <I>%s</I> नेटवर्कमा उपस्थित छैन"
 
 #: ../libpurple/protocols/silc/silc.c:1599
 #: ../libpurple/protocols/silc10/silc.c:1311
@@ -13501,12 +13501,12 @@ msgstr "विषय [&lt;new topic&gt;]:  विषय हेर्नुहो
 #: ../libpurple/protocols/silc10/silc.c:1638
 msgid "join &lt;channel&gt; [&lt;password&gt;]:  Join a chat on this network"
 msgstr ""
-"join &lt;channel&gt; [&lt;password&gt;]:  यो सञ्जालमा कुराकानी जडान गर्नुहोस्"
+"join &lt;channel&gt; [&lt;password&gt;]:  यो नेटवर्कमा कुराकानी जडान गर्नुहोस्"
 
 #: ../libpurple/protocols/silc/silc.c:1930
 #: ../libpurple/protocols/silc10/silc.c:1642
 msgid "list:  List channels on this network"
-msgstr "सूची:  यो सञ्जालमा च्यानलहरू सूचीबद्ध गर्नुहोस्"
+msgstr "सूची:  यो नेटवर्कमा च्यानलहरू सूचीबद्ध गर्नुहोस्"
 
 #: ../libpurple/protocols/silc/silc.c:1934
 #: ../libpurple/protocols/silc10/silc.c:1646
@@ -13587,7 +13587,7 @@ msgstr ""
 #: ../libpurple/protocols/silc/silc.c:1984
 #: ../libpurple/protocols/silc10/silc.c:1696
 msgid "umode &lt;usermodes&gt;:  Set your modes in the network"
-msgstr "umode &lt;usermodes&gt;:  सञ्जालमा तपाईँंको मोडहरू सेट गर्नुहोस्"
+msgstr "umode &lt;usermodes&gt;:  नेटवर्कमा तपाईँंको मोडहरू सेट गर्नुहोस्"
 
 #: ../libpurple/protocols/silc/silc.c:1988
 #: ../libpurple/protocols/silc10/silc.c:1700
@@ -13631,7 +13631,7 @@ msgstr ""
 #: ../libpurple/protocols/silc/silc.c:2012
 #: ../libpurple/protocols/silc10/silc.c:1724
 msgid "stats:  View server and network statistics"
-msgstr "वस्तुस्थिति:  सर्भर र सञ्जाल तथ्याङ्क हेर्नुहोस्"
+msgstr "वस्तुस्थिति:  सर्भर र नेटवर्क तथ्याङ्क हेर्नुहोस्"
 
 #: ../libpurple/protocols/silc/silc.c:2016
 #: ../libpurple/protocols/silc10/silc.c:1728
@@ -13675,7 +13675,7 @@ msgstr "सुरक्षित इन्टरनेट लाइभ सम्
 #: ../libpurple/protocols/silc/silc.c:2180
 #: ../libpurple/protocols/silc10/silc.c:1897 ../pidgin/gtkprefs.c:2792
 msgid "Network"
-msgstr "सञ्जाल"
+msgstr "नेटवर्क"
 
 #: ../libpurple/protocols/silc/silc.c:2191
 #: ../libpurple/protocols/silc10/silc.c:1908
@@ -14002,7 +14002,7 @@ msgstr ""
 #: ../libpurple/protocols/yahoo/libyahoo.c:44
 #: ../libpurple/protocols/yahoo/libyahoojp.c:41
 msgid "join &lt;room&gt;:  Join a chat room on the Yahoo network"
-msgstr "join &lt;room&gt;:  याहू सञ्झ्यालमा कुराकानी कोठा जडान गर्नुहोस्"
+msgstr "join &lt;room&gt;:  याहू विन्डोमा कुराकानी कोठा जडान गर्नुहोस्"
 
 #: ../libpurple/protocols/yahoo/libyahoo.c:49
 #: ../libpurple/protocols/yahoo/libyahoojp.c:46
@@ -15627,7 +15627,7 @@ msgstr "/मद्दत/अनलाइन मद्दत"
 
 #: ../pidgin/gtkblist.c:3485
 msgid "/Help/_Debug Window"
-msgstr "/मद्दत/त्रुटि सच्याउने सञ्झ्याल"
+msgstr "/मद्दत/त्रुटि सच्याउने विन्डो"
 
 #: ../pidgin/gtkblist.c:3487 ../pidgin/gtkblist.c:3489
 msgid "/Help/_About"
@@ -16328,15 +16328,15 @@ msgstr "वार्तालाप बन्द गर्नुहोस्"
 
 #: ../pidgin/gtkconv.c:10201
 msgid "Last created window"
-msgstr "अन्तिम सिर्जित सञ्झ्याल"
+msgstr "अन्तिम सिर्जित विन्डो"
 
 #: ../pidgin/gtkconv.c:10203
 msgid "Separate IM and Chat windows"
-msgstr "IM र कुराकानी सञ्झ्यालहरू छुट्याउनुहोस्"
+msgstr "IM र कुराकानी विन्डोहरू छुट्याउनुहोस्"
 
 #: ../pidgin/gtkconv.c:10205 ../pidgin/gtkprefs.c:1999
 msgid "New window"
-msgstr "नयाँ सञ्झ्याल"
+msgstr "नयाँ विन्डो"
 
 #: ../pidgin/gtkconv.c:10207
 msgid "By group"
@@ -17092,7 +17092,7 @@ msgstr "<b>यस रुपमा पठाउँदै छ:</b>"
 
 #: ../pidgin/gtkft.c:488 ../pidgin/gtkutils.c:3608
 msgid "There is no application configured to open this type of file."
-msgstr "त्यहाँ यो प्रकारको फाइल खोल्नका लागि कन्फिगर गरिएको अनुप्रयोग छैन ।"
+msgstr "त्यहाँ यो प्रकारको फाइल खोल्नका लागि कन्फिगर गरिएको सफ्टवेयर  छैन ।"
 
 #: ../pidgin/gtkft.c:493 ../pidgin/gtkutils.c:3613
 msgid "An error occurred while opening the file."
@@ -18013,7 +18013,7 @@ msgstr ""
 
 #: ../pidgin/gtkprefs.c:1400
 msgid "Show IMs and chats in _tabbed windows"
-msgstr "ट्याब गरेका सञ्झ्यालहरूमा IM र कुराकानीहरू देखाउनुहोस्"
+msgstr "ट्याब गरेका विन्डोहरूमा IM र कुराकानीहरू देखाउनुहोस्"
 
 #: ../pidgin/gtkprefs.c:1414
 msgid "Show close b_utton on tabs"
@@ -18253,7 +18253,7 @@ msgstr "पूर्वनिर्धारित ब्राउजर"
 
 #: ../pidgin/gtkprefs.c:1998
 msgid "Existing window"
-msgstr "अवस्थित सञ्झ्याल"
+msgstr "अवस्थित विन्डो"
 
 #: ../pidgin/gtkprefs.c:2000
 msgid "New tab"
@@ -19162,11 +19162,11 @@ msgstr ""
 
 #: ../pidgin/plugins/extplacement.c:111
 msgid "Number of conversations per window"
-msgstr "प्रति सञ्झ्याल वार्तालापहरुको संख्या"
+msgstr "प्रति विन्डो वार्तालापहरुको संख्या"
 
 #: ../pidgin/plugins/extplacement.c:117
 msgid "Separate IM and Chat windows when placing by number"
-msgstr "संख्या राखिसके पाछि IM र कुराकानी सञ्झ्यालहरू छुट्याउनुहोस्"
+msgstr "संख्या राखिसके पाछि IM र कुराकानी विन्डोहरू छुट्याउनुहोस्"
 
 #. *< type
 #. *< ui_requirement
@@ -19191,7 +19191,7 @@ msgid ""
 "Restrict the number of conversations per windows, optionally separating IMs "
 "and Chats"
 msgstr ""
-"एच्छिक रुपमा IMहरू र कुराकानी छुट्याउदा, प्रति सञ्झ्यालहरू वार्तालापहरुको "
+"एच्छिक रुपमा IMहरू र कुराकानी छुट्याउदा, प्रति विन्डोहरू वार्तालापहरुको "
 "संख्या सिमित गरिएको हुन्छ"
 
 #. Configuration frame
@@ -19447,11 +19447,11 @@ msgstr ""
 
 #: ../pidgin/plugins/markerline.c:276 ../pidgin/plugins/notify.c:697
 msgid "_IM windows"
-msgstr "IM सञ्झ्यालहरू"
+msgstr "IM विन्डोहरू"
 
 #: ../pidgin/plugins/markerline.c:280 ../pidgin/plugins/notify.c:704
 msgid "C_hat windows"
-msgstr "कुराकानी सञ्झ्यालहरू"
+msgstr "कुराकानी विन्डोहरू"
 
 #: ../pidgin/plugins/musicmessaging/musicmessaging.c:44
 msgid ""
@@ -19522,7 +19522,7 @@ msgstr ""
 
 #: ../pidgin/plugins/notify.c:722
 msgid "_Focused windows"
-msgstr "फोकस गरेका सञ्झ्यालहरू"
+msgstr "फोकस गरेका विन्डोहरू"
 
 #. ---------- "Notification Methods" ----------
 #: ../pidgin/plugins/notify.c:730
@@ -19531,12 +19531,12 @@ msgstr "सूचना विधिहरू"
 
 #: ../pidgin/plugins/notify.c:737
 msgid "Prepend _string into window title:"
-msgstr "सञ्झ्याल शीर्षक भित्र प्रिपेन्ड स्ट्रिङ"
+msgstr "विन्डो शीर्षक भित्र प्रिपेन्ड स्ट्रिङ"
 
 #. Count method button
 #: ../pidgin/plugins/notify.c:756
 msgid "Insert c_ount of new messages into window title"
-msgstr "सञ्झ्याल शीर्षक भित्र नयाँ सन्देशहरुको गणना घुसाउनुहोस्"
+msgstr "विन्डो शीर्षक भित्र नयाँ सन्देशहरुको गणना घुसाउनुहोस्"
 
 #. Count xprop method button
 #: ../pidgin/plugins/notify.c:765
@@ -19546,7 +19546,7 @@ msgstr ""
 #. Urgent method button
 #: ../pidgin/plugins/notify.c:773
 msgid "Set window manager \"_URGENT\" hint"
-msgstr "सञ्झ्याल प्रवन्धक \"_URGENT\" हिन्ट सेट गर्नुहोस् ।"
+msgstr "विन्डो प्रवन्धक \"_URGENT\" हिन्ट सेट गर्नुहोस् ।"
 
 #: ../pidgin/plugins/notify.c:775
 msgid "_Flash window"
@@ -19570,17 +19570,17 @@ msgstr "हटाउन मिल्ने सूचना"
 #. Remove on focus button
 #: ../pidgin/plugins/notify.c:805
 msgid "Remove when conversation window _gains focus"
-msgstr "वार्तालाप सञ्झ्यालले फोकसहरू प्राप्त गर्दा हटाउनुहोस्"
+msgstr "वार्तालाप विन्डोले फोकसहरू प्राप्त गर्दा हटाउनुहोस्"
 
 #. Remove on click button
 #: ../pidgin/plugins/notify.c:812
 msgid "Remove when conversation window _receives click"
-msgstr "वार्तालाप सञ्झ्यालले क्लिक प्राप्त गर्दा हटाउनुहोस्"
+msgstr "वार्तालाप विन्डोले क्लिक प्राप्त गर्दा हटाउनुहोस्"
 
 #. Remove on type button
 #: ../pidgin/plugins/notify.c:820
 msgid "Remove when _typing in conversation window"
-msgstr "वार्तालाप सञ्झ्यालमा टाइप गर्दा हटाउनुहोस्"
+msgstr "वार्तालाप विन्डोमा टाइप गर्दा हटाउनुहोस्"
 
 #. Remove on message send button
 #: ../pidgin/plugins/notify.c:828
@@ -20166,15 +20166,15 @@ msgstr "अस्पष्टता:"
 #. IM Convo trans options
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:562
 msgid "IM Conversation Windows"
-msgstr "IM वार्तालाप सञ्झ्यालहरू"
+msgstr "IM वार्तालाप विन्डोहरू"
 
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:563
 msgid "_IM window transparency"
-msgstr "IM सञ्झ्याल पारदर्शीता"
+msgstr "IM विन्डो पारदर्शीता"
 
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:577
 msgid "_Show slider bar in IM window"
-msgstr "IM सञ्झ्यालमा स्लाइडर पट्टी देखाउनुहोस्"
+msgstr "IM विन्डोमा स्लाइडर पट्टी देखाउनुहोस्"
 
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:584
 msgid "Remove IM window transparency on focus"
@@ -20188,11 +20188,11 @@ msgstr ""
 #. Buddy List trans options
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:619
 msgid "Buddy List Window"
-msgstr "साथी सूची सञ्झ्याल"
+msgstr "साथी सूची विन्डो"
 
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:620
 msgid "_Buddy List window transparency"
-msgstr "साथी सूची सञ्झ्याल पारदर्शिता"
+msgstr "साथी सूची विन्डो पारदर्शिता"
 
 #: ../pidgin/plugins/win32/transparency/win2ktrans.c:633
 msgid "Remove Buddy List window transparency on focus"

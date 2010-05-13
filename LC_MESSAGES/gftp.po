@@ -1,7 +1,6 @@
 # translation of gftp.HEAD.ne.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
 # Pawan Chitrakar <pawan@mpp.org.np>, 2005.
 # Jyotshna Shrestha <shresthajyo@hotmail.com>, 2005.
 # Ganesh Ghimire <gghimire@gmail.com>, 2005.
@@ -12,24 +11,27 @@
 # Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
 # Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 # Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gftp.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-11-30 15:24-0500\n"
-"PO-Revision-Date: 2009-11-28 11:31+0000\n"
-"Last-Translator: Shyam Krishna Bal <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-13 11:44+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-20 22:34+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: lib/bookmark.c:38
 #, c-format
 msgid "Invalid URL %s\n"
-msgstr "अवैध यूआरएल %s\n"
+msgstr "अमान्य यूआरएल %s\n"
 
 #: lib/cache.c:50 lib/cache.c:64 lib/cache.c:77
 #, c-format
@@ -423,11 +425,11 @@ msgstr "फाइलहरू सम्पादन गर्न प्रयो
 
 #: lib/options.h:48
 msgid "Max Log Window Size:"
-msgstr "अधिक्तम लग सञ्झ्याल साइज:"
+msgstr "अधिक्तम लग विन्डो साइज:"
 
 #: lib/options.h:50
 msgid "The maximum size of the log window in bytes for the GTK+ port"
-msgstr "GTK+ port का लागि बाइटसमा लग सञ्झ्यालको अधिकतम साइज"
+msgstr "GTK+ port का लागि बाइटसमा लग विन्डोको अधिकतम साइज"
 
 #: lib/options.h:52
 msgid "Remote Character Sets:"
@@ -563,7 +565,7 @@ msgstr "अन्तिम डाइरेक्टरी सम्झनुह�
 msgid ""
 "Save the last local and remote directory when the application is closed"
 msgstr ""
-"अनुप्रयोग बन्द हुँदा अन्तिम स्थानीय र टाढाको डाइरेक्टरी बचत गर्नुहोस्"
+"सफ्टवेयर  बन्द हुँदा अन्तिम स्थानीय र टाढाको डाइरेक्टरी बचत गर्नुहोस्"
 
 #: lib/options.h:115
 msgid "Connect to remote server on startup"
@@ -572,22 +574,22 @@ msgstr "सुरुआतमा टाढाको सर्भर जडान
 #: lib/options.h:117
 msgid ""
 "Automatically connect to the remote server when the application is started."
-msgstr "अनुप्रयोग सुरु हुँदा स्वचालित रूपमा टाढाको सर्भरमा जडान गर्नुहोस् ।"
+msgstr "सफ्टवेयर  सुरु हुँदा स्वचालित रूपमा टाढाको सर्भरमा जडान गर्नुहोस् ।"
 
 #: lib/options.h:120 src/gtk/options_dialog.c:1020
 #: src/gtk/options_dialog.c:1240
 msgid "Network"
-msgstr "सञ्जाल"
+msgstr "नेटवर्क"
 
 #: lib/options.h:122
 msgid "Network timeout:"
-msgstr "सञ्जाल समय समाप्त:"
+msgstr "नेटवर्क समय समाप्त:"
 
 #: lib/options.h:125
 msgid ""
 "The timeout waiting for network input/output. This is NOT an idle timeout."
 msgstr ""
-"सञ्जाल आगत/निर्गतका लागि प्रतिक्षा गर्दा समय समाप्ताप्त भयो। यो एउटा मन "
+"नेटवर्क आगत/निर्गतका लागि प्रतिक्षा गर्दा समय समाप्ताप्त भयो। यो एउटा मन "
 "कल्पित समय समिाप्त  होइन।"
 
 #: lib/options.h:127
@@ -667,14 +669,14 @@ msgstr "स्थानान्तर सूची बाकसको पूर
 
 #: lib/options.h:174
 msgid "The default height of the logging window"
-msgstr "सञ्झ्याल लग गर्दाको पूर्वनिर्धारित उचाइ"
+msgstr "विन्डो लग गर्दाको पूर्वनिर्धारित उचाइ"
 
 #: lib/options.h:177
 msgid ""
 "The width of the filename column in the transfer window. Set this to 0 to "
 "have this column automagically resize."
 msgstr ""
-"स्थानान्तर सञ्झ्यालमा फाइलनाम स्तम्भको चौडाइ। यो स्तम्भलाई स्वत: दुई स्वत: "
+"स्थानान्तर विन्डोमा फाइलनाम स्तम्भको चौडाइ। यो स्तम्भलाई स्वत: दुई स्वत: "
 "तरिकाले पुन:साइज दिन यसलाई ० मा सेट गर्नुहोस्।"
 
 #: lib/options.h:190 lib/options.h:196
@@ -1085,7 +1087,7 @@ msgid ""
 "leave this off. If you are downloading binary data, you will want to disable "
 "this."
 msgstr ""
-"यदि तपाईँले सञ्झ्यालबाट UNIX बाकस वा युनिक्स बाकसबाट सञ्झ्यालमा पाठ फाइल "
+"यदि तपाईँले विन्डोबाट UNIX बाकस वा युनिक्स बाकसबाट विन्डोमा पाठ फाइल "
 "स्थानान्तर गर्दै हुनुहुन्छ भने तपाईँले यसलाई सक्रिय गर्नु पर्दछ। हरेक "
 "प्रणालीले पाठ फाइलका लागि नयाँ लाइनहरू विभिन्न प्रकारले प्रतिनिधित्व गर्दछ। "
 "यदि तपाईँले UNIXबाट UNIXमा पठाउँदै हुनुहुन्छ भने यसलाई बन्द गर्नु नै "
@@ -2724,7 +2726,7 @@ msgstr "  बन्द गर्नुहोस्  "
 
 #: src/gtk/menu-items.c:685
 msgid "Compare Windows"
-msgstr "सञ्झ्याल तुलना गर्नुहोस्"
+msgstr "विन्डो तुलना गर्नुहोस्"
 
 #: src/gtk/misc-gtk.c:257
 msgid "Disconnect from the remote server"
@@ -2840,11 +2842,11 @@ msgstr "डोमेन"
 
 #: src/gtk/options_dialog.c:1047
 msgid "Network Address"
-msgstr "सञ्जाल ठेगाना"
+msgstr "नेटवर्क ठेगाना"
 
 #: src/gtk/options_dialog.c:1049
 msgid "_Network address:"
-msgstr "सञ्जाल ठेगाना:"
+msgstr "नेटवर्क ठेगाना:"
 
 #: src/gtk/options_dialog.c:1088 src/gtk/options_dialog.c:1241
 msgid "Netmask"

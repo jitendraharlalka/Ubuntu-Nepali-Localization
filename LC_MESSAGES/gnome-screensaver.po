@@ -85,7 +85,7 @@ msgstr "निस्क्रिय हुने वित्तिकै सक
 
 #: ../data/gnome-screensaver.schemas.in.h:2
 msgid "Allow embedding a keyboard into the window"
-msgstr "कुञ्जीपाटीलाइ सञ्झ्यालमा सम्मिलित गर्न अनुमति दिनुहोस्"
+msgstr "कुञ्जीपाटीलाइ विन्डोमा सम्मिलित गर्न अनुमति दिनुहोस्"
 
 #: ../data/gnome-screensaver.schemas.in.h:3
 msgid "Allow logout"
@@ -132,7 +132,7 @@ msgid ""
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
 "command."
 msgstr ""
-"ताल्चा खोल्ने प्रयास गर्दा कुञ्जीपाटीलाई सञ्झ्यालमा सम्मिलन गर्न अनुमति दिन "
+"ताल्चा खोल्ने प्रयास गर्दा कुञ्जीपाटीलाई विन्डोमा सम्मिलन गर्न अनुमति दिन "
 "यसलाई ठीकमा सेट गर्नुहोस् । \"कुञ्जीपाटी आदेश\" मिल्दो आदेशसँग सेट "
 "गर्नुपर्दछ ।"
 
@@ -166,8 +166,8 @@ msgid ""
 "output."
 msgstr ""
 "\"सम्मिलित कुञ्जीपाटी सक्षम पारिएको\" कुञ्जी ठीकमा सेट गरिएको छ भने, "
-"सञ्झ्यालमा कुञ्जीपाटी विजेट सम्मिलित गर्न, चलाइने आदेश । यस आदेशले XEMBED "
-"प्लग इन्टरफेस कार्यान्वयन गर्नुपर्दछ र मानक निर्गतमा सञ्झ्याल XID निर्गत "
+"विन्डोमा कुञ्जीपाटी विजेट सम्मिलित गर्न, चलाइने आदेश । यस आदेशले XEMBED "
+"प्लग इन्टरफेस कार्यान्वयन गर्नुपर्दछ र मानक निर्गतमा विन्डो XID निर्गत "
 "गर्नुपर्दछ ।"
 
 #: ../data/gnome-screensaver.schemas.in.h:18
@@ -487,7 +487,7 @@ msgstr ""
 
 #: ../src/gnome-screensaver-command.c:80
 msgid "The calling application that is inhibiting the screensaver"
-msgstr "स्क्रिनसेभर निषेध गरिरहेको कलिङ अनुप्रयोग"
+msgstr "स्क्रिनसेभर निषेध गरिरहेको कलिङ सफ्टवेयर "
 
 #: ../src/gnome-screensaver-command.c:82
 msgid "The reason for inhibiting the screensaver"
@@ -496,7 +496,7 @@ msgstr "स्क्रिनसेभर निषेध गर्नुको 
 #: ../src/gnome-screensaver-command.c:84 ../src/gnome-screensaver-dialog.c:59
 #: ../src/gnome-screensaver.c:56
 msgid "Version of this application"
-msgstr "यस अनुप्रयोगको संस्करण"
+msgstr "यस सफ्टवेयर को संस्करण"
 
 #: ../src/gnome-screensaver-command.c:311
 #, c-format

@@ -565,11 +565,11 @@ msgstr "ठीक भएमा, समयमा सेकेन्ड पनि 
 
 #: ../applets/clock/clock.schemas.in.h:23
 msgid "If true, expand the list of appointments in the calendar window."
-msgstr "ठीक भएमा, क्यालेन्डर सञ्झ्यालमा नियुक्तिको सूची विस्तार गर्नुहोस् ।"
+msgstr "ठीक भएमा, क्यालेन्डर विन्डोमा नियुक्तिको सूची विस्तार गर्नुहोस् ।"
 
 #: ../applets/clock/clock.schemas.in.h:24
 msgid "If true, expand the list of birthdays in the calendar window."
-msgstr "ठीक भएमा, क्यालेन्डर सञ्झ्यालमा जन्मदिनको सूची विस्तार गर्नुहोस् ।"
+msgstr "ठीक भएमा, क्यालेन्डर विन्डोमा जन्मदिनको सूची विस्तार गर्नुहोस् ।"
 
 #: ../applets/clock/clock.schemas.in.h:25
 msgid "If true, expand the list of locations in the calendar window."
@@ -577,13 +577,13 @@ msgstr ""
 
 #: ../applets/clock/clock.schemas.in.h:26
 msgid "If true, expand the list of tasks in the calendar window."
-msgstr "ठीक भएमा, क्यालेन्डर सञ्झ्यालमा कार्यको सूची विस्तार गर्नुहोस् ।"
+msgstr "ठीक भएमा, क्यालेन्डर विन्डोमा कार्यको सूची विस्तार गर्नुहोस् ।"
 
 #: ../applets/clock/clock.schemas.in.h:27
 msgid ""
 "If true, expand the list of weather information in the calendar window."
 msgstr ""
-"ठीक भएमा, क्यालेन्डर सञ्झ्यालमा मौसम सूचनाको सूची विस्तार गर्नुहोस् ।"
+"ठीक भएमा, क्यालेन्डर विन्डोमा मौसम सूचनाको सूची विस्तार गर्नुहोस् ।"
 
 #: ../applets/clock/clock.schemas.in.h:28
 msgid "If true, show date in a tooltip when the pointer is over the clock."
@@ -1071,11 +1071,11 @@ msgstr "प्यानल सूचना क्षेत्र"
 
 #: ../applets/wncklet/GNOME_Wncklet_Factory.server.in.in.h:1
 msgid "Factory for the window navigation related applets"
-msgstr "सञ्झ्याल नेभिगेसन सम्बन्धित एप्लेटका लागि कारखाना"
+msgstr "विन्डो नेभिगेसन सम्बन्धित एप्लेटका लागि कारखाना"
 
 #: ../applets/wncklet/GNOME_Wncklet_Factory.server.in.in.h:2
 msgid "Hide application windows and show the desktop"
-msgstr "अनुप्रयोग सन्झ्याल लुकाउनुहोस् र डेस्कटप देखाउनुहोस्"
+msgstr "सफ्टवेयर  सन्झ्याल लुकाउनुहोस् र डेस्कटप देखाउनुहोस्"
 
 #: ../applets/wncklet/GNOME_Wncklet_Factory.server.in.in.h:3
 msgid "Show Desktop"
@@ -1083,11 +1083,11 @@ msgstr "डेस्कटप देखाउनुहोस्"
 
 #: ../applets/wncklet/GNOME_Wncklet_Factory.server.in.in.h:4
 msgid "Switch between open windows using a menu"
-msgstr "मेनुको प्रयोग गरेर खुला सञ्झ्यालमा स्विच गर्नुहोस्"
+msgstr "मेनुको प्रयोग गरेर खुला विन्डोमा स्विच गर्नुहोस्"
 
 #: ../applets/wncklet/GNOME_Wncklet_Factory.server.in.in.h:5
 msgid "Switch between open windows using buttons"
-msgstr "बटन प्रयोग गरेर खुला सञ्झ्यालमा स्विच गर्नुहोस्"
+msgstr "बटन प्रयोग गरेर खुला विन्डोमा स्विच गर्नुहोस्"
 
 #: ../applets/wncklet/GNOME_Wncklet_Factory.server.in.in.h:6
 msgid "Switch between workspaces"
@@ -1202,7 +1202,7 @@ msgid ""
 "Decides when to group windows from the same application on the window list. "
 "Possible values are \"never\", \"auto\" and \"always\"."
 msgstr ""
-"सञ्झ्याल सूचीमा उस्तै अनुप्रयोगबाट कहिले समूह बनाउने निर्णय गर्दछ । सम्भावित "
+"विन्डो सूचीमा उस्तै सफ्टवेयर बाट कहिले समूह बनाउने निर्णय गर्दछ । सम्भावित "
 "मान \"कहिले पनि\", \"स्वचालित\" र \"सधैँ\" हुन् ।"
 
 #: ../applets/wncklet/window-list.schemas.in.h:2
@@ -1210,7 +1210,7 @@ msgid ""
 "If true, the window list will show windows from all workspaces. Otherwise it "
 "will only display windows from the current workspace."
 msgstr ""
-"ठीक भएमा, सञ्झ्याल सूचीले सबै कार्यस्थानबाट सञ्झ्याल देखाउछ । अन्यथा यसले "
+"ठीक भएमा, विन्डो सूचीले सबै कार्यस्थानबाट विन्डो देखाउछ । अन्यथा यसले "
 "हालको कार्यस्थानबाट सन्झ्याल मात्र देखाउछ ।"
 
 #: ../applets/wncklet/window-list.schemas.in.h:3
@@ -1218,8 +1218,8 @@ msgid ""
 "If true, then when unminimizing a window, move it to the current workspace. "
 "Otherwise, switch to the workspace of the window."
 msgstr ""
-"ठीक भएमा, सञ्झ्याललाई बढाए पछि, यसलाई हालको कार्यस्थानमा सार्नुहोस् ।अन्यथा, "
-"सञ्झ्यालको कार्यस्थानमा स्विच गर्नुहोस् ।"
+"ठीक भएमा, विन्डोलाई बढाए पछि, यसलाई हालको कार्यस्थानमा सार्नुहोस् ।अन्यथा, "
+"विन्डोको कार्यस्थानमा स्विच गर्नुहोस् ।"
 
 #: ../applets/wncklet/window-list.schemas.in.h:4
 msgid "Maximum window list size"
@@ -1231,7 +1231,7 @@ msgstr "न्यूनतम सन्झ्याल सूची साइज
 
 #: ../applets/wncklet/window-list.schemas.in.h:6
 msgid "Move windows to current workspace when unminimized"
-msgstr "बढाउदा सञ्झ्याललाई हालको कार्यस्थानमा सार्नुहोस्"
+msgstr "बढाउदा विन्डोलाई हालको कार्यस्थानमा सार्नुहोस्"
 
 #: ../applets/wncklet/window-list.schemas.in.h:7
 msgid "Show windows from all workspaces"
@@ -1247,7 +1247,7 @@ msgstr ""
 
 #: ../applets/wncklet/window-list.schemas.in.h:9
 msgid "When to group windows"
-msgstr "सञ्झ्याललाई समूहकृत गर्दा"
+msgstr "विन्डोलाई समूहकृत गर्दा"
 
 #: ../applets/wncklet/window-menu.c:86
 msgid ""
@@ -1470,7 +1470,7 @@ msgstr ""
 #: ../gnome-panel/libpanel-util/panel-launch.c:48
 #: ../gnome-panel/launcher.c:161
 msgid "Could not launch application"
-msgstr "अनुप्रयोग सुरुआत गर्न सकेन"
+msgstr "सफ्टवेयर  सुरुआत गर्न सकेन"
 
 #: ../gnome-panel/libpanel-util/panel-show.c:44
 #, c-format
@@ -1547,7 +1547,7 @@ msgid ""
 "Launch other applications and provide various utilities to manage windows, "
 "show the time, etc."
 msgstr ""
-"अन्य अनुप्रयोग सुरु गर्नुहोस् र सञ्झ्याल प्रबन्ध गर्न, समय देखाउन, इत्यादि "
+"अन्य सफ्टवेयर  सुरु गर्नुहोस् र विन्डो प्रबन्ध गर्न, समय देखाउन, इत्यादि "
 "गर्न विभिन्न उपयोगिता उपलब्ध गर्नुहोस् ।"
 
 #: ../gnome-panel/gnome-panel.desktop.in.in.h:2 ../gnome-panel/main.c:105
@@ -1694,11 +1694,11 @@ msgstr "भिन्न प्रयोगकर्ताको रूपमा 
 
 #: ../gnome-panel/panel-action-button.c:310
 msgid "Run Application..."
-msgstr "अनुप्रयोग चलाउनुहोस्..."
+msgstr "सफ्टवेयर  चलाउनुहोस्..."
 
 #: ../gnome-panel/panel-action-button.c:311
 msgid "Run an application by typing a command or choosing from a list"
-msgstr "आदेश प्रविष्टि गरेर वा सूचीबाट छनौट गरेर अनुप्रयोग चलाउनुहोस्"
+msgstr "आदेश प्रविष्टि गरेर वा सूचीबाट छनौट गरेर सफ्टवेयर  चलाउनुहोस्"
 
 #: ../gnome-panel/panel-action-button.c:320
 msgid "Search for Files..."
@@ -1715,7 +1715,7 @@ msgstr "अन्त्य गर्न दवाब दिनुहोस्"
 
 #: ../gnome-panel/panel-action-button.c:330
 msgid "Force a misbehaving application to quit"
-msgstr "एउटा अव्यवहारिक अनुप्रयोगलाई बन्द गर्न दवाब दिनुहोस्"
+msgstr "एउटा अव्यवहारिक सफ्टवेयर लाई बन्द गर्न दवाब दिनुहोस्"
 
 #. FIXME icon
 #: ../gnome-panel/panel-action-button.c:339
@@ -1736,7 +1736,7 @@ msgstr "कम्प्युटर बन्द गर्नुहोस्"
 
 #: ../gnome-panel/panel-addto.c:116
 msgid "Custom Application Launcher"
-msgstr "अनुप्रयोग सुरुआतकर्ता अनुकूल पार्नुहोस्"
+msgstr "सफ्टवेयर  सुरुआतकर्ता अनुकूल पार्नुहोस्"
 
 #: ../gnome-panel/panel-addto.c:117
 msgid "Create a new launcher"
@@ -1744,11 +1744,11 @@ msgstr "नयाँ सुरुआतकर्ता सिर्जना ग
 
 #: ../gnome-panel/panel-addto.c:127
 msgid "Application Launcher..."
-msgstr "अनुप्रयोग सुरुआतकर्ता..."
+msgstr "सफ्टवेयर  सुरुआतकर्ता..."
 
 #: ../gnome-panel/panel-addto.c:128
 msgid "Copy a launcher from the applications menu"
-msgstr "अनुप्रयोग मेनुबाट सुरुआतकर्ता प्रतिलिपि गर्नुहोस्"
+msgstr "सफ्टवेयर  मेनुबाट सुरुआतकर्ता प्रतिलिपि गर्नुहोस्"
 
 #: ../gnome-panel/panel-addto.c:142 ../gnome-panel/panel-menu-button.c:1083
 msgid "Main Menu"
@@ -1867,7 +1867,7 @@ msgid ""
 "This program is responsible for launching other applications and provides "
 "useful utilities."
 msgstr ""
-"अन्य अनुप्रयोग सुरुआत गर्न यो कार्यक्रम उत्तरदायी हुन्छ र उपयोगी विशेषता "
+"अन्य सफ्टवेयर  सुरुआत गर्न यो कार्यक्रम उत्तरदायी हुन्छ र उपयोगी विशेषता "
 "उपलब्ध गर्छ ।"
 
 #: ../gnome-panel/panel-context-menu.c:137
@@ -1900,11 +1900,11 @@ msgstr "प्यानलका बारेमा"
 
 #: ../gnome-panel/panel-ditem-editor.c:114
 msgid "Application"
-msgstr "अनुप्रयोग"
+msgstr "सफ्टवेयर "
 
 #: ../gnome-panel/panel-ditem-editor.c:116
 msgid "Application in Terminal"
-msgstr "टर्मिनलको अनुप्रयोग"
+msgstr "टर्मिनलको सफ्टवेयर "
 
 #: ../gnome-panel/panel-ditem-editor.c:118
 msgid "Location"
@@ -1931,7 +1931,7 @@ msgstr "टिप्पणी:"
 
 #: ../gnome-panel/panel-ditem-editor.c:1008
 msgid "Choose an application..."
-msgstr "एउटा अनुप्रयोग रोज्नुहोस्..."
+msgstr "एउटा सफ्टवेयर  रोज्नुहोस्..."
 
 #: ../gnome-panel/panel-ditem-editor.c:1012
 msgid "Choose a file..."
@@ -1974,12 +1974,12 @@ msgstr "मद्दत कागजात प्रदर्शन गर्न
 msgid ""
 "Click on a window to force the application to quit. To cancel press <ESC>."
 msgstr ""
-"अनुप्रयोगलाई अन्त्य गर्न दवाब दिन सञ्झ्यालमा क्लिक गर्नुहोस् । रद्द गर्न "
+"सफ्टवेयर लाई अन्त्य गर्न दवाब दिन विन्डोमा क्लिक गर्नुहोस् । रद्द गर्न "
 "<ESC> थिच्नुहोस् ।"
 
 #: ../gnome-panel/panel-force-quit.c:204
 msgid "Force this application to exit?"
-msgstr "यस अनुप्रयोगलाई बाहिर पठाउन दवाब दिनुहुन्छ ?"
+msgstr "यस सफ्टवेयर लाई बाहिर पठाउन दवाब दिनुहुन्छ ?"
 
 #: ../gnome-panel/panel-force-quit.c:207
 msgid ""
@@ -2027,21 +2027,21 @@ msgstr ""
 
 #: ../gnome-panel/panel-general.schemas.in.h:5
 msgid "Enable autocompletion in \"Run Application\" dialog"
-msgstr "\"अनुप्रयोग चलाउनुहोस्\" संवादको स्वत: समाप्ति सक्षम पार्नुहोस्"
+msgstr "\"सफ्टवेयर  चलाउनुहोस्\" संवादको स्वत: समाप्ति सक्षम पार्नुहोस्"
 
 #: ../gnome-panel/panel-general.schemas.in.h:6
 msgid "Enable program list in \"Run Application\" dialog"
-msgstr "\"अनुप्रयोग चलाउनुहोस्\" संवादको कार्यक्रम सूची सक्षम पार्नुहोस्"
+msgstr "\"सफ्टवेयर  चलाउनुहोस्\" संवादको कार्यक्रम सूची सक्षम पार्नुहोस्"
 
 #: ../gnome-panel/panel-general.schemas.in.h:7
 msgid "Expand program list in \"Run Application\" dialog"
-msgstr "\"अनुप्रयोग चलाउनुहोस्\" संवादको कार्यक्रम सूची विस्तार गर्नुहोस्"
+msgstr "\"सफ्टवेयर  चलाउनुहोस्\" संवादको कार्यक्रम सूची विस्तार गर्नुहोस्"
 
 #: ../gnome-panel/panel-general.schemas.in.h:8
 msgid ""
 "If true, autocompletion in the \"Run Application\" dialog is made available."
 msgstr ""
-"ठीक भएमा, \"अनुप्रयोग चलाउनुहोस्\" संवादको स्वत: समाप्ति उपलब्ध हुन्छ ।"
+"ठीक भएमा, \"सफ्टवेयर  चलाउनुहोस्\" संवादको स्वत: समाप्ति उपलब्ध हुन्छ ।"
 
 #: ../gnome-panel/panel-general.schemas.in.h:9
 msgid ""
@@ -2049,8 +2049,8 @@ msgid ""
 "dialog is expanded when the dialog is opened. This key is only relevant if "
 "the enable_program_list key is true."
 msgstr ""
-"ठीक भएमा, संवाद खुला भएको बेलामा \"अनुप्रयोग चलाउनुहोस्\" संवादको \"परिचित "
-"अनुप्रयोग\" सूची विस्तार हुन्छ । यदि कार्यक्रम सूची सक्षम पार्ने कुञ्जी ठीक "
+"ठीक भएमा, संवाद खुला भएको बेलामा \"सफ्टवेयर  चलाउनुहोस्\" संवादको \"परिचित "
+"सफ्टवेयर \" सूची विस्तार हुन्छ । यदि कार्यक्रम सूची सक्षम पार्ने कुञ्जी ठीक "
 "भएमा मात्र यो कुञ्जी उपयुक्त हुन्छ ।"
 
 #: ../gnome-panel/panel-general.schemas.in.h:10
@@ -2059,7 +2059,7 @@ msgid ""
 "dialog is made available. Whether or not the listing is expanded when the "
 "dialog is shown is controlled by the show_program_list key."
 msgstr ""
-"ठीक भएमा, \"अनुप्रयोग चलाउनुहोस्\" संवादको \"परिचित अनुप्रयोग\" सूची उपलब्ध "
+"ठीक भएमा, \"सफ्टवेयर  चलाउनुहोस्\" संवादको \"परिचित सफ्टवेयर \" सूची उपलब्ध "
 "हुन्छ । देखिएको संवादलाई कार्यक्रम सूची देखाउने कुञ्जीद्वारा नियन्त्रण "
 "गरिएको बेलामा सूची विस्तार हुन्छ या हुँदैन ।"
 
@@ -2161,7 +2161,7 @@ msgid ""
 "removing access to the force quit button."
 msgstr ""
 "ठीक भएमा, प्यानलले प्रयोगकर्ताको बलपूर्वक बन्द गर्ने बटनको पहुँच हटाएर "
-"अनुप्रयोगलाई दवाब दिन अनुमति दिदैन ।"
+"सफ्टवेयर लाई दवाब दिन अनुमति दिदैन ।"
 
 #: ../gnome-panel/panel-global.schemas.in.h:16
 msgid ""
@@ -2203,15 +2203,15 @@ msgstr ""
 
 #: ../gnome-panel/panel-menu-bar.c:137
 msgid "Browse and run installed applications"
-msgstr "स्थापना गरिएका अनुप्रयोग ब्राउज गर्नुहोस् र चलाउनुहोस्"
+msgstr "स्थापना गरिएका सफ्टवेयर  ब्राउज गर्नुहोस् र चलाउनुहोस्"
 
 #: ../gnome-panel/panel-menu-bar.c:139
 msgid "Access documents, folders and network places"
-msgstr "कागजात, फोल्डर र सञ्जाल स्थान पहुँच गर्नुहोस्"
+msgstr "कागजात, फोल्डर र नेटवर्क स्थान पहुँच गर्नुहोस्"
 
 #: ../gnome-panel/panel-menu-bar.c:184
 msgid "Applications"
-msgstr "अनुप्रयोग"
+msgstr "सफ्टवेयर "
 
 #: ../gnome-panel/panel-menu-bar.c:391 ../gnome-panel/panel-menu-button.c:670
 msgid "_Edit Menus"
@@ -2253,7 +2253,7 @@ msgstr "हटाउन सकिने माध्यम"
 
 #: ../gnome-panel/panel-menu-items.c:1002
 msgid "Network Places"
-msgstr "सञ्जाल स्थान"
+msgstr "नेटवर्क स्थान"
 
 #: ../gnome-panel/panel-menu-items.c:1042
 msgid "Open your personal folder"
@@ -2712,7 +2712,7 @@ msgstr "आदेशमा थपिने फाइल रोज्नुहो
 #: ../gnome-panel/panel-run-dialog.c:1634
 #: ../gnome-panel/panel-run-dialog.ui.h:8
 msgid "Select an application to view its description."
-msgstr "अनुप्रयोगको वर्णन हेर्न यसलाई चयन गर्नुहोस् ।"
+msgstr "सफ्टवेयर को वर्णन हेर्न यसलाई चयन गर्नुहोस् ।"
 
 #: ../gnome-panel/panel-run-dialog.c:1672
 #, c-format
@@ -2742,7 +2742,7 @@ msgid ""
 "Click this button to run the selected application or the command in the "
 "command entry field."
 msgstr ""
-"आदेश प्रविष्टि फिल्डमा चयन गरिएका अनुप्रयोग वा आदेश चलाउन यस बटनमा क्लिक "
+"आदेश प्रविष्टि फिल्डमा चयन गरिएका सफ्टवेयर  वा आदेश चलाउन यस बटनमा क्लिक "
 "गर्नुहोस् ।"
 
 #: ../gnome-panel/panel-run-dialog.ui.h:3
@@ -2755,7 +2755,7 @@ msgstr "परिचित अनुप्रयगोको सूची"
 
 #: ../gnome-panel/panel-run-dialog.ui.h:5
 msgid "Run Application"
-msgstr "अनुप्रयोग चलाउनुहोस्"
+msgstr "सफ्टवेयर  चलाउनुहोस्"
 
 #: ../gnome-panel/panel-run-dialog.ui.h:6
 msgid "Run in _terminal"
@@ -2767,11 +2767,11 @@ msgstr "फाइलसँग चलाउनुहोस्..."
 
 #: ../gnome-panel/panel-run-dialog.ui.h:9
 msgid "Select this box to run the command in a terminal window."
-msgstr "टर्मिनल सञ्झ्यालमा आदेश चलाउन यस बाकसलाई चयन गर्नुहोस् ।"
+msgstr "टर्मिनल विन्डोमा आदेश चलाउन यस बाकसलाई चयन गर्नुहोस् ।"
 
 #: ../gnome-panel/panel-run-dialog.ui.h:10
 msgid "Show list of known _applications"
-msgstr "परिचित अनुप्रयोगको सूची देखाउनुहोस्"
+msgstr "परिचित सफ्टवेयर को सूची देखाउनुहोस्"
 
 #: ../gnome-panel/panel-run-dialog.ui.h:11
 msgid "The icon of the command to be run."
@@ -3185,7 +3185,7 @@ msgid ""
 "navigating between panels."
 msgstr ""
 "यो मानिसले पढ्न सक्ने नाम हो जसलाई तपाईँले प्यानल पहिचान गर्न प्रयोग गर्न "
-"सक्नुहुन्छ । यसको मुख्य उद्देश्य प्यानलको सञ्झ्याललाई शीर्षकका रूपमा कार्य "
+"सक्नुहुन्छ । यसको मुख्य उद्देश्य प्यानलको विन्डोलाई शीर्षकका रूपमा कार्य "
 "गर्नु हो जुन प्यानल बीचमा नभिगेसन गर्दा उपयोगी हुन्छ ।"
 
 #: ../gnome-panel/panel-toplevel.schemas.in.h:46

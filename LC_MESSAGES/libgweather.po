@@ -12,20 +12,22 @@
 # Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 # Mahesh Subedi <submanesh@hotmail.com>, 2006.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
-#
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-applets.gnome-2-14.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-09 11:06+0000\n"
-"PO-Revision-Date: 2010-02-09 19:19+0000\n"
-"Last-Translator: Mahesh Subedi <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-13 02:05+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-20 23:56+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -117,17 +119,17 @@ msgstr "पूर्वनिर्धारित"
 #. translators: Kelvin
 #: ../libgweather/gweather-prefs.c:36
 msgid "K"
-msgstr ""
+msgstr "केल्भिन"
 
 #. translators: Celsius
 #: ../libgweather/gweather-prefs.c:38
 msgid "C"
-msgstr ""
+msgstr "सेल्सियस"
 
 #. translators: Fahrenheit
 #: ../libgweather/gweather-prefs.c:40
 msgid "F"
-msgstr ""
+msgstr "फेरेनहाइट"
 
 #. translators: meters per second
 #: ../libgweather/gweather-prefs.c:47
@@ -187,7 +189,7 @@ msgstr "atm"
 #. translators: meters
 #: ../libgweather/gweather-prefs.c:79
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #. translators: kilometers
 #: ../libgweather/gweather-prefs.c:81
@@ -197,7 +199,7 @@ msgstr "km"
 #. translators: miles
 #: ../libgweather/gweather-prefs.c:83
 msgid "mi"
-msgstr ""
+msgstr "माइल"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
@@ -210,7 +212,7 @@ msgstr "C"
 #. "mph" (miles per hour) and "knots"
 #: ../libgweather/gweather-prefs.c:141 ../libgweather/gweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
-msgstr "DEFAULT_SPEED_UNIT"
+msgstr "m/s"
 
 #. TRANSLATOR: This is the default unit to use for atmospheric pressure.
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
@@ -218,17 +220,17 @@ msgstr "DEFAULT_SPEED_UNIT"
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
 #: ../libgweather/gweather-prefs.c:183 ../libgweather/gweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
-msgstr "DEFAULT_PRESSURE_UNIT"
+msgstr "atm"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
 #: ../libgweather/gweather-prefs.c:224 ../libgweather/gweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
-msgstr "DEFAULT_DISTANCE_UNIT"
+msgstr "m"
 
 #: ../libgweather/gweather-timezone.c:322
 msgid "Greenwich Mean Time"
-msgstr ""
+msgstr "ग्रीनवीच मध्यमान समय"
 
 #: ../libgweather/gweather.schemas.in.h:1
 msgid ""
@@ -246,8 +248,7 @@ msgstr ""
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"एप्लेट स्वचालित मौसम तथ्याङ्कसंगअध्यावधिक हुन्छ कि हुँदैन निर्धारण गर्छ"
+msgstr "एप्लेट स्वचालित मौसम तथ्याङ्कसंगअध्यावधिक हुन्छ कि हुँदैन निर्धारण गर्छ"
 
 #: ../libgweather/gweather.schemas.in.h:9
 msgid "Display radar map"
@@ -281,7 +282,7 @@ msgstr ""
 
 #: ../libgweather/gweather.schemas.in.h:15
 msgid "Nearby city"
-msgstr ""
+msgstr "नजिकैको सहर"
 
 #: ../libgweather/gweather.schemas.in.h:16
 msgid ""
@@ -363,7 +364,7 @@ msgstr "अङ्ग्रेजी एकाइहरुको सट्टा 
 
 #: ../libgweather/gweather.schemas.in.h:35
 msgid "Weather for a city"
-msgstr ""
+msgstr "सहरको हावापानी"
 
 #: ../libgweather/gweather.schemas.in.h:36
 msgid "Weather location information"
@@ -380,13 +381,13 @@ msgstr ""
 #: ../libgweather/timezone-menu.c:277
 msgctxt "timezone"
 msgid "Unknown"
-msgstr ""
+msgstr "अज्ञात"
 
 #. Translators: %d is an error code, and %s the error string
 #: ../libgweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr ""
+msgstr "METAR डेटा पाउन असफल: %d %s ।\n"
 
 #: ../libgweather/weather-metar.c:548
 msgid "WeatherInfo missing location"

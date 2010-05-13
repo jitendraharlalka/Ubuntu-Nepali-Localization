@@ -91,14 +91,14 @@ msgstr ""
 
 #: kde2/config/config.cpp:63
 msgid "Draw g&rab bar below windows"
-msgstr "सञ्झ्याल मुनि प्राप्त बार कोर्नुहोस्"
+msgstr "विन्डो मुनि प्राप्त बार कोर्नुहोस्"
 
 #: kde2/config/config.cpp:65
 msgid ""
 "When selected, decorations are drawn with a \"grab bar\" below windows; "
 "otherwise, no grab bar is drawn."
 msgstr ""
-"चयन गर्दा, सञ्झ्याल मुनि \"बार प्राप्त गर्नुहोस्\" सँग सजावटहरू कोरिएका "
+"चयन गर्दा, विन्डो मुनि \"बार प्राप्त गर्नुहोस्\" सँग सजावटहरू कोरिएका "
 "हुन्छन्; अन्यथा कुनै प्राप्त बार कोरिदैन ।"
 
 #: kde2/config/config.cpp:71
@@ -119,14 +119,14 @@ msgstr "KDE 2"
 
 #: b2/config/config.cpp:59 quartz/config/config.cpp:56
 msgid "Draw window frames using &titlebar colors"
-msgstr "शीर्षकपट्टी रङ प्रयोग गरेर सञ्झ्याल फ्रेम कोर्नुहोस्"
+msgstr "शीर्षकपट्टी रङ प्रयोग गरेर विन्डो फ्रेम कोर्नुहोस्"
 
 #: b2/config/config.cpp:61
 msgid ""
 "When selected, the window borders are drawn using the titlebar colors; "
 "otherwise, they are drawn using normal border colors."
 msgstr ""
-"चयन गर्दा, सञ्झ्याल किनारा शीर्षकपट्टी रङ प्रयोग गरेर कोरिन्छन्; अन्यथा, "
+"चयन गर्दा, विन्डो किनारा शीर्षकपट्टी रङ प्रयोग गरेर कोरिन्छन्; अन्यथा, "
 "तिनीहरू सामान्य किनारा रङ प्रयोग गरेर कोरिन्छन् ।"
 
 #: b2/config/config.cpp:67
@@ -138,7 +138,7 @@ msgid ""
 "When selected, decorations are drawn with a \"grab handle\" in the bottom "
 "right corner of the windows; otherwise, no grab handle is drawn."
 msgstr ""
-"चयन गर्दा, सञ्झ्यालहरूको तल दायाँ कुनामा \"ह्यान्डल प्राप्त गर्नुहोस्\" सँग "
+"चयन गर्दा, विन्डोहरूको तल दायाँ कुनामा \"ह्यान्डल प्राप्त गर्नुहोस्\" सँग "
 "सजावटहरू कोरिन्छन्; अन्यथा प्राप्त ह्यान्डल कोरिदैन ।"
 
 #: b2/config/config.cpp:75
@@ -165,15 +165,15 @@ msgstr "केही नगर्नुहोस्"
 
 #: b2/config/config.cpp:88
 msgid "Minimize Window"
-msgstr "सञ्झ्याल सानो बनाउनुहोस्"
+msgstr "विन्डो सानो बनाउनुहोस्"
 
 #: b2/config/config.cpp:89
 msgid "Shade Window"
-msgstr "सञ्झ्याललाई छायाँ लगाउनुहोस्"
+msgstr "विन्डोलाई छायाँ लगाउनुहोस्"
 
 #: b2/config/config.cpp:90
 msgid "Close Window"
-msgstr "सञ्झ्याल बन्द गर्नुहोस्"
+msgstr "विन्डो बन्द गर्नुहोस्"
 
 #: b2/config/config.cpp:93
 msgid ""
@@ -411,7 +411,7 @@ msgid ""
 "When selected, the window decoration borders are drawn using the titlebar "
 "colors; otherwise, they are drawn using normal border colors instead."
 msgstr ""
-"चयन गर्दा, शीर्षकपट्टी रङहरू प्रयोग गरेर सञ्झ्याल सजावट किनाराहरू कोरिएका "
+"चयन गर्दा, शीर्षकपट्टी रङहरू प्रयोग गरेर विन्डो सजावट किनाराहरू कोरिएका "
 "हुन्छन्; अन्यथा, यसको सट्टामा सामान्य किनारा रङहरू प्रयोग गरेर तिनीहरू "
 "कोरिएका छन् ।"
 
@@ -421,7 +421,7 @@ msgstr "क्वार्ज अतिरिक्त स्लिम"
 
 #: quartz/config/config.cpp:63
 msgid "Quartz window decorations with extra-small title bar."
-msgstr "अतिरिक्त सानो शीर्षकपट्टी सहित क्वार्ज सञ्झ्याल सजावटहरू"
+msgstr "अतिरिक्त सानो शीर्षकपट्टी सहित क्वार्ज विन्डो सजावटहरू"
 
 #: quartz/quartz.cpp:568
 msgid "Quartz"
@@ -429,7 +429,7 @@ msgstr "क्वार्ज"
 
 #: modernsystem/config/config.cpp:62
 msgid "&Show window resize handle"
-msgstr "सञ्झ्याल रिसाइज ह्यान्डल देखाउनुहोस्"
+msgstr "विन्डो रिसाइज ह्यान्डल देखाउनुहोस्"
 
 #: modernsystem/config/config.cpp:64
 msgid ""
@@ -437,9 +437,9 @@ msgid ""
 "corner. This makes window resizing easier, especially for trackballs and "
 "other mouse replacements on laptops."
 msgstr ""
-"चयन गर्दा, तल्लो दायाँ कुनामा रिसाइज ह्यान्डल सहित सबै सञ्झ्यालहरू कोरिएका "
+"चयन गर्दा, तल्लो दायाँ कुनामा रिसाइज ह्यान्डल सहित सबै विन्डोहरू कोरिएका "
 "छन् । खास गरेर ल्यापटपमा ट्रयाकबलहरू र अन्य माउस प्रतिस्थापनका लागि यसले "
-"सञ्झ्याललाई रिसाइज गर्न सजिलो बनाइदिन्छ ।"
+"विन्डोलाई रिसाइज गर्न सजिलो बनाइदिन्छ ।"
 
 #: modernsystem/config/config.cpp:78
 msgid "Here you can change the size of the resize handle."
@@ -761,7 +761,7 @@ msgstr "केरामिक"
 #. i18n: ectx: property (text), widget (QCheckBox, showAppIcons)
 #: rc.cpp:143
 msgid "Display the window &icon in the caption bubble"
-msgstr "क्याप्सन बबलमा सञ्झ्याल प्रतिमा प्रदर्शन गर्नुहोस्"
+msgstr "क्याप्सन बबलमा विन्डो प्रतिमा प्रदर्शन गर्नुहोस्"
 
 #. i18n: file: keramik/config/keramikconfig.ui:25
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showAppIcons)
@@ -770,14 +770,14 @@ msgid ""
 "Check this option if you want the window icon to be displayed in the caption "
 "bubble next to the titlebar text."
 msgstr ""
-"यदि तपाईँ शीर्षकपट्टी पाठको पछिल्लो क्याप्सन बबलमा सञ्झ्याल प्रतिमा प्रदर्शन "
+"यदि तपाईँ शीर्षकपट्टी पाठको पछिल्लो क्याप्सन बबलमा विन्डो प्रतिमा प्रदर्शन "
 "गर्न चाहनुहुन्छ भने यो विकल्प चिनो लगाउनुहोस् ।"
 
 #. i18n: file: keramik/config/keramikconfig.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, smallCaptions)
 #: rc.cpp:149
 msgid "Draw &small caption bubbles on active windows"
-msgstr "सक्रिय सञ्झ्यालमा सानो क्याप्सन बबल कोर्नुहोस्"
+msgstr "सक्रिय विन्डोमा सानो क्याप्सन बबल कोर्नुहोस्"
 
 #. i18n: file: keramik/config/keramikconfig.ui:35
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, smallCaptions)
@@ -788,16 +788,16 @@ msgid ""
 "laptops or low resolution displays where you want maximize the amount of "
 "space available to the window contents."
 msgstr ""
-"निस्क्रिय सञ्झ्यालमा भएजस्तै सक्रिय सञ्झ्यालमा उही साइजको क्याप्स बबल बनाउन "
+"निस्क्रिय विन्डोमा भएजस्तै सक्रिय विन्डोमा उही साइजको क्याप्स बबल बनाउन "
 "चाहनुहुन्छ भने यो विकल्प चिनो लगाउनुहोस् । यो विकल्प ल्यापटपहरू वा कम "
-"रिजोल्युसन प्रदर्शनहरूका लागि उपयुक्त हुनेछ जहाँ सञ्झ्याल सामग्रीहरूमा "
+"रिजोल्युसन प्रदर्शनहरूका लागि उपयुक्त हुनेछ जहाँ विन्डो सामग्रीहरूमा "
 "उपलब्ध खाली स्थानको मात्रा बढाउन चाहनुहुन्छ ।"
 
 #. i18n: file: keramik/config/keramikconfig.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, largeGrabBars)
 #: rc.cpp:155
 msgid "Draw g&rab bars below windows"
-msgstr "सञ्झ्याल मुनि प्राप्त पट्टी कोर्नुहोस्"
+msgstr "विन्डो मुनि प्राप्त पट्टी कोर्नुहोस्"
 
 #. i18n: file: keramik/config/keramikconfig.ui:45
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, largeGrabBars)
@@ -806,7 +806,7 @@ msgid ""
 "Check this option if you want a grab bar to be drawn below windows. When "
 "this option is not selected only a thin border will be drawn in its place."
 msgstr ""
-"यदि तपाईँ सञ्झ्याल मुनि प्राप्त बार कोर्न चाहनुहुन्छ भने यो विकल्प चिनो "
+"यदि तपाईँ विन्डो मुनि प्राप्त बार कोर्न चाहनुहुन्छ भने यो विकल्प चिनो "
 "गर्नुहोस् । यदि यो विकल्प चयन भएन भने यसको ठाउँमा पातलो किनारा मात्र कोरिनेछ "
 "।"
 
@@ -851,7 +851,7 @@ msgid ""
 "Check this option if the window border should be painted in the titlebar "
 "color. Otherwise it will be painted in the background color."
 msgstr ""
-"यदि सञ्झ्याल किनारा शीर्षकपट्टी रङमा रङ्गाइने भए यो विकल्प चिनो लगाउनुहोस् । "
+"यदि विन्डो किनारा शीर्षकपट्टी रङमा रङ्गाइने भए यो विकल्प चिनो लगाउनुहोस् । "
 "अन्यथा यो पृष्ठभूमि रङमा रङ्गाइनेछ ।"
 
 #. i18n: file: plastik/config/configdialog.ui:56
@@ -883,14 +883,14 @@ msgid ""
 "Check this option if you want windows to be closed when you double click the "
 "menu button, similar to Microsoft Windows."
 msgstr ""
-"यदि तपाईँ माइक्रोसफ्ट सञ्झ्यालहरूमा जस्तै, मेनु बटनमा डबल क्लिक गर्दा "
-"सञ्झ्यालहरू बन्द गर्न चाहनुहुन्छ भने यो विकल्प चिनो लगाउनुहोस् ।"
+"यदि तपाईँ माइक्रोसफ्ट विन्डोहरूमा जस्तै, मेनु बटनमा डबल क्लिक गर्दा "
+"विन्डोहरू बन्द गर्न चाहनुहुन्छ भने यो विकल्प चिनो लगाउनुहोस् ।"
 
 #. i18n: file: plastik/config/configdialog.ui:89
 #. i18n: ectx: property (text), widget (QCheckBox, menuClose)
 #: rc.cpp:203
 msgid "Close windows by double clicking the menu button"
-msgstr "मेनु बटनमा डबल क्लिक गरेर सञ्झ्यालहरू बन्द गर्नुहोस्"
+msgstr "मेनु बटनमा डबल क्लिक गरेर विन्डोहरू बन्द गर्नुहोस्"
 
 #. i18n: file: tabstrip/config/tabstripconfig.ui:26
 #. i18n: ectx: property (text), widget (QRadioButton, left)

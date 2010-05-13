@@ -472,22 +472,22 @@ msgstr ""
 #: ../data/gedit.schemas.in.in.h:83
 msgid ""
 "Whether the bottom panel at the bottom of editing windows should be visible."
-msgstr "सम्पादन सञ्झ्यालको तलतिर बटम प्यानल दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
+msgstr "सम्पादन विन्डोको तलतिर बटम प्यानल दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
 
 #: ../data/gedit.schemas.in.in.h:84
 msgid ""
 "Whether the side pane at the left of the editing window should be visible."
-msgstr "सम्पादन सञ्झ्यालको वायाँमा छेउ फलक दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
+msgstr "सम्पादन विन्डोको वायाँमा छेउ फलक दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
 
 #: ../data/gedit.schemas.in.in.h:85
 msgid ""
 "Whether the status bar at the bottom of editing windows should be visible."
 msgstr ""
-"सम्पादन सञ्झ्यालको तलतिर वस्तुस्थिति पट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
+"सम्पादन विन्डोको तलतिर वस्तुस्थिति पट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
 
 #: ../data/gedit.schemas.in.in.h:86
 msgid "Whether the toolbar should be visible in editing windows."
-msgstr "सम्पादन सञ्झ्यालमा उपकरणपट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
+msgstr "सम्पादन विन्डोमा उपकरणपट्टी दृश्यात्मक हुनुपर्दछ या पर्दैन ।"
 
 #: ../data/gedit.schemas.in.in.h:87
 msgid ""
@@ -960,7 +960,7 @@ msgstr "सङ्केतन विकल्पका लागि सम्भ
 #: ../gedit/gedit.c:132
 msgid "Create a new toplevel window in an existing instance of gedit"
 msgstr ""
-"कापीको एउटा अवस्थित दृष्टान्तमा एउटा नयाँ माथिल्लो तहको सञ्झ्याल सिर्जना "
+"कापीको एउटा अवस्थित दृष्टान्तमा एउटा नयाँ माथिल्लो तहको विन्डो सिर्जना "
 "गर्नुहोस्"
 
 #: ../gedit/gedit.c:135
@@ -1512,7 +1512,7 @@ msgstr ""
 #: ../gedit/gedit-io-error-message-area.c:839
 #, c-format
 msgid "This file (%s) is already open in another gedit window."
-msgstr "यो फाइल (%s) अर्को कापी सञ्झ्यालमा पहिल्यै खोलिएको छ ।"
+msgstr "यो फाइल (%s) अर्को कापी विन्डोमा पहिल्यै खोलिएको छ ।"
 
 #: ../gedit/gedit-io-error-message-area.c:853
 msgid ""
@@ -2011,7 +2011,7 @@ msgstr "प्राथमिकताहरू"
 
 #: ../gedit/gedit-ui.h:64
 msgid "Configure the application"
-msgstr "यो अनुप्रयोग कन्फिगर गर्नुहोस्"
+msgstr "यो सफ्टवेयर  कन्फिगर गर्नुहोस्"
 
 #. Help menu
 #: ../gedit/gedit-ui.h:67
@@ -2199,11 +2199,11 @@ msgstr "पछिल्लो फाइल सक्रिय पार्नु
 
 #: ../gedit/gedit-ui.h:145
 msgid "_Move to New Window"
-msgstr "नयाँ सञ्झ्यालमा सार्नुहोस्"
+msgstr "नयाँ विन्डोमा सार्नुहोस्"
 
 #: ../gedit/gedit-ui.h:146
 msgid "Move the current document to a new window"
-msgstr "हालको कागजात नयाँ सञ्झ्यालमा सार्नुहोस्"
+msgstr "हालको कागजात नयाँ विन्डोमा सार्नुहोस्"
 
 #: ../gedit/gedit-ui.h:153
 msgid "Close the current file"
@@ -2219,7 +2219,7 @@ msgstr "उपकरण पट्टी"
 
 #: ../gedit/gedit-ui.h:166
 msgid "Show or hide the toolbar in the current window"
-msgstr "हालको सञ्झ्यालमा उपकरण पट्टी देखाउनुहोस् वा लुकाउनुहोस्"
+msgstr "हालको विन्डोमा उपकरण पट्टी देखाउनुहोस् वा लुकाउनुहोस्"
 
 #: ../gedit/gedit-ui.h:168
 msgid "_Statusbar"
@@ -2227,7 +2227,7 @@ msgstr "वस्तुस्थिति पट्टी"
 
 #: ../gedit/gedit-ui.h:169
 msgid "Show or hide the statusbar in the current window"
-msgstr "हालको सञ्झ्यालमा वस्तुस्थिति पट्टी देखाउनुहोस् वा लुकाउनुहोस्"
+msgstr "हालको विन्डोमा वस्तुस्थिति पट्टी देखाउनुहोस् वा लुकाउनुहोस्"
 
 #: ../gedit/gedit-ui.h:172
 msgid "Edit text at fullscreen"
@@ -2239,7 +2239,7 @@ msgstr "छेउ फलक"
 
 #: ../gedit/gedit-ui.h:180
 msgid "Show or hide the side pane in the current window"
-msgstr "हालको सञ्झ्यालमा छेउ फलक देखाउनुहोस् वा लुकाउनुहोस्"
+msgstr "हालको विन्डोमा छेउ फलक देखाउनुहोस् वा लुकाउनुहोस्"
 
 #: ../gedit/gedit-ui.h:182
 msgid "_Bottom Pane"
@@ -2247,7 +2247,7 @@ msgstr "तलको फलक"
 
 #: ../gedit/gedit-ui.h:183
 msgid "Show or hide the bottom pane in the current window"
-msgstr "हालको सञ्झ्यालमा तलको फलक देखाउनुहोस् वा लुकाउनुहोस्"
+msgstr "हालको विन्डोमा तलको फलक देखाउनुहोस् वा लुकाउनुहोस्"
 
 #: ../gedit/gedit-utils.c:1071
 msgid "Please check your installation."

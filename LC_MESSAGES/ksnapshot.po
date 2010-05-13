@@ -19,7 +19,7 @@ msgstr ""
 #: ksnapshot_options.h:30
 msgid ""
 "Captures the window under the mouse on startup (instead of the desktop)"
-msgstr "(डेस्कटपको सट्टा) सुरुआतमा माउस रहेको सञ्झ्याल क्यापचर गर्दछ"
+msgstr "(डेस्कटपको सट्टा) सुरुआतमा माउस रहेको विन्डो क्यापचर गर्दछ"
 
 #: ksnapshot_options.h:31
 msgid "Captures the desktop"
@@ -186,7 +186,7 @@ msgid ""
 msgstr ""
 "यो हालको स्न्यापसटको पूर्वावलोकन हो ।\n"
 "\n"
-"त्यहाँ पूरा स्क्रिनसट प्रतिलिपि गर्न छवि अर्को अनुप्रयोग वा कागजातमा तान्न "
+"त्यहाँ पूरा स्क्रिनसट प्रतिलिपि गर्न छवि अर्को सफ्टवेयर  वा कागजातमा तान्न "
 "सकिन्छ । यसलाई कन्क्वेरर फाइल प्रबन्धकसँग प्रयास गर्नुहोस् ।\n"
 "\n"
 "तपाईँले Ctrl+C थिचेर क्लिपबोर्डमा छवि प्रतिलिपि गर्न सक्नुहुन्छ ।"
@@ -238,13 +238,13 @@ msgstr "क्याप्चर मोड:"
 msgid ""
 "When enabled, snapshot of a window will also include the window decorations"
 msgstr ""
-"सक्षम पार्दा, सञ्झ्यालको स्न्यापसटले पनि सञ्झ्याल सजावट समावेश गर्नेछ"
+"सक्षम पार्दा, विन्डोको स्न्यापसटले पनि विन्डो सजावट समावेश गर्नेछ"
 
 #. i18n: file: ksnapshotwidget.ui:117
 #. i18n: ectx: property (text), widget (QCheckBox, cbIncludeDecorations)
 #: rc.cpp:35
 msgid "Include &window decorations"
-msgstr "सञ्झ्याल सजावट समावेश गर्नुहोस्"
+msgstr "विन्डो सजावट समावेश गर्नुहोस्"
 
 #. i18n: file: ksnapshotwidget.ui:134
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboMode)
@@ -276,7 +276,7 @@ msgstr "पूरा पर्दा"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
 #: rc.cpp:51
 msgid "Window Under Cursor"
-msgstr "कर्सर रहेको सञ्झ्याल"
+msgstr "कर्सर रहेको विन्डो"
 
 #. i18n: file: ksnapshotwidget.ui:148
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
@@ -288,7 +288,7 @@ msgstr "क्षेत्र"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
 #: rc.cpp:57
 msgid "Section of Window"
-msgstr "सञ्झ्यालको खण्ड"
+msgstr "विन्डोको खण्ड"
 
 #. i18n: file: ksnapshotwidget.ui:158
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)

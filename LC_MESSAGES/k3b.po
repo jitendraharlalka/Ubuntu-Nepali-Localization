@@ -390,7 +390,7 @@ msgstr "तयारीकर्ता आईडी:"
 
 #: misc/k3bimagewritingdialog.cpp:720 k3bdiskinfoview.cpp:373
 msgid "Application Id:"
-msgstr "अनुप्रयोग आईडी:"
+msgstr "सफ्टवेयर  आईडी:"
 
 #: misc/k3bimagewritingdialog.cpp:744 misc/k3bimagewritingdialog.cpp:772
 msgid "Image file:"
@@ -2219,7 +2219,7 @@ msgstr ""
 
 #: k3b.cpp:429
 msgid "Quits the application"
-msgstr "अनुप्रयोग अन्त्य गर्दछ"
+msgstr "सफ्टवेयर  अन्त्य गर्दछ"
 
 #: k3b.cpp:430
 msgid "Configure K3b settings"
@@ -2434,9 +2434,9 @@ msgid ""
 msgstr ""
 "<p> K3b ले वास्तविक रूपमा सीडी वा डीभीडी लेख्न आदेश रेखा उपकरण cdrecord, "
 "growisofs, र cdrdao प्रयोग गर्दछ । <p> सामान्य रूपमा K3b ले स्वचालित रूपमा "
-"हरेक कार्यका लागि उत्तम सुइटेड अनुप्रयोग छनौट गर्दछ तर केही केसहरूमा "
-"अनुप्रयोग मध्ये एउटाले निश्चित राइटरले चाहे अनुरूप कार्य नगर्न सक्छ भन्ने "
-"सम्भव हुन सक्छ । यो केसमा एउटाले अनुप्रयोग म्यानुअल तरिकाले चयन गर्न सक्छ ।"
+"हरेक कार्यका लागि उत्तम सुइटेड सफ्टवेयर  छनौट गर्दछ तर केही केसहरूमा "
+"सफ्टवेयर  मध्ये एउटाले निश्चित राइटरले चाहे अनुरूप कार्य नगर्न सक्छ भन्ने "
+"सम्भव हुन सक्छ । यो केसमा एउटाले सफ्टवेयर  म्यानुअल तरिकाले चयन गर्न सक्छ ।"
 
 #: k3bwriterselectionwidget.cpp:274 projects/k3bdataurladdingdialog.cpp:412
 #: projects/k3bdataurladdingdialog.cpp:639
@@ -3973,7 +3973,7 @@ msgstr "प्रणाली:"
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
 #: rc.cpp:795
 msgid "&Application:"
-msgstr "अनुप्रयोग:"
+msgstr "सफ्टवेयर :"
 
 #. i18n: file: projects/base_k3bdatavolumedescwidget.ui:244
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonFindBiblio)
@@ -4303,7 +4303,7 @@ msgid ""
 "always stays on top of all other windows."
 msgstr ""
 "<p> यदि यो विकल्प जाँच गरियो भने K3b ले एउटा ओएसडीमा प्रगति प्रदर्शन गर्नेछ "
-"जुन जहिले पनि सबै अन्य सञ्झ्यालमा बस्दछ ।"
+"जुन जहिले पनि सबै अन्य विन्डोमा बस्दछ ।"
 
 #. i18n: file: option/base_k3bmiscoptiontab.ui:94
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkShowProgressOSD)
@@ -4315,7 +4315,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
 #: rc.cpp:989
 msgid "Hide the main window while displaying the progress window"
-msgstr "प्रगति सञ्झ्याल प्रदर्शन गर्दा मुख्य सञ्झ्याल लुकाउनुहोस्"
+msgstr "प्रगति विन्डो प्रदर्शन गर्दा मुख्य विन्डो लुकाउनुहोस्"
 
 #. i18n: file: option/base_k3bmiscoptiontab.ui:104
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
@@ -4325,7 +4325,7 @@ msgid ""
 "the progress dialog."
 msgstr ""
 "<p> यदि यो विकल्प जाँच गरियो भने प्रगति संवाद प्रदर्शन गर्दा K3b ले मुख्य "
-"सञ्झ्याल लुकाउनेछ ।"
+"विन्डो लुकाउनेछ ।"
 
 #. i18n: file: option/base_k3bmiscoptiontab.ui:107
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
@@ -6967,7 +6967,7 @@ msgstr "एल्बम सेटमा भोल्युमको सङ्ख
 #: projects/k3bvcdburndialog.cpp:114
 msgid "Enable CD-i Application Support for VideoCD Type 1.1 & 2.0"
 msgstr ""
-"भिडियो सीडी प्रकार १.१ र २.० का लागि CD-i अनुप्रयोग समर्थन सक्षम पार्नुहोस्"
+"भिडियो सीडी प्रकार १.१ र २.० का लागि CD-i सफ्टवेयर  समर्थन सक्षम पार्नुहोस्"
 
 #: projects/k3bvcdburndialog.cpp:115
 msgid "Configuration parameters (only for VCD 2.0)"
@@ -7223,7 +7223,7 @@ msgid ""
 msgstr ""
 "<p>भिडियो सीडी २.० का लागि मात्र उपलब्ध भएको कन्फिगरेसन परिमिति<p>यस "
 "प्रकारले प्रयोग गर्दा इञ्जिनले उचित रूपमा कार्य गर्दछ ।<p>तपाईँसँग भीसीडी "
-"अनुप्रयोग कन्फिगर गर्ने विकल्प छ ।<p>तपाईँ कर्सरको रङ र/वा आकार समायोजन र "
+"सफ्टवेयर  कन्फिगर गर्ने विकल्प छ ।<p>तपाईँ कर्सरको रङ र/वा आकार समायोजन र "
 "अरू धेरै गर्न सक्नुहुन्छ ।"
 
 #: projects/k3bvcdburndialog.cpp:209
@@ -7448,11 +7448,11 @@ msgstr "प्रणाली:"
 
 #: projects/k3bvcdburndialog.cpp:457
 msgid "Application:"
-msgstr "अनुप्रयोग:"
+msgstr "सफ्टवेयर :"
 
 #: projects/k3bvcdburndialog.cpp:466
 msgid "ISO application id for VideoCD"
-msgstr "भिडियो सीडीका लागि ISO अनुप्रयोग आईडी"
+msgstr "भिडियो सीडीका लागि ISO सफ्टवेयर  आईडी"
 
 #: projects/k3bvcdburndialog.cpp:471
 msgid "Volume &set name:"
@@ -7915,7 +7915,7 @@ msgid ""
 msgstr ""
 "<p>यन्त्र र फाइल ट्रीमा तपाईँको यन्त्रको बायाँपट्टि एउटा क्लिक गर्नुहोस् र "
 "के भयो हेर्नुहोस् । K3b ले मिडियाको सामाग्रीमा\n"
-"आधारित विशेष सञ्झ्याल खोल्दछ । उदाहरणका लागि एउटा अडियोको लागि तपाईँलाई K3b "
+"आधारित विशेष विन्डो खोल्दछ । उदाहरणका लागि एउटा अडियोको लागि तपाईँलाई K3b "
 "(जस्तै mp3 वा अग-भर्विस) द्वारा\n"
 "समर्थन गरिएको कुनै ढाँचामा यी ट्रयाक रिप गर्न सम्भाव्यतासँग ट्रयाकको सूची "
 "दिनेछ ।</p>\n"

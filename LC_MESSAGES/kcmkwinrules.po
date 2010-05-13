@@ -27,7 +27,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, type)
 #: detectwidget.cpp:98 rc.cpp:125 rc.cpp:667 rc.cpp:932 rc.cpp:1474
 msgid "Normal Window"
-msgstr "सामान्य सञ्झ्याल"
+msgstr "सामान्य विन्डो"
 
 #. i18n: file: ruleswidgetbase.ui:316
 #. i18n: ectx: property (text), item, widget (QListWidget, types)
@@ -87,7 +87,7 @@ msgstr "Torn-Off मेनु"
 #. i18n: ectx: property (text), item, widget (KComboBox, type)
 #: detectwidget.cpp:103 rc.cpp:128 rc.cpp:670 rc.cpp:935 rc.cpp:1477
 msgid "Dialog Window"
-msgstr "संवाद सञ्झ्याल"
+msgstr "संवाद विन्डो"
 
 #. i18n: file: ruleswidgetbase.ui:321
 #. i18n: ectx: property (text), item, widget (QListWidget, types)
@@ -123,7 +123,7 @@ msgstr "स्ट्यान्डअलोन मेनुपट्टी"
 #. i18n: ectx: property (text), item, widget (KComboBox, type)
 #: detectwidget.cpp:106 rc.cpp:131 rc.cpp:673 rc.cpp:938 rc.cpp:1480
 msgid "Utility Window"
-msgstr "युटिलिटी सञ्झ्याल"
+msgstr "युटिलिटी विन्डो"
 
 #. i18n: file: ruleswidgetbase.ui:311
 #. i18n: ectx: property (text), item, widget (QListWidget, types)
@@ -139,7 +139,7 @@ msgstr "स्प्लास पर्दा"
 
 #: detectwidget.cpp:117
 msgid "Unknown - will be treated as Normal Window"
-msgstr "अज्ञातलाई सामान्य सञ्झ्यालको रुपमा व्यवहार गरिनेछ"
+msgstr "अज्ञातलाई सामान्य विन्डोको रुपमा व्यवहार गरिनेछ"
 
 #: kcm.cpp:52
 msgid "kcmkwinrules"
@@ -147,7 +147,7 @@ msgstr "kcmkwinrules"
 
 #: kcm.cpp:53
 msgid "Window-Specific Settings Configuration Module"
-msgstr "सञ्झ्याल निर्दिष्ट सेटिङ कन्फिगरेसन मोड्युल"
+msgstr "विन्डो निर्दिष्ट सेटिङ कन्फिगरेसन मोड्युल"
 
 #: kcm.cpp:54
 msgid "(c) 2004 KWin and KControl Authors"
@@ -165,16 +165,16 @@ msgid ""
 "manager. If you do use a different window manager, please refer to its "
 "documentation for how to customize window behavior.</p>"
 msgstr ""
-"<p><h1>सञ्झ्याल निर्दिष्ट सेटिङ</h1> यहाँ तपाईँले विशेष रुपले केही "
-"सञ्झ्यालमा मात्र सञ्झ्याल सेटिङ अनुकूल गर्न सक्नुहुन्छ ।</p> <p>कृपया याद "
-"गर्नुहोस् यदि तपाईँले केडीई विन सञ्झ्याल प्रबन्धकको रुपमा प्रयोग गर्नुहुदैन "
-"भने यो कन्फिगरेसनले प्रभाव लिने छैन । तपाईँले फरक सञ्झ्याल प्रबन्धक प्रयोग "
-"गर्नुहुन्छ भने, कृपया सञ्झ्याल व्यवहार कसरी गर्ने अनुकूल गर्नका लागि यसको "
+"<p><h1>विन्डो निर्दिष्ट सेटिङ</h1> यहाँ तपाईँले विशेष रुपले केही "
+"विन्डोमा मात्र विन्डो सेटिङ अनुकूल गर्न सक्नुहुन्छ ।</p> <p>कृपया याद "
+"गर्नुहोस् यदि तपाईँले केडीई विन विन्डो प्रबन्धकको रुपमा प्रयोग गर्नुहुदैन "
+"भने यो कन्फिगरेसनले प्रभाव लिने छैन । तपाईँले फरक विन्डो प्रबन्धक प्रयोग "
+"गर्नुहुन्छ भने, कृपया विन्डो व्यवहार कसरी गर्ने अनुकूल गर्नका लागि यसको "
 "मिसिलिकरणमा सोध्नुहोस् ।</p>"
 
 #: kcm.cpp:102
 msgid "Remember settings separately for every window"
-msgstr "प्रत्येक सञ्झ्यालका लागि सेटिङ फरक तरिकाले सम्झनुहोस्"
+msgstr "प्रत्येक विन्डोका लागि सेटिङ फरक तरिकाले सम्झनुहोस्"
 
 #: kcm.cpp:103
 msgid "Show internal settings for remembering"
@@ -187,12 +187,12 @@ msgstr "सम्झनका लागि आन्तरिक सेटिङ
 #: main.cpp:153
 #, kde-format
 msgid "Application settings for %1"
-msgstr "%1 का लागि अनुप्रयोग सेटिङ"
+msgstr "%1 का लागि सफ्टवेयर  सेटिङ"
 
 #: main.cpp:177
 #, kde-format
 msgid "Window settings for %1"
-msgstr "%1 का लागि सञ्झ्याल सेटिङ"
+msgstr "%1 का लागि विन्डो सेटिङ"
 
 #: main.cpp:270
 msgid "KWin"
@@ -204,11 +204,11 @@ msgstr "केडीई विन मद्दत युटिलिटी"
 
 #: main.cpp:274
 msgid "WId of the window for special window settings."
-msgstr "विशेष सञ्झ्याल सेटिङका लागि सञ्झ्यालको WId"
+msgstr "विशेष विन्डो सेटिङका लागि विन्डोको WId"
 
 #: main.cpp:275
 msgid "Whether the settings should affect all windows of the application."
-msgstr "सेटिङले अनुप्रयोगको सबै सञ्झ्याललाई असर गर्छ या गर्दैन ।"
+msgstr "सेटिङले सफ्टवेयर को सबै विन्डोलाई असर गर्छ या गर्दैन ।"
 
 #: main.cpp:285
 msgid "This helper utility is not supposed to be called directly."
@@ -218,7 +218,7 @@ msgstr "यो मद्दत युटिलिटीलाई प्रत्
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
 #: rc.cpp:3 rc.cpp:810
 msgid "Information About Selected Window"
-msgstr "चयन गरेको सञ्झ्यालका बारेमा सूचना"
+msgstr "चयन गरेको विन्डोका बारेमा सूचना"
 
 #. i18n: file: detectwidget.ui:36
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -269,14 +269,14 @@ msgid ""
 "For selecting all windows belonging to a specific application, selecting "
 "only window class should usually work."
 msgstr ""
-"निर्दिष्ट अनुप्रयोगमा स्वामित्व हुने सबै सञ्झ्याल चयन गर्नका लागि, सञ्झ्याल "
+"निर्दिष्ट सफ्टवेयर मा स्वामित्व हुने सबै विन्डो चयन गर्नका लागि, विन्डो "
 "वर्ग चयनले मात्र सधैँ कार्य गर्छ ।"
 
 #. i18n: file: detectwidget.ui:162
 #. i18n: ectx: property (text), widget (QRadioButton, use_class)
 #: rc.cpp:27 rc.cpp:834
 msgid "Use window &class (whole application)"
-msgstr "सञ्झ्याल वर्ग प्रयोग गर्नुहोस् (पूरा अनुप्रयोग)"
+msgstr "विन्डो वर्ग प्रयोग गर्नुहोस् (पूरा सफ्टवेयर )"
 
 #. i18n: file: detectwidget.ui:172
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, use_role)
@@ -287,17 +287,17 @@ msgid ""
 "and window role the specific window in the application; many applications do "
 "not provide useful window roles though."
 msgstr ""
-"अनुप्रयोगमा निर्दिष्ट सञ्झ्याल चयन गर्नका लागि, सञ्झ्याल वर्ग र सञ्झ्याल "
-"भूमिका दुवै चयन गरिएको हुनुपर्छ । अनुप्रयोगमा सञ्झ्याल वर्गले अनुप्रयोग र "
-"सञ्झ्याल निर्दिष्ट सञ्झ्याल भूमिका निर्धारण गर्नेछ; यसबाट धेरै अनुप्रयोगले "
-"उपयोगी सञ्झ्याल भूमिका प्रदान गर्ने छैन ।"
+"सफ्टवेयर मा निर्दिष्ट विन्डो चयन गर्नका लागि, विन्डो वर्ग र विन्डो "
+"भूमिका दुवै चयन गरिएको हुनुपर्छ । सफ्टवेयर मा विन्डो वर्गले सफ्टवेयर  र "
+"विन्डो निर्दिष्ट विन्डो भूमिका निर्धारण गर्नेछ; यसबाट धेरै सफ्टवेयर ले "
+"उपयोगी विन्डो भूमिका प्रदान गर्ने छैन ।"
 
 #. i18n: file: detectwidget.ui:175
 #. i18n: ectx: property (text), widget (QRadioButton, use_role)
 #: rc.cpp:33 rc.cpp:840
 msgid "Use window class and window &role (specific window)"
 msgstr ""
-"सञ्झ्याल वर्ग र सञ्झ्याल भूमिका प्रयोग गर्नुहोस् (निर्दिष्ट सञ्झ्याल)"
+"विन्डो वर्ग र विन्डो भूमिका प्रयोग गर्नुहोस् (निर्दिष्ट विन्डो)"
 
 #. i18n: file: detectwidget.ui:182
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, use_whole_class)
@@ -307,21 +307,21 @@ msgid ""
 "selecting a specific window in an application, as they set whole window "
 "class to contain both application and window role."
 msgstr ""
-"अनुप्रयोग र सञ्झ्याल भूमिका दुबै समावेश गर्न पूरा सञ्झ्याल वर्ग सेट भए "
-"अनुरुप, अनुप्रयोगमा निर्दिष्ट सञ्झ्याल चयन गर्नका लागि केही (non-KDE) "
-"अनुप्रयोगमा पूरा सञ्झ्याल वर्ग प्रयाप्त हुन सक्छ ।"
+"सफ्टवेयर  र विन्डो भूमिका दुबै समावेश गर्न पूरा विन्डो वर्ग सेट भए "
+"अनुरुप, सफ्टवेयर मा निर्दिष्ट विन्डो चयन गर्नका लागि केही (non-KDE) "
+"सफ्टवेयर मा पूरा विन्डो वर्ग प्रयाप्त हुन सक्छ ।"
 
 #. i18n: file: detectwidget.ui:185
 #. i18n: ectx: property (text), widget (QRadioButton, use_whole_class)
 #: rc.cpp:39 rc.cpp:846
 msgid "Use &whole window class (specific window)"
-msgstr "पूरा सञ्झ्याल वर्ग प्रयोग गर्नुहोस् (निर्दिष्ट सञ्झ्याल)"
+msgstr "पूरा विन्डो वर्ग प्रयोग गर्नुहोस् (निर्दिष्ट विन्डो)"
 
 #. i18n: file: detectwidget.ui:192
 #. i18n: ectx: property (text), widget (QCheckBox, match_title)
 #: rc.cpp:42 rc.cpp:849
 msgid "Match also window &title"
-msgstr "सञ्झ्याल शीर्षक पनि मिलाउनुहोस्"
+msgstr "विन्डो शीर्षक पनि मिलाउनुहोस्"
 
 #. i18n: file: editshortcut.ui:18
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
@@ -392,7 +392,7 @@ msgstr "तल सार्नुहोस्"
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage1)
 #: rc.cpp:71 rc.cpp:878
 msgid "&Window"
-msgstr "सञ्झ्याल"
+msgstr "विन्डो"
 
 #. i18n: file: ruleswidgetbase.ui:37
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -404,13 +404,13 @@ msgstr "वर्णन:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: rc.cpp:77 rc.cpp:884
 msgid "Window &class (application type):"
-msgstr "सञ्झ्याल वर्ग (अनुप्रयोग प्रकार्य):"
+msgstr "विन्डो वर्ग (सफ्टवेयर  प्रकार्य):"
 
 #. i18n: file: ruleswidgetbase.ui:69
 #. i18n: ectx: property (text), widget (QCheckBox, whole_wmclass)
 #: rc.cpp:80 rc.cpp:887
 msgid "Match w&hole window class"
-msgstr "पूरा सञ्झ्याल वर्ग मिलाउनुहोस्"
+msgstr "पूरा विन्डो वर्ग मिलाउनुहोस्"
 
 #. i18n: file: ruleswidgetbase.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, wmclass_match)
@@ -541,7 +541,7 @@ msgstr "सम्पादन"
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:98 rc.cpp:905
 msgid "Window &role:"
-msgstr "सञ्झ्याल भूमिका:"
+msgstr "विन्डो भूमिका:"
 
 #. i18n: file: ruleswidgetbase.ui:178
 #. i18n: ectx: property (text), widget (KPushButton, detect)
@@ -553,19 +553,19 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage2)
 #: rc.cpp:119 rc.cpp:926
 msgid "Window &Extra"
-msgstr "अतिरिक्त सञ्झ्याल"
+msgstr "अतिरिक्त विन्डो"
 
 #. i18n: file: ruleswidgetbase.ui:264
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: rc.cpp:122 rc.cpp:929
 msgid "Window &types:"
-msgstr "सञ्झ्याल प्रकार:"
+msgstr "विन्डो प्रकार:"
 
 #. i18n: file: ruleswidgetbase.ui:334
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: rc.cpp:155 rc.cpp:962
 msgid "Window t&itle:"
-msgstr "सञ्झ्याल शीर्षक:"
+msgstr "विन्डो शीर्षक:"
 
 #. i18n: file: ruleswidgetbase.ui:440
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
@@ -1297,7 +1297,7 @@ msgstr "माउस तल"
 #. i18n: ectx: property (text), item, widget (KComboBox, placement)
 #: rc.cpp:404 rc.cpp:1211
 msgid "On Main Window"
-msgstr "मुख्य सञ्झ्याल"
+msgstr "मुख्य विन्डो"
 
 #. i18n: file: ruleswidgetbase.ui:1031
 #. i18n: ectx: property (text), widget (QCheckBox, enable_placement)
@@ -1437,7 +1437,7 @@ msgstr "पारदर्शी"
 #. i18n: ectx: property (text), widget (QCheckBox, enable_type)
 #: rc.cpp:703 rc.cpp:1510
 msgid "Window &type"
-msgstr "सञ्झ्याल शैली"
+msgstr "विन्डो शैली"
 
 #. i18n: file: ruleswidgetbase.ui:1848
 #. i18n: ectx: property (text), widget (QCheckBox, enable_moveresizemode)
@@ -1522,7 +1522,7 @@ msgid ""
 "Enable this checkbox to alter this window property for the specified "
 "window(s)."
 msgstr ""
-"निर्दिष्ट गरिएका सञ्झ्यालका लागि यो सञ्झ्याल विशेषता परिवर्तन गर्न यो जाँच "
+"निर्दिष्ट गरिएका विन्डोका लागि यो विन्डो विशेषता परिवर्तन गर्न यो जाँच "
 "बाकस सक्षम पार्नुहोस् ।"
 
 #: ruleswidget.cpp:59
@@ -1543,19 +1543,19 @@ msgid ""
 "until it is hidden (this action will be deleted after the window is "
 "hidden).</li></ul>"
 msgstr ""
-"कसरी सञ्झ्याल विशेषता प्रभावित हुन्छ निर्दिष्ट गर्नुहोस्:<ul><li><em>कुने "
-"प्रभाव परेन:</em> सञ्झ्याल विशेषता प्रभावित हुने छैन र त्यसैले यसको "
+"कसरी विन्डो विशेषता प्रभावित हुन्छ निर्दिष्ट गर्नुहोस्:<ul><li><em>कुने "
+"प्रभाव परेन:</em> विन्डो विशेषता प्रभावित हुने छैन र त्यसैले यसको "
 "पूर्वनिर्धारित ह्यान्डल गर्ने प्रयोग गरिने छ । यसलाई निर्दिष्ट गर्दा "
-"प्रभावले जेनेरिक बढी भएको सञ्झ्याल सेटिङ बन्द गर्नेछ ।</li><li><em>सुरुआतमा "
-"लागू गर्नुहोस्:</em> सञ्झ्याल विशेषता सञ्झ्याल सिर्जना गरिएपछि मात्र दिएको "
+"प्रभावले जेनेरिक बढी भएको विन्डो सेटिङ बन्द गर्नेछ ।</li><li><em>सुरुआतमा "
+"लागू गर्नुहोस्:</em> विन्डो विशेषता विन्डो सिर्जना गरिएपछि मात्र दिएको "
 "मानमा सेट गरिनेछ । अगाडिका परिवर्तनले प्रभाव पार्ने छैन "
-"।</li><li><em>सम्झनुहोस्:</em> सञ्झ्याल गुणको मान सम्झिने छ र हरेक समय समयमा "
-"सञ्झ्याल सिर्जना गरिने छ, अन्त्यमा सम्झिएको मान लागू गरिने छ "
-"।</li><li><em>बल:</em> सञ्झ्याल गुणले सधैँ दिएको मानमा बल गर्नेछ "
-"।</li><li><em>अहिले लागू गर्नुहोस्:</em> सञ्झ्याल विशेषता दिएको मानमा तत्काल "
+"।</li><li><em>सम्झनुहोस्:</em> विन्डो गुणको मान सम्झिने छ र हरेक समय समयमा "
+"विन्डो सिर्जना गरिने छ, अन्त्यमा सम्झिएको मान लागू गरिने छ "
+"।</li><li><em>बल:</em> विन्डो गुणले सधैँ दिएको मानमा बल गर्नेछ "
+"।</li><li><em>अहिले लागू गर्नुहोस्:</em> विन्डो विशेषता दिएको मानमा तत्काल "
 "सेट गरिने छ र पछि प्रभावित हुने छैन । (यो कार्य पछि मेटिने छ) "
-"।</li><li><em>केही समय बल गर्नुहोस् :</em> सञ्झ्याल गुणले यो नलुके सम्म "
-"दिएको मानमा बल गर्नेछ (यो कार्य सञ्झ्याल लुकाएपछि मेटिने छ) ।</li></ul>"
+"।</li><li><em>केही समय बल गर्नुहोस् :</em> विन्डो गुणले यो नलुके सम्म "
+"दिएको मानमा बल गर्नेछ (यो कार्य विन्डो लुकाएपछि मेटिने छ) ।</li></ul>"
 
 #: ruleswidget.cpp:74
 msgid ""
@@ -1568,12 +1568,12 @@ msgid ""
 "until it is hidden (this action will be deleted after the window is "
 "hidden).</li></ul>"
 msgstr ""
-"कसरी सञ्झ्याल विशेषता प्रभावित हुनेछ निर्दिष्ट गर्नुहोस्:<ul><li><em>प्रभाव "
+"कसरी विन्डो विशेषता प्रभावित हुनेछ निर्दिष्ट गर्नुहोस्:<ul><li><em>प्रभाव "
 "पार्दैन:</em> सझ्याल विशेषता प्रभावित नहुने हुनाले यसका लागि पूर्वनिर्धारित "
 "ह्यान्डलिङ प्रयोग गरिने छ । यसलाई निर्दिष्ट गर्दा प्रभावले जेनेरिक बढी भएको "
-"सञ्झ्याल सेटिङ बन्द गर्नेछ ।</li><li><em>बल:</em> सञ्झ्याल गुणले दिएको मानमा "
-"सधैँ बल गर्नेछ ।</li><li><em>केही समय बल गर्नुहोस्:</em> सञ्झ्याल गुणले यो "
-"नलुके सम्म दिएको मानमा बल गर्नेछ (यो कार्य सञ्झ्याल लुकाएपछि मेटिने छ) "
+"विन्डो सेटिङ बन्द गर्नेछ ।</li><li><em>बल:</em> विन्डो गुणले दिएको मानमा "
+"सधैँ बल गर्नेछ ।</li><li><em>केही समय बल गर्नुहोस्:</em> विन्डो गुणले यो "
+"नलुके सम्म दिएको मानमा बल गर्नेछ (यो कार्य विन्डो लुकाएपछि मेटिने छ) "
 "।</li></ul>"
 
 #: ruleswidget.cpp:121
@@ -1597,14 +1597,14 @@ msgid ""
 "recommended you at least limit the window types to avoid special window "
 "types."
 msgstr ""
-"तपाईँले महत्व नभएको रुपमा सञ्झ्याल वर्ग निर्दिष्ट गर्नुभएको छ ।\n"
-"यसको अर्थ सेटिङ सम्भवत: सबै अनुप्रयोगबाट सञ्झ्यालमा लागू गरिने छ । यदि तपाईँ "
+"तपाईँले महत्व नभएको रुपमा विन्डो वर्ग निर्दिष्ट गर्नुभएको छ ।\n"
+"यसको अर्थ सेटिङ सम्भवत: सबै सफ्टवेयर बाट विन्डोमा लागू गरिने छ । यदि तपाईँ "
 "वास्तवमै जेनेरिक सेटिङ प्रयोग गर्न चाहनुहुन्छ भने, यसले तपाईँलाई विशेष "
-"सञ्झ्याल प्रकार हटाउन कम्तिमा सञ्झ्याल प्रकार सीमा तोक्न सिफारिस गर्छ ।"
+"विन्डो प्रकार हटाउन कम्तिमा विन्डो प्रकार सीमा तोक्न सिफारिस गर्छ ।"
 
 #: ruleswidget.cpp:711
 msgid "Edit Window-Specific Settings"
-msgstr "सञ्झ्याल निर्दिष्ट सेटिङ प्रविष्ट गर्नुहोस्"
+msgstr "विन्डो निर्दिष्ट सेटिङ प्रविष्ट गर्नुहोस्"
 
 #: ruleswidget.cpp:736
 msgid ""
@@ -1613,7 +1613,7 @@ msgid ""
 "setting using the checkbox, select in what way the setting should be "
 "affected and to which value."
 msgstr ""
-"यो कन्फिगरेसन संवादले चयन गरिएका सञ्झ्याल र अनुप्रयोगका लागि परिवर्तन सेटिङ "
+"यो कन्फिगरेसन संवादले चयन गरिएका विन्डो र सफ्टवेयर का लागि परिवर्तन सेटिङ "
 "मात्र अनुमति दिन्छ । तपाईँले प्रभाव पार्न चाहेको सेटिङ फेला पार्नुहोस्, जाँच "
 "बाकस प्रयोग गरेर सेटिङ सक्षम पार्नुहोस् अनि कुन तरिकाले र कुन मानमा सेटिङ "
 "प्रभावकारी हुन्छ चयन गर्नुहोस् ।"

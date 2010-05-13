@@ -20,7 +20,7 @@ msgstr ""
 #: ksystraycmd.cpp:80
 #, kde-format
 msgid "No window matching pattern '%1' and no command specified.\n"
-msgstr "'%1' मिल्दो बाँन्की सञ्झ्याल छैन र आदेश निर्दिष्ट गरिएको छैन ।\n"
+msgstr "'%1' मिल्दो बाँन्की विन्डो छैन र आदेश निर्दिष्ट गरिएको छैन ।\n"
 
 #: ksystraycmd.cpp:87
 msgid "KSysTrayCmd: K3ShellProcess cannot find a shell."
@@ -48,7 +48,7 @@ msgstr "अन्त्य गर्नुहोस्"
 
 #: main.cpp:28
 msgid "Allows any application to be kept in the system tray"
-msgstr "प्रणाली ट्रेमा राख्नका लागि कुनै अनुप्रयोगलाई अनुमति दिन्छ"
+msgstr "प्रणाली ट्रेमा राख्नका लागि कुनै सफ्टवेयर लाई अनुमति दिन्छ"
 
 #: main.cpp:30
 msgid "(C) 2001-2002 Richard Moore (rich@kde.org)"
@@ -68,8 +68,8 @@ msgid ""
 "If you do not specify one, then the very first window\n"
 "to appear will be taken - not recommended."
 msgstr ""
-"सञ्झ्याल शीर्षक मिल्दो नियमित अभिव्यक्ति\n"
-"यदि तपाईँले एउटा निर्दिष्ट गर्नुभएन भने, पहिलो सञ्झ्यालको प्रर्दशन\n"
+"विन्डो शीर्षक मिल्दो नियमित अभिव्यक्ति\n"
+"यदि तपाईँले एउटा निर्दिष्ट गर्नुभएन भने, पहिलो विन्डोको प्रर्दशन\n"
 "सिफारिश नगरिएको रूपमा लिइन्छ ।"
 
 #: main.cpp:41
@@ -78,20 +78,20 @@ msgid ""
 "Specifies the id of the window to use. If the id starts with 0x\n"
 "it is assumed to be in hex."
 msgstr ""
-"लक्षित सञ्झ्यालको सञ्झ्याल आईडी ले\n"
-"प्रयोग गर्ने सञ्झ्यालको आईडी निर्दिष्ट गर्दछ । यदि आईडी 0x बाट सुरु भयो भने\n"
+"लक्षित विन्डोको विन्डो आईडी ले\n"
+"प्रयोग गर्ने विन्डोको आईडी निर्दिष्ट गर्दछ । यदि आईडी 0x बाट सुरु भयो भने\n"
 "यसलाई हेक्सको रूपमा लिइन्छ ।"
 
 #: main.cpp:44
 msgid "Hide the window to the tray on startup"
-msgstr "सुरुआतमा ट्रेको सञ्झ्याल लुकाउनुहोस्"
+msgstr "सुरुआतमा ट्रेको विन्डो लुकाउनुहोस्"
 
 #: main.cpp:45
 msgid ""
 "Wait until we are told to show the window before\n"
 "executing the command"
 msgstr ""
-"आदेश कार्यान्वयन गर्नु पहिले हामिले सञ्झ्याल देखाउन \n"
+"आदेश कार्यान्वयन गर्नु पहिले हामिले विन्डो देखाउन \n"
 "नभनेसम्म प्रतिक्षा गर्नुहोस् ।"
 
 #: main.cpp:47
@@ -115,19 +115,19 @@ msgstr ""
 
 #: main.cpp:52
 msgid "Try to keep the window above other windows"
-msgstr "अन्य सञ्झ्यालहरूको माथि सञ्झ्याल राख्न प्रयास गर्नुहोस्"
+msgstr "अन्य विन्डोहरूको माथि विन्डो राख्न प्रयास गर्नुहोस्"
 
 #: main.cpp:53
 msgid ""
 "Quit the client when we are told to hide the window.\n"
 "This has no effect unless startonshow is specified and implies keeprunning."
 msgstr ""
-"हामीले सञ्झ्याल लुकाउन भन्दा क्लाइन्ट अन्त्य गर्नुहोस् ।\n"
+"हामीले विन्डो लुकाउन भन्दा क्लाइन्ट अन्त्य गर्नुहोस् ।\n"
 "स्टार्टअनसो निर्दिष्ट र किपरनिङ लागू नगरेसम्म यसको कुनै प्रभाव हुदैन ।"
 
 #: main.cpp:91
 msgid "No command or window specified"
-msgstr "आदेश वा सञ्झ्याल निर्दिष्ट गरिएको छैन"
+msgstr "आदेश वा विन्डो निर्दिष्ट गरिएको छैन"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

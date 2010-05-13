@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: totem.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-17 23:47+0000\n"
-"PO-Revision-Date: 2010-05-05 16:17+0545\n"
+"PO-Revision-Date: 2010-05-12 14:44+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -996,17 +996,17 @@ msgstr ""
 #: ../src/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
+msgstr "'प्रकार=लिङ्क' डेस्कटप प्रविष्टिमा कागजात युआरआइ पठाउन सकेन"
 
 #: ../src/eggdesktopfile.c:1394
 #, c-format
 msgid "Not a launchable item"
-msgstr ""
+msgstr "चलाउन योग्य वस्तु होइन"
 
 #: ../src/eggfileformatchooser.c:235
 #, c-format
 msgid "File _Format: %s"
-msgstr ""
+msgstr "फाइल ढाँचा: %s"
 
 #: ../src/eggfileformatchooser.c:374
 msgid "All Files"
@@ -1014,7 +1014,7 @@ msgstr "सबै फाइलहरू"
 
 #: ../src/eggfileformatchooser.c:375
 msgid "All Supported Files"
-msgstr ""
+msgstr "सबै समर्थित फाइलहरू"
 
 #: ../src/eggfileformatchooser.c:384
 msgid "By Extension"
@@ -1038,15 +1038,15 @@ msgstr ""
 
 #: ../src/eggfileformatchooser.c:652
 msgid "File format not recognized"
-msgstr ""
+msgstr "फाइल ढाँचा चिन्न सकिएन्"
 
 #: ../src/eggsmclient.c:225
 msgid "Disable connection to session manager"
-msgstr ""
+msgstr "सत्र व्यवस्थापनसँग सम्पर्क अक्षम पार्नुहोस्"
 
 #: ../src/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
-msgstr ""
+msgstr "बचत गरिएको कन्फिगरेसन भएको फाइल व्यक्त गर्नुहोस्"
 
 #: ../src/eggsmclient.c:228
 msgid "FILE"
@@ -1078,7 +1078,7 @@ msgstr "अज्ञात भिडियो"
 
 #: ../src/totem-dnd-menu.c:94
 msgid "_Play Now"
-msgstr ""
+msgstr "अहिले प्ले गर्नुहोस्"
 
 #: ../src/totem-dnd-menu.c:103
 msgid "Cancel"
@@ -1167,7 +1167,7 @@ msgstr "कुनै पनि होइन"
 #: ../src/totem-menu.c:896
 #, c-format
 msgid "Play Image '%s'"
-msgstr ""
+msgstr "छवि '%s' प्ले गर्नुहोस्"
 
 #: ../src/totem-menu.c:899 ../src/totem-menu.c:981
 #, c-format
@@ -1188,7 +1188,7 @@ msgstr "%s प्रयोग गरेर चलचित्र प्लेय
 
 #: ../src/totem-menu.c:1333
 msgid "Copyright © 2002-2009 Bastien Nocera"
-msgstr ""
+msgstr "प्रतिलिपी अधिकार २००२-२००९ बासटियन नोकेरा (Bastien Nocera)"
 
 #: ../src/totem-menu.c:1338 ../browser-plugin/totem-plugin-viewer.c:1127
 msgid "translator-credits"
@@ -1288,13 +1288,13 @@ msgstr ""
 
 #: ../src/totem-object.c:1215
 #, c-format
-msgid ""
-"Totem cannot play this type of media (%s) because it is not supported."
+msgid "Totem cannot play this type of media (%s) because it is not supported."
 msgstr ""
+"टोटेमले यो  प्रकारको मिडिया (%s) प्ले गर्न सक्दैन किनकी यो समर्थित छैन् ।"
 
 #: ../src/totem-object.c:1216
 msgid "Please insert another disc to play back."
-msgstr ""
+msgstr "कृपया प्ले ब्याक गर्न अर्को डिस्क घुसाउनुहोस् ।"
 
 #: ../src/totem-object.c:1251
 msgid "Totem was not able to play this disc."
@@ -1302,7 +1302,7 @@ msgstr "टोटेमले यो डिस्क प्ले गर्न �
 
 #: ../src/totem-object.c:1252 ../src/totem-object.c:4177
 msgid "No reason."
-msgstr "कुनै कारण छैन."
+msgstr "कुनै कारण छैन ।"
 
 #: ../src/totem-object.c:1266
 msgid "Totem does not support playback of Audio CDs"
@@ -1432,7 +1432,7 @@ msgstr ""
 
 #: ../src/totem-playlist.c:151
 msgid "MP3 audio (streamed)"
-msgstr ""
+msgstr "MP3 अडियो (स्ट्रिम भएको)"
 
 #: ../src/totem-playlist.c:152
 msgid "MP3 audio (streamed, DOS format)"
@@ -1447,7 +1447,7 @@ msgstr ""
 #: ../src/totem-playlist.c:356
 #, c-format
 msgid "Title %d"
-msgstr ""
+msgstr "शीर्षक %d"
 
 #: ../src/totem-playlist.c:457
 msgid "Could not save the playlist"
@@ -1698,7 +1698,7 @@ msgstr "भियतनामी"
 
 #: ../src/totem-video-list.c:305
 msgid "No video URI"
-msgstr ""
+msgstr "कुनै भिडियो URI छैन्"
 
 #. Translators: The first string is "Filename" (as translated); the second is an actual filename.
 #. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
@@ -1797,7 +1797,7 @@ msgstr "जिनोम सही तरीकाले स्थापना �
 
 #: ../src/backend/bacon-video-widget-gst-0.10.c:1729
 msgid "Password requested for RTSP server"
-msgstr ""
+msgstr "RTSP सर्भरका लागि पासवर्ड अनुरोध गरियो"
 
 #: ../src/backend/bacon-video-widget-gst-0.10.c:2902
 #: ../src/backend/bacon-video-widget-gst-0.10.c:2906
@@ -1834,7 +1834,7 @@ msgid ""
 "applications, or select another video output in the Multimedia Systems "
 "Selector."
 msgstr ""
-"भिडियो निर्गत अर्को अनुप्रयोगले चलाइरहेको छ । कृपया अन्य भिडियो अनुप्रयोग "
+"भिडियो निर्गत अर्को सफ्टवेयर ले चलाइरहेको छ । कृपया अन्य भिडियो सफ्टवेयर  "
 "बन्द गर्नुहोस्, वा मल्टिमिडिया प्रणाली चयनकर्तामा भिडियो निर्गत चयन "
 "गर्नुहोस् ।"
 
@@ -1844,7 +1844,7 @@ msgid ""
 "audio output in the Multimedia Systems Selector. You may want to consider "
 "using a sound server."
 msgstr ""
-"अडियो निर्गत अर्को अनुप्रयोगले चलाइरहेको छ । कृपया मल्टिमिडिया प्रणाली "
+"अडियो निर्गत अर्को सफ्टवेयर ले चलाइरहेको छ । कृपया मल्टिमिडिया प्रणाली "
 "चयनकर्तामा अर्को अडियो निर्गत चयन गर्नुहोस् । तपाईँ सम्भवत ध्वनि सर्भर "
 "प्रयोग गरेर हेर्न चाहनुहुन्छ ।,"
 
@@ -2237,7 +2237,7 @@ msgstr "अपराध र न्याय"
 
 #: ../src/plugins/bbc/genres.py:78
 msgid "Disability"
-msgstr ""
+msgstr "विकलांगता"
 
 #: ../src/plugins/bbc/genres.py:79
 msgid "Families & Relationships"
@@ -2245,7 +2245,7 @@ msgstr "परिवार र सम्बन्ध"
 
 #: ../src/plugins/bbc/genres.py:80
 msgid "Food & Drink"
-msgstr ""
+msgstr "खाद्य र पेय"
 
 #: ../src/plugins/bbc/genres.py:81
 msgid "Health & Wellbeing"
@@ -2433,11 +2433,11 @@ msgstr "गल्फ"
 
 #: ../src/plugins/bbc/genres.py:130
 msgid "Gymnastics"
-msgstr ""
+msgstr "जिमनास्टिक"
 
 #: ../src/plugins/bbc/genres.py:131
 msgid "Handball"
-msgstr ""
+msgstr "हेन्डबल"
 
 #: ../src/plugins/bbc/genres.py:132
 msgid "Hockey"
@@ -2469,7 +2469,7 @@ msgstr ""
 
 #: ../src/plugins/bbc/genres.py:139
 msgid "Rugby League"
-msgstr ""
+msgstr "रग्बी लिग"
 
 #: ../src/plugins/bbc/genres.py:140
 msgid "Rugby Union"
@@ -2497,15 +2497,15 @@ msgstr ""
 
 #: ../src/plugins/bbc/genres.py:146
 msgid "Swimming"
-msgstr ""
+msgstr "स्वीमिङ्ग"
 
 #: ../src/plugins/bbc/genres.py:147
 msgid "Table Tennis"
-msgstr ""
+msgstr "टेबल टेनिस"
 
 #: ../src/plugins/bbc/genres.py:148
 msgid "Taekwondo"
-msgstr ""
+msgstr "ताइकान्डो"
 
 #: ../src/plugins/bbc/genres.py:149
 msgid "Tennis"
@@ -2596,13 +2596,13 @@ msgstr ""
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:128
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:279
 msgid "The movie could not be recorded."
-msgstr ""
+msgstr "चलचित्र रेकर्ड गर्न सकिएन ।"
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:160
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:170
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:266
 msgid "Unable to write a project."
-msgstr ""
+msgstr "परियोजना लेख्न असक्षम ।"
 
 #: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.totem-plugin.in.h:1
 msgid "Records (S)VCDs or video DVDs"
@@ -2666,12 +2666,13 @@ msgstr "ग्रोमिट बाइनरी फेला परेन ।"
 #: ../src/plugins/iplayer/iplayer.totem-plugin.in.h:1
 #: ../src/plugins/iplayer/iplayer.py:32
 msgid "BBC iPlayer"
-msgstr ""
+msgstr "बीबीसी आइप्लेयर"
 
 #: ../src/plugins/iplayer/iplayer.totem-plugin.in.h:2
-msgid ""
-"Stream BBC programs from the last 7 days from the BBC iPlayer service."
+msgid "Stream BBC programs from the last 7 days from the BBC iPlayer service."
 msgstr ""
+"बीबीसी आइप्लेयर सेवाबाट अन्तिम ७ दिनका बीबीसी कार्यक्रमहरु स्ट्रिम गर्नुहोस् "
+"।"
 
 #: ../src/plugins/iplayer/iplayer.py:57
 msgid "Error Listing Channel Categories"
@@ -2764,18 +2765,18 @@ msgstr ""
 #: ../src/plugins/jamendo/jamendo.py:281
 #, python-format
 msgid "Artist: %s"
-msgstr ""
+msgstr "कलाकार: %s"
 
 #. Translators: this is the release date of an album in Python strptime format
 #: ../src/plugins/jamendo/jamendo.py:251
 msgid "%Y-%m-%d"
-msgstr ""
+msgstr "%Y-%m-%d"
 
 #. Translators: this is the release time of an album in Python strftime format
 #: ../src/plugins/jamendo/jamendo.py:253
 #, python-format
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #: ../src/plugins/jamendo/jamendo.py:259
 #, python-format
@@ -2798,7 +2799,7 @@ msgstr "लाइसेन्स: %s"
 #: ../src/plugins/jamendo/jamendo.py:273
 #, python-format
 msgid "%02d. %s"
-msgstr ""
+msgstr "%02d. %s"
 
 #: ../src/plugins/jamendo/jamendo.py:280
 #, python-format
@@ -2851,7 +2852,7 @@ msgstr "%M:%S"
 #. If Jamendo doesn't support your language, *do not translate this string*!
 #: ../src/plugins/jamendo/jamendo.py:687
 msgid "en"
-msgstr ""
+msgstr "en"
 
 #: ../src/plugins/lirc/lirc.totem-plugin.in.h:1
 msgid "Infrared Remote Control"
@@ -2871,7 +2872,7 @@ msgstr "lirc कन्फिगरेसन पढ्न सकिएन ।"
 
 #: ../src/plugins/mythtv/totem-mythtv.c:200
 msgid "Recordings"
-msgstr ""
+msgstr "रेकर्डिङ"
 
 #: ../src/plugins/mythtv/totem-mythtv.c:523
 msgid "MythTV Recordings"
@@ -2999,7 +3000,7 @@ msgstr ""
 
 #: ../src/plugins/publish/publish-plugin.ui.h:1
 msgid "Service _Name:"
-msgstr ""
+msgstr "सेवाको नाम:"
 
 #: ../src/plugins/publish/publish-plugin.ui.h:3
 #, no-c-format
@@ -3019,7 +3020,7 @@ msgstr ""
 
 #: ../src/plugins/screenshot/gallery.ui.h:2
 msgid "Number of screenshots:"
-msgstr ""
+msgstr "स्क्रिनसटहरुको संख्या:"
 
 #: ../src/plugins/screenshot/gallery.ui.h:3
 msgid "Screenshot width (in pixels):"
@@ -3065,7 +3066,7 @@ msgstr "ग्यालरी निर्माण गर्दै..."
 #: ../src/plugins/screenshot/totem-gallery-progress.c:108
 #, c-format
 msgid "Saving gallery as \"%s\""
-msgstr ""
+msgstr "ग्यालरीलाई \"%s\" का रुपमा बचत गर्दै"
 
 #: ../src/plugins/screenshot/totem-screenshot.c:112
 msgid "There was an error saving the screenshot."
@@ -3100,11 +3101,11 @@ msgstr "स्क्रिनसट लिनुहोस्"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:209
 msgid "Create Screenshot _Gallery..."
-msgstr ""
+msgstr "स्क्रिनसट ग्यालरी निर्माण गर्नुहोस्..."
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:209
 msgid "Create a gallery of screenshots"
-msgstr ""
+msgstr "स्क्रिनसटहरुको ग्यालरी निर्माण गर्नुहोस्"
 
 #: ../src/plugins/skipto/totem-skipto.c:171
 msgid "Skip to"
@@ -3147,7 +3148,7 @@ msgstr ""
 
 #: ../src/plugins/tracker/totem-tracker-widget.c:251
 msgid "No results"
-msgstr ""
+msgstr "कुनै परिमाण छैनन्"
 
 #. Translators:
 #. * This is used to show which items are listed in the list view, for example:
@@ -3180,7 +3181,7 @@ msgstr ""
 
 #: ../src/plugins/tracker/tracker.totem-plugin.in.h:2
 msgid "Search for local videos using Tracker"
-msgstr ""
+msgstr "ट्रयाकर प्रयोग गरेर स्थानिय भिडियो खोजी गर्नुहोस्"
 
 #: ../src/plugins/youtube/youtube.totem-plugin.in.h:1
 msgid "A plugin to let you browse YouTube videos."
@@ -3291,19 +3292,19 @@ msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.totem-plugin.in.h:2
 msgid "Python Console"
-msgstr ""
+msgstr "पाइथन कन्सोल"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:74
 msgid "Python Console Menu"
-msgstr ""
+msgstr "पाइथन कन्सोल मेनु"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:77
 msgid "_Python Console"
-msgstr ""
+msgstr "पाइथोन कन्सोल"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:78
 msgid "Show Totem's Python console"
-msgstr ""
+msgstr "टोटेमको पाइथन कन्सोल देखाउनुहोस्"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:83
 msgid "Python Debugger"
@@ -3320,7 +3321,7 @@ msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:111
 msgid "Totem Python Console"
-msgstr ""
+msgstr "टोटेमको पाइथन कन्सोल"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:120
 msgid ""

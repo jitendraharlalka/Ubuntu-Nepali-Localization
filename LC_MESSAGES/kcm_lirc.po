@@ -84,7 +84,7 @@ msgid ""
 "Use this to configure KDE's infrared remote control system in order to "
 "control any KDE application with your infrared remote control."
 msgstr ""
-"तपाईँको अवरक्त टाढाको नियन्त्रणसँग कुनै केडीई अनुप्रयोग नियन्त्रण गर्नका "
+"तपाईँको अवरक्त टाढाको नियन्त्रणसँग कुनै केडीई सफ्टवेयर  नियन्त्रण गर्नका "
 "लागि केडीई'को अवरक्त टाढाको नियन्त्रण प्रणाली कन्फिगर गर्न यसको प्रयोग "
 "गर्नुहोस् ।"
 
@@ -211,7 +211,7 @@ msgstr ""
 
 #: kcmlirc.cpp:524
 msgid "Application Identifier"
-msgstr "अनुप्रयोग पहिचायक"
+msgstr "सफ्टवेयर  पहिचायक"
 
 #: kcmlirc.cpp:527
 msgid "Number of Actions"
@@ -291,7 +291,7 @@ msgstr "कार्य थप्नुहोस्"
 #. i18n: ectx: property (text), widget (QRadioButton, theUseProfile)
 #: rc.cpp:6
 msgid "I wish to select an &application below for usage:"
-msgstr "म प्रयोगकर्ताका लागि अनुप्रयोग तल चयन गर्न चाहन्छु:"
+msgstr "म प्रयोगकर्ताका लागि सफ्टवेयर  तल चयन गर्न चाहन्छु:"
 
 #. i18n: file: addactionbase.ui:35
 #. i18n: ectx: property (text), widget (QRadioButton, theUseDBus)
@@ -315,13 +315,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, theNotJustStart)
 #: rc.cpp:18
 msgid "&Perform a function in the application:"
-msgstr "अनुप्रयोगमा प्रकार्य कार्यसम्पादन गर्नुहोस्:"
+msgstr "सफ्टवेयर मा प्रकार्य कार्यसम्पादन गर्नुहोस्:"
 
 #. i18n: file: addactionbase.ui:158
 #. i18n: ectx: property (text), widget (QRadioButton, theJustStart)
 #: rc.cpp:21
 msgid "&Just start the application. Do not do anything else."
-msgstr "अनुप्रयोग सुरु मात्र गर्नुहोस् । अरू केही पनि नगर्नुहोस् ।"
+msgstr "सफ्टवेयर  सुरु मात्र गर्नुहोस् । अरू केही पनि नगर्नुहोस् ।"
 
 #. i18n: file: addactionbase.ui:172
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -345,7 +345,7 @@ msgstr "यदि बटन तल खसेमा यो कार्य दो
 #. i18n: ectx: property (text), widget (QCheckBox, theAutoStart)
 #: rc.cpp:33
 msgid "This action causes the application to &start if not already running"
-msgstr "यदि पहिल्यै चलिरहेको छैन भने यो कार्यले अनुप्रयोग सुरु गर्दछ"
+msgstr "यदि पहिल्यै चलिरहेको छैन भने यो कार्यले सफ्टवेयर  सुरु गर्दछ"
 
 #. i18n: file: addactionbase.ui:251
 #. i18n: ectx: property (text), widget (QLabel, theIMTop)
@@ -365,7 +365,7 @@ msgid ""
 "instances at once when this action should be executed, choose a course of "
 "action:"
 msgstr ""
-"यो अनुप्रयोगसँग बहुविध दृष्टान्त हुन सक्छ । एकै पटकमा बहुविध दृष्टान्त भएको "
+"यो सफ्टवेयर सँग बहुविध दृष्टान्त हुन सक्छ । एकै पटकमा बहुविध दृष्टान्त भएको "
 "अवस्थामा यो कार्य कार्यान्यन गर्नुपर्दछ, कार्य स्रोत छनोट गर्नुहोस्:"
 
 #. i18n: file: addactionbase.ui:293
@@ -380,7 +380,7 @@ msgstr "कार्य उपेक्षा गर्नुहोस्"
 #. i18n: ectx: property (text), widget (QRadioButton, theSendToTop)
 #: rc.cpp:45
 msgid "Send the action to the instance hi&ghest in the window stacking order"
-msgstr "सञ्झ्याल थाक क्रममा सब भन्दा उच्च दृष्टान्तमा कार्य पठाउनुहोस्"
+msgstr "विन्डो थाक क्रममा सब भन्दा उच्च दृष्टान्तमा कार्य पठाउनुहोस्"
 
 #. i18n: file: addactionbase.ui:316
 #. i18n: ectx: property (text), widget (QRadioButton, theSendToBottom)
@@ -388,7 +388,7 @@ msgstr "सञ्झ्याल थाक क्रममा सब भन्�
 #. i18n: ectx: property (text), widget (QRadioButton, theSendToBottom)
 #: rc.cpp:48 rc.cpp:138
 msgid "Send the action to the instance &lowest in window stacking order"
-msgstr "सञ्झ्याल थाक क्रममा सब भन्दा न्यून दृष्टान्तमा कार्य पठाउनुहोस्"
+msgstr "विन्डो थाक क्रममा सब भन्दा न्यून दृष्टान्तमा कार्य पठाउनुहोस्"
 
 #. i18n: file: addactionbase.ui:326
 #. i18n: ectx: property (text), widget (QRadioButton, theSendToAll)
@@ -447,13 +447,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, theUseProfile)
 #: rc.cpp:78
 msgid "&Use application:"
-msgstr "अनुप्रयोग प्रयोग गर्नुहोस्:"
+msgstr "सफ्टवेयर  प्रयोग गर्नुहोस्:"
 
 #. i18n: file: editactionbase.ui:63
 #. i18n: ectx: property (text), widget (QLabel, theUseProfileAppLabel)
 #: rc.cpp:81
 msgid "&Application:"
-msgstr "अनुप्रयोग:"
+msgstr "सफ्टवेयर :"
 
 #. i18n: file: editactionbase.ui:92
 #. i18n: ectx: property (text), widget (QRadioButton, thePerformFunction)
@@ -465,7 +465,7 @@ msgstr "प्रकार्य कार्यसम्पादन गर्�
 #. i18n: ectx: property (text), widget (QRadioButton, theJustStart)
 #: rc.cpp:87
 msgid "Just start application"
-msgstr "अनुप्रयोग सुरु गर्नुहोस्"
+msgstr "सफ्टवेयर  सुरु गर्नुहोस्"
 
 #. i18n: file: editactionbase.ui:122
 #. i18n: ectx: property (text), widget (QRadioButton, theUseDBus)
@@ -477,7 +477,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, theDBusApplicationsLabel)
 #: rc.cpp:93
 msgid "App&lication:"
-msgstr "अनुप्रयोग:"
+msgstr "सफ्टवेयर :"
 
 #. i18n: file: editactionbase.ui:170
 #. i18n: ectx: property (text), widget (QLabel, theDBusObjectsLabel)
@@ -525,7 +525,7 @@ msgstr "<b>मोड परिवर्तन विकल्प</b>"
 #. i18n: ectx: property (text), widget (QRadioButton, theSendToTop)
 #: rc.cpp:135
 msgid "Send the action to the instance hi&ghest in window stacking order"
-msgstr "सञ्झ्याल थाक क्रममा सब भन्दा उच्च दृष्टान्तमा कार्य पठाउनुहोस्"
+msgstr "विन्डो थाक क्रममा सब भन्दा उच्च दृष्टान्तमा कार्य पठाउनुहोस्"
 
 #. i18n: file: editactionbase.ui:447
 #. i18n: ectx: property (text), widget (QRadioButton, theSendToAll)

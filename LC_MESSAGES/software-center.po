@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: software-center\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-17 15:00+0000\n"
-"PO-Revision-Date: 2010-05-04 11:22+0545\n"
+"PO-Revision-Date: 2010-05-12 15:05+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -31,6 +31,7 @@ msgstr "वेब लिङ्क प्रतिलिपि गर्नुह
 msgid ""
 "Lets you choose from thousands of free applications available for Ubuntu."
 msgstr ""
+"तपाईलाई उबुन्तुका लागि हजारौ स्वतन्त्र सफ्टवेयरहरु मध्येबाट रोज्न दिन्छ ।"
 
 #: ../data/ui/SoftwareCenter.ui.h:4
 msgid "Rebuilding application catalog..."
@@ -100,7 +101,7 @@ msgstr ""
 #: ../data/ubuntu-software-center.desktop.in.h:1
 msgid ""
 "Lets you choose from thousands of free applications available for Ubuntu"
-msgstr ""
+msgstr "तपाईलाई उबुन्तुका लागि हजारौ स्वतन्त्र सफ्टवेयरहरु मध्येबाट रोज्न दिन्छ"
 
 #: ../data/ubuntu-software-center.desktop.in.h:2
 msgid "Software Center"
@@ -168,19 +169,19 @@ msgstr "ग्राफिक्स"
 
 #: ../data/software-center.menu.in.h:16
 msgid "Hamradio"
-msgstr ""
+msgstr "ह्यामरेडियो"
 
 #: ../data/software-center.menu.in.h:17
 msgid "Haskell"
-msgstr ""
+msgstr "हासकेल"
 
 #: ../data/software-center.menu.in.h:18
 msgid "IDEs"
-msgstr ""
+msgstr "IDEहरु"
 
 #: ../data/software-center.menu.in.h:19
 msgid "Interpreters"
-msgstr ""
+msgstr "इन्टरप्रेटरहरु"
 
 #: ../data/software-center.menu.in.h:20
 msgid "Java"
@@ -192,11 +193,11 @@ msgstr "केडिइ"
 
 #: ../data/software-center.menu.in.h:22
 msgid "Kernel"
-msgstr ""
+msgstr "कर्नेल"
 
 #: ../data/software-center.menu.in.h:23
 msgid "Libraries"
-msgstr ""
+msgstr "लाइब्रेरीहरू"
 
 #: ../data/software-center.menu.in.h:24
 msgid "Lisp"
@@ -244,15 +245,15 @@ msgstr "विज्ञान"
 
 #: ../data/software-center.menu.in.h:35
 msgid "Shells"
-msgstr ""
+msgstr "सेलहरू"
 
 #: ../data/software-center.menu.in.h:36
 msgid "Sound"
-msgstr ""
+msgstr "ध्वनि"
 
 #: ../data/software-center.menu.in.h:37
 msgid "System Packages"
-msgstr ""
+msgstr "प्रणाली प्याकेजहरु"
 
 #: ../data/software-center.menu.in.h:38
 msgid "Tex"
@@ -272,7 +273,7 @@ msgstr ""
 
 #: ../data/software-center.menu.in.h:42
 msgid "Version Control"
-msgstr ""
+msgstr "संस्करण नियन्त्रण"
 
 #: ../data/software-center.menu.in.h:43
 msgid "Video"
@@ -300,11 +301,11 @@ msgstr "स्थानियकरण"
 
 #: ../data/software-center.menu.in.h:49
 msgid "metapackages"
-msgstr ""
+msgstr "मेटा प्याकेजहरु"
 
 #: ../data/software-center.menu.in.h:50
 msgid "misc"
-msgstr ""
+msgstr "विविध"
 
 #: ../data/software-center.menu.in.h:51
 msgid "oldlibs"
@@ -342,7 +343,7 @@ msgstr ""
 #: ../softwarecenter/distro/Debian.py:39 ../softwarecenter/distro/Ubuntu.py:46
 #, python-format
 msgid "To remove %s, these items must be removed as well:"
-msgstr ""
+msgstr "%s हटाउन यी वस्तुहरु पनि हटाउनु पर्छ:"
 
 #: ../softwarecenter/distro/Debian.py:41 ../softwarecenter/distro/Ubuntu.py:48
 msgid "Remove All"
@@ -526,7 +527,7 @@ msgstr ""
 #: ../softwarecenter/view/appdetailsview.py:248
 #: ../softwarecenter/view/appdetailsview.py:252
 msgid "Application Screenshot"
-msgstr ""
+msgstr "सफ्टवेयर स्क्रिनसट"
 
 #: ../softwarecenter/view/appdetailsview.py:278
 #, python-format
@@ -549,12 +550,12 @@ msgstr "मूल्य: %s"
 
 #: ../softwarecenter/view/appdetailsview.py:314
 msgid "No screenshot available"
-msgstr ""
+msgstr "कुनै स्क्रिनसट उपलब्ध छैन्"
 
 #: ../softwarecenter/view/appdetailsview.py:347
 #, python-format
 msgid "%s - Screenshot"
-msgstr ""
+msgstr "%s - स्क्रिनसट"
 
 #: ../softwarecenter/view/appdetailsview.py:468
 #: ../softwarecenter/view/appview.py:882
@@ -569,11 +570,11 @@ msgstr "प्रतिस्थापन गर्नुहोस्"
 #. FIXME: deal with the EULA stuff
 #: ../softwarecenter/view/appdetailsview.py:481
 msgid "Use This Source"
-msgstr ""
+msgstr "यो स्रोत प्रयोग गर्नुहोस्"
 
 #: ../softwarecenter/view/appdetailsview.py:484
 msgid "Update Now"
-msgstr ""
+msgstr "अहिले अद्यावधिक गर्नुहोस्"
 
 #. draw number of reviews
 #: ../softwarecenter/view/appview.py:602
@@ -647,12 +648,12 @@ msgstr[1] ""
 #, python-format
 msgid "%s application"
 msgid_plural "%s applications"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s सफ्टवेयर"
+msgstr[1] "%s सफ्टवेयरहरु"
 
 #: ../softwarecenter/view/viewswitcher.py:161
 msgid "Get Software"
-msgstr ""
+msgstr "सफ्टवेयर प्राप्त गर्नुहोस्"
 
 #: ../softwarecenter/view/viewswitcher.py:189
 #: ../softwarecenter/view/viewswitcher.py:194
