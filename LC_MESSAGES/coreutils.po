@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: coreutils\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-05-07 14:14+0200\n"
-"PO-Revision-Date: 2010-03-17 18:04+0545\n"
+"PO-Revision-Date: 2010-05-13 23:29+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -78,7 +78,7 @@ msgstr "डाइरेक्टरी"
 
 #: lib/file-type.c:44
 msgid "block special file"
-msgstr ""
+msgstr "ब्लक विशेष फाइल"
 
 #: lib/file-type.c:47
 msgid "character special file"
@@ -102,7 +102,7 @@ msgstr "सन्देश लाम"
 
 #: lib/file-type.c:62
 msgid "semaphore"
-msgstr ""
+msgstr "सीमाफोर"
 
 #: lib/file-type.c:65
 msgid "shared memory object"
@@ -126,11 +126,11 @@ msgstr "नाम निर्धारणमा अस्थायी असफ
 
 #: lib/gai_strerror.c:46
 msgid "Bad value for ai_flags"
-msgstr ""
+msgstr "ai_flags कालागि खराब मान"
 
 #: lib/gai_strerror.c:47
 msgid "Non-recoverable failure in name resolution"
-msgstr ""
+msgstr "नाम निर्धारणमा पूण: प्राप्त गर्न नसकिने असफलता"
 
 #: lib/gai_strerror.c:48
 msgid "ai_family not supported"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: lib/gai_strerror.c:53
 msgid "ai_socktype not supported"
-msgstr ""
+msgstr "ai_socktype समर्थित छैन"
 
 #: lib/gai_strerror.c:54
 msgid "System error"
@@ -333,19 +333,19 @@ msgstr ""
 
 #: lib/regcomp.c:156
 msgid "Unmatched [ or [^"
-msgstr ""
+msgstr "नमिलेको [ वा [^"
 
 #: lib/regcomp.c:159
 msgid "Unmatched ( or \\("
-msgstr ""
+msgstr "नमिलेको ( वा \\("
 
 #: lib/regcomp.c:162
 msgid "Unmatched \\{"
-msgstr ""
+msgstr "नमिलेको \\{"
 
 #: lib/regcomp.c:165
 msgid "Invalid content of \\{\\}"
-msgstr ""
+msgstr "अमान्य \\{\\} को सामग्री"
 
 #: lib/regcomp.c:168
 msgid "Invalid range end"
@@ -398,7 +398,7 @@ msgstr ""
 #. locale -k LC_MESSAGES | grep '^yesexpr='
 #: lib/rpmatch.c:147
 msgid "^[yY]"
-msgstr ""
+msgstr "^[yY]"
 
 #. TRANSLATORS: A regular expression testing for a negative answer
 #. (english: "no").  Testing the first character may be sufficient.
@@ -408,7 +408,7 @@ msgstr ""
 #. locale -k LC_MESSAGES | grep '^noexpr='
 #: lib/rpmatch.c:160
 msgid "^[nN]"
-msgstr ""
+msgstr "^[nN]"
 
 #: lib/set-mode-acl.c:488 src/copy.c:1846 src/cp.c:495
 #, c-format
@@ -430,20 +430,20 @@ msgstr "क्यारेकटर विस्तारभन्दा बा�
 #: lib/unicodeio.c:175
 #, c-format
 msgid "cannot convert U+%04X to local character set"
-msgstr ""
+msgstr "U+%04X लाई स्थानीय क्यारेक्टर सेटमा परिवर्तन गर्न सकिएन्"
 
 #: lib/unicodeio.c:177
 #, c-format
 msgid "cannot convert U+%04X to local character set: %s"
-msgstr ""
+msgstr "U+%04X लाई स्थानीय क्यारेक्टर सेटमा परिवर्तन गर्न सकिएन्: %s"
 
 #: lib/userspec.c:106
 msgid "invalid user"
-msgstr "अवैध प्रयोगकर्ता"
+msgstr "अमान्य प्रयोगकर्ता"
 
 #: lib/userspec.c:107
 msgid "invalid group"
-msgstr "अवैध समूह"
+msgstr "अमान्य समूह"
 
 #: lib/userspec.c:108
 msgid "invalid spec"
@@ -588,7 +588,7 @@ msgstr ""
 msgid ""
 "\n"
 "Report bugs to <%s>.\n"
-msgstr ""
+msgstr "\n"
 
 #: lib/version-etc.c:182
 #, c-format
@@ -597,23 +597,24 @@ msgstr "%s गृहपृष्ठ: <http://www.gnu.org/software/%s/>।\n"
 
 #: lib/version-etc.c:184
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>.\n"
-msgstr ""
+msgstr "जीएनयू सफ्टवेयर प्रयोग गर्नका लागि सामान्य मद्दत: "
+"<http://www.gnu.org/gethelp/> ।\n"
 
 #: lib/xfreopen.c:34
 msgid "stdin"
-msgstr ""
+msgstr "stdin"
 
 #: lib/xfreopen.c:35
 msgid "stdout"
-msgstr ""
+msgstr "stdout"
 
 #: lib/xfreopen.c:36
 msgid "stderr"
-msgstr ""
+msgstr "stderr"
 
 #: lib/xfreopen.c:37
 msgid "unknown stream"
-msgstr ""
+msgstr "अज्ञात स्ट्रिम"
 
 #: lib/xfreopen.c:38
 #, c-format
@@ -633,7 +634,7 @@ msgstr "स्ट्रिङ्ग तुलना असफल"
 #: lib/xmemcoll.c:49
 #, c-format
 msgid "Set LC_ALL='C' to work around the problem."
-msgstr ""
+msgstr "समस्या सामाधान गर्न LC_ALL='C' सेट गर्नुहोस् ।"
 
 #: lib/xmemcoll.c:51
 #, c-format
@@ -648,7 +649,7 @@ msgstr "स्ट्रिङ्ग रुपान्तरण असफल"
 #: lib/xmemxfrm.c:55 src/expr.c:884
 #, c-format
 msgid "set LC_ALL='C' to work around the problem"
-msgstr ""
+msgstr "समस्या सामाधान गर्न LC_ALL='C' सेट गर्नुहोस् ।"
 
 #: lib/xmemxfrm.c:57
 #, c-format
@@ -749,7 +750,7 @@ msgstr ""
 #: src/join.c:414 src/shuf.c:397 src/tac-pipe.c:74 src/tee.c:204 src/tr.c:1574
 #, c-format
 msgid "read error"
-msgstr ""
+msgstr "पढ्दा त्रुटि"
 
 #: src/base64.c:228
 #, c-format
@@ -818,6 +819,10 @@ msgid ""
 "  %s /usr/bin/sort       Output \"sort\".\n"
 "  %s include/stdio.h .h  Output \"stdio\".\n"
 msgstr ""
+"\n"
+"उदाहरण:\n"
+"  %s /usr/bin/sort\tनिर्गत \"क्रमवद्ध\" गर्ने।\n"
+"  %s include/stdio.h .h निर्गत \"stdio\" ।"
 
 #: src/basename.c:113 src/chcon.c:514 src/chgrp.c:273 src/chmod.c:500
 #: src/chown.c:286 src/chroot.c:81 src/comm.c:417 src/csplit.c:1369
@@ -890,7 +895,7 @@ msgstr ""
 #: src/cat.c:714
 #, c-format
 msgid "%s: input file is output file"
-msgstr ""
+msgstr "%s: आगत फाइल निर्गत फाइल हो"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chcon.c:35 src/runcon.c:62
@@ -1028,7 +1033,7 @@ msgstr ""
 #: src/chcon.c:539 src/runcon.c:248
 #, c-format
 msgid "invalid context: %s"
-msgstr ""
+msgstr "अमान्य प्रसंग: %s"
 
 #: src/chcon.c:546
 #, c-format
@@ -1045,7 +1050,7 @@ msgstr ""
 #: src/chgrp.c:93
 #, c-format
 msgid "invalid group: %s"
-msgstr ""
+msgstr "अमान्य समूह: %s"
 
 #: src/chgrp.c:110
 #, c-format
@@ -1130,12 +1135,12 @@ msgstr ""
 #: src/chmod.c:258
 #, c-format
 msgid "changing permissions of %s"
-msgstr ""
+msgstr "%s को अनुमति परिवर्तन गर्दै"
 
 #: src/chmod.c:293
 #, c-format
 msgid "%s: new permissions are %s, not %s"
-msgstr ""
+msgstr "%s: नयाँ अनुमति %s हुन्, %s होइनन्"
 
 #: src/chmod.c:353
 #, c-format
@@ -1144,13 +1149,15 @@ msgid ""
 "  or:  %s [OPTION]... OCTAL-MODE FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
+"उपयोग: %s [OPTION]... MODE[,MODE]... FILE...\n"
+"  वा:  %s [OPTION]... OCTAL-MODE FILE...\n"
+"  वा:  %s [OPTION]... --reference=RFILE FILE...\n"
 
 #: src/chmod.c:359
 msgid ""
 "Change the mode of each FILE to MODE.\n"
 "\n"
-"  -c, --changes           like verbose but report only when a change is "
-"made\n"
+"  -c, --changes           like verbose but report only when a change is made\n"
 msgstr ""
 
 #: src/chmod.c:364
@@ -1181,37 +1188,37 @@ msgstr ""
 #: src/chmod.c:518
 #, c-format
 msgid "invalid mode: %s"
-msgstr ""
+msgstr "अमान्य मोड: %s"
 
 #: src/chown-core.c:144
 #, c-format
 msgid "changed ownership of %s to %s\n"
-msgstr ""
+msgstr "%s को स्वामित्व %s मा परिवर्तन गरियो\n"
 
 #: src/chown-core.c:145
 #, c-format
 msgid "changed group of %s to %s\n"
-msgstr ""
+msgstr "%s को समूह %s मा परिवर्तन गरियो\n"
 
 #: src/chown-core.c:146
 #, c-format
 msgid "no change to ownership of %s\n"
-msgstr ""
+msgstr "%s को स्वामित्वमा कुनै परिवर्तन छैन\n"
 
 #: src/chown-core.c:149
 #, c-format
 msgid "failed to change ownership of %s to %s\n"
-msgstr ""
+msgstr "%s को स्वामित्व %s मा परिवर्तन गर्न असफल\n"
 
 #: src/chown-core.c:150
 #, c-format
 msgid "failed to change group of %s to %s\n"
-msgstr ""
+msgstr "%s को समूह %s मा परिवर्तन गर्न असफल\n"
 
 #: src/chown-core.c:151
 #, c-format
 msgid "failed to change ownership of %s\n"
-msgstr ""
+msgstr "%s को स्वामित्व परिवर्तन गर्न असफल\n"
 
 #: src/chown-core.c:154
 #, c-format
@@ -1236,12 +1243,12 @@ msgstr ""
 #: src/chown-core.c:434
 #, c-format
 msgid "changing ownership of %s"
-msgstr ""
+msgstr "%s को स्वामित्व परिवर्तन गर्दै"
 
 #: src/chown-core.c:435
 #, c-format
 msgid "changing group of %s"
-msgstr ""
+msgstr "%s को समूह परिवर्तन गर्दै"
 
 #: src/chown.c:91
 #, c-format
@@ -1249,12 +1256,13 @@ msgid ""
 "Usage: %s [OPTION]... [OWNER][:[GROUP]] FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
+"उपयोग: %s [OPTION]... [OWNER][:[GROUP]] FILE...\n"
+"     वा:  %s [OPTION]... --reference=RFILE FILE...\n"
 
 #: src/chown.c:96
 msgid ""
 "Change the owner and/or group of each FILE to OWNER and/or GROUP.\n"
-"With --reference, change the owner and group of each FILE to those of "
-"RFILE.\n"
+"With --reference, change the owner and group of each FILE to those of RFILE.\n"
 "\n"
 "  -c, --changes          like verbose but report only when a change is made\n"
 "      --dereference      affect the referent of each symbolic link (this is\n"
@@ -1303,7 +1311,7 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chroot.c:33
 msgid "Roland McGrath"
-msgstr ""
+msgstr "रोलेन्ड म्याकग्राथ (Roland McGrath)"
 
 #: src/chroot.c:43
 #, c-format
@@ -1311,6 +1319,8 @@ msgid ""
 "Usage: %s NEWROOT [COMMAND [ARG]...]\n"
 "  or:  %s OPTION\n"
 msgstr ""
+"उपयोग: %s NEWROOT [COMMAND [ARG]...]\n"
+"    वा:   %s OPTION\n"
 
 #: src/chroot.c:47
 msgid ""
@@ -1347,7 +1357,7 @@ msgstr ""
 #: src/cksum.c:213
 #, c-format
 msgid "%s: file too long"
-msgstr ""
+msgstr "%s: फाइल अत्यधिक लामो"
 
 #: src/cksum.c:261
 #, c-format
@@ -1355,6 +1365,8 @@ msgid ""
 "Usage: %s [FILE]...\n"
 "  or:  %s [OPTION]\n"
 msgstr ""
+"उपयोग: %s [FILE]...\n"
+"  वा:    %s [OPTION]\n"
 
 #: src/cksum.c:266
 msgid ""
@@ -1365,7 +1377,7 @@ msgstr ""
 #: src/comm.c:102 src/join.c:167
 #, c-format
 msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
-msgstr ""
+msgstr "उपयोग: %s [OPTION]... FILE1 FILE2\n"
 
 #: src/comm.c:106
 msgid "Compare sorted files FILE1 and FILE2 line by line.\n"
@@ -1408,7 +1420,7 @@ msgstr ""
 #: src/comm.c:214 src/join.c:367
 #, c-format
 msgid "file %d is not in sorted order"
-msgstr ""
+msgstr "फाइल %d क्रमवद्ध छैन"
 
 #: src/comm.c:397
 #, c-format
@@ -1418,7 +1430,7 @@ msgstr ""
 #: src/comm.c:401
 #, c-format
 msgid "empty %s not allowed"
-msgstr ""
+msgstr "खाली %s मान्य छैन"
 
 #: src/copy.c:331
 #, c-format
@@ -1428,7 +1440,7 @@ msgstr ""
 #: src/copy.c:365 src/copy.c:2032 src/cp.c:308
 #, c-format
 msgid "failed to preserve ownership for %s"
-msgstr ""
+msgstr "%s को स्वामित्व सुरक्षित गर्न असफल\n"
 
 #: src/copy.c:391
 #, c-format
@@ -1444,7 +1456,7 @@ msgstr ""
 #: src/sort.c:3423 src/split.c:543 src/tac.c:544 src/tail.c:1294 src/wc.c:666
 #, c-format
 msgid "cannot open %s for reading"
-msgstr ""
+msgstr "पढ्नका लागि %s खोल्न सकेन"
 
 #: src/copy.c:460 src/copy.c:588 src/dd.c:1268 src/dd.c:1895 src/tail.c:1130
 #: src/tail.c:1196 src/truncate.c:153 src/truncate.c:237
@@ -1473,13 +1485,13 @@ msgstr ""
 #: src/remove.c:1626 src/remove.c:1784
 #, c-format
 msgid "cannot remove %s"
-msgstr ""
+msgstr "%s हटाउन सक्दैन"
 
 #: src/copy.c:530 src/copy.c:1313 src/copy.c:1477 src/copy.c:1624
 #: src/remove.c:1013
 #, c-format
 msgid "removed %s\n"
-msgstr ""
+msgstr "%s हटाइयो\n"
 
 #: src/copy.c:567
 #, c-format
@@ -1494,7 +1506,7 @@ msgstr ""
 #: src/copy.c:663 src/dd.c:1329 src/dd.c:1654
 #, c-format
 msgid "reading %s"
-msgstr ""
+msgstr "%s पढ्दै"
 
 #: src/copy.c:709 src/head.c:428
 #, c-format
@@ -1504,7 +1516,7 @@ msgstr ""
 #: src/copy.c:722 src/copy.c:751 src/dd.c:1711 src/dd.c:1773
 #, c-format
 msgid "writing %s"
-msgstr ""
+msgstr "%s लेख्दै"
 
 #: src/copy.c:766 src/copy.c:2086
 #, c-format
@@ -1515,7 +1527,7 @@ msgstr ""
 #: src/truncate.c:411
 #, c-format
 msgid "closing %s"
-msgstr ""
+msgstr "%s बन्द गर्दै"
 
 #: src/copy.c:1063
 #, c-format
@@ -1530,7 +1542,7 @@ msgstr ""
 #: src/copy.c:1139
 #, c-format
 msgid " (backup: %s)"
-msgstr ""
+msgstr " (ब्यकअप: %s)"
 
 #: src/copy.c:1149
 #, c-format
@@ -1540,17 +1552,17 @@ msgstr ""
 #: src/copy.c:1205
 #, c-format
 msgid "omitting directory %s"
-msgstr ""
+msgstr "डाइरेक्टरी %s मेटाउँदै"
 
 #: src/copy.c:1219
 #, c-format
 msgid "warning: source file %s specified more than once"
-msgstr ""
+msgstr "चेतावनी: स्रोत फाइल %s एक पल्ट भन्दा बढी व्यक्त भयो"
 
 #: src/copy.c:1267 src/ln.c:231
 #, c-format
 msgid "%s and %s are the same file"
-msgstr ""
+msgstr "%s र %s एउटै फाइल हुन्"
 
 #: src/copy.c:1347
 #, c-format
@@ -1585,7 +1597,7 @@ msgstr ""
 #: src/copy.c:1447 src/ln.c:261
 #, c-format
 msgid "cannot backup %s"
-msgstr ""
+msgstr "%s ब्याकअप गर्न सक्दैन"
 
 #: src/copy.c:1511
 #, c-format
@@ -1615,7 +1627,7 @@ msgstr ""
 #: src/copy.c:1718
 #, c-format
 msgid "cannot move %s to %s"
-msgstr ""
+msgstr "%s लाई %s मा सार्न सक्दैन"
 
 #: src/copy.c:1730
 #, c-format
@@ -1646,17 +1658,17 @@ msgstr ""
 #: src/copy.c:1941
 #, c-format
 msgid "cannot create link %s"
-msgstr ""
+msgstr "लिङ्क %s निर्माण गर्न सक्दैन"
 
 #: src/copy.c:1966 src/mkfifo.c:134
 #, c-format
 msgid "cannot create fifo %s"
-msgstr ""
+msgstr "फिफो %s निर्माण गर्न सक्दैन"
 
 #: src/copy.c:1975
 #, c-format
 msgid "cannot create special file %s"
-msgstr ""
+msgstr "विशेष फाइल %s निर्माण गर्न सक्दैन"
 
 #: src/copy.c:1985 src/ls.c:2978 src/stat.c:579
 #, c-format
@@ -1671,7 +1683,7 @@ msgstr ""
 #: src/copy.c:2047
 #, c-format
 msgid "%s has unknown file type"
-msgstr ""
+msgstr "%s को फाइल प्रकार अज्ञात छ"
 
 #: src/copy.c:2180 src/ln.c:334
 #, c-format
@@ -1835,22 +1847,22 @@ msgstr ""
 #: src/cp.c:296
 #, c-format
 msgid "failed to preserve times for %s"
-msgstr ""
+msgstr "%s कालागि समय सुरक्षित गर्न असफल\n"
 
 #: src/cp.c:327
 #, c-format
 msgid "failed to preserve permissions for %s"
-msgstr ""
+msgstr "%s का अनुमतिहरु सुरक्षित गर्न असफल\n"
 
 #: src/cp.c:454
 #, c-format
 msgid "cannot make directory %s"
-msgstr ""
+msgstr "डाइरेक्टरी %s बनाउन सक्दैन"
 
 #: src/cp.c:503 src/cp.c:522
 #, c-format
 msgid "%s exists but is not a directory"
-msgstr ""
+msgstr "%s विद्यमान छ तर डाइरेक्टरी होइन"
 
 #: src/cp.c:549 src/cp.c:1028 src/install.c:405 src/install.c:522 src/ln.c:130
 #: src/ln.c:158 src/ln.c:187 src/ln.c:474 src/mv.c:150 src/mv.c:394
@@ -1879,7 +1891,7 @@ msgstr ""
 #: src/mv.c:452
 #, c-format
 msgid "target %s is not a directory"
-msgstr ""
+msgstr "लक्ष्य %s डाइरेक्टरी होइन"
 
 #: src/cp.c:705
 #, c-format
@@ -1919,12 +1931,12 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/csplit.c:41 src/dd.c:46
 msgid "Stuart Kemp"
-msgstr ""
+msgstr "स्टुअर्ट केम्प (Stuart Kemp)"
 
 #: src/csplit.c:522
 #, c-format
 msgid "input disappeared"
-msgstr ""
+msgstr "आगत अदृश्य भयो"
 
 #: src/csplit.c:650 src/csplit.c:661
 #, c-format
@@ -1954,7 +1966,7 @@ msgstr ""
 #: src/csplit.c:965
 #, c-format
 msgid "write error for %s"
-msgstr ""
+msgstr "%s को लागि लेख्दा त्रुटि"
 
 #: src/csplit.c:1041
 #, c-format
@@ -2039,12 +2051,12 @@ msgstr ""
 #: src/csplit.c:1345
 #, c-format
 msgid "%s: invalid number"
-msgstr ""
+msgstr "%s: अमान्य नम्बर"
 
 #: src/csplit.c:1446
 #, c-format
 msgid "Usage: %s [OPTION]... FILE PATTERN...\n"
-msgstr ""
+msgstr "उपयोग: %s [OPTION]... FILE PATTERN...\n"
 
 #: src/csplit.c:1450
 msgid ""
@@ -2089,7 +2101,7 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cut.c:43 src/paste.c:51
 msgid "David M. Ihnat"
-msgstr ""
+msgstr "डेविड एम. इहनात (David M. Ihnat)"
 
 #: src/cut.c:63
 msgid "fields and positions are numbered from 1"
@@ -2098,7 +2110,7 @@ msgstr ""
 #: src/cut.c:189
 #, c-format
 msgid "Usage: %s OPTION... [FILE]...\n"
-msgstr ""
+msgstr "उपयोग: %s OPTION... [FILE]...\n"
 
 #: src/cut.c:193
 msgid ""
@@ -2156,7 +2168,7 @@ msgstr ""
 
 #: src/cut.c:368 src/cut.c:489
 msgid "invalid byte or field list"
-msgstr ""
+msgstr "अमान्य बाइट वा फिल्ड सूची"
 
 #: src/cut.c:385
 msgid "invalid range with no endpoint: -"
@@ -2200,7 +2212,7 @@ msgstr ""
 
 #: src/cut.c:860
 msgid "missing list of fields"
-msgstr ""
+msgstr "फिल्डहरुको सूची हराइरहेको छ"
 
 #: src/cut.c:862
 msgid "missing list of positions"
@@ -2278,6 +2290,10 @@ msgid ""
 "  %I   hour (01..12)\n"
 "  %j   day of year (001..366)\n"
 msgstr ""
+"  %h   %b जस्तै\n"
+"  %H   घन्टा (००..२३)\n"
+"  %I   घन्टा (०१..१२)\n"
+"  %j   वर्षको दिन (००१..३६६)\n"
 
 #: src/date.c:181
 msgid ""
@@ -2286,6 +2302,10 @@ msgid ""
 "  %m   month (01..12)\n"
 "  %M   minute (00..59)\n"
 msgstr ""
+"  %k   घन्टा ( ०..२३)\n"
+"  %l   घन्टा ( १..१२)\n"
+"  %m   महिना (०१..१२)\n"
+"  %M   मिनेट (००..५९)\n"
 
 #: src/date.c:187
 msgid ""
@@ -2365,7 +2385,7 @@ msgstr ""
 #: src/date.c:288 src/date.c:508
 #, c-format
 msgid "invalid date %s"
-msgstr ""
+msgstr "अमान्य मिति %s"
 
 #: src/date.c:399 src/date.c:433
 #, c-format
@@ -2393,18 +2413,18 @@ msgstr ""
 #: src/date.c:516
 #, c-format
 msgid "cannot set date"
-msgstr ""
+msgstr "मिति सेट गर्न सक्दैन"
 
 #: src/date.c:539 src/du.c:415
 #, c-format
 msgid "time %s is out of range"
-msgstr ""
+msgstr "समय %s दायरा बाहिर छ"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/dd.c:44 src/factor.c:43 src/rm.c:64 src/tail.c:52 src/touch.c:41
 #: src/wc.c:49
 msgid "Paul Rubin"
-msgstr ""
+msgstr "पौल रुबिन (Paul Rubin)"
 
 #: src/dd.c:462
 #, c-format
@@ -2412,6 +2432,8 @@ msgid ""
 "Usage: %s [OPERAND]...\n"
 "  or:  %s OPTION\n"
 msgstr ""
+"उपयोग: %s [OPERAND]...\n"
+"    वा:   %s OPTION\n"
 
 #: src/dd.c:467
 msgid ""
@@ -2596,17 +2618,17 @@ msgstr ""
 #: src/dd.c:666
 #, c-format
 msgid "closing input file %s"
-msgstr ""
+msgstr "आगत फाइल %s बन्द गर्दै"
 
 #: src/dd.c:673
 #, c-format
 msgid "closing output file %s"
-msgstr ""
+msgstr "निर्गत फाइल %s बन्द गर्दै"
 
 #: src/dd.c:874 src/dd.c:1624
 #, c-format
 msgid "writing to %s"
-msgstr ""
+msgstr "%s मा लेख्दै"
 
 #: src/dd.c:985 src/dd.c:1039
 #, c-format
@@ -2689,7 +2711,7 @@ msgstr ""
 #: src/dd.c:1533
 #, c-format
 msgid "setting flags for %s"
-msgstr ""
+msgstr "%s कालागि फ्लेगहरु सेट गर्दै"
 
 #: src/dd.c:1607
 #, c-format
@@ -2709,7 +2731,7 @@ msgstr ""
 #: src/dd.c:1841 src/dd.c:1870
 #, c-format
 msgid "opening %s"
-msgstr ""
+msgstr "%s खोल्दै"
 
 #: src/dd.c:1880
 #, c-format
@@ -2727,15 +2749,15 @@ msgstr ""
 #: src/df.c:42 src/du.c:54 src/expr.c:151 src/kill.c:43 src/pathchk.c:39
 #: src/shuf.c:37 src/sleep.c:36 src/sort.c:61
 msgid "Paul Eggert"
-msgstr ""
+msgstr "पौल एगर्ट (Paul Eggert)"
 
 #: src/df.c:152
 msgid "Filesystem    Type"
-msgstr ""
+msgstr "फाइलप्रणाली       प्रकार"
 
 #: src/df.c:154
 msgid "Filesystem        "
-msgstr ""
+msgstr "फाइलप्रणाली"
 
 #: src/df.c:157
 #, c-format
@@ -2770,7 +2792,7 @@ msgstr ""
 #: src/df.c:531
 #, c-format
 msgid "cannot get current directory"
-msgstr ""
+msgstr "वर्तमान डाइरेक्टरी पाउन सक्दैन"
 
 #: src/df.c:541 src/df.c:555 src/df.c:583
 #, c-format
@@ -2846,12 +2868,12 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/dircolors.c:35
 msgid "H. Peter Anvin"
-msgstr ""
+msgstr "एच. पिटर एनभिन (H. Peter Anvin)"
 
 #: src/dircolors.c:99 src/uptime.c:197 src/users.c:106
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE]\n"
-msgstr ""
+msgstr "उपयोग: %s [OPTION]... [FILE]\n"
 
 #: src/dircolors.c:100
 msgid ""
@@ -2883,7 +2905,7 @@ msgstr ""
 
 #: src/dircolors.c:361
 msgid "<internal>"
-msgstr ""
+msgstr "<internal>"
 
 #: src/dircolors.c:442
 #, c-format
@@ -2907,6 +2929,8 @@ msgid ""
 "Usage: %s NAME\n"
 "  or:  %s OPTION\n"
 msgstr ""
+"उपयोग: %s NAME\n"
+"    वा:   %s OPTION\n"
 
 #: src/dirname.c:51
 msgid ""
@@ -2923,6 +2947,10 @@ msgid ""
 "  %s /usr/bin/sort  Output \"/usr/bin\".\n"
 "  %s stdio.h        Output \".\".\n"
 msgstr ""
+"\n"
+"उदाहरणहरु:\n"
+"  %s /usr/bin/sort निर्गत \"/usr/bin\" ।\n"
+"  %s stdio.h       निर्गत  \".\" ।\n"
 
 #: src/du.c:268 src/sort.c:313 src/wc.c:112
 #, c-format
@@ -2930,6 +2958,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "  or:  %s [OPTION]... --files0-from=F\n"
 msgstr ""
+"उपयोग: %s [OPTION]... [FILE]...\n"
+"    वा:   %s [OPTION]... --files0-from=F\n"
 
 #: src/du.c:272
 msgid ""
@@ -3042,7 +3072,7 @@ msgstr ""
 #: src/tac.c:481 src/tac.c:557 src/wc.c:718
 #, c-format
 msgid "%s: read error"
-msgstr ""
+msgstr "%s: पढ्दा त्रुटि"
 
 #: src/du.c:980 src/sort.c:3442 src/wc.c:731
 #, c-format
@@ -3059,21 +3089,21 @@ msgstr ""
 #: src/tail.c:815 src/tail.c:1320 src/tail.c:1349 src/uniq.c:393
 #, c-format
 msgid "error reading %s"
-msgstr ""
+msgstr "%s पढ्दा त्रुटि"
 
 #: src/du.c:1025 src/ls.c:2553 src/wc.c:774
 msgid "total"
-msgstr ""
+msgstr "कुल"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/echo.c:27
 msgid "Brian Fox"
-msgstr ""
+msgstr "ब्रायन फक्स (Brian Fox)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/echo.c:28
 msgid "Chet Ramey"
-msgstr ""
+msgstr "चेट रामेय (Chet Ramey)"
 
 #: src/echo.c:43
 #, c-format
@@ -3081,6 +3111,8 @@ msgid ""
 "Usage: %s [SHORT-OPTION]... [STRING]...\n"
 "  or:  %s LONG-OPTION\n"
 msgstr ""
+"उपयोग: %s [SHORT-OPTION]... [STRING]...\n"
+"    वा:   %s LONG-OPTION\n"
 
 #: src/echo.c:47
 msgid ""
@@ -3341,12 +3373,12 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/fmt.c:36
 msgid "Ross Paterson"
-msgstr ""
+msgstr "रोस पेटरसन (Ross Paterson)"
 
 #: src/fmt.c:269
 #, c-format
 msgid "Usage: %s [-WIDTH] [OPTION]... [FILE]...\n"
-msgstr ""
+msgstr "उपयोग: %s [-WIDTH] [OPTION]... [FILE]...\n"
 
 #: src/fmt.c:270
 msgid ""
@@ -3380,7 +3412,7 @@ msgstr ""
 #: src/fmt.c:396
 #, c-format
 msgid "invalid width: %s"
-msgstr ""
+msgstr "अमान्य चौडाइ: %s"
 
 #: src/fold.c:70
 msgid ""
@@ -3399,17 +3431,17 @@ msgstr ""
 #: src/fold.c:287 src/pr.c:835
 #, c-format
 msgid "invalid number of columns: %s"
-msgstr ""
+msgstr "अमान्य स्तम्भ संख्या: %s"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/getlimits.c:29 src/timeout.c:74 src/truncate.c:42
 msgid "Padraig Brady"
-msgstr ""
+msgstr "पेडरैग ब्रेडी (Padraig Brady)"
 
 #: src/getlimits.c:66
 #, c-format
 msgid "Usage: %s\n"
-msgstr ""
+msgstr "उपयोग: %s\n"
 
 #: src/getlimits.c:70
 msgid ""
@@ -3522,7 +3554,7 @@ msgstr ""
 
 #: src/head.c:881
 msgid "number of bytes"
-msgstr ""
+msgstr "बाइट संख्या"
 
 #: src/head.c:888 src/tail.c:1484
 msgid "invalid number of lines"
@@ -3530,7 +3562,7 @@ msgstr ""
 
 #: src/head.c:889 src/tail.c:1485
 msgid "invalid number of bytes"
-msgstr ""
+msgstr "अमान्य बाइट संख्या"
 
 #: src/head.c:976 src/head.c:1034
 #, c-format
@@ -3698,12 +3730,11 @@ msgstr ""
 #: src/install.c:628 src/mkdir.c:203
 #, c-format
 msgid "invalid mode %s"
-msgstr ""
+msgstr "अमान्य मोड %s"
 
 #: src/install.c:635
 #, c-format
-msgid ""
-"WARNING: ignoring --strip-program option as -s option was not specified"
+msgid "WARNING: ignoring --strip-program option as -s option was not specified"
 msgstr ""
 
 #: src/install.c:640
@@ -3742,7 +3773,7 @@ msgstr ""
 #: src/install.c:854
 #, c-format
 msgid "cannot run %s"
-msgstr ""
+msgstr "%s चलाउन सक्दैन"
 
 #: src/install.c:858
 #, c-format
@@ -3757,17 +3788,17 @@ msgstr ""
 #: src/install.c:881
 #, c-format
 msgid "invalid user %s"
-msgstr ""
+msgstr "अमान्य प्रयोगकर्ता %s"
 
 #: src/install.c:899 src/setuidgid.c:110 src/setuidgid.c:120
 #, c-format
 msgid "invalid group %s"
-msgstr ""
+msgstr "अमान्य समूह %s"
 
 #: src/install.c:916
 #, c-format
 msgid "creating directory %s"
-msgstr ""
+msgstr "डाइरेक्टरी %s निर्माण गर्दै"
 
 #: src/install.c:939
 #, c-format
@@ -3777,14 +3808,17 @@ msgid ""
 "  or:  %s [OPTION]... -t DIRECTORY SOURCE...\n"
 "  or:  %s [OPTION]... -d DIRECTORY...\n"
 msgstr ""
+"उपयोग: %s [OPTION]... [-T] SOURCE DEST\n"
+"   वा:    %s [OPTION]... SOURCE... DIRECTORY\n"
+"   वा:    %s [OPTION]... -t DIRECTORY SOURCE...\n"
+"   वा:    %s [OPTION]... -d DIRECTORY...\n"
 
 #: src/install.c:946
 msgid ""
 "\n"
 "This install program copies files (often just compiled) into destination\n"
 "locations you choose.  If you want to download and install a ready-to-use\n"
-"package on a GNU/Linux system, you should instead be using a package "
-"manager\n"
+"package on a GNU/Linux system, you should instead be using a package manager\n"
 "like yum(1) or apt-get(1).\n"
 "\n"
 "In the first three forms, copy SOURCE to DEST or multiple SOURCE(s) to\n"
@@ -3892,7 +3926,7 @@ msgstr ""
 #: src/join.c:775 src/join.c:974
 #, c-format
 msgid "invalid field number: %s"
-msgstr ""
+msgstr "अमान्य फिल्ड संख्या: %s"
 
 #: src/join.c:796 src/join.c:805
 #, c-format
@@ -3917,7 +3951,7 @@ msgstr ""
 #: src/join.c:1026 src/sort.c:3341
 #, c-format
 msgid "empty tab"
-msgstr ""
+msgstr "खाली ट्याब"
 
 #: src/join.c:1032 src/sort.c:3352
 #, c-format
@@ -3973,7 +4007,7 @@ msgstr ""
 #: src/kill.c:271
 #, c-format
 msgid "invalid option -- %c"
-msgstr ""
+msgstr "अमान्य विकल्प -- %c"
 
 #: src/kill.c:280
 #, c-format
@@ -3998,7 +4032,7 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/link.c:36 src/unlink.c:36 src/who.c:45
 msgid "Michael Stone"
-msgstr ""
+msgstr "माइकल स्टोन (Michael Stone)"
 
 #: src/link.c:46
 #, c-format
@@ -4006,6 +4040,8 @@ msgid ""
 "Usage: %s FILE1 FILE2\n"
 "  or:  %s OPTION\n"
 msgstr ""
+"उपयोग: %s FILE1 FILE2\n"
+"   वा:    %s OPTION\n"
 
 #: src/link.c:49
 msgid ""
@@ -4128,18 +4164,20 @@ msgstr ""
 #: src/logname.c:40 src/sync.c:41
 #, c-format
 msgid "Usage: %s [OPTION]\n"
-msgstr ""
+msgstr "उपयोग: %s [OPTION]\n"
 
 #: src/logname.c:41
 msgid ""
 "Print the name of the current user.\n"
 "\n"
 msgstr ""
+"वर्तमान प्रयोगकर्ताको नाम मुद्रण गर्नुहोस् ।\n"
+"\n"
 
 #: src/logname.c:85
 #, c-format
 msgid "no login name"
-msgstr ""
+msgstr "कुनै लगइन नाम छैन"
 
 #. TRANSLATORS: ls output needs to be aligned for ease of reading,
 #. so be wary of using variable width fields from the locale.
@@ -4148,7 +4186,7 @@ msgstr ""
 #. will count bytes rather than characters in multibyte locales.
 #: src/ls.c:708
 msgid "%b %e  %Y"
-msgstr ""
+msgstr "%b %e  %Y"
 
 #. TRANSLATORS: ls output needs to be aligned for ease of reading,
 #. so be wary of using variable width fields from the locale.
@@ -4157,7 +4195,7 @@ msgstr ""
 #. will count bytes rather than characters in multibyte locales.
 #: src/ls.c:721
 msgid "%b %e %H:%M"
-msgstr ""
+msgstr "%b %e %H:%M"
 
 #: src/ls.c:1536
 #, c-format
@@ -4182,7 +4220,7 @@ msgstr ""
 #: src/ls.c:1788
 #, c-format
 msgid "invalid tab size: %s"
-msgstr ""
+msgstr "अमान्य ट्याब साइज: %s"
 
 #: src/ls.c:1978
 #, c-format
@@ -4207,7 +4245,7 @@ msgstr ""
 #: src/ls.c:2426 src/pwd.c:162
 #, c-format
 msgid "cannot open directory %s"
-msgstr ""
+msgstr "डाइरेक्टरी %s खोल्न सक्दैन"
 
 #: src/ls.c:2441
 #, c-format
@@ -4222,17 +4260,17 @@ msgstr ""
 #: src/ls.c:2511 src/pwd.c:230
 #, c-format
 msgid "reading directory %s"
-msgstr ""
+msgstr "डाइरेक्टरी %s पढ्दै"
 
 #: src/ls.c:2521
 #, c-format
 msgid "closing directory %s"
-msgstr ""
+msgstr "डाइरेक्टरी %s बन्द गर्दै"
 
 #: src/ls.c:3093
 #, c-format
 msgid "cannot compare file names %s and %s"
-msgstr ""
+msgstr "फाइल नाम %s र %s तुलना गर्न सक्दैन"
 
 #: src/ls.c:4509
 msgid ""
@@ -4284,7 +4322,7 @@ msgstr ""
 
 #: src/ls.c:4547
 msgid "  -g                         like -l, but do not list owner\n"
-msgstr ""
+msgstr "  -g                         -l जस्तै, तर मालिक सूचीकृत गर्दैन\n"
 
 #: src/ls.c:4550
 msgid ""
@@ -4412,8 +4450,7 @@ msgid ""
 "  -w, --width=COLS           assume screen width instead of current value\n"
 "  -x                         list entries by lines instead of by columns\n"
 "  -X                         sort alphabetically by entry extension\n"
-"  -Z, --context              print any SELinux security context of each "
-"file\n"
+"  -Z, --context              print any SELinux security context of each file\n"
 "  -1                         list one file per line\n"
 msgstr ""
 
@@ -4440,17 +4477,17 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/md5sum.c:93 src/seq.c:39
 msgid "Ulrich Drepper"
-msgstr ""
+msgstr "अलरिच ड्रेपर (Ulrich Drepper)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/md5sum.c:94
 msgid "Scott Miller"
-msgstr ""
+msgstr "स्कट मिलर (Scott Miller)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/md5sum.c:95
 msgid "David Madore"
-msgstr ""
+msgstr "डेविड माडोर (David Madore)"
 
 #: src/md5sum.c:153
 #, c-format
@@ -4528,7 +4565,7 @@ msgstr ""
 
 #: src/md5sum.c:540
 msgid "OK"
-msgstr ""
+msgstr "ठीक छ"
 
 #: src/md5sum.c:565
 #, c-format
@@ -4702,7 +4739,7 @@ msgstr ""
 #: src/mktemp.c:64
 #, c-format
 msgid "Usage: %s [OPTION]... [TEMPLATE]\n"
-msgstr ""
+msgstr "उपयोग: %s [OPTION]... [TEMPLATE]\n"
 
 #: src/mktemp.c:65
 msgid ""
@@ -6465,12 +6502,12 @@ msgstr ""
 #: src/shred.c:1026
 #, c-format
 msgid "%s: removed"
-msgstr ""
+msgstr "%s: हटाइयो"
 
 #: src/shred.c:1033 src/shred.c:1076
 #, c-format
 msgid "%s: failed to close"
-msgstr ""
+msgstr "%s: बन्द गर्न असफल"
 
 #: src/shred.c:1069
 #, c-format
@@ -6490,7 +6527,7 @@ msgstr ""
 #: src/shred.c:1157
 #, c-format
 msgid "%s: invalid file size"
-msgstr ""
+msgstr "%s: अमान्य फाइल साइज"
 
 #: src/shuf.c:47
 #, c-format
@@ -6564,7 +6601,7 @@ msgstr ""
 #: src/sleep.c:137 src/timeout.c:266
 #, c-format
 msgid "invalid time interval %s"
-msgstr ""
+msgstr "अमान्य समय अवधि %s"
 
 #: src/sleep.c:148 src/tail.c:1105
 #, c-format
@@ -6620,6 +6657,8 @@ msgid ""
 "Other options:\n"
 "\n"
 msgstr ""
+"अन्य विकल्प:\n"
+"\n"
 
 #: src/sort.c:356
 msgid ""
@@ -6701,7 +6740,7 @@ msgstr ""
 #: src/sort.c:601
 #, c-format
 msgid "waiting for %s [-d]"
-msgstr ""
+msgstr "%s [-d] का लागि कुर्दै"
 
 #: src/sort.c:606
 #, c-format
@@ -6711,12 +6750,12 @@ msgstr ""
 #: src/sort.c:776 src/tac.c:458
 #, c-format
 msgid "cannot create temporary file in %s"
-msgstr ""
+msgstr "%s मा अस्थायी फाइल निर्माण गर्न सक्दैन"
 
 #: src/sort.c:813 src/sort.c:2433 src/sort.c:2713 src/sort.c:2716
 #: src/sort.c:3513
 msgid "open failed"
-msgstr ""
+msgstr "खोल्न असफल"
 
 #: src/sort.c:833
 msgid "fflush failed"
@@ -6724,7 +6763,7 @@ msgstr ""
 
 #: src/sort.c:838 src/sort.c:3568
 msgid "close failed"
-msgstr ""
+msgstr "बन्द गर्न असफल"
 
 #: src/sort.c:847
 #, c-format
@@ -6752,12 +6791,12 @@ msgstr ""
 
 #: src/sort.c:1043
 msgid "write failed"
-msgstr ""
+msgstr "लेख्न असफल"
 
 #: src/sort.c:1080
 #, c-format
 msgid "warning: cannot remove: %s"
-msgstr ""
+msgstr "चेतावनी: %s हटाउन सक्दैन"
 
 #: src/sort.c:1166
 #, c-format
@@ -6785,7 +6824,7 @@ msgstr ""
 
 #: src/sort.c:1593
 msgid "read failed"
-msgstr ""
+msgstr "पढ्न असफल"
 
 #: src/sort.c:2142
 #, c-format
@@ -6813,11 +6852,11 @@ msgstr ""
 
 #: src/sort.c:3199
 msgid "invalid number after `-'"
-msgstr ""
+msgstr "`-' पछि अमान्य संख्या"
 
 #: src/sort.c:3202 src/sort.c:3272 src/sort.c:3300
 msgid "invalid number after `.'"
-msgstr ""
+msgstr "`.' पछि अमान्य संख्या"
 
 #: src/sort.c:3205 src/sort.c:3305
 msgid "stray character in field spec"
@@ -6834,7 +6873,7 @@ msgstr ""
 
 #: src/sort.c:3267 src/sort.c:3295
 msgid "field number is zero"
-msgstr ""
+msgstr "फिल्ड संख्या शुन्य छ"
 
 #: src/sort.c:3276
 msgid "character offset is zero"
@@ -6857,7 +6896,7 @@ msgstr ""
 #: src/sort.c:3458
 #, c-format
 msgid "no input from %s"
-msgstr ""
+msgstr "%s बाट कुनै आगत छैन"
 
 #: src/sort.c:3538
 #, c-format
@@ -7341,7 +7380,7 @@ msgstr ""
 #: src/stty.c:784
 #, c-format
 msgid "only one device may be specified"
-msgstr ""
+msgstr "एउटा मात्रै यन्त्र व्यक्त गर्न सकिन्छ"
 
 #: src/stty.c:814
 #, c-format
@@ -7731,7 +7770,7 @@ msgstr ""
 #: src/tail.c:1543
 #, c-format
 msgid "%s: invalid number of seconds"
-msgstr ""
+msgstr "%s: अमान्य सेकेन्डको संख्या"
 
 #: src/tail.c:1559
 #, c-format
@@ -7751,7 +7790,7 @@ msgstr ""
 #: src/tail.c:1574
 #, c-format
 msgid "warning: --pid=PID is not supported on this system"
-msgstr ""
+msgstr "चेतावनी: --pid=PID यो प्रणालीमा समर्थित छैन"
 
 #: src/tail.c:1668
 #, c-format
@@ -7981,6 +8020,12 @@ msgid ""
 "                   SIGNAL may be a name like `HUP' or a number.\n"
 "                   See `kill -l` for a list of signals\n"
 msgstr ""
+"  -s, --signal=SIGNAL\n"
+"                                       समय समाप्तिका बेला पठाउनु पर्ने सिगनल "
+"व्यक्त गर्नुहोस् ।\n"
+"                   SIGNAL `HUP' जस्तै कुनै नाम वा संख्या हुन सक्छ ।\n"
+"                                       सिगनलहरुको सूचीका लागि ` kill -l` "
+"हेर्नुहोस्\n"
 
 #: src/timeout.c:155
 msgid ""
@@ -8241,7 +8286,7 @@ msgstr ""
 
 #: src/tr.c:1720
 msgid "Two strings must be given when translating."
-msgstr ""
+msgstr "अनुवाद गर्दा दुइटा स्ट्रिङहरु दिनु पर्दछ ।"
 
 #: src/tr.c:1730
 msgid "Only one string may be given when deleting without squeezing repeats."
@@ -8286,11 +8331,10 @@ msgstr ""
 
 #: src/truncate.c:116
 msgid "  -c, --no-create        do not create any files\n"
-msgstr ""
+msgstr "  -c, --no-create        कुनै फाइल निर्माण नगर्ने\n"
 
 #: src/truncate.c:119
-msgid ""
-"  -o, --io-blocks        Treat SIZE as number of IO blocks instead of bytes\n"
+msgid "  -o, --io-blocks        Treat SIZE as number of IO blocks instead of bytes\n"
 msgstr ""
 
 #: src/truncate.c:122
@@ -8298,6 +8342,8 @@ msgid ""
 "  -r, --reference=FILE   use this FILE's size\n"
 "  -s, --size=SIZE        use this SIZE\n"
 msgstr ""
+"  -r, --reference=FILE   यो फाइलको साइज प्रयोग गर्ने\n"
+"  -s, --size=SIZE        यो SIZE प्रयोग गर्ने\n"
 
 #: src/truncate.c:127
 msgid ""
@@ -8414,6 +8460,11 @@ msgid ""
 "  -i, --hardware-platform  print the hardware platform or \"unknown\"\n"
 "  -o, --operating-system   print the operating system\n"
 msgstr ""
+"  -v, --kernel-version     कर्नेल संस्करण मुद्रण गर्ने\n"
+"  -m, --machine            मेसिन हार्डवेयरको नाम मुद्रण गर्ने\n"
+"  -p, --processor          प्रोसेसर प्रकार वा \"अज्ञात\" मुद्रण गर्ने\n"
+"  -i, --hardware-platform  हार्डवेयर प्लेटफार्म वा \"अज्ञात\" मुद्रण गर्ने\n"
+"  -o, --operating-system   अपरेटिङ प्रणाली मुद्रण गर्ने\n"
 
 #: src/uname.c:145
 msgid ""
@@ -8552,12 +8603,12 @@ msgstr "बुट समय पाउन सकेन्"
 #. TRANSLATORS: This prints the current clock time.
 #: src/uptime.c:132
 msgid " %H:%M%P  "
-msgstr ""
+msgstr " %H:%M%P  "
 
 #: src/uptime.c:134
 #, c-format
 msgid " ??:????  "
-msgstr ""
+msgstr " ??:????  "
 
 #: src/uptime.c:136
 #, c-format
@@ -8575,8 +8626,8 @@ msgstr[1] ""
 #, c-format
 msgid "%lu user"
 msgid_plural "%lu users"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%lu प्रयोगकर्ता"
+msgstr[1] "%lu प्रयोगकर्ता"
 
 #: src/uptime.c:161
 #, c-format
@@ -8647,7 +8698,7 @@ msgstr "प्रणाली बुट"
 
 #: src/who.c:436 src/who.c:438
 msgid "id="
-msgstr ""
+msgstr "आइडी="
 
 #: src/who.c:451 src/who.c:456
 msgid "term="
@@ -8754,6 +8805,10 @@ msgid ""
 "      --message     same as -T\n"
 "      --writable    same as -T\n"
 msgstr ""
+"  -T, -w, --mesg    प्रयोगकर्ताका संदेश स्थितिलाई +, - वा ? का रुपमा थप्ने\n"
+"  -u, --users       लगइन भएका प्रयोगकर्ताहरु सूचीकृत गर्ने\n"
+"      --message     -T जस्तै\n"
+"      --writable    -T जस्तै\n"
 
 #: src/who.c:663
 #, c-format
