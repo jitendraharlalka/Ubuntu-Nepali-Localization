@@ -990,7 +990,7 @@ msgid ""
 "password or key was used."
 msgstr ""
 "भोल्युमलाई माउन्ट गर्न अक्षम । यदि यो गुप्तीकरण गरिएको ड्राइभ हो भने, त्यसो "
-"भए गलत पासवर्ड वा कुञ्जी प्रयोग गरिएको छ ।"
+"भए गलत पासवर्ड वा की प्रयोग गरिएको छ ।"
 
 #: ../libgnomevfs/gnome-vfs-volume-ops.c:201
 #, c-format
@@ -1277,7 +1277,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle "
 "\"callto\" URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"callto\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"callto\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:23
@@ -1291,7 +1291,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"ghelp\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"ghelp\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"ghelp\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:25
@@ -1299,7 +1299,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"h323\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"h323\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:26
@@ -1307,7 +1307,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"http\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"http\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:27
@@ -1315,7 +1315,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"https\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"https\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"https\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:28
@@ -1323,7 +1323,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"info\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"info\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:29
@@ -1331,7 +1331,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle "
 "\"mailto\" URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"mailto\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"mailto\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:30
@@ -1339,7 +1339,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"man\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"man\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:31
@@ -1347,7 +1347,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"trash\" "
 "URLs."
 msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"trash\" URLs ह्यान्डल "
+"यदि \"command\" कीमा निदिष्ट गरिएको आदेशले \"trash\" URLs ह्यान्डल "
 "गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_gnome_url_handlers.schemas.in.h:32
@@ -1561,7 +1561,7 @@ msgid ""
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
-"यस कुञ्जीले प्रोक्सी मार्फत नभइ प्रत्यक्ष जडित होस्टको सूची समावेश गर्दछ "
+"यस कीले प्रोक्सी मार्फत नभइ प्रत्यक्ष जडित होस्टको सूची समावेश गर्दछ "
 "(यदि यो सक्रिय भएमा) । यसका मानहरू, होस्टनाम, डोमेन ( *.foo.com जस्ता "
 "प्रारम्भिक वाइल्डकार्ड प्रयोग गर्ने), आई पी होस्ट ठेगाना (दुवै IPv4 र IPv6) "
 "तथा नेटमास्क भएका नेटवर्क ठेगानाहरू (१९२.१६८.०.०/२४ जस्ता केही वस्तु) हुन् ।"

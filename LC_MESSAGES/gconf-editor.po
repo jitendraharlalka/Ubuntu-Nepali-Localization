@@ -71,7 +71,7 @@ msgid ""
 "Couldn't unset key. Error was:\n"
 "%s"
 msgstr ""
-"कुञ्जी सेटबाट हटाउन सकेन । यो त्रुटि थियो:\n"
+"की सेटबाट हटाउन सकेन । यो त्रुटि थियो:\n"
 "%s"
 
 #: ../src/gconf-editor-window.c:456
@@ -80,7 +80,7 @@ msgid ""
 "Could not create key. The error is:\n"
 "%s"
 msgstr ""
-"कुञ्जी सिर्जना गर्न सकेन । यो त्रुटि छ:\n"
+"की सिर्जना गर्न सकेन । यो त्रुटि छ:\n"
 "%s"
 
 #: ../src/gconf-editor-window.c:538
@@ -89,7 +89,7 @@ msgid ""
 "Could not change key value. Error message:\n"
 "%s"
 msgstr ""
-"कुञ्जी मान परिवर्तन गर्न सकेन । त्रुटिको सन्देश:\n"
+"की मान परिवर्तन गर्न सकेन । त्रुटिको सन्देश:\n"
 "%s"
 
 #: ../src/gconf-editor-window.c:570
@@ -185,11 +185,11 @@ msgstr "कन्फिगरेसन सम्पादक अन्त्य 
 
 #: ../src/gconf-editor-window.c:761
 msgid "_Copy Key Name"
-msgstr "कुञ्जी नाम प्रतिलिपि बनाउनुहोस्"
+msgstr "की नाम प्रतिलिपि बनाउनुहोस्"
 
 #: ../src/gconf-editor-window.c:761
 msgid "Copy the name of the selected key"
-msgstr "चयन गरिएको कुञ्जीको नाम प्रतिलिपि बनाउनुहोस्"
+msgstr "चयन गरिएको कीको नाम प्रतिलिपि बनाउनुहोस्"
 
 #: ../src/gconf-editor-window.c:763
 msgid "_Find..."
@@ -197,15 +197,15 @@ msgstr "फेला पार्नुहोस्..."
 
 #: ../src/gconf-editor-window.c:763
 msgid "Find patterns in keys and values"
-msgstr "कुञ्जी र मानहरूमा बान्की फेला पार्नुहोस्"
+msgstr "की र मानहरूमा बान्की फेला पार्नुहोस्"
 
 #: ../src/gconf-editor-window.c:765
 msgid "_List Recent Keys"
-msgstr "हालैका कुञ्जीहरू सूचीबद्ध गर्नुहोस्"
+msgstr "हालैका कीहरू सूचीबद्ध गर्नुहोस्"
 
 #: ../src/gconf-editor-window.c:765
 msgid "Show recently modified keys"
-msgstr "हालै परिमार्जन गरिएको कुञ्जीहरू देखाउनुहोस्"
+msgstr "हालै परिमार्जन गरिएको कीहरू देखाउनुहोस्"
 
 #: ../src/gconf-editor-window.c:768
 msgid "_Add Bookmark"
@@ -241,27 +241,27 @@ msgstr "कन्फिगरेसन सम्पादकको लागि 
 
 #: ../src/gconf-editor-window.c:778
 msgid "_New Key..."
-msgstr "नयाँ कुञ्जी..."
+msgstr "नयाँ की..."
 
 #: ../src/gconf-editor-window.c:778
 msgid "Create a new key"
-msgstr "एउटा नयाँ कुञ्जी सिर्जना गर्नुहोस्"
+msgstr "एउटा नयाँ की सिर्जना गर्नुहोस्"
 
 #: ../src/gconf-editor-window.c:780
 msgid "_Edit Key..."
-msgstr "कुञ्जी सम्पादन गर्नुहोस्"
+msgstr "की सम्पादन गर्नुहोस्"
 
 #: ../src/gconf-editor-window.c:780
 msgid "Edit the selected key"
-msgstr "चयन गरिएको कुञ्जी सम्पादन गर्नुहोस्"
+msgstr "चयन गरिएको की सम्पादन गर्नुहोस्"
 
 #: ../src/gconf-editor-window.c:782
 msgid "_Unset Key"
-msgstr "कुञ्जी सेटबाट हटाउनुहोस्"
+msgstr "की सेटबाट हटाउनुहोस्"
 
 #: ../src/gconf-editor-window.c:782
 msgid "Unset the selected key"
-msgstr "चयन गरिएको कुञ्जी सेटबाट हटाउनुहोस्"
+msgstr "चयन गरिएको की सेटबाट हटाउनुहोस्"
 
 #: ../src/gconf-editor-window.c:784
 msgid "Set as _Default"
@@ -269,7 +269,7 @@ msgstr "पूर्वनिर्धारित रूपमा सेट ग
 
 #: ../src/gconf-editor-window.c:784
 msgid "Set the selected key to be the default"
-msgstr "पूर्वनिर्धारित रूपमा हुनलाई चयन गरिएको कुञ्जी सेट गर्नुहोस्"
+msgstr "पूर्वनिर्धारित रूपमा हुनलाई चयन गरिएको की सेट गर्नुहोस्"
 
 #: ../src/gconf-editor-window.c:786
 msgid "Set as _Mandatory"
@@ -277,7 +277,7 @@ msgstr "अनिवार्य जस्तै सेट गर्नुहो
 
 #: ../src/gconf-editor-window.c:786
 msgid "Set the selected key to the mandatory"
-msgstr "अनिवार्यमा चयन गरिएको कुञ्जी सेट गर्नुहोस्"
+msgstr "अनिवार्यमा चयन गरिएको की सेट गर्नुहोस्"
 
 #: ../src/gconf-editor-window.c:869
 msgid "Configuration Editor (Default settings)"
@@ -319,23 +319,23 @@ msgstr "मान"
 
 #: ../src/gconf-editor-window.c:1664
 msgid "Key Documentation"
-msgstr "कुञ्जी मिसिलिकरण"
+msgstr "की मिसिलिकरण"
 
 #: ../src/gconf-editor-window.c:1693 ../src/gconf-key-editor.c:606
 msgid "This key is not writable"
-msgstr "यो कुञ्जी लेखनयोग्य छैन"
+msgstr "यो की लेखनयोग्य छैन"
 
 #: ../src/gconf-editor-window.c:1706
 msgid "This key has no schema"
-msgstr "यो कुञ्जीसँग रूपरेखा छैन"
+msgstr "यो कीसँग रूपरेखा छैन"
 
 #: ../src/gconf-editor-window.c:1711
 msgid "Key name:"
-msgstr "कुञ्जी नाम:"
+msgstr "की नाम:"
 
 #: ../src/gconf-editor-window.c:1724
 msgid "Key owner:"
-msgstr "कुञ्जी मालिक:"
+msgstr "की मालिक:"
 
 #: ../src/gconf-editor-window.c:1736
 msgid "Short description:"
@@ -426,11 +426,11 @@ msgstr "मानहरू:"
 
 #: ../src/gconf-key-editor.c:804
 msgid "New Key"
-msgstr "नयाँ कुञ्जी"
+msgstr "नयाँ की"
 
 #: ../src/gconf-key-editor.c:808
 msgid "Edit Key"
-msgstr "कुञ्जी सम्पादन गर्नुहोस्"
+msgstr "की सम्पादन गर्नुहोस्"
 
 #: ../src/gconf-search-dialog.c:60
 msgid "Pattern not found"
@@ -446,11 +446,11 @@ msgstr "यसका लागि खोजी गर्नुहोस्: "
 
 #: ../src/gconf-search-dialog.c:165
 msgid "Search also in key _names"
-msgstr "कुञ्जी नामहरूमा पनि खोजी गर्नुहोस्"
+msgstr "की नामहरूमा पनि खोजी गर्नुहोस्"
 
 #: ../src/gconf-search-dialog.c:168
 msgid "Search also in key _values"
-msgstr "कुञ्जी मानहरूमा पनि खोजी गर्नुहोस्"
+msgstr "की मानहरूमा पनि खोजी गर्नुहोस्"
 
 #: ../src/gedit-output-window.c:347
 msgid "Close the output window"

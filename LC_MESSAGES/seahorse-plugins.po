@@ -30,16 +30,16 @@ msgstr "कृपया प्रयोग गर्नको लागि ए�
 
 #: ../agent/seahorse-agent-cache.c:66
 msgid "Unparseable Key ID"
-msgstr "पदवर्णन गर्न नमिल्ने कुञ्जी आईडी"
+msgstr "पदवर्णन गर्न नमिल्ने की आईडी"
 
 #: ../agent/seahorse-agent-cache.c:67
 msgid "Unknown/Invalid Key"
-msgstr "अज्ञात/अवैध कुञ्जी"
+msgstr "अज्ञात/अवैध की"
 
 #: ../agent/seahorse-agent-cache.c:533
 #, c-format
 msgid "PGP Key: %s"
-msgstr "पीजीपी कुञ्जी: %s"
+msgstr "पीजीपी की: %s"
 
 #: ../agent/seahorse-agent-cache.xml.h:1
 msgid ""
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../agent/seahorse-agent-cache.xml.h:2
 msgid "Cached Encryption Keys"
-msgstr "क्यास गरिएको गुप्तिकरण कुञ्जीहरू"
+msgstr "क्यास गरिएको गुप्तिकरण कीहरू"
 
 #: ../agent/seahorse-agent-cache.xml.h:3
 msgid "_Show Window"
@@ -91,7 +91,7 @@ msgstr "नयाँ प्रक्रिया समूह सिर्जन
 
 #: ../agent/seahorse-agent-main.c:240
 msgid "Encryption Key Agent (Seahorse)"
-msgstr "गुप्तिकरण कुञ्जी अभिकर्ता (सिहर्स)"
+msgstr "गुप्तिकरण की अभिकर्ता (सिहर्स)"
 
 #: ../agent/seahorse-agent-main.c:248
 msgid "no command specified to execute"
@@ -116,14 +116,14 @@ msgstr "अधिकार प्रदान गर्नुहोस्"
 #. Make the uid column
 #: ../agent/seahorse-agent-status.c:144
 msgid "Key Name"
-msgstr "कुञ्जी नाम"
+msgstr "की नाम"
 
 #: ../data/seahorse-plugins.schemas.in.h:1
 msgid ""
 "A list of key server URIs to search for remote PGP keys. In later versions a "
 "display name can be included, by appending a space and then the name."
 msgstr ""
-"टाढाको पीजीपी कुञ्जीका लागि खोजी गर्न कुञ्जी सर्भर यूआरएलको सूची । पछिल्लो "
+"टाढाको पीजीपी कीका लागि खोजी गर्न की सर्भर यूआरएलको सूची । पछिल्लो "
 "संस्करणमा खाली स्थान र नाम थपेर, प्रदर्शन नाम समावेश गर्न सकिन्छ ।"
 
 #: ../data/seahorse-plugins.schemas.in.h:2
@@ -160,7 +160,7 @@ msgstr "क्यास मा पासवर्डहरु समाप्त
 
 #: ../data/seahorse-plugins.schemas.in.h:8
 msgid "ID of the default key"
-msgstr "पुर्वनिर्धारित कुञ्जीको आईडी"
+msgstr "पुर्वनिर्धारित कीको आईडी"
 
 #: ../data/seahorse-plugins.schemas.in.h:9
 msgid ""
@@ -183,16 +183,16 @@ msgid ""
 "If set to true, then the default key will always be added to an encryption "
 "recipients list."
 msgstr ""
-"यदि सही सेट गरियो भने, पूर्वनिर्धारित कुञ्जी सधै एउटा गुप्तिकरण प्रापक "
+"यदि सही सेट गरियो भने, पूर्वनिर्धारित की सधै एउटा गुप्तिकरण प्रापक "
 "सूचीमा थपिनेछ ।"
 
 #: ../data/seahorse-plugins.schemas.in.h:12
 msgid "Last key used to sign a message."
-msgstr "सन्देश साइन गर्न अन्तिम कुञ्जी प्रयोग गरियो ।"
+msgstr "सन्देश साइन गर्न अन्तिम की प्रयोग गरियो ।"
 
 #: ../data/seahorse-plugins.schemas.in.h:13
 msgid "PGP Key servers"
-msgstr "पीजीपी कुञ्जी सर्भर"
+msgstr "पीजीपी की सर्भर"
 
 #: ../data/seahorse-plugins.schemas.in.h:14
 msgid "Prompt before using GPG passwords in cache"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../data/seahorse-plugins.schemas.in.h:20
 msgid "The ID of the last secret key used to sign a message."
-msgstr "सन्देस साइन गर्न प्रयोग गरिएको अन्तिम गोप्य कुञ्जीको आईडी ।"
+msgstr "सन्देस साइन गर्न प्रयोग गरिएको अन्तिम गोप्य कीको आईडी ।"
 
 #: ../data/seahorse-plugins.schemas.in.h:21
 msgid "The column to sort the recipients by"
@@ -268,7 +268,7 @@ msgid ""
 "This specifies the default key to use for certain operations, mainly signing."
 msgstr ""
 "यसले खास गरेर साइनिङ गर्न, निश्चित सञ्चालनहरूका लागि पूर्वनिर्धारित "
-"कुञ्जीलाई निर्दिष्ट गर्दछ ।"
+"कीलाई निर्दिष्ट गर्दछ ।"
 
 #: ../data/seahorse-plugins.schemas.in.h:26
 msgid ""
@@ -288,7 +288,7 @@ msgstr "जीपीजी पासवर्ड क्यास सक्षम
 
 #: ../data/seahorse-plugins.schemas.in.h:29
 msgid "Whether to always encrypt to default key"
-msgstr "पूर्वनिर्धारित कुञ्जीमा सधै गुप्तिकरण गर्ने या नगर्ने"
+msgstr "पूर्वनिर्धारित कीमा सधै गुप्तिकरण गर्ने या नगर्ने"
 
 #: ../data/seahorse-plugins.schemas.in.h:30
 msgid "Whether to use ASCII Armor"
@@ -334,23 +334,23 @@ msgstr "गुप्तिकरण गरिएको प्याकेज"
 #: ../libseahorse/seahorse-notification.c:598
 msgid "Key Imported"
 msgid_plural "Keys Imported"
-msgstr[0] "कुञ्जी आयात गरियो"
-msgstr[1] "कुञ्जीहरू आयात गरियो"
+msgstr[0] "की आयात गरियो"
+msgstr[1] "कीहरू आयात गरियो"
 
 #: ../libseahorse/seahorse-notification.c:577
 #: ../libseahorse/seahorse-notification.c:597
 #, c-format
 msgid "Imported %i key"
 msgid_plural "Imported %i keys"
-msgstr[0] "आयात गरिएका %i कुञ्जी"
-msgstr[1] "आयात गरिएका %i कुञ्जी"
+msgstr[0] "आयात गरिएका %i की"
+msgstr[1] "आयात गरिएका %i की"
 
 #: ../libseahorse/seahorse-notification.c:579
 #, c-format
 msgid "Imported a key for"
 msgid_plural "Imported keys for"
-msgstr[0] "यसका लागि कुञ्जी आयात गरियो"
-msgstr[1] "यसका लागि कुञ्जी आयात गरियो"
+msgstr[0] "यसका लागि की आयात गरियो"
+msgstr[1] "यसका लागि की आयात गरियो"
 
 #. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
 #: ../libseahorse/seahorse-notification.c:616
@@ -395,7 +395,7 @@ msgstr "राम्रो हस्ताक्षर"
 
 #: ../libseahorse/seahorse-notification.c:643
 msgid "Signing key not in keyring."
-msgstr "किरिङमा साइनिङ कुञ्जी छैन ।"
+msgstr "किरिङमा साइनिङ की छैन ।"
 
 #: ../libseahorse/seahorse-notification.c:644
 msgid "Unknown Signature"
@@ -454,7 +454,7 @@ msgstr "पासफ्रेज प्रविष्ट गर्नुहो�
 
 #: ../libseahorse/seahorse-prefs.c:101
 msgid "None. Prompt for a key."
-msgstr "कुनै पनि होइन. कुञ्जीका लागि प्रोम्प्ट गर्नुहोस् ।"
+msgstr "कुनै पनि होइन. कीका लागि प्रोम्प्ट गर्नुहोस् ।"
 
 #: ../libseahorse/seahorse-prefs.xml.h:1
 msgid "<b>Default Key</b>"
@@ -471,7 +471,7 @@ msgstr ""
 #: ../libseahorse/seahorse-prefs.xml.h:4
 msgid "<i>This key is used to sign messages when no other key is chosen</i>"
 msgstr ""
-"<i>यो कुञ्जी अन्य कुञ्जी छनौट नगर्दा सन्देशहरू साइन गर्न प्रयोग गरिन्छ</i>"
+"<i>यो की अन्य की छनौट नगर्दा सन्देशहरू साइन गर्न प्रयोग गरिन्छ</i>"
 
 #: ../libseahorse/seahorse-prefs.xml.h:5
 msgid "As_k me before using a cached passphrase"
@@ -524,7 +524,7 @@ msgstr "प्रगति शीर्षक"
 
 #: ../libseahorse/seahorse-util.c:173
 msgid "Decryption failed. You probably do not have the decryption key."
-msgstr "गुप्तलेखन असफल भयो । तपाईँसँग सम्भवत गुप्तलेखन कुञ्जी छैन ।"
+msgstr "गुप्तलेखन असफल भयो । तपाईँसँग सम्भवत गुप्तलेखन की छैन ।"
 
 #: ../libseahorse/seahorse-util.c:223
 msgid "%Y-%m-%d"
@@ -547,7 +547,7 @@ msgstr "फाइल रोलर प्रक्रिया सफलताप
 #. cases that extension is associated with text/plain
 #: ../libseahorse/seahorse-util.c:708
 msgid "All key files"
-msgstr "सबै कुञ्जी फाइलहरू"
+msgstr "सबै की फाइलहरू"
 
 #: ../libseahorse/seahorse-util.c:715 ../libseahorse/seahorse-util.c:755
 msgid "All files"
@@ -636,7 +636,7 @@ msgstr "सिहर्स परियोजना गृहपृष्ठ"
 #: ../plugins/epiphany/seahorse-extension.c:275
 #: ../plugins/gedit/seahorse-gedit.c:338
 msgid "Choose Recipient Keys"
-msgstr "प्रापक कुञ्जीहरू रोज्नुहोस्"
+msgstr "प्रापक कीहरू रोज्नुहोस्"
 
 #: ../plugins/applet/seahorse-applet.c:414
 msgid "Encrypted Text"
@@ -654,7 +654,7 @@ msgstr "क्लिपबोर्ड गुप्तिकरण गर्न 
 #: ../plugins/epiphany/seahorse-extension.c:325
 #: ../plugins/gedit/seahorse-gedit.c:628
 msgid "Choose Key to Sign with"
-msgstr "यससँग साइन गर्न कुञ्जी रोज्नुहोस्"
+msgstr "यससँग साइन गर्न की रोज्नुहोस्"
 
 #: ../plugins/applet/seahorse-applet.c:474
 msgid "Signed Text"
@@ -680,11 +680,11 @@ msgstr "आयात असफल भयो"
 #: ../plugins/epiphany/seahorse-extension.c:370
 #: ../plugins/nautilus/seahorse-tool.c:465
 msgid "Keys were found but not imported."
-msgstr "कुञ्जीहरू फेला पर्यो तर आयात गरिएका छैन ।"
+msgstr "कीहरू फेला पर्यो तर आयात गरिएका छैन ।"
 
 #: ../plugins/applet/seahorse-applet.c:611
 msgid "No PGP key or message was found on clipboard"
-msgstr "क्लिपबोर्डमा कुनै पीजीपी कुञ्जी वा सन्देश फेला परेन"
+msgstr "क्लिपबोर्डमा कुनै पीजीपी की वा सन्देश फेला परेन"
 
 #: ../plugins/applet/seahorse-applet.c:612
 msgid "No PGP data found."
@@ -709,7 +709,7 @@ msgstr "क्लिपबोर्ड गुप्तलेखन/रूजु 
 
 #: ../plugins/applet/seahorse-applet.c:828
 msgid "_Import Keys from Clipboard"
-msgstr "क्लिपबोर्डबाट कुञ्जीहरू आयात गर्नुहोस्"
+msgstr "क्लिपबोर्डबाट कीहरू आयात गर्नुहोस्"
 
 #: ../plugins/applet/seahorse-applet.c:890
 #: ../plugins/applet/seahorse-applet.c:892
@@ -762,7 +762,7 @@ msgstr "गुप्तलेखन/रूजु गर्नुहोस्"
 
 #: ../plugins/epiphany/seahorse-extension.c:653
 msgid "_Import Key"
-msgstr "कुञ्जी आयात गर्नुहोस्"
+msgstr "की आयात गर्नुहोस्"
 
 #: ../plugins/gedit/seahorse-gedit.c:268
 msgid "Couldn't connect to seahorse-daemon"
@@ -778,11 +778,11 @@ msgstr "पाठ गुप्तिकरण गर्न सकिएन"
 
 #: ../plugins/gedit/seahorse-gedit.c:393
 msgid "Couldn't import keys"
-msgstr "कुञ्जीहरू आयात गर्न सकिएन"
+msgstr "कीहरू आयात गर्न सकिएन"
 
 #: ../plugins/gedit/seahorse-gedit.c:402
 msgid "Keys found but not imported"
-msgstr "कुञ्जीहरू फेला पर्यो तर आयात गरिएन"
+msgstr "कीहरू फेला पर्यो तर आयात गरिएन"
 
 #: ../plugins/gedit/seahorse-gedit.c:439
 msgid "Couldn't decrypt text"
@@ -809,8 +809,8 @@ msgstr "रुजु गरिएको पाठ"
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
-msgstr[0] "आयात गरिएको %d कुञ्जी"
-msgstr[1] "आयात गरिएको %d कुञ्जी"
+msgstr[0] "आयात गरिएको %d की"
+msgstr[1] "आयात गरिएको %d की"
 
 #: ../plugins/gedit/seahorse-gedit.c:650
 msgid "Signed text"
@@ -890,7 +890,7 @@ msgstr "गुप्तिकरण प्राथमिकता"
 
 #: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
 msgid "Configure key servers and other encryption settings"
-msgstr "कुञ्जी सर्भर र अन्य गुप्तिकरण सेटिङ कन्फिगर गर्नुहोस्"
+msgstr "की सर्भर र अन्य गुप्तिकरण सेटिङ कन्फिगर गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
 msgid "Decrypt File"
@@ -898,7 +898,7 @@ msgstr "फाइल गुप्तलेखन गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
 msgid "Import Key"
-msgstr "कुञ्जी आयात गर्नुहोस्"
+msgstr "की आयात गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
 msgid "Verify Signature"
@@ -906,7 +906,7 @@ msgstr "हस्ताक्षर रुजु गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-tool.c:62
 msgid "Import keys from the file"
-msgstr "फाइलबाट कुञ्जीहरू आयात गर्नुहोस्"
+msgstr "फाइलबाट कीहरू आयात गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-tool.c:64
 msgid "Encrypt file"
@@ -914,11 +914,11 @@ msgstr "फाइल गुप्तिकरण गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-tool.c:66
 msgid "Sign file with default key"
-msgstr "पूर्वनिर्धारित कुञ्जीसँग फाइल हस्ताक्षर गर्नुहोस्"
+msgstr "पूर्वनिर्धारित कीसँग फाइल हस्ताक्षर गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-tool.c:68
 msgid "Encrypt and sign file with default key"
-msgstr "पूर्वनिर्धारित कुञ्जीसँग फाइल गुप्तिकरण र हस्ताक्षर गर्नुहोस्"
+msgstr "पूर्वनिर्धारित कीसँग फाइल गुप्तिकरण र हस्ताक्षर गर्नुहोस्"
 
 #: ../plugins/nautilus/seahorse-tool.c:70
 msgid "Decrypt encrypted file"
@@ -943,7 +943,7 @@ msgstr "प्रापकहरू रोज्नुहोस्"
 #: ../plugins/nautilus/seahorse-tool.c:232
 #: ../plugins/nautilus/seahorse-tool.c:341
 msgid "Couldn't load keys"
-msgstr "कुञ्जीहरू लोड गर्न सकिएन"
+msgstr "कीहरू लोड गर्न सकिएन"
 
 #: ../plugins/nautilus/seahorse-tool.c:250
 #, c-format
@@ -970,7 +970,7 @@ msgstr ""
 #: ../plugins/nautilus/seahorse-tool.c:488
 #, c-format
 msgid "Imported key"
-msgstr "आयात गरिएको कुञ्जी"
+msgstr "आयात गरिएको की"
 
 #. File to decrypt to
 #: ../plugins/nautilus/seahorse-tool.c:512
@@ -1022,7 +1022,7 @@ msgstr "आयात गर्दै"
 #: ../plugins/nautilus/seahorse-tool.c:724
 #, c-format
 msgid "Couldn't import keys from file: %s"
-msgstr "फाइलबाट कुञ्जीहरू आयात गर्न सकिएन: %s"
+msgstr "फाइलबाट कीहरू आयात गर्न सकिएन: %s"
 
 #: ../plugins/nautilus/seahorse-tool.c:730
 msgid "Decrypting"

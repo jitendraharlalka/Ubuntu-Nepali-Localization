@@ -94,7 +94,7 @@ msgid ""
 "Some other program is already using the key %s with modifiers %x as a "
 "binding\n"
 msgstr ""
-"केही अन्य कार्यक्रमले पहिले नै कुञ्जी %s प्रयोग गरिरहेका छन् जसमा परिमार्जक "
+"केही अन्य कार्यक्रमले पहिले नै की %s प्रयोग गरिरहेका छन् जसमा परिमार्जक "
 "%x बाइन्डिङका रूपमा छन्\n"
 
 #. Displayed when a keybinding which is
@@ -201,7 +201,7 @@ msgstr "फेरि सुरु गर्न असफल: %s\n"
 #: ../src/core/prefs.c:515 ../src/core/prefs.c:670
 #, c-format
 msgid "GConf key '%s' is set to an invalid value\n"
-msgstr "जीकन्फ कुञ्जी \"%s\" लाई अमान्य मानमा सेट गरिएको छ\n"
+msgstr "जीकन्फ की \"%s\" लाई अमान्य मानमा सेट गरिएको छ\n"
 
 #: ../src/core/prefs.c:596 ../src/core/prefs.c:839
 #, c-format
@@ -213,7 +213,7 @@ msgstr ""
 #: ../src/core/prefs.c:1155 ../src/core/prefs.c:1171
 #, c-format
 msgid "GConf key \"%s\" is set to an invalid type\n"
-msgstr "जीकन्फ कुञ्जी \"%s\" लाई अमान्य प्रकारमा सेट गरिएको छ\n"
+msgstr "जीकन्फ की \"%s\" लाई अमान्य प्रकारमा सेट गरिएको छ\n"
 
 #: ../src/core/prefs.c:1241
 msgid ""
@@ -253,7 +253,7 @@ msgid ""
 "\"%s\" found in configuration database is not a valid value for keybinding "
 "\"%s\"\n"
 msgstr ""
-"कन्फिगरेसन डाटाबेसमा भेटिएको \"%s\" कुञ्जी बाइन्डिङ \"%s\" का लागि मान्य मान "
+"कन्फिगरेसन डाटाबेसमा भेटिएको \"%s\" की बाइन्डिङ \"%s\" का लागि मान्य मान "
 "होइन\n"
 
 #: ../src/core/prefs.c:2550
@@ -886,7 +886,7 @@ msgstr ""
 
 #: ../src/metacity.schemas.in.in.h:10
 msgid "Commands to run in response to keybindings"
-msgstr "कुञ्जी बाइन्डिङको प्रतिक्रियामा चलाइने आदेश"
+msgstr "की बाइन्डिङको प्रतिक्रियामा चलाइने आदेश"
 
 #: ../src/metacity.schemas.in.in.h:11
 msgid "Compositing Manager"
@@ -934,7 +934,7 @@ msgid ""
 "raise it, nor to entering a window during drag-and-drop."
 msgstr ""
 "यदि ठीकमा सेट भएमा, र फोकस मोड यात \"स्लोपी\" वा \"माउस\" भएमा फोकस गरिएको "
-"विन्डो स्वत वृद्धि विलम्ब कुञ्जीद्वारा निर्दिष्ट गरिएको विलम्ब पछि "
+"विन्डो स्वत वृद्धि विलम्ब कीद्वारा निर्दिष्ट गरिएको विलम्ब पछि "
 "स्वचालित रूपमा बढ्दछ । यसलाई बढाउनु न विन्डोमा क्लिक गर्नुसँग सम्बन्धित "
 "छैन, त्यस्तै तान्ने र छोड्ने गर्दा विन्डोमा प्रविष्टि गर्नुसँग पनि "
 "सम्बन्धित छैन ।"
@@ -1079,8 +1079,8 @@ msgid ""
 "that correspond to these commands. Pressing the keybinding for run_command_N "
 "will execute command_N."
 msgstr ""
-"/apps/metacity/global_keybindings/run_command_N कुञ्जीले यी आदेशमा सम्बन्धित "
-"कुञ्जी बाइन्डिङलाई परिभाषित गर्दछ । run_command_N का लागि कुञ्जी बाइन्डिङ "
+"/apps/metacity/global_keybindings/run_command_N कीले यी आदेशमा सम्बन्धित "
+"की बाइन्डिङलाई परिभाषित गर्दछ । run_command_N का लागि की बाइन्डिङ "
 "थिच्दा command_N कार्यान्वयन गर्नेछ ।"
 
 #: ../src/metacity.schemas.in.in.h:35
@@ -1088,7 +1088,7 @@ msgid ""
 "The /apps/metacity/global_keybindings/run_command_screenshot key defines a "
 "keybinding which causes the command specified by this setting to be invoked."
 msgstr ""
-"/apps/metacity/global_keybindings/run_command_screenshot कुञ्जीले कुञ्जी "
+"/apps/metacity/global_keybindings/run_command_screenshot कीले की "
 "बाइन्डिङ परिभाषित गर्दछ जसको कारणले यस सेटिङद्वारा निर्दिष्ट गरिएका आदेश "
 "आह्वान गरिन्छन् ।"
 
@@ -1098,8 +1098,8 @@ msgid ""
 "defines a keybinding which causes the command specified by this setting to "
 "be invoked."
 msgstr ""
-"/apps/metacity/global_keybindings/run_command_window_screenshot कुञ्जीले "
-"कुञ्जी बाइन्डिङ परिभाषित गर्दछ जसको कारणले यस सेटिङद्वारा निर्दिष्ट गरिएका "
+"/apps/metacity/global_keybindings/run_command_window_screenshot कीले "
+"की बाइन्डिङ परिभाषित गर्दछ जसको कारणले यस सेटिङद्वारा निर्दिष्ट गरिएका "
 "आदेश आह्वान गर्दछ ।"
 
 #: ../src/metacity.schemas.in.in.h:37
@@ -1112,11 +1112,11 @@ msgid ""
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
 "/apps/metacity/keybinding_commands मा सङ्गत क्रमाङ्कन गरिएका आदेश चलाउने "
-"कुञ्जी बाइन्डिङ । ढाँचा \"&lt;Control&gt;a\" वा "
+"की बाइन्डिङ । ढाँचा \"&lt;Control&gt;a\" वा "
 "\"&lt;Shift&gt;&lt;Alt&gt;F1\" जस्तो देखिन्छ ।पद वर्णनकर्ता पर्याप्त उदार "
 "हुन्छ र सानोवर्ण र ठूलोवर्णलाई, \"&lt;Ctl&gt;\" र \"&lt;Ctrl&gt;\" जस्ता "
 "संक्षिप्त रूपलाई पनि अनुमति दिन्छ । यदि तपाईँले विकल्पलाई विशेष स्ट्रिङ "
-"\"अक्षम पारिएको\" सेट गरेमा, त्यहाँ यस कार्यका लागि कुञ्जी बाइन्डिङ हुदैन ।"
+"\"अक्षम पारिएको\" सेट गरेमा, त्यहाँ यस कार्यका लागि की बाइन्डिङ हुदैन ।"
 
 #: ../src/metacity.schemas.in.in.h:38
 msgid "The name of a workspace."

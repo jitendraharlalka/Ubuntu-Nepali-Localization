@@ -197,7 +197,7 @@ msgstr "सन्दर्भ:"
 #: articlewidget.cpp:791
 #, kde-format
 msgid "Message was signed with unknown key 0x%1."
-msgstr "अज्ञात कुञ्जी 0x%1 द्वारा सन्देश चिनो लगाइएको थियो ।"
+msgstr "अज्ञात की 0x%1 द्वारा सन्देश चिनो लगाइएको थियो ।"
 
 #: articlewidget.cpp:794
 msgid "The validity of the signature cannot be verified."
@@ -206,7 +206,7 @@ msgstr "हस्ताक्षरको वैद्यता रुजु ग
 #: articlewidget.cpp:812
 #, kde-format
 msgid "Message was signed by %1 (Key ID: 0x%2)."
-msgstr "सन्देश %1 (कुञ्जी आईडी: 0x%2) द्वारा चिनो लगाइएको थियो ।"
+msgstr "सन्देश %1 (की आईडी: 0x%2) द्वारा चिनो लगाइएको थियो ।"
 
 #: articlewidget.cpp:816
 #, kde-format
@@ -215,23 +215,23 @@ msgstr "सन्देश %1 द्वारा चिनो लगाइएक
 
 #: articlewidget.cpp:826
 msgid "The signature is valid, but the key's validity is unknown."
-msgstr "हस्ताक्षर वैद्य छ, तर कुञ्जीको वैद्यता अज्ञात छ ।"
+msgstr "हस्ताक्षर वैद्य छ, तर कीको वैद्यता अज्ञात छ ।"
 
 #: articlewidget.cpp:830
 msgid "The signature is valid and the key is marginally trusted."
-msgstr "हस्ताक्षर वैद्य छ र कुञ्जी आंशिक विश्वासिलो छ ।"
+msgstr "हस्ताक्षर वैद्य छ र की आंशिक विश्वासिलो छ ।"
 
 #: articlewidget.cpp:834
 msgid "The signature is valid and the key is fully trusted."
-msgstr "हस्ताक्षर वैद्य छ र कुञ्जी पूर्ण विश्वासिलो छ ।"
+msgstr "हस्ताक्षर वैद्य छ र की पूर्ण विश्वासिलो छ ।"
 
 #: articlewidget.cpp:838
 msgid "The signature is valid and the key is ultimately trusted."
-msgstr "हस्ताक्षर वैद्य छ र कुञ्जी अतिनै विश्वासिलो छ ।"
+msgstr "हस्ताक्षर वैद्य छ र की अतिनै विश्वासिलो छ ।"
 
 #: articlewidget.cpp:842
 msgid "The signature is valid, but the key is untrusted."
-msgstr "हस्ताक्षर वैद्य छ, तर कुञ्जी अविश्वाशिलो छ ।"
+msgstr "हस्ताक्षर वैद्य छ, तर की अविश्वाशिलो छ ।"
 
 #: articlewidget.cpp:846
 msgid "Warning: The signature is bad."
@@ -920,7 +920,7 @@ msgid ""
 "in the account properties or in the group properties.\n"
 "The article will be sent unsigned."
 msgstr ""
-"तपाईँले अहिलेसम्म रुचाएका साइनिङ कुञ्जी कन्फिगर गर्नु भएको छैन;\n"
+"तपाईँले अहिलेसम्म रुचाएका साइनिङ की कन्फिगर गर्नु भएको छैन;\n"
 "कृपया यसलाई विश्वब्यापी परिचय कन्फिगरेसनमा,\n"
 "खाता गुणमा वा समूह गुणमा निर्दिष्ट गर्नुहोस् ।\n"
 "लेख चिन्ह नलगाइकन पठाइनेछ ।"
@@ -1262,23 +1262,23 @@ msgstr ""
 
 #: knconfigwidgets.cpp:128
 msgid "Your OpenPGP Key"
-msgstr "तपाईँको OpenPGP कुञ्जी"
+msgstr "तपाईँको OpenPGP की"
 
 #: knconfigwidgets.cpp:129
 msgid "Select the OpenPGP key which should be used for signing articles."
 msgstr ""
-"लेख साइनिङ गर्नका लागि प्रयोग गर्नुपर्ने OpenPGP कुञ्जी चयन गर्नुहोस् ।"
+"लेख साइनिङ गर्नका लागि प्रयोग गर्नुपर्ने OpenPGP की चयन गर्नुहोस् ।"
 
 #: knconfigwidgets.cpp:131
 msgid "Signing ke&y:"
-msgstr "साइनिङ कुञ्जी:"
+msgstr "साइनिङ की:"
 
 #: knconfigwidgets.cpp:135
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to sign your "
 "articles.</p></qt>"
 msgstr ""
-"<qt><p>यहाँ चयन गरेका OpenPGP कुञ्जी तपाईँका लेखमा चिन्ह लगाउन प्रयोग "
+"<qt><p>यहाँ चयन गरेका OpenPGP की तपाईँका लेखमा चिन्ह लगाउन प्रयोग "
 "गरिन्छन् ।</p></qt>"
 
 #: knconfigwidgets.cpp:146
@@ -3318,13 +3318,13 @@ msgstr "लेख पढ्नबाट हटाउनुहोस्"
 #. i18n: ectx: label, entry (signOkKeyOkColor), group (VISUAL_APPEARANCE)
 #: rc.cpp:255
 msgid "Valid Signature with Trusted Key"
-msgstr "विश्वाशिला कुञ्जीसँग वैद्य हस्ताक्षर"
+msgstr "विश्वाशिला कीसँग वैद्य हस्ताक्षर"
 
 #. i18n: file: knode.kcfg:331
 #. i18n: ectx: label, entry (signOkKeyBadColor), group (VISUAL_APPEARANCE)
 #: rc.cpp:258
 msgid "Valid Signature with Untrusted Key"
-msgstr "अविश्वाशिला कुञ्जीसँग वैद्य हस्ताक्षर"
+msgstr "अविश्वाशिला कीसँग वैद्य हस्ताक्षर"
 
 #. i18n: file: knode.kcfg:335
 #. i18n: ectx: label, entry (signWarnColor), group (VISUAL_APPEARANCE)

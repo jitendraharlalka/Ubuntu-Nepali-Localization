@@ -626,11 +626,11 @@ msgstr ""
 
 #: ui/keyapprovaldialog.cpp:87
 msgid "Never Encrypt with This Key"
-msgstr "यो कुञ्जी कहिल्यै गुप्तिकरण नगर्नुहोस्"
+msgstr "यो की कहिल्यै गुप्तिकरण नगर्नुहोस्"
 
 #: ui/keyapprovaldialog.cpp:88
 msgid "Always Encrypt with This Key"
-msgstr "यो कुञ्जी सधै गुप्तिकरण गर्नुहोस्"
+msgstr "यो की सधै गुप्तिकरण गर्नुहोस्"
 
 #: ui/keyapprovaldialog.cpp:89
 msgid "Encrypt Whenever Encryption is Possible"
@@ -646,15 +646,15 @@ msgstr "गुप्तिकरण सम्भव हुँदा सोध्
 
 #: ui/keyapprovaldialog.cpp:112
 msgid "Encryption Key Approval"
-msgstr "गुप्तिकरण कुञ्जी सहमति"
+msgstr "गुप्तिकरण की सहमति"
 
 #: ui/keyapprovaldialog.cpp:124
 msgid "The following keys will be used for encryption:"
-msgstr "निम्न कुञ्जीहरू गुप्तिकरणका लागि प्रयोग गरिनेछ:"
+msgstr "निम्न कीहरू गुप्तिकरणका लागि प्रयोग गरिनेछ:"
 
 #: ui/keyapprovaldialog.cpp:144
 msgid "Your keys:"
-msgstr "तपाईँको कुञ्जी:"
+msgstr "तपाईँको की:"
 
 #: ui/keyapprovaldialog.cpp:156
 msgid "Recipient:"
@@ -662,7 +662,7 @@ msgstr "प्रापक:"
 
 #: ui/keyapprovaldialog.cpp:161
 msgid "Encryption keys:"
-msgstr "गुप्तिकरण कुञ्जी:"
+msgstr "गुप्तिकरण की:"
 
 #: ui/keyapprovaldialog.cpp:168
 msgid "Encryption preference:"
@@ -687,55 +687,55 @@ msgid ""
 "<qt><p>An error occurred while fetching the keys from the "
 "backend:</p><p><b>%1</b></p></qt>"
 msgstr ""
-"<qt><p>ब्याकइन्डबाट कुञ्जी ल्याउदा त्रुटि उत्पन्न "
+"<qt><p>ब्याकइन्डबाट की ल्याउदा त्रुटि उत्पन्न "
 "भयो:</p><p><b>%1</b></p></qt>"
 
 #: ui/keyrequester.cpp:236 ui/keyrequester.cpp:265 ui/keyrequester.cpp:289
 #: ui/keyselectiondialog.cpp:524 ui/keyselectiondialog.cpp:556
 msgid "Key Listing Failed"
-msgstr "कुञ्जी सूचीकरण असफल"
+msgstr "की सूचीकरण असफल"
 
 #: ui/keyrequester.cpp:263
 msgid ""
 "The OpenPGP backend does not support listing keys. Check your installation."
 msgstr ""
-"ओपन पीजीपी ब्याकइन्डले सूचीकरण कुञ्जी समर्थन गर्दैन । तपाईँको स्थापना जाँच "
+"ओपन पीजीपी ब्याकइन्डले सूचीकरण की समर्थन गर्दैन । तपाईँको स्थापना जाँच "
 "गर्नुहोस् ।"
 
 #: ui/keyrequester.cpp:287
 msgid ""
 "The S/MIME backend does not support listing keys. Check your installation."
 msgstr ""
-"S/MIME ब्याकइन्डले सूचीकरण कुञ्जी समर्थन गर्दैन । तपाईँको स्थापना जाँच "
+"S/MIME ब्याकइन्डले सूचीकरण की समर्थन गर्दैन । तपाईँको स्थापना जाँच "
 "गर्नुहोस् ।"
 
 #: ui/keyrequester.cpp:392
 msgid "OpenPGP Key Selection"
-msgstr "ओपन पीजीपी कुञ्जी चयन"
+msgstr "ओपन पीजीपी की चयन"
 
 #: ui/keyrequester.cpp:393
 msgid "Please select an OpenPGP key to use."
-msgstr "कृपया ओपन पीजीपी कुञ्जी प्रयोग गर्न चयन गर्नुहोस् ।"
+msgstr "कृपया ओपन पीजीपी की प्रयोग गर्न चयन गर्नुहोस् ।"
 
 #: ui/keyrequester.cpp:395
 msgid "S/MIME Key Selection"
-msgstr "S/MIME कुञ्जी चयन"
+msgstr "S/MIME की चयन"
 
 #: ui/keyrequester.cpp:396
 msgid "Please select an S/MIME key to use."
-msgstr "कृपया S/MIME कुञ्जी प्रयोग गर्न चयन गर्नुहोस् ।"
+msgstr "कृपया S/MIME की प्रयोग गर्न चयन गर्नुहोस् ।"
 
 #: ui/keyrequester.cpp:398
 msgid "Key Selection"
-msgstr "कुञ्जी चयन"
+msgstr "की चयन"
 
 #: ui/keyrequester.cpp:399
 msgid "Please select an (OpenPGP or S/MIME) key to use."
-msgstr "कृपया (ओपन पीजीपी वा S/MIME) कुञ्जी प्रयोग गर्न चयन गर्नुहोस् ।"
+msgstr "कृपया (ओपन पीजीपी वा S/MIME) की प्रयोग गर्न चयन गर्नुहोस् ।"
 
 #: ui/keyselectiondialog.cpp:203
 msgid "Key ID"
-msgstr "कुञ्जीआईडी"
+msgstr "कीआईडी"
 
 #: ui/keyselectiondialog.cpp:204
 msgid "User ID"
@@ -773,7 +773,7 @@ msgid ""
 "Fingerprint: %4\n"
 "Issuer: %5"
 msgstr ""
-"%1 का लागि S/MIME कुञ्जी\n"
+"%1 का लागि S/MIME की\n"
 "सिर्जना: %2\n"
 "म्याद समाप्त: %3\n"
 "औँठाछाप: %4\n"
@@ -797,7 +797,7 @@ msgstr ""
 
 #: ui/keyselectiondialog.cpp:420
 msgid "&Reread Keys"
-msgstr "कुञ्जी पुन: पढ्नुहोस्"
+msgstr "की पुन: पढ्नुहोस्"
 
 #: ui/keyselectiondialog.cpp:421
 msgid "&Start Certificate Manager"
@@ -806,7 +806,7 @@ msgstr ""
 #: ui/keyselectiondialog.cpp:522
 msgid "No backends found for listing keys. Check your installation."
 msgstr ""
-"सूचीकरण कुञ्जीका लागि ब्याकइन्ड फेला परेन । तपाईँको स्थापना जाँच गर्नुहोस् ।"
+"सूचीकरण कीका लागि ब्याकइन्ड फेला परेन । तपाईँको स्थापना जाँच गर्नुहोस् ।"
 
 #: ui/keyselectiondialog.cpp:540
 msgid "Could not start certificate manager; please check your installation."
@@ -818,11 +818,11 @@ msgstr ""
 
 #: ui/keyselectiondialog.cpp:589
 msgid "Checking selected keys..."
-msgstr "चयन गरेको कुञ्जी जाँच गर्दैछ..."
+msgstr "चयन गरेको की जाँच गर्दैछ..."
 
 #: ui/keyselectiondialog.cpp:589
 msgid "Fetching keys..."
-msgstr "कुञ्जी ल्याउदैछ..."
+msgstr "की ल्याउदैछ..."
 
 #: ui/keyselectiondialog.cpp:613
 #, kde-format
@@ -837,11 +837,11 @@ msgstr[1] ""
 
 #: ui/keyselectiondialog.cpp:618
 msgid "Key List Result"
-msgstr "कुञ्जी सूची परिणाम"
+msgstr "की सूची परिणाम"
 
 #: ui/keyselectiondialog.cpp:725
 msgid "Recheck Key"
-msgstr "कुञ्जी पुन: जाँच गर्नुहोस्"
+msgstr "की पुन: जाँच गर्नुहोस्"
 
 #: ui/messagebox.cpp:66
 msgid "&Save to Disk..."
@@ -1056,11 +1056,11 @@ msgstr "कन्फिगरेसन बचत गर्दा gpgconf बा�
 
 #: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:50
 msgid "Generating DSA key..."
-msgstr "DSA कुञ्जी उत्पन्न गर्दैछ..."
+msgstr "DSA की उत्पन्न गर्दैछ..."
 
 #: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:54
 msgid "Generating ElGamal key..."
-msgstr "ElGamal कुञ्जी उत्पन्न गर्दैछ..."
+msgstr "ElGamal की उत्पन्न गर्दैछ..."
 
 #: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:59
 msgid "Searching for a large prime number..."
