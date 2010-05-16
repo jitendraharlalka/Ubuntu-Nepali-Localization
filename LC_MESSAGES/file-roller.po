@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: file-roller.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-09 03:27+0000\n"
-"PO-Revision-Date: 2010-05-05 15:50+0545\n"
+"PO-Revision-Date: 2010-05-16 10:58+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -500,6 +500,8 @@ msgid ""
 "There is no command installed for %s files.\n"
 "Do you want to search for a command to open this file?"
 msgstr ""
+"%s फाइलहरुका लागि कुनै कमान्ड इन्सटल भएको छैन।\n"
+"के तपाई यो फाइल खोल्नका लागि कमान्ड खोज्न चाहनुहुन्छ?"
 
 #: ../src/dlg-package-installer.c:236
 msgid "Could not open this file type"
@@ -545,12 +547,12 @@ msgstr "फाइलहरूको सङ्ख्या:"
 #: ../src/dlg-update.c:159
 #, c-format
 msgid "Update the file \"%s\" in the archive \"%s\"?"
-msgstr ""
+msgstr "संग्रह \"%s\" का फाइलहरु अद्यावधिक गर्ने?"
 
 #: ../src/dlg-update.c:173
 #, c-format
 msgid "Update the files in the archive \"%s\"?"
-msgstr ""
+msgstr "संग्रह \"%s\" का फाइलहरु अद्यावधिक गर्ने?"
 
 #: ../src/eggfileformatchooser.c:236
 #, c-format
@@ -567,7 +569,7 @@ msgstr "सबै समर्थित फाइलहरू"
 
 #: ../src/eggfileformatchooser.c:407
 msgid "By Extension"
-msgstr ""
+msgstr "विस्तारद्धारा"
 
 #: ../src/eggfileformatchooser.c:422
 msgid "File Format"
@@ -575,15 +577,18 @@ msgstr "फाइल ढाँचा"
 
 #: ../src/eggfileformatchooser.c:440
 msgid "Extension(s)"
-msgstr ""
+msgstr "विस्तार(हरु)"
 
 #: ../src/eggfileformatchooser.c:675
 #, c-format
 msgid ""
-"The program was not able to find out the file format you want to use for "
-"`%s'. Please make sure to use a known extension for that file or manually "
+"The program was not able to find out the file format you want to use for `%"
+"s'. Please make sure to use a known extension for that file or manually "
 "choose a file format from the list below."
 msgstr ""
+"प्रोग्रामले तपाईले '%s' का लागि प्रयोग गर्न चाहनुभएको फाइल ढाँचा फेला पार्न "
+"सकेन । कृपया त्यो फाइलका लागि ज्ञात विस्तार प्रयोग गर्ने निश्चित गर्नुहोस् "
+"वा तलको सूचीबाट आफैँ फाइल ढाँचा रोज्नुहोस् ।"
 
 #: ../src/eggfileformatchooser.c:682
 msgid "File format not recognized"
@@ -599,7 +604,7 @@ msgstr "तपाईँसँग अधिकार अनुमातिहर�
 
 #: ../src/fr-archive.c:1934
 msgid "This archive type cannot be modified"
-msgstr ""
+msgstr "यो संग्रह प्रकार परिवर्तन गर्न सकिँदैन"
 
 #: ../src/fr-archive.c:1946
 msgid "You can't add an archive to itself."
@@ -622,7 +627,7 @@ msgstr "फाइल हटाउँदै: "
 #: ../src/fr-command-rar.c:677
 #, c-format
 msgid "Could not find the volume: %s"
-msgstr ""
+msgstr "भोल्युम फेला पार्न सकेन: %s"
 
 #: ../src/fr-command-tar.c:374 ../src/fr-window.c:2312
 msgid "Deleting files from archive"
@@ -709,11 +714,11 @@ msgstr "सङ्ग्रह बचत गर्दै"
 
 #: ../src/fr-window.c:2493
 msgid "_Open the Archive"
-msgstr ""
+msgstr "संग्रह खोल्नुहोस्"
 
 #: ../src/fr-window.c:2494
 msgid "_Show the Files"
-msgstr ""
+msgstr "फाइलहरु देखाउने"
 
 #: ../src/fr-window.c:2540
 msgid "Archive:"
@@ -725,7 +730,7 @@ msgstr ""
 
 #: ../src/fr-window.c:2725
 msgid "Archive created successfully"
-msgstr ""
+msgstr "संग्रह सफलतापूर्वक निर्माण भयो"
 
 #: ../src/fr-window.c:2773
 msgid "please wait..."
@@ -742,7 +747,7 @@ msgstr "\"%s\" खोल्न सकेन"
 
 #: ../src/fr-window.c:2943
 msgid "An error occurred while loading the archive."
-msgstr "सङ्ग्रह लोड गर्दा एएटा त्रुटि देखापर्यो ।"
+msgstr "सङ्ग्रह लोड गर्दा एउटा त्रुटि देखापर्यो ।"
 
 #: ../src/fr-window.c:2947
 msgid "An error occurred while deleting files from the archive."
@@ -758,11 +763,11 @@ msgstr "सङ्ग्रह परिक्षण गर्दा एउटा
 
 #: ../src/fr-window.c:2961
 msgid "An error occurred while saving the archive."
-msgstr ""
+msgstr "संग्रह बचत गर्दा त्रुटि भयो ।"
 
 #: ../src/fr-window.c:2965
 msgid "An error occurred."
-msgstr "त्रटि भयो ।"
+msgstr "त्रुटि भयो ।"
 
 #: ../src/fr-window.c:2971
 msgid "Command not found."
@@ -956,7 +961,7 @@ msgstr "bzip सँग सङ्कुचित Tar (.tar.bz)"
 
 #: ../src/main.c:91
 msgid "Cabinet (.cab)"
-msgstr ""
+msgstr "क्याबिनेट (.cab)"
 
 #: ../src/main.c:92
 msgid "Rar Archived Comic Book (.cbr)"
@@ -1016,7 +1021,7 @@ msgstr "War (.war)"
 
 #: ../src/main.c:117
 msgid "Xz (.xz)"
-msgstr ""
+msgstr "Xz (.xz)"
 
 #: ../src/main.c:118
 msgid "Tar compressed with xz (.tar.xz)"
@@ -1193,7 +1198,7 @@ msgstr "नयाँ सङ्ग्रह सिर्जना गर्नु
 
 #: ../src/ui.h:148
 msgid "_Open With..."
-msgstr ""
+msgstr "यससँग खोल्नुहोस्..."
 
 #: ../src/ui.h:149
 msgid "Open selected files with an application"

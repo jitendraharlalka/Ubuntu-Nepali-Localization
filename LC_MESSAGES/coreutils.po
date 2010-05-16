@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: coreutils\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-05-07 14:14+0200\n"
-"PO-Revision-Date: 2010-05-13 23:40+0545\n"
+"PO-Revision-Date: 2010-05-15 18:09+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
-"Language: ne\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -134,7 +134,7 @@ msgstr "नाम निर्धारणमा पूण: प्राप्�
 
 #: lib/gai_strerror.c:48
 msgid "ai_family not supported"
-msgstr ""
+msgstr "ai_family समर्थित छैन"
 
 #: lib/gai_strerror.c:49
 msgid "Memory allocation failure"
@@ -259,12 +259,12 @@ msgstr "%s डाइरेक्टरी सिर्जना गर्न स
 
 #: lib/obstack.c:423 lib/obstack.c:425 lib/xalloc-die.c:34 src/csplit.c:220
 msgid "memory exhausted"
-msgstr ""
+msgstr "स्मृति समाप्त भयो"
 
 #: lib/openat-die.c:34
 #, c-format
 msgid "unable to record current working directory"
-msgstr ""
+msgstr "वर्तमान काम भइरहेको डाइरेक्टरी रेकर्ड गर्न असक्षम"
 
 #: lib/openat-die.c:47 src/df.c:598
 #, c-format
@@ -353,7 +353,7 @@ msgstr "अमान्य विस्तार अन्त"
 
 #: lib/regcomp.c:171
 msgid "Memory exhausted"
-msgstr "स्मृति थकित रह्यो"
+msgstr "स्मृति समाप्त भयो"
 
 #: lib/regcomp.c:174
 msgid "Invalid preceding regular expression"
@@ -417,11 +417,11 @@ msgstr "%s को लागि इजाजतहरू स्थापन ग�
 
 #: lib/unicodeio.c:102
 msgid "iconv function not usable"
-msgstr ""
+msgstr "iconv function उपयोगी छैन"
 
 #: lib/unicodeio.c:104
 msgid "iconv function not available"
-msgstr ""
+msgstr "iconv function उपलब्ध छैन"
 
 #: lib/unicodeio.c:111
 msgid "character out of range"
@@ -447,7 +447,7 @@ msgstr "अमान्य समूह"
 
 #: lib/userspec.c:108
 msgid "invalid spec"
-msgstr ""
+msgstr "अमान्य निर्देशन"
 
 #: lib/verror.c:73
 #, c-format
@@ -470,6 +470,13 @@ msgid ""
 "There is NO WARRANTY, to the extent permitted by law.\n"
 "\n"
 msgstr ""
+"\n"
+"लाइसेन्स GPLv3+: जीएनयू जीपिएल संस्करण ३ वा पछिल्लो "
+"<http://gnu.org/licenses/gpl.html> ।\n"
+"यो स्वतन्त्र सफ्टवेयर हो: तपाई परिवर्तन गर्न र पुन: वितरण गर्न स्वतन्त्र "
+"हुनुहुन्छ ।\n"
+"कानुनले अनुमति दिएसम्म कुनै वारेन्टी छैन ।\n"
+"\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: lib/version-etc.c:83
@@ -588,7 +595,7 @@ msgstr ""
 msgid ""
 "\n"
 "Report bugs to <%s>.\n"
-msgstr "\n"
+msgstr ""
 
 #: lib/version-etc.c:182
 #, c-format
@@ -730,6 +737,8 @@ msgid ""
 "      --help            Display this help and exit.\n"
 "      --version         Output version information and exit.\n"
 msgstr ""
+"      --help            यो मद्दत देखाउने र बाहिरिने ।\n"
+"      --version         संस्करण जानकारी निर्गत गर्ने र बाहिरिने ।\n"
 
 #: src/base64.c:74 src/cat.c:111 src/fmt.c:292 src/shuf.c:70 src/sum.c:71
 msgid ""
@@ -838,7 +847,7 @@ msgstr "हराइरहेका संकार्य"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/cp.c:56 src/df.c:40 src/du.c:52 src/split.c:44
 msgid "Torbjorn Granlund"
-msgstr ""
+msgstr "टोर्बजोर्न ग्रानलन्ड (Torbjorn Granlund)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:49 src/comm.c:35 src/ls.c:119 src/rm.c:66 src/split.c:45
@@ -970,12 +979,15 @@ msgid ""
 "  or:  %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
+"उपयोग: %s [विकल्प]... संदर्भ फाइल...\n"
+"   वा:    %s [विकल्प]... [-u प्रयोगकर्ता] [-r भूमिका] [-l दायरा] [-t प्रकार] "
+"फाइल...\n"
+"   वा:    %s [विकल्प]... --reference=RFILE FILE...\n"
 
 #: src/chcon.c:348
 msgid ""
 "Change the security context of each FILE to CONTEXT.\n"
-"With --reference, change the security context of each FILE to that of "
-"RFILE.\n"
+"With --reference, change the security context of each FILE to that of RFILE.\n"
 "\n"
 "  -h, --no-dereference   affect symbolic links instead of any referenced "
 "file\n"
@@ -1021,7 +1033,7 @@ msgstr ""
 #: src/chcon.c:501
 #, c-format
 msgid "-R -h requires -P"
-msgstr ""
+msgstr "-R -h लाई -P चाहिन्छ"
 
 #: src/chcon.c:516 src/chgrp.c:275 src/chmod.c:502 src/chown.c:288
 #: src/comm.c:419 src/csplit.c:1371 src/join.c:1076 src/link.c:80
@@ -1105,7 +1117,7 @@ msgstr ""
 #: src/chmod.c:125
 #, c-format
 msgid "getting new attributes of %s"
-msgstr ""
+msgstr "%s को नयाँ गुण प्राप्त गर्दै"
 
 #: src/chmod.c:147 src/chown-core.c:118
 #, c-format
@@ -1115,12 +1127,12 @@ msgstr ""
 #: src/chmod.c:157
 #, c-format
 msgid "mode of %s changed to %04lo (%s)\n"
-msgstr ""
+msgstr "%s को मोड %04lo (%s) मा परिवर्तन गरियो\n"
 
 #: src/chmod.c:160
 #, c-format
 msgid "failed to change mode of %s to %04lo (%s)\n"
-msgstr ""
+msgstr "%s को मोड %04lo (%s) मा परिवर्तन गर्न असफल\n"
 
 #: src/chmod.c:163
 #, c-format
@@ -1149,9 +1161,9 @@ msgid ""
 "  or:  %s [OPTION]... OCTAL-MODE FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"उपयोग: %s [OPTION]... MODE[,MODE]... FILE...\n"
-"  वा:  %s [OPTION]... OCTAL-MODE FILE...\n"
-"  वा:  %s [OPTION]... --reference=RFILE FILE...\n"
+"उपयोग: %s [विकल्प]... मोड[,मोड]... फाइल...\n"
+"   वा:    %s [विकल्प]... ओक्टल-मोड फाइल...\n"
+"   वा:    %s [विकल्प]... --reference=RFILE FILE...\n"
 
 #: src/chmod.c:359
 msgid ""
@@ -1183,7 +1195,7 @@ msgstr ""
 #: src/chmod.c:487
 #, c-format
 msgid "cannot combine mode and --reference options"
-msgstr ""
+msgstr "मोड र --reference विकल्पहरुलाई संगठित गर्न सक्दैन"
 
 #: src/chmod.c:518
 #, c-format
@@ -1347,12 +1359,12 @@ msgstr ""
 #: src/chroot.c:113 src/nohup.c:216 src/setuidgid.c:213 src/timeout.c:304
 #, c-format
 msgid "cannot run command %s"
-msgstr ""
+msgstr "कमान्ड %s चलाउन सक्दैन"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cksum.c:40
 msgid "Q. Frank Xia"
-msgstr ""
+msgstr "क्यू. फ्रान्क जिया (Q. Frank Xia)"
 
 #: src/cksum.c:213
 #, c-format
