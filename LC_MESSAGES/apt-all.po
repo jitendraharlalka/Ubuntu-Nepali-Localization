@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: apt_po\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-17 23:18+0000\n"
-"PO-Revision-Date: 2010-03-11 18:30+0545\n"
+"PO-Revision-Date: 2010-05-18 15:15+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -261,7 +261,7 @@ msgstr "कृपया ड्राइभमा डिस्क घुसाउ
 #: cmdline/apt-cdrom.cc:127
 #, c-format
 msgid "Failed to mount '%s' to '%s'"
-msgstr ""
+msgstr "'%s'लाई '%s'मा माउन्ट गर्न असफल"
 
 #: cmdline/apt-cdrom.cc:162
 msgid "Repeat this process for the rest of the CDs in your set."
@@ -867,12 +867,12 @@ msgstr "संग्रहहरुको %sB प्राप्त गर्न
 #: cmdline/apt-get.cc:849
 #, c-format
 msgid "After this operation, %sB of additional disk space will be used.\n"
-msgstr ""
+msgstr "यो कार्य पछि %sB अतिरिक्त डिस्क ठाऊँ प्रयोग हुनेछ।\n"
 
 #: cmdline/apt-get.cc:852
 #, c-format
 msgid "After this operation, %sB disk space will be freed.\n"
-msgstr ""
+msgstr "यो कार्य पछि %sB डिस्क ठाऊँ खाली हुनेछ।\n"
 
 #: cmdline/apt-get.cc:867 cmdline/apt-get.cc:870 cmdline/apt-get.cc:2287
 #: cmdline/apt-get.cc:2290
@@ -1021,18 +1021,18 @@ msgstr "%s को लागि चयन भएको संस्करण %s (
 #: cmdline/apt-get.cc:1321
 #, c-format
 msgid "Ignore unavailable target release '%s' of package '%s'"
-msgstr ""
+msgstr "प्याकेज '%s'को अनुपलब्ध लक्ष्य निष्कासन '%s' बेवास्ता गर्नुहोस्"
 
 #: cmdline/apt-get.cc:1352
 #, c-format
 msgid "Picking '%s' as source package instead of '%s'\n"
-msgstr ""
+msgstr "स्रोत प्याकेजका लागि '%s'को सट्टा '%s'लाई छान्दै\n"
 
 #. if (VerTag.empty() == false && Last == 0)
 #: cmdline/apt-get.cc:1389
 #, c-format
 msgid "Ignore unavailable version '%s' of package '%s'"
-msgstr ""
+msgstr "प्याकेज '%s'को अनुपलब्ध संस्करण '%s' बेवास्ता गर्नुहोस्"
 
 #: cmdline/apt-get.cc:1405
 msgid "The update command takes no arguments"
@@ -1044,23 +1044,22 @@ msgstr "सूचि डाइरेक्ट्री ताल्चा मा
 
 #: cmdline/apt-get.cc:1474
 msgid "We are not supposed to delete stuff, can't start AutoRemover"
-msgstr ""
+msgstr "हामीसित सामग्री मेटाउने अपेक्षा गरिन्न, AutoRemover शुरु गर्न सकिएन"
 
 #: cmdline/apt-get.cc:1523
 msgid ""
 "The following packages were automatically installed and are no longer "
 "required:"
-msgstr ""
+msgstr "निम्न प्याकेजहरु स्वत: इन्सटल भएका थिए र अब आवश्यक छैनन्"
 
 #: cmdline/apt-get.cc:1525
 #, c-format
-msgid ""
-"%lu packages were automatically installed and are no longer required.\n"
-msgstr ""
+msgid "%lu packages were automatically installed and are no longer required.\n"
+msgstr "%lu प्याकेजहरु स्वत: इन्सटल भएका थिए र अब आवश्यक छैनन्\n"
 
 #: cmdline/apt-get.cc:1526
 msgid "Use 'apt-get autoremove' to remove them."
-msgstr ""
+msgstr "तिनीहरुलाई हटाउन 'apt-get autoremove' प्रयोग गर्नुहोस् ।"
 
 #: cmdline/apt-get.cc:1531
 msgid ""
@@ -1084,16 +1083,16 @@ msgstr "निम्न सूचनाले अवस्थालाई हल
 
 #: cmdline/apt-get.cc:1538
 msgid "Internal Error, AutoRemover broke stuff"
-msgstr ""
+msgstr "आन्तरिक त्रुटि, AutoRemover ले केहि बिगार्यो"
 
 #: cmdline/apt-get.cc:1557
 msgid "Internal error, AllUpgrade broke stuff"
-msgstr "आन्तरिक त्रुटि,सबै स्तरवृद्धिले उत्तम गुण नष्ट गर्दछ"
+msgstr "आन्तरिक त्रुटि,सबै स्तरवृद्धिले केहि बिगार्यो"
 
 #: cmdline/apt-get.cc:1612
 #, c-format
 msgid "Couldn't find task %s"
-msgstr ""
+msgstr "कार्य फेला पार्न सकिएन  %s"
 
 #: cmdline/apt-get.cc:1727 cmdline/apt-get.cc:1763
 #, c-format
@@ -1137,7 +1136,7 @@ msgstr ""
 
 #: cmdline/apt-get.cc:1828
 msgid "Broken packages"
-msgstr "भाँचिएका प्याकेजहरू"
+msgstr "बिग्रेका प्याकेजहरु"
 
 #: cmdline/apt-get.cc:1857
 msgid "The following extra packages will be installed:"
@@ -1190,6 +1189,9 @@ msgid ""
 "bzr get %s\n"
 "to retrieve the latest (possibly unreleased) updates to the package.\n"
 msgstr ""
+"कृपया प्रयोग गर्नुहोस:\n"
+"bzr get %s\n"
+"प्याकेजहरुको नविनतम (सम्भवत अप्रकाशित) अद्यावधिक प्राप्त गर्नका लागि।\n"
 
 #: cmdline/apt-get.cc:2265
 #, c-format
@@ -1429,7 +1431,7 @@ msgstr "निरन्तरता दिन इन्टर थिच्नु
 
 #: dselect/install:91
 msgid "Do you want to erase any previously downloaded .deb files?"
-msgstr ""
+msgstr "के तपाई पहिले डाउनलोड गरिएको कुनै .deb फाइलहरु मेटाउन चाहनुहुन्छ?"
 
 #: dselect/install:101
 msgid "Some errors occurred while unpacking. Packages that were installed"
@@ -1437,12 +1439,11 @@ msgstr ""
 
 #: dselect/install:102
 msgid "will be configured. This may result in duplicate errors"
-msgstr ""
+msgstr "कन्फिगर हुनेछन्। यसले दोहोर्याएर त्रुटिहरु सृजना गर्न सक्दछ"
 
 #: dselect/install:103
 msgid "or errors caused by missing dependencies. This is OK, only the errors"
-msgstr ""
-"वा त्रुटि हरटाइरहेको निर्भरताहरुले गरेको हो । यो ठीक छ, मात्र त्रुटिहरू"
+msgstr "वा त्रुटि हरटाइरहेको निर्भरताहरुले गरेको हो । यो ठीक छ, मात्र त्रुटिहरू"
 
 #: dselect/install:104
 msgid ""
@@ -1487,7 +1488,7 @@ msgstr "संग्रह सदस्य हेडर पढ्दा त्�
 #: apt-inst/contrib/arfile.cc:90
 #, c-format
 msgid "Invalid archive member header %s"
-msgstr ""
+msgstr "अवैध संग्रह सदस्य हेडर %s"
 
 #: apt-inst/contrib/arfile.cc:102
 msgid "Invalid archive member header"
@@ -1706,12 +1707,12 @@ msgstr "MD5 पद वर्णन गर्दा त्रुटि । अफ
 #: apt-inst/deb/debfile.cc:38 apt-inst/deb/debfile.cc:43
 #, c-format
 msgid "This is not a valid DEB archive, missing '%s' member"
-msgstr "यो वैध DEB संग्रह होइन, '%s' सदस्य हराइरहेछ"
+msgstr "यो मान्य DEB संग्रह होइन, '%s' सदस्य हराइरहेछ"
 
 #: apt-inst/deb/debfile.cc:50
 #, c-format
 msgid "This is not a valid DEB archive, it has no '%s', '%s' or '%s' member"
-msgstr ""
+msgstr "यो मान्य DEB संग्रह होइन, यससित '%s', '%s' वा '%s' सदस्य छैन"
 
 #: apt-inst/deb/debfile.cc:110
 #, c-format
@@ -1982,7 +1983,7 @@ msgstr ""
 #: methods/gpgv.cc:78
 #, c-format
 msgid "No keyring installed in %s."
-msgstr ""
+msgstr "%s मा कुनै कीरिङ  इन्सटल छैन"
 
 #: methods/gpgv.cc:104
 msgid "E: Too many keyrings should be passed to gpgv. Exiting."
@@ -2130,25 +2131,25 @@ msgstr ""
 #: apt-pkg/contrib/strutl.cc:363
 #, c-format
 msgid "%lid %lih %limin %lis"
-msgstr ""
+msgstr "%li दिन %li घन्टा %li मिनेट %li सेकेन्ड"
 
 #. h means hours, min means minutes, s means seconds
 #: apt-pkg/contrib/strutl.cc:370
 #, c-format
 msgid "%lih %limin %lis"
-msgstr ""
+msgstr "%li घन्टा %li मिनेट %li सेकेन्ड"
 
 #. min means minutes, s means seconds
 #: apt-pkg/contrib/strutl.cc:377
 #, c-format
 msgid "%limin %lis"
-msgstr ""
+msgstr "%li मिनेट %li सेकेन्ड"
 
 #. s means seconds
 #: apt-pkg/contrib/strutl.cc:382
 #, c-format
 msgid "%lis"
-msgstr ""
+msgstr "%li सेकेन्ड"
 
 #: apt-pkg/contrib/strutl.cc:1057
 #, c-format
@@ -2311,7 +2312,7 @@ msgstr "सहायक प्रक्रिया %s ले खण्डिक
 #: apt-pkg/contrib/fileutl.cc:582
 #, c-format
 msgid "Sub-process %s received signal %u."
-msgstr ""
+msgstr "उप-प्रक्रिया %s ले %u संकेत प्राप्त गर्यो ।"
 
 #: apt-pkg/contrib/fileutl.cc:586
 #, c-format
@@ -2441,17 +2442,17 @@ msgstr "निर्भरता सिर्जना"
 
 #: apt-pkg/depcache.cc:173 apt-pkg/depcache.cc:193 apt-pkg/depcache.cc:197
 msgid "Reading state information"
-msgstr ""
+msgstr "स्थिति जानकारी पढ्दै"
 
 #: apt-pkg/depcache.cc:223
 #, c-format
 msgid "Failed to open StateFile %s"
-msgstr ""
+msgstr "StateFile %s खोल्न असफल"
 
 #: apt-pkg/depcache.cc:229
 #, c-format
 msgid "Failed to write temporary StateFile %s"
-msgstr ""
+msgstr "अस्थायी StateFile %s मा लेख्न असफल"
 
 #: apt-pkg/tagfile.cc:102
 #, c-format
@@ -2639,7 +2640,7 @@ msgstr "यो समस्याहरू सुधार्न तपाईँ
 #: apt-pkg/policy.cc:316
 #, c-format
 msgid "Invalid record in the preferences file %s, no Package header"
-msgstr ""
+msgstr "प्राथमिकता फाइल %s मा अमान्य रेकर्ड, कुनै प्याकेज हेडर छैन"
 
 #: apt-pkg/policy.cc:338
 #, c-format
@@ -2755,7 +2756,7 @@ msgstr "MD5Sum मेल भएन"
 
 #: apt-pkg/acquire-item.cc:734 apt-pkg/acquire-item.cc:1499
 msgid "Hash Sum mismatch"
-msgstr ""
+msgstr "ह्यास सम मेल भएन"
 
 #: apt-pkg/acquire-item.cc:1194
 msgid "There is no public key available for the following key IDs:\n"
@@ -2763,15 +2764,14 @@ msgstr "निम्न की IDs को लागि कुनै सार्
 
 #: apt-pkg/acquire-item.cc:1267
 #, c-format
-msgid ""
-"A error occurred during the signature verification. The repository is not "
+msgid "A error occurred during the signature verification. The repository is not "
 "updated and the previous index files will be used.GPG error: %s: %s\n"
 msgstr ""
 
 #: apt-pkg/acquire-item.cc:1276
 #, c-format
 msgid "GPG error: %s: %s"
-msgstr ""
+msgstr "GPG त्रुटि: %s: %s"
 
 #: apt-pkg/acquire-item.cc:1304
 #, c-format
@@ -2811,12 +2811,12 @@ msgstr ""
 #: apt-pkg/indexrecords.cc:47
 #, c-format
 msgid "No sections in Release file %s"
-msgstr ""
+msgstr "निष्कासन फाइल %s मा कुनै अनुच्छेद छैन"
 
 #: apt-pkg/indexrecords.cc:81
 #, c-format
 msgid "No Hash entry in Release file %s"
-msgstr ""
+msgstr "निष्कासन फाइल %s मा कुनै ह्यास प्रविष्टि छैन"
 
 #: apt-pkg/vendorlist.cc:66
 #, c-format
@@ -2843,7 +2843,7 @@ msgstr "लेबुल भण्डारण गर्नुहोस्:%s\n"
 
 #: apt-pkg/cdrom.cc:566 apt-pkg/cdrom.cc:834
 msgid "Unmounting CD-ROM...\n"
-msgstr ""
+msgstr "सिडी-रोम अनमाउन्ट गर्दै...\n"
 
 #: apt-pkg/cdrom.cc:585
 #, c-format
@@ -2869,9 +2869,8 @@ msgstr "अनुक्रमणिका फाइलहरुको लाग�
 
 #: apt-pkg/cdrom.cc:673
 #, c-format
-msgid ""
-"Found %zu package indexes, %zu source indexes, %zu translation indexes and "
-"%zu signatures\n"
+msgid "Found %zu package indexes, %zu source indexes, %zu translation indexes and %"
+"zu signatures\n"
 msgstr ""
 
 #: apt-pkg/cdrom.cc:684
@@ -2879,15 +2878,17 @@ msgid ""
 "Unable to locate any package files, perhaps this is not a Debian Disc or the "
 "wrong architecture?"
 msgstr ""
+"कुनै प्याकेज फाइलहरु फेला पार्न अक्षम, सायद यो डेवियन डिस्क होइन वा गलत "
+"संरचनाको हो?"
 
 #: apt-pkg/cdrom.cc:710
 #, c-format
 msgid "Found label '%s'\n"
-msgstr ""
+msgstr "लेबल '%s' फेला पर्यो\n"
 
 #: apt-pkg/cdrom.cc:739
 msgid "That is not a valid name, try again.\n"
-msgstr "त्यो वैध नाम होइन, फेरी प्रयास गर्नुहोस् ।\n"
+msgstr "त्यो मान्य नाम होइन, फेरी प्रयास गर्नुहोस् ।\n"
 
 #: apt-pkg/cdrom.cc:755
 #, c-format
@@ -2900,7 +2901,7 @@ msgstr ""
 
 #: apt-pkg/cdrom.cc:759
 msgid "Copying package lists..."
-msgstr "प्यकेज सूचिहरू प्रतिलिपी गरिदैछ..."
+msgstr "प्याकेज सूचिहरू प्रतिलिपी गरिदैछ..."
 
 #: apt-pkg/cdrom.cc:785
 msgid "Writing new source list\n"
@@ -2940,7 +2941,7 @@ msgstr ""
 #: apt-pkg/indexcopy.cc:536
 #, c-format
 msgid "Can't find authentication record for: %s"
-msgstr ""
+msgstr "%s का लागि प्रमाणीकरण रेकर्ड फेला परेन"
 
 #: apt-pkg/indexcopy.cc:542
 #, c-format
@@ -2950,7 +2951,7 @@ msgstr ""
 #: apt-pkg/deb/dpkgpm.cc:51
 #, c-format
 msgid "Installing %s"
-msgstr ""
+msgstr "%s इन्सटल गर्दै"
 
 #: apt-pkg/deb/dpkgpm.cc:52 apt-pkg/deb/dpkgpm.cc:732
 #, c-format
@@ -2965,7 +2966,7 @@ msgstr "%s हटाइदैछ"
 #: apt-pkg/deb/dpkgpm.cc:54
 #, c-format
 msgid "Completely removing %s"
-msgstr ""
+msgstr "%s पूर्ण रुपले हटाउँदै"
 
 #: apt-pkg/deb/dpkgpm.cc:55
 #, c-format
@@ -2975,12 +2976,12 @@ msgstr ""
 #: apt-pkg/deb/dpkgpm.cc:580
 #, c-format
 msgid "Directory '%s' missing"
-msgstr ""
+msgstr "डाइरेक्टरी '%s' हराइरहेको छ"
 
 #: apt-pkg/deb/dpkgpm.cc:595
 #, c-format
 msgid "Could not open file '%s'"
-msgstr ""
+msgstr "फाइल '%s' खोल्न सकेन"
 
 #: apt-pkg/deb/dpkgpm.cc:725
 #, c-format
@@ -3028,7 +3029,7 @@ msgstr ""
 
 #: apt-pkg/deb/dpkgpm.cc:980
 msgid "Running dpkg"
-msgstr ""
+msgstr "dpkg चलाउँदै"
 
 #: apt-pkg/deb/dpkgpm.cc:1193
 msgid "No apport report written because MaxReports is reached already"
@@ -3037,7 +3038,7 @@ msgstr ""
 #. check if its not a follow up error
 #: apt-pkg/deb/dpkgpm.cc:1198
 msgid "dependency problems - leaving unconfigured"
-msgstr ""
+msgstr "निर्भरता समस्याहरू - कन्फिगरेसन नगरिकन छोड्दै"
 
 #: apt-pkg/deb/dpkgpm.cc:1200
 msgid ""

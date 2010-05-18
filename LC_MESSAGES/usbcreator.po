@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: usb-creator\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-15 08:46+0000\n"
-"PO-Revision-Date: 2010-04-22 15:32+0545\n"
+"PO-Revision-Date: 2010-05-17 15:35+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -25,11 +25,11 @@ msgstr "डिभाइस फर्म्याट गर्नुहोस्"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:2
 msgid "Image the device"
-msgstr ""
+msgstr "यन्त्रको छवि बनाउनुहोस्"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:3
 msgid "Install the bootloader"
-msgstr "बुटलोडर प्रतिस्थापन गर्नुहोस्"
+msgstr "बुटलोडर इन्सटल गर्नुहोस्"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:4
 msgid "Mount a device"
@@ -37,24 +37,24 @@ msgstr "यन्त्र माउन्ट गर्नुहोस्"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:5
 msgid "System policy prevents formatting this device"
-msgstr ""
+msgstr "प्रणाली नीतिले यो यन्त्र फर्म्याट गर्न निषेध गर्दछ"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:6
 msgid "System policy prevents installing the bootloader"
-msgstr ""
+msgstr "प्रणाली नीतिले बुटलोडर इन्सटल गर्न निषेध गर्दछ"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:7
 msgid "System policy prevents mounting"
-msgstr ""
+msgstr "प्रणाली नीतिले माउन्ट गर्न निषेध गर्दछ"
 
 #: .././dbus/com.ubuntu.usbcreator.policy.in.h:8
 msgid "System policy prevents writing a disk image to this device"
-msgstr ""
+msgstr "प्रणाली नीतिले डिस्क छवि यन्त्रमा लेख्न निषेध गर्दछ"
 
 #: .././usbcreator/install.py:133
 #, python-format
 msgid "The extension \"%s\" is not supported."
-msgstr ""
+msgstr "विस्तार \"%s\" समर्थित छैन ।"
 
 #: .././usbcreator/install.py:148
 #, python-format
@@ -121,11 +121,11 @@ msgstr "फाइलहरु हटाउँदै..."
 
 #: .././usbcreator/install.py:380 .././usbcreator/install.py:455
 msgid "Copying files..."
-msgstr ""
+msgstr "फाइलहरु प्रतिलिपि गर्दै..."
 
 #: .././usbcreator/install.py:409
 msgid "md5 checksums do not match."
-msgstr ""
+msgstr "md5 चेकसमहरु मेल खाँदैनन् ।"
 
 #. TODO evand 2009-07-23: Catch exceptions around the
 #. user removing the flash drive mid-write.  Give the
@@ -139,11 +139,11 @@ msgstr "%s बाट पढ्न सकेन"
 
 #: .././usbcreator/install.py:544
 msgid "Checksums do not match.  Retry?"
-msgstr ""
+msgstr "चेकसमहरु मेल खाँदैनन् । पुन: प्रयास गर्ने ?"
 
 #: .././usbcreator/install.py:548
 msgid "Checksums do not match."
-msgstr ""
+msgstr "चेकसमहरु मेल खाँदैनन् ।"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:21
 #: .././gui/usbcreator-gtk.ui.h:17 usbcreator-kde.ui.py:6
@@ -164,7 +164,7 @@ msgstr "छवि"
 #: .././usbcreator/frontends/winui/main_dialog.py:28
 #: .././usbcreator/frontends/gtk/frontend.py:380 usbcreator-kde.ui.py:15
 msgid "OS Version"
-msgstr ""
+msgstr "OS संस्करण"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:29
 #: .././usbcreator/frontends/gtk/frontend.py:390 usbcreator-kde.ui.py:18
@@ -203,7 +203,7 @@ msgstr "खाली ठाउँ"
 #: .././usbcreator/frontends/winui/main_dialog.py:42
 #: .././gui/usbcreator-gtk.ui.h:18 usbcreator-kde.ui.py:46
 msgid "When starting up from this disk, documents and settings will be:"
-msgstr " "
+msgstr "यो डिस्कबाट शुरु गर्दा, कागजात र सेटिङ निम्न प्रकार हुनेछन:"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:45
 #, fuzzy
@@ -241,7 +241,7 @@ msgstr "इन्सटल गर्दै"
 #: .././usbcreator/frontends/winui/install_window.py:28
 #: .././usbcreator/frontends/gtk/frontend.py:606
 msgid "Starting up..."
-msgstr ""
+msgstr "शुरु गर्दै..."
 
 #: .././usbcreator/frontends/winui/install_window.py:32
 msgid "&Cancel"
@@ -254,6 +254,8 @@ msgid ""
 "The installation is complete.  You may now reboot your computer with this "
 "device inserted to try or install Ubuntu."
 msgstr ""
+"इन्सटल प्रक्रिया पूरा भयो । तपाई अब आफ्नो कम्प्युटरमा यो यन्त्र घुसाएरै पुन: "
+"बुट गरेर उबुन्तु जाँच वा इन्सटल गर्न सक्नुहुन्छ ।"
 
 #: .././usbcreator/frontends/winui/frontend.py:74
 msgid "Installation complete"
@@ -276,7 +278,7 @@ msgstr "इन्सटल प्रक्रिया असफल भयो �
 #: .././usbcreator/frontends/gtk/frontend.py:627
 #, python-format
 msgid "%d%% complete (%dm%ss remaining)"
-msgstr ""
+msgstr "%d%% पूरा (%dm%ss बाँकी)"
 
 #: .././usbcreator/frontends/winui/frontend.py:155
 #: .././usbcreator/frontends/gtk/frontend.py:631
@@ -314,13 +316,13 @@ msgstr ""
 
 #: .././usbcreator/frontends/gtk/frontend.py:367 usbcreator-kde.ui.py:12
 msgid "CD-Drive/Image"
-msgstr ""
+msgstr "सिडी-ड्राइभ/छवि"
 
 #: .././usbcreator/frontends/gtk/frontend.py:462
 #: .././usbcreator/frontends/kde/frontend.py:356
 #: usbcreator/frontends/kde/frontend.py:356
 msgid "The device is not large enough to hold this image."
-msgstr ""
+msgstr "यन्त्रमा यो छवि अटाउँदैन ।"
 
 #: .././usbcreator/frontends/gtk/frontend.py:464
 #: .././usbcreator/frontends/kde/frontend.py:358
@@ -332,22 +334,22 @@ msgstr "यो छविका लागि पर्याप्त खाल�
 #: .././usbcreator/frontends/kde/frontend.py:360
 #: usbcreator/frontends/kde/frontend.py:360
 msgid "The device needs to be formatted for use."
-msgstr ""
+msgstr "यन्त्र प्रयोग गर्नका लागि फर्म्याट गर्नुपर्छ ।"
 
 #: .././usbcreator/frontends/kde/frontend.py:409
 #: usbcreator/frontends/kde/frontend.py:409
 msgid "Starting up"
-msgstr ""
+msgstr "सुरु गर्दै"
 
 #: .././usbcreator/frontends/kde/frontend.py:417
 #: usbcreator/frontends/kde/frontend.py:417
 msgid "You must select both source image and target device first."
-msgstr ""
+msgstr "तपाईले स्रोत छवि र लक्ष्य यन्त्र दुवै पहिले छान्नुपर्छ ।"
 
 #: .././usbcreator/frontends/kde/frontend.py:455
 #: usbcreator/frontends/kde/frontend.py:455
 msgid "Retry?"
-msgstr ""
+msgstr "पुन: प्रयास गर्ने?"
 
 #: .././usbcreator/frontends/kde/frontend.py:467
 #: .././gui/usbcreator-gtk.ui.h:12 usbcreator/frontends/kde/frontend.py:467
@@ -371,7 +373,7 @@ msgstr ""
 
 #: .././gui/usbcreator-gtk.ui.h:2 usbcreator-kde.ui.py:27
 msgid "Disk to use:"
-msgstr ""
+msgstr "प्रयोग गर्नुपर्ने डिस्क:"
 
 #: .././gui/usbcreator-gtk.ui.h:4 usbcreator-kde.ui.py:43
 msgid "Format"
@@ -390,23 +392,25 @@ msgid ""
 "Installation is complete.  You may now run Ubuntu on other computers by "
 "booting them with this drive inserted."
 msgstr ""
+"इन्सटल प्रक्रिया पूरा भयो । तपाई अब अन्य कम्प्युटरमा यो यन्त्र छिराएरै बुट "
+"गरेर उबुन्तु चलाउन सक्नुहुन्छ ।"
 
 #: .././gui/usbcreator-gtk.ui.h:14 usbcreator-kde.ui.py:49
 msgid "Stored in reserved extra space"
-msgstr ""
+msgstr "आरक्षित अतिरिक्त ठाँउमा भंडारण गरियो"
 
 #: .././gui/usbcreator-gtk.ui.h:15
-msgid ""
-"The installation failed.  Please see ~/.usbcreator.log for more details.\n"
-msgstr ""
+msgid "The installation failed.  Please see ~/.usbcreator.log for more details.\n"
+msgstr "इन्सटल प्रक्रिया असफल भयो । कृपया अधिक विवरणका लागि ~/.usbcreator.log "
+"हेर्नुहोस् ।\n"
 
 #: .././main.py:38
 msgid "Please run this program as an administrator to continue."
-msgstr ""
+msgstr "कृपया जारी राख्नका लागि यो प्रोग्राम प्रशासकका रुपमा चलाउनुहोस् ।"
 
 #: .././main.py:39
 msgid "Administrator privileges required"
-msgstr ""
+msgstr "प्रशासक विशेषाधिकार आवश्यक छ"
 
 #: .././main.py:56
 #, python-format
