@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gconf.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-31 09:20+0000\n"
-"PO-Revision-Date: 2010-05-13 14:17+0545\n"
+"PO-Revision-Date: 2010-05-21 20:56+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -555,19 +555,19 @@ msgstr "XML फाइलमा जोडाबाट दुबै car र cdr �
 
 #: ../defaults/org.gnome.gconf.defaults.policy.in.h:1
 msgid "Change GConf mandatory values"
-msgstr ""
+msgstr "जीकन्फ अनिवार्य मानहरु परिवर्तन गर्नुहोस्"
 
 #: ../defaults/org.gnome.gconf.defaults.policy.in.h:2
 msgid "Change GConf system values"
-msgstr ""
+msgstr "जीकन्फ प्रणाली मानहरु परिवर्तन गर्नुहोस्"
 
 #: ../defaults/org.gnome.gconf.defaults.policy.in.h:3
 msgid "Privileges are required to change GConf mandatory values"
-msgstr ""
+msgstr "जीकन्फ अनिवार्य मानहरु परिवर्तन गर्न विशेषाधिकार चाहिन्छ"
 
 #: ../defaults/org.gnome.gconf.defaults.policy.in.h:4
 msgid "Privileges are required to change GConf system values"
-msgstr ""
+msgstr "जीकन्फ प्रणाली मानहरु परिवर्तन गर्न विशेषाधिकार चाहिन्छ"
 
 #: ../gconf/gconf-backend.c:62
 #, c-format
@@ -958,7 +958,7 @@ msgstr "'%s' हटाउन असफल भयो: %s"
 #: ../gconf/gconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
-msgstr ""
+msgstr "सक्रिय सत्र भित्र चलिरहेको छैन"
 
 #: ../gconf/gconf-internals.c:2458
 #, c-format
@@ -968,7 +968,7 @@ msgstr ""
 #: ../gconf/gconf-internals.c:2477
 #, c-format
 msgid "Could not send message to GConf daemon: %s"
-msgstr ""
+msgstr "जीकन्फ डिमनलाई संदेश पठाउन सकेन: %s"
 
 #: ../gconf/gconf-internals.c:2488
 #, c-format
@@ -1345,20 +1345,20 @@ msgstr "सर्भरको सूचीमा ग्राहक थप्द
 
 #: ../gconf/gconf.c:2630
 msgid "Must begin with a slash '/'"
-msgstr ""
+msgstr "स्लेस '/' सित सुरु हुनुपर्छ"
 
 #: ../gconf/gconf.c:2652
 msgid "Can't have two slashes '/' in a row"
-msgstr ""
+msgstr "लगतै दुइटा स्लेस '/' हुन सक्दैनन्"
 
 #: ../gconf/gconf.c:2654
 msgid "Can't have a period '.' right after a slash '/'"
-msgstr ""
+msgstr "स्लेस '/' पछि तुरुन्तै विन्दु '.' हुन सक्दैन"
 
 #: ../gconf/gconf.c:2674
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
-msgstr ""
+msgstr "'\\%o' ASCII क्यारेक्टर होइन र त्यसैले की नामहरुमा मान्य छैन"
 
 #: ../gconf/gconf.c:2684
 #, c-format
@@ -1367,7 +1367,7 @@ msgstr "की/डाइरेक्टरी नामहरूमा `%c' ए�
 
 #: ../gconf/gconf.c:2698
 msgid "Key/directory may not end with a slash '/'"
-msgstr ""
+msgstr "की/डाइरेक्टरी स्लेस '/' का साथ अन्त्य हुन सक्दैनन्"
 
 #: ../gconf/gconf.c:3069
 #, c-format
@@ -1422,6 +1422,8 @@ msgid ""
 "No configuration files found. Trying to use the default configuration source "
 "`%s'"
 msgstr ""
+"कुनै कन्फिगरेसन फाइलहरु फेला परेनन् । पूर्वनिर्धारित कन्फिगरेसन स्रोत '%s' "
+"प्रयोग गर्ने कोसिस गर्दै"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed gconfd being spawned.
@@ -1432,6 +1434,8 @@ msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
 msgstr ""
+"स्रोत मार्गमा कुनै कन्फिगरेसन सोतहरु छैनन् । कन्फिगरेसन बचत हुनेछैन; %s%s "
+"सम्पादन गर्नुहोस्"
 
 #: ../gconf/gconfd.c:381
 #, c-format

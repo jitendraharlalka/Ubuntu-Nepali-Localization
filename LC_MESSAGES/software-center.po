@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: software-center\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-17 15:00+0000\n"
-"PO-Revision-Date: 2010-05-12 15:05+0545\n"
+"PO-Revision-Date: 2010-05-19 12:05+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../data/ui/SoftwareCenter.ui.h:1
 msgid "&#xA9;2009 Canonical"
-msgstr ""
+msgstr "&#xA9;२००९ क्यानोनिकल"
 
 #: ../data/ui/SoftwareCenter.ui.h:2
 msgid "Copy _Web Link"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../data/ui/SoftwareCenter.ui.h:4
 msgid "Rebuilding application catalog..."
-msgstr ""
+msgstr "सफ्टवेयर नामावली पुन: निर्मान गर्दै..."
 
 #: ../data/ui/SoftwareCenter.ui.h:5
 msgid "Search..."
@@ -56,7 +56,7 @@ msgstr "सबै सफ्टवेयरहरु"
 
 #: ../data/ui/SoftwareCenter.ui.h:9
 msgid "_Canonical-Maintained Applications"
-msgstr ""
+msgstr "क्यानोनिकलद्वारा संभार गरिएका सफ्टवेयरहरु"
 
 #: ../data/ui/SoftwareCenter.ui.h:10
 msgid "_Edit"
@@ -96,7 +96,7 @@ msgstr "प्रतिस्थापित"
 
 #: ../data/ui/SoftwareCenter.ui.h:19
 msgid "pending"
-msgstr ""
+msgstr "विचाराधीन"
 
 #: ../data/ubuntu-software-center.desktop.in.h:1
 msgid ""
@@ -113,11 +113,11 @@ msgstr "प्रशासक"
 
 #: ../data/software-center.menu.in.h:2
 msgid "Base"
-msgstr ""
+msgstr "आधार"
 
 #: ../data/software-center.menu.in.h:3
 msgid "CLI Mono"
-msgstr ""
+msgstr "CLI मोनो"
 
 #: ../data/software-center.menu.in.h:4
 msgid "Databases"
@@ -133,11 +133,11 @@ msgstr ""
 
 #: ../data/software-center.menu.in.h:7
 msgid "Development"
-msgstr ""
+msgstr "विकास"
 
 #: ../data/software-center.menu.in.h:8
 msgid "Documentation"
-msgstr ""
+msgstr "मिसिलिकरण"
 
 #: ../data/software-center.menu.in.h:9
 msgid "Editors"
@@ -161,7 +161,7 @@ msgstr "जिनोम"
 
 #: ../data/software-center.menu.in.h:14
 msgid "Graphic Interface Design"
-msgstr ""
+msgstr "ग्राफिक इन्टरफेस डिजाइन"
 
 #: ../data/software-center.menu.in.h:15
 msgid "Graphics"
@@ -293,7 +293,7 @@ msgstr "X11"
 
 #: ../data/software-center.menu.in.h:47
 msgid "libdevel"
-msgstr ""
+msgstr "libdevel"
 
 #: ../data/software-center.menu.in.h:48
 msgid "localization"
@@ -309,11 +309,11 @@ msgstr "विविध"
 
 #: ../data/software-center.menu.in.h:51
 msgid "oldlibs"
-msgstr ""
+msgstr "oldlibs"
 
 #: ../data/software-center.menu.in.h:52
 msgid "otherosfs"
-msgstr ""
+msgstr "otherosfs"
 
 #: ../softwarecenter/app.py:136
 msgid "Sorry, can not open the software database"
@@ -338,7 +338,7 @@ msgstr "त्रुटि"
 #. the search.
 #: ../softwarecenter/db/database.py:38
 msgid "app;application;package;program;programme;suite;tool"
-msgstr ""
+msgstr "सफ्टवेयर;प्याकेज;प्रोग्राम;उपकरण"
 
 #: ../softwarecenter/distro/Debian.py:39 ../softwarecenter/distro/Ubuntu.py:46
 #, python-format
@@ -355,6 +355,8 @@ msgid ""
 "If you uninstall %s, future updates will not include new items in <b>%s</b> "
 "set. Are you sure you want to continue?"
 msgstr ""
+"तपाईले %s अनइन्सटल गरेमा भविष्यका अद्यावधिकले <b>%s</b> सेटका नयाँ वस्तुहरु "
+"सामेल गर्ने छैनन् । के तपाई साँच्चै जारी राख्न चाहनुहुन्छ?"
 
 #: ../softwarecenter/distro/Debian.py:51 ../softwarecenter/distro/Debian.py:62
 #: ../softwarecenter/distro/Ubuntu.py:58 ../softwarecenter/distro/Ubuntu.py:69
@@ -367,6 +369,8 @@ msgid ""
 "%s is a core application in Debian. Uninstalling it may cause future "
 "upgrades to be incomplete. Are you sure you want to continue?"
 msgstr ""
+"%s डेवियनमा मूल सफ्टवेयर हो । यसलाई अनइन्सटल गर्नाले भविष्यका अद्यावधिकहरु "
+"अधुरो हुन सक्छन् । के तपाई साँच्चै जारी राख्न चाहनुहुन्छ?"
 
 #. generic message
 #: ../softwarecenter/distro/Debian.py:71 ../softwarecenter/distro/Ubuntu.py:78
@@ -378,22 +382,22 @@ msgstr "%s यो कम्प्युटरमा इन्सटल भएक
 #, python-format
 msgid "It is used by %s piece of installed software."
 msgid_plural "It is used by %s pieces of installed software."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो %s थान इन्सटल भएका सफ्टवेयरद्वारा प्रयोग गरिन्छ ।"
+msgstr[1] "यो %s थान इन्सटल भएका सफ्टवेयरद्वारा प्रयोग गरिन्छ ।"
 
 #: ../softwarecenter/distro/Debian.py:85
 #, python-format
 msgid "It is recommended by %s piece of installed software."
 msgid_plural "It is recommended by %s pieces of installed software."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो %s थान इन्सटल भएका सफ्टवेयरद्वारा सिफारिस गरिन्छ ।"
+msgstr[1] "यो %s थान इन्सटल भएका सफ्टवेयरद्वारा सिफारिस गरिन्छ ।"
 
 #: ../softwarecenter/distro/Debian.py:91
 #, python-format
 msgid "It is suggested by %s piece of installed software."
 msgid_plural "It is suggested by %s pieces of installed software."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो %s थान इन्सटल भएका सफ्टवेयरद्वारा सुझाव गरिन्छ ।"
+msgstr[1] "यो %s थान इन्सटल भएका सफ्टवेयरद्वारा सुझाव गरिन्छ ।"
 
 #: ../softwarecenter/distro/Debian.py:104
 #: ../softwarecenter/distro/Ubuntu.py:111
@@ -422,7 +426,7 @@ msgstr "लाइसेन्स: %s"
 
 #: ../softwarecenter/distro/Ubuntu.py:43
 msgid "Provided by Ubuntu"
-msgstr ""
+msgstr "उबुन्तुद्वारा प्रदान गरिएको"
 
 #: ../softwarecenter/distro/Ubuntu.py:65
 #, python-format
@@ -430,27 +434,29 @@ msgid ""
 "%s is a core application in Ubuntu. Uninstalling it may cause future "
 "upgrades to be incomplete. Are you sure you want to continue?"
 msgstr ""
+"%s उबुन्तुमा मूल सफ्टवेयर हो । यसलाई अनइन्सटल गर्नाले भविष्यका अद्यावधिकहरु "
+"अधुरो हुन सक्छन् । के तपाई साँच्चै जारी राख्न चाहनुहुन्छ?"
 
 #: ../softwarecenter/distro/Ubuntu.py:86
 #, python-format
 msgid "It is used by %s installed software package."
 msgid_plural "It is used by %s installed software packages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो %s इन्सटल भएको प्याकेजद्वारा प्रयोग गरिन्छ ।"
+msgstr[1] "यो %s इन्सटल भएका प्याकेजद्वारा प्रयोग गरिन्छ ।"
 
 #: ../softwarecenter/distro/Ubuntu.py:92
 #, python-format
 msgid "It is recommended by %s installed software package."
 msgid_plural "It is recommended by %s installed software packages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो %s इन्सटल भएको प्याकेजद्वारा सिफारिस गरिन्छ ।"
+msgstr[1] "यो %s इन्सटल भएका प्याकेजद्वारा सिफारिस गरिन्छ ।"
 
 #: ../softwarecenter/distro/Ubuntu.py:98
 #, python-format
 msgid "It is suggested by %s installed software package."
 msgid_plural "It is suggested by %s installed software packages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो %s इन्सटल भएको प्याकेजद्वारा सुझाव गरिन्छ ।"
+msgstr[1] "यो %s इन्सटल भएका प्याकेजद्वारा सुझाव गरिन्छ ।"
 
 #: ../softwarecenter/distro/Ubuntu.py:163
 #: ../softwarecenter/distro/Ubuntu.py:175
@@ -459,19 +465,21 @@ msgid ""
 "Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
 "available in a newer version of Ubuntu."
 msgstr ""
+"क्यानोनिकल %s कालागि उबुन्तु %s मा अद्यावधिक प्रदान गर्दैन । उबुन्तुको नयाँ "
+"संस्करणमा अद्यावधिकहरु उपलब्ध हुन सक्छन ।"
 
 #: ../softwarecenter/distro/Ubuntu.py:168
 #, python-format
 msgid ""
-"Canonical provides critical updates for %(appname)s until "
-"%(support_end_month_str)s %(support_end_year)s."
+"Canonical provides critical updates for %(appname)s until %"
+"(support_end_month_str)s %(support_end_year)s."
 msgstr ""
 
 #: ../softwarecenter/distro/Ubuntu.py:180
 #, python-format
 msgid ""
-"Canonical provides critical updates supplied by the developers of "
-"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+"Canonical provides critical updates supplied by the developers of %"
+"(appname)s until %(support_end_month_str)s %(support_end_year)s."
 msgstr ""
 
 #: ../softwarecenter/distro/Ubuntu.py:190
@@ -497,11 +505,13 @@ msgid ""
 "Canonical does not provide updates for %s. Some updates may be provided by "
 "the Ubuntu community."
 msgstr ""
+"क्यानोनिकल %s कालागि अद्यावधिक प्रदान गर्दैन । केहि अद्यावधिकहरु उबुन्तु "
+"समुदायद्वारा प्रदान गरिएका हुन सक्छन ।"
 
 #: ../softwarecenter/distro/Ubuntu.py:202
 #, python-format
 msgid "Application %s has an unknown maintenance status."
-msgstr ""
+msgstr "सफ्टवेयर %s सित अज्ञात संभार स्थिति छ ।"
 
 #: ../softwarecenter/view/appdetailsview.py:85
 msgid "Description"
@@ -513,16 +523,20 @@ msgid ""
 "This software is available from the '%s' source, which you are not currently "
 "using."
 msgstr ""
+"यो सफ्टवेयर '%s'स्रोतबाट उपलब्ध छ जुन तपाई अहिले प्रयोग गरि राख्नु भएको छैन "
+"।"
 
 #: ../softwarecenter/view/appdetailsview.py:186
 msgid ""
 "To show information about this item, the software catalog needs updating."
 msgstr ""
+"यो वस्तुको बारेमा जानकारी देखाउनका लागि, सफ्टवेयर नामावली अद्यावधिक "
+"गर्नुपर्छ ।"
 
 #: ../softwarecenter/view/appdetailsview.py:189
 #, python-format
 msgid "Sorry, '%s' is not available for this type of computer (%s)."
-msgstr ""
+msgstr "क्षमा गर्नुस, '%s' यस प्रकारको कम्प्युटर (%s) का लागि उपलब्ध छैन ।"
 
 #: ../softwarecenter/view/appdetailsview.py:248
 #: ../softwarecenter/view/appdetailsview.py:252
@@ -581,8 +595,8 @@ msgstr "अहिले अद्यावधिक गर्नुहोस्"
 #, python-format
 msgid "%s review"
 msgid_plural "%s reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s समीक्षा"
+msgstr[1] "%s समीक्षा"
 
 #: ../softwarecenter/view/appview.py:883
 msgid "More Info"
@@ -605,15 +619,15 @@ msgstr "खोजी परिणाम"
 #, python-format
 msgid "%s matching item"
 msgid_plural "%s matching items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s मेल खाने वस्तु"
+msgstr[1] "%s मेल खाने वस्तुहरु"
 
 #: ../softwarecenter/view/availablepane.py:225
 #, python-format
 msgid "%s application available"
 msgid_plural "%s applications available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s सफ्टवेयर उपलब्ध"
+msgstr[1] "%s सफ्टवेयर उपलब्ध"
 
 #: ../softwarecenter/view/catview.py:77 ../softwarecenter/view/catview.py:82
 msgid "Departments"
@@ -641,8 +655,8 @@ msgstr "प्रतिस्थापित सफ्टवेयर"
 #, python-format
 msgid "%s application installed"
 msgid_plural "%s applications installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s सफ्टवेयर इन्सटल भयो"
+msgstr[1] "%s सफ्टवेयरहरु इन्सटल भए"
 
 #: ../softwarecenter/view/channelpane.py:169
 #, python-format
@@ -659,7 +673,7 @@ msgstr "सफ्टवेयर प्राप्त गर्नुहोस�
 #: ../softwarecenter/view/viewswitcher.py:194
 #, python-format
 msgid "In Progress (%i)"
-msgstr ""
+msgstr "प्रगतिमा (%i)"
 
 #: ../softwarecenter/view/viewswitcher.py:299
 msgid "Other"

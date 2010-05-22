@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: usb-creator\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-15 08:46+0000\n"
-"PO-Revision-Date: 2010-05-17 15:35+0545\n"
+"PO-Revision-Date: 2010-05-18 21:57+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -90,15 +90,15 @@ msgstr "कन्फिगरेसन परिवर्तन गर्दै.
 
 #: .././usbcreator/install.py:280
 msgid "Creating a persistence file..."
-msgstr ""
+msgstr "पर्सिसटेन्स फाइल निर्माण गर्दै..."
 
 #: .././usbcreator/install.py:283
 msgid "Creating an ext2 filesystem in the persistence file..."
-msgstr ""
+msgstr "पर्सिसटेन्स फाइलमा ext2 फाइलप्रणाली निर्माण गर्दै..."
 
 #: .././usbcreator/install.py:294
 msgid "Flushing writes to the disk..."
-msgstr ""
+msgstr "डिस्कमा लेखन फ्लस गर्दै..."
 
 #. TODO evand 2009-09-02: Disabled until we can find a cross-platform
 #. way of determining dd progress.
@@ -147,10 +147,13 @@ msgstr "चेकसमहरु मेल खाँदैनन् ।"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:21
 #: .././gui/usbcreator-gtk.ui.h:17 usbcreator-kde.ui.py:6
+#, fuzzy
 msgid ""
 "To try or install Ubuntu from a removable disk, it needs to be set up as a "
 "startup disk."
 msgstr ""
+"बाहिरी डिस्कबाट उबुन्तु परिक्षण गर्न वा इन्सटल गर्न, त्यसलाई स्टार्टअप "
+"डिस्कका रुपमा सेट गर्नुपर्छ ।"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:24
 #: .././gui/usbcreator-gtk.ui.h:13 usbcreator-kde.ui.py:9
@@ -178,7 +181,7 @@ msgstr "अन्य..."
 
 #: .././usbcreator/frontends/winui/main_dialog.py:34
 msgid "Removable disk to use:"
-msgstr ""
+msgstr "प्रयोग गर्नुपर्ने बाहिरी डिस्क:"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:36
 #: .././usbcreator/frontends/gtk/frontend.py:537 usbcreator-kde.ui.py:30
@@ -226,7 +229,7 @@ msgstr "अन्त्य गर्नुहोस्"
 
 #: .././usbcreator/frontends/winui/main_dialog.py:58
 msgid "Make startup disk"
-msgstr ""
+msgstr "स्टार्टअप डिस्क बनाउनुहोस्"
 
 #. #-#-#-#-#  usbcreator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. set title of progress window (same as gtk frontend)
@@ -312,7 +315,7 @@ msgstr "सबै"
 #: .././gui/usbcreator-gtk.ui.h:10 usbcreator-kde.ui.py:3
 #: usbcreator-kde.ui.py:61
 msgid "Make Startup Disk"
-msgstr ""
+msgstr "स्टार्टअप डिस्क बनाउनुहोस्"
 
 #: .././usbcreator/frontends/gtk/frontend.py:367 usbcreator-kde.ui.py:12
 msgid "CD-Drive/Image"
@@ -364,12 +367,12 @@ msgstr "के तपाई साँच्चिकै इन्सटल प�
 #: .././desktop/usb-creator-gtk.desktop.in.h:1
 #: .././desktop/usb-creator-kde.desktop.in.h:1
 msgid "Create a startup disk using a CD or disc image"
-msgstr ""
+msgstr "सिडी वा डिस्क छवि प्रयोग गरेर स्टार्टअप डिस्क निर्माण गर्नुहोस्"
 
 #: .././desktop/usb-creator-gtk.desktop.in.h:2
 #: .././desktop/usb-creator-kde.desktop.in.h:2
 msgid "Startup Disk Creator"
-msgstr ""
+msgstr "स्टार्टअप डिस्क निर्माता"
 
 #: .././gui/usbcreator-gtk.ui.h:2 usbcreator-kde.ui.py:27
 msgid "Disk to use:"

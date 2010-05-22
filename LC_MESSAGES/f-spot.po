@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: f-spot\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-11 01:35+0000\n"
-"PO-Revision-Date: 2010-05-04 11:27+0545\n"
+"PO-Revision-Date: 2010-05-21 00:41+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../extensions/Exporters/CDExport/CDExport.addin.xml.h:1
 msgid "_CD..."
-msgstr "सिडि..."
+msgstr "सिडी..."
 
 #: ../extensions/Exporters/CDExport/CDExport.cs:162
 #: ../extensions/Exporters/FolderExport/FolderExport.cs:392
@@ -128,7 +128,7 @@ msgstr "फेसबुक..."
 
 #: ../extensions/Exporters/FacebookExport/FacebookExport.cs:99
 msgid "Waiting for authorization"
-msgstr ""
+msgstr "अधिकारका लागि कुर्दै"
 
 #: ../extensions/Exporters/FacebookExport/FacebookExport.cs:100
 msgid ""
@@ -138,6 +138,11 @@ msgid ""
 "Once you are directed by Facebook to return to this application, click \"Ok\" "
 "below."
 msgstr ""
+"फोटो-स्पटले तपाईलाई भर्खरै छान्नुभएको अनुमति सक्षम बनाउन दिन तपाईको ब्राउजर "
+"चलाउने छ ।\n"
+"\n"
+"तपाईलाई फेसबुकले यो सफ्टवेयरमा फर्किन निर्दिशष्ट गरेपछि, तलको \"ठीक\" मा क्लिक "
+"गर्नुहोस् ।"
 
 #: ../extensions/Exporters/FacebookExport/FacebookExport.cs:280
 msgid "Too many images to export"
@@ -248,7 +253,7 @@ msgstr ""
 
 #: ../extensions/Exporters/FacebookExport/FacebookExportDialog.cs:237
 msgid "Authorizing Session"
-msgstr ""
+msgstr "सत्र अधिकार सम्पन्न गर्दै"
 
 #: ../extensions/Exporters/FacebookExport/FacebookExportDialog.cs:246
 msgid "Session established, fetching user info..."
@@ -344,7 +349,7 @@ msgstr "अनुमतिहरु:"
 
 #: ../extensions/Exporters/FacebookExport/FacebookExport.ui.h:13
 msgid "Stay Connected"
-msgstr ""
+msgstr "सम्पर्कमा रहिरहनुहोस्"
 
 #: ../extensions/Exporters/FacebookExport/FacebookExport.ui.h:14
 msgid "Use an existing album"
@@ -369,7 +374,7 @@ msgstr "जुमर..."
 #: ../extensions/Exporters/FlickrExport/FlickrExport.cs:105
 #: ../extensions/Exporters/FlickrExport/FlickrExport.glade.h:5
 msgid "Authorize"
-msgstr ""
+msgstr "अधिकार सम्पन्न गर्नुहोस्"
 
 #: ../extensions/Exporters/FlickrExport/FlickrExport.cs:111
 #, csharp-format
@@ -554,7 +559,7 @@ msgstr "ग्यालरी बनाउँदै"
 #: ../extensions/Exporters/FolderExport/FolderExport.cs:248
 #, csharp-format
 msgid "Error uploading picture \"{0}\" to Gallery:{2}{1}"
-msgstr ""
+msgstr "ग्यालरीमा तस्वीर \"{0}\" अपलोड गर्दा त्रुटि:{2}{1}"
 
 #: ../extensions/Exporters/FolderExport/FolderExport.cs:333
 msgid "Error: Error while transferring; Aborting"
@@ -635,7 +640,7 @@ msgstr "<b>निर्यात तरिका</b>"
 
 #: ../extensions/Exporters/FolderExport/FolderExport.glade.h:8
 msgid "Create _gallery using \"Original\""
-msgstr ""
+msgstr "\"मौलिक\" प्रयोग गरेर ग्यालरी निर्माण गर्नुहोस्"
 
 #: ../extensions/Exporters/FolderExport/FolderExport.glade.h:9
 msgid "Create standalone _web gallery"
@@ -1920,7 +1925,7 @@ msgstr "मेल निर्माण गर्नुहोस्"
 
 #: ../src/f-spot.glade.h:35
 msgid "Create _icon for this tag when first used"
-msgstr ""
+msgstr "पहिलो पल्ट प्रयोग गर्दा यो ट्यागको लागि आइकन निर्माण गर्नुहोस्"
 
 #: ../src/f-spot.glade.h:36
 msgid "Create a mail with the selected photos (possibly resized) attached"
@@ -1986,7 +1991,7 @@ msgstr "स्रोत आयात गर्नुहोस्:"
 
 #: ../src/f-spot.glade.h:54
 msgid "Include subfolders"
-msgstr ""
+msgstr "उप-फोल्डरहरु सम्मिलित गर्नुहोस"
 
 #: ../src/f-spot.glade.h:55
 msgid "Large"
@@ -2046,7 +2051,7 @@ msgstr "ट्याग छान्नुहोस्..."
 
 #: ../src/f-spot.glade.h:73
 msgid "Select the camera from which you want to transfer files"
-msgstr ""
+msgstr "त्यो क्यामरा छान्नुहोस् जुनबाट तपाई फाइल स्थानान्तर गर्न चाहनुहुन्छ"
 
 #: ../src/f-spot.glade.h:74
 msgid "Selected Camera: "
@@ -2058,7 +2063,7 @@ msgstr ""
 
 #: ../src/f-spot.glade.h:76 ../src/ui/main_window.ui.h:21
 msgid "Set as _Background"
-msgstr ""
+msgstr "पृष्ठभूमिको रूपमा सेट गर्नुहोस्"
 
 #: ../src/f-spot.glade.h:77
 msgid "Show all photos."
@@ -2066,15 +2071,15 @@ msgstr "सबै फोटो देखाउनुहोस्।"
 
 #: ../src/f-spot.glade.h:78
 msgid "Show or hide the side pane"
-msgstr ""
+msgstr "छेउको प्यान देखाउने वा लुकाउने"
 
 #: ../src/f-spot.glade.h:79
 msgid "Show or hide the toolbar"
-msgstr ""
+msgstr "उपकरणपट्टीलाई देखाउने वा लुकाउने"
 
 #: ../src/f-spot.glade.h:80
 msgid "Side _pane"
-msgstr ""
+msgstr "छेउको प्यान"
 
 #: ../src/f-spot.glade.h:81
 msgid "Small"
@@ -2127,7 +2132,7 @@ msgstr "जुम घटाउनुहोस्"
 
 #: ../src/f-spot.glade.h:93
 msgid "_Brightness:"
-msgstr ""
+msgstr "चम्किलोपन:"
 
 #: ../src/f-spot.glade.h:95
 msgid "_Create Mail"
@@ -2139,7 +2144,7 @@ msgstr "सम्पादन गर्नुहोस्"
 
 #: ../src/f-spot.glade.h:100
 msgid "_Exposure:"
-msgstr ""
+msgstr "एक्सपोजर:"
 
 #: ../src/f-spot.glade.h:101
 msgid "_Flickr"
@@ -2147,7 +2152,7 @@ msgstr "फ्लीकर"
 
 #: ../src/f-spot.glade.h:102 ../src/ui/main_window.ui.h:48
 msgid "_Fullscreen"
-msgstr ""
+msgstr "पूरा स्क्रिन"
 
 #: ../src/f-spot.glade.h:103
 msgid "_Gallery"
@@ -2159,7 +2164,7 @@ msgstr "सहायता"
 
 #: ../src/f-spot.glade.h:105
 msgid "_Hue:"
-msgstr ""
+msgstr "ह्यु:"
 
 #: ../src/f-spot.glade.h:106
 msgid "_Interpolate image on zoom"
@@ -2167,7 +2172,7 @@ msgstr ""
 
 #: ../src/f-spot.glade.h:107
 msgid "_New Window"
-msgstr ""
+msgstr "नयाँ विन्डो"
 
 #: ../src/f-spot.glade.h:108
 msgid "_Open album in browser when done uploading"
@@ -2191,7 +2196,7 @@ msgstr ""
 
 #: ../src/f-spot.glade.h:114 ../src/ui/main_window.ui.h:67
 msgid "_Slideshow"
-msgstr ""
+msgstr "स्लाइडशो"
 
 #: ../src/f-spot.glade.h:115
 msgid "_Strip metadata"
@@ -2211,7 +2216,7 @@ msgstr ""
 
 #: ../src/f-spot.glade.h:119
 msgid "_URI:"
-msgstr ""
+msgstr "_URI:"
 
 #: ../src/f-spot.glade.h:120 ../src/ui/main_window.ui.h:75
 msgid "_View"
@@ -2219,7 +2224,7 @@ msgstr ""
 
 #: ../src/f-spot.glade.h:121
 msgid "_Virtual Filesystem"
-msgstr ""
+msgstr "भर्चुअल फाइलप्रणाली"
 
 #: ../src/f-spot.glade.h:122 ../src/Widgets/FindBar.cs:177
 msgid "and"
@@ -2258,16 +2263,16 @@ msgstr "फोटोको जानकारी"
 
 #: ../src/FullScreenView.cs:73
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "पुरा स्क्रीनबाट बाहिरिनुहोस्"
 
 #: ../src/FullScreenView.cs:81 ../src/MainWindow.cs:307
 #: ../src/SingleView.cs:101
 msgid "Slideshow"
-msgstr ""
+msgstr "स्लाइडशो"
 
 #: ../src/FullScreenView.cs:82
 msgid "Start slideshow"
-msgstr ""
+msgstr "स्लाइडशो सुरु गर्नुहोस्"
 
 #: ../src/FullScreenView.cs:128
 msgid "Slide transition:"
@@ -2283,7 +2288,7 @@ msgstr "बढि"
 
 #: ../src/GroupSelector.cs:517 ../src/ui/main_window.ui.h:34
 msgid "_Clear Date Range"
-msgstr ""
+msgstr "मिति विस्तार हटाउनुहोस्"
 
 #: ../src/Imaging/Exif.cs:228
 msgid "Image Directory"
@@ -2291,11 +2296,11 @@ msgstr "फोटो डाइरेक्टरी"
 
 #: ../src/Imaging/Exif.cs:230
 msgid "Thumbnail Directory"
-msgstr ""
+msgstr "थम्बनेल डाइरेक्टरी"
 
 #: ../src/Imaging/Exif.cs:232
 msgid "Exif Directory"
-msgstr ""
+msgstr "Exif डाइरेक्टरी"
 
 #: ../src/Imaging/Exif.cs:234
 msgid "GPS Directory"
@@ -2311,7 +2316,7 @@ msgstr "अज्ञात डाइरेक्टरी"
 
 #: ../src/Imaging/ImageFile.cs:95
 msgid "Writing to this file format is not supported"
-msgstr ""
+msgstr "यो फाइल ढाँचामा लेख्न समर्थित छैन"
 
 #: ../src/Imaging/IptcFile.cs:145
 msgid "IPTC Information Interchange Model (IIM) Version number"
@@ -2323,7 +2328,7 @@ msgstr ""
 
 #: ../src/Imaging/IptcFile.cs:149
 msgid "IPTC file format"
-msgstr ""
+msgstr "IPTC फाइल ढाँचा"
 
 #: ../src/Imaging/IptcFile.cs:151
 msgid "Identifies the provider and product"
@@ -2427,7 +2432,7 @@ msgstr ""
 
 #: ../src/Imaging/IptcFile.cs:222
 msgid "Headline of the content"
-msgstr ""
+msgstr "सामग्रीको शीर्षक"
 
 #: ../src/Imaging/IptcFile.cs:225
 msgid ""
@@ -2440,7 +2445,7 @@ msgstr ""
 
 #: ../src/Imaging/IptcFile.cs:241
 msgid "Unknown IIM DataSet"
-msgstr ""
+msgstr "अज्ञात IIM डाटासेट"
 
 #: ../src/ImportCommand.cs:48 ../src/SingleView.cs:357
 msgid "Select Folder"
@@ -2457,7 +2462,7 @@ msgstr "{1} मध्ये {0} लोड गर्दै"
 
 #: ../src/ImportCommand.cs:470
 msgid "Done Loading"
-msgstr ""
+msgstr "लोड गर्न सकियो"
 
 #: ../src/ImportCommand.cs:684
 msgid "Directory does not exist."
@@ -2524,15 +2529,15 @@ msgstr "फोटो हेर्नुहोस् र सम्पादन �
 
 #: ../src/MainWindow.cs:302 ../src/SingleView.cs:96
 msgid "Fullscreen"
-msgstr ""
+msgstr "पूरा स्क्रीन"
 
 #: ../src/MainWindow.cs:304 ../src/SingleView.cs:98
 msgid "View photos fullscreen"
-msgstr ""
+msgstr "पूरा स्क्रीनमा फोटोहरु हेर्नुहोस्"
 
 #: ../src/MainWindow.cs:309 ../src/SingleView.cs:103
 msgid "View photos in a slideshow"
-msgstr ""
+msgstr "स्लाइडशोमा फोटोहरु हेर्नुहोस्"
 
 #: ../src/MainWindow.cs:324
 msgid "Previous photo"
@@ -2566,8 +2571,8 @@ msgstr ""
 #, csharp-format
 msgid "Merge the selected tag"
 msgid_plural "Merge the {0} selected tags?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "छानिएको ट्याब गाभ्नुहोस्"
+msgstr[1] "छानिएका {0} ट्याबहरु गाभ्ने?"
 
 #: ../src/MainWindow.cs:1856
 msgid ""
@@ -2653,7 +2658,7 @@ msgstr ""
 
 #: ../src/MainWindow.cs:2240
 msgid "_Remove from Catalog"
-msgstr ""
+msgstr "नामावलीबाट हटाउनुहोस्"
 
 #: ../src/MainWindow.cs:2303
 #, csharp-format
@@ -2929,7 +2934,7 @@ msgstr ""
 
 #: ../src/PhotoView.cs:356
 msgid "Comment:"
-msgstr ""
+msgstr "टिप्पणी:"
 
 #: ../src/Preferences.cs:151
 msgid "Photos"
@@ -3018,7 +3023,7 @@ msgstr[1] ""
 #: ../src/RotateCommand.cs:271
 #, csharp-format
 msgid "Received error \"{0}\" while attempting to rotate {1}"
-msgstr ""
+msgstr "{1} घुमाउने प्रयास गर्दा \"{0}\" त्रुटि प्राप्त भयो"
 
 #: ../src/RotateCommand.cs:276
 msgid "Error while rotating photo."
@@ -3135,7 +3140,7 @@ msgstr[1] "छनौटबाट ट्यागहरु हटाउनुह�
 
 #: ../src/TagPopup.cs:62
 msgid "Merge Tags"
-msgstr ""
+msgstr "ट्यागहरु गाभ्नुहोस्"
 
 #: ../src/TagQueryWidget.cs:34
 #, csharp-format
@@ -3293,7 +3298,7 @@ msgstr ""
 #: ../src/UI.Dialog/EditTagIconDialog.cs:46
 #, csharp-format
 msgid "Edit Icon for Tag {0}"
-msgstr ""
+msgstr "ट्याग {0} का लागि आइकन सम्पादन गर्नुहोस्"
 
 #: ../src/UI.Dialog/EditTagIconDialog.cs:68
 msgid "Select Photo from file"
@@ -3317,7 +3322,7 @@ msgstr "फोटो लोड गर्न असक्षम"
 #: ../src/UI.Dialog/EditTagIconDialog.cs:169
 #, csharp-format
 msgid "Unable to load \"{0}\" as icon for the tag"
-msgstr ""
+msgstr "ट्यागका लागि \"{0}\" लाई आइकनका रुपमा लोड गर्न अक्षम"
 
 #: ../src/UI.Dialog/EditTagIconDialog.cs:207
 #, csharp-format

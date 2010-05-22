@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: eog.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-09 23:15+0000\n"
-"PO-Revision-Date: 2010-04-21 21:02+0545\n"
+"PO-Revision-Date: 2010-05-20 17:33+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -82,12 +82,12 @@ msgstr ""
 #: ../plugins/reload/reload.eog-plugin.desktop.in.h:1
 #: ../plugins/reload/eog-reload-plugin.c:45
 msgid "Reload Image"
-msgstr ""
+msgstr "फोटो पून: लोड गर्नुहोस्"
 
 #: ../plugins/reload/reload.eog-plugin.desktop.in.h:2
 #: ../plugins/reload/eog-reload-plugin.c:47
 msgid "Reload current image"
-msgstr ""
+msgstr "हालको फोटो पून: लोड गर्नुहोस्"
 
 #: ../plugins/statusbar-date/statusbar-date.eog-plugin.desktop.in.h:1
 msgid "Date in statusbar"
@@ -107,7 +107,7 @@ msgstr "चित्र दर्शक"
 
 #: ../data/eog-image-properties-dialog.ui.h:1
 msgid "Aperture Value:"
-msgstr ""
+msgstr "एपेर्चर मान:"
 
 #: ../data/eog-image-properties-dialog.ui.h:2
 msgid "Author:"
@@ -139,7 +139,7 @@ msgstr "विवरण"
 
 #: ../data/eog-image-properties-dialog.ui.h:9
 msgid "Exposure Time:"
-msgstr ""
+msgstr "एक्सपोजर समय:"
 
 #: ../data/eog-image-properties-dialog.ui.h:10
 msgid "Flash:"
@@ -163,11 +163,11 @@ msgstr ""
 
 #: ../data/eog-image-properties-dialog.ui.h:15
 msgid "Image Properties"
-msgstr "छवि गुण"
+msgstr "फोटो गुण"
 
 #: ../data/eog-image-properties-dialog.ui.h:16
 msgid "Keywords:"
-msgstr ""
+msgstr "मुख्यशब्दहरु:"
 
 #: ../data/eog-image-properties-dialog.ui.h:17
 msgid "Location:"
@@ -221,11 +221,11 @@ msgstr "गन्तब्य फोल्डर:"
 
 #: ../data/eog-multiple-save-as-dialog.ui.h:7
 msgid "File Name Preview"
-msgstr ""
+msgstr "फाइलनाम पूर्वावलोकन"
 
 #: ../data/eog-multiple-save-as-dialog.ui.h:8
 msgid "File Path Specifications"
-msgstr ""
+msgstr "फाइल मार्ग निर्देशन"
 
 #: ../data/eog-multiple-save-as-dialog.ui.h:9
 msgid "Filename format:"
@@ -281,11 +281,11 @@ msgstr "जिनोम आँखाको प्राथमिकता"
 
 #: ../data/eog-preferences-dialog.ui.h:7
 msgid "Image Enhancements"
-msgstr ""
+msgstr "फोटो अविवृद्धि"
 
 #: ../data/eog-preferences-dialog.ui.h:8
 msgid "Image View"
-msgstr "छवि दृष्य"
+msgstr "फोटो दृश्य"
 
 #: ../data/eog-preferences-dialog.ui.h:9
 msgid "Image Zoom"
@@ -297,7 +297,7 @@ msgstr "प्लगइन"
 
 #: ../data/eog-preferences-dialog.ui.h:11
 msgid "Sequence"
-msgstr ""
+msgstr "अनुक्रम"
 
 #: ../data/eog-preferences-dialog.ui.h:12
 msgid "Slideshow"
@@ -305,11 +305,11 @@ msgstr "स्लाइड प्रर्दशन"
 
 #: ../data/eog-preferences-dialog.ui.h:13
 msgid "Smooth images when zoomed-_in"
-msgstr ""
+msgstr "जुम बढाउँदा फोटोहरु नरम पार्ने"
 
 #: ../data/eog-preferences-dialog.ui.h:14
 msgid "Smooth images when zoomed-_out"
-msgstr ""
+msgstr "जुम घटाउँदा फोटोहरु नरम पार्ने"
 
 #: ../data/eog-preferences-dialog.ui.h:15
 msgid "Transparent Parts"
@@ -329,7 +329,7 @@ msgstr ":पछि छवि स्विच गर्नुहोस्"
 
 #: ../data/eog-preferences-dialog.ui.h:19
 msgid "seconds"
-msgstr "दोस्रोहरु"
+msgstr "सेकेन्ड"
 
 #: ../data/eog.schemas.in.h:1
 msgid ""
@@ -389,16 +389,19 @@ msgstr ""
 msgid ""
 "If activated the detailed metadata list in the properties dialog will be "
 "moved to its own page in the dialog. This should make the dialog more usable "
-"on smaller screens, e.g. as used by netbooks. If disabled the widget will be "
-"embedded on the \"Metadata\" page."
+"on smaller screens, e.g. as used by netbooks. If disabled the widget will "
+"be embedded on the \"Metadata\" page."
 msgstr ""
+"सक्रिय पारिएमा गुण संवादमा भएको विस्तृत मेटाडाटा सूची संवादमा आफ्नै पृष्ठमा "
+"सारिने छ । यसले संवादलाई सानो स्क्रिनमा, उदाहरण; नेटबुकमा प्रयोग हुने जस्तै, "
+"अझ उपयोगी बनाउनु पर्छ । अक्षम पारिएमा विजेट \"मेटाडाटा\" पृष्ठमा गाभिनेछ ।"
 
 #: ../data/eog.schemas.in.h:12
 msgid ""
 "If the transparency key has the value COLOR, then this key determines the "
 "color which is used for indicating transparency."
 msgstr ""
-"यदि पारदर्शि कि संग मुल्यको रंग छ भने यो किले रंग देखाउछ जुन पारदर्शिता "
+"यदि पारदर्शी कि संग मुल्यको रंग छ भने यो किले रंग देखाउछ जुन पारदर्शिता "
 "देखाउन प्रयोग गरियो"
 
 #: ../data/eog.schemas.in.h:13
@@ -440,15 +443,15 @@ msgstr "स्क्रोल चक्र जुम"
 
 #: ../data/eog.schemas.in.h:19
 msgid "Show/Hide the image collection pane scroll buttons."
-msgstr ""
+msgstr "फोटो संग्रह प्यान स्क्रोल बटनहरु देखाउनुहोस्/लुकाउनुहोस् ।"
 
 #: ../data/eog.schemas.in.h:20
 msgid "Show/Hide the image collection pane."
-msgstr ""
+msgstr "फोटो संग्रह प्यान देखाउनुहोस्/लुकाउनुहोस् ।"
 
 #: ../data/eog.schemas.in.h:21
 msgid "Show/Hide the window side pane."
-msgstr ""
+msgstr "विन्डो साइड प्यान देखाउनुहोस्/लुकाउनुहोस् ।"
 
 #: ../data/eog.schemas.in.h:22
 msgid "Show/Hide the window statusbar."
@@ -456,15 +459,15 @@ msgstr ""
 
 #: ../data/eog.schemas.in.h:23
 msgid "Show/Hide the window toolbar."
-msgstr ""
+msgstr "विन्डो उपकरणपट्टी देखाउनुहोस्/लुकाउनुहोस् ।"
 
 #: ../data/eog.schemas.in.h:25
 #, no-c-format
 msgid ""
 "The multiplier to be applied when using the mouse scroll wheel for zooming. "
 "This value defines the zooming step used for each scroll event. For example, "
-"0.05 results in a 5% zoom increment for each scroll event and 1.00 result in "
-"a 100% zoom increment."
+"0.05 results in a 5% zoom increment for each scroll event and 1.00 result "
+"in a 100% zoom increment."
 msgstr ""
 "जुम गर्नका लागि माउस स्क्रोल चक्र प्रयोग गर्दा लागू गरिनुपर्ने गुणक । यो "
 "मानले प्रत्येक स्क्रोल घटनाका लागि प्रयोग गरिने जुमका चरणहरू परिभाषित गर्दछ "
@@ -488,10 +491,12 @@ msgid ""
 "Whether the file chooser should show the user's pictures folder if no images "
 "are loaded."
 msgstr ""
+"के फाइल छनौटकर्ताले कुनै फोटो लोड नभएमा प्रयोगकर्ताको तस्वीर फोल्डर "
+"देखाउनुपर्छ ।"
 
 #: ../data/eog.schemas.in.h:30
 msgid "Whether the image collection pane should be resizable."
-msgstr ""
+msgstr "के फोटो संग्रह प्यानको साइज परिवर्तन गर्न मिल्ने हुनुपर्छ ।"
 
 #: ../data/eog.schemas.in.h:31
 msgid ""
@@ -513,15 +518,15 @@ msgstr "या छवि EXIF अभिमुखिकरणमा आधार�
 #: ../data/eog.schemas.in.h:34
 msgid ""
 "Whether the metadata list in the properties dialog should have its own page."
-msgstr ""
+msgstr "के गुण संवादमा मेटाडाटा सूचीको आफ्नै पृष्ठ हुनुपर्दछ ।"
 
 #: ../data/eog.schemas.in.h:35
 msgid "Whether the scroll wheel should be used for zooming."
-msgstr ""
+msgstr "के जुमका लागि स्क्रोल चक्का प्रयोग गर्नुपर्छ ।"
 
 #: ../data/eog.schemas.in.h:36
 msgid "Whether the sequence of images should be shown in an endless loop."
-msgstr ""
+msgstr "के फोटोहरुको अनुक्रमलाई अन्तहिन लुपमा देखाउनु पर्छ ।"
 
 #: ../data/eog.schemas.in.h:37
 msgid "Zoom multiplier"
@@ -549,16 +554,20 @@ msgstr "बन्द गर्नुभन्दा पहिले फोटो
 msgid "There is %d image with unsaved changes. Save changes before closing?"
 msgid_plural "There are %d images with unsaved changes. Save changes before closing?"
 msgstr[0] ""
+"बचत नगरिएको परिवर्तनहरू सहित %d फोटो छ । बन्द गर्नु पहिला परिवर्तनहरू बचत "
+"गर्नुहुन्छ?"
 msgstr[1] ""
+"बचत नगरिएका परिवर्तनहरू सहित %d फोटो छन् । बन्द गर्नु पहिला परिवर्तनहरू बचत "
+"गर्नुहुन्छ?"
 
 #: ../src/eog-close-confirmation-dialog.c:621
 msgid "S_elect the images you want to save:"
-msgstr ""
+msgstr "तपाईँले बचत गर्न चाहनुभएको फोटोहरु छान्नुहोस्:"
 
 #. Secondary label
 #: ../src/eog-close-confirmation-dialog.c:639
 msgid "If you don't save, all your changes will be lost."
-msgstr ""
+msgstr "तपाईले बचत गर्नुभएन भने तपाईका सबै परिवर्तनहरु हराउनेछन्।"
 
 #: ../src/eog-file-chooser.c:128
 msgid "File format is unknown or unsupported"
@@ -732,7 +741,7 @@ msgstr "फोटो"
 
 #: ../src/eog-print-image-setup.c:835
 msgid "The image whose printing properties will be set up"
-msgstr ""
+msgstr "फोटो जसको मुद्रण गुणहरु सेट अप हुन्छ"
 
 #: ../src/eog-print-image-setup.c:841
 msgid "Page Setup"
@@ -895,12 +904,12 @@ msgstr "चयन गरिएको छवि खोल्न \"%s\" प्र�
 #: ../src/eog-window.c:1342
 #, c-format
 msgid "Saving image \"%s\" (%u/%u)"
-msgstr ""
+msgstr "फोटो \"%s\" बचत गर्दै (%u/%u)"
 
 #: ../src/eog-window.c:1684
 #, c-format
 msgid "Loading image \"%s\""
-msgstr "\"%s\" छवि लोड गर्दै"
+msgstr "फोटो \"%s\" लोड गर्दै"
 
 #: ../src/eog-window.c:2384
 #, c-format
@@ -917,12 +926,12 @@ msgstr "उपकरणपट्टी सम्पादक"
 
 #: ../src/eog-window.c:2639
 msgid "_Reset to Default"
-msgstr ""
+msgstr "पूर्वनिर्धारितमा रिसेट गर्नुहोस्"
 
 #: ../src/eog-window.c:2725
 msgid "translator-credits"
 msgstr ""
-"Mahesh subedi <mahesh@mpp.org.np>\n"
+"Mahesh subedi <mahesh@mpp.org.np>, Jitendra Harlalka <jitendra@otrc.gov.np>\n"
 "\n"
 "Launchpad Contributions:\n"
 "  KU https://launchpad.net/~info-ku\n"
@@ -954,12 +963,12 @@ msgstr ""
 #: ../src/eog-window.c:2736
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
-"Place - Suite 330, Boston, MA 02111-1307, USA."
+"this program; if not, write to the Free Software Foundation, Inc., 59 "
+"Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgstr ""
 "तपाईँले यो कार्क्रम सँगै GNU General Public License को प्रतिलिपि प्राप्त "
-"गरेको हुनुपर्दछ; यदि नभएमा, स्वतन्त्र सफ्टवेयर संस्था, Inc., 59 Temple Place "
-"- Suite 330, Boston, MA 02111-1307, USA लाई लेख्नुहोस् ।"
+"गरेको हुनुपर्दछ; यदि नभएमा, Free Software Foundation, Inc., 59 Temple Place "
+"- Suite 330, Boston, MA 02111-1307, USA मा पत्राचार गर्नुहोस् ।"
 
 #: ../src/eog-window.c:2749
 msgid "Eye of GNOME"
@@ -977,10 +986,12 @@ msgid ""
 "The image \"%s\" has been set as Desktop Background.\n"
 "Would you like to modify its appearance?"
 msgstr ""
+"फोटो \"%s\" डेस्कटप पृष्ठभूमिका रुपमा सेट गरिएको छ ।\n"
+"के तपाई यसको देखावट परिवर्तन गर्न चाहनुहुन्छ?"
 
 #: ../src/eog-window.c:3278
 msgid "Saving image locally…"
-msgstr ""
+msgstr "फोटो स्थानीय रुपमा बचत गर्दै..."
 
 #: ../src/eog-window.c:3360
 #, c-format
@@ -1025,7 +1036,7 @@ msgstr "रद्दि टोकरीमा सार्नुहोस्"
 
 #: ../src/eog-window.c:3392
 msgid "_Do not ask again during this session"
-msgstr ""
+msgstr "यो सत्रभरि फेरी नसोध्ने"
 
 #: ../src/eog-window.c:3437 ../src/eog-window.c:3451
 #, c-format
@@ -1157,7 +1168,7 @@ msgstr "बचत"
 
 #: ../src/eog-window.c:3797
 msgid "Save changes in currently selected images"
-msgstr ""
+msgstr "हाल छानिएका फोटोहरुमा परिवर्तन बचत गर्नुहोस्"
 
 #: ../src/eog-window.c:3799
 msgid "Open _with"
@@ -1173,11 +1184,11 @@ msgstr ""
 
 #: ../src/eog-window.c:3803
 msgid "Save the selected images with a different name"
-msgstr ""
+msgstr "छानिएका फाइलहरु फरक नामसँग बचत गर्नुहोस्"
 
 #: ../src/eog-window.c:3806
 msgid "Set up the page properties for printing"
-msgstr ""
+msgstr "मुद्रणका लागि पृष्ठ गुणहरु सेट अप गर्नुहोस्"
 
 #: ../src/eog-window.c:3808
 msgid "_Print…"
@@ -1193,7 +1204,7 @@ msgstr "गुण"
 
 #: ../src/eog-window.c:3812
 msgid "Show the properties and metadata of the selected image"
-msgstr ""
+msgstr "छानिएको फोटोको गुणहरु र मेटाडाटा देखाउने"
 
 #: ../src/eog-window.c:3814
 msgid "_Undo"
@@ -1205,19 +1216,19 @@ msgstr ""
 
 #: ../src/eog-window.c:3817
 msgid "Flip _Horizontal"
-msgstr "क्षितिजिय हलुका स्पर्ष गर्नु"
+msgstr "तेर्सो उल्ट्याउनुहोस्"
 
 #: ../src/eog-window.c:3818
 msgid "Mirror the image horizontally"
-msgstr ""
+msgstr "फोटोलाई तेर्सो प्रतिबिम्बित गर्नुहोस्"
 
 #: ../src/eog-window.c:3820
 msgid "Flip _Vertical"
-msgstr "ठाडो हलुका स्पर्ष गर्नु"
+msgstr "ठाडो उल्ट्याउनुहोस्"
 
 #: ../src/eog-window.c:3821
 msgid "Mirror the image vertically"
-msgstr ""
+msgstr "फोटोलाई ठाडो प्रतिबिम्बित गर्नुहोस्"
 
 #: ../src/eog-window.c:3823
 msgid "_Rotate Clockwise"
@@ -1237,11 +1248,11 @@ msgstr "फोटो बाँयातिर ९० डिग्रीले �
 
 #: ../src/eog-window.c:3829
 msgid "Set as _Desktop Background"
-msgstr ""
+msgstr "डेस्कटप पृष्ठभूमिका रुपमा सेट गर्नुहोस्"
 
 #: ../src/eog-window.c:3830
 msgid "Set the selected image as the desktop background"
-msgstr ""
+msgstr "छानिएको फोटोलाई डेस्कटप पृष्ठभूमिका रुपमा सेट गर्नुहोस्"
 
 #: ../src/eog-window.c:3833
 msgid "Move the selected image to the trash folder"
@@ -1261,7 +1272,7 @@ msgstr "जुम घटाउनुहोस्"
 
 #: ../src/eog-window.c:3839 ../src/eog-window.c:3851 ../src/eog-window.c:3854
 msgid "Shrink the image"
-msgstr ""
+msgstr "फोटो खुम्चयाउनुहोस्"
 
 #: ../src/eog-window.c:3841
 msgid "_Normal Size"
@@ -1269,7 +1280,7 @@ msgstr "_साधारण आकार"
 
 #: ../src/eog-window.c:3842
 msgid "Show the image at its normal size"
-msgstr ""
+msgstr "फोटो यसको सामान्य साइजमा देखाउनुहोस्"
 
 #: ../src/eog-window.c:3844
 msgid "Best _Fit"
@@ -1277,15 +1288,15 @@ msgstr "सर्वोत्तम _उपयुक्त"
 
 #: ../src/eog-window.c:3845
 msgid "Fit the image to the window"
-msgstr ""
+msgstr "फोटो विन्डोमा अटाउनुहोस्"
 
 #: ../src/eog-window.c:3862
 msgid "_Fullscreen"
-msgstr ""
+msgstr "पूरा स्क्रिन"
 
 #: ../src/eog-window.c:3863
 msgid "Show the current image in fullscreen mode"
-msgstr ""
+msgstr "वर्तमान फोटो पूरा स्क्रिन मोडमा देखाउने"
 
 #: ../src/eog-window.c:3868 ../src/eog-window.c:3883
 msgid "_Previous Image"
@@ -1422,7 +1433,7 @@ msgstr "छवि संङ्कलन असक्षम पार्नुह
 
 #: ../src/main.c:65
 msgid "Open in slideshow mode"
-msgstr ""
+msgstr "स्लाइडसो मोडमा खोल्नुहोस्"
 
 #: ../src/main.c:67
 msgid "Start a new instance instead of reusing an existing one"
@@ -1436,8 +1447,8 @@ msgstr "[FILE…]"
 #: ../src/main.c:195
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
-msgstr ""
+msgstr "उपलब्ध कमान्ड लाइन विकल्पहरूको पूरा सूची हेर्न '%s --help' चलाउनुहोस् ।\n"
 
 #: ../src/main.c:233
 msgid "Eye of GNOME Image Viewer"
-msgstr "जिनोम छवि दर्शकको आँखा"
+msgstr "जिनोमको आँखा फोटो दर्शक"

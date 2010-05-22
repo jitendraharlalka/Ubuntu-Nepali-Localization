@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: coreutils\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-05-07 14:14+0200\n"
-"PO-Revision-Date: 2010-05-15 18:09+0545\n"
+"PO-Revision-Date: 2010-05-19 18:17+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: en\n"
@@ -269,7 +269,7 @@ msgstr "वर्तमान काम भइरहेको डाइरेक
 #: lib/openat-die.c:47 src/df.c:598
 #, c-format
 msgid "failed to return to initial working directory"
-msgstr ""
+msgstr "सुरुको कार्य डाइरेक्टरीमा फर्किन असफल"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -357,19 +357,19 @@ msgstr "स्मृति समाप्त भयो"
 
 #: lib/regcomp.c:174
 msgid "Invalid preceding regular expression"
-msgstr ""
+msgstr "अमान्य अघिल्लो रेग्युलर एक्सप्रेसन"
 
 #: lib/regcomp.c:177
 msgid "Premature end of regular expression"
-msgstr ""
+msgstr "रेग्युलर एक्सप्रेसनको असामयिक अन्त"
 
 #: lib/regcomp.c:180
 msgid "Regular expression too big"
-msgstr "धेरै ठूलो नियमित अभिव्यक्ति"
+msgstr "धेरै ठूलो रेग्युलर एक्सप्रेसन"
 
 #: lib/regcomp.c:183
 msgid "Unmatched ) or \\)"
-msgstr ""
+msgstr "नमिलेको ) वा \\)"
 
 #: lib/regcomp.c:704
 msgid "No previous regular expression"
@@ -881,6 +881,10 @@ msgid ""
 "  -u                       (ignored)\n"
 "  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB\n"
 msgstr ""
+"  -t                       -vT जस्तै\n"
+"  -T, --show-tabs          TAB क्यारेक्टरहरु ^I रुपमा देखाउने\n"
+"  -u                       (बेवास्ता गरिएका)\n"
+"  -v, --show-nonprinting   LFD र TAB को सट्टा ^ र M- चिन्ह प्रयोग गर्ने\n"
 
 #: src/cat.c:115
 #, c-format
@@ -928,7 +932,7 @@ msgstr "सुरक्षा प्रसंग निर्माण गर्
 #: src/chcon.c:111
 #, c-format
 msgid "failed to set %s security context component to %s"
-msgstr ""
+msgstr "%s सुरक्षा प्रसंग अंशलाई %s मा सेट गर्न असफल"
 
 #: src/chcon.c:155 src/chcon.c:523 src/copy.c:1778 src/runcon.c:218
 #: src/stat.c:461
@@ -1057,7 +1061,7 @@ msgstr ""
 #: src/mv.c:96 src/pwd.c:274 src/rm.c:356 src/touch.c:159 src/touch.c:361
 #, c-format
 msgid "failed to get attributes of %s"
-msgstr ""
+msgstr "%s का लागि गुणहरु पाउन असफल"
 
 #: src/chgrp.c:93
 #, c-format
@@ -1070,6 +1074,8 @@ msgid ""
 "Usage: %s [OPTION]... GROUP FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
+"उपयोग: %s [OPTION]... GROUP FILE...\n"
+"   वा:    %s [OPTION]... --reference=RFILE FILE...\n"
 
 #: src/chgrp.c:115
 msgid ""
@@ -1083,8 +1089,7 @@ msgstr ""
 
 #: src/chgrp.c:123 src/chown.c:104
 msgid ""
-"  -h, --no-dereference   affect each symbolic link instead of any "
-"referenced\n"
+"  -h, --no-dereference   affect each symbolic link instead of any referenced\n"
 "                         file (useful only on systems that can change the\n"
 "                         ownership of a symlink)\n"
 msgstr ""
@@ -1235,12 +1240,12 @@ msgstr "%s को स्वामित्व परिवर्तन गर्
 #: src/chown-core.c:154
 #, c-format
 msgid "ownership of %s retained as %s\n"
-msgstr ""
+msgstr "%s को मालिक %s लाई राखियो"
 
 #: src/chown-core.c:155
 #, c-format
 msgid "group of %s retained as %s\n"
-msgstr ""
+msgstr "%s को समूह %s लाई राखियो"
 
 #: src/chown-core.c:156
 #, c-format
@@ -1287,8 +1292,7 @@ msgid ""
 "                         change the owner and/or group of each file only if\n"
 "                         its current owner and/or group match those "
 "specified\n"
-"                         here.  Either may be omitted, in which case a "
-"match\n"
+"                         here.  Either may be omitted, in which case a match\n"
 "                         is not required for the omitted attribute.\n"
 msgstr ""
 
@@ -1319,6 +1323,11 @@ msgid ""
 "  %s root:staff /u  Likewise, but also change its group to \"staff\".\n"
 "  %s -hR root /u    Change the owner of /u and subfiles to \"root\".\n"
 msgstr ""
+"\n"
+"उदाहरणहरु:\n"
+"  %s root /u        /u को मालिक \"root\" मा परिवर्तन गर्ने ।\n"
+"  %s root:staff /u  उस्तै, तर  त्यसको समूह पनि \"staff\" मा परिवर्तन गर्ने ।\n"
+"  %s -hR root /u    /u र उपफाइलहरुको मालिक \"root\" मा परिवर्तन गर्ने ।\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chroot.c:33
@@ -1489,7 +1498,7 @@ msgstr ""
 #: src/copy.c:508
 #, c-format
 msgid "failed to set the security context of %s to %s"
-msgstr ""
+msgstr "%s को सुरक्षा प्रसंग लाई %s मा सेट गर्न असफल"
 
 #: src/copy.c:525 src/copy.c:1318 src/copy.c:1472 src/copy.c:1620 src/ln.c:293
 #: src/remove.c:935 src/remove.c:956 src/remove.c:1105 src/remove.c:1146
@@ -1847,6 +1856,10 @@ msgid ""
 "  existing, nil   numbered if numbered backups exist, simple otherwise\n"
 "  simple, never   always make simple backups\n"
 msgstr ""
+"  none, off       कहिले ब्याकअप नबनाउने  (--backup दिइएमा पनि)\n"
+"  numbered, t     नम्बरयुक्त ब्याकअप बनाउने\n"
+"  existing, nil   नम्बरयुक्त ब्याकअप भएमा नम्बरयुक्त, नभए साधारण\n"
+"  simple, never   सधै साधारण ब्याकअप बनाउने\n"
 
 #: src/cp.c:237
 msgid ""
@@ -1908,7 +1921,7 @@ msgstr "लक्ष्य %s डाइरेक्टरी होइन"
 #: src/cp.c:705
 #, c-format
 msgid "with --parents, the destination must be a directory"
-msgstr ""
+msgstr "--parents का साथ, गन्तव्य डाइरेक्टरी हुनु पर्दछ"
 
 #: src/cp.c:1023 src/install.c:517 src/ln.c:469 src/mv.c:389
 #, c-format
@@ -1927,7 +1940,7 @@ msgstr ""
 
 #: src/cp.c:1083 src/install.c:581 src/ln.c:540 src/mv.c:467
 msgid "backup type"
-msgstr ""
+msgstr "ब्याकअप प्रकार"
 
 #: src/cp.c:1108
 #, c-format
@@ -1936,8 +1949,7 @@ msgstr ""
 
 #: src/cp.c:1114
 #, c-format
-msgid ""
-"cannot preserve extended attributes, cp is built without xattr support"
+msgid "cannot preserve extended attributes, cp is built without xattr support"
 msgstr ""
 
 #. This is a proper name. See the gettext manual, section Names.
@@ -1953,12 +1965,12 @@ msgstr "आगत अदृश्य भयो"
 #: src/csplit.c:650 src/csplit.c:661
 #, c-format
 msgid "%s: line number out of range"
-msgstr ""
+msgstr "%s: लाइन नम्बर दायरा बाहिर छ"
 
 #: src/csplit.c:690
 #, c-format
 msgid "%s: %s: line number out of range"
-msgstr ""
+msgstr "%s: %s: लाइन नम्बर दायरा बाहिर छ"
 
 #: src/csplit.c:693 src/csplit.c:742
 #, c-format
@@ -1973,7 +1985,7 @@ msgstr ""
 #: src/csplit.c:800 src/csplit.c:840 src/nl.c:352 src/tac.c:274
 #, c-format
 msgid "error in regular expression search"
-msgstr ""
+msgstr "रेग्युलर एक्सप्रेसन खोजीमा त्रुटि"
 
 #: src/csplit.c:965
 #, c-format
