@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: synaptic\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-18 03:23+0000\n"
-"PO-Revision-Date: 2010-05-13 15:10+0545\n"
-"Last-Translator: sushil\n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2010-05-28 15:42+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 03:12+0000\n"
 
 #. TRANSLATORS: Alias for the Debian package section "admin"
@@ -860,6 +860,8 @@ msgid ""
 "\n"
 "Removed the following ESSENTIAL packages:\n"
 msgstr ""
+"\n"
+"निम्न आवश्यक प्याकेजहरु हटाइए:\n"
 
 #. _logEntry += _("\n<b>Downgraded the following packages:</b>\n");
 #: ../common/rpackagelister.cc:1644
@@ -892,6 +894,8 @@ msgid ""
 "\n"
 "Upgraded the following packages:\n"
 msgstr ""
+"\n"
+"निम्न प्याकेजहरु स्तरोन्नति गरिए:\n"
 
 #. _logEntry += _("\n<b>Installed the following packages:</b>\n");
 #: ../common/rpackagelister.cc:1682
@@ -918,7 +922,7 @@ msgstr "डाउनलोड डाइरेक्ट्री ताल्च�
 #: ../common/rpackagelister.cc:1793
 #, c-format
 msgid "Line %u too long in markings file."
-msgstr ""
+msgstr "मार्किङ फाइलमा लाइन %u अत्यधिक लामो छ ।"
 
 #: ../common/rpackagelister.cc:1807 ../common/rpackagelister.cc:1811
 #, c-format
@@ -927,11 +931,11 @@ msgstr ""
 
 #: ../common/rpackagelister.cc:1823
 msgid "Setting markings..."
-msgstr ""
+msgstr "चिनोहरु सेट गर्दै..."
 
 #: ../common/rpmindexcopy.cc:135
 msgid "bzip2 failed, perhaps the disk is full."
-msgstr ""
+msgstr "bzip2 असफल, सायद डिस्क भरिएको छ।"
 
 #: ../common/rpackageview.h:106
 msgid "Sections"
@@ -952,11 +956,11 @@ msgstr "अनुकूल"
 
 #: ../common/rpackageview.cc:135
 msgid "Installed (unsupported)"
-msgstr ""
+msgstr "इन्सटल भएको (असमर्थित)"
 
 #: ../common/rpackageview.cc:140
 msgid "Not installed (unsupported)"
-msgstr ""
+msgstr "इन्सटल नभएको (असमर्थित)"
 
 #: ../common/rpackageview.cc:149
 msgid "Installed (auto removable)"
@@ -968,7 +972,7 @@ msgstr ""
 
 #: ../common/rpackageview.cc:162
 msgid "Broken dependencies"
-msgstr ""
+msgstr "काम नगर्ने निर्भरताहरु"
 
 #: ../common/rpackageview.cc:164 ../gtk/glade/window_filters.glade.h:39
 msgid "New in repository"
@@ -980,7 +984,7 @@ msgstr ""
 
 #: ../common/rpackageview.cc:170
 msgid "Installed (local or obsolete)"
-msgstr ""
+msgstr "इन्सटल भएको (स्थानीय वा अप्रचलित)"
 
 #: ../common/rpackageview.cc:176
 msgid "Not installed (residual config)"
@@ -1020,7 +1024,7 @@ msgstr ""
 
 #: ../common/rpackageview.cc:559
 msgid "Community Maintained (installed)"
-msgstr ""
+msgstr "समूदायद्वारा व्यवस्थापित (इन्सटल भएको)"
 
 #: ../common/rpackageview.cc:565
 msgid "Missing Recommends"
@@ -1061,11 +1065,11 @@ msgstr ""
 
 #: ../gtk/gsynaptic.cc:76
 msgid "-f=? Give an alternative filter file\n"
-msgstr ""
+msgstr "-f= ? वैकल्पिक फिल्टर फाइल दिनुहोस्\n"
 
 #: ../gtk/gsynaptic.cc:77
 msgid "-t   Give an alternative main window title (e.g. hostname with `uname -n`)\n"
-msgstr ""
+msgstr "-t   वैकल्पिक मुख्य विन्डो शीर्षक दिनुहोस् (उदाहरण `uname -n` सँग होस्टनाम)\n"
 
 #: ../gtk/gsynaptic.cc:78
 msgid "-i=? Start with the initial Filter with given name\n"
@@ -1077,7 +1081,7 @@ msgstr ""
 
 #: ../gtk/gsynaptic.cc:80
 msgid "--upgrade-mode  Call Upgrade and display changes\n"
-msgstr ""
+msgstr "--upgrade-mode  स्तरोन्नति आह्वान गर्ने र परिवर्तनहरु देखाउने\n"
 
 #: ../gtk/gsynaptic.cc:81
 msgid "--dist-upgrade-mode  Call DistUpgrade and display changes\n"
@@ -1085,7 +1089,7 @@ msgstr ""
 
 #: ../gtk/gsynaptic.cc:82
 msgid "--update-at-startup  Call \"Reload\" on startup\n"
-msgstr ""
+msgstr "--update-at-startup  सुरु हुँदा \"पुन:लोड\" आह्वान गर्ने\n"
 
 #: ../gtk/gsynaptic.cc:83
 msgid "--non-interactive Never prompt for user input\n"
@@ -1093,19 +1097,19 @@ msgstr ""
 
 #: ../gtk/gsynaptic.cc:84
 msgid "--task-window Open with task window\n"
-msgstr ""
+msgstr "--task-window कार्य विन्डो सित खोल्नुहोस्\n"
 
 #: ../gtk/gsynaptic.cc:85
 msgid "--add-cdrom Add a cdrom at startup (needs path for cdrom)\n"
-msgstr ""
+msgstr "--add-cdrom सुरु हुँदा सिडीरोम थप्नुहोस् (सिडीरोमका लागि मार्ग चाहिन्छ)\n"
 
 #: ../gtk/gsynaptic.cc:86
 msgid "--ask-cdrom Ask for adding a cdrom and exit\n"
-msgstr ""
+msgstr "--ask-cdrom सिडीरोम थप्नका लागि सोधेर बाहिर निस्किने\n"
 
 #: ../gtk/gsynaptic.cc:87
 msgid "--test-me-harder  Run test in a loop\n"
-msgstr ""
+msgstr "--test-me-harder  लुपमा परिक्षण चलाउनुहोस्\n"
 
 #: ../gtk/gsynaptic.cc:336 ../gtk/gsynaptic.cc:342
 msgid "Another synaptic is running"
@@ -1132,16 +1136,21 @@ msgid ""
 "This usually means that another package management application (like apt-get "
 "or aptitude) is already running. Please close that application first."
 msgstr ""
+"यो अर्थ प्राय: अर्को प्याकेज व्यवस्थापन सफ्टवेयर (जस्तै apt-get वा aptitude) "
+"पहिले देखि चल्दैछ । कृपया यो सफ्टवेयर पहिले बन्द गर्नुहोस् ।"
 
 #: ../gtk/gsynaptic.cc:412
 msgid "Starting without administrative privileges"
-msgstr ""
+msgstr "प्रशासकीय विशेषाधिकार बिना शुरु गर्दै"
 
 #: ../gtk/gsynaptic.cc:414
 msgid ""
 "You will not be able to apply any changes. But you can still export the "
 "marked changes or create a download script for them."
 msgstr ""
+"तपाईले कुनै परिवर्तनहरु लागू गर्न सक्षम हुनुहुन्न । तर तपाई चिनो लगाइएका "
+"परिवर्तनहरु निर्यात गर्न सक्नुहुन्छ वा तिनका लागि डाउनलोड स्क्रिप्ट निर्माण "
+"गर्न सक्नुहुन्छ ।"
 
 #: ../gtk/gsynaptic.cc:480
 msgid "Synaptic Package Manager "
@@ -1170,7 +1179,7 @@ msgstr "सिनेप्टिक बारे"
 
 #: ../gtk/rgchangeswindow.cc:53
 msgid "Package changes"
-msgstr ""
+msgstr "प्याकेज परिवर्तनहरु"
 
 #: ../gtk/rgchangeswindow.cc:94 ../gtk/rgsummarywindow.cc:79
 msgid "Warning"
@@ -1182,10 +1191,13 @@ msgid ""
 "this could allow a malicious individual to damage or take control of your "
 "system."
 msgstr ""
+"तपाई यस्तो सफ्टवेयर इन्सटल गर्न गई रहनु भएको छ जुन <b>प्रमाणीकरण गर्न "
+"सकिँदैन</b>! यो गर्नाले दुर्जन व्यक्तिलाई तपाईको प्रणालीलाई क्षति पुर्याउन "
+"वा नियन्त्रण लिन सक्षम बनाउन सक्छ ।"
 
 #: ../gtk/rgchangeswindow.cc:106 ../gtk/rgsummarywindow.cc:92
 msgid "NOT AUTHENTICATED"
-msgstr ""
+msgstr "प्रमाणीकरण नगरिएको"
 
 #. removed
 #: ../gtk/rgchangeswindow.cc:117
@@ -1202,7 +1214,7 @@ msgstr "इन्सटल गर्नुपर्ने"
 
 #: ../gtk/rgchangeswindow.cc:158 ../gtk/rgsummarywindow.cc:161
 msgid "To be upgraded"
-msgstr ""
+msgstr "स्तरोन्नति गर्नुपर्ने"
 
 #: ../gtk/rgchangeswindow.cc:170 ../gtk/rgsummarywindow.cc:185
 msgid "To be re-installed"
@@ -1218,6 +1230,8 @@ msgid ""
 "Replace configuration file\n"
 "'%s'?"
 msgstr ""
+"कन्फिगरेसन फाइल परिवर्तन गर्ने\n"
+"'%s'?"
 
 #: ../gtk/rgdebinstallprogress.cc:216
 #, c-format
@@ -1227,6 +1241,10 @@ msgid ""
 "say 'Keep'. Do you want to replace the current file and install the new "
 "package maintainers version? "
 msgstr ""
+"कन्फिगरेसन फाइल %s परिवर्तन गरिएको थिइयो (तपाई वा स्क्रिप्टद्वारा) । यो "
+"प्याकेजमा अद्यावधिक गरिएको संस्करण उपलब्ध छ । यदि तपाई हालको संस्करण राख्न "
+"चाहनुहुन्छ भने 'राख्नुहोस्' भन्नुहोस् । के तपाई हालको फाइलको सट्टा नयाँ "
+"प्याकेज सम्भारकर्ता संस्करण इन्सटल गर्न चाहनुहुन्छ?"
 
 #: ../gtk/rgdebinstallprogress.cc:369 ../gtk/rginstallprogress.cc:286
 #: ../gtk/rgterminstallprogress.cc:62
@@ -1264,17 +1282,19 @@ msgstr "प्याकेज स्थापना गर्न असक्ष
 
 #: ../gtk/rgdebinstallprogress.cc:686 ../gtk/rgdebinstallprogress.cc:689
 msgid "Changes applied"
-msgstr ""
+msgstr "परिवर्तनहरु लागू गरिए"
 
 #: ../gtk/rgdebinstallprogress.cc:755
 msgid ""
 "The marked changes are now being applied. This can take some time. Please "
 "wait."
 msgstr ""
+"चिनो लगाइएका परिवर्तनहरु अब लागू गर्दै । यसमा केहि समय लाग्न सक्छ । कृपया "
+"कुर्नुहोस् ।"
 
 #: ../gtk/rgdebinstallprogress.cc:760
 msgid "Installing and removing software"
-msgstr ""
+msgstr "सफ्टवेयर इन्सटल गर्दै र हटाउँदै"
 
 #: ../gtk/rgdebinstallprogress.cc:762
 msgid "Removing software"
@@ -1286,7 +1306,7 @@ msgstr "सफ्टवेयर इन्सटल गर्दै"
 
 #: ../gtk/rgpreferenceswindow.cc:49
 msgid "Supported"
-msgstr ""
+msgstr "समर्थित"
 
 #: ../gtk/rgpreferenceswindow.cc:49 ../gtk/glade/window_filters.glade.h:47
 msgid "Package Name"
@@ -1339,6 +1359,8 @@ msgstr ""
 #: ../gtk/rgpreferenceswindow.cc:1003
 msgid "Let synaptic pick the best version for you. If unsure use this option. "
 msgstr ""
+"सिनेप्टिकलाई तपाईका लागि सर्वोत्तम संस्करण छान्न दिनुहोस् । निश्चित नभएमा यो "
+"विकल्प प्रयोग गर्नुहोस् ।"
 
 #: ../gtk/rgpreferenceswindow.cc:1040
 #, fuzzy
@@ -1369,20 +1391,23 @@ msgid ""
 "%s\n"
 "in drive %s"
 msgstr ""
+"कृपया निम्न लेबल भएको डिस्क छिराउनुहोस्:\n"
+"%s\n"
+"%s ड्राइभमा"
 
 #: ../gtk/rgfetchprogress.cc:329
 #, c-format
 msgid "Download rate: %s/s - %s remaining"
-msgstr ""
+msgstr "डाउनलोड दर: %s/से. - %s बाँकी"
 
 #: ../gtk/rgfetchprogress.cc:335
 msgid "Download rate: unknown"
-msgstr ""
+msgstr "डाउनलोड दर: अज्ञात"
 
 #: ../gtk/rgfetchprogress.cc:337
 #, c-format
 msgid "Downloading file %li of %li"
-msgstr ""
+msgstr "फाइल %li मध्ये %li डाउनलोड गर्दै"
 
 #: ../gtk/rgfetchprogress.cc:390
 msgid "Queued"
@@ -1422,7 +1447,7 @@ msgstr "नयाँ फिल्टर %i"
 #: ../gtk/rginstallprogress.cc:44
 #: ../gtk/glade/window_rginstall_progress_msgs.glade.h:2
 msgid "Package Manager output"
-msgstr ""
+msgstr "प्याकेज व्यवस्थापक निर्गत"
 
 #: ../gtk/rginstallprogress.cc:85
 #, c-format
@@ -1452,6 +1477,8 @@ msgid ""
 "APT system reports:\n"
 "%s"
 msgstr ""
+"APT प्रणाली प्रतिवेदनहरु:\n"
+"%s"
 
 #: ../gtk/rglogview.cc:282
 msgid "Not found"
@@ -1468,7 +1495,7 @@ msgstr "%s गुणहरू"
 
 #: ../gtk/rgpkgdetails.cc:210
 msgid "Get Screenshot"
-msgstr ""
+msgstr "स्क्रिनसट पाउनुहोस्"
 
 #: ../gtk/rgpkgdetails.cc:232
 #, c-format
@@ -1477,6 +1504,9 @@ msgid ""
 "\n"
 "Canonical provides critical updates for %s until %s %i."
 msgstr ""
+"\n"
+"\n"
+"क्यानोनिकल %s का लागि %s %i सम्म नाजुक अद्यावधिक प्रदान गर्दछ ।"
 
 #: ../gtk/rgpkgdetails.cc:239
 #, c-format
@@ -1486,6 +1516,10 @@ msgid ""
 "Canonical provides critical updates supplied by the developers of %s until %"
 "s %i."
 msgstr ""
+"\n"
+"\n"
+"क्यानोनिकल %s का विकासकर्ताहरुद्वारा उपलब्ध गराइएका नाजुक अद्यावधिक %s %i "
+"सम्म प्रदान गर्दछ ।"
 
 #: ../gtk/rgpkgdetails.cc:248
 #, c-format
@@ -1494,6 +1528,9 @@ msgid ""
 "\n"
 "Canonical provides critical updates for %s."
 msgstr ""
+"\n"
+"\n"
+"क्यानोनिकल %s का लागि नाजुक अद्यावधिक प्रदान गर्दछ ।"
 
 #: ../gtk/rgpkgdetails.cc:252
 #, c-format
@@ -1502,6 +1539,10 @@ msgid ""
 "\n"
 "Canonical provides critical updates supplied by the developers of %s."
 msgstr ""
+"\n"
+"\n"
+"क्यानोनिकल %s का विकासकर्ताहरुद्वारा उपलब्ध गराइएका नाजुक अद्यावधिक प्रदान "
+"गर्दछ ।"
 
 #: ../gtk/rgpkgdetails.cc:258
 #, c-format
@@ -1511,6 +1552,10 @@ msgid ""
 "Canonical does not provide updates for %s. Some updates may be provided by "
 "the Ubuntu community."
 msgstr ""
+"\n"
+"\n"
+"क्यानोनिकल %s कालागि अद्यावधिक प्रदान गर्दैन । केहि अद्यावधिकहरु उबुन्तु "
+"समुदायद्वारा प्रदान गरिएका हुन सक्छन ।"
 
 #. TRANSLATORS: this the format of the available versions in
 #. the "Properties/Available versions" window
@@ -1548,7 +1593,7 @@ msgstr ""
 
 #: ../gtk/rgmainwindow.cc:889 ../gtk/glade/window_main.glade.h:39
 msgid "Quick search"
-msgstr ""
+msgstr "द्रुत खोजी"
 
 #. TRANSLATORS: Column header for the column "Status" in the package list
 #: ../gtk/rgmainwindow.cc:938
@@ -1569,18 +1614,20 @@ msgid ""
 "Reload the package information to become informed about new, removed or "
 "upgraded software packages."
 msgstr ""
+"नयाँ, हटाइएका र स्तरोन्नति गरिएका प्याकेजहरु बारे जानकारी पाउन प्याकेज "
+"जानकारी पुन: लोड गर्नुहोस् ।"
 
 #: ../gtk/rgmainwindow.cc:1387
 msgid "Mark all possible upgrades"
-msgstr ""
+msgstr "सबै सम्भाव्य स्तरोन्नतिहरु चिनो लगाउनुहोस्"
 
 #: ../gtk/rgmainwindow.cc:1391 ../gtk/glade/window_summary.glade.h:5
 msgid "Apply all marked changes"
-msgstr ""
+msgstr "सबै चिनो लगाइएका परिवर्तनहरु लागू गर्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:1572
 msgid "Unmark"
-msgstr ""
+msgstr "चिनो हटाउनुहोस्"
 
 #: ../gtk/rgmainwindow.cc:1580
 msgid "Mark for Installation"
@@ -1592,7 +1639,7 @@ msgstr "पुन: इन्सटल गर्न चिनो लगाउन�
 
 #: ../gtk/rgmainwindow.cc:1597
 msgid "Mark for Upgrade"
-msgstr ""
+msgstr "स्तरोन्नतिको लागि चिनो लगाउनुहोस्"
 
 #: ../gtk/rgmainwindow.cc:1605
 msgid "Mark for Removal"
@@ -1608,11 +1655,11 @@ msgstr ""
 
 #: ../gtk/rgmainwindow.cc:1638
 msgid "Hold Current Version"
-msgstr ""
+msgstr "वर्तमान संस्करण राख्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:1647 ../gtk/glade/window_main.glade.h:37
-#, fuzzy
 #: ../gtk/glade/window_filters.glade.h:57
+#, fuzzy
 msgid "Properties"
 msgstr "गुण"
 
@@ -1629,6 +1676,8 @@ msgid ""
 "Removing this package may render the system unusable.\n"
 "Are you sure you want to do that?"
 msgstr ""
+"यो प्याकेज हटाउनाले प्रणालीलाई काम नलाग्ने तुल्याउने छ ।\n"
+"के तपाई साँच्चिकै त्यो गर्न चाहनुहुन्छ?"
 
 #: ../gtk/rgmainwindow.cc:1818
 #, c-format
@@ -1636,6 +1685,8 @@ msgid ""
 "%i packages listed, %i installed, %i broken. %i to install/upgrade, %i to "
 "remove; %s will be freed"
 msgstr ""
+"%i प्याकेजहरु सूचीकृत, %i इन्सटल गरिएका, %i काम नगर्ने । %i "
+"इन्सटल/स्तरोन्नति गर्नुपर्ने, %i हटाउनुपर्ने; %s खाली हुनेछ"
 
 #: ../gtk/rgmainwindow.cc:1824
 #, c-format
@@ -1643,6 +1694,8 @@ msgid ""
 "%i packages listed, %i installed, %i broken. %i to install/upgrade, %i to "
 "remove; %s will be used"
 msgstr ""
+"%i प्याकेजहरु सूचीकृत, %i इन्सटल गरिएका, %i काम नगर्ने । %i "
+"इन्सटल/स्तरोन्नति गर्नुपर्ने, %i हटाउनुपर्ने; %s प्रयोग हुनेछ"
 
 #: ../gtk/rgmainwindow.cc:1830
 #, c-format
@@ -1650,6 +1703,8 @@ msgid ""
 "%i packages listed, %i installed, %i broken. %i to install/upgrade, %i to "
 "remove"
 msgstr ""
+"%i प्याकेजहरु सूचीकृत, %i इन्सटल गरिएका, %i काम नगर्ने । %i "
+"इन्सटल/स्तरोन्नति गर्नुपर्ने, %i हटाउनुपर्ने"
 
 #: ../gtk/rgmainwindow.cc:1891
 #, c-format
@@ -1678,7 +1733,7 @@ msgstr ""
 #: ../gtk/rgmainwindow.cc:2068
 #, c-format
 msgid "%s Changelog"
-msgstr ""
+msgstr "%s परिवर्तनलग"
 
 #: ../gtk/rgmainwindow.cc:2159
 msgid "Do you want to add another CD-ROM?"
@@ -1686,13 +1741,13 @@ msgstr "के तपाई अर्को सिडी-रोम थप्न 
 
 #: ../gtk/rgmainwindow.cc:2196
 msgid "Open changes"
-msgstr ""
+msgstr "परिवर्तनहरु खोल्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:2233 ../gtk/rgmainwindow.cc:2813
 #: ../gtk/rgmainwindow.cc:2990 ../gtk/rgmainwindow.cc:3171
 #, c-format
 msgid "Can't write %s"
-msgstr ""
+msgstr "%s लेख्न सक्दैन"
 
 #: ../gtk/rgmainwindow.cc:2252
 #, fuzzy
@@ -1701,7 +1756,7 @@ msgstr "परिवर्तनहरू बचत गर्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:2259
 msgid "Save full state, not only changes"
-msgstr ""
+msgstr "पूरा स्थिति बचत गर्ने, परिवर्तनहरु मात्र होइन"
 
 #: ../gtk/rgmainwindow.cc:2376
 msgid "Repositories changed"
@@ -1718,7 +1773,7 @@ msgstr ""
 
 #: ../gtk/rgmainwindow.cc:2391
 msgid "Never show this message again"
-msgstr ""
+msgstr "यो संदेश फेरी नदेखाउने"
 
 #: ../gtk/rgmainwindow.cc:2455
 #, c-format
@@ -1745,6 +1800,8 @@ msgid ""
 "Cannot start configuration tool!\n"
 "You have to install the required package 'libgnome2-perl'."
 msgstr ""
+"कन्फिगरेसन उपकरण सुरु गर्न सक्दैन!\n"
+"तपाईले चाहिएको प्याकेज 'libgnome2-perl' इन्सटल गर्नुपर्छ।"
 
 #: ../gtk/rgmainwindow.cc:2674
 msgid "Starting package configuration tool..."
@@ -1766,10 +1823,12 @@ msgid ""
 "Could not apply changes!\n"
 "Fix broken packages first."
 msgstr ""
+"परिवर्तनहरु लागू गर्न सकेन!\n"
+"काम नगर्ने प्याकेजहरु पहिले ठीक पार्नुहोस् ।"
 
 #: ../gtk/rgmainwindow.cc:2798
 msgid "Applying marked changes. This may take a while..."
-msgstr ""
+msgstr "चिनो लगाइएका परिवर्तनहरु लागू गर्दै । यसमा एक छिन समय लाग्न सक्छ..."
 
 #: ../gtk/rgmainwindow.cc:2802
 msgid "Downloading Package Files"
@@ -1777,7 +1836,7 @@ msgstr "प्याकेज फाइलहरु डाउनलोड गर
 
 #: ../gtk/rgmainwindow.cc:2878
 msgid "Do you want to quit Synaptic?"
-msgstr ""
+msgstr "के तपाई सिनेप्टिक अन्त्य गर्न चाहनुहुन्छ?"
 
 #: ../gtk/rgmainwindow.cc:2975
 msgid "Downloading Package Information"
@@ -1795,38 +1854,39 @@ msgstr "प्याकेज जानकारी पुन: लोड गर�
 
 #: ../gtk/rgmainwindow.cc:3050
 msgid "Failed to resolve dependency problems!"
-msgstr ""
+msgstr "निर्भरता समस्याहरु समाधान गर्न असफल!"
 
 #: ../gtk/rgmainwindow.cc:3052
 msgid "Successfully fixed dependency problems"
-msgstr ""
+msgstr "निर्भरता समस्याहरु सफलतापूर्वक ठीक पारिए"
 
 #: ../gtk/rgmainwindow.cc:3068
 msgid ""
 "Could not upgrade the system!\n"
 "Fix broken packages first."
 msgstr ""
+"प्रणाली स्तरोन्नति गर्न सकेन!\n"
+"काम नगर्ने प्याकेजहरु पहिले ठीक पार्नुहोस् ।"
 
 #: ../gtk/rgmainwindow.cc:3117
 msgid "Marking all available upgrades..."
-msgstr ""
+msgstr "सबै उपलब्ध स्तरोन्नतिहरु चिनो लगाउँदै..."
 
 #: ../gtk/rgmainwindow.cc:3136
 msgid "Successfully marked available upgrades"
-msgstr ""
+msgstr "उपलब्ध स्तरोन्नतिहरु सफलतापूर्वक चिन्नो लगाइए"
 
 #: ../gtk/rgmainwindow.cc:3138
 msgid "Failed to mark all available upgrades!"
-msgstr ""
+msgstr "सबै उपलब्ध स्तरोन्नतिहरु चिनो लगाउन असफल!"
 
 #: ../gtk/rgmainwindow.cc:3517
 msgid "Save script"
 msgstr "स्क्रिप्ट बचत गर्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:3544
-#, fuzzy
 msgid "Select directory"
-msgstr "डाइरेक्टरी चयन गर्नुहोस्"
+msgstr "डाइरेक्टरी छान्नुहोस्"
 
 #: ../gtk/rgmainwindow.cc:3556
 msgid "Please select a directory"
@@ -1853,8 +1913,8 @@ msgid "Type"
 msgstr "प्रकार"
 
 #: ../gtk/rgrepositorywin.cc:168 ../gtk/rgvendorswindow.cc:62
-#, fuzzy
 #: ../gtk/rgvendorswindow.cc:80
+#, fuzzy
 msgid "Vendor"
 msgstr "विक्रेता"
 
@@ -1868,11 +1928,11 @@ msgstr ""
 
 #: ../gtk/rgrepositorywin.cc:253
 msgid "Binary (deb)"
-msgstr ""
+msgstr "बाइनरी (deb)"
 
 #: ../gtk/rgrepositorywin.cc:258
 msgid "Source (deb-src)"
-msgstr ""
+msgstr "स्रोत (deb-src)"
 
 #: ../gtk/rgrepositorywin.cc:267 ../gtk/rgrepositorywin.cc:409
 #: ../gtk/glade/window_repositories.glade.h:1
@@ -1897,11 +1957,11 @@ msgstr ""
 
 #: ../gtk/rgsummarywindow.cc:135
 msgid "<b>To be removed</b>"
-msgstr ""
+msgstr "<b>हटाइने</b>"
 
 #: ../gtk/rgsummarywindow.cc:148
 msgid "<b>To be completely removed (including configuration files)</b>"
-msgstr ""
+msgstr "<b>पूर्ण रुपले हटाइने (कन्फिगरेसन फाइलहरु सहित)</b>"
 
 #: ../gtk/rgsummarywindow.cc:200
 msgid "Unchanged"
@@ -1920,7 +1980,7 @@ msgstr ""
 #: ../gtk/rgsummarywindow.cc:262
 #, c-format
 msgid "<b>%s</b> will be removed with configuration\n"
-msgstr ""
+msgstr "<b>%s</b> कन्फिगरेसन सहित हटाइनेछ\n"
 
 #: ../gtk/rgsummarywindow.cc:270
 #, c-format
@@ -1930,25 +1990,25 @@ msgstr "<b>%s<b/> हटाइनेछ\n"
 #: ../gtk/rgsummarywindow.cc:279
 #, c-format
 msgid "<b>%s</b> (version <i>%s</i>) will be upgraded to version <i>%s</i>\n"
-msgstr ""
+msgstr "<b>%s</b> (संस्करण <i>%s</i>) संस्करण <i>%s</i> मा अद्यावधिक गरिनेछ\n"
 
 #: ../gtk/rgsummarywindow.cc:290
 #, c-format
 msgid "<b>%s</b> (version <i>%s</i>) will be installed\n"
-msgstr ""
+msgstr "<b>%s</b> (संस्करण <i>%s</i>) इन्सटल गरिनेछ\n"
 
 #: ../gtk/rgsummarywindow.cc:298
 #, c-format
 msgid "<b>%s</b> (version <i>%s</i>) will be re-installed\n"
-msgstr ""
+msgstr "<b>%s</b> (संस्करण <i>%s</i>) पुन:-इन्सटल गरिनेछ\n"
 
 #: ../gtk/rgsummarywindow.cc:318
 msgid "_Hide Details"
-msgstr ""
+msgstr "विवरणहरु लुकाउनुहोस्"
 
 #: ../gtk/rgsummarywindow.cc:322 ../gtk/glade/window_summary.glade.h:11
 msgid "_Show Details"
-msgstr ""
+msgstr "विवरणहरु देखाउनुहोस्"
 
 #: ../gtk/rgsummarywindow.cc:335
 msgid "Summary"
@@ -1972,29 +2032,29 @@ msgstr[1] ""
 #, c-format
 msgid "%d new package will be installed\n"
 msgid_plural "%d new packages will be installed\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d नयाँ प्याकेज इन्सटल गरिनेछ\n"
+msgstr[1] "%d नयाँ प्याकेज इन्सटल गरिनेछन्\n"
 
 #: ../gtk/rgsummarywindow.cc:414
 #, c-format
 msgid "%d new package will be re-installed\n"
 msgid_plural "%d new packages will be re-installed\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d नयाँ प्याकेज पुन:-इन्सटल गरिनेछ\n"
+msgstr[1] "%d नयाँ प्याकेज पुन:-इन्सटल गरिनेछन्\n"
 
 #: ../gtk/rgsummarywindow.cc:421
 #, c-format
 msgid "%d package will be upgraded\n"
 msgid_plural "%d packages will be upgraded\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d प्याकेज अद्यावधिक गरिनेछ\n"
+msgstr[1] "%d प्याकेज अद्यावधिक गरिनेछन्\n"
 
 #: ../gtk/rgsummarywindow.cc:428
 #, c-format
 msgid "%d package will be removed\n"
 msgid_plural "%d packages will be removed\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d प्याकेज हटाइनेछ\n"
+msgstr[1] "%d प्याकेज हटाइनेछन्\n"
 
 #: ../gtk/rgsummarywindow.cc:435
 #, c-format
@@ -2013,12 +2073,12 @@ msgstr[1] ""
 #: ../gtk/rgsummarywindow.cc:455
 #, c-format
 msgid "%s of extra space will be used"
-msgstr ""
+msgstr "%s अतिरिक्त ठाँउ प्रयोग हुनेछ"
 
 #: ../gtk/rgsummarywindow.cc:458
 #, c-format
 msgid "%s of extra space will be freed"
-msgstr ""
+msgstr "%s अतिरिक्त ठाँउ खाली हुनेछ"
 
 #: ../gtk/rgsummarywindow.cc:463
 #, c-format
@@ -2026,6 +2086,8 @@ msgid ""
 "\n"
 "%s have to be downloaded"
 msgstr ""
+"\n"
+"%s डाउनलोड गर्नुपर्नेछ"
 
 #: ../gtk/rgsummarywindow.cc:488
 msgid ""
@@ -2039,7 +2101,7 @@ msgstr "त्रुटि भयो"
 
 #: ../gtk/rguserdialog.cc:77
 msgid "The following details are provided:"
-msgstr ""
+msgstr "निम्न विवरणहरु दिइएका छन:"
 
 #: ../gtk/rgvendorswindow.cc:39
 msgid "Setup Vendors"
@@ -2070,8 +2132,8 @@ msgstr "रद्द गर्नुहोस्"
 #. happens when e.g. a package has no installed version (or no
 #. downloadable version)
 #: ../gtk/rggladewindow.cc:110 ../gtk/rggladewindow.cc:128
-#, fuzzy
 #: ../gtk/rggladewindow.cc:191
+#, fuzzy
 msgid "N/A"
 msgstr "N/A"
 
@@ -2133,16 +2195,16 @@ msgstr "<b>ट्याग:</b>"
 
 #: ../gtk/glade/window_main.glade.h:11
 msgid "A_pply Marked Changes"
-msgstr ""
+msgstr "चिनो लगाइएका परिवर्तनहरु लागू गर्नुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:12
 msgid "Add downloaded packages"
-msgstr ""
+msgstr "डाउनलोड गरिएका प्याकेजहरु थप्नुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:13
 msgid ""
-"Add packages downloaded with the \"Generate package download script\" "
-"feature to the system"
+"Add packages downloaded with the \"Generate package download script\" feature "
+"to the system"
 msgstr ""
 
 #: ../gtk/glade/window_main.glade.h:14
@@ -2163,18 +2225,18 @@ msgstr "सामान्य"
 
 #: ../gtk/glade/window_main.glade.h:18
 msgid "Dependants"
-msgstr ""
+msgstr "निर्भरहरु"
 
 #: ../gtk/glade/window_main.glade.h:19 ../gtk/glade/window_find.glade.h:1
-#, fuzzy
 #: ../gtk/glade/window_filters.glade.h:18
 #: ../gtk/glade/window_details.glade.h:13 ../gtk/rgfiltermanager.h:73
+#, fuzzy
 msgid "Dependencies"
 msgstr "निर्भरता"
 
 #: ../gtk/glade/window_main.glade.h:20 ../gtk/glade/window_details.glade.h:14
 msgid "Dependencies of the Latest Version"
-msgstr ""
+msgstr "नवीनतम संस्करणका निर्भरताहरु"
 
 #: ../gtk/glade/window_main.glade.h:22 ../gtk/glade/window_details.glade.h:17
 msgid "Download:"
@@ -2200,23 +2262,23 @@ msgstr "इन्सटल भएका फाइलहरु"
 
 #: ../gtk/glade/window_main.glade.h:27
 msgid "Mark All Upgrades"
-msgstr ""
+msgstr "सबै स्तरोन्नतिहरु चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:28
 msgid "Mark Packages by _Task..."
-msgstr ""
+msgstr "कार्यका आधारमा प्याकेजहरु चिनो लगाउने..."
 
 #: ../gtk/glade/window_main.glade.h:29
 msgid "Mark for Co_mplete Removal"
-msgstr ""
+msgstr "पूर्ण रुपले हटाउन चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:30
 msgid "Mark for R_einstallation"
-msgstr ""
+msgstr "पुन: इन्सटल गर्न चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:31
 msgid "Mark for _Installation"
-msgstr ""
+msgstr "इन्सटल गर्न चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:32
 msgid "Mark for _Removal"
@@ -2224,7 +2286,7 @@ msgstr "हटाउन चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:33
 msgid "Mark for _Upgrade"
-msgstr ""
+msgstr "स्तरोन्नतिको लागि चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:38 ../gtk/glade/window_find.glade.h:6
 #: ../gtk/glade/window_filters.glade.h:58
@@ -2271,11 +2333,11 @@ msgstr "आइकन मुनिको पाठ"
 
 #: ../gtk/glade/window_main.glade.h:49
 msgid "U_nmark"
-msgstr ""
+msgstr "चिनो हटाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:50
 msgid "U_nmark All"
-msgstr ""
+msgstr "सबैको चिनो हटाउनुहोस्"
 
 #: ../gtk/glade/window_main.glade.h:51 ../gtk/glade/window_details.glade.h:23
 msgid "Version:"
@@ -2349,7 +2411,7 @@ msgstr "इतिहास"
 
 #: ../gtk/glade/window_main.glade.h:68
 msgid "_Icons Only"
-msgstr ""
+msgstr "अइकनहरु मात्रै"
 
 #: ../gtk/glade/window_main.glade.h:69
 msgid "_Lock Version"
@@ -2357,7 +2419,7 @@ msgstr ""
 
 #: ../gtk/glade/window_main.glade.h:70
 msgid "_Mark All Upgrades..."
-msgstr ""
+msgstr "सबै स्तरोन्नतिहरु चिनो लगाउनुहोस्..."
 
 #: ../gtk/glade/window_main.glade.h:71
 msgid "_Package"
@@ -2435,7 +2497,7 @@ msgstr ""
 
 #: ../gtk/glade/window_about.glade.h:3
 msgid "<span size=\"xx-large\" weight=\"bold\">Synaptic version</span>"
-msgstr ""
+msgstr "<span size=\"xx-large\" weight=\"bold\">सिनेप्टिक संस्करण</span>"
 
 #: ../gtk/glade/window_about.glade.h:6
 msgid "Debtag support is enabled."
@@ -2474,7 +2536,7 @@ msgstr ""
 
 #: ../gtk/glade/window_about.glade.h:27
 msgid "Package management software using apt."
-msgstr ""
+msgstr "apt प्रयोग गर्ने प्याकेज व्यवस्थापन सफ्टवेयर"
 
 #: ../gtk/glade/window_about.glade.h:28
 msgid ""
@@ -2504,7 +2566,7 @@ msgstr ""
 
 #: ../gtk/glade/window_find.glade.h:2
 msgid "Description and Name"
-msgstr ""
+msgstr "वर्णन र नाम"
 
 #: ../gtk/glade/window_find.glade.h:3
 #, fuzzy
@@ -2537,7 +2599,7 @@ msgstr ""
 
 #: ../gtk/glade/window_changes.glade.h:3
 msgid "_Mark"
-msgstr ""
+msgstr "चिनो लगाउनुहोस्"
 
 #: ../gtk/glade/window_preferences.glade.h:1
 #: ../gtk/glade/window_summary.glade.h:1 ../gtk/glade/window_filters.glade.h:1
@@ -2547,7 +2609,7 @@ msgstr ""
 #: ../gtk/glade/window_preferences.glade.h:3
 #, fuzzy
 msgid "<b>Appearance</b>"
-msgstr "देखावट"
+msgstr "<b>देखावट</b>"
 
 #: ../gtk/glade/window_preferences.glade.h:4
 #, fuzzy
@@ -3496,4 +3558,3 @@ msgstr "एपीटी पंक्ति"
 #: ../gtk/glade/dialog_new_repositroy.glade.h:6
 msgid "_Add Repository"
 msgstr ""
-

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: coreutils\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-05-07 14:14+0200\n"
-"PO-Revision-Date: 2010-05-19 18:17+0545\n"
+"PO-Revision-Date: 2010-05-26 15:44+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: en\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: lib/argmatch.c:133
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "%s अमान्य तर्क %s को लागि"
+msgstr "%sy अमान्य तर्क %s को लागि"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -974,7 +974,7 @@ msgstr "%s को सुरक्षा प्रसंग परिवर्त
 #: src/chcon.c:317 src/chmod.c:328 src/chown-core.c:501 src/du.c:635
 #, c-format
 msgid "fts_read failed"
-msgstr ""
+msgstr "fts_read असफल"
 
 #: src/chcon.c:342
 #, c-format
@@ -999,8 +999,7 @@ msgstr ""
 
 #: src/chcon.c:354
 msgid ""
-"      --reference=RFILE  use RFILE's security context rather than "
-"specifying\n"
+"      --reference=RFILE  use RFILE's security context rather than specifying\n"
 "                         a CONTEXT value\n"
 "  -R, --recursive        operate on files and directories recursively\n"
 "  -v, --verbose          output a diagnostic for every file processed\n"

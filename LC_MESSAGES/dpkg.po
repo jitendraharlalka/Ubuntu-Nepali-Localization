@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dpkg_po_ne\n"
 "Report-Msgid-Bugs-To: debian-dpkg@lists.debian.org\n"
 "POT-Creation-Date: 2009-11-27 18:45+0100\n"
-"PO-Revision-Date: 2010-05-04 12:34+0545\n"
+"PO-Revision-Date: 2010-05-26 15:28+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -2051,7 +2051,7 @@ msgstr ""
 
 #: src/enquiry.c:291
 msgid "long filenames"
-msgstr ""
+msgstr "लामो फाइलनामहरु"
 
 #: src/enquiry.c:296
 msgid "multiple Conflicts and Replaces"
@@ -2238,7 +2238,7 @@ msgstr ""
 
 #: src/help.c:52
 msgid "triggered"
-msgstr ""
+msgstr "ट्रिगर भएको"
 
 #: src/help.c:53
 msgid "installed"
@@ -3421,7 +3421,7 @@ msgstr ""
 
 #: src/statcmd.c:267
 msgid "--add needs four arguments"
-msgstr "--आवश्यक चार तर्क थप्नुहोस्"
+msgstr "-add लाई चार तर्क चाहिन्छ"
 
 #: src/statcmd.c:270 scripts/dpkg-divert.pl:163
 msgid "file may not contain newlines"
@@ -3586,7 +3586,7 @@ msgstr ""
 #: src/trigcmd.c:223
 #, c-format
 msgid "invalid trigger name `%.250s': %.250s"
-msgstr ""
+msgstr "अमान्य ट्रिगर नाम '%.250s': %.250s"
 
 #: src/trigproc.c:234
 #, c-format
@@ -4314,7 +4314,7 @@ msgstr "पछाडि खोज्न अक्षम"
 
 #: dpkg-split/info.c:102
 msgid "info length"
-msgstr ""
+msgstr "जानकारी लम्बाइ"
 
 #: dpkg-split/info.c:111
 #, c-format
@@ -5006,6 +5006,8 @@ msgid ""
 "need --display, --query, --list, --get-selections, --config,--set, --set-"
 "selections, --install, --remove, --all, --remove-all or --auto"
 msgstr ""
+"--display, --query, --list, --get-selections, --config,--set, --set-"
+"selections, --install, --remove, --all, --remove-all वा --auto चाहिन्छ"
 
 #: scripts/update-alternatives.pl:164
 #, perl-format
@@ -5015,12 +5017,12 @@ msgstr ""
 #: scripts/update-alternatives.pl:165 scripts/update-alternatives.pl:186
 #, perl-format
 msgid "it is a slave of %s"
-msgstr ""
+msgstr "यो %s को स्लेभ हो"
 
 #: scripts/update-alternatives.pl:168 scripts/update-alternatives.pl:190
 #, perl-format
 msgid "alternative link %s is already managed by %s."
-msgstr ""
+msgstr "वैकल्पिक लिङ्क %s पहिले देखि %s द्वारा व्यवस्थापन गरिन्छ ।"
 
 #: scripts/update-alternatives.pl:171 scripts/update-alternatives.pl:193
 #, perl-format
@@ -5035,12 +5037,12 @@ msgstr ""
 #: scripts/update-alternatives.pl:175
 #, perl-format
 msgid "alternative path %s doesn't exist."
-msgstr ""
+msgstr "वैकल्पिक मार्ग %s विद्यमान छैन ।"
 
 #: scripts/update-alternatives.pl:177 scripts/update-alternatives.pl:197
 #, perl-format
 msgid "alternative name (%s) must not contain '/' and spaces."
-msgstr ""
+msgstr "वैकल्पिक नाम (%s) मा '/' र स्पेसहरु हुनु हुँदैन ।"
 
 #: scripts/update-alternatives.pl:183
 #, perl-format
@@ -5130,7 +5132,7 @@ msgstr "%s स्लेभ लिङ्कको नाम %s बाट %s म�
 #: scripts/update-alternatives.pl:381
 #, perl-format
 msgid "automatic updates of %s are disabled, leaving it alone."
-msgstr ""
+msgstr "%s को स्वचालित अद्यावधिकहरु अक्षम छन्, यसलाई त्यतिकै छोड्दै ।"
 
 #: scripts/update-alternatives.pl:383
 #, perl-format
@@ -5142,7 +5144,7 @@ msgstr ""
 #: scripts/update-alternatives.pl:399
 #, perl-format
 msgid "using %s to provide %s (%s) in %s."
-msgstr ""
+msgstr "%s प्रयोग गर्दै %s (%s)प्रदान गर्न %s मा ।"
 
 #: scripts/update-alternatives.pl:577
 #, perl-format
@@ -5324,6 +5326,7 @@ msgstr "स्थिति"
 #: scripts/update-alternatives.pl:969
 msgid "Press enter to keep the current choice[*], or type selection number: "
 msgstr ""
+"वर्तमान रोजाइ[*] राख्नलाई enter थिच्नुहोस्, वा छनौट नम्बर टाइप गर्नुहोस्:"
 
 #: scripts/update-alternatives.pl:1003
 #, perl-format
@@ -5333,7 +5336,7 @@ msgstr ""
 #: scripts/update-alternatives.pl:1033 scripts/update-alternatives.pl:1054
 #, perl-format
 msgid "not replacing %s with a link."
-msgstr ""
+msgstr "%s लाई लिङ्कले परिवर्तन नगर्दै ।"
 
 #: scripts/update-alternatives.pl:1057
 #, perl-format
