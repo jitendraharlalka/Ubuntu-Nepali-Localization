@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: eel.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-10 23:57+0000\n"
-"PO-Revision-Date: 2010-05-21 20:24+0545\n"
+"PO-Revision-Date: 2010-05-30 17:10+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -1040,11 +1040,11 @@ msgstr "थम्बनेल गर्नका लागि अधिकतम
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:89
 msgid "Mouse button to activate the \"Back\" command in browser window"
-msgstr ""
+msgstr "ब्राउजर विन्डोमा \"पछाडि\" कमान्ड सक्रिय गराउने माउस बटन"
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:90
 msgid "Mouse button to activate the \"Forward\" command in browser window"
-msgstr ""
+msgstr "ब्राउजर विन्डोमा \"अगाडि\" कमान्ड सक्रिय गराउने माउस बटन"
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:91
 msgid ""
@@ -1064,7 +1064,7 @@ msgstr "नटिलसले डेस्कटपको रूपमा प्
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:94
 msgid "Nautilus will exit when last window destroyed."
-msgstr ""
+msgstr "अन्तिम विन्डो नष्ट गर्दा नटिलस बन्द हुनेछ ।"
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:95
 msgid "Network Servers icon visible on the desktop"
@@ -1107,7 +1107,7 @@ msgstr "सान्स १०"
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:106
 msgid "Show advanced permissions in the file property dialog"
-msgstr ""
+msgstr "फाइल गुण संवादमा "
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:107
 msgid "Show extra pane in new windows"
@@ -1175,10 +1175,10 @@ msgstr ""
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:118
 msgid ""
 "Speed tradeoff for when to show an image file as a thumbnail. If set to "
-"\"always\" then always thumbnail, even if the folder is on a remote server. "
-"If set to \"local_only\" then only show thumbnails for local file systems. "
-"If set to \"never\" then never bother to thumbnail images, just use a "
-"generic icon."
+"\"always\" then always thumbnail, even if the folder is on a remote server. If "
+"set to \"local_only\" then only show thumbnails for local file systems. If "
+"set to \"never\" then never bother to thumbnail images, just use a generic "
+"icon."
 msgstr ""
 "थम्बनेलको रूपमा एउटा छवि फाइल कहिले देखाउने भन्नका लागि गति प्रस्ताव । यदि "
 "\"always\" मा सेट गरेमा भने, फोल्डर टाढाको सर्भरमा भएता पनि सधैँ थम्बनेल "
@@ -1334,7 +1334,7 @@ msgstr "छवि फाइलहरूको थम्बनेल्स कह
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:143
 msgid "Where to position newly open tabs in browser windows."
-msgstr ""
+msgstr "ब्राउजर विन्डोहरुमा नयाँ खोलिएका ट्याबहरु कहाँ देखाउनु पर्दछ ।"
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:144
 msgid "Whether a custom default folder background has been set."
@@ -1469,11 +1469,13 @@ msgid ""
 "You have just inserted a medium with software intended to be automatically "
 "started."
 msgstr ""
+"तपाईले भर्खरै सफ्टवेयर भएको माध्यम हाल्नुभएको छ जुन स्वत: चलने अप्रेक्षा "
+"गरिएको छ ।"
 
 #. fallback to generic greeting
 #: ../libnautilus-private/nautilus-autorun.c:969
 msgid "You have just inserted a medium."
-msgstr ""
+msgstr "तपाईले भर्खरै माध्यम हाल्नुभएको छ ।"
 
 #: ../libnautilus-private/nautilus-autorun.c:971
 msgid "Choose what application to launch."
@@ -2195,18 +2197,20 @@ msgid ""
 "Files in the folder \"%B\" cannot be handled because you do not have "
 "permissions to see them."
 msgstr ""
+"फोल्डर \"%B\" मा भएका फाइलहरु सम्हाल्न सकिन्न किनभने तपाईसित तिनलाई हेर्ने "
+"अनुमति छैन ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2505
 msgid ""
 "The folder \"%B\" cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "फोल्डर \"%B\" सम्हाल्न सकिन्न किनभने तपाईसित यसलाई पढ्ने अनुमति छैन ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2582
 msgid ""
 "The file \"%B\" cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "फाइल \"%B\" सम्हाल्न सकिन्न किनभने तपाईसित यसलाई पढ्ने अनुमति छैन ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2585
 msgid "There was an error getting information about \"%B\"."
@@ -2246,7 +2250,7 @@ msgstr "%S उपलब्ध छ, तर %S आवश्यक छ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2791
 msgid "The destination is read-only."
-msgstr ""
+msgstr "गन्तव्य पढ्न-मात्र हो ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2850
 msgid "Moving \"%B\" to \"%B\""
@@ -2411,6 +2415,9 @@ msgid ""
 "before replacing any files in the folder that conflict with the files being "
 "copied."
 msgstr ""
+"स्रोत फोल्डर पहिले देखि \"%B\" मा विद्यमान छ । गाभ्ने प्रक्रियाले प्रतिलिपि "
+"गर्न लागिएका फाइलसित विवाद भएमा फोल्डरमा कुनै पनि फाइल साट्नु भन्दा पहिले "
+"यकिन गर्न सोध्नेछ ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:4037
 #: ../libnautilus-private/nautilus-file-operations.c:4626
@@ -2432,7 +2439,7 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file-operations.c:4044
 #: ../libnautilus-private/nautilus-file-operations.c:4633
 msgid "A file named \"%B\" already exists.  Do you want to replace it?"
-msgstr ""
+msgstr "फाइल नाम \"%s\" पहिल्यै विद्यमान छ। के तपाईँ यसलाई साट्न चाहनुहुन्छ ?"
 
 #: ../libnautilus-private/nautilus-file-operations.c:4046
 #: ../libnautilus-private/nautilus-file-operations.c:4635
@@ -2444,7 +2451,7 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file-operations.c:4136
 #, c-format
 msgid "Could not remove the already existing file with the same name in %F."
-msgstr ""
+msgstr "%F मा त्यसतै नाम भएको पहिले देखि विद्यमान फाइल हटाउन सकेन ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:4206
 #, c-format
@@ -2472,6 +2479,9 @@ msgid ""
 "before replacing any files in the folder that conflict with the files being "
 "moved."
 msgstr ""
+"स्रोत फोल्डर पहिले देखि \"%B\" मा विद्यमान छ । गाभ्ने प्रक्रियाले सार्न "
+"लागिएका फाइलसित विवाद भएमा फोल्डरमा कुनै पनि फाइल साट्नु भन्दा पहिले यकिन "
+"गर्न सोध्नेछ ।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:4711
 #, c-format
@@ -2737,22 +2747,22 @@ msgstr "%m/%d/%y"
 #: ../libnautilus-private/nautilus-file.c:5007
 #, c-format
 msgid "Not allowed to set permissions"
-msgstr ""
+msgstr "अनुमतिहरु सेट गर्न नदिइएको"
 
 #: ../libnautilus-private/nautilus-file.c:5292
 #, c-format
 msgid "Not allowed to set owner"
-msgstr ""
+msgstr "मालिक सेट गर्न नदिइएको"
 
 #: ../libnautilus-private/nautilus-file.c:5310
 #, c-format
 msgid "Specified owner '%s' doesn't exist"
-msgstr ""
+msgstr "व्यक्त गरिएको मालिक '%s' विद्यमान छैन"
 
 #: ../libnautilus-private/nautilus-file.c:5559
 #, c-format
 msgid "Not allowed to set group"
-msgstr ""
+msgstr "समूह सेट गर्न नदिइएको"
 
 #: ../libnautilus-private/nautilus-file.c:5577
 #, c-format
@@ -3291,7 +3301,7 @@ msgstr "%s र \"%s\" प्रकारका अन्य फाइल खो�
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:674
 #, c-format
 msgid "Open all files of type \"%s\" with:"
-msgstr ""
+msgstr "'%s' प्रकारका सबै फाइलहरु निम्न सित खोल्नुहोस्:"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:147
 msgid "Could not run application"
@@ -3350,7 +3360,7 @@ msgstr "खोल्नुहोस्"
 #: ../libnautilus-private/nautilus-open-with-dialog.c:962
 #, c-format
 msgid "Open %s and other %s document with:"
-msgstr ""
+msgstr "%s र अन्य %s कागजात निम्न सित खोल्नुहोस्:"
 
 #. the %s here is a file name
 #. %s is a filename
@@ -3358,7 +3368,7 @@ msgstr ""
 #: ../libnautilus-private/nautilus-open-with-dialog.c:997
 #, c-format
 msgid "Open %s with:"
-msgstr ""
+msgstr "%s निम्नसित खोल्नुहोस्:"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:967
 #, c-format
@@ -3369,14 +3379,14 @@ msgstr "\"%s\" कागजातहरुका लागि यो सफ्�
 #: ../libnautilus-private/nautilus-open-with-dialog.c:976
 #, c-format
 msgid "Open all %s documents with:"
-msgstr ""
+msgstr "सबै %s कागजात निम्न सित खोल्नुहोस्:"
 
 #. First %s is a filename, second is a description
 #. * of the type, eg "plain text document"
 #: ../libnautilus-private/nautilus-open-with-dialog.c:993
 #, c-format
 msgid "Open %s and other \"%s\" files with:"
-msgstr ""
+msgstr "%s र अन्य \"%s\" फाइलहरु  निम्न सित खोल्नुहोस्:"
 
 #. %s is a file type description
 #: ../libnautilus-private/nautilus-open-with-dialog.c:999
@@ -3388,7 +3398,7 @@ msgstr "\"%s\" फाइलहरुका लागि यो सफ्टव�
 #: ../libnautilus-private/nautilus-open-with-dialog.c:1008
 #, c-format
 msgid "Open all \"%s\" files with:"
-msgstr ""
+msgstr "सबै \"%s\" फाइलहरु निम्न सित खोल्नुहोस्:"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:1019
 msgid "_Add"
@@ -3442,7 +3452,7 @@ msgstr ""
 
 #: ../libnautilus-private/nautilus-program-choosing.c:372
 msgid "Sorry, but you cannot execute commands from a remote site."
-msgstr ""
+msgstr "क्षमा गर्नुस, तर तपाई सूदुर साइटबाट कमान्डहरु चलाउन सक्नुहुन्न ।"
 
 #: ../libnautilus-private/nautilus-program-choosing.c:374
 msgid "This is disabled due to security considerations."
@@ -4115,7 +4125,7 @@ msgstr "दिइएको बाँन्कीसँग मिल्दो व
 #. label, accelerator
 #: ../src/file-manager/fm-directory-view.c:7236
 msgid "_Invert Selection"
-msgstr ""
+msgstr "छनौट उल्टाउनुहोस्"
 
 #. tooltip
 #: ../src/file-manager/fm-directory-view.c:7237
@@ -4786,7 +4796,7 @@ msgstr "एउटा अवैध तान्ने प्रकार प्�
 #. Translator: This is the filename used for when you dnd text to a directory
 #: ../src/file-manager/fm-directory-view.c:10608
 msgid "dropped text.txt"
-msgstr ""
+msgstr "dropped text.txt"
 
 #. Translator: This is the filename used for when you dnd raw
 #. * data to a directory, if the source didn't supply a name.
@@ -5822,7 +5832,7 @@ msgstr ""
 
 #: ../src/nautilus-file-management-properties.ui.h:29
 msgid "<b>Executable Text Files</b>"
-msgstr ""
+msgstr "<b>चलाउन मिल्ने पाठ फाइलहरु</b>"
 
 #: ../src/nautilus-file-management-properties.ui.h:30
 msgid "<b>Folders</b>"
@@ -6027,7 +6037,7 @@ msgstr "सङ्गीत प्लेयर:"
 
 #: ../src/nautilus-file-management-properties.ui.h:88
 msgid "_Never prompt or start programs on media insertion"
-msgstr ""
+msgstr "मिडिया छिराउँदा कहिले नसोध्ने वा प्रोग्रामहरु सुरु नगर्ने"
 
 #: ../src/nautilus-file-management-properties.ui.h:89
 msgid "_Only for files smaller than:"
@@ -6601,7 +6611,7 @@ msgstr ""
 #. start() for type G_DRIVE_START_STOP_TYPE_SHUTDOWN is normally not used
 #: ../src/nautilus-places-sidebar.c:1435
 msgid "_Power On"
-msgstr ""
+msgstr "पावर अन"
 
 #: ../src/nautilus-places-sidebar.c:1439
 msgid "_Connect Drive"

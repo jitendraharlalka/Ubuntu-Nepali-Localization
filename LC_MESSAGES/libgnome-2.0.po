@@ -1,6 +1,5 @@
 # translation of libgnome.gnome-2-20.ne.po to Nepali
 # This file is distributed under the same license as the libgnome package.
-#
 # Pawan Chitrakar <pawan@nplinux.org>, 2004.
 # Bishnu Adhikari <bsn_adk@hotmail.com>, 2005.
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
@@ -8,19 +7,22 @@
 # Ishwar Sharma <sharmabeeshwar@gmail.com>, 2005.
 # Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: libgnome.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-04 10:44+0000\n"
-"PO-Revision-Date: 2009-12-04 11:11+0000\n"
-"Last-Translator: Nabin Gautam <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-05-30 18:31+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 04:29+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../gnome-data/gnome-2.soundlist.in.h:1
 msgid "Error message"
@@ -471,7 +473,7 @@ msgstr "मिलिसेकेन्डमा कति गतिवर्ध�
 
 #: ../schemas/desktop_gnome_accessibility_keyboard.schemas.in.h:5
 msgid "How many milliseconds it takes to go from 0 to maximum speed."
-msgstr ""
+msgstr "० बाट अधिकतम गतिमा पुग्न कति मिलिसेकेन्ड लाग्छ ।"
 
 #: ../schemas/desktop_gnome_accessibility_keyboard.schemas.in.h:6
 msgid ""
@@ -480,7 +482,7 @@ msgstr ""
 
 #: ../schemas/desktop_gnome_accessibility_keyboard.schemas.in.h:7
 msgid "How many pixels per second to move at the maximum speed."
-msgstr ""
+msgstr "अतिकतम गतिमा कति पिक्सेल प्रति सेकेन्डमा चलाउने ।"
 
 #: ../schemas/desktop_gnome_accessibility_keyboard.schemas.in.h:8
 msgid "Ignore multiple presses of the _same_ key within @delay milliseconds."
@@ -507,6 +509,7 @@ msgid ""
 "List of assistive technology applications to start when logging into the "
 "GNOME desktop."
 msgstr ""
+"जिनोम डेस्कटपमा लगइन गर्दा सुरु गर्नु पर्ने सहायक प्रविधि सफ्टवेयरहरुको सूची"
 
 #: ../schemas/desktop_gnome_accessibility_startup.schemas.in.h:2
 msgid "Startup Assistive Technology Applications"
@@ -566,11 +569,11 @@ msgstr "पूर्वनिर्धारित द्रष्टा"
 
 #: ../schemas/desktop_gnome_applications_browser.schemas.in.h:4
 msgid "Default browser for all URLs."
-msgstr ""
+msgstr "सबै यूआरएलहरुका लागि पूर्वनिर्धारित ब्राउजर ।"
 
 #: ../schemas/desktop_gnome_applications_browser.schemas.in.h:5
 msgid "Whether the default browser needs a terminal to run."
-msgstr ""
+msgstr "के पूर्वनिर्धारित ब्राउजरलाई चलाउन टर्मिनल चाहिन्छ ।"
 
 #: ../schemas/desktop_gnome_applications_browser.schemas.in.h:6
 msgid "Whether the default browser understands netscape remote."
@@ -578,35 +581,35 @@ msgstr ""
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:1
 msgid "Calendar needs terminal"
-msgstr ""
+msgstr "पात्रोलाई टर्मिनल चाहिन्छ"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:2
 msgid "Default calendar"
-msgstr ""
+msgstr "पूर्वनिर्धारित पात्रो"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:3
 msgid "Default calendar application"
-msgstr ""
+msgstr "पूर्वनिर्धारित पात्रो सफ्टवेयर"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:4
 msgid "Default tasks"
-msgstr ""
+msgstr "पूर्वनिर्धारित कार्य"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:5
 msgid "Default tasks application"
-msgstr ""
+msgstr "पूर्वनिर्धारित कार्य सफ्टवेयर"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:6
 msgid "Tasks needs terminal"
-msgstr ""
+msgstr "कार्यलाई टर्मिलन चाहिन्छ"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:7
 msgid "Whether the default calendar application needs a terminal to run"
-msgstr ""
+msgstr "के पूर्वनिर्धारित पात्रो सफ्टवेयरलाई चलाउन टर्मिनल चाहिन्छ"
 
 #: ../schemas/desktop_gnome_applications_office.schemas.in.h:8
 msgid "Whether the default tasks application needs a terminal to run"
-msgstr ""
+msgstr "के पूर्वनिर्धारित कार्य सफ्टवेयरलाई चलाउन टर्मिनल चाहिन्छ"
 
 #: ../schemas/desktop_gnome_applications_terminal.schemas.in.h:1
 msgid ""
@@ -694,7 +697,7 @@ msgstr "मंडलाको पृष्टभूमिलाई  खिच"
 
 #: ../schemas/desktop_gnome_background.schemas.in.in.h:4
 msgid "File to use for the background image."
-msgstr ""
+msgstr "पृष्ठभूमि फोटोका लागि प्रयोग गर्नुपर्ने फाइल ।"
 
 #: ../schemas/desktop_gnome_background.schemas.in.in.h:5
 msgid "Have GNOME draw the desktop background."
@@ -746,7 +749,7 @@ msgstr "मिसिल चित्रको बिचार"
 
 #: ../schemas/desktop_gnome_file_views.schemas.in.h:2
 msgid "Theme used for displaying file icons."
-msgstr ""
+msgstr "फाइल आइकन देखाउनका लागि प्रयोग गरिएको विषयवस्तु ।"
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:1
 msgid "Basename of the default theme used by gtk+."
@@ -754,7 +757,7 @@ msgstr "जीटीके+ द्वारा प्रयोग गरिए�
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:2
 msgid "Buttons Have Icons"
-msgstr ""
+msgstr "बटनहरुसित आइकन छन्"
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:3
 msgid "Can Change Accels"
@@ -786,7 +789,7 @@ msgstr "सक्षम रङ्गचित्राङ्कन"
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:10
 msgid "GTK IM Module"
-msgstr ""
+msgstr "जीटीके आई एम मोड्युल"
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:11
 msgid "GTK IM Preedit Style"
@@ -866,7 +869,7 @@ msgstr "जीटीके+ले प्रयोग गरेको पूर�
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:29
 msgid "Name of the default font used for reading documents."
-msgstr ""
+msgstr "कागजातहरु पढ्नका लागि प्रयोग गर्नुपर्ने पूर्वनिर्धारित फन्टको नाम ।"
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:30
 msgid "Name of the input method module used by GTK+."
@@ -881,8 +884,7 @@ msgid "Show the 'Unicode Control Character' menu"
 msgstr "'युनिकोड नियन्त्रण क्यारेक्टर' मेनु देखाउनुहोस्"
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:33
-msgid ""
-"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
 
 #: ../schemas/desktop_gnome_interface.schemas.in.in.h:34
@@ -1188,7 +1190,7 @@ msgstr ""
 
 #: ../schemas/desktop_gnome_sound.schemas.in.h:6
 msgid "Sound theme name"
-msgstr ""
+msgstr "ध्वनि विषयवस्तुको नाम"
 
 #: ../schemas/desktop_gnome_sound.schemas.in.h:7
 msgid "Sounds for events"
@@ -1196,13 +1198,12 @@ msgstr "घटना परिवेशका लागि आवाज"
 
 #: ../schemas/desktop_gnome_sound.schemas.in.h:8
 msgid "The XDG sound theme to use for event sounds."
-msgstr ""
+msgstr "घटना ध्वनिका लागि प्रयोग गर्नुपर्ने XDG ध्वनि विषयवस्तु ।"
 
 #: ../schemas/desktop_gnome_sound.schemas.in.h:9
 msgid "The default mixer device used by the multimedia key bindings."
 msgstr ""
-"मल्टिमिडिया की बाइन्डिङद्वारा प्रयोग गरिएका पूर्वनिर्धारित मिश्रक यन्त्र "
-"।"
+"मल्टिमिडिया की बाइन्डिङद्वारा प्रयोग गरिएका पूर्वनिर्धारित मिश्रक यन्त्र ।"
 
 #: ../schemas/desktop_gnome_sound.schemas.in.h:10
 msgid "The default mixer tracks used by the multimedia key bindings."
@@ -1260,7 +1261,7 @@ msgstr "टंकणको अन्तिम रोकावटको  मि�
 
 #: ../schemas/desktop_gnome_typing_break.schemas.in.h:5
 msgid "Type time"
-msgstr "टंकण समय"
+msgstr "टाइप समय"
 
 #: ../schemas/desktop_gnome_typing_break.schemas.in.h:6
 msgid "Whether or not keyboard locking is enabled"

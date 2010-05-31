@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: apt_po\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-18 03:34+0000\n"
-"PO-Revision-Date: 2010-05-24 11:31+0545\n"
+"PO-Revision-Date: 2010-05-30 19:18+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -275,7 +275,7 @@ msgstr ""
 #: methods/gpgv.cc:78
 #, c-format
 msgid "No keyring installed in %s."
-msgstr ""
+msgstr "%s मा कुनै कीरिङ इन्सटल छैन ।"
 
 #: methods/gpgv.cc:104
 msgid "E: Too many keyrings should be passed to gpgv. Exiting."
@@ -389,7 +389,7 @@ msgstr "सर्भरबाट त्रुटि पढिदैछ"
 
 #: methods/http.cc:990 apt-pkg/contrib/mmap.cc:215
 msgid "Failed to truncate file"
-msgstr ""
+msgstr "फाइललाई छाँट्न असफल"
 
 #: methods/http.cc:1159
 msgid "Bad header data"
@@ -614,7 +614,7 @@ msgstr "सहायक प्रक्रिया %s ले खण्डिक
 #: apt-pkg/contrib/fileutl.cc:582
 #, c-format
 msgid "Sub-process %s received signal %u."
-msgstr ""
+msgstr "उप-प्रक्रिया %s ले %u संकेत प्राप्त गर्यो ।"
 
 #: apt-pkg/contrib/fileutl.cc:586
 #, c-format
@@ -744,17 +744,17 @@ msgstr "निर्भरता सिर्जना"
 
 #: apt-pkg/depcache.cc:173 apt-pkg/depcache.cc:193 apt-pkg/depcache.cc:197
 msgid "Reading state information"
-msgstr ""
+msgstr "स्थिति जानकारी पढ्दै"
 
 #: apt-pkg/depcache.cc:223
 #, c-format
 msgid "Failed to open StateFile %s"
-msgstr ""
+msgstr "StateFile %s खोल्न असफल"
 
 #: apt-pkg/depcache.cc:229
 #, c-format
 msgid "Failed to write temporary StateFile %s"
-msgstr ""
+msgstr "अस्थायी StateFile %s मा लेख्न असफल"
 
 #: apt-pkg/tagfile.cc:102
 #, c-format
@@ -951,7 +951,7 @@ msgstr "यो समस्याहरू सुधार्न तपाईँ
 #: apt-pkg/policy.cc:316
 #, c-format
 msgid "Invalid record in the preferences file %s, no Package header"
-msgstr ""
+msgstr "प्राथमिकता फाइल %s मा अमान्य रेकर्ड, कुनै प्याकेज हेडर छैन"
 
 #: apt-pkg/policy.cc:338
 #, c-format
@@ -1021,7 +1021,7 @@ msgstr "आहा, APT ले सक्षम गरेको संस्कर
 
 #: apt-pkg/pkgcachegen.cc:270
 msgid "Wow, you exceeded the number of descriptions this APT is capable of."
-msgstr ""
+msgstr "आहा, APT ले सक्षम गरेको विवरणको नम्बरलाई तपाईँले उछिन्नुभयो ।"
 
 #: apt-pkg/pkgcachegen.cc:273
 msgid "Wow, you exceeded the number of dependencies this APT is capable of."
@@ -1085,15 +1085,14 @@ msgstr "निम्न की IDs को लागि कुनै सार्
 
 #: apt-pkg/acquire-item.cc:1267
 #, c-format
-msgid ""
-"A error occurred during the signature verification. The repository is not "
+msgid "A error occurred during the signature verification. The repository is not "
 "updated and the previous index files will be used.GPG error: %s: %s\n"
 msgstr ""
 
 #: apt-pkg/acquire-item.cc:1276
 #, c-format
 msgid "GPG error: %s: %s"
-msgstr ""
+msgstr "GPG त्रुटि: %s: %s"
 
 #: apt-pkg/acquire-item.cc:1304
 #, c-format
@@ -1133,12 +1132,12 @@ msgstr ""
 #: apt-pkg/indexrecords.cc:47
 #, c-format
 msgid "No sections in Release file %s"
-msgstr ""
+msgstr "निष्कासन फाइल %s मा कुनै अनुच्छेद छैन"
 
 #: apt-pkg/indexrecords.cc:81
 #, c-format
 msgid "No Hash entry in Release file %s"
-msgstr ""
+msgstr "निष्कासन फाइल %s मा कुनै ह्यास प्रविष्टि छैन"
 
 #: apt-pkg/vendorlist.cc:66
 #, c-format
@@ -1165,7 +1164,7 @@ msgstr "लेबुल भण्डारण गर्नुहोस्:%s\n"
 
 #: apt-pkg/cdrom.cc:566 apt-pkg/cdrom.cc:834
 msgid "Unmounting CD-ROM...\n"
-msgstr ""
+msgstr "सिडी-रोम अनमाउन्ट गर्दै...\n"
 
 #: apt-pkg/cdrom.cc:585
 #, c-format
@@ -1191,9 +1190,8 @@ msgstr "अनुक्रमणिका फाइलहरुको लाग�
 
 #: apt-pkg/cdrom.cc:673
 #, c-format
-msgid ""
-"Found %zu package indexes, %zu source indexes, %zu translation indexes and "
-"%zu signatures\n"
+msgid "Found %zu package indexes, %zu source indexes, %zu translation indexes and %"
+"zu signatures\n"
 msgstr ""
 
 #: apt-pkg/cdrom.cc:684
@@ -1201,6 +1199,8 @@ msgid ""
 "Unable to locate any package files, perhaps this is not a Debian Disc or the "
 "wrong architecture?"
 msgstr ""
+"कुनै प्याकेज फाइलहरु फेला पार्न अक्षम, सायद यो डेवियन डिस्क होइन वा गलत "
+"संरचनाको हो?"
 
 #: apt-pkg/cdrom.cc:710
 #, c-format
@@ -1262,7 +1262,7 @@ msgstr ""
 #: apt-pkg/indexcopy.cc:536
 #, c-format
 msgid "Can't find authentication record for: %s"
-msgstr ""
+msgstr "%s का लागि प्रमाणीकरण रेकर्ड फेला परेन"
 
 #: apt-pkg/indexcopy.cc:542
 #, c-format
@@ -1297,12 +1297,12 @@ msgstr ""
 #: apt-pkg/deb/dpkgpm.cc:580
 #, c-format
 msgid "Directory '%s' missing"
-msgstr ""
+msgstr "डाइरेक्टरी '%s' हराइरहेको छ"
 
 #: apt-pkg/deb/dpkgpm.cc:595
 #, c-format
 msgid "Could not open file '%s'"
-msgstr ""
+msgstr "फाइल '%s' खोल्न सकेन"
 
 #: apt-pkg/deb/dpkgpm.cc:725
 #, c-format
@@ -1350,7 +1350,7 @@ msgstr ""
 
 #: apt-pkg/deb/dpkgpm.cc:980
 msgid "Running dpkg"
-msgstr ""
+msgstr "dpkg चलाउँदै"
 
 #: apt-pkg/deb/dpkgpm.cc:1193
 msgid "No apport report written because MaxReports is reached already"
