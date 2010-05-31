@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: evolution.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-02 02:09+0000\n"
-"PO-Revision-Date: 2010-05-31 17:26+0545\n"
+"PO-Revision-Date: 2010-06-01 00:04+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -605,7 +605,7 @@ msgstr "इभोल्युसन ठेगाना पुस्तिका"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:6
 msgid "Evolution Address Book address popup"
-msgstr ""
+msgstr "इभोल्युसन ठेगानापुस्तिका ठेगाना पपअप"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:7
 msgid "Evolution Address Book address viewer"
@@ -836,7 +836,7 @@ msgstr "स्थानान्तरण गर्दै..."
 #: ../calendar/gui/migration.c:195 ../mail/em-migrate.c:1168
 #, c-format
 msgid "Migrating '%s':"
-msgstr ""
+msgstr "`%s' लाई स्थानान्तरण गर्दै:"
 
 #: ../addressbook/gui/component/addressbook-migrate.c:645
 msgid "LDAP Servers"
@@ -1042,7 +1042,7 @@ msgstr "मिति/समय ढाँचा"
 #: ../addressbook/gui/component/autocompletion-config.c:185
 #: ../mail/em-mailer-prefs.c:1457
 msgid "Table column:"
-msgstr ""
+msgstr "तालिका स्तम्भ:"
 
 #: ../addressbook/gui/component/autocompletion-config.c:187
 msgid "Look up in address books"
@@ -1794,7 +1794,7 @@ msgstr "यसबाट इमेल सुरु हुन्छ"
 
 #: ../addressbook/gui/widgets/addresstypes.xml.h:3
 msgid "Name contains"
-msgstr ""
+msgstr "नाममा समावेश छ"
 
 #: ../addressbook/gui/widgets/e-addressbook-model.c:162
 msgid "No contacts"
@@ -2819,10 +2819,8 @@ msgstr ""
 "कार्य के बारेमा हो भन्ने एउटा विचार दिनेछ ।"
 
 #: ../calendar/calendar.error.xml.h:7
-msgid ""
-"All information in these memos will be deleted and can not be restored."
-msgstr ""
-"यी मेमोहरूमा सबै सूचनाहरू मेटिने छन् र पूर्वावस्थामा ल्याउन सकिने छैन ।"
+msgid "All information in these memos will be deleted and can not be restored."
+msgstr "यी मेमोहरूमा सबै सूचनाहरू मेटिने छन् र पूर्वावस्थामा ल्याउन सकिने छैन ।"
 
 #: ../calendar/calendar.error.xml.h:8
 msgid "All information in this memo will be deleted and can not be restored."
@@ -2920,7 +2918,7 @@ msgstr "तपाईँ सारांश बिना नै कार्य �
 
 #: ../calendar/calendar.error.xml.h:28
 msgid "Calendar repository is offline."
-msgstr ""
+msgstr "पात्रो भन्डार अफलाइन छ ।"
 
 #: ../calendar/calendar.error.xml.h:29
 msgid "Cannot create a new event"
@@ -3540,13 +3538,12 @@ msgstr "सचेतक चलाउनका लागि पात्रोह
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:7
 msgid "Check this to use system timezone in Evolution."
-msgstr ""
+msgstr "इभोल्युसनमा प्रणाली टाइमजोन प्रयोग गर्न यसमा चिनो लगाउनुहोस् ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:8
 msgid ""
 "Color to draw the Marcus Bains Line in the Time bar (empty for default)."
-msgstr ""
-"समयपट्टीमा (पूर्वनिर्धारितका लागि खाली) मार्कोस ब्येन्स लाइन कोर्न रङ ।"
+msgstr "समयपट्टीमा (पूर्वनिर्धारितका लागि खाली) मार्कोस ब्येन्स लाइन कोर्न रङ ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:9
 msgid "Color to draw the Marcus Bains line in the Day View."
@@ -3644,11 +3641,11 @@ msgstr "अन्तिम सचेतक समय"
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:32
 #: ../mail/evolution-mail.schemas.in.h:73
 msgid "Level beyond which the message should be logged."
-msgstr ""
+msgstr "स्तर जुनभन्दा बढिमा सन्देश लग गर्नुपर्छ ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:33
 msgid "List of recently used second time zones in a Day View."
-msgstr ""
+msgstr "दिन दृश्यमा हालै प्रयोग गरिएका दोस्रा टाइम जोनहरुको सूची ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:34
 msgid "List of server URLs for free/busy publishing."
@@ -3674,7 +3671,7 @@ msgstr ""
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:39
 msgid "Maximum number of recently used timezones to remember."
-msgstr ""
+msgstr "सम्झिराख्नु पर्ने हालै प्रयोग गरिएका टाइमजोनहरुको अधिकतम सङख्या  ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:40
 msgid "Minute the workday ends on, 0 to 59."
@@ -3767,7 +3764,7 @@ msgstr "कार्यक्रमहरू जसलाई सचेतकह�
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:57
 msgid "Recently used second time zones in a Day View"
-msgstr ""
+msgstr "दिन दृश्यमा हालै प्रयोग गरिएका दोस्रा टाइम जोनहरु"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:58
 msgid "Save directory for alarm audio"
@@ -3775,7 +3772,7 @@ msgstr "सचेतक अडियोको लागि डाइरेक्
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:59
 msgid "Scroll Month View by a week"
-msgstr ""
+msgstr "मासिक दृश्यलाई एक हप्ताले स्क्रोल गर्नुहोस्"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:60
 msgid "Show RSVP field in the event/task/meeting editor"
@@ -3832,6 +3829,8 @@ msgid ""
 "Shows the second time zone in a Day View, if set. Value is similar to one "
 "used in a 'timezone' key."
 msgstr ""
+"सेट भएमा, दैनिक दृश्यमा दोस्रो टाइम जोन देखाउँछ । मान 'टाइमजोन' की मा प्रयोग "
+"गरिएको जस्तै हुन्छ ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:73
 msgid "Tasks due today color"
@@ -3861,13 +3860,15 @@ msgstr ""
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:78
 msgid "The second timezone for a Day View"
-msgstr ""
+msgstr "दैनिक दृश्यका लागि दोस्रो टाइमजोन"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:79
 msgid ""
 "This can have three possible values. 0 for errors. 1 for warnings. 2 for "
 "debug messages."
 msgstr ""
+"यो तीनवटा सम्भाव्य मान हुन सक्छ । ० त्रुटिका लागि । १ चेतावनीका लागि । २ "
+"डिबग सन्देशका लागि ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:80
 msgid "Time divisions"
@@ -3910,20 +3911,17 @@ msgid "Units for a default reminder, \"minutes\", \"hours\" or \"days\"."
 msgstr "पूर्वनिर्धारित रिमाइन्डरका लागि एकाइहरू, \"मिनेट\", \"घण्टा\" वा \"दिनहरू\" ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:89
-msgid ""
-"Units for determining when to hide tasks, \"minutes\", \"hours\" or \"days\"."
+msgid "Units for determining when to hide tasks, \"minutes\", \"hours\" or \"days\"."
 msgstr ""
-"कार्यहरू लुकाउनका लागि निर्धारण गर्न एकाइहरू, \"मिनेट\", \"घण्टा\" वा "
-"\"दिनहरू\" ।"
+"कार्यहरू लुकाउनका लागि निर्धारण गर्न एकाइहरू, \"मिनेट\", \"घण्टा\" वा \"दिनहरू\" ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:90
 msgid "Use system timezone"
-msgstr ""
+msgstr "प्रणाली टाइमजोन प्रयोग गर्नुहोस्"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:91
-msgid ""
-"Use the system timezone instead of the timezone selected in Evolution."
-msgstr ""
+msgid "Use the system timezone instead of the timezone selected in Evolution."
+msgstr "इभोल्युसनमा छानिएको टाइमजोनको सट्टा प्रणाली टाइमजोन प्रयोग गर्नुहोस् ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:93
 msgid "Week start"
@@ -4208,7 +4206,7 @@ msgstr "नयाँ सबै दिनको भेटघाट"
 #: ../calendar/gui/calendar-component.c:1453
 msgctxt "New"
 msgid "All Day A_ppointment"
-msgstr ""
+msgstr "पूरा दिन भेटघाट"
 
 #: ../calendar/gui/calendar-component.c:1454
 msgid "Create a new all-day appointment"
@@ -4552,7 +4550,7 @@ msgstr "मिति मात्रै:"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:1
 msgid "(Shown in a Day View)"
-msgstr ""
+msgstr "(दैनिक दृश्यमा देखाइने)"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:2
 msgid ""
@@ -4578,7 +4576,7 @@ msgstr ""
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:9
 msgid "<span weight=\"bold\">Alarms</span>"
-msgstr ""
+msgstr "<span weight=\"bold\">अलार्म</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:10
 #: ../mail/mail-config.glade.h:9
@@ -4682,11 +4680,11 @@ msgstr "शनिबार"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:40
 msgid "Sc_roll Month View by a week"
-msgstr ""
+msgstr "मासिक दृश्यलाई एक हप्ताले स्क्रोल गर्नुहोस्"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:41
 msgid "Se_cond zone:"
-msgstr ""
+msgstr "दोस्रो जोन:"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:42
 msgid "Select the calendars for alarm notification"
@@ -4752,7 +4750,7 @@ msgstr "मंगलबार"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:58
 msgid "Use s_ystem time zone"
-msgstr ""
+msgstr "प्रणाली टाइमजोन प्रयोग गर्नुहोस्"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:59
 #: ../calendar/gui/dialogs/recurrence-page.c:1114
@@ -5152,7 +5150,7 @@ msgstr "फाँट प्रकार"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1167
 msgid "Toggles whether the Attendee Type is displayed"
-msgstr ""
+msgstr "सहभागी प्रकार प्रदर्शित छ कि छैन भनेर टगल गर्दछ"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1191
 #: ../composer/e-composer-private.c:69
@@ -5610,7 +5608,7 @@ msgstr "पुनरावृत्ति मिति अवैध छ"
 
 #: ../calendar/gui/dialogs/recurrence-page.c:932
 msgid "End time of the recurrence was before event's start"
-msgstr ""
+msgstr "पुनरावृत्तिका अन्तिम समय घटनाको सुरुवातभन्दा पहिले थियो"
 
 #. TRANSLATORS: Entire string is for example: This appointment recurs/Every [x] week(s) on [Wednesday] [forever]'
 #. * (dropdown menu options are in [square brackets]). This means that after the 'on', name of a week day always follows.
@@ -5783,7 +5781,7 @@ msgstr ""
 
 #: ../calendar/gui/dialogs/send-comp.c:160
 msgid "Send my alarms with this event"
-msgstr ""
+msgstr "यो घटनासँग मेरा सचेतक पठाउने"
 
 #: ../calendar/gui/dialogs/send-comp.c:162
 msgid "Notify new attendees _only"
@@ -5857,7 +5855,7 @@ msgstr "वस्तुस्थिति विवरण"
 
 #: ../calendar/gui/dialogs/task-editor.c:115
 msgid "Click to change or view the status details of the task"
-msgstr ""
+msgstr "कार्यको स्थिति विवरण हेर्न वा परिवर्तन गर्न क्लिक गर्नुहोस्"
 
 #: ../calendar/gui/dialogs/task-editor.c:123
 #: ../composer/e-composer-actions.c:373
@@ -6122,7 +6120,7 @@ msgstr "समाप्ति मिति"
 #: ../calendar/gui/e-calendar-table.etspec.h:9
 #: ../calendar/gui/e-memo-table.etspec.h:4
 msgid "Last modified"
-msgstr ""
+msgstr "अन्तिम परिमार्जित"
 
 #: ../calendar/gui/e-cal-list-view.etspec.h:6
 #: ../calendar/gui/e-memo-table.etspec.h:5
@@ -6132,7 +6130,7 @@ msgstr "सुरुआत मिति"
 #: ../calendar/gui/e-cal-model-calendar.c:187
 #: ../calendar/gui/e-calendar-table.c:640
 msgid "Free"
-msgstr "स्वतन्त्र"
+msgstr "खाली"
 
 #: ../calendar/gui/e-cal-model-calendar.c:190
 #: ../calendar/gui/e-calendar-table.c:641
@@ -6542,7 +6540,7 @@ msgstr "%02i मिनेट विभाजनहरू"
 
 #: ../calendar/gui/e-day-view-time-item.c:768
 msgid "Show the second time zone"
-msgstr ""
+msgstr "दोस्रो टाइम जोन देखाउने"
 
 #. strftime format %A = full weekday name, %d = day of month,
 #. %B = full month name. Don't use any other specifiers.
@@ -7384,7 +7382,7 @@ msgstr ""
 #: ../calendar/gui/itip-utils.c:711
 msgctxt "Meeting"
 msgid "Updated"
-msgstr ""
+msgstr "अद्यावधिक गरिएको"
 
 #. Translators: This is part of the subject line of a
 #. * meeting request or update email.  The full subject
@@ -7790,7 +7788,7 @@ msgstr "नयाँ मानाङ्कन गरिएको कार्य
 #: ../calendar/gui/tasks-component.c:1125
 msgctxt "New"
 msgid "Assigne_d Task"
-msgstr ""
+msgstr "मानाङ्कन गरिएको कार्य"
 
 #: ../calendar/gui/tasks-component.c:1126
 msgid "Create a new assigned task"
@@ -9483,7 +9481,7 @@ msgstr "हालको फाइललाई एउटा भिन्न न�
 
 #: ../composer/e-composer-actions.c:359
 msgid "Save as _Draft"
-msgstr ""
+msgstr "ड्राफ्टको रूपमा बचत गर्नुहोस्"
 
 #: ../composer/e-composer-actions.c:361
 msgid "Save as draft"
@@ -9511,7 +9509,7 @@ msgstr "नयाँ सन्देश विन्डो खोल्नुह
 
 #: ../composer/e-composer-actions.c:389
 msgid "Character _Encoding"
-msgstr ""
+msgstr "क्यारेक्टर सङ्केतन"
 
 #: ../composer/e-composer-actions.c:396
 msgid "_Security"
@@ -9896,7 +9894,7 @@ msgstr "ग्रूपवेयर सुट"
 
 #: ../data/evolution.desktop.in.in.h:4
 msgid "Manage your email, contacts and schedule"
-msgstr ""
+msgstr "आफ्नो इमेल, सम्पर्क र कार्यक्रम व्यवस्थापन गर्नुहोस्"
 
 #: ../data/evolution.keys.in.in.h:1
 msgid "address card"
@@ -9924,7 +9922,7 @@ msgstr "हिजो"
 #: ../e-util/e-datetime-format.c:207
 #, c-format
 msgid "%d days from now"
-msgstr ""
+msgstr "अहिले देखि %d दिन पछि"
 
 #: ../e-util/e-datetime-format.c:209
 #, c-format
@@ -9972,7 +9970,7 @@ msgstr ""
 
 #: ../e-util/e-non-intrusive-error-dialog.c:191
 msgid "Debug Logs"
-msgstr ""
+msgstr "डिबग लग"
 
 #: ../e-util/e-non-intrusive-error-dialog.c:205
 msgid "Show _errors in the status bar for"
@@ -10021,11 +10019,11 @@ msgstr "चेतावनी र त्रुटिहरु"
 
 #: ../e-util/e-non-intrusive-error-dialog.h:41
 msgid "Debug"
-msgstr ""
+msgstr "डिबग"
 
 #: ../e-util/e-non-intrusive-error-dialog.h:41
 msgid "Error, Warnings and Debug messages"
-msgstr ""
+msgstr "त्रुटि, चेतावनी र डिबग सन्देशहरु"
 
 #: ../e-util/e-plugin.c:308 ../filter/rule-editor.c:798
 #: ../mail/em-account-prefs.c:477 ../mail/em-composer-prefs.c:958
@@ -10073,7 +10071,7 @@ msgstr "तपाईँ यसलाई अधिलेखन गर्न च�
 
 #: ../e-util/e-system.error.xml.h:5
 msgid "File exists \"{0}\"."
-msgstr ""
+msgstr "फाइल विद्यमान छ \"{0}\" ।"
 
 #: ../e-util/e-system.error.xml.h:6
 msgid "Overwrite file?"
@@ -10157,8 +10155,8 @@ msgstr[1] "%d सेकेण्ड अगाडि"
 #, c-format
 msgid "1 second in the future"
 msgid_plural "%d seconds in the future"
-msgstr[0] "भविश्यमा १ सेकेण्ड"
-msgstr[1] "भविश्यमा %d सेकेण्ड"
+msgstr[0] "भविष्यमा १ सेकेण्ड"
+msgstr[1] "भविष्यमा %d सेकेण्ड"
 
 #: ../filter/filter-datespec.c:75
 #, c-format
@@ -10171,8 +10169,8 @@ msgstr[1] "%d मिनेट अगाडि"
 #, c-format
 msgid "1 minute in the future"
 msgid_plural "%d minutes in the future"
-msgstr[0] "भविश्यमा १ मिनट"
-msgstr[1] "भविश्यमा %d मिनट"
+msgstr[0] "भविष्यमा १ मिनट"
+msgstr[1] "भविष्यमा %d मिनट"
 
 #: ../filter/filter-datespec.c:77
 #, c-format
@@ -10185,8 +10183,8 @@ msgstr[1] "%d घन्टा अगाडि"
 #, c-format
 msgid "1 hour in the future"
 msgid_plural "%d hours in the future"
-msgstr[0] "भविश्यमा १ घण्टा"
-msgstr[1] "भविश्यमा %d घण्टा"
+msgstr[0] "भविष्यमा १ घण्टा"
+msgstr[1] "भविष्यमा %d घण्टा"
 
 #: ../filter/filter-datespec.c:79
 #, c-format
@@ -10273,11 +10271,11 @@ msgstr "परीक्षण गर्नुहोस्"
 
 #: ../filter/filter-rule.c:858
 msgid "R_ule name:"
-msgstr ""
+msgstr "नियमको नाम:"
 
 #: ../filter/filter-rule.c:886
 msgid "Find items that meet the following conditions"
-msgstr ""
+msgstr "निम्न सर्तहरु पूरा गर्ने वस्तुहरु फेला पार्नुहोस्"
 
 #: ../filter/filter-rule.c:920
 msgid "A_dd Condition"
