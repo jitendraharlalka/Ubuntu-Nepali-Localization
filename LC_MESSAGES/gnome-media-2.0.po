@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: gnome-media.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-12 13:04+0000\n"
-"PO-Revision-Date: 2010-04-05 23:25+0545\n"
+"PO-Revision-Date: 2010-06-06 21:48+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.0\n"
+"X-Generator: Virtaal 0.6.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 08:09+0000\n"
 
 #: ../gnome-volume-control/data/gnome-volume-control-applet.desktop.in.h:1
@@ -40,11 +40,11 @@ msgstr "भोल्युम नियन्त्रण"
 #: ../gnome-volume-control/data/gnome-volume-control.desktop.in.in.h:1
 #: ../gst-mixer/gnome-volume-control.desktop.in.in.h:1
 msgid "Change sound volume and sound events"
-msgstr ""
+msgstr "ध्वनि भोल्युम र ध्वनि घटनाहरु परिवर्तन गर्नुहोस्"
 
 #: ../gnome-volume-control/data/gnome-volume-control.desktop.in.in.h:2
 msgid "Sound"
-msgstr ""
+msgstr "ध्वनि"
 
 #: ../gnome-volume-control/src/applet-main.c:49
 #: ../gnome-volume-control/src/dialog-main.c:155
@@ -54,7 +54,7 @@ msgstr ""
 #: ../gnome-volume-control/src/applet-main.c:50
 #: ../gnome-volume-control/src/dialog-main.c:156
 msgid "Version of this application"
-msgstr ""
+msgstr "यो सफ्टवेयरको संस्करण"
 
 #: ../gnome-volume-control/src/applet-main.c:62
 msgid " - GNOME Volume Control Applet"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../gnome-volume-control/src/dialog-main.c:168
 msgid " - GNOME Volume Control"
-msgstr ""
+msgstr " - जीनोम भोल्युम नियन्त्रण"
 
 #: ../gnome-volume-control/src/gvc-applet.c:273
 #: ../gnome-volume-control/src/gvc-mixer-dialog.c:1830
@@ -190,7 +190,7 @@ msgstr "नाम"
 
 #: ../gnome-volume-control/src/gvc-mixer-dialog.c:1428
 msgid "Device"
-msgstr ""
+msgstr "यन्त्र"
 
 #: ../gnome-volume-control/src/gvc-mixer-dialog.c:1650
 msgid "_Output volume: "
@@ -235,7 +235,7 @@ msgstr ""
 
 #: ../gnome-volume-control/src/gvc-mixer-dialog.c:1873
 msgid "Applications"
-msgstr ""
+msgstr "सफ्टवेयरहरु"
 
 #: ../gnome-volume-control/src/gvc-mixer-dialog.c:1877
 msgid "No application is currently playing or recording audio."
@@ -253,7 +253,7 @@ msgstr ""
 #: ../gnome-volume-control/src/gvc-stream-status-icon.c:232
 #, c-format
 msgid "Failed to start Sound Preferences: %s"
-msgstr ""
+msgstr "ध्वनि प्राथमिकता सुरु गर्न असफल: %s"
 
 #: ../gnome-volume-control/src/gvc-stream-status-icon.c:255
 msgid "_Mute"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../gnome-volume-control/src/gvc-stream-status-icon.c:264
 msgid "_Sound Preferences"
-msgstr ""
+msgstr "ध्वनि प्राथमिकता"
 
 #: ../gnome-volume-control/src/gvc-stream-status-icon.c:448
 msgid "Muted"
@@ -317,15 +317,15 @@ msgstr ""
 #, c-format
 msgid "%ld minute"
 msgid_plural "%ld minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%ld मिनेट"
+msgstr[1] "%ld मिनेट"
 
 #: ../grecord/src/gsr-window.c:297
 #, c-format
 msgid "%ld hour"
 msgid_plural "%ld hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%ld घन्टा"
+msgstr[1] "%ld घन्टा"
 
 #: ../grecord/src/gsr-window.c:298
 #, c-format
@@ -346,7 +346,7 @@ msgstr ""
 #: ../grecord/src/gsr-window.c:330
 #, c-format
 msgid "%s and %s"
-msgstr ""
+msgstr "%s र %s"
 
 #: ../grecord/src/gsr-window.c:373
 msgid "Open a File"

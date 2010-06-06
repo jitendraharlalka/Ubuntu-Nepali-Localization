@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dpkg_po_ne\n"
 "Report-Msgid-Bugs-To: debian-dpkg@lists.debian.org\n"
 "POT-Creation-Date: 2009-11-27 18:45+0100\n"
-"PO-Revision-Date: 2010-05-26 15:28+0545\n"
+"PO-Revision-Date: 2010-06-02 22:53+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -1020,27 +1020,27 @@ msgstr ""
 #: lib/dpkg/triglib.c:491
 #, c-format
 msgid "unable to create new file triggers file `%.250s'"
-msgstr ""
+msgstr "नयाँ फाइल ट्रिगर्स फाइल '%.250s' निर्माण गर्न अक्षम"
 
 #: lib/dpkg/triglib.c:500
 #, c-format
 msgid "unable to write new file triggers file `%.250s'"
-msgstr ""
+msgstr "नयाँ फाइल ट्रिगर्स फाइल '%.250s' लेख्न अक्षम"
 
 #: lib/dpkg/triglib.c:504
 #, c-format
 msgid "unable to close new file triggers file `%.250s'"
-msgstr ""
+msgstr "नयाँ फाइल ट्रिगर्स फाइल '%.250s' बन्द गर्न अक्षम"
 
 #: lib/dpkg/triglib.c:508
 #, c-format
 msgid "unable to install new file triggers file as `%.250s'"
-msgstr ""
+msgstr "नयाँ फाइल ट्रिगर्स फाइल लाई '%.250s' मा इन्सटल गर्न अक्षम"
 
 #: lib/dpkg/triglib.c:529
 #, c-format
 msgid "unable to read file triggers file `%.250s'"
-msgstr ""
+msgstr "नयाँ फाइल ट्रिगर्स फाइल '%.250s' पढ्न अक्षम"
 
 #: lib/dpkg/triglib.c:537
 #, c-format
@@ -1103,7 +1103,7 @@ msgstr ""
 #: lib/dpkg/utils.c:72
 #, c-format
 msgid "unexpected eof reading `%.250s'"
-msgstr ""
+msgstr "'%.250s' पढ्दा अप्रत्यासित eof"
 
 #: lib/dpkg/varbuf.c:78 lib/dpkg/varbuf.c:87
 msgid "error formatting string into varbuf variable"
@@ -3180,6 +3180,9 @@ msgid ""
 "Use --help for help about querying packages;\n"
 "Use --license for copyright license and lack of warranty (GNU GPL)."
 msgstr ""
+"प्याकेजहरुको क्वेरीका बारेमा मद्दतका लागि --help प्रयोग गर्नुहोस्;\n"
+"प्रतिलिपि अधिकार लाइसेन्स र वारेन्टीको अभाव (जीनयू जीपिएल) का लागि --license "
+"प्रयोग गर्नुहोस् ।"
 
 #: src/remove.c:81
 #, c-format
@@ -3243,6 +3246,8 @@ msgid ""
 "while removing %.250s, unable to remove directory '%.250s': %s - directory "
 "may be a mount point?"
 msgstr ""
+"%.250s हटाउँदा, डाइरेक्टरी '%.250s' हटाउन अक्षम: %s - डाइरेक्टरी माउन्ट "
+"विन्दु हुन सक्छ?"
 
 #: src/remove.c:258 src/remove.c:362
 #, c-format
@@ -3262,7 +3267,7 @@ msgstr "नियन्त्रण सूचना फाइल `%.250s' हट
 #: src/remove.c:351
 #, c-format
 msgid "while removing %.250s, directory '%.250s' not empty so not removed."
-msgstr ""
+msgstr "%.250s हटाउँदा, डाइरेक्टरी '%.250s' खाली छैन त्यसैले हटाइएन ।"
 
 #: src/remove.c:385
 #, c-format
@@ -3391,7 +3396,7 @@ msgstr "अनावृत ट्रेलिङ"
 #: src/statcmd.c:174
 #, c-format
 msgid "--update given but %s does not exist"
-msgstr ""
+msgstr "--update दिइयो तर %s विद्यमान छैन"
 
 #: src/statcmd.c:177
 #, c-format
@@ -3777,12 +3782,12 @@ msgstr "कन्फफाइल `%.250s' स्थिर छैन"
 #: dpkg-deb/build.c:380
 #, c-format
 msgid "conffile '%s' is not a plain file"
-msgstr ""
+msgstr "कन्फफाइल '%s' सादा फाइल होइन"
 
 #: dpkg-deb/build.c:385
 #, c-format
 msgid "conffile name '%s' is duplicated"
-msgstr ""
+msgstr "कन्फफाइल नाम '%s' नक्कल भएको छ"
 
 #: dpkg-deb/build.c:396
 msgid "error reading conffiles file"
