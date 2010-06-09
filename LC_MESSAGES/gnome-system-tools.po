@@ -7,24 +7,25 @@
 # Sushma Khanal <suskhanal100@yahoo.com>, 2005.
 # Pawan Chitrakar <pawan@mpp.org.np>, 2005.
 # Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2005.
-#
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-system-tools.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-18 11:52+0000\n"
-"PO-Revision-Date: 2010-02-18 18:43+0000\n"
-"Last-Translator: Shiva Prasad Pokharel <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-06-09 11:17+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 02:09+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../gnome-system-tools.schemas.in.h:1
-msgid ""
-"Whether the users-admin tool should show system users in the users list"
+msgid "Whether the users-admin tool should show system users in the users list"
 msgstr ""
 
 #: ../gnome-system-tools.schemas.in.h:2
@@ -38,7 +39,7 @@ msgstr "<b>लेखाको डेटा</b>"
 
 #: ../interfaces/network.ui.h:2
 msgid "<b>Connection Settings</b>"
-msgstr ""
+msgstr "<b>जडान सेटिङ</b>"
 
 #: ../interfaces/network.ui.h:3
 msgid "<b>DNS Servers</b>"
@@ -74,7 +75,7 @@ msgstr "एलिएजहरु:"
 
 #: ../interfaces/network.ui.h:11
 msgid "Con_figuration:"
-msgstr ""
+msgstr "कन्फिगरेसन:"
 
 #: ../interfaces/network.ui.h:12
 msgid "Connection type:"
@@ -90,7 +91,7 @@ msgstr "डोमेनको नामि:"
 
 #: ../interfaces/network.ui.h:15
 msgid "E_nable roaming mode"
-msgstr ""
+msgstr "रोमिङ्ग मोड सक्षम पार्नुहोस्"
 
 #: ../interfaces/network.ui.h:16
 msgid "E_nable this connection"
@@ -98,7 +99,7 @@ msgstr "यो सम्वन्धलाई स_क्रिय पार्�
 
 #: ../interfaces/network.ui.h:17
 msgid "Ethernet interface:"
-msgstr ""
+msgstr "इथर्नेट इन्टरफेस:"
 
 #: ../interfaces/network.ui.h:18 ../interfaces/users.ui.h:32
 msgid "General"
@@ -106,7 +107,7 @@ msgstr "सामान्य"
 
 #: ../interfaces/network.ui.h:19
 msgid "Hexadecimal"
-msgstr ""
+msgstr "हेक्साडेसिमल"
 
 #: ../interfaces/network.ui.h:20
 msgid "Host Alias Properties"
@@ -130,11 +131,11 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:25
 msgid "Low"
-msgstr ""
+msgstr "कम"
 
 #: ../interfaces/network.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "मध्यम"
 
 #: ../interfaces/network.ui.h:27
 msgid "Modem"
@@ -142,7 +143,7 @@ msgstr "मोडेम"
 
 #: ../interfaces/network.ui.h:28
 msgid "Network _password:"
-msgstr ""
+msgstr "नेटवर्क पासवर्ड:"
 
 #: ../interfaces/network.ui.h:29
 msgid "Network name (_ESSID):"
@@ -150,7 +151,7 @@ msgstr "संजालको नाम(_इएसएसआइडि):"
 
 #: ../interfaces/network.ui.h:30
 msgid "Off"
-msgstr ""
+msgstr "अफ"
 
 #: ../interfaces/network.ui.h:31
 msgid "Options"
@@ -162,7 +163,7 @@ msgstr "प्रवेशचिह्न"
 
 #: ../interfaces/network.ui.h:33
 msgid "Password _type:"
-msgstr ""
+msgstr "पासवर्ड प्रकार:"
 
 #: ../interfaces/network.ui.h:34
 msgid "Plain (ASCII)"
@@ -198,7 +199,7 @@ msgstr "_गेट्वे ठेगाना:"
 
 #: ../interfaces/network.ui.h:42
 msgid "_Host name:"
-msgstr ""
+msgstr "होस्ट नाम:"
 
 #: ../interfaces/network.ui.h:43
 msgid "_IP address:"
@@ -248,7 +249,7 @@ msgstr ""
 
 #: ../interfaces/services.ui.h:2
 msgid "Select the services that you wish to activate:"
-msgstr ""
+msgstr "तपाईले सक्रिय पार्न चाहनु भएको सेवाहरु छान्नुहोस्:"
 
 #: ../interfaces/shares.ui.h:1
 msgid "<b>Allowed Hosts</b>"
@@ -256,7 +257,7 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:2
 msgid "<b>Hosts Settings</b>"
-msgstr ""
+msgstr "<b>होस्टको सेटिङ्गहरु</b>"
 
 #: ../interfaces/shares.ui.h:3
 msgid "<b>Share Properties</b>"
@@ -273,6 +274,8 @@ msgstr ""
 #: ../interfaces/shares.ui.h:6
 msgid "<span size=\"larger\" weight=\"bold\">Enter password for user:</span>"
 msgstr ""
+"<span size=\"larger\" weight=\"bold\">प्रयोगकर्ताका लागि पासवर्ड "
+"हाल्नुहोस्:</span>"
 
 #: ../interfaces/shares.ui.h:7
 msgid "Add allowed hosts"
@@ -284,7 +287,7 @@ msgstr "अनुमति प्राप्त होस्टहरु:"
 
 #: ../interfaces/shares.ui.h:9
 msgid "Comment:"
-msgstr "टिप्पणि:"
+msgstr "टिप्पणी:"
 
 #: ../interfaces/shares.ui.h:10
 msgid "Domain / _Workgroup:"
@@ -292,11 +295,11 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:11
 msgid "Enter password for user"
-msgstr ""
+msgstr "प्रयोगकर्ताका लागि पासवर्ड हाल्नुहोस्"
 
 #: ../interfaces/shares.ui.h:12
 msgid "General Properties"
-msgstr ""
+msgstr "सामान्य गुण"
 
 #: ../interfaces/shares.ui.h:13
 msgid "Host name:"
@@ -333,7 +336,7 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:22
 msgid "This computer is a _WINS server"
-msgstr ""
+msgstr "यो कम्प्युटर _WINS सर्भर हो"
 
 #: ../interfaces/shares.ui.h:23
 msgid "Users"
@@ -341,11 +344,11 @@ msgstr "प्रयोगकर्ताहरु"
 
 #: ../interfaces/shares.ui.h:24
 msgid "WINS _server:"
-msgstr ""
+msgstr "WINS सर्भर:"
 
 #: ../interfaces/shares.ui.h:25
 msgid "_Path:"
-msgstr "_बाटो:"
+msgstr "_मार्ग:"
 
 #: ../interfaces/shares.ui.h:26
 msgid "_Read only"
@@ -357,19 +360,19 @@ msgstr "<b>छनोट</b>"
 
 #: ../interfaces/time.ui.h:2
 msgid "<b>Time Zone</b>"
-msgstr ""
+msgstr "<b>टाइम जोन</b>"
 
 #: ../interfaces/time.ui.h:3
 msgid "Add NTP Server"
-msgstr "एनटििप ड सेवादा थप्नुहोस्यक"
+msgstr "एनटिपि सर्भर थप्नुहोस्"
 
 #: ../interfaces/time.ui.h:4
 msgid "NTP server"
-msgstr "एनटिपि सेवादायक"
+msgstr "एनटिपि सर्भर"
 
 #: ../interfaces/time.ui.h:5
 msgid "Se_lect Servers"
-msgstr ""
+msgstr "सर्भरहरु छान्नुहोस्"
 
 #: ../interfaces/time.ui.h:6
 msgid "Synchronize now"
@@ -377,31 +380,31 @@ msgstr ""
 
 #: ../interfaces/time.ui.h:7
 msgid "Time servers"
-msgstr "समय सेवादायकहरु"
+msgstr "समय सेर्भरहरु"
 
 #: ../interfaces/time.ui.h:8
 msgid "Time servers:"
-msgstr ""
+msgstr "समय सेर्भरहरु:"
 
 #: ../interfaces/time.ui.h:9
 msgid "Time zone"
-msgstr "समय क्षेत्र"
+msgstr "टाइम जोन"
 
 #: ../interfaces/time.ui.h:10
 msgid "Time zone:"
-msgstr "समय क्षेत्र:"
+msgstr "टाइम जोन:"
 
 #: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
-msgstr ""
+msgstr "कन्फिगर नगरिएको"
 
 #: ../interfaces/time.ui.h:12
 msgid "_Configuration:"
-msgstr ""
+msgstr "कन्फिगरेसन:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
-msgstr "_मिती:"
+msgstr "_मिति:"
 
 #: ../interfaces/time.ui.h:14
 msgid "_Time:"
@@ -441,7 +444,7 @@ msgstr "<span weight=\"bold\">प्रणालीका पूर्वनि�
 
 #: ../interfaces/users.ui.h:9
 msgid "Account _type:"
-msgstr ""
+msgstr "खाता प्रकार:"
 
 #: ../interfaces/users.ui.h:10
 msgid "Advanced"
@@ -452,6 +455,8 @@ msgid ""
 "An user with such a name already exists. Please choose a different short "
 "name for the new user."
 msgstr ""
+"त्यस्तो नाम भएको प्रयोग प्रयोगकर्ता पहिले देखि विद्यमान छ । कृपया नयाँ "
+"प्रयोगकर्ताका लागि अर्को संक्षिप्त नाम रोज्नुहोस् ।"
 
 #: ../interfaces/users.ui.h:12
 msgid "Assign a random password by default"
@@ -459,19 +464,19 @@ msgstr "पूर्वनिर्धारित एउटा जुनसु�
 
 #: ../interfaces/users.ui.h:13
 msgid "Change Advanced User Settings"
-msgstr ""
+msgstr "उन्नत प्रयोगकर्ता सेटिङ परिवर्तन गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:14
 msgid "Change User Account Type"
-msgstr ""
+msgstr "प्रयोगकर्ता खाता प्रकार परिवर्तन गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:15
 msgid "Change User Name and Login"
-msgstr ""
+msgstr "प्रयोगकर्ता नाम र लगइन परिवर्तन गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:16
 msgid "Change User Password"
-msgstr ""
+msgstr "प्रयोगकर्ता पासवर्ड परिवर्तन गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:17
 msgid "Changing advanced settings for:"
@@ -495,15 +500,15 @@ msgstr "तय:"
 
 #: ../interfaces/users.ui.h:22
 msgid "Contact Information"
-msgstr ""
+msgstr "सम्पर्क जानकारी"
 
 #: ../interfaces/users.ui.h:23
 msgid "Create New User"
-msgstr ""
+msgstr "नयाँ प्रयोगकर्ता निर्माण गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:24
 msgid "Create a new user"
-msgstr ""
+msgstr "नयाँ प्रयोगकर्ता निर्माण गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:25
 msgid "Days between warning and password expiration:"
@@ -519,11 +524,11 @@ msgstr "पूर्वनिर्धारित_सेल:"
 
 #: ../interfaces/users.ui.h:28
 msgid "Disable _account"
-msgstr ""
+msgstr "खाता अक्षम पार्नुहोस्"
 
 #: ../interfaces/users.ui.h:29
 msgid "Don't ask for password on _login"
-msgstr ""
+msgstr "लगइन गर्दा पासवर्डका लागि नसोध्ने"
 
 #: ../interfaces/users.ui.h:30
 msgid ""
@@ -554,7 +559,7 @@ msgstr "समूहका गुणहरु"
 
 #: ../interfaces/users.ui.h:37
 msgid "Groups settings"
-msgstr ""
+msgstr "समूहका सेटिङहरु"
 
 #: ../interfaces/users.ui.h:38
 msgid "Ma_ximum days a password may be used:"
@@ -566,7 +571,7 @@ msgstr "म्यानुअल"
 
 #: ../interfaces/users.ui.h:40
 msgid "Maximum GID:"
-msgstr ""
+msgstr "अधिकतम GID:"
 
 #: ../interfaces/users.ui.h:41
 msgid "Maximum UID:"
@@ -590,7 +595,7 @@ msgstr "प्रवेशचिह्न परिवर्तन बीचक�
 
 #: ../interfaces/users.ui.h:46
 msgid "New _password:"
-msgstr ""
+msgstr "नयाँ पासवर्ड:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Number of days that a password may be used:"
@@ -631,7 +636,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:59
 msgid "This account is disabled."
-msgstr ""
+msgstr "यो खाता अक्षम पारिएको छ ।"
 
 #: ../interfaces/users.ui.h:60
 msgid ""
@@ -641,7 +646,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:61
 msgid "User ID:"
-msgstr ""
+msgstr "प्रयोगकर्ता आईडी:"
 
 #: ../interfaces/users.ui.h:62
 msgid "User Privileges"
@@ -654,14 +659,16 @@ msgstr "प्रयोगकर्ता प्रोफाइलहरु"
 #: ../interfaces/users.ui.h:64
 msgid "You can't change user ID while the user is logged in."
 msgstr ""
+"तपाईले प्रयोगकर्ता लगइन भएको बेलामा प्रयोगकर्ता आईडी परिवर्तन गर्न "
+"सक्नुहुन्न ।"
 
 #: ../interfaces/users.ui.h:65
 msgid "_Add Profile"
-msgstr ""
+msgstr "प्रोफाइल थप्नुहोस्"
 
 #: ../interfaces/users.ui.h:66
 msgid "_Advanced Settings"
-msgstr ""
+msgstr "उन्नत सेटिङ"
 
 #: ../interfaces/users.ui.h:67
 msgid "_Comments"
@@ -669,7 +676,7 @@ msgstr "_टिप्पणीहरु"
 
 #: ../interfaces/users.ui.h:68
 msgid "_Current password:"
-msgstr ""
+msgstr "हालको पासवर्ड:"
 
 #: ../interfaces/users.ui.h:69
 msgid "_Custom"
@@ -681,7 +688,7 @@ msgstr "_चेतावनी र प्रवेशचिह्नले म�
 
 #: ../interfaces/users.ui.h:71
 msgid "_Enable Account"
-msgstr ""
+msgstr "खाता सक्षम पार्नुहोस्"
 
 #: ../interfaces/users.ui.h:72
 msgid "_Encrypt home folder to protect sensitive data"
@@ -705,7 +712,7 @@ msgstr "_मुख्य समूह:"
 
 #: ../interfaces/users.ui.h:77
 msgid "_Manage Groups"
-msgstr ""
+msgstr "समूह व्यवस्थापन गर्नुहोस्"
 
 #: ../interfaces/users.ui.h:78
 msgid "_Name:"
@@ -721,7 +728,7 @@ msgstr "_सेल:"
 
 #: ../interfaces/users.ui.h:81
 msgid "_Short Name:"
-msgstr ""
+msgstr "संक्षिप्त नाम:"
 
 #: ../interfaces/users.ui.h:82
 msgid "_Work phone:"
@@ -754,7 +761,7 @@ msgstr "कनफिग्रेसनलाई लोड गर्न सकि
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:192
 msgid "The configuration could not be saved"
-msgstr ""
+msgstr "कनफिग्रेसनलाई बचत गर्न सकिएन"
 
 #: ../src/common/gst-tool.c:196
 msgid "You are not allowed to access the system configuration."
@@ -767,12 +774,12 @@ msgstr ""
 
 #: ../src/common/gst-tool.c:201
 msgid "Invalid data was found."
-msgstr ""
+msgstr "अमान्य डाटा फेला पर्यो ।"
 
 #. OOBS_RESULT_ERROR
 #: ../src/common/gst-tool.c:203
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "अज्ञात त्रुटि भयो ।"
 
 #: ../src/common/gst-tool.c:435
 msgid "Could not display help"
@@ -780,7 +787,7 @@ msgstr "सहयोग देखाउन सकेन"
 
 #: ../src/common/gst-tool.c:629
 msgid "The system configuration has potentially changed."
-msgstr ""
+msgstr "प्रणाली कन्फिगरेसन सम्भव्त परिवर्तन भएको छ ।"
 
 #: ../src/common/gst-tool.c:631
 msgid "Update content? This will lose any modification in course."
@@ -825,7 +832,7 @@ msgstr "होस्टको नाम परिवर्तन गर्नु
 
 #: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
-msgstr ""
+msgstr "स्वत: कन्फिगरेसन (DHCP)"
 
 #: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
@@ -870,7 +877,7 @@ msgstr ""
 #: ../src/network/connection.c:769
 #, c-format
 msgid "%s Properties"
-msgstr ""
+msgstr "%s गुणहरु"
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
 #: ../src/shares/table.c:39 ../src/users/table.c:41
@@ -887,11 +894,11 @@ msgstr "एलिएजहरु"
 
 #: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
-msgstr ""
+msgstr "यो नेटवर्क इन्टरफेस कन्फिगर गरिएको छैन"
 
 #: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
-msgstr ""
+msgstr "रोमिङ्ग मोड सक्षम भयो"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
@@ -931,7 +938,7 @@ msgstr ""
 #: ../src/network/ifaces-list.c:329
 #, c-format
 msgid "<b>Type:</b> %s"
-msgstr ""
+msgstr "<b>प्रकार:</b> %s"
 
 #: ../src/network/ifaces-list.c:346
 msgid "Wireless connection"
@@ -967,16 +974,16 @@ msgstr ""
 
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
-msgstr ""
+msgstr "स्थान बचत गर्नुहोस्"
 
 #: ../src/network/locations-combo.c:370
 msgid "_Location name:"
-msgstr ""
+msgstr "स्थान नाम:"
 
 #: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
-msgstr ""
+msgstr "के तपाई स्थान \"%s\" मेटाउन चाहनुहुन्छ?"
 
 #: ../src/network/network.desktop.in.in.h:1
 msgid "Configure network devices and connections"
@@ -984,16 +991,16 @@ msgstr "नेटवर्कको साधनहरु र जडानहर
 
 #: ../src/network/network.desktop.in.in.h:2
 msgid "Network"
-msgstr ""
+msgstr "नेटवर्क"
 
 #: ../src/network/network-tool.c:214
 msgid "Network Settings"
-msgstr ""
+msgstr "नेटवर्क सेटिङ"
 
 #: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
-msgstr ""
+msgstr "सेवा \"%s\" का लागि सेटिङहरु"
 
 #: ../src/services/callbacks.c:125
 #, c-format
@@ -1008,7 +1015,7 @@ msgstr ""
 
 #: ../src/services/service.c:32
 msgid "Web server"
-msgstr ""
+msgstr "वेब सर्भर"
 
 #: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
@@ -1026,7 +1033,7 @@ msgstr ""
 #. GST_ROLE_COMMAND_SCHEDULER
 #: ../src/services/service.c:34
 msgid "Printer service"
-msgstr ""
+msgstr "मुद्रक सेवा"
 
 #: ../src/services/service.c:34
 msgid "Allows applications to use printers"
@@ -1067,7 +1074,7 @@ msgstr ""
 #. GST_ROLE_DISPLAY_MANAGER
 #: ../src/services/service.c:39
 msgid "Database server"
-msgstr ""
+msgstr "डाटाबेस सर्भर"
 
 #: ../src/services/service.c:39
 msgid "Data storage system"
@@ -1106,7 +1113,7 @@ msgstr ""
 #. GST_ROLE_NTP_SERVER
 #: ../src/services/service.c:46
 msgid "Antivirus"
-msgstr ""
+msgstr "एन्टीभाइरस"
 
 #: ../src/services/service.c:46
 msgid "Analyzes your incoming mail for virus"
@@ -1217,7 +1224,7 @@ msgstr ""
 #. GST_ROLE_PACKAGE_INDEX_MONITORING
 #: ../src/services/service.c:66
 msgid "Network service"
-msgstr ""
+msgstr "नेटवर्क सेवा"
 
 #. GST_ROLE_NETWORK
 #: ../src/services/service.c:67
@@ -1846,7 +1853,7 @@ msgstr ""
 
 #: ../src/users/user-password.c:420
 msgid "Please choose another password."
-msgstr ""
+msgstr "कृपया अर्को पासवर्ड रोज्नुहोस् ।"
 
 #: ../src/users/user-password.c:431
 msgid "Please type again your current password."
@@ -1854,7 +1861,7 @@ msgstr ""
 
 #: ../src/users/user-password.c:438
 msgid "Password could not be changed"
-msgstr ""
+msgstr "पासवर्ड परिवर्तन गर्न सकिँदैन"
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
@@ -1863,7 +1870,7 @@ msgstr ""
 #: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
-msgstr ""
+msgstr "%s हाल यो कम्प्युटर प्रयोग गर्दैछ"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
@@ -1883,14 +1890,14 @@ msgstr ""
 #: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
-msgstr ""
+msgstr "%s कालागि गृह फोल्डर हटाउने?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
 "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that and administrator can save them later."
+"need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that and administrator can save them later."
 msgstr ""
 
 #: ../src/users/user-settings.c:132
@@ -1899,11 +1906,11 @@ msgstr ""
 
 #: ../src/users/user-settings.c:133
 msgid "Don't Remove Account"
-msgstr ""
+msgstr "खाता नहटाउनुहोस्"
 
 #: ../src/users/user-settings.c:134
 msgid "Delete Files"
-msgstr ""
+msgstr "फाइलहरु मेटाउनुहोस्"
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
@@ -1916,7 +1923,7 @@ msgstr ""
 #. TRANSLATORS: This applies to a password.
 #: ../src/users/user-settings.c:344
 msgid "None"
-msgstr ""
+msgstr "कनै पनि होइन"
 
 #. TRANSLATORS:  This applies to a password. Keep the string short.
 #: ../src/users/user-settings.c:347
@@ -1938,7 +1945,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:417
 msgid "Incomplete path in home directory"
-msgstr "गृह डिरेक्टोरिमा वाटो अपुरा पार्नुहोस्"
+msgstr "गृह डाइरेक्टरीमा अपूरो मार्ग"
 
 #: ../src/users/user-settings.c:418
 msgid ""
@@ -1948,7 +1955,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:433
 msgid "Home directory already exists"
-msgstr ""
+msgstr "गृह डाइरेक्टरी पहिले देखि विद्यमान छ"
 
 #: ../src/users/user-settings.c:434
 #, c-format
@@ -1959,7 +1966,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:440
 msgid "Use this directory"
-msgstr ""
+msgstr "यो डाइरेक्टरी प्रयोग गर्नुहोस्"
 
 #: ../src/users/user-settings.c:475
 msgid "ID for the root user should not be modified"
@@ -1969,7 +1976,7 @@ msgstr ""
 #: ../src/users/user-settings.c:479
 #, c-format
 msgid "User ID %d is already used by user %s"
-msgstr ""
+msgstr "प्रयोगकर्ता आईडी %d पहिले देखि प्रयोगकर्ता %s द्वारा प्रयोग गरिएको छ"
 
 #: ../src/users/user-settings.c:481
 #, c-format
@@ -2014,4 +2021,4 @@ msgstr ""
 
 #: ../src/users/users-tool.c:284
 msgid "Users Settings"
-msgstr ""
+msgstr "प्रयोगकर्ता सेटिङ"

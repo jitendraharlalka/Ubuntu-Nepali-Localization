@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: evolution.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-02 02:09+0000\n"
-"PO-Revision-Date: 2010-06-02 20:30+0545\n"
+"PO-Revision-Date: 2010-06-07 09:46+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -3560,11 +3560,11 @@ msgstr "काट्ने यकीन गर्नुहोस्"
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:12
 msgid "Count of default recurrence for a new event. -1 means forever."
 msgstr ""
+"नयाँ घटनाका लागि पूर्वनिर्धारित पूनरावृति गणना । -१ भनेको सधैका लागि हो ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:13
 msgid "Days on which the start and end of work hours should be indicated."
-msgstr ""
-"दिनहरू जहाँ कार्य घन्टाहरूको सुरुआत र अन्त्य इङ्गित गरिएको हुनुपर्दछ ।"
+msgstr "दिनहरू जहाँ कार्य घन्टाहरूको सुरुआत र अन्त्य इङ्गित गरिएको हुनुपर्दछ ।"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:14
 msgid "Default appointment reminder"
@@ -3572,7 +3572,7 @@ msgstr "पूर्वनिर्धारित भेटघाट रिम�
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:15
 msgid "Default recurrence count"
-msgstr ""
+msgstr "पूर्वनिर्धारित पूनरावृति गणना"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:16
 msgid "Default reminder units"
@@ -5511,6 +5511,8 @@ msgid ""
 "for\n"
 "until"
 msgstr ""
+"लागि\n"
+"सम्म"
 
 #: ../calendar/gui/dialogs/memo-editor.c:111 ../calendar/gui/print.c:2512
 msgid "Memo"
@@ -5778,6 +5780,9 @@ msgid ""
 "until\n"
 "forever"
 msgstr ""
+"लागि\n"
+"सम्म\n"
+"सधै"
 
 #: ../calendar/gui/dialogs/send-comp.c:160
 msgid "Send my alarms with this event"
@@ -5902,7 +5907,7 @@ msgstr "कोटिहरू..."
 
 #: ../calendar/gui/dialogs/task-page.glade.h:3
 msgid "D_ue date:"
-msgstr ""
+msgstr "देय मिति:"
 
 #: ../calendar/gui/dialogs/task-page.glade.h:7
 msgid "Time zone:"
@@ -6211,7 +6216,7 @@ msgstr "सुरु:"
 
 #: ../calendar/gui/e-calendar-table.c:420
 msgid "Due: "
-msgstr ""
+msgstr "देय:  "
 
 #: ../calendar/gui/e-calendar-table.c:591 ../calendar/gui/tasktypes.xml.h:24
 msgid "Undefined"
@@ -9623,6 +9628,8 @@ msgid ""
 "Enter the addresses that will receive a carbon copy of the message without "
 "appearing in the recipient list of the message"
 msgstr ""
+"सन्देशको प्रापक सूचीमा नदेखिने गरि यो सन्देशको बोधार्थ प्रतिलिपि प्राप्त "
+"गर्ने ठेगानाहरु हाल्नुहोस्"
 
 #: ../composer/e-composer-header-table.c:945
 msgid "Fr_om:"
@@ -10142,7 +10149,7 @@ msgstr "जीकन्फ त्रुटि: %s"
 
 #: ../e-util/gconf-bridge.c:1233
 msgid "All further errors shown only on terminal."
-msgstr ""
+msgstr "टर्मिनलमा मात्र देखिने सबै पछिल्ला त्रुटिहरू ।"
 
 #: ../filter/filter-datespec.c:73
 #, c-format
@@ -10554,12 +10561,12 @@ msgstr[1] "संलग्नताहरु"
 #: ../mail/e-mail-attachment-bar.c:614
 #: ../widgets/misc/e-attachment-paned.c:607
 msgid "Icon View"
-msgstr ""
+msgstr "आइकन दृश्य"
 
 #: ../mail/e-mail-attachment-bar.c:615
 #: ../widgets/misc/e-attachment-paned.c:608
 msgid "List View"
-msgstr ""
+msgstr "सूची दृश्य"
 
 #: ../mail/e-mail-search-bar.c:76
 #, c-format
@@ -10584,7 +10591,7 @@ msgstr "अघिल्लो"
 
 #: ../mail/e-mail-search-bar.c:565
 msgid "Find the previous occurrence of the phrase"
-msgstr ""
+msgstr "वाक्यांशको अघिल्लो उपस्थिति फेला पार्नुहोस्"
 
 #: ../mail/e-mail-search-bar.c:573
 msgid "_Next"
@@ -10592,7 +10599,7 @@ msgstr "पछिल्लो"
 
 #: ../mail/e-mail-search-bar.c:579
 msgid "Find the next occurrence of the phrase"
-msgstr ""
+msgstr "वाक्यांशको पछिल्लो उपस्थिति फेला पार्नुहोस्"
 
 #: ../mail/e-mail-search-bar.c:587
 msgid "Mat_ch case"
@@ -10600,11 +10607,11 @@ msgstr ""
 
 #: ../mail/e-mail-search-bar.c:615
 msgid "Reached bottom of page, continued from top"
-msgstr ""
+msgstr "पृष्ठको अन्तिममा पुगियो, माथिबाट जारी राख्दै"
 
 #: ../mail/e-mail-search-bar.c:637
 msgid "Reached top of page, continued from bottom"
-msgstr ""
+msgstr "पृष्ठको सुरुमा पुगियो, तलबाट जारी राख्दै"
 
 #. Translators: This string is a "Use secure connection" option for
 #. the Mailer. It will not use an encrypted connection.
@@ -10886,11 +10893,11 @@ msgstr "झण्डा लगाइएको छैन"
 
 #: ../mail/em-filter-i18n.h:39
 msgid "is not set"
-msgstr ""
+msgstr "सेट गरिएको छैन"
 
 #: ../mail/em-filter-i18n.h:40
 msgid "is set"
-msgstr ""
+msgstr "सेट गरिएको छ"
 
 #: ../mail/em-filter-i18n.h:41 ../mail/mail-config.glade.h:101
 #: ../ui/evolution-mail-message.xml.h:48
@@ -10988,11 +10995,11 @@ msgstr "प्रेषक"
 
 #: ../mail/em-filter-i18n.h:64
 msgid "Sender or Recipients"
-msgstr ""
+msgstr "प्रेषक वा प्रापक"
 
 #: ../mail/em-filter-i18n.h:65
 msgid "Set Label"
-msgstr ""
+msgstr "लेबल सेट गर्नुहोस्"
 
 #: ../mail/em-filter-i18n.h:66
 msgid "Set Status"
@@ -11041,7 +11048,7 @@ msgstr "त्यसपछि"
 
 #: ../mail/em-filter-rule.c:549
 msgid "Add Ac_tion"
-msgstr ""
+msgstr "क्रिया थप्नुहोस्"
 
 #: ../mail/em-folder-browser.c:194
 msgid "C_reate Search Folder From Search..."
@@ -11363,7 +11370,7 @@ msgstr "अनुशरणका लागि चिन्ह लगाउनु
 
 #: ../mail/em-folder-view.c:1354
 msgid "_Label"
-msgstr "लेबुल"
+msgstr "लेबल"
 
 #. Note that we don't show this here, since by default a 'None' date
 #. is not permitted.
@@ -11390,15 +11397,15 @@ msgstr "सन्देशबाट नियम सिर्जना गर्
 #. Translators: The following strings are used while creating a new search folder, to specify what parameter the search folder would be based on.
 #: ../mail/em-folder-view.c:1368
 msgid "Search Folder based on _Subject"
-msgstr ""
+msgstr "विषयमा आधारित खोजी फोल्डर"
 
 #: ../mail/em-folder-view.c:1369
 msgid "Search Folder based on Se_nder"
-msgstr ""
+msgstr "पठाउनेमा आधारित खोजी फोल्डर"
 
 #: ../mail/em-folder-view.c:1370
 msgid "Search Folder based on _Recipients"
-msgstr ""
+msgstr "पाउनेमा आधारित खोजी फोल्डर"
 
 #: ../mail/em-folder-view.c:1371
 msgid "Search Folder based on Mailing _List"
@@ -11407,15 +11414,15 @@ msgstr ""
 #. Translators: The following strings are used while creating a new message filter, to specify what parameter the filter would be based on.
 #: ../mail/em-folder-view.c:1376
 msgid "Filter based on Sub_ject"
-msgstr ""
+msgstr "विषयमा आधारित फिल्टर"
 
 #: ../mail/em-folder-view.c:1377
 msgid "Filter based on Sen_der"
-msgstr ""
+msgstr "पठाउनेमा आधारित फिल्टर"
 
 #: ../mail/em-folder-view.c:1378
 msgid "Filter based on Re_cipients"
-msgstr ""
+msgstr "पाउनेमा आधारित फिल्टर"
 
 #: ../mail/em-folder-view.c:1379
 msgid "Filter based on _Mailing List"
