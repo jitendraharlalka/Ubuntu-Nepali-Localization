@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gnome-system-tools.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-18 11:52+0000\n"
-"PO-Revision-Date: 2010-06-09 11:17+0545\n"
+"PO-Revision-Date: 2010-06-10 01:18+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -159,7 +159,7 @@ msgstr "विकल्पहरु"
 
 #: ../interfaces/network.ui.h:32
 msgid "P_assword"
-msgstr "प्रवेशचिह्न"
+msgstr "पासवर्ड"
 
 #: ../interfaces/network.ui.h:33
 msgid "Password _type:"
@@ -167,7 +167,7 @@ msgstr "पासवर्ड प्रकार:"
 
 #: ../interfaces/network.ui.h:34
 msgid "Plain (ASCII)"
-msgstr ""
+msgstr "सादा (ASCII)"
 
 #: ../interfaces/network.ui.h:35
 msgid "Pulses"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:36
 msgid "Tones"
-msgstr ""
+msgstr "टोन"
 
 #: ../interfaces/network.ui.h:37
 msgid "Use the Internet service provider nameservers"
@@ -245,7 +245,7 @@ msgstr "_आवाज:"
 
 #: ../interfaces/services.ui.h:1
 msgid "Advanced settings:"
-msgstr ""
+msgstr "उन्नत सेटिङ:"
 
 #: ../interfaces/services.ui.h:2
 msgid "Select the services that you wish to activate:"
@@ -480,19 +480,19 @@ msgstr "प्रयोगकर्ता पासवर्ड परिवर�
 
 #: ../interfaces/users.ui.h:17
 msgid "Changing advanced settings for:"
-msgstr ""
+msgstr "निम्नका लागि उन्न सेटिङ परिवर्तन गर्दै:"
 
 #: ../interfaces/users.ui.h:18
 msgid "Changing user account type for:"
-msgstr ""
+msgstr "निम्नका लागि प्रयोगकर्ता खाता प्रकार परिवर्तन गर्दै:"
 
 #: ../interfaces/users.ui.h:19
 msgid "Changing user name for:"
-msgstr ""
+msgstr "निम्नका लागि प्रयोगकर्ता नाम परिवर्तन गर्दै:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Changing user password for:"
-msgstr ""
+msgstr "निम्नका लागि प्रयोगकर्ता पासवर्ड परिवर्तन गर्दै:"
 
 #: ../interfaces/users.ui.h:21
 msgid "Con_firmation:"
@@ -539,7 +539,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:31
 msgid "Full _Name:"
-msgstr ""
+msgstr "पूरा नाम:"
 
 #: ../interfaces/users.ui.h:33
 msgid "Generate _random password"
@@ -756,21 +756,21 @@ msgstr ""
 
 #: ../src/common/gst-tool.c:190
 msgid "The configuration could not be loaded"
-msgstr "कनफिग्रेसनलाई लोड गर्न सकिएन"
+msgstr "कन्फिगरेसन लोड गर्न सकिएन"
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:192
 msgid "The configuration could not be saved"
-msgstr "कनफिग्रेसनलाई बचत गर्न सकिएन"
+msgstr "कन्फिगरेसन बचत गर्न सकिएन"
 
 #: ../src/common/gst-tool.c:196
 msgid "You are not allowed to access the system configuration."
-msgstr ""
+msgstr "तपाईलाई प्रणाली कन्फिगरेसनमा पहुँच छैन ।"
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:198 ../src/common/gst-tool.c:698
 msgid "You are not allowed to modify the system configuration."
-msgstr ""
+msgstr "तपाईलाई प्रणाली कन्फिगरेसन परिवर्तन गर्ने अनुमति छैन ।"
 
 #: ../src/common/gst-tool.c:201
 msgid "Invalid data was found."
@@ -840,7 +840,7 @@ msgstr ""
 
 #: ../src/network/connection.c:42
 msgid "Static IP address"
-msgstr "अचल आइ पी ठेगाना ी"
+msgstr "अचल आइ पी ठेगाना"
 
 #: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
@@ -868,7 +868,7 @@ msgstr ""
 
 #: ../src/network/connection.c:55
 msgid "Serial modem"
-msgstr ""
+msgstr "सिरियल मोडेम"
 
 #: ../src/network/connection.c:56
 msgid "PPPoE"
@@ -933,7 +933,7 @@ msgstr ""
 #: ../src/network/ifaces-list.c:325
 #, c-format
 msgid "<b>Type:</b> %s <b>Ethernet interface:</b> %s"
-msgstr ""
+msgstr "<b>प्रकार:</b> %s <b>इथर्नेट इन्टरफेस:</b> %s"
 
 #: ../src/network/ifaces-list.c:329
 #, c-format
@@ -962,11 +962,11 @@ msgstr ""
 
 #: ../src/network/locations-combo.c:221
 msgid "Changing network location"
-msgstr ""
+msgstr "नेटवर्क स्थान परिवर्तन गर्दै"
 
 #: ../src/network/locations-combo.c:265
 msgid "There is already a location with the same name"
-msgstr ""
+msgstr "त्यस्तै नाम भएको स्थान पहिले देखि विद्यमान छ"
 
 #: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
@@ -1005,7 +1005,7 @@ msgstr "सेवा \"%s\" का लागि सेटिङहरु"
 #: ../src/services/callbacks.c:125
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
-msgstr ""
+msgstr "के तपाई साँच्चिकै %s लाई निष्क्रिय पार्न चाहनुहुन्छ?"
 
 #: ../src/services/callbacks.c:129
 msgid ""
@@ -1037,7 +1037,7 @@ msgstr "मुद्रक सेवा"
 
 #: ../src/services/service.c:34
 msgid "Allows applications to use printers"
-msgstr ""
+msgstr "सफ्टवेयरहरुलाई मुद्रक प्रयोग गर्ने अनुमति दिनुहोस्"
 
 #. GST_ROLE_PRINTER_SERVICE
 #: ../src/services/service.c:35
@@ -1078,7 +1078,7 @@ msgstr "डाटाबेस सर्भर"
 
 #: ../src/services/service.c:39
 msgid "Data storage system"
-msgstr ""
+msgstr "डाटा भन्डारण प्रणाली"
 
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
@@ -1095,7 +1095,7 @@ msgstr ""
 #. GST_ROLE_FILE_SERVER_NFS
 #: ../src/services/service.c:42
 msgid "FTP service"
-msgstr ""
+msgstr "एफटिपि सेवा"
 
 #: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
@@ -1234,7 +1234,7 @@ msgstr ""
 #. GST_ROLE_DYNAMIC_DNS_SERVICE
 #: ../src/services/service.c:68
 msgid "DHCP server"
-msgstr ""
+msgstr "डिएचसिपि सर्भर"
 
 #. GST_ROLE_DHCP_SERVER
 #: ../src/services/service.c:69
@@ -1284,12 +1284,12 @@ msgstr ""
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
 #: ../src/services/service.c:78
 msgid "Disk server"
-msgstr ""
+msgstr "डिस्क सर्भर"
 
 #. GST_ROLE_DISK_SERVER
 #: ../src/services/service.c:79
 msgid "Disk client"
-msgstr ""
+msgstr "डिस्क क्लाइन्ट"
 
 #. GST_ROLE_DISK_CLIENT
 #: ../src/services/service.c:80
@@ -1368,7 +1368,7 @@ msgstr ""
 #. GST_ROLE_CLUSTER_MANAGEMENT
 #: ../src/services/service.c:94
 msgid "Fax settings management"
-msgstr ""
+msgstr "फ्याक्स सेटिङ व्यवस्थापन"
 
 #. GST_ROLE_FAX_MANAGEMENT
 #: ../src/services/service.c:95
@@ -1432,18 +1432,18 @@ msgstr "सेवाहरु"
 #: ../src/services/service-settings-table.c:97
 #: ../src/services/service-settings-table.c:109
 msgid "Start"
-msgstr ""
+msgstr "सुरु"
 
 #: ../src/services/service-settings-table.c:79
 #: ../src/services/service-settings-table.c:99
 #: ../src/services/service-settings-table.c:111
 msgid "Stop"
-msgstr ""
+msgstr "रोक्नुहोस्"
 
 #: ../src/services/service-settings-table.c:85
 #: ../src/services/service-settings-table.c:102
 msgid "Ignore"
-msgstr ""
+msgstr "बेवास्ता गर्नुहोस्"
 
 #: ../src/services/service-settings-table.c:175
 msgid "Runlevel"
@@ -1451,11 +1451,11 @@ msgstr ""
 
 #: ../src/services/service-settings-table.c:192
 msgid "Status"
-msgstr ""
+msgstr "स्थिति"
 
 #: ../src/services/service-settings-table.c:211
 msgid "Priority"
-msgstr ""
+msgstr "प्राथमिकता"
 
 #: ../src/services/services-tool.c:106
 msgid "Services Settings"
@@ -1475,7 +1475,7 @@ msgstr "बाँडिएको बाटो थफ्नुहोस्,यद
 
 #: ../src/shares/main.c:103
 msgid "PATH"
-msgstr "बाटो"
+msgstr "मार्ग"
 
 #: ../src/shares/nautilus/nautilus-shares.c:152
 msgid "_Share Folder..."
@@ -1507,7 +1507,7 @@ msgstr "तपाइँको छिमेकी नेटवर्कहरु�
 
 #: ../src/shares/share-settings.c:61
 msgid "File System"
-msgstr ""
+msgstr "फाइल प्रणाली"
 
 #: ../src/shares/share-settings.c:144
 msgid "Do not share"
@@ -1515,16 +1515,16 @@ msgstr "नबाँड्नुहोस्"
 
 #: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
-msgstr ""
+msgstr "विन्डोज नेटवर्क (SMB)"
 
 #: ../src/shares/share-settings.c:160
 msgid "Unix networks (NFS)"
-msgstr ""
+msgstr "युनिक्स नेटवर्क (NFS)"
 
 #: ../src/shares/share-settings.c:462
 #, c-format
 msgid "Settings for folder '%s'"
-msgstr ""
+msgstr "फोल्डर '%s' कालागि सेटिङ"
 
 #: ../src/shares/share-settings.c:469
 msgid "Share Folder"
@@ -1542,17 +1542,17 @@ msgstr ""
 
 #: ../src/shares/shares-tool.c:183
 msgid "Install services"
-msgstr ""
+msgstr "सेवाहरु इन्सटल गर्नुहोस्"
 
 #. add NFS checkbutton
 #: ../src/shares/shares-tool.c:186
 msgid "Install Unix networks support (_NFS)"
-msgstr ""
+msgstr "युनिक्स नेटवर्क समर्थन (_NFS) इन्सटल गर्नुहोस्"
 
 #. add SMB checkbutton
 #: ../src/shares/shares-tool.c:192
 msgid "Install Windows networks support (_SMB)"
-msgstr ""
+msgstr "विन्डोज नेटवर्क समर्थन (_SMB) इन्सटल गर्नुहोस्"
 
 #: ../src/time/time.desktop.in.in.h:1
 msgid "Change system time, date, and timezone"
@@ -1574,15 +1574,15 @@ msgstr ""
 
 #: ../src/time/time-tool.c:409
 msgid "Install NTP support"
-msgstr ""
+msgstr "NTP समर्थन इन्सटल गर्नुहोस्"
 
 #: ../src/time/time-tool.c:448
 msgid "Enabling NTP"
-msgstr ""
+msgstr "NTP सक्षम पार्दै"
 
 #: ../src/time/time-tool.c:448
 msgid "Disabling NTP"
-msgstr ""
+msgstr "NTP अक्षम पार्दै"
 
 #: ../src/time/time-tool.c:460
 msgid "Synchronizing system clock"
@@ -1598,7 +1598,7 @@ msgstr "समय र मितीका सेटिङ्गहरु"
 
 #: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
-msgstr ""
+msgstr "प्रशासक समूह मेटाउन सकिँदैन"
 
 #: ../src/users/group-settings.c:58 ../src/users/group-settings.c:228
 #: ../src/users/group-settings.c:265 ../src/users/user-settings.c:88
@@ -1617,12 +1617,12 @@ msgstr ""
 
 #: ../src/users/group-settings.c:151
 msgid "New group"
-msgstr ""
+msgstr "नयाँ समूह"
 
 #: ../src/users/group-settings.c:158
 #, c-format
 msgid "Group '%s' Properties"
-msgstr ""
+msgstr "समूह '%s' का गुणहरु"
 
 #: ../src/users/group-settings.c:224
 msgid "Group name is empty"
@@ -1630,11 +1630,11 @@ msgstr "समूहको नाम खाली छ"
 
 #: ../src/users/group-settings.c:225
 msgid "A group name must be specified."
-msgstr ""
+msgstr "समूह नाम व्यक्त गर्नुपर्छ ।"
 
 #: ../src/users/group-settings.c:227
 msgid "Group name of the administrator group user should not be modified"
-msgstr ""
+msgstr "प्रशासक समूह प्रयोगकर्ताको समूह नाम परिवर्तन गर्नुहुँदैन"
 
 #: ../src/users/group-settings.c:230
 msgid "Group name has invalid characters"
@@ -1653,11 +1653,11 @@ msgstr "समूह \"%s\" पहिल्यैदेखि छ"
 
 #: ../src/users/group-settings.c:237
 msgid "Please choose a different group name."
-msgstr ""
+msgstr "कृपया अर्को समूह नाम रोज्नुहोस् ।"
 
 #: ../src/users/group-settings.c:264
 msgid "Group ID of the Administrator account should not be modified"
-msgstr ""
+msgstr "प्रशासक खाताको समूह आईडी परिवर्तन गर्नुहुँदैन"
 
 #. check that GID is free
 #: ../src/users/group-settings.c:268
@@ -1676,7 +1676,7 @@ msgstr ""
 
 #: ../src/users/groups-table.c:44
 msgid "Group name"
-msgstr ""
+msgstr "समूह नाम"
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
@@ -1684,7 +1684,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:54
 msgid "Administer the system"
-msgstr ""
+msgstr "प्रणाली व्यवस्थापन गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
@@ -1692,7 +1692,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
-msgstr ""
+msgstr "सिडी-रोम ड्राइभ प्रयोग गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
@@ -1700,19 +1700,19 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:58
 msgid "Use modems"
-msgstr ""
+msgstr "मोडेम प्रयोग गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
-msgstr ""
+msgstr "मोडेम प्रयोग गरेर इन्टरनेटमा जडान गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
-msgstr ""
+msgstr "फ्याक्स पठाउनुहोस् र पाउनुहोस्"
 
 #: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
-msgstr ""
+msgstr "फल्पी ड्राइभ प्रयोग गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
@@ -1720,7 +1720,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
-msgstr ""
+msgstr "मुद्रक कन्फिगर गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
@@ -1744,7 +1744,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:69
 msgid "Use scanners"
-msgstr ""
+msgstr "स्क्यानर प्रयोग गर्नुहोस्"
 
 #: ../src/users/privileges-table.c:70
 msgid "Use tape drives"
@@ -1768,7 +1768,7 @@ msgstr ""
 
 #: ../src/users/user-profiles.conf.in.h:1
 msgid "Administrator"
-msgstr ""
+msgstr "प्रशासक"
 
 #: ../src/users/user-profiles.conf.in.h:2
 msgid ""
@@ -1784,26 +1784,26 @@ msgstr ""
 
 #: ../src/users/user-profiles.conf.in.h:4
 msgid "Desktop user"
-msgstr ""
+msgstr "डेस्कटप प्रयोगकर्ता"
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
-msgstr ""
+msgstr "प्रमाणिकरण असफल"
 
 #: ../src/users/run-passwd.c:494
 #, c-format
 msgid "The new password is too short"
-msgstr ""
+msgstr "नयाँ पासवर्ड ज्यादै सानो छ"
 
 #: ../src/users/run-passwd.c:499
 #, c-format
 msgid "The new password is too simple"
-msgstr ""
+msgstr "नयाँ पासवर्ड ज्यादै सजिलो छ"
 
 #: ../src/users/run-passwd.c:503
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr ""
+msgstr "पुरानो र नयाँ पासवर्ड ज्यादै मेल खाने छन"
 
 #: ../src/users/run-passwd.c:506
 #, c-format
@@ -1813,7 +1813,7 @@ msgstr ""
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr ""
+msgstr "पुरानो र नयाँ पासवर्ड एउटै छन"
 
 #: ../src/users/run-passwd.c:514
 #, c-format
@@ -1823,7 +1823,7 @@ msgstr ""
 #: ../src/users/run-passwd.c:518
 #, c-format
 msgid "Unknown error"
-msgstr ""
+msgstr "अज्ञात त्रुटि"
 
 #: ../src/users/users.desktop.in.in.h:1
 msgid "Add or remove users and groups"
@@ -1857,7 +1857,7 @@ msgstr "कृपया अर्को पासवर्ड रोज्नु
 
 #: ../src/users/user-password.c:431
 msgid "Please type again your current password."
-msgstr ""
+msgstr "कृपया आफ्नो हालको पासवर्ड फेरी टाइप गर्नुहोस् ।"
 
 #: ../src/users/user-password.c:438
 msgid "Password could not be changed"
@@ -1865,7 +1865,7 @@ msgstr "पासवर्ड परिवर्तन गर्न सकिँ
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
-msgstr ""
+msgstr "प्रशासक खाता मेटाउन सकिँदैन"
 
 #: ../src/users/user-settings.c:96
 #, c-format
@@ -1875,10 +1875,12 @@ msgstr "%s हाल यो कम्प्युटर प्रयोग ग�
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
 msgstr ""
+"कृपया यो खाता मेटाउनु भन्दा पहिले प्रयोगकर्ताले लगआउट गरेको बारे यकिन "
+"गर्नुहोस् ।"
 
 #: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
-msgstr ""
+msgstr "एकमात्र प्रशासक खाता मेटाउन सक्दैन"
 
 #: ../src/users/user-settings.c:111
 #, c-format
