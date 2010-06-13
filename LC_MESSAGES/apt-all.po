@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: apt_po\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-17 23:18+0000\n"
-"PO-Revision-Date: 2010-05-24 11:29+0545\n"
+"PO-Revision-Date: 2010-06-13 13:29+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -1303,6 +1303,7 @@ msgid "Supported modules:"
 msgstr "समर्थित मोड्युलहरू:"
 
 #: cmdline/apt-get.cc:2749
+#, fuzzy
 msgid ""
 "Usage: apt-get [options] command\n"
 "       apt-get [options] install|remove pkg1 [pkg2 ...]\n"
@@ -1345,6 +1346,45 @@ msgid ""
 "pages for more information and options.\n"
 "                       This APT has Super Cow Powers.\n"
 msgstr ""
+"उपयोगिता: apt-get [विकल्पहरु] कमान्ड\n"
+"       apt-get [विकल्पहरु] install|remove प्याकेज१ [प्याकेज२ ...]\n"
+"       apt-get [विकल्पहरु] source प्याकेज१ [प्याकेज२ ...]\n"
+"\n"
+"apt-get प्याकेजहरु डाउनलोड र इन्सटल गर्नका लागि सामान्य कमान्ड लाइन इन्टरफेस "
+"हो । सबै भन्दा बढि प्रयोग हुने कमान्डहरु update र install हुन् ।\n"
+"\n"
+"Commands:\n"
+"   update - प्याकेजहरुको नयाँ सूची झिक्ने\n"
+"   upgrade - स्तरोन्नति गर्ने\n"
+"   install - नयाँ प्याकेहरु इन्सटल गर्ने (libc6 प्याकेज हो, libc6.deb होइन)\n"
+"   remove - प्याकेजहरु हटाउने\n"
+"   autoremove - प्रयोग नभएका सबै प्याकेजहरु स्वत: हटाउने\n"
+"   purge - प्याकेज र कन्फिग फाइलहरु हटाउने\n"
+"   source - स्रोत संग्रहहरु डाउनलोड गर्ने\n"
+"   build-dep - स्रोत प्याकेजहरुका लागि build-dependencies कन्फिगर गर्ने\n"
+"   dist-upgrade - वितरण स्तरोन्नति, apt-get(8) हेर्नुहोस्\n"
+"   dselect-upgrade - dselect छनौटहरु पछ्याउनुहोस्\n"
+"   clean - डाउनलोड गरिएका संग्रह फाइलहरु मेटाउने\n"
+"   autoclean - डाउनलोड गरिएका पुराना संग्रह फाइलहरु मेटाउने\n"
+"   check - कुनै काम नगर्ने निर्भरताहरु छैनन् भनेर यकिन गर्नुहोस्\n"
+"\n"
+"विकल्पहरु:\n"
+"  -h  यो सहायता पाठ ।\n"
+"  -q  लग गर्न मिल्ने निर्गत - कुनै प्रगति सूचक बिना\n"
+"  -qq त्रुटि बाहेक कुनै निर्गत बिना\n"
+"  -d  डाउनलोड मात्रै - संग्रहहरु इन्सटल वा अनप्याक नगर्ने\n"
+"  -s  No-act । Perform ordering simulation\n"
+"  -y  Assume Yes to all queries and do not prompt\n"
+"  -f  Attempt to correct a system with broken dependencies in place\n"
+"  -m  Attempt to continue if archives are unlocatable\n"
+"  -u  Show a list of upgraded packages as well\n"
+"  -b  Build the source package after fetching it\n"
+"  -V  Show verbose version numbers\n"
+"  -c= ? Read this configuration file\n"
+"  -o= ? Set an arbitrary configuration option, eg -o dir::cache=/tmp\n"
+"See the apt-get(8), sources ।list(5) and apt ।conf(5) manual\n"
+"pages for more information and options ।\n"
+"                       This APT has Super Cow Powers ।\n"
 
 #: cmdline/apt-get.cc:2916
 msgid ""
@@ -1435,7 +1475,7 @@ msgstr "के तपाई पहिले डाउनलोड गरिए�
 
 #: dselect/install:101
 msgid "Some errors occurred while unpacking. Packages that were installed"
-msgstr ""
+msgstr "अनप्याक गर्दा केहि त्रुटिहरु भए । इन्सटल भएका प्याकेजहरु"
 
 #: dselect/install:102
 msgid "will be configured. This may result in duplicate errors"
@@ -1977,7 +2017,7 @@ msgstr ""
 #: methods/connect.cc:240
 #, c-format
 msgid "Unable to connect to %s:%s:"
-msgstr ""
+msgstr "%s:%s मा जडान गर्न अक्षम:"
 
 #. TRANSLATOR: %s is the trusted keyring parts directory
 #: methods/gpgv.cc:78
@@ -2710,7 +2750,7 @@ msgstr "आहा, APT ले सक्षम गरेको संस्कर
 
 #: apt-pkg/pkgcachegen.cc:270
 msgid "Wow, you exceeded the number of descriptions this APT is capable of."
-msgstr ""
+msgstr "आहा, APT ले सक्षम गरेको विवरणको नम्बरलाई तपाईँले उछिन्नुभयो ।"
 
 #: apt-pkg/pkgcachegen.cc:273
 msgid "Wow, you exceeded the number of dependencies this APT is capable of."
