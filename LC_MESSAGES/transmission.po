@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: transmission\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-17 03:02+0000\n"
-"PO-Revision-Date: 2010-05-18 20:56+0545\n"
+"PO-Revision-Date: 2010-06-14 21:19+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -57,7 +57,7 @@ msgstr "आकार अनुसार क्रमबद्ध गर्नु
 
 #: ../gtk/actions.c:79
 msgid "_Show Transmission"
-msgstr ""
+msgstr "प्रसारण देखाउने"
 
 #: ../gtk/actions.c:80
 msgid "Message _Log"
@@ -360,7 +360,7 @@ msgstr "डाउनलोड गर्दै"
 
 #: ../gtk/details.c:541
 msgid "Seeding"
-msgstr ""
+msgstr "सिड गर्दै"
 
 #: ../gtk/details.c:542 ../gtk/torrent-cell-renderer.c:181
 msgid "Paused"
@@ -510,7 +510,7 @@ msgstr "गोपनीयता:"
 
 #: ../gtk/details.c:963
 msgid "Origin:"
-msgstr ""
+msgstr "उत्पत्ति:"
 
 #: ../gtk/details.c:980
 msgid "Comment:"
@@ -518,7 +518,7 @@ msgstr "टिप्पणी:"
 
 #: ../gtk/details.c:1012
 msgid "Webseeds"
-msgstr ""
+msgstr "वेबसिड"
 
 #: ../gtk/details.c:1014 ../gtk/details.c:1058
 msgid "Down"
@@ -719,7 +719,7 @@ msgstr "%'d टोरेन्ट गुण"
 
 #: ../gtk/dialogs.c:121
 msgid "<big><b>Quit Transmission?</b></big>"
-msgstr ""
+msgstr "<big><b>प्रसारण बन्द गर्ने?</b></big>"
 
 #: ../gtk/dialogs.c:133
 msgid "_Don't ask me again"
@@ -816,7 +816,7 @@ msgstr "कन्फिगरेसन फाइलहरु कहाँ खो
 
 #: ../gtk/main.c:515 ../gtk/transmission.desktop.in.h:3
 msgid "Transmission"
-msgstr ""
+msgstr "प्रसारण"
 
 #: ../gtk/main.c:522
 msgid "[torrent files or urls]"
@@ -827,10 +827,12 @@ msgid ""
 "Transmission is already running, but is not responding.  To start a new "
 "session, you must first close the existing Transmission process."
 msgstr ""
+"प्रसारण पहिले देखि नै चल्दैछ, तर प्रतिक्रिया जनाउँदैन । नयाँ सत्र सुरु गर्न, "
+"तपाईले पहिले विद्यमान प्रसारण प्रक्रिया बन्द गर्न गर्नुपर्छ ।"
 
 #: ../gtk/main.c:634
 msgid "Transmission cannot be started."
-msgstr ""
+msgstr "प्रसारण सुरु गर्न सकिँदैन ।"
 
 #: ../gtk/main.c:716
 msgid ""
@@ -997,7 +999,7 @@ msgstr "त्रुटि"
 
 #: ../gtk/msgwin.c:180
 msgid "Debug"
-msgstr ""
+msgstr "डिबग"
 
 #: ../gtk/msgwin.c:254
 msgid "Time"
@@ -1088,6 +1090,8 @@ msgid ""
 "These statistics are for your information only.  Resetting them doesn't "
 "affect the statistics logged by your BitTorrent trackers."
 msgstr ""
+"यी तथ्याङ्क तपाईको जानकारीका लागि मात्र हुन । तिनीहरुलाई रिसेट गर्नाले "
+"बिटटोरेन्ट ट्रयाकरद्वारा लग गरिने तथ्याङ्कलाई केहि फरक पार्दैन ।"
 
 #: ../gtk/stats.c:119 ../gtk/stats.c:151
 msgid "_Reset"
@@ -1295,11 +1299,11 @@ msgstr "टोरेन्ट थप्दै"
 
 #: ../gtk/tr-prefs.c:279
 msgid "Automatically _add torrents from:"
-msgstr ""
+msgstr "निम्नबाट स्वत: टोरेन्टहरु थप्नुहोस्:"
 
 #: ../gtk/tr-prefs.c:300
 msgid "Append \"._part\" to incomplete files' names"
-msgstr ""
+msgstr "अधुरो फाइलहरुको नाममा \".part\" थप्नुहोस्"
 
 #: ../gtk/tr-prefs.c:304
 msgid "Keep _incomplete torrents in:"
@@ -1459,7 +1463,7 @@ msgstr "ट्र्याकर"
 
 #: ../gtk/tr-prefs.c:984
 msgid "Connect to tracker via a pro_xy"
-msgstr ""
+msgstr "प्रोक्सी मार्फत ट्रयाकरमा जडान गर्नुहोस्"
 
 #: ../gtk/tr-prefs.c:989
 msgid "Proxy _server:"
@@ -1587,7 +1591,7 @@ msgstr "प्रति टोरेन्ट अधिकतम समकक्
 
 #: ../gtk/tr-prefs.c:1381
 msgid "Maximum peers _overall:"
-msgstr ""
+msgstr "कुल अधिकतम समकक्षी:"
 
 #: ../gtk/tr-prefs.c:1399
 msgid "Transmission Preferences"
@@ -1638,7 +1642,7 @@ msgstr "सत्र अनुपात"
 
 #: ../gtk/tr-window.c:308
 msgid "Total Transfer"
-msgstr ""
+msgstr "कुल स्तानान्तरण"
 
 #: ../gtk/tr-window.c:309
 msgid "Session Transfer"
@@ -1690,7 +1694,7 @@ msgstr ""
 #: ../gtk/tr-window.c:818
 #, c-format
 msgid "Stop at Ratio (%s)"
-msgstr ""
+msgstr "अनुपात (%s) मा रोक्ने"
 
 #. show all torrents
 #: ../gtk/tr-window.c:844
