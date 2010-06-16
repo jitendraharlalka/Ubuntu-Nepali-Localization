@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: apport\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-10 17:18+0000\n"
-"PO-Revision-Date: 2010-06-16 16:50+0545\n"
+"PO-Revision-Date: 2010-06-16 23:30+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../apport/ui.py:909
 msgid "Memory exhaustion"
-msgstr ""
+msgstr "स्मृति समाप्त भयो"
 
 #: ../apport/ui.py:910
 msgid "Your system does not have enough memory to process this crash report."
@@ -363,7 +363,7 @@ msgstr "(बाइनरी डाटा)"
 #: ../bin/apport-cli.py:220
 #, python-format
 msgid "&Send complete report (recommended; %s)"
-msgstr ""
+msgstr "पूरा प्रतिवेदन पठाउनुहोस् (सिफारिस गरिएको; %s)"
 
 #: ../bin/apport-cli.py:222
 #, python-format
@@ -373,11 +373,11 @@ msgstr ""
 #: ../bin/apport-cli.py:225
 #, python-format
 msgid "&Send report (%s)"
-msgstr ""
+msgstr "प्रतिवेदन पठाउनुहोस् (%s)"
 
 #: ../bin/apport-cli.py:229
 msgid "&View report"
-msgstr ""
+msgstr "प्रतिवेदन हेर्नुहोस्"
 
 #: ../bin/apport-cli.py:230
 msgid "&Keep report file for sending later or copying to somewhere else"
@@ -385,11 +385,11 @@ msgstr ""
 
 #: ../bin/apport-cli.py:262
 msgid "Problem report file:"
-msgstr ""
+msgstr "समस्या प्रतिवेदन फाइल:"
 
 #: ../bin/apport-cli.py:270 ../bin/apport-cli.py:275
 msgid "&Confirm"
-msgstr ""
+msgstr "यकिन गर्नुहोस्"
 
 #: ../bin/apport-cli.py:274
 #, python-format
@@ -405,10 +405,13 @@ msgid ""
 "The collected information can be sent to the developers to improve the\n"
 "application. This might take a few minutes."
 msgstr ""
+"संकलन गरिएको जानकारी सफ्टवेयर सुधार गर्नका लागि विकासकर्ताहरुलाई पठाउन "
+"सकिन्छ ।\n"
+"यसमा केहि मिनेट लाग्न सक्छ ।"
 
 #: ../bin/apport-cli.py:293 ../gtk/apport-gtk.ui.h:21
 msgid "Uploading problem information"
-msgstr ""
+msgstr "समस्या जानकारी अपलोड गर्दै"
 
 #: ../bin/apport-cli.py:294
 msgid ""
@@ -431,11 +434,11 @@ msgstr ""
 
 #: ../bin/apport-cli.py:367
 msgid "Choices:"
-msgstr ""
+msgstr "छनौटहरु:"
 
 #: ../bin/apport-cli.py:381
 msgid "Path to file (Enter to cancel):"
-msgstr ""
+msgstr "फाइलको मार्ग (रद्द गर्न इन्टर):"
 
 #: ../bin/apport-cli.py:386
 msgid "File does not exist."
@@ -454,10 +457,12 @@ msgid ""
 "You can launch a browser now, or copy this URL into a browser on another "
 "computer."
 msgstr ""
+"तपाई अहिले ब्राउजर चलाउन सक्नुहुन्छ, वा अर्को कम्प्युटरमा ब्राउजरमा यो "
+"यूआरएल प्रतिलिपि गर्नुहोस् ।"
 
 #: ../bin/apport-cli.py:398
 msgid "Launch a browser now"
-msgstr ""
+msgstr "ब्राउजर अहिले चलाउनुहोस्"
 
 #: ../bin/apport-cli.py:405
 msgid "No pending crash reports. Try --help for more information."
@@ -483,7 +488,7 @@ msgstr ""
 
 #: ../gtk/apport-gtk.ui.h:1
 msgid "<big><b>Collecting problem information</b></big>"
-msgstr ""
+msgstr "<big><b>समस्या जानकारी संकलन गर्दै</b></big>"
 
 #: ../gtk/apport-gtk.ui.h:2
 msgid ""
@@ -495,14 +500,16 @@ msgstr ""
 
 #: ../gtk/apport-gtk.ui.h:5
 msgid "<big><b>Uploading problem information</b></big>"
-msgstr ""
+msgstr "<big><b>समस्या जानकारी अपलोड गर्दै</b></big>"
 
 #: ../gtk/apport-gtk.ui.h:7
 #, no-c-format
 msgid ""
-"<span weight=\"bold\" size=\"larger\">Sorry, the package \"%s\" failed to "
-"install or upgrade.</span>"
+"<span weight=\"bold\" size=\"larger\">Sorry, the package \"%s\" failed to install "
+"or upgrade.</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">क्षमा गर्नुहोस्, प्याकेज \"%s\" इन्सटल वा "
+"स्तरोन्नति हुन असफल भयो ।</span>"
 
 #: ../gtk/apport-gtk.ui.h:8
 msgid "Application problem"
@@ -511,11 +518,11 @@ msgstr ""
 #: ../gtk/apport-gtk.ui.h:10
 #, no-c-format
 msgid "Complete report (recommended; %s)"
-msgstr ""
+msgstr "पूरा प्रतिवेदन (सिफारिस गरिएको; %s)"
 
 #: ../gtk/apport-gtk.ui.h:11
 msgid "Content of the report"
-msgstr ""
+msgstr "प्रतिवेदनको सामग्री"
 
 #: ../gtk/apport-gtk.ui.h:12
 msgid ""
@@ -532,11 +539,11 @@ msgstr ""
 
 #: ../gtk/apport-gtk.ui.h:14
 msgid "Kernel problem"
-msgstr ""
+msgstr "कर्नेल समस्या"
 
 #: ../gtk/apport-gtk.ui.h:15
 msgid "Package problem"
-msgstr ""
+msgstr "प्याकेज समस्या"
 
 #: ../gtk/apport-gtk.ui.h:17
 #, no-c-format
@@ -570,7 +577,7 @@ msgstr ""
 
 #: ../gtk/apport-gtk.ui.h:25
 msgid "_Send Report"
-msgstr ""
+msgstr "प्रतिवेदन पठाउनुहोस्"
 
 #: ../bin/apport-retrace.py:28
 msgid "%prog [options] <apport problem report | crash ID>"
