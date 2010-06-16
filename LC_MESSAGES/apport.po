@@ -2,20 +2,22 @@
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
 # This file is distributed under the same license as the apport package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: apport\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-10 17:18+0000\n"
-"PO-Revision-Date: 2009-12-25 10:28+0000\n"
-"Last-Translator: Rabi Poudyal <ubuntu@rabipoudel.com.np>\n"
-"Language-Team: Nepali <ne@li.org>\n"
+"PO-Revision-Date: 2010-06-16 16:50+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 07:56+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #. TRANS: %s is the name of the operating system
 #: ../apport/ui.py:74
@@ -89,7 +91,7 @@ msgstr ""
 
 #: ../apport/ui.py:283
 msgid "You are not allowed to access this problem report."
-msgstr ""
+msgstr "तपाईलाई यो समस्या प्रतिवेदनमा पहुँच छैन ।"
 
 #: ../apport/ui.py:286
 msgid "Error"
@@ -101,16 +103,18 @@ msgstr ""
 
 #: ../apport/ui.py:315
 msgid "No package specified"
-msgstr ""
+msgstr "कुनै प्याकेज व्यक्त गरिएन"
 
 #: ../apport/ui.py:316
 msgid ""
 "You need to specify a package or a PID. See --help for more information."
 msgstr ""
+"तपाई प्याकेज वा PID व्यक्त गर्न आवश्यक छ । अधिक जानकारीका लागि --help "
+"हेर्नुहोस् ।"
 
 #: ../apport/ui.py:326
 msgid "Invalid PID"
-msgstr "अवैध PID"
+msgstr "अमान्य PID"
 
 #: ../apport/ui.py:327
 msgid "The specified process ID does not belong to a program."
@@ -133,11 +137,11 @@ msgstr "%s प्याकेज अस्तित्वमा छैन"
 
 #: ../apport/ui.py:383
 msgid "Cannot create report"
-msgstr ""
+msgstr "प्रतिवेदन निर्माण गर्न सक्दैन"
 
 #: ../apport/ui.py:397 ../apport/ui.py:443 ../apport/ui.py:459
 msgid "Updating problem report"
-msgstr ""
+msgstr "समस्या प्रतिवेदन अद्यावधिक गर्दै"
 
 #: ../apport/ui.py:398
 msgid ""
@@ -161,7 +165,7 @@ msgstr ""
 
 #: ../apport/ui.py:444 ../apport/ui.py:460
 msgid "No additional information collected."
-msgstr ""
+msgstr "कुनै अतिरिक्त जानकारी संकलन गरिएन ।"
 
 #: ../apport/ui.py:499
 msgid "What kind of problem do you want to report?"
@@ -177,8 +181,7 @@ msgid "The symptom \"%s\" is not known."
 msgstr "\"%s\" लक्षण विदित छैन।"
 
 #: ../apport/ui.py:559
-msgid ""
-"%prog [options] [symptom|pid|package|program path|.apport/.crash file]"
+msgid "%prog [options] [symptom|pid|package|program path|.apport/.crash file]"
 msgstr ""
 
 #: ../apport/ui.py:561
@@ -228,20 +231,20 @@ msgstr ""
 
 #: ../apport/ui.py:582
 msgid "Print the Apport version number."
-msgstr ""
+msgstr "Apport संस्करण नम्बर मुद्रण गर्नुहोस् ।"
 
 #: ../apport/ui.py:751
 msgid "Could not determine the package or source package name."
-msgstr ""
+msgstr "प्याकेज वा स्रोत प्याकेज नाम थम्याउन सकेन ।"
 
 #: ../apport/ui.py:766
 msgid "Unable to start web browser"
-msgstr ""
+msgstr "वेब ब्राउजर सुरु गर्न अक्षम"
 
 #: ../apport/ui.py:767
 #, python-format
 msgid "Unable to start web browser to open %s."
-msgstr ""
+msgstr "%s खोल्नका लागि वेब ब्राउजर सुरु गर्न अक्षम ।"
 
 #: ../apport/ui.py:873
 #, python-format
@@ -250,7 +253,7 @@ msgstr ""
 
 #: ../apport/ui.py:884
 msgid "Network problem"
-msgstr ""
+msgstr "नेटवर्क समस्या"
 
 #: ../apport/ui.py:885
 msgid ""
@@ -287,12 +290,12 @@ msgstr "जारी राख्नको लागि कुनै की थ�
 
 #: ../bin/apport-cli.py:77
 msgid "What would you like to do? Your options are:"
-msgstr ""
+msgstr "तपाई के गर्न चाहनुहुन्छ? तपाईसित निम्न विकल्प छन्:"
 
 #: ../bin/apport-cli.py:81
 #, python-format
 msgid "Please choose (%s):"
-msgstr ""
+msgstr "कृपया रोज्नुहोस् (%s):"
 
 #. translators: first %s: application name, second %s: date, third %s: time
 #: ../bin/apport-cli.py:138
@@ -324,7 +327,7 @@ msgstr "रद्द गर्नुहोस् (&C)"
 #: ../bin/apport-cli.py:162
 #, python-format
 msgid "The package \"%s\" failed to install or upgrade."
-msgstr ""
+msgstr "प्याकेज \"%s\" इन्सटल वा अद्यावधिक हुन असफल भयो ।"
 
 #: ../bin/apport-cli.py:163 ../gtk/apport-gtk.ui.h:22
 msgid ""
@@ -341,11 +344,11 @@ msgstr ""
 
 #: ../bin/apport-cli.py:194
 msgid "Send this data to the developers?"
-msgstr ""
+msgstr "के यो डाटा विकासकर्ताहरुलाई पठाउने?"
 
 #: ../bin/apport-cli.py:196
 msgid "Send problem report to the developers?"
-msgstr ""
+msgstr "के समस्या प्रतिवेदन विकासकर्ताहरुलाई पठाउने?"
 
 #: ../bin/apport-cli.py:197
 msgid ""
@@ -355,7 +358,7 @@ msgstr ""
 
 #: ../bin/apport-cli.py:216
 msgid "(binary data)"
-msgstr ""
+msgstr "(बाइनरी डाटा)"
 
 #: ../bin/apport-cli.py:220
 #, python-format
@@ -391,7 +394,7 @@ msgstr ""
 #: ../bin/apport-cli.py:274
 #, python-format
 msgid "Error: %s"
-msgstr ""
+msgstr "त्रुटि: %s"
 
 #: ../bin/apport-cli.py:280
 msgid "Collecting problem information"
@@ -415,11 +418,11 @@ msgstr ""
 
 #: ../bin/apport-cli.py:344
 msgid "&Done"
-msgstr ""
+msgstr "भयो"
 
 #: ../bin/apport-cli.py:350
 msgid "none"
-msgstr ""
+msgstr "कुनै पनि होइन"
 
 #: ../bin/apport-cli.py:351
 #, python-format
@@ -436,15 +439,15 @@ msgstr ""
 
 #: ../bin/apport-cli.py:386
 msgid "File does not exist."
-msgstr ""
+msgstr "फाइल विद्यमान छैन ।"
 
 #: ../bin/apport-cli.py:388
 msgid "This is a directory."
-msgstr ""
+msgstr "यो डाइरेक्टरी हो ।"
 
 #: ../bin/apport-cli.py:394
 msgid "To continue, you must visit the following URL:"
-msgstr ""
+msgstr "जारी राख्नका लागि, तपाईले निम्न यूआरएलमा जानु पर्छ:"
 
 #: ../bin/apport-cli.py:396
 msgid ""
