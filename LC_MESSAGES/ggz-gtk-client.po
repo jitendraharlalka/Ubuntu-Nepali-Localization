@@ -3,28 +3,30 @@
 # translation of gnome-games.gnomes.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2005.
-#
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.gnomes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-11-20 15:07+0100\n"
-"PO-Revision-Date: 2008-09-26 15:34+0000\n"
-"Last-Translator: Pawan Chitrakar <Unknown>\n"
-"Language-Team: Nepali Gnome Team <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-06-23 22:57+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 03:52+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../ggz-gtk/about.c:87 ../ggz-gtk/client.c:1089
 msgid "About"
-msgstr ""
+msgstr "बारे"
 
 #: ../ggz-gtk/chat.c:89
 msgid "/msg <username> <message> . Private message a player"
-msgstr ""
+msgstr "/msg <प्रयोगकर्ता> <संदेश> । खेलाडीलाई गोप्य संदेश"
 
 #: ../ggz-gtk/chat.c:91
 msgid "/table <message> .......... Message to your table"
@@ -32,7 +34,7 @@ msgstr ""
 
 #: ../ggz-gtk/chat.c:93
 msgid "/wall <message> ........... Admin command"
-msgstr ""
+msgstr "/wall <संदेश> ........... प्रशासक कमान्ड"
 
 #: ../ggz-gtk/chat.c:95
 msgid "/beep <username> .......... Beep a player"
@@ -40,15 +42,17 @@ msgstr ""
 
 #: ../ggz-gtk/chat.c:97
 msgid "/help ..................... Get help"
-msgstr ""
+msgstr "/help ..................... सहयोग पाउनुहोस्"
 
 #: ../ggz-gtk/chat.c:99
 msgid "/friends .................. List your friends"
-msgstr ""
+msgstr "/friends .................. आफ्ना साथीहरु सूचीकृत गर्नुहोस्"
 
 #: ../ggz-gtk/chat.c:101
 msgid "/ignore ................... List people you're ignoring"
 msgstr ""
+"/ignore ................... तपाईले बेवास्ता गरेका व्यक्तिहरु सूचीकृत "
+"गर्नुहोस्"
 
 #: ../ggz-gtk/chat.c:104
 msgid "/kick <username> .......... Kick a player from the room"
@@ -66,12 +70,12 @@ msgstr ""
 
 #: ../ggz-gtk/chat.c:113
 msgid "/ban <username> ........... Ban a player from the server"
-msgstr ""
+msgstr "/ban <प्रयोगकर्ता> ........... खेलाडीलाई सर्भरमा निषेध गर्नुहोस्"
 
 #: ../ggz-gtk/chat.c:254
 #, c-format
 msgid "You have received an unknown message from %s."
-msgstr ""
+msgstr "तपाईले %s बाट अज्ञात संदेश पाउनुभएको छ ।"
 
 #: ../ggz-gtk/chat.c:318
 #, c-format
@@ -80,11 +84,11 @@ msgstr ""
 
 #: ../ggz-gtk/chat.c:439
 msgid "Usage: /msg <username> <message>"
-msgstr ""
+msgstr "उपयोगिता: /msg <प्रयोगकर्ता> <संदेश>"
 
 #: ../ggz-gtk/chat.c:441
 msgid "    Sends a private message to a user on the network."
-msgstr ""
+msgstr "    प्रयोगकर्तालाई नेटवर्कमा गोप्य संदेश पठाउँछ ।"
 
 #: ../ggz-gtk/chat.c:495
 #, c-format
@@ -103,43 +107,43 @@ msgstr ""
 
 #: ../ggz-gtk/chat.c:587
 msgid "Chat Commands"
-msgstr ""
+msgstr "च्याट कमान्डहरु"
 
 #: ../ggz-gtk/chat.c:588
 msgid "-------------"
-msgstr ""
+msgstr "-------------"
 
 #: ../ggz-gtk/chat.c:592
 msgid "/me <action> .............. Send an action"
-msgstr ""
+msgstr "/me <क्रिया> .............. क्रिया पठाउँछ"
 
 #: ../ggz-gtk/chat.c:783
 #, c-format
 msgid "Added %s to your friends list."
-msgstr ""
+msgstr "%s लाई तपाईको साथी सूचीमा थपियो ।"
 
 #: ../ggz-gtk/chat.c:807
 #, c-format
 msgid "Removed %s from your friends list."
-msgstr ""
+msgstr "%s लाई तपाईको साथी सूचीबाट हटाइयो ।"
 
 #: ../ggz-gtk/chat.c:838
 #, c-format
 msgid "Added %s to your ignore list."
-msgstr ""
+msgstr "%s लाई तपाईको बेवास्ता सूचीमा थपियो ।"
 
 #: ../ggz-gtk/chat.c:863
 #, c-format
 msgid "Removed %s from your ignore list."
-msgstr ""
+msgstr "%s लाई तपाईको बेवास्ता सूचीबाट हटाइयो ।"
 
 #: ../ggz-gtk/chat.c:939
 msgid "People currently your friends"
-msgstr ""
+msgstr "व्यक्तिहरु जो हाल तपाई साथी हुन्"
 
 #: ../ggz-gtk/chat.c:953
 msgid "People you're currently ignoring"
-msgstr ""
+msgstr "व्यक्तिहरु जसलाई तपाई बेवास्ता गर्दै हुनुहुन्छ"
 
 #: ../ggz-gtk/chat.c:1029
 msgid "Multiple matches:"
@@ -147,11 +151,11 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:144
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "के तपाई साँच्चिकै बन्द गर्न चाहनुहुन्छ?"
 
 #: ../ggz-gtk/client.c:144
 msgid "Quit?"
-msgstr ""
+msgstr "बन्द गर्ने?"
 
 #: ../ggz-gtk/client.c:237
 msgid ""
@@ -277,7 +281,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:942 ../ggz-gtk/login.c:710
 msgid "Connect"
-msgstr ""
+msgstr "जडान गर्नुहोस्"
 
 #: ../ggz-gtk/client.c:949 ../ggz-gtk/client.c:1180
 msgid "Disconnect"
@@ -285,7 +289,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:962
 msgid "Quit"
-msgstr ""
+msgstr "बन्द गर्नुहोस्"
 
 #: ../ggz-gtk/client.c:969
 msgid "Game"
@@ -302,19 +306,19 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:992 ../ggz-gtk/client.c:1149
 msgid "Watch"
-msgstr ""
+msgstr "हेर्नुहोस्"
 
 #: ../ggz-gtk/client.c:1004 ../ggz-gtk/client.c:1157 ../ggz-gtk/tablelist.c:77
 msgid "Leave"
-msgstr ""
+msgstr "छोड्नुहोस्"
 
 #: ../ggz-gtk/client.c:1011
 msgid "Edit"
-msgstr ""
+msgstr "सम्पादन गर्नुहोस्"
 
 #: ../ggz-gtk/client.c:1019
 msgid "Properties"
-msgstr ""
+msgstr "गुणहरु"
 
 #: ../ggz-gtk/client.c:1026
 msgid "View"
@@ -326,7 +330,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:1041
 msgid "Player List"
-msgstr ""
+msgstr "खेलाडी सूची"
 
 #: ../ggz-gtk/client.c:1053
 msgid "Server Stats"
@@ -346,7 +350,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:1081
 msgid "Help"
-msgstr ""
+msgstr "सहयोग"
 
 #: ../ggz-gtk/client.c:1096
 msgid "Copyright"
@@ -374,11 +378,11 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:1277 ../ggz-gtk/playerinfo.c:259
 msgid "Message:"
-msgstr ""
+msgstr "संदेश:"
 
 #: ../ggz-gtk/client.c:1295
 msgid "Send"
-msgstr ""
+msgstr "पठाउनुहोस्"
 
 #: ../ggz-gtk/client.c:1480 ../ggz-gtk/ggzclient.c:400
 msgid "GGZ Gaming Zone"

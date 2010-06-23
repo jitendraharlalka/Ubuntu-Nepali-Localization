@@ -1,26 +1,27 @@
 # translation of gparted.HEAD.ne.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
 # Pawan Chitrakar <pawan@mpp.org.np>, 2005.
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
 # Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
 # Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+# jitendra <jitendra@otrc.gov.np>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gparted.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-10 21:22+0000\n"
-"PO-Revision-Date: 2010-02-13 03:34+0000\n"
-"Last-Translator: Shyam Krishna Bal <Unknown>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"PO-Revision-Date: 2010-06-17 22:51+0545\n"
+"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
+"Language-Team: Open Technologies Resource Center\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0\n"
 "X-Launchpad-Export-Date: 2010-02-21 03:50+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../gparted.desktop.in.in.h:1
 msgid "Create, reorganize, and delete partitions"
@@ -932,7 +933,7 @@ msgstr "विभाजन"
 
 #: ../src/TreeView_Detail.cc:37
 msgid "Mount Point"
-msgstr ""
+msgstr "माउन्ट बिन्दु"
 
 #: ../src/TreeView_Detail.cc:39
 msgid "Size"
@@ -992,7 +993,7 @@ msgstr "%1 TiB"
 
 #: ../src/Utils.cc:334
 msgid "# Temporary file created by gparted.  It may be deleted.\n"
-msgstr ""
+msgstr "# जीपार्टेडद्वारा निर्माण गरिएको अस्थाइ फाइल । यो मेटाउन सकिन्छ ।\n"
 
 #: ../src/Utils.cc:343
 msgid "Label operation failed:  Unable to write to temporary file %1.\n"
@@ -1108,7 +1109,7 @@ msgstr "जाँच गर्नुहोस्"
 
 #: ../src/Win_GParted.cc:368
 msgid "_Label"
-msgstr ""
+msgstr "लेबल"
 
 #: ../src/Win_GParted.cc:430
 msgid "Device Information"
@@ -1226,7 +1227,8 @@ msgstr "जिनोम विभाजन सम्पादक"
 #: ../src/Win_GParted.cc:1289
 msgid "translator-credits"
 msgstr ""
-"Shyam krishna bal<balshyam24@yahoo.com>\n"
+"Shyam krishna bal<balshyam24@yahoo.com>, Jitendra "
+"Harlalka<jitendra@otrc.gov.np>\n"
 "\n"
 "Launchpad Contributions:\n"
 "  Jaydeep Bhusal https://launchpad.net/~zaydeep\n"
@@ -1367,7 +1369,7 @@ msgstr ""
 #. create mount point...
 #: ../src/jfs.cc:141 ../src/xfs.cc:153 ../src/xfs.cc:245 ../src/xfs.cc:252
 msgid "create temporary mount point (%1)"
-msgstr ""
+msgstr "अस्थाइ माउन्ट बिन्दु निर्माण गर्नुहोस् (%1)"
 
 #: ../src/jfs.cc:148 ../src/xfs.cc:160 ../src/xfs.cc:259 ../src/xfs.cc:268
 msgid "mount %1 on %2"
@@ -1383,7 +1385,7 @@ msgstr "%1 अनमाउन्ट गर्नुहोस्"
 
 #: ../src/jfs.cc:195 ../src/xfs.cc:202 ../src/xfs.cc:333 ../src/xfs.cc:356
 msgid "remove temporary mount point (%1)"
-msgstr ""
+msgstr "अस्थाइ माउन्ट बिन्दु हटाउनुहोस् (%1)"
 
 #: ../src/main.cc:38
 msgid "Root privileges are required for running GParted"
@@ -1413,4 +1415,4 @@ msgstr ""
 #. copy file system..
 #: ../src/xfs.cc:276
 msgid "copy file system"
-msgstr ""
+msgstr "फाइल प्रणाली प्रतिलिपि गर्नुहोस्"

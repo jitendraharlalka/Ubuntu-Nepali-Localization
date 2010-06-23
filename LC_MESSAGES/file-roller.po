@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: file-roller.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-09 03:27+0000\n"
-"PO-Revision-Date: 2010-06-15 21:59+0545\n"
+"PO-Revision-Date: 2010-06-17 21:38+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -207,7 +207,11 @@ msgid_plural ""
 "There are %d files that have been modified with an external application. If "
 "you don't update the files in the archive, all of your changes will be lost."
 msgstr[0] ""
+"बाहिरी सफ्टवेयरद्वारा फाइल परिवर्तन गरिएको छ । तपाईले संग्रहमा भएको संस्करण "
+"अद्यावधिक गर्नुभएन भने तपाईका सबै परिवर्तनहरु हराउने छन ।"
 msgstr[1] ""
+"बाहिरी सफ्टवेयरद्वारा %d फाइल परिवर्तन गरिएको छ । तपाईले संग्रहमा भएका "
+"फाइलहरु अद्यावधिक गर्नुभएन भने तपाईका सबै परिवर्तनहरु हराउने छन ।"
 
 #: ../data/ui/update.ui.h:3
 msgid "_Update"
@@ -323,7 +327,9 @@ msgstr "जिनोमको लागि एक सङ्ग्रह प्�
 
 #: ../src/actions.c:866
 msgid "translator-credits"
-msgstr "Narayan Kumar Magar (narayan@mpp.org.np)"
+msgstr ""
+"Narayan Kumar Magar (narayan@mpp.org.np), Jitendra "
+"Harlalka<jitendra@otrc.gov.np>"
 
 #: ../src/dlg-add-files.c:94 ../src/dlg-add-folder.c:129
 msgid "Could not add the files to the archive"
