@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-games.gnomes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-11-20 15:07+0100\n"
-"PO-Revision-Date: 2010-06-23 22:57+0545\n"
+"PO-Revision-Date: 2010-06-23 23:42+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: en\n"
@@ -334,15 +334,15 @@ msgstr "खेलाडी सूची"
 
 #: ../ggz-gtk/client.c:1053
 msgid "Server Stats"
-msgstr ""
+msgstr "सर्भर तथ्याङ्क"
 
 #: ../ggz-gtk/client.c:1057
 msgid "Player Stats"
-msgstr ""
+msgstr "खेलाडी तथ्याङ्क"
 
 #: ../ggz-gtk/client.c:1065 ../ggz-gtk/types.c:237
 msgid "Game Types"
-msgstr ""
+msgstr "खेल प्रकार"
 
 #: ../ggz-gtk/client.c:1074 ../ggz-gtk/props.c:1491
 msgid "MOTD"
@@ -354,7 +354,7 @@ msgstr "सहयोग"
 
 #: ../ggz-gtk/client.c:1096
 msgid "Copyright"
-msgstr ""
+msgstr "प्रतिलिपि अधिकार"
 
 #: ../ggz-gtk/client.c:1105
 msgid "GGZ Help"
@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:1112
 msgid "Game Help"
-msgstr ""
+msgstr "खेल सहयोग"
 
 #: ../ggz-gtk/client.c:1121
 msgid "Goto Web"
@@ -542,23 +542,23 @@ msgstr ""
 #: ../ggz-gtk/ggzclient.c:122
 #, c-format
 msgid "Error connecting to server: %s"
-msgstr ""
+msgstr "सर्भरमा जडान गर्दा त्रुटि: %s"
 
 #: ../ggz-gtk/ggzclient.c:124 ../ggz-gtk/ggzclient.c:380
 #: ../ggz-gtk/ggzclient.c:561 ../ggz-gtk/ggzclient.c:596
 #: ../ggz-gtk/ggzclient.c:649 ../ggz-gtk/ggzclient.c:1079
 #: ../ggz-gtk/launch.c:325
 msgid "Error"
-msgstr ""
+msgstr "त्रुटि"
 
 #: ../ggz-gtk/ggzclient.c:237
 #, c-format
 msgid "Your new password is %s"
-msgstr ""
+msgstr "तपाई नयाँ पासवर्ड %s हो"
 
 #: ../ggz-gtk/ggzclient.c:239
 msgid "New password"
-msgstr ""
+msgstr "नयाँ पासवर्ड"
 
 #: ../ggz-gtk/ggzclient.c:275
 #, c-format
@@ -607,7 +607,7 @@ msgstr ""
 #: ../ggz-gtk/ggzclient.c:455
 #, c-format
 msgid "Chat failed: %s."
-msgstr ""
+msgstr "च्याट असफल: %s ।"
 
 #: ../ggz-gtk/ggzclient.c:559
 #, c-format
@@ -655,7 +655,7 @@ msgstr ""
 
 #: ../ggz-gtk/ggzclient.c:747
 msgid "Offline"
-msgstr ""
+msgstr "अफलाइन"
 
 #: ../ggz-gtk/ggzclient.c:750
 msgid "Connecting"
@@ -704,7 +704,7 @@ msgstr ""
 #: ../ggz-gtk/ggzclient.c:1078
 #, c-format
 msgid "Server error: %s"
-msgstr ""
+msgstr "सर्भर त्रुटि: %s"
 
 #: ../ggz-gtk/ggzclient.c:1166
 msgid "Disconnected from server."
@@ -713,22 +713,22 @@ msgstr ""
 #: ../ggz-gtk/launch.c:114
 #, c-format
 msgid "Game Type:  %s"
-msgstr ""
+msgstr "खेल प्रकार: %s"
 
 #: ../ggz-gtk/launch.c:120
 #, c-format
 msgid "Author:  %s"
-msgstr ""
+msgstr "लेखक: %s"
 
 #: ../ggz-gtk/launch.c:127
 #, c-format
 msgid "Description:  %s"
-msgstr ""
+msgstr "विवरण: %s"
 
 #: ../ggz-gtk/launch.c:133
 #, c-format
 msgid "Home Page:  %s"
-msgstr ""
+msgstr "गृह पृष्ठ: %s"
 
 #: ../ggz-gtk/launch.c:289
 msgid ""
@@ -746,7 +746,7 @@ msgstr ""
 
 #: ../ggz-gtk/launch.c:443
 msgid "Game Type:"
-msgstr ""
+msgstr "खेल प्रकार:"
 
 #: ../ggz-gtk/launch.c:479
 msgid "Number of seats"
@@ -754,7 +754,7 @@ msgstr ""
 
 #: ../ggz-gtk/launch.c:495 ../ggz-gtk/roominfo.c:90
 msgid "Author:"
-msgstr ""
+msgstr "लेखक:"
 
 #: ../ggz-gtk/launch.c:513
 msgid "Description:"
@@ -762,7 +762,7 @@ msgstr ""
 
 #: ../ggz-gtk/launch.c:530 ../ggz-gtk/roominfo.c:100
 msgid "Homepage:"
-msgstr ""
+msgstr "गृह पृष्ठ:"
 
 #: ../ggz-gtk/launch.c:586
 #, c-format
@@ -771,11 +771,11 @@ msgstr ""
 
 #: ../ggz-gtk/launch.c:598
 msgid "Computer"
-msgstr ""
+msgstr "कम्प्युटर"
 
 #: ../ggz-gtk/launch.c:613
 msgid "Open"
-msgstr ""
+msgstr "खोल्नुहोस्"
 
 #: ../ggz-gtk/launch.c:628
 msgid "Reserved for"
@@ -787,11 +787,11 @@ msgstr ""
 
 #: ../ggz-gtk/login.c:101
 msgid "Login"
-msgstr ""
+msgstr "लगइन गर्नुहोस्"
 
 #: ../ggz-gtk/login.c:108
 msgid "Sorry!"
-msgstr ""
+msgstr "क्षमा गर्नुहोस्!"
 
 #: ../ggz-gtk/login.c:115
 #, c-format
@@ -818,23 +818,23 @@ msgstr ""
 #: ../ggz-gtk/login.c:130
 #, c-format
 msgid "Login failed for unknown reason: %s"
-msgstr ""
+msgstr "अज्ञात कारणले गर्दा लगइन असफल: %s"
 
 #: ../ggz-gtk/login.c:538
 msgid "Server Profile"
-msgstr ""
+msgstr "सर्भर प्रोफाइल"
 
 #: ../ggz-gtk/login.c:562 ../ggz-gtk/props.c:925
 msgid "Profile:"
-msgstr ""
+msgstr "प्रोफाइल:"
 
 #: ../ggz-gtk/login.c:582
 msgid "Edit Profiles..."
-msgstr ""
+msgstr "प्रोफाइल सम्पादन गर्नुहोस्..."
 
 #: ../ggz-gtk/login.c:590 ../ggz-gtk/props.c:946
 msgid "Server:"
-msgstr ""
+msgstr "सर्भर:"
 
 #: ../ggz-gtk/login.c:600
 msgid "localhost"
@@ -842,27 +842,27 @@ msgstr ""
 
 #: ../ggz-gtk/login.c:602 ../ggz-gtk/props.c:961
 msgid "Port:"
-msgstr ""
+msgstr "पोर्ट:"
 
 #: ../ggz-gtk/login.c:612
 msgid "5688"
-msgstr ""
+msgstr "५६८८"
 
 #: ../ggz-gtk/login.c:633 ../ggz-gtk/props.c:993
 msgid "Username:"
-msgstr ""
+msgstr "प्रयोगकर्ता नाम:"
 
 #: ../ggz-gtk/login.c:648 ../ggz-gtk/props.c:1014
 msgid "Password:"
-msgstr ""
+msgstr "पासवर्ड:"
 
 #: ../ggz-gtk/login.c:664
 msgid "Email:"
-msgstr ""
+msgstr "इमेल:"
 
 #: ../ggz-gtk/login.c:680 ../ggz-gtk/props.c:1057
 msgid "Normal Login"
-msgstr ""
+msgstr "सामान्य लगइन"
 
 #: ../ggz-gtk/login.c:691 ../ggz-gtk/props.c:1065
 msgid "Guest Login"
@@ -882,11 +882,11 @@ msgstr ""
 
 #: ../ggz-gtk/pick_module.c:131
 msgid "Don't ask me again."
-msgstr ""
+msgstr "मलाई पुन: नसोध्नु ।"
 
 #: ../ggz-gtk/playerinfo.c:102
 msgid "Player Information"
-msgstr ""
+msgstr "खेलाडी जानकारी"
 
 #: ../ggz-gtk/playerinfo.c:132
 msgid "Player Handle:"
@@ -898,11 +898,11 @@ msgstr ""
 
 #: ../ggz-gtk/playerinfo.c:168
 msgid "Account:"
-msgstr ""
+msgstr "खाता:"
 
 #: ../ggz-gtk/playerinfo.c:187
 msgid "Record:"
-msgstr ""
+msgstr "रेकर्ड:"
 
 #: ../ggz-gtk/playerinfo.c:205
 msgid "Rating:"
@@ -918,7 +918,7 @@ msgstr "प्राप्ताङ्क:"
 
 #: ../ggz-gtk/playerinfo.c:302 ../ggz-gtk/playerinfo.c:334
 msgid "Unknown"
-msgstr ""
+msgstr "अज्ञात"
 
 #: ../ggz-gtk/playerinfo.c:337
 msgid "Registered"
@@ -930,11 +930,11 @@ msgstr ""
 
 #: ../ggz-gtk/playerinfo.c:343
 msgid "Host"
-msgstr ""
+msgstr "होस्ट"
 
 #: ../ggz-gtk/playerinfo.c:346
 msgid "Administrator"
-msgstr ""
+msgstr "प्रशासक"
 
 #: ../ggz-gtk/playerinfo.c:349
 msgid "Bot"
@@ -943,15 +943,15 @@ msgstr ""
 #: ../ggz-gtk/playerlist.c:94 ../ggz-gtk/roomlist.c:144
 #: ../ggz-gtk/tablelist.c:84
 msgid "Info"
-msgstr ""
+msgstr "जानकारी"
 
 #: ../ggz-gtk/playerlist.c:101
 msgid "Friends"
-msgstr ""
+msgstr "साथीहरु"
 
 #: ../ggz-gtk/playerlist.c:106
 msgid "Ignore"
-msgstr ""
+msgstr "बेवास्ता"
 
 #: ../ggz-gtk/playerlist.c:246
 #, c-format
@@ -976,7 +976,7 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1035
 msgid "Confirm:"
-msgstr ""
+msgstr "यकिन:"
 
 #: ../ggz-gtk/props.c:1085
 msgid "Modify"
@@ -984,11 +984,11 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1099
 msgid "Servers"
-msgstr ""
+msgstr "सर्भरहरु"
 
 #: ../ggz-gtk/props.c:1118
 msgid "Chat Font:"
-msgstr ""
+msgstr "च्याट फन्ट:"
 
 #: ../ggz-gtk/props.c:1134
 msgid "Change"
@@ -1016,7 +1016,7 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1187
 msgid "Chat Color"
-msgstr ""
+msgstr "च्याट रङ्ग"
 
 #: ../ggz-gtk/props.c:1236
 msgid "Default chat color assigned to your friends"
@@ -1024,15 +1024,15 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1245
 msgid "Chat color used when your name is typed"
-msgstr ""
+msgstr "तपाईको नाम टाइप गर्दा प्रयोग गरिने च्याट रङ्ग"
 
 #: ../ggz-gtk/props.c:1254
 msgid "Chat color used for all other chats"
-msgstr ""
+msgstr "अन्य सबै च्याटहरुका लागि प्रयोग गरिने च्याट रङ्ग"
 
 #: ../ggz-gtk/props.c:1263
 msgid "Normal Color"
-msgstr ""
+msgstr "सामान्य रङ्ग"
 
 #: ../ggz-gtk/props.c:1274
 msgid "Highlight Color"
@@ -1040,47 +1040,47 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1285
 msgid "Friend Color"
-msgstr ""
+msgstr "साथी रङ्ग"
 
 #: ../ggz-gtk/props.c:1296
 msgid "Black Background"
-msgstr ""
+msgstr "कालो पृष्ठभूमि"
 
 #: ../ggz-gtk/props.c:1305
 msgid "White Background"
-msgstr ""
+msgstr "सेतो पृष्ठभूमि"
 
 #: ../ggz-gtk/props.c:1314
 msgid "Chat"
-msgstr ""
+msgstr "च्याट"
 
 #: ../ggz-gtk/props.c:1326
 msgid "All of the following information is optional."
-msgstr ""
+msgstr "निम्न सबै जानकारी ऐच्छिक हुन् ।"
 
 #: ../ggz-gtk/props.c:1344
 msgid "Name:"
-msgstr ""
+msgstr "नाम:"
 
 #: ../ggz-gtk/props.c:1371
 msgid "City:"
-msgstr ""
+msgstr "शहर:"
 
 #: ../ggz-gtk/props.c:1392
 msgid "State:"
-msgstr ""
+msgstr "राज्य:"
 
 #: ../ggz-gtk/props.c:1413
 msgid "Country:"
-msgstr ""
+msgstr "देश:"
 
 #: ../ggz-gtk/props.c:1428
 msgid "Comments, Hobies, Etc."
-msgstr ""
+msgstr "टिप्पणी, शौख, इत्यादि ।"
 
 #: ../ggz-gtk/props.c:1450
 msgid "User Information"
-msgstr ""
+msgstr "प्रयोगकर्ता जानकारी"
 
 #: ../ggz-gtk/props.c:1459
 msgid "Browser to launch URLs with:"
@@ -1108,15 +1108,15 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1469 ../ggz-gtk/support.c:163
 msgid "Lynx"
-msgstr ""
+msgstr "लिन्कस"
 
 #: ../ggz-gtk/props.c:1470 ../ggz-gtk/support.c:169
 msgid "Mozilla - New"
-msgstr ""
+msgstr "मोजिला - नयाँ"
 
 #: ../ggz-gtk/props.c:1471 ../ggz-gtk/support.c:172
 msgid "Mozilla - Existing"
-msgstr ""
+msgstr "मोजिला - विद्यमान"
 
 #: ../ggz-gtk/props.c:1472 ../ggz-gtk/support.c:176
 msgid "Netscape - New"
@@ -1128,19 +1128,19 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1474 ../ggz-gtk/support.c:183
 msgid "Opera - New"
-msgstr ""
+msgstr "ओपेरा - नयाँ"
 
 #: ../ggz-gtk/props.c:1475 ../ggz-gtk/support.c:186
 msgid "Opera - Existing"
-msgstr ""
+msgstr "ओपेरा - विद्यमान"
 
 #: ../ggz-gtk/props.c:1476 ../ggz-gtk/support.c:191
 msgid "Firefox - New"
-msgstr ""
+msgstr "फायरफक्स - नयाँ"
 
 #: ../ggz-gtk/props.c:1477 ../ggz-gtk/support.c:194
 msgid "Firefox - Existing"
-msgstr ""
+msgstr "फायरफक्स - विद्यमान"
 
 #: ../ggz-gtk/props.c:1486
 msgid "Single Click Room Entry"
@@ -1148,19 +1148,19 @@ msgstr ""
 
 #: ../ggz-gtk/props.c:1500
 msgid "Display All"
-msgstr ""
+msgstr "सबै देखाउने"
 
 #: ../ggz-gtk/props.c:1509
 msgid "Display New"
-msgstr ""
+msgstr "नयाँ देखाउने"
 
 #: ../ggz-gtk/props.c:1518
 msgid "Display Important"
-msgstr ""
+msgstr "महत्वपूर्ण देखाउने"
 
 #: ../ggz-gtk/props.c:1527
 msgid "Display None"
-msgstr ""
+msgstr "कुनै पनि नदेखाउने"
 
 #: ../ggz-gtk/props.c:1536
 msgid "Options"
@@ -1168,7 +1168,7 @@ msgstr "विकल्पहरु"
 
 #: ../ggz-gtk/props.c:1625
 msgid "Select Font"
-msgstr ""
+msgstr "फन्ट छान्नुहोस्"
 
 #: ../ggz-gtk/roominfo.c:63
 msgid "Room Information"
@@ -1176,7 +1176,7 @@ msgstr ""
 
 #: ../ggz-gtk/roominfo.c:80
 msgid "Game Name:"
-msgstr ""
+msgstr "खेलको नाम:"
 
 #: ../ggz-gtk/roominfo.c:110
 msgid "Room Description:"
@@ -1208,7 +1208,7 @@ msgstr ""
 
 #: ../ggz-gtk/roomlist.c:89
 msgid "Unknown error"
-msgstr ""
+msgstr "अज्ञात त्रुटि"
 
 #: ../ggz-gtk/roomlist.c:109 ../ggz-gtk/roomlist.c:114
 msgid "Error joining room"
@@ -1224,7 +1224,7 @@ msgstr ""
 
 #: ../ggz-gtk/tablelist.c:161
 msgid "No description available."
-msgstr ""
+msgstr "कुनै विवरण उपलब्ध छैन ।"
 
 #: ../ggz-gtk/tablelist.c:196
 msgid "Seats"
@@ -1232,11 +1232,11 @@ msgstr ""
 
 #: ../ggz-gtk/tablelist.c:201 ../ggz-gtk/types.c:183
 msgid "Description"
-msgstr ""
+msgstr "विवरण"
 
 #: ../ggz-gtk/types.c:113
 msgid "None"
-msgstr "केहिपनि होइन"
+msgstr "कुनै पनि होइन"
 
 #: ../ggz-gtk/types.c:148
 msgid ""
@@ -1247,11 +1247,11 @@ msgstr ""
 
 #: ../ggz-gtk/types.c:191
 msgid "Web Address"
-msgstr ""
+msgstr "वेब ठेगाना"
 
 #: ../ggz-gtk/types.c:199
 msgid "Author"
-msgstr ""
+msgstr "लेखक"
 
 #: ../ggz-gtk/types.c:254
 msgid "Room List Filter:"
@@ -1263,15 +1263,15 @@ msgstr ""
 
 #: ../ggz-gtk/types.c:306
 msgid "Upgrage Game"
-msgstr ""
+msgstr "खेल स्तरोन्नति गर्नुहोस्"
 
 #: ../ggz-gtk/types.c:309
 msgid "Goto Web Site"
-msgstr ""
+msgstr "वेब साइटमा जानुहोस्"
 
 #: ../src/main.c:119
 msgid "Enable session log"
-msgstr ""
+msgstr "सत्र लग सक्षम गर्नुहोस्"
 
 #: ../src/main.c:121
 msgid "URL for autoconnection"
