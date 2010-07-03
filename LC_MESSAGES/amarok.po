@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-02-19 17:04+0000\n"
-"PO-Revision-Date: 2010-07-03 15:32+0545\n"
+"PO-Revision-Date: 2010-07-03 16:31+0545\n"
 "Last-Translator: lakesh <lakesh.kansakar@gmail.com>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -5342,8 +5342,9 @@ msgid "Database Location"
 msgstr ""
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:36
+#, fuzzy
 msgid "Connection"
-msgstr ""
+msgstr "सम्बन्ध"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:50
 msgid "Username"
@@ -5421,8 +5422,9 @@ msgstr[1] "  वस्तुहरु"
 
 #: podcasts/sql/SqlPodcastProvider.cpp:285
 #, kde-format
+#, fuzzy
 msgid "Already subscribed to %1."
-msgstr ""
+msgstr "पहिलेनै %1 मा सदस्यता प्राप्त"
 
 #: podcasts/sql/SqlPodcastProvider.cpp:398
 msgid " minute"
@@ -5775,7 +5777,7 @@ msgstr "अदभुत"
 #: meta/MetaUtility.cpp:364
 msgctxt "The quality of music"
 msgid "Favorite"
-msgstr ""
+msgstr "मन पर्ने"
 
 #: meta/MetaUtility.cpp:365
 msgctxt "The quality of music"
@@ -5939,7 +5941,7 @@ msgstr ""
 
 #: services/magnatune/MagnatuneStore.cpp:656
 msgid "ok"
-msgstr ""
+msgstr "ठीक छ"
 
 #: services/magnatune/MagnatuneStore.cpp:659
 msgid "ERROR: Unknown argument."
@@ -6134,7 +6136,7 @@ msgctxt ""
 "albums from 5 artists."
 msgid "1 artist."
 msgid_plural "%1 artists."
-msgstr[0] ""
+msgstr[0] "१ कलाकार"
 msgstr[1] ""
 
 #: services/jamendo/JamendoService.cpp:77
@@ -6365,7 +6367,7 @@ msgstr ""
 
 #: services/lastfm/LastFmServiceSettings.cpp:98
 msgid "Testing..."
-msgstr ""
+msgstr "जांच गर्दै ..."
 
 #: services/lastfm/LastFmServiceSettings.cpp:139
 msgctxt "The operation was rejected by the server"
@@ -6507,12 +6509,13 @@ msgid "My Recommendations"
 msgstr "मेरा सिफारिशहरु"
 
 #: services/lastfm/LastFmTreeModel.cpp:378
+#, fuzzy
 msgid "My Radio Station"
-msgstr ""
+msgstr "मेरो रेडियो स्टेशन"
 
 #: services/lastfm/LastFmTreeModel.cpp:380
 msgid "My Loved Tracks"
-msgstr ""
+msgstr "मलाई मन पर्ने टयाकहरु"
 
 #: services/lastfm/LastFmTreeModel.cpp:382
 msgid "My Neighborhood"
@@ -7410,7 +7413,7 @@ msgstr ""
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: rc.cpp:189 rc.cpp:1047
 msgid "Basic or Advanced Mode"
-msgstr ""
+msgstr "सरल अथवा बिज्ञ मोड"
 
 #. i18n: file: amarokconfig.kcfg:197
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
@@ -7435,8 +7438,9 @@ msgstr ""
 #. i18n: file: amarokconfig.kcfg:211
 #. i18n: ectx: label, entry, group (Playback)
 #: rc.cpp:201 rc.cpp:1059
+#, fuzzy
 msgid "Mute state"
-msgstr ""
+msgstr " मौन स्थिति"
 
 #. i18n: file: amarokconfig.kcfg:212
 #. i18n: ectx: whatsthis, entry, group (Playback)
@@ -7898,7 +7902,7 @@ msgstr "प्ले गरिएको गीतहरू अडियो स�
 #: rc.cpp:414 rc.cpp:1272
 msgctxt "Username for audioscrobbler login"
 msgid "Username"
-msgstr ""
+msgstr "प्रयोगकर्ता नाम"
 
 #. i18n: file: amarokconfig.kcfg:464
 #. i18n: ectx: whatsthis, entry, group (Scrobbler)
@@ -8043,26 +8047,30 @@ msgstr ""
 #. i18n: file: amarokconfig.kcfg:530
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: rc.cpp:486 rc.cpp:1344
+#, fuzzy
 msgid "Include album names in matching"
-msgstr ""
+msgstr "जोडी मिलाउंदाखेरि एल्बमको नाम पनि समावेस गर्नुहोस्"
 
 #. i18n: file: amarokconfig.kcfg:534
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: rc.cpp:489 rc.cpp:1347
+#, fuzzy
 msgid "Include artist names in matching"
-msgstr ""
+msgstr "जोडी मिलाउंदाखेरि कलाकारको नाम पनि समावेस गर्नुहोस्"
 
 #. i18n: file: amarokconfig.kcfg:538
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: rc.cpp:492 rc.cpp:1350
+#, fuzzy
 msgid "Include genre names in matching"
-msgstr ""
+msgstr "जोडी मिलाउंदाखेरि विधाको नाम पनि समावेस गर्नुहोस्"
 
 #. i18n: file: amarokconfig.kcfg:542
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: rc.cpp:495 rc.cpp:1353
+#, fuzzy
 msgid "Include composer names in matching"
-msgstr ""
+msgstr "जोडी मिलाउंदाखेरि रचयिताको नाम पनि समावेस गर्नुहोस्"
 
 #. i18n: file: amarokconfig.kcfg:546
 #. i18n: ectx: label, entry, group (Playlist Search)
@@ -8383,8 +8391,9 @@ msgstr ""
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:95
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:648
+#, fuzzy
 msgid "Moodbar style"
-msgstr ""
+msgstr "मुडपट्टी शैली"
 
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:103
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
@@ -8403,8 +8412,9 @@ msgstr "रिसाएको"
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:113
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: rc.cpp:657
+#, fuzzy
 msgid "Frozen"
-msgstr ""
+msgstr "जमेको"
 
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:118
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
@@ -8428,7 +8438,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_Host)
 #: rc.cpp:669
 msgid "&Server:"
-msgstr ""
+msgstr "&सर्भर"
 
 #. i18n: file: configdialog/dialogs/DatabaseConfig.ui:53
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_Host)
