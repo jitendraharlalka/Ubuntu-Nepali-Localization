@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: gnome-keyring.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-19 13:22+0000\n"
-"PO-Revision-Date: 2010-06-06 11:25+0545\n"
+"PO-Revision-Date: 2010-07-03 17:20+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
-"Language-Team: Open Technologies Resource Center\n"
+"Language-Team: Open Technologies Resource Center <>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,18 +56,18 @@ msgstr ""
 
 #: ../daemon/data/gnome-keyring.schemas.in.h:5
 msgid "Whether the gnome-keyring SSH agent is enabled."
-msgstr ""
+msgstr "के जीनोम-कीरिङ्ग SSH एजेन्ट सक्रिय छ ।"
 
 #: ../daemon/data/gnome-keyring.schemas.in.h:6
 msgid "Whether the gnome-keyring secret service is enabled."
-msgstr "के जीनोम-कीरिङ्ग गोप्य सेवा सक्षम छ ।"
+msgstr "के जीनोम-कीरिङ्ग गोप्य सेवा सक्रिय छ ।"
 
 #. TRANSLATORS: This is the label for an keyring created without a label
 #: ../daemon/dbus/gkd-secret-change.c:77 ../daemon/dbus/gkd-secret-create.c:73
 #: ../daemon/dbus/gkd-secret-unlock.c:119 ../daemon/login/gkd-login.c:584
 #: ../pkcs11/secret-store/gck-secret-collection.c:320
 msgid "Unnamed"
-msgstr "बेनाम"
+msgstr "नामाकरण नगरिएको"
 
 #: ../daemon/dbus/gkd-secret-change.c:85
 msgid "Change Keyring Password"
@@ -84,8 +84,8 @@ msgid ""
 "An application wants to change the password for the '%s' keyring. Choose the "
 "new password you want to use for it."
 msgstr ""
-"एउटा सफ्टवेयरले '%s' कीरिङ्गको पासवर्ड परिवर्तन गर्न चाहन्छ । तपाईले यसका "
-"लागि प्रयोग गर्न चाहने पासवर्ड रोज्नुहोस् ।"
+"एउटा सफ्टवेयरले '%s' कीरिङ्गको पासवर्ड परिवर्तन गर्न चाहन्छ । तपाईले यसका लागि प्रयोग "
+"गर्न चाहने पासवर्ड रोज्नुहोस् ।"
 
 #: ../daemon/dbus/gkd-secret-change.c:110
 msgid "The original password was incorrect"
@@ -105,16 +105,16 @@ msgid ""
 "An application wants to create a new keyring called '%s'. Choose the "
 "password you want to use for it."
 msgstr ""
-"एउटा सफ्टवेयरले '%s' नामक नयाँ कीरिङ्ग निर्माण गर्न चाहन्छ ।तपाईले यसका लागि "
-"प्रयोग गर्न चाहने पासवर्ड रोज्नुहोस् ।"
+"एउटा सफ्टवेयरले '%s' नामक नयाँ कीरिङ्ग निर्माण गर्न चाहन्छ ।तपाईले यसका लागि प्रयोग "
+"गर्न चाहने पासवर्ड रोज्नुहोस् ।"
 
 #: ../daemon/dbus/gkd-secret-unlock.c:134
 msgid "Unlock Login Keyring"
-msgstr ""
+msgstr "लगइन किरिङ खोल्ने"
 
 #: ../daemon/dbus/gkd-secret-unlock.c:136
 msgid "Enter password for to unlock your login keyring"
-msgstr ""
+msgstr "लगइन किरिङ खोल्न पासवर्ड दिनुहोस्"
 
 #: ../daemon/dbus/gkd-secret-unlock.c:140
 msgid ""
@@ -139,11 +139,11 @@ msgstr "किरिङ '%s'को ताल्चा खोल्नका ल�
 #: ../daemon/dbus/gkd-secret-unlock.c:189
 #, c-format
 msgid "An application wants access to the keyring '%s', but it is locked"
-msgstr ""
+msgstr "एउटा एप्लिकेसनले '%s' किरिङमा पहुच चाहान्छ, तर यो लक्ड छ"
 
 #: ../daemon/dbus/gkd-secret-unlock.c:219
 msgid "The unlock password was incorrect"
-msgstr ""
+msgstr "अन्लक पासवर्ड गलत थियो।"
 
 #: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
 msgid "Certificate and Key Storage"
@@ -163,11 +163,11 @@ msgstr "गोप्य भन्डारण सेवा"
 
 #: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
 msgid "GNOME Keyring: SSH Agent"
-msgstr ""
+msgstr "जीनोम कीरिङ्ग: SSH प्रतिनिधि"
 
 #: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
 msgid "SSH Key Agent"
-msgstr ""
+msgstr "SSH कि प्रतिनिधि"
 
 #. TRANSLATORS: This is the display label for the login keyring
 #: ../daemon/login/gkd-login.c:174
@@ -177,7 +177,7 @@ msgstr "लगइन"
 #: ../daemon/login/gkd-login.c:596
 #, c-format
 msgid "Unlock password for: %s"
-msgstr ""
+msgstr "निम्नका लागि पासवर्ड अन्लक: %s"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:294
 msgid "New Password Required"
@@ -192,72 +192,71 @@ msgstr "सुरक्षित भन्डारणका लागि नय
 msgid ""
 "In order to prepare '%s' for storage of certificates or keys, a password is "
 "required"
-msgstr ""
-"'%s' लाई प्रमाणपत्र वा कीहरुको भन्डारणका लागि तयार पार्न, पासवर्ड आवश्यक छ"
+msgstr "'%s' लाई प्रमाणपत्र वा कीहरुको भन्डारणका लागि तयार पार्न, पासवर्ड आवश्यक छ"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:360
 msgid "Unlock private key"
-msgstr ""
+msgstr "गोप्य कि अन्लक गर्ने"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:362
 msgid "Unlock certificate"
-msgstr ""
+msgstr "अन्लक सर्टिफिकेट"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:364
 msgid "Unlock public key"
-msgstr ""
+msgstr "सार्वजनिक कि अन्लक गर्ने"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:366
 msgid "Unlock"
-msgstr ""
+msgstr "सार्वजनिक "
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:375 ../gcr/gcr-importer.c:436
 msgid "Enter password to unlock the private key"
-msgstr ""
+msgstr "गोप्य कि अन्लक गर्न पास्वर्ड दिनुहोस्"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:377 ../gcr/gcr-importer.c:438
 msgid "Enter password to unlock the certificate"
-msgstr ""
+msgstr "सर्टिफिकेट अन्लक गर्न पास्वर्ड दिनुहोस्"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:379
 msgid "Enter password to unlock the public key"
-msgstr ""
+msgstr "सार्वजनिक कि अन्लक गर्न पास्वर्ड दिनुहोस्"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:381 ../gcr/gcr-importer.c:440
 msgid "Enter password to unlock"
-msgstr ""
+msgstr "अन्लक गर्न पास्वर्ड दिनुहोस्"
 
 #. TRANSLATORS: The private key is locked
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:391
 #, c-format
 msgid "An application wants access to the private key '%s', but it is locked"
-msgstr ""
+msgstr "एउटा एप्लिकेसनले '%s' गोप्य किमा पहुच चाहान्छ, तर यो लक्ड छ"
 
 #. TRANSLATORS: The certificate is locked
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:394
 #, c-format
 msgid "An application wants access to the certificate '%s', but it is locked"
-msgstr ""
+msgstr "एउटा एप्लिकेसनले '%s' सर्टिफिकेट मा पहुच चाहान्छ, तर यो लक्ड छ"
 
 #. TRANSLATORS: The public key is locked
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:397
 #, c-format
 msgid "An application wants access to the public key '%s', but it is locked"
-msgstr ""
+msgstr "एउटा एप्लिकेसनले '%s' सार्वजनिक किमा पहुच चाहान्छ, तर यो लक्ड छ"
 
 #. TRANSLATORS: The object '%s' is locked
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:400
 #, c-format
 msgid "An application wants access to '%s', but it is locked"
-msgstr ""
+msgstr "एउटा एप्लिकेसनले '%s' मा पहुच चाहान्छ, तर यो लक्ड छ"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:595
 msgid "Unlock certificate/key storage"
-msgstr ""
+msgstr "सर्टिफिकेट/कि सञ्चय अन्लक गर्ने"
 
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:596
 msgid "Enter password to unlock the certificate/key storage"
-msgstr ""
+msgstr "सर्टिफिकेट/कि सञ्चय अन्लक गर्ने पास्वर्ड दिनुहोस्"
 
 #. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
 #: ../daemon/pkcs11/gkd-pkcs11-auth.c:599
@@ -265,11 +264,11 @@ msgstr ""
 msgid ""
 "An application wants access to the certificate/key storage '%s', but it is "
 "locked"
-msgstr ""
+msgstr "एउटा एप्लिकेसनले '%s' सर्टिफिकेट/कि सञ्चय मा पहुच चाहान्छ, तर यो लक्ड छ"
 
 #: ../daemon/prompt/gkd-prompt-tool.c:393
 msgid "Store passwords unencrypted?"
-msgstr ""
+msgstr "गुप्तिकरण नगरिएको पास्वर्ड नै सञ्चय गर्ने?"
 
 #: ../daemon/prompt/gkd-prompt-tool.c:394
 msgid ""
@@ -280,7 +279,7 @@ msgstr ""
 
 #: ../daemon/prompt/gkd-prompt-tool.c:401
 msgid "Use Unsafe Storage"
-msgstr ""
+msgstr "असुरक्षित सञ्चय प्रयोग गर्ने"
 
 #: ../daemon/prompt/gkd-prompt-tool.c:431
 msgid "Passwords do not match."
@@ -292,7 +291,7 @@ msgstr "पासवर्ड रिक्त हुन सक्दैन"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:1
 msgid "Automatically unlock this keyring whenever I'm logged in"
-msgstr ""
+msgstr "म लगइन गर्दा यो किरिङ्ग पनि आफै अन्लक गर"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:2
 msgid "New password strength"
@@ -300,11 +299,11 @@ msgstr "नयाँ पासवर्डको सक्षमता"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:3
 msgid "_Application:"
-msgstr "सफ्टवेयर:"
+msgstr "_सफ्टवेयर:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:4
 msgid "_Confirm:"
-msgstr "यकिन:"
+msgstr "_यकिन:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:5
 msgid "_Details:"
@@ -312,11 +311,11 @@ msgstr "_विवरण:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:6
 msgid "_Name:"
-msgstr "नाम:"
+msgstr "_नाम:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:7
 msgid "_Old Password:"
-msgstr "पुरानो पासवर्ड:"
+msgstr "_पुरानो पासवर्ड:"
 
 #: ../daemon/prompt/gkd-prompt.ui.h:8
 msgid "_Password:"
@@ -324,7 +323,7 @@ msgstr "पासवर्ड:"
 
 #: ../egg/egg-oid.c:41
 msgid "Domain Component"
-msgstr ""
+msgstr "डोमेन अंश"
 
 #: ../egg/egg-oid.c:43
 msgid "User ID"
@@ -356,7 +355,7 @@ msgstr "बसोबासको देश"
 
 #: ../egg/egg-oid.c:65
 msgid "Common Name"
-msgstr ""
+msgstr "कमन नाम"
 
 #: ../egg/egg-oid.c:67
 msgid "Surname"
@@ -405,7 +404,7 @@ msgstr "दिइएको नाम"
 
 #: ../egg/egg-oid.c:89
 msgid "Initials"
-msgstr ""
+msgstr "अर्धाक्षर"
 
 #: ../egg/egg-oid.c:91
 msgid "Generation Qualifier"
@@ -455,7 +454,7 @@ msgstr "waitpid() (%s) मा अनपेक्षित त्रुटि"
 
 #: ../gcr/gcr-certificate-basics-widget.c:59
 msgid "<i>Not Part of Certificate</i>"
-msgstr ""
+msgstr "<i>सर्टिफिकेटको अंश होइन</i>"
 
 #: ../gcr/gcr-certificate-basics-widget.c:80
 msgid "<i>unknown</i>"
@@ -463,39 +462,39 @@ msgstr "<i>अज्ञात</i>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:1
 msgid "<Not Part of Certificate>"
-msgstr "<Not Part of Certificate>"
+msgstr "<सर्टिफिकेटको अंश होइन>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:2
 msgid "<b>Fingerprints</b>"
-msgstr ""
+msgstr "<b>फिङ्गरप्रीन्टस्</b>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:3
 msgid "<b>Issued By</b>"
-msgstr ""
+msgstr "<b>जारी गर्ने</b>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:4
 msgid "<b>Issued To</b>"
-msgstr ""
+msgstr "<b>जारी गर्दा</b>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:5
 msgid "<b>This certificate has been verified for the following uses:</b>"
-msgstr ""
+msgstr "<b>यो सर्टिफिकेट निम्न प्रयोगका लागी यकिन गरिएको छ:</b>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:6
 msgid "<b>Validity</b>"
-msgstr ""
+msgstr "<b>वैधता</b>"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:7
 msgid "Common Name (CN)"
-msgstr ""
+msgstr "साझा नाम (CN)"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:8
 msgid "Email Recipient Certificate"
-msgstr ""
+msgstr "प्रापकको प्रमाणपत्र इमेल गर्नुहोस्"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:9
 msgid "Email Signer Certificate"
-msgstr ""
+msgstr "चिन्ह दिनेको प्रमाणपत्र इमेल गर्नुहोस्"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:10
 msgid "Expires On"
@@ -507,7 +506,7 @@ msgstr "जारी मिति"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:12
 msgid "MD5 Fingerprint"
-msgstr ""
+msgstr "MD5 फिङ्गरप्रीन्ट"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:13
 msgid "Organization (O)"
@@ -519,15 +518,15 @@ msgstr "संस्थागत इकाइ (OU)"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:15
 msgid "SHA1 Fingerprint"
-msgstr ""
+msgstr "SHA1 फिङ्गरप्रीन्ट"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:16
 msgid "SSL Client Certificate"
-msgstr ""
+msgstr "SSL क्लाइन्ट प्रमाणपत्र"
 
 #: ../gcr/gcr-certificate-basics-widget.ui.h:17
 msgid "SSL Server Certificate"
-msgstr ""
+msgstr "SSL सर्भर प्रमाणपत्र"
 
 #: ../gcr/gcr-certificate-details-widget.c:207
 msgid "Extension"
@@ -535,7 +534,7 @@ msgstr "विस्तार"
 
 #: ../gcr/gcr-certificate-details-widget.c:212
 msgid "Identifier"
-msgstr ""
+msgstr "पहिचायक"
 
 #: ../gcr/gcr-certificate-details-widget.c:222
 msgid "Value"
@@ -543,7 +542,7 @@ msgstr "मान"
 
 #: ../gcr/gcr-certificate-details-widget.c:229
 msgid "Critical"
-msgstr "नाजुक"
+msgstr "चरम"
 
 #: ../gcr/gcr-certificate-details-widget.c:229
 msgid "Yes"
@@ -622,8 +621,7 @@ msgstr ""
 
 #: ../gcr/gcr-import-dialog.ui.h:1
 msgid "<span size='large' weight='bold'>Import Certificates and Keys</span>"
-msgstr ""
-"<span size='large' weight='bold'>प्रमाणपत्र र कीहरु आयात गर्नुहोस्</span>"
+msgstr "<span size='large' weight='bold'>प्रमाणपत्र र कीहरु आयात गर्नुहोस्</span>"
 
 #: ../gcr/gcr-import-dialog.ui.h:2
 msgid "Import Into:"
@@ -817,7 +815,7 @@ msgstr "की पहिलेको भन्दा फरक छ"
 
 #: ../gp11/gp11-misc.c:149
 msgid "A key is needed"
-msgstr "की आवश्यक छ"
+msgstr "एउटा की अनिवार्य छ"
 
 #: ../gp11/gp11-misc.c:151
 msgid "Cannot include the key in digest"
@@ -845,7 +843,7 @@ msgstr ""
 
 #: ../gp11/gp11-misc.c:163
 msgid "The object is missing or invalid"
-msgstr ""
+msgstr "की हराइरहेको छ वा अमान्य छ"
 
 #: ../gp11/gp11-misc.c:165
 msgid "Another operation is already taking place"
@@ -881,7 +879,7 @@ msgstr "सत्र बन्द छ"
 
 #: ../gp11/gp11-misc.c:181
 msgid "Too many sessions are active"
-msgstr ""
+msgstr "सक्रिय सत्रै धेरै भयो"
 
 #: ../gp11/gp11-misc.c:183
 msgid "The session is invalid"
