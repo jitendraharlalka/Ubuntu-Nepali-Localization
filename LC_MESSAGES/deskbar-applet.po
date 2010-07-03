@@ -9,20 +9,21 @@
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
 # Nabin Gautam <nabin@mpp.org.np>, 2008.
 # jitendra <jitendra@otrc.gov.np>, 2010.
+# Suraj <ssapkota@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: deskbar-applet.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-26 07:01+0000\n"
-"PO-Revision-Date: 2010-04-25 14:57+0545\n"
-"Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
-"Language-Team: Open Technologies Resource Center\n"
+"PO-Revision-Date: 2010-07-03 15:23+0545\n"
+"Last-Translator: Suraj <ssapkota@gmail.com>\n"
+"Language-Team: Nepali l10n Team <>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.0\n"
+"X-Generator: Virtaal 0.6.1\n"
 "X-Launchpad-Export-Date: 2010-02-20 23:09+0000\n"
 
 #: ../data/deskbar-applet.schemas.in.h:1
@@ -30,8 +31,7 @@ msgid ""
 "Choose whether triggering the keyboard shortcut also pastes the current "
 "selection in the search box."
 msgstr ""
-"कीबोर्ड सर्टकट ट्रिगर गर्दा पनि खोजी बाकसमा हालको चयनलाई मेट्दछ या "
-"मेट्दैन रोज्नुहोस् ।"
+"कीबोर्ड सर्टकट ट्रिगर गर्दा पनि खोजी बाकसमा हालको चयनलाई मेट्दछ या मेट्दैन रोज्नुहोस् ।"
 
 #: ../data/deskbar-applet.schemas.in.h:2
 msgid "Clear entry after match has been selected"
@@ -51,13 +51,12 @@ msgid ""
 msgstr "सक्षम परिएमा खोजी परिणाम चयन गरिसकेपछि यसले प्रविष्टलाई खाली गर्नेछ"
 
 #: ../data/deskbar-applet.schemas.in.h:6
-msgid ""
-"If enabled the window will be closed after an action has been activated"
+msgid "If enabled the window will be closed after an action has been activated"
 msgstr "सक्षम पारिएमा एउटा कार्य सक्रिय पारिसकेपछि विन्डो बन्द हुनेछ"
 
 #: ../data/deskbar-applet.schemas.in.h:7
 msgid "Keybinding"
-msgstr "की बाइन्डिङ"
+msgstr "की-बाइन्डिङ"
 
 #: ../data/deskbar-applet.schemas.in.h:8
 msgid "Milliseconds to wait before starting to search"
@@ -69,11 +68,11 @@ msgstr "खोजी सुरु गर्न आवश्यक हुने �
 
 #: ../data/deskbar-applet.schemas.in.h:10
 msgid "Selects the user interface to use, one of \"Window\" or \"Button\""
-msgstr ""
+msgstr "एउटा user interface चुन्नुहोस्, \"विन्डो\" या \"वटन\""
 
 #: ../data/deskbar-applet.schemas.in.h:11
 msgid "The applet's entry width in number of characters"
-msgstr ""
+msgstr "एप्लेटको प्रविष्टि चैडाई, क्यारेक्टरको संख्यामा"
 
 #: ../data/deskbar-applet.schemas.in.h:12
 msgid "The default height of the window in pixels"
@@ -93,8 +92,7 @@ msgstr "विन्डोको पूर्वनिर्धारित च�
 
 #: ../data/deskbar-applet.schemas.in.h:16
 msgid "The key sequence will focus Deskbar-Applet, allowing to type quickly"
-msgstr ""
-"की अनुक्रमले चाँडै टाइप गर्न अनुमति दिँदै डेस्कबार-एप्लेट फोकस गर्नेछ"
+msgstr "की अनुक्रमले चाँडै टाइप गर्न अनुमति दिँदै डेस्कबार-एप्लेट फोकस गर्नेछ"
 
 #: ../data/deskbar-applet.schemas.in.h:17
 msgid ""
@@ -102,17 +100,17 @@ msgid ""
 "default, history, documents, emails, conversations, files, people, places, "
 "actions, web, websearch, news and notes."
 msgstr ""
-"प्रदर्शन गर्दा सङ्‌क्षिप्त हुने कोटिहरूको सूची । वैध कोटिहरू: "
-"पूर्वनिर्धारित, इतिहास, कागजात, इमेल, संवादहरू, फाइल, मानिस, स्थान, "
-"कार्यहरू, वेव, वेवखोजी, समाचार र टिपोटहरू हुन् ।"
+"प्रदर्शन गर्दा सङ्‌क्षिप्त हुने कोटिहरूको सूची । वैध कोटिहरू: पूर्वनिर्धारित, इतिहास, "
+"कागजात, इमेल, संवादहरू, फाइल, मानिस, स्थान, कार्यहरू, वेव, वेवखोजी, समाचार र टिपोटहरू "
+"हुन् ।"
 
 #: ../data/deskbar-applet.schemas.in.h:18
 msgid ""
 "The list of exported class names of the enabled handlers sorted by priority. "
 "Leftmost has highest priority"
 msgstr ""
-"प्राथमिकता अनुरूप सक्षम पारिएका ह्यान्डलरको निर्यात गरिएका वर्ग नामको सूची । "
-"सबैभन्दा बायाँको उच्च प्राथमिकता छ"
+"प्राथमिकता अनुरूप सक्षम पारिएका ह्यान्डलरको निर्यात गरिएका वर्ग नामको सूची । सबैभन्दा "
+"बायाँको उच्च प्राथमिकता छ"
 
 #: ../data/deskbar-applet.schemas.in.h:19
 msgid "The maximum number of items stored in history"
@@ -122,33 +120,29 @@ msgstr "इतिहासमा भण्डार गरिएका वस्
 msgid ""
 "The minimum number of characters that need to be typed before the applet "
 "starts showing matches"
-msgstr ""
-"एप्लेटले मिल्दो देखाउन सुरु गर्नुपहिला टाइप गरिनुपर्ने आवश्यक क्यारेक्टरको "
-"न्यूनतम सङ्ख्या"
+msgstr "एप्लेटले मिल्दो देखाउन सुरु गर्नुपहिला टाइप गरिनुपर्ने आवश्यक क्यारेक्टरको न्यूनतम सङ्ख्या"
 
 #: ../data/deskbar-applet.schemas.in.h:21
 msgid ""
 "The time in milliseconds between a keystroke in the search entry and the "
 "actual search being performed"
-msgstr ""
-"खोजी प्रविष्टि र वास्तविक खोजीकार्य सम्पादनमा किस्ट्रोक बीचको समय "
-"मिलिसेकेण्डमा"
+msgstr "खोजी प्रविष्टि र वास्तविक खोजीकार्य सम्पादनमा किस्ट्रोक बीचको समय मिलिसेकेण्डमा"
 
 #: ../data/deskbar-applet.schemas.in.h:22
 msgid "This value only takes effect when \"ui_name\" is set to \"Button\""
-msgstr ""
+msgstr "यो मान \"ui_name\", \"बटन\" भएको बेलामा मात्र उपयोगमा आऊँछ।"
 
 #: ../data/deskbar-applet.schemas.in.h:23
 msgid "Whether to close the window after an action has been activated"
-msgstr ""
+msgstr "के यो विन्डो कार्य सक्रिय भएपछि बन्द गर्ने"
 
 #: ../data/deskbar-applet.schemas.in.h:24
 msgid ""
 "Whether to show only the preferred search engine, rather than all available "
 "engines. This only affects Mozilla-based web browsers such as Firefox."
 msgstr ""
-"सबै उपलब्ध इन्जिनभन्दा रूचाइएका खोजी इन्जिन मात्र देखाउने या नदेखाउने । यसले "
-"मोजिलामा-आधारित वेब ब्राउजरलाई मात्र प्रभाव पार्दछ जस्तै फायरफक्स ।"
+"सबै उपलब्ध इन्जिनभन्दा रूचाइएका खोजी इन्जिन मात्र देखाउने या नदेखाउने । यसले मोजिलामा-"
+"आधारित वेब ब्राउजरलाई मात्र प्रभाव पार्दछ जस्तै फायरफक्स ।"
 
 #: ../data/deskbar-applet.schemas.in.h:25
 msgid "Whether triggering Deskbar-Applet pastes the current selection"
@@ -216,7 +210,7 @@ msgstr "<b>चौडाइ</b>"
 
 #: ../data/prefs-dialog.ui.h:6
 msgid "<b>Window Behavior</b>"
-msgstr ""
+msgstr "<b>विन्डो वेबाहार</b>"
 
 #: ../data/prefs-dialog.ui.h:7
 msgid "Deskbar Preferences"
@@ -224,7 +218,7 @@ msgstr "डेस्कबार प्राथमिकताहरू"
 
 #: ../data/prefs-dialog.ui.h:8
 msgid "Display extensions with tag:"
-msgstr ""
+msgstr "विस्तार ट्यागसंग देखाउने:"
 
 #: ../data/prefs-dialog.ui.h:9
 msgid "Extensions with Errors"
@@ -248,7 +242,7 @@ msgstr "खोजीहरू"
 
 #: ../data/prefs-dialog.ui.h:14
 msgid "Stick to panel"
-msgstr ""
+msgstr "पेनलमा सटाउने"
 
 #: ../data/prefs-dialog.ui.h:15
 msgid "_Check For Updates"
@@ -285,8 +279,8 @@ msgstr "क्यारेक्टरहरू"
 #: ../data/smart-bookmarks.ui.h:1
 msgid ""
 "<i><small><b>Note:</b> To use a shortcut (for example <b>wp</b>) to search "
-"for <b>something</b>, type \"<b>wp something</b>\" in the "
-"deskbar</small></i>."
+"for <b>something</b>, type \"<b>wp something</b>\" in the deskbar</small></"
+"i>."
 msgstr ""
 "<i><small><b> द्रष्टव्य</b> सर्टकट प्रयोग गर्न (उदाहरणका लागि<b>wp</b>) केही "
 "<b>खोज्नका लागि</b>, डेस्कटपमा \"<b>wp केही</b>\" टाइप गर्नुहोस्</small></i>।"
@@ -455,7 +449,7 @@ msgstr "कृपया <b>%s</b> का लागि आफ्नो परि�
 #. translators: This is the window title.
 #: ../deskbar/deskbar-applet.py:17
 msgid "Deskbar Applet"
-msgstr ""
+msgstr "डेक्स्टप एप्लेट"
 
 #: ../deskbar/handlers/beagle-live.py:248
 #, python-format
@@ -482,7 +476,7 @@ msgstr "पात्रो: %s"
 #: ../deskbar/handlers/beagle-live.py:352
 #, python-format
 msgid "Open %s containing %s"
-msgstr ""
+msgstr "%s खोल्नुहोस्, %s समावेस भएको "
 
 #: ../deskbar/handlers/beagle-live.py:354
 #: ../deskbar/handlers/actions/OpenFileAction.py:52
@@ -508,8 +502,7 @@ msgstr "गुप्तचर लाइभ"
 
 #: ../deskbar/handlers/beagle-live.py:487
 msgid "Search all of your documents (using Beagle), as you type"
-msgstr ""
-"तपाईँले टाइप गरेअनुरूप, सबै कागजातहरू (गुप्ताचरको प्रयोग गरेर) खोजी गर्नुहोस्"
+msgstr "तपाईँले टाइप गरेअनुरूप, सबै कागजातहरू (गुप्ताचरको प्रयोग गरेर) खोजी गर्नुहोस्"
 
 #. translators: This is used for unknown values returned by beagle
 #. translators: for example unknown email sender, or unknown note title
@@ -525,7 +518,7 @@ msgstr "बिगल लोड गर्न सकेन, पाइथन बा
 
 #: ../deskbar/handlers/beagle-live.py:789
 msgid "Beagle daemon is not running."
-msgstr ""
+msgstr "बे"
 
 #: ../deskbar/handlers/beagle-live.py:792
 msgid "Beagled could not be found in your $PATH."
@@ -551,7 +544,7 @@ msgstr "बिगल स्थापना गरिएको देखिँद
 #: ../deskbar/handlers/calculator.py:94
 #, python-format
 msgid "Copy <b>%(origtext)s = %(name)s</b> to clipboard"
-msgstr ""
+msgstr "<b>%(origtext)s = %(name)s</b> लाई क्लिप्बोर्डमा प्रतिलिपि गर्ने"
 
 #: ../deskbar/handlers/calculator.py:121 ../deskbar/handlers/calculator.py:124
 msgid "Calculator"
@@ -559,15 +552,15 @@ msgstr "क्यालकुलेटर"
 
 #: ../deskbar/handlers/calculator.py:122
 msgid "Calculate simple equations"
-msgstr ""
+msgstr "साधारण समीकरण हल गर्नुहोस् "
 
 #: ../deskbar/handlers/desklicious.py:52
 msgid "del.icio.us Bookmarks"
-msgstr "del.icio.us पुस्तकचिनो"
+msgstr "del.icio.us पादकचिन्नहरु"
 
 #: ../deskbar/handlers/desklicious.py:53
 msgid "Search your del.icio.us bookmarks by tag name"
-msgstr "ट्याग नामद्वारा तपाईँका del.icio.us पुस्तकचिनो खोजी गर्नुहोस्"
+msgstr "ट्याग-नामद्वारा तपाईँका del.icio.us पादकचिन्न खोजी गर्नुहोस्"
 
 #: ../deskbar/handlers/desklicious.py:78
 msgid "del.icio.us Account"
@@ -626,7 +619,7 @@ msgstr "नामअनुसार तपाईँको वेब इतिह
 #: ../deskbar/handlers/evolution.py:32
 #, python-format
 msgid "Edit contact <b>%(name)s</b> (%(email)s)"
-msgstr ""
+msgstr "सम्पर्क सम्पादन <b>%(name)s</b> (%(email)s)"
 
 #: ../deskbar/handlers/evolution.py:47
 msgid "Mail (Address Book)"
@@ -634,8 +627,7 @@ msgstr "पत्र (ठेगाना पुस्तिका)"
 
 #: ../deskbar/handlers/evolution.py:48
 msgid "Send mail to your contacts by typing their name or e-mail address"
-msgstr ""
-"तपाईँका सम्पर्कको नाम वा इमेल ठेगाना टाइप गरेर तिनीहरूलाई पत्र पठाउनुहोस्"
+msgstr "तपाईँका सम्पर्कको नाम वा इमेल ठेगाना टाइप गरेर तिनीहरूलाई पत्र पठाउनुहोस्"
 
 #: ../deskbar/handlers/evolution.py:72
 msgid ""
@@ -645,9 +637,9 @@ msgid ""
 "choose Edit - Preferences, and then Autocompletion."
 msgstr ""
 "स्वत: समाप्ति सक्षम पारिएको हुनुपर्दछ\n"
-"स्वत:समाप्ति सक्षम नपारेसम्म तपाईँको ठेगाना पुस्तिकाबाट इमेल ठेगाना प्रदान "
-"गर्न सकिँदैन । त्यसो गर्न, तपाईँको पत्र कार्यक्रमको मेनुबाट, सम्पादन - "
-"प्राथमिकता, र त्यसपछि स्वत: सम्पन्न्न रोज्नुहोस् ।"
+"स्वत:समाप्ति सक्षम नपारेसम्म तपाईँको ठेगाना पुस्तिकाबाट इमेल ठेगाना प्रदान गर्न सकिँदैन । "
+"त्यसो गर्न, तपाईँको पत्र कार्यक्रमको मेनुबाट, सम्पादन - प्राथमिकता, र त्यसपछि स्वत: "
+"सम्पन्न्न रोज्नुहोस् ।"
 
 #. FIXME:
 #. _("Location") should be _("Location of %s") % name
@@ -662,13 +654,11 @@ msgstr "फाइल, फोल्डर र स्थानहरू"
 
 #: ../deskbar/handlers/files.py:72
 msgid "View your files, folders, bookmarks, drives, network places by name"
-msgstr ""
-"नामअनुसार राखिएको तपाईँको फाइल, फोल्डर, पुस्तकचिनो, ड्राइभ, सञ्‍‌जाल "
-"हेर्नुहोस्"
+msgstr "नामअनुसार राखिएको तपाईँको फाइल, फोल्डर, पुस्तकचिनो, ड्राइभ, सञ्‍‌जाल हेर्नुहोस्"
 
 #: ../deskbar/handlers/gdmactions.py:41
 msgid "Shut down this system now?"
-msgstr ""
+msgstr "कम्प्युटर अब बन्द गर्ने?"
 
 #: ../deskbar/handlers/gdmactions.py:42 ../deskbar/handlers/gdmactions.py:273
 #: ../deskbar/handlers/gdmactions.py:343
@@ -677,7 +667,7 @@ msgstr "बन्द गर्नुहोस्"
 
 #: ../deskbar/handlers/gdmactions.py:44
 msgid "Log out of this system now?"
-msgstr "यो प्रणालीबाट अहिले लगआउट हुने हो?"
+msgstr "यो प्रणालीबाट अब लगआउट हुने हो?"
 
 #: ../deskbar/handlers/gdmactions.py:45 ../deskbar/handlers/gdmactions.py:292
 #: ../deskbar/handlers/gdmactions.py:296 ../deskbar/handlers/gdmactions.py:346
@@ -686,7 +676,7 @@ msgstr "लगआउट"
 
 #: ../deskbar/handlers/gdmactions.py:47
 msgid "Restart this system now?"
-msgstr ""
+msgstr "कम्प्युटर अब पुन:सुरु गर्ने?"
 
 #: ../deskbar/handlers/gdmactions.py:48 ../deskbar/handlers/gdmactions.py:319
 #: ../deskbar/handlers/gdmactions.py:345
@@ -695,15 +685,15 @@ msgstr "पुन:सुरु गर्नुहोस्"
 
 #: ../deskbar/handlers/gdmactions.py:50
 msgid "Suspend this system now?"
-msgstr ""
+msgstr "कम्प्युटर अब सस्पेन्ड गर्ने?"
 
 #: ../deskbar/handlers/gdmactions.py:51 ../deskbar/handlers/gdmactions.py:375
 msgid "Suspend"
-msgstr "निलम्बन गर्नुहोस्"
+msgstr "सस्पेन्ड गर्नुहोस्"
 
 #: ../deskbar/handlers/gdmactions.py:53
 msgid "Hibernate this system now?"
-msgstr ""
+msgstr "कम्प्युटर अब हाईवर्नेट गर्ने?"
 
 #: ../deskbar/handlers/gdmactions.py:54 ../deskbar/handlers/gdmactions.py:377
 msgid "Hibernate"
@@ -727,22 +717,22 @@ msgstr[1] "तपाई %s सेकेन्डमा आफै लगआउट
 #, python-format
 msgid "This system will be automatically restarted in %s second."
 msgid_plural "This system will be automatically restarted in %s seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो प्रणाली %s सेकेन्डमा आफै पुन:सुरु हुनेछ।"
+msgstr[1] "यो प्रणाली %s सेकेन्डमा आफै पुन:सुरु हुनेछ।"
 
 #: ../deskbar/handlers/gdmactions.py:74
 #, python-format
 msgid "This system will be automatically suspended in %s second."
 msgid_plural "This system will be automatically suspended in %s seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो प्रणाली %s सेकेन्डमा आफै सस्पन्ड हुनेछ।"
+msgstr[1] "यो प्रणाली %s सेकेन्डमा आफै सस्पन्ड हुनेछ।"
 
 #: ../deskbar/handlers/gdmactions.py:78
 #, python-format
 msgid "This system will be automatically hibernated in %s second."
 msgid_plural "This system will be automatically hibernated in %s seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "यो प्रणाली %s सेकेन्डमा आफै हाईबर्नेट हुनेछ।"
+msgstr[1] "यो प्रणाली %s सेकेन्डमा आफै हाईबर्नेट हुनेछ।"
 
 #: ../deskbar/handlers/gdmactions.py:128
 msgid "Suspend the machine"
@@ -758,7 +748,7 @@ msgstr "मेशिन बन्द गर्नुहोस्"
 
 #: ../deskbar/handlers/gdmactions.py:192
 msgid "Reboot the machine"
-msgstr ""
+msgstr "मसिन पुन:सुरु गर्ने"
 
 #: ../deskbar/handlers/gdmactions.py:214
 msgid "Lock the screen"
@@ -779,7 +769,7 @@ msgstr "कम्प्युटर पुन:सुरु गर्नुहो
 #: ../deskbar/handlers/gdmactions.py:330 ../deskbar/handlers/gdmactions.py:334
 #: ../deskbar/handlers/gdmactions.py:344
 msgid "Switch User"
-msgstr "स्वीच प्रयोगकर्ता"
+msgstr "प्रयोगकर्ता परिवर्तन"
 
 #: ../deskbar/handlers/gdmactions.py:340
 msgid "Computer Actions"
@@ -787,9 +777,7 @@ msgstr "कम्प्युटर कार्य"
 
 #: ../deskbar/handlers/gdmactions.py:341
 msgid "Logoff, shutdown, restart, suspend and related actions."
-msgstr ""
-"लगअफ, बन्द गर्नुहोस्, पुन:सुरु गर्नुहोस्, निलम्बन गर्नुहोस् र सम्बन्धित "
-"कार्यहरू ।"
+msgstr "लगअफ, बन्द गर्नुहोस्, पुन:सुरु गर्नुहोस्, निलम्बन गर्नुहोस् र सम्बन्धित कार्यहरू ।"
 
 #: ../deskbar/handlers/gdmactions.py:379
 msgid "Shutdown"
@@ -797,7 +785,7 @@ msgstr "बन्द गर्नुहोस्"
 
 #: ../deskbar/handlers/gdmactions.py:381
 msgid "Reboot"
-msgstr ""
+msgstr "पुन:सुरु"
 
 #: ../deskbar/handlers/googlecodesearch.py:28
 msgid "Google Code Search"
@@ -957,7 +945,7 @@ msgstr "सर्बियाली"
 
 #: ../deskbar/handlers/googlesearch.py:60 ../deskbar/handlers/yahoo.py:60
 msgid "Slovak"
-msgstr ""
+msgstr "स्लोभक"
 
 #: ../deskbar/handlers/googlesearch.py:61 ../deskbar/handlers/yahoo.py:62
 msgid "Slovenian"
@@ -984,7 +972,7 @@ msgstr "गुगल खोजी"
 
 #: ../deskbar/handlers/googlesearch.py:79
 msgid "Search terms through Google Search engine."
-msgstr ""
+msgstr "गुगल सर्च बाट शब्दहरु खोज्नुहोस्।"
 
 #: ../deskbar/handlers/googlesearch.py:82 ../deskbar/handlers/yahoo.py:96
 msgid "You can configure in which language the results should be."
@@ -1059,7 +1047,7 @@ msgstr "वेब इतिहास (मोजिला)"
 #: ../deskbar/handlers/opensearch.py:86
 #, python-format
 msgid "Website: <b>%(name)s</b>"
-msgstr ""
+msgstr "वेबसाइट: <b>%(name)s</b>"
 
 #: ../deskbar/handlers/opensearch.py:92
 msgid "OpenSearch"
@@ -1094,11 +1082,11 @@ msgstr ""
 
 #: ../deskbar/handlers/opensearch.py:442
 msgid "_Name:"
-msgstr "नाम:"
+msgstr "_नाम:"
 
 #: ../deskbar/handlers/opensearch.py:453
 msgid "_Description:"
-msgstr "वर्णन:"
+msgstr "_वर्णन:"
 
 #: ../deskbar/handlers/opensearch.py:469
 msgid "Edit OpenSearch Website"
@@ -1165,7 +1153,7 @@ msgstr "शब्दकोशमा शब्दका परिभाषा ह
 
 #: ../deskbar/handlers/programs.py:150
 msgid "GNOME dictionary is not installed"
-msgstr ""
+msgstr "GNOME शब्दकोस इस्टल भएको छैन"
 
 #: ../deskbar/handlers/programs.py:157
 msgid "Files and Folders Search"
@@ -1177,7 +1165,7 @@ msgstr "नाम बाँन्कीको खोजीद्वारा फ
 
 #: ../deskbar/handlers/programs.py:174
 msgid "GNOME search tool is not installed"
-msgstr ""
+msgstr "GNOME-खोज उपकरण इस्टल भएको छैन"
 
 #: ../deskbar/handlers/programs.py:181
 msgid "Developer Documentation"
@@ -1189,17 +1177,17 @@ msgstr "प्रकार्य नामका लागि डेभहेल
 
 #: ../deskbar/handlers/programs.py:201
 msgid "Devhelp is not installed"
-msgstr ""
+msgstr "Devhelp इस्टल भएको छैन"
 
 #: ../deskbar/handlers/programs.py:250
 #, python-format
 msgid "Execute %s in terminal"
-msgstr ""
+msgstr "%s लाई टर्मिनलमा चलाउनुहोस्"
 
 #: ../deskbar/handlers/programs.py:252
 #, python-format
 msgid "Execute %s"
-msgstr "%s कार्यान्वयन गर्नुहोस्"
+msgstr "%s लाई चलाउनुहोस्"
 
 #: ../deskbar/handlers/programs.py:279
 msgid "Programs"
@@ -1219,8 +1207,7 @@ msgstr "तपाईँका हालै पहुँच प्राप्त
 
 #: ../deskbar/handlers/recent.py:58
 msgid "This handler requires a more recent gtk version (2.9.0 or newer)."
-msgstr ""
-"यो ह्याण्डलरलाई नविनतम जीटीके संस्करण (२.९.० वा भन्दा नयाँ) आवश्यक हुन्छ ।"
+msgstr "यो ह्याण्डलरलाई नविनतम जीटीके संस्करण (२.९.० वा भन्दा नयाँ) आवश्यक हुन्छ ।"
 
 #: ../deskbar/handlers/templates.py:44
 #, python-format
@@ -1229,7 +1216,7 @@ msgstr "%s निर्माण गर्नुहोस्"
 
 #: ../deskbar/handlers/templates.py:47
 msgid "Create Document"
-msgstr ""
+msgstr "कागजात बनाउनुहोस्"
 
 #: ../deskbar/handlers/templates.py:60
 msgid "Name:"
@@ -1246,17 +1233,18 @@ msgstr "फोल्डर रोज्नुहोस्"
 #: ../deskbar/handlers/templates.py:126
 #, python-format
 msgid "A file named \"%s\" already exists.  Do you want to replace it?"
-msgstr ""
+msgstr "फाइल नाम \"%s\" पहिल्यै अवस्थित छ। के तपाईँ यसलाई प्रतिस्थापन गर्न चाहनुहुन्छ ?"
 
 #: ../deskbar/handlers/templates.py:130
 #, python-format
 msgid ""
 "The file already exists in \"%s\".  Replacing it will overwrite its contents."
 msgstr ""
+"फाइल नाम \"%s\" पहिल्यै अवस्थित छ। यसलाई बदल्नाले यसको सामग्रीहरूमा अधिलेखन हुन्छ।"
 
 #: ../deskbar/handlers/templates.py:137
 msgid "Replace"
-msgstr ""
+msgstr "प्रतिस्थापन"
 
 #: ../deskbar/handlers/templates.py:173
 msgid "Templates"
@@ -1268,35 +1256,35 @@ msgstr "आफ्नो टेम्पलेटबाट नयाँ फाइ
 
 #: ../deskbar/handlers/templates.py:230
 msgid "Could not retrieve templates directory"
-msgstr ""
+msgstr "टेम्पलेट डाइरेक्टरी फेला पार्न सकेन"
 
 #: ../deskbar/handlers/templates.py:236
 #, python-format
 msgid "Templates directory %s does not exist"
-msgstr ""
+msgstr "`%s` टेम्पलेट डाइरेक्टरी अवस्थित छैन"
 
 #: ../deskbar/handlers/tomboy.py:41
 #, python-format
 msgid "Open note <b>%(name)s</b>"
-msgstr ""
+msgstr "<b>%(name)s</b> द्रष्टव्य खोल्नुहोस्"
 
 #: ../deskbar/handlers/tomboy.py:62
 msgid "Really delete this note?"
-msgstr ""
+msgstr "साच्चै यो द्रष्टव्य मेट्नुहुन्छ?"
 
 #: ../deskbar/handlers/tomboy.py:63
 msgid "If you delete a note it is permanently lost."
-msgstr ""
+msgstr "यदि तपाईँले एउटा द्रष्टव्य मेट्नुभयो भने यो स्थायी रूपमै नष्ट हुन्छ ।"
 
 #: ../deskbar/handlers/tomboy.py:75
 #, python-format
 msgid "Delete note <b>%(name)s</b>"
-msgstr ""
+msgstr "<b>%(name)s</b> द्रष्टव्य मेट्नुहोस्"
 
 #: ../deskbar/handlers/tomboy.py:104
 #, python-format
 msgid "Create note <b>%(name)s</b>"
-msgstr ""
+msgstr "<b>%(name)s</b> द्रष्टव्य बनाउनुहोस्"
 
 #: ../deskbar/handlers/tomboy.py:130
 msgid "Title"
@@ -1308,15 +1296,15 @@ msgstr "सामग्री"
 
 #: ../deskbar/handlers/tomboy.py:150
 msgid "Tomboy Notes"
-msgstr ""
+msgstr "Tomboy द्रष्टव्यहरू"
 
 #: ../deskbar/handlers/tomboy.py:151
 msgid "Search your Tomboy notes"
-msgstr ""
+msgstr "तपाईँको द्रष्टव्यहरू खोजी गर्नुहोस् (Ctrl-Shift-F)"
 
 #: ../deskbar/handlers/tomboy.py:238
 msgid "Tomboy does not seem to be installed."
-msgstr ""
+msgstr "Tomboy स्थापना गरिएको देखिँदैन ।"
 
 #: ../deskbar/handlers/tomboy.py:278
 #, python-format
@@ -1350,13 +1338,13 @@ msgid "Error posting to %s"
 msgstr ""
 
 #. TRANSLATORS: An example display of the below string:
-#. 
+#.
 #. (125) Post "I can eat glass"
-#. 
+#.
 #. The number in the parens indicates how many characters the user
 #. has left of the maximum message size. It should be at the start of
 #. the string as to not be hidden by ellipsation.
-#. 
+#.
 #: ../deskbar/handlers/twitter.py:165
 #, python-format
 msgid "<small>(%(remain)s)</small> Post <i>\"%(msg)s\"</i>"
@@ -1407,7 +1395,7 @@ msgstr "चिनियाँ"
 
 #: ../deskbar/handlers/wikipedia-suggest.py:37
 msgid "Ukrainian"
-msgstr ""
+msgstr "युक्रेनियाली"
 
 #: ../deskbar/handlers/wikipedia-suggest.py:48
 #, python-format
@@ -1531,9 +1519,9 @@ msgstr "डेस्कबार वेबसाइट"
 #: ../deskbar/ui/About.py:36
 msgid "translator-credits"
 msgstr ""
-"Mahesh Subedi<submanesh@yhoomail.com> Shiva Pokharel "
-"<pokharelshiva@hotmail.com>, Nabin Gautam<nabin@mpp.org.np>, Jitendra "
-"Harlalka <jitendra@otrc.gov.np>"
+"Mahesh Subedi<submanesh@yhoomail.com> Shiva Pokharel <pokharelshiva@hotmail."
+"com>, Nabin Gautam<nabin@mpp.org.np>, Jitendra Harlalka <jitendra@otrc.gov."
+"np>"
 
 #: ../deskbar/ui/cuemiac/CuemiacHeader.py:26
 msgid "<b>Search:</b>"
@@ -1592,19 +1580,18 @@ msgid ""
 "of your keyboard.\n"
 "Please try with a key such as Control, Alt or Shift at the same time.\n"
 msgstr ""
-"सर्टकट \"%s\" प्रयोग गर्न सकिँदैन किनभने यसले तपाईँको कुञ्‍‌जीपाटीको सही "
-"सञ्‍‌चालन रोक्नेछ ।\n"
+"सर्टकट \"%s\" प्रयोग गर्न सकिँदैन किनभने यसले तपाईँको कुञ्‍‌जीपाटीको सही सञ्‍‌चालन रोक्नेछ ।\n"
 "कृपया एकै समयमा जस्तै Control, Alt वा Shift कीसँग प्रयोग गर्नुहोस् ।\n"
 
 #: ../deskbar/ui/preferences/DeskbarPreferences.py:96
 msgid "<i><small>Drag and drop an extension to change its order.</small></i>"
 msgstr ""
-"<i><small>विस्तारको क्रम परिवर्तन गर्न एउटा विस्तार तान्नुहोस् र छोड्नुहोस् "
-"।</small></i>"
+"<i><small>विस्तारको क्रम परिवर्तन गर्न एउटा विस्तार तान्नुहोस् र छोड्नुहोस् ।</small></"
+"i>"
 
 #: ../deskbar/ui/preferences/DeskbarPreferences.py:170
 msgid "All Extensions"
-msgstr ""
+msgstr "सबै विस्तारहरू"
 
 #: ../deskbar/ui/preferences/DeskbarPreferences.py:231
 msgid "A problem occured"
@@ -1624,7 +1611,7 @@ msgstr ""
 
 #: ../deskbar/ui/preferences/DeskbarPreferences.py:537
 msgid "Retrieving list of extensions"
-msgstr ""
+msgstr "विस्तारहरूको सूची पुन: प्राप्ती गर्दैछ"
 
 #: ../deskbar/ui/preferences/DeskbarPreferences.py:538
 msgid "A list of available extensions is downloaded."
