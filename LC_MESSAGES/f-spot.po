@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: f-spot\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-02-11 01:35+0000\n"
-"PO-Revision-Date: 2010-05-21 00:41+0545\n"
+"PO-Revision-Date: 2010-06-27 18:34+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: ne\n"
@@ -696,7 +696,7 @@ msgstr "अमान्य युआरएल"
 
 #: ../extensions/Exporters/GalleryExport/GalleryExport.cs:392
 msgid "The gallery URL entry does not appear to be a valid URL"
-msgstr ""
+msgstr "ग्यालरी यूआरएल प्रविष्टि मान्य यूआरएल जस्तो देखिन्न ।"
 
 #: ../extensions/Exporters/GalleryExport/GalleryExport.cs:402
 #: ../extensions/Exporters/GalleryExport/GalleryExport.cs:429
@@ -721,6 +721,8 @@ msgid ""
 "There is already a Gallery with the same name in your registered Galleries. "
 "Please choose a unique name."
 msgstr ""
+"तपाईको दर्ता भएका ग्यालरीहरुमा सोहि नामको ग्यालरी पहिले देखि छ । कृपया मौलिक "
+"नाम रोज्नुहोस् ।"
 
 #: ../extensions/Exporters/GalleryExport/GalleryExport.cs:528
 msgid "(TopLevel)"
@@ -858,7 +860,7 @@ msgstr "सर्भरको प्रतिक्रिया पढ्दा 
 #. failed to find the response
 #: ../extensions/Exporters/GalleryExport/GalleryRemote.cs:373
 msgid "Server returned response without Gallery content"
-msgstr ""
+msgstr "सर्भरले ग्यालरी सामग्री बिना नै प्रतिकृया दियो"
 
 #: ../extensions/Exporters/GalleryExport/GalleryRemote.cs:710
 msgid "Error while creating new album"
@@ -1346,15 +1348,15 @@ msgstr ""
 
 #: ../lib/mono-addins/Mono.Addins.Gui/gtk-gui/Mono.Addins.Gui.AddinInstallerDialog.cs:64
 msgid "The following extensions will be installed:"
-msgstr ""
+msgstr "निम्न विस्तारहरु इन्सटल हुनेछन्:"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/gtk-gui/Mono.Addins.Gui.AddinManagerDialog.cs:90
 msgid "<big><b>Extension Manager</b></big>"
-msgstr ""
+msgstr "<big><b>विस्तार प्रबन्धक</b></big>"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/gtk-gui/Mono.Addins.Gui.AddinManagerDialog.cs:110
 msgid "The following extensions are currently installed:"
-msgstr ""
+msgstr "निम्न विस्तारहरु हाल इन्सटल छन्:"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/gtk-gui/Mono.Addins.Gui.AddinManagerDialog.cs:165
 msgid "_Install Extensions..."
@@ -1484,11 +1486,11 @@ msgstr ""
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInstallDialog.cs:447
 msgid "The uninstallation failed!"
-msgstr ""
+msgstr "अनइन्सटल प्रक्रिया असफल!"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInstallDialog.cs:448
 msgid "The uninstallation has completed with warnings."
-msgstr ""
+msgstr "अनइन्सटल प्रक्रिया चेतावनीहरुका साथ पूरा भयो।"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInstallDialog.cs:616
 msgid "Repository"
@@ -1500,7 +1502,7 @@ msgstr "इन्सटल प्रक्रिया रद्द गरिय
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInstallerDialog.cs:159
 msgid "Some of the required extensions were not found"
-msgstr ""
+msgstr "केहि आवश्यक विस्तारहरु फेला परेनन्"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInstallerDialog.cs:171
 msgid "Installation failed"
@@ -1508,7 +1510,7 @@ msgstr "इन्सटल प्रक्रिया असफल"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinTreeWidget.cs:91
 msgid "Extension"
-msgstr ""
+msgstr "विस्तार"
 
 #: ../lib/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinTreeWidget.cs:112
 #: ../src/Widgets/InfoBox.cs:214
@@ -2043,7 +2045,7 @@ msgstr "मर्मत गर्नुहोस्"
 
 #: ../src/f-spot.glade.h:71
 msgid "Select Photos to Copy From Camera..."
-msgstr ""
+msgstr "क्यामराबाट प्रतिलिपि गर्नुपर्ने फोटोहरु छान्नुहोस्..."
 
 #: ../src/f-spot.glade.h:72
 msgid "Select a Tag..."
@@ -3455,15 +3457,15 @@ msgstr "ट्याग सम्पादन गर्नुहोस्"
 
 #: ../src/UI.Dialog/ui/EditTagDialog.ui.h:3
 msgid "Edit icon"
-msgstr ""
+msgstr "आइकन सम्पादन गर्नुहोस्"
 
 #: ../src/UI.Dialog/ui/EditTagDialog.ui.h:5
 msgid "_Icon:"
-msgstr ""
+msgstr "आइकन:"
 
 #: ../src/UI.Dialog/ui/EditTagIconDialog.ui.h:1
 msgid "<b>From External Photo</b>"
-msgstr ""
+msgstr "<b>बाहिरी फोटोबाट</b>"
 
 #: ../src/UI.Dialog/ui/EditTagIconDialog.ui.h:2
 msgid "<b>From Photo</b>"
@@ -3565,7 +3567,7 @@ msgstr ""
 
 #: ../src/ui/main_window.ui.h:7
 msgid "Copy Locat_ion"
-msgstr ""
+msgstr "स्थान प्रतिलिपि गर्नुहोस्"
 
 #: ../src/ui/main_window.ui.h:8
 msgid "Create New _Tag..."
@@ -3581,7 +3583,7 @@ msgstr "खोजी"
 
 #: ../src/ui/main_window.ui.h:12
 msgid "Manage _Extensions"
-msgstr ""
+msgstr "विस्तार व्यवस्थापन गर्नुहोस्"
 
 #: ../src/ui/main_window.ui.h:13
 msgid "Page Set_up..."
@@ -3593,7 +3595,7 @@ msgstr ""
 
 #: ../src/ui/main_window.ui.h:19
 msgid "Select _None"
-msgstr ""
+msgstr "कुनै पनि नछान्नुहोस्"
 
 #: ../src/ui/main_window.ui.h:20
 msgid "Send by _Mail..."
@@ -3621,7 +3623,7 @@ msgstr ""
 
 #: ../src/ui/main_window.ui.h:33
 msgid "_Attach Tag to Selection"
-msgstr ""
+msgstr "छनौटमा ट्याग जोड्नुहोस्"
 
 #: ../src/ui/main_window.ui.h:35
 msgid "_Clear Rating Filter"
@@ -4011,7 +4013,7 @@ msgstr "कुनै मेटाडाटा उपलब्ध छैन्"
 
 #: ../src/Widgets/OpenWithMenu.cs:71
 msgid "No applications available"
-msgstr ""
+msgstr "कुनै सफ्टवेयर उपलब्ध छैन"
 
 #: ../src/Widgets/RatingMenuItem.cs:56
 msgid "Rating:"
@@ -4032,7 +4034,7 @@ msgstr "प्रान्त"
 #. namespace
 #: ../tools/f-spot-screensaver.desktop.in.h:1
 msgid "Display a slideshow from F-Spot"
-msgstr ""
+msgstr "फोटो-स्पटबाट स्लाइडशो देखाउनुहोस्"
 
 #: ../tools/f-spot-screensaver.desktop.in.h:2
 msgid "F-Spot photos"

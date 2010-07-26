@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-games.gnomes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-11-20 15:07+0100\n"
-"PO-Revision-Date: 2010-06-23 23:42+0545\n"
+"PO-Revision-Date: 2010-06-27 18:03+0545\n"
 "Last-Translator: jitendra <jitendra@otrc.gov.np>\n"
 "Language-Team: Open Technologies Resource Center\n"
 "Language: en\n"
@@ -93,7 +93,7 @@ msgstr "    प्रयोगकर्तालाई नेटवर्कम�
 #: ../ggz-gtk/chat.c:495
 #, c-format
 msgid "Beep sent to %s."
-msgstr ""
+msgstr "%s लाई बिप पठाइयो ।"
 
 #: ../ggz-gtk/chat.c:523
 #, c-format
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:567 ../ggz-gtk/client.c:576 ../ggz-gtk/client.c:615
 msgid "Error Joining"
-msgstr ""
+msgstr "शामेल हुँदा त्रुटि"
 
 #: ../ggz-gtk/client.c:576 ../ggz-gtk/client.c:614
 msgid "That table is full."
@@ -209,7 +209,7 @@ msgstr ""
 #: ../ggz-gtk/client.c:586 ../ggz-gtk/client.c:627 ../ggz-gtk/game.c:297
 #: ../ggz-gtk/game.c:305 ../ggz-gtk/launch.c:335
 msgid "Game Error"
-msgstr ""
+msgstr "खेल त्रुटि"
 
 #: ../ggz-gtk/client.c:600
 msgid "You must highlight a table before you can watch it."
@@ -227,7 +227,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:648
 msgid "Join Error"
-msgstr ""
+msgstr "शामेल त्रुटि"
 
 #: ../ggz-gtk/client.c:678
 msgid "Disconnect from the GGZ Gaming Zone server"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:682
 msgid "Join an existing game"
-msgstr ""
+msgstr "विद्यमान खेलमा शामेल हुनुहोस्"
 
 #: ../ggz-gtk/client.c:684
 msgid "Watch an existing game - become a spectator of the table"
@@ -247,11 +247,11 @@ msgstr ""
 
 #: ../ggz-gtk/client.c:687
 msgid "Leave the game you're currently playing"
-msgstr ""
+msgstr "तपाई हाल खेलि रहनुभएको खेल छाडनुहोस्"
 
 #: ../ggz-gtk/client.c:689
 msgid "Show the properties dialog to change the client settings"
-msgstr ""
+msgstr "क्लाइन्ट सेटिङ परिवर्तन गर्न गुण संवाद देखाउने"
 
 #: ../ggz-gtk/client.c:693
 msgid "Show the game stats for the current room's game type"
@@ -394,15 +394,15 @@ msgstr ""
 
 #: ../ggz-gtk/first.c:57
 msgid "Deity"
-msgstr ""
+msgstr "देवता"
 
 #: ../ggz-gtk/first.c:57
 msgid "Sentinel"
-msgstr ""
+msgstr "पाले"
 
 #: ../ggz-gtk/first.c:57
 msgid "Captain"
-msgstr ""
+msgstr "नाइके"
 
 #: ../ggz-gtk/first.c:58
 msgid "Knight"
@@ -418,7 +418,7 @@ msgstr ""
 
 #: ../ggz-gtk/first.c:58
 msgid "Eagle"
-msgstr ""
+msgstr "चील"
 
 #: ../ggz-gtk/first.c:59
 msgid "Vampire"
@@ -442,7 +442,7 @@ msgstr ""
 
 #: ../ggz-gtk/first.c:60
 msgid "Scout"
-msgstr ""
+msgstr "स्काउट"
 
 #: ../ggz-gtk/first.c:60
 msgid "Lieutenant"
@@ -454,11 +454,11 @@ msgstr ""
 
 #: ../ggz-gtk/first.c:61
 msgid "Scientist"
-msgstr ""
+msgstr "वैज्ञानिक"
 
 #: ../ggz-gtk/first.c:61
 msgid "Scholar"
-msgstr ""
+msgstr "विद्वान"
 
 #: ../ggz-gtk/first.c:61
 msgid "Entity"
@@ -466,7 +466,7 @@ msgstr ""
 
 #: ../ggz-gtk/first.c:61
 msgid "Creator"
-msgstr ""
+msgstr "स्रष्टा"
 
 #: ../ggz-gtk/first.c:69
 msgid "GGZ Community (fast)"
@@ -474,7 +474,7 @@ msgstr ""
 
 #: ../ggz-gtk/first.c:70
 msgid "Local developer server"
-msgstr ""
+msgstr "स्थानीय विकासकर्ता सर्भर"
 
 #: ../ggz-gtk/first.c:190
 msgid ""
@@ -488,6 +488,8 @@ msgid ""
 "You don't have this game installed. You can download\n"
 "it from %s."
 msgstr ""
+"तपाईकोमा यो खेल इन्सटल भएको छैन । तपाई %s बाट\n"
+"डाउनलोड गर्न सक्नुहुन्छ ।"
 
 #: ../ggz-gtk/game.c:76 ../ggz-gtk/game.c:149 ../ggz-gtk/game.c:315
 #: ../ggz-gtk/game.c:325 ../ggz-gtk/game.c:334 ../ggz-gtk/game.c:350
@@ -511,7 +513,7 @@ msgstr ""
 
 #: ../ggz-gtk/game.c:296
 msgid "You can only play one game at a time."
-msgstr ""
+msgstr "तपाई एक पटकमा एउटा खेल मात्र खेल्न सक्नुहुन्छ ।"
 
 #: ../ggz-gtk/game.c:304
 msgid "You're still at a table."
@@ -598,7 +600,7 @@ msgstr ""
 
 #: ../ggz-gtk/ggzclient.c:447
 msgid "There was an error sending the chat."
-msgstr ""
+msgstr "च्याट पठाउँदा त्रुटि भयो ।"
 
 #: ../ggz-gtk/ggzclient.c:451
 msgid "You're not at a table."
@@ -691,7 +693,7 @@ msgstr ""
 
 #: ../ggz-gtk/ggzclient.c:776
 msgid "Playing"
-msgstr ""
+msgstr "खेल्दै"
 
 #: ../ggz-gtk/ggzclient.c:779
 msgid "<-- Table"
@@ -758,7 +760,7 @@ msgstr "लेखक:"
 
 #: ../ggz-gtk/launch.c:513
 msgid "Description:"
-msgstr ""
+msgstr "विवरण:"
 
 #: ../ggz-gtk/launch.c:530 ../ggz-gtk/roominfo.c:100
 msgid "Homepage:"
@@ -783,7 +785,7 @@ msgstr ""
 
 #: ../ggz-gtk/launch.c:663
 msgid "Game Description   "
-msgstr ""
+msgstr "खेल विवरण"
 
 #: ../ggz-gtk/login.c:101
 msgid "Login"
@@ -796,7 +798,7 @@ msgstr "क्षमा गर्नुहोस्!"
 #: ../ggz-gtk/login.c:115
 #, c-format
 msgid "That username is already in use."
-msgstr ""
+msgstr "त्यो प्रयोगकर्ता नाम पहिले देखि प्रयोगमा छ ।"
 
 #: ../ggz-gtk/login.c:119
 #, c-format
@@ -804,6 +806,8 @@ msgid ""
 "Authentication has failed.\n"
 "Please supply the correct password."
 msgstr ""
+"प्रमाणीकरण असफल भयो ।\n"
+"कृपया सहि पासवर्ड प्रदान गर्नुहोस् ।"
 
 #: ../ggz-gtk/login.c:123
 #, c-format
@@ -972,7 +976,7 @@ msgstr "नाम"
 
 #: ../ggz-gtk/props.c:249
 msgid "Properties Updated"
-msgstr ""
+msgstr "गुणहरु अद्यावधिक गरिए"
 
 #: ../ggz-gtk/props.c:1035
 msgid "Confirm:"
@@ -1120,11 +1124,11 @@ msgstr "मोजिला - विद्यमान"
 
 #: ../ggz-gtk/props.c:1472 ../ggz-gtk/support.c:176
 msgid "Netscape - New"
-msgstr ""
+msgstr "नेटस्केप - नयाँ"
 
 #: ../ggz-gtk/props.c:1473 ../ggz-gtk/support.c:179
 msgid "Netscape - Existing"
-msgstr ""
+msgstr "नेटस्केप - विद्यमान"
 
 #: ../ggz-gtk/props.c:1474 ../ggz-gtk/support.c:183
 msgid "Opera - New"
